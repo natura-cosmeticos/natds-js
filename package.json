@@ -1,0 +1,32 @@
+{
+  "name": "NATDS",
+  "version": "0.0.0-development",
+  "description": "Natura Design System",
+  "keywords": [
+    "design-system"
+  ],
+  "contributors": [
+    "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
+    "Vagner Saraiva <vagner@vizir.com.br>"
+  ],
+  "main": "index.js",
+  "homepage": "https://github.com/natura-cosmeticos/NATDS/issues",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/NATDS.git"
+  },
+  "files": [
+    "dist",
+    "README.md"
+  ],
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Vizir Software Studio <contato@vizir.com.br>",
+  "license": "MIT",
+  "dependencies": {},
+  "devDependencies": {
+    "commitizen": "4.0.3",
+    "semantic-release": "15.13.24"
+  }
+}
