@@ -1,5 +1,5 @@
-# NATDS
-Natura Cosmeticos Design System
+# NatDS
+Natura Design System
 
 ![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/NATDS.svg?style=flat-square)
 [![codecov](https://codecov.io/gh/natura-cosmeticos/NATDS/branch/master/graph/badge.svg)](https://codecov.io/gh/natura-cosmeticos/NATDS)

@@ -1,5 +1,5 @@
 {
-  "name": "NATDS",
+  "name": "natds",
   "version": "0.0.0-development",
   "description": "Natura Design System",
   "keywords": [
@@ -10,10 +10,10 @@
     "Vagner Saraiva <vagner@vizir.com.br>"
   ],
   "main": "index.js",
-  "homepage": "https://github.com/natura-cosmeticos/NATDS/issues",
+  "homepage": "https://github.com/natura-cosmeticos/natds/issues",
   "repository": {
     "type": "git",
-    "url": "https://github.com/natura-cosmeticos/NATDS.git"
+    "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "files": [
     "dist",
@@ -32,7 +32,6 @@
   },
   "husky": {
     "hooks": {
-      "pre-push": "npm test",
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
     }
   },
