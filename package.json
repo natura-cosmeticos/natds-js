@@ -36,5 +36,9 @@
     "hooks": {
       "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
     }
-  }
+  },
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ]
 }
