@@ -1,5 +1,5 @@
 {
-  "name": "natds-native",
+  "name": "@natds/native",
   "version": "0.0.0-development",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "keywords": [
@@ -18,6 +18,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873"
   },
   "dependencies": {},
   "devDependencies": {}
