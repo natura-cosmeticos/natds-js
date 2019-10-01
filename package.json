@@ -1,6 +1,6 @@
 {
-  "name": "NatDS",
-  "version": "0.0.0-development",
+  "name": "natds",
+  "version": "0.0.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "MIT",
   "keywords": [
@@ -18,7 +18,7 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "publish:repo": "lerna publish",
+    "release": "lerna publish",
     "clean": "lerna clean"
   },
   "private": true,
@@ -34,11 +34,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
     }
   }
 }
