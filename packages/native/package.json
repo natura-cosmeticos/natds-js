@@ -1,6 +1,6 @@
 {
   "name": "@natds/native",
-  "version": "0.0.0-development",
+  "version": "0.0.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "keywords": [
     "design-system"
@@ -21,7 +21,5 @@
   },
   "publishConfig": {
     "registry": "http://localhost:4873"
-  },
-  "dependencies": {},
-  "devDependencies": {}
+  }
 }
