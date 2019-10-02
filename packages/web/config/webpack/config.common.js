@@ -3,10 +3,6 @@
 const merge = require('webpack-merge')
 
 const CaseSensitivePathsPlugin = require('case-sensitive-paths-webpack-plugin')
-// const CopyWebpackPlugin = require('copy-webpack-plugin')
-// const Dotenv = require('dotenv-webpack')
-
-// const loaderFonts = require('./loader.fonts')
 const loaderTypescript = require('./loader.typescript')
 
 exports.setup = function(PATHS) {
