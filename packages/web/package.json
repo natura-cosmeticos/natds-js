@@ -1,6 +1,6 @@
 {
-  "name": "natds-web",
-  "version": "0.0.0-development",
+  "name": "@natds/web",
+  "version": "0.0.3",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "keywords": [
     "design-system"
@@ -11,7 +11,7 @@
     "Vagner Saraiva <vagner@vizir.com.br>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/natura-cosmeticos/natds/issues",
+  "homepage": "https://github.com/natura-cosmeticos/natds/packages/web",
   "repository": {
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds.git"
@@ -19,6 +19,9 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "start": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --port 8000"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873"
   },
   "dependencies": {
     "react": "16.10.1",

@@ -1,26 +1,31 @@
 {
-  "name": "NatDS",
-  "version": "0.0.0-development",
+  "name": "natds",
+  "version": "0.0.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "license": "MIT",
   "keywords": [
-    "design-system"
+    "Design System", "design-system", "Natura", "Natura Design System"
   ],
   "author": "Vizir Software Studio <contato@vizir.com.br>",
   "contributors": [
     "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
     "Vagner Saraiva <vagner@vizir.com.br>"
   ],
-  "homepage": "https://github.com/natura-cosmeticos/natds/issues",
+  "homepage": "https://github.com/natura-cosmeticos/natds",
   "repository": {
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "publish": "lerna publish",
-    "clean": "lerna clean"
+    "release": "lerna publish",
+    "clean": "lerna clean",
+    "commit": "git cz"
   },
-  "license": "MIT",
+  "private": true,
+  "workspaces": [
+    "packages/*"
+  ],
   "devDependencies": {
     "commitizen": "4.0.3",
     "cz-lerna-changelog": "2.0.2",
@@ -31,14 +36,5 @@
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
-    }
-  },
-  "private": true,
-  "workspaces": [
-    "packages/*"
-  ]
+  }
 }
