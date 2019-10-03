@@ -1,4 +1,4 @@
-package com.native;
+package com.natds;
 
 import android.app.Application;
 import android.content.Context;
