@@ -9,6 +9,7 @@ module.exports = {
     "enzyme-to-json/serializer"
   ],
   "setupFilesAfterEnv": [
-    "<rootDir>/config/jest/setupEnzyme.ts"
-  ],
+    "<rootDir>/config/test/setupEnzyme.ts",
+    "<rootDir>/config/test/setupChai.ts"
+  ]
 }

@@ -17,8 +17,11 @@
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
-    "test": "jest",
-    "test:watch": "jest --watch",
+    "test:unit": "jest",
+    "test:unit:ci": "yarn test:unit --verbose false",
+    "test:unit:watch": "yarn test:unit --watch",
+    "test:unit:coverage": "yarn test:unit --collectCoverage",
+    "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "start": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --port 8000"
   },
   "publishConfig": {
@@ -35,6 +38,8 @@
     "@types/react": "16.9.4",
     "@types/react-dom": "16.9.1",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "chai": "4.2.0",
+    "chai-enzyme": "1.0.0-beta.1",
     "clean-webpack-plugin": "3.0.0",
     "enzyme": "3.10.0",
     "enzyme-adapter-react-16": "1.14.0",
@@ -43,6 +48,7 @@
     "friendly-errors-webpack-plugin": "1.7.0",
     "git-revision-webpack-plugin": "3.0.4",
     "jest": "24.9.0",
+    "sinon": "7.5.0",
     "ts-jest": "24.1.0",
     "ts-loader": "6.2.0",
     "typescript": "3.6.3",
@@ -52,6 +58,7 @@
     "webpack-dev-server": "3.8.1",
     "webpack-jarvis": "0.3.2",
     "webpack-merge": "4.2.2",
-    "webpack-validator": "3.0.1"
+    "webpack-validator": "3.0.1",
+    "yarn": "1.19.0"
   }
 }
