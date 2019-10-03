@@ -9,20 +9,17 @@ interface IState {
   isChecked: boolean;
 };
 
-export class Chip extends React.Component<{
-  labelOn: string;
-  labelOff: string;
-}, IState> {
+export class Chip extends React.Component<IProps, IState> {
   constructor(props: IProps) {
     super(props);
     this.state = { isChecked: false };
   }
 
-  onChange = () => {
+  private onChange = () => {
     this.setState({ isChecked: !this.state.isChecked });
   }
 
-  render() {
+  public render() {
     return (
       <label>
         <input

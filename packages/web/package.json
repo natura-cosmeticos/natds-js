@@ -22,6 +22,7 @@
     "test:unit:watch": "yarn test:unit --watch",
     "test:unit:coverage": "yarn test:unit --collectCoverage",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
+    "lint": "tslint src/**/**.ts",
     "start": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --port 8000"
   },
   "publishConfig": {
@@ -52,9 +53,14 @@
     "friendly-errors-webpack-plugin": "1.7.0",
     "git-revision-webpack-plugin": "3.0.4",
     "jest": "24.9.0",
+    "prettier": "1.18.2",
     "sinon": "7.5.0",
     "ts-jest": "24.1.0",
     "ts-loader": "6.2.0",
+    "tslint": "5.20.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-config-standard": "8.0.1",
+    "tslint-react": "4.1.0",
     "typescript": "3.6.3",
     "webpack": "4.41.0",
     "webpack-cli": "3.3.9",

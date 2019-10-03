@@ -10,7 +10,7 @@ test('Chip changes the text after click', () => {
   expect(chip).to.have.text('Off');
 
   chip.find('input').simulate('change');
-  
+
   expect(chip).to.have.text('On');
 
   expect(chip).to.matchSnapshot();
