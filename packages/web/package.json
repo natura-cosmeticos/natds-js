@@ -17,7 +17,8 @@
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "start": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --port 8000"
   },
   "publishConfig": {
@@ -28,11 +29,21 @@
     "react-dom": "16.10.1"
   },
   "devDependencies": {
+    "@types/enzyme": "3.10.3",
+    "@types/enzyme-adapter-react-16": "1.0.5",
+    "@types/jest": "24.0.18",
+    "@types/react": "16.9.4",
+    "@types/react-dom": "16.9.1",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
     "clean-webpack-plugin": "3.0.0",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-to-json": "3.4.0",
     "error-overlay-webpack-plugin": "0.4.1",
     "friendly-errors-webpack-plugin": "1.7.0",
     "git-revision-webpack-plugin": "3.0.4",
+    "jest": "24.9.0",
+    "ts-jest": "24.1.0",
     "ts-loader": "6.2.0",
     "typescript": "3.6.3",
     "webpack": "4.41.0",
