@@ -1,1 +1,1 @@
-import './compiled'
+import './src'
