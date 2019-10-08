@@ -1,5 +1,5 @@
-import { Checkbox } from './Checkbox';
+import { Chip } from './Chip';
 
 export {
-  Checkbox
+  Chip
 }

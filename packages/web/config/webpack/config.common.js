@@ -10,7 +10,7 @@ exports.setup = function(PATHS) {
     entry: { app: PATHS.src },
     output: {
       path: PATHS.build,
-      filename: '[name].ts',
+      filename: '[name].js',
       publicPath: '/'
     },
     resolve: {
@@ -22,16 +22,15 @@ exports.setup = function(PATHS) {
         src: PATHS.src
       },
       extensions: [
-        '',
         '.webpack.js',
         '.ts',
         '.tsx',
         '.js'
-      ],
-      externals: {
-        'react': 'react',
-        'react-dom': 'reactdom'
-      }
+      ]
+    },
+    externals: {
+      'react': 'react',
+      'react-dom': 'reactdom'
     },
     plugins: [new CaseSensitivePathsPlugin()]
   }
