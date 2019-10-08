@@ -17,7 +17,12 @@
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
+    "test:unit": "jest",
+    "test:unit:ci": "yarn test:unit --verbose false",
+    "test:unit:watch": "yarn test:unit --watch",
+    "test:unit:coverage": "yarn test:unit --collectCoverage",
+    "test:unit:coverage:open": "open coverage/lcov-report/index.html",
+    "lint": "tslint src/**/**.ts",
     "start": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --port 8000"
   },
   "publishConfig": {
@@ -28,12 +33,34 @@
     "react-dom": "16.10.1"
   },
   "devDependencies": {
+    "@types/chai": "4.2.3",
+    "@types/chai-enzyme": "0.6.7",
+    "@types/chai-jest-snapshot": "1.3.5",
+    "@types/enzyme": "3.10.3",
+    "@types/enzyme-adapter-react-16": "1.0.5",
+    "@types/jest": "24.0.18",
+    "@types/react": "16.9.4",
+    "@types/react-dom": "16.9.1",
     "case-sensitive-paths-webpack-plugin": "2.2.0",
+    "chai": "4.2.0",
+    "chai-enzyme": "1.0.0-beta.1",
+    "chai-jest-snapshot": "2.0.0",
     "clean-webpack-plugin": "3.0.0",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.14.0",
+    "enzyme-to-json": "3.4.0",
     "error-overlay-webpack-plugin": "0.4.1",
     "friendly-errors-webpack-plugin": "1.7.0",
     "git-revision-webpack-plugin": "3.0.4",
+    "jest": "24.9.0",
+    "prettier": "1.18.2",
+    "sinon": "7.5.0",
+    "ts-jest": "24.1.0",
     "ts-loader": "6.2.0",
+    "tslint": "5.20.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-config-standard": "8.0.1",
+    "tslint-react": "4.1.0",
     "typescript": "3.6.3",
     "webpack": "4.41.0",
     "webpack-cli": "3.3.9",
@@ -41,6 +68,7 @@
     "webpack-dev-server": "3.8.1",
     "webpack-jarvis": "0.3.2",
     "webpack-merge": "4.2.2",
-    "webpack-validator": "3.0.1"
+    "webpack-validator": "3.0.1",
+    "yarn": "1.19.0"
   }
 }

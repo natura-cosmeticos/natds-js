@@ -22,10 +22,16 @@ exports.setup = function(PATHS) {
         src: PATHS.src
       },
       extensions: [
-        '.tsx',
+        '',
+        '.webpack.js',
         '.ts',
+        '.tsx',
         '.js'
-      ]
+      ],
+      externals: {
+        'react': 'react',
+        'react-dom': 'reactdom'
+      }
     },
     plugins: [new CaseSensitivePathsPlugin()]
   }
