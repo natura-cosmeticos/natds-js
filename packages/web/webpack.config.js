@@ -6,7 +6,6 @@ const paths = require('./config/webpack/bundle.paths')
 const common = require('./config/webpack/config.common')
 const development = require('./config/webpack/config.dev')
 const production = require('./config/webpack/config.prod')
-const validate = require('webpack-validator')
 
 const PATHS = paths.setup(__dirname)
 
