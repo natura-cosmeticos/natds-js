@@ -23,6 +23,8 @@
     "test:unit:coverage": "yarn test:unit --collectCoverage",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "lint": "tslint src/**/**.ts",
+    "test": "jest",
+    "test:watch": "jest --watch",
     "start": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --port 8000"
   },
   "publishConfig": {
