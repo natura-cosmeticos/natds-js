@@ -1,0 +1,67 @@
+{
+  "name": "@natds/mobile",
+  "version": "0.0.3",
+  "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "keywords": [
+    "design-system"
+  ],
+  "author": "Vizir Software Studio <contato@vizir.com.br>",
+  "contributors": [
+    "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
+    "Vagner Saraiva <vagner@vizir.com.br>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/natura-cosmeticos/natds/packages/native",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/natds.git"
+  },
+  "publishConfig": {
+    "registry": "http://localhost:4873"
+  },
+  "private": true,
+  "scripts": {
+    "android": "react-native run-android",
+    "ios": "react-native run-ios",
+    "start": "react-native start",
+    "test": "jest",
+    "lint": "tslint 'src/**/*.{ts,tsx}'"
+  },
+  "dependencies": {
+    "react": "16.8.6",
+    "react-native": "^0.60.0"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.6.2",
+    "@babel/runtime": "^7.6.2",
+    "@react-native-community/eslint-config": "^0.0.5",
+    "@types/jest": "^24.0.18",
+    "@types/react": "16.9.0",
+    "@types/react-native": "^0.60.17",
+    "@types/react-test-renderer": "16.9.0",
+    "babel-jest": "^24.9.0",
+    "core-js": "3",
+    "eslint": "^5.0.0",
+    "jest": "^24.9.0",
+    "metro-react-native-babel-preset": "^0.56.0",
+    "react-test-renderer": "16.9.0",
+    "typescript": "^3.6.3"
+  },
+  "jest": {
+    "preset": "react-native",
+    "moduleFileExtensions": [
+      "ts",
+      "tsx",
+      "js",
+      "jsx",
+      "json",
+      "node"
+    ]
+  },
+  "workspaces": {
+    "nohoist": [
+      "react-native",
+      "react-native/**"
+    ]
+  }
+}
