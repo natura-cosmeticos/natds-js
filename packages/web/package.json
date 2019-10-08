@@ -23,7 +23,7 @@
     "test:unit:coverage": "yarn test:unit --collectCoverage",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "lint": "tslint src/**/**.ts",
-    "test": "jest",
+    "test": "yarn test:unit:coverage",
     "test:watch": "jest --watch",
     "start": "NODE_ENV=development webpack-dev-server --host 0.0.0.0 --port 8000"
   },
@@ -70,7 +70,6 @@
     "webpack-dev-server": "3.8.1",
     "webpack-jarvis": "0.3.2",
     "webpack-merge": "4.2.2",
-    "webpack-validator": "3.0.1",
     "yarn": "1.19.0"
   }
 }
