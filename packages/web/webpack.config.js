@@ -16,9 +16,13 @@ module.exports = function() {
   const envConfig = productionMode ? production.setup(PATHS) : development.setup(PATHS)
   const commonConfig = common.setup(PATHS)
 
-  return merge(
+  const config = merge(
     commonConfig,
     envConfig,
     { mode }
   )
+
+  console.log(config)
+
+  return config
 }
