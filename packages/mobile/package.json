@@ -27,8 +27,8 @@
     "lint": "tslint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
-    "react": "16.8.6",
-    "react-native": "^0.60.0"
+    "react": "16.9.0",
+    "react-native": "0.61.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -46,15 +46,10 @@
     "react-test-renderer": "16.9.0",
     "typescript": "^3.6.3"
   },
-  "jest": {
-    "preset": "react-native",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
+  "workspaces": {
+    "nohoist": [
+      "react-native",
+      "react-native/**"
     ]
   }
 }
