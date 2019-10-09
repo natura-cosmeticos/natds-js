@@ -18,23 +18,26 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "storybook": "start-storybook"
-  },
-  "publishConfig": {
-    "registry": "http://localhost:4873"
+    "lint": "tslint src/**/**.ts?",
+    "start": "start-storybook",
+    "build": "build-storybook"
   },
   "devDependencies": {
     "@babel/core": "7.6.2",
     "@storybook/react": "5.2.3",
-    "@storybook/react-native": "5.2.3",
     "@types/storybook__react": "4.0.2",
+    "@types/react": "16.9.4",
+    "@types/react-dom": "16.9.1",
     "babel-loader": "8.0.6",
     "ts-loader": "6.2.0",
+    "tslint": "5.20.0",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-config-standard": "8.0.1",
+    "tslint-react": "4.1.0",
     "typescript": "3.6.3"
   },
   "dependencies": {
     "react": "16.10.2",
-    "react-dom": "16.10.2",
-    "@natds/web": "*"
+    "react-dom": "16.10.2"
   }
 }

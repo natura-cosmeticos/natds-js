@@ -5,7 +5,7 @@ export interface IProps {
   labelOff: string;
 };
 
-const Chip: FunctionComponent<IProps> = (props: IProps) => {
+export const Chip: FunctionComponent<IProps> = (props: IProps) => {
   const [isOn, toggleCheck] = useState(false);
 
   return (
@@ -19,5 +19,3 @@ const Chip: FunctionComponent<IProps> = (props: IProps) => {
     </label>
   );
 };
-
-export default Chip;
