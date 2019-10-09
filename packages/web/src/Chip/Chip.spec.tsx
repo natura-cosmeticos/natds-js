@@ -2,16 +2,18 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { Chip } from './Chip';
+import Chip from './Chip';
 
-test('Chip changes the text after click', () => {
-  const chip = shallow(<Chip labelOn="On" labelOff="Off" />);
+describe('Chip component', function() {
+  test('Chip changes the text after click', () => {
+    const chip = shallow(<Chip labelOn="On" labelOff="Off" />);
 
-  expect(chip).to.have.text('Off');
+    expect(chip).to.have.text('Off');
 
-  chip.find('input').simulate('change');
+    chip.find('input').simulate('change');
 
-  expect(chip).to.have.text('On');
+    expect(chip).to.have.text('On');
 
-  expect(chip).to.matchSnapshot();
+    expect(chip).to.matchSnapshot();
+  })
 })
