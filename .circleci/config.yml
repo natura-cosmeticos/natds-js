@@ -1,0 +1,76 @@
+version: 2
+jobs:
+  lint_web:
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "./packages/web/package.json" }}
+      - run:
+          name: Running linter on web
+          command: cd packages/web && yarn && yarn lint
+      - save_cache:
+          key: dependency-cache-{{ checksum "./packages/web/package.json" }}
+          paths:
+            - ./packages/web/node_modules
+
+  lint_mobile:
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "./packages/mobile/package.json" }}
+      - run:
+          name: Running linter on mobile
+          command: cd packages/mobile && yarn && yarn lint
+      - save_cache:
+          key: dependency-cache-{{ checksum "./packages/mobile/package.json" }}
+          paths:
+            - ./packages/mobile/node_modules
+
+  test_mobile:
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "./packages/mobile/package.json" }}
+      - run:
+          name: Testing mobile
+          command: cd packages/mobile && yarn && yarn test
+      - save_cache:
+          key: dependency-cache-{{ checksum "./packages/mobile/package.json" }}
+          paths:
+            - ./packages/mobile/node_modules
+
+  test_web:
+    docker:
+      - image: circleci/node:10.16.3
+    steps:
+      - checkout
+      - restore_cache:
+          key: dependency-cache-{{ checksum "./packages/web/package.json" }}
+      - run:
+          name: Testing web
+          command: cd packages/web && yarn && yarn test:unit:coverage
+      - save_cache:
+          key: dependency-cache-{{ checksum "./packages/web/package.json" }}
+          paths:
+            - ./packages/web/node_modules
+
+workflows:
+  version: 2
+  lint:
+    jobs:
+      - lint_mobile
+      - lint_web
+      - test_mobile:
+          requires:
+            - lint_mobile
+            - lint_web
+      - test_web:
+          requires:
+            - lint_mobile
+            - lint_web
