@@ -4,7 +4,10 @@
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "MIT",
   "keywords": [
-    "Design System", "design-system", "Natura", "Natura Design System"
+    "Design System",
+    "design-system",
+    "Natura",
+    "Natura Design System"
   ],
   "author": "Vizir Software Studio <contato@vizir.com.br>",
   "contributors": [
@@ -23,9 +26,15 @@
     "commit": "git cz"
   },
   "private": true,
-  "workspaces": [
-    "packages/*"
-  ],
+  "workspaces": {
+    "packages": [
+      "packages/*"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**"
+    ]
+  },
   "devDependencies": {
     "commitizen": "4.0.3",
     "cz-lerna-changelog": "2.0.2",
