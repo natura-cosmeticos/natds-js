@@ -1,22 +1,14 @@
 {
   "compilerOptions": {
-    "outDir": "build/lib",
+    "outDir": "dist",
     "module": "commonjs",
     "target": "es5",
-    "lib": [
-      "es5",
-      "es6",
-      "es7",
-      "es2017",
-      "dom"
-    ],
+    "lib": [ "es5", "es6", "es7", "es2017", "dom" ],
     "sourceMap": true,
     "allowJs": false,
     "jsx": "react",
     "moduleResolution": "node",
-    "rootDirs": [
-      "stories"
-    ],
+    "rootDirs": [ "stories" ],
     "baseUrl": "stories",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
@@ -28,14 +20,14 @@
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true
+    "emitDecoratorMetadata": true,
+    "skipLibCheck": true
   },
   "include": [
     "stories/**/*"
   ],
   "exclude": [
     "node_modules",
-    "build",
-    "scripts"
+    "dist"
   ]
 }
