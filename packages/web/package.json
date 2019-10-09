@@ -23,13 +23,13 @@
     "test:unit:watch": "yarn test:unit --watch",
     "test:unit:coverage": "yarn test:unit --collectCoverage",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
-    "lint": "tslint src/**/**.ts",
+    "lint": "tslint src/**/**.ts?",
     "build": "tsc -p ./tsconfig.json",
     "start": "yarn build -w"
   },
   "dependencies": {
-    "react": "16.10.1",
-    "react-dom": "16.10.1"
+    "react": "16.10.2",
+    "react-dom": "16.10.2"
   },
   "devDependencies": {
     "@types/chai": "4.2.3",
@@ -50,7 +50,6 @@
     "prettier": "1.18.2",
     "sinon": "7.5.0",
     "ts-jest": "24.1.0",
-    "ts-loader": "6.2.0",
     "tslint": "5.20.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-config-standard": "8.0.1",
