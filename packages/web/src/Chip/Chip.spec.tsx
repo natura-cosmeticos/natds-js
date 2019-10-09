@@ -2,7 +2,7 @@
 import React from 'react';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { Chip } from './Chip';
+import Chip from './Chip';
 
 describe('Chip component', () => {
   test('Chip changes the text after click', () => {
