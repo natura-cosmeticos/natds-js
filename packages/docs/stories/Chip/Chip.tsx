@@ -1,9 +1,12 @@
 import * as React from 'react';
-import { Chip } from '../../../../packages/web/dist/index';
-// import web from '@natds/web';
+import { Chip } from '@natds/web';
 
-export default { title: 'Chip' };
+export default { title: 'Elements|Chip' };
+
+export const Default = () => (
+  <Chip labelOn="On" labelOff="off" />
+);
 
 export const withText = () => (
-  <Chip labelOn="On" labelOff="off" />
+  <Chip labelOn="ble" labelOff="bla" />
 );

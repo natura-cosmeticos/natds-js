@@ -2,6 +2,8 @@
   "name": "@natds/web",
   "version": "0.0.3",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "keywords": [
     "design-system"
   ],
@@ -15,7 +17,8 @@
   "homepage": "https://github.com/natura-cosmeticos/natds/packages/web",
   "repository": {
     "type": "git",
-    "url": "https://github.com/natura-cosmeticos/natds.git"
+    "url": "https://github.com/natura-cosmeticos/natds.git",
+    "directory": "packages/web"
   },
   "scripts": {
     "test:unit": "jest",
