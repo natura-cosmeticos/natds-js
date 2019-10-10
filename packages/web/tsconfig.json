@@ -2,12 +2,12 @@
   "compilerOptions": {
     "outDir": "dist",
     "module": "commonjs",
+    "moduleResolution": "node",
     "target": "es5",
     "lib": ["es6", "es7", "es2017", "dom"],
     "sourceMap": true,
     "allowJs": false,
     "jsx": "react",
-    "moduleResolution": "node",
     "rootDir": "./src",
     "baseUrl": "./src",
     "forceConsistentCasingInFileNames": true,
@@ -19,13 +19,7 @@
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "skipLibCheck": true,
-    "paths": {
-      "*": [
-        "src/*",
-        "*"
-      ]
-    }
+    "skipLibCheck": true
   },
   "files": [
     "src/index.ts"
