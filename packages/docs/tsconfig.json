@@ -3,7 +3,13 @@
     "outDir": "dist",
     "module": "commonjs",
     "target": "es5",
-    "lib": [ "es5", "es6", "es7", "es2017", "dom" ],
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "dom"
+    ],
     "sourceMap": true,
     "allowJs": false,
     "jsx": "react",
@@ -20,14 +26,13 @@
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "emitDecoratorMetadata": true,
-    "skipLibCheck": true
+    "emitDecoratorMetadata": true
   },
   "include": [
     "stories/**/*"
   ],
   "exclude": [
     "node_modules",
-    "dist"
+    "build"
   ]
 }
