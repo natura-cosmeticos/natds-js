@@ -8,7 +8,8 @@
   "author": "Vizir Software Studio <contato@vizir.com.br>",
   "contributors": [
     "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
-    "Vagner Saraiva <vagner@vizir.com.br>"
+    "Vagner Saraiva <vagner@vizir.com.br>",
+    "Matheus Robert Lichtnow <matheus@vizir.com.br>"
   ],
   "license": "MIT",
   "homepage": "https://github.com/natura-cosmeticos/natds/packages/native",
@@ -27,8 +28,8 @@
     "lint": "tslint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
-    "react": "16.8.6",
-    "react-native": "^0.60.0"
+    "react": "16.9.0",
+    "react-native": "0.61.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -46,15 +47,10 @@
     "react-test-renderer": "16.9.0",
     "typescript": "^3.6.3"
   },
-  "jest": {
-    "preset": "react-native",
-    "moduleFileExtensions": [
-      "ts",
-      "tsx",
-      "js",
-      "jsx",
-      "json",
-      "node"
+  "workspaces": {
+    "nohoist": [
+      "react-native",
+      "react-native/**"
     ]
   }
 }
