@@ -1,21 +1,14 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent } from 'react';
+
+import MaterialChip from '@material-ui/core/Chip'
 
 export interface IProps {
-  labelOn: string;
-  labelOff: string;
+  label: string;
+  onDelete: any;
 };
 
 export const Chip: FunctionComponent<IProps> = (props: IProps) => {
-  const [isOn, toggleCheck] = useState(false);
-
   return (
-    <label>
-      <input
-        type="checkbox"
-        checked={isOn}
-        onChange={() => toggleCheck(!isOn)}
-      />
-      {isOn ? props.labelOn : props.labelOff}
-    </label>
+    <MaterialChip label={props.label} onDelete={props.onDelete} />
   );
 };

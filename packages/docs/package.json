@@ -34,13 +34,16 @@
     "@types/react-dom": "16.9.1",
     "@types/storybook__react": "4.0.2",
     "babel-loader": "8.0.6",
+    "css-loader": "3.2.0",
     "storybook-design-token": "0.3.1",
+    "style-loader": "1.0.0",
     "ts-loader": "6.2.0",
     "tslint": "5.20.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-config-standard": "8.0.1",
     "tslint-react": "4.1.0",
-    "typescript": "3.6.3"
+    "typescript": "3.6.3",
+    "typings-for-css-modules-loader": "1.7.0"
   },
   "dependencies": {
     "@natds/web": "0.0.3",
