@@ -21,7 +21,13 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
+    "test:unit": "jest",
+    "test:unit:ci": "yarn test:unit --verbose false",
+    "test:unit:watch": "yarn test:unit --watch",
+    "test:unit:coverage": "yarn test:unit --collectCoverage",
+    "test:unit:coverage:open": "open coverage/lcov-report/index.html",
+    "test:watch": "jest --watch",
+    "test": "yarn test:unit:coverage",
     "lint": "tslint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
