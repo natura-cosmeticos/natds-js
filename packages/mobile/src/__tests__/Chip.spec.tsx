@@ -1,6 +1,6 @@
 import 'react-native';
 import React from 'react';
-import Chip from '../Chip/Chip';
+import Chip from '../Components/Chip/Chip';
 
 import renderer from 'react-test-renderer';
 

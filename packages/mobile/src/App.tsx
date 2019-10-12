@@ -1,6 +1,6 @@
 import React from 'react';
 import { View } from 'react-native';
-import Chip from './Chip/Chip';
+import Chip from './Components/Chip/Chip';
 
 const App = () => {
   return (

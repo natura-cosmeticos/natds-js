@@ -63,5 +63,8 @@ buck-out/
 # CocoaPods
 /ios/Pods/
 
-# Coverage
-coverage/
+#coverage
+/coverage/
+
+#snapshot
+__snapshots__/

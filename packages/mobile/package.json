@@ -27,10 +27,11 @@
     "test:unit:coverage": "yarn test:unit --collectCoverage",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:watch": "jest --watch",
-    "test": "yarn test:unit:coverage",
+    "test": "yarn test:unit:coverage -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
+    "proptypes": "^1.1.0",
     "react": "16.9.0",
     "react-native": "0.61.2",
     "react-native-paper": "^2.16.0",
