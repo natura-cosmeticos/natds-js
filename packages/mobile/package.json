@@ -28,13 +28,18 @@
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:watch": "jest --watch",
 <<<<<<< HEAD
+<<<<<<< HEAD
     "test": "yarn test:unit:coverage -u",
 =======
     "test": "yarn test:unit:coverage",
 >>>>>>> chore(native): including paper chip component, tests and snapshots
+=======
+    "test": "yarn test:unit:coverage -u",
+>>>>>>> chore(native): including all props into chip component
     "lint": "tslint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
+    "proptypes": "^1.1.0",
     "react": "16.9.0",
     "react-native": "0.61.2",
     "react-native-paper": "^2.16.0",
