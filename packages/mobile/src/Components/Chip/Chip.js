@@ -29,7 +29,7 @@ var react_1 = __importDefault(require("react"));
 var prop_types_1 = __importDefault(require("prop-types"));
 var react_native_paper_1 = require("react-native-paper");
 var Chip = function (_a) {
-    var mode = _a.mode, children = _a.children, icon = _a.icon, avatar = _a.avatar, selected = _a.selected, selectedColor = _a.selectedColor, disabled = _a.disabled, accessibilityLabel = _a.accessibilityLabel, onPress = _a.onPress, onLongPress = _a.onLongPress, onClose = _a.onClose, textStyle = _a.textStyle, style = _a.style, theme = _a.theme, testID = _a.testID, other = __rest(_a, ["mode", "children", "icon", "avatar", "selected", "selectedColor", "disabled", "accessibilityLabel", "onPress", "onLongPress", "onClose", "textStyle", "style", "theme", "testID"]);
+    var mode = _a.mode, children = _a.children, icon = _a.icon, avatar = _a.avatar, selected = _a.selected, selectedColor = _a.selectedColor, disabled = _a.disabled, accessibilityLabel = _a.accessibilityLabel, textStyle = _a.textStyle, style = _a.style, theme = _a.theme, testID = _a.testID, onPress = _a.onPress, onLongPress = _a.onLongPress, onClose = _a.onClose, other = __rest(_a, ["mode", "children", "icon", "avatar", "selected", "selectedColor", "disabled", "accessibilityLabel", "textStyle", "style", "theme", "testID", "onPress", "onLongPress", "onClose"]);
     return (react_1.default.createElement(react_native_paper_1.Chip, __assign({ mode: mode, selected: selected, icon: icon, avatar: avatar, selectedColor: selectedColor, disabled: disabled, accessibilityLabel: accessibilityLabel, textStyle: textStyle, style: style, theme: theme, testID: testID, onPress: onPress, onLongPress: onLongPress, onClose: onClose }, other), children));
 };
 Chip.propTypes = {

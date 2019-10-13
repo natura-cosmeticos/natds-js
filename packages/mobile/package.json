@@ -27,15 +27,7 @@
     "test:unit:coverage": "yarn test:unit --collectCoverage",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:watch": "jest --watch",
-<<<<<<< HEAD
-<<<<<<< HEAD
     "test": "yarn test:unit:coverage -u",
-=======
-    "test": "yarn test:unit:coverage",
->>>>>>> chore(native): including paper chip component, tests and snapshots
-=======
-    "test": "yarn test:unit:coverage -u",
->>>>>>> chore(native): including all props into chip component
     "lint": "tslint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {

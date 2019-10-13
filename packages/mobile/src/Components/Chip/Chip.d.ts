@@ -1,6 +1,6 @@
 import PropTypes from 'prop-types';
 declare const Chip: {
-    ({ mode, children, icon, avatar, selected, selectedColor, disabled, accessibilityLabel, onPress, onLongPress, onClose, textStyle, style, theme, testID, ...other }: any): JSX.Element;
+    ({ mode, children, icon, avatar, selected, selectedColor, disabled, accessibilityLabel, textStyle, style, theme, testID, onPress, onLongPress, onClose, ...other }: any): JSX.Element;
     propTypes: {
         mode: PropTypes.Requireable<string>;
         children: PropTypes.Requireable<PropTypes.ReactNodeLike>;
