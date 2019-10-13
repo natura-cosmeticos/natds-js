@@ -47,9 +47,12 @@
     "@types/react-test-renderer": "16.9.0",
     "babel-jest": "^24.9.0",
     "core-js": "3",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
     "eslint": "^5.0.0",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
+    "react-dom": "^16.10.2",
     "react-test-renderer": "16.9.0",
     "typescript": "^3.6.3"
   },

@@ -11,13 +11,13 @@ const Chip = ({
   selectedColor,
   disabled,
   accessibilityLabel,
-  onPress,
-  onLongPress,
-  onClose,
   textStyle,
   style,
   theme,
   testID,
+  onPress,
+  onLongPress,
+  onClose,
   ...other
 }: any) => {
   return (
