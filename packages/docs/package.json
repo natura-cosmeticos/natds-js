@@ -23,11 +23,14 @@
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint src/**/**.ts?",
     "start": "start-storybook",
-    "build": "build-storybook"
+    "build": "build-storybook",
+    "deploy": "storybook-to-ghpages --source-branch=feature/docs-gitpages --out=dist",
+    "deploy:local": "yarn deploy --dry-run"
   },
   "devDependencies": {
     "@babel/core": "7.6.2",
     "@storybook/react": "5.2.3",
+    "@storybook/storybook-deployer": "2.8.1",
     "@types/react": "16.9.4",
     "@types/react-dom": "16.9.1",
     "@types/storybook__react": "4.0.2",
@@ -47,5 +50,10 @@
     "@natds/web": "0.0.3",
     "react": "16.10.2",
     "react-dom": "16.10.2"
+  },
+  "storybook-deployer": {
+    "gitUsername": "Vizir Software Studio",
+    "gitEmail": "vicentelyrio@gmail.com",
+    "commitMessage": "Deploy NatDS Storybook to GitHub Pages"
   }
 }
