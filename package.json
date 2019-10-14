@@ -32,12 +32,12 @@
       "packages/*"
     ],
     "nohoist": [
-      "**/react",
-      "**/react/**",
       "**/react-native",
       "**/react-native/**",
       "**/react-native-paper",
-      "**/react-native-paper/**"
+      "**/react-native-paper/**",
+      "**/create-react-class",
+      "**/create-react-class/**"
     ]
   },
   "devDependencies": {
