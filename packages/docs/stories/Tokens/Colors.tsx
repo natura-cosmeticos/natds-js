@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-// import * as styles from '../../styles/tokens.css'
+// import tokens from '@natds/styles'
 
 function ColorToken(props: { color: string }) {
   const style = {
@@ -13,18 +13,6 @@ function ColorToken(props: { color: string }) {
     fontFamily: 'sans-serif',
     padding: '10px'
   }
-
-  // const cssReq = require.context('!!raw-loader!../../styles', true, /.\.css$/);
-  // const cssTokenFiles = cssReq.keys().map((filename) => ({
-  //   filename,
-  //   content: cssReq(filename).default
-  // }));
-
-  // const rawCss = cssTokenFiles[0].content
-
-  // const section = rawCss.split('@tokens')
-
-  // console.log(section[0].split(':root'))
 
   return (
     <div style={style}>

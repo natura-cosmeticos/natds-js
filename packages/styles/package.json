@@ -2,6 +2,7 @@
   "name": "@natds/styles",
   "version": "0.0.3",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "main": "dist/tokens.css",
   "keywords": [
     "design-system"
   ],
@@ -18,6 +19,11 @@
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "build": "sass src:dist/",
+    "start": "yarn build --watch"
+  },
+  "devDependencies": {
+    "sass": "1.23.0",
+    "yarn": "1.19.1"
   }
 }
