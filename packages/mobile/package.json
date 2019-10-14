@@ -21,12 +21,20 @@
     "android": "react-native run-android",
     "ios": "react-native run-ios",
     "start": "react-native start",
-    "test": "jest",
+    "test:unit": "jest",
+    "test:unit:ci": "yarn test:unit --verbose false",
+    "test:unit:watch": "yarn test:unit --watch",
+    "test:unit:coverage": "yarn test:unit --collectCoverage",
+    "test:unit:coverage:open": "open coverage/lcov-report/index.html",
+    "test:watch": "jest --watch",
+    "test": "yarn test:unit:coverage -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'"
   },
   "dependencies": {
     "react": "16.9.0",
-    "react-native": "0.61.2"
+    "react-native": "0.61.2",
+    "react-native-paper": "^2.16.0",
+    "react-native-vector-icons": "^6.6.0"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
@@ -38,9 +46,12 @@
     "@types/react-test-renderer": "16.9.0",
     "babel-jest": "^24.9.0",
     "core-js": "3",
+    "enzyme": "^3.10.0",
+    "enzyme-adapter-react-16": "^1.15.1",
     "eslint": "^5.0.0",
     "jest": "^24.9.0",
     "metro-react-native-babel-preset": "^0.56.0",
+    "react-dom": "^16.10.2",
     "react-test-renderer": "16.9.0",
     "typescript": "^3.6.3"
   },
