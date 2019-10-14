@@ -1,34 +1,14 @@
-import React from 'react';
+import React, { FunctionComponent } from 'react';
 
-interface IProps {
-  labelOn: string;
-  labelOff: string;
+import MaterialChip from '@material-ui/core/Chip'
+
+export interface IProps {
+  label: string;
+  onDelete: any;
 };
 
-interface IState {
-  isChecked: boolean;
-};
-
-export class Chip extends React.Component<IProps, IState> {
-  constructor(props: IProps) {
-    super(props);
-    this.state = { isChecked: false };
-  }
-
-  private onChange = () => {
-    this.setState({ isChecked: !this.state.isChecked });
-  }
-
-  public render() {
-    return (
-      <label>
-        <input
-          type="checkbox"
-          checked={this.state.isChecked}
-          onChange={this.onChange}
-        />
-        {this.state.isChecked ? this.props.labelOn : this.props.labelOff}
-      </label>
-    );
-  }
+export const Chip: FunctionComponent<IProps> = (props: IProps) => {
+  return (
+    <MaterialChip label={props.label} onDelete={props.onDelete} />
+  );
 };

@@ -1,17 +1,23 @@
 
 import React from 'react';
-import { shallow } from 'enzyme';
+import { mount } from 'enzyme';
 import { expect } from 'chai';
+import { assert, spy } from 'sinon'
+
 import { Chip } from './Chip';
 
-test('Chip changes the text after click', () => {
-  const chip = shallow(<Chip labelOn="On" labelOff="Off" />);
+describe('Chip component', () => {
+  test('Chip calls onDelete', () => {
+    const onDelete = spy()
+    const label = 'A Chip Component'
+    const chip = mount(<Chip label={label} onDelete={onDelete} />);
 
-  expect(chip).to.have.text('Off');
+    expect(chip.find('.MuiChip-label')).to.have.text(label);
 
-  chip.find('input').simulate('change');
+    chip.find('.MuiChip-deleteIcon').first().simulate('click');
 
-  expect(chip).to.have.text('On');
+    assert.calledOnce(onDelete);
 
-  expect(chip).to.matchSnapshot();
+    expect(chip).to.matchSnapshot();
+  })
 })
