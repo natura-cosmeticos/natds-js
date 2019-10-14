@@ -1,7 +1,5 @@
 import * as React from 'react';
 
-// import tokens from '@natds/styles'
-
 function ColorToken(props: { color: string }) {
   const style = {
     background: 'var('+ props.color +')',
