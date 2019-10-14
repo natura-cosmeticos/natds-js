@@ -19,7 +19,7 @@
   },
   "scripts": {
     "android": "react-native run-android",
-    "ios": "react-native run-ios",
+    "ios": "react-native run-ios --simulator=\"iPhone 8\"",
     "start": "react-native start",
     "test:unit": "jest",
     "test:unit:ci": "yarn test:unit --verbose false",
