@@ -1,6 +1,6 @@
 import 'react-native';
 import React from 'react';
-import Chip from '../Components/Chip/Chip';
+import Chip from '../Components/Chip';
 
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';

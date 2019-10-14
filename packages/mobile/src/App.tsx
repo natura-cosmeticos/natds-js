@@ -1,11 +1,11 @@
 import React from 'react';
 import { View } from 'react-native';
-import Chip from './Components/Chip/Chip';
+import Chip from './Components/Chip';
 
 const App = () => {
   return (
     <View>
-      <Chip />
+      <Chip children />
     </View>
   );
 };
