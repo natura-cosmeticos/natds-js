@@ -9,7 +9,17 @@ module.exports = ({ config }) => {
       ]
     });
 
-  config.resolve.extensions.push('.ts', '.tsx');
+  config.module.rules
+    .push({
+      test: /\.scss$/,
+      use: [
+        { loader: "style-loader" },
+        { loader: "css-loader" },
+        { loader: "sass-loader" }
+      ]
+    });
+
+  config.resolve.extensions.push('.ts', '.tsx', 'js', 'jsx');
 
   return config;
 };
