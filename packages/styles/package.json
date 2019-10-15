@@ -2,7 +2,8 @@
   "name": "@natds/styles",
   "version": "0.0.4",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
-  "main": "dist/tokens.css",
+  "main": "src/tokens.scss",
+  "typings": "src/tokens.scss.d.ts",
   "keywords": [
     "design-system"
   ],
@@ -16,7 +17,8 @@
   "homepage": "https://github.com/natura-cosmeticos/natds/packages/styles",
   "repository": {
     "type": "git",
-    "url": "https://github.com/natura-cosmeticos/natds.git"
+    "url": "https://github.com/natura-cosmeticos/natds.git",
+    "directory": "packages/styles"
   },
   "scripts": {
     "build": "sass src:dist/",

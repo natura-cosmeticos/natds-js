@@ -24,7 +24,7 @@
     "lint": "tslint src/**/**.ts?",
     "start": "start-storybook",
     "build": "build-storybook",
-    "deploy": "storybook-to-ghpages --source-branch=feature/docs-gitpages --out=dist",
+    "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
     "deploy:local": "yarn deploy --dry-run"
   },
   "devDependencies": {
@@ -36,6 +36,7 @@
     "@types/storybook__react": "4.0.2",
     "babel-loader": "8.0.6",
     "css-loader": "3.2.0",
+    "sass-loader": "8.0.0",
     "style-loader": "1.0.0",
     "ts-loader": "6.2.0",
     "tslint": "5.20.0",
