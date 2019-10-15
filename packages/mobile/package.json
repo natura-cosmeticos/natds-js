@@ -13,8 +13,8 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/natura-cosmeticos/natds/packages/native",
-  "main": "dist/src/index.js",
-  "typings": "dist/src/index.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds.git"
@@ -31,7 +31,8 @@
     "test:watch": "jest --watch",
     "test": "yarn test:unit:coverage -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "build": "tsc -p ./tsconfig.json"
+    "build": "tsc -p ./tsconfig.json",
+    "watch": "tsc -p ./tsconfig.json --watch"
   },
   "dependencies": {
     "proptypes": "^1.1.0",

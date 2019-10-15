@@ -1,8 +1,7 @@
 import * as React from 'react';
 import { Platform } from 'react-native';
 import { Chip } from '@natds/web';
-import { Provider as PaperProvider } from 'react-native-paper';
-import NativeChip from '@natds/mobile/dist/Components/Chip/Chip';
+import { Chip as NativeChip } from '@natds/mobile';
 
 export default {
   title: 'Components|Chip',
@@ -14,17 +13,19 @@ export const WithDeleteAction = () => (
 );
 
 export const Native = () => (
-  <PaperProvider>
-    <React.Fragment>
-      {Platform.OS === 'web' ? (
-        <style type="text/css">{`
+  <>
+    {Platform.OS === 'web' ? (
+      <style type="text/css">{`
     @font-face {
-      font-family: 'MaterialCommunityIcons';
-      src: url('${require('react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf')}') format('truetype');
+      font-family: 'MaterialIcons';
+      src: url('${require('react-native-vector-icons/Fonts/MaterialIcons.ttf')}') format('truetype');
     }
   `}</style>
-      ) : null}
-      <NativeChip />
-    </React.Fragment>
-  </PaperProvider>
+    ) : null}
+    <NativeChip
+      children="Some Native Label"
+      onClose={() => {}}
+      onPress={() => {}}
+    />
+  </>
 );

@@ -1,4 +1,30 @@
+const path = require('path');
+
 module.exports = ({ config }) => {
+  config.module.rules = [];
+
+  config.module.rules.push({
+    test: /\.(eot|otf|ttf|woff|woff2)$/,
+    use: [
+      {
+        loader: 'file-loader',
+        options: {
+          context: '/',
+          name: 'fonts/[name].[ext]'
+        }
+      }
+    ]
+  });
+
+  config.module.rules.push({
+    test: /\.(png|jpe?g|gif)$/i,
+    use: [
+      {
+        loader: 'file-loader'
+      }
+    ]
+  });
+
   config.module.rules.push({
     test: /\.(ts|tsx)$/,
     use: [
@@ -33,11 +59,6 @@ module.exports = ({ config }) => {
         ]
       }
     }
-  });
-
-  config.module.rules.push({
-    test: /\.(jpg|png|woff|woff2|eot|ttf|svg)$/,
-    loader: 'file-loader'
   });
 
   return config;

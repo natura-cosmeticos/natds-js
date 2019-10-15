@@ -22,7 +22,7 @@
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint src/**/**.ts?",
-    "start": "start-storybook",
+    "start": "start-storybook -p 5000",
     "build": "build-storybook",
     "deploy": "storybook-to-ghpages --source-branch=feature/docs-gitpages --out=dist",
     "deploy:local": "yarn deploy --dry-run"
@@ -49,6 +49,7 @@
     "tslint-config-standard": "8.0.1",
     "tslint-react": "4.1.0",
     "typescript": "3.6.3",
+    "url-loader": "^2.2.0",
     "yarn": "1.19.1"
   },
   "dependencies": {
