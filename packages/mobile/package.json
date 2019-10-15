@@ -13,6 +13,8 @@
   ],
   "license": "MIT",
   "homepage": "https://github.com/natura-cosmeticos/natds/packages/native",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "repository": {
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds.git"
@@ -28,13 +30,18 @@
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:watch": "jest --watch",
     "test": "yarn test:unit:coverage -u",
-    "lint": "tslint 'src/**/*.{ts,tsx}'"
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "build": "tsc -p ./tsconfig.json",
+    "watch": "tsc -p ./tsconfig.json --watch"
   },
   "dependencies": {
-    "react": "16.9.0",
-    "react-native": "0.61.2",
+    "proptypes": "^1.1.0",
     "react-native-paper": "^2.16.0",
     "react-native-vector-icons": "^6.6.0"
+  },
+  "peerDependencies": {
+    "react": "^16.9.0",
+    "react-native": "^0.61.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",

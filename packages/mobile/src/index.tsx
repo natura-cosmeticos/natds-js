@@ -1,4 +1,3 @@
-import { AppRegistry } from 'react-native';
-import App from './App';
+import Chip from './Components/Chip';
 
-AppRegistry.registerComponent('mobile', () => App);
+export { Chip };
