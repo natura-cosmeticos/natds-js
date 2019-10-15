@@ -1,6 +1,6 @@
 {
   "name": "@natds/docs",
-  "version": "0.0.3",
+  "version": "0.0.1",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "keywords": [
@@ -24,7 +24,7 @@
     "lint": "tslint src/**/**.ts?",
     "start": "start-storybook -p 5000",
     "build": "build-storybook",
-    "deploy": "storybook-to-ghpages --source-branch=feature/docs-gitpages --out=dist",
+    "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
     "deploy:local": "yarn deploy --dry-run"
   },
   "devDependencies": {
@@ -42,6 +42,7 @@
     "css-loader": "3.2.0",
     "file-loader": "^4.2.0",
     "react-native-paper": "^2.16.0",
+    "sass-loader": "8.0.0",
     "style-loader": "1.0.0",
     "ts-loader": "6.2.0",
     "tslint": "5.20.0",
@@ -53,9 +54,9 @@
     "yarn": "1.19.1"
   },
   "dependencies": {
-    "@natds/mobile": "^0.0.3",
-    "@natds/styles": "0.0.3",
-    "@natds/web": "0.0.3",
+    "@natds/mobile": "*",
+    "@natds/styles": "*",
+    "@natds/web": "*",
     "@types/react-native": "^0.60.19",
     "react": "16.10.2",
     "react-dom": "16.10.2",
