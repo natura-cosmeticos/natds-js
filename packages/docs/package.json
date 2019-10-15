@@ -24,7 +24,7 @@
     "lint": "tslint src/**/**.ts?",
     "start": "start-storybook",
     "build": "build-storybook",
-    "deploy": "storybook-to-ghpages --source-branch=feature/docs-gitpages --out=dist",
+    "deploy": "storybook-to-ghpages --source-branch=feature/tokens --out=dist",
     "deploy:local": "yarn deploy --dry-run"
   },
   "devDependencies": {
