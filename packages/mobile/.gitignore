@@ -66,6 +66,9 @@ buck-out/
 #coverage
 /coverage/
 
+#jest report
+.jest-test-results.json
+
 #snapshot
 __snapshots__/
 
