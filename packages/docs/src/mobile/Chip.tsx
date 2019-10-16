@@ -1,7 +1,8 @@
 import * as React from 'react';
 import { Platform } from 'react-native';
 import { Chip } from '@natds/mobile';
-import withJest from '../decorators/jest'
+import withJest from '../decorators/jest';
+import { text } from '@storybook/addon-knobs';
 
 export default {
   title: 'Mobile|Chip',
@@ -21,7 +22,7 @@ export const Default = () => (
   `}</style>
     ) : null}
     <Chip
-      children="Some Native Label"
+      children={text('children', 'Native Chip')}
       onClose={() => {}}
       onPress={() => {}}
     />
