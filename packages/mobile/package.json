@@ -62,11 +62,5 @@
     "react-dom": "^16.10.2",
     "react-test-renderer": "16.9.0",
     "typescript": "^3.6.3"
-  },
-  "workspaces": {
-    "nohoist": [
-      "react-native",
-      "react-native/**"
-    ]
   }
 }
