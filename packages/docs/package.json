@@ -1,6 +1,6 @@
 {
   "name": "@natds/docs",
-  "version": "0.0.2",
+  "version": "0.0.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "keywords": [
@@ -19,11 +19,12 @@
     "url": "https://github.com/natura-cosmeticos/natds.git",
     "directory": "packages/docs"
   },
+  "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
     "lint": "tslint src/**/**.ts?",
     "start": "start-storybook -p 5000",
-    "build": "build-storybook",
+    "build": "build-storybook -o dist",
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
     "deploy:local": "yarn deploy --dry-run"
   },
