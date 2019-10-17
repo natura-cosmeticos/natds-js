@@ -22,8 +22,11 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "release": "lerna publish",
+    "release": "yarn build && lerna publish",
+    "release:local": "yarn release --no-push --registry http://localhost:4873 && yarn release:local:revert",
+    "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "clean": "lerna clean",
+    "build": "lerna run build",
     "commit": "git cz"
   },
   "private": true,
