@@ -1,18 +1,16 @@
 import * as React from 'react';
 import { Platform } from 'react-native';
-import { Chip } from '@natds/web';
-import { Chip as NativeChip } from '@natds/mobile';
+import { Chip } from '@natds/mobile';
+import withJest from '../decorators/jest'
 
 export default {
-  title: 'Components|Chip',
-  component: Chip
+  title: 'Mobile|Chip',
+  component: Chip,
+  decorators: [withJest()],
+  parameters: { jestImportPath: 'mobile', jest: ['Chip'] }
 };
 
-export const WithDeleteAction = () => (
-  <Chip label="Some Label" onDelete={() => {}} />
-);
-
-export const Native = () => (
+export const Default = () => (
   <>
     {Platform.OS === 'web' ? (
       <style type="text/css">{`
@@ -22,7 +20,7 @@ export const Native = () => (
     }
   `}</style>
     ) : null}
-    <NativeChip
+    <Chip
       children="Some Native Label"
       onClose={() => {}}
       onPress={() => {}}

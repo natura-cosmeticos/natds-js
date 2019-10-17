@@ -1,5 +1,7 @@
 import { configure } from '@storybook/react';
 
-const stories = require.context('../stories', true, /\.tsx?$/);
+const tokens = require.context('../stories/tokens', true, /\.tsx?$/)
+const web = require.context('../stories/web', true, /\.tsx?$/)
+const mobile = require.context('../stories/mobile', true, /\.tsx?$/)
 
-configure(stories, module);
+configure([tokens, web, mobile], module);
