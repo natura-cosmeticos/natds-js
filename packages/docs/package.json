@@ -21,7 +21,6 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "tslint src/**/**.tsx?",
     "start": "start-storybook -p 5000",
     "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
     "build": "build-storybook",
