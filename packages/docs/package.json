@@ -22,9 +22,9 @@
   "private": true,
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "tslint src/**/**.ts?",
     "start": "start-storybook -p 5000",
     "build": "build-storybook -o dist",
+    "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
     "deploy:local": "yarn deploy --dry-run"
   },
@@ -34,6 +34,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.6.3",
+    "@storybook/addon-jest": "5.2.4",
     "@storybook/react": "5.2.3",
     "@storybook/storybook-deployer": "2.8.1",
     "@types/react": "16.9.4",

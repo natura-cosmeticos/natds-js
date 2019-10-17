@@ -28,6 +28,7 @@
     "test:unit:watch": "yarn test:unit --watch",
     "test:unit:coverage": "yarn test:unit --collectCoverage",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
+    "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
     "test:watch": "jest --watch",
     "test": "yarn test:unit:coverage -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
