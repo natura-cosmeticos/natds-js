@@ -11,7 +11,7 @@ export interface IProps {
   disabled?: boolean;
   icon?: any;
   label: string;
-  onDelete?: any;
+  onDelete?: void;
 };
 
 export const Chip: FunctionComponent<IProps> = (props: IProps) => {
