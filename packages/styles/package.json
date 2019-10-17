@@ -2,8 +2,8 @@
   "name": "@natds/styles",
   "version": "0.0.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
-  "main": "src/tokens.scss",
-  "typings": "src/tokens.scss.d.ts",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
   "keywords": [
     "design-system"
   ],
@@ -21,11 +21,17 @@
     "directory": "packages/styles"
   },
   "scripts": {
-    "build": "sass src:dist/",
-    "start": "yarn build --watch"
+    "build": "rm -rf ./dist && tsc -p ./tsconfig.json",
+    "start": "yarn build --watch",
+    "test": "jest"
   },
   "devDependencies": {
+    "jest": "^24.9.0",
     "sass": "1.23.0",
+    "typescript": "^3.6.4",
     "yarn": "1.19.1"
+  },
+  "dependencies": {
+    "sass-export": "^1.0.6"
   }
 }

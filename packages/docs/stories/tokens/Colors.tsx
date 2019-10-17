@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as colors from '@natds/styles';
+import * as colors from '@natds/styles/sass/natura.scss';
 
 const styles = {
   container: {
@@ -16,7 +16,7 @@ const styles = {
   groupTitle: {
     fontSize: '24px',
     fontFamily: 'sans-serif',
-    flex: '0 0 100%',
+    flex: '0 0 100%'
   },
   item: {
     background: '#fff',
@@ -26,12 +26,12 @@ const styles = {
     flexFlow: 'column',
     padding: '10px',
     margin: '0 30px 30px 0',
-    boxShadow: 'rgba\(0,0,0,.05) 0 1px 4px 1px'
+    boxShadow: 'rgba(0,0,0,.05) 0 1px 4px 1px'
   },
   itemColor: {
     width: '250px',
     height: '80px',
-    borderRadius: '5px',
+    borderRadius: '5px'
   },
   itemName: {
     fontSize: '14px',
@@ -42,7 +42,7 @@ const styles = {
     padding: '5px 0 0',
     margin: '0'
   }
-}
+};
 
 const colorTokens = [
   {
@@ -89,51 +89,44 @@ const colorTokens = [
     id: 'natura_brand_complement',
     name: 'Natura Brand Complement'
   }
-]
+];
 
 function filterGroup(filter: string) {
-  return Object
-    .keys(colors)
-    .filter(color => color.split('-')[0] === filter);
+  return Object.keys(colors).filter(color => color.split('-')[0] === filter);
 }
 
 function BuildColorList(color: string) {
   const colorStyle = {
     ...styles.itemColor,
     background: colors[color]
-  }
+  };
 
-  const group = color.split('-')[0]
-  const name = color.replace(group+'-', '')
+  const group = color.split('-')[0];
+  const name = color.replace(group + '-', '');
 
   return (
     <div style={styles.item} key={color}>
       <span style={colorStyle} />
       <h6 style={styles.itemName}>${name}</h6>
     </div>
-  )
+  );
 }
 
-function BuildColorGroup(group: { name: string, id: string }) {
+function BuildColorGroup(group: { name: string; id: string }) {
   return (
     <div style={styles.group}>
       <h3 style={styles.groupTitle}>{group.name}</h3>
       {filterGroup(group.id).map(BuildColorList)}
     </div>
-  )
+  );
 }
-
 
 export default {
   title: 'Tokens|Colors'
 };
 
 export const All = () => {
-  return (
-    <div style={styles.container}>
-      {colorTokens.map(BuildColorGroup)}
-    </div>
-  )
+  return <div style={styles.container}>{colorTokens.map(BuildColorGroup)}</div>;
 };
 
 export const Primary = () => {
@@ -142,7 +135,7 @@ export const Primary = () => {
       {BuildColorGroup(colorTokens[0])}
       {BuildColorGroup(colorTokens[1])}
     </div>
-  )
+  );
 };
 
 export const Secondary = () => {
@@ -151,7 +144,7 @@ export const Secondary = () => {
       {BuildColorGroup(colorTokens[2])}
       {BuildColorGroup(colorTokens[3])}
     </div>
-  )
+  );
 };
 
 export const Brand = () => {
@@ -161,7 +154,7 @@ export const Brand = () => {
       {BuildColorGroup(colorTokens[9])}
       {BuildColorGroup(colorTokens[10])}
     </div>
-  )
+  );
 };
 
 export const General = () => {
@@ -172,5 +165,5 @@ export const General = () => {
       {BuildColorGroup(colorTokens[6])}
       {BuildColorGroup(colorTokens[7])}
     </div>
-  )
+  );
 };
