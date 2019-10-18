@@ -11,11 +11,9 @@ branches:
   only:
     - master
     - feature/setup
-    - feature/ci
 
 script:
   - yarn verify
-  - yarn build
 
 after_success:
   - yarn release
