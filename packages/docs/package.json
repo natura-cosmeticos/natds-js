@@ -21,12 +21,12 @@
   },
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook -p 5000",
     "build": "build-storybook -o dist",
-    "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
-    "deploy:local": "yarn deploy --dry-run"
+    "deploy:local": "yarn deploy --dry-run",
+    "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
+    "verify": ""
   },
   "devDependencies": {
     "@babel/core": "7.6.2",

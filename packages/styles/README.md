@@ -1,6 +1,5 @@
 # NatDS Styles
 Natura Design System - Styles
 
-![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/NATDS.svg?style=flat-square)
-[![codecov](https://codecov.io/gh/natura-cosmeticos/NATDS/branch/master/graph/badge.svg)](https://codecov.io/gh/natura-cosmeticos/NATDS)
-[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/NATDS/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/NATDS?targetFile=package.json)
+![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds.svg)
+[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds/packages/styles?targetFile=package.json)

@@ -22,14 +22,15 @@
   },
   "scripts": {
     "test:unit": "jest",
-    "test:unit:ci": "yarn test:unit --verbose false",
     "test:unit:watch": "yarn test:unit --watch",
-    "test:unit:coverage": "yarn test:unit --collectCoverage",
+    "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
-    "lint": "tslint src/**/**.tsx?",
+    "test": "yarn test:unit:coverage -u",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
     "build": "tsc -p ./tsconfig.json",
-    "start": "yarn build -w"
+    "start": "yarn build -w",
+    "verify": "yarn lint && yarn test"
   },
   "dependencies": {
     "@material-ui/core": "4.5.0"
