@@ -6,6 +6,29 @@ Natura Design System - Web Components
 
 ---
 
+## Install
+
+```
+$ yarn add @naturacosmeticos/natds-web
+```
+
+## Importing
+
+```
+import { Chip } from '@naturacosmeticos/natds-web'
+
+return (
+  <Chip clickable={true} onDelete={this.onDelete} />
+)
+```
+
+## Docs
+
+https://natura-cosmeticos.github.io/natds/
+
+
+---
+
 ## Development
 
 ---
