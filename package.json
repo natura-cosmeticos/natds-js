@@ -25,8 +25,6 @@
     "clean": "lerna clean",
     "commit": "git cz",
     "release": "yarn build && lerna publish",
-    "release:alpha": "yarn build && lerna publish --canary",
-    "release:beta": "yarn build && lerna publish --canary --preid beta",
     "release:local": "yarn release --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "build": "lerna run build",
