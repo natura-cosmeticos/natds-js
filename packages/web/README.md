@@ -35,7 +35,17 @@ $ yarn test:unit:coverage:open
 ```
 
 ---
-### Lint
+## Lint
+---
+
 ```
 $ yarn lint
+```
+
+---
+## Build
+---
+
+```
+$ yarn build
 ```
