@@ -1,5 +1,5 @@
 import * as React from 'react';
-import * as colors from '@naturacosmeticos/natds-styles';
+import * as colors from '@naturacosmeticos/natds-styles/sass/natura.scss';
 
 const styles = {
   container: {
@@ -16,7 +16,7 @@ const styles = {
   groupTitle: {
     fontSize: '24px',
     fontFamily: 'sans-serif',
-    flex: '0 0 100%',
+    flex: '0 0 100%'
   },
   item: {
     background: '#fff',
@@ -26,12 +26,12 @@ const styles = {
     flexFlow: 'column',
     padding: '10px',
     margin: '0 30px 30px 0',
-    boxShadow: 'rgba\(0,0,0,.05) 0 1px 4px 1px'
+    boxShadow: 'rgba(0,0,0,.05) 0 1px 4px 1px'
   },
   itemColor: {
     width: '250px',
     height: '80px',
-    borderRadius: '5px',
+    borderRadius: '5px'
   },
   itemName: {
     fontSize: '14px',
@@ -92,9 +92,7 @@ const colorTokens = [
 ];
 
 function filterGroup(filter: string) {
-  return Object
-    .keys(colors)
-    .filter(color => color.split('-')[0] === filter);
+  return Object.keys(colors).filter(color => color.split('-')[0] === filter);
 }
 
 function BuildColorList(color: string) {
@@ -104,7 +102,7 @@ function BuildColorList(color: string) {
   };
 
   const group = color.split('-')[0];
-  const name = color.replace(group+'-', '');
+  const name = color.replace(group + '-', '');
 
   return (
     <div style={styles.item} key={color}>
@@ -114,7 +112,7 @@ function BuildColorList(color: string) {
   );
 }
 
-function BuildColorGroup(group: { name: string, id: string }) {
+function BuildColorGroup(group: { name: string; id: string }) {
   return (
     <div style={styles.group}>
       <h3 style={styles.groupTitle}>{group.name}</h3>
@@ -123,17 +121,12 @@ function BuildColorGroup(group: { name: string, id: string }) {
   );
 }
 
-
 export default {
   title: 'Tokens|Colors'
 };
 
 export const All = () => {
-  return (
-    <div style={styles.container}>
-      {colorTokens.map(BuildColorGroup)}
-    </div>
-  );
+  return <div style={styles.container}>{colorTokens.map(BuildColorGroup)}</div>;
 };
 
 export const Primary = () => {
