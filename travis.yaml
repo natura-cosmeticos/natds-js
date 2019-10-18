@@ -10,11 +10,11 @@ cache:
 branches:
   only:
     - master
+    - feature/setup
 
 script:
   - yarn verify
   - yarn build
 
 after_success:
-  - yarn test:codecov
   - yarn release
