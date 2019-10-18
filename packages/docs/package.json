@@ -1,5 +1,5 @@
 {
-  "name": "@natds/docs",
+  "name": "@naturacosmeticos/natds-docs",
   "version": "0.0.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
@@ -58,9 +58,9 @@
     "yarn": "1.19.1"
   },
   "dependencies": {
-    "@natds/mobile": "*",
-    "@natds/styles": "*",
-    "@natds/web": "*",
+    "@naturacosmeticos/natds-rn": "*",
+    "@naturacosmeticos/natds-styles": "*",
+    "@naturacosmeticos/natds-web": "*",
     "@types/react-native": "^0.60.19",
     "react": "16.10.2",
     "react-dom": "16.10.2",
