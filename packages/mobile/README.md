@@ -1,6 +1,6 @@
-# NatDS Mobile
+# NatDS React Native
 
-Natura Design System - Mobile Components
+Natura Design System - React Native Components
 
 ![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/NATDS.svg?style=flat-square)
 [![codecov](https://codecov.io/gh/natura-cosmeticos/NATDS/branch/master/graph/badge.svg)](https://codecov.io/gh/natura-cosmeticos/NATDS)
@@ -10,9 +10,9 @@ Natura Design System - Mobile Components
 
 ```sh
 // with npm
-npm install --save @natds/mobile react-native-vector-icons
+npm install --save @naturacosmeticos/natds-rn react-native-vector-icons
 react-native link react-native-vector-icons
 // with yarn
-yarn add @natds/mobile react-native-vector-icons
+yarn add @naturacosmeticos/natds-rn react-native-vector-icons
 react-native link react-native-vector-icons
 ```
