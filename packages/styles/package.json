@@ -22,7 +22,8 @@
   },
   "scripts": {
     "build": "sass src:dist/",
-    "start": "yarn build --watch"
+    "start": "yarn build --watch",
+    "verify": ""
   },
   "devDependencies": {
     "sass": "1.23.0",

@@ -24,16 +24,16 @@
     "ios": "react-native run-ios --simulator=\"iPhone 8\"",
     "start": "react-native start",
     "test:unit": "jest",
-    "test:unit:ci": "yarn test:unit --verbose false",
-    "test:unit:watch": "yarn test:unit --watch",
-    "test:unit:coverage": "yarn test:unit --collectCoverage",
+    "test:unit:ci": "yarn test:unit ",
+    "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
     "test:watch": "jest --watch",
     "test": "yarn test:unit:coverage -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "build": "tsc -p ./tsconfig.json",
-    "watch": "tsc -p ./tsconfig.json --watch"
+    "watch": "tsc -p ./tsconfig.json --watch",
+    "verify": "yarn lint && yarn test"
   },
   "dependencies": {
     "proptypes": "^1.1.0",
