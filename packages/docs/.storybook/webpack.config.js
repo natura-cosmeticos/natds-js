@@ -1,4 +1,5 @@
 const path = require('path');
+const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
 
 module.exports = ({ config }) => {
   config.module.rules = [];
@@ -34,22 +35,14 @@ module.exports = ({ config }) => {
     ]
   });
 
-  config.module.rules
-    .push({
-      test: /\.scss$/,
-      use: [
-        { loader: "style-loader" },
-        { loader: "css-loader" },
-        { loader: "sass-loader" }
-      ]
-    });
-
-  config.resolve.extensions.push('.ts', '.tsx', 'js', 'jsx');
-
-  config.resolve.alias = {
-    'react-native': require.resolve('react-native-web'),
-    '@storybook/react-native': require.resolve('@storybook/react')
-  };
+  config.module.rules.push({
+    test: /\.scss$/,
+    use: [
+      { loader: "style-loader" },
+      { loader: "css-loader" },
+      { loader: "sass-loader" }
+    ]
+  });
 
   config.module.rules.push({
     test: /\.js$/,
@@ -70,6 +63,15 @@ module.exports = ({ config }) => {
       }
     }
   });
+
+  config.resolve.extensions.push('.ts', '.tsx', 'js', 'jsx');
+
+  config.resolve.alias = {
+    'react-native': require.resolve('react-native-web'),
+    '@storybook/react-native': require.resolve('@storybook/react')
+  };
+
+  config.resolve.plugins = [new TsconfigPathsPlugin()];
 
   return config;
 };
