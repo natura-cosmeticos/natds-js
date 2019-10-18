@@ -37,10 +37,16 @@ const styles = {
     fontSize: '14px',
     fontFamily: 'sans-serif',
     fontWeight: 400,
+    color: '#333',
     lineHeight: 1.5,
     width: '100%',
-    padding: '5px 0 0',
+    padding: '10px 0 0',
     margin: '0'
+  },
+  itemColorName: {
+    color: '#999',
+    fontSize: '13px',
+    padding: '5px 0 0',
   }
 }
 
@@ -98,18 +104,20 @@ function filterGroup(filter: string) {
 }
 
 function BuildColorList(color: string) {
+  const currentColor = colors[color];
+  const group = color.split('-')[0]
+  const name = color.replace(group + '-', '')
+
   const colorStyle = {
     ...styles.itemColor,
-    background: colors[color]
+    background: currentColor
   }
-
-  const group = color.split('-')[0]
-  const name = color.replace(group+'-', '')
 
   return (
     <div style={styles.item} key={color}>
       <span style={colorStyle} />
       <h6 style={styles.itemName}>${name}</h6>
+      <h6 style={{ ...styles.itemName, ...styles.itemColorName}}>{currentColor}</h6>
     </div>
   )
 }

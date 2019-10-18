@@ -21,10 +21,9 @@
   },
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "lint": "tslint src/**/**.tsx?",
-    "start": "start-storybook -p 5000",
     "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
-    "build": "build-storybook",
+    "start": "start-storybook -p 5000 -s ./dist",
+    "build": "build-storybook --output-dir dist/0.0.2",
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
     "deploy:local": "yarn deploy --dry-run"
   },
@@ -34,6 +33,7 @@
     "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.6.3",
+    "@panosvoudouris/addon-versions": "1.0.1",
     "@storybook/addon-jest": "5.2.4",
     "@storybook/addon-knobs": "5.2.4",
     "@storybook/react": "5.2.3",
