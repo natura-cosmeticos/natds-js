@@ -1,5 +1,5 @@
 {
-  "name": "@natds/docs",
+  "name": "@naturacosmeticos/natds-docs",
   "version": "0.0.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
@@ -21,12 +21,13 @@
   },
   "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "start": "start-storybook -p 5000",
     "build": "build-storybook -o dist",
-    "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
-    "deploy:local": "yarn deploy --dry-run"
+    "deploy:local": "yarn deploy --dry-run",
+    "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "verify": "yarn lint"
   },
   "devDependencies": {
     "@babel/core": "7.6.2",
@@ -35,6 +36,7 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.6.3",
     "@storybook/addon-jest": "5.2.4",
+    "@storybook/addon-knobs": "5.2.4",
     "@storybook/react": "5.2.3",
     "@storybook/storybook-deployer": "2.8.1",
     "@types/react": "16.9.4",
@@ -47,6 +49,7 @@
     "sass-loader": "8.0.0",
     "style-loader": "1.0.0",
     "ts-loader": "6.2.0",
+    "tsconfig-paths-webpack-plugin": "3.2.0",
     "tslint": "5.20.0",
     "tslint-config-prettier": "1.18.0",
     "tslint-config-standard": "8.0.1",
@@ -56,9 +59,9 @@
     "yarn": "1.19.1"
   },
   "dependencies": {
-    "@natds/mobile": "*",
-    "@natds/styles": "*",
-    "@natds/web": "*",
+    "@naturacosmeticos/natds-rn": "*",
+    "@naturacosmeticos/natds-styles": "*",
+    "@naturacosmeticos/natds-web": "*",
     "@types/react-native": "^0.60.19",
     "react": "16.10.2",
     "react-dom": "16.10.2",

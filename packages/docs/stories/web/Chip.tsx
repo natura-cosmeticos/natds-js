@@ -1,6 +1,6 @@
 import * as React from 'react';
-import { Chip } from '@natds/web';
-import withJest from '../decorators/jest'
+import { Chip } from '@naturacosmeticos/natds-web';
+import withJest from '../decorators/jest';
 
 export default {
   title: 'Web|Chip',
@@ -10,9 +10,5 @@ export default {
 };
 
 export const Default = () => (
-  <Chip
-    label="Some Label"
-    onDelete={() => { }}
-    clickable={true}
-  />
+  <Chip label="Some Label" onDelete={() => {}} clickable={true} />
 );
