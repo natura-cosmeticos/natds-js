@@ -23,8 +23,8 @@ export const Default = () => (
     ) : null}
     <Chip
       children={text('children', 'Native Chip')}
-      onClose={() => {}}
-      onPress={() => {}}
+      onClose={() => undefined}
+      onPress={() => undefined}
     />
   </>
 );

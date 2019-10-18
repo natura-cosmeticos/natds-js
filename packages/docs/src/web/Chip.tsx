@@ -18,6 +18,6 @@ export const Default = () => (
     clickable={boolean('clickable', true)}
     disabled={boolean('disabled', false)}
     label={text('label', 'Chip Component')}
-    onDelete={() => {}}
+    onDelete={() => undefined}
   />
 );
