@@ -11,6 +11,7 @@ branches:
   only:
     - master
     - feature/setup
+    - feature/ci
 
 script:
   - yarn verify
