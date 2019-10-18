@@ -26,7 +26,8 @@
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
     "deploy:local": "yarn deploy --dry-run",
     "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
-    "verify": ""
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "verify": "yarn lint"
   },
   "devDependencies": {
     "@babel/core": "7.6.2",

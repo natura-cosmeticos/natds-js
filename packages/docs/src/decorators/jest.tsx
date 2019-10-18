@@ -1,8 +1,8 @@
 import { makeDecorator } from '@storybook/addons';
 import { withTests } from '@storybook/addon-jest';
 
-import resultsWeb from '@packages/web/.jest-test-results.json'
-import resultsMobile from '@packages/mobile/.jest-test-results.json'
+import resultsWeb from '@packages/web/.jest-test-results.json';
+import resultsMobile from '@packages/mobile/.jest-test-results.json';
 
 export default makeDecorator({
   name: 'withJest',
@@ -11,7 +11,7 @@ export default makeDecorator({
     const testResults = {
       web: resultsWeb,
       mobile: resultsMobile
-    }
+    };
 
     const results = testResults[String(parameters)];
 
