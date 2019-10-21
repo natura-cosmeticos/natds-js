@@ -31,24 +31,26 @@
     "test:watch": "jest --watch",
     "test": "yarn test:unit:coverage -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "build": "tsc -p ./tsconfig.json",
-    "watch": "tsc -p ./tsconfig.json --watch",
+    "build:clean": "rm -rf ./dist",
+    "build": "yarn build:clean && tsc -p ./tsconfig.json",
+    "watch": "yarn build:clean && tsc -p ./tsconfig.json --watch",
     "verify": "yarn lint && yarn test"
   },
   "dependencies": {
+    "@naturacosmeticos/natds-styles": "^0.0.1",
     "proptypes": "^1.1.0",
     "react-native-paper": "^2.16.0",
     "react-native-vector-icons": "^6.6.0"
   },
   "peerDependencies": {
-    "react": "^16.9.0",
+    "react": "^16.10.2",
     "react-native": "^0.61.2"
   },
   "devDependencies": {
     "@babel/core": "^7.6.2",
     "@babel/runtime": "^7.6.2",
     "@react-native-community/eslint-config": "^0.0.5",
-    "@types/jest": "^24.0.18",
+    "@types/jest": "^24.0.19",
     "@types/react": "16.9.0",
     "@types/react-native": "^0.60.17",
     "@types/react-test-renderer": "16.9.0",
@@ -61,6 +63,7 @@
     "metro-react-native-babel-preset": "^0.56.0",
     "react-dom": "^16.10.2",
     "react-test-renderer": "16.9.0",
-    "typescript": "^3.6.3"
+    "typescript": "^3.6.3",
+    "yarn": "^1.19.1"
   }
 }

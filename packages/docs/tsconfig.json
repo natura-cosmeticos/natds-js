@@ -10,7 +10,7 @@
     "moduleResolution": "node",
     "rootDirs": [
       "../../packages",
-      "./src",
+      "./src"
     ],
     "baseUrl": "./src",
     "forceConsistentCasingInFileNames": true,
@@ -30,7 +30,7 @@
       "@packages/*": [
         "../../*"
       ]
-    },
+    }
   },
   "include": ["src/**/*"],
   "exclude": ["node_modules", "build"]
