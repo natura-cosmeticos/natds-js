@@ -5,14 +5,21 @@ describe('getTokens function', () => {
     const expectedJson = require('./parsedNaturaTheme.json');
 
     const tokens = getTokens(themes.natura);
-    expect(tokens).toEqual(expectedJson);
+    expect(tokens).toStrictEqual(expectedJson);
+  });
+
+  test('it should math the expected raw natura theme json', () => {
+    const expectedJson = require('./parsedNaturaRawTheme.json');
+
+    const tokens = getTokens(themes.natura, true);
+    expect(tokens).toStrictEqual(expectedJson);
   });
 
   test('it should throw error when file was not found', () => {
     try {
       getTokens('');
     } catch (error) {
-      expect(error.message).toBe('File not found');
+      expect(error.message).toBe('Theme not found');
     }
   });
 });

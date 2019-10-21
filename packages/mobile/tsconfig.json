@@ -1,12 +1,12 @@
 {
   "compilerOptions": {
     "outDir": "dist",
-    "module": "umd",
+    "module": "commonjs",
     "moduleResolution": "node",
     "target": "es5",
     "lib": ["es6", "es7", "es2017", "dom"],
     "sourceMap": true,
-    "allowJs": true,
+    "allowJs": false,
     "jsx": "react",
     "rootDir": "./src",
     "baseUrl": "./src",
@@ -16,7 +16,7 @@
     "esModuleInterop": true,
     "suppressImplicitAnyIndexErrors": true,
     "noUnusedLocals": true,
-    "declaration": false,
+    "declaration": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "skipLibCheck": true

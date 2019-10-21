@@ -1,9 +1,9 @@
 import { themes, getTokens } from '@naturacosmeticos/natds-styles';
-import { DefaultTheme, Theme } from 'react-native-paper';
+import { DefaultTheme, ThemeShape } from 'react-native-paper';
 
 const naturaTokens = getTokens(themes.natura);
 
-const naturaTheme: Theme =  {
+const naturaTheme: ThemeShape =  {
   ...DefaultTheme,
   colors: {
     primary: naturaTokens["primary-800-default"],

@@ -1,6 +1,3 @@
-import { exporter } from 'sass-export';
-import path from 'path';
-
 interface IToken {
   'primary-800-default': string;
   'primary-50-light': string;
@@ -71,30 +68,12 @@ interface IToken {
   'brand-comp-red-4': string;
 }
 
-function getTokens(themeFile: string): IToken {
-  const tokensPath = path.resolve(__dirname, '..', 'sass', themeFile);
-
-  const options = {
-    inputFiles: [tokensPath],
-    includePaths: []
-  };
-
-  try {
-    const tokens = exporter(options).getStructured();
-    const { variables } = tokens;
-    const parsedTokens = {};
-
-    variables.forEach(variable => {
-      const splittedNames = variable.name.split('$');
-
-      const attributeName = splittedNames[1];
-      const attributeValue = variable.compiledValue;
-
-      parsedTokens[attributeName] = attributeValue;
-    });
-    return parsedTokens as IToken;
-  } catch (error) {
-    throw new Error('File not found');
+function getTokens(themeName: string, raw: boolean = false): IToken {
+  try{
+    const theme: IToken = require(`../themes/${themeName}${raw ? '-raw' : ''}.json`);
+    return theme;
+  } catch(error) {
+    throw new Error('Theme not found');
   }
 }
 

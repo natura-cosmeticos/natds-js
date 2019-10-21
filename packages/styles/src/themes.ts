@@ -1,3 +1,3 @@
 export default {
-  natura: 'natura.scss'
+  natura: 'natura'
 };
