@@ -16,7 +16,7 @@ with npm:
 $ npm i --save @naturacosmeticos/natds-web
 ```
 
-## Importing
+## Usage
 
 ```
 import { Chip } from '@naturacosmeticos/natds-web'
@@ -32,47 +32,6 @@ https://natura-cosmeticos.github.io/natds/
 
 
 ---
+## Contributing
 
-## Development
-
----
-
-### Install
-```
-$ yarn
-```
-
-### Run
-```
-$ yarn start
-```
----
-
-## Test
-
----
-
-### Unit
-
-```
-$ yarn test:unit
-$ yarn test:unit:watch
-$ yarn test:unit:coverage
-$ yarn test:unit:coverage:open
-```
-
----
-## Lint
----
-
-```
-$ yarn lint
-```
-
----
-## Build
----
-
-```
-$ yarn build
-```
+To contribute, please check out our contributing file [`CONTRIBUTING`](./CONTRIBUTING.md)
