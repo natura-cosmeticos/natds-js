@@ -1,6 +1,7 @@
 import { configure, addDecorator, addParameters } from '@storybook/react';
-import { withKnobs } from '@storybook/addon-knobs';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
+import { withKnobs } from '@storybook/addon-knobs';
+import { withA11y } from '@storybook/addon-a11y';
 
 addParameters({
   viewport: {
@@ -9,10 +10,10 @@ addParameters({
 });
 
 addDecorator(withKnobs)
+addDecorator(withA11y)
 
 const tokens = require.context('../src/tokens', true, /\.tsx?$/);
 const web = require.context('../src/web', true, /\.tsx?$/);
 const mobile = require.context('../src/mobile', true, /\.tsx?$/);
-
 
 configure([tokens, web, mobile], module);
