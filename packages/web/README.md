@@ -11,6 +11,10 @@ Natura Design System - Web Components
 ```
 $ yarn add @naturacosmeticos/natds-web
 ```
+with npm:
+```
+$ npm i --save @naturacosmeticos/natds-web
+```
 
 ## Importing
 
