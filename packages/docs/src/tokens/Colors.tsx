@@ -38,6 +38,17 @@ const styles = {
     fontFamily: 'sans-serif',
     fontWeight: 400,
     lineHeight: 1.5,
+    color: '#333',
+    width: '100%',
+    padding: '10px 0 0',
+    margin: '0'
+  },
+  itemColorName: {
+    fontSize: '14px',
+    fontFamily: 'sans-serif',
+    fontWeight: 400,
+    lineHeight: 1.5,
+    color: '#666',
     width: '100%',
     padding: '5px 0 0',
     margin: '0'
@@ -74,7 +85,7 @@ const colorTokens = [
     name: 'Feedback'
   },
   {
-    id: 'levels_CN',
+    id: 'levels_cn',
     name: 'Levels CN'
   },
   {
@@ -96,9 +107,10 @@ function filterGroup(filter: string) {
 }
 
 function BuildColorList(color: string) {
+  const colorValue = colors[color];
   const colorStyle = {
     ...styles.itemColor,
-    background: colors[color]
+    background: colorValue
   };
 
   const group = color.split('-')[0];
@@ -107,7 +119,8 @@ function BuildColorList(color: string) {
   return (
     <div style={styles.item} key={color}>
       <span style={colorStyle} />
-      <h6 style={styles.itemName}>${name}</h6>
+      <h5 style={styles.itemName}>${name}</h5>
+      <h6 style={styles.itemColorName}>{colorValue}</h6>
     </div>
   );
 }
