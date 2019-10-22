@@ -1,6 +1,5 @@
 import { natura } from '../../Themes';
-// tslint:disable-next-line: no-var-requires
-const naturaThemeSnapshot = require('./natura-theme.json');
+import naturaThemeSnapshot from './natura-theme.json';
 
 describe('Testing natura theme', () => {
   test('it should match the natura theme snapshot', () => {
