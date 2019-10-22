@@ -1,6 +1,6 @@
 import React, { FunctionComponent } from 'react';
 
-import MaterialChip from '@material-ui/core/Chip'
+import MaterialChip from '@material-ui/core/Chip';
 
 export interface IProps {
   avatar?: any;
@@ -11,8 +11,8 @@ export interface IProps {
   disabled?: boolean;
   icon?: any;
   label: string;
-  onDelete?: any;
-};
+  onDelete?: () => void;
+}
 
 export const Chip: FunctionComponent<IProps> = (props: IProps) => {
   return (

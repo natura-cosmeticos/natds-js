@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Platform } from 'react-native';
-import { Chip } from '@natds/mobile';
+import { Chip } from '@naturacosmeticos/natds-rn';
 import withJest from '../decorators/jest';
 import { text } from '@storybook/addon-knobs';
 
@@ -23,8 +23,8 @@ export const Default = () => (
     ) : null}
     <Chip
       children={text('children', 'Native Chip')}
-      onClose={() => {}}
-      onPress={() => {}}
+      onClose={() => undefined}
+      onPress={() => undefined}
     />
   </>
 );

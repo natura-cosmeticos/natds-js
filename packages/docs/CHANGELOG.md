@@ -3,18 +3,10 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
-## 0.0.2 (2019-10-15)
+## 0.0.1 (2019-10-18)
 
-**Note:** Version bump only for package @natds/docs
 
-## 0.0.1 (2019-10-15)
+### Bug Fixes
 
-**Note:** Version bump only for package @natds/docs
-
-## [0.0.5](https://github.com/natura-cosmeticos/natds/compare/@natds/docs@0.0.4...@natds/docs@0.0.5) (2019-10-15)
-
-**Note:** Version bump only for package @natds/docs
-
-## 0.0.4 (2019-10-15)
-
-**Note:** Version bump only for package @natds/docs
+* **all:** fixing version packages and adjusts dev publish ([d18baaa](https://github.com/natura-cosmeticos/natds/commit/d18baaae6e10247531afc8733b6c0b29af6c6fce))
+* **all:** renaming packages to default organization npm ([3fadff8](https://github.com/natura-cosmeticos/natds/commit/3fadff86ba3eff9a19cd9aa9fb031535af09bc24))

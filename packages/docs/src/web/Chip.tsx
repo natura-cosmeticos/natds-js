@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { Chip } from '@natds/web';
+import { Chip } from '@naturacosmeticos/natds-web';
 import withJest from '../decorators/jest';
 import { text, boolean } from '@storybook/addon-knobs';
 
@@ -18,6 +18,6 @@ export const Default = () => (
     clickable={boolean('clickable', true)}
     disabled={boolean('disabled', false)}
     label={text('label', 'Chip Component')}
-    onDelete={() => { }}
+    onDelete={() => undefined}
   />
 );

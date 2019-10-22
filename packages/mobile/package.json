@@ -1,6 +1,6 @@
 {
-  "name": "@natds/mobile",
-  "version": "0.0.2",
+  "name": "@naturacosmeticos/natds-rn",
+  "version": "0.0.1",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "keywords": [
     "design-system"
@@ -12,7 +12,7 @@
     "Matheus Robert Lichtnow <matheus@vizir.com.br>"
   ],
   "license": "MIT",
-  "homepage": "https://github.com/natura-cosmeticos/natds/packages/native",
+  "homepage": "https://github.com/natura-cosmeticos/natds/packages/mobile",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "repository": {
@@ -24,16 +24,16 @@
     "ios": "react-native run-ios --simulator=\"iPhone 8\"",
     "start": "react-native start",
     "test:unit": "jest",
-    "test:unit:ci": "yarn test:unit --verbose false",
-    "test:unit:watch": "yarn test:unit --watch",
-    "test:unit:coverage": "yarn test:unit --collectCoverage",
+    "test:unit:ci": "yarn test:unit ",
+    "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
     "test:watch": "jest --watch",
     "test": "yarn test:unit:coverage -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "build": "tsc -p ./tsconfig.json",
-    "watch": "tsc -p ./tsconfig.json --watch"
+    "watch": "tsc -p ./tsconfig.json --watch",
+    "verify": "yarn lint && yarn test"
   },
   "dependencies": {
     "proptypes": "^1.1.0",

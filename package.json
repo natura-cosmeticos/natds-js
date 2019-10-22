@@ -22,9 +22,13 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
-    "release": "lerna publish",
     "clean": "lerna clean",
-    "commit": "git cz"
+    "commit": "git cz",
+    "release": "yarn build && lerna publish",
+    "release:local": "yarn release --no-push --registry http://localhost:4873",
+    "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
+    "build": "lerna run build",
+    "verify": "lerna run verify"
   },
   "private": true,
   "workspaces": {
@@ -41,7 +45,9 @@
       "**/react-native-image-loader",
       "**/react-native-image-loader/**",
       "**/react-native-vector-icons",
-      "**/react-native-vector-icons/**"
+      "**/react-native-vector-icons/**",
+      "**/sass-export",
+      "**/sass-export/**"
     ]
   },
   "devDependencies": {

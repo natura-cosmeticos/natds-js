@@ -1,6 +1,6 @@
 {
-  "name": "@natds/docs",
-  "version": "0.0.2",
+  "name": "@naturacosmeticos/natds-docs",
+  "version": "0.0.1",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "keywords": [
@@ -19,13 +19,15 @@
     "url": "https://github.com/natura-cosmeticos/natds.git",
     "directory": "packages/docs"
   },
+  "private": true,
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1",
     "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
-    "start": "start-storybook -p 5000 -s ./dist",
     "build": "build-storybook --output-dir dist/0.0.2",
+    "start": "start-storybook -p 5000 -s ./dist",
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
-    "deploy:local": "yarn deploy --dry-run"
+    "deploy:local": "yarn deploy --dry-run",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "verify": "yarn lint"
   },
   "devDependencies": {
     "@babel/core": "7.6.2",
@@ -34,8 +36,10 @@
     "@babel/preset-flow": "^7.0.0",
     "@babel/preset-react": "^7.6.3",
     "@panosvoudouris/addon-versions": "1.0.1",
+    "@storybook/addon-a11y": "5.2.4",
     "@storybook/addon-jest": "5.2.4",
     "@storybook/addon-knobs": "5.2.4",
+    "@storybook/addon-viewport": "5.2.4",
     "@storybook/react": "5.2.3",
     "@storybook/storybook-deployer": "2.8.1",
     "@types/react": "16.9.4",
@@ -58,9 +62,9 @@
     "yarn": "1.19.1"
   },
   "dependencies": {
-    "@natds/mobile": "*",
-    "@natds/styles": "*",
-    "@natds/web": "*",
+    "@naturacosmeticos/natds-rn": "^0.0.1",
+    "@naturacosmeticos/natds-styles": "^0.0.1",
+    "@naturacosmeticos/natds-web": "^0.0.1",
     "@types/react-native": "^0.60.19",
     "react": "16.10.2",
     "react-dom": "16.10.2",
