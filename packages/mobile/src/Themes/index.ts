@@ -1,1 +1,1 @@
-export {natura} from './natura';
+export { natura } from './natura';

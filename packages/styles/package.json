@@ -23,12 +23,15 @@
   "scripts": {
     "build": "tsc -p ./tsconfig.json",
     "start": "yarn build --watch",
+    "watch": "yarn start",
     "test": "jest",
-    "verify": ""
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "verify": "yarn lint && yarn test"
   },
   "devDependencies": {
     "jest": "^24.9.0",
     "sass": "1.23.0",
+    "ts-jest": "^24.1.0",
     "typescript": "^3.6.4",
     "yarn": "1.19.1"
   },

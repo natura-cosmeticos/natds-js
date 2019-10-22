@@ -1,0 +1,971 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Chip rendering should match to snapshot - AccessibilityLabel: AccessibilityLabel chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityLabel="accessibilityLabel"
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "marginLeft": 8,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - Avatar: Avatar chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "marginRight": 4,
+            },
+            false,
+          ]
+        }
+      >
+        avatar
+      </View>
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "marginLeft": 4,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - Default: Default chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "marginLeft": 8,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - Disabled: Disabled chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={
+      Array [
+        "disabled",
+      ]
+    }
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.26)",
+                "marginLeft": 8,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - Icon: Icon chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "padding": 4,
+            },
+            null,
+          ]
+        }
+      >
+        <Text
+          accessibilityElementsHidden={true}
+          allowFontScaling={false}
+          importantForAccessibility="no-hide-descendants"
+          pointerEvents="none"
+          style={
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.54)",
+                "fontSize": 18,
+              },
+              Array [
+                Object {
+                  "transform": Array [
+                    Object {
+                      "scaleX": 1,
+                    },
+                  ],
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "marginLeft": 4,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - Selected: Selected chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "rgb(188, 188, 188)",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={
+      Array [
+        "selected",
+      ]
+    }
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <View
+        style={
+          Array [
+            Object {
+              "padding": 4,
+            },
+            null,
+          ]
+        }
+      >
+        <Text
+          accessibilityElementsHidden={true}
+          allowFontScaling={false}
+          importantForAccessibility="no-hide-descendants"
+          pointerEvents="none"
+          style={
+            Array [
+              Object {
+                "color": "rgba(0, 0, 0, 0.54)",
+                "fontSize": 18,
+              },
+              Array [
+                Object {
+                  "transform": Array [
+                    Object {
+                      "scaleX": 1,
+                    },
+                  ],
+                },
+                Object {
+                  "backgroundColor": "transparent",
+                },
+              ],
+              Object {
+                "fontFamily": "Material Icons",
+                "fontStyle": "normal",
+                "fontWeight": "normal",
+              },
+              Object {},
+            ]
+          }
+        >
+          
+        </Text>
+      </View>
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "marginLeft": 4,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - SelectedColor: SelectedColor chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(255, 0, 0, 0.87)",
+                "marginLeft": 8,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - Style: Style chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "marginLeft": 8,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - TestID: TestID chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+    testID="testID"
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "marginLeft": 8,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - TextStyle: TextStyle chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "marginLeft": 8,
+                "marginRight": 8,
+              },
+              Object {},
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
+
+exports[`Chip rendering should match to snapshot - Theme: Theme chip snapshot 1`] = `
+<View
+  style={
+    Object {
+      "backgroundColor": "#ebebeb",
+      "borderColor": "#ebebeb",
+      "borderRadius": 16,
+      "borderStyle": "solid",
+      "borderWidth": 0.5,
+      "elevation": 0,
+    }
+  }
+>
+  <View
+    accessibilityRole="button"
+    accessibilityStates={Array []}
+    accessible={true}
+    focusable={false}
+    isTVSelectable={true}
+    onClick={[Function]}
+    onResponderGrant={[Function]}
+    onResponderMove={[Function]}
+    onResponderRelease={[Function]}
+    onResponderTerminate={[Function]}
+    onResponderTerminationRequest={[Function]}
+    onStartShouldSetResponder={[Function]}
+    style={
+      Array [
+        Object {
+          "overflow": "hidden",
+        },
+        Object {
+          "borderRadius": 16,
+        },
+      ]
+    }
+  >
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flexDirection": "row",
+          "paddingHorizontal": 4,
+        }
+      }
+    >
+      <Text
+        numberOfLines={1}
+        style={
+          Array [
+            Object {
+              "color": "#000000",
+              "fontFamily": "Helvetica Neue",
+              "textAlign": "left",
+              "writingDirection": "ltr",
+            },
+            Array [
+              Object {
+                "lineHeight": 24,
+                "marginVertical": 4,
+                "minHeight": 24,
+                "textAlignVertical": "center",
+              },
+              Object {
+                "color": "rgba(0, 0, 0, 0.87)",
+                "marginLeft": 8,
+                "marginRight": 8,
+              },
+              undefined,
+            ],
+          ]
+        }
+      />
+    </View>
+  </View>
+</View>
+`;
