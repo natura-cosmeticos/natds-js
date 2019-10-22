@@ -30,6 +30,7 @@
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "build": "tsc -p ./tsconfig.json",
     "start": "yarn build -w",
+    "watch":"yarn start",
     "verify": "yarn lint && yarn test"
   },
   "dependencies": {
