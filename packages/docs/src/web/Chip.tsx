@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { Chip } from '@naturacosmeticos/natds-web';
-import withJest from '../decorators/jest';
+import withJest from '@decorators/jest';
 import { text, boolean } from '@storybook/addon-knobs';
 
 export default {

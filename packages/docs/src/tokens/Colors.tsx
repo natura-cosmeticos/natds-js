@@ -119,64 +119,56 @@ function BuildColorList(color: string) {
   return (
     <div style={styles.item} key={color}>
       <span style={colorStyle} />
-      <h5 style={styles.itemName}>${name}</h5>
-      <h6 style={styles.itemColorName}>{colorValue}</h6>
+      <p style={styles.itemName}>${name}</p>
+      <p style={styles.itemColorName}>{colorValue}</p>
     </div>
   );
 }
 
-function BuildColorGroup(group: { name: string; id: string }) {
-  return (
-    <div style={styles.group}>
-      <h3 style={styles.groupTitle}>{group.name}</h3>
-      {filterGroup(group.id).map(BuildColorList)}
-    </div>
-  );
-}
+const BuildColorGroup = (group: { name: string; id: string }, index: number = 0) => (
+  <div style={styles.group} key={index}>
+    <h3 style={styles.groupTitle}>{group.name}</h3>
+    {filterGroup(group.id).map(BuildColorList)}
+  </div>
+);
 
 export default {
   title: 'Tokens|Colors'
 };
 
-export const All = () => {
-  return <div style={styles.container}>{colorTokens.map(BuildColorGroup)}</div>;
-};
+export const All = () => (
+  <div style={styles.container}>
+    {colorTokens.map(BuildColorGroup)}
+  </div>
+);
 
-export const Primary = () => {
-  return (
-    <div style={styles.container}>
-      {BuildColorGroup(colorTokens[0])}
-      {BuildColorGroup(colorTokens[1])}
-    </div>
-  );
-};
+export const Primary = () => (
+  <div style={styles.container}>
+    {BuildColorGroup(colorTokens[0])}
+    {BuildColorGroup(colorTokens[1])}
+  </div>
+);
 
-export const Secondary = () => {
-  return (
-    <div style={styles.container}>
-      {BuildColorGroup(colorTokens[2])}
-      {BuildColorGroup(colorTokens[3])}
-    </div>
-  );
-};
+export const Secondary = () => (
+  <div style={styles.container}>
+    {BuildColorGroup(colorTokens[2])}
+    {BuildColorGroup(colorTokens[3])}
+  </div>
+);
 
-export const Brand = () => {
-  return (
-    <div style={styles.container}>
-      {BuildColorGroup(colorTokens[8])}
-      {BuildColorGroup(colorTokens[9])}
-      {BuildColorGroup(colorTokens[10])}
-    </div>
-  );
-};
+export const Brand = () => (
+  <div style={styles.container}>
+    {BuildColorGroup(colorTokens[8])}
+    {BuildColorGroup(colorTokens[9])}
+    {BuildColorGroup(colorTokens[10])}
+  </div>
+);
 
-export const General = () => {
-  return (
-    <div style={styles.container}>
-      {BuildColorGroup(colorTokens[4])}
-      {BuildColorGroup(colorTokens[5])}
-      {BuildColorGroup(colorTokens[6])}
-      {BuildColorGroup(colorTokens[7])}
-    </div>
-  );
-};
+export const General = () => (
+  <div style={styles.container}>
+    {BuildColorGroup(colorTokens[4])}
+    {BuildColorGroup(colorTokens[5])}
+    {BuildColorGroup(colorTokens[6])}
+    {BuildColorGroup(colorTokens[7])}
+  </div>
+);
