@@ -1,2 +1,2 @@
-export { default as getTokens } from './getTokens';
+export { default as tokens } from './tokens';
 export { default as themes } from './themes';

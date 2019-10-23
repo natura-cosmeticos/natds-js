@@ -1,6 +1,6 @@
 import { Provider as PaperProvider, ThemeShape } from 'react-native-paper';
 import * as React from 'react';
-import { natura } from '../Themes';
+import { natds } from '../Themes';
 
 interface IProvider {
   children: React.ReactNode;
@@ -9,7 +9,7 @@ interface IProvider {
 
 const Provider: React.FunctionComponent<IProvider> = (props) => {
   const { theme } = props;
-  return <PaperProvider {...props} theme={theme ? theme : natura} />;
+  return <PaperProvider {...props} theme={theme ? theme : natds} />;
 };
 
 export default Provider;

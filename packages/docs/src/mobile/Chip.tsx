@@ -10,10 +10,10 @@ export default {
   parameters: { jestImportPath: 'mobile', jest: ['Chip'] }
 };
 
-const { natura } = themes;
+const { natds } = themes;
 
 export const Default = () => (
-    <Provider theme={natura}>
+    <Provider theme={natds}>
       <Chip
         mode='outlined'
         children={text('children', 'Native Chip')}
