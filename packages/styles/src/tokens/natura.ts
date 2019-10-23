@@ -1,5 +1,7 @@
-{
-  "primary": {
+import { IToken } from './IToken';
+
+export const natura: IToken = {
+  primary: {
     "primary-800-default": "#f4ab34"
   },
   "primary-variants" : {
@@ -13,7 +15,7 @@
     "primary-700": "#f7c23d",
     "primary-900-dark": "#ef8426"
   },
-  "secondary": {
+  secondary: {
     "secondary-900-default": "#ff6b0b"
   },
   "secondary-variants": {
@@ -28,43 +30,43 @@
     "secondary-800": "#ff8d0a"
   },
   "surface-and-background": {
-    "white": "#ffffff",
-    "light": "#fafafa",
-    "dark": "#eeeeee"
+    white: "#ffffff",
+    light: "#fafafa",
+    dark: "#eeeeee"
   },
-  "content": {
-    "black": "#000000",
+  content: {
+    black: "#000000",
     "gray-primary": "#333333",
     "gray-secondary": "#777777",
     "gray-tertiary": "#bbbbbb",
-    "info": "#227bbd"
+    info: "#227bbd"
   },
-  "feedback": {
-    "success": "#569a32",
-    "warning": "#fcc433",
-    "error": "#e74627"
+  feedback: {
+    success: "#569a32",
+    warning: "#fcc433",
+    error: "#e74627"
   },
   "levels-cn": {
-    "bronze": "#c47f5b",
-    "diamond": "#aec2ce",
-    "gold": "#d8b75e",
-    "seed": "#7b6a58",
-    "silver": "#9d9d9c"
+    bronze: "#c47f5b",
+    diamond: "#aec2ce",
+    gold: "#d8b75e",
+    seed: "#7b6a58",
+    silver: "#9d9d9c"
   },
   "brand-primary": {
     "brand-primary-brow": "#513528",
     "brand-primary-orange": "#ff6b0b",
     "brand-primary-800-default": "#f4ab34",
-    "white": "#ffffff"
+    white: "#ffffff"
   },
   "brand-secondary": {
     "brand-secondary-blue": "#71cacd",
     "brand-secondary-green": "#b3ca36",
     "brand-secondary-purple": "#7080a0",
     "brand-secondary-yellow": "#ffba1b",
-    "brand-comp-purple-1": "#572a86"
   },
   "brand-complementary": {
+    "brand-comp-purple-1": "#572a86",
     "brand-comp-purple-2": "#472784",
     "brand-comp-purple-3": "#53619e",
     "brand-comp-purple-4": "#8e96a9",
@@ -89,4 +91,4 @@
     "brand-comp-red-3": "#ed743e",
     "brand-comp-red-4": "#f29669"
   }
-}
+};

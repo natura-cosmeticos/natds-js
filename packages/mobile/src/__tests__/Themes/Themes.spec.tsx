@@ -1,8 +1,8 @@
-import { natura } from '../../Themes';
-import naturaThemeSnapshot from './natura-theme.json';
+import { natds } from '../../Themes';
+import natdsThemeSnapshot from './natds-theme.json';
 
 describe('Testing natura theme', () => {
   test('it should match the natura theme snapshot', () => {
-    expect(natura).toStrictEqual(naturaThemeSnapshot);
+    expect(natds).toStrictEqual(natdsThemeSnapshot);
   });
 });

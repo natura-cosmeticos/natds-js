@@ -112,12 +112,3 @@ export interface IToken {
   "brand-secondary": IBrandSecondary;
   "brand-complementary": IBrandComplementary;
 }
-
-export function getTokens(themeName: string): IToken {
-  try{
-    const theme: IToken = require(`../themes/${themeName}.json`);
-    return theme;
-  } catch(error) {
-    throw new Error('Theme not found');
-  }
-}
