@@ -1,7 +1,5 @@
 import * as React from 'react';
-import { getTokens, themes } from '@naturacosmeticos/natds-styles';
-
-const colors = getTokens(themes.natura, true);
+import * as colors from '@naturacosmeticos/natds-styles/sass/natura.scss';
 
 const styles = {
   container: {

@@ -2,16 +2,9 @@ import { getTokens, themes } from '../index';
 
 describe('getTokens function', () => {
   test('it should match the expected natura theme json', () => {
-    const expectedJson = require('./parsedNaturaTheme.json');
+    const expectedJson = require('./parsedNaturaTokens.json');
 
     const tokens = getTokens(themes.natura);
-    expect(tokens).toStrictEqual(expectedJson);
-  });
-
-  test('it should math the expected raw natura theme json', () => {
-    const expectedJson = require('./parsedNaturaRawTheme.json');
-
-    const tokens = getTokens(themes.natura, true);
     expect(tokens).toStrictEqual(expectedJson);
   });
 
