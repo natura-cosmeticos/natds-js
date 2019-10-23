@@ -2,24 +2,34 @@ import { configure, addDecorator, addParameters } from '@storybook/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { withKnobs } from '@storybook/addon-knobs';
 import { withA11y } from '@storybook/addon-a11y';
-
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
+import { themes } from '@storybook/theming';
 
 addParameters({
+  options: {
+    isFullscreen: false,
+    showNav: true,
+    showPanel: true,
+    panelPosition: 'bottom',
+    sidebarAnimations: true,
+    enableShortcuts: true,
+    isToolshown: true,
+    theme: themes.light
+  },
   docs: {
     container: DocsContainer,
     page: DocsPage
   },
-});
-
-addParameters({
   viewport: {
     viewports: INITIAL_VIEWPORTS
-  }
+  },
+  backgrounds: [
+    { name: 'light', value: '#fafafa', default: true },
+    { name: 'dark', value: '#242424' }
+  ]
 });
 
 addDecorator(withKnobs);
-
 addDecorator(withA11y);
 
 const tokens = require.context('../src/tokens', true, /\.story.(ts|md)x?$/);
