@@ -1,45 +1,26 @@
-## NatDS Web
+# NatDS Web
 
-### Natura Design System - Web Components
+Natura Design System - Web Components
 
----
+## Run
 
-### Install
+```sh
+yarn start
 ```
-$ yarn
-```
-
-### Run
-```
-$ yarn start
-```
-
----
 
 ## Test
 
+Unit test
 
-### Unit
-
+```sh
+yarn test:unit
+yarn test:unit:watch
+yarn test:unit:coverage
+yarn test:unit:coverage:open
 ```
-$ yarn test:unit
-$ yarn test:unit:watch
-$ yarn test:unit:coverage
-$ yarn test:unit:coverage:open
-```
-
----
 
 ## Lint
 
-```
-$ yarn lint
-```
-
----
-
-## Build
-
-```
-$ yarn build
+```sh
+yarn lint
 ```
