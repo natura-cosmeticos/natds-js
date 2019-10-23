@@ -1,10 +1,10 @@
 .colors {
   font-weight: 400;
   line-height: 1.5;
+  max-width: 800px;
 }
 
 .colors__container {
-  background-color: #f0f0f0;
   display: flex;
   flex-flow: row wrap;
   padding: 30px;
@@ -14,12 +14,17 @@
   display: flex;
   flex-flow: row wrap;
   flex: 0 0 100%;
+  margin-bottom: 30px;
 }
 
 .colors__group__title {
+  border-bottom: #f0f0f0 solid 1px;
   font-size: 24px;
   font-family: Arial, Helvetica, sans-serif;
+  font-weight: 400;
   flex: 0 0 100%;
+  padding-bottom: 10px;
+  margin-bottom: 20px;
 }
 
 .colors__group__list {
@@ -35,28 +40,27 @@
   border-radius: 5px;
   display: flex;
   flex: 0 0 auto;
+  position: relative;
   flex-flow: column;
-  padding: 10px;
-  margin: 0 30px 30px 0;
-  box-shadow: rgba(0,0,0,.05) 0 1px 4px 1px;
+  padding: 0;
+  margin: 0 15px 15px 0;
 }
 
 .colors__item__color {
-  border-radius: 5px;
-  width: 250px;
-  height: 80px;
+  width: 170px;
+  height: 170px;
 }
 
 .colors__item__color-name,
 .colors__item__name {
   font-family: Arial, Helvetica, sans-serif;
   font-size: 14px;
-  color: #333;
-  width: 100%;
-  padding: 10px 0 0;
+  color: #555;
+  line-height: 26px;
+  padding: 0;
   margin: 0;
 }
 
-.colors__item__color-name {
-  color: #666;
+.colors__item__name {
+  color: #888;
 }
