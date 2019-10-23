@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Chip } from '@naturacosmeticos/natds-web';
-import withJest from '@decorators/jest';
 import { text, boolean } from '@storybook/addon-knobs';
+import withJest from '@decorators/jest';
+
+import { Chip } from '@naturacosmeticos/natds-web';
 
 export default {
   title: 'Web|Chip',
