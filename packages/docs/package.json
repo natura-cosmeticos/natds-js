@@ -23,7 +23,7 @@
   "scripts": {
     "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
     "build": "build-storybook --output-dir dist",
-    "start": "start-storybook -p 5000 -s dist",
+    "start": "NODE_ENV=development start-storybook -p 5000",
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
     "deploy:local": "yarn deploy --dry-run",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
@@ -50,7 +50,6 @@
     "babel-loader": "8.0.6",
     "css-loader": "3.2.0",
     "file-loader": "^4.2.0",
-    "react": "16.11.0",
     "react-docgen-typescript-loader": "3.3.0",
     "react-native-paper": "^2.16.0",
     "sass-loader": "8.0.0",
@@ -70,8 +69,8 @@
     "@naturacosmeticos/natds-styles": "^0.0.1",
     "@naturacosmeticos/natds-web": "^0.0.1",
     "@types/react-native": "^0.60.19",
-    "react": "16.10.2",
-    "react-dom": "16.10.2",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
     "react-native": "^0.61.2",
     "react-native-vector-icons": "^6.6.0",
     "react-native-web": "^0.11.7"

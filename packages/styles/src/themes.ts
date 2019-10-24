@@ -1,3 +1,5 @@
+import { natds } from './themes/natds';
+
 export default {
-  natura: 'natura.scss'
+  natds
 };

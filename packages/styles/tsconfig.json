@@ -19,7 +19,7 @@
     "declaration": true,
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
-    "skipLibCheck": true
-  },
-  "files": ["src/index.ts"]
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  }
 }

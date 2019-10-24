@@ -1,3 +1,4 @@
+import './fonts';
 import { configure, addDecorator, addParameters } from '@storybook/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { withKnobs } from '@storybook/addon-knobs';

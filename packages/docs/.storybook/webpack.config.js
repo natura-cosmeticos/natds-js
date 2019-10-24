@@ -68,7 +68,7 @@ module.exports = ({ config }) => {
 
   config.resolve.alias = {
     'react-native': require.resolve('react-native-web'),
-    '@storybook/react-native': require.resolve('@storybook/react')
+    '@storybook/react-native': require.resolve('@storybook/react'),
   };
 
   config.resolve.plugins = [new TsconfigPathsPlugin()];

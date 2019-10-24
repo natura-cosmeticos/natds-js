@@ -13,7 +13,13 @@
     "member-ordering": false,
     "jsx-no-lambda": false,
     "jsx-boolean-value": false,
-    "semicolon": true
+    "semicolon": true,
+    "await-promise": true,
+    "deprecation": true,
+    "no-floating-promises": false,
+    "no-unnecessary-qualifier": true,
+    "no-unnecessary-type-assertion": false,
+    "strict-type-predicates": false
   },
   "rulesDirectory": []
 }

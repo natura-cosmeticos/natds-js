@@ -1,8 +1,8 @@
 module.exports = {
-  roots: ['<rootDir>/src'],
+  preset: "react-native",
   transform: {
-    '^.+\\.tsx?$': 'ts-jest',
+    "^.+\\.tsx?$": "ts-jest"
   },
-  preset: 'react-native',
+  roots: ['<rootDir>/src'],
   setupFiles: ['<rootDir>/jest/setup.js'],
 };
