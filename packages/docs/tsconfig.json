@@ -10,9 +10,10 @@
     "moduleResolution": "node",
     "rootDirs": [
       "../../packages",
-      "./src"
+      "./src",
+      "./decorators"
     ],
-    "baseUrl": "./src",
+    "baseUrl": "./",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
@@ -28,10 +29,15 @@
     "skipLibCheck": true,
     "paths": {
       "@packages/*": [
-        "../../*"
+        "../*"
+      ],
+      "@src/*": [
+        "./src/*"
+      ],
+      "@decorators/*": [
+        "./decorators/*"
       ]
     }
   },
-  "include": ["src/**/*"],
-  "exclude": ["node_modules", "build"]
+  "exclude": ["node_modules"]
 }
