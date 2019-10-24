@@ -2,7 +2,7 @@ import * as React from 'react';
 import { tokens } from '@naturacosmeticos/natds-styles';
 import Colors, { typesEnum } from './Colors.component';
 
-const { natura } = tokens;
+const { natura } = tokens.colors;
 
 export default {
   title: 'Design Tokens|Colors',

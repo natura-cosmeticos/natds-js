@@ -1,7 +1,7 @@
 import tokens from '../../tokens';
 import { ITheme } from '../ITheme';
 
-const { natura } = tokens;
+const { natura } = tokens.colors;
 
 export const naturaDark: ITheme = {
   dark: false,
@@ -9,7 +9,7 @@ export const naturaDark: ITheme = {
   colors: {
     primary: natura.primary.colorBrdNatPrimaryYellow,
     accent: natura.primary.colorBrdNatPrimaryOrange,
-    background: "#fafafa",
+    background: "#FAFAFA",
     surface: natura.primary.colorBrdNatPrimaryWhite,
     error: natura.complementary.colorBrdNatCpRed2,
     text: natura.primary.colorBrdBlack,

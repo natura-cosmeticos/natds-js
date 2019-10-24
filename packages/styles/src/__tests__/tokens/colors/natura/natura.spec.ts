@@ -1,9 +1,9 @@
-import { tokens } from '../index';
+import { tokens } from '../../../../index';
 
-describe('getTokens function', () => {
+describe('Natura Color Tokens', () => {
   test('it should match the expected natura tokens json', () => {
     const expectedJson = require('./parsedNaturaColors.json');
-    const { natura } = tokens;
+    const { natura } = tokens.colors;
 
     expect(natura).toStrictEqual(expectedJson);
   });
