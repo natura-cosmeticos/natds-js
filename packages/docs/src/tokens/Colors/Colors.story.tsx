@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import Colors from './Colors.component';
+import Colors, { typesEnum } from './Colors.component';
 
 const colorTokens = [
   {
@@ -49,31 +49,11 @@ const colorTokens = [
   }
 ];
 
-const PRIMARY = [colorTokens[0], colorTokens[1]];
-const SECONDARY = [colorTokens[2], colorTokens[3]];
-const BRAND = [colorTokens[8], colorTokens[9], colorTokens[10]];
-const OTHERS = [colorTokens[4], colorTokens[5], colorTokens[6], colorTokens[7]];
-
 export default {
-  title: 'Tokens|Colors'
+  title: 'Tokens|Colors',
+  parameters: { docs: { page: () => (<Colors colors={colorTokens} type={typesEnum.table} />) } }
 };
 
 export const All = () => (
-  <Colors colors={colorTokens} />
-);
-
-export const Primary = () => (
-  <Colors colors={PRIMARY} />
-);
-
-export const Secondary = () => (
-  <Colors colors={SECONDARY} />
-);
-
-export const Brand = () => (
-  <Colors colors={BRAND} />
-);
-
-export const Others = () => (
-  <Colors colors={OTHERS} />
+  <Colors colors={colorTokens} type={typesEnum.thumb} />
 );

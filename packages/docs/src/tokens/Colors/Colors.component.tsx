@@ -37,13 +37,20 @@ const ColorsGroup = ({ name, id }: IColorsGroup, index: number = 0) => (
   </div>
 );
 
+export enum typesEnum {
+  thumb = 'thumb',
+  table = 'table'
+}
 interface IColorsComponent {
   colors: object[];
+  type: typesEnum;
 }
 
 export default function ColorsComponent(props: IColorsComponent) {
+  const className = `colors__container colors__container--${props.type}`;
+
   return (
-    <div className="colors__container">
+    <div className={className}>
       {props.colors.map(ColorsGroup)}
     </div>
   );

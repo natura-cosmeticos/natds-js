@@ -27,7 +27,7 @@ module.exports = ({ config }) => {
   });
 
   config.module.rules.push({
-    test: /\.(ts|tsx)$/,
+    test: /\.(ts|md)x?$/,
     use: [
       {
         loader: require.resolve('ts-loader')
@@ -64,7 +64,7 @@ module.exports = ({ config }) => {
     }
   });
 
-  config.resolve.extensions.push('.ts', '.tsx', 'js', 'jsx');
+  config.resolve.extensions.push('.ts', '.tsx', 'js', 'jsx', 'mdx');
 
   config.resolve.alias = {
     'react-native': require.resolve('react-native-web'),
