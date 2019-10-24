@@ -42,7 +42,7 @@ export enum typesEnum {
   table = 'table'
 }
 interface IColorsComponent {
-  colors: object[];
+  colors: any[];
   type: typesEnum;
 }
 
