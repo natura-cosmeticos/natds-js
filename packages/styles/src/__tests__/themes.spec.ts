@@ -1,10 +1,10 @@
 import { themes } from '../index';
 
 describe('getTheme function', () => {
-  test('it should get the matching natds theme', () => {
-    const expectedJson = require('./parsedNatDSTheme.json');
-    const { natds } = themes;
+  test('it should get the matching naturaLight theme', () => {
+    const expectedJson = require('./parsedNaturaTheme.json');
+    const { naturaLight } = themes;
 
-    expect(natds).toStrictEqual(expectedJson);
+    expect(naturaLight).toStrictEqual(expectedJson);
   });
 });
