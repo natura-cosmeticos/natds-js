@@ -1,27 +1,12 @@
 import * as React from 'react';
+
 import Table from '@addons/Table/Table';
-import Spacing from './Spacing.component';
+import SpacingScale from './Spacing.scale';
+import SpacingPadding from './Spacing.padding';
 
 import { tokens } from '@naturacosmeticos/natds-styles';
 
-const spacingSchema = {
-  head: ['name', 'value'],
-  body: Object.entries(tokens.spacing).map(mapSchema)
-}
-
-export default {
-  title: 'Design Tokens|Spacing',
-  parameters: {
-    docs: {
-      container: null,
-      page: () => (<Table schema={spacingSchema} title="Spacing" />)
-    }
-  }
-};
-
-export const Scale = () => (
-  <Spacing spacing={tokens.spacing} />
-);
+const { spacing } = tokens;
 
 function mapSchema(item: any) {
   return [
@@ -35,3 +20,26 @@ function mapSchema(item: any) {
     }
   ];
 }
+
+const spacingSchema = {
+  head: ['name', 'value'],
+  body: Object.entries(spacing).map(mapSchema)
+}
+
+export default {
+  title: 'Design Tokens|Spacing',
+  parameters: {
+    docs: {
+      container: null,
+      page: () => (<Table schema={spacingSchema} title="Spacing" />)
+    }
+  }
+};
+
+export const Scale = () => (
+  <SpacingScale spacing={spacing} />
+);
+
+export const Padding = () => (
+  <SpacingPadding spacing={spacing} />
+);
