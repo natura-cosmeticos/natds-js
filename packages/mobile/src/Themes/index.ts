@@ -1,1 +1,1 @@
-export { default as natds } from './natds';
+export { default as natura } from './natura';
