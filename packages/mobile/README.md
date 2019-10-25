@@ -1,4 +1,4 @@
-# NatDS React Native
+# @naturacosmeticos/natds-rn
 
 Natura Design System - React Native Components
 
@@ -7,11 +7,14 @@ Natura Design System - React Native Components
 
 ## Installation
 
+Install the packages in your project directory with:
+
 ```sh
-// with npm
+# with npm
 npm install --save @naturacosmeticos/natds-rn react-native-vector-icons
 react-native link react-native-vector-icons
-// with yarn
+
+# with yarn
 yarn add @naturacosmeticos/natds-rn react-native-vector-icons
 react-native link react-native-vector-icons
 ```
