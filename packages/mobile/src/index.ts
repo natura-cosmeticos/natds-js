@@ -1,5 +1,4 @@
-import Chip from './Components/Chip';
-export { Chip };
+export { default as Chip, IChipProps } from './Components/Chip';
 
 import Provider from './Provider';
 export { Provider };

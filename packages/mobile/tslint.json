@@ -19,7 +19,11 @@
     "no-floating-promises": false,
     "no-unnecessary-qualifier": true,
     "no-unnecessary-type-assertion": false,
-    "strict-type-predicates": false
+    "strict-type-predicates": false,
+    "no-console": {
+      "severity": "warning"
+    },
+    "no-default-export": false
   },
   "rulesDirectory": []
 }

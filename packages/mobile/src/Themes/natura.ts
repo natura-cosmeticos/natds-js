@@ -1,11 +1,14 @@
-import { themes } from '@naturacosmeticos/natds-styles';
-import { DefaultTheme, ThemeShape } from 'react-native-paper';
+import { themes, tokens } from '@naturacosmeticos/natds-styles';
+import { DefaultTheme } from 'react-native-paper';
+import { IThemeShape } from 'Provider/IThemeShape';
 
 const { naturaLight } = themes;
+const { spacing } = tokens.spacing;
 
-const natdsTheme: ThemeShape = {
+const natdsTheme: IThemeShape = {
   ...DefaultTheme,
-  ...naturaLight
+  ...naturaLight,
+  spacing
 };
 
 export default natdsTheme;
