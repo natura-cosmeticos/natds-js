@@ -21,17 +21,17 @@ function mapColorSchema(color: any) {
 const primarySchema = {
   head: ['name', 'color'],
   body: Object.entries(natura.primary).map(mapColorSchema)
-}
+};
 
 const complementarySchema = {
   head: ['name', 'color'],
   body: Object.entries(natura.complementary).map(mapColorSchema)
-}
+};
 
 const gradientSchema = {
   head: ['name', 'color'],
   body: Object.entries(natura.gradient).map(mapColorSchema)
-}
+};
 
 export default {
   title: 'Design Tokens|Colors',

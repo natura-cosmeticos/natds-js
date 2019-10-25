@@ -3,6 +3,7 @@ import * as React from 'react';
 import Table from '@addons/Table/Table';
 import SpacingScale from './Spacing.scale';
 import SpacingPadding from './Spacing.padding';
+import SpacingMargin from './Spacing.margin';
 
 import { tokens } from '@naturacosmeticos/natds-styles';
 
@@ -24,7 +25,7 @@ function mapSchema(item: any) {
 const spacingSchema = {
   head: ['name', 'value'],
   body: Object.entries(spacing).map(mapSchema)
-}
+};
 
 export default {
   title: 'Design Tokens|Spacing',
@@ -42,4 +43,8 @@ export const Scale = () => (
 
 export const Padding = () => (
   <SpacingPadding spacing={spacing} />
+);
+
+export const Margin = () => (
+  <SpacingMargin spacing={spacing} />
 );

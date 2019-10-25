@@ -2,7 +2,7 @@ import * as React from 'react';
 
 import './styles.scss';
 
-interface ISpacingScaleComponent {
+interface ISpacingPaddingComponent {
   spacing: any;
 }
 
@@ -106,27 +106,27 @@ function buildLists(spacing: any) {
   return {
     paddingFull,
     paddingSingle
-  }
+  };
 }
 
-export default function SpacingScale(props: ISpacingScaleComponent) {
+export default function SpacingPadding(props: ISpacingPaddingComponent) {
   const { paddingFull, paddingSingle } = buildLists(props.spacing);
 
   return (
     <div className="spacing__padding">
       <div className="spacing__padding__list">
-        {paddingFull.map(spacingBlock)}
+        {paddingFull.map(SpacingPaddingBlock)}
       </div>
       <div className="spacing__padding__list">
-        {paddingSingle.map(spacingBlock)}
+        {paddingSingle.map(SpacingPaddingBlock)}
       </div>
     </div>
   );
 }
 
-function spacingBlock({ name, value, border }: { name: string, value: number, border: string }) {
+function SpacingPaddingBlock({ name, value, border }: { name: string, value: number, border: string }, key: number) {
   return (
-    <div className="spacing__padding__block">
+    <div className="spacing__padding__block" key={key}>
       <div className="spacing__padding__box" style={{ borderWidth: border }}>text</div>
       <h5 className="spacing__padding__name">{name}</h5>
     </div>

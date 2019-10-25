@@ -49,7 +49,10 @@ const renderTableBody = (body: any[]) => (
 const renderItem = (item: any) => {
   if(item.type === 'color') {
     return (
-      <span className="table__body__item__color" style={{ background: item.name }} />
+      <div>
+        <span className="table__body__item__color" style={{ background: item.name }} />
+        <span className="table__body__item__color-name">{item.name}</span>
+      </div>
     )
   }
 
