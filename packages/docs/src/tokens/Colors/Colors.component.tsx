@@ -2,20 +2,13 @@ import * as React from 'react';
 
 import './styles.scss';
 
-export enum typesEnum {
-  thumb = 'thumb',
-  table = 'table'
-}
 interface IColorsComponent {
   colors: any;
-  type: typesEnum;
 }
 
 export default function ColorsComponent(props: IColorsComponent) {
-  const className = `colors__container colors__container--${props.type}`;
-
   return (
-    <div className={className}>
+    <div className="colors__container">
       {Object.entries(props.colors).map(ColorsGroup)}
     </div>
   );
