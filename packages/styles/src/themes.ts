@@ -1,5 +1,7 @@
-import { natds } from './themes/natds';
+import { naturaLight } from './themes/natura/natura-light';
+import { naturaDark } from './themes/natura/natura-dark';
 
 export default {
-  natds
+  naturaDark,
+  naturaLight
 };
