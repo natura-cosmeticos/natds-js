@@ -8,6 +8,7 @@ export const naturaLight: ITheme = {
   roundness: 4,
   colors: {
     primary: natura.primary.colorBrdNatPrimaryYellow,
+    secondary: natura.primary.colorBrdNatPrimaryOrange,
     accent: natura.primary.colorBrdNatPrimaryOrange,
     background: "#FAFAFA",
     surface: natura.primary.colorBrdNatPrimaryWhite,

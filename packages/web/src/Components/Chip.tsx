@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 
 import MaterialChip from '@material-ui/core/Chip';
+import { withTheme } from '@material-ui/styles';
 
 export interface IProps {
   avatar?: any;
@@ -14,8 +15,10 @@ export interface IProps {
   onDelete?: () => void;
 }
 
-export const Chip: FunctionComponent<IProps> = (props: IProps) => {
+const Chip: FunctionComponent<IProps> = (props: IProps) => {
   return (
     <MaterialChip {...props} />
   );
 };
+
+export default withTheme(Chip);

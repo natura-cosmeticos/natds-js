@@ -11,6 +11,7 @@ export interface ITheme {
     disabled: string;
     placeholder: string;
     backdrop: string;
+    secondary: string;
   };
   fonts?: {
     regular: string;

@@ -1,5 +1,7 @@
-import { Chip } from './Chip/Chip';
+export { default as Chip } from './Components/Chip';
+export { Provider } from './Provider';
 
-export {
-  Chip
+import * as webThemes from './Themes';
+export const themes = {
+  ...webThemes
 };
