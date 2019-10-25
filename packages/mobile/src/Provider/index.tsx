@@ -1,10 +1,11 @@
-import { Provider as PaperProvider, ThemeShape } from 'react-native-paper';
+import { Provider as PaperProvider, } from 'react-native-paper';
 import * as React from 'react';
 import { natura } from '../Themes';
+import { IThemeShape } from './IThemeShape';
 
 interface IProvider {
   children: React.ReactNode;
-  theme?: ThemeShape;
+  theme?: IThemeShape;
 }
 
 const Provider: React.FunctionComponent<IProvider> = (props) => {
