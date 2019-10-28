@@ -1,10 +1,9 @@
-
 import React from 'react';
 import { mount } from 'enzyme';
 import { expect } from 'chai';
 import { assert, spy } from 'sinon';
 
-import { Chip } from './Chip';
+import Chip from '../Components/Chip';
 
 describe('Chip component', () => {
   test('Chip calls onDelete', () => {
