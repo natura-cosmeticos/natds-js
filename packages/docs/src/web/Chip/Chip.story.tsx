@@ -14,7 +14,6 @@ export default {
   }
 };
 
-
 export const Default = () => (
   <Provider theme={themes.natura}>
     <Chip
