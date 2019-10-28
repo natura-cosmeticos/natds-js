@@ -1,4 +1,4 @@
-import { ISpacing } from './ISpacing';
+import ISpacing from './ISpacing';
 
 export const spacing: ISpacing = {
   spacing: 8,

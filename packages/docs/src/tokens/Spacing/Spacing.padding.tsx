@@ -1,12 +1,13 @@
 import * as React from 'react';
 
 import './styles.scss';
+import { ISpacing } from '@naturacosmeticos/natds-styles';
 
 interface ISpacingPaddingComponent {
   spacing: any;
 }
 
-function buildLists(spacing: any) {
+function buildLists(spacing: ISpacing) {
   const {
     spacingMicro,
     spacingTiny,
