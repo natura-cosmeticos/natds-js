@@ -11,7 +11,8 @@
     "rootDirs": [
       "../../packages",
       "./src",
-      "./decorators"
+      "./decorators",
+      "./addons"
     ],
     "baseUrl": "./",
     "forceConsistentCasingInFileNames": true,
@@ -36,6 +37,9 @@
       ],
       "@decorators/*": [
         "./decorators/*"
+      ],
+      "@addons/*": [
+        "./addons/*"
       ]
     }
   },

@@ -25,7 +25,7 @@ addParameters({
     viewports: INITIAL_VIEWPORTS
   },
   backgrounds: [
-    { name: 'light', value: '#fafafa', default: true },
+    { name: 'light', value: '#fafafa' },
     { name: 'dark', value: '#242424' }
   ]
 });

@@ -1,4 +1,4 @@
-export interface ISpacing {
+export default interface ISpacing {
   spacing: number;
   spacingNone: number;
   spacingMicro: number;
