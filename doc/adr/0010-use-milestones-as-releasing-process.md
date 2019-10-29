@@ -1,4 +1,4 @@
-# 10. use milestones as releasing process
+# 10. Use milestones as releasing process
 
 Date: 2019-10-29
 
