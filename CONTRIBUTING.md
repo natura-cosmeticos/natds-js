@@ -12,6 +12,14 @@ Please note we have a code of conduct, please follow it in all your interactions
 Natura Design System has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) as its Code of Conduct, and we expect project participants to adhere to it.
 Please read [the full text](/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
 
+## Branching
+
+Your feature branch must be checked out from the milestone that the feature belongs. You can follow whichever PR guideline inside your feature branch, but make sure that when PRing back to the milestone branch to use the [pull request template](./.github/PULL_REQUEST_TEMPLATE.md).
+
+## Visual Validation
+
+After merged, the PR will generate a version on the storybook that the milestone is attached. Provide the version number to the UX team for validation.
+
 ## Initiating the Contribution
 
 First, you need to install dependencies and build packages. After that you will be able to execute any of the projects (docs, web or mobile).
