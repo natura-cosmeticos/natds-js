@@ -5,6 +5,7 @@ export interface IThemeShape extends ThemeShape {
   roundness: number;
   colors: {
     primary: string;
+    secondary: string;
     background: string;
     surface: string;
     accent: string;
