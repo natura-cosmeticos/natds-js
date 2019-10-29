@@ -18,7 +18,7 @@ We will use milestones as a guideline for defining what will be delivered on eac
 - The team responsible for a milestone isn't static and can be altered at any given moment during the milestone;
 - The UX team will participate in the priorization of the tasks that will compose the milestone;
 - In the case of more than one running milestone, the team responsible for the additional milestones will take responsibility in creating the distinct storybook instances needed for their respective milestones;
-- One component cannot be a parte of more than one running milestone;
+- One component cannot be a part of more than one running milestone;
 - The alpha releases will take place after the delivery of a component;
 - The internal scope of the milestone will be measured in tasks on the Natura JIRA;
 - Milestones will be named with [Semantic Versioning](https://semver.org/) and every milestone must bump at least one MINOR version;
