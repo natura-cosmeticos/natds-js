@@ -10,11 +10,19 @@ Please note we have a code of conduct, please follow it in all your interactions
 ## Code of Conduct
 
 Natura Design System has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) as its Code of Conduct, and we expect project participants to adhere to it.
-Please read [the full text](/CODE_OF_CONDUCT.md) so that you can understand what actions will and will not be tolerated.
+Please read [the full text](/CODE_OF_CONDUCT.md) so that you can understand which actions will and will not be tolerated.
 
 ## Branching
 
-Your feature branch must be checked out from the milestone that the feature belongs. You can follow whichever PR guideline inside your feature branch, but make sure that when PRing back to the milestone branch to use the [pull request template](./.github/PULL_REQUEST_TEMPLATE.md).
+Your feature branch must be checked out from the milestone that the feature belongs. You can follow whichever PR guideline inside your feature branch, but make sure that when Pull Requesting back to the milestone branch to use the [pull request template](./.github/PULL_REQUEST_TEMPLATE.md).
+
+## For contributors on Natura Organization
+
+If you find yourself in this category, you can go directly to branching this repository, without worrying about forking.
+
+## For contributors outside Natura Organization
+
+If you find yourself in this category, you should forke this repository in order to start working.
 
 ## Visual Validation
 
