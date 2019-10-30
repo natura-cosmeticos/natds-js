@@ -1,11 +1,26 @@
 import React, { useState, useEffect } from 'react';
 import { addons, makeDecorator } from '@storybook/addons';
 
-import { Provider, themes } from '@naturacosmeticos/natds-web';
-import { FORCE_RE_RENDER } from '@storybook/core-events';
+import { Provider as ProviderWeb, themes as themesWeb } from '@naturacosmeticos/natds-web';
+import { Provider as ProviderMobile, themes as themesMobile } from '@naturacosmeticos/natds-rn';
 import { CHANGE } from './shared';
 
-const DEFAULT_THEME = themes.natura.light;
+const THEME_PROVIDERS = {
+  web: {
+    provider: ProviderWeb,
+    themes: themesWeb,
+    defaultTheme: themesWeb.natura.light
+  },
+  mobile: {
+    provider: ProviderMobile,
+    themes: themesMobile,
+    defaultTheme: themesMobile.natura.light
+  }
+};
+
+function getProvider(context) {
+  return THEME_PROVIDERS[context];
+}
 
 export const withTheme = makeDecorator({
   name: 'withTheme',
@@ -13,19 +28,17 @@ export const withTheme = makeDecorator({
   skipIfNoParametersOrOptions: false,
   allowDeprecatedUsage: true,
   wrapper: (getStory, context, { parameters }) => {
+    const { provider: Provider, themes, defaultTheme } = getProvider(parameters);
     const channel = addons.getChannel();
-    const [theme, setTheme] = useState(DEFAULT_THEME);
+    const [theme, setTheme] = useState(defaultTheme);
 
     useEffect(() => {
       channel.on(CHANGE, ({ type, name }) => {
         setTheme(themes[name][type]);
-        channel.emit(FORCE_RE_RENDER);
       });
 
       return () => (channel.removeListener(CHANGE))
     }, []);
-
-    console.log(theme)
 
     return (
       <Provider theme={theme}>
