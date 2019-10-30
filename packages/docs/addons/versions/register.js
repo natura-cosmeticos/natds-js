@@ -21,7 +21,6 @@ function Panel() {
 
   useEffect(() => {
     if (!isLocal && !versions.length) {
-      console.log(isLocal)
       readConfig().then(setVersions).catch(errorReadingFile);
     }
   });
