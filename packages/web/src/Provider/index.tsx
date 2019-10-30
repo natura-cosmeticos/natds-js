@@ -13,7 +13,7 @@ export const Provider:React.FunctionComponent<IProvider> = (props:IProvider) => 
   return(
     <MuiThemeProvider
       {...props}
-      theme={theme ? theme : themes.natura}
+      theme={theme ? theme : themes.natura.light}
     />
   );
 };
