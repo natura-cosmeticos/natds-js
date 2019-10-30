@@ -1,8 +1,8 @@
 import * as React from 'react';
-import { text, boolean } from '@storybook/addon-knobs';
+import { text, boolean, select } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest';
 
-import { Chip, Provider, themes } from '@naturacosmeticos/natds-web';
+import { Chip } from '@naturacosmeticos/natds-web';
 
 export default {
   title: 'Web|Chip',
@@ -10,17 +10,29 @@ export default {
   decorators: [withJest()],
   parameters: {
     jestImportPath: 'web',
-    jest: ['Chip']
+    jest: ['Chip'],
+    theme: 'web'
   }
 };
 
+const colors = {
+  primary: 'primary',
+  secondary: 'secondary',
+  default: 'default'
+};
+
+const variants = {
+  default: 'default',
+  outlined: 'outlined'
+};
+
 export const Default = () => (
-  <Provider theme={themes.natura.light}>
-    <Chip
-      clickable={boolean('clickable', true)}
-      disabled={boolean('disabled', false)}
-      label={text('label', 'Chip Component')}
-      onDelete={() => undefined}
-    />
-  </Provider>
+  <Chip
+    clickable={boolean('clickable', true)}
+    disabled={boolean('disabled', false)}
+    label={text('label', 'Chip Component')}
+    onDelete={() => undefined}
+    color={select('Color', colors, colors.default)}
+    variant={select('Variant', variants, variants.default)}
+  />
 );
