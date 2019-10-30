@@ -10,6 +10,8 @@ export interface IProps {
   component?: any;
   deleteIcon?: any;
   disabled?: boolean;
+  color?: any;
+  variant?: any;
   icon?: any;
   label: string;
   onDelete?: () => void;
