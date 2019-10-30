@@ -10,7 +10,7 @@ interface IProvider {
 
 const Provider: React.FunctionComponent<IProvider> = (props) => {
   const { theme } = props;
-  return <PaperProvider {...props} theme={theme ? theme : natura} />;
+  return <PaperProvider {...props} theme={theme ? theme : natura.light} />;
 };
 
 export default Provider;

@@ -67,8 +67,8 @@ describe('Chip', () => {
       expect(component).toMatchSnapshot('Style chip snapshot');
     });
 
-    test('should match to snapshot - Theme', () => {
-      const component = renderer.create(<Chip children theme={natura} />).toJSON();
+    test('should match to snapshot - Theme Light', () => {
+      const component = renderer.create(<Chip children theme={natura.light} />).toJSON();
       expect(component).toMatchSnapshot('Theme chip snapshot');
     });
 
