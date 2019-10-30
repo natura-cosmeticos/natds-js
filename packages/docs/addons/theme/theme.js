@@ -3,10 +3,8 @@ import { AddonPanel } from '@storybook/components';
 import { useAddonState } from "@storybook/api";
 import { addons } from '@storybook/addons';
 
-import { themes } from '@naturacosmeticos/natds-web';
-
+import { themes } from '@naturacosmeticos/natds-styles';
 import { PANEL_ID, CHANGE } from './shared';
-
 import './styles.css';
 
 const THEMES = Object.keys(themes);
