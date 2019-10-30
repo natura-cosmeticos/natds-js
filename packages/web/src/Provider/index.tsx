@@ -11,6 +11,9 @@ export const Provider:React.FunctionComponent<IProvider> = (props:IProvider) => 
   const { theme } = props;
 
   return(
-    <MuiThemeProvider {...props} theme={theme ? theme : themes.natura}/>
+    <MuiThemeProvider
+      {...props}
+      theme={theme ? theme : themes.natura}
+    />
   );
 };

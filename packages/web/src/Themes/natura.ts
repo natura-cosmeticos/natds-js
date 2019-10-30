@@ -1,27 +1,34 @@
 import { themes, tokens } from '@naturacosmeticos/natds-styles';
 import { createMuiTheme } from '@material-ui/core';
 
-const { spacing }  = tokens.spacing;
-const { naturaLight } = themes;
-const { colors, roundness } = naturaLight;
+const { spacing } = tokens.spacing;
+const { natura: { light, dark } } = themes;
 
-const natdsTheme = createMuiTheme({
-  spacing,
-  palette: {
-    primary: {
-      main: colors.primary
+function createTheme({ colors, roundness }: { colors: any, roundness: any }) {
+  return createMuiTheme({
+    spacing,
+    palette: {
+      primary: {
+        main: colors.primary
+      },
+      secondary: {
+        main: colors.secondary
+      },
+      error: {
+        main: colors.error
+      },
+      background: {
+        default: colors.background
+      },
+      type: 'light'
     },
-    secondary: {
-      main: colors.secondary
-    },
-    error: {
-      main: colors.error
-    },
-    type: 'light',
-  },
-  shape: {
-    borderRadius: roundness
-  }
-});
+    shape: {
+      borderRadius: roundness
+    }
+  });
+}
 
-export default natdsTheme;
+export default {
+  light: createTheme(light),
+  dark: createTheme(dark)
+};
