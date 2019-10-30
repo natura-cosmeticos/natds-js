@@ -3,15 +3,9 @@ import { AddonPanel } from '@storybook/components';
 import { useAddonState } from "@storybook/api";
 import { addons } from '@storybook/addons';
 
-<<<<<<< HEAD
-import { themes } from '@naturacosmeticos/natds-styles';
-import { PANEL_ID, CHANGE } from './shared';
-=======
 import { themes } from '@naturacosmeticos/natds-web';
-
 import { PANEL_ID, CHANGE } from './shared';
 
->>>>>>> chore(docs): creating a Theme Addon
 import './styles.css';
 
 const THEMES = Object.keys(themes);

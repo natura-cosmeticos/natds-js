@@ -30,7 +30,6 @@ export const withTheme = makeDecorator({
   wrapper: (getStory, context, { parameters }) => {
     const { provider: Provider, themes, defaultTheme } = getProvider(parameters);
     const channel = addons.getChannel();
-
     const [theme, setTheme] = useState(defaultTheme);
 
     useEffect(() => {
