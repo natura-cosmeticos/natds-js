@@ -1,6 +1,9 @@
 /node_modules/
 /coverage/
-/dist/
+/dist/*
+!/dist/versions-config.json
+!/dist/releases
+!/dist/candidates
 /.idea/
 .DS_Store
 *.log
