@@ -8,7 +8,7 @@ describe('Provider component', () => {
   test('It should have the natura theme', () => {
     const provider = mount(<Provider >Mocked</Provider>);
 
-    expect(provider.find('ThemeProvider').prop('theme')).toStrictEqual(themes.natura);
+    expect(provider.find('ThemeProvider').prop('theme')).toStrictEqual(themes.natura.light);
   });
 
   test('It should have the provided theme', () => {
