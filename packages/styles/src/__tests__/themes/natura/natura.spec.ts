@@ -3,14 +3,14 @@ import { themes } from '../../../index';
 describe('Natura Theme', () => {
   test('it should get the matching Natura Light theme', () => {
     const expectedJson = require('./parsedNaturaLightTheme.json');
-    const { naturaLight } = themes;
+    const { natura: { light } } = themes;
 
-    expect(naturaLight).toStrictEqual(expectedJson);
+    expect(light).toStrictEqual(expectedJson);
   });
   test('it should get the matching Natura Dark theme', () => {
     const expectedJson = require('./parsedNaturaDarkTheme.json');
-    const { naturaDark } = themes;
+    const { natura: { dark } } = themes;
 
-    expect(naturaDark).toStrictEqual(expectedJson);
+    expect(dark).toStrictEqual(expectedJson);
   });
 });
