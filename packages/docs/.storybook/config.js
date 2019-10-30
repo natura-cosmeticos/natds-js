@@ -5,6 +5,7 @@ import { withKnobs } from '@storybook/addon-knobs';
 import { withA11y } from '@storybook/addon-a11y';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
 import { themes } from '@storybook/theming';
+import { withTheme } from '../addons/theme/provider';
 
 addParameters({
   options: {
@@ -27,11 +28,15 @@ addParameters({
   backgrounds: [
     { name: 'light', value: '#fafafa' },
     { name: 'dark', value: '#242424' }
-  ]
+  ],
+  knobs: {
+    disableDebounce: true
+  }
 });
 
 addDecorator(withKnobs);
 addDecorator(withA11y);
+addDecorator(withTheme);
 
 const tokens = require.context('../src/tokens', true, /\.story.(ts|md)x?$/);
 const web = require.context('../src/web', true, /\.story.(ts|md)x?$/);
