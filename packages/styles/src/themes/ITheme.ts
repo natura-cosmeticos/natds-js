@@ -5,7 +5,7 @@ export interface ITheme {
   palette?: {
     type?: 'light' | 'dark';
     primary?: {
-      main: string;
+      main?: string;
       light?: string;
       dark?: string;
       contrastText?: string;
