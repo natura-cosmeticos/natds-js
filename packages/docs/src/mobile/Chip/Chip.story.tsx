@@ -1,13 +1,13 @@
 import * as React from 'react';
 import { Chip } from '@naturacosmeticos/natds-rn';
-import withJest from '@decorators/jest';
-import MobileDecorator from '@decorators/mobile';
+import withJest from '@decorators/jest/jest';
+import withContainer from '@decorators/container/container';
 import { text } from '@storybook/addon-knobs';
 
 export default {
   title: 'Mobile|Chip',
   component: Chip,
-  decorators: [withJest(), MobileDecorator],
+  decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'mobile',
     jest: ['Chip'],
