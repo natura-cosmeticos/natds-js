@@ -15,7 +15,7 @@ cd packages/docs
 
 rm -rf "dist/releases/v${NEW_VERSION}"
 
-yarn build -o "dist/releases/v${NEW_VERSION}"
+yarn build -o "dist/releases/v${NEW_VERSION}" --quiet
 
 cd ../../scripts
 
@@ -29,13 +29,7 @@ git remote add origin https://$GITHUB_API_USER:$GITHUB_API_KEY@github.com/natura
 
 git fetch
 
-git stash clear
-
-git stash
-
 git checkout "v${VERSION_WO_ALPHA}-docs"
-
-git stash pop
 
 node helpers/addVersionOnConfig.js $NEW_VERSION
 
