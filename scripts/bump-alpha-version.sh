@@ -31,8 +31,8 @@ git commit -m "Travis Commit: Bumping alpha version to ${NEW_VERSION}"
 
 git push -f -u origin v${VERSION_WO_ALPHA}
 
-git push origin :$NEW_VERSION
+git push origin :$NEW_VERSION || true
 
-git tag $NEW_VERSION
+git tag $NEW_VERSION || true
 
-git push origin --tags -q
+git push origin --tags -q || true
