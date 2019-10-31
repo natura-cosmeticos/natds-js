@@ -1,4 +1,5 @@
 # NatDS
+
 Natura Design System
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
@@ -25,6 +26,3 @@ Our official docs can be found [here](https://natura-cosmeticos.github.io/natds/
 ## How to contribute
 
 Check out our contributing guideline [here](./CONTRIBUTING.md).
-
-
-
