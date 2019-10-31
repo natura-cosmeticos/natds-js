@@ -34,3 +34,4 @@ Follow the instructions as well as the example below:
 
 **In conclusion, you will be able to access the new instance of stotybook at the link shown in the overview**
 ![image](./.assets/netlify/step8.png)
+
