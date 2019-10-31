@@ -1,22 +1,36 @@
 export interface ITheme {
-  dark: boolean;
-  roundness: number;
-  colors: {
-    primary: string;
-    background: string;
-    surface: string;
-    accent: string;
-    error: string;
-    text: string;
-    disabled: string;
-    placeholder: string;
-    backdrop: string;
-    secondary: string;
+  shape?: {
+    borderRadius?: number;
   };
-  fonts?: {
-    regular: string;
-    medium: string;
-    light: string;
-    thin: string;
+  palette?: {
+    type?: 'light' | 'dark';
+    primary?: {
+      main?: string;
+      light?: string;
+      dark?: string;
+      contrastText?: string;
+    };
+    secondary?: {
+      main?: string;
+      light?: string;
+      dark?: string;
+      contrastText?: string;
+    };
+    error?: {
+      main?: string;
+      light?: string;
+      dark?: string;
+      contrastText?: string;
+    };
+    background?: {
+      paper?: string;
+      default?: string;
+    };
+    text?: {
+      primary?: string;
+      secondary?: string;
+      disabled?: string;
+      hint?: string;
+    };
   };
 }

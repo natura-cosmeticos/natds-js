@@ -4,18 +4,36 @@ import { ITheme } from '../ITheme';
 const { natura } = tokens.colors;
 
 export const naturaLight: ITheme = {
-  dark: false,
-  roundness: 4,
-  colors: {
-    primary: natura.primary.colorBrdNatPrimaryYellow,
-    secondary: natura.primary.colorBrdNatPrimaryOrange,
-    accent: natura.primary.colorBrdNatPrimaryOrange,
-    background: "#FAFAFA",
-    surface: natura.primary.colorBrdNatPrimaryWhite,
-    error: natura.complementary.colorBrdNatCpRed2,
-    text: natura.primary.colorBrdBlack,
-    disabled: natura.primary.colorBrdNatGray2,
-    placeholder: natura.primary.colorBrdNatGray1,
-    backdrop: natura.primary.colorBrdNatGray3
+  shape: {
+    borderRadius: 4
+  },
+  palette: {
+    type: 'light',
+    primary: {
+      main: natura.primary.colorBrdNatPrimaryYellow,
+      light: '#FEFDE8',
+      dark: '#EF8426',
+      contrastText: natura.primary.colorBrdNatPrimaryWhite
+    },
+    secondary: {
+      main: natura.primary.colorBrdNatPrimaryOrange,
+      light: '#FFF8E1',
+      dark: natura.primary.colorBrdNatPrimaryOrange,
+      contrastText: natura.primary.colorBrdNatPrimaryWhite
+    },
+    error: {
+      main: natura.complementary.colorBrdNatCpRed2,
+      contrastText: natura.primary.colorBrdNatPrimaryWhite,
+    },
+    background: {
+      paper: '#FAFAFA',
+      default: natura.primary.colorBrdNatPrimaryWhite,
+    },
+    text: {
+      primary: natura.primary.colorBrdBlack,
+      secondary: natura.primary.colorBrdBlack,
+      disabled: natura.primary.colorBrdNatGray3,
+      hint: natura.primary.colorBrdNatGray2
+    }
   }
 };
