@@ -15,7 +15,7 @@ export default {
 };
 
 export const Default = () => (
-  <Provider theme={themes.natura}>
+  <Provider theme={themes.natura.light}>
     <Chip
       clickable={boolean('clickable', true)}
       disabled={boolean('disabled', false)}

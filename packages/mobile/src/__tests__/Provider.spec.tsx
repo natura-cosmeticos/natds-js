@@ -7,16 +7,16 @@ import { shallow } from 'enzyme';
 
 describe('Provider', () => {
   describe('rendering', () => {
-    test('should match the default natura theme', () => {
+    test('should match the default natura light theme', () => {
       const provider = shallow(<Provider children />);
       const { theme } = provider.props();
 
-      expect(theme).toStrictEqual(natura);
+      expect(theme).toStrictEqual(natura.light);
     });
 
     test('should match the provided theme', () => {
       const mockedTheme = {
-        ...natura
+        ...natura.light
       };
 
       mockedTheme.colors.primary = 'MOCKED';
