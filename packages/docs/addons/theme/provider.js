@@ -19,7 +19,7 @@ const THEME_PROVIDERS = {
 };
 
 function getProvider(context) {
-  return THEME_PROVIDERS[context];
+  return THEME_PROVIDERS[context] || THEME_PROVIDERS.web;
 }
 
 export const withTheme = makeDecorator({

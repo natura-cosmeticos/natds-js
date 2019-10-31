@@ -1,13 +1,14 @@
 import * as React from 'react';
 import { text, boolean, select } from '@storybook/addon-knobs';
-import withJest from '@decorators/jest';
+import withJest from '@decorators/jest/jest';
+import withContainer from '@decorators/container/container';
 
 import { Chip } from '@naturacosmeticos/natds-web';
 
 export default {
   title: 'Web|Chip',
   component: Chip,
-  decorators: [withJest()],
+  decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
     jest: ['Chip'],
