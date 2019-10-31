@@ -1,6 +1,6 @@
 import React from 'react';
 import { mount } from 'enzyme';
-import * as themes from '../Themes';
+import { themes } from '../Themes';
 import { Provider } from '../Provider';
 import { createMuiTheme } from '@material-ui/core';
 
