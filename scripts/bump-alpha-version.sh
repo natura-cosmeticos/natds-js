@@ -9,19 +9,9 @@ NEW_VERSION=`node helpers/buildVersion.js $VERSION`
 
 cd ..
 
-yarn build:libs
+npm version $NEW_VERSION --no-git-tag-version -f
 
-cd packages/docs
-
-rm -rf "dist/releases/v${NEW_VERSION}"
-
-yarn build -o "dist/releases/v${NEW_VERSION}"
-
-cd ../../scripts
-
-node helpers/addVersionOnConfig.js $NEW_VERSION
-
-VERSION_WO_ALPHA=`node helpers/removeAlphaFromVersion.js ${NEW_VERSION}`
+VERSION_WO_ALPHA=`node scripts/helpers/removeAlphaFromVersion.js ${NEW_VERSION}`
 
 git remote rm origin
 # This remote is using a contributor account and an OAuth key from github
@@ -30,13 +20,19 @@ git remote add origin https://robertLichtnow:$GITHUB_API_KEY@github.com/natura-c
 
 git fetch
 
-git checkout "v${VERSION_WO_ALPHA}-docs"
+git checkout "v${VERSION_WO_ALPHA}"
 
 # Travis will make the commit
 git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis CI"
 
 git add --all
-git commit -m "Travis Commit: Generating docs for alpha version ${NEW_VERSION}"
+git commit -m "Travis Commit: Bumping alpha version to ${NEW_VERSION}"
 
-git push -f -u origin v${VERSION_WO_ALPHA}-docs
+git push -f -u origin v${VERSION_WO_ALPHA}
+
+git push origin :$NEW_VERSION
+
+git tag $NEW_VERSION
+
+git push origin --tags -q

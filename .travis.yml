@@ -6,14 +6,25 @@ node_js:
 cache:
   directories:
     - node_modules
+    - packages/web/node_modules
+    - packages/mobile/node_modules
+    - packages/styles/node_modules
+    - packages/docs/node_modules
 
 branches:
   only:
     - master
-    - feature/setup
+    - /v\d+\.\d+\.\d+$/   # Milestone branch pattern for vM.m.p
 
-script:
-  - yarn verify
+jobs:
+  include:
+    # - stage: Unit Tests
+    #   script: yarn verify
+    - stage: Bump Alpha Version
+      if: branch =~ /v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
+      script: chmod +x scripts/bump-alpha-version.sh &&  scripts/bump-alpha-version.sh
+    - stage: Build Alpha Storybook Version
+      if: branch =~ /v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
+      script: chmod +x scripts/build-pre-release.sh && scripts/build-pre-release.sh
 
-after_success:
-  - yarn release
+
