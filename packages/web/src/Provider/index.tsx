@@ -1,7 +1,6 @@
 import { MuiThemeProvider } from '@material-ui/core/styles';
 import createMuiTheme, { ThemeOptions } from '@material-ui/core/styles/createMuiTheme';
 import * as React from 'react';
-
 import { themes } from '../Themes';
 import { ITheme } from '@naturacosmeticos/natds-styles';
 
