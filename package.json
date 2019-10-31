@@ -32,7 +32,9 @@
     "build": "lerna run build",
     "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
     "verify": "yarn build:libs && yarn lerna run verify",
-    "watch": "concurrently \"cd packages/web && yarn watch\" \"cd packages/mobile && yarn watch\" \"cd packages/styles && yarn watch\""
+    "watch": "concurrently \"cd packages/web && yarn watch\" \"cd packages/mobile && yarn watch\" \"cd packages/styles && yarn watch\"",
+    "version": "echo $npm_package_version",
+    "build:docs:prerelease": "bash scripts/build-pre-release.sh"
   },
   "private": true,
   "workspaces": {
