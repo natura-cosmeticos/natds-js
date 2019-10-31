@@ -4,6 +4,7 @@ import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 
 import { Chip } from '@naturacosmeticos/natds-web';
+import { PropTypes } from '@material-ui/core';
 
 export default {
   title: 'Web|Chip',
@@ -16,15 +17,24 @@ export default {
   }
 };
 
-const colors = {
-  primary: 'primary',
-  secondary: 'secondary',
-  default: 'default'
+const primary:PropTypes.Color = 'primary';
+const secondary:PropTypes.Color = 'secondary';
+const _default:PropTypes.Color = 'default';
+
+const colors:any = {
+  primary,
+  secondary,
+  default: _default
 };
 
-const variants = {
+const variant: any = {
   default: 'default',
   outlined: 'outlined'
+};
+
+const size: any = {
+  small: 'small',
+  medium: 'medium'
 };
 
 export const Default = () => (
@@ -33,7 +43,8 @@ export const Default = () => (
     disabled={boolean('disabled', false)}
     label={text('label', 'Chip Component')}
     onDelete={() => undefined}
-    color={select('Color', colors, colors.default)}
-    variant={select('Variant', variants, variants.default)}
+    color={select('Colors', colors, colors.default)}
+    variant={select('Variant', variant, variant.default)}
+    size={select('Size', size, size.medium)}
   />
 );
