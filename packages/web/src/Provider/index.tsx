@@ -1,6 +1,6 @@
 import { MuiThemeProvider, Theme } from '@material-ui/core';
 import * as React from 'react';
-import * as themes from '../Themes';
+import { themes } from '../Themes';
 
 export interface IProvider {
   children: React.ReactNode;
