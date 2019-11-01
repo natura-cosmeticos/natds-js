@@ -11,7 +11,7 @@
 </body>
 <script>
   fetch('./versions_config.json')
-  .then(res => {
+  .then(async res => {
     const releases = await res.json();
     window.location.href = `/releases/${releases[0].versions[0]}`;
   }).catch(err => console.error(err));
