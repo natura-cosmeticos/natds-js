@@ -28,7 +28,8 @@
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
     "test": "yarn test:unit:coverage -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "build": "tsc -p ./tsconfig.json",
+    "build:clean": "rm -rf ./dist",
+    "build": "yarn build:clean && tsc -p ./tsconfig.json",
     "start": "yarn build -w",
     "watch":"yarn start",
     "verify": "yarn lint && yarn test"
