@@ -21,7 +21,8 @@
     "directory": "packages/styles"
   },
   "scripts": {
-    "build": "tsc -p ./tsconfig.json",
+    "build:clean": "rm -rf dist",
+    "build": "yarn build:clean && tsc -p ./tsconfig.json",
     "start": "yarn build --watch",
     "watch": "yarn start",
     "test": "jest",
