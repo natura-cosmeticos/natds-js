@@ -21,7 +21,11 @@ module.exports = ({ config }) => {
     test: /\.(png|jpe?g|gif)$/i,
     use: [
       {
-        loader: 'file-loader'
+        loader: 'file-loader',
+        options: {
+          context: '/',
+          name: 'images/[name].[ext]'
+        }
       }
     ]
   });
