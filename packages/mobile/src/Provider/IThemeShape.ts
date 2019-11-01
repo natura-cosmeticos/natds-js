@@ -1,9 +1,9 @@
 import { ThemeShape } from "react-native-paper";
 
 export interface IThemeShape extends ThemeShape {
-  dark?: boolean;
-  roundness?: number;
-  colors?: {
+  dark: boolean;
+  roundness: number;
+  colors: {
     primary?: string;
     background?: string;
     surface?: string;
@@ -14,7 +14,7 @@ export interface IThemeShape extends ThemeShape {
     placeholder?: string;
     backdrop?: string;
   };
-  fonts?: {
+  fonts: {
     regular: string;
     medium: string;
     light: string;
