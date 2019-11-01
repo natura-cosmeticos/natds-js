@@ -2,9 +2,10 @@
   font-weight: 400;
   line-height: 1.5;
   max-width: 800px;
+  width: 100%;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   color: #555;
-  margin: 30px;
+  margin: 60px;
 }
 
 .table__title {
@@ -48,6 +49,7 @@
 }
 
 .table__body__item__color {
+  border: #ddd 2px solid;
   border-radius: 50%;
   width: 16px;
   height: 16px;
