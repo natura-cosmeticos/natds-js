@@ -51,3 +51,16 @@ yarn build
 ## Publish new storybook instance
 
 We use [Netlify](https://www.netlify.com/) to create new storybook instances, generated after creating a milestone (alpha versions). Get access with an administrator and follow [instructions](./DEPLOY_NETLIFY.md)
+
+## Starting a new milestone
+
+Checkout to the master branch and create a new branch with the following naming:
+- vM.m.p
+  - v &rarr; letter v for version;
+  - M.m.p &rarr; Version number of the milestone following [SemVer](https://semver.org/);
+
+From the new branch, create another one with the same name, but with `-docs` sufix.
+
+Example: `v0.5.0` and `v0.5.0-docs`
+
+After that, follow the guide on [DEPLOY_NETLIFY.md](./DEPLOY_NETLIFY.md) and make the instance build with the docs branch.
