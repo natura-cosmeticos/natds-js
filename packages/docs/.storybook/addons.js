@@ -4,5 +4,4 @@ import '@storybook/addon-viewport/register';
 import '@storybook/addon-a11y/register';
 import '@storybook/addon-jest/register';
 import '@storybook/addon-knobs/register';
-import '../addons/theme/register';
 import '../addons/versions/register';
