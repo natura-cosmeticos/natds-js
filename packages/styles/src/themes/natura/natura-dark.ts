@@ -26,7 +26,7 @@ export const naturaDark: ITheme = {
       contrastText: natura.primary.colorBrdNatPrimaryWhite,
     },
     background: {
-      paper: '#FAFAFA',
+      paper: '#222222',
       default: natura.primary.colorBrdNatPrimaryWhite,
     },
     text: {

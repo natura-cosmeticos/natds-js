@@ -40,6 +40,8 @@ export const withTheme = makeDecorator({
       return () => (channel.removeListener(CHANGE))
     }, []);
 
+    console.log(theme)
+
     return (
       <Provider theme={theme}>
         {getStory(context)}
