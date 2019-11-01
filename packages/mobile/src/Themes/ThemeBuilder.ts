@@ -11,20 +11,20 @@ export function ThemeBuilder(theme: ITheme | undefined, defaultTheme?: ITheme) {
   const { palette = {}, shape } = provider;
 
   const {
-    primary = {},
-    secondary = {},
+    primary: { main: primary } = { main: undefined },
+    secondary: { main: secondary } = { main: undefined },
+    error: { main: error } = { main: undefined },
     background = {},
-    error = {},
     text = {}
   } = palette;
 
   const colors = {
-    primary: primary.main || undefined,
-    accent: secondary.main,
-    secondary: secondary.main,
+    primary,
+    accent: secondary,
+    secondary,
+    error,
     background: background.default,
     surface: background.paper,
-    error: error.main,
     text: text.primary,
     onBackground: text.primary,
     onSurface: text.secondary,
