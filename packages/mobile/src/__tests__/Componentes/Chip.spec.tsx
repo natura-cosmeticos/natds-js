@@ -1,10 +1,9 @@
 import 'react-native';
 import React from 'react';
-import Chip from '../../Components/Chip';
-import { natura } from '../../Themes/index';
-
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
+
+import Chip from '../../Components/Chip';
 
 describe('Chip', () => {
   describe('rendering', () => {
@@ -65,11 +64,6 @@ describe('Chip', () => {
         .create(<Chip children style="style" />)
         .toJSON();
       expect(component).toMatchSnapshot('Style chip snapshot');
-    });
-
-    test('should match to snapshot - Theme Light', () => {
-      const component = renderer.create(<Chip children theme={natura.light} />).toJSON();
-      expect(component).toMatchSnapshot('Theme chip snapshot');
     });
 
     test('should match to snapshot - TestID', () => {

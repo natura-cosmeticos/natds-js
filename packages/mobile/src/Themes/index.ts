@@ -1,1 +1,1 @@
-export { default as natura } from './natura';
+export { themes } from '@naturacosmeticos/natds-styles';

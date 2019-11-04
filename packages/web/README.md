@@ -27,20 +27,16 @@ import { Chip, Provider, themes } from '@naturacosmeticos/natds-web'
 const { natura } = themes;
 
 return (
-  <Provider theme={natura}>
+  <Provider theme={natura.light}>
     <Chip
-      clickable={boolean('clickable', true)}
-      disabled={boolean('disabled', false)}
-      label={text('label', 'Chip Component')}
-      onDelete={() => undefined}
+      clickable={boolean}
+      disabled={boolean}
+      label={string}
+      onDelete={function}
     />
   </Provider>
 )
 ```
-
-## Docs
-
-https://natura-cosmeticos.github.io/natds/
 
 ---
 
