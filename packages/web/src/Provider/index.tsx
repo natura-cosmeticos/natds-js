@@ -1,19 +1,20 @@
-import { MuiThemeProvider, Theme } from '@material-ui/core';
+import { MuiThemeProvider } from '@material-ui/core/styles';
+import createMuiTheme, { ThemeOptions } from '@material-ui/core/styles/createMuiTheme';
 import * as React from 'react';
-import * as themes from '../Themes';
+
+import { themes } from '../Themes';
+import { ITheme } from '@naturacosmeticos/natds-styles';
 
 export interface IProvider {
   children: React.ReactNode;
-  theme?: Theme;
+  theme?: ITheme;
 }
 
 export const Provider:React.FunctionComponent<IProvider> = (props:IProvider) => {
-  const { theme } = props;
+  const theme: ThemeOptions = props.theme ? { ...props.theme } : { ...themes.natura.light };
+  const newTheme = createMuiTheme(theme);
 
   return(
-    <MuiThemeProvider
-      {...props}
-      theme={theme ? theme : themes.natura.light}
-    />
+    <MuiThemeProvider {...props} theme={newTheme} />
   );
 };

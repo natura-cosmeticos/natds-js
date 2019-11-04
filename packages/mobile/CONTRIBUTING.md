@@ -1,4 +1,4 @@
-# NatDS Web
+# NatDS RN
 
 Natura Design System - Web Components
 
@@ -6,6 +6,13 @@ Natura Design System - Web Components
 
 ```sh
 yarn start
+```
+you can choose the platform
+
+```sh
+yarn ios
+# or
+yarn android
 ```
 
 ## Test

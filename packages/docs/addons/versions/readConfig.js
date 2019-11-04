@@ -16,8 +16,7 @@ const readConfig = (filename = 'versions_config.json') => (
       }
 
       response.json().then(resolve);
-    }).catch((e) => {
-      console.log(e)
+    }).catch(() => {
       throw new Error('Error getting config');
     });
   })

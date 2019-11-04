@@ -1,26 +1,50 @@
 import * as React from 'react';
-import { text, boolean } from '@storybook/addon-knobs';
-import withJest from '@decorators/jest';
+import { text, boolean, select } from '@storybook/addon-knobs';
+import withJest from '@decorators/jest/jest';
+import withContainer from '@decorators/container/container';
 
-import { Chip, Provider, themes } from '@naturacosmeticos/natds-web';
+import { Chip } from '@naturacosmeticos/natds-web';
+import { PropTypes } from '@material-ui/core';
 
 export default {
   title: 'Web|Chip',
   component: Chip,
-  decorators: [withJest()],
+  decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
-    jest: ['Chip']
+    jest: ['Chip'],
+    theme: 'web'
   }
 };
 
+const primary:PropTypes.Color = 'primary';
+const secondary:PropTypes.Color = 'secondary';
+const _default:PropTypes.Color = 'default';
+
+const colors:any = {
+  primary,
+  secondary,
+  default: _default
+};
+
+const variant: any = {
+  default: 'default',
+  outlined: 'outlined'
+};
+
+const size: any = {
+  small: 'small',
+  medium: 'medium'
+};
+
 export const Default = () => (
-  <Provider theme={themes.natura.light}>
-    <Chip
-      clickable={boolean('clickable', true)}
-      disabled={boolean('disabled', false)}
-      label={text('label', 'Chip Component')}
-      onDelete={() => undefined}
-    />
-  </Provider>
+  <Chip
+    clickable={boolean('clickable', true)}
+    disabled={boolean('disabled', false)}
+    label={text('label', 'Chip Component')}
+    onDelete={() => undefined}
+    color={select('Colors', colors, colors.default)}
+    variant={select('Variant', variant, variant.default)}
+    size={select('Size', size, size.medium)}
+  />
 );

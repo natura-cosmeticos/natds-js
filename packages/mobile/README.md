@@ -18,3 +18,28 @@ react-native link react-native-vector-icons
 yarn add @naturacosmeticos/natds-rn react-native-vector-icons
 react-native link react-native-vector-icons
 ```
+
+## Usage
+
+```sh
+import { Chip, Provider, themes } from '@naturacosmeticos/natds-rn'
+
+const { natura } = themes;
+
+return (
+  <Provider theme={natura.light}>
+    <Chip
+      clickable={boolean}
+      disabled={boolean}
+      label={string}
+      onDelete={function}
+    />
+  </Provider>
+)
+```
+
+---
+
+## Contributing
+
+To contribute, please check out our contributing file [`CONTRIBUTING`](./CONTRIBUTING.md)
