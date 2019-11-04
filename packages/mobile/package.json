@@ -24,7 +24,7 @@
     "ios": "react-native run-ios --simulator=\"iPhone 8\"",
     "start": "react-native start",
     "test:unit": "jest",
-    "test:unit:ci": "yarn test:unit ",
+    "test:unit:ci": "yarn test:unit",
     "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",

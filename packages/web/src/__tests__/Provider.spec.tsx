@@ -5,19 +5,21 @@ import { Provider } from '../Provider';
 import { createMuiTheme } from '@material-ui/core';
 
 describe('Provider component', () => {
-  test.skip('It should have the natura theme', () => {
-    const provider = mount(<Provider >Mocked</Provider>);
+  test('It should have the natura theme', () => {
+    const provider = mount(<Provider>Mocked</Provider>);
     const muiTheme = createMuiTheme(themes.natura.light);
+    const theme = provider.find('ThemeProvider').prop('theme');
 
-    expect(provider.find('ThemeProvider').prop('theme')).toStrictEqual(muiTheme);
+    expect(JSON.stringify(theme)).toStrictEqual(JSON.stringify(muiTheme));
   });
 
-  test.skip('It should have the provided theme', () => {
+  test('It should have the provided theme', () => {
     const mockedTheme = createMuiTheme();
     mockedTheme.palette.primary.dark = 'MOCKED';
 
     const provider = mount(<Provider theme={mockedTheme}>Mocked</Provider>);
+    const theme = provider.find('ThemeProvider').prop('theme');
 
-    expect(provider.find('ThemeProvider').prop('theme')).toStrictEqual(mockedTheme);
+    expect(JSON.stringify(theme)).toStrictEqual(JSON.stringify(mockedTheme));
   });
 });

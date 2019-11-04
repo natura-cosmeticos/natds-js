@@ -12,8 +12,9 @@ export interface IProvider {
 
 export const Provider:React.FunctionComponent<IProvider> = (props:IProvider) => {
   const theme: ThemeOptions = props.theme ? { ...props.theme } : { ...themes.natura.light };
+  const newTheme = createMuiTheme(theme);
 
   return(
-    <MuiThemeProvider {...props} theme={createMuiTheme(theme)} />
+    <MuiThemeProvider {...props} theme={newTheme} />
   );
 };
