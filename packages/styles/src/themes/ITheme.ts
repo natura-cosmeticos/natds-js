@@ -32,5 +32,31 @@ export interface ITheme {
       disabled?: string;
       hint?: string;
     };
+    typography?: {
+      web?: {
+        fontFamily?: string;
+        fontFamilyBrand?: string;
+        fontWeightLight?: number;
+        fontWeightRegular?: number;
+        fontWeightMedium?: number;
+        fontWeightBold?: number;
+      },
+      iOS?: {
+        fontFamily?: string;
+        fontFamilyBrand?: string;
+        fontWeightLight?: number;
+        fontWeightRegular?: number;
+        fontWeightMedium?: number;
+        fontWeightBold?: number;
+      }
+      android?: {
+        fontFamily?: string;
+        fontFamilyBrand?: string;
+        fontWeightLight?: number;
+        fontWeightRegular?: number;
+        fontWeightMedium?: number;
+        fontWeightBold?: number;
+      };
+    };
   };
 }
