@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { themes } from '@naturacosmeticos/natds-styles';
 import Table from '@addons/Table/Table';
+import tokensParams from '../shared';
 
 const { natura } = themes;
 
@@ -50,14 +51,15 @@ export default {
           <Table schema={darkSchema} title="Dark" />
         </div>
       )
-    }
+    },
+    ...tokensParams
   }
 };
 
-export const Light = () => (
+export const NaturaLight = () => (
   <LightComponent />
 );
 
-export const Dark = () => (
+export const NaturaDark = () => (
   <DarkComponent />
 );

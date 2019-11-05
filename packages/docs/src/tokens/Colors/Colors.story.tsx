@@ -2,6 +2,7 @@ import * as React from 'react';
 import { tokens } from '@naturacosmeticos/natds-styles';
 import Table from '@addons/Table/Table';
 import Colors from './Colors.component';
+import tokensParams from '../shared';
 
 const { natura } = tokens.colors;
 
@@ -45,7 +46,8 @@ export default {
           <Table schema={gradientSchema} title="Gradient" />
         </div>
       )
-    }
+    },
+    ...tokensParams
   }
 };
 
