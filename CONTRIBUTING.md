@@ -16,6 +16,14 @@ Please read [the full text](/CODE_OF_CONDUCT.md) so that you can understand whic
 
 Your feature branch must be checked out from the milestone that the feature belongs. You can follow whichever PR guideline inside your feature branch, but make sure that when Pull Requesting back to the milestone branch to use the [pull request template](./.github/PULL_REQUEST_TEMPLATE.md).
 
+You can follow our guideline in your feature branch which go as it follows:
+
+- After creating your feature branch, checkout from it with another branched named with one of the conventions:
+  - `feature/<task name>` when Pull Requesting back to your original feature branch, travis will run tests;
+  - `docs/<name>` for docs only. Travis will also run tests;
+- Then PR it back to your original feature branch;
+- Iterate until the whole original feature is complete and PR it to the milestone branch;
+
 ## For contributors on Natura Organization
 
 If you find yourself in this category, you can go directly to branching this repository, without worrying about forking.
