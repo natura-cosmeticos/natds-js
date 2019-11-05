@@ -10,15 +10,15 @@ export const naturaDark: ITheme = {
   palette: {
     type: 'light',
     primary: {
-      main: natura.primary.colorBrdNatPrimaryYellow,
-      light: '#FEFDE8',
-      dark: '#EF8426',
+      main: natura.primary.colorBrdNatPrimaryOrange,
+      light: natura.complementary.colorBrdNatCpOrange3,
+      dark: natura.complementary.colorBrdNatCpOrange2,
       contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     secondary: {
-      main: natura.primary.colorBrdNatPrimaryOrange,
-      light: '#FFF8E1',
-      dark: natura.primary.colorBrdNatPrimaryOrange,
+      main: natura.complementary.colorBrdNatCpOrange1,
+      light: natura.complementary.colorBrdNatCpRed3,
+      dark: natura.complementary.colorBrdNatCpRed2,
       contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     error: {
