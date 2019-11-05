@@ -3,7 +3,7 @@ import { addons, makeDecorator } from '@storybook/addons';
 
 import { Provider as ProviderWeb, themes as themesWeb } from '@naturacosmeticos/natds-web';
 import { Provider as ProviderMobile, themes as themesMobile } from '@naturacosmeticos/natds-rn';
-import { CHANGE } from './shared';
+import { PANEL_ID, CHANGE, PARAM_KEY } from './shared';
 
 const THEME_PROVIDERS = {
   web: {
@@ -24,12 +24,13 @@ function getProvider(context) {
 
 export const withTheme = makeDecorator({
   name: 'withTheme',
-  parameterName: 'theme',
-  skipIfNoParametersOrOptions: false,
+  parameterName: PARAM_KEY,
+  skipIfNoParametersOrOptions: true,
   allowDeprecatedUsage: true,
-  wrapper: (getStory, context, { parameters }) => {
-    const { provider: Provider, themes, defaultTheme } = getProvider(parameters);
+  wrapper: (getStory, context, { options, parameters }) => {
     const channel = addons.getChannel();
+    const platform = parameters || options;
+    const { provider: Provider, themes, defaultTheme } = getProvider(platform);
     const [theme, setTheme] = useState(defaultTheme);
 
     useEffect(() => {
@@ -42,7 +43,7 @@ export const withTheme = makeDecorator({
 
     return (
       <Provider theme={theme}>
-        {getStory(context)}
+        {getStory()}
       </Provider>
     );
   },

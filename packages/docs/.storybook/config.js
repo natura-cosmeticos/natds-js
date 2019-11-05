@@ -28,10 +28,7 @@ addParameters({
   backgrounds: [
     { name: 'light', value: '#fafafa' },
     { name: 'dark', value: '#242424' }
-  ],
-  knobs: {
-    disableDebounce: true
-  }
+  ]
 });
 
 addDecorator(withKnobs);
