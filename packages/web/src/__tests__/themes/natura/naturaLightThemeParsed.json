@@ -1,0 +1,41 @@
+{
+  "shape": {
+    "borderRadius": 4
+  },
+  "palette": {
+    "type": "light",
+    "primary": {
+      "main": "#F4AB34",
+      "light": "#FEFDE8",
+      "dark": "#EF8426",
+      "contrastText": "#FFFFFF"
+    },
+    "secondary": {
+      "main": "#FF6B0B",
+      "light": "#FFF8E1",
+      "dark": "#FF6B0B",
+      "contrastText": "#FFFFFF"
+    },
+    "error": {
+      "main": "#E74627",
+      "contrastText": "#FFFFFF"
+    },
+    "background": {
+      "paper": "#FAFAFA",
+      "default": "#FFFFFF"
+    },
+    "text": {
+      "primary": "#000000",
+      "secondary": "#000000",
+      "disabled": "#EEEEEE",
+      "hint": "#BBBBBB"
+    }
+  },
+  "typography": {
+    "fontFamily": "\"Roboto\", sans-serif",
+    "fontWeightLight": 300,
+    "fontWeightRegular": 400,
+    "fontWeightMedium": 500,
+    "fontWeightBold": 700
+  }
+}
