@@ -35,9 +35,9 @@ export const naturaLight: ITheme = {
       secondary: natura.primary.colorBrdBlack,
       disabled: natura.primary.colorBrdNatGray3,
       hint: natura.primary.colorBrdNatGray2
-    },
-    typography: {
-      ...typography
     }
+  },
+  typography: {
+    ...typography
   }
 };
