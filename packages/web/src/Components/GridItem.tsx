@@ -1,5 +1,4 @@
 import React, { FunctionComponent } from 'react';
-
 import MaterialGrid, { GridProps } from '@material-ui/core/Grid';
 
 const GridItem: FunctionComponent<GridProps> = (props: GridProps) => {

@@ -84,7 +84,7 @@ const maxBreakpointWidth = {
 
 const mountGridItem = (selectBreakpoint: any, value: any, key: number) => {
   return (
-    <GridItem key={key} item {...value}>
+    <GridItem key={key} {...value}>
       <div>{selectBreakpoint}</div>
     </GridItem>
   );
