@@ -2,8 +2,8 @@ import { IThemeShape } from '../Provider/IThemeShape';
 import { DefaultTheme } from 'react-native-paper';
 import { ITheme } from '@naturacosmeticos/natds-styles';
 
-export function ThemeBuilder(theme: ITheme | undefined, defaultTheme?: ITheme): IThemeShape {
-  const provider = theme ? theme : (defaultTheme || {});
+export function ThemeBuilder(theme: ITheme | undefined, defaultTheme: ITheme): IThemeShape {
+  const provider = theme ? theme : defaultTheme;
   const { palette = {}, shape } = provider;
 
   const {
