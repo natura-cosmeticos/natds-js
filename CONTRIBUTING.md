@@ -7,6 +7,16 @@ We also uses yarn workspaces, so you should install `yarn@1.19.1` or higher as a
 
 Please note we have a code of conduct, please follow it in all your interactions with the project.
 
+## Project Structure
+
+We use lerna to manage our versioning on the monorepo packages. The monorepo structure goes as it follows:
+
+packages <br>
+&nbsp;&nbsp;&nbsp;&nbsp; /styles <br>
+&nbsp;&nbsp;&nbsp;&nbsp; /web <br>
+&nbsp;&nbsp;&nbsp;&nbsp; /mobile <br>
+&nbsp;&nbsp;&nbsp;&nbsp; /docs <br>
+
 ## Code of Conduct
 
 Natura Design System has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) as its Code of Conduct, and we expect project participants to adhere to it.
@@ -30,7 +40,7 @@ If you find yourself in this category, you can go directly to branching this rep
 
 ## For contributors outside Natura Organization
 
-If you find yourself in this category, you should forke this repository in order to start working.
+We are not open for external contribution right now.
 
 ## Visual Validation
 
@@ -41,16 +51,29 @@ After merged, the PR will generate a version on the storybook that the milestone
 First, you need to install dependencies and build packages. After that you will be able to execute any of the projects (docs, web or mobile).
 
 ```sh
+git clone https://github.com/natura-cosmeticos/natds
+cd natds
+git checkout <milestone_branch>
 yarn
-yarn build
+yarn build:libs
 ```
+
+### Commits
+
+You should use the [Commitizen](https://github.com/commitizen/cz-cli) CLI that is installed on the root `package.json`. You can use it by going to the root folder and:
+
+```sh
+yarn commit
+```
+
+Be careful on which options you choose, please, read the [Semantic Release](https://github.com/semantic-release/semantic-release) guideline.
 
 ## Pull Request Process
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a build.
-2. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters.
-3. We use [Commitizen](https://github.com/commitizen/cz-cli) to follow [Semantic Release](https://github.com/semantic-release/semantic-release) patterns.
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you.
+1. Ensure any install or build dependencies are removed before the end of the layer when doing a build;
+2. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters;
+3. We use [Commitizen](https://github.com/commitizen/cz-cli) to follow [Semantic Release](https://github.com/semantic-release/semantic-release) patterns;
+4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you;
 5. We use [Verdaccio](https://github.com/verdaccio/verdaccio) to release local test. Before submitting a PR, we advise you to take a few steps:
    > After installing Verdaccio, on a terminal/console, start `verdaccio` process.<br/>
    > At another terminal/console, run the command `yarn release:local`. This will publish the packages locally (http://localhost:4873), which may include the dependency required for other projects, e.g.: `yarn add @ naturacosmeticos/natds-web --registry=http://localhost:4873`.<br/>
@@ -58,7 +81,7 @@ yarn build
 
 ## Publish new storybook instance
 
-We use [Netlify](https://www.netlify.com/) to create new storybook instances, generated after creating a milestone (alpha versions). Get access with an administrator and follow [instructions](./DEPLOY_NETLIFY.md)
+We use [Netlify](https://www.netlify.com/) to create new storybook instances, generated after creating a milestone (alpha versions). Get access with an administrator and follow [instructions](./DEPLOY_NETLIFY.md).
 
 ## Starting a new milestone
 

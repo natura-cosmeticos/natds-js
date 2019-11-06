@@ -1,6 +1,6 @@
-# NatDS Web
+# NatDS Styles
 
-Natura Design System - Web Components
+Natura Design System - Styles
 
 ## Test
 
