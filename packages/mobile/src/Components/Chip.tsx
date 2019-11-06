@@ -54,6 +54,9 @@ declare type ChipProps = React.ComponentProps<typeof Surface> & {
    * Style of chip's text
    */
   textStyle?: any;
+  /**
+   * React Native style object
+   */
   style?: StyleProp<ViewStyle>;
   /**
    * @optional
@@ -65,6 +68,6 @@ declare type ChipProps = React.ComponentProps<typeof Surface> & {
   testID?: string;
 };
 
-const Chip: React.FunctionComponent<ChipProps> = (props:ChipProps) => (<PaperChip {...props} />);
+const Chip: React.FunctionComponent<Omit<ChipProps,'height' | 'width'>> = (props:Omit<ChipProps,'height' | 'width'>) => (<PaperChip {...props} />);
 
 export default withTheme(Chip);
