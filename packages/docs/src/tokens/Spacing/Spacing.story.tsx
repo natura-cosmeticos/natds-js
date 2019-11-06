@@ -4,6 +4,7 @@ import Table from '@addons/Table/Table';
 import SpacingScale from './Spacing.scale';
 import SpacingPadding from './Spacing.padding';
 import SpacingMargin from './Spacing.margin';
+import tokensParams from '../shared';
 
 import { tokens } from '@naturacosmeticos/natds-styles';
 
@@ -33,7 +34,8 @@ export default {
     docs: {
       container: null,
       page: () => (<Table schema={spacingSchema} title="Spacing" />)
-    }
+    },
+    ...tokensParams
   }
 };
 

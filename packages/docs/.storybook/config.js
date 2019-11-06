@@ -28,15 +28,12 @@ addParameters({
   backgrounds: [
     { name: 'light', value: '#fafafa' },
     { name: 'dark', value: '#242424' }
-  ],
-  knobs: {
-    disableDebounce: true
-  }
+  ]
 });
 
-addDecorator(withKnobs);
 addDecorator(withA11y);
 addDecorator(withTheme);
+addDecorator(withKnobs);
 
 const tokens = require.context('../src/tokens', true, /\.story.(ts|md)x?$/);
 const web = require.context('../src/web', true, /\.story.(ts|md)x?$/);
