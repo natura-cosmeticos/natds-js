@@ -31,7 +31,7 @@
     "build:clean": "rm -rf ./dist",
     "build": "yarn build:clean && tsc -p ./tsconfig.json",
     "start": "yarn build -w",
-    "watch":"yarn start",
+    "watch": "yarn start",
     "verify": "yarn lint && yarn test"
   },
   "dependencies": {
