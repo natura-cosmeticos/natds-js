@@ -1,112 +1,114 @@
 import * as React from 'react';
+import { select } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 
-import { Grid } from '@naturacosmeticos/natds-web';
-
+import { GridContainer, GridItem } from '@naturacosmeticos/natds-web';
 import './styles.scss';
 
 export default {
   title: 'Web|Grid',
-  component: Grid,
+  component: GridContainer,
   decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
-    jest: ['Grid'],
+    jest: ['GridContainer'],
     theme: 'web'
   }
 };
 
-export const Default = () => (
-  <Grid container>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
-    <Grid item xs={1}>
-      <div>xs=1</div>
-    </Grid>
+const breakpoint = {
+  md: 'md',
+  sm: 'sm',
+  xs: 'xs'
+};
 
-    <Grid item xs={2}>
-      <div>xs=2</div>
-    </Grid>
-    <Grid item xs={2}>
-      <div>xs=2</div>
-    </Grid>
-    <Grid item xs={2}>
-      <div>xs=2</div>
-    </Grid>
-    <Grid item xs={2}>
-      <div>xs=2</div>
-    </Grid>
-    <Grid item xs={2}>
-      <div>xs=2</div>
-    </Grid>
-    <Grid item xs={2}>
-      <div>xs=2</div>
-    </Grid>
+const gridItemBreakpointProps = {
+  md: [
+    { md: 12 },
+    { md: 6 },
+    { md: 6 },
+    { md: 4 },
+    { md: 4 },
+    { md: 4 },
+    { md: 2 },
+    { md: 2 },
+    { md: 2 },
+    { md: 2 },
+    { md: 2 },
+    { md: 2 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 }
+  ],
+  sm: [
+    { sm: 8, md: 12 },
+    { sm: 4, md: 6 },
+    { sm: 4, md: 6 },
+    { sm: 2, md: 3 },
+    { sm: 2, md: 3 },
+    { sm: 2, md: 3 },
+    { sm: 2, md: 3 },
+    { sm: 1, md: 2 },
+    { sm: 1, md: 2 },
+    { sm: 1, md: 2 },
+    { sm: 1, md: 2 },
+    { sm: 1, md: 2 },
+    { sm: 1, md: 2 }
+  ],
+  xs: [
+    { xs: 4, sm: 12 },
+    { xs: 2, sm: 6 },
+    { xs: 2, sm: 6 },
+    { xs: 1, sm: 3 },
+    { xs: 1, sm: 3 },
+    { xs: 1, sm: 3 },
+    { xs: 1, sm: 3 }
+  ]
+};
 
-    <Grid item xs={3}>
-      <div>xs=3</div>
-    </Grid>
-    <Grid item xs={3}>
-      <div>xs=3</div>
-    </Grid>
-    <Grid item xs={3}>
-      <div>xs=3</div>
-    </Grid>
-    <Grid item xs={3}>
-      <div>xs=3</div>
-    </Grid>
+const maxBreakpointWidth = {
+  md: { width: '1179px' },
+  sm: { width: '959px' },
+  xs: { width: '599px' }
+};
 
-    <Grid item xs={4}>
-      <div>xs=4</div>
-    </Grid>
-    <Grid item xs={4}>
-      <div>xs=4</div>
-    </Grid>
-    <Grid item xs={4}>
-      <div>xs=4</div>
-    </Grid>
+const mountGridItem = (selectBreakpoint: any, value: any, key: number) => {
+  return (
+    <GridItem key={key} item {...value}>
+      <div>{selectBreakpoint}</div>
+    </GridItem>
+  );
+};
 
-    <Grid item xs={6}>
-      <div>xs=6</div>
-    </Grid>
-    <Grid item xs={6}>
-      <div>xs=6</div>
-    </Grid>
+const mapGridItemBreakpoint = (selectBreakpoint: string) => {
+  return gridItemBreakpointProps[selectBreakpoint].map(
+    (value: any, key: number) => mountGridItem(selectBreakpoint, value, key)
+  );
+};
 
-    <Grid item xs={12}>
-      <div>xs=12</div>
-    </Grid>
-  </Grid>
-);
+export const Fluid = () => {
+  const selectBreakpoint = select('Breakpoint', breakpoint, breakpoint.md);
+  const maxBreakpointWidthStyle = maxBreakpointWidth[selectBreakpoint] || {};
+
+  return (
+    <>
+      <h4>
+        Breakpoint {selectBreakpoint} ({JSON.stringify(maxBreakpointWidthStyle)}
+        )
+      </h4>
+      <GridContainer spacing={3} style={maxBreakpointWidthStyle}>
+        {mapGridItemBreakpoint(selectBreakpoint)}
+      </GridContainer>
+    </>
+  );
+};
