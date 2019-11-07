@@ -1,5 +1,11 @@
 import React from 'react';
+<<<<<<< HEAD
 import { expect } from 'chai';
+=======
+import { shallow } from 'enzyme';
+import { expect } from 'chai';
+import { assert, spy } from 'sinon';
+>>>>>>> chore(web): creating ButtonGroup component
 import renderer from 'react-test-renderer';
 
 import ButtonGroup from '../Components/ButtonGroup';
