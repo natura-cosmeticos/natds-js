@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ButtonGroup component rendering sizes should match snapshot - Size Large: Medium ButtonGroup snapshot 1`] = `
+<div
+  className="MuiButtonGroup-root"
+  role="group"
+>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      One
+    </span>
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Two
+    </span>
+  </button>
+</div>
+`;
+
+exports[`ButtonGroup component rendering sizes should match snapshot - Size Medium: Medium ButtonGroup snapshot 1`] = `
+<div
+  className="MuiButtonGroup-root"
+  role="group"
+>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      One
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Two
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`ButtonGroup component rendering sizes should match snapshot - Size Small: Small ButtonGroup snapshot 1`] = `
+<div
+  className="MuiButtonGroup-root"
+  role="group"
+>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      One
+    </span>
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Two
+    </span>
+  </button>
+</div>
+`;
+
+exports[`ButtonGroup component rendering variants should match snapshot - High emphasis button (variant contained): High emphasis ButtonGroup snapshot 1`] = `
+<div
+  className="MuiButtonGroup-root MuiButtonGroup-contained"
+  role="group"
+>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-contained MuiButtonGroup-grouped MuiButtonGroup-groupedContained MuiButtonGroup-groupedContained"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      One
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-contained MuiButtonGroup-grouped MuiButtonGroup-groupedContained MuiButtonGroup-groupedContained"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Two
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`ButtonGroup component rendering variants should match snapshot - Low emphasis button (variant text): Low emphasis ButtonGroup snapshot 1`] = `
+<div
+  className="MuiButtonGroup-root"
+  role="group"
+>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text MuiButtonGroup-grouped MuiButtonGroup-groupedText MuiButtonGroup-groupedText"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      One
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text MuiButtonGroup-grouped MuiButtonGroup-groupedText MuiButtonGroup-groupedText"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Two
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>
+</div>
+`;
+
+exports[`ButtonGroup component rendering variants should match snapshot - Medium emphasis button (variant outlined): Medium emphasis ButtonGroup snapshot 1`] = `
+<div
+  className="MuiButtonGroup-root"
+  role="group"
+>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      One
+    </span>
+  </button>
+  <button
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label"
+    >
+      Two
+    </span>
+  </button>
+</div>
+`;
