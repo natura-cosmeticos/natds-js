@@ -3,6 +3,7 @@ import { themes as styleThemes, ITheme } from '@naturacosmeticos/natds-styles';
 export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette'>{
   typography: {
     fontFamily?: string;
+    fontFamilyBrand?: string;
     fontWeightLight?: number;
     fontWeightRegular?: number;
     fontWeightMedium?: number;
@@ -17,6 +18,7 @@ function parseTheme(theme: ITheme):IThemeWeb {
     ...theme,
     typography: {
       fontFamily: web.fontFamily,
+      fontFamilyBrand: web.fontFamilyBrand,
       fontWeightLight: web.fontWeightLight,
       fontWeightRegular: web.fontWeightRegular,
       fontWeightMedium: web.fontWeightMedium,

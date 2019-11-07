@@ -3,8 +3,8 @@
  */
 
 const css = `@font-face {
-  font-family: 'MaterialIcons';
-  src: url('${require('react-native-vector-icons/Fonts/MaterialIcons.ttf')}') format('truetype');
+  font-family: 'MaterialCommunityIcons';
+  src: url('${require('react-native-vector-icons/Fonts/MaterialCommunityIcons.ttf')}') format('truetype');
 }`,
 head = document.head || document.getElementsByTagName('head')[0],
 style = document.createElement('style');
