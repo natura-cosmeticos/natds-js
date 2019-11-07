@@ -13,7 +13,7 @@ describe('Chip', () => {
     });
 
     test('should match to snapshot - Icon', () => {
-      const component = renderer.create(<Chip children icon="add" />).toJSON();
+      const component = renderer.create(<Chip children icon="camera" />).toJSON();
       expect(component).toMatchSnapshot('Icon chip snapshot');
     });
 
@@ -61,7 +61,7 @@ describe('Chip', () => {
 
     test('should match to snapshot - Style', () => {
       const component = renderer
-        .create(<Chip children style="style" />)
+        .create(<Chip children style={{}} />)
         .toJSON();
       expect(component).toMatchSnapshot('Style chip snapshot');
     });
@@ -81,8 +81,7 @@ describe('Chip', () => {
 
       component
         .props()
-        .children()
-        .props.onPress();
+        .onPress();
 
       expect(mockOnPress).toHaveBeenCalled();
     });
@@ -92,8 +91,7 @@ describe('Chip', () => {
 
       component
         .props()
-        .children()
-        .props.onClose();
+        .onClose();
 
       expect(mockOnClose).toHaveBeenCalled();
     });
