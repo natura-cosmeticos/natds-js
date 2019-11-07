@@ -1,7 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { assert, spy } from 'sinon';
 import renderer from 'react-test-renderer';
 
 import ButtonGroup from '../Components/ButtonGroup';
@@ -42,17 +40,6 @@ describe('ButtonGroup component', () => {
       const component = renderer.create(<ButtonGroup variant="contained"><Button>One</Button><Button>Two</Button></ButtonGroup>).toJSON();
 
       expect(component).to.matchSnapshot('High emphasis ButtonGroup snapshot');
-    });
-  });
-
-  describe('interaction', () => {
-    test('should call onClick', () => {
-      const mockOnClick = spy();
-      const component = shallow(<Button onClick={mockOnClick} />);
-
-      component.simulate('click');
-
-      assert.calledOnce(mockOnClick);
     });
   });
 });
