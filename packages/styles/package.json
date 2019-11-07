@@ -25,7 +25,12 @@
     "build": "yarn build:clean && tsc -p ./tsconfig.json",
     "start": "yarn build --watch",
     "watch": "yarn start",
-    "test": "jest",
+    "test:unit": "jest",
+    "test:unit:watch": "yarn test:unit --watch",
+    "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
+    "test:unit:coverage:open": "open coverage/lcov-report/index.html",
+    "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
+    "test": "yarn test:unit:coverage -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "verify": "yarn lint && yarn test"
   },
