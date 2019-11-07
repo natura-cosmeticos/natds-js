@@ -7,7 +7,7 @@ import { RenderOptions } from '@storybook/api/dist/modules/addons';
 import './styles.css';
 import readConfig from './readConfig';
 
-const ADDON_ID = 'version';
+const ADDON_ID = 'versions';
 const PANEL_ID = `${ADDON_ID}/panel`;
 const TITLE = 'Versions';
 
@@ -70,6 +70,7 @@ function changeVersion(version, name) {
 addons.register(ADDON_ID, () => {
   addons.add(PANEL_ID, {
     type: types.PANEL,
+    paramKey: ADDON_ID,
     title: TITLE,
     render: ({ active, key }) => (
       <AddonPanel active={active} key={key}>

@@ -1,10 +1,11 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { AddonPanel } from '@storybook/components';
 import { useAddonState } from "@storybook/api";
 import { addons } from '@storybook/addons';
 
 import { themes } from '@naturacosmeticos/natds-web';
 import { PANEL_ID, CHANGE } from './shared';
+import { STORY_CHANGED } from '@storybook/core-events';
 
 import './styles.css';
 
@@ -20,12 +21,20 @@ export default function Theme(props) {
   const { channel, active, api: { setQueryParams }} = props;
   const [currentTheme, changeTheme] = useAddonState(PANEL_ID, DEFAULT_THEME);
 
-  if (!active) return null;
-
   const handleChange = (params) => {
-    channel.emit(CHANGE, params);
     changeTheme(params);
+    channel.emit(CHANGE, params);
   };
+
+  useEffect(() => {
+    channel.on(STORY_CHANGED, () => {
+      changeTheme(DEFAULT_THEME);
+    });
+
+    return () => (channel.removeListener(STORY_CHANGED))
+  }, []);
+
+  if (!active) return null;
 
   return (
     <div className="theme">
