@@ -2,6 +2,7 @@ import * as React from 'react';
 import { text, boolean, select } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
+import { Delete } from '@material-ui/icons';
 
 import { Button } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
@@ -41,11 +42,13 @@ const sizes: any = {
 
 export const Interactive = () => (
   <Button
-    disabled={boolean('disabled', false)}
     color={select('Colors', colors, colors.default)}
     variant={select('Variant', variants, variants.contained)}
-    size={select('Size', sizes, sizes.medium)}>
-    {text('label', 'Button Component')}
+    size={select('Size', sizes, sizes.medium)}
+    startIcon={boolean('Start Icon', false) ? <Delete /> : null}
+    endIcon={boolean('End Icon', false) ? <Delete /> : null}
+    disabled={boolean('Disabled', false)}>
+    {text('Label', 'Button Component')}
   </Button>
 );
 
