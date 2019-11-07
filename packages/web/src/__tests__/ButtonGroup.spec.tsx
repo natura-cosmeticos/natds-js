@@ -42,4 +42,5 @@ describe('ButtonGroup component', () => {
       expect(component).to.matchSnapshot('High emphasis ButtonGroup snapshot');
     });
   });
+
 });
