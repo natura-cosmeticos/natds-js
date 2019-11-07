@@ -8,67 +8,67 @@ import Chip from '../../Components/Chip';
 describe('Chip', () => {
   describe('rendering', () => {
     test('should match to snapshot - Default', () => {
-      const component = renderer.create(<Chip width={10} height={10} children />).toJSON();
+      const component = renderer.create(<Chip children />).toJSON();
       expect(component).toMatchSnapshot('Default chip snapshot');
     });
 
     test('should match to snapshot - Icon', () => {
-      const component = renderer.create(<Chip width={10} height={10} children icon="camera" />).toJSON();
+      const component = renderer.create(<Chip children icon="camera" />).toJSON();
       expect(component).toMatchSnapshot('Icon chip snapshot');
     });
 
     test('should match to snapshot - Avatar', () => {
       const component = renderer
-        .create(<Chip width={10} height={10} children avatar="avatar" />)
+        .create(<Chip children avatar="avatar" />)
         .toJSON();
       expect(component).toMatchSnapshot('Avatar chip snapshot');
     });
 
     test('should match to snapshot - Selected', () => {
       const component = renderer
-        .create(<Chip width={10} height={10} children selected={true} />)
+        .create(<Chip children selected={true} />)
         .toJSON();
       expect(component).toMatchSnapshot('Selected chip snapshot');
     });
 
     test('should match to snapshot - SelectedColor', () => {
       const component = renderer
-        .create(<Chip width={10} height={10} children selectedColor="red" />)
+        .create(<Chip children selectedColor="red" />)
         .toJSON();
       expect(component).toMatchSnapshot('SelectedColor chip snapshot');
     });
 
     test('should match to snapshot - Disabled', () => {
       const component = renderer
-        .create(<Chip width={10} height={10} children disabled={true} />)
+        .create(<Chip children disabled={true} />)
         .toJSON();
       expect(component).toMatchSnapshot('Disabled chip snapshot');
     });
 
     test('should match to snapshot - AccessibilityLabel', () => {
       const component = renderer
-        .create(<Chip width={10} height={10} children accessibilityLabel="accessibilityLabel" />)
+        .create(<Chip children accessibilityLabel="accessibilityLabel" />)
         .toJSON();
       expect(component).toMatchSnapshot('AccessibilityLabel chip snapshot');
     });
 
     test('should match to snapshot - TextStyle', () => {
       const component = renderer
-        .create(<Chip width={10} height={10} children textStyle={{}} />)
+        .create(<Chip children textStyle={{}} />)
         .toJSON();
       expect(component).toMatchSnapshot('TextStyle chip snapshot');
     });
 
     test('should match to snapshot - Style', () => {
       const component = renderer
-        .create(<Chip width={10} height={10} children style={{}} />)
+        .create(<Chip children style={{}} />)
         .toJSON();
       expect(component).toMatchSnapshot('Style chip snapshot');
     });
 
     test('should match to snapshot - TestID', () => {
       const component = renderer
-        .create(<Chip width={10} height={10} children testID="testID" />)
+        .create(<Chip children testID="testID" />)
         .toJSON();
       expect(component).toMatchSnapshot('TestID chip snapshot');
     });
@@ -77,7 +77,7 @@ describe('Chip', () => {
   describe('interaction', () => {
     test('should call onPress', () => {
       const mockOnPress = jest.fn();
-      const component = shallow(<Chip width={10} height={10} children onPress={mockOnPress} />);
+      const component = shallow(<Chip children onPress={mockOnPress} />);
 
       component
         .props()
@@ -87,7 +87,7 @@ describe('Chip', () => {
     });
     test('should call onClose', () => {
       const mockOnClose = jest.fn();
-      const component = shallow(<Chip width={10} height={10} children onClose={mockOnClose} />);
+      const component = shallow(<Chip children onClose={mockOnClose} />);
 
       component
         .props()

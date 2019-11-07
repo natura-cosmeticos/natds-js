@@ -2,7 +2,6 @@
 
 exports[`Chip rendering should match to snapshot - AccessibilityLabel: AccessibilityLabel chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "#ebebeb",
@@ -13,7 +12,6 @@ exports[`Chip rendering should match to snapshot - AccessibilityLabel: Accessibi
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityLabel="accessibilityLabel"
@@ -85,7 +83,6 @@ exports[`Chip rendering should match to snapshot - AccessibilityLabel: Accessibi
 
 exports[`Chip rendering should match to snapshot - Avatar: Avatar chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "#ebebeb",
@@ -96,7 +93,6 @@ exports[`Chip rendering should match to snapshot - Avatar: Avatar chip snapshot 
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityRole="button"
@@ -179,7 +175,6 @@ exports[`Chip rendering should match to snapshot - Avatar: Avatar chip snapshot 
 
 exports[`Chip rendering should match to snapshot - Default: Default chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "#ebebeb",
@@ -190,7 +185,6 @@ exports[`Chip rendering should match to snapshot - Default: Default chip snapsho
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityRole="button"
@@ -261,7 +255,6 @@ exports[`Chip rendering should match to snapshot - Default: Default chip snapsho
 
 exports[`Chip rendering should match to snapshot - Disabled: Disabled chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "#ebebeb",
@@ -272,7 +265,6 @@ exports[`Chip rendering should match to snapshot - Disabled: Disabled chip snaps
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityRole="button"
@@ -347,7 +339,6 @@ exports[`Chip rendering should match to snapshot - Disabled: Disabled chip snaps
 
 exports[`Chip rendering should match to snapshot - Icon: Icon chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "#ebebeb",
@@ -358,7 +349,6 @@ exports[`Chip rendering should match to snapshot - Icon: Icon chip snapshot 1`] 
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityRole="button"
@@ -474,7 +464,6 @@ exports[`Chip rendering should match to snapshot - Icon: Icon chip snapshot 1`] 
 
 exports[`Chip rendering should match to snapshot - Selected: Selected chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "rgb(188, 188, 188)",
@@ -485,7 +474,6 @@ exports[`Chip rendering should match to snapshot - Selected: Selected chip snaps
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityRole="button"
@@ -605,7 +593,6 @@ exports[`Chip rendering should match to snapshot - Selected: Selected chip snaps
 
 exports[`Chip rendering should match to snapshot - SelectedColor: SelectedColor chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "#ebebeb",
@@ -616,7 +603,6 @@ exports[`Chip rendering should match to snapshot - SelectedColor: SelectedColor 
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityRole="button"
@@ -687,7 +673,6 @@ exports[`Chip rendering should match to snapshot - SelectedColor: SelectedColor 
 
 exports[`Chip rendering should match to snapshot - Style: Style chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "#ebebeb",
@@ -698,7 +683,6 @@ exports[`Chip rendering should match to snapshot - Style: Style chip snapshot 1`
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityRole="button"
@@ -769,7 +753,6 @@ exports[`Chip rendering should match to snapshot - Style: Style chip snapshot 1`
 
 exports[`Chip rendering should match to snapshot - TestID: TestID chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "#ebebeb",
@@ -780,7 +763,6 @@ exports[`Chip rendering should match to snapshot - TestID: TestID chip snapshot 
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityRole="button"
@@ -852,7 +834,6 @@ exports[`Chip rendering should match to snapshot - TestID: TestID chip snapshot 
 
 exports[`Chip rendering should match to snapshot - TextStyle: TextStyle chip snapshot 1`] = `
 <View
-  height={10}
   style={
     Object {
       "backgroundColor": "#ebebeb",
@@ -863,7 +844,6 @@ exports[`Chip rendering should match to snapshot - TextStyle: TextStyle chip sna
       "elevation": 0,
     }
   }
-  width={10}
 >
   <View
     accessibilityRole="button"

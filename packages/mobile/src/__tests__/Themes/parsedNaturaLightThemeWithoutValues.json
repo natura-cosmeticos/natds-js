@@ -1,0 +1,40 @@
+{
+  "dark": false,
+  "roundness": 4,
+  "colors": {
+    "primary": "#6200ee",
+    "secondary": "#03dac4",
+    "accent": "#03dac4",
+    "background": "rgba(0, 0, 0, 0.5)",
+    "surface": "#ffffff",
+    "error": "#B00020",
+    "text": "#000000",
+    "onBackground": "#000000",
+    "onSurface": "#000000",
+    "disabled": "rgba(0, 0, 0, 0.26)",
+    "placeholder": "rgba(0, 0, 0, 0.54)",
+    "backdrop": "rgba(0, 0, 0, 0.5)",
+    "notification": "#f50057"
+  },
+  "fonts": {
+    "regular": {
+      "fontFamily": "System",
+      "fontWeight": "400"
+    },
+    "medium": {
+      "fontFamily": "System",
+      "fontWeight": "500"
+    },
+    "light": {
+      "fontFamily": "System",
+      "fontWeight": "300"
+    },
+    "thin": {
+      "fontFamily": "System",
+      "fontWeight": "100"
+    }
+  },
+  "animation": {
+    "scale": 1
+  }
+}
