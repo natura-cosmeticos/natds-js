@@ -3,9 +3,11 @@
 When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
 
 This repo is using node version `node@10.16.3`. Have this version installed to avoid potential problems.
-We also uses yarn workspaces, so you should install `yarn@1.19.1` or higher as a package manager. See [installation guide](https://yarnpkg.com/en/docs/install).
+We also use yarn workspaces, so you should install `yarn@1.19.1` or higher as a package manager. See [installation guide](https://yarnpkg.com/en/docs/install).
 
-Please note we have a code of conduct, please follow it in all your interactions with the project.
+We use typescript in this project, with only a few exceptions on the docs package for configuration.
+
+Please note we have a [code of conduct](./CODE_OF_CONDUCT), please follow it in all your interactions with the project.
 
 ## Project Structure
 
@@ -17,6 +19,14 @@ packages <br>
 &nbsp;&nbsp;&nbsp;&nbsp; /mobile <br>
 &nbsp;&nbsp;&nbsp;&nbsp; /docs <br>
 
+## Travis CI
+
+Travis CI's responsibilities are testing, bumping versions of the packages and the root package, and versioning the docs. List of branches that will be evaluated on Travis and their respectives pipelines right now.
+
+| Branch Name Pattern | Pipeline                                                                                                                                                                                                   |
+|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| `^feature/(.+)$`    | Travis will build and test on pull requests                                                                                                                                                                |
+| `^v\d+.\d+.\d+$`    | Travis will build and test on pull request.On merge it will bump the root package version, commit changes to the current branch, build and version the docs and commit it to the docs corresponding branch |
 ## Code of Conduct
 
 Natura Design System has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) as its Code of Conduct, and we expect project participants to adhere to it.

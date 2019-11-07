@@ -2,11 +2,15 @@
 
 Natura Design System - Docs
 
-The contribution purpose of this package is for documentation ans visual validation only.
+The contribution purpose of this package is for documentation and visual validation only. We use [Storybook](https://storybook.js.org/) for documenting purposes. It is versioned in the Travis-CI.
+
+## Disclaimer for React Native
+
+We use a package called [react-native-web](https://github.com/necolas/react-native-web) to parse react native components to the web, in order to document it in this package, so there is no immediate need for a mobile storybook version.
 
 ## Test
 
-Unit test
+Unit test (we test our packages, not the docs)
 
 ```sh
 yarn test:packages
