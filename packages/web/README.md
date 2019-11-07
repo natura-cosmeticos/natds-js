@@ -38,6 +38,19 @@ return (
 )
 ```
 
+## About Fonts
+
+This package do not provide any fonts, only its font family names. If you desire to use the theme font, you've got to import them on your application by yourself. We recommend taking a look at [Google Fonts](https://fonts.google.com/), since some of our fonts are available for free over there.
+
+An example for importing `Roboto`, one of our main fonts, straight from google's api:
+
+```css
+/* CSS */
+<style>
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+</style>
+```
+
 ---
 
 ## Contributing

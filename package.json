@@ -1,6 +1,6 @@
 {
   "name": "natds",
-  "version": "0.1.0-alpha.2",
+  "version": "0.1.0-alpha.6",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "MIT",
   "keywords": [
@@ -29,10 +29,10 @@
     "publish": "lerna publish from-git",
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
-    "build": "lerna run build",
+    "build": "echo \"Use \\033[0;33m'yarn build:libs'\\033[0m instead\"",
     "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
     "verify": "yarn build:libs && yarn lerna run verify",
-    "watch": "concurrently \"cd packages/web && yarn watch\" \"cd packages/mobile && yarn watch\" \"cd packages/styles && yarn watch\"",
+    "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/mobile && yarn watch\" \"cd packages/web && yarn watch\"",
     "version": "echo $npm_package_version",
     "build:docs:prerelease": "bash scripts/build-pre-release.sh"
   },

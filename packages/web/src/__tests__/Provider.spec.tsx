@@ -14,12 +14,17 @@ describe('Provider component', () => {
   });
 
   test('It should have the provided theme', () => {
-    const mockedTheme = createMuiTheme();
-    mockedTheme.palette.primary.dark = 'MOCKED';
+    const mockedTheme = themes.natura.dark;
+    mockedTheme.palette = {
+      ...mockedTheme.palette,
+      primary: {
+        main: '#000000',
+      }
+    };
 
     const provider = mount(<Provider theme={mockedTheme}>Mocked</Provider>);
     const theme = provider.find('ThemeProvider').prop('theme');
 
-    expect(JSON.stringify(theme)).toStrictEqual(JSON.stringify(mockedTheme));
+    expect(JSON.stringify(theme)).toStrictEqual(JSON.stringify(createMuiTheme(mockedTheme)));
   });
 });
