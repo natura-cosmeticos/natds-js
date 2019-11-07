@@ -7,7 +7,7 @@ We also use yarn workspaces, so you should install `yarn@1.19.1` or higher as a 
 
 We use typescript in this project, with only a few exceptions on the docs package for configuration.
 
-Please note we have a [code of conduct](./CODE_OF_CONDUCT), please follow it in all your interactions with the project.
+Please note we have a [code of conduct](./CODE_OF_CONDUCT), follow it in all your interactions with the project.
 
 ## Project Structure
 
