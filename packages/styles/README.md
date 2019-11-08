@@ -16,3 +16,8 @@ npm install --save @naturacosmeticos/natds-styles
 # with yarn
 yarn add @naturacosmeticos/natds-styles
 ```
+
+## Contributing
+
+To contribute, please check out our contributing file [`CONTRIBUTING`](./CONTRIBUTING.md)
+
