@@ -1,0 +1,17 @@
+.typography__container {
+  display: flex;
+  flex-direction: column;
+  justify-content: left;
+  max-width: 600px;
+  margin: 60px;
+}
+
+.typography__divider {
+  background-color: #DDD;
+  height: 1px;
+  margin: 20px 0px;
+}
+
+.typography__spacer {
+  margin-bottom: 25px;
+}
