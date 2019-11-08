@@ -56,6 +56,9 @@ declare type ButtonProps = React.ComponentProps<typeof Surface> & {
    * Use this prop to apply custom height and width.
    */
   contentStyle?: StyleProp<ViewStyle>;
+  /**
+   * React Native style object.
+   */
   style?: StyleProp<ViewStyle>;
   /**
    * Style for the button text.

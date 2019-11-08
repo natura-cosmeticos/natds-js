@@ -1,9 +1,9 @@
 import 'react-native';
 import React from 'react';
 import renderer from 'react-test-renderer';
-
-import Button from '../../Components/Button';
 import { shallow } from 'enzyme';
+
+import { Button } from '../../index';
 
 describe('Button', () => {
   describe('rendering', () => {
