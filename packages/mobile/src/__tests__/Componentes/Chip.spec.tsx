@@ -3,7 +3,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
-import Chip from '../../Components/Chip';
+import { Chip } from '../../index';
 
 describe('Chip', () => {
   describe('rendering', () => {
@@ -13,7 +13,9 @@ describe('Chip', () => {
     });
 
     test('should match to snapshot - Icon', () => {
-      const component = renderer.create(<Chip children icon="camera" />).toJSON();
+      const component = renderer
+        .create(<Chip children icon="camera" />)
+        .toJSON();
       expect(component).toMatchSnapshot('Icon chip snapshot');
     });
 
@@ -60,9 +62,7 @@ describe('Chip', () => {
     });
 
     test('should match to snapshot - Style', () => {
-      const component = renderer
-        .create(<Chip children style={{}} />)
-        .toJSON();
+      const component = renderer.create(<Chip children style={{}} />).toJSON();
       expect(component).toMatchSnapshot('Style chip snapshot');
     });
 
@@ -79,9 +79,7 @@ describe('Chip', () => {
       const mockOnPress = jest.fn();
       const component = shallow(<Chip children onPress={mockOnPress} />);
 
-      component
-        .props()
-        .onPress();
+      component.props().onPress();
 
       expect(mockOnPress).toHaveBeenCalled();
     });
@@ -89,9 +87,7 @@ describe('Chip', () => {
       const mockOnClose = jest.fn();
       const component = shallow(<Chip children onClose={mockOnClose} />);
 
-      component
-        .props()
-        .onClose();
+      component.props().onClose();
 
       expect(mockOnClose).toHaveBeenCalled();
     });
