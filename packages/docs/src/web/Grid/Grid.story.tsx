@@ -77,9 +77,9 @@ const gridItemBreakpointProps = {
 };
 
 const maxBreakpointWidth = {
-  md: { width: '1179px' },
-  sm: { width: '959px' },
-  xs: { width: '599px' }
+  md: { maxWidth: '1179px' },
+  sm: { maxWidth: '959px' },
+  xs: { maxWidth: '599px' }
 };
 
 const mountGridItem = (selectBreakpoint: any, value: any, key: number) => {
@@ -101,14 +101,14 @@ export const Fluid = () => {
   const maxBreakpointWidthStyle = maxBreakpointWidth[selectBreakpoint] || {};
 
   return (
-    <>
-      <h4>
+    <div className="grid__container">
+      <h4 className="grid__title">
         Breakpoint {selectBreakpoint} ({JSON.stringify(maxBreakpointWidthStyle)}
         )
       </h4>
       <GridContainer spacing={3} style={maxBreakpointWidthStyle}>
         {mapGridItemBreakpoint(selectBreakpoint)}
       </GridContainer>
-    </>
+    </div>
   );
 };

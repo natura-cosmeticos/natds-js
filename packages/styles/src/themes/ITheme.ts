@@ -1,3 +1,32 @@
+import { fontSize } from '../tokens/fontSize/fontSize';
+
+type ITypography = {
+  web: {
+    fontFamily?: string;
+    fontFamilyBrand?: string;
+    fontWeightLight?: number;
+    fontWeightRegular?: number;
+    fontWeightMedium?: number;
+    fontWeightBold?: number;
+  };
+  iOS: {
+    fontFamily?: string;
+    fontFamilyBrand?: string;
+    fontWeightLight?: number;
+    fontWeightRegular?: number;
+    fontWeightMedium?: number;
+    fontWeightBold?: number;
+  };
+  android: {
+    fontFamily?: string;
+    fontFamilyBrand?: string;
+    fontWeightLight?: number;
+    fontWeightRegular?: number;
+    fontWeightMedium?: number;
+    fontWeightBold?: number;
+  };
+} & typeof fontSize ;
+
 export interface ITheme {
   shape?: {
     borderRadius?: number;
@@ -33,30 +62,5 @@ export interface ITheme {
       hint?: string;
     };
   };
-  typography: {
-    web: {
-      fontFamily?: string;
-      fontFamilyBrand?: string;
-      fontWeightLight?: number;
-      fontWeightRegular?: number;
-      fontWeightMedium?: number;
-      fontWeightBold?: number;
-    },
-    iOS: {
-      fontFamily?: string;
-      fontFamilyBrand?: string;
-      fontWeightLight?: number;
-      fontWeightRegular?: number;
-      fontWeightMedium?: number;
-      fontWeightBold?: number;
-    }
-    android: {
-      fontFamily?: string;
-      fontFamilyBrand?: string;
-      fontWeightLight?: number;
-      fontWeightRegular?: number;
-      fontWeightMedium?: number;
-      fontWeightBold?: number;
-    };
-  };
+  typography: ITypography;
 }

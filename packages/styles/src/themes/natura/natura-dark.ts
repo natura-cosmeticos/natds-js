@@ -1,6 +1,7 @@
 import tokens from '../../tokens';
 import { ITheme } from '../ITheme';
 import { typography } from './typography';
+import { fontSize } from '../../tokens/fontSize/fontSize';
 
 const { natura } = tokens.colors;
 
@@ -38,6 +39,7 @@ export const naturaDark: ITheme = {
     }
   },
   typography: {
-    ...typography
+    ...typography,
+    ...fontSize
   }
 };
