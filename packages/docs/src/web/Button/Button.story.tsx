@@ -7,6 +7,8 @@ import { Delete } from '@material-ui/icons';
 import { Button } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
 
+import ButtonDocs from './Button.mdx';
+
 export default {
   title: 'Web|Button',
   component: Button,
@@ -14,7 +16,10 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Button'],
-    theme: 'web'
+    theme: 'web',
+    docs: {
+      page: ButtonDocs
+    }
   }
 };
 
