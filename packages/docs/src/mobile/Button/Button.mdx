@@ -1,0 +1,84 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Button, Provider, themes } from '@naturacosmeticos/natds-rn';
+import { withTheme } from '../../../addons/theme/provider';
+
+# Button
+
+Buttons allow users to take actions, and make choices, with a single tap.
+
+### Usage
+
+Buttons communicate actions that users can take. They are typically placed throughout your UI, in places like:
+
+- Dialogs
+- Modal windows
+- Forms
+- Cards
+- Toolbars
+
+---
+
+### Principles
+
+---
+
+#### Identifiable
+
+Buttons should indicate that they can trigger an action.
+
+#### Findable
+
+Buttons should be easy to find among other elements, including other buttons.
+
+#### Clear
+
+A button’s action and state should be clear.
+
+#### Types
+
+- Text button
+- Outlined Button
+- Contained button
+- Icon
+
+---
+
+---
+
+## States
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px' }}>
+      <Button children="Enabled" mode="contained" onPress={() => {}} />
+      <Button children="Disabled" mode="contained" disabled />
+      <Button children="Icon" mode="text" icon="camera" onPress={() => {}} />
+    </div>
+  </Provider>
+</Preview>
+
+---
+
+---
+
+## Variants
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px' }}>
+      <Button children="Contained" mode="contained" onPress={() => {}} />
+      <Button children="Outlined" mode="outlined" onPress={() => {}} />
+      <Button children="Text" mode="text" onPress={() => {}} />
+    </div>
+  </Provider>
+</Preview>
+
+---
+
+---
+
+## API
+
+```js highlight-line="2"
+<Button children="Label" mode="outlined" onPress={() => {}} />
+```
