@@ -1,5 +1,6 @@
 const path = require('path');
 const TsconfigPathsPlugin = require('tsconfig-paths-webpack-plugin');
+const createCompiler = require('@storybook/addon-docs/mdx-compiler-plugin');
 
 module.exports = ({ config }) => {
   config.module.rules = [];
@@ -60,7 +61,7 @@ module.exports = ({ config }) => {
   });
 
   config.module.rules.push({
-    test: /\.(ts|md)x?$/,
+    test: /\.(ts|js)x?$/,
     exclude: /node_modules/,
     use: [
       {
@@ -77,7 +78,8 @@ module.exports = ({ config }) => {
   });
 
   config.module.rules.push({
-    test: /\.story.(ts|md)x?$/,
+    test: /\.(stories|story).(ts|js)x?$/,
+    exclude: [/node_modules/],
     loaders: [
       {
         loader: require.resolve('@storybook/source-loader'),
@@ -87,7 +89,49 @@ module.exports = ({ config }) => {
     enforce: 'pre'
   });
 
-  config.resolve.extensions.push('.ts', '.tsx', 'js', 'jsx', 'mdx');
+  config.module.rules.push({
+    test: /\.(stories|story).mdx$/,
+    use: [
+      {
+        loader: require.resolve("babel-loader"),
+        options: {
+          presets: [
+            require("@babel/preset-typescript").default,
+            require("@babel/preset-react").default
+          ],
+          plugins: ['@babel/plugin-transform-react-jsx']
+        }
+      },
+      {
+        loader: '@mdx-js/loader',
+        options: {
+          compilers: [createCompiler({})]
+        }
+      }
+    ]
+  });
+
+  config.module.rules.push({
+    test: /\.mdx$/,
+    exclude: /\.(stories|story).mdx$/,
+    use: [
+      {
+        loader: require.resolve("babel-loader"),
+        options: {
+          presets: [
+            require("@babel/preset-typescript").default,
+            require("@babel/preset-react").default
+          ],
+          plugins: ['@babel/plugin-transform-react-jsx']
+        }
+      },
+      {
+        loader: '@mdx-js/loader'
+      }
+    ]
+  });
+
+  config.resolve.extensions.push('.ts', '.tsx', '.js', '.jsx', '.mdx');
 
   config.resolve.alias = {
     'react-native': require.resolve('react-native-web'),
