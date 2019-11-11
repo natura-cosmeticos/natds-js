@@ -22,6 +22,6 @@ const fontFamilySchema = {
 
 export const TypographyFontFamily = () => {
   return(
-    <Table schema={fontFamilySchema} title="Font Family" />
+    <Table schema={fontFamilySchema} title="Default Font Family" />
   );
 };
