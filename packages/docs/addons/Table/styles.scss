@@ -5,13 +5,13 @@
   width: 100%;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   color: #555;
-  margin: 60px;
+  margin: 3.75rem;
 }
 
 .table__title {
   font-size: 18px;
   font-weight: 400;
-  padding: 0 0 20px;
+  padding: 0 0 1.25rem;
   margin: 0;
 }
 
@@ -32,7 +32,7 @@
 
 .table__head__item,
 .table__body__item {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: left;
 }
 
@@ -42,23 +42,23 @@
 }
 
 .table__body__item {
-  line-height: 20px;
+  line-height: 1.25rem;
   font-weight: 400;
-  height: 20px;
+  height: 1.25rem;
   padding: 10px;
 }
 
 .table__body__item__color {
   border: #ddd 2px solid;
   border-radius: 50%;
-  width: 16px;
-  height: 16px;
+  width: 1rem;
+  height: 1rem;
   display: inline-block;
   vertical-align: top;
   margin: 2px 10px 0;
 }
 
 .table__body__item__color-name {
-  line-height: 16px;
+  line-height: 1rem;
   display: inline-block;
 }

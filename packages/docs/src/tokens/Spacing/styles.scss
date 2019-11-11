@@ -3,7 +3,7 @@
 .spacing__margin {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.5;
   display: flex;
   flex-flow: column nowrap;
@@ -12,12 +12,12 @@
 
 // SCALE
 .spacing__scale__title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   color: #333;
   flex: 0 0 auto;
   padding: 0;
-  margin: 0 0 20px;
+  margin: 0 0 1.25rem;
 }
 
 .spacing__scale__block {
@@ -30,11 +30,11 @@
 .spacing__scale__box {
   background: #F4AB34;
   border-radius: 4px;
-  width: 360px;
+  width: 33.75rem;
 }
 
 .spacing__scale__name {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #333;
@@ -54,7 +54,7 @@
 }
 
 .spacing__padding__block {
-  margin: 0 16px 16px 0;
+  margin: 0 1rem 1rem 0;
 }
 
 .spacing__padding__box {
@@ -70,7 +70,7 @@
 
 .spacing__padding__name {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 // MARGIN
@@ -90,7 +90,7 @@
   flex-flow: column wrap;
   flex: 0 0 auto;
   justify-content: center;
-  margin: 0 24px 24px 0;
+  margin: 0 1.5rem 1.5rem 0;
 
   &--big {
     height: 292px;
@@ -125,5 +125,5 @@
 
 .spacing__margin__name {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
 }

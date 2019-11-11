@@ -15,8 +15,7 @@ const {
   body2,
   button,
   caption,
-  overline,
-  support
+  overline
 } = themes.natura.light.typography;
 
 const fontSizes:any = {
@@ -32,8 +31,7 @@ const fontSizes:any = {
   body2,
   button,
   caption,
-  overline,
-  support
+  overline
 };
 
 const mapSchema = ([key, value]: any) => {

@@ -7,7 +7,7 @@
   max-width: 1400px;
   display: flex;
   flex-flow: row wrap;
-  padding: 60px;
+  padding: 3.75rem;
 }
 
 .colors__group {
@@ -18,12 +18,12 @@
 }
 
 .colors__group__title {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #555;
   flex: 0 0 100%;
-  padding: 0 0 20px;
+  padding: 0 0 1.25rem;
   margin: 0;
 }
 
@@ -55,8 +55,8 @@
 .colors__item__color-name,
 .colors__item__name {
   font-family: Roboto, Arial, Helvetica, sans-serif;
-  font-size: 14px;
-  line-height: 16px;
+  font-size: 0.875rem;
+  line-height: 1rem;
   padding: 0;
   margin: 0;
 }

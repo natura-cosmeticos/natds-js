@@ -8,43 +8,43 @@ const iOSTypography: any = {
   fontWeightMedium: 500,
   fontWeightBold: 700,
   h1: {
-    fontSize: "96px"
+    fontSize: "6rem"
   },
   h2: {
-    fontSize: "60px"
+    fontSize: "3.75rem"
   },
   h3: {
-    fontSize: "48px"
+    fontSize: "3rem"
   },
   h4: {
-    fontSize: "34px"
+    fontSize: "2.125rem"
   },
   h5: {
-    fontSize: "24px"
+    fontSize: "1.5rem"
   },
   h6: {
-    fontSize: "20px"
+    fontSize: "1.25rem"
   },
   subtitle1: {
-    fontSize: "16px"
+    fontSize: "1rem"
   },
   subtitle2: {
-    fontSize: "14px"
+    fontSize: "0.875rem"
   },
   body1: {
-    fontSize: "16px"
+    fontSize: "1rem"
   },
   body2: {
-    fontSize: "14px"
+    fontSize: "0.875rem"
   },
   button: {
-    fontSize: "14px"
+    fontSize: "0.875rem"
   },
   caption: {
-    fontSize: "12px"
+    fontSize: "0.75rem"
   },
   overline: {
-    fontSize: "12px"
+    fontSize: "0.75rem"
   }
 };
 
@@ -56,43 +56,43 @@ const androidTypography: any = {
   fontWeightMedium: 500,
   fontWeightBold: 700,
   h1: {
-    fontSize: "96px"
+    fontSize: "6rem"
   },
   h2: {
-    fontSize: "60px"
+    fontSize: "3.75rem"
   },
   h3: {
-    fontSize: "48px"
+    fontSize: "3rem"
   },
   h4: {
-    fontSize: "34px"
+    fontSize: "2.125rem"
   },
   h5: {
-    fontSize: "24px"
+    fontSize: "1.5rem"
   },
   h6: {
-    fontSize: "20px"
+    fontSize: "1.25rem"
   },
   subtitle1: {
-    fontSize: "16px"
+    fontSize: "1rem"
   },
   subtitle2: {
-    fontSize: "14px"
+    fontSize: "0.875rem"
   },
   body1: {
-    fontSize: "16px"
+    fontSize: "1rem"
   },
   body2: {
-    fontSize: "14px"
+    fontSize: "0.875rem"
   },
   button: {
-    fontSize: "14px"
+    fontSize: "0.875rem"
   },
   caption: {
-    fontSize: "12px"
+    fontSize: "0.75rem"
   },
   overline: {
-    fontSize: "12px"
+    fontSize: "0.75rem"
   }
 };
 
