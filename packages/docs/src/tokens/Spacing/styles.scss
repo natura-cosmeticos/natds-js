@@ -17,7 +17,7 @@
   color: #333;
   flex: 0 0 auto;
   padding: 0;
-  margin: 0 0 1.25rem;
+  margin: 0 0 20px;
 }
 
 .spacing__scale__block {
@@ -30,7 +30,7 @@
 .spacing__scale__box {
   background: #F4AB34;
   border-radius: 4px;
-  width: 33.75rem;
+  width: 360px;
 }
 
 .spacing__scale__name {
@@ -54,7 +54,7 @@
 }
 
 .spacing__padding__block {
-  margin: 0 1rem 1rem 0;
+  margin: 0 16px 16px 0;
 }
 
 .spacing__padding__box {
@@ -90,7 +90,7 @@
   flex-flow: column wrap;
   flex: 0 0 auto;
   justify-content: center;
-  margin: 0 1.5rem 1.5rem 0;
+  margin: 0 24px 24px 0;
 
   &--big {
     height: 292px;
