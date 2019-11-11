@@ -14,7 +14,10 @@
     "jsx-no-lambda": false,
     "jsx-boolean-value": false,
     "semicolon": true,
-    "no-empty": false
+    "no-empty": false,
+    "no-console": {
+      "severity": "warn"
+    }
   },
   "rulesDirectory": []
 }
