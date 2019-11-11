@@ -2,6 +2,7 @@ import tokens from '../../tokens';
 import { ITheme } from '../ITheme';
 import { typography } from './typography';
 import { fontSize } from '../../tokens/fontSize/fontSize';
+import { spacing } from '../../tokens/spacing/spacing';
 
 const { natura } = tokens.colors;
 
@@ -41,5 +42,6 @@ export const naturaLight: ITheme = {
   typography: {
     ...typography,
     ...fontSize
-  }
+  },
+  spacing: spacing.spacing
 };

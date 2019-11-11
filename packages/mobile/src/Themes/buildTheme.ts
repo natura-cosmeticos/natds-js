@@ -4,7 +4,7 @@ import { IThemeMobile } from 'Themes';
 
 export function buildTheme(theme: IThemeMobile | undefined, defaultTheme: IThemeMobile): IThemeShape {
   const provider = theme ? theme : defaultTheme;
-  const { palette = {}, shape, typography } = provider;
+  const { palette = {}, shape, typography, spacing } = provider;
 
   const {
     primary: { main: primary } = { main: undefined },
@@ -38,6 +38,7 @@ export function buildTheme(theme: IThemeMobile | undefined, defaultTheme: ITheme
 
   const newTheme: IThemeShape = {
     ...DefaultTheme,
+    spacing,
     dark: isDarkMode,
     roundness,
     colors: {
