@@ -1,10 +1,11 @@
 import * as React from 'react';
-import { select } from '@storybook/addon-knobs';
+import { select, text, number } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 
 import { GridContainer, GridItem } from '@naturacosmeticos/natds-web';
 import './styles.scss';
+import { width } from '@material-ui/system';
 
 export default {
   title: 'Web|Grid',
@@ -108,6 +109,21 @@ export const Fluid = () => {
       </h4>
       <GridContainer spacing={3} style={maxBreakpointWidthStyle}>
         {mapGridItemBreakpoint(selectBreakpoint)}
+      </GridContainer>
+    </div>
+  );
+};
+
+export const Interactive = () => {
+  return (
+    <div className="grid__container" style={{ width: '100%' }}>
+      <GridContainer spacing={3}>
+        <GridItem
+          md={number('md', 12)}
+          sm={number('sm', 12)}
+          xs={number('xs', 12)}>
+          Label
+        </GridItem>
       </GridContainer>
     </div>
   );
