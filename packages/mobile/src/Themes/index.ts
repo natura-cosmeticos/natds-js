@@ -1,7 +1,7 @@
 import { themes as styleThemes, ITheme, IFont } from '@naturacosmeticos/natds-styles';
 import { Platform } from 'react-native';
 
-export interface IThemeMobile extends Pick<ITheme, 'shape' | 'palette'>{
+export interface IThemeMobile extends Pick<ITheme, 'shape' | 'palette'> {
   typography: {
     fontFamily?: string;
     fontFamilyBrand?: string;
@@ -23,15 +23,17 @@ export interface IThemeMobile extends Pick<ITheme, 'shape' | 'palette'>{
     caption?: IFont,
     overline?: IFont
   };
+  spacing: number;
 }
 
-function parseTheme(theme: ITheme):IThemeMobile {
+function parseTheme(theme: ITheme): IThemeMobile {
   const { iOS, android } = theme.typography;
 
   const typography = Platform.OS === 'ios' ? iOS : android;
 
   return {
     ...theme,
+    spacing: theme.spacing,
     typography: {
       fontFamily: typography.fontFamily,
       fontFamilyBrand: typography.fontFamilyBrand,
@@ -66,7 +68,7 @@ type IThemesMobile<K extends keyof typeof styleThemes> = {
 function createThemesObject(): IThemesMobile<keyof typeof styleThemes> {
   const keys = Object.keys(styleThemes);
   const newThemes: IThemesMobile<keyof typeof styleThemes> = {} as IThemesMobile<keyof typeof styleThemes>;
-  keys.forEach(key => newThemes[key] = { light: {} as IThemeMobile, dark: {} as IThemeMobile } );
+  keys.forEach(key => newThemes[key] = { light: {} as IThemeMobile, dark: {} as IThemeMobile });
   return newThemes;
 }
 

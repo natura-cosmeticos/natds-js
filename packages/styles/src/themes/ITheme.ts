@@ -25,7 +25,7 @@ type ITypography = {
     fontWeightMedium?: number;
     fontWeightBold?: number;
   };
-} & typeof fontSize ;
+} & typeof fontSize;
 
 export interface ITheme {
   shape?: {
@@ -63,4 +63,5 @@ export interface ITheme {
     };
   };
   typography: ITypography;
+  spacing: number;
 }
