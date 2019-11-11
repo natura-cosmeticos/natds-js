@@ -49,11 +49,12 @@ function createVersionType({ versions, name }, key) {
 
 function createVersionsLinks(version, key) {
   const { name } = this
+  const selected = window.location.pathname.split('/')[2] === version
 
   return (
     <button
       onClick={() => changeVersion(version, name)}
-      className="versions__type__button"
+      className="versions__type__button versions__type__button--selected"
       key={key}>
       {version}
     </button>
