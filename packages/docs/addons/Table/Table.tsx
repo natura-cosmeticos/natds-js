@@ -3,7 +3,7 @@ import * as React from 'react';
 import './styles.scss';
 
 interface ITableComponent {
-  title?: string,
+  title?: string;
   schema: {
     head: string[],
     body: any[]
@@ -53,8 +53,8 @@ const renderItem = (item: any) => {
         <span className="table__body__item__color" style={{ background: item.name }} />
         <span className="table__body__item__color-name">{item.name}</span>
       </div>
-    )
+    );
   }
 
   return item.name;
-}
+};

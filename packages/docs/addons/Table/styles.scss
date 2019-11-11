@@ -32,7 +32,7 @@
 
 .table__head__item,
 .table__body__item {
-  font-size: 14px;
+  font-size: 0.875rem;
   text-align: left;
 }
 
@@ -42,7 +42,7 @@
 }
 
 .table__body__item {
-  line-height: 20px;
+  line-height: 1.25rem;
   font-weight: 400;
   height: 20px;
   padding: 10px;
@@ -59,6 +59,6 @@
 }
 
 .table__body__item__color-name {
-  line-height: 16px;
+  line-height: 1rem;
   display: inline-block;
 }

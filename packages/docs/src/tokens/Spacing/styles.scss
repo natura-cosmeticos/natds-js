@@ -3,7 +3,7 @@
 .spacing__margin {
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 400;
-  font-size: 14px;
+  font-size: 0.875rem;
   line-height: 1.5;
   display: flex;
   flex-flow: column nowrap;
@@ -12,7 +12,7 @@
 
 // SCALE
 .spacing__scale__title {
-  font-size: 20px;
+  font-size: 1.25rem;
   font-weight: 400;
   color: #333;
   flex: 0 0 auto;
@@ -34,7 +34,7 @@
 }
 
 .spacing__scale__name {
-  font-size: 16px;
+  font-size: 1rem;
   font-family: Roboto, Arial, Helvetica, sans-serif;
   font-weight: 400;
   color: #333;
@@ -70,7 +70,7 @@
 
 .spacing__padding__name {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 0.875rem;
 }
 
 // MARGIN
@@ -125,5 +125,5 @@
 
 .spacing__margin__name {
   font-weight: 300;
-  font-size: 16px;
+  font-size: 1rem;
 }

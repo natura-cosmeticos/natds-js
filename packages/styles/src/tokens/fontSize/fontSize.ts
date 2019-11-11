@@ -2,59 +2,42 @@ import { IFont } from "./IFont";
 
 export const fontSize = {
   h1: {
-    fontSize: "96px",
-    lineHeight: 1
+    fontSize: "6rem"
   } as IFont,
   h2: {
-    fontSize: "60px",
-    lineHeight: 1
+    fontSize: "3.75rem"
   } as IFont,
   h3: {
-    fontSize: "48px",
-    lineHeight: 1
+    fontSize: "3rem"
   } as IFont,
   h4: {
-    fontSize: "34px",
-    lineHeight: 1
+    fontSize: "2.125rem"
   } as IFont,
   h5: {
-    fontSize: "24px",
-    lineHeight: 1
+    fontSize: "1.5rem"
   } as IFont,
   h6: {
-    fontSize: "20px",
-    lineHeight: 1
+    fontSize: "1.25rem"
   } as IFont,
   subtitle1: {
-    fontSize: "16px",
-    lineHeight: 1
+    fontSize: "1rem"
   } as IFont,
   subtitle2: {
-    fontSize: "14px",
-    lineHeight: 1
+    fontSize: "0.875rem"
   } as IFont,
   body1: {
-    fontSize: "16px",
-    lineHeight: 1
+    fontSize: "1rem"
   } as IFont,
   body2: {
-    fontSize: "14px",
-    lineHeight: 1
+    fontSize: "0.875rem"
   } as IFont,
   button: {
-    fontSize: "14px",
-    lineHeight: 1
+    fontSize: "0.875rem"
   } as IFont,
   caption: {
-    fontSize: "12px",
-    lineHeight: 1
+    fontSize: "0.75rem"
   } as IFont,
   overline: {
-    fontSize: "12px",
-    lineHeight: 1
-  } as IFont,
-  support: {
-    fontSize: "10px",
-    lineHeight: 1
+    fontSize: "0.75rem"
   } as IFont
 };
