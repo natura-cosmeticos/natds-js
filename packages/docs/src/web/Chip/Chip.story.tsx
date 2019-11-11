@@ -6,6 +6,8 @@ import withContainer from '@decorators/container/container';
 import { Chip } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
 
+import ChipDocs from './Chip.mdx';
+
 export default {
   title: 'Web|Chip',
   component: Chip,
@@ -13,7 +15,10 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Chip'],
-    theme: 'web'
+    theme: 'web',
+    docs: {
+      page: ChipDocs
+    }
   }
 };
 
