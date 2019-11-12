@@ -75,9 +75,3 @@ export const natura: IColorsNatura = {
     colorBrdNatGrad17: 'linear-gradient(112deg, #FFEDB5 0%, #FAC6AB 100%) 0% 0% no-repeat padding-box'
   }
 };
-
-
-
-
-
-
