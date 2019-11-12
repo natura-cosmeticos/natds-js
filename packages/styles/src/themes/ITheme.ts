@@ -64,4 +64,5 @@ export interface ITheme {
   };
   typography: ITypography;
   spacing: number;
+  overrides?: any;
 }

@@ -96,5 +96,18 @@
     "overline": {
       "fontSize": "0.75rem"
     }
+  },
+  "overrides": {
+    "MuiButton": {
+      "outlinedPrimary": {
+        "color": "#333333"
+      },
+      "outlinedSecondary": {
+        "color": "#333333"
+      },
+      "outlined": {
+        "color": "#333333"
+      }
+    }
   }
 }

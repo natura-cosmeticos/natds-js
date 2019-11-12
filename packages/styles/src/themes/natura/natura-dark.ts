@@ -10,6 +10,7 @@ export const naturaDark: ITheme = {
   shape: {
     borderRadius: 4
   },
+  spacing: spacing.spacing,
   palette: {
     type: 'light',
     primary: {
@@ -43,5 +44,17 @@ export const naturaDark: ITheme = {
     ...typography,
     ...fontSize
   },
-  spacing: spacing.spacing
+  overrides: {
+    MuiButton: {
+      outlinedPrimary: {
+        color: natura.grayscale.colorBrdNatGray
+      },
+      outlinedSecondary: {
+        color: natura.grayscale.colorBrdNatGray
+      },
+      outlined: {
+        color: natura.grayscale.colorBrdNatGray
+      }
+    }
+  }
 };
