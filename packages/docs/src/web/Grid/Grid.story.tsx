@@ -1,11 +1,12 @@
 import * as React from 'react';
-import { select, text, number } from '@storybook/addon-knobs';
+import { select, number } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 
 import { GridContainer, GridItem } from '@naturacosmeticos/natds-web';
+
 import './styles.scss';
-import { width } from '@material-ui/system';
+import GridDocs from './Grid.mdx';
 
 export default {
   title: 'Web|Grid',
@@ -14,14 +15,17 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['GridContainer'],
-    theme: 'web'
-  }
+    theme: 'web',
+    docs: {
+      page: GridDocs,
+    },
+  },
 };
 
 const breakpoint = {
   md: 'md',
   sm: 'sm',
-  xs: 'xs'
+  xs: 'xs',
 };
 
 const gridItemBreakpointProps = {
@@ -49,38 +53,38 @@ const gridItemBreakpointProps = {
     { md: 1 },
     { md: 1 },
     { md: 1 },
-    { md: 1 }
+    { md: 1 },
   ],
   sm: [
-    { sm: 8, md: 12 },
-    { sm: 4, md: 6 },
-    { sm: 4, md: 6 },
-    { sm: 2, md: 3 },
-    { sm: 2, md: 3 },
-    { sm: 2, md: 3 },
-    { sm: 2, md: 3 },
-    { sm: 1, md: 2 },
-    { sm: 1, md: 2 },
-    { sm: 1, md: 2 },
-    { sm: 1, md: 2 },
-    { sm: 1, md: 2 },
-    { sm: 1, md: 2 }
+    { sm: 12 },
+    { sm: 6 },
+    { sm: 6 },
+    { sm: 3 },
+    { sm: 3 },
+    { sm: 3 },
+    { sm: 3 },
+    { sm: 2 },
+    { sm: 2 },
+    { sm: 2 },
+    { sm: 2 },
+    { sm: 2 },
+    { sm: 2 },
   ],
   xs: [
-    { xs: 4, sm: 12 },
-    { xs: 2, sm: 6 },
-    { xs: 2, sm: 6 },
-    { xs: 1, sm: 3 },
-    { xs: 1, sm: 3 },
-    { xs: 1, sm: 3 },
-    { xs: 1, sm: 3 }
-  ]
+    { xs: 12 },
+    { xs: 6 },
+    { xs: 6 },
+    { xs: 3 },
+    { xs: 3 },
+    { xs: 3 },
+    { xs: 3 },
+  ],
 };
 
 const maxBreakpointWidth = {
-  md: { maxWidth: '1179px' },
-  sm: { maxWidth: '959px' },
-  xs: { maxWidth: '599px' }
+  md: { maxWidth: '1180px' },
+  sm: { maxWidth: '960px' },
+  xs: { maxWidth: '600px' },
 };
 
 const mountGridItem = (selectBreakpoint: any, value: any, key: number) => {
@@ -92,8 +96,10 @@ const mountGridItem = (selectBreakpoint: any, value: any, key: number) => {
 };
 
 const mapGridItemBreakpoint = (selectBreakpoint: string) => {
-  return gridItemBreakpointProps[selectBreakpoint].map(
-    (value: any, key: number) => mountGridItem(selectBreakpoint, value, key)
+  return gridItemBreakpointProps[
+    selectBreakpoint
+  ].map((value: any, key: number) =>
+    mountGridItem(selectBreakpoint, value, key)
   );
 };
 
@@ -121,7 +127,8 @@ export const Interactive = () => {
         <GridItem
           md={number('md', 12)}
           sm={number('sm', 12)}
-          xs={number('xs', 12)}>
+          xs={number('xs', 12)}
+        >
           Label
         </GridItem>
       </GridContainer>
