@@ -19,12 +19,14 @@ describe('Provider component', () => {
       ...mockedTheme.palette,
       primary: {
         main: '#000000',
-      }
+      },
     };
 
     const provider = mount(<Provider theme={mockedTheme}>Mocked</Provider>);
     const theme = provider.find('ThemeProvider').prop('theme');
 
-    expect(JSON.stringify(theme)).toStrictEqual(JSON.stringify(createMuiTheme(mockedTheme)));
+    expect(JSON.stringify(theme)).toStrictEqual(
+      JSON.stringify(createMuiTheme(mockedTheme))
+    );
   });
 });

@@ -18,12 +18,7 @@ type TypographyVariant =
   | 'caption'
   | 'overline';
 
-type TypographyAlign =
-  | 'inherit'
-  | 'left'
-  | 'center'
-  | 'right'
-  | 'justify';
+type TypographyAlign = 'inherit' | 'left' | 'center' | 'right' | 'justify';
 
 type TypographyColor =
   | 'initial'
@@ -61,12 +56,14 @@ interface ITypographyProps {
   children: React.ReactNode;
 }
 
-const Typography:React.FunctionComponent<ITypographyProps> = (props:ITypographyProps) => {
+const Typography: React.FunctionComponent<ITypographyProps> = (
+  props: ITypographyProps
+) => {
   const variant = props.variant ? props.variant : 'body1';
   const align = props.align ? props.align : 'inherit';
   const classes = props.classes ? props.classes : {};
   const color = props.color ? props.color : undefined;
-  const noWrap = props.noWrap === undefined || props.noWrap === null ? false : props.noWrap;
+  const noWrap = props.noWrap === undefined ? false : props.noWrap;
 
   return (
     <MaterialTypography
@@ -82,4 +79,3 @@ const Typography:React.FunctionComponent<ITypographyProps> = (props:ITypographyP
 };
 
 export default withTheme(Typography);
-
