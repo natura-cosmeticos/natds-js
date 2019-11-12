@@ -16,7 +16,7 @@ export const natura: IColorsNatura = {
     colorBrdNatSecondaryYellow: '#FFBA1B'
   },
 
-  common: {
+  grayscale: {
     colorBrdBlack: '#000000',
     colorBrdNatGray: '#333333',
     colorBrdNatGray1: '#777777',

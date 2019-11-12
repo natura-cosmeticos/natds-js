@@ -29,9 +29,9 @@ const secondarySchema = {
   body: Object.entries(natura.secondary).map(mapColorSchema)
 };
 
-const commonSchema = {
+const grayscaleSchema = {
   head: ['name', 'color'],
-  body: Object.entries(natura.common).map(mapColorSchema)
+  body: Object.entries(natura.grayscale).map(mapColorSchema)
 };
 
 const levelSchema = {
@@ -53,7 +53,7 @@ export default {
         <div>
           <Table schema={primarySchema} title="Primary" />
           <Table schema={secondarySchema} title="Secondary" />
-          <Table schema={commonSchema} title="Common" />
+          <Table schema={grayscaleSchema} title="Grayscale" />
           <Table schema={levelSchema} title="Level" />
           <Table schema={complementarySchema} title="Complementary" />
         </div>

@@ -12,7 +12,7 @@ export interface ISecondary {
   colorBrdNatSecondaryYellow: string;
 }
 
-export interface ICommon {
+export interface IGrayscale {
   colorBrdBlack: string;
   colorBrdNatGray: string;
   colorBrdNatGray1: string;
@@ -74,7 +74,7 @@ export interface IComplementary {
 export interface IColorsNatura {
   primary: IPrimary;
   secondary: ISecondary;
-  common: ICommon;
+  grayscale: IGrayscale;
   level: ILevel;
   complementary: IComplementary;
 }
