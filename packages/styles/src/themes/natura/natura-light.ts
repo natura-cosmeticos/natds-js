@@ -16,27 +16,27 @@ export const naturaLight: ITheme = {
       main: natura.primary.colorBrdNatPrimaryYellow,
       light: '#FEFDE8',
       dark: '#EF8426',
-      contrastText: natura.primary.colorBrdNatGray
+      contrastText: natura.grayscale.colorBrdNatGray
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
       light: '#FFF8E1',
       dark: natura.primary.colorBrdNatPrimaryOrange,
-      contrastText: natura.primary.colorBrdNatGray
+      contrastText: natura.grayscale.colorBrdNatGray
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.primary.colorBrdNatGray
+      contrastText: natura.grayscale.colorBrdNatGray
     },
     background: {
       paper: '#FAFAFA',
       default: natura.primary.colorBrdNatPrimaryWhite
     },
     text: {
-      primary: natura.primary.colorBrdNatGray,
-      secondary: natura.primary.colorBrdNatGray,
-      disabled: natura.primary.colorBrdNatGray3,
-      hint: natura.primary.colorBrdNatGray2
+      primary: natura.grayscale.colorBrdNatGray,
+      secondary: natura.grayscale.colorBrdNatGray,
+      disabled: natura.grayscale.colorBrdNatGray3,
+      hint: natura.grayscale.colorBrdNatGray2
     }
   },
   typography: {
