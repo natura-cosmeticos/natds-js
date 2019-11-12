@@ -1,15 +1,22 @@
 import { IColorsNatura } from './IColorsNatura';
 
+
 export const natura: IColorsNatura = {
   primary: {
     colorBrdNatPrimaryOrange: '#FF6B0B',
     colorBrdNatPrimaryYellow: '#F4AB34',
     colorBrdNatPrimaryBrown: '#513528',
-    colorBrdNatPrimaryWhite: '#FFFFFF',
-    colorBrdNatPurple: '#7080A0',
-    colorBrdNatBlue: '#71CACD',
-    colorBrdNatGreen: '#B3CA36',
-    colorBrdNatYellow1: '#FFBA1B',
+    colorBrdNatPrimaryWhite: '#FFFFFF'
+  },
+
+  secondary: {
+    colorBrdNatSecondaryPurple: '#7080A0',
+    colorBrdNatSecondaryBlue: '#71CACD',
+    colorBrdNatSecondaryGreen: '#B3CA36',
+    colorBrdNatSecondaryYellow: '#FFBA1B'
+  },
+
+  common: {
     colorBrdBlack: '#000000',
     colorBrdNatGray: '#333333',
     colorBrdNatGray1: '#777777',
@@ -17,11 +24,15 @@ export const natura: IColorsNatura = {
     colorBrdNatGray3: '#EEEEEE'
   },
 
+  level: {
+    colorLevelSeed: '#7B6A58',
+    colorLevelBronze: '#C47F5B',
+    colorLevelSilver: '#9D9D9C',
+    colorLevelDiamond: '#AEC2CE',
+    colorLevelGold: '#D8B75E'
+  },
+
   complementary: {
-    colorBrdNatCpPurple1: '#572A86',
-    colorBrdNatCpPurple2: '#71CACD',
-    colorBrdNatCpPurple3: '#53619E',
-    colorBrdNatCpPurple4: '#8E96A9',
     colorBrdNatCpBlue1: '#227BBD',
     colorBrdNatCpBlue2: '#6BB1E2',
     colorBrdNatCpBlue3: '#54BECF',
@@ -44,10 +55,9 @@ export const natura: IColorsNatura = {
     colorBrdNatCpRed4: '#F29669',
     colorBrdNatCpBrown1: '#371E14',
     colorBrdNatCpBrown2: '#5D3B2A',
-    colorBrdNatCpBrown3: '#7A573C'
-  },
-
-  gradient: {
+    colorBrdNatCpBrown3: '#7A573C',
+    colorBrdNatGrad1: 'linear-gradient(112deg, #FFDA1B 0%, #FF6B0B 100%) 0% 0% no-repeat padding-box',
+    colorBrdNatGrad2: 'linear-gradient(112deg, #86DDD4 0%, #6F38B5 100%) 0% 0% no-repeat padding-box',
     colorBrdNatGrad3: 'linear-gradient(112deg, #728C9E 0%, #FD6C20 100%) 0% 0% no-repeat padding-box',
     colorBrdNatGrad4: 'linear-gradient(112deg, #728C9E 0%, #FEE23E 100%) 0% 0% no-repeat padding-box',
     colorBrdNatGrad5: 'linear-gradient(112deg, #86DDD4 0%, #FD6C20 100%) 0% 0% no-repeat padding-box',
@@ -65,3 +75,9 @@ export const natura: IColorsNatura = {
     colorBrdNatGrad17: 'linear-gradient(112deg, #FFEDB5 0%, #FAC6AB 100%) 0% 0% no-repeat padding-box'
   }
 };
+
+
+
+
+
+

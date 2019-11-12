@@ -24,14 +24,24 @@ const primarySchema = {
   body: Object.entries(natura.primary).map(mapColorSchema)
 };
 
+const secondarySchema = {
+  head: ['name', 'color'],
+  body: Object.entries(natura.secondary).map(mapColorSchema)
+};
+
+const commonSchema = {
+  head: ['name', 'color'],
+  body: Object.entries(natura.common).map(mapColorSchema)
+};
+
+const levelSchema = {
+  head: ['name', 'color'],
+  body: Object.entries(natura.level).map(mapColorSchema)
+};
+
 const complementarySchema = {
   head: ['name', 'color'],
   body: Object.entries(natura.complementary).map(mapColorSchema)
-};
-
-const gradientSchema = {
-  head: ['name', 'color'],
-  body: Object.entries(natura.gradient).map(mapColorSchema)
 };
 
 export default {
@@ -42,8 +52,10 @@ export default {
       page: () => (
         <div>
           <Table schema={primarySchema} title="Primary" />
+          <Table schema={secondarySchema} title="Secondary" />
+          <Table schema={commonSchema} title="Common" />
+          <Table schema={levelSchema} title="Level" />
           <Table schema={complementarySchema} title="Complementary" />
-          <Table schema={gradientSchema} title="Gradient" />
         </div>
       )
     },

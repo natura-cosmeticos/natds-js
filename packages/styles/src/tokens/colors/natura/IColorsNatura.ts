@@ -3,10 +3,16 @@ export interface IPrimary {
   colorBrdNatPrimaryYellow: string;
   colorBrdNatPrimaryBrown: string;
   colorBrdNatPrimaryWhite: string;
-  colorBrdNatPurple: string;
-  colorBrdNatBlue: string;
-  colorBrdNatGreen: string;
-  colorBrdNatYellow1: string;
+}
+
+export interface ISecondary {
+  colorBrdNatSecondaryPurple: string;
+  colorBrdNatSecondaryBlue: string;
+  colorBrdNatSecondaryGreen: string;
+  colorBrdNatSecondaryYellow: string;
+}
+
+export interface ICommon {
   colorBrdBlack: string;
   colorBrdNatGray: string;
   colorBrdNatGray1: string;
@@ -14,11 +20,15 @@ export interface IPrimary {
   colorBrdNatGray3: string;
 }
 
+export interface ILevel {
+  colorLevelSeed: string;
+  colorLevelBronze: string;
+  colorLevelSilver: string;
+  colorLevelDiamond: string;
+  colorLevelGold: string;
+}
+
 export interface IComplementary {
-  colorBrdNatCpPurple1: string;
-  colorBrdNatCpPurple2: string;
-  colorBrdNatCpPurple3: string;
-  colorBrdNatCpPurple4: string;
   colorBrdNatCpBlue1: string;
   colorBrdNatCpBlue2: string;
   colorBrdNatCpBlue3: string;
@@ -42,9 +52,8 @@ export interface IComplementary {
   colorBrdNatCpBrown1: string;
   colorBrdNatCpBrown2: string;
   colorBrdNatCpBrown3: string;
-}
-
-export interface IGradient {
+  colorBrdNatGrad1: string;
+  colorBrdNatGrad2: string;
   colorBrdNatGrad3: string;
   colorBrdNatGrad4: string;
   colorBrdNatGrad5: string;
@@ -64,6 +73,8 @@ export interface IGradient {
 
 export interface IColorsNatura {
   primary: IPrimary;
+  secondary: ISecondary;
+  common: ICommon;
+  level: ILevel;
   complementary: IComplementary;
-  gradient: IGradient;
 }
