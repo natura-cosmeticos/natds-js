@@ -7,7 +7,7 @@ import { Delete } from '@material-ui/icons';
 import { Button } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
 
-import ButtonDocs from './Button.mdx';
+import ButtonDocs from './Button.docs.mdx';
 
 export default {
   title: 'Web|Button',
