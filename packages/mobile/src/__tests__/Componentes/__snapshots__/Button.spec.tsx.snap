@@ -5,7 +5,7 @@ exports[`Button rendering should match to snapshot - AccessibilityLabel: Accessi
   style={
     Object {
       "backgroundColor": "transparent",
-      "borderColor": "transparent",
+      "borderColor": "#6200ee",
       "borderRadius": 4,
       "borderStyle": "solid",
       "borderWidth": 0,
@@ -81,7 +81,9 @@ exports[`Button rendering should match to snapshot - AccessibilityLabel: Accessi
                 "fontFamily": "System",
                 "fontWeight": "500",
               },
-              undefined,
+              Object {
+                "fontWeight": "400",
+              },
             ],
           ]
         }
@@ -96,7 +98,7 @@ exports[`Button rendering should match to snapshot - Default: Default button sna
   style={
     Object {
       "backgroundColor": "transparent",
-      "borderColor": "transparent",
+      "borderColor": "#6200ee",
       "borderRadius": 4,
       "borderStyle": "solid",
       "borderWidth": 0,
@@ -171,7 +173,9 @@ exports[`Button rendering should match to snapshot - Default: Default button sna
                 "fontFamily": "System",
                 "fontWeight": "500",
               },
-              undefined,
+              Object {
+                "fontWeight": "400",
+              },
             ],
           ]
         }
@@ -186,7 +190,7 @@ exports[`Button rendering should match to snapshot - Disabled: Disabled button s
   style={
     Object {
       "backgroundColor": "transparent",
-      "borderColor": "transparent",
+      "borderColor": "rgba(0, 0, 0, 0.32)",
       "borderRadius": 4,
       "borderStyle": "solid",
       "borderWidth": 0,
@@ -265,7 +269,9 @@ exports[`Button rendering should match to snapshot - Disabled: Disabled button s
                 "fontFamily": "System",
                 "fontWeight": "500",
               },
-              undefined,
+              Object {
+                "fontWeight": "400",
+              },
             ],
           ]
         }
@@ -280,7 +286,7 @@ exports[`Button rendering should match to snapshot - Icon: Icon button snapshot 
   style={
     Object {
       "backgroundColor": "transparent",
-      "borderColor": "transparent",
+      "borderColor": "#6200ee",
       "borderRadius": 4,
       "borderStyle": "solid",
       "borderWidth": 0,
@@ -399,7 +405,9 @@ exports[`Button rendering should match to snapshot - Icon: Icon button snapshot 
                 "fontFamily": "System",
                 "fontWeight": "500",
               },
-              undefined,
+              Object {
+                "fontWeight": "400",
+              },
             ],
           ]
         }
@@ -414,7 +422,7 @@ exports[`Button rendering should match to snapshot - Mode: Mode button snapshot 
   style={
     Object {
       "backgroundColor": "#6200ee",
-      "borderColor": "transparent",
+      "borderColor": "#6200ee",
       "borderRadius": 4,
       "borderStyle": "solid",
       "borderWidth": 0,
@@ -496,7 +504,9 @@ exports[`Button rendering should match to snapshot - Mode: Mode button snapshot 
                 "fontFamily": "System",
                 "fontWeight": "500",
               },
-              undefined,
+              Object {
+                "fontWeight": "400",
+              },
             ],
           ]
         }

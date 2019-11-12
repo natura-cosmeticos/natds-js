@@ -17,10 +17,6 @@ declare type ButtonProps = React.ComponentProps<typeof Surface> & {
    */
   color?: string;
   /**
-   * Whether to show a loading indicator.
-   */
-  loading?: boolean;
-  /**
    * Icon to display for the `Button`.
    */
   icon?: IconSource;
@@ -65,6 +61,26 @@ declare type ButtonProps = React.ComponentProps<typeof Surface> & {
 
 const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
   props: Omit<ButtonProps, 'height' | 'width'>
-) => <PaperButton uppercase={true} {...props} />;
+) => {
+  const { theme } = props;
+  let color = theme.colors.text;
+  let borderColor = theme.colors.primary;
+
+  if (props.mode !== 'outlined') {
+    color = theme.colors.primary;
+  }
+  if (props.disabled) {
+    borderColor = 'rgba(0, 0, 0, 0.32)';
+  }
+
+  const overrideProps = { ...props };
+  overrideProps.color = color;
+  overrideProps.style = { borderColor };
+  overrideProps.labelStyle = {
+    fontWeight: theme.fonts.regular.fontWeight,
+  };
+
+  return <PaperButton uppercase={true} {...overrideProps} />;
+};
 
 export default withTheme(Button);
