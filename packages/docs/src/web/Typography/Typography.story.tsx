@@ -3,6 +3,8 @@ import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 
 export { Variants } from './Variants';
+export { Colors } from './Colors';
+export { Align } from './Align';
 
 import TypographyDocs from './Typography.mdx';
 

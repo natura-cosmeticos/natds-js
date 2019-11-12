@@ -26,6 +26,87 @@ import { withTheme } from '../../../addons/theme/provider';
 
 ***
 ***
+## Align
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px'}}>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6">Default/Inherit alignment</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6" align="left">Left alignment</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6" align="center">Center alignment</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6" align="right">Right alignment</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6" align="justify">Justify alignment</Typography>
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+***
+***
+## Color
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px'}}>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6">Default/Inherit color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="initial">Initial color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="primary">Primary color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="secondary">Secondary color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="textPrimary">Text Primary color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="textSecondary">Text Secondary color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="error">Error color</Typography>
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+***
+***
+## NoWrap
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px', width: '740px'}}>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6">NoWrap default</Typography>
+        <Typography variant="hbody16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6">NoWrap false</Typography>
+        <Typography variant="body1" noWrap={false}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', overflow: 'hidden' }}>
+        <Typography variant="h6">NoWrap true</Typography>
+        <Typography variant="body1" noWrap={true}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography>
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+***
+***
 ## API
 
 ```js highlight-line="2"
@@ -39,4 +120,6 @@ import { withTheme } from '../../../addons/theme/provider';
 | :--                       | :-:                                             | :-:                           | :-:                       |
 | children                  | React.ReactNode                                            |                               | The content of the button.
 | variant                   | 'h1' \| 'h2' \| 'h3' \| 'h4' \| 'h5' \| 'h6' \| 'subtitle1' \| 'subtitle2' \| 'body1' \| 'body2' \| 'caption' \| 'button' \| 'overline' \| undefined | 'body1' | Defines the font size, line height, font family and font weight based on the provided theme
-
+| align                     | 'inherit' \| 'left' \| 'center' \| 'right' \| 'justify' | 'inherit' | Set the text-align on the component
+| color                     | 'initial' \| 'inherit' \| 'primary' \| 'secondary' \| 'textPrimary' \| 'textSecondary' \| 'error' | 'initial' | The color of the component. It supports those theme colors that make sense for this component.
+| noWrap                    | boolean                                         | false                         | If true, the text will not wrap, but instead will truncate with a text overflow ellipsis. Note that text overflow can only happen with block or inline-block level elements (the element needs to have a width in order to overflow).
