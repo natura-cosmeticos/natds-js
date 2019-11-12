@@ -15,15 +15,15 @@ export default {
     jest: ['Button'],
     theme: 'mobile',
     docs: {
-      page: ButtonDocs
-    }
-  }
+      page: ButtonDocs,
+    },
+  },
 };
 
 const mode: any = {
   text: 'text',
   outlined: 'outlined',
-  contained: 'contained'
+  contained: 'contained',
 };
 
 export const Interactive = () => (
@@ -32,11 +32,8 @@ export const Interactive = () => (
     children={text('children', 'Native Button')}
     mode={select('mode', mode, mode.contained)}
     icon={boolean('icon', false) ? 'camera' : ''}
-    dark={boolean('dark', false)}
-    compact={boolean('compact', false)}
     loading={boolean('loading', false)}
     disabled={boolean('disabled', false)}
-    uppercase={boolean('uppercase', false)}
   />
 );
 

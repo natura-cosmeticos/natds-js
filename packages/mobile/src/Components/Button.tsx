@@ -13,14 +13,6 @@ declare type ButtonProps = React.ComponentProps<typeof Surface> & {
    */
   mode?: 'text' | 'outlined' | 'contained';
   /**
-   * Whether the color is a dark color. A dark button will render light text and vice-versa. Only applicable for `contained` mode.
-   */
-  dark?: boolean;
-  /**
-   * Use a compact look, useful for `text` buttons in a row.
-   */
-  compact?: boolean;
-  /**
    * Custom text color for flat button, or background color for contained button.
    */
   color?: string;
@@ -73,6 +65,6 @@ declare type ButtonProps = React.ComponentProps<typeof Surface> & {
 
 const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
   props: Omit<ButtonProps, 'height' | 'width'>
-) => <PaperButton {...props} />;
+) => <PaperButton uppercase={true} {...props} />;
 
 export default withTheme(Button);

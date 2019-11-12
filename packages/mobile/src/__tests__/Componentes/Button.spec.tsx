@@ -19,27 +19,6 @@ describe('Button', () => {
       expect(component).toMatchSnapshot('Mode button snapshot');
     });
 
-    test('should match to snapshot - Dark', () => {
-      const component = renderer
-        .create(<Button children dark={true} mode="contained" />)
-        .toJSON();
-      expect(component).toMatchSnapshot('Dark button snapshot');
-    });
-
-    test('should match to snapshot - Compact', () => {
-      const component = renderer
-        .create(<Button children compact={true} mode="text" />)
-        .toJSON();
-      expect(component).toMatchSnapshot('Compact button snapshot');
-    });
-
-    test('should match to snapshot - Loading', () => {
-      const component = renderer
-        .create(<Button children loading={true} />)
-        .toJSON();
-      expect(component).toMatchSnapshot('Loading button snapshot');
-    });
-
     test('should match to snapshot - Icon', () => {
       const component = renderer
         .create(<Button children icon="camera" />)
