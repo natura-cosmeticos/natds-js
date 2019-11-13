@@ -7,7 +7,7 @@ import { Delete } from '@material-ui/icons';
 import { Button } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
 
-import ButtonDocs from './Button.mdx';
+import ButtonDocs from './Button.docs.mdx';
 
 export default {
   title: 'Web|Button',
@@ -47,7 +47,7 @@ const sizes: any = {
 
 export const Interactive = () => (
   <Button
-    color={select('Colors', colors, colors.default)}
+    color={select('Colors', colors, colors.primary)}
     variant={select('Variant', variants, variants.contained)}
     size={select('Size', sizes, sizes.medium)}
     startIcon={boolean('Start Icon', false) ? <Delete /> : null}
@@ -59,27 +59,27 @@ export const Interactive = () => (
 
 export const Text = () => (
   <Button
-    color={colors.default}
+    color={select('Colors', colors, colors.primary)}
     variant={variants.text}
-    size={sizes.medium}>
+    size={select('Size', sizes, sizes.medium)}>
     {text('label', 'Button Component')}
   </Button>
 );
 
 export const Outlined = () => (
   <Button
-    color={colors.default}
+    color={select('Colors', colors, colors.primary)}
     variant={variants.outlined}
-    size={sizes.medium}>
+    size={select('Size', sizes, sizes.medium)}>
     {text('label', 'Button Component')}
   </Button>
 );
 
 export const Contained = () => (
   <Button
-    color={colors.default}
+    color={select('Colors', colors, colors.primary)}
     variant={variants.contained}
-    size={sizes.medium}>
+    size={select('Size', sizes, sizes.medium)}>
     {text('label', 'Button Component')}
   </Button>
 );

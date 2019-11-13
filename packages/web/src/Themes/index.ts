@@ -1,6 +1,6 @@
 import { themes as styleThemes, ITheme, IFont } from '@naturacosmeticos/natds-styles';
 
-export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette'>{
+export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette'> {
   typography: {
     fontFamily?: string;
     fontFamilyBrand?: string;
@@ -24,7 +24,7 @@ export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette'>{
   };
 }
 
-function parseTheme(theme: ITheme):IThemeWeb {
+function parseTheme(theme: ITheme): IThemeWeb {
   const { web } = theme.typography;
 
   return {
@@ -63,7 +63,7 @@ type IThemesWeb<K extends keyof typeof styleThemes> = {
 function createThemesObject(): IThemesWeb<keyof typeof styleThemes> {
   const keys = Object.keys(styleThemes);
   const newThemes: IThemesWeb<keyof typeof styleThemes> = {} as IThemesWeb<keyof typeof styleThemes>;
-  keys.forEach(key => newThemes[key] = { light: {} as IThemeWeb, dark: {} as IThemeWeb } );
+  keys.forEach(key => newThemes[key] = { light: {} as IThemeWeb, dark: {} as IThemeWeb });
   return newThemes;
 }
 

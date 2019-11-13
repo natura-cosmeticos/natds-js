@@ -44,7 +44,7 @@ export const Interactive = () => (
   <div>
     <ButtonGroup
       disabled={boolean('disabled', false)}
-      color={select('Colors', colors, colors.default)}
+      color={select('Colors', colors, colors.primary)}
       variant={select('Variant', variants, variants.contained)}
       size={select('Size', sizes, sizes.medium)}>
       <Button>{text('button 1', 'Button 1')}</Button>
@@ -57,7 +57,7 @@ export const Interactive = () => (
 export const Icon = () => (
   <ButtonGroup
     disabled={boolean('disabled', false)}
-    color={select('Colors', colors, colors.default)}
+    color={select('Colors', colors, colors.primary)}
     size={select('Size', sizes, sizes.medium)}>
     <IconButton children={<Add />} />
     <IconButton children={<Edit />} />
@@ -67,7 +67,7 @@ export const Icon = () => (
 
 export const Text = () => (
   <ButtonGroup
-    color={colors.default}
+    color={colors.primary}
     variant={variants.text}
     size={sizes.medium}>
     <Button>{text('button 1', 'Button 1')}</Button>
@@ -78,7 +78,7 @@ export const Text = () => (
 
 export const Outlined = () => (
   <ButtonGroup
-    color={colors.default}
+    color={colors.primary}
     variant={variants.outlined}
     size={sizes.medium}>
     <Button>{text('button 1', 'Button 1')}</Button>
@@ -89,7 +89,7 @@ export const Outlined = () => (
 
 export const Contained = () => (
   <ButtonGroup
-    color={colors.default}
+    color={colors.primary}
     variant={variants.contained}
     size={sizes.medium}>
     <Button>{text('button 1', 'Button 1')}</Button>

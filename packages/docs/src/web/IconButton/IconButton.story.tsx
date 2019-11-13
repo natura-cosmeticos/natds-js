@@ -36,7 +36,7 @@ const sizes: any = {
 export const Interactive = () => (
   <IconButton
     disabled={boolean('disabled', false)}
-    color={select('Colors', colors, colors.default)}
+    color={select('Colors', colors, colors.primary)}
     size={select('Size', sizes, sizes.medium)}
     children={<Delete />}
   />
