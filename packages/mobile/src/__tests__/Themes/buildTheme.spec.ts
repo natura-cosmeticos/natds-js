@@ -7,16 +7,20 @@ const parsedNaturaLightThemeWithoutValues = require('./parsedNaturaLightThemeWit
 
 describe('Function buildTheme', () => {
   test('it should return the parsed natura light theme', () => {
-    const { natura: { light } } = themes;
+    const {
+      natura: { light },
+    } = themes;
 
     const theme = buildTheme(light, light);
     expect(theme).toStrictEqual(parsedNaturaLightTheme);
   });
 
   test('it should return the parsed natura light theme with missing values', () => {
-    const { natura: { light } } = themes;
+    const {
+      natura: { light },
+    } = themes;
 
-    const themeWithMissingValues:IThemeMobile = {
+    const themeWithMissingValues: IThemeMobile = {
       ...light,
       shape: undefined,
       palette: undefined,
@@ -26,10 +30,12 @@ describe('Function buildTheme', () => {
         fontWeightLight: undefined,
         fontWeightRegular: undefined,
         fontWeightMedium: undefined,
-        fontWeightBold: undefined
-      }
+        fontWeightBold: undefined,
+      },
     };
 
-    expect(buildTheme(themeWithMissingValues, light)).toStrictEqual(parsedNaturaLightThemeWithoutValues);
+    expect(buildTheme(themeWithMissingValues, light)).toStrictEqual(
+      parsedNaturaLightThemeWithoutValues
+    );
   });
 });

@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Button as PaperButton, withTheme, Theme } from 'react-native-paper';
+import { Button as PaperButton, withTheme } from 'react-native-paper';
 import { Surface, StyleProp, ViewStyle, TextStyle } from 'react-native';
 import { IconSource } from 'react-native-paper/lib/typescript/src/components/Icon';
+import { IThemeShape } from 'Provider/IThemeShape';
 
 declare type ButtonProps = React.ComponentProps<typeof Surface> & {
   /**
@@ -67,7 +68,7 @@ declare type ButtonProps = React.ComponentProps<typeof Surface> & {
   /**
    * @optional
    */
-  theme: Theme;
+  theme: IThemeShape;
 };
 
 const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (

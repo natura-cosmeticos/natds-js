@@ -1,4 +1,8 @@
-import { themes as styleThemes, ITheme, IFont } from '@naturacosmeticos/natds-styles';
+import {
+  themes as styleThemes,
+  ITheme,
+  IFont,
+} from '@naturacosmeticos/natds-styles';
 import { Platform } from 'react-native';
 
 export interface IThemeMobile extends Pick<ITheme, 'shape' | 'palette'> {
@@ -9,19 +13,19 @@ export interface IThemeMobile extends Pick<ITheme, 'shape' | 'palette'> {
     fontWeightRegular?: number;
     fontWeightMedium?: number;
     fontWeightBold?: number;
-    h1?: IFont,
-    h2?: IFont,
-    h3?: IFont,
-    h4?: IFont,
-    h5?: IFont,
-    h6?: IFont,
-    subtitle1?: IFont,
-    subtitle2?: IFont,
-    body1?: IFont,
-    body2?: IFont,
-    button?: IFont,
-    caption?: IFont,
-    overline?: IFont
+    h1?: IFont;
+    h2?: IFont;
+    h3?: IFont;
+    h4?: IFont;
+    h5?: IFont;
+    h6?: IFont;
+    subtitle1?: IFont;
+    subtitle2?: IFont;
+    body1?: IFont;
+    body2?: IFont;
+    button?: IFont;
+    caption?: IFont;
+    overline?: IFont;
   };
   spacing: number;
 }
@@ -53,8 +57,8 @@ function parseTheme(theme: ITheme): IThemeMobile {
       body2: theme.typography.body2,
       button: theme.typography.button,
       caption: theme.typography.caption,
-      overline: theme.typography.overline
-    }
+      overline: theme.typography.overline,
+    },
   };
 }
 
@@ -62,13 +66,18 @@ type IThemesMobile<K extends keyof typeof styleThemes> = {
   [P in K]: {
     light: IThemeMobile;
     dark: IThemeMobile;
-  }
+  };
 };
 
 function createThemesObject(): IThemesMobile<keyof typeof styleThemes> {
   const keys = Object.keys(styleThemes);
-  const newThemes: IThemesMobile<keyof typeof styleThemes> = {} as IThemesMobile<keyof typeof styleThemes>;
-  keys.forEach(key => newThemes[key] = { light: {} as IThemeMobile, dark: {} as IThemeMobile });
+  const newThemes: IThemesMobile<keyof typeof styleThemes> = {} as IThemesMobile<
+    keyof typeof styleThemes
+  >;
+  keys.forEach(
+    key =>
+      (newThemes[key] = { light: {} as IThemeMobile, dark: {} as IThemeMobile })
+  );
   return newThemes;
 }
 

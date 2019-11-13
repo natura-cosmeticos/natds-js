@@ -1,7 +1,8 @@
 import * as React from 'react';
-import { Chip as PaperChip, withTheme, Theme } from 'react-native-paper';
-import { StyleProp, ViewStyle, Surface } from 'react-native';
+import { Chip as PaperChip, withTheme } from 'react-native-paper';
+import { StyleProp, ViewStyle, Surface, TextStyle } from 'react-native';
 import { IconSource } from 'react-native-paper/lib/typescript/src/components/Icon';
+import { IThemeShape } from 'Provider/IThemeShape';
 
 declare type ChipProps = React.ComponentProps<typeof Surface> & {
   /**
@@ -53,7 +54,7 @@ declare type ChipProps = React.ComponentProps<typeof Surface> & {
   /**
    * Style of chip's text
    */
-  textStyle?: any;
+  textStyle?: TextStyle;
   /**
    * React Native style object
    */
@@ -61,13 +62,15 @@ declare type ChipProps = React.ComponentProps<typeof Surface> & {
   /**
    * @optional
    */
-  theme: Theme;
+  theme: IThemeShape;
   /**
    * Pass down testID from chip props to touchable for Detox tests.
    */
   testID?: string;
 };
 
-const Chip: React.FunctionComponent<Omit<ChipProps,'height' | 'width'>> = (props:Omit<ChipProps,'height' | 'width'>) => (<PaperChip {...props} />);
+const Chip: React.FunctionComponent<Omit<ChipProps, 'height' | 'width'>> = (
+  props: Omit<ChipProps, 'height' | 'width'>
+) => <PaperChip {...props} />;
 
 export default withTheme(Chip);
