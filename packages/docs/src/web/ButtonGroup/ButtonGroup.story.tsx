@@ -7,6 +7,8 @@ import { Delete, Add, Edit } from '@material-ui/icons';
 import { Button, ButtonGroup, IconButton } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
 
+import ButtonGroupDocs from './ButtonGroup.docs.mdx';
+
 export default {
   title: 'Web|ButtonGroup',
   component: Button,
@@ -14,7 +16,10 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Button'],
-    theme: 'web'
+    theme: 'web',
+    docs: {
+      page: ButtonGroupDocs
+    }
   }
 };
 
@@ -54,21 +59,10 @@ export const Interactive = () => (
   </div>
 );
 
-export const Icon = () => (
-  <ButtonGroup
-    disabled={boolean('disabled', false)}
-    color={select('Colors', colors, colors.primary)}
-    size={select('Size', sizes, sizes.medium)}>
-    <IconButton children={<Add />} />
-    <IconButton children={<Edit />} />
-    <IconButton children={<Delete />} />
-  </ButtonGroup>
-);
-
-export const Text = () => (
+export const Contained = () => (
   <ButtonGroup
     color={colors.primary}
-    variant={variants.text}
+    variant={variants.contained}
     size={sizes.medium}>
     <Button>{text('button 1', 'Button 1')}</Button>
     <Button>{text('button 2', 'Button 2')}</Button>
@@ -87,13 +81,35 @@ export const Outlined = () => (
   </ButtonGroup>
 );
 
-export const Contained = () => (
+export const Text = () => (
   <ButtonGroup
     color={colors.primary}
-    variant={variants.contained}
+    variant={variants.text}
     size={sizes.medium}>
     <Button>{text('button 1', 'Button 1')}</Button>
     <Button>{text('button 2', 'Button 2')}</Button>
     <Button>{text('button 3', 'Button 3')}</Button>
+  </ButtonGroup>
+);
+
+export const Icon = () => (
+  <ButtonGroup
+    disabled={boolean('disabled', false)}
+    color={select('Colors', colors, colors.primary)}
+    size={select('Size', sizes, sizes.medium)}>
+    <Button children={<Add />} />
+    <Button children={<Edit />} />
+    <Button children={<Delete />} />
+  </ButtonGroup>
+);
+
+export const iconButton = () => (
+  <ButtonGroup
+    disabled={boolean('disabled', false)}
+    color={select('Colors', colors, colors.primary)}
+    size={select('Size', sizes, sizes.medium)}>
+    <IconButton children={<Add />} />
+    <IconButton children={<Edit />} />
+    <IconButton children={<Delete />} />
   </ButtonGroup>
 );
