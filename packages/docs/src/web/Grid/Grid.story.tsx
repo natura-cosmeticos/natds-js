@@ -6,7 +6,7 @@ import withContainer from '@decorators/container/container';
 import { GridContainer, GridItem } from '@naturacosmeticos/natds-web';
 
 import './styles.scss';
-import GridDocs from './Grid.mdx';
+import GridDocs from './Grid.docs.mdx';
 
 export default {
   title: 'Web|Grid',
