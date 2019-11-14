@@ -1,9 +1,11 @@
-import { fontSize } from '../tokens/fontSize/fontSize';
+import { fontSize } from "../tokens/fontSize/fontSize";
 
 type ITypography = {
   web: {
     fontFamily?: string;
-    fontFamilyBrand?: string;
+    fontFamilyBrand1?: string;
+    fontFamilyBrand2?: string;
+    fontFamilyBrand3?: string;
     fontWeightLight?: number;
     fontWeightRegular?: number;
     fontWeightMedium?: number;
@@ -11,7 +13,9 @@ type ITypography = {
   };
   iOS: {
     fontFamily?: string;
-    fontFamilyBrand?: string;
+    fontFamilyBrand1?: string;
+    fontFamilyBrand2?: string;
+    fontFamilyBrand3?: string;
     fontWeightLight?: number;
     fontWeightRegular?: number;
     fontWeightMedium?: number;
@@ -19,7 +23,9 @@ type ITypography = {
   };
   android: {
     fontFamily?: string;
-    fontFamilyBrand?: string;
+    fontFamilyBrand1?: string;
+    fontFamilyBrand2?: string;
+    fontFamilyBrand3?: string;
     fontWeightLight?: number;
     fontWeightRegular?: number;
     fontWeightMedium?: number;
@@ -32,7 +38,7 @@ export interface ITheme {
     borderRadius?: number;
   };
   palette?: {
-    type?: 'light' | 'dark';
+    type?: "light" | "dark";
     primary?: {
       main: string;
       light?: string;

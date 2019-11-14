@@ -1,26 +1,32 @@
-import { themes as styleThemes, ITheme, IFont } from '@naturacosmeticos/natds-styles';
+import {
+  themes as styleThemes,
+  ITheme,
+  IFont,
+} from '@naturacosmeticos/natds-styles';
 
 export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette'> {
   typography: {
     fontFamily?: string;
-    fontFamilyBrand?: string;
+    fontFamilyBrand1?: string;
+    fontFamilyBrand2?: string;
+    fontFamilyBrand3?: string;
     fontWeightLight?: number;
     fontWeightRegular?: number;
     fontWeightMedium?: number;
     fontWeightBold?: number;
-    h1?: IFont,
-    h2?: IFont,
-    h3?: IFont,
-    h4?: IFont,
-    h5?: IFont,
-    h6?: IFont,
-    subtitle1?: IFont,
-    subtitle2?: IFont,
-    body1?: IFont,
-    body2?: IFont,
-    button?: IFont,
-    caption?: IFont,
-    overline?: IFont
+    h1?: IFont;
+    h2?: IFont;
+    h3?: IFont;
+    h4?: IFont;
+    h5?: IFont;
+    h6?: IFont;
+    subtitle1?: IFont;
+    subtitle2?: IFont;
+    body1?: IFont;
+    body2?: IFont;
+    button?: IFont;
+    caption?: IFont;
+    overline?: IFont;
   };
 }
 
@@ -31,7 +37,9 @@ function parseTheme(theme: ITheme): IThemeWeb {
     ...theme,
     typography: {
       fontFamily: web.fontFamily,
-      fontFamilyBrand: web.fontFamilyBrand,
+      fontFamilyBrand1: web.fontFamilyBrand1,
+      fontFamilyBrand2: web.fontFamilyBrand2,
+      fontFamilyBrand3: web.fontFamilyBrand3,
       fontWeightLight: web.fontWeightLight,
       fontWeightRegular: web.fontWeightRegular,
       fontWeightMedium: web.fontWeightMedium,
@@ -48,8 +56,8 @@ function parseTheme(theme: ITheme): IThemeWeb {
       body2: theme.typography.body2,
       button: theme.typography.button,
       caption: theme.typography.caption,
-      overline: theme.typography.overline
-    }
+      overline: theme.typography.overline,
+    },
   };
 }
 
@@ -57,13 +65,17 @@ type IThemesWeb<K extends keyof typeof styleThemes> = {
   [P in K]: {
     light: IThemeWeb;
     dark: IThemeWeb;
-  }
+  };
 };
 
 function createThemesObject(): IThemesWeb<keyof typeof styleThemes> {
   const keys = Object.keys(styleThemes);
-  const newThemes: IThemesWeb<keyof typeof styleThemes> = {} as IThemesWeb<keyof typeof styleThemes>;
-  keys.forEach(key => newThemes[key] = { light: {} as IThemeWeb, dark: {} as IThemeWeb });
+  const newThemes: IThemesWeb<keyof typeof styleThemes> = {} as IThemesWeb<
+    keyof typeof styleThemes
+  >;
+  keys.forEach(
+    key => (newThemes[key] = { light: {} as IThemeWeb, dark: {} as IThemeWeb })
+  );
   return newThemes;
 }
 

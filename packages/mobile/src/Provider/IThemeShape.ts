@@ -28,7 +28,9 @@ export interface IThemeShape extends Theme {
   spacing?: number;
   typography: {
     fontFamily?: string;
-    fontFamilyBrand?: string;
+    fontFamilyBrand1?: string;
+    fontFamilyBrand2?: string;
+    fontFamilyBrand3?: string;
     fontWeightLight?: number;
     fontWeightRegular?: number;
     fontWeightMedium?: number;

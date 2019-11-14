@@ -1,16 +1,30 @@
 import { themes } from '../../../Themes';
-import naturaLight from './naturaLightThemeParsed.json';
-import naturaDark from './naturaDarkThemeParsed.json';
 
 describe('Themes', () => {
   test('It should match the natura light theme snapshot', () => {
-    const { natura: { light } } = themes;
+    const naturaLight = require('./naturaLightThemeParsed.json');
+    const {
+      natura: { light },
+    } = themes;
+
+    /**
+     * This is due to the json file limitation. It can't have a property with value undefined.
+     */
+    naturaLight.typography.fontFamilyBrand3 = undefined;
 
     expect(light).toStrictEqual(naturaLight);
   });
 
   test('it should match the natura dark theme snapshot', () => {
-    const { natura: { dark } } = themes;
+    const naturaDark = require('./naturaDarkThemeParsed.json');
+    const {
+      natura: { dark },
+    } = themes;
+
+    /**
+     * This is due to the json file limitation. It can't have a property with value undefined.
+     */
+    naturaDark.typography.fontFamilyBrand3 = undefined;
 
     expect(dark).toStrictEqual(naturaDark);
   });
