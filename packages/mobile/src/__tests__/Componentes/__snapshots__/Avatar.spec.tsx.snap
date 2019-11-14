@@ -1,0 +1,266 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar rendering should match to snapshot - Color: Color Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - Default Icon: Default Avatar type icon snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {},
+    ]
+  }
+>
+  <Text
+    accessibilityElementsHidden={true}
+    allowFontScaling={false}
+    importantForAccessibility="no-hide-descendants"
+    pointerEvents="none"
+    style={
+      Array [
+        Object {
+          "color": "#ffffff",
+          "fontSize": 38.4,
+        },
+        Array [
+          Object {
+            "transform": Array [
+              Object {
+                "scaleX": 1,
+              },
+            ],
+          },
+          Object {
+            "backgroundColor": "transparent",
+          },
+        ],
+        Object {
+          "fontFamily": "Material Design Icons",
+          "fontStyle": "normal",
+          "fontWeight": "normal",
+        },
+        Object {},
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - Default Image: Default Avatar type image snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - Default Text: Default Avatar type text snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      },
+      Object {
+        "alignItems": "center",
+        "justifyContent": "center",
+      },
+      Object {},
+    ]
+  }
+>
+  <Text
+    numberOfLines={1}
+    style={
+      Array [
+        Object {
+          "color": "#000000",
+          "fontFamily": "System",
+          "fontWeight": "400",
+          "textAlign": "left",
+        },
+        Array [
+          Object {
+            "textAlign": "center",
+            "textAlignVertical": "center",
+          },
+          Object {
+            "color": "#ffffff",
+            "fontSize": 32,
+            "lineHeight": 64,
+          },
+          undefined,
+        ],
+      ]
+    }
+  >
+    
+  </Text>
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - LabelStyle: LabelStyle Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - Size: Size Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 9,
+        "height": 18,
+        "width": 18,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 9,
+        "height": 18,
+        "width": 18,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - Style: Style Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      },
+      Object {},
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - Theme: Theme Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      }
+    }
+  />
+</View>
+`;

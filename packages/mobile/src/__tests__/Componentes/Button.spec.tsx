@@ -12,11 +12,25 @@ describe('Button', () => {
       expect(component).toMatchSnapshot('Default button snapshot');
     });
 
-    test('should match to snapshot - Mode', () => {
+    test('should match to snapshot - Mode Contained', () => {
       const component = renderer
         .create(<Button children mode="contained" />)
         .toJSON();
-      expect(component).toMatchSnapshot('Mode button snapshot');
+      expect(component).toMatchSnapshot('Mode Contained button snapshot');
+    });
+
+    test('should match to snapshot - Mode Outlined', () => {
+      const component = renderer
+        .create(<Button children mode="outlined" />)
+        .toJSON();
+      expect(component).toMatchSnapshot('Mode Outlined button snapshot');
+    });
+
+    test('should match to snapshot - Mode Text', () => {
+      const component = renderer
+        .create(<Button children mode="text" />)
+        .toJSON();
+      expect(component).toMatchSnapshot('Mode Text button snapshot');
     });
 
     test('should match to snapshot - Icon', () => {
