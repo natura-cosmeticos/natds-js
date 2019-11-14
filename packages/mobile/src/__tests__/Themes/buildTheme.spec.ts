@@ -26,7 +26,9 @@ describe('Function buildTheme', () => {
       palette: undefined,
       typography: {
         fontFamily: undefined,
-        fontFamilyBrand: undefined,
+        fontFamilyBrand1: undefined,
+        fontFamilyBrand2: undefined,
+        fontFamilyBrand3: undefined,
         fontWeightLight: undefined,
         fontWeightRegular: undefined,
         fontWeightMedium: undefined,

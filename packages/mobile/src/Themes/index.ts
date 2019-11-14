@@ -8,7 +8,9 @@ import { Platform } from 'react-native';
 export interface IThemeMobile extends Pick<ITheme, 'shape' | 'palette'> {
   typography: {
     fontFamily?: string;
-    fontFamilyBrand?: string;
+    fontFamilyBrand1?: string;
+    fontFamilyBrand2?: string;
+    fontFamilyBrand3?: string;
     fontWeightLight?: number;
     fontWeightRegular?: number;
     fontWeightMedium?: number;
@@ -40,7 +42,9 @@ function parseTheme(theme: ITheme): IThemeMobile {
     spacing: theme.spacing,
     typography: {
       fontFamily: typography.fontFamily,
-      fontFamilyBrand: typography.fontFamilyBrand,
+      fontFamilyBrand1: typography.fontFamilyBrand1,
+      fontFamilyBrand2: typography.fontFamilyBrand2,
+      fontFamilyBrand3: typography.fontFamilyBrand3,
       fontWeightLight: typography.fontWeightLight,
       fontWeightRegular: typography.fontWeightRegular,
       fontWeightMedium: typography.fontWeightMedium,
