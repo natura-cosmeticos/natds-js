@@ -55,7 +55,10 @@ export const natura: IColorsNatura = {
     colorBrdNatCpRed4: '#F29669',
     colorBrdNatCpBrown1: '#371E14',
     colorBrdNatCpBrown2: '#5D3B2A',
-    colorBrdNatCpBrown3: '#7A573C',
+    colorBrdNatCpBrown3: '#7A573C'
+  },
+
+  gradient: {
     colorBrdNatGrad1: 'linear-gradient(112deg, #FFDA1B 0%, #FF6B0B 100%) 0% 0% no-repeat padding-box',
     colorBrdNatGrad2: 'linear-gradient(112deg, #86DDD4 0%, #6F38B5 100%) 0% 0% no-repeat padding-box',
     colorBrdNatGrad3: 'linear-gradient(112deg, #728C9E 0%, #FD6C20 100%) 0% 0% no-repeat padding-box',
