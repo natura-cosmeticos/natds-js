@@ -11,6 +11,7 @@ import { IThemeShape } from '../Provider/IThemeShape';
 import { IconSource } from 'react-native-paper/lib/typescript/src/components/Icon';
 
 type AvatarType = 'image' | 'text' | 'icon';
+
 declare type AvatarProps = React.ComponentProps<typeof Surface> & {
   /**
    * Type of Avatar (image, text or icon).
