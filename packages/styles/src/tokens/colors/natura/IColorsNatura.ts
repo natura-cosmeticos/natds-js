@@ -52,6 +52,9 @@ export interface IComplementary {
   colorBrdNatCpBrown1: string;
   colorBrdNatCpBrown2: string;
   colorBrdNatCpBrown3: string;
+}
+
+export interface IGradient {
   colorBrdNatGrad1: string;
   colorBrdNatGrad2: string;
   colorBrdNatGrad3: string;
@@ -77,4 +80,5 @@ export interface IColorsNatura {
   grayscale: IGrayscale;
   level: ILevel;
   complementary: IComplementary;
+  gradient: IGradient;
 }
