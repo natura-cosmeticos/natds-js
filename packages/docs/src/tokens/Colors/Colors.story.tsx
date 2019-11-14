@@ -1,48 +1,30 @@
 import * as React from 'react';
 import { tokens } from '@naturacosmeticos/natds-styles';
 import Table from '@addons/Table/Table';
-import Colors from './Colors.component';
+import Colors from '@addons/Colors/Colors';
 import tokensParams from '../shared';
 
 const { natura } = tokens.colors;
 
 function mapColorSchema(color: any) {
   return [
-    {
-      name: color[0],
-      type: 'text'
-    },
-    {
-      name: color[1],
-      type: 'color'
-    }
+    { name: color[0], type: 'text' },
+    { name: color[1], type: 'color' }
   ];
 }
 
-const primarySchema = {
-  head: ['name', 'color'],
-  body: Object.entries(natura.primary).map(mapColorSchema)
-};
+function createTable(entry: any[]) {
+  const [title, colors] = entry;
 
-const secondarySchema = {
-  head: ['name', 'color'],
-  body: Object.entries(natura.secondary).map(mapColorSchema)
-};
+  const schema = {
+    head: ['name', 'color'],
+    body: Object.entries(colors).map(mapColorSchema)
+  };
 
-const grayscaleSchema = {
-  head: ['name', 'color'],
-  body: Object.entries(natura.grayscale).map(mapColorSchema)
-};
-
-const levelSchema = {
-  head: ['name', 'color'],
-  body: Object.entries(natura.level).map(mapColorSchema)
-};
-
-const complementarySchema = {
-  head: ['name', 'color'],
-  body: Object.entries(natura.complementary).map(mapColorSchema)
-};
+  return (
+    <Table key={title} schema={schema} title={title} />
+  );
+}
 
 export default {
   title: 'Design Tokens|Colors',
@@ -51,11 +33,7 @@ export default {
       container: null,
       page: () => (
         <div>
-          <Table schema={primarySchema} title="Primary" />
-          <Table schema={secondarySchema} title="Secondary" />
-          <Table schema={grayscaleSchema} title="Grayscale" />
-          <Table schema={levelSchema} title="Level" />
-          <Table schema={complementarySchema} title="Complementary" />
+          {Object.entries(natura).map(createTable)}
         </div>
       )
     },

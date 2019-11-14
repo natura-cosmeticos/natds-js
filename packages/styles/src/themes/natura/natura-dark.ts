@@ -52,8 +52,18 @@ export const naturaDark: ITheme = {
       outlinedSecondary: {
         color: natura.grayscale.colorBrdNatGray
       },
-      outlined: {
-        color: natura.grayscale.colorBrdNatGray
+      sizeSmall: {
+        fontSize: '0.875rem',
+        minHeight: '32px'
+      },
+      root: {
+        fontSize: '0.875rem',
+        minHeight: '40px',
+        padding: '8px 16px'
+      },
+      sizeLarge: {
+        fontSize: '0.875rem',
+        minHeight: '48px'
       }
     }
   }

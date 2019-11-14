@@ -2,11 +2,11 @@ import * as React from 'react';
 
 import './styles.scss';
 
-interface IColorsComponent {
+interface IColors {
   colors: any;
 }
 
-export default function ColorsComponent(props: IColorsComponent) {
+export default function Colors(props: IColors) {
   return (
     <div className="colors__container">
       {Object.entries(props.colors).map(ColorsGroup)}

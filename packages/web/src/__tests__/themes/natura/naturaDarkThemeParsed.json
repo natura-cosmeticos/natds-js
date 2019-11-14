@@ -88,8 +88,18 @@
       "outlinedSecondary": {
         "color": "#333333"
       },
-      "outlined": {
-        "color": "#333333"
+      "sizeSmall": {
+        "fontSize": "0.875rem",
+        "minHeight": "32px"
+      },
+      "root": {
+        "fontSize": "0.875rem",
+        "minHeight": "40px",
+        "padding": "8px 16px"
+      },
+      "sizeLarge": {
+        "fontSize": "0.875rem",
+        "minHeight": "48px"
       }
     }
   }
