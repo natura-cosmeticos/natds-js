@@ -7,6 +7,8 @@ import { IconButton } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
 import Delete from '@material-ui/icons/Delete';
 
+import IconButtonDocs from './IconButton.docs.mdx';
+
 export default {
   title: 'Web|IconButton',
   component: IconButton,
@@ -14,7 +16,10 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['IconButton'],
-    theme: 'web'
+    theme: 'web',
+    docs: {
+      page: IconButtonDocs
+    }
   }
 };
 
