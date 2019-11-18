@@ -3,6 +3,7 @@ import { themes as webThemes } from './Themes';
 export const themes = { ...webThemes };
 export { Provider } from './Provider';
 
+export { default as Avatar } from './Components/Avatar';
 export { default as Button } from './Components/Button';
 export { default as ButtonGroup } from './Components/ButtonGroup';
 export { default as Chip } from './Components/Chip';

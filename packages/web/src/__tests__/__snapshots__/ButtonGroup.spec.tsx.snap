@@ -1,12 +1,12 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`ButtonGroup component rendering sizes should match snapshot - Size Large: Medium ButtonGroup snapshot 1`] = `
+exports[`ButtonGroup component rendering sizes should match snapshot - Size Large: Large ButtonGroup snapshot 1`] = `
 <div
   className="MuiButtonGroup-root"
   role="group"
 >
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -29,7 +29,7 @@ exports[`ButtonGroup component rendering sizes should match snapshot - Size Larg
     </span>
   </button>
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeLarge MuiButton-sizeLarge"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -60,7 +60,7 @@ exports[`ButtonGroup component rendering sizes should match snapshot - Size Medi
   role="group"
 >
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -86,7 +86,7 @@ exports[`ButtonGroup component rendering sizes should match snapshot - Size Medi
     />
   </button>
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -120,7 +120,7 @@ exports[`ButtonGroup component rendering sizes should match snapshot - Size Smal
   role="group"
 >
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -143,7 +143,7 @@ exports[`ButtonGroup component rendering sizes should match snapshot - Size Smal
     </span>
   </button>
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined MuiButton-outlinedSizeSmall MuiButton-sizeSmall"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -174,7 +174,7 @@ exports[`ButtonGroup component rendering variants should match snapshot - High e
   role="group"
 >
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-contained MuiButtonGroup-grouped MuiButtonGroup-groupedContained MuiButtonGroup-groupedContained"
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButtonGroup-grouped MuiButtonGroup-groupedContained MuiButtonGroup-groupedContained"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -200,7 +200,7 @@ exports[`ButtonGroup component rendering variants should match snapshot - High e
     />
   </button>
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButton-contained MuiButtonGroup-grouped MuiButtonGroup-groupedContained MuiButtonGroup-groupedContained"
+    className="MuiButtonBase-root MuiButton-root MuiButton-contained MuiButtonGroup-grouped MuiButtonGroup-groupedContained MuiButtonGroup-groupedContained"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -234,7 +234,7 @@ exports[`ButtonGroup component rendering variants should match snapshot - Low em
   role="group"
 >
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text MuiButtonGroup-grouped MuiButtonGroup-groupedText MuiButtonGroup-groupedText"
+    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButtonGroup-grouped MuiButtonGroup-groupedText MuiButtonGroup-groupedText"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -260,7 +260,7 @@ exports[`ButtonGroup component rendering variants should match snapshot - Low em
     />
   </button>
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-text MuiButtonGroup-grouped MuiButtonGroup-groupedText MuiButtonGroup-groupedText"
+    className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButtonGroup-grouped MuiButtonGroup-groupedText MuiButtonGroup-groupedText"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -294,7 +294,7 @@ exports[`ButtonGroup component rendering variants should match snapshot - Medium
   role="group"
 >
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -317,7 +317,7 @@ exports[`ButtonGroup component rendering variants should match snapshot - Medium
     </span>
   </button>
   <button
-    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
+    className="MuiButtonBase-root MuiButton-root MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlined"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}

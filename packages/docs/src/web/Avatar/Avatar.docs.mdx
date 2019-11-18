@@ -1,0 +1,81 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Avatar, Provider, themes } from '@naturacosmeticos/natds-web';
+import { withTheme } from '../../../addons/theme/provider';
+import { Delete } from '@material-ui/icons';
+
+# Avatar
+
+---
+
+---
+
+## API
+
+```js highlight-line="2"
+import { Avatar } from '@naturacosmeticos/natds-web';
+
+<Avatar
+  src={require('../../assets/images/avatar.jpg')}
+/>;
+```
+
+---
+
+---
+
+## Types
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px', display: 'flex' }}>
+      <div style={{ width: '70px', marginRight: '20px' }}>
+        <Avatar src={require('../../assets/images/1.jpg')} />
+      </div>
+      <div style={{ width: '70px', marginRight: '20px' }}>
+        <Avatar src={require('../../assets/images/avatar.jpg')} />
+      </div>
+      <div style={{ width: '70px', marginRight: '20px' }}>
+        <Avatar children="XD" />
+      </div>
+      <div style={{ width: '70px', marginRight: '20px' }}>
+        <Avatar children={<Delete />} />
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+---
+
+---
+
+## Variants
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px', display: 'flex' }}>
+      <div style={{ width: '70px', marginRight: '20px' }}>
+        <Avatar src={require('../../assets/images/1.jpg')} />
+      </div>
+      <div style={{ width: '70px', marginRight: '20px' }}>
+        <Avatar src={require('../../assets/images/1.jpg')} variant="rounded" />
+      </div>
+      <div style={{ width: '70px', marginRight: '20px' }}>
+        <Avatar src={require('../../assets/images/1.jpg')} variant="square" />
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+---
+
+---
+
+| Name                      | Type                                            | Default                       | Description
+| :--                       | :-:                                             | :-:                           | :-:                       |
+| alt                       | string                                          |                               | Used in combination with src or srcSet to provide an alt attribute for the rendered img element.
+| children                  | node                                            |                               | Used to render icon or text elements inside the Avatar if src is not set.This can be an element, or just a string.
+| classes                   | object                                          |                               | Override or extend the styles applied to the component.See CSS API below for more details.
+| component                 | elementType                                     | 'div'                         | The component used for the root node.Either a string to use a DOM element or a component.
+| imgProps                  | object                                          |                               | Attributes applied to the img element if the component is used to display an image.
+| sizes                     | string                                          |                               | The sizes attribute for the img element.
+| src                       | string                                          |                               | The src attribute for the img element.
+| srcSet                    | string                                          |                               | The srcSet attribute for the img element.
+| srcSet                    | string                                          | 'rounded', 'square', 'circle' | The shape of the avatar.
