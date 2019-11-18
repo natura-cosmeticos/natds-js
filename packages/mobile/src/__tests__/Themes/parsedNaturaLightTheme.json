@@ -67,7 +67,7 @@
     "h6": {
       "fontSize": "1.25rem",
       "fontFamily": "System",
-      "fontWeight": 500
+      "fontWeight": 600
     },
     "body1": {
       "fontSize": "1rem",
@@ -97,12 +97,14 @@
     "overline": {
       "fontSize": "0.75rem",
       "fontFamily": "System",
-      "fontWeight": 400
+      "fontWeight": 400,
+      "textTransform": "uppercase"
     },
     "button": {
       "fontSize": "0.875rem",
       "fontFamily": "System",
-      "fontWeight": 500
+      "fontWeight": 600,
+      "textTransform": "uppercase"
     }
   }
 }

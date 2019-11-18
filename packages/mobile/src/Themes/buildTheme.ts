@@ -50,7 +50,7 @@ export function buildTheme(
     },
     h6: {
       fontFamily: '"System", sans-serif',
-      fontWeight: 500,
+      fontWeight: 600,
       fontSize: '1.25rem',
     },
     subtitle1: {
@@ -75,9 +75,8 @@ export function buildTheme(
     },
     button: {
       fontFamily: '"System", sans-serif',
-      fontWeight: 500,
+      fontWeight: 600,
       fontSize: '0.875rem',
-
       textTransform: 'uppercase',
     },
     caption: {
@@ -89,7 +88,6 @@ export function buildTheme(
       fontFamily: '"System", sans-serif',
       fontWeight: 400,
       fontSize: '0.75rem',
-
       textTransform: 'uppercase',
     },
   };
@@ -258,6 +256,7 @@ export function buildTheme(
           ? typography.fontFamily
           : defaultTypography.overline.fontFamily,
         fontWeight: defaultTypography.overline.fontWeight,
+        textTransform: defaultTypography.overline.textTransform,
       },
       button: {
         fontSize: typography.button
@@ -267,6 +266,7 @@ export function buildTheme(
           ? typography.fontFamily
           : defaultTypography.button.fontFamily,
         fontWeight: defaultTypography.button.fontWeight,
+        textTransform: defaultTypography.button.textTransform,
       },
     },
   };

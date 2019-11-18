@@ -45,8 +45,12 @@ export interface IThemeShape extends Theme {
     subtitle2?: IFontMobile;
     body1?: IFontMobile;
     body2?: IFontMobile;
-    button?: IFontMobile;
+    button?: {
+      textTransform: string;
+    } & IFontMobile;
     caption?: IFontMobile;
-    overline?: IFontMobile;
+    overline?: {
+      textTransform: string;
+    } & IFontMobile;
   };
 }
