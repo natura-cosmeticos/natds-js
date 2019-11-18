@@ -53,6 +53,27 @@ describe('Button', () => {
         .toJSON();
       expect(component).toMatchSnapshot('AccessibilityLabel button snapshot');
     });
+
+    test('should match to snapshot - ColorType Primary', () => {
+      const component = renderer
+        .create(<Button children colorType="primary" />)
+        .toJSON();
+      expect(component).toMatchSnapshot('ColorType Primary button snapshot');
+    });
+
+    test('should match to snapshot - ColorType Secondary', () => {
+      const component = renderer
+        .create(<Button children colorType="secondary" />)
+        .toJSON();
+      expect(component).toMatchSnapshot('ColorType Secondary button snapshot');
+    });
+
+    test('should match to snapshot - Elevation', () => {
+      const component = renderer
+        .create(<Button children elevation={3} />)
+        .toJSON();
+      expect(component).toMatchSnapshot('Elevation button snapshot');
+    });
   });
 
   describe('interaction', () => {

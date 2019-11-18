@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Button } from '@naturacosmeticos/natds-rn';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import { text, boolean, select } from '@storybook/addon-knobs';
+import { text, boolean, select, number } from '@storybook/addon-knobs';
 
 import ButtonDocs from './Button.docs.mdx';
 
@@ -26,13 +26,20 @@ const mode: any = {
   contained: 'contained',
 };
 
+const colors: any = {
+  primary: 'primary',
+  secondary: 'secondary',
+};
+
 export const Interactive = () => (
   <Button
     onPress={() => {}}
-    children={text('children', 'Button Component')}
+    colorType={select('colors', colors, colors.primary)}
+    elevation={number('elevation', 3)}
     mode={select('mode', mode, mode.contained)}
     icon={boolean('icon', false) ? 'delete' : ''}
     disabled={boolean('disabled', false)}
+    children={text('children', 'Button Component')}
   />
 );
 

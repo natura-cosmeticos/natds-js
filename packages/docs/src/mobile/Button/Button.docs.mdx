@@ -4,9 +4,8 @@ import { withTheme } from '../../../addons/theme/provider';
 
 # Button
 
----
-
----
+***
+***
 
 ## API
 
@@ -16,12 +15,10 @@ import { Button } from '@naturacosmeticos/natds-rn';
 <Button children="Label" mode="outlined" onPress={() => {}} />
 ```
 
----
-
----
+***
+***
 
 ## States
-
 <Preview>
   <Provider theme={themes.natura.light}>
     <div style={{ padding: '20px' }}>
@@ -38,12 +35,10 @@ import { Button } from '@naturacosmeticos/natds-rn';
   </Provider>
 </Preview>
 
----
-
----
+***
+***
 
 ## Variants
-
 <Preview>
   <Provider theme={themes.natura.light}>
     <div style={{ padding: '20px' }}>
@@ -60,13 +55,35 @@ import { Button } from '@naturacosmeticos/natds-rn';
   </Provider>
 </Preview>
 
+***
+***
+
+## Colors
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px' }}>
+      <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
+        <Button children="Primary" mode="contained" colorType="primary" onPress={() => {}} />
+      </div>
+      <div style={{ width: '130px', float: 'left', marginRight: '20px' }}>
+        <Button children="Secondary" mode="contained" colorType="secondary" onPress={() => {}} />
+      </div>
+      <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
+        <Button children="Default" mode="contained" onPress={() => {}} />
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
 | Name                      | Type                                            | Default                       | Description
 | :--                       | :-:                                             | :-:                           | :-:                       |
 | children *                | node                                            |                               | Label text of the button.
 | mode                      | 'text', 'outlined', 'contained'                 | 'text'                        | Mode of the button.
+| colorType                 | 'primary', 'secondary'                          | 'primary'                     | Custom flag to change color.
 | color                     | string                                          |                               | Custom text color for flat button, or background color for contained button.
 | icon                      | object                                          |                               | Icon to display for the `Button`.
 | disabled                  | boolean                                         | false                         | Whether the button is disabled. A disabled button is greyed out and `onPress` is not called on touch.
 | contentStyle              | object                                          |                               | Style of button's inner content. Use this prop to apply custom height and width.
 | style                     | object                                          |                               | React Native style object.
 | labelStyle                | object                                          |                               | Style for the button text.
+| elevation                 | number                                          |                               | Shadow depth, using to ios/web.
