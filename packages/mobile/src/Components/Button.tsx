@@ -4,7 +4,13 @@ import { Surface, StyleProp, ViewStyle, TextStyle } from 'react-native';
 import { IconSource } from 'react-native-paper/lib/typescript/src/components/Icon';
 import { IThemeShape } from 'Provider/IThemeShape';
 
+type ColorType = 'primary' | 'secondary';
+
 declare type ButtonProps = React.ComponentProps<typeof Surface> & {
+  /**
+   * Custom flag to change color.
+   */
+  colorType?: ColorType;
   /**
    * Mode of the button. You can change the mode to adjust the styling to give it desired emphasis.
    * - `text` - flat button without background or outline (low emphasis)
@@ -57,7 +63,21 @@ declare type ButtonProps = React.ComponentProps<typeof Surface> & {
    * @optional
    */
   theme: IThemeShape;
+  /**
+   * Shadow depth, using to ios/web.
+   */
+  elevation?: number;
 };
+
+function elevationShadowStyle(elevation: number) {
+  return {
+    elevation,
+    shadowColor: 'black',
+    shadowOffset: { width: 0, height: 0.5 * elevation },
+    shadowOpacity: 0.3,
+    shadowRadius: 0.8 * elevation,
+  };
+}
 
 const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
   props: Omit<ButtonProps, 'height' | 'width'>
@@ -65,17 +85,35 @@ const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
   const { theme } = props;
   let color = theme.colors.text;
   let borderColor = theme.colors.primary;
+  let style = {};
 
+  const themeColors = {
+    primary: theme.colors.primary,
+    secondary: theme.colors.accent,
+  };
   if (props.mode !== 'outlined') {
-    color = theme.colors.primary;
+    color = themeColors.primary;
+    borderColor = themeColors.primary;
   }
+
+  if (props.colorType) {
+    color = themeColors[props.colorType];
+    borderColor = themeColors[props.colorType];
+  }
+
+  if (props.elevation) {
+    style = elevationShadowStyle(props.elevation);
+  }
+
   if (props.disabled) {
+    color = 'rgba(0, 0, 0, 0.32)';
     borderColor = 'rgba(0, 0, 0, 0.32)';
+    style = {};
   }
 
   const overrideProps = { ...props };
   overrideProps.color = color;
-  overrideProps.style = { borderColor };
+  overrideProps.style = { ...style, borderColor };
   overrideProps.labelStyle = {
     fontWeight: theme.fonts.regular.fontWeight,
   };
