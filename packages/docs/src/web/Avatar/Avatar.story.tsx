@@ -34,7 +34,7 @@ const source: any = {
 
 export const Interactive = () => (
   <Avatar
-    alt={text('alt', '')}
+    alt={text('alt', 'Some alt image text')}
     src={select('source', source, source.image)}
     variant={select('variant', variant, variant.circle)}
   />
