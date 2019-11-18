@@ -1,0 +1,11 @@
+/node_modules/
+/coverage/
+/dist/*
+!/dist/versions_config.json
+!/dist/releases
+!/dist/candidates
+!/dist/_redirects
+!/dist/index.html
+/.idea/
+.DS_Store
+*.log

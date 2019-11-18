@@ -1,0 +1,45 @@
+{
+  "name": "@naturacosmeticos/natds-styles",
+  "version": "0.0.1",
+  "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "design-system"
+  ],
+  "author": "Vizir Software Studio <contato@vizir.com.br>",
+  "contributors": [
+    "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
+    "Vagner Saraiva <vagner@vizir.com.br>",
+    "Matheus Robert Lichtnow <matheus@vizir.com.br>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/natura-cosmeticos/natds/packages/styles",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/natds.git",
+    "directory": "packages/styles"
+  },
+  "scripts": {
+    "build:clean": "rm -rf dist",
+    "build": "yarn build:clean && tsc -p ./tsconfig.json",
+    "start": "yarn build --watch",
+    "watch": "yarn start",
+    "test:unit": "jest",
+    "test:unit:watch": "yarn test:unit --watch",
+    "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
+    "test:unit:coverage:open": "open coverage/lcov-report/index.html",
+    "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
+    "test": "yarn test:unit:coverage -u",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "verify": "yarn lint && yarn test"
+  },
+  "devDependencies": {
+    "jest": "^24.9.0",
+    "sass": "1.23.3",
+    "ts-jest": "^24.1.0",
+    "typescript": "^3.6.4",
+    "yarn": "1.19.1"
+  },
+  "dependencies": {}
+}

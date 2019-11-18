@@ -1,0 +1,125 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Button, ButtonGroup, Provider, themes } from '@naturacosmeticos/natds-web';
+import { Delete } from '@material-ui/icons';
+import { withTheme } from '../../../addons/theme/provider';
+
+# Button
+
+***
+***
+## API
+
+```js highlight-line="2"
+import { Button, ButtonGroup } from '@naturacosmeticos/natds-web';
+
+<ButtonGroup color="primary" variant="contained" size="large">
+  <Button>Button 1</Button>
+  <Button>Button 2</Button>
+  <Button>Button 3</Button>
+</ButtonGroup>
+```
+
+***
+***
+## Variants
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div  style={{ padding: '20px'}}>
+      <ButtonGroup color="primary" variant="contained" size="medium">
+        <Button>Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </ButtonGroup>
+    </div>
+    <div  style={{ padding: '20px'}}>
+      <ButtonGroup color="primary" variant="outlined" size="medium">
+        <Button>Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </ButtonGroup>
+    </div>
+    <div  style={{ padding: '20px'}}>
+      <ButtonGroup color="primary" variant="text" size="medium">
+        <Button>Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </ButtonGroup>
+    </div>
+  </Provider>
+</Preview>
+
+***
+***
+## Colors
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div  style={{ padding: '20px'}}>
+      <ButtonGroup color="primary" variant="contained" size="medium">
+        <Button>Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </ButtonGroup>
+    </div>
+    <div  style={{ padding: '20px'}}>
+      <ButtonGroup color="secondary" variant="contained" size="medium">
+        <Button>Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </ButtonGroup>
+    </div>
+    <div  style={{ padding: '20px'}}>
+      <ButtonGroup color="default" variant="contained" size="medium">
+        <Button>Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </ButtonGroup>
+    </div>
+  </Provider>
+</Preview>
+
+***
+***
+## Sizes
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div  style={{ padding: '20px'}}>
+      <ButtonGroup color="primary" variant="contained" size="small">
+        <Button>Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </ButtonGroup>
+    </div>
+    <div  style={{ padding: '20px'}}>
+      <ButtonGroup color="primary" variant="contained" size="medium">
+        <Button>Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </ButtonGroup>
+    </div>
+    <div  style={{ padding: '20px'}}>
+      <ButtonGroup color="primary" variant="contained" size="large">
+        <Button>Button 1</Button>
+        <Button>Button 2</Button>
+        <Button>Button 3</Button>
+      </ButtonGroup>
+    </div>
+  </Provider>
+</Preview>
+
+
+| Name                      | Type                                            | Default                       | Description
+| :--                       | :-:                                             | :-:                           | :-:                       |
+| children *                | node                                            |                               | The content of the button.
+| classes                   | object                                          |                               | Override or extend the styles applied to the component. See CSS API below for more details.
+| color                     | 'default', 'inherit', 'primary', 'secondary'    | 'default'                     | The color of the component. It supports those theme colors that make sense for this component.
+| component                 | elementType                                     | 'button'                      | The component used for the root node. Either a string to use a DOM element or a component.
+| disabled                  | bool                                            | false                         | If true, the button will be disabled.
+| disableFocusRipple        | bool                                            | false                         | If true, the keyboard focus ripple will be disabled. disableRipple must also be true.
+| disableRipple             | bool                                            |                               | If true, the ripple effect will be disabled. ⚠️ Without a ripple there is no styling for :focus-visible by default. Be sure to highlight the element by applying separate styles with the focusVisibleClassName.
+| fullWidth                 | bool                                            | false                         | If true, the button will take up the full width of its container.
+| size                      | 'small', 'medium', 'large'                      | 'medium'                      | The size of the button. small is equivalent to the dense button styling.
+| variant                   | 'text', 'outlined', 'contained'                 | 'text'                        | The variant to use.
+
+For more datails consult the full [Material Button API](https://material-ui.com/api/button-group/)

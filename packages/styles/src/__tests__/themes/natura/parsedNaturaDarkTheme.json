@@ -1,0 +1,126 @@
+{
+  "shape": {
+    "borderRadius": 4
+  },
+  "spacing": 8,
+  "palette": {
+    "type": "light",
+    "primary": {
+      "main": "#F4AB34",
+      "light": "#FEFDE8",
+      "dark": "#EF8426",
+      "contrastText": "#333333"
+    },
+    "secondary": {
+      "main": "#FF6B0B",
+      "light": "#FFF8E1",
+      "dark": "#FF6B0B",
+      "contrastText": "#333333"
+    },
+    "error": {
+      "main": "#E74627",
+      "contrastText": "#333333"
+    },
+    "background": {
+      "paper": "#222222",
+      "default": "#FFFFFF"
+    },
+    "text": {
+      "primary": "#333333",
+      "secondary": "#333333",
+      "disabled": "#EEEEEE",
+      "hint": "#BBBBBB"
+    }
+  },
+  "typography": {
+    "web": {
+      "fontFamily": "\"Roboto\", sans-serif",
+      "fontFamilyBrand1": "\"Helvetica Now Display\"",
+      "fontFamilyBrand2": "\"Helvetica Now Text\"",
+      "fontWeightLight": 300,
+      "fontWeightRegular": 400,
+      "fontWeightMedium": 500,
+      "fontWeightBold": 700
+    },
+    "iOS": {
+      "fontFamily": "System",
+      "fontFamilyBrand1": "\"Helvetica Now Display\"",
+      "fontFamilyBrand2": "\"Helvetica Now Text\"",
+      "fontWeightLight": 300,
+      "fontWeightRegular": 400,
+      "fontWeightMedium": 500,
+      "fontWeightBold": 700
+    },
+    "android": {
+      "fontFamily": "System",
+      "fontFamilyBrand1": "\"Helvetica Now Display\"",
+      "fontFamilyBrand2": "\"Helvetica Now Text\"",
+      "fontWeightLight": 300,
+      "fontWeightRegular": 400,
+      "fontWeightMedium": 500,
+      "fontWeightBold": 700
+    },
+    "h1": {
+      "fontSize": "6rem"
+    },
+    "h2": {
+      "fontSize": "3.75rem"
+    },
+    "h3": {
+      "fontSize": "3rem"
+    },
+    "h4": {
+      "fontSize": "2.125rem"
+    },
+    "h5": {
+      "fontSize": "1.5rem"
+    },
+    "h6": {
+      "fontSize": "1.25rem"
+    },
+    "subtitle1": {
+      "fontSize": "1rem"
+    },
+    "subtitle2": {
+      "fontSize": "0.875rem"
+    },
+    "body1": {
+      "fontSize": "1rem"
+    },
+    "body2": {
+      "fontSize": "0.875rem"
+    },
+    "button": {
+      "fontSize": "0.875rem"
+    },
+    "caption": {
+      "fontSize": "0.75rem"
+    },
+    "overline": {
+      "fontSize": "0.75rem"
+    }
+  },
+  "overrides": {
+    "MuiButton": {
+      "outlinedPrimary": {
+        "color": "#333333"
+      },
+      "outlinedSecondary": {
+        "color": "#333333"
+      },
+      "sizeSmall": {
+        "fontSize": "0.875rem",
+        "minHeight": "32px"
+      },
+      "root": {
+        "fontSize": "0.875rem",
+        "minHeight": "40px",
+        "padding": "8px 16px"
+      },
+      "sizeLarge": {
+        "fontSize": "0.875rem",
+        "minHeight": "48px"
+      }
+    }
+  }
+}

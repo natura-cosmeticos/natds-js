@@ -1,43 +1,74 @@
 {
   "name": "natds",
-  "version": "0.0.0-development",
-  "description": "Natura Design System",
+  "version": "0.1.0-alpha.31",
+  "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "license": "MIT",
   "keywords": [
-    "design-system"
+    "Design System",
+    "design-system",
+    "Natura",
+    "Natura Design System"
   ],
+  "author": "Vizir Software Studio <contato@vizir.com.br>",
   "contributors": [
     "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
-    "Vagner Saraiva <vagner@vizir.com.br>"
+    "Vagner Saraiva <vagner@vizir.com.br>",
+    "Matheus Robert Lichtnow <matheus@vizir.com.br>"
   ],
-  "main": "index.js",
-  "homepage": "https://github.com/natura-cosmeticos/natds/issues",
+  "homepage": "https://github.com/natura-cosmeticos/natds",
   "repository": {
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
-  "files": [
-    "dist",
-    "README.md"
-  ],
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "bootstrap": "lerna bootstrap",
+    "clean": "lerna clean",
+    "commit": "git cz",
+    "release": "lerna version --conventional-commits",
+    "prerelease": "lerna version --conventional-commits --conventional-prerelease",
+    "publish": "lerna publish from-git",
+    "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
+    "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
+    "build": "echo \"Use \\033[0;33m'yarn build:libs'\\033[0m instead\"",
+    "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
+    "verify": "yarn build:libs && yarn lerna run verify",
+    "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/mobile && yarn watch\" \"cd packages/web && yarn watch\"",
+    "version": "echo $npm_package_version",
+    "build:docs:prerelease": "bash scripts/build-pre-release.sh"
   },
-  "author": "Vizir Software Studio <contato@vizir.com.br>",
-  "license": "MIT",
-  "dependencies": {},
+  "private": true,
+  "workspaces": {
+    "packages": [
+      "packages/styles",
+      "packages/web",
+      "packages/mobile",
+      "packages/docs"
+    ],
+    "nohoist": [
+      "**/react-native",
+      "**/react-native/**",
+      "**/react-native-paper",
+      "**/react-native-paper/**",
+      "**/create-react-class",
+      "**/create-react-class/**",
+      "**/react-native-image-loader",
+      "**/react-native-image-loader/**",
+      "**/react-native-vector-icons",
+      "**/react-native-vector-icons/**"
+    ]
+  },
   "devDependencies": {
     "commitizen": "4.0.3",
-    "husky": "3.0.5",
-    "semantic-release": "15.13.24"
-  },
-  "husky": {
-    "hooks": {
-      "prepare-commit-msg": "exec < /dev/tty && git cz --hook"
-    }
+    "concurrently": "^5.0.0",
+    "cz-lerna-changelog": "2.0.2",
+    "husky": "3.0.9",
+    "lerna": "3.18.4",
+    "semantic-release": "15.13.30"
   },
   "config": {
     "commitizen": {
-      "path": "./node_modules/cz-conventional-changelog"
+      "path": "./node_modules/cz-lerna-changelog"
     }
-  }
+  },
+  "dependencies": {}
 }

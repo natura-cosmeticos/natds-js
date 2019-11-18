@@ -1,0 +1,88 @@
+{
+  "name": "@naturacosmeticos/natds-docs",
+  "version": "0.0.1",
+  "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "main": "dist/index.js",
+  "keywords": [
+    "design-system"
+  ],
+  "author": "Vizir Software Studio <contato@vizir.com.br>",
+  "contributors": [
+    "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
+    "Vagner Saraiva <vagner@vizir.com.br>",
+    "Matheus Robert Lichtnow <matheus@vizir.com.br>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/natura-cosmeticos/natds/packages/docs",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/natds.git",
+    "directory": "packages/docs"
+  },
+  "private": true,
+  "scripts": {
+    "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
+    "build": "build-storybook -o dist --docs",
+    "start": "NODE_ENV=development start-storybook -p 5000",
+    "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
+    "deploy:local": "yarn deploy --dry-run",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "verify": "yarn lint"
+  },
+  "devDependencies": {
+    "@babel/core": "7.7.2",
+    "@babel/plugin-proposal-class-properties": "^7.5.5",
+    "@babel/plugin-proposal-object-rest-spread": "^7.6.2",
+    "@babel/preset-flow": "^7.0.0",
+    "@babel/preset-react": "^7.6.3",
+    "@babel/preset-typescript": "7.7.2",
+    "@storybook/addon-a11y": "5.2.6",
+    "@storybook/addon-backgrounds": "5.2.6",
+    "@storybook/addon-docs": "5.2.6",
+    "@storybook/addon-jest": "5.2.6",
+    "@storybook/addon-knobs": "5.2.6",
+    "@storybook/addon-storysource": "5.2.6",
+    "@storybook/addon-viewport": "5.2.6",
+    "@storybook/react": "5.2.6",
+    "@storybook/source-loader": "5.2.6",
+    "@storybook/storybook-deployer": "2.8.1",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "@types/storybook__react": "4.0.2",
+    "babel-loader": "8.0.6",
+    "css-loader": "3.2.0",
+    "file-loader": "^4.2.0",
+    "react-docgen-typescript": "1.15.1",
+    "react-docgen-typescript-loader": "3.3.0",
+    "sass-loader": "8.0.0",
+    "style-loader": "1.0.0",
+    "ts-loader": "6.2.1",
+    "tsconfig-paths-webpack-plugin": "3.2.0",
+    "tslint": "5.20.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-config-standard": "9.0.0",
+    "tslint-react": "4.1.0",
+    "typescript": "3.7.2",
+    "url-loader": "^2.2.0",
+    "yarn": "1.19.1"
+  },
+  "dependencies": {
+    "@material-ui/icons": "4.5.1",
+    "@naturacosmeticos/natds-rn": "^0.0.1",
+    "@naturacosmeticos/natds-styles": "^0.0.1",
+    "@naturacosmeticos/natds-web": "^0.0.1",
+    "@types/react-native": "^0.60.19",
+    "directory-tree": "2.2.4",
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2",
+    "react-native": "^0.61.2",
+    "react-native-paper": "^3.2.1",
+    "react-native-vector-icons": "^6.6.0",
+    "react-native-web": "^0.11.7"
+  },
+  "storybook-deployer": {
+    "gitUsername": "Vizir Software Studio",
+    "gitEmail": "contato@vizir.com.br",
+    "commitMessage": "Deploy NatDS Storybook to GitHub Pages"
+  }
+}

@@ -1,0 +1,72 @@
+{
+  "name": "@naturacosmeticos/natds-web",
+  "version": "0.0.1",
+  "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "design-system"
+  ],
+  "author": "Vizir Software Studio <contato@vizir.com.br>",
+  "contributors": [
+    "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
+    "Vagner Saraiva <vagner@vizir.com.br>",
+    "Matheus Robert Lichtnow <matheus@vizir.com.br>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/natura-cosmeticos/natds/packages/web",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/natds.git",
+    "directory": "packages/web"
+  },
+  "scripts": {
+    "test:unit": "jest",
+    "test:unit:watch": "yarn test:unit --watch",
+    "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
+    "test:unit:coverage:open": "open coverage/lcov-report/index.html",
+    "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
+    "test": "yarn test:unit:coverage -u",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "build:clean": "rm -rf ./dist",
+    "build": "yarn build:clean && tsc -p ./tsconfig.json",
+    "start": "yarn build -w",
+    "watch": "yarn start",
+    "verify": "yarn lint && yarn test"
+  },
+  "dependencies": {
+    "@material-ui/core": "4.6.1",
+    "@naturacosmeticos/natds-styles": "^0.0.1"
+  },
+  "peerDependencies": {
+    "react": "^16.10.2",
+    "react-dom": "^16.10.2"
+  },
+  "devDependencies": {
+    "@types/chai": "4.2.5",
+    "@types/chai-enzyme": "0.6.7",
+    "@types/chai-jest-snapshot": "1.3.5",
+    "@types/enzyme": "3.10.3",
+    "@types/enzyme-adapter-react-16": "1.0.5",
+    "@types/jest": "24.0.23",
+    "@types/react": "16.9.11",
+    "@types/react-dom": "16.9.4",
+    "@types/sinon": "7.5.0",
+    "chai": "4.2.0",
+    "chai-enzyme": "1.0.0-beta.1",
+    "chai-jest-snapshot": "2.0.0",
+    "enzyme": "3.10.0",
+    "enzyme-adapter-react-16": "1.15.1",
+    "enzyme-to-json": "3.4.3",
+    "jest": "24.9.0",
+    "prettier": "1.19.1",
+    "sinon": "7.5.0",
+    "ts-jest": "24.1.0",
+    "tslint": "5.20.1",
+    "tslint-config-prettier": "1.18.0",
+    "tslint-config-standard": "9.0.0",
+    "tslint-react": "4.1.0",
+    "typescript": "3.7.2",
+    "yarn": "1.19.1"
+  }
+}

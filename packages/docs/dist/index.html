@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>Storybook</title>
+  </head>
+  <body></body>
+  <script>
+    fetch('./versions_config.json')
+      .then(async res => {
+        const releases = await res.json();
+        window.location.href = `/releases/${releases[0].versions[0]}`;
+      })
+      .catch(err => console.error(err));
+  </script>
+</html>
