@@ -1,10 +1,8 @@
 {
   "dark": false,
   "roundness": 4,
-  "spacing": 8,
   "colors": {
     "primary": "#6200ee",
-    "secondary": "#03dac4",
     "accent": "#03dac4",
     "background": "rgba(0, 0, 0, 0.5)",
     "surface": "#ffffff",
@@ -15,7 +13,8 @@
     "disabled": "rgba(0, 0, 0, 0.26)",
     "placeholder": "rgba(0, 0, 0, 0.54)",
     "backdrop": "rgba(0, 0, 0, 0.5)",
-    "notification": "#f50057"
+    "notification": "#f50057",
+    "secondary": "#03dac4"
   },
   "fonts": {
     "regular": {
@@ -38,6 +37,7 @@
   "animation": {
     "scale": 1
   },
+  "spacing": 8,
   "typography": {
     "h1": {
       "fontSize": "6rem",
