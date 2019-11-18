@@ -14,19 +14,20 @@ cache:
 branches:
   only:
     - master
-    - /v\d+\.\d+\.\d+$/   # Milestone branch pattern for vM.m.p
+    - /v\d+\.\d+\.\d+$/ # Milestone branch pattern for vM.m.p
     - /^feature\/(.+)$/
 
 jobs:
   include:
     - stage: Unit Tests
       if: type = pull_request
-      script: yarn verify
+      script: yarn verify && cd packages/docs && yarn test:build && cd ../..
     - stage: Bump Alpha Version
       if: branch =~ /v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
       script: chmod +x scripts/bump-alpha-version.sh &&  scripts/bump-alpha-version.sh
     - stage: Build Alpha Storybook Version
       if: branch =~ /v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
       script: chmod +x scripts/build-pre-release.sh && scripts/build-pre-release.sh
-
-
+    - stage: Bump Production Version and Deploy to NPM
+      if: branch = master AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message = Publish)
+      script: chmod +x scripts/bump-production-version.sh && scripts/bump-production-version.sh && chmod +x scripts/build-release.sh && scripts/build-release.sh
