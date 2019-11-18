@@ -21,7 +21,7 @@ jobs:
   include:
     - stage: Unit Tests
       if: type = pull_request
-      script: yarn verify && cd packages/docs && yarn test:build && cd ../..
+      script: yarn verify
     - stage: Bump Alpha Version
       if: branch =~ /v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
       script: chmod +x scripts/bump-alpha-version.sh &&  scripts/bump-alpha-version.sh
