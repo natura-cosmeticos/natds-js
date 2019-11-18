@@ -22,7 +22,7 @@ describe('Avatar', () => {
 
     test('should match to snapshot - Default Icon', () => {
       const component = renderer
-        .create(<Avatar type="icon" label="" icon="" source={{}} />)
+        .create(<Avatar type="icon" label="" icon="delete" source={{}} />)
         .toJSON();
       expect(component).toMatchSnapshot('Default Avatar type icon snapshot');
     });
