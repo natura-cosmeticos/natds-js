@@ -4,7 +4,7 @@ import { Surface, StyleProp, ViewStyle, TextStyle } from 'react-native';
 import { IconSource } from 'react-native-paper/lib/typescript/src/components/Icon';
 import { IThemeShape } from 'Provider/IThemeShape';
 
-type ColorType = 'primary' | 'secondary';
+type ColorType = 'primary' | 'secondary' | 'default';
 
 declare type ButtonProps = React.ComponentProps<typeof Surface> & {
   /**
@@ -83,22 +83,28 @@ const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
   props: Omit<ButtonProps, 'height' | 'width'>
 ) => {
   const { theme } = props;
-  let color = theme.colors.text;
-  let borderColor = theme.colors.primary;
-  let style = {};
-
   const themeColors = {
     primary: theme.colors.primary,
-    secondary: theme.colors.accent,
+    secondary: theme.colors.secondary,
+    disabled: theme.colors.disabled,
+    text: theme.colors.text,
+    default: '#E0E0E0',
   };
-  if (props.mode !== 'outlined') {
-    color = themeColors.primary;
-    borderColor = themeColors.primary;
-  }
+  let color = themeColors.primary;
+  let borderColor = theme.colors.primary;
+  let style = {};
 
   if (props.colorType) {
     color = themeColors[props.colorType];
     borderColor = themeColors[props.colorType];
+  }
+
+  if (props.mode === 'outlined') {
+    color = themeColors.text;
+  }
+
+  if (props.mode === 'text' && props.colorType === 'default') {
+    color = themeColors.text;
   }
 
   if (props.elevation) {
@@ -106,8 +112,8 @@ const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
   }
 
   if (props.disabled) {
-    color = 'rgba(0, 0, 0, 0.32)';
-    borderColor = 'rgba(0, 0, 0, 0.32)';
+    color = themeColors.disabled;
+    borderColor = themeColors.disabled;
     style = {};
   }
 

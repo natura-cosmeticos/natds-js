@@ -29,6 +29,7 @@ const mode: any = {
 const colors: any = {
   primary: 'primary',
   secondary: 'secondary',
+  default: 'default',
 };
 
 export const Interactive = () => (
@@ -46,6 +47,7 @@ export const Interactive = () => (
 export const Text = () => (
   <Button
     onPress={() => {}}
+    colorType={select('colors', colors, colors.primary)}
     children={text('children', 'Button Component')}
     mode={mode.text}
   />
@@ -54,6 +56,7 @@ export const Text = () => (
 export const Outlined = () => (
   <Button
     onPress={() => {}}
+    colorType={select('colors', colors, colors.primary)}
     children={text('children', 'Button Component')}
     mode={mode.outlined}
   />
@@ -62,6 +65,7 @@ export const Outlined = () => (
 export const Contained = () => (
   <Button
     onPress={() => {}}
+    colorType={select('colors', colors, colors.primary)}
     children={text('children', 'Button Component')}
     mode={mode.contained}
   />
