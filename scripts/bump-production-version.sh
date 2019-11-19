@@ -47,4 +47,20 @@ git push -f -u origin master
 
 git push origin --tags -q || true
 
-yarn publish
+echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" >> .npmrc
+
+cp .npmrc packages/styles
+
+cp .npmrc packages/web
+
+cp .npmrc packages/mobile
+
+yarn publish --yes
+
+rm -rf .npmrc
+
+rm -rf packages/styles/.npmrc
+
+rm -rf packages/web/.npmrc
+
+rm -rf packages/mobile/.npmrc
