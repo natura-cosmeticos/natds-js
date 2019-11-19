@@ -1,8 +1,10 @@
 import React from 'react';
 import { expect } from 'chai';
 import renderer from 'react-test-renderer';
+import { shallow } from 'enzyme';
 
 import Avatar from '../Components/Avatar';
+import { themes } from '@naturacosmeticos/natds-styles';
 
 const label = 'A';
 
@@ -33,7 +35,7 @@ describe('Avatar component', () => {
     });
   });
 
-  describe('rendering avatars', () => {
+  describe('rendering avatars types', () => {
     test('should match snapshot - Avatar with initials', () => {
       const component = renderer.create(<Avatar>AB</Avatar>).toJSON();
 
@@ -51,6 +53,66 @@ describe('Avatar component', () => {
       const component = renderer.create(<Avatar src={image} />).toJSON();
 
       expect(component).to.matchSnapshot('Avatar with initials snapshot');
+    });
+  });
+
+  describe('rendering avatars sizes', () => {
+    test('should match snapshot - Avatar tiny', () => {
+      const component = renderer.create(<Avatar size="tiny" />).toJSON();
+
+      expect(component).to.matchSnapshot('Avatar tiny snapshot');
+    });
+
+    test('should match snapshot - Avatar small', () => {
+      const component = renderer.create(<Avatar size="small" />).toJSON();
+
+      expect(component).to.matchSnapshot('Avatar small snapshot');
+    });
+
+    test('should match snapshot - Avatar standard', () => {
+      const component = renderer.create(<Avatar size="standard" />).toJSON();
+
+      expect(component).to.matchSnapshot('Avatar standard snapshot');
+    });
+
+    test('should match snapshot - Avatar large', () => {
+      const component = renderer.create(<Avatar size="large" />).toJSON();
+
+      expect(component).to.matchSnapshot('Avatar large snapshot');
+    });
+
+    test('should match snapshot - Avatar xlarge', () => {
+      const component = renderer.create(<Avatar size="xlarge" />).toJSON();
+
+      expect(component).to.matchSnapshot('Avatar xlarge snapshot');
+    });
+
+    test('should not apply width and height if without theme', () => {
+      const theme = {};
+      const component = shallow(<Avatar theme={theme} />);
+
+      expect(component.dive().prop('style')).to.equal(undefined);
+    });
+
+    test('should apply standard width and height if with theme', () => {
+      const theme = themes.natura.light;
+      const component = shallow(<Avatar theme={theme} />);
+
+      expect(component.dive().prop('style')).to.deep.equal({
+        width: `${theme.avatarSizes.standard}px`,
+        height: `${theme.avatarSizes.standard}px`
+      });
+    });
+
+    test('should apply chosen width and height if with theme', () => {
+      const theme = themes.natura.light;
+      const size = 'large';
+      const component = shallow(<Avatar theme={theme} size={size} />);
+
+      expect(component.dive().prop('style')).to.deep.equal({
+        width: `${theme.avatarSizes[size]}px`,
+        height: `${theme.avatarSizes[size]}px`
+      });
     });
   });
 });

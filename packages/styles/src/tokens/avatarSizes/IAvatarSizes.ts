@@ -1,7 +1,7 @@
 export default interface IAvatarSizes {
-  spacingTiny: number;
-  spacingSmall: number;
-  spacingStandard: number;
-  spacingLarge: number;
-  spacingXLarge: number;
+  tiny: number;
+  small: number;
+  standard: number;
+  large: number;
+  xlarge: number;
 }

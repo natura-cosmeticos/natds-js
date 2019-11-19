@@ -1,6 +1,41 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Avatar component rendering avatars should match snapshot - Avatar with icon: Avatar with icon snapshot 1`] = `
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar large: Avatar large snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="large"
+/>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar small: Avatar small snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="small"
+/>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar standard: Avatar standard snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="standard"
+/>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar tiny: Avatar tiny snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="tiny"
+/>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar xlarge: Avatar xlarge snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="xlarge"
+/>
+`;
+
+exports[`Avatar component rendering avatars types should match snapshot - Avatar with icon: Avatar with icon snapshot 1`] = `
 <div
   className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
 >
@@ -8,7 +43,7 @@ exports[`Avatar component rendering avatars should match snapshot - Avatar with 
 </div>
 `;
 
-exports[`Avatar component rendering avatars should match snapshot - Avatar with image: Avatar with initials snapshot 1`] = `
+exports[`Avatar component rendering avatars types should match snapshot - Avatar with image: Avatar with initials snapshot 1`] = `
 <div
   className="MuiAvatar-root MuiAvatar-circle"
 >
@@ -19,7 +54,7 @@ exports[`Avatar component rendering avatars should match snapshot - Avatar with 
 </div>
 `;
 
-exports[`Avatar component rendering avatars should match snapshot - Avatar with initials: Avatar with initials snapshot 1`] = `
+exports[`Avatar component rendering avatars types should match snapshot - Avatar with initials: Avatar with initials snapshot 1`] = `
 <div
   className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
 >

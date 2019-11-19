@@ -1,9 +1,9 @@
 import IAvatarSizes from './IAvatarSizes';
 
 export const avatarSizes: IAvatarSizes = {
-  spacingTiny: 24,
-  spacingSmall: 32,
-  spacingStandard: 40,
-  spacingLarge: 48,
-  spacingXLarge: 80
+  tiny: 24,
+  small: 32,
+  standard: 40,
+  large: 48,
+  xlarge: 80
 };
