@@ -2,6 +2,7 @@ import {
   themes as styleThemes,
   ITheme,
   IFont,
+  IAvatarSizes,
 } from '@naturacosmeticos/natds-styles';
 
 export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette'> {
@@ -28,6 +29,10 @@ export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette'> {
     caption?: IFont;
     overline?: IFont;
   };
+}
+
+export interface IThemeShape extends IThemeWeb {
+  avatarSizes: IAvatarSizes;
 }
 
 function parseTheme(theme: ITheme): IThemeWeb {
