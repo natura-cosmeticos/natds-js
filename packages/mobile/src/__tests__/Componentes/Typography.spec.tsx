@@ -51,6 +51,7 @@ describe('Typography', () => {
     const theme = themes.natura.light;
     theme.typography.h1 = {
       fontSize: '27rem',
+      fontWeight: 300
     };
 
     const component = renderer.create(
@@ -73,6 +74,7 @@ describe('Typography', () => {
     const theme = themes.natura.light;
     theme.typography.h1 = {
       fontSize: '27',
+      fontWeight: 300
     };
 
     const component = renderer.create(

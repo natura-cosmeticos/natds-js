@@ -156,7 +156,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h1.fontFamily,
-        fontWeight: defaultTypography.h1.fontWeight,
+        fontWeight: typography.h1 ? typography.h1.fontWeight : defaultTypography.h1.fontWeight,
       },
       h2: {
         fontSize: typography.h2
@@ -165,7 +165,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h2.fontFamily,
-        fontWeight: defaultTypography.h2.fontWeight,
+        fontWeight: typography.h2 ? typography.h2.fontWeight : defaultTypography.h2.fontWeight,
       },
       h3: {
         fontSize: typography.h3
@@ -174,7 +174,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h3.fontFamily,
-        fontWeight: defaultTypography.h3.fontWeight,
+        fontWeight: typography.h3 ? typography.h3.fontWeight : defaultTypography.h3.fontWeight,
       },
       h4: {
         fontSize: typography.h4
@@ -183,7 +183,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h4.fontFamily,
-        fontWeight: defaultTypography.h4.fontWeight,
+        fontWeight: typography.h4 ? typography.h4.fontWeight : defaultTypography.h4.fontWeight,
       },
       h5: {
         fontSize: typography.h5
@@ -192,7 +192,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h5.fontFamily,
-        fontWeight: defaultTypography.h5.fontWeight,
+        fontWeight: typography.h5 ? typography.h5.fontWeight : defaultTypography.h5.fontWeight,
       },
       h6: {
         fontSize: typography.h6
@@ -201,7 +201,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h6.fontFamily,
-        fontWeight: defaultTypography.h6.fontWeight,
+        fontWeight: typography.h6 ? typography.h6.fontWeight : defaultTypography.h6.fontWeight,
       },
       body1: {
         fontSize: typography.body1
@@ -210,7 +210,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.body1.fontFamily,
-        fontWeight: defaultTypography.body1.fontWeight,
+        fontWeight: typography.body1 ? typography.body1.fontWeight : defaultTypography.body1.fontWeight,
       },
       body2: {
         fontSize: typography.body2
@@ -219,7 +219,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.body2.fontFamily,
-        fontWeight: defaultTypography.body2.fontWeight,
+        fontWeight: typography.body2 ? typography.body2.fontWeight : defaultTypography.body2.fontWeight,
       },
       subtitle1: {
         fontSize: typography.subtitle1
@@ -228,7 +228,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.subtitle1.fontFamily,
-        fontWeight: defaultTypography.subtitle1.fontWeight,
+        fontWeight: typography.subtitle1 ? typography.subtitle1.fontWeight : defaultTypography.subtitle1.fontWeight,
       },
       subtitle2: {
         fontSize: typography.subtitle2
@@ -237,7 +237,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.subtitle2.fontFamily,
-        fontWeight: defaultTypography.subtitle2.fontWeight,
+        fontWeight: typography.subtitle2 ? typography.subtitle2.fontWeight : defaultTypography.subtitle2.fontWeight,
       },
       caption: {
         fontSize: typography.caption
@@ -246,7 +246,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.caption.fontFamily,
-        fontWeight: defaultTypography.caption.fontWeight,
+        fontWeight: typography.caption ? typography.caption.fontWeight : defaultTypography.caption.fontWeight,
       },
       overline: {
         fontSize: typography.overline
@@ -255,7 +255,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.overline.fontFamily,
-        fontWeight: defaultTypography.overline.fontWeight,
+        fontWeight: typography.overline ? typography.overline.fontWeight : defaultTypography.overline.fontWeight,
         textTransform: defaultTypography.overline.textTransform,
       },
       button: {
@@ -265,7 +265,7 @@ export function buildTheme(
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.button.fontFamily,
-        fontWeight: defaultTypography.button.fontWeight,
+        fontWeight: typography.button ? typography.button.fontWeight : defaultTypography.button.fontWeight,
         textTransform: defaultTypography.button.textTransform,
       },
     },
