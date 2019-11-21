@@ -23,13 +23,13 @@ import { Button } from '@naturacosmeticos/natds-rn';
   <Provider theme={themes.natura.light}>
     <div style={{ padding: '20px' }}>
       <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
-        <Button children="Enabled" mode="contained" onPress={() => {}} />
+        <Button children="Enabled" mode="contained" elevation={3} onPress={() => {}} />
       </div>
       <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
         <Button children="Disabled" mode="contained" disabled />
       </div>
       <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
-        <Button children="Icon" mode="text" icon="delete" onPress={() => {}} />
+        <Button children="Icon" mode="text" icon="delete" elevation={3} onPress={() => {}} />
       </div>
     </div>
   </Provider>
@@ -43,12 +43,12 @@ import { Button } from '@naturacosmeticos/natds-rn';
   <Provider theme={themes.natura.light}>
     <div style={{ padding: '20px' }}>
       <div style={{ width: '120px', float: 'left', marginRight: '20px' }}>
-        <Button children="Contained" mode="contained" onPress={() => {}} />
+        <Button children="Contained" mode="contained" elevation={3} onPress={() => {}} />
       </div>
       <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
         <Button children="Outlined" mode="outlined" onPress={() => {}} />
       </div>
-      <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
+      <div style={{ width: '80px', float: 'left', marginRight: '20px' }}>
         <Button children="Text" mode="text" onPress={() => {}} />
       </div>
     </div>
@@ -63,13 +63,13 @@ import { Button } from '@naturacosmeticos/natds-rn';
   <Provider theme={themes.natura.light}>
     <div style={{ padding: '20px' }}>
       <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
-        <Button children="Primary" mode="contained" colorType="primary" onPress={() => {}} />
+        <Button children="Primary" mode="contained" colorType="primary" elevation={3} onPress={() => {}} />
       </div>
       <div style={{ width: '130px', float: 'left', marginRight: '20px' }}>
-        <Button children="Secondary" mode="contained" colorType="secondary" onPress={() => {}} />
+        <Button children="Secondary" mode="contained" colorType="secondary" elevation={3} onPress={() => {}} />
       </div>
       <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
-        <Button children="Default" mode="contained" onPress={() => {}} />
+        <Button children="Default" mode="contained" colorType="default" elevation={3} onPress={() => {}} />
       </div>
     </div>
   </Provider>

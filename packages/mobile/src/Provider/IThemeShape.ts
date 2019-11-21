@@ -12,6 +12,7 @@ export interface IThemeShape extends Theme {
   roundness: number;
   colors: {
     primary: string;
+    secondary: string;
     background: string;
     surface: string;
     accent: string;
