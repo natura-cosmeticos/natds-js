@@ -29,11 +29,12 @@ function withSizes(size: AvatarSizes | undefined = 'standard', theme: any = {}) 
   if (!avatarSizes) return {};
 
   const value = avatarSizes[size];
-  const sizeInPx = `${value}px`;
+  const sizeInPx = `${value.size}px`;
 
   return {
     width: sizeInPx,
-    height: sizeInPx
+    height: sizeInPx,
+    fontSize: value.fontSize
   };
 }
 

@@ -21,15 +21,10 @@ export default {
   },
 };
 
-const variant: any = {
-  circle: 'circle',
-  rounded: 'rounded',
-  square: 'square',
-};
-
 const source: any = {
   image: require('../../assets/images/1.png'),
   anonymous: require('../../assets/images/avatar.png'),
+  none: null
 };
 
 const sizes: any = {
@@ -46,17 +41,10 @@ const colors: any = {
   default: 'default',
 };
 
-const types: any = {
-  image: 'image',
-  icon: 'icon',
-  text: 'XD',
-};
-
 export const Interactive = () => (
   <Avatar
     alt={text('alt', 'XD')}
     src={select('source', source, source.image)}
-    variant={select('variant', variant, variant.circle)}
     size={select('size', sizes, sizes.xlarge)}
     color={select('color', colors, colors.primary)}
     children={text('children', 'XD')}
@@ -67,8 +55,7 @@ export const Image = () => (
   <Avatar
     src={source.image}
     alt={text('alt', 'Some alt image text')}
-    variant={select('variant', variant, variant.circle)}
-    size={select('size', sizes, sizes.xlarge)}
+    size={select('size', sizes, sizes.tiny)}
   />
 );
 
@@ -76,7 +63,6 @@ export const Anonymous = () => (
   <Avatar
     src={source.anonymous}
     alt={text('alt', 'Some alt image text')}
-    variant={select('variant', variant, variant.circle)}
     size={select('size', sizes, sizes.xlarge)}
     color={select('color', colors, colors.primary)}
   />
@@ -86,17 +72,6 @@ export const Text = () => (
   <Avatar
     children="AB"
     alt={text('alt', 'Some alt image text')}
-    variant={select('variant', variant, variant.circle)}
-    size={select('size', sizes, sizes.xlarge)}
-    color={select('color', colors, colors.primary)}
-  />
-);
-
-export const Icon = () => (
-  <Avatar
-    children={<Delete />}
-    alt={text('alt', 'Some alt image text')}
-    variant={select('variant', variant, variant.circle)}
     size={select('size', sizes, sizes.xlarge)}
     color={select('color', colors, colors.primary)}
   />

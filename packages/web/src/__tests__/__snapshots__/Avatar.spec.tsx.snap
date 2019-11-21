@@ -6,6 +6,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   style={
     Object {
       "background": "#F4AB34",
+      "fontSize": "1rem",
       "height": "40px",
       "width": "40px",
     }
@@ -13,13 +14,33 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   theme={
     Object {
       "avatarSizes": Object {
-        "large": 48,
-        "small": 32,
-        "standard": 40,
-        "tiny": 24,
-        "xlarge": 80,
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
       },
       "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -171,6 +192,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   style={
     Object {
       "background": "#F4AB34",
+      "fontSize": "1rem",
       "height": "40px",
       "width": "40px",
     }
@@ -178,13 +200,33 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   theme={
     Object {
       "avatarSizes": Object {
-        "large": 48,
-        "small": 32,
-        "standard": 40,
-        "tiny": 24,
-        "xlarge": 80,
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
       },
       "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -336,6 +378,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   style={
     Object {
       "background": "#FF6B0B",
+      "fontSize": "1rem",
       "height": "40px",
       "width": "40px",
     }
@@ -343,13 +386,33 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   theme={
     Object {
       "avatarSizes": Object {
-        "large": 48,
-        "small": 32,
-        "standard": 40,
-        "tiny": 24,
-        "xlarge": 80,
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
       },
       "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -501,6 +564,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   style={
     Object {
       "background": "#F4AB34",
+      "fontSize": "1rem",
       "height": "48px",
       "width": "48px",
     }
@@ -508,13 +572,33 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   theme={
     Object {
       "avatarSizes": Object {
-        "large": 48,
-        "small": 32,
-        "standard": 40,
-        "tiny": 24,
-        "xlarge": 80,
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
       },
       "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -666,6 +750,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   style={
     Object {
       "background": "#F4AB34",
+      "fontSize": ".875rem",
       "height": "32px",
       "width": "32px",
     }
@@ -673,13 +758,33 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   theme={
     Object {
       "avatarSizes": Object {
-        "large": 48,
-        "small": 32,
-        "standard": 40,
-        "tiny": 24,
-        "xlarge": 80,
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
       },
       "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -831,6 +936,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   style={
     Object {
       "background": "#F4AB34",
+      "fontSize": "1rem",
       "height": "40px",
       "width": "40px",
     }
@@ -838,13 +944,33 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   theme={
     Object {
       "avatarSizes": Object {
-        "large": 48,
-        "small": 32,
-        "standard": 40,
-        "tiny": 24,
-        "xlarge": 80,
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
       },
       "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -996,6 +1122,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   style={
     Object {
       "background": "#F4AB34",
+      "fontSize": ".625rem",
       "height": "24px",
       "width": "24px",
     }
@@ -1003,13 +1130,33 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   theme={
     Object {
       "avatarSizes": Object {
-        "large": 48,
-        "small": 32,
-        "standard": 40,
-        "tiny": 24,
-        "xlarge": 80,
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
       },
       "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -1161,6 +1308,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   style={
     Object {
       "background": "#F4AB34",
+      "fontSize": "1.5rem",
       "height": "80px",
       "width": "80px",
     }
@@ -1168,13 +1316,33 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   theme={
     Object {
       "avatarSizes": Object {
-        "large": 48,
-        "small": 32,
-        "standard": 40,
-        "tiny": 24,
-        "xlarge": 80,
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
       },
       "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",

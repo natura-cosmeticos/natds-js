@@ -1,7 +1,12 @@
 export default interface IAvatarSizes {
-  tiny: number;
-  small: number;
-  standard: number;
-  large: number;
-  xlarge: number;
+  tiny: IAvatarProperties;
+  small: IAvatarProperties;
+  standard: IAvatarProperties;
+  large: IAvatarProperties;
+  xlarge: IAvatarProperties;
+}
+
+interface IAvatarProperties {
+  size: number;
+  fontSize: string;
 }

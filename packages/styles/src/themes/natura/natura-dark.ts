@@ -67,6 +67,11 @@ export const naturaDark: ITheme = {
         fontSize: '0.875rem',
         minHeight: '48px'
       }
+    },
+    MuiAvatar: {
+      colorDefault: {
+        color: natura.grayscale.colorBrdNatGray
+      }
     }
   }
 };
