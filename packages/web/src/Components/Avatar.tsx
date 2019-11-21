@@ -3,13 +3,13 @@ import MaterialAvatar, { AvatarProps as MaterialAvatarProps } from '@material-ui
 
 import { withTheme } from '@material-ui/styles';
 import { IAvatarSizes } from '@naturacosmeticos/natds-styles';
-import { IThemeShape } from 'Themes';
+import { IThemeWeb } from 'Themes';
 
 export type AvatarSizes = 'tiny' | 'small' | 'standard' | 'large' | 'xlarge';
 
 interface IAvatarProps extends MaterialAvatarProps {
   size?: AvatarSizes;
-  theme: IThemeShape | unknown;
+  theme: IThemeWeb | unknown;
 }
 
 const Avatar: FunctionComponent<IAvatarProps> = (props: IAvatarProps) => {
