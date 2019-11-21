@@ -58,11 +58,11 @@ describe('Avatar', () => {
         typography: undefined,
         animation: undefined,
         avatarSizes: {
-          tiny: 24,
-          small: 32,
-          standard: 40,
-          large: 48,
-          xlarge: 80,
+          tiny: { size: 24, fontSize: '.625rem' },
+          small: { size: 32, fontSize: '.875rem' },
+          standard: { size: 40, fontSize: '1rem' },
+          large: { size: 48, fontSize: '1rem' },
+          xlarge: { size: 80, fontSize: '1.5rem' },
         },
       };
 

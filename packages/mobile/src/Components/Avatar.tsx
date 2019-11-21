@@ -60,7 +60,7 @@ function withSizes(
   const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
   if (!avatarSizes) return {};
 
-  return { size: avatarSizes[size] };
+  return { size: avatarSizes[size].size };
 }
 
 const Avatar: React.FunctionComponent<Omit<AvatarProps, 'height' | 'width'>> = (
