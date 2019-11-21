@@ -57,61 +57,94 @@ describe('Avatar component', () => {
   });
 
   describe('rendering avatars sizes', () => {
-    test('should match snapshot - Avatar tiny', () => {
-      const component = renderer.create(<Avatar size="tiny" />).toJSON();
+    let theme:any;
 
-      expect(component).to.matchSnapshot('Avatar tiny snapshot');
+    beforeEach(() => {
+      theme = themes.natura.light;
     });
 
-    test('should match snapshot - Avatar small', () => {
-      const component = renderer.create(<Avatar size="small" />).toJSON();
+    test('should match snapshot - Avatar Size tiny', () => {
+      const component = renderer.create(<Avatar size="tiny" theme={theme} />).toJSON();
 
-      expect(component).to.matchSnapshot('Avatar small snapshot');
+      expect(component).to.matchSnapshot('Avatar Size tiny snapshot');
     });
 
-    test('should match snapshot - Avatar standard', () => {
-      const component = renderer.create(<Avatar size="standard" />).toJSON();
+    test('should match snapshot - Avatar Size small', () => {
+      const component = renderer.create(<Avatar size="small" theme={theme} />).toJSON();
 
-      expect(component).to.matchSnapshot('Avatar standard snapshot');
+      expect(component).to.matchSnapshot('Avatar Size small snapshot');
     });
 
-    test('should match snapshot - Avatar large', () => {
-      const component = renderer.create(<Avatar size="large" />).toJSON();
+    test('should match snapshot - Avatar Size standard', () => {
+      const component = renderer.create(<Avatar size="standard" theme={theme} />).toJSON();
 
-      expect(component).to.matchSnapshot('Avatar large snapshot');
+      expect(component).to.matchSnapshot('Avatar Size standard snapshot');
     });
 
-    test('should match snapshot - Avatar xlarge', () => {
-      const component = renderer.create(<Avatar size="xlarge" />).toJSON();
+    test('should match snapshot - Avatar Size large', () => {
+      const component = renderer.create(<Avatar size="large" theme={theme} />).toJSON();
 
-      expect(component).to.matchSnapshot('Avatar xlarge snapshot');
+      expect(component).to.matchSnapshot('Avatar Size large snapshot');
+    });
+
+    test('should match snapshot - Avatar Size xlarge', () => {
+      const component = renderer.create(<Avatar size="xlarge" theme={theme} />).toJSON();
+
+      expect(component).to.matchSnapshot('Avatar Size xlarge snapshot');
     });
 
     test('should not apply width and height if without theme', () => {
-      const theme = {};
-      const component = shallow(<Avatar theme={theme} />);
+      const component = shallow(<Avatar theme={{}} />);
 
-      expect(component.dive().prop('style')).to.equal(undefined);
+      expect(component.dive().prop('style')).to.deep.equal({});
     });
 
-    test('should apply standard width and height if with theme', () => {
-      const theme = themes.natura.light;
+    test('should apply standard size as default', () => {
       const component = shallow(<Avatar theme={theme} />);
 
-      expect(component.dive().prop('style')).to.deep.equal({
+      expect(component.dive().prop('style')).to.deep.include({
         width: `${theme.avatarSizes.standard}px`,
         height: `${theme.avatarSizes.standard}px`
       });
     });
+  });
 
-    test('should apply chosen width and height if with theme', () => {
-      const theme = themes.natura.light;
-      const size = 'large';
-      const component = shallow(<Avatar theme={theme} size={size} />);
+  describe('rendering avatars colors', () => {
+    let theme:any;
 
-      expect(component.dive().prop('style')).to.deep.equal({
-        width: `${theme.avatarSizes[size]}px`,
-        height: `${theme.avatarSizes[size]}px`
+    beforeEach(() => {
+      theme = themes.natura.light;
+    });
+
+    test('should match snapshot - Avatar Color primary', () => {
+      const component = renderer.create(<Avatar theme={theme} color="primary" />).toJSON();
+
+      expect(component).to.matchSnapshot('Avatar Color primary snapshot');
+    });
+
+    test('should match snapshot - Avatar Color secondary', () => {
+      const component = renderer.create(<Avatar theme={theme} color="secondary" />).toJSON();
+
+      expect(component).to.matchSnapshot('Avatar Color secondary snapshot');
+    });
+
+    test('should match snapshot - Avatar Color default', () => {
+      const component = renderer.create(<Avatar theme={theme} />).toJSON();
+
+      expect(component).to.matchSnapshot('Avatar Color default snapshot');
+    });
+
+    test('should not apply background if without theme', () => {
+      const component = shallow(<Avatar theme={{}} />);
+
+      expect(component.dive().prop('style')).to.deep.equal({});
+    });
+
+    test('should apply primary color as default', () => {
+      const component = shallow(<Avatar theme={theme} />);
+
+      expect(component.dive().prop('style')).to.deep.include({
+        background: theme.palette.primary.main
       });
     });
   });

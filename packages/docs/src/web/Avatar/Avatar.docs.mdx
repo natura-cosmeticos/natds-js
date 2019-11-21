@@ -100,9 +100,10 @@ import { Avatar } from '@naturacosmeticos/natds-web';
 | alt                       | string                                          |                                                | Used in combination with src or srcSet to provide an alt attribute for the rendered img element.
 | children                  | node                                            |                                                | Used to render icon or text elements inside the Avatar if src is not set.This can be an element, or just a string.
 | classes                   | object                                          |                                                | Override or extend the styles applied to the component.See CSS API below for more details.
+| color *                   | string                                          | 'primary', 'secondary', 'default', string      | The color of the Avatar, using the tokens from the currrent theme, or a custom css color.
 | component                 | elementType                                     | 'div'                                          | The component used for the root node.Either a string to use a DOM element or a component.
 | imgProps                  | object                                          |                                                | Attributes applied to the img element if the component is used to display an image.
-| size                      | string                                          | 'tiny', 'small', 'standard', 'large', 'xlarge' | The possible sizes of the Avatar *
+| size *                    | string                                          | 'tiny', 'small', 'standard', 'large', 'xlarge' | The possible sizes of the Avatar
 | sizes                     | string                                          |                                                | The sizes attribute for the img element.
 | src                       | string                                          |                                                | The src attribute for the img element.
 | srcSet                    | string                                          |                                                | The srcSet attribute for the img element.

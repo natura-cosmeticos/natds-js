@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { number, select, text } from '@storybook/addon-knobs';
+import { number, select, text, color } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 import { Delete } from '@material-ui/icons';
@@ -30,6 +30,7 @@ const variant: any = {
 const source: any = {
   image: require('../../assets/images/1.jpg'),
   anonymous: require('../../assets/images/avatar.jpg'),
+  none: null
 };
 
 const sizes: any = {
@@ -40,27 +41,64 @@ const sizes: any = {
   xlarge: 'xlarge',
 };
 
+const colors: any = {
+  primary: 'primary',
+  secondary: 'secondary',
+  default: 'default'
+};
+
+const types: any = {
+  image: 'image',
+  icon: 'icon',
+  text: 'XD',
+};
+
 export const Interactive = () => (
   <Avatar
-    alt={text('alt', 'Some alt image text')}
+    alt={text('alt', 'XD')}
     src={select('source', source, source.image)}
+    variant={select('variant', variant, variant.circle)}
+    size={select('size', sizes, sizes.xlarge)}
+    color={select('color', colors, colors.primary)}
+    children={text('children', 'XD')}
+  />
+);
+
+export const Image = () => (
+  <Avatar
+    src={source.image}
+    alt={text('alt', 'Some alt image text')}
     variant={select('variant', variant, variant.circle)}
     size={select('size', sizes, sizes.xlarge)}
   />
 );
 
-export const Image = () => (
-  <Avatar src={source.image} />
-);
-
 export const Anonymous = () => (
-  <Avatar src={source.anonymous} />
+  <Avatar
+    src={source.anonymous}
+    alt={text('alt', 'Some alt image text')}
+    variant={select('variant', variant, variant.circle)}
+    size={select('size', sizes, sizes.xlarge)}
+    color={select('color', colors, colors.primary)}
+  />
 );
 
 export const Text = () => (
-  <Avatar children='AB' />
+  <Avatar
+    children='AB'
+    alt={text('alt', 'Some alt image text')}
+    variant={select('variant', variant, variant.circle)}
+    size={select('size', sizes, sizes.xlarge)}
+    color={select('color', colors, colors.primary)}
+  />
 );
 
 export const Icon = () => (
-  <Avatar children={<Delete />} />
+  <Avatar
+    children={<Delete />}
+    alt={text('alt', 'Some alt image text')}
+    variant={select('variant', variant, variant.circle)}
+    size={select('size', sizes, sizes.xlarge)}
+    color={select('color', colors, colors.primary)}
+  />
 );
