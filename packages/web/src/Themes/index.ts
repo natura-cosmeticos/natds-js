@@ -4,7 +4,7 @@ import {
   IFont,
 } from '@naturacosmeticos/natds-styles';
 
-export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette'> {
+export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes'> {
   typography: {
     fontFamily?: string;
     fontFamilyBrand1?: string;

@@ -1,4 +1,5 @@
-import { fontSize } from "../tokens/fontSize/fontSize";
+import { fontSize } from '../tokens/fontSize/fontSize';
+import IAvatarSizes from '../tokens/avatarSizes/IAvatarSizes';
 
 type ITypography = {
   web: {
@@ -38,7 +39,7 @@ export interface ITheme {
     borderRadius?: number;
   };
   palette?: {
-    type?: "light" | "dark";
+    type?: 'light' | 'dark';
     primary?: {
       main: string;
       light?: string;
@@ -69,6 +70,7 @@ export interface ITheme {
     };
   };
   typography: ITypography;
+  avatarSizes: IAvatarSizes;
   spacing: number;
   overrides?: any;
 }
