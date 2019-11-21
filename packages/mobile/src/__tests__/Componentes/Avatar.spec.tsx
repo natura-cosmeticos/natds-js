@@ -3,6 +3,7 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { Avatar } from '../../index';
+import { IThemeShape } from '../../Provider/IThemeShape';
 
 describe('Avatar', () => {
   describe('rendering', () => {
@@ -27,11 +28,57 @@ describe('Avatar', () => {
       expect(component).toMatchSnapshot('Default Avatar type icon snapshot');
     });
 
-    test('should match to snapshot - Size', () => {
+    test('should match to snapshot - AvatarSize Default', () => {
       const component = renderer
-        .create(<Avatar type="image" label="" icon="" source={{}} size={18} />)
+        .create(<Avatar type="image" label="" icon="" source={{}} />)
         .toJSON();
-      expect(component).toMatchSnapshot('Size Avatar snapshot');
+      expect(component).toMatchSnapshot('AvatarSize Default Avatar snapshot');
+    });
+
+    test('should match to snapshot - AvatarSize XLarge', () => {
+      const mockTheme: IThemeShape = {
+        dark: false,
+        roundness: 0,
+        colors: {
+          primary: '',
+          secondary: '',
+          background: '',
+          surface: '',
+          accent: '',
+          error: '',
+          text: '',
+          onSurface: '',
+          onBackground: '',
+          disabled: '',
+          placeholder: '',
+          backdrop: '',
+          notification: '',
+        },
+        fonts: undefined,
+        typography: undefined,
+        animation: undefined,
+        avatarSizes: {
+          tiny: 24,
+          small: 32,
+          standard: 40,
+          large: 48,
+          xlarge: 80,
+        },
+      };
+
+      const component = renderer
+        .create(
+          <Avatar
+            type="image"
+            label=""
+            icon=""
+            source={{}}
+            theme={mockTheme}
+            avatarSizes="xlarge"
+          />
+        )
+        .toJSON();
+      expect(component).toMatchSnapshot('AvatarSize XLarge Avatar snapshot');
     });
 
     test('should match to snapshot - Style', () => {

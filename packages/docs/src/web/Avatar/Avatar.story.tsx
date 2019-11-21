@@ -28,9 +28,8 @@ const variant: any = {
 };
 
 const source: any = {
-  image: require('../../assets/images/1.jpg'),
-  anonymous: require('../../assets/images/avatar.jpg'),
-  none: null
+  image: require('../../assets/images/1.png'),
+  anonymous: require('../../assets/images/avatar.png'),
 };
 
 const sizes: any = {
@@ -44,7 +43,7 @@ const sizes: any = {
 const colors: any = {
   primary: 'primary',
   secondary: 'secondary',
-  default: 'default'
+  default: 'default',
 };
 
 const types: any = {
@@ -85,7 +84,7 @@ export const Anonymous = () => (
 
 export const Text = () => (
   <Avatar
-    children='AB'
+    children="AB"
     alt={text('alt', 'Some alt image text')}
     variant={select('variant', variant, variant.circle)}
     size={select('size', sizes, sizes.xlarge)}
