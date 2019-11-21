@@ -3,7 +3,7 @@ import { Fonts } from 'react-native-paper/lib/typescript/src/types';
 
 export interface IFontMobile {
   fontFamily: string;
-  fontSize: string;
+  fontSize: number;
   fontWeight: number;
 }
 
@@ -16,7 +16,10 @@ export interface IThemeShape extends Theme {
     surface: string;
     accent: string;
     error: string;
+    success: string;
     text: string;
+    textSecondary: string;
+    textHint: string;
     onSurface: string;
     onBackground: string;
     disabled: string;

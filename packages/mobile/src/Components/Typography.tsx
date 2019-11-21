@@ -61,15 +61,6 @@ interface ITypographyProps {
   acessible?: boolean;
 }
 
-const remToPx = (rem: string): number => {
-  rem = String(rem);
-  if (rem.includes('rem')) {
-    const remValue = rem.split('rem')[0];
-    return Number(remValue) * 16;
-  } else {
-    return Number(rem);
-  }
-};
 
 const Typography: React.FunctionComponent<ITypographyProps> = (
   props: ITypographyProps
@@ -86,8 +77,8 @@ const Typography: React.FunctionComponent<ITypographyProps> = (
 
   let textStyle: any = typography
     ? typography[variant]
-    : { fontSize: '1rem', fontWeight: 300 };
-  textStyle.fontSize = React.useMemo(() => remToPx(textStyle.fontSize), [
+    : { fontSize: 16, fontWeight: 300 };
+  textStyle.fontSize = React.useMemo(() => textStyle.fontSize, [
     props.style,
     props.theme,
     props.variant,

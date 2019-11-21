@@ -1,0 +1,9 @@
+.mobile__text__field__container {
+  display: flex;
+  flex-grow: 1;
+  max-width: 360px;
+}
+
+.mobile__text__field__container input {
+  outline: none;
+}

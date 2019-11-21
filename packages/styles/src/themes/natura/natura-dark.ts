@@ -29,13 +29,16 @@ export const naturaDark: ITheme = {
       main: natura.complementary.colorBrdNatCpRed2,
       contrastText: natura.grayscale.colorBrdNatGray
     },
+    success: {
+      main: natura.complementary.colorBrdNatCpGreen1
+    },
     background: {
       paper: '#222222',
       default: natura.primary.colorBrdNatPrimaryWhite
     },
     text: {
       primary: natura.grayscale.colorBrdNatGray,
-      secondary: natura.grayscale.colorBrdNatGray,
+      secondary: natura.grayscale.colorBrdNatGray1,
       disabled: natura.grayscale.colorBrdNatGray3,
       hint: natura.grayscale.colorBrdNatGray2
     }
