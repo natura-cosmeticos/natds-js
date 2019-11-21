@@ -17,7 +17,7 @@ import { Avatar } from '@naturacosmeticos/natds-rn';
   type="image"
   label=""
   icon=""
-  source={require('../../assets/images/avatar.jpg')}
+  source={require('../../assets/images/avatar.png')}
 />;
 ```
 
@@ -34,7 +34,7 @@ import { Avatar } from '@naturacosmeticos/natds-rn';
           type="image"
           label=""
           icon=""
-          source={require('../../assets/images/1.jpg')}
+          source={require('../../assets/images/1.png')}
         />
       </div>
       <div style={{ width: '70px', float: 'left', marginRight: '20px' }}>
@@ -42,7 +42,7 @@ import { Avatar } from '@naturacosmeticos/natds-rn';
           type="image"
           label=""
           icon=""
-          source={require('../../assets/images/avatar.jpg')}
+          source={require('../../assets/images/avatar.png')}
         />
       </div>
       <div style={{ width: '70px', float: 'left', marginRight: '20px' }}>
@@ -69,40 +69,49 @@ import { Avatar } from '@naturacosmeticos/natds-rn';
 <Preview>
   <Provider theme={themes.natura.light}>
     <div style={{ padding: '20px' }}>
-      <div style={{ width: '70px', float: 'left', marginRight: '20px' }}>
+      <div style={{float: 'left', marginRight: '20px' }}>
         <Avatar
           type="image"
           label=""
           icon=""
-          source={require('../../assets/images/1.jpg')}
-          size={64}
+          source={require('../../assets/images/1.png')}
+          avatarSizes="tiny"
         />
       </div>
-      <div style={{ width: '35px', float: 'left', marginRight: '20px' }}>
+      <div style={{ float: 'left', marginRight: '20px' }}>
         <Avatar
           type="image"
           label=""
           icon=""
-          source={require('../../assets/images/1.jpg')}
-          size={32}
+          source={require('../../assets/images/1.png')}
+          avatarSizes="small"
         />
       </div>
-      <div style={{ width: '18px', float: 'left', marginRight: '20px' }}>
+      <div style={{ float: 'left', marginRight: '20px' }}>
         <Avatar
           type="image"
           label=""
           icon=""
-          source={require('../../assets/images/1.jpg')}
-          size={16}
+          source={require('../../assets/images/1.png')}
+          avatarSizes="standard"
         />
       </div>
-      <div style={{ width: '9px', float: 'left', marginRight: '20px' }}>
+      <div style={{ float: 'left', marginRight: '20px' }}>
         <Avatar
           type="image"
           label=""
           icon=""
-          source={require('../../assets/images/1.jpg')}
-          size={8}
+          source={require('../../assets/images/1.png')}
+          avatarSizes="large"
+        />
+      </div>
+      <div style={{ float: 'left', marginRight: '20px' }}>
+        <Avatar
+          type="image"
+          label=""
+          icon=""
+          source={require('../../assets/images/1.png')}
+          avatarSizes="xlarge"
         />
       </div>
     </div>
@@ -114,9 +123,8 @@ import { Avatar } from '@naturacosmeticos/natds-rn';
 | type *                    | 'image', 'text', 'icon'                         |                               | Type of Avatar (image, text or icon).
 | label **                  | string                                          |                               | Initials to show as the text in the `Avatar`. Use only in Text Type.
 | icon **                   | IconSource                                      |                               | Icon to display for the `Avatar`. Use only in Icon Type.
-| size                      | number                                          | 64                            | Size of the avatar.
+| avatarSizes               | 'tiny', 'small', 'standard', 'large', 'xlarge'  | 'standard'                    | The possible sizes of the Avatar *
 | style                     | object                                          |                               | React Native style object.
 | theme                     | IThemeMobile                                    |                               | Overridable theme provided from the Provider component
 | color                     | string                                          |                               | Custom color for the text.
 | labelStyle                | object                                          |                               | Style for the title. Use only in Text Type.
-
