@@ -100,11 +100,13 @@ describe('Avatar component', () => {
     });
 
     test('should apply standard size as default', () => {
+      const { standard: { size, fontSize } } = theme.avatarSizes;
       const component = shallow(<Avatar theme={theme} />);
 
       expect(component.dive().prop('style')).to.deep.include({
-        width: `${theme.avatarSizes.standard}px`,
-        height: `${theme.avatarSizes.standard}px`
+        width: `${size}px`,
+        height: `${size}px`,
+        fontSize
       });
     });
   });

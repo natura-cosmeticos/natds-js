@@ -1,7 +1,6 @@
 import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import { Avatar, Provider, themes } from '@naturacosmeticos/natds-web';
 import { withTheme } from '../../../addons/theme/provider';
-import { Delete } from '@material-ui/icons';
 
 # Avatar
 
@@ -35,9 +34,6 @@ import { Avatar } from '@naturacosmeticos/natds-web';
       </div>
       <div style={{ marginRight: '20px' }}>
         <Avatar children="XD" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar children={<Delete />} />
       </div>
     </div>
   </Provider>
@@ -86,6 +82,21 @@ import { Avatar } from '@naturacosmeticos/natds-web';
       </div>
       <div style={{ marginRight: '20px' }}>
         <Avatar src={require('../../assets/images/1.png')} size="xlarge" />
+      </div>
+      <div style={{ marginRight: '20px' }}>
+        <Avatar children="XD" size="tiny" />
+      </div>
+      <div style={{ marginRight: '20px' }}>
+        <Avatar children="XD" size="small" />
+      </div>
+      <div style={{ marginRight: '20px' }}>
+        <Avatar children="XD" size="standard" />
+      </div>
+      <div style={{ marginRight: '20px' }}>
+        <Avatar children="XD" size="large" />
+      </div>
+      <div style={{ marginRight: '20px' }}>
+        <Avatar children="XD" size="xlarge" />
       </div>
     </div>
   </Provider>
