@@ -24,6 +24,7 @@ export default {
 const source: any = {
   image: require('../../assets/images/1.png'),
   anonymous: require('../../assets/images/avatar.png'),
+  none: null
 };
 
 const sizes: any = {
@@ -38,12 +39,6 @@ const colors: any = {
   primary: 'primary',
   secondary: 'secondary',
   default: 'default',
-};
-
-const types: any = {
-  image: 'image',
-  icon: 'icon',
-  text: 'XD',
 };
 
 export const Interactive = () => (
