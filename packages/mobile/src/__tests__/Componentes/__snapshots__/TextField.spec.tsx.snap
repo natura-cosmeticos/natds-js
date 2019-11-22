@@ -41,6 +41,7 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
           "color": "#333333",
           "elevation": 1,
           "flex": 1,
+          "fontSize": 14,
           "padding": 8,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",
@@ -138,6 +139,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
           "color": "#333333",
           "elevation": 1,
           "flex": 1,
+          "fontSize": 14,
           "padding": 8,
           "paddingRight": 0,
           "shadowColor": "#E74627",
@@ -193,209 +195,438 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
 </View>
 `;
 
-exports[`TextField rendering should match to snapshot - Placeholder Text Color: Placeholder Text Color TextField snapshot 1`] = `
+exports[`TextField rendering should match to snapshot - Icon Font Size Default TextField snapshot: Icon Font Size Default TextField snapshot 1`] = `
 <View
-  collapsable={false}
-  pointerEvents="box-none"
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
   style={
     Object {
-      "flex": 1,
+      "flexGrow": 1,
     }
   }
 >
   <View
-    accessible={true}
-    focusable={true}
-    onClick={[Function]}
-    onResponderGrant={[Function]}
-    onResponderMove={[Function]}
-    onResponderRelease={[Function]}
-    onResponderTerminate={[Function]}
-    onResponderTerminationRequest={[Function]}
-    onStartShouldSetResponder={[Function]}
     style={
       Object {
-        "flexGrow": 1,
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "position": "relative",
       }
     }
   >
-    <View
+    <TextInput
+      allowFontScaling={true}
+      icon="eye"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      selectionColor="#F4AB34"
       style={
         Object {
-          "alignItems": "center",
+          "borderRadius": 4,
+          "color": "#333333",
+          "elevation": 1,
           "flex": 1,
-          "flexDirection": "row",
-          "justifyContent": "flex-end",
-          "position": "relative",
+          "fontSize": 14,
+          "padding": 8,
+          "paddingRight": 32,
+          "shadowColor": "#BBBBBB",
+          "shadowOpacity": 1,
+          "shadowRadius": 2,
+          "width": "100%",
         }
       }
-    >
-      <TextInput
-        allowFontScaling={true}
-        onBlur={[Function]}
-        onFocus={[Function]}
-        placeholderTextColor="#FFFFFF"
-        rejectResponderTermination={true}
-        selectionColor="#F4AB34"
-        style={
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
           Object {
-            "borderRadius": 4,
-            "color": "#333333",
-            "elevation": 1,
-            "flex": 1,
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#777777",
+            "fontSize": 16,
             "padding": 8,
-            "paddingRight": 0,
-            "shadowColor": "#BBBBBB",
-            "shadowOpacity": 1,
-            "shadowRadius": 2,
-            "width": "100%",
-          }
-        }
-        theme={
+            "position": "absolute",
+          },
           Object {
-            "animation": Object {
-              "scale": 1,
-            },
-            "avatarSizes": Object {
-              "large": Object {
-                "fontSize": "1rem",
-                "size": 48,
-              },
-              "small": Object {
-                "fontSize": ".875rem",
-                "size": 32,
-              },
-              "standard": Object {
-                "fontSize": "1rem",
-                "size": 40,
-              },
-              "tiny": Object {
-                "fontSize": ".625rem",
-                "size": 24,
-              },
-              "xlarge": Object {
-                "fontSize": "1.5rem",
-                "size": 80,
-              },
-            },
-            "colors": Object {
-              "accent": "#FF6B0B",
-              "backdrop": "rgba(0, 0, 0, 0.5)",
-              "background": "#FFFFFF",
-              "disabled": "#EEEEEE",
-              "error": "#E74627",
-              "notification": "#f50057",
-              "onBackground": "#333333",
-              "onSurface": "#777777",
-              "placeholder": "#BBBBBB",
-              "primary": "#F4AB34",
-              "secondary": "#FF6B0B",
-              "success": "#569A32",
-              "surface": "#FAFAFA",
-              "text": "#333333",
-              "textHint": "#BBBBBB",
-              "textSecondary": "#777777",
-            },
-            "dark": false,
-            "fonts": Object {
-              "light": Object {
-                "fontFamily": "System",
-                "fontWeight": "300",
-              },
-              "medium": Object {
-                "fontFamily": "System",
-                "fontWeight": "500",
-              },
-              "regular": Object {
-                "fontFamily": "System",
-                "fontWeight": "400",
-              },
-              "thin": Object {
-                "fontFamily": "System",
-                "fontWeight": "300",
-              },
-            },
-            "roundness": 4,
-            "spacing": 8,
-            "typography": Object {
-              "body1": Object {
-                "fontFamily": "System",
-                "fontSize": 16,
-                "fontWeight": 400,
-              },
-              "body2": Object {
-                "fontFamily": "System",
-                "fontSize": 14,
-                "fontWeight": 400,
-              },
-              "button": Object {
-                "fontFamily": "System",
-                "fontSize": 14,
-                "fontWeight": 600,
-                "textTransform": "uppercase",
-              },
-              "caption": Object {
-                "fontFamily": "System",
-                "fontSize": 12,
-                "fontWeight": 400,
-              },
-              "h1": Object {
-                "fontFamily": "System",
-                "fontSize": 96,
-                "fontWeight": 300,
-              },
-              "h2": Object {
-                "fontFamily": "System",
-                "fontSize": 60,
-                "fontWeight": 300,
-              },
-              "h3": Object {
-                "fontFamily": "System",
-                "fontSize": 48,
-                "fontWeight": 400,
-              },
-              "h4": Object {
-                "fontFamily": "System",
-                "fontSize": 34,
-                "fontWeight": 400,
-              },
-              "h5": Object {
-                "fontFamily": "System",
-                "fontSize": 24,
-                "fontWeight": 400,
-              },
-              "h6": Object {
-                "fontFamily": "System",
-                "fontSize": 20,
-                "fontWeight": 600,
-              },
-              "overline": Object {
-                "fontFamily": "System",
-                "fontSize": 12,
-                "fontWeight": 400,
-                "textTransform": "uppercase",
-              },
-              "subtitle1": Object {
-                "fontFamily": "System",
-                "fontSize": 16,
-                "fontWeight": 400,
-              },
-              "subtitle2": Object {
-                "fontFamily": "System",
-                "fontSize": 14,
-                "fontWeight": 500,
-              },
-            },
-          }
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Not Editable TextField snapshot: Not Editable TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={false}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      selectionColor="#F4AB34"
+      style={
+        Object {
+          "borderRadius": 4,
+          "color": "#BBBBBB",
+          "elevation": 1,
+          "flex": 1,
+          "fontSize": 14,
+          "padding": 8,
+          "paddingRight": 0,
+          "shadowColor": "#BBBBBB",
+          "shadowOpacity": 1,
+          "shadowRadius": 2,
+          "width": "100%",
         }
-        underlineColorAndroid="transparent"
-      />
-    </View>
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Placeholder Text Color: Placeholder Text Color TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#FFFFFF"
+      rejectResponderTermination={true}
+      selectionColor="#F4AB34"
+      style={
+        Object {
+          "borderRadius": 4,
+          "color": "#333333",
+          "elevation": 1,
+          "flex": 1,
+          "fontSize": 14,
+          "padding": 8,
+          "paddingRight": 0,
+          "shadowColor": "#BBBBBB",
+          "shadowOpacity": 1,
+          "shadowRadius": 2,
+          "width": "100%",
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
   </View>
 </View>
 `;
 
 exports[`TextField rendering should match to snapshot - Required: Required TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#777777",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "marginBottom": 2,
+        "textAlign": undefined,
+      }
+    }
+  >
+    Label *
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      label="Label"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      required={true}
+      selectionColor="#F4AB34"
+      style={
+        Object {
+          "borderRadius": 4,
+          "color": "#333333",
+          "elevation": 1,
+          "flex": 1,
+          "fontSize": 14,
+          "padding": 8,
+          "paddingRight": 0,
+          "shadowColor": "#BBBBBB",
+          "shadowOpacity": 1,
+          "shadowRadius": 2,
+          "width": "100%",
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Selection Color TextField snapshot: Selection Color TextField snapshot 1`] = `
 <View
   accessible={true}
   focusable={true}
@@ -429,14 +660,14 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
-      required={true}
-      selectionColor="#F4AB34"
+      selectionColor="#FFFFFF"
       style={
         Object {
           "borderRadius": 4,
           "color": "#333333",
           "elevation": 1,
           "flex": 1,
+          "fontSize": 14,
           "padding": 8,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",
@@ -534,6 +765,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
           "color": "#333333",
           "elevation": 1,
           "flex": 1,
+          "fontSize": 14,
           "padding": 8,
           "paddingRight": 0,
           "shadowColor": "#569A32",
@@ -581,6 +813,192 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
             },
           },
           "roundness": 4,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Theme with missing properties: Theme with missing properties TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      rejectResponderTermination={true}
+      selectionColor="#6200ee"
+      style={
+        Object {
+          "borderRadius": 4,
+          "color": "#000000",
+          "elevation": 1,
+          "flex": 1,
+          "fontSize": 14,
+          "padding": 8,
+          "paddingRight": 0,
+          "shadowColor": undefined,
+          "shadowOpacity": 1,
+          "shadowRadius": 2,
+          "width": "100%",
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "avatarSizes": Object {
+            "large": Object {
+              "fontSize": "1rem",
+              "size": 48,
+            },
+            "small": Object {
+              "fontSize": ".875rem",
+              "size": 32,
+            },
+            "standard": Object {
+              "fontSize": "1rem",
+              "size": 40,
+            },
+            "tiny": Object {
+              "fontSize": ".625rem",
+              "size": 24,
+            },
+            "xlarge": Object {
+              "fontSize": "1.5rem",
+              "size": 80,
+            },
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "overrides": Object {
+            "MuiAvatar": Object {
+              "colorDefault": Object {
+                "color": "#333333",
+              },
+            },
+            "MuiButton": Object {
+              "outlinedPrimary": Object {
+                "color": "#333333",
+              },
+              "outlinedSecondary": Object {
+                "color": "#333333",
+              },
+              "root": Object {
+                "fontSize": "0.875rem",
+                "minHeight": "40px",
+                "padding": "8px 16px",
+              },
+              "sizeLarge": Object {
+                "fontSize": "0.875rem",
+                "minHeight": "48px",
+              },
+              "sizeSmall": Object {
+                "fontSize": "0.875rem",
+                "minHeight": "32px",
+              },
+            },
+          },
+          "palette": Object {
+            "background": Object {
+              "default": "#FFFFFF",
+              "paper": "#FAFAFA",
+            },
+            "error": Object {
+              "contrastText": "#333333",
+              "main": "#E74627",
+            },
+            "primary": Object {
+              "contrastText": "#333333",
+              "dark": "#EF8426",
+              "light": "#FEFDE8",
+              "main": "#F4AB34",
+            },
+            "secondary": Object {
+              "contrastText": "#333333",
+              "dark": "#FF6B0B",
+              "light": "#FFF8E1",
+              "main": "#FF6B0B",
+            },
+            "success": Object {
+              "main": "#569A32",
+            },
+            "text": Object {
+              "disabled": "#EEEEEE",
+              "hint": "#BBBBBB",
+              "primary": "#333333",
+              "secondary": "#777777",
+            },
+            "type": "light",
+          },
+          "roundness": 4,
+          "shape": Object {
+            "borderRadius": 4,
+          },
+          "spacing": undefined,
+          "typography": Object {
+            "body1": undefined,
+            "body2": undefined,
+          },
         }
       }
       underlineColorAndroid="transparent"
@@ -639,6 +1057,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
             "color": "#333333",
             "elevation": 1,
             "flex": 1,
+            "fontSize": 14,
             "padding": 8,
             "paddingRight": 0,
             "shadowColor": "#BBBBBB",
@@ -832,6 +1251,7 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
           "color": "#333333",
           "elevation": 1,
           "flex": 1,
+          "fontSize": 14,
           "padding": 8,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",
@@ -943,6 +1363,7 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
           "color": "#333333",
           "elevation": 1,
           "flex": 1,
+          "fontSize": 14,
           "padding": 8,
           "paddingRight": 32,
           "shadowColor": "#BBBBBB",
@@ -1079,6 +1500,7 @@ exports[`TextField rendering should match to snapshot - With label: With label T
           "color": "#333333",
           "elevation": 1,
           "flex": 1,
+          "fontSize": 14,
           "padding": 8,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",

@@ -94,7 +94,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     required = false,
     placeholderTextColor: propPlaceholderTextColor,
     selectionColor: propSelectionColor,
-    editable,
+    editable = true,
     disabledStyle,
     value,
     status,
@@ -130,7 +130,8 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           width: '100%',
           color: theme.colors.text,
           flex: 1,
-          caretColor: selectionColor
+          caretColor: selectionColor,
+          fontSize: theme.typography.body2 ? theme.typography.body2.fontSize : 14
         } as TextStyle & { caretColor: string; },
         theme: {
           shadowColor: theme.colors.textHint,
@@ -323,7 +324,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   };
 
   const parsedInputStyle = React.useCallback((): TextStyle => {
-    if(editable !== undefined && editable !== null && !editable) {
+    if(!editable) {
       return {
         ...styles.input.default,
         ...styles.input.disabled,
@@ -346,7 +347,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   },[editable, disabledStyle, inputStyle, textInputStyle, status, icon]);
 
   const parsedLabelStyle = React.useCallback((): TextStyle => {
-    if(editable !== undefined && editable !== null && !editable) {
+    if(!editable) {
       return {
         ...styles.label.default,
         ...styles.label.disabled,
@@ -369,7 +370,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   },[editable, disabledStyle, labelStyle, propLabelStyle, status]);
 
   const parsedHelpTextStyle = React.useCallback((): TextStyle => {
-    if(editable !== undefined && editable !== null && !editable) {
+    if(!editable) {
       return {
         ...styles.helpText.default,
         ...styles.helpText.disabled,
@@ -392,7 +393,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   },[editable, disabledStyle, helpTextStyle, propHelpTextStyle, status]);
 
   const parseIconStyle = React.useCallback((): TextStyle => {
-    if(editable !== undefined && editable !== null && !editable) {
+    if(!editable) {
       return {
         ...styles.icon.default,
         ...styles.icon.disabled,
@@ -422,7 +423,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   delete textInputProps.helpText;
 
   return (
-  <TouchableWithoutFeedback onPress={() => textInput.current.focus()} >
+  <TouchableWithoutFeedback onPress={() => textInput.current.focus()}>
     <View style={{flexGrow: 1}}>
       {!!label &&
         <Typography variant="subtitle2" style={parsedLabelStyle()}>
