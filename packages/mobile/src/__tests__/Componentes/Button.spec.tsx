@@ -33,6 +33,15 @@ describe('Button', () => {
       expect(component).toMatchSnapshot('Mode Text button snapshot');
     });
 
+    test('should match to snapshot - Mode Text Default Color', () => {
+      const component = renderer
+        .create(<Button children mode="text" colorType="default" />)
+        .toJSON();
+      expect(component).toMatchSnapshot(
+        'Mode Text Default Color button snapshot'
+      );
+    });
+
     test('should match to snapshot - Icon', () => {
       const component = renderer
         .create(<Button children icon="camera" />)

@@ -4,7 +4,7 @@ import { Chip } from '@naturacosmeticos/natds-rn';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 import { text, boolean, select } from '@storybook/addon-knobs';
-import avatar from '../../assets/images/avatar.jpg';
+import avatar from '../../assets/images/avatar.png';
 
 export default {
   title: 'Mobile|Chip',
@@ -13,13 +13,13 @@ export default {
   parameters: {
     jestImportPath: 'mobile',
     jest: ['Chip'],
-    theme: 'mobile'
-  }
+    theme: 'mobile',
+  },
 };
 
 const mode: any = {
   outlined: 'outlined',
-  flat: 'flat'
+  flat: 'flat',
 };
 
 export const Default = () => (

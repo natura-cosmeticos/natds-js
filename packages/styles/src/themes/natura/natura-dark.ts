@@ -3,6 +3,7 @@ import { ITheme } from '../ITheme';
 import { typography } from './typography';
 import { fontSize } from '../../tokens/fontSize/fontSize';
 import { spacing } from '../../tokens/spacing/spacing';
+import { avatarSizes } from '../../tokens/avatarSizes/avatarSizes';
 
 const { natura } = tokens.colors;
 
@@ -10,6 +11,7 @@ export const naturaDark: ITheme = {
   shape: {
     borderRadius: 4
   },
+  avatarSizes,
   spacing: spacing.spacing,
   palette: {
     type: 'light',
@@ -67,6 +69,11 @@ export const naturaDark: ITheme = {
       sizeLarge: {
         fontSize: '0.875rem',
         minHeight: '48px'
+      }
+    },
+    MuiAvatar: {
+      colorDefault: {
+        color: natura.grayscale.colorBrdNatGray
       }
     }
   }

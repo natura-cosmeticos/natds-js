@@ -1,5 +1,59 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Avatar rendering should match to snapshot - AvatarSize Default: AvatarSize Default Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 32,
+        "height": 64,
+        "width": 64,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - AvatarSize XLarge: AvatarSize XLarge Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "",
+        "borderRadius": 40,
+        "height": 80,
+        "width": 80,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 40,
+        "height": 80,
+        "width": 80,
+      }
+    }
+  />
+</View>
+`;
+
 exports[`Avatar rendering should match to snapshot - Color: Color Avatar snapshot 1`] = `
 <View
   style={
@@ -53,7 +107,7 @@ exports[`Avatar rendering should match to snapshot - Default Icon: Default Avata
     style={
       Array [
         Object {
-          "color": "#ffffff",
+          "color": "#000000",
           "fontSize": 38.4,
         },
         Array [
@@ -77,7 +131,7 @@ exports[`Avatar rendering should match to snapshot - Default Icon: Default Avata
       ]
     }
   >
-    
+    
   </Text>
 </View>
 `;
@@ -143,7 +197,7 @@ exports[`Avatar rendering should match to snapshot - Default Text: Default Avata
             "textAlignVertical": "center",
           },
           Object {
-            "color": "#ffffff",
+            "color": "#000000",
             "fontSize": 32,
             "lineHeight": 64,
           },
@@ -178,33 +232,6 @@ exports[`Avatar rendering should match to snapshot - LabelStyle: LabelStyle Avat
         "borderRadius": 32,
         "height": 64,
         "width": 64,
-      }
-    }
-  />
-</View>
-`;
-
-exports[`Avatar rendering should match to snapshot - Size: Size Avatar snapshot 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "backgroundColor": "#6200ee",
-        "borderRadius": 9,
-        "height": 18,
-        "width": 18,
-      },
-      undefined,
-    ]
-  }
->
-  <Image
-    source={Object {}}
-    style={
-      Object {
-        "borderRadius": 9,
-        "height": 18,
-        "width": 18,
       }
     }
   />
