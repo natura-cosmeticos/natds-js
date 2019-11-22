@@ -112,7 +112,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     : 16;
 
   /**
-   * Note: caretColor prop is for docs purpose only
+   * //Note: caretColor prop is for docs purpose only
    */
   const styles = React.useMemo(() => ({
     input: {
