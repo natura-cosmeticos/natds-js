@@ -8,10 +8,13 @@ import {
   TouchableWithoutFeedback,
   View,
   TextStyle,
+  Platform
 } from 'react-native';
-import { withTheme } from 'react-native-paper';
+import { withTheme, DefaultTheme } from 'react-native-paper';
 import { IThemeShape } from 'Provider/IThemeShape';
 import Typography from '../Components/Typography';
+import { themes } from '../Themes/index';
+import { buildTheme } from '../Themes/buildTheme';
 /**
  * // TODO: Replace the import below to our Icon component
  */
@@ -80,7 +83,7 @@ interface ITextFieldProps extends TextInputProps {
 const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
 
   const {
-    theme,
+    theme: providerTheme,
     textInputStyle,
     onFocus,
     onBlur,
@@ -99,6 +102,10 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     iconStyle: propIconStyle
   } = props;
 
+  const theme = providerTheme !== DefaultTheme
+    ? providerTheme
+    : buildTheme(themes.natura.light, themes.natura.light);
+
   const placeholderTextColor = propPlaceholderTextColor
   ? propPlaceholderTextColor
   : theme.colors.textHint;
@@ -111,117 +118,138 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     ? theme.typography.body1.fontSize
     : 16;
 
-  /**
-   * //Note: caretColor prop is for docs purpose only
-   */
-  const styles = React.useMemo(() => ({
-    input: {
-      default: {
-        borderRadius: theme.roundness,
-        padding: theme.spacing ? theme.spacing : 8,
-        paddingRight: ((theme.spacing ? theme.spacing : 8)
-          * (icon ? 2 : 0))
-          + (icon ? iconFontSize : 0),
-        width: '100%',
-        color: theme.colors.text,
-        flex: 1,
-        caretColor: selectionColor
-      } as TextStyle & { caretColor: string },
-      theme: {
-        borderColor: theme.colors.textHint,
-        borderWidth: 1
-      } as TextStyle,
-      themeFocus: {
-        borderColor: theme.colors.primary,
-        borderWidth: 2
-      } as TextStyle,
-      themeFilled: {
-        borderColor: theme.colors.text,
-        borderWidth: 1
-      } as TextStyle,
-      disabled: {
-        color: theme.colors.textHint,
-        borderColor: theme.colors.textHint,
-        borderWidth: 1
-      } as TextStyle,
-      success: {
-        borderColor: theme.colors.success,
-        borderWidth: 1
-      } as TextStyle,
-      error: {
-        borderColor: theme.colors.error,
-        borderWidth: 1
-      } as TextStyle
-    },
-    label: {
-      default: {
-        marginBottom: 2
-      } as TextStyle,
-      theme: {
-        color: theme.colors.textSecondary
-      } as TextStyle,
-      themeFocus: {
-        color: theme.colors.textSecondary
-      } as TextStyle,
-      disabled: {
-        color: theme.colors.textHint
-      } as TextStyle,
-      success: {
-        color: theme.colors.success
-      } as TextStyle,
-      error: {
-        color: theme.colors.error
+  const styles = React.useMemo(() => {
+    const stylesToParse = {
+      input: {
+        default: {
+          borderRadius: theme.roundness,
+          padding: theme.spacing ? theme.spacing : 8,
+          paddingRight: ((theme.spacing ? theme.spacing : 8)
+            * (icon ? 2 : 0))
+            + (icon ? iconFontSize : 0),
+          width: '100%',
+          color: theme.colors.text,
+          flex: 1,
+          caretColor: selectionColor
+        } as TextStyle & { caretColor: string; },
+        theme: {
+          shadowColor: theme.colors.textHint,
+          shadowOpacity: 1,
+          shadowRadius: 2,
+          elevation: 1
+        } as TextStyle,
+        themeFocus: {
+          shadowColor: theme.colors.primary,
+          shadowOpacity: 1,
+          shadowRadius: 4,
+          elevation: 2
+        } as TextStyle,
+        themeFilled: {
+          shadowColor: theme.colors.text,
+          shadowOpacity: 1,
+          shadowRadius: 2,
+          elevation: 1
+        } as TextStyle,
+        disabled: {
+          color: theme.colors.textHint,
+          shadowColor: theme.colors.textHint,
+          shadowOpacity: 1,
+          shadowRadius: 2,
+          elevation: 1
+        } as TextStyle,
+        success: {
+          shadowColor: theme.colors.success,
+          shadowOpacity: 1,
+          shadowRadius: 2,
+          elevation: 1
+        } as TextStyle,
+        error: {
+          shadowColor: theme.colors.error,
+          shadowOpacity: 1,
+          shadowRadius: 2,
+          elevation: 1
+        } as TextStyle
+      },
+      label: {
+        default: {
+          marginBottom: 2
+        } as TextStyle,
+        theme: {
+          color: theme.colors.textSecondary
+        } as TextStyle,
+        themeFocus: {
+          color: theme.colors.textSecondary
+        } as TextStyle,
+        disabled: {
+          color: theme.colors.textHint
+        } as TextStyle,
+        success: {
+          color: theme.colors.success
+        } as TextStyle,
+        error: {
+          color: theme.colors.error
+        }
+      },
+      helpText: {
+        default: {
+          marginTop: 1
+        } as TextStyle,
+        theme: {
+          color: theme.colors.textSecondary
+        } as TextStyle,
+        themeFocus: {
+          color: theme.colors.textSecondary
+        } as TextStyle,
+        disabled: {
+          color: theme.colors.textHint
+        } as TextStyle,
+        success: {
+          color: theme.colors.success
+        } as TextStyle,
+        error: {
+          color: theme.colors.error
+        }
+      },
+      icon: {
+        default: {
+          padding: theme.spacing ? theme.spacing : 8,
+          position: 'absolute',
+          fontSize: iconFontSize
+        } as TextStyle,
+        theme: {
+          color: theme.colors.textSecondary
+        } as TextStyle,
+        disabled: {
+          color: theme.colors.textHint
+        } as TextStyle,
+        success: {
+          color: theme.colors.success
+        } as TextStyle,
+        error: {
+          color: theme.colors.error
+        }
+      },
+      inputContainer: {
+        default: {
+          flex: 1,
+          flexDirection: 'row',
+          justifyContent: 'flex-end',
+          alignItems: 'center',
+          position: 'relative'
+        } as ViewStyle
       }
-    },
-    helpText: {
-      default: {
-        marginTop: 1
-      } as TextStyle,
-      theme: {
-        color: theme.colors.textSecondary
-      } as TextStyle,
-      themeFocus: {
-        color: theme.colors.textSecondary
-      } as TextStyle,
-      disabled: {
-        color: theme.colors.textHint
-      } as TextStyle,
-      success: {
-        color: theme.colors.success
-      } as TextStyle,
-      error: {
-        color: theme.colors.error
-      }
-    },
-    icon: {
-      default: {
-        padding: theme.spacing ? theme.spacing : 8,
-        position: 'absolute',
-        fontSize: iconFontSize
-      } as TextStyle,
-      theme: {
-        color: theme.colors.textSecondary
-      } as TextStyle,
-      disabled: {
-        color: theme.colors.textHint
-      } as TextStyle,
-      success: {
-        color: theme.colors.success
-      } as TextStyle,
-      error: {
-        color: theme.colors.error
-      }
-    },
-    inputContainer: {
-      default: {
-        flex: 1,
-        flexDirection: 'row',
-        justifyContent: 'flex-end',
-        alignItems: 'center',
-        position: 'relative'
-      } as ViewStyle
+    };
+
+    /**
+     * //Note: caretColor prop is for docs purpose only
+     */
+    const clonedStyles = Object.assign({}, {...stylesToParse});
+    if(Platform.OS !== 'web') {
+      delete clonedStyles.input.default.caretColor;
     }
-  }), [theme]);
+
+    return clonedStyles;
+  }, [theme]);
 
   const [inputStyle, setInputStyle] = React.useState({
     ...styles.input.default,
@@ -315,7 +343,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, inputStyle, textInputStyle, status]);
+  },[editable, disabledStyle, inputStyle, textInputStyle, status, icon]);
 
   const parsedLabelStyle = React.useCallback((): TextStyle => {
     if(editable !== undefined && editable !== null && !editable) {
@@ -385,7 +413,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, propIconStyle, status]);
+  },[editable, disabledStyle, propIconStyle, status, icon]);
 
   /**
    * This is due to the browser complaining about the 'helpText' property on docs
@@ -411,7 +439,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           placeholderTextColor={placeholderTextColor}
           selectionColor={selectionColor}
         />
-        {icon &&  <Icon name={icon} style={parseIconStyle()} />}
+        {!!icon &&  <Icon name={icon} style={parseIconStyle()} />}
       </View>
       {!!helpText &&
         <Typography
