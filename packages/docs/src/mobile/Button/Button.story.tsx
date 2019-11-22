@@ -32,12 +32,19 @@ const colors: any = {
   default: 'default',
 };
 
+const size: any = {
+  small: 'small',
+  medium: 'medium',
+  large: 'large',
+};
+
 export const Interactive = () => (
   <Button
     onPress={() => {}}
     colorType={select('colors', colors, colors.primary)}
-    elevation={number('elevation', 3)}
     mode={select('mode', mode, mode.contained)}
+    size={select('size', size, size.medium)}
+    elevation={number('elevation', 3)}
     icon={boolean('icon', false) ? 'delete' : ''}
     disabled={boolean('disabled', false)}
     children={text('children', 'Button Component')}
@@ -48,8 +55,9 @@ export const Text = () => (
   <Button
     onPress={() => {}}
     colorType={select('colors', colors, colors.primary)}
-    children={text('children', 'Button Component')}
     mode={mode.text}
+    size={select('size', size, size.medium)}
+    children={text('children', 'Button Component')}
   />
 );
 
@@ -57,8 +65,9 @@ export const Outlined = () => (
   <Button
     onPress={() => {}}
     colorType={select('colors', colors, colors.primary)}
-    children={text('children', 'Button Component')}
     mode={mode.outlined}
+    size={select('size', size, size.medium)}
+    children={text('children', 'Button Component')}
   />
 );
 
@@ -66,7 +75,9 @@ export const Contained = () => (
   <Button
     onPress={() => {}}
     colorType={select('colors', colors, colors.primary)}
-    children={text('children', 'Button Component')}
     mode={mode.contained}
+    size={select('size', size, size.medium)}
+    elevation={3}
+    children={text('children', 'Button Component')}
   />
 );
