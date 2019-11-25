@@ -42,14 +42,14 @@ describe('TextField', () => {
     });
     test('should match to snapshot - Sucess status', () => {
       const component = renderer
-          .create(<TextField status="success"/>)
+          .create(<TextField status="success" label="mock" helpText="mock" icon="eye"/>)
           .toJSON();
 
       expect(component).toMatchSnapshot('Sucess status TextField snapshot');
     });
     test('should match to snapshot - Error status', () => {
       const component = renderer
-          .create(<TextField status="error"/>)
+          .create(<TextField status="error" label="mock" helpText="mock" icon="eye"/>)
           .toJSON();
 
       expect(component).toMatchSnapshot('Error status TextField snapshot');
@@ -99,7 +99,7 @@ describe('TextField', () => {
       delete themeClone.typography.body1;
 
       const component = renderer
-          .create(<TextField editable={false} />)
+          .create(<TextField editable={false} label="mock" helpText="mock" icon="eye"/>)
           .toJSON();
 
       expect(component).toMatchSnapshot('Not Editable TextField snapshot');
@@ -115,7 +115,7 @@ describe('TextField', () => {
             body2: undefined
           },
           spacing: undefined
-        } as IThemeShape);
+        } as unknown as IThemeShape);
 
       const component = renderer
           .create(<TextField theme={themeClone}/>)
@@ -161,20 +161,20 @@ describe('TextField', () => {
     test('should call press', () => {
       const focusMock = jest.fn();
 
-      jest.spyOn(React, 'useRef').mockImplementation(() => {
-        return {
-          current: {
-            focus: focusMock
-          }
-        };
+      jest.spyOn(React, 'useRef').mockReturnValue({
+        current: {
+          focus: focusMock
+        }
       });
 
       const component = mount(<TextField/>);
 
-      const propOnPress: () => void = component.find('TouchableWithoutFeedback').first().prop('onPress');
+      const touchable = component.find('TouchableWithoutFeedback').first();
+
+      const propOnPress: () => void = touchable.prop('onPress');
       propOnPress();
 
-      // expect(focusMock).toBeCalledTimes(1);
+      expect(component).toMatchSnapshot('should match to snapshot - Pressed');
     });
   });
 });

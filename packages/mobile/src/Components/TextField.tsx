@@ -245,6 +245,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
      * //Note: caretColor prop is for docs purpose only
      */
     const clonedStyles = Object.assign({}, {...stylesToParse});
+    /* istanbul ignore else  */
     if(Platform.OS !== 'web') {
       delete clonedStyles.input.default.caretColor;
     }
@@ -288,6 +289,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       ...styles.helpText.theme
     });
 
+    /* istanbul ignore else  */
     if(onBlur) {
       onBlur(e);
     }
@@ -310,13 +312,14 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       ...styles.helpText.themeFocus
     });
 
+    /* istanbul ignore else  */
     if(onFocus) {
       onFocus(e);
     }
     textInput.current.focus();
   };
 
-  const textInput = React.useRef(null);
+  const textInput = React.useRef<TextInput>(null);
 
   const styleStatusMap = {
     error: 'errorStyle',
@@ -392,7 +395,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     }
   },[editable, disabledStyle, helpTextStyle, propHelpTextStyle, status]);
 
-  const parseIconStyle = React.useCallback((): TextStyle => {
+  const parsedIconStyle = React.useCallback((): TextStyle => {
     if(!editable) {
       return {
         ...styles.icon.default,
@@ -440,7 +443,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           placeholderTextColor={placeholderTextColor}
           selectionColor={selectionColor}
         />
-        {!!icon &&  <Icon name={icon} style={parseIconStyle()} />}
+        {!!icon &&  <Icon name={icon} style={parsedIconStyle()} />}
       </View>
       {!!helpText &&
         <Typography

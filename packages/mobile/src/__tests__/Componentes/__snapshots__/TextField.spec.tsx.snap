@@ -1,5 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`TextField functional should call press: should match to snapshot - Pressed 1`] = `ReactWrapper {}`;
+
 exports[`TextField rendering should match to snapshot - Default TextField: Default TextField snapshot 1`] = `
 <View
   accessible={true}
@@ -114,6 +116,20 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
     }
   }
 >
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#E74627",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "marginBottom": 2,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mock
+  </Text>
   <View
     style={
       Object {
@@ -127,6 +143,8 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
   >
     <TextInput
       allowFontScaling={true}
+      icon="eye"
+      label="mock"
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
@@ -141,7 +159,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
           "flex": 1,
           "fontSize": 14,
           "padding": 8,
-          "paddingRight": 0,
+          "paddingRight": 32,
           "shadowColor": "#E74627",
           "shadowOpacity": 1,
           "shadowRadius": 2,
@@ -191,7 +209,46 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
       }
       underlineColorAndroid="transparent"
     />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E74627",
+            "fontSize": 16,
+            "padding": 8,
+            "position": "absolute",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
   </View>
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#E74627",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "marginTop": 1,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mock
+  </Text>
 </View>
 `;
 
@@ -335,6 +392,20 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
     }
   }
 >
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#BBBBBB",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "marginBottom": 2,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mock
+  </Text>
   <View
     style={
       Object {
@@ -349,6 +420,8 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
     <TextInput
       allowFontScaling={true}
       editable={false}
+      icon="eye"
+      label="mock"
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
@@ -362,7 +435,7 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
           "flex": 1,
           "fontSize": 14,
           "padding": 8,
-          "paddingRight": 0,
+          "paddingRight": 32,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
           "shadowRadius": 2,
@@ -412,7 +485,46 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
       }
       underlineColorAndroid="transparent"
     />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#BBBBBB",
+            "fontSize": 16,
+            "padding": 8,
+            "position": "absolute",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
   </View>
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#BBBBBB",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "marginTop": 1,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mock
+  </Text>
 </View>
 `;
 
@@ -740,6 +852,20 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
     }
   }
 >
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#569A32",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "marginBottom": 2,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mock
+  </Text>
   <View
     style={
       Object {
@@ -753,6 +879,8 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
   >
     <TextInput
       allowFontScaling={true}
+      icon="eye"
+      label="mock"
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
@@ -767,7 +895,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
           "flex": 1,
           "fontSize": 14,
           "padding": 8,
-          "paddingRight": 0,
+          "paddingRight": 32,
           "shadowColor": "#569A32",
           "shadowOpacity": 1,
           "shadowRadius": 2,
@@ -817,7 +945,46 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
       }
       underlineColorAndroid="transparent"
     />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#569A32",
+            "fontSize": 16,
+            "padding": 8,
+            "position": "absolute",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
   </View>
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#569A32",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "marginTop": 1,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mock
+  </Text>
 </View>
 `;
 
