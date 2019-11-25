@@ -75,6 +75,27 @@ import { Button } from '@naturacosmeticos/natds-rn';
   </Provider>
 </Preview>
 
+***
+***
+## Sizes
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px'}}>
+      <div style={{ float: 'left', marginRight: '20px' }}>
+        <Button children="small" mode="contained" colorType="primary" elevation={3} size="small" onPress={() => {}} />
+      </div>
+      <div style={{ float: 'left', marginRight: '20px' }}>
+        <Button children="medium" mode="contained" colorType="primary" elevation={3} size="medium" onPress={() => {}} />
+      </div>
+      <div style={{ float: 'left', marginRight: '20px' }}>
+        <Button children="large" mode="contained" colorType="primary" elevation={3} size="large" onPress={() => {}} />
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+
 | Name                      | Type                                            | Default                       | Description
 | :--                       | :-:                                             | :-:                           | :-:                       |
 | children *                | node                                            |                               | Label text of the button.
@@ -87,3 +108,4 @@ import { Button } from '@naturacosmeticos/natds-rn';
 | style                     | object                                          |                               | React Native style object.
 | labelStyle                | object                                          |                               | Style for the button text.
 | elevation                 | number                                          |                               | Shadow depth, using to ios/web.
+| size                      | 'small', 'medium', 'large'                      | 'medium'                      | The size of the button. Small is equivalent to the dense button styling.

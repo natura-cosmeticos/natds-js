@@ -17,7 +17,14 @@ export function buildTheme(
   defaultTheme: IThemeMobile
 ): IThemeShape {
   const provider = theme ? theme : defaultTheme;
-  const { palette = {}, shape, typography, spacing, avatarSizes } = provider;
+  const {
+    palette = {},
+    shape,
+    typography,
+    spacing,
+    avatarSizes,
+    buttonSize,
+  } = provider;
 
   const {
     primary: { main: primary } = { main: undefined },
@@ -310,6 +317,7 @@ export function buildTheme(
       },
     },
     avatarSizes,
+    buttonSize,
   };
 
   return newTheme;

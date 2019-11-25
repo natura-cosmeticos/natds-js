@@ -1,5 +1,6 @@
-import { fontSize } from '../tokens/fontSize/fontSize';
-import IAvatarSizes from '../tokens/avatarSizes/IAvatarSizes';
+import { fontSize } from "../tokens/fontSize/fontSize";
+import IAvatarSizes from "../tokens/avatarSizes/IAvatarSizes";
+import IButtonSize from "tokens/buttonSize/IButtonSize";
 
 type ITypography = {
   web: {
@@ -39,7 +40,7 @@ export interface ITheme {
     borderRadius?: number;
   };
   palette?: {
-    type?: 'light' | 'dark';
+    type?: "light" | "dark";
     primary?: {
       main: string;
       light?: string;
@@ -77,6 +78,7 @@ export interface ITheme {
   };
   typography: ITypography;
   avatarSizes: IAvatarSizes;
+  buttonSize: IButtonSize;
   spacing: number;
   overrides?: any;
 }
