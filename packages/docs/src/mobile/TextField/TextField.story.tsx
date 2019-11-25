@@ -2,9 +2,11 @@ import * as React from 'react';
 import { TextField } from '@naturacosmeticos/natds-rn';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import { text, boolean, select } from '@storybook/addon-knobs';
+import { text, boolean, select, number } from '@storybook/addon-knobs';
 
 import './style.scss';
+
+import TextFieldDocs from "./TextField.mdx";
 
 export default {
   title: 'Mobile|TextField',
@@ -14,6 +16,9 @@ export default {
     jestImportPath: 'mobile',
     jest: ['TextField'],
     theme: 'mobile',
+    docs: {
+      page: TextFieldDocs
+    }
   },
 };
 
@@ -34,13 +39,41 @@ export const Interactive = () => {
     <div className="mobile__text__field__container">
       <TextField
         label={text("label", "Label")}
-        helpText={text("helpText", "Help text")}
+        helpText={text("helpText", "Help Text")}
         placeholder={text("placeholder", "Placeholder")}
         required={boolean("required", false)}
         editable={boolean("editable", true)}
         status={select("status", status, undefined)}
         icon={select("icon", icon, undefined)}
+        secureTextEntry={boolean("secureTextEntry", false)}
+        multiline={boolean("multiline", false)}
+        numberOfLines={number("numberOfLines", 1)}
       />
+    </div>
+  );
+};
+
+export const Status = () => {
+  return (
+    <div className="mobile__text__field__wrapper">
+      <div className="mobile__text__field__container">
+        <TextField
+          label="Label"
+          helpText="Help Text"
+          placeholder="Placeholder"
+          status="success"
+          icon="eye"
+        />
+      </div>
+      <div className="mobile__text__field__container">
+        <TextField
+          label="Label"
+          helpText="Help Text"
+          placeholder="Placeholder"
+          status="error"
+          icon="eye"
+        />
+      </div>
     </div>
   );
 };

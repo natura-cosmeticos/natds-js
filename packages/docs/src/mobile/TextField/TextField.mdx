@@ -1,0 +1,45 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { TextField, Typography, Provider, themes } from '@naturacosmeticos/natds-rn';
+import { withTheme } from '../../../addons/theme/provider';
+
+# Typography
+
+***
+***
+## Status
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px'}}>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h5">Status can have the following values: </Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography>'sucess' | 'error' | undefined</Typography>
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+***
+***
+## API
+
+```js highlight-line="2"
+<TextField label="Label" helpText="Helper text" />
+```
+
+| Name                      | Type                                            | Default                       | Description
+| :--                       | :-:                                             | :-:                           | :-:                       |
+| label                     | string                                          |                               | Label text.
+| labelStyle                | TextStyle                                       |                               | Style to be applied on the label
+| helpText                  | string                                          |                               | Help text.
+| helpTextStyle             | TextStyle                                       |                               | Style to be applied on the help text.
+| theme                     | IThemeMobile                                    |                               | Overridable theme provided from the Provider component
+| textInputStyle            | ViewStyle                                       |                               | Style to be applied on the text input
+| required                  | boolean                                         | false                         | Whether this field is required or not
+| sucessStyle               | TextStyle                                       |                               | Style to be applied when status is `success`
+| errorStyle                | TextStyle                                       |                               | Style to be applied when status is `error`
+| icon                      | string                                          |                               | Name of the icon to be used
+| iconStyle                 | TextStyle                                       |                               | Style to be applied on the icon
+| ...props                  | TextInputProps                                  |                               | TextInputProps interface properties
