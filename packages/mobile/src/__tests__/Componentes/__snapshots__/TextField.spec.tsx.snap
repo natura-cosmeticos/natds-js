@@ -1064,6 +1064,29 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
               "size": 80,
             },
           },
+          "buttonSize": Object {
+            "large": Object {
+              "minHeight": 48,
+              "paddingBottom": 8,
+              "paddingLeft": 22,
+              "paddingRight": 22,
+              "paddingTop": 8,
+            },
+            "medium": Object {
+              "minHeight": 40,
+              "paddingBottom": 8,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 8,
+            },
+            "small": Object {
+              "minHeight": 32,
+              "paddingBottom": 4,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 4,
+            },
+          },
           "colors": Object {
             "accent": "#03dac4",
             "backdrop": "rgba(0, 0, 0, 0.5)",
@@ -1258,6 +1281,29 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
               "xlarge": Object {
                 "fontSize": "1.5rem",
                 "size": 80,
+              },
+            },
+            "buttonSize": Object {
+              "large": Object {
+                "minHeight": 48,
+                "paddingBottom": 8,
+                "paddingLeft": 22,
+                "paddingRight": 22,
+                "paddingTop": 8,
+              },
+              "medium": Object {
+                "minHeight": 40,
+                "paddingBottom": 8,
+                "paddingLeft": 16,
+                "paddingRight": 16,
+                "paddingTop": 8,
+              },
+              "small": Object {
+                "minHeight": 32,
+                "paddingBottom": 4,
+                "paddingLeft": 10,
+                "paddingRight": 10,
+                "paddingTop": 4,
               },
             },
             "colors": Object {
