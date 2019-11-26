@@ -99,7 +99,7 @@ const stateColors = {
 };
 
 function getTypoProp({ typography = {} }: IThemeWeb, key: string) {
-  return typography[key];
+  return typography[key] || {};
 }
 
 function getShapeProp({ shape = {} }: IThemeWeb) {
@@ -121,12 +121,12 @@ function getColorByState(initial: any) {
 const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
-  font-family: ${({ theme = {} }) => getTypoProp(theme, 'fontFamily')};
+  font-family: ${({ theme }) => getTypoProp(theme, 'fontFamily')};
 `;
 
 const Label = styled.label`
-  font-size: ${({ theme = {} }) => getTypoProp(theme, 'subtitle2').fontSize};
-  font-weight: ${({ theme = {} }) => getTypoProp(theme, 'subtitle2').fontWeight};
+  font-size: ${({ theme }) => getTypoProp(theme, 'subtitle2').fontSize};
+  font-weight: ${({ theme }) => getTypoProp(theme, 'subtitle2').fontWeight};
   color: ${getColorByState(stateColors.initial)};
   line-height: 1.2;
   padding: 0 0 4px;
@@ -134,20 +134,20 @@ const Label = styled.label`
 
 const Input = styled.input`
   border: 0;
-  border-radius: ${({ theme = {} }) => getShapeProp(theme)};
+  border-radius: ${({ theme }) => getShapeProp(theme)};
   box-shadow: ${getColorByState(stateColors.initial)} 0 0 0 1px;
   box-sizing: border-box;
   width: 100%;
   min-height: 56px;
   outline: none;
-  color: ${({ theme = {} }) => getColor(theme, 'text', 'primary')};
-  font-size: ${({ theme = {} }) => getTypoProp(theme, 'body2').fontSize};
-  font-weight: ${({ theme = {} }) => getTypoProp(theme, 'body2').fontWeight};
+  color: ${({ theme }) => getColor(theme, 'text', 'primary')};
+  font-size: ${({ theme }) => getTypoProp(theme, 'body2').fontSize};
+  font-weight: ${({ theme }) => getTypoProp(theme, 'body2').fontWeight};
   flex: 1 1 100%;
   padding: 16px;
 
   &:hover {
-    box-shadow: ${({ theme = {} }) => getColor(theme, 'grey', '600')} 0 0 0 1px;
+    box-shadow: ${({ theme }) => getColor(theme, 'grey', '600')} 0 0 0 1px;
   }
 
   &:focus {
@@ -157,22 +157,22 @@ const Input = styled.input`
   &:disabled,
   &:disabled::placeholder,
   &:disabled:hover {
-    color: ${({ theme = {} }) => getColor(theme, 'text', 'disabled')};
+    color: ${({ theme }) => getColor(theme, 'text', 'disabled')};
   }
 
   &:disabled,
   &:disabled:hover {
-    box-shadow: ${({ theme = {} }) => getColor(theme, 'text', 'disabled')} 0 0 0 1px;
+    box-shadow: ${({ theme }) => getColor(theme, 'text', 'disabled')} 0 0 0 1px;
   }
 
   &::placeholder {
-    color: ${({ theme = {} }) => getColor(theme, 'text', 'hint')};
+    color: ${({ theme }) => getColor(theme, 'text', 'hint')};
   }
 `;
 
 const HelpText = styled.span`
-  font-size: ${({ theme = {} }) => getTypoProp(theme, 'caption').fontSize};
-  font-weight: ${({ theme = {} }) => getTypoProp(theme, 'caption').fontWeight};
+  font-size: ${({ theme }) => getTypoProp(theme, 'caption').fontSize};
+  font-weight: ${({ theme }) => getTypoProp(theme, 'caption').fontWeight};
   color: ${getColorByState(stateColors.initial)};
   line-height: 1.2;
   padding: 4px 0 0;

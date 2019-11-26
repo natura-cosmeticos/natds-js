@@ -1,5 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`TextField component rendering states should match snapshot - TextField (default with empty theme): TextField default with empty theme snapshot 1`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH WyYxe"
+    disabled={false}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <input
+    className="sc-htpNat iuSOjT"
+    disabled={false}
+    id="field"
+    placeholder="Placeholder"
+    type="text"
+  />
+  <span
+    className="sc-bxivhb eyOWtv"
+    disabled={false}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
 exports[`TextField component rendering states should match snapshot - TextField (default): TextField default snapshot 1`] = `
 <div
   className="sc-bdVaJa wTxLS"

@@ -79,5 +79,11 @@ describe('TextField component', () => {
 
       expect(component).to.matchSnapshot('TextField property forwarded snapshot');
     });
+
+    test('should match snapshot - TextField (default with empty theme)', () => {
+      const component = renderer.create(<TextField {...getProps({ theme: {} })} />).toJSON();
+
+      expect(component).to.matchSnapshot('TextField default with empty theme snapshot');
+    });
   });
 });
