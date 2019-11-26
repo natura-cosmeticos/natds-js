@@ -1,0 +1,60 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { TextField, Provider, themes } from '@naturacosmeticos/natds-web';
+import { withTheme } from '../../../addons/theme/provider';
+
+# TextField
+
+---
+---
+
+## API
+
+```js highlight-line="2"
+import { TextField } from '@naturacosmeticos/natds-web';
+
+<TextField
+  label="Label"
+  helpText="Help message"
+  placeholder="Placeholder"
+  status="success"
+  disabled
+  required
+/>;
+```
+
+---
+---
+
+## Types
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ display: 'flex', flexFlow: 'row' }}>
+      <div style={{ padding: '20px', width: '300px' }}>
+        <TextField label="Label" helpText="Help message" placeholder="Placeholder" />
+      </div>
+      <div style={{ padding: '20px', width: '300px' }}>
+        <TextField label="Label" helpText="Help message" placeholder="Placeholder" disabled />
+      </div>
+      <div style={{ padding: '20px', width: '300px' }}>
+        <TextField status="success" label="Label" helpText="Success message" placeholder="Placeholder" />
+      </div>
+      <div style={{ padding: '20px', width: '300px' }}>
+        <TextField status="error" label="Label" helpText="Error message" placeholder="Placeholder" />
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+---
+---
+
+| Name                      | Type                                            | Default                       | Description
+| :--                       | :-:                                             | :-:                           | :-:
+| id                        | string                                          |                               | ID is applied to the Input element and is used in the label "htmlFor".
+| label                     | string                                          |                               | Label is the text used above the Input element. It describes the name of the field.
+| helpText                  | string                                          |                               | HelpText is the text used below the Input element.
+| placeholder               | string                                          |                               | Text to display when the input is empty.
+| required                  | boolean                                         | false                         | Whether the field is required or not.
+| disabled                  | boolean                                         | false                         | Disables the input for user interactions.
+| status                    | string                                          | 'success', 'error', undefined | Sets whether the input is in error or success state.
