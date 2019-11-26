@@ -53,6 +53,12 @@ export interface ITheme {
       dark?: string;
       contrastText?: string;
     };
+    success?: {
+      main: string;
+      light?: string;
+      dark?: string;
+      contrastText?: string;
+    },
     error?: {
       main: string;
       light?: string;

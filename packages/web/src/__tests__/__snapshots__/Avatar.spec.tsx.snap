@@ -35,6 +35,29 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "size": 80,
         },
       },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 8,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 4,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 4,
+        },
+      },
       "overrides": Object {
         "MuiAvatar": Object {
           "colorDefault": Object {
@@ -84,11 +107,14 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
+        "success": Object {
+          "main": "#569A32",
+        },
         "text": Object {
           "disabled": "#EEEEEE",
           "hint": "#BBBBBB",
           "primary": "#333333",
-          "secondary": "#333333",
+          "secondary": "#777777",
         },
         "type": "light",
       },
@@ -221,6 +247,29 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "size": 80,
         },
       },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 8,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 4,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 4,
+        },
+      },
       "overrides": Object {
         "MuiAvatar": Object {
           "colorDefault": Object {
@@ -270,11 +319,14 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
+        "success": Object {
+          "main": "#569A32",
+        },
         "text": Object {
           "disabled": "#EEEEEE",
           "hint": "#BBBBBB",
           "primary": "#333333",
-          "secondary": "#333333",
+          "secondary": "#777777",
         },
         "type": "light",
       },
@@ -407,6 +459,29 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "size": 80,
         },
       },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 8,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 4,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 4,
+        },
+      },
       "overrides": Object {
         "MuiAvatar": Object {
           "colorDefault": Object {
@@ -456,11 +531,14 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
+        "success": Object {
+          "main": "#569A32",
+        },
         "text": Object {
           "disabled": "#EEEEEE",
           "hint": "#BBBBBB",
           "primary": "#333333",
-          "secondary": "#333333",
+          "secondary": "#777777",
         },
         "type": "light",
       },
@@ -593,6 +671,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "size": 80,
         },
       },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 8,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 4,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 4,
+        },
+      },
       "overrides": Object {
         "MuiAvatar": Object {
           "colorDefault": Object {
@@ -642,11 +743,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
+        "success": Object {
+          "main": "#569A32",
+        },
         "text": Object {
           "disabled": "#EEEEEE",
           "hint": "#BBBBBB",
           "primary": "#333333",
-          "secondary": "#333333",
+          "secondary": "#777777",
         },
         "type": "light",
       },
@@ -779,6 +883,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "size": 80,
         },
       },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 8,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 4,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 4,
+        },
+      },
       "overrides": Object {
         "MuiAvatar": Object {
           "colorDefault": Object {
@@ -828,11 +955,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
+        "success": Object {
+          "main": "#569A32",
+        },
         "text": Object {
           "disabled": "#EEEEEE",
           "hint": "#BBBBBB",
           "primary": "#333333",
-          "secondary": "#333333",
+          "secondary": "#777777",
         },
         "type": "light",
       },
@@ -965,6 +1095,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "size": 80,
         },
       },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 8,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 4,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 4,
+        },
+      },
       "overrides": Object {
         "MuiAvatar": Object {
           "colorDefault": Object {
@@ -1014,11 +1167,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
+        "success": Object {
+          "main": "#569A32",
+        },
         "text": Object {
           "disabled": "#EEEEEE",
           "hint": "#BBBBBB",
           "primary": "#333333",
-          "secondary": "#333333",
+          "secondary": "#777777",
         },
         "type": "light",
       },
@@ -1151,6 +1307,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "size": 80,
         },
       },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 8,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 4,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 4,
+        },
+      },
       "overrides": Object {
         "MuiAvatar": Object {
           "colorDefault": Object {
@@ -1200,11 +1379,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
+        "success": Object {
+          "main": "#569A32",
+        },
         "text": Object {
           "disabled": "#EEEEEE",
           "hint": "#BBBBBB",
           "primary": "#333333",
-          "secondary": "#333333",
+          "secondary": "#777777",
         },
         "type": "light",
       },
@@ -1337,6 +1519,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "size": 80,
         },
       },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 8,
+          "paddingLeft": 22,
+          "paddingRight": 22,
+          "paddingTop": 8,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 8,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 8,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 4,
+          "paddingLeft": 10,
+          "paddingRight": 10,
+          "paddingTop": 4,
+        },
+      },
       "overrides": Object {
         "MuiAvatar": Object {
           "colorDefault": Object {
@@ -1386,11 +1591,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
+        "success": Object {
+          "main": "#569A32",
+        },
         "text": Object {
           "disabled": "#EEEEEE",
           "hint": "#BBBBBB",
           "primary": "#333333",
-          "secondary": "#333333",
+          "secondary": "#777777",
         },
         "type": "light",
       },

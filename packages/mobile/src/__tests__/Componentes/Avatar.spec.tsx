@@ -46,6 +46,7 @@ describe('Avatar', () => {
           surface: '',
           accent: '',
           error: '',
+          success: '',
           text: '',
           onSurface: '',
           onBackground: '',
@@ -53,6 +54,8 @@ describe('Avatar', () => {
           placeholder: '',
           backdrop: '',
           notification: '',
+          textHint: '',
+          textSecondary: ''
         },
         fonts: undefined,
         typography: undefined,

@@ -2,6 +2,16 @@ import { IThemeShape } from '../Provider/IThemeShape';
 import { DefaultTheme } from 'react-native-paper';
 import { IThemeMobile } from 'Themes';
 
+const remToPx = (rem: string): number => {
+  rem = String(rem);
+  if (rem.includes('rem')) {
+    const remValue = rem.split('rem')[0];
+    return Number(remValue) * 16;
+  } else {
+    return Number(rem);
+  }
+};
+
 export function buildTheme(
   theme: IThemeMobile | undefined,
   defaultTheme: IThemeMobile
@@ -22,6 +32,7 @@ export function buildTheme(
     error: { main: error } = { main: undefined },
     background = {},
     text = {},
+    success: { main: success } = { main: undefined }
   } = palette;
 
   const defaultColors = DefaultTheme.colors;
@@ -104,11 +115,14 @@ export function buildTheme(
     accent: secondary ? secondary : defaultColors.accent,
     secondary: secondary ? secondary : defaultColors.accent,
     error: error ? error : defaultColors.error,
+    success: success ? success : '#569A32',
     background: background.default
       ? background.default
       : defaultColors.backdrop,
     surface: background.paper ? background.paper : defaultColors.surface,
     text: text.primary ? text.primary : defaultColors.text,
+    textSecondary: text.secondary ? text.secondary : '#777777',
+    textHint: text.hint ? text.hint : '#BBBBBB',
     onBackground: text.primary ? text.primary : defaultColors.onBackground,
     onSurface: text.secondary ? text.secondary : defaultColors.onSurface,
     disabled: text.disabled ? text.disabled : defaultColors.disabled,
@@ -157,9 +171,9 @@ export function buildTheme(
     },
     typography: {
       h1: {
-        fontSize: typography.h1
+        fontSize: remToPx(typography.h1
           ? typography.h1.fontSize
-          : defaultTypography.h1.fontSize,
+          : defaultTypography.h1.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h1.fontFamily,
@@ -168,9 +182,9 @@ export function buildTheme(
           : defaultTypography.h1.fontWeight,
       },
       h2: {
-        fontSize: typography.h2
+        fontSize: remToPx(typography.h2
           ? typography.h2.fontSize
-          : defaultTypography.h2.fontSize,
+          : defaultTypography.h2.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h2.fontFamily,
@@ -179,9 +193,9 @@ export function buildTheme(
           : defaultTypography.h2.fontWeight,
       },
       h3: {
-        fontSize: typography.h3
+        fontSize: remToPx(typography.h3
           ? typography.h3.fontSize
-          : defaultTypography.h3.fontSize,
+          : defaultTypography.h3.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h3.fontFamily,
@@ -190,9 +204,9 @@ export function buildTheme(
           : defaultTypography.h3.fontWeight,
       },
       h4: {
-        fontSize: typography.h4
+        fontSize: remToPx(typography.h4
           ? typography.h4.fontSize
-          : defaultTypography.h4.fontSize,
+          : defaultTypography.h4.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h4.fontFamily,
@@ -201,9 +215,9 @@ export function buildTheme(
           : defaultTypography.h4.fontWeight,
       },
       h5: {
-        fontSize: typography.h5
+        fontSize: remToPx(typography.h5
           ? typography.h5.fontSize
-          : defaultTypography.h5.fontSize,
+          : defaultTypography.h5.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h5.fontFamily,
@@ -212,9 +226,9 @@ export function buildTheme(
           : defaultTypography.h5.fontWeight,
       },
       h6: {
-        fontSize: typography.h6
+        fontSize: remToPx(typography.h6
           ? typography.h6.fontSize
-          : defaultTypography.h6.fontSize,
+          : defaultTypography.h6.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.h6.fontFamily,
@@ -223,9 +237,9 @@ export function buildTheme(
           : defaultTypography.h6.fontWeight,
       },
       body1: {
-        fontSize: typography.body1
+        fontSize: remToPx(typography.body1
           ? typography.body1.fontSize
-          : defaultTypography.body1.fontSize,
+          : defaultTypography.body1.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.body1.fontFamily,
@@ -234,9 +248,9 @@ export function buildTheme(
           : defaultTypography.body1.fontWeight,
       },
       body2: {
-        fontSize: typography.body2
+        fontSize: remToPx(typography.body2
           ? typography.body2.fontSize
-          : defaultTypography.body2.fontSize,
+          : defaultTypography.body2.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.body2.fontFamily,
@@ -245,9 +259,9 @@ export function buildTheme(
           : defaultTypography.body2.fontWeight,
       },
       subtitle1: {
-        fontSize: typography.subtitle1
+        fontSize: remToPx(typography.subtitle1
           ? typography.subtitle1.fontSize
-          : defaultTypography.subtitle1.fontSize,
+          : defaultTypography.subtitle1.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.subtitle1.fontFamily,
@@ -256,9 +270,9 @@ export function buildTheme(
           : defaultTypography.subtitle1.fontWeight,
       },
       subtitle2: {
-        fontSize: typography.subtitle2
+        fontSize: remToPx(typography.subtitle2
           ? typography.subtitle2.fontSize
-          : defaultTypography.subtitle2.fontSize,
+          : defaultTypography.subtitle2.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.subtitle2.fontFamily,
@@ -267,9 +281,9 @@ export function buildTheme(
           : defaultTypography.subtitle2.fontWeight,
       },
       caption: {
-        fontSize: typography.caption
+        fontSize: remToPx(typography.caption
           ? typography.caption.fontSize
-          : defaultTypography.caption.fontSize,
+          : defaultTypography.caption.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.caption.fontFamily,
@@ -278,9 +292,9 @@ export function buildTheme(
           : defaultTypography.caption.fontWeight,
       },
       overline: {
-        fontSize: typography.overline
+        fontSize: remToPx(typography.overline
           ? typography.overline.fontSize
-          : defaultTypography.overline.fontSize,
+          : defaultTypography.overline.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.overline.fontFamily,
@@ -290,9 +304,9 @@ export function buildTheme(
         textTransform: defaultTypography.overline.textTransform,
       },
       button: {
-        fontSize: typography.button
+        fontSize: remToPx(typography.button
           ? typography.button.fontSize
-          : defaultTypography.button.fontSize,
+          : defaultTypography.button.fontSize),
         fontFamily: typography.fontFamily
           ? typography.fontFamily
           : defaultTypography.button.fontFamily,
