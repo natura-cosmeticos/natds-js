@@ -21,17 +21,17 @@ export const naturaDark: ITheme = {
       main: natura.primary.colorBrdNatPrimaryYellow,
       light: "#FEFDE8",
       dark: "#EF8426",
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: '#FAFAFA'
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
       light: "#FFF8E1",
       dark: natura.primary.colorBrdNatPrimaryOrange,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: '#FAFAFA'
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: '#FAFAFA'
     },
     success: {
       main: natura.complementary.colorBrdNatCpGreen1
@@ -41,10 +41,10 @@ export const naturaDark: ITheme = {
       default: natura.primary.colorBrdNatPrimaryWhite
     },
     text: {
-      primary: natura.grayscale.colorBrdNatGray,
-      secondary: natura.grayscale.colorBrdNatGray1,
-      disabled: natura.grayscale.colorBrdNatGray3,
-      hint: natura.grayscale.colorBrdNatGray2
+      primary: '#FAFAFA',
+      secondary: natura.grayscale.colorBrdNatGray2,
+      disabled: '#222222',
+      hint: natura.grayscale.colorBrdNatGray1
     }
   },
   typography: {
@@ -54,10 +54,10 @@ export const naturaDark: ITheme = {
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: '#FAFAFA'
       },
       outlinedSecondary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: '#FAFAFA'
       },
       sizeSmall: {
         fontSize: "0.875rem",
@@ -75,7 +75,7 @@ export const naturaDark: ITheme = {
     },
     MuiAvatar: {
       colorDefault: {
-        color: natura.grayscale.colorBrdNatGray
+        color: '#FAFAFA'
       }
     }
   }
