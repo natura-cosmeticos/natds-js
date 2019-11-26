@@ -3,10 +3,12 @@ import React from 'react';
 import renderer from 'react-test-renderer';
 
 import { Avatar } from '../../index';
-import { IThemeShape } from '../../Provider/IThemeShape';
+import { themes } from '@naturacosmeticos/natds-styles';
 
 describe('Avatar', () => {
   describe('rendering', () => {
+    const mockTheme: any = themes.natura.light;
+
     test('should match to snapshot - Default Image', () => {
       const component = renderer
         .create(<Avatar type="image" label="" icon="" source={{}} />)
@@ -28,47 +30,71 @@ describe('Avatar', () => {
       expect(component).toMatchSnapshot('Default Avatar type icon snapshot');
     });
 
-    test('should match to snapshot - AvatarSize Default', () => {
+    test('should match to snapshot - AvatarSize Tiny', () => {
       const component = renderer
-        .create(<Avatar type="image" label="" icon="" source={{}} />)
+        .create(
+          <Avatar
+            type="image"
+            label=""
+            icon=""
+            source={{}}
+            theme={mockTheme}
+            avatarSizes="tiny"
+          />
+        )
         .toJSON();
-      expect(component).toMatchSnapshot('AvatarSize Default Avatar snapshot');
+      expect(component).toMatchSnapshot('AvatarSize Tiny Avatar snapshot');
+    });
+
+    test('should match to snapshot - AvatarSize Small', () => {
+      const component = renderer
+        .create(
+          <Avatar
+            type="image"
+            label=""
+            icon=""
+            source={{}}
+            theme={mockTheme}
+            avatarSizes="small"
+          />
+        )
+        .toJSON();
+      expect(component).toMatchSnapshot('AvatarSize Small Avatar snapshot');
+    });
+
+    test('should match to snapshot - AvatarSize Standard', () => {
+      const component = renderer
+        .create(
+          <Avatar
+            type="image"
+            label=""
+            icon=""
+            source={{}}
+            theme={mockTheme}
+            avatarSizes="standard"
+          />
+        )
+        .toJSON();
+      expect(component).toMatchSnapshot('AvatarSize Standard Avatar snapshot');
+    });
+
+    test('should match to snapshot - AvatarSize Large', () => {
+      const component = renderer
+        .create(
+          <Avatar
+            type="image"
+            label=""
+            icon=""
+            source={{}}
+            theme={mockTheme}
+            avatarSizes="large"
+          />
+        )
+        .toJSON();
+      expect(component).toMatchSnapshot('AvatarSize Large Avatar snapshot');
     });
 
     test('should match to snapshot - AvatarSize XLarge', () => {
-      const mockTheme: IThemeShape = {
-        dark: false,
-        roundness: 0,
-        colors: {
-          primary: '',
-          secondary: '',
-          background: '',
-          surface: '',
-          accent: '',
-          error: '',
-          success: '',
-          text: '',
-          onSurface: '',
-          onBackground: '',
-          disabled: '',
-          placeholder: '',
-          backdrop: '',
-          notification: '',
-          textHint: '',
-          textSecondary: ''
-        },
-        fonts: undefined,
-        typography: undefined,
-        animation: undefined,
-        avatarSizes: {
-          tiny: { size: 24, fontSize: '.625rem' },
-          small: { size: 32, fontSize: '.875rem' },
-          standard: { size: 40, fontSize: '1rem' },
-          large: { size: 48, fontSize: '1rem' },
-          xlarge: { size: 80, fontSize: '1.5rem' },
-        },
-      };
-
       const component = renderer
         .create(
           <Avatar
@@ -82,6 +108,22 @@ describe('Avatar', () => {
         )
         .toJSON();
       expect(component).toMatchSnapshot('AvatarSize XLarge Avatar snapshot');
+    });
+
+    test('should match to snapshot - AvatarSize No Theme', () => {
+      const component = renderer
+        .create(
+          <Avatar
+            type="image"
+            label=""
+            icon=""
+            source={{}}
+            theme={{}}
+            avatarSizes="standard"
+          />
+        )
+        .toJSON();
+      expect(component).toMatchSnapshot('AvatarSize No Theme Avatar snapshot');
     });
 
     test('should match to snapshot - Style', () => {

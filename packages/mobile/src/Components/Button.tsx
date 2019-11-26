@@ -85,7 +85,7 @@ function elevationShadowStyle(elevation: number) {
   };
 }
 
-function withSizes(size: ButtonSize | undefined = 'medium', theme: any = {}) {
+function withSizes(size: ButtonSize | undefined = 'medium', theme: any) {
   const { buttonSize }: { buttonSize: IButtonSize } = theme;
   if (!buttonSize) return {};
 
