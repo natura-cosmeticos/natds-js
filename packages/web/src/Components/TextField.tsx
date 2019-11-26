@@ -115,7 +115,7 @@ function getColorByState(initial: any) {
     const { namespace, key } = (disabled ? stateColors.disabled : stateColors[status]) || initial;
 
     return getColor(theme, namespace, key);
-  }
+  };
 }
 
 const Container = styled.div`
@@ -165,7 +165,7 @@ const Input = styled.input`
     box-shadow: ${({ theme = {} }) => getColor(theme, 'text', 'disabled')} 0 0 0 1px;
   }
 
-  ::placeholder:not(&:disabled) {
+  &::placeholder {
     color: ${({ theme = {} }) => getColor(theme, 'text', 'hint')};
   }
 `;

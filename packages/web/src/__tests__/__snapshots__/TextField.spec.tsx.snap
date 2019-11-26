@@ -1,0 +1,217 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField component rendering states should match snapshot - TextField (default): TextField default snapshot 1`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH gNcVzU"
+    disabled={false}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <input
+    className="sc-htpNat iXoZtg"
+    disabled={false}
+    id="field"
+    placeholder="Placeholder"
+    type="text"
+  />
+  <span
+    className="sc-bxivhb bmtaJq"
+    disabled={false}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
+exports[`TextField component rendering states should match snapshot - TextField (disabled): TextField disabled snapshot 1`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH fCrgGn"
+    disabled={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <input
+    className="sc-htpNat JEDVS"
+    disabled={true}
+    id="field"
+    placeholder="Placeholder"
+    type="text"
+  />
+  <span
+    className="sc-bxivhb eVoknC"
+    disabled={true}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
+exports[`TextField component rendering states should match snapshot - TextField (disabled): TextField disabled snapshot 2`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH fCrgGn"
+    disabled={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <input
+    className="sc-htpNat JEDVS"
+    disabled={true}
+    id="field"
+    placeholder="Placeholder"
+    type="text"
+  />
+  <span
+    className="sc-bxivhb eVoknC"
+    disabled={true}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
+exports[`TextField component rendering states should match snapshot - TextField (error): TextField error snapshot 1`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH bkyNlq"
+    disabled={false}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <input
+    className="sc-htpNat QdZdV"
+    disabled={false}
+    id="field"
+    placeholder="Placeholder"
+    type="text"
+  />
+  <span
+    className="sc-bxivhb hOxVCF"
+    disabled={false}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
+exports[`TextField component rendering states should match snapshot - TextField (property forwarded): TextField property forwarded snapshot 1`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH gNcVzU"
+    disabled={false}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <input
+    className="sc-htpNat iXoZtg"
+    disabled={false}
+    id="field"
+    placeholder="Placeholder"
+    type="password"
+  />
+  <span
+    className="sc-bxivhb bmtaJq"
+    disabled={false}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
+exports[`TextField component rendering states should match snapshot - TextField (required): TextField required snapshot 1`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH gNcVzU"
+    disabled={false}
+    htmlFor="field"
+  >
+    Label *
+  </label>
+  <input
+    className="sc-htpNat iXoZtg"
+    disabled={false}
+    id="field"
+    placeholder="Placeholder"
+    type="text"
+  />
+  <span
+    className="sc-bxivhb bmtaJq"
+    disabled={false}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
+exports[`TextField component rendering states should match snapshot - TextField (success): TextField success snapshot 1`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH gNwsWk"
+    disabled={false}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <input
+    className="sc-htpNat gLyFyr"
+    disabled={false}
+    id="field"
+    placeholder="Placeholder"
+    type="text"
+  />
+  <span
+    className="sc-bxivhb jGNqxT"
+    disabled={false}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
+exports[`TextField component rendering states should match snapshot - TextField (theme change): TextField theme change snapshot 1`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH gNcVzU"
+    disabled={false}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <input
+    className="sc-htpNat iXoZtg"
+    disabled={false}
+    id="field"
+    placeholder="Placeholder"
+    type="text"
+  />
+  <span
+    className="sc-bxivhb bmtaJq"
+    disabled={false}
+  >
+    Assistive text
+  </span>
+</div>
+`;

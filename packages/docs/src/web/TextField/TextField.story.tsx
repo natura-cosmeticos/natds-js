@@ -36,7 +36,7 @@ const status: any = {
 
 export const Interactive = () => (
   <TextField
-    style={{ flex: '1 1 auto', width: '300px' }}
+    style={{ flex: '1 1 auto', width: '328px' }}
     label={text('label', 'Label')}
     defaultValue={text('value', 'XD')}
     placeholder={text('placeholder', 'XD')}

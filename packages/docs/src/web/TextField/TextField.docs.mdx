@@ -1,4 +1,4 @@
-import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Meta, Preview } from '@storybook/addon-docs/blocks';
 import { TextField, Provider, themes } from '@naturacosmeticos/natds-web';
 import { withTheme } from '../../../addons/theme/provider';
 
@@ -14,7 +14,7 @@ import { TextField } from '@naturacosmeticos/natds-web';
 
 <TextField
   label="Label"
-  helpText="Help message"
+  helpText="Assistive text"
   placeholder="Placeholder"
   status="success"
   disabled
@@ -30,17 +30,17 @@ import { TextField } from '@naturacosmeticos/natds-web';
 <Preview>
   <Provider theme={themes.natura.light}>
     <div style={{ display: 'flex', flexFlow: 'row' }}>
-      <div style={{ padding: '20px', width: '300px' }}>
-        <TextField label="Label" helpText="Help message" placeholder="Placeholder" />
+      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
+        <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" />
       </div>
-      <div style={{ padding: '20px', width: '300px' }}>
-        <TextField label="Label" helpText="Help message" placeholder="Placeholder" disabled />
+      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
+        <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" disabled />
       </div>
-      <div style={{ padding: '20px', width: '300px' }}>
-        <TextField status="success" label="Label" helpText="Success message" placeholder="Placeholder" />
+      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
+        <TextField status="success" label="Label" helpText="Success: Assistive text" placeholder="Placeholder" />
       </div>
-      <div style={{ padding: '20px', width: '300px' }}>
-        <TextField status="error" label="Label" helpText="Error message" placeholder="Placeholder" />
+      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
+        <TextField status="error" label="Label" helpText="Error: Assistive text" placeholder="Placeholder" />
       </div>
     </div>
   </Provider>
@@ -58,3 +58,5 @@ import { TextField } from '@naturacosmeticos/natds-web';
 | required                  | boolean                                         | false                         | Whether the field is required or not.
 | disabled                  | boolean                                         | false                         | Disables the input for user interactions.
 | status                    | string                                          | 'success', 'error', undefined | Sets whether the input is in error or success state.
+
+(other props passed to the TextField will be forward to the input element)
