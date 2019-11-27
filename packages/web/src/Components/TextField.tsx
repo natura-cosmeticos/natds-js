@@ -3,6 +3,7 @@ import styled from 'styled-components';
 
 import { withTheme } from '@material-ui/styles';
 import { IThemeWeb } from 'Themes';
+import { tokens } from '@naturacosmeticos/natds-styles';
 
 interface ITextFieldProps {
   [propName: string]: any;
@@ -41,9 +42,14 @@ interface ITextFieldProps {
   status?: 'error' | 'success' | undefined;
   /**
    * @optional
-   * Optional input type property
+   * The input type property
    */
-  type?: 'text' | 'password' | 'search' | 'email' | string;
+  type?: 'text' | 'password' | 'search' | string;
+  /**
+   * @optional
+   * Uses a textarea as input
+   */
+  multiline?: boolean;
 }
 
 const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
@@ -54,8 +60,8 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
     theme,
     required = false,
     disabled = false,
-    status = '',
-    type = 'text',
+    status,
+    multiline,
     ...rest
   } = props;
 
@@ -70,12 +76,12 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
         disabled={disabled}>
         {content}
       </Label>
-      <Input
+      <Field
         theme={theme}
         id={id}
-        type={type}
         status={status}
         disabled={disabled}
+        as={multiline ? 'textarea' : 'input'}
         {...rest}
       />
       <HelpText
@@ -91,63 +97,62 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
 export default withTheme(TextField);
 
 const stateColors = {
-  disabled: { namespace: 'text', key: 'disabled' },
-  error: { namespace: 'error', key: 'main' },
-  success: { namespace: 'success', key: 'main' },
-  initial: { namespace: 'text', key: 'hint' },
-  primary: { namespace: 'primary', key: 'main' },
+  disabled: { type: 'text', key: 'disabled' },
+  error: { type: 'error', key: 'main' },
+  success: { type: 'success', key: 'main' },
+  initial: { type: 'text', key: 'hint' },
+  primary: { type: 'primary', key: 'main' },
 };
 
-function getTypoProp({ typography = {} }: IThemeWeb, key: string) {
-  return typography[key] || {};
+function getProp(namespace: string, type: string, key?: string) {
+  return ({ theme }: { theme: IThemeWeb }) => {
+    const propNamespace = theme[namespace] || {};
+    const propType = propNamespace[type] || {};
+
+    return key ? propType[key] : propType;
+  };
 }
 
-function getShapeProp({ shape = {} }: IThemeWeb) {
-  return shape.borderRadius && `${shape.borderRadius}px`;
-}
+function getColorByState(initial: { type: string, key: string }) {
+  return ({ theme, disabled, status = '' }: { theme: IThemeWeb, disabled: boolean, status: string | undefined }) => {
+    const { type, key } = (disabled ? stateColors.disabled : stateColors[status]) || initial;
 
-function getColor({ palette = {} }: IThemeWeb, namespace: string, key: string) {
-  return palette[namespace] && palette[namespace][key] ? palette[namespace][key] : palette[namespace];
-}
-
-function getColorByState(initial: any) {
-  return ({ theme, disabled, status }: { theme: IThemeWeb, disabled: boolean, status: string }) => {
-    const { namespace, key } = (disabled ? stateColors.disabled : stateColors[status]) || initial;
-
-    return getColor(theme, namespace, key);
+    return getProp('palette', type, key)({ theme });
   };
 }
 
 const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
-  font-family: ${({ theme }) => getTypoProp(theme, 'fontFamily')};
+  font-family: ${getProp('typography', 'fontFamily')};
 `;
 
 const Label = styled.label`
-  font-size: ${({ theme }) => getTypoProp(theme, 'subtitle2').fontSize};
-  font-weight: ${({ theme }) => getTypoProp(theme, 'subtitle2').fontWeight};
+  font-size: ${getProp('typography', 'subtitle2', 'fontSize')};
+  font-weight: ${getProp('typography', 'subtitle2', 'fontWeight')};
   color: ${getColorByState(stateColors.initial)};
   line-height: 1.2;
-  padding: 0 0 4px;
+  padding: 0 0 ${tokens.spacing.spacingMicro}px;
 `;
 
-const Input = styled.input`
+const Field = styled.input`
   border: 0;
-  border-radius: ${({ theme }) => getShapeProp(theme)};
+  border-radius: ${getProp('shape', 'borderRadius')}px;
   box-shadow: ${getColorByState(stateColors.initial)} 0 0 0 1px;
   box-sizing: border-box;
   width: 100%;
-  min-height: 56px;
+  line-height: ${tokens.spacing.spacingStandard}px;
+  min-height: ${tokens.spacing.spacingLarge}px;
   outline: none;
-  color: ${({ theme }) => getColor(theme, 'text', 'primary')};
-  font-size: ${({ theme }) => getTypoProp(theme, 'body2').fontSize};
-  font-weight: ${({ theme }) => getTypoProp(theme, 'body2').fontWeight};
+  color: ${getProp('palette', 'text', 'primary')};
+  font-size: ${getProp('typography', 'body2', 'fontSize')};
+  font-weight: ${getProp('typography', 'body2', 'fontWeight')};
   flex: 1 1 100%;
-  padding: 16px;
+  padding: ${tokens.spacing.spacingSmall}px;
+  resize: vertical;
 
   &:hover {
-    box-shadow: ${({ theme }) => getColor(theme, 'grey', '600')} 0 0 0 1px;
+    box-shadow: ${getProp('palette', 'grey', '600')} 0 0 0 1px;
   }
 
   &:focus {
@@ -157,23 +162,23 @@ const Input = styled.input`
   &:disabled,
   &:disabled::placeholder,
   &:disabled:hover {
-    color: ${({ theme }) => getColor(theme, 'text', 'disabled')};
+    color: ${getProp('palette', 'text', 'disabled')};
   }
 
   &:disabled,
   &:disabled:hover {
-    box-shadow: ${({ theme }) => getColor(theme, 'text', 'disabled')} 0 0 0 1px;
+    box-shadow: ${getProp('palette', 'text', 'disabled')} 0 0 0 1px;
   }
 
   &::placeholder {
-    color: ${({ theme }) => getColor(theme, 'text', 'hint')};
+    color: ${getProp('palette', 'text', 'hint')};
   }
 `;
 
 const HelpText = styled.span`
-  font-size: ${({ theme }) => getTypoProp(theme, 'caption').fontSize};
-  font-weight: ${({ theme }) => getTypoProp(theme, 'caption').fontWeight};
+  font-size: ${getProp('typography', 'caption', 'fontSize')};
+  font-weight: ${getProp('typography', 'caption', 'fontWeight')};
   color: ${getColorByState(stateColors.initial)};
   line-height: 1.2;
-  padding: 4px 0 0;
+  padding: ${tokens.spacing.spacingMicro}px 0 0;
 `;

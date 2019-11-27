@@ -4,7 +4,7 @@ import {
   IFont,
 } from '@naturacosmeticos/natds-styles';
 
-export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes'> {
+export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes' | 'spacing'> {
   typography: {
     fontFamily?: string;
     fontFamilyBrand1?: string;
@@ -31,10 +31,11 @@ export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette' | 'avatarSiz
 }
 
 function parseTheme(theme: ITheme): IThemeWeb {
-  const { web } = theme.typography;
+  const { typography: { web }, spacing } = theme;
 
   return {
     ...theme,
+    spacing,
     typography: {
       fontFamily: web.fontFamily,
       fontFamilyBrand1: web.fontFamilyBrand1,

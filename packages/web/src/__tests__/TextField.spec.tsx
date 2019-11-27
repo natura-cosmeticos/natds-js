@@ -75,9 +75,15 @@ describe('TextField component', () => {
     });
 
     test('should match snapshot - TextField (property forwarded)', () => {
-      const component = renderer.create(<TextField {...getProps({ theme: themes.natura.dark })} type="password" />).toJSON();
+      const component = renderer.create(<TextField {...getProps()} type="password" />).toJSON();
 
       expect(component).to.matchSnapshot('TextField property forwarded snapshot');
+    });
+
+    test('should match snapshot - TextField (multiline)', () => {
+      const component = renderer.create(<TextField {...getProps()} multiline />).toJSON();
+
+      expect(component).to.matchSnapshot('TextField multiline snapshot');
     });
 
     test('should match snapshot - TextField (default with empty theme)', () => {

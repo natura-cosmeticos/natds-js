@@ -45,5 +45,6 @@ export const Interactive = () => (
     status={select('status', status, status.text)}
     required={boolean('required', false)}
     disabled={boolean('disabled', false)}
+    multiline={boolean('multiline', false)}
   />
 );

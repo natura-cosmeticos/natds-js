@@ -49,6 +49,30 @@ import { TextField } from '@naturacosmeticos/natds-web';
 ---
 ---
 
+## Types (Multiline)
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ display: 'flex', flexFlow: 'row' }}>
+      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
+        <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" multiline />
+      </div>
+      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
+        <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" disabled multiline />
+      </div>
+      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
+        <TextField status="success" label="Label" helpText="Success: Assistive text" placeholder="Placeholder" multiline />
+      </div>
+      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
+        <TextField status="error" label="Label" helpText="Error: Assistive text" placeholder="Placeholder" multiline />
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+---
+---
+
 | Name                      | Type                                            | Default                       | Description
 | :--                       | :-:                                             | :-:                           | :-:
 | id                        | string                                          |                               | ID is applied to the Input element and is used in the label "htmlFor".
@@ -57,6 +81,7 @@ import { TextField } from '@naturacosmeticos/natds-web';
 | placeholder               | string                                          |                               | Text to display when the input is empty.
 | required                  | boolean                                         | false                         | Whether the field is required or not.
 | disabled                  | boolean                                         | false                         | Disables the input for user interactions.
+| multiline                 | boolean                                         | false                         | Transform TextField in to a textarea.
 | status                    | string                                          | 'success', 'error', undefined | Sets whether the input is in error or success state.
 
-(other props passed to the TextField will be forward to the input element)
+(other props passed to the TextField will be forward to the input/textarea element)

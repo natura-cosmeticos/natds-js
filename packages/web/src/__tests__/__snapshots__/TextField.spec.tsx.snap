@@ -12,11 +12,10 @@ exports[`TextField component rendering states should match snapshot - TextField 
     Label
   </label>
   <input
-    className="sc-htpNat iuSOjT"
+    className="sc-htpNat dQyKiK"
     disabled={false}
     id="field"
     placeholder="Placeholder"
-    type="text"
   />
   <span
     className="sc-bxivhb eyOWtv"
@@ -39,11 +38,10 @@ exports[`TextField component rendering states should match snapshot - TextField 
     Label
   </label>
   <input
-    className="sc-htpNat iXoZtg"
+    className="sc-htpNat bXFJNJ"
     disabled={false}
     id="field"
     placeholder="Placeholder"
-    type="text"
   />
   <span
     className="sc-bxivhb bmtaJq"
@@ -66,11 +64,10 @@ exports[`TextField component rendering states should match snapshot - TextField 
     Label
   </label>
   <input
-    className="sc-htpNat JEDVS"
+    className="sc-htpNat SqQYj"
     disabled={true}
     id="field"
     placeholder="Placeholder"
-    type="text"
   />
   <span
     className="sc-bxivhb eVoknC"
@@ -93,11 +90,10 @@ exports[`TextField component rendering states should match snapshot - TextField 
     Label
   </label>
   <input
-    className="sc-htpNat JEDVS"
+    className="sc-htpNat SqQYj"
     disabled={true}
     id="field"
     placeholder="Placeholder"
-    type="text"
   />
   <span
     className="sc-bxivhb eVoknC"
@@ -120,14 +116,39 @@ exports[`TextField component rendering states should match snapshot - TextField 
     Label
   </label>
   <input
-    className="sc-htpNat QdZdV"
+    className="sc-htpNat bBolsf"
     disabled={false}
     id="field"
     placeholder="Placeholder"
-    type="text"
   />
   <span
     className="sc-bxivhb hOxVCF"
+    disabled={false}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
+exports[`TextField component rendering states should match snapshot - TextField (multiline): TextField multiline snapshot 1`] = `
+<div
+  className="sc-bdVaJa wTxLS"
+>
+  <label
+    className="sc-bwzfXH gNcVzU"
+    disabled={false}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <textarea
+    className="sc-htpNat bXFJNJ"
+    disabled={false}
+    id="field"
+    placeholder="Placeholder"
+  />
+  <span
+    className="sc-bxivhb bmtaJq"
     disabled={false}
   >
     Assistive text
@@ -147,7 +168,7 @@ exports[`TextField component rendering states should match snapshot - TextField 
     Label
   </label>
   <input
-    className="sc-htpNat iXoZtg"
+    className="sc-htpNat bXFJNJ"
     disabled={false}
     id="field"
     placeholder="Placeholder"
@@ -174,11 +195,10 @@ exports[`TextField component rendering states should match snapshot - TextField 
     Label *
   </label>
   <input
-    className="sc-htpNat iXoZtg"
+    className="sc-htpNat bXFJNJ"
     disabled={false}
     id="field"
     placeholder="Placeholder"
-    type="text"
   />
   <span
     className="sc-bxivhb bmtaJq"
@@ -201,11 +221,10 @@ exports[`TextField component rendering states should match snapshot - TextField 
     Label
   </label>
   <input
-    className="sc-htpNat gLyFyr"
+    className="sc-htpNat bvvnzc"
     disabled={false}
     id="field"
     placeholder="Placeholder"
-    type="text"
   />
   <span
     className="sc-bxivhb jGNqxT"
@@ -228,11 +247,10 @@ exports[`TextField component rendering states should match snapshot - TextField 
     Label
   </label>
   <input
-    className="sc-htpNat iXoZtg"
+    className="sc-htpNat bXFJNJ"
     disabled={false}
     id="field"
     placeholder="Placeholder"
-    type="text"
   />
   <span
     className="sc-bxivhb bmtaJq"
