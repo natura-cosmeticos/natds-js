@@ -62,6 +62,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
     disabled = false,
     status,
     multiline,
+    placeholder = ' ',
     ...rest
   } = props;
 
@@ -82,6 +83,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
         status={status}
         disabled={disabled}
         as={multiline ? 'textarea' : 'input'}
+        placeholder={placeholder}
         {...rest}
       />
       <HelpText
@@ -172,6 +174,14 @@ const Field = styled.input`
 
   &::placeholder {
     color: ${getProp('palette', 'text', 'hint')};
+  }
+
+  &:placeholder-shown {
+    box-shadow: ${getColorByState(stateColors.initial)} 0 0 0 1px;
+  }
+
+  &:not(:placeholder-shown) {
+    box-shadow: ${getProp('palette', 'grey', '600')} 0 0 0 1px;
   }
 `;
 
