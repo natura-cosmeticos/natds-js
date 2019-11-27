@@ -50,10 +50,10 @@ describe('TextField component', () => {
       expect(component).to.matchSnapshot('TextField disabled snapshot');
     });
 
-    test('should match snapshot - TextField (disabled)', () => {
-      const component = renderer.create(<TextField {...getProps({ disabled: true })} />).toJSON();
+    test('should match snapshot - TextField (filled)', () => {
+      const component = renderer.create(<TextField {...getProps()} value="some value" />).toJSON();
 
-      expect(component).to.matchSnapshot('TextField disabled snapshot');
+      expect(component).to.matchSnapshot('TextField filled snapshot');
     });
 
     test('should match snapshot - TextField (success)', () => {
