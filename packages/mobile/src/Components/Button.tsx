@@ -106,6 +106,15 @@ const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
   let color = themeColors.primary;
   let borderColor = theme.colors.primary;
   let style = {};
+  let margin = {
+    marginTop: 0,
+    marginRight: 0,
+    marginBottom: 0,
+    marginLeft: 0,
+  };
+  let contentStyleMargin = {
+    marginLeft: 0,
+  };
 
   if (props.colorType) {
     color = themeColors[props.colorType];
@@ -130,6 +139,21 @@ const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
     style = {};
   }
 
+  if (props.icon) {
+    margin = {
+      marginTop: 0,
+      marginRight: 0,
+      marginBottom: 0,
+      marginLeft: -4,
+    };
+
+    if (props.size === 'small') {
+      contentStyleMargin = {
+        marginLeft: -4,
+      };
+    }
+  }
+
   const size = withSizes(props.size, props.theme);
 
   return (
@@ -138,11 +162,12 @@ const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
       {...props}
       color={color}
       style={{ ...style, borderColor }}
+      contentStyle={{ ...contentStyleMargin }}
       labelStyle={{
+        ...size,
+        ...margin,
         fontWeight: theme.fonts.regular.fontWeight,
-        margin: 0,
       }}
-      contentStyle={{ ...size }}
     />
   );
 };
