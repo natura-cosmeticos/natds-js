@@ -19,6 +19,7 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
     }
   }
 >
+  <View />
   <View
     style={
       Object {
@@ -36,20 +37,20 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
-          "paddingRight": 0,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
+          "paddingRight": 16,
           "width": "100%",
         }
       }
@@ -97,6 +98,16 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
       underlineColorAndroid="transparent"
     />
   </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
 </View>
 `;
 
@@ -117,20 +128,22 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
     }
   }
 >
-  <Text
-    accessible={false}
-    style={
-      Object {
-        "color": "#E74627",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingBottom": 4,
-        "textAlign": undefined,
+  <View>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#E74627",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingBottom": 4,
+          "textAlign": undefined,
+        }
       }
-    }
-  >
-    mock
-  </Text>
+    >
+      mock
+    </Text>
+  </View>
   <View
     style={
       Object {
@@ -150,21 +163,21 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       status="error"
       style={
         Object {
+          "borderColor": "#E74627",
           "borderRadius": 4,
+          "borderWidth": 2,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
-          "shadowColor": "#E74627",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
           "width": "100%",
         }
       }
@@ -212,7 +225,16 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
       underlineColorAndroid="transparent"
     />
     <Text
+      accessible={true}
       allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
@@ -237,20 +259,55 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
       
     </Text>
   </View>
-  <Text
-    accessible={false}
+  <View
     style={
       Object {
-        "color": "#E74627",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingTop": 4,
-        "textAlign": undefined,
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
       }
     }
   >
-    mock
-  </Text>
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#E74627",
+            "marginRight": 4,
+            "paddingTop": 4,
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#E74627",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingTop": 4,
+          "textAlign": undefined,
+        }
+      }
+    >
+      mock
+    </Text>
+  </View>
 </View>
 `;
 
@@ -271,6 +328,7 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
     }
   }
 >
+  <View />
   <View
     style={
       Object {
@@ -289,20 +347,20 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
           "width": "100%",
         }
       }
@@ -350,7 +408,16 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
       underlineColorAndroid="transparent"
     />
     <Text
+      accessible={true}
       allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
@@ -375,6 +442,16 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
       
     </Text>
   </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
 </View>
 `;
 
@@ -395,20 +472,22 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
     }
   }
 >
-  <Text
-    accessible={false}
-    style={
-      Object {
-        "color": "#777777",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingBottom": 4,
-        "textAlign": undefined,
+  <View>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#777777",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingBottom": 4,
+          "textAlign": undefined,
+        }
       }
-    }
-  >
-    mock
-  </Text>
+    >
+      mock
+    </Text>
+  </View>
   <View
     style={
       Object {
@@ -428,20 +507,20 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 10,
           "paddingRight": 36,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
           "width": "100%",
         }
       }
@@ -494,7 +573,16 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
       underlineColorAndroid="transparent"
     />
     <Text
+      accessible={true}
       allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
@@ -519,20 +607,31 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
       
     </Text>
   </View>
-  <Text
-    accessible={false}
+  <View
     style={
       Object {
-        "color": "#777777",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingTop": 4,
-        "textAlign": undefined,
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
       }
     }
   >
-    mock
-  </Text>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#777777",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingTop": 4,
+          "textAlign": undefined,
+        }
+      }
+    >
+      mock
+    </Text>
+  </View>
 </View>
 `;
 
@@ -553,20 +652,22 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
     }
   }
 >
-  <Text
-    accessible={false}
-    style={
-      Object {
-        "color": "#BBBBBB",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingBottom": 4,
-        "textAlign": undefined,
+  <View>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#BBBBBB",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingBottom": 4,
+          "textAlign": undefined,
+        }
       }
-    }
-  >
-    mock
-  </Text>
+    >
+      mock
+    </Text>
+  </View>
   <View
     style={
       Object {
@@ -587,20 +688,20 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#BBBBBB",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
           "width": "100%",
         }
       }
@@ -648,7 +749,16 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
       underlineColorAndroid="transparent"
     />
     <Text
+      accessible={true}
       allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
@@ -673,20 +783,31 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
       
     </Text>
   </View>
-  <Text
-    accessible={false}
+  <View
     style={
       Object {
-        "color": "#BBBBBB",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingTop": 4,
-        "textAlign": undefined,
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
       }
     }
   >
-    mock
-  </Text>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#BBBBBB",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingTop": 4,
+          "textAlign": undefined,
+        }
+      }
+    >
+      mock
+    </Text>
+  </View>
 </View>
 `;
 
@@ -707,6 +828,7 @@ exports[`TextField rendering should match to snapshot - Placeholder Text Color: 
     }
   }
 >
+  <View />
   <View
     style={
       Object {
@@ -724,20 +846,20 @@ exports[`TextField rendering should match to snapshot - Placeholder Text Color: 
       onFocus={[Function]}
       placeholderTextColor="#FFFFFF"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
-          "paddingRight": 0,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
+          "paddingRight": 16,
           "width": "100%",
         }
       }
@@ -785,6 +907,16 @@ exports[`TextField rendering should match to snapshot - Placeholder Text Color: 
       underlineColorAndroid="transparent"
     />
   </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
 </View>
 `;
 
@@ -805,20 +937,22 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
     }
   }
 >
-  <Text
-    accessible={false}
-    style={
-      Object {
-        "color": "#777777",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingBottom": 4,
-        "textAlign": undefined,
+  <View>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#777777",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingBottom": 4,
+          "textAlign": undefined,
+        }
       }
-    }
-  >
-    Label *
-  </Text>
+    >
+      Label *
+    </Text>
+  </View>
   <View
     style={
       Object {
@@ -838,20 +972,20 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
       required={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
-          "paddingRight": 0,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
+          "paddingRight": 16,
           "width": "100%",
         }
       }
@@ -899,6 +1033,16 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
       underlineColorAndroid="transparent"
     />
   </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
 </View>
 `;
 
@@ -919,6 +1063,7 @@ exports[`TextField rendering should match to snapshot - Selection Color TextFiel
     }
   }
 >
+  <View />
   <View
     style={
       Object {
@@ -936,20 +1081,20 @@ exports[`TextField rendering should match to snapshot - Selection Color TextFiel
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#FFFFFF"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
-          "paddingRight": 0,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
+          "paddingRight": 16,
           "width": "100%",
         }
       }
@@ -997,6 +1142,16 @@ exports[`TextField rendering should match to snapshot - Selection Color TextFiel
       underlineColorAndroid="transparent"
     />
   </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
 </View>
 `;
 
@@ -1017,20 +1172,22 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
     }
   }
 >
-  <Text
-    accessible={false}
-    style={
-      Object {
-        "color": "#569A32",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingBottom": 4,
-        "textAlign": undefined,
+  <View>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#569A32",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingBottom": 4,
+          "textAlign": undefined,
+        }
       }
-    }
-  >
-    mock
-  </Text>
+    >
+      mock
+    </Text>
+  </View>
   <View
     style={
       Object {
@@ -1050,21 +1207,21 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       status="success"
       style={
         Object {
+          "borderColor": "#569A32",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
-          "shadowColor": "#569A32",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
           "width": "100%",
         }
       }
@@ -1112,7 +1269,16 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
       underlineColorAndroid="transparent"
     />
     <Text
+      accessible={true}
       allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
@@ -1137,20 +1303,55 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
       
     </Text>
   </View>
-  <Text
-    accessible={false}
+  <View
     style={
       Object {
-        "color": "#569A32",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingTop": 4,
-        "textAlign": undefined,
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
       }
     }
   >
-    mock
-  </Text>
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#569A32",
+            "marginRight": 4,
+            "paddingTop": 4,
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#569A32",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingTop": 4,
+          "textAlign": undefined,
+        }
+      }
+    >
+      mock
+    </Text>
+  </View>
 </View>
 `;
 
@@ -1171,6 +1372,7 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
     }
   }
 >
+  <View />
   <View
     style={
       Object {
@@ -1187,20 +1389,20 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
       onBlur={[Function]}
       onFocus={[Function]}
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#6200ee"
       style={
         Object {
+          "borderColor": undefined,
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#000000",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
-          "paddingRight": 0,
-          "shadowColor": undefined,
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
+          "paddingRight": 16,
           "width": "100%",
         }
       }
@@ -1361,6 +1563,16 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
       underlineColorAndroid="transparent"
     />
   </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
 </View>
 `;
 
@@ -1390,6 +1602,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
       }
     }
   >
+    <View />
     <View
       style={
         Object {
@@ -1407,20 +1620,20 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
         onFocus={[Function]}
         placeholderTextColor="#BBBBBB"
         rejectResponderTermination={true}
+        secureTextEntry={false}
         selectionColor="#F4AB34"
         style={
           Object {
+            "borderColor": "#BBBBBB",
             "borderRadius": 4,
+            "borderWidth": 1,
             "color": "#333333",
-            "elevation": 1,
             "flex": 1,
             "fontSize": 14,
             "lineHeight": 24,
+            "maxHeight": 56,
             "padding": 16,
-            "paddingRight": 0,
-            "shadowColor": "#BBBBBB",
-            "shadowOpacity": 1,
-            "shadowRadius": 2,
+            "paddingRight": 16,
             "width": "100%",
           }
         }
@@ -1587,6 +1800,16 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
         underlineColorAndroid="transparent"
       />
     </View>
+    <View
+      style={
+        Object {
+          "alignItems": "center",
+          "flex": 1,
+          "flexDirection": "row",
+          "justifyContent": "flex-start",
+        }
+      }
+    />
   </View>
 </View>
 `;
@@ -1608,6 +1831,7 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
     }
   }
 >
+  <View />
   <View
     style={
       Object {
@@ -1625,20 +1849,20 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
-          "paddingRight": 0,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
+          "paddingRight": 16,
           "width": "100%",
         }
       }
@@ -1686,20 +1910,31 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
       underlineColorAndroid="transparent"
     />
   </View>
-  <Text
-    accessible={false}
+  <View
     style={
       Object {
-        "color": "#777777",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingTop": 4,
-        "textAlign": undefined,
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
       }
     }
   >
-    Mock Help Text
-  </Text>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#777777",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingTop": 4,
+          "textAlign": undefined,
+        }
+      }
+    >
+      Mock Help Text
+    </Text>
+  </View>
 </View>
 `;
 
@@ -1720,6 +1955,7 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
     }
   }
 >
+  <View />
   <View
     style={
       Object {
@@ -1738,20 +1974,20 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
           "width": "100%",
         }
       }
@@ -1799,7 +2035,16 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
       underlineColorAndroid="transparent"
     />
     <Text
+      accessible={true}
       allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
       style={
         Array [
           Object {
@@ -1824,6 +2069,16 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
       
     </Text>
   </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
 </View>
 `;
 
@@ -1844,20 +2099,22 @@ exports[`TextField rendering should match to snapshot - With label: With label T
     }
   }
 >
-  <Text
-    accessible={false}
-    style={
-      Object {
-        "color": "#777777",
-        "fontSize": 16,
-        "fontWeight": "300",
-        "paddingBottom": 4,
-        "textAlign": undefined,
+  <View>
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#777777",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingBottom": 4,
+          "textAlign": undefined,
+        }
       }
-    }
-  >
-    Mock Label
-  </Text>
+    >
+      Mock Label
+    </Text>
+  </View>
   <View
     style={
       Object {
@@ -1876,20 +2133,20 @@ exports[`TextField rendering should match to snapshot - With label: With label T
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
       rejectResponderTermination={true}
+      secureTextEntry={false}
       selectionColor="#F4AB34"
       style={
         Object {
+          "borderColor": "#BBBBBB",
           "borderRadius": 4,
+          "borderWidth": 1,
           "color": "#333333",
-          "elevation": 1,
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
+          "maxHeight": 56,
           "padding": 16,
-          "paddingRight": 0,
-          "shadowColor": "#BBBBBB",
-          "shadowOpacity": 1,
-          "shadowRadius": 2,
+          "paddingRight": 16,
           "width": "100%",
         }
       }
@@ -1937,5 +2194,15 @@ exports[`TextField rendering should match to snapshot - With label: With label T
       underlineColorAndroid="transparent"
     />
   </View>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
 </View>
 `;
