@@ -1,6 +1,33 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Avatar rendering should match to snapshot - AvatarSize Default: AvatarSize Default Avatar snapshot 1`] = `
+exports[`Avatar rendering should match to snapshot - AvatarSize Large: AvatarSize Large Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 24,
+        "height": 48,
+        "width": 48,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 24,
+        "height": 48,
+        "width": 48,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - AvatarSize No Theme: AvatarSize No Theme Avatar snapshot 1`] = `
 <View
   style={
     Array [
@@ -27,12 +54,93 @@ exports[`Avatar rendering should match to snapshot - AvatarSize Default: AvatarS
 </View>
 `;
 
+exports[`Avatar rendering should match to snapshot - AvatarSize Small: AvatarSize Small Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 16,
+        "height": 32,
+        "width": 32,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - AvatarSize Standard: AvatarSize Standard Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 20,
+        "height": 40,
+        "width": 40,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 20,
+        "height": 40,
+        "width": 40,
+      }
+    }
+  />
+</View>
+`;
+
+exports[`Avatar rendering should match to snapshot - AvatarSize Tiny: AvatarSize Tiny Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 12,
+        "height": 24,
+        "width": 24,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 12,
+        "height": 24,
+        "width": 24,
+      }
+    }
+  />
+</View>
+`;
+
 exports[`Avatar rendering should match to snapshot - AvatarSize XLarge: AvatarSize XLarge Avatar snapshot 1`] = `
 <View
   style={
     Array [
       Object {
-        "backgroundColor": "",
+        "backgroundColor": "#6200ee",
         "borderRadius": 40,
         "height": 80,
         "width": 80,

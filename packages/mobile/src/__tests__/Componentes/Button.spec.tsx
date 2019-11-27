@@ -4,168 +4,11 @@ import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
 import { Button } from '../../index';
-import { IThemeShape } from '../../Provider/IThemeShape';
+import { themes } from '@naturacosmeticos/natds-styles';
 
 describe('Button', () => {
   describe('rendering', () => {
-    const mockTheme: IThemeShape = {
-      dark: false,
-      roundness: 4,
-      colors: {
-        primary: '#F4AB34',
-        textSecondary: '#333333',
-        textHint: '#BBBBBB',
-        accent: '#FF6B0B',
-        background: '#FFFFFF',
-        surface: '#FAFAFA',
-        error: '#E74627',
-        success: '#569A32',
-        text: '#333333',
-        onBackground: '#333333',
-        onSurface: '#333333',
-        disabled: '#EEEEEE',
-        placeholder: '#BBBBBB',
-        backdrop: 'rgba(0, 0, 0, 0.5)',
-        notification: '#f50057',
-        secondary: '#FF6B0B',
-      },
-      fonts: {
-        regular: {
-          fontFamily: 'System',
-          fontWeight: '400',
-        },
-        medium: {
-          fontFamily: 'System',
-          fontWeight: '500',
-        },
-        light: {
-          fontFamily: 'System',
-          fontWeight: '300',
-        },
-        thin: {
-          fontFamily: 'System',
-          fontWeight: '300',
-        },
-      },
-      animation: {
-        scale: 1,
-      },
-      spacing: 8,
-      typography: {
-        h1: {
-          fontSize: 96,
-          fontFamily: 'System',
-          fontWeight: 300,
-        },
-        h2: {
-          fontSize: 60,
-          fontFamily: 'System',
-          fontWeight: 300,
-        },
-        h3: {
-          fontSize: 48,
-          fontFamily: 'System',
-          fontWeight: 400,
-        },
-        h4: {
-          fontSize: 34,
-          fontFamily: 'System',
-          fontWeight: 400,
-        },
-        h5: {
-          fontSize: 24,
-          fontFamily: 'System',
-          fontWeight: 400,
-        },
-        h6: {
-          fontSize: 20,
-          fontFamily: 'System',
-          fontWeight: 600,
-        },
-        body1: {
-          fontSize: 16,
-          fontFamily: 'System',
-          fontWeight: 400,
-        },
-        body2: {
-          fontSize: 14,
-          fontFamily: 'System',
-          fontWeight: 400,
-        },
-        subtitle1: {
-          fontSize: 16,
-          fontFamily: 'System',
-          fontWeight: 400,
-        },
-        subtitle2: {
-          fontSize: 14,
-          fontFamily: 'System',
-          fontWeight: 500,
-        },
-        caption: {
-          fontSize: 12,
-          fontFamily: 'System',
-          fontWeight: 400,
-        },
-        overline: {
-          fontSize: 14,
-          fontFamily: 'System',
-          fontWeight: 400,
-          textTransform: 'uppercase',
-        },
-        button: {
-          fontSize: 14,
-          fontFamily: 'System',
-          fontWeight: 600,
-          textTransform: 'uppercase',
-        },
-      },
-      avatarSizes: {
-        tiny: {
-          size: 24,
-          fontSize: '.625rem',
-        },
-        small: {
-          size: 32,
-          fontSize: '.875rem',
-        },
-        standard: {
-          size: 40,
-          fontSize: '1rem',
-        },
-        large: {
-          size: 48,
-          fontSize: '1rem',
-        },
-        xlarge: {
-          size: 80,
-          fontSize: '1.5rem',
-        },
-      },
-      buttonSize: {
-        small: {
-          paddingTop: 4,
-          paddingRight: 10,
-          paddingBottom: 4,
-          paddingLeft: 10,
-          minHeight: 32,
-        },
-        medium: {
-          paddingTop: 8,
-          paddingRight: 16,
-          paddingBottom: 8,
-          paddingLeft: 16,
-          minHeight: 40,
-        },
-        large: {
-          paddingTop: 8,
-          paddingRight: 22,
-          paddingBottom: 8,
-          paddingLeft: 22,
-          minHeight: 48,
-        },
-      },
-    };
+    const mockTheme: any = themes.natura.light;
 
     test('should match to snapshot - Default', () => {
       const component = renderer.create(<Button children />).toJSON();
@@ -269,6 +112,13 @@ describe('Button', () => {
         )
         .toJSON();
       expect(component).toMatchSnapshot('Size large button snapshot');
+    });
+
+    test('should match to snapshot - No Theme', () => {
+      const component = renderer
+        .create(<Button children elevation={3} theme={{}} />)
+        .toJSON();
+      expect(component).toMatchSnapshot('No Theme button snapshot');
     });
   });
 

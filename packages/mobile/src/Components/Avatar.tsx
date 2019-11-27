@@ -53,10 +53,7 @@ declare type AvatarProps = React.ComponentProps<typeof Surface> & {
   avatarSizes?: AvatarSizes;
 };
 
-function withSizes(
-  size: AvatarSizes | undefined = 'standard',
-  theme: any = {}
-) {
+function withSizes(size: AvatarSizes | undefined = 'standard', theme: any) {
   const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
   if (!avatarSizes) return {};
 
