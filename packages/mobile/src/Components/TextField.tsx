@@ -15,6 +15,7 @@ import { IThemeShape } from 'Provider/IThemeShape';
 import Typography from '../Components/Typography';
 import { themes } from '../Themes/index';
 import { buildTheme } from '../Themes/buildTheme';
+import { tokens } from '@naturacosmeticos/natds-styles';
 /**
  * // TODO: Replace the import below to our Icon component
  */
@@ -118,20 +119,21 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     ? theme.typography.body1.fontSize
     : 16;
 
-  const styles = React.useMemo(() => {
+  const styles: any = React.useMemo(() => {
     const stylesToParse = {
       input: {
         default: {
           borderRadius: theme.roundness,
-          padding: theme.spacing ? theme.spacing : 8,
-          paddingRight: ((theme.spacing ? theme.spacing : 8)
+          padding: tokens.spacing.spacingSmall,
+          paddingRight: ((textInputStyle && textInputStyle.padding ? textInputStyle.padding : tokens.spacing.spacingSmall) as number
             * (icon ? 2 : 0))
             + (icon ? iconFontSize : 0),
           width: '100%',
           color: theme.colors.text,
           flex: 1,
           caretColor: selectionColor,
-          fontSize: theme.typography.body2 ? theme.typography.body2.fontSize : 14
+          fontSize: theme.typography.body2 ? theme.typography.body2.fontSize : 14,
+          lineHeight: tokens.spacing.spacingStandard
         } as TextStyle & { caretColor: string; },
         theme: {
           shadowColor: theme.colors.textHint,
@@ -173,7 +175,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       },
       label: {
         default: {
-          marginBottom: 2
+          paddingBottom: tokens.spacing.spacingMicro
         } as TextStyle,
         theme: {
           color: theme.colors.textSecondary
@@ -193,7 +195,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       },
       helpText: {
         default: {
-          marginTop: 1
+          paddingTop: tokens.spacing.spacingMicro
         } as TextStyle,
         theme: {
           color: theme.colors.textSecondary
@@ -213,7 +215,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       },
       icon: {
         default: {
-          padding: theme.spacing ? theme.spacing : 8,
+          padding: tokens.spacing.spacingSmall,
           position: 'absolute',
           fontSize: iconFontSize
         } as TextStyle,

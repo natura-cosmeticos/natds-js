@@ -104,6 +104,13 @@ describe('TextField', () => {
 
       expect(component).toMatchSnapshot('Not Editable TextField snapshot');
     });
+    test('should match to snapshot - Input padding snapshot', () => {
+      const component = renderer
+          .create(<TextField textInputStyle={{padding: 10}} label="mock" helpText="mock" icon="eye"/>)
+          .toJSON();
+
+      expect(component).toMatchSnapshot('Input padding snapshott');
+    });
     test('should match to snapshot - Theme with missing properties', () => {
       const theme = themes.natura.light;
       const themeClone = Object.assign(

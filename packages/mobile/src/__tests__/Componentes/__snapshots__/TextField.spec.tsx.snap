@@ -44,7 +44,8 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
+          "lineHeight": 24,
+          "padding": 16,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
@@ -123,7 +124,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
         "color": "#E74627",
         "fontSize": 16,
         "fontWeight": "300",
-        "marginBottom": 2,
+        "paddingBottom": 4,
         "textAlign": undefined,
       }
     }
@@ -158,8 +159,9 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
-          "paddingRight": 32,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 48,
           "shadowColor": "#E74627",
           "shadowOpacity": 1,
           "shadowRadius": 2,
@@ -220,7 +222,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
           Object {
             "color": "#E74627",
             "fontSize": 16,
-            "padding": 8,
+            "padding": 16,
             "position": "absolute",
           },
           Object {
@@ -242,7 +244,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
         "color": "#E74627",
         "fontSize": 16,
         "fontWeight": "300",
-        "marginTop": 1,
+        "paddingTop": 4,
         "textAlign": undefined,
       }
     }
@@ -295,8 +297,9 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
-          "paddingRight": 32,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 48,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
           "shadowRadius": 2,
@@ -357,7 +360,7 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
           Object {
             "color": "#777777",
             "fontSize": 16,
-            "padding": 8,
+            "padding": 16,
             "position": "absolute",
           },
           Object {
@@ -372,6 +375,164 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
       
     </Text>
   </View>
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Input padding snapshot: Input padding snapshott 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#777777",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingBottom": 4,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mock
+  </Text>
+  <View
+    style={
+      Object {
+        "alignItems": "center",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      icon="eye"
+      label="mock"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      selectionColor="#F4AB34"
+      style={
+        Object {
+          "borderRadius": 4,
+          "color": "#333333",
+          "elevation": 1,
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 24,
+          "padding": 10,
+          "paddingRight": 36,
+          "shadowColor": "#BBBBBB",
+          "shadowOpacity": 1,
+          "shadowRadius": 2,
+          "width": "100%",
+        }
+      }
+      textInputStyle={
+        Object {
+          "padding": 10,
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <Text
+      allowFontScaling={false}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#777777",
+            "fontSize": 16,
+            "padding": 16,
+            "position": "absolute",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#777777",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingTop": 4,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mock
+  </Text>
 </View>
 `;
 
@@ -399,7 +560,7 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
         "color": "#BBBBBB",
         "fontSize": 16,
         "fontWeight": "300",
-        "marginBottom": 2,
+        "paddingBottom": 4,
         "textAlign": undefined,
       }
     }
@@ -434,8 +595,9 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
-          "paddingRight": 32,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 48,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
           "shadowRadius": 2,
@@ -496,7 +658,7 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
           Object {
             "color": "#BBBBBB",
             "fontSize": 16,
-            "padding": 8,
+            "padding": 16,
             "position": "absolute",
           },
           Object {
@@ -518,7 +680,7 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
         "color": "#BBBBBB",
         "fontSize": 16,
         "fontWeight": "300",
-        "marginTop": 1,
+        "paddingTop": 4,
         "textAlign": undefined,
       }
     }
@@ -570,7 +732,8 @@ exports[`TextField rendering should match to snapshot - Placeholder Text Color: 
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
+          "lineHeight": 24,
+          "padding": 16,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
@@ -649,7 +812,7 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
         "color": "#777777",
         "fontSize": 16,
         "fontWeight": "300",
-        "marginBottom": 2,
+        "paddingBottom": 4,
         "textAlign": undefined,
       }
     }
@@ -683,7 +846,8 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
+          "lineHeight": 24,
+          "padding": 16,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
@@ -780,7 +944,8 @@ exports[`TextField rendering should match to snapshot - Selection Color TextFiel
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
+          "lineHeight": 24,
+          "padding": 16,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
@@ -859,7 +1024,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
         "color": "#569A32",
         "fontSize": 16,
         "fontWeight": "300",
-        "marginBottom": 2,
+        "paddingBottom": 4,
         "textAlign": undefined,
       }
     }
@@ -894,8 +1059,9 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
-          "paddingRight": 32,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 48,
           "shadowColor": "#569A32",
           "shadowOpacity": 1,
           "shadowRadius": 2,
@@ -956,7 +1122,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
           Object {
             "color": "#569A32",
             "fontSize": 16,
-            "padding": 8,
+            "padding": 16,
             "position": "absolute",
           },
           Object {
@@ -978,7 +1144,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
         "color": "#569A32",
         "fontSize": 16,
         "fontWeight": "300",
-        "marginTop": 1,
+        "paddingTop": 4,
         "textAlign": undefined,
       }
     }
@@ -1029,7 +1195,8 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
+          "lineHeight": 24,
+          "padding": 16,
           "paddingRight": 0,
           "shadowColor": undefined,
           "shadowOpacity": 1,
@@ -1248,7 +1415,8 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
             "elevation": 1,
             "flex": 1,
             "fontSize": 14,
-            "padding": 8,
+            "lineHeight": 24,
+            "padding": 16,
             "paddingRight": 0,
             "shadowColor": "#BBBBBB",
             "shadowOpacity": 1,
@@ -1465,7 +1633,8 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
+          "lineHeight": 24,
+          "padding": 16,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
@@ -1524,7 +1693,7 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
         "color": "#777777",
         "fontSize": 16,
         "fontWeight": "300",
-        "marginTop": 1,
+        "paddingTop": 4,
         "textAlign": undefined,
       }
     }
@@ -1577,8 +1746,9 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
-          "paddingRight": 32,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 48,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
           "shadowRadius": 2,
@@ -1639,7 +1809,7 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
           Object {
             "color": "#777777",
             "fontSize": 16,
-            "padding": 8,
+            "padding": 16,
             "position": "absolute",
           },
           Object {
@@ -1681,7 +1851,7 @@ exports[`TextField rendering should match to snapshot - With label: With label T
         "color": "#777777",
         "fontSize": 16,
         "fontWeight": "300",
-        "marginBottom": 2,
+        "paddingBottom": 4,
         "textAlign": undefined,
       }
     }
@@ -1714,7 +1884,8 @@ exports[`TextField rendering should match to snapshot - With label: With label T
           "elevation": 1,
           "flex": 1,
           "fontSize": 14,
-          "padding": 8,
+          "lineHeight": 24,
+          "padding": 16,
           "paddingRight": 0,
           "shadowColor": "#BBBBBB",
           "shadowOpacity": 1,
