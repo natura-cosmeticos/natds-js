@@ -1199,7 +1199,9 @@ exports[`Button rendering should match to snapshot - No Theme: No Theme button s
             "flexDirection": "row",
             "justifyContent": "center",
           },
-          Object {},
+          Object {
+            "marginLeft": 0,
+          },
         ]
       }
     >
@@ -1235,7 +1237,10 @@ exports[`Button rendering should match to snapshot - No Theme: No Theme button s
               },
               Object {
                 "fontWeight": "400",
-                "margin": 0,
+                "marginBottom": 0,
+                "marginLeft": 0,
+                "marginRight": 0,
+                "marginTop": 0,
               },
             ],
           ]

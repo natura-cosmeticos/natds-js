@@ -95,7 +95,16 @@ function withSizes(size: ButtonSize | undefined = 'medium', theme: any) {
 const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
   props: Omit<ButtonProps, 'height' | 'width'>
 ) => {
-  const { theme } = props;
+  const {
+    theme,
+    icon,
+    colorType,
+    mode,
+    elevation,
+    disabled,
+    size: propsSize,
+  } = props;
+
   const themeColors = {
     primary: theme.colors.primary,
     secondary: theme.colors.secondary,
@@ -103,58 +112,71 @@ const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
     text: theme.colors.text,
     default: '#E0E0E0',
   };
-  let color = themeColors.primary;
-  let borderColor = theme.colors.primary;
-  let style = {};
-  let margin = {
-    marginTop: 0,
-    marginRight: 0,
-    marginBottom: 0,
-    marginLeft: 0,
-  };
-  let contentStyleMargin = {
-    marginLeft: 0,
+
+  const margin = {
+    default: 0,
+    reduceFromIcon: -4,
   };
 
-  if (props.colorType) {
-    color = themeColors[props.colorType];
-    borderColor = themeColors[props.colorType];
-  }
+  const color = React.useMemo(() => {
+    let colorReturn = themeColors.primary;
 
-  if (props.mode === 'outlined') {
-    color = themeColors.text;
-  }
+    if (colorType) {
+      colorReturn = themeColors[colorType];
+    }
 
-  if (props.mode === 'text' && props.colorType === 'default') {
-    color = themeColors.text;
-  }
+    if (mode === 'outlined' || (mode === 'text' && colorType === 'default')) {
+      colorReturn = themeColors.text;
+    }
 
-  if (props.elevation) {
-    style = elevationShadowStyle(props.elevation);
-  }
+    if (disabled) {
+      colorReturn = themeColors.disabled;
+    }
 
-  if (props.disabled) {
-    color = themeColors.disabled;
-    borderColor = themeColors.disabled;
-    style = {};
-  }
+    return colorReturn;
+  }, [colorType, mode, disabled]);
 
-  if (props.icon) {
-    margin = {
+  const borderColor = React.useMemo(() => {
+    let borderColorReturn = theme.colors.primary;
+
+    if (colorType) {
+      borderColorReturn = themeColors[colorType];
+    }
+
+    if (disabled) {
+      borderColorReturn = themeColors.disabled;
+    }
+
+    return borderColorReturn;
+  }, [colorType, disabled]);
+
+  const style = React.useMemo(
+    () => (elevation ? elevationShadowStyle(elevation) : {}),
+    [elevation]
+  );
+
+  const labelStyleMargin = React.useMemo(
+    () => ({
       marginTop: 0,
       marginRight: 0,
       marginBottom: 0,
-      marginLeft: -4,
-    };
+      marginLeft: icon ? margin.reduceFromIcon : margin.default,
+    }),
+    [icon]
+  );
 
-    if (props.size === 'small') {
-      contentStyleMargin = {
-        marginLeft: -4,
-      };
-    }
-  }
+  const contentStyleMargin = React.useMemo(
+    () => ({
+      marginLeft:
+        icon && propsSize === 'small' ? margin.reduceFromIcon : margin.default,
+    }),
+    [icon, propsSize]
+  );
 
-  const size = withSizes(props.size, props.theme);
+  const size = React.useMemo(() => withSizes(propsSize, theme), [
+    propsSize,
+    theme,
+  ]);
 
   return (
     <PaperButton
@@ -165,7 +187,7 @@ const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
       contentStyle={{ ...contentStyleMargin }}
       labelStyle={{
         ...size,
-        ...margin,
+        ...labelStyleMargin,
         fontWeight: theme.fonts.regular.fontWeight,
       }}
     />
