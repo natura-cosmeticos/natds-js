@@ -16,7 +16,8 @@ function getProps(props: any = {}) {
     state,
     disabled,
     required,
-    theme = themes.natura.light
+    theme = themes.natura.light,
+    mask
   } = props;
 
   return {
@@ -27,7 +28,8 @@ function getProps(props: any = {}) {
     state,
     disabled,
     required,
-    theme
+    theme,
+    mask
   };
 }
 
@@ -162,6 +164,13 @@ describe('TextField component', () => {
       const component = renderer.create(<TextField {...getProps()} multiline />).toJSON();
 
       expect(component).to.matchSnapshot('TextField multiline snapshot');
+    });
+
+    test('should match snapshot - TextField (mask)', () => {
+      const mask = ['(', /[1-9]/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
+      const component = renderer.create(<TextField {...getProps({ mask })} />).toJSON();
+
+      expect(component).to.matchSnapshot('TextField mask snapshot');
     });
 
     test('should match snapshot - TextField (theme change)', () => {

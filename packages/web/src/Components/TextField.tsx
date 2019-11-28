@@ -55,7 +55,7 @@ interface ITextFieldProps {
    * @optional
    * Mask format based on https://github.com/sanniassin/react-input-mask
    */
-  mask?: string;
+  mask?: () => (void) | string[];
 }
 
 const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
@@ -92,6 +92,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
         disabled={disabled}
         as={fieldType}
         placeholder={placeholder}
+        mask={mask}
         {...rest}
       />
       <HelpText

@@ -573,19 +573,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
 }
 
-.c2::-webkit-input-placeholder:disabled {
+.c2:disabled::-webkit-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::-moz-placeholder:disabled {
+.c2:disabled::-moz-placeholder {
   color: #EEEEEE;
 }
 
-.c2:-ms-input-placeholder:disabled {
+.c2:disabled:-ms-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::placeholder:disabled {
+.c2:disabled::placeholder {
   color: #EEEEEE;
 }
 
@@ -635,7 +635,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="c2"
     disabled={false}
     id="field"
-    placeholder=" "
+    placeholder="&nbsp;"
   />
   <span
     className="c3"
@@ -705,19 +705,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
 }
 
-.c2::-webkit-input-placeholder:disabled {
+.c2:disabled::-webkit-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::-moz-placeholder:disabled {
+.c2:disabled::-moz-placeholder {
   color: #EEEEEE;
 }
 
-.c2:-ms-input-placeholder:disabled {
+.c2:disabled:-ms-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::placeholder:disabled {
+.c2:disabled::placeholder {
   color: #EEEEEE;
 }
 
@@ -1251,19 +1251,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
 }
 
-.c2::-webkit-input-placeholder:disabled {
+.c2:disabled::-webkit-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::-moz-placeholder:disabled {
+.c2:disabled::-moz-placeholder {
   color: #EEEEEE;
 }
 
-.c2:-ms-input-placeholder:disabled {
+.c2:disabled:-ms-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::placeholder:disabled {
+.c2:disabled::placeholder {
   color: #EEEEEE;
 }
 
@@ -1797,19 +1797,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
 }
 
-.c2::-webkit-input-placeholder:disabled {
+.c2:disabled::-webkit-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::-moz-placeholder:disabled {
+.c2:disabled::-moz-placeholder {
   color: #EEEEEE;
 }
 
-.c2:-ms-input-placeholder:disabled {
+.c2:disabled:-ms-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::placeholder:disabled {
+.c2:disabled::placeholder {
   color: #EEEEEE;
 }
 
@@ -2343,19 +2343,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
 }
 
-.c2::-webkit-input-placeholder:disabled {
+.c2:disabled::-webkit-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::-moz-placeholder:disabled {
+.c2:disabled::-moz-placeholder {
   color: #EEEEEE;
 }
 
-.c2:-ms-input-placeholder:disabled {
+.c2:disabled:-ms-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::placeholder:disabled {
+.c2:disabled::placeholder {
   color: #EEEEEE;
 }
 
@@ -2407,6 +2407,353 @@ exports[`TextField component rendering state should match snapshot - TextField (
     id="field"
     placeholder="Placeholder"
     value="some value"
+  />
+  <span
+    className="c3"
+    disabled={false}
+  >
+    Assistive text
+  </span>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (mask): TextField mask snapshot 1`] = `
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #BBBBBB;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c2 {
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c2:disabled,
+.c2:disabled:hover {
+  color: #EEEEEE;
+  box-shadow: #EEEEEE 0 0 0 1px;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c2::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c2:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c2::placeholder {
+  color: #BBBBBB;
+}
+
+.c2:disabled::-webkit-input-placeholder {
+  color: #EEEEEE;
+}
+
+.c2:disabled::-moz-placeholder {
+  color: #EEEEEE;
+}
+
+.c2:disabled:-ms-input-placeholder {
+  color: #EEEEEE;
+}
+
+.c2:disabled::placeholder {
+  color: #EEEEEE;
+}
+
+.c2:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c2:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c2:hover:not(:-moz-read-only) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c2:hover:not(:read-only) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c2:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c2:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #BBBBBB;
+  line-height: 1.2;
+  padding: 4px 0 0;
+}
+
+<div
+  className="c0"
+>
+  <label
+    className="c1"
+    disabled={false}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <input
+    className="c2"
+    disabled={false}
+    id="field"
+    mask={
+      Array [
+        "(",
+        /\\[1-9\\]/,
+        /\\\\d/,
+        ")",
+        " ",
+        /\\\\d/,
+        /\\\\d/,
+        /\\\\d/,
+        /\\\\d/,
+        "-",
+        /\\\\d/,
+        /\\\\d/,
+        /\\\\d/,
+        /\\\\d/,
+      ]
+    }
+    placeholder="Placeholder"
+    theme={
+      Object {
+        "avatarSizes": Object {
+          "large": Object {
+            "fontSize": "1rem",
+            "size": 48,
+          },
+          "small": Object {
+            "fontSize": ".875rem",
+            "size": 32,
+          },
+          "standard": Object {
+            "fontSize": "1rem",
+            "size": 40,
+          },
+          "tiny": Object {
+            "fontSize": ".625rem",
+            "size": 24,
+          },
+          "xlarge": Object {
+            "fontSize": "1.5rem",
+            "size": 80,
+          },
+        },
+        "buttonSize": Object {
+          "large": Object {
+            "minHeight": 48,
+            "paddingBottom": 8,
+            "paddingLeft": 22,
+            "paddingRight": 22,
+            "paddingTop": 8,
+          },
+          "medium": Object {
+            "minHeight": 40,
+            "paddingBottom": 8,
+            "paddingLeft": 16,
+            "paddingRight": 16,
+            "paddingTop": 8,
+          },
+          "small": Object {
+            "minHeight": 32,
+            "paddingBottom": 4,
+            "paddingLeft": 10,
+            "paddingRight": 10,
+            "paddingTop": 4,
+          },
+        },
+        "overrides": Object {
+          "MuiAvatar": Object {
+            "colorDefault": Object {
+              "color": "#333333",
+            },
+          },
+          "MuiButton": Object {
+            "outlinedPrimary": Object {
+              "color": "#333333",
+            },
+            "outlinedSecondary": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "0.875rem",
+              "minHeight": "40px",
+              "padding": "8px 16px",
+            },
+            "sizeLarge": Object {
+              "fontSize": "0.875rem",
+              "minHeight": "48px",
+            },
+            "sizeSmall": Object {
+              "fontSize": "0.875rem",
+              "minHeight": "32px",
+            },
+          },
+        },
+        "palette": Object {
+          "background": Object {
+            "default": "#FFFFFF",
+            "paper": "#FAFAFA",
+          },
+          "error": Object {
+            "contrastText": "#333333",
+            "main": "#E74627",
+          },
+          "primary": Object {
+            "contrastText": "#333333",
+            "dark": "#EF8426",
+            "light": "#FEFDE8",
+            "main": "#F4AB34",
+          },
+          "secondary": Object {
+            "contrastText": "#333333",
+            "dark": "#FF6B0B",
+            "light": "#FFF8E1",
+            "main": "#FF6B0B",
+          },
+          "success": Object {
+            "main": "#569A32",
+          },
+          "text": Object {
+            "disabled": "#EEEEEE",
+            "hint": "#BBBBBB",
+            "primary": "#333333",
+            "secondary": "#777777",
+          },
+          "type": "light",
+        },
+        "shape": Object {
+          "borderRadius": 4,
+        },
+        "spacing": 8,
+        "typography": Object {
+          "android": Object {
+            "fontFamily": "System",
+            "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+            "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+            "fontFamilyBrand3": undefined,
+            "fontWeightBold": 700,
+            "fontWeightLight": 300,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
+          },
+          "body1": Object {
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          },
+          "body2": Object {
+            "fontSize": "0.875rem",
+            "fontWeight": 400,
+          },
+          "button": Object {
+            "fontSize": "0.875rem",
+            "fontWeight": 600,
+          },
+          "caption": Object {
+            "fontSize": "0.75rem",
+            "fontWeight": 400,
+          },
+          "h1": Object {
+            "fontSize": "6rem",
+            "fontWeight": 300,
+          },
+          "h2": Object {
+            "fontSize": "3.75rem",
+            "fontWeight": 300,
+          },
+          "h3": Object {
+            "fontSize": "3rem",
+            "fontWeight": 400,
+          },
+          "h4": Object {
+            "fontSize": "2.125rem",
+            "fontWeight": 400,
+          },
+          "h5": Object {
+            "fontSize": "1.5rem",
+            "fontWeight": 400,
+          },
+          "h6": Object {
+            "fontSize": "1.25rem",
+            "fontWeight": 600,
+          },
+          "iOS": Object {
+            "fontFamily": "System",
+            "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+            "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+            "fontFamilyBrand3": undefined,
+            "fontWeightBold": 700,
+            "fontWeightLight": 300,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
+          },
+          "overline": Object {
+            "fontSize": "0.75rem",
+            "fontWeight": 400,
+          },
+          "subtitle1": Object {
+            "fontSize": "1rem",
+            "fontWeight": 400,
+          },
+          "subtitle2": Object {
+            "fontSize": "0.875rem",
+            "fontWeight": 500,
+          },
+          "web": Object {
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+            "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+            "fontFamilyBrand3": undefined,
+            "fontWeightBold": 700,
+            "fontWeightLight": 300,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
+          },
+        },
+      }
+    }
   />
   <span
     className="c3"
@@ -2476,19 +2823,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
 }
 
-.c2::-webkit-input-placeholder:disabled {
+.c2:disabled::-webkit-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::-moz-placeholder:disabled {
+.c2:disabled::-moz-placeholder {
   color: #EEEEEE;
 }
 
-.c2:-ms-input-placeholder:disabled {
+.c2:disabled:-ms-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::placeholder:disabled {
+.c2:disabled::placeholder {
   color: #EEEEEE;
 }
 
@@ -2608,19 +2955,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
 }
 
-.c2::-webkit-input-placeholder:disabled {
+.c2:disabled::-webkit-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::-moz-placeholder:disabled {
+.c2:disabled::-moz-placeholder {
   color: #EEEEEE;
 }
 
-.c2:-ms-input-placeholder:disabled {
+.c2:disabled:-ms-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::placeholder:disabled {
+.c2:disabled::placeholder {
   color: #EEEEEE;
 }
 
@@ -2741,19 +3088,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
 }
 
-.c2::-webkit-input-placeholder:disabled {
+.c2:disabled::-webkit-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::-moz-placeholder:disabled {
+.c2:disabled::-moz-placeholder {
   color: #EEEEEE;
 }
 
-.c2:-ms-input-placeholder:disabled {
+.c2:disabled:-ms-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::placeholder:disabled {
+.c2:disabled::placeholder {
   color: #EEEEEE;
 }
 
@@ -3287,19 +3634,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
 }
 
-.c2::-webkit-input-placeholder:disabled {
+.c2:disabled::-webkit-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::-moz-placeholder:disabled {
+.c2:disabled::-moz-placeholder {
   color: #EEEEEE;
 }
 
-.c2:-ms-input-placeholder:disabled {
+.c2:disabled:-ms-input-placeholder {
   color: #EEEEEE;
 }
 
-.c2::placeholder:disabled {
+.c2:disabled::placeholder {
   color: #EEEEEE;
 }
 
@@ -3374,7 +3721,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c1 {
   font-size: 0.875rem;
   font-weight: 500;
-  color: #BBBBBB;
+  color: #777777;
   line-height: 1.2;
   padding: 0 0 4px;
 }
@@ -3387,7 +3734,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   line-height: 24px;
   min-height: 48px;
   outline: none;
-  color: #333333;
+  color: #FAFAFA;
   font-size: 0.875rem;
   font-weight: 400;
   -webkit-flex: 1 1 100%;
@@ -3399,56 +3746,56 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 .c2:disabled,
 .c2:disabled:hover {
-  color: #EEEEEE;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  color: #222222;
+  box-shadow: #222222 0 0 0 1px;
 }
 
 .c2::-webkit-input-placeholder {
-  color: #BBBBBB;
+  color: #777777;
 }
 
 .c2::-moz-placeholder {
-  color: #BBBBBB;
+  color: #777777;
 }
 
 .c2:-ms-input-placeholder {
-  color: #BBBBBB;
+  color: #777777;
 }
 
 .c2::placeholder {
-  color: #BBBBBB;
+  color: #777777;
 }
 
-.c2::-webkit-input-placeholder:disabled {
-  color: #EEEEEE;
+.c2:disabled::-webkit-input-placeholder {
+  color: #222222;
 }
 
-.c2::-moz-placeholder:disabled {
-  color: #EEEEEE;
+.c2:disabled::-moz-placeholder {
+  color: #222222;
 }
 
-.c2:-ms-input-placeholder:disabled {
-  color: #EEEEEE;
+.c2:disabled:-ms-input-placeholder {
+  color: #222222;
 }
 
-.c2::placeholder:disabled {
-  color: #EEEEEE;
+.c2:disabled::placeholder {
+  color: #222222;
 }
 
 .c2:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c2:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
+  box-shadow: #FAFAFA 0 0 0 1px;
 }
 
 .c2:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c2:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c2:focus:not(:-moz-read-only) {
@@ -3462,7 +3809,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3 {
   font-size: 0.75rem;
   font-weight: 400;
-  color: #BBBBBB;
+  color: #777777;
   line-height: 1.2;
   padding: 4px 0 0;
 }

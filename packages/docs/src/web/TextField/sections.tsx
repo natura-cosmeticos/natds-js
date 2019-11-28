@@ -61,7 +61,7 @@ export const attributes = [
     component: <TextField label="Label" placeholder="Placeholder" />
   },
   {
-    title: 'Without helper text',
-    component: <TextField label="Label" placeholder="Placeholder" />
+    title: 'With Mask',
+    component: <TextField label="Label" placeholder="(11) 9999-9999" mask={['(', /[1-9]/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]} />
   }
 ];
