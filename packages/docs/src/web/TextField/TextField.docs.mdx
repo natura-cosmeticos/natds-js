@@ -1,6 +1,8 @@
 import { Meta, Preview } from '@storybook/addon-docs/blocks';
 import { TextField, Provider, themes } from '@naturacosmeticos/natds-web';
 import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { types, states, attributes } from './sections';
 
 # TextField
 
@@ -16,7 +18,7 @@ import { TextField } from '@naturacosmeticos/natds-web';
   label="Label"
   helpText="Assistive text"
   placeholder="Placeholder"
-  status="success"
+  state="success"
   disabled
   required
 />;
@@ -29,44 +31,29 @@ import { TextField } from '@naturacosmeticos/natds-web';
 
 <Preview>
   <Provider theme={themes.natura.light}>
-    <div style={{ display: 'flex', flexFlow: 'row' }}>
-      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
-        <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" />
-      </div>
-      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
-        <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" disabled />
-      </div>
-      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
-        <TextField status="success" label="Label" helpText="Success: Assistive text" placeholder="Placeholder" />
-      </div>
-      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
-        <TextField status="error" label="Label" helpText="Error: Assistive text" placeholder="Placeholder" />
-      </div>
-    </div>
+    <ComponentWithLabel componentList={types} />
   </Provider>
 </Preview>
 
 ---
 ---
 
-## Types (Multiline)
+## States
 
 <Preview>
   <Provider theme={themes.natura.light}>
-    <div style={{ display: 'flex', flexFlow: 'row' }}>
-      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
-        <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" multiline />
-      </div>
-      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
-        <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" disabled multiline />
-      </div>
-      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
-        <TextField status="success" label="Label" helpText="Success: Assistive text" placeholder="Placeholder" multiline />
-      </div>
-      <div style={{ padding: '20px', flex: '1 1 auto', maxWidth: '300px' }}>
-        <TextField status="error" label="Label" helpText="Error: Assistive text" placeholder="Placeholder" multiline />
-      </div>
-    </div>
+    <ComponentWithLabel componentList={states} />
+  </Provider>
+</Preview>
+
+---
+---
+
+## Attributes
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <ComponentWithLabel componentList={attributes} />
   </Provider>
 </Preview>
 
@@ -82,6 +69,6 @@ import { TextField } from '@naturacosmeticos/natds-web';
 | required                  | boolean                                         | false                         | Whether the field is required or not.
 | disabled                  | boolean                                         | false                         | Disables the input for user interactions.
 | multiline                 | boolean                                         | false                         | Transform TextField in to a textarea.
-| status                    | string                                          | 'success', 'error', undefined | Sets whether the input is in error or success state.
+| state                     | string                                          | 'success', 'error', undefined | Sets whether the input is in error or success state.
 
 (other props passed to the TextField will be forward to the input/textarea element)

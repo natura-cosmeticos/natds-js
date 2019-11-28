@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { themes } from '@naturacosmeticos/natds-styles';
-import Table from '@addons/Table/Table';
+import Table from '@addons/Table';
 
 const {
   h1,

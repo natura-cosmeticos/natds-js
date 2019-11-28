@@ -37,9 +37,9 @@ interface ITextFieldProps {
   disabled?: boolean;
   /**
    * @optional
-   * Optional status for component variant
+   * Optional state for component variant
    */
-  status?: 'error' | 'success' | undefined;
+  state?: 'error' | 'success' | undefined;
   /**
    * @optional
    * The input type property
@@ -60,7 +60,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
     theme,
     required = false,
     disabled = false,
-    status,
+    state,
     multiline,
     placeholder = ' ', // Placeholder should always exist to make filled state work
     ...rest
@@ -73,14 +73,14 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
       <Label
         theme={theme}
         htmlFor={id}
-        status={status}
+        state={state}
         disabled={disabled}>
         {content}
       </Label>
       <Field
         theme={theme}
         id={id}
-        status={status}
+        state={state}
         disabled={disabled}
         as={multiline ? 'textarea' : 'input'}
         placeholder={placeholder}
@@ -88,7 +88,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
       />
       <HelpText
         theme={theme}
-        status={status}
+        state={state}
         disabled={disabled}>
         {helpText}
       </HelpText>
@@ -98,7 +98,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
 
 export default withTheme(TextField);
 
-const stateStyle = {
+const statetyle = {
   default: { type: 'text', key: 'hint', borderWidth: '0 0 0 1px' },
   disabled: { type: 'text', key: 'disabled', borderWidth: '0 0 0 1px' },
   hover: { type: 'text', key: 'secondary', borderWidth: '0 0 0 1px' },
@@ -123,8 +123,8 @@ function getProp(namespace: string, type: string, key?: string) {
   };
 }
 
-function getState({ disabled, status }: Pick<ITextFieldProps, 'disabled' | 'status'>, initial: IStateTypes) {
-  return (disabled ? stateStyle.disabled : stateStyle[status|| '']) || initial;
+function getState({ disabled, state }: Pick<ITextFieldProps, 'disabled' | 'state'>, initial: IStateTypes) {
+  return (disabled ? statetyle.disabled : statetyle[state|| '']) || initial;
 }
 
 function getColorByState(initial: IStateTypes) {
@@ -152,7 +152,7 @@ const Container = styled.div`
 const Label = styled.label`
   font-size: ${getProp('typography', 'subtitle2', 'fontSize')};
   font-weight: ${getProp('typography', 'subtitle2', 'fontWeight')};
-  color: ${getColorByState(stateStyle.default)};
+  color: ${getColorByState(statetyle.default)};
   line-height: 1.2;
   padding: 0 0 ${tokens.spacing.spacingMicro}px;
 `;
@@ -173,13 +173,8 @@ const Field = styled.input`
   resize: vertical;
 
   &:disabled,
-  &:disabled::placeholder,
   &:disabled:hover {
     color: ${getProp('palette', 'text', 'disabled')};
-  }
-
-  &:disabled,
-  &:disabled:hover {
     box-shadow: ${getProp('palette', 'text', 'disabled')} 0 0 0 1px;
   }
 
@@ -187,27 +182,31 @@ const Field = styled.input`
     color: ${getProp('palette', 'text', 'hint')};
   }
 
+  &::placeholder:disabled {
+    color: ${getProp('palette', 'text', 'disabled')};
+  }
+
   &:placeholder-shown {
-    box-shadow: ${getBorderByState(stateStyle.default)};
+    box-shadow: ${getBorderByState(statetyle.default)};
   }
 
   &:not(:placeholder-shown) {
-    box-shadow: ${getBorderByState(stateStyle.filled)};
+    box-shadow: ${getBorderByState(statetyle.filled)};
   }
 
-  &:hover {
-    box-shadow: ${getBorderByState(stateStyle.hover)};
+  &:hover:not(:read-only) {
+    box-shadow: ${getBorderByState(statetyle.hover)};
   }
 
-  &:focus {
-    box-shadow: ${getBorderByState(stateStyle.focus)};
+  &:focus:not(:read-only) {
+    box-shadow: ${getBorderByState(statetyle.focus)};
   }
 `;
 
 const HelpText = styled.span`
   font-size: ${getProp('typography', 'caption', 'fontSize')};
   font-weight: ${getProp('typography', 'caption', 'fontWeight')};
-  color: ${getColorByState(stateStyle.default)};
+  color: ${getColorByState(statetyle.default)};
   line-height: 1.2;
   padding: ${tokens.spacing.spacingMicro}px 0 0;
 `;

@@ -28,7 +28,7 @@ const types: any = {
   email: 'email',
 };
 
-const status: any = {
+const states: any = {
   success: 'success',
   error: 'error',
   default: undefined
@@ -41,7 +41,7 @@ export const Interactive = () => (
     placeholder={text('placeholder', 'XD')}
     helpText={text('helpText', 'Assistive text')}
     type={select('type', types, types.text)}
-    status={select('status', status, status.text)}
+    state={select('state', states, states.text)}
     required={boolean('required', false)}
     disabled={boolean('disabled', false)}
     multiline={boolean('multiline', false)}

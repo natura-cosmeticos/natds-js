@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { tokens } from '@naturacosmeticos/natds-styles';
-import Table from '@addons/Table/Table';
-import Colors from '@addons/Colors/Colors';
+import Table from '@addons/Table';
+import Colors from '@addons/Colors';
 import tokensParams from '../shared';
 
 const { natura } = tokens.colors;
