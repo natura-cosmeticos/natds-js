@@ -107,7 +107,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
 
 export default withTheme(TextField);
 
-const statetyle = {
+const stateStyles = {
   default: { type: 'text', key: 'hint', borderWidth: '0 0 0 1px' },
   disabled: { type: 'text', key: 'disabled', borderWidth: '0 0 0 1px' },
   hover: { type: 'text', key: 'secondary', borderWidth: '0 0 0 1px' },
@@ -133,7 +133,7 @@ function getProp(namespace: string, type: string, key?: string) {
 }
 
 function getState({ disabled, state }: Pick<ITextFieldProps, 'disabled' | 'state'>, initial: IStateTypes) {
-  return (disabled ? statetyle.disabled : statetyle[state|| '']) || initial;
+  return (disabled ? stateStyles.disabled : stateStyles[state|| '']) || initial;
 }
 
 function getColorByState(initial: IStateTypes) {
@@ -161,7 +161,7 @@ const Container = styled.div`
 const Label = styled.label`
   font-size: ${getProp('typography', 'subtitle2', 'fontSize')};
   font-weight: ${getProp('typography', 'subtitle2', 'fontWeight')};
-  color: ${getColorByState(statetyle.default)};
+  color: ${getColorByState(stateStyles.default)};
   line-height: 1.2;
   padding: 0 0 ${tokens.spacing.spacingMicro}px;
 `;
@@ -196,26 +196,26 @@ const Field = styled.input`
   }
 
   &:placeholder-shown {
-    box-shadow: ${getBorderByState(statetyle.default)};
+    box-shadow: ${getBorderByState(stateStyles.default)};
   }
 
   &:not(:placeholder-shown) {
-    box-shadow: ${getBorderByState(statetyle.filled)};
+    box-shadow: ${getBorderByState(stateStyles.filled)};
   }
 
   &:hover:not(:read-only) {
-    box-shadow: ${getBorderByState(statetyle.hover)};
+    box-shadow: ${getBorderByState(stateStyles.hover)};
   }
 
   &:focus:not(:read-only) {
-    box-shadow: ${getBorderByState(statetyle.focus)};
+    box-shadow: ${getBorderByState(stateStyles.focus)};
   }
 `;
 
 const HelpText = styled.span`
   font-size: ${getProp('typography', 'caption', 'fontSize')};
   font-weight: ${getProp('typography', 'caption', 'fontWeight')};
-  color: ${getColorByState(statetyle.default)};
+  color: ${getColorByState(stateStyles.default)};
   line-height: 1.2;
   padding: ${tokens.spacing.spacingMicro}px 0 0;
 `;
