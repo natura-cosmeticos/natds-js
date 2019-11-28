@@ -1,6 +1,9 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
+import ClearOutlined from '@material-ui/icons/HighlightOffOutlined';
+import CheckCircleOutline from '@material-ui/icons/CheckCircleOutline';
+
 import MaskedInput from 'react-text-mask';
 import { withTheme } from '@material-ui/styles';
 import { IThemeWeb } from 'Themes';
@@ -45,7 +48,7 @@ interface ITextFieldProps {
    * @optional
    * The input type property
    */
-  type?: 'text' | 'password' | 'search' | string;
+  type: Pick<HTMLInputElement, 'type'>;
   /**
    * @optional
    * Uses a textarea as input
@@ -53,7 +56,7 @@ interface ITextFieldProps {
   multiline?: boolean;
   /**
    * @optional
-   * Mask format based on https://github.com/sanniassin/react-input-mask
+   * Mask format. Based on https://github.com/sanniassin/react-input-mask
    */
   mask?: () => (void) | string[];
 }
@@ -75,6 +78,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
 
   const content = required ? `${label} *` : label;
   const fieldType = multiline ? 'textarea' : (mask ? MaskedInput : 'input');
+  const StateIcon = stateIcons[String(state)];
 
   return (
     <Container theme={theme}>
@@ -99,6 +103,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
         theme={theme}
         state={state}
         disabled={disabled}>
+        {StateIcon && <StateIcon theme={theme} />}
         {helpText}
       </HelpText>
     </Container>
@@ -151,6 +156,20 @@ function getBorderByState(initial: IStateTypes) {
     return `${getProp('palette', type, key)(props)} ${borderWidth}`;
   };
 }
+
+const IconError = styled(ClearOutlined)`
+  width: 16px!important;
+  height: 16px!important;
+  border-radius: 50%;
+  margin-right: 4px;
+`;
+
+const IconSuccess = styled(CheckCircleOutline)`
+  width: 16px!important;
+  height: 16px!important;
+  border-radius: 50%;
+  margin-right: 4px;
+`;
 
 const Container = styled.div`
   display: flex;
@@ -218,4 +237,11 @@ const HelpText = styled.span`
   color: ${getColorByState(stateStyles.default)};
   line-height: 1.2;
   padding: ${tokens.spacing.spacingMicro}px 0 0;
+  display: flex;
+  align-items: center;
 `;
+
+const stateIcons = {
+  'error': IconError,
+  'success': IconSuccess,
+};

@@ -33,24 +33,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -239,24 +239,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -487,6 +487,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3 {
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -619,6 +627,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -751,6 +767,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -812,24 +836,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -1019,24 +1043,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -1297,6 +1321,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #EEEEEE;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -1358,24 +1390,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -1565,24 +1597,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -1739,6 +1771,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error): TextField error snapshot 1`] = `
+.c4 {
+  width: 16px!important;
+  height: 16px!important;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1843,6 +1882,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #E74627;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -1865,6 +1912,214 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="c3"
     disabled={false}
   >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root c4"
+      focusable="false"
+      role="presentation"
+      theme={
+        Object {
+          "avatarSizes": Object {
+            "large": Object {
+              "fontSize": "1rem",
+              "size": 48,
+            },
+            "small": Object {
+              "fontSize": ".875rem",
+              "size": 32,
+            },
+            "standard": Object {
+              "fontSize": "1rem",
+              "size": 40,
+            },
+            "tiny": Object {
+              "fontSize": ".625rem",
+              "size": 24,
+            },
+            "xlarge": Object {
+              "fontSize": "1.5rem",
+              "size": 80,
+            },
+          },
+          "buttonSize": Object {
+            "large": Object {
+              "minHeight": 48,
+              "paddingBottom": 16,
+              "paddingLeft": 18,
+              "paddingRight": 18,
+              "paddingTop": 16,
+            },
+            "medium": Object {
+              "minHeight": 40,
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+            },
+            "small": Object {
+              "minHeight": 32,
+              "paddingBottom": 8,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 8,
+            },
+          },
+          "overrides": Object {
+            "MuiAvatar": Object {
+              "colorDefault": Object {
+                "color": "#333333",
+              },
+            },
+            "MuiButton": Object {
+              "outlinedPrimary": Object {
+                "color": "#333333",
+              },
+              "outlinedSecondary": Object {
+                "color": "#333333",
+              },
+              "root": Object {
+                "fontSize": "0.875rem",
+                "minHeight": "40px",
+                "padding": "8px 16px",
+              },
+              "sizeLarge": Object {
+                "fontSize": "0.875rem",
+                "minHeight": "48px",
+              },
+              "sizeSmall": Object {
+                "fontSize": "0.875rem",
+                "minHeight": "32px",
+              },
+            },
+          },
+          "palette": Object {
+            "background": Object {
+              "default": "#FFFFFF",
+              "paper": "#FAFAFA",
+            },
+            "error": Object {
+              "contrastText": "#333333",
+              "main": "#E74627",
+            },
+            "primary": Object {
+              "contrastText": "#333333",
+              "dark": "#EF8426",
+              "light": "#FEFDE8",
+              "main": "#F4AB34",
+            },
+            "secondary": Object {
+              "contrastText": "#333333",
+              "dark": "#FF6B0B",
+              "light": "#FFF8E1",
+              "main": "#FF6B0B",
+            },
+            "success": Object {
+              "main": "#569A32",
+            },
+            "text": Object {
+              "disabled": "#EEEEEE",
+              "hint": "#BBBBBB",
+              "primary": "#333333",
+              "secondary": "#777777",
+            },
+            "type": "light",
+          },
+          "shape": Object {
+            "borderRadius": 4,
+          },
+          "spacing": 8,
+          "typography": Object {
+            "android": Object {
+              "fontFamily": "System",
+              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+              "fontFamilyBrand3": undefined,
+              "fontWeightBold": 700,
+              "fontWeightLight": 300,
+              "fontWeightMedium": 500,
+              "fontWeightRegular": 400,
+            },
+            "body1": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+            },
+            "body2": Object {
+              "fontSize": "0.875rem",
+              "fontWeight": 400,
+            },
+            "button": Object {
+              "fontSize": "0.875rem",
+              "fontWeight": 600,
+            },
+            "caption": Object {
+              "fontSize": "0.75rem",
+              "fontWeight": 400,
+            },
+            "h1": Object {
+              "fontSize": "6rem",
+              "fontWeight": 300,
+            },
+            "h2": Object {
+              "fontSize": "3.75rem",
+              "fontWeight": 300,
+            },
+            "h3": Object {
+              "fontSize": "3rem",
+              "fontWeight": 400,
+            },
+            "h4": Object {
+              "fontSize": "2.125rem",
+              "fontWeight": 400,
+            },
+            "h5": Object {
+              "fontSize": "1.5rem",
+              "fontWeight": 400,
+            },
+            "h6": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+            "iOS": Object {
+              "fontFamily": "System",
+              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+              "fontFamilyBrand3": undefined,
+              "fontWeightBold": 700,
+              "fontWeightLight": 300,
+              "fontWeightMedium": 500,
+              "fontWeightRegular": 400,
+            },
+            "overline": Object {
+              "fontSize": "0.75rem",
+              "fontWeight": 400,
+            },
+            "subtitle1": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+            },
+            "subtitle2": Object {
+              "fontSize": "0.875rem",
+              "fontWeight": 500,
+            },
+            "web": Object {
+              "fontFamily": "\\"Roboto\\", sans-serif",
+              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+              "fontFamilyBrand3": undefined,
+              "fontWeightBold": 700,
+              "fontWeightLight": 300,
+              "fontWeightMedium": 500,
+              "fontWeightRegular": 400,
+            },
+          },
+        }
+      }
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M14.59 8L12 10.59 9.41 8 8 9.41 10.59 12 8 14.59 9.41 16 12 13.41 14.59 16 16 14.59 13.41 12 16 9.41 14.59 8zM12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm0 18c-4.41 0-8-3.59-8-8s3.59-8 8-8 8 3.59 8 8-3.59 8-8 8z"
+      />
+    </svg>
     Assistive text
   </span>
 </div>
@@ -1903,24 +2158,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -2110,24 +2365,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -2389,6 +2644,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -2522,6 +2785,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -2584,24 +2855,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "buttonSize": Object {
           "large": Object {
             "minHeight": 48,
-            "paddingBottom": 8,
-            "paddingLeft": 22,
-            "paddingRight": 22,
-            "paddingTop": 8,
+            "paddingBottom": 16,
+            "paddingLeft": 18,
+            "paddingRight": 18,
+            "paddingTop": 16,
           },
           "medium": Object {
             "minHeight": 40,
-            "paddingBottom": 8,
+            "paddingBottom": 12,
             "paddingLeft": 16,
             "paddingRight": 16,
-            "paddingTop": 8,
+            "paddingTop": 12,
           },
           "small": Object {
             "minHeight": 32,
-            "paddingBottom": 4,
+            "paddingBottom": 8,
             "paddingLeft": 10,
             "paddingRight": 10,
-            "paddingTop": 4,
+            "paddingTop": 8,
           },
         },
         "overrides": Object {
@@ -2869,6 +3140,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -3001,6 +3280,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -3134,6 +3421,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #BBBBBB;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -3195,24 +3490,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -3402,24 +3697,24 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "buttonSize": Object {
         "large": Object {
           "minHeight": 48,
-          "paddingBottom": 8,
-          "paddingLeft": 22,
-          "paddingRight": 22,
-          "paddingTop": 8,
+          "paddingBottom": 16,
+          "paddingLeft": 18,
+          "paddingRight": 18,
+          "paddingTop": 16,
         },
         "medium": Object {
           "minHeight": 40,
-          "paddingBottom": 8,
+          "paddingBottom": 12,
           "paddingLeft": 16,
           "paddingRight": 16,
-          "paddingTop": 8,
+          "paddingTop": 12,
         },
         "small": Object {
           "minHeight": 32,
-          "paddingBottom": 4,
+          "paddingBottom": 8,
           "paddingLeft": 10,
           "paddingRight": 10,
-          "paddingTop": 4,
+          "paddingTop": 8,
         },
       },
       "overrides": Object {
@@ -3576,6 +3871,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success): TextField success snapshot 1`] = `
+.c4 {
+  width: 16px!important;
+  height: 16px!important;
+  border-radius: 50%;
+  margin-right: 4px;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3680,6 +3982,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #569A32;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
@@ -3702,6 +4012,214 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="c3"
     disabled={false}
   >
+    <svg
+      aria-hidden="true"
+      className="MuiSvgIcon-root c4"
+      focusable="false"
+      role="presentation"
+      theme={
+        Object {
+          "avatarSizes": Object {
+            "large": Object {
+              "fontSize": "1rem",
+              "size": 48,
+            },
+            "small": Object {
+              "fontSize": ".875rem",
+              "size": 32,
+            },
+            "standard": Object {
+              "fontSize": "1rem",
+              "size": 40,
+            },
+            "tiny": Object {
+              "fontSize": ".625rem",
+              "size": 24,
+            },
+            "xlarge": Object {
+              "fontSize": "1.5rem",
+              "size": 80,
+            },
+          },
+          "buttonSize": Object {
+            "large": Object {
+              "minHeight": 48,
+              "paddingBottom": 16,
+              "paddingLeft": 18,
+              "paddingRight": 18,
+              "paddingTop": 16,
+            },
+            "medium": Object {
+              "minHeight": 40,
+              "paddingBottom": 12,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 12,
+            },
+            "small": Object {
+              "minHeight": 32,
+              "paddingBottom": 8,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 8,
+            },
+          },
+          "overrides": Object {
+            "MuiAvatar": Object {
+              "colorDefault": Object {
+                "color": "#333333",
+              },
+            },
+            "MuiButton": Object {
+              "outlinedPrimary": Object {
+                "color": "#333333",
+              },
+              "outlinedSecondary": Object {
+                "color": "#333333",
+              },
+              "root": Object {
+                "fontSize": "0.875rem",
+                "minHeight": "40px",
+                "padding": "8px 16px",
+              },
+              "sizeLarge": Object {
+                "fontSize": "0.875rem",
+                "minHeight": "48px",
+              },
+              "sizeSmall": Object {
+                "fontSize": "0.875rem",
+                "minHeight": "32px",
+              },
+            },
+          },
+          "palette": Object {
+            "background": Object {
+              "default": "#FFFFFF",
+              "paper": "#FAFAFA",
+            },
+            "error": Object {
+              "contrastText": "#333333",
+              "main": "#E74627",
+            },
+            "primary": Object {
+              "contrastText": "#333333",
+              "dark": "#EF8426",
+              "light": "#FEFDE8",
+              "main": "#F4AB34",
+            },
+            "secondary": Object {
+              "contrastText": "#333333",
+              "dark": "#FF6B0B",
+              "light": "#FFF8E1",
+              "main": "#FF6B0B",
+            },
+            "success": Object {
+              "main": "#569A32",
+            },
+            "text": Object {
+              "disabled": "#EEEEEE",
+              "hint": "#BBBBBB",
+              "primary": "#333333",
+              "secondary": "#777777",
+            },
+            "type": "light",
+          },
+          "shape": Object {
+            "borderRadius": 4,
+          },
+          "spacing": 8,
+          "typography": Object {
+            "android": Object {
+              "fontFamily": "System",
+              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+              "fontFamilyBrand3": undefined,
+              "fontWeightBold": 700,
+              "fontWeightLight": 300,
+              "fontWeightMedium": 500,
+              "fontWeightRegular": 400,
+            },
+            "body1": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+            },
+            "body2": Object {
+              "fontSize": "0.875rem",
+              "fontWeight": 400,
+            },
+            "button": Object {
+              "fontSize": "0.875rem",
+              "fontWeight": 600,
+            },
+            "caption": Object {
+              "fontSize": "0.75rem",
+              "fontWeight": 400,
+            },
+            "h1": Object {
+              "fontSize": "6rem",
+              "fontWeight": 300,
+            },
+            "h2": Object {
+              "fontSize": "3.75rem",
+              "fontWeight": 300,
+            },
+            "h3": Object {
+              "fontSize": "3rem",
+              "fontWeight": 400,
+            },
+            "h4": Object {
+              "fontSize": "2.125rem",
+              "fontWeight": 400,
+            },
+            "h5": Object {
+              "fontSize": "1.5rem",
+              "fontWeight": 400,
+            },
+            "h6": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+            "iOS": Object {
+              "fontFamily": "System",
+              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+              "fontFamilyBrand3": undefined,
+              "fontWeightBold": 700,
+              "fontWeightLight": 300,
+              "fontWeightMedium": 500,
+              "fontWeightRegular": 400,
+            },
+            "overline": Object {
+              "fontSize": "0.75rem",
+              "fontWeight": 400,
+            },
+            "subtitle1": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+            },
+            "subtitle2": Object {
+              "fontSize": "0.875rem",
+              "fontWeight": 500,
+            },
+            "web": Object {
+              "fontFamily": "\\"Roboto\\", sans-serif",
+              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+              "fontFamilyBrand3": undefined,
+              "fontWeightBold": 700,
+              "fontWeightLight": 300,
+              "fontWeightMedium": 500,
+              "fontWeightRegular": 400,
+            },
+          },
+        }
+      }
+      viewBox="0 0 24 24"
+    >
+      <path
+        d="M16.59 7.58L10 14.17l-3.59-3.58L5 12l5 5 8-8zM12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+      />
+    </svg>
     Assistive text
   </span>
 </div>
@@ -3812,6 +4330,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #777777;
   line-height: 1.2;
   padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
 }
 
 <div
