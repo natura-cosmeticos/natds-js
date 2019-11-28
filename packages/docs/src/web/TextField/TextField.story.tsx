@@ -2,7 +2,7 @@ import * as React from 'react';
 import { boolean, select, text, number } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import { Delete } from '@material-ui/icons';
+import Favorite from '@material-ui/icons/Favorite';
 import { TextField } from '@naturacosmeticos/natds-web';
 
 import TextFieldDocs from './TextField.docs.mdx';
@@ -24,8 +24,7 @@ export default {
 const types: any = {
   text: 'text',
   password: 'password',
-  search: 'search',
-  email: 'email',
+  search: 'search'
 };
 
 const states: any = {
@@ -52,5 +51,6 @@ export const Interactive = () => (
     disabled={boolean('disabled', false)}
     multiline={boolean('multiline', false)}
     rows={number('rows', 1)}
+    icon={boolean('icon', false) ? <Favorite /> : null}
   />
 );

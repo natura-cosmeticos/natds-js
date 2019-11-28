@@ -1,5 +1,6 @@
 import React from 'react';
 import { TextField, Provider, themes } from '@naturacosmeticos/natds-web';
+import Favorite from '@material-ui/icons/Favorite';
 
 export const types = [
   {
@@ -15,6 +16,10 @@ export const types = [
     component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="password" />
   },
   {
+    title: 'Custom Icon',
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="text" icon={<Favorite />} onIconPress={() => console.log("Favorited!")} />
+  },
+  {
     title: 'Multiline',
     component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" multiline rows="4" />
   }
@@ -27,7 +32,7 @@ export const states = [
   },
   {
     title: 'Filled',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" defaultValue="Hello World" />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" value="Hello World" />
   },
   {
     title: 'Success',
@@ -54,7 +59,7 @@ export const attributes = [
   },
   {
     title: 'Readonly Filled',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly defaultValue="Hello World" />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly value="Hello World" />
   },
   {
     title: 'Without helper text',
