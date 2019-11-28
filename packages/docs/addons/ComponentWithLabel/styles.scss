@@ -7,8 +7,9 @@
 }
 
 .component__item {
-  flex: 1 1 auto;
-  padding: 20px;
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  padding: 20px 40px 20px 0;
 }
 
 .component__item__title {

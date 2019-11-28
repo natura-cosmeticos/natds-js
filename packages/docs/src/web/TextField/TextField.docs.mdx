@@ -1,4 +1,4 @@
-import { Meta, Preview } from '@storybook/addon-docs/blocks';
+import { Meta, Preview, Props } from '@storybook/addon-docs/blocks';
 import { TextField, Provider, themes } from '@naturacosmeticos/natds-web';
 import { withTheme } from '../../../addons/theme/provider';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
@@ -8,10 +8,39 @@ import { types, states, attributes } from './sections';
 
 ---
 ---
+---
+---
+
+## Types
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={types} />
+</Provider>
+
+---
+---
+
+## States
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={states} />
+</Provider>
+
+---
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+---
 
 ## API
 
-```js highlight-line="2"
+```jsx highlight-line="2"
 import { TextField } from '@naturacosmeticos/natds-web';
 
 <TextField
@@ -27,48 +56,17 @@ import { TextField } from '@naturacosmeticos/natds-web';
 ---
 ---
 
-## Types
-
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <ComponentWithLabel componentList={types} />
-  </Provider>
-</Preview>
-
----
----
-
-## States
-
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <ComponentWithLabel componentList={states} />
-  </Provider>
-</Preview>
-
----
----
-
-## Attributes
-
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <ComponentWithLabel componentList={attributes} />
-  </Provider>
-</Preview>
-
----
----
-
-| Name                      | Type                                            | Default                       | Description
-| :--                       | :-:                                             | :-:                           | :-:
-| id                        | string                                          |                               | ID is applied to the Input element and is used in the label "htmlFor".
-| label                     | string                                          |                               | Label is the text used above the Input element. It describes the name of the field.
-| helpText                  | string                                          |                               | HelpText is the text used below the Input element.
-| placeholder               | string                                          |                               | Text to display when the input is empty.
-| required                  | boolean                                         | false                         | Whether the field is required or not.
-| disabled                  | boolean                                         | false                         | Disables the input for user interactions.
-| multiline                 | boolean                                         | false                         | Transform TextField in to a textarea.
-| state                     | string                                          | 'success', 'error', undefined | Sets whether the input is in error or success state.
+| Name                      | Type                                            | Default                               | Description
+| :--                       | :-:                                             | :-:                                   | :-:
+| disabled                  | boolean                                         | false                                 | Disables the input for user interactions.
+| helpText                  | string                                          |                                       | HelpText is the text used below the Input element.
+| id                        | string                                          |                                       | ID is applied to the Input element and is used in the label "htmlFor".
+| label                     | string                                          |                                       | Label is the text used above the Input element. It describes the name of the field.
+| multiline                 | boolean                                         | false                                 | Transform TextField in to a textarea (props like `rows` and `cols` will be forward to the texarea).
+| mask                      | string                                          |                                       | Mask format to use, full api on [text-mask](https://github.com/text-mask/text-mask) (does not work with multiline mode).
+| placeholder               | string                                          |                                       | Text to display when the input is empty.
+| required                  | boolean                                         | false                                 | Whether the field is required or not.
+| state                     | string                                          | 'success', 'error', undefined         | Sets whether the input is in error or success state.
+| type                      | string                                          | 'text', 'search', 'password', string  | Creates custom functionalities for Search and Password input types, other types will be forward to the input
 
 (other props passed to the TextField will be forward to the input/textarea element)

@@ -27,7 +27,7 @@ export const states = [
   },
   {
     title: 'Filled',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" value="Hello World" />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" defaultValue="Hello World" />
   },
   {
     title: 'Success',
@@ -54,7 +54,11 @@ export const attributes = [
   },
   {
     title: 'Readonly Filled',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly value="Hello World" />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly defaultValue="Hello World" />
+  },
+  {
+    title: 'Without helper text',
+    component: <TextField label="Label" placeholder="Placeholder" />
   },
   {
     title: 'Without helper text',

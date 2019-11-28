@@ -1,6 +1,7 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 
+import MaskedInput from 'react-text-mask';
 import { withTheme } from '@material-ui/styles';
 import { IThemeWeb } from 'Themes';
 import { tokens } from '@naturacosmeticos/natds-styles';
@@ -50,6 +51,11 @@ interface ITextFieldProps {
    * Uses a textarea as input
    */
   multiline?: boolean;
+  /**
+   * @optional
+   * Mask format based on https://github.com/sanniassin/react-input-mask
+   */
+  mask?: string;
 }
 
 const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
@@ -62,11 +68,13 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
     disabled = false,
     state,
     multiline,
-    placeholder = ' ', // Placeholder should always exist to make filled state work
+    mask,
+    placeholder = '&nbsp;',
     ...rest
   } = props;
 
   const content = required ? `${label} *` : label;
+  const fieldType = multiline ? 'textarea' : (mask ? MaskedInput : 'input');
 
   return (
     <Container theme={theme}>
@@ -82,7 +90,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
         id={id}
         state={state}
         disabled={disabled}
-        as={multiline ? 'textarea' : 'input'}
+        as={fieldType}
         placeholder={placeholder}
         {...rest}
       />
@@ -182,7 +190,7 @@ const Field = styled.input`
     color: ${getProp('palette', 'text', 'hint')};
   }
 
-  &::placeholder:disabled {
+  &:disabled::placeholder {
     color: ${getProp('palette', 'text', 'disabled')};
   }
 
