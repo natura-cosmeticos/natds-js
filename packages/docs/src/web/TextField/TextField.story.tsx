@@ -34,6 +34,11 @@ const states: any = {
   default: undefined
 };
 
+const mask: any = {
+  phone: ['(', /[1-9]/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/],
+  none: undefined
+};
+
 export const Interactive = () => (
   <TextField
     style={{ flex: '1 1 auto', width: '328px' }}
@@ -43,6 +48,7 @@ export const Interactive = () => (
     type={select('type', types, types.text)}
     state={select('state', states, states.text)}
     required={boolean('required', false)}
+    mask={select('mask', mask, mask.none)}
     disabled={boolean('disabled', false)}
     multiline={boolean('multiline', false)}
     rows={number('rows', 1)}
