@@ -120,6 +120,21 @@ describe('Button', () => {
         .toJSON();
       expect(component).toMatchSnapshot('No Theme button snapshot');
     });
+
+    test('should match to snapshot - Size small with icon', () => {
+      const component = renderer
+        .create(
+          <Button
+            children
+            elevation={3}
+            theme={mockTheme}
+            size="small"
+            icon="camera"
+          />
+        )
+        .toJSON();
+      expect(component).toMatchSnapshot('Size small with icon button snapshot');
+    });
   });
 
   describe('interaction', () => {
