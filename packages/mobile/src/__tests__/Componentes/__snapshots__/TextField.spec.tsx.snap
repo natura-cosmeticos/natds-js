@@ -1053,24 +1053,24 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
           "buttonSize": Object {
             "large": Object {
               "minHeight": 48,
-              "paddingBottom": 8,
-              "paddingLeft": 22,
-              "paddingRight": 22,
-              "paddingTop": 8,
+              "paddingBottom": 16,
+              "paddingLeft": 18,
+              "paddingRight": 18,
+              "paddingTop": 16,
             },
             "medium": Object {
               "minHeight": 40,
-              "paddingBottom": 8,
+              "paddingBottom": 12,
               "paddingLeft": 16,
               "paddingRight": 16,
-              "paddingTop": 8,
+              "paddingTop": 12,
             },
             "small": Object {
               "minHeight": 32,
-              "paddingBottom": 4,
+              "paddingBottom": 8,
               "paddingLeft": 10,
               "paddingRight": 10,
-              "paddingTop": 4,
+              "paddingTop": 8,
             },
           },
           "colors": Object {
