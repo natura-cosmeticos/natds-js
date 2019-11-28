@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { boolean, select, text } from '@storybook/addon-knobs';
+import { boolean, select, text, number } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 import { Delete } from '@material-ui/icons';
@@ -38,7 +38,6 @@ export const Interactive = () => (
   <TextField
     style={{ flex: '1 1 auto', width: '328px' }}
     label={text('label', 'Label')}
-    defaultValue={text('value', 'XD')}
     placeholder={text('placeholder', 'XD')}
     helpText={text('helpText', 'Assistive text')}
     type={select('type', types, types.text)}
@@ -46,5 +45,6 @@ export const Interactive = () => (
     required={boolean('required', false)}
     disabled={boolean('disabled', false)}
     multiline={boolean('multiline', false)}
+    rows={number('rows', 1)}
   />
 );

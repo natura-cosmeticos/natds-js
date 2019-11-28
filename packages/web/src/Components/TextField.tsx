@@ -62,7 +62,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
     disabled = false,
     status,
     multiline,
-    placeholder = ' ',
+    placeholder = ' ', // Placeholder should always exist to make filled state work
     ...rest
   } = props;
 
@@ -98,16 +98,24 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
 
 export default withTheme(TextField);
 
-const stateColors = {
-  disabled: { type: 'text', key: 'disabled' },
-  error: { type: 'error', key: 'main' },
-  success: { type: 'success', key: 'main' },
-  initial: { type: 'text', key: 'hint' },
-  primary: { type: 'primary', key: 'main' },
+const stateStyle = {
+  default: { type: 'text', key: 'hint', borderWidth: '0 0 0 1px' },
+  disabled: { type: 'text', key: 'disabled', borderWidth: '0 0 0 1px' },
+  hover: { type: 'text', key: 'secondary', borderWidth: '0 0 0 1px' },
+  filled: { type: 'text', key: 'primary', borderWidth: '0 0 0 1px' },
+  focus: { type: 'primary', key: 'main', borderWidth: '0 0 0 2px' },
+  error: { type: 'error', key: 'main', borderWidth: '0 0 0 2px' },
+  success: { type: 'success', key: 'main', borderWidth: '0 0 0 1px' },
 };
 
+interface IStateTypes {
+  type: string;
+  key: string;
+  borderWidth: string;
+}
+
 function getProp(namespace: string, type: string, key?: string) {
-  return ({ theme }: { theme: IThemeWeb }) => {
+  return ({ theme }: { theme?: any }) => {
     const propNamespace = theme[namespace] || {};
     const propType = propNamespace[type] || {};
 
@@ -115,11 +123,23 @@ function getProp(namespace: string, type: string, key?: string) {
   };
 }
 
-function getColorByState(initial: { type: string, key: string }) {
-  return ({ theme, disabled, status = '' }: { theme: IThemeWeb, disabled: boolean, status: string | undefined }) => {
-    const { type, key } = (disabled ? stateColors.disabled : stateColors[status]) || initial;
+function getState({ disabled, status }: Pick<ITextFieldProps, 'disabled' | 'status'>, initial: IStateTypes) {
+  return (disabled ? stateStyle.disabled : stateStyle[status|| '']) || initial;
+}
 
-    return getProp('palette', type, key)({ theme });
+function getColorByState(initial: IStateTypes) {
+  return (props:ITextFieldProps) => {
+    const { type, key } = getState(props, initial);
+
+    return getProp('palette', type, key)(props);
+  };
+}
+
+function getBorderByState(initial: IStateTypes) {
+  return (props: ITextFieldProps) => {
+    const { type, key, borderWidth } = getState(props, initial);
+
+    return `${getProp('palette', type, key)(props)} ${borderWidth}`;
   };
 }
 
@@ -132,7 +152,7 @@ const Container = styled.div`
 const Label = styled.label`
   font-size: ${getProp('typography', 'subtitle2', 'fontSize')};
   font-weight: ${getProp('typography', 'subtitle2', 'fontWeight')};
-  color: ${getColorByState(stateColors.initial)};
+  color: ${getColorByState(stateStyle.default)};
   line-height: 1.2;
   padding: 0 0 ${tokens.spacing.spacingMicro}px;
 `;
@@ -140,7 +160,6 @@ const Label = styled.label`
 const Field = styled.input`
   border: 0;
   border-radius: ${getProp('shape', 'borderRadius')}px;
-  box-shadow: ${getColorByState(stateColors.initial)} 0 0 0 1px;
   box-sizing: border-box;
   width: 100%;
   line-height: ${tokens.spacing.spacingStandard}px;
@@ -152,14 +171,6 @@ const Field = styled.input`
   flex: 1 1 100%;
   padding: ${tokens.spacing.spacingSmall}px;
   resize: vertical;
-
-  &:hover {
-    box-shadow: ${getProp('palette', 'grey', '600')} 0 0 0 1px;
-  }
-
-  &:focus {
-    box-shadow: ${getColorByState(stateColors.primary)} 0 0 0 2px;
-  }
 
   &:disabled,
   &:disabled::placeholder,
@@ -177,18 +188,26 @@ const Field = styled.input`
   }
 
   &:placeholder-shown {
-    box-shadow: ${getColorByState(stateColors.initial)} 0 0 0 1px;
+    box-shadow: ${getBorderByState(stateStyle.default)};
   }
 
   &:not(:placeholder-shown) {
-    box-shadow: ${getProp('palette', 'grey', '600')} 0 0 0 1px;
+    box-shadow: ${getBorderByState(stateStyle.filled)};
+  }
+
+  &:hover {
+    box-shadow: ${getBorderByState(stateStyle.hover)};
+  }
+
+  &:focus {
+    box-shadow: ${getBorderByState(stateStyle.focus)};
   }
 `;
 
 const HelpText = styled.span`
   font-size: ${getProp('typography', 'caption', 'fontSize')};
   font-weight: ${getProp('typography', 'caption', 'fontWeight')};
-  color: ${getColorByState(stateColors.initial)};
+  color: ${getColorByState(stateStyle.default)};
   line-height: 1.2;
   padding: ${tokens.spacing.spacingMicro}px 0 0;
 `;
