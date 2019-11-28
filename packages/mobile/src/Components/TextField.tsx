@@ -108,10 +108,6 @@ interface ITextFieldProps extends Omit<TextInputProps, 'secureTextEntry'> {
    * Function to call when the icon is pressed. Overrides default actions on 'password' and 'search' types.
    */
   onIconPress?: () => void;
-  /**
-   *
-   */
-  ref?: React.RefObject<TextInput>;
 }
 
 const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
@@ -292,7 +288,9 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           alignItems: 'center',
           position: 'relative',
           flexWrap: 'wrap',
-          alignContent: 'flex-start'
+          alignContent: 'flex-start',
+          flexGrow: 0,
+          flexBasis: 'auto'
         } as ViewStyle
       }
     };
@@ -399,10 +397,6 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   };
 
   const textInput = React.useRef<TextInput>(null);
-
-  const handleRef = (inputRef: TextInput) => {
-    textInput.current = inputRef;
-  };
 
   const styleStatusMap = {
     error: 'errorStyle',
@@ -518,18 +512,22 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       }
       <View style={styles.inputContainer.default}>
         <TextInput
-          ref={handleRef}
           style={parsedInputStyle()}
+          {...textInputProps}
+          ref={textInput}
           onFocus={handleOnFocus}
           onBlur={handleOnBlur}
           placeholderTextColor={placeholderTextColor}
           selectionColor={selectionColor}
           secureTextEntry={secureTextEntry}
           editable={editable || !disabled}
-          {...textInputProps}
         />
         {(!!iconProp || type.match(actionTypesMatcher)) &&
-          <TouchableWithoutFeedback onPress={handleOnPressIcon}>
+          <TouchableWithoutFeedback onPress={handleOnPressIcon} style={{
+            flexGrow: 0,
+            flexBasis: theme.typography.caption ? theme.typography.caption.fontSize : 14
+              + tokens.spacing.spacingMicro
+          }}>
             <Icon name={icon} style={parsedIconStyle()} />
           </TouchableWithoutFeedback>
         }

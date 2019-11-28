@@ -1,6 +1,14 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`TextField functional should call icon press - password type: should match to snapshot - type password Pressed 1`] = `ReactWrapper {}`;
+
+exports[`TextField functional should call icon press - search type: should match to snapshot - type search Pressed 1`] = `ReactWrapper {}`;
+
+exports[`TextField functional should call icon press - text type: should match to snapshot - type text Pressed 1`] = `ReactWrapper {}`;
+
 exports[`TextField functional should call press: should match to snapshot - Pressed 1`] = `ReactWrapper {}`;
+
+exports[`TextField functional should call press: should match to snapshot - Pressed 2`] = `ReactWrapper {}`;
 
 exports[`TextField rendering should match to snapshot - Default TextField: Default TextField snapshot 1`] = `
 <View
@@ -19,13 +27,16 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
     }
   }
 >
-  <View />
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -33,6 +44,7 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
@@ -48,7 +60,6 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 16,
           "width": "100%",
@@ -101,13 +112,193 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
       }
     }
   />
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Disabled TextField snapshot: Disabled TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#BBBBBB",
+        "flexWrap": "wrap",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingBottom": 4,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mockLabel
+  </Text>
+  <View
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "center",
+        "flex": 1,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      disabled={true}
+      editable={true}
+      icon="eye"
+      label="mockLabel"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      secureTextEntry={false}
+      selectionColor="#F4AB34"
+      style={
+        Object {
+          "borderColor": "#BBBBBB",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "color": "#BBBBBB",
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 48,
+          "width": "100%",
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#BBBBBB",
+            "fontSize": 16,
+            "padding": 16,
+            "position": "absolute",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#BBBBBB",
+          "flexWrap": "wrap",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingTop": 4,
+          "textAlign": undefined,
+        }
+      }
+    >
+      mockHelp
+    </Text>
+  </View>
 </View>
 `;
 
@@ -128,28 +319,31 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
     }
   }
 >
-  <View>
-    <Text
-      accessible={false}
-      style={
-        Object {
-          "color": "#E74627",
-          "fontSize": 16,
-          "fontWeight": "300",
-          "paddingBottom": 4,
-          "textAlign": undefined,
-        }
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#E74627",
+        "flexWrap": "wrap",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingBottom": 4,
+        "textAlign": undefined,
       }
-    >
-      mock
-    </Text>
-  </View>
+    }
+  >
+    mock
+  </Text>
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -157,6 +351,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       icon="eye"
       label="mock"
       onBlur={[Function]}
@@ -175,7 +370,6 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
           "width": "100%",
@@ -262,7 +456,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -279,6 +473,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
           },
           Object {
             "color": "#E74627",
+            "flexWrap": "wrap",
             "marginRight": 4,
             "paddingTop": 4,
           },
@@ -298,6 +493,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
       style={
         Object {
           "color": "#E74627",
+          "flexWrap": "wrap",
           "fontSize": 16,
           "fontWeight": "300",
           "paddingTop": 4,
@@ -328,13 +524,16 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
     }
   }
 >
-  <View />
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -342,6 +541,7 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       icon="eye"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -358,7 +558,6 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
           "width": "100%",
@@ -445,7 +644,7 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -472,28 +671,31 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
     }
   }
 >
-  <View>
-    <Text
-      accessible={false}
-      style={
-        Object {
-          "color": "#777777",
-          "fontSize": 16,
-          "fontWeight": "300",
-          "paddingBottom": 4,
-          "textAlign": undefined,
-        }
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#777777",
+        "flexWrap": "wrap",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingBottom": 4,
+        "textAlign": undefined,
       }
-    >
-      mock
-    </Text>
-  </View>
+    }
+  >
+    mock
+  </Text>
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -501,6 +703,7 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       icon="eye"
       label="mock"
       onBlur={[Function]}
@@ -518,7 +721,6 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 10,
           "paddingRight": 36,
           "width": "100%",
@@ -610,7 +812,7 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -622,6 +824,414 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
       style={
         Object {
           "color": "#777777",
+          "flexWrap": "wrap",
+          "fontSize": 16,
+          "fontWeight": "300",
+          "paddingTop": 4,
+          "textAlign": undefined,
+        }
+      }
+    >
+      mock
+    </Text>
+  </View>
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Medium Size TextField snapshot: Medium Size TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "center",
+        "flex": 1,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      secureTextEntry={false}
+      selectionColor="#F4AB34"
+      size="medium"
+      style={
+        Object {
+          "borderColor": "#BBBBBB",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "color": "#333333",
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 24,
+          "padding": 8,
+          "paddingRight": 8,
+          "width": "100%",
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - No caption on theme snapshot: Not Editable TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#777777",
+        "flexWrap": "wrap",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingBottom": 4,
+        "textAlign": undefined,
+      }
+    }
+  >
+    mock
+  </Text>
+  <View
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "center",
+        "flex": 1,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      icon="eye"
+      label="mock"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      secureTextEntry={false}
+      selectionColor="#F4AB34"
+      style={
+        Object {
+          "borderColor": "#BBBBBB",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "color": "#333333",
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 48,
+          "width": "100%",
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "avatarSizes": Object {
+            "large": Object {
+              "fontSize": "1rem",
+              "size": 48,
+            },
+            "small": Object {
+              "fontSize": ".875rem",
+              "size": 32,
+            },
+            "standard": Object {
+              "fontSize": "1rem",
+              "size": 40,
+            },
+            "tiny": Object {
+              "fontSize": ".625rem",
+              "size": 24,
+            },
+            "xlarge": Object {
+              "fontSize": "1.5rem",
+              "size": 80,
+            },
+          },
+          "buttonSize": Object {
+            "large": Object {
+              "minHeight": 48,
+              "paddingBottom": 8,
+              "paddingLeft": 22,
+              "paddingRight": 22,
+              "paddingTop": 8,
+            },
+            "medium": Object {
+              "minHeight": 40,
+              "paddingBottom": 8,
+              "paddingLeft": 16,
+              "paddingRight": 16,
+              "paddingTop": 8,
+            },
+            "small": Object {
+              "minHeight": 32,
+              "paddingBottom": 4,
+              "paddingLeft": 10,
+              "paddingRight": 10,
+              "paddingTop": 4,
+            },
+          },
+          "colors": Object {
+            "accent": "#FF6B0B",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#FFFFFF",
+            "disabled": "#EEEEEE",
+            "error": "#E74627",
+            "notification": "#f50057",
+            "onBackground": "#333333",
+            "onSurface": "#777777",
+            "placeholder": "#BBBBBB",
+            "primary": "#F4AB34",
+            "secondary": "#FF6B0B",
+            "success": "#569A32",
+            "surface": "#FAFAFA",
+            "text": "#333333",
+            "textHint": "#BBBBBB",
+            "textSecondary": "#777777",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+          },
+          "roundness": 4,
+          "spacing": 8,
+          "typography": Object {
+            "body1": Object {
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": 400,
+            },
+            "body2": Object {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": 400,
+            },
+            "button": Object {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": 600,
+              "textTransform": "uppercase",
+            },
+            "caption": undefined,
+            "h1": Object {
+              "fontFamily": "System",
+              "fontSize": 96,
+              "fontWeight": 300,
+            },
+            "h2": Object {
+              "fontFamily": "System",
+              "fontSize": 60,
+              "fontWeight": 300,
+            },
+            "h3": Object {
+              "fontFamily": "System",
+              "fontSize": 48,
+              "fontWeight": 400,
+            },
+            "h4": Object {
+              "fontFamily": "System",
+              "fontSize": 34,
+              "fontWeight": 400,
+            },
+            "h5": Object {
+              "fontFamily": "System",
+              "fontSize": 24,
+              "fontWeight": 400,
+            },
+            "h6": Object {
+              "fontFamily": "System",
+              "fontSize": 20,
+              "fontWeight": 600,
+            },
+            "overline": Object {
+              "fontFamily": "System",
+              "fontSize": 12,
+              "fontWeight": 400,
+              "textTransform": "uppercase",
+            },
+            "subtitle1": Object {
+              "fontFamily": "System",
+              "fontSize": 16,
+              "fontWeight": 400,
+            },
+            "subtitle2": Object {
+              "fontFamily": "System",
+              "fontSize": 14,
+              "fontWeight": 500,
+            },
+          },
+        }
+      }
+      underlineColorAndroid="transparent"
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#777777",
+            "fontSize": 16,
+            "padding": 16,
+            "position": "absolute",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  >
+    <Text
+      accessible={false}
+      style={
+        Object {
+          "color": "#777777",
+          "flexWrap": "wrap",
           "fontSize": 16,
           "fontWeight": "300",
           "paddingTop": 4,
@@ -652,28 +1262,31 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
     }
   }
 >
-  <View>
-    <Text
-      accessible={false}
-      style={
-        Object {
-          "color": "#BBBBBB",
-          "fontSize": 16,
-          "fontWeight": "300",
-          "paddingBottom": 4,
-          "textAlign": undefined,
-        }
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#777777",
+        "flexWrap": "wrap",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingBottom": 4,
+        "textAlign": undefined,
       }
-    >
-      mock
-    </Text>
-  </View>
+    }
+  >
+    mock
+  </Text>
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -681,7 +1294,7 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
   >
     <TextInput
       allowFontScaling={true}
-      editable={false}
+      editable={true}
       icon="eye"
       label="mock"
       onBlur={[Function]}
@@ -695,11 +1308,10 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
           "borderColor": "#BBBBBB",
           "borderRadius": 4,
           "borderWidth": 1,
-          "color": "#BBBBBB",
+          "color": "#333333",
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
           "width": "100%",
@@ -766,7 +1378,7 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
             "fontSize": 12,
           },
           Object {
-            "color": "#BBBBBB",
+            "color": "#777777",
             "fontSize": 16,
             "padding": 16,
             "position": "absolute",
@@ -786,7 +1398,7 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -797,7 +1409,8 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
       accessible={false}
       style={
         Object {
-          "color": "#BBBBBB",
+          "color": "#777777",
+          "flexWrap": "wrap",
           "fontSize": 16,
           "fontWeight": "300",
           "paddingTop": 4,
@@ -808,6 +1421,266 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
       mock
     </Text>
   </View>
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Other Type TextField snapshot: Other Type TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "center",
+        "flex": 1,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      secureTextEntry={false}
+      selectionColor="#F4AB34"
+      style={
+        Object {
+          "borderColor": "#BBBBBB",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "color": "#333333",
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 16,
+          "width": "100%",
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      type="other"
+      underlineColorAndroid="transparent"
+    />
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Password Type TextField snapshot: Password Type TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignContent": "flex-start",
+        "alignItems": "center",
+        "flex": 1,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      secureTextEntry={true}
+      selectionColor="#F4AB34"
+      style={
+        Object {
+          "borderColor": "#BBBBBB",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "color": "#333333",
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 48,
+          "width": "100%",
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      type="password"
+      underlineColorAndroid="transparent"
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#777777",
+            "fontSize": 16,
+            "padding": 16,
+            "position": "absolute",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
 </View>
 `;
 
@@ -828,13 +1701,16 @@ exports[`TextField rendering should match to snapshot - Placeholder Text Color: 
     }
   }
 >
-  <View />
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -842,6 +1718,7 @@ exports[`TextField rendering should match to snapshot - Placeholder Text Color: 
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#FFFFFF"
@@ -857,7 +1734,6 @@ exports[`TextField rendering should match to snapshot - Placeholder Text Color: 
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 16,
           "width": "100%",
@@ -910,7 +1786,7 @@ exports[`TextField rendering should match to snapshot - Placeholder Text Color: 
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -937,28 +1813,31 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
     }
   }
 >
-  <View>
-    <Text
-      accessible={false}
-      style={
-        Object {
-          "color": "#777777",
-          "fontSize": 16,
-          "fontWeight": "300",
-          "paddingBottom": 4,
-          "textAlign": undefined,
-        }
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#777777",
+        "flexWrap": "wrap",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingBottom": 4,
+        "textAlign": undefined,
       }
-    >
-      Label *
-    </Text>
-  </View>
+    }
+  >
+    Label *
+  </Text>
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -966,6 +1845,7 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       label="Label"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -983,7 +1863,6 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 16,
           "width": "100%",
@@ -1036,7 +1915,154 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
   <View
     style={
       Object {
+        "alignItems": "flex-end",
+        "flex": 1,
+        "flexDirection": "row",
+        "justifyContent": "flex-start",
+      }
+    }
+  />
+</View>
+`;
+
+exports[`TextField rendering should match to snapshot - Search Type TextField snapshot: Search Type TextField snapshot 1`] = `
+<View
+  accessible={true}
+  focusable={true}
+  onClick={[Function]}
+  onResponderGrant={[Function]}
+  onResponderMove={[Function]}
+  onResponderRelease={[Function]}
+  onResponderTerminate={[Function]}
+  onResponderTerminationRequest={[Function]}
+  onStartShouldSetResponder={[Function]}
+  style={
+    Object {
+      "flexGrow": 1,
+    }
+  }
+>
+  <View
+    style={
+      Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
+        "flex": 1,
+        "flexBasis": "auto",
+        "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
+        "justifyContent": "flex-end",
+        "position": "relative",
+      }
+    }
+  >
+    <TextInput
+      allowFontScaling={true}
+      editable={true}
+      onBlur={[Function]}
+      onFocus={[Function]}
+      placeholderTextColor="#BBBBBB"
+      rejectResponderTermination={true}
+      secureTextEntry={false}
+      selectionColor="#F4AB34"
+      style={
+        Object {
+          "borderColor": "#BBBBBB",
+          "borderRadius": 4,
+          "borderWidth": 1,
+          "color": "#333333",
+          "flex": 1,
+          "fontSize": 14,
+          "lineHeight": 24,
+          "padding": 16,
+          "paddingRight": 48,
+          "width": "100%",
+        }
+      }
+      theme={
+        Object {
+          "animation": Object {
+            "scale": 1,
+          },
+          "colors": Object {
+            "accent": "#03dac4",
+            "backdrop": "rgba(0, 0, 0, 0.5)",
+            "background": "#f6f6f6",
+            "disabled": "rgba(0, 0, 0, 0.26)",
+            "error": "#B00020",
+            "notification": "#f50057",
+            "onBackground": "#000000",
+            "onSurface": "#000000",
+            "placeholder": "rgba(0, 0, 0, 0.54)",
+            "primary": "#6200ee",
+            "surface": "#ffffff",
+            "text": "#000000",
+          },
+          "dark": false,
+          "fonts": Object {
+            "light": Object {
+              "fontFamily": "System",
+              "fontWeight": "300",
+            },
+            "medium": Object {
+              "fontFamily": "System",
+              "fontWeight": "500",
+            },
+            "regular": Object {
+              "fontFamily": "System",
+              "fontWeight": "400",
+            },
+            "thin": Object {
+              "fontFamily": "System",
+              "fontWeight": "100",
+            },
+          },
+          "roundness": 4,
+        }
+      }
+      type="search"
+      underlineColorAndroid="transparent"
+    />
+    <Text
+      accessible={true}
+      allowFontScaling={false}
+      focusable={true}
+      onClick={[Function]}
+      onResponderGrant={[Function]}
+      onResponderMove={[Function]}
+      onResponderRelease={[Function]}
+      onResponderTerminate={[Function]}
+      onResponderTerminationRequest={[Function]}
+      onStartShouldSetResponder={[Function]}
+      style={
+        Array [
+          Object {
+            "color": undefined,
+            "fontSize": 12,
+          },
+          Object {
+            "color": "#777777",
+            "fontSize": 16,
+            "padding": 16,
+            "position": "absolute",
+          },
+          Object {
+            "fontFamily": "Material Design Icons",
+            "fontStyle": "normal",
+            "fontWeight": "normal",
+          },
+          Object {},
+        ]
+      }
+    >
+      
+    </Text>
+  </View>
+  <View
+    style={
+      Object {
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -1063,13 +2089,16 @@ exports[`TextField rendering should match to snapshot - Selection Color TextFiel
     }
   }
 >
-  <View />
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -1077,6 +2106,7 @@ exports[`TextField rendering should match to snapshot - Selection Color TextFiel
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
@@ -1092,7 +2122,6 @@ exports[`TextField rendering should match to snapshot - Selection Color TextFiel
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 16,
           "width": "100%",
@@ -1145,7 +2174,7 @@ exports[`TextField rendering should match to snapshot - Selection Color TextFiel
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -1172,28 +2201,31 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
     }
   }
 >
-  <View>
-    <Text
-      accessible={false}
-      style={
-        Object {
-          "color": "#569A32",
-          "fontSize": 16,
-          "fontWeight": "300",
-          "paddingBottom": 4,
-          "textAlign": undefined,
-        }
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#569A32",
+        "flexWrap": "wrap",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingBottom": 4,
+        "textAlign": undefined,
       }
-    >
-      mock
-    </Text>
-  </View>
+    }
+  >
+    mock
+  </Text>
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -1201,6 +2233,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       icon="eye"
       label="mock"
       onBlur={[Function]}
@@ -1219,7 +2252,6 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
           "width": "100%",
@@ -1306,7 +2338,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -1323,6 +2355,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
           },
           Object {
             "color": "#569A32",
+            "flexWrap": "wrap",
             "marginRight": 4,
             "paddingTop": 4,
           },
@@ -1342,6 +2375,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
       style={
         Object {
           "color": "#569A32",
+          "flexWrap": "wrap",
           "fontSize": 16,
           "fontWeight": "300",
           "paddingTop": 4,
@@ -1372,13 +2406,16 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
     }
   }
 >
-  <View />
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -1386,6 +2423,7 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
       rejectResponderTermination={true}
@@ -1400,7 +2438,6 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 16,
           "width": "100%",
@@ -1566,7 +2603,7 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -1602,13 +2639,16 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
       }
     }
   >
-    <View />
     <View
       style={
         Object {
+          "alignContent": "flex-start",
           "alignItems": "center",
           "flex": 1,
+          "flexBasis": "auto",
           "flexDirection": "row",
+          "flexGrow": 0,
+          "flexWrap": "wrap",
           "justifyContent": "flex-end",
           "position": "relative",
         }
@@ -1616,6 +2656,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
     >
       <TextInput
         allowFontScaling={true}
+        editable={true}
         onBlur={[Function]}
         onFocus={[Function]}
         placeholderTextColor="#BBBBBB"
@@ -1631,7 +2672,6 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
             "flex": 1,
             "fontSize": 14,
             "lineHeight": 24,
-            "maxHeight": 56,
             "padding": 16,
             "paddingRight": 16,
             "width": "100%",
@@ -1803,7 +2843,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
     <View
       style={
         Object {
-          "alignItems": "center",
+          "alignItems": "flex-end",
           "flex": 1,
           "flexDirection": "row",
           "justifyContent": "flex-start",
@@ -1831,13 +2871,16 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
     }
   }
 >
-  <View />
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -1845,6 +2888,7 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
       placeholderTextColor="#BBBBBB"
@@ -1860,7 +2904,6 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 16,
           "width": "100%",
@@ -1913,7 +2956,7 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -1925,6 +2968,7 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
       style={
         Object {
           "color": "#777777",
+          "flexWrap": "wrap",
           "fontSize": 16,
           "fontWeight": "300",
           "paddingTop": 4,
@@ -1955,13 +2999,16 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
     }
   }
 >
-  <View />
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -1969,6 +3016,7 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       icon="eye"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -1985,7 +3033,6 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 48,
           "width": "100%",
@@ -2072,7 +3119,7 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",
@@ -2099,28 +3146,31 @@ exports[`TextField rendering should match to snapshot - With label: With label T
     }
   }
 >
-  <View>
-    <Text
-      accessible={false}
-      style={
-        Object {
-          "color": "#777777",
-          "fontSize": 16,
-          "fontWeight": "300",
-          "paddingBottom": 4,
-          "textAlign": undefined,
-        }
+  <Text
+    accessible={false}
+    style={
+      Object {
+        "color": "#777777",
+        "flexWrap": "wrap",
+        "fontSize": 16,
+        "fontWeight": "300",
+        "paddingBottom": 4,
+        "textAlign": undefined,
       }
-    >
-      Mock Label
-    </Text>
-  </View>
+    }
+  >
+    Mock Label
+  </Text>
   <View
     style={
       Object {
+        "alignContent": "flex-start",
         "alignItems": "center",
         "flex": 1,
+        "flexBasis": "auto",
         "flexDirection": "row",
+        "flexGrow": 0,
+        "flexWrap": "wrap",
         "justifyContent": "flex-end",
         "position": "relative",
       }
@@ -2128,6 +3178,7 @@ exports[`TextField rendering should match to snapshot - With label: With label T
   >
     <TextInput
       allowFontScaling={true}
+      editable={true}
       label="Mock Label"
       onBlur={[Function]}
       onFocus={[Function]}
@@ -2144,7 +3195,6 @@ exports[`TextField rendering should match to snapshot - With label: With label T
           "flex": 1,
           "fontSize": 14,
           "lineHeight": 24,
-          "maxHeight": 56,
           "padding": 16,
           "paddingRight": 16,
           "width": "100%",
@@ -2197,7 +3247,7 @@ exports[`TextField rendering should match to snapshot - With label: With label T
   <View
     style={
       Object {
-        "alignItems": "center",
+        "alignItems": "flex-end",
         "flex": 1,
         "flexDirection": "row",
         "justifyContent": "flex-start",

@@ -6,6 +6,7 @@ import { TextField } from '../../index';
 import Provider from '../../Provider';
 import { themes } from '../../Themes/index';
 import { IThemeShape } from '../../Provider/IThemeShape';
+import { buildTheme } from '../../Themes/buildTheme';
 
 describe('TextField', () => {
   afterEach(() => {
@@ -93,13 +94,55 @@ describe('TextField', () => {
 
       expect(component).toMatchSnapshot('Icon Font Size Default TextField snapshot');
     });
-    test('should match to snapshot - Not Editable TextField snapshot', () => {
-      const theme = themes.natura.light;
-      const themeClone = Object.assign({}, {...theme});
-      delete themeClone.typography.body1;
+    test('should match to snapshot - Disabled TextField snapshot', () => {
+      const component = renderer
+          .create(<TextField disabled helpText="mockHelp" label="mockLabel" icon="eye"/>)
+          .toJSON();
 
+      expect(component).toMatchSnapshot('Disabled TextField snapshot');
+    });
+    test('should match to snapshot - Medium Size TextField snapshot', () => {
+      const component = renderer
+          .create(<TextField size="medium" />)
+          .toJSON();
+
+      expect(component).toMatchSnapshot('Medium Size TextField snapshot');
+    });
+    test('should match to snapshot - Password Type TextField snapshot', () => {
+      const component = renderer
+          .create(<TextField type="password" />)
+          .toJSON();
+
+      expect(component).toMatchSnapshot('Password Type TextField snapshot');
+    });
+    test('should match to snapshot - Search Type TextField snapshot', () => {
+      const component = renderer
+          .create(<TextField type="search" />)
+          .toJSON();
+
+      expect(component).toMatchSnapshot('Search Type TextField snapshot');
+    });
+    test('should match to snapshot - Other Type TextField snapshot', () => {
+      const component = renderer
+          .create(<TextField type="other" />)
+          .toJSON();
+
+      expect(component).toMatchSnapshot('Other Type TextField snapshot');
+    });
+    test('should match to snapshot - Not Editable TextField snapshot', () => {
       const component = renderer
           .create(<TextField editable={false} label="mock" helpText="mock" icon="eye"/>)
+          .toJSON();
+
+      expect(component).toMatchSnapshot('Not Editable TextField snapshot');
+    });
+    test('should match to snapshot - No caption on theme snapshot', () => {
+      const theme = themes.natura.light;
+      const parsedTheme = buildTheme(theme, theme);
+      const themeClone = Object.assign({}, {...parsedTheme, typography: { ...parsedTheme.typography, caption: undefined }});
+
+      const component = renderer
+          .create(<TextField editable={false} label="mock" helpText="mock" icon="eye" theme={themeClone} />)
           .toJSON();
 
       expect(component).toMatchSnapshot('Not Editable TextField snapshot');
@@ -164,6 +207,65 @@ describe('TextField', () => {
 
       component.find('TextInput').first().props().onBlur(event);
       expect(onBlur).toBeCalledTimes(1);
+    });
+    test('should call press', () => {
+      const focusMock = jest.fn();
+
+      jest.spyOn(React, 'useRef').mockReturnValue({
+        current: {
+          focus: focusMock
+        }
+      });
+
+      const component = mount(<TextField/>);
+
+      const touchable = component.find('TouchableWithoutFeedback').first();
+
+      const propOnPress: () => void = touchable.prop('onPress');
+      propOnPress();
+
+      expect(component).toMatchSnapshot('should match to snapshot - Pressed');
+    });
+    test('should call icon press - password type', () => {
+      const component = mount(<TextField type="password"/>);
+
+      const touchable = component.find('TouchableWithoutFeedback').last();
+
+      const propOnPress: () => void = touchable.prop('onPress');
+      propOnPress();
+
+      expect(component).toMatchSnapshot('should match to snapshot - type password Pressed');
+    });
+    test('should call icon press - search type', () => {
+      const component = mount(<TextField type="search"/>);
+
+      const touchable = component.find('TouchableWithoutFeedback').last();
+
+      const propOnPress: () => void = touchable.prop('onPress');
+      propOnPress();
+
+      expect(component).toMatchSnapshot('should match to snapshot - type search Pressed');
+    });
+    test('should call icon press - text type', () => {
+      const component = mount(<TextField type="text" icon="eye"/>);
+
+      const touchable = component.find('TouchableWithoutFeedback').last();
+
+      const propOnPress: () => void = touchable.prop('onPress');
+      propOnPress();
+
+      expect(component).toMatchSnapshot('should match to snapshot - type text Pressed');
+    });
+    test('should call custom icon callback press', () => {
+      const mockIconPress = jest.fn();
+
+      const component = mount(<TextField onIconPress={mockIconPress} icon="eye"/>);
+
+      const touchable = component.find('TouchableWithoutFeedback').last();
+      const propOnPress: () => void = touchable.prop('onPress');
+      propOnPress();
+
+      expect(mockIconPress).toBeCalledTimes(1);
     });
     test('should call press', () => {
       const focusMock = jest.fn();
