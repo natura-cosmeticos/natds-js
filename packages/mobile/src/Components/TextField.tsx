@@ -21,8 +21,6 @@ import { tokens } from '@naturacosmeticos/natds-styles';
  */
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-import { usePrevious } from '../functions';
-
 type TextFieldSizes = 'large' | 'medium';
 
 type TextFieldTypes = 'text' | 'password' | 'search' | 'other';
@@ -69,9 +67,13 @@ interface ITextFieldProps extends Omit<TextInputProps, 'secureTextEntry'> {
   required?: boolean;
   /**
    * @optional
-   * Style to use when `editable` is set to `false`
+   * Style to use when `disabled` is set to `true`
    */
   disabledStyle?: TextStyle;
+  /**
+   * Whether this field is disabled or not
+   */
+  disabled?: boolean;
   /**
    * Optional status for component variant
    */
@@ -103,9 +105,13 @@ interface ITextFieldProps extends Omit<TextInputProps, 'secureTextEntry'> {
    */
   type?: TextFieldTypes;
   /**
-   *
+   * Function to call when the icon is pressed. Overrides default actions on 'password' and 'search' types.
    */
   onIconPress?: () => void;
+  /**
+   *
+   */
+  ref?: React.RefObject<TextInput>;
 }
 
 const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
@@ -123,6 +129,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     placeholderTextColor: propPlaceholderTextColor,
     selectionColor: propSelectionColor,
     editable = true,
+    disabled = false,
     disabledStyle,
     value,
     status,
@@ -151,10 +158,8 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   ? theme.typography.body1.fontSize
   : 16;
 
-  const previousType = usePrevious(type);
-
   React.useEffect(() => {
-    setSecureTextEntry(previousType !== type && type === 'password');
+    setSecureTextEntry(type === 'password');
   },[type]);
 
   const icon = React.useMemo(() => {
@@ -174,21 +179,23 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   },[size, theme]);
 
   const styles: any = React.useMemo(() => {
+    const doublePadding = 2;
+    const singlePadding = 1;
+
     const stylesToParse = {
       input: {
         default: {
           borderRadius: theme.roundness,
           padding,
           paddingRight: ((textInputStyle && textInputStyle.padding ? textInputStyle.padding : padding) as number
-            * (icon ? 2 : 1))
+            * (icon ? doublePadding : singlePadding))
             + (icon ? iconFontSize : 0),
           width: '100%',
           color: theme.colors.text,
           flex: 1,
           caretColor: selectionColor,
           fontSize: theme.typography.body2 ? theme.typography.body2.fontSize : 14,
-          lineHeight: tokens.spacing.spacingStandard,
-          maxHeight: (padding * 2) + tokens.spacing.spacingStandard
+          lineHeight: tokens.spacing.spacingStandard
         } as TextStyle & { caretColor: string; },
         theme: {
           borderColor: theme.colors.textHint,
@@ -218,7 +225,8 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       },
       label: {
         default: {
-          paddingBottom: tokens.spacing.spacingMicro
+          paddingBottom: tokens.spacing.spacingMicro,
+          flexWrap: 'wrap'
         } as TextStyle,
         theme: {
           color: theme.colors.textSecondary
@@ -238,7 +246,8 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       },
       helpText: {
         default: {
-          paddingTop: tokens.spacing.spacingMicro
+          paddingTop: tokens.spacing.spacingMicro,
+          flexWrap: 'wrap'
         } as TextStyle,
         theme: {
           color: theme.colors.textSecondary
@@ -281,7 +290,9 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           flexDirection: 'row',
           justifyContent: 'flex-end',
           alignItems: 'center',
-          position: 'relative'
+          position: 'relative',
+          flexWrap: 'wrap',
+          alignContent: 'flex-start'
         } as ViewStyle
       }
     };
@@ -389,13 +400,17 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
 
   const textInput = React.useRef<TextInput>(null);
 
+  const handleRef = (inputRef: TextInput) => {
+    textInput.current = inputRef;
+  };
+
   const styleStatusMap = {
     error: 'errorStyle',
     success: 'successStyle'
   };
 
   const parsedInputStyle = React.useCallback((): TextStyle => {
-    if(!editable) {
+    if(disabled) {
       return {
         ...styles.input.default,
         ...styles.input.disabled,
@@ -415,10 +430,10 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, inputStyle, textInputStyle, status, iconProp]);
+  },[disabled, disabledStyle, inputStyle, textInputStyle, status, iconProp]);
 
   const parsedLabelStyle = React.useCallback((): TextStyle => {
-    if(!editable) {
+    if(disabled) {
       return {
         ...styles.label.default,
         ...styles.label.disabled,
@@ -438,10 +453,10 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, labelStyle, propLabelStyle, status]);
+  },[disabled, disabledStyle, labelStyle, propLabelStyle, status]);
 
   const parsedHelpTextStyle = React.useCallback((): TextStyle => {
-    if(!editable) {
+    if(disabled) {
       return {
         ...styles.helpText.default,
         ...styles.helpText.disabled,
@@ -461,10 +476,10 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, helpTextStyle, propHelpTextStyle, status]);
+  },[disabled, disabledStyle, helpTextStyle, propHelpTextStyle, status]);
 
   const parsedIconStyle = React.useCallback((): TextStyle => {
-    if(!editable) {
+    if(disabled) {
       return {
         ...styles.icon.default,
         ...styles.icon.disabled,
@@ -485,7 +500,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, propIconStyle, status, iconProp]);
+  },[disabled, disabledStyle, propIconStyle, status, iconProp]);
 
   /**
    * This is due to the browser complaining about the 'helpText' property on docs
@@ -496,23 +511,22 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   return (
   <TouchableWithoutFeedback onPress={() => textInput.current.focus()}>
     <View style={{flexGrow: 1}}>
-      <View>
-        {!!label &&
-          <Typography variant="subtitle2" style={parsedLabelStyle()}>
-            {`${label}${required ? ' *' : ''}`}
-          </Typography>
-        }
-      </View>
+      {!!label &&
+        <Typography variant="subtitle2" style={parsedLabelStyle()}>
+          {`${label}${required ? ' *' : ''}`}
+        </Typography>
+      }
       <View style={styles.inputContainer.default}>
         <TextInput
-          ref={textInput}
-          {...textInputProps}
+          ref={handleRef}
           style={parsedInputStyle()}
           onFocus={handleOnFocus}
           onBlur={handleOnBlur}
           placeholderTextColor={placeholderTextColor}
           selectionColor={selectionColor}
           secureTextEntry={secureTextEntry}
+          editable={editable || !disabled}
+          {...textInputProps}
         />
         {(!!iconProp || type.match(actionTypesMatcher)) &&
           <TouchableWithoutFeedback onPress={handleOnPressIcon}>
@@ -524,7 +538,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         flex: 1,
         flexDirection: 'row',
         justifyContent: 'flex-start',
-        alignItems: 'center'
+        alignItems: 'flex-end'
       }}>
         {!!status &&
           <Icon

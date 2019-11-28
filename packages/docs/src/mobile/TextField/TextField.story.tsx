@@ -50,6 +50,7 @@ export const Interactive = () => {
         placeholder={text("placeholder", "Placeholder")}
         required={boolean("required", false)}
         editable={boolean("editable", true)}
+        disabled={boolean("disabled", false)}
         status={select("status", status, undefined)}
         icon={select("icon", icon, undefined)}
         type={select("type", types, types.text)}
