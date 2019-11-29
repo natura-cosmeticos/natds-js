@@ -1,5 +1,5 @@
 import React from 'react';
-import { TextField, Provider, themes } from '@naturacosmeticos/natds-web';
+import { TextField } from '@naturacosmeticos/natds-web';
 import Favorite from '@material-ui/icons/Favorite';
 
 export const types = [
@@ -17,7 +17,7 @@ export const types = [
   },
   {
     title: 'Custom Icon',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="text" icon={<Favorite />} onIconPress={() => console.log("Favorited!")} />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="text" icon={<Favorite />} onIconPress={() => alert("Favorited!")} />
   },
   {
     title: 'Multiline',
