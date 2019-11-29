@@ -6,6 +6,8 @@ import withContainer from '@decorators/container/container';
 import { text, boolean, select } from '@storybook/addon-knobs';
 import avatar from '../../assets/images/avatar.png';
 
+import ButtonDocs from './Chip.docs.mdx';
+
 export default {
   title: 'Mobile|Chip',
   component: Chip,
@@ -14,6 +16,9 @@ export default {
     jestImportPath: 'mobile',
     jest: ['Chip'],
     theme: 'mobile',
+    docs: {
+      page: ButtonDocs,
+    },
   },
 };
 
