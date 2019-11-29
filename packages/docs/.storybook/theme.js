@@ -1,5 +1,7 @@
 import { create } from '@storybook/theming/create';
 
+require('../src/assets/images/favicon.png');
+
 export default create({
   base: 'light',
 
@@ -8,7 +10,7 @@ export default create({
   appBorderRadius: 0,
 
   colorPrimary: '#F49B00',
-  colorSecondary: 'rgba(255, 107, 11, 0.16)',
+  colorSecondary: '#EF8426',
 
   barTextColor: '#f0f0f0',
   barSelectedColor: '#F49B00',
@@ -18,6 +20,6 @@ export default create({
   textInverseColor: '#fff',
 
   brandTitle: 'natds-js',
-  brandUrl: 'https://natds-v0-1-0-alpha.netlify.com',
+  brandUrl: '/',
   brandImage: require('../src/assets/images/logo-natura.png'),
 });
