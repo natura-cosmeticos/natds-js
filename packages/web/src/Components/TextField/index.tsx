@@ -59,6 +59,7 @@ const Label = styled.label`
   color: ${getColorByState(stateStyles.default)};
   line-height: 1.2;
   padding: 0 0 ${tokens.spacing.spacingMicro}px;
+  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')}
 `;
 
 const HelpText = styled.span`
@@ -69,6 +70,7 @@ const HelpText = styled.span`
   padding: ${tokens.spacing.spacingMicro}px 0 0;
   display: flex;
   align-items: center;
+  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')}
 `;
 
 const baseIcon = `
