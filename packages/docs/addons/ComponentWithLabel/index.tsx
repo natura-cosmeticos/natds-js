@@ -14,7 +14,7 @@ interface IComponentWithLabelProps {
 
 export default function ComponentWithLabel(props: IComponentWithLabelProps) {
   const { componentList, itemsPerRow } = props;
-  console.log(componentList)
+
   return (
     <ul className="component__list">
       {componentList.map(BuildComponentItem, { itemsPerRow })}
