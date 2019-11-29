@@ -54,7 +54,7 @@ export const Interactive = () => (
 export const Image = () => (
   <Avatar
     src={source.image}
-    alt={text('alt', 'Some alt image text')}
+    alt={text('alt', 'XD')}
     size={select('size', sizes, sizes.tiny)}
   />
 );
@@ -62,7 +62,7 @@ export const Image = () => (
 export const Anonymous = () => (
   <Avatar
     src={source.anonymous}
-    alt={text('alt', 'Some alt image text')}
+    alt={text('alt', 'XD')}
     size={select('size', sizes, sizes.xlarge)}
     color={select('color', colors, colors.primary)}
   />
@@ -70,8 +70,8 @@ export const Anonymous = () => (
 
 export const Text = () => (
   <Avatar
-    children="AB"
-    alt={text('alt', 'Some alt image text')}
+    children={text('children', 'XD')}
+    alt={text('alt', 'XD')}
     size={select('size', sizes, sizes.xlarge)}
     color={select('color', colors, colors.primary)}
   />

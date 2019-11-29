@@ -1,0 +1,76 @@
+import { TextField, Provider, themes } from '@naturacosmeticos/natds-web';
+import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { types, states, attributes } from './sections';
+
+# TextField
+
+---
+---
+---
+---
+
+## Types
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={types} />
+</Provider>
+
+---
+---
+
+## States
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={states} />
+</Provider>
+
+---
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+---
+
+## API
+
+```jsx highlight-line="2"
+import { TextField } from '@naturacosmeticos/natds-web';
+
+<TextField
+  label="Label"
+  helpText="Assistive text"
+  placeholder="Placeholder"
+  state="success"
+  disabled
+  required
+/>;
+```
+
+---
+---
+
+| Name                      | Type                                            | Default                               | Description
+| :--                       | :-:                                             | :-:                                   | :-:
+| disabled                  | boolean                                         | false                                 | Disables the input for user interactions.
+| helpText                  | string                                          |                                       | HelpText is the text used below the Input element.
+| hidePasswordIcon          | React component                                 |                                       | Hide Icon for password type.
+| icon                      | React component                                 |                                       | Custom Icon component.
+| id                        | string                                          |                                       | ID is applied to the Input element and is used in the label "htmlFor".
+| label                     | string                                          |                                       | Label is the text used above the Input element. It describes the name of the field.
+| multiline                 | boolean                                         | false                                 | Transform TextField in to a textarea (props like `rows` and `cols` will be forward to the texarea).
+| mask                      | array, function                                 |                                       | Mask format to use, full api on [text-mask](https://github.com/text-mask/text-mask) (does not work with multiline mode).
+| onIconPress               | function                                        |                                       | Optional callback for custom icon.
+| placeholder               | string                                          |                                       | Text to display when the input is empty.
+| required                  | boolean                                         | false                                 | Whether the field is required or not.
+| searchIcon                | React component                                 |                                       | Custom Icon for Search type.
+| showPasswordIcon          | React component                                 |                                       | Show Icon for password type.
+| state                     | string                                          | 'success', 'error', undefined         | Sets whether the input is in error or success state.
+| type                      | string                                          | 'text', 'search', 'password', string  | Creates custom functionalities for Search and Password input types, other types will be forward to the input
+
+(other props passed to the TextField will be forward to the input/textarea element)
