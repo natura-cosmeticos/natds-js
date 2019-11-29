@@ -21,13 +21,17 @@ export default function ComponentWithLabel(props: IComponentWithLabelProps) {
   );
 }
 
-function BuildComponentItem({ title, component }: IComponentWithLabelItem, key: number) {
-  const { itemsPerRow = 4 }:any = this;
-
+function BuildComponentItem(
+  { title, component }: IComponentWithLabelItem,
+  key: number
+) {
+  const { itemsPerRow = 'auto' }: any = this;
+  const styles =
+    itemsPerRow === 'auto' ? {} : { flexBasis: `${100 / itemsPerRow}%` };
   return (
-    <li className="component__item" key={key} style={{ flexBasis: `${100/itemsPerRow}%`}}>
+    <li className="component__item" key={key} style={styles}>
       <h5 className="component__item__title">{title}</h5>
       {component}
     </li>
   );
-};
+}
