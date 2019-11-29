@@ -25,6 +25,9 @@ const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
     type,
     onIconPress,
     icon,
+    searchIcon,
+    showPasswordIcon,
+    hidePasswordIcon,
     ...rest
   } = props;
 
@@ -32,16 +35,15 @@ const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
   const [showing, togglePasswordReveal] = useState(false);
   const [value, setValue] = useState("");
   const customType = showing ? TEXT_TYPE : type;
-
-  const showPasswordReveal = type === PASSWORD_TYPE;
-  const showSearchClear = type === SEARCH_TYPE;
+  const showPasswordReveal = type === PASSWORD_TYPE && !icon;
+  const showSearchClear = type === SEARCH_TYPE && !icon;
 
   return (
     <FieldContainer>
       <FieldComponent
         theme={theme}
         id={id}
-        type={customType}
+        type={customType || TEXT_TYPE}
         placeholder={placeholder}
         state={state}
         disabled={disabled}
@@ -56,10 +58,13 @@ const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
         theme={theme}
         showing={showing}
         onTogglePasswordReveal={togglePasswordReveal}
+        showPasswordIcon={showPasswordIcon}
+        hidePasswordIcon={hidePasswordIcon}
       />}
       {showSearchClear && <SearchClear
         theme={theme}
         onClearSearch={setValue}
+        searchIcon={searchIcon}
       />}
       <CustomIcon
         theme={theme}
@@ -68,7 +73,7 @@ const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
       />
     </FieldContainer>
   );
-}
+};
 
 export default Field;
 
@@ -78,7 +83,7 @@ const FieldContainer = styled.div`
   position: relative;
 `;
 
-const FieldComponent = styled.input`
+export const FieldComponent = styled.input`
   border: 0;
   border-radius: ${getProp('shape', 'borderRadius')}px;
   box-sizing: border-box;

@@ -1,13 +1,12 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, ComponentType } from 'react';
 import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
-import { ReactComponentLike } from 'prop-types';
 import { tokens } from '@naturacosmeticos/natds-styles';
 import { getProp } from './shared';
 
 interface ICustomIcon {
   theme: IThemeWeb | unknown;
-  icon?: ReactComponentLike;
+  icon?: ComponentType | undefined;
   onIconPress?: () => (void);
 }
 
@@ -15,7 +14,7 @@ const CustomIcon: FunctionComponent<ICustomIcon> = (props: ICustomIcon) => {
   if (!props.icon) return null;
 
   const { theme, icon, onIconPress } = props;
-  const style = onIconPress ? { cursor: 'pointer' } : {}
+  const style = onIconPress ? { cursor: 'pointer' } : {};
 
   return (
     <ClearIconStyled
@@ -25,7 +24,7 @@ const CustomIcon: FunctionComponent<ICustomIcon> = (props: ICustomIcon) => {
       {icon}
     </ClearIconStyled>
   );
-}
+};
 
 export default CustomIcon;
 

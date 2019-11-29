@@ -1,4 +1,4 @@
-import React, { FunctionComponent, Dispatch, SetStateAction } from 'react';
+import React, { FunctionComponent, Dispatch, SetStateAction, ComponentType } from 'react';
 import styled from 'styled-components';
 import VisibilityIcon from '@material-ui/icons/VisibilityOutlined';
 import VisibilityIconOff from '@material-ui/icons/VisibilityOffOutlined';
@@ -11,23 +11,11 @@ interface IPasswordReveal {
   theme: IThemeWeb | unknown;
   showing: boolean;
   onTogglePasswordReveal: Dispatch<SetStateAction<boolean>>;
+  showPasswordIcon?: ComponentType;
+  hidePasswordIcon?: ComponentType;
 }
 
-const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPasswordReveal) => {
-  const { theme, onTogglePasswordReveal, showing } = props;
-  const Component = showing ? HidePasswordIcon : ShowPasswordIcon;
-
-  return (
-    <Component
-      theme={theme}
-      onClick={() => onTogglePasswordReveal(!showing)}
-    />
-  );
-}
-
-export default PasswordReveal;
-
-const baseIcon = `
+const baseIconStyle = `
   width: ${tokens.spacing.spacingStandard}px;
   height: ${tokens.spacing.spacingStandard}px;
   fill:  ${getProp('palette', 'text', 'primary')};
@@ -39,5 +27,26 @@ const baseIcon = `
   cursor: pointer;
 `;
 
-const ShowPasswordIcon = styled(VisibilityIcon)`${baseIcon}`;
-const HidePasswordIcon = styled(VisibilityIconOff)`${baseIcon}`;
+const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPasswordReveal) => {
+  const {
+    theme,
+    onTogglePasswordReveal,
+    showing,
+    showPasswordIcon = VisibilityIcon,
+    hidePasswordIcon = VisibilityIconOff
+  } = props;
+
+  const Component: ComponentType<any> = showing
+    ? styled(hidePasswordIcon)`${baseIconStyle}`
+    : styled(showPasswordIcon)`${baseIconStyle}`;
+
+  return (
+    <Component
+      theme={theme}
+      onClick={() => onTogglePasswordReveal(!showing)}
+    />
+  );
+};
+
+export default PasswordReveal;
+

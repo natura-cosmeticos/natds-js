@@ -61,6 +61,21 @@ export interface ITextFieldProps {
    * Icon component callback
    */
   onIconPress?: () => void;
+  /**
+   * @optional
+   * Icon component to use with the Search field
+   */
+  searchIcon?: ComponentType;
+  /**
+   * @optional
+   * Icon component to use with the Search field
+   */
+  showPasswordIcon?: ComponentType;
+  /**
+   * @optional
+   * Icon component to use with the Search field
+   */
+  hidePasswordIcon?: ComponentType;
 }
 
 export interface IStateTypes {

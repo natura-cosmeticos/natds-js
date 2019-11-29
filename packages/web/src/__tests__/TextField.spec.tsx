@@ -5,6 +5,8 @@ import 'jest-styled-components';
 import { shallow } from 'enzyme';
 
 import TextField from '../Components/TextField';
+
+import Favorite from '@material-ui/icons/Favorite';
 import { themes } from '@naturacosmeticos/natds-styles';
 
 function getProps(props: any = {}) {
@@ -166,6 +168,18 @@ describe('TextField component', () => {
       expect(component).to.matchSnapshot('TextField multiline snapshot');
     });
 
+    test('should match snapshot - TextField (custom icon)', () => {
+      const component = renderer.create(<TextField {...getProps()} icon={<Favorite />} />).toJSON();
+
+      expect(component).to.matchSnapshot('TextField custom icon snapshot');
+    });
+
+    test('should match snapshot - TextField (custom icon with action)', () => {
+      const component = renderer.create(<TextField {...getProps()} icon={<Favorite />} onIconPress={() => ({})} />).toJSON();
+
+      expect(component).to.matchSnapshot('TextField custom icon with action snapshot');
+    });
+
     test('should match snapshot - TextField (mask)', () => {
       const mask = ['(', /[1-9]/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/];
       const component = renderer.create(<TextField {...getProps({ mask })} />).toJSON();
@@ -180,7 +194,7 @@ describe('TextField component', () => {
     });
 
     test('should match snapshot - TextField (property forwarded)', () => {
-      const component = renderer.create(<TextField {...getProps()} type="password" />).toJSON();
+      const component = renderer.create(<TextField {...getProps()} type="email" />).toJSON();
 
       expect(component).to.matchSnapshot('TextField property forwarded snapshot');
     });
