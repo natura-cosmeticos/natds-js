@@ -5,7 +5,6 @@ import { withTheme } from '../../../addons/theme/provider';
 # Grid
 
 ---
-
 ---
 
 ## Breakpoints
@@ -13,46 +12,39 @@ import { withTheme } from '../../../addons/theme/provider';
 <br />
 
 ### md max-width 1180px
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px' }}>
-      <GridContainer spacing={3} style={{ maxWidth: "1180px", background: '#ffe5e5' }}>
-        <GridItem md={12}>
-          <div style={{ backgroundColor: '#fff', textAlign: 'center'}}>md</div>
-        </GridItem>
-      </GridContainer>
-    </div>
-  </Provider>
-</Preview>
+<Provider theme={themes.natura.light}>
+  <div style={{ padding: '20px 10px 40px' }}>
+    <GridContainer spacing={3} style={{ maxWidth: "1180px", background: '#ffe5e5' }}>
+      <GridItem md={12}>
+        <div style={{ backgroundColor: '#fff', textAlign: 'center'}}>md</div>
+      </GridItem>
+    </GridContainer>
+  </div>
+</Provider>
 
 ### sm max-width 960px
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px' }}>
-      <GridContainer spacing={3} style={{ maxWidth: "760px", background: '#ffe5e5' }}>
-        <GridItem sm={12}>
-          <div style={{ backgroundColor: '#fff', textAlign: 'center'}}>sm</div>
-        </GridItem>
-      </GridContainer>
-    </div>
-  </Provider>
-</Preview>
+<Provider theme={themes.natura.light}>
+  <div style={{ padding: '20px 10px 40px' }}>
+    <GridContainer spacing={3} style={{ maxWidth: "760px", background: '#ffe5e5' }}>
+      <GridItem sm={12}>
+        <div style={{ backgroundColor: '#fff', textAlign: 'center'}}>sm</div>
+      </GridItem>
+    </GridContainer>
+  </div>
+</Provider>
 
 ### xs max-width 600px
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px' }}>
-      <GridContainer spacing={3} style={{ maxWidth: "600px", background: '#ffe5e5' }}>
-        <GridItem xs={12}>
-          <div style={{ backgroundColor: '#fff', textAlign: 'center'}}>xs</div>
-        </GridItem>
-      </GridContainer>
-    </div>
-  </Provider>
-</Preview>
+<Provider theme={themes.natura.light}>
+  <div style={{ padding: '20px 10px 40px' }}>
+    <GridContainer spacing={3} style={{ maxWidth: "600px", background: '#ffe5e5' }}>
+      <GridItem xs={12}>
+        <div style={{ backgroundColor: '#fff', textAlign: 'center'}}>xs</div>
+      </GridItem>
+    </GridContainer>
+  </div>
+</Provider>
 
 ---
-
 ---
 
 ## API
@@ -72,7 +64,6 @@ import { withTheme } from '../../../addons/theme/provider';
 ```
 
 ---
-
 ---
 
 #### GridContainer
