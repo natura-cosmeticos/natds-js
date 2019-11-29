@@ -15,12 +15,26 @@ import { IThemeShape } from 'Provider/IThemeShape';
 import Typography from '../Components/Typography';
 import { themes } from '../Themes/index';
 import { buildTheme } from '../Themes/buildTheme';
+import { tokens } from '@naturacosmeticos/natds-styles';
 /**
  * // TODO: Replace the import below to our Icon component
  */
 import Icon from 'react-native-vector-icons/MaterialCommunityIcons';
 
-interface ITextFieldProps extends TextInputProps {
+type TextFieldSizes = 'large' | 'medium';
+
+type TextFieldTypes = 'text' | 'password' | 'search' | 'other';
+
+const textFieldDefaultIcons = {
+  password: 'eye',
+  search: 'close-circle',
+  success: 'check-circle-outline',
+  error: 'close-circle-outline'
+};
+
+const actionTypesMatcher = /^(password|search)$/;
+
+interface ITextFieldProps extends Omit<TextInputProps, 'secureTextEntry'> {
   /**
    * @optional
    */
@@ -53,9 +67,13 @@ interface ITextFieldProps extends TextInputProps {
   required?: boolean;
   /**
    * @optional
-   * Style to use when `editable` is set to `false`
+   * Style to use when `disabled` is set to `true`
    */
   disabledStyle?: TextStyle;
+  /**
+   * Whether this field is disabled or not
+   */
+  disabled?: boolean;
   /**
    * Optional status for component variant
    */
@@ -78,6 +96,18 @@ interface ITextFieldProps extends TextInputProps {
    * @optional
    */
   iconStyle?: TextStyle;
+  /**
+   * Size of the text field
+   */
+  size?: TextFieldSizes;
+  /**
+   * Type of the text field
+   */
+  type?: TextFieldTypes;
+  /**
+   * Function to call when the icon is pressed. Overrides default actions on 'password' and 'search' types.
+   */
+  onIconPress?: () => void;
 }
 
 const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
@@ -95,16 +125,22 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     placeholderTextColor: propPlaceholderTextColor,
     selectionColor: propSelectionColor,
     editable = true,
+    disabled = false,
     disabledStyle,
     value,
     status,
-    icon,
-    iconStyle: propIconStyle
+    icon: iconProp,
+    iconStyle: propIconStyle,
+    size = 'large',
+    type = 'text',
+    onIconPress
   } = props;
 
-  const theme = providerTheme !== DefaultTheme
+  const theme = React.useMemo(() => {
+    return providerTheme !== DefaultTheme
     ? providerTheme
     : buildTheme(themes.natura.light, themes.natura.light);
+  },[providerTheme]);
 
   const placeholderTextColor = propPlaceholderTextColor
   ? propPlaceholderTextColor
@@ -115,65 +151,78 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   : theme.colors.primary;
 
   const iconFontSize = theme.typography.body1
-    ? theme.typography.body1.fontSize
-    : 16;
+  ? theme.typography.body1.fontSize
+  : 16;
 
-  const styles = React.useMemo(() => {
+  React.useEffect(() => {
+    setSecureTextEntry(type === 'password');
+  },[type]);
+
+  const icon = React.useMemo(() => {
+    if(iconProp) return iconProp;
+    if(type.match(actionTypesMatcher)) {
+      return textFieldDefaultIcons[type];
+    }
+    return undefined;
+  },[iconProp, type]);
+
+  const padding = React.useMemo(() => {
+    const sizes = {
+      large: tokens.spacing.spacingSmall,
+      medium: tokens.spacing.spacing
+    };
+    return sizes[size];
+  },[size, theme]);
+
+  const styles: any = React.useMemo(() => {
+    const doublePadding = 2;
+    const singlePadding = 1;
+
     const stylesToParse = {
       input: {
         default: {
           borderRadius: theme.roundness,
-          padding: theme.spacing ? theme.spacing : 8,
-          paddingRight: ((theme.spacing ? theme.spacing : 8)
-            * (icon ? 2 : 0))
+          padding,
+          paddingRight: ((textInputStyle && textInputStyle.padding ? textInputStyle.padding : padding) as number
+            * (icon ? doublePadding : singlePadding))
             + (icon ? iconFontSize : 0),
           width: '100%',
           color: theme.colors.text,
           flex: 1,
           caretColor: selectionColor,
-          fontSize: theme.typography.body2 ? theme.typography.body2.fontSize : 14
+          fontSize: theme.typography.body2 ? theme.typography.body2.fontSize : 14,
+          lineHeight: tokens.spacing.spacingStandard
         } as TextStyle & { caretColor: string; },
         theme: {
-          shadowColor: theme.colors.textHint,
-          shadowOpacity: 1,
-          shadowRadius: 2,
-          elevation: 1
+          borderColor: theme.colors.textHint,
+          borderWidth: 1
         } as TextStyle,
         themeFocus: {
-          shadowColor: theme.colors.primary,
-          shadowOpacity: 1,
-          shadowRadius: 4,
-          elevation: 2
+          borderColor: theme.colors.primary,
+          borderWidth: 2
         } as TextStyle,
         themeFilled: {
-          shadowColor: theme.colors.text,
-          shadowOpacity: 1,
-          shadowRadius: 2,
-          elevation: 1
+          borderColor: theme.colors.text,
+          borderWidth: 1
         } as TextStyle,
         disabled: {
           color: theme.colors.textHint,
-          shadowColor: theme.colors.textHint,
-          shadowOpacity: 1,
-          shadowRadius: 2,
-          elevation: 1
+          borderColor: theme.colors.textHint,
+          borderWidth: 1
         } as TextStyle,
         success: {
-          shadowColor: theme.colors.success,
-          shadowOpacity: 1,
-          shadowRadius: 2,
-          elevation: 1
+          borderColor: theme.colors.success,
+          borderWidth: 1
         } as TextStyle,
         error: {
-          shadowColor: theme.colors.error,
-          shadowOpacity: 1,
-          shadowRadius: 2,
-          elevation: 1
+          borderColor: theme.colors.error,
+          borderWidth: 2
         } as TextStyle
       },
       label: {
         default: {
-          marginBottom: 2
+          paddingBottom: tokens.spacing.spacingMicro,
+          flexWrap: 'wrap'
         } as TextStyle,
         theme: {
           color: theme.colors.textSecondary
@@ -193,7 +242,8 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       },
       helpText: {
         default: {
-          marginTop: 1
+          paddingTop: tokens.spacing.spacingMicro,
+          flexWrap: 'wrap'
         } as TextStyle,
         theme: {
           color: theme.colors.textSecondary
@@ -213,7 +263,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       },
       icon: {
         default: {
-          padding: theme.spacing ? theme.spacing : 8,
+          padding,
           position: 'absolute',
           fontSize: iconFontSize
         } as TextStyle,
@@ -236,7 +286,11 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           flexDirection: 'row',
           justifyContent: 'flex-end',
           alignItems: 'center',
-          position: 'relative'
+          position: 'relative',
+          flexWrap: 'wrap',
+          alignContent: 'flex-start',
+          flexGrow: 0,
+          flexBasis: 'auto'
         } as ViewStyle
       }
     };
@@ -251,7 +305,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     }
 
     return clonedStyles;
-  }, [theme]);
+  }, [theme, icon, textInputStyle]);
 
   const [inputStyle, setInputStyle] = React.useState({
     ...styles.input.default,
@@ -267,6 +321,8 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     ...styles.helpText.default,
     ...styles.helpText.theme
   });
+
+  const [secureTextEntry, setSecureTextEntry] = React.useState(type === 'password');
 
 
   const handleOnBlur = (e: NativeSyntheticEvent<TextInputFocusEventData>) => {
@@ -319,6 +375,27 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     textInput.current.focus();
   };
 
+  const clearInputText = () => {
+    textInput.current.clear();
+  };
+
+  const handleOnPressIcon = () => {
+    if(onIconPress) {
+      onIconPress();
+      return;
+    }
+    switch(type) {
+      case 'password':
+        setSecureTextEntry(!secureTextEntry);
+        break;
+      case 'search':
+        clearInputText();
+        break;
+      default:
+        break;
+    }
+  };
+
   const textInput = React.useRef<TextInput>(null);
 
   const styleStatusMap = {
@@ -327,7 +404,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
   };
 
   const parsedInputStyle = React.useCallback((): TextStyle => {
-    if(!editable) {
+    if(disabled) {
       return {
         ...styles.input.default,
         ...styles.input.disabled,
@@ -347,10 +424,10 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, inputStyle, textInputStyle, status, icon]);
+  },[disabled, disabledStyle, inputStyle, textInputStyle, status, iconProp]);
 
   const parsedLabelStyle = React.useCallback((): TextStyle => {
-    if(!editable) {
+    if(disabled) {
       return {
         ...styles.label.default,
         ...styles.label.disabled,
@@ -370,10 +447,10 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, labelStyle, propLabelStyle, status]);
+  },[disabled, disabledStyle, labelStyle, propLabelStyle, status]);
 
   const parsedHelpTextStyle = React.useCallback((): TextStyle => {
-    if(!editable) {
+    if(disabled) {
       return {
         ...styles.helpText.default,
         ...styles.helpText.disabled,
@@ -393,10 +470,10 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, helpTextStyle, propHelpTextStyle, status]);
+  },[disabled, disabledStyle, helpTextStyle, propHelpTextStyle, status]);
 
   const parsedIconStyle = React.useCallback((): TextStyle => {
-    if(!editable) {
+    if(disabled) {
       return {
         ...styles.icon.default,
         ...styles.icon.disabled,
@@ -417,7 +494,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
         } as TextStyle;
       }
     }
-  },[editable, disabledStyle, propIconStyle, status, icon]);
+  },[disabled, disabledStyle, propIconStyle, status, iconProp]);
 
   /**
    * This is due to the browser complaining about the 'helpText' property on docs
@@ -435,23 +512,49 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       }
       <View style={styles.inputContainer.default}>
         <TextInput
-          ref={textInput}
-          {...textInputProps}
           style={parsedInputStyle()}
+          {...textInputProps}
+          ref={textInput}
           onFocus={handleOnFocus}
           onBlur={handleOnBlur}
           placeholderTextColor={placeholderTextColor}
           selectionColor={selectionColor}
+          secureTextEntry={secureTextEntry}
+          editable={editable || !disabled}
         />
-        {!!icon &&  <Icon name={icon} style={parsedIconStyle()} />}
+        {(!!iconProp || type.match(actionTypesMatcher)) &&
+          <TouchableWithoutFeedback onPress={handleOnPressIcon} style={{
+            flexGrow: 0,
+            flexBasis: theme.typography.caption ? theme.typography.caption.fontSize : 14
+              + tokens.spacing.spacingMicro
+          }}>
+            <Icon name={icon} style={parsedIconStyle()} />
+          </TouchableWithoutFeedback>
+        }
       </View>
-      {!!helpText &&
-        <Typography
-          variant="caption"
-          style={parsedHelpTextStyle()}>
-            {helpText}
-        </Typography>
-      }
+      <View style={{
+        flex: 1,
+        flexDirection: 'row',
+        justifyContent: 'flex-start',
+        alignItems: 'flex-end'
+      }}>
+        {!!status &&
+          <Icon
+            name={textFieldDefaultIcons[status]}
+            style={{
+              ...parsedHelpTextStyle(),
+              marginRight: tokens.spacing.spacingMicro
+            }}
+            />
+        }
+        {!!helpText &&
+          <Typography
+            variant="caption"
+            style={parsedHelpTextStyle()}>
+              {helpText}
+          </Typography>
+        }
+      </View>
     </View>
   </TouchableWithoutFeedback>);
 };

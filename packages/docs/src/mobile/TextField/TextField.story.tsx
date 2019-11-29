@@ -34,6 +34,13 @@ const icon: any = {
   'close-circle': 'close-circle'
 };
 
+const types: any = {
+  password: 'password',
+  search: 'search',
+  text: 'text',
+  other: 'other'
+};
+
 export const Interactive = () => {
   return (
     <div className="mobile__text__field__container">
@@ -43,9 +50,10 @@ export const Interactive = () => {
         placeholder={text("placeholder", "Placeholder")}
         required={boolean("required", false)}
         editable={boolean("editable", true)}
+        disabled={boolean("disabled", false)}
         status={select("status", status, undefined)}
         icon={select("icon", icon, undefined)}
-        secureTextEntry={boolean("secureTextEntry", false)}
+        type={select("type", types, types.text)}
         multiline={boolean("multiline", false)}
         numberOfLines={number("numberOfLines", 1)}
       />

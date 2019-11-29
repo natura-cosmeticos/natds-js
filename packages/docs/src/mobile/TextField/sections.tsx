@@ -1,6 +1,6 @@
 import React from 'react';
-import { TextField } from '@naturacosmeticos/natds-web';
-import Favorite from '@material-ui/icons/Favorite';
+import { TextField } from '@naturacosmeticos/natds-rn';
+
 
 export const types = [
   {
@@ -16,14 +16,11 @@ export const types = [
     component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="password" />
   },
   {
-    title: 'Custom Icon',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="text" icon={<Favorite />} onIconPress={() => alert("Favorited!")} />
-  },
-  {
     title: 'Multiline',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" multiline rows="4" />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" multiline numberOfLines={4} />
   }
 ];
+
 
 export const states = [
   {
@@ -32,15 +29,15 @@ export const states = [
   },
   {
     title: 'Filled',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" value="Hello World" />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" defaultValue="Hello World" />
   },
   {
     title: 'Success',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" state="success" />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" status="success" />
   },
   {
     title: 'Error',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" state="error" />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" status="error" />
   }
 ];
 
@@ -55,18 +52,18 @@ export const attributes = [
   },
   {
     title: 'Readonly',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" editable={false} />
   },
   {
     title: 'Readonly Filled',
-    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly value="Hello World" />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" editable={false} value="Hello World" />
   },
   {
     title: 'Without helper text',
     component: <TextField label="Label" placeholder="Placeholder" />
   },
   {
-    title: 'With Mask',
-    component: <TextField label="Label" placeholder="(11) 9999-9999" mask={['(', /[1-9]/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/]} />
+    title: 'Without label',
+    component: <TextField helpText="Assistive text" placeholder="Placeholder" />
   }
 ];

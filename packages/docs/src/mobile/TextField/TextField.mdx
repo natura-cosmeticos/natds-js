@@ -1,25 +1,42 @@
 import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import { TextField, Typography, Provider, themes } from '@naturacosmeticos/natds-rn';
 import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { types, states, attributes } from './sections';
 
 # TextField
 
-***
-***
-## Status
+---
+---
+---
+---
 
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px'}}>
-      <div style={{ margin: '0 0 10px' }}>
-        <Typography variant="h5">Status can have the following values: </Typography>
-      </div>
-      <div style={{ margin: '0 0 10px' }}>
-        <Typography>'sucess' | 'error' | undefined</Typography>
-      </div>
-    </div>
-  </Provider>
-</Preview>
+## Types
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={types} />
+</Provider>
+
+---
+---
+
+## States
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={states} />
+</Provider>
+
+---
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+---
 
 ***
 ***
@@ -42,4 +59,7 @@ import { withTheme } from '../../../addons/theme/provider';
 | errorStyle                | TextStyle                                       |                               | Style to be applied when status is `error`
 | icon                      | string                                          |                               | Name of the icon to be used
 | iconStyle                 | TextStyle                                       |                               | Style to be applied on the icon
+| size                      | 'large' \| 'medium'                             | 'large'                       | Size of the input
+| type                      | 'text' \| 'password' \| 'search' \| 'other'     | 'text'                        | Type of the input
+| onIconPress               | function                                        |                               | Overridable icon press callback function
 | ...props                  | TextInputProps                                  |                               | TextInputProps interface properties
