@@ -2,7 +2,6 @@ import React, { FunctionComponent, ComponentType } from 'react';
 import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
 import { tokens } from '@naturacosmeticos/natds-styles';
-import { getProp } from './shared';
 
 interface ICustomIcon {
   theme: IThemeWeb | unknown;
@@ -11,8 +10,6 @@ interface ICustomIcon {
 }
 
 const CustomIcon: FunctionComponent<ICustomIcon> = (props: ICustomIcon) => {
-  if (!props.icon) return null;
-
   const { theme, icon, onIconPress } = props;
   const style = onIconPress ? { cursor: 'pointer' } : {};
 
@@ -31,10 +28,9 @@ export default CustomIcon;
 const ClearIconStyled = styled.i`
   width: ${tokens.spacing.spacingStandard}px;
   height: ${tokens.spacing.spacingStandard}px;
-  fill:  ${getProp('palette', 'text', 'primary')};
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: ${tokens.spacing.spacingSmall}px;
   right: ${tokens.spacing.spacingSmall}px;
-  margin: auto;
+
+  &, & > svg { fill: inherit!important; }
 `;

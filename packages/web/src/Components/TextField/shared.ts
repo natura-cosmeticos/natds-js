@@ -85,7 +85,7 @@ export interface IStateTypes {
 }
 
 export const stateStyles = {
-  default: { type: 'text', key: 'secondary', borderWidth: '0 0 0 1px' },
+  default: { type: 'text', key: 'hint', borderWidth: '0 0 0 1px' },
   disabled: { type: 'text', key: 'hint', borderWidth: '0 0 0 1px' },
   hover: { type: 'text', key: 'secondary', borderWidth: '0 0 0 1px' },
   filled: { type: 'text', key: 'primary', borderWidth: '0 0 0 1px' },
