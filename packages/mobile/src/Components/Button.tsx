@@ -150,10 +150,9 @@ const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (
     return borderColorReturn;
   }, [colorType, disabled]);
 
-  const style = React.useMemo(
-    () => (elevation ? elevationShadowStyle(elevation) : {}),
-    [elevation]
-  );
+  const style = React.useMemo(() => {
+    return elevation && !disabled ? elevationShadowStyle(elevation) : {};
+  }, [elevation, disabled]);
 
   const labelStyleMargin = React.useMemo(
     () => ({
