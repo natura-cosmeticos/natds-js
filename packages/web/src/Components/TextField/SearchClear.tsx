@@ -4,7 +4,6 @@ import ClearRounded from '@material-ui/icons/ClearRounded';
 
 import { IThemeWeb } from 'Themes';
 import { tokens } from '@naturacosmeticos/natds-styles';
-import { getProp } from './shared';
 
 interface ISearchClear {
   theme: IThemeWeb | unknown;
@@ -15,13 +14,12 @@ interface ISearchClear {
 const SearchIconStyles = `
   width: ${tokens.spacing.spacingStandard}px;
   height: ${tokens.spacing.spacingStandard}px;
-  fill:  ${getProp('palette', 'text', 'primary')};
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: ${tokens.spacing.spacingSmall}px;
   right: ${tokens.spacing.spacingSmall}px;
-  margin: auto;
   cursor: pointer;
+
+  &, & > svg { fill: inherit!important; }
 `;
 
 const SearchClear: FunctionComponent<ISearchClear> = (props: ISearchClear) => {
