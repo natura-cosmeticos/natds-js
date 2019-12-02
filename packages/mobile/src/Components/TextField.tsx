@@ -275,16 +275,16 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           lineHeight: tokens.spacing.spacingStandard
         } as TextStyle,
         theme: {
-          color: theme.colors.textSecondary
+          color: theme.colors.text
         } as TextStyle,
         disabled: {
           color: theme.colors.textHint
         } as TextStyle,
         success: {
-          color: theme.colors.textSecondary
+          color: theme.colors.text
         } as TextStyle,
         error: {
-          color: theme.colors.textSecondary
+          color: theme.colors.text
         }
       },
       inputContainer: {
