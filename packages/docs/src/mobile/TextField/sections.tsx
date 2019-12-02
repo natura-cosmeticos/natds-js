@@ -67,3 +67,14 @@ export const attributes = [
     component: <TextField helpText="Assistive text" placeholder="Placeholder" />
   }
 ];
+
+export const sizes = [
+  {
+    title: 'Large',
+    component: <TextField label="Label" size="large" placeholder="Placeholder" helpText="HelpText" />
+  },
+  {
+    title: 'Medium',
+    component: <TextField label="Label" size="medium" placeholder="Placeholder" helpText="HelpText" />
+  }
+];

@@ -136,15 +136,22 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     onIconPress
   } = props;
 
+  const defaultFlexBasis = 14;
+
+  const defaultFontSize = 16;
+
   const theme = React.useMemo(() => {
     return providerTheme !== DefaultTheme
     ? providerTheme
     : buildTheme(themes.natura.light, themes.natura.light);
   },[providerTheme]);
 
-  const placeholderTextColor = propPlaceholderTextColor
-  ? propPlaceholderTextColor
-  : theme.colors.textHint;
+  const placeholderTextColor = React.useMemo(() => {
+    if(propPlaceholderTextColor) return propPlaceholderTextColor;
+    else {
+      return disabled ? theme.colors.textHint : theme.colors.textSecondary;
+    }
+  },[propPlaceholderTextColor, theme, disabled]);
 
   const selectionColor = propSelectionColor
   ? propSelectionColor
@@ -152,7 +159,8 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
 
   const iconFontSize = theme.typography.body1
   ? theme.typography.body1.fontSize
-  : 16;
+  : defaultFontSize;
+
 
   React.useEffect(() => {
     setSecureTextEntry(type === 'password');
@@ -190,7 +198,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           color: theme.colors.text,
           flex: 1,
           caretColor: selectionColor,
-          fontSize: theme.typography.body2 ? theme.typography.body2.fontSize : 14,
+          fontSize: theme.typography.body2 ? theme.typography.body2.fontSize : defaultFontSize,
           lineHeight: tokens.spacing.spacingStandard
         } as TextStyle & { caretColor: string; },
         theme: {
@@ -263,9 +271,8 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
       },
       icon: {
         default: {
-          padding,
-          position: 'absolute',
-          fontSize: iconFontSize
+          fontSize: iconFontSize,
+          lineHeight: tokens.spacing.spacingStandard
         } as TextStyle,
         theme: {
           color: theme.colors.textSecondary
@@ -274,10 +281,10 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           color: theme.colors.textHint
         } as TextStyle,
         success: {
-          color: theme.colors.success
+          color: theme.colors.textSecondary
         } as TextStyle,
         error: {
-          color: theme.colors.error
+          color: theme.colors.textSecondary
         }
       },
       inputContainer: {
@@ -305,7 +312,7 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
     }
 
     return clonedStyles;
-  }, [theme, icon, textInputStyle]);
+  }, [theme, icon, textInputStyle, padding]);
 
   const [inputStyle, setInputStyle] = React.useState({
     ...styles.input.default,
@@ -520,16 +527,23 @@ const TextField: React.FunctionComponent<ITextFieldProps> = (props: ITextFieldPr
           placeholderTextColor={placeholderTextColor}
           selectionColor={selectionColor}
           secureTextEntry={secureTextEntry}
-          editable={editable || !disabled}
+          editable={!disabled && editable}
         />
         {(!!iconProp || type.match(actionTypesMatcher)) &&
-          <TouchableWithoutFeedback onPress={handleOnPressIcon} style={{
-            flexGrow: 0,
-            flexBasis: theme.typography.caption ? theme.typography.caption.fontSize : 14
-              + tokens.spacing.spacingMicro
+          <View style={{
+            flexBasis: theme.typography.caption ? theme.typography.caption.fontSize : defaultFlexBasis
+              + tokens.spacing.spacingMicro,
+            padding,
+            position: 'absolute',
+            flexDirection: 'column',
+            justifyContent: "flex-start",
+            alignItems: 'center',
+            height: '100%'
           }}>
-            <Icon name={icon} style={parsedIconStyle()} />
-          </TouchableWithoutFeedback>
+            <TouchableWithoutFeedback onPress={handleOnPressIcon}>
+              <Icon name={icon} style={parsedIconStyle()} />
+            </TouchableWithoutFeedback>
+          </View>
         }
       </View>
       <View style={{

@@ -2,7 +2,7 @@ import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import { TextField, Typography, Provider, themes } from '@naturacosmeticos/natds-rn';
 import { withTheme } from '../../../addons/theme/provider';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
-import { types, states, attributes } from './sections';
+import { types, states, attributes, sizes } from './sections';
 
 # TextField
 
@@ -33,6 +33,15 @@ import { types, states, attributes } from './sections';
 
 <Provider theme={themes.natura.light}>
   <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+---
+
+## Sizes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={sizes} />
 </Provider>
 
 ---
