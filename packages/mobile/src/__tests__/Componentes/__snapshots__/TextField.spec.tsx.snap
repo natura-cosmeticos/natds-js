@@ -47,7 +47,7 @@ exports[`TextField rendering should match to snapshot - Default TextField: Defau
       editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -172,7 +172,7 @@ exports[`TextField rendering should match to snapshot - Disabled TextField snaps
     <TextInput
       allowFontScaling={true}
       disabled={true}
-      editable={true}
+      editable={false}
       icon="eye"
       label="mockLabel"
       onBlur={[Function]}
@@ -238,40 +238,53 @@ exports[`TextField rendering should match to snapshot - Disabled TextField snaps
       }
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#BBBBBB",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 12,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#BBBBBB",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -356,7 +369,7 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
       label="mock"
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -418,40 +431,53 @@ exports[`TextField rendering should match to snapshot - Error status: Error stat
       }
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#E74627",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 12,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#777777",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -545,7 +571,7 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
       icon="eye"
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -606,40 +632,53 @@ exports[`TextField rendering should match to snapshot - Icon Font Size Default T
       }
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#777777",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 12,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#777777",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -708,7 +747,7 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
       label="mock"
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -774,40 +813,53 @@ exports[`TextField rendering should match to snapshot - Input padding snapshot: 
       }
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#777777",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 12,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#777777",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -875,7 +927,7 @@ exports[`TextField rendering should match to snapshot - Medium Size TextField sn
       editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -1000,12 +1052,12 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
   >
     <TextInput
       allowFontScaling={true}
-      editable={true}
+      editable={false}
       icon="eye"
       label="mock"
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -1181,40 +1233,53 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
       }
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#777777",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 18,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#777777",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1294,12 +1359,12 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
   >
     <TextInput
       allowFontScaling={true}
-      editable={true}
+      editable={false}
       icon="eye"
       label="mock"
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -1360,40 +1425,53 @@ exports[`TextField rendering should match to snapshot - Not Editable TextField s
       }
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#777777",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 12,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#777777",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1461,7 +1539,7 @@ exports[`TextField rendering should match to snapshot - Other Type TextField sna
       editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -1574,7 +1652,7 @@ exports[`TextField rendering should match to snapshot - Password Type TextField 
       editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={true}
       selectionColor="#F4AB34"
@@ -1636,40 +1714,53 @@ exports[`TextField rendering should match to snapshot - Password Type TextField 
       type="password"
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#777777",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 12,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#777777",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -1849,7 +1940,7 @@ exports[`TextField rendering should match to snapshot - Required: Required TextF
       label="Label"
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       required={true}
       secureTextEntry={false}
@@ -1962,7 +2053,7 @@ exports[`TextField rendering should match to snapshot - Search Type TextField sn
       editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -2024,40 +2115,53 @@ exports[`TextField rendering should match to snapshot - Search Type TextField sn
       type="search"
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#777777",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 12,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#777777",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -2109,7 +2213,7 @@ exports[`TextField rendering should match to snapshot - Selection Color TextFiel
       editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#FFFFFF"
@@ -2238,7 +2342,7 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
       label="mock"
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -2300,40 +2404,53 @@ exports[`TextField rendering should match to snapshot - Sucess status: Sucess st
       }
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#569A32",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 12,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#777777",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -2436,7 +2553,7 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
           "borderWidth": 1,
           "color": "#000000",
           "flex": 1,
-          "fontSize": 14,
+          "fontSize": 16,
           "lineHeight": 24,
           "padding": 16,
           "paddingRight": 16,
@@ -2659,7 +2776,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
         editable={true}
         onBlur={[Function]}
         onFocus={[Function]}
-        placeholderTextColor="#BBBBBB"
+        placeholderTextColor="#777777"
         rejectResponderTermination={true}
         secureTextEntry={false}
         selectionColor="#F4AB34"
@@ -2891,7 +3008,7 @@ exports[`TextField rendering should match to snapshot - With help text: With hel
       editable={true}
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -3020,7 +3137,7 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
       icon="eye"
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
@@ -3081,40 +3198,53 @@ exports[`TextField rendering should match to snapshot - With icon: With icon Tex
       }
       underlineColorAndroid="transparent"
     />
-    <Text
-      accessible={true}
-      allowFontScaling={false}
-      focusable={true}
-      onClick={[Function]}
-      onResponderGrant={[Function]}
-      onResponderMove={[Function]}
-      onResponderRelease={[Function]}
-      onResponderTerminate={[Function]}
-      onResponderTerminationRequest={[Function]}
-      onStartShouldSetResponder={[Function]}
+    <View
       style={
-        Array [
-          Object {
-            "color": undefined,
-            "fontSize": 12,
-          },
-          Object {
-            "color": "#777777",
-            "fontSize": 16,
-            "padding": 16,
-            "position": "absolute",
-          },
-          Object {
-            "fontFamily": "Material Design Icons",
-            "fontStyle": "normal",
-            "fontWeight": "normal",
-          },
-          Object {},
-        ]
+        Object {
+          "alignItems": "center",
+          "flexBasis": 12,
+          "flexDirection": "column",
+          "height": "100%",
+          "justifyContent": "flex-start",
+          "padding": 16,
+          "position": "absolute",
+        }
       }
     >
-      
-    </Text>
+      <Text
+        accessible={true}
+        allowFontScaling={false}
+        focusable={true}
+        onClick={[Function]}
+        onResponderGrant={[Function]}
+        onResponderMove={[Function]}
+        onResponderRelease={[Function]}
+        onResponderTerminate={[Function]}
+        onResponderTerminationRequest={[Function]}
+        onStartShouldSetResponder={[Function]}
+        style={
+          Array [
+            Object {
+              "color": undefined,
+              "fontSize": 12,
+            },
+            Object {
+              "color": "#777777",
+              "fontSize": 16,
+              "lineHeight": 24,
+            },
+            Object {
+              "fontFamily": "Material Design Icons",
+              "fontStyle": "normal",
+              "fontWeight": "normal",
+            },
+            Object {},
+          ]
+        }
+      >
+        
+      </Text>
+    </View>
   </View>
   <View
     style={
@@ -3182,7 +3312,7 @@ exports[`TextField rendering should match to snapshot - With label: With label T
       label="Mock Label"
       onBlur={[Function]}
       onFocus={[Function]}
-      placeholderTextColor="#BBBBBB"
+      placeholderTextColor="#777777"
       rejectResponderTermination={true}
       secureTextEntry={false}
       selectionColor="#F4AB34"
