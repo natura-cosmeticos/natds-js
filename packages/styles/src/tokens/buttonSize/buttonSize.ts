@@ -3,9 +3,9 @@ import IButtonSize from "./IButtonSize";
 export const buttonSize: IButtonSize = {
   small: {
     paddingTop: 8,
-    paddingRight: 10,
+    paddingRight: 8,
     paddingBottom: 8,
-    paddingLeft: 10,
+    paddingLeft: 8,
     minHeight: 32
   },
   medium: {
@@ -17,9 +17,9 @@ export const buttonSize: IButtonSize = {
   },
   large: {
     paddingTop: 16,
-    paddingRight: 18,
+    paddingRight: 16,
     paddingBottom: 16,
-    paddingLeft: 18,
+    paddingLeft: 16,
     minHeight: 48
   }
 };
