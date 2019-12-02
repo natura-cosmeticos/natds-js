@@ -75,6 +75,10 @@ export interface ITheme {
       disabled?: string;
       hint?: string;
     };
+    complementary?: {
+      link?: string;
+      warning?: string;
+    };
   };
   typography: ITypography;
   avatarSizes: IAvatarSizes;

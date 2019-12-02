@@ -45,6 +45,10 @@ export const naturaDark: ITheme = {
       secondary: natura.grayscale.colorBrdNatGray2,
       disabled: '#222222',
       hint: natura.grayscale.colorBrdNatGray1
+    },
+    complementary: {
+      link: natura.complementary.colorBrdNatCpBlue1,
+      warning: natura.complementary.colorBrdNatCpOrange4
     }
   },
   typography: {

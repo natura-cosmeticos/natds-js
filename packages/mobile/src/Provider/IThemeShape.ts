@@ -28,6 +28,8 @@ export interface IThemeShape extends Theme {
     placeholder: string;
     backdrop: string;
     notification: string;
+    link: string;
+    warning: string;
   };
   fonts: Fonts;
   spacing?: number;

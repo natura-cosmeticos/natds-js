@@ -1079,6 +1079,7 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
             "background": "#FFFFFF",
             "disabled": "#EEEEEE",
             "error": "#E74627",
+            "link": "#227BBD",
             "notification": "#f50057",
             "onBackground": "#333333",
             "onSurface": "#777777",
@@ -1090,6 +1091,7 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
             "text": "#333333",
             "textHint": "#BBBBBB",
             "textSecondary": "#777777",
+            "warning": "#FCC433",
           },
           "dark": false,
           "fonts": Object {
@@ -2559,6 +2561,10 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
               "default": "#FFFFFF",
               "paper": "#FAFAFA",
             },
+            "complementary": Object {
+              "link": "#227BBD",
+              "warning": "#FCC433",
+            },
             "error": Object {
               "contrastText": "#333333",
               "main": "#E74627",
@@ -2733,6 +2739,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
               "background": "#FFFFFF",
               "disabled": "#EEEEEE",
               "error": "#E74627",
+              "link": "#227BBD",
               "notification": "#f50057",
               "onBackground": "#333333",
               "onSurface": "#777777",
@@ -2744,6 +2751,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
               "text": "#333333",
               "textHint": "#BBBBBB",
               "textSecondary": "#777777",
+              "warning": "#FCC433",
             },
             "dark": false,
             "fonts": Object {
