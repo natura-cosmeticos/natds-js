@@ -1,0 +1,55 @@
+import { Chip, Provider, themes } from '@naturacosmeticos/natds-rn';
+import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { variants, attributes } from './sections';
+
+# Chip
+
+---
+
+---
+
+---
+
+---
+
+## Variants
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={variants} />
+</Provider>
+
+---
+
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+
+---
+
+## API
+
+```jsx highlight-line="2"
+import { Chip } from '@naturacosmeticos/natds-rn';
+
+<Chip children="Label" onPress={() => {}} />;
+```
+
+---
+
+---
+
+| Name     |        Type        | Default |                                            Description                                            |
+| :------- | :----------------: | :-----: | :-----------------------------------------------------------------------------------------------: |
+| mode     | 'flat', 'outlined' | 'flat'  |                                         Mode of the chip.                                         |
+| children |        node        |         |                                    Text content of the `Chip`.                                    |
+| icon     |       object       |         |             Icon to display for the `Chip`. Both icon and avatar cannot be specified.             |
+| avatar   |        node        |         |            Avatar to display for the `Chip`. Both icon and avatar cannot be specified.            |
+| selected |      boolean       |  false  |                                     Whether chip is selected.                                     |
+| disabled |      boolean       |  false  | Whether the chip is disabled. A disabled chip is greyed out and `onPress` is not called on touch. |

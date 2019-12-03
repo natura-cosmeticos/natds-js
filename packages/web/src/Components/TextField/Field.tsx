@@ -3,7 +3,7 @@ import styled from 'styled-components';
 import MaskedInput from 'react-text-mask';
 import { tokens } from '@naturacosmeticos/natds-styles';
 
-import { ITextFieldProps, getProp, getBorderByState, stateStyles } from './shared';
+import { ITextFieldProps, getProp, getBorderByState, stateStyles, getColorByState } from './shared';
 import PasswordReveal from './PasswordReveal';
 import SearchClear from './SearchClear';
 import CustomIcon from './CustomIcon';
@@ -37,9 +37,10 @@ const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
   const customType = showing ? TEXT_TYPE : type;
   const showPasswordReveal = type === PASSWORD_TYPE && !icon;
   const showSearchClear = type === SEARCH_TYPE && !icon;
+  const hasIcon = !!showPasswordReveal || !!showSearchClear || !!icon;
 
   return (
-    <FieldContainer>
+    <FieldContainer theme={theme} disabled={disabled}>
       <FieldComponent
         theme={theme}
         id={id}
@@ -50,6 +51,7 @@ const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
         required={required}
         as={fieldType}
         value={value}
+        hasIcon={hasIcon}
         mask={mask}
         onChange={(event: any) => setValue(event.target.value)}
         {...rest}
@@ -66,21 +68,24 @@ const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
         onClearSearch={setValue}
         searchIcon={searchIcon}
       />}
-      <CustomIcon
+      {icon && <CustomIcon
         theme={theme}
         icon={icon}
         onIconPress={onIconPress}
-      />
+      />}
     </FieldContainer>
   );
 };
 
 export default Field;
 
+const IconPad = `${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingLarge}px ${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingSmall}px`;
+
 const FieldContainer = styled.div`
   display: flex;
   flex-flow: column nowrap;
   position: relative;
+  fill: ${getColorByState(stateStyles.filled)};
 `;
 
 export const FieldComponent = styled.input`
@@ -95,21 +100,21 @@ export const FieldComponent = styled.input`
   font-size: ${getProp('typography', 'body2', 'fontSize')};
   font-weight: ${getProp('typography', 'body2', 'fontWeight')};
   flex: 1 1 100%;
-  padding: ${tokens.spacing.spacingSmall}px;
+  padding: ${({ hasIcon }) => hasIcon ? IconPad : `${tokens.spacing.spacingSmall}px`};
   resize: vertical;
 
   &:disabled,
   &:disabled:hover {
-    color: ${getProp('palette', 'text', 'disabled')};
-    box-shadow: ${getProp('palette', 'text', 'disabled')} 0 0 0 1px;
+    color: ${getProp('palette', 'text', 'hint')};
+    box-shadow: ${getProp('palette', 'text', 'hint')} 0 0 0 1px;
   }
 
   &::placeholder {
-    color: ${getProp('palette', 'text', 'hint')};
+    color: ${getProp('palette', 'text', 'secondary')};
   }
 
   &:disabled::placeholder {
-    color: ${getProp('palette', 'text', 'disabled')};
+    color: ${getProp('palette', 'text', 'hint')};
   }
 
   &:placeholder-shown {
@@ -120,11 +125,11 @@ export const FieldComponent = styled.input`
     box-shadow: ${getBorderByState(stateStyles.filled)};
   }
 
-  &:hover:not(:read-only) {
-    box-shadow: ${getBorderByState(stateStyles.hover)};
-  }
-
   &:focus:not(:read-only) {
     box-shadow: ${getBorderByState(stateStyles.focus)};
+  }
+
+  &:hover:not(:read-only):not(:disabled):not(:focus) {
+    box-shadow: ${getProp('palette', 'text', 'secondary')} 0 0 0 1px;
   }
 `;
