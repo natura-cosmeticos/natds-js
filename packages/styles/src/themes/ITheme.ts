@@ -38,6 +38,7 @@ type ITypography = {
 export interface ITheme {
   shape?: {
     borderRadius?: number;
+    badgeBorderRadius?: number;
   };
   palette?: {
     type?: "light" | "dark";

@@ -62,4 +62,5 @@ export interface IThemeShape extends Theme {
   };
   avatarSizes?: IAvatarSizes;
   buttonSize?: IButtonSize;
+  badgeBorderRadius?: number;
 }

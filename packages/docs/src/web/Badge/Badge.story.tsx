@@ -2,6 +2,7 @@ import * as React from 'react';
 import { Badge } from "@naturacosmeticos/natds-web";
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
+import { text, select } from '@storybook/addon-knobs';
 
 export default {
   title: 'Web|Badge',
@@ -14,6 +15,17 @@ export default {
   }
 };
 
+const colors: any = {
+  primary: 'primary',
+  seondary: 'secondary',
+  info: 'info',
+  error: 'error',
+  warning: 'warning',
+  success: 'success',
+  light: 'light',
+  dark: 'dark'
+};
+
 export const Interfactive = () => {
-  return <Badge>Teste</Badge>;
+  return <Badge color={select("color", colors, colors.primary)} >{text("children", "Badge")}</Badge>;
 };

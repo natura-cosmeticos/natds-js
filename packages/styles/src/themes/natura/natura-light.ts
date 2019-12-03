@@ -10,7 +10,8 @@ const { natura } = tokens.colors;
 
 export const naturaLight: ITheme = {
   shape: {
-    borderRadius: 4
+    borderRadius: 4,
+    badgeBorderRadius: 100
   },
   avatarSizes,
   buttonSize,

@@ -321,6 +321,7 @@ export function buildTheme(
     },
     avatarSizes,
     buttonSize,
+    badgeBorderRadius: shape && shape.badgeBorderRadius ? shape.badgeBorderRadius : 100
   };
 
   return newTheme;

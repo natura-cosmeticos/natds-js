@@ -1,7 +1,13 @@
 import * as React from 'react';
 import styled from 'styled-components';
 import { withTheme, createMuiTheme } from '@material-ui/core';
+import isEqual from 'lodash/isEqual';
+
 import { IThemeWeb, themes } from '../Themes';
+
+const defaultValues = {
+  lineHeight: 16
+};
 
 type IBadgeColors = 'primary' | 'secondary' | 'info' | 'error' | 'warning' | 'success' | 'light' | 'dark';
 
@@ -44,10 +50,13 @@ const Badge: React.FunctionComponent<IBadgeProps> = (props: IBadgeProps) => {
     ...rest
   } = props;
 
-  const theme: any = React.useMemo(() =>
-    providerTheme === createMuiTheme({})
-    ? createMuiTheme(themes.natura.light)
-    : providerTheme,
+  const theme: any = React.useMemo(() =>{
+    const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme));
+    const parsedDefaulttheme = JSON.parse(JSON.stringify(createMuiTheme({})));
+    return isEqual(parsedProviderTheme, parsedDefaulttheme)
+      ? createMuiTheme(themes.natura.light)
+      : providerTheme;
+  },
   [providerTheme]);
 
   const colorMap = React.useMemo(() =>{
@@ -70,7 +79,7 @@ const Badge: React.FunctionComponent<IBadgeProps> = (props: IBadgeProps) => {
         text: background.default
       },
       warning: {
-        container: complementary.link,
+        container: complementary.warning,
         text: primary.contrastText
       },
       success: {
@@ -94,15 +103,15 @@ const Badge: React.FunctionComponent<IBadgeProps> = (props: IBadgeProps) => {
       fontFamily: typography.fontFamily,
       fontSize: typography.caption.fontSize,
       fontWeight: typography.caption.fontWeight,
-      lineHeight: typography.caption.lineHeight
+      lineHeight: defaultValues.lineHeight
     };
   },[theme]);
 
   const constraints = React.useMemo(() => {
-    const { spacing } = theme;
+    const { spacing, shape } = theme;
     return {
       padding: `1px ${spacing()}px`,
-      borderRadius: 100
+      borderRadius: shape.badgeBorderRadius
     };
   },[theme]);
 
@@ -113,7 +122,7 @@ const Badge: React.FunctionComponent<IBadgeProps> = (props: IBadgeProps) => {
       fontFamily={fontMap.fontFamily}
       fontSize={fontMap.fontSize}
       fontWeight={fontMap.fontWeight}
-      lineHeigt={fontMap.lineHeight}
+      lineHeight={fontMap.lineHeight}
       padding={constraints.padding}
       borderRadius={constraints.borderRadius}
       style={style}
@@ -131,7 +140,7 @@ interface IContainerProps {
   fontFamily: string;
   fontSize: string | number;
   fontWeight: string | number;
-  lineHeigt: number;
+  lineHeight: number;
   padding: string;
   borderRadius: number;
 }
@@ -142,7 +151,7 @@ const Container = styled.div<IContainerProps> `
   font-family: ${props => props.fontFamily};
   font-size: ${props => props.fontSize};
   font-weight: ${props => props.fontWeight};
-  line-height: ${props => props.lineHeigt}rem;
+  line-height: ${props => props.lineHeight}px;
   padding: ${props => props.padding};
   border-radius: ${props => props.borderRadius}px;
   display: flex;

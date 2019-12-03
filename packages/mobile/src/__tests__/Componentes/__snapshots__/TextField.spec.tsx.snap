@@ -1050,6 +1050,7 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
               "size": 80,
             },
           },
+          "badgeBorderRadius": 100,
           "buttonSize": Object {
             "large": Object {
               "minHeight": 48,
@@ -2594,6 +2595,7 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
           },
           "roundness": 4,
           "shape": Object {
+            "badgeBorderRadius": 100,
             "borderRadius": 4,
           },
           "spacing": undefined,
@@ -2710,6 +2712,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
                 "size": 80,
               },
             },
+            "badgeBorderRadius": 100,
             "buttonSize": Object {
               "large": Object {
                 "minHeight": 48,
