@@ -106,7 +106,7 @@ export const FieldComponent = styled.input`
   &:disabled,
   &:disabled:hover {
     color: ${getProp('palette', 'text', 'hint')};
-    box-shadow: ${getProp('palette', 'text', 'disabled')} 0 0 0 1px;
+    box-shadow: ${getProp('palette', 'text', 'hint')} 0 0 0 1px;
   }
 
   &::placeholder {
@@ -114,7 +114,7 @@ export const FieldComponent = styled.input`
   }
 
   &:disabled::placeholder {
-    color: ${getProp('palette', 'text', 'disabled')};
+    color: ${getProp('palette', 'text', 'hint')};
   }
 
   &:placeholder-shown {
@@ -125,11 +125,11 @@ export const FieldComponent = styled.input`
     box-shadow: ${getBorderByState(stateStyles.filled)};
   }
 
-  &:hover:not(:read-only) {
-    box-shadow: ${getBorderByState(stateStyles.hover)};
-  }
-
   &:focus:not(:read-only) {
     box-shadow: ${getBorderByState(stateStyles.focus)};
+  }
+
+  &:hover:not(:read-only):not(:disabled):not(:focus) {
+    box-shadow: ${getProp('palette', 'text', 'secondary')} 0 0 0 1px;
   }
 `;

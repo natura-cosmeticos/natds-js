@@ -47,7 +47,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -67,19 +67,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -90,20 +90,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #333333 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -243,7 +243,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -263,19 +263,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -286,20 +286,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #333333 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -851,20 +851,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: undefined 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: undefined 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: undefined 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: undefined 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: undefined 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: 0 0 0 1px;
 }
 
 .c0 {
@@ -964,7 +964,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -984,19 +984,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -1007,20 +1007,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #333333 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -1126,7 +1126,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -1146,19 +1146,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -1169,20 +1169,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #333333 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -1702,7 +1702,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -1722,19 +1722,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -1745,20 +1745,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #BBBBBB 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -2278,7 +2278,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -2298,19 +2298,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -2321,20 +2321,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #E74627 0 0 0 2px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #E74627 0 0 0 2px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #E74627 0 0 0 2px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #E74627 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #E74627 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -3068,7 +3068,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -3088,19 +3088,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -3111,20 +3111,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #333333 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -3230,7 +3230,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -3250,19 +3250,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -3273,20 +3273,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #333333 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -3609,7 +3609,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -3629,19 +3629,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -3652,20 +3652,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #333333 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -3771,7 +3771,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -3791,19 +3791,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -3814,20 +3814,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #333333 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -3933,7 +3933,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -3953,19 +3953,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -3976,20 +3976,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #333333 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -4509,7 +4509,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #BBBBBB;
-  box-shadow: #EEEEEE 0 0 0 1px;
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -4529,19 +4529,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:disabled::placeholder {
-  color: #EEEEEE;
+  color: #BBBBBB;
 }
 
 .c3:placeholder-shown {
@@ -4552,20 +4552,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #569A32 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #569A32 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #569A32 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #569A32 0 0 0 1px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #569A32 0 0 0 1px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c0 {
@@ -4885,7 +4885,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 .c3:disabled,
 .c3:disabled:hover {
   color: #777777;
-  box-shadow: #222222 0 0 0 1px;
+  box-shadow: #777777 0 0 0 1px;
 }
 
 .c3::-webkit-input-placeholder {
@@ -4905,19 +4905,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
 }
 
 .c3:disabled::-webkit-input-placeholder {
-  color: #222222;
+  color: #777777;
 }
 
 .c3:disabled::-moz-placeholder {
-  color: #222222;
+  color: #777777;
 }
 
 .c3:disabled:-ms-input-placeholder {
-  color: #222222;
+  color: #777777;
 }
 
 .c3:disabled::placeholder {
-  color: #222222;
+  color: #777777;
 }
 
 .c3:placeholder-shown {
@@ -4928,20 +4928,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #FAFAFA 0 0 0 1px;
 }
 
-.c3:hover:not(:-moz-read-only) {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only) {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
 .c3:focus:not(:-moz-read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
 }
 
 .c3:focus:not(:read-only) {
   box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #BBBBBB 0 0 0 1px;
 }
 
 .c0 {
