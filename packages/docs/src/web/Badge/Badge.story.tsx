@@ -4,6 +4,8 @@ import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 import { text, select } from '@storybook/addon-knobs';
 
+import BadgeDocs from './Badge.docs.mdx';
+
 export default {
   title: 'Web|Badge',
   component: Badge,
@@ -12,6 +14,9 @@ export default {
     jestImportPath: 'web',
     jest: ['Badge'],
     theme: 'web',
+    docs: {
+      page: BadgeDocs
+    }
   }
 };
 
@@ -26,6 +31,28 @@ const colors: any = {
   dark: 'dark'
 };
 
-export const Interfactive = () => {
-  return <Badge color={select("color", colors, colors.primary)} >{text("children", "Badge")}</Badge>;
+const types: any = {
+  standard: 'standard'
+};
+
+export const Interactive = () => {
+  return (
+    <Badge
+      color={select("color", colors, colors.primary)}
+      type={select("type", types, types.standard)}
+    >
+      {text("children", "Badge")}
+    </Badge>
+  );
+};
+
+export const Standard = () => {
+  return (
+    <Badge
+      color={select("color", colors, colors.primary)}
+      type="standard"
+    >
+      {text("children", "Badge")}
+    </Badge>
+  );
 };

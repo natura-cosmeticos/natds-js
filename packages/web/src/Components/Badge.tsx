@@ -11,6 +11,8 @@ const defaultValues = {
 
 type IBadgeColors = 'primary' | 'secondary' | 'info' | 'error' | 'warning' | 'success' | 'light' | 'dark';
 
+type IBadgeTypes = 'standard';
+
 export interface IBadgeProps {
   [propName: string]: any;
   /**
@@ -26,6 +28,11 @@ export interface IBadgeProps {
    * Color of the badge. Defaults to 'primary'
    */
   color?: IBadgeColors;
+  /**
+   * @optional
+   * Type of the badge. Defaults to 'standard'
+   */
+  type?: IBadgeTypes;
   /**
    * Classes to be used on the badge
    */
@@ -44,6 +51,7 @@ const Badge: React.FunctionComponent<IBadgeProps> = (props: IBadgeProps) => {
   const {
     theme: providerTheme,
     color = 'primary',
+    type = 'standard',
     classes,
     style,
     children,
