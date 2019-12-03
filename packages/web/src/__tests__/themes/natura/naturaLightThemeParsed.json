@@ -1,6 +1,7 @@
 {
   "shape": {
-    "borderRadius": 4
+    "borderRadius": 4,
+    "badgeBorderRadius": 100
   },
   "spacing": 8,
   "avatarSizes": {
@@ -55,6 +56,10 @@
       "secondary": "#777777",
       "disabled": "#EEEEEE",
       "hint": "#BBBBBB"
+    },
+    "complementary": {
+      "link": "#227BBD",
+      "warning": "#FCC433"
     }
   },
   "typography": {

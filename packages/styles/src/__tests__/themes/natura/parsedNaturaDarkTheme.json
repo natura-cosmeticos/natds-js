@@ -1,6 +1,7 @@
 {
   "shape": {
-    "borderRadius": 4
+    "borderRadius": 4,
+    "badgeBorderRadius": 100
   },
   "avatarSizes": {
     "tiny": {
@@ -78,6 +79,10 @@
       "secondary": "#BBBBBB",
       "disabled": "#222222",
       "hint": "#777777"
+    },
+    "complementary": {
+      "link": "#227BBD",
+      "warning": "#FCC433"
     }
   },
   "typography": {
