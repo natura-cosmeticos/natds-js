@@ -22,7 +22,7 @@ export default {
 
 const colors: any = {
   primary: 'primary',
-  seondary: 'secondary',
+  secondary: 'secondary',
   info: 'info',
   error: 'error',
   warning: 'warning',
