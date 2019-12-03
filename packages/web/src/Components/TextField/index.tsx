@@ -56,19 +56,21 @@ const Container = styled.div`
 const Label = styled.label`
   font-size: ${getProp('typography', 'subtitle2', 'fontSize')};
   font-weight: ${getProp('typography', 'subtitle2', 'fontWeight')};
-  color: ${getColorByState(stateStyles.default)};
+  color: ${getColorByState(stateStyles.hover)};
   line-height: 1.2;
   padding: 0 0 ${tokens.spacing.spacingMicro}px;
+  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')}
 `;
 
 const HelpText = styled.span`
   font-size: ${getProp('typography', 'caption', 'fontSize')};
   font-weight: ${getProp('typography', 'caption', 'fontWeight')};
-  color: ${getColorByState(stateStyles.default)};
+  color: ${getColorByState(stateStyles.hover)};
   line-height: 1.2;
   padding: ${tokens.spacing.spacingMicro}px 0 0;
   display: flex;
   align-items: center;
+  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')}
 `;
 
 const baseIcon = `

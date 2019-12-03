@@ -3,6 +3,7 @@ import { TextField } from '@naturacosmeticos/natds-rn';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 import { text, boolean, select, number } from '@storybook/addon-knobs';
+import { forceReRender } from '@storybook/react';
 
 import './style.scss';
 
@@ -41,6 +42,11 @@ const types: any = {
   other: 'other'
 };
 
+const sizes: any = {
+  large: 'large',
+  medium: 'medium'
+};
+
 export const Interactive = () => {
   return (
     <div className="mobile__text__field__container">
@@ -56,6 +62,7 @@ export const Interactive = () => {
         type={select("type", types, types.text)}
         multiline={boolean("multiline", false)}
         numberOfLines={number("numberOfLines", 1)}
+        size={select("sizes", sizes, sizes.large)}
       />
     </div>
   );

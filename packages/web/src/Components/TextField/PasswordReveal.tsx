@@ -5,7 +5,6 @@ import VisibilityIconOff from '@material-ui/icons/VisibilityOffOutlined';
 
 import { IThemeWeb } from 'Themes';
 import { tokens } from '@naturacosmeticos/natds-styles';
-import { getProp } from './shared';
 
 interface IPasswordReveal {
   theme: IThemeWeb | unknown;
@@ -18,13 +17,12 @@ interface IPasswordReveal {
 const baseIconStyle = `
   width: ${tokens.spacing.spacingStandard}px;
   height: ${tokens.spacing.spacingStandard}px;
-  fill:  ${getProp('palette', 'text', 'primary')};
   position: absolute;
-  top: 0;
-  bottom: 0;
+  top: ${tokens.spacing.spacingSmall}px;
   right: ${tokens.spacing.spacingSmall}px;
-  margin: auto;
   cursor: pointer;
+
+  &, & > svg { fill: inherit!important; }
 `;
 
 const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPasswordReveal) => {

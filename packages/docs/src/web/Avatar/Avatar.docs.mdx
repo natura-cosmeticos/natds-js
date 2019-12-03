@@ -1,12 +1,26 @@
 import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import { Avatar, Provider, themes } from '@naturacosmeticos/natds-web';
 import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { types, sizes } from './sections';
 
 # Avatar
 
 ---
+---
+
+## Types
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={types} />
+</Provider>
 
 ---
+---
+
+## Sizes
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={sizes} />
+</Provider>
 
 ## API
 
@@ -14,77 +28,20 @@ import { withTheme } from '../../../addons/theme/provider';
 import { Avatar } from '@naturacosmeticos/natds-web';
 
 // Image avatar
-<Avatar src={require('../../assets/images/avatar.png')} size="xlarge" />;
+<Avatar
+  src={require('../../assets/images/avatar.png')}
+  size="xlarge"
+/>;
 
 // Text avatar
-<Avatar childred="Jon Doe" size="xlarge" color="secondary" />;
+<Avatar
+  childred="Jon Doe"
+  size="xlarge"
+  color="secondary"
+/>;
 ```
 
 ---
-
----
-
-## Types
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px', display: 'flex' }}>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar src={require('../../assets/images/1.png')} />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar src={require('../../assets/images/avatar.png')} />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar children="XD" />
-      </div>
-    </div>
-  </Provider>
-</Preview>
-
----
-
----
-
-## Sizes
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px', display: 'flex' }}>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar src={require('../../assets/images/1.png')} size="tiny" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar src={require('../../assets/images/1.png')} size="small" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar src={require('../../assets/images/1.png')} size="standard" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar src={require('../../assets/images/1.png')} size="large" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar src={require('../../assets/images/1.png')} size="xlarge" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar children="XD" size="tiny" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar children="XD" size="small" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar children="XD" size="standard" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar children="XD" size="large" />
-      </div>
-      <div style={{ marginRight: '20px' }}>
-        <Avatar children="XD" size="xlarge" />
-      </div>
-    </div>
-  </Provider>
-</Preview>
-
----
-
 ---
 
 | Name                      | Type               | Default                                        | Description
