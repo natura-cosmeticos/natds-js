@@ -1,5 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
+import renderer from 'react-test-renderer';
 
 import { Badge, themes } from '../';
 import { Provider } from '../Provider';
@@ -21,27 +21,27 @@ describe('Badge component', () => {
     ];
     test('it should render each color', () => {
       colors.forEach(color => {
-        const wrapper = shallow(<Badge color={color}>Mock</Badge>);
+        const wrapper = renderer.create(<Badge color={color}>Mock</Badge>);
 
-        expect(wrapper.html()).toMatchSnapshot('Badge Colors');
+        expect(wrapper.toJSON()).toMatchSnapshot('Badge Colors');
       });
     });
     test('it should render each type', () => {
       types.forEach(type => {
-        const wrapper = shallow(<Badge type={type}>Mock</Badge>);
+        const wrapper = renderer.create(<Badge type={type}>Mock</Badge>);
 
-        expect(wrapper.html()).toMatchSnapshot('Badge Types');
+        expect(wrapper.toJSON()).toMatchSnapshot('Badge Types');
       });
     });
     test('it should render the default color and default type', () => {
-      const wrapper = shallow(<Badge>Mock</Badge>);
+      const wrapper = renderer.create(<Badge>Mock</Badge>);
 
-      expect(wrapper.html()).toMatchSnapshot('Badge Default Color And Type');
+      expect(wrapper.toJSON()).toMatchSnapshot('Badge Default Color And Type');
     });
     test('it should render according to theme', () => {
-      const wrapper = shallow(<Provider theme={themes.natura.dark}><Badge>Mock</Badge></Provider>);
+      const wrapper = renderer.create(<Provider theme={themes.natura.dark}><Badge>Mock</Badge></Provider>);
 
-      expect(wrapper.html()).toMatchSnapshot('Badge Custom Theme');
+      expect(wrapper.toJSON()).toMatchSnapshot('Badge Custom Theme');
     });
   });
 });
