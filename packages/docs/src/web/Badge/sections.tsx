@@ -8,7 +8,7 @@ export const colors = [
   },
   {
     title: 'Secondary',
-    component: <Badge color="primary">Secondary</Badge>
+    component: <Badge color="secondary">Secondary</Badge>
   },
   {
     title: 'Info',
@@ -24,7 +24,7 @@ export const colors = [
   },
   {
     title: 'Success',
-    component: <Badge color="warning">Warning</Badge>
+    component: <Badge color="success">Warning</Badge>
   },
   {
     title: 'Light',
