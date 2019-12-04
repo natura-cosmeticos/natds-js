@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-rn",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "keywords": [
     "design-system"
@@ -37,7 +37,7 @@
     "verify": "yarn lint && yarn test"
   },
   "dependencies": {
-    "@naturacosmeticos/natds-styles": "^0.0.1",
+    "@naturacosmeticos/natds-styles": "^0.1.0",
     "@types/react-native-vector-icons": "^6.4.4",
     "proptypes": "^1.1.0",
     "react-native-paper": "^3.2.1",
