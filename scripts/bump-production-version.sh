@@ -39,7 +39,7 @@ git config --global user.name "Travis CI"
 git add --all
 git commit -m "Travis Commit: Bumping production version to ${RELEASE_VERSION}"
 
-yarn lerna version $RELEASE_VERSION --no-push --conventional-commits
+yarn lerna version $RELEASE_VERSION --no-push --conventional-commits --yes
 
 yarn build:libs
 
