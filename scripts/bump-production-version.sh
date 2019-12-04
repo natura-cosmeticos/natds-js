@@ -39,7 +39,7 @@ git config --global user.name "Travis CI"
 git add --all
 git commit -m "Travis Commit: Bumping production version to ${RELEASE_VERSION}"
 
-yarn lerna version $RELEASE_VERSION --no-push --conventional-commits
+yarn lerna version $RELEASE_VERSION --no-push --conventional-commits --yes
 
 yarn build:libs
 
@@ -49,18 +49,16 @@ git push origin --tags -q || true
 
 echo "//registry.npmjs.org/:_authToken=${NPM_AUTH_TOKEN}" >> .npmrc
 
-cp .npmrc packages/styles
+PACKAGES=("packages/styles" "packages/web" "packages/mobile")
 
-cp .npmrc packages/web
-
-cp .npmrc packages/mobile
-
-yarn publish --yes
+for package in "${PACKAGES[@]}"
+do
+  cp .npmrc $package
+  cd $package
+  npm publish
+  rm -rf .npmrc
+  cd ../..
+done
 
 rm -rf .npmrc
 
-rm -rf packages/styles/.npmrc
-
-rm -rf packages/web/.npmrc
-
-rm -rf packages/mobile/.npmrc
