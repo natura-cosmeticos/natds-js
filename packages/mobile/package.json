@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-rn",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "keywords": [
     "design-system"
@@ -29,7 +29,7 @@
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
     "test:unit:watch": "jest --watch",
-    "test": "yarn test:unit:coverage -u",
+    "test": "yarn test:unit:coverage --json --outputFile=.jest-test-results.json -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "build:clean": "rm -rf ./dist",
     "build": "yarn build:clean && tsc -p ./tsconfig.json",
@@ -37,7 +37,7 @@
     "verify": "yarn lint && yarn test"
   },
   "dependencies": {
-    "@naturacosmeticos/natds-styles": "^0.0.1",
+    "@naturacosmeticos/natds-styles": "^0.1.0",
     "@types/react-native-vector-icons": "^6.4.4",
     "proptypes": "^1.1.0",
     "react-native-paper": "^3.2.1",
@@ -77,5 +77,8 @@
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3",
     "yarn": "^1.19.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

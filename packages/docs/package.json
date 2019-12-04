@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-docs",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "keywords": [
@@ -12,6 +12,7 @@
     "Vagner Saraiva <vagner@vizir.com.br>",
     "Matheus Robert Lichtnow <matheus@vizir.com.br>"
   ],
+  "private": true,
   "license": "MIT",
   "homepage": "https://github.com/natura-cosmeticos/natds/packages/docs",
   "repository": {
@@ -19,7 +20,6 @@
     "url": "https://github.com/natura-cosmeticos/natds.git",
     "directory": "packages/docs"
   },
-  "private": true,
   "scripts": {
     "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
     "build": "build-storybook -o dist --docs",
@@ -69,9 +69,9 @@
   },
   "dependencies": {
     "@material-ui/icons": "4.5.1",
-    "@naturacosmeticos/natds-rn": "^0.0.1",
-    "@naturacosmeticos/natds-styles": "^0.0.1",
-    "@naturacosmeticos/natds-web": "^0.0.1",
+    "@naturacosmeticos/natds-rn": "^0.1.0",
+    "@naturacosmeticos/natds-styles": "^0.1.0",
+    "@naturacosmeticos/natds-web": "^0.1.0",
     "@types/react-native": "^0.60.19",
     "directory-tree": "2.2.4",
     "react": "^16.10.2",
