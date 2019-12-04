@@ -2,57 +2,51 @@ import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import { IconButton, Provider, themes } from '@naturacosmeticos/natds-web';
 import { Delete } from '@material-ui/icons';
 import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { attributes, colors, sizes } from './sections';
 
 # IconButton
 
-***
-***
+---
+---
+
+## Colors
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={colors} />
+</Provider>
+
+---
+---
+
+## Sizes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={sizes} />
+</Provider>
+
+---
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+---
+
 ## API
 
-```js highlight-line="2"
+```jsx highlight-line="2"
 import { IconButton } from '@naturacosmeticos/natds-web';
 
 <IconButton color="primary" children={Icon} />
 ```
 
-***
-***
-## States
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px'}}>
-      <IconButton style={{ margin: '0 10px'}} color="primary" children={<Delete />} />
-      <IconButton style={{ margin: '0 10px'}} disabled={true} color="primary" children={<Delete />} />
-    </div>
-  </Provider>
-</Preview>
-
-***
-***
-## Colors
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px'}}>
-      <IconButton style={{ margin: '0 10px'}} color="primary" children={<Delete />} />
-      <IconButton style={{ margin: '0 10px'}} color="secondary" children={<Delete />} />
-      <IconButton style={{ margin: '0 10px'}} color="default" children={<Delete />} />
-    </div>
-  </Provider>
-</Preview>
-
-***
-***
-## Sizes
-
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px'}}>
-      <IconButton style={{ margin: '0 10px'}} color="primary" size="small" children={<Delete />} />
-      <IconButton style={{ margin: '0 10px'}} color="primary" size="medium" children={<Delete />} />
-    </div>
-  </Provider>
-</Preview>
-
+---
+---
 
 | Name                      | Type                                            | Default                       | Description
 | :--                       | :-:                                             | :-:                           | :-:                       |
@@ -65,4 +59,4 @@ import { IconButton } from '@naturacosmeticos/natds-web';
 | edge                      | 'start', 'end', false                           | false                         | If given, uses a negative margin to counteract the padding on one side (this is often helpful for aligning the left or right side of the icon with content above or below, without ruining the border size and shape).
 | size                      | 'small', 'medium'                               | 'medium'                      | The size of the Iconbutton. small is equivalent to the dense Iconbutton styling.
 
-For more datails consult the full [Material IconButton API](https://material-ui.com/api/icon-button/)
+For more details consult the full [Material IconButton API](https://material-ui.com/api/icon-button/)

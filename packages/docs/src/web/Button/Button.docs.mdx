@@ -2,14 +2,53 @@ import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import { Button, Provider, themes } from '@naturacosmeticos/natds-web';
 import { Delete } from '@material-ui/icons';
 import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { attributes, variants, colors, sizes } from './sections';
 
 # Button
 
-***
-***
+---
+---
+
+## Variants
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={variants} />
+</Provider>
+
+---
+---
+
+## Colors
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={colors} />
+</Provider>
+
+---
+---
+
+## Sizes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={sizes} />
+</Provider>
+
+---
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+---
+
 ## API
 
-```js highlight-line="2"
+```jsx highlight-line="2"
 import { Button } from '@naturacosmeticos/natds-web';
 
 <Button color="primary" variant="outlined" size="medium">
@@ -17,67 +56,13 @@ import { Button } from '@naturacosmeticos/natds-web';
 </Button>
 ```
 
-***
-***
-## States
-
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div  style={{ padding: '20px'}}>
-      <Button style={{ margin: '0 10px'}} color="primary" variant="contained" size="medium">Enabled</Button>
-      <Button style={{ margin: '0 10px'}} color="secondary" variant="contained" size="medium" disabled>Disabled</Button>
-      <Button style={{ margin: '0 10px'}} color="default" variant='text' size="medium" startIcon={<Delete />}>Start Icon</Button>
-      <Button style={{ margin: '0 10px'}} color="primary" variant="outlined" size="medium" endIcon={<Delete />}>End Icon</Button>
-    </div>
-  </Provider>
-</Preview>
-
-***
-***
-## Variants
-
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px'}}>
-      <Button style={{ margin: '0 10px'}} color="primary" variant="contained" size="medium">Contained</Button>
-      <Button style={{ margin: '0 10px'}} color="primary" variant="outlined" size="medium">Outlined</Button>
-      <Button style={{ margin: '0 10px'}} color="primary" variant='text' size="medium">Text</Button>
-    </div>
-  </Provider>
-</Preview>
-
-***
-***
-## Colors
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px'}}>
-      <Button style={{ margin: '0 10px'}} color="primary" variant="contained" size="medium">Primary</Button>
-      <Button style={{ margin: '0 10px'}} color="secondary" variant="contained" size="medium">Secondary</Button>
-      <Button style={{ margin: '0 10px'}} color="default" variant="contained" size="medium">Default</Button>
-    </div>
-  </Provider>
-</Preview>
-
-***
-***
-## Sizes
-
-<Preview>
-  <Provider theme={themes.natura.light}>
-    <div style={{ padding: '20px'}}>
-      <Button style={{ margin: '0 10px'}} color="primary" variant="contained" size="small">Small</Button>
-      <Button style={{ margin: '0 10px'}} color="primary" variant="contained" size="medium">Medium</Button>
-      <Button style={{ margin: '0 10px'}} color="primary" variant="contained" size="large">Large</Button>
-    </div>
-  </Provider>
-</Preview>
-
+---
+---
 
 | Name                      | Type                                            | Default                       | Description
 | :--                       | :-:                                             | :-:                           | :-:                       |
 | children *                | node                                            |                               | The content of the button.
-| classes                   | object                                          |                               | Override or extend the styles applied to the component. See CSS API below for more details.
+| classes                   | object                                          |                               | Override or extend the styles applied to the component. See [Material Button CSS API](https://material-ui.com/api/button/#css) for more details.
 | color                     | 'default', 'inherit', 'primary', 'secondary'    | 'default'                     | The color of the component. It supports those theme colors that make sense for this component.
 | component                 | elementType                                     | 'button'                      | The component used for the root node. Either a string to use a DOM element or a component.
 | disabled                  | bool                                            | false                         | If true, the button will be disabled.
@@ -90,4 +75,4 @@ import { Button } from '@naturacosmeticos/natds-web';
 | startIcon                 | node                                            |                               | Element placed before the children.
 | variant                   | 'text', 'outlined', 'contained'                 | 'text'                        | The variant to use.
 
-For more datails consult the full [Material Button API](https://material-ui.com/api/button/)
+For more details consult the full [Material Button API](https://material-ui.com/api/button/)

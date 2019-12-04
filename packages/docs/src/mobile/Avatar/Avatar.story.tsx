@@ -27,8 +27,16 @@ const type: any = {
 };
 
 const source: any = {
-  image: require('../../assets/images/1.jpg'),
-  anonymous: require('../../assets/images/avatar.jpg'),
+  image: require('../../assets/images/1.png'),
+  anonymous: require('../../assets/images/avatar.png'),
+};
+
+const sizes: any = {
+  tiny: 'tiny',
+  small: 'small',
+  standard: 'standard',
+  large: 'large',
+  xlarge: 'xlarge',
 };
 
 export const Interactive = () => (
@@ -37,7 +45,7 @@ export const Interactive = () => (
     label={text('label', '')}
     icon={text('icon', '')}
     source={select('source', source, source.image)}
-    size={number('size', 64)}
+    avatarSizes={select('avatarSizes', sizes, sizes.tiny)}
   />
 );
 

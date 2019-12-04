@@ -1,0 +1,1753 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar component rendering avatars colors should match snapshot - Avatar Color default: Avatar Color default snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  style={
+    Object {
+      "background": "#F4AB34",
+      "fontSize": "1rem",
+      "height": "40px",
+      "width": "40px",
+    }
+  }
+  theme={
+    Object {
+      "avatarSizes": Object {
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
+      },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        },
+      },
+      "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
+        "MuiButton": Object {
+          "outlinedPrimary": Object {
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "40px",
+            "padding": "8px 16px",
+          },
+          "sizeLarge": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "48px",
+          },
+          "sizeSmall": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "32px",
+          },
+        },
+      },
+      "palette": Object {
+        "background": Object {
+          "default": "#FFFFFF",
+          "paper": "#FAFAFA",
+        },
+        "error": Object {
+          "contrastText": "#333333",
+          "main": "#E74627",
+        },
+        "primary": Object {
+          "contrastText": "#333333",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
+          "main": "#F4AB34",
+        },
+        "secondary": Object {
+          "contrastText": "#333333",
+          "dark": "#FF6B0B",
+          "light": "#FFF8E1",
+          "main": "#FF6B0B",
+        },
+        "success": Object {
+          "main": "#569A32",
+        },
+        "text": Object {
+          "disabled": "#EEEEEE",
+          "hint": "#BBBBBB",
+          "primary": "#333333",
+          "secondary": "#777777",
+        },
+        "type": "light",
+      },
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "spacing": 8,
+      "typography": Object {
+        "android": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "body1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "body2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+        },
+        "button": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+        },
+        "caption": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "h1": Object {
+          "fontSize": "6rem",
+          "fontWeight": 300,
+        },
+        "h2": Object {
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+        },
+        "h3": Object {
+          "fontSize": "3rem",
+          "fontWeight": 400,
+        },
+        "h4": Object {
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+        },
+        "h5": Object {
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        },
+        "h6": Object {
+          "fontSize": "1.25rem",
+          "fontWeight": 600,
+        },
+        "iOS": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "overline": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "subtitle1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "subtitle2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+        },
+        "web": Object {
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Avatar component rendering avatars colors should match snapshot - Avatar Color primary: Avatar Color primary snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  color="primary"
+  style={
+    Object {
+      "background": "#F4AB34",
+      "fontSize": "1rem",
+      "height": "40px",
+      "width": "40px",
+    }
+  }
+  theme={
+    Object {
+      "avatarSizes": Object {
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
+      },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        },
+      },
+      "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
+        "MuiButton": Object {
+          "outlinedPrimary": Object {
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "40px",
+            "padding": "8px 16px",
+          },
+          "sizeLarge": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "48px",
+          },
+          "sizeSmall": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "32px",
+          },
+        },
+      },
+      "palette": Object {
+        "background": Object {
+          "default": "#FFFFFF",
+          "paper": "#FAFAFA",
+        },
+        "error": Object {
+          "contrastText": "#333333",
+          "main": "#E74627",
+        },
+        "primary": Object {
+          "contrastText": "#333333",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
+          "main": "#F4AB34",
+        },
+        "secondary": Object {
+          "contrastText": "#333333",
+          "dark": "#FF6B0B",
+          "light": "#FFF8E1",
+          "main": "#FF6B0B",
+        },
+        "success": Object {
+          "main": "#569A32",
+        },
+        "text": Object {
+          "disabled": "#EEEEEE",
+          "hint": "#BBBBBB",
+          "primary": "#333333",
+          "secondary": "#777777",
+        },
+        "type": "light",
+      },
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "spacing": 8,
+      "typography": Object {
+        "android": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "body1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "body2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+        },
+        "button": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+        },
+        "caption": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "h1": Object {
+          "fontSize": "6rem",
+          "fontWeight": 300,
+        },
+        "h2": Object {
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+        },
+        "h3": Object {
+          "fontSize": "3rem",
+          "fontWeight": 400,
+        },
+        "h4": Object {
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+        },
+        "h5": Object {
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        },
+        "h6": Object {
+          "fontSize": "1.25rem",
+          "fontWeight": 600,
+        },
+        "iOS": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "overline": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "subtitle1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "subtitle2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+        },
+        "web": Object {
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Avatar component rendering avatars colors should match snapshot - Avatar Color secondary: Avatar Color secondary snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  color="secondary"
+  style={
+    Object {
+      "background": "#FF6B0B",
+      "fontSize": "1rem",
+      "height": "40px",
+      "width": "40px",
+    }
+  }
+  theme={
+    Object {
+      "avatarSizes": Object {
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
+      },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        },
+      },
+      "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
+        "MuiButton": Object {
+          "outlinedPrimary": Object {
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "40px",
+            "padding": "8px 16px",
+          },
+          "sizeLarge": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "48px",
+          },
+          "sizeSmall": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "32px",
+          },
+        },
+      },
+      "palette": Object {
+        "background": Object {
+          "default": "#FFFFFF",
+          "paper": "#FAFAFA",
+        },
+        "error": Object {
+          "contrastText": "#333333",
+          "main": "#E74627",
+        },
+        "primary": Object {
+          "contrastText": "#333333",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
+          "main": "#F4AB34",
+        },
+        "secondary": Object {
+          "contrastText": "#333333",
+          "dark": "#FF6B0B",
+          "light": "#FFF8E1",
+          "main": "#FF6B0B",
+        },
+        "success": Object {
+          "main": "#569A32",
+        },
+        "text": Object {
+          "disabled": "#EEEEEE",
+          "hint": "#BBBBBB",
+          "primary": "#333333",
+          "secondary": "#777777",
+        },
+        "type": "light",
+      },
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "spacing": 8,
+      "typography": Object {
+        "android": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "body1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "body2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+        },
+        "button": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+        },
+        "caption": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "h1": Object {
+          "fontSize": "6rem",
+          "fontWeight": 300,
+        },
+        "h2": Object {
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+        },
+        "h3": Object {
+          "fontSize": "3rem",
+          "fontWeight": 400,
+        },
+        "h4": Object {
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+        },
+        "h5": Object {
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        },
+        "h6": Object {
+          "fontSize": "1.25rem",
+          "fontWeight": 600,
+        },
+        "iOS": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "overline": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "subtitle1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "subtitle2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+        },
+        "web": Object {
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size large: Avatar Size large snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="large"
+  style={
+    Object {
+      "background": "#F4AB34",
+      "fontSize": "1rem",
+      "height": "48px",
+      "width": "48px",
+    }
+  }
+  theme={
+    Object {
+      "avatarSizes": Object {
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
+      },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        },
+      },
+      "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
+        "MuiButton": Object {
+          "outlinedPrimary": Object {
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "40px",
+            "padding": "8px 16px",
+          },
+          "sizeLarge": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "48px",
+          },
+          "sizeSmall": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "32px",
+          },
+        },
+      },
+      "palette": Object {
+        "background": Object {
+          "default": "#FFFFFF",
+          "paper": "#FAFAFA",
+        },
+        "error": Object {
+          "contrastText": "#333333",
+          "main": "#E74627",
+        },
+        "primary": Object {
+          "contrastText": "#333333",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
+          "main": "#F4AB34",
+        },
+        "secondary": Object {
+          "contrastText": "#333333",
+          "dark": "#FF6B0B",
+          "light": "#FFF8E1",
+          "main": "#FF6B0B",
+        },
+        "success": Object {
+          "main": "#569A32",
+        },
+        "text": Object {
+          "disabled": "#EEEEEE",
+          "hint": "#BBBBBB",
+          "primary": "#333333",
+          "secondary": "#777777",
+        },
+        "type": "light",
+      },
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "spacing": 8,
+      "typography": Object {
+        "android": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "body1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "body2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+        },
+        "button": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+        },
+        "caption": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "h1": Object {
+          "fontSize": "6rem",
+          "fontWeight": 300,
+        },
+        "h2": Object {
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+        },
+        "h3": Object {
+          "fontSize": "3rem",
+          "fontWeight": 400,
+        },
+        "h4": Object {
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+        },
+        "h5": Object {
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        },
+        "h6": Object {
+          "fontSize": "1.25rem",
+          "fontWeight": 600,
+        },
+        "iOS": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "overline": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "subtitle1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "subtitle2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+        },
+        "web": Object {
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size small: Avatar Size small snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="small"
+  style={
+    Object {
+      "background": "#F4AB34",
+      "fontSize": ".875rem",
+      "height": "32px",
+      "width": "32px",
+    }
+  }
+  theme={
+    Object {
+      "avatarSizes": Object {
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
+      },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        },
+      },
+      "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
+        "MuiButton": Object {
+          "outlinedPrimary": Object {
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "40px",
+            "padding": "8px 16px",
+          },
+          "sizeLarge": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "48px",
+          },
+          "sizeSmall": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "32px",
+          },
+        },
+      },
+      "palette": Object {
+        "background": Object {
+          "default": "#FFFFFF",
+          "paper": "#FAFAFA",
+        },
+        "error": Object {
+          "contrastText": "#333333",
+          "main": "#E74627",
+        },
+        "primary": Object {
+          "contrastText": "#333333",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
+          "main": "#F4AB34",
+        },
+        "secondary": Object {
+          "contrastText": "#333333",
+          "dark": "#FF6B0B",
+          "light": "#FFF8E1",
+          "main": "#FF6B0B",
+        },
+        "success": Object {
+          "main": "#569A32",
+        },
+        "text": Object {
+          "disabled": "#EEEEEE",
+          "hint": "#BBBBBB",
+          "primary": "#333333",
+          "secondary": "#777777",
+        },
+        "type": "light",
+      },
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "spacing": 8,
+      "typography": Object {
+        "android": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "body1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "body2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+        },
+        "button": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+        },
+        "caption": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "h1": Object {
+          "fontSize": "6rem",
+          "fontWeight": 300,
+        },
+        "h2": Object {
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+        },
+        "h3": Object {
+          "fontSize": "3rem",
+          "fontWeight": 400,
+        },
+        "h4": Object {
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+        },
+        "h5": Object {
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        },
+        "h6": Object {
+          "fontSize": "1.25rem",
+          "fontWeight": 600,
+        },
+        "iOS": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "overline": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "subtitle1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "subtitle2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+        },
+        "web": Object {
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size standard: Avatar Size standard snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="standard"
+  style={
+    Object {
+      "background": "#F4AB34",
+      "fontSize": "1rem",
+      "height": "40px",
+      "width": "40px",
+    }
+  }
+  theme={
+    Object {
+      "avatarSizes": Object {
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
+      },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        },
+      },
+      "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
+        "MuiButton": Object {
+          "outlinedPrimary": Object {
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "40px",
+            "padding": "8px 16px",
+          },
+          "sizeLarge": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "48px",
+          },
+          "sizeSmall": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "32px",
+          },
+        },
+      },
+      "palette": Object {
+        "background": Object {
+          "default": "#FFFFFF",
+          "paper": "#FAFAFA",
+        },
+        "error": Object {
+          "contrastText": "#333333",
+          "main": "#E74627",
+        },
+        "primary": Object {
+          "contrastText": "#333333",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
+          "main": "#F4AB34",
+        },
+        "secondary": Object {
+          "contrastText": "#333333",
+          "dark": "#FF6B0B",
+          "light": "#FFF8E1",
+          "main": "#FF6B0B",
+        },
+        "success": Object {
+          "main": "#569A32",
+        },
+        "text": Object {
+          "disabled": "#EEEEEE",
+          "hint": "#BBBBBB",
+          "primary": "#333333",
+          "secondary": "#777777",
+        },
+        "type": "light",
+      },
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "spacing": 8,
+      "typography": Object {
+        "android": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "body1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "body2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+        },
+        "button": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+        },
+        "caption": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "h1": Object {
+          "fontSize": "6rem",
+          "fontWeight": 300,
+        },
+        "h2": Object {
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+        },
+        "h3": Object {
+          "fontSize": "3rem",
+          "fontWeight": 400,
+        },
+        "h4": Object {
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+        },
+        "h5": Object {
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        },
+        "h6": Object {
+          "fontSize": "1.25rem",
+          "fontWeight": 600,
+        },
+        "iOS": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "overline": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "subtitle1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "subtitle2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+        },
+        "web": Object {
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size tiny: Avatar Size tiny snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="tiny"
+  style={
+    Object {
+      "background": "#F4AB34",
+      "fontSize": ".625rem",
+      "height": "24px",
+      "width": "24px",
+    }
+  }
+  theme={
+    Object {
+      "avatarSizes": Object {
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
+      },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        },
+      },
+      "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
+        "MuiButton": Object {
+          "outlinedPrimary": Object {
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "40px",
+            "padding": "8px 16px",
+          },
+          "sizeLarge": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "48px",
+          },
+          "sizeSmall": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "32px",
+          },
+        },
+      },
+      "palette": Object {
+        "background": Object {
+          "default": "#FFFFFF",
+          "paper": "#FAFAFA",
+        },
+        "error": Object {
+          "contrastText": "#333333",
+          "main": "#E74627",
+        },
+        "primary": Object {
+          "contrastText": "#333333",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
+          "main": "#F4AB34",
+        },
+        "secondary": Object {
+          "contrastText": "#333333",
+          "dark": "#FF6B0B",
+          "light": "#FFF8E1",
+          "main": "#FF6B0B",
+        },
+        "success": Object {
+          "main": "#569A32",
+        },
+        "text": Object {
+          "disabled": "#EEEEEE",
+          "hint": "#BBBBBB",
+          "primary": "#333333",
+          "secondary": "#777777",
+        },
+        "type": "light",
+      },
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "spacing": 8,
+      "typography": Object {
+        "android": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "body1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "body2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+        },
+        "button": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+        },
+        "caption": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "h1": Object {
+          "fontSize": "6rem",
+          "fontWeight": 300,
+        },
+        "h2": Object {
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+        },
+        "h3": Object {
+          "fontSize": "3rem",
+          "fontWeight": 400,
+        },
+        "h4": Object {
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+        },
+        "h5": Object {
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        },
+        "h6": Object {
+          "fontSize": "1.25rem",
+          "fontWeight": 600,
+        },
+        "iOS": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "overline": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "subtitle1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "subtitle2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+        },
+        "web": Object {
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size xlarge: Avatar Size xlarge snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="xlarge"
+  style={
+    Object {
+      "background": "#F4AB34",
+      "fontSize": "1.5rem",
+      "height": "80px",
+      "width": "80px",
+    }
+  }
+  theme={
+    Object {
+      "avatarSizes": Object {
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+        "xlarge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
+      },
+      "buttonSize": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        },
+      },
+      "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
+        "MuiButton": Object {
+          "outlinedPrimary": Object {
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "40px",
+            "padding": "8px 16px",
+          },
+          "sizeLarge": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "48px",
+          },
+          "sizeSmall": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "32px",
+          },
+        },
+      },
+      "palette": Object {
+        "background": Object {
+          "default": "#FFFFFF",
+          "paper": "#FAFAFA",
+        },
+        "error": Object {
+          "contrastText": "#333333",
+          "main": "#E74627",
+        },
+        "primary": Object {
+          "contrastText": "#333333",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
+          "main": "#F4AB34",
+        },
+        "secondary": Object {
+          "contrastText": "#333333",
+          "dark": "#FF6B0B",
+          "light": "#FFF8E1",
+          "main": "#FF6B0B",
+        },
+        "success": Object {
+          "main": "#569A32",
+        },
+        "text": Object {
+          "disabled": "#EEEEEE",
+          "hint": "#BBBBBB",
+          "primary": "#333333",
+          "secondary": "#777777",
+        },
+        "type": "light",
+      },
+      "shape": Object {
+        "borderRadius": 4,
+      },
+      "spacing": 8,
+      "typography": Object {
+        "android": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "body1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "body2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+        },
+        "button": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+        },
+        "caption": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "h1": Object {
+          "fontSize": "6rem",
+          "fontWeight": 300,
+        },
+        "h2": Object {
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+        },
+        "h3": Object {
+          "fontSize": "3rem",
+          "fontWeight": 400,
+        },
+        "h4": Object {
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+        },
+        "h5": Object {
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        },
+        "h6": Object {
+          "fontSize": "1.25rem",
+          "fontWeight": 600,
+        },
+        "iOS": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "overline": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "subtitle1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "subtitle2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+        },
+        "web": Object {
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+      },
+    }
+  }
+/>
+`;
+
+exports[`Avatar component rendering avatars types should match snapshot - Avatar with icon: Avatar with icon snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  style={Object {}}
+>
+  <i />
+</div>
+`;
+
+exports[`Avatar component rendering avatars types should match snapshot - Avatar with image: Avatar with initials snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle"
+  style={Object {}}
+>
+  <img
+    className="MuiAvatar-img"
+    src="source/image.png"
+  />
+</div>
+`;
+
+exports[`Avatar component rendering avatars types should match snapshot - Avatar with initials: Avatar with initials snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  style={Object {}}
+>
+  AB
+</div>
+`;
+
+exports[`Avatar component rendering variants should match snapshot - Avatar (variant circle): Avatar circle snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  style={Object {}}
+>
+  A
+</div>
+`;
+
+exports[`Avatar component rendering variants should match snapshot - Avatar (variant rounded): Avatar rounded snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-rounded MuiAvatar-colorDefault"
+  style={Object {}}
+>
+  A
+</div>
+`;
+
+exports[`Avatar component rendering variants should match snapshot - Avatar (variant square): Avatar square snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-square MuiAvatar-colorDefault"
+  style={Object {}}
+>
+  A
+</div>
+`;

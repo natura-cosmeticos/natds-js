@@ -6,7 +6,7 @@ import withContainer from '@decorators/container/container';
 import { Chip } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
 
-import ChipDocs from './Chip.mdx';
+import ChipDocs from './Chip.docs.mdx';
 
 export default {
   title: 'Web|Chip',

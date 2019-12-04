@@ -2,6 +2,51 @@
   "shape": {
     "borderRadius": 4
   },
+  "avatarSizes": {
+    "tiny": {
+      "size": 24,
+      "fontSize": ".625rem"
+    },
+    "small": {
+      "size": 32,
+      "fontSize": ".875rem"
+    },
+    "standard": {
+      "size": 40,
+      "fontSize": "1rem"
+    },
+    "large": {
+      "size": 48,
+      "fontSize": "1rem"
+    },
+    "xlarge": {
+      "size": 80,
+      "fontSize": "1.5rem"
+    }
+  },
+  "buttonSize": {
+    "small": {
+      "paddingTop": 8,
+      "paddingRight": 8,
+      "paddingBottom": 8,
+      "paddingLeft": 8,
+      "minHeight": 32
+    },
+    "medium": {
+      "paddingTop": 12,
+      "paddingRight": 16,
+      "paddingBottom": 12,
+      "paddingLeft": 16,
+      "minHeight": 40
+    },
+    "large": {
+      "paddingTop": 16,
+      "paddingRight": 16,
+      "paddingBottom": 16,
+      "paddingLeft": 16,
+      "minHeight": 48
+    }
+  },
   "spacing": 8,
   "palette": {
     "type": "light",
@@ -9,27 +54,30 @@
       "main": "#F4AB34",
       "light": "#FEFDE8",
       "dark": "#EF8426",
-      "contrastText": "#333333"
+      "contrastText": "#FAFAFA"
     },
     "secondary": {
       "main": "#FF6B0B",
       "light": "#FFF8E1",
       "dark": "#FF6B0B",
-      "contrastText": "#333333"
+      "contrastText": "#FAFAFA"
     },
     "error": {
       "main": "#E74627",
-      "contrastText": "#333333"
+      "contrastText": "#FAFAFA"
+    },
+    "success": {
+      "main": "#569A32"
     },
     "background": {
       "paper": "#222222",
       "default": "#FFFFFF"
     },
     "text": {
-      "primary": "#333333",
-      "secondary": "#333333",
-      "disabled": "#EEEEEE",
-      "hint": "#BBBBBB"
+      "primary": "#FAFAFA",
+      "secondary": "#BBBBBB",
+      "disabled": "#222222",
+      "hint": "#777777"
     }
   },
   "typography": {
@@ -61,52 +109,65 @@
       "fontWeightBold": 700
     },
     "h1": {
-      "fontSize": "6rem"
+      "fontSize": "6rem",
+      "fontWeight": 300
     },
     "h2": {
-      "fontSize": "3.75rem"
+      "fontSize": "3.75rem",
+      "fontWeight": 300
     },
     "h3": {
-      "fontSize": "3rem"
+      "fontSize": "3rem",
+      "fontWeight": 400
     },
     "h4": {
-      "fontSize": "2.125rem"
+      "fontSize": "2.125rem",
+      "fontWeight": 400
     },
     "h5": {
-      "fontSize": "1.5rem"
+      "fontSize": "1.5rem",
+      "fontWeight": 400
     },
     "h6": {
-      "fontSize": "1.25rem"
+      "fontSize": "1.25rem",
+      "fontWeight": 600
     },
     "subtitle1": {
-      "fontSize": "1rem"
+      "fontSize": "1rem",
+      "fontWeight": 400
     },
     "subtitle2": {
-      "fontSize": "0.875rem"
+      "fontSize": "0.875rem",
+      "fontWeight": 500
     },
     "body1": {
-      "fontSize": "1rem"
+      "fontSize": "1rem",
+      "fontWeight": 400
     },
     "body2": {
-      "fontSize": "0.875rem"
+      "fontSize": "0.875rem",
+      "fontWeight": 400
     },
     "button": {
-      "fontSize": "0.875rem"
+      "fontSize": "0.875rem",
+      "fontWeight": 600
     },
     "caption": {
-      "fontSize": "0.75rem"
+      "fontSize": "0.75rem",
+      "fontWeight": 400
     },
     "overline": {
-      "fontSize": "0.75rem"
+      "fontSize": "0.75rem",
+      "fontWeight": 400
     }
   },
   "overrides": {
     "MuiButton": {
       "outlinedPrimary": {
-        "color": "#333333"
+        "color": "#FAFAFA"
       },
       "outlinedSecondary": {
-        "color": "#333333"
+        "color": "#FAFAFA"
       },
       "sizeSmall": {
         "fontSize": "0.875rem",
@@ -120,6 +181,11 @@
       "sizeLarge": {
         "fontSize": "0.875rem",
         "minHeight": "48px"
+      }
+    },
+    "MuiAvatar": {
+      "colorDefault": {
+        "color": "#FAFAFA"
       }
     }
   }
