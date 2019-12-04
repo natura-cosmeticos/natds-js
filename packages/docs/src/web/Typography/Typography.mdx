@@ -4,116 +4,116 @@ import { withTheme } from '../../../addons/theme/provider';
 
 # Typography
 
----
----
-
+***
+***
 ## Variants
 
-<Provider theme={themes.natura.light}>
-  <div style={{ padding: '20px'}}>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h5">Variants can have the following values: </Typography>
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px'}}>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h5">Variants can have the following values: </Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography>'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'subtitle1' | 'subtitle2' | 'body1' | 'body2' | 'caption' | 'button' | 'overline' | undefined</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography>When variant is undefined, it defaults to 'body1'</Typography>
+      </div>
     </div>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography>'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'subtitle1' | 'subtitle2' | 'body1' | 'body2' | 'caption' | 'button' | 'overline' | undefined</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography>When variant is undefined, it defaults to 'body1'</Typography>
-    </div>
-  </div>
-</Provider>
+  </Provider>
+</Preview>
 
----
----
-
+***
+***
 ## Align
 
-<Provider theme={themes.natura.light}>
-  <div style={{ padding: '20px'}}>
-    <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
-      <Typography variant="h6">Default/Inherit alignment</Typography>
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px'}}>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6">Default/Inherit alignment</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6" align="left">Left alignment</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6" align="center">Center alignment</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6" align="right">Right alignment</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
+        <Typography variant="h6" align="justify">Justify alignment</Typography>
+      </div>
     </div>
-    <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
-      <Typography variant="h6" align="left">Left alignment</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
-      <Typography variant="h6" align="center">Center alignment</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
-      <Typography variant="h6" align="right">Right alignment</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px', padding: '0 10px', borderLeft: '1px solid #ccc', borderRight: '1px solid #ccc' }}>
-      <Typography variant="h6" align="justify">Justify alignment</Typography>
-    </div>
-  </div>
-</Provider>
+  </Provider>
+</Preview>
 
----
----
-
+***
+***
 ## Color
 
-<Provider theme={themes.natura.light}>
-  <div style={{ padding: '20px'}}>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h6">Default/Inherit color</Typography>
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px'}}>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6">Default/Inherit color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="initial">Initial color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="primary">Primary color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="secondary">Secondary color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="textPrimary">Text Primary color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="textSecondary">Text Secondary color</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6" color="error">Error color</Typography>
+      </div>
     </div>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h6" color="initial">Initial color</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h6" color="primary">Primary color</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h6" color="secondary">Secondary color</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h6" color="textPrimary">Text Primary color</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h6" color="textSecondary">Text Secondary color</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h6" color="error">Error color</Typography>
-    </div>
-  </div>
-</Provider>
+  </Provider>
+</Preview>
 
----
----
-
+***
+***
 ## NoWrap
 
-<Provider theme={themes.natura.light}>
-  <div style={{ padding: '20px', width: '740px'}}>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h6">NoWrap default</Typography>
-      <Typography variant="hbody16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography>
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px', width: '740px'}}>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6">NoWrap default</Typography>
+        <Typography variant="hbody16">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px' }}>
+        <Typography variant="h6">NoWrap false</Typography>
+        <Typography variant="body1" noWrap={false}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography>
+      </div>
+      <div style={{ margin: '0 0 10px', overflow: 'hidden' }}>
+        <Typography variant="h6">NoWrap true</Typography>
+        <Typography variant="body1" noWrap={true}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography>
+      </div>
     </div>
-    <div style={{ margin: '0 0 10px' }}>
-      <Typography variant="h6">NoWrap false</Typography>
-      <Typography variant="body1" noWrap={false}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography>
-    </div>
-    <div style={{ margin: '0 0 10px', overflow: 'hidden' }}>
-      <Typography variant="h6">NoWrap true</Typography>
-      <Typography variant="body1" noWrap={true}>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua.</Typography>
-    </div>
-  </div>
-</Provider>
+  </Provider>
+</Preview>
 
----
----
-
+***
+***
 ## API
 
-```jsx highlight-line="2"
+```js highlight-line="2"
 <Typography variant="h3">
   Label
 </Typography>
 ```
-
----
----
 
 
 | Name                      | Type                                            | Default                       | Description

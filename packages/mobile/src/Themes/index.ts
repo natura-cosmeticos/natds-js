@@ -5,8 +5,7 @@ import {
 } from '@naturacosmeticos/natds-styles';
 import { Platform } from 'react-native';
 
-export interface IThemeMobile
-  extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes' | 'buttonSize'> {
+export interface IThemeMobile extends Pick<ITheme, 'shape' | 'palette'> {
   typography: {
     fontFamily?: string;
     fontFamilyBrand1?: string;

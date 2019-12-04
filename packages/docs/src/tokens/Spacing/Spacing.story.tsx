@@ -1,6 +1,6 @@
 import * as React from 'react';
 
-import Table from '@addons/Table';
+import Table from '@addons/Table/Table';
 import SpacingScale from './Spacing.scale';
 import SpacingPadding from './Spacing.padding';
 import SpacingMargin from './Spacing.margin';

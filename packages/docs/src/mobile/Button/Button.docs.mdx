@@ -1,7 +1,6 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import { Button, Provider, themes } from '@naturacosmeticos/natds-rn';
 import { withTheme } from '../../../addons/theme/provider';
-import ComponentWithLabel from '../../../addons/ComponentWithLabel';
-import { variants, colors, sizes, attributes } from './sections';
 
 # Button
 
@@ -9,72 +8,65 @@ import { variants, colors, sizes, attributes } from './sections';
 
 ---
 
----
-
----
-
-## Variants
-
-<Provider theme={themes.natura.light}>
-  <ComponentWithLabel componentList={variants} />
-</Provider>
-
----
-
----
-
-## Colors
-
-<Provider theme={themes.natura.light}>
-  <ComponentWithLabel componentList={colors} />
-</Provider>
-
----
-
----
-
-## Sizes
-
-<Provider theme={themes.natura.light}>
-  <ComponentWithLabel componentList={sizes} />
-</Provider>
-
----
-
----
-
-## Attributes
-
-<Provider theme={themes.natura.light}>
-  <ComponentWithLabel componentList={attributes} />
-</Provider>
-
----
-
----
-
 ## API
 
-```jsx highlight-line="2"
+```js highlight-line="2"
 import { Button } from '@naturacosmeticos/natds-rn';
 
-<Button children="Label" mode="outlined" onPress={() => {}} />;
+<Button children="Label" mode="outlined" onPress={() => {}} />
 ```
 
 ---
 
 ---
 
-| Name         |              Type               |  Default  |                                              Description                                              |
-| :----------- | :-----------------------------: | :-------: | :---------------------------------------------------------------------------------------------------: |
-| children \*  |              node               |           |                                       Label text of the button.                                       |
-| mode         | 'text', 'outlined', 'contained' |  'text'   |                                          Mode of the button.                                          |
-| colorType    |     'primary', 'secondary'      | 'primary' |                                     Custom flag to change color.                                      |
-| color        |             string              |           |             Custom text color for flat button, or background color for contained button.              |
-| icon         |             object              |           |                                   Icon to display for the `Button`.                                   |
-| disabled     |             boolean             |   false   | Whether the button is disabled. A disabled button is greyed out and `onPress` is not called on touch. |
-| contentStyle |             object              |           |           Style of button's inner content. Use this prop to apply custom height and width.            |
-| style        |             object              |           |                                      React Native style object.                                       |
-| labelStyle   |             object              |           |                                      Style for the button text.                                       |
-| elevation    |             number              |           |                                    Shadow depth, using to ios/web.                                    |
-| size         |   'small', 'medium', 'large'    | 'medium'  |               The size of the button. Small is equivalent to the dense button styling.                |
+## States
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px' }}>
+      <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
+        <Button children="Enabled" mode="contained" onPress={() => {}} />
+      </div>
+      <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
+        <Button children="Disabled" mode="contained" disabled />
+      </div>
+      <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
+        <Button children="Icon" mode="text" icon="delete" onPress={() => {}} />
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+---
+
+---
+
+## Variants
+
+<Preview>
+  <Provider theme={themes.natura.light}>
+    <div style={{ padding: '20px' }}>
+      <div style={{ width: '120px', float: 'left', marginRight: '20px' }}>
+        <Button children="Contained" mode="contained" onPress={() => {}} />
+      </div>
+      <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
+        <Button children="Outlined" mode="outlined" onPress={() => {}} />
+      </div>
+      <div style={{ width: '110px', float: 'left', marginRight: '20px' }}>
+        <Button children="Text" mode="text" onPress={() => {}} />
+      </div>
+    </div>
+  </Provider>
+</Preview>
+
+| Name                      | Type                                            | Default                       | Description
+| :--                       | :-:                                             | :-:                           | :-:                       |
+| children *                | node                                            |                               | Label text of the button.
+| mode                      | 'text', 'outlined', 'contained'                 | 'text'                        | Mode of the button.
+| color                     | string                                          |                               | Custom text color for flat button, or background color for contained button.
+| icon                      | object                                          |                               | Icon to display for the `Button`.
+| disabled                  | boolean                                         | false                         | Whether the button is disabled. A disabled button is greyed out and `onPress` is not called on touch.
+| contentStyle              | object                                          |                               | Style of button's inner content. Use this prop to apply custom height and width.
+| style                     | object                                          |                               | React Native style object.
+| labelStyle                | object                                          |                               | Style for the button text.

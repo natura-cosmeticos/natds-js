@@ -19,7 +19,7 @@ describe('ButtonGroup component', () => {
 
     test('should match snapshot - Size Large', () => {
       const component = renderer.create(<ButtonGroup size="large"><Button>One</Button><Button>Two</Button></ButtonGroup>).toJSON();
-      expect(component).matchSnapshot('Large ButtonGroup snapshot');
+      expect(component).matchSnapshot('Medium ButtonGroup snapshot');
     });
   });
 

@@ -1,6 +1,4 @@
 import { fontSize } from "../tokens/fontSize/fontSize";
-import IAvatarSizes from "../tokens/avatarSizes/IAvatarSizes";
-import IButtonSize from "tokens/buttonSize/IButtonSize";
 
 type ITypography = {
   web: {
@@ -53,12 +51,6 @@ export interface ITheme {
       dark?: string;
       contrastText?: string;
     };
-    success?: {
-      main: string;
-      light?: string;
-      dark?: string;
-      contrastText?: string;
-    },
     error?: {
       main: string;
       light?: string;
@@ -77,8 +69,6 @@ export interface ITheme {
     };
   };
   typography: ITypography;
-  avatarSizes: IAvatarSizes;
-  buttonSize: IButtonSize;
   spacing: number;
   overrides?: any;
 }

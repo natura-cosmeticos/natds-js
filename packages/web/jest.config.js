@@ -1,23 +1,15 @@
 module.exports = {
-  roots: [
+  "roots": [
     "<rootDir>/src"
   ],
-  transform: {
+  "transform": {
     "^.+\\.tsx?$": "ts-jest"
   },
-  snapshotSerializers: [
+  "snapshotSerializers": [
     "enzyme-to-json/serializer"
   ],
-  setupFilesAfterEnv: [
+  "setupFilesAfterEnv": [
     "<rootDir>/config/test/setupEnzyme.ts",
     "<rootDir>/config/test/setupChai.ts"
-  ],
-  coverageThreshold: {
-    global: {
-      branches: 100,
-      functions: 100,
-      lines: 100,
-      statements: 100
-    }
-  }
+  ]
 }

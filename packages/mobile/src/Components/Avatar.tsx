@@ -9,10 +9,8 @@ import {
 } from 'react-native';
 import { IThemeShape } from '../Provider/IThemeShape';
 import { IconSource } from 'react-native-paper/lib/typescript/src/components/Icon';
-import { IAvatarSizes } from '@naturacosmeticos/natds-styles';
 
 type AvatarType = 'image' | 'text' | 'icon';
-type AvatarSizes = 'tiny' | 'small' | 'standard' | 'large' | 'xlarge';
 
 declare type AvatarProps = React.ComponentProps<typeof Surface> & {
   /**
@@ -23,6 +21,10 @@ declare type AvatarProps = React.ComponentProps<typeof Surface> & {
    * Image to display for the `Avatar`. Use only in Image Type.
    */
   source: ImageSourcePropType;
+  /**
+   * Size of the avatar.
+   */
+  size?: number;
   /**
    * React Native style object.
    */
@@ -47,29 +49,15 @@ declare type AvatarProps = React.ComponentProps<typeof Surface> & {
    * Icon to display for the `Avatar`. Use only in Icon Type.
    */
   icon: IconSource;
-  /**
-   * The possible sizes of the Avatar
-   */
-  avatarSizes?: AvatarSizes;
 };
-
-function withSizes(size: AvatarSizes | undefined = 'standard', theme: any) {
-  const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
-  if (!avatarSizes) return {};
-
-  return { size: avatarSizes[size].size };
-}
 
 const Avatar: React.FunctionComponent<Omit<AvatarProps, 'height' | 'width'>> = (
   props: Omit<AvatarProps, 'height' | 'width'>
 ) => {
-  const size = withSizes(props.avatarSizes, props.theme);
-  const color = props.theme.colors.text;
-
   const types = {
-    image: <PaperAvatar.Image {...props} {...size} />,
-    text: <PaperAvatar.Text {...props} {...size} color={color} />,
-    icon: <PaperAvatar.Icon {...props} {...size} color={color} />,
+    image: <PaperAvatar.Image {...props} />,
+    text: <PaperAvatar.Text {...props} />,
+    icon: <PaperAvatar.Icon {...props} />,
   };
   return types[props.type];
 };

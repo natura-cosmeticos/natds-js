@@ -22,7 +22,7 @@ describe('Button component', () => {
 
     test('should match snapshot - Size Large', () => {
       const component = renderer.create(<Button size="large">{label}</Button>).toJSON();
-      expect(component).matchSnapshot('Large Button snapshot');
+      expect(component).matchSnapshot('Medium Button snapshot');
     });
   });
 

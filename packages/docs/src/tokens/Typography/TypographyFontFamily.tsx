@@ -1,6 +1,7 @@
 import * as React from 'react';
 import { themes  } from '@naturacosmeticos/natds-styles';
-import Table from '@addons/Table';
+
+import Table from '@addons/Table/Table';
 
 const webFontFamily = themes.natura.light.typography.web.fontFamily;
 const iosFontFamily = themes.natura.light.typography.iOS.fontFamily;

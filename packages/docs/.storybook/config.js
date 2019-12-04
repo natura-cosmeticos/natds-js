@@ -6,7 +6,6 @@ import { withA11y } from '@storybook/addon-a11y';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
 import { themes } from '@storybook/theming';
 import { withTheme } from '../addons/theme/provider';
-import StorybookTheme from './theme';
 
 addParameters({
   options: {
@@ -17,7 +16,7 @@ addParameters({
     sidebarAnimations: true,
     enableShortcuts: true,
     isToolshown: true,
-    theme: StorybookTheme
+    theme: themes.light
   },
   docs: {
     container: DocsContainer,
