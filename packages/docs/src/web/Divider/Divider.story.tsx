@@ -29,9 +29,15 @@ const variants: any = {
 export const Interactive = () => (
   <GridContainer
     spacing={3}
-    style={{ width: '20%', border: 1, borderStyle: 'ridge' }}
+    style={{
+      width: 360,
+      height: 140,
+      margin: 0,
+      border: 1,
+      borderStyle: 'ridge',
+    }}
   >
-    <GridItem style={{ width: '360px', height: '140px', padding: '42px 0' }}>
+    <GridItem md={12} style={{ height: 140, padding: '42px 0' }}>
       <Divider variant={select('variants', variants, variants.fullWidth)} />
     </GridItem>
   </GridContainer>
@@ -40,9 +46,15 @@ export const Interactive = () => (
 export const FullWidth = () => (
   <GridContainer
     spacing={3}
-    style={{ width: '20%', border: 1, borderStyle: 'ridge' }}
+    style={{
+      width: 360,
+      height: 140,
+      margin: 0,
+      border: 1,
+      borderStyle: 'ridge',
+    }}
   >
-    <GridItem style={{ width: '360px', height: '140px', padding: '42px 0' }}>
+    <GridItem md={12} style={{ height: 140, padding: '42px 0' }}>
       <Divider variant="fullWidth" />
     </GridItem>
   </GridContainer>
@@ -51,9 +63,15 @@ export const FullWidth = () => (
 export const Inset = () => (
   <GridContainer
     spacing={3}
-    style={{ width: '20%', border: 1, borderStyle: 'ridge' }}
+    style={{
+      width: 360,
+      height: 140,
+      margin: 0,
+      border: 1,
+      borderStyle: 'ridge',
+    }}
   >
-    <GridItem style={{ width: '360px', height: '140px', padding: '42px 0' }}>
+    <GridItem md={12} style={{ height: 140, padding: '42px 0' }}>
       <Divider variant="inset" />
     </GridItem>
   </GridContainer>
@@ -62,9 +80,15 @@ export const Inset = () => (
 export const Middle = () => (
   <GridContainer
     spacing={3}
-    style={{ width: '20%', border: 1, borderStyle: 'ridge' }}
+    style={{
+      width: 360,
+      height: 140,
+      margin: 0,
+      border: 1,
+      borderStyle: 'ridge',
+    }}
   >
-    <GridItem style={{ width: '360px', height: '140px', padding: '42px 0' }}>
+    <GridItem md={12} style={{ height: 140, padding: '42px 0' }}>
       <Divider variant="middle" />
     </GridItem>
   </GridContainer>
