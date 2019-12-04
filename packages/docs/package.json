@@ -12,6 +12,7 @@
     "Vagner Saraiva <vagner@vizir.com.br>",
     "Matheus Robert Lichtnow <matheus@vizir.com.br>"
   ],
+  "private": true,
   "license": "MIT",
   "homepage": "https://github.com/natura-cosmeticos/natds/packages/docs",
   "repository": {
@@ -19,7 +20,6 @@
     "url": "https://github.com/natura-cosmeticos/natds.git",
     "directory": "packages/docs"
   },
-  "private": true,
   "scripts": {
     "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
     "build": "build-storybook -o dist --docs",
