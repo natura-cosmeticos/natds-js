@@ -19,7 +19,6 @@
     "url": "https://github.com/natura-cosmeticos/natds.git",
     "directory": "packages/docs"
   },
-  "private": true,
   "scripts": {
     "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
     "build": "build-storybook -o dist --docs",
@@ -85,5 +84,8 @@
     "gitUsername": "Vizir Software Studio",
     "gitEmail": "contato@vizir.com.br",
     "commitMessage": "Deploy NatDS Storybook to GitHub Pages"
+  },
+  "publishConfig": {
+    "access": "restricted"
   }
 }
