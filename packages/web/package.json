@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-web",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -26,7 +26,7 @@
     "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
-    "test": "yarn test:unit:coverage -u",
+    "test": "yarn test:unit:coverage --json --outputFile=.jest-test-results.json -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "build:clean": "rm -rf ./dist",
     "build": "yarn build:clean && tsc -p ./tsconfig.json",
@@ -36,7 +36,7 @@
   },
   "dependencies": {
     "@material-ui/core": "4.6.1",
-    "@naturacosmeticos/natds-styles": "^0.0.1",
+    "@naturacosmeticos/natds-styles": "^0.1.0",
     "@types/lodash": "^4.14.149",
     "@types/react-text-mask": "5.4.6",
     "@types/styled-components": "4.4.0",
@@ -75,5 +75,8 @@
     "tslint-react": "4.1.0",
     "typescript": "3.7.2",
     "yarn": "1.19.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

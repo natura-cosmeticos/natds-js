@@ -89,6 +89,7 @@ const FieldContainer = styled.div`
 `;
 
 export const FieldComponent = styled.input`
+  background-color: transparent;
   border: 0;
   border-radius: ${getProp('shape', 'borderRadius')}px;
   box-sizing: border-box;
@@ -99,6 +100,7 @@ export const FieldComponent = styled.input`
   color: ${getProp('palette', 'text', 'primary')};
   font-size: ${getProp('typography', 'body2', 'fontSize')};
   font-weight: ${getProp('typography', 'body2', 'fontWeight')};
+  font-family: ${getProp('typography', 'fontFamily')};
   flex: 1 1 100%;
   padding: ${({ hasIcon }) => hasIcon ? IconPad : `${tokens.spacing.spacingSmall}px`};
   resize: vertical;
