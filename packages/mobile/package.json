@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-rn",
-  "version": "0.0.1",
+  "version": "0.1.0",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "keywords": [
     "design-system"
@@ -37,7 +37,8 @@
     "verify": "yarn lint && yarn test"
   },
   "dependencies": {
-    "@naturacosmeticos/natds-styles": "^0.0.1",
+    "@naturacosmeticos/natds-styles": "^0.1.0",
+    "@types/react-native-vector-icons": "^6.4.4",
     "proptypes": "^1.1.0",
     "react-native-paper": "^3.2.1",
     "react-native-vector-icons": "^6.6.0"
@@ -63,12 +64,21 @@
     "enzyme-adapter-react-16": "^1.15.1",
     "eslint": "^6.6.0",
     "jest": "^24.9.0",
+    "jest-environment-jsdom": "^24.9.0",
+    "jsdom": "^15.2.1",
     "metro-react-native-babel-preset": "^0.57.0",
     "react-dom": "^16.10.2",
     "react-native": "^0.61.2",
+    "react-native-custom-tabs": "^0.1.7",
+    "react-native-device-info": "^5.3.1",
+    "react-native-mock-render": "^0.1.7",
+    "react-native-safari-view": "^2.1.0",
     "react-test-renderer": "16.11.0",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3",
     "yarn": "^1.19.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }

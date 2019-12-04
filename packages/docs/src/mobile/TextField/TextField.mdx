@@ -1,0 +1,74 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { TextField, Typography, Provider, themes } from '@naturacosmeticos/natds-rn';
+import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { types, states, attributes, sizes } from './sections';
+
+# TextField
+
+---
+---
+---
+---
+
+## Types
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={types} />
+</Provider>
+
+---
+---
+
+## States
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={states} />
+</Provider>
+
+---
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+---
+
+## Sizes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={sizes} />
+</Provider>
+
+---
+---
+
+***
+***
+## API
+
+```jsx highlight-line="2"
+<TextField label="Label" helpText="Helper text" />
+```
+
+| Name                      | Type                                            | Default                       | Description
+| :--                       | :-:                                             | :-:                           | :-:                       |
+| label                     | string                                          |                               | Label text.
+| labelStyle                | TextStyle                                       |                               | Style to be applied on the label
+| helpText                  | string                                          |                               | Help text.
+| helpTextStyle             | TextStyle                                       |                               | Style to be applied on the help text.
+| theme                     | IThemeMobile                                    |                               | Overridable theme provided from the Provider component
+| textInputStyle            | ViewStyle                                       |                               | Style to be applied on the text input
+| required                  | boolean                                         | false                         | Whether this field is required or not
+| sucessStyle               | TextStyle                                       |                               | Style to be applied when status is `success`
+| errorStyle                | TextStyle                                       |                               | Style to be applied when status is `error`
+| icon                      | string                                          |                               | Name of the icon to be used
+| iconStyle                 | TextStyle                                       |                               | Style to be applied on the icon
+| size                      | 'large' \| 'medium'                             | 'large'                       | Size of the input
+| type                      | 'text' \| 'password' \| 'search' \| 'other'     | 'text'                        | Type of the input
+| onIconPress               | function                                        |                               | Overridable icon press callback function
+| ...props                  | TextInputProps                                  |                               | TextInputProps interface properties

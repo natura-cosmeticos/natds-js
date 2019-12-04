@@ -1,8 +1,10 @@
-import tokens from '../../tokens';
-import { ITheme } from '../ITheme';
-import { typography } from './typography';
-import { fontSize } from '../../tokens/fontSize/fontSize';
-import { spacing } from '../../tokens/spacing/spacing';
+import tokens from "../../tokens";
+import { ITheme } from "../ITheme";
+import { typography } from "./typography";
+import { fontSize } from "../../tokens/fontSize/fontSize";
+import { spacing } from "../../tokens/spacing/spacing";
+import { avatarSizes } from "../../tokens/avatarSizes/avatarSizes";
+import { buttonSize } from "../../tokens/buttonSize/buttonSize";
 
 const { natura } = tokens.colors;
 
@@ -10,34 +12,39 @@ export const naturaDark: ITheme = {
   shape: {
     borderRadius: 4
   },
+  avatarSizes,
+  buttonSize,
   spacing: spacing.spacing,
   palette: {
-    type: 'light',
+    type: "light",
     primary: {
       main: natura.primary.colorBrdNatPrimaryYellow,
-      light: '#FEFDE8',
-      dark: '#EF8426',
-      contrastText: natura.grayscale.colorBrdNatGray
+      light: "#FEFDE8",
+      dark: "#EF8426",
+      contrastText: '#FAFAFA'
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
-      light: '#FFF8E1',
+      light: "#FFF8E1",
       dark: natura.primary.colorBrdNatPrimaryOrange,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: '#FAFAFA'
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: '#FAFAFA'
+    },
+    success: {
+      main: natura.complementary.colorBrdNatCpGreen1
     },
     background: {
-      paper: '#222222',
+      paper: "#222222",
       default: natura.primary.colorBrdNatPrimaryWhite
     },
     text: {
-      primary: natura.grayscale.colorBrdNatGray,
-      secondary: natura.grayscale.colorBrdNatGray,
-      disabled: natura.grayscale.colorBrdNatGray3,
-      hint: natura.grayscale.colorBrdNatGray2
+      primary: '#FAFAFA',
+      secondary: natura.grayscale.colorBrdNatGray2,
+      disabled: '#222222',
+      hint: natura.grayscale.colorBrdNatGray1
     }
   },
   typography: {
@@ -47,23 +54,28 @@ export const naturaDark: ITheme = {
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: '#FAFAFA'
       },
       outlinedSecondary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: '#FAFAFA'
       },
       sizeSmall: {
-        fontSize: '0.875rem',
-        minHeight: '32px'
+        fontSize: "0.875rem",
+        minHeight: "32px"
       },
       root: {
-        fontSize: '0.875rem',
-        minHeight: '40px',
-        padding: '8px 16px'
+        fontSize: "0.875rem",
+        minHeight: "40px",
+        padding: "8px 16px"
       },
       sizeLarge: {
-        fontSize: '0.875rem',
-        minHeight: '48px'
+        fontSize: "0.875rem",
+        minHeight: "48px"
+      }
+    },
+    MuiAvatar: {
+      colorDefault: {
+        color: '#FAFAFA'
       }
     }
   }

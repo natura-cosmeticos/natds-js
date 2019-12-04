@@ -1,9 +1,10 @@
+import { IAvatarSizes, IButtonSize } from '@naturacosmeticos/natds-styles';
 import { Theme } from 'react-native-paper';
 import { Fonts } from 'react-native-paper/lib/typescript/src/types';
 
 export interface IFontMobile {
   fontFamily: string;
-  fontSize: string;
+  fontSize: number;
   fontWeight: number;
 }
 
@@ -12,11 +13,15 @@ export interface IThemeShape extends Theme {
   roundness: number;
   colors: {
     primary: string;
+    secondary: string;
     background: string;
     surface: string;
     accent: string;
     error: string;
+    success: string;
     text: string;
+    textSecondary: string;
+    textHint: string;
     onSurface: string;
     onBackground: string;
     disabled: string;
@@ -53,4 +58,6 @@ export interface IThemeShape extends Theme {
       textTransform: string;
     } & IFontMobile;
   };
+  avatarSizes?: IAvatarSizes;
+  buttonSize?: IButtonSize;
 }
