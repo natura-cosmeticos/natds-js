@@ -39,7 +39,11 @@ git config --global user.name "Travis CI"
 git add --all
 git commit -m "Travis Commit: Bumping production version to ${RELEASE_VERSION}"
 
-yarn lerna version $RELEASE_VERSION --no-push --conventional-commits
+yarn lerna version $RELEASE_VERSION --no-push --conventional-commits --yes
+
+# This is due to lerna limitation of trying to publish private packages
+# when using the --from-git flag
+git tag -d @naturacosmeticos/natds-docs@${RELEASE_VERSION} || true
 
 yarn build:libs
 
