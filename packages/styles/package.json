@@ -41,5 +41,8 @@
     "typescript": "^3.6.4",
     "yarn": "1.19.1"
   },
-  "dependencies": {}
+  "dependencies": {},
+  "publishConfig": {
+    "access": "public"
+  }
 }

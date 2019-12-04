@@ -77,5 +77,8 @@
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.3",
     "yarn": "^1.19.1"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
