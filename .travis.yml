@@ -29,5 +29,5 @@ jobs:
       if: branch =~ /v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
       script: chmod +x scripts/build-pre-release.sh && scripts/build-pre-release.sh
     - stage: Bump Production Version and Deploy to NPM
-      if: branch = master AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message = Publish)
+      if: branch = master AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/)
       script: chmod +x scripts/bump-production-version.sh && scripts/bump-production-version.sh && chmod +x scripts/build-release.sh && scripts/build-release.sh
