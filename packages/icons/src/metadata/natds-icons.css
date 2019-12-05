@@ -101,39 +101,35 @@
 }
 
 
-.natds-icons-aacancel-filled::before {
+.natds-icons-autofilter-outlined::before {
   content: "\ea01";
 }
 
-.natds-icons-autofilter-outlined::before {
+.natds-icons-cancel-filled::before {
   content: "\ea02";
 }
 
-.natds-icons-cancel-filled::before {
+.natds-icons-cancel-outlined::before {
   content: "\ea03";
 }
 
-.natds-icons-cancel-outlined::before {
+.natds-icons-check-filled::before {
   content: "\ea04";
 }
 
-.natds-icons-check-filled::before {
+.natds-icons-check-outlined::before {
   content: "\ea05";
 }
 
-.natds-icons-check-outlined::before {
+.natds-icons-pause-filled::before {
   content: "\ea06";
 }
 
-.natds-icons-pause-filled::before {
+.natds-icons-play-filled::before {
   content: "\ea07";
 }
 
-.natds-icons-play-filled::before {
-  content: "\ea08";
-}
-
 .natds-icons-send-outilned::before {
-  content: "\ea09";
+  content: "\ea08";
 }
 

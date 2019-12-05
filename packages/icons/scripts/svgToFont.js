@@ -1,9 +1,10 @@
+#!/usr/bin/env node
 const webfont = require('webfont').default;
 const fs = require('fs');
-const fontOutput = './fonts/';
-const metadataOutput = './metadata/';
 
-const files = 'assets/**/*.svg';
+const fontOutput = './src/fonts/';
+const metadataOutput = './src/metadata/';
+const files = './src/assets/**/*.svg';
 const fontName = 'natds-icons';
 const types = ['eot', 'ttf', 'woff', 'woff2', 'svg'];
 
@@ -16,6 +17,11 @@ function onSuccess(result) {
   const fontDist = fontOutput + fontName;
   const metadataDist = metadataOutput + fontName;
   const metadata = {};
+
+  glyphsData.forEach(({ metadata: { name, unicode }, contents }) => {
+    const escapedUnicode = escape(unicode);
+    Object.assign(metadata, { [name]: (escapedUnicode) });
+  });
 
   glyphsData.forEach(({ metadata: { name, unicode }, contents }) => {
     const escapedUnicode = escape(unicode);

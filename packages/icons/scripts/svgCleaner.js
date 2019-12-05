@@ -1,10 +1,9 @@
-'use strict';
-
+#!/usr/bin/env node
 const fs = require('fs');
 const path = require('path');
 const SVGO = require('svgo');
 
-const dirname = "./assets/";
+const dirname = "./src/assets/";
 
 const svgo = new SVGO({
   plugins: [
