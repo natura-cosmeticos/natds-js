@@ -1,0 +1,135 @@
+@font-face {
+  font-family: "natds-icons";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("./fonts/natds-icons.eot");
+  src: url("./fonts/natds-icons.eot?#iefix") format("embedded-opentype"), url("./fonts/natds-icons.woff2") format("woff2"), url("./fonts/natds-icons.woff") format("woff"), url("./fonts/natds-icons.ttf") format("truetype"), url("./fonts/natds-icons.svg#natds-icons") format("svg");
+}
+
+.natds-icons {
+  display: inline-block;
+  font-family: "natds-icons";
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.natds-icons-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.natds-icons-xs {
+  font-size: 0.75em;
+}
+
+.natds-icons-sm {
+  font-size: 0.875em;
+}
+
+.natds-icons-1x {
+  font-size: 1em;
+}
+
+.natds-icons-2x {
+  font-size: 2em;
+}
+
+.natds-icons-3x {
+  font-size: 3em;
+}
+
+.natds-icons-4x {
+  font-size: 4em;
+}
+
+.natds-icons-5x {
+  font-size: 5em;
+}
+
+.natds-icons-6x {
+  font-size: 6em;
+}
+
+.natds-icons-7x {
+  font-size: 7em;
+}
+
+.natds-icons-8x {
+  font-size: 8em;
+}
+
+.natds-icons-9x {
+  font-size: 9em;
+}
+
+.natds-icons-10x {
+  font-size: 10em;
+}
+
+.natds-icons-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.natds-icons-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.natds-icons-pull-left {
+  float: left;
+}
+
+.natds-icons-pull-right {
+  float: right;
+}
+
+.natds-icons.natds-icons-pull-left {
+  margin-right: 0.3em;
+}
+
+.natds-icons.natds-icons-pull-right {
+  margin-left: 0.3em;
+}
+
+
+.natds-icons-autofilter-outlined::before {
+  content: "\ea01";
+}
+
+.natds-icons-cancel-filled::before {
+  content: "\ea02";
+}
+
+.natds-icons-cancel-outlined::before {
+  content: "\ea03";
+}
+
+.natds-icons-check-filled::before {
+  content: "\ea04";
+}
+
+.natds-icons-check-outlined::before {
+  content: "\ea05";
+}
+
+.natds-icons-pause-filled::before {
+  content: "\ea06";
+}
+
+.natds-icons-play-filled::before {
+  content: "\ea07";
+}
+
+.natds-icons-send-outilned::before {
+  content: "\ea08";
+}
+
