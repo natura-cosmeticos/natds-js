@@ -1,21 +1,21 @@
 import * as React from 'react';
-import { Badge } from "@naturacosmeticos/natds-web";
+import { ContextualBadge } from "@naturacosmeticos/natds-web";
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 import { text, select } from '@storybook/addon-knobs';
 
-import BadgeDocs from './Badge.docs.mdx';
+import ContextualBadgeDocs from './ContextualBadge.docs.mdx';
 
 export default {
-  title: 'Web|Badge',
-  component: Badge,
+  title: 'Web|ContextualBadge',
+  component: ContextualBadge,
   decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
-    jest: ['Badge'],
+    jest: ['ContextualBadge'],
     theme: 'web',
     docs: {
-      page: BadgeDocs
+      page: ContextualBadgeDocs
     }
   }
 };
@@ -37,22 +37,22 @@ const types: any = {
 
 export const Interactive = () => {
   return (
-    <Badge
+    <ContextualBadge
       color={select("color", colors, colors.primary)}
       type={select("type", types, types.standard)}
     >
-      {text("children", "Badge")}
-    </Badge>
+      {text("children", "Example")}
+    </ContextualBadge>
   );
 };
 
 export const Standard = () => {
   return (
-    <Badge
+    <ContextualBadge
       color={select("color", colors, colors.primary)}
       type="standard"
     >
-      {text("children", "Badge")}
-    </Badge>
+      {text("children", "Standard")}
+    </ContextualBadge>
   );
 };

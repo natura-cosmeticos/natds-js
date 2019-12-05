@@ -9,11 +9,11 @@ const defaultValues = {
   lineHeight: 16
 };
 
-type IBadgeColors = 'primary' | 'secondary' | 'info' | 'error' | 'warning' | 'success' | 'light' | 'dark';
+type IContextualBadgeColors = 'primary' | 'secondary' | 'info' | 'error' | 'warning' | 'success' | 'light' | 'dark';
 
-type IBadgeTypes = 'standard';
+type IContextualBadgeTypes = 'standard';
 
-export interface IBadgeProps {
+export interface IContextualBadgeProps {
   [propName: string]: any;
   /**
    * The input id property
@@ -25,29 +25,29 @@ export interface IBadgeProps {
   theme?: IThemeWeb | unknown;
   /**
    * @optional
-   * Color of the badge. Defaults to 'primary'
+   * Color of the ContextualBadge. Defaults to 'primary'
    */
-  color?: IBadgeColors;
+  color?: IContextualBadgeColors;
   /**
    * @optional
-   * Type of the badge. Defaults to 'standard'
+   * Type of the ContextualBadge. Defaults to 'standard'
    */
-  type?: IBadgeTypes;
+  type?: IContextualBadgeTypes;
   /**
-   * Classes to be used on the badge
+   * Classes to be used on the ContextualBadge
    */
   classes?: string;
   /**
-   * Style to be used on the badge
+   * Style to be used on the ContextualBadge
    */
   style?: React.CSSProperties;
   /**
-   * Elements to be placed inside the badge
+   * Elements to be placed inside the ContextualBadge
    */
   children?: React.ReactNode;
 }
 
-const Badge: React.FunctionComponent<IBadgeProps> = (props: IBadgeProps) => {
+const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: IContextualBadgeProps) => {
   const {
     theme: providerTheme,
     color = 'primary',
@@ -167,4 +167,4 @@ const Container = styled.div<IContainerProps> `
   align-items: center;
 `;
 
-export default withTheme(Badge);
+export default withTheme(ContextualBadge);
