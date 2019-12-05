@@ -1,12 +1,12 @@
 'use strict';
 
-var fs = require('fs');
-var path = require('path');
-var SVGO = require('svgo');
+const fs = require('fs');
+const path = require('path');
+const SVGO = require('svgo');
 
-var dirname = "./assets/";
+const dirname = "./assets/";
 
-var svgo = new SVGO({
+const svgo = new SVGO({
   plugins: [
     { cleanupAttrs: true },
     { removeDoctype: true },
@@ -56,7 +56,7 @@ function readFiles(dirname, onFileReady) {
     if (err) { throw err; }
 
     filenames.forEach(function (filename) {
-      var filepath = dirname + filename;
+      const filepath = dirname + filename;
 
       fs.readFile(filepath, 'utf-8', function (err, content) {
         if (err) { throw err; }

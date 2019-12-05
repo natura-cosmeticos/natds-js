@@ -20,8 +20,10 @@
     "directory": "packages/icons"
   },
   "scripts": {
-    "cleansvg": "node ./scripts/svgCleaner.js",
-    "buildfonts": "node ./scripts/svgToFont.js"
+    "build": "yarn build:clean && yarn build:cleansvgs && yarn build:fonts",
+    "build:clean": "rm -rf metadata/* && rm -rf fonts/*",
+    "build:cleansvgs": "node ./scripts/svgCleaner.js",
+    "build:fonts": "node ./scripts/svgToFont.js"
   },
   "devDependencies": {
     "svgo": "1.3.2",
