@@ -68,11 +68,14 @@
       "contrastText": "#FAFAFA"
     },
     "success": {
-      "main": "#569A32"
+      "main": "#569A32",
+      "contrastText": "#FFFFFF"
     },
     "background": {
       "paper": "#222222",
-      "default": "#FFFFFF"
+      "default": "#FFFFFF",
+      "paperConstrastText": "#FFFFFF",
+      "defaultContrastText": "#FFFFFF"
     },
     "text": {
       "primary": "#FAFAFA",

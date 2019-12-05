@@ -39,7 +39,9 @@ export const naturaLight: ITheme = {
     },
     background: {
       paper: "#FAFAFA",
-      default: natura.primary.colorBrdNatPrimaryWhite
+      default: natura.primary.colorBrdNatPrimaryWhite,
+      paperConstrastText: natura.grayscale.colorBrdNatGray,
+      defaultContrastText: natura.grayscale.colorBrdBlack
     },
     text: {
       primary: natura.grayscale.colorBrdNatGray,

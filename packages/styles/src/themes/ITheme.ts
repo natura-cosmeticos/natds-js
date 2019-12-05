@@ -69,6 +69,8 @@ export interface ITheme {
     background?: {
       paper?: string;
       default?: string;
+      paperConstrastText?: string;
+      defaultContrastText?: string;
     };
     text?: {
       primary?: string;

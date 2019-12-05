@@ -35,11 +35,14 @@ export const naturaDark: ITheme = {
       contrastText: '#FAFAFA'
     },
     success: {
-      main: natura.complementary.colorBrdNatCpGreen1
+      main: natura.complementary.colorBrdNatCpGreen1,
+      contrastText: natura.primary.colorBrdNatPrimaryWhite,
     },
     background: {
       paper: "#222222",
-      default: natura.primary.colorBrdNatPrimaryWhite
+      default: natura.primary.colorBrdNatPrimaryWhite,
+      paperConstrastText: natura.primary.colorBrdNatPrimaryWhite,
+      defaultContrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     text: {
       primary: '#FAFAFA',

@@ -49,7 +49,9 @@
     },
     "background": {
       "paper": "#FAFAFA",
-      "default": "#FFFFFF"
+      "default": "#FFFFFF",
+      "defaultContrastText": "#000000",
+      "paperConstrastText": "#333333"
     },
     "text": {
       "primary": "#333333",
