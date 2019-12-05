@@ -22,25 +22,25 @@ export const naturaDark: ITheme = {
       main: natura.primary.colorBrdNatPrimaryYellow,
       light: "#FEFDE8",
       dark: "#EF8426",
-      contrastText: '#FAFAFA'
+      contrastText: natura.grayscale.colorBrdNatGray
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
       light: "#FFF8E1",
       dark: natura.primary.colorBrdNatPrimaryOrange,
-      contrastText: '#FAFAFA'
+      contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: '#FAFAFA'
+      contrastText: natura.grayscale.colorBrdNatGray
     },
     success: {
       main: natura.complementary.colorBrdNatCpGreen1,
       contrastText: natura.primary.colorBrdNatPrimaryWhite,
     },
     background: {
-      paper: "#222222",
-      default: natura.primary.colorBrdNatPrimaryWhite,
+      paper: natura.grayscale.colorBrdNatGray,
+      default: natura.grayscale.colorBrdBlack,
       paperConstrastText: natura.primary.colorBrdNatPrimaryWhite,
       defaultContrastText: natura.primary.colorBrdNatPrimaryWhite
     },
