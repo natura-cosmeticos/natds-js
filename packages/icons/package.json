@@ -1,0 +1,31 @@
+{
+  "name": "@naturacosmeticos/natds-icons",
+  "version": "0.0.1",
+  "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "main": "dist/index.js",
+  "keywords": [
+    "design-system"
+  ],
+  "author": "Vizir Software Studio <contato@vizir.com.br>",
+  "contributors": [
+    "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
+    "Vagner Saraiva <vagner@vizir.com.br>",
+    "Matheus Robert Lichtnow <matheus@vizir.com.br>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/natura-cosmeticos/natds/packages/icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/natds.git",
+    "directory": "packages/icons"
+  },
+  "scripts": {
+    "cleansvg": "node ./scripts/svgCleaner.js",
+    "buildfonts": "node ./scripts/svgToFont.js"
+  },
+  "devDependencies": {
+    "svgo": "1.3.2",
+    "webfont": "9.0.0"
+  },
+  "dependencies": {}
+}
