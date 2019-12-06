@@ -8,7 +8,9 @@ describe('Divider component', () => {
   describe('rendering variants', () => {
     test('should match to snapshot - Variant FullWidth Default', () => {
       const component = renderer.create(<Divider />).toJSON();
-      expect(component).matchSnapshot('Small Button snapshot');
+      expect(component).matchSnapshot(
+        'Divider variant fullWidth default snapshot'
+      );
     });
 
     test('should match to snapshot - Variant Inset', () => {
