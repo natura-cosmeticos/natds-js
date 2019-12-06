@@ -28,7 +28,7 @@ export const naturaLight: ITheme = {
       main: natura.primary.colorBrdNatPrimaryOrange,
       light: "#FFF8E1",
       dark: natura.primary.colorBrdNatPrimaryOrange,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
@@ -39,7 +39,9 @@ export const naturaLight: ITheme = {
     },
     background: {
       paper: "#FAFAFA",
-      default: natura.primary.colorBrdNatPrimaryWhite
+      default: natura.primary.colorBrdNatPrimaryWhite,
+      paperConstrastText: natura.grayscale.colorBrdNatGray,
+      defaultContrastText: natura.grayscale.colorBrdBlack
     },
     text: {
       primary: natura.grayscale.colorBrdNatGray,

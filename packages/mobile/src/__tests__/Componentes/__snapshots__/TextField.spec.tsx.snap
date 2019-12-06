@@ -2677,7 +2677,9 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
           "palette": Object {
             "background": Object {
               "default": "#FFFFFF",
+              "defaultContrastText": "#000000",
               "paper": "#FAFAFA",
+              "paperConstrastText": "#333333",
             },
             "complementary": Object {
               "link": "#227BBD",
@@ -2694,7 +2696,7 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
               "main": "#F4AB34",
             },
             "secondary": Object {
-              "contrastText": "#333333",
+              "contrastText": "#000000",
               "dark": "#FF6B0B",
               "light": "#FFF8E1",
               "main": "#FF6B0B",
