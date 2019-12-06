@@ -6,7 +6,7 @@ module.exports = ({ config }) => {
   config.module.rules = [];
 
   config.module.rules.push({
-    test: /\.(eot|otf|ttf|woff|woff2)$/,
+    test: /\.(eot|otf|ttf|woff|woff2|svg)$/,
     use: [
       {
         loader: 'file-loader',
@@ -32,7 +32,7 @@ module.exports = ({ config }) => {
   });
 
   config.module.rules.push({
-    test: /\.scss$/,
+    test: /\.s?css$/,
     use: [
       { loader: "style-loader" },
       { loader: "css-loader" },

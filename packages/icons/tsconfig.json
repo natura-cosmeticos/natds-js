@@ -8,7 +8,6 @@
     "sourceMap": true,
     "allowJs": false,
     "rootDir": "./src",
-    "baseUrl": "./src",
     "forceConsistentCasingInFileNames": true,
     "noImplicitReturns": true,
     "strict": true,
@@ -22,8 +21,8 @@
     "skipLibCheck": true,
     "resolveJsonModule": true
   },
-  "files": [
-    "src/index.ts"
-  ],
-  "include": ["./src"]
+  "include": [
+    "./src/index.ts",
+    "./src/typings/**/*.d.ts"
+  ]
 }

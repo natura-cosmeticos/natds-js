@@ -21,13 +21,13 @@
     "directory": "packages/icons"
   },
   "scripts": {
-    "build:clean": "rm -rf dist && rm -rf src/metadata/* && rm -rf src/fonts/*",
-    "build": "yarn build:deps && tsc -p ./tsconfig.json",
+    "build:clean": "rm -rf dist && rm -rf src/generated/*",
+    "build": "yarn build:deps && tsc -p ./tsconfig.json && yarn build:copyfiles",
     "build:deps": "yarn build:clean && yarn build:cleansvgs && yarn build:fonts && yarn build:csstypes",
     "build:cleansvgs": "node ./scripts/svgCleaner.js",
     "build:fonts": "node ./scripts/svgToFont.js",
-    "build:csstypes": "tcm -o src/metadata src/metadata",
-    "build:nametypes": "node ./scripts/jsonToTs.js",
+    "build:csstypes": "tcm -o src/generated src/generated",
+    "build:copyfiles": "cp -r ./src/generated ./dist",
     "start": "yarn build --watch",
     "watch": "yarn start",
     "test": "yarn test:unit:coverage --json --outputFile=.jest-test-results.json -u",

@@ -66,4 +66,4 @@ function readFiles(dirname, onFileReady) {
   });
 }
 
-readFiles(dirname, onFileReady)
+readFiles(dirname, onFileReady);
