@@ -14,6 +14,7 @@ export { default as GridItem } from './Components/GridItem';
 export { default as GridContainer } from './Components/GridContainer';
 export { default as Fab } from './Components/Fab';
 export { default as IconButton } from './Components/IconButton';
+export { default as Radio } from './Components/Radio';
 export { default as Switch } from './Components/Switch';
 export { default as TextField } from './Components/TextField';
 export { default as Typography } from './Components/Typography';

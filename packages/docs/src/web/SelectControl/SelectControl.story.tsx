@@ -2,18 +2,18 @@ import * as React from 'react';
 import { select, boolean } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import { Checkbox, Switch } from '@naturacosmeticos/natds-web';
+import { Checkbox, Radio, Switch } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
 
 import SelectControlDocs from './SelectControl.docs.mdx';
 
 export default {
   title: 'Web|SelectControl',
-  component: [Switch],
+  component: [Checkbox, Radio, Switch],
   decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
-    jest: ['Switch', 'Checkbox'],
+    jest: ['Checkbox', 'Radio', 'Switch'],
     theme: 'web',
     docs: {
       page: SelectControlDocs,
@@ -38,6 +38,11 @@ export const Interactive = () => (
       checked={boolean('checked', true)}
       disabled={boolean('disabled', false)}
     />
+    <Radio
+      color={select('colors', colors, colors.secondary)}
+      checked={boolean('checked', true)}
+      disabled={boolean('disabled', false)}
+    />
     <Switch
       color={select('colors', colors, colors.secondary)}
       checked={boolean('checked', true)}
@@ -54,6 +59,17 @@ export const CheckboxControl = () => (
     <Checkbox checked={true} color="default" />
     <Checkbox checked={false} disabled />
     <Checkbox checked={true} disabled />
+  </>
+);
+
+export const RadioControl = () => (
+  <>
+    <Radio checked={false} />
+    <Radio checked={true} />
+    <Radio checked={true} color="primary" />
+    <Radio checked={true} color="default" />
+    <Radio checked={false} disabled />
+    <Radio checked={true} disabled />
   </>
 );
 

@@ -32,14 +32,16 @@ import { colors, attributes } from './sections';
 ## API
 
 ```jsx highlight-line="2"
-import { Checkbox, Switch } from '@naturacosmeticos/natds-web';
+import { Checkbox, Radio, Switch } from '@naturacosmeticos/natds-web';
 
 //Enabled
 <Checkbox color="primary" />;
+<Radio color="primary" />;
 <Switch color="primary" />;
 
 //Disabled
 <Checkbox disabled />;
+<Radio disabled />;
 <Switch disabled />;
 ```
 
@@ -66,4 +68,4 @@ import { Checkbox, Switch } from '@naturacosmeticos/natds-web';
 | type          |              string               |             |                                                                                             The input component prop type.                                                                                             |
 | value         |                any                |             |                                                                            The value of the component. The DOM API casts this to a string.                                                                             |
 
-For more details consult the full [Material Switch API](https://material-ui.com/api/switches/)
+For more details consult the full [Material Checkbox API](https://material-ui.com/api/checkbox/), [Material Radio API](https://material-ui.com/api/radio/), [Material Switch API](https://material-ui.com/api/switch/)

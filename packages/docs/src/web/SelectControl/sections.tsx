@@ -1,5 +1,5 @@
 import React from 'react';
-import { Checkbox, Switch } from '@naturacosmeticos/natds-web';
+import { Checkbox, Radio, Switch } from '@naturacosmeticos/natds-web';
 
 export const colors = [
   {
@@ -7,6 +7,7 @@ export const colors = [
     component: (
       <>
         <Checkbox color="primary" checked={true} />
+        <Radio color="primary" checked={true} />
         <Switch color="primary" checked={true} />
       </>
     ),
@@ -16,6 +17,7 @@ export const colors = [
     component: (
       <>
         <Checkbox color="secondary" checked={true} />
+        <Radio color="secondary" checked={true} />
         <Switch color="secondary" checked={true} />
       </>
     ),
@@ -25,6 +27,7 @@ export const colors = [
     component: (
       <>
         <Checkbox color="default" checked={true} />
+        <Radio color="default" checked={true} />
         <Switch color="default" checked={true} />
       </>
     ),
@@ -38,6 +41,8 @@ export const attributes = [
       <>
         <Checkbox checked={false} />
         <Checkbox checked />
+        <Radio checked={false} />
+        <Radio checked />
         <Switch checked={false} />
         <Switch checked />
       </>
@@ -49,6 +54,8 @@ export const attributes = [
       <>
         <Checkbox disabled checked={false} />
         <Checkbox disabled checked />
+        <Radio disabled checked={false} />
+        <Radio disabled checked />
         <Switch disabled checked={false} />
         <Switch disabled checked />
       </>
