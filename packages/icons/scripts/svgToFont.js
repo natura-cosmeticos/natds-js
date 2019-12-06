@@ -18,7 +18,7 @@ function onSuccess(result) {
 
   glyphsData.forEach(({ metadata: { name, unicode }, contents }) => {
     const escapedUnicode = escape(unicode);
-    Object.assign(metadata, { [name]: (escapedUnicode) });
+    Object.assign(metadata, { [name]: escapedUnicode });
   });
 
   fs.writeFile(dist + '.css', template, onError);
@@ -36,7 +36,9 @@ function onSuccess(result) {
 const config = {
   files,
   fontName,
-  template: 'css'
+  template: 'css',
+  fontHeight: 600,
+  normalize: true
 };
 
 webfont(config).then(onSuccess).catch(onError);
