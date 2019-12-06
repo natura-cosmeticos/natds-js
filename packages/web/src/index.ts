@@ -6,6 +6,7 @@ export { Provider } from './Provider';
 export { default as Avatar } from './Components/Avatar';
 export { default as Button } from './Components/Button';
 export { default as ButtonGroup } from './Components/ButtonGroup';
+export { default as Checkbox } from './Components/Checkbox';
 export { default as Chip } from './Components/Chip';
 export { default as ContextualBadge } from './Components/ContextualBadge';
 export { default as Divider } from './Components/Divider';

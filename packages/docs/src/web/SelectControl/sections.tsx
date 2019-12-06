@@ -1,18 +1,33 @@
 import React from 'react';
-import { Switch } from '@naturacosmeticos/natds-web';
+import { Checkbox, Switch } from '@naturacosmeticos/natds-web';
 
 export const colors = [
   {
     title: 'Primary',
-    component: <Switch color="primary" checked={true} />,
+    component: (
+      <>
+        <Checkbox color="primary" checked={true} />
+        <Switch color="primary" checked={true} />
+      </>
+    ),
   },
   {
     title: 'Secondary',
-    component: <Switch color="secondary" checked={true} />,
+    component: (
+      <>
+        <Checkbox color="secondary" checked={true} />
+        <Switch color="secondary" checked={true} />
+      </>
+    ),
   },
   {
     title: 'Default',
-    component: <Switch color="default" checked={true} />,
+    component: (
+      <>
+        <Checkbox color="default" checked={true} />
+        <Switch color="default" checked={true} />
+      </>
+    ),
   },
 ];
 
@@ -21,6 +36,8 @@ export const attributes = [
     title: 'Enabled',
     component: (
       <>
+        <Checkbox checked={false} />
+        <Checkbox checked />
         <Switch checked={false} />
         <Switch checked />
       </>
@@ -30,6 +47,8 @@ export const attributes = [
     title: 'Disabled',
     component: (
       <>
+        <Checkbox disabled checked={false} />
+        <Checkbox disabled checked />
         <Switch disabled checked={false} />
         <Switch disabled checked />
       </>

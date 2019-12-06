@@ -2,7 +2,7 @@ import * as React from 'react';
 import { select, boolean } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import { Switch } from '@naturacosmeticos/natds-web';
+import { Checkbox, Switch } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
 
 import SelectControlDocs from './SelectControl.docs.mdx';
@@ -13,7 +13,7 @@ export default {
   decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
-    jest: ['Switch'],
+    jest: ['Switch', 'Checkbox'],
     theme: 'web',
     docs: {
       page: SelectControlDocs,
@@ -33,11 +33,27 @@ const colors: any = {
 
 export const Interactive = () => (
   <>
+    <Checkbox
+      color={select('colors', colors, colors.secondary)}
+      checked={boolean('checked', true)}
+      disabled={boolean('disabled', false)}
+    />
     <Switch
       color={select('colors', colors, colors.secondary)}
       checked={boolean('checked', true)}
       disabled={boolean('disabled', false)}
     />
+  </>
+);
+
+export const CheckboxControl = () => (
+  <>
+    <Checkbox checked={false} />
+    <Checkbox checked={true} />
+    <Checkbox checked={true} color="primary" />
+    <Checkbox checked={true} color="default" />
+    <Checkbox checked={false} disabled />
+    <Checkbox checked={true} disabled />
   </>
 );
 
