@@ -4,6 +4,7 @@ import { avatarSizes } from "./tokens/avatarSizes/avatarSizes";
 import { fontSize } from "./tokens/fontSize/fontSize";
 import { buttonSize } from "./tokens/buttonSize/buttonSize";
 import { radius } from './tokens/radius/radius';
+import { opacity } from './tokens/opacity/opacity';
 
 export default {
   colors: {
@@ -13,5 +14,6 @@ export default {
   spacing,
   fontSize,
   buttonSize,
-  radius
+  radius,
+  opacity
 };
