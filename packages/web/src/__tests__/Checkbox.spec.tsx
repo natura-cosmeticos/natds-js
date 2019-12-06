@@ -1,7 +1,5 @@
 import React from 'react';
-import { shallow } from 'enzyme';
 import { expect } from 'chai';
-import { assert, spy } from 'sinon';
 import renderer from 'react-test-renderer';
 
 import Checkbox from '../Components/Checkbox';
@@ -26,17 +24,6 @@ describe('Checkbox component', () => {
     test('should match to snapshot - Disabled', () => {
       const component = renderer.create(<Checkbox checked />).toJSON();
       expect(component).matchSnapshot('Checkbox disabled snapshot');
-    });
-  });
-
-  describe('interaction', () => {
-    test('should call onChange', () => {
-      const mockOnChange = spy();
-      const component = shallow(<Checkbox onChange={mockOnChange} />);
-
-      component.simulate('change');
-
-      assert.calledOnce(mockOnChange);
     });
   });
 });

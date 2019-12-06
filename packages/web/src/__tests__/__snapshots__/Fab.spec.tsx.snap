@@ -2422,7 +2422,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
   style={
     Object {
       "backgroundColor": "#F4AB34",
-      "color": "#FAFAFA",
+      "color": "#333333",
     }
   }
   tabIndex={0}
@@ -2546,8 +2546,10 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "augmentColor": [Function],
         "background": Object {
-          "default": "#FFFFFF",
-          "paper": "#222222",
+          "default": "#000000",
+          "defaultContrastText": "#FFFFFF",
+          "paper": "#333333",
+          "paperConstrastText": "#FFFFFF",
         },
         "common": Object {
           "black": "#000",
@@ -2560,7 +2562,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         "contrastThreshold": 3,
         "divider": "rgba(0, 0, 0, 0.12)",
         "error": Object {
-          "contrastText": "#FAFAFA",
+          "contrastText": "#333333",
           "dark": "rgb(161, 49, 27)",
           "light": "rgb(235, 107, 82)",
           "main": "#E74627",
@@ -2583,18 +2585,19 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           "A700": "#616161",
         },
         "primary": Object {
-          "contrastText": "#FAFAFA",
+          "contrastText": "#333333",
           "dark": "#EF8426",
           "light": "#FEFDE8",
           "main": "#F4AB34",
         },
         "secondary": Object {
-          "contrastText": "#FAFAFA",
+          "contrastText": "#000000",
           "dark": "#FF6B0B",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
