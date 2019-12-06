@@ -1,0 +1,33 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Icon, Provider, themes } from '@naturacosmeticos/natds-web';
+import { Delete } from '@material-ui/icons';
+import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { types } from './sections';
+
+# Icon
+
+---
+---
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={types} />
+</Provider>
+
+---
+---
+
+## API
+
+```jsx highlight-line="2"
+import { Icon } from '@naturacosmeticos/natds-web';
+
+<Icon name="cancel-outlined" />
+```
+
+---
+---
+
+| Name                      | Type                                            | Default                       | Description
+| :--                       | :-:                                             | :-:                           | :-:
+| name                      | string                                          |                               | The Icon name

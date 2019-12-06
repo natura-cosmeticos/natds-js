@@ -18,6 +18,7 @@ export { default as Divider } from './Components/Divider';
 export { default as GridItem } from './Components/GridItem';
 export { default as GridContainer } from './Components/GridContainer';
 export { default as Fab } from './Components/Fab';
+export { default as Icon } from './Components/Icon';
 export { default as IconButton } from './Components/IconButton';
 export { default as Radio } from './Components/Radio';
 export { default as Switch } from './Components/Switch';
