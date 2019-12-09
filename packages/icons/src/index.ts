@@ -1,10 +1,10 @@
-import * as iconStyles from "./generated/natds-icons.css";
-import * as iconNames from "./generated/natds-icons.json";
-import * as NatdsIconsEot from "./generated/natds-icons.eot";
-import * as NatdsIconsSvg from "./generated/natds-icons.svg";
-import * as NatdsIconsTtf from "./generated/natds-icons.ttf";
-import * as NatdsIconsWoff from "./generated/natds-icons.woff";
-import * as NatdsIconsWoff2 from "./generated/natds-icons.woff2";
+import * as iconStyles from "./natds-icons.css";
+import * as iconNames from "./natds-icons.json";
+import * as NatdsIconsEot from "./fonts/natds-icons.eot";
+import * as NatdsIconsSvg from "./fonts/natds-icons.svg";
+import * as NatdsIconsTtf from "./fonts/natds-icons.ttf";
+import * as NatdsIconsWoff from "./fonts/natds-icons.woff";
+import * as NatdsIconsWoff2 from "./fonts/natds-icons.woff2";
 
 export {
   iconNames,

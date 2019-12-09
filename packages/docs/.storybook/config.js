@@ -39,5 +39,6 @@ addDecorator(withKnobs);
 const tokens = require.context('../src/tokens', true, /\.story.(ts|md)x?$/);
 const web = require.context('../src/web', true, /\.story.(ts|md)x?$/);
 const mobile = require.context('../src/mobile', true, /\.story.(ts|md)x?$/);
+const icons = require.context('../src/icons', true, /\.story.(ts|md)x?$/);
 
-configure([tokens, web, mobile], module);
+configure([tokens, icons, web, mobile], module);

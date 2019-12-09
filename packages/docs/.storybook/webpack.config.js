@@ -99,7 +99,11 @@ module.exports = ({ config }) => {
             require("@babel/preset-typescript").default,
             require("@babel/preset-react").default
           ],
-          plugins: ['@babel/plugin-transform-react-jsx']
+          plugins: [
+            ["@babel/plugin-transform-react-jsx", {
+              "pragmaFrag": "React.Fragment"
+            }]
+          ]
         }
       },
       {
