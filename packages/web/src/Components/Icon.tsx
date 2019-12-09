@@ -2,7 +2,7 @@ import React, { FunctionComponent } from 'react';
 import { IThemeWeb } from 'Themes';
 
 import { withTheme } from '@material-ui/styles';
-import '@naturacosmeticos/natds-icons/dist/generated/natds-icons.css';
+import '@naturacosmeticos/natds-icons/dist/natds-icons.css';
 
 interface IIconProps {
   name: string;
