@@ -5,6 +5,7 @@ import { fontSize } from "./tokens/fontSize/fontSize";
 import { buttonSize } from "./tokens/buttonSize/buttonSize";
 import { radius } from './tokens/radius/radius';
 import { opacity } from './tokens/opacity/opacity';
+import { elevation } from './tokens/elevation/elevation';
 
 export default {
   colors: {
@@ -15,5 +16,6 @@ export default {
   fontSize,
   buttonSize,
   radius,
-  opacity
+  opacity,
+  elevation
 };
