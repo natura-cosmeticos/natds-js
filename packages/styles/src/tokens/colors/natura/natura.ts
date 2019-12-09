@@ -1,6 +1,5 @@
 import { IColorsNatura } from './IColorsNatura';
 
-
 export const natura: IColorsNatura = {
   primary: {
     colorBrdNatPrimaryOrange: '#FF6B0B',
