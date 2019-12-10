@@ -1,5 +1,6 @@
 import { fontSize } from "../tokens/fontSize/fontSize";
 import IAvatarSizes from "../tokens/avatarSizes/IAvatarSizes";
+import IIconSizes from "../tokens/iconSizes/IIconSizes";
 import IButtonSize from "tokens/buttonSize/IButtonSize";
 import { IElevation } from "tokens/elevation/IElevation";
 
@@ -86,6 +87,7 @@ export interface ITheme {
   };
   typography: ITypography;
   avatarSizes: IAvatarSizes;
+  iconSizes: IIconSizes;
   buttonSize: IButtonSize;
   spacing: number;
   shadows: IElevation;
