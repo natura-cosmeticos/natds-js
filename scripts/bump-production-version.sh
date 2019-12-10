@@ -54,6 +54,8 @@ PACKAGES=("packages/styles" "packages/web" "packages/mobile")
 for package in "${PACKAGES[@]}"
 do
   cd $package
-  yarn publish
+  yarn pack --filename $RELEASE_VERSION.tgz
+  yarn publish $RELEASE_VERSION.tgz --new-version $RELEASE_VERSION
+  rm $RELEASE_VERSION.tgz
   cd ../..
 done
