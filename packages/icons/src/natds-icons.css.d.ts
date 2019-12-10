@@ -17,14 +17,14 @@ declare const styles: {
   readonly "natds-icons-border": string;
   readonly "natds-icons-pull-left": string;
   readonly "natds-icons-pull-right": string;
-  readonly "natds-icons-autofilter-outlined": string;
-  readonly "natds-icons-cancel-filled": string;
-  readonly "natds-icons-cancel-outlined": string;
-  readonly "natds-icons-check-filled": string;
-  readonly "natds-icons-check-outlined": string;
-  readonly "natds-icons-pause-filled": string;
-  readonly "natds-icons-play-filled": string;
-  readonly "natds-icons-send-outlined": string;
+  readonly "natds-icons-filled-alert-cancel": string;
+  readonly "natds-icons-filled-alert-check": string;
+  readonly "natds-icons-filled-media-pause": string;
+  readonly "natds-icons-filled-media-play": string;
+  readonly "natds-icons-outlined-action-autofilter": string;
+  readonly "natds-icons-outlined-action-send": string;
+  readonly "natds-icons-outlined-alert-cancel": string;
+  readonly "natds-icons-outlined-alert-check": string;
 };
 export = styles;
 
