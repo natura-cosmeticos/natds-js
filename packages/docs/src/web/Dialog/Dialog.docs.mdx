@@ -1,0 +1,82 @@
+import { Dialog, Provider, themes } from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+
+# Dialog
+
+---
+
+---
+
+## API
+
+```jsx highlight-line="2"
+import {
+  Dialog,
+  DialogContent,
+  DialogTitle,
+  DialogContentText,
+  DialogActions,
+  Button,
+  Radio,
+} from '@naturacosmeticos/natds-web';
+
+<>
+  <Button variant="outlined" onClick={handleClickOpen}>
+    Open Dialog
+  </Button>
+  <Dialog open={open} onClose={handleClose}>
+    <DialogTitle>Lorem ipsum</DialogTitle>
+    <DialogContent>
+      <DialogContentText>
+        <Radio /> Option list 1
+      </DialogContentText>
+      <DialogContentText>
+        <Radio /> Option list 1
+      </DialogContentText>
+      <DialogContentText>
+        <Radio /> Option list 1
+      </DialogContentText>
+    </DialogContent>
+    <DialogActions>
+      <Button onClick={handleClose}>Cancel</Button>
+      <Button onClick={handleClose}>Ok</Button>
+    </DialogActions>
+  </Dialog>
+</>;
+```
+
+---
+
+---
+
+| Name                 |           Type           | Default |                                            Description                                             |
+| :------------------- | :----------------------: | :-----: | :------------------------------------------------------------------------------------------------: |
+| aria-describedby     |          string          |         |                       The id(s) of the element(s) that describe the dialog.                        |
+| aria-labelledby      |          string          |         |                         The id(s) of the element(s) that label the dialog.                         |
+| children \*          |           node           |         |                      Component children, usually the included sub-components.                      |
+| classes              |          object          |         |                      Override or extend the styles applied to the component.                       |
+| disableBackdropClick |           bool           |  false  |                 If true, clicking the backdrop will not fire the onClose callback.                 |
+| disableEscapeKeyDown |           bool           |  false  |                    If true, hitting escape will not fire the onClose callback.                     |
+| fullScreen           |           bool           |  false  |                              If true, the dialog will be full-screen                               |
+| fullWidth            |           bool           |  false  |                             If true, the dialog stretches to maxWidth.                             |
+| maxWidth             | 'xs','sm','md','lg','xl' |  'sm'   |                               Determine the max-width of the dialog.                               |
+| onBackdropClick      |           func           |         |                            Callback fired when the backdrop is clicked.                            |
+| onClose              |           func           |         |                      Callback fired when the component requests to be closed.                      |
+| onEnter              |           func           |         |                              Callback fired before the dialog enters.                              |
+| onEntered            |           func           |         |                            Callback fired when the dialog has entered.                             |
+| onEntering           |           func           |         |                            Callback fired when the dialog is entering.                             |
+| onEscapeKeyDown      |           func           |         | Callback fired when the escape key is pressed, disableKeyboard is false and the modal is in focus. |
+| onExit               |           func           |         |                              Callback fired before the dialog exits.                               |
+| onExited             |           func           |         |                             Callback fired when the dialog has exited.                             |
+| onExiting            |           func           |         |                             Callback fired when the dialog is exiting.                             |
+| open \*              |           bool           |         |                                    If true, the Dialog is open.                                    |
+| PaperComponent       |       elementType        |  Paper  |                        The component used to render the body of the dialog.                        |
+| PaperProps           |          object          |   {}    |                                Props applied to the Paper element.                                 |
+| scroll               |     'body', 'paper'      | 'paper' |                         Determine the container for scrolling the dialog.                          |
+| TransitionComponent  |       elementType        |  Fade   |                               The component used for the transition.                               |
+| TransitionProps      |          object          |         |                              Props applied to the Transition element.                              |
+| disableSpacing       |           bool           |  false  |             Used in DialogActions. If true, the actions do not have additional margin.             |
+| dividers             |           bool           |  false  |                    Used in DialogContent. Display the top and bottom dividers.                     |
+| disableTypography    |           bool           |  false  |       Used in DialogTitle. If true, the children won't be wrapped by a typography component.       |
+
+For more details consult the full [Material Dialog API](https://material-ui.com/api/dialog/), [Material Dialog Actions API](https://material-ui.com/api/dialog-actions/), [Material Dialog Content API](https://material-ui.com/api/dialog-content/), [Material Dialog Content Text API](https://material-ui.com/api/dialog-content-text/), [Material Dialog Title API](https://material-ui.com/api/dialog-title/)
