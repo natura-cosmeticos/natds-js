@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.2](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.1.1...@naturacosmeticos/natds-web@0.1.2) (2019-12-10)
+
+
+### Bug Fixes
+
+* **icons:** fixes icons import for material ui and ci pipeline ([1145b36](https://github.com/natura-cosmeticos/natds/commit/1145b364574476142d57b674a2627a40f13176d9))
+
+
+
+
+
 ## [0.1.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.1.0...@naturacosmeticos/natds-web@0.1.1) (2019-12-10)
 
 
