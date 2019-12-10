@@ -1,13 +1,12 @@
 import * as React from 'react';
-import MaterialFab, { FabProps } from '@material-ui/core/Fab';
-import { withTheme, createMuiTheme } from '@material-ui/core/styles';
 import isEqual from 'lodash/isEqual';
-
+import { withTheme, createMuiTheme } from '@material-ui/core/styles';
+import MaterialFab, { FabProps } from '@material-ui/core/Fab';
 import { IThemeWeb, themes } from '../Themes';
 
 type IFabColor = 'primary' | 'secondary' | 'light';
 
-interface IFabProps extends React.HtmlHTMLAttributes<HTMLButtonElement>, Pick<FabProps,
+export interface IFabProps extends React.HtmlHTMLAttributes<HTMLButtonElement>, Pick<FabProps,
   | 'size'
   | 'href'
   | 'disableFocusRipple'

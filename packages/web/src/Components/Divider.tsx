@@ -1,10 +1,10 @@
 import React, { FunctionComponent } from 'react';
-
-import MaterialDivider, { DividerProps } from '@material-ui/core/Divider';
 import { withTheme } from '@material-ui/styles';
+import MaterialDivider, { DividerProps as IDividerProps } from '@material-ui/core/Divider';
+export { DividerProps as IDividerProps } from '@material-ui/core/Divider';
 
-const Divider: FunctionComponent<Omit<DividerProps, 'translate'>> = (
-  props: Omit<DividerProps, 'translate'>
+const Divider: FunctionComponent<Omit<IDividerProps, 'translate'>> = (
+  props: Omit<IDividerProps, 'translate'>
 ) => {
   return <MaterialDivider {...props} />;
 };

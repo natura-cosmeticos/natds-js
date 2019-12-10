@@ -29,7 +29,7 @@ type TypographyColor =
   | 'textSecondary'
   | 'error';
 
-interface ITypographyProps {
+export interface ITypographyProps {
   /**
    * Variant to be used with the theme definitions for typography, defaulting to 'body1'
    */
