@@ -1,39 +1,21 @@
 import React from 'react';
+import { Icon, IIconProps } from '@naturacosmeticos/natds-web';
+import { iconNames } from '@naturacosmeticos/natds-icons';
 
-export const outlined = [
-  {
-    title: 'autofilter-outlined',
-    component: <i className="natds-icons natds-icons-2x natds-icons-autofilter-outlined" />
-  },
-  {
-    title: 'cancel-outlined',
-    component: <i className="natds-icons natds-icons-2x natds-icons-cancel-outlined" />
-  },
-  {
-    title: 'check-outlined',
-    component: <i className="natds-icons natds-icons-2x natds-icons-check-outlined" />
-  },
-  {
-    title: 'send-outlined',
-    component: <i className="natds-icons natds-icons-2x natds-icons-send-outlined" />
-  },
-];
+const iconList = Object.keys(iconNames);
 
-export const filled = [
-  {
-    title: 'cancel-filled',
-    component: <i className="natds-icons natds-icons-2x natds-icons-cancel-filled" />
-  },
-  {
-    title: 'check-filled',
-    component: <i className="natds-icons natds-icons-2x natds-icons-check-filled" />
-  },
-  {
-    title: 'pause-filled',
-    component: <i className="natds-icons natds-icons-2x natds-icons-pause-filled" />
-  },
-  {
-    title: 'play-filled',
-    component: <i className="natds-icons natds-icons-2x natds-icons-play-filled" />
-  },
-];
+function getListByType(type: string): IIconProps.name[] {
+  return iconList.filter((icon) => icon.split('-')[0] === type);
+}
+
+function buildConfig(type: string) {
+  const list = getListByType(type);
+
+  return list.map((name: IIconProps.name) => ({
+    title: name,
+    component: <Icon name={name} />
+  }));
+}
+
+export const outlined = buildConfig('outlined');
+export const filled = buildConfig('filled');

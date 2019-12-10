@@ -3,15 +3,26 @@ import { Icon, Provider, themes } from '@naturacosmeticos/natds-web';
 import { Delete } from '@material-ui/icons';
 import { withTheme } from '../../../addons/theme/provider';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
-import { types } from './sections';
+import { outlined, filled } from './sections';
 
 # Icon
 
 ---
 ---
 
+## Outlined
+
 <Provider theme={themes.natura.light}>
-  <ComponentWithLabel componentList={types} />
+  <ComponentWithLabel componentList={outlined} />
+</Provider>
+
+---
+---
+
+## Filled
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={filled} />
 </Provider>
 
 ---

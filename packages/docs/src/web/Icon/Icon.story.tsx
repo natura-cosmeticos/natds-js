@@ -1,5 +1,5 @@
 import * as React from 'react';
-import { boolean, select } from '@storybook/addon-knobs';
+import { select } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 
@@ -21,19 +21,10 @@ export default {
   }
 };
 
-const icons: any = {
-  'autofilter-outlined': 'autofilter-outlined',
-  'cancel-filled': 'cancel-filled',
-  'cancel-outlined': 'cancel-outlined',
-  'check-filled': 'check-filled',
-  'check-outlined': 'check-outlined',
-  'pause-filled': 'pause-filled',
-  'play-filled': 'play-filled',
-  'send-outlined': 'send-outlined'
-};
+const icons = Object.keys(iconNames);
 
 export const Interactive = () => (
   <Icon
-    name={select('Icon Name', icons, icons['autofilter-outlined'])}
+    name={select('Icon Name', icons, icons[0])}
   />
 );

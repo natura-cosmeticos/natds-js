@@ -1,9 +1,21 @@
 import React from 'react';
-import { Icon } from '@naturacosmeticos/natds-web';
+import { Icon, IIconProps } from '@naturacosmeticos/natds-web';
 import { iconNames } from '@naturacosmeticos/natds-icons';
 
-console.log(iconNames)
-export const types = Object.keys(iconNames).map(name => ({
-  title: name,
-  component: <Icon name={name} />
-}));
+const iconList = Object.keys(iconNames);
+
+function getListByType(type: string): IIconProps.name[] {
+  return iconList.filter((icon) => icon.split('-')[0] === type);
+}
+
+function buildConfig(type: string) {
+  const list = getListByType(type);
+
+  return list.map((name: IIconProps.name) => ({
+    title: name,
+    component: <Icon name={name} />
+  }));
+}
+
+export const outlined = buildConfig('outlined');
+export const filled = buildConfig('filled');
