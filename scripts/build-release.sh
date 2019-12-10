@@ -17,9 +17,9 @@ fi
 
 cd packages/docs
 
-rm -rf dist/releases/${VERSION}
+rm -rf dist/releases/v${VERSION}
 
-yarn build -o "dist/releases/${VERSION}" --quiet
+yarn build -o "dist/releases/v${VERSION}" --quiet
 
 cd ../../scripts
 
