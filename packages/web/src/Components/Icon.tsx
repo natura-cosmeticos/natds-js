@@ -1,11 +1,10 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
-
-import '@naturacosmeticos/natds-icons/dist/natds-icons.css';
 import { tokens } from '@naturacosmeticos/natds-styles';
 import { iconNames } from '@naturacosmeticos/natds-icons';
+import '@naturacosmeticos/natds-icons/dist/natds-icons.css';
 
-interface IIconProps {
+export interface IIconProps {
   name: keyof typeof iconNames;
 }
 
