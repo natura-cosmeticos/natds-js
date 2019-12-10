@@ -1,6 +1,7 @@
 import { fontSize } from "../tokens/fontSize/fontSize";
 import IAvatarSizes from "../tokens/avatarSizes/IAvatarSizes";
 import IButtonSize from "tokens/buttonSize/IButtonSize";
+import { IElevation } from "tokens/elevation/IElevation";
 
 type ITypography = {
   web: {
@@ -38,6 +39,7 @@ type ITypography = {
 export interface ITheme {
   shape?: {
     borderRadius?: number;
+    badgeBorderRadius?: number;
   };
   palette?: {
     type?: "light" | "dark";
@@ -68,6 +70,8 @@ export interface ITheme {
     background?: {
       paper?: string;
       default?: string;
+      paperConstrastText?: string;
+      defaultContrastText?: string;
     };
     text?: {
       primary?: string;
@@ -75,10 +79,15 @@ export interface ITheme {
       disabled?: string;
       hint?: string;
     };
+    complementary?: {
+      link?: string;
+      warning?: string;
+    };
   };
   typography: ITypography;
   avatarSizes: IAvatarSizes;
   buttonSize: IButtonSize;
   spacing: number;
+  shadows: IElevation;
   overrides?: any;
 }

@@ -1,9 +1,5 @@
 import { buildTheme } from '../../Themes/buildTheme';
 import { themes, IThemeMobile } from '../../Themes';
-// tslint:disable-next-line:no-var-requires
-const parsedNaturaLightTheme = require('./parsedNaturaLightTheme.json');
-// tslint:disable-next-line:no-var-requires
-const parsedNaturaLightThemeWithoutValues = require('./parsedNaturaLightThemeWithoutValues.json');
 
 describe('Function buildTheme', () => {
   test('it should return the parsed natura light theme', () => {
@@ -12,7 +8,7 @@ describe('Function buildTheme', () => {
     } = themes;
 
     const theme = buildTheme(light, light);
-    expect(theme).toStrictEqual(parsedNaturaLightTheme);
+    expect(theme).toMatchSnapshot('Natura Light Theme');
   });
 
   test('it should return the parsed natura light theme with missing values', () => {
@@ -36,8 +32,6 @@ describe('Function buildTheme', () => {
       },
     };
 
-    expect(buildTheme(themeWithMissingValues, light)).toStrictEqual(
-      parsedNaturaLightThemeWithoutValues
-    );
+    expect(buildTheme(themeWithMissingValues, light)).toMatchSnapshot('Natura Light Theme With Missing Values');
   });
 });

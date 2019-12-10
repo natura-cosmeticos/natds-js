@@ -1,0 +1,28 @@
+{
+  "compilerOptions": {
+    "outDir": "dist",
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "target": "es5",
+    "lib": ["es6", "es7", "es2017", "dom"],
+    "sourceMap": true,
+    "allowJs": false,
+    "rootDir": "./src",
+    "forceConsistentCasingInFileNames": true,
+    "noImplicitReturns": true,
+    "strict": true,
+    "esModuleInterop": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "noUnusedLocals": true,
+    "noImplicitAny": false,
+    "declaration": true,
+    "allowSyntheticDefaultImports": true,
+    "experimentalDecorators": true,
+    "skipLibCheck": true,
+    "resolveJsonModule": true
+  },
+  "include": [
+    "./src/index.ts",
+    "./src/typings/**/*.d.ts"
+  ]
+}

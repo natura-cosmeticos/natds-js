@@ -19,8 +19,12 @@ git remote rm origin
 git remote add origin https://$GITHUB_API_USER:$GITHUB_API_KEY@github.com/natura-cosmeticos/natds-js
 
 git fetch
+git stash clear
+git stash
 
 git checkout "v${VERSION_WO_ALPHA}"
+
+git stash pop
 
 # Travis will make the commit
 git config --global user.email "travis@travis-ci.org"

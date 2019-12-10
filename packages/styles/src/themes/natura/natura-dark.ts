@@ -5,12 +5,14 @@ import { fontSize } from "../../tokens/fontSize/fontSize";
 import { spacing } from "../../tokens/spacing/spacing";
 import { avatarSizes } from "../../tokens/avatarSizes/avatarSizes";
 import { buttonSize } from "../../tokens/buttonSize/buttonSize";
+import { elevation } from "../../tokens/elevation/elevation";
 
 const { natura } = tokens.colors;
 
 export const naturaDark: ITheme = {
   shape: {
-    borderRadius: 4
+    borderRadius: tokens.radius.medium,
+    badgeBorderRadius: 100
   },
   avatarSizes,
   buttonSize,
@@ -21,36 +23,44 @@ export const naturaDark: ITheme = {
       main: natura.primary.colorBrdNatPrimaryYellow,
       light: "#FEFDE8",
       dark: "#EF8426",
-      contrastText: '#FAFAFA'
+      contrastText: natura.grayscale.colorBrdNatGray
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
       light: "#FFF8E1",
       dark: natura.primary.colorBrdNatPrimaryOrange,
-      contrastText: '#FAFAFA'
+      contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: '#FAFAFA'
+      contrastText: natura.grayscale.colorBrdNatGray
     },
     success: {
-      main: natura.complementary.colorBrdNatCpGreen1
+      main: natura.complementary.colorBrdNatCpGreen1,
+      contrastText: natura.primary.colorBrdNatPrimaryWhite,
     },
     background: {
-      paper: "#222222",
-      default: natura.primary.colorBrdNatPrimaryWhite
+      paper: natura.grayscale.colorBrdNatGray,
+      default: natura.grayscale.colorBrdBlack,
+      paperConstrastText: natura.primary.colorBrdNatPrimaryWhite,
+      defaultContrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     text: {
       primary: '#FAFAFA',
       secondary: natura.grayscale.colorBrdNatGray2,
       disabled: '#222222',
       hint: natura.grayscale.colorBrdNatGray1
+    },
+    complementary: {
+      link: natura.complementary.colorBrdNatCpBlue1,
+      warning: natura.complementary.colorBrdNatCpOrange4
     }
   },
   typography: {
     ...typography,
     ...fontSize
   },
+  shadows: elevation,
   overrides: {
     MuiButton: {
       outlinedPrimary: {
