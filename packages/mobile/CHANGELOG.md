@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-rn@0.1.0...@naturacosmeticos/natds-rn@0.1.1) (2019-12-10)
+
+
+### Bug Fixes
+
+* **publish:** fixes publishing folder by fixing it in the package.json ([07dd584](https://github.com/natura-cosmeticos/natds/commit/07dd5847a937a25d6d7cf55e996d3196160f13a2)), closes [#163](https://github.com/natura-cosmeticos/natds/issues/163)
+
+
+
+
+
 # 0.1.0 (2019-12-04)
 
 
