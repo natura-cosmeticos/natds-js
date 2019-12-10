@@ -1,5 +1,5 @@
 import * as iconStyles from "./natds-icons.css";
-import * as iconNames from "./natds-icons.json";
+import iconNames from "./natds-icons.json";
 import * as NatdsIconsEot from "./fonts/natds-icons.eot";
 import * as NatdsIconsSvg from "./fonts/natds-icons.svg";
 import * as NatdsIconsTtf from "./fonts/natds-icons.ttf";
