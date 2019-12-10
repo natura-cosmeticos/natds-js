@@ -1,20 +1,24 @@
 import React, { FunctionComponent } from 'react';
-import { IThemeWeb } from 'Themes';
+import styled from 'styled-components';
 
-import { withTheme } from '@material-ui/styles';
 import '@naturacosmeticos/natds-icons/dist/natds-icons.css';
+import { tokens } from '@naturacosmeticos/natds-styles';
+import { iconNames } from '@naturacosmeticos/natds-icons';
 
 interface IIconProps {
-  name: string;
-  theme?: IThemeWeb | unknown;
+  name: keyof typeof iconNames;
 }
 
 const Icon: FunctionComponent<IIconProps> = (props: IIconProps) => {
   const { name } = props;
 
   return (
-    <i className={`natds-icons natds-icons-${name} natds-icons-1x`} />
+    <IconComponent className={`natds-icons natds-icons-${String(name)}`} />
   );
 };
 
-export default withTheme(Icon);
+export default Icon;
+
+const IconComponent = styled.i`
+  font-size: ${tokens.spacing.spacingStandard}px;
+`;

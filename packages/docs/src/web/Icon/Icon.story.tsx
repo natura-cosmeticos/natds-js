@@ -4,6 +4,7 @@ import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 
 import { Icon } from '@naturacosmeticos/natds-web';
+import { iconNames } from '@naturacosmeticos/natds-icons';
 import IconDocs from './Icon.docs.mdx';
 
 export default {

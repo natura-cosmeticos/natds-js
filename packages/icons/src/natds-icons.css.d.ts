@@ -24,7 +24,7 @@ declare const styles: {
   readonly "natds-icons-check-outlined": string;
   readonly "natds-icons-pause-filled": string;
   readonly "natds-icons-play-filled": string;
-  readonly "natds-icons-send-outilned": string;
+  readonly "natds-icons-send-outlined": string;
 };
 export = styles;
 
