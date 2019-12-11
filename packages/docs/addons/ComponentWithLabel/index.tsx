@@ -2,12 +2,12 @@ import * as React from 'react';
 
 import './styles.scss';
 
-interface IComponentWithLabelItem {
+export interface IComponentWithLabelItem {
   title?: string;
-  component: any[];
+  component: any;
 }
 
-interface IComponentWithLabelProps {
+export interface IComponentWithLabelProps {
   componentList: IComponentWithLabelItem[];
   itemsPerRow?: number;
 }

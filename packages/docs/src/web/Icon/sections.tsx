@@ -3,8 +3,8 @@ import { Icon } from '@naturacosmeticos/natds-web';
 import { iconNames } from '@naturacosmeticos/natds-icons';
 import { tokens } from '@naturacosmeticos/natds-styles';
 
-const iconList = Object.keys(iconNames);
-const iconSizes = Object.keys(tokens.iconSizes);
+const iconList: any = Object.keys(iconNames);
+const iconSizes: any = Object.keys(tokens.iconSizes);
 
 function getListByType(type: string): string[] {
   return iconList.filter((icon) => icon.split('-')[0] === type);
@@ -13,16 +13,16 @@ function getListByType(type: string): string[] {
 function buildConfig(type: string) {
   const list = getListByType(type);
 
-  return list.map((name: string) => ({
+  return list.map((name: any) => ({
     title: name,
     component: <Icon name={name} />
   }));
 }
 
 function buildConfigSizes(type: string) {
-  const [name] = getListByType(type);
+  const [name]: any = getListByType(type);
 
-  return iconSizes.map((size: string) => ({
+  return iconSizes.map((size: any) => ({
     title: size,
     component: <Icon name={name} size={size} />
   }));
