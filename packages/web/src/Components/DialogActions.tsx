@@ -1,12 +1,14 @@
 import React, { FunctionComponent } from 'react';
-
-import MaterialDialogActions, {
-  DialogActionsProps,
-} from '@material-ui/core/DialogActions';
 import { withTheme } from '@material-ui/styles';
+import MaterialDialogActions, {
+  DialogActionsProps as IDialogActionsProps
+} from '@material-ui/core/DialogActions';
+export {
+  DialogActionsProps as IDialogActionsProps
+} from '@material-ui/core/DialogActions';
 
-const DialogActions: FunctionComponent<DialogActionsProps> = (
-  props: DialogActionsProps
+const DialogActions: FunctionComponent<IDialogActionsProps> = (
+  props: IDialogActionsProps
 ) => <MaterialDialogActions {...props} />;
 
 export default withTheme(DialogActions);

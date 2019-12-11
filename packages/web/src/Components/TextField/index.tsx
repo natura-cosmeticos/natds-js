@@ -46,6 +46,7 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
 };
 
 export default withTheme(TextField);
+export { ITextFieldProps } from './shared';
 
 const Container = styled.div`
   display: flex;

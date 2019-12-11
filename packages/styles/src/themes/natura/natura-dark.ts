@@ -6,6 +6,7 @@ import { spacing } from "../../tokens/spacing/spacing";
 import { avatarSizes } from "../../tokens/avatarSizes/avatarSizes";
 import { buttonSize } from "../../tokens/buttonSize/buttonSize";
 import { elevation } from "../../tokens/elevation/elevation";
+import { iconSizes } from "../../tokens/iconSizes/iconSizes";
 
 const { natura } = tokens.colors;
 
@@ -16,6 +17,7 @@ export const naturaDark: ITheme = {
   },
   avatarSizes,
   buttonSize,
+  iconSizes,
   spacing: spacing.spacing,
   palette: {
     type: "light",

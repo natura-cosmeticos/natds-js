@@ -1,10 +1,10 @@
 import React, { FunctionComponent } from 'react';
-
-import MaterialCheckbox, { CheckboxProps } from '@material-ui/core/Checkbox';
 import { withTheme } from '@material-ui/styles';
+import MaterialCheckbox, { CheckboxProps as ICheckboxProps } from '@material-ui/core/Checkbox';
+export { CheckboxProps as ICheckboxProps } from '@material-ui/core/Checkbox';
 
-const Checkbox: FunctionComponent<Omit<CheckboxProps, 'translate'>> = (
-  props: Omit<CheckboxProps, 'translate'>
+const Checkbox: FunctionComponent<Omit<ICheckboxProps, 'translate'>> = (
+  props: Omit<ICheckboxProps, 'translate'>
 ) => {
   return <MaterialCheckbox {...props} />;
 };

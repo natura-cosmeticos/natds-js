@@ -1,0 +1,54 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Icon, Provider, themes } from '@naturacosmeticos/natds-web';
+import { Delete } from '@material-ui/icons';
+import { withTheme } from '../../../addons/theme/provider';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { outlined, filled, sizes } from './sections';
+
+# Icon
+
+---
+---
+
+## Outlined
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={outlined} />
+</Provider>
+
+---
+---
+
+## Filled
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={filled} />
+</Provider>
+
+---
+---
+
+## Sizes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={sizes} itemsPerRow={9} />
+</Provider>
+
+---
+---
+
+## API
+
+```jsx highlight-line="2"
+import { Icon } from '@naturacosmeticos/natds-web';
+
+<Icon name="outlined-action-autofilter" size="standard" />
+```
+
+---
+---
+
+| Name                      | Type                                            | Default                       | Description
+| :--                       | :-:                                             | :-:                           | :-:
+| name                      | string                                          |                               | The Icon name
+| size                      | string?                                         | "micro" , "tiny" , "small" , "standard" , "medium" , "large" , "larger" , "largest" , "huge" , "hugex" , "hugexx" , "hugexxx" , undefined | The Icon size

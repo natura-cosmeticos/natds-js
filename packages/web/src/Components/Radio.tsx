@@ -1,10 +1,10 @@
 import React, { FunctionComponent } from 'react';
-
-import MaterialRadio, { RadioProps } from '@material-ui/core/Radio';
 import { withTheme } from '@material-ui/styles';
+import MaterialRadio, { RadioProps as IRadioProps } from '@material-ui/core/Radio';
+export { RadioProps as IRadioProps } from '@material-ui/core/Radio';
 
-const Radio: FunctionComponent<Omit<RadioProps, 'translate'>> = (
-  props: Omit<RadioProps, 'translate'>
+const Radio: FunctionComponent<Omit<IRadioProps, 'translate'>> = (
+  props: Omit<IRadioProps, 'translate'>
 ) => {
   return <MaterialRadio {...props} />;
 };

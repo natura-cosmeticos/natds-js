@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from 'react';
-
-import MaterialIconButton, { IconButtonProps } from '@material-ui/core/IconButton';
 import { withTheme } from '@material-ui/styles';
+import MaterialIconButton, { IconButtonProps as IIconButtonProps } from '@material-ui/core/IconButton';
+export { IconButtonProps as IIconButtonProps } from '@material-ui/core/IconButton';
 
-const IconButton: FunctionComponent<IconButtonProps> = (props: IconButtonProps) => {
+const IconButton: FunctionComponent<IIconButtonProps> = (props: IIconButtonProps) => {
   return (
     <MaterialIconButton {...props} />
   );
