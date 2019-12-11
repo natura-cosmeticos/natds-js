@@ -39,6 +39,13 @@ const variants: any = {
 };
 
 export const Interactive = () => {
+  const variant = select('variant', variants, variants.round);
+  const content = variant === variants.round ? <AddIcon /> : text('content', 'Extended');
+
+  const leadingIcon = variant === variants.round
+    ? undefined
+    : boolean('Leading Icon', false);
+
   return (
     <Fab
       color={select('color', colors, colors.primary)}
@@ -46,7 +53,8 @@ export const Interactive = () => {
       variant={select('variant', variants, variants.round)}
       disabled={boolean('disabled', false)}
     >
-      <AddIcon />
+      {leadingIcon && <AddIcon/>}
+      {content}
     </Fab>
   );
 };
@@ -65,13 +73,16 @@ export const Round = () => {
 };
 
 export const Extended = () => {
+  const leadingIcon = boolean('Leading Icon', false);
   return (
     <Fab
       color={select('color', colors, colors.primary)}
       size={select('size', sizes, sizes.large)}
       disabled={boolean('disabled', false)}
-      children={text('children', 'Extended')}
       variant="extended"
-    />
+    >
+      {leadingIcon && <AddIcon/>}
+      {text('children', 'Extended')}
+    </Fab>
   );
 };

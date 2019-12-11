@@ -1,6 +1,6 @@
 import { Fab, Provider, themes } from '@naturacosmeticos/natds-web';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
-import { colors, sizes, variants, disabled } from './sections';
+import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 
 # Fab
 
@@ -36,12 +36,46 @@ import { colors, sizes, variants, disabled } from './sections';
 ---
 ---
 
+## Extended With Leading Icon
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={leadingIcon} />
+</Provider>
+
+---
+---
+
 ## Disabled
 
 <Provider theme={themes.natura.light}>
   <ComponentWithLabel componentList={disabled} />
 </Provider>
 
+---
+---
+
+## API
+
+```jsx highlight-line="2"
+import { Fab } from '@naturacosmeticos/natds-web';
+
+// Round
+<Fab>
+  <AnyIcon />
+</Fab>
+
+// Extended
+<Fab variant="extended">
+  Text
+</Fab>
+
+// Extended with leading icon
+<Fab variant="extended">
+  <AnyIcon />
+  Text
+</Fab>
+
+```
 ---
 ---
 
