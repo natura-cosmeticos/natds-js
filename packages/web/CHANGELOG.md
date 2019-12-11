@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.1.3](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.1.2...@naturacosmeticos/natds-web@0.1.3) (2019-12-11)
+
+
+### Bug Fixes
+
+* **web:** fixing TextField label for when is empty and with required true ([0deafad](https://github.com/natura-cosmeticos/natds/commit/0deafadf71d48821dc582adef20a29f8fb282d29)), closes [#172](https://github.com/natura-cosmeticos/natds/issues/172)
+
+
+
+
+
 ## [0.1.2](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.1.1...@naturacosmeticos/natds-web@0.1.2) (2019-12-10)
 
 
