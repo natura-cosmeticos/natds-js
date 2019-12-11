@@ -20,27 +20,27 @@ const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) =
     state
   } = props;
 
-  const content = required ? `${label} *` : label;
+  const content = label && required ? `${label} *` : label;
   const IconState = stateIcons[String(state)];
   const stateIcon = IconState && <IconState theme={theme} />;
 
   return (
     <Container theme={theme}>
-      <Label
+      {content && <Label
         theme={theme}
         htmlFor={id}
         state={state}
         disabled={disabled}>
         {content}
-      </Label>
+      </Label>}
       <Field {...props} />
-      <HelpText
+      {helpText && <HelpText
         theme={theme}
         state={state}
         disabled={disabled}>
         {stateIcon}
         {helpText}
-      </HelpText>
+      </HelpText>}
     </Container>
   );
 };
