@@ -54,16 +54,34 @@ interface ITypographyProps {
    * Children nodes to apply the typography
    */
   children: React.ReactNode;
+  /**
+   * The component used for the root node. Either a string to use a DOM element or a component. By default, it maps the variant to a good default headline component
+   */
+  component?: React.ElementType<React.HTMLAttributes<HTMLElement>>;
+  /**
+   * If true and component property is undefined, the component used for Root Node will be `p`
+   */
+  paragraph?: boolean;
+  /**
+   * Maps the internal html tag variants, where the key is variant and the value is the tag to use. Alternatively, use the component property
+   */
+  variantMapping?: object;
 }
 
 const Typography: React.FunctionComponent<ITypographyProps> = (
   props: ITypographyProps
 ) => {
-  const variant = props.variant ? props.variant : 'body1';
-  const align = props.align ? props.align : 'inherit';
-  const classes = props.classes ? props.classes : {};
-  const color = props.color ? props.color : undefined;
-  const noWrap = props.noWrap === undefined ? false : props.noWrap;
+  const {
+    variant = 'body1',
+    align = 'inherit',
+    classes,
+    color,
+    noWrap = false,
+    component,
+    paragraph,
+    variantMapping,
+    ...rest
+  } = props;
 
   return (
     <MaterialTypography
@@ -72,6 +90,10 @@ const Typography: React.FunctionComponent<ITypographyProps> = (
       classes={classes}
       color={color}
       noWrap={noWrap}
+      component={component}
+      variantMapping={variantMapping}
+      paragraph={paragraph}
+      {...rest}
     >
       {props.children}
     </MaterialTypography>
