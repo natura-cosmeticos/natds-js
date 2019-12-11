@@ -1,12 +1,14 @@
 import React, { FunctionComponent } from 'react';
-
-import MaterialDialogContent, {
-  DialogContentProps,
-} from '@material-ui/core/DialogContent';
 import { withTheme } from '@material-ui/styles';
+import MaterialDialogContent, {
+  DialogContentProps as IDialogContentProps,
+} from '@material-ui/core/DialogContent';
+export {
+  DialogContentProps as IDialogContentProps,
+} from '@material-ui/core/DialogContent';
 
-const DialogContent: FunctionComponent<DialogContentProps> = (
-  props: DialogContentProps
+const DialogContent: FunctionComponent<IDialogContentProps> = (
+  props: IDialogContentProps
 ) => <MaterialDialogContent {...props} />;
 
 export default withTheme(DialogContent);

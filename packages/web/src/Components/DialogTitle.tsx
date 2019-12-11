@@ -1,12 +1,14 @@
 import React, { FunctionComponent } from 'react';
-
-import MaterialDialogTitle, {
-  DialogTitleProps,
-} from '@material-ui/core/DialogTitle';
 import { withTheme } from '@material-ui/styles';
+import MaterialDialogTitle, {
+  DialogTitleProps as IDialogTitleProps,
+} from '@material-ui/core/DialogTitle';
+export {
+  DialogTitleProps as IDialogTitleProps,
+} from '@material-ui/core/DialogTitle';
 
-const DialogTitle: FunctionComponent<DialogTitleProps> = (
-  props: DialogTitleProps
+const DialogTitle: FunctionComponent<IDialogTitleProps> = (
+  props: IDialogTitleProps
 ) => <MaterialDialogTitle {...props} />;
 
 export default withTheme(DialogTitle);

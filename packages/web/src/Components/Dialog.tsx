@@ -1,9 +1,9 @@
 import React, { FunctionComponent } from 'react';
-
-import MaterialDialog, { DialogProps } from '@material-ui/core/Dialog';
 import { withTheme } from '@material-ui/styles';
+import MaterialDialog, { DialogProps as IDialogProps } from '@material-ui/core/Dialog';
+export { DialogProps as IDialogProps } from '@material-ui/core/Dialog';
 
-const Dialog: FunctionComponent<DialogProps> = (props: DialogProps) => (
+const Dialog: FunctionComponent<IDialogProps> = (props: IDialogProps) => (
   <MaterialDialog {...props} />
 );
 
