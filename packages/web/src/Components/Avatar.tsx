@@ -4,7 +4,7 @@ import { withTheme } from '@material-ui/styles';
 import { IAvatarSizes } from '@naturacosmeticos/natds-styles';
 import { IThemeWeb } from 'Themes';
 
-export type AvatarSizes = 'tiny' | 'small' | 'standard' | 'large' | 'xlarge';
+export type AvatarSizes = keyof IAvatarSizes;
 export type AvatarColors = 'primary' | 'secondary' | string;
 
 export interface IAvatarProps extends MaterialAvatarProps {

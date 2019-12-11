@@ -47,6 +47,20 @@ Object {
       "paddingTop": 8,
     },
   },
+  "iconSizes": Object {
+    "huge": 128,
+    "hugex": 144,
+    "hugexx": 192,
+    "hugexxx": 256,
+    "large": 64,
+    "larger": 72,
+    "largest": 96,
+    "medium": 48,
+    "micro": 16,
+    "small": 24,
+    "standard": 32,
+    "tiny": 16,
+  },
   "overrides": Object {
     "MuiAvatar": Object {
       "colorDefault": Object {

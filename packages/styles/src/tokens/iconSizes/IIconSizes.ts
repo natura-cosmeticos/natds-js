@@ -12,4 +12,3 @@ export default interface IIconSizes {
   hugexx: number;
   hugexxx: number;
 }
-

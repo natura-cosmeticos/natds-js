@@ -1,19 +1,19 @@
 import React from 'react';
-import { Icon, IIconProps } from '@naturacosmeticos/natds-web';
+import { Icon } from '@naturacosmeticos/natds-web';
 import { iconNames } from '@naturacosmeticos/natds-icons';
 
 const iconList = Object.keys(iconNames);
 
-function getListByType(type: string): IIconProps.name[] {
+function getListByType(type: string): string[] {
   return iconList.filter((icon) => icon.split('-')[0] === type);
 }
 
 function buildConfig(type: string) {
   const list = getListByType(type);
 
-  return list.map((name: IIconProps.name) => ({
+  return list.map((name: string) => ({
     title: name,
-    component: <Icon name={name} />
+    component: <i className={`natds-icons natds-icons-2x natds-icons-${String(name)}`} />
   }));
 }
 

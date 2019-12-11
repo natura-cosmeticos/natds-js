@@ -3,7 +3,7 @@ import { Icon, Provider, themes } from '@naturacosmeticos/natds-web';
 import { Delete } from '@material-ui/icons';
 import { withTheme } from '../../../addons/theme/provider';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
-import { outlined, filled } from './sections';
+import { outlined, filled, sizes } from './sections';
 
 # Icon
 
@@ -28,12 +28,21 @@ import { outlined, filled } from './sections';
 ---
 ---
 
+## Sizes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={sizes} itemsPerRow={9} />
+</Provider>
+
+---
+---
+
 ## API
 
 ```jsx highlight-line="2"
 import { Icon } from '@naturacosmeticos/natds-web';
 
-<Icon name="cancel-outlined" />
+<Icon name="outlined-action-autofilter" size="standard" />
 ```
 
 ---
@@ -42,3 +51,4 @@ import { Icon } from '@naturacosmeticos/natds-web';
 | Name                      | Type                                            | Default                       | Description
 | :--                       | :-:                                             | :-:                           | :-:
 | name                      | string                                          |                               | The Icon name
+| size                      | string?                                         | "micro" , "tiny" , "small" , "standard" , "medium" , "large" , "larger" , "largest" , "huge" , "hugex" , "hugexx" , "hugexxx" , undefined | The Icon size
