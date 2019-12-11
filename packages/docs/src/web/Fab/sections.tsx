@@ -43,6 +43,13 @@ export const sizes = [
   },
 ];
 
+export const leadingIcon = [
+  {
+    title: 'Leading Icon',
+    component: <Fab variant="extended"><AddIcon/> Extended</Fab>
+  }
+];
+
 export const disabled = [
   {
     title: 'Disabled',
