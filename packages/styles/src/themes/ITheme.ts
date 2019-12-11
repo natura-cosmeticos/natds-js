@@ -1,6 +1,7 @@
 import { fontSize } from "../tokens/fontSize/fontSize";
 import IAvatarSizes from "../tokens/avatarSizes/IAvatarSizes";
 import IButtonSize from "tokens/buttonSize/IButtonSize";
+import { IElevation } from "tokens/elevation/IElevation";
 
 type ITypography = {
   web: {
@@ -87,5 +88,6 @@ export interface ITheme {
   avatarSizes: IAvatarSizes;
   buttonSize: IButtonSize;
   spacing: number;
+  shadows: IElevation;
   overrides?: any;
 }

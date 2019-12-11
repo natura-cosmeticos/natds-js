@@ -5,6 +5,7 @@ import { fontSize } from "../../tokens/fontSize/fontSize";
 import { spacing } from "../../tokens/spacing/spacing";
 import { avatarSizes } from "../../tokens/avatarSizes/avatarSizes";
 import { buttonSize } from "../../tokens/buttonSize/buttonSize";
+import { elevation } from "../../tokens/elevation/elevation";
 
 const { natura } = tokens.colors;
 
@@ -59,6 +60,7 @@ export const naturaDark: ITheme = {
     ...typography,
     ...fontSize
   },
+  shadows: elevation,
   overrides: {
     MuiButton: {
       outlinedPrimary: {
