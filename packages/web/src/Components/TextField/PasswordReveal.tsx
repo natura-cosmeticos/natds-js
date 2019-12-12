@@ -6,7 +6,7 @@ import VisibilityIconOff from '@material-ui/icons/VisibilityOffOutlined';
 import { IThemeWeb } from 'Themes';
 import { tokens } from '@naturacosmeticos/natds-styles';
 
-interface IPasswordReveal {
+export interface IPasswordReveal {
   theme: IThemeWeb | unknown;
   showing: boolean;
   onTogglePasswordReveal: Dispatch<SetStateAction<boolean>>;
@@ -25,7 +25,7 @@ const baseIconStyle = `
   &, & > svg { fill: inherit!important; }
 `;
 
-const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPasswordReveal) => {
+export const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPasswordReveal) => {
   const {
     theme,
     onTogglePasswordReveal,

@@ -12,7 +12,7 @@ export const TEXT_TYPE = 'text';
 export const SEARCH_TYPE = 'search';
 export const PASSWORD_TYPE = 'password';
 
-const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
+export const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
   const {
     id,
     theme,

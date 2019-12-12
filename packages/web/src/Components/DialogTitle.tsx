@@ -7,7 +7,7 @@ export {
   DialogTitleProps as IDialogTitleProps,
 } from '@material-ui/core/DialogTitle';
 
-const DialogTitle: FunctionComponent<IDialogTitleProps> = (
+export const DialogTitle: FunctionComponent<IDialogTitleProps> = (
   props: IDialogTitleProps
 ) => <MaterialDialogTitle {...props} />;
 

@@ -3,7 +3,7 @@ import { withTheme } from '@material-ui/styles';
 import MaterialIconButton, { IconButtonProps as IIconButtonProps } from '@material-ui/core/IconButton';
 export { IconButtonProps as IIconButtonProps } from '@material-ui/core/IconButton';
 
-const IconButton: FunctionComponent<IIconButtonProps> = (props: IIconButtonProps) => {
+export const IconButton: FunctionComponent<IIconButtonProps> = (props: IIconButtonProps) => {
   return (
     <MaterialIconButton {...props} />
   );

@@ -7,7 +7,7 @@ import MaterialDialogContentText, {
   DialogContentTextProps as IDialogContentTextProps,
 } from '@material-ui/core/DialogContentText';
 
-const DialogContentText: FunctionComponent<IDialogContentTextProps> = (
+export const DialogContentText: FunctionComponent<IDialogContentTextProps> = (
   props: IDialogContentTextProps
 ) => <MaterialDialogContentText {...props} />;
 

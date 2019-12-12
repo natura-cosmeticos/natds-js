@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Chip component Chip calls onDelete 1`] = `
-<WithTheme(Chip)
+<WithTheme(Component)
   label="A Chip Component"
   onDelete={[Function]}
 >
-  <Chip
+  <Component
     label="A Chip Component"
     onDelete={[Function]}
   >
@@ -105,6 +105,6 @@ exports[`Chip component Chip calls onDelete 1`] = `
         </div>
       </ForwardRef(Chip)>
     </WithStyles(ForwardRef(Chip))>
-  </Chip>
-</WithTheme(Chip)>
+  </Component>
+</WithTheme(Component)>
 `;

@@ -9,7 +9,7 @@ import { ITextFieldProps, getProp, getColorByState, stateStyles } from './shared
 
 import Field from './Field';
 
-const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
+export const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
   const {
     id,
     label,

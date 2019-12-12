@@ -25,7 +25,7 @@ export interface IFabProps extends React.HtmlHTMLAttributes<HTMLButtonElement>, 
   theme?: IThemeWeb | unknown;
 }
 
-const Fab: React.FunctionComponent<IFabProps> = (props: IFabProps) => {
+export const Fab: React.FunctionComponent<IFabProps> = (props: IFabProps) => {
   const {
     color = 'primary',
     theme: providerTheme,
