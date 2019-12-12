@@ -150,7 +150,7 @@ export const Media = () => (
   <Card style={{ maxWidth: 328 }}>
     <CardMedia
       style={{ height: 184 }}
-      image={sourceMedia}
+      image={source.media}
       title="media image"
     />
     <CardContent>
