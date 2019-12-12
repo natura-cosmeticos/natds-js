@@ -12,7 +12,7 @@ export interface IIconProps {
   theme: IThemeWeb | unknown;
 }
 
-const Icon: FunctionComponent<IIconProps> = (props: IIconProps) => {
+export const Icon: FunctionComponent<IIconProps> = (props: IIconProps) => {
   const { name, theme, size } = props;
   const className = `natds-icons natds-icons-${String(name)}`;
 

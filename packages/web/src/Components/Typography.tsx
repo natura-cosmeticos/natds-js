@@ -68,7 +68,7 @@ export interface ITypographyProps {
   variantMapping?: object;
 }
 
-const Typography: React.FunctionComponent<ITypographyProps> = (
+export const Typography: React.FunctionComponent<ITypographyProps> = (
   props: ITypographyProps
 ) => {
   const {

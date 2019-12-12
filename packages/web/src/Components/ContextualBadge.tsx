@@ -47,7 +47,7 @@ export interface IContextualBadgeProps {
   children?: React.ReactNode;
 }
 
-const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: IContextualBadgeProps) => {
+export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: IContextualBadgeProps) => {
   const {
     theme: providerTheme,
     color = 'primary',
