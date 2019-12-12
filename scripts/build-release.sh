@@ -23,7 +23,13 @@ yarn build -o "dist/releases/v${VERSION}" --quiet
 
 cd ../../scripts
 
+git add --all
+
+git stash
+
 git checkout master-docs
+
+git stash pop
 
 node helpers/addVersionOnConfig.js $VERSION
 

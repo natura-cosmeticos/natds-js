@@ -30,7 +30,6 @@
     "build:copyfiles": "cp -r ./src/fonts ./dist && cp ./src/*.css ./dist",
     "start": "yarn build --watch",
     "watch": "yarn start",
-    "test": "yarn test:unit:coverage --json --outputFile=.jest-test-results.json -u",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "verify": "yarn lint"
   },
