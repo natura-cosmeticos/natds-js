@@ -1,8 +1,7 @@
 import * as React from 'react';
-import { number, select, text, color } from '@storybook/addon-knobs';
+import { select, text } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import { Delete } from '@material-ui/icons';
 import { Avatar } from '@naturacosmeticos/natds-web';
 
 import AvatarDocs from './Avatar.docs.mdx';

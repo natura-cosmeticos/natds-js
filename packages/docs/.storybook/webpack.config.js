@@ -72,8 +72,7 @@ module.exports = ({ config }) => {
             require("@babel/preset-react").default
           ]
         }
-      },
-      require.resolve("react-docgen-typescript-loader")
+      }
     ]
   });
 

@@ -14,6 +14,11 @@ export interface IAvatarProps extends MaterialAvatarProps {
    * Size of the Avatar
    */
   size?: AvatarSizes;
+  /**
+   * @optional
+   * @default 'primary'
+   * Color of the Avatar
+   */
   color?: AvatarColors;
   theme: IThemeWeb | unknown;
 }
