@@ -11,14 +11,24 @@ cd ..
 
 yarn build:libs
 
+yarn lerna run test:ci
+
 cd packages/docs
 
 rm -rf "dist/releases/v${NEW_VERSION}"
 
 yarn build -o "dist/releases/v${NEW_VERSION}" --quiet
 
-cd ../../scripts
+TEST_RESULT_FILENAME=".jest-test-results.json"
 
+PACKAGES=("styles" "web" "mobile")
+
+for package in "${PACKAGES[@]}"
+do
+  rm -rf ../$package/$TEST_RESULT_FILENAME
+done
+
+cd ../../scripts
 
 VERSION_WO_ALPHA=`node helpers/removeAlphaFromVersion.js ${NEW_VERSION}`
 

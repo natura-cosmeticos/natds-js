@@ -34,7 +34,8 @@
     "verify": "yarn build:libs && yarn lerna run verify",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/mobile && yarn watch\" \"cd packages/web && yarn watch\"",
     "version": "echo $npm_package_version",
-    "build:docs:prerelease": "bash scripts/build-pre-release.sh"
+    "build:docs:prerelease": "bash scripts/build-pre-release.sh",
+    "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons"
   },
   "private": true,
   "workspaces": {
