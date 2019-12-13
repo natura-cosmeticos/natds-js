@@ -1,25 +1,26 @@
 import { IButtonSizes } from "./IButtonSizes";
+import { sizes } from '../sizes';
 
 export const buttonSizes: IButtonSizes = {
   small: {
-    paddingTop: 8,
-    paddingRight: 8,
-    paddingBottom: 8,
-    paddingLeft: 8,
-    minHeight: 32
+    paddingTop: sizes.tiny,
+    paddingRight: sizes.tiny,
+    paddingBottom: sizes.tiny,
+    paddingLeft: sizes.tiny,
+    minHeight: sizes.semi
   },
   medium: {
     paddingTop: 12,
-    paddingRight: 16,
+    paddingRight: sizes.small,
     paddingBottom: 12,
-    paddingLeft: 16,
-    minHeight: 40
+    paddingLeft: sizes.small,
+    minHeight: sizes.semix
   },
   large: {
-    paddingTop: 16,
-    paddingRight: 16,
-    paddingBottom: 16,
-    paddingLeft: 16,
-    minHeight: 48
+    paddingTop: sizes.small,
+    paddingRight: sizes.small,
+    paddingBottom: sizes.small,
+    paddingLeft: sizes.small,
+    minHeight: sizes.medium
   }
 };

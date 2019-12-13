@@ -1,24 +1,25 @@
 import { IAvatarSizes } from './IAvatarSizes';
+import { sizes } from '../sizes';
 
 export const avatarSizes: IAvatarSizes = {
   tiny: {
-    size: 24,
+    size: sizes.standard,
     fontSize: '.625rem'
   },
   small: {
-    size: 32,
+    size: sizes.semi,
     fontSize: '.875rem'
   },
   standard: {
-    size: 40,
+    size: sizes.semix,
     fontSize: '1rem'
   },
   large: {
-    size: 48,
+    size: sizes.medium,
     fontSize: '1rem'
   },
-  xlarge: {
-    size: 80,
+  huge: {
+    size: sizes.largexx,
     fontSize: '1.5rem'
   }
 };

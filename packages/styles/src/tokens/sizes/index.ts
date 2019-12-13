@@ -12,7 +12,7 @@ export const sizes: ISizes = {
   mediumx: 56,
   large: 64,
   largex: 72,
-  Largexx: 80,
+  largexx: 80,
   largexxx: 88,
   huge: 96,
   hugex: 128,

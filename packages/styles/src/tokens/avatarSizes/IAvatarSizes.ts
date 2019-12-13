@@ -3,7 +3,7 @@ export interface IAvatarSizes {
   small: IAvatarProperties;
   standard: IAvatarProperties;
   large: IAvatarProperties;
-  xlarge: IAvatarProperties;
+  huge: IAvatarProperties;
 }
 
 interface IAvatarProperties {

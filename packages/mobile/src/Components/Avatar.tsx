@@ -11,8 +11,8 @@ import { IThemeShape } from '../Provider/IThemeShape';
 import { IconSource } from 'react-native-paper/lib/typescript/src/components/Icon';
 import { IAvatarSizes } from '@naturacosmeticos/natds-styles';
 
-type AvatarType = 'image' | 'text' | 'icon';
-type AvatarSizes = 'tiny' | 'small' | 'standard' | 'large' | 'xlarge';
+export type AvatarType = 'image' | 'text' | 'icon';
+export type AvatarSizes = keyof IAvatarSizes;
 
 declare type AvatarProps = React.ComponentProps<typeof Surface> & {
   /**

@@ -10,7 +10,7 @@ export interface ISizes {
   mediumx: number;
   large: number;
   largex: number;
-  Largexx: number;
+  largexx: number;
   largexxx: number;
   huge: number;
   hugex: number;

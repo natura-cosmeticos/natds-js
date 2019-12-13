@@ -3,6 +3,7 @@ import { select, text } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 import { Avatar } from '@naturacosmeticos/natds-web';
+import { tokens } from '@naturacosmeticos/natds-styles';
 
 import AvatarDocs from './Avatar.docs.mdx';
 
@@ -26,13 +27,7 @@ const source: any = {
   none: null
 };
 
-const sizes: any = {
-  tiny: 'tiny',
-  small: 'small',
-  standard: 'standard',
-  large: 'large',
-  xlarge: 'xlarge',
-};
+const sizes: any = Object.keys(tokens.avatarSizes);
 
 const colors: any = {
   primary: 'primary',
@@ -44,7 +39,7 @@ export const Interactive = () => (
   <Avatar
     alt={text('alt', 'XD')}
     src={select('source', source, source.image)}
-    size={select('size', sizes, sizes.xlarge)}
+    size={select('size', sizes, 'huge')}
     color={select('color', colors, colors.primary)}
     children={text('children', 'XD')}
   />
@@ -54,7 +49,7 @@ export const Image = () => (
   <Avatar
     src={source.image}
     alt={text('alt', 'XD')}
-    size={select('size', sizes, sizes.xlarge)}
+    size={select('size', sizes, 'huge')}
   />
 );
 
@@ -62,7 +57,7 @@ export const Anonymous = () => (
   <Avatar
     src={source.anonymous}
     alt={text('alt', 'XD')}
-    size={select('size', sizes, sizes.xlarge)}
+    size={select('size', sizes, 'huge')}
     color={select('color', colors, colors.primary)}
   />
 );
@@ -71,7 +66,7 @@ export const Text = () => (
   <Avatar
     children={text('children', 'XD')}
     alt={text('alt', 'XD')}
-    size={select('size', sizes, sizes.xlarge)}
+    size={select('size', sizes, 'huge')}
     color={select('color', colors, colors.primary)}
   />
 );
