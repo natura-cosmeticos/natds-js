@@ -4,7 +4,6 @@ import { tokens } from '@naturacosmeticos/natds-styles';
 import { select, text } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-
 import AvatarDocs from './Avatar.docs.mdx';
 
 export default {
