@@ -128,7 +128,7 @@ export const Interactive = () => {
 export const Simple = () => (
   <Card style={{ maxWidth: 328 }}>
     <CardContent>
-      <Typography variant="overline" color="textSecondary" gutterBottom>
+      <Typography variant="overline" color="textSecondary">
         OVERLINE
       </Typography>
       <Typography variant="h6">Header 6</Typography>
