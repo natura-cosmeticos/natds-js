@@ -1,9 +1,9 @@
-export default interface IAvatarSizes {
+export interface IAvatarSizes {
   tiny: IAvatarProperties;
   small: IAvatarProperties;
   standard: IAvatarProperties;
   large: IAvatarProperties;
-  xlarge: IAvatarProperties;
+  huge: IAvatarProperties;
 }
 
 interface IAvatarProperties {

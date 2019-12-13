@@ -1,4 +1,4 @@
-import { IAvatarSizes, IButtonSize } from '@naturacosmeticos/natds-styles';
+import { IAvatarSizes, IButtonSizes } from '@naturacosmeticos/natds-styles';
 import { Theme } from 'react-native-paper';
 import { Fonts } from 'react-native-paper/lib/typescript/src/types';
 
@@ -61,6 +61,6 @@ export interface IThemeShape extends Theme {
     } & IFontMobile;
   };
   avatarSizes?: IAvatarSizes;
-  buttonSize?: IButtonSize;
+  buttonSizes?: IButtonSizes;
   badgeBorderRadius?: number;
 }

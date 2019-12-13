@@ -1081,6 +1081,10 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
             "scale": 1,
           },
           "avatarSizes": Object {
+            "huge": Object {
+              "fontSize": "1.5rem",
+              "size": 80,
+            },
             "large": Object {
               "fontSize": "1rem",
               "size": 48,
@@ -1097,13 +1101,9 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
               "fontSize": ".625rem",
               "size": 24,
             },
-            "xlarge": Object {
-              "fontSize": "1.5rem",
-              "size": 80,
-            },
           },
           "badgeBorderRadius": 100,
-          "buttonSize": Object {
+          "buttonSizes": Object {
             "large": Object {
               "minHeight": 48,
               "paddingBottom": 16,
@@ -2569,6 +2569,10 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
             "scale": 1,
           },
           "avatarSizes": Object {
+            "huge": Object {
+              "fontSize": "1.5rem",
+              "size": 80,
+            },
             "large": Object {
               "fontSize": "1rem",
               "size": 48,
@@ -2585,12 +2589,8 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
               "fontSize": ".625rem",
               "size": 24,
             },
-            "xlarge": Object {
-              "fontSize": "1.5rem",
-              "size": 80,
-            },
           },
-          "buttonSize": Object {
+          "buttonSizes": Object {
             "large": Object {
               "minHeight": 48,
               "paddingBottom": 16,
@@ -2647,18 +2647,17 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
             },
           },
           "iconSizes": Object {
-            "huge": 128,
-            "hugex": 144,
-            "hugexx": 192,
-            "hugexxx": 256,
-            "large": 64,
-            "larger": 72,
-            "largest": 96,
-            "medium": 48,
+            "huge": 144,
+            "hugex": 192,
+            "hugexx": 256,
+            "large": 72,
+            "largex": 96,
+            "largexx": 128,
+            "medium": 64,
             "micro": 16,
-            "small": 24,
-            "standard": 32,
-            "tiny": 16,
+            "small": 32,
+            "standard": 48,
+            "tiny": 24,
           },
           "overrides": Object {
             "MuiAvatar": Object {
@@ -2837,6 +2836,10 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
               "scale": 1,
             },
             "avatarSizes": Object {
+              "huge": Object {
+                "fontSize": "1.5rem",
+                "size": 80,
+              },
               "large": Object {
                 "fontSize": "1rem",
                 "size": 48,
@@ -2853,13 +2856,9 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
                 "fontSize": ".625rem",
                 "size": 24,
               },
-              "xlarge": Object {
-                "fontSize": "1.5rem",
-                "size": 80,
-              },
             },
             "badgeBorderRadius": 100,
-            "buttonSize": Object {
+            "buttonSizes": Object {
               "large": Object {
                 "minHeight": 48,
                 "paddingBottom": 16,

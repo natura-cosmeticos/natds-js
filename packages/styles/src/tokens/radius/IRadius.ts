@@ -1,7 +1,7 @@
-export default interface IRadius {
+export interface IRadius {
   none: number;
   circle: string;
   small: number;
   medium: number;
-  large: 8;
+  large: number;
 }

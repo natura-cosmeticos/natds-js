@@ -1,4 +1,4 @@
-import IRadius from './IRadius';
+import { IRadius } from './IRadius';
 
 export const radius: IRadius = {
   none: 0,
