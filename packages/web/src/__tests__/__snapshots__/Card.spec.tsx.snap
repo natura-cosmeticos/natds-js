@@ -275,8 +275,8 @@ exports[`Card components rendering variants should match to snapshot - with acti
                       <div
                         className="MuiCardActions-root MuiCardActions-spacing"
                       >
-                        <WithTheme(Button)>
-                          <Button>
+                        <WithTheme(Component)>
+                          <Component>
                             <WithStyles(ForwardRef(Button))>
                               <ForwardRef(Button)
                                 classes={
@@ -392,8 +392,8 @@ exports[`Card components rendering variants should match to snapshot - with acti
                                 </WithStyles(ForwardRef(ButtonBase))>
                               </ForwardRef(Button)>
                             </WithStyles(ForwardRef(Button))>
-                          </Button>
-                        </WithTheme(Button)>
+                          </Component>
+                        </WithTheme(Component)>
                       </div>
                     </ForwardRef(CardActions)>
                   </WithStyles(ForwardRef(CardActions))>
