@@ -1,6 +1,6 @@
-import IButtonSize from "./IButtonSize";
+import { IButtonSizes } from "./IButtonSizes";
 
-export const buttonSize: IButtonSize = {
+export const buttonSizes: IButtonSizes = {
   small: {
     paddingTop: 8,
     paddingRight: 8,

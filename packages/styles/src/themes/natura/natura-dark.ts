@@ -1,12 +1,12 @@
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
-import { fontSize } from "../../tokens/fontSize/fontSize";
-import { spacing } from "../../tokens/spacing/spacing";
-import { avatarSizes } from "../../tokens/avatarSizes/avatarSizes";
-import { buttonSize } from "../../tokens/buttonSize/buttonSize";
-import { elevation } from "../../tokens/elevation/elevation";
-import { iconSizes } from "../../tokens/iconSizes/iconSizes";
+import { fontSize } from "../../tokens/fontSize";
+import { spacing } from "../../tokens/spacing";
+import { avatarSizes } from "../../tokens/avatarSizes";
+import { buttonSizes } from "../../tokens/buttonSizes";
+import { elevation } from "../../tokens/elevation";
+import { iconSizes } from "../../tokens/iconSizes";
 
 const { natura } = tokens.colors;
 
@@ -16,7 +16,7 @@ export const naturaDark: ITheme = {
     badgeBorderRadius: 100
   },
   avatarSizes,
-  buttonSize,
+  buttonSizes,
   iconSizes,
   spacing: spacing.spacing,
   palette: {

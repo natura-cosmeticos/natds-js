@@ -54,7 +54,7 @@ export const Image = () => (
   <Avatar
     src={source.image}
     alt={text('alt', 'XD')}
-    size={select('size', sizes, sizes.tiny)}
+    size={select('size', sizes, sizes.xlarge)}
   />
 );
 

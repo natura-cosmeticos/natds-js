@@ -3,10 +3,10 @@ import { Button as PaperButton, withTheme } from 'react-native-paper';
 import { Surface, StyleProp, ViewStyle, TextStyle } from 'react-native';
 import { IconSource } from 'react-native-paper/lib/typescript/src/components/Icon';
 import { IThemeShape } from 'Provider/IThemeShape';
-import { IButtonSize } from '@naturacosmeticos/natds-styles';
+import { IButtonSizes } from '@naturacosmeticos/natds-styles';
 
 type ColorType = 'primary' | 'secondary' | 'default';
-type ButtonSize = 'small' | 'medium' | 'large';
+type ButtonSizes = 'small' | 'medium' | 'large';
 
 declare type ButtonProps = React.ComponentProps<typeof Surface> & {
   /**
@@ -72,7 +72,7 @@ declare type ButtonProps = React.ComponentProps<typeof Surface> & {
   /**
    * Default sizes (small, medium and large).
    */
-  size?: ButtonSize;
+  size?: ButtonSizes;
 };
 
 function elevationShadowStyle(elevation: number) {
@@ -85,11 +85,11 @@ function elevationShadowStyle(elevation: number) {
   };
 }
 
-function withSizes(size: ButtonSize | undefined = 'medium', theme: any) {
-  const { buttonSize }: { buttonSize: IButtonSize } = theme;
-  if (!buttonSize) return {};
+function withSizes(size: ButtonSizes | undefined = 'medium', theme: any) {
+  const { buttonSizes }: { buttonSizes: IButtonSizes } = theme;
+  if (!buttonSizes) return {};
 
-  return buttonSize[size];
+  return buttonSizes[size];
 }
 
 const Button: React.FunctionComponent<Omit<ButtonProps, 'height' | 'width'>> = (

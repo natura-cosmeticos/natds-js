@@ -1,4 +1,4 @@
-import IAvatarSizes from './IAvatarSizes';
+import { IAvatarSizes } from './IAvatarSizes';
 
 export const avatarSizes: IAvatarSizes = {
   tiny: {

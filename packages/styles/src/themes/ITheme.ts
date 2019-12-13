@@ -1,7 +1,7 @@
-import { fontSize } from "../tokens/fontSize/fontSize";
-import IAvatarSizes from "../tokens/avatarSizes/IAvatarSizes";
-import IIconSizes from "../tokens/iconSizes/IIconSizes";
-import IButtonSize from "tokens/buttonSize/IButtonSize";
+import { fontSize } from "../tokens/fontSize";
+import { IAvatarSizes } from "../tokens/avatarSizes/IAvatarSizes";
+import { IIconSizes } from "../tokens/iconSizes/IIconSizes";
+import { IButtonSizes } from "tokens/buttonSizes/IButtonSizes";
 import { IElevation } from "tokens/elevation/IElevation";
 
 type ITypography = {
@@ -88,7 +88,7 @@ export interface ITheme {
   typography: ITypography;
   avatarSizes: IAvatarSizes;
   iconSizes: IIconSizes;
-  buttonSize: IButtonSize;
+  buttonSizes: IButtonSizes;
   spacing: number;
   shadows: IElevation;
   overrides?: any;
