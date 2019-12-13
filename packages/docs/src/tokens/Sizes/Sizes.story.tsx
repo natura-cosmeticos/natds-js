@@ -1,8 +1,8 @@
 import * as React from 'react';
 
+import SizesScale from './Sizes.scale';
 import Table from '@addons/Table';
 import tokensParams from '../shared';
-
 import { tokens } from '@naturacosmeticos/natds-styles';
 
 const { sizes } = tokens;
@@ -35,3 +35,7 @@ export default {
     ...tokensParams
   }
 };
+
+export const Scale = () => (
+  <SizesScale sizes={sizes} />
+);
