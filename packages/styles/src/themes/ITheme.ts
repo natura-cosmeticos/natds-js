@@ -71,7 +71,7 @@ export interface ITheme {
     background?: {
       paper?: string;
       default?: string;
-      paperConstrastText?: string;
+      paperContrastText?: string;
       defaultContrastText?: string;
     };
     text?: {
@@ -82,7 +82,9 @@ export interface ITheme {
     };
     complementary?: {
       link?: string;
+      linkContrastText?: string;
       warning?: string;
+      warningContrastText?: string;
     };
   };
   typography: ITypography;

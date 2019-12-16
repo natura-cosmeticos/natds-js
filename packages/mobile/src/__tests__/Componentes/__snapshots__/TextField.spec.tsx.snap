@@ -2692,11 +2692,13 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
               "default": "#FFFFFF",
               "defaultContrastText": "#000000",
               "paper": "#FAFAFA",
-              "paperConstrastText": "#333333",
+              "paperContrastText": "#333333",
             },
             "complementary": Object {
               "link": "#227BBD",
+              "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
+              "warningContrastText": "#000000",
             },
             "error": Object {
               "contrastText": "#333333",
@@ -2715,6 +2717,7 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
               "main": "#FF6B0B",
             },
             "success": Object {
+              "contrastText": "#FFFFFF",
               "main": "#569A32",
             },
             "text": Object {

@@ -23,7 +23,7 @@
   "scripts": {
     "test:packages": "cd ../web && yarn test:unit:generate && cd ../mobile && yarn test:unit:generate",
     "build": "build-storybook -o dist --docs",
-    "start": "NODE_ENV=development start-storybook -p 5000",
+    "start": "start-storybook -p 5000",
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
     "deploy:local": "yarn deploy --dry-run",
     "lint": "tslint 'src/**/*.{ts,tsx}'",

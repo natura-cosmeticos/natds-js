@@ -44,7 +44,7 @@ export const naturaDark: ITheme = {
     background: {
       paper: natura.grayscale.colorBrdNatGray,
       default: natura.grayscale.colorBrdBlack,
-      paperConstrastText: natura.primary.colorBrdNatPrimaryWhite,
+      paperContrastText: natura.primary.colorBrdNatPrimaryWhite,
       defaultContrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     text: {
@@ -55,7 +55,9 @@ export const naturaDark: ITheme = {
     },
     complementary: {
       link: natura.complementary.colorBrdNatCpBlue1,
-      warning: natura.complementary.colorBrdNatCpOrange4
+      linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
+      warning: natura.complementary.colorBrdNatCpOrange4,
+      warningContrastText: natura.grayscale.colorBrdBlack
     }
   },
   typography: {
