@@ -7,6 +7,7 @@ import { avatarSizes } from "../../tokens/avatarSizes";
 import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
+import { sizes } from "../../tokens/sizes";
 
 const { natura } = tokens.colors;
 
@@ -15,6 +16,7 @@ export const naturaDark: ITheme = {
     borderRadius: tokens.radius.medium,
     badgeBorderRadius: 100
   },
+  sizes,
   avatarSizes,
   buttonSizes,
   iconSizes,

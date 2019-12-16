@@ -28,6 +28,6 @@ const sizes: any = Object.keys(tokens.iconSizes);
 export const Interactive = () => (
   <Icon
     name={select('Icon Name', icons, icons[0])}
-    size={select('Size', sizes, sizes[4])}
+    size={select('Size', sizes, sizes[3])}
   />
 );
