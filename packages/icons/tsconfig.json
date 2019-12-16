@@ -4,7 +4,12 @@
     "module": "commonjs",
     "moduleResolution": "node",
     "target": "es5",
-    "lib": ["es6", "es7", "es2017", "dom"],
+    "lib": [
+      "es6",
+      "es7",
+      "es2017",
+      "dom"
+    ],
     "sourceMap": true,
     "allowJs": false,
     "rootDir": "./src",
@@ -19,7 +24,8 @@
     "allowSyntheticDefaultImports": true,
     "experimentalDecorators": true,
     "skipLibCheck": true,
-    "resolveJsonModule": true
+    "resolveJsonModule": true,
+    "newLine": "lf"
   },
   "include": [
     "./src/index.ts",

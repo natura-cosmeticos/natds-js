@@ -58,16 +58,16 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
     ...rest
   } = props;
 
-  const theme: any = React.useMemo(() =>{
+  const theme: any = React.useMemo(() => {
     const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme));
     const parsedDefaulttheme = JSON.parse(JSON.stringify(createMuiTheme({})));
     return isEqual(parsedProviderTheme, parsedDefaulttheme)
       ? createMuiTheme(themes.natura.light)
       : providerTheme;
   },
-  [providerTheme]);
+    [providerTheme]);
 
-  const colorMap = React.useMemo(() =>{
+  const colorMap = React.useMemo(() => {
     const { primary, secondary, complementary, error, success, background, text } = theme.palette;
     return {
       primary: {
@@ -80,7 +80,7 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
       },
       info: {
         container: complementary.link,
-        text: background.default
+        text: complementary.linkContrastText
       },
       error: {
         container: error.main,
@@ -88,7 +88,7 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
       },
       warning: {
         container: complementary.warning,
-        text: primary.contrastText
+        text: complementary.warningContrastText
       },
       success: {
         container: success.main,
@@ -96,14 +96,14 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
       },
       light: {
         container: background.paper,
-        text: primary.contrastText
+        text: background.paperContrastText
       },
       dark: {
         container: text.disabled,
-        text: primary.contrastText
+        text: background.defaultContrastText
       }
     };
-  },[theme]);
+  }, [theme]);
 
   const fontMap = React.useMemo(() => {
     const { typography } = theme;
@@ -113,7 +113,7 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
       fontWeight: typography.caption.fontWeight,
       lineHeight: defaultValues.lineHeight
     };
-  },[theme]);
+  }, [theme]);
 
   const constraints = React.useMemo(() => {
     const { spacing, shape } = theme;
@@ -121,7 +121,7 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
       padding: `1px ${spacing()}px`,
       borderRadius: shape.badgeBorderRadius
     };
-  },[theme]);
+  }, [theme]);
 
   return (
     <Container

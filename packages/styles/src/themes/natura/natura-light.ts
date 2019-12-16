@@ -38,12 +38,13 @@ export const naturaLight: ITheme = {
       contrastText: natura.grayscale.colorBrdNatGray
     },
     success: {
-      main: natura.complementary.colorBrdNatCpGreen1
+      main: natura.complementary.colorBrdNatCpGreen1,
+      contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     background: {
       paper: "#FAFAFA",
       default: natura.primary.colorBrdNatPrimaryWhite,
-      paperConstrastText: natura.grayscale.colorBrdNatGray,
+      paperContrastText: natura.grayscale.colorBrdNatGray,
       defaultContrastText: natura.grayscale.colorBrdBlack
     },
     text: {
@@ -54,7 +55,9 @@ export const naturaLight: ITheme = {
     },
     complementary: {
       link: natura.complementary.colorBrdNatCpBlue1,
-      warning: natura.complementary.colorBrdNatCpOrange4
+      linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
+      warning: natura.complementary.colorBrdNatCpOrange4,
+      warningContrastText: natura.grayscale.colorBrdBlack
     }
   },
   typography: {

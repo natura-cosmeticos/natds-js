@@ -2562,7 +2562,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           "default": "#000000",
           "defaultContrastText": "#FFFFFF",
           "paper": "#333333",
-          "paperConstrastText": "#FFFFFF",
+          "paperContrastText": "#FFFFFF",
         },
         "common": Object {
           "black": "#000",
@@ -2570,7 +2570,9 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "contrastThreshold": 3,
         "divider": "rgba(0, 0, 0, 0.12)",
