@@ -3,6 +3,7 @@ import { IAvatarSizes } from "../tokens/avatarSizes/IAvatarSizes";
 import { IIconSizes } from "../tokens/iconSizes/IIconSizes";
 import { IButtonSizes } from "tokens/buttonSizes/IButtonSizes";
 import { IElevation } from "tokens/elevation/IElevation";
+import { ISizes } from "tokens/sizes/ISizes";
 
 type ITypography = {
   web: {
@@ -85,6 +86,7 @@ export interface ITheme {
       warning?: string;
     };
   };
+  sizes: ISizes;
   typography: ITypography;
   avatarSizes: IAvatarSizes;
   iconSizes: IIconSizes;
