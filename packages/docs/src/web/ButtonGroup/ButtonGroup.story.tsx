@@ -16,7 +16,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Button'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: ButtonGroupDocs
     }

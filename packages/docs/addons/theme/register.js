@@ -1,20 +1,20 @@
 import React from 'react';
-import { addons } from '@storybook/addons';
+import { addons, types } from '@storybook/addons';
 
 import { PANEL_ID, ADDON_ID, TITLE, PARAM_KEY } from './shared';
-import Theme from './theme';
+import Theme from './index';
 
 addons.register(ADDON_ID, (api) => {
-  addons.addPanel(PANEL_ID, {
+  addons.add(PANEL_ID, {
     title: TITLE,
+    type: types.TOOL,
     paramKey: PARAM_KEY,
-    render: ({ active, key }) => {
+    match: ({ viewMode }) => viewMode === 'story',
+    render: () => {
       return (
         <Theme
-          key={key}
           channel={addons.getChannel()}
           api={api}
-          active={active}
         />
       );
     }

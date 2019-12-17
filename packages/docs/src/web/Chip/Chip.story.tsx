@@ -15,7 +15,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Chip'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: ChipDocs
     }

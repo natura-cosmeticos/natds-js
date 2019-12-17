@@ -17,7 +17,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['IconButton'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: IconButtonDocs
     }
