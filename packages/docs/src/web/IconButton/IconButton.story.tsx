@@ -3,9 +3,10 @@ import { boolean, select } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 
-import { IconButton } from '@naturacosmeticos/natds-web';
+import { tokens } from '@naturacosmeticos/natds-styles';
+import { iconNames } from '@naturacosmeticos/natds-icons';
+import { IconButton, Icon } from '@naturacosmeticos/natds-web';
 import { PropTypes } from '@material-ui/core';
-import Delete from '@material-ui/icons/Delete';
 
 import IconButtonDocs from './IconButton.docs.mdx';
 
@@ -38,11 +39,17 @@ const sizes: any = {
   medium: 'medium'
 };
 
+const icons: any = Object.keys(iconNames);
+const iconSizes: any = Object.keys(tokens.iconSizes);
+
 export const Interactive = () => (
   <IconButton
     disabled={boolean('disabled', false)}
     color={select('Colors', colors, colors.primary)}
     size={select('Size', sizes, sizes.medium)}
-    children={<Delete />}
+    children={<Icon
+      name={select('Icon Name', icons, 'outlined-alert-check')}
+      size={select('Icon Size', iconSizes, iconSizes[2])}
+    />}
   />
 );
