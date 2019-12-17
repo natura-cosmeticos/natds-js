@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Typography as MaterialTypography } from '@material-ui/core';
 import { withTheme } from '@material-ui/styles';
-import { TypographyClassKey } from '@material-ui/core/Typography';
+import { TypographyClassKey, TypographyProps } from '@material-ui/core/Typography';
 
 type TypographyVariant =
   | 'h1'
@@ -29,7 +29,7 @@ type TypographyColor =
   | 'textSecondary'
   | 'error';
 
-export interface ITypographyProps {
+export interface ITypographyProps extends TypographyProps {
   /**
    * Variant to be used with the theme definitions for typography, defaulting to 'body1'
    */
@@ -68,18 +68,13 @@ export interface ITypographyProps {
   variantMapping?: object;
 }
 
-export const Typography: React.FunctionComponent<ITypographyProps> = (
-  props: ITypographyProps
+export const Typography: React.FunctionComponent<ITypographyProps> = React.forwardRef((
+  props: ITypographyProps,
+  ref: any
 ) => {
   const {
     variant = 'body1',
     align = 'inherit',
-    classes,
-    color,
-    noWrap = false,
-    component,
-    paragraph,
-    variantMapping,
     ...rest
   } = props;
 
@@ -87,17 +82,12 @@ export const Typography: React.FunctionComponent<ITypographyProps> = (
     <MaterialTypography
       variant={variant}
       align={align}
-      classes={classes}
-      color={color}
-      noWrap={noWrap}
-      component={component}
-      variantMapping={variantMapping}
-      paragraph={paragraph}
+      ref={ref}
       {...rest}
     >
       {props.children}
     </MaterialTypography>
   );
-};
+});
 
 export default withTheme(Typography);
