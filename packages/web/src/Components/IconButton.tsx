@@ -5,9 +5,7 @@ import MaterialIconButton, {
 } from '@material-ui/core/IconButton';
 export { IconButtonProps as IIconButtonProps } from '@material-ui/core/IconButton';
 
-export const IconButton: FunctionComponent<Omit<IIconButtonProps,'translate'>> = (
-  props: Omit<IIconButtonProps, 'translate'>
-) => {
+export const IconButton: FunctionComponent<IIconButtonProps> = (props: IIconButtonProps) => {
   return <MaterialIconButton {...props} />;
 };
 

@@ -1,6 +1,6 @@
 import { IconButton, Provider, themes } from '@naturacosmeticos/natds-web';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
-import { attributes, colors, sizes } from './sections';
+import { attributes, colors, sizes, custom } from './sections';
 
 # IconButton
 
@@ -34,12 +34,40 @@ import { attributes, colors, sizes } from './sections';
 ---
 ---
 
+## Custom
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={custom} />
+</Provider>
+
+---
+---
+
 ## API
 
 ```jsx highlight-line="2"
 import { IconButton } from '@naturacosmeticos/natds-web';
 
 <IconButton color="primary" children={Icon} />
+```
+
+
+#### You can easily make a Toggle implementation:
+```jsx highlight-line="2"
+const ToggleButton = () => {
+  const [selected, onToggle] = useState(false);
+  const children = selected
+    ? <Icon name="filled-alert-check" />
+    : <Icon name="outlined-alert-check" />;
+
+  return (
+    <IconButton
+      children={children}
+      color="primary"
+      onClick={() => onToggle(!selected)}
+    />
+  );
+};
 ```
 
 ---
