@@ -14,7 +14,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Fab'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: FabDocs
     }

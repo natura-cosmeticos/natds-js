@@ -13,7 +13,9 @@ export default {
   parameters: {
     jestImportPath: 'mobile',
     jest: ['Button'],
-    theme: 'mobile',
+    theme: {
+      context: 'mobile'
+    },
     docs: {
       page: ButtonDocs,
     },

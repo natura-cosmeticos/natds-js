@@ -13,7 +13,9 @@ export default {
   parameters: {
     jestImportPath: 'mobile',
     jest: ['Avatar'],
-    theme: 'mobile',
+    theme: {
+      context: 'mobile'
+    },
     docs: {
       page: AvatarDocs,
     },

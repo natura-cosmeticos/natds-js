@@ -33,7 +33,10 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Card'],
-    theme: 'web',
+    theme: {
+      context: 'web',
+      disableBackground: true
+    },
     docs: {
       page: CardDocs,
     },

@@ -13,7 +13,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['ContextualBadge'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: ContextualBadgeDocs
     }
