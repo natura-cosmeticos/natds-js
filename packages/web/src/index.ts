@@ -31,4 +31,5 @@ export { default as Paper, IPaperProps } from './Components/Paper';
 export { default as Radio, IRadioProps } from './Components/Radio';
 export { default as Switch, ISwitchProps } from './Components/Switch';
 export { default as TextField, ITextFieldProps } from './Components/TextField';
+export { default as ToggleButton, IToggleButtonProps } from './Components/ToggleButton';
 export { default as Typography, ITypographyProps } from './Components/Typography';

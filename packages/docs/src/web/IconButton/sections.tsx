@@ -1,21 +1,9 @@
 import React, { useState } from 'react';
-import { IconButton, Icon } from '@naturacosmeticos/natds-web';
+import { IconButton, Icon, ToggleButton } from '@naturacosmeticos/natds-web';
 
 const getIcon = (props: any = {}) => (
   <Icon name="outlined-alert-check" size="small" {...props} />
 );
-
-const ToggleButton = () => {
-  const [selected, onToggle] = useState(false);
-
-  return (
-    <IconButton
-      children={selected ? getIcon({ name: 'filled-alert-check' }) : getIcon({ name: 'outlined-alert-check' })}
-      color="primary"
-      onClick={() => onToggle(!selected)}
-    />
-  );
-};
 
 export const colors = [
   {
@@ -59,12 +47,5 @@ export const attributes = [
   {
     title: 'Disabled',
     component: <IconButton color="primary" children={getIcon()} disabled />
-  }
-];
-
-export const custom = [
-  {
-    title: 'Toggle',
-    component: <ToggleButton />
   }
 ];
