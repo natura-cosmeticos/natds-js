@@ -1,9 +1,10 @@
 #!/usr/bin/env node
 const fs = require('fs');
-const path = require('path');
 const SVGO = require('svgo');
+const glob = require("glob")
 
-const dirname = "./src/assets/";
+const INPUT = "./src/assets/raw/**/*.svg";
+const OUTPUT = "./src/assets/cleaned/";
 
 const svgo = new SVGO({
   plugins: [
@@ -44,26 +45,43 @@ const svgo = new SVGO({
   ]
 });
 
-function onFileReady(filepath, content) {
-  svgo.optimize(content, { path: filepath }).then(function ({ data }) {
-    fs.writeFile(filepath, data, function(err) { if(err) throw err; });
+function onError(err) {
+  if (err) {
+    console.log(err);
+    throw err;
+  }
+}
+
+function getName(path) {
+  const parts = path.split('/');
+  return parts[parts.length - 1];
+}
+
+function onFileReady(content, path) {
+  svgo.optimize(content, { path }).then(function ({ data }) {
+    const filename = getName(path);
+    fs.writeFile(OUTPUT + filename, data, onError);
   });
 }
 
-function readFiles(dirname, onFileReady) {
-  return fs.readdir(dirname, function (err, filenames) {
-    if (err) { throw err; }
+function readFiles() {
+  return glob(INPUT, function (error, filenames) {
+    if (error) {
+      console.error(error);
+      throw error;
+    }
 
-    filenames.forEach(function (filename) {
-      const filepath = dirname + filename;
+    filenames.forEach(function (filepath) {
+      fs.readFile(filepath, 'utf-8', function (error, content) {
+        if (error) {
+          console.error(error);
+          throw error;
+        }
 
-      fs.readFile(filepath, 'utf-8', function (err, content) {
-        if (err) { throw err; }
-
-        return onFileReady(filepath, content);
+        return onFileReady(content, filepath);
       });
     });
   });
 }
 
-readFiles(dirname, onFileReady);
+readFiles();

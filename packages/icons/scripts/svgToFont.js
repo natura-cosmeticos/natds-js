@@ -4,12 +4,12 @@ const fs = require('fs');
 
 const distMetada = './src/';
 const distFont = './src/fonts/';
-const files = './src/assets/**/*.svg';
+const files = './src/assets/cleaned/**/*.svg';
 const fontName = 'natds-icons';
 const types = ['eot', 'ttf', 'woff', 'woff2', 'svg'];
 
 function onError(error) {
-  if (error) throw error;
+  if (error) console.log(error);
 }
 
 function onSuccess(result) {

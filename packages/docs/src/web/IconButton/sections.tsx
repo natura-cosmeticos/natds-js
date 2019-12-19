@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { IconButton, Icon, ToggleButton } from '@naturacosmeticos/natds-web';
 
 const getIcon = (props: any = {}) => (
-  <Icon name="outlined-alert-check" size="small" {...props} />
+  <Icon name="outlined-action-check" size="small" {...props} />
 );
 
 export const colors = [
