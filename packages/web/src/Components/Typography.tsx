@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { Typography as MaterialTypography } from '@material-ui/core';
 import { withTheme } from '@material-ui/styles';
-import { TypographyClassKey, TypographyProps } from '@material-ui/core/Typography';
+import MaterialTypography, { TypographyClassKey, TypographyProps } from '@material-ui/core/Typography';
 
 type TypographyVariant =
   | 'h1'

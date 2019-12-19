@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { withTheme, createMuiTheme } from '@material-ui/core';
+import { withTheme, createMuiTheme } from '@material-ui/core/styles';
 import isEqual from 'lodash/isEqual';
 
 import { IThemeWeb, themes } from '../Themes';
