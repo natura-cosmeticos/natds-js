@@ -3,13 +3,13 @@ import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
 import { tokens } from '@naturacosmeticos/natds-styles';
 
-interface ICustomIcon {
+export interface ICustomIcon {
   theme: IThemeWeb | unknown;
   icon?: ComponentType | undefined;
   onIconPress?: () => (void);
 }
 
-const CustomIcon: FunctionComponent<ICustomIcon> = (props: ICustomIcon) => {
+export const CustomIcon: FunctionComponent<ICustomIcon> = (props: ICustomIcon) => {
   const { theme, icon, onIconPress } = props;
   const style = onIconPress ? { cursor: 'pointer' } : {};
 

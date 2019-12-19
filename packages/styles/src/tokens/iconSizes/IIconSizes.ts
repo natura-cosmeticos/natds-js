@@ -1,14 +1,13 @@
-export default interface IIconSizes {
+export interface IIconSizes {
   micro: number;
   tiny: number;
   small: number;
   standard: number;
   medium: number;
   large: number;
-  larger: number;
-  largest: number;
+  largex: number;
+  largexx: number;
   huge: number;
   hugex: number;
   hugexx: number;
-  hugexxx: number;
 }

@@ -3,7 +3,7 @@ import {
   ITheme,
   IFont,
 } from '@naturacosmeticos/natds-styles';
-import { createMuiTheme } from '@material-ui/core';
+import { createMuiTheme } from '@material-ui/core/styles';
 
 export interface IThemeWeb
   extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes' | 'shadows'> {

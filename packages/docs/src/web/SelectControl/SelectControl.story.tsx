@@ -14,7 +14,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Checkbox', 'Radio', 'Switch'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: SelectControlDocs,
     },

@@ -14,6 +14,10 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -30,12 +34,8 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -59,18 +59,17 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -102,14 +101,16 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -128,6 +129,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -154,6 +156,26 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -242,7 +264,19 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       },
     }
   }
-/>
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root MuiAvatar-fallback"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+    />
+  </svg>
+</div>
 `;
 
 exports[`Avatar component rendering avatars colors should match snapshot - Avatar Color primary: Avatar Color primary snapshot 1`] = `
@@ -260,6 +294,10 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -276,12 +314,8 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -305,18 +339,17 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -348,14 +381,16 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -374,6 +409,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -400,6 +436,26 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -488,7 +544,19 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       },
     }
   }
-/>
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root MuiAvatar-fallback"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+    />
+  </svg>
+</div>
 `;
 
 exports[`Avatar component rendering avatars colors should match snapshot - Avatar Color secondary: Avatar Color secondary snapshot 1`] = `
@@ -506,6 +574,10 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -522,12 +594,8 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -551,18 +619,17 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -594,14 +661,16 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -620,6 +689,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -646,6 +716,26 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -734,7 +824,299 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       },
     }
   }
-/>
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root MuiAvatar-fallback"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size huge: Avatar Size huge snapshot 1`] = `
+<div
+  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+  size="huge"
+  style={
+    Object {
+      "background": "#F4AB34",
+      "fontSize": "1.5rem",
+      "height": "80px",
+      "width": "80px",
+    }
+  }
+  theme={
+    Object {
+      "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
+        "large": Object {
+          "fontSize": "1rem",
+          "size": 48,
+        },
+        "small": Object {
+          "fontSize": ".875rem",
+          "size": 32,
+        },
+        "standard": Object {
+          "fontSize": "1rem",
+          "size": 40,
+        },
+        "tiny": Object {
+          "fontSize": ".625rem",
+          "size": 24,
+        },
+      },
+      "buttonSizes": Object {
+        "large": Object {
+          "minHeight": 48,
+          "paddingBottom": 16,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 16,
+        },
+        "medium": Object {
+          "minHeight": 40,
+          "paddingBottom": 12,
+          "paddingLeft": 16,
+          "paddingRight": 16,
+          "paddingTop": 12,
+        },
+        "small": Object {
+          "minHeight": 32,
+          "paddingBottom": 8,
+          "paddingLeft": 8,
+          "paddingRight": 8,
+          "paddingTop": 8,
+        },
+      },
+      "iconSizes": Object {
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
+        "micro": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
+      },
+      "overrides": Object {
+        "MuiAvatar": Object {
+          "colorDefault": Object {
+            "color": "#333333",
+          },
+        },
+        "MuiButton": Object {
+          "outlinedPrimary": Object {
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "40px",
+            "padding": "8px 16px",
+          },
+          "sizeLarge": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "48px",
+          },
+          "sizeSmall": Object {
+            "fontSize": "0.875rem",
+            "minHeight": "32px",
+          },
+        },
+      },
+      "palette": Object {
+        "background": Object {
+          "default": "#FAFAFA",
+          "defaultContrastText": "#000000",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
+        },
+        "complementary": Object {
+          "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
+          "warning": "#FCC433",
+          "warningContrastText": "#000000",
+        },
+        "error": Object {
+          "contrastText": "#333333",
+          "main": "#E74627",
+        },
+        "primary": Object {
+          "contrastText": "#333333",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
+          "main": "#F4AB34",
+        },
+        "secondary": Object {
+          "contrastText": "#000000",
+          "dark": "#FF6B0B",
+          "light": "#FFF8E1",
+          "main": "#FF6B0B",
+        },
+        "success": Object {
+          "contrastText": "#FFFFFF",
+          "main": "#569A32",
+        },
+        "text": Object {
+          "disabled": "#EEEEEE",
+          "hint": "#BBBBBB",
+          "primary": "#333333",
+          "secondary": "#777777",
+        },
+        "type": "light",
+      },
+      "shadows": Object {
+        "0": "none",
+        "1": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+        "12": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+        "16": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+        "2": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
+        "24": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+        "3": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+        "4": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+        "6": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+        "8": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+        "9": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+      },
+      "shape": Object {
+        "badgeBorderRadius": 100,
+        "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
+      },
+      "spacing": 8,
+      "typography": Object {
+        "android": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "body1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "body2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 400,
+        },
+        "button": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 600,
+        },
+        "caption": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "h1": Object {
+          "fontSize": "6rem",
+          "fontWeight": 300,
+        },
+        "h2": Object {
+          "fontSize": "3.75rem",
+          "fontWeight": 300,
+        },
+        "h3": Object {
+          "fontSize": "3rem",
+          "fontWeight": 400,
+        },
+        "h4": Object {
+          "fontSize": "2.125rem",
+          "fontWeight": 400,
+        },
+        "h5": Object {
+          "fontSize": "1.5rem",
+          "fontWeight": 400,
+        },
+        "h6": Object {
+          "fontSize": "1.25rem",
+          "fontWeight": 600,
+        },
+        "iOS": Object {
+          "fontFamily": "System",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+        "overline": Object {
+          "fontSize": "0.75rem",
+          "fontWeight": 400,
+        },
+        "subtitle1": Object {
+          "fontSize": "1rem",
+          "fontWeight": 400,
+        },
+        "subtitle2": Object {
+          "fontSize": "0.875rem",
+          "fontWeight": 500,
+        },
+        "web": Object {
+          "fontFamily": "\\"Roboto\\", sans-serif",
+          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+          "fontFamilyBrand3": undefined,
+          "fontWeightBold": 700,
+          "fontWeightLight": 300,
+          "fontWeightMedium": 500,
+          "fontWeightRegular": 400,
+        },
+      },
+    }
+  }
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root MuiAvatar-fallback"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+    />
+  </svg>
+</div>
 `;
 
 exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size large: Avatar Size large snapshot 1`] = `
@@ -752,6 +1134,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -768,12 +1154,8 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -797,18 +1179,17 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -840,14 +1221,16 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -866,6 +1249,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -892,6 +1276,26 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -980,7 +1384,19 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
     }
   }
-/>
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root MuiAvatar-fallback"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+    />
+  </svg>
+</div>
 `;
 
 exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size small: Avatar Size small snapshot 1`] = `
@@ -998,6 +1414,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -1014,12 +1434,8 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -1043,18 +1459,17 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -1086,14 +1501,16 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -1112,6 +1529,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -1138,6 +1556,26 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -1226,7 +1664,19 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
     }
   }
-/>
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root MuiAvatar-fallback"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+    />
+  </svg>
+</div>
 `;
 
 exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size standard: Avatar Size standard snapshot 1`] = `
@@ -1244,6 +1694,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -1260,12 +1714,8 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -1289,18 +1739,17 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -1332,14 +1781,16 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -1358,6 +1809,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -1384,6 +1836,26 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -1472,7 +1944,19 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
     }
   }
-/>
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root MuiAvatar-fallback"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+    />
+  </svg>
+</div>
 `;
 
 exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size tiny: Avatar Size tiny snapshot 1`] = `
@@ -1490,6 +1974,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -1506,12 +1994,8 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -1535,18 +2019,17 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -1578,14 +2061,16 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -1604,6 +2089,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -1630,6 +2116,26 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -1718,253 +2224,19 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
     }
   }
-/>
-`;
-
-exports[`Avatar component rendering avatars sizes should match snapshot - Avatar Size xlarge: Avatar Size xlarge snapshot 1`] = `
-<div
-  className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
-  size="xlarge"
-  style={
-    Object {
-      "background": "#F4AB34",
-      "fontSize": "1.5rem",
-      "height": "80px",
-      "width": "80px",
-    }
-  }
-  theme={
-    Object {
-      "avatarSizes": Object {
-        "large": Object {
-          "fontSize": "1rem",
-          "size": 48,
-        },
-        "small": Object {
-          "fontSize": ".875rem",
-          "size": 32,
-        },
-        "standard": Object {
-          "fontSize": "1rem",
-          "size": 40,
-        },
-        "tiny": Object {
-          "fontSize": ".625rem",
-          "size": 24,
-        },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
-      },
-      "buttonSize": Object {
-        "large": Object {
-          "minHeight": 48,
-          "paddingBottom": 16,
-          "paddingLeft": 16,
-          "paddingRight": 16,
-          "paddingTop": 16,
-        },
-        "medium": Object {
-          "minHeight": 40,
-          "paddingBottom": 12,
-          "paddingLeft": 16,
-          "paddingRight": 16,
-          "paddingTop": 12,
-        },
-        "small": Object {
-          "minHeight": 32,
-          "paddingBottom": 8,
-          "paddingLeft": 8,
-          "paddingRight": 8,
-          "paddingTop": 8,
-        },
-      },
-      "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
-        "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
-      },
-      "overrides": Object {
-        "MuiAvatar": Object {
-          "colorDefault": Object {
-            "color": "#333333",
-          },
-        },
-        "MuiButton": Object {
-          "outlinedPrimary": Object {
-            "color": "#333333",
-          },
-          "outlinedSecondary": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "fontSize": "0.875rem",
-            "minHeight": "40px",
-            "padding": "8px 16px",
-          },
-          "sizeLarge": Object {
-            "fontSize": "0.875rem",
-            "minHeight": "48px",
-          },
-          "sizeSmall": Object {
-            "fontSize": "0.875rem",
-            "minHeight": "32px",
-          },
-        },
-      },
-      "palette": Object {
-        "background": Object {
-          "default": "#FFFFFF",
-          "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
-        },
-        "complementary": Object {
-          "link": "#227BBD",
-          "warning": "#FCC433",
-        },
-        "error": Object {
-          "contrastText": "#333333",
-          "main": "#E74627",
-        },
-        "primary": Object {
-          "contrastText": "#333333",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
-          "main": "#F4AB34",
-        },
-        "secondary": Object {
-          "contrastText": "#000000",
-          "dark": "#FF6B0B",
-          "light": "#FFF8E1",
-          "main": "#FF6B0B",
-        },
-        "success": Object {
-          "main": "#569A32",
-        },
-        "text": Object {
-          "disabled": "#EEEEEE",
-          "hint": "#BBBBBB",
-          "primary": "#333333",
-          "secondary": "#777777",
-        },
-        "type": "light",
-      },
-      "shadows": Object {
-        "0": "none",
-        "1": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
-        "12": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
-        "16": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
-        "2": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
-        "24": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
-        "3": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
-        "4": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
-        "6": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
-        "8": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
-        "9": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
-      },
-      "shape": Object {
-        "badgeBorderRadius": 100,
-        "borderRadius": 4,
-      },
-      "spacing": 8,
-      "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
-        "body1": Object {
-          "fontSize": "1rem",
-          "fontWeight": 400,
-        },
-        "body2": Object {
-          "fontSize": "0.875rem",
-          "fontWeight": 400,
-        },
-        "button": Object {
-          "fontSize": "0.875rem",
-          "fontWeight": 600,
-        },
-        "caption": Object {
-          "fontSize": "0.75rem",
-          "fontWeight": 400,
-        },
-        "h1": Object {
-          "fontSize": "6rem",
-          "fontWeight": 300,
-        },
-        "h2": Object {
-          "fontSize": "3.75rem",
-          "fontWeight": 300,
-        },
-        "h3": Object {
-          "fontSize": "3rem",
-          "fontWeight": 400,
-        },
-        "h4": Object {
-          "fontSize": "2.125rem",
-          "fontWeight": 400,
-        },
-        "h5": Object {
-          "fontSize": "1.5rem",
-          "fontWeight": 400,
-        },
-        "h6": Object {
-          "fontSize": "1.25rem",
-          "fontWeight": 600,
-        },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
-        "overline": Object {
-          "fontSize": "0.75rem",
-          "fontWeight": 400,
-        },
-        "subtitle1": Object {
-          "fontSize": "1rem",
-          "fontWeight": 400,
-        },
-        "subtitle2": Object {
-          "fontSize": "0.875rem",
-          "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
-      },
-    }
-  }
-/>
+>
+  <svg
+    aria-hidden="true"
+    className="MuiSvgIcon-root MuiAvatar-fallback"
+    focusable="false"
+    role="presentation"
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 12c2.21 0 4-1.79 4-4s-1.79-4-4-4-4 1.79-4 4 1.79 4 4 4zm0 2c-2.67 0-8 1.34-8 4v2h16v-2c0-2.66-5.33-4-8-4z"
+    />
+  </svg>
+</div>
 `;
 
 exports[`Avatar component rendering avatars types should match snapshot - Avatar with icon: Avatar with icon snapshot 1`] = `

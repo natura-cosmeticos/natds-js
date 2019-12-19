@@ -11,7 +11,7 @@ const styles = {
   padding: '30px 50px'
 };
 
-const container = (story) => (
+const container = (story: any) => (
   <div style={styles}>
     {story()}
   </div>

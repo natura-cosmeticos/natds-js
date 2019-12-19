@@ -25,15 +25,32 @@ function getProvider(context) {
 
 const knobsChange = 'storybookjs/knobs/change';
 
+const backgroundStyles = {
+  boxShadow: 'rgba(255,255,255,.1) 0 0 0 1px inset',
+  position: 'fixed',
+  top: 0,
+  left: 0,
+  bottom: 0,
+  right: 0,
+  zIndex: 0
+}
+
+const storyStyles = {
+  position: 'relative',
+  zIndex: 1
+}
+
+const DEFAULT_BACKGROUND = "transparent";
+
 export const withTheme = makeDecorator({
   name: 'withTheme',
   parameterName: PARAM_KEY,
   skipIfNoParametersOrOptions: true,
   allowDeprecatedUsage: true,
-  wrapper: (getStory, context, { options, parameters }) => {
+  wrapper: (getStory, storyContext, { options, parameters }) => {
     const channel = addons.getChannel();
-    const platform = parameters || options;
-    const { provider: Provider, themes, defaultTheme } = getProvider(platform);
+    const { context, disableBackground } = parameters;
+    const { provider: Provider, themes, defaultTheme } = getProvider(context || options);
     const [theme, setTheme] = useState(defaultTheme);
 
     useEffect(() => {
@@ -51,9 +68,14 @@ export const withTheme = makeDecorator({
       }
     }, []);
 
+    const background = disableBackground
+      ? DEFAULT_BACKGROUND
+      : theme.palette.background.default;
+
     return (
       <Provider theme={theme}>
-        {getStory()}
+        <div style={storyStyles}>{getStory(storyContext)}</div>
+        <div style={{ ...backgroundStyles, background }} />
       </Provider>
     );
   },

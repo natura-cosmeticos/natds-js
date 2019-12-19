@@ -15,7 +15,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['GridContainer'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: GridDocs,
     },

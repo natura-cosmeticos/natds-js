@@ -23,7 +23,7 @@ export function buildTheme(
     typography,
     spacing,
     avatarSizes,
-    buttonSize,
+    buttonSizes,
   } = provider;
 
   const {
@@ -320,7 +320,7 @@ export function buildTheme(
       },
     },
     avatarSizes,
-    buttonSize,
+    buttonSizes,
     badgeBorderRadius: shape && shape.badgeBorderRadius ? shape.badgeBorderRadius : 100
   };
 

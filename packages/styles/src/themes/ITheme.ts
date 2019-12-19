@@ -1,8 +1,9 @@
-import { fontSize } from "../tokens/fontSize/fontSize";
-import IAvatarSizes from "../tokens/avatarSizes/IAvatarSizes";
-import IIconSizes from "../tokens/iconSizes/IIconSizes";
-import IButtonSize from "tokens/buttonSize/IButtonSize";
+import { fontSize } from "../tokens/fontSize";
+import { IAvatarSizes } from "../tokens/avatarSizes/IAvatarSizes";
+import { IIconSizes } from "../tokens/iconSizes/IIconSizes";
+import { IButtonSizes } from "tokens/buttonSizes/IButtonSizes";
 import { IElevation } from "tokens/elevation/IElevation";
+import { ISizes } from "tokens/sizes/ISizes";
 
 type ITypography = {
   web: {
@@ -71,7 +72,7 @@ export interface ITheme {
     background?: {
       paper?: string;
       default?: string;
-      paperConstrastText?: string;
+      paperContrastText?: string;
       defaultContrastText?: string;
     };
     text?: {
@@ -82,13 +83,16 @@ export interface ITheme {
     };
     complementary?: {
       link?: string;
+      linkContrastText?: string;
       warning?: string;
+      warningContrastText?: string;
     };
   };
+  sizes: ISizes;
   typography: ITypography;
   avatarSizes: IAvatarSizes;
   iconSizes: IIconSizes;
-  buttonSize: IButtonSize;
+  buttonSizes: IButtonSizes;
   spacing: number;
   shadows: IElevation;
   overrides?: any;

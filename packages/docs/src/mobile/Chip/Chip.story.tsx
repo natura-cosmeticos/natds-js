@@ -15,7 +15,9 @@ export default {
   parameters: {
     jestImportPath: 'mobile',
     jest: ['Chip'],
-    theme: 'mobile',
+    theme: {
+      context: 'mobile'
+    },
     docs: {
       page: ButtonDocs,
     },

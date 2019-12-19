@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Dialog components rendering variants should match to snapshot - Opened: Dialog opened snapshot 1`] = `
-<WithTheme(Dialog)
+<WithTheme(Component)
   open={true}
 >
-  <Dialog
+  <Component
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -346,7 +346,7 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     class="MuiDialog-root"
@@ -594,15 +594,15 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </Dialog>
-</WithTheme(Dialog)>
+  </Component>
+</WithTheme(Component)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with actions: Dialog with actions snapshot 1`] = `
-<WithTheme(Dialog)
+<WithTheme(Component)
   open={true}
 >
-  <Dialog
+  <Component
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -944,7 +944,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
@@ -1352,8 +1352,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                               className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(DialogContent)>
-                                <DialogContent>
+                              <WithTheme(Component)>
+                                <Component>
                                   <WithStyles(ForwardRef(DialogContent))>
                                     <ForwardRef(DialogContent)
                                       classes={
@@ -1366,8 +1366,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                       <div
                                         className="MuiDialogContent-root"
                                       >
-                                        <WithTheme(DialogContentText)>
-                                          <DialogContentText>
+                                        <WithTheme(Component)>
+                                          <Component>
                                             <WithStyles(ForwardRef(DialogContentText))>
                                               <ForwardRef(DialogContentText)
                                                 classes={
@@ -1434,15 +1434,15 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                                 </WithStyles(ForwardRef(Typography))>
                                               </ForwardRef(DialogContentText)>
                                             </WithStyles(ForwardRef(DialogContentText))>
-                                          </DialogContentText>
-                                        </WithTheme(DialogContentText)>
+                                          </Component>
+                                        </WithTheme(Component)>
                                       </div>
                                     </ForwardRef(DialogContent)>
                                   </WithStyles(ForwardRef(DialogContent))>
-                                </DialogContent>
-                              </WithTheme(DialogContent)>
-                              <WithTheme(DialogActions)>
-                                <DialogActions>
+                                </Component>
+                              </WithTheme(Component)>
+                              <WithTheme(Component)>
+                                <Component>
                                   <WithStyles(ForwardRef(DialogActions))>
                                     <ForwardRef(DialogActions)
                                       classes={
@@ -1455,8 +1455,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                       <div
                                         className="MuiDialogActions-root MuiDialogActions-spacing"
                                       >
-                                        <WithTheme(Button)>
-                                          <Button>
+                                        <WithTheme(Component)>
+                                          <Component>
                                             <WithStyles(ForwardRef(Button))>
                                               <ForwardRef(Button)
                                                 classes={
@@ -1572,13 +1572,13 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                                 </WithStyles(ForwardRef(ButtonBase))>
                                               </ForwardRef(Button)>
                                             </WithStyles(ForwardRef(Button))>
-                                          </Button>
-                                        </WithTheme(Button)>
+                                          </Component>
+                                        </WithTheme(Component)>
                                       </div>
                                     </ForwardRef(DialogActions)>
                                   </WithStyles(ForwardRef(DialogActions))>
-                                </DialogActions>
-                              </WithTheme(DialogActions)>
+                                </Component>
+                              </WithTheme(Component)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -1596,15 +1596,15 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </Dialog>
-</WithTheme(Dialog)>
+  </Component>
+</WithTheme(Component)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with content divider: Dialog with content divider snapshot 1`] = `
-<WithTheme(Dialog)
+<WithTheme(Component)
   open={true}
 >
-  <Dialog
+  <Component
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -1946,7 +1946,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
@@ -2422,8 +2422,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                               className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(DialogTitle)>
-                                <DialogTitle>
+                              <WithTheme(Component)>
+                                <Component>
                                   <WithStyles(ForwardRef(DialogTitle))>
                                     <ForwardRef(DialogTitle)
                                       classes={
@@ -2487,12 +2487,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       </div>
                                     </ForwardRef(DialogTitle)>
                                   </WithStyles(ForwardRef(DialogTitle))>
-                                </DialogTitle>
-                              </WithTheme(DialogTitle)>
-                              <WithTheme(DialogContent)
+                                </Component>
+                              </WithTheme(Component)>
+                              <WithTheme(Component)
                                 dividers={true}
                               >
-                                <DialogContent
+                                <Component
                                   dividers={true}
                                 >
                                   <WithStyles(ForwardRef(DialogContent))
@@ -2510,8 +2510,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       <div
                                         className="MuiDialogContent-root MuiDialogContent-dividers"
                                       >
-                                        <WithTheme(DialogContentText)>
-                                          <DialogContentText>
+                                        <WithTheme(Component)>
+                                          <Component>
                                             <WithStyles(ForwardRef(DialogContentText))>
                                               <ForwardRef(DialogContentText)
                                                 classes={
@@ -2578,15 +2578,15 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                 </WithStyles(ForwardRef(Typography))>
                                               </ForwardRef(DialogContentText)>
                                             </WithStyles(ForwardRef(DialogContentText))>
-                                          </DialogContentText>
-                                        </WithTheme(DialogContentText)>
+                                          </Component>
+                                        </WithTheme(Component)>
                                       </div>
                                     </ForwardRef(DialogContent)>
                                   </WithStyles(ForwardRef(DialogContent))>
-                                </DialogContent>
-                              </WithTheme(DialogContent)>
-                              <WithTheme(DialogActions)>
-                                <DialogActions>
+                                </Component>
+                              </WithTheme(Component)>
+                              <WithTheme(Component)>
+                                <Component>
                                   <WithStyles(ForwardRef(DialogActions))>
                                     <ForwardRef(DialogActions)
                                       classes={
@@ -2599,8 +2599,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       <div
                                         className="MuiDialogActions-root MuiDialogActions-spacing"
                                       >
-                                        <WithTheme(Button)>
-                                          <Button>
+                                        <WithTheme(Component)>
+                                          <Component>
                                             <WithStyles(ForwardRef(Button))>
                                               <ForwardRef(Button)
                                                 classes={
@@ -2716,13 +2716,13 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                 </WithStyles(ForwardRef(ButtonBase))>
                                               </ForwardRef(Button)>
                                             </WithStyles(ForwardRef(Button))>
-                                          </Button>
-                                        </WithTheme(Button)>
+                                          </Component>
+                                        </WithTheme(Component)>
                                       </div>
                                     </ForwardRef(DialogActions)>
                                   </WithStyles(ForwardRef(DialogActions))>
-                                </DialogActions>
-                              </WithTheme(DialogActions)>
+                                </Component>
+                              </WithTheme(Component)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -2740,15 +2740,15 @@ exports[`Dialog components rendering variants should match to snapshot - with co
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </Dialog>
-</WithTheme(Dialog)>
+  </Component>
+</WithTheme(Component)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with content text: Dialog with content text snapshot 1`] = `
-<WithTheme(Dialog)
+<WithTheme(Component)
   open={true}
 >
-  <Dialog
+  <Component
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -3090,7 +3090,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
@@ -3439,8 +3439,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                               className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(DialogContent)>
-                                <DialogContent>
+                              <WithTheme(Component)>
+                                <Component>
                                   <WithStyles(ForwardRef(DialogContent))>
                                     <ForwardRef(DialogContent)
                                       classes={
@@ -3453,8 +3453,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       <div
                                         className="MuiDialogContent-root"
                                       >
-                                        <WithTheme(DialogContentText)>
-                                          <DialogContentText>
+                                        <WithTheme(Component)>
+                                          <Component>
                                             <WithStyles(ForwardRef(DialogContentText))>
                                               <ForwardRef(DialogContentText)
                                                 classes={
@@ -3521,13 +3521,13 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                 </WithStyles(ForwardRef(Typography))>
                                               </ForwardRef(DialogContentText)>
                                             </WithStyles(ForwardRef(DialogContentText))>
-                                          </DialogContentText>
-                                        </WithTheme(DialogContentText)>
+                                          </Component>
+                                        </WithTheme(Component)>
                                       </div>
                                     </ForwardRef(DialogContent)>
                                   </WithStyles(ForwardRef(DialogContent))>
-                                </DialogContent>
-                              </WithTheme(DialogContent)>
+                                </Component>
+                              </WithTheme(Component)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -3545,15 +3545,15 @@ exports[`Dialog components rendering variants should match to snapshot - with co
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </Dialog>
-</WithTheme(Dialog)>
+  </Component>
+</WithTheme(Component)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with content: Dialog with content snapshot 1`] = `
-<WithTheme(Dialog)
+<WithTheme(Component)
   open={true}
 >
-  <Dialog
+  <Component
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -3895,7 +3895,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
@@ -4203,8 +4203,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                               className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(DialogContent)>
-                                <DialogContent>
+                              <WithTheme(Component)>
+                                <Component>
                                   <WithStyles(ForwardRef(DialogContent))>
                                     <ForwardRef(DialogContent)
                                       classes={
@@ -4221,8 +4221,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       </div>
                                     </ForwardRef(DialogContent)>
                                   </WithStyles(ForwardRef(DialogContent))>
-                                </DialogContent>
-                              </WithTheme(DialogContent)>
+                                </Component>
+                              </WithTheme(Component)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -4240,15 +4240,15 @@ exports[`Dialog components rendering variants should match to snapshot - with co
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </Dialog>
-</WithTheme(Dialog)>
+  </Component>
+</WithTheme(Component)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with title: Dialog with title snapshot 1`] = `
-<WithTheme(Dialog)
+<WithTheme(Component)
   open={true}
 >
-  <Dialog
+  <Component
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -4590,7 +4590,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
@@ -4861,8 +4861,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                               className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(DialogTitle)>
-                                <DialogTitle>
+                              <WithTheme(Component)>
+                                <Component>
                                   <WithStyles(ForwardRef(DialogTitle))>
                                     <ForwardRef(DialogTitle)
                                       classes={
@@ -4926,8 +4926,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                                       </div>
                                     </ForwardRef(DialogTitle)>
                                   </WithStyles(ForwardRef(DialogTitle))>
-                                </DialogTitle>
-                              </WithTheme(DialogTitle)>
+                                </Component>
+                              </WithTheme(Component)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -4945,6 +4945,6 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </Dialog>
-</WithTheme(Dialog)>
+  </Component>
+</WithTheme(Component)>
 `;

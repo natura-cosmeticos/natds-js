@@ -7,7 +7,9 @@ import { TypographyFontSize } from './TypographyFontSize';
 export default {
   title: 'Design Tokens|Typography',
   parameters: {
-    theme: 'web',
+    theme: {
+      context: 'mobile'
+    },
     ...tokensParams
   },
 };

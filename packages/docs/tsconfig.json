@@ -4,7 +4,13 @@
     "noEmit": false,
     "module": "commonjs",
     "target": "es5",
-    "lib": ["es5", "es6", "es7", "es2017", "dom"],
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "dom"
+    ],
     "sourceMap": true,
     "allowJs": true,
     "jsx": "react",
@@ -41,7 +47,10 @@
       "@addons/*": [
         "./addons/*"
       ]
-    }
+    },
+    "newLine": "lf"
   },
-  "exclude": ["node_modules"]
+  "exclude": [
+    "node_modules"
+  ]
 }

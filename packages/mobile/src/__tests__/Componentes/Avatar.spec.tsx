@@ -94,7 +94,7 @@ describe('Avatar', () => {
       expect(component).toMatchSnapshot('AvatarSize Large Avatar snapshot');
     });
 
-    test('should match to snapshot - AvatarSize XLarge', () => {
+    test('should match to snapshot - AvatarSize Huge', () => {
       const component = renderer
         .create(
           <Avatar
@@ -103,11 +103,11 @@ describe('Avatar', () => {
             icon=""
             source={{}}
             theme={mockTheme}
-            avatarSizes="xlarge"
+            avatarSizes="huge"
           />
         )
         .toJSON();
-      expect(component).toMatchSnapshot('AvatarSize XLarge Avatar snapshot');
+      expect(component).toMatchSnapshot('AvatarSize Huge Avatar snapshot');
     });
 
     test('should match to snapshot - AvatarSize No Theme', () => {

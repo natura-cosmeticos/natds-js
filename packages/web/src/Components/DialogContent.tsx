@@ -7,7 +7,7 @@ export {
   DialogContentProps as IDialogContentProps,
 } from '@material-ui/core/DialogContent';
 
-const DialogContent: FunctionComponent<IDialogContentProps> = (
+export const DialogContent: FunctionComponent<IDialogContentProps> = (
   props: IDialogContentProps
 ) => <MaterialDialogContent {...props} />;
 

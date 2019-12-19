@@ -3,7 +3,7 @@ import { withTheme } from '@material-ui/styles';
 import MaterialDialog, { DialogProps as IDialogProps } from '@material-ui/core/Dialog';
 export { DialogProps as IDialogProps } from '@material-ui/core/Dialog';
 
-const Dialog: FunctionComponent<IDialogProps> = (props: IDialogProps) => (
+export const Dialog: FunctionComponent<IDialogProps> = (props: IDialogProps) => (
   <MaterialDialog {...props} />
 );
 

@@ -15,7 +15,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Icon'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: IconDocs
     }
@@ -28,6 +30,6 @@ const sizes: any = Object.keys(tokens.iconSizes);
 export const Interactive = () => (
   <Icon
     name={select('Icon Name', icons, icons[0])}
-    size={select('Size', sizes, sizes[4])}
+    size={select('Size', sizes, sizes[3])}
   />
 );

@@ -13,7 +13,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Divider'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: DividerDocs,
     },

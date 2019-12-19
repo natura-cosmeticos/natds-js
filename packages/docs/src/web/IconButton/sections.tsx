@@ -1,40 +1,51 @@
-import React from 'react';
-import { IconButton } from '@naturacosmeticos/natds-web';
-import Favorite from '@material-ui/icons/Favorite';
+import React, { useState } from 'react';
+import { IconButton, Icon, ToggleButton } from '@naturacosmeticos/natds-web';
+
+const getIcon = (props: any = {}) => (
+  <Icon name="outlined-alert-check" size="small" {...props} />
+);
 
 export const colors = [
   {
     title: 'Enabled',
-    component: <IconButton color="primary" children={<Favorite />} />
+    component: <IconButton color="primary" children={getIcon()} />
   },
   {
     title: 'Disabled',
-    component: <IconButton color="secondary" children={<Favorite />} />
+    component: <IconButton color="secondary" children={getIcon()} />
   },
   {
     title: 'Start Icon',
-    component: <IconButton color="default" children={<Favorite />} />
+    component: <IconButton color="default" children={getIcon()} />
   }
 ];
 
 export const sizes = [
   {
-    title: 'Small',
-    component: <IconButton color="primary" size="small" children={<Favorite />} />
+    title: 'Small with tiny icon',
+    component: <IconButton color="primary" size="small" children={getIcon({ size: 'tiny' })} />
   },
   {
-    title: 'Medium',
-    component: <IconButton color="primary" size="medium" children={<Favorite />} />
+    title: 'Small with small icon',
+    component: <IconButton color="primary" size="small" children={getIcon()} />
+  },
+  {
+    title: 'Medium with small icon',
+    component: <IconButton color="primary" size="medium" children={getIcon()} />
+  },
+  {
+    title: 'Medium with standard icon',
+    component: <IconButton color="primary" size="medium" children={getIcon({ size: 'standard' })} />
   }
 ];
 
 export const attributes = [
   {
     title: 'Standard',
-    component: <IconButton color="primary" children={<Favorite />} />
+    component: <IconButton color="primary" children={getIcon()} />
   },
   {
     title: 'Disabled',
-    component: <IconButton color="primary" children={<Favorite />} disabled />
+    component: <IconButton color="primary" children={getIcon()} disabled />
   }
 ];
