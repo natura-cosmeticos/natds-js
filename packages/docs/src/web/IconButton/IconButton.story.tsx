@@ -11,7 +11,7 @@ import { PropTypes } from '@material-ui/core';
 import IconButtonDocs from './IconButton.docs.mdx';
 
 export default {
-  title: 'Web|IconButton',
+  title: 'Web|Buttons/IconButton',
   component: IconButton,
   decorators: [withJest(), withContainer],
   parameters: {
