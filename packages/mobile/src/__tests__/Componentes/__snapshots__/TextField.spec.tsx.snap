@@ -1129,7 +1129,7 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
           "colors": Object {
             "accent": "#FF6B0B",
             "backdrop": "rgba(0, 0, 0, 0.5)",
-            "background": "#FFFFFF",
+            "background": "#FAFAFA",
             "disabled": "#EEEEEE",
             "error": "#E74627",
             "link": "#227BBD",
@@ -1140,7 +1140,7 @@ exports[`TextField rendering should match to snapshot - No caption on theme snap
             "primary": "#F4AB34",
             "secondary": "#FF6B0B",
             "success": "#569A32",
-            "surface": "#FAFAFA",
+            "surface": "#FFFFFF",
             "text": "#333333",
             "textHint": "#BBBBBB",
             "textSecondary": "#777777",
@@ -2689,9 +2689,9 @@ exports[`TextField rendering should match to snapshot - Theme with missing prope
           },
           "palette": Object {
             "background": Object {
-              "default": "#FFFFFF",
+              "default": "#FAFAFA",
               "defaultContrastText": "#000000",
-              "paper": "#FAFAFA",
+              "paper": "#FFFFFF",
               "paperContrastText": "#333333",
             },
             "complementary": Object {
@@ -2907,7 +2907,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
             "colors": Object {
               "accent": "#FF6B0B",
               "backdrop": "rgba(0, 0, 0, 0.5)",
-              "background": "#FFFFFF",
+              "background": "#FAFAFA",
               "disabled": "#EEEEEE",
               "error": "#E74627",
               "link": "#227BBD",
@@ -2918,7 +2918,7 @@ exports[`TextField rendering should match to snapshot - With Provider: With Prov
               "primary": "#F4AB34",
               "secondary": "#FF6B0B",
               "success": "#569A32",
-              "surface": "#FAFAFA",
+              "surface": "#FFFFFF",
               "text": "#333333",
               "textHint": "#BBBBBB",
               "textSecondary": "#777777",

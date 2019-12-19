@@ -8,7 +8,7 @@ import { select, boolean, text } from '@storybook/addon-knobs';
 import FabDocs from './Fab.docs.mdx';
 
 export default {
-  title: 'Web|Fab',
+  title: 'Web|Buttons/Fab',
   component: Fab,
   decorators: [withJest(), withContainer],
   parameters: {

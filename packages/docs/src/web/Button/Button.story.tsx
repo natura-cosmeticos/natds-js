@@ -10,7 +10,7 @@ import { PropTypes } from '@material-ui/core';
 import ButtonDocs from './Button.docs.mdx';
 
 export default {
-  title: 'Web|Button',
+  title: 'Web|Buttons/Button',
   component: Button,
   decorators: [withJest(), withContainer],
   parameters: {

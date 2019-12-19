@@ -40,7 +40,7 @@ const storyStyles = {
   zIndex: 1
 }
 
-const DEFAULT_BACKGROUND = "#FAFAFA";
+const DEFAULT_BACKGROUND = "transparent";
 
 export const withTheme = makeDecorator({
   name: 'withTheme',
@@ -68,8 +68,9 @@ export const withTheme = makeDecorator({
       }
     }, []);
 
-    const { palette: { background: { paper } }} = theme;
-    const background = disableBackground ? DEFAULT_BACKGROUND : paper;
+    const background = disableBackground
+      ? DEFAULT_BACKGROUND
+      : theme.palette.background.default;
 
     return (
       <Provider theme={theme}>
