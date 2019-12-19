@@ -84,7 +84,7 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
       },
       error: {
         container: error.main,
-        text: background.default
+        text: error.contrastText
       },
       warning: {
         container: complementary.warning,
@@ -92,7 +92,7 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
       },
       success: {
         container: success.main,
-        text: background.default
+        text: success.contrastText
       },
       light: {
         container: background.paper,

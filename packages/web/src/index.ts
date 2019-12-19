@@ -29,6 +29,8 @@ export { default as Icon, IIconProps } from './Components/Icon';
 export { default as IconButton, IIconButtonProps } from './Components/IconButton';
 export { default as Paper, IPaperProps } from './Components/Paper';
 export { default as Radio, IRadioProps } from './Components/Radio';
+export { default as Snackbar, ISnackbarProps } from './Components/Snackbar';
+export { default as SnackbarContent, ISnackbarContentProps } from './Components/SnackbarContent';
 export { default as Switch, ISwitchProps } from './Components/Switch';
 export { default as TextField, ITextFieldProps } from './Components/TextField';
 export { default as ToggleButton, IToggleButtonProps } from './Components/ToggleButton';
