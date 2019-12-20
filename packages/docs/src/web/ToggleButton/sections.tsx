@@ -31,11 +31,11 @@ export const sizes = [
   },
   {
     title: 'Medium with small icon',
-    component: <ToggleButton color="primary" size="medium" iconOn={getIcon('filled-action-check')} iconOff={getIcon('outlined-action-check')} />
+    component: <ToggleButton color="primary" size="medium" iconOn={getIcon('filled-action-check', { size: 'tiny' })} iconOff={getIcon('outlined-action-check', { size: 'tiny' })} />
   },
   {
     title: 'Medium with standard icon',
-    component: <ToggleButton color="primary" size="medium" iconOn={getIcon('filled-action-check', { size: 'standard' })} iconOff={getIcon('outlined-action-check', { size: 'standard' })} />
+    component: <ToggleButton color="primary" size="medium" iconOn={getIcon('filled-action-check')} iconOff={getIcon('outlined-action-check')} />
   }
 ];
 

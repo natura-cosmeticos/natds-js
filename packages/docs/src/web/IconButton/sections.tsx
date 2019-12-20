@@ -31,11 +31,11 @@ export const sizes = [
   },
   {
     title: 'Medium with small icon',
-    component: <IconButton color="primary" size="medium" children={getIcon()} />
+    component: <IconButton color="primary" size="medium" children={getIcon({ size: 'tiny' })} />
   },
   {
     title: 'Medium with standard icon',
-    component: <IconButton color="primary" size="medium" children={getIcon({ size: 'standard' })} />
+    component: <IconButton color="primary" size="medium" children={getIcon()} />
   }
 ];
 
