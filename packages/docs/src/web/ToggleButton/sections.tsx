@@ -7,15 +7,15 @@ const getIcon = (name, props: any = {}) => (
 
 export const colors = [
   {
-    title: 'Enabled',
+    title: 'Primary',
     component: <ToggleButton color="primary" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
   },
   {
-    title: 'Disabled',
+    title: 'Secondary',
     component: <ToggleButton color="secondary" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
   },
   {
-    title: 'Start Icon',
+    title: 'Default',
     component: <ToggleButton color="default" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
   }
 ];
@@ -40,10 +40,6 @@ export const sizes = [
 ];
 
 export const attributes = [
-  {
-    title: 'Standard',
-    component: <ToggleButton color="primary" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
-  },
   {
     title: 'Disabled',
     component: <ToggleButton color="primary" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} disabled />

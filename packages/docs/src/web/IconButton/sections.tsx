@@ -7,15 +7,15 @@ const getIcon = (props: any = {}) => (
 
 export const colors = [
   {
-    title: 'Enabled',
+    title: 'Primary',
     component: <IconButton color="primary" children={getIcon()} />
   },
   {
-    title: 'Disabled',
+    title: 'Secondary',
     component: <IconButton color="secondary" children={getIcon()} />
   },
   {
-    title: 'Start Icon',
+    title: 'Default',
     component: <IconButton color="default" children={getIcon()} />
   }
 ];
@@ -40,10 +40,6 @@ export const sizes = [
 ];
 
 export const attributes = [
-  {
-    title: 'Standard',
-    component: <IconButton color="primary" children={getIcon()} />
-  },
   {
     title: 'Disabled',
     component: <IconButton color="primary" children={getIcon()} disabled />
