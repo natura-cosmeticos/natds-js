@@ -1,21 +1,19 @@
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
+import { BottomNavigation } from '@naturacosmeticos/natds-web';
 
-import { Snackbar } from '@naturacosmeticos/natds-web';
 export { Interactive } from './Interactive';
 
-import SnackbarDocs from './Snackbar.docs.mdx';
-
 export default {
-  title: 'Web|Snackbar',
-  component: Snackbar,
+  title: 'Web|BottomNavigation',
+  component: BottomNavigation,
   decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
-    jest: ['Snackbar', 'SnackbarContent'],
-    theme: 'web',
-    docs: {
-      page: SnackbarDocs
-    }
+    jest: ['BottomNavigation', 'BottomNavigationAction'],
+    theme: {
+      context: 'web'
+    },
   }
 };
+

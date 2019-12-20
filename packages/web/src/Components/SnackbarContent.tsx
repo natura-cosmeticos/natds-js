@@ -1,9 +1,10 @@
 import * as React from 'react';
-import isEqual from 'lodash/isEqual';
 import MaterialSnackbarContent, { SnackbarContentProps } from '@material-ui/core/SnackbarContent';
-import { withTheme, createMuiTheme, makeStyles } from '@material-ui/core/styles';
-import { IThemeWeb, themes } from '../Themes';
+import { withTheme, makeStyles } from '@material-ui/core/styles';
 import clsx from 'clsx';
+
+import { IThemeWeb } from '../Themes';
+import { getDefaultTheme } from './shared';
 
 type ISnackbarContentColors = 'default' | 'info' | 'warning' | 'error' | 'success' ;
 
@@ -29,11 +30,7 @@ export const SnackbarContent: React.FC<ISnackbarContentProps> = (props: ISnackba
   } = props;
 
   const theme: any = React.useMemo(() => {
-    const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme));
-    const parsedDefaulttheme = JSON.parse(JSON.stringify(createMuiTheme({})));
-    return isEqual(parsedProviderTheme, parsedDefaulttheme)
-      ? createMuiTheme(themes.natura.light)
-      : providerTheme;
+    return getDefaultTheme(providerTheme);
   }, [providerTheme]);
 
   const useStyles = React.useMemo(() => {

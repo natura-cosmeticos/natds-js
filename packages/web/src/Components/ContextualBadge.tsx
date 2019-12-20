@@ -1,9 +1,9 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { withTheme, createMuiTheme } from '@material-ui/core/styles';
-import isEqual from 'lodash/isEqual';
+import { withTheme } from '@material-ui/core/styles';
 
-import { IThemeWeb, themes } from '../Themes';
+import { IThemeWeb } from '../Themes';
+import { getDefaultTheme } from './shared';
 
 const defaultValues = {
   lineHeight: 16
@@ -59,11 +59,7 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
   } = props;
 
   const theme: any = React.useMemo(() => {
-    const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme));
-    const parsedDefaulttheme = JSON.parse(JSON.stringify(createMuiTheme({})));
-    return isEqual(parsedProviderTheme, parsedDefaulttheme)
-      ? createMuiTheme(themes.natura.light)
-      : providerTheme;
+    return getDefaultTheme(providerTheme);
   },
     [providerTheme]);
 
