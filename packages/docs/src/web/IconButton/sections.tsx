@@ -2,7 +2,7 @@ import React, { useState } from 'react';
 import { IconButton, Icon, ToggleButton } from '@naturacosmeticos/natds-web';
 
 const getIcon = (props: any = {}) => (
-  <Icon name="outlined-alert-check" size="small" {...props} />
+  <Icon name="outlined-action-check" size="small" {...props} />
 );
 
 export const colors = [
@@ -31,11 +31,11 @@ export const sizes = [
   },
   {
     title: 'Medium with small icon',
-    component: <IconButton color="primary" size="medium" children={getIcon()} />
+    component: <IconButton color="primary" size="medium" children={getIcon({ size: 'tiny' })} />
   },
   {
     title: 'Medium with standard icon',
-    component: <IconButton color="primary" size="medium" children={getIcon({ size: 'standard' })} />
+    component: <IconButton color="primary" size="medium" children={getIcon()} />
   }
 ];
 

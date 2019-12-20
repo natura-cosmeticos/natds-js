@@ -50,7 +50,7 @@ export const Interactive = () => (
     checked={boolean('Checked', false)}
     color={select('Colors', colors, colors.primary)}
     size={select('Size', sizes, sizes.medium)}
-    iconOn={<Icon name={select('Icon ON', icons, 'filled-alert-check')} size={select('Icon Size', iconSizes, iconSizes[2])} />}
-    iconOff={<Icon name={select('Icon OFF', icons, 'outlined-alert-check')} size={select('Icon Size', iconSizes, iconSizes[2])} />}
+    iconOn={<Icon name={select('Icon ON', icons, 'filled-action-check')} size={select('Icon Size', iconSizes, iconSizes[2])} />}
+    iconOff={<Icon name={select('Icon OFF', icons, 'outlined-action-check')} size={select('Icon Size', iconSizes, iconSizes[2])} />}
   />
 );
