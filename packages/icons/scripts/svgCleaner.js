@@ -8,7 +8,7 @@ const OUTPUT = "./src/assets/cleaned/";
 
 const svgo = new SVGO({
   plugins: [
-    { cleanupAttrs: true },
+    { cleanupAttrs: true, },
     { removeDoctype: true },
     { removeXMLProcInst: true },
     { removeComments: true },
@@ -36,14 +36,15 @@ const svgo = new SVGO({
     { moveElemsAttrsToGroup: true },
     { moveGroupAttrsToElems: true },
     { collapseGroups: true },
-    { removeRasterImages: true },
-    { mergePaths: true },
+    { removeRasterImages: false },
+    { mergePaths: { noSpaceAfterFlags: false } },
     { convertShapeToPath: true },
     { sortAttrs: true },
     { removeDimensions: true },
-    { removeAttrs: { attrs: '(stroke|fill)' }}
+    { removeAttrs: { attrs: '(stroke|fill)' } }
   ]
 });
+
 
 function onError(err) {
   if (err) {
