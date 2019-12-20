@@ -37,7 +37,7 @@ export const naturaLight: ITheme = {
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     success: {
       main: natura.complementary.colorBrdNatCpGreen1,

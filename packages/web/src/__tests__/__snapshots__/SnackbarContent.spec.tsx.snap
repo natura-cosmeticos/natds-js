@@ -1,0 +1,78 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`SnackbarContent Component Rendering should match to snapshot - SnackbarContent default with colors: SnackbarContent color default snapshot 1`] = `
+<div
+  className="MuiTypography-root MuiPaper-root MuiPaper-elevation6 MuiSnackbarContent-root makeStyles-default-131 MuiTypography-body2"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  />
+</div>
+`;
+
+exports[`SnackbarContent Component Rendering should match to snapshot - SnackbarContent default with colors: SnackbarContent color error snapshot 1`] = `
+<div
+  className="MuiTypography-root MuiPaper-root MuiPaper-elevation6 MuiSnackbarContent-root makeStyles-error-199 MuiTypography-body2"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  />
+</div>
+`;
+
+exports[`SnackbarContent Component Rendering should match to snapshot - SnackbarContent default with colors: SnackbarContent color info snapshot 1`] = `
+<div
+  className="MuiTypography-root MuiPaper-root MuiPaper-elevation6 MuiSnackbarContent-root makeStyles-info-327 MuiTypography-body2"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  />
+</div>
+`;
+
+exports[`SnackbarContent Component Rendering should match to snapshot - SnackbarContent default with colors: SnackbarContent color success snapshot 1`] = `
+<div
+  className="MuiTypography-root MuiPaper-root MuiPaper-elevation6 MuiSnackbarContent-root makeStyles-success-265 MuiTypography-body2"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  />
+</div>
+`;
+
+exports[`SnackbarContent Component Rendering should match to snapshot - SnackbarContent default with colors: SnackbarContent color warning snapshot 1`] = `
+<div
+  className="MuiTypography-root MuiPaper-root MuiPaper-elevation6 MuiSnackbarContent-root makeStyles-warning-393 MuiTypography-body2"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  />
+</div>
+`;
+
+exports[`SnackbarContent Component Rendering should match to snapshot - SnackbarContent default with custom theme: SnackbarContent default with custom theme snapshot 1`] = `
+<div
+  className="MuiTypography-root MuiPaper-root MuiPaper-elevation6 MuiSnackbarContent-root makeStyles-default-66 MuiTypography-body2"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  />
+</div>
+`;
+
+exports[`SnackbarContent Component Rendering should match to snapshot - SnackbarContent default: SnackbarContent default snapshot 1`] = `
+<div
+  className="MuiTypography-root MuiPaper-root MuiPaper-elevation6 MuiSnackbarContent-root makeStyles-default-1 MuiTypography-body2"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  />
+</div>
+`;
