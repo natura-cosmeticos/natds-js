@@ -1,4 +1,4 @@
-export default interface IButtonSize {
+export interface IButtonSizes {
   small: IButtonProperties;
   medium: IButtonProperties;
   large: IButtonProperties;

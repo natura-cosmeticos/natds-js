@@ -15,7 +15,7 @@ function buildConfig(type: string) {
 
   return list.map((name: any) => ({
     title: name,
-    component: <Icon name={name} />
+    component: <Icon name={name} size="small" />
   }));
 }
 

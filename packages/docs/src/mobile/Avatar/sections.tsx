@@ -73,14 +73,14 @@ export const sizes = [
     ),
   },
   {
-    title: 'Xlarge',
+    title: 'Huge',
     component: (
       <Avatar
         type="image"
         label=""
         icon=""
         source={require('../../assets/images/1.png')}
-        avatarSizes="xlarge"
+        avatarSizes="huge"
       />
     ),
   },

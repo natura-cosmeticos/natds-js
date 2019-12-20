@@ -60,12 +60,12 @@
     ]
   },
   "devDependencies": {
-    "commitizen": "4.0.3",
+    "commitizen": "^4.0.3",
     "concurrently": "^5.0.0",
-    "cz-lerna-changelog": "2.0.2",
-    "husky": "3.0.9",
-    "lerna": "3.18.4",
-    "semantic-release": "15.13.30"
+    "cz-lerna-changelog": "^2.0.2",
+    "husky": "^3.1.0",
+    "lerna": "^3.19.0",
+    "semantic-release": "^15.13.31"
   },
   "config": {
     "commitizen": {

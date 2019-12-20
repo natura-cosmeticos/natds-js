@@ -390,7 +390,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default focus): TextField default focus snapshot 1`] = `
-<TextField
+<Component
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -398,6 +398,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -414,12 +418,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -443,18 +443,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -486,14 +485,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -512,6 +513,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -538,6 +540,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -630,7 +652,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default hover): TextField default hover snapshot 1`] = `
-<TextField
+<Component
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -638,6 +660,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -654,12 +680,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -683,18 +705,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -726,14 +747,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -752,6 +775,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -778,6 +802,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -1328,7 +1372,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled focus): TextField disabled focus snapshot 1`] = `
-<TextField
+<Component
   disabled={true}
   helpText="Assistive text"
   id="field"
@@ -1337,6 +1381,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -1353,12 +1401,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -1382,18 +1426,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -1425,14 +1468,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -1451,6 +1496,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -1477,6 +1523,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -1569,7 +1635,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled hover): TextField disabled hover snapshot 1`] = `
-<TextField
+<Component
   disabled={true}
   helpText="Assistive text"
   id="field"
@@ -1578,6 +1644,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -1594,12 +1664,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -1623,18 +1689,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -1666,14 +1731,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -1692,6 +1759,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -1718,6 +1786,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -1973,7 +2061,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error focus): TextField error focus snapshot 1`] = `
-<TextField
+<Component
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -1982,6 +2070,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -1998,12 +2090,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -2027,18 +2115,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -2070,14 +2157,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -2096,6 +2185,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -2122,6 +2212,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -2214,7 +2324,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error hover): TextField error hover snapshot 1`] = `
-<TextField
+<Component
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -2223,6 +2333,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -2239,12 +2353,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -2268,18 +2378,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -2311,14 +2420,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -2337,6 +2448,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -2363,6 +2475,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -2626,6 +2758,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
       theme={
         Object {
           "avatarSizes": Object {
+            "huge": Object {
+              "fontSize": "1.5rem",
+              "size": 80,
+            },
             "large": Object {
               "fontSize": "1rem",
               "size": 48,
@@ -2642,12 +2778,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": ".625rem",
               "size": 24,
             },
-            "xlarge": Object {
-              "fontSize": "1.5rem",
-              "size": 80,
-            },
           },
-          "buttonSize": Object {
+          "buttonSizes": Object {
             "large": Object {
               "minHeight": 48,
               "paddingBottom": 16,
@@ -2671,18 +2803,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
           "iconSizes": Object {
-            "huge": 128,
-            "hugex": 144,
-            "hugexx": 192,
-            "hugexxx": 256,
-            "large": 64,
-            "larger": 72,
-            "largest": 96,
-            "medium": 48,
+            "huge": 144,
+            "hugex": 192,
+            "hugexx": 256,
+            "large": 72,
+            "largex": 96,
+            "largexx": 128,
+            "medium": 64,
             "micro": 16,
-            "small": 24,
-            "standard": 32,
-            "tiny": 16,
+            "small": 32,
+            "standard": 48,
+            "tiny": 24,
           },
           "overrides": Object {
             "MuiAvatar": Object {
@@ -2714,14 +2845,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "background": Object {
-              "default": "#FFFFFF",
+              "default": "#FAFAFA",
               "defaultContrastText": "#000000",
-              "paper": "#FAFAFA",
-              "paperConstrastText": "#333333",
+              "paper": "#FFFFFF",
+              "paperContrastText": "#333333",
             },
             "complementary": Object {
               "link": "#227BBD",
+              "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
+              "warningContrastText": "#000000",
             },
             "error": Object {
               "contrastText": "#333333",
@@ -2740,6 +2873,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "main": "#FF6B0B",
             },
             "success": Object {
+              "contrastText": "#FFFFFF",
               "main": "#569A32",
             },
             "text": Object {
@@ -2766,6 +2900,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "shape": Object {
             "badgeBorderRadius": 100,
             "borderRadius": 4,
+          },
+          "sizes": Object {
+            "huge": 96,
+            "hugex": 128,
+            "hugexx": 144,
+            "hugexxx": 192,
+            "large": 64,
+            "largex": 72,
+            "largexx": 80,
+            "largexxx": 88,
+            "medium": 48,
+            "mediumx": 56,
+            "micro": 4,
+            "none": 0,
+            "semi": 32,
+            "semix": 40,
+            "small": 16,
+            "standard": 24,
+            "tiny": 8,
+            "veryhuge": 256,
           },
           "spacing": 8,
           "typography": Object {
@@ -2866,7 +3020,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled focus): TextField filled focus snapshot 1`] = `
-<TextField
+<Component
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -2874,6 +3028,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -2890,12 +3048,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -2919,18 +3073,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -2962,14 +3115,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -2988,6 +3143,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -3014,6 +3170,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -3107,7 +3283,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled hover): TextField filled hover snapshot 1`] = `
-<TextField
+<Component
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -3115,6 +3291,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -3131,12 +3311,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -3160,18 +3336,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -3203,14 +3378,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -3229,6 +3406,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -3255,6 +3433,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -3683,6 +3881,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
       theme={
         Object {
           "avatarSizes": Object {
+            "huge": Object {
+              "fontSize": "1.5rem",
+              "size": 80,
+            },
             "large": Object {
               "fontSize": "1rem",
               "size": 48,
@@ -3699,12 +3901,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": ".625rem",
               "size": 24,
             },
-            "xlarge": Object {
-              "fontSize": "1.5rem",
-              "size": 80,
-            },
           },
-          "buttonSize": Object {
+          "buttonSizes": Object {
             "large": Object {
               "minHeight": 48,
               "paddingBottom": 16,
@@ -3728,18 +3926,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
           "iconSizes": Object {
-            "huge": 128,
-            "hugex": 144,
-            "hugexx": 192,
-            "hugexxx": 256,
-            "large": 64,
-            "larger": 72,
-            "largest": 96,
-            "medium": 48,
+            "huge": 144,
+            "hugex": 192,
+            "hugexx": 256,
+            "large": 72,
+            "largex": 96,
+            "largexx": 128,
+            "medium": 64,
             "micro": 16,
-            "small": 24,
-            "standard": 32,
-            "tiny": 16,
+            "small": 32,
+            "standard": 48,
+            "tiny": 24,
           },
           "overrides": Object {
             "MuiAvatar": Object {
@@ -3771,14 +3968,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "background": Object {
-              "default": "#FFFFFF",
+              "default": "#FAFAFA",
               "defaultContrastText": "#000000",
-              "paper": "#FAFAFA",
-              "paperConstrastText": "#333333",
+              "paper": "#FFFFFF",
+              "paperContrastText": "#333333",
             },
             "complementary": Object {
               "link": "#227BBD",
+              "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
+              "warningContrastText": "#000000",
             },
             "error": Object {
               "contrastText": "#333333",
@@ -3797,6 +3996,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "main": "#FF6B0B",
             },
             "success": Object {
+              "contrastText": "#FFFFFF",
               "main": "#569A32",
             },
             "text": Object {
@@ -3823,6 +4023,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "shape": Object {
             "badgeBorderRadius": 100,
             "borderRadius": 4,
+          },
+          "sizes": Object {
+            "huge": 96,
+            "hugex": 128,
+            "hugexx": 144,
+            "hugexxx": 192,
+            "large": 64,
+            "largex": 72,
+            "largexx": 80,
+            "largexxx": 88,
+            "medium": 48,
+            "mediumx": 56,
+            "micro": 4,
+            "none": 0,
+            "semi": 32,
+            "semix": 40,
+            "small": 16,
+            "standard": 24,
+            "tiny": 8,
+            "veryhuge": 256,
           },
           "spacing": 8,
           "typography": Object {
@@ -4562,7 +4782,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success focus): TextField success focus snapshot 1`] = `
-<TextField
+<Component
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -4571,6 +4791,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -4587,12 +4811,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -4616,18 +4836,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -4659,14 +4878,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -4685,6 +4906,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -4711,6 +4933,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -4803,7 +5045,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success hover): TextField success hover snapshot 1`] = `
-<TextField
+<Component
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -4812,6 +5054,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
   theme={
     Object {
       "avatarSizes": Object {
+        "huge": Object {
+          "fontSize": "1.5rem",
+          "size": 80,
+        },
         "large": Object {
           "fontSize": "1rem",
           "size": 48,
@@ -4828,12 +5074,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": ".625rem",
           "size": 24,
         },
-        "xlarge": Object {
-          "fontSize": "1.5rem",
-          "size": 80,
-        },
       },
-      "buttonSize": Object {
+      "buttonSizes": Object {
         "large": Object {
           "minHeight": 48,
           "paddingBottom": 16,
@@ -4857,18 +5099,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
       },
       "iconSizes": Object {
-        "huge": 128,
-        "hugex": 144,
-        "hugexx": 192,
-        "hugexxx": 256,
-        "large": 64,
-        "larger": 72,
-        "largest": 96,
-        "medium": 48,
+        "huge": 144,
+        "hugex": 192,
+        "hugexx": 256,
+        "large": 72,
+        "largex": 96,
+        "largexx": 128,
+        "medium": 64,
         "micro": 16,
-        "small": 24,
-        "standard": 32,
-        "tiny": 16,
+        "small": 32,
+        "standard": 48,
+        "tiny": 24,
       },
       "overrides": Object {
         "MuiAvatar": Object {
@@ -4900,14 +5141,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "background": Object {
-          "default": "#FFFFFF",
+          "default": "#FAFAFA",
           "defaultContrastText": "#000000",
-          "paper": "#FAFAFA",
-          "paperConstrastText": "#333333",
+          "paper": "#FFFFFF",
+          "paperContrastText": "#333333",
         },
         "complementary": Object {
           "link": "#227BBD",
+          "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
+          "warningContrastText": "#000000",
         },
         "error": Object {
           "contrastText": "#333333",
@@ -4926,6 +5169,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#FF6B0B",
         },
         "success": Object {
+          "contrastText": "#FFFFFF",
           "main": "#569A32",
         },
         "text": Object {
@@ -4952,6 +5196,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
       "shape": Object {
         "badgeBorderRadius": 100,
         "borderRadius": 4,
+      },
+      "sizes": Object {
+        "huge": 96,
+        "hugex": 128,
+        "hugexx": 144,
+        "hugexxx": 192,
+        "large": 64,
+        "largex": 72,
+        "largexx": 80,
+        "largexxx": 88,
+        "medium": 48,
+        "mediumx": 56,
+        "micro": 4,
+        "none": 0,
+        "semi": 32,
+        "semix": 40,
+        "small": 16,
+        "standard": 24,
+        "tiny": 8,
+        "veryhuge": 256,
       },
       "spacing": 8,
       "typography": Object {
@@ -5215,6 +5479,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
       theme={
         Object {
           "avatarSizes": Object {
+            "huge": Object {
+              "fontSize": "1.5rem",
+              "size": 80,
+            },
             "large": Object {
               "fontSize": "1rem",
               "size": 48,
@@ -5231,12 +5499,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": ".625rem",
               "size": 24,
             },
-            "xlarge": Object {
-              "fontSize": "1.5rem",
-              "size": 80,
-            },
           },
-          "buttonSize": Object {
+          "buttonSizes": Object {
             "large": Object {
               "minHeight": 48,
               "paddingBottom": 16,
@@ -5260,18 +5524,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
           "iconSizes": Object {
-            "huge": 128,
-            "hugex": 144,
-            "hugexx": 192,
-            "hugexxx": 256,
-            "large": 64,
-            "larger": 72,
-            "largest": 96,
-            "medium": 48,
+            "huge": 144,
+            "hugex": 192,
+            "hugexx": 256,
+            "large": 72,
+            "largex": 96,
+            "largexx": 128,
+            "medium": 64,
             "micro": 16,
-            "small": 24,
-            "standard": 32,
-            "tiny": 16,
+            "small": 32,
+            "standard": 48,
+            "tiny": 24,
           },
           "overrides": Object {
             "MuiAvatar": Object {
@@ -5303,14 +5566,16 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "background": Object {
-              "default": "#FFFFFF",
+              "default": "#FAFAFA",
               "defaultContrastText": "#000000",
-              "paper": "#FAFAFA",
-              "paperConstrastText": "#333333",
+              "paper": "#FFFFFF",
+              "paperContrastText": "#333333",
             },
             "complementary": Object {
               "link": "#227BBD",
+              "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
+              "warningContrastText": "#000000",
             },
             "error": Object {
               "contrastText": "#333333",
@@ -5329,6 +5594,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "main": "#FF6B0B",
             },
             "success": Object {
+              "contrastText": "#FFFFFF",
               "main": "#569A32",
             },
             "text": Object {
@@ -5355,6 +5621,26 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "shape": Object {
             "badgeBorderRadius": 100,
             "borderRadius": 4,
+          },
+          "sizes": Object {
+            "huge": 96,
+            "hugex": 128,
+            "hugexx": 144,
+            "hugexxx": 192,
+            "large": 64,
+            "largex": 72,
+            "largexx": 80,
+            "largexxx": 88,
+            "medium": 48,
+            "mediumx": 56,
+            "micro": 4,
+            "none": 0,
+            "semi": 32,
+            "semix": 40,
+            "small": 16,
+            "standard": 24,
+            "tiny": 8,
+            "veryhuge": 256,
           },
           "spacing": 8,
           "typography": Object {

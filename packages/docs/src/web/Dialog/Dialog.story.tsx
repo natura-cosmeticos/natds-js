@@ -21,7 +21,9 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Dialog'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: DialogDocs,
     },

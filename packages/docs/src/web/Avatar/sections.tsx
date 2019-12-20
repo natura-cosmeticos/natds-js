@@ -35,7 +35,7 @@ export const sizes = [
     component: <Avatar src={require('../../assets/images/1.png')} size="large" />
   },
   {
-    title: 'XLarge',
-    component: <Avatar src={require('../../assets/images/1.png')} size="xlarge" />
+    title: 'Huge',
+    component: <Avatar src={require('../../assets/images/1.png')} size="huge" />
   }
 ];

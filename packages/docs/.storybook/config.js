@@ -4,9 +4,9 @@ import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { withKnobs } from '@storybook/addon-knobs';
 import { withA11y } from '@storybook/addon-a11y';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
-import { themes } from '@storybook/theming';
 import { withTheme } from '../addons/theme/provider';
 import StorybookTheme from './theme';
+import { themes } from '@naturacosmeticos/natds-styles';
 
 addParameters({
   options: {
@@ -26,19 +26,19 @@ addParameters({
   viewport: {
     viewports: INITIAL_VIEWPORTS
   },
-  backgrounds: [
-    { name: 'light', value: '#fafafa' },
-    { name: 'dark', value: '#242424' }
-  ]
+  theme: {
+    themes
+  },
 });
 
-addDecorator(withA11y);
 addDecorator(withTheme);
+addDecorator(withA11y);
 addDecorator(withKnobs);
 
 const tokens = require.context('../src/tokens', true, /\.story.(ts|md)x?$/);
+const documentation = require.context('../src/documentation', true, /\.story.(ts|md)x?$/);
 const web = require.context('../src/web', true, /\.story.(ts|md)x?$/);
 const mobile = require.context('../src/mobile', true, /\.story.(ts|md)x?$/);
 const icons = require.context('../src/icons', true, /\.story.(ts|md)x?$/);
 
-configure([tokens, icons, web, mobile], module);
+configure([tokens, documentation, icons, web, mobile], module);

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import styled from 'styled-components';
-import { withTheme, createMuiTheme } from '@material-ui/core';
+import { withTheme, createMuiTheme } from '@material-ui/core/styles';
 import isEqual from 'lodash/isEqual';
 
 import { IThemeWeb, themes } from '../Themes';
@@ -47,7 +47,7 @@ export interface IContextualBadgeProps {
   children?: React.ReactNode;
 }
 
-const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: IContextualBadgeProps) => {
+export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: IContextualBadgeProps) => {
   const {
     theme: providerTheme,
     color = 'primary',
@@ -58,16 +58,16 @@ const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: 
     ...rest
   } = props;
 
-  const theme: any = React.useMemo(() =>{
+  const theme: any = React.useMemo(() => {
     const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme));
     const parsedDefaulttheme = JSON.parse(JSON.stringify(createMuiTheme({})));
     return isEqual(parsedProviderTheme, parsedDefaulttheme)
       ? createMuiTheme(themes.natura.light)
       : providerTheme;
   },
-  [providerTheme]);
+    [providerTheme]);
 
-  const colorMap = React.useMemo(() =>{
+  const colorMap = React.useMemo(() => {
     const { primary, secondary, complementary, error, success, background, text } = theme.palette;
     return {
       primary: {
@@ -80,7 +80,7 @@ const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: 
       },
       info: {
         container: complementary.link,
-        text: background.default
+        text: complementary.linkContrastText
       },
       error: {
         container: error.main,
@@ -88,7 +88,7 @@ const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: 
       },
       warning: {
         container: complementary.warning,
-        text: primary.contrastText
+        text: complementary.warningContrastText
       },
       success: {
         container: success.main,
@@ -96,14 +96,14 @@ const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: 
       },
       light: {
         container: background.paper,
-        text: primary.contrastText
+        text: background.paperContrastText
       },
       dark: {
         container: text.disabled,
-        text: primary.contrastText
+        text: background.defaultContrastText
       }
     };
-  },[theme]);
+  }, [theme]);
 
   const fontMap = React.useMemo(() => {
     const { typography } = theme;
@@ -113,7 +113,7 @@ const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: 
       fontWeight: typography.caption.fontWeight,
       lineHeight: defaultValues.lineHeight
     };
-  },[theme]);
+  }, [theme]);
 
   const constraints = React.useMemo(() => {
     const { spacing, shape } = theme;
@@ -121,7 +121,7 @@ const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: 
       padding: `1px ${spacing()}px`,
       borderRadius: shape.badgeBorderRadius
     };
-  },[theme]);
+  }, [theme]);
 
   return (
     <Container

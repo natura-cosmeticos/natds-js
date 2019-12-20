@@ -10,13 +10,15 @@ import { PropTypes } from '@material-ui/core';
 import ButtonGroupDocs from './ButtonGroup.docs.mdx';
 
 export default {
-  title: 'Web|ButtonGroup',
+  title: 'Web|Buttons/ButtonGroup',
   component: Button,
   decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
     jest: ['Button'],
-    theme: 'web',
+    theme: {
+      context: 'web'
+    },
     docs: {
       page: ButtonGroupDocs
     }

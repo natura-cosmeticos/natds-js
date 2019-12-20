@@ -1,12 +1,13 @@
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
-import { fontSize } from "../../tokens/fontSize/fontSize";
-import { spacing } from "../../tokens/spacing/spacing";
-import { avatarSizes } from "../../tokens/avatarSizes/avatarSizes";
-import { buttonSize } from "../../tokens/buttonSize/buttonSize";
-import { elevation } from "../../tokens/elevation/elevation";
-import { iconSizes } from "../../tokens/iconSizes/iconSizes";
+import { fontSize } from "../../tokens/fontSize";
+import { spacing } from "../../tokens/spacing";
+import { avatarSizes } from "../../tokens/avatarSizes";
+import { buttonSizes } from "../../tokens/buttonSizes";
+import { elevation } from "../../tokens/elevation";
+import { iconSizes } from "../../tokens/iconSizes";
+import { sizes } from "../../tokens/sizes";
 
 const { natura } = tokens.colors;
 
@@ -16,8 +17,9 @@ export const naturaLight: ITheme = {
     badgeBorderRadius: 100
   },
   avatarSizes,
-  buttonSize,
+  buttonSizes,
   iconSizes,
+  sizes,
   spacing: spacing.spacing,
   palette: {
     type: "light",
@@ -38,12 +40,13 @@ export const naturaLight: ITheme = {
       contrastText: natura.grayscale.colorBrdNatGray
     },
     success: {
-      main: natura.complementary.colorBrdNatCpGreen1
+      main: natura.complementary.colorBrdNatCpGreen1,
+      contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     background: {
-      paper: "#FAFAFA",
-      default: natura.primary.colorBrdNatPrimaryWhite,
-      paperConstrastText: natura.grayscale.colorBrdNatGray,
+      paper: natura.primary.colorBrdNatPrimaryWhite,
+      default: "#FAFAFA",
+      paperContrastText: natura.grayscale.colorBrdNatGray,
       defaultContrastText: natura.grayscale.colorBrdBlack
     },
     text: {
@@ -54,7 +57,9 @@ export const naturaLight: ITheme = {
     },
     complementary: {
       link: natura.complementary.colorBrdNatCpBlue1,
-      warning: natura.complementary.colorBrdNatCpOrange4
+      linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
+      warning: natura.complementary.colorBrdNatCpOrange4,
+      warningContrastText: natura.grayscale.colorBrdBlack
     }
   },
   typography: {
