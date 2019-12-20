@@ -1,1 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 18 18"><defs><clipPath id="a" transform="translate(-3 -3)"><path d="M0 0h24v24H0z"/></clipPath></defs><g clip-path="url(#a)"><path d="M9 0a9 9 0 1 0 9 9 9 9 0 0 0-9-9zm4.35 12.65a.48.48 0 0 1 0 .7.48.48 0 0 1-.7 0L9 9.71l-3.65 3.64a.48.48 0 0 1-.7 0 .48.48 0 0 1 0-.7L8.29 9 4.65 5.35a.495.495 0 0 1 .7-.7L9 8.29l3.65-3.64a.495.495 0 0 1 .7.7L9.71 9z"/></g></svg>
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" viewBox="0 0 18 18">
+  <defs>
+    <clipPath id="a" transform="translate(-3 -3)">
+      <rect width="24" height="24" style="fill: none"/>
+    </clipPath>
+  </defs>
+  <title>filled-action-cancel</title>
+  <g style="clip-path: url(#a)">
+    <path d="M12,3a9,9,0,1,0,9,9A9,9,0,0,0,12,3Zm4.35,12.65a.48.48,0,0,1,0,.7.48.48,0,0,1-.7,0L12,12.71,8.35,16.35a.48.48,0,0,1-.7,0,.48.48,0,0,1,0-.7L11.29,12,7.65,8.35a.49.49,0,0,1,.7-.7L12,11.29l3.65-3.64a.49.49,0,0,1,.7.7L12.71,12Z" transform="translate(-3 -3)"/>
+  </g>
+</svg>
