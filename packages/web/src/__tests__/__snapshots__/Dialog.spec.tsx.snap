@@ -243,35 +243,35 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1.2,
+                      "lineHeight": 1,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1.04,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.235,
+                      "lineHeight": 1.17,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.334,
+                      "lineHeight": 1.33,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -346,7 +346,7 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px; overflow: hidden;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     class="MuiDialog-root"
@@ -841,35 +841,35 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1.2,
+                      "lineHeight": 1,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1.04,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.235,
+                      "lineHeight": 1.17,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.334,
+                      "lineHeight": 1.33,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -944,7 +944,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px; overflow: hidden;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
@@ -1467,7 +1467,6 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                                     "containedSecondary": "MuiButton-containedSecondary",
                                                     "containedSizeLarge": "MuiButton-containedSizeLarge",
                                                     "containedSizeSmall": "MuiButton-containedSizeSmall",
-                                                    "disableElevation": "MuiButton-disableElevation",
                                                     "disabled": "Mui-disabled",
                                                     "endIcon": "MuiButton-endIcon",
                                                     "focusVisible": "Mui-focusVisible",
@@ -1844,35 +1843,35 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1.2,
+                      "lineHeight": 1,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1.04,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.235,
+                      "lineHeight": 1.17,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.334,
+                      "lineHeight": 1.33,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1947,7 +1946,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px; overflow: hidden;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
@@ -2612,7 +2611,6 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                     "containedSecondary": "MuiButton-containedSecondary",
                                                     "containedSizeLarge": "MuiButton-containedSizeLarge",
                                                     "containedSizeSmall": "MuiButton-containedSizeSmall",
-                                                    "disableElevation": "MuiButton-disableElevation",
                                                     "disabled": "Mui-disabled",
                                                     "endIcon": "MuiButton-endIcon",
                                                     "focusVisible": "Mui-focusVisible",
@@ -2989,35 +2987,35 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1.2,
+                      "lineHeight": 1,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1.04,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.235,
+                      "lineHeight": 1.17,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.334,
+                      "lineHeight": 1.33,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3092,7 +3090,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px; overflow: hidden;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
@@ -3794,35 +3792,35 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1.2,
+                      "lineHeight": 1,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1.04,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.235,
+                      "lineHeight": 1.17,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.334,
+                      "lineHeight": 1.33,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3897,7 +3895,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px; overflow: hidden;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
@@ -4489,35 +4487,35 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1.2,
+                      "lineHeight": 1,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.167,
+                      "lineHeight": 1.04,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.235,
+                      "lineHeight": 1.17,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.334,
+                      "lineHeight": 1.33,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -4592,7 +4590,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
             <Portal
               containerInfo={
                 <body
-                  style="padding-right: 0px; overflow: hidden;"
+                  style="overflow: hidden; padding-right: 0px;"
                 >
                   <div
                     aria-hidden="true"
