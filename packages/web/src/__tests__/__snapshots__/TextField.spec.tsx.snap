@@ -38,6 +38,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -115,6 +116,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -235,6 +237,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -312,6 +315,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -563,16 +567,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -589,6 +583,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -613,16 +615,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -634,16 +626,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -825,16 +807,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -851,6 +823,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -875,16 +855,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -896,16 +866,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -1070,6 +1030,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -1147,6 +1108,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -1233,6 +1195,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -1310,6 +1273,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -1546,16 +1510,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -1572,6 +1526,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -1596,16 +1558,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -1617,16 +1569,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -1809,16 +1751,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -1835,6 +1767,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -1859,16 +1799,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -1880,16 +1810,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -1922,6 +1842,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -1999,6 +1920,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -2235,16 +2157,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -2261,6 +2173,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -2285,16 +2205,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -2306,16 +2216,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -2498,16 +2398,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -2524,6 +2414,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -2548,16 +2446,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -2569,16 +2457,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -2611,6 +2489,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -2688,6 +2567,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -2923,16 +2803,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "spacing": 8,
           "typography": Object {
-            "android": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "body1": Object {
               "fontSize": "1rem",
               "fontWeight": 400,
@@ -2949,6 +2819,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "0.75rem",
               "fontWeight": 400,
             },
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+            "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+            "fontFamilyBrand3": undefined,
+            "fontWeightBold": 700,
+            "fontWeightLight": 300,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
             "h1": Object {
               "fontSize": "6rem",
               "fontWeight": 300,
@@ -2973,16 +2851,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "1.25rem",
               "fontWeight": 600,
             },
-            "iOS": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "overline": Object {
               "fontSize": "0.75rem",
               "fontWeight": 400,
@@ -2994,16 +2862,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "subtitle2": Object {
               "fontSize": "0.875rem",
               "fontWeight": 500,
-            },
-            "web": Object {
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
             },
           },
         }
@@ -3193,16 +3051,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -3219,6 +3067,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -3243,16 +3099,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -3264,16 +3110,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -3456,16 +3292,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -3482,6 +3308,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -3506,16 +3340,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -3527,16 +3351,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -3570,6 +3384,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -3647,6 +3462,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -3733,6 +3549,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -3810,6 +3627,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -4046,16 +3864,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "spacing": 8,
           "typography": Object {
-            "android": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "body1": Object {
               "fontSize": "1rem",
               "fontWeight": 400,
@@ -4072,6 +3880,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "0.75rem",
               "fontWeight": 400,
             },
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+            "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+            "fontFamilyBrand3": undefined,
+            "fontWeightBold": 700,
+            "fontWeightLight": 300,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
             "h1": Object {
               "fontSize": "6rem",
               "fontWeight": 300,
@@ -4096,16 +3912,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "1.25rem",
               "fontWeight": 600,
             },
-            "iOS": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "overline": Object {
               "fontSize": "0.75rem",
               "fontWeight": 400,
@@ -4117,16 +3923,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "subtitle2": Object {
               "fontSize": "0.875rem",
               "fontWeight": 500,
-            },
-            "web": Object {
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
             },
           },
         }
@@ -4169,6 +3965,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -4246,6 +4043,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -4332,6 +4130,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -4409,6 +4208,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -4495,6 +4295,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -4572,6 +4373,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c3 {
@@ -4643,6 +4445,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -4720,6 +4523,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -4956,16 +4760,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -4982,6 +4776,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -5006,16 +4808,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -5027,16 +4819,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -5219,16 +5001,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -5245,6 +5017,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -5269,16 +5049,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -5290,16 +5060,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -5332,6 +5092,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -5409,6 +5170,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -5644,16 +5406,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "spacing": 8,
           "typography": Object {
-            "android": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "body1": Object {
               "fontSize": "1rem",
               "fontWeight": 400,
@@ -5670,6 +5422,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "0.75rem",
               "fontWeight": 400,
             },
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+            "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+            "fontFamilyBrand3": undefined,
+            "fontWeightBold": 700,
+            "fontWeightLight": 300,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
             "h1": Object {
               "fontSize": "6rem",
               "fontWeight": 300,
@@ -5694,16 +5454,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "1.25rem",
               "fontWeight": 600,
             },
-            "iOS": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "overline": Object {
               "fontSize": "0.75rem",
               "fontWeight": 400,
@@ -5715,16 +5465,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "subtitle2": Object {
               "fontSize": "0.875rem",
               "fontWeight": 500,
-            },
-            "web": Object {
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
             },
           },
         }
@@ -5765,6 +5505,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #FAFAFA;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -5842,6 +5583,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
