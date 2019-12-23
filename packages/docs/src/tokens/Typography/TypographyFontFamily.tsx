@@ -2,9 +2,7 @@ import * as React from 'react';
 import { themes  } from '@naturacosmeticos/natds-styles';
 import Table from '@addons/Table';
 
-const webFontFamily = themes.natura.light.typography.web.fontFamily;
-const iosFontFamily = themes.natura.light.typography.iOS.fontFamily;
-const androidFontFamily = themes.natura.light.typography.android.fontFamily;
+const fontFamily = themes.natura.light.typography.fontFamily;
 
 const mapSchema = (item: any) => {
   return {
@@ -14,8 +12,8 @@ const mapSchema = (item: any) => {
 };
 
 const fontFamilySchema = {
-  head: ['web', 'iOS', 'android'],
-  body: [[webFontFamily, iosFontFamily, androidFontFamily].map(mapSchema)]
+  head: ['web', ],
+  body: [[fontFamily].map(mapSchema)]
 };
 
 

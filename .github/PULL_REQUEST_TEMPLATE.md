@@ -19,7 +19,6 @@ Please describe the tests that you ran to verify your changes. Provide instructi
 **Test Configuration**:
 * Node version: X.Y.Z
 * Yarn version: X.Y.Z
-* Android SDK version (for functional tests): X.Y.Z
 
 # Checklist:
 
