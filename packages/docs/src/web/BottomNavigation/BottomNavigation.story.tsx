@@ -4,6 +4,8 @@ import { BottomNavigation } from '@naturacosmeticos/natds-web';
 
 export { Interactive } from './Interactive';
 
+import BottomNavigationDocs from './BottomNavigation.docs.mdx';
+
 export default {
   title: 'Web|BottomNavigation',
   component: BottomNavigation,
@@ -14,6 +16,9 @@ export default {
     theme: {
       context: 'web'
     },
+    docs: {
+      page: BottomNavigationDocs
+    }
   }
 };
 

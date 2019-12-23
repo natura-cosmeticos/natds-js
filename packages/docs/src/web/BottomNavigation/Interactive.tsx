@@ -3,13 +3,6 @@ import { BottomNavigation, BottomNavigationAction, Icon } from '@naturacosmetico
 import { makeStyles } from '@material-ui/core/styles';
 import { boolean } from '@storybook/addon-knobs';
 
-const widthOptions: any = {
-  range: true,
-  min: 300,
-  max: 1200,
-  step: 100,
-}
-
 export const Interactive = () => {
   const useStyles = makeStyles({
     root: {
@@ -34,4 +27,4 @@ export const Interactive = () => {
       <BottomNavigationAction label="Much Nicer Button" value="btn3" icon={<Icon name="filled-media-play" size="tiny" />} />
     </BottomNavigation>
   );
-}
+};
