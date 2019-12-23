@@ -4,6 +4,8 @@ export const themes = { ...webThemes };
 export { Provider } from './Provider';
 
 export { default as Avatar, IAvatarProps } from './Components/Avatar';
+export { default as BottomNavigation, IBottomNavigationProps } from './Components/BottomNavigation';
+export { default as BottomNavigationAction, IBottomNavigationActionProps } from './Components/BottomNavigationAction';
 export { default as Button, IButtonProps } from './Components/Button';
 export { default as ButtonGroup, IButtonGroupProps } from './Components/ButtonGroup';
 export { default as Card, ICardProps } from './Components/Card';

@@ -12,13 +12,10 @@ export default {
   decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
-    jest: ['Snackbar'],
+    jest: ['Snackbar', 'SnackbarContent'],
     theme: 'web',
     docs: {
       page: SnackbarDocs
     }
   }
 };
-
-
-
