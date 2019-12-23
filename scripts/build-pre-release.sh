@@ -21,7 +21,7 @@ yarn build -o "dist/releases/v${NEW_VERSION}" --quiet
 
 TEST_RESULT_FILENAME=".jest-test-results.json"
 
-PACKAGES=("styles" "web" "mobile")
+PACKAGES=("styles" "web")
 
 for package in "${PACKAGES[@]}"
 do
