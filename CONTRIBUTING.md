@@ -16,7 +16,6 @@ We use lerna to manage our versioning on the monorepo packages. The monorepo str
 packages <br>
 &nbsp;&nbsp;&nbsp;&nbsp; /styles <br>
 &nbsp;&nbsp;&nbsp;&nbsp; /web <br>
-&nbsp;&nbsp;&nbsp;&nbsp; /mobile <br>
 &nbsp;&nbsp;&nbsp;&nbsp; /docs <br>
 
 ## Travis CI
@@ -58,7 +57,7 @@ After merged, the PR will generate a version on the storybook that the milestone
 
 ## Initiating the Contribution
 
-First, you need to install dependencies and build packages. After that you will be able to execute any of the projects (docs, web or mobile).
+First, you need to install dependencies and build packages. After that you will be able to execute any of the projects (docs and web).
 
 ```sh
 git clone https://github.com/natura-cosmeticos/natds
