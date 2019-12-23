@@ -29,6 +29,13 @@ export { default as GridContainer, IGridContainerProps } from './Components/Grid
 export { default as Fab, IFabProps } from './Components/Fab';
 export { default as Icon, IIconProps } from './Components/Icon';
 export { default as IconButton, IIconButtonProps } from './Components/IconButton';
+export { default as List, IListProps } from './Components/List';
+export { default as ListItem, IListItemProps } from './Components/ListItem';
+export { default as ListItemAvatar, IListItemAvatarProps } from './Components/ListItemAvatar';
+export { default as ListItemIcon, IListItemIconProps } from './Components/ListItemIcon';
+export { default as ListItemSecondaryAction, IListItemSecondaryActionProps } from './Components/ListItemSecondaryAction';
+export { default as ListItemText, IListItemTextProps } from './Components/ListItemText';
+export { default as ListSubheader, IListSubheaderProps } from './Components/ListSubheader';
 export { default as Paper, IPaperProps } from './Components/Paper';
 export { default as Radio, IRadioProps } from './Components/Radio';
 export { default as Snackbar, ISnackbarProps } from './Components/Snackbar';
