@@ -22,17 +22,17 @@ export const naturaLight: ITheme = {
   sizes,
   spacing: spacing.spacing,
   palette: {
-    type: "light",
+    type: 'light',
     primary: {
       main: natura.primary.colorBrdNatPrimaryYellow,
-      light: "#FEFDE8",
-      dark: "#EF8426",
+      light: '#FEFDE8',
+      dark: '#EF8426',
       contrastText: natura.grayscale.colorBrdNatGray
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
-      light: "#FFF8E1",
-      dark: natura.primary.colorBrdNatPrimaryOrange,
+      light: '#FFF8E1',
+      dark: '#FF5808',
       contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
@@ -45,9 +45,9 @@ export const naturaLight: ITheme = {
     },
     background: {
       paper: natura.primary.colorBrdNatPrimaryWhite,
-      default: "#FAFAFA",
+      default: '#FAFAFA',
       paperContrastText: natura.grayscale.colorBrdNatGray,
-      defaultContrastText: natura.grayscale.colorBrdBlack
+      defaultContrastText: natura.grayscale.colorBrdNatGray
     },
     text: {
       primary: natura.grayscale.colorBrdNatGray,
@@ -59,7 +59,7 @@ export const naturaLight: ITheme = {
       link: natura.complementary.colorBrdNatCpBlue1,
       linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
       warning: natura.complementary.colorBrdNatCpOrange4,
-      warningContrastText: natura.grayscale.colorBrdBlack
+      warningContrastText: natura.grayscale.colorBrdNatGray
     }
   },
   typography: {
@@ -76,17 +76,17 @@ export const naturaLight: ITheme = {
         color: natura.grayscale.colorBrdNatGray
       },
       sizeSmall: {
-        fontSize: "0.875rem",
-        minHeight: "32px"
+        fontSize: '0.875rem',
+        minHeight: '32px'
       },
       root: {
-        fontSize: "0.875rem",
-        minHeight: "40px",
-        padding: "8px 16px"
+        fontSize: '0.875rem',
+        minHeight: '40px',
+        padding: '8px 16px'
       },
       sizeLarge: {
-        fontSize: "0.875rem",
-        minHeight: "48px"
+        fontSize: '0.875rem',
+        minHeight: '48px'
       }
     },
     MuiAvatar: {
