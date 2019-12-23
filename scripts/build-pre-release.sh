@@ -25,7 +25,7 @@ PACKAGES=("styles" "web" "mobile")
 
 for package in "${PACKAGES[@]}"
 do
-  rm -rf ../$package/$TEST_RESULT_FILENAME
+  git checkout ../$package/$TEST_RESULT_FILENAME || true
 done
 
 cd ../../scripts

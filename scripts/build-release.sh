@@ -15,11 +15,22 @@ if [ -z ${VERSION} ]; then
   exit 1
 fi
 
+yarn lerna run test:ci
+
 cd packages/docs
 
 rm -rf dist/releases/v${VERSION}
 
 yarn build -o "dist/releases/v${VERSION}" --quiet
+
+TEST_RESULT_FILENAME=".jest-test-results.json"
+
+PACKAGES=("styles" "web" "mobile")
+
+for package in "${PACKAGES[@]}"
+do
+  git checkout ../$package/$TEST_RESULT_FILENAME || true
+done
 
 cd ../../scripts
 
