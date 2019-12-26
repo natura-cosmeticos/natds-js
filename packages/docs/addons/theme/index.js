@@ -1,8 +1,7 @@
 import React, { useEffect, Fragment } from 'react';
-import { useAddonState, Consumer, API } from '@storybook/api';
+import { useAddonState, Consumer } from '@storybook/api';
 import { TabButton, WithTooltip, TooltipLinkList } from '@storybook/components';
 
-import { themes } from '@naturacosmeticos/natds-web';
 import { PANEL_ID, CHANGE, PARAM_KEY } from './shared';
 import { STORY_CHANGED } from '@storybook/core-events';
 
