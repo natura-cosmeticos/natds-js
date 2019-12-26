@@ -2,6 +2,7 @@ import React from 'react';
 import 'jest-styled-components';
 import { shallow, mount } from 'enzyme';
 import { expect } from 'chai';
+import { spy, assert } from 'sinon';
 import MaskedInput from 'react-text-mask';
 
 import { themes } from '@naturacosmeticos/natds-styles';
@@ -97,6 +98,17 @@ describe('TextField Field component', () => {
     expect(component.find(FieldComponent).prop('value')).to.equal('');
   });
 
+  test('should clear input value for search types and call the callback function', () => {
+    const props = getProps({ type: 'search' });
+    const onChange = spy();
+    const value = 'new search';
+    const component = mount(<Field {...props} onChange={onChange} value={value} />);
+
+    component.find(SearchClear).simulate('click');
+
+    assert.calledOnce(onChange);
+  });
+
   test('should change input value', () => {
     const props = getProps();
     const component = shallow(<Field {...props} />);
@@ -105,5 +117,18 @@ describe('TextField Field component', () => {
     component.find(FieldComponent).simulate('change', { target: { value } });
 
     expect(component.find(FieldComponent).prop('value')).to.equal(value);
+  });
+
+  test('should change input value and call the callback function', () => {
+    const props = getProps();
+    const onChange = spy();
+    const value = 'new value';
+    const event = { target: { value } };
+    const component = shallow(<Field {...props} onChange={onChange} />);
+
+    component.find(FieldComponent).simulate('change', event);
+
+    expect(component.find(FieldComponent).prop('value')).to.equal(value);
+    assert.calledWithExactly(onChange, event);
   });
 });
