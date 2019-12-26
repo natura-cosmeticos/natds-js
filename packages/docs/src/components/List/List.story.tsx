@@ -61,7 +61,7 @@ export const Interactive = () => {
         <Divider />
         <ListItem button>
           <ListItemIcon>
-            <Icon name="outlined-alert-check" size="small" />
+            <Icon name="outlined-navigation-close" size="small" />
           </ListItemIcon>
           <ListItemText
             primary="Icon with text"
@@ -74,7 +74,7 @@ export const Interactive = () => {
         <ListItem button>
           <ListItemAvatar>
             <Avatar color="default" size="small">
-              <Icon name="outlined-alert-check" size="tiny" />
+              <Icon name="outlined-navigation-close" size="tiny" />
             </Avatar>
           </ListItemAvatar>
           <ListItemText
@@ -88,7 +88,7 @@ export const Interactive = () => {
         <ListItem>
           <ListItemAvatar>
             <Avatar color="default" size="small">
-              <Icon name="outlined-alert-check" size="tiny" />
+              <Icon name="outlined-navigation-close" size="tiny" />
             </Avatar>
           </ListItemAvatar>
           <ListItemText
@@ -99,7 +99,7 @@ export const Interactive = () => {
           />
           <ListItemSecondaryAction>
             <IconButton edge="end" aria-label="shopping">
-              <Icon name="outlined-alert-cancel" size="tiny" />
+              <Icon name="outlined-navigation-close" size="tiny" />
             </IconButton>
           </ListItemSecondaryAction>
         </ListItem>

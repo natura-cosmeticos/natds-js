@@ -7,45 +7,41 @@ const getIcon = (name, props: any = {}) => (
 
 export const colors = [
   {
-    title: 'Enabled',
-    component: <ToggleButton color="primary" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
+    title: 'Primary',
+    component: <ToggleButton color="primary" iconOn={getIcon('filled-action-cancel')} iconOff={getIcon('outlined-navigation-close')} />
   },
   {
-    title: 'Disabled',
-    component: <ToggleButton color="secondary" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
+    title: 'Secondary',
+    component: <ToggleButton color="secondary" iconOn={getIcon('filled-action-cancel')} iconOff={getIcon('outlined-navigation-close')} />
   },
   {
-    title: 'Start Icon',
-    component: <ToggleButton color="default" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
+    title: 'Default',
+    component: <ToggleButton color="default" iconOn={getIcon('filled-action-cancel')} iconOff={getIcon('outlined-navigation-close')} />
   }
 ];
 
 export const sizes = [
   {
     title: 'Small with tiny icon',
-    component: <ToggleButton color="primary" size="small" iconOn={getIcon('filled-alert-check', { size: 'tiny' })} iconOff={getIcon('outlined-alert-check', { size: 'tiny' })}  />
+    component: <ToggleButton color="primary" size="small" iconOn={getIcon('filled-action-cancel', { size: 'tiny' })} iconOff={getIcon('outlined-navigation-close', { size: 'tiny' })}  />
   },
   {
     title: 'Small with small icon',
-    component: <ToggleButton color="primary" size="small" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
+    component: <ToggleButton color="primary" size="small" iconOn={getIcon('filled-action-cancel')} iconOff={getIcon('outlined-navigation-close')} />
+  },
+  {
+    title: 'Medium with tiny icon',
+    component: <ToggleButton color="primary" size="medium" iconOn={getIcon('filled-action-cancel', { size: 'tiny' })} iconOff={getIcon('outlined-navigation-close', { size: 'tiny' })} />
   },
   {
     title: 'Medium with small icon',
-    component: <ToggleButton color="primary" size="medium" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
-  },
-  {
-    title: 'Medium with standard icon',
-    component: <ToggleButton color="primary" size="medium" iconOn={getIcon('filled-alert-check', { size: 'standard' })} iconOff={getIcon('outlined-alert-check', { size: 'standard' })} />
+    component: <ToggleButton color="primary" size="medium" iconOn={getIcon('filled-action-cancel')} iconOff={getIcon('outlined-navigation-close')} />
   }
 ];
 
 export const attributes = [
   {
-    title: 'Standard',
-    component: <ToggleButton color="primary" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} />
-  },
-  {
     title: 'Disabled',
-    component: <ToggleButton color="primary" iconOn={getIcon('filled-alert-check')} iconOff={getIcon('outlined-alert-check')} disabled />
+    component: <ToggleButton color="primary" iconOn={getIcon('filled-action-cancel')} iconOff={getIcon('outlined-navigation-close')} disabled />
   }
 ];

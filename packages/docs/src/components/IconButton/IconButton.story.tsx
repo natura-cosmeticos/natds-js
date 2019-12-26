@@ -50,7 +50,7 @@ export const Interactive = () => (
     color={select('Colors', colors, colors.primary)}
     size={select('Size', sizes, sizes.medium)}
     children={<Icon
-      name={select('Icon Name', icons, 'outlined-alert-check')}
+      name={select('Icon Name', icons, icons[0])}
       size={select('Icon Size', iconSizes, iconSizes[2])}
     />}
   />

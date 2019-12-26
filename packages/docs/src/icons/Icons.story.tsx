@@ -29,9 +29,9 @@ export default {
 };
 
 export const Outlined = () => (
-  <ComponentWithLabel componentList={outlined} />
+  <ComponentWithLabel componentList={outlined} itemsPerRow={6} />
 );
 
 export const Filled = () => (
-  <ComponentWithLabel componentList={filled} />
+  <ComponentWithLabel componentList={filled} itemsPerRow={6} />
 );

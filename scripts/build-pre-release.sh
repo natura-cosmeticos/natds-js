@@ -25,7 +25,7 @@ PACKAGES=("styles" "web")
 
 for package in "${PACKAGES[@]}"
 do
-  rm -rf ../$package/$TEST_RESULT_FILENAME
+  git checkout ../$package/$TEST_RESULT_FILENAME || true
 done
 
 cd ../../scripts
@@ -39,15 +39,24 @@ git remote add origin https://$GITHUB_API_USER:$GITHUB_API_KEY@github.com/natura
 
 git fetch
 
+git add --all
+
+git stash
+
 git checkout "v${VERSION_WO_ALPHA}-docs"
+
+git stash pop
 
 node helpers/addVersionOnConfig.js $NEW_VERSION
 
 # Travis will make the commit
+
 git config --global user.email "travis@travis-ci.org"
+
 git config --global user.name "Travis CI"
 
 git add --all
+
 git commit -m "Travis Commit: Generating docs for alpha version ${NEW_VERSION}"
 
 git push -f -u origin v${VERSION_WO_ALPHA}-docs
