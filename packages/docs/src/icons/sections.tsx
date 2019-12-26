@@ -1,15 +1,14 @@
 import React from 'react';
-import { Icon } from '@naturacosmeticos/natds-web';
 import { iconNames } from '@naturacosmeticos/natds-icons';
 import { IComponentWithLabelItem } from '@addons/ComponentWithLabel';
 
 const iconList = Object.keys(iconNames);
 
-function getListByType(type: string): string[] {
+export function getListByType(type: string): string[] {
   return iconList.filter((icon) => icon.split('-')[0] === type);
 }
 
-function buildConfig(type: string) {
+export function buildConfig(type: string) {
   const list = getListByType(type);
 
   return list.map(buildConfigItem);

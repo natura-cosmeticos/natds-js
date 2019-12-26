@@ -10,15 +10,6 @@ function getListByType(type: string): string[] {
   return iconList.filter((icon) => icon.split('-')[0] === type);
 }
 
-function buildConfig(type: string) {
-  const list = getListByType(type);
-
-  return list.map((name: any) => ({
-    title: name,
-    component: <Icon name={name} size="small" />
-  }));
-}
-
 function buildConfigSizes(type: string) {
   const [name]: any = getListByType(type);
 
@@ -28,6 +19,4 @@ function buildConfigSizes(type: string) {
   }));
 }
 
-export const outlined = buildConfig('outlined');
-export const filled = buildConfig('filled');
 export const sizes = buildConfigSizes('outlined');

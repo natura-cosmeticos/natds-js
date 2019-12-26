@@ -1,0 +1,78 @@
+.icons {
+  width: 100%;
+}
+
+.icons__header {
+  background-color: #f4f4f4;
+  display: flex;
+  flex-flow: row nowrap;
+  justify-content: space-between;
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  padding: 20px;
+}
+
+.icons__title {
+  line-height: 56px;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  color: #333;
+  padding: 0 0 0 30px;
+  margin: 0;
+}
+
+.icons__search {
+  width: 400px;
+}
+
+.icons__list {
+  display: flex;
+  flex-flow: row wrap;
+  list-style: none;
+  padding: 140px 50px 50px;
+  margin: 0;
+}
+
+.icons__category {
+  border-bottom: #ddd 1px solid;
+  box-sizing: border-box;
+  flex: 1 1 100%;
+  font-size: 24px;
+  font-weight: 400;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  text-transform: capitalize;
+  color: #333;
+  padding: 0 0 10px;
+  margin: 50px 0 20px;
+
+  &:first-of-type {
+    margin-top: 0;
+  }
+}
+
+.icons__item {
+  box-sizing: border-box;
+  flex: 0 1 auto;
+  padding: 20px 0;
+  margin: 0;
+}
+
+.icons__item__name {
+  font-size: 12px;
+  font-weight: 400;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: #227BBD;
+  margin: 5px 0 0;
+}
+
+.icons__item__display-name {
+  font-size: 14px;
+  font-weight: 400;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+  color: #333;
+  margin: 15px 0 0;
+}
