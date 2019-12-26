@@ -4,6 +4,8 @@ export const themes = { ...webThemes };
 export { Provider } from './Provider';
 
 export { default as Avatar, IAvatarProps } from './Components/Avatar';
+export { default as BottomNavigation, IBottomNavigationProps } from './Components/BottomNavigation';
+export { default as BottomNavigationAction, IBottomNavigationActionProps } from './Components/BottomNavigationAction';
 export { default as Button, IButtonProps } from './Components/Button';
 export { default as ButtonGroup, IButtonGroupProps } from './Components/ButtonGroup';
 export { default as Card, ICardProps } from './Components/Card';
@@ -27,8 +29,17 @@ export { default as GridContainer, IGridContainerProps } from './Components/Grid
 export { default as Fab, IFabProps } from './Components/Fab';
 export { default as Icon, IIconProps } from './Components/Icon';
 export { default as IconButton, IIconButtonProps } from './Components/IconButton';
+export { default as List, IListProps } from './Components/List';
+export { default as ListItem, IListItemProps } from './Components/ListItem';
+export { default as ListItemAvatar, IListItemAvatarProps } from './Components/ListItemAvatar';
+export { default as ListItemIcon, IListItemIconProps } from './Components/ListItemIcon';
+export { default as ListItemSecondaryAction, IListItemSecondaryActionProps } from './Components/ListItemSecondaryAction';
+export { default as ListItemText, IListItemTextProps } from './Components/ListItemText';
+export { default as ListSubheader, IListSubheaderProps } from './Components/ListSubheader';
 export { default as Paper, IPaperProps } from './Components/Paper';
 export { default as Radio, IRadioProps } from './Components/Radio';
+export { default as Snackbar, ISnackbarProps } from './Components/Snackbar';
+export { default as SnackbarContent, ISnackbarContentProps } from './Components/SnackbarContent';
 export { default as Switch, ISwitchProps } from './Components/Switch';
 export { default as TextField, ITextFieldProps } from './Components/TextField';
 export { default as ToggleButton, IToggleButtonProps } from './Components/ToggleButton';

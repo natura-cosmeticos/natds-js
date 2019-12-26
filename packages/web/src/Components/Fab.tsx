@@ -1,8 +1,8 @@
 import * as React from 'react';
-import isEqual from 'lodash/isEqual';
-import { withTheme, createMuiTheme } from '@material-ui/core/styles';
+import { withTheme } from '@material-ui/core/styles';
 import MaterialFab, { FabProps } from '@material-ui/core/Fab';
-import { IThemeWeb, themes } from '../Themes';
+import { IThemeWeb } from '../Themes';
+import { getDefaultTheme } from './shared';
 
 type IFabColor = 'primary' | 'secondary' | 'light';
 
@@ -34,11 +34,7 @@ export const Fab: React.FunctionComponent<IFabProps> = (props: IFabProps) => {
   } = props;
 
   const theme = React.useMemo(() => {
-    const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme));
-    const parsedDefaulttheme = JSON.parse(JSON.stringify(createMuiTheme({})));
-    return isEqual(parsedProviderTheme, parsedDefaulttheme)
-      ? createMuiTheme(themes.natura.light)
-      : providerTheme;
+    return getDefaultTheme(providerTheme);
   }, [providerTheme]);
 
   const colorMap = React.useMemo(() => {

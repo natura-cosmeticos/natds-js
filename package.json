@@ -1,6 +1,6 @@
 {
   "name": "natds",
-  "version": "0.2.0-alpha.43",
+  "version": "0.3.0-alpha.10",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "MIT",
   "keywords": [
@@ -32,7 +32,7 @@
     "build": "echo \"Use \\033[0;33m'yarn build:libs'\\033[0m instead\"",
     "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
     "verify": "yarn build:libs && yarn lerna run verify",
-    "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/mobile && yarn watch\" \"cd packages/web && yarn watch\"",
+    "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\"",
     "version": "echo $npm_package_version",
     "build:docs:prerelease": "bash scripts/build-pre-release.sh",
     "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons"
@@ -43,20 +43,11 @@
       "packages/icons",
       "packages/styles",
       "packages/web",
-      "packages/mobile",
       "packages/docs"
     ],
     "nohoist": [
-      "**/react-native",
-      "**/react-native/**",
-      "**/react-native-paper",
-      "**/react-native-paper/**",
       "**/create-react-class",
-      "**/create-react-class/**",
-      "**/react-native-image-loader",
-      "**/react-native-image-loader/**",
-      "**/react-native-vector-icons",
-      "**/react-native-vector-icons/**"
+      "**/create-react-class/**"
     ]
   },
   "devDependencies": {
