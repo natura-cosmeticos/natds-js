@@ -22,8 +22,8 @@ export const Interactive = () => {
 
   return (
     <BottomNavigation showLabels={showLabels} className={classes.root} onChange={handleChange} value={value}>
-      <BottomNavigationAction label="Button" value="btn1"  icon={<Icon name="filled-alert-cancel" size="tiny" />} />
-      <BottomNavigationAction label="Nicer Button" value="btn2" icon={<Icon name="filled-alert-check" size="tiny" />} />
+      <BottomNavigationAction label="Button" value="btn1"  icon={<Icon name="filled-action-cancel" size="tiny" />} />
+      <BottomNavigationAction label="Nicer Button" value="btn2" icon={<Icon name="filled-action-check" size="tiny" />} />
       <BottomNavigationAction label="Much Nicer Button" value="btn3" icon={<Icon name="filled-media-play" size="tiny" />} />
     </BottomNavigation>
   );

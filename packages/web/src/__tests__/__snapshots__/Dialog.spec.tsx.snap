@@ -130,6 +130,12 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -142,6 +148,12 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -150,6 +162,12 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -243,35 +261,35 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -346,7 +364,7 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
             <Portal
               containerInfo={
                 <body
-                  style="overflow: hidden; padding-right: 0px;"
+                  style="padding-right: 0px; overflow: hidden;"
                 >
                   <div
                     class="MuiDialog-root"
@@ -369,7 +387,7 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         Lorem ipsum
@@ -565,6 +583,7 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                                 "elevation7": "MuiPaper-elevation7",
                                 "elevation8": "MuiPaper-elevation8",
                                 "elevation9": "MuiPaper-elevation9",
+                                "outlined": "MuiPaper-outlined",
                                 "root": "MuiPaper-root",
                                 "rounded": "MuiPaper-rounded",
                               }
@@ -573,7 +592,7 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                             role="dialog"
                           >
                             <div
-                              className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                              className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
                               Lorem ipsum
@@ -728,6 +747,12 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -740,6 +765,12 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -748,6 +779,12 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -841,35 +878,35 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -944,7 +981,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
             <Portal
               containerInfo={
                 <body
-                  style="overflow: hidden; padding-right: 0px;"
+                  style="padding-right: 0px; overflow: hidden;"
                 >
                   <div
                     aria-hidden="true"
@@ -968,7 +1005,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         Lorem ipsum
@@ -1001,7 +1038,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -1042,7 +1079,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -1079,7 +1116,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -1119,7 +1156,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -1341,6 +1378,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                 "elevation7": "MuiPaper-elevation7",
                                 "elevation8": "MuiPaper-elevation8",
                                 "elevation9": "MuiPaper-elevation9",
+                                "outlined": "MuiPaper-outlined",
                                 "root": "MuiPaper-root",
                                 "rounded": "MuiPaper-rounded",
                               }
@@ -1349,7 +1387,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                             role="dialog"
                           >
                             <div
-                              className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                              className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
                               <WithTheme(Component)>
@@ -1467,6 +1505,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                                     "containedSecondary": "MuiButton-containedSecondary",
                                                     "containedSizeLarge": "MuiButton-containedSizeLarge",
                                                     "containedSizeSmall": "MuiButton-containedSizeSmall",
+                                                    "disableElevation": "MuiButton-disableElevation",
                                                     "disabled": "Mui-disabled",
                                                     "endIcon": "MuiButton-endIcon",
                                                     "focusVisible": "Mui-focusVisible",
@@ -1730,6 +1769,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -1742,6 +1787,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -1750,6 +1801,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -1843,35 +1900,35 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1946,7 +2003,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
             <Portal
               containerInfo={
                 <body
-                  style="overflow: hidden; padding-right: 0px;"
+                  style="padding-right: 0px; overflow: hidden;"
                 >
                   <div
                     aria-hidden="true"
@@ -1970,7 +2027,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         Lorem ipsum
@@ -2003,7 +2060,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -2044,7 +2101,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -2081,7 +2138,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -2122,7 +2179,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -2180,7 +2237,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -2411,6 +2468,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                 "elevation7": "MuiPaper-elevation7",
                                 "elevation8": "MuiPaper-elevation8",
                                 "elevation9": "MuiPaper-elevation9",
+                                "outlined": "MuiPaper-outlined",
                                 "root": "MuiPaper-root",
                                 "rounded": "MuiPaper-rounded",
                               }
@@ -2419,7 +2477,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                             role="dialog"
                           >
                             <div
-                              className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                              className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
                               <WithTheme(Component)>
@@ -2611,6 +2669,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                     "containedSecondary": "MuiButton-containedSecondary",
                                                     "containedSizeLarge": "MuiButton-containedSizeLarge",
                                                     "containedSizeSmall": "MuiButton-containedSizeSmall",
+                                                    "disableElevation": "MuiButton-disableElevation",
                                                     "disabled": "Mui-disabled",
                                                     "endIcon": "MuiButton-endIcon",
                                                     "focusVisible": "Mui-focusVisible",
@@ -2874,6 +2933,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -2886,6 +2951,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -2894,6 +2965,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -2987,35 +3064,35 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3090,7 +3167,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
             <Portal
               containerInfo={
                 <body
-                  style="overflow: hidden; padding-right: 0px;"
+                  style="padding-right: 0px; overflow: hidden;"
                 >
                   <div
                     aria-hidden="true"
@@ -3114,7 +3191,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         Lorem ipsum
@@ -3147,7 +3224,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -3188,7 +3265,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -3224,7 +3301,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -3428,6 +3505,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                 "elevation7": "MuiPaper-elevation7",
                                 "elevation8": "MuiPaper-elevation8",
                                 "elevation9": "MuiPaper-elevation9",
+                                "outlined": "MuiPaper-outlined",
                                 "root": "MuiPaper-root",
                                 "rounded": "MuiPaper-rounded",
                               }
@@ -3436,7 +3514,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                             role="dialog"
                           >
                             <div
-                              className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                              className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
                               <WithTheme(Component)>
@@ -3679,6 +3757,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -3691,6 +3775,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -3699,6 +3789,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -3792,35 +3888,35 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3895,7 +3991,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
             <Portal
               containerInfo={
                 <body
-                  style="overflow: hidden; padding-right: 0px;"
+                  style="padding-right: 0px; overflow: hidden;"
                 >
                   <div
                     aria-hidden="true"
@@ -3919,7 +4015,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         Lorem ipsum
@@ -3952,7 +4048,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -3992,7 +4088,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -4192,6 +4288,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                 "elevation7": "MuiPaper-elevation7",
                                 "elevation8": "MuiPaper-elevation8",
                                 "elevation9": "MuiPaper-elevation9",
+                                "outlined": "MuiPaper-outlined",
                                 "root": "MuiPaper-root",
                                 "rounded": "MuiPaper-rounded",
                               }
@@ -4200,7 +4297,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                             role="dialog"
                           >
                             <div
-                              className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                              className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
                               <WithTheme(Component)>
@@ -4374,6 +4471,12 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                       "A400": "#303030",
                       "A700": "#616161",
                     },
+                    "info": Object {
+                      "contrastText": "#fff",
+                      "dark": "#1976d2",
+                      "light": "#64b5f6",
+                      "main": "#2196f3",
+                    },
                     "primary": Object {
                       "contrastText": "#fff",
                       "dark": "#303f9f",
@@ -4386,6 +4489,12 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                       "light": "#ff4081",
                       "main": "#f50057",
                     },
+                    "success": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#388e3c",
+                      "light": "#81c784",
+                      "main": "#4caf50",
+                    },
                     "text": Object {
                       "disabled": "rgba(0, 0, 0, 0.38)",
                       "hint": "rgba(0, 0, 0, 0.38)",
@@ -4394,6 +4503,12 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                     },
                     "tonalOffset": 0.2,
                     "type": "light",
+                    "warning": Object {
+                      "contrastText": "rgba(0, 0, 0, 0.87)",
+                      "dark": "#ffa000",
+                      "light": "#ffd54f",
+                      "main": "#ffc107",
+                    },
                   },
                   "props": Object {},
                   "shadows": Array [
@@ -4487,35 +4602,35 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                       "fontSize": "6rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.01562em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3.75rem",
                       "fontWeight": 300,
                       "letterSpacing": "-0.00833em",
-                      "lineHeight": 1,
+                      "lineHeight": 1.2,
                     },
                     "h3": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "3rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.04,
+                      "lineHeight": 1.167,
                     },
                     "h4": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "2.125rem",
                       "fontWeight": 400,
                       "letterSpacing": "0.00735em",
-                      "lineHeight": 1.17,
+                      "lineHeight": 1.235,
                     },
                     "h5": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
                       "fontSize": "1.5rem",
                       "fontWeight": 400,
                       "letterSpacing": "0em",
-                      "lineHeight": 1.33,
+                      "lineHeight": 1.334,
                     },
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -4590,7 +4705,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
             <Portal
               containerInfo={
                 <body
-                  style="overflow: hidden; padding-right: 0px;"
+                  style="padding-right: 0px; overflow: hidden;"
                 >
                   <div
                     aria-hidden="true"
@@ -4614,7 +4729,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         Lorem ipsum
@@ -4646,7 +4761,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                       tabindex="-1"
                     >
                       <div
-                        class="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                        class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
                         <div
@@ -4850,6 +4965,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                                 "elevation7": "MuiPaper-elevation7",
                                 "elevation8": "MuiPaper-elevation8",
                                 "elevation9": "MuiPaper-elevation9",
+                                "outlined": "MuiPaper-outlined",
                                 "root": "MuiPaper-root",
                                 "rounded": "MuiPaper-rounded",
                               }
@@ -4858,7 +4974,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                             role="dialog"
                           >
                             <div
-                              className="MuiPaper-root MuiPaper-elevation24 MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-rounded"
+                              className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
                               <WithTheme(Component)>

@@ -55,7 +55,7 @@ describe('List components', () => {
           <ListItem>
             <ListItemAvatar>
               <Avatar color="default" size="small">
-                <Icon name="outlined-alert-check" size="tiny" />
+                <Icon name="outlined-navigation-close" size="tiny" />
               </Avatar>
             </ListItemAvatar>
           </ListItem>
@@ -69,7 +69,7 @@ describe('List components', () => {
         <List>
           <ListItem>
             <ListItemIcon>
-              <Icon name="outlined-alert-check" size="small" />
+              <Icon name="outlined-navigation-close" size="small" />
             </ListItemIcon>
           </ListItem>
         </List>
@@ -83,7 +83,7 @@ describe('List components', () => {
           <ListItem>
             <ListItemSecondaryAction>
               <IconButton edge="end" aria-label="shopping">
-                <Icon name="outlined-alert-cancel" size="tiny" />
+                <Icon name="outlined-navigation-close" size="tiny" />
               </IconButton>
             </ListItemSecondaryAction>
           </ListItem>

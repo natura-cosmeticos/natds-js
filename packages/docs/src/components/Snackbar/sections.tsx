@@ -22,7 +22,7 @@ const SnackbarContentWrapper = (props: any) => {
   message={
     <span className={classes.message}>
       <span className={classes.messageIcon}>
-        <Icon name="outlined-alert-check" size="small"/>
+        <Icon name="outlined-navigation-close" size="small"/>
       </span>
       <Typography>This is a message</Typography>
     </span>
