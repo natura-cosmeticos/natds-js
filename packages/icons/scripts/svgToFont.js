@@ -16,7 +16,7 @@ function onSuccess(result) {
   const { config: { fontName }, template, glyphsData } = result;
   const metadata = {};
 
-  glyphsData.forEach(({ metadata: { name, unicode }, contents }) => {
+  glyphsData.forEach(({ metadata: { name, unicode } }) => {
     const escapedUnicode = escape(unicode);
     Object.assign(metadata, { [name]: escapedUnicode });
   });
