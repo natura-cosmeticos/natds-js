@@ -42,6 +42,8 @@ export { default as Radio, IRadioProps } from './Components/Radio';
 export { default as Snackbar, ISnackbarProps } from './Components/Snackbar';
 export { default as SnackbarContent, ISnackbarContentProps } from './Components/SnackbarContent';
 export { default as Switch, ISwitchProps } from './Components/Switch';
+export { default as TabContainer, ITabContainerProps } from './Components/TabContainer';
+export { default as TabItem, ITabItemProps } from './Components/TabItem';
 export { default as TextField, ITextFieldProps } from './Components/TextField';
 export { default as ToggleButton, IToggleButtonProps } from './Components/ToggleButton';
 export { default as Toolbar, IToolbarProps } from './Components/Toolbar';
