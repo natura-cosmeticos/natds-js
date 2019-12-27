@@ -5,8 +5,11 @@ import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 # Fab
 
 ---
+
 ---
+
 ---
+
 ---
 
 ## Colors
@@ -16,6 +19,7 @@ import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 </Provider>
 
 ---
+
 ---
 
 ## Sizes
@@ -25,6 +29,7 @@ import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 </Provider>
 
 ---
+
 ---
 
 ## Variants
@@ -34,6 +39,7 @@ import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 </Provider>
 
 ---
+
 ---
 
 ## Extended With Leading Icon
@@ -43,6 +49,7 @@ import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 </Provider>
 
 ---
+
 ---
 
 ## Disabled
@@ -52,6 +59,7 @@ import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 </Provider>
 
 ---
+
 ---
 
 ## API
@@ -76,15 +84,21 @@ import { Fab } from '@naturacosmeticos/natds-web';
 </Fab>
 
 ```
----
+
+For more advanced usages, check [Material UI FAB docs](https://material-ui.com/components/buttons/#floating-action-buttons)
+
 ---
 
-| Name                      | Type                                            | Default                               | Description
-| :--                       | :-:                                             | :-:                                   | :-:
-| variant                   | 'round' \| 'extended'                           | 'round'                               | The component variant to use
-| color                     | 'primary' \| 'secondary' \| 'light'             | 'primary'                             | The color to be used from the theme. 'light' uses the 'paper' namespace
-| size                      | 'large' \| 'medium' \| 'small'                  | 'large'                               | The size of the component
-| disabled                  | boolean                                         | false                                 | Disables the button on the component and applies specific styling
-| children                  | React.ReactNode                                 |                                       | The children of the component. For 'round' variant, we recommend not using too many letters, as it can cause distortions on the component shape
-| classes                   | string                                          |                                       | CSS classes to use on the component
-| style                     | React.CSSProperties                             |                                       | Style to be used inline on the component
+---
+
+## FAB Props
+
+| Name     |                Type                 |  Default  |                                                                   Description                                                                   |
+| :------- | :---------------------------------: | :-------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| variant  |        'round' \| 'extended'        |  'round'  |                                                          The component variant to use                                                           |
+| color    | 'primary' \| 'secondary' \| 'light' | 'primary' |                                     The color to be used from the theme. 'light' uses the 'paper' namespace                                     |
+| size     |   'large' \| 'medium' \| 'small'    |  'large'  |                                                            The size of the component                                                            |
+| disabled |               boolean               |   false   |                                        Disables the button on the component and applies specific styling                                        |
+| children |           React.ReactNode           |           | The children of the component. For 'round' variant, we recommend not using too many letters, as it can cause distortions on the component shape |
+| classes  |               string                |           |                                                       CSS classes to use on the component                                                       |
+| style    |         React.CSSProperties         |           |                                                    Style to be used inline on the component                                                     |

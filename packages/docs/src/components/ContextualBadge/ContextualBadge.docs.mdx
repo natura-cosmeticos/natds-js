@@ -5,8 +5,11 @@ import { colors } from './sections';
 # ContextualBadge
 
 ---
+
 ---
+
 ---
+
 ---
 
 ## Colors
@@ -16,6 +19,7 @@ import { colors } from './sections';
 </Provider>
 
 ---
+
 ---
 
 ## API
@@ -23,20 +27,21 @@ import { colors } from './sections';
 ```jsx highlight-line="2"
 import { ContextualBadge } from '@naturacosmeticos/natds-web';
 
-<ContextualBadge color="primary">
-  Primary
-</ContextualBadge>;
+<ContextualBadge color="primary">Primary</ContextualBadge>;
 ```
 
 ---
+
 ---
 
-| Name                      | Type                                            | Default                               | Description
-| :--                       | :-:                                             | :-:                                   | :-:
-| id                        | string                                          |                                       | The input id property
-| theme                     | IThemeWeb                                       | Natura Light Theme                    | The theme provided for the component rendering
-| color                     | 'primary' \| 'secondary' \| 'info' \| 'error' \| 'warning' \| 'success' \| 'light' \| 'dark' | 'primary' | The color to use from the theme
-| type                      | 'standard'                                      | 'standard'                            | The type of the badge
-| classes                   | string                                          |                                       | The classes to use on the container 'div'
-| style                     | React.CSSProperties                             |                                       | Inline style for the container 'div'
-| children                  | React.ReactNode                                 |                                       | The children that will be placed inside the badge
+## ContextualBadge Props
+
+| Name     |                                             Type                                             |      Default       |                    Description                    |
+| :------- | :------------------------------------------------------------------------------------------: | :----------------: | :-----------------------------------------------: |
+| id       |                                            string                                            |                    |               The input id property               |
+| theme    |                                          IThemeWeb                                           | Natura Light Theme |  The theme provided for the component rendering   |
+| color    | 'primary' \| 'secondary' \| 'info' \| 'error' \| 'warning' \| 'success' \| 'light' \| 'dark' |     'primary'      |          The color to use from the theme          |
+| type     |                                          'standard'                                          |     'standard'     |               The type of the badge               |
+| classes  |                                            string                                            |                    |     The classes to use on the container 'div'     |
+| style    |                                     React.CSSProperties                                      |                    |       Inline style for the container 'div'        |
+| children |                                       React.ReactNode                                        |                    | The children that will be placed inside the badge |

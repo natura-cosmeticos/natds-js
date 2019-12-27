@@ -55,13 +55,19 @@ import { Divider } from '@naturacosmeticos/natds-web';
 </GridContainer>;
 ```
 
----
+For more advanced usages, check [Material UI Divider docs](https://material-ui.com/components/dividers/)
 
 ---
 
-| Name      |              Type              |   Default   |                                        Description                                         |
-| :-------- | :----------------------------: | :---------: | :----------------------------------------------------------------------------------------: |
-| variant   | 'fullWidth', 'inset', 'middle' | 'fullWidth' |                                    The variant to use.                                     |
-| component |          elementType           |    'hr'     | The component used for the root node. Either a string to use a DOM element or a component. |
+---
 
-For more details consult the full [Material Divider API](https://material-ui.com/api/divider/)
+## Divider Props
+
+| Name        |              Type              |   Default    |                                                                Description                                                                |
+| :---------- | :----------------------------: | :----------: | :---------------------------------------------------------------------------------------------------------------------------------------: |
+| absolute    |              bool              |    false     |                                                     Absolutely position the element.                                                      |
+| classes     |             object             |              | Override or extend the styles applied to the component. See [CSS API](https://material-ui.com/pt/api/switch/#css) below for more details. |
+| component   |          elementType           |     'hr'     |                        The component used for the root node. Either a string to use a DOM element or a component.                         |
+| light       |              bool              |    false     |                                              If true, the divider will have a lighter color.                                              |
+| orientation |    'horizontal', 'vertical'    | 'horizontal' |                                                         The divider orientation.                                                          |
+| variant     | 'fullWidth', 'inset', 'middle' | 'fullWidth'  |                                                            The variant to use.                                                            |
