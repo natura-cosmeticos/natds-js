@@ -17,7 +17,8 @@ export const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldP
     theme,
     required = false,
     disabled = false,
-    state
+    state,
+    className
   } = props;
 
   const content = label && required ? `${label} *` : label;
@@ -25,7 +26,7 @@ export const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldP
   const stateIcon = IconState && <IconState theme={theme} />;
 
   return (
-    <Container theme={theme}>
+    <Container theme={theme} className={className}>
       {content && <Label
         theme={theme}
         htmlFor={id}

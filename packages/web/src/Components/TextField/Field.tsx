@@ -28,6 +28,8 @@ export const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps
     searchIcon,
     showPasswordIcon,
     hidePasswordIcon,
+    onChange,
+    className,
     ...rest
   } = props;
 
@@ -38,6 +40,16 @@ export const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps
   const showPasswordReveal = type === PASSWORD_TYPE && !icon;
   const showSearchClear = type === SEARCH_TYPE && !icon;
   const hasIcon = !!showPasswordReveal || !!showSearchClear || !!icon;
+
+  const handleChange = (event: any) => {
+    setValue(event.target.value);
+    onChange && onChange(event);
+  };
+
+  const clearSearch = (event: any) => {
+    setValue('');
+    onChange && onChange(event);
+  };
 
   return (
     <FieldContainer theme={theme} disabled={disabled}>
@@ -52,8 +64,9 @@ export const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps
         as={fieldType}
         value={value}
         hasIcon={hasIcon}
+        className={`${className}__input`}
         mask={mask}
-        onChange={(event: any) => setValue(event.target.value)}
+        onChange={handleChange}
         {...rest}
       />
       {showPasswordReveal && <PasswordReveal
@@ -65,7 +78,7 @@ export const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps
       />}
       {showSearchClear && <SearchClear
         theme={theme}
-        onClearSearch={setValue}
+        onClearSearch={clearSearch}
         searchIcon={searchIcon}
       />}
       {icon && <CustomIcon
@@ -133,5 +146,19 @@ export const FieldComponent = styled.input`
 
   &:hover:not(:read-only):not(:disabled):not(:focus) {
     box-shadow: ${getProp('palette', 'text', 'secondary')} 0 0 0 1px;
+  }
+
+  &[type="text"]::-ms-clear,
+  &[type="text"]::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  &[type="search"]::-webkit-search-decoration,
+  &[type="search"]::-webkit-search-cancel-button,
+  &[type="search"]::-webkit-search-results-button,
+  &[type="search"]::-webkit-search-results-decoration {
+    display: none;
   }
 `;

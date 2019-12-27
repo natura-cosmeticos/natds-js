@@ -30,6 +30,7 @@ const backgroundStyles = {
 }
 
 const storyStyles = {
+  width: '100%',
   position: 'relative',
   zIndex: 1
 }

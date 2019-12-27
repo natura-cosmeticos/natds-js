@@ -108,6 +108,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -158,7 +172,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -307,6 +321,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -357,7 +385,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -942,6 +970,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -985,7 +1027,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1100,6 +1142,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1150,7 +1206,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1265,6 +1321,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1315,7 +1385,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1912,6 +1982,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1962,7 +2046,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={true}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={true}
       id="field"
       label="Label"
@@ -2559,6 +2643,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2615,7 +2713,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -3454,6 +3552,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3504,7 +3616,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -3619,6 +3731,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3669,7 +3795,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       hasIcon={false}
       helpText="Assistive text"
@@ -4035,6 +4161,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4085,7 +4225,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <textarea
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -4200,6 +4340,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4250,7 +4404,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -4365,6 +4519,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c2[type="text"]::-ms-clear,
+.c2[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c2[type="search"]::-webkit-search-decoration,
+.c2[type="search"]::-webkit-search-cancel-button,
+.c2[type="search"]::-webkit-search-results-button,
+.c2[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4400,7 +4568,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c2"
+      className="c2 undefined__input"
       disabled={false}
       id="field"
       label={null}
@@ -4515,6 +4683,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4565,7 +4747,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -5162,6 +5344,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5218,7 +5414,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -5575,6 +5771,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #BBBBBB 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5625,7 +5835,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"

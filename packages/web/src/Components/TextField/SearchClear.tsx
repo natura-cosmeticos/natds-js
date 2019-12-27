@@ -29,7 +29,7 @@ export const SearchClear: FunctionComponent<ISearchClear> = (props: ISearchClear
   return (
     <Component
       theme={theme}
-      onClick={() => onClearSearch("")}
+      onClick={onClearSearch}
     />
   );
 };
