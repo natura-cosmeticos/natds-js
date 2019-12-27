@@ -27,7 +27,8 @@ export default function IconDisplay(props: IIconDisplayProps) {
     setQuery(event.target.value);
   };
 
-  const list = searcher.search(query.replace(' ', ''));
+  const param = query ? query.replace(' ', '') : '';
+  const list = searcher.search(param);
 
   return (
     <div className="icons">
