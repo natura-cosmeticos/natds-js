@@ -22,7 +22,6 @@ const positions: any = {
 export const Interactive = () => {
   const useStyles = makeStyles(theme => ({
     root: {
-      flexGrow: 1,
       width: '500px',
     },
     menuButton: {
