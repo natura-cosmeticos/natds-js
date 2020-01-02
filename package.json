@@ -31,7 +31,7 @@
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "build": "echo \"Use \\033[0;33m'yarn build:libs'\\033[0m instead\"",
     "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
-    "verify": "yarn build:libs && yarn lerna run verify",
+    "verify": "yarn build:libs && yarn lerna run verify --stream",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\"",
     "version": "echo $npm_package_version",
     "build:docs:prerelease": "bash scripts/build-pre-release.sh",
