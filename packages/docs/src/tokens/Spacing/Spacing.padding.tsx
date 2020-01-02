@@ -18,8 +18,6 @@ function buildLists(spacing: ISpacing) {
     spacingHuge
   } = spacing;
 
-  console.log(spacing)
-
   const paddingFull = [
     {
       name: 'p={spacingHuge}',
