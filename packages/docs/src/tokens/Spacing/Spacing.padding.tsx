@@ -15,14 +15,16 @@ function buildLists(spacing: ISpacing) {
     spacingStandard,
     spacingSemi,
     spacingLarge,
-    spacingXLarge
+    spacingHuge
   } = spacing;
+
+  console.log(spacing)
 
   const paddingFull = [
     {
-      name: 'p={spacingXLarge}',
-      border: `${spacingXLarge}px`,
-      value: spacingXLarge
+      name: 'p={spacingHuge}',
+      border: `${spacingHuge}px`,
+      value: spacingHuge
     },
     {
       name: 'p={spacingLarge}',
@@ -58,9 +60,9 @@ function buildLists(spacing: ISpacing) {
 
   const paddingSingle = [
     {
-      name: 'pt={spacingXLarge}',
-      border: `${spacingXLarge}px 0 0`,
-      value: spacingXLarge
+      name: 'pt={spacingHuge}',
+      border: `${spacingHuge}px 0 0`,
+      value: spacingHuge
     },
     {
       name: 'pr={spacingLarge}',
