@@ -21,7 +21,7 @@ On how to use please refer to the [README](./packages/styles/README.md) of the s
 
 ## Docs
 
-Our official docs can be found [here](https://natura-cosmeticos.github.io/natds/?path=/story/design-tokens-colors--natura).
+Our official docs can be found [here](https://natds-js.netlify.com/).
 
 ## How to contribute
 
