@@ -1,0 +1,475 @@
+@font-face {
+  font-family: "natds-icons";
+  font-style: normal;
+  font-weight: 400;
+  font-display: auto;
+  src: url("./fonts/natds-icons.eot");
+  src: url("./fonts/natds-icons.eot?#iefix") format("embedded-opentype"), url("./fonts/natds-icons.woff2") format("woff2"), url("./fonts/natds-icons.woff") format("woff"), url("./fonts/natds-icons.ttf") format("truetype"), url("./fonts/natds-icons.svg#natds-icons") format("svg");
+}
+
+.natds-icons {
+  display: inline-block;
+  font-family: "natds-icons";
+  font-weight: 400;
+  font-style: normal;
+  font-variant: normal;
+  text-rendering: auto;
+  line-height: 1;
+  -moz-osx-font-smoothing: grayscale;
+  -webkit-font-smoothing: antialiased;
+}
+
+.natds-icons-lg {
+  font-size: 1.33333em;
+  line-height: 0.75em;
+  vertical-align: -0.0667em;
+}
+
+.natds-icons-xs {
+  font-size: 0.75em;
+}
+
+.natds-icons-sm {
+  font-size: 0.875em;
+}
+
+.natds-icons-1x {
+  font-size: 1em;
+}
+
+.natds-icons-2x {
+  font-size: 2em;
+}
+
+.natds-icons-3x {
+  font-size: 3em;
+}
+
+.natds-icons-4x {
+  font-size: 4em;
+}
+
+.natds-icons-5x {
+  font-size: 5em;
+}
+
+.natds-icons-6x {
+  font-size: 6em;
+}
+
+.natds-icons-7x {
+  font-size: 7em;
+}
+
+.natds-icons-8x {
+  font-size: 8em;
+}
+
+.natds-icons-9x {
+  font-size: 9em;
+}
+
+.natds-icons-10x {
+  font-size: 10em;
+}
+
+.natds-icons-fw {
+  text-align: center;
+  width: 1.25em;
+}
+
+.natds-icons-border {
+  border: solid 0.08em #eee;
+  border-radius: 0.1em;
+  padding: 0.2em 0.25em 0.15em;
+}
+
+.natds-icons-pull-left {
+  float: left;
+}
+
+.natds-icons-pull-right {
+  float: right;
+}
+
+.natds-icons.natds-icons-pull-left {
+  margin-right: 0.3em;
+}
+
+.natds-icons.natds-icons-pull-right {
+  margin-left: 0.3em;
+}
+
+
+.natds-icons-filled-action-add::before {
+  content: "\ea01";
+}
+
+.natds-icons-filled-action-cancel::before {
+  content: "\ea02";
+}
+
+.natds-icons-filled-action-check::before {
+  content: "\ea03";
+}
+
+.natds-icons-filled-action-rating::before {
+  content: "\ea04";
+}
+
+.natds-icons-filled-action-subtract::before {
+  content: "\ea05";
+}
+
+.natds-icons-filled-brand-naturarosacea::before {
+  content: "\ea06";
+}
+
+.natds-icons-filled-media-pause::before {
+  content: "\ea07";
+}
+
+.natds-icons-filled-media-play::before {
+  content: "\ea08";
+}
+
+.natds-icons-filled-navigation-directionleft::before {
+  content: "\ea09";
+}
+
+.natds-icons-filled-navigation-directionright::before {
+  content: "\ea0a";
+}
+
+.natds-icons-filled-navigation-directiontbottom::before {
+  content: "\ea0b";
+}
+
+.natds-icons-filled-navigation-directiontop::before {
+  content: "\ea0c";
+}
+
+.natds-icons-filled-navigation-menu::before {
+  content: "\ea0d";
+}
+
+.natds-icons-filled-navigation-more::before {
+  content: "\ea0e";
+}
+
+.natds-icons-outlined-communication-occurrence::before {
+  content: "\ea0f";
+}
+
+.natds-icons-outlined-content-adddocument::before {
+  content: "\ea10";
+}
+
+.natds-icons-outlined-content-agility::before {
+  content: "\ea11";
+}
+
+.natds-icons-outlined-content-book::before {
+  content: "\ea12";
+}
+
+.natds-icons-outlined-content-brightness::before {
+  content: "\ea13";
+}
+
+.natds-icons-outlined-content-changeview::before {
+  content: "\ea14";
+}
+
+.natds-icons-outlined-content-channel::before {
+  content: "\ea15";
+}
+
+.natds-icons-outlined-content-christmascard::before {
+  content: "\ea16";
+}
+
+.natds-icons-outlined-content-consistency::before {
+  content: "\ea17";
+}
+
+.natds-icons-outlined-content-divulgation::before {
+  content: "\ea18";
+}
+
+.natds-icons-outlined-content-education::before {
+  content: "\ea19";
+}
+
+.natds-icons-outlined-content-gift::before {
+  content: "\ea1a";
+}
+
+.natds-icons-outlined-content-global::before {
+  content: "\ea1b";
+}
+
+.natds-icons-outlined-content-health::before {
+  content: "\ea1c";
+}
+
+.natds-icons-outlined-content-lock::before {
+  content: "\ea1d";
+}
+
+.natds-icons-outlined-content-magic::before {
+  content: "\ea1e";
+}
+
+.natds-icons-outlined-content-medal::before {
+  content: "\ea1f";
+}
+
+.natds-icons-outlined-content-menu::before {
+  content: "\ea20";
+}
+
+.natds-icons-outlined-content-mirror::before {
+  content: "\ea21";
+}
+
+.natds-icons-outlined-content-produtivity::before {
+  content: "\ea22";
+}
+
+.natds-icons-outlined-content-store::before {
+  content: "\ea23";
+}
+
+.natds-icons-outlined-content-wifi::before {
+  content: "\ea24";
+}
+
+.natds-icons-outlined-finance-bag::before {
+  content: "\ea25";
+}
+
+.natds-icons-outlined-finance-cards::before {
+  content: "\ea26";
+}
+
+.natds-icons-outlined-finance-charging::before {
+  content: "\ea27";
+}
+
+.natds-icons-outlined-finance-creditcard::before {
+  content: "\ea28";
+}
+
+.natds-icons-outlined-finance-debit::before {
+  content: "\ea29";
+}
+
+.natds-icons-outlined-finance-discount::before {
+  content: "\ea2a";
+}
+
+.natds-icons-outlined-finance-littlemachine::before {
+  content: "\ea2b";
+}
+
+.natds-icons-outlined-finance-money::before {
+  content: "\ea2c";
+}
+
+.natds-icons-outlined-finance-moneypaper::before {
+  content: "\ea2d";
+}
+
+.natds-icons-outlined-finance-promotion::before {
+  content: "\ea2e";
+}
+
+.natds-icons-outlined-finance-shoppingcart::before {
+  content: "\ea2f";
+}
+
+.natds-icons-outlined-finance-shoppingcartproduct::before {
+  content: "\ea30";
+}
+
+.natds-icons-outlined-finance-tagdiscount::before {
+  content: "\ea31";
+}
+
+.natds-icons-outlined-finance-transfermoney::before {
+  content: "\ea32";
+}
+
+.natds-icons-outlined-media-app::before {
+  content: "\ea33";
+}
+
+.natds-icons-outlined-media-camera::before {
+  content: "\ea34";
+}
+
+.natds-icons-outlined-media-monitor::before {
+  content: "\ea35";
+}
+
+.natds-icons-outlined-media-play::before {
+  content: "\ea36";
+}
+
+.natds-icons-outlined-navigation-arrowbottom::before {
+  content: "\ea37";
+}
+
+.natds-icons-outlined-navigation-arrowleft::before {
+  content: "\ea38";
+}
+
+.natds-icons-outlined-navigation-arrowright::before {
+  content: "\ea39";
+}
+
+.natds-icons-outlined-navigation-arrowtop::before {
+  content: "\ea3a";
+}
+
+.natds-icons-outlined-navigation-close::before {
+  content: "\ea3b";
+}
+
+.natds-icons-outlined-navigation-directionbottom::before {
+  content: "\ea3c";
+}
+
+.natds-icons-outlined-navigation-directionleft::before {
+  content: "\ea3d";
+}
+
+.natds-icons-outlined-navigation-directionright::before {
+  content: "\ea3e";
+}
+
+.natds-icons-outlined-navigation-directiontop::before {
+  content: "\ea3f";
+}
+
+.natds-icons-outlined-navigation-exit::before {
+  content: "\ea40";
+}
+
+.natds-icons-outlined-navigation-goback::before {
+  content: "\ea41";
+}
+
+.natds-icons-outlined-navigation-gofront::before {
+  content: "\ea42";
+}
+
+.natds-icons-outlined-navigation-home::before {
+  content: "\ea43";
+}
+
+.natds-icons-outlined-navigation-menu::before {
+  content: "\ea44";
+}
+
+.natds-icons-outlined-place-bus::before {
+  content: "\ea45";
+}
+
+.natds-icons-outlined-place-forklift::before {
+  content: "\ea46";
+}
+
+.natds-icons-outlined-place-local::before {
+  content: "\ea47";
+}
+
+.natds-icons-outlined-place-truck::before {
+  content: "\ea48";
+}
+
+.natds-icons-outlined-place-waze::before {
+  content: "\ea49";
+}
+
+.natds-icons-outlined-product-bagproduct::before {
+  content: "\ea4a";
+}
+
+.natds-icons-outlined-product-beard::before {
+  content: "\ea4b";
+}
+
+.natds-icons-outlined-product-brandsproduct::before {
+  content: "\ea4c";
+}
+
+.natds-icons-outlined-product-childish::before {
+  content: "\ea4d";
+}
+
+.natds-icons-outlined-product-dailycare::before {
+  content: "\ea4e";
+}
+
+.natds-icons-outlined-product-hair::before {
+  content: "\ea4f";
+}
+
+.natds-icons-outlined-product-makeup::before {
+  content: "\ea50";
+}
+
+.natds-icons-outlined-product-outlet::before {
+  content: "\ea51";
+}
+
+.natds-icons-outlined-product-perfumery::before {
+  content: "\ea52";
+}
+
+.natds-icons-outlined-product-vegan::before {
+  content: "\ea53";
+}
+
+.natds-icons-outlined-produtct-promotionproduct::before {
+  content: "\ea54";
+}
+
+.natds-icons-outlined-social-addcontact::before {
+  content: "\ea55";
+}
+
+.natds-icons-outlined-social-birthday::before {
+  content: "\ea56";
+}
+
+.natds-icons-outlined-social-collaborate::before {
+  content: "\ea57";
+}
+
+.natds-icons-outlined-social-contact::before {
+  content: "\ea58";
+}
+
+.natds-icons-outlined-social-digitalconsultant::before {
+  content: "\ea59";
+}
+
+.natds-icons-outlined-social-groupofpeople::before {
+  content: "\ea5a";
+}
+
+.natds-icons-outlined-social-myprofile::before {
+  content: "\ea5b";
+}
+
+.natds-icons-outlined-social-network::before {
+  content: "\ea5c";
+}
+
+.natds-icons-outlined-social-person::before {
+  content: "\ea5d";
+}
+

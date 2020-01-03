@@ -4,7 +4,7 @@ import { expect } from 'chai';
 import { assert, spy } from 'sinon';
 import renderer from 'react-test-renderer';
 
-import IconButton from '../Components/IconButton';
+import { IconButton } from '../Components/IconButton';
 
 const MockedIcon = () => {
   return (

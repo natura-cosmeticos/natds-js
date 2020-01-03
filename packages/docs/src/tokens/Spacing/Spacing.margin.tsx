@@ -14,14 +14,14 @@ function buildLists(spacing: any) {
     spacingStandard,
     spacingSemi,
     spacingLarge,
-    spacingXLarge
+    spacingHuge
   } = spacing;
 
   const marginFull = [
     {
-      name: 'm={spacingXLarge}',
-      margin: `${spacingXLarge}px`,
-      value: spacingXLarge,
+      name: 'm={spacingHuge}',
+      margin: `${spacingHuge}px`,
+      value: spacingHuge,
       type: 'big'
     },
     {
@@ -34,9 +34,9 @@ function buildLists(spacing: any) {
 
   const marginSingle = [
     {
-      name: 'mt={spacingXLarge}',
-      margin: `${spacingXLarge}px 0 0`,
-      value: spacingXLarge
+      name: 'mt={spacingHuge}',
+      margin: `${spacingHuge}px 0 0`,
+      value: spacingHuge
     },
     {
       name: 'mr={spacingLarge}',

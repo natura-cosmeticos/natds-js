@@ -1,15 +1,25 @@
-import { natura } from "./tokens/colors/natura/natura";
-import { spacing } from "./tokens/spacing/spacing";
-import { avatarSizes } from "./tokens/avatarSizes/avatarSizes";
-import { fontSize } from "./tokens/fontSize/fontSize";
-import { buttonSize } from "./tokens/buttonSize/buttonSize";
+import { avatarSizes } from "./tokens/avatarSizes";
+import { buttonSizes } from "./tokens/buttonSizes";
+import { natura } from "./tokens/colors/natura";
+import { elevation } from './tokens/elevation';
+import { fontSize } from "./tokens/fontSize";
+import { iconSizes } from "./tokens/iconSizes";
+import { opacity } from './tokens/opacity';
+import { overlay } from './tokens/overlay';
+import { radius } from './tokens/radius';
+import { sizes } from "./tokens/sizes";
+import { spacing } from "./tokens/spacing";
 
 export default {
-  colors: {
-    natura
-  },
   avatarSizes,
-  spacing,
+  buttonSizes,
+  colors: { natura },
+  elevation,
   fontSize,
-  buttonSize
+  iconSizes,
+  opacity,
+  overlay,
+  radius,
+  sizes,
+  spacing
 };

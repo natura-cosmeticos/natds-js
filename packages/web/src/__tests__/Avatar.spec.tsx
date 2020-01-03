@@ -87,10 +87,10 @@ describe('Avatar component', () => {
       expect(component).to.matchSnapshot('Avatar Size large snapshot');
     });
 
-    test('should match snapshot - Avatar Size xlarge', () => {
-      const component = renderer.create(<Avatar size="xlarge" theme={theme} />).toJSON();
+    test('should match snapshot - Avatar Size huge', () => {
+      const component = renderer.create(<Avatar size="huge" theme={theme} />).toJSON();
 
-      expect(component).to.matchSnapshot('Avatar Size xlarge snapshot');
+      expect(component).to.matchSnapshot('Avatar Size huge snapshot');
     });
 
     test('should not apply width and height if without theme', () => {

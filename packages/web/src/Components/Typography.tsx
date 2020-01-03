@@ -1,7 +1,6 @@
 import * as React from 'react';
-import { Typography as MaterialTypography } from '@material-ui/core';
 import { withTheme } from '@material-ui/styles';
-import { TypographyClassKey } from '@material-ui/core/Typography';
+import MaterialTypography, { TypographyClassKey, TypographyProps } from '@material-ui/core/Typography';
 
 type TypographyVariant =
   | 'h1'
@@ -29,7 +28,7 @@ type TypographyColor =
   | 'textSecondary'
   | 'error';
 
-interface ITypographyProps {
+export interface ITypographyProps extends TypographyProps {
   /**
    * Variant to be used with the theme definitions for typography, defaulting to 'body1'
    */
@@ -54,28 +53,40 @@ interface ITypographyProps {
    * Children nodes to apply the typography
    */
   children: React.ReactNode;
+  /**
+   * The component used for the root node. Either a string to use a DOM element or a component. By default, it maps the variant to a good default headline component
+   */
+  component?: React.ElementType<React.HTMLAttributes<HTMLElement>>;
+  /**
+   * If true and component property is undefined, the component used for Root Node will be `p`
+   */
+  paragraph?: boolean;
+  /**
+   * Maps the internal html tag variants, where the key is variant and the value is the tag to use. Alternatively, use the component property
+   */
+  variantMapping?: object;
 }
 
-const Typography: React.FunctionComponent<ITypographyProps> = (
-  props: ITypographyProps
+export const Typography: React.FunctionComponent<ITypographyProps> = React.forwardRef((
+  props: ITypographyProps,
+  ref: any
 ) => {
-  const variant = props.variant ? props.variant : 'body1';
-  const align = props.align ? props.align : 'inherit';
-  const classes = props.classes ? props.classes : {};
-  const color = props.color ? props.color : undefined;
-  const noWrap = props.noWrap === undefined ? false : props.noWrap;
+  const {
+    variant = 'body1',
+    align = 'inherit',
+    ...rest
+  } = props;
 
   return (
     <MaterialTypography
       variant={variant}
       align={align}
-      classes={classes}
-      color={color}
-      noWrap={noWrap}
+      ref={ref}
+      {...rest}
     >
       {props.children}
     </MaterialTypography>
   );
-};
+});
 
 export default withTheme(Typography);

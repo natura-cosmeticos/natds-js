@@ -1,6 +1,6 @@
 {
   "name": "natds",
-  "version": "0.1.3",
+  "version": "0.2.0-alpha.44",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "MIT",
   "keywords": [
@@ -34,11 +34,13 @@
     "verify": "yarn build:libs && yarn lerna run verify",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/mobile && yarn watch\" \"cd packages/web && yarn watch\"",
     "version": "echo $npm_package_version",
-    "build:docs:prerelease": "bash scripts/build-pre-release.sh"
+    "build:docs:prerelease": "bash scripts/build-pre-release.sh",
+    "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons"
   },
   "private": true,
   "workspaces": {
     "packages": [
+      "packages/icons",
       "packages/styles",
       "packages/web",
       "packages/mobile",
@@ -58,17 +60,19 @@
     ]
   },
   "devDependencies": {
-    "commitizen": "4.0.3",
+    "commitizen": "^4.0.3",
     "concurrently": "^5.0.0",
-    "cz-lerna-changelog": "2.0.2",
-    "husky": "3.0.9",
-    "lerna": "3.18.4",
-    "semantic-release": "15.13.30"
+    "cz-lerna-changelog": "^2.0.2",
+    "husky": "^3.1.0",
+    "lerna": "^3.19.0",
+    "semantic-release": "^15.13.31"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
   },
-  "dependencies": {}
+  "dependencies": {
+    "glob": "7.1.4"
+  }
 }

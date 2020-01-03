@@ -23,7 +23,7 @@ export function buildTheme(
     typography,
     spacing,
     avatarSizes,
-    buttonSize,
+    buttonSizes,
   } = provider;
 
   const {
@@ -32,7 +32,8 @@ export function buildTheme(
     error: { main: error } = { main: undefined },
     background = {},
     text = {},
-    success: { main: success } = { main: undefined }
+    success: { main: success } = { main: undefined },
+    complementary
   } = palette;
 
   const defaultColors = DefaultTheme.colors;
@@ -127,6 +128,8 @@ export function buildTheme(
     onSurface: text.secondary ? text.secondary : defaultColors.onSurface,
     disabled: text.disabled ? text.disabled : defaultColors.disabled,
     placeholder: text.hint ? text.hint : defaultColors.placeholder,
+    link: complementary ? complementary.link : '#227BBD',
+    warning: complementary ? complementary.warning : '#FCC433',
   };
 
   const roundness =
@@ -317,7 +320,8 @@ export function buildTheme(
       },
     },
     avatarSizes,
-    buttonSize,
+    buttonSizes,
+    badgeBorderRadius: shape && shape.badgeBorderRadius ? shape.badgeBorderRadius : 100
   };
 
   return newTheme;

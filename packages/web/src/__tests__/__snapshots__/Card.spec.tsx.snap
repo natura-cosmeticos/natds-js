@@ -1,0 +1,1147 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card components rendering variants should match to snapshot - empty card: Card empty snapshot 1`] = `
+<WithTheme(Card)>
+  <Card>
+    <WithStyles(ForwardRef(Card))>
+      <ForwardRef(Card)
+        classes={
+          Object {
+            "root": "MuiCard-root",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="MuiCard-root"
+          elevation={1}
+        >
+          <ForwardRef(Paper)
+            className="MuiCard-root"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
+              }
+            }
+            elevation={1}
+          >
+            <div
+              className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+            />
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
+      </ForwardRef(Card)>
+    </WithStyles(ForwardRef(Card))>
+  </Card>
+</WithTheme(Card)>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with action area: Card with action area snapshot 1`] = `
+<WithTheme(Card)>
+  <Card>
+    <WithStyles(ForwardRef(Card))>
+      <ForwardRef(Card)
+        classes={
+          Object {
+            "root": "MuiCard-root",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="MuiCard-root"
+          elevation={1}
+        >
+          <ForwardRef(Paper)
+            className="MuiCard-root"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
+              }
+            }
+            elevation={1}
+          >
+            <div
+              className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+            >
+              <WithTheme(CardActionArea)>
+                <CardActionArea>
+                  <WithStyles(ForwardRef(CardActionArea))>
+                    <ForwardRef(CardActionArea)
+                      classes={
+                        Object {
+                          "focusHighlight": "MuiCardActionArea-focusHighlight",
+                          "focusVisible": "Mui-focusVisible",
+                          "root": "MuiCardActionArea-root",
+                        }
+                      }
+                    >
+                      <WithStyles(ForwardRef(ButtonBase))
+                        className="MuiCardActionArea-root"
+                        focusVisibleClassName="Mui-focusVisible"
+                      >
+                        <ForwardRef(ButtonBase)
+                          className="MuiCardActionArea-root"
+                          classes={
+                            Object {
+                              "disabled": "Mui-disabled",
+                              "focusVisible": "Mui-focusVisible",
+                              "root": "MuiButtonBase-root",
+                            }
+                          }
+                          focusVisibleClassName="Mui-focusVisible"
+                        >
+                          <button
+                            className="MuiButtonBase-root MuiCardActionArea-root"
+                            disabled={false}
+                            onBlur={[Function]}
+                            onDragLeave={[Function]}
+                            onFocus={[Function]}
+                            onKeyDown={[Function]}
+                            onKeyUp={[Function]}
+                            onMouseDown={[Function]}
+                            onMouseLeave={[Function]}
+                            onMouseUp={[Function]}
+                            onTouchEnd={[Function]}
+                            onTouchMove={[Function]}
+                            onTouchStart={[Function]}
+                            tabIndex={0}
+                            type="button"
+                          >
+                            Lorem Ipsum
+                            <span
+                              className="MuiCardActionArea-focusHighlight"
+                            />
+                            <NoSsr>
+                              <WithStyles(undefined)
+                                center={false}
+                              >
+                                <ForwardRef(TouchRipple)
+                                  center={false}
+                                  classes={
+                                    Object {
+                                      "child": "MuiTouchRipple-child",
+                                      "childLeaving": "MuiTouchRipple-childLeaving",
+                                      "childPulsate": "MuiTouchRipple-childPulsate",
+                                      "ripple": "MuiTouchRipple-ripple",
+                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                      "root": "MuiTouchRipple-root",
+                                    }
+                                  }
+                                >
+                                  <span
+                                    className="MuiTouchRipple-root"
+                                  >
+                                    <TransitionGroup
+                                      childFactory={[Function]}
+                                      component={null}
+                                      exit={true}
+                                    />
+                                  </span>
+                                </ForwardRef(TouchRipple)>
+                              </WithStyles(undefined)>
+                            </NoSsr>
+                          </button>
+                        </ForwardRef(ButtonBase)>
+                      </WithStyles(ForwardRef(ButtonBase))>
+                    </ForwardRef(CardActionArea)>
+                  </WithStyles(ForwardRef(CardActionArea))>
+                </CardActionArea>
+              </WithTheme(CardActionArea)>
+            </div>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
+      </ForwardRef(Card)>
+    </WithStyles(ForwardRef(Card))>
+  </Card>
+</WithTheme(Card)>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with actions: Card with actions snapshot 1`] = `
+<WithTheme(Card)>
+  <Card>
+    <WithStyles(ForwardRef(Card))>
+      <ForwardRef(Card)
+        classes={
+          Object {
+            "root": "MuiCard-root",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="MuiCard-root"
+          elevation={1}
+        >
+          <ForwardRef(Paper)
+            className="MuiCard-root"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
+              }
+            }
+            elevation={1}
+          >
+            <div
+              className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+            >
+              <WithTheme(CardActions)>
+                <CardActions>
+                  <WithStyles(ForwardRef(CardActions))>
+                    <ForwardRef(CardActions)
+                      classes={
+                        Object {
+                          "root": "MuiCardActions-root",
+                          "spacing": "MuiCardActions-spacing",
+                        }
+                      }
+                    >
+                      <div
+                        className="MuiCardActions-root MuiCardActions-spacing"
+                      >
+                        <WithTheme(Component)>
+                          <Component>
+                            <WithStyles(ForwardRef(Button))>
+                              <ForwardRef(Button)
+                                classes={
+                                  Object {
+                                    "colorInherit": "MuiButton-colorInherit",
+                                    "contained": "MuiButton-contained",
+                                    "containedPrimary": "MuiButton-containedPrimary",
+                                    "containedSecondary": "MuiButton-containedSecondary",
+                                    "containedSizeLarge": "MuiButton-containedSizeLarge",
+                                    "containedSizeSmall": "MuiButton-containedSizeSmall",
+                                    "disabled": "Mui-disabled",
+                                    "endIcon": "MuiButton-endIcon",
+                                    "focusVisible": "Mui-focusVisible",
+                                    "fullWidth": "MuiButton-fullWidth",
+                                    "iconSizeLarge": "MuiButton-iconSizeLarge",
+                                    "iconSizeMedium": "MuiButton-iconSizeMedium",
+                                    "iconSizeSmall": "MuiButton-iconSizeSmall",
+                                    "label": "MuiButton-label",
+                                    "outlined": "MuiButton-outlined",
+                                    "outlinedPrimary": "MuiButton-outlinedPrimary",
+                                    "outlinedSecondary": "MuiButton-outlinedSecondary",
+                                    "outlinedSizeLarge": "MuiButton-outlinedSizeLarge",
+                                    "outlinedSizeSmall": "MuiButton-outlinedSizeSmall",
+                                    "root": "MuiButton-root",
+                                    "sizeLarge": "MuiButton-sizeLarge",
+                                    "sizeSmall": "MuiButton-sizeSmall",
+                                    "startIcon": "MuiButton-startIcon",
+                                    "text": "MuiButton-text",
+                                    "textPrimary": "MuiButton-textPrimary",
+                                    "textSecondary": "MuiButton-textSecondary",
+                                    "textSizeLarge": "MuiButton-textSizeLarge",
+                                    "textSizeSmall": "MuiButton-textSizeSmall",
+                                  }
+                                }
+                              >
+                                <WithStyles(ForwardRef(ButtonBase))
+                                  className="MuiButton-root MuiButton-text"
+                                  component="button"
+                                  disabled={false}
+                                  focusRipple={true}
+                                  focusVisibleClassName="Mui-focusVisible"
+                                  type="button"
+                                >
+                                  <ForwardRef(ButtonBase)
+                                    className="MuiButton-root MuiButton-text"
+                                    classes={
+                                      Object {
+                                        "disabled": "Mui-disabled",
+                                        "focusVisible": "Mui-focusVisible",
+                                        "root": "MuiButtonBase-root",
+                                      }
+                                    }
+                                    component="button"
+                                    disabled={false}
+                                    focusRipple={true}
+                                    focusVisibleClassName="Mui-focusVisible"
+                                    type="button"
+                                  >
+                                    <button
+                                      className="MuiButtonBase-root MuiButton-root MuiButton-text"
+                                      disabled={false}
+                                      onBlur={[Function]}
+                                      onDragLeave={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      onKeyUp={[Function]}
+                                      onMouseDown={[Function]}
+                                      onMouseLeave={[Function]}
+                                      onMouseUp={[Function]}
+                                      onTouchEnd={[Function]}
+                                      onTouchMove={[Function]}
+                                      onTouchStart={[Function]}
+                                      tabIndex={0}
+                                      type="button"
+                                    >
+                                      <span
+                                        className="MuiButton-label"
+                                      >
+                                        Action
+                                      </span>
+                                      <NoSsr>
+                                        <WithStyles(undefined)
+                                          center={false}
+                                        >
+                                          <ForwardRef(TouchRipple)
+                                            center={false}
+                                            classes={
+                                              Object {
+                                                "child": "MuiTouchRipple-child",
+                                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                                "ripple": "MuiTouchRipple-ripple",
+                                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                "root": "MuiTouchRipple-root",
+                                              }
+                                            }
+                                          >
+                                            <span
+                                              className="MuiTouchRipple-root"
+                                            >
+                                              <TransitionGroup
+                                                childFactory={[Function]}
+                                                component={null}
+                                                exit={true}
+                                              />
+                                            </span>
+                                          </ForwardRef(TouchRipple)>
+                                        </WithStyles(undefined)>
+                                      </NoSsr>
+                                    </button>
+                                  </ForwardRef(ButtonBase)>
+                                </WithStyles(ForwardRef(ButtonBase))>
+                              </ForwardRef(Button)>
+                            </WithStyles(ForwardRef(Button))>
+                          </Component>
+                        </WithTheme(Component)>
+                      </div>
+                    </ForwardRef(CardActions)>
+                  </WithStyles(ForwardRef(CardActions))>
+                </CardActions>
+              </WithTheme(CardActions)>
+            </div>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
+      </ForwardRef(Card)>
+    </WithStyles(ForwardRef(Card))>
+  </Card>
+</WithTheme(Card)>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with collapse: Card with collapse snapshot 1`] = `
+<WithTheme(Card)>
+  <Card>
+    <WithStyles(ForwardRef(Card))>
+      <ForwardRef(Card)
+        classes={
+          Object {
+            "root": "MuiCard-root",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="MuiCard-root"
+          elevation={1}
+        >
+          <ForwardRef(Paper)
+            className="MuiCard-root"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
+              }
+            }
+            elevation={1}
+          >
+            <div
+              className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+            >
+              <Collapse
+                in={true}
+                timeout="auto"
+                unmountOnExit={true}
+              >
+                <WithStyles(ForwardRef(Collapse))
+                  in={true}
+                  timeout="auto"
+                  unmountOnExit={true}
+                >
+                  <ForwardRef(Collapse)
+                    classes={
+                      Object {
+                        "container": "MuiCollapse-container",
+                        "entered": "MuiCollapse-entered",
+                        "hidden": "MuiCollapse-hidden",
+                        "wrapper": "MuiCollapse-wrapper",
+                        "wrapperInner": "MuiCollapse-wrapperInner",
+                      }
+                    }
+                    in={true}
+                    timeout="auto"
+                    unmountOnExit={true}
+                  >
+                    <Transition
+                      addEndListener={[Function]}
+                      appear={false}
+                      enter={true}
+                      exit={true}
+                      in={true}
+                      mountOnEnter={false}
+                      onEnter={[Function]}
+                      onEntered={[Function]}
+                      onEntering={[Function]}
+                      onExit={[Function]}
+                      onExited={[Function]}
+                      onExiting={[Function]}
+                      timeout={null}
+                      unmountOnExit={true}
+                    >
+                      <div
+                        className="MuiCollapse-container MuiCollapse-entered"
+                        style={
+                          Object {
+                            "minHeight": "0px",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiCollapse-wrapper"
+                        >
+                          <div
+                            className="MuiCollapse-wrapperInner"
+                          >
+                            <WithStyles(ForwardRef(Typography))>
+                              <ForwardRef(Typography)
+                                classes={
+                                  Object {
+                                    "alignCenter": "MuiTypography-alignCenter",
+                                    "alignJustify": "MuiTypography-alignJustify",
+                                    "alignLeft": "MuiTypography-alignLeft",
+                                    "alignRight": "MuiTypography-alignRight",
+                                    "body1": "MuiTypography-body1",
+                                    "body2": "MuiTypography-body2",
+                                    "button": "MuiTypography-button",
+                                    "caption": "MuiTypography-caption",
+                                    "colorError": "MuiTypography-colorError",
+                                    "colorInherit": "MuiTypography-colorInherit",
+                                    "colorPrimary": "MuiTypography-colorPrimary",
+                                    "colorSecondary": "MuiTypography-colorSecondary",
+                                    "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                    "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                    "displayBlock": "MuiTypography-displayBlock",
+                                    "displayInline": "MuiTypography-displayInline",
+                                    "gutterBottom": "MuiTypography-gutterBottom",
+                                    "h1": "MuiTypography-h1",
+                                    "h2": "MuiTypography-h2",
+                                    "h3": "MuiTypography-h3",
+                                    "h4": "MuiTypography-h4",
+                                    "h5": "MuiTypography-h5",
+                                    "h6": "MuiTypography-h6",
+                                    "noWrap": "MuiTypography-noWrap",
+                                    "overline": "MuiTypography-overline",
+                                    "paragraph": "MuiTypography-paragraph",
+                                    "root": "MuiTypography-root",
+                                    "srOnly": "MuiTypography-srOnly",
+                                    "subtitle1": "MuiTypography-subtitle1",
+                                    "subtitle2": "MuiTypography-subtitle2",
+                                  }
+                                }
+                              >
+                                <p
+                                  className="MuiTypography-root MuiTypography-body1"
+                                >
+                                  Collapse text
+                                </p>
+                              </ForwardRef(Typography)>
+                            </WithStyles(ForwardRef(Typography))>
+                          </div>
+                        </div>
+                      </div>
+                    </Transition>
+                  </ForwardRef(Collapse)>
+                </WithStyles(ForwardRef(Collapse))>
+              </Collapse>
+            </div>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
+      </ForwardRef(Card)>
+    </WithStyles(ForwardRef(Card))>
+  </Card>
+</WithTheme(Card)>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with content: Card with content snapshot 1`] = `
+<WithTheme(Card)>
+  <Card>
+    <WithStyles(ForwardRef(Card))>
+      <ForwardRef(Card)
+        classes={
+          Object {
+            "root": "MuiCard-root",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="MuiCard-root"
+          elevation={1}
+        >
+          <ForwardRef(Paper)
+            className="MuiCard-root"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
+              }
+            }
+            elevation={1}
+          >
+            <div
+              className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+            >
+              <WithTheme(CardContent)>
+                <CardContent>
+                  <WithStyles(ForwardRef(CardContent))>
+                    <ForwardRef(CardContent)
+                      classes={
+                        Object {
+                          "root": "MuiCardContent-root",
+                        }
+                      }
+                    >
+                      <div
+                        className="MuiCardContent-root"
+                      >
+                        <WithStyles(ForwardRef(Typography))>
+                          <ForwardRef(Typography)
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
+                          >
+                            <p
+                              className="MuiTypography-root MuiTypography-body1"
+                            >
+                              Content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </div>
+                    </ForwardRef(CardContent)>
+                  </WithStyles(ForwardRef(CardContent))>
+                </CardContent>
+              </WithTheme(CardContent)>
+            </div>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
+      </ForwardRef(Card)>
+    </WithStyles(ForwardRef(Card))>
+  </Card>
+</WithTheme(Card)>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with header: Card with header snapshot 1`] = `
+<WithTheme(Card)>
+  <Card>
+    <WithStyles(ForwardRef(Card))>
+      <ForwardRef(Card)
+        classes={
+          Object {
+            "root": "MuiCard-root",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="MuiCard-root"
+          elevation={1}
+        >
+          <ForwardRef(Paper)
+            className="MuiCard-root"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
+              }
+            }
+            elevation={1}
+          >
+            <div
+              className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+            >
+              <WithTheme(CardHeader)
+                subheader="Header 2"
+                title="Header 1"
+              >
+                <CardHeader
+                  subheader="Header 2"
+                  title="Header 1"
+                >
+                  <WithStyles(ForwardRef(CardHeader))
+                    subheader="Header 2"
+                    title="Header 1"
+                  >
+                    <ForwardRef(CardHeader)
+                      classes={
+                        Object {
+                          "action": "MuiCardHeader-action",
+                          "avatar": "MuiCardHeader-avatar",
+                          "content": "MuiCardHeader-content",
+                          "root": "MuiCardHeader-root",
+                          "subheader": "MuiCardHeader-subheader",
+                          "title": "MuiCardHeader-title",
+                        }
+                      }
+                      subheader="Header 2"
+                      title="Header 1"
+                    >
+                      <div
+                        className="MuiCardHeader-root"
+                      >
+                        <div
+                          className="MuiCardHeader-content"
+                        >
+                          <WithStyles(ForwardRef(Typography))
+                            className="MuiCardHeader-title"
+                            component="span"
+                            display="block"
+                            variant="h5"
+                          >
+                            <ForwardRef(Typography)
+                              className="MuiCardHeader-title"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                              component="span"
+                              display="block"
+                              variant="h5"
+                            >
+                              <span
+                                className="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+                              >
+                                Header 1
+                              </span>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                          <WithStyles(ForwardRef(Typography))
+                            className="MuiCardHeader-subheader"
+                            color="textSecondary"
+                            component="span"
+                            display="block"
+                            variant="body1"
+                          >
+                            <ForwardRef(Typography)
+                              className="MuiCardHeader-subheader"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                              color="textSecondary"
+                              component="span"
+                              display="block"
+                              variant="body1"
+                            >
+                              <span
+                                className="MuiTypography-root MuiCardHeader-subheader MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+                              >
+                                Header 2
+                              </span>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </div>
+                      </div>
+                    </ForwardRef(CardHeader)>
+                  </WithStyles(ForwardRef(CardHeader))>
+                </CardHeader>
+              </WithTheme(CardHeader)>
+            </div>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
+      </ForwardRef(Card)>
+    </WithStyles(ForwardRef(Card))>
+  </Card>
+</WithTheme(Card)>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with media: Card with media snapshot 1`] = `
+<WithTheme(Card)>
+  <Card>
+    <WithStyles(ForwardRef(Card))>
+      <ForwardRef(Card)
+        classes={
+          Object {
+            "root": "MuiCard-root",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="MuiCard-root"
+          elevation={1}
+        >
+          <ForwardRef(Paper)
+            className="MuiCard-root"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
+              }
+            }
+            elevation={1}
+          >
+            <div
+              className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+            >
+              <WithTheme(CardMedia)
+                title="media image"
+              >
+                <CardMedia
+                  title="media image"
+                >
+                  <WithStyles(ForwardRef(CardMedia))
+                    title="media image"
+                  >
+                    <ForwardRef(CardMedia)
+                      classes={
+                        Object {
+                          "img": "MuiCardMedia-img",
+                          "media": "MuiCardMedia-media",
+                          "root": "MuiCardMedia-root",
+                        }
+                      }
+                      title="media image"
+                    >
+                      <div
+                        className="MuiCardMedia-root"
+                        title="media image"
+                      >
+                        image here
+                      </div>
+                    </ForwardRef(CardMedia)>
+                  </WithStyles(ForwardRef(CardMedia))>
+                </CardMedia>
+              </WithTheme(CardMedia)>
+            </div>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
+      </ForwardRef(Card)>
+    </WithStyles(ForwardRef(Card))>
+  </Card>
+</WithTheme(Card)>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with paper: Card with paper snapshot 1`] = `
+<WithTheme(Card)>
+  <Card>
+    <WithStyles(ForwardRef(Card))>
+      <ForwardRef(Card)
+        classes={
+          Object {
+            "root": "MuiCard-root",
+          }
+        }
+      >
+        <WithStyles(ForwardRef(Paper))
+          className="MuiCard-root"
+          elevation={1}
+        >
+          <ForwardRef(Paper)
+            className="MuiCard-root"
+            classes={
+              Object {
+                "elevation0": "MuiPaper-elevation0",
+                "elevation1": "MuiPaper-elevation1",
+                "elevation10": "MuiPaper-elevation10",
+                "elevation11": "MuiPaper-elevation11",
+                "elevation12": "MuiPaper-elevation12",
+                "elevation13": "MuiPaper-elevation13",
+                "elevation14": "MuiPaper-elevation14",
+                "elevation15": "MuiPaper-elevation15",
+                "elevation16": "MuiPaper-elevation16",
+                "elevation17": "MuiPaper-elevation17",
+                "elevation18": "MuiPaper-elevation18",
+                "elevation19": "MuiPaper-elevation19",
+                "elevation2": "MuiPaper-elevation2",
+                "elevation20": "MuiPaper-elevation20",
+                "elevation21": "MuiPaper-elevation21",
+                "elevation22": "MuiPaper-elevation22",
+                "elevation23": "MuiPaper-elevation23",
+                "elevation24": "MuiPaper-elevation24",
+                "elevation3": "MuiPaper-elevation3",
+                "elevation4": "MuiPaper-elevation4",
+                "elevation5": "MuiPaper-elevation5",
+                "elevation6": "MuiPaper-elevation6",
+                "elevation7": "MuiPaper-elevation7",
+                "elevation8": "MuiPaper-elevation8",
+                "elevation9": "MuiPaper-elevation9",
+                "root": "MuiPaper-root",
+                "rounded": "MuiPaper-rounded",
+              }
+            }
+            elevation={1}
+          >
+            <div
+              className="MuiPaper-root MuiPaper-elevation1 MuiCard-root MuiPaper-rounded"
+            >
+              <Paper>
+                <WithStyles(ForwardRef(Paper))>
+                  <ForwardRef(Paper)
+                    classes={
+                      Object {
+                        "elevation0": "MuiPaper-elevation0",
+                        "elevation1": "MuiPaper-elevation1",
+                        "elevation10": "MuiPaper-elevation10",
+                        "elevation11": "MuiPaper-elevation11",
+                        "elevation12": "MuiPaper-elevation12",
+                        "elevation13": "MuiPaper-elevation13",
+                        "elevation14": "MuiPaper-elevation14",
+                        "elevation15": "MuiPaper-elevation15",
+                        "elevation16": "MuiPaper-elevation16",
+                        "elevation17": "MuiPaper-elevation17",
+                        "elevation18": "MuiPaper-elevation18",
+                        "elevation19": "MuiPaper-elevation19",
+                        "elevation2": "MuiPaper-elevation2",
+                        "elevation20": "MuiPaper-elevation20",
+                        "elevation21": "MuiPaper-elevation21",
+                        "elevation22": "MuiPaper-elevation22",
+                        "elevation23": "MuiPaper-elevation23",
+                        "elevation24": "MuiPaper-elevation24",
+                        "elevation3": "MuiPaper-elevation3",
+                        "elevation4": "MuiPaper-elevation4",
+                        "elevation5": "MuiPaper-elevation5",
+                        "elevation6": "MuiPaper-elevation6",
+                        "elevation7": "MuiPaper-elevation7",
+                        "elevation8": "MuiPaper-elevation8",
+                        "elevation9": "MuiPaper-elevation9",
+                        "root": "MuiPaper-root",
+                        "rounded": "MuiPaper-rounded",
+                      }
+                    }
+                  >
+                    <div
+                      className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+                    >
+                      <WithStyles(ForwardRef(Typography))>
+                        <ForwardRef(Typography)
+                          classes={
+                            Object {
+                              "alignCenter": "MuiTypography-alignCenter",
+                              "alignJustify": "MuiTypography-alignJustify",
+                              "alignLeft": "MuiTypography-alignLeft",
+                              "alignRight": "MuiTypography-alignRight",
+                              "body1": "MuiTypography-body1",
+                              "body2": "MuiTypography-body2",
+                              "button": "MuiTypography-button",
+                              "caption": "MuiTypography-caption",
+                              "colorError": "MuiTypography-colorError",
+                              "colorInherit": "MuiTypography-colorInherit",
+                              "colorPrimary": "MuiTypography-colorPrimary",
+                              "colorSecondary": "MuiTypography-colorSecondary",
+                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                              "displayBlock": "MuiTypography-displayBlock",
+                              "displayInline": "MuiTypography-displayInline",
+                              "gutterBottom": "MuiTypography-gutterBottom",
+                              "h1": "MuiTypography-h1",
+                              "h2": "MuiTypography-h2",
+                              "h3": "MuiTypography-h3",
+                              "h4": "MuiTypography-h4",
+                              "h5": "MuiTypography-h5",
+                              "h6": "MuiTypography-h6",
+                              "noWrap": "MuiTypography-noWrap",
+                              "overline": "MuiTypography-overline",
+                              "paragraph": "MuiTypography-paragraph",
+                              "root": "MuiTypography-root",
+                              "srOnly": "MuiTypography-srOnly",
+                              "subtitle1": "MuiTypography-subtitle1",
+                              "subtitle2": "MuiTypography-subtitle2",
+                            }
+                          }
+                        >
+                          <p
+                            className="MuiTypography-root MuiTypography-body1"
+                          >
+                            Paper text
+                          </p>
+                        </ForwardRef(Typography)>
+                      </WithStyles(ForwardRef(Typography))>
+                    </div>
+                  </ForwardRef(Paper)>
+                </WithStyles(ForwardRef(Paper))>
+              </Paper>
+            </div>
+          </ForwardRef(Paper)>
+        </WithStyles(ForwardRef(Paper))>
+      </ForwardRef(Card)>
+    </WithStyles(ForwardRef(Card))>
+  </Card>
+</WithTheme(Card)>
+`;

@@ -3,8 +3,10 @@ import {
   ITheme,
   IFont,
 } from '@naturacosmeticos/natds-styles';
+import { createMuiTheme } from '@material-ui/core/styles';
 
-export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes'> {
+export interface IThemeWeb
+  extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes' | 'shadows'> {
   typography: {
     fontFamily?: string;
     fontFamilyBrand1?: string;
@@ -30,11 +32,26 @@ export interface IThemeWeb extends Pick<ITheme, 'shape' | 'palette' | 'avatarSiz
   };
 }
 
+function parseShadows(shadows: any): any[] {
+  const outShadows: any[] = [];
+
+  createMuiTheme({}).shadows.forEach((shadow, index) => {
+    if (shadows[index.toString()]) outShadows.push(shadows[index.toString()]);
+    else {
+      outShadows.push(shadow);
+    }
+  });
+
+  return outShadows;
+}
+
 function parseTheme(theme: ITheme): IThemeWeb {
   const { web } = theme.typography;
+  const { shadows } = theme;
 
   return {
     ...theme,
+    shadows: parseShadows(shadows),
     typography: {
       fontFamily: web.fontFamily,
       fontFamilyBrand1: web.fontFamilyBrand1,

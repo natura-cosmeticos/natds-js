@@ -1,0 +1,50 @@
+{
+  "name": "@naturacosmeticos/natds-icons",
+  "version": "0.1.0",
+  "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
+  "main": "dist/index.js",
+  "typings": "dist/index.d.ts",
+  "keywords": [
+    "design-system"
+  ],
+  "author": "Vizir Software Studio <contato@vizir.com.br>",
+  "contributors": [
+    "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
+    "Vagner Saraiva <vagner@vizir.com.br>",
+    "Matheus Robert Lichtnow <matheus@vizir.com.br>"
+  ],
+  "license": "MIT",
+  "homepage": "https://github.com/natura-cosmeticos/natds/packages/icons",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/natds.git",
+    "directory": "packages/icons"
+  },
+  "scripts": {
+    "build:clean": "rm -rf dist",
+    "build": "yarn build:deps && tsc -p ./tsconfig.json && yarn build:copyfiles",
+    "build:deps": "yarn build:clean && yarn build:cleansvgs && yarn build:fonts && yarn build:csstypes",
+    "build:cleansvgs": "node ./scripts/svgCleaner.js",
+    "build:fonts": "node ./scripts/svgToFont.js",
+    "build:csstypes": "tcm -o src src",
+    "build:copyfiles": "cp -r ./src/fonts ./dist && cp ./src/*.css ./dist",
+    "start": "yarn build --watch",
+    "watch": "yarn start",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "verify": "yarn lint"
+  },
+  "devDependencies": {
+    "glob": "7.1.6",
+    "svgo": "^1.3.2",
+    "typed-css-modules": "^0.6.3",
+    "typescript": "^3.6.4",
+    "webfont": "^9.0.0",
+    "yarn": "^1.21.1"
+  },
+  "publishConfig": {
+    "access": "public"
+  },
+  "files": [
+    "dist"
+  ]
+}

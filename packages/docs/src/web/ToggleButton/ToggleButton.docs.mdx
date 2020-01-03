@@ -1,0 +1,66 @@
+import { ToggleButton, Provider, themes } from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { attributes, colors, sizes, custom } from './sections';
+
+# ToggleButton
+
+---
+---
+
+## Colors
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={colors} />
+</Provider>
+
+---
+---
+
+## Sizes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={sizes} />
+</Provider>
+
+---
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+---
+
+## API
+
+```jsx highlight-line="2"
+import { ToggleButton } from '@naturacosmeticos/natds-web';
+
+<ToggleButton
+  color="primary"
+  iconOff={<Icon />}
+  iconOn={<Icon />}
+  checked={true}
+/>
+```
+
+---
+---
+
+| Name                      | Type                                            | Default                       | Description
+| :--                       | :-:                                             | :-:                           | :-:                       |
+| checked                   | bool                                            |                               | Changes the state.
+| iconOf                    | node                                            |                               | The icon element when checked.
+| iconOff                   | node                                            |                               | The icon element when not checked.
+| classes                   | object                                          |                               | Override or extend the styles applied to the component. See CSS API below for more details.
+| color                     | 'default', 'inherit', 'primary', 'secondary'    | 'default'                     | The color of the component. It supports those theme colors that make sense for this component.
+| disabled                  | bool                                            | false                         | If true, the Iconbutton will be disabled.
+| disableFocusRipple        | bool                                            | false                         | If true, the keyboard focus ripple will be disabled. disableRipple must also be true.
+| disableRipple             | bool                                            |                               | If true, the ripple effect will be disabled. ⚠️ Without a ripple there is no styling for :focus-visible by default. Be sure to highlight the element by applying separate styles with the focusVisibleClassName.
+| edge                      | 'start', 'end', false                           | false                         | If given, uses a negative margin to counteract the padding on one side (this is often helpful for aligning the left or right side of the icon with content above or below, without ruining the border size and shape).
+| size                      | 'small', 'medium'                               | 'medium'                      | The size of the Iconbutton. small is equivalent to the dense Iconbutton styling.
+
+ToggleButton extends IconButton. For more details consult the full [Material IconButton API](https://material-ui.com/api/icon-button/)

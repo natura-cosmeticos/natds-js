@@ -1,0 +1,27 @@
+.radius__container {
+  width: 100%;
+  padding: 30px;
+  font-family: Roboto, Arial, Helvetica, sans-serif;
+}
+
+.radius__container__title {
+  margin: 0 0 20px;
+  font-size: 1.25rem;
+  font-weight: 400;
+}
+
+.radius__item {
+  width: 100%;
+  height: 90px;
+  display: flex;
+  justify-content: flex-start;
+  flex-direction: row;
+  align-items: center;
+}
+
+.radius__box {
+  height: 70px;
+  width: 70px;
+  margin-right: 10px;
+  background-color: #F4AB34;
+}

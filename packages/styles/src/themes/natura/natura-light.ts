@@ -1,22 +1,31 @@
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
-import { fontSize } from "../../tokens/fontSize/fontSize";
-import { spacing } from "../../tokens/spacing/spacing";
-import { avatarSizes } from "../../tokens/avatarSizes/avatarSizes";
-import { buttonSize } from "../../tokens/buttonSize/buttonSize";
+import { fontSize } from "../../tokens/fontSize";
+import { spacing } from "../../tokens/spacing";
+import { avatarSizes } from "../../tokens/avatarSizes";
+import { buttonSizes } from "../../tokens/buttonSizes";
+import { elevation } from "../../tokens/elevation";
+import { iconSizes } from "../../tokens/iconSizes";
+import { sizes } from "../../tokens/sizes";
 
 const { natura } = tokens.colors;
 
 export const naturaLight: ITheme = {
   shape: {
-    borderRadius: 4
+    borderRadius: tokens.radius.medium,
+    badgeBorderRadius: 100
   },
   avatarSizes,
-  buttonSize,
+  buttonSizes,
+  iconSizes,
+  sizes,
   spacing: spacing.spacing,
   palette: {
     type: "light",
+    action: {
+      disabled: "rgba(0, 0, 0, .24)"
+    },
     primary: {
       main: natura.primary.colorBrdNatPrimaryYellow,
       light: "#FEFDE8",
@@ -27,30 +36,40 @@ export const naturaLight: ITheme = {
       main: natura.primary.colorBrdNatPrimaryOrange,
       light: "#FFF8E1",
       dark: natura.primary.colorBrdNatPrimaryOrange,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
       contrastText: natura.grayscale.colorBrdNatGray
     },
     success: {
-      main: natura.complementary.colorBrdNatCpGreen1
+      main: natura.complementary.colorBrdNatCpGreen1,
+      contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     background: {
-      paper: "#FAFAFA",
-      default: natura.primary.colorBrdNatPrimaryWhite
+      paper: natura.primary.colorBrdNatPrimaryWhite,
+      default: "#FAFAFA",
+      paperContrastText: natura.grayscale.colorBrdNatGray,
+      defaultContrastText: natura.grayscale.colorBrdBlack
     },
     text: {
       primary: natura.grayscale.colorBrdNatGray,
       secondary: natura.grayscale.colorBrdNatGray1,
       disabled: natura.grayscale.colorBrdNatGray3,
       hint: natura.grayscale.colorBrdNatGray2
+    },
+    complementary: {
+      link: natura.complementary.colorBrdNatCpBlue1,
+      linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
+      warning: natura.complementary.colorBrdNatCpOrange4,
+      warningContrastText: natura.grayscale.colorBrdBlack
     }
   },
   typography: {
     ...typography,
     ...fontSize
   },
+  shadows: elevation,
   overrides: {
     MuiButton: {
       outlinedPrimary: {
@@ -76,6 +95,14 @@ export const naturaLight: ITheme = {
     MuiAvatar: {
       colorDefault: {
         color: natura.grayscale.colorBrdNatGray
+      }
+    },
+    MuiIconButton: {
+      root: {
+        padding: "8px"
+      },
+      sizeSmall: {
+        padding: "4px"
       }
     }
   }

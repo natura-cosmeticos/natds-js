@@ -1,20 +1,29 @@
 import React, { FunctionComponent } from 'react';
 import MaterialAvatar, { AvatarProps as MaterialAvatarProps } from '@material-ui/core/Avatar';
-
 import { withTheme } from '@material-ui/styles';
 import { IAvatarSizes } from '@naturacosmeticos/natds-styles';
 import { IThemeWeb } from 'Themes';
 
-export type AvatarSizes = 'tiny' | 'small' | 'standard' | 'large' | 'xlarge';
+export type AvatarSizes = keyof IAvatarSizes;
 export type AvatarColors = 'primary' | 'secondary' | string;
 
-interface IAvatarProps extends MaterialAvatarProps {
+export interface IAvatarProps extends MaterialAvatarProps {
+  /**
+   * @optional
+   * @default 'standard'
+   * Size of the Avatar
+   */
   size?: AvatarSizes;
+  /**
+   * @optional
+   * @default 'primary'
+   * Color of the Avatar
+   */
   color?: AvatarColors;
   theme: IThemeWeb | unknown;
 }
 
-const Avatar: FunctionComponent<IAvatarProps> = (props: IAvatarProps) => {
+export const Avatar: FunctionComponent<IAvatarProps> = (props: IAvatarProps) => {
   const style = {
     ...withSizes(props.size, props.theme),
     ...withColors(props.color, props.theme)

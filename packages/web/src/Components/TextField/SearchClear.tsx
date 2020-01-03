@@ -5,7 +5,7 @@ import ClearRounded from '@material-ui/icons/ClearRounded';
 import { IThemeWeb } from 'Themes';
 import { tokens } from '@naturacosmeticos/natds-styles';
 
-interface ISearchClear {
+export interface ISearchClear {
   theme: IThemeWeb | unknown;
   onClearSearch: Dispatch<SetStateAction<string>>;
   searchIcon?: ComponentType;
@@ -22,7 +22,7 @@ const SearchIconStyles = `
   &, & > svg { fill: inherit!important; }
 `;
 
-const SearchClear: FunctionComponent<ISearchClear> = (props: ISearchClear) => {
+export const SearchClear: FunctionComponent<ISearchClear> = (props: ISearchClear) => {
   const { theme, onClearSearch, searchIcon = ClearRounded } = props;
   const Component: ComponentType<any> = styled(searchIcon)`${SearchIconStyles}`;
 

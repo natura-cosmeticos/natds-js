@@ -31,15 +31,16 @@
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
     "test": "yarn test:unit:coverage -u",
+    "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "verify": "yarn lint && yarn test"
   },
   "devDependencies": {
     "jest": "^24.9.0",
-    "sass": "1.23.3",
+    "sass": "^1.23.7",
     "ts-jest": "^24.1.0",
     "typescript": "^3.6.4",
-    "yarn": "1.19.1"
+    "yarn": "^1.21.1"
   },
   "publishConfig": {
     "access": "public"

@@ -49,7 +49,7 @@ git push origin --tags -q || true
 
 yarn config set _authToken ${NPM_AUTH_TOKEN}
 
-PACKAGES=("packages/styles" "packages/web" "packages/mobile")
+PACKAGES=("packages/styles" "packages/web" "packages/mobile" "packages/icons")
 
 for package in "${PACKAGES[@]}"
 do

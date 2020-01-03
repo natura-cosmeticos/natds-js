@@ -1,5 +1,32 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Avatar rendering should match to snapshot - AvatarSize Huge: AvatarSize Huge Avatar snapshot 1`] = `
+<View
+  style={
+    Array [
+      Object {
+        "backgroundColor": "#6200ee",
+        "borderRadius": 40,
+        "height": 80,
+        "width": 80,
+      },
+      undefined,
+    ]
+  }
+>
+  <Image
+    source={Object {}}
+    style={
+      Object {
+        "borderRadius": 40,
+        "height": 80,
+        "width": 80,
+      }
+    }
+  />
+</View>
+`;
+
 exports[`Avatar rendering should match to snapshot - AvatarSize Large: AvatarSize Large Avatar snapshot 1`] = `
 <View
   style={
@@ -129,33 +156,6 @@ exports[`Avatar rendering should match to snapshot - AvatarSize Tiny: AvatarSize
         "borderRadius": 12,
         "height": 24,
         "width": 24,
-      }
-    }
-  />
-</View>
-`;
-
-exports[`Avatar rendering should match to snapshot - AvatarSize XLarge: AvatarSize XLarge Avatar snapshot 1`] = `
-<View
-  style={
-    Array [
-      Object {
-        "backgroundColor": "#6200ee",
-        "borderRadius": 40,
-        "height": 80,
-        "width": 80,
-      },
-      undefined,
-    ]
-  }
->
-  <Image
-    source={Object {}}
-    style={
-      Object {
-        "borderRadius": 40,
-        "height": 80,
-        "width": 80,
       }
     }
   />

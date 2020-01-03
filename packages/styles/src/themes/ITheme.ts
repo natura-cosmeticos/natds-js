@@ -1,6 +1,9 @@
-import { fontSize } from "../tokens/fontSize/fontSize";
-import IAvatarSizes from "../tokens/avatarSizes/IAvatarSizes";
-import IButtonSize from "tokens/buttonSize/IButtonSize";
+import { fontSize } from "../tokens/fontSize";
+import { IAvatarSizes } from "../tokens/avatarSizes/IAvatarSizes";
+import { IIconSizes } from "../tokens/iconSizes/IIconSizes";
+import { IButtonSizes } from "tokens/buttonSizes/IButtonSizes";
+import { IElevation } from "tokens/elevation/IElevation";
+import { ISizes } from "tokens/sizes/ISizes";
 
 type ITypography = {
   web: {
@@ -38,9 +41,18 @@ type ITypography = {
 export interface ITheme {
   shape?: {
     borderRadius?: number;
+    badgeBorderRadius?: number;
   };
   palette?: {
     type?: "light" | "dark";
+    action?: {
+      active?: string;
+      hover?: string;
+      hoverOpacity?: number;
+      selected?: string;
+      disabled?: string;
+      disabledBackground?: string;
+    };
     primary?: {
       main: string;
       light?: string;
@@ -68,6 +80,8 @@ export interface ITheme {
     background?: {
       paper?: string;
       default?: string;
+      paperContrastText?: string;
+      defaultContrastText?: string;
     };
     text?: {
       primary?: string;
@@ -75,10 +89,19 @@ export interface ITheme {
       disabled?: string;
       hint?: string;
     };
+    complementary?: {
+      link?: string;
+      linkContrastText?: string;
+      warning?: string;
+      warningContrastText?: string;
+    };
   };
+  sizes: ISizes;
   typography: ITypography;
   avatarSizes: IAvatarSizes;
-  buttonSize: IButtonSize;
+  iconSizes: IIconSizes;
+  buttonSizes: IButtonSizes;
   spacing: number;
+  shadows: IElevation;
   overrides?: any;
 }
