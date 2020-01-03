@@ -2691,11 +2691,19 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "minHeight": "32px",
           },
         },
+        "MuiIconButton": Object {
+          "root": Object {
+            "padding": "8px",
+          },
+          "sizeSmall": Object {
+            "padding": "4px",
+          },
+        },
       },
       "palette": Object {
         "action": Object {
           "active": "rgba(0, 0, 0, 0.54)",
-          "disabled": "rgba(0, 0, 0, 0.26)",
+          "disabled": "rgba(0, 0, 0, .24)",
           "disabledBackground": "rgba(0, 0, 0, 0.12)",
           "hover": "rgba(0, 0, 0, 0.08)",
           "hoverOpacity": 0.08,

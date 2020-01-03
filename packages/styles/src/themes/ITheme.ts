@@ -23,6 +23,14 @@ export interface ITheme {
   };
   palette?: {
     type?: "light" | "dark";
+    action?: {
+      active?: string;
+      hover?: string;
+      hoverOpacity?: number;
+      selected?: string;
+      disabled?: string;
+      disabledBackground?: string;
+    };
     primary?: {
       main: string;
       light?: string;

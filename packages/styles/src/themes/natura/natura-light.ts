@@ -22,7 +22,10 @@ export const naturaLight: ITheme = {
   sizes,
   spacing: spacing.spacing,
   palette: {
-    type: 'light',
+    type: "light",
+    action: {
+      disabled: "rgba(0, 0, 0, .24)"
+    },
     primary: {
       main: natura.primary.colorBrdNatPrimaryYellow,
       light: '#FEFDE8',
@@ -92,6 +95,14 @@ export const naturaLight: ITheme = {
     MuiAvatar: {
       colorDefault: {
         color: natura.grayscale.colorBrdNatGray
+      }
+    },
+    MuiIconButton: {
+      root: {
+        padding: "8px"
+      },
+      sizeSmall: {
+        padding: "4px"
       }
     }
   }
