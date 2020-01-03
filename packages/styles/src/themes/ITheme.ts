@@ -6,36 +6,14 @@ import { IElevation } from "tokens/elevation/IElevation";
 import { ISizes } from "tokens/sizes/ISizes";
 
 type ITypography = {
-  web: {
-    fontFamily?: string;
-    fontFamilyBrand1?: string;
-    fontFamilyBrand2?: string;
-    fontFamilyBrand3?: string;
-    fontWeightLight?: number;
-    fontWeightRegular?: number;
-    fontWeightMedium?: number;
-    fontWeightBold?: number;
-  };
-  iOS: {
-    fontFamily?: string;
-    fontFamilyBrand1?: string;
-    fontFamilyBrand2?: string;
-    fontFamilyBrand3?: string;
-    fontWeightLight?: number;
-    fontWeightRegular?: number;
-    fontWeightMedium?: number;
-    fontWeightBold?: number;
-  };
-  android: {
-    fontFamily?: string;
-    fontFamilyBrand1?: string;
-    fontFamilyBrand2?: string;
-    fontFamilyBrand3?: string;
-    fontWeightLight?: number;
-    fontWeightRegular?: number;
-    fontWeightMedium?: number;
-    fontWeightBold?: number;
-  };
+  fontFamily?: string;
+  fontFamilyBrand1?: string;
+  fontFamilyBrand2?: string;
+  fontFamilyBrand3?: string;
+  fontWeightLight?: number;
+  fontWeightRegular?: number;
+  fontWeightMedium?: number;
+  fontWeightBold?: number;
 } & typeof fontSize;
 
 export interface ITheme {

@@ -39,112 +39,40 @@ const darkSchema = {
 darkSchema.body.push(
   [
     {
-      name: 'webFontFamilyBranding1',
+      name: 'fontFamilyBranding1',
       type: 'text',
     },
     {
-      name: dark.typography.web.fontFamilyBrand1
-        ? dark.typography.web.fontFamilyBrand1
+      name: dark.typography.fontFamilyBrand1
+        ? dark.typography.fontFamilyBrand1
         : 'Undefined',
       type: 'text',
     },
   ],
   [
     {
-      name: 'webFontFamilyBranding2',
+      name: 'fontFamilyBranding2',
       type: 'text',
     },
     {
-      name: dark.typography.web.fontFamilyBrand2
-        ? dark.typography.web.fontFamilyBrand2
+      name: dark.typography.fontFamilyBrand2
+        ? dark.typography.fontFamilyBrand2
         : 'Undefined',
       type: 'text',
     },
   ],
   [
     {
-      name: 'webFontFamilyBranding3',
+      name: 'fontFamilyBranding3',
       type: 'text',
     },
     {
-      name: dark.typography.web.fontFamilyBrand3
-        ? dark.typography.web.fontFamilyBrand3
+      name: dark.typography.fontFamilyBrand3
+        ? dark.typography.fontFamilyBrand3
         : 'Undefined',
       type: 'text',
     },
   ],
-  [
-    {
-      name: 'androidFontFamilyBranding1',
-      type: 'text',
-    },
-    {
-      name: dark.typography.android.fontFamilyBrand1
-        ? dark.typography.android.fontFamilyBrand1
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'androidFontFamilyBranding2',
-      type: 'text',
-    },
-    {
-      name: dark.typography.android.fontFamilyBrand2
-        ? dark.typography.android.fontFamilyBrand2
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'androidFontFamilyBranding3',
-      type: 'text',
-    },
-    {
-      name: dark.typography.android.fontFamilyBrand3
-        ? dark.typography.android.fontFamilyBrand3
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'iosFontFamilyBranding1',
-      type: 'text',
-    },
-    {
-      name: dark.typography.iOS.fontFamilyBrand1
-        ? dark.typography.iOS.fontFamilyBrand1
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'iosFontFamilyBranding2',
-      type: 'text',
-    },
-    {
-      name: dark.typography.iOS.fontFamilyBrand2
-        ? dark.typography.iOS.fontFamilyBrand2
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'iosFontFamilyBranding3',
-      type: 'text',
-    },
-    {
-      name: dark.typography.iOS.fontFamilyBrand3
-        ? dark.typography.iOS.fontFamilyBrand3
-        : 'Undefined',
-      type: 'text',
-    },
-  ]
 );
 
 const lightSchema = {
@@ -160,112 +88,40 @@ const lightSchema = {
 lightSchema.body.push(
   [
     {
-      name: 'webFontFamilyBranding1',
+      name: 'fontFamilyBranding1',
       type: 'text',
     },
     {
-      name: light.typography.web.fontFamilyBrand1
-        ? light.typography.web.fontFamilyBrand1
+      name: light.typography.fontFamilyBrand1
+        ? light.typography.fontFamilyBrand1
         : 'Undefined',
       type: 'text',
     },
   ],
   [
     {
-      name: 'webFontFamilyBranding2',
+      name: 'fontFamilyBranding2',
       type: 'text',
     },
     {
-      name: light.typography.web.fontFamilyBrand2
-        ? light.typography.web.fontFamilyBrand2
+      name: light.typography.fontFamilyBrand2
+        ? light.typography.fontFamilyBrand2
         : 'Undefined',
       type: 'text',
     },
   ],
   [
     {
-      name: 'webFontFamilyBranding3',
+      name: 'fontFamilyBranding3',
       type: 'text',
     },
     {
-      name: light.typography.web.fontFamilyBrand3
-        ? light.typography.web.fontFamilyBrand3
+      name: light.typography.fontFamilyBrand3
+        ? light.typography.fontFamilyBrand3
         : 'Undefined',
       type: 'text',
     },
   ],
-  [
-    {
-      name: 'androidFontFamilyBranding1',
-      type: 'text',
-    },
-    {
-      name: light.typography.android.fontFamilyBrand1
-        ? light.typography.android.fontFamilyBrand1
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'androidFontFamilyBranding2',
-      type: 'text',
-    },
-    {
-      name: light.typography.android.fontFamilyBrand2
-        ? light.typography.android.fontFamilyBrand2
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'androidFontFamilyBranding3',
-      type: 'text',
-    },
-    {
-      name: light.typography.android.fontFamilyBrand3
-        ? light.typography.android.fontFamilyBrand3
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'iosFontFamilyBranding1',
-      type: 'text',
-    },
-    {
-      name: light.typography.iOS.fontFamilyBrand1
-        ? light.typography.iOS.fontFamilyBrand1
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'iosFontFamilyBranding2',
-      type: 'text',
-    },
-    {
-      name: light.typography.iOS.fontFamilyBrand2
-        ? light.typography.iOS.fontFamilyBrand2
-        : 'Undefined',
-      type: 'text',
-    },
-  ],
-  [
-    {
-      name: 'iosFontFamilyBranding3',
-      type: 'text',
-    },
-    {
-      name: light.typography.iOS.fontFamilyBrand3
-        ? light.typography.iOS.fontFamilyBrand3
-        : 'Undefined',
-      type: 'text',
-    },
-  ]
 );
 
 export const NaturaLightComponent = () => (

@@ -113,7 +113,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -121,10 +121,10 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -135,7 +135,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -190,16 +190,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -216,6 +206,14 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -240,16 +238,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -261,16 +249,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -404,7 +382,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -412,10 +390,10 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -426,7 +404,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -481,16 +459,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -507,6 +475,14 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -531,16 +507,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -552,16 +518,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -695,7 +651,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -703,10 +659,10 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -717,7 +673,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -772,16 +728,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -798,6 +744,14 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -822,16 +776,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -843,16 +787,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -986,7 +920,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -994,10 +928,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -1008,7 +942,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -1063,16 +997,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -1089,6 +1013,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -1113,16 +1045,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -1134,16 +1056,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -1277,7 +1189,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -1285,10 +1197,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -1299,7 +1211,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -1354,16 +1266,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -1380,6 +1282,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -1404,16 +1314,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -1425,16 +1325,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -1568,7 +1458,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -1576,10 +1466,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -1590,7 +1480,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -1645,16 +1535,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -1671,6 +1551,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -1695,16 +1583,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -1716,16 +1594,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -1859,7 +1727,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -1867,10 +1735,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -1881,7 +1749,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -1936,16 +1804,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -1962,6 +1820,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -1986,16 +1852,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -2007,16 +1863,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -2150,7 +1996,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -2158,10 +2004,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -2172,7 +2018,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -2227,16 +2073,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -2253,6 +2089,14 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -2277,16 +2121,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -2298,16 +2132,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }

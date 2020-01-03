@@ -1,0 +1,68 @@
+import { Switch, Provider, themes } from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { colors, attributes } from './sections';
+
+# Switch
+
+---
+
+---
+
+## Colors
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={colors} />
+</Provider>
+
+---
+
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+
+---
+
+## API
+
+```jsx highlight-line="2"
+import { Switch } from '@naturacosmeticos/natds-web';
+
+//Enabled
+<Switch color="primary" />;
+
+//Disabled
+<Switch disabled />;
+```
+
+For more advanced usages, check [Material UI Switch docs](https://material-ui.com/components/switches/)
+
+---
+
+---
+
+## Switch Props
+
+| Name          |               Type                |   Default   |                                                                                                      Description                                                                                                       |
+| :------------ | :-------------------------------: | :---------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| checked       |               bool                |             |                                                                                           If true, the component is checked.                                                                                           |
+| checkedIcon   |               node                |             |                                                                                   The icon to display when the component is checked.                                                                                   |
+| classes       |              object               |             |                                       Override or extend the styles applied to the component. See [CSS API](https://material-ui.com/pt/api/switch/#css) below for more details.                                        |
+| color         | 'primary', 'secondary', 'default' | 'secondary' |                                                             The color of the component. It supports those theme colors that make sense for this component.                                                             |
+| disabled      |               bool                |    false    |                                                                                         If true, the switch will be disabled.                                                                                          |
+| disableRipple |               bool                |             |                                                                                      If true, the ripple effect will be disabled.                                                                                      |
+| edge          |       'start', 'end', false       |    false    | If given, uses a negative margin to counteract the padding on one side (this is often helpful for aligning the left or right side of the icon with content above or below, without ruining the border size and shape). |
+| icon          |               node                |             |                                                                                  The icon to display when the component is unchecked.                                                                                  |
+| id            |              string               |             |                                                                                              The id of the input element.                                                                                              |
+| inputProps    |              object               |             |                                                 [Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes) applied to the input element.                                                 |
+| inputRef      |                ref                |             |                                                                                            Pass a ref to the input element.                                                                                            |
+| onChange      |               func                |             |                                                                      Callback fired when the state is changed i.e function(event: object) => void                                                                      |
+| required      |               bool                |             |                                                                                      If true, the input element will be required.                                                                                      |
+| size          |         'small', 'medium'         |             |                                                                        The size of the switch. small is equivalent to the dense switch styling.                                                                        |
+| type          |              string               |             |                                                                                             The input component prop type.                                                                                             |
+| value         |                any                |             |                                                                            The value of the component. The DOM API casts this to a string.                                                                             |

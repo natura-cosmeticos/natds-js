@@ -1,0 +1,122 @@
+import { TextField, Provider, themes } from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { colors } from './sections';
+
+# Snackbar
+
+---
+---
+---
+---
+
+## Colors
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={colors} />
+</Provider>
+
+---
+---
+
+## API
+
+```jsx highlight-line="2"
+import React from 'react';
+import {
+  Snackbar,
+  SnackbarContent,
+  Typography,
+  Icon,
+  IconButton,
+  Button
+} from '@naturacosmeticos/natds-web';
+import { makeStyles } from '@material-ui/core/styles';
+
+
+// This is optional and can be made with any stylesheet method that you prefer
+const useStyles = makeStyles({
+  message: {
+    display: 'flex',
+    alignItems: 'center'
+  },
+  messageIcon: {
+    marginRight: '10px'
+  }
+});
+const classes = useStyles();
+
+const [isOpen, setIsOpen] = React.useState(false);
+
+const handleClose = () => setIsOpen(false);
+
+const myApp = () => (
+  <Button onClick={() => setIsOpen(true)}>Click me to open the snackbar</Button>
+
+  <Snackbar open={isOpen} autoHide>
+    <SnackbarContent {...props}
+      message={
+        <span className={classes.message}>
+          <span className={classes.messageIcon}>
+            <Icon name="outlined-navigation-close" size="small"/>
+          </span>
+          <Typography>This is a message</Typography>
+        </span>
+      }
+      action={
+        <IconButton color="inherit" onClick={handleClose}>
+          <Icon name="filled-alert-cancel" size="tiny" />
+        </IconButton>
+      }
+    />
+  </Snackbar>
+);
+
+```
+For more advanced usages, check [Material UI Snackbar docs](https://material-ui.com/components/snackbars/)
+
+---
+
+---
+
+## SnackbarContent Props
+---
+---
+
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|color|'default \| 'error' \| 'success' \| 'warning' \| 'info' | 'default' | The color scheme to be applied to the content based on the theme
+|action|node||The action to display.|
+|classes|object||Override or extend the styles applied to the component. See CSS API below for more details.|
+|message|node||The message to display.|
+|role|'alert' \| 'alertdialog'|'alert'|The role of the SnackbarContent. If the Snackbar requires focus to be closed, the alertdialog role should be used instead.|
+
+
+## Snackbar Props
+---
+---
+
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|action|node||The action to display.|
+|anchorOrigin|{ horizontal: 'left'\| 'center'\| 'right', vertical: 'top'\| 'bottom' }|{ vertical: 'bottom', horizontal: 'center' }|The anchor of the Snackbar.|
+|autoHideDuration|number||The number of milliseconds to wait before automatically calling the onClose function. onClose should then set the state of the open prop to hide the Snackbar. This behavior is disabled by default with the null value.|
+|children|element||Replace the SnackbarContent component.|
+|classes|object||Override or extend the styles applied to the component. See CSS API below for more details.|
+|ClickAwayListenerProps|object||Props applied to the ClickAwayListener element.|
+|ContentProps|object||Props applied to the SnackbarContent element.|
+|disableWindowBlurListener|bool|false|If true, the autoHideDuration timer will expire even if the window is not focused.|
+|key|any||When displaying multiple consecutive Snackbars from a parent rendering a single `<Snackbar/>`, add the key prop to ensure independent treatment of each message. e.g. `<Snackbar key={message} />`, otherwise, the message may update-in-place and features such as autoHideDuration may be canceled.|
+|message|node||The message to display.|
+|onClose|func||Callback fired when the component requests to be closed. Typically onClose is used to set state in the parent component, which is used to control the Snackbar open prop. The reason parameter can optionally be used to control the response to onClose, for example ignoring clickaway.Signature:function(event: object, reason: string) => voidevent: The event source of the callback.reason: Can be:"timeout" (autoHideDuration expired) or: "clickaway".|
+|onEnter|func||Callback fired before the transition is entering.|
+|onEntered|func||Callback fired when the transition has entered.|
+|onEntering|func||Callback fired when the transition is entering.|
+|onExit|func||Callback fired before the transition is exiting.|
+|onExited|func||Callback fired when the transition has exited.|
+|onExiting|func||Callback fired when the transition is exiting.|
+|open|bool||If true, Snackbar is open.|
+|resumeHideDuration|number||The number of milliseconds to wait before dismissing after user interaction. If autoHideDuration prop isn't specified, it does nothing. If autoHideDuration prop is specified but resumeHideDuration isn't, we default to autoHideDuration / 2 ms.|
+|TransitionComponent|elementType|Grow|The component used for the transition.|
+|transitionDuration|number| { enter?: number, exit?: number }|{  enter: duration.enteringScreen,  exit: duration.leavingScreen,}|The duration for the transition, in milliseconds. You may specify a single timeout for all transitions, or individually with an object.|
+|TransitionProps|object||Props applied to the Transition element.|
+

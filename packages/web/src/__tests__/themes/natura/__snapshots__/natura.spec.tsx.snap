@@ -102,7 +102,7 @@ Object {
     },
     "background": Object {
       "default": "#FAFAFA",
-      "defaultContrastText": "#000000",
+      "defaultContrastText": "#333333",
       "paper": "#FFFFFF",
       "paperContrastText": "#333333",
     },
@@ -110,10 +110,10 @@ Object {
       "link": "#227BBD",
       "linkContrastText": "#FFFFFF",
       "warning": "#FCC433",
-      "warningContrastText": "#000000",
+      "warningContrastText": "#333333",
     },
     "error": Object {
-      "contrastText": "#333333",
+      "contrastText": "#FFFFFF",
       "main": "#E74627",
     },
     "primary": Object {
@@ -124,7 +124,7 @@ Object {
     },
     "secondary": Object {
       "contrastText": "#000000",
-      "dark": "#FF6B0B",
+      "dark": "#FF5808",
       "light": "#FFF8E1",
       "main": "#FF6B0B",
     },

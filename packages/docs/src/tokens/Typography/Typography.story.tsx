@@ -8,7 +8,7 @@ export default {
   title: 'Design Tokens|Typography',
   parameters: {
     theme: {
-      context: 'mobile'
+      context: 'web'
     },
     ...tokensParams
   },

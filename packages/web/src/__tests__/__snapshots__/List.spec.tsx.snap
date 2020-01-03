@@ -1,0 +1,920 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`List components rendering variants should match to snapshot - empty list: List empty snapshot 1`] = `
+<WithTheme(List)>
+  <List>
+    <WithStyles(ForwardRef(List))>
+      <ForwardRef(List)
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        />
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+  </List>
+</WithTheme(List)>
+`;
+
+exports[`List components rendering variants should match to snapshot - with ListItem button: List with ListItem button snapshot 1`] = `
+<WithTheme(List)>
+  <List>
+    <WithStyles(ForwardRef(List))>
+      <ForwardRef(List)
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        >
+          <WithStyles(ForwardRef(ListItem))
+            button={true}
+          >
+            <ForwardRef(ListItem)
+              button={true}
+              classes={
+                Object {
+                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                  "button": "MuiListItem-button",
+                  "container": "MuiListItem-container",
+                  "dense": "MuiListItem-dense",
+                  "disabled": "Mui-disabled",
+                  "divider": "MuiListItem-divider",
+                  "focusVisible": "Mui-focusVisible",
+                  "gutters": "MuiListItem-gutters",
+                  "root": "MuiListItem-root",
+                  "secondaryAction": "MuiListItem-secondaryAction",
+                  "selected": "Mui-selected",
+                }
+              }
+            >
+              <WithStyles(ForwardRef(ButtonBase))
+                className="MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                component="div"
+                disabled={false}
+                focusVisibleClassName="Mui-focusVisible"
+              >
+                <ForwardRef(ButtonBase)
+                  className="MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                  classes={
+                    Object {
+                      "disabled": "Mui-disabled",
+                      "focusVisible": "Mui-focusVisible",
+                      "root": "MuiButtonBase-root",
+                    }
+                  }
+                  component="div"
+                  disabled={false}
+                  focusVisibleClassName="Mui-focusVisible"
+                >
+                  <div
+                    aria-disabled={false}
+                    className="MuiButtonBase-root MuiListItem-root MuiListItem-gutters MuiListItem-button"
+                    onBlur={[Function]}
+                    onDragLeave={[Function]}
+                    onFocus={[Function]}
+                    onKeyDown={[Function]}
+                    onKeyUp={[Function]}
+                    onMouseDown={[Function]}
+                    onMouseLeave={[Function]}
+                    onMouseUp={[Function]}
+                    onTouchEnd={[Function]}
+                    onTouchMove={[Function]}
+                    onTouchStart={[Function]}
+                    role="button"
+                    tabIndex={0}
+                  >
+                    Test
+                    <NoSsr>
+                      <WithStyles(undefined)
+                        center={false}
+                      >
+                        <ForwardRef(TouchRipple)
+                          center={false}
+                          classes={
+                            Object {
+                              "child": "MuiTouchRipple-child",
+                              "childLeaving": "MuiTouchRipple-childLeaving",
+                              "childPulsate": "MuiTouchRipple-childPulsate",
+                              "ripple": "MuiTouchRipple-ripple",
+                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                              "root": "MuiTouchRipple-root",
+                            }
+                          }
+                        >
+                          <span
+                            className="MuiTouchRipple-root"
+                          >
+                            <TransitionGroup
+                              childFactory={[Function]}
+                              component={null}
+                              exit={true}
+                            />
+                          </span>
+                        </ForwardRef(TouchRipple)>
+                      </WithStyles(undefined)>
+                    </NoSsr>
+                  </div>
+                </ForwardRef(ButtonBase)>
+              </WithStyles(ForwardRef(ButtonBase))>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+        </ul>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+  </List>
+</WithTheme(List)>
+`;
+
+exports[`List components rendering variants should match to snapshot - with ListItem: List with ListItem snapshot 1`] = `
+<WithTheme(List)>
+  <List>
+    <WithStyles(ForwardRef(List))>
+      <ForwardRef(List)
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        >
+          <WithStyles(ForwardRef(ListItem))>
+            <ForwardRef(ListItem)
+              classes={
+                Object {
+                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                  "button": "MuiListItem-button",
+                  "container": "MuiListItem-container",
+                  "dense": "MuiListItem-dense",
+                  "disabled": "Mui-disabled",
+                  "divider": "MuiListItem-divider",
+                  "focusVisible": "Mui-focusVisible",
+                  "gutters": "MuiListItem-gutters",
+                  "root": "MuiListItem-root",
+                  "secondaryAction": "MuiListItem-secondaryAction",
+                  "selected": "Mui-selected",
+                }
+              }
+            >
+              <li
+                className="MuiListItem-root MuiListItem-gutters"
+                disabled={false}
+              >
+                Test
+              </li>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+        </ul>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+  </List>
+</WithTheme(List)>
+`;
+
+exports[`List components rendering variants should match to snapshot - with ListItemAvatar: List with ListItemAvatar snapshot 1`] = `
+<WithTheme(List)>
+  <List>
+    <WithStyles(ForwardRef(List))>
+      <ForwardRef(List)
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        >
+          <WithStyles(ForwardRef(ListItem))>
+            <ForwardRef(ListItem)
+              classes={
+                Object {
+                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                  "button": "MuiListItem-button",
+                  "container": "MuiListItem-container",
+                  "dense": "MuiListItem-dense",
+                  "disabled": "Mui-disabled",
+                  "divider": "MuiListItem-divider",
+                  "focusVisible": "Mui-focusVisible",
+                  "gutters": "MuiListItem-gutters",
+                  "root": "MuiListItem-root",
+                  "secondaryAction": "MuiListItem-secondaryAction",
+                  "selected": "Mui-selected",
+                }
+              }
+            >
+              <li
+                className="MuiListItem-root MuiListItem-gutters"
+                disabled={false}
+              >
+                <WithTheme(ListItemAvatar)
+                  key=".0"
+                >
+                  <ListItemAvatar>
+                    <WithStyles(ForwardRef(ListItemAvatar))>
+                      <ForwardRef(ListItemAvatar)
+                        classes={
+                          Object {
+                            "alignItemsFlexStart": "MuiListItemAvatar-alignItemsFlexStart",
+                            "root": "MuiListItemAvatar-root",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiListItemAvatar-root"
+                        >
+                          <WithTheme(Component)
+                            color="default"
+                            size="small"
+                          >
+                            <Component
+                              color="default"
+                              size="small"
+                            >
+                              <WithStyles(ForwardRef(Avatar))
+                                color="default"
+                                size="small"
+                                style={Object {}}
+                              >
+                                <ForwardRef(Avatar)
+                                  classes={
+                                    Object {
+                                      "circle": "MuiAvatar-circle",
+                                      "colorDefault": "MuiAvatar-colorDefault",
+                                      "fallback": "MuiAvatar-fallback",
+                                      "img": "MuiAvatar-img",
+                                      "root": "MuiAvatar-root",
+                                      "rounded": "MuiAvatar-rounded",
+                                      "square": "MuiAvatar-square",
+                                    }
+                                  }
+                                  color="default"
+                                  size="small"
+                                  style={Object {}}
+                                >
+                                  <div
+                                    className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
+                                    color="default"
+                                    size="small"
+                                    style={Object {}}
+                                  >
+                                    <WithTheme(Component)
+                                      name="outlined-navigation-close"
+                                      size="tiny"
+                                    >
+                                      <Component
+                                        name="outlined-navigation-close"
+                                        size="tiny"
+                                      >
+                                        <styled.i
+                                          className="natds-icons natds-icons-outlined-navigation-close"
+                                          size="tiny"
+                                        >
+                                          <StyledComponent
+                                            className="natds-icons natds-icons-outlined-navigation-close"
+                                            forwardedComponent={
+                                              Object {
+                                                "$$typeof": Symbol(react.forward_ref),
+                                                "attrs": Array [],
+                                                "componentStyle": ComponentStyle {
+                                                  "componentId": "sc-bwzfXH",
+                                                  "isStatic": false,
+                                                  "lastClassName": "iglmwN",
+                                                  "rules": Array [
+                                                    "
+  font-size: ",
+                                                    [Function],
+                                                    ";
+",
+                                                  ],
+                                                },
+                                                "displayName": "styled.i",
+                                                "foldedComponentIds": Array [],
+                                                "render": [Function],
+                                                "styledComponentId": "sc-bwzfXH",
+                                                "target": "i",
+                                                "toString": [Function],
+                                                "warnTooManyClasses": [Function],
+                                                "withComponent": [Function],
+                                              }
+                                            }
+                                            forwardedRef={null}
+                                            size="tiny"
+                                          >
+                                            <i
+                                              className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-navigation-close"
+                                              size="tiny"
+                                            />
+                                          </StyledComponent>
+                                        </styled.i>
+                                      </Component>
+                                    </WithTheme(Component)>
+                                  </div>
+                                </ForwardRef(Avatar)>
+                              </WithStyles(ForwardRef(Avatar))>
+                            </Component>
+                          </WithTheme(Component)>
+                        </div>
+                      </ForwardRef(ListItemAvatar)>
+                    </WithStyles(ForwardRef(ListItemAvatar))>
+                  </ListItemAvatar>
+                </WithTheme(ListItemAvatar)>
+              </li>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+        </ul>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+  </List>
+</WithTheme(List)>
+`;
+
+exports[`List components rendering variants should match to snapshot - with ListItemIcon: List with ListItemIcon snapshot 1`] = `
+<WithTheme(List)>
+  <List>
+    <WithStyles(ForwardRef(List))>
+      <ForwardRef(List)
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        >
+          <WithStyles(ForwardRef(ListItem))>
+            <ForwardRef(ListItem)
+              classes={
+                Object {
+                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                  "button": "MuiListItem-button",
+                  "container": "MuiListItem-container",
+                  "dense": "MuiListItem-dense",
+                  "disabled": "Mui-disabled",
+                  "divider": "MuiListItem-divider",
+                  "focusVisible": "Mui-focusVisible",
+                  "gutters": "MuiListItem-gutters",
+                  "root": "MuiListItem-root",
+                  "secondaryAction": "MuiListItem-secondaryAction",
+                  "selected": "Mui-selected",
+                }
+              }
+            >
+              <li
+                className="MuiListItem-root MuiListItem-gutters"
+                disabled={false}
+              >
+                <WithTheme(ListItemIcon)
+                  key=".0"
+                >
+                  <ListItemIcon>
+                    <WithStyles(ForwardRef(ListItemIcon))>
+                      <ForwardRef(ListItemIcon)
+                        classes={
+                          Object {
+                            "alignItemsFlexStart": "MuiListItemIcon-alignItemsFlexStart",
+                            "root": "MuiListItemIcon-root",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiListItemIcon-root"
+                        >
+                          <WithTheme(Component)
+                            name="outlined-navigation-close"
+                            size="small"
+                          >
+                            <Component
+                              name="outlined-navigation-close"
+                              size="small"
+                            >
+                              <styled.i
+                                className="natds-icons natds-icons-outlined-navigation-close"
+                                size="small"
+                              >
+                                <StyledComponent
+                                  className="natds-icons natds-icons-outlined-navigation-close"
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-bwzfXH",
+                                        "isStatic": false,
+                                        "lastClassName": "iglmwN",
+                                        "rules": Array [
+                                          "
+  font-size: ",
+                                          [Function],
+                                          ";
+",
+                                        ],
+                                      },
+                                      "displayName": "styled.i",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "sc-bwzfXH",
+                                      "target": "i",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  size="small"
+                                >
+                                  <i
+                                    className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-navigation-close"
+                                    size="small"
+                                  />
+                                </StyledComponent>
+                              </styled.i>
+                            </Component>
+                          </WithTheme(Component)>
+                        </div>
+                      </ForwardRef(ListItemIcon)>
+                    </WithStyles(ForwardRef(ListItemIcon))>
+                  </ListItemIcon>
+                </WithTheme(ListItemIcon)>
+              </li>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+        </ul>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+  </List>
+</WithTheme(List)>
+`;
+
+exports[`List components rendering variants should match to snapshot - with ListItemSecondaryAction: List with ListItemSecondaryAction snapshot 1`] = `
+<WithTheme(List)>
+  <List>
+    <WithStyles(ForwardRef(List))>
+      <ForwardRef(List)
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        >
+          <WithStyles(ForwardRef(ListItem))>
+            <ForwardRef(ListItem)
+              classes={
+                Object {
+                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                  "button": "MuiListItem-button",
+                  "container": "MuiListItem-container",
+                  "dense": "MuiListItem-dense",
+                  "disabled": "Mui-disabled",
+                  "divider": "MuiListItem-divider",
+                  "focusVisible": "Mui-focusVisible",
+                  "gutters": "MuiListItem-gutters",
+                  "root": "MuiListItem-root",
+                  "secondaryAction": "MuiListItem-secondaryAction",
+                  "selected": "Mui-selected",
+                }
+              }
+            >
+              <li
+                className="MuiListItem-root MuiListItem-gutters"
+                disabled={false}
+              >
+                <WithTheme(ListItemSecondaryAction)
+                  key=".0"
+                >
+                  <ListItemSecondaryAction>
+                    <WithStyles(ForwardRef(ListItemSecondaryAction))>
+                      <ForwardRef(ListItemSecondaryAction)
+                        classes={
+                          Object {
+                            "root": "MuiListItemSecondaryAction-root",
+                          }
+                        }
+                      >
+                        <div
+                          className="MuiListItemSecondaryAction-root"
+                        >
+                          <WithTheme(Component)
+                            aria-label="shopping"
+                            edge="end"
+                          >
+                            <Component
+                              aria-label="shopping"
+                              edge="end"
+                            >
+                              <WithStyles(ForwardRef(IconButton))
+                                aria-label="shopping"
+                                edge="end"
+                              >
+                                <ForwardRef(IconButton)
+                                  aria-label="shopping"
+                                  classes={
+                                    Object {
+                                      "colorInherit": "MuiIconButton-colorInherit",
+                                      "colorPrimary": "MuiIconButton-colorPrimary",
+                                      "colorSecondary": "MuiIconButton-colorSecondary",
+                                      "disabled": "Mui-disabled",
+                                      "edgeEnd": "MuiIconButton-edgeEnd",
+                                      "edgeStart": "MuiIconButton-edgeStart",
+                                      "label": "MuiIconButton-label",
+                                      "root": "MuiIconButton-root",
+                                      "sizeSmall": "MuiIconButton-sizeSmall",
+                                    }
+                                  }
+                                  edge="end"
+                                >
+                                  <WithStyles(ForwardRef(ButtonBase))
+                                    aria-label="shopping"
+                                    centerRipple={true}
+                                    className="MuiIconButton-root MuiIconButton-edgeEnd"
+                                    disabled={false}
+                                    focusRipple={true}
+                                  >
+                                    <ForwardRef(ButtonBase)
+                                      aria-label="shopping"
+                                      centerRipple={true}
+                                      className="MuiIconButton-root MuiIconButton-edgeEnd"
+                                      classes={
+                                        Object {
+                                          "disabled": "Mui-disabled",
+                                          "focusVisible": "Mui-focusVisible",
+                                          "root": "MuiButtonBase-root",
+                                        }
+                                      }
+                                      disabled={false}
+                                      focusRipple={true}
+                                    >
+                                      <button
+                                        aria-label="shopping"
+                                        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
+                                        disabled={false}
+                                        onBlur={[Function]}
+                                        onDragLeave={[Function]}
+                                        onFocus={[Function]}
+                                        onKeyDown={[Function]}
+                                        onKeyUp={[Function]}
+                                        onMouseDown={[Function]}
+                                        onMouseLeave={[Function]}
+                                        onMouseUp={[Function]}
+                                        onTouchEnd={[Function]}
+                                        onTouchMove={[Function]}
+                                        onTouchStart={[Function]}
+                                        tabIndex={0}
+                                        type="button"
+                                      >
+                                        <span
+                                          className="MuiIconButton-label"
+                                        >
+                                          <WithTheme(Component)
+                                            name="outlined-navigation-close"
+                                            size="tiny"
+                                          >
+                                            <Component
+                                              name="outlined-navigation-close"
+                                              size="tiny"
+                                            >
+                                              <styled.i
+                                                className="natds-icons natds-icons-outlined-navigation-close"
+                                                size="tiny"
+                                              >
+                                                <StyledComponent
+                                                  className="natds-icons natds-icons-outlined-navigation-close"
+                                                  forwardedComponent={
+                                                    Object {
+                                                      "$$typeof": Symbol(react.forward_ref),
+                                                      "attrs": Array [],
+                                                      "componentStyle": ComponentStyle {
+                                                        "componentId": "sc-bwzfXH",
+                                                        "isStatic": false,
+                                                        "lastClassName": "iglmwN",
+                                                        "rules": Array [
+                                                          "
+  font-size: ",
+                                                          [Function],
+                                                          ";
+",
+                                                        ],
+                                                      },
+                                                      "displayName": "styled.i",
+                                                      "foldedComponentIds": Array [],
+                                                      "render": [Function],
+                                                      "styledComponentId": "sc-bwzfXH",
+                                                      "target": "i",
+                                                      "toString": [Function],
+                                                      "warnTooManyClasses": [Function],
+                                                      "withComponent": [Function],
+                                                    }
+                                                  }
+                                                  forwardedRef={null}
+                                                  size="tiny"
+                                                >
+                                                  <i
+                                                    className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-navigation-close"
+                                                    size="tiny"
+                                                  />
+                                                </StyledComponent>
+                                              </styled.i>
+                                            </Component>
+                                          </WithTheme(Component)>
+                                        </span>
+                                        <NoSsr>
+                                          <WithStyles(undefined)
+                                            center={true}
+                                          >
+                                            <ForwardRef(TouchRipple)
+                                              center={true}
+                                              classes={
+                                                Object {
+                                                  "child": "MuiTouchRipple-child",
+                                                  "childLeaving": "MuiTouchRipple-childLeaving",
+                                                  "childPulsate": "MuiTouchRipple-childPulsate",
+                                                  "ripple": "MuiTouchRipple-ripple",
+                                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                  "root": "MuiTouchRipple-root",
+                                                }
+                                              }
+                                            >
+                                              <span
+                                                className="MuiTouchRipple-root"
+                                              >
+                                                <TransitionGroup
+                                                  childFactory={[Function]}
+                                                  component={null}
+                                                  exit={true}
+                                                />
+                                              </span>
+                                            </ForwardRef(TouchRipple)>
+                                          </WithStyles(undefined)>
+                                        </NoSsr>
+                                      </button>
+                                    </ForwardRef(ButtonBase)>
+                                  </WithStyles(ForwardRef(ButtonBase))>
+                                </ForwardRef(IconButton)>
+                              </WithStyles(ForwardRef(IconButton))>
+                            </Component>
+                          </WithTheme(Component)>
+                        </div>
+                      </ForwardRef(ListItemSecondaryAction)>
+                    </WithStyles(ForwardRef(ListItemSecondaryAction))>
+                  </ListItemSecondaryAction>
+                </WithTheme(ListItemSecondaryAction)>
+              </li>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+        </ul>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+  </List>
+</WithTheme(List)>
+`;
+
+exports[`List components rendering variants should match to snapshot - with ListItemText: List with ListItemText snapshot 1`] = `
+<WithTheme(List)>
+  <List>
+    <WithStyles(ForwardRef(List))>
+      <ForwardRef(List)
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding"
+        >
+          <WithStyles(ForwardRef(ListItem))>
+            <ForwardRef(ListItem)
+              classes={
+                Object {
+                  "alignItemsFlexStart": "MuiListItem-alignItemsFlexStart",
+                  "button": "MuiListItem-button",
+                  "container": "MuiListItem-container",
+                  "dense": "MuiListItem-dense",
+                  "disabled": "Mui-disabled",
+                  "divider": "MuiListItem-divider",
+                  "focusVisible": "Mui-focusVisible",
+                  "gutters": "MuiListItem-gutters",
+                  "root": "MuiListItem-root",
+                  "secondaryAction": "MuiListItem-secondaryAction",
+                  "selected": "Mui-selected",
+                }
+              }
+            >
+              <li
+                className="MuiListItem-root MuiListItem-gutters"
+                disabled={false}
+              >
+                <WithTheme(ListItemText)
+                  key=".0"
+                  primary="Text only"
+                >
+                  <ListItemText
+                    primary="Text only"
+                  >
+                    <WithStyles(ForwardRef(ListItemText))
+                      primary="Text only"
+                    >
+                      <ForwardRef(ListItemText)
+                        classes={
+                          Object {
+                            "dense": "MuiListItemText-dense",
+                            "inset": "MuiListItemText-inset",
+                            "multiline": "MuiListItemText-multiline",
+                            "primary": "MuiListItemText-primary",
+                            "root": "MuiListItemText-root",
+                            "secondary": "MuiListItemText-secondary",
+                          }
+                        }
+                        primary="Text only"
+                      >
+                        <div
+                          className="MuiListItemText-root"
+                        >
+                          <WithStyles(ForwardRef(Typography))
+                            className="MuiListItemText-primary"
+                            component="span"
+                            variant="body1"
+                          >
+                            <ForwardRef(Typography)
+                              className="MuiListItemText-primary"
+                              classes={
+                                Object {
+                                  "alignCenter": "MuiTypography-alignCenter",
+                                  "alignJustify": "MuiTypography-alignJustify",
+                                  "alignLeft": "MuiTypography-alignLeft",
+                                  "alignRight": "MuiTypography-alignRight",
+                                  "body1": "MuiTypography-body1",
+                                  "body2": "MuiTypography-body2",
+                                  "button": "MuiTypography-button",
+                                  "caption": "MuiTypography-caption",
+                                  "colorError": "MuiTypography-colorError",
+                                  "colorInherit": "MuiTypography-colorInherit",
+                                  "colorPrimary": "MuiTypography-colorPrimary",
+                                  "colorSecondary": "MuiTypography-colorSecondary",
+                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                  "displayBlock": "MuiTypography-displayBlock",
+                                  "displayInline": "MuiTypography-displayInline",
+                                  "gutterBottom": "MuiTypography-gutterBottom",
+                                  "h1": "MuiTypography-h1",
+                                  "h2": "MuiTypography-h2",
+                                  "h3": "MuiTypography-h3",
+                                  "h4": "MuiTypography-h4",
+                                  "h5": "MuiTypography-h5",
+                                  "h6": "MuiTypography-h6",
+                                  "noWrap": "MuiTypography-noWrap",
+                                  "overline": "MuiTypography-overline",
+                                  "paragraph": "MuiTypography-paragraph",
+                                  "root": "MuiTypography-root",
+                                  "srOnly": "MuiTypography-srOnly",
+                                  "subtitle1": "MuiTypography-subtitle1",
+                                  "subtitle2": "MuiTypography-subtitle2",
+                                }
+                              }
+                              component="span"
+                              variant="body1"
+                            >
+                              <span
+                                className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                              >
+                                Text only
+                              </span>
+                            </ForwardRef(Typography)>
+                          </WithStyles(ForwardRef(Typography))>
+                        </div>
+                      </ForwardRef(ListItemText)>
+                    </WithStyles(ForwardRef(ListItemText))>
+                  </ListItemText>
+                </WithTheme(ListItemText)>
+              </li>
+            </ForwardRef(ListItem)>
+          </WithStyles(ForwardRef(ListItem))>
+        </ul>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+  </List>
+</WithTheme(List)>
+`;
+
+exports[`List components rendering variants should match to snapshot - with ListSubheader: List with ListSubheader snapshot 1`] = `
+<WithTheme(List)
+  subheader={
+    <ForwardRef(WithTheme)
+      id="subheader"
+    >
+      Subheader
+    </ForwardRef(WithTheme)>
+  }
+>
+  <List
+    subheader={
+      <ForwardRef(WithTheme)
+        id="subheader"
+      >
+        Subheader
+      </ForwardRef(WithTheme)>
+    }
+  >
+    <WithStyles(ForwardRef(List))
+      subheader={
+        <ForwardRef(WithTheme)
+          id="subheader"
+        >
+          Subheader
+        </ForwardRef(WithTheme)>
+      }
+    >
+      <ForwardRef(List)
+        classes={
+          Object {
+            "dense": "MuiList-dense",
+            "padding": "MuiList-padding",
+            "root": "MuiList-root",
+            "subheader": "MuiList-subheader",
+          }
+        }
+        subheader={
+          <ForwardRef(WithTheme)
+            id="subheader"
+          >
+            Subheader
+          </ForwardRef(WithTheme)>
+        }
+      >
+        <ul
+          className="MuiList-root MuiList-padding MuiList-subheader"
+        >
+          <WithTheme(ListSubheader)
+            id="subheader"
+          >
+            <ListSubheader
+              id="subheader"
+            >
+              <WithStyles(ForwardRef(ListSubheader))
+                id="subheader"
+              >
+                <ForwardRef(ListSubheader)
+                  classes={
+                    Object {
+                      "colorInherit": "MuiListSubheader-colorInherit",
+                      "colorPrimary": "MuiListSubheader-colorPrimary",
+                      "gutters": "MuiListSubheader-gutters",
+                      "inset": "MuiListSubheader-inset",
+                      "root": "MuiListSubheader-root",
+                      "sticky": "MuiListSubheader-sticky",
+                    }
+                  }
+                  id="subheader"
+                >
+                  <li
+                    className="MuiListSubheader-root MuiListSubheader-sticky MuiListSubheader-gutters"
+                    id="subheader"
+                  >
+                    Subheader
+                  </li>
+                </ForwardRef(ListSubheader)>
+              </WithStyles(ForwardRef(ListSubheader))>
+            </ListSubheader>
+          </WithTheme(ListSubheader)>
+        </ul>
+      </ForwardRef(List)>
+    </WithStyles(ForwardRef(List))>
+  </List>
+</WithTheme(List)>
+`;

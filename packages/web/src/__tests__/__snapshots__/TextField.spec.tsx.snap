@@ -38,6 +38,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -107,6 +108,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -115,6 +130,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -156,7 +172,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -235,6 +251,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -304,6 +321,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -312,6 +343,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -353,7 +385,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -497,7 +529,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -505,10 +537,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -519,7 +551,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -574,16 +606,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -600,6 +622,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -624,16 +654,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -645,16 +665,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -770,7 +780,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -778,10 +788,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -792,7 +802,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -847,16 +857,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -873,6 +873,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -897,16 +905,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -918,16 +916,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -1004,6 +992,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1047,7 +1049,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1092,6 +1094,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -1161,6 +1164,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1169,6 +1186,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -1210,7 +1228,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1255,6 +1273,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -1324,6 +1343,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -1332,6 +1365,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -1373,7 +1407,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1502,7 +1536,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -1510,10 +1544,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -1524,7 +1558,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -1579,16 +1613,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -1605,6 +1629,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -1629,16 +1661,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -1650,16 +1672,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -1776,7 +1788,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -1784,10 +1796,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -1798,7 +1810,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -1853,16 +1865,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -1879,6 +1881,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -1903,16 +1913,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -1924,16 +1924,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -1966,6 +1956,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -2035,6 +2026,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2043,6 +2048,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -2084,7 +2090,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={true}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={true}
       id="field"
       label="Label"
@@ -2213,7 +2219,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -2221,10 +2227,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -2235,7 +2241,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -2290,16 +2296,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -2316,6 +2312,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -2340,16 +2344,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -2361,16 +2355,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -2487,7 +2471,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -2495,10 +2479,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -2509,7 +2493,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -2564,16 +2548,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -2590,6 +2564,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -2614,16 +2596,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -2635,16 +2607,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -2677,6 +2639,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -2746,6 +2709,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -2754,6 +2731,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -2801,7 +2779,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -2923,7 +2901,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "background": Object {
               "default": "#FAFAFA",
-              "defaultContrastText": "#000000",
+              "defaultContrastText": "#333333",
               "paper": "#FFFFFF",
               "paperContrastText": "#333333",
             },
@@ -2931,10 +2909,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "link": "#227BBD",
               "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
-              "warningContrastText": "#000000",
+              "warningContrastText": "#333333",
             },
             "error": Object {
-              "contrastText": "#333333",
+              "contrastText": "#FFFFFF",
               "main": "#E74627",
             },
             "primary": Object {
@@ -2945,7 +2923,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "secondary": Object {
               "contrastText": "#000000",
-              "dark": "#FF6B0B",
+              "dark": "#FF5808",
               "light": "#FFF8E1",
               "main": "#FF6B0B",
             },
@@ -3000,16 +2978,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "spacing": 8,
           "typography": Object {
-            "android": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "body1": Object {
               "fontSize": "1rem",
               "fontWeight": 400,
@@ -3026,6 +2994,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "0.75rem",
               "fontWeight": 400,
             },
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+            "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+            "fontFamilyBrand3": undefined,
+            "fontWeightBold": 700,
+            "fontWeightLight": 300,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
             "h1": Object {
               "fontSize": "6rem",
               "fontWeight": 300,
@@ -3050,16 +3026,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "1.25rem",
               "fontWeight": 600,
             },
-            "iOS": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "overline": Object {
               "fontSize": "0.75rem",
               "fontWeight": 400,
@@ -3071,16 +3037,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "subtitle2": Object {
               "fontSize": "0.875rem",
               "fontWeight": 500,
-            },
-            "web": Object {
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
             },
           },
         }
@@ -3204,7 +3160,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -3212,10 +3168,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -3226,7 +3182,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -3281,16 +3237,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -3307,6 +3253,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -3331,16 +3285,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -3352,16 +3296,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -3478,7 +3412,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -3486,10 +3420,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -3500,7 +3434,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -3555,16 +3489,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -3581,6 +3505,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -3605,16 +3537,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -3626,16 +3548,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -3669,6 +3581,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -3738,6 +3651,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3746,6 +3673,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -3787,7 +3715,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -3832,6 +3760,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -3901,6 +3830,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -3909,6 +3852,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -3950,7 +3894,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       hasIcon={false}
       helpText="Assistive text"
@@ -4079,7 +4023,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "background": Object {
               "default": "#FAFAFA",
-              "defaultContrastText": "#000000",
+              "defaultContrastText": "#333333",
               "paper": "#FFFFFF",
               "paperContrastText": "#333333",
             },
@@ -4087,10 +4031,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "link": "#227BBD",
               "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
-              "warningContrastText": "#000000",
+              "warningContrastText": "#333333",
             },
             "error": Object {
-              "contrastText": "#333333",
+              "contrastText": "#FFFFFF",
               "main": "#E74627",
             },
             "primary": Object {
@@ -4101,7 +4045,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "secondary": Object {
               "contrastText": "#000000",
-              "dark": "#FF6B0B",
+              "dark": "#FF5808",
               "light": "#FFF8E1",
               "main": "#FF6B0B",
             },
@@ -4156,16 +4100,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "spacing": 8,
           "typography": Object {
-            "android": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "body1": Object {
               "fontSize": "1rem",
               "fontWeight": 400,
@@ -4182,6 +4116,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "0.75rem",
               "fontWeight": 400,
             },
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+            "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+            "fontFamilyBrand3": undefined,
+            "fontWeightBold": 700,
+            "fontWeightLight": 300,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
             "h1": Object {
               "fontSize": "6rem",
               "fontWeight": 300,
@@ -4206,16 +4148,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "1.25rem",
               "fontWeight": 600,
             },
-            "iOS": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "overline": Object {
               "fontSize": "0.75rem",
               "fontWeight": 400,
@@ -4227,16 +4159,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "subtitle2": Object {
               "fontSize": "0.875rem",
               "fontWeight": 500,
-            },
-            "web": Object {
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
             },
           },
         }
@@ -4279,6 +4201,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -4348,6 +4271,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4356,6 +4293,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -4397,7 +4335,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <textarea
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -4442,6 +4380,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -4511,6 +4450,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4519,6 +4472,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -4560,7 +4514,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -4605,6 +4559,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -4674,6 +4629,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c2[type="text"]::-ms-clear,
+.c2[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c2[type="search"]::-webkit-search-decoration,
+.c2[type="search"]::-webkit-search-cancel-button,
+.c2[type="search"]::-webkit-search-results-button,
+.c2[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4682,6 +4651,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c3 {
@@ -4708,7 +4678,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c2"
+      className="c2 undefined__input"
       disabled={false}
       id="field"
       label={null}
@@ -4753,6 +4723,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -4822,6 +4793,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -4830,6 +4815,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -4871,7 +4857,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -5000,7 +4986,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -5008,10 +4994,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -5022,7 +5008,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -5077,16 +5063,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -5103,6 +5079,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -5127,16 +5111,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -5148,16 +5122,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -5274,7 +5238,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "background": Object {
           "default": "#FAFAFA",
-          "defaultContrastText": "#000000",
+          "defaultContrastText": "#333333",
           "paper": "#FFFFFF",
           "paperContrastText": "#333333",
         },
@@ -5282,10 +5246,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "main": "#E74627",
         },
         "primary": Object {
@@ -5296,7 +5260,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
+          "dark": "#FF5808",
           "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
@@ -5351,16 +5315,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "spacing": 8,
       "typography": Object {
-        "android": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "body1": Object {
           "fontSize": "1rem",
           "fontWeight": 400,
@@ -5377,6 +5331,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "0.75rem",
           "fontWeight": 400,
         },
+        "fontFamily": "\\"Roboto\\", sans-serif",
+        "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+        "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+        "fontFamilyBrand3": undefined,
+        "fontWeightBold": 700,
+        "fontWeightLight": 300,
+        "fontWeightMedium": 500,
+        "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
           "fontWeight": 300,
@@ -5401,16 +5363,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "fontSize": "1.25rem",
           "fontWeight": 600,
         },
-        "iOS": Object {
-          "fontFamily": "System",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
-        },
         "overline": Object {
           "fontSize": "0.75rem",
           "fontWeight": 400,
@@ -5422,16 +5374,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "subtitle2": Object {
           "fontSize": "0.875rem",
           "fontWeight": 500,
-        },
-        "web": Object {
-          "fontFamily": "\\"Roboto\\", sans-serif",
-          "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-          "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-          "fontFamilyBrand3": undefined,
-          "fontWeightBold": 700,
-          "fontWeightLight": 300,
-          "fontWeightMedium": 500,
-          "fontWeightRegular": 400,
         },
       },
     }
@@ -5464,6 +5406,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #333333;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -5533,6 +5476,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #777777 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5541,6 +5498,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -5588,7 +5546,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -5710,7 +5668,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "background": Object {
               "default": "#FAFAFA",
-              "defaultContrastText": "#000000",
+              "defaultContrastText": "#333333",
               "paper": "#FFFFFF",
               "paperContrastText": "#333333",
             },
@@ -5718,10 +5676,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "link": "#227BBD",
               "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
-              "warningContrastText": "#000000",
+              "warningContrastText": "#333333",
             },
             "error": Object {
-              "contrastText": "#333333",
+              "contrastText": "#FFFFFF",
               "main": "#E74627",
             },
             "primary": Object {
@@ -5732,7 +5690,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "secondary": Object {
               "contrastText": "#000000",
-              "dark": "#FF6B0B",
+              "dark": "#FF5808",
               "light": "#FFF8E1",
               "main": "#FF6B0B",
             },
@@ -5787,16 +5745,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "spacing": 8,
           "typography": Object {
-            "android": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "body1": Object {
               "fontSize": "1rem",
               "fontWeight": 400,
@@ -5813,6 +5761,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "0.75rem",
               "fontWeight": 400,
             },
+            "fontFamily": "\\"Roboto\\", sans-serif",
+            "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+            "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+            "fontFamilyBrand3": undefined,
+            "fontWeightBold": 700,
+            "fontWeightLight": 300,
+            "fontWeightMedium": 500,
+            "fontWeightRegular": 400,
             "h1": Object {
               "fontSize": "6rem",
               "fontWeight": 300,
@@ -5837,16 +5793,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "fontSize": "1.25rem",
               "fontWeight": 600,
             },
-            "iOS": Object {
-              "fontFamily": "System",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
-            },
             "overline": Object {
               "fontSize": "0.75rem",
               "fontWeight": 400,
@@ -5858,16 +5804,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "subtitle2": Object {
               "fontSize": "0.875rem",
               "fontWeight": 500,
-            },
-            "web": Object {
-              "fontFamily": "\\"Roboto\\", sans-serif",
-              "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
-              "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-              "fontFamilyBrand3": undefined,
-              "fontWeightBold": 700,
-              "fontWeightLight": 300,
-              "fontWeightMedium": 500,
-              "fontWeightRegular": 400,
             },
           },
         }
@@ -5908,6 +5844,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   color: #FAFAFA;
   font-size: 0.875rem;
   font-weight: 400;
+  font-family: "Roboto",sans-serif;
   -webkit-flex: 1 1 100%;
   -ms-flex: 1 1 100%;
   flex: 1 1 100%;
@@ -5977,6 +5914,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
   box-shadow: #BBBBBB 0 0 0 1px;
 }
 
+.c3[type="text"]::-ms-clear,
+.c3[type="text"]::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type="search"]::-webkit-search-decoration,
+.c3[type="search"]::-webkit-search-cancel-button,
+.c3[type="search"]::-webkit-search-results-button,
+.c3[type="search"]::-webkit-search-results-decoration {
+  display: none;
+}
+
 .c0 {
   display: -webkit-box;
   display: -webkit-flex;
@@ -5985,6 +5936,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   -webkit-flex-flow: column nowrap;
   -ms-flex-flow: column nowrap;
   flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
 }
 
 .c1 {
@@ -6026,7 +5978,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="c3"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"

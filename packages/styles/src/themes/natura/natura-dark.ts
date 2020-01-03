@@ -35,12 +35,12 @@ export const naturaDark: ITheme = {
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
       light: "#FFF8E1",
-      dark: natura.primary.colorBrdNatPrimaryOrange,
+      dark: '#FF5808',
       contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     success: {
       main: natura.complementary.colorBrdNatCpGreen1,
@@ -62,7 +62,7 @@ export const naturaDark: ITheme = {
       link: natura.complementary.colorBrdNatCpBlue1,
       linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
       warning: natura.complementary.colorBrdNatCpOrange4,
-      warningContrastText: natura.grayscale.colorBrdBlack
+      warningContrastText: natura.grayscale.colorBrdNatGray
     }
   },
   typography: {

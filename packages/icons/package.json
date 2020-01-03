@@ -21,7 +21,7 @@
     "directory": "packages/icons"
   },
   "scripts": {
-    "build:clean": "rm -rf dist",
+    "build:clean": "rm -rf dist && rm -rf src/assets/cleaned/* && rm -rf src/fonts/*",
     "build": "yarn build:deps && tsc -p ./tsconfig.json && yarn build:copyfiles",
     "build:deps": "yarn build:clean && yarn build:cleansvgs && yarn build:fonts && yarn build:csstypes",
     "build:cleansvgs": "node ./scripts/svgCleaner.js",
