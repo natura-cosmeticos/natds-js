@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-rn@0.1.3...@naturacosmeticos/natds-rn@0.2.0) (2020-01-03)
+
+
+### Bug Fixes
+
+* **badge:** fixed badge styling and style property naming ([a5c0cd6](https://github.com/natura-cosmeticos/natds/commit/a5c0cd6eb1e576ad7acbbdc1f2a93c488548332d))
+* **docs:** updating Docs and some theme colors ([83baa35](https://github.com/natura-cosmeticos/natds/commit/83baa35338b5195d95ed7d700960bcdc152200e3))
+
+
+### Features
+
+* **docs:** updating component tokens with sizes ([cee522a](https://github.com/natura-cosmeticos/natds/commit/cee522a932cd397570f4766e642997ffad1d860f))
+
+
+
+
+
 ## [0.1.3](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-rn@0.1.1...@naturacosmeticos/natds-rn@0.1.3) (2019-12-11)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-rn

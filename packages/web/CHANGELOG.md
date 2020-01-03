@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.1.3...@naturacosmeticos/natds-web@0.2.0) (2020-01-03)
+
+
+### Bug Fixes
+
+* **badge:** fixed badge styling and style property naming ([a5c0cd6](https://github.com/natura-cosmeticos/natds/commit/a5c0cd6eb1e576ad7acbbdc1f2a93c488548332d))
+* **docs:** finxing docs missing styles and icons ([ac5152b](https://github.com/natura-cosmeticos/natds/commit/ac5152b60b1466b6b16ff427cddb4bc9fd3a421f))
+* **docs:** updating Docs and some theme colors ([83baa35](https://github.com/natura-cosmeticos/natds/commit/83baa35338b5195d95ed7d700960bcdc152200e3))
+* **docs:** updating docs for IconButton and ToggleButton ([dc5aecf](https://github.com/natura-cosmeticos/natds/commit/dc5aecfdf9ae7872d57bbbbab61fe56d76386ca0))
+* **test:** fixing snapshot tests after changes ([c9c0410](https://github.com/natura-cosmeticos/natds/commit/c9c041071c065c3fe276f52592027050089b6f23))
+* **test:** fixing snapshot tests after last changes ([3272c4e](https://github.com/natura-cosmeticos/natds/commit/3272c4ef191e01fcb268166e0f69feca7f41d305))
+* **web:** fixing tests ([9345166](https://github.com/natura-cosmeticos/natds/commit/93451664b3c91bb15e400dda524aac564329fadd))
+* **web:** removing props translate to evict warning when consuming package ([fcb514a](https://github.com/natura-cosmeticos/natds/commit/fcb514a143bda82c85ed8fe5bf7039e318d720b1))
+
+
+### Features
+
+* **card:** consuming card components into storybook ([583077d](https://github.com/natura-cosmeticos/natds/commit/583077d81ae700ee34170230ade2a01be0c7eb7a))
+* **card:** creating card components ([d4b6727](https://github.com/natura-cosmeticos/natds/commit/d4b67273640e4422490d4394f1f79fbf2e8b776a))
+* **card:** including snapshot tests to card components ([b7d2fa8](https://github.com/natura-cosmeticos/natds/commit/b7d2fa819f6602c4fef7cb381ebbf656a81278e8))
+* **docs:** updating component tokens with sizes ([cee522a](https://github.com/natura-cosmeticos/natds/commit/cee522a932cd397570f4766e642997ffad1d860f))
+* **web:** creating Size property ([6457db4](https://github.com/natura-cosmeticos/natds/commit/6457db4bc6128e178e191208601cb556005f9e3f))
+* **web:** creating ToggleButton component ([ef114c9](https://github.com/natura-cosmeticos/natds/commit/ef114c956fdac8a685563679c8085598ef10c600))
+
+
+
+
+
 ## [0.1.3](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.1.2...@naturacosmeticos/natds-web@0.1.3) (2019-12-11)
 
 

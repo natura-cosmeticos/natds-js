@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.2.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-docs@0.1.3...@naturacosmeticos/natds-docs@0.2.0) (2020-01-03)
+
+
+### Bug Fixes
+
+* **badge:** fixed badge styling and style property naming ([a5c0cd6](https://github.com/natura-cosmeticos/natds/commit/a5c0cd6eb1e576ad7acbbdc1f2a93c488548332d))
+* **card:** fixing story card media source image ([26b6aaf](https://github.com/natura-cosmeticos/natds/commit/26b6aaf8720977802a6604178a0880ffb64a9571))
+* **docs:** finxing docs missing styles and icons ([ac5152b](https://github.com/natura-cosmeticos/natds/commit/ac5152b60b1466b6b16ff427cddb4bc9fd3a421f))
+* **docs:** fixing release script ([b62602c](https://github.com/natura-cosmeticos/natds/commit/b62602c1834c0bc90d207fc5c3d32b16fe50a002))
+* **docs:** fixing Spacing namespaces ([1f2bf6f](https://github.com/natura-cosmeticos/natds/commit/1f2bf6f45f1980fa9145f7bb44d209c47fb7cfe1))
+* **docs:** updating Docs and some theme colors ([83baa35](https://github.com/natura-cosmeticos/natds/commit/83baa35338b5195d95ed7d700960bcdc152200e3))
+* **docs:** updating docs for IconButton and ToggleButton ([dc5aecf](https://github.com/natura-cosmeticos/natds/commit/dc5aecfdf9ae7872d57bbbbab61fe56d76386ca0))
+* **web:** fixing tests ([9345166](https://github.com/natura-cosmeticos/natds/commit/93451664b3c91bb15e400dda524aac564329fadd))
+* **web:** removing props translate to evict warning when consuming package ([fcb514a](https://github.com/natura-cosmeticos/natds/commit/fcb514a143bda82c85ed8fe5bf7039e318d720b1))
+
+
+### Features
+
+* **card:** consuming card components into storybook ([583077d](https://github.com/natura-cosmeticos/natds/commit/583077d81ae700ee34170230ade2a01be0c7eb7a))
+* **dialog:** fixing docs mdx and interactive canvas ([177dfac](https://github.com/natura-cosmeticos/natds/commit/177dfacc4e7b0de78986bef8608a58e3e148adb0))
+* **docs:** changing Theme addon to be displayed at the Toolbar and to change the background ([0d297a7](https://github.com/natura-cosmeticos/natds/commit/0d297a7071e04dbbf3dc9267272c624293953668))
+* **docs:** creating Sizes token story ([858d74b](https://github.com/natura-cosmeticos/natds/commit/858d74bfc1c3525fe5f248db812c23ba73196007))
+* **docs:** updating component tokens with sizes ([cee522a](https://github.com/natura-cosmeticos/natds/commit/cee522a932cd397570f4766e642997ffad1d860f))
+* **styles:** including tokens for Icon size on themes ([efe5136](https://github.com/natura-cosmeticos/natds/commit/efe5136b9eda36745e2cec1c3b1e4cc6bf27e7a4))
+* **web:** changing avatar props ([b45b705](https://github.com/natura-cosmeticos/natds/commit/b45b705d26f81baa886dd7340ac01108c9b01e99))
+* **web:** creating Size property ([6457db4](https://github.com/natura-cosmeticos/natds/commit/6457db4bc6128e178e191208601cb556005f9e3f))
+* **web:** creating ToggleButton component ([ef114c9](https://github.com/natura-cosmeticos/natds/commit/ef114c956fdac8a685563679c8085598ef10c600))
+
+
+### BREAKING CHANGES
+
+* **web:** Avatar largex size is now huge
+
+
+
+
+
 ## [0.1.3](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-docs@0.1.2...@naturacosmeticos/natds-docs@0.1.3) (2019-12-11)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-docs
