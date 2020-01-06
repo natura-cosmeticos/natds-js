@@ -22,16 +22,17 @@ export const BottomNavigationAction: React.FC<IBottomNavigationActionProps> = (p
   },[providerTheme]);
 
   const useStyles = React.useMemo(() => {
-    const { secondary } = theme.palette;
+    const { text } = theme.palette;
+    const { typography: { caption } } = theme;
 
     return makeStyles({
-      root: {
-        '&$selected': {
-          color: secondary.main
-        }
-      },
       selected: {
-        color: secondary.main,
+        color: text.primary,
+      },
+      label: {
+        '&$selected': {
+          fontSize: caption.fontSize,
+        }
       }
     });
   },[theme]);
