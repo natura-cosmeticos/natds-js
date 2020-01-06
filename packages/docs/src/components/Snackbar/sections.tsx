@@ -16,13 +16,13 @@ const SnackbarContentWrapper = (props: any) => {
   const classes = useStyles();
   return <SnackbarContent {...props} action={
     <IconButton color="inherit">
-      <Icon name="filled-alert-cancel" size="tiny" />
+      <Icon name="filled-action-cancel" size="tiny" />
     </IconButton>
   }
   message={
     <span className={classes.message}>
       <span className={classes.messageIcon}>
-        <Icon name="outlined-navigation-close" size="small"/>
+        <Icon name="filled-brand-naturarosacea" size="small"/>
       </span>
       <Typography>This is a message</Typography>
     </span>
