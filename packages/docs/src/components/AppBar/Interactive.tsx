@@ -21,9 +21,6 @@ const positions: any = {
 
 export const Interactive = () => {
   const useStyles = makeStyles(theme => ({
-    root: {
-      width: '500px',
-    },
     menuButton: {
       marginRight: theme.spacing(2),
     },
@@ -35,7 +32,7 @@ export const Interactive = () => {
   const classes = useStyles();
 
   return (
-    <div className={classes.root}>
+    <div>
       <AppBar position={select('position', positions, positions.static)} color={select('color', colors, colors.primary)}>
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
