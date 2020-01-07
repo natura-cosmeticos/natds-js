@@ -15,43 +15,62 @@ import {
   ListItemSecondaryAction,
   ListItemText,
   Avatar,
-  Divider,
   Icon,
   IconButton,
+  Switch,
+  Checkbox,
 } from '@naturacosmeticos/natds-web';
 
 <List>
-  <ListItem button>
-    <ListItemText primary="Text only" />
+  <ListItem>
+    <ListItemText primary="Subtitle 1" />
+    <ListItemSecondaryAction>
+      <Typography children="Caption" variant="caption" color="textSecondary" />
+    </ListItemSecondaryAction>
   </ListItem>
-  <Divider />
-  <ListItem button>
+  <ListItem>
+    <ListItemText primary="Body 1" />
+  </ListItem>
+  <ListItem>
     <ListItemIcon>
-      <Icon name="" size="small" />
+      <Icon name="outlined-action-love" size="small" />
     </ListItemIcon>
-    <ListItemText primary="Icon with text" />
+    <ListItemText primary="Subtitle 1" />
+    <ListItemSecondaryAction>
+      <Switch edge="end" checked={true} />
+    </ListItemSecondaryAction>
   </ListItem>
-  <Divider />
-  <ListItem button>
-    <ListItemAvatar>
-      <Avatar color="default" size="small">
-        <Icon name="outlined-navigation-close" size="tiny" />
-      </Avatar>
-    </ListItemAvatar>
-    <ListItemText primary="Avatar with text" />
+  <ListItem>
+    <ListItemIcon>
+      <Checkbox checked={true} />
+    </ListItemIcon>
+    <ListItemText primary="Subtitle 1" />
+    <ListItemSecondaryAction>
+      <IconButton edge="end">
+        <Icon name="filled-navigation-more" size="tiny" />
+      </IconButton>
+    </ListItemSecondaryAction>
   </ListItem>
-  <Divider />
+  <ListItem>
+    <ListItemIcon>
+      <Icon name="outlined-action-love" size="small" />
+    </ListItemIcon>
+    <ListItemText primary="Subtitle 1" />
+    <ListItemSecondaryAction>
+      <Checkbox edge="end" checked={true} />
+    </ListItemSecondaryAction>
+  </ListItem>
   <ListItem>
     <ListItemAvatar>
-      <Avatar color="default" size="small">
-        <Icon name="outlined-product-hair" size="tiny" />
-      </Avatar>
+      <Avatar
+        src={require('../../assets/images/1.png')}
+        size="small"
+        color="default"
+      />
     </ListItemAvatar>
-    <ListItemText primary="Avatar with text and icon" />
+    <ListItemText primary="Subtitle 1" />
     <ListItemSecondaryAction>
-      <IconButton edge="end" aria-label="shopping">
-        <Icon name="outlined-navigation-close" size="tiny" />
-      </IconButton>
+      <Typography children="Caption" variant="caption" color="textSecondary" />
     </ListItemSecondaryAction>
   </ListItem>
 </List>;
