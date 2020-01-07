@@ -2,7 +2,14 @@ import * as React from 'react';
 import { AppBar, Toolbar, IconButton, Typography, Button, Icon } from '@naturacosmeticos/natds-web';
 import { makeStyles } from '@material-ui/core/styles';
 
-const AppBarWrapper = ({ color }: { color: any }) => {
+interface IAppBarWrapper {
+   color: any;
+   noElevation?: boolean;
+}
+
+const AppBarWrapper = (props: IAppBarWrapper) => {
+  const { color, noElevation } = props;
+
   const useStyles = makeStyles(theme => ({
     root: {
       flexGrow: 1,
@@ -20,10 +27,10 @@ const AppBarWrapper = ({ color }: { color: any }) => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color={color}>
+      <AppBar position="static" color={color} noElevation={noElevation}>
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
-            <Icon name="filled-brand-naturarosacea" size="small" />
+            <Icon name="filled-navigation-menu" size="tiny" />
           </IconButton>
           <Typography variant="h6" className={classes.title}>
             AppBar
@@ -51,5 +58,16 @@ export const colors = [
   {
     title: 'secondary',
     component: <AppBarWrapper color="secondary" />
+  }
+];
+
+export const elevation = [
+  {
+    title: 'noElevation is false',
+    component: <AppBarWrapper color="primary" />
+  },
+  {
+    title: 'noElevation is true',
+    component: <AppBarWrapper color="primary" noElevation />
   }
 ];
