@@ -9,5 +9,9 @@ describe('AppBar component', () => {
       const wrapper = renderer.create(<AppBar />);
       expect(wrapper.toJSON()).toMatchSnapshot('Default AppBar snapshot');
     });
+    test('it should match noElevation snapshot', () => {
+      const wrapper = renderer.create(<AppBar noElevation />);
+      expect(wrapper.toJSON()).toMatchSnapshot('noElevation AppBar snapshot');
+    });
   });
 });
