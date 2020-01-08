@@ -22,7 +22,6 @@ export const naturaDark: ITheme = {
   iconSizes,
   spacing: spacing.spacing,
   palette: {
-    type: "light",
     action: {
       disabled: "rgba(0, 0, 0, .24)"
     },
@@ -34,35 +33,36 @@ export const naturaDark: ITheme = {
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
-      light: "#FFF8E1",
-      dark: '#FF5808',
+      light: "#FEFDE8",
+      dark: "#EF8426",
       contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite
+      contrastText: natura.grayscale.colorBrdNatGray
     },
     success: {
       main: natura.complementary.colorBrdNatCpGreen1,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite,
+      contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     background: {
-      paper: natura.grayscale.colorBrdNatGray,
-      default: '#222222',
+      paper: "#121212",
+      default: natura.grayscale.colorBrdNatGray,
       paperContrastText: natura.primary.colorBrdNatPrimaryWhite,
       defaultContrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     text: {
-      primary: '#FAFAFA',
+      primary: "#FAFAFA",
       secondary: natura.grayscale.colorBrdNatGray2,
-      disabled: '#222222',
+      disabled: natura.grayscale.colorBrdNatGray1,
       hint: natura.grayscale.colorBrdNatGray1
     },
     complementary: {
+      highlight: natura.primary.colorBrdNatPrimaryWhite,
       link: natura.complementary.colorBrdNatCpBlue1,
       linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
       warning: natura.complementary.colorBrdNatCpOrange4,
-      warningContrastText: natura.grayscale.colorBrdNatGray
+      warningContrastText: natura.grayscale.colorBrdBlack
     }
   },
   typography: {

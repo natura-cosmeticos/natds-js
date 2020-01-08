@@ -2711,9 +2711,9 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "augmentColor": [Function],
         "background": Object {
-          "default": "#222222",
+          "default": "#333333",
           "defaultContrastText": "#FFFFFF",
-          "paper": "#333333",
+          "paper": "#121212",
           "paperContrastText": "#FFFFFF",
         },
         "common": Object {
@@ -2721,15 +2721,16 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           "white": "#fff",
         },
         "complementary": Object {
+          "highlight": "#FFFFFF",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "contrastThreshold": 3,
         "divider": "rgba(0, 0, 0, 0.12)",
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "dark": "rgb(161, 49, 27)",
           "light": "rgb(235, 107, 82)",
           "main": "#E74627",
@@ -2765,8 +2766,8 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -2776,7 +2777,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#222222",
+          "disabled": "#777777",
           "hint": "#777777",
           "primary": "#FAFAFA",
           "secondary": "#BBBBBB",
