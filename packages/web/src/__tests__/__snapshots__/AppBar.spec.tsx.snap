@@ -2,7 +2,7 @@
 
 exports[`AppBar component rendering it should match default snapshot: Default AppBar snapshot 1`] = `
 <header
-  className="MuiPaper-root MuiAppBar-root makeStyles-root-1 MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation2"
   theme={
     Object {
       "breakpoints": Object {
@@ -291,10 +291,9 @@ exports[`AppBar component rendering it should match default snapshot: Default Ap
 />
 `;
 
-exports[`AppBar component rendering it should match noElevation snapshot: noElevation AppBar snapshot 1`] = `
+exports[`AppBar component rendering it should match elevation equals zero snapshot: Elevation equals zero AppBar snapshot 1`] = `
 <header
-  className="MuiPaper-root MuiAppBar-root makeStyles-root-40 MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation4"
-  noElevation={true}
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionFixed MuiAppBar-colorPrimary mui-fixed MuiPaper-elevation0"
   theme={
     Object {
       "breakpoints": Object {

@@ -1,6 +1,6 @@
 import * as React from 'react';
 import { AppBar, Toolbar, IconButton, Typography, Button, Icon } from '@naturacosmeticos/natds-web';
-import { select, boolean } from '@storybook/addon-knobs';
+import { select, boolean, number } from '@storybook/addon-knobs';
 import { makeStyles } from '@material-ui/core/styles';
 
 const colors: any = {
@@ -16,6 +16,13 @@ const positions: any = {
   relative: 'relative',
   static: 'static',
   sticky: 'sticky',
+};
+
+const optionsElevation: any = {
+  range: true,
+  min: 0,
+  max: 24,
+  step: 1,
 };
 
 
@@ -38,10 +45,10 @@ export const Interactive = () => {
       alignSelf: 'flex-end'
     },
     toolbar: {
-      minHeight: 128,
+      minHeight: 128 - theme.spacing(2),
       alignItems: 'flex-start',
-      paddingTop: theme.spacing(1.5),
-      paddingBottom: theme.spacing(1.5),
+      paddingTop: theme.spacing(1),
+      paddingBottom: theme.spacing(1),
     }
   }));
 
@@ -49,7 +56,7 @@ export const Interactive = () => {
   const prominentClasses = useProminentStyles();
 
   return (
-    <AppBar noElevation={boolean('noElevation', false)} position={select('position', positions, positions.static)} color={select('color', colors, colors.primary)}>
+    <AppBar elevation={number('elevation', 2, optionsElevation)} position={select('position', positions, positions.static)} color={select('color', colors, colors.primary)}>
       <Toolbar className={prominent ? prominentClasses.toolbar : undefined}>
         <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
           <Icon name="filled-navigation-menu" size="tiny" />

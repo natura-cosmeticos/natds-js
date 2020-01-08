@@ -4,11 +4,11 @@ import { makeStyles } from '@material-ui/core/styles';
 
 interface IAppBarWrapper {
    color: any;
-   noElevation?: boolean;
+   elevation?: number;
 }
 
 const AppBarWrapper = (props: IAppBarWrapper) => {
-  const { color, noElevation } = props;
+  const { color, elevation: elevationProp } = props;
 
   const useStyles = makeStyles(theme => ({
     root: {
@@ -27,7 +27,7 @@ const AppBarWrapper = (props: IAppBarWrapper) => {
 
   return (
     <div className={classes.root}>
-      <AppBar position="static" color={color} noElevation={noElevation}>
+      <AppBar position="static" color={color} elevation={elevationProp}>
         <Toolbar>
           <IconButton edge="start" className={classes.menuButton} color="inherit" aria-label="menu">
             <Icon name="filled-navigation-menu" size="tiny" />
@@ -63,11 +63,11 @@ export const colors = [
 
 export const elevation = [
   {
-    title: 'noElevation is false',
+    title: 'Default elevation',
     component: <AppBarWrapper color="primary" />
   },
   {
-    title: 'noElevation is true',
-    component: <AppBarWrapper color="primary" noElevation />
+    title: 'Elevation equals zero',
+    component: <AppBarWrapper color="primary" elevation={0} />
   }
 ];

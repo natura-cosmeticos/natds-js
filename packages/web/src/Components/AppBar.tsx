@@ -9,36 +9,33 @@ export interface IAppBarProps extends AppBarProps {
    * @optional
    */
   theme: IThemeWeb | unknown;
-  /**
-   * @optional
-   * @default false
-   * Removes the box-shadow from the container
-   */
-  noElevation?: boolean;
 }
+
+const defaultAppBarElevation = 2;
 
 export const AppBar: React.FC<IAppBarProps> = (props:IAppBarProps) => {
   const {
+    elevation,
     theme: providerTheme,
     classes,
-    noElevation = false
   } = props;
 
-  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const theme: any  = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
   const useStyles = React.useMemo(() => makeStyles({
-    root: {
-      boxShadow: noElevation ? 'none' : undefined
-    },
     colorDefault: {
-      backgroundColor: theme.palette.background.default,
-      color: theme.palette.background.defaultContrastText,
+      backgroundColor: theme.palette.background.paper,
+      color: theme.palette.background.paperContrastText,
     }
   }), [theme]);
 
   const customClasses = useStyles();
 
-  return <MaterialAppBar  {...props} classes={{...customClasses, ...classes}} />;
+  return <MaterialAppBar
+    {...props}
+    classes={{...customClasses, ...classes}}
+    elevation={!elevation && elevation !== 0 ? defaultAppBarElevation : elevation}
+  />;
 };
 
 export default withTheme(AppBar);
