@@ -522,6 +522,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "4px",
           },
         },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -785,6 +800,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
           },
         },
         "MuiToolbar": Object {
@@ -1557,6 +1587,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "4px",
           },
         },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -1821,6 +1866,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
           },
         },
         "MuiToolbar": Object {
@@ -2268,6 +2328,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "4px",
           },
         },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -2532,6 +2607,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
           },
         },
         "MuiToolbar": Object {
@@ -2978,6 +3068,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "padding": "4px",
               },
             },
+            "MuiListItem": Object {
+              "button": Object {
+                "&:hover": Object {
+                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                },
+              },
+              "root": Object {
+                "&$selected": Object {
+                  "backgroundColor": "rgba(255, 107, 11, .14)",
+                },
+                "&$selected:hover": Object {
+                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                },
+              },
+            },
             "MuiToolbar": Object {
               "dense": Object {
                 "@media (min-width: 600px)": Object {
@@ -3251,6 +3356,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "4px",
           },
         },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -3515,6 +3635,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
           },
         },
         "MuiToolbar": Object {
@@ -4140,6 +4275,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
               },
               "sizeSmall": Object {
                 "padding": "4px",
+              },
+            },
+            "MuiListItem": Object {
+              "button": Object {
+                "&:hover": Object {
+                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                },
+              },
+              "root": Object {
+                "&$selected": Object {
+                  "backgroundColor": "rgba(255, 107, 11, .14)",
+                },
+                "&$selected:hover": Object {
+                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                },
               },
             },
             "MuiToolbar": Object {
@@ -5119,6 +5269,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "4px",
           },
         },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -5383,6 +5548,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
           },
         },
         "MuiToolbar": Object {
@@ -5827,6 +6007,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
               },
               "sizeSmall": Object {
                 "padding": "4px",
+              },
+            },
+            "MuiListItem": Object {
+              "button": Object {
+                "&:hover": Object {
+                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                },
+              },
+              "root": Object {
+                "&$selected": Object {
+                  "backgroundColor": "rgba(255, 107, 11, .14)",
+                },
+                "&$selected:hover": Object {
+                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                },
               },
             },
             "MuiToolbar": Object {
