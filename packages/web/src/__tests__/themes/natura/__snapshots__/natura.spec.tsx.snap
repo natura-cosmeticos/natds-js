@@ -117,11 +117,23 @@ Object {
         },
         "minHeight": "56px",
       },
+      "gutters": Object {
+        "@media (min-width: 600px)": Object {
+          "padding": "0 16px",
+        },
+        "padding": "0 16px",
+      },
       "regular": Object {
         "@media (min-width: 600px)": Object {
           "minHeight": "56px",
         },
         "minHeight": "56px",
+      },
+      "root": Object {
+        "@media (min-width: 600px)": Object {
+          "padding": "0 16px",
+        },
+        "padding": "0 16px",
       },
     },
   },
