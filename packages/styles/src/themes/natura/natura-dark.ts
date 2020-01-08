@@ -46,8 +46,8 @@ export const naturaDark: ITheme = {
       contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     background: {
-      paper: "#121212",
-      default: natura.grayscale.colorBrdNatGray,
+      paper: natura.grayscale.colorBrdNatGray,
+      default: "#121212",
       paperContrastText: natura.primary.colorBrdNatPrimaryWhite,
       defaultContrastText: natura.primary.colorBrdNatPrimaryWhite
     },
@@ -99,6 +99,7 @@ export const naturaDark: ITheme = {
     },
     MuiIconButton: {
       root: {
+        color: '#FAFAFA',
         padding: "8px"
       },
       sizeSmall: {
