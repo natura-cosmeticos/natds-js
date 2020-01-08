@@ -2700,6 +2700,21 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "padding": "4px",
           },
         },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .14)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
