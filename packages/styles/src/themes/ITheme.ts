@@ -68,6 +68,7 @@ export interface ITheme {
       hint?: string;
     };
     complementary?: {
+      highlight?: string;
       link?: string;
       linkContrastText?: string;
       warning?: string;

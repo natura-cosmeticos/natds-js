@@ -534,13 +534,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -551,8 +552,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -560,12 +561,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -785,13 +785,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -802,8 +803,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -811,12 +812,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -1541,13 +1541,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -1558,8 +1559,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -1567,12 +1568,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -1793,13 +1793,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -1810,8 +1811,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -1819,12 +1820,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -2224,13 +2224,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -2241,8 +2242,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -2250,12 +2251,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -2476,13 +2476,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -2493,8 +2494,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -2502,12 +2503,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -2906,13 +2906,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "paperContrastText": "#333333",
             },
             "complementary": Object {
+              "highlight": "#000000",
               "link": "#227BBD",
               "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
-              "warningContrastText": "#333333",
+              "warningContrastText": "#000000",
             },
             "error": Object {
-              "contrastText": "#FFFFFF",
+              "contrastText": "#333333",
               "main": "#E74627",
             },
             "primary": Object {
@@ -2923,8 +2924,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "secondary": Object {
               "contrastText": "#000000",
-              "dark": "#FF5808",
-              "light": "#FFF8E1",
+              "dark": "#EF8426",
+              "light": "#FEFDE8",
               "main": "#FF6B0B",
             },
             "success": Object {
@@ -2932,12 +2933,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "main": "#569A32",
             },
             "text": Object {
-              "disabled": "#EEEEEE",
+              "disabled": "#BBBBBB",
               "hint": "#BBBBBB",
               "primary": "#333333",
               "secondary": "#777777",
             },
-            "type": "light",
           },
           "shadows": Object {
             "0": "none",
@@ -3165,13 +3165,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -3182,8 +3183,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -3191,12 +3192,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -3417,13 +3417,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -3434,8 +3435,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -3443,12 +3444,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -4028,13 +4028,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "paperContrastText": "#333333",
             },
             "complementary": Object {
+              "highlight": "#000000",
               "link": "#227BBD",
               "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
-              "warningContrastText": "#333333",
+              "warningContrastText": "#000000",
             },
             "error": Object {
-              "contrastText": "#FFFFFF",
+              "contrastText": "#333333",
               "main": "#E74627",
             },
             "primary": Object {
@@ -4045,8 +4046,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "secondary": Object {
               "contrastText": "#000000",
-              "dark": "#FF5808",
-              "light": "#FFF8E1",
+              "dark": "#EF8426",
+              "light": "#FEFDE8",
               "main": "#FF6B0B",
             },
             "success": Object {
@@ -4054,12 +4055,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "main": "#569A32",
             },
             "text": Object {
-              "disabled": "#EEEEEE",
+              "disabled": "#BBBBBB",
               "hint": "#BBBBBB",
               "primary": "#333333",
               "secondary": "#777777",
             },
-            "type": "light",
           },
           "shadows": Object {
             "0": "none",
@@ -4991,13 +4991,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -5008,8 +5009,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -5017,12 +5018,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -5243,13 +5243,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "paperContrastText": "#333333",
         },
         "complementary": Object {
+          "highlight": "#000000",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#333333",
+          "warningContrastText": "#000000",
         },
         "error": Object {
-          "contrastText": "#FFFFFF",
+          "contrastText": "#333333",
           "main": "#E74627",
         },
         "primary": Object {
@@ -5260,8 +5261,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF5808",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -5269,12 +5270,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#EEEEEE",
+          "disabled": "#BBBBBB",
           "hint": "#BBBBBB",
           "primary": "#333333",
           "secondary": "#777777",
         },
-        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -5673,13 +5673,14 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "paperContrastText": "#333333",
             },
             "complementary": Object {
+              "highlight": "#000000",
               "link": "#227BBD",
               "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
-              "warningContrastText": "#333333",
+              "warningContrastText": "#000000",
             },
             "error": Object {
-              "contrastText": "#FFFFFF",
+              "contrastText": "#333333",
               "main": "#E74627",
             },
             "primary": Object {
@@ -5690,8 +5691,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "secondary": Object {
               "contrastText": "#000000",
-              "dark": "#FF5808",
-              "light": "#FFF8E1",
+              "dark": "#EF8426",
+              "light": "#FEFDE8",
               "main": "#FF6B0B",
             },
             "success": Object {
@@ -5699,12 +5700,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "main": "#569A32",
             },
             "text": Object {
-              "disabled": "#EEEEEE",
+              "disabled": "#BBBBBB",
               "hint": "#BBBBBB",
               "primary": "#333333",
               "secondary": "#777777",
             },
-            "type": "light",
           },
           "shadows": Object {
             "0": "none",
