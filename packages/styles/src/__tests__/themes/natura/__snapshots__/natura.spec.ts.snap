@@ -96,6 +96,20 @@ Object {
         "padding": "4px",
       },
     },
+    "MuiToolbar": Object {
+      "dense": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
+      },
+      "regular": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
+      },
+    },
   },
   "palette": Object {
     "action": Object {
@@ -337,6 +351,20 @@ Object {
       },
       "sizeSmall": Object {
         "padding": "4px",
+      },
+    },
+    "MuiToolbar": Object {
+      "dense": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
+      },
+      "regular": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
       },
     },
   },

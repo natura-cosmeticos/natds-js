@@ -105,6 +105,20 @@ export const naturaDark: ITheme = {
       sizeSmall: {
         padding: "4px"
       }
+    },
+    MuiToolbar: {
+      regular: {
+        minHeight: "56px",
+        '@media (min-width: 600px)' : {
+          minHeight: "56px",
+        }
+      },
+      dense: {
+        minHeight: "56px",
+        '@media (min-width: 600px)' : {
+          minHeight: "56px",
+        }
+      }
     }
   }
 };
