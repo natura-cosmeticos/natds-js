@@ -119,6 +119,21 @@ export const naturaDark: ITheme = {
           minHeight: "56px",
         }
       }
+    },
+    MuiListItem: {
+      root: {
+        '&$selected': {
+          backgroundColor: 'rgba(255, 107, 11, .14)',
+        },
+        '&$selected:hover': {
+          backgroundColor: 'rgba(255, 107, 11, .08)',
+        }
+      },
+      button: {
+        '&:hover': {
+          backgroundColor: 'rgba(255, 107, 11, .08)',
+        }
+      }
     }
   }
 };
