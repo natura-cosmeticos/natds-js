@@ -89,6 +89,7 @@ Object {
     },
     "MuiIconButton": Object {
       "root": Object {
+        "color": "#FAFAFA",
         "padding": "8px",
       },
       "sizeSmall": Object {
@@ -101,9 +102,9 @@ Object {
       "disabled": "rgba(0, 0, 0, .24)",
     },
     "background": Object {
-      "default": "#333333",
+      "default": "#121212",
       "defaultContrastText": "#FFFFFF",
-      "paper": "#121212",
+      "paper": "#333333",
       "paperContrastText": "#FFFFFF",
     },
     "complementary": Object {

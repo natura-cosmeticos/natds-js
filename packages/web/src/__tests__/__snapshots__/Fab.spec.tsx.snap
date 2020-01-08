@@ -2693,6 +2693,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#FAFAFA",
             "padding": "8px",
           },
           "sizeSmall": Object {
@@ -2711,9 +2712,9 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "augmentColor": [Function],
         "background": Object {
-          "default": "#333333",
+          "default": "#121212",
           "defaultContrastText": "#FFFFFF",
-          "paper": "#121212",
+          "paper": "#333333",
           "paperContrastText": "#FFFFFF",
         },
         "common": Object {
