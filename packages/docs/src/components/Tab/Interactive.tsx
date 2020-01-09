@@ -1,7 +1,12 @@
 import * as React from 'react';
-import { AppBar, TabContainer, TabItem } from '@naturacosmeticos/natds-web';
+import {
+  AppBar,
+  TabContainer,
+  TabItem,
+  Icon,
+} from '@naturacosmeticos/natds-web';
 import { makeStyles } from '@material-ui/core/styles';
-import { boolean, select } from '@storybook/addon-knobs';
+import { boolean, select, number } from '@storybook/addon-knobs';
 
 const appBarColor: any = {
   default: 'default',
@@ -21,6 +26,19 @@ const tabContainerIndicatorColor: any = {
   primary: 'primary',
 };
 
+const tabContainerVariant: any = {
+  standard: 'standard',
+  scrollable: 'scrollable',
+  fullWidth: 'fullWidth',
+};
+
+const tabContainerScrollButtons: any = {
+  auto: 'auto',
+  desktop: 'desktop',
+  on: 'on',
+  off: 'off',
+};
+
 function a11yProps(index: any) {
   return {
     id: `simple-tab-${index}`,
@@ -33,6 +51,7 @@ export const Interactive = () => {
     root: {
       flexGrow: 1,
       backgroundColor: theme.palette.background.paper,
+      maxWidth: number('Container maxWidth', 640),
     },
   }));
 
@@ -42,6 +61,10 @@ export const Interactive = () => {
   const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
     setValue(newValue);
   };
+
+  const tabItemWrapped = boolean('TabItem wrapped', false);
+  const tabItemDisabled = boolean('TabItem disabled', false);
+  const tabItemIcon = boolean('TabItem icon', false);
 
   return (
     <div className={classes.root}>
@@ -62,23 +85,56 @@ export const Interactive = () => {
             tabContainerIndicatorColor,
             tabContainerIndicatorColor.secondary
           )}
+          variant={select(
+            'TabContainer variant',
+            tabContainerVariant,
+            tabContainerVariant.standard
+          )}
+          scrollButtons={select(
+            'TabContainer scrollButtons',
+            tabContainerScrollButtons,
+            tabContainerScrollButtons.auto
+          )}
           centered={boolean('TabContainer centered', false)}
         >
           <TabItem
-            label="Item One"
+            icon={
+              tabItemIcon ? (
+                <Icon name="outlined-action-love" size="small" />
+              ) : (
+                ''
+              )
+            }
+            label={`Item One ${
+              tabItemWrapped ? 'With Longest Text of Nonfiction' : ''
+            }`}
+            wrapped={tabItemWrapped}
             {...a11yProps(0)}
-            disabled={boolean('TabItem disabled', false)}
           />
           <TabItem
+            icon={
+              tabItemIcon ? (
+                <Icon name="outlined-product-outlet" size="small" />
+              ) : (
+                ''
+              )
+            }
             label="Item Two"
             {...a11yProps(1)}
-            disabled={boolean('TabItem disabled', false)}
+            disabled={tabItemDisabled}
           />
           <TabItem
+            icon={
+              tabItemIcon ? (
+                <Icon name="outlined-product-brandsproduct" size="small" />
+              ) : (
+                ''
+              )
+            }
             label="Item Three"
             {...a11yProps(2)}
-            disabled={boolean('TabItem disabled', false)}
           />
+          <TabItem label="Item Four" {...a11yProps(2)} />
         </TabContainer>
       </AppBar>
     </div>
