@@ -1,5 +1,10 @@
 import * as React from 'react';
-import { AppBar, TabContainer, TabItem } from '@naturacosmeticos/natds-web';
+import {
+  AppBar,
+  TabContainer,
+  TabItem,
+  Icon,
+} from '@naturacosmeticos/natds-web';
 import { makeStyles } from '@material-ui/core/styles';
 
 function a11yProps(index: any) {
@@ -10,16 +15,31 @@ function a11yProps(index: any) {
 }
 
 const AppBarWrapper = ({
+  variant,
+  width,
   textColor,
   indicatorColor,
+  centered,
+  disabled,
+  wrapped,
+  icon,
+  label = true,
 }: {
+  variant?: any;
+  width?: number;
   textColor?: any;
   indicatorColor?: any;
+  centered?: boolean;
+  disabled?: boolean;
+  wrapped?: boolean;
+  icon?: boolean;
+  label?: boolean;
 }) => {
   const useStyles = makeStyles(theme => ({
     root: {
       flexGrow: 1,
       backgroundColor: theme.palette.background.paper,
+      width: width || 640,
     },
   }));
 
@@ -30,6 +50,10 @@ const AppBarWrapper = ({
     setValue(newValue);
   };
 
+  const labelItemOne = wrapped
+    ? 'Item One With Longest Text of Nonfiction'
+    : 'Item One';
+
   return (
     <div className={classes.root}>
       <AppBar position="static" color="inherit">
@@ -38,15 +62,61 @@ const AppBarWrapper = ({
           onChange={handleChange}
           textColor={textColor}
           indicatorColor={indicatorColor}
+          variant={variant}
+          centered={centered}
         >
-          <TabItem label="Item One" {...a11yProps(0)} />
-          <TabItem label="Item Two" {...a11yProps(1)} />
-          <TabItem label="Item Three" {...a11yProps(2)} />
+          <TabItem
+            icon={icon ? <Icon name="outlined-action-love" size="small" /> : ''}
+            label={label ? labelItemOne : ''}
+            wrapped={wrapped}
+            {...a11yProps(0)}
+          />
+          <TabItem
+            icon={
+              icon ? <Icon name="outlined-product-outlet" size="small" /> : ''
+            }
+            label={label ? 'Item Two' : ''}
+            disabled={disabled}
+            {...a11yProps(1)}
+          />
+          <TabItem
+            icon={
+              icon ? (
+                <Icon name="outlined-product-brandsproduct" size="small" />
+              ) : (
+                ''
+              )
+            }
+            label={label ? 'Item Three' : ''}
+            {...a11yProps(2)}
+          />
+          <TabItem
+            icon={
+              icon ? <Icon name="outlined-product-makeup" size="small" /> : ''
+            }
+            label={label ? 'Item Four' : ''}
+            {...a11yProps(3)}
+          />
         </TabContainer>
       </AppBar>
     </div>
   );
 };
+
+export const tabContainerVariant = [
+  {
+    title: 'standard',
+    component: <AppBarWrapper variant="standard" />,
+  },
+  {
+    title: 'scrollable',
+    component: <AppBarWrapper variant="scrollable" width={600} />,
+  },
+  {
+    title: 'fullWidth',
+    component: <AppBarWrapper variant="fullWidth" width={1240} />,
+  },
+];
 
 export const tabContainerTextColor = [
   {
@@ -71,5 +141,31 @@ export const tabContainerIndicatorColor = [
   {
     title: 'primary',
     component: <AppBarWrapper indicatorColor="primary" />,
+  },
+];
+
+export const tabContainerAttribute = [
+  {
+    title: 'centered',
+    component: <AppBarWrapper width={1240} centered={true} />,
+  },
+];
+
+export const tabItemAttribute = [
+  {
+    title: 'icon',
+    component: <AppBarWrapper icon={true} label={false} />,
+  },
+  {
+    title: 'icon with label',
+    component: <AppBarWrapper icon={true} />,
+  },
+  {
+    title: 'disabled',
+    component: <AppBarWrapper disabled={true} />,
+  },
+  {
+    title: 'wrapped',
+    component: <AppBarWrapper wrapped={true} width={800} />,
   },
 ];

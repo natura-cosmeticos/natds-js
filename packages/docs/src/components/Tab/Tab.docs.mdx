@@ -1,6 +1,12 @@
 import { Provider, themes } from '@naturacosmeticos/natds-web';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
-import { tabContainerTextColor, tabContainerIndicatorColor } from './sections';
+import {
+  tabContainerVariant,
+  tabContainerTextColor,
+  tabContainerIndicatorColor,
+  tabContainerAttribute,
+  tabItemAttribute,
+} from './sections';
 
 # AppBar
 
@@ -8,7 +14,19 @@ import { tabContainerTextColor, tabContainerIndicatorColor } from './sections';
 
 ---
 
-## TabContainer TextColor
+## TabContainer
+
+---
+
+### Variant
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={tabContainerVariant} />
+</Provider>
+
+---
+
+### TextColor
 
 <Provider theme={themes.natura.light}>
   <ComponentWithLabel componentList={tabContainerTextColor} />
@@ -16,12 +34,32 @@ import { tabContainerTextColor, tabContainerIndicatorColor } from './sections';
 
 ---
 
----
-
-## TabContainer IndicatorColor
+### IndicatorColor
 
 <Provider theme={themes.natura.light}>
   <ComponentWithLabel componentList={tabContainerIndicatorColor} />
+</Provider>
+
+---
+
+### Attribute
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={tabContainerAttribute} />
+</Provider>
+
+---
+
+---
+
+## TabItem
+
+---
+
+### Attribute
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={tabItemAttribute} />
 </Provider>
 
 ---
