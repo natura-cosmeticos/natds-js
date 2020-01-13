@@ -145,6 +145,23 @@ export const naturaLight: ITheme = {
           backgroundColor: "rgba(255, 107, 11, .08)"
         }
       }
+    },
+    MuiTab: {
+      root: {
+        "&$disabled": {
+          opacity: 0.24
+        },
+      },
+      textColorInherit: {
+        "&$disabled": {
+          opacity: 0.24
+        }
+      },
+      wrapper: {
+        "& > *:first-child": {
+          marginBottom: "2px !important"
+        }
+      }
     }
   }
 };
