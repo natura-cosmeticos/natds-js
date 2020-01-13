@@ -39,7 +39,7 @@ export const naturaLight: ITheme = {
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     success: {
       main: natura.complementary.colorBrdNatCpGreen1,
@@ -79,17 +79,17 @@ export const naturaLight: ITheme = {
         color: natura.grayscale.colorBrdNatGray
       },
       sizeSmall: {
-        fontSize: '0.875rem',
-        minHeight: '32px'
+        fontSize: "0.875rem",
+        minHeight: "32px"
       },
       root: {
-        fontSize: '0.875rem',
-        minHeight: '40px',
-        padding: '8px 16px'
+        fontSize: "0.875rem",
+        minHeight: "40px",
+        padding: "8px 16px"
       },
       sizeLarge: {
-        fontSize: '0.875rem',
-        minHeight: '48px'
+        fontSize: "0.875rem",
+        minHeight: "48px"
       }
     },
     MuiAvatar: {
@@ -107,42 +107,42 @@ export const naturaLight: ITheme = {
     },
     MuiToolbar: {
       root: {
-        padding: '0 16px',
-        '@media (min-width: 600px)': {
-          padding: '0 16px',
+        padding: "0 16px",
+        "@media (min-width: 600px)": {
+          padding: "0 16px"
         }
       },
       gutters: {
-        padding: '0 16px',
-        '@media (min-width: 600px)': {
-          padding: '0 16px',
+        padding: "0 16px",
+        "@media (min-width: 600px)": {
+          padding: "0 16px"
         }
       },
       regular: {
         minHeight: "56px",
-        '@media (min-width: 600px)': {
-          minHeight: "56px",
+        "@media (min-width: 600px)": {
+          minHeight: "56px"
         }
       },
       dense: {
         minHeight: "56px",
-        '@media (min-width: 600px)': {
-          minHeight: "56px",
+        "@media (min-width: 600px)": {
+          minHeight: "56px"
         }
-      },
+      }
     },
     MuiListItem: {
       root: {
-        '&$selected': {
-          backgroundColor: 'rgba(255, 107, 11, .16)',
+        "&$selected": {
+          backgroundColor: "rgba(255, 107, 11, .16)"
         },
-        '&$selected:hover': {
-          backgroundColor: 'rgba(255, 107, 11, .08)',
+        "&$selected:hover": {
+          backgroundColor: "rgba(255, 107, 11, .08)"
         }
       },
       button: {
-        '&:hover': {
-          backgroundColor: 'rgba(255, 107, 11, .08)',
+        "&:hover": {
+          backgroundColor: "rgba(255, 107, 11, .08)"
         }
       }
     }

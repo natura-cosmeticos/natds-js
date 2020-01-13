@@ -13,9 +13,11 @@ export default {
   parameters: {
     jestImportPath: 'web',
     jest: ['Snackbar', 'SnackbarContent'],
-    theme: 'web',
+    theme: {
+      context: 'web',
+    },
     docs: {
-      page: SnackbarDocs
-    }
-  }
+      page: SnackbarDocs,
+    },
+  },
 };
