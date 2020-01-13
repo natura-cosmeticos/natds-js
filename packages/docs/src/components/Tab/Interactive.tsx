@@ -134,7 +134,17 @@ export const Interactive = () => {
             label="Item Three"
             {...a11yProps(2)}
           />
-          <TabItem label="Item Four" {...a11yProps(2)} />
+          <TabItem
+            icon={
+              tabItemIcon ? (
+                <Icon name="outlined-product-makeup" size="small" />
+              ) : (
+                ''
+              )
+            }
+            label="Item Four"
+            {...a11yProps(2)}
+          />
         </TabContainer>
       </AppBar>
     </div>
