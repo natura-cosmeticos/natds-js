@@ -43,8 +43,8 @@ export const SnackbarContent: React.FC<ISnackbarContentProps> = (
 
     return makeStyles({
       default: {
-        backgroundColor: background.paper,
-        color: background.paperContrastText,
+        backgroundColor: background.paperContrastText,
+        color: background.paper,
       },
       info: {
         backgroundColor: complementary.link,
