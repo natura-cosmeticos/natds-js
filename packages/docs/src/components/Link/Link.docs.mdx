@@ -1,0 +1,68 @@
+import { Link, Provider, themes } from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { colors, variants, underlines } from './sections';
+
+# Link
+
+---
+
+---
+
+---
+
+---
+
+## Colors
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={colors} />
+</Provider>
+
+---
+
+---
+
+## Underline
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={underlines} />
+</Provider>
+
+---
+
+---
+
+## Variants
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={variants} />
+</Provider>
+
+
+## API
+
+```jsx highlight-line="2"
+import { Link } from '@naturacosmeticos/natds-web';
+
+<Link href="#" variant="body2">
+  Link
+</Link>
+```
+
+For more advanced usages, check [Material UI Link docs](https://material-ui.com/components/link)
+
+---
+
+---
+
+## Props
+
+| Name              | Type                                                                                 |  Default  | Description                                                                                                                                     |
+| :---------------- | :----------------------------------------------------------------------------------: | :-------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| children          | node                                                                                 |           | The content of the link.                                                                                                                        |
+| classes           |                                                                                      |           | Override or extend the styles applied to the component. See CSS API below for more details.                                                     |
+| color             | 'error' \| 'inherit' \| 'primary' \| 'secondary' \| 'textPrimary' \| 'textSecondary' | 'primary' | The color of the link.                                                                                                                          |
+| component         | element type                                                                         | 'a'       | The component used for the root node. Either a string to use a DOM element or a component.                                                      |
+| TypographyClasses | object                                                                               |           | classes prop applied to the Typography element.                                                                                                 |
+| underline         | 'none' \| 'hover' \| 'always'                                                        | 'hover'   | Controls when the link should have an underline.                                                                                                |
+| variant           | string                                                                               | 'inherit' | Applies the theme typography styles.                                                                                                            |
