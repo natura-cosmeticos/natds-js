@@ -1,3 +1,4 @@
+
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -144,6 +145,23 @@ export const naturaDark: ITheme = {
       button: {
         "&:hover": {
           backgroundColor: "rgba(255, 107, 11, .08)"
+        }
+      }
+    },
+    MuiTab: {
+      root: {
+        "&$disabled": {
+          opacity: 0.24
+        },
+      },
+      textColorInherit: {
+        "&$disabled": {
+          opacity: 0.24
+        }
+      },
+      wrapper: {
+        "& > *:first-child": {
+          marginBottom: "2px !important"
         }
       }
     }

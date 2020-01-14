@@ -2715,6 +2715,23 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             },
           },
         },
+        "MuiTab": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "opacity": 0.24,
+            },
+          },
+          "textColorInherit": Object {
+            "&$disabled": Object {
+              "opacity": 0.24,
+            },
+          },
+          "wrapper": Object {
+            "& > *:first-child": Object {
+              "marginBottom": "2px !important",
+            },
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
