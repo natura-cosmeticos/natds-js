@@ -30,6 +30,7 @@ export { default as GridContainer, IGridContainerProps } from './Components/Grid
 export { default as Fab, IFabProps } from './Components/Fab';
 export { default as Icon, IIconProps } from './Components/Icon';
 export { default as IconButton, IIconButtonProps } from './Components/IconButton';
+export { default as Link, ILinkProps } from './Components/Link';
 export { default as List, IListProps } from './Components/List';
 export { default as ListItem, IListItemProps } from './Components/ListItem';
 export { default as ListItemAvatar, IListItemAvatarProps } from './Components/ListItemAvatar';
