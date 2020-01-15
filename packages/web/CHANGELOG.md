@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.3.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.2.0...@naturacosmeticos/natds-web@0.3.0) (2020-01-15)
+
+
+### Bug Fixes
+
+* **AppBar:** fixes appbar color for default and adds noElevation functionality ([c2b8019](https://github.com/natura-cosmeticos/natds/commit/c2b801902f17281cbefd8bac1fa72aa9cfc19c24))
+* **AppBar:** fixes AppBar paddings ([41e34b7](https://github.com/natura-cosmeticos/natds/commit/41e34b7460e5557960b378d58df2e8b365260ff1))
+* **AppBar:** fixes appbar to comply with UX definitions ([b45fcf6](https://github.com/natura-cosmeticos/natds/commit/b45fcf6e1d223515fe845f1b365315305c6d4ce9))
+* **listItem:** fixing opacity to ListItem ([ad89f4c](https://github.com/natura-cosmeticos/natds/commit/ad89f4c752b5b183cf9c872da9bf7d0b37f24eee))
+* **Snackbar:** fixes snackbar colors and adds examples of usage ([c91c62d](https://github.com/natura-cosmeticos/natds/commit/c91c62d65423bcf0bcc7135cb899641491500b07))
+* **styles:** updating dark theme ([3e1e712](https://github.com/natura-cosmeticos/natds/commit/3e1e7124b1fbf770c33fdd9873c21359d7a5a21c))
+* **styles:** updating theme's color palette ([04bdb73](https://github.com/natura-cosmeticos/natds/commit/04bdb73d4238857e031304a1bb41d36f5e4f35d7))
+* **test:** fixing snapshot tests after include new specs to themes ([68f4613](https://github.com/natura-cosmeticos/natds/commit/68f461395c7c011892e9d56f6efe3da6caf369d2))
+* **tests:** fixing snapshot tests after last commits ([71da39a](https://github.com/natura-cosmeticos/natds/commit/71da39a27949aeed0920b92414a5862dae976cd1))
+* **web:** passing onChange callback for TextField events ([b4d4809](https://github.com/natura-cosmeticos/natds/commit/b4d4809eab535391fcb6f4143e17da9d5bc4f853))
+
+
+### Features
+
+* **AppBar:** added AppBar and Toolbar web components ([3cc10d0](https://github.com/natura-cosmeticos/natds/commit/3cc10d06e6a2e34ed65ef59f57d89727b76210ae))
+* **paper:** including snapshot test to paper component ([bfdbe2a](https://github.com/natura-cosmeticos/natds/commit/bfdbe2a32d27e9a57c2a853c5e0c8673735e75fe))
+* **tab:** creating snapshots test to tab components ([4d99a81](https://github.com/natura-cosmeticos/natds/commit/4d99a81cce0e94ee9b6988b48f28cf9f40078b7a))
+* **tab:** creating tab components ([9b894ff](https://github.com/natura-cosmeticos/natds/commit/9b894ff118e4563535f48c1bfe90020aea75f8e8))
+
+
+### Reverts
+
+* **Snackbar:** rollback snackbar color scheme change ([c464ddc](https://github.com/natura-cosmeticos/natds/commit/c464ddc123080139ec0f9c727392992915decdcf))
+
+
+
+
+
 # [0.2.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.1.3...@naturacosmeticos/natds-web@0.2.0) (2020-01-03)
 
 
