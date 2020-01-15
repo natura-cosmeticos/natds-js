@@ -2,7 +2,6 @@ import React, { useState, useEffect } from 'react';
 import { addons, makeDecorator } from '@storybook/addons';
 
 import { Provider as ProviderWeb, themes as themesWeb } from '@naturacosmeticos/natds-web';
-import { Provider as ProviderMobile, themes as themesMobile } from '@naturacosmeticos/natds-rn';
 import { PANEL_ID, CHANGE, PARAM_KEY } from './shared';
 import { FORCE_RE_RENDER } from '@storybook/core-events';
 
@@ -11,11 +10,6 @@ const THEME_PROVIDERS = {
     provider: ProviderWeb,
     themes: themesWeb,
     defaultTheme: themesWeb.natura.light
-  },
-  mobile: {
-    provider: ProviderMobile,
-    themes: themesMobile,
-    defaultTheme: themesMobile.natura.light
   }
 };
 
@@ -36,6 +30,7 @@ const backgroundStyles = {
 }
 
 const storyStyles = {
+  width: '100%',
   position: 'relative',
   zIndex: 1
 }

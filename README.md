@@ -11,10 +11,6 @@ Natura Design System
 
 On how to use please refer to the [README](./packages/web/README.md) of the web package.
 
-## NatDS React Native
-
-On how to use please refer to the [README](./packages/mobile/README.md) of the mobile package.
-
 ## NatDS Styles
 
 On how to use please refer to the [README](./packages/styles/README.md) of the styles package.

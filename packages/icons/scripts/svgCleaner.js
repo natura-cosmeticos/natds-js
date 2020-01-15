@@ -37,7 +37,9 @@ const svgo = new SVGO({
     { moveGroupAttrsToElems: true },
     { collapseGroups: true },
     { removeRasterImages: false },
-    { mergePaths: { noSpaceAfterFlags: false } },
+    { mergePaths: {
+      noSpaceAfterFlags: false
+    } },
     { convertShapeToPath: true },
     { sortAttrs: true },
     { removeDimensions: true },

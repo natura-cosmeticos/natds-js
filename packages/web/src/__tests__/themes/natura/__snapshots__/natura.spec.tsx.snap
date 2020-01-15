@@ -95,6 +95,64 @@ Object {
         "padding": "4px",
       },
     },
+    "MuiListItem": Object {
+      "button": Object {
+        "&:hover": Object {
+          "backgroundColor": "rgba(255, 107, 11, .08)",
+        },
+      },
+      "root": Object {
+        "&$selected": Object {
+          "backgroundColor": "rgba(255, 107, 11, .16)",
+        },
+        "&$selected:hover": Object {
+          "backgroundColor": "rgba(255, 107, 11, .08)",
+        },
+      },
+    },
+    "MuiTab": Object {
+      "root": Object {
+        "&$disabled": Object {
+          "opacity": 0.24,
+        },
+      },
+      "textColorInherit": Object {
+        "&$disabled": Object {
+          "opacity": 0.24,
+        },
+      },
+      "wrapper": Object {
+        "& > *:first-child": Object {
+          "marginBottom": "2px !important",
+        },
+      },
+    },
+    "MuiToolbar": Object {
+      "dense": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
+      },
+      "gutters": Object {
+        "@media (min-width: 600px)": Object {
+          "padding": "0 16px",
+        },
+        "padding": "0 16px",
+      },
+      "regular": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
+      },
+      "root": Object {
+        "@media (min-width: 600px)": Object {
+          "padding": "0 16px",
+        },
+        "padding": "0 16px",
+      },
+    },
   },
   "palette": Object {
     "action": Object {
@@ -102,18 +160,19 @@ Object {
     },
     "background": Object {
       "default": "#FAFAFA",
-      "defaultContrastText": "#000000",
+      "defaultContrastText": "#333333",
       "paper": "#FFFFFF",
       "paperContrastText": "#333333",
     },
     "complementary": Object {
+      "highlight": "#000000",
       "link": "#227BBD",
       "linkContrastText": "#FFFFFF",
       "warning": "#FCC433",
       "warningContrastText": "#000000",
     },
     "error": Object {
-      "contrastText": "#333333",
+      "contrastText": "#FFFFFF",
       "main": "#E74627",
     },
     "primary": Object {
@@ -124,8 +183,8 @@ Object {
     },
     "secondary": Object {
       "contrastText": "#000000",
-      "dark": "#FF6B0B",
-      "light": "#FFF8E1",
+      "dark": "#EF8426",
+      "light": "#FEFDE8",
       "main": "#FF6B0B",
     },
     "success": Object {
@@ -133,12 +192,11 @@ Object {
       "main": "#569A32",
     },
     "text": Object {
-      "disabled": "#EEEEEE",
+      "disabled": "#BBBBBB",
       "hint": "#BBBBBB",
       "primary": "#333333",
       "secondary": "#777777",
     },
-    "type": "light",
   },
   "shadows": Array [
     "none",

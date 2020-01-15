@@ -102,6 +102,12 @@ exports[`Fab component rendering it should render all colors: Color light Fab 1`
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -114,6 +120,12 @@ exports[`Fab component rendering it should render all colors: Color light Fab 1`
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -122,6 +134,12 @@ exports[`Fab component rendering it should render all colors: Color light Fab 1`
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -215,35 +233,35 @@ exports[`Fab component rendering it should render all colors: Color light Fab 1`
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -401,6 +419,12 @@ exports[`Fab component rendering it should render all colors: Color primary Fab 
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -413,6 +437,12 @@ exports[`Fab component rendering it should render all colors: Color primary Fab 
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -421,6 +451,12 @@ exports[`Fab component rendering it should render all colors: Color primary Fab 
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -514,35 +550,35 @@ exports[`Fab component rendering it should render all colors: Color primary Fab 
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -700,6 +736,12 @@ exports[`Fab component rendering it should render all colors: Color secondary Fa
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -712,6 +754,12 @@ exports[`Fab component rendering it should render all colors: Color secondary Fa
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -720,6 +768,12 @@ exports[`Fab component rendering it should render all colors: Color secondary Fa
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -813,35 +867,35 @@ exports[`Fab component rendering it should render all colors: Color secondary Fa
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1002,6 +1056,12 @@ exports[`Fab component rendering it should render all sizes: Size large Fab 1`] 
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -1014,6 +1074,12 @@ exports[`Fab component rendering it should render all sizes: Size large Fab 1`] 
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -1022,6 +1088,12 @@ exports[`Fab component rendering it should render all sizes: Size large Fab 1`] 
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -1115,35 +1187,35 @@ exports[`Fab component rendering it should render all sizes: Size large Fab 1`] 
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1304,6 +1376,12 @@ exports[`Fab component rendering it should render all sizes: Size medium Fab 1`]
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -1316,6 +1394,12 @@ exports[`Fab component rendering it should render all sizes: Size medium Fab 1`]
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -1324,6 +1408,12 @@ exports[`Fab component rendering it should render all sizes: Size medium Fab 1`]
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -1417,35 +1507,35 @@ exports[`Fab component rendering it should render all sizes: Size medium Fab 1`]
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1603,6 +1693,12 @@ exports[`Fab component rendering it should render all sizes: Size small Fab 1`] 
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -1615,6 +1711,12 @@ exports[`Fab component rendering it should render all sizes: Size small Fab 1`] 
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -1623,6 +1725,12 @@ exports[`Fab component rendering it should render all sizes: Size small Fab 1`] 
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -1716,35 +1824,35 @@ exports[`Fab component rendering it should render all sizes: Size small Fab 1`] 
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -1905,6 +2013,12 @@ exports[`Fab component rendering it should render all variants: Size extended Fa
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -1917,6 +2031,12 @@ exports[`Fab component rendering it should render all variants: Size extended Fa
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -1925,6 +2045,12 @@ exports[`Fab component rendering it should render all variants: Size extended Fa
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -2018,35 +2144,35 @@ exports[`Fab component rendering it should render all variants: Size extended Fa
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -2207,6 +2333,12 @@ exports[`Fab component rendering it should render all variants: Size round Fab 1
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -2219,6 +2351,12 @@ exports[`Fab component rendering it should render all variants: Size round Fab 1
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -2227,6 +2365,12 @@ exports[`Fab component rendering it should render all variants: Size round Fab 1
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -2320,35 +2464,35 @@ exports[`Fab component rendering it should render all variants: Size round Fab 1
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -2549,10 +2693,69 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#FAFAFA",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiListItem": Object {
+          "button": Object {
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+          "root": Object {
+            "&$selected": Object {
+              "backgroundColor": "rgba(255, 107, 11, .16)",
+            },
+            "&$selected:hover": Object {
+              "backgroundColor": "rgba(255, 107, 11, .08)",
+            },
+          },
+        },
+        "MuiTab": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "opacity": 0.24,
+            },
+          },
+          "textColorInherit": Object {
+            "&$disabled": Object {
+              "opacity": 0.24,
+            },
+          },
+          "wrapper": Object {
+            "& > *:first-child": Object {
+              "marginBottom": "2px !important",
+            },
+          },
+        },
+        "MuiToolbar": Object {
+          "dense": Object {
+            "@media (min-width: 600px)": Object {
+              "minHeight": "56px",
+            },
+            "minHeight": "56px",
+          },
+          "gutters": Object {
+            "@media (min-width: 600px)": Object {
+              "padding": "0 16px",
+            },
+            "padding": "0 16px",
+          },
+          "regular": Object {
+            "@media (min-width: 600px)": Object {
+              "minHeight": "56px",
+            },
+            "minHeight": "56px",
+          },
+          "root": Object {
+            "@media (min-width: 600px)": Object {
+              "padding": "0 16px",
+            },
+            "padding": "0 16px",
           },
         },
       },
@@ -2567,7 +2770,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "augmentColor": [Function],
         "background": Object {
-          "default": "#222222",
+          "default": "#121212",
           "defaultContrastText": "#FFFFFF",
           "paper": "#333333",
           "paperContrastText": "#FFFFFF",
@@ -2577,6 +2780,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           "white": "#fff",
         },
         "complementary": Object {
+          "highlight": "#FFFFFF",
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
@@ -2585,7 +2789,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         "contrastThreshold": 3,
         "divider": "rgba(0, 0, 0, 0.12)",
         "error": Object {
-          "contrastText": "#333333",
+          "contrastText": "#FFFFFF",
           "dark": "rgb(161, 49, 27)",
           "light": "rgb(235, 107, 82)",
           "main": "#E74627",
@@ -2607,6 +2811,12 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#333333",
           "dark": "#EF8426",
@@ -2615,22 +2825,30 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#FF6B0B",
-          "light": "#FFF8E1",
+          "dark": "#EF8426",
+          "light": "#FEFDE8",
           "main": "#FF6B0B",
         },
         "success": Object {
           "contrastText": "#FFFFFF",
+          "dark": "rgb(60, 107, 35)",
+          "light": "rgb(119, 174, 91)",
           "main": "#569A32",
         },
         "text": Object {
-          "disabled": "#222222",
+          "disabled": "#777777",
           "hint": "#777777",
           "primary": "#FAFAFA",
           "secondary": "#BBBBBB",
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -2743,31 +2961,31 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "6rem",
           "fontWeight": 300,
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", sans-serif",
@@ -2920,6 +3138,12 @@ exports[`Fab component rendering it should render with disabled truthy: Disabled
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -2932,6 +3156,12 @@ exports[`Fab component rendering it should render with disabled truthy: Disabled
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -2940,6 +3170,12 @@ exports[`Fab component rendering it should render with disabled truthy: Disabled
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -3033,35 +3269,35 @@ exports[`Fab component rendering it should render with disabled truthy: Disabled
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
@@ -3219,6 +3455,12 @@ exports[`Fab component rendering it should render with no props: No Props Fab 1`
           "A400": "#303030",
           "A700": "#616161",
         },
+        "info": Object {
+          "contrastText": "#fff",
+          "dark": "#1976d2",
+          "light": "#64b5f6",
+          "main": "#2196f3",
+        },
         "primary": Object {
           "contrastText": "#fff",
           "dark": "#303f9f",
@@ -3231,6 +3473,12 @@ exports[`Fab component rendering it should render with no props: No Props Fab 1`
           "light": "#ff4081",
           "main": "#f50057",
         },
+        "success": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#388e3c",
+          "light": "#81c784",
+          "main": "#4caf50",
+        },
         "text": Object {
           "disabled": "rgba(0, 0, 0, 0.38)",
           "hint": "rgba(0, 0, 0, 0.38)",
@@ -3239,6 +3487,12 @@ exports[`Fab component rendering it should render with no props: No Props Fab 1`
         },
         "tonalOffset": 0.2,
         "type": "light",
+        "warning": Object {
+          "contrastText": "rgba(0, 0, 0, 0.87)",
+          "dark": "#ffa000",
+          "light": "#ffd54f",
+          "main": "#ffc107",
+        },
       },
       "props": Object {},
       "shadows": Array [
@@ -3332,35 +3586,35 @@ exports[`Fab component rendering it should render with no props: No Props Fab 1`
           "fontSize": "6rem",
           "fontWeight": 300,
           "letterSpacing": "-0.01562em",
-          "lineHeight": 1,
+          "lineHeight": 1.167,
         },
         "h2": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3.75rem",
           "fontWeight": 300,
           "letterSpacing": "-0.00833em",
-          "lineHeight": 1,
+          "lineHeight": 1.2,
         },
         "h3": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "3rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.04,
+          "lineHeight": 1.167,
         },
         "h4": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "2.125rem",
           "fontWeight": 400,
           "letterSpacing": "0.00735em",
-          "lineHeight": 1.17,
+          "lineHeight": 1.235,
         },
         "h5": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",
           "fontSize": "1.5rem",
           "fontWeight": 400,
           "letterSpacing": "0em",
-          "lineHeight": 1.33,
+          "lineHeight": 1.334,
         },
         "h6": Object {
           "fontFamily": "\\"Roboto\\", \\"Helvetica\\", \\"Arial\\", sans-serif",

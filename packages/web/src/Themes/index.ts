@@ -46,21 +46,20 @@ function parseShadows(shadows: any): any[] {
 }
 
 function parseTheme(theme: ITheme): IThemeWeb {
-  const { web } = theme.typography;
   const { shadows } = theme;
 
   return {
     ...theme,
     shadows: parseShadows(shadows),
     typography: {
-      fontFamily: web.fontFamily,
-      fontFamilyBrand1: web.fontFamilyBrand1,
-      fontFamilyBrand2: web.fontFamilyBrand2,
-      fontFamilyBrand3: web.fontFamilyBrand3,
-      fontWeightLight: web.fontWeightLight,
-      fontWeightRegular: web.fontWeightRegular,
-      fontWeightMedium: web.fontWeightMedium,
-      fontWeightBold: web.fontWeightBold,
+      fontFamily: theme.typography.fontFamily,
+      fontFamilyBrand1: theme.typography.fontFamilyBrand1,
+      fontFamilyBrand2: theme.typography.fontFamilyBrand2,
+      fontFamilyBrand3: theme.typography.fontFamilyBrand3,
+      fontWeightLight: theme.typography.fontWeightLight,
+      fontWeightRegular: theme.typography.fontWeightRegular,
+      fontWeightMedium: theme.typography.fontWeightMedium,
+      fontWeightBold: theme.typography.fontWeightBold,
       h1: theme.typography.h1,
       h2: theme.typography.h2,
       h3: theme.typography.h3,

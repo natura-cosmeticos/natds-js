@@ -1,4 +1,3 @@
-import './fonts';
 import { configure, addDecorator, addParameters } from '@storybook/react';
 import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { withKnobs } from '@storybook/addon-knobs';
@@ -37,8 +36,7 @@ addDecorator(withKnobs);
 
 const tokens = require.context('../src/tokens', true, /\.story.(ts|md)x?$/);
 const documentation = require.context('../src/documentation', true, /\.story.(ts|md)x?$/);
-const web = require.context('../src/web', true, /\.story.(ts|md)x?$/);
-const mobile = require.context('../src/mobile', true, /\.story.(ts|md)x?$/);
+const components = require.context('../src/components', true, /\.story.(ts|md)x?$/);
 const icons = require.context('../src/icons', true, /\.story.(ts|md)x?$/);
 
-configure([tokens, documentation, icons, web, mobile], module);
+configure([tokens, documentation, icons, components], module);
