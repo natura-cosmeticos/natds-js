@@ -41,21 +41,21 @@ describe('Link component', () => {
   Object.keys(colors).forEach((color: string) => {
     test(`should match snapshot - Any valid Link with ${color} color`, () => {
       const component = renderer.create(<Link color={color as any}>link</Link>).toJSON();
-      expect(component).matchSnapshot(`Link snapshot - valid icon with ${color} color`);
+      expect(component).matchSnapshot(`Link snapshot - with ${color} color`);
     });
   });
 
   Object.keys(underlines).forEach((underline: string) => {
     test(`should match snapshot - Any valid Link with ${underline} underline`, () => {
       const component = renderer.create(<Link underline={underline as any}>link</Link>).toJSON();
-      expect(component).matchSnapshot(`Link snapshot - valid icon with ${underline} color`);
+      expect(component).matchSnapshot(`Link snapshot - with ${underline} color`);
     });
   });
 
   Object.keys(variants).forEach((variant: string) => {
     test(`should match snapshot - Any valid Link with ${variant} variant`, () => {
       const component = renderer.create(<Link variant={variant as any}>link</Link>).toJSON();
-      expect(component).matchSnapshot(`Link snapshot - valid icon with ${variant} color`);
+      expect(component).matchSnapshot(`Link snapshot - with ${variant} color`);
     });
   });
 });

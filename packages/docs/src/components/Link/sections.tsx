@@ -1,6 +1,5 @@
 import React from 'react';
 import { Link } from '@naturacosmeticos/natds-web';
-import AddIcon from '@material-ui/icons/Add';
 
 export const colorList: any = {
   error: 'error',
