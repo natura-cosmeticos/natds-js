@@ -7,7 +7,7 @@ Natura Design System - Styles
 
 ## Installation
 
-These are the icons used by [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), they are imported by the corresponding component when using one of the above libraries.
+This package holds the themes used by [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), they are imported by the corresponding component.
 They are included and managed by the components of these projects.
 
 
@@ -22,20 +22,16 @@ yarn add @naturacosmeticos/natds-styles
 ```
 
 ## Using with React
-You'll need to serve the fonts within your project setup.
-And you can use the css directly by importing it as follows (or you can use as a model to your own implementation, the important part is the unicode of each icon)
+You'll need to import a theme (or create your own) and use it with the component provider
 
 ```sh
-import '@naturacosmeticos/natds-icons/dist/natds-icons.css';
+import { Provider, themes } from '@naturacosmeticos/natds-web';
 
-<i className="natds-icons natds-icons-2x natds-icons-cancel-filled" />
-```
+const { natura: { light } } = themes;
 
-## Using with React Native/Native apps
-You'll need to import the font family and the icon's code table, and setup within your project:
-
-```sh
-import { NatdsIconsTtf, iconNames } from '@naturacosmeticos/natds-icons/dist/natds-icons.css';
+<Provider theme={light}>
+  {...}
+</Provider>
 ```
 
 ## Contributing
