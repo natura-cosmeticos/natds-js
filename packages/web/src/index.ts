@@ -48,4 +48,5 @@ export { default as TabItem, ITabItemProps } from './Components/TabItem';
 export { default as TextField, ITextFieldProps } from './Components/TextField';
 export { default as ToggleButton, IToggleButtonProps } from './Components/ToggleButton';
 export { default as Toolbar, IToolbarProps } from './Components/Toolbar';
+export { default as Tooltip, ITooltipProps } from './Components/Tooltip';
 export { default as Typography, ITypographyProps } from './Components/Typography';
