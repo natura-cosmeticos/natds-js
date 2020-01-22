@@ -29,6 +29,7 @@ export { default as Drawer, IDrawerProps } from './Components/Drawer';
 export { default as DrawerHeader, IDrawerHeaderProps } from './Components/DrawerHeader';
 export { default as DrawerBody, IDrawerBodyProps } from './Components/DrawerBody';
 export { default as DrawerFooter, IDrawerFooterProps } from './Components/DrawerFooter';
+export { default as DrawerMenu, IDrawerMenuProps } from './Components/DrawerMenu';
 export { default as GridItem, IGridItemProps } from './Components/GridItem';
 export { default as GridContainer, IGridContainerProps } from './Components/GridContainer';
 export { default as Fab, IFabProps } from './Components/Fab';

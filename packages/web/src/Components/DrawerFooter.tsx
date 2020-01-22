@@ -2,12 +2,14 @@ import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
 import { withTheme } from '@material-ui/core';
 import { tokens } from '@naturacosmeticos/natds-styles';
+import { IThemeWeb } from 'Themes';
 
 const { spacingTiny } = tokens.spacing;
 
 export interface IDrawerFooterProps {
   children?: React.ReactNode;
   component?: React.ElementType;
+  theme: IThemeWeb | unknown;
 }
 
 const DrawerFooter: FunctionComponent<IDrawerFooterProps> = (props: IDrawerFooterProps) => {
@@ -18,7 +20,7 @@ const DrawerFooter: FunctionComponent<IDrawerFooterProps> = (props: IDrawerFoote
       {children}
     </DrawerFooterComponent>
   );
-}
+};
 
 export default withTheme(DrawerFooter);
 

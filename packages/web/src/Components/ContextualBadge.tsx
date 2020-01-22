@@ -149,18 +149,15 @@ interface IContainerProps {
   borderRadius: number;
 }
 
-const Container = styled.div<IContainerProps> `
+const Container = styled.span<IContainerProps> `
   background-color: ${props => props.backgroundColor};
+  border-radius: ${props => props.borderRadius}px;
   color: ${props => props.textColor};
   font-family: ${props => props.fontFamily};
   font-size: ${props => props.fontSize};
   font-weight: ${props => props.fontWeight};
   line-height: ${props => props.lineHeight}px;
   padding: ${props => props.padding};
-  border-radius: ${props => props.borderRadius}px;
-  display: flex;
-  justify-content: center;
-  align-items: center;
 `;
 
 export default withTheme(ContextualBadge);

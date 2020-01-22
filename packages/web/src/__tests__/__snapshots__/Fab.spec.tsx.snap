@@ -2708,10 +2708,10 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "background": "rgba(255, 107, 11, .08)",
+              },
+              "background": "rgba(255, 107, 11, .16)",
             },
           },
         },

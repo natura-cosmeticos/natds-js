@@ -114,10 +114,10 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "background": "rgba(255, 107, 11, .08)",
+              },
+              "background": "rgba(255, 107, 11, .16)",
             },
           },
         },
@@ -441,10 +441,10 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "background": "rgba(255, 107, 11, .08)",
+              },
+              "background": "rgba(255, 107, 11, .16)",
             },
           },
         },
@@ -768,10 +768,10 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "background": "rgba(255, 107, 11, .08)",
+              },
+              "background": "rgba(255, 107, 11, .16)",
             },
           },
         },
@@ -1095,10 +1095,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "background": "rgba(255, 107, 11, .08)",
+              },
+              "background": "rgba(255, 107, 11, .16)",
             },
           },
         },
@@ -1422,10 +1422,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "background": "rgba(255, 107, 11, .08)",
+              },
+              "background": "rgba(255, 107, 11, .16)",
             },
           },
         },
@@ -1749,10 +1749,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "background": "rgba(255, 107, 11, .08)",
+              },
+              "background": "rgba(255, 107, 11, .16)",
             },
           },
         },
@@ -2076,10 +2076,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "background": "rgba(255, 107, 11, .08)",
+              },
+              "background": "rgba(255, 107, 11, .16)",
             },
           },
         },
@@ -2403,10 +2403,10 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "background": "rgba(255, 107, 11, .08)",
+              },
+              "background": "rgba(255, 107, 11, .16)",
             },
           },
         },
