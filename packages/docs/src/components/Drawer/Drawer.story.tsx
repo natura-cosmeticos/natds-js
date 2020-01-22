@@ -5,18 +5,11 @@ import { createStyles, Theme, makeStyles } from '@material-ui/core/styles';
 import { select, boolean, text, number } from '@storybook/addon-knobs';
 
 import {
-  Collapse,
-  ContextualBadge,
   Drawer,
   DrawerHeader,
   DrawerBody,
   DrawerFooter,
-  Icon,
-  List,
-  ListItem,
-  ListItemIcon,
-  ListItemText,
-  Typography,
+  DrawerMenu,
 } from '@naturacosmeticos/natds-web';
 
 import DrawerDocs from './Drawer.docs.mdx';
@@ -57,20 +50,189 @@ const variants = {
   temporary: 'temporary',
 };
 
-export const Interactive = () => {
-  const classes = makeStyles((theme: Theme) => createStyles({
-    drawer: {
-      width: number('width', 256),
-      overflow: 'hidden',
-      display: 'flex',
-      justifyContent: 'space-between',
-      flexFlow: 'column nowrap'
-    },
-  }))();
+const navigation = [
+  {
+    name: 'Página Inicial',
+    icon: 'outlined-navigation-home',
+    selected: true
+  },
+  {
+    name: 'Meus Clientes',
+    icon: 'outlined-social-groupofpeople',
+  },
+  {
+    name: 'Venda',
+    icon: 'outlined-finance-money',
+  },
+  {
+    name: 'Pedido',
+    icon: 'outlined-action-request',
+  },
+  {
+    name: 'Meu Espaço Digital',
+    icon: 'outlined-media-monitor',
+  },
+  {
+    name: 'Meu Financeiro',
+    icon: 'outlined-finance-debit',
+  },
+  {
+    name: 'Promoções e Descontos',
+    icon: 'outlined-finance-discount',
+  },
+  {
+    name: 'Ciclo',
+    icon: 'outlined-action-cycle',
+  },
+  {
+    name: 'Minha Agenda',
+    icon: 'outlined-action-calendar',
+  },
+  {
+    name: 'Produtos do Ciclo',
+    icon: 'outlined-product-dailycare',
+    badge: 'Novo',
+  },
+  {
+    name: 'Material de Apoio',
+    icon: 'outlined-content-book',
+    onSelect: null,
+    onToggle: null,
+    opened: true,
+    badge: 'Novo',
+    list: [
+      {
+        name: 'Apoio para Consultora',
+      },
+      {
+        name: 'Materiais de Divulgação Digital',
+        badge: 'Novo',
+      },
+      {
+        name: 'Revista Espaço Natura',
+      },
+      {
+        name: 'Revista Minha Natura',
+        badge: 'Novo'
+      },
+    ]
+  },
+  {
+    name: 'Treinamentos',
+    icon: 'outlined-content-education',
+  },
+  {
+    name: '#NaturaReconhece',
+    icon: 'outlined-content-medal',
+  },
+  {
+    name: 'Benefícios',
+    icon: 'outlined-content-gift',
+  },
+  {
+    name: 'Consultoria Beleza Natura',
+    icon: 'outlined-product-brandsproduct',
+  },
+  {
+    name: 'Documentos',
+    icon: 'outlined-action-copy',
+  },
+  {
+    name: 'Ajuda',
+    icon: 'outlined-communication-chat',
+  },
+  {
+    section: 'Section'
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+];
 
-  const [menuOpen, setOpen] = React.useState(false);
-  const handleClick = () => setOpen(!menuOpen);
-  const iconName = menuOpen ? 'outlined-navigation-arrowtop' : 'outlined-navigation-arrowbottom';
+const footer = [
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+];
+
+const useStyles = makeStyles((theme: Theme) => createStyles({
+  drawer: {
+    width: number('width', 256),
+    overflow: 'hidden',
+    display: 'flex',
+    justifyContent: 'space-between',
+    flexFlow: 'column nowrap'
+  },
+}));
+
+export const Interactive = () => {
+  const classes = useStyles();
 
   return (
     <Drawer
@@ -86,94 +248,11 @@ export const Interactive = () => {
       />
 
       <DrawerBody>
-        <List>
-          <ListItem onClick={handleClick}>
-            <ListItemIcon>
-              <Icon name="outlined-action-love" size="small" />
-            </ListItemIcon>
-            <ListItemText children={
-              <>
-                <Typography variant="body1" component="span">Menu Item</Typography>
-                <ContextualBadge style={styles.badge} color="error" children="Novo" />
-              </>
-            } />
-            <Icon name={iconName} size="tiny" />
-          </ListItem>
-          <Collapse in={menuOpen} timeout="auto" unmountOnExit>
-            <List>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-              <ListItem>
-                <ListItemIcon>
-                  <Icon name="outlined-action-love" size="small" />
-                </ListItemIcon>
-                <ListItemText primary="Subtitle 1" />
-              </ListItem>
-            </List>
-          </Collapse>
-        </List>
+        <DrawerMenu list={navigation} />
       </DrawerBody>
 
       <DrawerFooter>
-        bla
+        <DrawerMenu list={footer} />
       </DrawerFooter>
     </Drawer>
   );

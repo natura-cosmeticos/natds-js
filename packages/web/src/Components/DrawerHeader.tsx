@@ -15,6 +15,7 @@ export interface IDrawerHeaderProps {
   secondary?: React.ReactNode;
   avatarSrc?: string;
   avatarChildren?: React.ReactNode;
+  theme: IThemeWeb | unknown;
 }
 
 const buildContent = ({ primary, secondary, avatarSrc, avatarChildren }: any) => (

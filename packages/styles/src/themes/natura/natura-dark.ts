@@ -136,11 +136,11 @@ export const naturaDark: ITheme = {
     MuiListItem: {
       root: {
         "&$selected": {
-          backgroundColor: "rgba(255, 107, 11, .16)"
+          background: "rgba(255, 107, 11, .16)",
+          "&:hover": {
+            background: "rgba(255, 107, 11, .08)"
+          }
         },
-        "&$selected:hover": {
-          backgroundColor: "rgba(255, 107, 11, .08)"
-        }
       },
       button: {
         "&:hover": {
