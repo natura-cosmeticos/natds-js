@@ -1,12 +1,11 @@
 import React, { FunctionComponent } from 'react';
 import { withTheme } from '@material-ui/core';
 import styled from 'styled-components';
-import { tokens } from '@naturacosmeticos/natds-styles';
 import { IThemeWeb } from 'Themes';
+import { getDefaultTheme } from './shared';
+
 import Typography from './Typography';
 import Avatar from './Avatar';
-
-const { spacingSemi, spacingSmall } = tokens.spacing;
 
 export interface IDrawerHeaderProps {
   children?: React.ReactNode;
@@ -18,29 +17,21 @@ export interface IDrawerHeaderProps {
   theme: IThemeWeb | unknown;
 }
 
-const buildContent = ({ primary, secondary, avatarSrc, avatarChildren }: any) => (
+const buildContent = ({ primary, secondary, avatarSrc, avatarChildren, theme }: IDrawerHeaderProps) => (
   <>
-    {(avatarSrc || avatarChildren) && <DrawerHeaderAvatar as={Avatar} src={avatarSrc} children={avatarChildren} size="large" />}
+    {(avatarSrc || avatarChildren) && <DrawerHeaderAvatar as={Avatar} src={avatarSrc} children={avatarChildren} size="large" theme={theme} />}
     {primary && <Typography children={primary} variant="h5" />}
     {secondary && <Typography children={secondary} variant="subtitle2" color="textSecondary" />}
   </>
 );
 
-const DrawerHeader: FunctionComponent<IDrawerHeaderProps> = (props: IDrawerHeaderProps) => {
-  const {
-    children,
-    component,
-    primary,
-    secondary,
-    avatarSrc,
-    avatarChildren,
-    ...rest
-  } = props;
-
-  const content = children || buildContent({ primary, secondary, avatarSrc, avatarChildren });
+export const DrawerHeader: FunctionComponent<IDrawerHeaderProps> = (props: IDrawerHeaderProps) => {
+  const { children, component, theme: providerTheme, ...rest } = props;
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const content = children || buildContent({ ...props, theme });
 
   return (
-    <DrawerHeaderComponent as={component} {...rest}>
+    <DrawerHeaderComponent as={component} theme={theme} {...rest}>
       {content}
     </DrawerHeaderComponent>
   );
@@ -51,9 +42,9 @@ export default withTheme(DrawerHeader);
 const DrawerHeaderComponent = styled.div<{ theme: IThemeWeb }>`
   border-bottom: ${({ theme }) => (`${theme.palette.divider} 1px solid`)};
   flex: 0 0 auto;
-  padding: ${spacingSemi}px ${spacingSmall}px ${spacingSmall}px;
+  padding: ${({ theme }) => `${theme.sizes.semi}px ${theme.sizes.small}px ${theme.sizes.small}px`};
 `;
 
 const DrawerHeaderAvatar = styled.div`
-  margin-bottom: ${spacingSmall}px;
+  margin-bottom: ${({ theme }) => `${theme.sizes.small}px`};
 `;

@@ -1,8 +1,11 @@
 import React, { FunctionComponent } from 'react';
-import { withTheme, makeStyles, createStyles, Collapse } from '@material-ui/core';
+import { withTheme, makeStyles } from '@material-ui/core';
 import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
+import { getDefaultTheme } from './shared';
+
 import ContextualBadge from './ContextualBadge';
+import Collapse from './Collapse';
 import Icon from './Icon';
 import List from './List';
 import ListItem from './ListItem';
@@ -18,7 +21,7 @@ const ICON_ARROW_DOWN = 'outlined-navigation-arrowbottom';
 
 export interface IDrawerMenuProps {
   children?: React.ReactNode;
-  component?: React.ReactElement;
+  component?: React.ElementType;
   list?: [IDrawerMenuSectionProps];
   theme: IThemeWeb | unknown;
 }
@@ -29,8 +32,8 @@ export interface IDrawerMenuItemProps {
   icon?: keyof typeof iconNames;
   onSelect?: (event: React.SyntheticEvent, name?: string) => void;
   badge?: string;
-  selected: boolean;
-  theme: IThemeWeb | unknown;
+  selected?: boolean;
+  theme?: IThemeWeb | unknown;
 }
 
 export interface IDrawerMenuSectionProps extends IDrawerMenuItemProps {
@@ -39,27 +42,73 @@ export interface IDrawerMenuSectionProps extends IDrawerMenuItemProps {
   list?: [IDrawerMenuSectionProps];
 }
 
-const DrawerMenu: FunctionComponent<IDrawerMenuProps> = (props: IDrawerMenuProps) => {
-  const { children, list, theme, ...rest } = props;
-  const classes = StyledList();
+export const DrawerMenu: FunctionComponent<IDrawerMenuProps> = (props: IDrawerMenuProps) => {
+  const { children, list, theme: providerTheme, component, ...rest } = props;
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const StyledList = React.useMemo(() => makeStyles({
+    padding: {
+      paddingTop: 0,
+      paddingBottom: 0,
+      marginTop: theme.sizes.tiny,
+      marginBottom: theme.sizes.tiny
+    }
+  }), [theme]);
+
   const content = children ? children : (
     <List
       children={list && list.map(BuildDrawerMenuItems(theme))}
-      classes={classes}
+      classes={StyledList()}
       dense
     />
   );
 
   return (
-    <DrawerMenuComponent {...rest}>
+    <DrawerMenuComponent {...rest} as={component}>
       {content}
     </DrawerMenuComponent>
   );
 };
 
-const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = (props: IDrawerMenuSectionProps) => {
-  const { onToggle, icon, name, list, theme } = props;
+export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = (props: IDrawerMenuSectionProps) => {
+  const { onToggle, icon, name, list, theme: providerTheme } = props;
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
   const [opened, toggleSubmenu] = React.useState(props.opened);
+
+  const StyledSubList = React.useMemo(() => makeStyles({
+    padding: {
+      borderLeft: `${theme.palette.action.hover} 1px solid`,
+      padding: `0 0 0 ${theme.sizes.tiny}px`,
+      margin: `0 0 0 ${theme.sizes.semix}px`
+    }
+  }), [theme]);
+
+  const StyledListSectionItem = React.useMemo(() => makeStyles({
+    root: {
+      borderRadius: theme.shape.borderRadius,
+      padding: theme.sizes.tiny,
+      marginBottom: theme.sizes.micro,
+      cursor: 'pointer',
+      '&:hover': {
+        backgroundColor: theme.palette.action.hover
+      },
+      '&$selected': {
+        backgroundColor: `${theme.palette.action.hover}`,
+        '&:hover': {
+          backgroundColor: theme.palette.action.hover
+        }
+      }
+    },
+    selected: {}
+  }), [theme]);
+
+  const StyledListItemIcon = React.useMemo(() => makeStyles({
+    root: {
+      minWidth: 'auto',
+      marginRight: theme.sizes.standard,
+      marginTop: 0
+    }
+  }), [theme]);
+
   const classes = StyledSubList();
   const classesItem = StyledListSectionItem();
   const classesIcon = StyledListItemIcon();
@@ -67,12 +116,13 @@ const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = (props: ID
 
   const handleClick = (event: React.SyntheticEvent) => {
     toggleSubmenu(!opened);
+
     onToggle && onToggle(event, !opened, name);
   };
 
   return (
     <>
-      <ListItem onClick={handleClick} classes={classesItem} selected={opened} button>
+      <ListItem onClick={handleClick} classes={classesItem} selected={opened} component="li" button>
         {icon && <ListItemIcon classes={classesIcon} children={<Icon name={icon} size="tiny" />} />}
         <ListItemText children={getMenuItemText(props)} />
         <Icon name={listIconName} size="tiny" />
@@ -88,11 +138,40 @@ const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = (props: ID
   );
 };
 
-const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = (props: IDrawerMenuItemProps) => {
-  const { onSelect, name, icon, selected, section } = props;
+export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = (props: IDrawerMenuItemProps) => {
+  const { onSelect, name, icon, selected, section, theme: providerTheme } = props;
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+
+  const StyledListItem = React.useMemo(() => makeStyles({
+    root: {
+      borderRadius: theme.shape.borderRadius,
+      padding: theme.sizes.tiny,
+      marginBottom: theme.sizes.micro,
+      cursor: 'pointer',
+      '&:hover': {
+        backgroundColor: theme.palette.action.hover
+      }
+    }
+  }), [theme]);
+
+  const StyledListSubheader = React.useMemo(() => makeStyles({
+    root: {
+      backgroundColor: `${theme.palette.background.paper}`,
+      borderTop: `${theme.palette.action.hover} 1px solid`,
+      margin: `0 -${theme.sizes.tiny}px`
+    }
+  }), [theme]);
+
+  const StyledListItemIcon = React.useMemo(() => makeStyles({
+    root: {
+      minWidth: 'auto',
+      marginRight: theme.sizes.standard,
+      marginTop: 0
+    }
+  }), [theme]);
 
   if (section) {
-    const classesSubheader = StyledListSubheader();
+    const classesSubheader = StyledListSubheader(theme);
 
     return (
       <ListSubheader classes={classesSubheader} children={
@@ -140,83 +219,7 @@ const DrawerMenuComponent = styled.div`
 `;
 
 const StyledBadge = styled.div<{ theme: IThemeWeb }>`
-  margin-left: ${({ theme }) => `${theme.sizes?.micro}px`};
+  margin-left: ${({ theme }) => `${theme.sizes.micro}px`};
 `;
-
-const StyledList = makeStyles((theme: IThemeWeb) =>
-  createStyles({
-    padding: {
-      paddingTop: 0,
-      paddingBottom: 0,
-      marginTop: theme.sizes?.tiny,
-      marginBottom: theme.sizes?.tiny
-    }
-  })
-);
-
-const StyledSubList = makeStyles((theme: IThemeWeb) =>
-  createStyles({
-    padding: {
-      borderLeft: `${theme.palette?.action?.hover} 1px solid`,
-      padding: `0 0 0 ${theme.sizes?.tiny}px`,
-      margin: `0 0 0 ${theme.sizes?.semix}px`
-    }
-  })
-);
-
-const StyledListSectionItem = makeStyles((theme: IThemeWeb) =>
-  createStyles({
-    root: {
-      borderRadius: theme.shape?.borderRadius,
-      padding: theme.sizes?.tiny,
-      marginBottom: theme.sizes?.micro,
-      cursor: 'pointer',
-      '&:hover': {
-        backgroundColor: theme.palette?.action?.hover
-      },
-      '&$selected': {
-        backgroundColor: `${theme.palette?.action?.hover}`,
-        '&:hover': {
-          backgroundColor: theme.palette?.action?.hover
-        }
-      }
-    },
-    selected: {}
-  })
-);
-
-const StyledListItem = makeStyles((theme: IThemeWeb) =>
-  createStyles({
-    root: {
-      borderRadius: theme.shape?.borderRadius,
-      padding: theme.sizes?.tiny,
-      marginBottom: theme.sizes?.micro,
-      cursor: 'pointer',
-      '&:hover': {
-        backgroundColor: theme.palette?.action?.hover
-      }
-    }
-  })
-);
-
-const StyledListItemIcon = makeStyles((theme: IThemeWeb) =>
-  createStyles({
-    root: {
-      minWidth: 'auto',
-      marginRight: theme.sizes?.standard,
-      marginTop: 0
-    }
-  })
-);
-
-const StyledListSubheader = makeStyles((theme: IThemeWeb) =>
-  createStyles({
-    root: {
-      backgroundColor: `${theme.palette?.background?.paper}`,
-      borderTop: `${theme.palette?.action?.hover} 1px solid`,
-      margin: `0 -${theme.sizes?.tiny}px`
-    }
-  })
-);
 
 export default withTheme(DrawerMenu);
