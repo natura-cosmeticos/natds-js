@@ -1,0 +1,31 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrawerBody component should match snapshot - DrawerBody children: DrawerBody with children snapshot 1`] = `
+<div
+  className="sc-bdVaJa jTZBWV"
+>
+  <div
+    className="sc-bwzfXH jrYved"
+    onScroll={[Function]}
+  >
+    <div>
+      some custom children
+    </div>
+  </div>
+</div>
+`;
+
+exports[`DrawerBody component should match snapshot - DrawerBody custom component: DrawerBody with custom component snapshot 1`] = `
+<section
+  className="sc-bdVaJa jTZBWV"
+>
+  <div
+    className="sc-bwzfXH jrYved"
+    onScroll={[Function]}
+  >
+    <div>
+      some custom children
+    </div>
+  </div>
+</section>
+`;

@@ -1,0 +1,427 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`DrawerMenu component should match snapshot - DrawerMenu custom children: DrawerMenu custom children snapshot 1`] = `
+<div
+  className="sc-htpNat kqTbrx"
+>
+  <div>
+    some custom children
+  </div>
+</div>
+`;
+
+exports[`DrawerMenu component should match snapshot - DrawerMenu custom component: DrawerMenu custom component snapshot 1`] = `
+<section
+  className="sc-htpNat kqTbrx"
+>
+  <ul
+    className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-80"
+  >
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-81 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-root-82"
+      >
+        <i
+          className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-action-love"
+          size="tiny"
+        />
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          Menu Item
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-83 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-root-84"
+      >
+        <i
+          className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-action-love"
+          size="tiny"
+        />
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="sc-bdVaJa jUDhJV sc-bxivhb gkPMhX"
+            fontFamily="\\"Roboto\\", sans-serif"
+            fontSize="0.75rem"
+            fontWeight={400}
+          >
+            Novo
+          </span>
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-86 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-root-88"
+      >
+        <i
+          className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-action-love"
+          size="tiny"
+        />
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="sc-bdVaJa jUDhJV sc-bxivhb gkPMhX"
+            fontFamily="\\"Roboto\\", sans-serif"
+            fontSize="0.75rem"
+            fontWeight={400}
+          >
+            Novo
+          </span>
+        </span>
+      </div>
+      <i
+        className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-navigation-arrowbottom"
+        size="tiny"
+      />
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </li>
+    <li
+      className="MuiListSubheader-root makeStyles-root-89 MuiListSubheader-sticky MuiListSubheader-gutters"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-caption"
+      >
+        section
+      </span>
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-90 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-root-91"
+      >
+        <i
+          className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-action-love"
+          size="tiny"
+        />
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="sc-bdVaJa jUDhJV sc-bxivhb gkPMhX"
+            fontFamily="\\"Roboto\\", sans-serif"
+            fontSize="0.75rem"
+            fontWeight={400}
+          >
+            Novo
+          </span>
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`DrawerMenu component should match snapshot - DrawerMenu list: DrawerMenu list snapshot 1`] = `
+<div
+  className="sc-htpNat kqTbrx"
+>
+  <ul
+    className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-1"
+  >
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-6 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-root-7"
+      >
+        <i
+          className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-action-love"
+          size="tiny"
+        />
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          Menu Item
+        </span>
+      </div>
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-60 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-root-61"
+      >
+        <i
+          className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-action-love"
+          size="tiny"
+        />
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="sc-bdVaJa jUDhJV sc-bxivhb gkPMhX"
+            fontFamily="\\"Roboto\\", sans-serif"
+            fontSize="0.75rem"
+            fontWeight={400}
+          >
+            Novo
+          </span>
+        </span>
+      </div>
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-63 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-root-65"
+      >
+        <i
+          className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-action-love"
+          size="tiny"
+        />
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="sc-bdVaJa jUDhJV sc-bxivhb gkPMhX"
+            fontFamily="\\"Roboto\\", sans-serif"
+            fontSize="0.75rem"
+            fontWeight={400}
+          >
+            Novo
+          </span>
+        </span>
+      </div>
+      <i
+        className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-navigation-arrowbottom"
+        size="tiny"
+      />
+    </li>
+    <li
+      className="MuiListSubheader-root makeStyles-root-71 MuiListSubheader-sticky MuiListSubheader-gutters"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-caption"
+      >
+        section
+      </span>
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-78 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-root-79"
+      >
+        <i
+          className="sc-bwzfXH iglmwN natds-icons natds-icons-outlined-action-love"
+          size="tiny"
+        />
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="sc-bdVaJa jUDhJV sc-bxivhb gkPMhX"
+            fontFamily="\\"Roboto\\", sans-serif"
+            fontSize="0.75rem"
+            fontWeight={400}
+          >
+            Novo
+          </span>
+        </span>
+      </div>
+    </li>
+  </ul>
+</div>
+`;

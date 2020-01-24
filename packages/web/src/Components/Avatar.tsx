@@ -26,7 +26,8 @@ export interface IAvatarProps extends MaterialAvatarProps {
 export const Avatar: FunctionComponent<IAvatarProps> = (props: IAvatarProps) => {
   const style = {
     ...withSizes(props.size, props.theme),
-    ...withColors(props.color, props.theme)
+    ...withColors(props.color, props.theme),
+    ...props.style
   };
 
   return <MaterialAvatar {...props} style={style} />;
