@@ -2,6 +2,7 @@ import React, { FunctionComponent, useState } from 'react';
 import { withTheme } from '@material-ui/core';
 import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
+import { getDefaultTheme } from './shared';
 
 export interface IDrawerBodyProps {
   children?: React.ReactNode;
@@ -9,9 +10,10 @@ export interface IDrawerBodyProps {
   theme: IThemeWeb | unknown;
 }
 
-const DrawerBody: FunctionComponent<IDrawerBodyProps> = (props: IDrawerBodyProps) => {
-  const { children, component, theme, ...rest } = props;
+export const DrawerBody: FunctionComponent<IDrawerBodyProps> = (props: IDrawerBodyProps) => {
+  const { children, component, theme: providerTheme, ...rest } = props;
   const [scrolled, setScrolled] = useState(false);
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
   const handleScrolled = (event: any) => setScrolled(event.target.scrollTop > 0);
 
@@ -32,7 +34,7 @@ const DrawerBody: FunctionComponent<IDrawerBodyProps> = (props: IDrawerBodyProps
 
 export default withTheme(DrawerBody);
 
-const DrawerBodyComponent = styled.div<{ scrolled: boolean, theme: IThemeWeb }>`
+export const DrawerBodyComponent = styled.div<{ scrolled: boolean, theme: IThemeWeb }>`
   flex: 1 1 auto;
   display: flex;
   position: relative;
@@ -52,9 +54,9 @@ const DrawerBodyComponent = styled.div<{ scrolled: boolean, theme: IThemeWeb }>`
   }
 `;
 
-const DrawerBodyScrollComponent = styled.div<{ theme: IThemeWeb }>`
+export const DrawerBodyScrollComponent = styled.div<{ theme: IThemeWeb }>`
   flex: 1 1 auto;
   overflow-y: auto;
-  padding: ${({ theme }) => `0 ${theme.sizes?.tiny}px`};
+  padding: ${({ theme }) => `0 ${theme.sizes.tiny}px`};
   position: relative;
 `;

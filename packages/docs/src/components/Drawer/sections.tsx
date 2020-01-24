@@ -1,50 +1,183 @@
-import React from 'react';
-import { Drawer } from '@naturacosmeticos/natds-web';
-
-export const colorList: any = {
-  error: 'error',
-  inherit: 'inherit',
-  primary: 'primary',
-  secondary: 'secondary',
-  textPrimary: 'textPrimary',
-  textSecondary: 'textSecondary'
+export const anchors: any = {
+  left: 'left',
+  top: 'top',
+  right: 'right',
+  bottom: 'bottom',
 };
 
-export const underlineList: any = {
-  none: 'none',
-  hover: 'hover',
-  always: 'always'
+export const variants: any = {
+  permanent: 'permanent',
+  persistent: 'persistent',
+  temporary: 'temporary',
 };
 
-export const variantList: any = {
-  h1: 'h1',
-  h2: 'h2',
-  h3: 'h3',
-  h4: 'h4',
-  h5: 'h5',
-  h6: 'h6',
-  subtitle1: 'subtitle1',
-  subtitle2: 'subtitle2',
-  body1: 'body1',
-  body2: 'body2',
-  caption: 'caption',
-  button: 'button',
-  overline: 'overline',
-  inherit: 'inherit'
-};
+export const navigation = [
+  {
+    name: 'Página Inicial',
+    icon: 'outlined-navigation-home',
+    selected: true
+  },
+  {
+    name: 'Meus Clientes',
+    icon: 'outlined-social-groupofpeople',
+  },
+  {
+    name: 'Venda',
+    icon: 'outlined-finance-money',
+  },
+  {
+    name: 'Pedido',
+    icon: 'outlined-action-request',
+  },
+  {
+    name: 'Meu Espaço Digital',
+    icon: 'outlined-media-monitor',
+  },
+  {
+    name: 'Meu Financeiro',
+    icon: 'outlined-finance-debit',
+  },
+  {
+    name: 'Promoções e Descontos',
+    icon: 'outlined-finance-discount',
+  },
+  {
+    name: 'Ciclo',
+    icon: 'outlined-action-cycle',
+  },
+  {
+    name: 'Minha Agenda',
+    icon: 'outlined-action-calendar',
+  },
+  {
+    name: 'Produtos do Ciclo',
+    icon: 'outlined-product-dailycare',
+    badge: 'Novo',
+  },
+  {
+    name: 'Material de Apoio',
+    icon: 'outlined-content-book',
+    onSelect: null,
+    onToggle: null,
+    opened: false,
+    badge: 'Novo',
+    list: [
+      {
+        name: 'Apoio para Consultora',
+      },
+      {
+        name: 'Materiais de Divulgação Digital',
+        badge: 'Novo',
+      },
+      {
+        name: 'Revista Espaço Natura',
+      },
+      {
+        name: 'Revista Minha Natura',
+        badge: 'Novo'
+      },
+    ]
+  },
+  {
+    name: 'Treinamentos',
+    icon: 'outlined-content-education',
+  },
+  {
+    name: '#NaturaReconhece',
+    icon: 'outlined-content-medal',
+  },
+  {
+    name: 'Benefícios',
+    icon: 'outlined-content-gift',
+  },
+  {
+    name: 'Consultoria Beleza Natura',
+    icon: 'outlined-product-brandsproduct',
+  },
+  {
+    name: 'Documentos',
+    icon: 'outlined-action-copy',
+  },
+  {
+    name: 'Ajuda',
+    icon: 'outlined-communication-chat',
+  },
+  {
+    section: 'Section'
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+];
 
-function buildSection(list, prop) {
-  return Object.keys(list).map((item) => {
-    const props = { [prop]: item };
-    return {
-      title: item,
-      component: <Drawer open={true}>Drawer</Drawer>
-    };
-  });
-}
-
-export const colors = buildSection(colorList, 'color');
-
-export const variants = buildSection(variantList, 'variant');
-
-export const underlines = buildSection(underlineList, 'underline');
+export const footer = [
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+  {
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
+  },
+];
