@@ -44,12 +44,12 @@ import { colors, variants, underlines } from './sections';
 ```jsx highlight-line="2"
 import { Link } from '@naturacosmeticos/natds-web';
 
-<Link href="#" variant="body2">
+<Link href="#" variant="body2" color="default">
   Link
 </Link>
 ```
 
-For more advanced usages, check [Material UI Link docs](https://material-ui.com/components/link)
+For more advanced usages, check [Material UI Link docs](https://material-ui.com/components/links/)
 
 ---
 
@@ -57,12 +57,12 @@ For more advanced usages, check [Material UI Link docs](https://material-ui.com/
 
 ## Props
 
-| Name              | Type                                                                                 |  Default  | Description                                                                                                                                     |
-| :---------------- | :----------------------------------------------------------------------------------: | :-------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
-| children          | node                                                                                 |           | The content of the link.                                                                                                                        |
-| classes           |                                                                                      |           | Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/link/#css) for more details.              |
-| color             | 'error' \| 'inherit' \| 'primary' \| 'secondary' \| 'textPrimary' \| 'textSecondary' | 'primary' | The color of the link.                                                                                                                          |
-| component         | element type                                                                         | 'a'       | The component used for the root node. Either a string to use a DOM element or a component.                                                      |
-| TypographyClasses | object                                                                               |           | classes prop applied to the Typography element.                                                                                                 |
-| underline         | 'none' \| 'hover' \| 'always'                                                        | 'hover'   | Controls when the link should have an underline.                                                                                                |
-| variant           | string                                                                               | 'inherit' | Applies the theme typography styles.                                                                                                            |
+| Name              | Type                                                                                                           |  Default  | Description                                                                                                                                     |
+| :---------------- | :------------------------------------------------------------------------------------------------------------: | :-------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| children          | node                                                                                                           |           | The content of the link.                                                                                                                        |
+| classes           |                                                                                                                |           | Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/link/#css) for more details.              |
+| color             | 'default' \| 'inherit' \| 'initial' \| 'error' \| 'primary' \| 'secondary' \| 'textPrimary' \| 'textSecondary' | 'default' | The color of the link.                                                                                                                          |
+| component         | element type                                                                                                   | 'a'       | The component used for the root node. Either a string to use a DOM element or a component.                                                      |
+| TypographyClasses | object                                                                                                         |           | classes prop applied to the Typography element.                                                                                                 |
+| underline         | 'none' \| 'hover' \| 'always'                                                                                  | 'hover'   | Controls when the link should have an underline.                                                                                                |
+| variant           | string                                                                                                         | 'inherit' | Applies the theme typography styles.                                                                                                            |

@@ -2,7 +2,7 @@ import * as React from 'react';
 import { Link } from '@naturacosmeticos/natds-web';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import { select, boolean, text } from '@storybook/addon-knobs';
+import { select, text } from '@storybook/addon-knobs';
 import {
   colorList as colors,
   variantList as variants,
@@ -30,7 +30,7 @@ export default {
 export const Interactive = () => {
   return (
     <Link
-      color={select('color', colors, colors.primary)}
+      color={select('color', colors, colors.default)}
       underline={select('underline', underlines, underlines.none)}
       variant={select('variant', variants, variants.body2)}
       component="button"
