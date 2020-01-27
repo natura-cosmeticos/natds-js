@@ -2,8 +2,10 @@ import React from 'react';
 import { Link } from '@naturacosmeticos/natds-web';
 
 export const colorList: any = {
-  error: 'error',
+  default: 'default',
+  initial: 'initial',
   inherit: 'inherit',
+  error: 'error',
   primary: 'primary',
   secondary: 'secondary',
   textPrimary: 'textPrimary',

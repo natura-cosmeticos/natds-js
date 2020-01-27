@@ -2,9 +2,14 @@
 
 exports[`Link component should match snapshot - Any valid Link with always underline: Link snapshot - with always color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineAlways MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineAlways MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -297,9 +302,14 @@ exports[`Link component should match snapshot - Any valid Link with always under
 
 exports[`Link component should match snapshot - Any valid Link with body1 variant: Link snapshot - with body1 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-body1 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-body1 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -592,9 +602,14 @@ exports[`Link component should match snapshot - Any valid Link with body1 varian
 
 exports[`Link component should match snapshot - Any valid Link with body2 variant: Link snapshot - with body2 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-body2 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-body2 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -887,9 +902,14 @@ exports[`Link component should match snapshot - Any valid Link with body2 varian
 
 exports[`Link component should match snapshot - Any valid Link with button variant: Link snapshot - with button color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-button MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-button MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -1182,9 +1202,14 @@ exports[`Link component should match snapshot - Any valid Link with button varia
 
 exports[`Link component should match snapshot - Any valid Link with caption variant: Link snapshot - with caption color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-caption MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-caption MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -1480,6 +1505,7 @@ exports[`Link component should match snapshot - Any valid Link with error color:
   className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorError"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={Object {}}
   theme={
     Object {
       "breakpoints": Object {
@@ -1772,9 +1798,14 @@ exports[`Link component should match snapshot - Any valid Link with error color:
 
 exports[`Link component should match snapshot - Any valid Link with h1 variant: Link snapshot - with h1 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h1 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h1 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -2067,9 +2098,14 @@ exports[`Link component should match snapshot - Any valid Link with h1 variant: 
 
 exports[`Link component should match snapshot - Any valid Link with h2 variant: Link snapshot - with h2 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h2 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h2 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -2362,9 +2398,14 @@ exports[`Link component should match snapshot - Any valid Link with h2 variant: 
 
 exports[`Link component should match snapshot - Any valid Link with h3 variant: Link snapshot - with h3 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h3 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h3 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -2657,9 +2698,14 @@ exports[`Link component should match snapshot - Any valid Link with h3 variant: 
 
 exports[`Link component should match snapshot - Any valid Link with h4 variant: Link snapshot - with h4 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h4 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h4 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -2952,9 +2998,14 @@ exports[`Link component should match snapshot - Any valid Link with h4 variant: 
 
 exports[`Link component should match snapshot - Any valid Link with h5 variant: Link snapshot - with h5 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h5 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h5 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -3247,9 +3298,14 @@ exports[`Link component should match snapshot - Any valid Link with h5 variant: 
 
 exports[`Link component should match snapshot - Any valid Link with h6 variant: Link snapshot - with h6 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h6 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-h6 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -3542,9 +3598,14 @@ exports[`Link component should match snapshot - Any valid Link with h6 variant: 
 
 exports[`Link component should match snapshot - Any valid Link with hover underline: Link snapshot - with hover color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -3840,6 +3901,7 @@ exports[`Link component should match snapshot - Any valid Link with inherit colo
   className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={Object {}}
   theme={
     Object {
       "breakpoints": Object {
@@ -4132,9 +4194,14 @@ exports[`Link component should match snapshot - Any valid Link with inherit colo
 
 exports[`Link component should match snapshot - Any valid Link with inherit variant: Link snapshot - with inherit color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -4427,9 +4494,14 @@ exports[`Link component should match snapshot - Any valid Link with inherit vari
 
 exports[`Link component should match snapshot - Any valid Link with none underline: Link snapshot - with none color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineNone MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -4722,9 +4794,14 @@ exports[`Link component should match snapshot - Any valid Link with none underli
 
 exports[`Link component should match snapshot - Any valid Link with overline variant: Link snapshot - with overline color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-overline MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-overline MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -5020,6 +5097,7 @@ exports[`Link component should match snapshot - Any valid Link with primary colo
   className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorPrimary"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={Object {}}
   theme={
     Object {
       "breakpoints": Object {
@@ -5315,6 +5393,7 @@ exports[`Link component should match snapshot - Any valid Link with secondary co
   className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorSecondary"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={Object {}}
   theme={
     Object {
       "breakpoints": Object {
@@ -5607,9 +5686,14 @@ exports[`Link component should match snapshot - Any valid Link with secondary co
 
 exports[`Link component should match snapshot - Any valid Link with srOnly variant: Link snapshot - with srOnly color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-srOnly MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-srOnly MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -5902,9 +5986,14 @@ exports[`Link component should match snapshot - Any valid Link with srOnly varia
 
 exports[`Link component should match snapshot - Any valid Link with subtitle1 variant: Link snapshot - with subtitle1 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-subtitle1 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-subtitle1 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -6197,9 +6286,14 @@ exports[`Link component should match snapshot - Any valid Link with subtitle1 va
 
 exports[`Link component should match snapshot - Any valid Link with subtitle2 variant: Link snapshot - with subtitle2 color 1`] = `
 <a
-  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-subtitle2 MuiTypography-colorPrimary"
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-subtitle2 MuiTypography-colorInherit"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={
+    Object {
+      "color": "#227BBD",
+    }
+  }
   theme={
     Object {
       "breakpoints": Object {
@@ -6495,6 +6589,7 @@ exports[`Link component should match snapshot - Any valid Link with textPrimary 
   className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorTextPrimary"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={Object {}}
   theme={
     Object {
       "breakpoints": Object {
@@ -6790,6 +6885,7 @@ exports[`Link component should match snapshot - Any valid Link with textSecondar
   className="MuiTypography-root MuiLink-root MuiLink-underlineHover MuiTypography-colorTextSecondary"
   onBlur={[Function]}
   onFocus={[Function]}
+  style={Object {}}
   theme={
     Object {
       "breakpoints": Object {
