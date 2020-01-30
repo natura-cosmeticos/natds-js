@@ -3,6 +3,47 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-docs@0.3.0...@naturacosmeticos/natds-docs@0.3.1) (2020-01-28)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+# [0.3.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-docs@0.2.0...@naturacosmeticos/natds-docs@0.3.0) (2020-01-15)
+
+
+### Bug Fixes
+
+* **AppBar:** fixes appbar color for default and adds noElevation functionality ([c2b8019](https://github.com/natura-cosmeticos/natds/commit/c2b801902f17281cbefd8bac1fa72aa9cfc19c24))
+* **AppBar:** fixes appbar to comply with UX definitions ([b45fcf6](https://github.com/natura-cosmeticos/natds/commit/b45fcf6e1d223515fe845f1b365315305c6d4ce9))
+* **docs:** fixing fourth item in tab story interactive ([a5aeed7](https://github.com/natura-cosmeticos/natds/commit/a5aeed75765527bd8d54023ab97eeb3537348ed7))
+* **icons:** including new Icons and refining all of them ([918f9c6](https://github.com/natura-cosmeticos/natds/commit/918f9c605cd4a45f26801187cb6d141b129a779a))
+* **list:** changing list docs to folder correctly ([aa16149](https://github.com/natura-cosmeticos/natds/commit/aa16149ad5944095da876722e2d608460c741d2d))
+* **list:** fixing canvas into storybook to list components ([15b8b64](https://github.com/natura-cosmeticos/natds/commit/15b8b644d8bb913956e13328dcc989415fba9667))
+* **list:** fixing canvas storybook to list ([f86e864](https://github.com/natura-cosmeticos/natds/commit/f86e864a06a1efdd2a56efa4c5d3d9056db0c614))
+* **Snackbar:** fixes snackbar colors and adds examples of usage ([c91c62d](https://github.com/natura-cosmeticos/natds/commit/c91c62d65423bcf0bcc7135cb899641491500b07))
+* **Snackbar:** fixes snackbar icons on docs ([9361bf2](https://github.com/natura-cosmeticos/natds/commit/9361bf26b76d65cca94b62a0410b032d0e79e556))
+* **tab:** fixing interactive story after visual validations into storybook ([36ddafb](https://github.com/natura-cosmeticos/natds/commit/36ddafb7b6f907bdd5d1e6ab717820d8f1a8b69d))
+* **tab:** including new componentLists into docs for tab components ([e462368](https://github.com/natura-cosmeticos/natds/commit/e46236867c56de19a4ab947e15fbb8d3837400e4))
+
+
+### Features
+
+* **AppBar:** added AppBar and Toolbar web components ([3cc10d0](https://github.com/natura-cosmeticos/natds/commit/3cc10d06e6a2e34ed65ef59f57d89727b76210ae))
+* **docs:** creating search and category sections for Icons ([0c5ce54](https://github.com/natura-cosmeticos/natds/commit/0c5ce5453f8a53ded0af09d6ebf42498c0bcaebb))
+* **paper:** including docs to paper component ([d372002](https://github.com/natura-cosmeticos/natds/commit/d372002e000b2abaeb1ddfeb998cf8165083d918))
+* **tab:** including docs to tab components ([2fa3eff](https://github.com/natura-cosmeticos/natds/commit/2fa3efff617447afe386d3b15a172842fa711ea1))
+
+
+
+# 0.3.0-alpha.8 (2019-12-26)
+
+
+
+
+
 # [0.2.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-docs@0.1.3...@naturacosmeticos/natds-docs@0.2.0) (2020-01-03)
 
 

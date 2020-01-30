@@ -3,6 +3,29 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.3.0...@naturacosmeticos/natds-icons@0.3.1) (2020-01-28)
+
+
+### Bug Fixes
+
+* **icons:** updating Lock icon ([db7002e](https://github.com/natura-cosmeticos/natds/commit/db7002efe0f9f735124e01516c586c9d78923b76)), closes [#241](https://github.com/natura-cosmeticos/natds/issues/241)
+
+
+
+
+
+# [0.3.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.2.0...@naturacosmeticos/natds-icons@0.3.0) (2020-01-15)
+
+
+### Bug Fixes
+
+* **icons:** fixing rating and clip icons paths ([f61897b](https://github.com/natura-cosmeticos/natds/commit/f61897bcdc6fea4c414690b7fd7f0f864307d789))
+* **icons:** including new Icons and refining all of them ([918f9c6](https://github.com/natura-cosmeticos/natds/commit/918f9c605cd4a45f26801187cb6d141b129a779a))
+
+
+
+
+
 # 0.2.0 (2020-01-03)
 
 
