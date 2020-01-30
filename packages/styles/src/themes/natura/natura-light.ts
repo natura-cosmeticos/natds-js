@@ -1,3 +1,4 @@
+import hexToRgba from 'hex-to-rgba';
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -134,15 +135,15 @@ export const naturaLight: ITheme = {
     MuiListItem: {
       root: {
         "&$selected": {
-          background: "rgba(255, 107, 11, .16)",
+          background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
           "&:hover": {
-            background: "rgba(255, 107, 11, .08)"
+            background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.8)
           }
         },
       },
       button: {
         "&:hover": {
-          backgroundColor: "rgba(255, 107, 11, .08)"
+          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.8)
         }
       }
     },
@@ -160,6 +161,108 @@ export const naturaLight: ITheme = {
       wrapper: {
         "& > *:first-child": {
           marginBottom: "2px !important"
+        }
+      }
+    },
+    MuiChip: {
+      root: {
+        backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
+        color: natura.grayscale.colorBrdNatGray,
+        "& $avatar": {
+          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.24)
+        },
+        "& $avatarColorPrimary": {
+          backgroundColor: natura.primary.colorBrdNatPrimaryYellow
+        },
+        "& $avatarColorSecondary": {
+          backgroundColor: natura.primary.colorBrdNatPrimaryOrange
+        },
+        "&$disabled": {
+          backgroundColor: natura.grayscale.colorBrdNatGray3,
+          color: hexToRgba(natura.grayscale.colorBrdNatGray, 0.48),
+          opacity: 1,
+
+          "& $avatarColorPrimary": {
+            backgroundColor: hexToRgba(natura.grayscale.colorBrdNatGray2, 0.48),
+            color: hexToRgba(natura.grayscale.colorBrdNatGray, 0.48),
+          },
+          "& $avatarColorSecondary": {
+            backgroundColor: hexToRgba(natura.grayscale.colorBrdNatGray2, 0.48),
+            color: hexToRgba(natura.grayscale.colorBrdNatGray, 0.48),
+          },
+          "& $avatar": {
+            backgroundColor: hexToRgba(natura.grayscale.colorBrdNatGray2, 0.48),
+            color: hexToRgba(natura.grayscale.colorBrdNatGray, 0.48),
+          },
+          "& $icon": {
+            color: hexToRgba(natura.grayscale.colorBrdNatGray, 0.48),
+          },
+          "& $deleteIcon": {
+            color: hexToRgba(natura.grayscale.colorBrdNatGray, 0.48),
+          },
+        },
+      },
+      colorPrimary: {
+        backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryYellow, 0.64),
+        color: natura.grayscale.colorBrdNatGray
+      },
+      colorSecondary: {
+        backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.64),
+        color: natura.grayscale.colorBrdNatGray
+      },
+      outlinedPrimary: {
+        borderColor: natura.primary.colorBrdNatPrimaryYellow,
+        color: natura.grayscale.colorBrdNatGray
+      },
+      outlinedSecondary: {
+        borderColor: natura.primary.colorBrdNatPrimaryOrange,
+        color: natura.grayscale.colorBrdNatGray
+      },
+      icon: {
+        fontSize: `${sizes.standard}px`,
+      },
+      iconSmall: {
+        width: `${sizes.small}px`,
+        height: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`,
+        marginTop: "1px"
+      },
+      deleteIcon: {
+        width: `${sizes.standard}px`,
+        height: `${sizes.standard}px`,
+        fontSize: `${sizes.standard}px`,
+        color: natura.grayscale.colorBrdNatGray,
+        '&:hover': {
+          color: natura.grayscale.colorBrdNatGray
+        }
+      },
+      deleteIconSmall: {
+        width: `${sizes.small}px`,
+        height: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`,
+      },
+      deleteIconColorPrimary: {
+        color: natura.grayscale.colorBrdNatGray,
+        '&:hover': {
+          color: natura.grayscale.colorBrdNatGray
+        }
+      },
+      deleteIconColorSecondary: {
+        color: natura.grayscale.colorBrdNatGray,
+        '&:hover': {
+          color: natura.grayscale.colorBrdNatGray
+        }
+      },
+      deleteIconOutlinedColorPrimary: {
+        color: natura.grayscale.colorBrdNatGray,
+        '&:hover': {
+          color: natura.grayscale.colorBrdNatGray
+        }
+      },
+      deleteIconOutlinedColorSecondary: {
+        color: natura.grayscale.colorBrdNatGray,
+        '&:hover': {
+          color: natura.grayscale.colorBrdNatGray
         }
       }
     }

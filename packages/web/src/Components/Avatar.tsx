@@ -33,7 +33,9 @@ export const Avatar: FunctionComponent<IAvatarProps> = (props: IAvatarProps) => 
   return <MaterialAvatar {...props} style={style} />;
 };
 
-function withSizes(size: AvatarSizes | undefined = 'standard', theme: any = {}) {
+function withSizes(size: AvatarSizes | undefined, theme: any = {}) {
+  if (!size) return {};
+
   const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
 
   if (!avatarSizes) return {};
@@ -48,7 +50,9 @@ function withSizes(size: AvatarSizes | undefined = 'standard', theme: any = {}) 
   };
 }
 
-function withColors(color: AvatarColors | undefined = 'primary', theme: any = {}) {
+function withColors(color: AvatarColors | undefined, theme: any = {}) {
+  if (!color) return {};
+
   const { palette = {} }: { palette: object } = theme;
   const selectedColor = palette[color];
 

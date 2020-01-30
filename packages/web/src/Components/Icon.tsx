@@ -9,18 +9,20 @@ import '@naturacosmeticos/natds-icons/dist/natds-icons.css';
 export interface IIconProps {
   name: keyof typeof iconNames;
   size?: keyof IIconSizes;
+  className?: string;
   theme: IThemeWeb | unknown;
 }
 
 export const Icon: FunctionComponent<IIconProps> = (props: IIconProps) => {
-  const { name, theme, size } = props;
-  const className = `natds-icons natds-icons-${String(name)}`;
+  const { name, theme, size, className: receivedClassName, ...rest } = props;
+  const className = `natds-icons natds-icons-${String(name)} ${receivedClassName}`;
 
   return (
     <IconComponent
       className={className}
       theme={theme}
       size={size}
+      {...rest}
     />
   );
 };
