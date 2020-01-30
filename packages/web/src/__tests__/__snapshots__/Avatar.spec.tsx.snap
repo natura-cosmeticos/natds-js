@@ -3,14 +3,7 @@
 exports[`Avatar component rendering avatars colors should match snapshot - Avatar Color default: Avatar Color default snapshot 1`] = `
 <div
   className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
-  style={
-    Object {
-      "background": "#F4AB34",
-      "fontSize": "1rem",
-      "height": "40px",
-      "width": "40px",
-    }
-  }
+  style={Object {}}
   theme={
     Object {
       "avatarSizes": Object {
@@ -98,6 +91,107 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "colorPrimary": Object {
+            "backgroundColor": "rgba(244, 171, 52, 0.64)",
+            "color": "#333333",
+          },
+          "colorSecondary": Object {
+            "backgroundColor": "rgba(255, 107, 11, 0.64)",
+            "color": "#333333",
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlinedPrimary": Object {
+            "borderColor": "#F4AB34",
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "borderColor": "#FF6B0B",
+            "color": "#333333",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+            },
+            "& $avatarColorPrimary": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "& $avatarColorSecondary": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "&$disabled": Object {
+              "& $avatar": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorPrimary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorSecondary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $deleteIcon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $icon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "backgroundColor": "#EEEEEE",
+              "color": "rgba(51, 51, 51, 0.48)",
+              "opacity": 1,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -109,15 +203,15 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(255, 107, 11, 0.8)",
             },
           },
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, .08)",
+                "background": "rgba(255, 107, 11, 0.8)",
               },
-              "background": "rgba(255, 107, 11, .16)",
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },
@@ -333,9 +427,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   style={
     Object {
       "background": "#F4AB34",
-      "fontSize": "1rem",
-      "height": "40px",
-      "width": "40px",
     }
   }
   theme={
@@ -425,6 +516,107 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "colorPrimary": Object {
+            "backgroundColor": "rgba(244, 171, 52, 0.64)",
+            "color": "#333333",
+          },
+          "colorSecondary": Object {
+            "backgroundColor": "rgba(255, 107, 11, 0.64)",
+            "color": "#333333",
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlinedPrimary": Object {
+            "borderColor": "#F4AB34",
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "borderColor": "#FF6B0B",
+            "color": "#333333",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+            },
+            "& $avatarColorPrimary": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "& $avatarColorSecondary": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "&$disabled": Object {
+              "& $avatar": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorPrimary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorSecondary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $deleteIcon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $icon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "backgroundColor": "#EEEEEE",
+              "color": "rgba(51, 51, 51, 0.48)",
+              "opacity": 1,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -436,15 +628,15 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(255, 107, 11, 0.8)",
             },
           },
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, .08)",
+                "background": "rgba(255, 107, 11, 0.8)",
               },
-              "background": "rgba(255, 107, 11, .16)",
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },
@@ -660,9 +852,6 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   style={
     Object {
       "background": "#FF6B0B",
-      "fontSize": "1rem",
-      "height": "40px",
-      "width": "40px",
     }
   }
   theme={
@@ -752,6 +941,107 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "colorPrimary": Object {
+            "backgroundColor": "rgba(244, 171, 52, 0.64)",
+            "color": "#333333",
+          },
+          "colorSecondary": Object {
+            "backgroundColor": "rgba(255, 107, 11, 0.64)",
+            "color": "#333333",
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlinedPrimary": Object {
+            "borderColor": "#F4AB34",
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "borderColor": "#FF6B0B",
+            "color": "#333333",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+            },
+            "& $avatarColorPrimary": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "& $avatarColorSecondary": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "&$disabled": Object {
+              "& $avatar": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorPrimary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorSecondary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $deleteIcon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $icon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "backgroundColor": "#EEEEEE",
+              "color": "rgba(51, 51, 51, 0.48)",
+              "opacity": 1,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -763,15 +1053,15 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(255, 107, 11, 0.8)",
             },
           },
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, .08)",
+                "background": "rgba(255, 107, 11, 0.8)",
               },
-              "background": "rgba(255, 107, 11, .16)",
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },
@@ -986,7 +1276,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   size="huge"
   style={
     Object {
-      "background": "#F4AB34",
       "fontSize": "1.5rem",
       "height": "80px",
       "width": "80px",
@@ -1079,6 +1368,107 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "colorPrimary": Object {
+            "backgroundColor": "rgba(244, 171, 52, 0.64)",
+            "color": "#333333",
+          },
+          "colorSecondary": Object {
+            "backgroundColor": "rgba(255, 107, 11, 0.64)",
+            "color": "#333333",
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlinedPrimary": Object {
+            "borderColor": "#F4AB34",
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "borderColor": "#FF6B0B",
+            "color": "#333333",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+            },
+            "& $avatarColorPrimary": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "& $avatarColorSecondary": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "&$disabled": Object {
+              "& $avatar": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorPrimary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorSecondary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $deleteIcon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $icon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "backgroundColor": "#EEEEEE",
+              "color": "rgba(51, 51, 51, 0.48)",
+              "opacity": 1,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -1090,15 +1480,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(255, 107, 11, 0.8)",
             },
           },
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, .08)",
+                "background": "rgba(255, 107, 11, 0.8)",
               },
-              "background": "rgba(255, 107, 11, .16)",
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },
@@ -1313,7 +1703,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   size="large"
   style={
     Object {
-      "background": "#F4AB34",
       "fontSize": "1rem",
       "height": "48px",
       "width": "48px",
@@ -1406,6 +1795,107 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "colorPrimary": Object {
+            "backgroundColor": "rgba(244, 171, 52, 0.64)",
+            "color": "#333333",
+          },
+          "colorSecondary": Object {
+            "backgroundColor": "rgba(255, 107, 11, 0.64)",
+            "color": "#333333",
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlinedPrimary": Object {
+            "borderColor": "#F4AB34",
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "borderColor": "#FF6B0B",
+            "color": "#333333",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+            },
+            "& $avatarColorPrimary": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "& $avatarColorSecondary": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "&$disabled": Object {
+              "& $avatar": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorPrimary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorSecondary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $deleteIcon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $icon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "backgroundColor": "#EEEEEE",
+              "color": "rgba(51, 51, 51, 0.48)",
+              "opacity": 1,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -1417,15 +1907,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(255, 107, 11, 0.8)",
             },
           },
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, .08)",
+                "background": "rgba(255, 107, 11, 0.8)",
               },
-              "background": "rgba(255, 107, 11, .16)",
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },
@@ -1640,7 +2130,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   size="small"
   style={
     Object {
-      "background": "#F4AB34",
       "fontSize": ".875rem",
       "height": "32px",
       "width": "32px",
@@ -1733,6 +2222,107 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "colorPrimary": Object {
+            "backgroundColor": "rgba(244, 171, 52, 0.64)",
+            "color": "#333333",
+          },
+          "colorSecondary": Object {
+            "backgroundColor": "rgba(255, 107, 11, 0.64)",
+            "color": "#333333",
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlinedPrimary": Object {
+            "borderColor": "#F4AB34",
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "borderColor": "#FF6B0B",
+            "color": "#333333",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+            },
+            "& $avatarColorPrimary": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "& $avatarColorSecondary": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "&$disabled": Object {
+              "& $avatar": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorPrimary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorSecondary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $deleteIcon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $icon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "backgroundColor": "#EEEEEE",
+              "color": "rgba(51, 51, 51, 0.48)",
+              "opacity": 1,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -1744,15 +2334,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(255, 107, 11, 0.8)",
             },
           },
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, .08)",
+                "background": "rgba(255, 107, 11, 0.8)",
               },
-              "background": "rgba(255, 107, 11, .16)",
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },
@@ -1967,7 +2557,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   size="standard"
   style={
     Object {
-      "background": "#F4AB34",
       "fontSize": "1rem",
       "height": "40px",
       "width": "40px",
@@ -2060,6 +2649,107 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "colorPrimary": Object {
+            "backgroundColor": "rgba(244, 171, 52, 0.64)",
+            "color": "#333333",
+          },
+          "colorSecondary": Object {
+            "backgroundColor": "rgba(255, 107, 11, 0.64)",
+            "color": "#333333",
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlinedPrimary": Object {
+            "borderColor": "#F4AB34",
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "borderColor": "#FF6B0B",
+            "color": "#333333",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+            },
+            "& $avatarColorPrimary": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "& $avatarColorSecondary": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "&$disabled": Object {
+              "& $avatar": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorPrimary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorSecondary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $deleteIcon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $icon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "backgroundColor": "#EEEEEE",
+              "color": "rgba(51, 51, 51, 0.48)",
+              "opacity": 1,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -2071,15 +2761,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(255, 107, 11, 0.8)",
             },
           },
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, .08)",
+                "background": "rgba(255, 107, 11, 0.8)",
               },
-              "background": "rgba(255, 107, 11, .16)",
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },
@@ -2294,7 +2984,6 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   size="tiny"
   style={
     Object {
-      "background": "#F4AB34",
       "fontSize": ".625rem",
       "height": "24px",
       "width": "24px",
@@ -2387,6 +3076,107 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "colorPrimary": Object {
+            "backgroundColor": "rgba(244, 171, 52, 0.64)",
+            "color": "#333333",
+          },
+          "colorSecondary": Object {
+            "backgroundColor": "rgba(255, 107, 11, 0.64)",
+            "color": "#333333",
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconOutlinedColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#333333",
+            },
+            "color": "#333333",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlinedPrimary": Object {
+            "borderColor": "#F4AB34",
+            "color": "#333333",
+          },
+          "outlinedSecondary": Object {
+            "borderColor": "#FF6B0B",
+            "color": "#333333",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+            },
+            "& $avatarColorPrimary": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "& $avatarColorSecondary": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "&$disabled": Object {
+              "& $avatar": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorPrimary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorSecondary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $deleteIcon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $icon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "backgroundColor": "#EEEEEE",
+              "color": "rgba(51, 51, 51, 0.48)",
+              "opacity": 1,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -2398,15 +3188,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(255, 107, 11, 0.8)",
             },
           },
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, .08)",
+                "background": "rgba(255, 107, 11, 0.8)",
               },
-              "background": "rgba(255, 107, 11, .16)",
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },
