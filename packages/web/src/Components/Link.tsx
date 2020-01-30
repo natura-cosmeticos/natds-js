@@ -18,7 +18,7 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
   /**
    * @optional
    * @default 'default'
-   * Color of the Link. Defaults to 'primary'
+   * Color of the Link.
    */
   color?: LinkColor;
   /**

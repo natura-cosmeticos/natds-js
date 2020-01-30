@@ -2691,6 +2691,120 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickable": Object {
+            "&:active": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.24)",
+            },
+            "&:focus": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.24)",
+            },
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.24)",
+            },
+          },
+          "colorPrimary": Object {
+            "backgroundColor": "rgba(244, 171, 52, 0.64)",
+            "color": "#EEEEEE",
+          },
+          "colorSecondary": Object {
+            "backgroundColor": "rgba(255, 107, 11, 0.64)",
+            "color": "#EEEEEE",
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#EEEEEE",
+            },
+            "color": "#EEEEEE",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#EEEEEE",
+            },
+            "color": "#EEEEEE",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#EEEEEE",
+            },
+            "color": "#EEEEEE",
+          },
+          "deleteIconOutlinedColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#EEEEEE",
+            },
+            "color": "#EEEEEE",
+          },
+          "deleteIconOutlinedColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#EEEEEE",
+            },
+            "color": "#EEEEEE",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "outlinedPrimary": Object {
+            "borderColor": "#F4AB34",
+            "color": "#EEEEEE",
+          },
+          "outlinedSecondary": Object {
+            "borderColor": "#FF6B0B",
+            "color": "#EEEEEE",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.24)",
+              "color": "#EEEEEE",
+            },
+            "& $avatarColorPrimary": Object {
+              "backgroundColor": "#F4AB34",
+              "color": "#EEEEEE",
+            },
+            "& $avatarColorSecondary": Object {
+              "backgroundColor": "#FF6B0B",
+              "color": "#EEEEEE",
+            },
+            "&$disabled": Object {
+              "& $avatar": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorPrimary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $avatarColorSecondary": Object {
+                "backgroundColor": "rgba(187, 187, 187, 0.48)",
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $deleteIcon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "& $icon": Object {
+                "color": "rgba(51, 51, 51, 0.48)",
+              },
+              "backgroundColor": "#EEEEEE",
+              "color": "rgba(51, 51, 51, 0.48)",
+              "opacity": 1,
+            },
+            "backgroundColor": "rgba(255, 255, 255, 0.12)",
+            "color": "#EEEEEE",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "color": "#FAFAFA",
@@ -2703,15 +2817,15 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(255, 107, 11, 0.8)",
             },
           },
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, .08)",
+                "background": "rgba(255, 107, 11, 0.8)",
               },
-              "background": "rgba(255, 107, 11, .16)",
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },

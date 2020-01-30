@@ -1,110 +1,143 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Chip component Chip calls onDelete 1`] = `
-<WithTheme(Component)
-  label="A Chip Component"
-  onDelete={[Function]}
+exports[`Chip component should match snapshot - Any valid Chip with Avatar: Chip snapshot - with avatar 1`] = `
+<div
+  className="MuiChip-root"
+  onKeyUp={[Function]}
 >
-  <Component
-    label="A Chip Component"
-    onDelete={[Function]}
+  <div
+    className="MuiAvatar-root MuiAvatar-circle MuiChip-avatar MuiAvatar-colorDefault"
+    style={Object {}}
   >
-    <WithStyles(ForwardRef(Chip))
-      label="A Chip Component"
-      onDelete={[Function]}
-    >
-      <ForwardRef(Chip)
-        classes={
-          Object {
-            "avatar": "MuiChip-avatar",
-            "avatarColorPrimary": "MuiChip-avatarColorPrimary",
-            "avatarColorSecondary": "MuiChip-avatarColorSecondary",
-            "avatarSmall": "MuiChip-avatarSmall",
-            "clickable": "MuiChip-clickable",
-            "clickableColorPrimary": "MuiChip-clickableColorPrimary",
-            "clickableColorSecondary": "MuiChip-clickableColorSecondary",
-            "colorPrimary": "MuiChip-colorPrimary",
-            "colorSecondary": "MuiChip-colorSecondary",
-            "deletable": "MuiChip-deletable",
-            "deletableColorPrimary": "MuiChip-deletableColorPrimary",
-            "deletableColorSecondary": "MuiChip-deletableColorSecondary",
-            "deleteIcon": "MuiChip-deleteIcon",
-            "deleteIconColorPrimary": "MuiChip-deleteIconColorPrimary",
-            "deleteIconColorSecondary": "MuiChip-deleteIconColorSecondary",
-            "deleteIconOutlinedColorPrimary": "MuiChip-deleteIconOutlinedColorPrimary",
-            "deleteIconOutlinedColorSecondary": "MuiChip-deleteIconOutlinedColorSecondary",
-            "deleteIconSmall": "MuiChip-deleteIconSmall",
-            "disabled": "Mui-disabled",
-            "icon": "MuiChip-icon",
-            "iconColorPrimary": "MuiChip-iconColorPrimary",
-            "iconColorSecondary": "MuiChip-iconColorSecondary",
-            "iconSmall": "MuiChip-iconSmall",
-            "label": "MuiChip-label",
-            "labelSmall": "MuiChip-labelSmall",
-            "outlined": "MuiChip-outlined",
-            "outlinedPrimary": "MuiChip-outlinedPrimary",
-            "outlinedSecondary": "MuiChip-outlinedSecondary",
-            "root": "MuiChip-root",
-            "sizeSmall": "MuiChip-sizeSmall",
-          }
-        }
-        label="A Chip Component"
-        onDelete={[Function]}
-      >
-        <div
-          className="MuiChip-root MuiChip-deletable"
-          onKeyUp={[Function]}
-          role="button"
-          tabIndex={0}
-        >
-          <span
-            className="MuiChip-label"
-          >
-            A Chip Component
-          </span>
-          <ForwardRef
-            className="MuiChip-deleteIcon"
-            onClick={[Function]}
-          >
-            <WithStyles(ForwardRef(SvgIcon))
-              className="MuiChip-deleteIcon"
-              onClick={[Function]}
-            >
-              <ForwardRef(SvgIcon)
-                className="MuiChip-deleteIcon"
-                classes={
-                  Object {
-                    "colorAction": "MuiSvgIcon-colorAction",
-                    "colorDisabled": "MuiSvgIcon-colorDisabled",
-                    "colorError": "MuiSvgIcon-colorError",
-                    "colorPrimary": "MuiSvgIcon-colorPrimary",
-                    "colorSecondary": "MuiSvgIcon-colorSecondary",
-                    "fontSizeInherit": "MuiSvgIcon-fontSizeInherit",
-                    "fontSizeLarge": "MuiSvgIcon-fontSizeLarge",
-                    "fontSizeSmall": "MuiSvgIcon-fontSizeSmall",
-                    "root": "MuiSvgIcon-root",
-                  }
-                }
-                onClick={[Function]}
-              >
-                <svg
-                  aria-hidden="true"
-                  className="MuiSvgIcon-root MuiChip-deleteIcon"
-                  focusable="false"
-                  onClick={[Function]}
-                  role="presentation"
-                  viewBox="0 0 24 24"
-                >
-                  <path
-                    d="M12 2C6.47 2 2 6.47 2 12s4.47 10 10 10 10-4.47 10-10S17.53 2 12 2zm5 13.59L15.59 17 12 13.41 8.41 17 7 15.59 10.59 12 7 8.41 8.41 7 12 10.59 15.59 7 17 8.41 13.41 12 17 15.59z"
-                  />
-                </svg>
-              </ForwardRef(SvgIcon)>
-            </WithStyles(ForwardRef(SvgIcon))>
-          </ForwardRef>
-        </div>
-      </ForwardRef(Chip)>
-    </WithStyles(ForwardRef(Chip))>
-  </Component>
-</WithTheme(Component)>
+    XD
+  </div>
+  <span
+    className="MuiChip-label"
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with Icon: Chip snapshot - with icon 1`] = `
+<div
+  className="MuiChip-root"
+  onKeyUp={[Function]}
+>
+  <i
+    className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-add MuiChip-icon"
+  />
+  <span
+    className="MuiChip-label"
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with custom deleteIcon: Chip snapshot - with custom deleteIcon 1`] = `
+<div
+  className="MuiChip-root MuiChip-deletable"
+  onKeyUp={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <span
+    className="MuiChip-label"
+  />
+  <i
+    className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-cancel MuiChip-deleteIcon"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with default color: Chip snapshot - with default color 1`] = `
+<div
+  className="MuiChip-root"
+  onKeyUp={[Function]}
+>
+  <span
+    className="MuiChip-label"
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with default deleteIcon: Chip snapshot - with default deleteIcon 1`] = `
+<div
+  className="MuiChip-root MuiChip-deletable"
+  onKeyUp={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <span
+    className="MuiChip-label"
+  />
+  <i
+    className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-cancel MuiChip-deleteIcon"
+    onClick={[Function]}
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with default variant: Chip snapshot - with default variant 1`] = `
+<div
+  className="MuiChip-root"
+  onKeyUp={[Function]}
+>
+  <span
+    className="MuiChip-label"
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with medium size: Chip snapshot - with medium size 1`] = `
+<div
+  className="MuiChip-root"
+  onKeyUp={[Function]}
+>
+  <span
+    className="MuiChip-label"
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with outlined variant: Chip snapshot - with outlined variant 1`] = `
+<div
+  className="MuiChip-root MuiChip-outlined"
+  onKeyUp={[Function]}
+>
+  <span
+    className="MuiChip-label"
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with primary color: Chip snapshot - with primary color 1`] = `
+<div
+  className="MuiChip-root MuiChip-colorPrimary"
+  onKeyUp={[Function]}
+>
+  <span
+    className="MuiChip-label"
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with secondary color: Chip snapshot - with secondary color 1`] = `
+<div
+  className="MuiChip-root MuiChip-colorSecondary"
+  onKeyUp={[Function]}
+>
+  <span
+    className="MuiChip-label"
+  />
+</div>
+`;
+
+exports[`Chip component should match snapshot - Any valid Chip with small size: Chip snapshot - with small size 1`] = `
+<div
+  className="MuiChip-root MuiChip-sizeSmall"
+  onKeyUp={[Function]}
+>
+  <span
+    className="MuiChip-label MuiChip-labelSmall"
+  />
+</div>
 `;
