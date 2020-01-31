@@ -5,6 +5,7 @@ export { Provider } from './Provider';
 
 export { default as AppBar, IAppBarProps } from './Components/AppBar';
 export { default as Avatar, IAvatarProps } from './Components/Avatar';
+export { default as Badge, IBadgeProps } from './Components/Badge';
 export { default as BottomNavigation, IBottomNavigationProps } from './Components/BottomNavigation';
 export { default as BottomNavigationAction, IBottomNavigationActionProps } from './Components/BottomNavigationAction';
 export { default as Button, IButtonProps } from './Components/Button';
