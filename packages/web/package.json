@@ -26,14 +26,15 @@
     "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
-    "test": "yarn test:unit:coverage -u",
+    "test": "yarn test:unit:coverage",
     "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "build:clean": "rm -rf ./dist",
     "build": "yarn build:clean && tsc -p ./tsconfig.json",
     "start": "yarn build -w",
     "watch": "yarn start",
-    "verify": "yarn lint && yarn test"
+    "verify": "yarn lint && yarn test -u",
+    "verify:ci": "yarn lint && yarn test"
   },
   "dependencies": {
     "@material-ui/core": "4.8.3",

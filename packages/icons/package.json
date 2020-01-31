@@ -31,7 +31,8 @@
     "start": "yarn build --watch",
     "watch": "yarn start",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "verify": "yarn lint"
+    "verify": "yarn lint",
+    "verify:ci": "yarn verify"
   },
   "devDependencies": {
     "glob": "7.1.6",
