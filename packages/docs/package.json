@@ -28,7 +28,8 @@
     "deploy:local": "yarn deploy --dry-run",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "test:build": "build-storybook -o dist-test --quiet --docs && rm -rf dist-test",
-    "verify": "yarn lint && yarn test:build"
+    "verify": "yarn lint && yarn test:build",
+    "verify:ci": "yarn verify"
   },
   "devDependencies": {
     "@babel/core": "7.7.5",

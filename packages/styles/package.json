@@ -30,10 +30,11 @@
     "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
-    "test": "yarn test:unit:coverage -u",
+    "test": "yarn test:unit:coverage",
     "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "verify": "yarn lint && yarn test"
+    "verify": "yarn lint && yarn test -u",
+    "verify:ci": "yarn lint && yarn test"
   },
   "devDependencies": {
     "jest": "24.9.0",
