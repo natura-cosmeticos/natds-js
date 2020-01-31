@@ -67,7 +67,7 @@ export const Default = () => {
   const withAvatar = boolean('show avatar', false);
   const withIcon = !withAvatar && boolean('show icon', false);
   const avatar = withAvatar ? <Avatar
-    src={select('avatar source', avatarSrc, avatarSrc.image)}
+    src={select('avatar source', avatarSrc, avatarSrc.none)}
     children={text('avatar text', 'XD')}
   /> : undefined;
   const icon = !withAvatar && withIcon 

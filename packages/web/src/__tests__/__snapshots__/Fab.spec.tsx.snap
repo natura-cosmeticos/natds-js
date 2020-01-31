@@ -2692,57 +2692,26 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           },
         },
         "MuiChip": Object {
-          "clickable": Object {
-            "&:active": Object {
-              "backgroundColor": "rgba(255, 255, 255, 0.24)",
-            },
-            "&:focus": Object {
-              "backgroundColor": "rgba(255, 255, 255, 0.24)",
-            },
-            "&:hover": Object {
-              "backgroundColor": "rgba(255, 255, 255, 0.24)",
-            },
-          },
-          "colorPrimary": Object {
-            "backgroundColor": "rgba(244, 171, 52, 0.64)",
-            "color": "#EEEEEE",
-          },
-          "colorSecondary": Object {
-            "backgroundColor": "rgba(255, 107, 11, 0.64)",
-            "color": "#EEEEEE",
-          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "#EEEEEE",
+              "color": "rgba(255, 255, 255, 0.6)",
             },
-            "color": "#EEEEEE",
+            "color": "rgba(255, 255, 255, 0.8)",
             "fontSize": "24px",
             "height": "24px",
             "width": "24px",
           },
           "deleteIconColorPrimary": Object {
             "&:hover": Object {
-              "color": "#EEEEEE",
+              "color": "#FFFFFF",
             },
-            "color": "#EEEEEE",
+            "color": "rgba(255, 255, 255, 0.8)",
           },
           "deleteIconColorSecondary": Object {
             "&:hover": Object {
-              "color": "#EEEEEE",
+              "color": "#FFFFFF",
             },
-            "color": "#EEEEEE",
-          },
-          "deleteIconOutlinedColorPrimary": Object {
-            "&:hover": Object {
-              "color": "#EEEEEE",
-            },
-            "color": "#EEEEEE",
-          },
-          "deleteIconOutlinedColorSecondary": Object {
-            "&:hover": Object {
-              "color": "#EEEEEE",
-            },
-            "color": "#EEEEEE",
+            "color": "rgba(255, 255, 255, 0.8)",
           },
           "deleteIconSmall": Object {
             "fontSize": "16px",
@@ -2755,54 +2724,32 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           "iconSmall": Object {
             "fontSize": "16px",
             "height": "16px",
+            "marginTop": "1px",
             "width": "16px",
           },
+          "outlined": Object {
+            "borderColor": "rgba(255, 255, 255, 0.12)",
+            "color": "#FFFFFF",
+          },
           "outlinedPrimary": Object {
-            "borderColor": "#F4AB34",
-            "color": "#EEEEEE",
+            "& $avatar": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "color": "#FFFFFF",
           },
           "outlinedSecondary": Object {
-            "borderColor": "#FF6B0B",
-            "color": "#EEEEEE",
+            "& $avatar": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "color": "#FFFFFF",
           },
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(255, 255, 255, 0.24)",
-              "color": "#EEEEEE",
-            },
-            "& $avatarColorPrimary": Object {
-              "backgroundColor": "#F4AB34",
-              "color": "#EEEEEE",
-            },
-            "& $avatarColorSecondary": Object {
-              "backgroundColor": "#FF6B0B",
-              "color": "#EEEEEE",
-            },
-            "&$disabled": Object {
-              "& $avatar": Object {
-                "backgroundColor": "rgba(187, 187, 187, 0.48)",
-                "color": "rgba(51, 51, 51, 0.48)",
-              },
-              "& $avatarColorPrimary": Object {
-                "backgroundColor": "rgba(187, 187, 187, 0.48)",
-                "color": "rgba(51, 51, 51, 0.48)",
-              },
-              "& $avatarColorSecondary": Object {
-                "backgroundColor": "rgba(187, 187, 187, 0.48)",
-                "color": "rgba(51, 51, 51, 0.48)",
-              },
-              "& $deleteIcon": Object {
-                "color": "rgba(51, 51, 51, 0.48)",
-              },
-              "& $icon": Object {
-                "color": "rgba(51, 51, 51, 0.48)",
-              },
-              "backgroundColor": "#EEEEEE",
-              "color": "rgba(51, 51, 51, 0.48)",
-              "opacity": 1,
+              "color": "#FFFFFF",
             },
             "backgroundColor": "rgba(255, 255, 255, 0.12)",
-            "color": "#EEEEEE",
+            "color": "#FFFFFF",
           },
         },
         "MuiIconButton": Object {
