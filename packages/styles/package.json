@@ -36,11 +36,11 @@
     "verify": "yarn lint && yarn test"
   },
   "devDependencies": {
-    "jest": "^24.9.0",
-    "sass": "^1.23.7",
-    "ts-jest": "^24.1.0",
-    "typescript": "^3.6.4",
-    "yarn": "^1.21.1"
+    "jest": "24.9.0",
+    "sass": "1.23.7",
+    "ts-jest": "24.1.0",
+    "typescript": "3.6.4",
+    "yarn": "1.21.1"
   },
   "publishConfig": {
     "access": "public"
@@ -49,6 +49,6 @@
     "dist"
   ],
   "dependencies": {
-    "hex-to-rgba": "^2.0.1"
+    "hex-to-rgba": "2.0.1"
   }
 }
