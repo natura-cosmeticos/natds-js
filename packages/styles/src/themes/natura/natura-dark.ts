@@ -139,13 +139,13 @@ export const naturaDark: ITheme = {
         "&$selected": {
           background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
           "&:hover": {
-            background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.8)
+            background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.08)
           }
         },
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.8)
+          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.08)
         }
       }
     },

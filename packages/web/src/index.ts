@@ -44,6 +44,8 @@ export { default as ListItemIcon, IListItemIconProps } from './Components/ListIt
 export { default as ListItemSecondaryAction, IListItemSecondaryActionProps } from './Components/ListItemSecondaryAction';
 export { default as ListItemText, IListItemTextProps } from './Components/ListItemText';
 export { default as ListSubheader, IListSubheaderProps } from './Components/ListSubheader';
+export { default as Menu, IMenuProps } from './Components/Menu';
+export { default as MenuItem, IMenuItemProps } from './Components/MenuItem';
 export { default as Paper, IPaperProps } from './Components/Paper';
 export { default as Radio, IRadioProps } from './Components/Radio';
 export { default as Snackbar, ISnackbarProps } from './Components/Snackbar';
