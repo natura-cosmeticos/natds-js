@@ -1,0 +1,80 @@
+# ExpansionPanel
+
+---
+---
+---
+---
+
+## API
+
+```jsx highlight-line="2"
+import {
+  ExpansionPanel,
+  ExpansionPanelActions,
+  ExpansionPanelDetails,
+  ExpansionPanelSummary
+} from '@naturacosmeticos/natds-web';
+
+<ExpansionPanel defaultExpanded>
+  <ExpansionPanelSummary>
+    Summary
+  </ExpansionPanelSummary>
+  <ExpansionPanelDetails>
+    Details
+  </ExpansionPanelDetails>
+  <ExpansionPanelActions>
+    Actions
+  </ExpansionPanelActions>
+</ExpansionPanel>
+```
+
+For more advanced usages, check [Material UI Expansion Panel docs](https://material-ui.com/components/expansion-panels/)
+
+---
+---
+
+## ExpansionPanel Props
+
+| Name                      | Type                                                                                                           |  Default  | Description                                                                                                                                                                                                        |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------: | :-------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| children                  | node                                                                                                           |           | The content of the expansion panel.                                                                                                                                                                                |
+| classes                   | object                                                                                                         |           | Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/expansion-panel/#css) for more details.                                                                      |
+| defaultExpanded           | bool                                                                                                           | false     | If true, expands the panel by default.                                                                                                                                                                             |
+| disabled                  | bool                                                                                                           | false     | If true, the panel will be displayed in a disabled state.                                                                                                                                                          |
+| expanded                  | bool                                                                                                           |           | If true, expands the panel, otherwise collapse it. Setting this prop enables control over the panel.                                                                                                               |
+| onChange                  | func                                                                                                           |           | Callback fired when the expand/collapse state is changed. Signature: function(event: object, expanded: boolean) => void \| event: The event source of the callback. \| expanded: The expanded state of the panel.  |                                                                          |
+| TransitionComponent       | elementType                                                                                                    | Collapse  | The component used for the collapse effect. Follow this guide to learn more about the requirements for this component.                                                                                             |
+| TransitionProps           | object                                                                                                         | Collapse  | Props applied to the Transition element.                                                                                                                                                                           |
+
+---
+---
+
+## ExpansionPanelActions Props
+
+| Name                      | Type                                                                                                           |  Default  | Description                                                                                                                                                |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------: | :-------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| children                  | node                                                                                                           |           | The content of the component.                                                                                                                              |
+| classes                   | object                                                                                                         |           | Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/expansion-panel-actions/#css) for more details.      |
+| disableSpacing            | bool                                                                                                           | false     | If true, the actions do not have additional margin.                                                                                                        |
+
+---
+---
+
+## ExpansionPanelDetails Props
+
+| Name                      | Type                                                                                                           |  Default  | Description                                                                                                                                                |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------: | :-------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| children                  | node                                                                                                           |           | The content of the component.                                                                                                                              |
+| classes                   | object                                                                                                         |           | Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/expansion-panel-details/#css) for more details.      |
+
+---
+---
+
+## ExpansionPanelSummary Props
+
+| Name                      | Type                                                                                                           |  Default  | Description                                                                                                                                                |
+| :------------------------ | :------------------------------------------------------------------------------------------------------------: | :-------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| children                  | node                                                                                                           |           | The content of the component.                                                                                                                              |
+| classes                   | object                                                                                                         |           | Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/expansion-panel-summary/#css) for more details.      |
+| expandIcon                | node                                                                                                           |           | The icon to display as the expand indicator.                                                                                                               |
+| IconButtonProps           | object                                                                                                         |           | Props applied to the IconButton element wrapping the expand icon.                                                                                          |
