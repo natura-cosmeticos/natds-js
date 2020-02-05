@@ -31,6 +31,10 @@ export { default as DrawerHeader, IDrawerHeaderProps } from './Components/Drawer
 export { default as DrawerBody, IDrawerBodyProps } from './Components/DrawerBody';
 export { default as DrawerFooter, IDrawerFooterProps } from './Components/DrawerFooter';
 export { default as DrawerMenu, IDrawerMenuProps } from './Components/DrawerMenu';
+export { default as ExpansionPanel, IExpansionPanelProps } from './Components/ExpansionPanel';
+export { default as ExpansionPanelActions, IExpansionPanelActionsProps } from './Components/ExpansionPanelActions';
+export { default as ExpansionPanelDetails, IExpansionPanelDetailsProps } from './Components/ExpansionPanelDetails';
+export { default as ExpansionPanelSummary, IExpansionPanelSummaryProps } from './Components/ExpansionPanelSummary';
 export { default as GridItem, IGridItemProps } from './Components/GridItem';
 export { default as GridContainer, IGridContainerProps } from './Components/GridContainer';
 export { default as Fab, IFabProps } from './Components/Fab';
