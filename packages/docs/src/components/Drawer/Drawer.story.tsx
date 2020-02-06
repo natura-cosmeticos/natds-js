@@ -31,17 +31,18 @@ export default {
   }
 };
 
-const useStyles = makeStyles((theme: Theme) => createStyles({
-  drawer: {
-    width: number('width', 256),
-    overflow: 'hidden',
-    display: 'flex',
-    justifyContent: 'space-between',
-    flexFlow: 'column nowrap'
-  },
-}));
-
 export const Interactive = () => {
+  const useStyles = makeStyles((theme: Theme) => createStyles({
+    drawer: {
+      width: text('width', '256px'),
+      height: text('height', '100%'),
+      overflow: 'hidden',
+      display: 'flex',
+      justifyContent: 'space-between',
+      flexFlow: 'column nowrap'
+    },
+  }));
+
   const classes = useStyles();
 
   return (
