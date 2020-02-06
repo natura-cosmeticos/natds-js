@@ -12,6 +12,9 @@ import { sizes } from "../../tokens/sizes";
 
 const { natura } = tokens.colors;
 
+const PRIMARY_LIGHT = "#FEFDE8";
+const PRIMARY_DARK = "#EF8426";
+
 export const naturaLight: ITheme = {
   shape: {
     borderRadius: tokens.radius.medium,
@@ -24,18 +27,18 @@ export const naturaLight: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-      disabled: "rgba(0, 0, 0, .24)"
+      disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
     },
     primary: {
       main: natura.primary.colorBrdNatPrimaryYellow,
-      light: "#FEFDE8",
-      dark: "#EF8426",
+      light: PRIMARY_LIGHT,
+      dark: PRIMARY_DARK,
       contrastText: natura.grayscale.colorBrdNatGray
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
-      light: "#FEFDE8",
-      dark: "#EF8426",
+      light: PRIMARY_LIGHT,
+      dark: PRIMARY_DARK,
       contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
@@ -169,8 +172,22 @@ export const naturaLight: ITheme = {
         backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
         color: natura.grayscale.colorBrdNatGray,
         "& $avatar": {
-          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.24)
+          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
+          color: natura.grayscale.colorBrdNatGray,
         },
+        "&$disabled": {
+          opacity: .4
+        },
+      },
+      clickableColorPrimary: {
+        "&:hover": {
+          backgroundColor: PRIMARY_DARK
+        }
+      },
+      clickableColorSecondary: {
+        "&:hover": {
+          backgroundColor: PRIMARY_DARK
+        }
       },
       outlined: {
         borderColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
@@ -197,7 +214,7 @@ export const naturaLight: ITheme = {
         fontSize: `${sizes.standard}px`,
         color: hexToRgba(natura.grayscale.colorBrdBlack, 0.8),
         '&:hover': {
-          color: hexToRgba(natura.grayscale.colorBrdBlack, 0.6),
+          color: natura.grayscale.colorBrdBlack
         }
       },
       deleteIconSmall: {

@@ -2748,6 +2748,15 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
               "backgroundColor": "rgba(255, 255, 255, 0.24)",
               "color": "#FFFFFF",
             },
+            "&$clickable:focus": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.16)",
+            },
+            "&$clickable:hover": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.16)",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
             "backgroundColor": "rgba(255, 255, 255, 0.12)",
             "color": "#FFFFFF",
           },

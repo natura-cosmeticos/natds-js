@@ -174,6 +174,15 @@ export const naturaDark: ITheme = {
           backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.24),
           color: natura.primary.colorBrdNatPrimaryWhite
         },
+        "&$disabled": {
+          opacity: .4
+        },
+        "&$clickable:focus": {
+          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.16),
+        },
+        "&$clickable:hover": {
+          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.16),
+        },
       },
       outlined: {
         borderColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.12),
@@ -182,13 +191,13 @@ export const naturaDark: ITheme = {
       outlinedPrimary: {
         color: natura.primary.colorBrdNatPrimaryWhite,
         "& $avatar": {
-          backgroundColor: natura.primary.colorBrdNatPrimaryYellow
+          backgroundColor: natura.primary.colorBrdNatPrimaryYellow,
         },
       },
       outlinedSecondary: {
         color: natura.primary.colorBrdNatPrimaryWhite,
         "& $avatar": {
-          backgroundColor: natura.primary.colorBrdNatPrimaryOrange
+          backgroundColor: natura.primary.colorBrdNatPrimaryOrange,
         },
       },
       icon: {

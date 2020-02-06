@@ -515,9 +515,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -563,6 +573,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -637,7 +651,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -878,9 +892,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -926,6 +950,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -1000,7 +1028,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -1746,9 +1774,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -1794,6 +1832,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -1868,7 +1910,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -2110,9 +2152,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -2158,6 +2210,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -2232,7 +2288,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -2653,9 +2709,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -2701,6 +2767,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -2775,7 +2845,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -3017,9 +3087,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -3065,6 +3145,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -3139,7 +3223,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -3559,9 +3643,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
               },
             },
             "MuiChip": Object {
+              "clickableColorPrimary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
+              "clickableColorSecondary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
               "deleteIcon": Object {
                 "&:hover": Object {
-                  "color": "rgba(0, 0, 0, 0.6)",
+                  "color": "#000000",
                 },
                 "color": "rgba(0, 0, 0, 0.8)",
                 "fontSize": "24px",
@@ -3607,6 +3701,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "root": Object {
                 "& $avatar": Object {
                   "backgroundColor": "rgba(0, 0, 0, 0.24)",
+                  "color": "#333333",
+                },
+                "&$disabled": Object {
+                  "opacity": 0.4,
                 },
                 "backgroundColor": "rgba(0, 0, 0, 0.12)",
                 "color": "#333333",
@@ -3681,7 +3779,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "action": Object {
-              "disabled": "rgba(0, 0, 0, .24)",
+              "disabled": "rgba(0, 0, 0, 0.24)",
             },
             "background": Object {
               "default": "#FAFAFA",
@@ -3930,9 +4028,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -3978,6 +4086,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -4052,7 +4164,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -4294,9 +4406,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -4342,6 +4464,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -4416,7 +4542,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -5017,9 +5143,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
               },
             },
             "MuiChip": Object {
+              "clickableColorPrimary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
+              "clickableColorSecondary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
               "deleteIcon": Object {
                 "&:hover": Object {
-                  "color": "rgba(0, 0, 0, 0.6)",
+                  "color": "#000000",
                 },
                 "color": "rgba(0, 0, 0, 0.8)",
                 "fontSize": "24px",
@@ -5065,6 +5201,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "root": Object {
                 "& $avatar": Object {
                   "backgroundColor": "rgba(0, 0, 0, 0.24)",
+                  "color": "#333333",
+                },
+                "&$disabled": Object {
+                  "opacity": 0.4,
                 },
                 "backgroundColor": "rgba(0, 0, 0, 0.12)",
                 "color": "#333333",
@@ -5139,7 +5279,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "action": Object {
-              "disabled": "rgba(0, 0, 0, .24)",
+              "disabled": "rgba(0, 0, 0, 0.24)",
             },
             "background": Object {
               "default": "#FAFAFA",
@@ -6092,9 +6232,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -6140,6 +6290,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -6214,7 +6368,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -6456,9 +6610,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
         },
         "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
-              "color": "rgba(0, 0, 0, 0.6)",
+              "color": "#000000",
             },
             "color": "rgba(0, 0, 0, 0.8)",
             "fontSize": "24px",
@@ -6504,6 +6668,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "root": Object {
             "& $avatar": Object {
               "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
             },
             "backgroundColor": "rgba(0, 0, 0, 0.12)",
             "color": "#333333",
@@ -6578,7 +6746,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -6998,9 +7166,19 @@ exports[`TextField component rendering state should match snapshot - TextField (
               },
             },
             "MuiChip": Object {
+              "clickableColorPrimary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
+              "clickableColorSecondary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
               "deleteIcon": Object {
                 "&:hover": Object {
-                  "color": "rgba(0, 0, 0, 0.6)",
+                  "color": "#000000",
                 },
                 "color": "rgba(0, 0, 0, 0.8)",
                 "fontSize": "24px",
@@ -7046,6 +7224,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "root": Object {
                 "& $avatar": Object {
                   "backgroundColor": "rgba(0, 0, 0, 0.24)",
+                  "color": "#333333",
+                },
+                "&$disabled": Object {
+                  "opacity": 0.4,
                 },
                 "backgroundColor": "rgba(0, 0, 0, 0.12)",
                 "color": "#333333",
@@ -7120,7 +7302,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "action": Object {
-              "disabled": "rgba(0, 0, 0, .24)",
+              "disabled": "rgba(0, 0, 0, 0.24)",
             },
             "background": Object {
               "default": "#FAFAFA",
