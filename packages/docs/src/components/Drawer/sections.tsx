@@ -13,94 +13,94 @@ export const variants: any = {
 
 export const navigation = [
   {
-    name: 'Página Inicial',
-    icon: 'outlined-navigation-home',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
     selected: true
   },
   {
-    name: 'Meus Clientes',
-    icon: 'outlined-social-groupofpeople',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Venda',
-    icon: 'outlined-finance-money',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Pedido',
-    icon: 'outlined-action-request',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Meu Espaço Digital',
-    icon: 'outlined-media-monitor',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Meu Financeiro',
-    icon: 'outlined-finance-debit',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Promoções e Descontos',
-    icon: 'outlined-finance-discount',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Ciclo',
-    icon: 'outlined-action-cycle',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Minha Agenda',
-    icon: 'outlined-action-calendar',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Produtos do Ciclo',
-    icon: 'outlined-product-dailycare',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
     badge: 'Novo',
   },
   {
-    name: 'Material de Apoio',
-    icon: 'outlined-content-book',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
     onSelect: null,
     onToggle: null,
     opened: false,
     badge: 'Novo',
     list: [
       {
-        name: 'Apoio para Consultora',
+        name: 'Sub Item',
       },
       {
-        name: 'Materiais de Divulgação Digital',
+        name: 'Sub Item',
         badge: 'Novo',
       },
       {
-        name: 'Revista Espaço Natura',
+        name: 'Sub Item',
       },
       {
-        name: 'Revista Minha Natura',
+        name: 'Sub Item',
         badge: 'Novo'
       },
     ]
   },
   {
-    name: 'Treinamentos',
-    icon: 'outlined-content-education',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: '#NaturaReconhece',
-    icon: 'outlined-content-medal',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Benefícios',
-    icon: 'outlined-content-gift',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Consultoria Beleza Natura',
-    icon: 'outlined-product-brandsproduct',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Documentos',
-    icon: 'outlined-action-copy',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
-    name: 'Ajuda',
-    icon: 'outlined-communication-chat',
+    name: 'Menu Item',
+    icon: 'outlined-action-love',
   },
   {
     section: 'Section'
