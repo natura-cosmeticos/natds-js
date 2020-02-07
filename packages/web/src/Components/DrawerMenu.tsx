@@ -146,7 +146,6 @@ export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = (props: I
     root: {
       borderRadius: theme.shape.borderRadius,
       padding: theme.sizes.tiny,
-      marginBottom: theme.sizes.micro,
       cursor: 'pointer',
       '&:hover': {
         backgroundColor: theme.palette.action.hover
@@ -158,7 +157,7 @@ export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = (props: I
     root: {
       backgroundColor: `${theme.palette.background.paper}`,
       borderTop: `${theme.palette.action.hover} 1px solid`,
-      margin: `0 -${theme.sizes.tiny}px`
+      margin: `${theme.sizes.small}px -${theme.sizes.tiny}px 0`
     }
   }), [theme]);
 
