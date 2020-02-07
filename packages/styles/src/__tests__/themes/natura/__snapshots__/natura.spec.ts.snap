@@ -88,6 +88,24 @@ Object {
       },
     },
     "MuiChip": Object {
+      "clickable": Object {
+        "&:focus": Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.16)",
+        },
+        "&:hover": Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.16)",
+        },
+      },
+      "clickableColorPrimary": Object {
+        "&:hover": Object {
+          "backgroundColor": "#EF8426",
+        },
+      },
+      "clickableColorSecondary": Object {
+        "&:hover": Object {
+          "backgroundColor": "#EF8426",
+        },
+      },
       "deleteIcon": Object {
         "&:hover": Object {
           "color": "rgba(255, 255, 255, 0.6)",
@@ -143,12 +161,6 @@ Object {
         "& $avatar": Object {
           "backgroundColor": "rgba(255, 255, 255, 0.24)",
           "color": "#FFFFFF",
-        },
-        "&$clickable:focus": Object {
-          "backgroundColor": "rgba(255, 255, 255, 0.16)",
-        },
-        "&$clickable:hover": Object {
-          "backgroundColor": "rgba(255, 255, 255, 0.16)",
         },
         "&$disabled": Object {
           "opacity": 0.4,
@@ -227,7 +239,7 @@ Object {
   },
   "palette": Object {
     "action": Object {
-      "disabled": "rgba(0, 0, 0, .24)",
+      "disabled": "rgba(0, 0, 0, 0.24)",
     },
     "background": Object {
       "default": "#121212",

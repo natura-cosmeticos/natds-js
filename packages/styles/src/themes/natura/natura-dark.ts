@@ -13,6 +13,9 @@ import { sizes } from "../../tokens/sizes";
 
 const { natura } = tokens.colors;
 
+const PRIMARY_LIGHT = "#FEFDE8";
+const PRIMARY_DARK = "#EF8426";
+
 export const naturaDark: ITheme = {
   shape: {
     borderRadius: tokens.radius.medium,
@@ -25,18 +28,18 @@ export const naturaDark: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-      disabled: "rgba(0, 0, 0, .24)"
+      disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
     },
     primary: {
       main: natura.primary.colorBrdNatPrimaryYellow,
-      light: "#FEFDE8",
-      dark: "#EF8426",
+      light: PRIMARY_LIGHT,
+      dark: PRIMARY_DARK,
       contrastText: natura.grayscale.colorBrdNatGray
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
-      light: "#FEFDE8",
-      dark: "#EF8426",
+      light: PRIMARY_LIGHT,
+      dark: PRIMARY_DARK,
       contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
@@ -177,12 +180,24 @@ export const naturaDark: ITheme = {
         "&$disabled": {
           opacity: .4
         },
-        "&$clickable:focus": {
+      },
+      clickable: {
+        "&:hover": {
           backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.16),
         },
-        "&$clickable:hover": {
+        "&:focus": {
           backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.16),
-        },
+        }
+      },
+      clickableColorPrimary: {
+        "&:hover": {
+          backgroundColor: PRIMARY_DARK
+        }
+      },
+      clickableColorSecondary: {
+        "&:hover": {
+          backgroundColor: PRIMARY_DARK
+        }
       },
       outlined: {
         borderColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.12),

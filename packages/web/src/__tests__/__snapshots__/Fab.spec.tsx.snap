@@ -2692,6 +2692,24 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           },
         },
         "MuiChip": Object {
+          "clickable": Object {
+            "&:focus": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.16)",
+            },
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.16)",
+            },
+          },
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
           "deleteIcon": Object {
             "&:hover": Object {
               "color": "rgba(255, 255, 255, 0.6)",
@@ -2747,12 +2765,6 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "& $avatar": Object {
               "backgroundColor": "rgba(255, 255, 255, 0.24)",
               "color": "#FFFFFF",
-            },
-            "&$clickable:focus": Object {
-              "backgroundColor": "rgba(255, 255, 255, 0.16)",
-            },
-            "&$clickable:hover": Object {
-              "backgroundColor": "rgba(255, 255, 255, 0.16)",
             },
             "&$disabled": Object {
               "opacity": 0.4,
@@ -2832,7 +2844,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
       "palette": Object {
         "action": Object {
           "active": "rgba(0, 0, 0, 0.54)",
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
           "disabledBackground": "rgba(0, 0, 0, 0.12)",
           "hover": "rgba(0, 0, 0, 0.08)",
           "hoverOpacity": 0.08,
