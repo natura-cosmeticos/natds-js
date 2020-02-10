@@ -180,6 +180,7 @@ export const naturaDark: ITheme = {
       root: {
         backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.12),
         color: natura.primary.colorBrdNatPrimaryWhite,
+        fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.24),
           color: natura.primary.colorBrdNatPrimaryWhite
