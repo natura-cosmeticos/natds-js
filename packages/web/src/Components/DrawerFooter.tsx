@@ -26,5 +26,5 @@ export default withTheme(DrawerFooter);
 const DrawerFooterComponent = styled.div`
   border-top: ${({ theme }) => (`${theme.palette.divider} 1px solid`)};
   flex: 0 0 auto;
-  padding: ${({ theme }) => (`${theme.sizes.tiny}px ${theme.sizes.tiny}px ${theme.sizes.standard}px`)};
+  padding: ${({ theme }) => (`0 ${theme.sizes.tiny}px ${theme.sizes.small}px`)};
 `;

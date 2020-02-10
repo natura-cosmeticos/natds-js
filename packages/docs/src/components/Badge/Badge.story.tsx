@@ -72,7 +72,7 @@ export const Interactive = () => {
       color={select('color', colors, colors.primary)}
       anchorOrigin={select('anchor origin', anchors, anchors.topright)}
       variant={select('variant', variants, variants.standard)}
-      overlap={select('overlap', overlaps, overlaps.rectangle)}
+      overlap={select('overlap', overlaps, overlaps.circle)}
       badgeContent={text('badge content', '9999')}
       max={number('badge max value', 99)}
       showZero={boolean('show zero value', false)}
