@@ -176,6 +176,7 @@ export const naturaLight: ITheme = {
       root: {
         backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
         color: natura.grayscale.colorBrdNatGray,
+        fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
           color: natura.grayscale.colorBrdNatGray,
