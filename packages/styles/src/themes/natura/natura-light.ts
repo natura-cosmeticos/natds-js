@@ -150,6 +150,11 @@ export const naturaLight: ITheme = {
         }
       }
     },
+    MuiBadge: {
+      badge: {
+        padding: '0 4px'
+      }
+    },
     MuiTab: {
       root: {
         "&$disabled": {

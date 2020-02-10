@@ -114,6 +114,11 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
               "color": "#333333",
             },
           },
+          "MuiBadge": Object {
+            "badge": Object {
+              "padding": "0 4px",
+            },
+          },
           "MuiButton": Object {
             "outlinedPrimary": Object {
               "color": "#333333",
@@ -659,6 +664,11 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
+            },
+          },
+          "MuiBadge": Object {
+            "badge": Object {
+              "padding": "0 4px",
             },
           },
           "MuiButton": Object {
