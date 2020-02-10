@@ -15,6 +15,8 @@ const { natura } = tokens.colors;
 
 const PRIMARY_LIGHT = "#FEFDE8";
 const PRIMARY_DARK = "#EF8426";
+const GRAY_DARK = "#121212";
+const GRAY_LIGHT = "#FAFAFA";
 
 export const naturaDark: ITheme = {
   shape: {
@@ -52,12 +54,12 @@ export const naturaDark: ITheme = {
     },
     background: {
       paper: natura.grayscale.colorBrdNatGray,
-      default: "#121212",
+      default: GRAY_DARK,
       paperContrastText: natura.primary.colorBrdNatPrimaryWhite,
       defaultContrastText: natura.primary.colorBrdNatPrimaryWhite
     },
     text: {
-      primary: "#FAFAFA",
+      primary: GRAY_LIGHT,
       secondary: natura.grayscale.colorBrdNatGray2,
       disabled: natura.grayscale.colorBrdNatGray1,
       hint: natura.grayscale.colorBrdNatGray1
@@ -78,10 +80,10 @@ export const naturaDark: ITheme = {
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: "#FAFAFA"
+        color: GRAY_LIGHT
       },
       outlinedSecondary: {
-        color: "#FAFAFA"
+        color: GRAY_LIGHT
       },
       sizeSmall: {
         fontSize: "0.875rem",
@@ -99,12 +101,12 @@ export const naturaDark: ITheme = {
     },
     MuiAvatar: {
       colorDefault: {
-        color: "#FAFAFA"
+        color: GRAY_LIGHT
       }
     },
     MuiIconButton: {
       root: {
-        color: "#FAFAFA",
+        color: GRAY_LIGHT,
         padding: "8px"
       },
       sizeSmall: {
@@ -150,6 +152,11 @@ export const naturaDark: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.08)
         }
+      }
+    },
+    MuiBadge: {
+      badge: {
+        padding: '0 4px'
       }
     },
     MuiTab: {
