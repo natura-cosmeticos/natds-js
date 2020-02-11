@@ -1,10 +1,13 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme } from '@material-ui/styles';
 import MaterialCard, { CardProps as ICardProps } from '@material-ui/core/Card';
 export { CardProps as ICardProps } from '@material-ui/core/Card';
 
-const Card: FunctionComponent<ICardProps> = (props: ICardProps) => (
-  <MaterialCard {...props} />
-);
+export const Card: FunctionComponent<ICardProps> = forwardRef((
+  props: ICardProps,
+  ref: any
+) => (
+  <MaterialCard {...props} ref={ref} />
+));
 
 export default withTheme(Card);

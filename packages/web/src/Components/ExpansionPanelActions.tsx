@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme } from '@material-ui/styles';
 import MaterialExpansionPanelActions, {
   ExpansionPanelActionsProps as IExpansionPanelActionsProps
@@ -7,9 +7,10 @@ export {
   ExpansionPanelActionsProps as IExpansionPanelActionsProps
 } from '@material-ui/core/ExpansionPanelActions';
 
-export const ExpansionPanelActions: FunctionComponent<IExpansionPanelActionsProps> =
-(props: IExpansionPanelActionsProps) => (
-  <MaterialExpansionPanelActions {...props} />
-);
+export const ExpansionPanelActions: FunctionComponent<IExpansionPanelActionsProps> = forwardRef((
+  props: IExpansionPanelActionsProps,
+  ref: any) => (
+  <MaterialExpansionPanelActions {...props} ref={ref} />
+));
 
 export default withTheme(ExpansionPanelActions);

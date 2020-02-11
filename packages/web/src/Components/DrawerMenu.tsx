@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme, makeStyles } from '@material-ui/core';
 import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
@@ -42,7 +42,10 @@ export interface IDrawerMenuSectionProps extends IDrawerMenuItemProps {
   list?: [IDrawerMenuSectionProps];
 }
 
-export const DrawerMenu: FunctionComponent<IDrawerMenuProps> = (props: IDrawerMenuProps) => {
+export const DrawerMenu: FunctionComponent<IDrawerMenuProps> = forwardRef((
+  props: IDrawerMenuProps,
+  ref: any
+) => {
   const { children, list, theme: providerTheme, component, ...rest } = props;
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
   const StyledList = React.useMemo(() => makeStyles({
@@ -63,13 +66,16 @@ export const DrawerMenu: FunctionComponent<IDrawerMenuProps> = (props: IDrawerMe
   );
 
   return (
-    <DrawerMenuComponent {...rest} as={component}>
+    <DrawerMenuComponent {...rest} as={component} ref={ref}>
       {content}
     </DrawerMenuComponent>
   );
-};
+});
 
-export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = (props: IDrawerMenuSectionProps) => {
+export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = forwardRef((
+  props: IDrawerMenuSectionProps,
+  ref: any
+) => {
   const { onToggle, icon, name, list, theme: providerTheme } = props;
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
   const [opened, toggleSubmenu] = React.useState(props.opened);
@@ -122,7 +128,13 @@ export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = (pr
 
   return (
     <>
-      <ListItem onClick={handleClick} classes={classesItem} selected={opened} component="li" button>
+      <ListItem
+        onClick={handleClick}
+        classes={classesItem}
+        selected={opened}
+        component="li"
+        button
+        ref={ref}>
         {icon && <ListItemIcon classes={classesIcon} children={<Icon name={icon} size="tiny" />} />}
         <ListItemText children={getMenuItemText(props)} />
         <Icon name={listIconName} size="tiny" />
@@ -136,9 +148,12 @@ export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = (pr
       </Collapse>
     </>
   );
-};
+});
 
-export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = (props: IDrawerMenuItemProps) => {
+export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = forwardRef((
+  props: IDrawerMenuItemProps,
+  ref: any
+) => {
   const { onSelect, name, icon, selected, section, theme: providerTheme } = props;
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
@@ -185,12 +200,18 @@ export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = (props: I
   const onClick = onSelect ? { onClick: handleClick } : {};
 
   return (
-    <ListItem {...onClick} classes={classes} selected={selected} component="li" button>
+    <ListItem
+      {...onClick}
+      classes={classes}
+      selected={selected}
+      component="li"
+      button
+      ref={ref}>
       {icon && <ListItemIcon classes={classesIcon} children={<Icon name={icon} size="tiny" />} />}
       <ListItemText children={getMenuItemText(props)} />
     </ListItem>
   );
-};
+});
 
 const BuildDrawerMenuItems = (theme: IThemeWeb | unknown) => (
   (props: IDrawerMenuSectionProps, key: number) => (

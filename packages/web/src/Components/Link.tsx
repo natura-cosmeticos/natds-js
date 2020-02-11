@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import MaterialLink, { LinkProps } from '@material-ui/core/Link';
 import { withTheme } from '@material-ui/core';
 import { IThemeWeb } from 'Themes';
@@ -27,7 +27,10 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
   theme?: IThemeWeb | unknown;
 }
 
-const Link: FunctionComponent<ILinkProps> = (props: ILinkProps) => {
+const Link: FunctionComponent<ILinkProps> = forwardRef((
+  props: ILinkProps,
+  ref: any
+) => {
   const {
     color = 'default',
     theme: providerTheme,
@@ -51,14 +54,16 @@ const Link: FunctionComponent<ILinkProps> = (props: ILinkProps) => {
     };
   }, [theme]);
 
-  return <MaterialLink
-    {...props}
-    color={validColor as any}
-    style={{
-      ...(defaultColor ? colorMap[color] : {}),
-      ...style
-    }}
-  />;
-};
+  const colorStyle = defaultColor ? colorMap[color] : {};
+
+  return (
+    <MaterialLink
+      {...props}
+      color={validColor as any}
+      style={{ ...colorStyle, ...style }}
+      ref={ref}
+    />
+  );
+});
 
 export default withTheme(Link);

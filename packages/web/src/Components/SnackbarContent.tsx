@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import MaterialSnackbarContent, {
   SnackbarContentProps,
 } from '@material-ui/core/SnackbarContent';
@@ -29,8 +29,9 @@ export interface ISnackbarContentProps
   color?: ISnackbarContentColors;
 }
 
-export const SnackbarContent: React.FC<ISnackbarContentProps> = (
-  props: ISnackbarContentProps
+export const SnackbarContent: FunctionComponent<ISnackbarContentProps> = forwardRef((
+  props: ISnackbarContentProps,
+  ref: any
 ) => {
   const { color = 'default', theme: providerTheme, className, ...rest } = props;
 
@@ -71,8 +72,9 @@ export const SnackbarContent: React.FC<ISnackbarContentProps> = (
     <MaterialSnackbarContent
       {...rest}
       className={clsx(classes[color], className)}
+      ref={ref}
     />
   );
-};
+});
 
 export default withTheme(SnackbarContent);

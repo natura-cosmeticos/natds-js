@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import styled from 'styled-components';
 import { withTheme } from '@material-ui/core';
 import { IThemeWeb } from 'Themes';
@@ -10,16 +10,23 @@ export interface IDrawerFooterProps {
   theme: IThemeWeb | unknown;
 }
 
-export const DrawerFooter: FunctionComponent<IDrawerFooterProps> = (props: IDrawerFooterProps) => {
+export const DrawerFooter: FunctionComponent<IDrawerFooterProps> = forwardRef((
+  props: IDrawerFooterProps,
+  ref: any
+) => {
   const { children, component, theme: providerTheme, ...rest } = props;
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
   return (
-    <DrawerFooterComponent as={component} theme={theme} {...rest}>
+    <DrawerFooterComponent
+      as={component}
+      theme={theme}
+      {...rest}
+      ref={ref}>
       {children}
     </DrawerFooterComponent>
   );
-};
+});
 
 export default withTheme(DrawerFooter);
 

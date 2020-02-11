@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme } from '@material-ui/core';
 import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
@@ -25,17 +25,24 @@ const buildContent = ({ primary, secondary, avatarSrc, avatarChildren, theme }: 
   </>
 );
 
-export const DrawerHeader: FunctionComponent<IDrawerHeaderProps> = (props: IDrawerHeaderProps) => {
+export const DrawerHeader: FunctionComponent<IDrawerHeaderProps> = forwardRef((
+  props: IDrawerHeaderProps,
+  ref: any
+) => {
   const { children, component, theme: providerTheme, ...rest } = props;
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
   const content = children || buildContent({ ...props, theme });
 
   return (
-    <DrawerHeaderComponent as={component} theme={theme} {...rest}>
+    <DrawerHeaderComponent
+      as={component}
+      theme={theme}
+      {...rest}
+      ref={ref}>
       {content}
     </DrawerHeaderComponent>
   );
-};
+});
 
 export default withTheme(DrawerHeader);
 

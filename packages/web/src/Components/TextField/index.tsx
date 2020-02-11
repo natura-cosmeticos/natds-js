@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import styled from 'styled-components';
 import { tokens } from '@naturacosmeticos/natds-styles';
 import { withTheme } from '@material-ui/styles';
@@ -9,7 +9,10 @@ import { ITextFieldProps, getProp, getColorByState, stateStyles } from './shared
 
 import Field from './Field';
 
-export const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
+export const TextField: FunctionComponent<ITextFieldProps> = forwardRef((
+  props: ITextFieldProps,
+  ref: any
+) => {
   const {
     id,
     label,
@@ -34,7 +37,7 @@ export const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldP
         disabled={disabled}>
         {content}
       </Label>}
-      <Field {...props} />
+      <Field {...props} ref={ref} />
       {helpText && <HelpText
         theme={theme}
         state={state}
@@ -44,7 +47,7 @@ export const TextField: FunctionComponent<ITextFieldProps> = (props: ITextFieldP
       </HelpText>}
     </Container>
   );
-};
+});
 
 export default withTheme(TextField);
 export { ITextFieldProps } from './shared';
