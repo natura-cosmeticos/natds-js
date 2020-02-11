@@ -161,6 +161,14 @@ Object {
         "fontSize": "0.875rem",
       },
     },
+    "MuiExpansionPanel": Object {
+      "root": Object {
+        "&$expanded": Object {
+          "borderColor": "#F4AB34",
+        },
+        "border": "transparent 1px solid",
+      },
+    },
     "MuiIconButton": Object {
       "root": Object {
         "padding": "8px",

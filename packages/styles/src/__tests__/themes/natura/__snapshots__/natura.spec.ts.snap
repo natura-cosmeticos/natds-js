@@ -175,6 +175,14 @@ Object {
         "fontSize": "0.875rem",
       },
     },
+    "MuiExpansionPanel": Object {
+      "root": Object {
+        "&$expanded": Object {
+          "borderColor": "#F4AB34",
+        },
+        "border": "transparent 1px solid",
+      },
+    },
     "MuiIconButton": Object {
       "root": Object {
         "color": "#FAFAFA",
@@ -549,6 +557,14 @@ Object {
         "backgroundColor": "rgba(0, 0, 0, 0.12)",
         "color": "#333333",
         "fontSize": "0.875rem",
+      },
+    },
+    "MuiExpansionPanel": Object {
+      "root": Object {
+        "&$expanded": Object {
+          "borderColor": "#F4AB34",
+        },
+        "border": "transparent 1px solid",
       },
     },
     "MuiIconButton": Object {

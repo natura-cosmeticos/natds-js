@@ -2779,6 +2779,14 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "fontSize": "0.875rem",
           },
         },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "color": "#FAFAFA",
