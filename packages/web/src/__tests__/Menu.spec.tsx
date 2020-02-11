@@ -4,18 +4,35 @@ import { expect } from 'chai';
 
 import { Menu, MenuItem } from '..';
 
-describe('Menu components', () => {
-  test('should match to snapshot - empty Menu', () => {
-    const component = mount(<Menu open={true} />);
-    expect(component).matchSnapshot('Menu empty snapshot');
-  });
+const Component = () => {
+  const [anchorEl, setAnchorEl] = React.useState(null);
 
-  test('should match to snapshot - with MenuItem', () => {
-    const component = mount(
-      <Menu open={true}>
+  const handleClick = (event: any) => {
+    setAnchorEl(event.currentTarget);
+  };
+
+  return (
+    <>
+      <button onClick={handleClick}>open</button>
+      <Menu open={!!anchorEl} anchorEl={anchorEl}>
         <MenuItem>Test</MenuItem>
       </Menu>
-    );
-    expect(component).matchSnapshot('Menu with MenuItem snapshot');
+    </>
+  );
+};
+
+describe('Menu components', () => {
+  test('should match to snapshot - closed Menu', () => {
+    const component = mount(<Component />);
+
+    expect(component).matchSnapshot('Menu closed snapshot');
+  });
+
+  test('should match to snapshot - opened Menu', () => {
+    const component = mount(<Component />);
+
+    component.find('button').simulate('click');
+
+    expect(component).matchSnapshot('Menu opened snapshot');
   });
 });

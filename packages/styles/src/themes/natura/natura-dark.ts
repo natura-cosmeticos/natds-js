@@ -113,6 +113,14 @@ export const naturaDark: ITheme = {
         padding: "4px"
       }
     },
+    MuiExpansionPanel: {
+      root: {
+        border: `transparent 1px solid`,
+        "&$expanded": {
+          borderColor: natura.primary.colorBrdNatPrimaryYellow
+        }
+      }
+    },
     MuiToolbar: {
       root: {
         padding: "0 16px",
