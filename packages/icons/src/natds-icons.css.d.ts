@@ -87,6 +87,7 @@ declare const styles: {
   readonly "natds-icons-outlined-communication-treatment": string;
   readonly "natds-icons-outlined-content-adddocument": string;
   readonly "natds-icons-outlined-content-agility": string;
+  readonly "natds-icons-outlined-content-bellringing": string;
   readonly "natds-icons-outlined-content-book": string;
   readonly "natds-icons-outlined-content-brightness": string;
   readonly "natds-icons-outlined-content-changeview": string;
@@ -95,14 +96,18 @@ declare const styles: {
   readonly "natds-icons-outlined-content-consistency": string;
   readonly "natds-icons-outlined-content-divulgation": string;
   readonly "natds-icons-outlined-content-education": string;
+  readonly "natds-icons-outlined-content-exchangereports": string;
+  readonly "natds-icons-outlined-content-gallery": string;
   readonly "natds-icons-outlined-content-gift": string;
   readonly "natds-icons-outlined-content-global": string;
   readonly "natds-icons-outlined-content-health": string;
+  readonly "natds-icons-outlined-content-healthy": string;
   readonly "natds-icons-outlined-content-lock": string;
   readonly "natds-icons-outlined-content-magic": string;
   readonly "natds-icons-outlined-content-medal": string;
   readonly "natds-icons-outlined-content-menu": string;
   readonly "natds-icons-outlined-content-mirror": string;
+  readonly "natds-icons-outlined-content-planb": string;
   readonly "natds-icons-outlined-content-produtivity": string;
   readonly "natds-icons-outlined-content-store": string;
   readonly "natds-icons-outlined-content-wifi": string;
