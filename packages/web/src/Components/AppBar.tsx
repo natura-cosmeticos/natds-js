@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import MaterialAppBar, { AppBarProps } from '@material-ui/core/AppBar';
 import { withTheme, makeStyles } from '@material-ui/core/styles';
 import { IThemeWeb } from '../Themes';
@@ -13,7 +13,10 @@ export interface IAppBarProps extends AppBarProps {
 
 const defaultAppBarElevation = 2;
 
-export const AppBar: React.FC<IAppBarProps> = (props:IAppBarProps) => {
+export const AppBar: FunctionComponent<IAppBarProps> = forwardRef((
+  props: Omit<IAppBarProps, 'translate'>,
+  ref: any
+) => {
   const {
     elevation,
     theme: providerTheme,
@@ -35,7 +38,8 @@ export const AppBar: React.FC<IAppBarProps> = (props:IAppBarProps) => {
     {...props}
     classes={{...customClasses, ...classes}}
     elevation={!elevation && elevation !== 0 ? defaultAppBarElevation : elevation}
+    ref={ref}
   />;
-};
+});
 
 export default withTheme(AppBar);

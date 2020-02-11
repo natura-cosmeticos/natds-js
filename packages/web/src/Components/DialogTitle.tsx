@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme } from '@material-ui/styles';
 import MaterialDialogTitle, {
   DialogTitleProps as IDialogTitleProps,
@@ -7,8 +7,11 @@ export {
   DialogTitleProps as IDialogTitleProps,
 } from '@material-ui/core/DialogTitle';
 
-export const DialogTitle: FunctionComponent<IDialogTitleProps> = (
-  props: IDialogTitleProps
-) => <MaterialDialogTitle {...props} />;
+export const DialogTitle: FunctionComponent<IDialogTitleProps> = forwardRef((
+  props: IDialogTitleProps,
+  ref: any
+) => (
+  <MaterialDialogTitle {...props} ref={ref} />
+));
 
 export default withTheme(DialogTitle);

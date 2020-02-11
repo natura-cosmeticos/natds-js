@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import MaterialBottomNavigationAction, { BottomNavigationActionProps } from '@material-ui/core/BottomNavigationAction';
 import { withTheme, makeStyles } from '@material-ui/core/styles';
 import { getDefaultTheme } from './shared';
@@ -11,8 +11,10 @@ export interface IBottomNavigationActionProps extends BottomNavigationActionProp
   theme?: IThemeWeb | unknown;
 }
 
-
-export const BottomNavigationAction: React.FC<IBottomNavigationActionProps> = (props: IBottomNavigationActionProps) => {
+export const BottomNavigationAction: FunctionComponent<IBottomNavigationActionProps> = forwardRef((
+  props: IBottomNavigationActionProps,
+  ref: any
+) => {
   const {
     theme: providerTheme
   } = props;
@@ -39,7 +41,7 @@ export const BottomNavigationAction: React.FC<IBottomNavigationActionProps> = (p
 
   const classes = useStyles();
 
-  return <MaterialBottomNavigationAction {...props} classes={classes} />;
-};
+  return <MaterialBottomNavigationAction {...props} classes={classes} ref={ref} />;
+});
 
 export default withTheme(BottomNavigationAction);

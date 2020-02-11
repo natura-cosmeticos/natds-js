@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import styled from 'styled-components';
 import { withTheme } from '@material-ui/core/styles';
 
@@ -47,7 +47,10 @@ export interface IContextualBadgeProps {
   children?: React.ReactNode;
 }
 
-export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (props: IContextualBadgeProps) => {
+export const ContextualBadge: FunctionComponent<IContextualBadgeProps> = forwardRef((
+  props: IContextualBadgeProps,
+  ref: any
+) => {
   const {
     theme: providerTheme,
     color = 'primary',
@@ -131,12 +134,13 @@ export const ContextualBadge: React.FunctionComponent<IContextualBadgeProps> = (
       borderRadius={constraints.borderRadius}
       style={style}
       className={classes}
+      ref={ref}
       {...rest}
     >
       {props.children}
     </Container>
   );
-};
+});
 
 interface IContainerProps {
   backgroundColor: string;

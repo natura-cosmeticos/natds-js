@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useState, forwardRef } from 'react';
 import { withTheme } from '@material-ui/core';
 import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
@@ -10,7 +10,10 @@ export interface IDrawerBodyProps {
   theme: IThemeWeb | unknown;
 }
 
-export const DrawerBody: FunctionComponent<IDrawerBodyProps> = (props: IDrawerBodyProps) => {
+export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
+  props: IDrawerBodyProps,
+  ref: any
+) => {
   const { children, component, theme: providerTheme, ...rest } = props;
   const [scrolled, setScrolled] = useState(false);
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
@@ -22,6 +25,7 @@ export const DrawerBody: FunctionComponent<IDrawerBodyProps> = (props: IDrawerBo
       scrolled={scrolled}
       as={component}
       theme={theme}
+      ref={ref}
       {...rest}>
       <DrawerBodyScrollComponent
         onScroll={handleScrolled}
@@ -30,7 +34,7 @@ export const DrawerBody: FunctionComponent<IDrawerBodyProps> = (props: IDrawerBo
       </DrawerBodyScrollComponent>
     </DrawerBodyComponent>
   );
-};
+});
 
 export default withTheme(DrawerBody);
 

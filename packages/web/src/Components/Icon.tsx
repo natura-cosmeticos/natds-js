@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import styled from 'styled-components';
 import { withTheme } from '@material-ui/styles';
 import { IIconSizes } from '@naturacosmeticos/natds-styles';
@@ -13,7 +13,10 @@ export interface IIconProps {
   theme: IThemeWeb | unknown;
 }
 
-export const Icon: FunctionComponent<IIconProps> = (props: IIconProps) => {
+export const Icon: FunctionComponent<IIconProps> = forwardRef((
+  props: IIconProps,
+  ref: any
+) => {
   const { name, theme, size, className: receivedClassName, ...rest } = props;
   const className = `natds-icons natds-icons-${String(name)} ${receivedClassName}`;
 
@@ -23,9 +26,10 @@ export const Icon: FunctionComponent<IIconProps> = (props: IIconProps) => {
       theme={theme}
       size={size}
       {...rest}
+      ref={ref}
     />
   );
-};
+});
 
 export default withTheme(Icon);
 

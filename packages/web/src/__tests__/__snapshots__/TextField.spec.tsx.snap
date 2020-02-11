@@ -422,7 +422,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default focus): TextField default focus snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -805,7 +805,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default hover): TextField default hover snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -1692,7 +1692,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled focus): TextField disabled focus snapshot 1`] = `
-<Component
+<ForwardRef
   disabled={true}
   helpText="Assistive text"
   id="field"
@@ -2076,7 +2076,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled hover): TextField disabled hover snapshot 1`] = `
-<Component
+<ForwardRef
   disabled={true}
   helpText="Assistive text"
   id="field"
@@ -2639,7 +2639,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error focus): TextField error focus snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -3023,7 +3023,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error hover): TextField error hover snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -3977,7 +3977,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled focus): TextField filled focus snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -4361,7 +4361,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled hover): TextField filled hover snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -6198,7 +6198,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success focus): TextField success focus snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -6582,7 +6582,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success hover): TextField success hover snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"

@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import MaterialAvatar, { AvatarProps as MaterialAvatarProps } from '@material-ui/core/Avatar';
 import { withTheme } from '@material-ui/styles';
 import { IAvatarSizes } from '@naturacosmeticos/natds-styles';
@@ -23,15 +23,18 @@ export interface IAvatarProps extends MaterialAvatarProps {
   theme: IThemeWeb | unknown;
 }
 
-export const Avatar: FunctionComponent<IAvatarProps> = (props: IAvatarProps) => {
+export const Avatar: FunctionComponent<IAvatarProps> = forwardRef((
+  props: IAvatarProps,
+  ref: any
+) => {
   const style = {
     ...withSizes(props.size, props.theme),
     ...withColors(props.color, props.theme),
     ...props.style
   };
 
-  return <MaterialAvatar {...props} style={style} />;
-};
+  return <MaterialAvatar {...props} style={style} ref={ref} />;
+});
 
 function withSizes(size: AvatarSizes | undefined, theme: any = {}) {
   if (!size) return {};
