@@ -1493,8 +1493,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                       <div
                                         className="MuiDialogActions-root MuiDialogActions-spacing"
                                       >
-                                        <WithTheme(Component)>
-                                          <Component>
+                                        <WithTheme(ForwardRef)>
+                                          <ForwardRef>
                                             <WithStyles(ForwardRef(Button))>
                                               <ForwardRef(Button)
                                                 classes={
@@ -1611,8 +1611,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                                 </WithStyles(ForwardRef(ButtonBase))>
                                               </ForwardRef(Button)>
                                             </WithStyles(ForwardRef(Button))>
-                                          </Component>
-                                        </WithTheme(Component)>
+                                          </ForwardRef>
+                                        </WithTheme(ForwardRef)>
                                       </div>
                                     </ForwardRef(DialogActions)>
                                   </WithStyles(ForwardRef(DialogActions))>
@@ -2657,8 +2657,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       <div
                                         className="MuiDialogActions-root MuiDialogActions-spacing"
                                       >
-                                        <WithTheme(Component)>
-                                          <Component>
+                                        <WithTheme(ForwardRef)>
+                                          <ForwardRef>
                                             <WithStyles(ForwardRef(Button))>
                                               <ForwardRef(Button)
                                                 classes={
@@ -2775,8 +2775,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                 </WithStyles(ForwardRef(ButtonBase))>
                                               </ForwardRef(Button)>
                                             </WithStyles(ForwardRef(Button))>
-                                          </Component>
-                                        </WithTheme(Component)>
+                                          </ForwardRef>
+                                        </WithTheme(ForwardRef)>
                                       </div>
                                     </ForwardRef(DialogActions)>
                                   </WithStyles(ForwardRef(DialogActions))>

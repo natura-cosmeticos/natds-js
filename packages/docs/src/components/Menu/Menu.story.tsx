@@ -21,34 +21,54 @@ export default {
   }
 };
 
+const Item = React.forwardRef((props: any, ref: any) => {
+  const { selected, handleItemClick, button, children } = props;
+
+  return (
+    <MenuItem
+      ref={ref}
+      data-key={children}
+      selected={selected === children}
+      onClick={handleItemClick}
+      button={button}>
+      {children}
+    </MenuItem>
+  );
+});
+
 export const Interactive = () => {
   const [anchorEl, setAnchorEl] = React.useState(null);
+  const [selected, setSelected] = React.useState(null);
 
-  const handleClick = (event: any) => {
+  const handleButtonClick = (event: any) => {
     setAnchorEl(event.currentTarget);
   };
 
-  const handleClose = () => {
+  const handleItemClick = (event: any) => {
+    const selectedItem = event.target.dataset.key;
+    const newSelected = selected !== selectedItem ? selectedItem : null;
+    setSelected(newSelected);
     setAnchorEl(null);
   };
 
   const button = boolean('button', true);
 
+  const itemProps = {
+    button, selected, handleItemClick
+  };
+
   return (
     <div>
-      <Button aria-controls="simple-menu" aria-haspopup="true" onClick={handleClick}>
-        Open Menu
-      </Button>
+      <Button onClick={handleButtonClick}>Open Menu</Button>
       <Menu
-        id="simple-menu"
-        anchorEl={anchorEl}
         keepMounted
+        anchorEl={anchorEl}
         open={Boolean(anchorEl)}
-        onClose={handleClose}
+        onClose={handleItemClick}
       >
-        <MenuItem onClick={handleClose} button={button}>Profile</MenuItem>
-        <MenuItem onClick={handleClose} button={button}>My account</MenuItem>
-        <MenuItem onClick={handleClose} button={button}>Logout</MenuItem>
+        <Item {...itemProps}>Profile</Item>
+        <Item {...itemProps}>My account</Item>
+        <Item {...itemProps}>Logout</Item>
       </Menu>
     </div>
   );

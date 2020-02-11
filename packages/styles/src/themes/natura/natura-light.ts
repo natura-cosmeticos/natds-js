@@ -146,7 +146,7 @@ export const naturaLight: ITheme = {
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.08)
+          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
         }
       }
     },
