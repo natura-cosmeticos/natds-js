@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Menu components should match to snapshot - empty Menu: Menu empty snapshot 1`] = `
-<WithTheme(Menu)
+<WithTheme(ForwardRef)
   open={true}
 >
-  <Menu
+  <ForwardRef
     open={true}
   >
     <WithStyles(ForwardRef(Menu))
@@ -333,15 +333,15 @@ exports[`Menu components should match to snapshot - empty Menu: Menu empty snaps
         </WithStyles(ForwardRef(Popover))>
       </ForwardRef(Menu)>
     </WithStyles(ForwardRef(Menu))>
-  </Menu>
-</WithTheme(Menu)>
+  </ForwardRef>
+</WithTheme(ForwardRef)>
 `;
 
 exports[`Menu components should match to snapshot - with MenuItem: Menu with MenuItem snapshot 1`] = `
-<WithTheme(Menu)
+<WithTheme(ForwardRef)
   open={true}
 >
-  <Menu
+  <ForwardRef
     open={true}
   >
     <WithStyles(ForwardRef(Menu))
@@ -687,12 +687,12 @@ exports[`Menu components should match to snapshot - with MenuItem: Menu with Men
                                         role="menu"
                                         tabIndex={-1}
                                       >
-                                        <WithTheme(MenuItem)
+                                        <WithTheme(ForwardRef)
                                           autoFocus={true}
                                           key=".$.0"
                                           tabIndex={0}
                                         >
-                                          <MenuItem
+                                          <ForwardRef
                                             autoFocus={true}
                                             tabIndex={0}
                                           >
@@ -760,8 +760,8 @@ exports[`Menu components should match to snapshot - with MenuItem: Menu with Men
                                                 </WithStyles(ForwardRef(ListItem))>
                                               </ForwardRef(MenuItem)>
                                             </WithStyles(ForwardRef(MenuItem))>
-                                          </MenuItem>
-                                        </WithTheme(MenuItem)>
+                                          </ForwardRef>
+                                        </WithTheme(ForwardRef)>
                                       </ul>
                                     </ForwardRef(List)>
                                   </WithStyles(ForwardRef(List))>
@@ -784,6 +784,6 @@ exports[`Menu components should match to snapshot - with MenuItem: Menu with Men
         </WithStyles(ForwardRef(Popover))>
       </ForwardRef(Menu)>
     </WithStyles(ForwardRef(Menu))>
-  </Menu>
-</WithTheme(Menu)>
+  </ForwardRef>
+</WithTheme(ForwardRef)>
 `;
