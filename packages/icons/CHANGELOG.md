@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.3.3](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.3.2...@naturacosmeticos/natds-icons@0.3.3) (2020-02-13)
+
+
+### Bug Fixes
+
+* **icons:** fixing new icon name case ([9a1ba0a](https://github.com/natura-cosmeticos/natds/commit/9a1ba0ac366bbc47632bba12c8431be794829fe2))
+
+
+
+
+
 ## [0.3.2](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.3.1...@naturacosmeticos/natds-icons@0.3.2) (2020-02-13)
 
 
