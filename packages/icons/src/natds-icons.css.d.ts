@@ -81,7 +81,7 @@ declare const styles: {
   readonly "natds-icons-outlined-communication-help": string;
   readonly "natds-icons-outlined-communication-message": string;
   readonly "natds-icons-outlined-communication-occurrence": string;
-  readonly "natds-icons-outlined-communication-readEmail": string;
+  readonly "natds-icons-outlined-communication-reademail": string;
   readonly "natds-icons-outlined-communication-signal": string;
   readonly "natds-icons-outlined-communication-speaker": string;
   readonly "natds-icons-outlined-communication-treatment": string;
