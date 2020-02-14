@@ -22,12 +22,12 @@
   },
   "scripts": {
     "test:packages": "cd ../web && yarn test:unit:generate",
-    "build": "build-storybook -o dist --docs",
+    "build": "build-storybook -o dist",
     "start": "start-storybook -p 5000",
     "deploy": "storybook-to-ghpages --source-branch=HEAD --out=dist",
     "deploy:local": "yarn deploy --dry-run",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "test:build": "build-storybook -o dist-test --quiet --docs && rm -rf dist-test",
+    "test:build": "build-storybook -o dist-test --quiet && rm -rf dist-test",
     "verify": "yarn lint && yarn test:build",
     "verify:ci": "yarn verify"
   },

@@ -2,7 +2,7 @@ import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme } from '@material-ui/styles';
 import MaterialTypography, { TypographyClassKey, TypographyProps } from '@material-ui/core/Typography';
 
-type TypographyVariant =
+export type TypographyVariant =
   | 'h1'
   | 'h2'
   | 'h3'
