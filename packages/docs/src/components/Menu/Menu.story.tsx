@@ -22,7 +22,7 @@ export default {
 };
 
 const Item = React.forwardRef((props: any, ref: any) => {
-  const { selected, handleItemClick, button, children } = props;
+  const { selected, handleItemClick, button, children, ...rest } = props;
 
   return (
     <MenuItem
@@ -30,7 +30,8 @@ const Item = React.forwardRef((props: any, ref: any) => {
       data-key={children}
       selected={selected === children}
       onClick={handleItemClick}
-      button={button}>
+      button={button}
+      {...rest}>
       {children}
     </MenuItem>
   );
@@ -66,7 +67,7 @@ export const Interactive = () => {
         open={Boolean(anchorEl)}
         onClose={handleItemClick}
       >
-        <Item {...itemProps}>Profile</Item>
+        <Item {...itemProps} disabled>Profile</Item>
         <Item {...itemProps}>My account</Item>
         <Item {...itemProps}>Logout</Item>
       </Menu>

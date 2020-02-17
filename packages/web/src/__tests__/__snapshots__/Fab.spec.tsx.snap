@@ -2805,7 +2805,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, 0.08)",
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
               },
               "background": "rgba(255, 107, 11, 0.16)",
             },
