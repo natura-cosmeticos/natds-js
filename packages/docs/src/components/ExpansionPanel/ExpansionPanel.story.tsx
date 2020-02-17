@@ -48,7 +48,6 @@ const useStyles = makeStyles(theme => ({
 export const Interactive = () => {
   const classes = useStyles();
   const disabled = boolean('disabled', false);
-  const disableSpacing = boolean('disable action spacing', false);
 
   return (
     <div className={classes.root}>

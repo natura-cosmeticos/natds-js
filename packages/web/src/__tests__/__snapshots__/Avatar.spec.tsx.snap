@@ -190,9 +190,12 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, 0.08)",
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
               },
-              "background": "rgba(255, 107, 11, 0.16)",
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
+            },
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -596,9 +599,12 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, 0.08)",
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
               },
-              "background": "rgba(255, 107, 11, 0.16)",
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
+            },
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -1002,9 +1008,12 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, 0.08)",
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
               },
-              "background": "rgba(255, 107, 11, 0.16)",
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
+            },
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -1410,9 +1419,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, 0.08)",
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
               },
-              "background": "rgba(255, 107, 11, 0.16)",
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
+            },
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -1818,9 +1830,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, 0.08)",
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
               },
-              "background": "rgba(255, 107, 11, 0.16)",
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
+            },
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -2226,9 +2241,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, 0.08)",
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
               },
-              "background": "rgba(255, 107, 11, 0.16)",
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
+            },
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -2634,9 +2652,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, 0.08)",
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
               },
-              "background": "rgba(255, 107, 11, 0.16)",
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
+            },
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -3042,9 +3063,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "root": Object {
             "&$selected": Object {
               "&:hover": Object {
-                "background": "rgba(255, 107, 11, 0.08)",
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
               },
-              "background": "rgba(255, 107, 11, 0.16)",
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
+            },
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
