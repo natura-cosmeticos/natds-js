@@ -118,7 +118,17 @@ export const naturaDark: ITheme = {
         border: `transparent 1px solid`,
         "&$expanded": {
           borderColor: natura.primary.colorBrdNatPrimaryYellow
+        },
+        "&$disabled": {
+          backgroundColor: natura.grayscale.colorBrdNatGray,
+          opacity: 0.32
         }
+      }
+    },
+    MuiExpansionPanelSummary: {
+      root: {
+        alignItems: 'flex-start',
+        marginTop: '8px'
       }
     },
     MuiToolbar: {
