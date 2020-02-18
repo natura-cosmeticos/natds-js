@@ -26,6 +26,16 @@ const variants: any = {
   inherit: 'inherit'
 };
 
+const color: any = {
+  initial: 'initial',
+  inherit: 'inherit',
+  primary: 'primary',
+  secondary: 'secondary',
+  textPrimary: 'textPrimary',
+  textSecondary: 'textSecondary',
+  error: 'error'
+};
+
 export default {
   title: 'Components|Intro',
   component: Intro,
@@ -62,8 +72,10 @@ export const Interactive = () => {
       style={{ width: text('size', '600px') }}
       title={withIcon ? <IconWithTitle /> : title}
       titleVariant={select('title variant', variants, variants.subtitle1)}
+      titleColor={select('title color', color, color.textPrimary)}
       detail={text('detail', 'Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut quam non libero placerat placerat id vel nunc. Etiam scelerisque urna vitae dignissim auctor.')}
       detailVariant={select('detail variant', variants, variants.body2)}
+      detailColor={select('detail color', color, color.textPrimary)}
     />
   );
 };

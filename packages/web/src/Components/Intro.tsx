@@ -1,7 +1,7 @@
 import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme } from '@material-ui/styles';
 import styled from 'styled-components';
-import { Typography, TypographyVariant } from './Typography';
+import { Typography, TypographyVariant, TypographyColor } from './Typography';
 import { IThemeWeb } from 'Themes';
 
 export interface IIntroProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'title'> {
@@ -23,6 +23,14 @@ export interface IIntroProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 
    */
   detailVariant?: TypographyVariant;
   /**
+   * Color of the Title
+   */
+  titleColor?: TypographyColor;
+  /**
+   * Variant of the Detail
+   */
+  detailColor?: TypographyColor;
+  /**
    * The component used for the title node. Either a string to use a DOM element or a component. 
    */
   titleComponent?: React.ElementType<React.HTMLAttributes<HTMLElement>>;
@@ -41,9 +49,11 @@ export const Intro: FunctionComponent<IIntroProps> = forwardRef((
     title,
     titleComponent,
     titleVariant = 'subtitle1',
+    titleColor = 'textPrimary',
     detail,
     detailComponent,
-    detailVariant,
+    detailVariant = 'body2',
+    detailColor = 'textPrimary',
     ...rest
   } = props;
 
@@ -55,6 +65,7 @@ export const Intro: FunctionComponent<IIntroProps> = forwardRef((
         children={title}
         component={titleComponent}
         variant={titleVariant}
+        color={titleColor}
       />
       {detail && <IntroDetails
         as={Typography} 
@@ -62,6 +73,7 @@ export const Intro: FunctionComponent<IIntroProps> = forwardRef((
         children={detail}
         component={detailComponent}
         variant={detailVariant}
+        color={detailColor}
       />}
     </IntroContainer>
   );
