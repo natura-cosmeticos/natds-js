@@ -19,7 +19,7 @@ export type TypographyVariant =
 
 type TypographyAlign = 'inherit' | 'left' | 'center' | 'right' | 'justify';
 
-type TypographyColor =
+export type TypographyColor =
   | 'initial'
   | 'inherit'
   | 'primary'

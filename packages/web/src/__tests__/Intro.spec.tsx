@@ -23,6 +23,16 @@ const variants: any = {
   inherit: 'inherit'
 };
 
+const colors: any = {
+  initial: 'initial',
+  inherit: 'inherit',
+  primary: 'primary',
+  secondary: 'secondary',
+  textPrimary: 'textPrimary',
+  textSecondary: 'textSecondary',
+  error: 'error'
+};
+
 const theme = themes.natura.light;
 
 const TitleWithIcon = () => (
@@ -57,6 +67,18 @@ describe('Intro component', () => {
     test(`should match snapshot - Any valid Intro with ${variant} detailVariant`, () => {
       const component = renderer.create(<Intro detail="detail" detailVariant={variant as any} title="title" theme={theme} />).toJSON();
       expect(component).matchSnapshot(`Intro snapshot - with ${variant} detailVariant`);
+    });
+  });
+
+  Object.keys(colors).forEach((color: string) => {
+    test(`should match snapshot - Any valid Intro with ${color} titleColor`, () => {
+      const component = renderer.create(<Intro titleColor={color as any} title="title" theme={theme} />).toJSON();
+      expect(component).matchSnapshot(`Intro snapshot - with ${color} titleColor`);
+    });
+
+    test(`should match snapshot - Any valid Intro with ${color} detailColor`, () => {
+      const component = renderer.create(<Intro detail="detail" detailColor={color as any} title="title" theme={theme} />).toJSON();
+      expect(component).matchSnapshot(`Intro snapshot - with ${color} detailColor`);
     });
   });
 });
