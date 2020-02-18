@@ -202,9 +202,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -599,9 +602,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -1003,9 +1009,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -1407,9 +1416,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -1804,9 +1816,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -2208,9 +2223,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -2612,9 +2630,12 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -3009,9 +3030,12 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -3413,9 +3437,12 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -3817,9 +3844,12 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -4214,9 +4244,12 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -4618,9 +4651,12 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -5022,9 +5058,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -5419,9 +5458,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -5823,9 +5865,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -6227,9 +6272,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -6624,9 +6672,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -7028,9 +7079,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -7432,9 +7486,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -7829,9 +7886,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -8233,9 +8293,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -8637,9 +8700,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -9034,9 +9100,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -9438,9 +9507,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -9842,9 +9914,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -10239,9 +10314,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -10643,9 +10721,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -11047,9 +11128,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -11444,9 +11528,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -11848,9 +11935,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -12252,9 +12342,12 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -12649,9 +12742,12 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -13053,9 +13149,12 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -13457,9 +13556,12 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -13854,9 +13956,12 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -14258,9 +14363,12 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -14662,9 +14770,12 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -15059,9 +15170,12 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -15463,9 +15577,12 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -15867,9 +15984,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -16264,9 +16384,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -16668,9 +16791,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -17072,9 +17198,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -17469,9 +17598,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -17873,9 +18005,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -18277,9 +18412,12 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -18674,9 +18812,12 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -19078,9 +19219,12 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },
@@ -19486,9 +19630,12 @@ exports[`Intro component should match snapshot - Intro with title and without de
             "root": Object {
               "&$selected": Object {
                 "&:hover": Object {
-                  "background": "rgba(255, 107, 11, 0.08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
-                "background": "rgba(255, 107, 11, 0.16)",
+                "backgroundColor": "rgba(255, 107, 11, 0.16)",
+              },
+              "&.Mui-disabled": Object {
+                "opacity": 0.32,
               },
             },
           },

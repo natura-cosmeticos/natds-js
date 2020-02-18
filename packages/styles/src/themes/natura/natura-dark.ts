@@ -162,7 +162,7 @@ export const naturaDark: ITheme = {
         "&$selected": {
           background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
           "&:hover": {
-            background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.08)
+            backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
           }
         },
       },

@@ -156,10 +156,13 @@ export const naturaLight: ITheme = {
     MuiListItem: {
       root: {
         "&$selected": {
-          background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
+          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
           "&:hover": {
-            background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.08)
+            backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
           }
+        },
+        '&.Mui-disabled': {
+          opacity: 0.32
         },
       },
       button: {
