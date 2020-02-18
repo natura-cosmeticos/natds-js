@@ -2781,10 +2781,20 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         },
         "MuiExpansionPanel": Object {
           "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#333333",
+              "opacity": 0.32,
+            },
             "&$expanded": Object {
               "borderColor": "#F4AB34",
             },
             "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
           },
         },
         "MuiIconButton": Object {

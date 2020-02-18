@@ -2,17 +2,15 @@ import * as React from 'react';
 import { makeStyles } from '@material-ui/core/styles';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import { boolean } from '@storybook/addon-knobs';
+import { boolean, number } from '@storybook/addon-knobs';
 import {
   Button,
-  Chip,
   Divider,
   ExpansionPanel,
   ExpansionPanelActions,
   ExpansionPanelDetails,
   ExpansionPanelSummary,
   Icon,
-  Link,
   Typography
 } from '@naturacosmeticos/natds-web';
 import ExpansionPanelDocs from './ExpansionPanel.docs.mdx';
@@ -35,56 +33,82 @@ export default {
 
 const useStyles = makeStyles(theme => ({
   root: {
-    width: '800px',
+    width: '920px',
+  },
+  row: {
+    flexFlow: 'row wrap',
+  },
+  title: {
+    flex: '2 1 0',
   },
   details: {
-    alignItems: 'center',
+    flex: '3 1 0',
   },
-  column: {
-    flexBasis: '33.33%',
-  },
+  rowTitle: {
+    marginBottom: '16px'
+  }
 }));
 
 export const Interactive = () => {
   const classes = useStyles();
-  const disabled = boolean('disabled', false);
-  const disableSpacing = boolean('disable action spacing', false);
+  const elevation = number('elevation', 0);
+  const disableSpacing = boolean('disableSpacing', false);
 
   return (
     <div className={classes.root}>
-      <ExpansionPanel>
+      <ExpansionPanel elevation={elevation}>
         <ExpansionPanelSummary expandIcon={<Icon name="outlined-navigation-arrowbottom" size="small" />}>
-          <Typography variant="body1">Simple</Typography>
+          <Typography variant="subtitle1">Subtitle 1</Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails className={classes.details}>
-          <Typography variant="caption">Content</Typography>
+        <ExpansionPanelDetails>
+          <Typography variant="subtitle1" color="textSecondary">Details text lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget</Typography>
         </ExpansionPanelDetails>
       </ExpansionPanel>
-      <ExpansionPanel
-        disabled={disabled}>
+
+      <ExpansionPanel elevation={elevation}>
         <ExpansionPanelSummary expandIcon={<Icon name="outlined-navigation-arrowbottom" size="small" />}>
-          <Typography variant="body1">Custom</Typography>
+          <Typography variant="subtitle1" className={classes.title}>Subtitle 1</Typography>
+          <Typography variant="subtitle1" color="textSecondary" className={classes.details}>Legend text lorem ipsum dolor sit amet, consectetur adipiscing elit.</Typography>
         </ExpansionPanelSummary>
-        <ExpansionPanelDetails className={classes.details}>
-          <div className={classes.column}>
-            <Typography variant="body2">Content</Typography>
+        <ExpansionPanelDetails>
+          <Typography variant="subtitle1" color="textSecondary">Details text lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget</Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel elevation={elevation}>
+        <ExpansionPanelSummary expandIcon={<Icon name="outlined-navigation-arrowbottom" size="small" />}>
+          <Typography variant="subtitle1" className={classes.title}>Subtitle 1</Typography>
+          <Typography variant="subtitle1" color="textSecondary" className={classes.details}>Legend text lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails className={classes.column}>
+          <Typography variant="subtitle1" color="textPrimary">Content text lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget</Typography>
+        </ExpansionPanelDetails>
+      </ExpansionPanel>
+
+      <ExpansionPanel elevation={elevation}>
+        <ExpansionPanelSummary expandIcon={<Icon name="outlined-navigation-arrowbottom" size="small" />}>
+          <div className={classes.row}>
+            <Typography variant="subtitle1" className={classes.rowTitle}>Subtitle 1</Typography>
+            <Typography variant="subtitle1" color="textSecondary">Legend text lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget.</Typography>
           </div>
-          <div className={classes.column}>
-            <Chip label="Barbados" onDelete={() => { }} />
-          </div>
-          <div className={classes.column}>
-            <Typography variant="caption">
-              Select your destination of choice
-              <br />
-              <Link href="#secondary-heading-and-columns">Learn more</Link>
-            </Typography>
-          </div>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography variant="subtitle1" color="textPrimary">Content text lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget</Typography>
         </ExpansionPanelDetails>
         <Divider />
-        <ExpansionPanelActions>
+        <ExpansionPanelActions disableSpacing={disableSpacing}>
           <Button size="small">Cancel</Button>
-          <Button size="small" color="primary">Save</Button>
+          <Button size="small" color="primary" variant="contained">Save</Button>
         </ExpansionPanelActions>
+      </ExpansionPanel>
+
+      <ExpansionPanel disabled elevation={elevation}>
+        <ExpansionPanelSummary expandIcon={<Icon name="outlined-navigation-arrowbottom" size="small" />}>
+          <Typography variant="subtitle1">Subtitle 1</Typography>
+        </ExpansionPanelSummary>
+        <ExpansionPanelDetails>
+          <Typography variant="subtitle1" color="textSecondary">Details text lorem ipsum dolor sit amet, consectetur adipiscing elit. Suspendisse malesuada lacus ex, sit amet blandit leo lobortis eget</Typography>
+        </ExpansionPanelDetails>
       </ExpansionPanel>
     </div>
   );
