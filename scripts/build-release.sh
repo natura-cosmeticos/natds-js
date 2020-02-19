@@ -31,7 +31,11 @@ git checkout .
 
 git checkout master-docs
 
+cd scripts
+
 node helpers/addVersionOnConfig.js $VERSION
+
+cd ..
 
 cp -r ${TRAVIS_BUILD_DIR}/../tmp/v${VERSION} packages/docs/dist/releases
 
