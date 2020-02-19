@@ -116,15 +116,31 @@ export const naturaLight: ITheme = {
           borderColor: natura.primary.colorBrdNatPrimaryYellow
         },
         "&$disabled": {
-          backgroundColor: natura.primary.colorBrdNatPrimaryWhite,
-          opacity: 0.32
+          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.32),
         }
       },
     },
     MuiExpansionPanelSummary: {
       root: {
         alignItems: 'flex-start',
-        marginTop: '8px'
+        marginTop: '8px',
+        "&$disabled": {
+          opacity: 0.32
+        }
+      }
+    },
+    MuiExpansionPanelActions: {
+      root: {
+        "&$disabled": {
+          opacity: 0.32
+        }
+      }
+    },
+    MuiExpansionPanelContent: {
+      root: {
+        "&$disabled": {
+          opacity: 0.32
+        }
       }
     },
     MuiToolbar: {
