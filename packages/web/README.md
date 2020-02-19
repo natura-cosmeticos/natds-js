@@ -2,8 +2,8 @@
 
 Natura Design System - Web Components
 
-![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds.svg)
-[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds?targetFile=package.json)
+![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
+[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
 ---
 
@@ -21,7 +21,7 @@ yarn add @naturacosmeticos/natds-web
 
 ## Usage
 
-```sh
+```jsx highlight-line="2"
 import { Chip, Provider, themes } from '@naturacosmeticos/natds-web'
 
 const { natura } = themes;
@@ -46,9 +46,7 @@ An example for importing `Roboto`, one of our main fonts, straight from google's
 
 ```css
 /* CSS */
-<style>
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-</style>
 ```
 
 ---
