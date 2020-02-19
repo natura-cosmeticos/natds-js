@@ -7,47 +7,33 @@ cd scripts
 
 NEW_VERSION=`node helpers/buildVersion.js $VERSION`
 
+VERSION_WO_ALPHA=`node helpers/removeAlphaFromVersion.js ${NEW_VERSION}`
+
 cd ..
 
 yarn build:libs
 
 yarn lerna run test:ci
 
-cd packages/docs
+cd $TRAVIS_BUILD_DIR
 
-rm -rf "dist/releases/v${NEW_VERSION}"
+mkdir -p ../tmp
 
-yarn build -o "dist/releases/v${NEW_VERSION}" --quiet
+cd $TRAVIS_BUILD_DIR/packages/docs
 
-TEST_RESULT_FILENAME=".jest-test-results.json"
+yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${NEW_VERSION}" --quiet
 
-PACKAGES=("styles" "web")
+cd $TRAVIS_BUILD_DIR
 
-for package in "${PACKAGES[@]}"
-do
-  git checkout ../$package/$TEST_RESULT_FILENAME || true
-done
-
-cd ../../scripts
-
-VERSION_WO_ALPHA=`node helpers/removeAlphaFromVersion.js ${NEW_VERSION}`
-
-git remote rm origin
-# This remote is using a contributor account and an OAuth key from github
-# Adapted from https://stackoverflow.com/questions/23277391/how-to-publish-to-github-pages-from-travis-ci
-git remote add origin https://$GITHUB_API_USER:$GITHUB_API_KEY@github.com/natura-cosmeticos/natds-js
-
-git fetch
-
-git add --all
-
-git stash
+git checkout .
 
 git checkout "v${VERSION_WO_ALPHA}-docs"
 
-git stash pop
+cd scripts
 
 node helpers/addVersionOnConfig.js $NEW_VERSION
+
+cp -r ${TRAVIS_BUILD_DIR}/../tmp/v${VERSION_WO_ALPHA} packages/docs/dist/releases
 
 # Travis will make the commit
 
