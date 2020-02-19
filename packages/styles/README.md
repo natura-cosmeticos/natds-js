@@ -2,8 +2,8 @@
 
 Natura Design System - Styles
 
-![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds.svg)
-[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds/packages/styles?targetFile=package.json)
+![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
+[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
 ## Installation
 
@@ -21,18 +21,8 @@ npm install --save @naturacosmeticos/natds-styles
 yarn add @naturacosmeticos/natds-styles
 ```
 
-## Using with React
-You'll need to import a theme (or create your own) and use it with the component provider
+For more examples on how to implement yourself this styles/themes on your project without the use of the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), please refer to the [provider](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web/src/Provider/index.tsx).
 
-```sh
-import { Provider, themes } from '@naturacosmeticos/natds-web';
-
-const { natura: { light } } = themes;
-
-<Provider theme={light}>
-  {...}
-</Provider>
-```
 
 ## Contributing
 
