@@ -2,8 +2,8 @@
 
 Natura Design System - Styles
 
-![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds.svg)
-[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds/packages/styles?targetFile=package.json)
+![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
+[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
 ## Installation
 
@@ -21,22 +21,8 @@ npm install --save @naturacosmeticos/natds-styles
 yarn add @naturacosmeticos/natds-styles
 ```
 
-## Using with React
-You'll need to serve the fonts within your project setup.
-And you can use the css directly by importing it as follows (or you can use as a model to your own implementation, the important part is the unicode of each icon)
+For more examples on how to implement yourself this styles/themes on your project without the use of the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), please refer to the [provider](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web/src/Provider/index.tsx).
 
-```sh
-import '@naturacosmeticos/natds-icons/dist/natds-icons.css';
-
-<i className="natds-icons natds-icons-2x natds-icons-cancel-filled" />
-```
-
-## Using with React Native/Native apps
-You'll need to import the font family and the icon's code table, and setup within your project:
-
-```sh
-import { NatdsIconsTtf, iconNames } from '@naturacosmeticos/natds-icons/dist/natds-icons.css';
-```
 
 ## Contributing
 
