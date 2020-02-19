@@ -212,8 +212,7 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "#FFFFFF",
-                "opacity": 0.32,
+                "backgroundColor": "rgba(255, 255, 255, 0.32)",
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -221,8 +220,25 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
               "border": "transparent 1px solid",
             },
           },
+          "MuiExpansionPanelActions": Object {
+            "root": Object {
+              "&$disabled": Object {
+                "opacity": 0.32,
+              },
+            },
+          },
+          "MuiExpansionPanelContent": Object {
+            "root": Object {
+              "&$disabled": Object {
+                "opacity": 0.32,
+              },
+            },
+          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
+              "&$disabled": Object {
+                "opacity": 0.32,
+              },
               "alignItems": "flex-start",
               "marginTop": "8px",
             },
@@ -786,8 +802,7 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "#FFFFFF",
-                "opacity": 0.32,
+                "backgroundColor": "rgba(255, 255, 255, 0.32)",
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -795,8 +810,25 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
               "border": "transparent 1px solid",
             },
           },
+          "MuiExpansionPanelActions": Object {
+            "root": Object {
+              "&$disabled": Object {
+                "opacity": 0.32,
+              },
+            },
+          },
+          "MuiExpansionPanelContent": Object {
+            "root": Object {
+              "&$disabled": Object {
+                "opacity": 0.32,
+              },
+            },
+          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
+              "&$disabled": Object {
+                "opacity": 0.32,
+              },
               "alignItems": "flex-start",
               "marginTop": "8px",
             },

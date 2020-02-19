@@ -120,15 +120,24 @@ export const naturaDark: ITheme = {
           borderColor: natura.primary.colorBrdNatPrimaryYellow
         },
         "&$disabled": {
-          backgroundColor: natura.grayscale.colorBrdNatGray,
-          opacity: 0.32
+          backgroundColor: hexToRgba(natura.grayscale.colorBrdNatGray, 0.32),
         }
       }
     },
     MuiExpansionPanelSummary: {
       root: {
         alignItems: 'flex-start',
-        marginTop: '8px'
+        marginTop: '8px',
+        "&$disabled": {
+          opacity: 0.32
+        }
+      }
+    },
+    MuiExpansionPanelActions: {
+      root: {
+        "&$disabled": {
+          opacity: 0.32
+        }
       }
     },
     MuiToolbar: {
