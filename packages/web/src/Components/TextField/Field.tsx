@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState } from 'react';
+import React, { FunctionComponent, useState, forwardRef } from 'react';
 import styled from 'styled-components';
 import MaskedInput from 'react-text-mask';
 import { tokens } from '@naturacosmeticos/natds-styles';
@@ -12,7 +12,10 @@ export const TEXT_TYPE = 'text';
 export const SEARCH_TYPE = 'search';
 export const PASSWORD_TYPE = 'password';
 
-export const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps) => {
+export const Field: FunctionComponent<ITextFieldProps> = forwardRef((
+  props: ITextFieldProps,
+  ref: any
+) => {
   const {
     id,
     theme,
@@ -67,6 +70,7 @@ export const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps
         className={`${className}__input`}
         mask={mask}
         onChange={handleChange}
+        ref={ref}
         {...rest}
       />
       {showPasswordReveal && <PasswordReveal
@@ -88,7 +92,7 @@ export const Field: FunctionComponent<ITextFieldProps> = (props: ITextFieldProps
       />}
     </FieldContainer>
   );
-};
+});
 
 export default Field;
 

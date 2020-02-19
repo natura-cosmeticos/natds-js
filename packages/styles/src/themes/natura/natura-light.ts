@@ -1,3 +1,4 @@
+import hexToRgba from 'hex-to-rgba';
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -11,6 +12,9 @@ import { sizes } from "../../tokens/sizes";
 
 const { natura } = tokens.colors;
 
+const PRIMARY_LIGHT = "#FEFDE8";
+const PRIMARY_DARK = "#EF8426";
+
 export const naturaLight: ITheme = {
   shape: {
     borderRadius: tokens.radius.medium,
@@ -23,18 +27,18 @@ export const naturaLight: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-      disabled: "rgba(0, 0, 0, .24)"
+      disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
     },
     primary: {
       main: natura.primary.colorBrdNatPrimaryYellow,
-      light: "#FEFDE8",
-      dark: "#EF8426",
+      light: PRIMARY_LIGHT,
+      dark: PRIMARY_DARK,
       contrastText: natura.grayscale.colorBrdNatGray
     },
     secondary: {
       main: natura.primary.colorBrdNatPrimaryOrange,
-      light: "#FEFDE8",
-      dark: "#EF8426",
+      light: PRIMARY_LIGHT,
+      dark: PRIMARY_DARK,
       contrastText: natura.grayscale.colorBrdBlack
     },
     error: {
@@ -105,6 +109,24 @@ export const naturaLight: ITheme = {
         padding: "4px"
       }
     },
+    MuiExpansionPanel: {
+      root: {
+        border: `transparent 1px solid`,
+        "&$expanded": {
+          borderColor: natura.primary.colorBrdNatPrimaryYellow
+        },
+        "&$disabled": {
+          backgroundColor: natura.primary.colorBrdNatPrimaryWhite,
+          opacity: 0.32
+        }
+      },
+    },
+    MuiExpansionPanelSummary: {
+      root: {
+        alignItems: 'flex-start',
+        marginTop: '8px'
+      }
+    },
     MuiToolbar: {
       root: {
         padding: "0 16px",
@@ -134,16 +156,24 @@ export const naturaLight: ITheme = {
     MuiListItem: {
       root: {
         "&$selected": {
-          backgroundColor: "rgba(255, 107, 11, .16)"
+          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
+          "&:hover": {
+            backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
+          }
         },
-        "&$selected:hover": {
-          backgroundColor: "rgba(255, 107, 11, .08)"
-        }
+        '&.Mui-disabled': {
+          opacity: 0.32
+        },
       },
       button: {
         "&:hover": {
-          backgroundColor: "rgba(255, 107, 11, .08)"
+          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
         }
+      }
+    },
+    MuiBadge: {
+      badge: {
+        padding: '0 4px'
       }
     },
     MuiTab: {
@@ -160,6 +190,75 @@ export const naturaLight: ITheme = {
       wrapper: {
         "& > *:first-child": {
           marginBottom: "2px !important"
+        }
+      }
+    },
+    MuiChip: {
+      root: {
+        backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
+        color: natura.grayscale.colorBrdNatGray,
+        fontSize: fontSize.subtitle2.fontSize,
+        "& $avatar": {
+          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
+          color: natura.grayscale.colorBrdNatGray,
+        },
+        "&$disabled": {
+          opacity: .4
+        },
+      },
+      clickableColorPrimary: {
+        "&:hover": {
+          backgroundColor: PRIMARY_DARK
+        }
+      },
+      clickableColorSecondary: {
+        "&:hover": {
+          backgroundColor: PRIMARY_DARK
+        }
+      },
+      outlined: {
+        borderColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
+        color: natura.grayscale.colorBrdBlack
+      },
+      outlinedPrimary: {
+        color: natura.grayscale.colorBrdBlack,
+      },
+      outlinedSecondary: {
+        color: natura.grayscale.colorBrdBlack,
+      },
+      icon: {
+        fontSize: `${sizes.standard}px`,
+      },
+      iconSmall: {
+        width: `${sizes.small}px`,
+        height: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`,
+        marginTop: "1px"
+      },
+      deleteIcon: {
+        width: `${sizes.standard}px`,
+        height: `${sizes.standard}px`,
+        fontSize: `${sizes.standard}px`,
+        color: hexToRgba(natura.grayscale.colorBrdBlack, 0.8),
+        '&:hover': {
+          color: natura.grayscale.colorBrdBlack
+        }
+      },
+      deleteIconSmall: {
+        width: `${sizes.small}px`,
+        height: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`,
+      },
+      deleteIconColorPrimary: {
+        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
+        '&:hover': {
+          color: natura.primary.colorBrdNatPrimaryWhite
+        }
+      },
+      deleteIconColorSecondary: {
+        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
+        '&:hover': {
+          color: natura.primary.colorBrdNatPrimaryWhite
         }
       }
     }

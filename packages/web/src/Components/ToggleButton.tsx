@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState, useEffect, ReactNode } from 'react';
+import React, { FunctionComponent, useState, useEffect, ReactNode, forwardRef } from 'react';
 import { withTheme } from '@material-ui/styles';
 import IconButton, { IIconButtonProps } from './IconButton';
 
@@ -24,7 +24,10 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, 'translate' |
   onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>, state: boolean) => void;
 }
 
-export const ToggleButton: FunctionComponent<IToggleButtonProps> = (props: IToggleButtonProps) => {
+export const ToggleButton: FunctionComponent<IToggleButtonProps> = forwardRef((
+  props: IToggleButtonProps,
+  ref: any
+) => {
   const { iconOn, iconOff, checked = false, onClick, ...rest } = props;
   const [checkedState, onToggle] = useState(checked);
   const icon: any = checkedState ? iconOn : iconOff;
@@ -41,8 +44,9 @@ export const ToggleButton: FunctionComponent<IToggleButtonProps> = (props: ITogg
       children={icon}
       onClick={handleClick}
       {...rest}
+      ref={ref}
     />
   );
-};
+});
 
 export default withTheme(ToggleButton);

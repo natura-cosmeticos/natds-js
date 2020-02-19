@@ -1,0 +1,72 @@
+import { Badge, Provider, themes } from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { colors, variants, anchors, overlaps } from './sections';
+
+# Badge
+
+---
+
+---
+
+---
+
+---
+
+## Colors
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={colors} />
+</Provider>
+
+---
+
+---
+
+## Anchors
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={anchors} />
+</Provider>
+
+---
+
+---
+
+## Variants
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={variants} />
+</Provider>
+
+
+## API
+
+```jsx highlight-line="2"
+import { Badge } from '@naturacosmeticos/natds-web';
+
+<Badge badgeContent="999" color="primary" variant="dot">
+  {children}
+</Badge>
+```
+
+For more advanced usages, check [Material UI Badge docs](https://material-ui.com/components/badges/)
+
+---
+
+---
+
+## Props
+
+| Name              | Type                                                                                                           |  Default                                    | Description                                                                                                                                     |
+| :---------------- | :------------------------------------------------------------------------------------------------------------: | :-----------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| anchorOrigin      | { horizontal: 'left' \| 'right', vertical: 'bottom' \| 'top' }                                                 | { vertical: 'top', horizontal: 'right' }    | The anchor of the badge.                                                                                                                        |
+| badgeContent      | node                                                                                                           |                                             | The content rendered within the badge.                                                                                                          |
+| children          | node                                                                                                           |                                             | The badge will be added relative to this node.                                                                                                  |
+| classes           |                                                                                                                |                                             | Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/badge/#css) for more details.             |
+| color             | 'default' \| 'error' \| 'primary' \| 'secondary'                                                               | 'default'                                   | The color of the component. It supports those theme colors that make sense for this component.                                                  |
+| component         | elementType                                                                                                    | 'span'                                      | The component used for the root node. Either a string to use a DOM element or a component.                                                      |
+| invisible         | bool                                                                                                           | false                                       | If true, the badge will be invisible.                                                                                                           |
+| max               | number                                                                                                         | 99                                          | Max count to show.                                                                                                                              |
+| overlap           | 'circle' \| 'rectangle'                                                                                        | 'rectangle'                                 | Wrapped shape the badge should overlap.                                                                                                         |
+| showZero          | bool                                                                                                           | false                                       | Controls whether the badge is hidden when badgeContent is zero.                                                                                 |
+| variant           | 'dot' \| 'standard'                                                                                            | 'standard'                                  | The variant to use.

@@ -99,15 +99,10 @@ describe('Avatar component', () => {
       expect(component.dive().prop('style')).to.deep.equal({});
     });
 
-    test('should apply standard size as default', () => {
-      const { standard: { size, fontSize } } = theme.avatarSizes;
+    test('should not apply size if without the prop', () => {
       const component = shallow(<Avatar theme={theme} />);
 
-      expect(component.dive().prop('style')).to.deep.include({
-        width: `${size}px`,
-        height: `${size}px`,
-        fontSize
-      });
+      expect(component.dive().prop('style')).to.deep.include({});
     });
   });
 
@@ -142,12 +137,10 @@ describe('Avatar component', () => {
       expect(component.dive().prop('style')).to.deep.equal({});
     });
 
-    test('should apply primary color as default', () => {
+    test('should not apply color if without the prop', () => {
       const component = shallow(<Avatar theme={theme} />);
 
-      expect(component.dive().prop('style')).to.deep.include({
-        background: theme.palette.primary.main
-      });
+      expect(component.dive().prop('style')).to.deep.include({});
     });
   });
 });

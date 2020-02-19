@@ -1,8 +1,8 @@
-import * as React from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme } from '@material-ui/styles';
 import MaterialTypography, { TypographyClassKey, TypographyProps } from '@material-ui/core/Typography';
 
-type TypographyVariant =
+export type TypographyVariant =
   | 'h1'
   | 'h2'
   | 'h3'
@@ -19,7 +19,7 @@ type TypographyVariant =
 
 type TypographyAlign = 'inherit' | 'left' | 'center' | 'right' | 'justify';
 
-type TypographyColor =
+export type TypographyColor =
   | 'initial'
   | 'inherit'
   | 'primary'
@@ -67,7 +67,7 @@ export interface ITypographyProps extends TypographyProps {
   variantMapping?: object;
 }
 
-export const Typography: React.FunctionComponent<ITypographyProps> = React.forwardRef((
+export const Typography: FunctionComponent<ITypographyProps> = forwardRef((
   props: ITypographyProps,
   ref: any
 ) => {

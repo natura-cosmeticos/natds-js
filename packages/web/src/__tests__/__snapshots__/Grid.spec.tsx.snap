@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`GridContainer component should match to snapshot 1`] = `
-<Component>
+<ForwardRef>
   <WithStyles(ForwardRef(Grid))
     container={true}
   >
@@ -120,11 +120,11 @@ exports[`GridContainer component should match to snapshot 1`] = `
       />
     </ForwardRef(Grid)>
   </WithStyles(ForwardRef(Grid))>
-</Component>
+</ForwardRef>
 `;
 
 exports[`GridItem component should match to snapshot 1`] = `
-<Component>
+<ForwardRef>
   <WithStyles(ForwardRef(Grid))
     item={true}
   >
@@ -243,5 +243,5 @@ exports[`GridItem component should match to snapshot 1`] = `
       />
     </ForwardRef(Grid)>
   </WithStyles(ForwardRef(Grid))>
-</Component>
+</ForwardRef>
 `;

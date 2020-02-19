@@ -6,7 +6,7 @@ import {
 import { createMuiTheme } from '@material-ui/core/styles';
 
 export interface IThemeWeb
-  extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes' | 'shadows'> {
+  extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes' | 'shadows' | 'sizes'> {
   typography: {
     fontFamily?: string;
     fontFamilyBrand1?: string;

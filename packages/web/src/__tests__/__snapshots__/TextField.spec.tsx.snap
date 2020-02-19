@@ -422,7 +422,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default focus): TextField default focus snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -493,6 +493,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -514,6 +519,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -525,15 +617,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -583,7 +678,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -731,7 +826,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default hover): TextField default hover snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -802,6 +897,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -823,6 +923,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -834,15 +1021,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -892,7 +1082,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -1544,7 +1734,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled focus): TextField disabled focus snapshot 1`] = `
-<Component
+<ForwardRef
   disabled={true}
   helpText="Assistive text"
   id="field"
@@ -1616,6 +1806,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -1637,6 +1832,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -1648,15 +1930,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -1706,7 +1991,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -1854,7 +2139,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled hover): TextField disabled hover snapshot 1`] = `
-<Component
+<ForwardRef
   disabled={true}
   helpText="Assistive text"
   id="field"
@@ -1926,6 +2211,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -1947,6 +2237,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -1958,15 +2335,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -2016,7 +2396,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -2343,7 +2723,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error focus): TextField error focus snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -2415,6 +2795,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -2436,6 +2821,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -2447,15 +2919,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -2505,7 +2980,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -2653,7 +3128,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error hover): TextField error hover snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -2725,6 +3200,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -2746,6 +3226,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -2757,15 +3324,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -2815,7 +3385,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -3213,6 +3783,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "color": "#333333",
               },
             },
+            "MuiBadge": Object {
+              "badge": Object {
+                "padding": "0 4px",
+              },
+            },
             "MuiButton": Object {
               "outlinedPrimary": Object {
                 "color": "#333333",
@@ -3234,6 +3809,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "minHeight": "32px",
               },
             },
+            "MuiChip": Object {
+              "clickableColorPrimary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
+              "clickableColorSecondary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
+              "deleteIcon": Object {
+                "&:hover": Object {
+                  "color": "#000000",
+                },
+                "color": "rgba(0, 0, 0, 0.8)",
+                "fontSize": "24px",
+                "height": "24px",
+                "width": "24px",
+              },
+              "deleteIconColorPrimary": Object {
+                "&:hover": Object {
+                  "color": "#FFFFFF",
+                },
+                "color": "rgba(255, 255, 255, 0.8)",
+              },
+              "deleteIconColorSecondary": Object {
+                "&:hover": Object {
+                  "color": "#FFFFFF",
+                },
+                "color": "rgba(255, 255, 255, 0.8)",
+              },
+              "deleteIconSmall": Object {
+                "fontSize": "16px",
+                "height": "16px",
+                "width": "16px",
+              },
+              "icon": Object {
+                "fontSize": "24px",
+              },
+              "iconSmall": Object {
+                "fontSize": "16px",
+                "height": "16px",
+                "marginTop": "1px",
+                "width": "16px",
+              },
+              "outlined": Object {
+                "borderColor": "rgba(0, 0, 0, 0.12)",
+                "color": "#000000",
+              },
+              "outlinedPrimary": Object {
+                "color": "#000000",
+              },
+              "outlinedSecondary": Object {
+                "color": "#000000",
+              },
+              "root": Object {
+                "& $avatar": Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0.24)",
+                  "color": "#333333",
+                },
+                "&$disabled": Object {
+                  "opacity": 0.4,
+                },
+                "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                "color": "#333333",
+                "fontSize": "0.875rem",
+              },
+            },
+            "MuiExpansionPanel": Object {
+              "root": Object {
+                "&$disabled": Object {
+                  "backgroundColor": "#FFFFFF",
+                  "opacity": 0.32,
+                },
+                "&$expanded": Object {
+                  "borderColor": "#F4AB34",
+                },
+                "border": "transparent 1px solid",
+              },
+            },
+            "MuiExpansionPanelSummary": Object {
+              "root": Object {
+                "alignItems": "flex-start",
+                "marginTop": "8px",
+              },
+            },
             "MuiIconButton": Object {
               "root": Object {
                 "padding": "8px",
@@ -3245,15 +3907,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "MuiListItem": Object {
               "button": Object {
                 "&:hover": Object {
-                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
               },
               "root": Object {
                 "&$selected": Object {
-                  "backgroundColor": "rgba(255, 107, 11, .16)",
+                  "&:hover": Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  },
+                  "backgroundColor": "rgba(255, 107, 11, 0.16)",
                 },
-                "&$selected:hover": Object {
-                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                "&.Mui-disabled": Object {
+                  "opacity": 0.32,
                 },
               },
             },
@@ -3303,7 +3968,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "action": Object {
-              "disabled": "rgba(0, 0, 0, .24)",
+              "disabled": "rgba(0, 0, 0, 0.24)",
             },
             "background": Object {
               "default": "#FAFAFA",
@@ -3459,7 +4124,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled focus): TextField filled focus snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -3530,6 +4195,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -3551,6 +4221,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -3562,15 +4319,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -3620,7 +4380,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -3769,7 +4529,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled hover): TextField filled hover snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -3840,6 +4600,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -3861,6 +4626,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -3872,15 +4724,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -3930,7 +4785,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -4509,6 +5364,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "color": "#333333",
               },
             },
+            "MuiBadge": Object {
+              "badge": Object {
+                "padding": "0 4px",
+              },
+            },
             "MuiButton": Object {
               "outlinedPrimary": Object {
                 "color": "#333333",
@@ -4530,6 +5390,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "minHeight": "32px",
               },
             },
+            "MuiChip": Object {
+              "clickableColorPrimary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
+              "clickableColorSecondary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
+              "deleteIcon": Object {
+                "&:hover": Object {
+                  "color": "#000000",
+                },
+                "color": "rgba(0, 0, 0, 0.8)",
+                "fontSize": "24px",
+                "height": "24px",
+                "width": "24px",
+              },
+              "deleteIconColorPrimary": Object {
+                "&:hover": Object {
+                  "color": "#FFFFFF",
+                },
+                "color": "rgba(255, 255, 255, 0.8)",
+              },
+              "deleteIconColorSecondary": Object {
+                "&:hover": Object {
+                  "color": "#FFFFFF",
+                },
+                "color": "rgba(255, 255, 255, 0.8)",
+              },
+              "deleteIconSmall": Object {
+                "fontSize": "16px",
+                "height": "16px",
+                "width": "16px",
+              },
+              "icon": Object {
+                "fontSize": "24px",
+              },
+              "iconSmall": Object {
+                "fontSize": "16px",
+                "height": "16px",
+                "marginTop": "1px",
+                "width": "16px",
+              },
+              "outlined": Object {
+                "borderColor": "rgba(0, 0, 0, 0.12)",
+                "color": "#000000",
+              },
+              "outlinedPrimary": Object {
+                "color": "#000000",
+              },
+              "outlinedSecondary": Object {
+                "color": "#000000",
+              },
+              "root": Object {
+                "& $avatar": Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0.24)",
+                  "color": "#333333",
+                },
+                "&$disabled": Object {
+                  "opacity": 0.4,
+                },
+                "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                "color": "#333333",
+                "fontSize": "0.875rem",
+              },
+            },
+            "MuiExpansionPanel": Object {
+              "root": Object {
+                "&$disabled": Object {
+                  "backgroundColor": "#FFFFFF",
+                  "opacity": 0.32,
+                },
+                "&$expanded": Object {
+                  "borderColor": "#F4AB34",
+                },
+                "border": "transparent 1px solid",
+              },
+            },
+            "MuiExpansionPanelSummary": Object {
+              "root": Object {
+                "alignItems": "flex-start",
+                "marginTop": "8px",
+              },
+            },
             "MuiIconButton": Object {
               "root": Object {
                 "padding": "8px",
@@ -4541,15 +5488,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "MuiListItem": Object {
               "button": Object {
                 "&:hover": Object {
-                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
               },
               "root": Object {
                 "&$selected": Object {
-                  "backgroundColor": "rgba(255, 107, 11, .16)",
+                  "&:hover": Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  },
+                  "backgroundColor": "rgba(255, 107, 11, 0.16)",
                 },
-                "&$selected:hover": Object {
-                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                "&.Mui-disabled": Object {
+                  "opacity": 0.32,
                 },
               },
             },
@@ -4599,7 +5549,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "action": Object {
-              "disabled": "rgba(0, 0, 0, .24)",
+              "disabled": "rgba(0, 0, 0, 0.24)",
             },
             "background": Object {
               "default": "#FAFAFA",
@@ -5458,7 +6408,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success focus): TextField success focus snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -5530,6 +6480,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -5551,6 +6506,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -5562,15 +6604,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -5620,7 +6665,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -5768,7 +6813,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success hover): TextField success hover snapshot 1`] = `
-<Component
+<ForwardRef
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -5840,6 +6885,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "color": "#333333",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#333333",
@@ -5861,6 +6911,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "#000000",
+            },
+            "color": "rgba(0, 0, 0, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#000000",
+          },
+          "outlinedPrimary": Object {
+            "color": "#000000",
+          },
+          "outlinedSecondary": Object {
+            "color": "#000000",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(0, 0, 0, 0.24)",
+              "color": "#333333",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(0, 0, 0, 0.12)",
+            "color": "#333333",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#FFFFFF",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
@@ -5872,15 +7009,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "backgroundColor": "rgba(255, 107, 11, 0.16)",
             },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+            "&.Mui-disabled": Object {
+              "opacity": 0.32,
             },
           },
         },
@@ -5930,7 +7070,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -6328,6 +7468,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "color": "#333333",
               },
             },
+            "MuiBadge": Object {
+              "badge": Object {
+                "padding": "0 4px",
+              },
+            },
             "MuiButton": Object {
               "outlinedPrimary": Object {
                 "color": "#333333",
@@ -6349,6 +7494,93 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "minHeight": "32px",
               },
             },
+            "MuiChip": Object {
+              "clickableColorPrimary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
+              "clickableColorSecondary": Object {
+                "&:hover": Object {
+                  "backgroundColor": "#EF8426",
+                },
+              },
+              "deleteIcon": Object {
+                "&:hover": Object {
+                  "color": "#000000",
+                },
+                "color": "rgba(0, 0, 0, 0.8)",
+                "fontSize": "24px",
+                "height": "24px",
+                "width": "24px",
+              },
+              "deleteIconColorPrimary": Object {
+                "&:hover": Object {
+                  "color": "#FFFFFF",
+                },
+                "color": "rgba(255, 255, 255, 0.8)",
+              },
+              "deleteIconColorSecondary": Object {
+                "&:hover": Object {
+                  "color": "#FFFFFF",
+                },
+                "color": "rgba(255, 255, 255, 0.8)",
+              },
+              "deleteIconSmall": Object {
+                "fontSize": "16px",
+                "height": "16px",
+                "width": "16px",
+              },
+              "icon": Object {
+                "fontSize": "24px",
+              },
+              "iconSmall": Object {
+                "fontSize": "16px",
+                "height": "16px",
+                "marginTop": "1px",
+                "width": "16px",
+              },
+              "outlined": Object {
+                "borderColor": "rgba(0, 0, 0, 0.12)",
+                "color": "#000000",
+              },
+              "outlinedPrimary": Object {
+                "color": "#000000",
+              },
+              "outlinedSecondary": Object {
+                "color": "#000000",
+              },
+              "root": Object {
+                "& $avatar": Object {
+                  "backgroundColor": "rgba(0, 0, 0, 0.24)",
+                  "color": "#333333",
+                },
+                "&$disabled": Object {
+                  "opacity": 0.4,
+                },
+                "backgroundColor": "rgba(0, 0, 0, 0.12)",
+                "color": "#333333",
+                "fontSize": "0.875rem",
+              },
+            },
+            "MuiExpansionPanel": Object {
+              "root": Object {
+                "&$disabled": Object {
+                  "backgroundColor": "#FFFFFF",
+                  "opacity": 0.32,
+                },
+                "&$expanded": Object {
+                  "borderColor": "#F4AB34",
+                },
+                "border": "transparent 1px solid",
+              },
+            },
+            "MuiExpansionPanelSummary": Object {
+              "root": Object {
+                "alignItems": "flex-start",
+                "marginTop": "8px",
+              },
+            },
             "MuiIconButton": Object {
               "root": Object {
                 "padding": "8px",
@@ -6360,15 +7592,18 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "MuiListItem": Object {
               "button": Object {
                 "&:hover": Object {
-                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                  "backgroundColor": "rgba(0, 0, 0, 0.04)",
                 },
               },
               "root": Object {
                 "&$selected": Object {
-                  "backgroundColor": "rgba(255, 107, 11, .16)",
+                  "&:hover": Object {
+                    "backgroundColor": "rgba(0, 0, 0, 0.04)",
+                  },
+                  "backgroundColor": "rgba(255, 107, 11, 0.16)",
                 },
-                "&$selected:hover": Object {
-                  "backgroundColor": "rgba(255, 107, 11, .08)",
+                "&.Mui-disabled": Object {
+                  "opacity": 0.32,
                 },
               },
             },
@@ -6418,7 +7653,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "action": Object {
-              "disabled": "rgba(0, 0, 0, .24)",
+              "disabled": "rgba(0, 0, 0, 0.24)",
             },
             "background": Object {
               "default": "#FAFAFA",

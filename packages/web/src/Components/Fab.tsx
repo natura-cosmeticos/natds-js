@@ -1,4 +1,4 @@
-import * as React from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme } from '@material-ui/core/styles';
 import MaterialFab, { FabProps } from '@material-ui/core/Fab';
 import { IThemeWeb } from '../Themes';
@@ -25,7 +25,10 @@ export interface IFabProps extends React.HtmlHTMLAttributes<HTMLButtonElement>, 
   theme?: IThemeWeb | unknown;
 }
 
-export const Fab: React.FunctionComponent<IFabProps> = (props: IFabProps) => {
+export const Fab: FunctionComponent<IFabProps> = forwardRef((
+  props: IFabProps,
+  ref: any
+) => {
   const {
     color = 'primary',
     theme: providerTheme,
@@ -55,14 +58,16 @@ export const Fab: React.FunctionComponent<IFabProps> = (props: IFabProps) => {
     };
   }, [theme]);
 
-  return <MaterialFab
-    {...props}
-    color="inherit"
-    style={{
-      ...(!disabled ? colorMap[color] : {}),
-      ...style
-    }}
-  />;
-};
+  const colorStyle = !disabled ? colorMap[color] : {};
+
+  return (
+    <MaterialFab
+      {...props}
+      color="inherit"
+      style={{ ...colorStyle, ...style }}
+      ref={ref}
+    />
+  );
+});
 
 export default withTheme(Fab);

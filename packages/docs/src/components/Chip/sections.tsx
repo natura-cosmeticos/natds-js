@@ -1,6 +1,5 @@
 import React from 'react';
-import { Chip } from '@naturacosmeticos/natds-web';
-import Favorite from '@material-ui/icons/Favorite';
+import { Chip, Icon } from '@naturacosmeticos/natds-web';
 
 export const attributes = [
   {
@@ -21,43 +20,83 @@ export const attributes = [
   },
   {
     title: 'Custom Icon',
-    component: <Chip color="primary" variant="default" size="medium" label="Label" icon={<Favorite />} />
+    component: <Chip color="primary" variant="default" size="medium" label="Label" icon={<Icon name="outlined-action-add" />} />
+  },
+  {
+    title: 'Standard (outlined)',
+    component: <Chip color="primary" variant="outlined" size="medium" label="Label" />
+  },
+  {
+    title: 'Disabled (outlined)',
+    component: <Chip color="primary" variant="outlined" size="medium" disabled label="Label" />
+  },
+  {
+    title: 'With Delete (outlined)',
+    component: <Chip color="primary" variant="outlined" size="medium" label="Label" onDelete={() => { }} />
+  },
+  {
+    title: 'Clickable (outlined)',
+    component: <Chip color="primary" variant="outlined" size="medium" label="Label" clickable />
+  },
+  {
+    title: 'Custom Icon (outlined)',
+    component: <Chip color="primary" variant="outlined" size="medium" label="Label" icon={<Icon name="outlined-action-add" />} />
   }
 ];
 
 export const variants = [
   {
     title: 'Default',
-    component: <Chip color="primary" variant="default" size="medium" label="Label" onDelete={() => {}} />
+    component: <Chip clickable color="primary" variant="default" size="medium" label="Label" onDelete={() => {}} />
   },
   {
     title: 'Outlined',
-    component: <Chip color="primary" variant="outlined" size="medium" label="Label" onDelete={() => {}} />
+    component: <Chip clickable color="primary" variant="outlined" size="medium" label="Label" onDelete={() => {}} />
   }
 ];
 
 export const colors = [
   {
     title: 'Primary',
-    component: <Chip color="primary" variant="default" size="medium" label="Label" onDelete={() => {}} />
+    component: <Chip clickable color="primary" variant="default" size="medium" label="Label" onDelete={() => {}} />
   },
   {
     title: 'Secondary',
-    component: <Chip color="secondary" variant="default" size="medium" label="Label" onDelete={() => {}} />
+    component: <Chip clickable color="secondary" variant="default" size="medium" label="Label" onDelete={() => {}} />
   },
   {
     title: 'Default',
-    component: <Chip color="default" variant='default' size="medium" label="Label" onDelete={() => {}} />
+    component: <Chip clickable color="default" variant='default' size="medium" label="Label" onDelete={() => {}} />
+  },
+  {
+    title: 'Primary (outlined)',
+    component: <Chip clickable color="primary" variant="outlined" size="medium" label="Label" onDelete={() => {}} />
+  },
+  {
+    title: 'Secondary (outlined)',
+    component: <Chip clickable color="secondary" variant="outlined" size="medium" label="Label" onDelete={() => {}} />
+  },
+  {
+    title: 'Default (outlined)',
+    component: <Chip clickable color="default" variant='outlined' size="medium" label="Label" onDelete={() => {}} />
   }
 ];
 
 export const sizes = [
   {
     title: 'Small',
-    component: <Chip color="primary" variant="default" size="small" label="Label" onDelete={() => {}} />
+    component: <Chip clickable color="primary" variant="default" size="small" label="Label" onDelete={() => {}} />
   },
   {
     title: 'Medium',
-    component: <Chip color="primary" variant="default" size="medium" label="Label" onDelete={() => {}} />
+    component: <Chip clickable color="primary" variant="default" size="medium" label="Label" onDelete={() => {}} />
+  },
+  {
+    title: 'Small (outlined)',
+    component: <Chip clickable color="primary" variant="outlined" size="small" label="Label" onDelete={() => {}} />
+  },
+  {
+    title: 'Medium (outlined)',
+    component: <Chip clickable color="primary" variant="outlined" size="medium" label="Label" onDelete={() => {}} />
   }
 ];
