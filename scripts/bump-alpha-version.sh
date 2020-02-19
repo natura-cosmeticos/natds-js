@@ -31,7 +31,7 @@ git config --global user.email "travis@travis-ci.org"
 git config --global user.name "Travis CI"
 
 git add --all
-git commit -m "Travis Commit: Bumping alpha version to ${NEW_VERSION}"
+git commit -m "Travis Commit: Bumping alpha version to ${NEW_VERSION}" --allow-empty
 
 git push -f -u origin v${VERSION_WO_ALPHA}
 

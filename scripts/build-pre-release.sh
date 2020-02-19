@@ -42,7 +42,7 @@ git checkout "v${VERSION_WO_ALPHA}-docs"
 
 cp -r ${TRAVIS_BUILD_DIR}/../tmp/v${NEW_VERSION} packages/docs/dist/releases
 
-node helpers/addVersionOnConfig.js $NEW_VERSION
+node scripts/helpers/addVersionOnConfig.js $NEW_VERSION
 
 # Travis will make the commit
 
@@ -52,6 +52,6 @@ git config --global user.name "Travis CI"
 
 git add --all
 
-git commit -m "Travis Commit: Generating docs for alpha version ${NEW_VERSION}"
+git commit -m "Travis Commit: Generating docs for alpha version ${NEW_VERSION}" --allow-empty
 
 git push -f -u origin v${VERSION_WO_ALPHA}-docs
