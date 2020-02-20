@@ -2782,7 +2782,8 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         "MuiExpansionPanel": Object {
           "root": Object {
             "&$disabled": Object {
-              "backgroundColor": "rgba(51, 51, 51, 0.32)",
+              "backgroundColor": "#333333",
+              "opacity": 0.32,
             },
             "&$expanded": Object {
               "borderColor": "#F4AB34",
@@ -2790,17 +2791,10 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "border": "transparent 1px solid",
           },
         },
-        "MuiExpansionPanelActions": Object {
-          "root": Object {
-            "&$disabled": Object {
-              "opacity": 0.32,
-            },
-          },
-        },
         "MuiExpansionPanelSummary": Object {
           "root": Object {
             "&$disabled": Object {
-              "opacity": 0.32,
+              "opacity": 1,
             },
             "alignItems": "flex-start",
             "marginTop": "8px",
