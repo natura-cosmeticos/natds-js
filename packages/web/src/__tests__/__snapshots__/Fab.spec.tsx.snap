@@ -136,9 +136,9 @@ exports[`Fab component rendering it should render all colors: Color light Fab 1`
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -453,9 +453,9 @@ exports[`Fab component rendering it should render all colors: Color primary Fab 
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -770,9 +770,9 @@ exports[`Fab component rendering it should render all colors: Color secondary Fa
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -1090,9 +1090,9 @@ exports[`Fab component rendering it should render all sizes: Size large Fab 1`] 
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -1410,9 +1410,9 @@ exports[`Fab component rendering it should render all sizes: Size medium Fab 1`]
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -1727,9 +1727,9 @@ exports[`Fab component rendering it should render all sizes: Size small Fab 1`] 
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -2047,9 +2047,9 @@ exports[`Fab component rendering it should render all variants: Size extended Fa
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -2367,9 +2367,9 @@ exports[`Fab component rendering it should render all variants: Size round Fab 1
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -2670,6 +2670,11 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "color": "#FAFAFA",
           },
         },
+        "MuiBadge": Object {
+          "badge": Object {
+            "padding": "0 4px",
+          },
+        },
         "MuiButton": Object {
           "outlinedPrimary": Object {
             "color": "#FAFAFA",
@@ -2691,6 +2696,110 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "minHeight": "32px",
           },
         },
+        "MuiChip": Object {
+          "clickable": Object {
+            "&:focus": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.16)",
+            },
+            "&:hover": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.16)",
+            },
+          },
+          "clickableColorPrimary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "clickableColorSecondary": Object {
+            "&:hover": Object {
+              "backgroundColor": "#EF8426",
+            },
+          },
+          "deleteIcon": Object {
+            "&:hover": Object {
+              "color": "rgba(255, 255, 255, 0.6)",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+            "fontSize": "24px",
+            "height": "24px",
+            "width": "24px",
+          },
+          "deleteIconColorPrimary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconColorSecondary": Object {
+            "&:hover": Object {
+              "color": "#FFFFFF",
+            },
+            "color": "rgba(255, 255, 255, 0.8)",
+          },
+          "deleteIconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "width": "16px",
+          },
+          "icon": Object {
+            "fontSize": "24px",
+          },
+          "iconSmall": Object {
+            "fontSize": "16px",
+            "height": "16px",
+            "marginTop": "1px",
+            "width": "16px",
+          },
+          "outlined": Object {
+            "borderColor": "rgba(255, 255, 255, 0.12)",
+            "color": "#FFFFFF",
+          },
+          "outlinedPrimary": Object {
+            "& $avatar": Object {
+              "backgroundColor": "#F4AB34",
+            },
+            "color": "#FFFFFF",
+          },
+          "outlinedSecondary": Object {
+            "& $avatar": Object {
+              "backgroundColor": "#FF6B0B",
+            },
+            "color": "#FFFFFF",
+          },
+          "root": Object {
+            "& $avatar": Object {
+              "backgroundColor": "rgba(255, 255, 255, 0.24)",
+              "color": "#FFFFFF",
+            },
+            "&$disabled": Object {
+              "opacity": 0.4,
+            },
+            "backgroundColor": "rgba(255, 255, 255, 0.12)",
+            "color": "#FFFFFF",
+            "fontSize": "0.875rem",
+          },
+        },
+        "MuiExpansionPanel": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "backgroundColor": "#333333",
+              "opacity": 0.32,
+            },
+            "&$expanded": Object {
+              "borderColor": "#F4AB34",
+            },
+            "border": "transparent 1px solid",
+          },
+        },
+        "MuiExpansionPanelSummary": Object {
+          "root": Object {
+            "&$disabled": Object {
+              "opacity": 1,
+            },
+            "alignItems": "flex-start",
+            "marginTop": "8px",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "color": "#FAFAFA",
@@ -2703,15 +2812,15 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         "MuiListItem": Object {
           "button": Object {
             "&:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "backgroundColor": "rgba(0, 0, 0, 0.04)",
             },
           },
           "root": Object {
             "&$selected": Object {
-              "backgroundColor": "rgba(255, 107, 11, .16)",
-            },
-            "&$selected:hover": Object {
-              "backgroundColor": "rgba(255, 107, 11, .08)",
+              "&:hover": Object {
+                "backgroundColor": "rgba(0, 0, 0, 0.04)",
+              },
+              "background": "rgba(255, 107, 11, 0.16)",
             },
           },
         },
@@ -2762,7 +2871,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
       "palette": Object {
         "action": Object {
           "active": "rgba(0, 0, 0, 0.54)",
-          "disabled": "rgba(0, 0, 0, .24)",
+          "disabled": "rgba(0, 0, 0, 0.24)",
           "disabledBackground": "rgba(0, 0, 0, 0.12)",
           "hover": "rgba(0, 0, 0, 0.08)",
           "hoverOpacity": 0.08,
@@ -2845,9 +2954,9 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -3172,9 +3281,9 @@ exports[`Fab component rendering it should render with disabled truthy: Disabled
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},
@@ -3489,9 +3598,9 @@ exports[`Fab component rendering it should render with no props: No Props Fab 1`
         "type": "light",
         "warning": Object {
           "contrastText": "rgba(0, 0, 0, 0.87)",
-          "dark": "#ffa000",
-          "light": "#ffd54f",
-          "main": "#ffc107",
+          "dark": "#f57c00",
+          "light": "#ffb74d",
+          "main": "#ff9800",
         },
       },
       "props": Object {},

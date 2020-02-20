@@ -1,4 +1,4 @@
-import React, { FunctionComponent } from 'react';
+import React, { FunctionComponent, forwardRef } from 'react';
 import { withTheme } from '@material-ui/styles';
 export {
   DialogContentTextProps as IDialogContentTextProps,
@@ -7,8 +7,11 @@ import MaterialDialogContentText, {
   DialogContentTextProps as IDialogContentTextProps,
 } from '@material-ui/core/DialogContentText';
 
-export const DialogContentText: FunctionComponent<IDialogContentTextProps> = (
-  props: IDialogContentTextProps
-) => <MaterialDialogContentText {...props} />;
+export const DialogContentText: FunctionComponent<IDialogContentTextProps> = forwardRef((
+  props: IDialogContentTextProps,
+  ref: any
+) => (
+  <MaterialDialogContentText {...props} ref={ref} />
+));
 
 export default withTheme(DialogContentText);

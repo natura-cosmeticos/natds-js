@@ -1,6 +1,6 @@
 {
   "name": "natds",
-  "version": "0.3.6",
+  "version": "0.4.0-alpha.34",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "MIT",
   "keywords": [
@@ -32,6 +32,7 @@
     "build": "echo \"Use \\033[0;33m'yarn build:libs'\\033[0m instead\"",
     "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
     "verify": "yarn build:libs && yarn lerna run verify --stream",
+    "verify:ci": "yarn build:libs && yarn lerna run verify:ci --stream",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\"",
     "version": "echo $npm_package_version",
     "build:docs:prerelease": "bash scripts/build-pre-release.sh",
@@ -51,12 +52,12 @@
     ]
   },
   "devDependencies": {
-    "commitizen": "^4.0.3",
-    "concurrently": "^5.0.0",
-    "cz-lerna-changelog": "^2.0.2",
-    "husky": "^3.1.0",
-    "lerna": "^3.19.0",
-    "semantic-release": "^15.13.31"
+    "commitizen": "4.0.3",
+    "concurrently": "5.0.0",
+    "cz-lerna-changelog": "2.0.2",
+    "husky": "3.1.0",
+    "lerna": "3.19.0",
+    "semantic-release": "15.13.31"
   },
   "config": {
     "commitizen": {

@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tab components rendering variants should match to snapshot - empty TabContainer: TabContainer empty snapshot 1`] = `
-<WithTheme(Component)
+<WithTheme(ForwardRef)
   value={false}
 >
-  <Component
+  <ForwardRef
     theme={
       Object {
         "breakpoints": Object {
@@ -119,9 +119,9 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
           "type": "light",
           "warning": Object {
             "contrastText": "rgba(0, 0, 0, 0.87)",
-            "dark": "#ffa000",
-            "light": "#ffd54f",
-            "main": "#ffc107",
+            "dark": "#f57c00",
+            "light": "#ffb74d",
+            "main": "#ff9800",
           },
         },
         "props": Object {},
@@ -407,9 +407,9 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
             "type": "light",
             "warning": Object {
               "contrastText": "rgba(0, 0, 0, 0.87)",
-              "dark": "#ffa000",
-              "light": "#ffd54f",
-              "main": "#ffc107",
+              "dark": "#f57c00",
+              "light": "#ffb74d",
+              "main": "#ff9800",
             },
           },
           "props": Object {},
@@ -710,9 +710,9 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
               "type": "light",
               "warning": Object {
                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                "dark": "#ffa000",
-                "light": "#ffd54f",
-                "main": "#ffc107",
+                "dark": "#f57c00",
+                "light": "#ffb74d",
+                "main": "#ff9800",
               },
             },
             "props": Object {},
@@ -999,9 +999,9 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
                 "type": "light",
                 "warning": Object {
                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                  "dark": "#ffa000",
-                  "light": "#ffd54f",
-                  "main": "#ffc107",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
                 },
               },
               "props": Object {},
@@ -1230,16 +1230,16 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </Component>
-</WithTheme(Component)>
+  </ForwardRef>
+</WithTheme(ForwardRef)>
 `;
 
 exports[`Tab components rendering variants should match to snapshot - with TabContainer centered : TabContainer indicatorColor centered snapshot 1`] = `
-<WithTheme(Component)
+<WithTheme(ForwardRef)
   centered={true}
   value={false}
 >
-  <Component
+  <ForwardRef
     centered={true}
     theme={
       Object {
@@ -1355,9 +1355,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
           "type": "light",
           "warning": Object {
             "contrastText": "rgba(0, 0, 0, 0.87)",
-            "dark": "#ffa000",
-            "light": "#ffd54f",
-            "main": "#ffc107",
+            "dark": "#f57c00",
+            "light": "#ffb74d",
+            "main": "#ff9800",
           },
         },
         "props": Object {},
@@ -1644,9 +1644,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
             "type": "light",
             "warning": Object {
               "contrastText": "rgba(0, 0, 0, 0.87)",
-              "dark": "#ffa000",
-              "light": "#ffd54f",
-              "main": "#ffc107",
+              "dark": "#f57c00",
+              "light": "#ffb74d",
+              "main": "#ff9800",
             },
           },
           "props": Object {},
@@ -1948,9 +1948,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               "type": "light",
               "warning": Object {
                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                "dark": "#ffa000",
-                "light": "#ffd54f",
-                "main": "#ffc107",
+                "dark": "#f57c00",
+                "light": "#ffb74d",
+                "main": "#ff9800",
               },
             },
             "props": Object {},
@@ -2237,9 +2237,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 "type": "light",
                 "warning": Object {
                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                  "dark": "#ffa000",
-                  "light": "#ffd54f",
-                  "main": "#ffc107",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
                 },
               },
               "props": Object {},
@@ -2423,7 +2423,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               className="MuiTabs-flexContainer MuiTabs-centered"
               role="tablist"
             >
-              <WithTheme(Component)
+              <WithTheme(ForwardRef)
                 fullWidth={false}
                 indicator={false}
                 key=".0"
@@ -2432,7 +2432,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={0}
               >
-                <Component
+                <ForwardRef
                   fullWidth={false}
                   indicator={false}
                   label="Item One"
@@ -2552,9 +2552,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -2845,9 +2845,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -3152,9 +3152,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -3446,9 +3446,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -3746,9 +3746,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -4050,9 +4050,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -4263,9 +4263,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
-              <WithTheme(Component)
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
+              <WithTheme(ForwardRef)
                 fullWidth={false}
                 indicator={false}
                 key=".1"
@@ -4274,7 +4274,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={1}
               >
-                <Component
+                <ForwardRef
                   fullWidth={false}
                   indicator={false}
                   label="Item Two"
@@ -4394,9 +4394,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -4687,9 +4687,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -4994,9 +4994,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -5288,9 +5288,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -5588,9 +5588,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -5892,9 +5892,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -6105,9 +6105,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
-              <WithTheme(Component)
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
+              <WithTheme(ForwardRef)
                 fullWidth={false}
                 indicator={false}
                 key=".2"
@@ -6116,7 +6116,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={2}
               >
-                <Component
+                <ForwardRef
                   fullWidth={false}
                   indicator={false}
                   label="Item Three"
@@ -6236,9 +6236,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -6529,9 +6529,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -6836,9 +6836,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -7130,9 +7130,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -7430,9 +7430,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -7734,9 +7734,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -7947,8 +7947,8 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
             </div>
             <WithStyles(ForwardRef(TabIndicator))
               className="MuiTabs-indicator"
@@ -7995,16 +7995,16 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </Component>
-</WithTheme(Component)>
+  </ForwardRef>
+</WithTheme(ForwardRef)>
 `;
 
 exports[`Tab components rendering variants should match to snapshot - with TabContainer indicatorColor applied: TabContainer indicatorColor applied snapshot 1`] = `
-<WithTheme(Component)
+<WithTheme(ForwardRef)
   indicatorColor="secondary"
   value={false}
 >
-  <Component
+  <ForwardRef
     indicatorColor="secondary"
     theme={
       Object {
@@ -8120,9 +8120,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
           "type": "light",
           "warning": Object {
             "contrastText": "rgba(0, 0, 0, 0.87)",
-            "dark": "#ffa000",
-            "light": "#ffd54f",
-            "main": "#ffc107",
+            "dark": "#f57c00",
+            "light": "#ffb74d",
+            "main": "#ff9800",
           },
         },
         "props": Object {},
@@ -8409,9 +8409,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
             "type": "light",
             "warning": Object {
               "contrastText": "rgba(0, 0, 0, 0.87)",
-              "dark": "#ffa000",
-              "light": "#ffd54f",
-              "main": "#ffc107",
+              "dark": "#f57c00",
+              "light": "#ffb74d",
+              "main": "#ff9800",
             },
           },
           "props": Object {},
@@ -8713,9 +8713,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               "type": "light",
               "warning": Object {
                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                "dark": "#ffa000",
-                "light": "#ffd54f",
-                "main": "#ffc107",
+                "dark": "#f57c00",
+                "light": "#ffb74d",
+                "main": "#ff9800",
               },
             },
             "props": Object {},
@@ -9002,9 +9002,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 "type": "light",
                 "warning": Object {
                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                  "dark": "#ffa000",
-                  "light": "#ffd54f",
-                  "main": "#ffc107",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
                 },
               },
               "props": Object {},
@@ -9188,7 +9188,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               className="MuiTabs-flexContainer"
               role="tablist"
             >
-              <WithTheme(Component)
+              <WithTheme(ForwardRef)
                 fullWidth={false}
                 indicator={false}
                 key=".0"
@@ -9197,7 +9197,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={0}
               >
-                <Component
+                <ForwardRef
                   fullWidth={false}
                   indicator={false}
                   label="Item One"
@@ -9317,9 +9317,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -9610,9 +9610,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -9917,9 +9917,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -10211,9 +10211,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -10511,9 +10511,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -10815,9 +10815,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -11028,9 +11028,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
-              <WithTheme(Component)
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
+              <WithTheme(ForwardRef)
                 fullWidth={false}
                 indicator={false}
                 key=".1"
@@ -11039,7 +11039,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={1}
               >
-                <Component
+                <ForwardRef
                   fullWidth={false}
                   indicator={false}
                   label="Item Two"
@@ -11159,9 +11159,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -11452,9 +11452,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -11759,9 +11759,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -12053,9 +12053,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -12353,9 +12353,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -12657,9 +12657,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -12870,9 +12870,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
-              <WithTheme(Component)
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
+              <WithTheme(ForwardRef)
                 fullWidth={false}
                 indicator={false}
                 key=".2"
@@ -12881,7 +12881,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={2}
               >
-                <Component
+                <ForwardRef
                   fullWidth={false}
                   indicator={false}
                   label="Item Three"
@@ -13001,9 +13001,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -13294,9 +13294,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -13601,9 +13601,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -13895,9 +13895,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -14195,9 +14195,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -14499,9 +14499,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -14712,8 +14712,8 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
             </div>
             <WithStyles(ForwardRef(TabIndicator))
               className="MuiTabs-indicator"
@@ -14760,16 +14760,16 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </Component>
-</WithTheme(Component)>
+  </ForwardRef>
+</WithTheme(ForwardRef)>
 `;
 
 exports[`Tab components rendering variants should match to snapshot - with TabContainer textColor applied: TabContainer textColor applied snapshot 1`] = `
-<WithTheme(Component)
+<WithTheme(ForwardRef)
   textColor="secondary"
   value={false}
 >
-  <Component
+  <ForwardRef
     textColor="secondary"
     theme={
       Object {
@@ -14885,9 +14885,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
           "type": "light",
           "warning": Object {
             "contrastText": "rgba(0, 0, 0, 0.87)",
-            "dark": "#ffa000",
-            "light": "#ffd54f",
-            "main": "#ffc107",
+            "dark": "#f57c00",
+            "light": "#ffb74d",
+            "main": "#ff9800",
           },
         },
         "props": Object {},
@@ -15174,9 +15174,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
             "type": "light",
             "warning": Object {
               "contrastText": "rgba(0, 0, 0, 0.87)",
-              "dark": "#ffa000",
-              "light": "#ffd54f",
-              "main": "#ffc107",
+              "dark": "#f57c00",
+              "light": "#ffb74d",
+              "main": "#ff9800",
             },
           },
           "props": Object {},
@@ -15478,9 +15478,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               "type": "light",
               "warning": Object {
                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                "dark": "#ffa000",
-                "light": "#ffd54f",
-                "main": "#ffc107",
+                "dark": "#f57c00",
+                "light": "#ffb74d",
+                "main": "#ff9800",
               },
             },
             "props": Object {},
@@ -15767,9 +15767,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 "type": "light",
                 "warning": Object {
                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                  "dark": "#ffa000",
-                  "light": "#ffd54f",
-                  "main": "#ffc107",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
                 },
               },
               "props": Object {},
@@ -15953,7 +15953,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               className="MuiTabs-flexContainer"
               role="tablist"
             >
-              <WithTheme(Component)
+              <WithTheme(ForwardRef)
                 fullWidth={false}
                 indicator={false}
                 key=".0"
@@ -15962,7 +15962,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="secondary"
                 value={0}
               >
-                <Component
+                <ForwardRef
                   fullWidth={false}
                   indicator={false}
                   label="Item One"
@@ -16082,9 +16082,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -16375,9 +16375,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -16682,9 +16682,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -16976,9 +16976,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -17276,9 +17276,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -17580,9 +17580,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -17793,9 +17793,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
-              <WithTheme(Component)
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
+              <WithTheme(ForwardRef)
                 fullWidth={false}
                 indicator={false}
                 key=".1"
@@ -17804,7 +17804,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="secondary"
                 value={1}
               >
-                <Component
+                <ForwardRef
                   fullWidth={false}
                   indicator={false}
                   label="Item Two"
@@ -17924,9 +17924,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -18217,9 +18217,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -18524,9 +18524,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -18818,9 +18818,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -19118,9 +19118,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -19422,9 +19422,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -19635,9 +19635,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
-              <WithTheme(Component)
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
+              <WithTheme(ForwardRef)
                 fullWidth={false}
                 indicator={false}
                 key=".2"
@@ -19646,7 +19646,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="secondary"
                 value={2}
               >
-                <Component
+                <ForwardRef
                   fullWidth={false}
                   indicator={false}
                   label="Item Three"
@@ -19766,9 +19766,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -20059,9 +20059,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -20366,9 +20366,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -20660,9 +20660,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -20960,9 +20960,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -21264,9 +21264,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -21477,8 +21477,8 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
             </div>
             <WithStyles(ForwardRef(TabIndicator))
               className="MuiTabs-indicator"
@@ -21525,15 +21525,15 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </Component>
-</WithTheme(Component)>
+  </ForwardRef>
+</WithTheme(ForwardRef)>
 `;
 
 exports[`Tab components rendering variants should match to snapshot - with TabItem disabled : TabContainer indicatorColor disabled snapshot 1`] = `
-<WithTheme(Component)
+<WithTheme(ForwardRef)
   value={false}
 >
-  <Component
+  <ForwardRef
     theme={
       Object {
         "breakpoints": Object {
@@ -21648,9 +21648,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
           "type": "light",
           "warning": Object {
             "contrastText": "rgba(0, 0, 0, 0.87)",
-            "dark": "#ffa000",
-            "light": "#ffd54f",
-            "main": "#ffc107",
+            "dark": "#f57c00",
+            "light": "#ffb74d",
+            "main": "#ff9800",
           },
         },
         "props": Object {},
@@ -21936,9 +21936,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
             "type": "light",
             "warning": Object {
               "contrastText": "rgba(0, 0, 0, 0.87)",
-              "dark": "#ffa000",
-              "light": "#ffd54f",
-              "main": "#ffc107",
+              "dark": "#f57c00",
+              "light": "#ffb74d",
+              "main": "#ff9800",
             },
           },
           "props": Object {},
@@ -22239,9 +22239,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
               "type": "light",
               "warning": Object {
                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                "dark": "#ffa000",
-                "light": "#ffd54f",
-                "main": "#ffc107",
+                "dark": "#f57c00",
+                "light": "#ffb74d",
+                "main": "#ff9800",
               },
             },
             "props": Object {},
@@ -22528,9 +22528,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                 "type": "light",
                 "warning": Object {
                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                  "dark": "#ffa000",
-                  "light": "#ffd54f",
-                  "main": "#ffc107",
+                  "dark": "#f57c00",
+                  "light": "#ffb74d",
+                  "main": "#ff9800",
                 },
               },
               "props": Object {},
@@ -22714,7 +22714,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
               className="MuiTabs-flexContainer"
               role="tablist"
             >
-              <WithTheme(Component)
+              <WithTheme(ForwardRef)
                 disabled={true}
                 fullWidth={false}
                 indicator={false}
@@ -22724,7 +22724,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                 textColor="inherit"
                 value={0}
               >
-                <Component
+                <ForwardRef
                   disabled={true}
                   fullWidth={false}
                   indicator={false}
@@ -22845,9 +22845,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -23139,9 +23139,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -23447,9 +23447,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -23741,9 +23741,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -24041,9 +24041,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -24345,9 +24345,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -24528,9 +24528,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
-              <WithTheme(Component)
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
+              <WithTheme(ForwardRef)
                 disabled={true}
                 fullWidth={false}
                 indicator={false}
@@ -24540,7 +24540,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                 textColor="inherit"
                 value={1}
               >
-                <Component
+                <ForwardRef
                   disabled={true}
                   fullWidth={false}
                   indicator={false}
@@ -24661,9 +24661,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -24955,9 +24955,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -25263,9 +25263,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -25557,9 +25557,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -25857,9 +25857,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -26161,9 +26161,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -26344,9 +26344,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
-              <WithTheme(Component)
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
+              <WithTheme(ForwardRef)
                 disabled={true}
                 fullWidth={false}
                 indicator={false}
@@ -26356,7 +26356,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                 textColor="inherit"
                 value={2}
               >
-                <Component
+                <ForwardRef
                   disabled={true}
                   fullWidth={false}
                   indicator={false}
@@ -26477,9 +26477,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                         "type": "light",
                         "warning": Object {
                           "contrastText": "rgba(0, 0, 0, 0.87)",
-                          "dark": "#ffa000",
-                          "light": "#ffd54f",
-                          "main": "#ffc107",
+                          "dark": "#f57c00",
+                          "light": "#ffb74d",
+                          "main": "#ff9800",
                         },
                       },
                       "props": Object {},
@@ -26771,9 +26771,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                           "type": "light",
                           "warning": Object {
                             "contrastText": "rgba(0, 0, 0, 0.87)",
-                            "dark": "#ffa000",
-                            "light": "#ffd54f",
-                            "main": "#ffc107",
+                            "dark": "#f57c00",
+                            "light": "#ffb74d",
+                            "main": "#ff9800",
                           },
                         },
                         "props": Object {},
@@ -27079,9 +27079,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                             "type": "light",
                             "warning": Object {
                               "contrastText": "rgba(0, 0, 0, 0.87)",
-                              "dark": "#ffa000",
-                              "light": "#ffd54f",
-                              "main": "#ffc107",
+                              "dark": "#f57c00",
+                              "light": "#ffb74d",
+                              "main": "#ff9800",
                             },
                           },
                           "props": Object {},
@@ -27373,9 +27373,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                               "type": "light",
                               "warning": Object {
                                 "contrastText": "rgba(0, 0, 0, 0.87)",
-                                "dark": "#ffa000",
-                                "light": "#ffd54f",
-                                "main": "#ffc107",
+                                "dark": "#f57c00",
+                                "light": "#ffb74d",
+                                "main": "#ff9800",
                               },
                             },
                             "props": Object {},
@@ -27673,9 +27673,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                                 "type": "light",
                                 "warning": Object {
                                   "contrastText": "rgba(0, 0, 0, 0.87)",
-                                  "dark": "#ffa000",
-                                  "light": "#ffd54f",
-                                  "main": "#ffc107",
+                                  "dark": "#f57c00",
+                                  "light": "#ffb74d",
+                                  "main": "#ff9800",
                                 },
                               },
                               "props": Object {},
@@ -27977,9 +27977,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                                   "type": "light",
                                   "warning": Object {
                                     "contrastText": "rgba(0, 0, 0, 0.87)",
-                                    "dark": "#ffa000",
-                                    "light": "#ffd54f",
-                                    "main": "#ffc107",
+                                    "dark": "#f57c00",
+                                    "light": "#ffb74d",
+                                    "main": "#ff9800",
                                   },
                                 },
                                 "props": Object {},
@@ -28160,8 +28160,8 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </Component>
-              </WithTheme(Component)>
+                </ForwardRef>
+              </WithTheme(ForwardRef)>
             </div>
             <WithStyles(ForwardRef(TabIndicator))
               className="MuiTabs-indicator"
@@ -28208,6 +28208,6 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </Component>
-</WithTheme(Component)>
+  </ForwardRef>
+</WithTheme(ForwardRef)>
 `;

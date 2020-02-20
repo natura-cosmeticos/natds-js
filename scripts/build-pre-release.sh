@@ -13,24 +13,23 @@ yarn build:libs
 
 yarn lerna run test:ci
 
-cd packages/docs
+cd $TRAVIS_BUILD_DIR
 
-rm -rf "dist/releases/v${NEW_VERSION}"
+mkdir -p ../tmp
 
-yarn build -o "dist/releases/v${NEW_VERSION}" --quiet
+cd $TRAVIS_BUILD_DIR/packages/docs
 
-TEST_RESULT_FILENAME=".jest-test-results.json"
+yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${NEW_VERSION}" --quiet
 
-PACKAGES=("styles" "web")
+cd $TRAVIS_BUILD_DIR
 
-for package in "${PACKAGES[@]}"
-do
-  git checkout ../$package/$TEST_RESULT_FILENAME || true
-done
+git checkout .
 
-cd ../../scripts
+cd scripts
 
 VERSION_WO_ALPHA=`node helpers/removeAlphaFromVersion.js ${NEW_VERSION}`
+
+cd ..
 
 git remote rm origin
 # This remote is using a contributor account and an OAuth key from github
@@ -39,15 +38,11 @@ git remote add origin https://$GITHUB_API_USER:$GITHUB_API_KEY@github.com/natura
 
 git fetch
 
-git add --all
-
-git stash
-
 git checkout "v${VERSION_WO_ALPHA}-docs"
 
-git stash pop
+cp -r ${TRAVIS_BUILD_DIR}/../tmp/v${NEW_VERSION} packages/docs/dist/releases
 
-node helpers/addVersionOnConfig.js $NEW_VERSION
+node scripts/helpers/addVersionOnConfig.js $NEW_VERSION
 
 # Travis will make the commit
 
@@ -57,6 +52,6 @@ git config --global user.name "Travis CI"
 
 git add --all
 
-git commit -m "Travis Commit: Generating docs for alpha version ${NEW_VERSION}"
+git commit -m "Travis Commit: Generating docs for alpha version ${NEW_VERSION}" --allow-empty
 
 git push -f -u origin v${VERSION_WO_ALPHA}-docs

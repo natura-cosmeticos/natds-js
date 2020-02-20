@@ -7,7 +7,7 @@ Natura Design System - Styles
 
 ## Installation
 
-These are the icons used by [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), they are imported by the corresponding component when using one of the above libraries.
+This package holds the themes used by [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), they are imported by the corresponding component.
 They are included and managed by the components of these projects.
 
 

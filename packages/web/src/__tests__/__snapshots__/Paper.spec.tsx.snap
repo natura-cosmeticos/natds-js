@@ -1,7 +1,7 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Paper components rendering variants should match to snapshot - default Paper: Paper default snapshot 1`] = `
-<Paper>
+<ForwardRef>
   <WithStyles(ForwardRef(Paper))>
     <ForwardRef(Paper)
       classes={
@@ -42,11 +42,11 @@ exports[`Paper components rendering variants should match to snapshot - default 
       />
     </ForwardRef(Paper)>
   </WithStyles(ForwardRef(Paper))>
-</Paper>
+</ForwardRef>
 `;
 
 exports[`Paper components rendering variants should match to snapshot - with elevation: Paper with elevation snapshot 1`] = `
-<Paper
+<ForwardRef
   elevation={3}
 >
   <WithStyles(ForwardRef(Paper))
@@ -92,11 +92,11 @@ exports[`Paper components rendering variants should match to snapshot - with ele
       />
     </ForwardRef(Paper)>
   </WithStyles(ForwardRef(Paper))>
-</Paper>
+</ForwardRef>
 `;
 
 exports[`Paper components rendering variants should match to snapshot - with variant outlined square: Paper with variant outlined square snapshot 1`] = `
-<Paper
+<ForwardRef
   square={true}
   variant="outlined"
 >
@@ -145,11 +145,11 @@ exports[`Paper components rendering variants should match to snapshot - with var
       />
     </ForwardRef(Paper)>
   </WithStyles(ForwardRef(Paper))>
-</Paper>
+</ForwardRef>
 `;
 
 exports[`Paper components rendering variants should match to snapshot - with variant outlined: Paper with variant outlined snapshot 1`] = `
-<Paper
+<ForwardRef
   variant="outlined"
 >
   <WithStyles(ForwardRef(Paper))
@@ -195,5 +195,5 @@ exports[`Paper components rendering variants should match to snapshot - with var
       />
     </ForwardRef(Paper)>
   </WithStyles(ForwardRef(Paper))>
-</Paper>
+</ForwardRef>
 `;
