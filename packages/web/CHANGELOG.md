@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.3.6...@naturacosmeticos/natds-web@0.4.0) (2020-02-20)
+
+
+### Bug Fixes
+
+* **badge:** updating badge paddings ([eb1c3c8](https://github.com/natura-cosmeticos/natds/commit/eb1c3c85212e9e13d961000c81921b7c0190cd80))
+* **chip:** updating chip font-size ([ca09143](https://github.com/natura-cosmeticos/natds/commit/ca09143ae1b32ceb976c97ba5a8b14e6b7c41579))
+* **chip:** updating Chip tokens ([abc09fc](https://github.com/natura-cosmeticos/natds/commit/abc09fcc33350d4830f9f0b6432d3108cc39b821))
+* **chip:** updating Chip tokens ([add61b7](https://github.com/natura-cosmeticos/natds/commit/add61b796e7615601e7a6d905293f2e69dffb499))
+* **drawer:** updating drawer footer padding ([dd9721c](https://github.com/natura-cosmeticos/natds/commit/dd9721ce8ec783df28c9567f68ad44328efa7f94))
+* **drawer:** updating drawer margins ([2689b4e](https://github.com/natura-cosmeticos/natds/commit/2689b4ee247e1b840389cb93b0fb0d245369d335))
+* **expansion-panel:** updating disabled state opacity ([f08e2cf](https://github.com/natura-cosmeticos/natds/commit/f08e2cfc2a4bed3152e3e2af8726ddda53703676))
+* **expansion-panel:** updating Expansion Panel layout ([c4f2e27](https://github.com/natura-cosmeticos/natds/commit/c4f2e278892e43ead7615d160d0510587f7ecdd2))
+* **expansion-panel:** updating styles of Expansion Panel ([22af648](https://github.com/natura-cosmeticos/natds/commit/22af648194362f2393bf81d1833d2d0403bbfb50))
+* **expansion-panel:** yet another opacity fix ([5a772dc](https://github.com/natura-cosmeticos/natds/commit/5a772dcb793ae48d17985d17a7f58291e4e145ac))
+* **intro:** creating color props for Intro Typography ([c9119d8](https://github.com/natura-cosmeticos/natds/commit/c9119d8b5cfa03ef08687adead3c49d817be64e7))
+* **menu:** fixing list/menu item hover color ([28ae4dd](https://github.com/natura-cosmeticos/natds/commit/28ae4dd5e2883935bbf9d6fde0a02ae726d2d32c))
+* **menu:** updating menu and list hover color ([5bcc9e7](https://github.com/natura-cosmeticos/natds/commit/5bcc9e7ddba7bd445e208b532764079872955783))
+* **web:** forwarding refs for all components ([8718e3e](https://github.com/natura-cosmeticos/natds/commit/8718e3e2f84d3093388fcc057cb1f117aaf983e5))
+
+
+### Features
+
+* **expansion-panel:** creating ExpansionPanel component ([4baf789](https://github.com/natura-cosmeticos/natds/commit/4baf7896fadad56d25b76f18845a40abd536439f))
+* **intro:** creating Intro component ([84b22dc](https://github.com/natura-cosmeticos/natds/commit/84b22dcfe618a6631e423aabca3e3c0f3fa1d5ec))
+* **menu:** creating Menu and MenuItem components ([eb4bc03](https://github.com/natura-cosmeticos/natds/commit/eb4bc03c2d806eea0e00cb6522ee7c04b023594a))
+* **menu:** exporting material Popover and MenuList components ([8f6a59f](https://github.com/natura-cosmeticos/natds/commit/8f6a59f9056a30e0bd0293f6c8f53b48a37a79eb))
+
+
+
+
+
 ## [0.3.6](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.3.5...@naturacosmeticos/natds-web@0.3.6) (2020-02-19)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web

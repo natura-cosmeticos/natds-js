@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.4.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.3.6...@naturacosmeticos/natds-icons@0.4.0) (2020-02-20)
+
+
+### Features
+
+* **icons:** including new icons ([dbb1a61](https://github.com/natura-cosmeticos/natds/commit/dbb1a613912206569401d70d99ca1bfe7c5bc276))
+* **menu:** creating Menu and MenuItem components ([eb4bc03](https://github.com/natura-cosmeticos/natds/commit/eb4bc03c2d806eea0e00cb6522ee7c04b023594a))
+
+
+
+
+
 ## [0.3.6](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.3.5...@naturacosmeticos/natds-icons@0.3.6) (2020-02-19)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
