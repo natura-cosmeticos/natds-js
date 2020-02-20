@@ -17,37 +17,29 @@ fi
 
 yarn lerna run test:ci
 
-cd packages/docs
+cd $TRAVIS_BUILD_DIR
 
-rm -rf dist/releases/v${VERSION}
+mkdir -p ../tmp
 
-yarn build -o "dist/releases/v${VERSION}" --quiet
+cd $TRAVIS_BUILD_DIR/packages/docs
 
-TEST_RESULT_FILENAME=".jest-test-results.json"
+yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
 
-PACKAGES=("styles" "web" "mobile")
+cd $TRAVIS_BUILD_DIR
 
-for package in "${PACKAGES[@]}"
-do
-  git checkout ../$package/$TEST_RESULT_FILENAME || true
-done
-
-cd ../../scripts
-
-git add --all
-
-git stash
+git checkout .
 
 git checkout master-docs
 
-git stash pop
+cd scripts
 
 node helpers/addVersionOnConfig.js $VERSION
+
+cd ..
+
+cp -r ${TRAVIS_BUILD_DIR}/../tmp/v${VERSION} packages/docs/dist/releases
 
 git add --all
 git commit -m "Travis Commit: Generating docs for production versions ${VERSION}"
 
 git push -f -u origin master-docs
-
-
-
