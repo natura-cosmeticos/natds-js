@@ -170,7 +170,8 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -178,24 +179,10 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -586,7 +573,8 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -594,24 +582,10 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -1009,7 +983,8 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -1017,24 +992,10 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -1432,7 +1393,8 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -1440,24 +1402,10 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -1848,7 +1796,8 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -1856,24 +1805,10 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -2271,7 +2206,8 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -2279,24 +2215,10 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -2694,7 +2616,8 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -2702,24 +2625,10 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -3110,7 +3019,8 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -3118,24 +3028,10 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -3533,7 +3429,8 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -3541,24 +3438,10 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -3956,7 +3839,8 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -3964,24 +3848,10 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -4372,7 +4242,8 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -4380,24 +4251,10 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -4795,7 +4652,8 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -4803,24 +4661,10 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -5218,7 +5062,8 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -5226,24 +5071,10 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -5634,7 +5465,8 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -5642,24 +5474,10 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -6057,7 +5875,8 @@ exports[`Intro component should match snapshot - Any valid Intro with error titl
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -6065,24 +5884,10 @@ exports[`Intro component should match snapshot - Any valid Intro with error titl
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -6480,7 +6285,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -6488,24 +6294,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -6896,7 +6688,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -6904,24 +6697,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -7319,7 +7098,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -7327,24 +7107,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -7742,7 +7508,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -7750,24 +7517,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -8158,7 +7911,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -8166,24 +7920,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -8581,7 +8321,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -8589,24 +8330,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -9004,7 +8731,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -9012,24 +8740,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -9420,7 +9134,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -9428,24 +9143,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -9843,7 +9544,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -9851,24 +9553,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -10266,7 +9954,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -10274,24 +9963,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -10682,7 +10357,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -10690,24 +10366,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -11105,7 +10767,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -11113,24 +10776,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -11528,7 +11177,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -11536,24 +11186,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -11944,7 +11580,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -11952,24 +11589,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -12367,7 +11990,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -12375,24 +11999,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -12790,7 +12400,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -12798,24 +12409,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -13206,7 +12803,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -13214,24 +12812,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -13629,7 +13213,8 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -13637,24 +13222,10 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -14052,7 +13623,8 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -14060,24 +13632,10 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -14468,7 +14026,8 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -14476,24 +14035,10 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -14891,7 +14436,8 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -14899,24 +14445,10 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -15307,7 +14839,8 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -15315,24 +14848,10 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -15730,7 +15249,8 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -15738,24 +15258,10 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -16153,7 +15659,8 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -16161,24 +15668,10 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -16576,7 +16069,8 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -16584,24 +16078,10 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -16992,7 +16472,8 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -17000,24 +16481,10 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -17415,7 +16882,8 @@ exports[`Intro component should match snapshot - Any valid Intro with initial ti
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -17423,24 +16891,10 @@ exports[`Intro component should match snapshot - Any valid Intro with initial ti
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -17838,7 +17292,8 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -17846,24 +17301,10 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -18254,7 +17695,8 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -18262,24 +17704,10 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -18677,7 +18105,8 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -18685,24 +18114,10 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -19100,7 +18515,8 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -19108,24 +18524,10 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -19516,7 +18918,8 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -19524,24 +18927,10 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -19939,7 +19328,8 @@ exports[`Intro component should match snapshot - Any valid Intro with primary ti
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -19947,24 +19337,10 @@ exports[`Intro component should match snapshot - Any valid Intro with primary ti
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -20362,7 +19738,8 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -20370,24 +19747,10 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -20778,7 +20141,8 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -20786,24 +20150,10 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -21201,7 +20551,8 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -21209,24 +20560,10 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -21624,7 +20961,8 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -21632,24 +20970,10 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -22040,7 +21364,8 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -22048,24 +21373,10 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -22463,7 +21774,8 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -22471,24 +21783,10 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -22886,7 +22184,8 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -22894,24 +22193,10 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -23302,7 +22587,8 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -23310,24 +22596,10 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -23725,7 +22997,8 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -23733,24 +23006,10 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -24148,7 +23407,8 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -24156,24 +23416,10 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -24564,7 +23810,8 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -24572,24 +23819,10 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -24987,7 +24220,8 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -24995,24 +24229,10 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -25410,7 +24630,8 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -25418,24 +24639,10 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -25826,7 +25033,8 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -25834,24 +25042,10 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -26249,7 +25443,8 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -26257,24 +25452,10 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -26672,7 +25853,8 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -26680,24 +25862,10 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -27088,7 +26256,8 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -27096,24 +26265,10 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -27511,7 +26666,8 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -27519,24 +26675,10 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -27934,7 +27076,8 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -27942,24 +27085,10 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -28350,7 +27479,8 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -28358,24 +27488,10 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -28773,7 +27889,8 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -28781,24 +27898,10 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",
@@ -29200,7 +28303,8 @@ exports[`Intro component should match snapshot - Intro with title and without de
           "MuiExpansionPanel": Object {
             "root": Object {
               "&$disabled": Object {
-                "backgroundColor": "rgba(255, 255, 255, 0.32)",
+                "backgroundColor": "#FFFFFF",
+                "opacity": 0.32,
               },
               "&$expanded": Object {
                 "borderColor": "#F4AB34",
@@ -29208,24 +28312,10 @@ exports[`Intro component should match snapshot - Intro with title and without de
               "border": "transparent 1px solid",
             },
           },
-          "MuiExpansionPanelActions": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
-          "MuiExpansionPanelContent": Object {
-            "root": Object {
-              "&$disabled": Object {
-                "opacity": 0.32,
-              },
-            },
-          },
           "MuiExpansionPanelSummary": Object {
             "root": Object {
               "&$disabled": Object {
-                "opacity": 0.32,
+                "opacity": 1,
               },
               "alignItems": "flex-start",
               "marginTop": "8px",

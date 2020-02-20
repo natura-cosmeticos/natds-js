@@ -164,7 +164,8 @@ Object {
     "MuiExpansionPanel": Object {
       "root": Object {
         "&$disabled": Object {
-          "backgroundColor": "rgba(255, 255, 255, 0.32)",
+          "backgroundColor": "#FFFFFF",
+          "opacity": 0.32,
         },
         "&$expanded": Object {
           "borderColor": "#F4AB34",
@@ -172,24 +173,10 @@ Object {
         "border": "transparent 1px solid",
       },
     },
-    "MuiExpansionPanelActions": Object {
-      "root": Object {
-        "&$disabled": Object {
-          "opacity": 0.32,
-        },
-      },
-    },
-    "MuiExpansionPanelContent": Object {
-      "root": Object {
-        "&$disabled": Object {
-          "opacity": 0.32,
-        },
-      },
-    },
     "MuiExpansionPanelSummary": Object {
       "root": Object {
         "&$disabled": Object {
-          "opacity": 0.32,
+          "opacity": 1,
         },
         "alignItems": "flex-start",
         "marginTop": "8px",
