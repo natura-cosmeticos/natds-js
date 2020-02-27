@@ -103,12 +103,12 @@ Object {
       },
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#890A6C",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#890A6C",
         },
       },
       "deleteIcon": Object {
@@ -286,16 +286,16 @@ Object {
       "main": "#E74627",
     },
     "primary": Object {
-      "contrastText": "#333333",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#F4AB34",
+      "contrastText": "#FFFFFF",
+      "dark": "#890A6C",
+      "light": "#FAE5F2",
+      "main": "#F091C9",
     },
     "secondary": Object {
-      "contrastText": "#000000",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#FF6B0B",
+      "contrastText": "#1B1B1B",
+      "dark": "#1B1B1B",
+      "light": "#F9F9F9",
+      "main": "#E9E9E9",
     },
     "success": Object {
       "contrastText": "#FFFFFF",
@@ -506,12 +506,12 @@ Object {
     "MuiChip": Object {
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#890A6C",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#890A6C",
         },
       },
       "deleteIcon": Object {
@@ -674,7 +674,7 @@ Object {
       "paperContrastText": "#333333",
     },
     "complementary": Object {
-      "highlight": "#000000",
+      "highlight": "#1B1B1B",
       "link": "#227BBD",
       "linkContrastText": "#FFFFFF",
       "warning": "#FCC433",
@@ -685,16 +685,16 @@ Object {
       "main": "#E74627",
     },
     "primary": Object {
-      "contrastText": "#333333",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#DE0084",
+      "contrastText": "#FFFFFF",
+      "dark": "#890A6C",
+      "light": "#FAE5F2",
+      "main": "#F091C9",
     },
     "secondary": Object {
-      "contrastText": "#000000",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#FF6B0B",
+      "contrastText": "#1B1B1B",
+      "dark": "#1B1B1B",
+      "light": "#F9F9F9",
+      "main": "#E9E9E9",
     },
     "success": Object {
       "contrastText": "#FFFFFF",

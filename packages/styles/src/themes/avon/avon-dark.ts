@@ -13,8 +13,16 @@ import { sizes } from "../../tokens/sizes";
 
 const { natura } = tokens.colors;
 
-const PRIMARY_LIGHT = "#FEFDE8";
-const PRIMARY_DARK = "#EF8426";
+const PRIMARY_MAIN = "#F091C9";
+const PRIMARY_DARK = "#890A6C";
+const PRIMARY_LIGHT = "#FAE5F2";
+const PRIMARY_CONTRAST = "#FFFFFF";
+
+const SECONDARY_MAIN = "#E9E9E9";
+const SECONDARY_DARK = "#1B1B1B";
+const SECONDARY_LIGHT = "#F9F9F9";
+const SECONDARY_CONTRAST = "#1B1B1B";
+
 const GRAY_DARK = "#121212";
 const GRAY_LIGHT = "#FAFAFA";
 
@@ -33,16 +41,16 @@ export const avonDark: ITheme = {
       disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
     },
     primary: {
-      main: natura.primary.colorBrdNatPrimaryYellow,
+      main: PRIMARY_MAIN,
       light: PRIMARY_LIGHT,
       dark: PRIMARY_DARK,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: PRIMARY_CONTRAST
     },
     secondary: {
-      main: natura.primary.colorBrdNatPrimaryOrange,
-      light: PRIMARY_LIGHT,
-      dark: PRIMARY_DARK,
-      contrastText: natura.grayscale.colorBrdBlack
+      main: SECONDARY_MAIN,
+      light: SECONDARY_LIGHT,
+      dark: SECONDARY_DARK,
+      contrastText: SECONDARY_CONTRAST
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,

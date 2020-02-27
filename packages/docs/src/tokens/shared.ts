@@ -1,10 +1,9 @@
 export default {
   options: {
-    showAddonPanel: false
+    showPanel: false
   },
   knobs: { disabled: true },
   test: { disabled: true },
-  versions: { disabled: true },
   theme: { disabled: true },
   a11y: { disabled: true }
 };

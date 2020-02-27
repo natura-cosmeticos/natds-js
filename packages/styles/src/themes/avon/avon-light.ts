@@ -12,9 +12,17 @@ import { sizes } from "../../tokens/sizes";
 
 const { natura } = tokens.colors;
 
-const PRIMARY_MAIN = "#DE0084";
-const PRIMARY_LIGHT = "#FEFDE8";
-const PRIMARY_DARK = "#EF8426";
+const PRIMARY_MAIN = "#F091C9";
+const PRIMARY_DARK = "#890A6C";
+const PRIMARY_LIGHT = "#FAE5F2";
+const PRIMARY_CONTRAST = "#FFFFFF";
+
+const SECONDARY_MAIN = "#E9E9E9";
+const SECONDARY_DARK = "#1B1B1B";
+const SECONDARY_LIGHT = "#F9F9F9";
+const SECONDARY_CONTRAST = "#1B1B1B";
+
+const GRAY_LIGHT = "#FAFAFA";
 
 export const avonLight: ITheme = {
   shape: {
@@ -34,13 +42,13 @@ export const avonLight: ITheme = {
       main: PRIMARY_MAIN,
       light: PRIMARY_LIGHT,
       dark: PRIMARY_DARK,
-      contrastText: natura.grayscale.colorBrdNatGray
+      contrastText: PRIMARY_CONTRAST
     },
     secondary: {
-      main: natura.primary.colorBrdNatPrimaryOrange,
-      light: PRIMARY_LIGHT,
-      dark: PRIMARY_DARK,
-      contrastText: natura.grayscale.colorBrdBlack
+      main: SECONDARY_MAIN,
+      light: SECONDARY_LIGHT,
+      dark: SECONDARY_DARK,
+      contrastText: SECONDARY_CONTRAST
     },
     error: {
       main: natura.complementary.colorBrdNatCpRed2,
@@ -52,7 +60,7 @@ export const avonLight: ITheme = {
     },
     background: {
       paper: natura.primary.colorBrdNatPrimaryWhite,
-      default: "#FAFAFA",
+      default: GRAY_LIGHT,
       paperContrastText: natura.grayscale.colorBrdNatGray,
       defaultContrastText: natura.grayscale.colorBrdNatGray
     },
@@ -63,7 +71,7 @@ export const avonLight: ITheme = {
       hint: natura.grayscale.colorBrdNatGray2
     },
     complementary: {
-      highlight: natura.grayscale.colorBrdBlack,
+      highlight: SECONDARY_CONTRAST,
       link: natura.complementary.colorBrdNatCpBlue1,
       linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
       warning: natura.complementary.colorBrdNatCpOrange4,
