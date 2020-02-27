@@ -14,6 +14,7 @@ const { natura } = tokens.colors;
 
 const PRIMARY_LIGHT = "#FEFDE8";
 const PRIMARY_DARK = "#EF8426";
+const GRAY_LIGHT = "#FAFAFA";
 
 export const naturaLight: ITheme = {
   shape: {
@@ -51,7 +52,7 @@ export const naturaLight: ITheme = {
     },
     background: {
       paper: natura.primary.colorBrdNatPrimaryWhite,
-      default: "#FAFAFA",
+      default: GRAY_LIGHT,
       paperContrastText: natura.grayscale.colorBrdNatGray,
       defaultContrastText: natura.grayscale.colorBrdNatGray
     },
