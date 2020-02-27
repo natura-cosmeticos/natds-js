@@ -18,9 +18,9 @@ const PRIMARY_LIGHT = "#FAE5F2";
 const PRIMARY_CONTRAST = "#FFFFFF";
 
 const SECONDARY_MAIN = "#E9E9E9";
-const SECONDARY_DARK = "#1B1B1B";
-const SECONDARY_LIGHT = "#F9F9F9";
-const SECONDARY_CONTRAST = "#1B1B1B";
+const SECONDARY_DARK = "#B7B7B7";
+const SECONDARY_LIGHT = "#FFFFFF";
+const SECONDARY_CONTRAST = "#333333";
 
 const GRAY_LIGHT = "#FAFAFA";
 
@@ -71,7 +71,7 @@ export const avonLight: ITheme = {
       hint: natura.grayscale.colorBrdNatGray2
     },
     complementary: {
-      highlight: SECONDARY_CONTRAST,
+      highlight: natura.grayscale.colorBrdBlack,
       link: natura.complementary.colorBrdNatCpBlue1,
       linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
       warning: natura.complementary.colorBrdNatCpOrange4,
