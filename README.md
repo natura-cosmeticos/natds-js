@@ -15,7 +15,7 @@ On how to use please refer to the [README](./packages/web/README.md) of the web 
 
 On how to use please refer to the [README](./packages/styles/README.md) of the styles package.
 
-## NatDS Icoons
+## NatDS Icons
 
 On how to use please refer to the [README](./packages/icons/README.md) of the icons package.
 
