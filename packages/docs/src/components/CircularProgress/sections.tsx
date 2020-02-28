@@ -33,6 +33,25 @@ export const variants = [
   },
   {
     title: 'Static',
-    component: <CircularProgress color="primary" variant="static" />
+    component: <CircularProgress color="primary" variant="static" value={5} />
   },
+  {
+    title: ' ',
+    component: <CircularProgress color="primary" variant="static" value={25} />
+  },
+  {
+    title: ' ',
+    component: <CircularProgress color="primary" variant="static" value={75} />
+  },
+  {
+    title: ' ',
+    component: <CircularProgress color="primary" variant="static" value={100} />
+  },
+]
+
+export const disableShrink = [
+  {
+    title: 'Indeterminate',
+    component: <CircularProgress color="primary" variant="indeterminate" disableShrink={true} />
+  }
 ]
