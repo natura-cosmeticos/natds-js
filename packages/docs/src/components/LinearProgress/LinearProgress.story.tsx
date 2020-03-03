@@ -24,7 +24,6 @@ export default {
   },
 };
 
-
 const primary: PropTypes.Color = 'primary';
 const secondary: PropTypes.Color = 'secondary';
 
@@ -40,8 +39,6 @@ const variants: any = {
   query: 'query',
 };
 
-
-
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
     root: {
@@ -50,11 +47,10 @@ const useStyles = makeStyles((theme: Theme) =>
         marginTop: theme.spacing(2),
       },
     },
-  }),
+  })
 );
 
 export const Interactive = () => {
-  
   const classes = useStyles();
 
   return (
@@ -66,11 +62,10 @@ export const Interactive = () => {
         variant={select('Variants', variants, variants.indeterminate)}
       />
     </div>
-  )
+  );
 };
 
 export const LinearIndeterminate = () => {
-  
   const classes = useStyles();
 
   return (
@@ -81,11 +76,10 @@ export const LinearIndeterminate = () => {
         variant={select('Variants', variants, variants.indeterminate)}
       />
     </div>
-  )
+  );
 };
 
 export const LinearDeterminate = () => {
-  
   const classes = useStyles();
   const [completed, setCompleted] = React.useState(0);
 
@@ -106,7 +100,6 @@ export const LinearDeterminate = () => {
     };
   }, []);
 
-
   return (
     <div className={classes.root}>
       <LinearProgress
@@ -115,11 +108,10 @@ export const LinearDeterminate = () => {
         variant="determinate"
       />
     </div>
-  )
+  );
 };
 
 export const LinearBuffer = () => {
-  
   const classes = useStyles();
   const [completed, setCompleted] = React.useState(0);
   const [buffer, setBuffer] = React.useState(10);
@@ -150,7 +142,6 @@ export const LinearBuffer = () => {
     };
   }, []);
 
-
   return (
     <div className={classes.root}>
       <LinearProgress
@@ -160,11 +151,10 @@ export const LinearBuffer = () => {
         variant="buffer"
       />
     </div>
-  )
+  );
 };
 
 export const LinearQuery = () => {
-  
   const classes = useStyles();
 
   return (
@@ -175,5 +165,5 @@ export const LinearQuery = () => {
         variant="query"
       />
     </div>
-  )
+  );
 };

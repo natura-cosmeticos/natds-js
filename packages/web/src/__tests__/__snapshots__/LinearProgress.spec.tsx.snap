@@ -2,6 +2,7 @@
 
 exports[`Circular Progress components rendering variants should match snapshot - with variant Buffer: With variant buffer snapshot 1`] = `
 <div
+  aria-valuenow={50}
   className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-buffer"
   role="progressbar"
 >
@@ -10,23 +11,36 @@ exports[`Circular Progress components rendering variants should match snapshot -
   />
   <div
     className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Buffer"
-    style={Object {}}
+    style={
+      Object {
+        "transform": "translateX(-50%)",
+      }
+    }
   />
   <div
     className="MuiLinearProgress-bar MuiLinearProgress-colorPrimary MuiLinearProgress-bar2Buffer"
-    style={Object {}}
+    style={
+      Object {
+        "transform": "translateX(-30%)",
+      }
+    }
   />
 </div>
 `;
 
 exports[`Circular Progress components rendering variants should match snapshot - with variant determinate: With variant determinate snapshot 1`] = `
 <div
+  aria-valuenow={70}
   className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate"
   role="progressbar"
 >
   <div
     className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate"
-    style={Object {}}
+    style={
+      Object {
+        "transform": "translateX(-30%)",
+      }
+    }
   />
 </div>
 `;
@@ -47,7 +61,7 @@ exports[`Circular Progress components rendering variants should match snapshot -
 </div>
 `;
 
-exports[`Circular Progress components rendering variants should match snapshot - with variant qyery: With variant query snapshot 1`] = `
+exports[`Circular Progress components rendering variants should match snapshot - with variant query: With variant query snapshot 1`] = `
 <div
   className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-query"
   role="progressbar"

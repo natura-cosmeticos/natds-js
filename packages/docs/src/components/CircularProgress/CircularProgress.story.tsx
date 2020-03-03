@@ -24,7 +24,6 @@ export default {
   },
 };
 
-
 const primary: PropTypes.Color = 'primary';
 const secondary: PropTypes.Color = 'secondary';
 const inherit: PropTypes.Color = 'inherit';
@@ -40,7 +39,6 @@ const variants: any = {
   indeterminate: 'indeterminate',
   static: 'static',
 };
-
 
 export const Interactive = () => (
   <CircularProgress
@@ -86,10 +84,11 @@ export const CircularDeterminate = () => {
         size={number('Size', 40)}
         thickness={number('Thickness', 3.6)}
         color={select('Colors', colors, colors.primary)}
-        value={progress} />
+        value={progress}
+      />
     </div>
   );
-}
+};
 
 export const CircularStatic = () => {
   const [completed, setCompleted] = React.useState(0);
@@ -107,7 +106,9 @@ export const CircularStatic = () => {
 
   React.useEffect(() => {
     function progress() {
-      setCompleted(prevCompleted => (prevCompleted >= 100 ? 0 : prevCompleted + 10));
+      setCompleted(prevCompleted =>
+        prevCompleted >= 100 ? 0 : prevCompleted + 10
+      );
     }
 
     const timer = setInterval(progress, 1000);
@@ -162,4 +163,4 @@ export const CircularStatic = () => {
       />
     </div>
   );
-}
+};

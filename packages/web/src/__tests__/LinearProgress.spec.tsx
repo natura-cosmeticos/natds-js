@@ -13,24 +13,31 @@ describe('Circular Progress components', () => {
     });
 
     test('should match snapshot - with variant indeterminate', () => {
-      const component = renderer.create(<LinearProgress variant="indeterminate" />).toJSON();
+      const component = renderer
+        .create(<LinearProgress variant="indeterminate" />)
+        .toJSON();
       expect(component).to.matchSnapshot('With variant indeterminate snapshot');
     });
 
     test('should match snapshot - with variant determinate', () => {
-      const component = renderer.create(<LinearProgress variant="determinate" value={70} />).toJSON();
+      const component = renderer
+        .create(<LinearProgress variant="determinate" value={70} />)
+        .toJSON();
       expect(component).to.matchSnapshot('With variant determinate snapshot');
     });
 
     test('should match snapshot - with variant Buffer', () => {
-      const component = renderer.create(<LinearProgress variant="buffer" valueBuffer={50} />).toJSON();
+      const component = renderer
+        .create(<LinearProgress variant="buffer" value={50} valueBuffer={70} />)
+        .toJSON();
       expect(component).to.matchSnapshot('With variant buffer snapshot');
     });
 
-    test('should match snapshot - with variant qyery', () => {
-      const component = renderer.create(<LinearProgress variant="query" />).toJSON();
+    test('should match snapshot - with variant query', () => {
+      const component = renderer
+        .create(<LinearProgress variant="query" />)
+        .toJSON();
       expect(component).to.matchSnapshot('With variant query snapshot');
     });
   });
-  
-})
+});
