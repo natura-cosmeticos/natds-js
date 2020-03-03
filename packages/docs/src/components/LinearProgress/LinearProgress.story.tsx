@@ -84,7 +84,7 @@ export const LinearDeterminate = () => {
   const [completed, setCompleted] = React.useState(0);
 
   React.useEffect(() => {
-    function progress() {
+    const progress = () => {
       setCompleted(oldCompleted => {
         if (oldCompleted === 100) {
           return 0;
@@ -92,7 +92,7 @@ export const LinearDeterminate = () => {
         const diff = Math.random() * 10;
         return Math.min(oldCompleted + diff, 100);
       });
-    }
+    };
 
     const timer = setInterval(progress, 500);
     return () => {
@@ -132,9 +132,9 @@ export const LinearBuffer = () => {
   });
 
   React.useEffect(() => {
-    function tick() {
+    const tick = () => {
       progress.current();
-    }
+    };
     const timer = setInterval(tick, 500);
 
     return () => {

@@ -66,10 +66,10 @@ export const CircularDeterminate = () => {
   const [progress, setProgress] = React.useState(0);
 
   React.useEffect(() => {
-    function tick() {
+    const tick = () => {
       // reset when reaching 100%
-      setProgress(oldProgress => (oldProgress >= 100 ? 0 : oldProgress + 1));
-    }
+      setProgress(oldProgress => (oldProgress + 1) % 100);
+    };
 
     const timer = setInterval(tick, 20);
     return () => {
@@ -105,11 +105,11 @@ export const CircularStatic = () => {
   const classes = useStyles();
 
   React.useEffect(() => {
-    function progress() {
+    const progress = () => {
       setCompleted(prevCompleted =>
         prevCompleted >= 100 ? 0 : prevCompleted + 10
       );
-    }
+    };
 
     const timer = setInterval(progress, 1000);
     return () => {

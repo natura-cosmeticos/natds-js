@@ -14,9 +14,8 @@ import { colors, variants } from './sections';
   <ComponentWithLabel componentList={colors} itemsPerRow={1} />
 </Provider>
 
-
 ## Variants
- 
+
 <Provider theme={themes.natura.light}>
   <ComponentWithLabel componentList={variants} itemsPerRow={1} />
 </Provider>
@@ -30,11 +29,7 @@ import { colors, variants } from './sections';
 ```jsx highlight-line="2"
 import { LinearProgress } from '@naturacosmeticos/natds-web';
 
-<LinearProgress
-  color="primary"
-  variant="indeterminate"
-  value="70"
-/>;
+<LinearProgress color="primary" variant="indeterminate" value="70" />;
 ```
 
 For more advanced usages, check [Material UI Progress docs](https://material-ui.com/pt/components/progress/)
@@ -45,10 +40,10 @@ For more advanced usages, check [Material UI Progress docs](https://material-ui.
 
 ## Circular Progress Props
 
-| Name          |                          Type                                |      Default     |                                                                                                                                           Description                        |
-| :------------ | :----------------------------------------------------------: | :--------------: | :--------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
-| classes       |                           object                             |                  |   Override or extend the styles applied to the component. See [Material Linear Progress CSS API](https://material-ui.com/api/linear-progress/#css) for more details.     |
-| color         |            'primary' \| 'secondary' \| 'inherit'             |     'primary'    |   The color of the component. It supports those theme colors that make sense for this component.                                                                             |
-| value         |                           number                             |                  |   The value of the progress indicator for the determinate and static variants. Value between 0 and 100.                                                                      |
-| valueBuffer   |                           number                             |                  |   The value for the buffer variant. Value between 0 and 100.                                                                      |
-| variant       |   'determinate' \| 'indeterminate' \| 'buffer' \| 'query'    |  'indeterminate' |   The variant to use. Use indeterminate when there is no progress value.                                                                                                     |
+| Name        |                          Type                           |     Default     |                                                                            Description                                                                             |
+| :---------- | :-----------------------------------------------------: | :-------------: | :----------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| classes     |                         object                          |                 | Override or extend the styles applied to the component. See [Material Linear Progress CSS API](https://material-ui.com/api/linear-progress/#css) for more details. |
+| color       |          'primary' \| 'secondary' \| 'inherit'          |    'primary'    |                                   The color of the component. It supports those theme colors that make sense for this component.                                   |
+| value       |                         number                          |                 |                               The value of the progress indicator for the determinate and static variants. Value between 0 and 100.                                |
+| valueBuffer |                         number                          |                 |                                                     The value for the buffer variant. Value between 0 and 100.                                                     |
+| variant     | 'determinate' \| 'indeterminate' \| 'buffer' \| 'query' | 'indeterminate' |                                               The variant to use. Use indeterminate when there is no progress value.                                               |
