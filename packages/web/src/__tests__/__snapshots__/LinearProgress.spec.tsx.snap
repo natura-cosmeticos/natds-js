@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant Buffer: With variant buffer snapshot 1`] = `
+<div
+  className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-buffer"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-dashed MuiLinearProgress-dashedColorPrimary"
+  />
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Buffer"
+    style={Object {}}
+  />
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-colorPrimary MuiLinearProgress-bar2Buffer"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant determinate: With variant determinate snapshot 1`] = `
+<div
+  className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant indeterminate: With variant indeterminate snapshot 1`] = `
+<div
+  className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-indeterminate"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate"
+    style={Object {}}
+  />
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-bar2Indeterminate MuiLinearProgress-barColorPrimary"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant qyery: With variant query snapshot 1`] = `
+<div
+  className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-query"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate"
+    style={Object {}}
+  />
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-bar2Indeterminate MuiLinearProgress-barColorPrimary"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match to snapshot - empty LinearProgress: LinearProgress empty snapshot 1`] = `
+<WithTheme(ForwardRef)>
+  <ForwardRef>
+    <WithStyles(ForwardRef(LinearProgress))>
+      <ForwardRef(LinearProgress)
+        classes={
+          Object {
+            "bar": "MuiLinearProgress-bar",
+            "bar1Buffer": "MuiLinearProgress-bar1Buffer",
+            "bar1Determinate": "MuiLinearProgress-bar1Determinate",
+            "bar1Indeterminate": "MuiLinearProgress-bar1Indeterminate",
+            "bar2Buffer": "MuiLinearProgress-bar2Buffer",
+            "bar2Indeterminate": "MuiLinearProgress-bar2Indeterminate",
+            "barColorPrimary": "MuiLinearProgress-barColorPrimary",
+            "barColorSecondary": "MuiLinearProgress-barColorSecondary",
+            "buffer": "MuiLinearProgress-buffer",
+            "colorPrimary": "MuiLinearProgress-colorPrimary",
+            "colorSecondary": "MuiLinearProgress-colorSecondary",
+            "dashed": "MuiLinearProgress-dashed",
+            "dashedColorPrimary": "MuiLinearProgress-dashedColorPrimary",
+            "dashedColorSecondary": "MuiLinearProgress-dashedColorSecondary",
+            "determinate": "MuiLinearProgress-determinate",
+            "indeterminate": "MuiLinearProgress-indeterminate",
+            "query": "MuiLinearProgress-query",
+            "root": "MuiLinearProgress-root",
+          }
+        }
+      >
+        <div
+          className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-indeterminate"
+          role="progressbar"
+        >
+          <div
+            className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate"
+            style={Object {}}
+          />
+          <div
+            className="MuiLinearProgress-bar MuiLinearProgress-bar2Indeterminate MuiLinearProgress-barColorPrimary"
+            style={Object {}}
+          />
+        </div>
+      </ForwardRef(LinearProgress)>
+    </WithStyles(ForwardRef(LinearProgress))>
+  </ForwardRef>
+</WithTheme(ForwardRef)>
+`;

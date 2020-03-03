@@ -99,48 +99,52 @@ exports[`Circular Progress components rendering variants should match snapshot -
 `;
 
 exports[`Circular Progress components rendering variants should match to snapshot - empty CircularProgress: CircularProgress empty snapshot 1`] = `
-<WithStyles(ForwardRef(CircularProgress))>
-  <ForwardRef(CircularProgress)
-    classes={
-      Object {
-        "circle": "MuiCircularProgress-circle",
-        "circleDisableShrink": "MuiCircularProgress-circleDisableShrink",
-        "circleIndeterminate": "MuiCircularProgress-circleIndeterminate",
-        "circleStatic": "MuiCircularProgress-circleStatic",
-        "colorPrimary": "MuiCircularProgress-colorPrimary",
-        "colorSecondary": "MuiCircularProgress-colorSecondary",
-        "indeterminate": "MuiCircularProgress-indeterminate",
-        "root": "MuiCircularProgress-root",
-        "static": "MuiCircularProgress-static",
-        "svg": "MuiCircularProgress-svg",
-      }
-    }
-  >
-    <div
-      className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
-      role="progressbar"
-      style={
-        Object {
-          "height": 40,
-          "width": 40,
+<WithTheme(ForwardRef)>
+  <ForwardRef>
+    <WithStyles(ForwardRef(CircularProgress))>
+      <ForwardRef(CircularProgress)
+        classes={
+          Object {
+            "circle": "MuiCircularProgress-circle",
+            "circleDisableShrink": "MuiCircularProgress-circleDisableShrink",
+            "circleIndeterminate": "MuiCircularProgress-circleIndeterminate",
+            "circleStatic": "MuiCircularProgress-circleStatic",
+            "colorPrimary": "MuiCircularProgress-colorPrimary",
+            "colorSecondary": "MuiCircularProgress-colorSecondary",
+            "indeterminate": "MuiCircularProgress-indeterminate",
+            "root": "MuiCircularProgress-root",
+            "static": "MuiCircularProgress-static",
+            "svg": "MuiCircularProgress-svg",
+          }
         }
-      }
-    >
-      <svg
-        className="MuiCircularProgress-svg"
-        viewBox="22 22 44 44"
       >
-        <circle
-          className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
-          cx={44}
-          cy={44}
-          fill="none"
-          r={20.2}
-          strokeWidth={3.6}
-          style={Object {}}
-        />
-      </svg>
-    </div>
-  </ForwardRef(CircularProgress)>
-</WithStyles(ForwardRef(CircularProgress))>
+        <div
+          className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+          role="progressbar"
+          style={
+            Object {
+              "height": 40,
+              "width": 40,
+            }
+          }
+        >
+          <svg
+            className="MuiCircularProgress-svg"
+            viewBox="22 22 44 44"
+          >
+            <circle
+              className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+              cx={44}
+              cy={44}
+              fill="none"
+              r={20.2}
+              strokeWidth={3.6}
+              style={Object {}}
+            />
+          </svg>
+        </div>
+      </ForwardRef(CircularProgress)>
+    </WithStyles(ForwardRef(CircularProgress))>
+  </ForwardRef>
+</WithTheme(ForwardRef)>
 `;
