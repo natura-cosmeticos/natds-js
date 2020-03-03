@@ -16,6 +16,7 @@ export { default as CardActions, ICardActionsProps } from './Components/CardActi
 export { default as CardContent, ICardContentProps } from './Components/CardContent';
 export { default as CardHeader, ICardHeaderProps } from './Components/CardHeader';
 export { default as CardMedia, ICardMediaProps } from './Components/CardMedia';
+export { default as CircularProgress, ICircularProgressProps } from './Components/CircularProgress';
 export { default as Checkbox, ICheckboxProps } from './Components/Checkbox';
 export { default as Chip, IChipProps } from './Components/Chip';
 export { default as Collapse, ICollapseProps } from './Components/Collapse';
@@ -41,6 +42,7 @@ export { default as Fab, IFabProps } from './Components/Fab';
 export { default as Icon, IIconProps } from './Components/Icon';
 export { default as IconButton, IIconButtonProps } from './Components/IconButton';
 export { default as Intro, IIntroProps } from './Components/Intro';
+export { default as LinearProgress, ILinearProgressProps } from './Components/LinearProgress';
 export { default as Link, ILinkProps } from './Components/Link';
 export { default as List, IListProps } from './Components/List';
 export { default as ListItem, IListItemProps } from './Components/ListItem';
