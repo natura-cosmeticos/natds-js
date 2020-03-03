@@ -103,12 +103,12 @@ Object {
       },
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#2F837F",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#2F837F",
         },
       },
       "deleteIcon": Object {
@@ -286,16 +286,16 @@ Object {
       "main": "#E74627",
     },
     "primary": Object {
-      "contrastText": "#333333",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#F4AB34",
+      "contrastText": "#000000",
+      "dark": "#2F837F",
+      "light": "#94E5E0",
+      "main": "#62B3AE",
     },
     "secondary": Object {
       "contrastText": "#000000",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#FF6B0B",
+      "dark": "#A07E65",
+      "light": "#FFDFC4",
+      "main": "#D2AD93",
     },
     "success": Object {
       "contrastText": "#FFFFFF",
@@ -506,12 +506,12 @@ Object {
     "MuiChip": Object {
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#001D10",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#001D10",
         },
       },
       "deleteIcon": Object {
@@ -685,16 +685,16 @@ Object {
       "main": "#E74627",
     },
     "primary": Object {
-      "contrastText": "#333333",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#DE0084",
+      "contrastText": "#F8F3E8",
+      "dark": "#001D10",
+      "light": "#356D60",
+      "main": "#004236",
     },
     "secondary": Object {
-      "contrastText": "#000000",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#FF6B0B",
+      "contrastText": "#FFFFFF",
+      "dark": "#73342A",
+      "light": "#D98D7F",
+      "main": "#A55F53",
     },
     "success": Object {
       "contrastText": "#FFFFFF",
