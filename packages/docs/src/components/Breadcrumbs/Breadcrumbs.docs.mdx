@@ -1,0 +1,81 @@
+import {
+  Breadcrumbs,
+  Provider,
+  themes,
+  Link,
+  Icon,
+  Typography,
+} from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { separators, icons } from './sections';
+
+# Breadcrumbs
+
+---
+
+---
+
+## Breadcrumbs Simples
+
+<Provider theme={themes.natura.light}>
+  <Breadcrumbs aria-label="breadcrumb">
+    <Link color="inherit" href="#">
+      Material-UI
+    </Link>
+    <Link color="inherit" href="#">
+      Core
+    </Link>
+    <Typography color="textPrimary">Breadcrumb</Typography>
+  </Breadcrumbs>
+</Provider>
+
+## Breadcrumbs Custom Separator
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={separators} itemsPerRow={1} />
+</Provider>
+
+## Breadcrumbs with Icons
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={icons} itemsPerRow={1} />
+</Provider>
+
+---
+
+---
+
+## API
+
+```jsx highlight-line="2"
+import { Breadcrumbs, Link, Typography } from '@naturacosmeticos/natds-web';
+
+<Breadcrumbs aria-label="breadcrumb">
+  <Link color="inherit" href="#">
+    <Typography>Material-UI</Typography>
+  </Link>
+  <Link color="inherit" href="#">
+    <Typography>Core</Typography>
+  </Link>
+  <Typography color="textPrimary">Breadcrumb</Typography>
+</Breadcrumbs>
+```
+
+For more advanced usages, check [Material UI Breadcrumbs docs](https://material-ui.com/pt/components/breadcrumbs/).
+
+---
+
+---
+
+## Breadcrumbs Props
+
+| Name                |    Type     |   Default   |                                                                                                   Description                                                                                                   |
+| :------------------ | :---------: | :---------: | :-------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| children \*         |   object    |             |                                                                                            The breadcrumb children.                                                                                             |
+| classes             |   object    |             |                           Override or extend the styles applied to the component. See [Material Breadcrumbs CSS API](https://material-ui.com/api/breadcrumbs/#css) for more details.                            |
+| component           | elementType |    'nav'    |                         The component used for the root node. Either a string to use a DOM element or a component. By default, it maps the variant to a good default headline component                         |
+| expandText          |   string    | 'Show path' |                                               Override the default label for the expand button. For localization purposes, you can use the provided translations.                                               |
+| itemsAfterCollapse  |  'number'   |      1      |                                                                    If max items is exceeded, the number of items to show after the ellipsis.                                                                    |
+| itemsBeforeCollapse |  'number'   |      1      |                                                                   If max items is exceeded, the number of items to show before the ellipsis.                                                                    |
+| maxItems            |   number    |      8      | Specifies the maximum number of breadcrumbs to display. When there are more than the maximum number, only the first itemsBeforeCollapse and last itemsAfterCollapse will be shown, with an ellipsis in between. |
+| separator           |    node     |     '/'     |                                                                                             Custom separator node.                                                                                              |
