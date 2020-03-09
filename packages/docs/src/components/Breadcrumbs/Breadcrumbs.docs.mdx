@@ -15,7 +15,7 @@ import { separators, icons } from './sections';
 
 ---
 
-## Breadcrumbs Simples
+## Breadcrumbs Simple
 
 <Provider theme={themes.natura.light}>
   <Breadcrumbs aria-label="breadcrumb">
@@ -50,6 +50,7 @@ import { separators, icons } from './sections';
 ```jsx highlight-line="2"
 import { Breadcrumbs, Link, Typography } from '@naturacosmeticos/natds-web';
 
+// Breadcrumbs Simple
 <Breadcrumbs aria-label="breadcrumb">
   <Link color="inherit" href="#">
     <Typography>Material-UI</Typography>
@@ -58,6 +59,23 @@ import { Breadcrumbs, Link, Typography } from '@naturacosmeticos/natds-web';
     <Typography>Core</Typography>
   </Link>
   <Typography color="textPrimary">Breadcrumb</Typography>
+</Breadcrumbs>
+
+
+// Breadcrumbs With Icons
+<Breadcrumbs aria-label="breadcrumb">
+  <Link color="inherit" href="#" underline="none">
+    <Icon name="outlined-action-history" size="tiny" />
+    <Typography>Material-UI</Typography>
+  </Link>
+  <Link color="inherit" href="#" underline="none">
+    <Icon name="outlined-action-done" size="tiny" />
+    <Typography>Core</Typography>
+  </Link>
+  <Link color="default" href="#" underline="none">
+    <Icon name="outlined-action-add" size="tiny" />
+    <Typography>Breadcrumb</Typography>
+  </Link>
 </Breadcrumbs>
 ```
 
