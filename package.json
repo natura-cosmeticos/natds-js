@@ -48,7 +48,9 @@
     ],
     "nohoist": [
       "**/create-react-class",
-      "**/create-react-class/**"
+      "**/create-react-class/**",
+      "**/@date-io/moment",
+      "**/@date-io/moment/**"
     ]
   },
   "devDependencies": {

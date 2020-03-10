@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import { Picker } from '@naturacosmeticos/natds-web';
+import { Picker, TextField } from '@naturacosmeticos/natds-web';
 
 
 export default {
@@ -22,13 +22,26 @@ export default {
 
 export const Interactive = () => {
 
- const [selectedDate, setSelectedDate] = React.useState<Date | null>(
-   new Date('2014-08-18T21:11:54')
- );
+  const [selectedDate, setSelectedDate] = React.useState<Date | null>(
+    new Date()
+  );
 
- const handleDateChange = (date: Date | null) => {
-   setSelectedDate(date);
- };
+  const [isOpen, setOpen] = React.useState(false);
 
- return <Picker value={selectedDate} onChange={handleDateChange} />;
+  const textField = (textFieldProps: any) => (
+    <TextField
+      {...textFieldProps}
+      id="random-prop-id"
+      type="text"
+      onFocus={() => setOpen(true)}
+      onBlur={() => setOpen(false)}
+    />
+  );
+
+  const handleDateChange = (date: Date | null) => {
+    setSelectedDate(date);
+  };
+
+  // change the open value to `isOpen`
+  return <Picker value={selectedDate} TextFieldComponent={textField} open={isOpen} onChange={handleDateChange} />;
 };
