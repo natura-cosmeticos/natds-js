@@ -49,8 +49,12 @@
     "nohoist": [
       "**/create-react-class",
       "**/create-react-class/**",
-      "**/@date-io/moment",
-      "**/@date-io/moment/**"
+      "**/@date-io/fns",
+      "**/@date-io/fns/**",
+      "**/@material-ui/pickers",
+      "**/@material-ui/pickers/**",
+      "**/react",
+      "**/react/**"
     ]
   },
   "devDependencies": {

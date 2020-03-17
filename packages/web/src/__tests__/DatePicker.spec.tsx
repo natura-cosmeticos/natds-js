@@ -6,7 +6,7 @@ import { MuiPickersUtilsProvider } from '@material-ui/pickers/MuiPickersUtilsPro
 import { DatePicker, TextField } from '../';
 
 const Component = () => {
-  const [selectedDate, setSelectedDate] = React.useState(null);
+  const [selectedDate, setSelectedDate] = React.useState<any>(null);
 
   const textField = (textFieldProps: any) => (
     <TextField {...textFieldProps} id="random-prop-id" type="text" />
