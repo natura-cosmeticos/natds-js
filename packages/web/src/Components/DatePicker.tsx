@@ -5,7 +5,9 @@ import {
   DatePickerProps as DatePickerViewsProps,
 } from '@material-ui/pickers/DatePicker';
 
-const DatePicker: FunctionComponent<DatePickerViewsProps> = forwardRef(
+export { DatePickerViewsProps as IDatePickerViewsProps } from '@material-ui/pickers/DatePicker';
+
+export const DatePicker: FunctionComponent<DatePickerViewsProps> = forwardRef(
   (props: DatePickerViewsProps, ref: any) => {
     return <MaterialDatePicker {...props} ref={ref} />;
   }

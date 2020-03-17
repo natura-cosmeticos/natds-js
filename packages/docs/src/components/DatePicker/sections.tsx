@@ -7,7 +7,7 @@ import {
 import DateFnsUtils from '@date-io/date-fns';
 import { makeStyles } from '@material-ui/core/styles';
 
-interface DatePickerViewsProps {
+interface IDatePickerViewsProps {
   variant?: string;
   openTo?: string;
   format?: string;
@@ -21,7 +21,7 @@ interface DatePickerViewsProps {
   views?: ['year' | 'date' | 'month'];
 }
 
-const DatePickerWrapper = (props: DatePickerViewsProps) => {
+const DatePickerWrapper = (props: IDatePickerViewsProps) => {
   const {
     variant,
     disableToolbar,

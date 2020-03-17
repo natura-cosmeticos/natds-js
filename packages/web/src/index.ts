@@ -21,7 +21,7 @@ export { default as Checkbox, ICheckboxProps } from './Components/Checkbox';
 export { default as Chip, IChipProps } from './Components/Chip';
 export { default as Collapse, ICollapseProps } from './Components/Collapse';
 export { default as ContextualBadge, IContextualBadgeProps } from './Components/ContextualBadge';
-export { default as DatePicker } from './Components/DatePicker';
+export { default as DatePicker, IDatePickerViewsProps } from './Components/DatePicker';
 export { default as PickersUtilProvider, IMuiPickersUtilsProviderProps } from './Components/PickersUtilProvider';
 export { default as Dialog, IDialogProps } from './Components/Dialog';
 export { default as DialogActions, IDialogActionsProps } from './Components/DialogActions';
