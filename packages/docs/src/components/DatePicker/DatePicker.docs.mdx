@@ -1,4 +1,9 @@
-import { DatePicker, Provider, themes } from '@naturacosmeticos/natds-web';
+import {
+  DatePicker,
+  Provider,
+  themes,
+  PickersUtilProvider,
+} from '@naturacosmeticos/natds-web';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
 import { variants } from './sections';
 
@@ -21,7 +26,7 @@ import React, { useState } from 'react';
 import DateFnsUtils from '@date-io/date-fns'; // choose your lib
 import {
   DatePicker,
-  MuiPickersUtilsProvider,
+  PickersUtilProvider,
   TextField,
 } from '@naturacosmeticos/natds-web';
 
@@ -33,13 +38,13 @@ export const DatePickerWrapper = () => {
   );
 
   return (
-    <MuiPickersUtilsProvider utils={DateFnsUtils}>
+    <PickersUtilProvider utils={DateFnsUtils}>
       <DatePicker
         value={selectedDate}
         TextFieldComponent={textField}
         onChange={handleDateChange}
       />
-    </MuiPickersUtilsProvider>
+    </PickersUtilProvider>
   );
 };
 ```

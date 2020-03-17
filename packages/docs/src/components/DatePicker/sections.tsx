@@ -1,8 +1,10 @@
 import * as React from 'react';
-import { DatePicker, TextField } from '@naturacosmeticos/natds-web';
+import {
+  DatePicker,
+  TextField,
+  PickersUtilProvider,
+} from '@naturacosmeticos/natds-web';
 import DateFnsUtils from '@date-io/date-fns';
-export { DatePickerViewsProps } from '@material-ui/pickers/DatePicker';
-import { MuiPickersUtilsProvider } from '@material-ui/pickers/MuiPickersUtilsProvider';
 import { makeStyles } from '@material-ui/core/styles';
 
 interface DatePickerViewsProps {
@@ -46,7 +48,7 @@ const DatePickerWrapper = (props: DatePickerViewsProps) => {
 
   return (
     <div className={classes.wrapper}>
-      <MuiPickersUtilsProvider utils={DateFnsUtils}>
+      <PickersUtilProvider utils={DateFnsUtils}>
         <DatePicker
           TextFieldComponent={textField}
           variant={variant}
@@ -59,7 +61,7 @@ const DatePickerWrapper = (props: DatePickerViewsProps) => {
           autoOk={autoOk}
           views={views}
         />
-      </MuiPickersUtilsProvider>
+      </PickersUtilProvider>
     </div>
   );
 };

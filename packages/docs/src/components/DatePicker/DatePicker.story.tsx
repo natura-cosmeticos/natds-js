@@ -8,9 +8,13 @@ import {
   optionsKnob as options,
 } from '@storybook/addon-knobs';
 import DateFnsUtils from '@date-io/date-fns';
-import { MuiPickersUtilsProvider } from '@material-ui/pickers/MuiPickersUtilsProvider';
+
 import { makeStyles } from '@material-ui/core/styles';
-import { DatePicker, TextField } from '@naturacosmeticos/natds-web';
+import {
+  DatePicker,
+  TextField,
+  PickersUtilProvider,
+} from '@naturacosmeticos/natds-web';
 
 import DatePickerDocs from './DatePicker.docs.mdx';
 
@@ -73,7 +77,7 @@ export const Interactive = () => {
 
   return (
     <div className={classes.wrapper}>
-      <MuiPickersUtilsProvider utils={DateFnsUtils}>
+      <PickersUtilProvider utils={DateFnsUtils}>
         <DatePicker
           value={selectedDate}
           label="Only calendar"
@@ -96,7 +100,7 @@ export const Interactive = () => {
           clearLabel={text('Clear Label', 'Clear')}
           okLabel={text('OK Label', 'OK')}
         />
-      </MuiPickersUtilsProvider>
+      </PickersUtilProvider>
     </div>
   );
 };
