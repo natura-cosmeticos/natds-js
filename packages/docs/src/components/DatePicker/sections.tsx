@@ -67,7 +67,7 @@ const DatePickerWrapper = (props: DatePickerViewsProps) => {
 export const variants = [
   {
     title: 'Date Format',
-    component: <DatePickerWrapper variant="inline" format="dd/MM/yyyy" />,
+    component: <DatePickerWrapper variant="dialog" format="dd/MM/yyyy" />,
   },
   {
     title: 'Variant - Static',

@@ -1,4 +1,4 @@
-import hexToRgba from 'hex-to-rgba';
+import hexToRgba from "hex-to-rgba";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -28,7 +28,7 @@ export const naturaLight: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-      disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
+      disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24)
     },
     primary: {
       main: natura.primary.colorBrdNatPrimaryYellow,
@@ -83,6 +83,9 @@ export const naturaLight: ITheme = {
       outlinedSecondary: {
         color: natura.grayscale.colorBrdNatGray
       },
+      textPrimary: {
+        color: natura.grayscale.colorBrdNatGray
+      },
       sizeSmall: {
         fontSize: "0.875rem",
         minHeight: "32px"
@@ -120,12 +123,12 @@ export const naturaLight: ITheme = {
           backgroundColor: natura.primary.colorBrdNatPrimaryWhite,
           opacity: 0.32
         }
-      },
+      }
     },
     MuiExpansionPanelSummary: {
       root: {
-        alignItems: 'flex-start',
-        marginTop: '8px',
+        alignItems: "flex-start",
+        marginTop: "8px",
         "&$disabled": {
           opacity: 1
         }
@@ -160,14 +163,17 @@ export const naturaLight: ITheme = {
     MuiListItem: {
       root: {
         "&$selected": {
-          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
+          backgroundColor: hexToRgba(
+            natura.primary.colorBrdNatPrimaryOrange,
+            0.16
+          ),
           "&:hover": {
             backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
           }
         },
-        '&.Mui-disabled': {
+        "&.Mui-disabled": {
           opacity: 0.32
-        },
+        }
       },
       button: {
         "&:hover": {
@@ -177,14 +183,14 @@ export const naturaLight: ITheme = {
     },
     MuiBadge: {
       badge: {
-        padding: '0 4px'
+        padding: "0 4px"
       }
     },
     MuiTab: {
       root: {
         "&$disabled": {
           opacity: 0.24
-        },
+        }
       },
       textColorInherit: {
         "&$disabled": {
@@ -204,11 +210,11 @@ export const naturaLight: ITheme = {
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
-          color: natura.grayscale.colorBrdNatGray,
+          color: natura.grayscale.colorBrdNatGray
         },
         "&$disabled": {
-          opacity: .4
-        },
+          opacity: 0.4
+        }
       },
       clickableColorPrimary: {
         "&:hover": {
@@ -225,13 +231,13 @@ export const naturaLight: ITheme = {
         color: natura.grayscale.colorBrdBlack
       },
       outlinedPrimary: {
-        color: natura.grayscale.colorBrdBlack,
+        color: natura.grayscale.colorBrdBlack
       },
       outlinedSecondary: {
-        color: natura.grayscale.colorBrdBlack,
+        color: natura.grayscale.colorBrdBlack
       },
       icon: {
-        fontSize: `${sizes.standard}px`,
+        fontSize: `${sizes.standard}px`
       },
       iconSmall: {
         width: `${sizes.small}px`,
@@ -244,24 +250,24 @@ export const naturaLight: ITheme = {
         height: `${sizes.standard}px`,
         fontSize: `${sizes.standard}px`,
         color: hexToRgba(natura.grayscale.colorBrdBlack, 0.8),
-        '&:hover': {
+        "&:hover": {
           color: natura.grayscale.colorBrdBlack
         }
       },
       deleteIconSmall: {
         width: `${sizes.small}px`,
         height: `${sizes.small}px`,
-        fontSize: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`
       },
       deleteIconColorPrimary: {
         color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
-        '&:hover': {
+        "&:hover": {
           color: natura.primary.colorBrdNatPrimaryWhite
         }
       },
       deleteIconColorSecondary: {
         color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
-        '&:hover': {
+        "&:hover": {
           color: natura.primary.colorBrdNatPrimaryWhite
         }
       }

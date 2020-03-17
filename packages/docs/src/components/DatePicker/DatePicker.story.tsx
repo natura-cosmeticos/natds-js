@@ -4,6 +4,7 @@ import withContainer from '@decorators/container/container';
 import {
   boolean,
   select,
+  text,
   optionsKnob as options,
 } from '@storybook/addon-knobs';
 import DateFnsUtils from '@date-io/date-fns';
@@ -62,10 +63,6 @@ export const Interactive = () => {
     <TextField {...textFieldProps} id="random-prop-id" type="text" />
   );
 
-  const handleDateChange = (date: Date | null) => {
-    setSelectedDate(date);
-  };
-
   const useStyles = makeStyles(theme => ({
     wrapper: {
       display: 'flex',
@@ -95,6 +92,9 @@ export const Interactive = () => {
             display: 'inline-check',
           })}
           onChange={setSelectedDate}
+          cancelLabel={text('Cancel Label', 'Cancel')}
+          clearLabel={text('Clear Label', 'Clear')}
+          okLabel={text('OK Label', 'OK')}
         />
       </MuiPickersUtilsProvider>
     </div>

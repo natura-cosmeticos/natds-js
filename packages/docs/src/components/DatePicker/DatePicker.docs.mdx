@@ -21,20 +21,27 @@ import React, { useState } from 'react';
 import DateFnsUtils from '@date-io/date-fns'; // choose your lib
 import {
   DatePicker,
-  TimePicker,
-  DateTimePicker,
   MuiPickersUtilsProvider,
+  TextField,
 } from '@naturacosmeticos/natds-web';
 
-function App() {
+export const DatePickerWrapper = () => {
   const [selectedDate, handleDateChange] = useState(new Date());
+
+  const textField = (textFieldProps: any) => (
+    <TextField {...textFieldProps} id="random-prop-id" type="text" />
+  );
 
   return (
     <MuiPickersUtilsProvider utils={DateFnsUtils}>
-      <DatePicker value={selectedDate} onChange={handleDateChange} />
+      <DatePicker
+        value={selectedDate}
+        TextFieldComponent={textField}
+        onChange={handleDateChange}
+      />
     </MuiPickersUtilsProvider>
   );
-}
+};
 ```
 
 For more advanced usages, check [Material UI Date Picker docs](https://material-ui-pickers.dev/api/DatePicker)
