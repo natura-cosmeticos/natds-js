@@ -26,7 +26,8 @@ export default {
 const types: any = {
   text: 'text',
   password: 'password',
-  search: 'search'
+  search: 'search',
+  date: 'date',
 };
 
 const states: any = {

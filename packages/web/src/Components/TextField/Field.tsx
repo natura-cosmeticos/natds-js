@@ -11,6 +11,7 @@ import CustomIcon from './CustomIcon';
 export const TEXT_TYPE = 'text';
 export const SEARCH_TYPE = 'search';
 export const PASSWORD_TYPE = 'password';
+export const DATE = 'date';
 
 export const Field: FunctionComponent<ITextFieldProps> = forwardRef((
   props: ITextFieldProps,
