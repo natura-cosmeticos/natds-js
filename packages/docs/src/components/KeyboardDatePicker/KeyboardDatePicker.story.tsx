@@ -8,13 +8,14 @@ import {
   optionsKnob as options,
 } from '@storybook/addon-knobs';
 import DateFnsUtils from '@date-io/date-fns';
-import Favorite from '@material-ui/icons/Favorite';
 
 import { makeStyles } from '@material-ui/core/styles';
 import {
   KeyboardDatePicker,
   TextField,
   PickersUtilProvider,
+  IconButton,
+  Icon
 } from '@naturacosmeticos/natds-web';
 
 import KeyboardDatePickerDocs from './KeyboardDatePicker.docs.mdx';
@@ -63,13 +64,15 @@ export const Interactive = () => {
   const [selectedDate, setSelectedDate] = React.useState<Date | null>(
     new Date()
   );
+  const [isOpen, setOpen] = React.useState<boolean>(false);
 
   const textField = (textFieldProps: any) => (
     <TextField
       {...textFieldProps}
       id="random-prop-id"
-      icon={<Favorite />}
       type="text"
+      icon={<Icon name="outlined-action-calendar" size="tiny"/>}
+      onIconPress={() => { setOpen(!isOpen); }}
     />
   );
 
@@ -85,6 +88,7 @@ export const Interactive = () => {
     <div className={classes.wrapper}>
       <PickersUtilProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
+          open={isOpen}
           clearable
           allowKeyboardControl
           keyboardIcon
@@ -105,7 +109,7 @@ export const Interactive = () => {
           // views={options('Views Check', valuesInlineCheck, ['year'], {
           //   display: 'inline-check',
           // })}
-          onChange={(date: Date | null) => setSelectedDate(date)}
+          onChange={setSelectedDate}
           // cancelLabel={text('Cancel Label', 'Cancel')}
           // clearLabel={text('Clear Label', 'Clear')}
           // okLabel={text('OK Label', 'OK')}
