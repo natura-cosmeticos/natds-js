@@ -506,12 +506,12 @@ Object {
     "MuiChip": Object {
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#890A6C",
+          "backgroundColor": "#DE0085",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#890A6C",
+          "backgroundColor": "#DE0085",
         },
       },
       "deleteIcon": Object {
@@ -579,7 +579,7 @@ Object {
           "opacity": 0.32,
         },
         "&$expanded": Object {
-          "borderColor": "#F4AB34",
+          "borderColor": "#DE0085",
         },
         "border": "transparent 1px solid",
       },
@@ -612,7 +612,7 @@ Object {
           "&:hover": Object {
             "backgroundColor": "rgba(0, 0, 0, 0.04)",
           },
-          "backgroundColor": "rgba(255, 107, 11, 0.16)",
+          "backgroundColor": "rgba(233, 233, 233, 0.16)",
         },
         "&.Mui-disabled": Object {
           "opacity": 0.32,
@@ -678,7 +678,7 @@ Object {
       "link": "#227BBD",
       "linkContrastText": "#FFFFFF",
       "warning": "#FCC433",
-      "warningContrastText": "#000000",
+      "warningContrastText": "#333333",
     },
     "error": Object {
       "contrastText": "#FFFFFF",
@@ -686,9 +686,9 @@ Object {
     },
     "primary": Object {
       "contrastText": "#FFFFFF",
-      "dark": "#890A6C",
-      "light": "#FAE5F2",
-      "main": "#F091C9",
+      "dark": "#A70058",
+      "light": "#FF56B5",
+      "main": "#DE0085",
     },
     "secondary": Object {
       "contrastText": "#333333",

@@ -11,8 +11,6 @@ import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 import { naturaLightColorTokens } from "../../tokens/colors/themeBound/natura/natura-light";
 
-const { natura } = tokens.colors;
-
 export const naturaLight: ITheme = {
   shape: {
     borderRadius: tokens.radius.medium,
@@ -25,7 +23,7 @@ export const naturaLight: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-      disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24)
+      disabled: hexToRgba(naturaLightColorTokens.colorOnPrimaryLight, 0.24)
     },
     primary: {
       main: naturaLightColorTokens.colorPrimary,
