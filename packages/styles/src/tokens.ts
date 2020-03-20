@@ -9,6 +9,7 @@ import { overlay } from "./tokens/overlay";
 import { radius } from "./tokens/radius";
 import { sizes } from "./tokens/sizes";
 import { spacing } from "./tokens/spacing";
+import { colorTokens } from "./tokens/colors/themeBound";
 
 export default {
   avatarSizes,
@@ -21,5 +22,6 @@ export default {
   overlay,
   radius,
   sizes,
-  spacing
+  spacing,
+  colorTokens
 };
