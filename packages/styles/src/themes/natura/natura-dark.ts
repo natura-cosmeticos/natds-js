@@ -9,7 +9,9 @@ import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
-import { naturaDarkColorTokens } from "../../tokens/colors/themeBound/natura";
+const {
+  colorTokens: { naturaDarkColorTokens }
+} = tokens;
 
 export const naturaDark: ITheme = {
   shape: {
@@ -23,7 +25,7 @@ export const naturaDark: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-      disabled: hexToRgba(naturaDarkColorTokens.colorOnSecondary, 0.24),
+      disabled: hexToRgba(naturaDarkColorTokens.colorOnSecondary, 0.24)
     },
     primary: {
       main: naturaDarkColorTokens.colorPrimary,
@@ -158,13 +160,19 @@ export const naturaDark: ITheme = {
         "&$selected": {
           background: hexToRgba(naturaDarkColorTokens.colorSecondary, 0.16),
           "&:hover": {
-            backgroundColor: hexToRgba(naturaDarkColorTokens.colorOnSecondary, 0.04)
+            backgroundColor: hexToRgba(
+              naturaDarkColorTokens.colorOnSecondary,
+              0.04
+            )
           }
-        },
+        }
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(naturaDarkColorTokens.colorOnSecondary, 0.04)
+          backgroundColor: hexToRgba(
+            naturaDarkColorTokens.colorOnSecondary,
+            0.04
+          )
         }
       }
     },
@@ -177,7 +185,7 @@ export const naturaDark: ITheme = {
       root: {
         "&$disabled": {
           opacity: 0.24
-        },
+        }
       },
       textColorInherit: {
         "&$disabled": {
@@ -192,23 +200,35 @@ export const naturaDark: ITheme = {
     },
     MuiChip: {
       root: {
-        backgroundColor: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.12),
+        backgroundColor: hexToRgba(
+          naturaDarkColorTokens.colorOnBackground,
+          0.12
+        ),
         color: naturaDarkColorTokens.colorOnBackground,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
-          backgroundColor: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.24),
+          backgroundColor: hexToRgba(
+            naturaDarkColorTokens.colorOnBackground,
+            0.24
+          ),
           color: naturaDarkColorTokens.colorOnBackground
         },
         "&$disabled": {
-          opacity: .4
-        },
+          opacity: 0.4
+        }
       },
       clickable: {
         "&:hover": {
-          backgroundColor: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.16),
+          backgroundColor: hexToRgba(
+            naturaDarkColorTokens.colorOnBackground,
+            0.16
+          )
         },
         "&:focus": {
-          backgroundColor: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.16),
+          backgroundColor: hexToRgba(
+            naturaDarkColorTokens.colorOnBackground,
+            0.16
+          )
         }
       },
       clickableColorPrimary: {
@@ -228,17 +248,17 @@ export const naturaDark: ITheme = {
       outlinedPrimary: {
         color: naturaDarkColorTokens.colorOnBackground,
         "& $avatar": {
-          backgroundColor: naturaDarkColorTokens.colorPrimary,
-        },
+          backgroundColor: naturaDarkColorTokens.colorPrimary
+        }
       },
       outlinedSecondary: {
         color: naturaDarkColorTokens.colorOnBackground,
         "& $avatar": {
-          backgroundColor: naturaDarkColorTokens.colorSecondary,
-        },
+          backgroundColor: naturaDarkColorTokens.colorSecondary
+        }
       },
       icon: {
-        fontSize: `${sizes.standard}px`,
+        fontSize: `${sizes.standard}px`
       },
       iconSmall: {
         width: `${sizes.small}px`,
@@ -252,13 +272,13 @@ export const naturaDark: ITheme = {
         fontSize: `${sizes.standard}px`,
         color: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.8),
         "&:hover": {
-          color: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.6),
+          color: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.6)
         }
       },
       deleteIconSmall: {
         width: `${sizes.small}px`,
         height: `${sizes.small}px`,
-        fontSize: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`
       },
       deleteIconColorPrimary: {
         color: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.8),

@@ -9,8 +9,9 @@ import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
-
-const { avonDarkColorTokens } = tokens.colorTokens;
+const {
+  colorTokens: { avonDarkColorTokens }
+} = tokens;
 
 export const avonDark: ITheme = {
   shape: {
