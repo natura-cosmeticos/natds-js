@@ -103,12 +103,12 @@ Object {
       },
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#890A6C",
+          "backgroundColor": "#BC6198",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#890A6C",
+          "backgroundColor": "#BC6198",
         },
       },
       "deleteIcon": Object {
@@ -152,13 +152,13 @@ Object {
       },
       "outlinedPrimary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#F4AB34",
+          "backgroundColor": "#F091C9",
         },
         "color": "#FFFFFF",
       },
       "outlinedSecondary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#FF6B0B",
+          "backgroundColor": "#E9E9E9",
         },
         "color": "#FFFFFF",
       },
@@ -182,7 +182,7 @@ Object {
           "opacity": 0.32,
         },
         "&$expanded": Object {
-          "borderColor": "#F4AB34",
+          "borderColor": "#F091C9",
         },
         "border": "transparent 1px solid",
       },
@@ -208,15 +208,15 @@ Object {
     "MuiListItem": Object {
       "button": Object {
         "&:hover": Object {
-          "backgroundColor": "rgba(0, 0, 0, 0.04)",
+          "backgroundColor": "rgba(51, 51, 51, 0.04)",
         },
       },
       "root": Object {
         "&$selected": Object {
           "&:hover": Object {
-            "backgroundColor": "rgba(0, 0, 0, 0.04)",
+            "backgroundColor": "rgba(51, 51, 51, 0.04)",
           },
-          "background": "rgba(255, 107, 11, 0.16)",
+          "background": "rgba(233, 233, 233, 0.16)",
         },
       },
     },
@@ -266,12 +266,12 @@ Object {
   },
   "palette": Object {
     "action": Object {
-      "disabled": "rgba(0, 0, 0, 0.24)",
+      "disabled": "rgba(51, 51, 51, 0.24)",
     },
     "background": Object {
       "default": "#121212",
       "defaultContrastText": "#FFFFFF",
-      "paper": "#333333",
+      "paper": "#000000",
       "paperContrastText": "#FFFFFF",
     },
     "complementary": Object {
@@ -279,20 +279,20 @@ Object {
       "link": "#227BBD",
       "linkContrastText": "#FFFFFF",
       "warning": "#FCC433",
-      "warningContrastText": "#000000",
+      "warningContrastText": "#333333",
     },
     "error": Object {
-      "contrastText": "#FFFFFF",
+      "contrastText": "#FFFFFFF",
       "main": "#E74627",
     },
     "primary": Object {
-      "contrastText": "#FFFFFF",
-      "dark": "#890A6C",
-      "light": "#FAE5F2",
+      "contrastText": "#000000",
+      "dark": "#BC6198",
+      "light": "#FFC3FC",
       "main": "#F091C9",
     },
     "secondary": Object {
-      "contrastText": "#000000",
+      "contrastText": "#333333",
       "dark": "#B7B7B7",
       "light": "#FFFFFF",
       "main": "#E9E9E9",
