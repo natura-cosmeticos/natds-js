@@ -4,10 +4,21 @@ import Table from '@addons/Table';
 import { parseColortokens } from '../shared';
 import { tokens } from '@naturacosmeticos/natds-styles';
 
-const { colorTokens: { theBodyShopLightColorTokens } } = tokens;
+const {
+  colorTokens: { theBodyShopLightColorTokens, theBodyShopDarkColorTokens },
+} = tokens;
 
 const LightComponent = () => (
-  <Table schema={parseColortokens(theBodyShopLightColorTokens)} title="The Body Shop Light" />
+  <Table
+    schema={parseColortokens(theBodyShopLightColorTokens)}
+    title="The Body Shop Light"
+  />
+);
+const DarkComponent = () => (
+  <Table
+    schema={parseColortokens(theBodyShopDarkColorTokens)}
+    title="The Body Shop Dark"
+  />
 );
 
 export default {
@@ -18,14 +29,13 @@ export default {
       page: () => (
         <div>
           <LightComponent />
+          <DarkComponent />
         </div>
-      )
+      ),
     },
-    ...tokensParams
-  }
+    ...tokensParams,
+  },
 };
 
-export const Light = () => (
-  <LightComponent />
-);
-
+export const Light = () => <LightComponent />;
+export const Dark = () => <DarkComponent />;

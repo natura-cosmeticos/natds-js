@@ -4,10 +4,18 @@ import Table from '@addons/Table';
 import { parseColortokens } from '../shared';
 import { tokens } from '@naturacosmeticos/natds-styles';
 
-const { colorTokens: { naturaLightColorTokens } } = tokens;
+const {
+  colorTokens: { naturaLightColorTokens, naturaDarkColorTokens },
+} = tokens;
 
 const LightComponent = () => (
-  <Table schema={parseColortokens(naturaLightColorTokens)} title="Natura Light" />
+  <Table
+    schema={parseColortokens(naturaLightColorTokens)}
+    title="Natura Light"
+  />
+);
+const DarkComponent = () => (
+  <Table schema={parseColortokens(naturaDarkColorTokens)} title="Natura Dark" />
 );
 
 export default {
@@ -18,14 +26,13 @@ export default {
       page: () => (
         <div>
           <LightComponent />
+          <DarkComponent />
         </div>
-      )
+      ),
     },
-    ...tokensParams
-  }
+    ...tokensParams,
+  },
 };
 
-export const Light = () => (
-  <LightComponent />
-);
-
+export const Light = () => <LightComponent />;
+export const Dark = () => <DarkComponent />;
