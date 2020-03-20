@@ -152,13 +152,13 @@ Object {
       },
       "outlinedPrimary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#F4AB34",
+          "backgroundColor": "#62B3AE",
         },
         "color": "#FFFFFF",
       },
       "outlinedSecondary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#FF6B0B",
+          "backgroundColor": "#D2AD93",
         },
         "color": "#FFFFFF",
       },
@@ -182,7 +182,7 @@ Object {
           "opacity": 0.32,
         },
         "&$expanded": Object {
-          "borderColor": "#F4AB34",
+          "borderColor": "#62B3AE",
         },
         "border": "transparent 1px solid",
       },
@@ -216,7 +216,7 @@ Object {
           "&:hover": Object {
             "backgroundColor": "rgba(0, 0, 0, 0.04)",
           },
-          "background": "rgba(255, 107, 11, 0.16)",
+          "background": "rgba(210, 173, 147, 0.16)",
         },
       },
     },
@@ -271,7 +271,7 @@ Object {
     "background": Object {
       "default": "#121212",
       "defaultContrastText": "#FFFFFF",
-      "paper": "#333333",
+      "paper": "#000000",
       "paperContrastText": "#FFFFFF",
     },
     "complementary": Object {

@@ -9,21 +9,7 @@ import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
-
-const { natura } = tokens.colors;
-
-const PRIMARY_MAIN = "#62B3AE";
-const PRIMARY_DARK = "#2F837F";
-const PRIMARY_LIGHT = "#94E5E0";
-const PRIMARY_CONTRAST = "#000000";
-
-const SECONDARY_MAIN = "#D2AD93";
-const SECONDARY_DARK = "#A07E65";
-const SECONDARY_LIGHT = "#FFDFC4";
-const SECONDARY_CONTRAST = "#000000";
-
-const GRAY_DARK = "#121212";
-const GRAY_LIGHT = "#FAFAFA";
+const { theBodyShopDarkColorTokens } = tokens.colorTokens;
 
 export const theBodyShopDark: ITheme = {
   shape: {
@@ -37,46 +23,46 @@ export const theBodyShopDark: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-      disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24)
+      disabled: hexToRgba(theBodyShopDarkColorTokens.colorOnSecondary, 0.24)
     },
     primary: {
-      main: PRIMARY_MAIN,
-      light: PRIMARY_LIGHT,
-      dark: PRIMARY_DARK,
-      contrastText: PRIMARY_CONTRAST
+      main: theBodyShopDarkColorTokens.colorPrimary,
+      light: theBodyShopDarkColorTokens.colorPrimaryLight,
+      dark: theBodyShopDarkColorTokens.colorPrimaryDark,
+      contrastText: theBodyShopDarkColorTokens.colorOnPrimary
     },
     secondary: {
-      main: SECONDARY_MAIN,
-      light: SECONDARY_LIGHT,
-      dark: SECONDARY_DARK,
-      contrastText: SECONDARY_CONTRAST
+      main: theBodyShopDarkColorTokens.colorSecondary,
+      light: theBodyShopDarkColorTokens.colorSecondaryLight,
+      dark: theBodyShopDarkColorTokens.colorSecondaryDark,
+      contrastText: theBodyShopDarkColorTokens.colorOnSecondary
     },
     error: {
-      main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite
+      main: theBodyShopDarkColorTokens.colorAlert,
+      contrastText: theBodyShopDarkColorTokens.colorOnAlert
     },
     success: {
-      main: natura.complementary.colorBrdNatCpGreen1,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite
+      main: theBodyShopDarkColorTokens.colorSuccess,
+      contrastText: theBodyShopDarkColorTokens.colorOnSuccess
     },
     background: {
-      paper: natura.grayscale.colorBrdNatGray,
-      default: GRAY_DARK,
-      paperContrastText: natura.primary.colorBrdNatPrimaryWhite,
-      defaultContrastText: natura.primary.colorBrdNatPrimaryWhite
+      paper: theBodyShopDarkColorTokens.colorOnPrimary,
+      default: theBodyShopDarkColorTokens.colorBackground,
+      paperContrastText: theBodyShopDarkColorTokens.colorOnBackground,
+      defaultContrastText: theBodyShopDarkColorTokens.colorOnBackground
     },
     text: {
-      primary: GRAY_LIGHT,
-      secondary: natura.grayscale.colorBrdNatGray2,
-      disabled: natura.grayscale.colorBrdNatGray1,
-      hint: natura.grayscale.colorBrdNatGray1
+      primary: theBodyShopDarkColorTokens.colorHighEmphasis,
+      secondary: theBodyShopDarkColorTokens.colorMediumEmphasis,
+      disabled: theBodyShopDarkColorTokens.colorLowEmphasis,
+      hint: theBodyShopDarkColorTokens.colorLowEmphasis
     },
     complementary: {
-      highlight: natura.primary.colorBrdNatPrimaryWhite,
-      link: natura.complementary.colorBrdNatCpBlue1,
-      linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
-      warning: natura.complementary.colorBrdNatCpOrange4,
-      warningContrastText: natura.grayscale.colorBrdBlack
+      highlight: theBodyShopDarkColorTokens.colorHighlight,
+      link: theBodyShopDarkColorTokens.colorLink,
+      linkContrastText: theBodyShopDarkColorTokens.colorOnLink,
+      warning: theBodyShopDarkColorTokens.colorWarning,
+      warningContrastText: theBodyShopDarkColorTokens.colorOnSecondary
     }
   },
   typography: {
@@ -87,10 +73,10 @@ export const theBodyShopDark: ITheme = {
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: GRAY_LIGHT
+        color: theBodyShopDarkColorTokens.colorHighEmphasis
       },
       outlinedSecondary: {
-        color: GRAY_LIGHT
+        color: theBodyShopDarkColorTokens.colorHighEmphasis
       },
       sizeSmall: {
         fontSize: "0.875rem",
@@ -108,12 +94,12 @@ export const theBodyShopDark: ITheme = {
     },
     MuiAvatar: {
       colorDefault: {
-        color: GRAY_LIGHT
+        color: theBodyShopDarkColorTokens.colorHighEmphasis
       }
     },
     MuiIconButton: {
       root: {
-        color: GRAY_LIGHT,
+        color: theBodyShopDarkColorTokens.colorHighEmphasis,
         padding: "8px"
       },
       sizeSmall: {
@@ -124,10 +110,10 @@ export const theBodyShopDark: ITheme = {
       root: {
         border: `transparent 1px solid`,
         "&$expanded": {
-          borderColor: natura.primary.colorBrdNatPrimaryYellow
+          borderColor: theBodyShopDarkColorTokens.colorPrimary
         },
         "&$disabled": {
-          backgroundColor: natura.grayscale.colorBrdNatGray,
+          backgroundColor: theBodyShopDarkColorTokens.colorSurface,
           opacity: 0.32
         }
       }
@@ -170,15 +156,24 @@ export const theBodyShopDark: ITheme = {
     MuiListItem: {
       root: {
         "&$selected": {
-          background: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
+          background: hexToRgba(
+            theBodyShopDarkColorTokens.colorSecondary,
+            0.16
+          ),
           "&:hover": {
-            backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
+            backgroundColor: hexToRgba(
+              theBodyShopDarkColorTokens.colorOnSecondary,
+              0.04
+            )
           }
         }
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
+          backgroundColor: hexToRgba(
+            theBodyShopDarkColorTokens.colorOnSecondary,
+            0.04
+          )
         }
       }
     },
@@ -207,17 +202,17 @@ export const theBodyShopDark: ITheme = {
     MuiChip: {
       root: {
         backgroundColor: hexToRgba(
-          natura.primary.colorBrdNatPrimaryWhite,
+          theBodyShopDarkColorTokens.colorOnBackground,
           0.12
         ),
-        color: natura.primary.colorBrdNatPrimaryWhite,
+        color: theBodyShopDarkColorTokens.colorOnBackground,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(
-            natura.primary.colorBrdNatPrimaryWhite,
+            theBodyShopDarkColorTokens.colorOnBackground,
             0.24
           ),
-          color: natura.primary.colorBrdNatPrimaryWhite
+          color: theBodyShopDarkColorTokens.colorOnBackground
         },
         "&$disabled": {
           opacity: 0.4
@@ -226,41 +221,44 @@ export const theBodyShopDark: ITheme = {
       clickable: {
         "&:hover": {
           backgroundColor: hexToRgba(
-            natura.primary.colorBrdNatPrimaryWhite,
+            theBodyShopDarkColorTokens.colorOnBackground,
             0.16
           )
         },
         "&:focus": {
           backgroundColor: hexToRgba(
-            natura.primary.colorBrdNatPrimaryWhite,
+            theBodyShopDarkColorTokens.colorOnBackground,
             0.16
           )
         }
       },
       clickableColorPrimary: {
         "&:hover": {
-          backgroundColor: PRIMARY_DARK
+          backgroundColor: theBodyShopDarkColorTokens.colorPrimaryDark
         }
       },
       clickableColorSecondary: {
         "&:hover": {
-          backgroundColor: PRIMARY_DARK
+          backgroundColor: theBodyShopDarkColorTokens.colorPrimaryDark
         }
       },
       outlined: {
-        borderColor: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.12),
-        color: natura.primary.colorBrdNatPrimaryWhite
+        borderColor: hexToRgba(
+          theBodyShopDarkColorTokens.colorOnBackground,
+          0.12
+        ),
+        color: theBodyShopDarkColorTokens.colorOnBackground
       },
       outlinedPrimary: {
-        color: natura.primary.colorBrdNatPrimaryWhite,
+        color: theBodyShopDarkColorTokens.colorOnBackground,
         "& $avatar": {
-          backgroundColor: natura.primary.colorBrdNatPrimaryYellow
+          backgroundColor: theBodyShopDarkColorTokens.colorPrimary
         }
       },
       outlinedSecondary: {
-        color: natura.primary.colorBrdNatPrimaryWhite,
+        color: theBodyShopDarkColorTokens.colorOnBackground,
         "& $avatar": {
-          backgroundColor: natura.primary.colorBrdNatPrimaryOrange
+          backgroundColor: theBodyShopDarkColorTokens.colorSecondary
         }
       },
       icon: {
@@ -276,9 +274,9 @@ export const theBodyShopDark: ITheme = {
         width: `${sizes.standard}px`,
         height: `${sizes.standard}px`,
         fontSize: `${sizes.standard}px`,
-        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
+        color: hexToRgba(theBodyShopDarkColorTokens.colorOnBackground, 0.8),
         "&:hover": {
-          color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.6)
+          color: hexToRgba(theBodyShopDarkColorTokens.colorOnBackground, 0.6)
         }
       },
       deleteIconSmall: {
@@ -287,15 +285,15 @@ export const theBodyShopDark: ITheme = {
         fontSize: `${sizes.small}px`
       },
       deleteIconColorPrimary: {
-        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
+        color: hexToRgba(theBodyShopDarkColorTokens.colorOnBackground, 0.8),
         "&:hover": {
-          color: natura.primary.colorBrdNatPrimaryWhite
+          color: theBodyShopDarkColorTokens.colorOnBackground
         }
       },
       deleteIconColorSecondary: {
-        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
+        color: hexToRgba(theBodyShopDarkColorTokens.colorOnBackground, 0.8),
         "&:hover": {
-          color: natura.primary.colorBrdNatPrimaryWhite
+          color: theBodyShopDarkColorTokens.colorOnBackground
         }
       }
     }
