@@ -511,7 +511,7 @@ Object {
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#DE0085",
+          "backgroundColor": "#E9E9E9",
         },
       },
       "deleteIcon": Object {
@@ -531,9 +531,9 @@ Object {
       },
       "deleteIconColorSecondary": Object {
         "&:hover": Object {
-          "color": "#FFFFFF",
+          "color": "#333333",
         },
-        "color": "rgba(255, 255, 255, 0.8)",
+        "color": "rgba(51, 51, 51, 0.8)",
       },
       "deleteIconSmall": Object {
         "fontSize": "16px",

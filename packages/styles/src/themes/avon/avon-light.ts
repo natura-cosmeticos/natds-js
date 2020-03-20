@@ -212,7 +212,7 @@ export const avonLight: ITheme = {
       },
       clickableColorSecondary: {
         "&:hover": {
-          backgroundColor: avonLightColorTokens.colorPrimary
+          backgroundColor: avonLightColorTokens.colorSecondary
         }
       },
       outlined: {
@@ -255,9 +255,9 @@ export const avonLight: ITheme = {
         }
       },
       deleteIconColorSecondary: {
-        color: hexToRgba(avonLightColorTokens.colorOnPrimary, 0.8),
+        color: hexToRgba(avonLightColorTokens.colorOnSecondary, 0.8),
         "&:hover": {
-          color: avonLightColorTokens.colorOnPrimary
+          color: avonLightColorTokens.colorOnSecondary
         }
       }
     }
