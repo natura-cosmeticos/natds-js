@@ -1,4 +1,4 @@
-import { ISizes } from './ISizes';
+import { ISizes } from "./ISizes";
 
 export const sizes: ISizes = {
   none: 0,

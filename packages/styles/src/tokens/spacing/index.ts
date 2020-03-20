@@ -1,5 +1,5 @@
-import { ISpacing } from './ISpacing';
-import { sizes } from '../sizes';
+import { ISpacing } from "./ISpacing";
+import { sizes } from "../sizes";
 
 export const spacing: ISpacing = {
   spacing: sizes.tiny,

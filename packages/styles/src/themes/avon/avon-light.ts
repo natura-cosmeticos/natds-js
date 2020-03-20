@@ -1,4 +1,4 @@
-import hexToRgba from 'hex-to-rgba';
+import hexToRgba from "hex-to-rgba";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -10,19 +10,7 @@ import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
-const { natura } = tokens.colors;
-
-const PRIMARY_MAIN = "#F091C9";
-const PRIMARY_DARK = "#890A6C";
-const PRIMARY_LIGHT = "#FAE5F2";
-const PRIMARY_CONTRAST = "#FFFFFF";
-
-const SECONDARY_MAIN = "#E9E9E9";
-const SECONDARY_DARK = "#B7B7B7";
-const SECONDARY_LIGHT = "#FFFFFF";
-const SECONDARY_CONTRAST = "#333333";
-
-const GRAY_LIGHT = "#FAFAFA";
+const { colorTokens: { avonLightColorTokens } } = tokens;
 
 export const avonLight: ITheme = {
   shape: {
@@ -36,46 +24,46 @@ export const avonLight: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-      disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
+      disabled: hexToRgba(avonLightColorTokens.colorHighlight, 0.24)
     },
     primary: {
-      main: PRIMARY_MAIN,
-      light: PRIMARY_LIGHT,
-      dark: PRIMARY_DARK,
-      contrastText: PRIMARY_CONTRAST
+      main: avonLightColorTokens.colorPrimary,
+      light: avonLightColorTokens.colorPrimaryLight,
+      dark: avonLightColorTokens.colorPrimaryDark,
+      contrastText: avonLightColorTokens.colorOnPrimary
     },
     secondary: {
-      main: SECONDARY_MAIN,
-      light: SECONDARY_LIGHT,
-      dark: SECONDARY_DARK,
-      contrastText: SECONDARY_CONTRAST
+      main: avonLightColorTokens.colorSecondary,
+      light: avonLightColorTokens.colorSecondaryLight,
+      dark: avonLightColorTokens.colorSecondaryDark,
+      contrastText: avonLightColorTokens.colorOnSecondary
     },
     error: {
-      main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite
+      main: avonLightColorTokens.colorAlert,
+      contrastText: avonLightColorTokens.colorOnAlert
     },
     success: {
-      main: natura.complementary.colorBrdNatCpGreen1,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite
+      main: avonLightColorTokens.colorSuccess,
+      contrastText: avonLightColorTokens.colorOnSuccess
     },
     background: {
-      paper: natura.primary.colorBrdNatPrimaryWhite,
-      default: GRAY_LIGHT,
-      paperContrastText: natura.grayscale.colorBrdNatGray,
-      defaultContrastText: natura.grayscale.colorBrdNatGray
+      paper: avonLightColorTokens.colorSurface,
+      default: avonLightColorTokens.colorBackground,
+      paperContrastText: avonLightColorTokens.colorOnSurface,
+      defaultContrastText: avonLightColorTokens.colorOnBackground
     },
     text: {
-      primary: natura.grayscale.colorBrdNatGray,
-      secondary: natura.grayscale.colorBrdNatGray1,
-      disabled: natura.grayscale.colorBrdNatGray2,
-      hint: natura.grayscale.colorBrdNatGray2
+      primary: avonLightColorTokens.colorHighEmphasis,
+      secondary: avonLightColorTokens.colorMediumEmphasis,
+      disabled: avonLightColorTokens.colorLowEmphasis,
+      hint: avonLightColorTokens.colorLowEmphasis
     },
     complementary: {
-      highlight: natura.grayscale.colorBrdBlack,
-      link: natura.complementary.colorBrdNatCpBlue1,
-      linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
-      warning: natura.complementary.colorBrdNatCpOrange4,
-      warningContrastText: natura.grayscale.colorBrdBlack
+      highlight: avonLightColorTokens.colorHighlight,
+      link: avonLightColorTokens.colorLink,
+      linkContrastText: avonLightColorTokens.colorOnLink,
+      warning: avonLightColorTokens.colorWarning,
+      warningContrastText: avonLightColorTokens.colorOnWarning
     }
   },
   typography: {
@@ -86,10 +74,10 @@ export const avonLight: ITheme = {
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: avonLightColorTokens.colorHighEmphasis
       },
       outlinedSecondary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: avonLightColorTokens.colorHighEmphasis
       },
       sizeSmall: {
         fontSize: "0.875rem",
@@ -107,7 +95,7 @@ export const avonLight: ITheme = {
     },
     MuiAvatar: {
       colorDefault: {
-        color: natura.grayscale.colorBrdNatGray
+        color: avonLightColorTokens.colorHighEmphasis
       }
     },
     MuiIconButton: {
@@ -122,18 +110,18 @@ export const avonLight: ITheme = {
       root: {
         border: `transparent 1px solid`,
         "&$expanded": {
-          borderColor: natura.primary.colorBrdNatPrimaryYellow
+          borderColor: avonLightColorTokens.colorPrimary
         },
         "&$disabled": {
-          backgroundColor: natura.primary.colorBrdNatPrimaryWhite,
+          backgroundColor: avonLightColorTokens.colorOnPrimary,
           opacity: 0.32
         }
       },
     },
     MuiExpansionPanelSummary: {
       root: {
-        alignItems: 'flex-start',
-        marginTop: '8px',
+        alignItems: "flex-start",
+        marginTop: "8px",
         "&$disabled": {
           opacity: 1
         }
@@ -168,24 +156,24 @@ export const avonLight: ITheme = {
     MuiListItem: {
       root: {
         "&$selected": {
-          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
+          backgroundColor: hexToRgba(avonLightColorTokens.colorSecondary, 0.16),
           "&:hover": {
-            backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
+            backgroundColor: hexToRgba(avonLightColorTokens.colorHighlight, 0.04)
           }
         },
-        '&.Mui-disabled': {
+        "&.Mui-disabled": {
           opacity: 0.32
         },
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
+          backgroundColor: hexToRgba(avonLightColorTokens.colorHighlight, 0.04)
         }
       }
     },
     MuiBadge: {
       badge: {
-        padding: '0 4px'
+        padding: "0 4px"
       }
     },
     MuiTab: {
@@ -207,12 +195,12 @@ export const avonLight: ITheme = {
     },
     MuiChip: {
       root: {
-        backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
-        color: natura.grayscale.colorBrdNatGray,
+        backgroundColor: hexToRgba(avonLightColorTokens.colorHighlight, 0.12),
+        color: avonLightColorTokens.colorHighEmphasis,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
-          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
-          color: natura.grayscale.colorBrdNatGray,
+          backgroundColor: hexToRgba(avonLightColorTokens.colorHighlight, 0.24),
+          color: avonLightColorTokens.colorHighEmphasis,
         },
         "&$disabled": {
           opacity: .4
@@ -220,23 +208,23 @@ export const avonLight: ITheme = {
       },
       clickableColorPrimary: {
         "&:hover": {
-          backgroundColor: PRIMARY_DARK
+          backgroundColor: avonLightColorTokens.colorPrimary
         }
       },
       clickableColorSecondary: {
         "&:hover": {
-          backgroundColor: PRIMARY_DARK
+          backgroundColor: avonLightColorTokens.colorSecondary
         }
       },
       outlined: {
-        borderColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
-        color: natura.grayscale.colorBrdBlack
+        borderColor: hexToRgba(avonLightColorTokens.colorHighlight, 0.12),
+        color: avonLightColorTokens.colorHighlight
       },
       outlinedPrimary: {
-        color: natura.grayscale.colorBrdBlack,
+        color: avonLightColorTokens.colorHighlight,
       },
       outlinedSecondary: {
-        color: natura.grayscale.colorBrdBlack,
+        color: avonLightColorTokens.colorHighlight,
       },
       icon: {
         fontSize: `${sizes.standard}px`,
@@ -251,9 +239,9 @@ export const avonLight: ITheme = {
         width: `${sizes.standard}px`,
         height: `${sizes.standard}px`,
         fontSize: `${sizes.standard}px`,
-        color: hexToRgba(natura.grayscale.colorBrdBlack, 0.8),
-        '&:hover': {
-          color: natura.grayscale.colorBrdBlack
+        color: hexToRgba(avonLightColorTokens.colorHighlight, 0.8),
+        "&:hover": {
+          color: avonLightColorTokens.colorHighlight
         }
       },
       deleteIconSmall: {
@@ -262,15 +250,15 @@ export const avonLight: ITheme = {
         fontSize: `${sizes.small}px`,
       },
       deleteIconColorPrimary: {
-        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
-        '&:hover': {
-          color: natura.primary.colorBrdNatPrimaryWhite
+        color: hexToRgba(avonLightColorTokens.colorOnPrimary, 0.8),
+        "&:hover": {
+          color: avonLightColorTokens.colorOnPrimary
         }
       },
       deleteIconColorSecondary: {
-        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
-        '&:hover': {
-          color: natura.primary.colorBrdNatPrimaryWhite
+        color: hexToRgba(avonLightColorTokens.colorOnSecondary, 0.8),
+        "&:hover": {
+          color: avonLightColorTokens.colorOnSecondary
         }
       }
     }

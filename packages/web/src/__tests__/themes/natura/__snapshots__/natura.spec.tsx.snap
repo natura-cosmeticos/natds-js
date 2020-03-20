@@ -257,7 +257,7 @@ Object {
   },
   "palette": Object {
     "action": Object {
-      "disabled": "rgba(0, 0, 0, 0.24)",
+      "disabled": "rgba(51, 51, 51, 0.24)",
     },
     "background": Object {
       "default": "#FAFAFA",
@@ -270,7 +270,7 @@ Object {
       "link": "#227BBD",
       "linkContrastText": "#FFFFFF",
       "warning": "#FCC433",
-      "warningContrastText": "#000000",
+      "warningContrastText": "#333333",
     },
     "error": Object {
       "contrastText": "#FFFFFF",
@@ -284,8 +284,8 @@ Object {
     },
     "secondary": Object {
       "contrastText": "#000000",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
+      "dark": "#FF5808",
+      "light": "#FFF8E1",
       "main": "#FF6B0B",
     },
     "success": Object {
