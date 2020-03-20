@@ -1,16 +1,13 @@
 import * as React from 'react';
 import tokensParams from '../../shared';
 import Table from '@addons/Table';
-import { parseTheme } from '../shared';
-import { themes } from '@naturacosmeticos/natds-styles';
+import { parseColortokens } from '../shared';
+import { tokens } from '@naturacosmeticos/natds-styles';
 
-const { avon: { light, dark } } = themes;
+const { colorTokens: { avonLightColorTokens } } = tokens;
 
 const LightComponent = () => (
-  <Table schema={parseTheme(light)} title="Avon Light" />
-);
-const DarkComponent = () => (
-  <Table schema={parseTheme(dark)} title="Avon Dark" />
+  <Table schema={parseColortokens(avonLightColorTokens)} title="Avon Light" />
 );
 
 export default {
@@ -21,7 +18,6 @@ export default {
       page: () => (
         <div>
           <LightComponent />
-          <DarkComponent />
         </div>
       )
     },
@@ -33,6 +29,3 @@ export const Light = () => (
   <LightComponent />
 );
 
-export const Dark = () => (
-  <DarkComponent />
-);
