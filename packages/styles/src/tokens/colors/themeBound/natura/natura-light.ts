@@ -1,0 +1,31 @@
+import { IColorThemeTokens } from "../IColorThemeTokens";
+
+export const naturaLightColorTokens: IColorThemeTokens = {
+  colorPrimary: '#F4AB34',
+  colorOnPrimary: '#333333',
+  colorPrimaryLight: '#FEFDE8',
+  colorOnPrimaryLight: '#333333',
+  colorPrimaryDark: '#EF8426',
+  colorOnPrimaryDark: '#333333',
+  colorSecondary: '#FF6B0B',
+  colorOnSecondary: '#000000',
+  colorSecondaryLight: '#FFF8E1',
+  colorOnSecondaryLight: '#000000',
+  colorSecondaryDark: '#FF5808',
+  colorOnSecondaryDark: '#000000',
+  colorBackground: '#FAFAFA',
+  colorOnBackground: '#333333',
+  colorSurface: '#FFFFFF',
+  colorOnSurface: '#333333',
+  colorHighlight: '#000000',
+  colorHighEmphasis: '#333333',
+  colorMediumEmphasis: '#777777',
+  colorLowEmphasis: '#BBBBBB',
+  colorLink: '#227BBD',
+  colorSuccess: '#569A32',
+  colorOnSuccess: '#FFFFFF',
+  colorWarning: '#FCC433',
+  colorOnWarning: '#333333',
+  colorAlert: '#E74627',
+  colorOnAlert: '#FFFFFF'
+};
