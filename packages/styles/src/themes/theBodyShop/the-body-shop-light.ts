@@ -9,7 +9,8 @@ import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
-import { theBodyShopLightColorTokens } from "../../tokens/colors/themeBound/theBodyShop";
+
+const { colorTokens: { theBodyShopLightColorTokens } } = tokens;
 
 export const theBodyShopLight: ITheme = {
   shape: {
