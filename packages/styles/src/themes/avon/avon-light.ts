@@ -1,4 +1,4 @@
-import hexToRgba from 'hex-to-rgba';
+import hexToRgba from "hex-to-rgba";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -132,8 +132,8 @@ export const avonLight: ITheme = {
     },
     MuiExpansionPanelSummary: {
       root: {
-        alignItems: 'flex-start',
-        marginTop: '8px',
+        alignItems: "flex-start",
+        marginTop: "8px",
         "&$disabled": {
           opacity: 1
         }
@@ -173,7 +173,7 @@ export const avonLight: ITheme = {
             backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
           }
         },
-        '&.Mui-disabled': {
+        "&.Mui-disabled": {
           opacity: 0.32
         },
       },
@@ -185,7 +185,7 @@ export const avonLight: ITheme = {
     },
     MuiBadge: {
       badge: {
-        padding: '0 4px'
+        padding: "0 4px"
       }
     },
     MuiTab: {
@@ -252,7 +252,7 @@ export const avonLight: ITheme = {
         height: `${sizes.standard}px`,
         fontSize: `${sizes.standard}px`,
         color: hexToRgba(natura.grayscale.colorBrdBlack, 0.8),
-        '&:hover': {
+        "&:hover": {
           color: natura.grayscale.colorBrdBlack
         }
       },
@@ -263,13 +263,13 @@ export const avonLight: ITheme = {
       },
       deleteIconColorPrimary: {
         color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
-        '&:hover': {
+        "&:hover": {
           color: natura.primary.colorBrdNatPrimaryWhite
         }
       },
       deleteIconColorSecondary: {
         color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
-        '&:hover': {
+        "&:hover": {
           color: natura.primary.colorBrdNatPrimaryWhite
         }
       }

@@ -328,7 +328,7 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
             "link": "#227BBD",
             "linkContrastText": "#FFFFFF",
             "warning": "#FCC433",
-            "warningContrastText": "#000000",
+            "warningContrastText": "#333333",
           },
           "contrastThreshold": 3,
           "divider": "rgba(0, 0, 0, 0.12)",
@@ -369,8 +369,8 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
           },
           "secondary": Object {
             "contrastText": "#000000",
-            "dark": "#EF8426",
-            "light": "#FEFDE8",
+            "dark": "#FF5808",
+            "light": "#FFF8E1",
             "main": "#FF6B0B",
           },
           "success": Object {
@@ -908,7 +908,7 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
             "link": "#227BBD",
             "linkContrastText": "#FFFFFF",
             "warning": "#FCC433",
-            "warningContrastText": "#000000",
+            "warningContrastText": "#333333",
           },
           "contrastThreshold": 3,
           "divider": "rgba(0, 0, 0, 0.12)",
@@ -949,8 +949,8 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
           },
           "secondary": Object {
             "contrastText": "#000000",
-            "dark": "#EF8426",
-            "light": "#FEFDE8",
+            "dark": "#FF5808",
+            "light": "#FFF8E1",
             "main": "#FF6B0B",
           },
           "success": Object {

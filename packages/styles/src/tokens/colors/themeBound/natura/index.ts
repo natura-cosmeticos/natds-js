@@ -1,1 +1,1 @@
-export { naturaLightColorTokens } from './natura-light';
+export { naturaLightColorTokens } from "./natura-light";

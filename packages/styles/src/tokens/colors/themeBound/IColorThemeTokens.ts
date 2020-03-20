@@ -20,6 +20,7 @@ export interface IColorThemeTokens {
   colorMediumEmphasis: string;
   colorLowEmphasis: string;
   colorLink: string;
+  colorOnLink: string;
   colorSuccess: string;
   colorOnSuccess: string;
   colorWarning: string;

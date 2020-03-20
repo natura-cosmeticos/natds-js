@@ -9,12 +9,9 @@ import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
+import { naturaLightColorTokens } from "../../tokens/colors/themeBound/natura/natura-light";
 
 const { natura } = tokens.colors;
-
-const PRIMARY_LIGHT = "#FEFDE8";
-const PRIMARY_DARK = "#EF8426";
-const GRAY_LIGHT = "#FAFAFA";
 
 export const naturaLight: ITheme = {
   shape: {
@@ -31,43 +28,43 @@ export const naturaLight: ITheme = {
       disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24)
     },
     primary: {
-      main: natura.primary.colorBrdNatPrimaryYellow,
-      light: PRIMARY_LIGHT,
-      dark: PRIMARY_DARK,
-      contrastText: natura.grayscale.colorBrdNatGray
+      main: naturaLightColorTokens.colorPrimary,
+      light: naturaLightColorTokens.colorPrimaryLight,
+      dark: naturaLightColorTokens.colorPrimaryDark,
+      contrastText: naturaLightColorTokens.colorOnPrimary
     },
     secondary: {
-      main: natura.primary.colorBrdNatPrimaryOrange,
-      light: PRIMARY_LIGHT,
-      dark: PRIMARY_DARK,
-      contrastText: natura.grayscale.colorBrdBlack
+      main: naturaLightColorTokens.colorSecondary,
+      light: naturaLightColorTokens.colorSecondaryLight,
+      dark: naturaLightColorTokens.colorSecondaryDark,
+      contrastText: naturaLightColorTokens.colorOnSecondary
     },
     error: {
-      main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite
+      main: naturaLightColorTokens.colorAlert,
+      contrastText: naturaLightColorTokens.colorOnAlert
     },
     success: {
-      main: natura.complementary.colorBrdNatCpGreen1,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite
+      main: naturaLightColorTokens.colorSuccess,
+      contrastText: naturaLightColorTokens.colorOnSuccess
     },
     background: {
-      paper: natura.primary.colorBrdNatPrimaryWhite,
-      default: GRAY_LIGHT,
-      paperContrastText: natura.grayscale.colorBrdNatGray,
-      defaultContrastText: natura.grayscale.colorBrdNatGray
+      paper: naturaLightColorTokens.colorSurface,
+      default: naturaLightColorTokens.colorBackground,
+      paperContrastText: naturaLightColorTokens.colorOnSurface,
+      defaultContrastText: naturaLightColorTokens.colorOnBackground
     },
     text: {
-      primary: natura.grayscale.colorBrdNatGray,
-      secondary: natura.grayscale.colorBrdNatGray1,
-      disabled: natura.grayscale.colorBrdNatGray2,
-      hint: natura.grayscale.colorBrdNatGray2
+      primary: naturaLightColorTokens.colorHighEmphasis,
+      secondary: naturaLightColorTokens.colorMediumEmphasis,
+      disabled: naturaLightColorTokens.colorLowEmphasis,
+      hint: naturaLightColorTokens.colorLowEmphasis
     },
     complementary: {
-      highlight: natura.grayscale.colorBrdBlack,
-      link: natura.complementary.colorBrdNatCpBlue1,
-      linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
-      warning: natura.complementary.colorBrdNatCpOrange4,
-      warningContrastText: natura.grayscale.colorBrdBlack
+      highlight: naturaLightColorTokens.colorHighlight,
+      link: naturaLightColorTokens.colorLink,
+      linkContrastText: naturaLightColorTokens.colorOnLink,
+      warning: naturaLightColorTokens.colorWarning,
+      warningContrastText: naturaLightColorTokens.colorOnWarning
     }
   },
   typography: {
@@ -78,13 +75,13 @@ export const naturaLight: ITheme = {
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: naturaLightColorTokens.colorOnPrimary
       },
       outlinedSecondary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: naturaLightColorTokens.colorOnPrimary
       },
       textPrimary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: naturaLightColorTokens.colorOnPrimary
       },
       sizeSmall: {
         fontSize: "0.875rem",
@@ -102,7 +99,7 @@ export const naturaLight: ITheme = {
     },
     MuiAvatar: {
       colorDefault: {
-        color: natura.grayscale.colorBrdNatGray
+        color: naturaLightColorTokens.colorOnPrimary
       }
     },
     MuiIconButton: {
@@ -117,10 +114,10 @@ export const naturaLight: ITheme = {
       root: {
         border: `transparent 1px solid`,
         "&$expanded": {
-          borderColor: natura.primary.colorBrdNatPrimaryYellow
+          borderColor: naturaLightColorTokens.colorPrimary
         },
         "&$disabled": {
-          backgroundColor: natura.primary.colorBrdNatPrimaryWhite,
+          backgroundColor: naturaLightColorTokens.colorSurface,
           opacity: 0.32
         }
       }
@@ -164,11 +161,11 @@ export const naturaLight: ITheme = {
       root: {
         "&$selected": {
           backgroundColor: hexToRgba(
-            natura.primary.colorBrdNatPrimaryOrange,
+            naturaLightColorTokens.colorSecondary,
             0.16
           ),
           "&:hover": {
-            backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
+            backgroundColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.04)
           }
         },
         "&.Mui-disabled": {
@@ -177,7 +174,7 @@ export const naturaLight: ITheme = {
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
+          backgroundColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.04)
         }
       }
     },
@@ -205,12 +202,12 @@ export const naturaLight: ITheme = {
     },
     MuiChip: {
       root: {
-        backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
-        color: natura.grayscale.colorBrdNatGray,
+        backgroundColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.12),
+        color: naturaLightColorTokens.colorOnPrimary,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
-          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
-          color: natura.grayscale.colorBrdNatGray
+          backgroundColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.24),
+          color: naturaLightColorTokens.colorOnPrimary
         },
         "&$disabled": {
           opacity: 0.4
@@ -218,23 +215,23 @@ export const naturaLight: ITheme = {
       },
       clickableColorPrimary: {
         "&:hover": {
-          backgroundColor: PRIMARY_DARK
+          backgroundColor: naturaLightColorTokens.colorPrimaryDark
         }
       },
       clickableColorSecondary: {
         "&:hover": {
-          backgroundColor: PRIMARY_DARK
+          backgroundColor: naturaLightColorTokens.colorPrimaryDark
         }
       },
       outlined: {
-        borderColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
-        color: natura.grayscale.colorBrdBlack
+        borderColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.12),
+        color: naturaLightColorTokens.colorOnSecondary
       },
       outlinedPrimary: {
-        color: natura.grayscale.colorBrdBlack
+        color: naturaLightColorTokens.colorOnSecondary
       },
       outlinedSecondary: {
-        color: natura.grayscale.colorBrdBlack
+        color: naturaLightColorTokens.colorOnSecondary
       },
       icon: {
         fontSize: `${sizes.standard}px`
@@ -249,9 +246,9 @@ export const naturaLight: ITheme = {
         width: `${sizes.standard}px`,
         height: `${sizes.standard}px`,
         fontSize: `${sizes.standard}px`,
-        color: hexToRgba(natura.grayscale.colorBrdBlack, 0.8),
+        color: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.8),
         "&:hover": {
-          color: natura.grayscale.colorBrdBlack
+          color: naturaLightColorTokens.colorOnSecondary
         }
       },
       deleteIconSmall: {
@@ -260,15 +257,15 @@ export const naturaLight: ITheme = {
         fontSize: `${sizes.small}px`
       },
       deleteIconColorPrimary: {
-        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
+        color: hexToRgba(naturaLightColorTokens.colorSurface, 0.8),
         "&:hover": {
-          color: natura.primary.colorBrdNatPrimaryWhite
+          color: naturaLightColorTokens.colorSurface
         }
       },
       deleteIconColorSecondary: {
-        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
+        color: hexToRgba(naturaLightColorTokens.colorSurface, 0.8),
         "&:hover": {
-          color: natura.primary.colorBrdNatPrimaryWhite
+          color: naturaLightColorTokens.colorSurface
         }
       }
     }
