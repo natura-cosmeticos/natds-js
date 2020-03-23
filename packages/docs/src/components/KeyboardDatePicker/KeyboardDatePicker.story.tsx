@@ -14,8 +14,7 @@ import {
   KeyboardDatePicker,
   TextField,
   PickersUtilProvider,
-  IconButton,
-  Icon
+  Icon,
 } from '@naturacosmeticos/natds-web';
 
 import KeyboardDatePickerDocs from './KeyboardDatePicker.docs.mdx';
@@ -71,8 +70,10 @@ export const Interactive = () => {
       {...textFieldProps}
       id="random-prop-id"
       type="text"
-      icon={<Icon name="outlined-action-calendar" size="tiny"/>}
-      onIconPress={() => { setOpen(!isOpen); }}
+      icon={<Icon name="outlined-action-calendar" size="tiny" />}
+      onIconPress={() => {
+        setOpen(!isOpen);
+      }}
     />
   );
 
@@ -89,30 +90,31 @@ export const Interactive = () => {
       <PickersUtilProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
           open={isOpen}
-          clearable
           allowKeyboardControl
-          keyboardIcon
+          // keyboardIcon
           placeholder="10/10/2018"
           value={selectedDate}
           label="Only calendar"
-          TextFieldComponent={textField}
+          // TextFieldComponent={textField}
           variant={select('Variant', variants, variants.dialog)}
           openTo={select('OpenTo', openTos, openTos.date)}
           format={select('Formats', formats, formats['dd/MM/yyyy'])}
-          // disableToolbar={boolean('Disabled Toolbar', false)}
-          // disableFuture={boolean('Disabled Future', false)}
-          // disablePast={boolean('Disabled Past', false)}
-          // animateYearScrolling={boolean('Animate Year Scrolling', false)}
-          // autoOk={boolean('Auto Ok', false)}
-          // disabled={boolean('Disabled', false)}
-          // clearable={boolean('Clearable', false)}
-          // views={options('Views Check', valuesInlineCheck, ['year'], {
-          //   display: 'inline-check',
-          // })}
+          disableToolbar={boolean('Disabled Toolbar', false)}
+          disableFuture={boolean('Disabled Future', false)}
+          disablePast={boolean('Disabled Past', false)}
+          animateYearScrolling={boolean('Animate Year Scrolling', false)}
+          onAccept={() => setOpen(!isOpen)}
+          onClose={() => setOpen(!isOpen)}
+          autoOk={boolean('Auto Ok', false)}
+          disabled={boolean('Disabled', false)}
+          clearable={boolean('Clearable', false)}
+          views={options('Views Check', valuesInlineCheck, ['year'], {
+            display: 'inline-check',
+          })}
           onChange={setSelectedDate}
-          // cancelLabel={text('Cancel Label', 'Cancel')}
-          // clearLabel={text('Clear Label', 'Clear')}
-          // okLabel={text('OK Label', 'OK')}
+          okLabel={text('Ok Label', 'OK')}
+          cancelLabel={text('Cancel Label', 'Cancel')}
+          clearLabel={text('Clear Label', 'Clear')}
         />
       </PickersUtilProvider>
     </div>
