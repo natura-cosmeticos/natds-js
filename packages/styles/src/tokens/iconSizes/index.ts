@@ -1,5 +1,5 @@
-import { IIconSizes } from './IIconSizes';
-import { sizes } from '../sizes';
+import { IIconSizes } from "./IIconSizes";
+import { sizes } from "../sizes";
 
 export const iconSizes: IIconSizes = {
   micro: sizes.small,
