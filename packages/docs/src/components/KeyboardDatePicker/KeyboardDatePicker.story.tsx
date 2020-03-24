@@ -12,9 +12,7 @@ import DateFnsUtils from '@date-io/date-fns';
 import { makeStyles } from '@material-ui/core/styles';
 import {
   KeyboardDatePicker,
-  TextField,
   PickersUtilProvider,
-  Icon,
 } from '@naturacosmeticos/natds-web';
 
 import KeyboardDatePickerDocs from './KeyboardDatePicker.docs.mdx';
@@ -63,19 +61,6 @@ export const Interactive = () => {
   const [selectedDate, setSelectedDate] = React.useState<Date | null>(
     new Date()
   );
-  const [isOpen, setOpen] = React.useState<boolean>(false);
-
-  const textField = (textFieldProps: any) => (
-    <TextField
-      {...textFieldProps}
-      id="random-prop-id"
-      type="text"
-      icon={<Icon name="outlined-action-calendar" size="tiny" />}
-      onIconPress={() => {
-        setOpen(!isOpen);
-      }}
-    />
-  );
 
   const useStyles = makeStyles(theme => ({
     wrapper: {
@@ -89,13 +74,10 @@ export const Interactive = () => {
     <div className={classes.wrapper}>
       <PickersUtilProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
-          open={isOpen}
           allowKeyboardControl
-          // keyboardIcon
           placeholder="10/10/2018"
           value={selectedDate}
           label="Only calendar"
-          // TextFieldComponent={textField}
           variant={select('Variant', variants, variants.dialog)}
           openTo={select('OpenTo', openTos, openTos.date)}
           format={select('Formats', formats, formats['dd/MM/yyyy'])}
@@ -103,8 +85,6 @@ export const Interactive = () => {
           disableFuture={boolean('Disabled Future', false)}
           disablePast={boolean('Disabled Past', false)}
           animateYearScrolling={boolean('Animate Year Scrolling', false)}
-          onAccept={() => setOpen(!isOpen)}
-          onClose={() => setOpen(!isOpen)}
           autoOk={boolean('Auto Ok', false)}
           disabled={boolean('Disabled', false)}
           clearable={boolean('Clearable', false)}

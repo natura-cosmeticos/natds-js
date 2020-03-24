@@ -325,7 +325,7 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
                                             "componentStyle": ComponentStyle {
                                               "componentId": "sc-jTzLTM",
                                               "isStatic": false,
-                                              "lastClassName": "jVjwlk",
+                                              "lastClassName": "bxrwkE",
                                               "rules": Array [
                                                 "
   background-color: transparent;
@@ -406,17 +406,17 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
                                                 " 0 0 0 1px;
   }
 
-  &[type=\\"text\\"]::-ms-clear,
-  &[type=\\"text\\"]::-ms-reveal {
+  &[type='text']::-ms-clear,
+  &[type='text']::-ms-reveal {
     display: none;
     width: 0;
     height: 0;
   }
 
-  &[type=\\"search\\"]::-webkit-search-decoration,
-  &[type=\\"search\\"]::-webkit-search-cancel-button,
-  &[type=\\"search\\"]::-webkit-search-results-button,
-  &[type=\\"search\\"]::-webkit-search-results-decoration {
+  &[type='search']::-webkit-search-decoration,
+  &[type='search']::-webkit-search-cancel-button,
+  &[type='search']::-webkit-search-results-button,
+  &[type='search']::-webkit-search-results-decoration {
     display: none;
   }
 ",
@@ -446,7 +446,7 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
                                         value=""
                                       >
                                         <input
-                                          className="sc-jTzLTM jVjwlk undefined__input"
+                                          className="sc-jTzLTM bxrwkE undefined__input"
                                           disabled={false}
                                           format="MMMM do"
                                           id="random-prop-id"

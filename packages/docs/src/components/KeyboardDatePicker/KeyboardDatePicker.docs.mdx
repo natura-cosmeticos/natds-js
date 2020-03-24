@@ -27,33 +27,16 @@ import DateFnsUtils from '@date-io/date-fns'; // choose your lib
 import {
   KeyboardDatePicker,
   PickersUtilProvider,
-  TextField,
 } from '@naturacosmeticos/natds-web';
 
 export const KeyboardDatePickerWrapper = () => {
   const [selectedDate, handleDateChange] = useState(new Date());
-  const [isOpen, setOpen] = React.useState < boolean > false;
-
-  const textField = (textFieldProps: any) => (
-    <TextField
-      {...textFieldProps}
-      id="random-prop-id"
-      type="text"
-      icon={<Icon name="outlined-action-calendar" size="tiny" />}
-      onIconPress={() => {
-        setOpen(!isOpen);
-      }}
-    />
-  );
 
   return (
     <PickersUtilProvider utils={DateFnsUtils}>
       <KeyboardDatePicker
-        open={isOpen}
         placeholder="10/10/2018"
-        onAccept={() => setOpen(!isOpen)}
         value={selectedDate}
-        TextFieldComponent={textField}
         onChange={handleDateChange}
         variant="dialog"
       />

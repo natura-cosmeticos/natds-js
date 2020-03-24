@@ -189,12 +189,61 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "padding": "12px",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -230,6 +279,11 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "& > *:first-child": Object {
               "marginBottom": "2px !important",
             },
+          },
+        },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
           },
         },
         "MuiToolbar": Object {
@@ -614,12 +668,61 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "padding": "12px",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -655,6 +758,11 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "& > *:first-child": Object {
               "marginBottom": "2px !important",
             },
+          },
+        },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
           },
         },
         "MuiToolbar": Object {
@@ -1039,12 +1147,61 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "padding": "12px",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -1080,6 +1237,11 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "& > *:first-child": Object {
               "marginBottom": "2px !important",
             },
+          },
+        },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
           },
         },
         "MuiToolbar": Object {
@@ -1466,12 +1628,61 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "padding": "12px",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -1507,6 +1718,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "& > *:first-child": Object {
               "marginBottom": "2px !important",
             },
+          },
+        },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
           },
         },
         "MuiToolbar": Object {
@@ -1893,12 +2109,61 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "padding": "12px",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -1934,6 +2199,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "& > *:first-child": Object {
               "marginBottom": "2px !important",
             },
+          },
+        },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
           },
         },
         "MuiToolbar": Object {
@@ -2320,12 +2590,61 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "padding": "12px",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -2361,6 +2680,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "& > *:first-child": Object {
               "marginBottom": "2px !important",
             },
+          },
+        },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
           },
         },
         "MuiToolbar": Object {
@@ -2747,12 +3071,61 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "padding": "12px",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -2788,6 +3161,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "& > *:first-child": Object {
               "marginBottom": "2px !important",
             },
+          },
+        },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
           },
         },
         "MuiToolbar": Object {
@@ -3174,12 +3552,61 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "color": "#333333",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "padding": "12px",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -3215,6 +3642,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "& > *:first-child": Object {
               "marginBottom": "2px !important",
             },
+          },
+        },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
           },
         },
         "MuiToolbar": Object {
