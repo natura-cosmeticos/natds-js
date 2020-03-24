@@ -10,7 +10,9 @@ import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
-const { colorTokens: { theBodyShopLightColorTokens } } = tokens;
+const {
+  colorTokens: { theBodyShopLightColorTokens }
+} = tokens;
 
 export const theBodyShopLight: ITheme = {
   shape: {
@@ -116,7 +118,7 @@ export const theBodyShopLight: ITheme = {
           backgroundColor: theBodyShopLightColorTokens.colorOnPrimary,
           opacity: 0.32
         }
-      },
+      }
     },
     MuiExpansionPanelSummary: {
       root: {
@@ -156,18 +158,27 @@ export const theBodyShopLight: ITheme = {
     MuiListItem: {
       root: {
         "&$selected": {
-          backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorSecondary, 0.16),
+          backgroundColor: hexToRgba(
+            theBodyShopLightColorTokens.colorSecondary,
+            0.16
+          ),
           "&:hover": {
-            backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.04)
+            backgroundColor: hexToRgba(
+              theBodyShopLightColorTokens.colorHighlight,
+              0.04
+            )
           }
         },
         "&.Mui-disabled": {
           opacity: 0.32
-        },
+        }
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.04)
+          backgroundColor: hexToRgba(
+            theBodyShopLightColorTokens.colorHighlight,
+            0.04
+          )
         }
       }
     },
@@ -180,7 +191,7 @@ export const theBodyShopLight: ITheme = {
       root: {
         "&$disabled": {
           opacity: 0.24
-        },
+        }
       },
       textColorInherit: {
         "&$disabled": {
@@ -195,16 +206,22 @@ export const theBodyShopLight: ITheme = {
     },
     MuiChip: {
       root: {
-        backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.12),
+        backgroundColor: hexToRgba(
+          theBodyShopLightColorTokens.colorHighlight,
+          0.12
+        ),
         color: theBodyShopLightColorTokens.colorHighEmphasis,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
-          backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.24),
-          color: theBodyShopLightColorTokens.colorHighEmphasis,
+          backgroundColor: hexToRgba(
+            theBodyShopLightColorTokens.colorHighlight,
+            0.24
+          ),
+          color: theBodyShopLightColorTokens.colorHighEmphasis
         },
         "&$disabled": {
-          opacity: .4
-        },
+          opacity: 0.4
+        }
       },
       clickableColorPrimary: {
         "&:hover": {
@@ -217,17 +234,20 @@ export const theBodyShopLight: ITheme = {
         }
       },
       outlined: {
-        borderColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.12),
+        borderColor: hexToRgba(
+          theBodyShopLightColorTokens.colorHighlight,
+          0.12
+        ),
         color: theBodyShopLightColorTokens.colorHighlight
       },
       outlinedPrimary: {
-        color: theBodyShopLightColorTokens.colorHighlight,
+        color: theBodyShopLightColorTokens.colorHighlight
       },
       outlinedSecondary: {
-        color: theBodyShopLightColorTokens.colorHighlight,
+        color: theBodyShopLightColorTokens.colorHighlight
       },
       icon: {
-        fontSize: `${sizes.standard}px`,
+        fontSize: `${sizes.standard}px`
       },
       iconSmall: {
         width: `${sizes.small}px`,
@@ -247,7 +267,7 @@ export const theBodyShopLight: ITheme = {
       deleteIconSmall: {
         width: `${sizes.small}px`,
         height: `${sizes.small}px`,
-        fontSize: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`
       },
       deleteIconColorPrimary: {
         color: hexToRgba(theBodyShopLightColorTokens.colorOnPrimary, 0.8),
@@ -260,6 +280,60 @@ export const theBodyShopLight: ITheme = {
         "&:hover": {
           color: theBodyShopLightColorTokens.colorOnSecondary
         }
+      }
+    },
+    MuiTextField: {
+      "& .MuiInputLabel": {
+        marginTop: "20px"
+      }
+    },
+    MuiInputBase: {
+      root: {
+        color: theBodyShopLightColorTokens.colorOnPrimaryLight,
+        "&:hover": {
+          boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&.Mui-focused": {
+          boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiInput-underline:before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline:after": {
+          borderBottom: "none"
+        },
+        padding: "12px",
+        borderRadius: "4px",
+        boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+      },
+      input: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis
+      }
+    },
+    MuiInputLabel: {
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
+      },
+      shrink: {
+        transform: "none",
+        marginTop: "-4px"
+      }
+    },
+    MuiFormLabel: {
+      root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        "&.Mui-focused": {
+          fontSize: fontSize.subtitle2.fontSize,
+          color: theBodyShopLightColorTokens.colorMediumEmphasis
+        }
+      },
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
       }
     }
   }

@@ -191,12 +191,61 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -232,6 +281,11 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -597,12 +651,61 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -638,6 +741,11 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -1010,12 +1118,61 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -1051,6 +1208,11 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -1423,12 +1585,61 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -1464,6 +1675,11 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -1829,12 +2045,61 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -1870,6 +2135,11 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -2242,12 +2512,61 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -2283,6 +2602,11 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -2655,12 +2979,61 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -2696,6 +3069,11 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -3061,12 +3439,61 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -3102,6 +3529,11 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -3474,12 +3906,61 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -3515,6 +3996,11 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -3887,12 +4373,61 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -3928,6 +4463,11 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -4293,12 +4833,61 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -4334,6 +4923,11 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -4706,12 +5300,61 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -4747,6 +5390,11 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -5119,12 +5767,61 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -5160,6 +5857,11 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -5525,12 +6227,61 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -5566,6 +6317,11 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -5938,12 +6694,61 @@ exports[`Intro component should match snapshot - Any valid Intro with error titl
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -5979,6 +6784,11 @@ exports[`Intro component should match snapshot - Any valid Intro with error titl
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -6351,12 +7161,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -6392,6 +7251,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -6757,12 +7621,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -6798,6 +7711,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -7170,12 +8088,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -7211,6 +8178,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -7583,12 +8555,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -7624,6 +8645,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -7989,12 +9015,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -8030,6 +9105,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -8402,12 +9482,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -8443,6 +9572,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -8815,12 +9949,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -8856,6 +10039,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -9221,12 +10409,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -9262,6 +10499,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -9634,12 +10876,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -9675,6 +10966,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -10047,12 +11343,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -10088,6 +11433,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -10453,12 +11803,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -10494,6 +11893,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -10866,12 +12270,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -10907,6 +12360,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -11279,12 +12737,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -11320,6 +12827,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -11685,12 +13197,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -11726,6 +13287,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -12098,12 +13664,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -12139,6 +13754,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -12511,12 +14131,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -12552,6 +14221,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -12917,12 +14591,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -12958,6 +14681,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -13330,12 +15058,61 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -13371,6 +15148,11 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -13743,12 +15525,61 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -13784,6 +15615,11 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -14149,12 +15985,61 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -14190,6 +16075,11 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -14562,12 +16452,61 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -14603,6 +16542,11 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -14968,12 +16912,61 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -15009,6 +17002,11 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -15381,12 +17379,61 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -15422,6 +17469,11 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -15794,12 +17846,61 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -15835,6 +17936,11 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -16207,12 +18313,61 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -16248,6 +18403,11 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -16613,12 +18773,61 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -16654,6 +18863,11 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -17026,12 +19240,61 @@ exports[`Intro component should match snapshot - Any valid Intro with initial ti
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -17067,6 +19330,11 @@ exports[`Intro component should match snapshot - Any valid Intro with initial ti
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -17439,12 +19707,61 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -17480,6 +19797,11 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -17845,12 +20167,61 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -17886,6 +20257,11 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -18258,12 +20634,61 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -18299,6 +20724,11 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -18671,12 +21101,61 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -18712,6 +21191,11 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -19077,12 +21561,61 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -19118,6 +21651,11 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -19490,12 +22028,61 @@ exports[`Intro component should match snapshot - Any valid Intro with primary ti
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -19531,6 +22118,11 @@ exports[`Intro component should match snapshot - Any valid Intro with primary ti
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -19903,12 +22495,61 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -19944,6 +22585,11 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -20309,12 +22955,61 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -20350,6 +23045,11 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -20722,12 +23422,61 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -20763,6 +23512,11 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -21135,12 +23889,61 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -21176,6 +23979,11 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -21541,12 +24349,61 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -21582,6 +24439,11 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -21954,12 +24816,61 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -21995,6 +24906,11 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -22367,12 +25283,61 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -22408,6 +25373,11 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -22773,12 +25743,61 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -22814,6 +25833,11 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -23186,12 +26210,61 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -23227,6 +26300,11 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -23599,12 +26677,61 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -23640,6 +26767,11 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -24005,12 +27137,61 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -24046,6 +27227,11 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -24418,12 +27604,61 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -24459,6 +27694,11 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -24831,12 +28071,61 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -24872,6 +28161,11 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -25237,12 +28531,61 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -25278,6 +28621,11 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -25650,12 +28998,61 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -25691,6 +29088,11 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -26063,12 +29465,61 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -26104,6 +29555,11 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -26469,12 +29925,61 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -26510,6 +30015,11 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -26882,12 +30392,61 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -26923,6 +30482,11 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -27295,12 +30859,61 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -27336,6 +30949,11 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -27701,12 +31319,61 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -27742,6 +31409,11 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -28114,12 +31786,61 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -28155,6 +31876,11 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {
@@ -28531,12 +32257,61 @@ exports[`Intro component should match snapshot - Intro with title and without de
               "marginTop": "8px",
             },
           },
+          "MuiFormLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "color": "#777777",
+                "fontSize": "0.875rem",
+              },
+              "fontSize": "0.875rem",
+            },
+          },
           "MuiIconButton": Object {
             "root": Object {
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputBase": Object {
+            "input": Object {
+              "color": "#333333",
+            },
+            "root": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&.MuiInput-underline:after": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:before": Object {
+                "borderBottom": "none",
+              },
+              "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                "borderBottom": "none",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "padding": "12px",
+            },
+          },
+          "MuiInputLabel": Object {
+            "formControl": Object {
+              "marginTop": "-4px",
+              "transform": "none",
+            },
+            "shrink": Object {
+              "marginTop": "-4px",
+              "transform": "none",
             },
           },
           "MuiListItem": Object {
@@ -28572,6 +32347,11 @@ exports[`Intro component should match snapshot - Intro with title and without de
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTextField": Object {
+            "& .MuiInputLabel": Object {
+              "marginTop": "20px",
             },
           },
           "MuiToolbar": Object {

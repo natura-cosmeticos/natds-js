@@ -10,7 +10,9 @@ import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
-const { colorTokens: { avonLightColorTokens } } = tokens;
+const {
+  colorTokens: { avonLightColorTokens }
+} = tokens;
 
 export const avonLight: ITheme = {
   shape: {
@@ -116,7 +118,7 @@ export const avonLight: ITheme = {
           backgroundColor: avonLightColorTokens.colorOnPrimary,
           opacity: 0.32
         }
-      },
+      }
     },
     MuiExpansionPanelSummary: {
       root: {
@@ -158,12 +160,15 @@ export const avonLight: ITheme = {
         "&$selected": {
           backgroundColor: hexToRgba(avonLightColorTokens.colorSecondary, 0.16),
           "&:hover": {
-            backgroundColor: hexToRgba(avonLightColorTokens.colorHighlight, 0.04)
+            backgroundColor: hexToRgba(
+              avonLightColorTokens.colorHighlight,
+              0.04
+            )
           }
         },
         "&.Mui-disabled": {
           opacity: 0.32
-        },
+        }
       },
       button: {
         "&:hover": {
@@ -180,7 +185,7 @@ export const avonLight: ITheme = {
       root: {
         "&$disabled": {
           opacity: 0.24
-        },
+        }
       },
       textColorInherit: {
         "&$disabled": {
@@ -200,11 +205,11 @@ export const avonLight: ITheme = {
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(avonLightColorTokens.colorHighlight, 0.24),
-          color: avonLightColorTokens.colorHighEmphasis,
+          color: avonLightColorTokens.colorHighEmphasis
         },
         "&$disabled": {
-          opacity: .4
-        },
+          opacity: 0.4
+        }
       },
       clickableColorPrimary: {
         "&:hover": {
@@ -221,13 +226,13 @@ export const avonLight: ITheme = {
         color: avonLightColorTokens.colorHighlight
       },
       outlinedPrimary: {
-        color: avonLightColorTokens.colorHighlight,
+        color: avonLightColorTokens.colorHighlight
       },
       outlinedSecondary: {
-        color: avonLightColorTokens.colorHighlight,
+        color: avonLightColorTokens.colorHighlight
       },
       icon: {
-        fontSize: `${sizes.standard}px`,
+        fontSize: `${sizes.standard}px`
       },
       iconSmall: {
         width: `${sizes.small}px`,
@@ -247,7 +252,7 @@ export const avonLight: ITheme = {
       deleteIconSmall: {
         width: `${sizes.small}px`,
         height: `${sizes.small}px`,
-        fontSize: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`
       },
       deleteIconColorPrimary: {
         color: hexToRgba(avonLightColorTokens.colorOnPrimary, 0.8),
@@ -260,6 +265,60 @@ export const avonLight: ITheme = {
         "&:hover": {
           color: avonLightColorTokens.colorOnSecondary
         }
+      }
+    },
+    MuiTextField: {
+      "& .MuiInputLabel": {
+        marginTop: "20px"
+      }
+    },
+    MuiInputBase: {
+      root: {
+        color: avonLightColorTokens.colorOnPrimaryLight,
+        "&:hover": {
+          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&.Mui-focused": {
+          boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiInput-underline:before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline:after": {
+          borderBottom: "none"
+        },
+        padding: "12px",
+        borderRadius: "4px",
+        boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+      },
+      input: {
+        color: avonLightColorTokens.colorOnPrimaryLight
+      }
+    },
+    MuiInputLabel: {
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
+      },
+      shrink: {
+        transform: "none",
+        marginTop: "-4px"
+      }
+    },
+    MuiFormLabel: {
+      root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        "&.Mui-focused": {
+          fontSize: fontSize.subtitle2.fontSize,
+          color: avonLightColorTokens.colorMediumEmphasis
+        }
+      },
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
       }
     }
   }

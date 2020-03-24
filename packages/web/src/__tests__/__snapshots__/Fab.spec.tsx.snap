@@ -2800,6 +2800,28 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "marginTop": "8px",
           },
         },
+        "MuiFormHelperText": Object {
+          "root": Object {
+            "&.Mui-error": Object {
+              "color": "#BBBBBB",
+            },
+          },
+        },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-error": Object {
+              "color": "#FAFAFA",
+            },
+            "&.Mui-focused": Object {
+              "color": "#BBBBBB",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
             "color": "#FAFAFA",
@@ -2807,6 +2829,42 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "color": "#FAFAFA",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "&:hover": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#777777 0 0 0 1px",
+            "color": "#333333",
+            "padding": "12px",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -2839,6 +2897,11 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "& > *:first-child": Object {
               "marginBottom": "2px !important",
             },
+          },
+        },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
           },
         },
         "MuiToolbar": Object {
