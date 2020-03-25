@@ -3,6 +3,8 @@ import { themes as webThemes } from './Themes';
 export const themes = { ...webThemes };
 export { Provider } from './Provider';
 
+export { default as Alert, IAlertProps } from './Components/Alert';
+export { default as AlertTitle, IAlertTitleProps } from './Components/AlertTitle';
 export { default as AppBar, IAppBarProps } from './Components/AppBar';
 export { default as Avatar, IAvatarProps } from './Components/Avatar';
 export { default as Badge, IBadgeProps } from './Components/Badge';
