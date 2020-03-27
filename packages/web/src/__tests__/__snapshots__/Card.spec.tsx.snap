@@ -165,7 +165,7 @@ exports[`Card components rendering variants should match to snapshot - with acti
                               className="MuiCardActionArea-focusHighlight"
                             />
                             <NoSsr>
-                              <WithStyles(undefined)
+                              <WithStyles(memo)
                                 center={false}
                               >
                                 <ForwardRef(TouchRipple)
@@ -192,7 +192,7 @@ exports[`Card components rendering variants should match to snapshot - with acti
                                     />
                                   </span>
                                 </ForwardRef(TouchRipple)>
-                              </WithStyles(undefined)>
+                              </WithStyles(memo)>
                             </NoSsr>
                           </button>
                         </ForwardRef(ButtonBase)>
@@ -362,7 +362,7 @@ exports[`Card components rendering variants should match to snapshot - with acti
                                         Action
                                       </span>
                                       <NoSsr>
-                                        <WithStyles(undefined)
+                                        <WithStyles(memo)
                                           center={false}
                                         >
                                           <ForwardRef(TouchRipple)
@@ -389,7 +389,7 @@ exports[`Card components rendering variants should match to snapshot - with acti
                                               />
                                             </span>
                                           </ForwardRef(TouchRipple)>
-                                        </WithStyles(undefined)>
+                                        </WithStyles(memo)>
                                       </NoSsr>
                                     </button>
                                   </ForwardRef(ButtonBase)>

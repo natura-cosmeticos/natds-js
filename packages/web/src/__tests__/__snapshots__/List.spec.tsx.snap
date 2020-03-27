@@ -99,7 +99,7 @@ exports[`List components rendering variants should match to snapshot - with List
                   >
                     Test
                     <NoSsr>
-                      <WithStyles(undefined)
+                      <WithStyles(memo)
                         center={false}
                       >
                         <ForwardRef(TouchRipple)
@@ -126,7 +126,7 @@ exports[`List components rendering variants should match to snapshot - with List
                             />
                           </span>
                         </ForwardRef(TouchRipple)>
-                      </WithStyles(undefined)>
+                      </WithStyles(memo)>
                     </NoSsr>
                   </div>
                 </ForwardRef(ButtonBase)>
@@ -650,7 +650,7 @@ exports[`List components rendering variants should match to snapshot - with List
                                           </WithTheme(ForwardRef)>
                                         </span>
                                         <NoSsr>
-                                          <WithStyles(undefined)
+                                          <WithStyles(memo)
                                             center={true}
                                           >
                                             <ForwardRef(TouchRipple)
@@ -677,7 +677,7 @@ exports[`List components rendering variants should match to snapshot - with List
                                                 />
                                               </span>
                                             </ForwardRef(TouchRipple)>
-                                          </WithStyles(undefined)>
+                                          </WithStyles(memo)>
                                         </NoSsr>
                                       </button>
                                     </ForwardRef(ButtonBase)>

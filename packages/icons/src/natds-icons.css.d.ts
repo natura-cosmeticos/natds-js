@@ -110,6 +110,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-planb": string;
   readonly "natds-icons-outlined-content-produtivity": string;
   readonly "natds-icons-outlined-content-store": string;
+  readonly "natds-icons-outlined-content-wellness": string;
   readonly "natds-icons-outlined-content-wifi": string;
   readonly "natds-icons-outlined-finance-bag": string;
   readonly "natds-icons-outlined-finance-cards": string;
