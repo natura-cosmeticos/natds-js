@@ -555,7 +555,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                                         </WithTheme(ForwardRef)>
                                                       </span>
                                                       <NoSsr>
-                                                        <WithStyles(undefined)
+                                                        <WithStyles(memo)
                                                           center={true}
                                                         >
                                                           <ForwardRef(TouchRipple)
@@ -582,7 +582,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                                               />
                                                             </span>
                                                           </ForwardRef(TouchRipple)>
-                                                        </WithStyles(undefined)>
+                                                        </WithStyles(memo)>
                                                       </NoSsr>
                                                     </button>
                                                   </ForwardRef(ButtonBase)>
@@ -688,7 +688,6 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                               },
                               "render": [Function],
                             },
-                            "defaultProps": undefined,
                             "displayName": "WithStyles(ForwardRef(Backdrop))",
                             "options": Object {
                               "defaultTheme": Object {
