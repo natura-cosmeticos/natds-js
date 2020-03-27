@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.4.0...@naturacosmeticos/natds-icons@0.4.1) (2020-03-27)
+
+
+### Bug Fixes
+
+* **icons:** added new wellness icon ([e02e498](https://github.com/natura-cosmeticos/natds/commit/e02e49869c4afd6a14cf4aa87e26fa5e24a76a9b))
+
+
+
+
+
 # [0.4.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.3.6...@naturacosmeticos/natds-icons@0.4.0) (2020-02-20)
 
 
