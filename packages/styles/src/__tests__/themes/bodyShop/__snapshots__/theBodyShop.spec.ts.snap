@@ -196,6 +196,28 @@ Object {
         "marginTop": "8px",
       },
     },
+    "MuiFormHelperText": Object {
+      "root": Object {
+        "&.Mui-error": Object {
+          "color": "#BBBBBB",
+        },
+      },
+    },
+    "MuiFormLabel": Object {
+      "formControl": Object {
+        "transform": "none",
+      },
+      "root": Object {
+        "&.Mui-error": Object {
+          "color": "#FAFAFA",
+        },
+        "&.Mui-focused": Object {
+          "color": "#BBBBBB",
+          "fontSize": "0.875rem",
+        },
+        "fontSize": "0.875rem",
+      },
+    },
     "MuiIconButton": Object {
       "root": Object {
         "color": "#FAFAFA",
@@ -205,19 +227,91 @@ Object {
         "padding": "4px",
       },
     },
+    "MuiInputBase": Object {
+      "input": Object {
+        "color": "#FAFAFA",
+      },
+      "root": Object {
+        "&.Mui-focused": Object {
+          "boxShadow": "#62B3AE 0 0 0 2px",
+        },
+        "&.MuiInput-underline.Mui-disabled:before": Object {
+          "borderBottomStyle": "none",
+        },
+        "&.MuiInput-underline:after": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInput-underline:before": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+          "borderBottom": "none",
+        },
+        "&:hover": Object {
+          "boxShadow": "#BBBBBB 0 0 0 1px",
+        },
+        "&:hover.Mui-disabled": Object {
+          "boxShadow": "#777777 0 0 0 1px",
+        },
+        "borderRadius": "4px",
+        "boxShadow": "#777777 0 0 0 1px",
+        "color": "#000000",
+        "padding": "12px",
+      },
+    },
+    "MuiInputLabel": Object {
+      "formControl": Object {
+        "marginTop": "-4px",
+        "transform": "none",
+      },
+      "shrink": Object {
+        "marginTop": "-4px",
+        "transform": "none",
+      },
+    },
     "MuiListItem": Object {
       "button": Object {
         "&:hover": Object {
           "backgroundColor": "rgba(0, 0, 0, 0.04)",
         },
       },
+      "gutters": Object {
+        "&:focus": Object {
+          "outline": "none",
+        },
+      },
       "root": Object {
         "&$selected": Object {
+          "&:focus": Object {
+            "outline": "none",
+          },
           "&:hover": Object {
             "backgroundColor": "rgba(0, 0, 0, 0.04)",
           },
           "background": "rgba(210, 173, 147, 0.16)",
         },
+        "&.Mui-disabled": Object {
+          "opacity": 0.32,
+        },
+        "&:hover": Object {
+          "backgroundColor": "rgba(250, 250, 250, 0.16)",
+        },
+        "cursor": "pointer",
+      },
+    },
+    "MuiSelect": Object {
+      "select": Object {
+        "&.Mui-disabled": Object {
+          "color": "#777777",
+        },
+        "&:focus": Object {
+          "backgroundColor": "transparent",
+        },
+      },
+    },
+    "MuiSvgIcon": Object {
+      "root": Object {
+        "fill": "#BBBBBB",
       },
     },
     "MuiTab": Object {
@@ -235,6 +329,11 @@ Object {
         "& > *:first-child": Object {
           "marginBottom": "2px !important",
         },
+      },
+    },
+    "MuiTextField": Object {
+      "& .MuiInputLabel": Object {
+        "marginTop": "20px",
       },
     },
     "MuiToolbar": Object {
@@ -593,6 +692,22 @@ Object {
         "marginTop": "8px",
       },
     },
+    "MuiFormLabel": Object {
+      "formControl": Object {
+        "marginTop": "-4px",
+        "transform": "none",
+      },
+      "root": Object {
+        "&.Mui-error": Object {
+          "color": "#E74627",
+        },
+        "&.Mui-focused": Object {
+          "color": "#777777",
+          "fontSize": "0.875rem",
+        },
+        "fontSize": "0.875rem",
+      },
+    },
     "MuiIconButton": Object {
       "root": Object {
         "padding": "8px",
@@ -601,14 +716,64 @@ Object {
         "padding": "4px",
       },
     },
+    "MuiInputBase": Object {
+      "input": Object {
+        "color": "#333333",
+      },
+      "root": Object {
+        "&.Mui-focused": Object {
+          "boxShadow": "#004236 0 0 0 2px",
+        },
+        "&.MuiInput-underline.Mui-disabled:before": Object {
+          "borderBottomStyle": "none",
+        },
+        "&.MuiInput-underline:after": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInput-underline:before": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+          "borderBottom": "none",
+        },
+        "&:hover": Object {
+          "boxShadow": "#777777 0 0 0 1px",
+        },
+        "&:hover.Mui-disabled": Object {
+          "boxShadow": "#BBBBBB 0 0 0 1px",
+        },
+        "borderRadius": "4px",
+        "boxShadow": "#BBBBBB 0 0 0 1px",
+        "color": "#FFFFFF",
+        "padding": "12px",
+      },
+    },
+    "MuiInputLabel": Object {
+      "formControl": Object {
+        "marginTop": "-4px",
+        "transform": "none",
+      },
+      "shrink": Object {
+        "marginTop": "-4px",
+        "transform": "none",
+      },
+    },
     "MuiListItem": Object {
       "button": Object {
         "&:hover": Object {
           "backgroundColor": "rgba(0, 0, 0, 0.04)",
         },
       },
+      "gutters": Object {
+        "&:focus": Object {
+          "outline": "none",
+        },
+      },
       "root": Object {
         "&$selected": Object {
+          "&:focus": Object {
+            "outline": "none",
+          },
           "&:hover": Object {
             "backgroundColor": "rgba(0, 0, 0, 0.04)",
           },
@@ -617,7 +782,24 @@ Object {
         "&.Mui-disabled": Object {
           "opacity": 0.32,
         },
+        "&:hover": Object {
+          "backgroundColor": "rgba(51, 51, 51, 0.04)",
+        },
+        "cursor": "pointer",
       },
+    },
+    "MuiSelect": Object {
+      "select": Object {
+        "&.Mui-disabled": Object {
+          "color": "#BBBBBB",
+        },
+        "&:focus": Object {
+          "backgroundColor": "transparent",
+        },
+      },
+    },
+    "MuiSvgIcon": Object {
+      "root": Object {},
     },
     "MuiTab": Object {
       "root": Object {
@@ -634,6 +816,11 @@ Object {
         "& > *:first-child": Object {
           "marginBottom": "2px !important",
         },
+      },
+    },
+    "MuiTextField": Object {
+      "& .MuiInputLabel": Object {
+        "marginTop": "20px",
       },
     },
     "MuiToolbar": Object {
