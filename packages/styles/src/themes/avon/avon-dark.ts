@@ -157,6 +157,13 @@ export const avonDark: ITheme = {
     },
     MuiListItem: {
       root: {
+        cursor: "pointer",
+        "&:hover": {
+          backgroundColor: hexToRgba(
+            avonDarkColorTokens.colorHighEmphasis,
+            0.16
+          )
+        },
         "&$selected": {
           background: hexToRgba(avonDarkColorTokens.colorSecondary, 0.16),
           "&:hover": {
@@ -164,7 +171,18 @@ export const avonDark: ITheme = {
               avonDarkColorTokens.colorOnSecondary,
               0.04
             )
+          },
+          "&:focus": {
+            outline: "none"
           }
+        },
+        "&.Mui-disabled": {
+          opacity: 0.32
+        }
+      },
+      gutters: {
+        "&:focus": {
+          outline: "none"
         }
       },
       button: {
@@ -285,6 +303,91 @@ export const avonDark: ITheme = {
         "&:hover": {
           color: avonDarkColorTokens.colorOnBackground
         }
+      }
+    },
+    MuiTextField: {
+      "& .MuiInputLabel": {
+        marginTop: "20px"
+      }
+    },
+    MuiInputBase: {
+      root: {
+        color: avonDarkColorTokens.colorOnPrimaryDark,
+        "&:hover": {
+          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&.Mui-focused": {
+          boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiInput-underline:before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline.Mui-disabled:before": {
+          borderBottomStyle: "none"
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline:after": {
+          borderBottom: "none"
+        },
+        "&:hover.Mui-disabled": {
+          boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        padding: "12px",
+        borderRadius: "4px",
+        boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+      },
+      input: {
+        color: avonDarkColorTokens.colorHighEmphasis
+      }
+    },
+    MuiInputLabel: {
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
+      },
+      shrink: {
+        transform: "none",
+        marginTop: "-4px"
+      }
+    },
+    MuiFormLabel: {
+      root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        "&.Mui-focused": {
+          fontSize: fontSize.subtitle2.fontSize,
+          color: avonDarkColorTokens.colorMediumEmphasis
+        },
+        "&.Mui-error": {
+          color: avonDarkColorTokens.colorHighEmphasis
+        }
+      },
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
+      }
+    },
+    MuiFormHelperText: {
+      root: {
+        "&.Mui-error": {
+          color: avonDarkColorTokens.colorMediumEmphasis
+        }
+      }
+    },
+    MuiSelect: {
+      select: {
+        "&:focus": {
+          backgroundColor: "transparent"
+        },
+        "&.Mui-disabled": {
+          color: avonDarkColorTokens.colorLowEmphasis
+        }
+      }
+    },
+    MuiSvgIcon: {
+      root: {
+        fill: avonDarkColorTokens.colorMediumEmphasis
       }
     }
   }

@@ -3,8 +3,11 @@ import { Provider, themes } from '@naturacosmeticos/natds-web';
 # Drawer
 
 ---
+
 ---
+
 ---
+
 ---
 
 ## Drawer API
@@ -14,7 +17,7 @@ import { Drawer } from '@naturacosmeticos/natds-web';
 
 <Drawer variant="temporary" open={false} anchor="left">
   {children}
-</Drawer>
+</Drawer>;
 ```
 
 For more advanced usages, check [Material UI Drawer docs](https://material-ui.com/components/drawer)
@@ -25,19 +28,19 @@ For more advanced usages, check [Material UI Drawer docs](https://material-ui.co
 
 ## Props
 
-| Name               | Type                                                                                 |  Default                                                                | Description                                                                                                                                     |
-| :----------------- | :----------------------------------------------------------------------------------: | :---------------------------------------------------------------------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
-| anchor             | 'left' \| 'top' \| 'right' \| 'bottom'                                               | 'left'                                                                  | Side from which the drawer will appear.                                                                                                         |
-| children           | node                                                                                 |                                                                         | The contents of the drawer.                                                                                                                     |
-| classes            | object                                                                               |                                                                         | Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/link/#css) for more details.              |
-| elevation          | number                                                                               | 16                                                                      | The elevation of the drawer.                                                                                                                    |
-| ModalProps         | object                                                                               | {}                                                                      | Props applied to the [Modal](https://material-ui.com/api/modal/) element.                                                                       |
-| onClose            | func                                                                                 |                                                                         | Callback fired when the component requests to be closed. Signature: `(event: object) => void`                                                   |
-| open               | bool                                                                                 | false                                                                   | If true, the drawer is open.                                                                                                                    |
-| PaperProps         | object                                                                               | {}                                                                      | Props applied to the [Paper](https://material-ui.com/api/paper/) element.                                                                       |
-| SlideProps         | object                                                                               |                                                                         | Props applied to the [Slide](https://material-ui.com/api/slide/) element.                                                                       |
-| transitionDuration | number \| { enter?: number, exit?: number }                                          | { enter: duration.enteringScreen, exit: duration.leavingScreen }        | The duration for the transition, in milliseconds. You may specify a single timeout for all transitions, or individually with an object.         |
-| variant            | 'permanent' \| 'persistent' \| 'temporary'                                           | 'temporary'                                                             | The variant to use.                                                                                                                             |
+| Name               |                    Type                     |                             Default                              |                                                               Description                                                               |
+| :----------------- | :-----------------------------------------: | :--------------------------------------------------------------: | :-------------------------------------------------------------------------------------------------------------------------------------: |
+| anchor             |   'left' \| 'top' \| 'right' \| 'bottom'    |                              'left'                              |                                                 Side from which the drawer will appear.                                                 |
+| children           |                    node                     |                                                                  |                                                       The contents of the drawer.                                                       |
+| classes            |                   object                    |                                                                  |   Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/link/#css) for more details.    |
+| elevation          |                   number                    |                                16                                |                                                      The elevation of the drawer.                                                       |
+| ModalProps         |                   object                    |                                {}                                |                                Props applied to the [Modal](https://material-ui.com/api/modal/) element.                                |
+| onClose            |                    func                     |                                                                  |                      Callback fired when the component requests to be closed. Signature: `(event: object) => void`                      |
+| open               |                    bool                     |                              false                               |                                                      If true, the drawer is open.                                                       |
+| PaperProps         |                   object                    |                                {}                                |                                Props applied to the [Paper](https://material-ui.com/api/paper/) element.                                |
+| SlideProps         |                   object                    |                                                                  |                                Props applied to the [Slide](https://material-ui.com/api/slide/) element.                                |
+| transitionDuration | number \| { enter?: number, exit?: number } | { enter: duration.enteringScreen, exit: duration.leavingScreen } | The duration for the transition, in milliseconds. You may specify a single timeout for all transitions, or individually with an object. |
+| variant            | 'permanent' \| 'persistent' \| 'temporary'  |                           'temporary'                            |                                                           The variant to use.                                                           |
 
 ---
 
@@ -52,24 +55,26 @@ import { DrawerHeader } from '@naturacosmeticos/natds-web';
   primary="Title"
   secondary="Subtitle"
   avatarSrc="path/image.png"
-/>
+/>;
 ```
 
 ---
+
 ---
 
 ## Props
 
-| Name               | Type                                             |  Default                                   | Description                                                         |
-| :----------------- | :----------------------------------------------: | :----------------------------------------: | :-----------------------------------------------------------------: |
-| children           | node                                             |                                            | The custom contents of the DrawerHeader.                            |
-| component          | string                                           | 'div'                                      | The container HTML element                                          |
-| primary            | string                                           |                                            | The text of the title                                               |
-| secondary          | string                                           |                                            | The text of the subtitle                                            |
-| avatarSrc          | string                                           |                                            | The image source of the avatar                                      |
-| avatarChildren     | string                                           |                                            | The text of the avatar                                              |
+| Name           |  Type  | Default |               Description                |
+| :------------- | :----: | :-----: | :--------------------------------------: |
+| children       |  node  |         | The custom contents of the DrawerHeader. |
+| component      | string |  'div'  |        The container HTML element        |
+| primary        | string |         |          The text of the title           |
+| secondary      | string |         |         The text of the subtitle         |
+| avatarSrc      | string |         |      The image source of the avatar      |
+| avatarChildren | string |         |          The text of the avatar          |
 
 ---
+
 ---
 
 ## DrawerBody API
@@ -77,20 +82,22 @@ import { DrawerHeader } from '@naturacosmeticos/natds-web';
 ```jsx highlight-line="2"
 import { DrawerBody } from '@naturacosmeticos/natds-web';
 
-<DrawerBody children={children} />
+<DrawerBody children={children} />;
 ```
 
 ---
+
 ---
 
 ## Props
 
-| Name               | Type                                             |  Default                                   | Description                                                         |
-| :----------------- | :----------------------------------------------: | :----------------------------------------: | :-----------------------------------------------------------------: |
-| children           | node                                             |                                            | The custom contents of the DrawerBody.                              |
-| component          | string                                           | 'div'                                      | The container HTML element                                          |
+| Name      |  Type  | Default |              Description               |
+| :-------- | :----: | :-----: | :------------------------------------: |
+| children  |  node  |         | The custom contents of the DrawerBody. |
+| component | string |  'div'  |       The container HTML element       |
 
 ---
+
 ---
 
 ## DrawerFooter API
@@ -98,20 +105,22 @@ import { DrawerBody } from '@naturacosmeticos/natds-web';
 ```jsx highlight-line="2"
 import { DrawerFooter } from '@naturacosmeticos/natds-web';
 
-<DrawerFooter children={children} />
+<DrawerFooter children={children} />;
 ```
 
 ---
+
 ---
 
 ## Props
 
-| Name               | Type                                             |  Default                                   | Description                                                         |
-| :----------------- | :----------------------------------------------: | :----------------------------------------: | :-----------------------------------------------------------------: |
-| children           | node                                             |                                            | The custom contents of the DrawerFooter.                            |
-| component          | string                                           | 'div'                                      | The container HTML element                                          |
+| Name      |  Type  | Default |               Description                |
+| :-------- | :----: | :-----: | :--------------------------------------: |
+| children  |  node  |         | The custom contents of the DrawerFooter. |
+| component | string |  'div'  |        The container HTML element        |
 
 ---
+
 ---
 
 ## DrawerMenu API
@@ -121,7 +130,7 @@ import { DrawerMenu } from '@naturacosmeticos/natds-web';
 
 const list = [
   {
-    section: 'section'
+    section: 'section',
   },
   {
     name: 'Menu Item',
@@ -140,24 +149,25 @@ const list = [
         name: 'Menu Item',
         icon: 'outlined-action-love',
         badge: 'Novo',
-      }
-    ]
-  }
+      },
+    ],
+  },
 ];
 
-<DrawerMenu list={list} />
+<DrawerMenu list={list} />;
 ```
 
 ---
+
 ---
 
 ## Props
 
-| Name               | Type                                             |  Default                                   | Description                                                         |
-| :----------------- | :----------------------------------------------: | :----------------------------------------: | :-----------------------------------------------------------------: |
-| children           | node                                             |                                            | The custom contents of the DrawerMenu.                              |
-| component          | string                                           | 'div'                                      | The container HTML element                                          |
-| list               | array[IDrawerMenuItemProps]                      |                                            | The list of Items                                                   |
+| Name      |            Type             | Default |              Description               |
+| :-------- | :-------------------------: | :-----: | :------------------------------------: |
+| children  |            node             |         | The custom contents of the DrawerMenu. |
+| component |           string            |  'div'  |       The container HTML element       |
+| list      | array[IDrawerMenuItemProps] |         |           The list of Items            |
 
 ```jsx highlight-line="2"
 interface IDrawerMenuItemProps {

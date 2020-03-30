@@ -155,15 +155,30 @@ export const theBodyShopLight: ITheme = {
     },
     MuiListItem: {
       root: {
+        cursor: "pointer",
+        "&:hover": {
+          backgroundColor: hexToRgba(
+            theBodyShopLightColorTokens.colorOnSurface,
+            0.04
+          )
+        },
         "&$selected": {
           backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorSecondary, 0.16),
           "&:hover": {
             backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.04)
+          },
+          "&:focus": {
+            outline: "none"
           }
         },
         "&.Mui-disabled": {
           opacity: 0.32
         },
+      },
+      gutters: {
+        "&:focus": {
+          outline: "none"
+        }
       },
       button: {
         "&:hover": {
@@ -260,6 +275,84 @@ export const theBodyShopLight: ITheme = {
         "&:hover": {
           color: theBodyShopLightColorTokens.colorOnSecondary
         }
+      }
+    },
+    MuiTextField: {
+      "& .MuiInputLabel": {
+        marginTop: "20px"
+      }
+    },
+    MuiInputBase: {
+      root: {
+        color: theBodyShopLightColorTokens.colorOnPrimaryLight,
+        "&:hover": {
+          boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&.Mui-focused": {
+          boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiInput-underline:before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline.Mui-disabled:before": {
+          borderBottomStyle: "none"
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline:after": {
+          borderBottom: "none"
+        },
+        "&:hover.Mui-disabled": {
+          boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        padding: "12px",
+        borderRadius: "4px",
+        boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+      },
+      input: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis
+      }
+    },
+    MuiInputLabel: {
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
+      },
+      shrink: {
+        transform: "none",
+        marginTop: "-4px"
+      }
+    },
+    MuiFormLabel: {
+      root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        "&.Mui-focused": {
+          fontSize: fontSize.subtitle2.fontSize,
+          color: theBodyShopLightColorTokens.colorMediumEmphasis
+        },
+        "&.Mui-error": {
+          color: theBodyShopLightColorTokens.colorAlert
+        }
+      },
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
+      }
+    },
+    MuiSelect: {
+      select: {
+        "&:focus": {
+          backgroundColor: "transparent"
+        },
+        "&.Mui-disabled": {
+          color: theBodyShopLightColorTokens.colorLowEmphasis
+        }
+      }
+    },
+    MuiSvgIcon: {
+      root: {
+
       }
     }
   }

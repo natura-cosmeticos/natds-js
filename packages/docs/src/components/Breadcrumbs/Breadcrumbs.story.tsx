@@ -32,7 +32,6 @@ export default {
 
 function handleClick(event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) {
   event.preventDefault();
-  console.info('You clicked a breadcrumb.');
 }
 
 const icons: any = Object.keys(iconNames);
