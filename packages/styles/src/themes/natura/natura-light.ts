@@ -10,8 +10,9 @@ import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
-
-const { colorTokens: { naturaLightColorTokens } } = tokens;
+const {
+  colorTokens: { naturaLightColorTokens }
+} = tokens;
 
 export const naturaLight: ITheme = {
   shape: {
@@ -159,22 +160,42 @@ export const naturaLight: ITheme = {
     },
     MuiListItem: {
       root: {
+        cursor: "pointer",
+        "&:hover": {
+          backgroundColor: hexToRgba(
+            naturaLightColorTokens.colorOnSecondary,
+            0.04
+          )
+        },
         "&$selected": {
           backgroundColor: hexToRgba(
             naturaLightColorTokens.colorSecondary,
-            0.16
-          ),
+            0.16),
           "&:hover": {
-            backgroundColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.04)
+            backgroundColor: hexToRgba(
+              naturaLightColorTokens.colorOnSecondary,
+              0.04
+            )
+          },
+          "&:focus": {
+            outline: "none"
           }
         },
         "&.Mui-disabled": {
           opacity: 0.32
         }
       },
+      gutters: {
+        "&:focus": {
+          outline: "none"
+        }
+      },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.04)
+          backgroundColor: hexToRgba(
+            naturaLightColorTokens.colorOnSecondary,
+            0.04
+          )
         }
       }
     },
@@ -202,11 +223,17 @@ export const naturaLight: ITheme = {
     },
     MuiChip: {
       root: {
-        backgroundColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.12),
+        backgroundColor: hexToRgba(
+          naturaLightColorTokens.colorOnSecondary,
+          0.12
+        ),
         color: naturaLightColorTokens.colorOnPrimary,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
-          backgroundColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.24),
+          backgroundColor: hexToRgba(
+            naturaLightColorTokens.colorOnSecondary,
+            0.24
+          ),
           color: naturaLightColorTokens.colorOnPrimary
         },
         "&$disabled": {
@@ -268,6 +295,79 @@ export const naturaLight: ITheme = {
           color: naturaLightColorTokens.colorSurface
         }
       }
-    }
+    },
+    MuiTextField: {
+      "& .MuiInputLabel": {
+        marginTop: "20px"
+      }
+    },
+    MuiInputBase: {
+      root: {
+        color: naturaLightColorTokens.colorOnPrimaryLight,
+        "&:hover": {
+          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&.Mui-focused": {
+          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiInput-underline:before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline.Mui-disabled:before": {
+          borderBottomStyle: "none"
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline:after": {
+          borderBottom: "none"
+        },
+        "&:hover.Mui-disabled": {
+          boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        padding: "12px",
+        borderRadius: "4px",
+        boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+      },
+      input: {
+        color: naturaLightColorTokens.colorOnPrimaryLight
+      }
+    },
+    MuiInputLabel: {
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
+      },
+      shrink: {
+        transform: "none",
+        marginTop: "-4px"
+      }
+    },
+    MuiFormLabel: {
+      root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        "&.Mui-focused": {
+          fontSize: fontSize.subtitle2.fontSize,
+          color: naturaLightColorTokens.colorMediumEmphasis
+        },
+        "&.Mui-error": {
+          color: naturaLightColorTokens.colorAlert
+        }
+      },
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
+      }
+    },
+    MuiSelect: {
+      select: {
+        "&:focus": {
+          backgroundColor: "transparent"
+        },
+        "&.Mui-disabled": {
+          color: naturaLightColorTokens.colorLowEmphasis
+        }
+      }
+    },
   }
 };
