@@ -43,6 +43,10 @@ You can follow our guideline in your feature branch which go as it follows:
 - Then PR it back to your original feature branch;
 - Iterate until the whole original feature is complete and PR it to the milestone branch;
 
+### HOTFIXES
+
+- Checkout from `master` and create a branch named `hotfix/<name>`. Make the fix and PR it back to `master`. After the merge, it will be released to npm and a new version will be available on storybook.
+
 ## For contributors on Natura Organization
 
 If you find yourself in this category, you can go directly to branching this repository, without worrying about forking.
