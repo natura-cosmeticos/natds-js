@@ -105,7 +105,8 @@ export const naturaLight: ITheme = {
     },
     MuiIconButton: {
       root: {
-        padding: "8px"
+        padding: "8px",
+        color: naturaLightColorTokens.colorHighEmphasis
       },
       sizeSmall: {
         padding: "4px"
@@ -290,12 +291,6 @@ export const naturaLight: ITheme = {
     MuiInputBase: {
       root: {
         color: naturaLightColorTokens.colorOnPrimaryLight,
-        "&:hover": {
-          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&.Mui-focused": {
-          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
-        },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
         },
@@ -304,13 +299,41 @@ export const naturaLight: ITheme = {
         },
         "&.MuiInput-underline:after": {
           borderBottom: "none"
-        },
-        padding: "12px",
-        borderRadius: "4px",
-        boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        }
       },
       input: {
-        color: naturaLightColorTokens.colorOnPrimaryLight
+        color: naturaLightColorTokens.colorOnPrimaryLight,
+        minHeight: "24px",
+        padding: "16px 35px 16px 16px",
+        borderRadius: "4px",
+        boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
+        "&:hover": {
+          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:hover:not(:placeholder-shown)": {
+          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:focus": {
+          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:focus:not(:read-only)": {
+          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
+          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:not(:placeholder-shown)": {
+          boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px`
+        },
+        "&:placeholder-shown": {
+          boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        }
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
       }
     },
     MuiInputLabel: {

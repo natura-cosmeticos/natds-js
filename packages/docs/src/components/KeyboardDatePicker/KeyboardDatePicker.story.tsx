@@ -13,6 +13,7 @@ import { makeStyles } from '@material-ui/core/styles';
 import {
   KeyboardDatePicker,
   PickersUtilProvider,
+  TextField,
 } from '@naturacosmeticos/natds-web';
 
 import KeyboardDatePickerDocs from './KeyboardDatePicker.docs.mdx';
@@ -88,13 +89,13 @@ export const Interactive = () => {
           autoOk={boolean('Auto Ok', false)}
           disabled={boolean('Disabled', false)}
           clearable={boolean('Clearable', false)}
-          views={options('Views Check', valuesInlineCheck, ['year'], {
-            display: 'inline-check',
-          })}
           onChange={setSelectedDate}
           okLabel={text('Ok Label', 'OK')}
           cancelLabel={text('Cancel Label', 'Cancel')}
           clearLabel={text('Clear Label', 'Clear')}
+          views={options('Views Check', valuesInlineCheck, ['year'], {
+            display: 'inline-check',
+          })}
         />
       </PickersUtilProvider>
     </div>

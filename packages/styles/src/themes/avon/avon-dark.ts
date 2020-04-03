@@ -295,12 +295,6 @@ export const avonDark: ITheme = {
     MuiInputBase: {
       root: {
         color: avonDarkColorTokens.colorOnPrimaryDark,
-        "&:hover": {
-          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&.Mui-focused": {
-          boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`
-        },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
         },
@@ -309,13 +303,41 @@ export const avonDark: ITheme = {
         },
         "&.MuiInput-underline:after": {
           borderBottom: "none"
-        },
-        padding: "12px",
-        borderRadius: "4px",
-        boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+        }
       },
       input: {
-        color: avonDarkColorTokens.colorHighEmphasis
+        color: avonDarkColorTokens.colorHighEmphasis,
+        minHeight: "24px",
+        padding: "16px 35px 16px 16px",
+        borderRadius: "4px",
+        boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
+        "&:not(:placeholder-shown)": {
+          boxShadow: `${avonDarkColorTokens.colorHighEmphasis} 0 0 0 1px`
+        },
+        "&:placeholder-shown": {
+          boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        "&:hover": {
+          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:hover:not(:placeholder-shown)": {
+          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:focus": {
+          boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:focus:not(:read-only)": {
+          boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
+          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        }
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
       }
     },
     MuiInputLabel: {

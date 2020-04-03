@@ -307,12 +307,6 @@ export const theBodyShopDark: ITheme = {
     MuiInputBase: {
       root: {
         color: theBodyShopDarkColorTokens.colorOnPrimaryDark,
-        "&:hover": {
-          boxShadow: `${theBodyShopDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&.Mui-focused": {
-          boxShadow: `${theBodyShopDarkColorTokens.colorPrimary} 0 0 0 2px`
-        },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
         },
@@ -321,13 +315,41 @@ export const theBodyShopDark: ITheme = {
         },
         "&.MuiInput-underline:after": {
           borderBottom: "none"
-        },
-        padding: "12px",
-        borderRadius: "4px",
-        boxShadow: `${theBodyShopDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+        }
       },
       input: {
-        color: theBodyShopDarkColorTokens.colorHighEmphasis
+        color: theBodyShopDarkColorTokens.colorHighEmphasis,
+        minHeight: "24px",
+        padding: "16px 35px 16px 16px",
+        borderRadius: "4px",
+        boxShadow: `${theBodyShopDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
+        "&:not(:placeholder-shown)": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorHighEmphasis} 0 0 0 1px`
+        },
+        "&:placeholder-shown": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        "&:hover": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:hover:not(:placeholder-shown)": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:focus": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:focus:not(:read-only)": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        }
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
       }
     },
     MuiInputLabel: {

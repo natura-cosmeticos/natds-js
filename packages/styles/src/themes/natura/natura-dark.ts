@@ -301,12 +301,6 @@ export const naturaDark: ITheme = {
     MuiInputBase: {
       root: {
         color: naturaDarkColorTokens.colorOnPrimaryDark,
-        "&:hover": {
-          boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&.Mui-focused": {
-          boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`
-        },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
         },
@@ -315,13 +309,41 @@ export const naturaDark: ITheme = {
         },
         "&.MuiInput-underline:after": {
           borderBottom: "none"
-        },
-        padding: "12px",
-        borderRadius: "4px",
-        boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+        }
       },
       input: {
-        color: naturaDarkColorTokens.colorHighEmphasis
+        color: naturaDarkColorTokens.colorHighEmphasis,
+        minHeight: "24px",
+        padding: "16px 35px 16px 16px",
+        borderRadius: "4px",
+        boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
+        "&:not(:placeholder-shown)": {
+          boxShadow: `${naturaDarkColorTokens.colorHighEmphasis} 0 0 0 1px`
+        },
+        "&:placeholder-shown": {
+          boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        "&:hover": {
+          boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:hover:not(:placeholder-shown)": {
+          boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:focus": {
+          boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:focus:not(:read-only)": {
+          boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
+          boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        }
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
       }
     },
     MuiInputLabel: {

@@ -102,7 +102,8 @@ export const avonLight: ITheme = {
     },
     MuiIconButton: {
       root: {
-        padding: "8px"
+        padding: "8px",
+        color: avonLightColorTokens.colorHighEmphasis
       },
       sizeSmall: {
         padding: "4px"
@@ -275,12 +276,6 @@ export const avonLight: ITheme = {
     MuiInputBase: {
       root: {
         color: avonLightColorTokens.colorOnPrimaryLight,
-        "&:hover": {
-          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&.Mui-focused": {
-          boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`
-        },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
         },
@@ -289,13 +284,41 @@ export const avonLight: ITheme = {
         },
         "&.MuiInput-underline:after": {
           borderBottom: "none"
-        },
-        padding: "12px",
-        borderRadius: "4px",
-        boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        }
       },
       input: {
-        color: avonLightColorTokens.colorOnPrimaryLight
+        color: avonLightColorTokens.colorOnPrimaryLight,
+        minHeight: "24px",
+        padding: "16px 35px 16px 16px",
+        borderRadius: "4px",
+        boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
+        "&:hover": {
+          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:hover:not(:placeholder-shown)": {
+          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:focus": {
+          boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:focus:not(:read-only)": {
+          boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
+          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:not(:placeholder-shown)": {
+          boxShadow: `${avonLightColorTokens.colorHighEmphasis} 0 0 0 1px`
+        },
+        "&:placeholder-shown": {
+          boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        }
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
       }
     },
     MuiInputLabel: {
