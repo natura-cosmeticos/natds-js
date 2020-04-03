@@ -206,20 +206,49 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -229,13 +258,7 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -666,20 +689,49 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -689,13 +741,7 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -1133,20 +1179,49 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -1156,13 +1231,7 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -1600,20 +1669,49 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -1623,13 +1721,7 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -2060,20 +2152,49 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -2083,13 +2204,7 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -2527,20 +2642,49 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -2550,13 +2694,7 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -2994,20 +3132,49 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -3017,13 +3184,7 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -3454,20 +3615,49 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -3477,13 +3667,7 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -3921,20 +4105,49 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -3944,13 +4157,7 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -4388,20 +4595,49 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -4411,13 +4647,7 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -4848,20 +5078,49 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -4871,13 +5130,7 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -5315,20 +5568,49 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -5338,13 +5620,7 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -5782,20 +6058,49 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -5805,13 +6110,7 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -6242,20 +6541,49 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -6265,13 +6593,7 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -6709,20 +7031,49 @@ exports[`Intro component should match snapshot - Any valid Intro with error titl
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -6732,13 +7083,7 @@ exports[`Intro component should match snapshot - Any valid Intro with error titl
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -7176,20 +7521,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -7199,13 +7573,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -7636,20 +8004,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -7659,13 +8056,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -8103,20 +8494,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -8126,13 +8546,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -8570,20 +8984,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -8593,13 +9036,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -9030,20 +9467,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -9053,13 +9519,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -9497,20 +9957,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -9520,13 +10009,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -9964,20 +10447,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -9987,13 +10499,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -10424,20 +10930,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -10447,13 +10982,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -10891,20 +11420,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -10914,13 +11472,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -11358,20 +11910,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -11381,13 +11962,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -11818,20 +12393,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -11841,13 +12445,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -12285,20 +12883,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -12308,13 +12935,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -12752,20 +13373,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -12775,13 +13425,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -13212,20 +13856,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -13235,13 +13908,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -13679,20 +14346,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -13702,13 +14398,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -14146,20 +14836,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -14169,13 +14888,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -14606,20 +15319,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -14629,13 +15371,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -15073,20 +15809,49 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -15096,13 +15861,7 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -15540,20 +16299,49 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -15563,13 +16351,7 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -16000,20 +16782,49 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -16023,13 +16834,7 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -16467,20 +17272,49 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -16490,13 +17324,7 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -16927,20 +17755,49 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -16950,13 +17807,7 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -17394,20 +18245,49 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -17417,13 +18297,7 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -17861,20 +18735,49 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -17884,13 +18787,7 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -18328,20 +19225,49 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -18351,13 +19277,7 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -18788,20 +19708,49 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -18811,13 +19760,7 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -19255,20 +20198,49 @@ exports[`Intro component should match snapshot - Any valid Intro with initial ti
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -19278,13 +20250,7 @@ exports[`Intro component should match snapshot - Any valid Intro with initial ti
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -19722,20 +20688,49 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -19745,13 +20740,7 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -20182,20 +21171,49 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -20205,13 +21223,7 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -20649,20 +21661,49 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -20672,13 +21713,7 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -21116,20 +22151,49 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -21139,13 +22203,7 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -21576,20 +22634,49 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -21599,13 +22686,7 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -22043,20 +23124,49 @@ exports[`Intro component should match snapshot - Any valid Intro with primary ti
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -22066,13 +23176,7 @@ exports[`Intro component should match snapshot - Any valid Intro with primary ti
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -22510,20 +23614,49 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -22533,13 +23666,7 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -22970,20 +24097,49 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -22993,13 +24149,7 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -23437,20 +24587,49 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -23460,13 +24639,7 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -23904,20 +25077,49 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -23927,13 +25129,7 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -24364,20 +25560,49 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -24387,13 +25612,7 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -24831,20 +26050,49 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -24854,13 +26102,7 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -25298,20 +26540,49 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -25321,13 +26592,7 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -25758,20 +27023,49 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -25781,13 +27075,7 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -26225,20 +27513,49 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -26248,13 +27565,7 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -26692,20 +28003,49 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -26715,13 +28055,7 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -27152,20 +28486,49 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -27175,13 +28538,7 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -27619,20 +28976,49 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -27642,13 +29028,7 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -28086,20 +29466,49 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -28109,13 +29518,7 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -28546,20 +29949,49 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -28569,13 +30001,7 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -29013,20 +30439,49 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -29036,13 +30491,7 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -29480,20 +30929,49 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -29503,13 +30981,7 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -29940,20 +31412,49 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -29963,13 +31464,7 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -30407,20 +31902,49 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -30430,13 +31954,7 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -30874,20 +32392,49 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -30897,13 +32444,7 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -31334,20 +32875,49 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -31357,13 +32927,7 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -31801,20 +33365,49 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -31824,13 +33417,7 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
@@ -32272,20 +33859,49 @@ exports[`Intro component should match snapshot - Intro with title and without de
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
             },
           },
+          "MuiInputAdornment": Object {
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
+            },
+          },
           "MuiInputBase": Object {
             "input": Object {
-              "color": "#333333",
-            },
-            "root": Object {
-              "&.Mui-focused": Object {
+              "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
+              "&:focus:not(:read-only)": Object {
+                "boxShadow": "#F4AB34 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:placeholder-shown)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "&:not(:placeholder-shown)": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "&:placeholder-shown": Object {
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+              },
+              "borderRadius": "4px",
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+              "color": "#333333",
+              "minHeight": "24px",
+              "padding": "16px 35px 16px 16px",
+            },
+            "root": Object {
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -32295,13 +33911,7 @@ exports[`Intro component should match snapshot - Intro with title and without de
               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                 "borderBottom": "none",
               },
-              "&:hover": Object {
-                "boxShadow": "#777777 0 0 0 1px",
-              },
-              "borderRadius": "4px",
-              "boxShadow": "#BBBBBB 0 0 0 1px",
               "color": "#333333",
-              "padding": "12px",
             },
           },
           "MuiInputLabel": Object {
