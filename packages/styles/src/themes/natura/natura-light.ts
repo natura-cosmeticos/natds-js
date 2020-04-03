@@ -369,5 +369,17 @@ export const naturaLight: ITheme = {
         }
       }
     },
+    MuiButtonGroup: {
+      groupedContainedPrimary: {
+        "&:not(:last-child)": {
+          borderColor: naturaLightColorTokens.colorPrimaryDark,
+        },
+      },
+      groupedContainedSecondary: {
+        "&:not(:last-child)": {
+          borderColor: naturaLightColorTokens.colorSecondaryDark,
+        },
+      }
+    }
   }
 };
