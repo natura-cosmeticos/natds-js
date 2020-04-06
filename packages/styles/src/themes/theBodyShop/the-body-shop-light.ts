@@ -10,7 +10,9 @@ import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
-const { colorTokens: { theBodyShopLightColorTokens } } = tokens;
+const {
+  colorTokens: { theBodyShopLightColorTokens }
+} = tokens;
 
 export const theBodyShopLight: ITheme = {
   shape: {
@@ -77,20 +79,43 @@ export const theBodyShopLight: ITheme = {
         color: theBodyShopLightColorTokens.colorHighEmphasis
       },
       outlinedSecondary: {
-        color: theBodyShopLightColorTokens.colorHighEmphasis
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
+        "&.Mui-disabled": {
+          borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`
+        }
       },
       sizeSmall: {
-        fontSize: "0.875rem",
-        minHeight: "32px"
+        ...buttonSizes.small,
+        ...fontSize.subtitle2
       },
       root: {
-        fontSize: "0.875rem",
-        minHeight: "40px",
-        padding: "8px 16px"
+        ...buttonSizes.medium,
+        ...fontSize.subtitle2
       },
       sizeLarge: {
-        fontSize: "0.875rem",
-        minHeight: "48px"
+        ...buttonSizes.large,
+        ...fontSize.subtitle2
+      },
+      text: {
+        padding: null,
+        "&.Mui-disabled": {
+          color: `${theBodyShopLightColorTokens.colorHighlight}3D`,
+          borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`
+        }
+      },
+      contained: {
+        "&.Mui-disabled": {
+          color: `${theBodyShopLightColorTokens.colorHighlight}3D`,
+          backgroundColor: `${theBodyShopLightColorTokens.colorHighlight}14`
+        }
+      },
+      outlined: {
+        padding: null,
+        borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`,
+        "&.Mui-disabled": {
+          color: `${theBodyShopLightColorTokens.colorHighlight}3D`,
+          borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`
+        }
       }
     },
     MuiAvatar: {
@@ -116,7 +141,7 @@ export const theBodyShopLight: ITheme = {
           backgroundColor: theBodyShopLightColorTokens.colorOnPrimary,
           opacity: 0.32
         }
-      },
+      }
     },
     MuiExpansionPanelSummary: {
       root: {
@@ -163,9 +188,15 @@ export const theBodyShopLight: ITheme = {
           )
         },
         "&$selected": {
-          backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorSecondary, 0.16),
+          backgroundColor: hexToRgba(
+            theBodyShopLightColorTokens.colorSecondary,
+            0.16
+          ),
           "&:hover": {
-            backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.04)
+            backgroundColor: hexToRgba(
+              theBodyShopLightColorTokens.colorHighlight,
+              0.04
+            )
           },
           "&:focus": {
             outline: "none"
@@ -173,7 +204,7 @@ export const theBodyShopLight: ITheme = {
         },
         "&.Mui-disabled": {
           opacity: 0.32
-        },
+        }
       },
       gutters: {
         "&:focus": {
@@ -182,7 +213,10 @@ export const theBodyShopLight: ITheme = {
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.04)
+          backgroundColor: hexToRgba(
+            theBodyShopLightColorTokens.colorHighlight,
+            0.04
+          )
         }
       }
     },
@@ -195,7 +229,7 @@ export const theBodyShopLight: ITheme = {
       root: {
         "&$disabled": {
           opacity: 0.24
-        },
+        }
       },
       textColorInherit: {
         "&$disabled": {
@@ -210,16 +244,22 @@ export const theBodyShopLight: ITheme = {
     },
     MuiChip: {
       root: {
-        backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.12),
+        backgroundColor: hexToRgba(
+          theBodyShopLightColorTokens.colorHighlight,
+          0.12
+        ),
         color: theBodyShopLightColorTokens.colorHighEmphasis,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
-          backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.24),
-          color: theBodyShopLightColorTokens.colorHighEmphasis,
+          backgroundColor: hexToRgba(
+            theBodyShopLightColorTokens.colorHighlight,
+            0.24
+          ),
+          color: theBodyShopLightColorTokens.colorHighEmphasis
         },
         "&$disabled": {
-          opacity: .4
-        },
+          opacity: 0.4
+        }
       },
       clickableColorPrimary: {
         "&:hover": {
@@ -232,17 +272,20 @@ export const theBodyShopLight: ITheme = {
         }
       },
       outlined: {
-        borderColor: hexToRgba(theBodyShopLightColorTokens.colorHighlight, 0.12),
+        borderColor: hexToRgba(
+          theBodyShopLightColorTokens.colorHighlight,
+          0.12
+        ),
         color: theBodyShopLightColorTokens.colorHighlight
       },
       outlinedPrimary: {
-        color: theBodyShopLightColorTokens.colorHighlight,
+        color: theBodyShopLightColorTokens.colorHighlight
       },
       outlinedSecondary: {
-        color: theBodyShopLightColorTokens.colorHighlight,
+        color: theBodyShopLightColorTokens.colorHighlight
       },
       icon: {
-        fontSize: `${sizes.standard}px`,
+        fontSize: `${sizes.standard}px`
       },
       iconSmall: {
         width: `${sizes.small}px`,
@@ -262,7 +305,7 @@ export const theBodyShopLight: ITheme = {
       deleteIconSmall: {
         width: `${sizes.small}px`,
         height: `${sizes.small}px`,
-        fontSize: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`
       },
       deleteIconColorPrimary: {
         color: hexToRgba(theBodyShopLightColorTokens.colorOnPrimary, 0.8),
@@ -350,10 +393,52 @@ export const theBodyShopLight: ITheme = {
         }
       }
     },
-    MuiSvgIcon: {
-      root: {
-
+    MuiButtonGroup: {
+      groupedContainedPrimary: {
+        "&:not(:last-child)": {
+          borderColor: theBodyShopLightColorTokens.colorPrimaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedSecondary: {
+        "&:not(:last-child)": {
+          borderColor: theBodyShopLightColorTokens.colorSecondaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${theBodyShopLightColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedTextPrimary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextSecondary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${theBodyShopLightColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${theBodyShopLightColorTokens.colorHighlight}3D`
+          }
+        }
       }
+    },
+    MuiSvgIcon: {
+      root: {}
     }
   }
 };

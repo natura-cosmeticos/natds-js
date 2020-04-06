@@ -78,20 +78,43 @@ export const avonDark: ITheme = {
         color: avonDarkColorTokens.colorHighEmphasis
       },
       outlinedSecondary: {
-        color: avonDarkColorTokens.colorHighEmphasis
+        color: avonDarkColorTokens.colorHighEmphasis,
+        "&.Mui-disabled": {
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
       },
       sizeSmall: {
-        fontSize: "0.875rem",
-        minHeight: "32px"
+        ...buttonSizes.small,
+        ...fontSize.subtitle2
       },
       root: {
-        fontSize: "0.875rem",
-        minHeight: "40px",
-        padding: "8px 16px"
+        ...buttonSizes.medium,
+        ...fontSize.subtitle2
       },
       sizeLarge: {
-        fontSize: "0.875rem",
-        minHeight: "48px"
+        ...buttonSizes.large,
+        ...fontSize.subtitle2
+      },
+      text: {
+        padding: null,
+        "&.Mui-disabled": {
+          color: `${avonDarkColorTokens.colorHighlight}3D`,
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
+      },
+      contained: {
+        "&.Mui-disabled": {
+          color: `${avonDarkColorTokens.colorHighlight}3D`,
+          backgroundColor: `${avonDarkColorTokens.colorHighlight}14`
+        }
+      },
+      outlined: {
+        padding: null,
+        borderColor: `${avonDarkColorTokens.colorHighlight}3D`,
+        "&.Mui-disabled": {
+          color: `${avonDarkColorTokens.colorHighlight}3D`,
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
       }
     },
     MuiAvatar: {
@@ -382,6 +405,50 @@ export const avonDark: ITheme = {
         },
         "&.Mui-disabled": {
           color: avonDarkColorTokens.colorLowEmphasis
+        }
+      }
+    },
+    MuiButtonGroup: {
+      groupedContainedPrimary: {
+        "&:not(:last-child)": {
+          borderColor: avonDarkColorTokens.colorPrimaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedSecondary: {
+        "&:not(:last-child)": {
+          borderColor: avonDarkColorTokens.colorSecondaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${avonDarkColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedTextPrimary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextSecondary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${avonDarkColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+          }
         }
       }
     },

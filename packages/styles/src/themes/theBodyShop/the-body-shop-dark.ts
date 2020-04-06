@@ -78,20 +78,43 @@ export const theBodyShopDark: ITheme = {
         color: theBodyShopDarkColorTokens.colorHighEmphasis
       },
       outlinedSecondary: {
-        color: theBodyShopDarkColorTokens.colorHighEmphasis
+        color: theBodyShopDarkColorTokens.colorHighEmphasis,
+        "&.Mui-disabled": {
+          borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`
+        }
       },
       sizeSmall: {
-        fontSize: "0.875rem",
-        minHeight: "32px"
+        ...buttonSizes.small,
+        ...fontSize.subtitle2
       },
       root: {
-        fontSize: "0.875rem",
-        minHeight: "40px",
-        padding: "8px 16px"
+        ...buttonSizes.medium,
+        ...fontSize.subtitle2
       },
       sizeLarge: {
-        fontSize: "0.875rem",
-        minHeight: "48px"
+        ...buttonSizes.large,
+        ...fontSize.subtitle2
+      },
+      text: {
+        padding: null,
+        "&.Mui-disabled": {
+          color: `${theBodyShopDarkColorTokens.colorHighlight}3D`,
+          borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`
+        }
+      },
+      contained: {
+        "&.Mui-disabled": {
+          color: `${theBodyShopDarkColorTokens.colorHighlight}3D`,
+          backgroundColor: `${theBodyShopDarkColorTokens.colorHighlight}14`
+        }
+      },
+      outlined: {
+        padding: null,
+        borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`,
+        "&.Mui-disabled": {
+          color: `${theBodyShopDarkColorTokens.colorHighlight}3D`,
+          borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`
+        }
       }
     },
     MuiAvatar: {
@@ -393,6 +416,50 @@ export const theBodyShopDark: ITheme = {
         },
         "&.Mui-disabled": {
           color: theBodyShopDarkColorTokens.colorLowEmphasis
+        }
+      }
+    },
+    MuiButtonGroup: {
+      groupedContainedPrimary: {
+        "&:not(:last-child)": {
+          borderColor: theBodyShopDarkColorTokens.colorPrimaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedSecondary: {
+        "&:not(:last-child)": {
+          borderColor: theBodyShopDarkColorTokens.colorSecondaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${theBodyShopDarkColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedTextPrimary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextSecondary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${theBodyShopDarkColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${theBodyShopDarkColorTokens.colorHighlight}3D`
+          }
         }
       }
     },
