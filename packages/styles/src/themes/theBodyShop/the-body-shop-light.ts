@@ -102,7 +102,8 @@ export const theBodyShopLight: ITheme = {
     },
     MuiIconButton: {
       root: {
-        padding: "8px"
+        padding: "8px",
+        color: theBodyShopLightColorTokens.colorHighEmphasis
       },
       sizeSmall: {
         padding: "4px"
@@ -290,12 +291,6 @@ export const theBodyShopLight: ITheme = {
     MuiInputBase: {
       root: {
         color: theBodyShopLightColorTokens.colorOnPrimaryLight,
-        "&:hover": {
-          boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&.Mui-focused": {
-          boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`
-        },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
         },
@@ -304,13 +299,41 @@ export const theBodyShopLight: ITheme = {
         },
         "&.MuiInput-underline:after": {
           borderBottom: "none"
-        },
-        padding: "12px",
-        borderRadius: "4px",
-        boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        }
       },
       input: {
-        color: theBodyShopLightColorTokens.colorHighEmphasis
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
+        minHeight: "24px",
+        padding: "16px 35px 16px 16px",
+        borderRadius: "4px",
+        boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
+        "&:hover": {
+          boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:hover:not(:placeholder-shown)": {
+          boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:focus": {
+          boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:focus:not(:read-only)": {
+          boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
+          boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:not(:placeholder-shown)": {
+          boxShadow: `${theBodyShopLightColorTokens.colorHighEmphasis} 0 0 0 1px`
+        },
+        "&:placeholder-shown": {
+          boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        }
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
       }
     },
     MuiInputLabel: {

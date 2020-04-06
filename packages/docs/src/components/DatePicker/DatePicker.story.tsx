@@ -10,11 +10,7 @@ import {
 import DateFnsUtils from '@date-io/date-fns';
 
 import { makeStyles } from '@material-ui/core/styles';
-import {
-  DatePicker,
-  TextField,
-  PickersUtilProvider,
-} from '@naturacosmeticos/natds-web';
+import { DatePicker, PickersUtilProvider } from '@naturacosmeticos/natds-web';
 
 import DatePickerDocs from './DatePicker.docs.mdx';
 
@@ -63,10 +59,6 @@ export const Interactive = () => {
     new Date()
   );
 
-  const textField = (textFieldProps: any) => (
-    <TextField {...textFieldProps} id="random-prop-id" type="text" />
-  );
-
   const useStyles = makeStyles(theme => ({
     wrapper: {
       display: 'flex',
@@ -81,7 +73,6 @@ export const Interactive = () => {
         <DatePicker
           value={selectedDate}
           label="Only calendar"
-          TextFieldComponent={textField}
           variant={select('Variant', variants, variants.dialog)}
           openTo={select('OpenTo', openTos, openTos.date)}
           format={select('Formats', formats, formats['dd/MM/yyyy'])}

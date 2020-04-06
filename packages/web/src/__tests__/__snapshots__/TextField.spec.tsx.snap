@@ -315,20 +315,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -338,13 +367,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -779,20 +802,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -802,13 +854,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -1352,20 +1398,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -1375,13 +1450,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -1817,20 +1886,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -1840,13 +1938,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -2318,20 +2410,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -2341,13 +2462,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -2783,20 +2898,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -2806,13 +2950,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -3277,20 +3415,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "MuiIconButton": Object {
               "root": Object {
+                "color": "#333333",
                 "padding": "8px",
               },
               "sizeSmall": Object {
                 "padding": "4px",
               },
             },
+            "MuiInputAdornment": Object {
+              "root": Object {
+                "position": "absolute",
+                "right": "0",
+              },
+            },
             "MuiInputBase": Object {
               "input": Object {
-                "color": "#333333",
-              },
-              "root": Object {
-                "&.Mui-focused": Object {
+                "&:focus": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
                 },
+                "&:focus:not(:read-only)": Object {
+                  "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&:hover": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:placeholder-shown)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:not(:placeholder-shown)": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "&:placeholder-shown": Object {
+                  "boxShadow": "#BBBBBB 0 0 0 1px",
+                },
+                "borderRadius": "4px",
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+                "color": "#333333",
+                "minHeight": "24px",
+                "padding": "16px 35px 16px 16px",
+              },
+              "root": Object {
                 "&.MuiInput-underline:after": Object {
                   "borderBottom": "none",
                 },
@@ -3300,13 +3467,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
                 },
-                "&:hover": Object {
-                  "boxShadow": "#777777 0 0 0 1px",
-                },
-                "borderRadius": "4px",
-                "boxShadow": "#BBBBBB 0 0 0 1px",
                 "color": "#333333",
-                "padding": "12px",
               },
             },
             "MuiInputLabel": Object {
@@ -3749,20 +3910,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -3772,13 +3962,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -4214,20 +4398,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -4237,13 +4450,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -4752,20 +4959,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "MuiIconButton": Object {
               "root": Object {
+                "color": "#333333",
                 "padding": "8px",
               },
               "sizeSmall": Object {
                 "padding": "4px",
               },
             },
+            "MuiInputAdornment": Object {
+              "root": Object {
+                "position": "absolute",
+                "right": "0",
+              },
+            },
             "MuiInputBase": Object {
               "input": Object {
-                "color": "#333333",
-              },
-              "root": Object {
-                "&.Mui-focused": Object {
+                "&:focus": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
                 },
+                "&:focus:not(:read-only)": Object {
+                  "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&:hover": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:placeholder-shown)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:not(:placeholder-shown)": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "&:placeholder-shown": Object {
+                  "boxShadow": "#BBBBBB 0 0 0 1px",
+                },
+                "borderRadius": "4px",
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+                "color": "#333333",
+                "minHeight": "24px",
+                "padding": "16px 35px 16px 16px",
+              },
+              "root": Object {
                 "&.MuiInput-underline:after": Object {
                   "borderBottom": "none",
                 },
@@ -4775,13 +5011,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
                 },
-                "&:hover": Object {
-                  "boxShadow": "#777777 0 0 0 1px",
-                },
-                "borderRadius": "4px",
-                "boxShadow": "#BBBBBB 0 0 0 1px",
                 "color": "#333333",
-                "padding": "12px",
               },
             },
             "MuiInputLabel": Object {
@@ -5364,20 +5594,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -5387,13 +5646,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -5829,20 +6082,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
           },
         },
+        "MuiInputAdornment": Object {
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
         "MuiInputBase": Object {
           "input": Object {
-            "color": "#333333",
-          },
-          "root": Object {
-            "&.Mui-focused": Object {
+            "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -5852,13 +6134,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
             },
-            "&:hover": Object {
-              "boxShadow": "#777777 0 0 0 1px",
-            },
-            "borderRadius": "4px",
-            "boxShadow": "#BBBBBB 0 0 0 1px",
             "color": "#333333",
-            "padding": "12px",
           },
         },
         "MuiInputLabel": Object {
@@ -6323,20 +6599,49 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "MuiIconButton": Object {
               "root": Object {
+                "color": "#333333",
                 "padding": "8px",
               },
               "sizeSmall": Object {
                 "padding": "4px",
               },
             },
+            "MuiInputAdornment": Object {
+              "root": Object {
+                "position": "absolute",
+                "right": "0",
+              },
+            },
             "MuiInputBase": Object {
               "input": Object {
-                "color": "#333333",
-              },
-              "root": Object {
-                "&.Mui-focused": Object {
+                "&:focus": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
                 },
+                "&:focus:not(:read-only)": Object {
+                  "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&:hover": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:placeholder-shown)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:not(:placeholder-shown)": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "&:placeholder-shown": Object {
+                  "boxShadow": "#BBBBBB 0 0 0 1px",
+                },
+                "borderRadius": "4px",
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+                "color": "#333333",
+                "minHeight": "24px",
+                "padding": "16px 35px 16px 16px",
+              },
+              "root": Object {
                 "&.MuiInput-underline:after": Object {
                   "borderBottom": "none",
                 },
@@ -6346,13 +6651,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
                 },
-                "&:hover": Object {
-                  "boxShadow": "#777777 0 0 0 1px",
-                },
-                "borderRadius": "4px",
-                "boxShadow": "#BBBBBB 0 0 0 1px",
                 "color": "#333333",
-                "padding": "12px",
               },
             },
             "MuiInputLabel": Object {
