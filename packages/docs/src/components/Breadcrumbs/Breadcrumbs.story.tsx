@@ -77,7 +77,7 @@ export const IconBreadcrumbs = () => {
         underline="none"
       >
         <Icon
-          name={select('Primeiro Icon', icons, icons[0])}
+          name={select('First Icon', icons, icons[0])}
           size="tiny"
           className={classes.icon}
         />
@@ -91,7 +91,7 @@ export const IconBreadcrumbs = () => {
         underline="none"
       >
         <Icon
-          name={select('Segundo Icon', icons, icons[0])}
+          name={select('Second Icon', icons, icons[0])}
           size="tiny"
           className={classes.icon}
         />
