@@ -79,23 +79,43 @@ export const naturaLight: ITheme = {
         color: naturaLightColorTokens.colorOnPrimary
       },
       outlinedSecondary: {
-        color: naturaLightColorTokens.colorOnPrimary
-      },
-      textPrimary: {
-        color: naturaLightColorTokens.colorOnPrimary
+        color: naturaLightColorTokens.colorOnPrimary,
+        "&.Mui-disabled": {
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
       },
       sizeSmall: {
-        fontSize: "0.875rem",
-        minHeight: "32px"
+        ...buttonSizes.small,
+        ...fontSize.subtitle2
       },
       root: {
-        fontSize: "0.875rem",
-        minHeight: "40px",
-        padding: "8px 16px"
+        ...buttonSizes.medium,
+        ...fontSize.subtitle2
       },
       sizeLarge: {
-        fontSize: "0.875rem",
-        minHeight: "48px"
+        ...buttonSizes.large,
+        ...fontSize.subtitle2
+      },
+      text: {
+        padding: null,
+        "&.Mui-disabled": {
+          color: `${naturaLightColorTokens.colorHighlight}3D`,
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
+      },
+      contained: {
+        "&.Mui-disabled": {
+          color: `${naturaLightColorTokens.colorHighlight}3D`,
+          backgroundColor: `${naturaLightColorTokens.colorHighlight}14`
+        }
+      },
+      outlined: {
+        padding: null,
+        borderColor: `${naturaLightColorTokens.colorHighlight}3D`,
+        "&.Mui-disabled": {
+          color: `${naturaLightColorTokens.colorHighlight}3D`,
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
       }
     },
     MuiAvatar: {
@@ -170,7 +190,8 @@ export const naturaLight: ITheme = {
         "&$selected": {
           backgroundColor: hexToRgba(
             naturaLightColorTokens.colorSecondary,
-            0.16),
+            0.16
+          ),
           "&:hover": {
             backgroundColor: hexToRgba(
               naturaLightColorTokens.colorOnSecondary,
@@ -369,5 +390,49 @@ export const naturaLight: ITheme = {
         }
       }
     },
+    MuiButtonGroup: {
+      groupedContainedPrimary: {
+        "&:not(:last-child)": {
+          borderColor: naturaLightColorTokens.colorPrimaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedSecondary: {
+        "&:not(:last-child)": {
+          borderColor: naturaLightColorTokens.colorSecondaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${naturaLightColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedTextPrimary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextSecondary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${naturaLightColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+          }
+        }
+      }
+    }
   }
 };
