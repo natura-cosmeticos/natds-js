@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.2](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.4.1...@naturacosmeticos/natds-icons@0.4.2) (2020-04-13)
+
+
+### Bug Fixes
+
+* **icon:** added new icon named outlined-finance-bank ([79191f6](https://github.com/natura-cosmeticos/natds/commit/79191f61c4891564f4c146a119890df87015d439))
+
+
+
+
+
 ## [0.4.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.4.0...@naturacosmeticos/natds-icons@0.4.1) (2020-03-27)
 
 
