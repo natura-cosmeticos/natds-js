@@ -13,10 +13,10 @@ export const Alert: React.FunctionComponent<MaterialAlertProps> = React.forwardR
 
   const defaultIconMapping: typeof iconMapping = React.useMemo(() => {
     return {
-      success: <Icon name="outlined-action-check" size="tiny" />,
+      success: <Icon name="outlined-alert-check" size="tiny" />,
       info: <Icon name="outlined-alert-info" size="tiny" />,
-      warning: <Icon name="outlined-alert-info" size="tiny" />,
-      error: <Icon name="outlined-action-cancel" size="tiny" />,
+      warning: <Icon name="outlined-alert-warning" size="tiny" />,
+      error: <Icon name="outlined-alert-cancel" size="tiny" />,
       ...iconMapping
     };
   }, [iconMapping]);

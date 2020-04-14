@@ -73,9 +73,12 @@ declare const styles: {
   readonly "natds-icons-outlined-action-upload": string;
   readonly "natds-icons-outlined-action-visibility": string;
   readonly "natds-icons-outlined-action-visibilityoff": string;
+  readonly "natds-icons-outlined-alert-cancel": string;
+  readonly "natds-icons-outlined-alert-check": string;
   readonly "natds-icons-outlined-alert-empty": string;
   readonly "natds-icons-outlined-alert-indeterminate": string;
   readonly "natds-icons-outlined-alert-info": string;
+  readonly "natds-icons-outlined-alert-warning": string;
   readonly "natds-icons-outlined-communication-chat": string;
   readonly "natds-icons-outlined-communication-email": string;
   readonly "natds-icons-outlined-communication-help": string;
@@ -112,6 +115,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-store": string;
   readonly "natds-icons-outlined-content-wellness": string;
   readonly "natds-icons-outlined-content-wifi": string;
+  readonly "natds-icons-outlined-default-mockup": string;
   readonly "natds-icons-outlined-finance-bag": string;
   readonly "natds-icons-outlined-finance-bank": string;
   readonly "natds-icons-outlined-finance-cards": string;
