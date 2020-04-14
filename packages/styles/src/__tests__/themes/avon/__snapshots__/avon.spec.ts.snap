@@ -61,6 +61,75 @@ Object {
     "tiny": 24,
   },
   "overrides": Object {
+    "MuiAlert": Object {
+      "filledInfo": Object {
+        "backgroundColor": "#227BBD",
+      },
+      "filledWarning": Object {
+        "backgroundColor": "#FCC433",
+        "color": "#333333",
+      },
+      "icon": Object {
+        "marginRight": 8,
+      },
+      "message": Object {
+        "padding": "5px 0",
+      },
+      "outlinedError": Object {
+        "color": "#FAFAFA",
+      },
+      "outlinedInfo": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#227BBD",
+        },
+        "borderColor": "#227BBD",
+        "color": "#FAFAFA",
+      },
+      "outlinedSuccess": Object {
+        "color": "#FAFAFA",
+      },
+      "outlinedWarning": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#FCC433",
+        },
+        "borderColor": "#FCC433",
+        "color": "#FAFAFA",
+      },
+      "root": Object {
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "padding": 16,
+        "width": 278,
+      },
+      "standardError": Object {
+        "backgroundColor": "rgba(231, 70, 39, 0.16)",
+        "color": "#FAFAFA",
+      },
+      "standardInfo": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#227BBD",
+        },
+        "backgroundColor": "rgba(34, 123, 189, 0.16)",
+        "color": "#FAFAFA",
+      },
+      "standardSuccess": Object {
+        "backgroundColor": "rgba(86, 154, 50, 0.16)",
+        "color": "#FAFAFA",
+      },
+      "standardWarning": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#FCC433",
+        },
+        "backgroundColor": "rgba(252, 196, 51, 0.16)",
+        "color": "#FAFAFA",
+      },
+    },
+    "MuiAlertTitle": Object {
+      "root": Object {
+        "fontSize": "1.25rem",
+        "fontWeight": 600,
+      },
+    },
     "MuiAvatar": Object {
       "colorDefault": Object {
         "color": "#FAFAFA",
@@ -654,6 +723,75 @@ Object {
     "tiny": 24,
   },
   "overrides": Object {
+    "MuiAlert": Object {
+      "filledInfo": Object {
+        "backgroundColor": "#227BBD",
+      },
+      "filledWarning": Object {
+        "backgroundColor": "#FCC433",
+        "color": "#333333",
+      },
+      "icon": Object {
+        "marginRight": 8,
+      },
+      "message": Object {
+        "padding": "5px 0",
+      },
+      "outlinedError": Object {
+        "color": "#333333",
+      },
+      "outlinedInfo": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#227BBD",
+        },
+        "borderColor": "#227BBD",
+        "color": "#333333",
+      },
+      "outlinedSuccess": Object {
+        "color": "#333333",
+      },
+      "outlinedWarning": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#FCC433",
+        },
+        "borderColor": "#FCC433",
+        "color": "#333333",
+      },
+      "root": Object {
+        "fontSize": "1rem",
+        "fontWeight": 400,
+        "padding": 16,
+        "width": 278,
+      },
+      "standardError": Object {
+        "backgroundColor": "rgba(231, 70, 39, 0.16)",
+        "color": "#333333",
+      },
+      "standardInfo": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#227BBD",
+        },
+        "backgroundColor": "rgba(34, 123, 189, 0.16)",
+        "color": "#333333",
+      },
+      "standardSuccess": Object {
+        "backgroundColor": "rgba(86, 154, 50, 0.16)",
+        "color": "#333333",
+      },
+      "standardWarning": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#FCC433",
+        },
+        "backgroundColor": "rgba(252, 196, 51, 0.16)",
+        "color": "#333333",
+      },
+    },
+    "MuiAlertTitle": Object {
+      "root": Object {
+        "fontSize": "1.25rem",
+        "fontWeight": 600,
+      },
+    },
     "MuiAvatar": Object {
       "colorDefault": Object {
         "color": "#333333",

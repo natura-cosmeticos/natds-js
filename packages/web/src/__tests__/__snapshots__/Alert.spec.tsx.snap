@@ -294,7 +294,7 @@ exports[`Alert component rendering it should match default snapshot: Error Alert
     className="MuiAlert-icon"
   >
     <i
-      className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-cancel undefined"
+      className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-alert-cancel undefined"
       size="tiny"
     />
   </div>
@@ -914,7 +914,7 @@ exports[`Alert component rendering it should match default snapshot: Success Ale
     className="MuiAlert-icon"
   >
     <i
-      className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-check undefined"
+      className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-alert-check undefined"
       size="tiny"
     />
   </div>
@@ -1224,7 +1224,7 @@ exports[`Alert component rendering it should match default snapshot: Warning Ale
     className="MuiAlert-icon"
   >
     <i
-      className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-alert-info undefined"
+      className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-alert-warning undefined"
       size="tiny"
     />
   </div>

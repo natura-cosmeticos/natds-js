@@ -468,6 +468,7 @@ export const naturaDark: ITheme = {
     },
     MuiAlert: {
       root: {
+        width: 278,
         padding: spacing.spacingSmall,
         ...fontSize.body1
       },
@@ -476,6 +477,55 @@ export const naturaDark: ITheme = {
       },
       message: {
         padding: "5px 0"
+      },
+      standardSuccess: {
+        color: naturaDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaDarkColorTokens.colorSuccess, 0.16)
+      },
+      outlinedSuccess: {
+        color: naturaDarkColorTokens.colorHighEmphasis
+      },
+      standardError: {
+        color: naturaDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaDarkColorTokens.colorAlert, 0.16)
+      },
+      outlinedError: {
+        color: naturaDarkColorTokens.colorHighEmphasis
+      },
+      standardWarning: {
+        color: naturaDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaDarkColorTokens.colorWarning, 0.16),
+        "& .MuiAlert-icon": {
+          color: naturaDarkColorTokens.colorWarning
+        }
+      },
+      outlinedWarning: {
+        color: naturaDarkColorTokens.colorHighEmphasis,
+        borderColor: naturaDarkColorTokens.colorWarning,
+        "& .MuiAlert-icon": {
+          color: naturaDarkColorTokens.colorWarning
+        }
+      },
+      filledWarning: {
+        color: naturaDarkColorTokens.colorOnWarning,
+        backgroundColor: naturaDarkColorTokens.colorWarning
+      },
+      standardInfo: {
+        color: naturaDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaDarkColorTokens.colorLink, 0.16),
+        "& .MuiAlert-icon": {
+          color: naturaDarkColorTokens.colorLink
+        }
+      },
+      outlinedInfo: {
+        color: naturaDarkColorTokens.colorHighEmphasis,
+        borderColor: naturaDarkColorTokens.colorLink,
+        "& .MuiAlert-icon": {
+          color: naturaDarkColorTokens.colorLink
+        }
+      },
+      filledInfo: {
+        backgroundColor: naturaDarkColorTokens.colorLink
       }
     },
     MuiAlertTitle: {
