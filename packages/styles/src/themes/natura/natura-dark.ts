@@ -465,6 +465,23 @@ export const naturaDark: ITheme = {
       root: {
         fill: naturaDarkColorTokens.colorMediumEmphasis
       }
+    },
+    MuiAlert: {
+      root: {
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
+      }
     }
   }
 };

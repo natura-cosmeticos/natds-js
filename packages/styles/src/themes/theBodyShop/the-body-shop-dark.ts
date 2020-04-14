@@ -467,6 +467,23 @@ export const theBodyShopDark: ITheme = {
       root: {
         fill: theBodyShopDarkColorTokens.colorMediumEmphasis
       }
+    },
+    MuiAlert: {
+      root: {
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
+      }
     }
   }
 };

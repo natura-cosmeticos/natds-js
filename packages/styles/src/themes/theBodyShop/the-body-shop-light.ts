@@ -439,6 +439,23 @@ export const theBodyShopLight: ITheme = {
     },
     MuiSvgIcon: {
       root: {}
+    },
+    MuiAlert: {
+      root: {
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
+      }
     }
   }
 };
