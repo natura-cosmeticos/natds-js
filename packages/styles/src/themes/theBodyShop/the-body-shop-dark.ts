@@ -467,6 +467,79 @@ export const theBodyShopDark: ITheme = {
       root: {
         fill: theBodyShopDarkColorTokens.colorMediumEmphasis
       }
+    },
+    MuiAlert: {
+      root: {
+        width: 278,
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      },
+      standardSuccess: {
+        color: theBodyShopDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(
+          theBodyShopDarkColorTokens.colorSuccess,
+          0.16
+        )
+      },
+      outlinedSuccess: {
+        color: theBodyShopDarkColorTokens.colorHighEmphasis
+      },
+      standardError: {
+        color: theBodyShopDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(theBodyShopDarkColorTokens.colorAlert, 0.16)
+      },
+      outlinedError: {
+        color: theBodyShopDarkColorTokens.colorHighEmphasis
+      },
+      standardWarning: {
+        color: theBodyShopDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(
+          theBodyShopDarkColorTokens.colorWarning,
+          0.16
+        ),
+        "& .MuiAlert-icon": {
+          color: theBodyShopDarkColorTokens.colorWarning
+        }
+      },
+      outlinedWarning: {
+        color: theBodyShopDarkColorTokens.colorHighEmphasis,
+        borderColor: theBodyShopDarkColorTokens.colorWarning,
+        "& .MuiAlert-icon": {
+          color: theBodyShopDarkColorTokens.colorWarning
+        }
+      },
+      filledWarning: {
+        color: theBodyShopDarkColorTokens.colorOnWarning,
+        backgroundColor: theBodyShopDarkColorTokens.colorWarning
+      },
+      standardInfo: {
+        color: theBodyShopDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(theBodyShopDarkColorTokens.colorLink, 0.16),
+        "& .MuiAlert-icon": {
+          color: theBodyShopDarkColorTokens.colorLink
+        }
+      },
+      outlinedInfo: {
+        color: theBodyShopDarkColorTokens.colorHighEmphasis,
+        borderColor: theBodyShopDarkColorTokens.colorLink,
+        "& .MuiAlert-icon": {
+          color: theBodyShopDarkColorTokens.colorLink
+        }
+      },
+      filledInfo: {
+        backgroundColor: theBodyShopDarkColorTokens.colorLink
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
+      }
     }
   }
 };

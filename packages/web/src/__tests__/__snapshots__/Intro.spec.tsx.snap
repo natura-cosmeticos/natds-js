@@ -67,6 +67,75 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -637,6 +706,75 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -1214,6 +1352,75 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -1791,6 +1998,75 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -2361,6 +2637,75 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -2938,6 +3283,75 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -3515,6 +3929,75 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -4085,6 +4568,75 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -4662,6 +5214,75 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -5239,6 +5860,75 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -5809,6 +6499,75 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -6386,6 +7145,75 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -6963,6 +7791,75 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -7533,6 +8430,75 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -8110,6 +9076,75 @@ exports[`Intro component should match snapshot - Any valid Intro with error titl
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -8687,6 +9722,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -9257,6 +10361,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -9834,6 +11007,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -10411,6 +11653,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -10981,6 +12292,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -11558,6 +12938,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -12135,6 +13584,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -12705,6 +14223,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -13282,6 +14869,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -13859,6 +15515,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -14429,6 +16154,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -15006,6 +16800,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -15583,6 +17446,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -16153,6 +18085,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -16730,6 +18731,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -17307,6 +19377,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -17877,6 +20016,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -18454,6 +20662,75 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -19031,6 +21308,75 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -19601,6 +21947,75 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -20178,6 +22593,75 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -20748,6 +23232,75 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -21325,6 +23878,75 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -21902,6 +24524,75 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -22479,6 +25170,75 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -23049,6 +25809,75 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -23626,6 +26455,75 @@ exports[`Intro component should match snapshot - Any valid Intro with initial ti
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -24203,6 +27101,75 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -24773,6 +27740,75 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -25350,6 +28386,75 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -25927,6 +29032,75 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -26497,6 +29671,75 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -27074,6 +30317,75 @@ exports[`Intro component should match snapshot - Any valid Intro with primary ti
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -27651,6 +30963,75 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -28221,6 +31602,75 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -28798,6 +32248,75 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -29375,6 +32894,75 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -29945,6 +33533,75 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -30522,6 +34179,75 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -31099,6 +34825,75 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -31669,6 +35464,75 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -32246,6 +36110,75 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -32823,6 +36756,75 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -33393,6 +37395,75 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -33970,6 +38041,75 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -34547,6 +38687,75 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -35117,6 +39326,75 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -35694,6 +39972,75 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -36271,6 +40618,75 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -36841,6 +41257,75 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -37418,6 +41903,75 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -37995,6 +42549,75 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -38565,6 +43188,75 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -39142,6 +43834,75 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",
@@ -39723,6 +44484,75 @@ exports[`Intro component should match snapshot - Intro with title and without de
           "tiny": 24,
         },
         "overrides": Object {
+          "MuiAlert": Object {
+            "filledInfo": Object {
+              "backgroundColor": "#227BBD",
+            },
+            "filledWarning": Object {
+              "backgroundColor": "#FCC433",
+              "color": "#333333",
+            },
+            "icon": Object {
+              "marginRight": 8,
+            },
+            "message": Object {
+              "padding": "5px 0",
+            },
+            "outlinedError": Object {
+              "color": "#333333",
+            },
+            "outlinedInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "borderColor": "#227BBD",
+              "color": "#333333",
+            },
+            "outlinedSuccess": Object {
+              "color": "#333333",
+            },
+            "outlinedWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "borderColor": "#FCC433",
+              "color": "#333333",
+            },
+            "root": Object {
+              "fontSize": "1rem",
+              "fontWeight": 400,
+              "padding": 16,
+              "width": 278,
+            },
+            "standardError": Object {
+              "backgroundColor": "rgba(231, 70, 39, 0.16)",
+              "color": "#333333",
+            },
+            "standardInfo": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#227BBD",
+              },
+              "backgroundColor": "rgba(34, 123, 189, 0.16)",
+              "color": "#333333",
+            },
+            "standardSuccess": Object {
+              "backgroundColor": "rgba(86, 154, 50, 0.16)",
+              "color": "#333333",
+            },
+            "standardWarning": Object {
+              "& .MuiAlert-icon": Object {
+                "color": "#FCC433",
+              },
+              "backgroundColor": "rgba(252, 196, 51, 0.16)",
+              "color": "#333333",
+            },
+          },
+          "MuiAlertTitle": Object {
+            "root": Object {
+              "fontSize": "1.25rem",
+              "fontWeight": 600,
+            },
+          },
           "MuiAvatar": Object {
             "colorDefault": Object {
               "color": "#333333",

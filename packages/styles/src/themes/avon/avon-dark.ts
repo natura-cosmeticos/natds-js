@@ -456,6 +456,73 @@ export const avonDark: ITheme = {
       root: {
         fill: avonDarkColorTokens.colorMediumEmphasis
       }
+    },
+    MuiAlert: {
+      root: {
+        width: 278,
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      },
+      standardSuccess: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonDarkColorTokens.colorSuccess, 0.16)
+      },
+      outlinedSuccess: {
+        color: avonDarkColorTokens.colorHighEmphasis
+      },
+      standardError: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonDarkColorTokens.colorAlert, 0.16)
+      },
+      outlinedError: {
+        color: avonDarkColorTokens.colorHighEmphasis
+      },
+      standardWarning: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonDarkColorTokens.colorWarning, 0.16),
+        "& .MuiAlert-icon": {
+          color: avonDarkColorTokens.colorWarning
+        }
+      },
+      outlinedWarning: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        borderColor: avonDarkColorTokens.colorWarning,
+        "& .MuiAlert-icon": {
+          color: avonDarkColorTokens.colorWarning
+        }
+      },
+      filledWarning: {
+        color: avonDarkColorTokens.colorOnWarning,
+        backgroundColor: avonDarkColorTokens.colorWarning
+      },
+      standardInfo: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonDarkColorTokens.colorLink, 0.16),
+        "& .MuiAlert-icon": {
+          color: avonDarkColorTokens.colorLink
+        }
+      },
+      outlinedInfo: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        borderColor: avonDarkColorTokens.colorLink,
+        "& .MuiAlert-icon": {
+          color: avonDarkColorTokens.colorLink
+        }
+      },
+      filledInfo: {
+        backgroundColor: avonDarkColorTokens.colorLink
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
+      }
     }
   }
 };

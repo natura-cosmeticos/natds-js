@@ -439,6 +439,79 @@ export const theBodyShopLight: ITheme = {
     },
     MuiSvgIcon: {
       root: {}
+    },
+    MuiAlert: {
+      root: {
+        width: 278,
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      },
+      standardSuccess: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(
+          theBodyShopLightColorTokens.colorSuccess,
+          0.16
+        )
+      },
+      outlinedSuccess: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis
+      },
+      standardError: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorAlert, 0.16)
+      },
+      outlinedError: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis
+      },
+      standardWarning: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(
+          theBodyShopLightColorTokens.colorWarning,
+          0.16
+        ),
+        "& .MuiAlert-icon": {
+          color: theBodyShopLightColorTokens.colorWarning
+        }
+      },
+      outlinedWarning: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
+        borderColor: theBodyShopLightColorTokens.colorWarning,
+        "& .MuiAlert-icon": {
+          color: theBodyShopLightColorTokens.colorWarning
+        }
+      },
+      filledWarning: {
+        color: theBodyShopLightColorTokens.colorOnWarning,
+        backgroundColor: theBodyShopLightColorTokens.colorWarning
+      },
+      standardInfo: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorLink, 0.16),
+        "& .MuiAlert-icon": {
+          color: theBodyShopLightColorTokens.colorLink
+        }
+      },
+      outlinedInfo: {
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
+        borderColor: theBodyShopLightColorTokens.colorLink,
+        "& .MuiAlert-icon": {
+          color: theBodyShopLightColorTokens.colorLink
+        }
+      },
+      filledInfo: {
+        backgroundColor: theBodyShopLightColorTokens.colorLink
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
+      }
     }
   }
 };

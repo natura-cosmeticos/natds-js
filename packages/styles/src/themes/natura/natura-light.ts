@@ -433,6 +433,73 @@ export const naturaLight: ITheme = {
           }
         }
       }
+    },
+    MuiAlert: {
+      root: {
+        width: 278,
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      },
+      standardSuccess: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaLightColorTokens.colorSuccess, 0.16)
+      },
+      outlinedSuccess: {
+        color: naturaLightColorTokens.colorHighEmphasis
+      },
+      standardError: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaLightColorTokens.colorAlert, 0.16)
+      },
+      outlinedError: {
+        color: naturaLightColorTokens.colorHighEmphasis
+      },
+      standardWarning: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaLightColorTokens.colorWarning, 0.16),
+        "& .MuiAlert-icon": {
+          color: naturaLightColorTokens.colorWarning
+        }
+      },
+      outlinedWarning: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        borderColor: naturaLightColorTokens.colorWarning,
+        "& .MuiAlert-icon": {
+          color: naturaLightColorTokens.colorWarning
+        }
+      },
+      filledWarning: {
+        color: naturaLightColorTokens.colorOnWarning,
+        backgroundColor: naturaLightColorTokens.colorWarning
+      },
+      standardInfo: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaLightColorTokens.colorLink, 0.16),
+        "& .MuiAlert-icon": {
+          color: naturaLightColorTokens.colorLink
+        }
+      },
+      outlinedInfo: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        borderColor: naturaLightColorTokens.colorLink,
+        "& .MuiAlert-icon": {
+          color: naturaLightColorTokens.colorLink
+        }
+      },
+      filledInfo: {
+        backgroundColor: naturaLightColorTokens.colorLink
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
+      }
     }
   }
 };
