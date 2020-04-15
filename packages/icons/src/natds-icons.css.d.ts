@@ -102,6 +102,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-global": string;
   readonly "natds-icons-outlined-content-health": string;
   readonly "natds-icons-outlined-content-healthy": string;
+  readonly "natds-icons-outlined-content-indicator": string;
   readonly "natds-icons-outlined-content-lock": string;
   readonly "natds-icons-outlined-content-magic": string;
   readonly "natds-icons-outlined-content-medal": string;
