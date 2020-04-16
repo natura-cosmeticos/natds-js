@@ -5,7 +5,7 @@ import {
   themes,
 } from '@naturacosmeticos/natds-web';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
-import { variants, sizes, colors } from './sections';
+import { variants, sizes, colors, disabled, icons } from './sections';
 
 # ButtonGroup
 
@@ -26,7 +26,9 @@ import { variants, sizes, colors } from './sections';
 ## Colors
 
 <Provider theme={themes.natura.light}>
-  <ComponentWithLabel componentList={colors} />
+  <ComponentWithLabel componentList={colors.contained} />
+  <ComponentWithLabel componentList={colors.outlined} />
+  <ComponentWithLabel componentList={colors.text} />
 </Provider>
 
 ---
@@ -37,6 +39,26 @@ import { variants, sizes, colors } from './sections';
 
 <Provider theme={themes.natura.light}>
   <ComponentWithLabel componentList={sizes} />
+</Provider>
+
+---
+
+---
+
+## Disabled
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={disabled} />
+</Provider>
+
+---
+
+---
+
+## Usage
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={icons} />
 </Provider>
 
 ---
