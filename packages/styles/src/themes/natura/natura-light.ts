@@ -299,6 +299,9 @@ export const naturaLight: ITheme = {
         },
         "&.MuiInput-underline:after": {
           borderBottom: "none"
+        },
+        "&.MuiInput-underline.Mui-disabled:before": {
+          borderBottom: "none"
         }
       },
       input: {
@@ -327,6 +330,10 @@ export const naturaLight: ITheme = {
         },
         "&:placeholder-shown": {
           boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        "&.Mui-disabled": {
+          opacity: 0.24,
+          "&:hover": { boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px` }
         }
       }
     },
