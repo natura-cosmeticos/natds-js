@@ -25,6 +25,7 @@ declare const styles: {
   readonly "natds-icons-filled-brand-naturarosacea": string;
   readonly "natds-icons-filled-media-pause": string;
   readonly "natds-icons-filled-media-play": string;
+  readonly "natds-icons-filled-media-stop": string;
   readonly "natds-icons-filled-navigation-directionleft": string;
   readonly "natds-icons-filled-navigation-directionright": string;
   readonly "natds-icons-filled-navigation-directiontbottom": string;
@@ -55,11 +56,13 @@ declare const styles: {
   readonly "natds-icons-outlined-action-love": string;
   readonly "natds-icons-outlined-action-mic": string;
   readonly "natds-icons-outlined-action-micrec": string;
+  readonly "natds-icons-outlined-action-newregister": string;
   readonly "natds-icons-outlined-action-newrequest": string;
   readonly "natds-icons-outlined-action-order": string;
   readonly "natds-icons-outlined-action-phone": string;
   readonly "natds-icons-outlined-action-print": string;
   readonly "natds-icons-outlined-action-rating": string;
+  readonly "natds-icons-outlined-action-recycle": string;
   readonly "natds-icons-outlined-action-request": string;
   readonly "natds-icons-outlined-action-save": string;
   readonly "natds-icons-outlined-action-schedule": string;
@@ -110,6 +113,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-mirror": string;
   readonly "natds-icons-outlined-content-planb": string;
   readonly "natds-icons-outlined-content-produtivity": string;
+  readonly "natds-icons-outlined-content-report": string;
   readonly "natds-icons-outlined-content-store": string;
   readonly "natds-icons-outlined-content-wellness": string;
   readonly "natds-icons-outlined-content-wifi": string;
