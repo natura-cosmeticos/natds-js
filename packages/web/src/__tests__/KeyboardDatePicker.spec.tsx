@@ -8,7 +8,7 @@ import { themes } from '@naturacosmeticos/natds-styles';
 
 const Component = (props: IKeyboardDatePickerViewsProps) => (
   <MuiPickersUtilsProvider utils={DateFnsUtils}>
-    <KeyboardDatePicker {...props} label="Only calendar" variant="dialog" />
+    <KeyboardDatePicker label="Only calendar" variant="dialog" {...props} />
   </MuiPickersUtilsProvider>
 );
 
@@ -95,5 +95,17 @@ describe('KeyboardDatePicker components', () => {
       />
     );
     expect(component).matchSnapshot('KeyboardDatePicker helpText snapshot');
+  });
+
+  test('should match to snapshot - Static variant', () => {
+    const component = mount(
+      <Component
+        onChange={() => null}
+        value={null}
+        state={undefined}
+        variant="static"
+      />
+    );
+    expect(component).matchSnapshot('KeyboardDatePicker static variant snapshot');
   });
 });

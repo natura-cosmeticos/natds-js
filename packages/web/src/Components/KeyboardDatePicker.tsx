@@ -47,17 +47,22 @@ export const KeyboardDatePicker: FunctionComponent<KeyboardDatePickerViewsPropsW
       ...keyboardDatePickerProps
     } = props;
 
+    const keyboardDatePickerComponent = <MaterialKeyboardDatePicker
+      {...keyboardDatePickerProps}
+      required={false}
+      keyboardIcon={<Icon name="outlined-action-calendar" size="tiny" />}
+      ref={ref}
+      inputProps={customStyle}
+      label=""
+      helperText=""
+    />;
+
+    if (props.variant === 'static') {
+      return keyboardDatePickerComponent;
+    }
     return (
       <InputStateHelpTextProvider {...props}>
-        <MaterialKeyboardDatePicker
-          {...keyboardDatePickerProps}
-          required={false}
-          keyboardIcon={<Icon name="outlined-action-calendar" size="tiny" />}
-          ref={ref}
-          inputProps={customStyle}
-          label=""
-          helperText=""
-        />
+        {keyboardDatePickerComponent}
       </InputStateHelpTextProvider>
     );
   }

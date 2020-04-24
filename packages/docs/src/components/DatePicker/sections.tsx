@@ -17,23 +17,17 @@ interface IDatePickerViewsProps {
   animateYearScrolling?: boolean;
   autoOk?: boolean;
   disabled?: boolean;
+  required?: boolean;
   clearable?: boolean;
   views?: ['year' | 'date' | 'month'];
+  value?: Date | string | null;
+  state?: 'error' | 'success';
+  placeholder?: string;
+  helpText?: string;
 }
 
-const DatePickerWrapper = (props: IDatePickerViewsProps) => {
-  const {
-    variant,
-    disableToolbar,
-    format,
-    openTo,
-    disableFuture,
-    disablePast,
-    clearable,
-    autoOk,
-    views,
-  } = props;
-
+const DatePickerWrapper = ({ value = '', ...props }: IDatePickerViewsProps) => {
+  const [date, setDate] = React.useState(value);
   const useStyles = makeStyles(theme => ({
     wrapper: {
       display: 'flex',
@@ -50,16 +44,13 @@ const DatePickerWrapper = (props: IDatePickerViewsProps) => {
     <div className={classes.wrapper}>
       <PickersUtilProvider utils={DateFnsUtils}>
         <DatePicker
+          label="Label"
+          helpText="Assistive text"
+          format="dd/MM/yyyy"
           TextFieldComponent={textField}
-          variant={variant}
-          disableToolbar={disableToolbar}
-          format={format}
-          openTo={openTo}
-          disableFuture={disableFuture}
-          disablePast={disablePast}
-          clearable={clearable}
-          autoOk={autoOk}
-          views={views}
+          value={date}
+          onChange={setDate}
+          {...props}
         />
       </PickersUtilProvider>
     </div>
@@ -68,45 +59,90 @@ const DatePickerWrapper = (props: IDatePickerViewsProps) => {
 
 export const variants = [
   {
-    title: 'Date Format',
-    component: <DatePickerWrapper variant="dialog" format="dd/MM/yyyy" />,
+    title: 'Dialog',
+    component: <DatePickerWrapper variant="dialog" />,
   },
   {
-    title: 'Variant - Static',
+    title: 'Inline',
+    component: <DatePickerWrapper variant="inline" autoOk />,
+  },
+  {
+    title: 'Static',
     component: <DatePickerWrapper variant="static" />,
   },
+];
+
+export const types = [
   {
-    title: 'Disable Toolbar',
-    component: <DatePickerWrapper variant="static" disableToolbar={true} />,
+    title: 'Outlined',
+    component: <DatePickerWrapper />,
   },
+];
+
+export const states = [
   {
-    title: 'Auto OK',
-    component: <DatePickerWrapper variant="static" autoOk={true} />,
-  },
-  {
-    title: 'Open To',
-    component: <DatePickerWrapper variant="static" openTo="year" />,
-  },
-  {
-    title: 'Disable Future',
-    component: <DatePickerWrapper variant="static" disableFuture={true} />,
-  },
-  {
-    title: 'Disable Past',
-    component: <DatePickerWrapper variant="static" disablePast={true} />,
-  },
-  {
-    title: 'Button Clear',
+    title: 'Standard',
     component: (
-      <DatePickerWrapper
-        variant="dialog"
-        format="dd/MM/yyyy"
-        clearable={true}
-      />
+      <DatePickerWrapper value={null} placeholder="Pick a date" clearable />
     ),
   },
   {
-    title: 'Views',
-    component: <DatePickerWrapper variant="static" views={['year']} />,
+    title: 'Filled',
+    component: <DatePickerWrapper />,
+  },
+  {
+    title: 'Success',
+    component: <DatePickerWrapper state="success" />,
+  },
+  {
+    title: 'Error',
+    component: <DatePickerWrapper state="error" />,
+  },
+];
+
+export const attributes = [
+  {
+    title: 'Auto OK',
+    component: <DatePickerWrapper autoOk />,
+  },
+  {
+    title: 'Button Clear',
+    component: <DatePickerWrapper placeholder="Pick a date" clearable />,
+  },
+  {
+    title: 'Format - MM/yy',
+    component: <DatePickerWrapper format="MM/yy" />,
+  },
+  {
+    title: 'Help Text - Not used',
+    component: <DatePickerWrapper helpText="" />,
+  },
+  {
+    title: 'Disabled',
+    component: <DatePickerWrapper disabled />,
+  },
+  {
+    title: 'Required',
+    component: <DatePickerWrapper required />,
+  },
+  {
+    title: 'Disable Toolbar',
+    component: <DatePickerWrapper variant="static" disableToolbar />,
+  },
+  {
+    title: 'Disable Future',
+    component: <DatePickerWrapper variant="static" disableFuture />,
+  },
+  {
+    title: 'Disable Past',
+    component: <DatePickerWrapper variant="static" disablePast />,
+  },
+  {
+    title: 'Open To - Year',
+    component: <DatePickerWrapper variant="static" openTo="year" />,
+  },
+  {
+    title: 'Views - Month',
+    component: <DatePickerWrapper variant="static" views={['month']} />,
   },
 ];

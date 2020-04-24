@@ -5,7 +5,7 @@ import {
   PickersUtilProvider,
 } from '@naturacosmeticos/natds-web';
 import ComponentWithLabel from '../../../addons/ComponentWithLabel';
-import { variants } from './sections';
+import { variants, types, states, attributes } from './sections';
 
 # DatePicker
 
@@ -13,11 +13,47 @@ import { variants } from './sections';
 
 ---
 
-## Date Picker Simple
+## Variant
 
 <Provider theme={themes.natura.light}>
-  <ComponentWithLabel componentList={variants} itemsPerRow={2} />
+  <ComponentWithLabel componentList={variants} />
 </Provider>
+
+---
+
+---
+
+## Type
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={types} />
+</Provider>
+
+---
+
+---
+
+## States
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={states} />
+</Provider>
+
+---
+
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+
+---
+
+
 
 ## API
 

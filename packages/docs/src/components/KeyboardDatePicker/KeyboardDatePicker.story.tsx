@@ -12,7 +12,7 @@ import DateFnsUtils from '@date-io/date-fns';
 import { makeStyles } from '@material-ui/core/styles';
 import {
   KeyboardDatePicker,
-  PickersUtilProvider, TextField,
+  PickersUtilProvider,
 } from '@naturacosmeticos/natds-web';
 
 import KeyboardDatePickerDocs from './KeyboardDatePicker.docs.mdx';
@@ -60,7 +60,7 @@ const openTos: any = {
 const states: any = {
   success: 'success',
   error: 'error',
-  default: undefined
+  default: undefined,
 };
 
 export const Interactive = () => {
