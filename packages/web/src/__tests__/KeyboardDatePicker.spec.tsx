@@ -13,19 +13,28 @@ const Component = (props: IKeyboardDatePickerViewsProps) => (
 );
 
 describe('KeyboardDatePicker components', () => {
+  const date = new Date('2020-02-01T03:00:00.000Z');
+
   test('should match to snapshot - Opened', () => {
     const component = mount(
-      <Component onChange={() => null} value={null} state={undefined} open />
+      <Component onChange={() => null} value={date} state={undefined} open />
     );
 
     expect(component).matchSnapshot('KeyboardDatePicker opened snapshot');
+  });
+
+  test('should match to snapshot - Empty', () => {
+    const component = mount(
+      <Component onChange={() => null} value={null} state={undefined} />
+    );
+    expect(component).matchSnapshot('KeyboardDatePicker error state snapshot');
   });
 
   test('should match to snapshot - Error state', () => {
     const component = mount(
       <Component
         onChange={() => null}
-        value={null}
+        value={date}
         state="error"
         theme={themes.natura.light}
       />
@@ -37,7 +46,7 @@ describe('KeyboardDatePicker components', () => {
     const component = mount(
       <Component
         onChange={() => null}
-        value={null}
+        value={date}
         state="success"
         theme={themes.natura.light}
       />
@@ -51,7 +60,7 @@ describe('KeyboardDatePicker components', () => {
     const component = mount(
       <Component
         onChange={() => null}
-        value={null}
+        value={date}
         state={undefined}
         theme={themes.natura.light}
       />
@@ -65,7 +74,7 @@ describe('KeyboardDatePicker components', () => {
     const component = mount(
       <Component
         onChange={() => null}
-        value={null}
+        value={date}
         state={undefined}
         required
       />
@@ -77,7 +86,7 @@ describe('KeyboardDatePicker components', () => {
     const component = mount(
       <Component
         onChange={() => null}
-        value={null}
+        value={date}
         state={undefined}
         disabled
       />
@@ -89,7 +98,7 @@ describe('KeyboardDatePicker components', () => {
     const component = mount(
       <Component
         onChange={() => null}
-        value={null}
+        value={date}
         state={undefined}
         helpText="Help me"
       />
@@ -101,11 +110,13 @@ describe('KeyboardDatePicker components', () => {
     const component = mount(
       <Component
         onChange={() => null}
-        value={null}
+        value={date}
         state={undefined}
         variant="static"
       />
     );
-    expect(component).matchSnapshot('KeyboardDatePicker static variant snapshot');
+    expect(component).matchSnapshot(
+      'KeyboardDatePicker static variant snapshot'
+    );
   });
 });
