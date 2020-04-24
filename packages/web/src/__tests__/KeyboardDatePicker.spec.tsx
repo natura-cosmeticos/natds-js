@@ -13,7 +13,7 @@ const Component = (props: IKeyboardDatePickerViewsProps) => (
 );
 
 describe('KeyboardDatePicker components', () => {
-  const date = new Date('2020-02-01T03:00:00.000Z');
+  const date = new Date(2019, 1, 1, 0, 0, 0, 0);
 
   test('should match to snapshot - Opened', () => {
     const component = mount(
