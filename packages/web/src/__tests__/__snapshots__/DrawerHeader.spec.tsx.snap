@@ -263,6 +263,12 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -291,6 +297,9 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -920,6 +929,12 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -948,6 +963,9 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },

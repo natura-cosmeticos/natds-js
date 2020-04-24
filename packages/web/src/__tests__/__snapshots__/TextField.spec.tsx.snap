@@ -5,7 +5,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -49,7 +49,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -62,7 +62,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -101,7 +101,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -330,6 +330,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -358,6 +364,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -817,6 +826,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -845,6 +860,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -1088,7 +1106,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb ePKCXC"
 >
   <label
-    className="sc-ifAKCX ivLbDD"
+    className="sc-ifAKCX iNTEeG"
     disabled={false}
     htmlFor="field"
   >
@@ -1111,7 +1129,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje hzpAND"
+    className="sc-EHOje kcKVdJ"
     disabled={false}
   >
     Assistive text
@@ -1124,7 +1142,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -1147,7 +1165,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -1160,7 +1178,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -1183,7 +1201,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -1413,6 +1431,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -1441,6 +1465,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -1901,6 +1928,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -1929,6 +1962,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -2172,7 +2208,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX erbqoT"
+    className="sc-ifAKCX dpnCtM"
     disabled={true}
     htmlFor="field"
   >
@@ -2195,7 +2231,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje iTMyac"
+    className="sc-EHOje hfPBnQ"
     disabled={true}
   >
     Assistive text
@@ -2425,6 +2461,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -2453,6 +2495,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -2913,6 +2958,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -2941,6 +2992,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -3184,7 +3238,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX hTyEeC"
+    className="sc-ifAKCX fbXOkv"
     disabled={false}
     htmlFor="field"
   >
@@ -3207,12 +3261,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje ligbie"
+    className="sc-EHOje kbBqut"
     disabled={false}
   >
     <svg
       aria-hidden="true"
-      className="MuiSvgIcon-root sc-bZQynM WSAdF"
+      className="MuiSvgIcon-root sc-bZQynM bKnZNA"
       focusable="false"
       role="presentation"
       theme={
@@ -3430,6 +3484,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#333333 0 0 0 1px",
+                  },
+                  "opacity": 0.24,
+                },
                 "&:focus": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
                 },
@@ -3458,6 +3518,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "padding": "16px 35px 16px 16px",
               },
               "root": Object {
+                "&.MuiInput-underline.Mui-disabled:before": Object {
+                  "borderBottom": "none",
+                },
                 "&.MuiInput-underline:after": Object {
                   "borderBottom": "none",
                 },
@@ -3925,6 +3988,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -3953,6 +4022,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -4413,6 +4485,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -4441,6 +4519,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -4685,7 +4766,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -4708,7 +4789,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -4721,7 +4802,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -4974,6 +5055,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#333333 0 0 0 1px",
+                  },
+                  "opacity": 0.24,
+                },
                 "&:focus": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
                 },
@@ -5002,6 +5089,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "padding": "16px 35px 16px 16px",
               },
               "root": Object {
+                "&.MuiInput-underline.Mui-disabled:before": Object {
+                  "borderBottom": "none",
+                },
                 "&.MuiInput-underline:after": Object {
                   "borderBottom": "none",
                 },
@@ -5242,7 +5332,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -5255,7 +5345,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -5278,7 +5368,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -5291,7 +5381,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -5314,7 +5404,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -5343,7 +5433,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -5356,7 +5446,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -5379,7 +5469,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -5609,6 +5699,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -5637,6 +5733,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -6097,6 +6196,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -6125,6 +6230,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -6368,7 +6476,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX fXhCAO"
+    className="sc-ifAKCX fywemI"
     disabled={false}
     htmlFor="field"
   >
@@ -6391,12 +6499,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje fKUVzh"
+    className="sc-EHOje bCGmrs"
     disabled={false}
   >
     <svg
       aria-hidden="true"
-      className="MuiSvgIcon-root sc-gzVnrw bwlNUI"
+      className="MuiSvgIcon-root sc-gzVnrw dFIzKz"
       focusable="false"
       role="presentation"
       theme={
@@ -6614,6 +6722,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#333333 0 0 0 1px",
+                  },
+                  "opacity": 0.24,
+                },
                 "&:focus": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
                 },
@@ -6642,6 +6756,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "padding": "16px 35px 16px 16px",
               },
               "root": Object {
+                "&.MuiInput-underline.Mui-disabled:before": Object {
+                  "borderBottom": "none",
+                },
                 "&.MuiInput-underline:after": Object {
                   "borderBottom": "none",
                 },
@@ -6893,7 +7010,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX erbqoT"
+    className="sc-ifAKCX dpnCtM"
     disabled={false}
     htmlFor="field"
   >
@@ -6916,7 +7033,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje iTMyac"
+    className="sc-EHOje hfPBnQ"
     disabled={false}
   >
     Assistive text

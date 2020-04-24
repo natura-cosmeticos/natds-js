@@ -136,116 +136,60 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
                       type="text"
                       value=""
                     >
-                      <styled.div>
-                        <StyledComponent
-                          forwardedComponent={
-                            Object {
-                              "$$typeof": Symbol(react.forward_ref),
-                              "attrs": Array [],
-                              "componentStyle": ComponentStyle {
-                                "componentId": "sc-fjdhpX",
-                                "isStatic": false,
-                                "lastClassName": "gLPxtx",
-                                "rules": Array [
-                                  "
+                      <Component
+                        InputProps={
+                          Object {
+                            "readOnly": true,
+                          }
+                        }
+                        error={false}
+                        format="MMMM do"
+                        helperText=""
+                        id="random-prop-id"
+                        label="Only calendar"
+                        onClick={[Function]}
+                        onKeyDown={[Function]}
+                        type="text"
+                        value=""
+                      >
+                        <styled.div>
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-gqjmRU",
+                                  "isStatic": false,
+                                  "lastClassName": "fOizOf",
+                                  "rules": Array [
+                                    "
   display: flex;
   flex-flow: column nowrap;
   font-family: ",
-                                  [Function],
-                                  ";
+                                    [Function],
+                                    ";
 ",
-                                ],
-                              },
-                              "displayName": "styled.div",
-                              "foldedComponentIds": Array [],
-                              "render": [Function],
-                              "styledComponentId": "sc-fjdhpX",
-                              "target": "div",
-                              "toString": [Function],
-                              "warnTooManyClasses": [Function],
-                              "withComponent": [Function],
-                            }
-                          }
-                          forwardedRef={null}
-                        >
-                          <div
-                            className="sc-fjdhpX gLPxtx"
-                          >
-                            <styled.label
-                              disabled={false}
-                              htmlFor="random-prop-id"
-                            >
-                              <StyledComponent
-                                disabled={false}
-                                forwardedComponent={
-                                  Object {
-                                    "$$typeof": Symbol(react.forward_ref),
-                                    "attrs": Array [],
-                                    "componentStyle": ComponentStyle {
-                                      "componentId": "sc-jzJRlG",
-                                      "isStatic": false,
-                                      "lastClassName": "enhHKT",
-                                      "rules": Array [
-                                        "
-  font-size: ",
-                                        [Function],
-                                        ";
-  font-weight: ",
-                                        [Function],
-                                        ";
-  color: ",
-                                        [Function],
-                                        ";
-  line-height: 1.2;
-  padding: 0 0 ",
-                                        "4",
-                                        "px;
-  font-family: ",
-                                        [Function],
-                                        "
-",
-                                      ],
-                                    },
-                                    "displayName": "styled.label",
-                                    "foldedComponentIds": Array [],
-                                    "render": [Function],
-                                    "styledComponentId": "sc-jzJRlG",
-                                    "target": "label",
-                                    "toString": [Function],
-                                    "warnTooManyClasses": [Function],
-                                    "withComponent": [Function],
-                                  }
-                                }
-                                forwardedRef={null}
-                                htmlFor="random-prop-id"
-                              >
-                                <label
-                                  className="sc-jzJRlG enhHKT"
-                                  disabled={false}
-                                  htmlFor="random-prop-id"
-                                >
-                                  Only calendar
-                                </label>
-                              </StyledComponent>
-                            </styled.label>
-                            <ForwardRef
-                              InputProps={
-                                Object {
-                                  "readOnly": true,
-                                }
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-gqjmRU",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
                               }
-                              error={false}
-                              format="MMMM do"
-                              helperText=""
-                              id="random-prop-id"
-                              label="Only calendar"
-                              onClick={[Function]}
-                              onKeyDown={[Function]}
-                              type="text"
-                              value=""
+                            }
+                            forwardedRef={null}
+                          >
+                            <div
+                              className="sc-gqjmRU fOizOf"
                             >
-                              <styled.div
+                              <styled.label
                                 disabled={false}
+                                htmlFor="random-prop-id"
                               >
                                 <StyledComponent
                                   disabled={false}
@@ -256,58 +200,107 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
                                       "componentStyle": ComponentStyle {
                                         "componentId": "sc-VigVT",
                                         "isStatic": false,
-                                        "lastClassName": "igfaTU",
+                                        "lastClassName": "kbirlQ",
                                         "rules": Array [
                                           "
-  display: flex;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: ",
+  font-size: ",
+                                          [Function],
+                                          ";
+  font-weight: ",
+                                          [Function],
+                                          ";
+  color: ",
+                                          [Function],
+                                          ";
+  line-height: 1.2;
+  padding: 0 0 ",
+                                          "4",
+                                          "px;
+  font-family: ",
                                           [Function],
                                           ";
 ",
                                         ],
                                       },
-                                      "displayName": "styled.div",
+                                      "displayName": "styled.label",
                                       "foldedComponentIds": Array [],
                                       "render": [Function],
                                       "styledComponentId": "sc-VigVT",
-                                      "target": "div",
+                                      "target": "label",
                                       "toString": [Function],
                                       "warnTooManyClasses": [Function],
                                       "withComponent": [Function],
                                     }
                                   }
                                   forwardedRef={null}
+                                  htmlFor="random-prop-id"
                                 >
-                                  <div
-                                    className="sc-VigVT igfaTU"
+                                  <label
+                                    className="sc-VigVT kbirlQ"
                                     disabled={false}
+                                    htmlFor="random-prop-id"
                                   >
-                                    <styled.input
-                                      InputProps={
-                                        Object {
-                                          "readOnly": true,
-                                        }
+                                    Only calendar
+                                  </label>
+                                </StyledComponent>
+                              </styled.label>
+                              <ForwardRef
+                                InputProps={
+                                  Object {
+                                    "readOnly": true,
+                                  }
+                                }
+                                error={false}
+                                format="MMMM do"
+                                helperText=""
+                                id="random-prop-id"
+                                label="Only calendar"
+                                onClick={[Function]}
+                                onKeyDown={[Function]}
+                                type="text"
+                                value=""
+                              >
+                                <styled.div
+                                  disabled={false}
+                                >
+                                  <StyledComponent
+                                    disabled={false}
+                                    forwardedComponent={
+                                      Object {
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "sc-kAzzGY",
+                                          "isStatic": false,
+                                          "lastClassName": "ioIXzV",
+                                          "rules": Array [
+                                            "
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: ",
+                                            [Function],
+                                            ";
+",
+                                          ],
+                                        },
+                                        "displayName": "styled.div",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "sc-kAzzGY",
+                                        "target": "div",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
                                       }
-                                      as="input"
-                                      className="undefined__input"
+                                    }
+                                    forwardedRef={null}
+                                  >
+                                    <div
+                                      className="sc-kAzzGY ioIXzV"
                                       disabled={false}
-                                      error={false}
-                                      format="MMMM do"
-                                      hasIcon={false}
-                                      helperText=""
-                                      id="random-prop-id"
-                                      label="Only calendar"
-                                      onChange={[Function]}
-                                      onClick={[Function]}
-                                      onKeyDown={[Function]}
-                                      placeholder="&nbsp;"
-                                      required={false}
-                                      type="text"
-                                      value=""
                                     >
-                                      <StyledComponent
+                                      <styled.input
                                         InputProps={
                                           Object {
                                             "readOnly": true,
@@ -318,92 +311,115 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
                                         disabled={false}
                                         error={false}
                                         format="MMMM do"
-                                        forwardedComponent={
-                                          Object {
-                                            "$$typeof": Symbol(react.forward_ref),
-                                            "attrs": Array [],
-                                            "componentStyle": ComponentStyle {
-                                              "componentId": "sc-jTzLTM",
-                                              "isStatic": false,
-                                              "lastClassName": "bxrwkE",
-                                              "rules": Array [
-                                                "
+                                        hasIcon={false}
+                                        helperText=""
+                                        id="random-prop-id"
+                                        label="Only calendar"
+                                        onChange={[Function]}
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        placeholder="&nbsp;"
+                                        required={false}
+                                        type="text"
+                                        value=""
+                                      >
+                                        <StyledComponent
+                                          InputProps={
+                                            Object {
+                                              "readOnly": true,
+                                            }
+                                          }
+                                          as="input"
+                                          className="undefined__input"
+                                          disabled={false}
+                                          error={false}
+                                          format="MMMM do"
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "sc-chPdSV",
+                                                "isStatic": false,
+                                                "lastClassName": "kdDbwy",
+                                                "rules": Array [
+                                                  "
   background-color: transparent;
   border: 0;
   border-radius: ",
-                                                [Function],
-                                                "px;
+                                                  [Function],
+                                                  "px;
   box-sizing: border-box;
   width: 100%;
   line-height: ",
-                                                "24",
-                                                "px;
+                                                  "24",
+                                                  "px;
   min-height: ",
-                                                "48",
-                                                "px;
+                                                  "48",
+                                                  "px;
   outline: none;
   color: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   font-size: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   font-weight: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   font-family: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   flex: 1 1 100%;
   padding: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   resize: vertical;
 
   &:disabled,
   &:disabled:hover {
     color: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
     box-shadow: ",
-                                                [Function],
-                                                " 0 0 0 1px;
+                                                  [Function],
+                                                  " 0 0 0 1px;
   }
 
   &::placeholder {
     color: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   }
 
   &:disabled::placeholder {
     color: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   }
 
   &:placeholder-shown {
     box-shadow: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   }
 
   &:not(:placeholder-shown) {
     box-shadow: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   }
 
   &:focus:not(:read-only) {
     box-shadow: ",
-                                                [Function],
-                                                ";
+                                                  [Function],
+                                                  ";
   }
 
   &:hover:not(:read-only):not(:disabled):not(:focus) {
     box-shadow: ",
-                                                [Function],
-                                                " 0 0 0 1px;
+                                                  [Function],
+                                                  " 0 0 0 1px;
   }
 
   &[type='text']::-ms-clear,
@@ -420,35 +436,21 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
     display: none;
   }
 ",
-                                              ],
-                                            },
-                                            "displayName": "styled.input",
-                                            "foldedComponentIds": Array [],
-                                            "render": [Function],
-                                            "styledComponentId": "sc-jTzLTM",
-                                            "target": "input",
-                                            "toString": [Function],
-                                            "warnTooManyClasses": [Function],
-                                            "withComponent": [Function],
+                                                ],
+                                              },
+                                              "displayName": "styled.input",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "sc-chPdSV",
+                                              "target": "input",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
                                           }
-                                        }
-                                        forwardedRef={null}
-                                        hasIcon={false}
-                                        helperText=""
-                                        id="random-prop-id"
-                                        label="Only calendar"
-                                        onChange={[Function]}
-                                        onClick={[Function]}
-                                        onKeyDown={[Function]}
-                                        placeholder="&nbsp;"
-                                        required={false}
-                                        type="text"
-                                        value=""
-                                      >
-                                        <input
-                                          className="sc-jTzLTM bxrwkE undefined__input"
-                                          disabled={false}
-                                          format="MMMM do"
+                                          forwardedRef={null}
+                                          hasIcon={false}
+                                          helperText=""
                                           id="random-prop-id"
                                           label="Only calendar"
                                           onChange={[Function]}
@@ -458,16 +460,31 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
                                           required={false}
                                           type="text"
                                           value=""
-                                        />
-                                      </StyledComponent>
-                                    </styled.input>
-                                  </div>
-                                </StyledComponent>
-                              </styled.div>
-                            </ForwardRef>
-                          </div>
-                        </StyledComponent>
-                      </styled.div>
+                                        >
+                                          <input
+                                            className="sc-chPdSV kdDbwy undefined__input"
+                                            disabled={false}
+                                            format="MMMM do"
+                                            id="random-prop-id"
+                                            label="Only calendar"
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="&nbsp;"
+                                            required={false}
+                                            type="text"
+                                            value=""
+                                          />
+                                        </StyledComponent>
+                                      </styled.input>
+                                    </div>
+                                  </StyledComponent>
+                                </styled.div>
+                              </ForwardRef>
+                            </div>
+                          </StyledComponent>
+                        </styled.div>
+                      </Component>
                     </ForwardRef>
                   </WithTheme(ForwardRef)>
                 </textField>

@@ -5,117 +5,62 @@ import {
   KeyboardDatePicker as MaterialKeyboardDatePicker,
   KeyboardDatePickerProps as DatePickerViewsProps,
 } from '@material-ui/pickers/DatePicker';
-import styled from 'styled-components';
-import { getColorByState, getProp, stateStyles } from './TextField/shared';
-import { tokens } from '@naturacosmeticos/natds-styles';
-import ErrorIcon from "@material-ui/icons/HighlightOffOutlined";
-import SuccessIcon from "@material-ui/icons/CheckCircleOutline";
+import InputStateHelpTextProvider, { IInputStateHelpTextProviderProps } from './InputStateHelpTextProvider';
 
-// export { DatePickerViewsProps as IKeyboardDatePickerViewsProps } from '@material-ui/pickers/DatePicker';
-
-type DatePickerViewsWithoutKeyboardIconProps = Omit<
+type DatePickerViewsWithoutKeyboardIconAndHelperTextProps = Omit<
   DatePickerViewsProps,
-  'keyboardIcon'
+  'keyboardIcon' | 'helperText'
 >;
 
-export type IKeyboardDatePickerViewsProps = DatePickerViewsWithoutKeyboardIconProps & {
-  state: any,
-  theme: any,
-  helpText: any
+export type IKeyboardDatePickerViewsProps = DatePickerViewsWithoutKeyboardIconAndHelperTextProps &
+  IInputStateHelpTextProviderProps;
+
+type KeyboardDatePickerViewsPropsWithoutTheme = Omit<
+  IKeyboardDatePickerViewsProps,
+  'theme'
+>;
+
+const getStateStyleFromTheme = (props: IKeyboardDatePickerViewsProps) => {
+  const { state, theme, disabled } = props;
+  if (!disabled && theme && theme.palette) {
+    if (state === 'error' && theme.palette.error) {
+      return { style: { boxShadow: `${theme.palette.error.main} 0 0 0 2px` } };
+    }
+    if (state === 'success' && theme.palette.success) {
+      return {
+        style: { boxShadow: `${theme.palette.success.main} 0 0 0 1px` },
+      };
+    }
+  }
+  return {};
 };
 
-export const KeyboardDatePicker: FunctionComponent<IKeyboardDatePickerViewsProps> = forwardRef(
+export const KeyboardDatePicker: FunctionComponent<KeyboardDatePickerViewsPropsWithoutTheme> = forwardRef(
   (props: IKeyboardDatePickerViewsProps, ref: any) => {
+    const customStyle = getStateStyleFromTheme(props);
 
     const {
       label,
-      required,
-      state,
-      theme,
-      disabled,
       helpText,
-      className
+      state,
+      children,
+      ...keyboardDatePickerProps
     } = props;
 
-    const content = label && required ? `${label} *` : label;
-    const IconState = stateIcons[String(state)];
-    const stateIcon = IconState && <IconState theme={theme} />;
-
-    const styleError = !disabled && state === 'error' && { style: { boxShadow: `${theme.palette.error.main} 0 0 0 1px` } };
-    const styleSuccess = !disabled && state === 'success' && { style: { boxShadow: `${theme.palette.success.main} 0 0 0 1px` } };
-    const customStyle = styleError || styleSuccess || {};
-
     return (
-      <Container theme={theme} className={className}>
-      <MaterialKeyboardDatePicker
-        {...props}
-        required={false}
-        label={<Label
-          theme={theme}
-          state={state}
-          disabled={disabled}>
-          {content}
-        </Label>}
-        keyboardIcon={<Icon name="outlined-action-calendar" size="tiny" />}
-        ref={ref}
-        helperText={
-          helpText && (
-            <HelpText
-              theme={theme}
-              state={state}
-              disabled={disabled}
-            >
-              {stateIcon}
-              {helpText}
-            </HelpText>
-          )
-        }
-        inputProps={customStyle}
-      />
-      </Container>
+      <InputStateHelpTextProvider {...props}>
+        <MaterialKeyboardDatePicker
+          {...keyboardDatePickerProps}
+          required={false}
+          keyboardIcon={<Icon name="outlined-action-calendar" size="tiny" />}
+          ref={ref}
+          inputProps={customStyle}
+          label=""
+          helperText=""
+        />
+      </InputStateHelpTextProvider>
     );
   }
 );
 
 export default withTheme(KeyboardDatePicker);
-
-const Container = styled.div`
-  display: flex;
-  flex-flow: column nowrap;
-  font-family: ${getProp('typography', 'fontFamily')};
-`;
-
-const Label = styled.label`
-  font-size: ${getProp('typography', 'subtitle2', 'fontSize')};
-  font-weight: ${getProp('typography', 'subtitle2', 'fontWeight')};
-  color: ${getColorByState(stateStyles.hover)};
-  line-height: 1.2;
-  padding: 0 0 ${tokens.spacing.spacingMicro}px;
-  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')}
-`;
-
-const HelpText = styled.span`
-  font-size: ${getProp('typography', 'caption', 'fontSize')};
-  font-weight: ${getProp('typography', 'caption', 'fontWeight')};
-  color: ${getColorByState(stateStyles.hover)};
-  line-height: 1.2;
-  padding: ${tokens.spacing.spacingMicro}px 0 0;
-  display: flex;
-  align-items: center;
-  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')};
-`;
-
-const baseIcon = `
-  width: 16px!important;
-  height: 16px!important;
-  margin-right: 4px;
-`;
-
-const IconError = styled(ErrorIcon)`${baseIcon}`;
-
-const IconSuccess = styled(SuccessIcon)`${baseIcon}`;
-
-const stateIcons = {
-  'error': IconError,
-  'success': IconSuccess,
-};

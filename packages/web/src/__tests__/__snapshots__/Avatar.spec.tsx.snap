@@ -219,6 +219,12 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -247,6 +253,9 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -722,6 +731,12 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -750,6 +765,9 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -1225,6 +1243,12 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -1253,6 +1277,9 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -1729,6 +1756,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -1757,6 +1790,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -2233,6 +2269,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -2261,6 +2303,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -2737,6 +2782,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -2765,6 +2816,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -3241,6 +3295,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -3269,6 +3329,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
@@ -3745,6 +3808,12 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
             "&:focus": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
             },
@@ -3773,6 +3842,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             "padding": "16px 35px 16px 16px",
           },
           "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
             "&.MuiInput-underline:after": Object {
               "borderBottom": "none",
             },
