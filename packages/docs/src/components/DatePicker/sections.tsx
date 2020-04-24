@@ -81,7 +81,7 @@ export const types = [
 
 export const states = [
   {
-    title: 'Standard',
+    title: 'Empty',
     component: (
       <DatePickerWrapper value={null} placeholder="Pick a date" clearable />
     ),

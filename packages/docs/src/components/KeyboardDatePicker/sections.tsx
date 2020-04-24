@@ -84,7 +84,7 @@ export const types = [
 
 export const states = [
   {
-    title: 'Standard',
+    title: 'Empty',
     component: (
       <KeyboardDatePickerWrapper
         value={null}
