@@ -221,6 +221,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -249,6 +255,9 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -704,6 +713,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -732,6 +747,9 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 deta
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -1194,6 +1212,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -1222,6 +1246,9 @@ exports[`Intro component should match snapshot - Any valid Intro with body1 titl
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -1684,6 +1711,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -1712,6 +1745,9 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -2167,6 +2203,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -2195,6 +2237,9 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 deta
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -2657,6 +2702,12 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -2685,6 +2736,9 @@ exports[`Intro component should match snapshot - Any valid Intro with body2 titl
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -3147,6 +3201,12 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -3175,6 +3235,9 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -3630,6 +3693,12 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -3658,6 +3727,9 @@ exports[`Intro component should match snapshot - Any valid Intro with button det
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -4120,6 +4192,12 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -4148,6 +4226,9 @@ exports[`Intro component should match snapshot - Any valid Intro with button tit
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -4610,6 +4691,12 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -4638,6 +4725,9 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -5093,6 +5183,12 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -5121,6 +5217,9 @@ exports[`Intro component should match snapshot - Any valid Intro with caption de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -5583,6 +5682,12 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -5611,6 +5716,9 @@ exports[`Intro component should match snapshot - Any valid Intro with caption ti
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -6073,6 +6181,12 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -6101,6 +6215,9 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -6556,6 +6673,12 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -6584,6 +6707,9 @@ exports[`Intro component should match snapshot - Any valid Intro with error deta
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -7046,6 +7172,12 @@ exports[`Intro component should match snapshot - Any valid Intro with error titl
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -7074,6 +7206,9 @@ exports[`Intro component should match snapshot - Any valid Intro with error titl
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -7536,6 +7671,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -7564,6 +7705,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -8019,6 +8163,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -8047,6 +8197,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -8509,6 +8662,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -8537,6 +8696,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h1 titleVa
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -8999,6 +9161,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -9027,6 +9195,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -9482,6 +9653,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -9510,6 +9687,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -9972,6 +10152,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -10000,6 +10186,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h2 titleVa
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -10462,6 +10651,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -10490,6 +10685,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -10945,6 +11143,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -10973,6 +11177,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -11435,6 +11642,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -11463,6 +11676,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h3 titleVa
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -11925,6 +12141,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -11953,6 +12175,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -12408,6 +12633,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -12436,6 +12667,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -12898,6 +13132,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -12926,6 +13166,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h4 titleVa
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -13388,6 +13631,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -13416,6 +13665,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -13871,6 +14123,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -13899,6 +14157,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -14361,6 +14622,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -14389,6 +14656,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h5 titleVa
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -14851,6 +15121,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -14879,6 +15155,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -15334,6 +15613,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -15362,6 +15647,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 detailV
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -15824,6 +16112,12 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -15852,6 +16146,9 @@ exports[`Intro component should match snapshot - Any valid Intro with h6 titleVa
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -16314,6 +16611,12 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -16342,6 +16645,9 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -16797,6 +17103,12 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -16825,6 +17137,9 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -17287,6 +17602,12 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -17315,6 +17636,9 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -17770,6 +18094,12 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -17798,6 +18128,9 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -18260,6 +18593,12 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -18288,6 +18627,9 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -18750,6 +19092,12 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -18778,6 +19126,9 @@ exports[`Intro component should match snapshot - Any valid Intro with inherit ti
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -19240,6 +19591,12 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -19268,6 +19625,9 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -19723,6 +20083,12 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -19751,6 +20117,9 @@ exports[`Intro component should match snapshot - Any valid Intro with initial de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -20213,6 +20582,12 @@ exports[`Intro component should match snapshot - Any valid Intro with initial ti
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -20241,6 +20616,9 @@ exports[`Intro component should match snapshot - Any valid Intro with initial ti
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -20703,6 +21081,12 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -20731,6 +21115,9 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -21186,6 +21573,12 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -21214,6 +21607,9 @@ exports[`Intro component should match snapshot - Any valid Intro with overline d
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -21676,6 +22072,12 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -21704,6 +22106,9 @@ exports[`Intro component should match snapshot - Any valid Intro with overline t
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -22166,6 +22571,12 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -22194,6 +22605,9 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -22649,6 +23063,12 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -22677,6 +23097,9 @@ exports[`Intro component should match snapshot - Any valid Intro with primary de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -23139,6 +23562,12 @@ exports[`Intro component should match snapshot - Any valid Intro with primary ti
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -23167,6 +23596,9 @@ exports[`Intro component should match snapshot - Any valid Intro with primary ti
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -23629,6 +24061,12 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -23657,6 +24095,9 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -24112,6 +24553,12 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -24140,6 +24587,9 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -24602,6 +25052,12 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -24630,6 +25086,9 @@ exports[`Intro component should match snapshot - Any valid Intro with secondary 
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -25092,6 +25551,12 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -25120,6 +25585,9 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -25575,6 +26043,12 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -25603,6 +26077,9 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly det
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -26065,6 +26542,12 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -26093,6 +26576,9 @@ exports[`Intro component should match snapshot - Any valid Intro with srOnly tit
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -26555,6 +27041,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -26583,6 +27075,9 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -27038,6 +27533,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -27066,6 +27567,9 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -27528,6 +28032,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -27556,6 +28066,9 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle1 
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -28018,6 +28531,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -28046,6 +28565,9 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -28501,6 +29023,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -28529,6 +29057,9 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -28991,6 +29522,12 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -29019,6 +29556,9 @@ exports[`Intro component should match snapshot - Any valid Intro with subtitle2 
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -29481,6 +30021,12 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -29509,6 +30055,9 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -29964,6 +30513,12 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -29992,6 +30547,9 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -30454,6 +31012,12 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -30482,6 +31046,9 @@ exports[`Intro component should match snapshot - Any valid Intro with textPrimar
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -30944,6 +31511,12 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -30972,6 +31545,9 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -31427,6 +32003,12 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -31455,6 +32037,9 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -31917,6 +32502,12 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -31945,6 +32536,9 @@ exports[`Intro component should match snapshot - Any valid Intro with textSecond
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -32407,6 +33001,12 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -32435,6 +33035,9 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -32890,6 +33493,12 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -32918,6 +33527,9 @@ exports[`Intro component should match snapshot - Intro with title and detail: In
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -33380,6 +33992,12 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -33408,6 +34026,9 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },
@@ -33874,6 +34495,12 @@ exports[`Intro component should match snapshot - Intro with title and without de
           },
           "MuiInputBase": Object {
             "input": Object {
+              "&.Mui-disabled": Object {
+                "&:hover": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "opacity": 0.24,
+              },
               "&:focus": Object {
                 "boxShadow": "#F4AB34 0 0 0 2px",
               },
@@ -33902,6 +34529,9 @@ exports[`Intro component should match snapshot - Intro with title and without de
               "padding": "16px 35px 16px 16px",
             },
             "root": Object {
+              "&.MuiInput-underline.Mui-disabled:before": Object {
+                "borderBottom": "none",
+              },
               "&.MuiInput-underline:after": Object {
                 "borderBottom": "none",
               },

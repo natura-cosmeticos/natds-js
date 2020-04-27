@@ -13,7 +13,6 @@ import { makeStyles } from '@material-ui/core/styles';
 import {
   KeyboardDatePicker,
   PickersUtilProvider,
-  TextField,
 } from '@naturacosmeticos/natds-web';
 
 import KeyboardDatePickerDocs from './KeyboardDatePicker.docs.mdx';
@@ -58,6 +57,12 @@ const openTos: any = {
   month: 'month',
 };
 
+const states: any = {
+  success: 'success',
+  error: 'error',
+  default: undefined,
+};
+
 export const Interactive = () => {
   const [selectedDate, setSelectedDate] = React.useState<Date | null>(
     new Date()
@@ -77,6 +82,7 @@ export const Interactive = () => {
         <KeyboardDatePicker
           allowKeyboardControl
           placeholder="10/10/2018"
+          helpText={text('helperText', 'Assistive text')}
           value={selectedDate}
           label="Only calendar"
           variant={select('Variant', variants, variants.dialog)}
@@ -96,6 +102,8 @@ export const Interactive = () => {
           views={options('Views Check', valuesInlineCheck, ['year'], {
             display: 'inline-check',
           })}
+          required={boolean('required', false)}
+          state={select('state', states, states.default)}
         />
       </PickersUtilProvider>
     </div>

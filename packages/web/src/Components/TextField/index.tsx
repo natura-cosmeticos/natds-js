@@ -1,94 +1,23 @@
 import React, { FunctionComponent, forwardRef } from 'react';
-import styled from 'styled-components';
-import { tokens } from '@naturacosmeticos/natds-styles';
 import { withTheme } from '@material-ui/styles';
-import ErrorIcon from '@material-ui/icons/HighlightOffOutlined';
-import SuccessIcon from '@material-ui/icons/CheckCircleOutline';
 
-import { ITextFieldProps, getProp, getColorByState, stateStyles } from './shared';
+import { ITextFieldProps as TextFieldProps } from './shared';
 
 import Field from './Field';
+import InputStateHelpTextProvider, { IInputStateHelpTextProviderProps } from '../InputStateHelpTextProvider';
 
-export const TextField: FunctionComponent<ITextFieldProps> = forwardRef((
-  props: ITextFieldProps,
-  ref: any
-) => {
-  const {
-    id,
-    label,
-    helpText,
-    theme,
-    required = false,
-    disabled = false,
-    state,
-    className
-  } = props;
+export type ITextFieldProps = TextFieldProps & IInputStateHelpTextProviderProps;
 
-  const content = label && required ? `${label} *` : label;
-  const IconState = stateIcons[String(state)];
-  const stateIcon = IconState && <IconState theme={theme} />;
+type ITextFieldPropsWithoutTheme = Omit<ITextFieldProps, 'theme'>;
 
-  return (
-    <Container theme={theme} className={className}>
-      {content && <Label
-        theme={theme}
-        htmlFor={id}
-        state={state}
-        disabled={disabled}>
-        {content}
-      </Label>}
-      <Field {...props} ref={ref} />
-      {helpText && <HelpText
-        theme={theme}
-        state={state}
-        disabled={disabled}>
-        {stateIcon}
-        {helpText}
-      </HelpText>}
-    </Container>
-  );
-});
+export const TextField: FunctionComponent<ITextFieldPropsWithoutTheme> = forwardRef(
+  (props: ITextFieldProps, ref: any) => {
+    return (
+      <InputStateHelpTextProvider {...props}>
+        <Field {...props} ref={ref} />
+      </InputStateHelpTextProvider>
+    );
+  }
+);
 
 export default withTheme(TextField);
-export { ITextFieldProps } from './shared';
-
-const Container = styled.div`
-  display: flex;
-  flex-flow: column nowrap;
-  font-family: ${getProp('typography', 'fontFamily')};
-`;
-
-const Label = styled.label`
-  font-size: ${getProp('typography', 'subtitle2', 'fontSize')};
-  font-weight: ${getProp('typography', 'subtitle2', 'fontWeight')};
-  color: ${getColorByState(stateStyles.hover)};
-  line-height: 1.2;
-  padding: 0 0 ${tokens.spacing.spacingMicro}px;
-  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')}
-`;
-
-const HelpText = styled.span`
-  font-size: ${getProp('typography', 'caption', 'fontSize')};
-  font-weight: ${getProp('typography', 'caption', 'fontWeight')};
-  color: ${getColorByState(stateStyles.hover)};
-  line-height: 1.2;
-  padding: ${tokens.spacing.spacingMicro}px 0 0;
-  display: flex;
-  align-items: center;
-  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')}
-`;
-
-const baseIcon = `
-  width: 16px!important;
-  height: 16px!important;
-  margin-right: 4px;
-`;
-
-const IconError = styled(ErrorIcon)`${baseIcon}`;
-
-const IconSuccess = styled(SuccessIcon)`${baseIcon}`;
-
-const stateIcons = {
-  'error': IconError,
-  'success': IconSuccess,
-};

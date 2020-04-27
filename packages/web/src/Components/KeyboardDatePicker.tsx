@@ -5,20 +5,65 @@ import {
   KeyboardDatePicker as MaterialKeyboardDatePicker,
   KeyboardDatePickerProps as DatePickerViewsProps,
 } from '@material-ui/pickers/DatePicker';
+import InputStateHelpTextProvider, { IInputStateHelpTextProviderProps } from './InputStateHelpTextProvider';
 
-export { DatePickerViewsProps as IKeyboardDatePickerViewsProps } from '@material-ui/pickers/DatePicker';
-
-export const KeyboardDatePicker: FunctionComponent<Omit<
+type DatePickerViewsWithoutKeyboardIconAndHelperTextProps = Omit<
   DatePickerViewsProps,
-  'keyboardIcon'
->> = forwardRef(
-  (props: Omit<DatePickerViewsProps, 'keyboardIcon'>, ref: any) => {
+  'keyboardIcon' | 'helperText'
+>;
+
+export type IKeyboardDatePickerViewsProps = DatePickerViewsWithoutKeyboardIconAndHelperTextProps &
+  IInputStateHelpTextProviderProps;
+
+type KeyboardDatePickerViewsPropsWithoutTheme = Omit<
+  IKeyboardDatePickerViewsProps,
+  'theme'
+>;
+
+const getStateStyleFromTheme = (props: IKeyboardDatePickerViewsProps) => {
+  const { state, theme, disabled } = props;
+  if (!disabled && theme && theme.palette) {
+    if (state === 'error' && theme.palette.error) {
+      return { style: { boxShadow: `${theme.palette.error.main} 0 0 0 2px` } };
+    }
+    if (state === 'success' && theme.palette.success) {
+      return {
+        style: { boxShadow: `${theme.palette.success.main} 0 0 0 1px` },
+      };
+    }
+  }
+  return {};
+};
+
+export const KeyboardDatePicker: FunctionComponent<KeyboardDatePickerViewsPropsWithoutTheme> = forwardRef(
+  (props: IKeyboardDatePickerViewsProps, ref: any) => {
+    const customStyle = getStateStyleFromTheme(props);
+
+    const {
+      label,
+      helpText,
+      state,
+      children,
+      ...keyboardDatePickerProps
+    } = props;
+
+    const keyboardDatePickerComponent = <MaterialKeyboardDatePicker
+      {...keyboardDatePickerProps}
+      required={false}
+      keyboardIcon={<Icon name="outlined-action-calendar" size="tiny" />}
+      ref={ref}
+      inputProps={customStyle}
+      label=""
+      helperText=""
+    />;
+
+    if (props.variant === 'static') {
+      return keyboardDatePickerComponent;
+    }
     return (
-      <MaterialKeyboardDatePicker
-        {...props}
-        keyboardIcon={<Icon name="outlined-action-calendar" size="tiny" />}
-        ref={ref}
-      />
+      <InputStateHelpTextProvider {...props}>
+        {keyboardDatePickerComponent}
+      </InputStateHelpTextProvider>
     );
   }
 );

@@ -16,28 +16,27 @@ interface IKeyboardDatePickerViewsProps {
   animateYearScrolling?: boolean;
   autoOk?: boolean;
   disabled?: boolean;
+  required?: boolean;
   clearable?: boolean;
   views?: ['year' | 'date' | 'month'];
+  value?: Date | string | null;
+  state?: 'error' | 'success';
+  placeholder?: string;
+  helpText?: string;
+  okLabel?: string;
+  cancelLabel?: string;
+  clearLabel?: string;
 }
 
-const KeyboardDatePickerWrapper = (props: IKeyboardDatePickerViewsProps) => {
-  const {
-    variant,
-    disableToolbar,
-    format,
-    openTo,
-    disableFuture,
-    disablePast,
-    clearable,
-    autoOk,
-    views,
-  } = props;
-
-  const [selectedDate, setSelectedDate] = React.useState<Date | null>(
-    new Date()
+const KeyboardDatePickerWrapper = ({
+  value = new Date(),
+  ...props
+}: IKeyboardDatePickerViewsProps) => {
+  const [selectedDate, setSelectedDate] = React.useState<Date | string | null>(
+    value
   );
 
-  const useStyles = makeStyles(theme => ({
+  const useStyles = makeStyles(() => ({
     wrapper: {
       display: 'flex',
     },
@@ -49,17 +48,12 @@ const KeyboardDatePickerWrapper = (props: IKeyboardDatePickerViewsProps) => {
     <div className={classes.wrapper}>
       <PickersUtilProvider utils={DateFnsUtils}>
         <KeyboardDatePicker
+          label="Label"
+          helpText="Assistive text"
+          format="dd/MM/yyyy"
           value={selectedDate}
           onChange={setSelectedDate}
-          variant={variant}
-          disableToolbar={disableToolbar}
-          format={format}
-          openTo={openTo}
-          disableFuture={disableFuture}
-          disablePast={disablePast}
-          clearable={clearable}
-          autoOk={autoOk}
-          views={views}
+          {...props}
         />
       </PickersUtilProvider>
     </div>
@@ -68,53 +62,113 @@ const KeyboardDatePickerWrapper = (props: IKeyboardDatePickerViewsProps) => {
 
 export const variants = [
   {
-    title: 'Date Format',
-    component: (
-      <KeyboardDatePickerWrapper variant="dialog" format="dd/MM/yyyy" />
-    ),
+    title: 'Dialog',
+    component: <KeyboardDatePickerWrapper variant="dialog" />,
   },
   {
-    title: 'Variant - Static',
+    title: 'Inline',
+    component: <KeyboardDatePickerWrapper variant="inline" autoOk />,
+  },
+  {
+    title: 'Static',
     component: <KeyboardDatePickerWrapper variant="static" />,
   },
+];
+
+export const types = [
   {
-    title: 'Disable Toolbar',
-    component: (
-      <KeyboardDatePickerWrapper variant="static" disableToolbar={true} />
-    ),
+    title: 'Outlined',
+    component: <KeyboardDatePickerWrapper />,
   },
+];
+
+export const states = [
   {
-    title: 'Auto OK',
-    component: <KeyboardDatePickerWrapper variant="static" autoOk={true} />,
-  },
-  {
-    title: 'Open To',
-    component: <KeyboardDatePickerWrapper variant="static" openTo="year" />,
-  },
-  {
-    title: 'Disable Future',
-    component: (
-      <KeyboardDatePickerWrapper variant="static" disableFuture={true} />
-    ),
-  },
-  {
-    title: 'Disable Past',
-    component: (
-      <KeyboardDatePickerWrapper variant="static" disablePast={true} />
-    ),
-  },
-  {
-    title: 'Button Clear',
+    title: 'Empty',
     component: (
       <KeyboardDatePickerWrapper
-        variant="dialog"
-        format="dd/MM/yyyy"
-        clearable={true}
+        value={null}
+        placeholder="Pick a date"
+        clearable
       />
     ),
   },
   {
-    title: 'Views',
-    component: <KeyboardDatePickerWrapper variant="static" views={['year']} />,
+    title: 'Filled',
+    component: <KeyboardDatePickerWrapper />,
+  },
+  {
+    title: 'Success',
+    component: <KeyboardDatePickerWrapper state="success" />,
+  },
+  {
+    title: 'Error',
+    component: <KeyboardDatePickerWrapper state="error" />,
+  },
+];
+
+export const attributes = [
+  {
+    title: 'Auto OK',
+    component: <KeyboardDatePickerWrapper autoOk />,
+  },
+  {
+    title: 'Button Clear',
+    component: (
+      <KeyboardDatePickerWrapper placeholder="Pick a date" clearable />
+    ),
+  },
+  {
+    title: 'Format - MM/yy',
+    component: <KeyboardDatePickerWrapper format="MM/yy" />,
+  },
+  {
+    title: 'Help Text - Not used',
+    component: <KeyboardDatePickerWrapper helpText="" />,
+  },
+  {
+    title: 'Disabled',
+    component: <KeyboardDatePickerWrapper disabled />,
+  },
+  {
+    title: 'Required',
+    component: <KeyboardDatePickerWrapper required />,
+  },
+  {
+    title: 'Custom Dialog Buttons Label',
+    component: (
+      <KeyboardDatePickerWrapper
+        okLabel="Ok Label"
+        cancelLabel="Cancel Label"
+        clearLabel="Clear Label"
+        clearable
+      />
+    ),
+  },
+  {
+    title: 'Disable Toolbar',
+    component: <KeyboardDatePickerWrapper variant="static" disableToolbar />,
+  },
+  {
+    title: 'Disable Future',
+    component: <KeyboardDatePickerWrapper variant="static" disableFuture />,
+  },
+  {
+    title: 'Disable Past',
+    component: <KeyboardDatePickerWrapper variant="static" disablePast />,
+  },
+  {
+    title: 'Open To - Year',
+    component: <KeyboardDatePickerWrapper variant="static" openTo="year" />,
+  },
+  {
+    title: 'Views - Month',
+    component: <KeyboardDatePickerWrapper variant="static" views={['month']} />,
+  },
+  {
+    title: 'Animate Year Scrolling',
+    component: (
+      <KeyboardDatePickerWrapper variant="static" openTo="year" views={['year']} animateYearScrolling />
+    ),
   },
 ];
