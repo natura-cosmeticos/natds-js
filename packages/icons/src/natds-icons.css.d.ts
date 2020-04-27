@@ -33,9 +33,11 @@ declare const styles: {
   readonly "natds-icons-filled-navigation-menu": string;
   readonly "natds-icons-filled-navigation-more": string;
   readonly "natds-icons-outlined-action-add": string;
+  readonly "natds-icons-outlined-action-addproduct": string;
   readonly "natds-icons-outlined-action-attachment": string;
   readonly "natds-icons-outlined-action-autofilter": string;
   readonly "natds-icons-outlined-action-calendar": string;
+  readonly "natds-icons-outlined-action-camerachange": string;
   readonly "natds-icons-outlined-action-cancel": string;
   readonly "natds-icons-outlined-action-change": string;
   readonly "natds-icons-outlined-action-check": string;
@@ -72,6 +74,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-settings": string;
   readonly "natds-icons-outlined-action-share": string;
   readonly "natds-icons-outlined-action-subtract": string;
+  readonly "natds-icons-outlined-action-text": string;
   readonly "natds-icons-outlined-action-update": string;
   readonly "natds-icons-outlined-action-upload": string;
   readonly "natds-icons-outlined-action-visibility": string;
