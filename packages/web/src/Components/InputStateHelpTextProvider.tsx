@@ -17,6 +17,7 @@ export interface IInputStateHelpTextProviderProps {
   state: 'error' | 'success' | undefined;
   className?: string;
   children?: any;
+  readOnly?: boolean;
 }
 
 export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextProviderProps> = (
@@ -32,6 +33,7 @@ export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextPr
     state,
     className,
     children,
+    readOnly = false,
   } = props;
 
   const content = label && required ? `${label} *` : label;
@@ -46,7 +48,7 @@ export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextPr
         </Label>
       )}
       {children}
-      {helpText && (
+      {!readOnly && helpText && (
         <HelpText theme={theme} state={state} disabled={disabled}>
           {stateIcon}
           {helpText}

@@ -119,4 +119,19 @@ describe('KeyboardDatePicker components', () => {
       'KeyboardDatePicker static variant snapshot'
     );
   });
+
+  test('should match to snapshot - Read Only variant', () => {
+    const component = mount(
+      <Component
+        onChange={() => null}
+        value={date}
+        state={undefined}
+        helpText="Help me"
+        readOnly
+      />
+    );
+    expect(component).matchSnapshot(
+      'KeyboardDatePicker read only snapshot'
+    );
+  });
 });

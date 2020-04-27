@@ -4,7 +4,6 @@ import {
   PickersUtilProvider,
 } from '@naturacosmeticos/natds-web';
 import DateFnsUtils from '@date-io/date-fns';
-import { makeStyles } from '@material-ui/core/styles';
 
 interface IKeyboardDatePickerViewsProps {
   variant?: string;
@@ -36,42 +35,28 @@ const KeyboardDatePickerWrapper = ({
     value
   );
 
-  const useStyles = makeStyles(() => ({
-    wrapper: {
-      display: 'flex',
-    },
-  }));
-
-  const classes = useStyles();
-
   return (
-    <div className={classes.wrapper}>
-      <PickersUtilProvider utils={DateFnsUtils}>
-        <KeyboardDatePicker
-          label="Label"
-          helpText="Assistive text"
-          format="dd/MM/yyyy"
-          value={selectedDate}
-          onChange={setSelectedDate}
-          {...props}
-        />
-      </PickersUtilProvider>
-    </div>
+    <PickersUtilProvider utils={DateFnsUtils}>
+      <KeyboardDatePicker
+        label="Label"
+        helpText="Assistive text"
+        format="dd/MM/yyyy"
+        value={selectedDate}
+        onChange={setSelectedDate}
+        {...props}
+      />
+    </PickersUtilProvider>
   );
 };
 
 export const variants = [
   {
-    title: 'Dialog',
+    title: 'Dialog (Mobile)',
     component: <KeyboardDatePickerWrapper variant="dialog" />,
   },
   {
-    title: 'Inline',
+    title: 'Inline (Desktop)',
     component: <KeyboardDatePickerWrapper variant="inline" autoOk />,
-  },
-  {
-    title: 'Static',
-    component: <KeyboardDatePickerWrapper variant="static" />,
   },
 ];
 
@@ -168,7 +153,12 @@ export const attributes = [
   {
     title: 'Animate Year Scrolling',
     component: (
-      <KeyboardDatePickerWrapper variant="static" openTo="year" views={['year']} animateYearScrolling />
+      <KeyboardDatePickerWrapper
+        variant="static"
+        openTo="year"
+        views={['year']}
+        animateYearScrolling
+      />
     ),
   },
 ];
