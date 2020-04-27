@@ -5,7 +5,6 @@ import {
   PickersUtilProvider,
 } from '@naturacosmeticos/natds-web';
 import DateFnsUtils from '@date-io/date-fns';
-import { makeStyles } from '@material-ui/core/styles';
 
 interface IDatePickerViewsProps {
   variant?: string;
@@ -28,47 +27,34 @@ interface IDatePickerViewsProps {
 
 const DatePickerWrapper = ({ value = '', ...props }: IDatePickerViewsProps) => {
   const [date, setDate] = React.useState(value);
-  const useStyles = makeStyles(theme => ({
-    wrapper: {
-      display: 'flex',
-    },
-  }));
-
-  const classes = useStyles();
 
   const textField = (textFieldProps: any) => (
     <TextField {...textFieldProps} id="random-prop-id" type="text" />
   );
 
   return (
-    <div className={classes.wrapper}>
-      <PickersUtilProvider utils={DateFnsUtils}>
-        <DatePicker
-          label="Label"
-          helpText="Assistive text"
-          format="dd/MM/yyyy"
-          TextFieldComponent={textField}
-          value={date}
-          onChange={setDate}
-          {...props}
-        />
-      </PickersUtilProvider>
-    </div>
+    <PickersUtilProvider utils={DateFnsUtils}>
+      <DatePicker
+        label="Label"
+        helpText="Assistive text"
+        format="dd/MM/yyyy"
+        TextFieldComponent={textField}
+        value={date}
+        onChange={setDate}
+        {...props}
+      />
+    </PickersUtilProvider>
   );
 };
 
 export const variants = [
   {
-    title: 'Dialog',
+    title: 'Dialog (Mobile)',
     component: <DatePickerWrapper variant="dialog" />,
   },
   {
-    title: 'Inline',
+    title: 'Inline (Desktop)',
     component: <DatePickerWrapper variant="inline" autoOk />,
-  },
-  {
-    title: 'Static',
-    component: <DatePickerWrapper variant="static" />,
   },
 ];
 

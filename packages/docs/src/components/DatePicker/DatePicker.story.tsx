@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 import {
@@ -54,6 +54,11 @@ const openTos: any = {
   month: 'month',
 };
 
+const orientation: any = {
+  portrait: 'portrait',
+  landscape: 'landscape',
+};
+
 export const Interactive = () => {
   const [selectedDate, setSelectedDate] = React.useState<Date | null>(
     new Date()
@@ -90,6 +95,74 @@ export const Interactive = () => {
           cancelLabel={text('Cancel Label', 'Cancel')}
           clearLabel={text('Clear Label', 'Clear')}
           okLabel={text('OK Label', 'OK')}
+        />
+      </PickersUtilProvider>
+    </div>
+  );
+};
+
+export const Desktop = () => {
+  const [selectedDate, setSelectedDate] = React.useState<Date | null>(
+    new Date()
+  );
+
+  const useStyles = makeStyles(theme => ({
+    wrapper: {
+      display: 'flex',
+    },
+  }));
+
+  const classes = useStyles();
+
+  return (
+    <div className={classes.wrapper}>
+      <PickersUtilProvider utils={DateFnsUtils}>
+        <DatePicker
+          label="Only calendar"
+          placeholder="10/10/2018"
+          helpText="Assistive text"
+          format="dd/MM/yyyy"
+          value={selectedDate}
+          onChange={setSelectedDate}
+          variant={variants.inline}
+          orientation={select('Orientation', orientation, orientation.portrait)}
+          autoOk={boolean('Auto Ok', true)}
+          required={boolean('required', false)}
+          disabled={boolean('Disabled', false)}
+        />
+      </PickersUtilProvider>
+    </div>
+  );
+};
+
+export const Mobile = () => {
+  const [selectedDate, setSelectedDate] = React.useState<Date | null>(
+    new Date()
+  );
+
+  const useStyles = makeStyles(theme => ({
+    wrapper: {
+      display: 'flex',
+    },
+  }));
+
+  const classes = useStyles();
+
+  return (
+    <div className={classes.wrapper}>
+      <PickersUtilProvider utils={DateFnsUtils}>
+        <DatePicker
+          label="Only calendar"
+          placeholder="10/10/2018"
+          helpText="Assistive text"
+          format="dd/MM/yyyy"
+          value={selectedDate}
+          onChange={setSelectedDate}
+          variant={variants.dialog}
+          orientation={select('Orientation', orientation, orientation.portrait)}
+          autoOk={boolean('Auto Ok', true)}
+          required={boolean('required', false)}
+          disabled={boolean('Disabled', false)}
         />
       </PickersUtilProvider>
     </div>
