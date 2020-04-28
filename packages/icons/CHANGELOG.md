@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.4.5](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.4.4...@naturacosmeticos/natds-icons@0.4.5) (2020-04-28)
+
+
+### Bug Fixes
+
+* **outlined-action-icons:** included new outlined action icons ([1f482ac](https://github.com/natura-cosmeticos/natds/commit/1f482acea721b95d033aa17a4ca9a7bc1c61104e))
+
+
+
+
+
 ## [0.4.4](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.4.3...@naturacosmeticos/natds-icons@0.4.4) (2020-04-23)
 
 
