@@ -211,6 +211,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
           },
         },
         "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
           "root": Object {
             "position": "absolute",
             "right": "0",
@@ -706,6 +709,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
               },
             },
             "MuiInputAdornment": Object {
+              "positionEnd": Object {
+                "marginRight": 8,
+              },
               "root": Object {
                 "position": "absolute",
                 "right": "0",
@@ -1199,6 +1205,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                 },
               },
               "MuiInputAdornment": Object {
+                "positionEnd": Object {
+                  "marginRight": 8,
+                },
                 "root": Object {
                   "position": "absolute",
                   "right": "0",
@@ -1692,6 +1701,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                   },
                 },
                 "MuiInputAdornment": Object {
+                  "positionEnd": Object {
+                    "marginRight": 8,
+                  },
                   "root": Object {
                     "position": "absolute",
                     "right": "0",
@@ -2183,6 +2195,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                     },
                   },
                   "MuiInputAdornment": Object {
+                    "positionEnd": Object {
+                      "marginRight": 8,
+                    },
                     "root": Object {
                       "position": "absolute",
                       "right": "0",
@@ -2701,6 +2716,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                       },
                     },
                     "MuiInputAdornment": Object {
+                      "positionEnd": Object {
+                        "marginRight": 8,
+                      },
                       "root": Object {
                         "position": "absolute",
                         "right": "0",
@@ -3194,6 +3212,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                           },
                         },
                         "MuiInputAdornment": Object {
+                          "positionEnd": Object {
+                            "marginRight": 8,
+                          },
                           "root": Object {
                             "position": "absolute",
                             "right": "0",
@@ -3724,6 +3745,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                             },
                           },
                           "MuiInputAdornment": Object {
+                            "positionEnd": Object {
+                              "marginRight": 8,
+                            },
                             "root": Object {
                               "position": "absolute",
                               "right": "0",
@@ -4014,6 +4038,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                 </styled.label>
                 <PickerWithState
                   allowKeyboardControl={true}
+                  disableToolbar={false}
                   helperText=""
                   inputProps={Object {}}
                   invalidDateMessage="Invalid Date Format"
@@ -4239,6 +4264,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                           },
                         },
                         "MuiInputAdornment": Object {
+                          "positionEnd": Object {
+                            "marginRight": 8,
+                          },
                           "root": Object {
                             "position": "absolute",
                             "right": "0",
@@ -4762,6 +4790,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                             },
                           },
                           "MuiInputAdornment": Object {
+                            "positionEnd": Object {
+                              "marginRight": 8,
+                            },
                             "root": Object {
                               "position": "absolute",
                               "right": "0",
@@ -5283,6 +5314,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                               },
                             },
                             "MuiInputAdornment": Object {
+                              "positionEnd": Object {
+                                "marginRight": 8,
+                              },
                               "root": Object {
                                 "position": "absolute",
                                 "right": "0",
@@ -5787,6 +5821,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                 },
                               },
                               "MuiInputAdornment": Object {
+                                "positionEnd": Object {
+                                  "marginRight": 8,
+                                },
                                 "root": Object {
                                   "position": "absolute",
                                   "right": "0",
@@ -6306,6 +6343,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                     },
                                   },
                                   "MuiInputAdornment": Object {
+                                    "positionEnd": Object {
+                                      "marginRight": 8,
+                                    },
                                     "root": Object {
                                       "position": "absolute",
                                       "right": "0",
@@ -6823,6 +6863,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                       },
                                     },
                                     "MuiInputAdornment": Object {
+                                      "positionEnd": Object {
+                                        "marginRight": 8,
+                                      },
                                       "root": Object {
                                         "position": "absolute",
                                         "right": "0",
@@ -7319,6 +7362,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                         },
                                       },
                                       "MuiInputAdornment": Object {
+                                        "positionEnd": Object {
+                                          "marginRight": 8,
+                                        },
                                         "root": Object {
                                           "position": "absolute",
                                           "right": "0",
@@ -7823,6 +7869,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                           },
                                         },
                                         "MuiInputAdornment": Object {
+                                          "positionEnd": Object {
+                                            "marginRight": 8,
+                                          },
                                           "root": Object {
                                             "position": "absolute",
                                             "right": "0",
@@ -8314,6 +8363,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                             },
                                           },
                                           "MuiInputAdornment": Object {
+                                            "positionEnd": Object {
+                                              "marginRight": 8,
+                                            },
                                             "root": Object {
                                               "position": "absolute",
                                               "right": "0",
@@ -9477,6 +9529,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                 </styled.label>
                 <PickerWithState
                   allowKeyboardControl={true}
+                  disableToolbar={false}
                   disabled={true}
                   helperText=""
                   inputProps={Object {}}
@@ -10537,6 +10590,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                 </styled.label>
                 <PickerWithState
                   allowKeyboardControl={true}
+                  disableToolbar={false}
                   helperText=""
                   inputProps={Object {}}
                   invalidDateMessage="Invalid Date Format"
@@ -11708,6 +11762,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
           },
         },
         "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
           "root": Object {
             "position": "absolute",
             "right": "0",
@@ -12204,6 +12261,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
               },
             },
             "MuiInputAdornment": Object {
+              "positionEnd": Object {
+                "marginRight": 8,
+              },
               "root": Object {
                 "position": "absolute",
                 "right": "0",
@@ -12698,6 +12758,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                 },
               },
               "MuiInputAdornment": Object {
+                "positionEnd": Object {
+                  "marginRight": 8,
+                },
                 "root": Object {
                   "position": "absolute",
                   "right": "0",
@@ -13192,6 +13255,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                   },
                 },
                 "MuiInputAdornment": Object {
+                  "positionEnd": Object {
+                    "marginRight": 8,
+                  },
                   "root": Object {
                     "position": "absolute",
                     "right": "0",
@@ -13683,6 +13749,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                     },
                   },
                   "MuiInputAdornment": Object {
+                    "positionEnd": Object {
+                      "marginRight": 8,
+                    },
                     "root": Object {
                       "position": "absolute",
                       "right": "0",
@@ -14201,6 +14270,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                       },
                     },
                     "MuiInputAdornment": Object {
+                      "positionEnd": Object {
+                        "marginRight": 8,
+                      },
                       "root": Object {
                         "position": "absolute",
                         "right": "0",
@@ -14695,6 +14767,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                           },
                         },
                         "MuiInputAdornment": Object {
+                          "positionEnd": Object {
+                            "marginRight": 8,
+                          },
                           "root": Object {
                             "position": "absolute",
                             "right": "0",
@@ -15226,6 +15301,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                             },
                           },
                           "MuiInputAdornment": Object {
+                            "positionEnd": Object {
+                              "marginRight": 8,
+                            },
                             "root": Object {
                               "position": "absolute",
                               "right": "0",
@@ -15516,6 +15594,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                 </styled.label>
                 <PickerWithState
                   allowKeyboardControl={true}
+                  disableToolbar={false}
                   helperText=""
                   inputProps={
                     Object {
@@ -15747,6 +15826,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                           },
                         },
                         "MuiInputAdornment": Object {
+                          "positionEnd": Object {
+                            "marginRight": 8,
+                          },
                           "root": Object {
                             "position": "absolute",
                             "right": "0",
@@ -16276,6 +16358,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                             },
                           },
                           "MuiInputAdornment": Object {
+                            "positionEnd": Object {
+                              "marginRight": 8,
+                            },
                             "root": Object {
                               "position": "absolute",
                               "right": "0",
@@ -16803,6 +16888,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                               },
                             },
                             "MuiInputAdornment": Object {
+                              "positionEnd": Object {
+                                "marginRight": 8,
+                              },
                               "root": Object {
                                 "position": "absolute",
                                 "right": "0",
@@ -17313,6 +17401,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                 },
                               },
                               "MuiInputAdornment": Object {
+                                "positionEnd": Object {
+                                  "marginRight": 8,
+                                },
                                 "root": Object {
                                   "position": "absolute",
                                   "right": "0",
@@ -17838,6 +17929,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                     },
                                   },
                                   "MuiInputAdornment": Object {
+                                    "positionEnd": Object {
+                                      "marginRight": 8,
+                                    },
                                     "root": Object {
                                       "position": "absolute",
                                       "right": "0",
@@ -18361,6 +18455,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                       },
                                     },
                                     "MuiInputAdornment": Object {
+                                      "positionEnd": Object {
+                                        "marginRight": 8,
+                                      },
                                       "root": Object {
                                         "position": "absolute",
                                         "right": "0",
@@ -18857,6 +18954,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                         },
                                       },
                                       "MuiInputAdornment": Object {
+                                        "positionEnd": Object {
+                                          "marginRight": 8,
+                                        },
                                         "root": Object {
                                           "position": "absolute",
                                           "right": "0",
@@ -19361,6 +19461,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                           },
                                         },
                                         "MuiInputAdornment": Object {
+                                          "positionEnd": Object {
+                                            "marginRight": 8,
+                                          },
                                           "root": Object {
                                             "position": "absolute",
                                             "right": "0",
@@ -19852,6 +19955,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                             },
                                           },
                                           "MuiInputAdornment": Object {
+                                            "positionEnd": Object {
+                                              "marginRight": 8,
+                                            },
                                             "root": Object {
                                               "position": "absolute",
                                               "right": "0",
@@ -21044,6 +21150,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                 </styled.label>
                 <PickerWithState
                   allowKeyboardControl={true}
+                  disableToolbar={false}
                   helperText=""
                   inputProps={Object {}}
                   invalidDateMessage="Invalid Date Format"
@@ -22180,6 +22287,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                 </styled.label>
                 <PickerWithState
                   allowKeyboardControl={true}
+                  disableToolbar={false}
                   helperText=""
                   inputProps={Object {}}
                   invalidDateMessage="Invalid Date Format"
@@ -24368,6 +24476,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                                             ToolbarComponent={[Function]}
                                                             allowKeyboardControl={true}
                                                             date={2019-02-01T00:00:00.000Z}
+                                                            disableToolbar={false}
                                                             invalidDateMessage="Invalid Date Format"
                                                             maxDate={2100-01-01T00:00:00.000Z}
                                                             maxDateMessage="Date should not be after maximal date"
@@ -32585,6 +32694,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                 </styled.label>
                 <PickerWithState
                   allowKeyboardControl={true}
+                  disableToolbar={false}
                   helperText=""
                   inputProps={Object {}}
                   invalidDateMessage="Invalid Date Format"
@@ -33674,6 +33784,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                 </styled.label>
                 <PickerWithState
                   allowKeyboardControl={true}
+                  disableToolbar={false}
                   helperText=""
                   inputProps={Object {}}
                   invalidDateMessage="Invalid Date Format"
@@ -34656,6 +34767,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Static variant
       >
         <PickerWithState
           allowKeyboardControl={true}
+          disableToolbar={false}
           helperText=""
           inputProps={Object {}}
           invalidDateMessage="Invalid Date Format"
@@ -34746,6 +34858,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Static variant
                   ToolbarComponent={[Function]}
                   allowKeyboardControl={true}
                   date={2019-02-01T00:00:00.000Z}
+                  disableToolbar={false}
                   invalidDateMessage="Invalid Date Format"
                   maxDate={2100-01-01T00:00:00.000Z}
                   maxDateMessage="Date should not be after maximal date"
@@ -42753,6 +42866,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
           },
         },
         "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
           "root": Object {
             "position": "absolute",
             "right": "0",
@@ -43249,6 +43365,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
               },
             },
             "MuiInputAdornment": Object {
+              "positionEnd": Object {
+                "marginRight": 8,
+              },
               "root": Object {
                 "position": "absolute",
                 "right": "0",
@@ -43743,6 +43862,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                 },
               },
               "MuiInputAdornment": Object {
+                "positionEnd": Object {
+                  "marginRight": 8,
+                },
                 "root": Object {
                   "position": "absolute",
                   "right": "0",
@@ -44237,6 +44359,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                   },
                 },
                 "MuiInputAdornment": Object {
+                  "positionEnd": Object {
+                    "marginRight": 8,
+                  },
                   "root": Object {
                     "position": "absolute",
                     "right": "0",
@@ -44728,6 +44853,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                     },
                   },
                   "MuiInputAdornment": Object {
+                    "positionEnd": Object {
+                      "marginRight": 8,
+                    },
                     "root": Object {
                       "position": "absolute",
                       "right": "0",
@@ -45246,6 +45374,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                       },
                     },
                     "MuiInputAdornment": Object {
+                      "positionEnd": Object {
+                        "marginRight": 8,
+                      },
                       "root": Object {
                         "position": "absolute",
                         "right": "0",
@@ -45740,6 +45871,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                           },
                         },
                         "MuiInputAdornment": Object {
+                          "positionEnd": Object {
+                            "marginRight": 8,
+                          },
                           "root": Object {
                             "position": "absolute",
                             "right": "0",
@@ -46271,6 +46405,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                             },
                           },
                           "MuiInputAdornment": Object {
+                            "positionEnd": Object {
+                              "marginRight": 8,
+                            },
                             "root": Object {
                               "position": "absolute",
                               "right": "0",
@@ -46561,6 +46698,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                 </styled.label>
                 <PickerWithState
                   allowKeyboardControl={true}
+                  disableToolbar={false}
                   helperText=""
                   inputProps={
                     Object {
@@ -46792,6 +46930,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                           },
                         },
                         "MuiInputAdornment": Object {
+                          "positionEnd": Object {
+                            "marginRight": 8,
+                          },
                           "root": Object {
                             "position": "absolute",
                             "right": "0",
@@ -47321,6 +47462,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                             },
                           },
                           "MuiInputAdornment": Object {
+                            "positionEnd": Object {
+                              "marginRight": 8,
+                            },
                             "root": Object {
                               "position": "absolute",
                               "right": "0",
@@ -47848,6 +47992,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                               },
                             },
                             "MuiInputAdornment": Object {
+                              "positionEnd": Object {
+                                "marginRight": 8,
+                              },
                               "root": Object {
                                 "position": "absolute",
                                 "right": "0",
@@ -48358,6 +48505,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                 },
                               },
                               "MuiInputAdornment": Object {
+                                "positionEnd": Object {
+                                  "marginRight": 8,
+                                },
                                 "root": Object {
                                   "position": "absolute",
                                   "right": "0",
@@ -48883,6 +49033,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                     },
                                   },
                                   "MuiInputAdornment": Object {
+                                    "positionEnd": Object {
+                                      "marginRight": 8,
+                                    },
                                     "root": Object {
                                       "position": "absolute",
                                       "right": "0",
@@ -49406,6 +49559,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                       },
                                     },
                                     "MuiInputAdornment": Object {
+                                      "positionEnd": Object {
+                                        "marginRight": 8,
+                                      },
                                       "root": Object {
                                         "position": "absolute",
                                         "right": "0",
@@ -49902,6 +50058,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                         },
                                       },
                                       "MuiInputAdornment": Object {
+                                        "positionEnd": Object {
+                                          "marginRight": 8,
+                                        },
                                         "root": Object {
                                           "position": "absolute",
                                           "right": "0",
@@ -50406,6 +50565,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                           },
                                         },
                                         "MuiInputAdornment": Object {
+                                          "positionEnd": Object {
+                                            "marginRight": 8,
+                                          },
                                           "root": Object {
                                             "position": "absolute",
                                             "right": "0",
@@ -50897,6 +51059,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                             },
                                           },
                                           "MuiInputAdornment": Object {
+                                            "positionEnd": Object {
+                                              "marginRight": 8,
+                                            },
                                             "root": Object {
                                               "position": "absolute",
                                               "right": "0",

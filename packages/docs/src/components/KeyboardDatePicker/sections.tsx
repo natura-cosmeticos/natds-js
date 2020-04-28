@@ -51,11 +51,11 @@ const KeyboardDatePickerWrapper = ({
 
 export const variants = [
   {
-    title: 'Dialog (Mobile)',
+    title: 'Dialog: Use for mobile web interfaces.',
     component: <KeyboardDatePickerWrapper variant="dialog" />,
   },
   {
-    title: 'Inline (Desktop)',
+    title: 'Inline: Use for desktop web interfaces.',
     component: <KeyboardDatePickerWrapper variant="inline" autoOk />,
   },
 ];
@@ -149,16 +149,5 @@ export const attributes = [
   {
     title: 'Views - Month',
     component: <KeyboardDatePickerWrapper variant="static" views={['month']} />,
-  },
-  {
-    title: 'Animate Year Scrolling',
-    component: (
-      <KeyboardDatePickerWrapper
-        variant="static"
-        openTo="year"
-        views={['year']}
-        animateYearScrolling
-      />
-    ),
   },
 ];

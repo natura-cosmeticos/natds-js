@@ -48,6 +48,7 @@ export const KeyboardDatePicker: FunctionComponent<KeyboardDatePickerViewsPropsW
     } = props;
 
     const keyboardDatePickerComponent = <MaterialKeyboardDatePicker
+      disableToolbar={props.variant === 'inline'}
       {...keyboardDatePickerProps}
       required={false}
       keyboardIcon={<Icon name="outlined-action-calendar" size="tiny" />}

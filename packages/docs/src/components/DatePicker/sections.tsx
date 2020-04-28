@@ -49,11 +49,11 @@ const DatePickerWrapper = ({ value = '', ...props }: IDatePickerViewsProps) => {
 
 export const variants = [
   {
-    title: 'Dialog (Mobile)',
+    title: 'Dialog: Use for mobile web interfaces.',
     component: <DatePickerWrapper variant="dialog" />,
   },
   {
-    title: 'Inline (Desktop)',
+    title: 'Inline: Use for desktop web interfaces.',
     component: <DatePickerWrapper variant="inline" autoOk />,
   },
 ];
