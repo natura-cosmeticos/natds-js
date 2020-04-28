@@ -334,6 +334,9 @@ export const theBodyShopLight: ITheme = {
       root: {
         position: "absolute",
         right: "0"
+      },
+      positionEnd: {
+        marginRight: spacing.spacingTiny
       }
     },
     MuiInputLabel: {

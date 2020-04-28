@@ -93,10 +93,8 @@ export const Interactive = () => {
           variant={select('Variant', variants, variants.dialog)}
           openTo={select('OpenTo', openTos, openTos.date)}
           format={select('Formats', formats, formats['dd/MM/yyyy'])}
-          disableToolbar={boolean('Disabled Toolbar', false)}
           disableFuture={boolean('Disabled Future', false)}
           disablePast={boolean('Disabled Past', false)}
-          animateYearScrolling={boolean('Animate Year Scrolling', false)}
           autoOk={boolean('Auto Ok', false)}
           disabled={boolean('Disabled', false)}
           clearable={boolean('Clearable', false)}
@@ -104,81 +102,16 @@ export const Interactive = () => {
           okLabel={text('Ok Label', 'OK')}
           cancelLabel={text('Cancel Label', 'Cancel')}
           clearLabel={text('Clear Label', 'Clear')}
-          views={options('Views Check', valuesInlineCheck, ['year'], {
-            display: 'inline-check',
-          })}
+          views={options(
+            'Views Check',
+            valuesInlineCheck,
+            [valuesInlineCheck.Date],
+            {
+              display: 'inline-check',
+            }
+          )}
           required={boolean('required', false)}
           state={select('state', states, states.default)}
-        />
-      </PickersUtilProvider>
-    </div>
-  );
-};
-
-export const Desktop = () => {
-  const [selectedDate, setSelectedDate] = React.useState<Date | null>(
-    new Date()
-  );
-
-  const useStyles = makeStyles(theme => ({
-    wrapper: {
-      display: 'flex',
-    },
-  }));
-
-  const classes = useStyles();
-
-  return (
-    <div className={classes.wrapper}>
-      <PickersUtilProvider utils={DateFnsUtils}>
-        <KeyboardDatePicker
-          label="Only calendar"
-          placeholder="10/10/2018"
-          helpText="Assistive text"
-          format="dd/MM/yyyy"
-          value={selectedDate}
-          onChange={setSelectedDate}
-          variant={variants.inline}
-          orientation={select('Orientation', orientation, orientation.portrait)}
-          autoOk={boolean('Auto Ok', true)}
-          required={boolean('required', false)}
-          state={select('state', states, states.default)}
-          disabled={boolean('Disabled', false)}
-        />
-      </PickersUtilProvider>
-    </div>
-  );
-};
-
-export const Mobile = () => {
-  const [selectedDate, setSelectedDate] = React.useState<Date | null>(
-    new Date()
-  );
-
-  const useStyles = makeStyles(theme => ({
-    wrapper: {
-      display: 'flex',
-    },
-  }));
-
-  const classes = useStyles();
-
-  return (
-    <div className={classes.wrapper}>
-      <PickersUtilProvider utils={DateFnsUtils}>
-        <KeyboardDatePicker
-          label="Only calendar"
-          placeholder="10/10/2018"
-          helpText="Assistive text"
-          format="dd/MM/yyyy"
-          value={selectedDate}
-          onChange={setSelectedDate}
-          variant={variants.dialog}
-          orientation={select('Orientation', orientation, orientation.portrait)}
-          autoOk={boolean('Auto Ok', true)}
-          required={boolean('required', false)}
-          state={select('state', states, states.default)}
-          disabled={boolean('Disabled', false)}
         />
       </PickersUtilProvider>
     </div>

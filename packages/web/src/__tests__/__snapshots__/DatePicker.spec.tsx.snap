@@ -22,6 +22,7 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
         <PickerWithState
           TextFieldComponent={[Function]}
           allowKeyboardControl={true}
+          disableToolbar={false}
           invalidDateMessage="Invalid Date Format"
           label="Only calendar"
           maxDate={2100-01-01T00:00:00.000Z}
