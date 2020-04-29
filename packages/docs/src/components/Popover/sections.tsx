@@ -1,102 +1,109 @@
 import React from 'react';
-import {
-  Button,
-  Popover,
-  Paper,
-  Typography,
-} from '@naturacosmeticos/natds-web';
-import { makeStyles } from '@material-ui/core/styles';
+import { Button, Link, Popover } from '@naturacosmeticos/natds-web';
 
-const PopoverWrapper = ({ placement }: { placement?: any }) => {
-  const useStyles = makeStyles(theme => ({
-    typography: {
-      padding: theme.spacing(2),
-    },
-  }));
-  const classes = useStyles();
+const PopoverWrapper = ({
+  direction = 'bottom',
+  showActionLink,
+}: {
+  direction?: any;
+  showActionLink?: boolean;
+}) => {
+  const [anchor, setAnchor] = React.useState();
 
-  const anchorRef = React.useRef(null);
-
-  const [open, setOpen] = React.useState(false);
-
-  const handleClickButton = () => {
-    setOpen(prevOpen => !prevOpen);
+  const actionLink = showActionLink && {
+    text: 'Close Popover',
+    onClick: () => alert('Action link was clicked.'),
   };
 
   return (
-    <>
+    <div
+      style={{
+        height: '92px',
+        width: '280px',
+        display: 'flex',
+        alignItems: direction.includes('top') ? 'flex-end' : 'flex-start',
+        justifyContent: direction.includes('left') ? 'flex-end' : 'flex-start',
+      }}
+    >
       <Button
-        aria-describedby={placement}
-        ref={anchorRef}
+        aria-describedby={direction}
+        ref={setAnchor}
         variant="contained"
         color="primary"
-        onClick={handleClickButton}
       >
         Open Popover
       </Button>
       <Popover
-        id={placement}
-        open={open}
-        placement={placement}
-        anchorEl={anchorRef.current}
+        id={direction}
+        open={anchor}
+        direction={direction}
+        anchorEl={anchor}
+        actionLink={actionLink}
       >
-        <Paper elevation={3} variant="elevation">
-          <Typography className={classes.typography}>
-            Lorem ipsum dolor
-          </Typography>
-        </Paper>
+        Lorem ipsum dolor
       </Popover>
-    </>
+    </div>
   );
 };
 
-export const placements = [
+export const attributes = [
   {
-    title: 'bottom-end',
-    component: <PopoverWrapper placement="bottom-end" />,
+    title: 'Direction',
+    component: <PopoverWrapper direction="left" />,
   },
   {
-    title: 'bottom-start',
-    component: <PopoverWrapper placement="bottom-start" />,
+    title: 'Action Link',
+    component: <PopoverWrapper showActionLink />,
   },
+];
+
+export const directions = [
   {
-    title: 'bottom',
-    component: <PopoverWrapper placement="bottom" />,
-  },
-  {
-    title: 'left-end',
-    component: <PopoverWrapper placement="left-end" />,
-  },
-  {
-    title: 'left-start',
-    component: <PopoverWrapper placement="left-start" />,
-  },
-  {
-    title: 'left',
-    component: <PopoverWrapper placement="left" />,
-  },
-  {
-    title: 'right-end',
-    component: <PopoverWrapper placement="right-end" />,
-  },
-  {
-    title: 'right-start',
-    component: <PopoverWrapper placement="right-start" />,
-  },
-  {
-    title: 'right',
-    component: <PopoverWrapper placement="right" />,
-  },
-  {
-    title: 'top-end',
-    component: <PopoverWrapper placement="top-end" />,
+    title: 'top',
+    component: <PopoverWrapper direction="top" />,
   },
   {
     title: 'top-start',
-    component: <PopoverWrapper placement="top-start" />,
+    component: <PopoverWrapper direction="top-start" />,
   },
   {
-    title: 'top',
-    component: <PopoverWrapper placement="top" />,
+    title: 'top-end',
+    component: <PopoverWrapper direction="top-end" />,
+  },
+  {
+    title: 'bottom',
+    component: <PopoverWrapper direction="bottom" />,
+  },
+  {
+    title: 'bottom-start',
+    component: <PopoverWrapper direction="bottom-start" />,
+  },
+  {
+    title: 'bottom-end',
+    component: <PopoverWrapper direction="bottom-end" />,
+  },
+  {
+    title: 'right',
+    component: <PopoverWrapper direction="right" />,
+  },
+  {
+    title: 'right-start',
+    component: <PopoverWrapper direction="right-start" />,
+  },
+  {
+    title: 'right-end',
+    component: <PopoverWrapper direction="right-end" />,
+  },
+  {
+    title: 'left',
+    component: <PopoverWrapper direction="left" />,
+  },
+  {
+    title: 'left-start',
+    component: <PopoverWrapper direction="left-start" />,
+  },
+  {
+    title: 'left-end',
+    component: <PopoverWrapper direction="left-end" />,
   },
 ];

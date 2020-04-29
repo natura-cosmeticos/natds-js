@@ -1,13 +1,7 @@
 import React from 'react';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import {
-  Popover,
-  Button,
-  Typography,
-  Paper,
-} from '@naturacosmeticos/natds-web';
+import { Popover, Button } from '@naturacosmeticos/natds-web';
 
 import PopoverDocs from './Popover.docs.mdx';
 import { select } from '@storybook/addon-knobs';
@@ -28,15 +22,7 @@ export default {
   },
 };
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    typography: {
-      padding: theme.spacing(2),
-    },
-  })
-);
-
-const placements: any = {
+const directions: any = {
   bottomEnd: 'bottom-end',
   bottomStart: 'bottom-start',
   bottom: 'bottom',
@@ -52,8 +38,6 @@ const placements: any = {
 };
 
 export const Interactive = () => {
-  const classes = useStyles();
-
   const anchorRef = React.useRef(null);
 
   const [open, setOpen] = React.useState(false);
@@ -65,7 +49,15 @@ export const Interactive = () => {
   const id = open ? 'popover' : undefined;
 
   return (
-    <div style={{ margin: '40px 260px' }}>
+    <div
+      style={{
+        height: '250px',
+        width: '100%',
+        display: 'flex',
+        alignItems: 'center',
+        justifyContent: 'center',
+      }}
+    >
       <Button
         aria-describedby={id}
         ref={anchorRef}
@@ -79,13 +71,13 @@ export const Interactive = () => {
         id={id}
         open={open}
         anchorEl={anchorRef.current}
-        placement={select('placement', placements, placements.bottom)}
+        direction={select('direction', directions, directions.bottom)}
+        actionLink={{
+          onClick: () => alert('Action link was clicked.'),
+          text: 'Action link',
+        }}
       >
-        <Paper elevation={3} variant="elevation">
-          <Typography className={classes.typography}>
-            Lorem ipsum dolor sit amet
-          </Typography>
-        </Paper>
+        Lorem ipsum dolor sit amet
       </Popover>
     </div>
   );

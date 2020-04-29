@@ -1,10 +1,10 @@
-import React from 'react';
+import * as React from 'react';
 import { expect } from 'chai';
 import { mount } from 'enzyme';
 
 import Popover from '../Components/Popover';
 
-const placements: any = {
+const directions: any = {
   'bottom-end': 'bottom-end',
   'bottom-start': 'bottom-start',
   'bottom': 'bottom',
@@ -37,14 +37,23 @@ describe('Popover component', () => {
   // tslint:disable-next-line: no-console
   beforeEach(() => (console.error = mockedConsoleError));
 
-  Object.keys(placements).forEach((placement: string) => {
-    test(`should match snapshot - Any valid Popover with ${placement} placement`, () => {
-      const wrapper = mount(<Popover open={true} placement={placement as any}>
+  Object.keys(directions).forEach((direction: string) => {
+    test(`should match snapshot - Any valid Popover with ${direction} direction`, () => {
+      const wrapper = mount(<Popover open direction={direction as any}>
         content
       </Popover>);
       expect(wrapper).matchSnapshot(
-        `Popover snapshot - with ${placement} placement`
+        `Popover snapshot - with ${direction} direction`
       );
     });
+  });
+
+  test(`should match snapshot - Popover with Action Link`, () => {
+    const wrapper = mount(<Popover open actionLink={{ text: 'Action link' }}>
+      content
+    </Popover>);
+    expect(wrapper).matchSnapshot(
+      `Popover snapshot - with Action Link`
+    );
   });
 });
