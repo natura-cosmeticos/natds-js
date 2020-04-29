@@ -3,7 +3,13 @@ import styled from 'styled-components';
 import MaskedInput from 'react-text-mask';
 import { tokens } from '@naturacosmeticos/natds-styles';
 
-import { ITextFieldProps, getProp, getBorderByState, stateStyles, getColorByState } from './shared';
+import {
+  ITextFieldProps,
+  getProp,
+  getBorderByState,
+  stateStyles,
+  getColorByState,
+} from './shared';
 import PasswordReveal from './PasswordReveal';
 import SearchClear from './SearchClear';
 import CustomIcon from './CustomIcon';
@@ -11,88 +17,90 @@ import CustomIcon from './CustomIcon';
 export const TEXT_TYPE = 'text';
 export const SEARCH_TYPE = 'search';
 export const PASSWORD_TYPE = 'password';
+export const DATE = 'date';
 
-export const Field: FunctionComponent<ITextFieldProps> = forwardRef((
-  props: ITextFieldProps,
-  ref: any
-) => {
-  const {
-    id,
-    theme,
-    required = false,
-    disabled = false,
-    state,
-    multiline,
-    mask,
-    placeholder = '&nbsp;',
-    type,
-    onIconPress,
-    icon,
-    searchIcon,
-    showPasswordIcon,
-    hidePasswordIcon,
-    onChange,
-    className,
-    ...rest
-  } = props;
+export const Field: FunctionComponent<ITextFieldProps> = forwardRef(
+  (props: ITextFieldProps, ref: any) => {
+    const {
+      id,
+      theme,
+      required = false,
+      disabled = false,
+      state,
+      multiline,
+      mask,
+      placeholder = '&nbsp;',
+      type,
+      onIconPress,
+      icon,
+      searchIcon,
+      showPasswordIcon,
+      hidePasswordIcon,
+      onChange,
+      className,
+      ...rest
+    } = props;
 
-  const fieldType = multiline ? 'textarea' : (mask ? MaskedInput : 'input');
-  const [showing, togglePasswordReveal] = useState(false);
-  const [value, setValue] = useState("");
-  const customType = showing ? TEXT_TYPE : type;
-  const showPasswordReveal = type === PASSWORD_TYPE && !icon;
-  const showSearchClear = type === SEARCH_TYPE && !icon;
-  const hasIcon = !!showPasswordReveal || !!showSearchClear || !!icon;
+    const fieldType = multiline ? 'textarea' : mask ? MaskedInput : 'input';
+    const [showing, togglePasswordReveal] = useState(false);
+    const [value, setValue] = useState('');
+    const customType = showing ? TEXT_TYPE : type;
+    const showPasswordReveal = type === PASSWORD_TYPE && !icon;
+    const showSearchClear = type === SEARCH_TYPE && !icon;
+    const hasIcon = !!showPasswordReveal || !!showSearchClear || !!icon;
 
-  const handleChange = (event: any) => {
-    setValue(event.target.value);
-    onChange && onChange(event);
-  };
+    const handleChange = (event: any) => {
+      setValue(event.target.value);
+      onChange && onChange(event);
+    };
 
-  const clearSearch = (event: any) => {
-    setValue('');
-    onChange && onChange(event);
-  };
+    const clearSearch = (event: any) => {
+      setValue('');
+      onChange && onChange(event);
+    };
 
-  return (
-    <FieldContainer theme={theme} disabled={disabled}>
-      <FieldComponent
-        theme={theme}
-        id={id}
-        type={customType || TEXT_TYPE}
-        placeholder={placeholder}
-        state={state}
-        disabled={disabled}
-        required={required}
-        as={fieldType}
-        value={value}
-        hasIcon={hasIcon}
-        className={`${className}__input`}
-        mask={mask}
-        onChange={handleChange}
-        ref={ref}
-        {...rest}
-      />
-      {showPasswordReveal && <PasswordReveal
-        theme={theme}
-        showing={showing}
-        onTogglePasswordReveal={togglePasswordReveal}
-        showPasswordIcon={showPasswordIcon}
-        hidePasswordIcon={hidePasswordIcon}
-      />}
-      {showSearchClear && <SearchClear
-        theme={theme}
-        onClearSearch={clearSearch}
-        searchIcon={searchIcon}
-      />}
-      {icon && <CustomIcon
-        theme={theme}
-        icon={icon}
-        onIconPress={onIconPress}
-      />}
-    </FieldContainer>
-  );
-});
+    return (
+      <FieldContainer theme={theme} disabled={disabled}>
+        <FieldComponent
+          theme={theme}
+          id={id}
+          type={customType || TEXT_TYPE}
+          placeholder={placeholder}
+          state={state}
+          disabled={disabled}
+          required={required}
+          as={fieldType}
+          value={value}
+          hasIcon={hasIcon}
+          className={`${className}__input`}
+          mask={mask}
+          onChange={handleChange}
+          ref={ref}
+          {...rest}
+        />
+        {showPasswordReveal && (
+          <PasswordReveal
+            theme={theme}
+            showing={showing}
+            onTogglePasswordReveal={togglePasswordReveal}
+            showPasswordIcon={showPasswordIcon}
+            hidePasswordIcon={hidePasswordIcon}
+          />
+        )}
+        {showSearchClear && (
+          <SearchClear
+            theme={theme}
+            onClearSearch={clearSearch}
+            searchIcon={searchIcon}
+          />
+        )}
+        {icon && (
+          <CustomIcon theme={theme} icon={icon} onIconPress={onIconPress} />
+        )}
+      </FieldContainer>
+    );
+  }
+);
 
 export default Field;
 
@@ -119,7 +127,8 @@ export const FieldComponent = styled.input`
   font-weight: ${getProp('typography', 'body2', 'fontWeight')};
   font-family: ${getProp('typography', 'fontFamily')};
   flex: 1 1 100%;
-  padding: ${({ hasIcon }) => hasIcon ? IconPad : `${tokens.spacing.spacingSmall}px`};
+  padding: ${({ hasIcon }) =>
+    hasIcon ? IconPad : `${tokens.spacing.spacingSmall}px`};
   resize: vertical;
 
   &:disabled,
@@ -152,17 +161,17 @@ export const FieldComponent = styled.input`
     box-shadow: ${getProp('palette', 'text', 'secondary')} 0 0 0 1px;
   }
 
-  &[type="text"]::-ms-clear,
-  &[type="text"]::-ms-reveal {
+  &[type='text']::-ms-clear,
+  &[type='text']::-ms-reveal {
     display: none;
     width: 0;
     height: 0;
   }
 
-  &[type="search"]::-webkit-search-decoration,
-  &[type="search"]::-webkit-search-cancel-button,
-  &[type="search"]::-webkit-search-results-button,
-  &[type="search"]::-webkit-search-results-decoration {
+  &[type='search']::-webkit-search-decoration,
+  &[type='search']::-webkit-search-cancel-button,
+  &[type='search']::-webkit-search-results-button,
+  &[type='search']::-webkit-search-results-decoration {
     display: none;
   }
 `;

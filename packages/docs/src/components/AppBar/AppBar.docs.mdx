@@ -5,27 +5,34 @@ import { colors, elevation } from './sections';
 # AppBar
 
 ---
+
 ---
 
 ## Colors
+
 <Provider theme={themes.natura.light}>
   <ComponentWithLabel componentList={colors} />
 </Provider>
 
 ---
+
 ---
 
 ## Elevation
+
 <Provider theme={themes.natura.light}>
   <ComponentWithLabel componentList={elevation} />
 </Provider>
 
 ---
+
 ---
 
 ## API
+
 ```jsx highlight-line="2"
 import { AppBar, Toolbar, IconButton, Typography, Button, Icon } from '@naturacosmeticos/natds-web';
+import { makeStyles } from '@material-ui/styles'
 
 const AppBarWrapper = ({ color }: { color: any }) => {
 
@@ -101,28 +108,32 @@ const ProminentAppBar = ({ color }): { color: any } => {
   );
 }
 ```
+
 For more advanced usages, check [Material UI AppBar docs](https://material-ui.com/components/app-bar/).
 
 ---
+
 ---
 
 ## AppBar Props
 
-|Name|Type|Default|Description|
-|--- |--- |--- |--- |
-|children|node||The content of the component.|
-|classes|object||Override or extend the styles applied to the component. See CSS API below for more details.|
-|color|'default' \| 'inherit' \| 'primary' \| 'secondary' \| 'primary'||The color of the component. It supports those theme colors that make sense for this component.|
-|position|'absolute' \| 'fixed' \| 'relative' \| 'static' \| 'sticky' \| 'fixed'||The positioning type. The behavior of the different options is described in the MDN web docs. Note: sticky is not universally supported and will fall back to static when unavailable.|
+| Name     | Type                                                                   | Default | Description                                                                                                                                                                            |
+| -------- | ---------------------------------------------------------------------- | ------- | -------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
+| children | node                                                                   |         | The content of the component.                                                                                                                                                          |
+| classes  | object                                                                 |         | Override or extend the styles applied to the component. See CSS API below for more details.                                                                                            |
+| color    | 'default' \| 'inherit' \| 'primary' \| 'secondary' \| 'primary'        |         | The color of the component. It supports those theme colors that make sense for this component.                                                                                         |
+| position | 'absolute' \| 'fixed' \| 'relative' \| 'static' \| 'sticky' \| 'fixed' |         | The positioning type. The behavior of the different options is described in the MDN web docs. Note: sticky is not universally supported and will fall back to static when unavailable. |
 
 ---
+
 ---
+
 ## Toolbar Props
 
-|Name|Type|Default|Description|
-|--- |--- |--- |--- |
-|children|node||Toolbar children, usually a mixture of IconButton, Button and Typography.|
-|classes|object||Override or extend the styles applied to the component. See CSS API below for more details.|
-|component|elementType|'div'|The component used for the root node. Either a string to use a DOM element or a component.|
-|disableGutters|bool|false|If true, disables gutter padding.|
-|variant|'regular' \| 'dense' | 'regular'|The variant to use.|
+| Name           | Type                 | Default   | Description                                                                                 |
+| -------------- | -------------------- | --------- | ------------------------------------------------------------------------------------------- |
+| children       | node                 |           | Toolbar children, usually a mixture of IconButton, Button and Typography.                   |
+| classes        | object               |           | Override or extend the styles applied to the component. See CSS API below for more details. |
+| component      | elementType          | 'div'     | The component used for the root node. Either a string to use a DOM element or a component.  |
+| disableGutters | bool                 | false     | If true, disables gutter padding.                                                           |
+| variant        | 'regular' \| 'dense' | 'regular' | The variant to use.                                                                         |

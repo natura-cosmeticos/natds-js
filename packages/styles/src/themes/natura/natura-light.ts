@@ -1,4 +1,4 @@
-import hexToRgba from 'hex-to-rgba';
+import hexToRgba from "hex-to-rgba";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -10,10 +10,9 @@ import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
-const { natura } = tokens.colors;
-
-const PRIMARY_LIGHT = "#FEFDE8";
-const PRIMARY_DARK = "#EF8426";
+const {
+  colorTokens: { naturaLightColorTokens }
+} = tokens;
 
 export const naturaLight: ITheme = {
   shape: {
@@ -27,46 +26,46 @@ export const naturaLight: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-      disabled: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
+      disabled: hexToRgba(naturaLightColorTokens.colorOnPrimaryLight, 0.24)
     },
     primary: {
-      main: natura.primary.colorBrdNatPrimaryYellow,
-      light: PRIMARY_LIGHT,
-      dark: PRIMARY_DARK,
-      contrastText: natura.grayscale.colorBrdNatGray
+      main: naturaLightColorTokens.colorPrimary,
+      light: naturaLightColorTokens.colorPrimaryLight,
+      dark: naturaLightColorTokens.colorPrimaryDark,
+      contrastText: naturaLightColorTokens.colorOnPrimary
     },
     secondary: {
-      main: natura.primary.colorBrdNatPrimaryOrange,
-      light: PRIMARY_LIGHT,
-      dark: PRIMARY_DARK,
-      contrastText: natura.grayscale.colorBrdBlack
+      main: naturaLightColorTokens.colorSecondary,
+      light: naturaLightColorTokens.colorSecondaryLight,
+      dark: naturaLightColorTokens.colorSecondaryDark,
+      contrastText: naturaLightColorTokens.colorOnSecondary
     },
     error: {
-      main: natura.complementary.colorBrdNatCpRed2,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite
+      main: naturaLightColorTokens.colorAlert,
+      contrastText: naturaLightColorTokens.colorOnAlert
     },
     success: {
-      main: natura.complementary.colorBrdNatCpGreen1,
-      contrastText: natura.primary.colorBrdNatPrimaryWhite
+      main: naturaLightColorTokens.colorSuccess,
+      contrastText: naturaLightColorTokens.colorOnSuccess
     },
     background: {
-      paper: natura.primary.colorBrdNatPrimaryWhite,
-      default: "#FAFAFA",
-      paperContrastText: natura.grayscale.colorBrdNatGray,
-      defaultContrastText: natura.grayscale.colorBrdNatGray
+      paper: naturaLightColorTokens.colorSurface,
+      default: naturaLightColorTokens.colorBackground,
+      paperContrastText: naturaLightColorTokens.colorOnSurface,
+      defaultContrastText: naturaLightColorTokens.colorOnBackground
     },
     text: {
-      primary: natura.grayscale.colorBrdNatGray,
-      secondary: natura.grayscale.colorBrdNatGray1,
-      disabled: natura.grayscale.colorBrdNatGray2,
-      hint: natura.grayscale.colorBrdNatGray2
+      primary: naturaLightColorTokens.colorHighEmphasis,
+      secondary: naturaLightColorTokens.colorMediumEmphasis,
+      disabled: naturaLightColorTokens.colorLowEmphasis,
+      hint: naturaLightColorTokens.colorLowEmphasis
     },
     complementary: {
-      highlight: natura.grayscale.colorBrdBlack,
-      link: natura.complementary.colorBrdNatCpBlue1,
-      linkContrastText: natura.primary.colorBrdNatPrimaryWhite,
-      warning: natura.complementary.colorBrdNatCpOrange4,
-      warningContrastText: natura.grayscale.colorBrdBlack
+      highlight: naturaLightColorTokens.colorHighlight,
+      link: naturaLightColorTokens.colorLink,
+      linkContrastText: naturaLightColorTokens.colorOnLink,
+      warning: naturaLightColorTokens.colorWarning,
+      warningContrastText: naturaLightColorTokens.colorOnWarning
     }
   },
   typography: {
@@ -77,10 +76,13 @@ export const naturaLight: ITheme = {
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: naturaLightColorTokens.colorOnPrimary
       },
       outlinedSecondary: {
-        color: natura.grayscale.colorBrdNatGray
+        color: naturaLightColorTokens.colorOnPrimary
+      },
+      textPrimary: {
+        color: naturaLightColorTokens.colorOnPrimary
       },
       sizeSmall: {
         fontSize: "0.875rem",
@@ -98,12 +100,13 @@ export const naturaLight: ITheme = {
     },
     MuiAvatar: {
       colorDefault: {
-        color: natura.grayscale.colorBrdNatGray
+        color: naturaLightColorTokens.colorOnPrimary
       }
     },
     MuiIconButton: {
       root: {
-        padding: "8px"
+        padding: "8px",
+        color: naturaLightColorTokens.colorHighEmphasis
       },
       sizeSmall: {
         padding: "4px"
@@ -113,18 +116,18 @@ export const naturaLight: ITheme = {
       root: {
         border: `transparent 1px solid`,
         "&$expanded": {
-          borderColor: natura.primary.colorBrdNatPrimaryYellow
+          borderColor: naturaLightColorTokens.colorPrimary
         },
         "&$disabled": {
-          backgroundColor: natura.primary.colorBrdNatPrimaryWhite,
+          backgroundColor: naturaLightColorTokens.colorSurface,
           opacity: 0.32
         }
-      },
+      }
     },
     MuiExpansionPanelSummary: {
       root: {
-        alignItems: 'flex-start',
-        marginTop: '8px',
+        alignItems: "flex-start",
+        marginTop: "8px",
         "&$disabled": {
           opacity: 1
         }
@@ -159,31 +162,40 @@ export const naturaLight: ITheme = {
     MuiListItem: {
       root: {
         "&$selected": {
-          backgroundColor: hexToRgba(natura.primary.colorBrdNatPrimaryOrange, 0.16),
+          backgroundColor: hexToRgba(
+            naturaLightColorTokens.colorSecondary,
+            0.16
+          ),
           "&:hover": {
-            backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
+            backgroundColor: hexToRgba(
+              naturaLightColorTokens.colorOnSecondary,
+              0.04
+            )
           }
         },
-        '&.Mui-disabled': {
+        "&.Mui-disabled": {
           opacity: 0.32
-        },
+        }
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.04)
+          backgroundColor: hexToRgba(
+            naturaLightColorTokens.colorOnSecondary,
+            0.04
+          )
         }
       }
     },
     MuiBadge: {
       badge: {
-        padding: '0 4px'
+        padding: "0 4px"
       }
     },
     MuiTab: {
       root: {
         "&$disabled": {
           opacity: 0.24
-        },
+        }
       },
       textColorInherit: {
         "&$disabled": {
@@ -198,39 +210,45 @@ export const naturaLight: ITheme = {
     },
     MuiChip: {
       root: {
-        backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
-        color: natura.grayscale.colorBrdNatGray,
+        backgroundColor: hexToRgba(
+          naturaLightColorTokens.colorOnSecondary,
+          0.12
+        ),
+        color: naturaLightColorTokens.colorOnPrimary,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
-          backgroundColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.24),
-          color: natura.grayscale.colorBrdNatGray,
+          backgroundColor: hexToRgba(
+            naturaLightColorTokens.colorOnSecondary,
+            0.24
+          ),
+          color: naturaLightColorTokens.colorOnPrimary
         },
         "&$disabled": {
-          opacity: .4
-        },
+          opacity: 0.4
+        }
       },
       clickableColorPrimary: {
         "&:hover": {
-          backgroundColor: PRIMARY_DARK
+          backgroundColor: naturaLightColorTokens.colorPrimaryDark
         }
       },
       clickableColorSecondary: {
         "&:hover": {
-          backgroundColor: PRIMARY_DARK
+          backgroundColor: naturaLightColorTokens.colorPrimaryDark
         }
       },
       outlined: {
-        borderColor: hexToRgba(natura.grayscale.colorBrdBlack, 0.12),
-        color: natura.grayscale.colorBrdBlack
+        borderColor: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.12),
+        color: naturaLightColorTokens.colorOnSecondary
       },
       outlinedPrimary: {
-        color: natura.grayscale.colorBrdBlack,
+        color: naturaLightColorTokens.colorOnSecondary
       },
       outlinedSecondary: {
-        color: natura.grayscale.colorBrdBlack,
+        color: naturaLightColorTokens.colorOnSecondary
       },
       icon: {
-        fontSize: `${sizes.standard}px`,
+        fontSize: `${sizes.standard}px`
       },
       iconSmall: {
         width: `${sizes.small}px`,
@@ -242,27 +260,113 @@ export const naturaLight: ITheme = {
         width: `${sizes.standard}px`,
         height: `${sizes.standard}px`,
         fontSize: `${sizes.standard}px`,
-        color: hexToRgba(natura.grayscale.colorBrdBlack, 0.8),
-        '&:hover': {
-          color: natura.grayscale.colorBrdBlack
+        color: hexToRgba(naturaLightColorTokens.colorOnSecondary, 0.8),
+        "&:hover": {
+          color: naturaLightColorTokens.colorOnSecondary
         }
       },
       deleteIconSmall: {
         width: `${sizes.small}px`,
         height: `${sizes.small}px`,
-        fontSize: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`
       },
       deleteIconColorPrimary: {
-        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
-        '&:hover': {
-          color: natura.primary.colorBrdNatPrimaryWhite
+        color: hexToRgba(naturaLightColorTokens.colorSurface, 0.8),
+        "&:hover": {
+          color: naturaLightColorTokens.colorSurface
         }
       },
       deleteIconColorSecondary: {
-        color: hexToRgba(natura.primary.colorBrdNatPrimaryWhite, 0.8),
-        '&:hover': {
-          color: natura.primary.colorBrdNatPrimaryWhite
+        color: hexToRgba(naturaLightColorTokens.colorSurface, 0.8),
+        "&:hover": {
+          color: naturaLightColorTokens.colorSurface
         }
+      }
+    },
+    MuiTextField: {
+      "& .MuiInputLabel": {
+        marginTop: "20px"
+      }
+    },
+    MuiInputBase: {
+      root: {
+        color: naturaLightColorTokens.colorOnPrimaryLight,
+        "&.MuiInput-underline:before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline:after": {
+          borderBottom: "none"
+        },
+        "&.MuiInput-underline.Mui-disabled:before": {
+          borderBottom: "none"
+        }
+      },
+      input: {
+        color: naturaLightColorTokens.colorOnPrimaryLight,
+        minHeight: "24px",
+        padding: "16px 35px 16px 16px",
+        borderRadius: "4px",
+        boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
+        "&:hover": {
+          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:hover:not(:placeholder-shown)": {
+          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:focus": {
+          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:focus:not(:read-only)": {
+          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
+          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&:not(:placeholder-shown)": {
+          boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px`
+        },
+        "&:placeholder-shown": {
+          boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        "&.Mui-disabled": {
+          opacity: 0.24,
+          "&:hover": { boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px` }
+        }
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
+      },
+      positionEnd: {
+        marginRight: spacing.spacingTiny
+      }
+    },
+    MuiInputLabel: {
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
+      },
+      shrink: {
+        transform: "none",
+        marginTop: "-4px"
+      }
+    },
+    MuiFormLabel: {
+      root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        "&.Mui-focused": {
+          fontSize: fontSize.subtitle2.fontSize,
+          color: naturaLightColorTokens.colorMediumEmphasis
+        }
+      },
+      formControl: {
+        transform: "none",
+        marginTop: "-4px"
       }
     }
   }

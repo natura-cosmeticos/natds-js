@@ -1,5 +1,5 @@
 import { IButtonSizes } from "./IButtonSizes";
-import { sizes } from '../sizes';
+import { sizes } from "../sizes";
 
 export const buttonSizes: IButtonSizes = {
   small: {

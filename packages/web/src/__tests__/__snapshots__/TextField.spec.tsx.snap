@@ -1,178 +1,22 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TextField component rendering state should match snapshot - TextField (custom icon with action): TextField custom icon with action snapshot 1`] = `
-.c4 {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: 16px;
-  right: 16px;
-}
-
-.c4,
-.c4 > svg {
-  fill: inherit!important;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px 48px 16px 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #777777;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c5 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat bWsiTa undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -183,7 +27,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       value=""
     />
     <i
-      className="c4"
+      className="sc-bdVaJa fzcshk"
       onClick={[Function]}
       style={
         Object {
@@ -205,7 +49,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="c5"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -214,178 +58,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (custom icon): TextField custom icon snapshot 1`] = `
-.c4 {
-  width: 24px;
-  height: 24px;
-  position: absolute;
-  top: 16px;
-  right: 16px;
-}
-
-.c4,
-.c4 > svg {
-  fill: inherit!important;
-}
-
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px 48px 16px 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #777777;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c5 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat bWsiTa undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -396,7 +84,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       value=""
     />
     <i
-      className="c4"
+      className="sc-bdVaJa fzcshk"
       style={Object {}}
     >
       <svg
@@ -413,7 +101,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="c5"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -518,6 +206,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -609,12 +300,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -652,6 +427,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -681,7 +461,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -694,7 +474,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -708,8 +488,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -925,6 +705,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -1016,12 +799,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -1059,6 +926,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -1088,7 +960,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -1101,7 +973,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -1115,8 +987,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -1236,132 +1108,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default with empty theme): TextField default with empty theme snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  box-shadow: 0 0 0 1px;
-}
-
-.c3:placeholder-shown {
-  box-shadow: undefined 0 0 0 1px;
-}
-
-.c3:placeholder-shown {
-  box-shadow: undefined 0 0 0 1px;
-}
-
-.c3:placeholder-shown {
-  box-shadow: undefined 0 0 0 1px;
-}
-
-.c3:placeholder-shown {
-  box-shadow: undefined 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: undefined 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: undefined 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: undefined 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-}
-
-.c1 {
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb ePKCXC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX iNTEeG"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH ihPgGv"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat jNnvGG undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1373,7 +1135,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje kcKVdJ"
     disabled={false}
   >
     Assistive text
@@ -1382,165 +1144,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default without placeholder): TextField default without placeholder snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #777777;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1552,7 +1171,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -1561,165 +1180,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default): TextField default snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #777777;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1731,7 +1207,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -1837,6 +1313,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -1928,12 +1407,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -1971,6 +1534,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -2000,7 +1568,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -2013,7 +1581,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -2027,8 +1595,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -2245,6 +1813,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -2336,12 +1907,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -2379,6 +2034,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -2408,7 +2068,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -2421,7 +2081,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -2435,8 +2095,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -2556,165 +2216,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled): TextField disabled snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #BBBBBB;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #BBBBBB;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #BBBBBB;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX dpnCtM"
     disabled={true}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH bEAjsd"
     disabled={true}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat jfEZiS undefined__input"
       disabled={true}
       id="field"
       label="Label"
@@ -2726,7 +2243,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje hfPBnQ"
     disabled={true}
   >
     Assistive text
@@ -2832,6 +2349,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -2923,12 +2443,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -2966,6 +2570,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -2995,7 +2604,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -3008,7 +2617,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -3022,8 +2631,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -3240,6 +2849,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -3331,12 +2943,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -3374,6 +3070,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -3403,7 +3104,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -3416,7 +3117,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -3430,8 +3131,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -3551,171 +3252,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error): TextField error snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #E74627 0 0 0 2px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #E74627 0 0 0 2px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #E74627 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #E74627 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #E74627;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #E74627;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c5 {
-  width: 16px!important;
-  height: 16px!important;
-  margin-right: 4px;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX fbXOkv"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat bwqDde undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -3727,12 +3279,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje kbBqut"
     disabled={false}
   >
     <svg
       aria-hidden="true"
-      className="MuiSvgIcon-root c5"
+      className="MuiSvgIcon-root sc-bZQynM bKnZNA"
       focusable="false"
       role="presentation"
       theme={
@@ -3826,6 +3378,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "fontSize": "0.875rem",
                 "minHeight": "32px",
               },
+              "textPrimary": Object {
+                "color": "#333333",
+              },
             },
             "MuiChip": Object {
               "clickableColorPrimary": Object {
@@ -3917,12 +3472,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "marginTop": "8px",
               },
             },
+            "MuiFormLabel": Object {
+              "formControl": Object {
+                "marginTop": "-4px",
+                "transform": "none",
+              },
+              "root": Object {
+                "&.Mui-focused": Object {
+                  "color": "#777777",
+                  "fontSize": "0.875rem",
+                },
+                "fontSize": "0.875rem",
+              },
+            },
             "MuiIconButton": Object {
               "root": Object {
+                "color": "#333333",
                 "padding": "8px",
               },
               "sizeSmall": Object {
                 "padding": "4px",
+              },
+            },
+            "MuiInputAdornment": Object {
+              "positionEnd": Object {
+                "marginRight": 8,
+              },
+              "root": Object {
+                "position": "absolute",
+                "right": "0",
+              },
+            },
+            "MuiInputBase": Object {
+              "input": Object {
+                "&.Mui-disabled": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#333333 0 0 0 1px",
+                  },
+                  "opacity": 0.24,
+                },
+                "&:focus": Object {
+                  "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&:focus:not(:read-only)": Object {
+                  "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&:hover": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:placeholder-shown)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:not(:placeholder-shown)": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "&:placeholder-shown": Object {
+                  "boxShadow": "#BBBBBB 0 0 0 1px",
+                },
+                "borderRadius": "4px",
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+                "color": "#333333",
+                "minHeight": "24px",
+                "padding": "16px 35px 16px 16px",
+              },
+              "root": Object {
+                "&.MuiInput-underline.Mui-disabled:before": Object {
+                  "borderBottom": "none",
+                },
+                "&.MuiInput-underline:after": Object {
+                  "borderBottom": "none",
+                },
+                "&.MuiInput-underline:before": Object {
+                  "borderBottom": "none",
+                },
+                "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                  "borderBottom": "none",
+                },
+                "color": "#333333",
+              },
+            },
+            "MuiInputLabel": Object {
+              "formControl": Object {
+                "marginTop": "-4px",
+                "transform": "none",
+              },
+              "shrink": Object {
+                "marginTop": "-4px",
+                "transform": "none",
               },
             },
             "MuiListItem": Object {
@@ -3960,6 +3599,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 },
               },
             },
+            "MuiTextField": Object {
+              "& .MuiInputLabel": Object {
+                "marginTop": "20px",
+              },
+            },
             "MuiToolbar": Object {
               "dense": Object {
                 "@media (min-width: 600px)": Object {
@@ -3989,7 +3633,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "action": Object {
-              "disabled": "rgba(0, 0, 0, 0.24)",
+              "disabled": "rgba(51, 51, 51, 0.24)",
             },
             "background": Object {
               "default": "#FAFAFA",
@@ -4002,7 +3646,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "link": "#227BBD",
               "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
-              "warningContrastText": "#000000",
+              "warningContrastText": "#333333",
             },
             "error": Object {
               "contrastText": "#FFFFFF",
@@ -4016,8 +3660,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "secondary": Object {
               "contrastText": "#000000",
-              "dark": "#EF8426",
-              "light": "#FEFDE8",
+              "dark": "#FF5808",
+              "light": "#FFF8E1",
               "main": "#FF6B0B",
             },
             "success": Object {
@@ -4241,6 +3885,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -4332,12 +3979,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -4375,6 +4106,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -4404,7 +4140,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -4417,7 +4153,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -4431,8 +4167,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -4649,6 +4385,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -4740,12 +4479,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -4783,6 +4606,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -4812,7 +4640,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -4825,7 +4653,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -4839,8 +4667,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -4961,165 +4789,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled): TextField filled snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #777777;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -5131,7 +4816,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -5140,165 +4825,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (mask): TextField mask snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #777777;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       hasIcon={false}
       helpText="Assistive text"
@@ -5416,6 +4958,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "fontSize": "0.875rem",
                 "minHeight": "32px",
               },
+              "textPrimary": Object {
+                "color": "#333333",
+              },
             },
             "MuiChip": Object {
               "clickableColorPrimary": Object {
@@ -5507,12 +5052,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "marginTop": "8px",
               },
             },
+            "MuiFormLabel": Object {
+              "formControl": Object {
+                "marginTop": "-4px",
+                "transform": "none",
+              },
+              "root": Object {
+                "&.Mui-focused": Object {
+                  "color": "#777777",
+                  "fontSize": "0.875rem",
+                },
+                "fontSize": "0.875rem",
+              },
+            },
             "MuiIconButton": Object {
               "root": Object {
+                "color": "#333333",
                 "padding": "8px",
               },
               "sizeSmall": Object {
                 "padding": "4px",
+              },
+            },
+            "MuiInputAdornment": Object {
+              "positionEnd": Object {
+                "marginRight": 8,
+              },
+              "root": Object {
+                "position": "absolute",
+                "right": "0",
+              },
+            },
+            "MuiInputBase": Object {
+              "input": Object {
+                "&.Mui-disabled": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#333333 0 0 0 1px",
+                  },
+                  "opacity": 0.24,
+                },
+                "&:focus": Object {
+                  "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&:focus:not(:read-only)": Object {
+                  "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&:hover": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:placeholder-shown)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:not(:placeholder-shown)": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "&:placeholder-shown": Object {
+                  "boxShadow": "#BBBBBB 0 0 0 1px",
+                },
+                "borderRadius": "4px",
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+                "color": "#333333",
+                "minHeight": "24px",
+                "padding": "16px 35px 16px 16px",
+              },
+              "root": Object {
+                "&.MuiInput-underline.Mui-disabled:before": Object {
+                  "borderBottom": "none",
+                },
+                "&.MuiInput-underline:after": Object {
+                  "borderBottom": "none",
+                },
+                "&.MuiInput-underline:before": Object {
+                  "borderBottom": "none",
+                },
+                "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                  "borderBottom": "none",
+                },
+                "color": "#333333",
+              },
+            },
+            "MuiInputLabel": Object {
+              "formControl": Object {
+                "marginTop": "-4px",
+                "transform": "none",
+              },
+              "shrink": Object {
+                "marginTop": "-4px",
+                "transform": "none",
               },
             },
             "MuiListItem": Object {
@@ -5550,6 +5179,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 },
               },
             },
+            "MuiTextField": Object {
+              "& .MuiInputLabel": Object {
+                "marginTop": "20px",
+              },
+            },
             "MuiToolbar": Object {
               "dense": Object {
                 "@media (min-width: 600px)": Object {
@@ -5579,7 +5213,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "action": Object {
-              "disabled": "rgba(0, 0, 0, 0.24)",
+              "disabled": "rgba(51, 51, 51, 0.24)",
             },
             "background": Object {
               "default": "#FAFAFA",
@@ -5592,7 +5226,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "link": "#227BBD",
               "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
-              "warningContrastText": "#000000",
+              "warningContrastText": "#333333",
             },
             "error": Object {
               "contrastText": "#FFFFFF",
@@ -5606,8 +5240,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "secondary": Object {
               "contrastText": "#000000",
-              "dark": "#EF8426",
-              "light": "#FEFDE8",
+              "dark": "#FF5808",
+              "light": "#FFF8E1",
               "main": "#FF6B0B",
             },
             "success": Object {
@@ -5728,7 +5362,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -5737,165 +5371,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (multiline): TextField multiline snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #777777;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <textarea
-      className="c3 undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -5907,7 +5398,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -5916,165 +5407,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (property forwarded): TextField property forwarded snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #777777;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -6086,7 +5434,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -6095,150 +5443,15 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (required without label): TextField required without label snapshot 1`] = `
-.c1 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c2 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c2:disabled,
-.c2:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c2::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c2::-moz-placeholder {
-  color: #777777;
-}
-
-.c2:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c2::placeholder {
-  color: #777777;
-}
-
-.c2:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c2:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c2:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c2:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c2:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c2:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c2:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c2:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c2:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c2:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c2[type="text"]::-ms-clear,
-.c2[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c2[type="search"]::-webkit-search-decoration,
-.c2[type="search"]::-webkit-search-cancel-button,
-.c2[type="search"]::-webkit-search-results-button,
-.c2[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c3 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <div
-    className="c1"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c2 undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label={null}
@@ -6250,7 +5463,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c3"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -6259,165 +5472,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (required): TextField required snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #333333 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #777777;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #777777;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label *
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -6429,7 +5499,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -6535,6 +5605,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -6626,12 +5699,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -6669,6 +5826,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -6698,7 +5860,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -6711,7 +5873,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -6725,8 +5887,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -6943,6 +6105,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "fontSize": "0.875rem",
             "minHeight": "32px",
           },
+          "textPrimary": Object {
+            "color": "#333333",
+          },
         },
         "MuiChip": Object {
           "clickableColorPrimary": Object {
@@ -7034,12 +6199,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
             "marginTop": "8px",
           },
         },
+        "MuiFormLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "root": Object {
+            "&.Mui-focused": Object {
+              "color": "#777777",
+              "fontSize": "0.875rem",
+            },
+            "fontSize": "0.875rem",
+          },
+        },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
+          },
+        },
+        "MuiInputBase": Object {
+          "input": Object {
+            "&.Mui-disabled": Object {
+              "&:hover": Object {
+                "boxShadow": "#333333 0 0 0 1px",
+              },
+              "opacity": 0.24,
+            },
+            "&:focus": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:focus:not(:read-only)": Object {
+              "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&:hover": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:placeholder-shown)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+              "boxShadow": "#777777 0 0 0 1px",
+            },
+            "&:not(:placeholder-shown)": Object {
+              "boxShadow": "#333333 0 0 0 1px",
+            },
+            "&:placeholder-shown": Object {
+              "boxShadow": "#BBBBBB 0 0 0 1px",
+            },
+            "borderRadius": "4px",
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "color": "#333333",
+            "minHeight": "24px",
+            "padding": "16px 35px 16px 16px",
+          },
+          "root": Object {
+            "&.MuiInput-underline.Mui-disabled:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:after": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:before": Object {
+              "borderBottom": "none",
+            },
+            "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+              "borderBottom": "none",
+            },
+            "color": "#333333",
+          },
+        },
+        "MuiInputLabel": Object {
+          "formControl": Object {
+            "marginTop": "-4px",
+            "transform": "none",
+          },
+          "shrink": Object {
+            "marginTop": "-4px",
+            "transform": "none",
           },
         },
         "MuiListItem": Object {
@@ -7077,6 +6326,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
           },
         },
+        "MuiTextField": Object {
+          "& .MuiInputLabel": Object {
+            "marginTop": "20px",
+          },
+        },
         "MuiToolbar": Object {
           "dense": Object {
             "@media (min-width: 600px)": Object {
@@ -7106,7 +6360,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "palette": Object {
         "action": Object {
-          "disabled": "rgba(0, 0, 0, 0.24)",
+          "disabled": "rgba(51, 51, 51, 0.24)",
         },
         "background": Object {
           "default": "#FAFAFA",
@@ -7119,7 +6373,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           "link": "#227BBD",
           "linkContrastText": "#FFFFFF",
           "warning": "#FCC433",
-          "warningContrastText": "#000000",
+          "warningContrastText": "#333333",
         },
         "error": Object {
           "contrastText": "#FFFFFF",
@@ -7133,8 +6387,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "secondary": Object {
           "contrastText": "#000000",
-          "dark": "#EF8426",
-          "light": "#FEFDE8",
+          "dark": "#FF5808",
+          "light": "#FFF8E1",
           "main": "#FF6B0B",
         },
         "success": Object {
@@ -7254,171 +6508,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success): TextField success snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #333333;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #333333;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #BBBBBB;
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3::placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #569A32 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #569A32 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #569A32 0 0 0 1px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #569A32 0 0 0 1px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #569A32;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #569A32;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
-.c5 {
-  width: 16px!important;
-  height: 16px!important;
-  margin-right: 4px;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX fywemI"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat GSGXx undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -7430,12 +6535,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje bCGmrs"
     disabled={false}
   >
     <svg
       aria-hidden="true"
-      className="MuiSvgIcon-root c5"
+      className="MuiSvgIcon-root sc-gzVnrw dFIzKz"
       focusable="false"
       role="presentation"
       theme={
@@ -7529,6 +6634,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "fontSize": "0.875rem",
                 "minHeight": "32px",
               },
+              "textPrimary": Object {
+                "color": "#333333",
+              },
             },
             "MuiChip": Object {
               "clickableColorPrimary": Object {
@@ -7620,12 +6728,96 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 "marginTop": "8px",
               },
             },
+            "MuiFormLabel": Object {
+              "formControl": Object {
+                "marginTop": "-4px",
+                "transform": "none",
+              },
+              "root": Object {
+                "&.Mui-focused": Object {
+                  "color": "#777777",
+                  "fontSize": "0.875rem",
+                },
+                "fontSize": "0.875rem",
+              },
+            },
             "MuiIconButton": Object {
               "root": Object {
+                "color": "#333333",
                 "padding": "8px",
               },
               "sizeSmall": Object {
                 "padding": "4px",
+              },
+            },
+            "MuiInputAdornment": Object {
+              "positionEnd": Object {
+                "marginRight": 8,
+              },
+              "root": Object {
+                "position": "absolute",
+                "right": "0",
+              },
+            },
+            "MuiInputBase": Object {
+              "input": Object {
+                "&.Mui-disabled": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#333333 0 0 0 1px",
+                  },
+                  "opacity": 0.24,
+                },
+                "&:focus": Object {
+                  "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&:focus:not(:read-only)": Object {
+                  "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&:hover": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:placeholder-shown)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:hover:not(:read-only):not(:disabled):not(:focus)": Object {
+                  "boxShadow": "#777777 0 0 0 1px",
+                },
+                "&:not(:placeholder-shown)": Object {
+                  "boxShadow": "#333333 0 0 0 1px",
+                },
+                "&:placeholder-shown": Object {
+                  "boxShadow": "#BBBBBB 0 0 0 1px",
+                },
+                "borderRadius": "4px",
+                "boxShadow": "#BBBBBB 0 0 0 1px",
+                "color": "#333333",
+                "minHeight": "24px",
+                "padding": "16px 35px 16px 16px",
+              },
+              "root": Object {
+                "&.MuiInput-underline.Mui-disabled:before": Object {
+                  "borderBottom": "none",
+                },
+                "&.MuiInput-underline:after": Object {
+                  "borderBottom": "none",
+                },
+                "&.MuiInput-underline:before": Object {
+                  "borderBottom": "none",
+                },
+                "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+                  "borderBottom": "none",
+                },
+                "color": "#333333",
+              },
+            },
+            "MuiInputLabel": Object {
+              "formControl": Object {
+                "marginTop": "-4px",
+                "transform": "none",
+              },
+              "shrink": Object {
+                "marginTop": "-4px",
+                "transform": "none",
               },
             },
             "MuiListItem": Object {
@@ -7663,6 +6855,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
                 },
               },
             },
+            "MuiTextField": Object {
+              "& .MuiInputLabel": Object {
+                "marginTop": "20px",
+              },
+            },
             "MuiToolbar": Object {
               "dense": Object {
                 "@media (min-width: 600px)": Object {
@@ -7692,7 +6889,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "palette": Object {
             "action": Object {
-              "disabled": "rgba(0, 0, 0, 0.24)",
+              "disabled": "rgba(51, 51, 51, 0.24)",
             },
             "background": Object {
               "default": "#FAFAFA",
@@ -7705,7 +6902,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
               "link": "#227BBD",
               "linkContrastText": "#FFFFFF",
               "warning": "#FCC433",
-              "warningContrastText": "#000000",
+              "warningContrastText": "#333333",
             },
             "error": Object {
               "contrastText": "#FFFFFF",
@@ -7719,8 +6916,8 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "secondary": Object {
               "contrastText": "#000000",
-              "dark": "#EF8426",
-              "light": "#FEFDE8",
+              "dark": "#FF5808",
+              "light": "#FFF8E1",
               "main": "#FF6B0B",
             },
             "success": Object {
@@ -7848,165 +7045,22 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (theme change): TextField theme change snapshot 1`] = `
-.c2 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  position: relative;
-  fill: #FAFAFA;
-}
-
-.c3 {
-  background-color: transparent;
-  border: 0;
-  border-radius: 4px;
-  box-sizing: border-box;
-  width: 100%;
-  line-height: 24px;
-  min-height: 48px;
-  outline: none;
-  color: #FAFAFA;
-  font-size: 0.875rem;
-  font-weight: 400;
-  font-family: "Roboto",sans-serif;
-  -webkit-flex: 1 1 100%;
-  -ms-flex: 1 1 100%;
-  flex: 1 1 100%;
-  padding: 16px;
-  resize: vertical;
-}
-
-.c3:disabled,
-.c3:disabled:hover {
-  color: #777777;
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3::-webkit-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3::-moz-placeholder {
-  color: #BBBBBB;
-}
-
-.c3:-ms-input-placeholder {
-  color: #BBBBBB;
-}
-
-.c3::placeholder {
-  color: #BBBBBB;
-}
-
-.c3:disabled::-webkit-input-placeholder {
-  color: #777777;
-}
-
-.c3:disabled::-moz-placeholder {
-  color: #777777;
-}
-
-.c3:disabled:-ms-input-placeholder {
-  color: #777777;
-}
-
-.c3:disabled::placeholder {
-  color: #777777;
-}
-
-.c3:placeholder-shown {
-  box-shadow: #777777 0 0 0 1px;
-}
-
-.c3:not(:placeholder-shown) {
-  box-shadow: #FAFAFA 0 0 0 1px;
-}
-
-.c3:focus:not(:-moz-read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:focus:not(:read-only) {
-  box-shadow: #F4AB34 0 0 0 2px;
-}
-
-.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3:hover:not(:read-only):not(:disabled):not(:focus) {
-  box-shadow: #BBBBBB 0 0 0 1px;
-}
-
-.c3[type="text"]::-ms-clear,
-.c3[type="text"]::-ms-reveal {
-  display: none;
-  width: 0;
-  height: 0;
-}
-
-.c3[type="search"]::-webkit-search-decoration,
-.c3[type="search"]::-webkit-search-cancel-button,
-.c3[type="search"]::-webkit-search-results-button,
-.c3[type="search"]::-webkit-search-results-decoration {
-  display: none;
-}
-
-.c0 {
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-flex-flow: column nowrap;
-  -ms-flex-flow: column nowrap;
-  flex-flow: column nowrap;
-  font-family: "Roboto",sans-serif;
-}
-
-.c1 {
-  font-size: 0.875rem;
-  font-weight: 500;
-  color: #BBBBBB;
-  line-height: 1.2;
-  padding: 0 0 4px;
-}
-
-.c4 {
-  font-size: 0.75rem;
-  font-weight: 400;
-  color: #BBBBBB;
-  line-height: 1.2;
-  padding: 4px 0 0;
-  display: -webkit-box;
-  display: -webkit-flex;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-align-items: center;
-  -webkit-box-align: center;
-  -ms-flex-align: center;
-  align-items: center;
-}
-
 <div
-  className="c0"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="c1"
+    className="sc-ifAKCX dpnCtM"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="c2"
+    className="sc-bwzfXH bYCQlC"
     disabled={false}
   >
     <input
-      className="c3 undefined__input"
+      className="sc-htpNat jBquMw undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -8018,7 +7072,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="c4"
+    className="sc-EHOje hfPBnQ"
     disabled={false}
   >
     Assistive text

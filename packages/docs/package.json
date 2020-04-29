@@ -10,7 +10,9 @@
   "contributors": [
     "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
     "Vagner Saraiva <vagner@vizir.com.br>",
-    "Matheus Robert Lichtnow <matheus@vizir.com.br>"
+    "Matheus Robert Lichtnow <matheus@vizir.com.br>",
+    "Daniel Castro <daniel.castro@vizir.com.br>",
+    "Vinícius Ponciano <vinicius.ponciano@thoughtworks.com>"
   ],
   "private": true,
   "license": "MIT",
@@ -67,9 +69,10 @@
     "tslint-react": "4.1.0",
     "typescript": "3.7.3",
     "url-loader": "3.0.0",
-    "yarn": "1.21.1"
+    "yarn": "1.22.0"
   },
   "dependencies": {
+    "@material-ui/core": "4.9.5",
     "@material-ui/icons": "4.5.1",
     "@naturacosmeticos/natds-icons": "^0.4.5",
     "@naturacosmeticos/natds-styles": "^0.4.5",

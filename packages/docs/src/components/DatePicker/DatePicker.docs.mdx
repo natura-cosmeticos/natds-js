@@ -1,0 +1,158 @@
+import {
+  DatePicker,
+  Provider,
+  themes,
+  PickersUtilProvider,
+} from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { variants, types, states, attributes } from './sections';
+
+# DatePicker
+Indicated for closer dates (future or past) and dates that need a view in the calendar such as a payment schedule.
+
+---
+
+---
+
+## Variant
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={variants} />
+</Provider>
+
+---
+
+---
+
+## Type
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={types} />
+</Provider>
+
+---
+
+---
+
+## States
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={states} />
+</Provider>
+
+---
+
+---
+
+## Attributes
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={attributes} />
+</Provider>
+
+---
+
+---
+
+
+
+## API
+
+```jsx highlight-line="2"
+import React, { useState } from 'react';
+import DateFnsUtils from '@date-io/date-fns'; // choose your lib
+import {
+  DatePicker,
+  PickersUtilProvider,
+  TextField,
+} from '@naturacosmeticos/natds-web';
+
+export const DatePickerWrapper = () => {
+  const [selectedDate, handleDateChange] = useState(new Date());
+
+  const textField = (textFieldProps: any) => (
+    <TextField {...textFieldProps} id="random-prop-id" type="text" />
+  );
+
+  return (
+    <PickersUtilProvider utils={DateFnsUtils}>
+      <DatePicker
+        value={selectedDate}
+        TextFieldComponent={textField}
+        onChange={handleDateChange}
+        variant="dialog"
+      />
+    </PickersUtilProvider>
+  );
+};
+```
+
+For more advanced usages, check [Material UI Date Picker docs](https://material-ui-pickers.dev/api/DatePicker)
+
+---
+
+---
+
+## DatePicker Props
+
+| Name                  |                                                   Type                                                    |                 Default                  |                                                          Description                                                           |
+| :-------------------- | :-------------------------------------------------------------------------------------------------------: | :--------------------------------------: | :----------------------------------------------------------------------------------------------------------------------------: |
+| onChange \*           |                                        (date: DateIOType) => void                                         |                                          |                                                       onChange callback                                                        |
+| value \*              |                                               ParsableDate                                                |                'primary'                 |                                                          Picker value                                                          |
+| allowKeyboardControl  |                                                  boolean                                                  |                   true                   |                                 Enables keyboard listener for moving between days in calendar                                  |
+| animateYearScrolling  |                                                  boolean                                                  |                  false                   |                                  To animate scrolling to current year (using scrollIntoView)                                   |
+| autoOk                |                                                  boolean                                                  |                  false                   |                                                 Auto accept date on selection                                                  |
+| disabled              |                                                  boolean                                                  |                                          |                                                 Disable picker and text field                                                  |
+| disableFuture         |                                                  boolean                                                  |                  false                   |                                                      Disable future dates                                                      |
+| disablePast           |                                                  boolean                                                  |                  false                   |                                                       Disable past dates                                                       |
+| disableToolbar        |                                                  boolean                                                  |                  false                   |                                           Hide toolbar and show only date/time views                                           |
+| emptyLabel            |                                                  string                                                   |                    ''                    |                        Message displaying in text field, if null passed (doesn't work in keyboard mode)                        |
+| format                |                                                  string                                                   |                                          |                                                         Format string                                                          |
+| initialFocusedDate    |                                               ParsableDate                                                |                                          |                                   Date that will be initially highlighted if null was passed                                   |
+| inputVariant          |                                   "standard" \| "outlined" \| "filled"                                    |                                          |                             Pass material-ui text field variant down, bypass internal variant prop                             |
+| invalidDateMessage    |                                                 ReactNode                                                 |          'Invalid Date Format'           |                                         Message, appearing when date cannot be parsed                                          |
+| invalidLabel          |                                                  string                                                   |                'unknown'                 |                      Message displaying in text field if date is invalid (doesn't work in keyboard mode)                       |
+| labelFunc             |                            (date: DateIOType, invalidLabel: string) => string                             |                                          |                                             Dynamic formatter of text field value                                              |
+| leftArrowButtonProps  |                                        Partial`<IconButtonProps>`                                         |                                          |                                               Props to pass to left arrow button                                               |
+| leftArrowIcon         |                                                 ReactNode                                                 |                                          |                                                        Left arrow icon                                                         |
+| loadingIndicator      |                                                  Element                                                  |                                          |                                                    Custom loading indicator                                                    |
+| maxDate               |                                               ParsableDate                                                |             Date(2100-01-01)             |                                                      Max selectable date                                                       |
+| maxDateMessage        |                                                 ReactNode                                                 | 'Date should not be after maximal date'  |                                     Error message, shown if date is more then maximal date                                     |
+| minDate               |                                               ParsableDate                                                |             Date(1900-01-01)             |                                                      Min selectable date                                                       |
+| minDateMessage        |                                                 ReactNode                                                 | 'Date should not be before minimal date' |                                     Error message, shown if date is less then minimal date                                     |
+| onAccept              |                                        (date: DateIOType) => void                                         |                                          |                                              Callback fired when date is accepted                                              |
+| onClose               |                                                () => void                                                 |                                          |                                                       On close callback                                                        |
+| onError               |                               (error: ReactNode, value: DateIOType) => void                               |                                          | Callback fired when new error should be displayed (!! This is a side effect. Be careful if you want to rerender the component) |
+| onMonthChange         |                                   (date: DateIOType) => void \| Promise                                   |                                          |                 Callback firing on month change. Return promise to render spinner till it will not be resolved                 |
+| onOpen                |                                                () => void                                                 |                                          |                                                        On open callback                                                        |
+| onYearChange          |                                        (date: DateIOType) => void                                         |                                          |                                                 Callback firing on year change                                                 |
+| open                  |                                                  boolean                                                  |                                          |                                                  Controlled picker open state                                                  |
+| openTo                |                                        "date" \| "year" \| "month"                                        |                                          |                                                First view to show in DatePicker                                                |
+| orientation           |                                         "portrait" \| "landscape"                                         |                "portrait"                |                                           Force rendering in particular orientation                                            |
+| PopoverProps          |                                          Partial`<PopoverProps>`                                          |                                          |                              Popover props passed to material-ui Popover (with variant="inline")                               |
+| readOnly              |                                                  boolean                                                  |                                          |                                                     Make picker read only                                                      |
+| renderDay             | (day: DateIOType, selectedDate: DateIOType, dayInCurrentMonth: boolean, dayComponent: Element) => Element |                                          |                                                    Custom renderer for day                                                     |
+| rightArrowButtonProps |                                        Partial`<IconButtonProps>`                                         |                                          |                                              Props to pass to right arrow button                                               |
+| rightArrowIcon        |                                                 ReactNode                                                 |                                          |                                                        Right arrow icon                                                        |
+| shouldDisableDate     |                                       (day: DateIOType) => boolean                                        |                                          |                                                     Disable specific date                                                      |
+| strictCompareDates    |                                                  boolean                                                  |                  false                   |                               Compare dates by the exact timestamp, instead of start/end of date                               |
+| TextFieldComponent    |               ComponentClass`<TextFieldProps, any>` \| FunctionComponent`<TextFieldProps>`                |                                          |                                                    Override input component                                                    |
+| ToolbarComponent      |        ComponentClass`<ToolbarComponentProps, any>` \| FunctionComponent`<ToolbarComponentProps>`         |                                          |                                      Component that will replace default toolbar renderer                                      |
+| variant               |                                     "dialog" \| "inline" \| "static"                                      |                 'dialog'                 |                                                    Picker container option                                                     |
+| views                 |                                    Array<"year" \| "date" \| "month">                                     |                                          |                                                     Array of views to show                                                     |
+
+---
+
+---
+
+## Modal Wrapper
+
+| Name            |           Type            |  Default  |                                     Description                                     |
+| :-------------- | :-----------------------: | :-------: | :---------------------------------------------------------------------------------: |
+| cancelLabel     |         ReactNode         |  Cancel   |                               "CANCEL" label message                                |
+| clearable       |          boolean          | 'primary' |                         Show clear action in picker dialog                          |
+| clearLabel      |         ReactNode         |   Clear   |                                "CLEAR" label message                                |
+| DialogProps     | Partial`<MuiDialogProps>` |           |                  Props to be passed directly to material-ui Dialog                  |
+| okLabel         |         ReactNode         |    OK     |                                 "OK" label message                                  |
+| showTodayButton |          boolean          |           | If true today button will be displayed Note\* that clear button has higher priority |
+| todayLabel      |         ReactNode         |   Today   |                                "TODAY" label message                                |

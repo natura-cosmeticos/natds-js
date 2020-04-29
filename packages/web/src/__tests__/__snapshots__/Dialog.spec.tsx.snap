@@ -48,7 +48,6 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                 },
                 "render": [Function],
               },
-              "defaultProps": undefined,
               "displayName": "WithStyles(ForwardRef(Backdrop))",
               "options": Object {
                 "defaultTheme": Object {
@@ -665,7 +664,6 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                 },
                 "render": [Function],
               },
-              "defaultProps": undefined,
               "displayName": "WithStyles(ForwardRef(Backdrop))",
               "options": Object {
                 "defaultTheme": Object {
@@ -1577,7 +1575,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                                         Action
                                                       </span>
                                                       <NoSsr>
-                                                        <WithStyles(undefined)
+                                                        <WithStyles(memo)
                                                           center={false}
                                                         >
                                                           <ForwardRef(TouchRipple)
@@ -1604,7 +1602,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                                               />
                                                             </span>
                                                           </ForwardRef(TouchRipple)>
-                                                        </WithStyles(undefined)>
+                                                        </WithStyles(memo)>
                                                       </NoSsr>
                                                     </button>
                                                   </ForwardRef(ButtonBase)>
@@ -1687,7 +1685,6 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                 },
                 "render": [Function],
               },
-              "defaultProps": undefined,
               "displayName": "WithStyles(ForwardRef(Backdrop))",
               "options": Object {
                 "defaultTheme": Object {
@@ -2741,7 +2738,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                         Action
                                                       </span>
                                                       <NoSsr>
-                                                        <WithStyles(undefined)
+                                                        <WithStyles(memo)
                                                           center={false}
                                                         >
                                                           <ForwardRef(TouchRipple)
@@ -2768,7 +2765,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                               />
                                                             </span>
                                                           </ForwardRef(TouchRipple)>
-                                                        </WithStyles(undefined)>
+                                                        </WithStyles(memo)>
                                                       </NoSsr>
                                                     </button>
                                                   </ForwardRef(ButtonBase)>
@@ -2851,7 +2848,6 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                 },
                 "render": [Function],
               },
-              "defaultProps": undefined,
               "displayName": "WithStyles(ForwardRef(Backdrop))",
               "options": Object {
                 "defaultTheme": Object {
@@ -3675,7 +3671,6 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                 },
                 "render": [Function],
               },
-              "defaultProps": undefined,
               "displayName": "WithStyles(ForwardRef(Backdrop))",
               "options": Object {
                 "defaultTheme": Object {
@@ -4389,7 +4384,6 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                 },
                 "render": [Function],
               },
-              "defaultProps": undefined,
               "displayName": "WithStyles(ForwardRef(Backdrop))",
               "options": Object {
                 "defaultTheme": Object {

@@ -26,7 +26,8 @@ export default {
 const types: any = {
   text: 'text',
   password: 'password',
-  search: 'search'
+  search: 'search',
+  date: 'date',
 };
 
 const states: any = {
@@ -47,7 +48,7 @@ export const Interactive = () => (
     placeholder={text('placeholder', 'XD')}
     helpText={text('helpText', 'Assistive text')}
     type={select('type', types, types.text)}
-    state={select('state', states, states.text)}
+    state={select('state', states, states.default)}
     required={boolean('required', false)}
     mask={select('mask', mask, mask.none)}
     disabled={boolean('disabled', false)}

@@ -43,6 +43,10 @@ You can follow our guideline in your feature branch which go as it follows:
 - Then PR it back to your original feature branch;
 - Iterate until the whole original feature is complete and PR it to the milestone branch;
 
+### HOTFIXES
+
+- Checkout from `master` and create a branch named `hotfix/<name>`. Make the fix and PR it back to `master`. After the merge, it will be released to npm and a new version will be available on storybook.
+
 ## For contributors on Natura Organization
 
 If you find yourself in this category, you can go directly to branching this repository, without worrying about forking.
@@ -94,13 +98,12 @@ We use [Netlify](https://www.netlify.com/) to create new storybook instances, ge
 
 ## Starting a new milestone
 
-Checkout to the master branch and create a new branch with the following naming:
-- vM.m.p
-  - v &rarr; letter v for version;
-  - M.m.p &rarr; Version number of the milestone following [SemVer](https://semver.org/);
+- Checkout from master branch with name `vX.Y.Z`, where `X.Y.Z` is the milestone number and alter the root package.json version to `X.Y.Z`
+- Checkout from master-docs to `vX.Y.Z-docs`
+- Clear the versions array file at `packages/docs/dist/verions_config.json` and remove all folders inside `packages/docs/dist/releases` and commit the changes.
+- Create an instance at netlify ([instructions here](./DEPLOY_NETLIFY.md)) syncing to the branch `vX.Y.Z-docs` without a build process. The instance must be pointing to `packages/docs/dist` and the link of the instance must be `https://natds-vX-Y-Z-alpha.netlify.com/`
+- Alter the github rule of the protected branches from `v*.*.*` to `v`
+- Delete the docs branch of the third to last milestone. The code branch of that milestone can also be deleted
+- Rollback the github rule from `v` to `v*.*.*`
+- The next merged PR on on the `vX.Y.Z` branch will generate an alpha version and will be visible on the netlify instance
 
-From the new branch, create another one with the same name, but with `-docs` sufix.
-
-Example: `v0.5.0` and `v0.5.0-docs`
-
-After that, follow the guide on [DEPLOY_NETLIFY.md](./DEPLOY_NETLIFY.md) and make the instance build with the docs branch.

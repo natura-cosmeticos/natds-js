@@ -23,5 +23,6 @@ module.exports = {
       lines: 100,
       statements: 100
     }
-  }
+  },
+  globalSetup: "./global-setup.js"
 }
