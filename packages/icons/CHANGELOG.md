@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.5.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.4.5...@naturacosmeticos/natds-icons@0.5.0) (2020-04-29)
+
+
+### Features
+
+* **Component Breadcrumbs:** creating new component Breadcrombs ([772d711](https://github.com/natura-cosmeticos/natds/commit/772d7112469899eb6b83b31994d3c878418c7f20))
+
+
+
+
+
 ## [0.4.5](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.4.4...@naturacosmeticos/natds-icons@0.4.5) (2020-04-28)
 
 
