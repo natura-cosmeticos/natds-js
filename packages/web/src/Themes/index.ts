@@ -2,11 +2,14 @@ import {
   themes as styleThemes,
   ITheme,
   IFont,
+  IElevation
 } from '@naturacosmeticos/natds-styles';
 import { createMuiTheme } from '@material-ui/core/styles';
+import { Shadows as IShadows } from '@material-ui/core/styles/shadows';
 
 export interface IThemeWeb
-  extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes' | 'shadows' | 'sizes'> {
+  extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes' | 'sizes'> {
+  shadows?: IShadows;
   typography: {
     fontFamily?: string;
     fontFamilyBrand1?: string;
@@ -32,8 +35,8 @@ export interface IThemeWeb
   };
 }
 
-function parseShadows(shadows: any): any[] {
-  const outShadows: any[] = [];
+function parseShadows(shadows: IElevation): IShadows {
+  const outShadows: any = [];
 
   createMuiTheme({}).shadows.forEach((shadow, index) => {
     if (shadows[index.toString()]) outShadows.push(shadows[index.toString()]);
