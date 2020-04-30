@@ -1,11 +1,9 @@
 import { fontSize } from "../tokens/fontSize";
-import {
-  IAvatarSizes,
-  IIconSizes,
-  IButtonSizes,
-  IElevation,
-  ISizes
-} from "../";
+import { IAvatarSizes } from "../tokens/avatarSizes/IAvatarSizes";
+import { IIconSizes } from "../tokens/iconSizes/IIconSizes";
+import { IButtonSizes } from "tokens/buttonSizes/IButtonSizes";
+import { IElevation } from "tokens/elevation/IElevation";
+import { ISizes } from "tokens/sizes/ISizes";
 
 type ITypography = {
   fontFamily?: string;
@@ -50,7 +48,7 @@ export interface ITheme {
       light?: string;
       dark?: string;
       contrastText?: string;
-    };
+    },
     error?: {
       main: string;
       light?: string;

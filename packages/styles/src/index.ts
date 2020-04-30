@@ -9,4 +9,3 @@ export { IOverlay } from "./tokens/overlay/IOverlay";
 export { ISpacing } from "./tokens/spacing/ISpacing";
 export { IRadius } from "./tokens/radius/IRadius";
 export { IFont } from "./tokens/fontSize/IFont";
-export { ISizes } from "./tokens/sizes/ISizes";
