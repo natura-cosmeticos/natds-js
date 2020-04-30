@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.5.0...@naturacosmeticos/natds-web@0.5.1) (2020-04-30)
+
+
+### Bug Fixes
+
+* **InputStateHelpTextProvider:** changed the theme type expected to receive by component ([35de4bf](https://github.com/natura-cosmeticos/natds/commit/35de4bf3ecf696fcf3eca34642d6a143f1568bd5))
+* **ITheme:** fix the type of shadows used on IThemeWeb ([0928c7d](https://github.com/natura-cosmeticos/natds/commit/0928c7d5d88572883c409a70a03bec7875098271))
+
+
+
+
+
 # [0.5.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.4.5...@naturacosmeticos/natds-web@0.5.0) (2020-04-29)
 
 

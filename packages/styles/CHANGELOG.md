@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.5.0...@naturacosmeticos/natds-styles@0.5.1) (2020-04-30)
+
+
+### Bug Fixes
+
+* **ITheme:** fix the type of shadows used on IThemeWeb ([0928c7d](https://github.com/natura-cosmeticos/natds/commit/0928c7d5d88572883c409a70a03bec7875098271))
+* **styles:** fix interface import path ([46b61f8](https://github.com/natura-cosmeticos/natds/commit/46b61f8cf9973a31239a261536f58f034ef9fc7f))
+
+
+
+
+
 # [0.5.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.4.5...@naturacosmeticos/natds-styles@0.5.0) (2020-04-29)
 
 
