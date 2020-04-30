@@ -48,9 +48,9 @@ export const avonDark: ITheme = {
       contrastText: avonDarkColorTokens.colorOnSuccess
     },
     background: {
-      paper: avonDarkColorTokens.colorOnPrimary,
+      paper: avonDarkColorTokens.colorSurface,
       default: avonDarkColorTokens.colorBackground,
-      paperContrastText: avonDarkColorTokens.colorOnBackground,
+      paperContrastText: avonDarkColorTokens.colorOnSurface,
       defaultContrastText: avonDarkColorTokens.colorOnBackground
     },
     text: {

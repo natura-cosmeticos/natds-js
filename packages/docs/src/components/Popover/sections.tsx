@@ -2,7 +2,7 @@ import React from 'react';
 import { Button, Link, Popover } from '@naturacosmeticos/natds-web';
 
 const PopoverWrapper = ({
-  direction = 'bottom',
+  direction = 'left',
   showActionLink,
 }: {
   direction?: any;
@@ -13,7 +13,7 @@ const PopoverWrapper = ({
   const actionLink = showActionLink && {
     text: 'Close Popover',
     onClick: () => alert('Action link was clicked.'),
-  };
+  } || undefined;
 
   return (
     <div
@@ -49,7 +49,7 @@ const PopoverWrapper = ({
 export const attributes = [
   {
     title: 'Direction',
-    component: <PopoverWrapper direction="left" />,
+    component: <PopoverWrapper />,
   },
   {
     title: 'Action Link',

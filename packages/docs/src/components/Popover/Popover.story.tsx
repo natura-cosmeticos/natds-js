@@ -4,7 +4,7 @@ import withContainer from '@decorators/container/container';
 import { Popover, Button } from '@naturacosmeticos/natds-web';
 
 import PopoverDocs from './Popover.docs.mdx';
-import { select } from '@storybook/addon-knobs';
+import { select, text } from '@storybook/addon-knobs';
 
 export default {
   title: 'Components|Popover',
@@ -35,6 +35,14 @@ const directions: any = {
   topEnd: 'top-end',
   topStart: 'top-start',
   top: 'top',
+};
+
+const actionsLink: any = {
+  with: {
+    onClick: () => alert('Action link was clicked.'),
+    text: 'Action link',
+  },
+  without: undefined,
 };
 
 export const Interactive = () => {
@@ -71,13 +79,10 @@ export const Interactive = () => {
         id={id}
         open={open}
         anchorEl={anchorRef.current}
-        direction={select('direction', directions, directions.bottom)}
-        actionLink={{
-          onClick: () => alert('Action link was clicked.'),
-          text: 'Action link',
-        }}
+        direction={select('Direction', directions, directions.bottom)}
+        actionLink={select('Action link', actionsLink, actionsLink.with)}
       >
-        Lorem ipsum dolor sit amet
+        {text('Popover text', 'Lorem ipsum dolor sit amet')}
       </Popover>
     </div>
   );

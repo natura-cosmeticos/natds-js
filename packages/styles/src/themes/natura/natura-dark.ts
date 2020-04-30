@@ -48,9 +48,9 @@ export const naturaDark: ITheme = {
       contrastText: naturaDarkColorTokens.colorOnSuccess
     },
     background: {
-      paper: naturaDarkColorTokens.colorOnPrimary,
+      paper: naturaDarkColorTokens.colorSurface,
       default: naturaDarkColorTokens.colorBackground,
-      paperContrastText: naturaDarkColorTokens.colorOnBackground,
+      paperContrastText: naturaDarkColorTokens.colorOnSurface,
       defaultContrastText: naturaDarkColorTokens.colorOnBackground
     },
     text: {

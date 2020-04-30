@@ -48,9 +48,9 @@ export const theBodyShopDark: ITheme = {
       contrastText: theBodyShopDarkColorTokens.colorOnSuccess
     },
     background: {
-      paper: theBodyShopDarkColorTokens.colorOnPrimary,
+      paper: theBodyShopDarkColorTokens.colorSurface,
       default: theBodyShopDarkColorTokens.colorBackground,
-      paperContrastText: theBodyShopDarkColorTokens.colorOnBackground,
+      paperContrastText: theBodyShopDarkColorTokens.colorOnSurface,
       defaultContrastText: theBodyShopDarkColorTokens.colorOnBackground
     },
     text: {
