@@ -1,7 +1,6 @@
 import React, { FunctionComponent } from 'react';
 import styled from 'styled-components';
-import { IThemeWeb } from 'Themes';
-import { tokens } from '@naturacosmeticos/natds-styles';
+import { ITheme, tokens } from '@naturacosmeticos/natds-styles';
 import ErrorIcon from '@material-ui/icons/HighlightOffOutlined';
 import SuccessIcon from '@material-ui/icons/CheckCircleOutline';
 
@@ -9,7 +8,7 @@ import { getProp, getColorByState, stateStyles } from './TextField/shared';
 
 export interface IInputStateHelpTextProviderProps {
   id?: string;
-  theme?: IThemeWeb;
+  theme?: ITheme;
   label?: string;
   helpText?: string;
   required?: boolean;
