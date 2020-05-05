@@ -48,7 +48,7 @@ export const Interactive = () => (
     placeholder={text('placeholder', 'XD')}
     helpText={text('helpText', 'Assistive text')}
     type={select('type', types, types.text)}
-    state={select('state', states, states.text)}
+    state={select('state', states, states.default)}
     required={boolean('required', false)}
     mask={select('mask', mask, mask.none)}
     disabled={boolean('disabled', false)}

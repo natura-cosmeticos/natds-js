@@ -125,7 +125,8 @@ export const theBodyShopLight: ITheme = {
     },
     MuiIconButton: {
       root: {
-        padding: "8px"
+        padding: "8px",
+        color: theBodyShopLightColorTokens.colorHighEmphasis
       },
       sizeSmall: {
         padding: "4px"
@@ -355,6 +356,15 @@ export const theBodyShopLight: ITheme = {
       },
       input: {
         color: theBodyShopLightColorTokens.colorHighEmphasis
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
+      },
+      positionEnd: {
+        marginRight: spacing.spacingTiny
       }
     },
     MuiInputLabel: {

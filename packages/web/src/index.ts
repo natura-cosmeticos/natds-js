@@ -50,6 +50,7 @@ export { default as Icon, IIconProps } from './Components/Icon';
 export { default as IconButton, IIconButtonProps } from './Components/IconButton';
 export { default as Intro, IIntroProps } from './Components/Intro';
 export { default as InputLabel, IInputLabelProps } from './Components/InputLabel';
+export { default as KeyboardDatePicker, IKeyboardDatePickerViewsProps } from './Components/KeyboardDatePicker';
 export { default as LinearProgress, ILinearProgressProps } from './Components/LinearProgress';
 export { default as Link, ILinkProps } from './Components/Link';
 export { default as List, IListProps } from './Components/List';

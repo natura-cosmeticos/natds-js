@@ -374,6 +374,15 @@ export const naturaDark: ITheme = {
         color: naturaDarkColorTokens.colorHighEmphasis
       }
     },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
+      },
+      positionEnd: {
+        marginRight: spacing.spacingTiny
+      }
+    },
     MuiInputLabel: {
       formControl: {
         transform: "none",

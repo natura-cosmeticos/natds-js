@@ -377,6 +377,15 @@ export const theBodyShopDark: ITheme = {
         color: theBodyShopDarkColorTokens.colorHighEmphasis
       }
     },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
+      },
+      positionEnd: {
+        marginRight: spacing.spacingTiny
+      }
+    },
     MuiInputLabel: {
       formControl: {
         transform: "none",

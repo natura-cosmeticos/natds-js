@@ -365,6 +365,15 @@ export const avonDark: ITheme = {
         color: avonDarkColorTokens.colorHighEmphasis
       }
     },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
+      },
+      positionEnd: {
+        marginRight: spacing.spacingTiny
+      }
+    },
     MuiInputLabel: {
       formControl: {
         transform: "none",

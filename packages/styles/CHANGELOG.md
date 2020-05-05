@@ -3,6 +3,68 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.5.0...@naturacosmeticos/natds-styles@0.5.1) (2020-04-30)
+
+
+### Bug Fixes
+
+* **ITheme:** fix the type of shadows used on IThemeWeb ([0928c7d](https://github.com/natura-cosmeticos/natds/commit/0928c7d5d88572883c409a70a03bec7875098271))
+* **styles:** fix interface import path ([46b61f8](https://github.com/natura-cosmeticos/natds/commit/46b61f8cf9973a31239a261536f58f034ef9fc7f))
+
+
+
+
+
+# [0.5.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.4.5...@naturacosmeticos/natds-styles@0.5.0) (2020-04-29)
+
+
+### Bug Fixes
+
+* **Fix in components datepicker and breadcrumbs:** fix in components datepicker and breadcrumbs ([94d0f37](https://github.com/natura-cosmeticos/natds/commit/94d0f37e869f09ff47691f1b98658b551c2c7cbf))
+* **theme:** updating Avon theme ([4aefa92](https://github.com/natura-cosmeticos/natds/commit/4aefa92afe02ca5657c894402b83456ead0f25e7))
+* **theme:** updating Avon theme colors ([4134f69](https://github.com/natura-cosmeticos/natds/commit/4134f69cce6e81bb89d38d14503f1b6eab354dee))
+* **theme:** updating dark theme ([8ac3959](https://github.com/natura-cosmeticos/natds/commit/8ac39597b8e2daa78b78f74ec7ffbfbf9cb3aa23))
+
+
+### Features
+
+* **Component Breadcrumbs:** creating new component Breadcrombs ([772d711](https://github.com/natura-cosmeticos/natds/commit/772d7112469899eb6b83b31994d3c878418c7f20))
+* **KeyboardDatePicker:** added state control and helper text ability ([ba3829b](https://github.com/natura-cosmeticos/natds/commit/ba3829b8c297fbbb00a4aa619b29abf8517c0388))
+* **KeyboardDatePicker:** added the InputStateHelpTextProvider to contain a label and helpText extra ([e9601d6](https://github.com/natura-cosmeticos/natds/commit/e9601d6afb27b1100c8f6642599e8cd5c7a11a3f))
+* **New Component DatePicker:** creating new component datepicker ([8debc7e](https://github.com/natura-cosmeticos/natds/commit/8debc7ec74695b2af53a9de76507c24ebb825e29))
+* **Pickers:** apply to pickers better specs following material design guidelines ([5f77c6f](https://github.com/natura-cosmeticos/natds/commit/5f77c6fd3c2430b4caa03b19d6581bb808a43340))
+* **Styled New Component KeyboardDatePicker:** styled new component keyboardDatePicker ([ecf2da4](https://github.com/natura-cosmeticos/natds/commit/ecf2da41915cf6e22be6a3ba45faeaac62835863))
+* **theme:** creating Avon Theme ([2d898bc](https://github.com/natura-cosmeticos/natds/commit/2d898bcc58975f7307ede3de3bc13e7991556b67))
+* **Theme:** creating The Body Shop Theme ([ab8ed92](https://github.com/natura-cosmeticos/natds/commit/ab8ed921c3ecc685885b5504837852eeeb804cbc))
+
+
+
+
+
+## [0.4.5](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.4.4...@naturacosmeticos/natds-styles@0.4.5) (2020-04-28)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
+## [0.4.4](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.4.3...@naturacosmeticos/natds-styles@0.4.4) (2020-04-23)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
+## [0.4.3](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.4.2...@naturacosmeticos/natds-styles@0.4.3) (2020-04-15)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
 ## [0.4.2](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.4.1...@naturacosmeticos/natds-styles@0.4.2) (2020-04-13)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles

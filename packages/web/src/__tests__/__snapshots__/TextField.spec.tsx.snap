@@ -5,7 +5,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -16,7 +16,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat gyvynf undefined__input"
+      className="sc-htpNat bWsiTa undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -49,7 +49,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -62,7 +62,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -73,7 +73,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat gyvynf undefined__input"
+      className="sc-htpNat bWsiTa undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -101,7 +101,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -466,10 +466,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -1109,10 +1119,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -1400,7 +1420,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb ePKCXC"
 >
   <label
-    className="sc-ifAKCX ivLbDD"
+    className="sc-ifAKCX iNTEeG"
     disabled={false}
     htmlFor="field"
   >
@@ -1411,7 +1431,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat flohxr undefined__input"
+      className="sc-htpNat jNnvGG undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1423,7 +1443,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje hzpAND"
+    className="sc-EHOje kcKVdJ"
     disabled={false}
   >
     Assistive text
@@ -1436,7 +1456,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -1447,7 +1467,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat cMaMFt undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1459,7 +1479,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -1472,7 +1492,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -1483,7 +1503,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat cMaMFt undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1495,7 +1515,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -1861,10 +1881,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -2505,10 +2535,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -2796,7 +2836,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX erbqoT"
+    className="sc-ifAKCX dpnCtM"
     disabled={true}
     htmlFor="field"
   >
@@ -2807,7 +2847,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={true}
   >
     <input
-      className="sc-htpNat hFZsnD undefined__input"
+      className="sc-htpNat jfEZiS undefined__input"
       disabled={true}
       id="field"
       label="Label"
@@ -2819,7 +2859,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje iTMyac"
+    className="sc-EHOje hfPBnQ"
     disabled={true}
   >
     Assistive text
@@ -3185,10 +3225,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -3829,10 +3879,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -4120,7 +4180,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX hTyEeC"
+    className="sc-ifAKCX fbXOkv"
     disabled={false}
     htmlFor="field"
   >
@@ -4131,7 +4191,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat bIprmw undefined__input"
+      className="sc-htpNat bwqDde undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -4143,12 +4203,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje ligbie"
+    className="sc-EHOje kbBqut"
     disabled={false}
   >
     <svg
       aria-hidden="true"
-      className="MuiSvgIcon-root sc-bZQynM WSAdF"
+      className="MuiSvgIcon-root sc-bZQynM bKnZNA"
       focusable="false"
       role="presentation"
       theme={
@@ -4502,10 +4562,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "MuiIconButton": Object {
               "root": Object {
+                "color": "#333333",
                 "padding": "8px",
               },
               "sizeSmall": Object {
                 "padding": "4px",
+              },
+            },
+            "MuiInputAdornment": Object {
+              "positionEnd": Object {
+                "marginRight": 8,
+              },
+              "root": Object {
+                "position": "absolute",
+                "right": "0",
               },
             },
             "MuiInputBase": Object {
@@ -5153,10 +5223,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -5797,10 +5877,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -6089,7 +6179,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -6100,7 +6190,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat cMaMFt undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -6112,7 +6202,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -6125,7 +6215,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -6136,7 +6226,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat cMaMFt undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       hasIcon={false}
       helpText="Assistive text"
@@ -6514,10 +6604,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "MuiIconButton": Object {
               "root": Object {
+                "color": "#333333",
                 "padding": "8px",
               },
               "sizeSmall": Object {
                 "padding": "4px",
+              },
+            },
+            "MuiInputAdornment": Object {
+              "positionEnd": Object {
+                "marginRight": 8,
+              },
+              "root": Object {
+                "position": "absolute",
+                "right": "0",
               },
             },
             "MuiInputBase": Object {
@@ -6802,7 +6902,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -6815,7 +6915,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -6826,7 +6926,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <textarea
-      className="sc-htpNat cMaMFt undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -6838,7 +6938,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -6851,7 +6951,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -6862,7 +6962,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat cMaMFt undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -6874,7 +6974,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -6891,7 +6991,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat cMaMFt undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label={null}
@@ -6903,7 +7003,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -6916,7 +7016,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX ciiOJM"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
@@ -6927,7 +7027,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat cMaMFt undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -6939,7 +7039,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje gjnIKT"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -7305,10 +7405,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -7949,10 +8059,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
         },
         "MuiIconButton": Object {
           "root": Object {
+            "color": "#333333",
             "padding": "8px",
           },
           "sizeSmall": Object {
             "padding": "4px",
+          },
+        },
+        "MuiInputAdornment": Object {
+          "positionEnd": Object {
+            "marginRight": 8,
+          },
+          "root": Object {
+            "position": "absolute",
+            "right": "0",
           },
         },
         "MuiInputBase": Object {
@@ -8240,7 +8360,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX fXhCAO"
+    className="sc-ifAKCX fywemI"
     disabled={false}
     htmlFor="field"
   >
@@ -8251,7 +8371,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat eKGCbC undefined__input"
+      className="sc-htpNat GSGXx undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -8263,12 +8383,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje fKUVzh"
+    className="sc-EHOje bCGmrs"
     disabled={false}
   >
     <svg
       aria-hidden="true"
-      className="MuiSvgIcon-root sc-gzVnrw bwlNUI"
+      className="MuiSvgIcon-root sc-gzVnrw dFIzKz"
       focusable="false"
       role="presentation"
       theme={
@@ -8622,10 +8742,20 @@ exports[`TextField component rendering state should match snapshot - TextField (
             },
             "MuiIconButton": Object {
               "root": Object {
+                "color": "#333333",
                 "padding": "8px",
               },
               "sizeSmall": Object {
                 "padding": "4px",
+              },
+            },
+            "MuiInputAdornment": Object {
+              "positionEnd": Object {
+                "marginRight": 8,
+              },
+              "root": Object {
+                "position": "absolute",
+                "right": "0",
               },
             },
             "MuiInputBase": Object {
@@ -8921,7 +9051,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
   className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-ifAKCX erbqoT"
+    className="sc-ifAKCX dpnCtM"
     disabled={false}
     htmlFor="field"
   >
@@ -8932,7 +9062,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <input
-      className="sc-htpNat eiEQEi undefined__input"
+      className="sc-htpNat jBquMw undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -8944,7 +9074,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-EHOje iTMyac"
+    className="sc-EHOje hfPBnQ"
     disabled={false}
   >
     Assistive text

@@ -399,10 +399,20 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputAdornment": Object {
+            "positionEnd": Object {
+              "marginRight": 8,
+            },
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
             },
           },
           "MuiInputBase": Object {
@@ -1212,10 +1222,20 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
           },
           "MuiIconButton": Object {
             "root": Object {
+              "color": "#333333",
               "padding": "8px",
             },
             "sizeSmall": Object {
               "padding": "4px",
+            },
+          },
+          "MuiInputAdornment": Object {
+            "positionEnd": Object {
+              "marginRight": 8,
+            },
+            "root": Object {
+              "position": "absolute",
+              "right": "0",
             },
           },
           "MuiInputBase": Object {

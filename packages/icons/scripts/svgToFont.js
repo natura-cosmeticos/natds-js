@@ -22,7 +22,8 @@ function onSuccess(result) {
   });
 
   fs.writeFile(distMetada + fontName + '.css', template, onError);
-  fs.writeFile(distMetada + fontName + '.json', JSON.stringify(metadata), onError);
+  const formattedMetadataJson = JSON.stringify(metadata, null, "\t") + "\n";
+  fs.writeFile(distMetada + fontName + '.json', formattedMetadataJson, onError);
 
   for (let index = 0; index < types.length; index++) {
     const element = types[index];

@@ -125,7 +125,8 @@ export const naturaLight: ITheme = {
     },
     MuiIconButton: {
       root: {
-        padding: "8px"
+        padding: "8px",
+        color: naturaLightColorTokens.colorHighEmphasis
       },
       sizeSmall: {
         padding: "4px"
@@ -352,6 +353,15 @@ export const naturaLight: ITheme = {
       },
       input: {
         color: naturaLightColorTokens.colorOnPrimaryLight
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
+      },
+      positionEnd: {
+        marginRight: spacing.spacingTiny
       }
     },
     MuiInputLabel: {

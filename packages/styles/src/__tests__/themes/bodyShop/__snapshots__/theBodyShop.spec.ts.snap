@@ -378,6 +378,15 @@ Object {
         "padding": "4px",
       },
     },
+    "MuiInputAdornment": Object {
+      "positionEnd": Object {
+        "marginRight": 8,
+      },
+      "root": Object {
+        "position": "absolute",
+        "right": "0",
+      },
+    },
     "MuiInputBase": Object {
       "input": Object {
         "color": "#FAFAFA",
@@ -1012,10 +1021,20 @@ Object {
     },
     "MuiIconButton": Object {
       "root": Object {
+        "color": "#333333",
         "padding": "8px",
       },
       "sizeSmall": Object {
         "padding": "4px",
+      },
+    },
+    "MuiInputAdornment": Object {
+      "positionEnd": Object {
+        "marginRight": 8,
+      },
+      "root": Object {
+        "position": "absolute",
+        "right": "0",
       },
     },
     "MuiInputBase": Object {

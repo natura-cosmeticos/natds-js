@@ -46,6 +46,9 @@ const useStyles = makeStyles((theme: Theme) =>
         textDecoration: 'underline',
       },
     },
+    icon: {
+      marginRight: '4px',
+    },
   })
 );
 
@@ -73,7 +76,11 @@ export const IconBreadcrumbs = () => {
         onClick={handleClick}
         underline="none"
       >
-        <Icon name={select('Primeiro Icon', icons, icons[0])} size="tiny" />
+        <Icon
+          name={select('First Icon', icons, icons[0])}
+          size="tiny"
+          className={classes.icon}
+        />
         <Typography className={classes.label}>Material-UI</Typography>
       </Link>
       <Link
@@ -83,7 +90,11 @@ export const IconBreadcrumbs = () => {
         onClick={handleClick}
         underline="none"
       >
-        <Icon name={select('Segundo Icon', icons, icons[0])} size="tiny" />
+        <Icon
+          name={select('Second Icon', icons, icons[0])}
+          size="tiny"
+          className={classes.icon}
+        />
         <Typography className={classes.label}>Core</Typography>
       </Link>
       <Link

@@ -125,7 +125,8 @@ export const avonLight: ITheme = {
     },
     MuiIconButton: {
       root: {
-        padding: "8px"
+        padding: "8px",
+        color: avonLightColorTokens.colorHighEmphasis
       },
       sizeSmall: {
         padding: "4px"
@@ -340,6 +341,15 @@ export const avonLight: ITheme = {
       },
       input: {
         color: avonLightColorTokens.colorOnPrimaryLight
+      }
+    },
+    MuiInputAdornment: {
+      root: {
+        position: "absolute",
+        right: "0"
+      },
+      positionEnd: {
+        marginRight: spacing.spacingTiny
       }
     },
     MuiInputLabel: {
