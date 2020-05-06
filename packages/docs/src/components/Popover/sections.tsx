@@ -1,9 +1,10 @@
 import React from 'react';
-import { Button, Link, Popover } from '@naturacosmeticos/natds-web';
+import { Button, Popover } from '@naturacosmeticos/natds-web';
 
 const PopoverWrapper = ({
   direction = 'left',
   showActionLink,
+  ...props
 }: {
   direction?: any;
   showActionLink?: boolean;
@@ -18,7 +19,7 @@ const PopoverWrapper = ({
   return (
     <div
       style={{
-        height: '92px',
+        height: '100px',
         width: '280px',
         display: 'flex',
         alignItems: direction.includes('top') ? 'flex-end' : 'flex-start',
@@ -39,6 +40,7 @@ const PopoverWrapper = ({
         direction={direction}
         anchorEl={anchor}
         actionLink={actionLink}
+        {...props}
       >
         Lorem ipsum dolor
       </Popover>
@@ -54,6 +56,10 @@ export const attributes = [
   {
     title: 'Action Link',
     component: <PopoverWrapper showActionLink />,
+  },
+  {
+    title: 'Max Width - 75px',
+    component: <PopoverWrapper maxWidth={75} />,
   },
 ];
 

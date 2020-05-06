@@ -4,7 +4,7 @@ import withContainer from '@decorators/container/container';
 import { Popover, Button } from '@naturacosmeticos/natds-web';
 
 import PopoverDocs from './Popover.docs.mdx';
-import { select, text } from '@storybook/addon-knobs';
+import { select, text, number } from '@storybook/addon-knobs';
 
 export default {
   title: 'Components|Popover',
@@ -46,8 +46,7 @@ const actionsLink: any = {
 };
 
 export const Interactive = () => {
-  const anchorRef = React.useRef(null);
-
+  const [anchorRef, setAnchorRef] = React.useState();
   const [open, setOpen] = React.useState(false);
 
   const handleClickButton = () => {
@@ -59,16 +58,15 @@ export const Interactive = () => {
   return (
     <div
       style={{
-        height: '250px',
+        height: '400px',
         width: '100%',
-        display: 'flex',
-        alignItems: 'center',
-        justifyContent: 'center',
+        marginTop: '150px',
+        marginLeft: '400px'
       }}
     >
       <Button
         aria-describedby={id}
-        ref={anchorRef}
+        ref={setAnchorRef}
         variant="contained"
         color="primary"
         onClick={handleClickButton}
@@ -78,11 +76,12 @@ export const Interactive = () => {
       <Popover
         id={id}
         open={open}
-        anchorEl={anchorRef.current}
-        direction={select('Direction', directions, directions.bottom)}
-        actionLink={select('Action link', actionsLink, actionsLink.with)}
+        anchorEl={anchorRef}
+        direction={select('direction', directions, directions.bottom)}
+        actionLink={select('actionLink', actionsLink, actionsLink.with)}
+        maxWidth={number('maxWidth', 0)}
       >
-        {text('Popover text', 'Lorem ipsum dolor sit amet')}
+        {text('children', 'Lorem ipsum dolor sit amet')}
       </Popover>
     </div>
   );

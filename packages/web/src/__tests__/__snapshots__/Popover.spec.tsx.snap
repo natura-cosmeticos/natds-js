@@ -1150,7 +1150,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -1165,6 +1165,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -1183,6 +1184,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -1201,6 +1203,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -1219,6 +1222,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -1243,6 +1247,9 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -2146,7 +2153,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -3001,7 +3008,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -3020,7 +3027,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -3039,7 +3046,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -3061,7 +3068,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -5172,7 +5179,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -5187,6 +5194,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -5205,6 +5213,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -5223,6 +5232,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -5241,6 +5251,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -5265,6 +5276,9 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -6168,7 +6182,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -7023,7 +7037,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -7045,7 +7059,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -9156,7 +9170,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -9171,6 +9185,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -9189,6 +9204,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -9207,6 +9223,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -9225,6 +9242,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -9249,6 +9267,9 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -10152,7 +10173,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -11007,7 +11028,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -11026,7 +11047,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -11048,7 +11069,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -13159,7 +13180,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -13174,6 +13195,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -13192,6 +13214,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -13210,6 +13233,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -13228,6 +13252,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -13252,6 +13277,9 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -14155,7 +14183,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -15010,7 +15038,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -15029,7 +15057,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -15048,7 +15076,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -15067,7 +15095,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -15086,7 +15114,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -15105,7 +15133,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -15127,7 +15155,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -17238,7 +17266,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -17253,6 +17281,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -17271,6 +17300,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -17289,6 +17319,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -17307,6 +17338,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -17331,6 +17363,9 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -18234,7 +18269,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -19089,7 +19124,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -19108,7 +19143,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -19127,7 +19162,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -19146,7 +19181,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -19168,7 +19203,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -21279,7 +21314,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -21294,6 +21329,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -21312,6 +21348,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -21330,6 +21367,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -21348,6 +21386,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -21372,6 +21411,9 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -22275,7 +22317,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -23130,7 +23172,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -23149,7 +23191,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -23168,7 +23210,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -23187,7 +23229,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -23206,7 +23248,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -23228,7 +23270,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -25339,7 +25381,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -25354,6 +25396,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -25372,6 +25415,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -25390,6 +25434,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -25408,6 +25453,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -25432,6 +25478,9 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -26335,7 +26384,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -27190,7 +27239,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -27209,7 +27258,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -27228,7 +27277,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -27247,7 +27296,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -27266,7 +27315,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -27285,7 +27334,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -27304,7 +27353,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -27323,7 +27372,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -27342,7 +27391,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -27364,7 +27413,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -29475,7 +29524,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -29490,6 +29539,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -29508,6 +29558,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -29526,6 +29577,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -29544,6 +29596,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -29568,6 +29621,9 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -30471,7 +30527,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -31326,7 +31382,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -31345,7 +31401,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -31364,7 +31420,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -31383,7 +31439,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -31402,7 +31458,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -31421,7 +31477,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -31440,7 +31496,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -31462,7 +31518,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -33573,7 +33629,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -33588,6 +33644,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -33606,6 +33663,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -33624,6 +33682,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -33642,6 +33701,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -33666,6 +33726,9 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -34569,7 +34632,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -35424,7 +35487,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -35443,7 +35506,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -35462,7 +35525,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -35481,7 +35544,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -35500,7 +35563,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -35519,7 +35582,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -35538,7 +35601,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -35557,7 +35620,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -35579,7 +35642,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -37690,7 +37753,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -37705,6 +37768,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -37723,6 +37787,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -37741,6 +37806,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -37759,6 +37825,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -37783,6 +37850,9 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -38686,7 +38756,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -39541,7 +39611,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39560,7 +39630,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39579,7 +39649,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39598,7 +39668,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39617,7 +39687,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39636,7 +39706,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39655,7 +39725,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39674,7 +39744,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39693,7 +39763,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39712,7 +39782,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39731,7 +39801,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39750,7 +39820,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -39772,7 +39842,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -41883,7 +41953,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -41898,6 +41968,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -41916,6 +41987,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -41934,6 +42006,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -41952,6 +42025,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -41976,6 +42050,9 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -42879,7 +42956,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -43734,7 +43811,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43753,7 +43830,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43772,7 +43849,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43791,7 +43868,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43810,7 +43887,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43829,7 +43906,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43848,7 +43925,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43867,7 +43944,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43886,7 +43963,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43905,7 +43982,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -43927,7 +44004,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -46038,7 +46115,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -46053,6 +46130,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -46071,6 +46149,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -46089,6 +46168,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -46107,6 +46187,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -46131,6 +46212,9 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -47034,7 +47118,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -47889,7 +47973,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -47908,7 +47992,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -47927,7 +48011,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -47946,7 +48030,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -47965,7 +48049,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -47984,7 +48068,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -48003,7 +48087,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -48022,7 +48106,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -48041,7 +48125,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -48060,7 +48144,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -48079,7 +48163,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -48101,7 +48185,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {
@@ -50220,7 +50304,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             "componentStyle": ComponentStyle {
               "componentId": "sc-kgoBCf",
               "isStatic": false,
-              "lastClassName": "iiUqvK",
+              "lastClassName": "bbisGT",
               "rules": Array [
                 "
   && {
@@ -50235,6 +50319,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ",
                 [Function],
@@ -50253,6 +50338,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ",
                 [Function],
@@ -50271,6 +50357,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ",
                 [Function],
@@ -50289,6 +50376,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ",
                 [Function],
@@ -50313,6 +50401,9 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
     }
 
     .popover-container {
+      max-width: ",
+                [Function],
+                "px;
       padding: ",
                 [Function],
                 "px;
@@ -51216,7 +51307,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
         }
       >
         <ForwardRef(Popper)
-          className="sc-kgoBCf iiUqvK"
+          className="sc-kgoBCf bbisGT"
           modifiers={
             Object {
               "arrow": Object {
@@ -52071,7 +52162,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               containerInfo={
                 <body>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52090,7 +52181,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52109,7 +52200,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52128,7 +52219,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52147,7 +52238,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52166,7 +52257,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52185,7 +52276,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52204,7 +52295,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52223,7 +52314,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52242,7 +52333,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52261,7 +52352,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52280,7 +52371,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52299,7 +52390,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </div>
                   <div
-                    class="sc-kgoBCf iiUqvK"
+                    class="sc-kgoBCf bbisGT"
                     role="tooltip"
                     style="position: fixed; top: 0px; left: 0px;"
                     theme="[object Object]"
@@ -52328,7 +52419,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               }
             >
               <div
-                className="sc-kgoBCf iiUqvK"
+                className="sc-kgoBCf bbisGT"
                 role="tooltip"
                 style={
                   Object {

@@ -390,11 +390,29 @@ Object {
     },
     "MuiInputBase": Object {
       "input": Object {
-        "color": "#FAFAFA",
+        "&.Mui-disabled": Object {
+          "opacity": 0.24,
+        },
+        "color": "#000000",
       },
       "root": Object {
-        "&.Mui-focused": Object {
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
           "boxShadow": "#F091C9 0 0 0 2px",
+        },
+        "&.MuiError": Object {
+          "&.Mui-focused": Object {
+            "boxShadow": "#E74627 0 0 0 2px",
+          },
+          "&:hover": Object {
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+          },
+          "boxShadow": "#E74627 0 0 0 2px",
+        },
+        "&.MuiFilled:not(.Mui-focused)": Object {
+          "&:hover": Object {
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+          },
+          "boxShadow": "#FAFAFA 0 0 0 1px",
         },
         "&.MuiInput-underline.Mui-disabled:before": Object {
           "borderBottomStyle": "none",
@@ -407,6 +425,15 @@ Object {
         },
         "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
           "borderBottom": "none",
+        },
+        "&.MuiSuccess": Object {
+          "&.Mui-focused": Object {
+            "boxShadow": "#569A32 0 0 0 1px",
+          },
+          "&:hover": Object {
+            "boxShadow": "#BBBBBB 0 0 0 1px",
+          },
+          "boxShadow": "#569A32 0 0 0 1px",
         },
         "&:hover": Object {
           "boxShadow": "#BBBBBB 0 0 0 1px",
@@ -1040,11 +1067,29 @@ Object {
     },
     "MuiInputBase": Object {
       "input": Object {
+        "&.Mui-disabled": Object {
+          "opacity": 0.24,
+        },
         "color": "#000000",
       },
       "root": Object {
-        "&.Mui-focused": Object {
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
           "boxShadow": "#DE0085 0 0 0 2px",
+        },
+        "&.MuiError": Object {
+          "&.Mui-focused": Object {
+            "boxShadow": "#E74627 0 0 0 2px",
+          },
+          "&:hover": Object {
+            "boxShadow": "#777777 0 0 0 1px",
+          },
+          "boxShadow": "#E74627 0 0 0 2px",
+        },
+        "&.MuiFilled:not(.Mui-focused)": Object {
+          "&:hover": Object {
+            "boxShadow": "#777777 0 0 0 1px",
+          },
+          "boxShadow": "#333333 0 0 0 1px",
         },
         "&.MuiInput-underline.Mui-disabled:before": Object {
           "borderBottomStyle": "none",
@@ -1057,6 +1102,15 @@ Object {
         },
         "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
           "borderBottom": "none",
+        },
+        "&.MuiSuccess": Object {
+          "&.Mui-focused": Object {
+            "boxShadow": "#569A32 0 0 0 1px",
+          },
+          "&:hover": Object {
+            "boxShadow": "#777777 0 0 0 1px",
+          },
+          "boxShadow": "#569A32 0 0 0 1px",
         },
         "&:hover": Object {
           "boxShadow": "#777777 0 0 0 1px",

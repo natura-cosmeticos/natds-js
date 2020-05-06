@@ -20,6 +20,7 @@ export interface IPopoverProps extends Omit<IPopperProps, 'placement'> {
   component?: React.ElementType;
   actionLink?: IActionLink;
   direction?: PopperPlacementType;
+  maxWidth?: number;
 }
 
 const getActionLink = (actionLink?: IActionLink) => {
@@ -91,7 +92,7 @@ export const Popover: FunctionComponent<IPopoverProps> = forwardRef(
 
 export default withTheme(Popover);
 
-const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb }>`
+const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb, maxWidth: number }>`
   && {
     z-index: 1;
     &[x-placement*='bottom'] {
@@ -102,6 +103,7 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb }>`
         margin-top: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 0 1em 1em 1em;
           border-color: ${({ theme }) =>
             `transparent transparent ${theme.palette.background.paper} transparent`};
@@ -117,6 +119,7 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb }>`
         margin-bottom: -0.9em;
 
         &:before {
+          margin-left: 3px;
           border-width: 1em 1em 0 1em;
           border-color: ${({ theme }) =>
             `${theme.palette.background.paper} transparent transparent transparent`};
@@ -132,6 +135,7 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb }>`
         margin-left: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 1em 1em 0;
           border-color: ${({ theme }) =>
             `transparent ${theme.palette.background.paper} transparent transparent`};
@@ -147,6 +151,7 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb }>`
         margin-right: -0.9em;
 
         &:before {
+          margin-top: 3px;
           border-width: 1em 0 1em 1em;
           border-color: ${({ theme }) =>
             `transparent transparent transparent ${theme.palette.background.paper}`};
@@ -170,6 +175,7 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb }>`
     }
 
     .popover-container {
+      max-width: ${({ maxWidth }) => maxWidth || 380}px;
       padding: ${({ theme }) => theme.spacing(2)}px;
     }
 
