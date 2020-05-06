@@ -329,8 +329,32 @@ export const naturaLight: ITheme = {
         "&:hover": {
           boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
-        "&.Mui-focused": {
+        "&.MuiError": {
+          boxShadow: `${naturaLightColorTokens.colorAlert} 0 0 0 2px`,
+          "&:hover": {
+            boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${naturaLightColorTokens.colorAlert} 0 0 0 2px`
+          }
+        },
+        "&.MuiSuccess": {
+          boxShadow: `${naturaLightColorTokens.colorSuccess} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${naturaLightColorTokens.colorSuccess} 0 0 0 1px`
+          }
+        },
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
           boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiFilled:not(.Mui-focused)": {
+          boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
@@ -352,7 +376,10 @@ export const naturaLight: ITheme = {
         boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: naturaLightColorTokens.colorOnPrimaryLight
+        color: naturaLightColorTokens.colorOnPrimaryLight,
+        "&.Mui-disabled": {
+          opacity: 0.24
+        }
       }
     },
     MuiInputAdornment: {

@@ -717,11 +717,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -734,6 +752,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -1693,11 +1720,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -1710,6 +1755,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -2515,11 +2569,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -2532,6 +2604,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -3392,11 +3473,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -3409,6 +3508,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -4631,11 +4739,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -4648,6 +4774,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -5607,11 +5742,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -5624,6 +5777,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -6429,11 +6591,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -6446,6 +6626,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -7268,11 +7457,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -7285,6 +7492,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -8507,11 +8723,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -8524,6 +8758,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -9483,11 +9726,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -9500,6 +9761,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -10305,11 +10575,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -10322,6 +10610,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -11163,11 +11460,29 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -11180,6 +11495,15 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -12402,11 +12726,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -12419,6 +12761,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -13378,11 +13729,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -13395,6 +13764,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -14200,11 +14578,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -14217,6 +14613,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -15134,11 +15539,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -15151,6 +15574,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -16373,11 +16805,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -16390,6 +16840,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -17349,11 +17808,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -17366,6 +17843,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -18171,11 +18657,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -18188,6 +18692,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -19067,11 +19580,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -19084,6 +19615,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -20306,11 +20846,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -20323,6 +20881,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -21282,11 +21849,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -21299,6 +21884,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -22104,11 +22698,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -22121,6 +22733,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -23019,11 +23640,29 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -23036,6 +23675,15 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -24258,11 +24906,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -24275,6 +24941,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -25234,11 +25909,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -25251,6 +25944,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -26056,11 +26758,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -26073,6 +26793,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -27047,11 +27776,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -27064,6 +27811,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -28286,11 +29042,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -28303,6 +29077,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -29262,11 +30045,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -29279,6 +30080,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -30084,11 +30894,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -30101,6 +30929,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -31037,11 +31874,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -31054,6 +31909,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -32276,11 +33140,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -32293,6 +33175,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -33252,11 +34143,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -33269,6 +34178,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -34074,11 +34992,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -34091,6 +35027,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -35046,11 +35991,29 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -35063,6 +36026,15 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -36285,11 +37257,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -36302,6 +37292,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -37261,11 +38260,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -37278,6 +38295,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -38083,11 +39109,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -38100,6 +39144,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -39131,11 +40184,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -39148,6 +40219,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -40370,11 +41450,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -40387,6 +41485,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -41346,11 +42453,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -41363,6 +42488,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -42168,11 +43302,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -42185,6 +43337,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -43178,11 +44339,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -43195,6 +44374,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -44417,11 +45605,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -44434,6 +45640,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -45393,11 +46608,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -45410,6 +46643,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -46215,11 +47457,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -46232,6 +47492,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -47244,11 +48513,29 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -47261,6 +48548,15 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",
@@ -48491,11 +49787,29 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -48508,6 +49822,15 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -49467,11 +50790,29 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -49484,6 +50825,15 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -50289,11 +51639,29 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -50306,6 +51674,15 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -51363,11 +52740,29 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                       },
                       "MuiInputBase": Object {
                         "input": Object {
+                          "&.Mui-disabled": Object {
+                            "opacity": 0.24,
+                          },
                           "color": "#333333",
                         },
                         "root": Object {
-                          "&.Mui-focused": Object {
+                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                             "boxShadow": "#F4AB34 0 0 0 2px",
+                          },
+                          "&.MuiError": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&.MuiFilled:not(.Mui-focused)": Object {
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#333333 0 0 0 1px",
                           },
                           "&.MuiInput-underline.Mui-disabled:before": Object {
                             "borderBottomStyle": "none",
@@ -51380,6 +52775,15 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                           },
                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                             "borderBottom": "none",
+                          },
+                          "&.MuiSuccess": Object {
+                            "&.Mui-focused": Object {
+                              "boxShadow": "#569A32 0 0 0 1px",
+                            },
+                            "&:hover": Object {
+                              "boxShadow": "#777777 0 0 0 1px",
+                            },
+                            "boxShadow": "#569A32 0 0 0 1px",
                           },
                           "&:hover": Object {
                             "boxShadow": "#777777 0 0 0 1px",

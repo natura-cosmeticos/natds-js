@@ -344,12 +344,36 @@ export const naturaDark: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: naturaDarkColorTokens.colorOnPrimaryDark,
+        color: naturaDarkColorTokens.colorOnPrimaryLight,
         "&:hover": {
           boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
-        "&.Mui-focused": {
+        "&.MuiError": {
+          boxShadow: `${naturaDarkColorTokens.colorAlert} 0 0 0 2px`,
+          "&:hover": {
+            boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${naturaDarkColorTokens.colorAlert} 0 0 0 2px`
+          }
+        },
+        "&.MuiSuccess": {
+          boxShadow: `${naturaDarkColorTokens.colorSuccess} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${naturaDarkColorTokens.colorSuccess} 0 0 0 1px`
+          }
+        },
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
           boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiFilled:not(.Mui-focused)": {
+          boxShadow: `${naturaDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
@@ -371,7 +395,10 @@ export const naturaDark: ITheme = {
         boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: naturaDarkColorTokens.colorHighEmphasis
+        color: naturaDarkColorTokens.colorOnPrimaryLight,
+        "&.Mui-disabled": {
+          opacity: 0.24
+        }
       }
     },
     MuiInputAdornment: {

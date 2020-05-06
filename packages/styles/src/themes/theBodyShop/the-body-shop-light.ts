@@ -332,8 +332,32 @@ export const theBodyShopLight: ITheme = {
         "&:hover": {
           boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
-        "&.Mui-focused": {
+        "&.MuiError": {
+          boxShadow: `${theBodyShopLightColorTokens.colorAlert} 0 0 0 2px`,
+          "&:hover": {
+            boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${theBodyShopLightColorTokens.colorAlert} 0 0 0 2px`
+          }
+        },
+        "&.MuiSuccess": {
+          boxShadow: `${theBodyShopLightColorTokens.colorSuccess} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${theBodyShopLightColorTokens.colorSuccess} 0 0 0 1px`
+          }
+        },
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
           boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiFilled:not(.Mui-focused)": {
+          boxShadow: `${theBodyShopLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
@@ -355,7 +379,10 @@ export const theBodyShopLight: ITheme = {
         boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: theBodyShopLightColorTokens.colorHighEmphasis
+        color: theBodyShopLightColorTokens.colorOnPrimaryLight,
+        "&.Mui-disabled": {
+          opacity: 0.24
+        }
       }
     },
     MuiInputAdornment: {

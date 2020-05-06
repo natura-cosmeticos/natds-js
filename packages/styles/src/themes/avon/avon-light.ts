@@ -317,8 +317,32 @@ export const avonLight: ITheme = {
         "&:hover": {
           boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
-        "&.Mui-focused": {
+        "&.MuiError": {
+          boxShadow: `${avonLightColorTokens.colorAlert} 0 0 0 2px`,
+          "&:hover": {
+            boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${avonLightColorTokens.colorAlert} 0 0 0 2px`
+          }
+        },
+        "&.MuiSuccess": {
+          boxShadow: `${avonLightColorTokens.colorSuccess} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${avonLightColorTokens.colorSuccess} 0 0 0 1px`
+          }
+        },
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
           boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiFilled:not(.Mui-focused)": {
+          boxShadow: `${avonLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
@@ -340,7 +364,10 @@ export const avonLight: ITheme = {
         boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: avonLightColorTokens.colorOnPrimaryLight
+        color: avonLightColorTokens.colorOnPrimaryLight,
+        "&.Mui-disabled": {
+          opacity: 0.24
+        }
       }
     },
     MuiInputAdornment: {

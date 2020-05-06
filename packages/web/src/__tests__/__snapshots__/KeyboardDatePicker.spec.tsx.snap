@@ -372,11 +372,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -389,6 +407,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -1024,11 +1051,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -1041,6 +1086,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -1674,11 +1728,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -1691,6 +1763,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -2324,11 +2405,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -2341,6 +2440,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -2972,11 +3080,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                   },
                   "MuiInputBase": Object {
                     "input": Object {
+                      "&.Mui-disabled": Object {
+                        "opacity": 0.24,
+                      },
                       "color": "#333333",
                     },
                     "root": Object {
-                      "&.Mui-focused": Object {
+                      "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                         "boxShadow": "#F4AB34 0 0 0 2px",
+                      },
+                      "&.MuiError": Object {
+                        "&.Mui-focused": Object {
+                          "boxShadow": "#E74627 0 0 0 2px",
+                        },
+                        "&:hover": Object {
+                          "boxShadow": "#777777 0 0 0 1px",
+                        },
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&.MuiFilled:not(.Mui-focused)": Object {
+                        "&:hover": Object {
+                          "boxShadow": "#777777 0 0 0 1px",
+                        },
+                        "boxShadow": "#333333 0 0 0 1px",
                       },
                       "&.MuiInput-underline.Mui-disabled:before": Object {
                         "borderBottomStyle": "none",
@@ -2989,6 +3115,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                       },
                       "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                         "borderBottom": "none",
+                      },
+                      "&.MuiSuccess": Object {
+                        "&.Mui-focused": Object {
+                          "boxShadow": "#569A32 0 0 0 1px",
+                        },
+                        "&:hover": Object {
+                          "boxShadow": "#777777 0 0 0 1px",
+                        },
+                        "boxShadow": "#569A32 0 0 0 1px",
                       },
                       "&:hover": Object {
                         "boxShadow": "#777777 0 0 0 1px",
@@ -3647,11 +3782,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                     },
                     "MuiInputBase": Object {
                       "input": Object {
+                        "&.Mui-disabled": Object {
+                          "opacity": 0.24,
+                        },
                         "color": "#333333",
                       },
                       "root": Object {
-                        "&.Mui-focused": Object {
+                        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                           "boxShadow": "#F4AB34 0 0 0 2px",
+                        },
+                        "&.MuiError": Object {
+                          "&.Mui-focused": Object {
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&:hover": Object {
+                            "boxShadow": "#777777 0 0 0 1px",
+                          },
+                          "boxShadow": "#E74627 0 0 0 2px",
+                        },
+                        "&.MuiFilled:not(.Mui-focused)": Object {
+                          "&:hover": Object {
+                            "boxShadow": "#777777 0 0 0 1px",
+                          },
+                          "boxShadow": "#333333 0 0 0 1px",
                         },
                         "&.MuiInput-underline.Mui-disabled:before": Object {
                           "borderBottomStyle": "none",
@@ -3664,6 +3817,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                         },
                         "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                           "borderBottom": "none",
+                        },
+                        "&.MuiSuccess": Object {
+                          "&.Mui-focused": Object {
+                            "boxShadow": "#569A32 0 0 0 1px",
+                          },
+                          "&:hover": Object {
+                            "boxShadow": "#777777 0 0 0 1px",
+                          },
+                          "boxShadow": "#569A32 0 0 0 1px",
                         },
                         "&:hover": Object {
                           "boxShadow": "#777777 0 0 0 1px",
@@ -4297,11 +4459,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                         },
                         "MuiInputBase": Object {
                           "input": Object {
+                            "&.Mui-disabled": Object {
+                              "opacity": 0.24,
+                            },
                             "color": "#333333",
                           },
                           "root": Object {
-                            "&.Mui-focused": Object {
+                            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                               "boxShadow": "#F4AB34 0 0 0 2px",
+                            },
+                            "&.MuiError": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&.MuiFilled:not(.Mui-focused)": Object {
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#333333 0 0 0 1px",
                             },
                             "&.MuiInput-underline.Mui-disabled:before": Object {
                               "borderBottomStyle": "none",
@@ -4314,6 +4494,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                             },
                             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                               "borderBottom": "none",
+                            },
+                            "&.MuiSuccess": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#569A32 0 0 0 1px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#569A32 0 0 0 1px",
                             },
                             "&:hover": Object {
                               "boxShadow": "#777777 0 0 0 1px",
@@ -4984,11 +5173,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                           },
                           "MuiInputBase": Object {
                             "input": Object {
+                              "&.Mui-disabled": Object {
+                                "opacity": 0.24,
+                              },
                               "color": "#333333",
                             },
                             "root": Object {
-                              "&.Mui-focused": Object {
+                              "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                 "boxShadow": "#F4AB34 0 0 0 2px",
+                              },
+                              "&.MuiError": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#E74627 0 0 0 2px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&.MuiFilled:not(.Mui-focused)": Object {
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#333333 0 0 0 1px",
                               },
                               "&.MuiInput-underline.Mui-disabled:before": Object {
                                 "borderBottomStyle": "none",
@@ -5001,6 +5208,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                               },
                               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                 "borderBottom": "none",
+                              },
+                              "&.MuiSuccess": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#569A32 0 0 0 1px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#569A32 0 0 0 1px",
                               },
                               "&:hover": Object {
                                 "boxShadow": "#777777 0 0 0 1px",
@@ -5269,7 +5485,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                   </StyledComponent>
                 </styled.label>
                 <PickerWithState
-                  InputProps={Object {}}
+                  InputProps={
+                    Object {
+                      "className": "MuiFilled",
+                    }
+                  }
                   allowKeyboardControl={true}
                   disableToolbar={false}
                   helperText=""
@@ -5657,11 +5877,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                         },
                         "MuiInputBase": Object {
                           "input": Object {
+                            "&.Mui-disabled": Object {
+                              "opacity": 0.24,
+                            },
                             "color": "#333333",
                           },
                           "root": Object {
-                            "&.Mui-focused": Object {
+                            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                               "boxShadow": "#F4AB34 0 0 0 2px",
+                            },
+                            "&.MuiError": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&.MuiFilled:not(.Mui-focused)": Object {
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#333333 0 0 0 1px",
                             },
                             "&.MuiInput-underline.Mui-disabled:before": Object {
                               "borderBottomStyle": "none",
@@ -5674,6 +5912,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                             },
                             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                               "borderBottom": "none",
+                            },
+                            "&.MuiSuccess": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#569A32 0 0 0 1px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#569A32 0 0 0 1px",
                             },
                             "&:hover": Object {
                               "boxShadow": "#777777 0 0 0 1px",
@@ -5952,7 +6199,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                       }
                     }
                     InputComponent={[Function]}
-                    InputProps={Object {}}
+                    InputProps={
+                      Object {
+                        "className": "MuiFilled",
+                      }
+                    }
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
@@ -6337,11 +6588,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                           },
                           "MuiInputBase": Object {
                             "input": Object {
+                              "&.Mui-disabled": Object {
+                                "opacity": 0.24,
+                              },
                               "color": "#333333",
                             },
                             "root": Object {
-                              "&.Mui-focused": Object {
+                              "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                 "boxShadow": "#F4AB34 0 0 0 2px",
+                              },
+                              "&.MuiError": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#E74627 0 0 0 2px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&.MuiFilled:not(.Mui-focused)": Object {
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#333333 0 0 0 1px",
                               },
                               "&.MuiInput-underline.Mui-disabled:before": Object {
                                 "borderBottomStyle": "none",
@@ -6354,6 +6623,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                               },
                               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                 "borderBottom": "none",
+                              },
+                              "&.MuiSuccess": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#569A32 0 0 0 1px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#569A32 0 0 0 1px",
                               },
                               "&:hover": Object {
                                 "boxShadow": "#777777 0 0 0 1px",
@@ -6625,7 +6903,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                         }
                       }
                       InputComponent={[Function]}
-                      InputProps={Object {}}
+                      InputProps={
+                        Object {
+                          "className": "MuiFilled",
+                        }
+                      }
                       cancelLabel="Cancel"
                       clearLabel="Clear"
                       clearable={false}
@@ -7015,11 +7297,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                             },
                             "MuiInputBase": Object {
                               "input": Object {
+                                "&.Mui-disabled": Object {
+                                  "opacity": 0.24,
+                                },
                                 "color": "#333333",
                               },
                               "root": Object {
-                                "&.Mui-focused": Object {
+                                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                   "boxShadow": "#F4AB34 0 0 0 2px",
+                                },
+                                "&.MuiError": Object {
+                                  "&.Mui-focused": Object {
+                                    "boxShadow": "#E74627 0 0 0 2px",
+                                  },
+                                  "&:hover": Object {
+                                    "boxShadow": "#777777 0 0 0 1px",
+                                  },
+                                  "boxShadow": "#E74627 0 0 0 2px",
+                                },
+                                "&.MuiFilled:not(.Mui-focused)": Object {
+                                  "&:hover": Object {
+                                    "boxShadow": "#777777 0 0 0 1px",
+                                  },
+                                  "boxShadow": "#333333 0 0 0 1px",
                                 },
                                 "&.MuiInput-underline.Mui-disabled:before": Object {
                                   "borderBottomStyle": "none",
@@ -7032,6 +7332,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                 },
                                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                   "borderBottom": "none",
+                                },
+                                "&.MuiSuccess": Object {
+                                  "&.Mui-focused": Object {
+                                    "boxShadow": "#569A32 0 0 0 1px",
+                                  },
+                                  "&:hover": Object {
+                                    "boxShadow": "#777777 0 0 0 1px",
+                                  },
+                                  "boxShadow": "#569A32 0 0 0 1px",
                                 },
                                 "&:hover": Object {
                                   "boxShadow": "#777777 0 0 0 1px",
@@ -7293,7 +7602,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                       todayLabel="Today"
                     >
                       <Component
-                        InputProps={Object {}}
+                        InputProps={
+                          Object {
+                            "className": "MuiFilled",
+                          }
+                        }
                         format="MMMM do"
                         helperText=""
                         inputValue="February 1st"
@@ -7676,11 +7989,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                               },
                               "MuiInputBase": Object {
                                 "input": Object {
+                                  "&.Mui-disabled": Object {
+                                    "opacity": 0.24,
+                                  },
                                   "color": "#333333",
                                 },
                                 "root": Object {
-                                  "&.Mui-focused": Object {
+                                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                     "boxShadow": "#F4AB34 0 0 0 2px",
+                                  },
+                                  "&.MuiError": Object {
+                                    "&.Mui-focused": Object {
+                                      "boxShadow": "#E74627 0 0 0 2px",
+                                    },
+                                    "&:hover": Object {
+                                      "boxShadow": "#777777 0 0 0 1px",
+                                    },
+                                    "boxShadow": "#E74627 0 0 0 2px",
+                                  },
+                                  "&.MuiFilled:not(.Mui-focused)": Object {
+                                    "&:hover": Object {
+                                      "boxShadow": "#777777 0 0 0 1px",
+                                    },
+                                    "boxShadow": "#333333 0 0 0 1px",
                                   },
                                   "&.MuiInput-underline.Mui-disabled:before": Object {
                                     "borderBottomStyle": "none",
@@ -7693,6 +8024,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                   },
                                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                     "borderBottom": "none",
+                                  },
+                                  "&.MuiSuccess": Object {
+                                    "&.Mui-focused": Object {
+                                      "boxShadow": "#569A32 0 0 0 1px",
+                                    },
+                                    "&:hover": Object {
+                                      "boxShadow": "#777777 0 0 0 1px",
+                                    },
+                                    "boxShadow": "#569A32 0 0 0 1px",
                                   },
                                   "&:hover": Object {
                                     "boxShadow": "#777777 0 0 0 1px",
@@ -7963,6 +8303,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                           <WithStyles(ForwardRef(TextField))
                             InputProps={
                               Object {
+                                "className": "MuiFilled",
                                 "endAdornment": <ForwardRef(WithStyles)
                                   position="end"
                                 >
@@ -8351,11 +8692,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                   },
                                   "MuiInputBase": Object {
                                     "input": Object {
+                                      "&.Mui-disabled": Object {
+                                        "opacity": 0.24,
+                                      },
                                       "color": "#333333",
                                     },
                                     "root": Object {
-                                      "&.Mui-focused": Object {
+                                      "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                         "boxShadow": "#F4AB34 0 0 0 2px",
+                                      },
+                                      "&.MuiError": Object {
+                                        "&.Mui-focused": Object {
+                                          "boxShadow": "#E74627 0 0 0 2px",
+                                        },
+                                        "&:hover": Object {
+                                          "boxShadow": "#777777 0 0 0 1px",
+                                        },
+                                        "boxShadow": "#E74627 0 0 0 2px",
+                                      },
+                                      "&.MuiFilled:not(.Mui-focused)": Object {
+                                        "&:hover": Object {
+                                          "boxShadow": "#777777 0 0 0 1px",
+                                        },
+                                        "boxShadow": "#333333 0 0 0 1px",
                                       },
                                       "&.MuiInput-underline.Mui-disabled:before": Object {
                                         "borderBottomStyle": "none",
@@ -8368,6 +8727,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                       },
                                       "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                         "borderBottom": "none",
+                                      },
+                                      "&.MuiSuccess": Object {
+                                        "&.Mui-focused": Object {
+                                          "boxShadow": "#569A32 0 0 0 1px",
+                                        },
+                                        "&:hover": Object {
+                                          "boxShadow": "#777777 0 0 0 1px",
+                                        },
+                                        "boxShadow": "#569A32 0 0 0 1px",
                                       },
                                       "&:hover": Object {
                                         "boxShadow": "#777777 0 0 0 1px",
@@ -8631,6 +8999,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                             <ForwardRef(TextField)
                               InputProps={
                                 Object {
+                                  "className": "MuiFilled",
                                   "endAdornment": <ForwardRef(WithStyles)
                                     position="end"
                                   >
@@ -9024,11 +9393,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                     },
                                     "MuiInputBase": Object {
                                       "input": Object {
+                                        "&.Mui-disabled": Object {
+                                          "opacity": 0.24,
+                                        },
                                         "color": "#333333",
                                       },
                                       "root": Object {
-                                        "&.Mui-focused": Object {
+                                        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                           "boxShadow": "#F4AB34 0 0 0 2px",
+                                        },
+                                        "&.MuiError": Object {
+                                          "&.Mui-focused": Object {
+                                            "boxShadow": "#E74627 0 0 0 2px",
+                                          },
+                                          "&:hover": Object {
+                                            "boxShadow": "#777777 0 0 0 1px",
+                                          },
+                                          "boxShadow": "#E74627 0 0 0 2px",
+                                        },
+                                        "&.MuiFilled:not(.Mui-focused)": Object {
+                                          "&:hover": Object {
+                                            "boxShadow": "#777777 0 0 0 1px",
+                                          },
+                                          "boxShadow": "#333333 0 0 0 1px",
                                         },
                                         "&.MuiInput-underline.Mui-disabled:before": Object {
                                           "borderBottomStyle": "none",
@@ -9041,6 +9428,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                         },
                                         "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                           "borderBottom": "none",
+                                        },
+                                        "&.MuiSuccess": Object {
+                                          "&.Mui-focused": Object {
+                                            "boxShadow": "#569A32 0 0 0 1px",
+                                          },
+                                          "&:hover": Object {
+                                            "boxShadow": "#777777 0 0 0 1px",
+                                          },
+                                          "boxShadow": "#569A32 0 0 0 1px",
                                         },
                                         "&:hover": Object {
                                           "boxShadow": "#777777 0 0 0 1px",
@@ -9677,11 +10073,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                       },
                                       "MuiInputBase": Object {
                                         "input": Object {
+                                          "&.Mui-disabled": Object {
+                                            "opacity": 0.24,
+                                          },
                                           "color": "#333333",
                                         },
                                         "root": Object {
-                                          "&.Mui-focused": Object {
+                                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                             "boxShadow": "#F4AB34 0 0 0 2px",
+                                          },
+                                          "&.MuiError": Object {
+                                            "&.Mui-focused": Object {
+                                              "boxShadow": "#E74627 0 0 0 2px",
+                                            },
+                                            "&:hover": Object {
+                                              "boxShadow": "#777777 0 0 0 1px",
+                                            },
+                                            "boxShadow": "#E74627 0 0 0 2px",
+                                          },
+                                          "&.MuiFilled:not(.Mui-focused)": Object {
+                                            "&:hover": Object {
+                                              "boxShadow": "#777777 0 0 0 1px",
+                                            },
+                                            "boxShadow": "#333333 0 0 0 1px",
                                           },
                                           "&.MuiInput-underline.Mui-disabled:before": Object {
                                             "borderBottomStyle": "none",
@@ -9694,6 +10108,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                           },
                                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                             "borderBottom": "none",
+                                          },
+                                          "&.MuiSuccess": Object {
+                                            "&.Mui-focused": Object {
+                                              "boxShadow": "#569A32 0 0 0 1px",
+                                            },
+                                            "&:hover": Object {
+                                              "boxShadow": "#777777 0 0 0 1px",
+                                            },
+                                            "boxShadow": "#569A32 0 0 0 1px",
                                           },
                                           "&:hover": Object {
                                             "boxShadow": "#777777 0 0 0 1px",
@@ -10338,11 +10761,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                         },
                                         "MuiInputBase": Object {
                                           "input": Object {
+                                            "&.Mui-disabled": Object {
+                                              "opacity": 0.24,
+                                            },
                                             "color": "#333333",
                                           },
                                           "root": Object {
-                                            "&.Mui-focused": Object {
+                                            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                               "boxShadow": "#F4AB34 0 0 0 2px",
+                                            },
+                                            "&.MuiError": Object {
+                                              "&.Mui-focused": Object {
+                                                "boxShadow": "#E74627 0 0 0 2px",
+                                              },
+                                              "&:hover": Object {
+                                                "boxShadow": "#777777 0 0 0 1px",
+                                              },
+                                              "boxShadow": "#E74627 0 0 0 2px",
+                                            },
+                                            "&.MuiFilled:not(.Mui-focused)": Object {
+                                              "&:hover": Object {
+                                                "boxShadow": "#777777 0 0 0 1px",
+                                              },
+                                              "boxShadow": "#333333 0 0 0 1px",
                                             },
                                             "&.MuiInput-underline.Mui-disabled:before": Object {
                                               "borderBottomStyle": "none",
@@ -10355,6 +10796,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                             },
                                             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                               "borderBottom": "none",
+                                            },
+                                            "&.MuiSuccess": Object {
+                                              "&.Mui-focused": Object {
+                                                "boxShadow": "#569A32 0 0 0 1px",
+                                              },
+                                              "&:hover": Object {
+                                                "boxShadow": "#777777 0 0 0 1px",
+                                              },
+                                              "boxShadow": "#569A32 0 0 0 1px",
                                             },
                                             "&:hover": Object {
                                               "boxShadow": "#777777 0 0 0 1px",
@@ -10986,11 +11436,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                           },
                                           "MuiInputBase": Object {
                                             "input": Object {
+                                              "&.Mui-disabled": Object {
+                                                "opacity": 0.24,
+                                              },
                                               "color": "#333333",
                                             },
                                             "root": Object {
-                                              "&.Mui-focused": Object {
+                                              "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                                 "boxShadow": "#F4AB34 0 0 0 2px",
+                                              },
+                                              "&.MuiError": Object {
+                                                "&.Mui-focused": Object {
+                                                  "boxShadow": "#E74627 0 0 0 2px",
+                                                },
+                                                "&:hover": Object {
+                                                  "boxShadow": "#777777 0 0 0 1px",
+                                                },
+                                                "boxShadow": "#E74627 0 0 0 2px",
+                                              },
+                                              "&.MuiFilled:not(.Mui-focused)": Object {
+                                                "&:hover": Object {
+                                                  "boxShadow": "#777777 0 0 0 1px",
+                                                },
+                                                "boxShadow": "#333333 0 0 0 1px",
                                               },
                                               "&.MuiInput-underline.Mui-disabled:before": Object {
                                                 "borderBottomStyle": "none",
@@ -11003,6 +11471,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                               },
                                               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                                 "borderBottom": "none",
+                                              },
+                                              "&.MuiSuccess": Object {
+                                                "&.Mui-focused": Object {
+                                                  "boxShadow": "#569A32 0 0 0 1px",
+                                                },
+                                                "&:hover": Object {
+                                                  "boxShadow": "#777777 0 0 0 1px",
+                                                },
+                                                "boxShadow": "#569A32 0 0 0 1px",
                                               },
                                               "&:hover": Object {
                                                 "boxShadow": "#777777 0 0 0 1px",
@@ -11264,6 +11741,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                   >
                                     <WithStyles(ForwardRef(Input))
                                       autoFocus={false}
+                                      className="MuiFilled"
                                       endAdornment={
                                         <ForwardRef(WithStyles)
                                           position="end"
@@ -11285,6 +11763,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                     >
                                       <ForwardRef(Input)
                                         autoFocus={false}
+                                        className="MuiFilled"
                                         classes={
                                           Object {
                                             "colorSecondary": "MuiInput-colorSecondary",
@@ -11324,6 +11803,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                       >
                                         <WithStyles(ForwardRef(InputBase))
                                           autoFocus={false}
+                                          className="MuiFilled"
                                           classes={
                                             Object {
                                               "colorSecondary": "MuiInput-colorSecondary",
@@ -11365,6 +11845,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                         >
                                           <ForwardRef(InputBase)
                                             autoFocus={false}
+                                            className="MuiFilled"
                                             classes={
                                               Object {
                                                 "adornedEnd": "MuiInputBase-adornedEnd",
@@ -11409,7 +11890,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                             value="February 1st"
                                           >
                                             <div
-                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiFilled MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
                                               onClick={[Function]}
                                             >
                                               <input
@@ -12140,7 +12621,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                   </StyledComponent>
                 </styled.label>
                 <PickerWithState
-                  InputProps={Object {}}
+                  InputProps={
+                    Object {
+                      "className": "",
+                    }
+                  }
                   allowKeyboardControl={true}
                   disableToolbar={false}
                   disabled={true}
@@ -12180,7 +12665,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                       }
                     }
                     InputComponent={[Function]}
-                    InputProps={Object {}}
+                    InputProps={
+                      Object {
+                        "className": "",
+                      }
+                    }
                     disabled={true}
                     format="MMMM do"
                     helperText=""
@@ -12210,7 +12699,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                         }
                       }
                       InputComponent={[Function]}
-                      InputProps={Object {}}
+                      InputProps={
+                        Object {
+                          "className": "",
+                        }
+                      }
                       cancelLabel="Cancel"
                       clearLabel="Clear"
                       clearable={false}
@@ -12235,7 +12728,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                       todayLabel="Today"
                     >
                       <Component
-                        InputProps={Object {}}
+                        InputProps={
+                          Object {
+                            "className": "",
+                          }
+                        }
                         disabled={true}
                         format="MMMM do"
                         helperText=""
@@ -12262,6 +12759,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                           <WithStyles(ForwardRef(TextField))
                             InputProps={
                               Object {
+                                "className": "",
                                 "endAdornment": <ForwardRef(WithStyles)
                                   position="end"
                                 >
@@ -12288,6 +12786,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                             <ForwardRef(TextField)
                               InputProps={
                                 Object {
+                                  "className": "",
                                   "endAdornment": <ForwardRef(WithStyles)
                                     position="end"
                                   >
@@ -12347,6 +12846,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                                   >
                                     <WithStyles(ForwardRef(Input))
                                       autoFocus={false}
+                                      className=""
                                       endAdornment={
                                         <ForwardRef(WithStyles)
                                           position="end"
@@ -12369,6 +12869,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                                     >
                                       <ForwardRef(Input)
                                         autoFocus={false}
+                                        className=""
                                         classes={
                                           Object {
                                             "colorSecondary": "MuiInput-colorSecondary",
@@ -12409,6 +12910,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                                       >
                                         <WithStyles(ForwardRef(InputBase))
                                           autoFocus={false}
+                                          className=""
                                           classes={
                                             Object {
                                               "colorSecondary": "MuiInput-colorSecondary",
@@ -12451,6 +12953,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                                         >
                                           <ForwardRef(InputBase)
                                             autoFocus={false}
+                                            className=""
                                             classes={
                                               Object {
                                                 "adornedEnd": "MuiInputBase-adornedEnd",
@@ -13195,7 +13698,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                   </StyledComponent>
                 </styled.label>
                 <PickerWithState
-                  InputProps={Object {}}
+                  InputProps={
+                    Object {
+                      "className": "",
+                    }
+                  }
                   allowKeyboardControl={true}
                   disableToolbar={false}
                   helperText=""
@@ -13234,7 +13741,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                       }
                     }
                     InputComponent={[Function]}
-                    InputProps={Object {}}
+                    InputProps={
+                      Object {
+                        "className": "",
+                      }
+                    }
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
@@ -13263,7 +13774,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                         }
                       }
                       InputComponent={[Function]}
-                      InputProps={Object {}}
+                      InputProps={
+                        Object {
+                          "className": "",
+                        }
+                      }
                       cancelLabel="Cancel"
                       clearLabel="Clear"
                       clearable={false}
@@ -13287,7 +13802,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                       todayLabel="Today"
                     >
                       <Component
-                        InputProps={Object {}}
+                        InputProps={
+                          Object {
+                            "className": "",
+                          }
+                        }
                         format="MMMM do"
                         helperText=""
                         inputValue=""
@@ -13313,6 +13832,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                           <WithStyles(ForwardRef(TextField))
                             InputProps={
                               Object {
+                                "className": "",
                                 "endAdornment": <ForwardRef(WithStyles)
                                   position="end"
                                 >
@@ -13337,6 +13857,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                             <ForwardRef(TextField)
                               InputProps={
                                 Object {
+                                  "className": "",
                                   "endAdornment": <ForwardRef(WithStyles)
                                     position="end"
                                   >
@@ -13394,6 +13915,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                                   >
                                     <WithStyles(ForwardRef(Input))
                                       autoFocus={false}
+                                      className=""
                                       endAdornment={
                                         <ForwardRef(WithStyles)
                                           position="end"
@@ -13415,6 +13937,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                                     >
                                       <ForwardRef(Input)
                                         autoFocus={false}
+                                        className=""
                                         classes={
                                           Object {
                                             "colorSecondary": "MuiInput-colorSecondary",
@@ -13454,6 +13977,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                                       >
                                         <WithStyles(ForwardRef(InputBase))
                                           autoFocus={false}
+                                          className=""
                                           classes={
                                             Object {
                                               "colorSecondary": "MuiInput-colorSecondary",
@@ -13495,6 +14019,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                                         >
                                           <ForwardRef(InputBase)
                                             autoFocus={false}
+                                            className=""
                                             classes={
                                               Object {
                                                 "adornedEnd": "MuiInputBase-adornedEnd",
@@ -14523,11 +15048,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -14540,6 +15083,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -15176,11 +15728,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -15193,6 +15763,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -15827,11 +16406,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -15844,6 +16441,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -16478,11 +17084,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -16495,6 +17119,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -17126,11 +17759,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                   },
                   "MuiInputBase": Object {
                     "input": Object {
+                      "&.Mui-disabled": Object {
+                        "opacity": 0.24,
+                      },
                       "color": "#333333",
                     },
                     "root": Object {
-                      "&.Mui-focused": Object {
+                      "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                         "boxShadow": "#F4AB34 0 0 0 2px",
+                      },
+                      "&.MuiError": Object {
+                        "&.Mui-focused": Object {
+                          "boxShadow": "#E74627 0 0 0 2px",
+                        },
+                        "&:hover": Object {
+                          "boxShadow": "#777777 0 0 0 1px",
+                        },
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&.MuiFilled:not(.Mui-focused)": Object {
+                        "&:hover": Object {
+                          "boxShadow": "#777777 0 0 0 1px",
+                        },
+                        "boxShadow": "#333333 0 0 0 1px",
                       },
                       "&.MuiInput-underline.Mui-disabled:before": Object {
                         "borderBottomStyle": "none",
@@ -17143,6 +17794,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                       },
                       "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                         "borderBottom": "none",
+                      },
+                      "&.MuiSuccess": Object {
+                        "&.Mui-focused": Object {
+                          "boxShadow": "#569A32 0 0 0 1px",
+                        },
+                        "&:hover": Object {
+                          "boxShadow": "#777777 0 0 0 1px",
+                        },
+                        "boxShadow": "#569A32 0 0 0 1px",
                       },
                       "&:hover": Object {
                         "boxShadow": "#777777 0 0 0 1px",
@@ -17801,11 +18461,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                     },
                     "MuiInputBase": Object {
                       "input": Object {
+                        "&.Mui-disabled": Object {
+                          "opacity": 0.24,
+                        },
                         "color": "#333333",
                       },
                       "root": Object {
-                        "&.Mui-focused": Object {
+                        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                           "boxShadow": "#F4AB34 0 0 0 2px",
+                        },
+                        "&.MuiError": Object {
+                          "&.Mui-focused": Object {
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&:hover": Object {
+                            "boxShadow": "#777777 0 0 0 1px",
+                          },
+                          "boxShadow": "#E74627 0 0 0 2px",
+                        },
+                        "&.MuiFilled:not(.Mui-focused)": Object {
+                          "&:hover": Object {
+                            "boxShadow": "#777777 0 0 0 1px",
+                          },
+                          "boxShadow": "#333333 0 0 0 1px",
                         },
                         "&.MuiInput-underline.Mui-disabled:before": Object {
                           "borderBottomStyle": "none",
@@ -17818,6 +18496,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                         },
                         "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                           "borderBottom": "none",
+                        },
+                        "&.MuiSuccess": Object {
+                          "&.Mui-focused": Object {
+                            "boxShadow": "#569A32 0 0 0 1px",
+                          },
+                          "&:hover": Object {
+                            "boxShadow": "#777777 0 0 0 1px",
+                          },
+                          "boxShadow": "#569A32 0 0 0 1px",
                         },
                         "&:hover": Object {
                           "boxShadow": "#777777 0 0 0 1px",
@@ -18452,11 +19139,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                         },
                         "MuiInputBase": Object {
                           "input": Object {
+                            "&.Mui-disabled": Object {
+                              "opacity": 0.24,
+                            },
                             "color": "#333333",
                           },
                           "root": Object {
-                            "&.Mui-focused": Object {
+                            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                               "boxShadow": "#F4AB34 0 0 0 2px",
+                            },
+                            "&.MuiError": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&.MuiFilled:not(.Mui-focused)": Object {
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#333333 0 0 0 1px",
                             },
                             "&.MuiInput-underline.Mui-disabled:before": Object {
                               "borderBottomStyle": "none",
@@ -18469,6 +19174,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                             },
                             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                               "borderBottom": "none",
+                            },
+                            "&.MuiSuccess": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#569A32 0 0 0 1px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#569A32 0 0 0 1px",
                             },
                             "&:hover": Object {
                               "boxShadow": "#777777 0 0 0 1px",
@@ -19140,11 +19854,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                           },
                           "MuiInputBase": Object {
                             "input": Object {
+                              "&.Mui-disabled": Object {
+                                "opacity": 0.24,
+                              },
                               "color": "#333333",
                             },
                             "root": Object {
-                              "&.Mui-focused": Object {
+                              "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                 "boxShadow": "#F4AB34 0 0 0 2px",
+                              },
+                              "&.MuiError": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#E74627 0 0 0 2px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&.MuiFilled:not(.Mui-focused)": Object {
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#333333 0 0 0 1px",
                               },
                               "&.MuiInput-underline.Mui-disabled:before": Object {
                                 "borderBottomStyle": "none",
@@ -19157,6 +19889,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                               },
                               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                 "borderBottom": "none",
+                              },
+                              "&.MuiSuccess": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#569A32 0 0 0 1px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#569A32 0 0 0 1px",
                               },
                               "&:hover": Object {
                                 "boxShadow": "#777777 0 0 0 1px",
@@ -19427,9 +20168,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                 <PickerWithState
                   InputProps={
                     Object {
-                      "style": Object {
-                        "boxShadow": "#E74627 0 0 0 2px",
-                      },
+                      "className": "MuiError",
                     }
                   }
                   allowKeyboardControl={true}
@@ -19819,11 +20558,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                         },
                         "MuiInputBase": Object {
                           "input": Object {
+                            "&.Mui-disabled": Object {
+                              "opacity": 0.24,
+                            },
                             "color": "#333333",
                           },
                           "root": Object {
-                            "&.Mui-focused": Object {
+                            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                               "boxShadow": "#F4AB34 0 0 0 2px",
+                            },
+                            "&.MuiError": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&.MuiFilled:not(.Mui-focused)": Object {
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#333333 0 0 0 1px",
                             },
                             "&.MuiInput-underline.Mui-disabled:before": Object {
                               "borderBottomStyle": "none",
@@ -19836,6 +20593,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                             },
                             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                               "borderBottom": "none",
+                            },
+                            "&.MuiSuccess": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#569A32 0 0 0 1px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#569A32 0 0 0 1px",
                             },
                             "&:hover": Object {
                               "boxShadow": "#777777 0 0 0 1px",
@@ -20116,9 +20882,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                     InputComponent={[Function]}
                     InputProps={
                       Object {
-                        "style": Object {
-                          "boxShadow": "#E74627 0 0 0 2px",
-                        },
+                        "className": "MuiError",
                       }
                     }
                     format="MMMM do"
@@ -20505,11 +21269,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                           },
                           "MuiInputBase": Object {
                             "input": Object {
+                              "&.Mui-disabled": Object {
+                                "opacity": 0.24,
+                              },
                               "color": "#333333",
                             },
                             "root": Object {
-                              "&.Mui-focused": Object {
+                              "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                 "boxShadow": "#F4AB34 0 0 0 2px",
+                              },
+                              "&.MuiError": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#E74627 0 0 0 2px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&.MuiFilled:not(.Mui-focused)": Object {
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#333333 0 0 0 1px",
                               },
                               "&.MuiInput-underline.Mui-disabled:before": Object {
                                 "borderBottomStyle": "none",
@@ -20522,6 +21304,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                               },
                               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                 "borderBottom": "none",
+                              },
+                              "&.MuiSuccess": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#569A32 0 0 0 1px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#569A32 0 0 0 1px",
                               },
                               "&:hover": Object {
                                 "boxShadow": "#777777 0 0 0 1px",
@@ -20795,9 +21586,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                       InputComponent={[Function]}
                       InputProps={
                         Object {
-                          "style": Object {
-                            "boxShadow": "#E74627 0 0 0 2px",
-                          },
+                          "className": "MuiError",
                         }
                       }
                       cancelLabel="Cancel"
@@ -21189,11 +21978,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                             },
                             "MuiInputBase": Object {
                               "input": Object {
+                                "&.Mui-disabled": Object {
+                                  "opacity": 0.24,
+                                },
                                 "color": "#333333",
                               },
                               "root": Object {
-                                "&.Mui-focused": Object {
+                                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                   "boxShadow": "#F4AB34 0 0 0 2px",
+                                },
+                                "&.MuiError": Object {
+                                  "&.Mui-focused": Object {
+                                    "boxShadow": "#E74627 0 0 0 2px",
+                                  },
+                                  "&:hover": Object {
+                                    "boxShadow": "#777777 0 0 0 1px",
+                                  },
+                                  "boxShadow": "#E74627 0 0 0 2px",
+                                },
+                                "&.MuiFilled:not(.Mui-focused)": Object {
+                                  "&:hover": Object {
+                                    "boxShadow": "#777777 0 0 0 1px",
+                                  },
+                                  "boxShadow": "#333333 0 0 0 1px",
                                 },
                                 "&.MuiInput-underline.Mui-disabled:before": Object {
                                   "borderBottomStyle": "none",
@@ -21206,6 +22013,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                 },
                                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                   "borderBottom": "none",
+                                },
+                                "&.MuiSuccess": Object {
+                                  "&.Mui-focused": Object {
+                                    "boxShadow": "#569A32 0 0 0 1px",
+                                  },
+                                  "&:hover": Object {
+                                    "boxShadow": "#777777 0 0 0 1px",
+                                  },
+                                  "boxShadow": "#569A32 0 0 0 1px",
                                 },
                                 "&:hover": Object {
                                   "boxShadow": "#777777 0 0 0 1px",
@@ -21469,9 +22285,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                       <Component
                         InputProps={
                           Object {
-                            "style": Object {
-                              "boxShadow": "#E74627 0 0 0 2px",
-                            },
+                            "className": "MuiError",
                           }
                         }
                         format="MMMM do"
@@ -21856,11 +22670,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                               },
                               "MuiInputBase": Object {
                                 "input": Object {
+                                  "&.Mui-disabled": Object {
+                                    "opacity": 0.24,
+                                  },
                                   "color": "#333333",
                                 },
                                 "root": Object {
-                                  "&.Mui-focused": Object {
+                                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                     "boxShadow": "#F4AB34 0 0 0 2px",
+                                  },
+                                  "&.MuiError": Object {
+                                    "&.Mui-focused": Object {
+                                      "boxShadow": "#E74627 0 0 0 2px",
+                                    },
+                                    "&:hover": Object {
+                                      "boxShadow": "#777777 0 0 0 1px",
+                                    },
+                                    "boxShadow": "#E74627 0 0 0 2px",
+                                  },
+                                  "&.MuiFilled:not(.Mui-focused)": Object {
+                                    "&:hover": Object {
+                                      "boxShadow": "#777777 0 0 0 1px",
+                                    },
+                                    "boxShadow": "#333333 0 0 0 1px",
                                   },
                                   "&.MuiInput-underline.Mui-disabled:before": Object {
                                     "borderBottomStyle": "none",
@@ -21873,6 +22705,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                   },
                                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                     "borderBottom": "none",
+                                  },
+                                  "&.MuiSuccess": Object {
+                                    "&.Mui-focused": Object {
+                                      "boxShadow": "#569A32 0 0 0 1px",
+                                    },
+                                    "&:hover": Object {
+                                      "boxShadow": "#777777 0 0 0 1px",
+                                    },
+                                    "boxShadow": "#569A32 0 0 0 1px",
                                   },
                                   "&:hover": Object {
                                     "boxShadow": "#777777 0 0 0 1px",
@@ -22143,6 +22984,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                           <WithStyles(ForwardRef(TextField))
                             InputProps={
                               Object {
+                                "className": "MuiError",
                                 "endAdornment": <ForwardRef(WithStyles)
                                   position="end"
                                 >
@@ -22155,9 +22997,6 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                     />
                                   </ForwardRef(WithStyles)>
                                 </ForwardRef(WithStyles)>,
-                                "style": Object {
-                                  "boxShadow": "#E74627 0 0 0 2px",
-                                },
                               }
                             }
                             error={false}
@@ -22534,11 +23373,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                   },
                                   "MuiInputBase": Object {
                                     "input": Object {
+                                      "&.Mui-disabled": Object {
+                                        "opacity": 0.24,
+                                      },
                                       "color": "#333333",
                                     },
                                     "root": Object {
-                                      "&.Mui-focused": Object {
+                                      "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                         "boxShadow": "#F4AB34 0 0 0 2px",
+                                      },
+                                      "&.MuiError": Object {
+                                        "&.Mui-focused": Object {
+                                          "boxShadow": "#E74627 0 0 0 2px",
+                                        },
+                                        "&:hover": Object {
+                                          "boxShadow": "#777777 0 0 0 1px",
+                                        },
+                                        "boxShadow": "#E74627 0 0 0 2px",
+                                      },
+                                      "&.MuiFilled:not(.Mui-focused)": Object {
+                                        "&:hover": Object {
+                                          "boxShadow": "#777777 0 0 0 1px",
+                                        },
+                                        "boxShadow": "#333333 0 0 0 1px",
                                       },
                                       "&.MuiInput-underline.Mui-disabled:before": Object {
                                         "borderBottomStyle": "none",
@@ -22551,6 +23408,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                       },
                                       "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                         "borderBottom": "none",
+                                      },
+                                      "&.MuiSuccess": Object {
+                                        "&.Mui-focused": Object {
+                                          "boxShadow": "#569A32 0 0 0 1px",
+                                        },
+                                        "&:hover": Object {
+                                          "boxShadow": "#777777 0 0 0 1px",
+                                        },
+                                        "boxShadow": "#569A32 0 0 0 1px",
                                       },
                                       "&:hover": Object {
                                         "boxShadow": "#777777 0 0 0 1px",
@@ -22814,6 +23680,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                             <ForwardRef(TextField)
                               InputProps={
                                 Object {
+                                  "className": "MuiError",
                                   "endAdornment": <ForwardRef(WithStyles)
                                     position="end"
                                   >
@@ -22826,9 +23693,6 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                       />
                                     </ForwardRef(WithStyles)>
                                   </ForwardRef(WithStyles)>,
-                                  "style": Object {
-                                    "boxShadow": "#E74627 0 0 0 2px",
-                                  },
                                 }
                               }
                               classes={
@@ -23210,11 +24074,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                     },
                                     "MuiInputBase": Object {
                                       "input": Object {
+                                        "&.Mui-disabled": Object {
+                                          "opacity": 0.24,
+                                        },
                                         "color": "#333333",
                                       },
                                       "root": Object {
-                                        "&.Mui-focused": Object {
+                                        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                           "boxShadow": "#F4AB34 0 0 0 2px",
+                                        },
+                                        "&.MuiError": Object {
+                                          "&.Mui-focused": Object {
+                                            "boxShadow": "#E74627 0 0 0 2px",
+                                          },
+                                          "&:hover": Object {
+                                            "boxShadow": "#777777 0 0 0 1px",
+                                          },
+                                          "boxShadow": "#E74627 0 0 0 2px",
+                                        },
+                                        "&.MuiFilled:not(.Mui-focused)": Object {
+                                          "&:hover": Object {
+                                            "boxShadow": "#777777 0 0 0 1px",
+                                          },
+                                          "boxShadow": "#333333 0 0 0 1px",
                                         },
                                         "&.MuiInput-underline.Mui-disabled:before": Object {
                                           "borderBottomStyle": "none",
@@ -23227,6 +24109,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                         },
                                         "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                           "borderBottom": "none",
+                                        },
+                                        "&.MuiSuccess": Object {
+                                          "&.Mui-focused": Object {
+                                            "boxShadow": "#569A32 0 0 0 1px",
+                                          },
+                                          "&:hover": Object {
+                                            "boxShadow": "#777777 0 0 0 1px",
+                                          },
+                                          "boxShadow": "#569A32 0 0 0 1px",
                                         },
                                         "&:hover": Object {
                                           "boxShadow": "#777777 0 0 0 1px",
@@ -23863,11 +24754,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                       },
                                       "MuiInputBase": Object {
                                         "input": Object {
+                                          "&.Mui-disabled": Object {
+                                            "opacity": 0.24,
+                                          },
                                           "color": "#333333",
                                         },
                                         "root": Object {
-                                          "&.Mui-focused": Object {
+                                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                             "boxShadow": "#F4AB34 0 0 0 2px",
+                                          },
+                                          "&.MuiError": Object {
+                                            "&.Mui-focused": Object {
+                                              "boxShadow": "#E74627 0 0 0 2px",
+                                            },
+                                            "&:hover": Object {
+                                              "boxShadow": "#777777 0 0 0 1px",
+                                            },
+                                            "boxShadow": "#E74627 0 0 0 2px",
+                                          },
+                                          "&.MuiFilled:not(.Mui-focused)": Object {
+                                            "&:hover": Object {
+                                              "boxShadow": "#777777 0 0 0 1px",
+                                            },
+                                            "boxShadow": "#333333 0 0 0 1px",
                                           },
                                           "&.MuiInput-underline.Mui-disabled:before": Object {
                                             "borderBottomStyle": "none",
@@ -23880,6 +24789,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                           },
                                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                             "borderBottom": "none",
+                                          },
+                                          "&.MuiSuccess": Object {
+                                            "&.Mui-focused": Object {
+                                              "boxShadow": "#569A32 0 0 0 1px",
+                                            },
+                                            "&:hover": Object {
+                                              "boxShadow": "#777777 0 0 0 1px",
+                                            },
+                                            "boxShadow": "#569A32 0 0 0 1px",
                                           },
                                           "&:hover": Object {
                                             "boxShadow": "#777777 0 0 0 1px",
@@ -24524,11 +25442,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                         },
                                         "MuiInputBase": Object {
                                           "input": Object {
+                                            "&.Mui-disabled": Object {
+                                              "opacity": 0.24,
+                                            },
                                             "color": "#333333",
                                           },
                                           "root": Object {
-                                            "&.Mui-focused": Object {
+                                            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                               "boxShadow": "#F4AB34 0 0 0 2px",
+                                            },
+                                            "&.MuiError": Object {
+                                              "&.Mui-focused": Object {
+                                                "boxShadow": "#E74627 0 0 0 2px",
+                                              },
+                                              "&:hover": Object {
+                                                "boxShadow": "#777777 0 0 0 1px",
+                                              },
+                                              "boxShadow": "#E74627 0 0 0 2px",
+                                            },
+                                            "&.MuiFilled:not(.Mui-focused)": Object {
+                                              "&:hover": Object {
+                                                "boxShadow": "#777777 0 0 0 1px",
+                                              },
+                                              "boxShadow": "#333333 0 0 0 1px",
                                             },
                                             "&.MuiInput-underline.Mui-disabled:before": Object {
                                               "borderBottomStyle": "none",
@@ -24541,6 +25477,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                             },
                                             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                               "borderBottom": "none",
+                                            },
+                                            "&.MuiSuccess": Object {
+                                              "&.Mui-focused": Object {
+                                                "boxShadow": "#569A32 0 0 0 1px",
+                                              },
+                                              "&:hover": Object {
+                                                "boxShadow": "#777777 0 0 0 1px",
+                                              },
+                                              "boxShadow": "#569A32 0 0 0 1px",
                                             },
                                             "&:hover": Object {
                                               "boxShadow": "#777777 0 0 0 1px",
@@ -25172,11 +26117,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                           },
                                           "MuiInputBase": Object {
                                             "input": Object {
+                                              "&.Mui-disabled": Object {
+                                                "opacity": 0.24,
+                                              },
                                               "color": "#333333",
                                             },
                                             "root": Object {
-                                              "&.Mui-focused": Object {
+                                              "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                                 "boxShadow": "#F4AB34 0 0 0 2px",
+                                              },
+                                              "&.MuiError": Object {
+                                                "&.Mui-focused": Object {
+                                                  "boxShadow": "#E74627 0 0 0 2px",
+                                                },
+                                                "&:hover": Object {
+                                                  "boxShadow": "#777777 0 0 0 1px",
+                                                },
+                                                "boxShadow": "#E74627 0 0 0 2px",
+                                              },
+                                              "&.MuiFilled:not(.Mui-focused)": Object {
+                                                "&:hover": Object {
+                                                  "boxShadow": "#777777 0 0 0 1px",
+                                                },
+                                                "boxShadow": "#333333 0 0 0 1px",
                                               },
                                               "&.MuiInput-underline.Mui-disabled:before": Object {
                                                 "borderBottomStyle": "none",
@@ -25189,6 +26152,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                               },
                                               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                                 "borderBottom": "none",
+                                              },
+                                              "&.MuiSuccess": Object {
+                                                "&.Mui-focused": Object {
+                                                  "boxShadow": "#569A32 0 0 0 1px",
+                                                },
+                                                "&:hover": Object {
+                                                  "boxShadow": "#777777 0 0 0 1px",
+                                                },
+                                                "boxShadow": "#569A32 0 0 0 1px",
                                               },
                                               "&:hover": Object {
                                                 "boxShadow": "#777777 0 0 0 1px",
@@ -25450,6 +26422,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                   >
                                     <WithStyles(ForwardRef(Input))
                                       autoFocus={false}
+                                      className="MuiError"
                                       endAdornment={
                                         <ForwardRef(WithStyles)
                                           position="end"
@@ -25467,15 +26440,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                       fullWidth={false}
                                       multiline={false}
                                       onChange={[Function]}
-                                      style={
-                                        Object {
-                                          "boxShadow": "#E74627 0 0 0 2px",
-                                        }
-                                      }
                                       value="February 1st"
                                     >
                                       <ForwardRef(Input)
                                         autoFocus={false}
+                                        className="MuiError"
                                         classes={
                                           Object {
                                             "colorSecondary": "MuiInput-colorSecondary",
@@ -25511,15 +26480,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                         fullWidth={false}
                                         multiline={false}
                                         onChange={[Function]}
-                                        style={
-                                          Object {
-                                            "boxShadow": "#E74627 0 0 0 2px",
-                                          }
-                                        }
                                         value="February 1st"
                                       >
                                         <WithStyles(ForwardRef(InputBase))
                                           autoFocus={false}
+                                          className="MuiError"
                                           classes={
                                             Object {
                                               "colorSecondary": "MuiInput-colorSecondary",
@@ -25556,16 +26521,12 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                           inputComponent="input"
                                           multiline={false}
                                           onChange={[Function]}
-                                          style={
-                                            Object {
-                                              "boxShadow": "#E74627 0 0 0 2px",
-                                            }
-                                          }
                                           type="text"
                                           value="February 1st"
                                         >
                                           <ForwardRef(InputBase)
                                             autoFocus={false}
+                                            className="MuiError"
                                             classes={
                                               Object {
                                                 "adornedEnd": "MuiInputBase-adornedEnd",
@@ -25606,22 +26567,12 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                             inputComponent="input"
                                             multiline={false}
                                             onChange={[Function]}
-                                            style={
-                                              Object {
-                                                "boxShadow": "#E74627 0 0 0 2px",
-                                              }
-                                            }
                                             type="text"
                                             value="February 1st"
                                           >
                                             <div
-                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiError MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
                                               onClick={[Function]}
-                                              style={
-                                                Object {
-                                                  "boxShadow": "#E74627 0 0 0 2px",
-                                                }
-                                              }
                                             >
                                               <input
                                                 aria-invalid={false}
@@ -26351,7 +27302,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                   </StyledComponent>
                 </styled.label>
                 <PickerWithState
-                  InputProps={Object {}}
+                  InputProps={
+                    Object {
+                      "className": "MuiFilled",
+                    }
+                  }
                   allowKeyboardControl={true}
                   disableToolbar={false}
                   helperText=""
@@ -26390,7 +27345,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                       }
                     }
                     InputComponent={[Function]}
-                    InputProps={Object {}}
+                    InputProps={
+                      Object {
+                        "className": "MuiFilled",
+                      }
+                    }
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
@@ -26419,7 +27378,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                         }
                       }
                       InputComponent={[Function]}
-                      InputProps={Object {}}
+                      InputProps={
+                        Object {
+                          "className": "MuiFilled",
+                        }
+                      }
                       cancelLabel="Cancel"
                       clearLabel="Clear"
                       clearable={false}
@@ -26443,7 +27406,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                       todayLabel="Today"
                     >
                       <Component
-                        InputProps={Object {}}
+                        InputProps={
+                          Object {
+                            "className": "MuiFilled",
+                          }
+                        }
                         format="MMMM do"
                         helperText=""
                         inputValue="February 1st"
@@ -26469,6 +27436,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                           <WithStyles(ForwardRef(TextField))
                             InputProps={
                               Object {
+                                "className": "MuiFilled",
                                 "endAdornment": <ForwardRef(WithStyles)
                                   position="end"
                                 >
@@ -26493,6 +27461,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                             <ForwardRef(TextField)
                               InputProps={
                                 Object {
+                                  "className": "MuiFilled",
                                   "endAdornment": <ForwardRef(WithStyles)
                                     position="end"
                                   >
@@ -26550,6 +27519,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                   >
                                     <WithStyles(ForwardRef(Input))
                                       autoFocus={false}
+                                      className="MuiFilled"
                                       endAdornment={
                                         <ForwardRef(WithStyles)
                                           position="end"
@@ -26571,6 +27541,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                     >
                                       <ForwardRef(Input)
                                         autoFocus={false}
+                                        className="MuiFilled"
                                         classes={
                                           Object {
                                             "colorSecondary": "MuiInput-colorSecondary",
@@ -26610,6 +27581,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                       >
                                         <WithStyles(ForwardRef(InputBase))
                                           autoFocus={false}
+                                          className="MuiFilled"
                                           classes={
                                             Object {
                                               "colorSecondary": "MuiInput-colorSecondary",
@@ -26651,6 +27623,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                         >
                                           <ForwardRef(InputBase)
                                             autoFocus={false}
+                                            className="MuiFilled"
                                             classes={
                                               Object {
                                                 "adornedEnd": "MuiInputBase-adornedEnd",
@@ -26695,7 +27668,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                             value="February 1st"
                                           >
                                             <div
-                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiFilled MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
                                               onClick={[Function]}
                                             >
                                               <input
@@ -27482,7 +28455,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                   </StyledComponent>
                 </styled.label>
                 <PickerWithState
-                  InputProps={Object {}}
+                  InputProps={
+                    Object {
+                      "className": "MuiFilled",
+                    }
+                  }
                   allowKeyboardControl={true}
                   disableToolbar={false}
                   helperText=""
@@ -27522,7 +28499,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                       }
                     }
                     InputComponent={[Function]}
-                    InputProps={Object {}}
+                    InputProps={
+                      Object {
+                        "className": "MuiFilled",
+                      }
+                    }
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
@@ -27551,7 +28532,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                         }
                       }
                       InputComponent={[Function]}
-                      InputProps={Object {}}
+                      InputProps={
+                        Object {
+                          "className": "MuiFilled",
+                        }
+                      }
                       cancelLabel="Cancel"
                       clearLabel="Clear"
                       clearable={false}
@@ -27575,7 +28560,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                       todayLabel="Today"
                     >
                       <Component
-                        InputProps={Object {}}
+                        InputProps={
+                          Object {
+                            "className": "MuiFilled",
+                          }
+                        }
                         format="MMMM do"
                         helperText=""
                         inputValue="February 1st"
@@ -27601,6 +28590,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                           <WithStyles(ForwardRef(TextField))
                             InputProps={
                               Object {
+                                "className": "MuiFilled",
                                 "endAdornment": <ForwardRef(WithStyles)
                                   position="end"
                                 >
@@ -27625,6 +28615,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                             <ForwardRef(TextField)
                               InputProps={
                                 Object {
+                                  "className": "MuiFilled",
                                   "endAdornment": <ForwardRef(WithStyles)
                                     position="end"
                                   >
@@ -27682,6 +28673,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                   >
                                     <WithStyles(ForwardRef(Input))
                                       autoFocus={false}
+                                      className="MuiFilled"
                                       endAdornment={
                                         <ForwardRef(WithStyles)
                                           position="end"
@@ -27703,6 +28695,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                     >
                                       <ForwardRef(Input)
                                         autoFocus={false}
+                                        className="MuiFilled"
                                         classes={
                                           Object {
                                             "colorSecondary": "MuiInput-colorSecondary",
@@ -27742,6 +28735,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                       >
                                         <WithStyles(ForwardRef(InputBase))
                                           autoFocus={false}
+                                          className="MuiFilled"
                                           classes={
                                             Object {
                                               "colorSecondary": "MuiInput-colorSecondary",
@@ -27783,6 +28777,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                         >
                                           <ForwardRef(InputBase)
                                             autoFocus={false}
+                                            className="MuiFilled"
                                             classes={
                                               Object {
                                                 "adornedEnd": "MuiInputBase-adornedEnd",
@@ -27827,7 +28822,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                             value="February 1st"
                                           >
                                             <div
-                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiFilled MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
                                               onClick={[Function]}
                                             >
                                               <input
@@ -37883,7 +38878,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                   </StyledComponent>
                 </styled.label>
                 <PickerWithState
-                  InputProps={Object {}}
+                  InputProps={
+                    Object {
+                      "className": "MuiFilled",
+                    }
+                  }
                   allowKeyboardControl={true}
                   disableToolbar={false}
                   helperText=""
@@ -37923,7 +38922,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                       }
                     }
                     InputComponent={[Function]}
-                    InputProps={Object {}}
+                    InputProps={
+                      Object {
+                        "className": "MuiFilled",
+                      }
+                    }
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
@@ -37953,7 +38956,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                         }
                       }
                       InputComponent={[Function]}
-                      InputProps={Object {}}
+                      InputProps={
+                        Object {
+                          "className": "MuiFilled",
+                        }
+                      }
                       cancelLabel="Cancel"
                       clearLabel="Clear"
                       clearable={false}
@@ -37978,7 +38985,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                       todayLabel="Today"
                     >
                       <Component
-                        InputProps={Object {}}
+                        InputProps={
+                          Object {
+                            "className": "MuiFilled",
+                          }
+                        }
                         format="MMMM do"
                         helperText=""
                         inputValue="February 1st"
@@ -38005,6 +39016,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                           <WithStyles(ForwardRef(TextField))
                             InputProps={
                               Object {
+                                "className": "MuiFilled",
                                 "endAdornment": <ForwardRef(WithStyles)
                                   position="end"
                                 >
@@ -38030,6 +39042,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                             <ForwardRef(TextField)
                               InputProps={
                                 Object {
+                                  "className": "MuiFilled",
                                   "endAdornment": <ForwardRef(WithStyles)
                                     position="end"
                                   >
@@ -38091,6 +39104,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                   >
                                     <WithStyles(ForwardRef(Input))
                                       autoFocus={false}
+                                      className="MuiFilled"
                                       endAdornment={
                                         <ForwardRef(WithStyles)
                                           position="end"
@@ -38112,6 +39126,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                     >
                                       <ForwardRef(Input)
                                         autoFocus={false}
+                                        className="MuiFilled"
                                         classes={
                                           Object {
                                             "colorSecondary": "MuiInput-colorSecondary",
@@ -38151,6 +39166,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                       >
                                         <WithStyles(ForwardRef(InputBase))
                                           autoFocus={false}
+                                          className="MuiFilled"
                                           classes={
                                             Object {
                                               "colorSecondary": "MuiInput-colorSecondary",
@@ -38192,6 +39208,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                         >
                                           <ForwardRef(InputBase)
                                             autoFocus={false}
+                                            className="MuiFilled"
                                             classes={
                                               Object {
                                                 "adornedEnd": "MuiInputBase-adornedEnd",
@@ -38236,7 +39253,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                             value="February 1st"
                                           >
                                             <div
-                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiFilled MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
                                               onClick={[Function]}
                                             >
                                               <input
@@ -38967,7 +39984,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                   </StyledComponent>
                 </styled.label>
                 <PickerWithState
-                  InputProps={Object {}}
+                  InputProps={
+                    Object {
+                      "className": "MuiFilled",
+                    }
+                  }
                   allowKeyboardControl={true}
                   disableToolbar={false}
                   helperText=""
@@ -39006,7 +40027,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                       }
                     }
                     InputComponent={[Function]}
-                    InputProps={Object {}}
+                    InputProps={
+                      Object {
+                        "className": "MuiFilled",
+                      }
+                    }
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
@@ -39035,7 +40060,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                         }
                       }
                       InputComponent={[Function]}
-                      InputProps={Object {}}
+                      InputProps={
+                        Object {
+                          "className": "MuiFilled",
+                        }
+                      }
                       cancelLabel="Cancel"
                       clearLabel="Clear"
                       clearable={false}
@@ -39059,7 +40088,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                       todayLabel="Today"
                     >
                       <Component
-                        InputProps={Object {}}
+                        InputProps={
+                          Object {
+                            "className": "MuiFilled",
+                          }
+                        }
                         format="MMMM do"
                         helperText=""
                         inputValue="February 1st"
@@ -39085,6 +40118,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                           <WithStyles(ForwardRef(TextField))
                             InputProps={
                               Object {
+                                "className": "MuiFilled",
                                 "endAdornment": <ForwardRef(WithStyles)
                                   position="end"
                                 >
@@ -39109,6 +40143,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                             <ForwardRef(TextField)
                               InputProps={
                                 Object {
+                                  "className": "MuiFilled",
                                   "endAdornment": <ForwardRef(WithStyles)
                                     position="end"
                                   >
@@ -39166,6 +40201,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                   >
                                     <WithStyles(ForwardRef(Input))
                                       autoFocus={false}
+                                      className="MuiFilled"
                                       endAdornment={
                                         <ForwardRef(WithStyles)
                                           position="end"
@@ -39187,6 +40223,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                     >
                                       <ForwardRef(Input)
                                         autoFocus={false}
+                                        className="MuiFilled"
                                         classes={
                                           Object {
                                             "colorSecondary": "MuiInput-colorSecondary",
@@ -39226,6 +40263,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                       >
                                         <WithStyles(ForwardRef(InputBase))
                                           autoFocus={false}
+                                          className="MuiFilled"
                                           classes={
                                             Object {
                                               "colorSecondary": "MuiInput-colorSecondary",
@@ -39267,6 +40305,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                         >
                                           <ForwardRef(InputBase)
                                             autoFocus={false}
+                                            className="MuiFilled"
                                             classes={
                                               Object {
                                                 "adornedEnd": "MuiInputBase-adornedEnd",
@@ -39311,7 +40350,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                             value="February 1st"
                                           >
                                             <div
-                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiFilled MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
                                               onClick={[Function]}
                                             >
                                               <input
@@ -39944,7 +40983,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Static variant
         variant="static"
       >
         <PickerWithState
-          InputProps={Object {}}
+          InputProps={
+            Object {
+              "className": "MuiFilled",
+            }
+          }
           allowKeyboardControl={true}
           disableToolbar={false}
           helperText=""
@@ -39983,7 +41026,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Static variant
               }
             }
             InputComponent={[Function]}
-            InputProps={Object {}}
+            InputProps={
+              Object {
+                "className": "MuiFilled",
+              }
+            }
             format="MMMM do"
             helperText=""
             keyboardIcon={
@@ -40012,7 +41059,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Static variant
                 }
               }
               InputComponent={[Function]}
-              InputProps={Object {}}
+              InputProps={
+                Object {
+                  "className": "MuiFilled",
+                }
+              }
               format="MMMM do"
               helperText=""
               keyboardIcon={
@@ -48205,11 +49256,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -48222,6 +49291,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -48858,11 +49936,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
             },
             "MuiInputBase": Object {
               "input": Object {
+                "&.Mui-disabled": Object {
+                  "opacity": 0.24,
+                },
                 "color": "#333333",
               },
               "root": Object {
-                "&.Mui-focused": Object {
+                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                   "boxShadow": "#F4AB34 0 0 0 2px",
+                },
+                "&.MuiError": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#E74627 0 0 0 2px",
+                },
+                "&.MuiFilled:not(.Mui-focused)": Object {
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#333333 0 0 0 1px",
                 },
                 "&.MuiInput-underline.Mui-disabled:before": Object {
                   "borderBottomStyle": "none",
@@ -48875,6 +49971,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                 },
                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                   "borderBottom": "none",
+                },
+                "&.MuiSuccess": Object {
+                  "&.Mui-focused": Object {
+                    "boxShadow": "#569A32 0 0 0 1px",
+                  },
+                  "&:hover": Object {
+                    "boxShadow": "#777777 0 0 0 1px",
+                  },
+                  "boxShadow": "#569A32 0 0 0 1px",
                 },
                 "&:hover": Object {
                   "boxShadow": "#777777 0 0 0 1px",
@@ -49509,11 +50614,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
               },
               "MuiInputBase": Object {
                 "input": Object {
+                  "&.Mui-disabled": Object {
+                    "opacity": 0.24,
+                  },
                   "color": "#333333",
                 },
                 "root": Object {
-                  "&.Mui-focused": Object {
+                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                     "boxShadow": "#F4AB34 0 0 0 2px",
+                  },
+                  "&.MuiError": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#E74627 0 0 0 2px",
+                  },
+                  "&.MuiFilled:not(.Mui-focused)": Object {
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#333333 0 0 0 1px",
                   },
                   "&.MuiInput-underline.Mui-disabled:before": Object {
                     "borderBottomStyle": "none",
@@ -49526,6 +50649,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                   },
                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                     "borderBottom": "none",
+                  },
+                  "&.MuiSuccess": Object {
+                    "&.Mui-focused": Object {
+                      "boxShadow": "#569A32 0 0 0 1px",
+                    },
+                    "&:hover": Object {
+                      "boxShadow": "#777777 0 0 0 1px",
+                    },
+                    "boxShadow": "#569A32 0 0 0 1px",
                   },
                   "&:hover": Object {
                     "boxShadow": "#777777 0 0 0 1px",
@@ -50160,11 +51292,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                 },
                 "MuiInputBase": Object {
                   "input": Object {
+                    "&.Mui-disabled": Object {
+                      "opacity": 0.24,
+                    },
                     "color": "#333333",
                   },
                   "root": Object {
-                    "&.Mui-focused": Object {
+                    "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                       "boxShadow": "#F4AB34 0 0 0 2px",
+                    },
+                    "&.MuiError": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#E74627 0 0 0 2px",
+                    },
+                    "&.MuiFilled:not(.Mui-focused)": Object {
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#333333 0 0 0 1px",
                     },
                     "&.MuiInput-underline.Mui-disabled:before": Object {
                       "borderBottomStyle": "none",
@@ -50177,6 +51327,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                     },
                     "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                       "borderBottom": "none",
+                    },
+                    "&.MuiSuccess": Object {
+                      "&.Mui-focused": Object {
+                        "boxShadow": "#569A32 0 0 0 1px",
+                      },
+                      "&:hover": Object {
+                        "boxShadow": "#777777 0 0 0 1px",
+                      },
+                      "boxShadow": "#569A32 0 0 0 1px",
                     },
                     "&:hover": Object {
                       "boxShadow": "#777777 0 0 0 1px",
@@ -50808,11 +51967,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                   },
                   "MuiInputBase": Object {
                     "input": Object {
+                      "&.Mui-disabled": Object {
+                        "opacity": 0.24,
+                      },
                       "color": "#333333",
                     },
                     "root": Object {
-                      "&.Mui-focused": Object {
+                      "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                         "boxShadow": "#F4AB34 0 0 0 2px",
+                      },
+                      "&.MuiError": Object {
+                        "&.Mui-focused": Object {
+                          "boxShadow": "#E74627 0 0 0 2px",
+                        },
+                        "&:hover": Object {
+                          "boxShadow": "#777777 0 0 0 1px",
+                        },
+                        "boxShadow": "#E74627 0 0 0 2px",
+                      },
+                      "&.MuiFilled:not(.Mui-focused)": Object {
+                        "&:hover": Object {
+                          "boxShadow": "#777777 0 0 0 1px",
+                        },
+                        "boxShadow": "#333333 0 0 0 1px",
                       },
                       "&.MuiInput-underline.Mui-disabled:before": Object {
                         "borderBottomStyle": "none",
@@ -50825,6 +52002,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                       },
                       "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                         "borderBottom": "none",
+                      },
+                      "&.MuiSuccess": Object {
+                        "&.Mui-focused": Object {
+                          "boxShadow": "#569A32 0 0 0 1px",
+                        },
+                        "&:hover": Object {
+                          "boxShadow": "#777777 0 0 0 1px",
+                        },
+                        "boxShadow": "#569A32 0 0 0 1px",
                       },
                       "&:hover": Object {
                         "boxShadow": "#777777 0 0 0 1px",
@@ -51483,11 +52669,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                     },
                     "MuiInputBase": Object {
                       "input": Object {
+                        "&.Mui-disabled": Object {
+                          "opacity": 0.24,
+                        },
                         "color": "#333333",
                       },
                       "root": Object {
-                        "&.Mui-focused": Object {
+                        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                           "boxShadow": "#F4AB34 0 0 0 2px",
+                        },
+                        "&.MuiError": Object {
+                          "&.Mui-focused": Object {
+                            "boxShadow": "#E74627 0 0 0 2px",
+                          },
+                          "&:hover": Object {
+                            "boxShadow": "#777777 0 0 0 1px",
+                          },
+                          "boxShadow": "#E74627 0 0 0 2px",
+                        },
+                        "&.MuiFilled:not(.Mui-focused)": Object {
+                          "&:hover": Object {
+                            "boxShadow": "#777777 0 0 0 1px",
+                          },
+                          "boxShadow": "#333333 0 0 0 1px",
                         },
                         "&.MuiInput-underline.Mui-disabled:before": Object {
                           "borderBottomStyle": "none",
@@ -51500,6 +52704,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                         },
                         "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                           "borderBottom": "none",
+                        },
+                        "&.MuiSuccess": Object {
+                          "&.Mui-focused": Object {
+                            "boxShadow": "#569A32 0 0 0 1px",
+                          },
+                          "&:hover": Object {
+                            "boxShadow": "#777777 0 0 0 1px",
+                          },
+                          "boxShadow": "#569A32 0 0 0 1px",
                         },
                         "&:hover": Object {
                           "boxShadow": "#777777 0 0 0 1px",
@@ -52134,11 +53347,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                         },
                         "MuiInputBase": Object {
                           "input": Object {
+                            "&.Mui-disabled": Object {
+                              "opacity": 0.24,
+                            },
                             "color": "#333333",
                           },
                           "root": Object {
-                            "&.Mui-focused": Object {
+                            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                               "boxShadow": "#F4AB34 0 0 0 2px",
+                            },
+                            "&.MuiError": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&.MuiFilled:not(.Mui-focused)": Object {
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#333333 0 0 0 1px",
                             },
                             "&.MuiInput-underline.Mui-disabled:before": Object {
                               "borderBottomStyle": "none",
@@ -52151,6 +53382,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                             },
                             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                               "borderBottom": "none",
+                            },
+                            "&.MuiSuccess": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#569A32 0 0 0 1px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#569A32 0 0 0 1px",
                             },
                             "&:hover": Object {
                               "boxShadow": "#777777 0 0 0 1px",
@@ -52822,11 +54062,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                           },
                           "MuiInputBase": Object {
                             "input": Object {
+                              "&.Mui-disabled": Object {
+                                "opacity": 0.24,
+                              },
                               "color": "#333333",
                             },
                             "root": Object {
-                              "&.Mui-focused": Object {
+                              "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                 "boxShadow": "#F4AB34 0 0 0 2px",
+                              },
+                              "&.MuiError": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#E74627 0 0 0 2px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&.MuiFilled:not(.Mui-focused)": Object {
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#333333 0 0 0 1px",
                               },
                               "&.MuiInput-underline.Mui-disabled:before": Object {
                                 "borderBottomStyle": "none",
@@ -52839,6 +54097,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                               },
                               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                 "borderBottom": "none",
+                              },
+                              "&.MuiSuccess": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#569A32 0 0 0 1px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#569A32 0 0 0 1px",
                               },
                               "&:hover": Object {
                                 "boxShadow": "#777777 0 0 0 1px",
@@ -53109,9 +54376,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                 <PickerWithState
                   InputProps={
                     Object {
-                      "style": Object {
-                        "boxShadow": "#569A32 0 0 0 1px",
-                      },
+                      "className": "MuiSuccess",
                     }
                   }
                   allowKeyboardControl={true}
@@ -53501,11 +54766,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                         },
                         "MuiInputBase": Object {
                           "input": Object {
+                            "&.Mui-disabled": Object {
+                              "opacity": 0.24,
+                            },
                             "color": "#333333",
                           },
                           "root": Object {
-                            "&.Mui-focused": Object {
+                            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                               "boxShadow": "#F4AB34 0 0 0 2px",
+                            },
+                            "&.MuiError": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#E74627 0 0 0 2px",
+                            },
+                            "&.MuiFilled:not(.Mui-focused)": Object {
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#333333 0 0 0 1px",
                             },
                             "&.MuiInput-underline.Mui-disabled:before": Object {
                               "borderBottomStyle": "none",
@@ -53518,6 +54801,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                             },
                             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                               "borderBottom": "none",
+                            },
+                            "&.MuiSuccess": Object {
+                              "&.Mui-focused": Object {
+                                "boxShadow": "#569A32 0 0 0 1px",
+                              },
+                              "&:hover": Object {
+                                "boxShadow": "#777777 0 0 0 1px",
+                              },
+                              "boxShadow": "#569A32 0 0 0 1px",
                             },
                             "&:hover": Object {
                               "boxShadow": "#777777 0 0 0 1px",
@@ -53798,9 +55090,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                     InputComponent={[Function]}
                     InputProps={
                       Object {
-                        "style": Object {
-                          "boxShadow": "#569A32 0 0 0 1px",
-                        },
+                        "className": "MuiSuccess",
                       }
                     }
                     format="MMMM do"
@@ -54187,11 +55477,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                           },
                           "MuiInputBase": Object {
                             "input": Object {
+                              "&.Mui-disabled": Object {
+                                "opacity": 0.24,
+                              },
                               "color": "#333333",
                             },
                             "root": Object {
-                              "&.Mui-focused": Object {
+                              "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                 "boxShadow": "#F4AB34 0 0 0 2px",
+                              },
+                              "&.MuiError": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#E74627 0 0 0 2px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#E74627 0 0 0 2px",
+                              },
+                              "&.MuiFilled:not(.Mui-focused)": Object {
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#333333 0 0 0 1px",
                               },
                               "&.MuiInput-underline.Mui-disabled:before": Object {
                                 "borderBottomStyle": "none",
@@ -54204,6 +55512,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                               },
                               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                 "borderBottom": "none",
+                              },
+                              "&.MuiSuccess": Object {
+                                "&.Mui-focused": Object {
+                                  "boxShadow": "#569A32 0 0 0 1px",
+                                },
+                                "&:hover": Object {
+                                  "boxShadow": "#777777 0 0 0 1px",
+                                },
+                                "boxShadow": "#569A32 0 0 0 1px",
                               },
                               "&:hover": Object {
                                 "boxShadow": "#777777 0 0 0 1px",
@@ -54477,9 +55794,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                       InputComponent={[Function]}
                       InputProps={
                         Object {
-                          "style": Object {
-                            "boxShadow": "#569A32 0 0 0 1px",
-                          },
+                          "className": "MuiSuccess",
                         }
                       }
                       cancelLabel="Cancel"
@@ -54871,11 +56186,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                             },
                             "MuiInputBase": Object {
                               "input": Object {
+                                "&.Mui-disabled": Object {
+                                  "opacity": 0.24,
+                                },
                                 "color": "#333333",
                               },
                               "root": Object {
-                                "&.Mui-focused": Object {
+                                "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                   "boxShadow": "#F4AB34 0 0 0 2px",
+                                },
+                                "&.MuiError": Object {
+                                  "&.Mui-focused": Object {
+                                    "boxShadow": "#E74627 0 0 0 2px",
+                                  },
+                                  "&:hover": Object {
+                                    "boxShadow": "#777777 0 0 0 1px",
+                                  },
+                                  "boxShadow": "#E74627 0 0 0 2px",
+                                },
+                                "&.MuiFilled:not(.Mui-focused)": Object {
+                                  "&:hover": Object {
+                                    "boxShadow": "#777777 0 0 0 1px",
+                                  },
+                                  "boxShadow": "#333333 0 0 0 1px",
                                 },
                                 "&.MuiInput-underline.Mui-disabled:before": Object {
                                   "borderBottomStyle": "none",
@@ -54888,6 +56221,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                 },
                                 "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                   "borderBottom": "none",
+                                },
+                                "&.MuiSuccess": Object {
+                                  "&.Mui-focused": Object {
+                                    "boxShadow": "#569A32 0 0 0 1px",
+                                  },
+                                  "&:hover": Object {
+                                    "boxShadow": "#777777 0 0 0 1px",
+                                  },
+                                  "boxShadow": "#569A32 0 0 0 1px",
                                 },
                                 "&:hover": Object {
                                   "boxShadow": "#777777 0 0 0 1px",
@@ -55151,9 +56493,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                       <Component
                         InputProps={
                           Object {
-                            "style": Object {
-                              "boxShadow": "#569A32 0 0 0 1px",
-                            },
+                            "className": "MuiSuccess",
                           }
                         }
                         format="MMMM do"
@@ -55538,11 +56878,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                               },
                               "MuiInputBase": Object {
                                 "input": Object {
+                                  "&.Mui-disabled": Object {
+                                    "opacity": 0.24,
+                                  },
                                   "color": "#333333",
                                 },
                                 "root": Object {
-                                  "&.Mui-focused": Object {
+                                  "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                     "boxShadow": "#F4AB34 0 0 0 2px",
+                                  },
+                                  "&.MuiError": Object {
+                                    "&.Mui-focused": Object {
+                                      "boxShadow": "#E74627 0 0 0 2px",
+                                    },
+                                    "&:hover": Object {
+                                      "boxShadow": "#777777 0 0 0 1px",
+                                    },
+                                    "boxShadow": "#E74627 0 0 0 2px",
+                                  },
+                                  "&.MuiFilled:not(.Mui-focused)": Object {
+                                    "&:hover": Object {
+                                      "boxShadow": "#777777 0 0 0 1px",
+                                    },
+                                    "boxShadow": "#333333 0 0 0 1px",
                                   },
                                   "&.MuiInput-underline.Mui-disabled:before": Object {
                                     "borderBottomStyle": "none",
@@ -55555,6 +56913,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                   },
                                   "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                     "borderBottom": "none",
+                                  },
+                                  "&.MuiSuccess": Object {
+                                    "&.Mui-focused": Object {
+                                      "boxShadow": "#569A32 0 0 0 1px",
+                                    },
+                                    "&:hover": Object {
+                                      "boxShadow": "#777777 0 0 0 1px",
+                                    },
+                                    "boxShadow": "#569A32 0 0 0 1px",
                                   },
                                   "&:hover": Object {
                                     "boxShadow": "#777777 0 0 0 1px",
@@ -55825,6 +57192,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                           <WithStyles(ForwardRef(TextField))
                             InputProps={
                               Object {
+                                "className": "MuiSuccess",
                                 "endAdornment": <ForwardRef(WithStyles)
                                   position="end"
                                 >
@@ -55837,9 +57205,6 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                     />
                                   </ForwardRef(WithStyles)>
                                 </ForwardRef(WithStyles)>,
-                                "style": Object {
-                                  "boxShadow": "#569A32 0 0 0 1px",
-                                },
                               }
                             }
                             error={false}
@@ -56216,11 +57581,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                   },
                                   "MuiInputBase": Object {
                                     "input": Object {
+                                      "&.Mui-disabled": Object {
+                                        "opacity": 0.24,
+                                      },
                                       "color": "#333333",
                                     },
                                     "root": Object {
-                                      "&.Mui-focused": Object {
+                                      "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                         "boxShadow": "#F4AB34 0 0 0 2px",
+                                      },
+                                      "&.MuiError": Object {
+                                        "&.Mui-focused": Object {
+                                          "boxShadow": "#E74627 0 0 0 2px",
+                                        },
+                                        "&:hover": Object {
+                                          "boxShadow": "#777777 0 0 0 1px",
+                                        },
+                                        "boxShadow": "#E74627 0 0 0 2px",
+                                      },
+                                      "&.MuiFilled:not(.Mui-focused)": Object {
+                                        "&:hover": Object {
+                                          "boxShadow": "#777777 0 0 0 1px",
+                                        },
+                                        "boxShadow": "#333333 0 0 0 1px",
                                       },
                                       "&.MuiInput-underline.Mui-disabled:before": Object {
                                         "borderBottomStyle": "none",
@@ -56233,6 +57616,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                       },
                                       "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                         "borderBottom": "none",
+                                      },
+                                      "&.MuiSuccess": Object {
+                                        "&.Mui-focused": Object {
+                                          "boxShadow": "#569A32 0 0 0 1px",
+                                        },
+                                        "&:hover": Object {
+                                          "boxShadow": "#777777 0 0 0 1px",
+                                        },
+                                        "boxShadow": "#569A32 0 0 0 1px",
                                       },
                                       "&:hover": Object {
                                         "boxShadow": "#777777 0 0 0 1px",
@@ -56496,6 +57888,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                             <ForwardRef(TextField)
                               InputProps={
                                 Object {
+                                  "className": "MuiSuccess",
                                   "endAdornment": <ForwardRef(WithStyles)
                                     position="end"
                                   >
@@ -56508,9 +57901,6 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                       />
                                     </ForwardRef(WithStyles)>
                                   </ForwardRef(WithStyles)>,
-                                  "style": Object {
-                                    "boxShadow": "#569A32 0 0 0 1px",
-                                  },
                                 }
                               }
                               classes={
@@ -56892,11 +58282,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                     },
                                     "MuiInputBase": Object {
                                       "input": Object {
+                                        "&.Mui-disabled": Object {
+                                          "opacity": 0.24,
+                                        },
                                         "color": "#333333",
                                       },
                                       "root": Object {
-                                        "&.Mui-focused": Object {
+                                        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                           "boxShadow": "#F4AB34 0 0 0 2px",
+                                        },
+                                        "&.MuiError": Object {
+                                          "&.Mui-focused": Object {
+                                            "boxShadow": "#E74627 0 0 0 2px",
+                                          },
+                                          "&:hover": Object {
+                                            "boxShadow": "#777777 0 0 0 1px",
+                                          },
+                                          "boxShadow": "#E74627 0 0 0 2px",
+                                        },
+                                        "&.MuiFilled:not(.Mui-focused)": Object {
+                                          "&:hover": Object {
+                                            "boxShadow": "#777777 0 0 0 1px",
+                                          },
+                                          "boxShadow": "#333333 0 0 0 1px",
                                         },
                                         "&.MuiInput-underline.Mui-disabled:before": Object {
                                           "borderBottomStyle": "none",
@@ -56909,6 +58317,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                         },
                                         "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                           "borderBottom": "none",
+                                        },
+                                        "&.MuiSuccess": Object {
+                                          "&.Mui-focused": Object {
+                                            "boxShadow": "#569A32 0 0 0 1px",
+                                          },
+                                          "&:hover": Object {
+                                            "boxShadow": "#777777 0 0 0 1px",
+                                          },
+                                          "boxShadow": "#569A32 0 0 0 1px",
                                         },
                                         "&:hover": Object {
                                           "boxShadow": "#777777 0 0 0 1px",
@@ -57545,11 +58962,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                       },
                                       "MuiInputBase": Object {
                                         "input": Object {
+                                          "&.Mui-disabled": Object {
+                                            "opacity": 0.24,
+                                          },
                                           "color": "#333333",
                                         },
                                         "root": Object {
-                                          "&.Mui-focused": Object {
+                                          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                             "boxShadow": "#F4AB34 0 0 0 2px",
+                                          },
+                                          "&.MuiError": Object {
+                                            "&.Mui-focused": Object {
+                                              "boxShadow": "#E74627 0 0 0 2px",
+                                            },
+                                            "&:hover": Object {
+                                              "boxShadow": "#777777 0 0 0 1px",
+                                            },
+                                            "boxShadow": "#E74627 0 0 0 2px",
+                                          },
+                                          "&.MuiFilled:not(.Mui-focused)": Object {
+                                            "&:hover": Object {
+                                              "boxShadow": "#777777 0 0 0 1px",
+                                            },
+                                            "boxShadow": "#333333 0 0 0 1px",
                                           },
                                           "&.MuiInput-underline.Mui-disabled:before": Object {
                                             "borderBottomStyle": "none",
@@ -57562,6 +58997,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                           },
                                           "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                             "borderBottom": "none",
+                                          },
+                                          "&.MuiSuccess": Object {
+                                            "&.Mui-focused": Object {
+                                              "boxShadow": "#569A32 0 0 0 1px",
+                                            },
+                                            "&:hover": Object {
+                                              "boxShadow": "#777777 0 0 0 1px",
+                                            },
+                                            "boxShadow": "#569A32 0 0 0 1px",
                                           },
                                           "&:hover": Object {
                                             "boxShadow": "#777777 0 0 0 1px",
@@ -58206,11 +59650,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                         },
                                         "MuiInputBase": Object {
                                           "input": Object {
+                                            "&.Mui-disabled": Object {
+                                              "opacity": 0.24,
+                                            },
                                             "color": "#333333",
                                           },
                                           "root": Object {
-                                            "&.Mui-focused": Object {
+                                            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                               "boxShadow": "#F4AB34 0 0 0 2px",
+                                            },
+                                            "&.MuiError": Object {
+                                              "&.Mui-focused": Object {
+                                                "boxShadow": "#E74627 0 0 0 2px",
+                                              },
+                                              "&:hover": Object {
+                                                "boxShadow": "#777777 0 0 0 1px",
+                                              },
+                                              "boxShadow": "#E74627 0 0 0 2px",
+                                            },
+                                            "&.MuiFilled:not(.Mui-focused)": Object {
+                                              "&:hover": Object {
+                                                "boxShadow": "#777777 0 0 0 1px",
+                                              },
+                                              "boxShadow": "#333333 0 0 0 1px",
                                             },
                                             "&.MuiInput-underline.Mui-disabled:before": Object {
                                               "borderBottomStyle": "none",
@@ -58223,6 +59685,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                             },
                                             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                               "borderBottom": "none",
+                                            },
+                                            "&.MuiSuccess": Object {
+                                              "&.Mui-focused": Object {
+                                                "boxShadow": "#569A32 0 0 0 1px",
+                                              },
+                                              "&:hover": Object {
+                                                "boxShadow": "#777777 0 0 0 1px",
+                                              },
+                                              "boxShadow": "#569A32 0 0 0 1px",
                                             },
                                             "&:hover": Object {
                                               "boxShadow": "#777777 0 0 0 1px",
@@ -58854,11 +60325,29 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                           },
                                           "MuiInputBase": Object {
                                             "input": Object {
+                                              "&.Mui-disabled": Object {
+                                                "opacity": 0.24,
+                                              },
                                               "color": "#333333",
                                             },
                                             "root": Object {
-                                              "&.Mui-focused": Object {
+                                              "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
                                                 "boxShadow": "#F4AB34 0 0 0 2px",
+                                              },
+                                              "&.MuiError": Object {
+                                                "&.Mui-focused": Object {
+                                                  "boxShadow": "#E74627 0 0 0 2px",
+                                                },
+                                                "&:hover": Object {
+                                                  "boxShadow": "#777777 0 0 0 1px",
+                                                },
+                                                "boxShadow": "#E74627 0 0 0 2px",
+                                              },
+                                              "&.MuiFilled:not(.Mui-focused)": Object {
+                                                "&:hover": Object {
+                                                  "boxShadow": "#777777 0 0 0 1px",
+                                                },
+                                                "boxShadow": "#333333 0 0 0 1px",
                                               },
                                               "&.MuiInput-underline.Mui-disabled:before": Object {
                                                 "borderBottomStyle": "none",
@@ -58871,6 +60360,15 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                               },
                                               "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
                                                 "borderBottom": "none",
+                                              },
+                                              "&.MuiSuccess": Object {
+                                                "&.Mui-focused": Object {
+                                                  "boxShadow": "#569A32 0 0 0 1px",
+                                                },
+                                                "&:hover": Object {
+                                                  "boxShadow": "#777777 0 0 0 1px",
+                                                },
+                                                "boxShadow": "#569A32 0 0 0 1px",
                                               },
                                               "&:hover": Object {
                                                 "boxShadow": "#777777 0 0 0 1px",
@@ -59132,6 +60630,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                   >
                                     <WithStyles(ForwardRef(Input))
                                       autoFocus={false}
+                                      className="MuiSuccess"
                                       endAdornment={
                                         <ForwardRef(WithStyles)
                                           position="end"
@@ -59149,15 +60648,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                       fullWidth={false}
                                       multiline={false}
                                       onChange={[Function]}
-                                      style={
-                                        Object {
-                                          "boxShadow": "#569A32 0 0 0 1px",
-                                        }
-                                      }
                                       value="February 1st"
                                     >
                                       <ForwardRef(Input)
                                         autoFocus={false}
+                                        className="MuiSuccess"
                                         classes={
                                           Object {
                                             "colorSecondary": "MuiInput-colorSecondary",
@@ -59193,15 +60688,11 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                         fullWidth={false}
                                         multiline={false}
                                         onChange={[Function]}
-                                        style={
-                                          Object {
-                                            "boxShadow": "#569A32 0 0 0 1px",
-                                          }
-                                        }
                                         value="February 1st"
                                       >
                                         <WithStyles(ForwardRef(InputBase))
                                           autoFocus={false}
+                                          className="MuiSuccess"
                                           classes={
                                             Object {
                                               "colorSecondary": "MuiInput-colorSecondary",
@@ -59238,16 +60729,12 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                           inputComponent="input"
                                           multiline={false}
                                           onChange={[Function]}
-                                          style={
-                                            Object {
-                                              "boxShadow": "#569A32 0 0 0 1px",
-                                            }
-                                          }
                                           type="text"
                                           value="February 1st"
                                         >
                                           <ForwardRef(InputBase)
                                             autoFocus={false}
+                                            className="MuiSuccess"
                                             classes={
                                               Object {
                                                 "adornedEnd": "MuiInputBase-adornedEnd",
@@ -59288,22 +60775,12 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                             inputComponent="input"
                                             multiline={false}
                                             onChange={[Function]}
-                                            style={
-                                              Object {
-                                                "boxShadow": "#569A32 0 0 0 1px",
-                                              }
-                                            }
                                             type="text"
                                             value="February 1st"
                                           >
                                             <div
-                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+                                              className="MuiInputBase-root MuiInput-root MuiInput-underline MuiSuccess MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
                                               onClick={[Function]}
-                                              style={
-                                                Object {
-                                                  "boxShadow": "#569A32 0 0 0 1px",
-                                                }
-                                              }
                                             >
                                               <input
                                                 aria-invalid={false}

@@ -335,12 +335,36 @@ export const avonDark: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: avonDarkColorTokens.colorOnPrimaryDark,
+        color: avonDarkColorTokens.colorOnPrimaryLight,
         "&:hover": {
           boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
-        "&.Mui-focused": {
+        "&.MuiError": {
+          boxShadow: `${avonDarkColorTokens.colorAlert} 0 0 0 2px`,
+          "&:hover": {
+            boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${avonDarkColorTokens.colorAlert} 0 0 0 2px`
+          }
+        },
+        "&.MuiSuccess": {
+          boxShadow: `${avonDarkColorTokens.colorSuccess} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${avonDarkColorTokens.colorSuccess} 0 0 0 1px`
+          }
+        },
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
           boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiFilled:not(.Mui-focused)": {
+          boxShadow: `${avonDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
@@ -362,7 +386,10 @@ export const avonDark: ITheme = {
         boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: avonDarkColorTokens.colorHighEmphasis
+        color: avonDarkColorTokens.colorOnPrimaryLight,
+        "&.Mui-disabled": {
+          opacity: 0.24
+        }
       }
     },
     MuiInputAdornment: {

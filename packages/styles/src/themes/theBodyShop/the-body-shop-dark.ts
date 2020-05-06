@@ -347,12 +347,36 @@ export const theBodyShopDark: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: theBodyShopDarkColorTokens.colorOnPrimaryDark,
+        color: theBodyShopDarkColorTokens.colorOnPrimaryLight,
         "&:hover": {
           boxShadow: `${theBodyShopDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
-        "&.Mui-focused": {
+        "&.MuiError": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorAlert} 0 0 0 2px`,
+          "&:hover": {
+            boxShadow: `${theBodyShopDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${theBodyShopDarkColorTokens.colorAlert} 0 0 0 2px`
+          }
+        },
+        "&.MuiSuccess": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorSuccess} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${theBodyShopDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${theBodyShopDarkColorTokens.colorSuccess} 0 0 0 1px`
+          }
+        },
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
           boxShadow: `${theBodyShopDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiFilled:not(.Mui-focused)": {
+          boxShadow: `${theBodyShopDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${theBodyShopDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
@@ -374,7 +398,10 @@ export const theBodyShopDark: ITheme = {
         boxShadow: `${theBodyShopDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: theBodyShopDarkColorTokens.colorHighEmphasis
+        color: theBodyShopDarkColorTokens.colorOnPrimaryLight,
+        "&.Mui-disabled": {
+          opacity: 0.24
+        }
       }
     },
     MuiInputAdornment: {

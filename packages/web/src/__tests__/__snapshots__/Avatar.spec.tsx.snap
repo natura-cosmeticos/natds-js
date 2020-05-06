@@ -373,11 +373,29 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -390,6 +408,15 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -1042,11 +1069,29 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -1059,6 +1104,15 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -1711,11 +1765,29 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -1728,6 +1800,15 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -2381,11 +2462,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -2398,6 +2497,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -3051,11 +3159,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -3068,6 +3194,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -3721,11 +3856,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -3738,6 +3891,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -4391,11 +4553,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -4408,6 +4588,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
@@ -5061,11 +5250,29 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "MuiInputBase": Object {
           "input": Object {
+            "&.Mui-disabled": Object {
+              "opacity": 0.24,
+            },
             "color": "#333333",
           },
           "root": Object {
-            "&.Mui-focused": Object {
+            "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
               "boxShadow": "#F4AB34 0 0 0 2px",
+            },
+            "&.MuiError": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#E74627 0 0 0 2px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#E74627 0 0 0 2px",
+            },
+            "&.MuiFilled:not(.Mui-focused)": Object {
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#333333 0 0 0 1px",
             },
             "&.MuiInput-underline.Mui-disabled:before": Object {
               "borderBottomStyle": "none",
@@ -5078,6 +5285,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
             "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
               "borderBottom": "none",
+            },
+            "&.MuiSuccess": Object {
+              "&.Mui-focused": Object {
+                "boxShadow": "#569A32 0 0 0 1px",
+              },
+              "&:hover": Object {
+                "boxShadow": "#777777 0 0 0 1px",
+              },
+              "boxShadow": "#569A32 0 0 0 1px",
             },
             "&:hover": Object {
               "boxShadow": "#777777 0 0 0 1px",
