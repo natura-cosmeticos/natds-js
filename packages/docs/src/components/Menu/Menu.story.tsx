@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Menu, MenuItem, Button } from '@naturacosmeticos/natds-web';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { boolean } from '@storybook/addon-knobs';
 import MenuDocs from './Menu.docs.mdx';
 

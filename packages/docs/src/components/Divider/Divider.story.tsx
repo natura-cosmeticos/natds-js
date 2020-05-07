@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { select } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { Divider, GridContainer, GridItem } from '@naturacosmeticos/natds-web';
 
 import DividerDocs from './Divider.docs.mdx';
