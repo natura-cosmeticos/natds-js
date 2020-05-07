@@ -328,7 +328,7 @@ export const theBodyShopLight: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: theBodyShopLightColorTokens.colorOnPrimaryLight,
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
         "&:hover": {
           boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
@@ -379,7 +379,7 @@ export const theBodyShopLight: ITheme = {
         boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: theBodyShopLightColorTokens.colorOnPrimaryLight,
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
         "&.Mui-disabled": {
           opacity: 0.24
         }

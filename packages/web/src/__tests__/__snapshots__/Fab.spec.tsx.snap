@@ -2997,7 +2997,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             "&.Mui-disabled": Object {
               "opacity": 0.24,
             },
-            "color": "#333333",
+            "color": "#FAFAFA",
           },
           "root": Object {
             "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
@@ -3047,7 +3047,7 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
             },
             "borderRadius": "4px",
             "boxShadow": "#777777 0 0 0 1px",
-            "color": "#333333",
+            "color": "#FAFAFA",
             "padding": "12px",
           },
         },

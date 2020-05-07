@@ -325,7 +325,7 @@ export const naturaLight: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: naturaLightColorTokens.colorOnPrimaryLight,
+        color: naturaLightColorTokens.colorHighEmphasis,
         "&:hover": {
           boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
@@ -376,7 +376,7 @@ export const naturaLight: ITheme = {
         boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: naturaLightColorTokens.colorOnPrimaryLight,
+        color: naturaLightColorTokens.colorHighEmphasis,
         "&.Mui-disabled": {
           opacity: 0.24
         }

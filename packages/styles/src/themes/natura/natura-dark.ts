@@ -344,7 +344,7 @@ export const naturaDark: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: naturaDarkColorTokens.colorOnPrimaryLight,
+        color: naturaDarkColorTokens.colorHighEmphasis,
         "&:hover": {
           boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
@@ -395,7 +395,7 @@ export const naturaDark: ITheme = {
         boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: naturaDarkColorTokens.colorOnPrimaryLight,
+        color: naturaDarkColorTokens.colorHighEmphasis,
         "&.Mui-disabled": {
           opacity: 0.24
         }
