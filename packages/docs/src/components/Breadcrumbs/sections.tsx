@@ -39,6 +39,9 @@ const BreadcrumbsIconsWrapper = (props: IBreadcrumbsWrapper) => {
         textDecoration: 'underline',
       },
     },
+    icon: {
+      marginRight: '4px',
+    },
   }));
 
   const classes = useStyles();
@@ -46,15 +49,23 @@ const BreadcrumbsIconsWrapper = (props: IBreadcrumbsWrapper) => {
   return (
     <Breadcrumbs aria-label="breadcrumb">
       <Link color="inherit" href="#" underline="none" className={classes.link}>
-        <Icon name="outlined-action-history" size="tiny" />
+        <Icon
+          name="outlined-action-history"
+          size="tiny"
+          className={classes.icon}
+        />
         <Typography className={classes.label}>Material-UI</Typography>
       </Link>
       <Link color="inherit" href="#" underline="none" className={classes.link}>
-        <Icon name="outlined-action-done" size="tiny" />
+        <Icon
+          name="outlined-action-done"
+          size="tiny"
+          className={classes.icon}
+        />
         <Typography className={classes.label}>Core</Typography>
       </Link>
       <Link color="default" href="#" underline="none" className={classes.link}>
-        <Icon name="outlined-action-add" size="tiny" />
+        <Icon name="outlined-action-add" size="tiny" className={classes.icon} />
         <Typography className={classes.label}>Breadcrumb</Typography>
       </Link>
     </Breadcrumbs>

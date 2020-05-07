@@ -3,6 +3,70 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.5.0...@naturacosmeticos/natds-web@0.5.1) (2020-04-30)
+
+
+### Bug Fixes
+
+* **InputStateHelpTextProvider:** changed the theme type expected to receive by component ([35de4bf](https://github.com/natura-cosmeticos/natds/commit/35de4bf3ecf696fcf3eca34642d6a143f1568bd5))
+* **ITheme:** fix the type of shadows used on IThemeWeb ([0928c7d](https://github.com/natura-cosmeticos/natds/commit/0928c7d5d88572883c409a70a03bec7875098271))
+
+
+
+
+
+# [0.5.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.4.5...@naturacosmeticos/natds-web@0.5.0) (2020-04-29)
+
+
+### Bug Fixes
+
+* **avatar:** fixed contrast text on primary and secondary colors ([b1e140c](https://github.com/natura-cosmeticos/natds/commit/b1e140c36fe9589a9c2845e20d4aea750491d2cd))
+
+
+### Features
+
+* **Component Breadcrumbs:** creating new component Breadcrombs ([772d711](https://github.com/natura-cosmeticos/natds/commit/772d7112469899eb6b83b31994d3c878418c7f20))
+* **Component Circular Progress:** creating new component Circular Progress ([f965746](https://github.com/natura-cosmeticos/natds/commit/f965746c8bdced04d1337df7ea0258630f4b105e))
+* **Component Circular Progress:** finish component Circular Progress ([6ceef3a](https://github.com/natura-cosmeticos/natds/commit/6ceef3a22c39f547516f21e125a28b44b035acb1))
+* **Component Linear Progress:** creating component Linear Progress ([7b68afe](https://github.com/natura-cosmeticos/natds/commit/7b68afe23ffe9440bc3d0a28be73577ac4d9cd69))
+* **Component Picker:** creating new component picker ([fce641e](https://github.com/natura-cosmeticos/natds/commit/fce641ea6868c6c5a0483ffc443e4919f19d3899))
+* **KeyboardDatePicker:** added state control and helper text ability ([ba3829b](https://github.com/natura-cosmeticos/natds/commit/ba3829b8c297fbbb00a4aa619b29abf8517c0388))
+* **KeyboardDatePicker:** added the InputStateHelpTextProvider to contain a label and helpText extra ([e9601d6](https://github.com/natura-cosmeticos/natds/commit/e9601d6afb27b1100c8f6642599e8cd5c7a11a3f))
+* **KeyboardDatePicker:** adjust component doc package and some refactors to fix undesirable behavio ([8c96263](https://github.com/natura-cosmeticos/natds/commit/8c962639d78122d1c74c2189131a91d1bbb026ca))
+* **New Component DatePicker:** creating new component datepicker ([8debc7e](https://github.com/natura-cosmeticos/natds/commit/8debc7ec74695b2af53a9de76507c24ebb825e29))
+* **New component KeyboardDatePicker:** new component KeyboardDatePicker ([992d212](https://github.com/natura-cosmeticos/natds/commit/992d212c79612168ef17ced195d67e3063d27090))
+* **New Component Linear Progress:** finishing new component Linear Progress ([05fee1a](https://github.com/natura-cosmeticos/natds/commit/05fee1a7c13d81de3c358afb5cf038e299334a18))
+* **Pickers:** apply to pickers better specs following material design guidelines ([5f77c6f](https://github.com/natura-cosmeticos/natds/commit/5f77c6fd3c2430b4caa03b19d6581bb808a43340))
+* **Styled New Component KeyboardDatePicker:** styled new component keyboardDatePicker ([ecf2da4](https://github.com/natura-cosmeticos/natds/commit/ecf2da41915cf6e22be6a3ba45faeaac62835863))
+
+
+
+
+
+## [0.4.5](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.4.4...@naturacosmeticos/natds-web@0.4.5) (2020-04-28)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.4.4](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.4.3...@naturacosmeticos/natds-web@0.4.4) (2020-04-23)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.4.3](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.4.2...@naturacosmeticos/natds-web@0.4.3) (2020-04-15)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
 ## [0.4.2](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.4.1...@naturacosmeticos/natds-web@0.4.2) (2020-04-13)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web

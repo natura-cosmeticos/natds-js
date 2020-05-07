@@ -9,7 +9,13 @@ export { DatePickerViewsProps as IDatePickerViewsProps } from '@material-ui/pick
 
 export const DatePicker: FunctionComponent<DatePickerViewsProps> = forwardRef(
   (props: DatePickerViewsProps, ref: any) => {
-    return <MaterialDatePicker {...props} ref={ref} />;
+    return (
+      <MaterialDatePicker
+        disableToolbar={props.variant === 'inline'}
+        {...props}
+        ref={ref}
+      />
+    );
   }
 );
 

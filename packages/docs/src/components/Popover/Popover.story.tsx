@@ -1,16 +1,10 @@
 import React from 'react';
-import { makeStyles, createStyles, Theme } from '@material-ui/core/styles';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
-import {
-  Popover,
-  Button,
-  Typography,
-  Paper,
-} from '@naturacosmeticos/natds-web';
+import { Popover, Button } from '@naturacosmeticos/natds-web';
 
 import PopoverDocs from './Popover.docs.mdx';
-import { select } from '@storybook/addon-knobs';
+import { select, text, number } from '@storybook/addon-knobs';
 
 export default {
   title: 'Components|Popover',
@@ -28,15 +22,7 @@ export default {
   },
 };
 
-const useStyles = makeStyles((theme: Theme) =>
-  createStyles({
-    typography: {
-      padding: theme.spacing(2),
-    },
-  })
-);
-
-const placements: any = {
+const directions: any = {
   bottomEnd: 'bottom-end',
   bottomStart: 'bottom-start',
   bottom: 'bottom',
@@ -51,11 +37,16 @@ const placements: any = {
   top: 'top',
 };
 
+const actionsLink: any = {
+  with: {
+    onClick: () => alert('Action link was clicked.'),
+    text: 'Action link',
+  },
+  without: undefined,
+};
+
 export const Interactive = () => {
-  const classes = useStyles();
-
-  const anchorRef = React.useRef(null);
-
+  const [anchorRef, setAnchorRef] = React.useState();
   const [open, setOpen] = React.useState(false);
 
   const handleClickButton = () => {
@@ -65,10 +56,17 @@ export const Interactive = () => {
   const id = open ? 'popover' : undefined;
 
   return (
-    <div style={{ margin: '40px 260px' }}>
+    <div
+      style={{
+        height: '400px',
+        width: '100%',
+        marginTop: '150px',
+        marginLeft: '400px'
+      }}
+    >
       <Button
         aria-describedby={id}
-        ref={anchorRef}
+        ref={setAnchorRef}
         variant="contained"
         color="primary"
         onClick={handleClickButton}
@@ -78,14 +76,12 @@ export const Interactive = () => {
       <Popover
         id={id}
         open={open}
-        anchorEl={anchorRef.current}
-        placement={select('placement', placements, placements.bottom)}
+        anchorEl={anchorRef}
+        direction={select('direction', directions, directions.bottom)}
+        actionLink={select('actionLink', actionsLink, actionsLink.with)}
+        maxWidth={number('maxWidth', 0)}
       >
-        <Paper elevation={3} variant="elevation">
-          <Typography className={classes.typography}>
-            Lorem ipsum dolor sit amet
-          </Typography>
-        </Paper>
+        {text('children', 'Lorem ipsum dolor sit amet')}
       </Popover>
     </div>
   );

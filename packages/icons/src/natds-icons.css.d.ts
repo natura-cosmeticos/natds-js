@@ -25,6 +25,7 @@ declare const styles: {
   readonly "natds-icons-filled-brand-naturarosacea": string;
   readonly "natds-icons-filled-media-pause": string;
   readonly "natds-icons-filled-media-play": string;
+  readonly "natds-icons-filled-media-stop": string;
   readonly "natds-icons-filled-navigation-directionleft": string;
   readonly "natds-icons-filled-navigation-directionright": string;
   readonly "natds-icons-filled-navigation-directiontbottom": string;
@@ -32,9 +33,11 @@ declare const styles: {
   readonly "natds-icons-filled-navigation-menu": string;
   readonly "natds-icons-filled-navigation-more": string;
   readonly "natds-icons-outlined-action-add": string;
+  readonly "natds-icons-outlined-action-addproduct": string;
   readonly "natds-icons-outlined-action-attachment": string;
   readonly "natds-icons-outlined-action-autofilter": string;
   readonly "natds-icons-outlined-action-calendar": string;
+  readonly "natds-icons-outlined-action-camerachange": string;
   readonly "natds-icons-outlined-action-cancel": string;
   readonly "natds-icons-outlined-action-change": string;
   readonly "natds-icons-outlined-action-check": string;
@@ -55,11 +58,13 @@ declare const styles: {
   readonly "natds-icons-outlined-action-love": string;
   readonly "natds-icons-outlined-action-mic": string;
   readonly "natds-icons-outlined-action-micrec": string;
+  readonly "natds-icons-outlined-action-newregister": string;
   readonly "natds-icons-outlined-action-newrequest": string;
   readonly "natds-icons-outlined-action-order": string;
   readonly "natds-icons-outlined-action-phone": string;
   readonly "natds-icons-outlined-action-print": string;
   readonly "natds-icons-outlined-action-rating": string;
+  readonly "natds-icons-outlined-action-recycle": string;
   readonly "natds-icons-outlined-action-request": string;
   readonly "natds-icons-outlined-action-save": string;
   readonly "natds-icons-outlined-action-schedule": string;
@@ -69,6 +74,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-settings": string;
   readonly "natds-icons-outlined-action-share": string;
   readonly "natds-icons-outlined-action-subtract": string;
+  readonly "natds-icons-outlined-action-text": string;
   readonly "natds-icons-outlined-action-update": string;
   readonly "natds-icons-outlined-action-upload": string;
   readonly "natds-icons-outlined-action-visibility": string;
@@ -105,6 +111,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-global": string;
   readonly "natds-icons-outlined-content-health": string;
   readonly "natds-icons-outlined-content-healthy": string;
+  readonly "natds-icons-outlined-content-indicator": string;
   readonly "natds-icons-outlined-content-lock": string;
   readonly "natds-icons-outlined-content-magic": string;
   readonly "natds-icons-outlined-content-medal": string;
@@ -112,6 +119,7 @@ declare const styles: {
   readonly "natds-icons-outlined-content-mirror": string;
   readonly "natds-icons-outlined-content-planb": string;
   readonly "natds-icons-outlined-content-produtivity": string;
+  readonly "natds-icons-outlined-content-report": string;
   readonly "natds-icons-outlined-content-store": string;
   readonly "natds-icons-outlined-content-wellness": string;
   readonly "natds-icons-outlined-content-wifi": string;

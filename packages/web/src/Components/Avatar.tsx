@@ -5,7 +5,7 @@ import { IAvatarSizes } from '@naturacosmeticos/natds-styles';
 import { IThemeWeb } from 'Themes';
 
 export type AvatarSizes = keyof IAvatarSizes;
-export type AvatarColors = 'primary' | 'secondary' | string;
+export type AvatarColors = 'primary' | 'secondary' | 'default' | string;
 
 export interface IAvatarProps extends MaterialAvatarProps {
   /**
@@ -56,12 +56,14 @@ function withSizes(size: AvatarSizes | undefined, theme: any = {}) {
 function withColors(color: AvatarColors | undefined, theme: any = {}) {
   if (!color) return {};
 
-  const { palette = {} }: { palette: object } = theme;
+  const { palette = {} }: { palette: any } = theme;
+
   const selectedColor = palette[color];
 
-  if (!selectedColor) return {};
+  if (!selectedColor || color === 'default') return {};
 
   return {
+    color: selectedColor.contrastText,
     background: selectedColor.main
   };
 }

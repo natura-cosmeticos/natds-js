@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React from 'react';
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/container';
 import {
@@ -10,11 +10,7 @@ import {
 import DateFnsUtils from '@date-io/date-fns';
 
 import { makeStyles } from '@material-ui/core/styles';
-import {
-  DatePicker,
-  TextField,
-  PickersUtilProvider,
-} from '@naturacosmeticos/natds-web';
+import { DatePicker, PickersUtilProvider } from '@naturacosmeticos/natds-web';
 
 import DatePickerDocs from './DatePicker.docs.mdx';
 
@@ -63,10 +59,6 @@ export const Interactive = () => {
     new Date()
   );
 
-  const textField = (textFieldProps: any) => (
-    <TextField {...textFieldProps} id="random-prop-id" type="text" />
-  );
-
   const useStyles = makeStyles(theme => ({
     wrapper: {
       display: 'flex',
@@ -81,20 +73,22 @@ export const Interactive = () => {
         <DatePicker
           value={selectedDate}
           label="Only calendar"
-          TextFieldComponent={textField}
           variant={select('Variant', variants, variants.dialog)}
           openTo={select('OpenTo', openTos, openTos.date)}
           format={select('Formats', formats, formats['dd/MM/yyyy'])}
-          disableToolbar={boolean('Disabled Toolbar', false)}
           disableFuture={boolean('Disabled Future', false)}
           disablePast={boolean('Disabled Past', false)}
-          animateYearScrolling={boolean('Animate Year Scrolling', false)}
           autoOk={boolean('Auto Ok', false)}
           disabled={boolean('Disabled', false)}
           clearable={boolean('Clearable', false)}
-          views={options('Views Check', valuesInlineCheck, ['year'], {
-            display: 'inline-check',
-          })}
+          views={options(
+            'Views Check',
+            valuesInlineCheck,
+            [valuesInlineCheck.Date],
+            {
+              display: 'inline-check',
+            }
+          )}
           onChange={setSelectedDate}
           cancelLabel={text('Cancel Label', 'Cancel')}
           clearLabel={text('Clear Label', 'Clear')}
