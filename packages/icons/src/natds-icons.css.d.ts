@@ -20,9 +20,12 @@ declare const styles: {
   readonly "natds-icons-filled-action-add": string;
   readonly "natds-icons-filled-action-cancel": string;
   readonly "natds-icons-filled-action-check": string;
+  readonly "natds-icons-filled-action-delete": string;
+  readonly "natds-icons-filled-action-newrequest": string;
   readonly "natds-icons-filled-action-rating": string;
   readonly "natds-icons-filled-action-subtract": string;
   readonly "natds-icons-filled-brand-naturarosacea": string;
+  readonly "natds-icons-filled-finance-charging": string;
   readonly "natds-icons-filled-media-pause": string;
   readonly "natds-icons-filled-media-play": string;
   readonly "natds-icons-filled-media-stop": string;
@@ -32,6 +35,8 @@ declare const styles: {
   readonly "natds-icons-filled-navigation-directiontop": string;
   readonly "natds-icons-filled-navigation-menu": string;
   readonly "natds-icons-filled-navigation-more": string;
+  readonly "natds-icons-filled-product-brandsproduct": string;
+  readonly "natds-icons-filled-social-myprofile": string;
   readonly "natds-icons-outlined-action-add": string;
   readonly "natds-icons-outlined-action-addproduct": string;
   readonly "natds-icons-outlined-action-attachment": string;
@@ -43,6 +48,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-check": string;
   readonly "natds-icons-outlined-action-closedbox": string;
   readonly "natds-icons-outlined-action-copy": string;
+  readonly "natds-icons-outlined-action-copylink": string;
   readonly "natds-icons-outlined-action-cycle": string;
   readonly "natds-icons-outlined-action-delete": string;
   readonly "natds-icons-outlined-action-done": string;
@@ -53,6 +59,8 @@ declare const styles: {
   readonly "natds-icons-outlined-action-gridsquare": string;
   readonly "natds-icons-outlined-action-help": string;
   readonly "natds-icons-outlined-action-history": string;
+  readonly "natds-icons-outlined-action-lightoff": string;
+  readonly "natds-icons-outlined-action-lighton": string;
   readonly "natds-icons-outlined-action-like": string;
   readonly "natds-icons-outlined-action-list": string;
   readonly "natds-icons-outlined-action-love": string;
@@ -73,6 +81,7 @@ declare const styles: {
   readonly "natds-icons-outlined-action-send": string;
   readonly "natds-icons-outlined-action-settings": string;
   readonly "natds-icons-outlined-action-share": string;
+  readonly "natds-icons-outlined-action-shareios": string;
   readonly "natds-icons-outlined-action-subtract": string;
   readonly "natds-icons-outlined-action-text": string;
   readonly "natds-icons-outlined-action-update": string;

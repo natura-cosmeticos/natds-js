@@ -392,7 +392,7 @@ Object {
         "&.Mui-disabled": Object {
           "opacity": 0.24,
         },
-        "color": "#000000",
+        "color": "#FAFAFA",
       },
       "root": Object {
         "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
@@ -442,7 +442,7 @@ Object {
         },
         "borderRadius": "4px",
         "boxShadow": "#777777 0 0 0 1px",
-        "color": "#000000",
+        "color": "#FAFAFA",
         "padding": "12px",
       },
     },
@@ -1069,7 +1069,7 @@ Object {
         "&.Mui-disabled": Object {
           "opacity": 0.24,
         },
-        "color": "#FFFFFF",
+        "color": "#333333",
       },
       "root": Object {
         "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
@@ -1119,7 +1119,7 @@ Object {
         },
         "borderRadius": "4px",
         "boxShadow": "#BBBBBB 0 0 0 1px",
-        "color": "#FFFFFF",
+        "color": "#333333",
         "padding": "12px",
       },
     },

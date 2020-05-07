@@ -335,7 +335,7 @@ export const avonDark: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: avonDarkColorTokens.colorOnPrimaryLight,
+        color: avonDarkColorTokens.colorHighEmphasis,
         "&:hover": {
           boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
         },
@@ -386,7 +386,7 @@ export const avonDark: ITheme = {
         boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: avonDarkColorTokens.colorOnPrimaryLight,
+        color: avonDarkColorTokens.colorHighEmphasis,
         "&.Mui-disabled": {
           opacity: 0.24
         }
