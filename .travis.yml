@@ -31,7 +31,3 @@ jobs:
     - stage: Bump Production Version and Deploy to NPM
       if: branch = master AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_mesage =~ /^(.*)CHANGELOG(.*)$/)
       script: chmod +x scripts/bump-production-version.sh && scripts/bump-production-version.sh && chmod +x scripts/build-release.sh && scripts/build-release.sh
-
-env:
-  global:
-    secure: QfxgPmRJdSW1+Rk0wb9aMO6CQ1mju32RdIB1uGK+Am7K8YVXcB2VJd+ZnC1hfyYK4YZcPBGWczF7TtwZYf0i21/MvLHBXT80x3/tZDuvijFdUkeB6uCLH6LPfXDf0iPXI2O+dZEfzvB2BKVbdEuy5R3xSe9v1vR8SMtxyrEXRRWggehz6uIm7RqPlBwwfIkUweSqUQp9ivo/YMWZZEcWshPwPtit7alZ9DdcNsH07m2iomSnzGgceE98PnvKPFSi7C2Fqpq/FOX5I4w6GTcWQVXTXS1UeQOJn5eIaJUueQiz4KvN06KTLkkfPOp5H7tu+izpOYRKnlBt3TCDhdgEWaBRMgfyezZMU8YoVFpSqe4BDDJiRgLzN0VX1sefRyTmeRIBkKzMuGfkhhvJKVnJjZnjw8WWy81r80dAqOjsxr/ITongdipYTRjv7ciX7uuggiNNIbn0T8lyJr/Kwj7/26q6ruf5XAt9pJacck6AYnGwVwdM3SPUNhMQlEDrxykayfT/1sToFViITXEUQpn7+7gwhiO5rJRcg00C5AnrDIvgWByThEBhbvcYG7J2rLbwqGCuCMYlwHQHcXPI8Ve6eJtyY1NIS9w1U+nSqoHGQeVCoSQmaQvgZuxlq2ViLfwnrh8im/U5HDoytsQixalfdM5uJQHj+oix4k5sZ+pZcYw=
