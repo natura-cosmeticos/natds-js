@@ -1,5 +1,5 @@
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { TabContainer, TabItem } from '@naturacosmeticos/natds-web';
 
 import TabDocs from './Tab.docs.mdx';

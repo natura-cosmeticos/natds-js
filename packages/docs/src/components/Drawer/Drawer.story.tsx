@@ -1,6 +1,6 @@
 import * as React from 'react';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { createStyles, Theme, makeStyles } from '@material-ui/core/styles';
 import { select, boolean, text, number } from '@storybook/addon-knobs';
 import { anchors, variants, navigation, footer } from './sections';

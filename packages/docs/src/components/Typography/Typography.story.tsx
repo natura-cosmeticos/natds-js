@@ -1,6 +1,6 @@
 import { Typography } from '@naturacosmeticos/natds-web';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 
 export { Variants } from './Variants';
 export { Colors } from './Colors';

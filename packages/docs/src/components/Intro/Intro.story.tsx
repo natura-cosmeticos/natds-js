@@ -1,6 +1,6 @@
 import * as React from 'react';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { select, text, boolean } from '@storybook/addon-knobs';
 
 import { Intro, Icon } from '@naturacosmeticos/natds-web';
@@ -66,9 +66,9 @@ export const Interactive = () => {
     </>
   );
   const withIcon = boolean('with icon', true);
-  
+
   return (
-    <Intro 
+    <Intro
       style={{ width: text('size', '600px') }}
       title={withIcon ? <IconWithTitle /> : title}
       titleVariant={select('title variant', variants, variants.subtitle1)}

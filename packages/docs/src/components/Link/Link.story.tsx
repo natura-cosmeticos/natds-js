@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Link } from '@naturacosmeticos/natds-web';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { select, text } from '@storybook/addon-knobs';
 import {
   colorList as colors,

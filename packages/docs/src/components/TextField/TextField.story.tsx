@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { boolean, select, text, number } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import Favorite from '@material-ui/icons/Favorite';
 import { TextField } from '@naturacosmeticos/natds-web';
 
