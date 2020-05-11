@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.3](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.5.2...@naturacosmeticos/natds-web@0.5.3) (2020-05-11)
+
+
+### Bug Fixes
+
+* **outlined-place-gps:** replacing the icon to fiz render problems ([8162630](https://github.com/natura-cosmeticos/natds/commit/8162630837ee73012d8ed3830b0a8f3a34612a02))
+
+
+
+
+
 ## [0.5.2](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.5.1...@naturacosmeticos/natds-web@0.5.2) (2020-05-07)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
