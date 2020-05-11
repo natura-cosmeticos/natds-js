@@ -52,15 +52,16 @@ const wrapper = (getStory, storyContext, { options, parameters }) => {
   useEffect(() => {
     const knobsChange = 'storybookjs/knobs/change';
 
-    channel.on(CHANGE, ({ type, name }) => {
-      setTheme(themes[name][type]);
-    });
+    const changeThemeListener = ({ type, name }) => setTheme(themes[name][type]);
+    channel.on(CHANGE, changeThemeListener);
 
-    channel.on(knobsChange, () => {
-      channel.emit(FORCE_RE_RENDER);
-    });
+    const forceReRenderListener = () => channel.emit(FORCE_RE_RENDER);
+    channel.on(knobsChange, forceReRenderListener);
 
-    return channel.removeAllListeners;
+    return () => {
+      channel.removeListener(CHANGE, changeThemeListener);
+      channel.removeListener(knobsChange, forceReRenderListener);
+    }
   }, []);
 
   const background = getBackground(disableBackground, theme);
