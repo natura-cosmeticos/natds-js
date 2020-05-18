@@ -3,9 +3,9 @@ import { INITIAL_VIEWPORTS } from '@storybook/addon-viewport';
 import { withKnobs } from '@storybook/addon-knobs';
 import { withA11y } from '@storybook/addon-a11y';
 import { DocsPage, DocsContainer } from '@storybook/addon-docs/blocks';
+import { themes } from '@naturacosmeticos/natds-styles';
 import { withTheme } from '../addons/theme/provider';
 import StorybookTheme from './theme';
-import { themes } from '@naturacosmeticos/natds-styles';
 
 addParameters({
   options: {

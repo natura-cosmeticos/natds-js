@@ -1,5 +1,5 @@
 import * as React from "react";
-import withContainer from "@decorators/container/container";
+import withContainer from "@decorators/container/withContainer";
 import { useStyles } from "./styles";
 import { WrappedButtons } from "./Buttons";
 import { WrappedChips } from "./Chips";

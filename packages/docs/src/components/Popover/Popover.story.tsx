@@ -1,6 +1,6 @@
 import React from 'react';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { Popover, Button } from '@naturacosmeticos/natds-web';
 
 import PopoverDocs from './Popover.docs.mdx';

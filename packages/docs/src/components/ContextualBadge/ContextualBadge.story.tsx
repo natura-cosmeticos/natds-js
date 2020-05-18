@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { ContextualBadge } from "@naturacosmeticos/natds-web";
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { text, select } from '@storybook/addon-knobs';
 
 import ContextualBadgeDocs from './ContextualBadge.docs.mdx';

@@ -1,5 +1,5 @@
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { Paper } from '@naturacosmeticos/natds-web';
 
 import PaperDocs from './Paper.docs.mdx';

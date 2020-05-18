@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { select, number } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 
 import { GridContainer, GridItem } from '@naturacosmeticos/natds-web';
 

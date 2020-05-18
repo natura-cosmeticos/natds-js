@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.5.5](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.5.4...@naturacosmeticos/natds-icons@0.5.5) (2020-05-11)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-icons
+
+
+
+
+
+## [0.5.4](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.5.3...@naturacosmeticos/natds-icons@0.5.4) (2020-05-11)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-icons
+
+
+
+
+
+## [0.5.3](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.5.2...@naturacosmeticos/natds-icons@0.5.3) (2020-05-11)
+
+
+### Bug Fixes
+
+* **outlined-place-gps:** replacing the icon to fiz render problems ([8162630](https://github.com/natura-cosmeticos/natds/commit/8162630837ee73012d8ed3830b0a8f3a34612a02))
+
+
+### Features
+
+* **outlined-place-gps:** inserted this new outlined icon ([5bfbc1d](https://github.com/natura-cosmeticos/natds/commit/5bfbc1da81b4b5e22f36d05d44ad29e28d194a15))
+
+
+
+
+
 ## [0.5.2](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.5.1...@naturacosmeticos/natds-icons@0.5.2) (2020-05-07)
 
 

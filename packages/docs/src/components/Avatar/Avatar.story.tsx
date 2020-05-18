@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { select, text } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { Avatar } from '@naturacosmeticos/natds-web';
 import { tokens } from '@naturacosmeticos/natds-styles';
 

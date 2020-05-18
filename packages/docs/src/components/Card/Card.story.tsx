@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { number } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import {
   Card,
   CardActions,

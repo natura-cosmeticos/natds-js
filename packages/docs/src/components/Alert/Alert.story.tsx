@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Alert, Icon, AlertTitle } from '@naturacosmeticos/natds-web';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { iconNames } from '@naturacosmeticos/natds-icons';
 import { select, boolean, text } from '@storybook/addon-knobs';
 

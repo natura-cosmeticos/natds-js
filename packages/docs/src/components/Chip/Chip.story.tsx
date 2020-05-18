@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { text, boolean, select } from '@storybook/addon-knobs';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 
 import { iconNames } from '@naturacosmeticos/natds-icons';
 import { Chip, Icon, Avatar } from '@naturacosmeticos/natds-web';
@@ -58,11 +58,11 @@ export const Default = () => {
   const disabled = boolean('disabled', false);
   const deletable = boolean('deletable', false);
   const onDelete = deletable ? () => undefined : undefined;
-  const deleteIconPresence = deletable 
+  const deleteIconPresence = deletable
     ? select('deleteIcon', deleteIcons, deleteIcons[0])
     : undefined;
-  const deleteIcon = deleteIconPresence 
-    ? <Icon name={select('deleteIcon', icons, icons[0])} /> 
+  const deleteIcon = deleteIconPresence
+    ? <Icon name={select('deleteIcon', icons, icons[0])} />
     : undefined;
   const withAvatar = boolean('show avatar', false);
   const withIcon = !withAvatar && boolean('show icon', false);
@@ -70,8 +70,8 @@ export const Default = () => {
     src={select('avatar source', avatarSrc, avatarSrc.none)}
     children={text('avatar text', 'XD')}
   /> : undefined;
-  const icon = !withAvatar && withIcon 
-    ? <Icon name={select('icon', icons, icons[0])} /> 
+  const icon = !withAvatar && withIcon
+    ? <Icon name={select('icon', icons, icons[0])} />
     : undefined;
 
   return (

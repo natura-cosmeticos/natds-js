@@ -1,7 +1,7 @@
 import * as React from 'react';
 import { Tooltip, Fab, Icon } from '@naturacosmeticos/natds-web';
 import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/container';
+import withContainer from '@decorators/container/withContainer';
 import { select, boolean, text, number } from '@storybook/addon-knobs';
 import { placementList as placement } from './sections';
 
