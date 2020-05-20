@@ -32,7 +32,7 @@
     "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "build:clean": "rm -rf ./dist",
-    "build": "yarn build:clean && tsc -p ./tsconfig.json",
+    "build": "yarn build:clean && tsc -p ./tsconfig.json && yarn test:unit:generate",
     "start": "yarn build -w",
     "watch": "yarn start",
     "verify": "yarn lint && yarn test -u",
