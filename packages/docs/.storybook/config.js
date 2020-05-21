@@ -16,17 +16,17 @@ addParameters({
     sidebarAnimations: true,
     enableShortcuts: true,
     isToolshown: true,
-    theme: StorybookTheme
+    theme: StorybookTheme,
   },
   docs: {
     container: DocsContainer,
-    page: DocsPage
+    page: DocsPage,
   },
   viewport: {
-    viewports: INITIAL_VIEWPORTS
+    viewports: INITIAL_VIEWPORTS,
   },
   theme: {
-    themes
+    themes,
   },
 });
 
@@ -36,8 +36,16 @@ addDecorator(withKnobs);
 
 const all = require.context('../src/all', true, /\.story.(ts|md)x?$/);
 const tokens = require.context('../src/tokens', true, /\.story.(ts|md)x?$/);
-const documentation = require.context('../src/documentation', true, /\.story.(ts|md)x?$/);
-const components = require.context('../src/components', true, /\.story.(ts|md)x?$/);
+const documentation = require.context(
+  '../src/documentation',
+  true,
+  /\.story.(ts|md)x?$/
+);
+const components = require.context(
+  '../src/components',
+  true,
+  /\.story.(ts|md)x?$/
+);
 const icons = require.context('../src/icons', true, /\.story.(ts|md)x?$/);
 
-configure([all,tokens, documentation, icons, components], module);
+configure([all, tokens, documentation, icons, components], module);
