@@ -1,7 +1,5 @@
 import * as React from 'react';
-import { select, boolean } from '@storybook/addon-knobs';
-import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/withContainer';
+import { boolean } from '@storybook/addon-knobs';
 import {
   Select,
   MenuItem,
@@ -10,6 +8,10 @@ import {
   FormControl
 } from '@naturacosmeticos/natds-web';
 import { makeStyles, Theme, createStyles } from '@material-ui/core/styles';
+
+// Component not finished yet
+/*import withJest from '@decorators/jest/jest';
+import withContainer from '@decorators/container/withContainer';
 
 import SelectDocs from './Select.docs.mdx';
 
@@ -27,7 +29,7 @@ export default {
       page: SelectDocs,
     },
   },
-};
+};*/
 
 const useStyles = makeStyles((theme: Theme) =>
   createStyles({
