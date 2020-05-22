@@ -20,24 +20,25 @@ type KeyboardDatePickerViewsPropsWithoutTheme = Omit<
   'theme'
 >;
 
-const getStateStyleFromTheme = (props: IKeyboardDatePickerViewsProps) => {
-  const { state, theme, disabled } = props;
-  if (!disabled && theme && theme.palette) {
-    if (state === 'error' && theme.palette.error) {
-      return { style: { boxShadow: `${theme.palette.error.main} 0 0 0 2px` } };
+const getStateClassName = (props: IKeyboardDatePickerViewsProps) => {
+  const { state, disabled, value } = props;
+  if (!disabled) {
+    if (state === 'error') {
+      return 'MuiError';
     }
-    if (state === 'success' && theme.palette.success) {
-      return {
-        style: { boxShadow: `${theme.palette.success.main} 0 0 0 1px` },
-      };
+    if (state === 'success') {
+      return 'MuiSuccess';
+    }
+    if (value) {
+      return 'MuiFilled';
     }
   }
-  return {};
+  return '';
 };
 
 export const KeyboardDatePicker: FunctionComponent<KeyboardDatePickerViewsPropsWithoutTheme> = forwardRef(
   (props: IKeyboardDatePickerViewsProps, ref: any) => {
-    const customStyle = getStateStyleFromTheme(props);
+    const stateClassName = { className: getStateClassName(props) };
 
     const {
       label,
@@ -53,7 +54,7 @@ export const KeyboardDatePicker: FunctionComponent<KeyboardDatePickerViewsPropsW
       required={false}
       keyboardIcon={<Icon name="outlined-action-calendar" size="tiny" />}
       ref={ref}
-      inputProps={customStyle}
+      InputProps={stateClassName}
       label=""
       helperText=""
     />;

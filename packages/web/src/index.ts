@@ -3,6 +3,9 @@ import { themes as webThemes } from './Themes';
 export const themes = { ...webThemes };
 export { Provider } from './Provider';
 
+// Commented components are not finished yet (Alert and Select).
+// export { default as Alert, IAlertProps } from './Components/Alert';
+export { default as AlertTitle, IAlertTitleProps } from './Components/AlertTitle';
 export { default as AppBar, IAppBarProps } from './Components/AppBar';
 export { default as Avatar, IAvatarProps } from './Components/Avatar';
 export { default as Badge, IBadgeProps } from './Components/Badge';
@@ -39,12 +42,15 @@ export { default as ExpansionPanel, IExpansionPanelProps } from './Components/Ex
 export { default as ExpansionPanelActions, IExpansionPanelActionsProps } from './Components/ExpansionPanelActions';
 export { default as ExpansionPanelDetails, IExpansionPanelDetailsProps } from './Components/ExpansionPanelDetails';
 export { default as ExpansionPanelSummary, IExpansionPanelSummaryProps } from './Components/ExpansionPanelSummary';
+export { default as FormControl, IFormControlProps } from './Components/FormControl';
+export { default as FormHelperText, IFormHelperTextProps } from './Components/FormHelperText';
 export { default as GridItem, IGridItemProps } from './Components/GridItem';
 export { default as GridContainer, IGridContainerProps } from './Components/GridContainer';
 export { default as Fab, IFabProps } from './Components/Fab';
 export { default as Icon, IIconProps } from './Components/Icon';
 export { default as IconButton, IIconButtonProps } from './Components/IconButton';
 export { default as Intro, IIntroProps } from './Components/Intro';
+export { default as InputLabel, IInputLabelProps } from './Components/InputLabel';
 export { default as KeyboardDatePicker, IKeyboardDatePickerViewsProps } from './Components/KeyboardDatePicker';
 export { default as LinearProgress, ILinearProgressProps } from './Components/LinearProgress';
 export { default as Link, ILinkProps } from './Components/Link';
@@ -61,6 +67,7 @@ export { default as MenuItem, IMenuItemProps } from './Components/MenuItem';
 export { default as Paper, IPaperProps } from './Components/Paper';
 export { default as Popover, IPopoverProps } from './Components/Popover';
 export { default as Radio, IRadioProps } from './Components/Radio';
+// export { default as Select, ISelectProps } from './Components/Select';
 export { default as Snackbar, ISnackbarProps } from './Components/Snackbar';
 export { default as SnackbarContent, ISnackbarContentProps } from './Components/SnackbarContent';
 export { default as Switch, ISwitchProps } from './Components/Switch';

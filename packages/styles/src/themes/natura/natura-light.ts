@@ -79,23 +79,43 @@ export const naturaLight: ITheme = {
         color: naturaLightColorTokens.colorOnPrimary
       },
       outlinedSecondary: {
-        color: naturaLightColorTokens.colorOnPrimary
-      },
-      textPrimary: {
-        color: naturaLightColorTokens.colorOnPrimary
+        color: naturaLightColorTokens.colorOnPrimary,
+        "&.Mui-disabled": {
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
       },
       sizeSmall: {
-        fontSize: "0.875rem",
-        minHeight: "32px"
+        ...buttonSizes.small,
+        ...fontSize.subtitle2
       },
       root: {
-        fontSize: "0.875rem",
-        minHeight: "40px",
-        padding: "8px 16px"
+        ...buttonSizes.medium,
+        ...fontSize.subtitle2
       },
       sizeLarge: {
-        fontSize: "0.875rem",
-        minHeight: "48px"
+        ...buttonSizes.large,
+        ...fontSize.subtitle2
+      },
+      text: {
+        padding: null,
+        "&.Mui-disabled": {
+          color: `${naturaLightColorTokens.colorHighlight}3D`,
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
+      },
+      contained: {
+        "&.Mui-disabled": {
+          color: `${naturaLightColorTokens.colorHighlight}3D`,
+          backgroundColor: `${naturaLightColorTokens.colorHighlight}14`
+        }
+      },
+      outlined: {
+        padding: null,
+        borderColor: `${naturaLightColorTokens.colorHighlight}3D`,
+        "&.Mui-disabled": {
+          color: `${naturaLightColorTokens.colorHighlight}3D`,
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
       }
     },
     MuiAvatar: {
@@ -161,6 +181,13 @@ export const naturaLight: ITheme = {
     },
     MuiListItem: {
       root: {
+        cursor: "pointer",
+        "&:hover": {
+          backgroundColor: hexToRgba(
+            naturaLightColorTokens.colorOnSecondary,
+            0.04
+          )
+        },
         "&$selected": {
           backgroundColor: hexToRgba(
             naturaLightColorTokens.colorSecondary,
@@ -171,10 +198,18 @@ export const naturaLight: ITheme = {
               naturaLightColorTokens.colorOnSecondary,
               0.04
             )
+          },
+          "&:focus": {
+            outline: "none"
           }
         },
         "&.Mui-disabled": {
           opacity: 0.32
+        }
+      },
+      gutters: {
+        "&:focus": {
+          outline: "none"
         }
       },
       button: {
@@ -290,9 +325,42 @@ export const naturaLight: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: naturaLightColorTokens.colorOnPrimaryLight,
+        color: naturaLightColorTokens.colorHighEmphasis,
+        "&:hover": {
+          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&.MuiError": {
+          boxShadow: `${naturaLightColorTokens.colorAlert} 0 0 0 2px`,
+          "&:hover": {
+            boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${naturaLightColorTokens.colorAlert} 0 0 0 2px`
+          }
+        },
+        "&.MuiSuccess": {
+          boxShadow: `${naturaLightColorTokens.colorSuccess} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${naturaLightColorTokens.colorSuccess} 0 0 0 1px`
+          }
+        },
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
+          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiFilled:not(.Mui-focused)": {
+          boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
+        },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
+        },
+        "&.MuiInput-underline.Mui-disabled:before": {
+          borderBottomStyle: "none"
         },
         "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
           borderBottom: "none"
@@ -300,40 +368,17 @@ export const naturaLight: ITheme = {
         "&.MuiInput-underline:after": {
           borderBottom: "none"
         },
-        "&.MuiInput-underline.Mui-disabled:before": {
-          borderBottom: "none"
-        }
-      },
-      input: {
-        color: naturaLightColorTokens.colorOnPrimaryLight,
-        minHeight: "24px",
-        padding: "16px 35px 16px 16px",
-        borderRadius: "4px",
-        boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
-        "&:hover": {
-          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&:hover:not(:placeholder-shown)": {
-          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&:focus": {
-          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
-        },
-        "&:focus:not(:read-only)": {
-          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`
-        },
-        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
-          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&:not(:placeholder-shown)": {
-          boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px`
-        },
-        "&:placeholder-shown": {
+        "&:hover.Mui-disabled": {
           boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
         },
+        padding: "12px",
+        borderRadius: "4px",
+        boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+      },
+      input: {
+        color: naturaLightColorTokens.colorHighEmphasis,
         "&.Mui-disabled": {
-          opacity: 0.24,
-          "&:hover": { boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px` }
+          opacity: 0.24
         }
       }
     },
@@ -362,11 +407,135 @@ export const naturaLight: ITheme = {
         "&.Mui-focused": {
           fontSize: fontSize.subtitle2.fontSize,
           color: naturaLightColorTokens.colorMediumEmphasis
+        },
+        "&.Mui-error": {
+          color: naturaLightColorTokens.colorAlert
         }
       },
       formControl: {
         transform: "none",
         marginTop: "-4px"
+      }
+    },
+    MuiSelect: {
+      select: {
+        "&:focus": {
+          backgroundColor: "transparent"
+        },
+        "&.Mui-disabled": {
+          color: naturaLightColorTokens.colorLowEmphasis
+        }
+      }
+    },
+    MuiButtonGroup: {
+      groupedContainedPrimary: {
+        "&:not(:last-child)": {
+          borderColor: naturaLightColorTokens.colorPrimaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedSecondary: {
+        "&:not(:last-child)": {
+          borderColor: naturaLightColorTokens.colorSecondaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${naturaLightColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedTextPrimary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextSecondary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${naturaLightColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${naturaLightColorTokens.colorHighlight}3D`
+          }
+        }
+      }
+    },
+    MuiAlert: {
+      root: {
+        width: 278,
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      },
+      standardSuccess: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaLightColorTokens.colorSuccess, 0.16)
+      },
+      outlinedSuccess: {
+        color: naturaLightColorTokens.colorHighEmphasis
+      },
+      standardError: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaLightColorTokens.colorAlert, 0.16)
+      },
+      outlinedError: {
+        color: naturaLightColorTokens.colorHighEmphasis
+      },
+      standardWarning: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaLightColorTokens.colorWarning, 0.16),
+        "& .MuiAlert-icon": {
+          color: naturaLightColorTokens.colorWarning
+        }
+      },
+      outlinedWarning: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        borderColor: naturaLightColorTokens.colorWarning,
+        "& .MuiAlert-icon": {
+          color: naturaLightColorTokens.colorWarning
+        }
+      },
+      filledWarning: {
+        color: naturaLightColorTokens.colorOnWarning,
+        backgroundColor: naturaLightColorTokens.colorWarning
+      },
+      standardInfo: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(naturaLightColorTokens.colorLink, 0.16),
+        "& .MuiAlert-icon": {
+          color: naturaLightColorTokens.colorLink
+        }
+      },
+      outlinedInfo: {
+        color: naturaLightColorTokens.colorHighEmphasis,
+        borderColor: naturaLightColorTokens.colorLink,
+        "& .MuiAlert-icon": {
+          color: naturaLightColorTokens.colorLink
+        }
+      },
+      filledInfo: {
+        backgroundColor: naturaLightColorTokens.colorLink
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
       }
     }
   }

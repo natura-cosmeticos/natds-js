@@ -48,9 +48,9 @@ export const avonDark: ITheme = {
       contrastText: avonDarkColorTokens.colorOnSuccess
     },
     background: {
-      paper: avonDarkColorTokens.colorOnPrimary,
+      paper: avonDarkColorTokens.colorSurface,
       default: avonDarkColorTokens.colorBackground,
-      paperContrastText: avonDarkColorTokens.colorOnBackground,
+      paperContrastText: avonDarkColorTokens.colorOnSurface,
       defaultContrastText: avonDarkColorTokens.colorOnBackground
     },
     text: {
@@ -78,20 +78,43 @@ export const avonDark: ITheme = {
         color: avonDarkColorTokens.colorHighEmphasis
       },
       outlinedSecondary: {
-        color: avonDarkColorTokens.colorHighEmphasis
+        color: avonDarkColorTokens.colorHighEmphasis,
+        "&.Mui-disabled": {
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
       },
       sizeSmall: {
-        fontSize: "0.875rem",
-        minHeight: "32px"
+        ...buttonSizes.small,
+        ...fontSize.subtitle2
       },
       root: {
-        fontSize: "0.875rem",
-        minHeight: "40px",
-        padding: "8px 16px"
+        ...buttonSizes.medium,
+        ...fontSize.subtitle2
       },
       sizeLarge: {
-        fontSize: "0.875rem",
-        minHeight: "48px"
+        ...buttonSizes.large,
+        ...fontSize.subtitle2
+      },
+      text: {
+        padding: null,
+        "&.Mui-disabled": {
+          color: `${avonDarkColorTokens.colorHighlight}3D`,
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
+      },
+      contained: {
+        "&.Mui-disabled": {
+          color: `${avonDarkColorTokens.colorHighlight}3D`,
+          backgroundColor: `${avonDarkColorTokens.colorHighlight}14`
+        }
+      },
+      outlined: {
+        padding: null,
+        borderColor: `${avonDarkColorTokens.colorHighlight}3D`,
+        "&.Mui-disabled": {
+          color: `${avonDarkColorTokens.colorHighlight}3D`,
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
       }
     },
     MuiAvatar: {
@@ -157,6 +180,13 @@ export const avonDark: ITheme = {
     },
     MuiListItem: {
       root: {
+        cursor: "pointer",
+        "&:hover": {
+          backgroundColor: hexToRgba(
+            avonDarkColorTokens.colorHighEmphasis,
+            0.16
+          )
+        },
         "&$selected": {
           background: hexToRgba(avonDarkColorTokens.colorSecondary, 0.16),
           "&:hover": {
@@ -164,7 +194,18 @@ export const avonDark: ITheme = {
               avonDarkColorTokens.colorOnSecondary,
               0.04
             )
+          },
+          "&:focus": {
+            outline: "none"
           }
+        },
+        "&.Mui-disabled": {
+          opacity: 0.32
+        }
+      },
+      gutters: {
+        "&:focus": {
+          outline: "none"
         }
       },
       button: {
@@ -294,43 +335,60 @@ export const avonDark: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: avonDarkColorTokens.colorOnPrimaryDark,
+        color: avonDarkColorTokens.colorHighEmphasis,
+        "&:hover": {
+          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&.MuiError": {
+          boxShadow: `${avonDarkColorTokens.colorAlert} 0 0 0 2px`,
+          "&:hover": {
+            boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${avonDarkColorTokens.colorAlert} 0 0 0 2px`
+          }
+        },
+        "&.MuiSuccess": {
+          boxShadow: `${avonDarkColorTokens.colorSuccess} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${avonDarkColorTokens.colorSuccess} 0 0 0 1px`
+          }
+        },
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
+          boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiFilled:not(.Mui-focused)": {
+          boxShadow: `${avonDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
+        },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
+        },
+        "&.MuiInput-underline.Mui-disabled:before": {
+          borderBottomStyle: "none"
         },
         "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
           borderBottom: "none"
         },
         "&.MuiInput-underline:after": {
           borderBottom: "none"
-        }
+        },
+        "&:hover.Mui-disabled": {
+          boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        padding: "12px",
+        borderRadius: "4px",
+        boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
         color: avonDarkColorTokens.colorHighEmphasis,
-        minHeight: "24px",
-        padding: "16px 35px 16px 16px",
-        borderRadius: "4px",
-        boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
-        "&:not(:placeholder-shown)": {
-          boxShadow: `${avonDarkColorTokens.colorHighEmphasis} 0 0 0 1px`
-        },
-        "&:placeholder-shown": {
-          boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
-        },
-        "&:hover": {
-          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&:hover:not(:placeholder-shown)": {
-          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&:focus": {
-          boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`
-        },
-        "&:focus:not(:read-only)": {
-          boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`
-        },
-        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
-          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        "&.Mui-disabled": {
+          opacity: 0.24
         }
       }
     },
@@ -365,7 +423,8 @@ export const avonDark: ITheme = {
         }
       },
       formControl: {
-        transform: "none"
+        transform: "none",
+        marginTop: "-4px"
       }
     },
     MuiFormHelperText: {
@@ -373,6 +432,132 @@ export const avonDark: ITheme = {
         "&.Mui-error": {
           color: avonDarkColorTokens.colorMediumEmphasis
         }
+      }
+    },
+    MuiSelect: {
+      select: {
+        "&:focus": {
+          backgroundColor: "transparent"
+        },
+        "&.Mui-disabled": {
+          color: avonDarkColorTokens.colorLowEmphasis
+        }
+      }
+    },
+    MuiButtonGroup: {
+      groupedContainedPrimary: {
+        "&:not(:last-child)": {
+          borderColor: avonDarkColorTokens.colorPrimaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedSecondary: {
+        "&:not(:last-child)": {
+          borderColor: avonDarkColorTokens.colorSecondaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${avonDarkColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedTextPrimary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextSecondary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${avonDarkColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${avonDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      }
+    },
+    MuiSvgIcon: {
+      root: {
+        fill: avonDarkColorTokens.colorMediumEmphasis
+      }
+    },
+    MuiAlert: {
+      root: {
+        width: 278,
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      },
+      standardSuccess: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonDarkColorTokens.colorSuccess, 0.16)
+      },
+      outlinedSuccess: {
+        color: avonDarkColorTokens.colorHighEmphasis
+      },
+      standardError: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonDarkColorTokens.colorAlert, 0.16)
+      },
+      outlinedError: {
+        color: avonDarkColorTokens.colorHighEmphasis
+      },
+      standardWarning: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonDarkColorTokens.colorWarning, 0.16),
+        "& .MuiAlert-icon": {
+          color: avonDarkColorTokens.colorWarning
+        }
+      },
+      outlinedWarning: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        borderColor: avonDarkColorTokens.colorWarning,
+        "& .MuiAlert-icon": {
+          color: avonDarkColorTokens.colorWarning
+        }
+      },
+      filledWarning: {
+        color: avonDarkColorTokens.colorOnWarning,
+        backgroundColor: avonDarkColorTokens.colorWarning
+      },
+      standardInfo: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonDarkColorTokens.colorLink, 0.16),
+        "& .MuiAlert-icon": {
+          color: avonDarkColorTokens.colorLink
+        }
+      },
+      outlinedInfo: {
+        color: avonDarkColorTokens.colorHighEmphasis,
+        borderColor: avonDarkColorTokens.colorLink,
+        "& .MuiAlert-icon": {
+          color: avonDarkColorTokens.colorLink
+        }
+      },
+      filledInfo: {
+        backgroundColor: avonDarkColorTokens.colorLink
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
       }
     }
   }

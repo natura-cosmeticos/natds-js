@@ -9,5 +9,5 @@ interface IButtonProperties {
   paddingRight: number;
   paddingBottom: number;
   paddingLeft: number;
-  minHeight: number;
+  height: number;
 }
