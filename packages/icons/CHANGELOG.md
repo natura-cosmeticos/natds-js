@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.5.6...@naturacosmeticos/natds-icons@0.6.0) (2020-05-22)
+
+
+### Bug Fixes
+
+* **themes:** fixing the color used by input to colorHighEmphasis ([d20ae14](https://github.com/natura-cosmeticos/natds/commit/d20ae14fb8cd6ccfb7b25079e6ad03d3eece9eff))
+
+
+### Features
+
+* **Alert:** added new icons needed for Alert ([4428ac0](https://github.com/natura-cosmeticos/natds/commit/4428ac030f6044190be2020ffa1bcf780b429e9f))
+
+
+
+
+
 ## [0.5.6](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.5.5...@naturacosmeticos/natds-icons@0.5.6) (2020-05-18)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons

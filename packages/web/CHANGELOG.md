@@ -3,6 +3,30 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.6.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.5.6...@naturacosmeticos/natds-web@0.6.0) (2020-05-22)
+
+
+### Bug Fixes
+
+* **docs-dist-index:** fixing the index.html file to show all docs version released ([3e6716a](https://github.com/natura-cosmeticos/natds/commit/3e6716afa49eb298245e9cc6eb2583beb71941f8))
+* **popover:** fixing spec test for popover component ([4e8dffd](https://github.com/natura-cosmeticos/natds/commit/4e8dffdbcbf29b7281a948d3dbe234579488563b))
+* **snapshot:** updated component snapshots ([eac1b08](https://github.com/natura-cosmeticos/natds/commit/eac1b0848cca2e9627a65c2390c8cfa75ac74e9f))
+* **themes:** fixing the color used by input to colorHighEmphasis ([d20ae14](https://github.com/natura-cosmeticos/natds/commit/d20ae14fb8cd6ccfb7b25079e6ad03d3eece9eff))
+
+
+### Features
+
+* **alert:** added Alert and AlertTitle components ([bd594e7](https://github.com/natura-cosmeticos/natds/commit/bd594e7bad877cc61ad67ffd876db0525a227604))
+* **Alert:** added new icons needed for Alert ([4428ac0](https://github.com/natura-cosmeticos/natds/commit/4428ac030f6044190be2020ffa1bcf780b429e9f))
+* **Alert:** added override styles to apply right theme color on Alert ([5e99b56](https://github.com/natura-cosmeticos/natds/commit/5e99b5699bfb293446539da1a6735f857844cc0f))
+* **Create New Component Select:** creating new component select ([986a447](https://github.com/natura-cosmeticos/natds/commit/986a447c58e994c07f1e08d900742d62744797c2))
+* **Popover:** added a new attribute to determine the maxWidth and fixed arrow position to center of ([3ac6937](https://github.com/natura-cosmeticos/natds/commit/3ac69373bedae11aac72e1866b4180457e3cb30c))
+* **Popover:** refactoring the component to implement attributes and compositions expected, document ([19f0d53](https://github.com/natura-cosmeticos/natds/commit/19f0d530509a3322bf878ac0f2e853eec0194d2d))
+
+
+
+
+
 ## [0.5.6](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.5.5...@naturacosmeticos/natds-web@0.5.6) (2020-05-18)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
