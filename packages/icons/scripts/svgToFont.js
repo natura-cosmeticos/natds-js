@@ -8,6 +8,29 @@ const files = './src/assets/cleaned/**/*.svg';
 const fontName = 'natds-icons';
 const types = ['eot', 'ttf', 'woff', 'woff2', 'svg'];
 
+function createSwiftOutput(metadata) {
+  const capitalizeWord = word => `${word[0].toUpperCase()}${word.slice(1)}`;
+
+  const toCamelCase = word => word
+    .split('-')
+    .map((item, index) => index === 0 ? item : capitalizeWord(item))
+    .join('')
+
+  const toIosUnicode = (unicode) => `${unicode.replace('%u', '\\u{')}}`
+
+  const formattedMetadataSwift = `
+public enum Icon: String, CaseIterable {
+  ${
+    Object
+      .keys(metadata)
+      .map(iconName => `case ${toCamelCase(iconName)} = "${toIosUnicode(metadata[iconName])}"\n`)
+      .join('')
+    }
+}
+`
+  fs.writeFile(distMetada + fontName + '.swift', formattedMetadataSwift, onError);
+}
+
 function onError(error) {
   if (error) console.log(error);
 }
@@ -32,6 +55,8 @@ function onSuccess(result) {
 
     fs.writeFile(filename, font, onError);
   }
+
+  createSwiftOutput(metadata);
 }
 
 const config = {
