@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.6.0...@naturacosmeticos/natds-icons@0.6.1) (2020-06-01)
+
+
+### Features
+
+* **natds-js:** add icons name and id swift output ([f4dfd01](https://github.com/natura-cosmeticos/natds/commit/f4dfd01828f4da0ae096181cee317b278b93ad5a))
+
+
+
+
+
 # [0.6.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-icons@0.5.6...@naturacosmeticos/natds-icons@0.6.0) (2020-05-22)
 
 
