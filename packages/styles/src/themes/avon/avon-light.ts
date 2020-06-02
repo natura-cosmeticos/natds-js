@@ -79,20 +79,43 @@ export const avonLight: ITheme = {
         color: avonLightColorTokens.colorHighEmphasis
       },
       outlinedSecondary: {
-        color: avonLightColorTokens.colorHighEmphasis
+        color: avonLightColorTokens.colorHighEmphasis,
+        "&.Mui-disabled": {
+          borderColor: `${avonLightColorTokens.colorHighlight}3D`
+        }
       },
       sizeSmall: {
-        fontSize: "0.875rem",
-        minHeight: "32px"
+        ...buttonSizes.small,
+        ...fontSize.subtitle2
       },
       root: {
-        fontSize: "0.875rem",
-        minHeight: "40px",
-        padding: "8px 16px"
+        ...buttonSizes.medium,
+        ...fontSize.subtitle2
       },
       sizeLarge: {
-        fontSize: "0.875rem",
-        minHeight: "48px"
+        ...buttonSizes.large,
+        ...fontSize.subtitle2
+      },
+      text: {
+        padding: null,
+        "&.Mui-disabled": {
+          color: `${avonLightColorTokens.colorHighlight}3D`,
+          borderColor: `${avonLightColorTokens.colorHighlight}3D`
+        }
+      },
+      contained: {
+        "&.Mui-disabled": {
+          color: `${avonLightColorTokens.colorHighlight}3D`,
+          backgroundColor: `${avonLightColorTokens.colorHighlight}14`
+        }
+      },
+      outlined: {
+        padding: null,
+        borderColor: `${avonLightColorTokens.colorHighlight}3D`,
+        "&.Mui-disabled": {
+          color: `${avonLightColorTokens.colorHighlight}3D`,
+          borderColor: `${avonLightColorTokens.colorHighlight}3D`
+        }
       }
     },
     MuiAvatar: {
@@ -158,6 +181,13 @@ export const avonLight: ITheme = {
     },
     MuiListItem: {
       root: {
+        cursor: "pointer",
+        "&:hover": {
+          backgroundColor: hexToRgba(
+            avonLightColorTokens.colorOnSecondary,
+            0.04
+          )
+        },
         "&$selected": {
           backgroundColor: hexToRgba(avonLightColorTokens.colorSecondary, 0.16),
           "&:hover": {
@@ -165,10 +195,18 @@ export const avonLight: ITheme = {
               avonLightColorTokens.colorHighlight,
               0.04
             )
+          },
+          "&:focus": {
+            outline: "none"
           }
         },
         "&.Mui-disabled": {
           opacity: 0.32
+        }
+      },
+      gutters: {
+        "&:focus": {
+          outline: "none"
         }
       },
       button: {
@@ -275,43 +313,60 @@ export const avonLight: ITheme = {
     },
     MuiInputBase: {
       root: {
-        color: avonLightColorTokens.colorOnPrimaryLight,
+        color: avonLightColorTokens.colorHighEmphasis,
+        "&:hover": {
+          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+        },
+        "&.MuiError": {
+          boxShadow: `${avonLightColorTokens.colorAlert} 0 0 0 2px`,
+          "&:hover": {
+            boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${avonLightColorTokens.colorAlert} 0 0 0 2px`
+          }
+        },
+        "&.MuiSuccess": {
+          boxShadow: `${avonLightColorTokens.colorSuccess} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          },
+          "&.Mui-focused": {
+            boxShadow: `${avonLightColorTokens.colorSuccess} 0 0 0 1px`
+          }
+        },
+        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
+          boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`
+        },
+        "&.MuiFilled:not(.Mui-focused)": {
+          boxShadow: `${avonLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
+          "&:hover": {
+            boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
+        },
         "&.MuiInput-underline:before": {
           borderBottom: "none"
+        },
+        "&.MuiInput-underline.Mui-disabled:before": {
+          borderBottomStyle: "none"
         },
         "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
           borderBottom: "none"
         },
         "&.MuiInput-underline:after": {
           borderBottom: "none"
-        }
+        },
+        "&:hover.Mui-disabled": {
+          boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        },
+        padding: "12px",
+        borderRadius: "4px",
+        boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`
       },
       input: {
-        color: avonLightColorTokens.colorOnPrimaryLight,
-        minHeight: "24px",
-        padding: "16px 35px 16px 16px",
-        borderRadius: "4px",
-        boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
-        "&:hover": {
-          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&:hover:not(:placeholder-shown)": {
-          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&:focus": {
-          boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`
-        },
-        "&:focus:not(:read-only)": {
-          boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`
-        },
-        "&:hover:not(:read-only):not(:disabled):not(:focus)": {
-          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`
-        },
-        "&:not(:placeholder-shown)": {
-          boxShadow: `${avonLightColorTokens.colorHighEmphasis} 0 0 0 1px`
-        },
-        "&:placeholder-shown": {
-          boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`
+        color: avonLightColorTokens.colorHighEmphasis,
+        "&.Mui-disabled": {
+          opacity: 0.24
         }
       }
     },
@@ -340,11 +395,135 @@ export const avonLight: ITheme = {
         "&.Mui-focused": {
           fontSize: fontSize.subtitle2.fontSize,
           color: avonLightColorTokens.colorMediumEmphasis
+        },
+        "&.Mui-error": {
+          color: avonLightColorTokens.colorAlert
         }
       },
       formControl: {
         transform: "none",
         marginTop: "-4px"
+      }
+    },
+    MuiButtonGroup: {
+      groupedContainedPrimary: {
+        "&:not(:last-child)": {
+          borderColor: avonLightColorTokens.colorPrimaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${avonLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedSecondary: {
+        "&:not(:last-child)": {
+          borderColor: avonLightColorTokens.colorSecondaryDark,
+          "&.Mui-disabled": {
+            borderColor: `${avonLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedContainedHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${avonLightColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${avonLightColorTokens.colorHighlight}3D`
+          }
+        }
+      },
+      groupedTextPrimary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${avonLightColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextSecondary: {
+        "&:not(:last-child).Mui-disabled": {
+          borderColor: `${avonLightColorTokens.colorHighlight}3D`
+        }
+      },
+      groupedTextHorizontal: {
+        "&:not(:last-child)": {
+          borderRightColor: `${avonLightColorTokens.colorHighlight}1F`,
+          "&.Mui-disabled": {
+            borderColor: `${avonLightColorTokens.colorHighlight}3D`
+          }
+        }
+      }
+    },
+    MuiSelect: {
+      select: {
+        "&:focus": {
+          backgroundColor: "transparent"
+        },
+        "&.Mui-disabled": {
+          color: avonLightColorTokens.colorLowEmphasis
+        }
+      }
+    },
+    MuiAlert: {
+      root: {
+        width: 278,
+        padding: spacing.spacingSmall,
+        ...fontSize.body1
+      },
+      icon: {
+        marginRight: spacing.spacingTiny
+      },
+      message: {
+        padding: "5px 0"
+      },
+      standardSuccess: {
+        color: avonLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonLightColorTokens.colorSuccess, 0.16)
+      },
+      outlinedSuccess: {
+        color: avonLightColorTokens.colorHighEmphasis
+      },
+      standardError: {
+        color: avonLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonLightColorTokens.colorAlert, 0.16)
+      },
+      outlinedError: {
+        color: avonLightColorTokens.colorHighEmphasis
+      },
+      standardWarning: {
+        color: avonLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonLightColorTokens.colorWarning, 0.16),
+        "& .MuiAlert-icon": {
+          color: avonLightColorTokens.colorWarning
+        }
+      },
+      outlinedWarning: {
+        color: avonLightColorTokens.colorHighEmphasis,
+        borderColor: avonLightColorTokens.colorWarning,
+        "& .MuiAlert-icon": {
+          color: avonLightColorTokens.colorWarning
+        }
+      },
+      filledWarning: {
+        color: avonLightColorTokens.colorOnWarning,
+        backgroundColor: avonLightColorTokens.colorWarning
+      },
+      standardInfo: {
+        color: avonLightColorTokens.colorHighEmphasis,
+        backgroundColor: hexToRgba(avonLightColorTokens.colorLink, 0.16),
+        "& .MuiAlert-icon": {
+          color: avonLightColorTokens.colorLink
+        }
+      },
+      outlinedInfo: {
+        color: avonLightColorTokens.colorHighEmphasis,
+        borderColor: avonLightColorTokens.colorLink,
+        "& .MuiAlert-icon": {
+          color: avonLightColorTokens.colorLink
+        }
+      },
+      filledInfo: {
+        backgroundColor: avonLightColorTokens.colorLink
+      }
+    },
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6
       }
     }
   }

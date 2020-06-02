@@ -1,13 +1,13 @@
 {
   "name": "@naturacosmeticos/natds-web",
-  "version": "0.5.6",
+  "version": "0.6.1",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
   "keywords": [
     "design-system"
   ],
-  "author": "Vizir Software Studio <contato@vizir.com.br>",
+  "author": "Natura Cosméticos <designsystem@natura.net>",
   "contributors": [
     "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
     "Vagner Saraiva <vagner@vizir.com.br>",
@@ -15,7 +15,7 @@
     "Daniel Castro <daniel.castro@vizir.com.br>",
     "Vinícius Ponciano <vinicius.ponciano@thoughtworks.com>"
   ],
-  "license": "MIT",
+  "license": "ISC",
   "homepage": "https://github.com/natura-cosmeticos/natds/packages/web",
   "repository": {
     "type": "git",
@@ -42,9 +42,10 @@
     "@date-io/date-fns": "1.3.13",
     "@material-ui/core": "4.8.3",
     "@material-ui/icons": "4.5.1",
+    "@material-ui/lab": "4.0.0-alpha.46",
     "@material-ui/pickers": "3.2.10",
-    "@naturacosmeticos/natds-icons": "^0.5.6",
-    "@naturacosmeticos/natds-styles": "^0.5.6",
+    "@naturacosmeticos/natds-icons": "^0.6.1",
+    "@naturacosmeticos/natds-styles": "^0.6.1",
     "@types/lodash": "4.14.149",
     "@types/react-test-renderer": "16.9.1",
     "@types/react-text-mask": "5.4.6",

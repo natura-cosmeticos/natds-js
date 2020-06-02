@@ -1,0 +1,66 @@
+import { Provider, themes } from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import { variantSeverities } from './sections';
+
+# AppBar
+
+---
+
+---
+
+## Variants and Severities
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={variantSeverities} itemsPerRow={4} />
+</Provider>
+
+---
+
+---
+
+## API
+
+```jsx highlight-line="2"
+import { Alert, AlertTitle } from '@naturacosmeticos/natds-web';
+
+const MyAwesomeAlert = () => (
+  <Alert severity="success" variant="filled">
+    <AlertTitle>My Awesome Title</AlertTitle>
+    My awesome body
+  </Alert>
+);
+```
+
+For more advanced usages, check [Material UI Alert docs](https://material-ui.com/components/alert/) and [Material UI AlertTitle docs](https://material-ui.com/components/alert-title/)
+
+---
+
+---
+
+## Alert Props
+
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|action|node||The action to display. It renders after the message, at the end of the alert.|
+|children|node||The content of the component.|
+|classes|object||Override or extend the styles applied to the component. See CSS API [here](https://material-ui.com/api/alert/#css) for more details.|
+|closeText|string|'Close'|Override the default label for the close popup icon button.For localization purposes, you can use the provided translations.|
+|color|'error' \| 'info' \| 'success' \| 'warning' ||The main color for the alert. Unless provided, the value is taken from the severity prop.|
+|icon|node||Override the icon displayed before the children. Unless provided, the icon is mapped to the value of the severity prop.|
+|iconMapping|`{ error?: node, info?: node, success?: node, warning?: node }`||The component maps the severity prop to a range of different icons, for instance success to `<SuccessOutlined>`. If you wish to change this mapping, you can provide your own. Alternatively, you can use the icon prop to override the icon displayed.|
+|onClose|func||Callback fired when the component requests to be closed. When provided and no action prop is set, a close icon button is displayed that triggers the callback when clicked. Signature:function(event: object) => voidevent: The event source of the callback.|
+|role|string|'alert'|The ARIA role attribute of the element.|
+|severity|'error'| 'info' \| 'success' \| 'warning' \|'success' |The severity of the alert. This defines the color and icon used.|
+|variant|'filled' \| 'outlined' \| 'standard' \|'standard' |The variant to use.|
+
+---
+
+---
+
+## AlertTitle Props
+
+|Name|Type|Default|Description|
+|--- |--- |--- |--- |
+|children|node||The content of the component.|
+|classes|object||Override or extend the styles applied to the component. See CSS API [here](https://material-ui.com/api/alert-title/#css) for more details.|
+

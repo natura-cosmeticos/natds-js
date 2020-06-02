@@ -3,24 +3,24 @@ import { sizes } from "../sizes";
 
 export const buttonSizes: IButtonSizes = {
   small: {
-    paddingTop: sizes.tiny,
+    paddingTop: sizes.none,
     paddingRight: sizes.tiny,
-    paddingBottom: sizes.tiny,
+    paddingBottom: sizes.none,
     paddingLeft: sizes.tiny,
-    minHeight: sizes.semi
+    height: sizes.semi
   },
   medium: {
-    paddingTop: 12,
-    paddingRight: sizes.small,
-    paddingBottom: 12,
-    paddingLeft: sizes.small,
-    minHeight: sizes.semix
+    paddingTop: sizes.none,
+    paddingRight: 12,
+    paddingBottom: sizes.none,
+    paddingLeft: 12,
+    height: sizes.semix
   },
   large: {
-    paddingTop: sizes.small,
+    paddingTop: sizes.none,
     paddingRight: sizes.small,
-    paddingBottom: sizes.small,
+    paddingBottom: sizes.none,
     paddingLeft: sizes.small,
-    minHeight: sizes.medium
+    height: sizes.medium
   }
 };

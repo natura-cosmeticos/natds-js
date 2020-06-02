@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.6.0...@naturacosmeticos/natds-styles@0.6.1) (2020-06-01)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
+# [0.6.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.5.6...@naturacosmeticos/natds-styles@0.6.0) (2020-05-22)
+
+
+### Bug Fixes
+
+* **docs-dist-index:** fixing the index.html file to show all docs version released ([3e6716a](https://github.com/natura-cosmeticos/natds/commit/3e6716afa49eb298245e9cc6eb2583beb71941f8))
+* **themes:** fixing the color used by input to colorHighEmphasis ([d20ae14](https://github.com/natura-cosmeticos/natds/commit/d20ae14fb8cd6ccfb7b25079e6ad03d3eece9eff))
+
+
+### Features
+
+* **Alert:** added override styles to adjust layout os alert ([417cbad](https://github.com/natura-cosmeticos/natds/commit/417cbad5740212893ca3a22f27cafe3ae0e5684a))
+* **Alert:** added override styles to apply right theme color on Alert ([5e99b56](https://github.com/natura-cosmeticos/natds/commit/5e99b5699bfb293446539da1a6735f857844cc0f))
+* **Create New Component Select:** creating new component select ([986a447](https://github.com/natura-cosmeticos/natds/commit/986a447c58e994c07f1e08d900742d62744797c2))
+* **Popover:** added a new attribute to determine the maxWidth and fixed arrow position to center of ([3ac6937](https://github.com/natura-cosmeticos/natds/commit/3ac69373bedae11aac72e1866b4180457e3cb30c))
+* **Popover:** fixed dark themes color for paper and refactoring the docs ([ab9fe50](https://github.com/natura-cosmeticos/natds/commit/ab9fe50eb4751e873e78517a7ff46e8569ca1191))
+
+
+
+
+
 ## [0.5.6](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.5.5...@naturacosmeticos/natds-styles@0.5.6) (2020-05-18)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles
