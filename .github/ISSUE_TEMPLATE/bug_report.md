@@ -1,11 +1,32 @@
 ---
 name: Bug report
 about: Create a report to help us improve
-title: ''
-labels: ''
+title: 'Bug: '
+labels: 'bug'
 assignees: ''
 
 ---
+
+## Required info
+
+### Related dependencies
+
+- `react` version at `package.json` (if included):
+- `react-dom` version at `package.json` (if included):
+- `@material-ui/core` version at `package.json` (if included):
+
+### Design System libraries
+
+- `@natura-cosmeticos/natds-js` version at `package.json` (if included):
+- `@natura-cosmeticos/natds-icons` version at `package.json` (if included):
+- `@natura-cosmeticos/natds-styles` version at `package.json` (if included):
+
+### Languages & tooling
+
+- What language are you using (like JavaScript, TypeScript) for development?
+- Are you using `npm` or `yarn` to run and build the application?
+- Is your project ejected, using `create-react-app` (CRA), `single-spa` or another toolchain?
+- Which component test library (Enzyme, React Testing Library) does the project use?
 
 ## Describe the bug
 A clear and concise description of what the bug is.
@@ -28,16 +49,5 @@ A clear and concise description of what you expected to happen.
 
 ## Screenshots
 If applicable, add screenshots to help explain your problem.
-
-## Environment
-
-- Are you using JavaScript, TypeScript or another language for development? [JavaScript|TypeScript];
-- Are you using `npm` or `yarn` to run and build the application? [npm|yarn];
-- What is `react` dependency version? [e.g. 16.13.1];
-- What is `react-dom` dependency version? [e.g. 16.13.1];
-- What is `@natura-cosmeticos/natds-js` (Design System) version? [e.g. 0.4.1];
-- What is `@material-ui/core` version at `package.json` (if included)? [e.g. 4.10.0];
-- Which component test library does the project use? [e.g. Enzyme, React Testing Library];
-- Is your project ejected, using `create-react-app` (CRA) or another toolchain? [CRA|Ejected|Single SPA|Other];
 
 ## Additional context
