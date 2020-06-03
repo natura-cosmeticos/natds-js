@@ -23,6 +23,19 @@ yarn add @naturacosmeticos/natds-styles
 
 For more examples on how to implement yourself this styles/themes on your project without the use of the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), please refer to the [provider](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web/src/Provider/index.tsx).
 
+## How to use
+
+### ES6 and above
+
+```javascript
+import {tokens} from "@naturacosmeticos/natds-styles"
+```
+
+### ES5 and below
+
+```javascript
+const {tokens} = require("@naturacosmeticos/natds-styles")
+```
 
 ## Contributing
 
