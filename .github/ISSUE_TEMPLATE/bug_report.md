@@ -31,12 +31,13 @@ If applicable, add screenshots to help explain your problem.
 
 ## Environment
 
+- Are you using JavaScript, TypeScript or another language for development? [JavaScript|TypeScript];
 - Are you using `npm` or `yarn` to run and build the application? [npm|yarn];
 - What is `react` dependency version? [e.g. 16.13.1];
 - What is `react-dom` dependency version? [e.g. 16.13.1];
 - What is `@natura-cosmeticos/natds-js` (Design System) version? [e.g. 0.4.1];
 - What is `@material-ui/core` version at `package.json` (if included)? [e.g. 4.10.0];
 - Which component test library does the project use? [e.g. Enzyme, React Testing Library];
-- Is your project ejected, using `create-react-app` (CRA) or another toolchain? [Ejected|CRA|Other];
+- Is your project ejected, using `create-react-app` (CRA) or another toolchain? [CRA|Ejected|Single SPA|Other];
 
 ## Additional context
