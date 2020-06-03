@@ -24,20 +24,20 @@
     "directory": "packages/web"
   },
   "scripts": {
+    "build": "yarn build:clean && tsc -p ./tsconfig.json",
+    "build:clean": "rm -rf ./dist",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "start": "yarn build -w",
+    "test": "yarn test:unit:coverage",
+    "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
     "test:unit": "jest",
-    "test:unit:watch": "yarn test:unit --watch",
     "test:unit:coverage": "yarn test:unit --coverage --silent",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
-    "test": "yarn test:unit:coverage",
-    "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
-    "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "build:clean": "rm -rf ./dist",
-    "build": "yarn build:clean && tsc -p ./tsconfig.json",
-    "start": "yarn build -w",
-    "watch": "yarn start",
+    "test:unit:watch": "yarn test:unit --watch",
     "verify": "yarn lint && yarn test -u",
-    "verify:ci": "yarn lint && yarn test"
+    "verify:ci": "yarn lint && yarn test",
+    "watch": "yarn start"
   },
   "dependencies": {
     "@date-io/date-fns": "1.3.13",

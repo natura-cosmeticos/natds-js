@@ -24,20 +24,20 @@
     "directory": "packages/styles"
   },
   "scripts": {
-    "build:clean": "rm -rf dist",
     "build": "yarn build:clean && tsc -p ./tsconfig.json",
+    "build:clean": "rm -rf dist",
+    "lint": "tslint 'src/**/*.{ts,tsx}'",
     "start": "yarn build --watch",
-    "watch": "yarn start",
+    "test": "yarn test:unit:coverage",
+    "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
     "test:unit": "jest",
-    "test:unit:watch": "yarn test:unit --watch",
     "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
-    "test": "yarn test:unit:coverage",
-    "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
-    "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "test:unit:watch": "yarn test:unit --watch",
     "verify": "yarn lint && yarn test -u",
-    "verify:ci": "yarn lint && yarn test"
+    "verify:ci": "yarn lint && yarn test",
+    "watch": "yarn start"
   },
   "devDependencies": {
     "jest": "24.9.0",
