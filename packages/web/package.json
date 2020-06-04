@@ -1,5 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-web",
+  "displayName": "Web Components",
   "version": "0.6.1",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
@@ -30,7 +31,7 @@
     "test": "yarn test:unit:coverage",
     "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
     "test:unit": "jest",
-    "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
+    "test:unit:coverage": "yarn test:unit --coverage --silent",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
     "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
     "test:unit:watch": "yarn test:unit --watch",
