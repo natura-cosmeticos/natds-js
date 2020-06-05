@@ -117,3 +117,7 @@ typings/
 
 # jest test results
 !.jest-test-results.json
+
+# stryker temp files
+.stryker-tmp
+reports/mutation/html
