@@ -10,21 +10,16 @@
 Install the packages in your project root directory with:
 
 ```shell script
-# with npm
 npm i --save @naturacosmeticos/natds-web
+```
 
-# with yarn
+```
 yarn add @naturacosmeticos/natds-web
 ```
 
-When you install `@naturacosmeticos/natds-web`, the following packages will be installed too:
+## Requirements
 
-- `@material-ui/core`
-- `@naturacosmeticos/natds-icons`
-- `@naturacosmeticos/natds-styles`
-- `@styled-components`
-
-Thus, it is not necessary that you install them to use the Design System.
+* Are you using `react-dom` in your project? We recommend using version at least `16.2.1`, `16.4.2` or higher.
 
 ## Usage
 
@@ -42,6 +37,17 @@ export const YourApp = () => (
 )
 ```
 
+## Included packages
+
+When you install `@naturacosmeticos/natds-web`, the following packages will be installed too:
+
+- `@material-ui/core`
+- `@naturacosmeticos/natds-icons`
+- `@naturacosmeticos/natds-styles`
+- `@styled-components`
+
+Thus, it is not necessary to install them to use the Design System.
+
 ## About Fonts
 
 This package does not provide any fonts, only its font family names. If you desire to use the theme font, you've got to import them on your application by yourself. We recommend taking a look at [Google Fonts](https://fonts.google.com/), since some of our fonts are available for free over there.
@@ -49,7 +55,6 @@ This package does not provide any fonts, only its font family names. If you desi
 An example for importing `Roboto`, one of our main fonts, straight from google's api:
 
 ```css
-/* CSS */
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 ```
 
