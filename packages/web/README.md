@@ -5,6 +5,12 @@
 
 ---
 
+## Before everything...
+
+This package does not provide any fonts; only its font family names.
+
+If you want to use the theme font (Roboto), please check the [Fonts](#fonts) section at the end of the README.
+
 ## Installation
 
 Install the packages in your project root directory with:
@@ -42,9 +48,9 @@ export const YourApp = () => (
 )
 ```
 
-## Is included in package
+## Included in package
 
-When you install `@naturacosmeticos/natds-web`, the following packages will be installed too:
+Installing `@naturacosmeticos/natds-web` will also install the following packages:
 
 - `@material-ui/core`
 - `@naturacosmeticos/natds-icons`
