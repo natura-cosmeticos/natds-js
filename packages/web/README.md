@@ -23,8 +23,8 @@ yarn add @naturacosmeticos/natds-web
 
 ### Minimum requirements
 
-* `react` version `16.8.4` or higher (`16.10.2` or higher recommended);
-* `react-dom` version `16.8.4` or higher (`16.10.2` or higher recommended).
+* `react` version `16.8.4` or higher;
+* `react-dom` version `16.8.4` or higher.
 
 ## Usage
 
