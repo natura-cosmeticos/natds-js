@@ -9,17 +9,22 @@
 
 Install the packages in your project root directory with:
 
+### npm
+
 ```shell script
 npm i --save @naturacosmeticos/natds-web
 ```
+
+### yarn
 
 ```
 yarn add @naturacosmeticos/natds-web
 ```
 
-## Requirements
+### Minimum requirements
 
-* Are you using `react-dom` in your project? We recommend using version at least `16.2.1`, `16.4.2` or higher.
+* `react` version `16.8.4` or higher (`16.10.2` or higher recommended);
+* `react-dom` version `16.8.4` or higher (`16.10.2` or higher recommended).
 
 ## Usage
 
@@ -37,7 +42,7 @@ export const YourApp = () => (
 )
 ```
 
-## Included packages
+## Is included in package
 
 When you install `@naturacosmeticos/natds-web`, the following packages will be installed too:
 
@@ -48,7 +53,9 @@ When you install `@naturacosmeticos/natds-web`, the following packages will be i
 
 Thus, it is not necessary to install them to use the Design System.
 
-## About Fonts
+## Not included in package
+
+### Fonts
 
 This package does not provide any fonts, only its font family names. If you desire to use the theme font, you've got to import them on your application by yourself. We recommend taking a look at [Google Fonts](https://fonts.google.com/), since some of our fonts are available for free over there.
 

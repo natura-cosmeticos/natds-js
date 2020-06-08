@@ -37,11 +37,20 @@ You can try to fix this with the following steps:
    }
    ```
 
+## Dependency warnings
+
+### Version of react-dom/server with minor vulnerability
+
+This error can occur when your project has `react-dom` version `16.2.0` as dependency.
+
+You can try to fix this updating `react-dom` to `16.2.1`, `16.4.2` or higher.
+
 ## Other errors not covered here
 
 If you are facing other issues not covered here, try to follow these steps:
 
-1. If you added `@material-ui/core` dependency, please remove it;
-2. Remove `@naturacosmeticos/natds-styles` dependency;
-3. Remove `@naturacosmeticos/natds-web` dependency;
-4. Add only `@naturacosmeticos/natds-web` dependency again;
+1. Update `npm` globally running `npm install -g npm`;
+2. If you added `@material-ui/core` dependency, please remove it;
+3. Remove `@naturacosmeticos/natds-styles` dependency;
+4. Remove `@naturacosmeticos/natds-web` dependency;
+5. Add only `@naturacosmeticos/natds-web` dependency again;
