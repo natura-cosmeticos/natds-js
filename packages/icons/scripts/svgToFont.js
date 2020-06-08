@@ -27,6 +27,19 @@ public enum Icon: String, CaseIterable {
       .join('')
     }
 }
+
+extension Icon {
+  var originalName: String {
+      switch self {
+      ${
+    Object
+      .keys(metadata)
+      .map(iconName => `case .${toCamelCase(iconName)}: return "${iconName}"\n`)
+      .join('')
+    }
+      }
+  }
+}
 `
   fs.writeFile(distMetada + fontName + '.swift', formattedMetadataSwift, onError);
 }
