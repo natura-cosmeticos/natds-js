@@ -10,7 +10,8 @@ Natura Design System
 ## NatDS React
 
 On how to use please refer to the [README](./packages/web/README.md) of the web package.
-Are you having problems? Please refer to the [TROUBLESHOOTING](./TROUBLESHOOTING.md) guide of this package.
+
+Troubles? Please refer to the [TROUBLESHOOTING](./TROUBLESHOOTING.md) guide of this package.
 
 ## NatDS Styles
 
