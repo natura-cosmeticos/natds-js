@@ -5,25 +5,21 @@
 
 ---
 
-## Before everything...
+## Before you start...
 
 This package does not provide any fonts; only its font family names.
 
 If you want to use the theme font (Roboto), please check the [Fonts](#fonts) section at the end of the README.
 
-## Installation
+## How to install
 
 Install the packages in your project root directory with:
 
-### npm
-
 ```shell script
+# npm
 npm i --save @naturacosmeticos/natds-web
-```
 
-### yarn
-
-```
+# yarn
 yarn add @naturacosmeticos/natds-web
 ```
 
@@ -32,10 +28,9 @@ yarn add @naturacosmeticos/natds-web
 * `react` version `16.8.4` or higher;
 * `react-dom` version `16.8.4` or higher.
 
-If your project does not meet the minimum requirements,
-then we encourage you to use [@naturacosmeticos/natds-styles](../styles/README.md).
+If your project does not meet the minimum requirements, you can use [@naturacosmeticos/natds-styles](../styles/README.md).
 
-## Usage
+## How to use
 
 ```jsx highlight-line="3"
 import React from "react"
@@ -53,7 +48,7 @@ export const YourApp = () => (
 
 Check our [storybook docs](https://natds-js.netlify.app/) for more details and examples.
 
-## Included in package
+### Included in package
 
 Installing `@naturacosmeticos/natds-web` will also install the following packages:
 
@@ -64,9 +59,9 @@ Installing `@naturacosmeticos/natds-web` will also install the following package
 
 Thus, it is not necessary to install them to use the Design System.
 
-## Not included in package
+### Not included in package
 
-### Fonts
+#### Fonts
 
 This package does not provide any fonts, only its font family names. If you desire to use the theme font,
 you've got to import them on your application by yourself. We recommend taking a look at
@@ -80,6 +75,6 @@ An example for importing `Roboto`, one of our main fonts, straight from Google's
 
 ---
 
-## Contributing
+## How to contribute
 
-To contribute, please check out our contributing file [`CONTRIBUTING`](./CONTRIBUTING.md)
+To contribute, please check out our [Contributing guidelines](./CONTRIBUTING.md)
