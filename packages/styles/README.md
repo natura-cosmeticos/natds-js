@@ -5,9 +5,10 @@
 
 ## Before everything...
 
-We encourage you to use the repository [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) directly.
+We encourage you to use the repository
+[@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) directly.
 
-However, if you are working on a project that does not use React, or is not compatible with [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) in any way, so that would be a good way to adopt styles in your web application or website.
+However, if you are working on a project that does not use React, so you can adopt styles in your web application or website.
 
 By the way, [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) uses this package as a dependency.
 
@@ -41,9 +42,7 @@ import {tokens} from "@naturacosmeticos/natds-styles"
 const {tokens} = require("@naturacosmeticos/natds-styles")
 ```
 
-### 3. Check our examples
-
-@todo Add examples here
+Check our [storybook docs](https://natds-js.netlify.app/) for all available design tokens.
 
 ## Check also
 

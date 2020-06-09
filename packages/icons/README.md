@@ -1,12 +1,13 @@
-# @naturacosmeticos/natds-icons
-
-Natura Design System - Icons
+# Natura Design System - Icons
 
 ![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
-### These are the icons used by [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), if you are already using the library, you probably do not need to install them.
+## Before you start...
 
+Are already using the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) library?
+
+You don't need to install this library directly.
 
 ## Installation
 
@@ -20,7 +21,7 @@ npm install --save @naturacosmeticos/natds-icons
 yarn add @naturacosmeticos/natds-icons
 ```
 
-The fonts and the generated [css](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.css) and [json](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.json) files are exported as:
+The fonts and the generated [CSS](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.css) and [JSON](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.json) files are exported as:
 
 ```jsx highlight-line="2"
 import {
@@ -45,7 +46,7 @@ const Icon = (props) => (
 );
 ```
 
-You can also import the [json](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.json) that contains the relationships between the icon names and their `unicode` counterparts (don't rely on the `unicodes`, they are generated automatically)
+You can also import the [JSON file](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.json) that contains the relationships between the icon names and their `unicode` counterparts (don't rely on the `unicodes`, they are generated automatically)
 
 ```jsx highlight-line="2"
 import {

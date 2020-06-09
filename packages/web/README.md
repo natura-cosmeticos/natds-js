@@ -32,11 +32,14 @@ yarn add @naturacosmeticos/natds-web
 * `react` version `16.8.4` or higher;
 * `react-dom` version `16.8.4` or higher.
 
+If your project does not meet the minimum requirements,
+then we encourage you to use [@naturacosmeticos/natds-styles](../styles/README.md).
+
 ## Usage
 
 ```jsx highlight-line="3"
 import React from "react"
-import { Button, Provider, themes} from "@naturacosmeticos/natds-web"
+import { Button, Provider, themes } from "@naturacosmeticos/natds-web"
 
 const { natura } = themes;
 
@@ -47,6 +50,8 @@ export const YourApp = () => (
    </Provider>
 )
 ```
+
+Check our [storybook docs](https://natds-js.netlify.app/) for more details and examples.
 
 ## Included in package
 
@@ -63,9 +68,11 @@ Thus, it is not necessary to install them to use the Design System.
 
 ### Fonts
 
-This package does not provide any fonts, only its font family names. If you desire to use the theme font, you've got to import them on your application by yourself. We recommend taking a look at [Google Fonts](https://fonts.google.com/), since some of our fonts are available for free over there.
+This package does not provide any fonts, only its font family names. If you desire to use the theme font,
+you've got to import them on your application by yourself. We recommend taking a look at
+[Google Fonts](https://fonts.google.com/), since some of our fonts are available for free over there.
 
-An example for importing `Roboto`, one of our main fonts, straight from google's api:
+An example for importing `Roboto`, one of our main fonts, straight from Google's API:
 
 ```css
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
