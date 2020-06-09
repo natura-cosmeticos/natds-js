@@ -23,12 +23,25 @@ npm i --save @naturacosmeticos/natds-web
 yarn add @naturacosmeticos/natds-web
 ```
 
+### Already included in this package
+
+Installing `@naturacosmeticos/natds-web` will also install the following packages:
+
+- `@material-ui/core`
+- `@naturacosmeticos/natds-icons`
+- `@naturacosmeticos/natds-styles`
+- `@styled-components`
+
+Thus, it is not necessary to install them to use the Design System.
+
 ### Minimum requirements
 
 * `react` version `16.8.4` or higher;
 * `react-dom` version `16.8.4` or higher.
 
 If your project does not meet the minimum requirements, you can use [@naturacosmeticos/natds-styles](../styles/README.md).
+
+---
 
 ## How to use
 
@@ -48,16 +61,15 @@ export const YourApp = () => (
 
 Check our [storybook docs](https://natds-js.netlify.app/) for more details and examples.
 
-### Included in package
+---
 
-Installing `@naturacosmeticos/natds-web` will also install the following packages:
+## How to contribute
 
-- `@material-ui/core`
-- `@naturacosmeticos/natds-icons`
-- `@naturacosmeticos/natds-styles`
-- `@styled-components`
+To contribute, please check out our [Contributing guidelines](./CONTRIBUTING.md)
 
-Thus, it is not necessary to install them to use the Design System.
+---
+
+## Additional information
 
 ### Not included in package
 
@@ -72,9 +84,3 @@ An example for importing `Roboto`, one of our main fonts, straight from Google's
 ```css
 @import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
 ```
-
----
-
-## How to contribute
-
-To contribute, please check out our [Contributing guidelines](./CONTRIBUTING.md)
