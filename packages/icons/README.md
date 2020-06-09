@@ -9,9 +9,9 @@ Are already using the [@naturacosmeticos/natds-web](https://github.com/natura-co
 
 You don't need to install this library directly.
 
-## Installation
+## How to install
 
-You can still use them by installing directly into your package with:
+You can still use this package by installing it directly into your project with:
 
 ```sh
 # with npm
@@ -21,7 +21,9 @@ npm install --save @naturacosmeticos/natds-icons
 yarn add @naturacosmeticos/natds-icons
 ```
 
-The fonts and the generated [CSS](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.css) and [JSON](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.json) files are exported as:
+## How to use
+
+You can import fonts and the generated [CSS](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.css) and [JSON](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.json) files like this:
 
 ```jsx highlight-line="2"
 import {
@@ -35,11 +37,14 @@ import {
 } from '@naturacosmeticos/natds-icons';
 ```
 
-For use on web environments, you will need to serve the fonts and consume the [css](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.css) file as you see fit. One possible way is to just create a simple (jsx) component like:
+For use on web environments, you will need to serve the fonts and consume the [CSS](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.css) file as you see fit.
+
+One possible way to use it on React is creating a simple (JSX) component like this:
 
 ```jsx highlight-line="2"
-import { iconNames } from '@naturacosmeticos/natds-icons';
+import React from "react"
 import '@naturacosmeticos/natds-icons/dist/natds-icons.css';
+import { iconNames } from '@naturacosmeticos/natds-icons';
 
 const Icon = (props) => (
   <i className={`natds-icons-${props.name}`} />
