@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.6](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.5...@naturacosmeticos/natds-web@0.6.6) (2020-06-09)
+
+
+### Bug Fixes
+
+* **web:** fix homepage and repo URLs ([1849d43](https://github.com/natura-cosmeticos/natds-js/commit/1849d43ced3e89fc76d1fb86dde8d03e63d66a2c))
+
+
+
+
+
 ## [0.6.5](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-web@0.6.4...@naturacosmeticos/natds-web@0.6.5) (2020-06-09)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
