@@ -37,4 +37,4 @@ Check our [Design System Storybook](https://natds-js.netlify.app/) for all React
 
 ## How to contribute
 
-To contribute, please check our [`Contributing guidelines`](./CONTRIBUTING.md).
+To contribute, please check our [Contributing guidelines](./CONTRIBUTING.md).
