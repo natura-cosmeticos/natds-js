@@ -55,7 +55,7 @@ import {
 } from '@naturacosmeticos/natds-icons';
 ```
 
-## Contributing
+## How to contribute
 
-To contribute, please check out our contributing file [`CONTRIBUTING`](./CONTRIBUTING.md)
+To contribute, please check our [`Contributing guidelines`](./CONTRIBUTING.md).
 
