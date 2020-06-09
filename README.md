@@ -21,13 +21,13 @@ The `natds-web` package includes style tokens and icons.
 
 **Need more info about this package?** Please refer to [Docs for Design System for Web](./packages/web/README.md)
 
-**Troubles?** Please refer to the [Troubleshooting Guide](https://github.com/natura-cosmeticos/natds-js/tree/master/TROUBLESHOOTING.md) of this package.
+**Troubles?** Please refer to the [Troubleshooting Guide](./TROUBLESHOOTING.md) of this package.
 
 ### Not a React-based project?
 
-Install our style tokens separately. Please check [`natds-styles` docs](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/styles/README.md) for more info.
+Install our style tokens separately. Please check [`natds-styles` docs](./packages/styles/README.md) for more info.
 
-You can also install icons separately. Please check [`natds-icons` docs](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/icons/README.md) for more info.
+You can also install icons separately. Please check [`natds-icons` docs](./packages/icons/README.md) for more info.
 
 ---
 
