@@ -62,5 +62,5 @@ import {
 
 ## How to contribute
 
-To contribute, please check our [`Contributing guidelines`](./CONTRIBUTING.md).
+To contribute, please check our [Contributing guidelines](./CONTRIBUTING.md).
 
