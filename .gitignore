@@ -107,9 +107,8 @@ typings/
 .tern-port
 
 # IDEs
-*.code-workspace
-/.idea/
-.vscode/
+.idea/shelf/Uncommitted_changes_before_Checkout_at_*
+.idea/workspace.xml
 
 # macOS files
 .DS_Store
