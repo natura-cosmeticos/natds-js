@@ -23,21 +23,12 @@ npm i --save @naturacosmeticos/natds-web
 yarn add @naturacosmeticos/natds-web
 ```
 
-### Already included in this package
-
-Installing `@naturacosmeticos/natds-web` will also install the following packages:
-
-- `@material-ui/core`
-- `@naturacosmeticos/natds-icons`
-- `@naturacosmeticos/natds-styles`
-- `@styled-components`
-
-Thus, it is not necessary to install them to use the Design System.
-
 ### Minimum requirements
 
+* LTS Node version (v8.0.0+);
 * `react` version `16.8.4` or higher;
-* `react-dom` version `16.8.4` or higher.
+* `react-dom` version `16.8.4` or higher;
+* If your project uses TypeScript, we need TypeScript 2.1 at least;
 
 If your project does not meet the minimum requirements, you can use [@naturacosmeticos/natds-styles](../styles/README.md).
 
@@ -70,6 +61,17 @@ To contribute, please check out our [Contributing guidelines](./CONTRIBUTING.md)
 ---
 
 ## Additional information
+
+### Already included in this package
+
+Installing `@naturacosmeticos/natds-web` will also install the following packages:
+
+- `@material-ui/core`
+- `@naturacosmeticos/natds-icons`
+- `@naturacosmeticos/natds-styles`
+- `@styled-components`
+
+Thus, it is not necessary to install them to use the Design System.
 
 ### Not included in package
 
