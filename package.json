@@ -1,6 +1,7 @@
 {
   "name": "natds",
-  "version": "0.6.1",
+  "displayName": "Root",
+  "version": "0.6.10",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "ISC",
   "keywords": [
@@ -24,21 +25,24 @@
   },
   "scripts": {
     "bootstrap": "lerna bootstrap",
+    "build": "lerna run build",
+    "build:docs:prerelease": "bash scripts/build-pre-release.sh",
+    "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
     "clean": "lerna clean",
     "commit": "git cz",
-    "release": "lerna version --conventional-commits",
     "prerelease": "lerna version --conventional-commits --conventional-prerelease",
     "publish": "lerna publish from-git",
+    "release": "lerna version --conventional-commits",
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
-    "build": "echo \"Use \\033[0;33m'yarn build:libs'\\033[0m instead\"",
-    "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
+    "stryker:run": "stryker run",
+    "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons",
     "verify": "yarn build:libs && yarn lerna run verify --stream",
     "verify:ci": "yarn build:libs && yarn lerna run verify:ci --stream",
-    "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\"",
+    "verify:code": "lerna run lint",
+    "verify:tests": "lerna run test",
     "version": "echo $npm_package_version",
-    "build:docs:prerelease": "bash scripts/build-pre-release.sh",
-    "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons"
+    "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\""
   },
   "private": true,
   "workspaces": {
@@ -60,12 +64,18 @@
     ]
   },
   "devDependencies": {
+    "@stryker-mutator/core": "3.2.4",
+    "@stryker-mutator/javascript-mutator": "3.2.4",
+    "@stryker-mutator/jest-runner": "3.2.4",
     "commitizen": "4.0.3",
     "concurrently": "5.0.0",
     "cz-lerna-changelog": "2.0.2",
     "husky": "3.1.0",
+    "jest": "26.0.1",
     "lerna": "3.19.0",
-    "semantic-release": "15.13.31"
+    "netlify": "4.1.6",
+    "semantic-release": "15.13.31",
+    "shelljs": "0.8.4"
   },
   "config": {
     "commitizen": {
