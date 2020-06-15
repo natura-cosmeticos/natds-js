@@ -1,0 +1,22 @@
+{
+  "automerge": false,
+  "enabled": true,
+  "extends": [
+    "config:base"
+  ],
+  "labels": ["dependencies", "renovate"],
+  "masterIssue": true,
+  "masterIssueAutoclose": true,
+  "packageRules": [
+    {
+      "packagePatterns": ["eslint"],
+      "labels": ["linting"]
+    }
+  ],
+  "semanticCommits": true,
+  "unicodeEmoji": true,
+  "updateLockFiles": true,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
+}
