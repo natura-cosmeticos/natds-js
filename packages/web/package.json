@@ -31,6 +31,7 @@
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
+  "unpkg": "dist/umd/index.js",
   "directories": {
     "lib": "dist",
     "test": "__tests__"
@@ -41,7 +42,7 @@
     "url": "https://github.com/natura-cosmeticos/natds-js.git"
   },
   "scripts": {
-    "build": "yarn build:clean && tsc -p ./tsconfig.json",
+    "build": "yarn build:clean && tsc -p ./tsconfig.json && yarn rollup:build",
     "build:clean": "rm -rf ./dist",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "rollup:build": "rollup -c",

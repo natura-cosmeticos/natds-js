@@ -36,15 +36,5 @@ export default [
     }),
     external: ['@naturacosmeticos/natds-icons/dist/natds-icons.css'],
     plugins: getPluginsForBrowser()
-  },
-  {
-    input: './dist/Components/AlertTitle.js',
-    output: getBrowserOutputConfig({
-      filePath: 'Components/',
-      name: 'AlertTitle',
-      globals: {'@material-ui/lab/AlertTitle': 'AlertTitle'}
-    }),
-    external: ['@material-ui/lab/AlertTitle'],
-    plugins: getPluginsForBrowser()
   }
 ]
