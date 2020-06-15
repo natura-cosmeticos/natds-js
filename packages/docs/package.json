@@ -31,7 +31,9 @@
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "test:build": "build-storybook -o dist-test --quiet && rm -rf dist-test",
     "verify": "yarn lint && yarn test:build",
-    "verify:ci": "yarn verify"
+    "verify:ci": "yarn verify",
+    "snyk-protect": "snyk protect",
+    "prepublish": "npm run snyk-protect"
   },
   "devDependencies": {
     "@babel/core": "7.7.5",
@@ -81,11 +83,13 @@
     "directory-tree": "2.2.4",
     "fuzzy-search": "3.0.2",
     "react": "16.12.0",
-    "react-dom": "16.12.0"
+    "react-dom": "16.12.0",
+    "snyk": "^1.341.1"
   },
   "storybook-deployer": {
     "gitUsername": "Vizir Software Studio",
     "gitEmail": "contato@vizir.com.br",
     "commitMessage": "Deploy NatDS Storybook to GitHub Pages"
-  }
+  },
+  "snyk": true
 }
