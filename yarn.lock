@@ -3772,22 +3772,22 @@
     telejson "^3.0.2"
     util-deprecate "^1.0.2"
 
-"@stryker-mutator/api@^3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-3.2.4.tgz#e6c0be234f63a4e5c29f95b41084a1227ceffad4"
-  integrity sha512-WzeLrerYih+xi2HyUtSFKRJq23O4P3HZ669w42MS+q0ivxd953Hr+ZXNfuK6so3jXVzygt5hv3FTyEenm+w0Qg==
+"@stryker-mutator/api@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/api/-/api-3.3.0.tgz#69a12b57ce276d3dcde05b18ffc9d79246e32ef8"
+  integrity sha512-OAfcL+mOvLuDrlk9GXOZ7dKmNyHnBwuv7YCAYbloB3iBSZGcPb8C3g/hGT0G7Ygzyoonnbe04mV+VPR2ZBf3DA==
   dependencies:
     mutation-testing-report-schema "~1.3.0"
     surrial "~2.0.2"
     tslib "~2.0.0"
 
-"@stryker-mutator/core@3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-3.2.4.tgz#859b98bd1aa92021b5a73b7b70d26feb80cb984f"
-  integrity sha512-bTPFctIx1iH0YPx0dJxfMfJKyxv9+NIONjEPfrZsJjaUoQFv787s9+bnzD/JUYCYoG6Hj7XjMFsFs97xI318yA==
+"@stryker-mutator/core@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/core/-/core-3.3.0.tgz#1a06694325392dbcb281c4211dc20c4dd3796077"
+  integrity sha512-1yxJu+2mz5oSbD2w8XP/NlR4ATkqQZr3rpB3SaoSfjeF7CSoqJ04BEcQKugMJ3ttXWCugSRGwkjxMqRIKyDN3A==
   dependencies:
-    "@stryker-mutator/api" "^3.2.4"
-    "@stryker-mutator/util" "^3.2.4"
+    "@stryker-mutator/api" "^3.3.0"
+    "@stryker-mutator/util" "^3.3.0"
     ajv "^6.12.0"
     chalk "~4.0.0"
     commander "~5.1.0"
@@ -3812,29 +3812,29 @@
     typed-inject "~2.2.1"
     typed-rest-client "~1.7.1"
 
-"@stryker-mutator/javascript-mutator@3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/javascript-mutator/-/javascript-mutator-3.2.4.tgz#5379c549e6798eef3bfac88eeea8e14b3fec25cb"
-  integrity sha512-Jp64+nBz97Nnn1h9aoBCH7OUtppGf2i1sugeTebp2T4b8cLZsOo2zMEKffCLEesC7+1KNEH0JKzenSen6rM4rw==
+"@stryker-mutator/javascript-mutator@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/javascript-mutator/-/javascript-mutator-3.3.0.tgz#3469d18cfd5262ffdf84dd2152ed4e903741c09f"
+  integrity sha512-3IiwzxJKa/L96ltu0KknQW8DxnqorMGh42/qrWRqvV3i9V/AA+CNeTKzQ9xttbwlS2My/e1IBLY7Ziy1agcjiw==
   dependencies:
     "@babel/generator" "~7.9.4"
     "@babel/parser" "~7.9.4"
     "@babel/traverse" "~7.9.5"
-    "@stryker-mutator/api" "^3.2.4"
+    "@stryker-mutator/api" "^3.3.0"
     tslib "~2.0.0"
 
-"@stryker-mutator/jest-runner@3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-3.2.4.tgz#a7c94204eec9bbe8a243dbaf5a2f74e9531acbc9"
-  integrity sha512-MooAGDubqw/cbLnrQ1K27AI9vgeQlr/GqALW0x/lp7YXsSutf9UPk+efjo18g4wHO9+gBM7EdjkRydf6QHuynQ==
+"@stryker-mutator/jest-runner@3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/jest-runner/-/jest-runner-3.3.0.tgz#c3306e6526061af5d5e4fd90ced627d8d495272d"
+  integrity sha512-Uq/C8+XS3+qS0EUN9l4qdGQWZhEn10OOToSYCSpylAlmKYe5LDVWP2wdwXqi2V6z0hGJjQgoJuvlH39dda7IBg==
   dependencies:
-    "@stryker-mutator/api" "^3.2.4"
+    "@stryker-mutator/api" "^3.3.0"
     semver "~6.3.0"
 
-"@stryker-mutator/util@^3.2.4":
-  version "3.2.4"
-  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-3.2.4.tgz#117aadfb3357774e903dcc45105b6db8f60ffbd5"
-  integrity sha512-s/yB6Ok0NZfGlQD1A/3BPdwCyS2YA5yQzIFNsFE8q/GqmMlZ5SjliEFNgp7u3LUYpqqBStmmz6qzP/PoL1BxqQ==
+"@stryker-mutator/util@^3.3.0":
+  version "3.3.0"
+  resolved "https://registry.yarnpkg.com/@stryker-mutator/util/-/util-3.3.0.tgz#83993ab6f558892429cf3680ed2edf7462dacaff"
+  integrity sha512-bxqVDfVm2TZ0l2EBk2mrijx3QZrxC9wPIgWr/q+dt/47s3snlMedYDf84QEYHYF3+oG95GdfAUIlZUWOqG0PBA==
 
 "@svgr/babel-plugin-add-jsx-attribute@^4.2.0":
   version "4.2.0"
