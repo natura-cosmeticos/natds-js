@@ -1,0 +1,20 @@
+# Snyk (https://snyk.io) policy file, patches or ignores known vulnerabilities.
+version: v1.15.0
+ignore: {}
+# patches apply the minimum changes required to fix a vulnerability
+patch:
+  SNYK-JS-LODASH-567746:
+    - '@naturacosmeticos/natds-web > lodash':
+        patched: '2020-06-15T20:59:40.293Z'
+    - '@naturacosmeticos/natds-web > styled-components > @babel/traverse > lodash':
+        patched: '2020-06-15T20:59:40.293Z'
+    - '@naturacosmeticos/natds-web > styled-components > babel-plugin-styled-components > lodash':
+        patched: '2020-06-15T20:59:40.293Z'
+    - '@naturacosmeticos/natds-web > styled-components > @babel/traverse > @babel/generator > lodash':
+        patched: '2020-06-15T20:59:40.293Z'
+    - '@naturacosmeticos/natds-web > styled-components > babel-plugin-styled-components > @babel/helper-annotate-as-pure > @babel/types > lodash':
+        patched: '2020-06-15T20:59:40.293Z'
+    - '@naturacosmeticos/natds-web > styled-components > @babel/traverse > @babel/helper-split-export-declaration > @babel/types > lodash':
+        patched: '2020-06-15T20:59:40.293Z'
+    - '@naturacosmeticos/natds-web > styled-components > @babel/traverse > @babel/helper-function-name > @babel/template > @babel/types > lodash':
+        patched: '2020-06-15T20:59:40.293Z'

@@ -1,0 +1,42 @@
+dictionaries:
+  - en
+excluded_files:
+  - "vendor/**/*"
+  - "node_modules/**/*"
+  - "*.key"
+  - "*.enc"
+  - "*.min.css"
+  - "*.css.map"
+  - "*.min.js"
+  - "*.js.map"
+  - "*.mk"
+  - "package-lock.json"
+  - "yarn.lock"
+  - "Gemfile.lock"
+  - ".typo-ci.yml"
+  - packages/icons/src/natds-icons.swift
+excluded_words:
+  - cjs
+  - fileurl
+  - iml
+  - javascript-mutator
+  - Lichtnow
+  - Lyrio
+  - Matheus
+  - natds
+  - natDsIcons
+  - natdsIcons
+  - natds-icons
+  - natds-styles
+  - natds-web
+  - natdsWeb
+  - natura
+  - naturacosmeticos
+  - preferBuiltins
+  - Saraiva
+  - stryker-mutator
+  - tcm
+  - transpilers
+  - typoci
+  - Vagner
+  - Vizir
