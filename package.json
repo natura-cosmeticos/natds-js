@@ -1,7 +1,7 @@
 {
   "name": "natds",
   "displayName": "Root",
-  "version": "0.6.4",
+  "version": "0.6.10",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "ISC",
   "keywords": [
@@ -65,17 +65,17 @@
   },
   "devDependencies": {
     "@stryker-mutator/core": "3.2.4",
-    "@stryker-mutator/javascript-mutator": "^3.2.4",
-    "@stryker-mutator/jest-runner": "^3.2.4",
-    "commitizen": "4.0.3",
+    "@stryker-mutator/javascript-mutator": "3.2.4",
+    "@stryker-mutator/jest-runner": "3.2.4",
+    "commitizen": "4.1.2",
     "concurrently": "5.0.0",
     "cz-lerna-changelog": "2.0.2",
     "husky": "3.1.0",
     "jest": "26.0.1",
-    "lerna": "3.19.0",
-    "netlify": "^4.1.6",
-    "semantic-release": "15.13.31",
-    "shelljs": "^0.8.4"
+    "lerna": "3.22.1",
+    "netlify": "4.3.1",
+    "semantic-release": "15.14.0",
+    "shelljs": "0.8.4"
   },
   "config": {
     "commitizen": {

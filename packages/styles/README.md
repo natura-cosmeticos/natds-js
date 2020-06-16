@@ -1,30 +1,49 @@
-# @naturacosmeticos/natds-styles
-
-Natura Design System - Styles
+# Natura Design System - Styles
 
 ![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
-## Installation
+## Before you start...
 
-This package holds the themes used by [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), they are imported by the corresponding component.
-They are included and managed by the components of these projects.
+We encourage you to use the repository
+[@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) directly.
 
+However, if you are working on a project that does not use React, so you can adopt styles in your web application or website.
 
-You can still use them by installing directly into your package with:
+By the way, [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) uses this package as a dependency.
 
-```sh
-# with npm
+## How to install
+
+```shell script
+# npm
 npm install --save @naturacosmeticos/natds-styles
 
-# with yarn
+# yarn
 yarn add @naturacosmeticos/natds-styles
 ```
 
-For more examples on how to implement yourself this styles/themes on your project without the use of the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web), please refer to the [provider](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web/src/Provider/index.tsx).
+### How to use
 
+```javascript
+// ES6 or above
+import {tokens} from "@naturacosmeticos/natds-styles"
 
-## Contributing
+// ES5 or below
+const {tokens} = require("@naturacosmeticos/natds-styles")
+```
+
+Check our [Design System Storybook](https://natds-js.netlify.app/) for all available design tokens.
+
+## How to contribute
 
 To contribute, please check out our contributing file [`CONTRIBUTING`](./CONTRIBUTING.md)
+
+---
+
+## Check also
+
+For more details on how we use these styles or implementation details, please refer to the following links:
+
+- [@naturacosmeticos/natds-web project](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web)
+- [@naturacosmeticos/natds-web provider](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web/src/Provider/index.tsx)
 

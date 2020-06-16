@@ -1,0 +1,27 @@
+{
+  "automerge": false,
+  "enabled": true,
+  "extends": [
+    "config:base"
+  ],
+  "ignoreDeps": ["snyk"],
+  "labels": ["dependencies", "renovate"],
+  "masterIssue": true,
+  "masterIssueAutoclose": true,
+  "packageRules": [
+    {
+      "packagePatterns": ["eslint"],
+      "labels": ["linting"]
+    },
+    {
+      "packagePatterns": ["snyk"],
+      "labels": ["security"]
+    }
+  ],
+  "semanticCommits": true,
+  "unicodeEmoji": true,
+  "updateLockFiles": true,
+  "vulnerabilityAlerts": {
+    "enabled": true
+  }
+}

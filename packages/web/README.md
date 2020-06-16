@@ -1,56 +1,86 @@
-# @naturacosmeticos/natds-web
-
-Natura Design System - Web Components
+# Natura Design System - React Web
 
 ![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
 ---
 
-## Installation
+## Before you start...
 
-Install the packages in your project directory with:
+This package does not provide any fonts; only its font family names.
 
-```sh
-# with npm
+If you want to use the theme font (Roboto), please check the [Fonts](#fonts) section at the end of the README.
+
+## How to install
+
+Install the packages in your project root directory with:
+
+```shell script
+# npm
 npm i --save @naturacosmeticos/natds-web
 
-# with yarn
+# yarn
 yarn add @naturacosmeticos/natds-web
 ```
 
-## Usage
+### Already included in this package
 
-```jsx highlight-line="2"
-import { Chip, Provider, themes } from '@naturacosmeticos/natds-web'
+Installing `@naturacosmeticos/natds-web` will also install the following packages:
 
-const { natura } = themes;
+- `@material-ui/core`
+- `@naturacosmeticos/natds-icons`
+- `@naturacosmeticos/natds-styles`
+- `@styled-components`
 
-return (
-  <Provider theme={natura.light}>
-    <Chip
-      clickable={boolean}
-      disabled={boolean}
-      label={string}
-      onDelete={function}
-    />
-  </Provider>
-)
-```
+Thus, it is not necessary to install them to use the Design System.
 
-## About Fonts
+### Minimum requirements
 
-This package do not provide any fonts, only its font family names. If you desire to use the theme font, you've got to import them on your application by yourself. We recommend taking a look at [Google Fonts](https://fonts.google.com/), since some of our fonts are available for free over there.
+* `react` version `16.8.4` or higher;
+* `react-dom` version `16.8.4` or higher.
 
-An example for importing `Roboto`, one of our main fonts, straight from google's api:
-
-```css
-/* CSS */
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-```
+If your project does not meet the minimum requirements, you can use [@naturacosmeticos/natds-styles](../styles/README.md).
 
 ---
 
-## Contributing
+## How to use
 
-To contribute, please check out our contributing file [`CONTRIBUTING`](./CONTRIBUTING.md)
+```jsx highlight-line="3"
+import React from "react"
+import { Button, Provider, themes } from "@naturacosmeticos/natds-web"
+
+const { natura } = themes;
+
+export const YourApp = () => (
+   <Provider theme={natura.light}>
+      <Button color={"primary"}>Button component</Button>
+      <Button variant={"contained"}>Contained button</Button>
+   </Provider>
+)
+```
+
+Check our [storybook docs](https://natds-js.netlify.app/) for more details and examples.
+
+---
+
+## How to contribute
+
+To contribute, please check out our [Contributing guidelines](./CONTRIBUTING.md)
+
+---
+
+## Additional information
+
+### Not included in package
+
+#### Fonts
+
+This package does not provide any fonts, only its font family names. If you desire to use the theme font,
+you've got to import them on your application by yourself. We recommend taking a look at
+[Google Fonts](https://fonts.google.com/), since some of our fonts are available for free over there.
+
+An example for importing `Roboto`, one of our main fonts, straight from Google's API:
+
+```css
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+```

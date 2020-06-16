@@ -2,25 +2,39 @@
 
 [![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
 [![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
-[![Build Status](https://travis-ci.org/natura-cosmeticos/natds-js.svg?branch=master)](https://travis-ci.org/natura-cosmeticos/natds-js)
+[![Travis Build Status](https://travis-ci.org/natura-cosmeticos/natds-js.svg?branch=master)](https://travis-ci.org/natura-cosmeticos/natds-js)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
-## NatDS React Web
+## How to install
 
-On how to use please refer to the [README](./packages/web/README.md) of the web package.
+If your project is using `react` and `react-dom` version `16.8.4` or higher:
 
-## NatDS Styles
+```shell script
+# npm
+npm i --save @naturacosmeticos/natds-web
 
-On how to use please refer to the [README](./packages/styles/README.md) of the styles package.
+# yarn
+yarn add @naturacosmeticos/natds-web
+```
 
-## NatDS Icons
+The `natds-web` package includes style tokens and icons.
 
-On how to use please refer to the [README](./packages/icons/README.md) of the icons package.
+**Need more info about this package?** Please refer to [Docs for Design System for Web](./packages/web/README.md)
 
-## Docs
+**Troubles?** Please refer to the [Troubleshooting Guide](./TROUBLESHOOTING.md) of this package.
 
-Our official docs can be found [here](https://natds-js.netlify.com/).
+### Not a React-based project?
+
+Install our style tokens separately. Please check [`natds-styles` docs](./packages/styles/README.md) for more info.
+
+You can also install icons separately. Please check [`natds-icons` docs](./packages/icons/README.md) for more info.
+
+---
+
+## How to use
+
+Check our [Design System Storybook](https://natds-js.netlify.app/) for all React components and design tokens.
 
 ## How to contribute
 
-Check out our contributing guideline [here](./CONTRIBUTING.md).
+To contribute, please check our [Contributing guidelines](./CONTRIBUTING.md).
