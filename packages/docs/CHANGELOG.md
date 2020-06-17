@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.11](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-docs@0.6.10...@naturacosmeticos/natds-docs@0.6.11) (2020-06-17)
+
+
+### Bug Fixes
+
+* packages/docs/package.json & packages/docs/.snyk to reduce vulnerabilities ([35ae710](https://github.com/natura-cosmeticos/natds/commit/35ae710e8223b79415b5fe7d1c632ea6aae657b7))
+* **deps:** update dependency @types/react-native to v0.62.13 ([d0596cf](https://github.com/natura-cosmeticos/natds/commit/d0596cf5cc34b965dcf3eb572c5784c1e9d50ce8))
+* **deps:** update dependency fuzzy-search to v3.2.1 ([b59bbf6](https://github.com/natura-cosmeticos/natds/commit/b59bbf6c737bf77f2aa2362172c28f64c5f4fb5f))
+* **deps:** update react monorepo to v16.13.1 ([6d434d4](https://github.com/natura-cosmeticos/natds/commit/6d434d44a40cc43b2046197389ad5b9ba30f5ece))
+
+
+
+
+
 ## [0.6.10](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-docs@0.6.9...@naturacosmeticos/natds-docs@0.6.10) (2020-06-15)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-docs
