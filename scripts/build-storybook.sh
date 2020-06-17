@@ -11,8 +11,8 @@ VERSION=`cat package.json \
   | tr -d '[[:space:]]'n`
 
 if [ -z ${VERSION} ]; then
-  echo "Null release version! Ending script with error"
-  exit 1
+  echo "Null release version! Can not build Storybook."
+  exit 0
 fi
 
 yarn lerna run test:ci
@@ -40,6 +40,6 @@ cd ..
 cp -r ${TRAVIS_BUILD_DIR}/../tmp/v${VERSION} packages/docs/dist/releases
 
 git add --all
-git commit -m "Travis Commit: Generating docs for production versions ${VERSION}"
+git commit -m "docs: generating storybook for version ${VERSION} [skip ci]"
 
 git push -f -u origin master-docs
