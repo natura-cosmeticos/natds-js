@@ -16,10 +16,10 @@
   ],
   "private": true,
   "license": "ISC",
-  "homepage": "https://github.com/natura-cosmeticos/natds/packages/docs",
+  "homepage": "https://github.com/natura-cosmeticos/natds-js/packages/docs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/natura-cosmeticos/natds.git",
+    "url": "https://github.com/natura-cosmeticos/natds-js.git",
     "directory": "packages/docs"
   },
   "scripts": {
@@ -53,7 +53,7 @@
     "@storybook/react": "5.3.19",
     "@storybook/source-loader": "5.3.19",
     "@storybook/storybook-deployer": "2.8.6",
-    "@types/react": "16.9.36",
+    "@types/react": "16.9.38",
     "@types/react-dom": "16.9.8",
     "babel-loader": "8.1.0",
     "css-loader": "3.6.0",
@@ -74,7 +74,7 @@
     "yarn": "1.22.4"
   },
   "dependencies": {
-    "@material-ui/core": "4.9.5",
+    "@material-ui/core": "4.10.2",
     "@material-ui/icons": "4.5.1",
     "@naturacosmeticos/natds-icons": "^0.6.13",
     "@naturacosmeticos/natds-styles": "^0.6.13",
@@ -87,9 +87,9 @@
     "snyk": "^1.341.1"
   },
   "storybook-deployer": {
-    "gitUsername": "Vizir Software Studio",
-    "gitEmail": "contato@vizir.com.br",
-    "commitMessage": "Deploy NatDS Storybook to GitHub Pages"
+    "gitUsername": "Natura & Co.",
+    "gitEmail": "designsystem@natura.net",
+    "commitMessage": "docs(storybook): deploy storybook to GitHub Pages [skip ci]"
   },
   "snyk": true
 }

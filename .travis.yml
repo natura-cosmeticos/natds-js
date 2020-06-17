@@ -10,19 +10,27 @@ cache:
     - packages/web/node_modules
     - packages/styles/node_modules
     - packages/docs/node_modules
+  yarn:
+    true
 dist: xenial
 jobs:
   include:
     - stage: dependency-check
-      if: "branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
+      if: "NOT (branch = master) AND branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
       script: "yarn test"
     - stage: prerelease
-      if: "branch =~ /^DSY-(\\d+)$/"
-      script: "yarn prerelease $TRAVIS_BRANCH && yarn publish"
+      if: "NOT (branch = master) AND branch =~ /^DSY-(\\d+)$/"
+      before_script: "yarn config set _authToken ${NPM_AUTH_TOKEN} && npm config set '//registry.npmjs.org/:_authToken' \"${NPM_AUTH_TOKEN}\" && git checkout $TRAVIS_BRANCH"
+      script: "yarn prerelease:ci alpha-$TRAVIS_BRANCH && yarn lerna:publish:ci"
+      after_success:
     - stage: release
+      if: "branch = master AND NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_message =~ /^(.*)[skip ci]$/)"
+      before_deploy:
+        - "yarn config set _authToken ${NPM_AUTH_TOKEN} && npm config set '//registry.npmjs.org/:_authToken' \"${NPM_AUTH_TOKEN}\" && git checkout $TRAVIS_BRANCH"
       deploy:
         provider: script
-        script: "yarn release && yarn publish"
+        script: "yarn release:ci && yarn lerna:publish:ci && chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
+        skip_cleanup: true
         on:
           branch: master
 language: node_js
