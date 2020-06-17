@@ -1,8 +1,3 @@
-language: node_js
-
-node_js:
-  - 10.16.3
-
 cache:
   directories:
     - node_modules
@@ -10,24 +5,17 @@ cache:
     - packages/web/node_modules
     - packages/styles/node_modules
     - packages/docs/node_modules
-
-branches:
-  only:
-    - master
-    - /v\d+\.\d+\.\d+$/ # Milestone branch pattern for vM.m.p
-    - /^feature\/(.+)$/
-
 jobs:
   include:
-    - stage: Unit Tests
-      if: type = pull_request
-      script: yarn verify:ci
-    - stage: Bump Alpha Version
-      if: branch =~ /^v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
-      script: chmod +x scripts/bump-alpha-version.sh &&  scripts/bump-alpha-version.sh
-    - stage: Build Alpha Storybook Version
-      if: branch =~ /^v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
-      script: chmod +x scripts/build-pre-release.sh && scripts/build-pre-release.sh
-    - stage: Bump Production Version and Deploy to NPM
-      if: branch = master AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_mesage =~ /^(.*)CHANGELOG(.*)$/)
-      script: chmod +x scripts/bump-production-version.sh && scripts/bump-production-version.sh && chmod +x scripts/build-release.sh && scripts/build-release.sh
+    - stage: release
+      node_js: lts/*
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - yarn semantic-release
+        on:
+          all_branches: true
+language: node_js
+node_js:
+  - 10.21.0

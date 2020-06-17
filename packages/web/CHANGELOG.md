@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.13](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.12...@naturacosmeticos/natds-web@0.6.13) (2020-06-17)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.12](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.11...@naturacosmeticos/natds-web@0.6.12) (2020-06-17)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.11](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.10...@naturacosmeticos/natds-web@0.6.11) (2020-06-17)
+
+
+### Bug Fixes
+
+* **deps:** update dependency clsx to v1.1.1 ([22980af](https://github.com/natura-cosmeticos/natds-js/commit/22980afdc71844ea3a0778de8f5221c01fc31fd3))
+* **web:** update test snapshots ([ea79043](https://github.com/natura-cosmeticos/natds-js/commit/ea79043a47a3b620fbebe7cc78cc59c2affd8303))
+
+
+
+
+
 ## [0.6.10](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.9...@naturacosmeticos/natds-web@0.6.10) (2020-06-15)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web

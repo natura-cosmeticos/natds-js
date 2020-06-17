@@ -3,7 +3,7 @@
 exports[`Checkbox component rendering should match to snapshot - Checked: Checkbox checked snapshot 1`] = `
 <span
   aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-8 Mui-checked MuiIconButton-colorSecondary"
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorSecondary"
   onBlur={[Function]}
   onDragLeave={[Function]}
   onFocus={[Function]}
@@ -22,7 +22,7 @@ exports[`Checkbox component rendering should match to snapshot - Checked: Checkb
   >
     <input
       checked={true}
-      className="PrivateSwitchBase-input-10"
+      className="PrivateSwitchBase-input-4"
       data-indeterminate={false}
       disabled={false}
       onChange={[Function]}
@@ -46,7 +46,7 @@ exports[`Checkbox component rendering should match to snapshot - Checked: Checkb
 exports[`Checkbox component rendering should match to snapshot - Color: Checkbox color primary snapshot 1`] = `
 <span
   aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorPrimary MuiIconButton-colorPrimary"
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorPrimary MuiIconButton-colorPrimary"
   onBlur={[Function]}
   onDragLeave={[Function]}
   onFocus={[Function]}
@@ -64,7 +64,7 @@ exports[`Checkbox component rendering should match to snapshot - Color: Checkbox
     className="MuiIconButton-label"
   >
     <input
-      className="PrivateSwitchBase-input-10"
+      className="PrivateSwitchBase-input-4"
       data-indeterminate={false}
       disabled={false}
       onChange={[Function]}
@@ -91,7 +91,7 @@ exports[`Checkbox component rendering should match to snapshot - Color: Checkbox
 exports[`Checkbox component rendering should match to snapshot - Default: Checkbox default snapshot 1`] = `
 <span
   aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary MuiIconButton-colorSecondary"
   onBlur={[Function]}
   onDragLeave={[Function]}
   onFocus={[Function]}
@@ -109,7 +109,7 @@ exports[`Checkbox component rendering should match to snapshot - Default: Checkb
     className="MuiIconButton-label"
   >
     <input
-      className="PrivateSwitchBase-input-10"
+      className="PrivateSwitchBase-input-4"
       data-indeterminate={false}
       disabled={false}
       onChange={[Function]}
@@ -133,7 +133,7 @@ exports[`Checkbox component rendering should match to snapshot - Default: Checkb
 exports[`Checkbox component rendering should match to snapshot - Disabled: Checkbox disabled snapshot 1`] = `
 <span
   aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-7 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-8 Mui-checked MuiIconButton-colorSecondary"
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiCheckbox-root MuiCheckbox-colorSecondary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorSecondary"
   onBlur={[Function]}
   onDragLeave={[Function]}
   onFocus={[Function]}
@@ -152,7 +152,7 @@ exports[`Checkbox component rendering should match to snapshot - Disabled: Check
   >
     <input
       checked={true}
-      className="PrivateSwitchBase-input-10"
+      className="PrivateSwitchBase-input-4"
       data-indeterminate={false}
       disabled={false}
       onChange={[Function]}
