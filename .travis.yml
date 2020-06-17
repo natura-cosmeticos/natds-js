@@ -22,25 +22,23 @@ cache:
     - packages/docs/node_modules
 jobs:
   include:
+    - stage: dependency-check
+        if: branch =~ /^dependabot\/(.+)$/ OR branch =~ /^renovate\/(.+)$/
+        script: echo "yarn verify:ci"
+    - stage: prerelease
+        if: branch =~ /^DSY-(\d+)$/ OR branch =~ /^feature\/(.+)$/ OR branch =~ /^hotfix\/(.+)$/
+        deploy:
+          provider: script
+          skip_cleanup: true
+          script:
+            - echo "yarn prerelease $TRAVIS_BRANCH && yarn publish"
     - stage: release
       if: branch = master AND type = push
       deploy:
         provider: script
         skip_cleanup: true
         script:
-          - echo "yarn release"
-          - echo "yarn publish"
-    - stage: prerelease
-      if: branch =~ /^DSY-(\d+)$/ OR branch =~ /^feature\/(.+)$/ OR branch =~ /^hotfix\/(.+)$/
-      deploy:
-        provider: script
-        skip_cleanup: true
-        script:
-          - echo "yarn prerelease"
-          - echo "yarn publish"
-    - stage: dependency-check
-      if: branch =~ /^dependabot\/(.+)$/ OR branch =~ /^renovate\/(.+)$/
-      script: echo "yarn verify:ci"
+          - echo "yarn release && yarn publish"
 language: node_js
 node_js:
   - lts/*
