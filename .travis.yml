@@ -15,7 +15,7 @@ jobs:
   include:
     - stage: dependency-check
       if: "branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
-      script: "echo \"yarn verify:ci\""
+      script: "echo \"yarn test\""
     - stage: prerelease
       if: "branch =~ /^DSY-(\\d+)$/"
       script: "echo \"yarn prerelease $TRAVIS_BRANCH && yarn publish\""
