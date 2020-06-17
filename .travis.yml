@@ -1,3 +1,18 @@
+# Branch patterns:
+#
+# dependabot: /^dependabot\/(.+)$/
+# docs:       /v\d+\.\d+\.\d+-docs$/
+# feature:    /^feature\/(.+)$/
+# hotfix:     /^hotfix\/(.+)$/
+# jira:       /^DSY-(\d+)$/
+# milestone:  /v\d+\.\d+\.\d+$/
+# renovate:   /^renovate\/(.+)$/
+# storybook:  master-docs
+
+branches:
+  except:
+    - /v\d+\.\d+\.\d+$/
+    - /v\d+\.\d+\.\d+-docs$/
 cache:
   directories:
     - node_modules
@@ -8,14 +23,25 @@ cache:
 jobs:
   include:
     - stage: release
-      node_js: lts/*
+      if: branch = master AND type = push
       deploy:
         provider: script
         skip_cleanup: true
         script:
-          - yarn semantic-release
-        on:
-          all_branches: true
+          - echo "yarn release"
+          - echo "yarn publish"
+    - stage: prerelease
+      if: branch =~ /^DSY-(\d+)$/ OR branch =~ /^feature\/(.+)$/ OR branch =~ /^hotfix\/(.+)$/
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - echo "yarn prerelease"
+          - echo "yarn publish"
+    - stage: dependency-check
+      if: branch =~ /^dependabot\/(.+)$/ OR branch =~ /^renovate\/(.+)$/
+      script: echo "yarn verify:ci"
 language: node_js
 node_js:
-  - 10.21.0
+  - lts/*
+
