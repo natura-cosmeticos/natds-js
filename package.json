@@ -1,7 +1,7 @@
 {
   "name": "natds",
   "displayName": "Root",
-  "version": "0.6.10",
+  "version": "0.6.11",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "ISC",
   "keywords": [
@@ -64,17 +64,19 @@
     ]
   },
   "devDependencies": {
-    "@stryker-mutator/core": "3.2.4",
-    "@stryker-mutator/javascript-mutator": "3.2.4",
-    "@stryker-mutator/jest-runner": "3.2.4",
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
+    "@stryker-mutator/core": "3.3.0",
+    "@stryker-mutator/javascript-mutator": "3.3.0",
+    "@stryker-mutator/jest-runner": "3.3.0",
     "commitizen": "4.1.2",
     "concurrently": "5.2.0",
     "cz-lerna-changelog": "2.0.2",
-    "husky": "3.1.0",
+    "husky": "4.2.5",
     "jest": "26.0.1",
     "lerna": "3.22.1",
     "netlify": "4.3.1",
-    "semantic-release": "15.14.0",
+    "semantic-release": "17.0.8",
     "shelljs": "0.8.4"
   },
   "config": {
@@ -83,6 +85,11 @@
     }
   },
   "dependencies": {
-    "glob": "7.1.4"
+    "glob": "7.1.6"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
