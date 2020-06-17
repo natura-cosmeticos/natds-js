@@ -64,6 +64,8 @@
     ]
   },
   "devDependencies": {
+    "@commitlint/cli": "8.3.5",
+    "@commitlint/config-conventional": "8.3.4",
     "@stryker-mutator/core": "3.3.0",
     "@stryker-mutator/javascript-mutator": "3.3.0",
     "@stryker-mutator/jest-runner": "3.3.0",
@@ -84,5 +86,10 @@
   },
   "dependencies": {
     "glob": "7.1.6"
+  },
+  "husky": {
+    "hooks": {
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+    }
   }
 }
