@@ -20,7 +20,6 @@ branches:
 jobs:
   include:
     - stage: Unit Tests
-      if: type = pull_request
       script: yarn verify:ci
     - stage: Bump Alpha Version
       if: branch =~ /^v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
