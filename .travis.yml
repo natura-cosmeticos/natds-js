@@ -18,12 +18,12 @@ jobs:
       script: "yarn test"
     - stage: prerelease
       if: "branch =~ /^DSY-(\\d+)$/"
-      script: "git checkout $TRAVIS_BRANCH && yarn prerelease:ci alpha-$TRAVIS_BRANCH && yarn publish:ci"
+      script: "git checkout $TRAVIS_BRANCH && yarn prerelease:ci alpha-$TRAVIS_BRANCH && yarn lerna:publish:ci"
     - stage: release
       if: "NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_message =~ /^(.*)[skip ci]$/)"
       deploy:
         provider: script
-        script: "git checkout $TRAVIS_BRANCH && yarn release:ci && yarn publish:ci && chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
+        script: "git checkout $TRAVIS_BRANCH && yarn release:ci && yarn lerna:publish:ci && chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
         skip_cleanup: true
         on:
           branch: master
