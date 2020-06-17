@@ -1,7 +1,9 @@
 {
   "lerna": "3.16.4",
   "packages": [
-    "packages/*"
+    "packages/icons",
+    "packages/styles",
+    "packages/web"
   ],
   "npmClient": "yarn",
   "useWorkspaces": true,
