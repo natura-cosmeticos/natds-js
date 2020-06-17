@@ -6,7 +6,7 @@ exports[`Switch component rendering should match to snapshot - Checked: Switch c
 >
   <span
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-13 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-checked-14 Mui-checked"
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-checked-2 Mui-checked"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}
@@ -25,7 +25,7 @@ exports[`Switch component rendering should match to snapshot - Checked: Switch c
     >
       <input
         checked={true}
-        className="PrivateSwitchBase-input-16 MuiSwitch-input"
+        className="PrivateSwitchBase-input-4 MuiSwitch-input"
         disabled={false}
         onChange={[Function]}
         type="checkbox"
@@ -47,7 +47,7 @@ exports[`Switch component rendering should match to snapshot - Color: Switch col
 >
   <span
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-13 MuiSwitch-switchBase MuiSwitch-colorPrimary"
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorPrimary"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}
@@ -65,7 +65,7 @@ exports[`Switch component rendering should match to snapshot - Color: Switch col
       className="MuiIconButton-label"
     >
       <input
-        className="PrivateSwitchBase-input-16 MuiSwitch-input"
+        className="PrivateSwitchBase-input-4 MuiSwitch-input"
         disabled={false}
         onChange={[Function]}
         type="checkbox"
@@ -90,7 +90,7 @@ exports[`Switch component rendering should match to snapshot - Default: Switch d
 >
   <span
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-13 MuiSwitch-switchBase MuiSwitch-colorSecondary"
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorSecondary"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}
@@ -108,7 +108,7 @@ exports[`Switch component rendering should match to snapshot - Default: Switch d
       className="MuiIconButton-label"
     >
       <input
-        className="PrivateSwitchBase-input-16 MuiSwitch-input"
+        className="PrivateSwitchBase-input-4 MuiSwitch-input"
         disabled={false}
         onChange={[Function]}
         type="checkbox"
@@ -130,7 +130,7 @@ exports[`Switch component rendering should match to snapshot - Disabled: Switch 
 >
   <span
     aria-disabled={false}
-    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-13 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-checked-14 Mui-checked"
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-checked-2 Mui-checked"
     onBlur={[Function]}
     onDragLeave={[Function]}
     onFocus={[Function]}
@@ -149,7 +149,7 @@ exports[`Switch component rendering should match to snapshot - Disabled: Switch 
     >
       <input
         checked={true}
-        className="PrivateSwitchBase-input-16 MuiSwitch-input"
+        className="PrivateSwitchBase-input-4 MuiSwitch-input"
         disabled={false}
         onChange={[Function]}
         type="checkbox"
