@@ -835,29 +835,29 @@ exports[`List components rendering variants should match to snapshot - with List
 exports[`List components rendering variants should match to snapshot - with ListSubheader: List with ListSubheader snapshot 1`] = `
 <WithTheme(ForwardRef)
   subheader={
-    <ForwardRef(WithTheme)
+    <WithTheme(ForwardRef)
       id="subheader"
     >
       Subheader
-    </ForwardRef(WithTheme)>
+    </WithTheme(ForwardRef)>
   }
 >
   <ForwardRef
     subheader={
-      <ForwardRef(WithTheme)
+      <WithTheme(ForwardRef)
         id="subheader"
       >
         Subheader
-      </ForwardRef(WithTheme)>
+      </WithTheme(ForwardRef)>
     }
   >
     <WithStyles(ForwardRef(List))
       subheader={
-        <ForwardRef(WithTheme)
+        <WithTheme(ForwardRef)
           id="subheader"
         >
           Subheader
-        </ForwardRef(WithTheme)>
+        </WithTheme(ForwardRef)>
       }
     >
       <ForwardRef(List)
@@ -870,11 +870,11 @@ exports[`List components rendering variants should match to snapshot - with List
           }
         }
         subheader={
-          <ForwardRef(WithTheme)
+          <WithTheme(ForwardRef)
             id="subheader"
           >
             Subheader
-          </ForwardRef(WithTheme)>
+          </WithTheme(ForwardRef)>
         }
       >
         <ul
