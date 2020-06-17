@@ -16,10 +16,10 @@
   ],
   "private": true,
   "license": "ISC",
-  "homepage": "https://github.com/natura-cosmeticos/natds/packages/docs",
+  "homepage": "https://github.com/natura-cosmeticos/natds-js/packages/docs",
   "repository": {
     "type": "git",
-    "url": "https://github.com/natura-cosmeticos/natds.git",
+    "url": "https://github.com/natura-cosmeticos/natds-js.git",
     "directory": "packages/docs"
   },
   "scripts": {
@@ -87,9 +87,9 @@
     "snyk": "^1.341.1"
   },
   "storybook-deployer": {
-    "gitUsername": "Vizir Software Studio",
-    "gitEmail": "contato@vizir.com.br",
-    "commitMessage": "Deploy NatDS Storybook to GitHub Pages"
+    "gitUsername": "Natura & Co.",
+    "gitEmail": "designsystem@natura.net",
+    "commitMessage": "docs(storybook): deploy storybook to GitHub Pages [skip ci]"
   },
   "snyk": true
 }
