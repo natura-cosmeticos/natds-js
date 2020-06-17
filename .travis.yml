@@ -20,6 +20,8 @@ jobs:
       deploy:
         provider: script
         script: "echo \"yarn prerelease $TRAVIS_BRANCH && yarn publish\""
+        on:
+          all_branches: true
       if: "branch =~ /^DSY-(\\d+)$/ OR branch =~ /^feature\\/(.+)$/ OR branch =~ /^hotfix\\/(.+)$/"
     - stage: release
       deploy:
