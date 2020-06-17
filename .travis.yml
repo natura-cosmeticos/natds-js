@@ -10,6 +10,8 @@ cache:
     - packages/web/node_modules
     - packages/styles/node_modules
     - packages/docs/node_modules
+  yarn:
+    true
 dist: xenial
 jobs:
   include:
@@ -18,9 +20,12 @@ jobs:
       script: "yarn test"
     - stage: prerelease
       if: "branch =~ /^DSY-(\\d+)$/"
+      before_script: echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
       script: "git checkout $TRAVIS_BRANCH && yarn prerelease:ci alpha-$TRAVIS_BRANCH && yarn lerna:publish:ci"
     - stage: release
       if: "NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_message =~ /^(.*)[skip ci]$/)"
+      before_deploy:
+        - echo "//registry.npmjs.org/:_authToken=\${NPM_TOKEN}" >> $HOME/.npmrc 2> /dev/null
       deploy:
         provider: script
         script: "git checkout $TRAVIS_BRANCH && yarn release:ci && yarn lerna:publish:ci && chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
