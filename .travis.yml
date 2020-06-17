@@ -16,14 +16,14 @@ dist: xenial
 jobs:
   include:
     - stage: dependency-check
-      if: "branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
+      if: "NOT (branch = master) AND branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
       script: "yarn test"
     - stage: prerelease
-      if: "branch =~ /^DSY-(\\d+)$/"
+      if: "NOT (branch = master) AND branch =~ /^DSY-(\\d+)$/"
       before_script: yarn config set _authToken ${NPM_AUTH_TOKEN} && npm config set '//registry.npmjs.org/:_authToken' "${NPM_AUTH_TOKEN}"
       script: "git checkout $TRAVIS_BRANCH && yarn prerelease:ci alpha-$TRAVIS_BRANCH && yarn lerna:publish:ci"
     - stage: release
-      if: "NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_message =~ /^(.*)[skip ci]$/)"
+      if: "branch = master AND NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_message =~ /^(.*)[skip ci]$/)"
       before_deploy:
         - yarn config set _authToken ${NPM_AUTH_TOKEN} && npm config set '//registry.npmjs.org/:_authToken' "${NPM_AUTH_TOKEN}"
       deploy:
