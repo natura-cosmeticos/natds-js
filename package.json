@@ -37,6 +37,7 @@
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo",
     "stryker:run": "stryker run",
+    "test": "yarn run verify:ci",
     "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons",
     "verify": "yarn build:libs && yarn lerna run verify --stream",
     "verify:ci": "yarn build:libs && yarn lerna run verify:ci --stream",

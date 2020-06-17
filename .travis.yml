@@ -1,8 +1,18 @@
-language: node_js
+# Branch patterns:
+#
+# dependabot: /^dependabot\/(.+)$/
+# docs:       /v\d+\.\d+\.\d+-docs$/
+# feature:    /^feature\/(.+)$/
+# hotfix:     /^hotfix\/(.+)$/
+# jira:       /^DSY-(\d+)$/
+# milestone:  /v\d+\.\d+\.\d+$/
+# renovate:   /^renovate\/(.+)$/
+# storybook:  master-docs
 
-node_js:
-  - 10.21.0
-
+branches:
+  except:
+    - /v\d+\.\d+\.\d+$/
+    - /v\d+\.\d+\.\d+-docs$/
 cache:
   directories:
     - node_modules
@@ -10,23 +20,27 @@ cache:
     - packages/web/node_modules
     - packages/styles/node_modules
     - packages/docs/node_modules
-
-branches:
-  only:
-    - master
-    - /v\d+\.\d+\.\d+$/ # Milestone branch pattern for vM.m.p
-    - /^feature\/(.+)$/
-
 jobs:
   include:
-    - stage: Unit Tests
-      script: yarn verify:ci
-    - stage: Bump Alpha Version
-      if: branch =~ /^v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
-      script: chmod +x scripts/bump-alpha-version.sh &&  scripts/bump-alpha-version.sh
-    - stage: Build Alpha Storybook Version
-      if: branch =~ /^v\d+\.\d+\.\d+$/ AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/)
-      script: chmod +x scripts/build-pre-release.sh && scripts/build-pre-release.sh
-    - stage: Bump Production Version and Deploy to NPM
-      if: branch = master AND type = push AND NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_mesage =~ /^(.*)CHANGELOG(.*)$/)
-      script: chmod +x scripts/bump-production-version.sh && scripts/bump-production-version.sh && chmod +x scripts/build-release.sh && scripts/build-release.sh
+    - stage: dependency-check
+        if: branch =~ /^dependabot\/(.+)$/ OR branch =~ /^renovate\/(.+)$/
+        script: echo "yarn verify:ci"
+    - stage: prerelease
+        if: branch =~ /^DSY-(\d+)$/ OR branch =~ /^feature\/(.+)$/ OR branch =~ /^hotfix\/(.+)$/
+        deploy:
+          provider: script
+          skip_cleanup: true
+          script:
+            - echo "yarn prerelease $TRAVIS_BRANCH && yarn publish"
+    - stage: release
+      deploy:
+        provider: script
+        skip_cleanup: true
+        script:
+          - echo "yarn release && yarn publish"
+        on:
+          branch: master
+language: node_js
+node_js:
+  - lts/*
+
