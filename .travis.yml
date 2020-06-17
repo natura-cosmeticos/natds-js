@@ -18,11 +18,11 @@ jobs:
       script: "yarn test"
     - stage: prerelease
       if: "branch =~ /^DSY-(\\d+)$/"
-      script: "yarn prerelease $TRAVIS_BRANCH && yarn publish"
+      script: "git checkout $TRAVIS_BRANCH && yarn prerelease $TRAVIS_BRANCH && yarn publish"
     - stage: release
       deploy:
         provider: script
-        script: "yarn release && yarn publish"
+        script: "git checkout $TRAVIS_BRANCH && yarn release && yarn publish"
         skip_cleanup: true
         on:
           branch: master
