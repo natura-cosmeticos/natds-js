@@ -20,11 +20,11 @@ jobs:
       if: "branch =~ /^DSY-(\\d+)$/"
       script: "git checkout $TRAVIS_BRANCH && yarn prerelease alpha-$TRAVIS_BRANCH && yarn publish:ci"
     - stage: release
-      if: "NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_message =~ /^(.*)[skip ci]$/"
+      if: "NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_message =~ /^(.*)[skip ci]$/)"
       deploy:
         provider: script
         script: "git checkout $TRAVIS_BRANCH && yarn release && yarn publish:ci && chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
-        skip_cleanup: true
+        cleanup: false
         on:
           branch: master
 language: node_js
