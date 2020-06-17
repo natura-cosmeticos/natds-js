@@ -10,26 +10,22 @@ cache:
     - packages/web/node_modules
     - packages/styles/node_modules
     - packages/docs/node_modules
+dist: xenial
 jobs:
   include:
     - stage: dependency-check
       if: "branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
       script: "echo \"yarn verify:ci\""
     - stage: prerelease
-      deploy:
-        provider: script
-        script:
-          - "echo \"yarn prerelease $TRAVIS_BRANCH && yarn publish\""
-        skip_cleanup: true
-      if: "branch =~ /^DSY-(\\d+)$/ OR branch =~ /^feature\\/(.+)$/ OR branch =~ /^hotfix\\/(.+)$/"
+      if: "branch =~ /^DSY-(\\d+)$/"
+      script: "echo \"yarn prerelease $TRAVIS_BRANCH && yarn publish\""
     - stage: release
       deploy:
         provider: script
-        script:
-          - "echo \"yarn release && yarn publish\""
-        skip_cleanup: true
-        true:
+        script: "echo \"yarn release && yarn publish\""
+        on:
           branch: master
 language: node_js
 node_js:
   - lts/*
+os: linux
