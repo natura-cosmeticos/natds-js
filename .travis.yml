@@ -23,6 +23,7 @@ jobs:
       deploy:
         provider: script
         script: "yarn release && yarn publish"
+        skip_cleanup: true
         on:
           branch: master
 language: node_js
