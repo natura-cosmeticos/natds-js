@@ -33,12 +33,13 @@ jobs:
           script:
             - echo "yarn prerelease $TRAVIS_BRANCH && yarn publish"
     - stage: release
-      if: branch = master
       deploy:
         provider: script
         skip_cleanup: true
         script:
           - echo "yarn release && yarn publish"
+        on:
+          branch: master
 language: node_js
 node_js:
   - lts/*
