@@ -3,7 +3,7 @@
 exports[`Radio component rendering should match to snapshot - Checked: Radio checked snapshot 1`] = `
 <span
   aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-7 Mui-checked MuiIconButton-colorSecondary"
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorSecondary"
   onBlur={[Function]}
   onDragLeave={[Function]}
   onFocus={[Function]}
@@ -22,13 +22,13 @@ exports[`Radio component rendering should match to snapshot - Checked: Radio che
   >
     <input
       checked={true}
-      className="PrivateSwitchBase-input-9"
+      className="PrivateSwitchBase-input-4"
       disabled={false}
       onChange={[Function]}
       type="radio"
     />
     <div
-      className="PrivateRadioButtonIcon-root-22 PrivateRadioButtonIcon-checked-24"
+      className="PrivateRadioButtonIcon-root-5 PrivateRadioButtonIcon-checked-7"
     >
       <svg
         aria-hidden="true"
@@ -43,7 +43,7 @@ exports[`Radio component rendering should match to snapshot - Checked: Radio che
       </svg>
       <svg
         aria-hidden="true"
-        className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-23"
+        className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
         focusable="false"
         role="presentation"
         viewBox="0 0 24 24"
@@ -60,7 +60,7 @@ exports[`Radio component rendering should match to snapshot - Checked: Radio che
 exports[`Radio component rendering should match to snapshot - Color: Radio color primary snapshot 1`] = `
 <span
   aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
   onBlur={[Function]}
   onDragLeave={[Function]}
   onFocus={[Function]}
@@ -78,13 +78,13 @@ exports[`Radio component rendering should match to snapshot - Color: Radio color
     className="MuiIconButton-label"
   >
     <input
-      className="PrivateSwitchBase-input-9"
+      className="PrivateSwitchBase-input-4"
       disabled={false}
       onChange={[Function]}
       type="radio"
     />
     <div
-      className="PrivateRadioButtonIcon-root-22"
+      className="PrivateRadioButtonIcon-root-5"
     >
       <svg
         aria-hidden="true"
@@ -99,7 +99,7 @@ exports[`Radio component rendering should match to snapshot - Color: Radio color
       </svg>
       <svg
         aria-hidden="true"
-        className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-23"
+        className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
         focusable="false"
         role="presentation"
         viewBox="0 0 24 24"
@@ -119,7 +119,7 @@ exports[`Radio component rendering should match to snapshot - Color: Radio color
 exports[`Radio component rendering should match to snapshot - Default: Radio default snapshot 1`] = `
 <span
   aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
   onBlur={[Function]}
   onDragLeave={[Function]}
   onFocus={[Function]}
@@ -137,13 +137,13 @@ exports[`Radio component rendering should match to snapshot - Default: Radio def
     className="MuiIconButton-label"
   >
     <input
-      className="PrivateSwitchBase-input-9"
+      className="PrivateSwitchBase-input-4"
       disabled={false}
       onChange={[Function]}
       type="radio"
     />
     <div
-      className="PrivateRadioButtonIcon-root-22"
+      className="PrivateRadioButtonIcon-root-5"
     >
       <svg
         aria-hidden="true"
@@ -158,7 +158,7 @@ exports[`Radio component rendering should match to snapshot - Default: Radio def
       </svg>
       <svg
         aria-hidden="true"
-        className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-23"
+        className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
         focusable="false"
         role="presentation"
         viewBox="0 0 24 24"
@@ -175,7 +175,7 @@ exports[`Radio component rendering should match to snapshot - Default: Radio def
 exports[`Radio component rendering should match to snapshot - Disabled: Radio disabled snapshot 1`] = `
 <span
   aria-disabled={false}
-  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-6 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-7 Mui-checked MuiIconButton-colorSecondary"
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-2 Mui-checked MuiIconButton-colorSecondary"
   onBlur={[Function]}
   onDragLeave={[Function]}
   onFocus={[Function]}
@@ -194,13 +194,13 @@ exports[`Radio component rendering should match to snapshot - Disabled: Radio di
   >
     <input
       checked={true}
-      className="PrivateSwitchBase-input-9"
+      className="PrivateSwitchBase-input-4"
       disabled={false}
       onChange={[Function]}
       type="radio"
     />
     <div
-      className="PrivateRadioButtonIcon-root-22 PrivateRadioButtonIcon-checked-24"
+      className="PrivateRadioButtonIcon-root-5 PrivateRadioButtonIcon-checked-7"
     >
       <svg
         aria-hidden="true"
@@ -215,7 +215,7 @@ exports[`Radio component rendering should match to snapshot - Disabled: Radio di
       </svg>
       <svg
         aria-hidden="true"
-        className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-23"
+        className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
         focusable="false"
         role="presentation"
         viewBox="0 0 24 24"
