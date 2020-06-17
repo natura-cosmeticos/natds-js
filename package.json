@@ -35,6 +35,7 @@
     "release": "lerna version --conventional-commits",
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
+    "semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo",
     "stryker:run": "stryker run",
     "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons",
     "verify": "yarn build:libs && yarn lerna run verify --stream",
