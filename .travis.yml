@@ -7,8 +7,6 @@ cache:
     - packages/docs/node_modules
 jobs:
   include:
-    - stage: Sanity Check
-      script: yarn verify:ci
     - stage: release
       node_js: lts/*
       deploy:
