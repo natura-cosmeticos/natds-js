@@ -1,0 +1,157 @@
+import { Provider, themes } from '@naturacosmeticos/natds-web';
+import ComponentWithLabel from '../../../addons/ComponentWithLabel';
+import {
+  tabContainerVariant,
+  tabContainerTextColor,
+  tabContainerIndicatorColor,
+  tabContainerAttribute,
+  tabItemAttribute,
+} from './sections';
+
+# AppBar
+
+---
+
+---
+
+## TabContainer
+
+---
+
+### Variant
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={tabContainerVariant} />
+</Provider>
+
+---
+
+### TextColor
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={tabContainerTextColor} />
+</Provider>
+
+---
+
+### IndicatorColor
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={tabContainerIndicatorColor} />
+</Provider>
+
+---
+
+### Attribute
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={tabContainerAttribute} />
+</Provider>
+
+---
+
+---
+
+## TabItem
+
+---
+
+### Attribute
+
+<Provider theme={themes.natura.light}>
+  <ComponentWithLabel componentList={tabItemAttribute} />
+</Provider>
+
+---
+
+---
+
+## API
+
+```jsx highlight-line="2"
+import { AppBar, TabContainer, TabItem } from '@naturacosmeticos/natds-web';
+import { makeStyles } from '@material-ui/core/styles';
+
+function a11yProps(index: any) {
+  return {
+    id: `simple-tab-${index}`,
+    'aria-controls': `simple-tabpanel-${index}`,
+  };
+}
+
+const AppBarWrapper = () => {
+  const useStyles = makeStyles(theme => ({
+    root: {
+      flexGrow: 1,
+      backgroundColor: theme.palette.background.paper,
+    },
+  }));
+
+  const classes = useStyles();
+  const [value, setValue] = React.useState(0);
+
+  const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
+    setValue(newValue);
+  };
+
+  return (
+    <div className={classes.root}>
+      <AppBar position="static" color="inherit">
+        <TabContainer
+          value={value}
+          onChange={handleChange}
+          textColor="inherit"
+          indicatorColor="secondary"
+        >
+          <TabItem label="Item One" {...a11yProps(0)} />
+          <TabItem label="Item Two" {...a11yProps(1)} />
+          <TabItem label="Item Three" {...a11yProps(2)} />
+        </TabContainer>
+      </AppBar>
+    </div>
+  );
+};
+```
+
+For more advanced usages, check [Material UI Tab docs](https://material-ui.com/pt/components/tabs/).
+
+---
+
+---
+
+## TabContainer Props
+
+| Name                  | Type                                  | Default         | Description                                                                                                                         |
+| --------------------- | ------------------------------------- | --------------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| action                | ref                                   |                 | Callback fired when the component mounts.                                                                                           |
+| centered              | bool                                  | false           | If true, the tabs will be centered. This property is intended for large views.                                                      |
+| children              | node                                  |                 | The content of the component.                                                                                                       |
+| classes               | object                                |                 | Override or extend the styles applied to the component. See [CSS API](https://material-ui.com/pt/api/switch/#css) for more details. |
+| component             | elementType                           | 'div'           | The component used for the root node. Either a string to use a DOM element or a component.                                          |
+| indicatorColor        | 'secondary', 'primary'                | 'secondary'     | Determines the color of the indicator.                                                                                              |
+| onChange              | func                                  |                 | Callback fired when the value changes.                                                                                              |
+| orientation           | 'horizontal', 'vertical'              | 'horizontal'    | The tabs orientation (layout flow direction).                                                                                       |
+| ScrollButtonComponent | elementType                           | TabScrollButton | The component used to render the scroll buttons.                                                                                    |
+| scrollButtons         | 'auto', 'desktop', 'on', 'off'        | 'auto'          | Determine behavior of scroll buttons when tabs are set to scroll.                                                                   |
+| TabIndicatorProps     | object                                | {}              | Props applied to the tab indicator element.                                                                                         |
+| textColor             | 'secondary', 'primary', 'inherit'     | 'inherit'       | Determines the color of the Tab.                                                                                                    |
+| value                 | any                                   |                 | The value of the currently selected Tab. If you don't want any selected Tab, you can set this property to false.                    |
+| variant               | 'standard', 'scrollable', 'fullWidth' | 'standard'      | Determines additional display behavior of the tabs.                                                                                 |
+
+---
+
+---
+
+## TabItem Props
+
+| Name               | Type            | Default | Description                                                                                                                         |
+| ------------------ | --------------- | ------- | ----------------------------------------------------------------------------------------------------------------------------------- |
+| children           | unsupportedProp |         | This prop isn't supported. Use the component prop if you need to change the children structure.                                     |
+| classes            | object          |         | Override or extend the styles applied to the component. See [CSS API](https://material-ui.com/pt/api/switch/#css) for more details. |
+| disabled           | bool            | false   | If true, the tab will be disabled.                                                                                                  |
+| disableFocusRipple | bool            | false   | If true, the keyboard focus ripple will be disabled. disableRipple must also be true.                                               |
+| disableRipple      | bool            |         | If true, the ripple effect will be disabled.                                                                                        |
+| icon               | node            |         | The icon element.                                                                                                                   |
+| label              | node            |         | The label element.                                                                                                                  |
+| value              | any             |         | You can provide your own value. Otherwise, we fallback to the child position index.                                                 |
+| wrapped            | bool            | false   | Tab labels appear in a single row. They can use a second line if needed.                                                            |

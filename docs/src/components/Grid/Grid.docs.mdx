@@ -1,0 +1,82 @@
+import { GridContainer, GridItem, Provider, themes } from '@naturacosmeticos/natds-web';
+import { withTheme } from '../../../addons/theme/provider';
+
+# Grid
+
+---
+---
+
+## Breakpoints
+
+<br />
+
+### md max-width 1180px
+<Provider theme={themes.natura.light}>
+  <div style={{ padding: '20px 10px 40px' }}>
+    <GridContainer spacing={3} style={{ maxWidth: "1180px", background: '#ffe5e5' }}>
+      <GridItem md={12}>
+        <div style={{ backgroundColor: '#fff', textAlign: 'center'}}>md</div>
+      </GridItem>
+    </GridContainer>
+  </div>
+</Provider>
+
+### sm max-width 960px
+<Provider theme={themes.natura.light}>
+  <div style={{ padding: '20px 10px 40px' }}>
+    <GridContainer spacing={3} style={{ maxWidth: "760px", background: '#ffe5e5' }}>
+      <GridItem sm={12}>
+        <div style={{ backgroundColor: '#fff', textAlign: 'center'}}>sm</div>
+      </GridItem>
+    </GridContainer>
+  </div>
+</Provider>
+
+### xs max-width 600px
+<Provider theme={themes.natura.light}>
+  <div style={{ padding: '20px 10px 40px' }}>
+    <GridContainer spacing={3} style={{ maxWidth: "600px", background: '#ffe5e5' }}>
+      <GridItem xs={12}>
+        <div style={{ backgroundColor: '#fff', textAlign: 'center'}}>xs</div>
+      </GridItem>
+    </GridContainer>
+  </div>
+</Provider>
+
+---
+---
+
+## API
+
+```jsx highlight-line="2"
+<GridContainer>
+  <GridItem md={12}>
+    Children
+  </GridItem>
+  <GridItem md={6}>
+    Children
+  </GridItem>
+  <GridItem md={6}>
+    Children
+  </GridItem>
+</GridContainer>
+```
+
+---
+---
+
+#### GridContainer
+| Name      | Type                                                        | Default   | Description
+| :--       | :-:                                                         | :-:       | :-:
+| spacing   | 0 \| 1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7 \| 8 \| 9 \| 10        |  0        | Defines the space between the type item component.
+
+#### GridItem
+| Name        | Type                                                                                        | Default       | Description
+| :--         | :-:                                                                                         | :-:           | :-:
+| xl          | false \| 'auto' \| true \| 1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7 \| 8 \| 9 \| 10 \| 11 \| 12      | false         | Defines the number of grids the component is going to use.
+| lg          | false \| 'auto' \| true \| 1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7 \| 8 \| 9 \| 10 \| 11 \| 12      | false         | Defines the number of grids the component is going to use.
+| md          | false \| 'auto' \| true \| 1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7 \| 8 \| 9 \| 10 \| 11 \| 12      | false         | Defines the number of grids the component is going to use.
+| sm          | false \| 'auto' \| true \| 1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7 \| 8 \| 9 \| 10 \| 11 \| 12      | false         | Defines the number of grids the component is going to use.
+| xs          | false \| 'auto' \| true \| 1 \| 2 \| 3 \| 4 \| 5 \| 6 \| 7 \| 8 \| 9 \| 10 \| 11 \| 12      | false         | Defines the number of grids the component is going to use.
+
+For more details consult the full [Material Grid API](https://material-ui.com/api/grid/)

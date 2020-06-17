@@ -1,0 +1,51 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+import ComponentWithLabel from '../../addons/ComponentWithLabel';
+
+# README
+
+---
+---
+
+## How to apply a theme
+---
+---
+
+When using any of the components, you must enclose them in a Provider component as follows:
+
+```jsx highlight-line="2"
+import { Provider, Button, themes } from '@naturacosmeticos/natds-web';
+
+const MyAwesomeComponent = (props) => (
+  <Provider theme={themes.natura.light}>
+    <Button>CLICK ME!</Button>
+  </Provider>
+);
+
+```
+
+## Customizing a theme
+---
+---
+
+```jsx highlight-line="2"
+import { Provider, Button, themes } from '@naturacosmeticos/natds-web';
+
+const { natura: { light } } = themes;
+
+const myAwesomeTheme = {
+  ...light,
+  palette: {
+    ...light.palette,
+    primary: {
+      ...light.palette.primary,
+      main: '#123456'
+    }
+  }
+}
+
+const MyAwesomeComponent = (props) => (
+  <Provider theme={myAwesomeTheme}>
+    <Button>CLICK ME!</Button>
+  </Provider>
+);
+```

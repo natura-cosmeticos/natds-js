@@ -1,0 +1,58 @@
+# Menu
+
+---
+
+---
+
+---
+
+---
+
+## API
+
+```jsx highlight-line="2"
+import { Menu, MenuItem } from '@naturacosmeticos/natds-web';
+
+<Menu anchorEl={elementRef} open={true}>
+  <MenuItem>Item 1</MenuItem>
+  <MenuItem>Item 2</MenuItem>
+</Menu>;
+```
+
+For more advanced usages, check [Material UI Menu docs](https://material-ui.com/components/Menus/)
+
+---
+
+---
+
+## Menu Props
+
+| Name                 |                         Type                          | Default |                                                                                                                                                  Description                                                                                                                                                  |
+| :------------------- | :---------------------------------------------------: | :-----: | :-----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------: |
+| anchorEl             |                    object \| func                     |         |                                                                                                                             The DOM element used to set the position of the menu.                                                                                                                             |
+| autoFocus            |                         bool                          |  true   | If true (Default) will focus the [role="menu"] if no focusable child is found. Disabled children are not focusable. If you set this prop to false focus will be placed on the parent modal container. This has severe accessibility implications and should only be considered if you manage focus otherwise. |
+| children             |                         node                          |         |                                                                                                                                      Menu contents, normally MenuItems.                                                                                                                                       |
+| classes              |                        object                         |         |                                                                                      Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/menu/#css) for more details.                                                                                       |
+| disableAutoFocusItem |                         bool                          |  false  |                          When opening the menu will not focus the active item but the [role="menu"] unless autoFocus is also set to false. Not using the default means not following WAI-ARIA authoring practices. Please be considerate about possible accessibility implications.                           |
+| MenuListProps        |                        object                         |   {}    |                                                                                                                                    Props applied to the MenuList element.                                                                                                                                     |
+| onClose              |                         func                          |         |                                      Callback fired when the component requests to be closed. Signature: function(event: object, reason: string) => void \| event: The event source of the callback. \| reason: Can be: "escapeKeyDown", "backdropClick", "tabKeyDown".                                       |
+| onEnter              |                         func                          |         |                                                                                                                                    Callback fired before the Menu enters.                                                                                                                                     |
+| onEntered            |                         func                          |         |                                                                                                                                   Callback fired when the Menu has entered.                                                                                                                                   |
+| onEntering           |                         func                          |         |                                                                                                                                   Callback fired when the Menu is entering.                                                                                                                                   |
+| onExit               |                         func                          |         |                                                                                                                                     Callback fired before the Menu exits.                                                                                                                                     |
+| onExited             |                         func                          |         |                                                                                                                                   Callback fired when the Menu has exited.                                                                                                                                    |
+| onExiting            |                         func                          |         |                                                                                                                                   Callback fired when the Menu is exiting.                                                                                                                                    |
+| open \*              |                         bool                          |         |                                                                                                                                         If true, the menu is visible.                                                                                                                                         |
+| PopoverClasses       |                        object                         |         |                                                                                                                                 classes prop applied to the Popover element.                                                                                                                                  |
+| transitionDuration   | number \| { enter?: number, exit?: number } \| 'auto' | number  |                                                                                                                                 The length of the transition in ms, or 'auto'                                                                                                                                 |
+| variant              |               'menu' \| 'selectedMenu'                | number  |                                                                              The variant to use. Use menu to prevent selected items from impacting the initial focus and the vertical alignment relative to the anchor element.                                                                               |
+
+## MenuItem Props
+
+| Name           |    Type     | Default |                                                               Description                                                               |
+| :------------- | :---------: | :-----: | :-------------------------------------------------------------------------------------------------------------------------------------: |
+| children       |    node     |         |                                                           Menu item contents.                                                           |
+| classes        |   object    |         | Override or extend the styles applied to the component. See the [CSS API](https://material-ui.com/api/menu-item/#css) for more details. |
+| component      | elementType |  'li'   |                       The component used for the root node. Either a string to use a DOM element or a component.                        |
+| dense          |    bool     |         |                          If true, compact vertical padding designed for keyboard and mouse input will be used.                          |
+| disableGutters |    bool     |  false  |                                             If true, the left and right padding is removed.                                             |
