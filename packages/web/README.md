@@ -45,6 +45,8 @@ If your project does not meet the minimum requirements, you can use [@naturacosm
 
 ## How to use
 
+The use of `<Provider />` is essential for your application to apply styles correctly.
+
 ```jsx highlight-line="3"
 import React from "react"
 import { Button, Provider, themes } from "@naturacosmeticos/natds-web"
