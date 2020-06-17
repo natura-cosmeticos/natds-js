@@ -24,7 +24,7 @@ jobs:
       deploy:
         provider: script
         script: "git checkout $TRAVIS_BRANCH && yarn release && yarn publish:ci && chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
-        cleanup: false
+        skip_cleanup: true
         on:
           branch: master
 language: node_js
