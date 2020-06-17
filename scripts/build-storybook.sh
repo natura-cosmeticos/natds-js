@@ -21,7 +21,7 @@ cd $TRAVIS_BUILD_DIR
 
 mkdir -p ../tmp
 
-cd $TRAVIS_BUILD_DIR/packages/docs
+cd $TRAVIS_BUILD_DIR/docs
 
 yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
 
@@ -37,7 +37,7 @@ node helpers/addVersionOnConfig.js $VERSION
 
 cd ..
 
-cp -r ${TRAVIS_BUILD_DIR}/../tmp/v${VERSION} packages/docs/dist/releases
+cp -r ${TRAVIS_BUILD_DIR}/../tmp/v${VERSION} docs/dist/releases
 
 git add --all
 git commit -m "docs: generating storybook for version ${VERSION} [skip ci]"
