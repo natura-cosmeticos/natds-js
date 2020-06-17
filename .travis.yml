@@ -1,14 +1,4 @@
-# Branch patterns:
-#
-# dependabot: /^dependabot\/(.+)$/
-# docs:       /v\d+\.\d+\.\d+-docs$/
-# feature:    /^feature\/(.+)$/
-# hotfix:     /^hotfix\/(.+)$/
-# jira:       /^DSY-(\d+)$/
-# milestone:  /v\d+\.\d+\.\d+$/
-# renovate:   /^renovate\/(.+)$/
-# storybook:  master-docs
-
+---
 branches:
   except:
     - /v\d+\.\d+\.\d+$/
@@ -23,24 +13,23 @@ cache:
 jobs:
   include:
     - stage: dependency-check
-        if: branch =~ /^dependabot\/(.+)$/ OR branch =~ /^renovate\/(.+)$/
-        script: echo "yarn verify:ci"
+      if: "branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
+      script: "echo \"yarn verify:ci\""
     - stage: prerelease
-        if: branch =~ /^DSY-(\d+)$/ OR branch =~ /^feature\/(.+)$/ OR branch =~ /^hotfix\/(.+)$/
-        deploy:
-          provider: script
-          skip_cleanup: true
-          script:
-            - echo "yarn prerelease $TRAVIS_BRANCH && yarn publish"
+      deploy:
+        provider: script
+        script:
+          - "echo \"yarn prerelease $TRAVIS_BRANCH && yarn publish\""
+        skip_cleanup: true
+      if: "branch =~ /^DSY-(\\d+)$/ OR branch =~ /^feature\\/(.+)$/ OR branch =~ /^hotfix\\/(.+)$/"
     - stage: release
       deploy:
         provider: script
-        skip_cleanup: true
         script:
-          - echo "yarn release && yarn publish"
-        on:
+          - "echo \"yarn release && yarn publish\""
+        skip_cleanup: true
+        true:
           branch: master
 language: node_js
 node_js:
   - lts/*
-
