@@ -10,6 +10,7 @@ cache:
     - packages/web/node_modules
     - packages/styles/node_modules
     - packages/docs/node_modules
+dist: xenial
 jobs:
   include:
     - stage: dependency-check
@@ -18,18 +19,15 @@ jobs:
     - stage: prerelease
       deploy:
         provider: script
-        script:
-          - "echo \"yarn prerelease $TRAVIS_BRANCH && yarn publish\""
-        skip_cleanup: true
+        script: "echo \"yarn prerelease $TRAVIS_BRANCH && yarn publish\""
       if: "branch =~ /^DSY-(\\d+)$/ OR branch =~ /^feature\\/(.+)$/ OR branch =~ /^hotfix\\/(.+)$/"
     - stage: release
       deploy:
         provider: script
-        script:
-          - "echo \"yarn release && yarn publish\""
-        skip_cleanup: true
-        true:
+        script: "echo \"yarn release && yarn publish\""
+        on:
           branch: master
 language: node_js
 node_js:
   - lts/*
+os: linux
