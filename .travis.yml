@@ -33,7 +33,7 @@ jobs:
           script:
             - echo "yarn prerelease $TRAVIS_BRANCH && yarn publish"
     - stage: release
-      if: branch = master AND type = push
+      if: branch = master
       deploy:
         provider: script
         skip_cleanup: true
