@@ -15,18 +15,14 @@ jobs:
   include:
     - stage: dependency-check
       if: "branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
-      script: "echo \"yarn verify:ci\""
+      script: "yarn test"
     - stage: prerelease
-      deploy:
-        provider: script
-        script: "echo \"yarn prerelease $TRAVIS_BRANCH && yarn publish\""
-        on:
-          all_branches: true
-      if: "branch =~ /^DSY-(\\d+)$/ OR branch =~ /^feature\\/(.+)$/ OR branch =~ /^hotfix\\/(.+)$/"
+      if: "branch =~ /^DSY-(\\d+)$/"
+      script: "yarn prerelease $TRAVIS_BRANCH && yarn publish"
     - stage: release
       deploy:
         provider: script
-        script: "echo \"yarn release && yarn publish\""
+        script: "yarn release && yarn publish"
         on:
           branch: master
 language: node_js
