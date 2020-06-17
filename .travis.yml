@@ -20,12 +20,12 @@ jobs:
       script: "yarn test"
     - stage: prerelease
       if: "branch =~ /^DSY-(\\d+)$/"
-      before_script: npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+      before_script: yarn config set _authToken ${NPM_AUTH_TOKEN}
       script: "git checkout $TRAVIS_BRANCH && yarn prerelease:ci alpha-$TRAVIS_BRANCH && yarn lerna:publish:ci"
     - stage: release
       if: "NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_message =~ /^(.*)[skip ci]$/)"
       before_deploy:
-        - npm config set '//registry.npmjs.org/:_authToken' "${NPM_TOKEN}"
+        - yarn config set _authToken ${NPM_AUTH_TOKEN}
       deploy:
         provider: script
         script: "git checkout $TRAVIS_BRANCH && yarn release:ci && yarn lerna:publish:ci && chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
