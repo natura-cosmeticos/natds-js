@@ -1,7 +1,8 @@
 {
   "command": {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "message": "chore(release): publish %s [skip ci]"
     }
   },
   "lerna": "3.16.4",
