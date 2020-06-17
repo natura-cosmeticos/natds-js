@@ -15,14 +15,14 @@ jobs:
   include:
     - stage: dependency-check
       if: "branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
-      script: "echo \"yarn verify:ci\""
+      script: "yarn test"
     - stage: prerelease
       if: "branch =~ /^DSY-(\\d+)$/"
-      script: "echo \"yarn prerelease $TRAVIS_BRANCH && yarn publish\""
+      script: "yarn prerelease $TRAVIS_BRANCH && yarn publish"
     - stage: release
       deploy:
         provider: script
-        script: "echo \"yarn release && yarn publish\""
+        script: "yarn release && yarn publish"
         on:
           branch: master
 language: node_js
