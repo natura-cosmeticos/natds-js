@@ -3,8 +3,12 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/docs/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/docs/node_modules" />
       <excludeFolder url="file://$MODULE_DIR$/packages/icons/dist" />
       <excludeFolder url="file://$MODULE_DIR$/packages/icons/output" />
+      <excludeFolder url="file://$MODULE_DIR$/reports" />
       <excludeFolder url="file://$MODULE_DIR$/packages/web/coverage" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />

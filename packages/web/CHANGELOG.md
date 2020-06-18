@@ -3,6 +3,220 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.17](https://github.com/natura-cosmeticos/natds-js/compare/v0.6.17-alpha.0...v0.6.17) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## 0.6.17-alpha.0 (2020-06-18)
+
+
+### Bug Fixes
+
+* add missing security policyt for snyk ([b35ae00](https://github.com/natura-cosmeticos/natds-js/commit/b35ae0092ecf3557877b3b2adbe6c2af7b7d0c96))
+* **deps:** update lock file, remove unused lock file for docs ([ace4a84](https://github.com/natura-cosmeticos/natds-js/commit/ace4a845e6c83b3f215549745edb40631e7d3333))
+* **web:** update test snapshots for KeyboardDatePicker and List ([7e8d619](https://github.com/natura-cosmeticos/natds-js/commit/7e8d6198c19c9344f641f4457bf602fdf1508727))
+
+
+### Reverts
+
+* Revert "chore(deps): upgrade typescript to 3.9.5" ([19ae927](https://github.com/natura-cosmeticos/natds-js/commit/19ae9276b3c6aa772504bd853f3b3e1ef6166fc3))
+
+
+
+
+
+## [0.6.16](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.16-alpha.0...@naturacosmeticos/natds-web@0.6.16) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.16-alpha.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.15...@naturacosmeticos/natds-web@0.6.16-alpha.0) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.15](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.15-alpha.0...@naturacosmeticos/natds-web@0.6.15) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.15-alpha.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14...@naturacosmeticos/natds-web@0.6.15-alpha.0) (2020-06-18)
+
+
+### Bug Fixes
+
+* add missing security policyt for snyk ([b35ae00](https://github.com/natura-cosmeticos/natds-js/commit/b35ae0092ecf3557877b3b2adbe6c2af7b7d0c96))
+
+
+
+
+
+## [0.6.14](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.16...@naturacosmeticos/natds-web@0.6.14) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.16](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.15...@naturacosmeticos/natds-web@0.6.14-alpha.16) (2020-06-18)
+
+
+### Bug Fixes
+
+* **deps:** update lock file, remove unused lock file for docs ([ace4a84](https://github.com/natura-cosmeticos/natds-js/commit/ace4a845e6c83b3f215549745edb40631e7d3333))
+
+
+
+
+
+## [0.6.14-alpha.15](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.14...@naturacosmeticos/natds-web@0.6.14-alpha.15) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.14](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.13...@naturacosmeticos/natds-web@0.6.14-alpha.14) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.13](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.12...@naturacosmeticos/natds-web@0.6.14-alpha.13) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.12](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.11...@naturacosmeticos/natds-web@0.6.14-alpha.12) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.11](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.10...@naturacosmeticos/natds-web@0.6.14-alpha.11) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.10](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.9...@naturacosmeticos/natds-web@0.6.14-alpha.10) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.9](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.8...@naturacosmeticos/natds-web@0.6.14-alpha.9) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.8](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.7...@naturacosmeticos/natds-web@0.6.14-alpha.8) (2020-06-18)
+
+
+### Reverts
+
+* Revert "chore(deps): upgrade typescript to 3.9.5" ([19ae927](https://github.com/natura-cosmeticos/natds-js/commit/19ae9276b3c6aa772504bd853f3b3e1ef6166fc3))
+
+
+
+
+
+## [0.6.14-alpha.7](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.6...@naturacosmeticos/natds-web@0.6.14-alpha.7) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.6](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.5...@naturacosmeticos/natds-web@0.6.14-alpha.6) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.5](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.4...@naturacosmeticos/natds-web@0.6.14-alpha.5) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.4](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.3...@naturacosmeticos/natds-web@0.6.14-alpha.4) (2020-06-18)
+
+
+### Bug Fixes
+
+* **web:** update test snapshots for KeyboardDatePicker and List ([7e8d619](https://github.com/natura-cosmeticos/natds-js/commit/7e8d6198c19c9344f641f4457bf602fdf1508727))
+
+
+
+
+
+## [0.6.14-alpha.3](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.2...@naturacosmeticos/natds-web@0.6.14-alpha.3) (2020-06-17)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.1...@naturacosmeticos/natds-web@0.6.14-alpha.2) (2020-06-17)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.0...@naturacosmeticos/natds-web@0.6.14-alpha.1) (2020-06-17)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.14-alpha.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.13...@naturacosmeticos/natds-web@0.6.14-alpha.0) (2020-06-17)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
 ## [0.6.13](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.12...@naturacosmeticos/natds-web@0.6.13) (2020-06-17)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web

@@ -292,42 +292,10 @@ exports[`List components rendering variants should match to snapshot - with List
                                           className="natds-icons natds-icons-outlined-navigation-close undefined"
                                           size="tiny"
                                         >
-                                          <StyledComponent
-                                            className="natds-icons natds-icons-outlined-navigation-close undefined"
-                                            forwardedComponent={
-                                              Object {
-                                                "$$typeof": Symbol(react.forward_ref),
-                                                "attrs": Array [],
-                                                "componentStyle": ComponentStyle {
-                                                  "componentId": "sc-bdVaJa",
-                                                  "isStatic": false,
-                                                  "lastClassName": "jWbhAs",
-                                                  "rules": Array [
-                                                    "
-  font-size: ",
-                                                    [Function],
-                                                    ";
-",
-                                                  ],
-                                                },
-                                                "displayName": "styled.i",
-                                                "foldedComponentIds": Array [],
-                                                "render": [Function],
-                                                "styledComponentId": "sc-bdVaJa",
-                                                "target": "i",
-                                                "toString": [Function],
-                                                "warnTooManyClasses": [Function],
-                                                "withComponent": [Function],
-                                              }
-                                            }
-                                            forwardedRef={null}
+                                          <i
+                                            className="sc-AxjAm iPsTfi natds-icons natds-icons-outlined-navigation-close undefined"
                                             size="tiny"
-                                          >
-                                            <i
-                                              className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-navigation-close undefined"
-                                              size="tiny"
-                                            />
-                                          </StyledComponent>
+                                          />
                                         </styled.i>
                                       </ForwardRef>
                                     </WithTheme(ForwardRef)>
@@ -418,42 +386,10 @@ exports[`List components rendering variants should match to snapshot - with List
                                 className="natds-icons natds-icons-outlined-navigation-close undefined"
                                 size="small"
                               >
-                                <StyledComponent
-                                  className="natds-icons natds-icons-outlined-navigation-close undefined"
-                                  forwardedComponent={
-                                    Object {
-                                      "$$typeof": Symbol(react.forward_ref),
-                                      "attrs": Array [],
-                                      "componentStyle": ComponentStyle {
-                                        "componentId": "sc-bdVaJa",
-                                        "isStatic": false,
-                                        "lastClassName": "jWbhAs",
-                                        "rules": Array [
-                                          "
-  font-size: ",
-                                          [Function],
-                                          ";
-",
-                                        ],
-                                      },
-                                      "displayName": "styled.i",
-                                      "foldedComponentIds": Array [],
-                                      "render": [Function],
-                                      "styledComponentId": "sc-bdVaJa",
-                                      "target": "i",
-                                      "toString": [Function],
-                                      "warnTooManyClasses": [Function],
-                                      "withComponent": [Function],
-                                    }
-                                  }
-                                  forwardedRef={null}
+                                <i
+                                  className="sc-AxjAm iPsTfi natds-icons natds-icons-outlined-navigation-close undefined"
                                   size="small"
-                                >
-                                  <i
-                                    className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-navigation-close undefined"
-                                    size="small"
-                                  />
-                                </StyledComponent>
+                                />
                               </styled.i>
                             </ForwardRef>
                           </WithTheme(ForwardRef)>
@@ -609,42 +545,10 @@ exports[`List components rendering variants should match to snapshot - with List
                                                 className="natds-icons natds-icons-outlined-navigation-close undefined"
                                                 size="tiny"
                                               >
-                                                <StyledComponent
-                                                  className="natds-icons natds-icons-outlined-navigation-close undefined"
-                                                  forwardedComponent={
-                                                    Object {
-                                                      "$$typeof": Symbol(react.forward_ref),
-                                                      "attrs": Array [],
-                                                      "componentStyle": ComponentStyle {
-                                                        "componentId": "sc-bdVaJa",
-                                                        "isStatic": false,
-                                                        "lastClassName": "jWbhAs",
-                                                        "rules": Array [
-                                                          "
-  font-size: ",
-                                                          [Function],
-                                                          ";
-",
-                                                        ],
-                                                      },
-                                                      "displayName": "styled.i",
-                                                      "foldedComponentIds": Array [],
-                                                      "render": [Function],
-                                                      "styledComponentId": "sc-bdVaJa",
-                                                      "target": "i",
-                                                      "toString": [Function],
-                                                      "warnTooManyClasses": [Function],
-                                                      "withComponent": [Function],
-                                                    }
-                                                  }
-                                                  forwardedRef={null}
+                                                <i
+                                                  className="sc-AxjAm iPsTfi natds-icons natds-icons-outlined-navigation-close undefined"
                                                   size="tiny"
-                                                >
-                                                  <i
-                                                    className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-navigation-close undefined"
-                                                    size="tiny"
-                                                  />
-                                                </StyledComponent>
+                                                />
                                               </styled.i>
                                             </ForwardRef>
                                           </WithTheme(ForwardRef)>
@@ -835,29 +739,29 @@ exports[`List components rendering variants should match to snapshot - with List
 exports[`List components rendering variants should match to snapshot - with ListSubheader: List with ListSubheader snapshot 1`] = `
 <WithTheme(ForwardRef)
   subheader={
-    <ForwardRef(WithTheme)
+    <WithTheme(ForwardRef)
       id="subheader"
     >
       Subheader
-    </ForwardRef(WithTheme)>
+    </WithTheme(ForwardRef)>
   }
 >
   <ForwardRef
     subheader={
-      <ForwardRef(WithTheme)
+      <WithTheme(ForwardRef)
         id="subheader"
       >
         Subheader
-      </ForwardRef(WithTheme)>
+      </WithTheme(ForwardRef)>
     }
   >
     <WithStyles(ForwardRef(List))
       subheader={
-        <ForwardRef(WithTheme)
+        <WithTheme(ForwardRef)
           id="subheader"
         >
           Subheader
-        </ForwardRef(WithTheme)>
+        </WithTheme(ForwardRef)>
       }
     >
       <ForwardRef(List)
@@ -870,11 +774,11 @@ exports[`List components rendering variants should match to snapshot - with List
           }
         }
         subheader={
-          <ForwardRef(WithTheme)
+          <WithTheme(ForwardRef)
             id="subheader"
           >
             Subheader
-          </ForwardRef(WithTheme)>
+          </WithTheme(ForwardRef)>
         }
       >
         <ul
