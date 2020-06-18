@@ -1560,6 +1560,18 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
+"@naturacosmeticos/natds-icons@^0.6.14-alpha.7":
+  version "0.6.14-alpha.7"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-icons/-/natds-icons-0.6.14-alpha.7.tgz#5c68a8b9528f9d61c6b0f79f5bc865ad90426de8"
+  integrity sha512-LVN+nkAaCz7bGIBlr5efFs1ot9hODVyK6K7kEMU0l8e0sspNBLrO/L7Zu5p6jZ2uoMj8SVGcJ5BvSrKdTgPKNg==
+
+"@naturacosmeticos/natds-styles@^0.6.14-alpha.7":
+  version "0.6.14-alpha.7"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-styles/-/natds-styles-0.6.14-alpha.7.tgz#69116c4d2a0705059a6af4de14583626ebe5c4fb"
+  integrity sha512-OmUqSGQcB6Tr/tFBzTglR7AZa7IRVdbeFe0CPhzBd3aycuyFIzBE5r3KgPQWCYp08ZQAWHAGKbgjYR8hvJPEqw==
+  dependencies:
+    hex-to-rgba "2.0.1"
+
 "@netlify/open-api@^0.15.0":
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-0.15.0.tgz#cf75d2ed2131e73fbcbdddbf1638e92cd0855aa3"
@@ -6953,10 +6965,10 @@ jest-snapshot@^26.0.1:
     pretty-format "^26.0.1"
     semver "^7.3.2"
 
-jest-styled-components@6.3.4:
-  version "6.3.4"
-  resolved "https://registry.yarnpkg.com/jest-styled-components/-/jest-styled-components-6.3.4.tgz#64de9c0ceae14f311248734c79dcc66b447f90f1"
-  integrity sha512-dc32l0/6n3FtsILODpvKNz6SLg50OmbJ/3r3oRh9jc2VIPPGZT5jWv7BKIcNCYH7E38ZK7uejNl3zJsCOIenng==
+jest-styled-components@7.0.2:
+  version "7.0.2"
+  resolved "https://registry.yarnpkg.com/jest-styled-components/-/jest-styled-components-7.0.2.tgz#b7711871ea74a04491b12bad123fa35cc65a2a80"
+  integrity sha512-i1Qke8Jfgx0Why31q74ohVj9S2FmMLUE8bNRSoK4DgiurKkXG6HC4NPhcOLAz6VpVd9wXkPn81hOt4aAQedqsA==
   dependencies:
     css "^2.2.4"
 
