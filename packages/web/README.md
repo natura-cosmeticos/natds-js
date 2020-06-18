@@ -82,10 +82,10 @@ Thus, it is not necessary to install them to use the Design System.
 You can try using our Design System components for React with minimal Front-end infrastructure, which can be great for
 some micro frontend cases.
 
-We provide a Universal Module Definition (UMD) file:
+We provide a Universal Module Definition (UMD) file via `jsdelivr`:
 https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.js
 
-Soon, we will provide a CDN example to quickly get started.
+jsdelivr ``is our recommended way, since it have [more pops and CDN/DNS redundancy](https://www.jsdelivr.com/network).
 
 ⚠️ We discourage using this approach in production, since this is experimental, and the client has to download the
 entire library, regardless of which components your project will use, affecting performance and bandwidth utilization.
