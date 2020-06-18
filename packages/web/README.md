@@ -1,42 +1,41 @@
 # Natura Design System - React Web
 
+React components for web development inside Natura.
+
 ![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
 ---
 
-## Before you start...
+## Install
 
-This package does not provide any fonts; only its font family names.
+### Using NPM
 
-If you want to use the theme font (Roboto), please check the [Fonts](#fonts) section at the end of the README.
+Install source files via npm or [use a CDN](#use-a-cdn). We take care of injecting the CSS needed.
 
-## How to install
-
-Install the packages in your project root directory with:
+Please note that `react` >= 16.8.4 and `react-dom` >= 16.8.0 are peer dependencies.
 
 ```shell script
-# npm
-npm i --save @naturacosmeticos/natds-web
+# with npm
+$ npm install @naturacosmeticos/natds-web
 
-# yarn
-yarn add @naturacosmeticos/natds-web
+# with yarn
+$ yarn add @naturacosmeticos/natds-web
 ```
 
-### Minimum requirements
+Load the Roboto font:
 
-* LTS Node version (v8.0.0+);
-* `react` version `16.8.4` or higher;
-* `react-dom` version `16.8.4` or higher;
-* If your project uses TypeScript, we need TypeScript 2.1 at least;
+```
+https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap
+```
 
-If your project does not meet the minimum requirements, you can use [@naturacosmeticos/natds-styles](../styles/README.md).
+This package does not provide Roboto font, only its font family names.
 
 ---
 
-## How to use
+## Usage
 
-The use of `<Provider />` is essential for your application to apply styles correctly, even if your application is small and therefore uses few components, use remains essential.
+This package only works fine with the use of `<Provider />`, that is **essential** for applying styles correctly.
 
 ```jsx highlight-line="3"
 import React from "react"
@@ -44,7 +43,7 @@ import { Button, Provider, themes } from "@naturacosmeticos/natds-web"
 
 const { natura } = themes;
 
-export const YourApp = () => (
+const YourApp = () => (
    <Provider theme={natura.light}>
       <Button color={"primary"}>Button component</Button>
       <Button variant={"contained"}>Contained button</Button>
@@ -52,19 +51,20 @@ export const YourApp = () => (
 )
 ```
 
-Check our [storybook docs](https://natds-js.netlify.app/) for more details and examples.
-
----
-
-## How to contribute
-
-To contribute, please check out our [Contributing guidelines](./CONTRIBUTING.md)
+Explore the [storybook docs](https://natds-js.netlify.app/) for more details and examples.
 
 ---
 
 ## Additional information
 
-### Already included in this package
+### Requirements
+
+-  We recommend at least LTS Node version (v8.0.0+);
+- If your project uses TypeScript, we need TypeScript 2.1 at least;
+
+If your project does not meet the minimum requirements, you can use [@naturacosmeticos/natds-styles](../styles/README.md).
+
+### Bundled in this package
 
 Installing `@naturacosmeticos/natds-web` will also install the following packages:
 
@@ -75,16 +75,25 @@ Installing `@naturacosmeticos/natds-web` will also install the following package
 
 Thus, it is not necessary to install them to use the Design System.
 
-### Not included in package
+### Use a CDN
 
-#### Fonts
+⚠️ This feature is experimental
 
-This package does not provide any fonts, only its font family names. If you desire to use the theme font,
-you've got to import them on your application by yourself. We recommend taking a look at
-[Google Fonts](https://fonts.google.com/), since some of our fonts are available for free over there.
+You can try using our Design System components for React with minimal Front-end infrastructure, which can be great for
+some micro frontend cases.
 
-An example for importing `Roboto`, one of our main fonts, straight from Google's API:
+We provide a Universal Module Definition (UMD) file:
+https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.js
 
-```css
-@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
-```
+Soon, we will provide a CDN example to quickly get started.
+
+⚠️ We discourage using this approach in production, since this is experimental, and the client has to download the
+entire library, regardless of which components your project will use, affecting performance and bandwidth utilization.
+
+⚠️ The UMD links are using the latest tag to point to the latest version of the library. This pointer is unstable, it shifts as we release new versions. You should consider pointing to a specific version, such as v4.4.0.
+
+--
+
+## Contributing
+
+To contribute, please check out our [Contributing guidelines](./CONTRIBUTING.md)
