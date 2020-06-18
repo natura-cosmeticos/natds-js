@@ -1190,17 +1190,10 @@
   dependencies:
     find-up "^4.0.0"
 
-"@date-io/core@1.x", "@date-io/core@^1.3.13":
+"@date-io/core@1.x":
   version "1.3.13"
   resolved "https://registry.yarnpkg.com/@date-io/core/-/core-1.3.13.tgz#90c71da493f20204b7a972929cc5c482d078b3fa"
   integrity sha512-AlEKV7TxjeK+jxWVKcCFrfYAk8spX9aCyiToFIiLPtfQbsjmRGLIhb5VZgptQcJdHtLXo7+m0DuurwFgUToQuA==
-
-"@date-io/date-fns@1.3.13":
-  version "1.3.13"
-  resolved "https://registry.yarnpkg.com/@date-io/date-fns/-/date-fns-1.3.13.tgz#7798844041640ab393f7e21a7769a65d672f4735"
-  integrity sha512-yXxGzcRUPcogiMj58wVgFjc9qUYrCnnU9eLcyNbsQCmae4jPuZCDoIBR21j8ZURsM7GRtU62VOw5yNd4dDHunA==
-  dependencies:
-    "@date-io/core" "^1.3.13"
 
 "@egoist/vue-to-react@^1.1.0":
   version "1.1.0"
@@ -18580,6 +18573,13 @@ tslint-eslint-rules@^5.3.1:
     tslib "1.9.0"
     tsutils "^3.0.0"
 
+tslint-react@4.1.0:
+  version "4.1.0"
+  resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-4.1.0.tgz#7153b724a8cfbea52423d0ffa469e8eba3bcc834"
+  integrity sha512-Y7CbFn09X7Mpg6rc7t/WPbmjx9xPI8p1RsQyiGCLWgDR6sh3+IBSlT+bEkc0PSZcWwClOkqq2wPsID8Vep6szQ==
+  dependencies:
+    tsutils "^3.9.1"
+
 tslint-react@5.0.0:
   version "5.0.0"
   resolved "https://registry.yarnpkg.com/tslint-react/-/tslint-react-5.0.0.tgz#d0ae644e8163bdd3e134012e9353094904e8dd44"
@@ -18613,7 +18613,7 @@ tsutils@^2.29.0:
   dependencies:
     tslib "^1.8.1"
 
-tsutils@^3.0.0, tsutils@^3.17.1:
+tsutils@^3.0.0, tsutils@^3.17.1, tsutils@^3.9.1:
   version "3.17.1"
   resolved "https://registry.yarnpkg.com/tsutils/-/tsutils-3.17.1.tgz#ed719917f11ca0dee586272b2ac49e015a2dd759"
   integrity sha512-kzeQ5B8H3w60nFY2g8cJIuH7JDpsALXySGtwGJ0p2LSjLgay3NdIpqq5SoOBe46bKDW2iq25irHCr8wjomUS2g==
