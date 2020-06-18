@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.14-alpha.8](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.7...@naturacosmeticos/natds-web@0.6.14-alpha.8) (2020-06-18)
+
+
+### Reverts
+
+* Revert "chore(deps): upgrade typescript to 3.9.5" ([19ae927](https://github.com/natura-cosmeticos/natds-js/commit/19ae9276b3c6aa772504bd853f3b3e1ef6166fc3))
+
+
+
+
+
 ## [0.6.14-alpha.7](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.6...@naturacosmeticos/natds-web@0.6.14-alpha.7) (2020-06-18)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
