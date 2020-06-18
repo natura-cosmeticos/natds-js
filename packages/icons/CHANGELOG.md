@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.7.0-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.6.18...v0.7.0-alpha.0) (2020-06-18)
+
+
+### Features
+
+* **icons:** add support to CDN ([42e68eb](https://github.com/natura-cosmeticos/natds/commit/42e68eb063265c9c227631ebc6955c49b202d5ad))
+* **icons:** add support to UMD and unpkg CDN ([e11cd81](https://github.com/natura-cosmeticos/natds/commit/e11cd81b4d744e9b0ea7d65026e8b51030ba8f66))
+
+
+
+
+
 ## [0.6.18](https://github.com/natura-cosmeticos/natds/compare/v0.6.18-alpha.0...v0.6.18) (2020-06-18)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
