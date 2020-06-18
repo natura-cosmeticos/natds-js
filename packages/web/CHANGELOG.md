@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.14-alpha.4](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.3...@naturacosmeticos/natds-web@0.6.14-alpha.4) (2020-06-18)
+
+
+### Bug Fixes
+
+* **web:** update test snapshots for KeyboardDatePicker and List ([7e8d619](https://github.com/natura-cosmeticos/natds-js/commit/7e8d6198c19c9344f641f4457bf602fdf1508727))
+
+
+
+
+
 ## [0.6.14-alpha.3](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.2...@naturacosmeticos/natds-web@0.6.14-alpha.3) (2020-06-17)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
