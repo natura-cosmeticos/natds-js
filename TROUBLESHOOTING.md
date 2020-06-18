@@ -4,7 +4,7 @@
 
 ### Check your `react` and `react-dom` dependencies
 
-Ideally, just one `react` and `react-dom` versions should be installed.
+Ideally, just one version for `react` and `react-dom` should be installed.
 
 1. Run `npm ls react` in your project and check if there's more than one entry;
 2. Now check the same with `npm ls react-dom`;
@@ -15,19 +15,20 @@ If nothing works, try the following steps:
 
 ### Look for possible conflicts with `@material-ui/core`
 
-1. Check if you installed `@material-ui/core` directly;
-2. Try to vary your `@material-ui/core` versions and check if it works;
+1. Check if you have installed `@material-ui/core` directly;
+2. Try to vary your `@material-ui/core` versions and check if your application runs;
 3. Try to uninstall `@material-ui/core` and reinstall `@naturacosmeticos/natds-web` and check if it works;
 
 If nothing works, try the following steps:
 
 ### Check your code
 
-1. Check if you are not using a hook inside a class component;
-2. Try to rewrite your component in one of the following formats and check if works:
+You cannot use a hook inside a class component.
+
+If this is happening, try to rewrite your component in one of the following formats and check if works:
+
    - function component;
    - arrow function component;
-   - class component;
 
 ### Downgrade
 
