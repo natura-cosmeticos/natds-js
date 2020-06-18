@@ -28,6 +28,8 @@
     "dist"
   ],
   "main": "dist/index.js",
+  "browser": "dist/umd/index.js",
+  "jsdelivr": "dist/umd/index.js",
   "source": "src/index.ts",
   "types": "dist/index.d.ts",
   "typings": "dist/index.d.ts",
