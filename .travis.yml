@@ -42,7 +42,7 @@ jobs:
             all_branches: true
             condition: branch =~ ^DSY-(\\d+)$
         - provider: script
-          script: "yarn run release:ci && yarn run lerna:publish:ci"
+          script: "GH_TOKEN=${GITHUB_TOKEN} yarn run release:ci && yarn run lerna:publish:ci"
           skip_cleanup: true
           on:
             branch: master
