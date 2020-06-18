@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.6.15](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.15-alpha.0...@naturacosmeticos/natds-web@0.6.15) (2020-06-18)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.6.15-alpha.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14...@naturacosmeticos/natds-web@0.6.15-alpha.0) (2020-06-18)
+
+
+### Bug Fixes
+
+* add missing security policyt for snyk ([b35ae00](https://github.com/natura-cosmeticos/natds-js/commit/b35ae0092ecf3557877b3b2adbe6c2af7b7d0c96))
+
+
+
+
+
 ## [0.6.14](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@0.6.14-alpha.16...@naturacosmeticos/natds-web@0.6.14) (2020-06-18)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
