@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## 0.6.17-alpha.0 (2020-06-18)
+
+
+### Bug Fixes
+
+* **deps:** update lock file, remove unused lock file for docs ([ace4a84](https://github.com/natura-cosmeticos/natds-js/commit/ace4a845e6c83b3f215549745edb40631e7d3333))
+
+
+
+
+
 ## [0.6.16](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-docs@0.6.16-alpha.0...@naturacosmeticos/natds-docs@0.6.16) (2020-06-18)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-docs
