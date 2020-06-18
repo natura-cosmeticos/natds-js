@@ -23,7 +23,7 @@ mkdir -p ../tmp
 
 cd $TRAVIS_BUILD_DIR/docs
 
-yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
+yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}"
 
 cd $TRAVIS_BUILD_DIR
 
