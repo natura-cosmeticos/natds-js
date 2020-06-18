@@ -118,9 +118,9 @@
     "yarn": "1.22.4"
   },
   "peerDependencies": {
-    "@types/react": "^16.8.6",
-    "react": "^16.8.4",
-    "react-dom": "^16.8.4"
+    "@types/react": ">= 16.8.6",
+    "react": ">= 16.8.4",
+    "react-dom": ">= 16.8.4"
   },
   "peerDependenciesMeta": {
     "@types/react": {
