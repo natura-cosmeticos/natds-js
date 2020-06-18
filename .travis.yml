@@ -21,8 +21,13 @@ branches:
     - /v\d+\.\d+\.\d+-docs$/
 jobs:
   include:
+    - stage: dependency-check
+      name: "Dependency check"
+      if: type = pull_request
+      script: yarn run verify:ci
     - stage: release
       name: "Release"
+      if: type = push
       script: yarn run verify:ci
       before_deploy:
         - "git remote rm origin"
@@ -35,7 +40,7 @@ jobs:
         - "yarn config set _authToken ${NPM_AUTH_TOKEN}"
       deploy:
         - provider: script
-          script: "yarn run prerelease:ci alpha-$TRAVIS_BRANCH && yarn run lerna:publish:ci"
+          script: "yarn run prerelease:ci $TRAVIS_BRANCH && yarn run lerna:publish:ci"
           skip_cleanup: true
           on:
             all_branches: true
