@@ -85,7 +85,7 @@ some micro frontend cases.
 We provide a Universal Module Definition (UMD) file via `jsdelivr`:
 https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.js
 
-jsdelivr ``is our recommended way, since it have [more pops and CDN/DNS redundancy](https://www.jsdelivr.com/network).
+jsdelivr is our recommended way, since it have [more pops and CDN/DNS redundancy](https://www.jsdelivr.com/network).
 
 ⚠️ We discourage using this approach in production, since this is experimental, and the client has to download the
 entire library, regardless of which components your project will use, affecting performance and bandwidth utilization.
