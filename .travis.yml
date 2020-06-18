@@ -19,7 +19,6 @@ branches:
   except:
     - /v\d+\.\d+\.\d+$/
     - /v\d+\.\d+\.\d+-docs$/
-env: GH_TOKEN=${GITHUB_TOKEN}
 jobs:
   include:
     - stage: release
@@ -31,7 +30,7 @@ jobs:
         - "git fetch --quiet"
         - "git checkout $TRAVIS_BRANCH"
         - "git config --global user.email \"systemteamopensource@natura.net\""
-        - "git config --global user.name \"$GITHUB_API_USER by Travis CI\""
+        - "git config --global user.name \"$GITHUB_API_USER in behalf of System Team Open Source\""
         - "npm config set '//registry.npmjs.org/:_authToken' \"${NPM_AUTH_TOKEN}\""
         - "yarn config set _authToken ${NPM_AUTH_TOKEN}"
       deploy:
