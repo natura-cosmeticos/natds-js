@@ -31,11 +31,11 @@ jobs:
         - "git config --global user.name \"$GITHUB_API_USER by Travis CI\""
         - "npm config set '//registry.npmjs.org/:_authToken' \"${NPM_AUTH_TOKEN}\""
         - "yarn config set _authToken ${NPM_AUTH_TOKEN}"
-      script: "echo \"Preparing pre-release...\" && yarn prerelease:ci alpha-$TRAVIS_BRANCH && yarn lerna:publish:ci"
+      script: "yarn run prerelease:ci alpha-$TRAVIS_BRANCH && yarn run lerna:publish:ci"
     - stage: release
       name: "Release and Storybook build"
       if: "branch = master AND NOT (commit_message =~ /^(.*)[skip ci]$/)"
-      script: skip # usually you do not want to rerun any tests
+      script: skip # tests were run on first stage
       before_deploy:
         - "git remote rm origin"
         - "git remote add origin https://$GITHUB_API_USER:$GITHUB_API_KEY@github.com/natura-cosmeticos/natds-js"
@@ -47,7 +47,7 @@ jobs:
         - "yarn config set _authToken ${NPM_AUTH_TOKEN}"
       deploy:
         provider: script
-        script: "echo \"Preparing release...\" && yarn release:ci && yarn lerna:publish:ci"
+        script: "yarn run release:ci && yarn run lerna:publish:ci"
         skip_cleanup: true
         on:
           branch: master
