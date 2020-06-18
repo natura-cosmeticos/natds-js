@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.7.2-alpha.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.7.1...v0.7.2-alpha.0) (2020-06-18)
+
+
+### Bug Fixes
+
+* **deps:** downgrade `styled-components` deps to avoid hook errors ([e7817a3](https://github.com/natura-cosmeticos/natds-js/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
+
+
+
+
+
 ## [0.7.1](https://github.com/natura-cosmeticos/natds-js/compare/v0.7.1-alpha.0...v0.7.1) (2020-06-18)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
