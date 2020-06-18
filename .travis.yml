@@ -19,11 +19,11 @@ branches:
   except:
     - /v\d+\.\d+\.\d+$/
     - /v\d+\.\d+\.\d+-docs$/
+env: GH_TOKEN=${GITHUB_TOKEN}
 jobs:
   include:
     - stage: release
       name: "Release"
-      env: GH_TOKEN=${GITHUB_TOKEN}
       script: yarn run verify:ci
       before_deploy:
         - "git remote rm origin"
