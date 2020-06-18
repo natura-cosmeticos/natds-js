@@ -17,6 +17,7 @@ jobs:
   include:
     - stage: dependency-check
       name: "Dependency check"
+      if: "true AND NOT (commit_message =~ /^(.*)[skip ci]$/)"
       script: "yarn test"
     - stage: prerelease
       name: "Pre-release"
@@ -30,10 +31,10 @@ jobs:
         - "git config --global user.name \"$GITHUB_API_USER by Travis CI\""
         - "npm config set '//registry.npmjs.org/:_authToken' \"${NPM_AUTH_TOKEN}\""
         - "yarn config set _authToken ${NPM_AUTH_TOKEN}"
-      script: "yarn prerelease:ci alpha-$TRAVIS_BRANCH && yarn lerna:publish:ci"
+      script: "echo \"Preparing pre-release...\" && yarn prerelease:ci alpha-$TRAVIS_BRANCH && yarn lerna:publish:ci"
     - stage: release
       name: "Release and Storybook build"
-      if: "branch = master AND NOT (commit_message =~ /^Travis Commit:(.+)$/ OR commit_message =~ /^Publish(.*)$/ OR commit_message =~ /^(.*)[skip ci]$/)"
+      if: "branch = master AND NOT (commit_message =~ /^(.*)[skip ci]$/)"
       script: skip # usually you do not want to rerun any tests
       before_deploy:
         - "git remote rm origin"
@@ -46,11 +47,11 @@ jobs:
         - "yarn config set _authToken ${NPM_AUTH_TOKEN}"
       deploy:
         provider: script
-        script: "yarn release:ci && yarn lerna:publish:ci"
-        after_deploy: "chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
+        script: "echo \"Preparing release...\" && yarn release:ci && yarn lerna:publish:ci"
         skip_cleanup: true
         on:
           branch: master
+      after_deploy: "chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
 language: node_js
 node_js:
   - lts/*
