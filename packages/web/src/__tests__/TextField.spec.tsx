@@ -1,5 +1,7 @@
+// @ts-ignore
 import React from 'react';
 import { expect } from 'chai';
+// @ts-ignore
 import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 import { shallow } from 'enzyme';
@@ -210,5 +212,18 @@ describe('TextField component', () => {
 
       expect(component).to.matchSnapshot('TextField default with empty theme snapshot');
     });
+
+    test('should match snapshot - TextField (default with readOnly explicitly true)', () => {
+      const component = renderer.create(<TextField {...getProps()} readOnly={true} />).toJSON();
+
+      expect(component).to.matchSnapshot('TextField default with empty theme snapshot');
+    });
+
+    test('should match snapshot - TextField (default with readOnly explicitly false)', () => {
+      const component = renderer.create(<TextField {...getProps()} readOnly={false} />).toJSON();
+
+      expect(component).to.matchSnapshot('TextField default with empty theme snapshot');
+    });
+
   });
 });

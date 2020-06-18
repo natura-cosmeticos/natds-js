@@ -20,6 +20,11 @@ describe('Icon component', () => {
     });
   });
 
+  test(`should match snapshot - Any valid Icon with empty theme`, () => {
+    const component = renderer.create(<Icon name="filled-action-add" theme={{}} />).toJSON();
+    expect(component).matchSnapshot(`Icon snapshot - valid Icon with empty theme`);
+  });
+
   test(`should match snapshot - Any valid Icon without theme`, () => {
     const component = renderer.create(<Icon name="filled-action-add" />).toJSON();
     expect(component).matchSnapshot(`Icon snapshot - valid Icon without theme`);

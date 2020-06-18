@@ -25,8 +25,8 @@ export { default as Checkbox, ICheckboxProps } from './Components/Checkbox';
 export { default as Chip, IChipProps } from './Components/Chip';
 export { default as Collapse, ICollapseProps } from './Components/Collapse';
 export { default as ContextualBadge, IContextualBadgeProps } from './Components/ContextualBadge';
-export { default as DatePicker, IDatePickerViewsProps } from './Components/DatePicker';
-export { default as PickersUtilProvider, IMuiPickersUtilsProviderProps } from './Components/PickersUtilProvider';
+/* @todo Bring back DatePicker to web package */
+/* @todo PickersUtilProvider to web package */
 export { default as Dialog, IDialogProps } from './Components/Dialog';
 export { default as DialogActions, IDialogActionsProps } from './Components/DialogActions';
 export { default as DialogContent, IDialogContentProps } from './Components/DialogContent';
@@ -51,7 +51,7 @@ export { default as Icon, IIconProps } from './Components/Icon';
 export { default as IconButton, IIconButtonProps } from './Components/IconButton';
 export { default as Intro, IIntroProps } from './Components/Intro';
 export { default as InputLabel, IInputLabelProps } from './Components/InputLabel';
-export { default as KeyboardDatePicker, IKeyboardDatePickerViewsProps } from './Components/KeyboardDatePicker';
+/* @todo Bring back PickersUtilProvider to web package */
 export { default as LinearProgress, ILinearProgressProps } from './Components/LinearProgress';
 export { default as Link, ILinkProps } from './Components/Link';
 export { default as List, IListProps } from './Components/List';
