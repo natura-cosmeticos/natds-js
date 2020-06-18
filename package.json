@@ -33,7 +33,7 @@
     "lerna:publish": "lerna publish from-git",
     "lerna:publish:ci": "yarn lerna:publish --yes",
     "prerelease": "lerna version --conventional-commits --conventional-prerelease",
-    "prerelease:ci": "lerna version --conventional-commits --conventional-prerelease --force-publish --yes --create-release github",
+    "prerelease:ci": "lerna version --conventional-commits --conventional-prerelease --force-publish --yes",
     "release": "lerna version --conventional-commits",
     "release:ci": "lerna version --conventional-commits --conventional-graduate --force-publish --yes --create-release github",
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
