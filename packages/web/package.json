@@ -1,9 +1,9 @@
 {
   "name": "@naturacosmeticos/natds-web",
   "displayName": "NatDS React Web",
+  "description": "A collection of components from Natura Design System for React websites and webapps",
+  "version": "0.6.18",
   "private": false,
-  "version": "0.6.17",
-  "description": "A collection of components for Natura Design System",
   "keywords": [
     "design-system",
     "natura",
@@ -69,8 +69,8 @@
     "@material-ui/icons": "4.9.1",
     "@material-ui/lab": "4.0.0-alpha.56",
     "@material-ui/pickers": "3.2.10",
-    "@naturacosmeticos/natds-icons": "^0.6.17",
-    "@naturacosmeticos/natds-styles": "^0.6.17",
+    "@naturacosmeticos/natds-icons": "^0.6.18",
+    "@naturacosmeticos/natds-styles": "^0.6.18",
     "clsx": "1.1.1",
     "lodash": "4.17.15",
     "react-text-mask": "5.4.3",
