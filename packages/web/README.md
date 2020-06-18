@@ -87,7 +87,7 @@ https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.j
 #### Importing directly on HTML
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web/dist/umd/index.js"></script>
 ```
 
 #### Importing with `single-spa` import mapping
@@ -95,7 +95,7 @@ https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.j
 ```json
 {
   "imports": {
-    "@natura-cosmeticos/natds-web": "https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.js"
+    "@natura-cosmeticos/natds-web": "https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web/dist/umd/index.js"
   }
 }
 ```
