@@ -86,7 +86,7 @@ https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.j
 
 #### Importing directly on HTML
 
-```
+```html
 <script src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.js"></script>
 ```
 
