@@ -154,86 +154,336 @@ exports[`DatePicker components should match to snapshot - Opened: DatePicker ope
                         value=""
                       >
                         <styled.div>
-                          <div
-                            className="sc-fzplWN HOvqT"
+                          <StyledComponent
+                            forwardedComponent={
+                              Object {
+                                "$$typeof": Symbol(react.forward_ref),
+                                "attrs": Array [],
+                                "componentStyle": ComponentStyle {
+                                  "componentId": "sc-gqjmRU",
+                                  "isStatic": false,
+                                  "lastClassName": "fOizOf",
+                                  "rules": Array [
+                                    "
+  display: flex;
+  flex-flow: column nowrap;
+  font-family: ",
+                                    [Function],
+                                    ";
+",
+                                  ],
+                                },
+                                "displayName": "styled.div",
+                                "foldedComponentIds": Array [],
+                                "render": [Function],
+                                "styledComponentId": "sc-gqjmRU",
+                                "target": "div",
+                                "toString": [Function],
+                                "warnTooManyClasses": [Function],
+                                "withComponent": [Function],
+                              }
+                            }
+                            forwardedRef={null}
                           >
-                            <styled.label
-                              disabled={false}
-                              htmlFor="random-prop-id"
+                            <div
+                              className="sc-gqjmRU fOizOf"
                             >
-                              <label
-                                className="sc-fznyAO hiQnTN"
+                              <styled.label
                                 disabled={false}
                                 htmlFor="random-prop-id"
                               >
-                                Only calendar
-                              </label>
-                            </styled.label>
-                            <ForwardRef
-                              InputProps={
-                                Object {
-                                  "readOnly": true,
+                                <StyledComponent
+                                  disabled={false}
+                                  forwardedComponent={
+                                    Object {
+                                      "$$typeof": Symbol(react.forward_ref),
+                                      "attrs": Array [],
+                                      "componentStyle": ComponentStyle {
+                                        "componentId": "sc-VigVT",
+                                        "isStatic": false,
+                                        "lastClassName": "kbirlQ",
+                                        "rules": Array [
+                                          "
+  font-size: ",
+                                          [Function],
+                                          ";
+  font-weight: ",
+                                          [Function],
+                                          ";
+  color: ",
+                                          [Function],
+                                          ";
+  line-height: 1.2;
+  padding: 0 0 ",
+                                          "4",
+                                          "px;
+  font-family: ",
+                                          [Function],
+                                          ";
+",
+                                        ],
+                                      },
+                                      "displayName": "styled.label",
+                                      "foldedComponentIds": Array [],
+                                      "render": [Function],
+                                      "styledComponentId": "sc-VigVT",
+                                      "target": "label",
+                                      "toString": [Function],
+                                      "warnTooManyClasses": [Function],
+                                      "withComponent": [Function],
+                                    }
+                                  }
+                                  forwardedRef={null}
+                                  htmlFor="random-prop-id"
+                                >
+                                  <label
+                                    className="sc-VigVT kbirlQ"
+                                    disabled={false}
+                                    htmlFor="random-prop-id"
+                                  >
+                                    Only calendar
+                                  </label>
+                                </StyledComponent>
+                              </styled.label>
+                              <ForwardRef
+                                InputProps={
+                                  Object {
+                                    "readOnly": true,
+                                  }
                                 }
-                              }
-                              error={false}
-                              format="MMMM do"
-                              helperText=""
-                              id="random-prop-id"
-                              label="Only calendar"
-                              onClick={[Function]}
-                              onKeyDown={[Function]}
-                              type="text"
-                              value=""
-                            >
-                              <styled.div
-                                disabled={false}
+                                error={false}
+                                format="MMMM do"
+                                helperText=""
+                                id="random-prop-id"
+                                label="Only calendar"
+                                onClick={[Function]}
+                                onKeyDown={[Function]}
+                                type="text"
+                                value=""
                               >
-                                <div
-                                  className="sc-fzoyAV fJLgUa"
+                                <styled.div
                                   disabled={false}
                                 >
-                                  <styled.input
-                                    InputProps={
+                                  <StyledComponent
+                                    disabled={false}
+                                    forwardedComponent={
                                       Object {
-                                        "readOnly": true,
+                                        "$$typeof": Symbol(react.forward_ref),
+                                        "attrs": Array [],
+                                        "componentStyle": ComponentStyle {
+                                          "componentId": "sc-chPdSV",
+                                          "isStatic": false,
+                                          "lastClassName": "kOppeM",
+                                          "rules": Array [
+                                            "
+  display: flex;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: ",
+                                            [Function],
+                                            ";
+",
+                                          ],
+                                        },
+                                        "displayName": "styled.div",
+                                        "foldedComponentIds": Array [],
+                                        "render": [Function],
+                                        "styledComponentId": "sc-chPdSV",
+                                        "target": "div",
+                                        "toString": [Function],
+                                        "warnTooManyClasses": [Function],
+                                        "withComponent": [Function],
                                       }
                                     }
-                                    as="input"
-                                    className="undefined__input"
-                                    disabled={false}
-                                    error={false}
-                                    format="MMMM do"
-                                    hasIcon={false}
-                                    helperText=""
-                                    id="random-prop-id"
-                                    label="Only calendar"
-                                    onChange={[Function]}
-                                    onClick={[Function]}
-                                    onKeyDown={[Function]}
-                                    placeholder="&nbsp;"
-                                    required={false}
-                                    type="text"
-                                    value=""
+                                    forwardedRef={null}
                                   >
-                                    <input
-                                      className="sc-fzoLag ePJEjI undefined__input"
+                                    <div
+                                      className="sc-chPdSV kOppeM"
                                       disabled={false}
-                                      format="MMMM do"
-                                      id="random-prop-id"
-                                      label="Only calendar"
-                                      onChange={[Function]}
-                                      onClick={[Function]}
-                                      onKeyDown={[Function]}
-                                      placeholder="&nbsp;"
-                                      required={false}
-                                      type="text"
-                                      value=""
-                                    />
-                                  </styled.input>
-                                </div>
-                              </styled.div>
-                            </ForwardRef>
-                          </div>
+                                    >
+                                      <styled.input
+                                        InputProps={
+                                          Object {
+                                            "readOnly": true,
+                                          }
+                                        }
+                                        as="input"
+                                        className="undefined__input"
+                                        disabled={false}
+                                        error={false}
+                                        format="MMMM do"
+                                        hasIcon={false}
+                                        helperText=""
+                                        id="random-prop-id"
+                                        label="Only calendar"
+                                        onChange={[Function]}
+                                        onClick={[Function]}
+                                        onKeyDown={[Function]}
+                                        placeholder="&nbsp;"
+                                        required={false}
+                                        type="text"
+                                        value=""
+                                      >
+                                        <StyledComponent
+                                          InputProps={
+                                            Object {
+                                              "readOnly": true,
+                                            }
+                                          }
+                                          as="input"
+                                          className="undefined__input"
+                                          disabled={false}
+                                          error={false}
+                                          format="MMMM do"
+                                          forwardedComponent={
+                                            Object {
+                                              "$$typeof": Symbol(react.forward_ref),
+                                              "attrs": Array [],
+                                              "componentStyle": ComponentStyle {
+                                                "componentId": "sc-kgoBCf",
+                                                "isStatic": false,
+                                                "lastClassName": "gNlQps",
+                                                "rules": Array [
+                                                  "
+  background-color: transparent;
+  border: 0;
+  border-radius: ",
+                                                  [Function],
+                                                  "px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: ",
+                                                  "24",
+                                                  "px;
+  min-height: ",
+                                                  "48",
+                                                  "px;
+  outline: none;
+  color: ",
+                                                  [Function],
+                                                  ";
+  font-size: ",
+                                                  [Function],
+                                                  ";
+  font-weight: ",
+                                                  [Function],
+                                                  ";
+  font-family: ",
+                                                  [Function],
+                                                  ";
+  flex: 1 1 100%;
+  padding: ",
+                                                  [Function],
+                                                  ";
+  resize: vertical;
+
+  &:disabled,
+  &:disabled:hover {
+    color: ",
+                                                  [Function],
+                                                  ";
+    box-shadow: ",
+                                                  [Function],
+                                                  " 0 0 0 1px;
+  }
+
+  &::placeholder {
+    color: ",
+                                                  [Function],
+                                                  ";
+  }
+
+  &:disabled::placeholder {
+    color: ",
+                                                  [Function],
+                                                  ";
+  }
+
+  &:placeholder-shown {
+    box-shadow: ",
+                                                  [Function],
+                                                  ";
+  }
+
+  &:not(:placeholder-shown) {
+    box-shadow: ",
+                                                  [Function],
+                                                  ";
+  }
+
+  &:focus:not(:read-only) {
+    box-shadow: ",
+                                                  [Function],
+                                                  ";
+  }
+
+  &:hover:not(:read-only):not(:disabled):not(:focus) {
+    box-shadow: ",
+                                                  [Function],
+                                                  " 0 0 0 1px;
+  }
+
+  &[type='text']::-ms-clear,
+  &[type='text']::-ms-reveal {
+    display: none;
+    width: 0;
+    height: 0;
+  }
+
+  &[type='search']::-webkit-search-decoration,
+  &[type='search']::-webkit-search-cancel-button,
+  &[type='search']::-webkit-search-results-button,
+  &[type='search']::-webkit-search-results-decoration {
+    display: none;
+  }
+",
+                                                ],
+                                              },
+                                              "displayName": "styled.input",
+                                              "foldedComponentIds": Array [],
+                                              "render": [Function],
+                                              "styledComponentId": "sc-kgoBCf",
+                                              "target": "input",
+                                              "toString": [Function],
+                                              "warnTooManyClasses": [Function],
+                                              "withComponent": [Function],
+                                            }
+                                          }
+                                          forwardedRef={null}
+                                          hasIcon={false}
+                                          helperText=""
+                                          id="random-prop-id"
+                                          label="Only calendar"
+                                          onChange={[Function]}
+                                          onClick={[Function]}
+                                          onKeyDown={[Function]}
+                                          placeholder="&nbsp;"
+                                          required={false}
+                                          type="text"
+                                          value=""
+                                        >
+                                          <input
+                                            className="sc-kgoBCf gNlQps undefined__input"
+                                            disabled={false}
+                                            format="MMMM do"
+                                            id="random-prop-id"
+                                            label="Only calendar"
+                                            onChange={[Function]}
+                                            onClick={[Function]}
+                                            onKeyDown={[Function]}
+                                            placeholder="&nbsp;"
+                                            required={false}
+                                            type="text"
+                                            value=""
+                                          />
+                                        </StyledComponent>
+                                      </styled.input>
+                                    </div>
+                                  </StyledComponent>
+                                </styled.div>
+                              </ForwardRef>
+                            </div>
+                          </StyledComponent>
                         </styled.div>
                       </Component>
                     </ForwardRef>
