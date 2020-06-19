@@ -29,7 +29,7 @@
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "start": "yarn build --watch",
     "test": "yarn test:unit:coverage",
-    "test:ci": "yarn test --json --outputFile=.jest-test-results.json",
+    "test:ci": "yarn test --json --outputFile=.jest-test-results.json && codecov",
     "test:unit": "jest",
     "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
     "test:unit:coverage:open": "open coverage/lcov-report/index.html",
@@ -40,6 +40,7 @@
     "watch": "yarn start"
   },
   "devDependencies": {
+    "codecov": "3.7.0",
     "jest": "26.0.1",
     "sass": "1.26.8",
     "ts-jest": "26.1.0",
