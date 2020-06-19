@@ -16,13 +16,17 @@ const useStyles = makeStyles({
   }
 })
 
-export const App = () => (
+export const App = () => {
+  const classes = useStyles()
+  
+  return (
     <Provider>
         <div className={classes.spacedBox}>
             Box with tiny spacing for margin
         </div>
     </Provider>
-)
+  )
+}
 ```
 
 ### Quick styling
