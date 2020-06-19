@@ -13,7 +13,7 @@ React components for web development inside Natura.
 
 Install source files via npm or [use a CDN](#use-a-cdn). We take care of injecting the CSS needed.
 
-Please note that `react` >= 16.8.4 and `react-dom` >= 16.8.0 are peer dependencies.
+Please note that `react >= 16.8.4` and `react-dom >= 16.8.4` are peer dependencies.
 
 ```shell script
 # with npm
