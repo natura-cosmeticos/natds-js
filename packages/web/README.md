@@ -82,7 +82,7 @@ some micro frontend cases.
 
 We provide a Universal Module Definition (UMD) file via `jsdelivr`:
 
-https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@0.6.17/dist/umd/index.js
+https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web/dist/umd/index.js
 
 #### Importing directly on HTML
 
