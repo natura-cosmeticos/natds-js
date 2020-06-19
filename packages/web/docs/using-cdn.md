@@ -1,7 +1,6 @@
 # Using a CDN
 
-You can try using our Design System components for React with minimal front-end infrastructure,
-which can be great for some micro frontend cases.
+You can try using our Design System components for React with minimal front-end infrastructure.
 
 ## ⚠️ This feature is experimental
 
@@ -64,10 +63,12 @@ If you serve React and Natura Design System from a CDN, we recommend you to keep
 
 ## Importing with `single-spa` import mapping
 
+CDN can be great for some micro frontend cases with `single-spa`:
+
 ```json
 {
   "imports": {
-    "@natura-cosmeticos/natds-web": "https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web/dist/umd/index.js"
+    "@natura-cosmeticos/natds-web": "https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web"
   }
 }
 ```
