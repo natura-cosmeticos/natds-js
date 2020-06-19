@@ -108,7 +108,7 @@ jsdelivr is our recommended way, since it have [more pops and CDN/DNS redundancy
 * We discourage using this approach in production, since this is experimental, and the client has to download the
 entire library, regardless of which components your project will use, affecting performance and bandwidth utilization.
 
-* The UMD links are using the latest tag to point to the latest version of the library. This pointer is unstable, it shifts as we release new versions. You should consider pointing to a specific version, such as v4.4.0.
+* The UMD links are using the latest tag to point to the latest version of the library. This pointer is unstable, it shifts as we release new versions. You should consider pointing to a specific version, such as v7.5.0.
 
 ---
 
