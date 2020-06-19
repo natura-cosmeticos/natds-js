@@ -3,6 +3,7 @@
 React components for web development inside Natura.
 
 ![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
+[![codecov](https://codecov.io/gh/natura-cosmeticos/natds-js/branch/master/graph/badge.svg)](https://codecov.io/gh/natura-cosmeticos/natds-js)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
 ---
@@ -11,7 +12,7 @@ React components for web development inside Natura.
 
 ### Using NPM
 
-Install source files via npm or [use a CDN](#use-a-cdn). We take care of injecting the CSS needed.
+Install source files via npm or [use a CDN](./docs/using-cdn.md). We take care of injecting the CSS needed.
 
 Please note that `react >= 16.8.4` and `react-dom >= 16.8.4` are peer dependencies.
 
@@ -39,17 +40,13 @@ This package only works fine with the use of `<Provider />`, that is **essential
 
 ```jsx highlight-line="3"
 import React from 'react'
-import { Button, Provider, themes } from "@naturacosmeticos/natds-web";
-
-const { natura } = themes
+import { Button, Provider } from "@naturacosmeticos/natds-web";
 
 export const App = () => (
-    <Provider theme={natura.light}>
+    <Provider>
         <Button color={"primary"} variant={"contained"}>Button</Button>
     </Provider>
 )
-
-
 ```
 
 Explore the [storybook docs](https://natds-js.netlify.app/) for more details and examples.
@@ -60,7 +57,7 @@ Explore the [storybook docs](https://natds-js.netlify.app/) for more details and
 
 ### Requirements
 
--  We recommend at least LTS Node version (v8.0.0+);
+- We recommend at least LTS Node version (v8.0.0+);
 - If your project uses TypeScript, we need TypeScript 2.1 at least;
 
 If your project does not meet the minimum requirements, you can use [@naturacosmeticos/natds-styles](../styles/README.md).
@@ -76,41 +73,28 @@ Installing `@naturacosmeticos/natds-web` will also install the following package
 
 Thus, it is not necessary to install them to use the Design System.
 
-### Use a CDN
+### Using a CDN
 
-You can try using our Design System components for React with minimal Front-end infrastructure, which can be great for
-some micro frontend cases.
+**⚠️ This feature is experimental**.
 
 We provide a Universal Module Definition (UMD) file via `jsdelivr`:
 
-https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web/dist/umd/index.js
-
-#### Importing directly on HTML
+https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web
 
 ```html
-<script src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web/dist/umd/index.js"></script>
+<script
+    crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web">
+</script>
 ```
 
-#### Importing with `single-spa` import mapping
-
-```json
-{
-  "imports": {
-    "@natura-cosmeticos/natds-web": "https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web/dist/umd/index.js"
-  }
-}
-```
-
-jsdelivr is our recommended way, since it have [more pops and CDN/DNS redundancy](https://www.jsdelivr.com/network).
-
-#### ⚠️ This feature is experimental
-
-* We discourage using this approach in production, since this is experimental, and the client has to download the
-entire library, regardless of which components your project will use, affecting performance and bandwidth utilization.
-
-* The UMD links are using the latest tag to point to the latest version of the library. This pointer is unstable, it shifts as we release new versions. You should consider pointing to a specific version, such as v7.5.0.
+For more info and examples, check our [CDN documentation](./docs/using-cdn.md).
 
 ---
+
+## Troubleshooting
+
+Having troubles? Please check our [Troubleshooting documentation](../../TROUBLESHOOTING.md).
 
 ## Contributing
 
