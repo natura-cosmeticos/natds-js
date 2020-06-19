@@ -38,17 +38,18 @@ This package does not provide Roboto font, only its font family names.
 This package only works fine with the use of `<Provider />`, that is **essential** for applying styles correctly.
 
 ```jsx highlight-line="3"
-import React from "react"
-import { Button, Provider, themes } from "@naturacosmeticos/natds-web"
+import React from 'react'
+import { Button, Provider, themes } from "@naturacosmeticos/natds-web";
 
-const { natura } = themes;
+const { natura } = themes
 
-const YourApp = () => (
-   <Provider theme={natura.light}>
-      <Button color={"primary"}>Button component</Button>
-      <Button variant={"contained"}>Contained button</Button>
-   </Provider>
+export const App = () => (
+    <Provider theme={natura.light}>
+        <Button color={"primary"} variant={"contained"}>Button</Button>
+    </Provider>
 )
+
+
 ```
 
 Explore the [storybook docs](https://natds-js.netlify.app/) for more details and examples.
