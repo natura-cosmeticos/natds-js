@@ -32,7 +32,7 @@ jobs:
       after_script: "sh ./scripts/build-storybook-prerelease.sh"
     - stage: release
       name: "Release"
-      if: type = push
+      if: type = push AND branch = master
       script: skip
       before_deploy: "sh ./scripts/configure-git.sh"
       deploy:
