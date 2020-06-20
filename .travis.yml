@@ -21,14 +21,14 @@ branches:
     - /v\d+\.\d+\.\d+-docs$/
 jobs:
   include:
-    - stage: dependency-check
-      name: "Dependency check"
+    - stage: sanity-check
+      name: "Sanity check"
       script: yarn run verify:ci
     - stage: pre-release
       name: "Pre-release"
       if: type = push AND branch =~ /^DSY-(\\d+)$/
       before_script: "sh ./scripts/configure-git.sh"
-      script: "yarn run prerelease:ci $TRAVIS_BRANCH && yarn run lerna:publish:ci"
+      script: "yarn run prerelease:ci $TRAVIS_BRANCH && yarn run lerna:publish:ci --dist-tag $TRAVIS_BRANCH"
       after_script: "sh ./scripts/build-storybook-prerelease.sh"
     - stage: release
       name: "Release"
