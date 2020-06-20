@@ -5495,7 +5495,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                   helperText=""
                   invalidDateMessage="Invalid Date Format"
                   keyboardIcon={
-                    <ForwardRef(WithTheme)
+                    <WithTheme(ForwardRef)
                       name="outlined-action-calendar"
                       size="tiny"
                     />
@@ -6207,7 +6207,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
-                      <ForwardRef(WithTheme)
+                      <WithTheme(ForwardRef)
                         name="outlined-action-calendar"
                         size="tiny"
                       />
@@ -6914,7 +6914,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                       format="MMMM do"
                       helperText=""
                       keyboardIcon={
-                        <ForwardRef(WithTheme)
+                        <WithTheme(ForwardRef)
                           name="outlined-action-calendar"
                           size="tiny"
                         />
@@ -7611,7 +7611,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                         helperText=""
                         inputValue="February 1st"
                         keyboardIcon={
-                          <ForwardRef(WithTheme)
+                          <WithTheme(ForwardRef)
                             name="outlined-action-calendar"
                             size="tiny"
                           />
@@ -8304,18 +8304,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                             InputProps={
                               Object {
                                 "className": "MuiFilled",
-                                "endAdornment": <ForwardRef(WithStyles)
+                                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                   position="end"
                                 >
-                                  <ForwardRef(WithStyles)
+                                  <WithStyles(ForwardRef(IconButton))
                                     onClick={[Function]}
                                   >
-                                    <ForwardRef(WithTheme)
+                                    <WithTheme(ForwardRef)
                                       name="outlined-action-calendar"
                                       size="tiny"
                                     />
-                                  </ForwardRef(WithStyles)>
-                                </ForwardRef(WithStyles)>,
+                                  </WithStyles(ForwardRef(IconButton))>
+                                </WithStyles(ForwardRef(InputAdornment))>,
                               }
                             }
                             error={false}
@@ -9000,18 +9000,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                               InputProps={
                                 Object {
                                   "className": "MuiFilled",
-                                  "endAdornment": <ForwardRef(WithStyles)
+                                  "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                     position="end"
                                   >
-                                    <ForwardRef(WithStyles)
+                                    <WithStyles(ForwardRef(IconButton))
                                       onClick={[Function]}
                                     >
-                                      <ForwardRef(WithTheme)
+                                      <WithTheme(ForwardRef)
                                         name="outlined-action-calendar"
                                         size="tiny"
                                       />
-                                    </ForwardRef(WithStyles)>
-                                  </ForwardRef(WithStyles)>,
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </WithStyles(ForwardRef(InputAdornment))>,
                                 }
                               }
                               classes={
@@ -11743,18 +11743,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                       autoFocus={false}
                                       className="MuiFilled"
                                       endAdornment={
-                                        <ForwardRef(WithStyles)
+                                        <WithStyles(ForwardRef(InputAdornment))
                                           position="end"
                                         >
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(IconButton))
                                             onClick={[Function]}
                                           >
-                                            <ForwardRef(WithTheme)
+                                            <WithTheme(ForwardRef)
                                               name="outlined-action-calendar"
                                               size="tiny"
                                             />
-                                          </ForwardRef(WithStyles)>
-                                        </ForwardRef(WithStyles)>
+                                          </WithStyles(ForwardRef(IconButton))>
+                                        </WithStyles(ForwardRef(InputAdornment))>
                                       }
                                       fullWidth={false}
                                       multiline={false}
@@ -11783,18 +11783,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                           }
                                         }
                                         endAdornment={
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(InputAdornment))
                                             position="end"
                                           >
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(IconButton))
                                               onClick={[Function]}
                                             >
-                                              <ForwardRef(WithTheme)
+                                              <WithTheme(ForwardRef)
                                                 name="outlined-action-calendar"
                                                 size="tiny"
                                               />
-                                            </ForwardRef(WithStyles)>
-                                          </ForwardRef(WithStyles)>
+                                            </WithStyles(ForwardRef(IconButton))>
+                                          </WithStyles(ForwardRef(InputAdornment))>
                                         }
                                         fullWidth={false}
                                         multiline={false}
@@ -11823,18 +11823,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                             }
                                           }
                                           endAdornment={
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(InputAdornment))
                                               position="end"
                                             >
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(IconButton))
                                                 onClick={[Function]}
                                               >
-                                                <ForwardRef(WithTheme)
+                                                <WithTheme(ForwardRef)
                                                   name="outlined-action-calendar"
                                                   size="tiny"
                                                 />
-                                              </ForwardRef(WithStyles)>
-                                            </ForwardRef(WithStyles)>
+                                              </WithStyles(ForwardRef(IconButton))>
+                                            </WithStyles(ForwardRef(InputAdornment))>
                                           }
                                           fullWidth={false}
                                           inputComponent="input"
@@ -11869,18 +11869,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                               }
                                             }
                                             endAdornment={
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(InputAdornment))
                                                 position="end"
                                               >
-                                                <ForwardRef(WithStyles)
+                                                <WithStyles(ForwardRef(IconButton))
                                                   onClick={[Function]}
                                                 >
-                                                  <ForwardRef(WithTheme)
+                                                  <WithTheme(ForwardRef)
                                                     name="outlined-action-calendar"
                                                     size="tiny"
                                                   />
-                                                </ForwardRef(WithStyles)>
-                                              </ForwardRef(WithStyles)>
+                                                </WithStyles(ForwardRef(IconButton))>
+                                              </WithStyles(ForwardRef(InputAdornment))>
                                             }
                                             fullWidth={false}
                                             inputComponent="input"
@@ -12632,7 +12632,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                   helperText=""
                   invalidDateMessage="Invalid Date Format"
                   keyboardIcon={
-                    <ForwardRef(WithTheme)
+                    <WithTheme(ForwardRef)
                       name="outlined-action-calendar"
                       size="tiny"
                     />
@@ -12674,7 +12674,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
-                      <ForwardRef(WithTheme)
+                      <WithTheme(ForwardRef)
                         name="outlined-action-calendar"
                         size="tiny"
                       />
@@ -12711,7 +12711,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                       format="MMMM do"
                       helperText=""
                       keyboardIcon={
-                        <ForwardRef(WithTheme)
+                        <WithTheme(ForwardRef)
                           name="outlined-action-calendar"
                           size="tiny"
                         />
@@ -12738,7 +12738,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                         helperText=""
                         inputValue="February 1st"
                         keyboardIcon={
-                          <ForwardRef(WithTheme)
+                          <WithTheme(ForwardRef)
                             name="outlined-action-calendar"
                             size="tiny"
                           />
@@ -12760,19 +12760,19 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                             InputProps={
                               Object {
                                 "className": "",
-                                "endAdornment": <ForwardRef(WithStyles)
+                                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                   position="end"
                                 >
-                                  <ForwardRef(WithStyles)
+                                  <WithStyles(ForwardRef(IconButton))
                                     disabled={true}
                                     onClick={[Function]}
                                   >
-                                    <ForwardRef(WithTheme)
+                                    <WithTheme(ForwardRef)
                                       name="outlined-action-calendar"
                                       size="tiny"
                                     />
-                                  </ForwardRef(WithStyles)>
-                                </ForwardRef(WithStyles)>,
+                                  </WithStyles(ForwardRef(IconButton))>
+                                </WithStyles(ForwardRef(InputAdornment))>,
                               }
                             }
                             disabled={true}
@@ -12787,19 +12787,19 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                               InputProps={
                                 Object {
                                   "className": "",
-                                  "endAdornment": <ForwardRef(WithStyles)
+                                  "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                     position="end"
                                   >
-                                    <ForwardRef(WithStyles)
+                                    <WithStyles(ForwardRef(IconButton))
                                       disabled={true}
                                       onClick={[Function]}
                                     >
-                                      <ForwardRef(WithTheme)
+                                      <WithTheme(ForwardRef)
                                         name="outlined-action-calendar"
                                         size="tiny"
                                       />
-                                    </ForwardRef(WithStyles)>
-                                  </ForwardRef(WithStyles)>,
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </WithStyles(ForwardRef(InputAdornment))>,
                                 }
                               }
                               classes={
@@ -12848,19 +12848,19 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                                       autoFocus={false}
                                       className=""
                                       endAdornment={
-                                        <ForwardRef(WithStyles)
+                                        <WithStyles(ForwardRef(InputAdornment))
                                           position="end"
                                         >
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(IconButton))
                                             disabled={true}
                                             onClick={[Function]}
                                           >
-                                            <ForwardRef(WithTheme)
+                                            <WithTheme(ForwardRef)
                                               name="outlined-action-calendar"
                                               size="tiny"
                                             />
-                                          </ForwardRef(WithStyles)>
-                                        </ForwardRef(WithStyles)>
+                                          </WithStyles(ForwardRef(IconButton))>
+                                        </WithStyles(ForwardRef(InputAdornment))>
                                       }
                                       fullWidth={false}
                                       multiline={false}
@@ -12889,19 +12889,19 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                                           }
                                         }
                                         endAdornment={
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(InputAdornment))
                                             position="end"
                                           >
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(IconButton))
                                               disabled={true}
                                               onClick={[Function]}
                                             >
-                                              <ForwardRef(WithTheme)
+                                              <WithTheme(ForwardRef)
                                                 name="outlined-action-calendar"
                                                 size="tiny"
                                               />
-                                            </ForwardRef(WithStyles)>
-                                          </ForwardRef(WithStyles)>
+                                            </WithStyles(ForwardRef(IconButton))>
+                                          </WithStyles(ForwardRef(InputAdornment))>
                                         }
                                         fullWidth={false}
                                         multiline={false}
@@ -12930,19 +12930,19 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                                             }
                                           }
                                           endAdornment={
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(InputAdornment))
                                               position="end"
                                             >
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(IconButton))
                                                 disabled={true}
                                                 onClick={[Function]}
                                               >
-                                                <ForwardRef(WithTheme)
+                                                <WithTheme(ForwardRef)
                                                   name="outlined-action-calendar"
                                                   size="tiny"
                                                 />
-                                              </ForwardRef(WithStyles)>
-                                            </ForwardRef(WithStyles)>
+                                              </WithStyles(ForwardRef(IconButton))>
+                                            </WithStyles(ForwardRef(InputAdornment))>
                                           }
                                           fullWidth={false}
                                           inputComponent="input"
@@ -12977,19 +12977,19 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                                               }
                                             }
                                             endAdornment={
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(InputAdornment))
                                                 position="end"
                                               >
-                                                <ForwardRef(WithStyles)
+                                                <WithStyles(ForwardRef(IconButton))
                                                   disabled={true}
                                                   onClick={[Function]}
                                                 >
-                                                  <ForwardRef(WithTheme)
+                                                  <WithTheme(ForwardRef)
                                                     name="outlined-action-calendar"
                                                     size="tiny"
                                                   />
-                                                </ForwardRef(WithStyles)>
-                                              </ForwardRef(WithStyles)>
+                                                </WithStyles(ForwardRef(IconButton))>
+                                              </WithStyles(ForwardRef(InputAdornment))>
                                             }
                                             fullWidth={false}
                                             inputComponent="input"
@@ -13708,7 +13708,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                   helperText=""
                   invalidDateMessage="Invalid Date Format"
                   keyboardIcon={
-                    <ForwardRef(WithTheme)
+                    <WithTheme(ForwardRef)
                       name="outlined-action-calendar"
                       size="tiny"
                     />
@@ -13749,7 +13749,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
-                      <ForwardRef(WithTheme)
+                      <WithTheme(ForwardRef)
                         name="outlined-action-calendar"
                         size="tiny"
                       />
@@ -13785,7 +13785,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                       format="MMMM do"
                       helperText=""
                       keyboardIcon={
-                        <ForwardRef(WithTheme)
+                        <WithTheme(ForwardRef)
                           name="outlined-action-calendar"
                           size="tiny"
                         />
@@ -13811,7 +13811,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                         helperText=""
                         inputValue=""
                         keyboardIcon={
-                          <ForwardRef(WithTheme)
+                          <WithTheme(ForwardRef)
                             name="outlined-action-calendar"
                             size="tiny"
                           />
@@ -13833,18 +13833,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                             InputProps={
                               Object {
                                 "className": "",
-                                "endAdornment": <ForwardRef(WithStyles)
+                                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                   position="end"
                                 >
-                                  <ForwardRef(WithStyles)
+                                  <WithStyles(ForwardRef(IconButton))
                                     onClick={[Function]}
                                   >
-                                    <ForwardRef(WithTheme)
+                                    <WithTheme(ForwardRef)
                                       name="outlined-action-calendar"
                                       size="tiny"
                                     />
-                                  </ForwardRef(WithStyles)>
-                                </ForwardRef(WithStyles)>,
+                                  </WithStyles(ForwardRef(IconButton))>
+                                </WithStyles(ForwardRef(InputAdornment))>,
                               }
                             }
                             error={false}
@@ -13858,18 +13858,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                               InputProps={
                                 Object {
                                   "className": "",
-                                  "endAdornment": <ForwardRef(WithStyles)
+                                  "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                     position="end"
                                   >
-                                    <ForwardRef(WithStyles)
+                                    <WithStyles(ForwardRef(IconButton))
                                       onClick={[Function]}
                                     >
-                                      <ForwardRef(WithTheme)
+                                      <WithTheme(ForwardRef)
                                         name="outlined-action-calendar"
                                         size="tiny"
                                       />
-                                    </ForwardRef(WithStyles)>
-                                  </ForwardRef(WithStyles)>,
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </WithStyles(ForwardRef(InputAdornment))>,
                                 }
                               }
                               classes={
@@ -13917,18 +13917,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                                       autoFocus={false}
                                       className=""
                                       endAdornment={
-                                        <ForwardRef(WithStyles)
+                                        <WithStyles(ForwardRef(InputAdornment))
                                           position="end"
                                         >
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(IconButton))
                                             onClick={[Function]}
                                           >
-                                            <ForwardRef(WithTheme)
+                                            <WithTheme(ForwardRef)
                                               name="outlined-action-calendar"
                                               size="tiny"
                                             />
-                                          </ForwardRef(WithStyles)>
-                                        </ForwardRef(WithStyles)>
+                                          </WithStyles(ForwardRef(IconButton))>
+                                        </WithStyles(ForwardRef(InputAdornment))>
                                       }
                                       fullWidth={false}
                                       multiline={false}
@@ -13957,18 +13957,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                                           }
                                         }
                                         endAdornment={
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(InputAdornment))
                                             position="end"
                                           >
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(IconButton))
                                               onClick={[Function]}
                                             >
-                                              <ForwardRef(WithTheme)
+                                              <WithTheme(ForwardRef)
                                                 name="outlined-action-calendar"
                                                 size="tiny"
                                               />
-                                            </ForwardRef(WithStyles)>
-                                          </ForwardRef(WithStyles)>
+                                            </WithStyles(ForwardRef(IconButton))>
+                                          </WithStyles(ForwardRef(InputAdornment))>
                                         }
                                         fullWidth={false}
                                         multiline={false}
@@ -13997,18 +13997,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                                             }
                                           }
                                           endAdornment={
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(InputAdornment))
                                               position="end"
                                             >
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(IconButton))
                                                 onClick={[Function]}
                                               >
-                                                <ForwardRef(WithTheme)
+                                                <WithTheme(ForwardRef)
                                                   name="outlined-action-calendar"
                                                   size="tiny"
                                                 />
-                                              </ForwardRef(WithStyles)>
-                                            </ForwardRef(WithStyles)>
+                                              </WithStyles(ForwardRef(IconButton))>
+                                            </WithStyles(ForwardRef(InputAdornment))>
                                           }
                                           fullWidth={false}
                                           inputComponent="input"
@@ -14043,18 +14043,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                                               }
                                             }
                                             endAdornment={
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(InputAdornment))
                                                 position="end"
                                               >
-                                                <ForwardRef(WithStyles)
+                                                <WithStyles(ForwardRef(IconButton))
                                                   onClick={[Function]}
                                                 >
-                                                  <ForwardRef(WithTheme)
+                                                  <WithTheme(ForwardRef)
                                                     name="outlined-action-calendar"
                                                     size="tiny"
                                                   />
-                                                </ForwardRef(WithStyles)>
-                                              </ForwardRef(WithStyles)>
+                                                </WithStyles(ForwardRef(IconButton))>
+                                              </WithStyles(ForwardRef(InputAdornment))>
                                             }
                                             fullWidth={false}
                                             inputComponent="input"
@@ -20176,7 +20176,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                   helperText=""
                   invalidDateMessage="Invalid Date Format"
                   keyboardIcon={
-                    <ForwardRef(WithTheme)
+                    <WithTheme(ForwardRef)
                       name="outlined-action-calendar"
                       size="tiny"
                     />
@@ -20888,7 +20888,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
-                      <ForwardRef(WithTheme)
+                      <WithTheme(ForwardRef)
                         name="outlined-action-calendar"
                         size="tiny"
                       />
@@ -21595,7 +21595,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                       format="MMMM do"
                       helperText=""
                       keyboardIcon={
-                        <ForwardRef(WithTheme)
+                        <WithTheme(ForwardRef)
                           name="outlined-action-calendar"
                           size="tiny"
                         />
@@ -22292,7 +22292,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                         helperText=""
                         inputValue="February 1st"
                         keyboardIcon={
-                          <ForwardRef(WithTheme)
+                          <WithTheme(ForwardRef)
                             name="outlined-action-calendar"
                             size="tiny"
                           />
@@ -22985,18 +22985,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                             InputProps={
                               Object {
                                 "className": "MuiError",
-                                "endAdornment": <ForwardRef(WithStyles)
+                                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                   position="end"
                                 >
-                                  <ForwardRef(WithStyles)
+                                  <WithStyles(ForwardRef(IconButton))
                                     onClick={[Function]}
                                   >
-                                    <ForwardRef(WithTheme)
+                                    <WithTheme(ForwardRef)
                                       name="outlined-action-calendar"
                                       size="tiny"
                                     />
-                                  </ForwardRef(WithStyles)>
-                                </ForwardRef(WithStyles)>,
+                                  </WithStyles(ForwardRef(IconButton))>
+                                </WithStyles(ForwardRef(InputAdornment))>,
                               }
                             }
                             error={false}
@@ -23681,18 +23681,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                               InputProps={
                                 Object {
                                   "className": "MuiError",
-                                  "endAdornment": <ForwardRef(WithStyles)
+                                  "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                     position="end"
                                   >
-                                    <ForwardRef(WithStyles)
+                                    <WithStyles(ForwardRef(IconButton))
                                       onClick={[Function]}
                                     >
-                                      <ForwardRef(WithTheme)
+                                      <WithTheme(ForwardRef)
                                         name="outlined-action-calendar"
                                         size="tiny"
                                       />
-                                    </ForwardRef(WithStyles)>
-                                  </ForwardRef(WithStyles)>,
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </WithStyles(ForwardRef(InputAdornment))>,
                                 }
                               }
                               classes={
@@ -26424,18 +26424,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                       autoFocus={false}
                                       className="MuiError"
                                       endAdornment={
-                                        <ForwardRef(WithStyles)
+                                        <WithStyles(ForwardRef(InputAdornment))
                                           position="end"
                                         >
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(IconButton))
                                             onClick={[Function]}
                                           >
-                                            <ForwardRef(WithTheme)
+                                            <WithTheme(ForwardRef)
                                               name="outlined-action-calendar"
                                               size="tiny"
                                             />
-                                          </ForwardRef(WithStyles)>
-                                        </ForwardRef(WithStyles)>
+                                          </WithStyles(ForwardRef(IconButton))>
+                                        </WithStyles(ForwardRef(InputAdornment))>
                                       }
                                       fullWidth={false}
                                       multiline={false}
@@ -26464,18 +26464,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                           }
                                         }
                                         endAdornment={
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(InputAdornment))
                                             position="end"
                                           >
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(IconButton))
                                               onClick={[Function]}
                                             >
-                                              <ForwardRef(WithTheme)
+                                              <WithTheme(ForwardRef)
                                                 name="outlined-action-calendar"
                                                 size="tiny"
                                               />
-                                            </ForwardRef(WithStyles)>
-                                          </ForwardRef(WithStyles)>
+                                            </WithStyles(ForwardRef(IconButton))>
+                                          </WithStyles(ForwardRef(InputAdornment))>
                                         }
                                         fullWidth={false}
                                         multiline={false}
@@ -26504,18 +26504,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                             }
                                           }
                                           endAdornment={
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(InputAdornment))
                                               position="end"
                                             >
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(IconButton))
                                                 onClick={[Function]}
                                               >
-                                                <ForwardRef(WithTheme)
+                                                <WithTheme(ForwardRef)
                                                   name="outlined-action-calendar"
                                                   size="tiny"
                                                 />
-                                              </ForwardRef(WithStyles)>
-                                            </ForwardRef(WithStyles)>
+                                              </WithStyles(ForwardRef(IconButton))>
+                                            </WithStyles(ForwardRef(InputAdornment))>
                                           }
                                           fullWidth={false}
                                           inputComponent="input"
@@ -26550,18 +26550,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                               }
                                             }
                                             endAdornment={
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(InputAdornment))
                                                 position="end"
                                               >
-                                                <ForwardRef(WithStyles)
+                                                <WithStyles(ForwardRef(IconButton))
                                                   onClick={[Function]}
                                                 >
-                                                  <ForwardRef(WithTheme)
+                                                  <WithTheme(ForwardRef)
                                                     name="outlined-action-calendar"
                                                     size="tiny"
                                                   />
-                                                </ForwardRef(WithStyles)>
-                                              </ForwardRef(WithStyles)>
+                                                </WithStyles(ForwardRef(IconButton))>
+                                              </WithStyles(ForwardRef(InputAdornment))>
                                             }
                                             fullWidth={false}
                                             inputComponent="input"
@@ -27312,7 +27312,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                   helperText=""
                   invalidDateMessage="Invalid Date Format"
                   keyboardIcon={
-                    <ForwardRef(WithTheme)
+                    <WithTheme(ForwardRef)
                       name="outlined-action-calendar"
                       size="tiny"
                     />
@@ -27353,7 +27353,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
-                      <ForwardRef(WithTheme)
+                      <WithTheme(ForwardRef)
                         name="outlined-action-calendar"
                         size="tiny"
                       />
@@ -27389,7 +27389,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                       format="MMMM do"
                       helperText=""
                       keyboardIcon={
-                        <ForwardRef(WithTheme)
+                        <WithTheme(ForwardRef)
                           name="outlined-action-calendar"
                           size="tiny"
                         />
@@ -27415,7 +27415,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                         helperText=""
                         inputValue="February 1st"
                         keyboardIcon={
-                          <ForwardRef(WithTheme)
+                          <WithTheme(ForwardRef)
                             name="outlined-action-calendar"
                             size="tiny"
                           />
@@ -27437,18 +27437,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                             InputProps={
                               Object {
                                 "className": "MuiFilled",
-                                "endAdornment": <ForwardRef(WithStyles)
+                                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                   position="end"
                                 >
-                                  <ForwardRef(WithStyles)
+                                  <WithStyles(ForwardRef(IconButton))
                                     onClick={[Function]}
                                   >
-                                    <ForwardRef(WithTheme)
+                                    <WithTheme(ForwardRef)
                                       name="outlined-action-calendar"
                                       size="tiny"
                                     />
-                                  </ForwardRef(WithStyles)>
-                                </ForwardRef(WithStyles)>,
+                                  </WithStyles(ForwardRef(IconButton))>
+                                </WithStyles(ForwardRef(InputAdornment))>,
                               }
                             }
                             error={false}
@@ -27462,18 +27462,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                               InputProps={
                                 Object {
                                   "className": "MuiFilled",
-                                  "endAdornment": <ForwardRef(WithStyles)
+                                  "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                     position="end"
                                   >
-                                    <ForwardRef(WithStyles)
+                                    <WithStyles(ForwardRef(IconButton))
                                       onClick={[Function]}
                                     >
-                                      <ForwardRef(WithTheme)
+                                      <WithTheme(ForwardRef)
                                         name="outlined-action-calendar"
                                         size="tiny"
                                       />
-                                    </ForwardRef(WithStyles)>
-                                  </ForwardRef(WithStyles)>,
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </WithStyles(ForwardRef(InputAdornment))>,
                                 }
                               }
                               classes={
@@ -27521,18 +27521,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                       autoFocus={false}
                                       className="MuiFilled"
                                       endAdornment={
-                                        <ForwardRef(WithStyles)
+                                        <WithStyles(ForwardRef(InputAdornment))
                                           position="end"
                                         >
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(IconButton))
                                             onClick={[Function]}
                                           >
-                                            <ForwardRef(WithTheme)
+                                            <WithTheme(ForwardRef)
                                               name="outlined-action-calendar"
                                               size="tiny"
                                             />
-                                          </ForwardRef(WithStyles)>
-                                        </ForwardRef(WithStyles)>
+                                          </WithStyles(ForwardRef(IconButton))>
+                                        </WithStyles(ForwardRef(InputAdornment))>
                                       }
                                       fullWidth={false}
                                       multiline={false}
@@ -27561,18 +27561,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                           }
                                         }
                                         endAdornment={
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(InputAdornment))
                                             position="end"
                                           >
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(IconButton))
                                               onClick={[Function]}
                                             >
-                                              <ForwardRef(WithTheme)
+                                              <WithTheme(ForwardRef)
                                                 name="outlined-action-calendar"
                                                 size="tiny"
                                               />
-                                            </ForwardRef(WithStyles)>
-                                          </ForwardRef(WithStyles)>
+                                            </WithStyles(ForwardRef(IconButton))>
+                                          </WithStyles(ForwardRef(InputAdornment))>
                                         }
                                         fullWidth={false}
                                         multiline={false}
@@ -27601,18 +27601,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                             }
                                           }
                                           endAdornment={
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(InputAdornment))
                                               position="end"
                                             >
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(IconButton))
                                                 onClick={[Function]}
                                               >
-                                                <ForwardRef(WithTheme)
+                                                <WithTheme(ForwardRef)
                                                   name="outlined-action-calendar"
                                                   size="tiny"
                                                 />
-                                              </ForwardRef(WithStyles)>
-                                            </ForwardRef(WithStyles)>
+                                              </WithStyles(ForwardRef(IconButton))>
+                                            </WithStyles(ForwardRef(InputAdornment))>
                                           }
                                           fullWidth={false}
                                           inputComponent="input"
@@ -27647,18 +27647,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                               }
                                             }
                                             endAdornment={
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(InputAdornment))
                                                 position="end"
                                               >
-                                                <ForwardRef(WithStyles)
+                                                <WithStyles(ForwardRef(IconButton))
                                                   onClick={[Function]}
                                                 >
-                                                  <ForwardRef(WithTheme)
+                                                  <WithTheme(ForwardRef)
                                                     name="outlined-action-calendar"
                                                     size="tiny"
                                                   />
-                                                </ForwardRef(WithStyles)>
-                                              </ForwardRef(WithStyles)>
+                                                </WithStyles(ForwardRef(IconButton))>
+                                              </WithStyles(ForwardRef(InputAdornment))>
                                             }
                                             fullWidth={false}
                                             inputComponent="input"
@@ -28465,7 +28465,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                   helperText=""
                   invalidDateMessage="Invalid Date Format"
                   keyboardIcon={
-                    <ForwardRef(WithTheme)
+                    <WithTheme(ForwardRef)
                       name="outlined-action-calendar"
                       size="tiny"
                     />
@@ -28507,7 +28507,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
-                      <ForwardRef(WithTheme)
+                      <WithTheme(ForwardRef)
                         name="outlined-action-calendar"
                         size="tiny"
                       />
@@ -28543,7 +28543,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                       format="MMMM do"
                       helperText=""
                       keyboardIcon={
-                        <ForwardRef(WithTheme)
+                        <WithTheme(ForwardRef)
                           name="outlined-action-calendar"
                           size="tiny"
                         />
@@ -28569,7 +28569,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                         helperText=""
                         inputValue="February 1st"
                         keyboardIcon={
-                          <ForwardRef(WithTheme)
+                          <WithTheme(ForwardRef)
                             name="outlined-action-calendar"
                             size="tiny"
                           />
@@ -28591,18 +28591,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                             InputProps={
                               Object {
                                 "className": "MuiFilled",
-                                "endAdornment": <ForwardRef(WithStyles)
+                                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                   position="end"
                                 >
-                                  <ForwardRef(WithStyles)
+                                  <WithStyles(ForwardRef(IconButton))
                                     onClick={[Function]}
                                   >
-                                    <ForwardRef(WithTheme)
+                                    <WithTheme(ForwardRef)
                                       name="outlined-action-calendar"
                                       size="tiny"
                                     />
-                                  </ForwardRef(WithStyles)>
-                                </ForwardRef(WithStyles)>,
+                                  </WithStyles(ForwardRef(IconButton))>
+                                </WithStyles(ForwardRef(InputAdornment))>,
                               }
                             }
                             error={false}
@@ -28616,18 +28616,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                               InputProps={
                                 Object {
                                   "className": "MuiFilled",
-                                  "endAdornment": <ForwardRef(WithStyles)
+                                  "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                     position="end"
                                   >
-                                    <ForwardRef(WithStyles)
+                                    <WithStyles(ForwardRef(IconButton))
                                       onClick={[Function]}
                                     >
-                                      <ForwardRef(WithTheme)
+                                      <WithTheme(ForwardRef)
                                         name="outlined-action-calendar"
                                         size="tiny"
                                       />
-                                    </ForwardRef(WithStyles)>
-                                  </ForwardRef(WithStyles)>,
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </WithStyles(ForwardRef(InputAdornment))>,
                                 }
                               }
                               classes={
@@ -28675,18 +28675,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                       autoFocus={false}
                                       className="MuiFilled"
                                       endAdornment={
-                                        <ForwardRef(WithStyles)
+                                        <WithStyles(ForwardRef(InputAdornment))
                                           position="end"
                                         >
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(IconButton))
                                             onClick={[Function]}
                                           >
-                                            <ForwardRef(WithTheme)
+                                            <WithTheme(ForwardRef)
                                               name="outlined-action-calendar"
                                               size="tiny"
                                             />
-                                          </ForwardRef(WithStyles)>
-                                        </ForwardRef(WithStyles)>
+                                          </WithStyles(ForwardRef(IconButton))>
+                                        </WithStyles(ForwardRef(InputAdornment))>
                                       }
                                       fullWidth={false}
                                       multiline={false}
@@ -28715,18 +28715,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                           }
                                         }
                                         endAdornment={
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(InputAdornment))
                                             position="end"
                                           >
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(IconButton))
                                               onClick={[Function]}
                                             >
-                                              <ForwardRef(WithTheme)
+                                              <WithTheme(ForwardRef)
                                                 name="outlined-action-calendar"
                                                 size="tiny"
                                               />
-                                            </ForwardRef(WithStyles)>
-                                          </ForwardRef(WithStyles)>
+                                            </WithStyles(ForwardRef(IconButton))>
+                                          </WithStyles(ForwardRef(InputAdornment))>
                                         }
                                         fullWidth={false}
                                         multiline={false}
@@ -28755,18 +28755,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                             }
                                           }
                                           endAdornment={
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(InputAdornment))
                                               position="end"
                                             >
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(IconButton))
                                                 onClick={[Function]}
                                               >
-                                                <ForwardRef(WithTheme)
+                                                <WithTheme(ForwardRef)
                                                   name="outlined-action-calendar"
                                                   size="tiny"
                                                 />
-                                              </ForwardRef(WithStyles)>
-                                            </ForwardRef(WithStyles)>
+                                              </WithStyles(ForwardRef(IconButton))>
+                                            </WithStyles(ForwardRef(InputAdornment))>
                                           }
                                           fullWidth={false}
                                           inputComponent="input"
@@ -28801,18 +28801,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                               }
                                             }
                                             endAdornment={
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(InputAdornment))
                                                 position="end"
                                               >
-                                                <ForwardRef(WithStyles)
+                                                <WithStyles(ForwardRef(IconButton))
                                                   onClick={[Function]}
                                                 >
-                                                  <ForwardRef(WithTheme)
+                                                  <WithTheme(ForwardRef)
                                                     name="outlined-action-calendar"
                                                     size="tiny"
                                                   />
-                                                </ForwardRef(WithStyles)>
-                                              </ForwardRef(WithStyles)>
+                                                </WithStyles(ForwardRef(IconButton))>
+                                              </WithStyles(ForwardRef(InputAdornment))>
                                             }
                                             fullWidth={false}
                                             inputComponent="input"
@@ -38888,7 +38888,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                   helperText=""
                   invalidDateMessage="Invalid Date Format"
                   keyboardIcon={
-                    <ForwardRef(WithTheme)
+                    <WithTheme(ForwardRef)
                       name="outlined-action-calendar"
                       size="tiny"
                     />
@@ -38930,7 +38930,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
-                      <ForwardRef(WithTheme)
+                      <WithTheme(ForwardRef)
                         name="outlined-action-calendar"
                         size="tiny"
                       />
@@ -38967,7 +38967,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                       format="MMMM do"
                       helperText=""
                       keyboardIcon={
-                        <ForwardRef(WithTheme)
+                        <WithTheme(ForwardRef)
                           name="outlined-action-calendar"
                           size="tiny"
                         />
@@ -38994,7 +38994,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                         helperText=""
                         inputValue="February 1st"
                         keyboardIcon={
-                          <ForwardRef(WithTheme)
+                          <WithTheme(ForwardRef)
                             name="outlined-action-calendar"
                             size="tiny"
                           />
@@ -39017,18 +39017,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                             InputProps={
                               Object {
                                 "className": "MuiFilled",
-                                "endAdornment": <ForwardRef(WithStyles)
+                                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                   position="end"
                                 >
-                                  <ForwardRef(WithStyles)
+                                  <WithStyles(ForwardRef(IconButton))
                                     onClick={[Function]}
                                   >
-                                    <ForwardRef(WithTheme)
+                                    <WithTheme(ForwardRef)
                                       name="outlined-action-calendar"
                                       size="tiny"
                                     />
-                                  </ForwardRef(WithStyles)>
-                                </ForwardRef(WithStyles)>,
+                                  </WithStyles(ForwardRef(IconButton))>
+                                </WithStyles(ForwardRef(InputAdornment))>,
                               }
                             }
                             error={false}
@@ -39043,18 +39043,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                               InputProps={
                                 Object {
                                   "className": "MuiFilled",
-                                  "endAdornment": <ForwardRef(WithStyles)
+                                  "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                     position="end"
                                   >
-                                    <ForwardRef(WithStyles)
+                                    <WithStyles(ForwardRef(IconButton))
                                       onClick={[Function]}
                                     >
-                                      <ForwardRef(WithTheme)
+                                      <WithTheme(ForwardRef)
                                         name="outlined-action-calendar"
                                         size="tiny"
                                       />
-                                    </ForwardRef(WithStyles)>
-                                  </ForwardRef(WithStyles)>,
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </WithStyles(ForwardRef(InputAdornment))>,
                                 }
                               }
                               classes={
@@ -39106,18 +39106,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                       autoFocus={false}
                                       className="MuiFilled"
                                       endAdornment={
-                                        <ForwardRef(WithStyles)
+                                        <WithStyles(ForwardRef(InputAdornment))
                                           position="end"
                                         >
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(IconButton))
                                             onClick={[Function]}
                                           >
-                                            <ForwardRef(WithTheme)
+                                            <WithTheme(ForwardRef)
                                               name="outlined-action-calendar"
                                               size="tiny"
                                             />
-                                          </ForwardRef(WithStyles)>
-                                        </ForwardRef(WithStyles)>
+                                          </WithStyles(ForwardRef(IconButton))>
+                                        </WithStyles(ForwardRef(InputAdornment))>
                                       }
                                       fullWidth={false}
                                       multiline={false}
@@ -39146,18 +39146,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                           }
                                         }
                                         endAdornment={
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(InputAdornment))
                                             position="end"
                                           >
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(IconButton))
                                               onClick={[Function]}
                                             >
-                                              <ForwardRef(WithTheme)
+                                              <WithTheme(ForwardRef)
                                                 name="outlined-action-calendar"
                                                 size="tiny"
                                               />
-                                            </ForwardRef(WithStyles)>
-                                          </ForwardRef(WithStyles)>
+                                            </WithStyles(ForwardRef(IconButton))>
+                                          </WithStyles(ForwardRef(InputAdornment))>
                                         }
                                         fullWidth={false}
                                         multiline={false}
@@ -39186,18 +39186,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                             }
                                           }
                                           endAdornment={
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(InputAdornment))
                                               position="end"
                                             >
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(IconButton))
                                                 onClick={[Function]}
                                               >
-                                                <ForwardRef(WithTheme)
+                                                <WithTheme(ForwardRef)
                                                   name="outlined-action-calendar"
                                                   size="tiny"
                                                 />
-                                              </ForwardRef(WithStyles)>
-                                            </ForwardRef(WithStyles)>
+                                              </WithStyles(ForwardRef(IconButton))>
+                                            </WithStyles(ForwardRef(InputAdornment))>
                                           }
                                           fullWidth={false}
                                           inputComponent="input"
@@ -39232,18 +39232,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                               }
                                             }
                                             endAdornment={
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(InputAdornment))
                                                 position="end"
                                               >
-                                                <ForwardRef(WithStyles)
+                                                <WithStyles(ForwardRef(IconButton))
                                                   onClick={[Function]}
                                                 >
-                                                  <ForwardRef(WithTheme)
+                                                  <WithTheme(ForwardRef)
                                                     name="outlined-action-calendar"
                                                     size="tiny"
                                                   />
-                                                </ForwardRef(WithStyles)>
-                                              </ForwardRef(WithStyles)>
+                                                </WithStyles(ForwardRef(IconButton))>
+                                              </WithStyles(ForwardRef(InputAdornment))>
                                             }
                                             fullWidth={false}
                                             inputComponent="input"
@@ -39994,7 +39994,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                   helperText=""
                   invalidDateMessage="Invalid Date Format"
                   keyboardIcon={
-                    <ForwardRef(WithTheme)
+                    <WithTheme(ForwardRef)
                       name="outlined-action-calendar"
                       size="tiny"
                     />
@@ -40035,7 +40035,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
-                      <ForwardRef(WithTheme)
+                      <WithTheme(ForwardRef)
                         name="outlined-action-calendar"
                         size="tiny"
                       />
@@ -40071,7 +40071,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                       format="MMMM do"
                       helperText=""
                       keyboardIcon={
-                        <ForwardRef(WithTheme)
+                        <WithTheme(ForwardRef)
                           name="outlined-action-calendar"
                           size="tiny"
                         />
@@ -40097,7 +40097,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                         helperText=""
                         inputValue="February 1st"
                         keyboardIcon={
-                          <ForwardRef(WithTheme)
+                          <WithTheme(ForwardRef)
                             name="outlined-action-calendar"
                             size="tiny"
                           />
@@ -40119,18 +40119,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                             InputProps={
                               Object {
                                 "className": "MuiFilled",
-                                "endAdornment": <ForwardRef(WithStyles)
+                                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                   position="end"
                                 >
-                                  <ForwardRef(WithStyles)
+                                  <WithStyles(ForwardRef(IconButton))
                                     onClick={[Function]}
                                   >
-                                    <ForwardRef(WithTheme)
+                                    <WithTheme(ForwardRef)
                                       name="outlined-action-calendar"
                                       size="tiny"
                                     />
-                                  </ForwardRef(WithStyles)>
-                                </ForwardRef(WithStyles)>,
+                                  </WithStyles(ForwardRef(IconButton))>
+                                </WithStyles(ForwardRef(InputAdornment))>,
                               }
                             }
                             error={false}
@@ -40144,18 +40144,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                               InputProps={
                                 Object {
                                   "className": "MuiFilled",
-                                  "endAdornment": <ForwardRef(WithStyles)
+                                  "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                     position="end"
                                   >
-                                    <ForwardRef(WithStyles)
+                                    <WithStyles(ForwardRef(IconButton))
                                       onClick={[Function]}
                                     >
-                                      <ForwardRef(WithTheme)
+                                      <WithTheme(ForwardRef)
                                         name="outlined-action-calendar"
                                         size="tiny"
                                       />
-                                    </ForwardRef(WithStyles)>
-                                  </ForwardRef(WithStyles)>,
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </WithStyles(ForwardRef(InputAdornment))>,
                                 }
                               }
                               classes={
@@ -40203,18 +40203,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                       autoFocus={false}
                                       className="MuiFilled"
                                       endAdornment={
-                                        <ForwardRef(WithStyles)
+                                        <WithStyles(ForwardRef(InputAdornment))
                                           position="end"
                                         >
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(IconButton))
                                             onClick={[Function]}
                                           >
-                                            <ForwardRef(WithTheme)
+                                            <WithTheme(ForwardRef)
                                               name="outlined-action-calendar"
                                               size="tiny"
                                             />
-                                          </ForwardRef(WithStyles)>
-                                        </ForwardRef(WithStyles)>
+                                          </WithStyles(ForwardRef(IconButton))>
+                                        </WithStyles(ForwardRef(InputAdornment))>
                                       }
                                       fullWidth={false}
                                       multiline={false}
@@ -40243,18 +40243,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                           }
                                         }
                                         endAdornment={
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(InputAdornment))
                                             position="end"
                                           >
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(IconButton))
                                               onClick={[Function]}
                                             >
-                                              <ForwardRef(WithTheme)
+                                              <WithTheme(ForwardRef)
                                                 name="outlined-action-calendar"
                                                 size="tiny"
                                               />
-                                            </ForwardRef(WithStyles)>
-                                          </ForwardRef(WithStyles)>
+                                            </WithStyles(ForwardRef(IconButton))>
+                                          </WithStyles(ForwardRef(InputAdornment))>
                                         }
                                         fullWidth={false}
                                         multiline={false}
@@ -40283,18 +40283,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                             }
                                           }
                                           endAdornment={
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(InputAdornment))
                                               position="end"
                                             >
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(IconButton))
                                                 onClick={[Function]}
                                               >
-                                                <ForwardRef(WithTheme)
+                                                <WithTheme(ForwardRef)
                                                   name="outlined-action-calendar"
                                                   size="tiny"
                                                 />
-                                              </ForwardRef(WithStyles)>
-                                            </ForwardRef(WithStyles)>
+                                              </WithStyles(ForwardRef(IconButton))>
+                                            </WithStyles(ForwardRef(InputAdornment))>
                                           }
                                           fullWidth={false}
                                           inputComponent="input"
@@ -40329,18 +40329,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                               }
                                             }
                                             endAdornment={
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(InputAdornment))
                                                 position="end"
                                               >
-                                                <ForwardRef(WithStyles)
+                                                <WithStyles(ForwardRef(IconButton))
                                                   onClick={[Function]}
                                                 >
-                                                  <ForwardRef(WithTheme)
+                                                  <WithTheme(ForwardRef)
                                                     name="outlined-action-calendar"
                                                     size="tiny"
                                                   />
-                                                </ForwardRef(WithStyles)>
-                                              </ForwardRef(WithStyles)>
+                                                </WithStyles(ForwardRef(IconButton))>
+                                              </WithStyles(ForwardRef(InputAdornment))>
                                             }
                                             fullWidth={false}
                                             inputComponent="input"
@@ -40993,7 +40993,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Static variant
           helperText=""
           invalidDateMessage="Invalid Date Format"
           keyboardIcon={
-            <ForwardRef(WithTheme)
+            <WithTheme(ForwardRef)
               name="outlined-action-calendar"
               size="tiny"
             />
@@ -41034,7 +41034,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Static variant
             format="MMMM do"
             helperText=""
             keyboardIcon={
-              <ForwardRef(WithTheme)
+              <WithTheme(ForwardRef)
                 name="outlined-action-calendar"
                 size="tiny"
               />
@@ -41067,7 +41067,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Static variant
               format="MMMM do"
               helperText=""
               keyboardIcon={
-                <ForwardRef(WithTheme)
+                <WithTheme(ForwardRef)
                   name="outlined-action-calendar"
                   size="tiny"
                 />
@@ -54384,7 +54384,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                   helperText=""
                   invalidDateMessage="Invalid Date Format"
                   keyboardIcon={
-                    <ForwardRef(WithTheme)
+                    <WithTheme(ForwardRef)
                       name="outlined-action-calendar"
                       size="tiny"
                     />
@@ -55096,7 +55096,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                     format="MMMM do"
                     helperText=""
                     keyboardIcon={
-                      <ForwardRef(WithTheme)
+                      <WithTheme(ForwardRef)
                         name="outlined-action-calendar"
                         size="tiny"
                       />
@@ -55803,7 +55803,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                       format="MMMM do"
                       helperText=""
                       keyboardIcon={
-                        <ForwardRef(WithTheme)
+                        <WithTheme(ForwardRef)
                           name="outlined-action-calendar"
                           size="tiny"
                         />
@@ -56500,7 +56500,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                         helperText=""
                         inputValue="February 1st"
                         keyboardIcon={
-                          <ForwardRef(WithTheme)
+                          <WithTheme(ForwardRef)
                             name="outlined-action-calendar"
                             size="tiny"
                           />
@@ -57193,18 +57193,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                             InputProps={
                               Object {
                                 "className": "MuiSuccess",
-                                "endAdornment": <ForwardRef(WithStyles)
+                                "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                   position="end"
                                 >
-                                  <ForwardRef(WithStyles)
+                                  <WithStyles(ForwardRef(IconButton))
                                     onClick={[Function]}
                                   >
-                                    <ForwardRef(WithTheme)
+                                    <WithTheme(ForwardRef)
                                       name="outlined-action-calendar"
                                       size="tiny"
                                     />
-                                  </ForwardRef(WithStyles)>
-                                </ForwardRef(WithStyles)>,
+                                  </WithStyles(ForwardRef(IconButton))>
+                                </WithStyles(ForwardRef(InputAdornment))>,
                               }
                             }
                             error={false}
@@ -57889,18 +57889,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                               InputProps={
                                 Object {
                                   "className": "MuiSuccess",
-                                  "endAdornment": <ForwardRef(WithStyles)
+                                  "endAdornment": <WithStyles(ForwardRef(InputAdornment))
                                     position="end"
                                   >
-                                    <ForwardRef(WithStyles)
+                                    <WithStyles(ForwardRef(IconButton))
                                       onClick={[Function]}
                                     >
-                                      <ForwardRef(WithTheme)
+                                      <WithTheme(ForwardRef)
                                         name="outlined-action-calendar"
                                         size="tiny"
                                       />
-                                    </ForwardRef(WithStyles)>
-                                  </ForwardRef(WithStyles)>,
+                                    </WithStyles(ForwardRef(IconButton))>
+                                  </WithStyles(ForwardRef(InputAdornment))>,
                                 }
                               }
                               classes={
@@ -60632,18 +60632,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                       autoFocus={false}
                                       className="MuiSuccess"
                                       endAdornment={
-                                        <ForwardRef(WithStyles)
+                                        <WithStyles(ForwardRef(InputAdornment))
                                           position="end"
                                         >
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(IconButton))
                                             onClick={[Function]}
                                           >
-                                            <ForwardRef(WithTheme)
+                                            <WithTheme(ForwardRef)
                                               name="outlined-action-calendar"
                                               size="tiny"
                                             />
-                                          </ForwardRef(WithStyles)>
-                                        </ForwardRef(WithStyles)>
+                                          </WithStyles(ForwardRef(IconButton))>
+                                        </WithStyles(ForwardRef(InputAdornment))>
                                       }
                                       fullWidth={false}
                                       multiline={false}
@@ -60672,18 +60672,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                           }
                                         }
                                         endAdornment={
-                                          <ForwardRef(WithStyles)
+                                          <WithStyles(ForwardRef(InputAdornment))
                                             position="end"
                                           >
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(IconButton))
                                               onClick={[Function]}
                                             >
-                                              <ForwardRef(WithTheme)
+                                              <WithTheme(ForwardRef)
                                                 name="outlined-action-calendar"
                                                 size="tiny"
                                               />
-                                            </ForwardRef(WithStyles)>
-                                          </ForwardRef(WithStyles)>
+                                            </WithStyles(ForwardRef(IconButton))>
+                                          </WithStyles(ForwardRef(InputAdornment))>
                                         }
                                         fullWidth={false}
                                         multiline={false}
@@ -60712,18 +60712,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                             }
                                           }
                                           endAdornment={
-                                            <ForwardRef(WithStyles)
+                                            <WithStyles(ForwardRef(InputAdornment))
                                               position="end"
                                             >
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(IconButton))
                                                 onClick={[Function]}
                                               >
-                                                <ForwardRef(WithTheme)
+                                                <WithTheme(ForwardRef)
                                                   name="outlined-action-calendar"
                                                   size="tiny"
                                                 />
-                                              </ForwardRef(WithStyles)>
-                                            </ForwardRef(WithStyles)>
+                                              </WithStyles(ForwardRef(IconButton))>
+                                            </WithStyles(ForwardRef(InputAdornment))>
                                           }
                                           fullWidth={false}
                                           inputComponent="input"
@@ -60758,18 +60758,18 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                               }
                                             }
                                             endAdornment={
-                                              <ForwardRef(WithStyles)
+                                              <WithStyles(ForwardRef(InputAdornment))
                                                 position="end"
                                               >
-                                                <ForwardRef(WithStyles)
+                                                <WithStyles(ForwardRef(IconButton))
                                                   onClick={[Function]}
                                                 >
-                                                  <ForwardRef(WithTheme)
+                                                  <WithTheme(ForwardRef)
                                                     name="outlined-action-calendar"
                                                     size="tiny"
                                                   />
-                                                </ForwardRef(WithStyles)>
-                                              </ForwardRef(WithStyles)>
+                                                </WithStyles(ForwardRef(IconButton))>
+                                              </WithStyles(ForwardRef(InputAdornment))>
                                             }
                                             fullWidth={false}
                                             inputComponent="input"

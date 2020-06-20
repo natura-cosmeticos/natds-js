@@ -1,14 +1,15 @@
 {
+  "command": {
+    "publish": {
+      "conventionalCommits": true,
+      "message": "chore(release): publish %s via lerna [skip ci]"
+    }
+  },
   "lerna": "3.16.4",
+  "npmClient": "yarn",
   "packages": [
     "packages/*"
   ],
-  "npmClient": "yarn",
   "useWorkspaces": true,
-  "version": "independent",
-  "command": {
-    "publish": {
-      "conventionalCommits": true
-    }
-  }
+  "version": "0.7.11"
 }

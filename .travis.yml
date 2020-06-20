@@ -1,8 +1,9 @@
 ---
-branches:
-  except:
-    - /v\d+\.\d+\.\d+$/
-    - /v\d+\.\d+\.\d+-docs$/
+language: node_js
+os: linux
+dist: xenial
+node_js:
+  - lts/*
 cache:
   directories:
     - node_modules
@@ -10,22 +11,42 @@ cache:
     - packages/web/node_modules
     - packages/styles/node_modules
     - packages/docs/node_modules
-dist: xenial
+  yarn:
+    true
+git:
+  quiet: true
+branches:
+  except:
+    - /v\d+\.\d+\.\d+$/
+    - /v\d+\.\d+\.\d+-docs$/
 jobs:
   include:
     - stage: dependency-check
-      if: "branch =~ /^dependabot\\/(.+)$/ OR branch =~ /^renovate\\/(.+)$/"
-      script: "yarn test"
-    - stage: prerelease
-      if: "branch =~ /^DSY-(\\d+)$/"
-      script: "yarn prerelease $TRAVIS_BRANCH && yarn publish"
+      name: "Dependency check"
+      if: type = pull_request
+      script: yarn run verify:ci
     - stage: release
+      name: "Release"
+      if: type = push
+      script: yarn run verify:ci
+      before_deploy:
+        - "git remote rm origin"
+        - "git remote add origin https://$GITHUB_API_USER:$GITHUB_API_KEY@github.com/natura-cosmeticos/natds-js"
+        - "git fetch --quiet"
+        - "git checkout $TRAVIS_BRANCH"
+        - "git config --global user.email \"systemteamopensource@natura.net\""
+        - "git config --global user.name \"$GITHUB_API_USER in behalf of System Team Open Source\""
+        - "npm config set '//registry.npmjs.org/:_authToken' \"${NPM_AUTH_TOKEN}\""
+        - "yarn config set _authToken ${NPM_AUTH_TOKEN}"
       deploy:
-        provider: script
-        script: "yarn release && yarn publish"
-        on:
-          branch: master
-language: node_js
-node_js:
-  - lts/*
-os: linux
+        - provider: script
+          script: "yarn run prerelease:ci $TRAVIS_BRANCH && yarn run lerna:publish:ci"
+          skip_cleanup: true
+          on:
+            all_branches: true
+            condition: branch =~ ^DSY-(\\d+)$
+        - provider: script
+          script: "yarn run release:ci && yarn run lerna:publish:ci"
+          skip_cleanup: true
+          on:
+            branch: master

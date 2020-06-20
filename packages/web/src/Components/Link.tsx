@@ -1,4 +1,4 @@
-import React, { FunctionComponent, forwardRef } from 'react';
+import React, { forwardRef } from 'react';
 import MaterialLink, { LinkProps } from '@material-ui/core/Link';
 import { withTheme } from '@material-ui/core';
 import { IThemeWeb } from 'Themes';
@@ -27,7 +27,7 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
   theme?: IThemeWeb | unknown;
 }
 
-const Link: FunctionComponent<ILinkProps> = forwardRef((
+const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & React.RefAttributes<unknown>> = forwardRef((
   props: ILinkProps,
   ref: any
 ) => {

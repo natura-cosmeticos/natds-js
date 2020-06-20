@@ -1,6 +1,6 @@
 {
   "name": "natds",
-  "displayName": "Root",
+  "displayName": "NatDS Root",
   "version": "0.6.13",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "ISC",
@@ -30,12 +30,14 @@
     "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
     "clean": "lerna clean",
     "commit": "git cz",
+    "lerna:publish": "lerna publish from-git",
+    "lerna:publish:ci": "yarn lerna:publish --yes",
     "prerelease": "lerna version --conventional-commits --conventional-prerelease",
-    "publish": "lerna publish from-git",
+    "prerelease:ci": "lerna version --conventional-commits --conventional-prerelease --force-publish --yes",
     "release": "lerna version --conventional-commits",
+    "release:ci": "lerna version --conventional-commits --conventional-graduate --force-publish --yes --create-release github",
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
-    "semantic-release": "lerna exec --concurrency 1 -- npx --no-install semantic-release -e semantic-release-monorepo",
     "stryker:run": "stryker run",
     "test": "yarn run verify:ci",
     "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons",
@@ -49,10 +51,10 @@
   "private": true,
   "workspaces": {
     "packages": [
+      "packages/docs",
       "packages/icons",
       "packages/styles",
-      "packages/web",
-      "packages/docs"
+      "packages/web"
     ],
     "nohoist": [
       "**/create-react-class",
@@ -73,13 +75,11 @@
     "@stryker-mutator/jest-runner": "3.3.0",
     "commitizen": "4.1.2",
     "concurrently": "5.2.0",
-    "cz-lerna-changelog": "2.0.2",
+    "cz-lerna-changelog": "2.0.3",
     "husky": "4.2.5",
     "jest": "26.0.1",
     "lerna": "3.22.1",
     "netlify": "4.3.1",
-    "semantic-release": "17.0.8",
-    "semantic-release-monorepo": "7.0.2",
     "shelljs": "0.8.4"
   },
   "config": {

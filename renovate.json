@@ -4,7 +4,14 @@
   "extends": [
     "config:base"
   ],
-  "ignoreDeps": ["snyk"],
+  "ignoreDeps": [
+    "@material-ui/core",
+    "@material-ui/icons",
+    "@naturacosmeticos/natds-icons",
+    "@naturacosmeticos/natds-styles",
+    "@naturacosmeticos/natds-web",
+    "snyk"
+  ],
   "labels": ["dependencies", "renovate"],
   "masterIssue": true,
   "masterIssueAutoclose": true,
