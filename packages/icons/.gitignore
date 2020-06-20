@@ -1,7 +1,8 @@
-/node_modules/
+*.code-workspace
+*.log
+.DS_Store
+/.idea/
 /coverage/
 /dist/
-/.idea/
-.DS_Store
-*.log
-*.code-workspace
+/node_modules/
+/output/

@@ -21,27 +21,24 @@ branches:
     - /v\d+\.\d+\.\d+-docs$/
 jobs:
   include:
+    - stage: dependency-check
+      name: "Dependency check"
+      script: yarn run verify:ci
+    - stage: pre-release
+      name: "Pre-release"
+      if: type = push AND branch =~ /^DSY-(\\d+)$/
+      before_script: "sh ./scripts/configure-git.sh"
+      script: "yarn run prerelease:ci $TRAVIS_BRANCH && yarn run lerna:publish:ci"
+      after_script: "sh ./scripts/build-storybook-prerelease.sh"
     - stage: release
       name: "Release"
-      script: yarn run verify:ci
-      before_deploy:
-        - "git remote rm origin"
-        - "git remote add origin https://$GITHUB_API_USER:$GITHUB_API_KEY@github.com/natura-cosmeticos/natds-js"
-        - "git fetch --quiet"
-        - "git checkout $TRAVIS_BRANCH"
-        - "git config --global user.email \"systemteamopensource@natura.net\""
-        - "git config --global user.name \"$GITHUB_API_USER in behalf of System Team Open Source\""
-        - "npm config set '//registry.npmjs.org/:_authToken' \"${NPM_AUTH_TOKEN}\""
-        - "yarn config set _authToken ${NPM_AUTH_TOKEN}"
+      if: type = push AND branch = master
+      script: skip
+      before_deploy: "sh ./scripts/configure-git.sh"
       deploy:
-        - provider: script
-          script: "yarn run prerelease:ci alpha-$TRAVIS_BRANCH && yarn run lerna:publish:ci"
-          skip_cleanup: true
-          on:
-            all_branches: true
-            condition: branch =~ ^DSY-(\\d+)$
         - provider: script
           script: "yarn run release:ci && yarn run lerna:publish:ci"
           skip_cleanup: true
           on:
             branch: master
+      after_deploy: "sh ./scripts/build-storybook.sh"

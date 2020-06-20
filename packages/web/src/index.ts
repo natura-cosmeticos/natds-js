@@ -3,8 +3,6 @@ import { themes as webThemes } from './Themes';
 export const themes = { ...webThemes };
 export { Provider } from './Provider';
 
-// Commented components are not finished yet (Alert and Select).
-// export { default as Alert, IAlertProps } from './Components/Alert';
 export { default as AlertTitle, IAlertTitleProps } from './Components/AlertTitle';
 export { default as AppBar, IAppBarProps } from './Components/AppBar';
 export { default as Avatar, IAvatarProps } from './Components/Avatar';
@@ -67,7 +65,6 @@ export { default as MenuItem, IMenuItemProps } from './Components/MenuItem';
 export { default as Paper, IPaperProps } from './Components/Paper';
 export { default as Popover, IPopoverProps } from './Components/Popover';
 export { default as Radio, IRadioProps } from './Components/Radio';
-// export { default as Select, ISelectProps } from './Components/Select';
 export { default as Snackbar, ISnackbarProps } from './Components/Snackbar';
 export { default as SnackbarContent, ISnackbarContentProps } from './Components/SnackbarContent';
 export { default as Switch, ISwitchProps } from './Components/Switch';

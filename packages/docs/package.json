@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-docs",
-  "version": "0.6.17",
+  "version": "0.7.14-alpha.3",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "keywords": [
@@ -36,9 +36,9 @@
     "verify:ci": "yarn verify"
   },
   "devDependencies": {
-    "@babel/core": "7.10.2",
+    "@babel/core": "7.10.3",
     "@babel/plugin-proposal-class-properties": "7.10.1",
-    "@babel/plugin-proposal-object-rest-spread": "7.10.1",
+    "@babel/plugin-proposal-object-rest-spread": "7.10.3",
     "@babel/preset-flow": "7.10.1",
     "@babel/preset-react": "7.10.1",
     "@babel/preset-typescript": "7.10.1",
@@ -57,6 +57,7 @@
     "@types/react-dom": "16.9.8",
     "@types/react-native": "0.62.13",
     "babel-loader": "8.1.0",
+    "codecov": "3.7.0",
     "css-loader": "3.6.0",
     "file-loader": "6.0.0",
     "react-docgen-typescript": "1.17.1",
@@ -70,16 +71,16 @@
     "tslint-config-prettier": "1.18.0",
     "tslint-config-standard": "9.0.0",
     "tslint-react": "4.1.0",
-    "typescript": "3.7.3",
+    "typescript": "3.9.5",
     "url-loader": "4.1.0",
     "yarn": "1.22.4"
   },
   "dependencies": {
     "@material-ui/core": "4.8.3",
     "@material-ui/icons": "4.9.1",
-    "@naturacosmeticos/natds-icons": "^0.6.17",
-    "@naturacosmeticos/natds-styles": "^0.6.17",
-    "@naturacosmeticos/natds-web": "^0.6.17",
+    "@naturacosmeticos/natds-icons": "^0.7.14-alpha.3",
+    "@naturacosmeticos/natds-styles": "^0.7.14-alpha.3",
+    "@naturacosmeticos/natds-web": "^0.7.14-alpha.3",
     "directory-tree": "2.2.4",
     "fuzzy-search": "3.2.1",
     "react": "16.13.1",

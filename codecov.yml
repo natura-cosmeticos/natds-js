@@ -1,0 +1,35 @@
+coverage:
+  status:
+    project:
+      default: off
+      icons:
+        target: auto
+        flags:
+          - icons
+      styles:
+        target: auto
+        flags:
+          - styles
+      web:
+        target: auto
+        flags:
+          - web
+comment:
+  layout: "reach, diff, flags, files"
+  behavior: default
+  require_changes: false
+  require_base: true
+  require_head: true
+flags:
+  icons:
+    paths:
+      - packages/icons
+    carryforward: false
+  styles:
+    paths:
+      - packages/styles
+    carryforward: false
+  web:
+    paths:
+      - packages/web
+    carryforward: false
