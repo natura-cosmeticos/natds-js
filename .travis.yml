@@ -46,7 +46,7 @@ jobs:
             all_branches: true
             condition: branch =~ ^DSY-(\\d+)$
         - provider: script
-          script: "yarn run release:ci && yarn run lerna:publish:ci && chmod +x scripts/build-storybook.sh && scripts/build-storybook.sh"
+          script: "yarn run release:ci && yarn run lerna:publish:ci"
           skip_cleanup: true
           on:
             branch: master
