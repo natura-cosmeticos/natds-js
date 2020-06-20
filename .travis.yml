@@ -28,7 +28,7 @@ jobs:
       name: "Pre-release"
       if: type = push AND branch =~ /^DSY-(\\d+)$/
       before_script: "sh ./scripts/configure-git.sh"
-      script: "yarn run prerelease:ci $TRAVIS_BRANCH && yarn run lerna:publish:ci --dist-tag $TRAVIS_BRANCH"
+      script: "yarn run prerelease:ci $TRAVIS_BRANCH && yarn run lerna:publish:ci --preid alpha-$TRAVIS_BRANCH --dist-tag $TRAVIS_BRANCH"
       after_script: "sh ./scripts/build-storybook-prerelease.sh"
     - stage: release
       name: "Release"
