@@ -21,7 +21,7 @@ cd "$TRAVIS_BUILD_DIR"
 mkdir -p ../tmp
 
 cd "$TRAVIS_BUILD_DIR/packages/docs"
-yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}"
+yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
 
 cd "$TRAVIS_BUILD_DIR"
 git checkout .
