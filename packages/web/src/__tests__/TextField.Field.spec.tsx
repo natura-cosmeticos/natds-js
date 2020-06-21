@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import 'jest-styled-components';
 import { shallow, mount } from 'enzyme';
 import { expect } from 'chai';
@@ -10,7 +10,7 @@ import Field, { FieldComponent } from '../Components/TextField/Field';
 import PasswordReveal from '../Components/TextField/PasswordReveal';
 import SearchClear from '../Components/TextField/SearchClear';
 
-function getProps(props: any = {}) {
+const getProps = (props: any = {}) => {
   const {
     id = 'field',
     label = 'Label',
@@ -36,7 +36,7 @@ function getProps(props: any = {}) {
     theme,
     mask
   };
-}
+};
 
 describe('TextField Field component', () => {
   test('should render single line input', () => {

@@ -8,21 +8,21 @@
   ],
   "jsRules": {},
   "rules": {
-    "ordered-imports": false,
-    "object-literal-sort-keys": false,
-    "member-ordering": false,
-    "jsx-no-lambda": false,
+    "await-promise": false,
+    "deprecation": false,
     "jsx-boolean-value": false,
-    "semicolon": true,
-    "await-promise": true,
-    "deprecation": true,
-    "no-floating-promises": false,
-    "no-unnecessary-qualifier": true,
-    "no-unnecessary-type-assertion": false,
-    "strict-type-predicates": false,
+    "jsx-no-lambda": false,
+    "member-ordering": false,
     "no-console": {
-      "severity": "warning"
-    }
+      "severity": "error"
+    },
+    "no-floating-promises": false,
+    "no-unnecessary-qualifier": false,
+    "no-unnecessary-type-assertion": false,
+    "object-literal-sort-keys": false,
+    "ordered-imports": false,
+    "semicolon": true,
+    "strict-type-predicates": false
   },
   "rulesDirectory": []
 }

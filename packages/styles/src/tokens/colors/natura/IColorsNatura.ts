@@ -1,3 +1,7 @@
+/**
+ * @todo Separate classes from IColorsNatura.ts file
+ * @todo Set `max-classes-per-file` to [true, 1]
+ */
 export interface IPrimary {
   colorBrdNatPrimaryOrange: string;
   colorBrdNatPrimaryYellow: string;

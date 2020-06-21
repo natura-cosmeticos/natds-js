@@ -1,14 +1,16 @@
-import React from 'react';
+import * as React from 'react';
 import { MaskedInputProps } from 'react-text-mask';
 
-export default function mock(props: MaskedInputProps) {
+const mock = (props: MaskedInputProps) => {
   const { render, ...otherProps } = props;
 
-  function setRef() {
+  const setRef = () => {
     return;
-  }
+  };
 
   return props.render ?
     props.render(setRef, { ...otherProps }) :
     <input {...otherProps} />;
-}
+};
+
+export default mock;

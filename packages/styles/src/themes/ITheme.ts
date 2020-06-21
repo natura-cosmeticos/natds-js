@@ -1,3 +1,6 @@
+/**
+ * @todo Review/enable "callable-types" tslint rule
+ */
 import { fontSize } from "../tokens/fontSize";
 import {
   IAvatarSizes,
@@ -18,6 +21,9 @@ type ITypography = {
   fontWeightBold?: number;
 } & typeof fontSize;
 
+/**
+ * @todo Review/enable `no-empty-interface` rule
+ */
 export interface ITheme {
   shape?: {
     borderRadius?: number;

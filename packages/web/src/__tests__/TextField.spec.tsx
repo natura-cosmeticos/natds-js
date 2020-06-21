@@ -1,6 +1,6 @@
-import React from 'react';
+import * as React from 'react';
+import * as renderer from 'react-test-renderer';
 import { expect } from 'chai';
-import renderer from 'react-test-renderer';
 import 'jest-styled-components';
 import { shallow } from 'enzyme';
 
@@ -9,7 +9,8 @@ import TextField from '../Components/TextField';
 import Favorite from '@material-ui/icons/Favorite';
 import { themes } from '@naturacosmeticos/natds-styles';
 
-function getProps(props: any = {}) {
+const getProps = (props: any = {}) => {
+
   const {
     id = 'field',
     label = 'Label',
@@ -19,6 +20,9 @@ function getProps(props: any = {}) {
     disabled,
     required,
     theme = themes.natura.light,
+    /**
+     * @todo Fix shadowed-variable `mask` detected by `tslint`
+     */
     mask
   } = props;
 
@@ -31,9 +35,12 @@ function getProps(props: any = {}) {
     disabled,
     required,
     theme,
+    /**
+     * @todo Fix shadowed-variable `mask` detected by `tslint`
+     */
     mask
   };
-}
+};
 
 describe('TextField component', () => {
   describe('rendering state', () => {

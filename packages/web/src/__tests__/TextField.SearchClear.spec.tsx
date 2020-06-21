@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import 'jest-styled-components';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
@@ -7,7 +7,7 @@ import { spy, assert } from 'sinon';
 import { themes } from '@naturacosmeticos/natds-styles';
 import SearchClear from '../Components/TextField/SearchClear';
 
-function getProps(props: any = {}) {
+const getProps = (props: any = {}) => {
   const {
     theme = themes.natura.light,
     onClearSearch = spy(),
@@ -19,7 +19,7 @@ function getProps(props: any = {}) {
     searchIcon,
     onClearSearch
   };
-}
+};
 
 describe('TextField SearchClear component', () => {
   test('should render received Icon', () => {

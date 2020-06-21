@@ -1,3 +1,6 @@
+/**
+ * @todo Separate classes from IButtonSizes.ts file
+ */
 export interface IButtonSizes {
   small: IButtonProperties;
   medium: IButtonProperties;

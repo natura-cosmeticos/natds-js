@@ -36,11 +36,19 @@ export const Avatar: FunctionComponent<IAvatarProps> = forwardRef((
   return <MaterialAvatar {...props} style={style} ref={ref} />;
 });
 
-function withSizes(size: AvatarSizes | undefined, theme: any = {}) {
+const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
+  /**
+   * @todo Fix `no-unused-expression` detected by tslint
+   */
+  // tslint:disable-next-line:no-unused-expression
   if (!size) return {};
 
   const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
 
+  /**
+   * @todo Fix `no-unused-expression` detected by tslint
+   */
+  // tslint:disable-next-line:no-unused-expression
   if (!avatarSizes) return {};
 
   const value = avatarSizes[size];
@@ -51,21 +59,29 @@ function withSizes(size: AvatarSizes | undefined, theme: any = {}) {
     height: sizeInPx,
     fontSize: value.fontSize
   };
-}
+};
 
-function withColors(color: AvatarColors | undefined, theme: any = {}) {
+const withColors = (color: AvatarColors | undefined, theme: any = {}) => {
+  /**
+   * @todo Fix `no-unused-expression` detected by tslint
+   */
+  // tslint:disable-next-line:no-unused-expression
   if (!color) return {};
 
   const { palette = {} }: { palette: any } = theme;
 
   const selectedColor = palette[color];
 
+  /**
+   * @todo Fix `no-unused-expression` detected by tslint
+   */
+  // tslint:disable-next-line:no-unused-expression
   if (!selectedColor || color === 'default') return {};
 
   return {
     color: selectedColor.contrastText,
     background: selectedColor.main
   };
-}
+};
 
 export default withTheme(Avatar);

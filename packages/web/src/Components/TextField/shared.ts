@@ -78,6 +78,10 @@ export interface ITextFieldProps {
   hidePasswordIcon?: ComponentType;
 }
 
+/**
+ * @todo Separate classes from `TextField/shared.ts` file
+ */
+// tslint:disable-next-line:max-classes-per-file
 export interface IStateTypes {
   type: string;
   key: string;
@@ -94,31 +98,31 @@ export const stateStyles = {
   success: { type: 'success', key: 'main', borderWidth: '0 0 0 1px' },
 };
 
-export function getProp(namespace: string, type: string, key?: string) {
+export const getProp = (namespace: string, type: string, key?: string) => {
   return ({ theme }: { theme?: any }) => {
     const propNamespace = theme[namespace] || {};
     const propType = propNamespace[type] || {};
 
     return key ? propType[key] : propType;
   };
-}
+};
 
-export function getColorByState(initial: IStateTypes) {
+export const getColorByState = (initial: IStateTypes) => {
   return (props: ITextFieldProps) => {
     const { type, key } = getState(props, initial);
 
     return getProp('palette', type, key)(props);
   };
-}
+};
 
-export function getBorderByState(initial: IStateTypes) {
+export const getBorderByState = (initial: IStateTypes) => {
   return (props: ITextFieldProps) => {
     const { type, key, borderWidth } = getState(props, initial);
 
     return `${getProp('palette', type, key)(props)} ${borderWidth}`;
   };
-}
+};
 
-function getState({ disabled, state }: Pick<ITextFieldProps, 'disabled' | 'state'>, initial: IStateTypes) {
+const getState = ({ disabled, state }: Pick<ITextFieldProps, 'disabled' | 'state'>, initial: IStateTypes) => {
   return (disabled ? stateStyles.disabled : stateStyles[state || '']) || initial;
-}
+};

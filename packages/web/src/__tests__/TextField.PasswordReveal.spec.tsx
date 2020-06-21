@@ -1,4 +1,4 @@
-import React from 'react';
+import * as React from 'react';
 import 'jest-styled-components';
 import { shallow } from 'enzyme';
 import { expect } from 'chai';
@@ -7,7 +7,7 @@ import { spy, assert } from 'sinon';
 import { themes } from '@naturacosmeticos/natds-styles';
 import PasswordReveal from '../Components/TextField/PasswordReveal';
 
-function getProps(props: any = {}) {
+const getProps = (props: any = {}) => {
   const {
     theme = themes.natura.light,
     showing = false,
@@ -23,7 +23,7 @@ function getProps(props: any = {}) {
     showPasswordIcon,
     hidePasswordIcon
   };
-}
+};
 
 describe('TextField PasswordReveal component', () => {
   test('should render received showPasswordIcon', () => {

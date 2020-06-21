@@ -8,15 +8,35 @@
   ],
   "jsRules": {},
   "rules": {
-    "ordered-imports": false,
-    "object-literal-sort-keys": false,
-    "member-ordering": false,
-    "jsx-no-lambda": false,
+    "await-promise": false,
+    "callable-types": false,
+    "deprecation": false,
     "jsx-boolean-value": false,
-    "semicolon": true,
+    "jsx-key": false,
+    "jsx-no-lambda": false,
+    "jsx-no-string-ref": false,
+    "jsx-self-close": false,
+    "member-ordering": false,
+    "no-angle-bracket-type-assertion": false,
+    "no-arg": false,
     "no-console": {
-      "severity": "warning"
-    }
+      "severity": "error"
+    },
+    "no-construct": false,
+    "no-empty-interface": false,
+    "no-floating-promises": false,
+    "no-unnecessary-qualifier": false,
+    "no-unnecessary-type-assertion": false,
+    "no-unused-expression": false,
+    "object-literal-shorthand": false,
+    "object-literal-sort-keys": false,
+    "one-variable-per-declaration": false,
+    "ordered-imports": false,
+    "prefer-const": false,
+    "semicolon": true,
+    "strict-type-predicates": false,
+    "triple-equals": false,
+    "use-isnan": false
   },
   "rulesDirectory": []
 }
