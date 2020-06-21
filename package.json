@@ -1,7 +1,7 @@
 {
   "name": "natds",
   "displayName": "NatDS Root",
-  "version": "0.6.13",
+  "private": true,
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "license": "ISC",
   "keywords": [
@@ -50,7 +50,6 @@
     "version": "echo $npm_package_version",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\""
   },
-  "private": true,
   "workspaces": {
     "packages": [
       "packages/docs",
