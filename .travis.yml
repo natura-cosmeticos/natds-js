@@ -21,23 +21,27 @@ branches:
     - /v\d+\.\d+\.\d+-docs$/
 jobs:
   include:
-    - stage: dependency-check
-      name: "Dependency check"
+    - stage: sanity-check
+      name: "Sanity check"
       script: yarn run verify:ci
     - stage: pre-release
       name: "Pre-release"
-      if: type = push AND branch =~ /^DSY-(\\d+)$/
-      before_script: "sh ./scripts/configure-git.sh"
-      script: "yarn run prerelease:ci $TRAVIS_BRANCH && yarn run lerna:publish:ci"
+      if: type = push AND branch =~ /^DSY-(\d+)$/
+      before_script:
+        - "sh ./scripts/configure-git.sh"
+        - "yarn prerelease:ci --preid alpha.$TRAVIS_BRANCH"
+      script: "yarn lerna:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
       after_script: "sh ./scripts/build-storybook-prerelease.sh"
     - stage: release
       name: "Release"
       if: type = push AND branch = master
       script: skip
-      before_deploy: "sh ./scripts/configure-git.sh"
+      before_deploy:
+        - "sh ./scripts/configure-git.sh"
+        - "yarn release:ci"
       deploy:
         - provider: script
-          script: "yarn run release:ci && yarn run lerna:publish:ci"
+          script: "yarn lerna:publish:ci"
           skip_cleanup: true
           on:
             branch: master
