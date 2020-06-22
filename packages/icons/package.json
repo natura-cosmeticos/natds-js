@@ -53,6 +53,8 @@
     "pretest": "yarn build:clean",
     "rollup:build": "rollup -c --verbose",
     "start": "yarn build --watch",
+    "test": "echo \"@todo: Implement tests for @natds-icons\"",
+    "test:ci": "yarn test",
     "watch": "yarn start"
   },
   "config": {},
