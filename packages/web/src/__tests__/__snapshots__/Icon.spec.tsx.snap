@@ -82,12 +82,6 @@ exports[`Icon component should match snapshot - Any valid Icon with standard siz
 />
 `;
 
-exports[`Icon component should match snapshot - Any valid Icon with theme with empty icon sizes: Icon snapshot - valid Icon with empty theme 1`] = `
-<i
-  className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-add undefined"
-/>
-`;
-
 exports[`Icon component should match snapshot - Any valid Icon with theme with undefined icon sizes: Icon snapshot - valid Icon with theme with undefined icon sizes 1`] = `
 <i
   className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-add undefined"
