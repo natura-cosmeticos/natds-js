@@ -22,6 +22,7 @@ branches:
 jobs:
   include:
     - stage: sanity-check
+      if: NOT (branch =~ /^DSY-(\d+)$/ OR branch = master)
       name: "Sanity check"
       script: yarn test:ci
     - stage: pre-release
