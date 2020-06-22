@@ -35,7 +35,7 @@
     "snyk-protect": "snyk protect",
     "test": "yarn testc",
     "testc": "jest --collectCoverage --coverage",
-    "test:ci": "yarn test:output && codecov",
+    "test:ci": "yarn test && codecov",
     "test:output": "yarn test --json --outputFile=.jest-test-results.json || true",
     "testw": "yarn test --watch",
     "watch": "yarn start"

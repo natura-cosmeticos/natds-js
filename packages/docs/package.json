@@ -30,11 +30,10 @@
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "prebuild": "yarn lint",
     "prepublish": "yarn snyk-protect",
-    "pretest": "yarn build",
     "snyk-protect": "snyk protect",
     "start": "start-storybook -p 5000",
-    "test": "build-storybook -o dist-test --quiet && rm -rf dist-test",
-    "test:ci": "yarn test",
+    "test": "yarn test:build",
+    "test:build": "build-storybook -o dist-test --quiet && rm -rf dist-test",
     "test:packages": "cd ../web && yarn test:output",
     "watch": "yarn start"
   },
