@@ -50,7 +50,7 @@
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "open:coverage": "open coverage/lcov-report/index.html",
     "prebuild": "yarn lint",
-    "prepublish": "BUILD=production yarn test && yarn snyk-protect",
+    "prepublish": "yarn snyk-protect",
     "pretest": "yarn build",
     "rollup:build": "rollup -c",
     "snyk-protect": "snyk protect",
