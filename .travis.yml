@@ -23,7 +23,7 @@ jobs:
   include:
     - stage: sanity-check
       name: "Sanity check"
-      script: yarn test
+      script: yarn test:ci
     - stage: pre-release
       name: "Pre-release"
       if: type = push AND branch =~ /^DSY-(\d+)$/
