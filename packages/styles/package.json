@@ -1,7 +1,7 @@
 {
   "name": "@naturacosmeticos/natds-styles",
   "displayName": "Styles",
-  "version": "0.7.14-alpha.DSY-1161.0",
+  "version": "0.7.16",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -24,27 +24,29 @@
     "directory": "packages/styles"
   },
   "scripts": {
-    "build": "yarn build:clean && tsc -p ./tsconfig.json",
-    "build:clean": "rm -rf dist",
+    "build": "yarn clean && tsc -p ./tsconfig.json",
+    "clean": "rm -rf dist",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
+    "open:coverage": "open coverage/lcov-report/index.html",
+    "prebuild": "yarn lint",
+    "prepare": "yarn snyk-protect",
+    "pretest": "yarn build",
     "start": "yarn build --watch",
-    "test": "yarn test:unit:coverage",
-    "test:ci": "yarn test --json --outputFile=.jest-test-results.json && codecov",
-    "test:unit": "jest",
-    "test:unit:coverage": "yarn test:unit --collectCoverage --verbose false",
-    "test:unit:coverage:open": "open coverage/lcov-report/index.html",
-    "test:unit:generate": "yarn test:unit --json --outputFile=.jest-test-results.json || true",
-    "test:unit:watch": "yarn test:unit --watch",
-    "verify": "yarn lint && yarn test -u",
-    "verify:ci": "yarn lint && yarn test",
+    "snyk-protect": "snyk protect",
+    "test": "yarn testc",
+    "testc": "jest --collectCoverage --coverage",
+    "test:ci": "yarn test && codecov",
+    "test:output": "yarn test --json --outputFile=.jest-test-results.json || true",
+    "testw": "yarn test --watch",
     "watch": "yarn start"
   },
   "devDependencies": {
     "codecov": "3.7.0",
-    "jest": "26.0.1",
+    "jest": "26.1.0",
     "sass": "1.26.8",
+    "snyk": "^1.341.1",
     "ts-jest": "26.1.0",
-    "typescript": "3.9.5",
+    "typescript": "3.9.6",
     "yarn": "1.22.4"
   },
   "publishConfig": {
@@ -55,5 +57,6 @@
   ],
   "dependencies": {
     "hex-to-rgba": "2.0.1"
-  }
+  },
+  "gitHead": "c617aff2eb10d39af35328752976ef21774a8637"
 }

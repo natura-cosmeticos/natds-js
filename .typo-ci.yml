@@ -15,6 +15,7 @@ excluded_files:
   - "Gemfile.lock"
   - ".typo-ci.yml"
   - packages/icons/src/natds-icons.swift
+  - "*.tsx.snap"
 excluded_words:
   - cjs
   - date-fns
