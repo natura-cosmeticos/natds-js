@@ -1507,21 +1507,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (default with readOnly explicitly false): TextField default with empty theme snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="sc-AxirZ YOqtI"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="sc-AxiKw kNxsZa undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1534,7 +1534,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-EHOje ljGDIc"
     disabled={false}
   >
     Assistive text
@@ -1544,21 +1544,21 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (default with readOnly explicitly true): TextField default with empty theme snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-bxivhb gvQCIC"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-ifAKCX gRvqel"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="sc-AxirZ YOqtI"
+    className="sc-bwzfXH jcXNf"
     disabled={false}
   >
     <input
-      className="sc-AxiKw kNxsZa undefined__input"
+      className="sc-htpNat fnUbUm undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1570,42 +1570,6 @@ exports[`TextField component rendering state should match snapshot - TextField (
       value=""
     />
   </div>
-</div>
-`;
-
-exports[`TextField component rendering state should match snapshot - TextField (default with readonly): TextField default with empty theme snapshot 1`] = `
-<div
-  className="sc-AxhCb kunLZo"
->
-  <label
-    className="sc-AxhUy ekBNxp"
-    disabled={false}
-    htmlFor="field"
-  >
-    Label
-  </label>
-  <div
-    className="sc-AxirZ YOqtI"
-    disabled={false}
-  >
-    <input
-      className="sc-AxiKw kNxsZa undefined__input"
-      disabled={false}
-      id="field"
-      label="Label"
-      onChange={[Function]}
-      placeholder="Placeholder"
-      required={false}
-      type="text"
-      value=""
-    />
-  </div>
-  <span
-    className="sc-AxgMl iyobOG"
-    disabled={false}
-  >
-    Assistive text
-  </span>
 </div>
 `;
 
