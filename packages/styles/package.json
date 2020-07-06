@@ -1,7 +1,7 @@
 {
   "name": "@naturacosmeticos/natds-styles",
   "displayName": "Styles",
-  "version": "0.7.16-alpha.11",
+  "version": "0.7.16",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -29,7 +29,7 @@
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "open:coverage": "open coverage/lcov-report/index.html",
     "prebuild": "yarn lint",
-    "prepublish": "yarn snyk-protect",
+    "prepare": "yarn snyk-protect",
     "pretest": "yarn build",
     "start": "yarn build --watch",
     "snyk-protect": "snyk protect",
@@ -42,11 +42,11 @@
   },
   "devDependencies": {
     "codecov": "3.7.0",
-    "jest": "26.0.1",
+    "jest": "26.1.0",
     "sass": "1.26.8",
     "snyk": "^1.341.1",
     "ts-jest": "26.1.1",
-    "typescript": "3.9.5",
+    "typescript": "3.9.6",
     "yarn": "1.22.4"
   },
   "publishConfig": {
@@ -57,5 +57,6 @@
   ],
   "dependencies": {
     "hex-to-rgba": "2.0.1"
-  }
+  },
+  "gitHead": "c617aff2eb10d39af35328752976ef21774a8637"
 }
