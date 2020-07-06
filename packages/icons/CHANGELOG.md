@@ -3,6 +3,114 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.8.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.20...v0.8.0) (2020-07-06)
+
+
+
+## [0.7.11](https://github.com/natura-cosmeticos/natds/compare/v0.7.11-alpha.0...v0.7.11) (2020-06-20)
+
+
+
+## [0.7.11-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.10...v0.7.11-alpha.0) (2020-06-20)
+
+
+
+## [0.7.10](https://github.com/natura-cosmeticos/natds/compare/v0.7.10-alpha.0...v0.7.10) (2020-06-19)
+
+
+
+## [0.7.10-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.9...v0.7.10-alpha.0) (2020-06-19)
+
+
+
+## [0.7.9](https://github.com/natura-cosmeticos/natds/compare/v0.7.9-alpha.0...v0.7.9) (2020-06-19)
+
+
+
+## [0.7.9-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.8...v0.7.9-alpha.0) (2020-06-19)
+
+
+
+## [0.7.8](https://github.com/natura-cosmeticos/natds/compare/v0.7.8-alpha.0...v0.7.8) (2020-06-19)
+
+
+
+## [0.7.8-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.7...v0.7.8-alpha.0) (2020-06-19)
+
+
+
+## [0.7.7](https://github.com/natura-cosmeticos/natds/compare/v0.7.7-alpha.0...v0.7.7) (2020-06-19)
+
+
+
+## [0.7.7-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.6...v0.7.7-alpha.0) (2020-06-19)
+
+
+
+## [0.7.6](https://github.com/natura-cosmeticos/natds/compare/v0.7.6-alpha.0...v0.7.6) (2020-06-19)
+
+
+
+## [0.7.6-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.5...v0.7.6-alpha.0) (2020-06-19)
+
+
+
+## [0.7.5](https://github.com/natura-cosmeticos/natds/compare/v0.7.5-alpha.0...v0.7.5) (2020-06-19)
+
+
+
+## [0.7.5-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.4...v0.7.5-alpha.0) (2020-06-19)
+
+
+
+## [0.7.4](https://github.com/natura-cosmeticos/natds/compare/v0.7.4-alpha.0...v0.7.4) (2020-06-18)
+
+
+
+## [0.7.4-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.3...v0.7.4-alpha.0) (2020-06-18)
+
+
+
+## [0.7.3](https://github.com/natura-cosmeticos/natds/compare/v0.7.3-alpha.0...v0.7.3) (2020-06-18)
+
+
+
+## [0.7.3-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.2...v0.7.3-alpha.0) (2020-06-18)
+
+
+
+## [0.7.2](https://github.com/natura-cosmeticos/natds/compare/v0.7.2-alpha.0...v0.7.2) (2020-06-18)
+
+
+
+## [0.7.2-alpha.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.1...v0.7.2-alpha.0) (2020-06-18)
+
+
+
+## [0.7.1](https://github.com/natura-cosmeticos/natds/compare/v0.7.1-alpha.0...v0.7.1) (2020-06-18)
+
+
+
+## [0.7.1-alpha.0](https://github.com/natura-cosmeticos/natds/compare/ab9fe50eb4751e873e78517a7ff46e8569ca1191...v0.7.1-alpha.0) (2020-06-18)
+
+
+### Bug Fixes
+
+* **Icons:** added new filled and outlined icons ([0c76e2c](https://github.com/natura-cosmeticos/natds/commit/0c76e2c92e16e7516cb48b955e0ee825409b8eb2))
+* **outlined-place-gps:** replacing the icon to fiz render problems ([8162630](https://github.com/natura-cosmeticos/natds/commit/8162630837ee73012d8ed3830b0a8f3a34612a02))
+* **themes:** fixing the color used by input to colorHighEmphasis ([d20ae14](https://github.com/natura-cosmeticos/natds/commit/d20ae14fb8cd6ccfb7b25079e6ad03d3eece9eff))
+
+
+### Features
+
+* **natds-js:** add icons name and id swift output ([f4dfd01](https://github.com/natura-cosmeticos/natds/commit/f4dfd01828f4da0ae096181cee317b278b93ad5a))
+* **outlined-place-gps:** inserted this new outlined icon ([5bfbc1d](https://github.com/natura-cosmeticos/natds/commit/5bfbc1da81b4b5e22f36d05d44ad29e28d194a15))
+* **Popover:** fixed dark themes color for paper and refactoring the docs ([ab9fe50](https://github.com/natura-cosmeticos/natds/commit/ab9fe50eb4751e873e78517a7ff46e8569ca1191))
+
+
+
+
+
 ## [0.7.17](https://github.com/natura-cosmeticos/natds/compare/v0.7.16...v0.7.17) (2020-07-06)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
