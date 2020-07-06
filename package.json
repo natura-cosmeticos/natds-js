@@ -32,7 +32,7 @@
     "commit": "git cz",
     "lerna": "lerna",
     "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog",
-    "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --force-publish --yes",
+    "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --amend --force-publish --yes",
     "lerna:prerelease:publish": "lerna publish from-git --ignore-prepublish",
     "lerna:prerelease:publish:ci": "yarn lerna:prerelease:publish --yes",
     "lerna:release:version": "lerna version --allow-branch master --conventional-commits",
