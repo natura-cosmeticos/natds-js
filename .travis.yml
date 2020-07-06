@@ -30,8 +30,8 @@ jobs:
       if: type = push AND branch =~ /^DSY-(\d+)$/
       before_script:
         - "sh ./scripts/configure-git.sh"
-        - "yarn prerelease:ci --preid alpha.$TRAVIS_BRANCH"
-      script: "yarn lerna:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
+        - "yarn lerna:prerelease:version:ci --preid alpha.$TRAVIS_BRANCH"
+      script: "yarn lerna:prerelease:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
       after_script: "sh ./scripts/build-storybook-prerelease.sh"
     - stage: release
       name: "Release"
@@ -39,10 +39,10 @@ jobs:
       script: skip
       before_deploy:
         - "sh ./scripts/configure-git.sh"
-        - "yarn release:ci"
+        - "yarn lerna:release:version:ci"
       deploy:
         - provider: script
-          script: "yarn lerna:publish:ci"
+          script: "yarn lerna:release:publish:ci"
           skip_cleanup: true
           on:
             branch: master

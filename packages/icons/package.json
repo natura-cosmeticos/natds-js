@@ -49,7 +49,7 @@
     "clean": "rm -rf dist && rm -rf src/assets/cleaned/* && rm -rf src/fonts/*",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "prebuild": "yarn lint",
-    "prepublish": "yarn snyk-protect",
+    "prepare": "yarn snyk-protect",
     "pretest": "yarn build:clean",
     "rollup:build": "rollup -c --verbose",
     "snyk-protect": "snyk protect",

@@ -29,7 +29,7 @@
     "deploy:local": "yarn deploy --dry-run",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
     "prebuild": "yarn lint",
-    "prepublish": "yarn snyk-protect",
+    "prepare": "yarn snyk-protect",
     "snyk-protect": "snyk protect",
     "start": "start-storybook -p 5000",
     "test": "yarn test:build",
