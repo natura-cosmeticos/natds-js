@@ -4231,10 +4231,10 @@
   dependencies:
     "@types/node" "*"
 
-"@types/lodash@4.14.155":
-  version "4.14.155"
-  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.155.tgz#e2b4514f46a261fd11542e47519c20ebce7bc23a"
-  integrity sha512-vEcX7S7aPhsBCivxMwAANQburHBtfN9RdyXFk84IJmu2Z4Hkg1tOFgaslRiEqqvoLtbCBi6ika1EMspE+NZ9Lg==
+"@types/lodash@4.14.157":
+  version "4.14.157"
+  resolved "https://registry.yarnpkg.com/@types/lodash/-/lodash-4.14.157.tgz#fdac1c52448861dfde1a2e1515dbc46e54926dc8"
+  integrity sha512-Ft5BNFmv2pHDgxV5JDsndOWTRJ+56zte0ZpYLowp03tW+K+t8u8YMOzAnpuqPgzX6WO1XpDIUm7u04M8vdDiVQ==
 
 "@types/mdast@^3.0.0":
   version "3.0.3"
@@ -4325,10 +4325,17 @@
   dependencies:
     "@types/react" "*"
 
-"@types/react-native@*", "@types/react-native@0.62.13":
+"@types/react-native@*":
   version "0.62.13"
   resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.62.13.tgz#c688c5ae03e426f927f7e1fa1a59cd067f35d1c2"
   integrity sha512-hs4/tSABhcJx+J8pZhVoXHrOQD89WFmbs8QiDLNSA9zNrD46pityAuBWuwk1aMjPk9I3vC5ewkJroVRHgRIfdg==
+  dependencies:
+    "@types/react" "*"
+
+"@types/react-native@0.62.17":
+  version "0.62.17"
+  resolved "https://registry.yarnpkg.com/@types/react-native/-/react-native-0.62.17.tgz#78e630692557ae82a106dab7682560a8b541c49a"
+  integrity sha512-nkWG9oYS0wNiobzY11GOAjG/spV4vCPIbW+u1QIXx+wnQQ4EhkFz6lqqvncO3puXMzwkRhEGawq/bImMReA/vQ==
   dependencies:
     "@types/react" "*"
 
