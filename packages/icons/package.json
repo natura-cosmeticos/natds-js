@@ -1,7 +1,7 @@
 {
   "name": "@naturacosmeticos/natds-icons",
   "displayName": "NatDS Icons",
-  "version": "0.7.11",
+  "version": "0.7.16",
   "private": false,
   "description": "A collection of icons for Natura Design System",
   "keywords": [
@@ -40,31 +40,36 @@
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
-    "build": "yarn build:deps && tsc -p ./tsconfig.json && yarn build:copyfiles && yarn rollup:build",
-    "build:clean": "rm -rf dist && rm -rf src/assets/cleaned/* && rm -rf src/fonts/*",
+    "build": "yarn build:cleansvgs && yarn build:fonts && yarn build:csstypes && tsc -p ./tsconfig.json && yarn build:copyfiles && yarn rollup:build",
+    "build:clean": "yarn clean && yarn build",
     "build:cleansvgs": "node ./scripts/svgCleaner.js",
     "build:copyfiles": "cp -r ./src/fonts ./dist && cp ./src/*.css ./dist",
     "build:csstypes": "tcm -o src src",
-    "build:deps": "yarn build:clean && yarn build:cleansvgs && yarn build:fonts && yarn build:csstypes",
     "build:fonts": "node ./scripts/svgToFont.js",
+    "clean": "rm -rf dist && rm -rf src/assets/cleaned/* && rm -rf src/fonts/*",
     "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "rollup:build": "rollup -c",
+    "prebuild": "yarn lint",
+    "prepare": "yarn snyk-protect",
+    "pretest": "yarn build:clean",
+    "rollup:build": "rollup -c --verbose",
+    "snyk-protect": "snyk protect",
     "start": "yarn build --watch",
-    "verify": "yarn lint",
-    "verify:ci": "yarn verify",
+    "test": "echo \"@todo: Implement tests for @natds-icons\"",
+    "test:ci": "yarn test",
     "watch": "yarn start"
   },
   "config": {},
   "devDependencies": {
     "@rollup/plugin-json": "4.1.0",
-    "@rollup/plugin-typescript": "4.1.2",
+    "@rollup/plugin-typescript": "5.0.1",
     "@rollup/plugin-url": "5.0.1",
     "codecov": "3.7.0",
     "glob": "7.1.6",
-    "rollup": "2.17.1",
+    "rollup": "2.19.0",
+    "snyk": "^1.341.1",
     "svgo": "1.3.2",
     "typed-css-modules": "0.6.4",
-    "typescript": "3.9.5",
+    "typescript": "3.9.6",
     "webfont": "9.0.0",
     "yarn": "1.22.4"
   },
@@ -73,5 +78,6 @@
   },
   "publishConfig": {
     "access": "public"
-  }
+  },
+  "gitHead": "c617aff2eb10d39af35328752976ef21774a8637"
 }

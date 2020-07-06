@@ -21,32 +21,29 @@ branches:
     - /v\d+\.\d+\.\d+-docs$/
 jobs:
   include:
-    - stage: dependency-check
-      name: "Dependency check"
-      if: type = pull_request
-      script: yarn run verify:ci
+    - stage: sanity-check
+      if: NOT (branch =~ /^DSY-(\d+)$/ OR branch = master)
+      name: "Sanity check"
+      script: yarn test:ci
+    - stage: pre-release
+      name: "Pre-release"
+      if: type = push AND branch =~ /^DSY-(\d+)$/
+      before_script:
+        - "sh ./scripts/configure-git.sh"
+        - "yarn lerna:prerelease:version:ci --preid alpha.$TRAVIS_BRANCH"
+      script: "yarn lerna:prerelease:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
+      after_script: "sh ./scripts/build-storybook-prerelease.sh"
     - stage: release
       name: "Release"
-      if: type = push
-      script: yarn run verify:ci
+      if: type = push AND branch = master
+      script: skip
       before_deploy:
-        - "git remote rm origin"
-        - "git remote add origin https://$GITHUB_API_USER:$GITHUB_API_KEY@github.com/natura-cosmeticos/natds-js"
-        - "git fetch --quiet"
-        - "git checkout $TRAVIS_BRANCH"
-        - "git config --global user.email \"systemteamopensource@natura.net\""
-        - "git config --global user.name \"$GITHUB_API_USER in behalf of System Team Open Source\""
-        - "npm config set '//registry.npmjs.org/:_authToken' \"${NPM_AUTH_TOKEN}\""
-        - "yarn config set _authToken ${NPM_AUTH_TOKEN}"
+        - "sh ./scripts/configure-git.sh"
+        - "yarn lerna:release:version:ci"
       deploy:
         - provider: script
-          script: "yarn run prerelease:ci $TRAVIS_BRANCH && yarn run lerna:publish:ci"
-          skip_cleanup: true
-          on:
-            all_branches: true
-            condition: branch =~ ^DSY-(\\d+)$
-        - provider: script
-          script: "yarn run release:ci && yarn run lerna:publish:ci"
+          script: "yarn lerna:release:publish:ci"
           skip_cleanup: true
           on:
             branch: master
+      after_deploy: "sh ./scripts/build-storybook.sh"
