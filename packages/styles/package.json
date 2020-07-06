@@ -1,7 +1,7 @@
 {
   "name": "@naturacosmeticos/natds-styles",
   "displayName": "Styles",
-  "version": "0.7.16-alpha.15",
+  "version": "0.7.16",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -57,5 +57,6 @@
   ],
   "dependencies": {
     "hex-to-rgba": "2.0.1"
-  }
+  },
+  "gitHead": "c617aff2eb10d39af35328752976ef21774a8637"
 }
