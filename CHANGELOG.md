@@ -3,6 +3,55 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.12](https://github.com/natura-cosmeticos/natds/compare/v0.8.11...v0.8.12) (2020-07-08)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.8.11](https://github.com/natura-cosmeticos/natds/compare/v0.8.10...v0.8.11) (2020-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lodash to v4.17.19 ([55ef4e6](https://github.com/natura-cosmeticos/natds/commit/55ef4e63945cff0a7c6d096c4e75f861359b3948))
+
+
+
+
+
+## [0.8.10](https://github.com/natura-cosmeticos/natds/compare/v0.8.9...v0.8.10) (2020-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lodash to v4.17.18 ([4c12ed8](https://github.com/natura-cosmeticos/natds/commit/4c12ed8b7a6bf11b17ebcfe51bfbb2db78a205d1))
+
+
+
+
+
+## [0.8.9](https://github.com/natura-cosmeticos/natds/compare/v0.8.8...v0.8.9) (2020-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lodash to v4.17.17 ([5f74fe6](https://github.com/natura-cosmeticos/natds/commit/5f74fe6fba400ee7dfc968955e0b2a2d4d6c10c9))
+
+
+
+
+
+## [0.8.8](https://github.com/natura-cosmeticos/natds/compare/v0.8.7...v0.8.8) (2020-07-07)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
 ## [0.8.7](https://github.com/natura-cosmeticos/natds/compare/v0.8.6...v0.8.7) (2020-07-07)
 
 **Note:** Version bump only for package natds
