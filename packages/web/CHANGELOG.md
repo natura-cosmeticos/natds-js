@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.8.9](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.8...v0.8.9) (2020-07-08)
+
+
+### Bug Fixes
+
+* **deps:** update dependency lodash to v4.17.17 ([5f74fe6](https://github.com/natura-cosmeticos/natds-js/commit/5f74fe6fba400ee7dfc968955e0b2a2d4d6c10c9))
+
+
+
+
+
 ## [0.8.8](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.7...v0.8.8) (2020-07-07)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
