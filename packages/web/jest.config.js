@@ -3,6 +3,7 @@ const {displayName, name} = require('./package.json')
 
 module.exports = {
   ...base,
+  collectCoverageFrom: ["src/**/*.{js,jsx,ts,tsx}"],
   displayName,
   globalSetup: "./global-setup.js",
   moduleNameMapper: {
