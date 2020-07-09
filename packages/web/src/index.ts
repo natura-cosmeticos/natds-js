@@ -1,3 +1,19 @@
+/**
+ * @todo Re-enable and add type information for `await-promise` tslint rule
+ * @todo Re-enable and add type information for `deprecation` tslint rule
+ * @todo Re-enable and add type information for `no-floating-promises` tslint rule
+ * @todo Re-enable and add type information for `no-unnecessary-qualifier` tslint rule
+ * @todo Re-enable and add type information for `no-unnecessary-type-assertion` tslint rule
+ * @todo Re-enable and add type information for `strict-type-predicates` tslint rule
+ * @todo Review/re-enable `callable-types` tslint rule
+ * @todo Review/re-enable `jsx-key` tslint rule
+ * @todo Review/re-enable `no-angle-bracket-type-assertion` tslint rule
+ * @todo Review/re-enable `no-arg` tslint rule
+ * @todo Review/re-enable `no-empty-interface` tslint rule
+ * @todo Review/re-enable `object-literal-shorthand` tslint rule
+ * @todo Review/re-enable `one-variable-per-declaration` rule
+ * @todo Review/re-enable `prefer-const` tslint rule
+ */
 import { themes as webThemes } from './Themes';
 
 export const themes = { ...webThemes };

@@ -22,6 +22,10 @@ type KeyboardDatePickerViewsPropsWithoutTheme = Omit<
 
 const getStateClassName = (props: IKeyboardDatePickerViewsProps) => {
   const { state, disabled, value } = props;
+  /**
+   * @todo Fix `no-unused-expression` detected by tslint
+   */
+  // tslint:disable-next-line:no-unused-expression
   if (!disabled) {
     if (state === 'error') {
       return 'MuiError';
@@ -59,6 +63,10 @@ export const KeyboardDatePicker: FunctionComponent<KeyboardDatePickerViewsPropsW
       helperText=""
     />;
 
+    /**
+     * @todo Fix `no-unused-expression` detected by tslint
+     */
+    // tslint:disable-next-line:no-unused-expression
     if (props.variant === 'static') {
       return keyboardDatePickerComponent;
     }

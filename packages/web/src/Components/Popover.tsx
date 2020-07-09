@@ -15,6 +15,10 @@ interface IActionLink extends Omit<ILinkProps, 'theme'> {
   onClick?: any;
 }
 
+/**
+ * @todo Separate classes for `Popover.tsx` file
+ */
+// tslint:disable-next-line:max-classes-per-file
 export interface IPopoverProps extends Omit<IPopperProps, 'placement'> {
   theme: IThemeWeb | unknown;
   component?: React.ElementType;
@@ -24,6 +28,10 @@ export interface IPopoverProps extends Omit<IPopperProps, 'placement'> {
 }
 
 const getActionLink = (actionLink?: IActionLink) => {
+  /**
+   * @todo Fix `no-unused-expression` detected by tslint
+   */
+  // tslint:disable-next-line:no-unused-expression
   if (actionLink) {
     const { text, ...props } = actionLink;
     return (

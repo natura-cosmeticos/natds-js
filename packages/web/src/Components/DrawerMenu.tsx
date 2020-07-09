@@ -26,6 +26,10 @@ export interface IDrawerMenuProps {
   theme: IThemeWeb | unknown;
 }
 
+/**
+ * @todo Separate classes for `DrawerMenu.tsx` file
+ */
+// tslint:disable-next-line:max-classes-per-file
 export interface IDrawerMenuItemProps {
   name?: string;
   section?: string;
@@ -36,6 +40,7 @@ export interface IDrawerMenuItemProps {
   theme?: IThemeWeb | unknown;
 }
 
+// tslint:disable-next-line:max-classes-per-file
 export interface IDrawerMenuSectionProps extends IDrawerMenuItemProps {
   onToggle?: (event: React.SyntheticEvent, state: boolean, name?: string) => void;
   opened?: boolean;
