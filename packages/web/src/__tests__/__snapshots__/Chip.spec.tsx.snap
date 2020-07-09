@@ -23,7 +23,7 @@ exports[`Chip component should match snapshot - Any valid Chip with Icon: Chip s
   onKeyUp={[Function]}
 >
   <i
-    className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-add MuiChip-icon"
+    className="natds-icons natds-icons-filled-action-add makeStyles-root-2 MuiChip-icon"
   />
   <span
     className="MuiChip-label"
@@ -42,7 +42,7 @@ exports[`Chip component should match snapshot - Any valid Chip with custom delet
     className="MuiChip-label"
   />
   <i
-    className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-cancel MuiChip-deleteIcon"
+    className="natds-icons natds-icons-filled-action-cancel makeStyles-root-4 MuiChip-deleteIcon"
     onClick={[Function]}
   />
 </div>
@@ -70,7 +70,7 @@ exports[`Chip component should match snapshot - Any valid Chip with default dele
     className="MuiChip-label"
   />
   <i
-    className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-cancel MuiChip-deleteIcon"
+    className="natds-icons natds-icons-filled-action-cancel makeStyles-root-3 MuiChip-deleteIcon"
     onClick={[Function]}
   />
 </div>
