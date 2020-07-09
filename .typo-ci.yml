@@ -14,15 +14,27 @@ excluded_files:
   - "yarn.lock"
   - "Gemfile.lock"
   - ".typo-ci.yml"
-  - packages/icons/src/natds-icons.swift
   - "*.tsx.snap"
+  - "packages/icons/src/natds-icons.swift"
+  - "node_modules/**/*"
+  - "packages/docs/dist/**/*"
 excluded_words:
+  - Aboukhadijeh
+  - Ashkenas
   - cjs
   - date-fns
+  - feross
   - fileurl
+  - Fira
+  - FiraCode-Retina
+  - Holowaychuk
   - iml
+  - Isonen
   - javascript-mutator
+  - Kirollos
+  - Lubbe
   - Lichtnow
+  - Lucida
   - Lyrio
   - Matheus
   - natds
@@ -34,11 +46,18 @@ excluded_words:
   - natdsWeb
   - natura
   - naturacosmeticos
+  - Nunito
   - preferBuiltins
   - Saraiva
+  - Schlinkert
+  - Sindre
+  - Slobodskoi
+  - Sorhus
   - stryker-mutator
   - tcm
+  - Tiancheng
   - transpilers
   - typoci
   - Vagner
   - Vizir
+  - Zivolo
