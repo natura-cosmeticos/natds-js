@@ -39,7 +39,8 @@ git checkout .
 git checkout "${TRAVIS_BRANCH}-docs"
 
 echo "STORYBOOK Adding version ${VERSION} to versions JSON file..."
-node scripts/addVersionOnConfig.js "${VERSION}"
+cd scripts
+node helpers/addVersionOnConfig.js "${VERSION}"
 
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"
