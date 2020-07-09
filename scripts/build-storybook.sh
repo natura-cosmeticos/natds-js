@@ -2,7 +2,7 @@
 set -e
 
 echo "STORYBOOK Opening project root directory..."
-cd "$TRAVIS_BUILD_DIR"
+cd "${TRAVIS_BUILD_DIR}"
 
 echo "STORYBOOK Fetching packages version..."
 VERSION=`cat lerna.json \
@@ -23,7 +23,7 @@ echo "STORYBOOK Creating temp directory for bundle..."
 mkdir -p ../tmp
 
 echo "STORYBOOK Opening docs package directory..."
-cd "$TRAVIS_BUILD_DIR/packages/docs"
+cd "${TRAVIS_BUILD_DIR}/packages/docs"
 
 echo "STORYBOOK Generating JSON report for Jest addon..."
 yarn lerna run test:packages
@@ -36,7 +36,7 @@ cd "$TRAVIS_BUILD_DIR"
 
 echo "STORYBOOK Moving to docs branch..."
 git checkout .
-git checkout master-docs
+git checkout "${TRAVIS_BRANCH}-docs"
 
 echo "STORYBOOK Adding version ${VERSION} to versions JSON file..."
 cd scripts
@@ -50,7 +50,7 @@ cp -r "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" packages/docs/dist/releases
 
 echo "STORYBOOK Committing changes..."
 git add --all
-git commit -m "docs: generating storybook for version ${VERSION} [skip ci]"
+git commit -m "docs: generating storybook for version ${VERSION} [skip ci]" --allow-empty
 
 echo "STORYBOOK Updating master-docs branch..."
 git push -f -u origin master-docs

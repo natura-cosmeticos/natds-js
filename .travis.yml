@@ -32,7 +32,7 @@ jobs:
         - "sh ./scripts/configure-git.sh"
         - "yarn lerna:prerelease:version:ci --preid alpha.$TRAVIS_BRANCH"
       script: "yarn lerna:prerelease:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
-      after_script: "sh ./scripts/build-storybook-prerelease.sh"
+      after_script: "sh ./scripts/build-storybook.sh"
     - stage: release
       name: "Release"
       if: type = push AND branch = master
