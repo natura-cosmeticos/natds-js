@@ -2,7 +2,7 @@
 
 exports[`Icon component should match snapshot - Any valid Icon with empty theme: Icon snapshot - valid Icon with empty theme 1`] = `
 <i
-  className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-add undefined"
+  className="natds-icons natds-icons-filled-action-add makeStyles-root-13"
 />
 `;
 
@@ -74,7 +74,7 @@ exports[`Icon component should match snapshot - Any valid Icon with standard siz
 
 exports[`Icon component should match snapshot - Any valid Icon with theme with undefined icon sizes: Icon snapshot - valid Icon with theme with undefined icon sizes 1`] = `
 <i
-  className="sc-bdVaJa jWbhAs natds-icons natds-icons-filled-action-add undefined"
+  className="natds-icons natds-icons-filled-action-add makeStyles-root-14"
 />
 `;
 
@@ -86,6 +86,6 @@ exports[`Icon component should match snapshot - Any valid Icon with tiny size: I
 
 exports[`Icon component should match snapshot - Any valid Icon without theme: Icon snapshot - valid Icon without theme 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add makeStyles-root-13"
+  className="natds-icons natds-icons-filled-action-add makeStyles-root-15"
 />
 `;
