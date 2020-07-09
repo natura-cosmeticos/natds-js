@@ -17,12 +17,18 @@
   "masterIssueAutoclose": true,
   "packageRules": [
     {
+      "groupName": "styled-components dependencies",
+      "groupSlug": "styled-components",
+      "labels": ["dependencies", "renovate", "styled-components"],
+      "packagePatterns": ["@types/styled-components", "jest-styled-components", "styled-components"],
+    },
+    {
       "packagePatterns": ["eslint"],
-      "labels": ["linting"]
+      "labels": ["dependencies", "linting", "renovate"]
     },
     {
       "packagePatterns": ["snyk"],
-      "labels": ["security"]
+      "labels": ["dependencies", "renovate", "security"]
     }
   ],
   "semanticCommits": true,
