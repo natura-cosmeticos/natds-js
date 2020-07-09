@@ -39,6 +39,8 @@
     "lerna:release:version:ci": "yarn lerna:release:version --create-release github --yes",
     "lerna:release:publish": "lerna publish from-git --dist-tag latest --ignore-prepublish",
     "lerna:release:publish:ci": "yarn lerna:release:publish --yes",
+    "lerna:graduate:version": "lerna version --conventional-commits --conventional-graduate",
+    "lerna:graduate:version:ci": "yarn lerna:graduate:version --force-publish --yes",
     "lint": "lerna run lint",
     "prebuild": "yarn lint",
     "prepare": "BUILD=production yarn test",
