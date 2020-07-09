@@ -2,16 +2,17 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 import { expect } from 'chai';
 
-import Icon from '../Components/Icon';
 import { tokens, IIconSizes, themes } from '@naturacosmeticos/natds-styles';
 
-const iconSizes = Object.keys(tokens.iconSizes);
+import Icon from '../../Components/Icon';
 
 describe('Icon component', () => {
   test('should match snapshot - Any valid Icon with standard size', () => {
     const component = renderer.create(<Icon name="filled-action-add" />).toJSON();
     expect(component).matchSnapshot('Icon snapshot - valid icon with standard size');
   });
+
+  const iconSizes = Object.keys(tokens.iconSizes);
 
   iconSizes.forEach((size: string) => {
     test(`should match snapshot - Any valid Icon with ${size} size`, () => {

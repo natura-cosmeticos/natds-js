@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/natura-cosmeticos/natds/compare/v0.9.0-alpha.DSY-1219.0...v0.9.0) (2020-07-09)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
+## [0.8.5](https://github.com/natura-cosmeticos/natds/compare/v0.8.4...v0.8.5) (2020-07-07)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
+# [0.8.0](https://github.com/natura-cosmeticos/natds/compare/v0.7.20...v0.8.0) (2020-07-06)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
+## [0.7.20](https://github.com/natura-cosmeticos/natds/compare/v0.7.19...v0.7.20) (2020-07-06)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
 ## [0.7.18](https://github.com/natura-cosmeticos/natds/compare/v0.7.17...v0.7.18) (2020-07-06)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles

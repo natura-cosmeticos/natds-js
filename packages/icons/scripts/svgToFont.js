@@ -23,9 +23,22 @@ public enum Icon: String, CaseIterable {
   ${
     Object
       .keys(metadata)
-      .map(iconName => `case ${toCamelCase(iconName)} = "${toIosUnicode(metadata[iconName])}"\n`)
+      .map(iconName => `case ${toCamelCase(iconName)} = "${iconName}"\n`)
       .join('')
     }
+}
+
+extension Icon {
+  var unicode: String {
+      switch self {
+      ${
+    Object
+      .keys(metadata)
+      .map(iconName => `case .${toCamelCase(iconName)}: return "${toIosUnicode(metadata[iconName])}"\n`)
+      .join('')
+    }
+      }
+  }
 }
 `
   fs.writeFile(distMetada + fontName + '.swift', formattedMetadataSwift, onError);

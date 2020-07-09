@@ -3389,9 +3389,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gqjmRU",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": false,
-                    "lastClassName": "hYFWIQ",
+                    "lastClassName": "hzTiNr",
                     "rules": Array [
                       "
   display: flex;
@@ -3405,7 +3405,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gqjmRU",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -4086,7 +4086,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
               }
             >
               <div
-                className="sc-gqjmRU hYFWIQ"
+                className="sc-gZMcBi hzTiNr"
               >
                 <styled.label
                   disabled={false}
@@ -4769,9 +4769,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-VigVT",
+                          "componentId": "sc-gqjmRU",
                           "isStatic": false,
-                          "lastClassName": "gcVfqj",
+                          "lastClassName": "jRBSIm",
                           "rules": Array [
                             "
   font-size: ",
@@ -4796,7 +4796,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-VigVT",
+                        "styledComponentId": "sc-gqjmRU",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -5477,7 +5477,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                     }
                   >
                     <label
-                      className="sc-VigVT gcVfqj"
+                      className="sc-gqjmRU jRBSIm"
                       disabled={false}
                     >
                       Only calendar
@@ -11995,47 +11995,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Default state:
                                                                     name="outlined-action-calendar"
                                                                     size="tiny"
                                                                   >
-                                                                    <styled.i
-                                                                      className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                      size="tiny"
-                                                                    >
-                                                                      <StyledComponent
-                                                                        className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                        forwardedComponent={
-                                                                          Object {
-                                                                            "$$typeof": Symbol(react.forward_ref),
-                                                                            "attrs": Array [],
-                                                                            "componentStyle": ComponentStyle {
-                                                                              "componentId": "sc-bdVaJa",
-                                                                              "isStatic": false,
-                                                                              "lastClassName": "jWbhAs",
-                                                                              "rules": Array [
-                                                                                "
-  font-size: ",
-                                                                                [Function],
-                                                                                ";
-",
-                                                                              ],
-                                                                            },
-                                                                            "displayName": "styled.i",
-                                                                            "foldedComponentIds": Array [],
-                                                                            "render": [Function],
-                                                                            "styledComponentId": "sc-bdVaJa",
-                                                                            "target": "i",
-                                                                            "toString": [Function],
-                                                                            "warnTooManyClasses": [Function],
-                                                                            "withComponent": [Function],
-                                                                          }
-                                                                        }
-                                                                        forwardedRef={null}
-                                                                        size="tiny"
-                                                                      >
-                                                                        <i
-                                                                          className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                          size="tiny"
-                                                                        />
-                                                                      </StyledComponent>
-                                                                    </styled.i>
+                                                                    <i
+                                                                      className="natds-icons natds-icons-outlined-action-calendar makeStyles-root-5"
+                                                                    />
                                                                   </ForwardRef>
                                                                 </WithTheme(ForwardRef)>
                                                               </span>
@@ -12538,9 +12500,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gqjmRU",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": false,
-                    "lastClassName": "fOizOf",
+                    "lastClassName": "bWzfyE",
                     "rules": Array [
                       "
   display: flex;
@@ -12554,7 +12516,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gqjmRU",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -12564,7 +12526,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
               forwardedRef={null}
             >
               <div
-                className="sc-gqjmRU fOizOf"
+                className="sc-gZMcBi bWzfyE"
               >
                 <styled.label
                   disabled={true}
@@ -12576,9 +12538,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-VigVT",
+                          "componentId": "sc-gqjmRU",
                           "isStatic": false,
-                          "lastClassName": "kbirlQ",
+                          "lastClassName": "gGYfbZ",
                           "rules": Array [
                             "
   font-size: ",
@@ -12603,7 +12565,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-VigVT",
+                        "styledComponentId": "sc-gqjmRU",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -12613,7 +12575,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-VigVT kbirlQ"
+                      className="sc-gqjmRU gGYfbZ"
                       disabled={true}
                     >
                       Only calendar
@@ -13106,47 +13068,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Disabled: Keyb
                                                                     name="outlined-action-calendar"
                                                                     size="tiny"
                                                                   >
-                                                                    <styled.i
-                                                                      className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                      size="tiny"
-                                                                    >
-                                                                      <StyledComponent
-                                                                        className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                        forwardedComponent={
-                                                                          Object {
-                                                                            "$$typeof": Symbol(react.forward_ref),
-                                                                            "attrs": Array [],
-                                                                            "componentStyle": ComponentStyle {
-                                                                              "componentId": "sc-bdVaJa",
-                                                                              "isStatic": false,
-                                                                              "lastClassName": "jWbhAs",
-                                                                              "rules": Array [
-                                                                                "
-  font-size: ",
-                                                                                [Function],
-                                                                                ";
-",
-                                                                              ],
-                                                                            },
-                                                                            "displayName": "styled.i",
-                                                                            "foldedComponentIds": Array [],
-                                                                            "render": [Function],
-                                                                            "styledComponentId": "sc-bdVaJa",
-                                                                            "target": "i",
-                                                                            "toString": [Function],
-                                                                            "warnTooManyClasses": [Function],
-                                                                            "withComponent": [Function],
-                                                                          }
-                                                                        }
-                                                                        forwardedRef={null}
-                                                                        size="tiny"
-                                                                      >
-                                                                        <i
-                                                                          className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                          size="tiny"
-                                                                        />
-                                                                      </StyledComponent>
-                                                                    </styled.i>
+                                                                    <i
+                                                                      className="natds-icons natds-icons-outlined-action-calendar makeStyles-root-7"
+                                                                    />
                                                                   </ForwardRef>
                                                                 </WithTheme(ForwardRef)>
                                                               </span>
@@ -13615,9 +13539,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gqjmRU",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": false,
-                    "lastClassName": "fOizOf",
+                    "lastClassName": "bWzfyE",
                     "rules": Array [
                       "
   display: flex;
@@ -13631,7 +13555,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gqjmRU",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -13641,7 +13565,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
               forwardedRef={null}
             >
               <div
-                className="sc-gqjmRU fOizOf"
+                className="sc-gZMcBi bWzfyE"
               >
                 <styled.label
                   disabled={false}
@@ -13653,9 +13577,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-VigVT",
+                          "componentId": "sc-gqjmRU",
                           "isStatic": false,
-                          "lastClassName": "kbirlQ",
+                          "lastClassName": "gGYfbZ",
                           "rules": Array [
                             "
   font-size: ",
@@ -13680,7 +13604,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-VigVT",
+                        "styledComponentId": "sc-gqjmRU",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -13690,7 +13614,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-VigVT kbirlQ"
+                      className="sc-gqjmRU gGYfbZ"
                       disabled={false}
                     >
                       Only calendar
@@ -14169,47 +14093,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Empty: Keyboar
                                                                     name="outlined-action-calendar"
                                                                     size="tiny"
                                                                   >
-                                                                    <styled.i
-                                                                      className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                      size="tiny"
-                                                                    >
-                                                                      <StyledComponent
-                                                                        className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                        forwardedComponent={
-                                                                          Object {
-                                                                            "$$typeof": Symbol(react.forward_ref),
-                                                                            "attrs": Array [],
-                                                                            "componentStyle": ComponentStyle {
-                                                                              "componentId": "sc-bdVaJa",
-                                                                              "isStatic": false,
-                                                                              "lastClassName": "jWbhAs",
-                                                                              "rules": Array [
-                                                                                "
-  font-size: ",
-                                                                                [Function],
-                                                                                ";
-",
-                                                                              ],
-                                                                            },
-                                                                            "displayName": "styled.i",
-                                                                            "foldedComponentIds": Array [],
-                                                                            "render": [Function],
-                                                                            "styledComponentId": "sc-bdVaJa",
-                                                                            "target": "i",
-                                                                            "toString": [Function],
-                                                                            "warnTooManyClasses": [Function],
-                                                                            "withComponent": [Function],
-                                                                          }
-                                                                        }
-                                                                        forwardedRef={null}
-                                                                        size="tiny"
-                                                                      >
-                                                                        <i
-                                                                          className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                          size="tiny"
-                                                                        />
-                                                                      </StyledComponent>
-                                                                    </styled.i>
+                                                                    <i
+                                                                      className="natds-icons natds-icons-outlined-action-calendar makeStyles-root-2"
+                                                                    />
                                                                   </ForwardRef>
                                                                 </WithTheme(ForwardRef)>
                                                               </span>
@@ -18068,9 +17954,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gqjmRU",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": false,
-                    "lastClassName": "hYFWIQ",
+                    "lastClassName": "hzTiNr",
                     "rules": Array [
                       "
   display: flex;
@@ -18084,7 +17970,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gqjmRU",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -18765,7 +18651,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
               }
             >
               <div
-                className="sc-gqjmRU hYFWIQ"
+                className="sc-gZMcBi hzTiNr"
               >
                 <styled.label
                   disabled={false}
@@ -19449,9 +19335,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-VigVT",
+                          "componentId": "sc-gqjmRU",
                           "isStatic": false,
-                          "lastClassName": "fFbpsb",
+                          "lastClassName": "kkqlOj",
                           "rules": Array [
                             "
   font-size: ",
@@ -19476,7 +19362,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-VigVT",
+                        "styledComponentId": "sc-gqjmRU",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -20158,7 +20044,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                     }
                   >
                     <label
-                      className="sc-VigVT fFbpsb"
+                      className="sc-gqjmRU kkqlOj"
                       disabled={false}
                     >
                       Only calendar
@@ -26676,47 +26562,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Error state: K
                                                                     name="outlined-action-calendar"
                                                                     size="tiny"
                                                                   >
-                                                                    <styled.i
-                                                                      className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                      size="tiny"
-                                                                    >
-                                                                      <StyledComponent
-                                                                        className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                        forwardedComponent={
-                                                                          Object {
-                                                                            "$$typeof": Symbol(react.forward_ref),
-                                                                            "attrs": Array [],
-                                                                            "componentStyle": ComponentStyle {
-                                                                              "componentId": "sc-bdVaJa",
-                                                                              "isStatic": false,
-                                                                              "lastClassName": "jWbhAs",
-                                                                              "rules": Array [
-                                                                                "
-  font-size: ",
-                                                                                [Function],
-                                                                                ";
-",
-                                                                              ],
-                                                                            },
-                                                                            "displayName": "styled.i",
-                                                                            "foldedComponentIds": Array [],
-                                                                            "render": [Function],
-                                                                            "styledComponentId": "sc-bdVaJa",
-                                                                            "target": "i",
-                                                                            "toString": [Function],
-                                                                            "warnTooManyClasses": [Function],
-                                                                            "withComponent": [Function],
-                                                                          }
-                                                                        }
-                                                                        forwardedRef={null}
-                                                                        size="tiny"
-                                                                      >
-                                                                        <i
-                                                                          className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                          size="tiny"
-                                                                        />
-                                                                      </StyledComponent>
-                                                                    </styled.i>
+                                                                    <i
+                                                                      className="natds-icons natds-icons-outlined-action-calendar makeStyles-root-3"
+                                                                    />
                                                                   </ForwardRef>
                                                                 </WithTheme(ForwardRef)>
                                                               </span>
@@ -27219,9 +27067,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gqjmRU",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": false,
-                    "lastClassName": "fOizOf",
+                    "lastClassName": "bWzfyE",
                     "rules": Array [
                       "
   display: flex;
@@ -27235,7 +27083,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gqjmRU",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -27245,7 +27093,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
               forwardedRef={null}
             >
               <div
-                className="sc-gqjmRU fOizOf"
+                className="sc-gZMcBi bWzfyE"
               >
                 <styled.label
                   disabled={false}
@@ -27257,9 +27105,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-VigVT",
+                          "componentId": "sc-gqjmRU",
                           "isStatic": false,
-                          "lastClassName": "kbirlQ",
+                          "lastClassName": "gGYfbZ",
                           "rules": Array [
                             "
   font-size: ",
@@ -27284,7 +27132,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-VigVT",
+                        "styledComponentId": "sc-gqjmRU",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -27294,7 +27142,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-VigVT kbirlQ"
+                      className="sc-gqjmRU gGYfbZ"
                       disabled={false}
                     >
                       Only calendar
@@ -27773,47 +27621,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                                                                     name="outlined-action-calendar"
                                                                     size="tiny"
                                                                   >
-                                                                    <styled.i
-                                                                      className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                      size="tiny"
-                                                                    >
-                                                                      <StyledComponent
-                                                                        className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                        forwardedComponent={
-                                                                          Object {
-                                                                            "$$typeof": Symbol(react.forward_ref),
-                                                                            "attrs": Array [],
-                                                                            "componentStyle": ComponentStyle {
-                                                                              "componentId": "sc-bdVaJa",
-                                                                              "isStatic": false,
-                                                                              "lastClassName": "jWbhAs",
-                                                                              "rules": Array [
-                                                                                "
-  font-size: ",
-                                                                                [Function],
-                                                                                ";
-",
-                                                                              ],
-                                                                            },
-                                                                            "displayName": "styled.i",
-                                                                            "foldedComponentIds": Array [],
-                                                                            "render": [Function],
-                                                                            "styledComponentId": "sc-bdVaJa",
-                                                                            "target": "i",
-                                                                            "toString": [Function],
-                                                                            "warnTooManyClasses": [Function],
-                                                                            "withComponent": [Function],
-                                                                          }
-                                                                        }
-                                                                        forwardedRef={null}
-                                                                        size="tiny"
-                                                                      >
-                                                                        <i
-                                                                          className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                          size="tiny"
-                                                                        />
-                                                                      </StyledComponent>
-                                                                    </styled.i>
+                                                                    <i
+                                                                      className="natds-icons natds-icons-outlined-action-calendar makeStyles-root-8"
+                                                                    />
                                                                   </ForwardRef>
                                                                 </WithTheme(ForwardRef)>
                                                               </span>
@@ -28279,9 +28089,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-jTzLTM",
+                          "componentId": "sc-VigVT",
                           "isStatic": false,
-                          "lastClassName": "fZFExB",
+                          "lastClassName": "jIZEmB",
                           "rules": Array [
                             "
   font-size: ",
@@ -28308,7 +28118,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                         "displayName": "styled.span",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-jTzLTM",
+                        "styledComponentId": "sc-VigVT",
                         "target": "span",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -28318,7 +28128,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Help text: Key
                     forwardedRef={null}
                   >
                     <span
-                      className="sc-jTzLTM fZFExB"
+                      className="sc-VigVT jIZEmB"
                       disabled={false}
                     >
                       Help me
@@ -28372,9 +28182,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gqjmRU",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": false,
-                    "lastClassName": "fOizOf",
+                    "lastClassName": "bWzfyE",
                     "rules": Array [
                       "
   display: flex;
@@ -28388,7 +28198,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gqjmRU",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -28398,7 +28208,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
               forwardedRef={null}
             >
               <div
-                className="sc-gqjmRU fOizOf"
+                className="sc-gZMcBi bWzfyE"
               >
                 <styled.label
                   disabled={false}
@@ -28410,9 +28220,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-VigVT",
+                          "componentId": "sc-gqjmRU",
                           "isStatic": false,
-                          "lastClassName": "kbirlQ",
+                          "lastClassName": "gGYfbZ",
                           "rules": Array [
                             "
   font-size: ",
@@ -28437,7 +28247,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-VigVT",
+                        "styledComponentId": "sc-gqjmRU",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -28447,7 +28257,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-VigVT kbirlQ"
+                      className="sc-gqjmRU gGYfbZ"
                       disabled={false}
                     >
                       Only calendar
@@ -28927,47 +28737,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Opened: Keyboa
                                                                     name="outlined-action-calendar"
                                                                     size="tiny"
                                                                   >
-                                                                    <styled.i
-                                                                      className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                      size="tiny"
-                                                                    >
-                                                                      <StyledComponent
-                                                                        className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                        forwardedComponent={
-                                                                          Object {
-                                                                            "$$typeof": Symbol(react.forward_ref),
-                                                                            "attrs": Array [],
-                                                                            "componentStyle": ComponentStyle {
-                                                                              "componentId": "sc-bdVaJa",
-                                                                              "isStatic": false,
-                                                                              "lastClassName": "jWbhAs",
-                                                                              "rules": Array [
-                                                                                "
-  font-size: ",
-                                                                                [Function],
-                                                                                ";
-",
-                                                                              ],
-                                                                            },
-                                                                            "displayName": "styled.i",
-                                                                            "foldedComponentIds": Array [],
-                                                                            "render": [Function],
-                                                                            "styledComponentId": "sc-bdVaJa",
-                                                                            "target": "i",
-                                                                            "toString": [Function],
-                                                                            "warnTooManyClasses": [Function],
-                                                                            "withComponent": [Function],
-                                                                          }
-                                                                        }
-                                                                        forwardedRef={null}
-                                                                        size="tiny"
-                                                                      >
-                                                                        <i
-                                                                          className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                          size="tiny"
-                                                                        />
-                                                                      </StyledComponent>
-                                                                    </styled.i>
+                                                                    <i
+                                                                      className="natds-icons natds-icons-outlined-action-calendar makeStyles-root-1"
+                                                                    />
                                                                   </ForwardRef>
                                                                 </WithTheme(ForwardRef)>
                                                               </span>
@@ -38795,9 +38567,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gqjmRU",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": false,
-                    "lastClassName": "fOizOf",
+                    "lastClassName": "bWzfyE",
                     "rules": Array [
                       "
   display: flex;
@@ -38811,7 +38583,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gqjmRU",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -38821,7 +38593,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
               forwardedRef={null}
             >
               <div
-                className="sc-gqjmRU fOizOf"
+                className="sc-gZMcBi bWzfyE"
               >
                 <styled.label
                   disabled={false}
@@ -38833,9 +38605,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-VigVT",
+                          "componentId": "sc-gqjmRU",
                           "isStatic": false,
-                          "lastClassName": "kbirlQ",
+                          "lastClassName": "gGYfbZ",
                           "rules": Array [
                             "
   font-size: ",
@@ -38860,7 +38632,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-VigVT",
+                        "styledComponentId": "sc-gqjmRU",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -38870,7 +38642,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-VigVT kbirlQ"
+                      className="sc-gqjmRU gGYfbZ"
                       disabled={false}
                     >
                       Only calendar
@@ -39358,47 +39130,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Read Only vari
                                                                     name="outlined-action-calendar"
                                                                     size="tiny"
                                                                   >
-                                                                    <styled.i
-                                                                      className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                      size="tiny"
-                                                                    >
-                                                                      <StyledComponent
-                                                                        className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                        forwardedComponent={
-                                                                          Object {
-                                                                            "$$typeof": Symbol(react.forward_ref),
-                                                                            "attrs": Array [],
-                                                                            "componentStyle": ComponentStyle {
-                                                                              "componentId": "sc-bdVaJa",
-                                                                              "isStatic": false,
-                                                                              "lastClassName": "jWbhAs",
-                                                                              "rules": Array [
-                                                                                "
-  font-size: ",
-                                                                                [Function],
-                                                                                ";
-",
-                                                                              ],
-                                                                            },
-                                                                            "displayName": "styled.i",
-                                                                            "foldedComponentIds": Array [],
-                                                                            "render": [Function],
-                                                                            "styledComponentId": "sc-bdVaJa",
-                                                                            "target": "i",
-                                                                            "toString": [Function],
-                                                                            "warnTooManyClasses": [Function],
-                                                                            "withComponent": [Function],
-                                                                          }
-                                                                        }
-                                                                        forwardedRef={null}
-                                                                        size="tiny"
-                                                                      >
-                                                                        <i
-                                                                          className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                          size="tiny"
-                                                                        />
-                                                                      </StyledComponent>
-                                                                    </styled.i>
+                                                                    <i
+                                                                      className="natds-icons natds-icons-outlined-action-calendar makeStyles-root-9"
+                                                                    />
                                                                   </ForwardRef>
                                                                 </WithTheme(ForwardRef)>
                                                               </span>
@@ -39901,9 +39635,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gqjmRU",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": false,
-                    "lastClassName": "fOizOf",
+                    "lastClassName": "bWzfyE",
                     "rules": Array [
                       "
   display: flex;
@@ -39917,7 +39651,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gqjmRU",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -39927,7 +39661,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
               forwardedRef={null}
             >
               <div
-                className="sc-gqjmRU fOizOf"
+                className="sc-gZMcBi bWzfyE"
               >
                 <styled.label
                   disabled={false}
@@ -39939,9 +39673,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-VigVT",
+                          "componentId": "sc-gqjmRU",
                           "isStatic": false,
-                          "lastClassName": "kbirlQ",
+                          "lastClassName": "gGYfbZ",
                           "rules": Array [
                             "
   font-size: ",
@@ -39966,7 +39700,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-VigVT",
+                        "styledComponentId": "sc-gqjmRU",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -39976,7 +39710,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                     forwardedRef={null}
                   >
                     <label
-                      className="sc-VigVT kbirlQ"
+                      className="sc-gqjmRU gGYfbZ"
                       disabled={false}
                     >
                       Only calendar *
@@ -40455,47 +40189,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Required: Keyb
                                                                     name="outlined-action-calendar"
                                                                     size="tiny"
                                                                   >
-                                                                    <styled.i
-                                                                      className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                      size="tiny"
-                                                                    >
-                                                                      <StyledComponent
-                                                                        className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                        forwardedComponent={
-                                                                          Object {
-                                                                            "$$typeof": Symbol(react.forward_ref),
-                                                                            "attrs": Array [],
-                                                                            "componentStyle": ComponentStyle {
-                                                                              "componentId": "sc-bdVaJa",
-                                                                              "isStatic": false,
-                                                                              "lastClassName": "jWbhAs",
-                                                                              "rules": Array [
-                                                                                "
-  font-size: ",
-                                                                                [Function],
-                                                                                ";
-",
-                                                                              ],
-                                                                            },
-                                                                            "displayName": "styled.i",
-                                                                            "foldedComponentIds": Array [],
-                                                                            "render": [Function],
-                                                                            "styledComponentId": "sc-bdVaJa",
-                                                                            "target": "i",
-                                                                            "toString": [Function],
-                                                                            "warnTooManyClasses": [Function],
-                                                                            "withComponent": [Function],
-                                                                          }
-                                                                        }
-                                                                        forwardedRef={null}
-                                                                        size="tiny"
-                                                                      >
-                                                                        <i
-                                                                          className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                          size="tiny"
-                                                                        />
-                                                                      </StyledComponent>
-                                                                    </styled.i>
+                                                                    <i
+                                                                      className="natds-icons natds-icons-outlined-action-calendar makeStyles-root-6"
+                                                                    />
                                                                   </ForwardRef>
                                                                 </WithTheme(ForwardRef)>
                                                               </span>
@@ -52276,9 +51972,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                   "$$typeof": Symbol(react.forward_ref),
                   "attrs": Array [],
                   "componentStyle": ComponentStyle {
-                    "componentId": "sc-gqjmRU",
+                    "componentId": "sc-gZMcBi",
                     "isStatic": false,
-                    "lastClassName": "hYFWIQ",
+                    "lastClassName": "hzTiNr",
                     "rules": Array [
                       "
   display: flex;
@@ -52292,7 +51988,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                   "displayName": "styled.div",
                   "foldedComponentIds": Array [],
                   "render": [Function],
-                  "styledComponentId": "sc-gqjmRU",
+                  "styledComponentId": "sc-gZMcBi",
                   "target": "div",
                   "toString": [Function],
                   "warnTooManyClasses": [Function],
@@ -52973,7 +52669,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
               }
             >
               <div
-                className="sc-gqjmRU hYFWIQ"
+                className="sc-gZMcBi hzTiNr"
               >
                 <styled.label
                   disabled={false}
@@ -53657,9 +53353,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                         "$$typeof": Symbol(react.forward_ref),
                         "attrs": Array [],
                         "componentStyle": ComponentStyle {
-                          "componentId": "sc-VigVT",
+                          "componentId": "sc-gqjmRU",
                           "isStatic": false,
-                          "lastClassName": "gLavkU",
+                          "lastClassName": "jiIpwb",
                           "rules": Array [
                             "
   font-size: ",
@@ -53684,7 +53380,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                         "displayName": "styled.label",
                         "foldedComponentIds": Array [],
                         "render": [Function],
-                        "styledComponentId": "sc-VigVT",
+                        "styledComponentId": "sc-gqjmRU",
                         "target": "label",
                         "toString": [Function],
                         "warnTooManyClasses": [Function],
@@ -54366,7 +54062,7 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                     }
                   >
                     <label
-                      className="sc-VigVT gLavkU"
+                      className="sc-gqjmRU jiIpwb"
                       disabled={false}
                     >
                       Only calendar
@@ -60884,47 +60580,9 @@ exports[`KeyboardDatePicker components should match to snapshot - Success state:
                                                                     name="outlined-action-calendar"
                                                                     size="tiny"
                                                                   >
-                                                                    <styled.i
-                                                                      className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                      size="tiny"
-                                                                    >
-                                                                      <StyledComponent
-                                                                        className="natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                        forwardedComponent={
-                                                                          Object {
-                                                                            "$$typeof": Symbol(react.forward_ref),
-                                                                            "attrs": Array [],
-                                                                            "componentStyle": ComponentStyle {
-                                                                              "componentId": "sc-bdVaJa",
-                                                                              "isStatic": false,
-                                                                              "lastClassName": "jWbhAs",
-                                                                              "rules": Array [
-                                                                                "
-  font-size: ",
-                                                                                [Function],
-                                                                                ";
-",
-                                                                              ],
-                                                                            },
-                                                                            "displayName": "styled.i",
-                                                                            "foldedComponentIds": Array [],
-                                                                            "render": [Function],
-                                                                            "styledComponentId": "sc-bdVaJa",
-                                                                            "target": "i",
-                                                                            "toString": [Function],
-                                                                            "warnTooManyClasses": [Function],
-                                                                            "withComponent": [Function],
-                                                                          }
-                                                                        }
-                                                                        forwardedRef={null}
-                                                                        size="tiny"
-                                                                      >
-                                                                        <i
-                                                                          className="sc-bdVaJa jWbhAs natds-icons natds-icons-outlined-action-calendar undefined"
-                                                                          size="tiny"
-                                                                        />
-                                                                      </StyledComponent>
-                                                                    </styled.i>
+                                                                    <i
+                                                                      className="natds-icons natds-icons-outlined-action-calendar makeStyles-root-4"
+                                                                    />
                                                                   </ForwardRef>
                                                                 </WithTheme(ForwardRef)>
                                                               </span>

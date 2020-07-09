@@ -3,6 +3,134 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.9.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.9.0-alpha.DSY-1219.0...v0.9.0) (2020-07-09)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.12](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.11...v0.8.12) (2020-07-08)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.11](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.10...v0.8.11) (2020-07-08)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.10](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.9...v0.8.10) (2020-07-08)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.9](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.8...v0.8.9) (2020-07-08)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.8](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.7...v0.8.8) (2020-07-07)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.7](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.6...v0.8.7) (2020-07-07)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.6](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.5...v0.8.6) (2020-07-07)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.5](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.4...v0.8.5) (2020-07-07)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.4](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.3...v0.8.4) (2020-07-06)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.3](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.2...v0.8.3) (2020-07-06)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.2](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.1...v0.8.2) (2020-07-06)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.8.1](https://github.com/natura-cosmeticos/natds-js/compare/v0.8.0...v0.8.1) (2020-07-06)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+# [0.8.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.7.20...v0.8.0) (2020-07-06)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.7.20](https://github.com/natura-cosmeticos/natds-js/compare/v0.7.19...v0.7.20) (2020-07-06)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
+## [0.7.19](https://github.com/natura-cosmeticos/natds-js/compare/v0.7.18...v0.7.19) (2020-07-06)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-docs
+
+
+
+
+
 ## [0.7.18](https://github.com/natura-cosmeticos/natds-js/compare/v0.7.17...v0.7.18) (2020-07-06)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-docs
