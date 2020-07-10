@@ -5811,7 +5811,9 @@ exports[`TableRow component rendering variants should match to snapshot - standa
                                                       },
                                                     }
                                                   }
-                                                />
+                                                >
+                                                  Lorem Ipsum dolor
+                                                </th>
                                               </ForwardRef(TableCell)>
                                             </WithStyles(ForwardRef(TableCell))>
                                           </ForwardRef>
