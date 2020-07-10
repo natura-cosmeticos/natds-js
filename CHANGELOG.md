@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.5](https://github.com/natura-cosmeticos/natds/compare/v0.9.4...v0.9.5) (2020-07-10)
+
+
+### Bug Fixes
+
+* **web:** update TextField snapshot and yarn lock file ([c548e0e](https://github.com/natura-cosmeticos/natds/commit/c548e0eb1eafae584440167e412f28615d1911f4))
+
+
+
+
+
 ## [0.9.4](https://github.com/natura-cosmeticos/natds/compare/v0.9.3...v0.9.4) (2020-07-10)
 
 **Note:** Version bump only for package natds
