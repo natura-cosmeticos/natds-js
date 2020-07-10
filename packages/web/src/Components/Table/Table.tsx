@@ -33,7 +33,7 @@ export interface ITableProps extends MaterialTableProps {
    * @default false
    * With stripes
    */
-  stripped?: boolean;
+  striped?: boolean;
 }
 
 export const Table: FunctionComponent<ITableProps> = forwardRef((
@@ -44,7 +44,7 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
     theme: providerTheme,
     dividers,
     rounded,
-    stripped
+    striped
   } = props;
 
   const theme: any  = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
@@ -81,7 +81,7 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
       '& tr':{
         backgroundColor: theme.palette.background.default,
         '&:nth-of-type(even)': {
-          backgroundColor: stripped === false ? theme.palette.background.default: `${theme.palette.complementary.highlight}0A`,
+          backgroundColor: striped === false ? theme.palette.background.default: `${theme.palette.complementary.highlight}0A`,
         }
       },
       '& thead > tr:first-child': {

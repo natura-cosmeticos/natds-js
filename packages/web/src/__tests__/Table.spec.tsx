@@ -8,9 +8,7 @@ import {
     TableHead,
     TableRow,
     TableCell,
-    Checkbox
 } from '..';
-import { TableBody } from '@material-ui/core';
 
 describe('Table component', () => {
     describe('rendering variants', () => {
@@ -46,10 +44,10 @@ describe('Table component', () => {
             );
         });
 
-        test('should match to snapshot - with stripped applied', () => {
+        test('should match to snapshot - with striped applied', () => {
             const component = mount(
                 <TableContainer>
-                    <Table stripped={true}>
+                    <Table striped={true}>
                         <TableHead>
                             <TableRow>
                                 <TableCell>Lorem Ipsum dolor</TableCell>
