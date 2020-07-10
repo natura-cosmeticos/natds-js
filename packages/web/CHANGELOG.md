@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.9.3](https://github.com/natura-cosmeticos/natds-js/compare/v0.9.2...v0.9.3) (2020-07-10)
+
+
+
+## [0.9.2-alpha.DSY-1162.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.9.1...v0.9.2-alpha.DSY-1162.0) (2020-07-10)
+
+
+### Bug Fixes
+
+* **deps:** upgrade styled-components dependencies ([0994087](https://github.com/natura-cosmeticos/natds-js/commit/09940877d8ae26df08288ece8e1885c63a575c4b))
+
+
+
+
+
 ## [0.9.1](https://github.com/natura-cosmeticos/natds-js/compare/v0.9.1-alpha.DSY-1161.0...v0.9.1) (2020-07-09)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
