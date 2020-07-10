@@ -10,19 +10,17 @@ import {
   Icon,
   Checkbox,
 } from '@naturacosmeticos/natds-web';
-import styled from 'styled-components';
 import { makeStyles } from '@material-ui/core/styles';
-import { number, boolean } from '@storybook/addon-knobs';
 
 const TableWithSelectWrapper = ({
   dividers,
   rounded,
-  stripped,
+  striped,
   align,
 }:{
   dividers?: boolean,
   rounded?: boolean,
-  stripped?: boolean,
+  striped?: boolean,
   align?: 'inherit' | 'left' | 'center' | 'right' | 'justify' | undefined
 }) => {
   const useStyles = makeStyles(theme => ({
@@ -85,7 +83,7 @@ const TableWithSelectWrapper = ({
     <div className={classes.root}>
       <Table 
         dividers={dividers}
-        stripped={stripped}
+        striped={striped}
         aria-label="simple table">
         <TableHead>
           <TableRow >
@@ -160,13 +158,13 @@ const HeaderWrapper = ({
 
   const defaultComponent = (direction?: 'asc' | 'desc', active?: boolean) => {
     if(active && direction === 'desc'){
-      return ((props: any) => <Icon {...props} name="outlined-navigation-directionbottom" size="largex" />)
+      return ((props: any) => <Icon {...props} name="outlined-navigation-directionbottom" size="small"  />)
     }
     if(active && direction === 'asc'){
-      return ((props: any) => <Icon {...props} name="outlined-navigation-directiontop" size="largex" />)
+      return ((props: any) => <Icon {...props} name="outlined-navigation-directiontop" size="small"  />)
     }
 
-    return ((props: any) => <Icon {...props} name="outlined-action-order" size="largex" />)
+    return ((props: any) => <Icon {...props} name="outlined-action-order" size="small" />)
   }
 
   return (
@@ -192,12 +190,12 @@ const HeaderWrapper = ({
 
 const TableWrapper = ({
   dividers,
-  stripped,
+  striped,
   align,
   rounded,
 }: {
   dividers?: boolean,
-  stripped?: boolean,
+  striped?: boolean,
   rounded?: boolean,
   align?: 'inherit' | 'left' | 'center' | 'right' | 'justify' | undefined,
 }) => {
@@ -205,7 +203,7 @@ const TableWrapper = ({
   return (
       <Table
         dividers={dividers}
-        stripped={stripped}
+        striped={striped}
         rounded={rounded}
       >
         <TableHead>
@@ -258,8 +256,8 @@ export const tableContainerAttribute = [
     component: <TableWrapper dividers={false}/>,
   },
   {
-    title: 'stripped: none',
-    component: <TableWrapper stripped={false}/>,
+    title: 'striped: none',
+    component: <TableWrapper striped={false}/>,
   },
   {
     title: 'Table Header Cell / Ordination desc',

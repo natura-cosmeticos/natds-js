@@ -8,22 +8,19 @@ import {
   TableBody,
   Checkbox
 } from '@naturacosmeticos/natds-web';
-import styled from 'styled-components';
 import { makeStyles } from '@material-ui/core/styles';
-import { boolean, select, number } from '@storybook/addon-knobs';
+import { boolean, select } from '@storybook/addon-knobs';
 
 export const Interactive = ({
   dividers,
-  stripped,
+  striped,
   align,
   rounded,
-  size
 }: {
   dividers?: boolean,
-  stripped?: boolean,
+  striped?: boolean,
   rounded?: boolean,
   align?: 'inherit' | 'left' | 'center' | 'right' | 'justify' | undefined,
-  size?: any
 }) => {
   const useStyles = makeStyles(theme => ({
     root: {
@@ -34,7 +31,7 @@ export const Interactive = ({
 
   const roundedOption = boolean('Table Rounded', true);
   const dividersOption = boolean('Table Divided', true);
-  const strippedOption = boolean('Table Stripped', true);
+  const stripedOption = boolean('Table Striped', true);
 
   const tableAlignOptions: any = {
     right: 'right',
@@ -97,9 +94,8 @@ export const Interactive = ({
       <TableContainer>
         <Table 
         dividers={dividersOption}
-        stripped={strippedOption}
+        striped={stripedOption}
         rounded={roundedOption}
-        size={size}
         aria-label="simple table">
         <TableHead>
           <TableRow >
