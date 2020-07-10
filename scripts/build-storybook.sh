@@ -54,5 +54,5 @@ echo "STORYBOOK Committing changes..."
 git add --all
 git commit -m "docs: generating storybook for version ${VERSION} [skip ci]" --allow-empty
 
-echo "STORYBOOK Updating master-docs branch..."
-git push -f -u origin master-docs
+echo "STORYBOOK Updating ${TRAVIS_BUILD_DIR}-docs branch..."
+git push -f -u origin "${TRAVIS_BUILD_DIR}-docs"
