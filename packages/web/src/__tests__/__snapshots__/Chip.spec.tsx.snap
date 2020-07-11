@@ -3,6 +3,7 @@
 exports[`Chip component should match snapshot - Any valid Chip with Avatar: Chip snapshot - with avatar 1`] = `
 <div
   className="MuiChip-root"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
 >
   <div
@@ -20,6 +21,7 @@ exports[`Chip component should match snapshot - Any valid Chip with Avatar: Chip
 exports[`Chip component should match snapshot - Any valid Chip with Icon: Chip snapshot - with icon 1`] = `
 <div
   className="MuiChip-root"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
 >
   <i
@@ -34,6 +36,7 @@ exports[`Chip component should match snapshot - Any valid Chip with Icon: Chip s
 exports[`Chip component should match snapshot - Any valid Chip with custom deleteIcon: Chip snapshot - with custom deleteIcon 1`] = `
 <div
   className="MuiChip-root MuiChip-deletable"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
   role="button"
   tabIndex={0}
@@ -51,6 +54,7 @@ exports[`Chip component should match snapshot - Any valid Chip with custom delet
 exports[`Chip component should match snapshot - Any valid Chip with default color: Chip snapshot - with default color 1`] = `
 <div
   className="MuiChip-root"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
 >
   <span
@@ -62,6 +66,7 @@ exports[`Chip component should match snapshot - Any valid Chip with default colo
 exports[`Chip component should match snapshot - Any valid Chip with default deleteIcon: Chip snapshot - with default deleteIcon 1`] = `
 <div
   className="MuiChip-root MuiChip-deletable"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
   role="button"
   tabIndex={0}
@@ -79,6 +84,7 @@ exports[`Chip component should match snapshot - Any valid Chip with default dele
 exports[`Chip component should match snapshot - Any valid Chip with default variant: Chip snapshot - with default variant 1`] = `
 <div
   className="MuiChip-root"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
 >
   <span
@@ -90,6 +96,7 @@ exports[`Chip component should match snapshot - Any valid Chip with default vari
 exports[`Chip component should match snapshot - Any valid Chip with medium size: Chip snapshot - with medium size 1`] = `
 <div
   className="MuiChip-root"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
 >
   <span
@@ -101,6 +108,7 @@ exports[`Chip component should match snapshot - Any valid Chip with medium size:
 exports[`Chip component should match snapshot - Any valid Chip with outlined variant: Chip snapshot - with outlined variant 1`] = `
 <div
   className="MuiChip-root MuiChip-outlined"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
 >
   <span
@@ -112,6 +120,7 @@ exports[`Chip component should match snapshot - Any valid Chip with outlined var
 exports[`Chip component should match snapshot - Any valid Chip with primary color: Chip snapshot - with primary color 1`] = `
 <div
   className="MuiChip-root MuiChip-colorPrimary"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
 >
   <span
@@ -123,6 +132,7 @@ exports[`Chip component should match snapshot - Any valid Chip with primary colo
 exports[`Chip component should match snapshot - Any valid Chip with secondary color: Chip snapshot - with secondary color 1`] = `
 <div
   className="MuiChip-root MuiChip-colorSecondary"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
 >
   <span
@@ -134,6 +144,7 @@ exports[`Chip component should match snapshot - Any valid Chip with secondary co
 exports[`Chip component should match snapshot - Any valid Chip with small size: Chip snapshot - with small size 1`] = `
 <div
   className="MuiChip-root MuiChip-sizeSmall"
+  onKeyDown={[Function]}
   onKeyUp={[Function]}
 >
   <span

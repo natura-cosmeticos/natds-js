@@ -36,10 +36,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
       }
     >
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
@@ -88,10 +87,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
       style={Object {}}
     >
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
@@ -4369,10 +4367,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <svg
-      aria-hidden="true"
+      aria-hidden={true}
       className="MuiSvgIcon-root sc-AxheI iqLCJf"
       focusable="false"
-      role="presentation"
       theme={
         Object {
           "avatarSizes": Object {
@@ -8711,10 +8708,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
     disabled={false}
   >
     <svg
-      aria-hidden="true"
+      aria-hidden={true}
       className="MuiSvgIcon-root sc-Axmtr gGsfRc"
       focusable="false"
-      role="presentation"
       theme={
         Object {
           "avatarSizes": Object {

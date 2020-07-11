@@ -16,6 +16,10 @@ export interface IProvider {
 }
 
 export const Provider:React.FunctionComponent<IProvider> = (props:IProvider) => {
+  /**
+   * @todo fix(web): TS2322 - Type is not assignable to type 'ThemeOptions'. Types of some properties are incompatible.
+   */
+  // @ts-ignore
   const theme: ThemeOptions = props.theme ? { ...props.theme } : { ...themes.natura.light };
   const newTheme = createMuiTheme(theme);
   return(

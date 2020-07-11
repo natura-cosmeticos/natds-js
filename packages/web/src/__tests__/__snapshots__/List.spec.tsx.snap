@@ -98,36 +98,34 @@ exports[`List components rendering variants should match to snapshot - with List
                     tabIndex={0}
                   >
                     Test
-                    <NoSsr>
-                      <WithStyles(memo)
+                    <WithStyles(memo)
+                      center={false}
+                    >
+                      <ForwardRef(TouchRipple)
                         center={false}
-                      >
-                        <ForwardRef(TouchRipple)
-                          center={false}
-                          classes={
-                            Object {
-                              "child": "MuiTouchRipple-child",
-                              "childLeaving": "MuiTouchRipple-childLeaving",
-                              "childPulsate": "MuiTouchRipple-childPulsate",
-                              "ripple": "MuiTouchRipple-ripple",
-                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                              "rippleVisible": "MuiTouchRipple-rippleVisible",
-                              "root": "MuiTouchRipple-root",
-                            }
+                        classes={
+                          Object {
+                            "child": "MuiTouchRipple-child",
+                            "childLeaving": "MuiTouchRipple-childLeaving",
+                            "childPulsate": "MuiTouchRipple-childPulsate",
+                            "ripple": "MuiTouchRipple-ripple",
+                            "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                            "rippleVisible": "MuiTouchRipple-rippleVisible",
+                            "root": "MuiTouchRipple-root",
                           }
+                        }
+                      >
+                        <span
+                          className="MuiTouchRipple-root"
                         >
-                          <span
-                            className="MuiTouchRipple-root"
-                          >
-                            <TransitionGroup
-                              childFactory={[Function]}
-                              component={null}
-                              exit={true}
-                            />
-                          </span>
-                        </ForwardRef(TouchRipple)>
-                      </WithStyles(memo)>
-                    </NoSsr>
+                          <TransitionGroup
+                            childFactory={[Function]}
+                            component={null}
+                            exit={true}
+                          />
+                        </span>
+                      </ForwardRef(TouchRipple)>
+                    </WithStyles(memo)>
                   </div>
                 </ForwardRef(ButtonBase)>
               </WithStyles(ForwardRef(ButtonBase))>
@@ -535,36 +533,34 @@ exports[`List components rendering variants should match to snapshot - with List
                                             </ForwardRef>
                                           </WithTheme(ForwardRef)>
                                         </span>
-                                        <NoSsr>
-                                          <WithStyles(memo)
+                                        <WithStyles(memo)
+                                          center={true}
+                                        >
+                                          <ForwardRef(TouchRipple)
                                             center={true}
-                                          >
-                                            <ForwardRef(TouchRipple)
-                                              center={true}
-                                              classes={
-                                                Object {
-                                                  "child": "MuiTouchRipple-child",
-                                                  "childLeaving": "MuiTouchRipple-childLeaving",
-                                                  "childPulsate": "MuiTouchRipple-childPulsate",
-                                                  "ripple": "MuiTouchRipple-ripple",
-                                                  "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                                  "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                                  "root": "MuiTouchRipple-root",
-                                                }
+                                            classes={
+                                              Object {
+                                                "child": "MuiTouchRipple-child",
+                                                "childLeaving": "MuiTouchRipple-childLeaving",
+                                                "childPulsate": "MuiTouchRipple-childPulsate",
+                                                "ripple": "MuiTouchRipple-ripple",
+                                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                "root": "MuiTouchRipple-root",
                                               }
+                                            }
+                                          >
+                                            <span
+                                              className="MuiTouchRipple-root"
                                             >
-                                              <span
-                                                className="MuiTouchRipple-root"
-                                              >
-                                                <TransitionGroup
-                                                  childFactory={[Function]}
-                                                  component={null}
-                                                  exit={true}
-                                                />
-                                              </span>
-                                            </ForwardRef(TouchRipple)>
-                                          </WithStyles(memo)>
-                                        </NoSsr>
+                                              <TransitionGroup
+                                                childFactory={[Function]}
+                                                component={null}
+                                                exit={true}
+                                              />
+                                            </span>
+                                          </ForwardRef(TouchRipple)>
+                                        </WithStyles(memo)>
                                       </button>
                                     </ForwardRef(ButtonBase)>
                                   </WithStyles(ForwardRef(ButtonBase))>
@@ -655,6 +651,7 @@ exports[`List components rendering variants should match to snapshot - with List
                           <WithStyles(ForwardRef(Typography))
                             className="MuiListItemText-primary"
                             component="span"
+                            display="block"
                             variant="body1"
                           >
                             <ForwardRef(Typography)
@@ -694,10 +691,11 @@ exports[`List components rendering variants should match to snapshot - with List
                                 }
                               }
                               component="span"
+                              display="block"
                               variant="body1"
                             >
                               <span
-                                className="MuiTypography-root MuiListItemText-primary MuiTypography-body1"
+                                className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
                               >
                                 Text only
                               </span>

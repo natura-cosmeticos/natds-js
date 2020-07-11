@@ -47,12 +47,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -875,12 +880,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -1724,12 +1734,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -2062,6 +2077,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -2628,12 +2644,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -3065,12 +3086,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -3893,12 +3919,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -4742,12 +4773,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -5042,6 +5078,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -5608,12 +5645,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -6045,12 +6087,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -6873,12 +6920,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -7722,12 +7774,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -8041,6 +8098,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -8607,12 +8665,17 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -9044,12 +9107,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -9872,12 +9940,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -10721,12 +10794,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -11116,6 +11194,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -11682,12 +11761,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -12119,12 +12203,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -12947,12 +13036,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -13796,12 +13890,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -14153,6 +14252,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -14719,12 +14819,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -15156,12 +15261,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -15984,12 +16094,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -16833,12 +16948,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -17209,6 +17329,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -17775,12 +17896,17 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -18212,12 +18338,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -19040,12 +19171,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -19889,12 +20025,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -20341,6 +20482,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -20907,12 +21049,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -21344,12 +21491,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -22172,12 +22324,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -23021,12 +23178,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -23435,6 +23597,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -24001,12 +24164,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -24438,12 +24606,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -25266,12 +25439,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -26115,12 +26293,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -26548,6 +26731,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -27114,12 +27298,17 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -27551,12 +27740,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -28379,12 +28573,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -29228,12 +29427,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -29737,6 +29941,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -30303,12 +30508,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -30740,12 +30950,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -31568,12 +31783,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -32417,12 +32637,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -32888,6 +33113,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -33454,12 +33680,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -33891,12 +34122,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -34719,12 +34955,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -35568,12 +35809,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -36058,6 +36304,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -36624,12 +36871,17 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -37069,12 +37321,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -37897,12 +38154,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
           },
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(51, 51, 51, 0.24)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -38746,12 +39008,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             },
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(51, 51, 51, 0.24)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -39281,6 +39548,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               role="tooltip"
               style={
                 Object {
+                  "display": null,
                   "left": 0,
                   "position": "fixed",
                   "top": 0,
@@ -39847,12 +40115,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                   },
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(51, 51, 51, 0.24)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -40269,12 +40542,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -40564,12 +40842,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -40869,12 +41152,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -41167,12 +41455,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                                     "overrides": Object {},
                                     "palette": Object {
                                       "action": Object {
+                                        "activatedOpacity": 0.12,
                                         "active": "rgba(0, 0, 0, 0.54)",
                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                        "hoverOpacity": 0.08,
-                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                        "disabledOpacity": 0.38,
+                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                        "focusOpacity": 0.12,
+                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                        "hoverOpacity": 0.04,
+                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                        "selectedOpacity": 0.08,
                                       },
                                       "augmentColor": [Function],
                                       "background": Object {
@@ -41499,12 +41792,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -41795,12 +42093,17 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                                         "overrides": Object {},
                                         "palette": Object {
                                           "action": Object {
+                                            "activatedOpacity": 0.12,
                                             "active": "rgba(0, 0, 0, 0.54)",
                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                            "hoverOpacity": 0.08,
-                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                            "disabledOpacity": 0.38,
+                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                            "focusOpacity": 0.12,
+                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                            "hoverOpacity": 0.04,
+                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                            "selectedOpacity": 0.08,
                                           },
                                           "augmentColor": [Function],
                                           "background": Object {
