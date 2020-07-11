@@ -5,12 +5,9 @@
     "config:base"
   ],
   "ignoreDeps": [
-    "@material-ui/core",
-    "@material-ui/icons",
     "@naturacosmeticos/natds-icons",
     "@naturacosmeticos/natds-styles",
-    "@naturacosmeticos/natds-web",
-    "snyk"
+    "@naturacosmeticos/natds-web"
   ],
   "labels": ["dependencies", "renovate"],
   "masterIssue": true,
@@ -25,6 +22,14 @@
     {
       "packagePatterns": ["eslint"],
       "labels": ["dependencies", "linting", "renovate"]
+    },
+    {
+      "packagePatterns": ["snyk"],
+      "labels": ["dependencies", "renovate", "security"]
+    },
+    {
+      "packagePatterns": ["@material-ui/core", "@material-ui/icons"],
+      "labels": ["dependencies", "material ui", "renovate"]
     },
     {
       "packagePatterns": ["snyk"],
