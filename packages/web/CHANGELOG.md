@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.10.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.9.5...v0.10.0) (2020-07-11)
+
+
+### Bug Fixes
+
+* **web:** prevent type error on getDefaultTheme() ([6a7f5d2](https://github.com/natura-cosmeticos/natds-js/commit/6a7f5d294d4c3670d021f9bbbb06a96f699ced2e))
+* **web:** prevent type error on Provider ([8789f53](https://github.com/natura-cosmeticos/natds-js/commit/8789f5312161761242ace844e235044ab4fa685b))
+* **web:** prevent type error on Provider test ([9ff6a0e](https://github.com/natura-cosmeticos/natds-js/commit/9ff6a0e468c3b009e235983553563283bbb0c3db))
+* **web:** prevent type errors on IFabProps and Fab component ([ed7d835](https://github.com/natura-cosmeticos/natds-js/commit/ed7d8359025404a3051d8ed4ddcc79d0e954bd21))
+* **web:** remove type warning from Provider test file ([fe52de8](https://github.com/natura-cosmeticos/natds-js/commit/fe52de86bf3394f01a74b89361b9fa2f16d6d00c))
+
+
+### Features
+
+* **web:** update test snapshots ([99c1731](https://github.com/natura-cosmeticos/natds-js/commit/99c17312ec64026388888bcdd427de7ddb4ad3e5))
+
+
+
+
+
 ## [0.9.5](https://github.com/natura-cosmeticos/natds-js/compare/v0.9.4...v0.9.5) (2020-07-10)
 
 
