@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 echo "STORYBOOK Adding version ${VERSION} to versions JSON file..."
 cd scripts
 node helpers/addVersionOnConfig.js "${VERSION}"
