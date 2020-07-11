@@ -35,6 +35,4 @@ echo "STORYBOOK Going back to project root directory..."
 cd "$TRAVIS_BUILD_DIR"
 
 echo "STORYBOOK Moving to docs branch..."
-git remote update
-git fetch
 git checkout .

@@ -34,6 +34,8 @@ jobs:
       script: "yarn lerna:prerelease:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
       after_script:
         - "sh ./scripts/build-storybook.sh"
+        - "git remote update"
+        - "git fetch"
         - "git checkout -b \"${TRAVIS_BRANCH}-docs\""
         - "sh ./scripts/push-storybook.sh"
     - stage: release
