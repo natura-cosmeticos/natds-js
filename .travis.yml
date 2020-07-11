@@ -32,7 +32,10 @@ jobs:
         - "sh ./scripts/configure-git.sh"
         - "yarn lerna:prerelease:version:ci --preid alpha.$TRAVIS_BRANCH"
       script: "yarn lerna:prerelease:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
-      after_script: "sh ./scripts/build-storybook.sh"
+      after_script:
+        - "sh ./scripts/build-storybook.sh"
+        - "git checkout -b \"${TRAVIS_BRANCH}-docs\""
+        - "sh ./scripts/push-storybook.sh"
     - stage: release
       name: "Release"
       if: type = push AND branch = master
@@ -46,4 +49,7 @@ jobs:
           skip_cleanup: true
           on:
             branch: master
-      after_deploy: "sh ./scripts/build-storybook.sh"
+      after_deploy:
+        - "sh ./scripts/build-storybook.sh"
+        - "git checkout master-docs"
+        - "sh ./scripts/push-storybook.sh"
