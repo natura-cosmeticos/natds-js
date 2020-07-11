@@ -50,6 +50,18 @@ describe('TextField component', () => {
       expect(component).to.matchSnapshot('TextField default snapshot');
     });
 
+    test('should match snapshot - TextField (readonly explicitly set to true)', () => {
+      const component = renderer.create(<TextField {...getProps()} readOnly={true} />).toJSON();
+
+      expect(component).to.matchSnapshot('TextField readonly explicitly set to true snapshot');
+    });
+
+    test('should match snapshot - TextField (readonly explicitly set to false)', () => {
+      const component = renderer.create(<TextField {...getProps()} readOnly={false} />).toJSON();
+
+      expect(component).to.matchSnapshot('TextField readonly explicitly set to false snapshot');
+    });
+
     test('should match snapshot - TextField (default without placeholder)', () => {
       const props = getProps();
       delete props.placeholder;
