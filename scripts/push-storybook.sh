@@ -2,7 +2,7 @@
 set -e
 
 echo "STORYBOOK Adding version ${VERSION} to versions JSON file..."
-cd scripts
+cd "${TRAVIS_BUILD_DIR}/scripts"
 node helpers/addVersionOnConfig.js "${VERSION}"
 
 echo "STORYBOOK Going back to project root directory..."
