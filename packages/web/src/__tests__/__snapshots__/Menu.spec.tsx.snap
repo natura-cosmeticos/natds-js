@@ -391,13 +391,12 @@ exports[`Menu components should match to snapshot - opened Menu: Menu opened sna
                               "position": "fixed",
                               "right": 0,
                               "top": 0,
-                              "touchAction": "none",
                               "zIndex": -1,
                             }
                           }
                         />
                       </ForwardRef(SimpleBackdrop)>
-                      <TrapFocus
+                      <Unstable_TrapFocus
                         disableAutoFocus={false}
                         disableEnforceFocus={false}
                         disableRestoreFocus={false}
@@ -635,7 +634,7 @@ exports[`Menu components should match to snapshot - opened Menu: Menu opened sna
                           data-test="sentinelEnd"
                           tabIndex={0}
                         />
-                      </TrapFocus>
+                      </Unstable_TrapFocus>
                     </div>
                   </Portal>
                 </ForwardRef(Portal)>

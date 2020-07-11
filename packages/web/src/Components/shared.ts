@@ -4,8 +4,12 @@ import { themes } from '../Themes';
 
 export const getDefaultTheme = (providerTheme: any) => {
   const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme));
-  const parsedDefaulttheme = JSON.parse(JSON.stringify(createMuiTheme({})));
-  return isEqual(parsedProviderTheme, parsedDefaulttheme)
+  const parsedDefaultTheme = JSON.parse(JSON.stringify(createMuiTheme({})));
+  /**
+   * @todo fix(web): TS2345 Argument of type 'IThemeWeb' is not assignable to parameter of type 'ThemeOptions' on shared
+   */
+  return isEqual(parsedProviderTheme, parsedDefaultTheme)
+  // @ts-ignore
     ? createMuiTheme(themes.natura.light)
     : providerTheme;
 };

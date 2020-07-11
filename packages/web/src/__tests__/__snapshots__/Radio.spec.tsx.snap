@@ -23,7 +23,6 @@ exports[`Radio component rendering should match to snapshot - Checked: Radio che
     <input
       checked={true}
       className="PrivateSwitchBase-input-4"
-      disabled={false}
       onChange={[Function]}
       type="radio"
     />
@@ -31,10 +30,9 @@ exports[`Radio component rendering should match to snapshot - Checked: Radio che
       className="PrivateRadioButtonIcon-root-5 PrivateRadioButtonIcon-checked-7"
     >
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
@@ -42,10 +40,9 @@ exports[`Radio component rendering should match to snapshot - Checked: Radio che
         />
       </svg>
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
@@ -79,7 +76,6 @@ exports[`Radio component rendering should match to snapshot - Color: Radio color
   >
     <input
       className="PrivateSwitchBase-input-4"
-      disabled={false}
       onChange={[Function]}
       type="radio"
     />
@@ -87,10 +83,9 @@ exports[`Radio component rendering should match to snapshot - Color: Radio color
       className="PrivateRadioButtonIcon-root-5"
     >
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
@@ -98,10 +93,9 @@ exports[`Radio component rendering should match to snapshot - Color: Radio color
         />
       </svg>
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
@@ -138,7 +132,6 @@ exports[`Radio component rendering should match to snapshot - Default: Radio def
   >
     <input
       className="PrivateSwitchBase-input-4"
-      disabled={false}
       onChange={[Function]}
       type="radio"
     />
@@ -146,10 +139,9 @@ exports[`Radio component rendering should match to snapshot - Default: Radio def
       className="PrivateRadioButtonIcon-root-5"
     >
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
@@ -157,10 +149,9 @@ exports[`Radio component rendering should match to snapshot - Default: Radio def
         />
       </svg>
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
@@ -195,7 +186,6 @@ exports[`Radio component rendering should match to snapshot - Disabled: Radio di
     <input
       checked={true}
       className="PrivateSwitchBase-input-4"
-      disabled={false}
       onChange={[Function]}
       type="radio"
     />
@@ -203,10 +193,9 @@ exports[`Radio component rendering should match to snapshot - Disabled: Radio di
       className="PrivateRadioButtonIcon-root-5 PrivateRadioButtonIcon-checked-7"
     >
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path
@@ -214,10 +203,9 @@ exports[`Radio component rendering should match to snapshot - Disabled: Radio di
         />
       </svg>
       <svg
-        aria-hidden="true"
+        aria-hidden={true}
         className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-6"
         focusable="false"
-        role="presentation"
         viewBox="0 0 24 24"
       >
         <path

@@ -1,31 +1,12 @@
-import React, { FunctionComponent, forwardRef } from 'react';
+import * as React from 'react';
 import { withTheme } from '@material-ui/core/styles';
-import MaterialFab, { FabProps } from '@material-ui/core/Fab';
-import { IThemeWeb } from '../Themes';
-import { getDefaultTheme } from './shared';
+import MaterialFab from '@material-ui/core/Fab';
+import { getDefaultTheme } from '../shared';
+import { IFabProps } from "./IFabProps";
 
-type IFabColor = 'primary' | 'secondary' | 'light';
+export { IFabProps } from "./IFabProps";
 
-export interface IFabProps extends React.HtmlHTMLAttributes<HTMLButtonElement>, Pick<FabProps,
-  | 'size'
-  | 'href'
-  | 'disableFocusRipple'
-  | 'variant'
-  | 'children'
-  | 'disabled'
-> {
-  /**
-   * @optional
-   * The color of the component
-   */
-  color?: IFabColor;
-  /**
-   * @optional
-   */
-  theme?: IThemeWeb | unknown;
-}
-
-export const Fab: FunctionComponent<IFabProps> = forwardRef((
+export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
   props: IFabProps,
   ref: any
 ) => {
@@ -60,12 +41,16 @@ export const Fab: FunctionComponent<IFabProps> = forwardRef((
 
   const colorStyle = !disabled ? colorMap[color] : {};
 
+  /**
+   * @todo fix(web): TS2769 No overload matches this call on Fab component
+   */
   return (
+    // @ts-ignore
     <MaterialFab
       {...props}
       color="inherit"
-      style={{ ...colorStyle, ...style }}
       ref={ref}
+      style={{ ...colorStyle, ...style }}
     />
   );
 });
