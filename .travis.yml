@@ -33,10 +33,12 @@ jobs:
         - "yarn lerna:prerelease:version:ci --preid alpha.$TRAVIS_BRANCH"
       script: "yarn lerna:prerelease:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
       after_script:
+        - "chmod +x ./scripts/build-storybook.sh"
         - "sh ./scripts/build-storybook.sh"
         - "git remote update"
         - "git fetch"
         - "git checkout -b \"${TRAVIS_BRANCH}-docs\""
+        - "chmod +x ./scripts/push-storybook.sh"
         - "sh ./scripts/push-storybook.sh"
     - stage: release
       name: "Release"
@@ -52,6 +54,8 @@ jobs:
           on:
             branch: master
       after_deploy:
+        - "chmod +x ./scripts/build-storybook.sh"
         - "sh ./scripts/build-storybook.sh"
         - "git checkout master-docs"
+        - "chmod +x ./scripts/push-storybook.sh"
         - "sh ./scripts/push-storybook.sh"
