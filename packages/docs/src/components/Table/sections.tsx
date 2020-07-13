@@ -84,6 +84,7 @@ const TableWithSelectWrapper = ({
       <Table 
         dividers={dividers}
         striped={striped}
+        rounded={rounded}
         aria-label="simple table">
         <TableHead>
           <TableRow >

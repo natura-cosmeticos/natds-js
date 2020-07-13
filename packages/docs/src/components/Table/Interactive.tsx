@@ -11,17 +11,7 @@ import {
 import { makeStyles } from '@material-ui/core/styles';
 import { boolean, select } from '@storybook/addon-knobs';
 
-export const Interactive = ({
-  dividers,
-  striped,
-  align,
-  rounded,
-}: {
-  dividers?: boolean,
-  striped?: boolean,
-  rounded?: boolean,
-  align?: 'inherit' | 'left' | 'center' | 'right' | 'justify' | undefined,
-}) => {
+export const Interactive = () => {
   const useStyles = makeStyles(theme => ({
     root: {
       backgroundColor: theme.palette.background.paper,
