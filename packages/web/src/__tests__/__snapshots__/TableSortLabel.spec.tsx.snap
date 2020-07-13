@@ -42,12 +42,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -329,12 +334,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -621,12 +631,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -909,12 +924,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -1197,12 +1217,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -1485,12 +1510,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                     "overrides": Object {},
                     "palette": Object {
                       "action": Object {
+                        "activatedOpacity": 0.12,
                         "active": "rgba(0, 0, 0, 0.54)",
                         "disabled": "rgba(0, 0, 0, 0.26)",
                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                        "hover": "rgba(0, 0, 0, 0.08)",
-                        "hoverOpacity": 0.08,
-                        "selected": "rgba(0, 0, 0, 0.14)",
+                        "disabledOpacity": 0.38,
+                        "focus": "rgba(0, 0, 0, 0.12)",
+                        "focusOpacity": 0.12,
+                        "hover": "rgba(0, 0, 0, 0.04)",
+                        "hoverOpacity": 0.04,
+                        "selected": "rgba(0, 0, 0, 0.08)",
+                        "selectedOpacity": 0.08,
                       },
                       "augmentColor": [Function],
                       "background": Object {
@@ -1779,12 +1809,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -2028,6 +2063,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                 >
                   <table
                     className="MuiTable-root makeStyles-root-1"
+                    role={null}
                     theme={
                       Object {
                         "breakpoints": Object {
@@ -2067,12 +2103,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -2355,12 +2396,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -2642,12 +2688,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -2934,12 +2985,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -3183,6 +3239,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                           >
                             <thead
                               className="MuiTableHead-root"
+                              role={null}
                               theme={
                                 Object {
                                   "breakpoints": Object {
@@ -3222,12 +3279,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -3510,12 +3572,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -3802,12 +3869,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                         "overrides": Object {},
                                         "palette": Object {
                                           "action": Object {
+                                            "activatedOpacity": 0.12,
                                             "active": "rgba(0, 0, 0, 0.54)",
                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                            "hoverOpacity": 0.08,
-                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                            "disabledOpacity": 0.38,
+                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                            "focusOpacity": 0.12,
+                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                            "hoverOpacity": 0.04,
+                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                            "selectedOpacity": 0.08,
                                           },
                                           "augmentColor": [Function],
                                           "background": Object {
@@ -4098,12 +4170,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                           "overrides": Object {},
                                           "palette": Object {
                                             "action": Object {
+                                              "activatedOpacity": 0.12,
                                               "active": "rgba(0, 0, 0, 0.54)",
                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                              "hoverOpacity": 0.08,
-                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                              "disabledOpacity": 0.38,
+                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                              "focusOpacity": 0.12,
+                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                              "hoverOpacity": 0.04,
+                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                              "selectedOpacity": 0.08,
                                             },
                                             "augmentColor": [Function],
                                             "background": Object {
@@ -4347,6 +4424,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                     >
                                       <tr
                                         className="MuiTableRow-root MuiTableRow-head"
+                                        role={null}
                                         theme={
                                           Object {
                                             "breakpoints": Object {
@@ -4386,12 +4464,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                             "overrides": Object {},
                                             "palette": Object {
                                               "action": Object {
+                                                "activatedOpacity": 0.12,
                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                "hoverOpacity": 0.08,
-                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                "disabledOpacity": 0.38,
+                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                "focusOpacity": 0.12,
+                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                "hoverOpacity": 0.04,
+                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                "selectedOpacity": 0.08,
                                               },
                                               "augmentColor": [Function],
                                               "background": Object {
@@ -4677,12 +4760,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                 "overrides": Object {},
                                                 "palette": Object {
                                                   "action": Object {
+                                                    "activatedOpacity": 0.12,
                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                    "hoverOpacity": 0.08,
-                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                    "disabledOpacity": 0.38,
+                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                    "focusOpacity": 0.12,
+                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                    "hoverOpacity": 0.04,
+                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                    "selectedOpacity": 0.08,
                                                   },
                                                   "augmentColor": [Function],
                                                   "background": Object {
@@ -4965,12 +5053,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                   "overrides": Object {},
                                                   "palette": Object {
                                                     "action": Object {
+                                                      "activatedOpacity": 0.12,
                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                      "hoverOpacity": 0.08,
-                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                      "disabledOpacity": 0.38,
+                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                      "focusOpacity": 0.12,
+                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                      "hoverOpacity": 0.04,
+                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                      "selectedOpacity": 0.08,
                                                     },
                                                     "augmentColor": [Function],
                                                     "background": Object {
@@ -5269,12 +5362,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                     "overrides": Object {},
                                                     "palette": Object {
                                                       "action": Object {
+                                                        "activatedOpacity": 0.12,
                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                        "hoverOpacity": 0.08,
-                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                        "disabledOpacity": 0.38,
+                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                        "focusOpacity": 0.12,
+                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                        "hoverOpacity": 0.04,
+                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                        "selectedOpacity": 0.08,
                                                       },
                                                       "augmentColor": [Function],
                                                       "background": Object {
@@ -5559,12 +5657,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                       "overrides": Object {},
                                                       "palette": Object {
                                                         "action": Object {
+                                                          "activatedOpacity": 0.12,
                                                           "active": "rgba(0, 0, 0, 0.54)",
                                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                                          "hoverOpacity": 0.08,
-                                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                                          "disabledOpacity": 0.38,
+                                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                                          "focusOpacity": 0.12,
+                                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                                          "hoverOpacity": 0.04,
+                                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                                          "selectedOpacity": 0.08,
                                                         },
                                                         "augmentColor": [Function],
                                                         "background": Object {
@@ -5854,12 +5957,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                           "overrides": Object {},
                                                           "palette": Object {
                                                             "action": Object {
+                                                              "activatedOpacity": 0.12,
                                                               "active": "rgba(0, 0, 0, 0.54)",
                                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                                              "hoverOpacity": 0.08,
-                                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                                              "disabledOpacity": 0.38,
+                                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                                              "focusOpacity": 0.12,
+                                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                                              "hoverOpacity": 0.04,
+                                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                                              "selectedOpacity": 0.08,
                                                             },
                                                             "augmentColor": [Function],
                                                             "background": Object {
@@ -6149,12 +6257,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                             "overrides": Object {},
                                                             "palette": Object {
                                                               "action": Object {
+                                                                "activatedOpacity": 0.12,
                                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                                "hoverOpacity": 0.08,
-                                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                                "disabledOpacity": 0.38,
+                                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                                "focusOpacity": 0.12,
+                                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                                "hoverOpacity": 0.04,
+                                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                                "selectedOpacity": 0.08,
                                                               },
                                                               "augmentColor": [Function],
                                                               "background": Object {
@@ -6448,12 +6561,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                               "overrides": Object {},
                                                               "palette": Object {
                                                                 "action": Object {
+                                                                  "activatedOpacity": 0.12,
                                                                   "active": "rgba(0, 0, 0, 0.54)",
                                                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                                                  "hoverOpacity": 0.08,
-                                                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                                                  "disabledOpacity": 0.38,
+                                                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                                                  "focusOpacity": 0.12,
+                                                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                                                  "hoverOpacity": 0.04,
+                                                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                                                  "selectedOpacity": 0.08,
                                                                 },
                                                                 "augmentColor": [Function],
                                                                 "background": Object {
@@ -6739,12 +6857,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                 "overrides": Object {},
                                                                 "palette": Object {
                                                                   "action": Object {
+                                                                    "activatedOpacity": 0.12,
                                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                                    "hoverOpacity": 0.08,
-                                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                                    "disabledOpacity": 0.38,
+                                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                                    "focusOpacity": 0.12,
+                                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                                    "hoverOpacity": 0.04,
+                                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                                    "selectedOpacity": 0.08,
                                                                   },
                                                                   "augmentColor": [Function],
                                                                   "background": Object {
@@ -7037,12 +7160,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                   "overrides": Object {},
                                                                   "palette": Object {
                                                                     "action": Object {
+                                                                      "activatedOpacity": 0.12,
                                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                                      "hoverOpacity": 0.08,
-                                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                                      "disabledOpacity": 0.38,
+                                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                                      "focusOpacity": 0.12,
+                                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                                      "hoverOpacity": 0.04,
+                                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                                      "selectedOpacity": 0.08,
                                                                     },
                                                                     "augmentColor": [Function],
                                                                     "background": Object {
@@ -7340,12 +7468,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                     "overrides": Object {},
                                                                     "palette": Object {
                                                                       "action": Object {
+                                                                        "activatedOpacity": 0.12,
                                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                                        "hoverOpacity": 0.08,
-                                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                                        "disabledOpacity": 0.38,
+                                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                                        "focusOpacity": 0.12,
+                                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                                        "hoverOpacity": 0.04,
+                                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                                        "selectedOpacity": 0.08,
                                                                       },
                                                                       "augmentColor": [Function],
                                                                       "background": Object {
@@ -7681,12 +7814,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -7968,12 +8106,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -8260,12 +8403,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -8548,12 +8696,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -8836,12 +8989,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -9124,12 +9282,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                     "overrides": Object {},
                     "palette": Object {
                       "action": Object {
+                        "activatedOpacity": 0.12,
                         "active": "rgba(0, 0, 0, 0.54)",
                         "disabled": "rgba(0, 0, 0, 0.26)",
                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                        "hover": "rgba(0, 0, 0, 0.08)",
-                        "hoverOpacity": 0.08,
-                        "selected": "rgba(0, 0, 0, 0.14)",
+                        "disabledOpacity": 0.38,
+                        "focus": "rgba(0, 0, 0, 0.12)",
+                        "focusOpacity": 0.12,
+                        "hover": "rgba(0, 0, 0, 0.04)",
+                        "hoverOpacity": 0.04,
+                        "selected": "rgba(0, 0, 0, 0.08)",
+                        "selectedOpacity": 0.08,
                       },
                       "augmentColor": [Function],
                       "background": Object {
@@ -9418,12 +9581,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -9667,6 +9835,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                 >
                   <table
                     className="MuiTable-root makeStyles-root-5"
+                    role={null}
                     theme={
                       Object {
                         "breakpoints": Object {
@@ -9706,12 +9875,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -9994,12 +10168,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -10281,12 +10460,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -10573,12 +10757,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -10822,6 +11011,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                           >
                             <thead
                               className="MuiTableHead-root"
+                              role={null}
                               theme={
                                 Object {
                                   "breakpoints": Object {
@@ -10861,12 +11051,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -11149,12 +11344,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -11441,12 +11641,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                         "overrides": Object {},
                                         "palette": Object {
                                           "action": Object {
+                                            "activatedOpacity": 0.12,
                                             "active": "rgba(0, 0, 0, 0.54)",
                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                            "hoverOpacity": 0.08,
-                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                            "disabledOpacity": 0.38,
+                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                            "focusOpacity": 0.12,
+                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                            "hoverOpacity": 0.04,
+                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                            "selectedOpacity": 0.08,
                                           },
                                           "augmentColor": [Function],
                                           "background": Object {
@@ -11737,12 +11942,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                           "overrides": Object {},
                                           "palette": Object {
                                             "action": Object {
+                                              "activatedOpacity": 0.12,
                                               "active": "rgba(0, 0, 0, 0.54)",
                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                              "hoverOpacity": 0.08,
-                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                              "disabledOpacity": 0.38,
+                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                              "focusOpacity": 0.12,
+                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                              "hoverOpacity": 0.04,
+                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                              "selectedOpacity": 0.08,
                                             },
                                             "augmentColor": [Function],
                                             "background": Object {
@@ -11986,6 +12196,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                     >
                                       <tr
                                         className="MuiTableRow-root MuiTableRow-head"
+                                        role={null}
                                         theme={
                                           Object {
                                             "breakpoints": Object {
@@ -12025,12 +12236,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                             "overrides": Object {},
                                             "palette": Object {
                                               "action": Object {
+                                                "activatedOpacity": 0.12,
                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                "hoverOpacity": 0.08,
-                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                "disabledOpacity": 0.38,
+                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                "focusOpacity": 0.12,
+                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                "hoverOpacity": 0.04,
+                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                "selectedOpacity": 0.08,
                                               },
                                               "augmentColor": [Function],
                                               "background": Object {
@@ -12316,12 +12532,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                 "overrides": Object {},
                                                 "palette": Object {
                                                   "action": Object {
+                                                    "activatedOpacity": 0.12,
                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                    "hoverOpacity": 0.08,
-                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                    "disabledOpacity": 0.38,
+                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                    "focusOpacity": 0.12,
+                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                    "hoverOpacity": 0.04,
+                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                    "selectedOpacity": 0.08,
                                                   },
                                                   "augmentColor": [Function],
                                                   "background": Object {
@@ -12604,12 +12825,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                   "overrides": Object {},
                                                   "palette": Object {
                                                     "action": Object {
+                                                      "activatedOpacity": 0.12,
                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                      "hoverOpacity": 0.08,
-                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                      "disabledOpacity": 0.38,
+                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                      "focusOpacity": 0.12,
+                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                      "hoverOpacity": 0.04,
+                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                      "selectedOpacity": 0.08,
                                                     },
                                                     "augmentColor": [Function],
                                                     "background": Object {
@@ -12908,12 +13134,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                     "overrides": Object {},
                                                     "palette": Object {
                                                       "action": Object {
+                                                        "activatedOpacity": 0.12,
                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                        "hoverOpacity": 0.08,
-                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                        "disabledOpacity": 0.38,
+                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                        "focusOpacity": 0.12,
+                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                        "hoverOpacity": 0.04,
+                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                        "selectedOpacity": 0.08,
                                                       },
                                                       "augmentColor": [Function],
                                                       "background": Object {
@@ -13198,12 +13429,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                       "overrides": Object {},
                                                       "palette": Object {
                                                         "action": Object {
+                                                          "activatedOpacity": 0.12,
                                                           "active": "rgba(0, 0, 0, 0.54)",
                                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                                          "hoverOpacity": 0.08,
-                                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                                          "disabledOpacity": 0.38,
+                                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                                          "focusOpacity": 0.12,
+                                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                                          "hoverOpacity": 0.04,
+                                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                                          "selectedOpacity": 0.08,
                                                         },
                                                         "augmentColor": [Function],
                                                         "background": Object {
@@ -13491,12 +13727,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                           "overrides": Object {},
                                                           "palette": Object {
                                                             "action": Object {
+                                                              "activatedOpacity": 0.12,
                                                               "active": "rgba(0, 0, 0, 0.54)",
                                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                                              "hoverOpacity": 0.08,
-                                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                                              "disabledOpacity": 0.38,
+                                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                                              "focusOpacity": 0.12,
+                                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                                              "hoverOpacity": 0.04,
+                                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                                              "selectedOpacity": 0.08,
                                                             },
                                                             "augmentColor": [Function],
                                                             "background": Object {
@@ -13785,12 +14026,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                             "overrides": Object {},
                                                             "palette": Object {
                                                               "action": Object {
+                                                                "activatedOpacity": 0.12,
                                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                                "hoverOpacity": 0.08,
-                                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                                "disabledOpacity": 0.38,
+                                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                                "focusOpacity": 0.12,
+                                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                                "hoverOpacity": 0.04,
+                                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                                "selectedOpacity": 0.08,
                                                               },
                                                               "augmentColor": [Function],
                                                               "background": Object {
@@ -14083,12 +14329,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                               "overrides": Object {},
                                                               "palette": Object {
                                                                 "action": Object {
+                                                                  "activatedOpacity": 0.12,
                                                                   "active": "rgba(0, 0, 0, 0.54)",
                                                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                                                  "hoverOpacity": 0.08,
-                                                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                                                  "disabledOpacity": 0.38,
+                                                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                                                  "focusOpacity": 0.12,
+                                                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                                                  "hoverOpacity": 0.04,
+                                                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                                                  "selectedOpacity": 0.08,
                                                                 },
                                                                 "augmentColor": [Function],
                                                                 "background": Object {
@@ -14374,12 +14625,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                 "overrides": Object {},
                                                                 "palette": Object {
                                                                   "action": Object {
+                                                                    "activatedOpacity": 0.12,
                                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                                    "hoverOpacity": 0.08,
-                                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                                    "disabledOpacity": 0.38,
+                                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                                    "focusOpacity": 0.12,
+                                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                                    "hoverOpacity": 0.04,
+                                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                                    "selectedOpacity": 0.08,
                                                                   },
                                                                   "augmentColor": [Function],
                                                                   "background": Object {
@@ -14672,12 +14928,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                   "overrides": Object {},
                                                                   "palette": Object {
                                                                     "action": Object {
+                                                                      "activatedOpacity": 0.12,
                                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                                      "hoverOpacity": 0.08,
-                                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                                      "disabledOpacity": 0.38,
+                                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                                      "focusOpacity": 0.12,
+                                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                                      "hoverOpacity": 0.04,
+                                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                                      "selectedOpacity": 0.08,
                                                                     },
                                                                     "augmentColor": [Function],
                                                                     "background": Object {
@@ -14975,12 +15236,17 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                     "overrides": Object {},
                                                                     "palette": Object {
                                                                       "action": Object {
+                                                                        "activatedOpacity": 0.12,
                                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                                        "hoverOpacity": 0.08,
-                                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                                        "disabledOpacity": 0.38,
+                                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                                        "focusOpacity": 0.12,
+                                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                                        "hoverOpacity": 0.04,
+                                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                                        "selectedOpacity": 0.08,
                                                                       },
                                                                       "augmentColor": [Function],
                                                                       "background": Object {
@@ -15223,7 +15489,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                 }
                                                               >
                                                                 Lorem Ipsum dolor
-                                                                <ForwardRef
+                                                                <ForwardRef(ArrowDownwardIcon)
                                                                   className="MuiTableSortLabel-icon makeStyles-icon-7 MuiTableSortLabel-iconDirectionAsc"
                                                                 >
                                                                   <WithStyles(ForwardRef(SvgIcon))
@@ -15246,10 +15512,9 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                       }
                                                                     >
                                                                       <svg
-                                                                        aria-hidden="true"
+                                                                        aria-hidden={true}
                                                                         className="MuiSvgIcon-root MuiTableSortLabel-icon makeStyles-icon-7 MuiTableSortLabel-iconDirectionAsc"
                                                                         focusable="false"
-                                                                        role="presentation"
                                                                         viewBox="0 0 24 24"
                                                                       >
                                                                         <path
@@ -15258,7 +15523,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                       </svg>
                                                                     </ForwardRef(SvgIcon)>
                                                                   </WithStyles(ForwardRef(SvgIcon))>
-                                                                </ForwardRef>
+                                                                </ForwardRef(ArrowDownwardIcon)>
                                                               </span>
                                                             </ForwardRef(ButtonBase)>
                                                           </WithStyles(ForwardRef(ButtonBase))>
