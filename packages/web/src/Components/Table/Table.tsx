@@ -42,9 +42,9 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
 ) => {
   const {
     theme: providerTheme,
-    dividers,
-    rounded,
-    striped
+    dividers = true,
+    rounded = false,
+    striped = true,
   } = props;
 
   const theme: any  = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
@@ -58,7 +58,7 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
       backgroundColor: theme.palette.background.paper,
       '& thead > tr > th ': {
         fontWeight: 'bold',
-        backgroundColor: theme.palette.type === 'dark' ? theme.palette.background.paperContrastText : theme.palette.background.paper,
+        backgroundColor: theme.palette.background.paper,
         borderTop: dividers === false ? 'none' : `1px solid ${theme.palette.text.hint}`,
 
         borderRight: dividers === false ? 'none' : `1px solid ${theme.palette.text.hint}`,

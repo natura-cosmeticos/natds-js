@@ -26,10 +26,9 @@ export const TableRow: FunctionComponent<ITableRowProps> = forwardRef((
   }), [theme]);
 
   const customClasses = useStyles();
-
-  const s = props.classes && props.classes.selected;
+  
   return (
-    <MaterialTableRow classes={{selected: s || customClasses.selected}} {...props} ref={ref} />
+    <MaterialTableRow classes={{selected: customClasses.selected}} {...props} ref={ref} />
   );
 });
 
