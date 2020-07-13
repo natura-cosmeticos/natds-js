@@ -34,19 +34,19 @@ yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"
 
-echo "STORYBOOK Updating from remote..."
-git remote update
-
 echo "STORYBOOK Fetching from Git..."
 git fetch
-
-echo "STORYBOOK Checking out..."
-git checkout .
 
 echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch"
 if [ "${TRAVIS_BRANCH}" = "master" ]; then
   git checkout master-docs
 else
+  echo "STORYBOOK Checking out..."
+  git checkout .
+
+  echo "STORYBOOK Updating from remote..."
+  git remote update
+
   git checkout -B "${TRAVIS_BRANCH}-docs"
 fi
 
