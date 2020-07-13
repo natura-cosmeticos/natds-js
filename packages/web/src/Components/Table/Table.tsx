@@ -45,6 +45,7 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
     dividers = true,
     rounded = false,
     striped = true,
+    ...rest
   } = props;
 
   const theme: any  = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
@@ -106,7 +107,7 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
 
   const customClasses = useStyles();
 
-  return <MaterialTable className={customClasses.root} {...props} ref={ref}/>;
+  return <MaterialTable className={customClasses.root} {...rest} ref={ref}/>;
 });
 
 export default withTheme(Table);
