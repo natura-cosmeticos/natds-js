@@ -6104,7 +6104,11 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                       <WithStyles(ForwardRef(TableSortLabel))
                                                         IconComponent={[Function]}
                                                         active={true}
-                                                        classes="makeStyles-icon-3"
+                                                        classes={
+                                                          Object {
+                                                            "icon": "makeStyles-icon-3",
+                                                          }
+                                                        }
                                                         onClick={[Function]}
                                                         theme={
                                                           Object {
@@ -6398,7 +6402,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                           classes={
                                                             Object {
                                                               "active": "MuiTableSortLabel-active",
-                                                              "icon": "MuiTableSortLabel-icon",
+                                                              "icon": "MuiTableSortLabel-icon makeStyles-icon-3",
                                                               "iconDirectionAsc": "MuiTableSortLabel-iconDirectionAsc",
                                                               "iconDirectionDesc": "MuiTableSortLabel-iconDirectionDesc",
                                                               "root": "MuiTableSortLabel-root",
@@ -7585,7 +7589,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                               >
                                                                 Lorem Ipsum dolor
                                                                 <IconComponent
-                                                                  className="MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                                                                  className="MuiTableSortLabel-icon makeStyles-icon-3 MuiTableSortLabel-iconDirectionAsc"
                                                                 >
                                                                   <WithTheme(ForwardRef)
                                                                     name="outlined-navigation-directionbottom"
@@ -13736,7 +13740,11 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                     >
                                                       <WithStyles(ForwardRef(TableSortLabel))
                                                         active={false}
-                                                        classes="makeStyles-icon-7"
+                                                        classes={
+                                                          Object {
+                                                            "icon": "makeStyles-icon-7",
+                                                          }
+                                                        }
                                                         onClick={[Function]}
                                                         theme={
                                                           Object {
@@ -14029,7 +14037,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                           classes={
                                                             Object {
                                                               "active": "MuiTableSortLabel-active",
-                                                              "icon": "MuiTableSortLabel-icon",
+                                                              "icon": "MuiTableSortLabel-icon makeStyles-icon-7",
                                                               "iconDirectionAsc": "MuiTableSortLabel-iconDirectionAsc",
                                                               "iconDirectionDesc": "MuiTableSortLabel-iconDirectionDesc",
                                                               "root": "MuiTableSortLabel-root",
@@ -15216,13 +15224,13 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                               >
                                                                 Lorem Ipsum dolor
                                                                 <ForwardRef
-                                                                  className="MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                                                                  className="MuiTableSortLabel-icon makeStyles-icon-7 MuiTableSortLabel-iconDirectionAsc"
                                                                 >
                                                                   <WithStyles(ForwardRef(SvgIcon))
-                                                                    className="MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                                                                    className="MuiTableSortLabel-icon makeStyles-icon-7 MuiTableSortLabel-iconDirectionAsc"
                                                                   >
                                                                     <ForwardRef(SvgIcon)
-                                                                      className="MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                                                                      className="MuiTableSortLabel-icon makeStyles-icon-7 MuiTableSortLabel-iconDirectionAsc"
                                                                       classes={
                                                                         Object {
                                                                           "colorAction": "MuiSvgIcon-colorAction",
@@ -15239,7 +15247,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
                                                                     >
                                                                       <svg
                                                                         aria-hidden="true"
-                                                                        className="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
+                                                                        className="MuiSvgIcon-root MuiTableSortLabel-icon makeStyles-icon-7 MuiTableSortLabel-iconDirectionAsc"
                                                                         focusable="false"
                                                                         role="presentation"
                                                                         viewBox="0 0 24 24"
