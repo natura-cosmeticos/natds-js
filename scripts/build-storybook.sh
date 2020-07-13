@@ -32,17 +32,28 @@ echo "STORYBOOK Building Storybook..."
 yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
 
 echo "STORYBOOK Going back to project root directory..."
-cd "$TRAVIS_BUILD_DIR"
+cd "${TRAVIS_BUILD_DIR}"
 
-echo "STORYBOOK Moving to docs branch..."
+echo "STORYBOOK Updating from remote..."
 git remote update
-git fetch
-git checkout .
-git checkout -b "${TRAVIS_BRANCH}-docs"
 
-echo "STORYBOOK Adding version ${VERSION} to versions JSON file..."
-cd scripts
-node helpers/addVersionOnConfig.js "${VERSION}"
+echo "STORYBOOK Fetching from Git..."
+git fetch
+
+echo "STORYBOOK Checking out..."
+git checkout .
+
+echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch"
+git checkout -B "${TRAVIS_BRANCH}-docs"
+
+echo "STORYBOOK Showing /docs dist current content"
+ls "${TRAVIS_BUILD_DIR}/packages/docs/dist"
+
+echo "STORYBOOK Opening helpers script directory..."
+cd "${TRAVIS_BUILD_DIR}/scripts/helpers"
+
+echo "STORYBOOK Adding version ${VERSION} to versions JSON file"
+node addVersionOnConfig.js "${VERSION}"
 
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"

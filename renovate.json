@@ -5,8 +5,6 @@
     "config:base"
   ],
   "ignoreDeps": [
-    "@material-ui/core",
-    "@material-ui/icons",
     "@naturacosmeticos/natds-icons",
     "@naturacosmeticos/natds-styles",
     "@naturacosmeticos/natds-web",
@@ -17,6 +15,18 @@
   "masterIssueAutoclose": true,
   "packageRules": [
     {
+      "groupName": "jest dependencies",
+      "groupSlug": "jest",
+      "labels": ["dependencies", "renovate", "testing"],
+      "packagePatterns": ["@types/chai-jest-snapshot", "ts-jest"]
+    },
+    {
+      "groupName": "rollup dependencies",
+      "groupSlug": "rollup",
+      "labels": ["dependencies", "renovate", "rollup"],
+      "packagePatterns": ["@rollup/plugin-babel", "@rollup/plugin-commonjs", "@rollup/plugin-node-resolve", "@rollup/plugin-typescript"]
+    },
+    {
       "groupName": "styled-components dependencies",
       "groupSlug": "styled-components",
       "labels": ["dependencies", "renovate", "styled-components"],
@@ -25,6 +35,14 @@
     {
       "packagePatterns": ["eslint"],
       "labels": ["dependencies", "linting", "renovate"]
+    },
+    {
+      "packagePatterns": ["snyk"],
+      "labels": ["dependencies", "renovate", "security"]
+    },
+    {
+      "packagePatterns": ["@material-ui/core", "@material-ui/icons"],
+      "labels": ["dependencies", "material ui", "renovate"]
     },
     {
       "packagePatterns": ["snyk"],

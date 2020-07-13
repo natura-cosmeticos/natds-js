@@ -29,6 +29,7 @@
     "build:docs:prerelease": "bash scripts/build-storybook-release.sh",
     "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
     "clean": "lerna clean",
+    "cm": "git cz",
     "commit": "git cz",
     "lerna": "lerna",
     "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog",
@@ -72,8 +73,8 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "9.0.1",
-    "@commitlint/config-conventional": "9.0.1",
+    "@commitlint/cli": "9.1.1",
+    "@commitlint/config-conventional": "9.1.1",
     "@stryker-mutator/core": "3.3.1",
     "@stryker-mutator/javascript-mutator": "3.3.1",
     "@stryker-mutator/jest-runner": "3.3.1",
