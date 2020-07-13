@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.11.3](https://github.com/natura-cosmeticos/natds/compare/v0.11.2...v0.11.3) (2020-07-13)
+
+
+### Bug Fixes
+
+* fix typo on postinstall script ([dcbe71b](https://github.com/natura-cosmeticos/natds/commit/dcbe71bd280eb608b60244d7a9b3bad2cb1c48d3))
+
+
+
+
+
 ## [0.11.2](https://github.com/natura-cosmeticos/natds/compare/v0.11.1...v0.11.2) (2020-07-13)
 
 **Note:** Version bump only for package natds
