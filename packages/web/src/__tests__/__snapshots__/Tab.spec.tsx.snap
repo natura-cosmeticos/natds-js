@@ -44,12 +44,17 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -332,12 +337,17 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -635,12 +645,17 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -924,12 +939,17 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -1183,6 +1203,7 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
           >
             <div
               className="MuiTabs-flexContainer"
+              onKeyDown={[Function]}
               role="tablist"
             />
             <WithStyles(ForwardRef(TabIndicator))
@@ -1280,12 +1301,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -1569,12 +1595,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -1873,12 +1904,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -2162,12 +2198,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -2421,6 +2462,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
           >
             <div
               className="MuiTabs-flexContainer MuiTabs-centered"
+              onKeyDown={[Function]}
               role="tablist"
             >
               <WithTheme(ForwardRef)
@@ -2477,12 +2519,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -2770,12 +2817,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -3077,12 +3129,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -3331,7 +3388,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -3371,12 +3430,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -3631,7 +3695,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           disabled={false}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -3671,12 +3737,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -3935,7 +4006,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
                             role="tab"
-                            tabIndex={0}
+                            tabIndex={-1}
                             theme={
                               Object {
                                 "breakpoints": Object {
@@ -3975,12 +4046,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -4228,36 +4304,34 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             >
                               Item One
                             </span>
-                            <NoSsr>
-                              <WithStyles(memo)
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
                                 center={false}
-                              >
-                                <ForwardRef(TouchRipple)
-                                  center={false}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child",
-                                      "childLeaving": "MuiTouchRipple-childLeaving",
-                                      "childPulsate": "MuiTouchRipple-childPulsate",
-                                      "ripple": "MuiTouchRipple-ripple",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                      "root": "MuiTouchRipple-root",
-                                    }
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
                                   }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
                                 >
-                                  <span
-                                    className="MuiTouchRipple-root"
-                                  >
-                                    <TransitionGroup
-                                      childFactory={[Function]}
-                                      component={null}
-                                      exit={true}
-                                    />
-                                  </span>
-                                </ForwardRef(TouchRipple)>
-                              </WithStyles(memo)>
-                            </NoSsr>
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
                           </button>
                         </ForwardRef(ButtonBase)>
                       </WithStyles(ForwardRef(ButtonBase))>
@@ -4319,12 +4393,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -4612,12 +4691,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -4919,12 +5003,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -5173,7 +5262,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -5213,12 +5304,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -5473,7 +5569,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           disabled={false}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -5513,12 +5611,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -5777,7 +5880,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
                             role="tab"
-                            tabIndex={0}
+                            tabIndex={-1}
                             theme={
                               Object {
                                 "breakpoints": Object {
@@ -5817,12 +5920,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -6070,36 +6178,34 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             >
                               Item Two
                             </span>
-                            <NoSsr>
-                              <WithStyles(memo)
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
                                 center={false}
-                              >
-                                <ForwardRef(TouchRipple)
-                                  center={false}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child",
-                                      "childLeaving": "MuiTouchRipple-childLeaving",
-                                      "childPulsate": "MuiTouchRipple-childPulsate",
-                                      "ripple": "MuiTouchRipple-ripple",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                      "root": "MuiTouchRipple-root",
-                                    }
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
                                   }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
                                 >
-                                  <span
-                                    className="MuiTouchRipple-root"
-                                  >
-                                    <TransitionGroup
-                                      childFactory={[Function]}
-                                      component={null}
-                                      exit={true}
-                                    />
-                                  </span>
-                                </ForwardRef(TouchRipple)>
-                              </WithStyles(memo)>
-                            </NoSsr>
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
                           </button>
                         </ForwardRef(ButtonBase)>
                       </WithStyles(ForwardRef(ButtonBase))>
@@ -6161,12 +6267,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -6454,12 +6565,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -6761,12 +6877,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -7015,7 +7136,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -7055,12 +7178,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -7315,7 +7443,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           disabled={false}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -7355,12 +7485,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -7619,7 +7754,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
                             role="tab"
-                            tabIndex={0}
+                            tabIndex={-1}
                             theme={
                               Object {
                                 "breakpoints": Object {
@@ -7659,12 +7794,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -7912,36 +8052,34 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             >
                               Item Three
                             </span>
-                            <NoSsr>
-                              <WithStyles(memo)
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
                                 center={false}
-                              >
-                                <ForwardRef(TouchRipple)
-                                  center={false}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child",
-                                      "childLeaving": "MuiTouchRipple-childLeaving",
-                                      "childPulsate": "MuiTouchRipple-childPulsate",
-                                      "ripple": "MuiTouchRipple-ripple",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                      "root": "MuiTouchRipple-root",
-                                    }
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
                                   }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
                                 >
-                                  <span
-                                    className="MuiTouchRipple-root"
-                                  >
-                                    <TransitionGroup
-                                      childFactory={[Function]}
-                                      component={null}
-                                      exit={true}
-                                    />
-                                  </span>
-                                </ForwardRef(TouchRipple)>
-                              </WithStyles(memo)>
-                            </NoSsr>
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
                           </button>
                         </ForwardRef(ButtonBase)>
                       </WithStyles(ForwardRef(ButtonBase))>
@@ -8045,12 +8183,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -8334,12 +8477,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -8638,12 +8786,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -8927,12 +9080,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -9186,6 +9344,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
           >
             <div
               className="MuiTabs-flexContainer"
+              onKeyDown={[Function]}
               role="tablist"
             >
               <WithTheme(ForwardRef)
@@ -9242,12 +9401,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -9535,12 +9699,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -9842,12 +10011,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -10096,7 +10270,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -10136,12 +10312,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -10396,7 +10577,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           disabled={false}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -10436,12 +10619,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -10700,7 +10888,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
                             role="tab"
-                            tabIndex={0}
+                            tabIndex={-1}
                             theme={
                               Object {
                                 "breakpoints": Object {
@@ -10740,12 +10928,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -10993,36 +11186,34 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             >
                               Item One
                             </span>
-                            <NoSsr>
-                              <WithStyles(memo)
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
                                 center={false}
-                              >
-                                <ForwardRef(TouchRipple)
-                                  center={false}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child",
-                                      "childLeaving": "MuiTouchRipple-childLeaving",
-                                      "childPulsate": "MuiTouchRipple-childPulsate",
-                                      "ripple": "MuiTouchRipple-ripple",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                      "root": "MuiTouchRipple-root",
-                                    }
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
                                   }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
                                 >
-                                  <span
-                                    className="MuiTouchRipple-root"
-                                  >
-                                    <TransitionGroup
-                                      childFactory={[Function]}
-                                      component={null}
-                                      exit={true}
-                                    />
-                                  </span>
-                                </ForwardRef(TouchRipple)>
-                              </WithStyles(memo)>
-                            </NoSsr>
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
                           </button>
                         </ForwardRef(ButtonBase)>
                       </WithStyles(ForwardRef(ButtonBase))>
@@ -11084,12 +11275,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -11377,12 +11573,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -11684,12 +11885,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -11938,7 +12144,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -11978,12 +12186,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -12238,7 +12451,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           disabled={false}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -12278,12 +12493,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -12542,7 +12762,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
                             role="tab"
-                            tabIndex={0}
+                            tabIndex={-1}
                             theme={
                               Object {
                                 "breakpoints": Object {
@@ -12582,12 +12802,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -12835,36 +13060,34 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             >
                               Item Two
                             </span>
-                            <NoSsr>
-                              <WithStyles(memo)
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
                                 center={false}
-                              >
-                                <ForwardRef(TouchRipple)
-                                  center={false}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child",
-                                      "childLeaving": "MuiTouchRipple-childLeaving",
-                                      "childPulsate": "MuiTouchRipple-childPulsate",
-                                      "ripple": "MuiTouchRipple-ripple",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                      "root": "MuiTouchRipple-root",
-                                    }
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
                                   }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
                                 >
-                                  <span
-                                    className="MuiTouchRipple-root"
-                                  >
-                                    <TransitionGroup
-                                      childFactory={[Function]}
-                                      component={null}
-                                      exit={true}
-                                    />
-                                  </span>
-                                </ForwardRef(TouchRipple)>
-                              </WithStyles(memo)>
-                            </NoSsr>
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
                           </button>
                         </ForwardRef(ButtonBase)>
                       </WithStyles(ForwardRef(ButtonBase))>
@@ -12926,12 +13149,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -13219,12 +13447,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -13526,12 +13759,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -13780,7 +14018,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -13820,12 +14060,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -14080,7 +14325,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           disabled={false}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -14120,12 +14367,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -14384,7 +14636,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
                             role="tab"
-                            tabIndex={0}
+                            tabIndex={-1}
                             theme={
                               Object {
                                 "breakpoints": Object {
@@ -14424,12 +14676,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -14677,36 +14934,34 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             >
                               Item Three
                             </span>
-                            <NoSsr>
-                              <WithStyles(memo)
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
                                 center={false}
-                              >
-                                <ForwardRef(TouchRipple)
-                                  center={false}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child",
-                                      "childLeaving": "MuiTouchRipple-childLeaving",
-                                      "childPulsate": "MuiTouchRipple-childPulsate",
-                                      "ripple": "MuiTouchRipple-ripple",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                      "root": "MuiTouchRipple-root",
-                                    }
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
                                   }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
                                 >
-                                  <span
-                                    className="MuiTouchRipple-root"
-                                  >
-                                    <TransitionGroup
-                                      childFactory={[Function]}
-                                      component={null}
-                                      exit={true}
-                                    />
-                                  </span>
-                                </ForwardRef(TouchRipple)>
-                              </WithStyles(memo)>
-                            </NoSsr>
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
                           </button>
                         </ForwardRef(ButtonBase)>
                       </WithStyles(ForwardRef(ButtonBase))>
@@ -14810,12 +15065,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -15099,12 +15359,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -15403,12 +15668,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -15692,12 +15962,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -15951,6 +16226,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
           >
             <div
               className="MuiTabs-flexContainer"
+              onKeyDown={[Function]}
               role="tablist"
             >
               <WithTheme(ForwardRef)
@@ -16007,12 +16283,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -16300,12 +16581,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -16607,12 +16893,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -16861,7 +17152,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -16901,12 +17194,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -17161,7 +17459,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           disabled={false}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -17201,12 +17501,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -17465,7 +17770,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
                             role="tab"
-                            tabIndex={0}
+                            tabIndex={-1}
                             theme={
                               Object {
                                 "breakpoints": Object {
@@ -17505,12 +17810,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -17758,36 +18068,34 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             >
                               Item One
                             </span>
-                            <NoSsr>
-                              <WithStyles(memo)
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
                                 center={false}
-                              >
-                                <ForwardRef(TouchRipple)
-                                  center={false}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child",
-                                      "childLeaving": "MuiTouchRipple-childLeaving",
-                                      "childPulsate": "MuiTouchRipple-childPulsate",
-                                      "ripple": "MuiTouchRipple-ripple",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                      "root": "MuiTouchRipple-root",
-                                    }
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
                                   }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
                                 >
-                                  <span
-                                    className="MuiTouchRipple-root"
-                                  >
-                                    <TransitionGroup
-                                      childFactory={[Function]}
-                                      component={null}
-                                      exit={true}
-                                    />
-                                  </span>
-                                </ForwardRef(TouchRipple)>
-                              </WithStyles(memo)>
-                            </NoSsr>
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
                           </button>
                         </ForwardRef(ButtonBase)>
                       </WithStyles(ForwardRef(ButtonBase))>
@@ -17849,12 +18157,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -18142,12 +18455,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -18449,12 +18767,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -18703,7 +19026,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -18743,12 +19068,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -19003,7 +19333,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           disabled={false}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -19043,12 +19375,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -19307,7 +19644,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
                             role="tab"
-                            tabIndex={0}
+                            tabIndex={-1}
                             theme={
                               Object {
                                 "breakpoints": Object {
@@ -19347,12 +19684,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -19600,36 +19942,34 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             >
                               Item Two
                             </span>
-                            <NoSsr>
-                              <WithStyles(memo)
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
                                 center={false}
-                              >
-                                <ForwardRef(TouchRipple)
-                                  center={false}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child",
-                                      "childLeaving": "MuiTouchRipple-childLeaving",
-                                      "childPulsate": "MuiTouchRipple-childPulsate",
-                                      "ripple": "MuiTouchRipple-ripple",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                      "root": "MuiTouchRipple-root",
-                                    }
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
                                   }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
                                 >
-                                  <span
-                                    className="MuiTouchRipple-root"
-                                  >
-                                    <TransitionGroup
-                                      childFactory={[Function]}
-                                      component={null}
-                                      exit={true}
-                                    />
-                                  </span>
-                                </ForwardRef(TouchRipple)>
-                              </WithStyles(memo)>
-                            </NoSsr>
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
                           </button>
                         </ForwardRef(ButtonBase)>
                       </WithStyles(ForwardRef(ButtonBase))>
@@ -19691,12 +20031,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -19984,12 +20329,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -20291,12 +20641,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -20545,7 +20900,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                         disabled={false}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -20585,12 +20942,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -20845,7 +21207,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                           disabled={false}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -20885,12 +21249,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -21149,7 +21518,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             onTouchMove={[Function]}
                             onTouchStart={[Function]}
                             role="tab"
-                            tabIndex={0}
+                            tabIndex={-1}
                             theme={
                               Object {
                                 "breakpoints": Object {
@@ -21189,12 +21558,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -21442,36 +21816,34 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                             >
                               Item Three
                             </span>
-                            <NoSsr>
-                              <WithStyles(memo)
+                            <WithStyles(memo)
+                              center={false}
+                            >
+                              <ForwardRef(TouchRipple)
                                 center={false}
-                              >
-                                <ForwardRef(TouchRipple)
-                                  center={false}
-                                  classes={
-                                    Object {
-                                      "child": "MuiTouchRipple-child",
-                                      "childLeaving": "MuiTouchRipple-childLeaving",
-                                      "childPulsate": "MuiTouchRipple-childPulsate",
-                                      "ripple": "MuiTouchRipple-ripple",
-                                      "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                      "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                      "root": "MuiTouchRipple-root",
-                                    }
+                                classes={
+                                  Object {
+                                    "child": "MuiTouchRipple-child",
+                                    "childLeaving": "MuiTouchRipple-childLeaving",
+                                    "childPulsate": "MuiTouchRipple-childPulsate",
+                                    "ripple": "MuiTouchRipple-ripple",
+                                    "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                    "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                    "root": "MuiTouchRipple-root",
                                   }
+                                }
+                              >
+                                <span
+                                  className="MuiTouchRipple-root"
                                 >
-                                  <span
-                                    className="MuiTouchRipple-root"
-                                  >
-                                    <TransitionGroup
-                                      childFactory={[Function]}
-                                      component={null}
-                                      exit={true}
-                                    />
-                                  </span>
-                                </ForwardRef(TouchRipple)>
-                              </WithStyles(memo)>
-                            </NoSsr>
+                                  <TransitionGroup
+                                    childFactory={[Function]}
+                                    component={null}
+                                    exit={true}
+                                  />
+                                </span>
+                              </ForwardRef(TouchRipple)>
+                            </WithStyles(memo)>
                           </button>
                         </ForwardRef(ButtonBase)>
                       </WithStyles(ForwardRef(ButtonBase))>
@@ -21573,12 +21945,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -21861,12 +22238,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -22164,12 +22546,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -22453,12 +22840,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -22712,6 +23104,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
           >
             <div
               className="MuiTabs-flexContainer"
+              onKeyDown={[Function]}
               role="tablist"
             >
               <WithTheme(ForwardRef)
@@ -22770,12 +23163,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -23064,12 +23462,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -23372,12 +23775,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -23626,7 +24034,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                         disabled={true}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -23666,12 +24076,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -23926,7 +24341,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                           disabled={true}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -23966,12 +24383,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -24270,12 +24692,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -24586,12 +25013,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -24880,12 +25312,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -25188,12 +25625,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -25442,7 +25884,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                         disabled={true}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -25482,12 +25926,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -25742,7 +26191,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                           disabled={true}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -25782,12 +26233,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -26086,12 +26542,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -26402,12 +26863,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                       "overrides": Object {},
                       "palette": Object {
                         "action": Object {
+                          "activatedOpacity": 0.12,
                           "active": "rgba(0, 0, 0, 0.54)",
                           "disabled": "rgba(0, 0, 0, 0.26)",
                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                          "hover": "rgba(0, 0, 0, 0.08)",
-                          "hoverOpacity": 0.08,
-                          "selected": "rgba(0, 0, 0, 0.14)",
+                          "disabledOpacity": 0.38,
+                          "focus": "rgba(0, 0, 0, 0.12)",
+                          "focusOpacity": 0.12,
+                          "hover": "rgba(0, 0, 0, 0.04)",
+                          "hoverOpacity": 0.04,
+                          "selected": "rgba(0, 0, 0, 0.08)",
+                          "selectedOpacity": 0.08,
                         },
                         "augmentColor": [Function],
                         "background": Object {
@@ -26696,12 +27162,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                         "overrides": Object {},
                         "palette": Object {
                           "action": Object {
+                            "activatedOpacity": 0.12,
                             "active": "rgba(0, 0, 0, 0.54)",
                             "disabled": "rgba(0, 0, 0, 0.26)",
                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                            "hover": "rgba(0, 0, 0, 0.08)",
-                            "hoverOpacity": 0.08,
-                            "selected": "rgba(0, 0, 0, 0.14)",
+                            "disabledOpacity": 0.38,
+                            "focus": "rgba(0, 0, 0, 0.12)",
+                            "focusOpacity": 0.12,
+                            "hover": "rgba(0, 0, 0, 0.04)",
+                            "hoverOpacity": 0.04,
+                            "selected": "rgba(0, 0, 0, 0.08)",
+                            "selectedOpacity": 0.08,
                           },
                           "augmentColor": [Function],
                           "background": Object {
@@ -27004,12 +27475,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                           "overrides": Object {},
                           "palette": Object {
                             "action": Object {
+                              "activatedOpacity": 0.12,
                               "active": "rgba(0, 0, 0, 0.54)",
                               "disabled": "rgba(0, 0, 0, 0.26)",
                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                              "hover": "rgba(0, 0, 0, 0.08)",
-                              "hoverOpacity": 0.08,
-                              "selected": "rgba(0, 0, 0, 0.14)",
+                              "disabledOpacity": 0.38,
+                              "focus": "rgba(0, 0, 0, 0.12)",
+                              "focusOpacity": 0.12,
+                              "hover": "rgba(0, 0, 0, 0.04)",
+                              "hoverOpacity": 0.04,
+                              "selected": "rgba(0, 0, 0, 0.08)",
+                              "selectedOpacity": 0.08,
                             },
                             "augmentColor": [Function],
                             "background": Object {
@@ -27258,7 +27734,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                         disabled={true}
                         focusRipple={true}
                         onClick={[Function]}
+                        onFocus={[Function]}
                         role="tab"
+                        tabIndex={-1}
                         theme={
                           Object {
                             "breakpoints": Object {
@@ -27298,12 +27776,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -27558,7 +28041,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                           disabled={true}
                           focusRipple={true}
                           onClick={[Function]}
+                          onFocus={[Function]}
                           role="tab"
+                          tabIndex={-1}
                           theme={
                             Object {
                               "breakpoints": Object {
@@ -27598,12 +28083,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -27902,12 +28392,17 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {

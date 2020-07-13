@@ -575,12 +575,17 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
         },
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(51, 51, 51, 0.24)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -1425,12 +1430,17 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
         },
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(51, 51, 51, 0.24)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
