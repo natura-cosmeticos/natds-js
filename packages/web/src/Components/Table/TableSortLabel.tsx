@@ -28,7 +28,7 @@ export const TableSortLabel: FunctionComponent<ITableSortLabelProps> = forwardRe
   const customClasses = useStyles();
 
   return (
-    <MaterialTableSortLabel classes={customClasses.icon} {...props} ref={ref} />
+    <MaterialTableSortLabel classes={{icon: customClasses.icon}} {...props} ref={ref} />
   );
 });
 
