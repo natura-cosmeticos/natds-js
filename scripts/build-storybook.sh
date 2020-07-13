@@ -44,7 +44,11 @@ echo "STORYBOOK Checking out..."
 git checkout .
 
 echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch"
-git checkout -B "${TRAVIS_BRANCH}-docs"
+if [ "${TRAVIS_BRANCH}" = "master" ]; then
+  git checkout master-docs
+else
+  git checkout -B "${TRAVIS_BRANCH}-docs"
+fi
 
 echo "STORYBOOK Fetching from Git..."
 git fetch
@@ -53,10 +57,10 @@ echo "STORYBOOK Showing /docs dist current content"
 ls "${TRAVIS_BUILD_DIR}/packages/docs/dist"
 
 echo "STORYBOOK Opening helpers script directory..."
-cd "${TRAVIS_BUILD_DIR}/scripts/helpers"
+cd scripts
 
 echo "STORYBOOK Adding version ${VERSION} to versions JSON file"
-node addVersionOnConfig.js "${VERSION}"
+node helpers/addVersionOnConfig.js "${VERSION}"
 
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"
