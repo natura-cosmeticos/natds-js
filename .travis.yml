@@ -35,11 +35,6 @@ jobs:
       after_script:
         - "chmod +x ./scripts/build-storybook.sh"
         - "sh ./scripts/build-storybook.sh"
-        - "git remote update"
-        - "git fetch"
-        - "git checkout -b \"${TRAVIS_BRANCH}-docs\""
-        - "chmod +x ./scripts/push-storybook.sh"
-        - "sh ./scripts/push-storybook.sh"
     - stage: release
       name: "Release"
       if: type = push AND branch = master
@@ -56,6 +51,3 @@ jobs:
       after_deploy:
         - "chmod +x ./scripts/build-storybook.sh"
         - "sh ./scripts/build-storybook.sh"
-        - "git checkout master-docs"
-        - "chmod +x ./scripts/push-storybook.sh"
-        - "sh ./scripts/push-storybook.sh"
