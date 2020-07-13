@@ -43,7 +43,7 @@
     "lerna:graduate:version": "lerna version --conventional-commits --conventional-graduate",
     "lerna:graduate:version:ci": "yarn lerna:graduate:version --force-publish --yes",
     "lint": "lerna run lint",
-    "postinsall": "npm dedupe",
+    "postinstall": "npm dedupe",
     "prebuild": "yarn lint",
     "prepare": "BUILD=production yarn test",
     "pretest": "yarn build:libs",
