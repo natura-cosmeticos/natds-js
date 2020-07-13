@@ -30,7 +30,7 @@ describe('Table component', () => {
         test('should match to snapshot - with rounded applied', () => {
             const component = mount(
                 <TableContainer>
-                    <Table rounded={true}>
+                    <Table rounded>
                         <TableHead>
                             <TableRow>
                                 <TableCell>Lorem Ipsum dolor</TableCell>
@@ -44,10 +44,10 @@ describe('Table component', () => {
             );
         });
 
-        test('should match to snapshot - with striped applied', () => {
+        test('should match to snapshot - with striped off', () => {
             const component = mount(
                 <TableContainer>
-                    <Table striped={true}>
+                    <Table striped={false}>
                         <TableHead>
                             <TableRow>
                                 <TableCell>Lorem Ipsum dolor</TableCell>
@@ -57,14 +57,14 @@ describe('Table component', () => {
                 </TableContainer>
             );
             expect(component).matchSnapshot(
-                'TableComponent with stripes'
+                'TableComponent with stripes off'
             );
         });
 
-        test('should match to snapshot - with dividers applied', () => {
+        test('should match to snapshot - with dividers off', () => {
             const component = mount(
                 <TableContainer>
-                    <Table dividers={true}>
+                    <Table dividers={false}>
                         <TableHead>
                             <TableRow>
                                 <TableCell>Lorem Ipsum dolor</TableCell>
@@ -74,7 +74,24 @@ describe('Table component', () => {
                 </TableContainer>
             );
             expect(component).matchSnapshot(
-                'TableComponent with dividers'
+                'TableComponent with dividers off'
+            );
+        });
+
+        test('should match to snapshot - with rounded on and dividers off', () => {
+            const component = mount(
+                <TableContainer>
+                    <Table rounded dividers={false}>
+                        <TableHead>
+                            <TableRow>
+                                <TableCell>Lorem Ipsum dolor</TableCell>
+                            </TableRow>
+                        </TableHead>
+                    </Table>
+                </TableContainer>
+            );
+            expect(component).matchSnapshot(
+                'TableComponent with rounded on and dividers off'
             );
         });
     });

@@ -32,7 +32,7 @@ describe('TableRow component', () => {
             );
         });
 
-        test('should match to snapshot - with selected on', () => {
+        test('should match to snapshot - TableRow with selected on', () => {
             const component = mount(
                 <TableContainer>
                     <Table dividers={true}>
