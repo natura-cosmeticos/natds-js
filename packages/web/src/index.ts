@@ -39,6 +39,7 @@ export { default as Chip, IChipProps } from './Components/Chip';
 export { default as CircularProgress, ICircularProgressProps } from './Components/CircularProgress';
 export { default as Collapse, ICollapseProps } from './Components/Collapse';
 export { default as ContextualBadge, IContextualBadgeProps } from './Components/ContextualBadge';
+export { default as DatePicker, IDatePickerViewsProps } from './Components/DatePicker';
 export { default as Dialog, IDialogProps } from './Components/Dialog';
 export { default as DialogActions, IDialogActionsProps } from './Components/DialogActions';
 export { default as DialogContent, IDialogContentProps } from './Components/DialogContent';
@@ -72,6 +73,7 @@ export { default as ListItemIcon, IListItemIconProps } from './Components/ListIt
 export { default as ListItemSecondaryAction, IListItemSecondaryActionProps } from './Components/ListItemSecondaryAction';
 export { default as ListItemText, IListItemTextProps } from './Components/ListItemText';
 export { default as ListSubheader, IListSubheaderProps } from './Components/ListSubheader';
+export { default as KeyboardDatePicker, IKeyboardDatePickerViewsProps } from './Components/KeyboardDatePicker';
 export { default as Menu, IMenuProps } from './Components/Menu';
 export { default as MenuItem, IMenuItemProps } from './Components/MenuItem';
 export { default as MenuList, IMenuListProps } from './Components/MenuList';
