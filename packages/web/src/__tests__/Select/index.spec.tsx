@@ -16,7 +16,7 @@ const Component = () => {
 
   return (
     <FormControl>
-      <InputLabel shrink>Select Simples With Help Text</InputLabel>
+      <InputLabel shrink>Select Simple With Help Text</InputLabel>
       <Select value={age} onChange={handleChange} displayEmpty>
         <MenuItem value="">
           <em>None</em>
