@@ -46,6 +46,9 @@ git checkout .
 echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch"
 git checkout -B "${TRAVIS_BRANCH}-docs"
 
+echo "STORYBOOK Fetching from Git..."
+git fetch
+
 echo "STORYBOOK Showing /docs dist current content"
 ls "${TRAVIS_BUILD_DIR}/packages/docs/dist"
 
