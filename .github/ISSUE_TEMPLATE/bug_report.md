@@ -40,7 +40,8 @@ A clear and concise description of what the bug is.
 
 ### Do you find this error when you run...
 
-- `npm start` or `yarn`? [Yes|No]
+- `npm install` or `yarn`? [Yes|No]
+- `npm start` or `yarn start`? [Yes|No]
 - `npm run build` or `yarn build`? [Yes|No]
 - `npm test` or `yarn test`? [Yes|No]
 
