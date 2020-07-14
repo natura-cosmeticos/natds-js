@@ -42,12 +42,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -329,12 +334,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -621,12 +631,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -909,12 +924,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -1197,12 +1217,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -1458,6 +1483,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                 >
                   <table
                     className="MuiTable-root makeStyles-root-1"
+                    role={null}
                   >
                     <WithTheme(ForwardRef)>
                       <ForwardRef
@@ -1500,12 +1526,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -1787,12 +1818,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -2079,12 +2115,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -2328,6 +2369,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                           >
                             <tfoot
                               className="MuiTableFooter-root"
+                              role={null}
                               theme={
                                 Object {
                                   "breakpoints": Object {
@@ -2367,12 +2409,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -2655,12 +2702,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -2947,12 +2999,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                         "overrides": Object {},
                                         "palette": Object {
                                           "action": Object {
+                                            "activatedOpacity": 0.12,
                                             "active": "rgba(0, 0, 0, 0.54)",
                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                            "hoverOpacity": 0.08,
-                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                            "disabledOpacity": 0.38,
+                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                            "focusOpacity": 0.12,
+                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                            "hoverOpacity": 0.04,
+                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                            "selectedOpacity": 0.08,
                                           },
                                           "augmentColor": [Function],
                                           "background": Object {
@@ -3243,12 +3300,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                           "overrides": Object {},
                                           "palette": Object {
                                             "action": Object {
+                                              "activatedOpacity": 0.12,
                                               "active": "rgba(0, 0, 0, 0.54)",
                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                              "hoverOpacity": 0.08,
-                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                              "disabledOpacity": 0.38,
+                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                              "focusOpacity": 0.12,
+                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                              "hoverOpacity": 0.04,
+                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                              "selectedOpacity": 0.08,
                                             },
                                             "augmentColor": [Function],
                                             "background": Object {
@@ -3492,6 +3554,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                     >
                                       <tr
                                         className="MuiTableRow-root MuiTableRow-footer"
+                                        role={null}
                                         theme={
                                           Object {
                                             "breakpoints": Object {
@@ -3531,12 +3594,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                             "overrides": Object {},
                                             "palette": Object {
                                               "action": Object {
+                                                "activatedOpacity": 0.12,
                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                "hoverOpacity": 0.08,
-                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                "disabledOpacity": 0.38,
+                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                "focusOpacity": 0.12,
+                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                "hoverOpacity": 0.04,
+                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                "selectedOpacity": 0.08,
                                               },
                                               "augmentColor": [Function],
                                               "background": Object {
@@ -3850,12 +3918,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                 "overrides": Object {},
                                                 "palette": Object {
                                                   "action": Object {
+                                                    "activatedOpacity": 0.12,
                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                    "hoverOpacity": 0.08,
-                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                    "disabledOpacity": 0.38,
+                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                    "focusOpacity": 0.12,
+                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                    "hoverOpacity": 0.04,
+                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                    "selectedOpacity": 0.08,
                                                   },
                                                   "augmentColor": [Function],
                                                   "background": Object {
@@ -4152,12 +4225,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                   "overrides": Object {},
                                                   "palette": Object {
                                                     "action": Object {
+                                                      "activatedOpacity": 0.12,
                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                      "hoverOpacity": 0.08,
-                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                      "disabledOpacity": 0.38,
+                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                      "focusOpacity": 0.12,
+                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                      "hoverOpacity": 0.04,
+                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                      "selectedOpacity": 0.08,
                                                     },
                                                     "augmentColor": [Function],
                                                     "background": Object {
@@ -4468,12 +4546,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                     "overrides": Object {},
                                                     "palette": Object {
                                                       "action": Object {
+                                                        "activatedOpacity": 0.12,
                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                        "hoverOpacity": 0.08,
-                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                        "disabledOpacity": 0.38,
+                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                        "focusOpacity": 0.12,
+                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                        "hoverOpacity": 0.04,
+                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                        "selectedOpacity": 0.08,
                                                       },
                                                       "augmentColor": [Function],
                                                       "background": Object {
@@ -4757,12 +4840,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                       "overrides": Object {},
                                                       "palette": Object {
                                                         "action": Object {
+                                                          "activatedOpacity": 0.12,
                                                           "active": "rgba(0, 0, 0, 0.54)",
                                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                                          "hoverOpacity": 0.08,
-                                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                                          "disabledOpacity": 0.38,
+                                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                                          "focusOpacity": 0.12,
+                                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                                          "hoverOpacity": 0.04,
+                                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                                          "selectedOpacity": 0.08,
                                                         },
                                                         "augmentColor": [Function],
                                                         "background": Object {
@@ -5062,12 +5150,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                         "overrides": Object {},
                                                         "palette": Object {
                                                           "action": Object {
+                                                            "activatedOpacity": 0.12,
                                                             "active": "rgba(0, 0, 0, 0.54)",
                                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                                            "hoverOpacity": 0.08,
-                                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                                            "disabledOpacity": 0.38,
+                                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                                            "focusOpacity": 0.12,
+                                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                                            "hoverOpacity": 0.04,
+                                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                                            "selectedOpacity": 0.08,
                                                           },
                                                           "augmentColor": [Function],
                                                           "background": Object {
@@ -5352,12 +5445,17 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                           "overrides": Object {},
                                                           "palette": Object {
                                                             "action": Object {
+                                                              "activatedOpacity": 0.12,
                                                               "active": "rgba(0, 0, 0, 0.54)",
                                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                                              "hoverOpacity": 0.08,
-                                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                                              "disabledOpacity": 0.38,
+                                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                                              "focusOpacity": 0.12,
+                                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                                              "hoverOpacity": 0.04,
+                                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                                              "selectedOpacity": 0.08,
                                                             },
                                                             "augmentColor": [Function],
                                                             "background": Object {
@@ -5622,6 +5720,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                             <WithStyles(ForwardRef(Typography))
                                                               className="MuiTablePagination-caption"
                                                               color="inherit"
+                                                              id="mui-24382"
                                                               variant="body2"
                                                             >
                                                               <ForwardRef(Typography)
@@ -5661,10 +5760,12 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                   }
                                                                 }
                                                                 color="inherit"
+                                                                id="mui-24382"
                                                                 variant="body2"
                                                               >
                                                                 <p
                                                                   className="MuiTypography-root MuiTablePagination-caption MuiTypography-body2 MuiTypography-colorInherit"
+                                                                  id="mui-24382"
                                                                 >
                                                                   Rows per page:
                                                                 </p>
@@ -5677,11 +5778,13 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                   "select": "MuiTablePagination-select",
                                                                 }
                                                               }
+                                                              id="mui-36776"
                                                               input={
                                                                 <WithStyles(ForwardRef(InputBase))
                                                                   className="MuiTablePagination-input MuiTablePagination-selectRoot"
                                                                 />
                                                               }
+                                                              labelId="mui-24382"
                                                               value={5}
                                                             >
                                                               <ForwardRef(Select)
@@ -5693,17 +5796,20 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                     "iconFilled": "MuiSelect-iconFilled",
                                                                     "iconOpen": "MuiSelect-iconOpen",
                                                                     "iconOutlined": "MuiSelect-iconOutlined",
+                                                                    "nativeInput": "MuiSelect-nativeInput",
                                                                     "outlined": "MuiSelect-outlined",
                                                                     "root": "MuiSelect-root",
                                                                     "select": "MuiSelect-select MuiTablePagination-select",
                                                                     "selectMenu": "MuiSelect-selectMenu",
                                                                   }
                                                                 }
+                                                                id="mui-36776"
                                                                 input={
                                                                   <WithStyles(ForwardRef(InputBase))
                                                                     className="MuiTablePagination-input MuiTablePagination-selectRoot"
                                                                   />
                                                                 }
+                                                                labelId="mui-24382"
                                                                 value={5}
                                                               >
                                                                 <WithStyles(ForwardRef(InputBase))
@@ -5715,6 +5821,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                         "IconComponent": [Function],
                                                                         "MenuProps": [Function],
                                                                         "SelectDisplayProps": [Function],
+                                                                        "aria-label": [Function],
                                                                         "autoFocus": [Function],
                                                                         "autoWidth": [Function],
                                                                         "children": [Function],
@@ -5735,7 +5842,6 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                         "open": [Function],
                                                                         "readOnly": [Function],
                                                                         "renderValue": [Function],
-                                                                        "required": [Function],
                                                                         "tabIndex": [Function],
                                                                         "type": [Function],
                                                                         "value": [Function],
@@ -5749,8 +5855,6 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                       "IconComponent": Object {
                                                                         "$$typeof": Symbol(react.memo),
                                                                         "compare": null,
-                                                                        "displayName": "ArrowDropDownIcon",
-                                                                        "muiName": "SvgIcon",
                                                                         "type": Object {
                                                                           "$$typeof": Symbol(react.forward_ref),
                                                                           "render": [Function],
@@ -5758,7 +5862,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                       },
                                                                       "MenuProps": undefined,
                                                                       "SelectDisplayProps": Object {
-                                                                        "id": undefined,
+                                                                        "id": "mui-36776",
                                                                       },
                                                                       "autoWidth": false,
                                                                       "children": Array [
@@ -5794,13 +5898,14 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                         "iconFilled": "MuiSelect-iconFilled",
                                                                         "iconOpen": "MuiSelect-iconOpen",
                                                                         "iconOutlined": "MuiSelect-iconOutlined",
+                                                                        "nativeInput": "MuiSelect-nativeInput",
                                                                         "outlined": "MuiSelect-outlined",
                                                                         "root": "MuiSelect-root",
                                                                         "select": "MuiSelect-select MuiTablePagination-select",
                                                                         "selectMenu": "MuiSelect-selectMenu",
                                                                       },
                                                                       "displayEmpty": false,
-                                                                      "labelId": undefined,
+                                                                      "labelId": "mui-24382",
                                                                       "multiple": false,
                                                                       "onClose": undefined,
                                                                       "onOpen": undefined,
@@ -5843,6 +5948,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                           "IconComponent": [Function],
                                                                           "MenuProps": [Function],
                                                                           "SelectDisplayProps": [Function],
+                                                                          "aria-label": [Function],
                                                                           "autoFocus": [Function],
                                                                           "autoWidth": [Function],
                                                                           "children": [Function],
@@ -5863,7 +5969,6 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                           "open": [Function],
                                                                           "readOnly": [Function],
                                                                           "renderValue": [Function],
-                                                                          "required": [Function],
                                                                           "tabIndex": [Function],
                                                                           "type": [Function],
                                                                           "value": [Function],
@@ -5877,8 +5982,6 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                         "IconComponent": Object {
                                                                           "$$typeof": Symbol(react.memo),
                                                                           "compare": null,
-                                                                          "displayName": "ArrowDropDownIcon",
-                                                                          "muiName": "SvgIcon",
                                                                           "type": Object {
                                                                             "$$typeof": Symbol(react.forward_ref),
                                                                             "render": [Function],
@@ -5886,7 +5989,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                         },
                                                                         "MenuProps": undefined,
                                                                         "SelectDisplayProps": Object {
-                                                                          "id": undefined,
+                                                                          "id": "mui-36776",
                                                                         },
                                                                         "autoWidth": false,
                                                                         "children": Array [
@@ -5922,13 +6025,14 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                           "iconFilled": "MuiSelect-iconFilled",
                                                                           "iconOpen": "MuiSelect-iconOpen",
                                                                           "iconOutlined": "MuiSelect-iconOutlined",
+                                                                          "nativeInput": "MuiSelect-nativeInput",
                                                                           "outlined": "MuiSelect-outlined",
                                                                           "root": "MuiSelect-root",
                                                                           "select": "MuiSelect-select MuiTablePagination-select",
                                                                           "selectMenu": "MuiSelect-selectMenu",
                                                                         },
                                                                         "displayEmpty": false,
-                                                                        "labelId": undefined,
+                                                                        "labelId": "mui-24382",
                                                                         "multiple": false,
                                                                         "onClose": undefined,
                                                                         "onOpen": undefined,
@@ -5949,8 +6053,6 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                           Object {
                                                                             "$$typeof": Symbol(react.memo),
                                                                             "compare": null,
-                                                                            "displayName": "ArrowDropDownIcon",
-                                                                            "muiName": "SvgIcon",
                                                                             "type": Object {
                                                                               "$$typeof": Symbol(react.forward_ref),
                                                                               "render": [Function],
@@ -5959,7 +6061,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                         }
                                                                         SelectDisplayProps={
                                                                           Object {
-                                                                            "id": undefined,
+                                                                            "id": "mui-36776",
                                                                           }
                                                                         }
                                                                         autoWidth={false}
@@ -5972,6 +6074,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                             "iconFilled": "MuiSelect-iconFilled",
                                                                             "iconOpen": "MuiSelect-iconOpen",
                                                                             "iconOutlined": "MuiSelect-iconOutlined",
+                                                                            "nativeInput": "MuiSelect-nativeInput",
                                                                             "outlined": "MuiSelect-outlined",
                                                                             "root": "MuiSelect-root",
                                                                             "select": "MuiSelect-select MuiTablePagination-select",
@@ -5980,6 +6083,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                         }
                                                                         displayEmpty={false}
                                                                         inputRef={[Function]}
+                                                                        labelId="mui-24382"
                                                                         multiple={false}
                                                                         onAnimationStart={[Function]}
                                                                         onBlur={[Function]}
@@ -5990,8 +6094,9 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                       >
                                                                         <div
                                                                           aria-haspopup="listbox"
-                                                                          aria-labelledby=" "
+                                                                          aria-labelledby="mui-24382 mui-36776"
                                                                           className="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
+                                                                          id="mui-36776"
                                                                           onBlur={[Function]}
                                                                           onFocus={[Function]}
                                                                           onKeyDown={[Function]}
@@ -6002,11 +6107,14 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                           5
                                                                         </div>
                                                                         <input
+                                                                          aria-hidden={true}
+                                                                          className="MuiSelect-nativeInput"
                                                                           onAnimationStart={[Function]}
-                                                                          type="hidden"
+                                                                          onChange={[Function]}
+                                                                          tabIndex={-1}
                                                                           value={5}
                                                                         />
-                                                                        <ForwardRef
+                                                                        <ForwardRef(ArrowDropDownIcon)
                                                                           className="MuiSelect-icon MuiTablePagination-selectIcon"
                                                                         >
                                                                           <WithStyles(ForwardRef(SvgIcon))
@@ -6029,10 +6137,9 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                               }
                                                                             >
                                                                               <svg
-                                                                                aria-hidden="true"
+                                                                                aria-hidden={true}
                                                                                 className="MuiSvgIcon-root MuiSelect-icon MuiTablePagination-selectIcon"
                                                                                 focusable="false"
-                                                                                role="presentation"
                                                                                 viewBox="0 0 24 24"
                                                                               >
                                                                                 <path
@@ -6041,11 +6148,11 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                               </svg>
                                                                             </ForwardRef(SvgIcon)>
                                                                           </WithStyles(ForwardRef(SvgIcon))>
-                                                                        </ForwardRef>
+                                                                        </ForwardRef(ArrowDropDownIcon)>
                                                                         <WithStyles(ForwardRef(Menu))
                                                                           MenuListProps={
                                                                             Object {
-                                                                              "aria-labelledby": undefined,
+                                                                              "aria-labelledby": "mui-24382",
                                                                               "disableListWrap": true,
                                                                               "role": "listbox",
                                                                             }
@@ -6060,8 +6167,9 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                           anchorEl={
                                                                             <div
                                                                               aria-haspopup="listbox"
-                                                                              aria-labelledby=" "
+                                                                              aria-labelledby="mui-24382 mui-36776"
                                                                               class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
+                                                                              id="mui-36776"
                                                                               role="button"
                                                                               tabindex="0"
                                                                             >
@@ -6075,7 +6183,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                           <ForwardRef(Menu)
                                                                             MenuListProps={
                                                                               Object {
-                                                                                "aria-labelledby": undefined,
+                                                                                "aria-labelledby": "mui-24382",
                                                                                 "disableListWrap": true,
                                                                                 "role": "listbox",
                                                                               }
@@ -6090,8 +6198,9 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                             anchorEl={
                                                                               <div
                                                                                 aria-haspopup="listbox"
-                                                                                aria-labelledby=" "
+                                                                                aria-labelledby="mui-24382 mui-36776"
                                                                                 class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
+                                                                                id="mui-36776"
                                                                                 role="button"
                                                                                 tabindex="0"
                                                                               >
@@ -6122,8 +6231,9 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                               anchorEl={
                                                                                 <div
                                                                                   aria-haspopup="listbox"
-                                                                                  aria-labelledby=" "
+                                                                                  aria-labelledby="mui-24382 mui-36776"
                                                                                   class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
+                                                                                  id="mui-36776"
                                                                                   role="button"
                                                                                   tabindex="0"
                                                                                 >
@@ -6163,8 +6273,9 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                                 anchorEl={
                                                                                   <div
                                                                                     aria-haspopup="listbox"
-                                                                                    aria-labelledby=" "
+                                                                                    aria-labelledby="mui-24382 mui-36776"
                                                                                     class="MuiSelect-root MuiSelect-select MuiTablePagination-select MuiSelect-selectMenu MuiInputBase-input"
+                                                                                    id="mui-36776"
                                                                                     role="button"
                                                                                     tabindex="0"
                                                                                   >
@@ -6366,7 +6477,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                           <span
                                                                             className="MuiIconButton-label"
                                                                           >
-                                                                            <ForwardRef>
+                                                                            <ForwardRef(KeyboardArrowLeftIcon)>
                                                                               <WithStyles(ForwardRef(SvgIcon))>
                                                                                 <ForwardRef(SvgIcon)
                                                                                   classes={
@@ -6384,10 +6495,9 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                                   }
                                                                                 >
                                                                                   <svg
-                                                                                    aria-hidden="true"
+                                                                                    aria-hidden={true}
                                                                                     className="MuiSvgIcon-root"
                                                                                     focusable="false"
-                                                                                    role="presentation"
                                                                                     viewBox="0 0 24 24"
                                                                                   >
                                                                                     <path
@@ -6396,7 +6506,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                                   </svg>
                                                                                 </ForwardRef(SvgIcon)>
                                                                               </WithStyles(ForwardRef(SvgIcon))>
-                                                                            </ForwardRef>
+                                                                            </ForwardRef(KeyboardArrowLeftIcon)>
                                                                           </span>
                                                                         </button>
                                                                       </ForwardRef(ButtonBase)>
@@ -6478,7 +6588,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                           <span
                                                                             className="MuiIconButton-label"
                                                                           >
-                                                                            <ForwardRef>
+                                                                            <ForwardRef(KeyboardArrowRightIcon)>
                                                                               <WithStyles(ForwardRef(SvgIcon))>
                                                                                 <ForwardRef(SvgIcon)
                                                                                   classes={
@@ -6496,10 +6606,9 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                                   }
                                                                                 >
                                                                                   <svg
-                                                                                    aria-hidden="true"
+                                                                                    aria-hidden={true}
                                                                                     className="MuiSvgIcon-root"
                                                                                     focusable="false"
-                                                                                    role="presentation"
                                                                                     viewBox="0 0 24 24"
                                                                                   >
                                                                                     <path
@@ -6508,7 +6617,7 @@ exports[`TablePagination component rendering should match to snapshot - TablePag
                                                                                   </svg>
                                                                                 </ForwardRef(SvgIcon)>
                                                                               </WithStyles(ForwardRef(SvgIcon))>
-                                                                            </ForwardRef>
+                                                                            </ForwardRef(KeyboardArrowRightIcon)>
                                                                           </span>
                                                                         </button>
                                                                       </ForwardRef(ButtonBase)>

@@ -42,12 +42,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -329,12 +334,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -621,12 +631,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -909,12 +924,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -1197,12 +1217,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -1458,6 +1483,7 @@ exports[`Table component rendering variants should match to snapshot - standard 
                 >
                   <table
                     className="MuiTable-root makeStyles-root-1"
+                    role={null}
                   >
                     <WithTheme(ForwardRef)>
                       <ForwardRef
@@ -1500,12 +1526,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -1787,12 +1818,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -2079,12 +2115,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -2328,6 +2369,7 @@ exports[`Table component rendering variants should match to snapshot - standard 
                           >
                             <thead
                               className="MuiTableHead-root"
+                              role={null}
                               theme={
                                 Object {
                                   "breakpoints": Object {
@@ -2367,12 +2409,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -2655,12 +2702,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -2947,12 +2999,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                         "overrides": Object {},
                                         "palette": Object {
                                           "action": Object {
+                                            "activatedOpacity": 0.12,
                                             "active": "rgba(0, 0, 0, 0.54)",
                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                            "hoverOpacity": 0.08,
-                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                            "disabledOpacity": 0.38,
+                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                            "focusOpacity": 0.12,
+                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                            "hoverOpacity": 0.04,
+                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                            "selectedOpacity": 0.08,
                                           },
                                           "augmentColor": [Function],
                                           "background": Object {
@@ -3243,12 +3300,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                           "overrides": Object {},
                                           "palette": Object {
                                             "action": Object {
+                                              "activatedOpacity": 0.12,
                                               "active": "rgba(0, 0, 0, 0.54)",
                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                              "hoverOpacity": 0.08,
-                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                              "disabledOpacity": 0.38,
+                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                              "focusOpacity": 0.12,
+                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                              "hoverOpacity": 0.04,
+                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                              "selectedOpacity": 0.08,
                                             },
                                             "augmentColor": [Function],
                                             "background": Object {
@@ -3492,6 +3554,7 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                     >
                                       <tr
                                         className="MuiTableRow-root MuiTableRow-head"
+                                        role={null}
                                         theme={
                                           Object {
                                             "breakpoints": Object {
@@ -3531,12 +3594,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                             "overrides": Object {},
                                             "palette": Object {
                                               "action": Object {
+                                                "activatedOpacity": 0.12,
                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                "hoverOpacity": 0.08,
-                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                "disabledOpacity": 0.38,
+                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                "focusOpacity": 0.12,
+                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                "hoverOpacity": 0.04,
+                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                "selectedOpacity": 0.08,
                                               },
                                               "augmentColor": [Function],
                                               "background": Object {
@@ -3819,12 +3887,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                                 "overrides": Object {},
                                                 "palette": Object {
                                                   "action": Object {
+                                                    "activatedOpacity": 0.12,
                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                    "hoverOpacity": 0.08,
-                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                    "disabledOpacity": 0.38,
+                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                    "focusOpacity": 0.12,
+                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                    "hoverOpacity": 0.04,
+                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                    "selectedOpacity": 0.08,
                                                   },
                                                   "augmentColor": [Function],
                                                   "background": Object {
@@ -4106,12 +4179,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                                   "overrides": Object {},
                                                   "palette": Object {
                                                     "action": Object {
+                                                      "activatedOpacity": 0.12,
                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                      "hoverOpacity": 0.08,
-                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                      "disabledOpacity": 0.38,
+                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                      "focusOpacity": 0.12,
+                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                      "hoverOpacity": 0.04,
+                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                      "selectedOpacity": 0.08,
                                                     },
                                                     "augmentColor": [Function],
                                                     "background": Object {
@@ -4409,12 +4487,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                                     "overrides": Object {},
                                                     "palette": Object {
                                                       "action": Object {
+                                                        "activatedOpacity": 0.12,
                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                        "hoverOpacity": 0.08,
-                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                        "disabledOpacity": 0.38,
+                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                        "focusOpacity": 0.12,
+                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                        "hoverOpacity": 0.04,
+                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                        "selectedOpacity": 0.08,
                                                       },
                                                       "augmentColor": [Function],
                                                       "background": Object {
@@ -4699,12 +4782,17 @@ exports[`Table component rendering variants should match to snapshot - standard 
                                                       "overrides": Object {},
                                                       "palette": Object {
                                                         "action": Object {
+                                                          "activatedOpacity": 0.12,
                                                           "active": "rgba(0, 0, 0, 0.54)",
                                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                                          "hoverOpacity": 0.08,
-                                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                                          "disabledOpacity": 0.38,
+                                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                                          "focusOpacity": 0.12,
+                                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                                          "hoverOpacity": 0.04,
+                                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                                          "selectedOpacity": 0.08,
                                                         },
                                                         "augmentColor": [Function],
                                                         "background": Object {
@@ -5016,12 +5104,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -5303,12 +5396,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -5595,12 +5693,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -5883,12 +5986,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -6174,12 +6282,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -6435,6 +6548,7 @@ exports[`Table component rendering variants should match to snapshot - with divi
                 >
                   <table
                     className="MuiTable-root makeStyles-root-7"
+                    role={null}
                   >
                     <WithTheme(ForwardRef)>
                       <ForwardRef
@@ -6477,12 +6591,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -6764,12 +6883,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -7056,12 +7180,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -7305,6 +7434,7 @@ exports[`Table component rendering variants should match to snapshot - with divi
                           >
                             <thead
                               className="MuiTableHead-root"
+                              role={null}
                               theme={
                                 Object {
                                   "breakpoints": Object {
@@ -7344,12 +7474,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -7632,12 +7767,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -7924,12 +8064,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                         "overrides": Object {},
                                         "palette": Object {
                                           "action": Object {
+                                            "activatedOpacity": 0.12,
                                             "active": "rgba(0, 0, 0, 0.54)",
                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                            "hoverOpacity": 0.08,
-                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                            "disabledOpacity": 0.38,
+                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                            "focusOpacity": 0.12,
+                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                            "hoverOpacity": 0.04,
+                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                            "selectedOpacity": 0.08,
                                           },
                                           "augmentColor": [Function],
                                           "background": Object {
@@ -8220,12 +8365,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                           "overrides": Object {},
                                           "palette": Object {
                                             "action": Object {
+                                              "activatedOpacity": 0.12,
                                               "active": "rgba(0, 0, 0, 0.54)",
                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                              "hoverOpacity": 0.08,
-                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                              "disabledOpacity": 0.38,
+                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                              "focusOpacity": 0.12,
+                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                              "hoverOpacity": 0.04,
+                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                              "selectedOpacity": 0.08,
                                             },
                                             "augmentColor": [Function],
                                             "background": Object {
@@ -8469,6 +8619,7 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                     >
                                       <tr
                                         className="MuiTableRow-root MuiTableRow-head"
+                                        role={null}
                                         theme={
                                           Object {
                                             "breakpoints": Object {
@@ -8508,12 +8659,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                             "overrides": Object {},
                                             "palette": Object {
                                               "action": Object {
+                                                "activatedOpacity": 0.12,
                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                "hoverOpacity": 0.08,
-                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                "disabledOpacity": 0.38,
+                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                "focusOpacity": 0.12,
+                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                "hoverOpacity": 0.04,
+                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                "selectedOpacity": 0.08,
                                               },
                                               "augmentColor": [Function],
                                               "background": Object {
@@ -8796,12 +8952,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                                 "overrides": Object {},
                                                 "palette": Object {
                                                   "action": Object {
+                                                    "activatedOpacity": 0.12,
                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                    "hoverOpacity": 0.08,
-                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                    "disabledOpacity": 0.38,
+                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                    "focusOpacity": 0.12,
+                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                    "hoverOpacity": 0.04,
+                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                    "selectedOpacity": 0.08,
                                                   },
                                                   "augmentColor": [Function],
                                                   "background": Object {
@@ -9083,12 +9244,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                                   "overrides": Object {},
                                                   "palette": Object {
                                                     "action": Object {
+                                                      "activatedOpacity": 0.12,
                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                      "hoverOpacity": 0.08,
-                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                      "disabledOpacity": 0.38,
+                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                      "focusOpacity": 0.12,
+                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                      "hoverOpacity": 0.04,
+                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                      "selectedOpacity": 0.08,
                                                     },
                                                     "augmentColor": [Function],
                                                     "background": Object {
@@ -9386,12 +9552,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                                     "overrides": Object {},
                                                     "palette": Object {
                                                       "action": Object {
+                                                        "activatedOpacity": 0.12,
                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                        "hoverOpacity": 0.08,
-                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                        "disabledOpacity": 0.38,
+                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                        "focusOpacity": 0.12,
+                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                        "hoverOpacity": 0.04,
+                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                        "selectedOpacity": 0.08,
                                                       },
                                                       "augmentColor": [Function],
                                                       "background": Object {
@@ -9676,12 +9847,17 @@ exports[`Table component rendering variants should match to snapshot - with divi
                                                       "overrides": Object {},
                                                       "palette": Object {
                                                         "action": Object {
+                                                          "activatedOpacity": 0.12,
                                                           "active": "rgba(0, 0, 0, 0.54)",
                                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                                          "hoverOpacity": 0.08,
-                                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                                          "disabledOpacity": 0.38,
+                                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                                          "focusOpacity": 0.12,
+                                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                                          "hoverOpacity": 0.04,
+                                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                                          "selectedOpacity": 0.08,
                                                         },
                                                         "augmentColor": [Function],
                                                         "background": Object {
@@ -9993,12 +10169,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -10280,12 +10461,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -10572,12 +10758,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -10860,12 +11051,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -11151,12 +11347,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -11412,6 +11613,7 @@ exports[`Table component rendering variants should match to snapshot - with roun
                 >
                   <table
                     className="MuiTable-root makeStyles-root-3"
+                    role={null}
                   >
                     <WithTheme(ForwardRef)>
                       <ForwardRef
@@ -11454,12 +11656,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -11741,12 +11948,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -12033,12 +12245,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -12282,6 +12499,7 @@ exports[`Table component rendering variants should match to snapshot - with roun
                           >
                             <thead
                               className="MuiTableHead-root"
+                              role={null}
                               theme={
                                 Object {
                                   "breakpoints": Object {
@@ -12321,12 +12539,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -12609,12 +12832,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -12901,12 +13129,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                         "overrides": Object {},
                                         "palette": Object {
                                           "action": Object {
+                                            "activatedOpacity": 0.12,
                                             "active": "rgba(0, 0, 0, 0.54)",
                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                            "hoverOpacity": 0.08,
-                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                            "disabledOpacity": 0.38,
+                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                            "focusOpacity": 0.12,
+                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                            "hoverOpacity": 0.04,
+                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                            "selectedOpacity": 0.08,
                                           },
                                           "augmentColor": [Function],
                                           "background": Object {
@@ -13197,12 +13430,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                           "overrides": Object {},
                                           "palette": Object {
                                             "action": Object {
+                                              "activatedOpacity": 0.12,
                                               "active": "rgba(0, 0, 0, 0.54)",
                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                              "hoverOpacity": 0.08,
-                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                              "disabledOpacity": 0.38,
+                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                              "focusOpacity": 0.12,
+                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                              "hoverOpacity": 0.04,
+                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                              "selectedOpacity": 0.08,
                                             },
                                             "augmentColor": [Function],
                                             "background": Object {
@@ -13446,6 +13684,7 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                     >
                                       <tr
                                         className="MuiTableRow-root MuiTableRow-head"
+                                        role={null}
                                         theme={
                                           Object {
                                             "breakpoints": Object {
@@ -13485,12 +13724,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                             "overrides": Object {},
                                             "palette": Object {
                                               "action": Object {
+                                                "activatedOpacity": 0.12,
                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                "hoverOpacity": 0.08,
-                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                "disabledOpacity": 0.38,
+                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                "focusOpacity": 0.12,
+                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                "hoverOpacity": 0.04,
+                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                "selectedOpacity": 0.08,
                                               },
                                               "augmentColor": [Function],
                                               "background": Object {
@@ -13773,12 +14017,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                                 "overrides": Object {},
                                                 "palette": Object {
                                                   "action": Object {
+                                                    "activatedOpacity": 0.12,
                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                    "hoverOpacity": 0.08,
-                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                    "disabledOpacity": 0.38,
+                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                    "focusOpacity": 0.12,
+                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                    "hoverOpacity": 0.04,
+                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                    "selectedOpacity": 0.08,
                                                   },
                                                   "augmentColor": [Function],
                                                   "background": Object {
@@ -14060,12 +14309,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                                   "overrides": Object {},
                                                   "palette": Object {
                                                     "action": Object {
+                                                      "activatedOpacity": 0.12,
                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                      "hoverOpacity": 0.08,
-                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                      "disabledOpacity": 0.38,
+                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                      "focusOpacity": 0.12,
+                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                      "hoverOpacity": 0.04,
+                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                      "selectedOpacity": 0.08,
                                                     },
                                                     "augmentColor": [Function],
                                                     "background": Object {
@@ -14363,12 +14617,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                                     "overrides": Object {},
                                                     "palette": Object {
                                                       "action": Object {
+                                                        "activatedOpacity": 0.12,
                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                        "hoverOpacity": 0.08,
-                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                        "disabledOpacity": 0.38,
+                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                        "focusOpacity": 0.12,
+                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                        "hoverOpacity": 0.04,
+                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                        "selectedOpacity": 0.08,
                                                       },
                                                       "augmentColor": [Function],
                                                       "background": Object {
@@ -14653,12 +14912,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                                       "overrides": Object {},
                                                       "palette": Object {
                                                         "action": Object {
+                                                          "activatedOpacity": 0.12,
                                                           "active": "rgba(0, 0, 0, 0.54)",
                                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                                          "hoverOpacity": 0.08,
-                                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                                          "disabledOpacity": 0.38,
+                                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                                          "focusOpacity": 0.12,
+                                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                                          "hoverOpacity": 0.04,
+                                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                                          "selectedOpacity": 0.08,
                                                         },
                                                         "augmentColor": [Function],
                                                         "background": Object {
@@ -14970,12 +15234,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -15257,12 +15526,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -15549,12 +15823,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -15837,12 +16116,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -16130,12 +16414,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -16391,6 +16680,7 @@ exports[`Table component rendering variants should match to snapshot - with roun
                 >
                   <table
                     className="MuiTable-root makeStyles-root-9"
+                    role={null}
                   >
                     <WithTheme(ForwardRef)>
                       <ForwardRef
@@ -16433,12 +16723,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -16720,12 +17015,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -17012,12 +17312,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -17261,6 +17566,7 @@ exports[`Table component rendering variants should match to snapshot - with roun
                           >
                             <thead
                               className="MuiTableHead-root"
+                              role={null}
                               theme={
                                 Object {
                                   "breakpoints": Object {
@@ -17300,12 +17606,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -17588,12 +17899,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -17880,12 +18196,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                         "overrides": Object {},
                                         "palette": Object {
                                           "action": Object {
+                                            "activatedOpacity": 0.12,
                                             "active": "rgba(0, 0, 0, 0.54)",
                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                            "hoverOpacity": 0.08,
-                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                            "disabledOpacity": 0.38,
+                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                            "focusOpacity": 0.12,
+                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                            "hoverOpacity": 0.04,
+                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                            "selectedOpacity": 0.08,
                                           },
                                           "augmentColor": [Function],
                                           "background": Object {
@@ -18176,12 +18497,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                           "overrides": Object {},
                                           "palette": Object {
                                             "action": Object {
+                                              "activatedOpacity": 0.12,
                                               "active": "rgba(0, 0, 0, 0.54)",
                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                              "hoverOpacity": 0.08,
-                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                              "disabledOpacity": 0.38,
+                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                              "focusOpacity": 0.12,
+                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                              "hoverOpacity": 0.04,
+                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                              "selectedOpacity": 0.08,
                                             },
                                             "augmentColor": [Function],
                                             "background": Object {
@@ -18425,6 +18751,7 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                     >
                                       <tr
                                         className="MuiTableRow-root MuiTableRow-head"
+                                        role={null}
                                         theme={
                                           Object {
                                             "breakpoints": Object {
@@ -18464,12 +18791,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                             "overrides": Object {},
                                             "palette": Object {
                                               "action": Object {
+                                                "activatedOpacity": 0.12,
                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                "hoverOpacity": 0.08,
-                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                "disabledOpacity": 0.38,
+                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                "focusOpacity": 0.12,
+                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                "hoverOpacity": 0.04,
+                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                "selectedOpacity": 0.08,
                                               },
                                               "augmentColor": [Function],
                                               "background": Object {
@@ -18752,12 +19084,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                                 "overrides": Object {},
                                                 "palette": Object {
                                                   "action": Object {
+                                                    "activatedOpacity": 0.12,
                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                    "hoverOpacity": 0.08,
-                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                    "disabledOpacity": 0.38,
+                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                    "focusOpacity": 0.12,
+                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                    "hoverOpacity": 0.04,
+                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                    "selectedOpacity": 0.08,
                                                   },
                                                   "augmentColor": [Function],
                                                   "background": Object {
@@ -19039,12 +19376,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                                   "overrides": Object {},
                                                   "palette": Object {
                                                     "action": Object {
+                                                      "activatedOpacity": 0.12,
                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                      "hoverOpacity": 0.08,
-                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                      "disabledOpacity": 0.38,
+                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                      "focusOpacity": 0.12,
+                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                      "hoverOpacity": 0.04,
+                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                      "selectedOpacity": 0.08,
                                                     },
                                                     "augmentColor": [Function],
                                                     "background": Object {
@@ -19342,12 +19684,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                                     "overrides": Object {},
                                                     "palette": Object {
                                                       "action": Object {
+                                                        "activatedOpacity": 0.12,
                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                        "hoverOpacity": 0.08,
-                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                        "disabledOpacity": 0.38,
+                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                        "focusOpacity": 0.12,
+                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                        "hoverOpacity": 0.04,
+                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                        "selectedOpacity": 0.08,
                                                       },
                                                       "augmentColor": [Function],
                                                       "background": Object {
@@ -19632,12 +19979,17 @@ exports[`Table component rendering variants should match to snapshot - with roun
                                                       "overrides": Object {},
                                                       "palette": Object {
                                                         "action": Object {
+                                                          "activatedOpacity": 0.12,
                                                           "active": "rgba(0, 0, 0, 0.54)",
                                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                                          "hoverOpacity": 0.08,
-                                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                                          "disabledOpacity": 0.38,
+                                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                                          "focusOpacity": 0.12,
+                                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                                          "hoverOpacity": 0.04,
+                                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                                          "selectedOpacity": 0.08,
                                                         },
                                                         "augmentColor": [Function],
                                                         "background": Object {
@@ -19949,12 +20301,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
         "overrides": Object {},
         "palette": Object {
           "action": Object {
+            "activatedOpacity": 0.12,
             "active": "rgba(0, 0, 0, 0.54)",
             "disabled": "rgba(0, 0, 0, 0.26)",
             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-            "hover": "rgba(0, 0, 0, 0.08)",
-            "hoverOpacity": 0.08,
-            "selected": "rgba(0, 0, 0, 0.14)",
+            "disabledOpacity": 0.38,
+            "focus": "rgba(0, 0, 0, 0.12)",
+            "focusOpacity": 0.12,
+            "hover": "rgba(0, 0, 0, 0.04)",
+            "hoverOpacity": 0.04,
+            "selected": "rgba(0, 0, 0, 0.08)",
+            "selectedOpacity": 0.08,
           },
           "augmentColor": [Function],
           "background": Object {
@@ -20236,12 +20593,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
           "overrides": Object {},
           "palette": Object {
             "action": Object {
+              "activatedOpacity": 0.12,
               "active": "rgba(0, 0, 0, 0.54)",
               "disabled": "rgba(0, 0, 0, 0.26)",
               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-              "hover": "rgba(0, 0, 0, 0.08)",
-              "hoverOpacity": 0.08,
-              "selected": "rgba(0, 0, 0, 0.14)",
+              "disabledOpacity": 0.38,
+              "focus": "rgba(0, 0, 0, 0.12)",
+              "focusOpacity": 0.12,
+              "hover": "rgba(0, 0, 0, 0.04)",
+              "hoverOpacity": 0.04,
+              "selected": "rgba(0, 0, 0, 0.08)",
+              "selectedOpacity": 0.08,
             },
             "augmentColor": [Function],
             "background": Object {
@@ -20528,12 +20890,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
             "overrides": Object {},
             "palette": Object {
               "action": Object {
+                "activatedOpacity": 0.12,
                 "active": "rgba(0, 0, 0, 0.54)",
                 "disabled": "rgba(0, 0, 0, 0.26)",
                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                "hover": "rgba(0, 0, 0, 0.08)",
-                "hoverOpacity": 0.08,
-                "selected": "rgba(0, 0, 0, 0.14)",
+                "disabledOpacity": 0.38,
+                "focus": "rgba(0, 0, 0, 0.12)",
+                "focusOpacity": 0.12,
+                "hover": "rgba(0, 0, 0, 0.04)",
+                "hoverOpacity": 0.04,
+                "selected": "rgba(0, 0, 0, 0.08)",
+                "selectedOpacity": 0.08,
               },
               "augmentColor": [Function],
               "background": Object {
@@ -20816,12 +21183,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
               "overrides": Object {},
               "palette": Object {
                 "action": Object {
+                  "activatedOpacity": 0.12,
                   "active": "rgba(0, 0, 0, 0.54)",
                   "disabled": "rgba(0, 0, 0, 0.26)",
                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                  "hover": "rgba(0, 0, 0, 0.08)",
-                  "hoverOpacity": 0.08,
-                  "selected": "rgba(0, 0, 0, 0.14)",
+                  "disabledOpacity": 0.38,
+                  "focus": "rgba(0, 0, 0, 0.12)",
+                  "focusOpacity": 0.12,
+                  "hover": "rgba(0, 0, 0, 0.04)",
+                  "hoverOpacity": 0.04,
+                  "selected": "rgba(0, 0, 0, 0.08)",
+                  "selectedOpacity": 0.08,
                 },
                 "augmentColor": [Function],
                 "background": Object {
@@ -21107,12 +21479,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -21368,6 +21745,7 @@ exports[`Table component rendering variants should match to snapshot - with stri
                 >
                   <table
                     className="MuiTable-root makeStyles-root-5"
+                    role={null}
                   >
                     <WithTheme(ForwardRef)>
                       <ForwardRef
@@ -21410,12 +21788,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -21697,12 +22080,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -21989,12 +22377,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -22238,6 +22631,7 @@ exports[`Table component rendering variants should match to snapshot - with stri
                           >
                             <thead
                               className="MuiTableHead-root"
+                              role={null}
                               theme={
                                 Object {
                                   "breakpoints": Object {
@@ -22277,12 +22671,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -22565,12 +22964,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -22857,12 +23261,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                         "overrides": Object {},
                                         "palette": Object {
                                           "action": Object {
+                                            "activatedOpacity": 0.12,
                                             "active": "rgba(0, 0, 0, 0.54)",
                                             "disabled": "rgba(0, 0, 0, 0.26)",
                                             "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                            "hover": "rgba(0, 0, 0, 0.08)",
-                                            "hoverOpacity": 0.08,
-                                            "selected": "rgba(0, 0, 0, 0.14)",
+                                            "disabledOpacity": 0.38,
+                                            "focus": "rgba(0, 0, 0, 0.12)",
+                                            "focusOpacity": 0.12,
+                                            "hover": "rgba(0, 0, 0, 0.04)",
+                                            "hoverOpacity": 0.04,
+                                            "selected": "rgba(0, 0, 0, 0.08)",
+                                            "selectedOpacity": 0.08,
                                           },
                                           "augmentColor": [Function],
                                           "background": Object {
@@ -23153,12 +23562,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                           "overrides": Object {},
                                           "palette": Object {
                                             "action": Object {
+                                              "activatedOpacity": 0.12,
                                               "active": "rgba(0, 0, 0, 0.54)",
                                               "disabled": "rgba(0, 0, 0, 0.26)",
                                               "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                              "hover": "rgba(0, 0, 0, 0.08)",
-                                              "hoverOpacity": 0.08,
-                                              "selected": "rgba(0, 0, 0, 0.14)",
+                                              "disabledOpacity": 0.38,
+                                              "focus": "rgba(0, 0, 0, 0.12)",
+                                              "focusOpacity": 0.12,
+                                              "hover": "rgba(0, 0, 0, 0.04)",
+                                              "hoverOpacity": 0.04,
+                                              "selected": "rgba(0, 0, 0, 0.08)",
+                                              "selectedOpacity": 0.08,
                                             },
                                             "augmentColor": [Function],
                                             "background": Object {
@@ -23402,6 +23816,7 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                     >
                                       <tr
                                         className="MuiTableRow-root MuiTableRow-head"
+                                        role={null}
                                         theme={
                                           Object {
                                             "breakpoints": Object {
@@ -23441,12 +23856,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                             "overrides": Object {},
                                             "palette": Object {
                                               "action": Object {
+                                                "activatedOpacity": 0.12,
                                                 "active": "rgba(0, 0, 0, 0.54)",
                                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                "hover": "rgba(0, 0, 0, 0.08)",
-                                                "hoverOpacity": 0.08,
-                                                "selected": "rgba(0, 0, 0, 0.14)",
+                                                "disabledOpacity": 0.38,
+                                                "focus": "rgba(0, 0, 0, 0.12)",
+                                                "focusOpacity": 0.12,
+                                                "hover": "rgba(0, 0, 0, 0.04)",
+                                                "hoverOpacity": 0.04,
+                                                "selected": "rgba(0, 0, 0, 0.08)",
+                                                "selectedOpacity": 0.08,
                                               },
                                               "augmentColor": [Function],
                                               "background": Object {
@@ -23729,12 +24149,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                                 "overrides": Object {},
                                                 "palette": Object {
                                                   "action": Object {
+                                                    "activatedOpacity": 0.12,
                                                     "active": "rgba(0, 0, 0, 0.54)",
                                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                                    "hoverOpacity": 0.08,
-                                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                                    "disabledOpacity": 0.38,
+                                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                                    "focusOpacity": 0.12,
+                                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                                    "hoverOpacity": 0.04,
+                                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                                    "selectedOpacity": 0.08,
                                                   },
                                                   "augmentColor": [Function],
                                                   "background": Object {
@@ -24016,12 +24441,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                                   "overrides": Object {},
                                                   "palette": Object {
                                                     "action": Object {
+                                                      "activatedOpacity": 0.12,
                                                       "active": "rgba(0, 0, 0, 0.54)",
                                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                                      "hoverOpacity": 0.08,
-                                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                                      "disabledOpacity": 0.38,
+                                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                                      "focusOpacity": 0.12,
+                                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                                      "hoverOpacity": 0.04,
+                                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                                      "selectedOpacity": 0.08,
                                                     },
                                                     "augmentColor": [Function],
                                                     "background": Object {
@@ -24319,12 +24749,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                                     "overrides": Object {},
                                                     "palette": Object {
                                                       "action": Object {
+                                                        "activatedOpacity": 0.12,
                                                         "active": "rgba(0, 0, 0, 0.54)",
                                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                                        "hoverOpacity": 0.08,
-                                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                                        "disabledOpacity": 0.38,
+                                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                                        "focusOpacity": 0.12,
+                                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                                        "hoverOpacity": 0.04,
+                                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                                        "selectedOpacity": 0.08,
                                                       },
                                                       "augmentColor": [Function],
                                                       "background": Object {
@@ -24609,12 +25044,17 @@ exports[`Table component rendering variants should match to snapshot - with stri
                                                       "overrides": Object {},
                                                       "palette": Object {
                                                         "action": Object {
+                                                          "activatedOpacity": 0.12,
                                                           "active": "rgba(0, 0, 0, 0.54)",
                                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                                          "hoverOpacity": 0.08,
-                                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                                          "disabledOpacity": 0.38,
+                                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                                          "focusOpacity": 0.12,
+                                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                                          "hoverOpacity": 0.04,
+                                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                                          "selectedOpacity": 0.08,
                                                         },
                                                         "augmentColor": [Function],
                                                         "background": Object {
