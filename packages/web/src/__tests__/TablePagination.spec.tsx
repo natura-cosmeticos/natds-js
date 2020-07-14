@@ -1,6 +1,5 @@
-import React from 'react';
-import { mount } from 'enzyme';
-import { expect } from 'chai';
+import * as React from 'react';
+import * as renderer from 'react-test-renderer';
 
 import {
     TableContainer,
@@ -13,24 +12,24 @@ import {
 describe('TablePagination component', () => {
     describe('rendering', () => {
         test('should match to snapshot - TablePagination component', () => {
-            const component = mount(
-                <TableContainer>
-                    <Table>
-                        <TableFooter>
-                            <TableRow>
-                                <TablePagination
-                                    rowsPerPageOptions={[5, 10, 25, { label: 'All', value: -1 }]}
-                                    count={0}
-                                    page={0}
-                                    rowsPerPage={5}
-                                    onChangePage={() => 'click'}
-                                />
-                            </TableRow>
-                        </TableFooter>
-                    </Table>
-                </TableContainer>
-            );
-            expect(component).matchSnapshot('TablePagination component');
+          const wrapper = renderer.create(
+            <TableContainer>
+              <Table>
+                <TableFooter>
+                  <TableRow>
+                    <TablePagination
+                      count={0}
+                      onChangePage={() => 'click'}
+                      page={0}
+                      rowsPerPage={5}
+                      rowsPerPageOptions={[5, 10, 25, { label: 'All', value: -1 }]}
+                    />
+                  </TableRow>
+                </TableFooter>
+              </Table>
+          </TableContainer>
+          );
+          expect(wrapper.toJSON()).toMatchSnapshot('TablePagination component');
         });
     });
 });
