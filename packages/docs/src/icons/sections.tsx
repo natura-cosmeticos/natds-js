@@ -14,6 +14,10 @@ export function buildConfig(type: string) {
   return list.map(buildConfigItem);
 }
 
+/**
+ * @param name
+ * @todo refactor(docs): adopt <Icon /> component instead of <i /> on buildConfigItem
+ */
 function buildConfigItem(name: string): IComponentWithLabelItem {
   return {
     title: name,
