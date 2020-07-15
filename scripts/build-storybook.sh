@@ -34,26 +34,31 @@ yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"
 
-echo "STORYBOOK Updating from remote..."
-git remote update
-
 echo "STORYBOOK Fetching from Git..."
 git fetch
 
-echo "STORYBOOK Checking out..."
-git checkout .
+if [ "${TRAVIS_BRANCH}" = "master" ]; then
+  echo "STORYBOOK At main branch"
+  git checkout .
 
-echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch"
-git checkout -B "${TRAVIS_BRANCH}-docs"
+  echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
+  git checkout master-docs
+else
+  echo "STORYBOOK At DSY-* branch"
 
-echo "STORYBOOK Showing /docs dist current content"
-ls "${TRAVIS_BUILD_DIR}/packages/docs/dist"
+  echo "STORYBOOK Updating from remote..."
+  git remote update
 
-echo "STORYBOOK Opening helpers script directory..."
-cd "${TRAVIS_BUILD_DIR}/scripts/helpers"
+  echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
+  git checkout -b "${TRAVIS_BRANCH}-docs"
+
+  echo "STORYBOOK Fetching from Git..."
+  git fetch
+fi
 
 echo "STORYBOOK Adding version ${VERSION} to versions JSON file"
-node addVersionOnConfig.js "${VERSION}"
+cd scripts
+node helpers/addVersionOnConfig.js "${VERSION}"
 
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"
@@ -61,9 +66,11 @@ cd "${TRAVIS_BUILD_DIR}"
 echo "STORYBOOK Copying generated Storybook to releases directory..."
 cp -r "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" packages/docs/dist/releases
 
-echo "STORYBOOK Committing changes..."
+echo "STORYBOOK Staging all changes..."
 git add --all
-git commit -m "docs: generating storybook for version ${VERSION} [skip ci]" --allow-empty
 
-echo "STORYBOOK Updating ${TRAVIS_BUILD_DIR}-docs branch..."
-git push -f -u origin "${TRAVIS_BUILD_DIR}-docs"
+echo "STORYBOOK Committing changes"
+git commit -m "docs: generating storybook for version ${VERSION} [skip travis]" --allow-empty
+
+echo "STORYBOOK Updating ${TRAVIS_BRANCH}-docs branch..."
+git push -f -u origin "${TRAVIS_BRANCH}-docs"
