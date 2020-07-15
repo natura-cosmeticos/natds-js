@@ -179,6 +179,8 @@ declare const styles: {
   readonly "natds-icons-outlined-place-forklift": string;
   readonly "natds-icons-outlined-place-gps": string;
   readonly "natds-icons-outlined-place-local": string;
+  readonly "natds-icons-outlined-place-rocket": string;
+  readonly "natds-icons-outlined-place-runningtruck": string;
   readonly "natds-icons-outlined-place-truck": string;
   readonly "natds-icons-outlined-place-waze": string;
   readonly "natds-icons-outlined-product-bagproduct": string;
