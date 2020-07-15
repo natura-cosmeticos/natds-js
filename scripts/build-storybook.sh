@@ -70,7 +70,7 @@ echo "STORYBOOK Staging all changes..."
 git add --all
 
 echo "STORYBOOK Committing changes"
-git commit -m "docs: generating storybook for version ${VERSION} [skip ci]" --allow-empty
+git commit -m "docs: generating storybook for version ${VERSION} [skip travis]" --allow-empty
 
 echo "STORYBOOK Updating ${TRAVIS_BRANCH}-docs branch..."
 git push -f -u origin "${TRAVIS_BRANCH}-docs"
