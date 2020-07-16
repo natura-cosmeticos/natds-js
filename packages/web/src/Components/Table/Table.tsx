@@ -87,19 +87,19 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
       },
       '& thead > tr:first-child': {
         '& > th:first-child':{
-          borderTopLeftRadius: rounded && `${tokens.sizes.micro}`,
+          borderTopLeftRadius: rounded && `${tokens.sizes.micro}px`,
         },
         '& > th:last-child':{
-          borderTopRightRadius: rounded && `${tokens.sizes.micro}`,
+          borderTopRightRadius: rounded && `${tokens.sizes.micro}px`,
         },
       },
 
       '& tbody > tr:last-child': {
         '& > td:first-child':{
-          borderBottomLeftRadius: rounded && `${tokens.sizes.micro}`,
+          borderBottomLeftRadius: rounded && `${tokens.sizes.micro}px`,
         },
         '& > td:last-child':{
-          borderBottomRightRadius: rounded && `${tokens.sizes.micro}`,
+          borderBottomRightRadius: rounded && `${tokens.sizes.micro}px`,
         },
       },
     }
