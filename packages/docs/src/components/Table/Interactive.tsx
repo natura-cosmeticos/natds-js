@@ -95,7 +95,7 @@ export const Interactive = () => {
                 onChange={handleSelectAllClick}
                 checked={handleChecked(dataState)}
                 indeterminate={handleIndeterminate(dataState)}
-                inputProps={{ 'aria-label': 'Checkbox eader' }}
+                inputProps={{ 'aria-label': 'Checkbox header' }}
               />
             </TableCell>
             <TableCell align={selectAlignOption}>Header Cell</TableCell>
