@@ -2,11 +2,11 @@ import * as React from 'react';
 import * as renderer from 'react-test-renderer';
 
 import {
-    TableContainer,
-    Table,
-    TableRow,
-    TableFooter,
-    TablePagination,
+  Table,
+  TableContainer,
+  TableFooter,
+  TablePagination,
+  TableRow,
 } from '..';
 
 describe('TablePagination component', () => {

@@ -1,6 +1,5 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import { expect } from 'chai';
+import * as renderer from 'react-test-renderer';
 
 import {
     TableContainer,
@@ -13,7 +12,7 @@ import {
 describe('TableBody component', () => {
     describe('rendering', () => {
         test('should match to snapshot - standard TableBodyComponent', () => {
-            const component = mount(
+            const component = renderer.create(
                 <TableContainer>
                     <Table>
                         <TableBody>
@@ -24,7 +23,7 @@ describe('TableBody component', () => {
                     </Table>TableBody
                 </TableContainer>
             );
-            expect(component).matchSnapshot('TableBodyComponent standard');
+            expect(component.toJSON()).toMatchSnapshot('TableBodyComponent standard');
         });
     });
 });

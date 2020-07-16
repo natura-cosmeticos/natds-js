@@ -1,39 +1,38 @@
 import React from 'react';
-import { mount } from 'enzyme';
-import { expect } from 'chai';
+import * as renderer from 'react-test-renderer';
 
 import {
-    TableContainer,
     Table,
+    TableCell,
+    TableContainer,
     TableHead,
     TableRow,
-    TableCell,
 } from '..';
 
 describe('TableRow component', () => {
     describe('rendering variants', () => {
 
         test('should match to snapshot - standard TableRow', () => {
-            const component = mount(
+            const component = renderer.create(
                 <TableContainer>
                     <Table dividers={true}>
                         <TableHead>
                             <TableRow selected>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test table cell text</TableCell>
+                                <TableCell>Test table cell text</TableCell>
+                                <TableCell>Test table cell text</TableCell>
                             </TableRow>
                         </TableHead>
                     </Table>
                 </TableContainer>
             );
-            expect(component).matchSnapshot(
+            expect(component.toJSON()).toMatchSnapshot(
                 'TableComponent with dividers'
             );
         });
 
         test('should match to snapshot - TableRow with selected on', () => {
-            const component = mount(
+            const component = renderer.create(
                 <TableContainer>
                     <Table dividers={true}>
                         <TableHead>
@@ -46,7 +45,7 @@ describe('TableRow component', () => {
                     </Table>
                 </TableContainer>
             );
-            expect(component).matchSnapshot(
+            expect(component.toJSON()).toMatchSnapshot(
                 'TableComponent with dividers'
             );
         });
