@@ -19,7 +19,7 @@ but the following list should give some indication of our plans for the next rel
 
 This is a list of elements (components and tokens) organized from the most essential to the least essential.
 
-So, if the need arises to create or evolve these elements, that will be the importance given.
+Think of it as a driver for us to be able to prioritize mainly the refinement activity.
 
 ### Level 0
 
