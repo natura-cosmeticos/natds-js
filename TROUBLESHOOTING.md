@@ -2,11 +2,11 @@
 
 ## Styled are not applied
 
-When a component seems not to be styled according to Storybook, please check if you are importing and using the `<Provider>` component.
+When a component seems not to be styled according to Storybook, maybe you are not importing and/or using the `<Provider>` component.
 
-Most of times, you just need to import and use `Provider` once, wrapping all your application with Provider.
+Most of times, you just need to import `Provider` and wrap all your application once with `<Provider>`.
 
-For example: you could put inside your `App/index.js` file:
+For example: if you are working with `create-react-app` (CRA), you could put inside your `src/App.js` (or `src/App/index.js`) file:
 
 ```jsx
 import React from 'react'
