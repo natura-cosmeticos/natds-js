@@ -1,7 +1,7 @@
 # Roadmap
 
 The roadmap is a living document, and it is likely that priorities will change,
-but the list belows should give some indication of our plans for the next releases and for the future.
+but the following list should give some indication of our plans for the next releases and for the future.
 
 ## Technical Priorities
 
