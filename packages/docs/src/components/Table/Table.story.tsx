@@ -13,7 +13,7 @@ import TableDocs from './Table.docs.mdx';
 
 export default {
   title: 'Components|Table',
-  compoenet: [Table, TableBody, TableCell, TableContainer, TableHead, TableRow],
+  component: [Table, TableBody, TableCell, TableContainer, TableHead, TableRow],
   decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
