@@ -9,15 +9,12 @@ import {
 
 ---
 
----
-
 ### Variant
 
 <Provider theme={themes.natura.light}>
   <ComponentWithLabel componentList={tableContainerVariant} />
 </Provider>
 
----
 ---
 
 ### Attribute
@@ -30,50 +27,51 @@ import {
 
 ## API
 
-```jsx highlight-line="2"
+```
 import { 
   TableContainer,
   Table,
   TableHead,
   TableRow,
   TableCell,
-  TableBody, } from '@naturacosmeticos/natds-web';
+  TableBody
+} from '@naturacosmeticos/natds-web';
 
   const align = 'center'
 
   return (
     <Table
-        dividers
-        striped
-        rounded
+        dividers={true}
+        striped={true}
+        rounded={true}
       >
         <TableHead>
           <TableRow>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
+            <TableCell align={align}>Header Cell</TableCell>
+            <TableCell align={align}>Header Cell</TableCell>
+            <TableCell align={align}>Header Cell</TableCell>
           </TableRow>
         </TableHead>
         <TableBody>
           <TableRow>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
+            <TableCell align={align}>Cell</TableCell>
+            <TableCell align={align}>Cell</TableCell>
+            <TableCell align={align}>Cell</TableCell>
           </TableRow>
           <TableRow>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
+            <TableCell align={align}>Cell</TableCell>
+            <TableCell align={align}>Cell</TableCell>
+            <TableCell align={align}>Cell</TableCell>
           </TableRow>
           <TableRow>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
+            <TableCell align={align}>Cell</TableCell>
+            <TableCell align={align}>Cell</TableCell>
+            <TableCell align={align}>Cell</TableCell>
           </TableRow>
           <TableRow>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
-            <TableCell align={align}>Lorem Ipsum dolor</TableCell>
+            <TableCell align={align}>Cell</TableCell>
+            <TableCell align={align}>Cell</TableCell>
+            <TableCell align={align}>Cell</TableCell>
           </TableRow>
         </TableBody>
       </Table>

@@ -1,12 +1,19 @@
 import withJest from '@decorators/jest/jest';
 import withContainer from '@decorators/container/withContainer';
-import { TableContainer, Table, TableHead, TableRow, TableCell, TableBody } from '@naturacosmeticos/natds-web';
+import { 
+  Table, 
+  TableBody, 
+  TableCell, 
+  TableContainer, 
+  TableHead, 
+  TableRow
+} from '@naturacosmeticos/natds-web';
 
 import TableDocs from './Table.docs.mdx';
 
 export default {
   title: 'Components|Table',
-  component: [TableContainer, Table, TableHead, TableRow, TableCell, TableBody],
+  compoenet: [Table, TableBody, TableCell, TableContainer, TableHead, TableRow],
   decorators: [withJest(), withContainer],
   parameters: {
     jestImportPath: 'web',
