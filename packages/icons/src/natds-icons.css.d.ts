@@ -24,7 +24,16 @@ declare const styles: {
   readonly "natds-icons-filled-action-newrequest": string;
   readonly "natds-icons-filled-action-rating": string;
   readonly "natds-icons-filled-action-subtract": string;
+  readonly "natds-icons-filled-brand-facebook": string;
+  readonly "natds-icons-filled-brand-google": string;
+  readonly "natds-icons-filled-brand-instagram": string;
+  readonly "natds-icons-filled-brand-linkedin": string;
   readonly "natds-icons-filled-brand-naturarosacea": string;
+  readonly "natds-icons-filled-brand-pinterest": string;
+  readonly "natds-icons-filled-brand-spotify": string;
+  readonly "natds-icons-filled-brand-twitter": string;
+  readonly "natds-icons-filled-brand-whatsapp": string;
+  readonly "natds-icons-filled-brand-youtube": string;
   readonly "natds-icons-filled-finance-charging": string;
   readonly "natds-icons-filled-media-pause": string;
   readonly "natds-icons-filled-media-play": string;
@@ -170,6 +179,8 @@ declare const styles: {
   readonly "natds-icons-outlined-place-forklift": string;
   readonly "natds-icons-outlined-place-gps": string;
   readonly "natds-icons-outlined-place-local": string;
+  readonly "natds-icons-outlined-place-rocket": string;
+  readonly "natds-icons-outlined-place-runningtruck": string;
   readonly "natds-icons-outlined-place-truck": string;
   readonly "natds-icons-outlined-place-waze": string;
   readonly "natds-icons-outlined-product-bagproduct": string;
