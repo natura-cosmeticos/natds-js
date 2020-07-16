@@ -1,5 +1,5 @@
 import React, { FunctionComponent, forwardRef } from 'react';
-import MateriaTablepagination, {
+import MaterialTablePagination, {
   TablePaginationProps as ITablePaginationProps,
 } from '@material-ui/core/TablePagination';
 import { withTheme } from '@material-ui/core/styles';
@@ -9,7 +9,7 @@ export const TablePagination: FunctionComponent<ITablePaginationProps> = forward
   props: ITablePaginationProps,
   ref: any
 ) => (
-  <MateriaTablepagination {...props} ref={ref} />
+  <MaterialTablePagination {...props} ref={ref} />
 ));
 
 export default withTheme(TablePagination);

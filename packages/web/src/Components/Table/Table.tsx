@@ -4,6 +4,7 @@ import MaterialTable, {
 } from '@material-ui/core/Table';
 
 import { withTheme, makeStyles } from '@material-ui/core/styles';
+import { tokens } from '@naturacosmeticos/natds-styles';
 import { IThemeWeb } from '../../Themes';
 import { getDefaultTheme } from '../shared';
 export interface ITableProps extends MaterialTableProps {
@@ -49,35 +50,34 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
   } = props;
 
   const theme: any  = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
-
   const useStyles = React.useMemo(() => makeStyles({
     root: {
       color: theme.palette.text.primary,
       borderCollapse: 'separate',
       border: dividers === false ? `1px solid ${theme.palette.text.hint}` : 'none',
-      borderRadius: dividers === false && rounded === true ? '4px' : '0px',
+      borderRadius: dividers === false && rounded === true ? `${tokens.sizes.micro}` : `${theme.sizes.none}`,
       backgroundColor: theme.palette.background.paper,
       '& thead > tr > th ': {
         fontWeight: 'bold',
         backgroundColor: theme.palette.background.paper,
-        borderTop: dividers === false ? 'none' : `1px solid ${theme.palette.text.hint}`,
+        borderTop: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
 
-        borderRight: dividers === false ? 'none' : `1px solid ${theme.palette.text.hint}`,
-        borderBottom: dividers === false? 'none' : `1px solid ${theme.palette.text.hint}`,
-        padding: '24px',
+        borderRight: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
+        borderBottom: dividers === false? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
+        padding: `${tokens.spacing.spacingStandard}px`,
         fontSize: '14px',
       },
       '& th:first-child': {
-        borderLeft: dividers === false ? 'none' : `1px solid ${theme.palette.text.hint}`,
+        borderLeft: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
       },
       '& td': {
-        borderRight: dividers === false ? 'none' : `1px solid ${theme.palette.text.hint}`,
-        borderBottom: dividers === false? 'none' : `1px solid ${theme.palette.text.hint}`,
-        padding: '24px',
+        borderRight: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
+        borderBottom: dividers === false? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
+        padding: `${tokens.spacing.spacingStandard}px`,
         fontSize: '14px',
       },
       '& td:first-child': {
-        borderLeft: dividers === false ? 'none' : `1px solid ${theme.palette.text.hint}`,
+        borderLeft: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
       },
       '& tr':{
         backgroundColor: theme.palette.background.default,
@@ -87,19 +87,19 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
       },
       '& thead > tr:first-child': {
         '& > th:first-child':{
-          borderTopLeftRadius: rounded && '4px',
+          borderTopLeftRadius: rounded && `${tokens.sizes.micro}`,
         },
         '& > th:last-child':{
-          borderTopRightRadius: rounded && '4px',
+          borderTopRightRadius: rounded && `${tokens.sizes.micro}`,
         },
       },
 
       '& tbody > tr:last-child': {
         '& > td:first-child':{
-          borderBottomLeftRadius: rounded && '4px',
+          borderBottomLeftRadius: rounded && `${tokens.sizes.micro}`,
         },
         '& > td:last-child':{
-          borderBottomRightRadius: rounded && '4px',
+          borderBottomRightRadius: rounded && `${tokens.sizes.micro}`,
         },
       },
     }
