@@ -1,5 +1,27 @@
 # Troubleshooting
 
+## Styled are not applied
+
+When a component seems not to be styled according to Storybook, please check if you are importing and using the `<Provider>` component.
+
+Most of times, you just need to import and use `Provider` once, wrapping all your application with Provider.
+
+For example: you could put inside your `App/index.js` file:
+
+```jsx
+import React from 'react'
+import {Provider, Button, Icon} from "@naturacosmeticos/natds-web";
+
+export const App = () => (
+    <Provider>
+        <Button color={"primary"} variant={"contained"}>
+            <Icon name={"filled-action-add"} size={"tiny"} />
+            Button
+        </Button>
+    </Provider>
+)
+```
+
 ## Invalid hook call
 
 ### Check your `react` and `react-dom` dependencies
