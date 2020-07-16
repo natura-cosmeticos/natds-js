@@ -1491,7 +1491,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
           >
             TableSortLabel test
             <i
-              className="natds-icons natds-icons-outlined-navigation-directionbottom makeStyles-root-4"
+              className="natds-icons natds-icons-outlined-navigation-directionbottom makeStyles-root-3"
             />
           </span>
         </th>
@@ -1796,7 +1796,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
   }
 >
   <table
-    className="MuiTable-root makeStyles-root-5"
+    className="MuiTable-root makeStyles-root-4"
     role={null}
   >
     <thead
@@ -2993,7 +2993,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
             TableSortLabel test
             <svg
               aria-hidden={true}
-              className="MuiSvgIcon-root MuiTableSortLabel-icon makeStyles-icon-7 MuiTableSortLabel-iconDirectionAsc"
+              className="MuiSvgIcon-root MuiTableSortLabel-icon MuiTableSortLabel-iconDirectionAsc"
               focusable="false"
               viewBox="0 0 24 24"
             >

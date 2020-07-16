@@ -541,6 +541,11 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
               },
             },
           },
+          "MuiTableSortLabel": Object {
+            "icon": Object {
+              "marginLeft": 8,
+            },
+          },
           "MuiTextField": Object {
             "& .MuiInputLabel": Object {
               "marginTop": "20px",
@@ -1394,6 +1399,11 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
               "& > *:first-child": Object {
                 "marginBottom": "2px !important",
               },
+            },
+          },
+          "MuiTableSortLabel": Object {
+            "icon": Object {
+              "marginLeft": 8,
             },
           },
           "MuiTextField": Object {
