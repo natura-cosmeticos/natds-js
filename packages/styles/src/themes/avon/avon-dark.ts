@@ -559,6 +559,11 @@ export const avonDark: ITheme = {
       root: {
         ...fontSize.h6
       }
+    },
+    MuiTableSortLabel: {
+      icon: {
+        marginLeft: spacing.spacing,
+      }
     }
   }
 };

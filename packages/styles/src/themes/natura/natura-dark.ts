@@ -568,6 +568,11 @@ export const naturaDark: ITheme = {
       root: {
         ...fontSize.h6
       }
+    },
+    MuiTableSortLabel: {
+      icon: {
+        marginLeft: spacing.spacing,
+      }
     }
   }
 };
