@@ -17,7 +17,7 @@ describe('Table component', () => {
                     <Table>
                         <TableHead>
                             <TableRow>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test header cell</TableCell>
                             </TableRow>
                         </TableHead>
                     </Table>
@@ -32,7 +32,7 @@ describe('Table component', () => {
                     <Table rounded>
                         <TableHead>
                             <TableRow>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test header cell</TableCell>
                             </TableRow>
                         </TableHead>
                     </Table>
@@ -49,7 +49,7 @@ describe('Table component', () => {
                     <Table striped={false}>
                         <TableHead>
                             <TableRow>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test header cell</TableCell>
                             </TableRow>
                         </TableHead>
                     </Table>
@@ -66,7 +66,7 @@ describe('Table component', () => {
                     <Table dividers={false}>
                         <TableHead>
                             <TableRow>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test header cell</TableCell>
                             </TableRow>
                         </TableHead>
                     </Table>
@@ -83,7 +83,7 @@ describe('Table component', () => {
                     <Table rounded dividers={false}>
                         <TableHead>
                             <TableRow>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test header cell</TableCell>
                             </TableRow>
                         </TableHead>
                     </Table>

@@ -17,10 +17,10 @@ describe('TableBody component', () => {
                     <Table>
                         <TableBody>
                             <TableRow>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test header cell</TableCell>
                             </TableRow>
                         </TableBody>
-                    </Table>TableBody
+                    </Table>
                 </TableContainer>
             );
             expect(component.toJSON()).toMatchSnapshot('TableBodyComponent standard');

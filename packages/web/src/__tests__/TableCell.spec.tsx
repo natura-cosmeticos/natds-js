@@ -17,7 +17,7 @@ describe('TableCell component', () => {
                     <Table>
                         <TableBody>
                             <TableRow>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test header cell</TableCell>
                             </TableRow>
                         </TableBody>
                     </Table>

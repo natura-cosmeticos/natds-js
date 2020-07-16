@@ -17,7 +17,7 @@ describe('TableFooter component', () => {
                     <Table>
                         <TableFooter>
                             <TableRow>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test footer cell</TableCell>
                             </TableRow>
                         </TableFooter>
                     </Table>

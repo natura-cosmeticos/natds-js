@@ -25,7 +25,7 @@ describe('TableSortLabel component', () => {
                     IconComponent={() => <Icon name="outlined-navigation-directionbottom" size="small" />}
                     onClick={() => 'click'}
                   >
-                    TableSortLabel Test
+                    TableSortLabel test
                   </TableSortLabel>
                 </TableCell>
               </TableRow>
@@ -47,8 +47,8 @@ describe('TableSortLabel component', () => {
                     active={false}
                     onClick={() => 'click'}
                   >
-                    Lorem Ipsum dolor
-                                </TableSortLabel>
+                    TableSortLabel test
+                  </TableSortLabel>
                 </TableCell>
               </TableRow>
             </TableHead>

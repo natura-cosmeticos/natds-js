@@ -37,9 +37,9 @@ describe('TableRow component', () => {
                     <Table dividers={true}>
                         <TableHead>
                             <TableRow selected={true}>
-                                <TableCell></TableCell>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
-                                <TableCell>Lorem Ipsum dolor</TableCell>
+                                <TableCell>Test table cell text</TableCell>
+                                <TableCell>Test table cell text</TableCell>
+                                <TableCell>Test table cell text</TableCell>
                             </TableRow>
                         </TableHead>
                     </Table>
