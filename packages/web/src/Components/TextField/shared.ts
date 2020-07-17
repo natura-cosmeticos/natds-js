@@ -96,7 +96,6 @@ export interface ITextFieldProps {
 /**
  * @todo Separate classes from `TextField/shared.ts` file
  */
-// tslint:disable-next-line:max-classes-per-file
 export interface IStateTypes {
   type: string;
   key: string;

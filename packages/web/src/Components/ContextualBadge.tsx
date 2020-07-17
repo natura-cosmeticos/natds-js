@@ -159,7 +159,6 @@ export const ContextualBadge: FunctionComponent<IContextualBadgeProps> = forward
 /**
  * @todo Separate classes for `ContextualBadge.tsx` file
  */
-// tslint:disable-next-line:max-classes-per-file
 interface IContainerProps {
   backgroundColor: string;
   textColor: string;

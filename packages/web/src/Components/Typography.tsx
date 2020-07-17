@@ -1,6 +1,3 @@
-/**
- * @todo Review/re-enable `jsx-self-close` tslint rule
- */
 import React, { FunctionComponent, forwardRef } from "react";
 import { withTheme } from "@material-ui/styles";
 import MaterialTypography, { TypographyClassKey, TypographyProps } from "@material-ui/core/Typography";
