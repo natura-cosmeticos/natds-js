@@ -37,6 +37,8 @@ module.exports = {
     },
     {
       "files": [
+        "packages/styles/src/themes/theBodyShop/the-body-shop-dark.ts",
+        "packages/styles/src/themes/theBodyShop/the-body-shop-light.ts",
         "packages/web/src/__tests__/index.spec.tsx",
         "packages/web/src/__tests__/Icon/getFontSize.spec.tsx",
         "packages/web/src/__tests__/index.spec.tsx",
@@ -98,6 +100,12 @@ module.exports = {
         ],
         "no-use-before-define": ["off"],
         "react/display-name": ["off"]
+      }
+    },
+    {
+      "files": ["packages/icons/src/natds-icons.css.d.ts"],
+      "rules": {
+        "newline-after-var": ["off"]
       }
     }
   ],
@@ -363,7 +371,7 @@ module.exports = {
     "react": {
       "linkComponents": ["Link"],
       "pragma": "React",
-      "version": "detect"
+      "version": "16.13.1"
     }
   }
 };
