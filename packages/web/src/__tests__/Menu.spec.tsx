@@ -5,16 +5,19 @@ import { expect } from 'chai';
 import { Menu, MenuItem } from '..';
 
 const Component = () => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
+  const [
+      anchorEl,
+      setAnchorEl
+    ] = React.useState(null),
 
-  const handleClick = (event: any) => {
-    setAnchorEl(event.currentTarget);
-  };
+    handleClick = (event: any) => {
+      setAnchorEl(event.currentTarget);
+    };
 
   return (
     <>
       <button onClick={handleClick}>open</button>
-      <Menu open={!!anchorEl} anchorEl={anchorEl}>
+      <Menu open={Boolean(anchorEl)} anchorEl={anchorEl}>
         <MenuItem>Test</MenuItem>
       </Menu>
     </>

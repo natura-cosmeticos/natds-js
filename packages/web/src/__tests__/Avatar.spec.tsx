@@ -1,18 +1,14 @@
-import React from 'react';
+import * as React from 'react';
+import * as renderer from 'react-test-renderer';
 import { expect } from 'chai';
-import renderer from 'react-test-renderer';
 import { shallow } from 'enzyme';
 
 import Avatar from '../Components/Avatar';
-import { themes } from '@naturacosmeticos/natds-styles';
+import {ITheme, themes} from '@naturacosmeticos/natds-styles';
 
-const label = 'A';
+const label = 'A',
 
-const MockedIcon = () => {
-  return (
-    <i />
-  );
-};
+  MockedIcon = () => <i />;
 
 describe('Avatar component', () => {
   describe('rendering variants', () => {
@@ -49,15 +45,15 @@ describe('Avatar component', () => {
     });
 
     test('should match snapshot - Avatar with image', () => {
-      const image = 'source/image.png';
-      const component = renderer.create(<Avatar src={image} />).toJSON();
+      const image = 'source/image.png',
+        component = renderer.create(<Avatar src={image} />).toJSON();
 
       expect(component).to.matchSnapshot('Avatar with initials snapshot');
     });
   });
 
   describe('rendering avatars sizes', () => {
-    let theme:any;
+    let theme:ITheme = themes.natura.light;
 
     beforeEach(() => {
       theme = themes.natura.light;
@@ -107,7 +103,7 @@ describe('Avatar component', () => {
   });
 
   describe('rendering avatars colors', () => {
-    let theme:any;
+    let theme:ITheme = themes.natura.light;
 
     beforeEach(() => {
       theme = themes.natura.light;

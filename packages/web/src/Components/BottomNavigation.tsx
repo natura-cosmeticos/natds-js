@@ -6,8 +6,6 @@ export { BottomNavigationProps as IBottomNavigationProps } from '@material-ui/co
 export const BottomNavigation: FunctionComponent<IBottomNavigationProps> = forwardRef((
   props: IBottomNavigationProps,
   ref: any
-) => (
-  <MaterialBottomNavigation {...props} ref={ref} />
-));
+) => <MaterialBottomNavigation {...props} ref={ref} />);
 
 export default withTheme(BottomNavigation);

@@ -1,14 +1,14 @@
-import React, { FunctionComponent, useState, forwardRef } from 'react';
+import React, { FunctionComponent, forwardRef, useState } from 'react';
 import styled from 'styled-components';
 import MaskedInput from 'react-text-mask';
 import { tokens } from '@naturacosmeticos/natds-styles';
 
 import {
   ITextFieldProps,
-  getProp,
   getBorderByState,
-  stateStyles,
   getColorByState,
+  getProp,
+  stateStyles
 } from './shared';
 import PasswordReveal from './PasswordReveal';
 import SearchClear from './SearchClear';
@@ -19,66 +19,83 @@ export const SEARCH_TYPE = 'search';
 export const PASSWORD_TYPE = 'password';
 export const DATE = 'date';
 
-export const Field: FunctionComponent<ITextFieldProps> = forwardRef(
-  (props: ITextFieldProps, ref: any) => {
-    const {
-      id,
-      theme,
-      required = false,
-      disabled = false,
-      state,
-      multiline,
-      mask,
-      placeholder = '&nbsp;',
-      type,
-      onIconPress,
-      icon,
-      searchIcon,
-      showPasswordIcon,
-      hidePasswordIcon,
-      onChange,
-      className,
-      ...rest
-    } = props;
+export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITextFieldProps, ref: any) => {
+  const {
+    className,
+    disabled = false,
+    hidePasswordIcon,
+    icon,
+    id,
+    mask,
+    multiline,
+    onChange,
+    onIconPress,
+    placeholder = '&nbsp;',
+    required = false,
+    searchIcon,
+    showPasswordIcon,
+    state,
+    theme,
+    type,
+    ...rest
+  } = props;
 
-    const fieldType = multiline ? 'textarea' : mask ? MaskedInput : 'input';
-    const [showing, togglePasswordReveal] = useState(false);
-    const [value, setValue] = useState('');
-    const customType = showing ? TEXT_TYPE : type;
-    const showPasswordReveal = type === PASSWORD_TYPE && !icon;
-    const showSearchClear = type === SEARCH_TYPE && !icon;
-    const hasIcon = !!showPasswordReveal || !!showSearchClear || !!icon;
+  let fieldType: string | typeof MaskedInput = 'input';
 
-    const handleChange = (event: any) => {
+  if (multiline) {
+    fieldType = 'textarea';
+  } else if (mask) {
+    fieldType = MaskedInput;
+  }
+
+  const [
+      showing,
+      togglePasswordReveal
+    ] = useState(false),
+    [
+      value,
+      setValue
+    ] = useState(''),
+    customType = showing ? TEXT_TYPE : type,
+    showPasswordReveal = type === PASSWORD_TYPE && !icon,
+    showSearchClear = type === SEARCH_TYPE && !icon,
+    hasIcon = Boolean(showPasswordReveal) || Boolean(showSearchClear) || Boolean(icon),
+
+    handleChange = (event: any) => {
       setValue(event.target.value);
-      onChange && onChange(event);
-    };
+      if (onChange) {
+        onChange(event);
+      }
+    },
 
-    const clearSearch = (event: any) => {
+    clearSearch = (event: any) => {
       setValue('');
-      onChange && onChange(event);
+      if (onChange) {
+        onChange(event);
+      }
     };
 
-    return (
-      <FieldContainer theme={theme} disabled={disabled}>
-        <FieldComponent
-          theme={theme}
-          id={id}
-          type={customType || TEXT_TYPE}
-          placeholder={placeholder}
-          state={state}
-          disabled={disabled}
-          required={required}
-          as={fieldType}
-          value={value}
-          hasIcon={hasIcon}
-          className={`${className}__input`}
-          mask={mask}
-          onChange={handleChange}
-          ref={ref}
-          {...rest}
-        />
-        {showPasswordReveal && (
+  return (
+    <FieldContainer theme={theme} disabled={disabled}>
+      <FieldComponent
+        theme={theme}
+        id={id}
+        type={customType || TEXT_TYPE}
+        placeholder={placeholder}
+        state={state}
+        disabled={disabled}
+        required={required}
+        // @ts-ignore
+        as={fieldType}
+        value={value}
+        hasIcon={hasIcon}
+        className={`${className}__input`}
+        mask={mask}
+        onChange={handleChange}
+        ref={ref}
+        {...rest}
+      />
+      {showPasswordReveal &&
           <PasswordReveal
             theme={theme}
             showing={showing}
@@ -86,27 +103,26 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef(
             showPasswordIcon={showPasswordIcon}
             hidePasswordIcon={hidePasswordIcon}
           />
-        )}
-        {showSearchClear && (
+      }
+      {showSearchClear &&
           <SearchClear
             theme={theme}
             onClearSearch={clearSearch}
             searchIcon={searchIcon}
           />
-        )}
-        {icon && (
+      }
+      {icon &&
           <CustomIcon theme={theme} icon={icon} onIconPress={onIconPress} />
-        )}
-      </FieldContainer>
-    );
-  }
-);
+      }
+    </FieldContainer>
+  );
+});
 
 export default Field;
 
-const IconPad = `${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingLarge}px ${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingSmall}px`;
+const IconPad = `${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingLarge}px ${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingSmall}px`,
 
-const FieldContainer = styled.div`
+  FieldContainer = styled.div`
   display: flex;
   flex-flow: column nowrap;
   position: relative;
@@ -127,8 +143,13 @@ export const FieldComponent = styled.input`
   font-weight: ${getProp('typography', 'body2', 'fontWeight')};
   font-family: ${getProp('typography', 'fontFamily')};
   flex: 1 1 100%;
-  padding: ${({ hasIcon }) =>
-    hasIcon ? IconPad : `${tokens.spacing.spacingSmall}px`};
+  padding: ${({ hasIcon }) => {
+    if (hasIcon) {
+      return IconPad;
+    }
+
+    return `${tokens.spacing.spacingSmall}px`;
+  }};
   resize: vertical;
 
   &:disabled,

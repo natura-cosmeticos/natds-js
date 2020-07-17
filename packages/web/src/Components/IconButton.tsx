@@ -8,8 +8,6 @@ export { IconButtonProps as IIconButtonProps } from '@material-ui/core/IconButto
 export const IconButton: FunctionComponent<IIconButtonProps> = forwardRef((
   props: IIconButtonProps,
   ref: any
-) => (
-    <MaterialIconButton {...props} ref={ref} />
-));
+) => <MaterialIconButton {...props} ref={ref} />);
 
 export default withTheme(IconButton);

@@ -6,8 +6,6 @@ export { SnackbarProps as ISnackbarProps } from '@material-ui/core/Snackbar';
 export const Snackbar: FunctionComponent<ISnackbarProps> = forwardRef((
   props: ISnackbarProps,
   ref: any
-) => (
-  <MaterialSnackbar {...props} ref={ref} />
-));
+) => <MaterialSnackbar {...props} ref={ref} />);
 
 export default withTheme(Snackbar);

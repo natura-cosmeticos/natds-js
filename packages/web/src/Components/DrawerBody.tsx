@@ -1,4 +1,4 @@
-import React, { FunctionComponent, useState, forwardRef } from 'react';
+import React, { FunctionComponent, forwardRef, useState } from 'react';
 import { withTheme } from '@material-ui/core';
 import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
@@ -14,11 +14,14 @@ export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
   props: IDrawerBodyProps,
   ref: any
 ) => {
-  const { children, component, theme: providerTheme, ...rest } = props;
-  const [scrolled, setScrolled] = useState(false);
+  const { children, component, 'theme': providerTheme, ...rest } = props;
+  const [
+    scrolled,
+    setScrolled
+  ] = useState(false);
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
-
-  const handleScrolled = (event: any) => setScrolled(event.target.scrollTop > 0);
+  const SCROLL_POSITION_ZERO = 0;
+  const handleScrolled = (event: any) => setScrolled(event.target.scrollTop > SCROLL_POSITION_ZERO);
 
   return (
     <DrawerBodyComponent
@@ -38,6 +41,25 @@ export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
 
 export default withTheme(DrawerBody);
 
+/**
+ * @todo refactor(web): replace string by shadow token
+ */
+const SCROLLED_BOX_SHADOW = 'rgba(0, 0, 0, .14) inset 0 9px 5px -5px';
+
+/**
+ * @todo refactor(web): replace string by shadow token
+ */
+const NOT_SCROLLED_BOX_SHADOW = 'none';
+
+const getDrawerBodyComponentBoxShadow = ({ scrolled }: { scrolled: boolean }) => {
+  if (scrolled) {
+    return SCROLLED_BOX_SHADOW;
+  }
+
+  return NOT_SCROLLED_BOX_SHADOW;
+
+};
+
 export const DrawerBodyComponent = styled.div<{ scrolled: boolean, theme: IThemeWeb }>`
   flex: 1 1 auto;
   display: flex;
@@ -46,7 +68,7 @@ export const DrawerBodyComponent = styled.div<{ scrolled: boolean, theme: ITheme
 
   &:before {
     content: "";
-    box-shadow: ${({ scrolled }) => (scrolled ? 'rgba(0, 0, 0, .14) inset 0 9px 5px -5px' : 'none')};
+    box-shadow: ${({scrolled}) => getDrawerBodyComponentBoxShadow({scrolled})};
     height: 10px;
     pointer-events: none;
     top: 0;

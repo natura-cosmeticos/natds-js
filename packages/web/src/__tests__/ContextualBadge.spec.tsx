@@ -7,27 +7,26 @@ import { Provider } from '../Provider';
 describe('ContextualBadge component', () => {
   describe('rendering', () => {
     const colors = [
-      'primary',
-      'secondary',
-      'info',
-      'error',
-      'warning',
-      'success',
-      'light',
-      'dark'
-    ];
-    const types = [
-      'standard'
-    ];
+        'primary',
+        'secondary',
+        'info',
+        'error',
+        'warning',
+        'success',
+        'light',
+        'dark'
+      ],
+      types = ['standard'];
+
     test('it should render each color', () => {
-      colors.forEach(color => {
+      colors.forEach((color) => {
         const wrapper = renderer.create(<ContextualBadge color={color}>Mock</ContextualBadge>);
 
         expect(wrapper.toJSON()).toMatchSnapshot('ContextualBadge Colors');
       });
     });
     test('it should render each type', () => {
-      types.forEach(type => {
+      types.forEach((type) => {
         const wrapper = renderer.create(<ContextualBadge type={type}>Mock</ContextualBadge>);
 
         expect(wrapper.toJSON()).toMatchSnapshot('ContextualBadge Types');

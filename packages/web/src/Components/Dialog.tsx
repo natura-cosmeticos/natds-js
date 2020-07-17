@@ -4,10 +4,8 @@ import MaterialDialog, { DialogProps as IDialogProps } from '@material-ui/core/D
 export { DialogProps as IDialogProps } from '@material-ui/core/Dialog';
 
 export const Dialog: FunctionComponent<IDialogProps> = forwardRef((
-  props: IDialogProps, 
+  props: IDialogProps,
   ref: any
-) => (
-  <MaterialDialog {...props} ref={ref} />
-));
+) => <MaterialDialog {...props} ref={ref} />);
 
 export default withTheme(Dialog);

@@ -10,8 +10,6 @@ export {
 export const DialogActions: FunctionComponent<IDialogActionsProps> = forwardRef((
   props: IDialogActionsProps,
   ref: any
-) => (
-  <MaterialDialogActions {...props} ref={ref} />
-));
+) => <MaterialDialogActions {...props} ref={ref} />);
 
 export default withTheme(DialogActions);

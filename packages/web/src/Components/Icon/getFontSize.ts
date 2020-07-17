@@ -1,10 +1,10 @@
-import {IIconSizes, ITheme} from "@naturacosmeticos/natds-styles";
+import {IIconSizes, ITheme} from '@naturacosmeticos/natds-styles';
 
-/**
- * @see https://material-ui.com/pt/styles/api/#createstyles-styles-styles
- */
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const getFontSize = ({ size = 'standard', theme }: {size?: keyof IIconSizes, theme: ITheme}) => {
-  const { iconSizes = {} } = theme || {};
-  const fontSize = iconSizes[String(size)];
+  const { iconSizes = {} } = theme || {},
+    fontSize = iconSizes[String(size)];
+
+
   return `${fontSize}px`;
 };

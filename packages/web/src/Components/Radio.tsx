@@ -6,8 +6,6 @@ export { RadioProps as IRadioProps } from '@material-ui/core/Radio';
 export const Radio: FunctionComponent<Omit<IRadioProps, 'translate'>> = forwardRef((
   props: Omit<IRadioProps, 'translate'>,
   ref: any
-) => (
-  <MaterialRadio {...props} ref={ref} />
-));
+) => <MaterialRadio {...props} ref={ref} />);
 
 export default withTheme(Radio);

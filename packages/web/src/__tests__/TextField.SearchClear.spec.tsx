@@ -1,23 +1,24 @@
-import * as React from 'react';
 import 'jest-styled-components';
-import { shallow } from 'enzyme';
-import { expect } from 'chai';
-import { spy, assert } from 'sinon';
 
-import { themes } from '@naturacosmeticos/natds-styles';
+import * as React from 'react';
+import { assert, spy } from 'sinon';
+
 import SearchClear from '../Components/TextField/SearchClear';
+import { expect } from 'chai';
+import { shallow } from 'enzyme';
+import { themes } from '@naturacosmeticos/natds-styles';
 
 const getProps = (props: any = {}) => {
   const {
-    theme = themes.natura.light,
     onClearSearch = spy(),
-    searchIcon = () => (<i />)
+    searchIcon = () => <i />,
+    theme = themes.natura.light
   } = props;
 
   return {
-    theme,
+    onClearSearch,
     searchIcon,
-    onClearSearch
+    theme
   };
 };
 

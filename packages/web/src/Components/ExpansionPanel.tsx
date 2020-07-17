@@ -14,8 +14,6 @@ export {
 export const ExpansionPanel: FunctionComponent<IExpansionPanelProps> = forwardRef((
   props: IExpansionPanelProps,
   ref: any
-) => (
-  <MaterialExpansionPanel {...props} ref={ref} />
-));
+) => <MaterialExpansionPanel {...props} ref={ref} />);
 
 export default withTheme(ExpansionPanel);
