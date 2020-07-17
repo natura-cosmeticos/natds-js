@@ -1,8 +1,3 @@
-/**
- * @todo Review/enable `await-promise` tslint rule
- * @todo Review/enable `deprecation` tslint rule
- * @todo Review/enable `no-unnecessary-qualifier` tslint
- */
 export { default as tokens } from "./tokens";
 export { default as themes, ITheme } from "./themes";
 export { IAvatarSizes } from "./tokens/avatarSizes/IAvatarSizes";
