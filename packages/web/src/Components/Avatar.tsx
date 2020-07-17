@@ -1,11 +1,11 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import MaterialAvatar, { AvatarProps as MaterialAvatarProps } from '@material-ui/core/Avatar';
-import { withTheme } from '@material-ui/styles';
-import { IAvatarSizes } from '@naturacosmeticos/natds-styles';
-import { IThemeWeb } from 'Themes';
+import React, { FunctionComponent, forwardRef } from "react";
+import MaterialAvatar, { AvatarProps as MaterialAvatarProps } from "@material-ui/core/Avatar";
+import { withTheme } from "@material-ui/styles";
+import { IAvatarSizes } from "@naturacosmeticos/natds-styles";
+import { IThemeWeb } from "Themes";
 
 export type AvatarSizes = keyof IAvatarSizes;
-export type AvatarColors = 'primary' | 'secondary' | 'default' | string;
+export type AvatarColors = "primary" | "secondary" | "default" | string;
 
 export interface IAvatarProps extends MaterialAvatarProps {
 
@@ -62,9 +62,9 @@ const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
       sizeInPx = `${value.size}px`;
 
     return {
-      'fontSize': value.fontSize,
-      'height': sizeInPx,
-      'width': sizeInPx
+      "fontSize": value.fontSize,
+      "height": sizeInPx,
+      "width": sizeInPx
     };
   },
 
@@ -86,13 +86,13 @@ const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
      * @todo Fix `no-unused-expression` detected by tslint
      */
     // tslint:disable-next-line:no-unused-expression
-    if (!selectedColor || color === 'default') {
+    if (!selectedColor || color === "default") {
       return {};
     }
 
     return {
-      'background': selectedColor.main,
-      'color': selectedColor.contrastText
+      "background": selectedColor.main,
+      "color": selectedColor.contrastText
     };
   };
 

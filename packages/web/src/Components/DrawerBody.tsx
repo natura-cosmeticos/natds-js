@@ -1,8 +1,8 @@
-import React, { FunctionComponent, forwardRef, useState } from 'react';
-import { withTheme } from '@material-ui/core';
-import styled from 'styled-components';
-import { IThemeWeb } from 'Themes';
-import { getDefaultTheme } from './shared';
+import React, { FunctionComponent, forwardRef, useState } from "react";
+import { withTheme } from "@material-ui/core";
+import styled from "styled-components";
+import { IThemeWeb } from "Themes";
+import { getDefaultTheme } from "./shared";
 
 export interface IDrawerBodyProps {
   children?: React.ReactNode;
@@ -14,7 +14,7 @@ export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
   props: IDrawerBodyProps,
   ref: any
 ) => {
-  const { children, component, 'theme': providerTheme, ...rest } = props;
+  const { children, component, "theme": providerTheme, ...rest } = props;
   const [
     scrolled,
     setScrolled
@@ -44,12 +44,12 @@ export default withTheme(DrawerBody);
 /**
  * @todo refactor(web): replace string by shadow token
  */
-const SCROLLED_BOX_SHADOW = 'rgba(0, 0, 0, .14) inset 0 9px 5px -5px';
+const SCROLLED_BOX_SHADOW = "rgba(0, 0, 0, .14) inset 0 9px 5px -5px";
 
 /**
  * @todo refactor(web): replace string by shadow token
  */
-const NOT_SCROLLED_BOX_SHADOW = 'none';
+const NOT_SCROLLED_BOX_SHADOW = "none";
 
 const getDrawerBodyComponentBoxShadow = ({ scrolled }: { scrolled: boolean }) => {
   if (scrolled) {

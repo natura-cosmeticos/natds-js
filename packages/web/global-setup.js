@@ -1,3 +1,5 @@
+// eslint-disable-next-line require-await
 module.exports = async () => {
-  process.env.TZ = 'UTC';
+  // eslint-disable-next-line no-process-env
+  process.env.TZ = "UTC";
 };

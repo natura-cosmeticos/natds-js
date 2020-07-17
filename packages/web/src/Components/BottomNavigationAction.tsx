@@ -1,8 +1,8 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import MaterialBottomNavigationAction, { BottomNavigationActionProps } from '@material-ui/core/BottomNavigationAction';
-import { makeStyles, withTheme } from '@material-ui/core/styles';
-import { getDefaultTheme } from './shared';
-import { IThemeWeb } from '../Themes';
+import React, { FunctionComponent, forwardRef } from "react";
+import MaterialBottomNavigationAction, { BottomNavigationActionProps } from "@material-ui/core/BottomNavigationAction";
+import { makeStyles, withTheme } from "@material-ui/core/styles";
+import { getDefaultTheme } from "./shared";
+import { IThemeWeb } from "../Themes";
 
 export interface IBottomNavigationActionProps extends BottomNavigationActionProps {
 
@@ -17,7 +17,7 @@ export const BottomNavigationAction: FunctionComponent<IBottomNavigationActionPr
   ref: any
 ) => {
   const {
-      'theme': providerTheme
+      "theme": providerTheme
     } = props,
 
     theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
@@ -33,16 +33,16 @@ export const BottomNavigationAction: FunctionComponent<IBottomNavigationActionPr
       /**
        * @todo fix(web): TS2339 - Property 'typography' does not exist on type 'unknown'.
        */
-      const { 'typography': { caption } } = theme;
+      const { "typography": { caption } } = theme;
 
       return makeStyles({
-        'label': {
-          '&$selected': {
-            'fontSize': caption.fontSize
+        "label": {
+          "&$selected": {
+            "fontSize": caption.fontSize
           }
         },
-        'selected': {
-          'color': text.primary
+        "selected": {
+          "color": text.primary
         }
       });
     }, [theme]),

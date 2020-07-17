@@ -1,7 +1,7 @@
-import React, { FunctionComponent, forwardRef, useState } from 'react';
-import styled from 'styled-components';
-import MaskedInput from 'react-text-mask';
-import { tokens } from '@naturacosmeticos/natds-styles';
+import React, { FunctionComponent, forwardRef, useState } from "react";
+import styled from "styled-components";
+import MaskedInput from "react-text-mask";
+import { tokens } from "@naturacosmeticos/natds-styles";
 
 import {
   ITextFieldProps,
@@ -9,15 +9,15 @@ import {
   getColorByState,
   getProp,
   stateStyles
-} from './shared';
-import PasswordReveal from './PasswordReveal';
-import SearchClear from './SearchClear';
-import CustomIcon from './CustomIcon';
+} from "./shared";
+import PasswordReveal from "./PasswordReveal";
+import SearchClear from "./SearchClear";
+import CustomIcon from "./CustomIcon";
 
-export const TEXT_TYPE = 'text';
-export const SEARCH_TYPE = 'search';
-export const PASSWORD_TYPE = 'password';
-export const DATE = 'date';
+export const TEXT_TYPE = "text";
+export const SEARCH_TYPE = "search";
+export const PASSWORD_TYPE = "password";
+export const DATE = "date";
 
 export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITextFieldProps, ref: any) => {
   const {
@@ -30,7 +30,7 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
     multiline,
     onChange,
     onIconPress,
-    placeholder = '&nbsp;',
+    placeholder = "&nbsp;",
     required = false,
     searchIcon,
     showPasswordIcon,
@@ -40,10 +40,10 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
     ...rest
   } = props;
 
-  let fieldType: string | typeof MaskedInput = 'input';
+  let fieldType: string | typeof MaskedInput = "input";
 
   if (multiline) {
-    fieldType = 'textarea';
+    fieldType = "textarea";
   } else if (mask) {
     fieldType = MaskedInput;
   }
@@ -55,7 +55,7 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
     [
       value,
       setValue
-    ] = useState(''),
+    ] = useState(""),
     customType = showing ? TEXT_TYPE : type,
     showPasswordReveal = type === PASSWORD_TYPE && !icon,
     showSearchClear = type === SEARCH_TYPE && !icon,
@@ -69,7 +69,7 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
     },
 
     clearSearch = (event: any) => {
-      setValue('');
+      setValue("");
       if (onChange) {
         onChange(event);
       }
@@ -132,16 +132,16 @@ const IconPad = `${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingLarge}
 export const FieldComponent = styled.input`
   background-color: transparent;
   border: 0;
-  border-radius: ${getProp('shape', 'borderRadius')}px;
+  border-radius: ${getProp("shape", "borderRadius")}px;
   box-sizing: border-box;
   width: 100%;
   line-height: ${tokens.spacing.spacingStandard}px;
   min-height: ${tokens.spacing.spacingLarge}px;
   outline: none;
-  color: ${getProp('palette', 'text', 'primary')};
-  font-size: ${getProp('typography', 'body2', 'fontSize')};
-  font-weight: ${getProp('typography', 'body2', 'fontWeight')};
-  font-family: ${getProp('typography', 'fontFamily')};
+  color: ${getProp("palette", "text", "primary")};
+  font-size: ${getProp("typography", "body2", "fontSize")};
+  font-weight: ${getProp("typography", "body2", "fontWeight")};
+  font-family: ${getProp("typography", "fontFamily")};
   flex: 1 1 100%;
   padding: ${({ hasIcon }) => {
     if (hasIcon) {
@@ -154,16 +154,16 @@ export const FieldComponent = styled.input`
 
   &:disabled,
   &:disabled:hover {
-    color: ${getProp('palette', 'text', 'hint')};
-    box-shadow: ${getProp('palette', 'text', 'hint')} 0 0 0 1px;
+    color: ${getProp("palette", "text", "hint")};
+    box-shadow: ${getProp("palette", "text", "hint")} 0 0 0 1px;
   }
 
   &::placeholder {
-    color: ${getProp('palette', 'text', 'secondary')};
+    color: ${getProp("palette", "text", "secondary")};
   }
 
   &:disabled::placeholder {
-    color: ${getProp('palette', 'text', 'hint')};
+    color: ${getProp("palette", "text", "hint")};
   }
 
   &:placeholder-shown {
@@ -179,7 +179,7 @@ export const FieldComponent = styled.input`
   }
 
   &:hover:not(:read-only):not(:disabled):not(:focus) {
-    box-shadow: ${getProp('palette', 'text', 'secondary')} 0 0 0 1px;
+    box-shadow: ${getProp("palette", "text", "secondary")} 0 0 0 1px;
   }
 
   &[type='text']::-ms-clear,

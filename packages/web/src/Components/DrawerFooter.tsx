@@ -1,8 +1,8 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import styled from 'styled-components';
-import { withTheme } from '@material-ui/core';
-import { IThemeWeb } from 'Themes';
-import { getDefaultTheme } from './shared';
+import React, { FunctionComponent, forwardRef } from "react";
+import styled from "styled-components";
+import { withTheme } from "@material-ui/core";
+import { IThemeWeb } from "Themes";
+import { getDefaultTheme } from "./shared";
 
 export interface IDrawerFooterProps {
   children?: React.ReactNode;
@@ -14,7 +14,7 @@ export const DrawerFooter: FunctionComponent<IDrawerFooterProps> = forwardRef((
   props: IDrawerFooterProps,
   ref: any
 ) => {
-  const { children, component, 'theme': providerTheme, ...rest } = props,
+  const { children, component, "theme": providerTheme, ...rest } = props,
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
   return (

@@ -1,7 +1,7 @@
-import React, { ComponentType, FunctionComponent } from 'react';
-import styled from 'styled-components';
-import { IThemeWeb } from 'Themes';
-import { tokens } from '@naturacosmeticos/natds-styles';
+import React, { ComponentType, FunctionComponent } from "react";
+import styled from "styled-components";
+import { IThemeWeb } from "Themes";
+import { tokens } from "@naturacosmeticos/natds-styles";
 
 export interface ICustomIcon {
   theme: IThemeWeb | unknown;
@@ -11,7 +11,7 @@ export interface ICustomIcon {
 
 export const CustomIcon: FunctionComponent<ICustomIcon> = (props: ICustomIcon) => {
   const { theme, icon, onIconPress } = props,
-    style = onIconPress ? { 'cursor': 'pointer' } : {};
+    style = onIconPress ? { "cursor": "pointer" } : {};
 
   return (
     <ClearIconStyled

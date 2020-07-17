@@ -1,8 +1,8 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import MaterialAppBar, { AppBarProps } from '@material-ui/core/AppBar';
-import { makeStyles, withTheme } from '@material-ui/core/styles';
-import { IThemeWeb } from '../Themes';
-import { getDefaultTheme } from './shared';
+import React, { FunctionComponent, forwardRef } from "react";
+import MaterialAppBar, { AppBarProps } from "@material-ui/core/AppBar";
+import { makeStyles, withTheme } from "@material-ui/core/styles";
+import { IThemeWeb } from "../Themes";
+import { getDefaultTheme } from "./shared";
 
 export interface IAppBarProps extends AppBarProps {
 
@@ -15,21 +15,21 @@ export interface IAppBarProps extends AppBarProps {
 const defaultAppBarElevation = 2;
 
 export const AppBar: FunctionComponent<IAppBarProps> = forwardRef((
-  props: Omit<IAppBarProps, 'translate'>,
+  props: Omit<IAppBarProps, "translate">,
   ref: any
 ) => {
   const {
       elevation,
-      'theme': providerTheme,
+      "theme": providerTheme,
       classes
     } = props,
 
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
 
     useStyles = React.useMemo(() => makeStyles({
-      'colorDefault': {
-        'backgroundColor': theme.palette.background.paper,
-        'color': theme.palette.background.paperContrastText
+      "colorDefault": {
+        "backgroundColor": theme.palette.background.paper,
+        "color": theme.palette.background.paperContrastText
       }
     }), [theme]),
 

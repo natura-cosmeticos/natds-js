@@ -1,5 +1,5 @@
-import {IThemeWeb} from 'Themes';
-import {ComponentType} from 'react';
+import {IThemeWeb} from "Themes";
+import {ComponentType} from "react";
 
 export interface ITextFieldProps {
   [propName: string]: any;
@@ -42,7 +42,7 @@ export interface ITextFieldProps {
    * @optional
    * Optional state for component variant
    */
-  state?: 'error' | 'success' | undefined;
+  state?: "error" | "success" | undefined;
 
   /**
    * @optional
@@ -104,40 +104,40 @@ export interface IStateTypes {
 }
 
 export const stateStyles = {
-  'default': {
-    'borderWidth': '0 0 0 1px',
-    'key': 'hint',
-    'type': 'text'
+  "default": {
+    "borderWidth": "0 0 0 1px",
+    "key": "hint",
+    "type": "text"
   },
-  'disabled': {
-    'borderWidth': '0 0 0 1px',
-    'key': 'hint',
-    'type': 'text'
+  "disabled": {
+    "borderWidth": "0 0 0 1px",
+    "key": "hint",
+    "type": "text"
   },
-  'error': {
-    'borderWidth': '0 0 0 2px',
-    'key': 'main',
-    'type': 'error'
+  "error": {
+    "borderWidth": "0 0 0 2px",
+    "key": "main",
+    "type": "error"
   },
-  'filled': {
-    'borderWidth': '0 0 0 1px',
-    'key': 'primary',
-    'type': 'text'
+  "filled": {
+    "borderWidth": "0 0 0 1px",
+    "key": "primary",
+    "type": "text"
   },
-  'focus': {
-    'borderWidth': '0 0 0 2px',
-    'key': 'main',
-    'type': 'primary'
+  "focus": {
+    "borderWidth": "0 0 0 2px",
+    "key": "main",
+    "type": "primary"
   },
-  'hover': {
-    'borderWidth': '0 0 0 1px',
-    'key': 'secondary',
-    'type': 'text'
+  "hover": {
+    "borderWidth": "0 0 0 1px",
+    "key": "secondary",
+    "type": "text"
   },
-  'success': {
-    'borderWidth': '0 0 0 1px',
-    'key': 'main',
-    'type': 'success'
+  "success": {
+    "borderWidth": "0 0 0 1px",
+    "key": "main",
+    "type": "success"
   }
 };
 
@@ -151,13 +151,13 @@ export const getProp = (namespace: string, type: string, key?: string) => ({them
 export const getColorByState = (initial: IStateTypes) => (props: ITextFieldProps) => {
   const {type, key} = getState(props, initial);
 
-  return getProp('palette', type, key)(props);
+  return getProp("palette", type, key)(props);
 };
 
 export const getBorderByState = (initial: IStateTypes) => (props: ITextFieldProps) => {
   const {type, key, borderWidth} = getState(props, initial);
 
-  return `${getProp('palette', type, key)(props)} ${borderWidth}`;
+  return `${getProp("palette", type, key)(props)} ${borderWidth}`;
 };
 
-const getState = ({disabled, state}: Pick<ITextFieldProps, 'disabled' | 'state'>, initial: IStateTypes) => (disabled ? stateStyles.disabled : stateStyles[state || '']) || initial;
+const getState = ({disabled, state}: Pick<ITextFieldProps, "disabled" | "state">, initial: IStateTypes) => (disabled ? stateStyles.disabled : stateStyles[state || ""]) || initial;

@@ -1,35 +1,35 @@
 /**
  * @todo Review/re-enable `jsx-self-close` tslint rule
  */
-import React, { FunctionComponent, forwardRef } from 'react';
-import { withTheme } from '@material-ui/styles';
-import MaterialTypography, { TypographyClassKey, TypographyProps } from '@material-ui/core/Typography';
+import React, { FunctionComponent, forwardRef } from "react";
+import { withTheme } from "@material-ui/styles";
+import MaterialTypography, { TypographyClassKey, TypographyProps } from "@material-ui/core/Typography";
 
 export type TypographyVariant =
-  | 'h1'
-  | 'h2'
-  | 'h3'
-  | 'h4'
-  | 'h5'
-  | 'h6'
-  | 'subtitle1'
-  | 'subtitle2'
-  | 'body1'
-  | 'body2'
-  | 'button'
-  | 'caption'
-  | 'overline';
+  | "h1"
+  | "h2"
+  | "h3"
+  | "h4"
+  | "h5"
+  | "h6"
+  | "subtitle1"
+  | "subtitle2"
+  | "body1"
+  | "body2"
+  | "button"
+  | "caption"
+  | "overline";
 
-type TypographyAlign = 'inherit' | 'left' | 'center' | 'right' | 'justify';
+type TypographyAlign = "inherit" | "left" | "center" | "right" | "justify";
 
 export type TypographyColor =
-  | 'initial'
-  | 'inherit'
-  | 'primary'
-  | 'secondary'
-  | 'textPrimary'
-  | 'textSecondary'
-  | 'error';
+  | "initial"
+  | "inherit"
+  | "primary"
+  | "secondary"
+  | "textPrimary"
+  | "textSecondary"
+  | "error";
 
 export interface ITypographyProps extends TypographyProps {
 
@@ -84,8 +84,8 @@ export const Typography: FunctionComponent<ITypographyProps> = forwardRef((
   ref: any
 ) => {
   const {
-    variant = 'body1',
-    align = 'inherit',
+    variant = "body1",
+    align = "inherit",
     ...rest
   } = props;
 

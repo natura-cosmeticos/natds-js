@@ -1,12 +1,12 @@
-import 'jest-styled-components';
+import "jest-styled-components";
 
-import * as React from 'react';
-import { assert, spy } from 'sinon';
+import * as React from "react";
+import { assert, spy } from "sinon";
 
-import SearchClear from '../Components/TextField/SearchClear';
-import { expect } from 'chai';
-import { shallow } from 'enzyme';
-import { themes } from '@naturacosmeticos/natds-styles';
+import SearchClear from "../Components/TextField/SearchClear";
+import { expect } from "chai";
+import { shallow } from "enzyme";
+import { themes } from "@naturacosmeticos/natds-styles";
 
 const getProps = (props: any = {}) => {
   const {
@@ -22,8 +22,8 @@ const getProps = (props: any = {}) => {
   };
 };
 
-describe('TextField SearchClear component', () => {
-  test('should render received Icon', () => {
+describe("TextField SearchClear component", () => {
+  test("should render received Icon", () => {
     const props = getProps();
     const component = shallow(<SearchClear {...props} />);
     const icon = shallow(props.searchIcon());
@@ -31,18 +31,18 @@ describe('TextField SearchClear component', () => {
     expect(component.html()).to.be.equal(icon.html());
   });
 
-  test('should render default Icon', () => {
+  test("should render default Icon", () => {
     const props = getProps();
     const component = shallow(<SearchClear {...props} searchIcon={undefined} />);
 
-    expect(component.html()).to.contain('svg');
+    expect(component.html()).to.contain("svg");
   });
 
-  test('should call onClearSearch callback after click', () => {
+  test("should call onClearSearch callback after click", () => {
     const props = getProps();
     const component = shallow(<SearchClear {...props} />);
 
-    component.simulate('click');
+    component.simulate("click");
 
     assert.calledOnce(props.onClearSearch);
   });

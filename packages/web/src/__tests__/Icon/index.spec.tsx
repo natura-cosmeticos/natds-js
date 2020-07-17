@@ -1,16 +1,16 @@
-import * as React from 'react';
-import * as renderer from 'react-test-renderer';
-import { expect } from 'chai';
+import * as React from "react";
+import * as renderer from "react-test-renderer";
+import { expect } from "chai";
 
-import { IIconSizes, themes, tokens } from '@naturacosmeticos/natds-styles';
+import { IIconSizes, themes, tokens } from "@naturacosmeticos/natds-styles";
 
-import Icon from '../../Components/Icon';
+import Icon from "../../Components/Icon";
 
-describe('Icon component', () => {
-  test('should match snapshot - Any valid Icon with standard size', () => {
+describe("Icon component", () => {
+  test("should match snapshot - Any valid Icon with standard size", () => {
     const component = renderer.create(<Icon name="filled-action-add" />).toJSON();
 
-    expect(component).matchSnapshot('Icon snapshot - valid icon with standard size');
+    expect(component).matchSnapshot("Icon snapshot - valid icon with standard size");
   });
 
   const iconSizes = Object.keys(tokens.iconSizes);
@@ -23,21 +23,21 @@ describe('Icon component', () => {
     });
   });
 
-  test('should match snapshot - Any valid Icon with empty theme', () => {
+  test("should match snapshot - Any valid Icon with empty theme", () => {
     const component = renderer.create(<Icon name="filled-action-add" theme={{}} />).toJSON();
 
-    expect(component).matchSnapshot('Icon snapshot - valid Icon with empty theme');
+    expect(component).matchSnapshot("Icon snapshot - valid Icon with empty theme");
   });
 
-  test('should match snapshot - Any valid Icon with theme with undefined icon sizes', () => {
-    const component = renderer.create(<Icon name="filled-action-add" theme={{'iconSizes': {}}} />).toJSON();
+  test("should match snapshot - Any valid Icon with theme with undefined icon sizes", () => {
+    const component = renderer.create(<Icon name="filled-action-add" theme={{"iconSizes": {}}} />).toJSON();
 
-    expect(component).matchSnapshot('Icon snapshot - valid Icon with theme with undefined icon sizes');
+    expect(component).matchSnapshot("Icon snapshot - valid Icon with theme with undefined icon sizes");
   });
 
-  test('should match snapshot - Any valid Icon without theme', () => {
+  test("should match snapshot - Any valid Icon without theme", () => {
     const component = renderer.create(<Icon name="filled-action-add" />).toJSON();
 
-    expect(component).matchSnapshot('Icon snapshot - valid Icon without theme');
+    expect(component).matchSnapshot("Icon snapshot - valid Icon without theme");
   });
 });
