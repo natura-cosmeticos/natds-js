@@ -75,6 +75,7 @@ export const theBodyShopDark: ITheme = {
       "warningContrastText": theBodyShopDarkColorTokens.colorOnSecondary
     }
   },
+
   /**
    * @todo fix(styles): TS2322 - type is not assignable to type 'ITypography'.
    */
