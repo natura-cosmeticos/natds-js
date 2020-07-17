@@ -49,7 +49,7 @@
     "clean": "rm -rf dist && rm -rf src/assets/cleaned/* && rm -rf src/fonts/*",
     "prepare": "yarn snyk-protect",
     "pretest": "yarn build:clean",
-    "rollup:build": "rollup -c --verbose",
+    "rollup:build": "rollup -c --v",
     "snyk-protect": "snyk protect",
     "start": "yarn build --watch",
     "test": "echo \"@todo: Implement tests for @natds-icons\"",
