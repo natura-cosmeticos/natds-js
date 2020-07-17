@@ -1,18 +1,18 @@
-import * as React from 'react';
-import { withTheme } from '@material-ui/core/styles';
-import MaterialFab from '@material-ui/core/Fab';
-import { getDefaultTheme } from '../shared';
-import { IFabProps } from './IFabProps';
+import * as React from "react";
+import { withTheme } from "@material-ui/core/styles";
+import MaterialFab from "@material-ui/core/Fab";
+import { getDefaultTheme } from "../shared";
+import { IFabProps } from "./IFabProps";
 
-export { IFabProps } from './IFabProps';
+export { IFabProps } from "./IFabProps";
 
 export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
   props: IFabProps,
   ref: any
 ) => {
   const {
-      color = 'primary',
-      'theme': providerTheme,
+      color = "primary",
+      "theme": providerTheme,
       disabled,
       style
     } = props,
@@ -24,17 +24,17 @@ export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
 
 
       return {
-        'light': {
-          'backgroundColor': palette.background.default,
-          'color': palette.background.defaultContrastText
+        "light": {
+          "backgroundColor": palette.background.default,
+          "color": palette.background.defaultContrastText
         },
-        'primary': {
-          'backgroundColor': palette.primary.main,
-          'color': palette.primary.contrastText
+        "primary": {
+          "backgroundColor": palette.primary.main,
+          "color": palette.primary.contrastText
         },
-        'secondary': {
-          'backgroundColor': palette.secondary.main,
-          'color': palette.secondary.contrastText
+        "secondary": {
+          "backgroundColor": palette.secondary.main,
+          "color": palette.secondary.contrastText
         }
       };
     }, [theme]);

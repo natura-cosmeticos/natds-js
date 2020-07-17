@@ -1,20 +1,20 @@
-import React, { forwardRef } from 'react';
-import MaterialLink, { LinkProps } from '@material-ui/core/Link';
-import { withTheme } from '@material-ui/core';
-import { IThemeWeb } from 'Themes';
-import { getDefaultTheme } from './shared';
+import React, { forwardRef } from "react";
+import MaterialLink, { LinkProps } from "@material-ui/core/Link";
+import { withTheme } from "@material-ui/core";
+import { IThemeWeb } from "Themes";
+import { getDefaultTheme } from "./shared";
 
 type LinkColor =
-  | 'default'
-  | 'initial'
-  | 'inherit'
-  | 'primary'
-  | 'secondary'
-  | 'textPrimary'
-  | 'textSecondary'
-  | 'error';
+  | "default"
+  | "initial"
+  | "inherit"
+  | "primary"
+  | "secondary"
+  | "textPrimary"
+  | "textSecondary"
+  | "error";
 
-export interface ILinkProps extends Omit<LinkProps, 'color'> {
+export interface ILinkProps extends Omit<LinkProps, "color"> {
 
   /**
    * @optional
@@ -34,13 +34,13 @@ const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & 
   ref: any
 ) => {
   const {
-      color = 'default',
-      'theme': providerTheme,
+      color = "default",
+      "theme": providerTheme,
       style
     } = props,
 
-    defaultColor = color === 'default',
-    validColor = defaultColor ? 'inherit' : color,
+    defaultColor = color === "default",
+    validColor = defaultColor ? "inherit" : color,
 
     theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
 
@@ -48,8 +48,8 @@ const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & 
       const { palette } = theme as any;
 
       return {
-        'default': {
-          'color': palette.complementary.link
+        "default": {
+          "color": palette.complementary.link
         }
       };
     }, [theme]),

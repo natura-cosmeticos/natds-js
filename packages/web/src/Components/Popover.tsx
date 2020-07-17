@@ -1,17 +1,17 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import { PopperPlacementType, withTheme } from '@material-ui/core';
+import React, { FunctionComponent, forwardRef } from "react";
+import { PopperPlacementType, withTheme } from "@material-ui/core";
 import MaterialPopper, {
   PopperProps as IPopperProps
-} from '@material-ui/core/Popper';
+} from "@material-ui/core/Popper";
 
-import styled from 'styled-components';
-import { IThemeWeb } from 'Themes';
-import { getDefaultTheme } from './shared';
-import Link, {ILinkProps} from '../Components/Link';
-import Paper from '../Components/Paper';
-import Typography from '../Components/Typography';
+import styled from "styled-components";
+import { IThemeWeb } from "Themes";
+import { getDefaultTheme } from "./shared";
+import Link, {ILinkProps} from "../Components/Link";
+import Paper from "../Components/Paper";
+import Typography from "../Components/Typography";
 
-interface IActionLink extends Omit<ILinkProps, 'theme'> {
+interface IActionLink extends Omit<ILinkProps, "theme"> {
   text: string;
   href?: string;
   onClick?: any;
@@ -21,7 +21,7 @@ interface IActionLink extends Omit<ILinkProps, 'theme'> {
  * @todo Separate classes for `Popover.tsx` file
  */
 // tslint:disable-next-line:max-classes-per-file
-export interface IPopoverProps extends Omit<IPopperProps, 'placement'> {
+export interface IPopoverProps extends Omit<IPopperProps, "placement"> {
   theme: IThemeWeb | unknown;
   component?: React.ElementType;
   actionLink?: IActionLink;
@@ -60,10 +60,10 @@ export const Popover: FunctionComponent<IPopoverProps> = forwardRef((props: IPop
       actionLink,
       children,
       component,
-      direction = 'bottom',
+      direction = "bottom",
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       modifiers,
-      'theme': providerTheme,
+      "theme": providerTheme,
       ...rest
     } = props,
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
@@ -78,16 +78,16 @@ export const Popover: FunctionComponent<IPopoverProps> = forwardRef((props: IPop
       theme={theme}
       ref={ref}
       modifiers={{
-        'arrow': {
-          'element': arrowRef,
-          'enabled': true
+        "arrow": {
+          "element": arrowRef,
+          "enabled": true
         },
-        'flip': {
-          'enabled': true
+        "flip": {
+          "enabled": true
         },
-        'preventOverflow': {
-          'boundariesElement': 'scrollParent',
-          'enabled': true
+        "preventOverflow": {
+          "boundariesElement": "scrollParent",
+          "enabled": true
         }
       }}
       placement={direction}

@@ -1,25 +1,25 @@
-import * as React from 'react';
+import * as React from "react";
 
-import { expect } from 'chai';
-import { mount } from 'enzyme';
-import Popover from '../Components/Popover';
+import { expect } from "chai";
+import { mount } from "enzyme";
+import Popover from "../Components/Popover";
 
 const directions: any = {
-  'bottom': 'bottom',
-  'bottom-end': 'bottom-end',
-  'bottom-start': 'bottom-start',
-  'left': 'left',
-  'left-end': 'left-end',
-  'left-start': 'left-start',
-  'right': 'right',
-  'right-end': 'right-end',
-  'right-start': 'right-start',
-  'top': 'top',
-  'top-end': 'top-end',
-  'top-start': 'top-start'
+  "bottom": "bottom",
+  "bottom-end": "bottom-end",
+  "bottom-start": "bottom-start",
+  "left": "left",
+  "left-end": "left-end",
+  "left-start": "left-start",
+  "right": "right",
+  "right-end": "right-end",
+  "right-start": "right-start",
+  "top": "top",
+  "top-end": "top-end",
+  "top-start": "top-start"
 };
 
-describe('Popover component', () => {
+describe("Popover component", () => {
 
   /*
    *Due to Material-UI not handling the anchorEl property correctly,
@@ -50,11 +50,11 @@ describe('Popover component', () => {
     });
   });
 
-  test('should match snapshot - Popover with Action Link', () => {
-    const wrapper = mount(<Popover open actionLink={{ 'text': 'Action link' }}>
+  test("should match snapshot - Popover with Action Link", () => {
+    const wrapper = mount(<Popover open actionLink={{ "text": "Action link" }}>
       content
     </Popover>);
 
-    expect(wrapper).matchSnapshot('Popover snapshot - with Action Link');
+    expect(wrapper).matchSnapshot("Popover snapshot - with Action Link");
   });
 });

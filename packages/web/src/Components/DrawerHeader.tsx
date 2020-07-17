@@ -1,11 +1,11 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import { withTheme } from '@material-ui/core';
-import styled from 'styled-components';
-import { IThemeWeb } from 'Themes';
-import { getDefaultTheme } from './shared';
+import React, { FunctionComponent, forwardRef } from "react";
+import { withTheme } from "@material-ui/core";
+import styled from "styled-components";
+import { IThemeWeb } from "Themes";
+import { getDefaultTheme } from "./shared";
 
-import Typography from './Typography';
-import Avatar from './Avatar';
+import Typography from "./Typography";
+import Avatar from "./Avatar";
 
 export interface IDrawerHeaderProps {
   children?: React.ReactNode;
@@ -27,7 +27,7 @@ export const DrawerHeader: FunctionComponent<IDrawerHeaderProps> = forwardRef((
   props: IDrawerHeaderProps,
   ref: any
 ) => {
-  const { children, component, 'theme': providerTheme, ...rest } = props,
+  const { children, component, "theme": providerTheme, ...rest } = props,
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
     content = children || buildContent({ ...props,
       theme });

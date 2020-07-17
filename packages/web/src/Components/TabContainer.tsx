@@ -1,9 +1,9 @@
-import React, { FunctionComponent, forwardRef } from 'react';
+import React, { FunctionComponent, forwardRef } from "react";
 import MaterialTabContainer, {
   TabsProps as ITabContainerProps
-} from '@material-ui/core/Tabs';
-import { withTheme } from '@material-ui/core/styles';
-export { TabsProps as ITabContainerProps } from '@material-ui/core/Tabs';
+} from "@material-ui/core/Tabs";
+import { withTheme } from "@material-ui/core/styles";
+export { TabsProps as ITabContainerProps } from "@material-ui/core/Tabs";
 
 export const TabContainer: FunctionComponent<ITabContainerProps> = forwardRef((
   props: ITabContainerProps,

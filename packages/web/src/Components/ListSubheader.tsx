@@ -1,9 +1,9 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import { withTheme } from '@material-ui/styles';
+import React, { FunctionComponent, forwardRef } from "react";
+import { withTheme } from "@material-ui/styles";
 import MaterialListSubheader, {
   ListSubheaderProps as IListSubheaderProps
-} from '@material-ui/core/ListSubheader';
-export { ListSubheaderProps as IListSubheaderProps } from '@material-ui/core/ListSubheader';
+} from "@material-ui/core/ListSubheader";
+export { ListSubheaderProps as IListSubheaderProps } from "@material-ui/core/ListSubheader";
 
 const ListSubheader: FunctionComponent<IListSubheaderProps> = forwardRef((
   props: IListSubheaderProps,

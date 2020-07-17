@@ -1,12 +1,13 @@
-import * as React from 'react';
-import { MaskedInputProps } from 'react-text-mask';
+/* eslint-disable @typescript-eslint/no-empty-function */
+/* eslint-disable no-empty-function */
+import * as React from "react";
+import { MaskedInputProps } from "react-text-mask";
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 const mock = (props: MaskedInputProps) => {
+  // eslint-disable-next-line @typescript-eslint/no-unused-vars
   const { render, ...otherProps } = props,
-
-    /* tslint:disable-next-line:no-empty */
     setRef = () => {
-
     };
 
   let result = <input {...otherProps} />;

@@ -1,24 +1,24 @@
 /* eslint-disable new-cap */
-import React, { FunctionComponent, forwardRef } from 'react';
-import { makeStyles, withTheme } from '@material-ui/core';
-import styled from 'styled-components';
-import { IThemeWeb } from 'Themes';
-import { getDefaultTheme } from './shared';
+import React, { FunctionComponent, forwardRef } from "react";
+import { makeStyles, withTheme } from "@material-ui/core";
+import styled from "styled-components";
+import { IThemeWeb } from "Themes";
+import { getDefaultTheme } from "./shared";
 
-import ContextualBadge from './ContextualBadge';
-import Collapse from './Collapse';
-import Icon from './Icon';
-import List from './List';
-import ListItem from './ListItem';
-import ListSubheader from './ListSubheader';
-import ListItemIcon from './ListItemIcon';
-import ListItemText from './ListItemText';
-import Typography from './Typography';
+import ContextualBadge from "./ContextualBadge";
+import Collapse from "./Collapse";
+import Icon from "./Icon";
+import List from "./List";
+import ListItem from "./ListItem";
+import ListSubheader from "./ListSubheader";
+import ListItemIcon from "./ListItemIcon";
+import ListItemText from "./ListItemText";
+import Typography from "./Typography";
 
-import { iconNames } from '@naturacosmeticos/natds-icons';
+import { iconNames } from "@naturacosmeticos/natds-icons";
 
-const ICON_ARROW_DOWN = 'outlined-navigation-arrowbottom',
-  ICON_ARROW_UP = 'outlined-navigation-arrowtop';
+const ICON_ARROW_DOWN = "outlined-navigation-arrowbottom",
+  ICON_ARROW_UP = "outlined-navigation-arrowtop";
 
 export interface IDrawerMenuProps {
   children?: React.ReactNode;
@@ -52,14 +52,14 @@ export const DrawerMenu: FunctionComponent<IDrawerMenuProps> = forwardRef((
   props: IDrawerMenuProps,
   ref: any
 ) => {
-  const { children, list, 'theme': providerTheme, component, ...rest } = props,
+  const { children, list, "theme": providerTheme, component, ...rest } = props,
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
     StyledList = React.useMemo(() => makeStyles({
-      'padding': {
-        'marginBottom': theme.sizes.tiny,
-        'marginTop': theme.sizes.tiny,
-        'paddingBottom': 0,
-        'paddingTop': 0
+      "padding": {
+        "marginBottom": theme.sizes.tiny,
+        "marginTop": theme.sizes.tiny,
+        "paddingBottom": 0,
+        "paddingTop": 0
       }
     }), [theme]),
 
@@ -80,7 +80,7 @@ export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = for
   props: IDrawerMenuSectionProps,
   ref: any
 ) => {
-  const { onToggle, icon, name, list, 'theme': providerTheme } = props,
+  const { onToggle, icon, name, list, "theme": providerTheme } = props,
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
     [
       opened,
@@ -88,40 +88,40 @@ export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = for
     ] = React.useState(props.opened),
 
     StyledSubList = React.useMemo(() => makeStyles({
-      'padding': {
-        'borderLeft': `${theme.palette.action.hover} 1px solid`,
-        'margin': `0 0 0 ${theme.sizes.semix}px`,
-        'padding': `0 0 0 ${theme.sizes.tiny}px`
+      "padding": {
+        "borderLeft": `${theme.palette.action.hover} 1px solid`,
+        "margin": `0 0 0 ${theme.sizes.semix}px`,
+        "padding": `0 0 0 ${theme.sizes.tiny}px`
       }
     }), [theme]),
 
     StyledListSectionItem = React.useMemo(() => makeStyles({
-      'root': {
-        'borderRadius': theme.shape.borderRadius,
-        'cursor': 'pointer',
-        'marginBottom': theme.sizes.micro,
-        'padding': theme.sizes.tiny,
+      "root": {
+        "borderRadius": theme.shape.borderRadius,
+        "cursor": "pointer",
+        "marginBottom": theme.sizes.micro,
+        "padding": theme.sizes.tiny,
         // eslint-disable-next-line sort-keys
-        '&:hover': {
-          'backgroundColor': theme.palette.action.hover
+        "&:hover": {
+          "backgroundColor": theme.palette.action.hover
         },
         // eslint-disable-next-line sort-keys
-        '&$selected': {
-          'backgroundColor': `${theme.palette.action.hover}`,
+        "&$selected": {
+          "backgroundColor": `${theme.palette.action.hover}`,
           // eslint-disable-next-line sort-keys
-          '&:hover': {
-            'backgroundColor': theme.palette.action.hover
+          "&:hover": {
+            "backgroundColor": theme.palette.action.hover
           }
         }
       },
-      'selected': {}
+      "selected": {}
     }), [theme]),
 
     StyledListItemIcon = React.useMemo(() => makeStyles({
-      'root': {
-        'marginRight': theme.sizes.standard,
-        'marginTop': 0,
-        'minWidth': 'auto'
+      "root": {
+        "marginRight": theme.sizes.standard,
+        "marginTop": 0,
+        "minWidth": "auto"
       }
     }), [theme]),
 
@@ -167,34 +167,34 @@ export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = forwardRe
   props: IDrawerMenuItemProps,
   ref: any
 ) => {
-  const { onSelect, name, icon, selected, section, 'theme': providerTheme } = props,
+  const { onSelect, name, icon, selected, section, "theme": providerTheme } = props,
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
 
     StyledListItem = React.useMemo(() => makeStyles({
-      'root': {
-        'borderRadius': theme.shape.borderRadius,
-        'cursor': 'pointer',
-        'padding': theme.sizes.tiny,
+      "root": {
+        "borderRadius": theme.shape.borderRadius,
+        "cursor": "pointer",
+        "padding": theme.sizes.tiny,
         // eslint-disable-next-line sort-keys
-        '&:hover': {
-          'backgroundColor': theme.palette.action.hover
+        "&:hover": {
+          "backgroundColor": theme.palette.action.hover
         }
       }
     }), [theme]),
 
     StyledListSubheader = React.useMemo(() => makeStyles({
-      'root': {
-        'backgroundColor': `${theme.palette.background.paper}`,
-        'borderTop': `${theme.palette.action.hover} 1px solid`,
-        'margin': `${theme.sizes.small}px -${theme.sizes.tiny}px 0`
+      "root": {
+        "backgroundColor": `${theme.palette.background.paper}`,
+        "borderTop": `${theme.palette.action.hover} 1px solid`,
+        "margin": `${theme.sizes.small}px -${theme.sizes.tiny}px 0`
       }
     }), [theme]),
 
     StyledListItemIcon = React.useMemo(() => makeStyles({
-      'root': {
-        'marginRight': theme.sizes.standard,
-        'marginTop': 0,
-        'minWidth': 'auto'
+      "root": {
+        "marginRight": theme.sizes.standard,
+        "marginTop": 0,
+        "minWidth": "auto"
       }
     }), [theme]);
 
@@ -209,7 +209,7 @@ export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = forwardRe
   const classes = StyledListItem(),
     classesIcon = StyledListItemIcon(),
     handleClick = (event: React.SyntheticEvent) => onSelect && onSelect(event, name),
-    onClick = onSelect ? { 'onClick': handleClick } : {};
+    onClick = onSelect ? { "onClick": handleClick } : {};
 
   return (
     <ListItem

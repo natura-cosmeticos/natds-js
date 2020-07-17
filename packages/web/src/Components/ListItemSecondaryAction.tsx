@@ -1,9 +1,9 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import { withTheme } from '@material-ui/styles';
+import React, { FunctionComponent, forwardRef } from "react";
+import { withTheme } from "@material-ui/styles";
 import MaterialListItemSecondaryAction, {
   ListItemSecondaryActionProps as IListItemSecondaryActionProps
-} from '@material-ui/core/ListItemSecondaryAction';
-export { ListItemSecondaryActionProps as IListItemSecondaryActionProps } from '@material-ui/core/ListItemSecondaryAction';
+} from "@material-ui/core/ListItemSecondaryAction";
+export { ListItemSecondaryActionProps as IListItemSecondaryActionProps } from "@material-ui/core/ListItemSecondaryAction";
 
 const ListItemSecondaryAction: FunctionComponent<IListItemSecondaryActionProps> = forwardRef((
   props: IListItemSecondaryActionProps,

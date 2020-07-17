@@ -1,6 +1,6 @@
-import React from 'react';
-import { mount } from 'enzyme';
-import { expect } from 'chai';
+import React from "react";
+import { mount } from "enzyme";
+import { expect } from "chai";
 
 import {
   Avatar,
@@ -13,41 +13,41 @@ import {
   ListItemSecondaryAction,
   ListItemText,
   ListSubheader
-} from '..';
+} from "..";
 
-describe('List components', () => {
-  describe('rendering variants', () => {
-    test('should match to snapshot - empty list', () => {
+describe("List components", () => {
+  describe("rendering variants", () => {
+    test("should match to snapshot - empty list", () => {
       const component = mount(<List />);
 
-      expect(component).matchSnapshot('List empty snapshot');
+      expect(component).matchSnapshot("List empty snapshot");
     });
 
-    test('should match to snapshot - with ListSubheader', () => {
+    test("should match to snapshot - with ListSubheader", () => {
       const component = mount(<List
         subheader={<ListSubheader id="subheader">Subheader</ListSubheader>}
       />);
 
-      expect(component).matchSnapshot('List with ListSubheader snapshot');
+      expect(component).matchSnapshot("List with ListSubheader snapshot");
     });
 
-    test('should match to snapshot - with ListItem', () => {
+    test("should match to snapshot - with ListItem", () => {
       const component = mount(<List>
         <ListItem>Test</ListItem>
       </List>);
 
-      expect(component).matchSnapshot('List with ListItem snapshot');
+      expect(component).matchSnapshot("List with ListItem snapshot");
     });
 
-    test('should match to snapshot - with ListItem button', () => {
+    test("should match to snapshot - with ListItem button", () => {
       const component = mount(<List>
         <ListItem button>Test</ListItem>
       </List>);
 
-      expect(component).matchSnapshot('List with ListItem button snapshot');
+      expect(component).matchSnapshot("List with ListItem button snapshot");
     });
 
-    test('should match to snapshot - with ListItemAvatar', () => {
+    test("should match to snapshot - with ListItemAvatar", () => {
       const component = mount(<List>
         <ListItem>
           <ListItemAvatar>
@@ -58,10 +58,10 @@ describe('List components', () => {
         </ListItem>
       </List>);
 
-      expect(component).matchSnapshot('List with ListItemAvatar snapshot');
+      expect(component).matchSnapshot("List with ListItemAvatar snapshot");
     });
 
-    test('should match to snapshot - with ListItemIcon', () => {
+    test("should match to snapshot - with ListItemIcon", () => {
       const component = mount(<List>
         <ListItem>
           <ListItemIcon>
@@ -70,10 +70,10 @@ describe('List components', () => {
         </ListItem>
       </List>);
 
-      expect(component).matchSnapshot('List with ListItemIcon snapshot');
+      expect(component).matchSnapshot("List with ListItemIcon snapshot");
     });
 
-    test('should match to snapshot - with ListItemSecondaryAction', () => {
+    test("should match to snapshot - with ListItemSecondaryAction", () => {
       const component = mount(<List>
         <ListItem>
           <ListItemSecondaryAction>
@@ -84,17 +84,17 @@ describe('List components', () => {
         </ListItem>
       </List>);
 
-      expect(component).matchSnapshot('List with ListItemSecondaryAction snapshot');
+      expect(component).matchSnapshot("List with ListItemSecondaryAction snapshot");
     });
 
-    test('should match to snapshot - with ListItemText', () => {
+    test("should match to snapshot - with ListItemText", () => {
       const component = mount(<List>
         <ListItem>
           <ListItemText primary="Text only" />
         </ListItem>
       </List>);
 
-      expect(component).matchSnapshot('List with ListItemText snapshot');
+      expect(component).matchSnapshot("List with ListItemText snapshot");
     });
   });
 });

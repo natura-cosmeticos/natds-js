@@ -1,14 +1,14 @@
-import { createMuiTheme } from '@material-ui/core/styles';
-import { Shadows as IShadows } from '@material-ui/core/styles/shadows';
+import { createMuiTheme } from "@material-ui/core/styles";
+import { Shadows as IShadows } from "@material-ui/core/styles/shadows";
 import {
   IElevation,
   IFont,
   ITheme,
   themes as styleThemes
-} from '@naturacosmeticos/natds-styles';
+} from "@naturacosmeticos/natds-styles";
 
 export interface IThemeWeb
-  extends Pick<ITheme, 'shape' | 'palette' | 'avatarSizes' | 'sizes'> {
+  extends Pick<ITheme, "shape" | "palette" | "avatarSizes" | "sizes"> {
   shadows?: IShadows;
   typography: {
     fontFamily?: string;
@@ -36,11 +36,11 @@ export interface IThemeWeb
 }
 
 const parseShadows = (shadows: IElevation): IShadows => {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     const outShadows: any = [];
 
     createMuiTheme({}).shadows.forEach((shadow, index) => {
 
-      // tslint:disable-next-line:no-unused-expression
       if (shadows[index.toString()]) {
         outShadows.push(shadows[index.toString()]);
       } else {
@@ -56,29 +56,29 @@ const parseShadows = (shadows: IElevation): IShadows => {
 
     return {
       ...theme,
-      'shadows': parseShadows(shadows),
-      'typography': {
-        'body1': theme.typography.body1,
-        'body2': theme.typography.body2,
-        'button': theme.typography.button,
-        'caption': theme.typography.caption,
-        'fontFamily': theme.typography.fontFamily,
-        'fontFamilyBrand1': theme.typography.fontFamilyBrand1,
-        'fontFamilyBrand2': theme.typography.fontFamilyBrand2,
-        'fontFamilyBrand3': theme.typography.fontFamilyBrand3,
-        'fontWeightBold': theme.typography.fontWeightBold,
-        'fontWeightLight': theme.typography.fontWeightLight,
-        'fontWeightMedium': theme.typography.fontWeightMedium,
-        'fontWeightRegular': theme.typography.fontWeightRegular,
-        'h1': theme.typography.h1,
-        'h2': theme.typography.h2,
-        'h3': theme.typography.h3,
-        'h4': theme.typography.h4,
-        'h5': theme.typography.h5,
-        'h6': theme.typography.h6,
-        'overline': theme.typography.overline,
-        'subtitle1': theme.typography.subtitle1,
-        'subtitle2': theme.typography.subtitle2
+      "shadows": parseShadows(shadows),
+      "typography": {
+        "body1": theme.typography.body1,
+        "body2": theme.typography.body2,
+        "button": theme.typography.button,
+        "caption": theme.typography.caption,
+        "fontFamily": theme.typography.fontFamily,
+        "fontFamilyBrand1": theme.typography.fontFamilyBrand1,
+        "fontFamilyBrand2": theme.typography.fontFamilyBrand2,
+        "fontFamilyBrand3": theme.typography.fontFamilyBrand3,
+        "fontWeightBold": theme.typography.fontWeightBold,
+        "fontWeightLight": theme.typography.fontWeightLight,
+        "fontWeightMedium": theme.typography.fontWeightMedium,
+        "fontWeightRegular": theme.typography.fontWeightRegular,
+        "h1": theme.typography.h1,
+        "h2": theme.typography.h2,
+        "h3": theme.typography.h3,
+        "h4": theme.typography.h4,
+        "h5": theme.typography.h5,
+        "h6": theme.typography.h6,
+        "overline": theme.typography.overline,
+        "subtitle1": theme.typography.subtitle1,
+        "subtitle2": theme.typography.subtitle2
       }
     };
   };
@@ -98,8 +98,8 @@ const createThemesObject = (): IThemesWeb<keyof typeof styleThemes> => {
 
   keys.forEach((key) => {
     newThemes[key] = {
-      'dark': {} as IThemeWeb,
-      'light': {} as IThemeWeb
+      "dark": {} as IThemeWeb,
+      "light": {} as IThemeWeb
     };
 
     return newThemes[key];

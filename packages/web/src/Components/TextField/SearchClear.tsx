@@ -1,12 +1,12 @@
 /**
  * @todo Review/re-enable `no-construct` tslint rule
  */
-import React, { ComponentType, Dispatch, FunctionComponent, SetStateAction } from 'react';
-import styled from 'styled-components';
-import ClearRounded from '@material-ui/icons/ClearRounded';
+import React, { ComponentType, Dispatch, FunctionComponent, SetStateAction } from "react";
+import styled from "styled-components";
+import ClearRounded from "@material-ui/icons/ClearRounded";
 
-import { IThemeWeb } from 'Themes';
-import { tokens } from '@naturacosmeticos/natds-styles';
+import { IThemeWeb } from "Themes";
+import { tokens } from "@naturacosmeticos/natds-styles";
 
 export interface ISearchClear {
   theme: IThemeWeb | unknown;

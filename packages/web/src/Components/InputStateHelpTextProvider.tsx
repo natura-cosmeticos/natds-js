@@ -1,10 +1,10 @@
-import React, { FunctionComponent } from 'react';
-import styled from 'styled-components';
-import { ITheme, tokens } from '@naturacosmeticos/natds-styles';
-import ErrorIcon from '@material-ui/icons/HighlightOffOutlined';
-import SuccessIcon from '@material-ui/icons/CheckCircleOutline';
+import React, { FunctionComponent } from "react";
+import styled from "styled-components";
+import { ITheme, tokens } from "@naturacosmeticos/natds-styles";
+import ErrorIcon from "@material-ui/icons/HighlightOffOutlined";
+import SuccessIcon from "@material-ui/icons/CheckCircleOutline";
 
-import { getColorByState, getProp, stateStyles } from './TextField/shared';
+import { getColorByState, getProp, stateStyles } from "./TextField/shared";
 
 export interface IInputStateHelpTextProviderProps {
   id?: string;
@@ -13,7 +13,7 @@ export interface IInputStateHelpTextProviderProps {
   helpText?: string;
   required?: boolean;
   disabled?: boolean;
-  state: 'error' | 'success' | undefined;
+  state: "error" | "success" | undefined;
   className?: string;
   children?: any;
   readOnly?: boolean;
@@ -60,27 +60,27 @@ export default InputStateHelpTextProvider;
 const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
-  font-family: ${getProp('typography', 'fontFamily')};
+  font-family: ${getProp("typography", "fontFamily")};
 `,
 
   Label = styled.label`
-  font-size: ${getProp('typography', 'subtitle2', 'fontSize')};
-  font-weight: ${getProp('typography', 'subtitle2', 'fontWeight')};
+  font-size: ${getProp("typography", "subtitle2", "fontSize")};
+  font-weight: ${getProp("typography", "subtitle2", "fontWeight")};
   color: ${getColorByState(stateStyles.hover)};
   line-height: 1.2;
   padding: 0 0 ${tokens.spacing.spacingMicro}px;
-  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')};
+  font-family: ${getProp("typography", "subtitle2", "fontFamily")};
 `,
 
   HelpText = styled.span`
-  font-size: ${getProp('typography', 'caption', 'fontSize')};
-  font-weight: ${getProp('typography', 'caption', 'fontWeight')};
+  font-size: ${getProp("typography", "caption", "fontSize")};
+  font-weight: ${getProp("typography", "caption", "fontWeight")};
   color: ${getColorByState(stateStyles.hover)};
   line-height: 1.2;
   padding: ${tokens.spacing.spacingMicro}px 0 0;
   display: flex;
   align-items: center;
-  font-family: ${getProp('typography', 'subtitle2', 'fontFamily')};
+  font-family: ${getProp("typography", "subtitle2", "fontFamily")};
 `,
 
   baseIcon = `
@@ -98,6 +98,6 @@ const Container = styled.div`
 `,
 
   stateIcons = {
-    'error': IconError,
-    'success': IconSuccess
+    "error": IconError,
+    "success": IconSuccess
   };

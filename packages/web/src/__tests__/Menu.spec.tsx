@@ -1,8 +1,8 @@
-import React from 'react';
-import { mount } from 'enzyme';
-import { expect } from 'chai';
+import React from "react";
+import { mount } from "enzyme";
+import { expect } from "chai";
 
-import { Menu, MenuItem } from '..';
+import { Menu, MenuItem } from "..";
 
 const Component = () => {
   const [
@@ -24,18 +24,18 @@ const Component = () => {
   );
 };
 
-describe('Menu components', () => {
-  test('should match to snapshot - closed Menu', () => {
+describe("Menu components", () => {
+  test("should match to snapshot - closed Menu", () => {
     const component = mount(<Component />);
 
-    expect(component).matchSnapshot('Menu closed snapshot');
+    expect(component).matchSnapshot("Menu closed snapshot");
   });
 
-  test('should match to snapshot - opened Menu', () => {
+  test("should match to snapshot - opened Menu", () => {
     const component = mount(<Component />);
 
-    component.find('button').simulate('click');
+    component.find("button").simulate("click");
 
-    expect(component).matchSnapshot('Menu opened snapshot');
+    expect(component).matchSnapshot("Menu opened snapshot");
   });
 });

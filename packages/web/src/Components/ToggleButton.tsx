@@ -1,8 +1,8 @@
-import React, { FunctionComponent, ReactNode, forwardRef, useEffect, useState } from 'react';
-import { withTheme } from '@material-ui/styles';
-import IconButton, { IIconButtonProps } from './IconButton';
+import React, { FunctionComponent, ReactNode, forwardRef, useEffect, useState } from "react";
+import { withTheme } from "@material-ui/styles";
+import IconButton, { IIconButtonProps } from "./IconButton";
 
-export interface IToggleButtonProps extends Omit<IIconButtonProps, 'translate' | 'onClick' | 'children'> {
+export interface IToggleButtonProps extends Omit<IIconButtonProps, "translate" | "onClick" | "children"> {
 
   /**
    * Icon component to when the state is ON
