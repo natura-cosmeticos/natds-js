@@ -1,10 +1,10 @@
-const fs = require('fs');
-const path = require('path');
+const fs = require("fs");
+const path = require("path");
 
 const VERSION_ARGUMENT_INDEX = 2;
 const version = process.argv[VERSION_ARGUMENT_INDEX];
 
-const configFilePath = path.resolve(__dirname, '..', '..', 'packages', 'docs', 'dist', 'versions_config.json');
+const configFilePath = path.resolve(__dirname, "..", "..", "packages", "docs", "dist", "versions_config.json");
 
 console.info(`STORYBOOK Opening ${configFilePath}...`);
 const versionsConfig = require(configFilePath);
@@ -18,7 +18,7 @@ versionsConfig[FIRST_INDEX].versions = [
   ...versionsConfig[FIRST_INDEX].versions
 ];
 
-console.info('STORYBOOK Removing duplicate versions from versions list...');
+console.info("STORYBOOK Removing duplicate versions from versions list...");
 const uniqueArrayCallback = (element, position) => versionsConfig[FIRST_INDEX].versions.indexOf(element) === position;
 
 versionsConfig[FIRST_INDEX].versions = versionsConfig[FIRST_INDEX].versions.filter(uniqueArrayCallback);
@@ -31,4 +31,4 @@ console.info(`STORYBOOK Writing new versions list to ${configFilePath}...`);
 // eslint-disable-next-line no-sync
 fs.writeFileSync(configFilePath, JSON.stringify(versionsConfig, null, VERSIONS_CONFIG_SPACES));
 
-console.info('STORYBOOK Done writing new versions');
+console.info("STORYBOOK Done writing new versions");
