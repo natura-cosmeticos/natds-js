@@ -1,12 +1,9 @@
-/**
- * @todo Review/enable "callable-types" tslint rule
- */
 import { fontSize } from "../tokens/fontSize";
 import {
   IAvatarSizes,
-  IIconSizes,
   IButtonSizes,
   IElevation,
+  IIconSizes,
   ISizes
 } from "../";
 
@@ -21,9 +18,6 @@ type ITypography = {
   fontWeightBold?: number;
 } & typeof fontSize;
 
-/**
- * @todo Review/enable `no-empty-interface` rule
- */
 export interface ITheme {
   shape?: {
     borderRadius?: number;
@@ -90,5 +84,6 @@ export interface ITheme {
   buttonSizes: IButtonSizes;
   spacing: number;
   shadows: IElevation;
-  overrides?: any;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  overrides: any;
 }
