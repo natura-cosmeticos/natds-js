@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-docs",
-  "version": "0.11.3-alpha.DSY-1226.0",
+  "version": "0.12.2",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "keywords": [
@@ -36,7 +36,7 @@
     "watch": "yarn start"
   },
   "devDependencies": {
-    "@babel/core": "7.10.4",
+    "@babel/core": "7.10.5",
     "@babel/plugin-proposal-class-properties": "7.10.4",
     "@babel/plugin-proposal-object-rest-spread": "7.10.4",
     "@babel/preset-flow": "7.10.4",
@@ -53,9 +53,10 @@
     "@storybook/react": "5.3.19",
     "@storybook/source-loader": "5.3.19",
     "@storybook/storybook-deployer": "2.8.6",
+    "@types/fuzzy-search": "2.1.0",
     "@types/react": "16.9.43",
     "@types/react-dom": "16.9.8",
-    "@types/react-native": "0.62.18",
+    "@types/react-native": "0.63.1",
     "babel-loader": "8.1.0",
     "codecov": "3.7.0",
     "css-loader": "3.6.0",
@@ -65,18 +66,18 @@
     "sass-loader": "9.0.2",
     "snyk": "^1.341.1",
     "style-loader": "1.2.1",
-    "ts-loader": "8.0.0",
+    "ts-loader": "8.0.1",
     "tsconfig-paths-webpack-plugin": "3.2.0",
-    "typescript": "3.9.6",
+    "typescript": "3.9.7",
     "url-loader": "4.1.0",
     "yarn": "1.22.4"
   },
   "dependencies": {
     "@material-ui/core": "4.11.0",
     "@material-ui/icons": "4.9.1",
-    "@naturacosmeticos/natds-icons": "^0.11.3-alpha.DSY-1226.0",
-    "@naturacosmeticos/natds-styles": "^0.11.3-alpha.DSY-1226.0",
-    "@naturacosmeticos/natds-web": "^0.11.3-alpha.DSY-1226.0",
+    "@naturacosmeticos/natds-icons": "^0.12.2",
+    "@naturacosmeticos/natds-styles": "^0.12.2",
+    "@naturacosmeticos/natds-web": "^0.12.2",
     "directory-tree": "2.2.4",
     "fuzzy-search": "3.2.1",
     "react": "16.13.1",

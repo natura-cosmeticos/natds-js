@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-web",
   "displayName": "NatDS React Web",
   "description": "A collection of components from Natura Design System for React websites and webapps",
-  "version": "0.11.3-alpha.DSY-1226.0",
+  "version": "0.12.2",
   "private": false,
   "keywords": [
     "design-system",
@@ -66,8 +66,8 @@
     "@material-ui/icons": "4.9.1",
     "@material-ui/lab": "4.0.0-alpha.56",
     "@material-ui/pickers": "3.2.10",
-    "@naturacosmeticos/natds-icons": "^0.11.3-alpha.DSY-1226.0",
-    "@naturacosmeticos/natds-styles": "^0.11.3-alpha.DSY-1226.0",
+    "@naturacosmeticos/natds-icons": "^0.12.2",
+    "@naturacosmeticos/natds-styles": "^0.12.2",
     "clsx": "1.1.1",
     "lodash": "4.17.19",
     "react-text-mask": "5.4.3",
@@ -75,7 +75,7 @@
   },
   "devDependencies": {
     "@rollup/plugin-babel": "5.1.0",
-    "@rollup/plugin-commonjs": "13.0.1",
+    "@rollup/plugin-commonjs": "14.0.0",
     "@rollup/plugin-node-resolve": "8.4.0",
     "@rollup/plugin-typescript": "5.0.2",
     "@types/chai": "4.2.11",
@@ -107,8 +107,8 @@
     "rollup-plugin-node-polyfills": "0.2.1",
     "sinon": "9.0.2",
     "snyk": "^1.341.1",
-    "ts-jest": "26.1.2",
-    "typescript": "3.9.6",
+    "ts-jest": "26.1.3",
+    "typescript": "3.9.7",
     "yarn": "1.22.4"
   },
   "peerDependencies": {

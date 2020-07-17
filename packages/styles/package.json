@@ -1,7 +1,7 @@
 {
   "name": "@naturacosmeticos/natds-styles",
   "displayName": "Styles",
-  "version": "0.11.3-alpha.DSY-1226.0",
+  "version": "0.12.2",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "typings": "dist/index.d.ts",
@@ -43,8 +43,8 @@
     "jest": "26.1.0",
     "sass": "1.26.10",
     "snyk": "^1.341.1",
-    "ts-jest": "26.1.2",
-    "typescript": "3.9.6",
+    "ts-jest": "26.1.3",
+    "typescript": "3.9.7",
     "yarn": "1.22.4"
   },
   "publishConfig": {

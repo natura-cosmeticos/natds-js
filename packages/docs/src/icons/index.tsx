@@ -5,10 +5,10 @@ import { TextField } from '@naturacosmeticos/natds-web';
 import './styles.scss';
 
 export interface IIconDisplayItem {
-  name?: string;
-  iconName?: string;
   category?: string;
   icon?: any;
+  iconName?: string;
+  name?: string;
 }
 
 export interface IIconDisplayProps {
@@ -19,11 +19,11 @@ export interface IIconDisplayProps {
 
 export default function IconDisplay(props: IIconDisplayProps) {
   const { iconList, itemsPerRow, title } = props;
-  const buildedList = iconList.reduce(buildConfigItem, []);
+  const builtList = iconList.reduce(buildConfigItem, []);
   const [query, setQuery] = React.useState("");
-  const searcher = new FuzzySearch(buildedList, ['name', 'category']);
+  const searcher = new FuzzySearch(builtList, ['name', 'category']);
 
-  const onSearch = (event) => {
+  const onSearch = (event: { target: { value: React.SetStateAction<string>; }; }) => {
     setQuery(event.target.value);
   };
 
@@ -55,7 +55,7 @@ function emptyList() {
   );
 }
 
-function buildListItem(props: IIconDisplayItem, key: number) {
+function buildListItem(this: any, props: IIconDisplayItem, key: number) {
   const { itemsPerRow = 'auto' } = this;
   return props.category ? BuildCategory(props, key) : BuildItem(props, key, itemsPerRow);
 }
@@ -69,6 +69,11 @@ function BuildCategory({ category }: IIconDisplayItem, key: number) {
 }
 
 function BuildItem({ name, icon, iconName }: IIconDisplayItem, key: number, itemsPerRow: string) {
+
+  /**
+   * @todo fix(docs): TS2363 - The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
+   */
+  // @ts-ignore
   const styles = itemsPerRow === 'auto' ? {} : { flexBasis: `${100 / itemsPerRow}%` };
 
   return (

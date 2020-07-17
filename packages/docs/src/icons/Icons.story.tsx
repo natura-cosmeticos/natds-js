@@ -18,10 +18,20 @@ export default {
 const outlined = getListByType('outlined');
 const filled = getListByType('filled');
 
+/**
+ * @constructor
+ * @todo fix(docs): TS2322 - Type 'string[]' is not assignable to type 'IIconDisplayItem[]' on iconList prop
+ */
 export const Outlined = () => (
+  // @ts-ignore
   <IconDisplay iconList={outlined} itemsPerRow={6} title="Outlined" />
 );
 
+/**
+ * @constructor
+ * @todo fix(docs): TS2322 - Type 'string[]' is not assignable to type 'IIconDisplayItem[]' on iconList prop
+ */
 export const Filled = () => (
+  // @ts-ignore
   <IconDisplay iconList={filled} itemsPerRow={6} title="Filled" />
 );

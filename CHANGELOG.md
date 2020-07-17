@@ -3,6 +3,61 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.12.2](https://github.com/natura-cosmeticos/natds/compare/v0.12.1...v0.12.2) (2020-07-16)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.12.1](https://github.com/natura-cosmeticos/natds/compare/v0.12.0...v0.12.1) (2020-07-16)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+# [0.12.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.0-alpha.DSY-1075.0...v0.12.0) (2020-07-15)
+
+
+### Bug Fixes
+
+* **icons:** update generated `natds-icons` font files ([2eacab5](https://github.com/natura-cosmeticos/natds/commit/2eacab5565f0b8f738de8d7fd8ad19a4efa05179))
+
+
+
+# [0.12.0-alpha.DSY-1081.0](https://github.com/natura-cosmeticos/natds/compare/v0.11.3...v0.12.0-alpha.DSY-1081.0) (2020-07-13)
+
+
+### Features
+
+* add `outlined-place-rocket` and `outlined-place-runningtruck` icons ([d8f0cc9](https://github.com/natura-cosmeticos/natds/commit/d8f0cc90a51e527798975a83cf839c280a6daf49))
+
+
+
+## [0.11.3](https://github.com/natura-cosmeticos/natds/compare/v0.11.3-alpha.DSY-1075.0...v0.11.3) (2020-07-13)
+
+
+
+## [0.11.3-alpha.DSY-1081.0](https://github.com/natura-cosmeticos/natds/compare/v0.11.2...v0.11.3-alpha.DSY-1081.0) (2020-07-13)
+
+
+
+
+
+## [0.11.3](https://github.com/natura-cosmeticos/natds/compare/v0.11.2...v0.11.3) (2020-07-13)
+
+
+### Bug Fixes
+
+* fix typo on postinstall script ([dcbe71b](https://github.com/natura-cosmeticos/natds/commit/dcbe71bd280eb608b60244d7a9b3bad2cb1c48d3))
+
+
+
+
+
 ## [0.11.2](https://github.com/natura-cosmeticos/natds/compare/v0.11.1...v0.11.2) (2020-07-13)
 
 **Note:** Version bump only for package natds
