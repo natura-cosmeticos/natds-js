@@ -37,6 +37,17 @@ module.exports = {
     },
     {
       "files": [
+        "packages/docs/addons/ComponentWithLabel/index.tsx",
+        "packages/docs/src/components/Badge/Badge.story.tsx",
+        "packages/docs/src/components/Buttons/ButtonGroup/ButtonGroup.story.tsx",
+        "packages/docs/src/components/Link/sections.tsx",
+        "packages/docs/src/components/List/Interactive.tsx",
+        "packages/docs/src/components/Popover/Popover.story.tsx",
+        "packages/docs/src/components/Popover/sections.tsx",
+        "packages/docs/src/components/Tab/Interactive.tsx",
+        "packages/docs/src/components/Tab/sections.tsx",
+        "packages/docs/src/icons/Icons.story.tsx",
+        "packages/docs/src/icons/index.tsx",
         "packages/styles/src/themes/theBodyShop/the-body-shop-dark.ts",
         "packages/styles/src/themes/theBodyShop/the-body-shop-light.ts",
         "packages/web/src/__tests__/index.spec.tsx",
@@ -80,8 +91,6 @@ module.exports = {
         "no-empty-function": ["off"],
         "no-return-assign": ["off"],
         "no-undefined": ["off"],
-        "require-unicode-regexp": ["off"],
-        "sort-keys": ["off"],
         "sort-vars": ["off"]
       }
     },
@@ -106,6 +115,36 @@ module.exports = {
       "files": ["packages/icons/src/natds-icons.css.d.ts"],
       "rules": {
         "newline-after-var": ["off"]
+      }
+    },
+    {
+      "files": ["packages/docs/**/*.{js,jsx,ts,tsx}"],
+      "rules": {
+        "@typescript-eslint/explicit-module-boundary-types": ["off"],
+        "@typescript-eslint/no-explicit-any": ["off"],
+        "@typescript-eslint/no-empty-function": ["off"],
+        "@typescript-eslint/no-unused-vars": ["off"],
+
+        /**
+         * @todo fix(docs): re-enable `global-require` and replace unexpected require() by a valid image reference
+         */
+        "global-require": ["off"],
+        "max-len": [
+          "error",
+          250
+        ],
+        "max-lines-per-function": [
+          "error",
+          107
+        ],
+        "no-empty-function": ["off"],
+        "no-magic-numbers": ["off"],
+        "no-undefined": ["off"],
+        "no-use-before-define": ["off"],
+        "react/display-name": ["off"],
+        "react/no-children-prop": ["off"],
+        "react/prop-types": ["off"],
+        "require-jsdoc": ["off"]
       }
     }
   ],
@@ -340,13 +379,13 @@ module.exports = {
     "require-atomic-updates": "error",
     "require-await": "error",
     "require-jsdoc": "error",
-    "require-unicode-regexp": "error",
+    "require-unicode-regexp": ["off"],
     "rest-spread-spacing": "error",
     "semi": "error",
     "semi-spacing": "error",
     "semi-style": "error",
     "sort-imports": "off",
-    "sort-keys": "error",
+    "sort-keys": "off",
     "sort-vars": "off",
     "space-before-blocks": "error",
     "space-before-function-paren": "error",
