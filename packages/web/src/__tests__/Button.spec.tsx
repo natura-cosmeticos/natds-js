@@ -12,16 +12,19 @@ describe('Button component', () => {
   describe('rendering sizes', () => {
     test('should match snapshot - Size Small', () => {
       const component = renderer.create(<Button size="small">{label}</Button>).toJSON();
+
       expect(component).matchSnapshot('Small Button snapshot');
     });
 
     test('should match snapshot - Size Medium', () => {
       const component = renderer.create(<Button size="medium">{label}</Button>).toJSON();
+
       expect(component).matchSnapshot('Medium Button snapshot');
     });
 
     test('should match snapshot - Size Large', () => {
       const component = renderer.create(<Button size="large">{label}</Button>).toJSON();
+
       expect(component).matchSnapshot('Large Button snapshot');
     });
   });
@@ -48,8 +51,8 @@ describe('Button component', () => {
 
   describe('interaction', () => {
     test('should call onClick', () => {
-      const mockOnClick = spy();
-      const component = shallow(<Button onClick={mockOnClick} />);
+      const mockOnClick = spy(),
+        component = shallow(<Button onClick={mockOnClick} />);
 
       component.simulate('click');
 

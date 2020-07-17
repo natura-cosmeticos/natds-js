@@ -10,14 +10,8 @@ export type ITextFieldProps = TextFieldProps & IInputStateHelpTextProviderProps;
 
 type ITextFieldPropsWithoutTheme = Omit<ITextFieldProps, 'theme'>;
 
-export const TextField: FunctionComponent<ITextFieldPropsWithoutTheme> = forwardRef(
-  (props: ITextFieldProps, ref: any) => {
-    return (
-      <InputStateHelpTextProvider {...props}>
-        <Field {...props} ref={ref} />
-      </InputStateHelpTextProvider>
-    );
-  }
-);
+export const TextField: FunctionComponent<ITextFieldPropsWithoutTheme> = forwardRef((props: ITextFieldProps, ref: any) => <InputStateHelpTextProvider {...props}>
+  <Field {...props} ref={ref} />
+</InputStateHelpTextProvider>);
 
 export default withTheme(TextField);

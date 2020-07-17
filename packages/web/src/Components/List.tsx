@@ -6,8 +6,6 @@ export { ListProps as IListProps } from '@material-ui/core/List';
 const List: FunctionComponent<IListProps> = forwardRef((
   props: IListProps,
   ref: any
-) => (
-  <MaterialList {...props} ref={ref} />
-));
+) => <MaterialList {...props} ref={ref} />);
 
 export default withTheme(List);

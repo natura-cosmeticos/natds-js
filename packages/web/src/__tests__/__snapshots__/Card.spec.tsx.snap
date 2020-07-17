@@ -160,7 +160,7 @@ exports[`Card components rendering variants should match to snapshot - with acti
                             tabIndex={0}
                             type="button"
                           >
-                            Lorem Ipsum
+                            Card action area test text
                             <span
                               className="MuiCardActionArea-focusHighlight"
                             />
@@ -357,7 +357,7 @@ exports[`Card components rendering variants should match to snapshot - with acti
                                       <span
                                         className="MuiButton-label"
                                       >
-                                        Action
+                                        Button action text
                                       </span>
                                       <WithStyles(memo)
                                         center={false}
@@ -683,7 +683,7 @@ exports[`Card components rendering variants should match to snapshot - with cont
                             <p
                               className="MuiTypography-root MuiTypography-body1"
                             >
-                              Content
+                              Content text
                             </p>
                           </ForwardRef(Typography)>
                         </WithStyles(ForwardRef(Typography))>
@@ -987,7 +987,7 @@ exports[`Card components rendering variants should match to snapshot - with medi
                         className="MuiCardMedia-root"
                         title="media image"
                       >
-                        image here
+                        Card media image placeholder
                       </div>
                     </ForwardRef(CardMedia)>
                   </WithStyles(ForwardRef(CardMedia))>

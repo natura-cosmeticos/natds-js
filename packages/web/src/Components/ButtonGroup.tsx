@@ -4,10 +4,8 @@ import MaterialButtonGroup, { ButtonGroupProps as IButtonGroupProps } from '@mat
 export { ButtonGroupProps as IButtonGroupProps } from '@material-ui/core/ButtonGroup';
 
 export const ButtonGroup: FunctionComponent<IButtonGroupProps> = forwardRef((
-  props: IButtonGroupProps, 
+  props: IButtonGroupProps,
   ref: any
-) => (
-  <MaterialButtonGroup {...props} ref={ref} />
-));
+) => <MaterialButtonGroup {...props} ref={ref} />);
 
 export default withTheme(ButtonGroup);

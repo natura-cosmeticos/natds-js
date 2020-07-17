@@ -6,8 +6,6 @@ export { BadgeProps as IBadgeProps } from '@material-ui/core/Badge';
 export const Badge: FunctionComponent<IBadgeProps> = forwardRef((
   props: IBadgeProps,
   ref: any
-) => (
-  <MaterialBadge {...props} ref={ref} />
-));
+) => <MaterialBadge {...props} ref={ref} />);
 
 export default withTheme(Badge);

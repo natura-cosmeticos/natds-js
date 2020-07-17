@@ -1,6 +1,6 @@
-import * as React from "react";
-import {FabProps} from "@material-ui/core/Fab";
-import {IThemeWeb} from "../../Themes";
+import * as React from 'react';
+import {FabProps} from '@material-ui/core/Fab';
+import {IThemeWeb} from '../../Themes';
 
 type IFabColor = 'primary' | 'secondary' | 'light';
 
@@ -16,11 +16,13 @@ export interface IFabProps extends React.HtmlHTMLAttributes<HTMLButtonElement>, 
   | 'children'
   | 'disabled'
   > {
+
   /**
    * @optional
    * The color of the component
    */
   color?: IFabColor;
+
   /**
    * @optional
    */

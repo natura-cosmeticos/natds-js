@@ -5,8 +5,6 @@ export { GridProps as IGridContainerProps } from '@material-ui/core/Grid';
 export const GridContainer: FunctionComponent<IGridContainerProps> = forwardRef((
   props: IGridContainerProps,
   ref: any
-) => (
-  <MaterialGrid {...props} container ref={ref} />
-));
+) => <MaterialGrid {...props} container ref={ref} />);
 
 export default GridContainer;

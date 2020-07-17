@@ -1,13 +1,15 @@
 import React, { FunctionComponent, forwardRef } from 'react';
 import { PopperPlacementType, withTheme } from '@material-ui/core';
 import MaterialPopper, {
-  PopperProps as IPopperProps,
+  PopperProps as IPopperProps
 } from '@material-ui/core/Popper';
 
 import styled from 'styled-components';
 import { IThemeWeb } from 'Themes';
 import { getDefaultTheme } from './shared';
-import { Paper, Typography, Link, ILinkProps } from '../';
+import Link, {ILinkProps} from '../Components/Link';
+import Paper from '../Components/Paper';
+import Typography from '../Components/Typography';
 
 interface IActionLink extends Omit<ILinkProps, 'theme'> {
   text: string;
@@ -28,14 +30,17 @@ export interface IPopoverProps extends Omit<IPopperProps, 'placement'> {
 }
 
 const getActionLink = (actionLink?: IActionLink) => {
+
   /**
    * @todo Fix `no-unused-expression` detected by tslint
    */
   // tslint:disable-next-line:no-unused-expression
   if (actionLink) {
     const { text, ...props } = actionLink;
+
+
     return (
-      actionLink && (
+      actionLink &&
         <Link
           {...props}
           variant="body2"
@@ -43,68 +48,82 @@ const getActionLink = (actionLink?: IActionLink) => {
         >
           {text}
         </Link>
-      )
+
     );
   }
+
   return null;
 };
 
-export const Popover: FunctionComponent<IPopoverProps> = forwardRef(
-  (props: IPopoverProps, ref: any) => {
-    const {
+export const Popover: FunctionComponent<IPopoverProps> = forwardRef((props: IPopoverProps, ref: any) => {
+  const {
+      actionLink,
       children,
       component,
-      theme: providerTheme,
-      modifiers,
-      actionLink,
       direction = 'bottom',
+      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      modifiers,
+      'theme': providerTheme,
       ...rest
-    } = props;
-    const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [
-      providerTheme,
-    ]);
-    const [arrowRef, setArrowRef] = React.useState<HTMLSpanElement | null>(
-      null
-    );
+    } = props,
+    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
+    [
+      arrowRef,
+      setArrowRef
+    ] = React.useState<HTMLSpanElement | null>(null);
 
-    return (
-      <StyledPopper
-        as={component}
-        theme={theme}
-        ref={ref}
-        modifiers={{
-          flip: {
-            enabled: true,
-          },
-          arrow: {
-            enabled: true,
-            element: arrowRef,
-          },
-          preventOverflow: {
-            enabled: true,
-            boundariesElement: 'scrollParent',
-          },
-        }}
-        placement={direction}
-        {...rest}
-      >
-        <span className="arrow" ref={setArrowRef} />
-        <Paper elevation={12} variant="elevation" className="popover-container">
-          <Typography variant="body2">{children}</Typography>
-          {getActionLink(actionLink)}
-        </Paper>
-      </StyledPopper>
-    );
-  }
-);
+  return (
+    <StyledPopper
+      as={component}
+      theme={theme}
+      ref={ref}
+      modifiers={{
+        'arrow': {
+          'element': arrowRef,
+          'enabled': true
+        },
+        'flip': {
+          'enabled': true
+        },
+        'preventOverflow': {
+          'boundariesElement': 'scrollParent',
+          'enabled': true
+        }
+      }}
+      placement={direction}
+      {...rest}
+    >
+      <span className="arrow" ref={setArrowRef} />
+      <Paper elevation={12} variant="elevation" className="popover-container">
+        <Typography variant="body2">{children}</Typography>
+        {getActionLink(actionLink)}
+      </Paper>
+    </StyledPopper>
+  );
+});
 
 export default withTheme(Popover);
+
+/**
+ * @todo refactor(web): replace magic number 1 by spacing token
+ */
+const THEME_SPACING_1 = 1;
+
+/**
+ * @todo refactor(web): replace magic number 2 by spacing token
+ */
+const THEME_SPACING_2 = 2;
+
+/**
+ * @todo refactor(web): replace magic number 3 by breakpoint or sizing token
+ */
+const DEFAULT_POPOVER_CONTAINER_MAX_WIDTH = 380;
 
 const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb, maxWidth: number }>`
   && {
     z-index: 1;
     &[x-placement*='bottom'] {
-      margin-top: ${({ theme }) => theme.spacing(1)}px;
+      margin-top: ${({ theme }) => theme.spacing(THEME_SPACING_1)}px;
       & .arrow {
         width: 3em;
         height: 1em;
@@ -113,13 +132,12 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb, maxWidth: number
         &:before {
           margin-left: 3px;
           border-width: 0 1em 1em 1em;
-          border-color: ${({ theme }) =>
-            `transparent transparent ${theme.palette.background.paper} transparent`};
+          border-color: ${({ theme }) => `transparent transparent ${theme.palette.background.paper} transparent`};
         }
       }
     }
     &[x-placement*='top'] {
-      margin-bottom: ${({ theme }) => theme.spacing(1)}px;
+      margin-bottom: ${({ theme }) => theme.spacing(THEME_SPACING_1)}px;
       & .arrow {
         bottom: 0;
         width: 3em;
@@ -129,13 +147,12 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb, maxWidth: number
         &:before {
           margin-left: 3px;
           border-width: 1em 1em 0 1em;
-          border-color: ${({ theme }) =>
-            `${theme.palette.background.paper} transparent transparent transparent`};
+          border-color: ${({ theme }) => `${theme.palette.background.paper} transparent transparent transparent`};
         }
       }
     }
     &[x-placement*='right'] {
-      margin-left: ${({ theme }) => theme.spacing(1)}px;
+      margin-left: ${({ theme }) => theme.spacing(THEME_SPACING_1)}px;
       & .arrow {
         left: 0;
         width: 1em;
@@ -145,13 +162,12 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb, maxWidth: number
         &:before {
           margin-top: 3px;
           border-width: 1em 1em 1em 0;
-          border-color: ${({ theme }) =>
-            `transparent ${theme.palette.background.paper} transparent transparent`};
+          border-color: ${({ theme }) => `transparent ${theme.palette.background.paper} transparent transparent`};
         }
       }
     }
     &[x-placement*='left'] {
-      margin-right: ${({ theme }) => theme.spacing(1)}px;
+      margin-right: ${({ theme }) => theme.spacing(THEME_SPACING_1)}px;
       & .arrow {
         right: 0;
         width: 1em;
@@ -161,8 +177,7 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb, maxWidth: number
         &:before {
           margin-top: 3px;
           border-width: 1em 0 1em 1em;
-          border-color: ${({ theme }) =>
-            `transparent transparent transparent ${theme.palette.background.paper}`};
+          border-color: ${({ theme }) => `transparent transparent transparent ${theme.palette.background.paper}`};
         }
       }
     }
@@ -183,13 +198,13 @@ const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb, maxWidth: number
     }
 
     .popover-container {
-      max-width: ${({ maxWidth }) => maxWidth || 380}px;
-      padding: ${({ theme }) => theme.spacing(2)}px;
+      max-width: ${({ maxWidth }) => maxWidth || DEFAULT_POPOVER_CONTAINER_MAX_WIDTH}px;
+      padding: ${({ theme }) => theme.spacing(THEME_SPACING_2)}px;
     }
 
     .popover-action-link {
       display: inline-block;
-      padding-top: ${({ theme }) => theme.spacing(1)}px;
+      padding-top: ${({ theme }) => theme.spacing(THEME_SPACING_1)}px;
     }
   }
 `;

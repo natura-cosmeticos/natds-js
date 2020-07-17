@@ -8,6 +8,8 @@ const MenuItem: FunctionComponent<IMenuItemProps> = forwardRef((
   ref: any
 ) => {
   const { button } = props;
+
+
   return (
     <MaterialMenuItem
       {...props}

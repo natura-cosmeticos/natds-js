@@ -6,8 +6,6 @@ export { ToolbarProps as IToolbarProps } from '@material-ui/core/Toolbar';
 const Toolbar: FunctionComponent<IToolbarProps> = forwardRef((
   props: IToolbarProps,
   ref: any
-) => (
-  <MaterialToolbar {...props} ref={ref} />
-));
+) => <MaterialToolbar {...props} ref={ref} />);
 
 export default withTheme(Toolbar);

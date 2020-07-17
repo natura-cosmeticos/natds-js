@@ -6,8 +6,6 @@ export { LinearProgressProps as ILinearProgressProps } from '@material-ui/core/L
 export const LinearProgress: FunctionComponent<Omit<ILinearProgressProps, 'translate'>> = forwardRef((
   props: Omit<ILinearProgressProps, 'translate'>,
   ref: any
-) => (
-  <MaterialLinearProgress {...props} ref={ref} />
-));
+) => <MaterialLinearProgress {...props} ref={ref} />);
 
 export default withTheme(LinearProgress);

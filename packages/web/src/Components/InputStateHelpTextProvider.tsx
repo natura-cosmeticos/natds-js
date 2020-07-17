@@ -4,7 +4,7 @@ import { ITheme, tokens } from '@naturacosmeticos/natds-styles';
 import ErrorIcon from '@material-ui/icons/HighlightOffOutlined';
 import SuccessIcon from '@material-ui/icons/CheckCircleOutline';
 
-import { getProp, getColorByState, stateStyles } from './TextField/shared';
+import { getColorByState, getProp, stateStyles } from './TextField/shared';
 
 export interface IInputStateHelpTextProviderProps {
   id?: string;
@@ -19,40 +19,38 @@ export interface IInputStateHelpTextProviderProps {
   readOnly?: boolean;
 }
 
-export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextProviderProps> = (
-  props: IInputStateHelpTextProviderProps
-) => {
+export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextProviderProps> = (props: IInputStateHelpTextProviderProps) => {
   const {
-    id,
-    label,
-    helpText,
-    theme,
-    required = false,
-    disabled = false,
-    state,
-    className,
-    children,
-    readOnly = false,
-  } = props;
+      id,
+      label,
+      helpText,
+      theme,
+      required = false,
+      disabled = false,
+      state,
+      className,
+      children,
+      readOnly = false
+    } = props,
 
-  const content = label && required ? `${label} *` : label;
-  const IconState = stateIcons[String(state)];
-  const stateIcon = IconState && <IconState theme={theme} />;
+    content = label && required ? `${label} *` : label,
+    IconState = stateIcons[String(state)],
+    stateIcon = IconState && <IconState theme={theme} />;
 
   return (
     <Container theme={theme} className={className}>
-      {content && (
+      {content &&
         <Label theme={theme} htmlFor={id} state={state} disabled={disabled}>
           {content}
         </Label>
-      )}
+      }
       {children}
-      {!readOnly && helpText && (
+      {!readOnly && helpText &&
         <HelpText theme={theme} state={state} disabled={disabled}>
           {stateIcon}
           {helpText}
         </HelpText>
-      )}
+      }
     </Container>
   );
 };
@@ -63,18 +61,18 @@ const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
   font-family: ${getProp('typography', 'fontFamily')};
-`;
+`,
 
-const Label = styled.label`
+  Label = styled.label`
   font-size: ${getProp('typography', 'subtitle2', 'fontSize')};
   font-weight: ${getProp('typography', 'subtitle2', 'fontWeight')};
   color: ${getColorByState(stateStyles.hover)};
   line-height: 1.2;
   padding: 0 0 ${tokens.spacing.spacingMicro}px;
   font-family: ${getProp('typography', 'subtitle2', 'fontFamily')};
-`;
+`,
 
-const HelpText = styled.span`
+  HelpText = styled.span`
   font-size: ${getProp('typography', 'caption', 'fontSize')};
   font-weight: ${getProp('typography', 'caption', 'fontWeight')};
   color: ${getColorByState(stateStyles.hover)};
@@ -83,23 +81,23 @@ const HelpText = styled.span`
   display: flex;
   align-items: center;
   font-family: ${getProp('typography', 'subtitle2', 'fontFamily')};
-`;
+`,
 
-const baseIcon = `
+  baseIcon = `
   width: 16px!important;
   height: 16px!important;
   margin-right: 4px;
-`;
+`,
 
-const IconError = styled(ErrorIcon)`
+  IconError = styled(ErrorIcon)`
   ${baseIcon}
-`;
+`,
 
-const IconSuccess = styled(SuccessIcon)`
+  IconSuccess = styled(SuccessIcon)`
   ${baseIcon}
-`;
+`,
 
-const stateIcons = {
-  error: IconError,
-  success: IconSuccess,
-};
+  stateIcons = {
+    'error': IconError,
+    'success': IconSuccess
+  };

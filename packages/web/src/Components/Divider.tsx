@@ -6,8 +6,6 @@ export { DividerProps as IDividerProps } from '@material-ui/core/Divider';
 export const Divider: FunctionComponent<Omit<IDividerProps, 'translate'>> = forwardRef((
   props: Omit<IDividerProps, 'translate'>,
   ref: any
-) => (
-  <MaterialDivider {...props} ref={ref} />
-));
+) => <MaterialDivider {...props} ref={ref} />);
 
 export default withTheme(Divider);

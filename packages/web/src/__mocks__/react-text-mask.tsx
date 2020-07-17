@@ -2,15 +2,20 @@ import * as React from 'react';
 import { MaskedInputProps } from 'react-text-mask';
 
 const mock = (props: MaskedInputProps) => {
-  const { render, ...otherProps } = props;
+  const { render, ...otherProps } = props,
 
-  const setRef = () => {
-    return;
-  };
+    /* tslint:disable-next-line:no-empty */
+    setRef = () => {
 
-  return props.render ?
-    props.render(setRef, { ...otherProps }) :
-    <input {...otherProps} />;
+    };
+
+  let result = <input {...otherProps} />;
+
+  if (props.render) {
+    result = props.render(setRef, { ...otherProps });
+  }
+
+  return result;
 };
 
 export default mock;

@@ -1,7 +1,7 @@
 import * as library from '../index';
 
-describe("Library", () => {
-  it("exports theme Provider", () => {
+describe('Library', () => {
+  it('exports theme Provider', () => {
     expect(library.Provider).toBeDefined();
   });
   const components = [
@@ -76,8 +76,9 @@ describe("Library", () => {
     'Tooltip',
     'Typography'
   ];
+
   // @ts-ignore
-  it.each(components)('exports %p component', component => {
+  it.each(components)('exports %p component', (component) => {
     expect(library[component]).toBeDefined();
   });
 });
