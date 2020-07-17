@@ -1,0 +1,12 @@
+.github
+.netlify
+coverage
+docs
+node_modules
+packages/*/.stryker-tmp
+packages/*/coverage
+packages/*/dist
+packages/*/node_modules
+packages/*/reports
+reports
+*.spec.tsx.snap
