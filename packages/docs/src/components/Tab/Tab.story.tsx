@@ -1,23 +1,29 @@
-import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/withContainer';
-import { TabContainer, TabItem } from '@naturacosmeticos/natds-web';
+import withJest from "@decorators/jest/jest";
+import withContainer from "@decorators/container/withContainer";
+import { TabContainer, TabItem } from "@naturacosmeticos/natds-web";
 
-import TabDocs from './Tab.docs.mdx';
+import TabDocs from "./Tab.docs.mdx";
 
 export default {
-  title: 'Components|Tab',
-  component: [TabContainer, TabItem],
-  decorators: [withJest(), withContainer],
-  parameters: {
-    jestImportPath: 'web',
-    jest: ['Tab'],
-    theme: {
-      context: 'web',
+  "title": "Components|Tab",
+  "component": [
+    TabContainer,
+    TabItem
+  ],
+  "decorators": [
+    withJest(),
+    withContainer
+  ],
+  "parameters": {
+    "jestImportPath": "web",
+    "jest": ["Tab"],
+    "theme": {
+      "context": "web"
     },
-    docs: {
-      page: TabDocs,
-    },
-  },
+    "docs": {
+      "page": TabDocs
+    }
+  }
 };
 
-export { Interactive } from './Interactive';
+export { Interactive } from "./Interactive";

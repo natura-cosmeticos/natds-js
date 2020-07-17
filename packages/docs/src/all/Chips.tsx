@@ -2,23 +2,19 @@ import * as React from "react";
 import { Chip, Icon } from "@naturacosmeticos/natds-web";
 import { useStyles } from "./styles";
 
-const WrappedChip = (props: any) => {
-  return (
-    <Chip
-      icon={<Icon name="filled-brand-naturarosacea" size="tiny" />}
-      label="Chip"
-      color={props.color}
-      variant={props.variant}
-      onDelete={() => {}}
-      clickable
-    />
-  );
-};
+const WrappedChip = (props: any) => <Chip
+  icon={<Icon name="filled-brand-naturarosacea" size="tiny" />}
+  label="Chip"
+  color={props.color}
+  variant={props.variant}
+  onDelete={() => {}}
+  clickable
+/>;
 
 export const WrappedChips = () => {
   const classes = useStyles();
 
-  return(
+  return (
     <div className={classes.container}>
       <div className={classes.chipContainer}>
         <WrappedChip color="default" variant="default" />

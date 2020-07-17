@@ -1,14 +1,14 @@
-import { makeDecorator } from '@storybook/addons';
-import { withTests } from '@storybook/addon-jest';
+import { makeDecorator } from "@storybook/addons";
+import { withTests } from "@storybook/addon-jest";
 
-import resultsWeb from '@packages/web/.jest-test-results.json';
+import resultsWeb from "@packages/web/.jest-test-results.json";
 
 export default makeDecorator({
-  name: 'withJest',
-  parameterName: 'jestImportPath',
-  wrapper: (getStory, context, { parameters }) => {
+  "name": "withJest",
+  "parameterName": "jestImportPath",
+  "wrapper": (getStory, context, { parameters }) => {
     const testResults = {
-      web: resultsWeb
+      "web": resultsWeb
     };
 
     const results = testResults[String(parameters)];

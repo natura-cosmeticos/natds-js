@@ -1,56 +1,59 @@
-import * as React from 'react';
+import * as React from "react";
 import {
   Snackbar,
   SnackbarContent,
   Typography,
   Icon,
   Button,
-  IconButton,
-} from '@naturacosmeticos/natds-web';
-import { makeStyles } from '@material-ui/core/styles';
-import { select, number } from '@storybook/addon-knobs';
+  IconButton
+} from "@naturacosmeticos/natds-web";
+import { makeStyles } from "@material-ui/core/styles";
+import { select, number } from "@storybook/addon-knobs";
 
 const colors: any = {
-  default: 'default',
-  error: 'error',
-  warning: 'warning',
-  success: 'success',
-  info: 'info',
+  "default": "default",
+  "error": "error",
+  "warning": "warning",
+  "success": "success",
+  "info": "info"
 };
 
 const rangeOptions: any = {
-  range: true,
-  min: 500,
-  max: 10000,
-  step: 500,
+  "range": true,
+  "min": 500,
+  "max": 10000,
+  "step": 500
 };
 
 const verticalAnchor: any = {
-  top: 'top',
-  bottom: 'bottom',
+  "top": "top",
+  "bottom": "bottom"
 };
 
 const horizontalAnchor: any = {
-  left: 'left',
-  right: 'right',
-  center: 'center',
+  "left": "left",
+  "right": "right",
+  "center": "center"
 };
 
 export const Interactive = () => {
-  const [isOpen, toggleOpen] = React.useState(false);
+  const [
+    isOpen,
+    toggleOpen
+  ] = React.useState(false);
 
   const handleClose = () => {
     toggleOpen(false);
   };
 
   const useStyles = makeStyles({
-    message: {
-      display: 'flex',
-      alignItems: 'center',
+    "message": {
+      "display": "flex",
+      "alignItems": "center"
     },
-    messageIcon: {
-      marginRight: '10px',
-    },
+    "messageIcon": {
+      "marginRight": "10px"
+    }
   });
 
   const classes = useStyles();
@@ -63,22 +66,22 @@ export const Interactive = () => {
       <Snackbar
         open={isOpen}
         anchorOrigin={{
-          vertical: select(
-            'anchorOrigin.vertical',
+          "vertical": select(
+            "anchorOrigin.vertical",
             verticalAnchor,
             verticalAnchor.bottom
           ),
-          horizontal: select(
-            'anchorOrigin.horizontal',
+          "horizontal": select(
+            "anchorOrigin.horizontal",
             horizontalAnchor,
             horizontalAnchor.left
-          ),
+          )
         }}
-        autoHideDuration={number('autoHideDuration', 2000, rangeOptions)}
+        autoHideDuration={number("autoHideDuration", 2000, rangeOptions)}
         onClose={handleClose}
       >
         <SnackbarContent
-          color={select('color', colors, colors.default)}
+          color={select("color", colors, colors.default)}
           action={
             <IconButton color="inherit" onClick={handleClose}>
               <Icon name="filled-action-cancel" size="tiny" />

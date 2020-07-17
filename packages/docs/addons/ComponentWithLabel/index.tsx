@@ -1,6 +1,6 @@
-import * as React from 'react';
+import * as React from "react";
 
-import './styles.scss';
+import "./styles.scss";
 
 export interface IComponentWithLabelItem {
   title?: string;
@@ -12,7 +12,7 @@ export interface IComponentWithLabelProps {
   itemsPerRow?: number;
 }
 
-export default function ComponentWithLabel(props: IComponentWithLabelProps) {
+const ComponentWithLabel = (props: IComponentWithLabelProps) => {
   const { componentList, itemsPerRow } = props;
 
   return (
@@ -20,11 +20,26 @@ export default function ComponentWithLabel(props: IComponentWithLabelProps) {
       {componentList.map(BuildComponentItem, { itemsPerRow })}
     </ul>
   );
-}
+};
 
-function BuildComponentItem({ title, component }: IComponentWithLabelItem, key: number) {
-  const { itemsPerRow = 'auto' }:any = this;
-  const styles = itemsPerRow === 'auto' ? {} : { flexBasis: `${100 / itemsPerRow}%` };
+export default ComponentWithLabel;
+
+/**
+ * @todo refactor(docs): convert to arrow function after removing invalid this
+ * @param title
+ * @param component
+ * @param key
+ * @constructor
+ */
+// eslint-disable-next-line func-style
+function BuildComponentItem ({ title, component }: IComponentWithLabelItem, key: number) {
+
+  /**
+   * @todo refactor(docs): remove unexpected/invalid this
+   */
+  // @ts-ignore
+  const { itemsPerRow = "auto" }:any = this;
+  const styles = itemsPerRow === "auto" ? {} : { "flexBasis": `${100 / itemsPerRow}%` };
 
   return (
     <li className="component__item" key={key} style={styles}>

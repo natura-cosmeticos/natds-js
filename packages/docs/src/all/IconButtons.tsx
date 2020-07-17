@@ -2,15 +2,11 @@ import * as React from "react";
 import { IconButton, Icon } from "@naturacosmeticos/natds-web";
 import { useStyles } from "./styles";
 
-const WrappedIconButton = (props: any) => {
-  return (
-    <IconButton
-      color={props.color}
-      size="medium"
-      children={<Icon size="tiny" name="outlined-social-network" />}
-    />
-  );
-};
+const WrappedIconButton = (props: any) => <IconButton
+  color={props.color}
+  size="medium"
+  children={<Icon size="tiny" name="outlined-social-network" />}
+/>;
 
 export const WrappedIconButtons = () => {
   const classes = useStyles();

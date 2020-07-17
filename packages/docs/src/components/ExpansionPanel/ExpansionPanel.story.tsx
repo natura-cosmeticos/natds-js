@@ -1,8 +1,8 @@
-import * as React from 'react';
-import { makeStyles } from '@material-ui/core/styles';
-import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/withContainer';
-import { boolean, number } from '@storybook/addon-knobs';
+import * as React from "react";
+import { makeStyles } from "@material-ui/core/styles";
+import withJest from "@decorators/jest/jest";
+import withContainer from "@decorators/container/withContainer";
+import { boolean, number } from "@storybook/addon-knobs";
 import {
   Button,
   Divider,
@@ -12,47 +12,50 @@ import {
   ExpansionPanelSummary,
   Icon,
   Typography
-} from '@naturacosmeticos/natds-web';
-import ExpansionPanelDocs from './ExpansionPanel.docs.mdx';
+} from "@naturacosmeticos/natds-web";
+import ExpansionPanelDocs from "./ExpansionPanel.docs.mdx";
 
 export default {
-  title: 'Components|ExpansionPanel',
-  component: ExpansionPanel,
-  decorators: [withJest(), withContainer],
-  parameters: {
-    jestImportPath: 'web',
-    jest: ['ExpansionPanel'],
-    theme: {
-      context: 'web'
+  "title": "Components|ExpansionPanel",
+  "component": ExpansionPanel,
+  "decorators": [
+    withJest(),
+    withContainer
+  ],
+  "parameters": {
+    "jestImportPath": "web",
+    "jest": ["ExpansionPanel"],
+    "theme": {
+      "context": "web"
     },
-    docs: {
-      page: ExpansionPanelDocs
+    "docs": {
+      "page": ExpansionPanelDocs
     }
   }
 };
 
-const useStyles = makeStyles(theme => ({
-  root: {
-    width: '920px',
+const useStyles = makeStyles((theme) => ({
+  "root": {
+    "width": "920px"
   },
-  row: {
-    flexFlow: 'row wrap',
+  "row": {
+    "flexFlow": "row wrap"
   },
-  title: {
-    flex: '2 1 0',
+  "title": {
+    "flex": "2 1 0"
   },
-  details: {
-    flex: '3 1 0',
+  "details": {
+    "flex": "3 1 0"
   },
-  rowTitle: {
-    marginBottom: '16px'
+  "rowTitle": {
+    "marginBottom": "16px"
   }
 }));
 
 export const Interactive = () => {
   const classes = useStyles();
-  const elevation = number('elevation', 0);
-  const disableSpacing = boolean('disableSpacing', false);
+  const elevation = number("elevation", 0);
+  const disableSpacing = boolean("disableSpacing", false);
 
   return (
     <div className={classes.root}>

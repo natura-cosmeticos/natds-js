@@ -1,50 +1,66 @@
-import React, { useEffect, useState, Fragment } from 'react';
-import { TabButton, WithTooltip, TooltipLinkList } from '@storybook/components';
-import { PARAM_KEY } from './shared';
+import React, { useEffect, useState, Fragment } from "react";
+import { TabButton, WithTooltip, TooltipLinkList } from "@storybook/components";
+import { PARAM_KEY } from "./shared";
 
-import readConfig from './readConfig';
+import readConfig from "./readConfig";
 
-import './styles.css';
+import "./styles.css";
 
-function errorReadingFile(e) {
-  console.log('Unable to get Package version list', e);
-}
+const errorReadingFile = (fileReadError) => {
+  // eslint-disable-next-line no-console
+  console.error("Unable to get Package version list", fileReadError);
+};
 
-function LocalhostWarning() {
-  return (
-    <h4 className="versions__warning">Versions don't work in localhost environments</h4>
-  )
-}
+// @todo refactor(docs): adopt <Typography /> instead of <h4 />
+const LocalhostWarning = () => <h4 className="versions__warning">Versions don&apos;t work in localhost environments</h4>;
 
-function changeVersion(version, name) {
-  console.log(version, name)
+
+const changeVersion = (version, name) => {
   const { origin, search } = window.location;
   const newPath = `${origin}/${name}/${version}/${search}`;
 
   window.location.href = newPath;
-}
+};
 
 const mapper = (list = []) => {
   const [{ versions = [], name } = {}] = list;
-  return versions.map((version) => ({ name, version }));
+
+
+  return versions.map((version) => ({ name,
+    version }));
 };
 
-export function Versions(props) {
+export const Versions = (props) => {
   const { disabled } = props.api.getCurrentParameter(PARAM_KEY) || {};
-  const [versions, setVersions] = useState([]);
-  const [currentVersion, setCurrentVersion] = useState(null);
-  const isLocal = window.location.hostname === 'localhost';
+  const [
+    versions,
+    setVersions
+  ] = useState([]);
+  const [
+    currentVersion,
+    setCurrentVersion
+  ] = useState(null);
+  const isLocal = window.location.hostname === "localhost";
 
+  // eslint-disable-next-line consistent-return
   useEffect(() => {
     if (isLocal) {
       return LocalhostWarning;
     }
 
-    readConfig().then(setVersions).catch(errorReadingFile);
+    readConfig().then(setVersions).
+      catch(errorReadingFile);
   }, []);
 
   useEffect(() => {
-    const currentVersionOnUrl = window.location.pathname.split('/')[2];
+
+    /**
+     * @todo refactor(style): use array destructuring
+     * @type {string}
+     */
+    // eslint-disable-next-line prefer-destructuring
+    const currentVersionOnUrl = window.location.pathname.split("/")[2];
+
     if (currentVersionOnUrl) {
       setCurrentVersion(currentVersionOnUrl);
     }
@@ -56,10 +72,17 @@ export function Versions(props) {
 
   const handleChange = ({ version, name }) => {
     changeVersion(version, name);
-    onHide();
-  }
 
-  if (disabled) return null;
+    /**
+     * @todo fix(styles): 'onHide' is not defined
+     */
+    // eslint-disable-next-line no-undef
+    onHide();
+  };
+
+  if (disabled) {
+    return null;
+  }
 
   const items = mapper(versions);
 
@@ -69,11 +92,10 @@ export function Versions(props) {
         placement="top"
         trigger="click"
         closeOnClick
-        tooltip={({ onHide }) => (
-          <TooltipLinkList
-            links={getDisplayedItems(items, handleChange, currentVersion)}
-          />
-        )}
+        tooltip={({ onHide }) => <TooltipLinkList
+          links={getDisplayedItems(items, handleChange, currentVersion)}
+        />
+        }
       >
         <TabButton
           key="Theme"
@@ -83,7 +105,7 @@ export function Versions(props) {
       </WithTooltip>
     </Fragment>
   );
-}
+};
 
 const getDisplayedItems = (list, onChange, selectedItem) => {
   if (!list.length) {
@@ -91,15 +113,15 @@ const getDisplayedItems = (list, onChange, selectedItem) => {
   }
 
   return [
-    ...list.map((params) =>
-      createItemProps(params, onChange, selectedItem)
-    ),
+    ...list.map((params) => createItemProps(params, onChange, selectedItem)
+    )
   ];
 };
 
 const createItemProps = ({ name, version }, onChange, selectedItem) => ({
-  id: `${name}-${version}`,
-  title: version,
-  active: selectedItem === version,
-  onClick: () => onChange({ name, version })
+  "id": `${name}-${version}`,
+  "title": version,
+  "active": selectedItem === version,
+  "onClick": () => onChange({ name,
+    version })
 });

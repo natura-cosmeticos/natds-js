@@ -2,16 +2,17 @@ import * as React from "react";
 import { TabContainer, TabItem, AppBar } from "@naturacosmeticos/natds-web";
 import { useStyles } from "./styles";
 
-const a11yProps = (index: any) => {
-  return {
-    id: `simple-tab-${index}`,
-    'aria-controls': `simple-tabpanel-${index}`,
-  };
-};
+const a11yProps = (index: any) => ({
+  "id": `simple-tab-${index}`,
+  "aria-controls": `simple-tabpanel-${index}`
+});
 
 const WrappedTab = (props: any) => {
   const classes = useStyles();
-  const [value, setValue] = React.useState(0);
+  const [
+    value,
+    setValue
+  ] = React.useState(0);
 
   const handleChange = (event: any, newValue: any) => {
     setValue(newValue);

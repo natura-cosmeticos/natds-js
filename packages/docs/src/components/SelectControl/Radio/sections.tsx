@@ -1,44 +1,44 @@
-import React from 'react';
-import { Radio } from '@naturacosmeticos/natds-web';
+import React from "react";
+import { Radio } from "@naturacosmeticos/natds-web";
 
 export const colors = [
   {
-    title: 'Primary',
-    component: (
+    "title": "Primary",
+    "component":
       <Radio color="primary" checked={true} />
-    ),
+
   },
   {
-    title: 'Secondary',
-    component: (
+    "title": "Secondary",
+    "component":
       <Radio color="secondary" checked={true} />
-    ),
+
   },
   {
-    title: 'Default',
-    component: (
+    "title": "Default",
+    "component":
       <Radio color="default" checked={true} />
-    ),
-  },
+
+  }
 ];
 
 export const attributes = [
   {
-    title: 'Enabled',
-    component: (
+    "title": "Enabled",
+    "component":
       <>
         <Radio checked={false} />
         <Radio checked />
       </>
-    ),
+
   },
   {
-    title: 'Disabled',
-    component: (
+    "title": "Disabled",
+    "component":
       <>
         <Radio disabled checked={false} />
         <Radio disabled checked />
       </>
-    ),
-  },
+
+  }
 ];

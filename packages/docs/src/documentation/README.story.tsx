@@ -1,42 +1,37 @@
-import * as React from 'react';
-import tokensParams from '../tokens/shared';
+import * as React from "react";
+import tokensParams from "../tokens/shared";
 
-import READMEDocs from './README.docs.mdx';
-import { Typography } from '@naturacosmeticos/natds-web';
+import READMEDocs from "./README.docs.mdx";
+import { Typography } from "@naturacosmeticos/natds-web";
 
 const styles = {
-  padding: '64px 20px',
-  maxWidth: '400px'
+  "padding": "64px 20px",
+  "maxWidth": "400px"
 };
 
-const container = (story: any) => (
-  <div style={styles}>
-    {story()}
-  </div>
-);
+const container = (story: any) => <div style={styles}>
+  {story()}
+</div>;
 
 export default {
-  title: 'Documentation|README',
-  parameters: {
-    docs: {
-      page: READMEDocs
+  "title": "Documentation|README",
+  "parameters": {
+    "docs": {
+      "page": READMEDocs
     },
     ...tokensParams,
-    theme: 'web',
+    "theme": "web"
   },
-  decorators: [
-    container
-  ]
+  "decorators": [container]
 };
 
-export const README = () => (
-  <>
-    <Typography variant="h5">
+export const README = () => <>
+  <Typography variant="h5">
       README
-    </Typography>
-    <Typography variant="body1">
+  </Typography>
+  <Typography variant="body1">
       Please, refer to the Docs tab above for the README information
-    </Typography>
-  </>
-);
+  </Typography>
+</>;
+
 
