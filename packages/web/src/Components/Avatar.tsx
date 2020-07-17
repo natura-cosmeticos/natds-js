@@ -40,20 +40,12 @@ export const Avatar: FunctionComponent<IAvatarProps> = forwardRef((
 
 const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
 
-    /**
-     * @todo Fix `no-unused-expression` detected by tslint
-     */
-    // tslint:disable-next-line:no-unused-expression
     if (!size) {
       return {};
     }
 
     const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
 
-    /**
-     * @todo Fix `no-unused-expression` detected by tslint
-     */
-    // tslint:disable-next-line:no-unused-expression
     if (!avatarSizes) {
       return {};
     }
@@ -70,10 +62,6 @@ const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
 
   withColors = (color: AvatarColors | undefined, theme: any = {}) => {
 
-    /**
-     * @todo Fix `no-unused-expression` detected by tslint
-     */
-    // tslint:disable-next-line:no-unused-expression
     if (!color) {
       return {};
     }
@@ -82,10 +70,6 @@ const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
 
       selectedColor = palette[color];
 
-    /**
-     * @todo Fix `no-unused-expression` detected by tslint
-     */
-    // tslint:disable-next-line:no-unused-expression
     if (!selectedColor || color === "default") {
       return {};
     }

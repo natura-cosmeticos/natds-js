@@ -28,16 +28,12 @@ describe("Popover component", () => {
    *https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Popper/Popper.js#L238
    */
 
-  // tslint:disable-next-line: no-console
   const originalConsoleError = console.error;
 
-  // tslint:disable-next-line:no-console
   afterEach(() => console.error = originalConsoleError);
 
-  // tslint:disable-next-line: no-empty
   const mockedConsoleError = () => {};
 
-  // tslint:disable-next-line:no-console
   beforeEach(() => console.error = mockedConsoleError);
 
   Object.keys(directions).forEach((direction: string) => {
