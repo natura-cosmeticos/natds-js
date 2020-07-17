@@ -26,9 +26,7 @@
   "scripts": {
     "build": "yarn clean && tsc -p ./tsconfig.json",
     "clean": "rm -rf dist",
-    "lint": "tslint 'src/**/*.{ts,tsx}'",
     "open:coverage": "open coverage/lcov-report/index.html",
-    "prebuild": "yarn lint",
     "prepare": "yarn snyk-protect",
     "pretest": "yarn build",
     "start": "yarn build --watch",
