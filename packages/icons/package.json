@@ -47,8 +47,6 @@
     "build:csstypes": "tcm -o src src",
     "build:fonts": "node ./scripts/svgToFont.js",
     "clean": "rm -rf dist && rm -rf src/assets/cleaned/* && rm -rf src/fonts/*",
-    "lint": "tslint 'src/**/*.{ts,tsx}'",
-    "prebuild": "yarn lint",
     "prepare": "yarn snyk-protect",
     "pretest": "yarn build:clean",
     "rollup:build": "rollup -c --verbose",
