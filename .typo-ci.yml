@@ -25,6 +25,7 @@ excluded_words:
   - cjs
   - date-fns
   - dedupe
+  - eqeqeq
   - feross
   - fileurl
   - filled
@@ -32,16 +33,45 @@ excluded_words:
   - filled-navigation
   - Fira
   - FiraCode-Retina
+  - function-paren-newline
   - Holowaychuk
+  - hugex
+  - hugexx
   - iml
   - Isonen
   - javascript-mutator
   - Kirollos
+  - largex
   - Lubbe
   - Lichtnow
   - Lucida
   - Lyrio
   - Matheus
+  - mediumx
+  - Mui
+  - MuiAlert
+  - MuiAlertTitle
+  - MuiAvatar
+  - MuiBadge
+  - MuiButton
+  - MuiButtonGroup
+  - MuiChip
+  - MuiExpansionPanel
+  - MuiExpansionPanelSummary
+  - MuiFormHelperText
+  - MuiFormLabel
+  - MuiListItem
+  - MuiIconButton
+  - MuiInputAdornment
+  - MuiInputBase
+  - MuiInputLabel
+  - MuiSelect
+  - MuiSvgIcon
+  - MuiTab
+  - MuiTextField
+  - MuiToolbar
+  - multiline-comment-style
+  - multiline-ternary
   - natds
   - natDsIcons
   - natdsIcons
@@ -53,6 +83,7 @@ excluded_words:
   - naturacosmeticos
   - naturarosacea
   - Nunito
+  - oga
   - outlined
   - outlined-action
   - outlined-action-lightoff
@@ -69,14 +100,20 @@ excluded_words:
   - preferBuiltins
   - Saraiva
   - Schlinkert
+  - semix
   - Sindre
   - Slobodskoi
   - Sorhus
+  - space-before-function-paren
+  - stryker
   - stryker-mutator
+  - stryker-tmp
   - tcm
   - Tiancheng
   - transpilers
   - typoci
   - Vagner
   - Vizir
+  - wav
+  - webfont
   - Zivolo
