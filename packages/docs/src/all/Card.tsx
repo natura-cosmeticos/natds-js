@@ -9,22 +9,20 @@ import {
   CardContent,
   CardHeader,
   CardMedia,
-  Collapse
+  Collapse,
 } from "@naturacosmeticos/natds-web";
 import clsx from "clsx";
 import { useStyles } from "./styles";
 
-
 const source: any = {
-  "avatar": require("../assets/images/1.png"),
-  "media": require("../assets/images/media.jpeg")
+  avatar: require("../assets/images/1.png"),
+  media: require("../assets/images/media.jpeg"),
 };
 
 export const WrappedCard = () => {
   const classes = useStyles();
   const [
-    expanded,
-    setExpanded
+    expanded, setExpanded,
   ] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -33,7 +31,7 @@ export const WrappedCard = () => {
 
   return (
     <div className={classes.container}>
-      <Card style={{ "maxWidth": 300 }}>
+      <Card style={{ maxWidth: 300 }}>
         <CardHeader
           avatar={<Avatar src={source.avatar} color="default" />}
           action={
@@ -45,7 +43,7 @@ export const WrappedCard = () => {
           subheader={<Typography variant="body2">Body 2</Typography>}
         />
         <CardMedia
-          style={{ "height": 184 }}
+          style={{ height: 184 }}
           image={source.media}
           title="media image"
         />
@@ -64,7 +62,7 @@ export const WrappedCard = () => {
           <IconButton aria-label="share" children={<Icon size="tiny" name="outlined-action-share" />} />
           <IconButton
             className={clsx(classes.expand, {
-              [classes.expandOpen]: expanded
+              [classes.expandOpen]: expanded,
             })}
             onClick={handleExpandClick}
             aria-expanded={expanded}

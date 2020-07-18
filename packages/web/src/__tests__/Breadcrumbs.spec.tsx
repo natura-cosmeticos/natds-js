@@ -2,7 +2,7 @@ import React from "react";
 import { mount } from "enzyme";
 import { expect } from "chai";
 
-import { Breadcrumbs, Link, Typography } from "../";
+import { Breadcrumbs, Link, Typography } from "..";
 
 const Component = () => <>
   <Breadcrumbs>

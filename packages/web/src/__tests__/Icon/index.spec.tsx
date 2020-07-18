@@ -30,7 +30,7 @@ describe("Icon component", () => {
   });
 
   test("should match snapshot - Any valid Icon with theme with undefined icon sizes", () => {
-    const component = renderer.create(<Icon name="filled-action-add" theme={{"iconSizes": {}}} />).toJSON();
+    const component = renderer.create(<Icon name="filled-action-add" theme={{iconSizes: {}}} />).toJSON();
 
     expect(component).matchSnapshot("Icon snapshot - valid Icon with theme with undefined icon sizes");
   });

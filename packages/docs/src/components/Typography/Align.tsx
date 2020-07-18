@@ -18,4 +18,3 @@ export const Align = () => <div className="typography__story__container">
     <Typography variant="h6" align="justify">Justified alignment</Typography>
   </div>
 </div>;
-

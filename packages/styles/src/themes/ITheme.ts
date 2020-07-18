@@ -4,8 +4,8 @@ import {
   IButtonSizes,
   IElevation,
   IIconSizes,
-  ISizes
-} from "../";
+  ISizes,
+} from "..";
 
 type ITypography = {
   fontFamily?: string;

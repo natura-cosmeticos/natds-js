@@ -2,6 +2,7 @@ import * as React from "react";
 import { mount } from "enzyme";
 import { expect } from "chai";
 
+import { Typography } from "@material-ui/core";
 import {
   Button,
   Card,
@@ -11,9 +12,8 @@ import {
   CardHeader,
   CardMedia,
   Collapse,
-  Paper
+  Paper,
 } from "..";
-import { Typography } from "@material-ui/core";
 
 describe("Card components", () => {
   describe("rendering variants", () => {

@@ -11,7 +11,7 @@ export interface ICustomIcon {
 
 export const CustomIcon: FunctionComponent<ICustomIcon> = (props: ICustomIcon) => {
   const { theme, icon, onIconPress } = props,
-    style = onIconPress ? { "cursor": "pointer" } : {};
+    style = onIconPress ? { cursor: "pointer" } : {};
 
   return (
     <ClearIconStyled

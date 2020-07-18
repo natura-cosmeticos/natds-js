@@ -1,4 +1,6 @@
-import React, { ComponentType, Dispatch, FunctionComponent, SetStateAction } from "react";
+import React, {
+  ComponentType, Dispatch, FunctionComponent, SetStateAction,
+} from "react";
 import styled from "styled-components";
 import VisibilityIcon from "@material-ui/icons/VisibilityOutlined";
 import VisibilityIconOff from "@material-ui/icons/VisibilityOffOutlined";
@@ -31,7 +33,7 @@ export const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPassw
       onTogglePasswordReveal,
       showing,
       showPasswordIcon = VisibilityIcon,
-      hidePasswordIcon = VisibilityIconOff
+      hidePasswordIcon = VisibilityIconOff,
     } = props,
 
     Component: ComponentType<any> = showing
@@ -47,4 +49,3 @@ export const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPassw
 };
 
 export default PasswordReveal;
-

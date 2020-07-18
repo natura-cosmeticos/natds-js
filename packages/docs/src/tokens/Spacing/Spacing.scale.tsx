@@ -11,14 +11,12 @@ const SpacingScale = (props: ISpacingScaleComponent) => <div className="spacing_
   {Object.entries(props.spacing).map(spacingBlock)}
 </div>;
 
-
 export default SpacingScale;
 
 const spacingBlock = ([
-  name,
-  value]: any[
+  name, value]: any[
 ], key: number) => {
-  const style = { "height": `${value}px` };
+  const style = { height: `${value}px` };
 
   return (
     <div className="spacing__scale__block" key={key}>

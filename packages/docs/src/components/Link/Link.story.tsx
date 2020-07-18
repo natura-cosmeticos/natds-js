@@ -6,28 +6,27 @@ import { select, text } from "@storybook/addon-knobs";
 import {
   colorList as colors,
   variantList as variants,
-  underlineList as underlines
+  underlineList as underlines,
 } from "./sections";
 
 import LinkDocs from "./Link.docs.mdx";
 
 export default {
-  "title": "Components|Link",
-  "component": Link,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Link",
+  component: Link,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Link"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Link"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": LinkDocs
-    }
-  }
+    docs: {
+      page: LinkDocs,
+    },
+  },
 };
 
 export const Interactive = () => <Link
@@ -38,4 +37,3 @@ export const Interactive = () => <Link
 >
   {text("text", "link")}
 </Link>;
-

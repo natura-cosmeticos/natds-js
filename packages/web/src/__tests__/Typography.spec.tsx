@@ -1,6 +1,6 @@
 import * as React from "react";
-import { Typography } from "../Components/Typography";
 import { mount } from "enzyme";
+import { Typography } from "../Components/Typography";
 
 describe("Typography Component", () => {
   test("It should use the default variant and pass children forward", () => {
@@ -29,7 +29,7 @@ describe("Typography Component", () => {
   });
 
   test("It should use provided classes", () => {
-    const component = mount(<Typography classes={{"h1": "teste"}} variant="h1">test</Typography>),
+    const component = mount(<Typography classes={{h1: "teste"}} variant="h1">test</Typography>),
 
       materialTypography = component.find("h1");
 

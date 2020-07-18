@@ -1,7 +1,8 @@
+/* eslint-disable max-lines */
 import React, { FunctionComponent, forwardRef } from "react";
 import { PopperPlacementType, withTheme } from "@material-ui/core";
 import MaterialPopper, {
-  PopperProps as IPopperProps
+  PopperProps as IPopperProps,
 } from "@material-ui/core/Popper";
 
 import styled from "styled-components";
@@ -33,10 +34,9 @@ const getActionLink = (actionLink?: IActionLink) => {
   if (actionLink) {
     const { text, ...props } = actionLink;
 
-
     return (
-      actionLink &&
-        <Link
+      actionLink
+        && <Link
           {...props}
           variant="body2"
           className="popover-action-link"
@@ -50,6 +50,7 @@ const getActionLink = (actionLink?: IActionLink) => {
   return null;
 };
 
+// @todo refactor(web): refactor Popover component
 export const Popover: FunctionComponent<IPopoverProps> = forwardRef((props: IPopoverProps, ref: any) => {
   const {
       actionLink,
@@ -58,13 +59,12 @@ export const Popover: FunctionComponent<IPopoverProps> = forwardRef((props: IPop
       direction = "bottom",
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       modifiers,
-      "theme": providerTheme,
+      theme: providerTheme,
       ...rest
     } = props,
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
     [
-      arrowRef,
-      setArrowRef
+      arrowRef, setArrowRef,
     ] = React.useState<HTMLSpanElement | null>(null);
 
   return (
@@ -73,17 +73,17 @@ export const Popover: FunctionComponent<IPopoverProps> = forwardRef((props: IPop
       theme={theme}
       ref={ref}
       modifiers={{
-        "arrow": {
-          "element": arrowRef,
-          "enabled": true
+        arrow: {
+          element: arrowRef,
+          enabled: true,
         },
-        "flip": {
-          "enabled": true
+        flip: {
+          enabled: true,
         },
-        "preventOverflow": {
-          "boundariesElement": "scrollParent",
-          "enabled": true
-        }
+        preventOverflow: {
+          boundariesElement: "scrollParent",
+          enabled: true,
+        },
       }}
       placement={direction}
       {...rest}

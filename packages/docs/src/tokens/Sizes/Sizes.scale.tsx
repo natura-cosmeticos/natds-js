@@ -6,7 +6,7 @@ interface ISizesScaleComponent {
   sizes: any;
 }
 
-export default function SizesScale (props: ISizesScaleComponent) {
+export default function SizesScale(props: ISizesScaleComponent) {
   return (
     <div className="sizes__scale">
       {Object.entries(props.sizes).map(sizeBlock)}
@@ -15,10 +15,9 @@ export default function SizesScale (props: ISizesScaleComponent) {
 }
 
 const sizeBlock = ([
-  name,
-  value]: any[
+  name, value]: any[
 ], key: number) => {
-  const style = { "width": `${value}px` };
+  const style = { width: `${value}px` };
 
   return (
     <div className="sizes__scale__block" key={key}>

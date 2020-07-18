@@ -1,7 +1,9 @@
 import * as React from "react";
 import withJest from "@decorators/jest/jest";
 import withContainer from "@decorators/container/withContainer";
-import { text, number, boolean, select } from "@storybook/addon-knobs";
+import {
+  text, number, boolean, select,
+} from "@storybook/addon-knobs";
 import { CircularProgress } from "@naturacosmeticos/natds-web";
 import { makeStyles } from "@material-ui/core/styles";
 import { PropTypes } from "@material-ui/core";
@@ -9,22 +11,21 @@ import { PropTypes } from "@material-ui/core";
 import CircularProgressDocs from "./CircularProgress.docs.mdx";
 
 export default {
-  "title": "Components|ProgressIndicator/CircularProgress",
-  "component": CircularProgress,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|ProgressIndicator/CircularProgress",
+  component: CircularProgress,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["CircularProgress"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["CircularProgress"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": CircularProgressDocs
-    }
-  }
+    docs: {
+      page: CircularProgressDocs,
+    },
+  },
 };
 
 const primary: PropTypes.Color = "primary";
@@ -34,13 +35,13 @@ const inherit: PropTypes.Color = "inherit";
 const colors: any = {
   primary,
   secondary,
-  "default": inherit
+  default: inherit,
 };
 
 const variants: any = {
-  "determinate": "determinate",
-  "indeterminate": "indeterminate",
-  "static": "static"
+  determinate: "determinate",
+  indeterminate: "indeterminate",
+  static: "static",
 };
 
 export const Interactive = () => <CircularProgress
@@ -61,8 +62,7 @@ export const CircularIndeterminate = () => <CircularProgress
 />;
 export const CircularDeterminate = () => {
   const [
-    progress,
-    setProgress
+    progress, setProgress,
   ] = React.useState(0);
 
   React.useEffect(() => {
@@ -72,7 +72,6 @@ export const CircularDeterminate = () => {
     };
 
     const timer = setInterval(tick, 20);
-
 
     return () => {
       clearInterval(timer);
@@ -94,17 +93,16 @@ export const CircularDeterminate = () => {
 
 export const CircularStatic = () => {
   const [
-    completed,
-    setCompleted
+    completed, setCompleted,
   ] = React.useState(0);
 
   const useStyles = makeStyles((theme) => ({
-    "root": {
-      "display": "flex",
+    root: {
+      display: "flex",
       "& > * + *": {
-        "marginLeft": theme.spacing(2)
-      }
-    }
+        marginLeft: theme.spacing(2),
+      },
+    },
   }));
 
   const classes = useStyles();
@@ -125,7 +123,6 @@ export const CircularStatic = () => {
     };
 
     const timer = setInterval(progress, 1000);
-
 
     return () => {
       clearInterval(timer);

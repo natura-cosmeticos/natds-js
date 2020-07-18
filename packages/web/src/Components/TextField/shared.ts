@@ -103,41 +103,41 @@ export interface IStateTypes {
 }
 
 export const stateStyles = {
-  "default": {
-    "borderWidth": "0 0 0 1px",
-    "key": "hint",
-    "type": "text"
+  default: {
+    borderWidth: "0 0 0 1px",
+    key: "hint",
+    type: "text",
   },
-  "disabled": {
-    "borderWidth": "0 0 0 1px",
-    "key": "hint",
-    "type": "text"
+  disabled: {
+    borderWidth: "0 0 0 1px",
+    key: "hint",
+    type: "text",
   },
-  "error": {
-    "borderWidth": "0 0 0 2px",
-    "key": "main",
-    "type": "error"
+  error: {
+    borderWidth: "0 0 0 2px",
+    key: "main",
+    type: "error",
   },
-  "filled": {
-    "borderWidth": "0 0 0 1px",
-    "key": "primary",
-    "type": "text"
+  filled: {
+    borderWidth: "0 0 0 1px",
+    key: "primary",
+    type: "text",
   },
-  "focus": {
-    "borderWidth": "0 0 0 2px",
-    "key": "main",
-    "type": "primary"
+  focus: {
+    borderWidth: "0 0 0 2px",
+    key: "main",
+    type: "primary",
   },
-  "hover": {
-    "borderWidth": "0 0 0 1px",
-    "key": "secondary",
-    "type": "text"
+  hover: {
+    borderWidth: "0 0 0 1px",
+    key: "secondary",
+    type: "text",
   },
-  "success": {
-    "borderWidth": "0 0 0 1px",
-    "key": "main",
-    "type": "success"
-  }
+  success: {
+    borderWidth: "0 0 0 1px",
+    key: "main",
+    type: "success",
+  },
 };
 
 export const getProp = (namespace: string, type: string, key?: string) => ({theme}: { theme?: any }) => {

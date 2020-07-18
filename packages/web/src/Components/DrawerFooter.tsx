@@ -12,9 +12,11 @@ export interface IDrawerFooterProps {
 
 export const DrawerFooter: FunctionComponent<IDrawerFooterProps> = forwardRef((
   props: IDrawerFooterProps,
-  ref: any
+  ref: any,
 ) => {
-  const { children, component, "theme": providerTheme, ...rest } = props,
+  const {
+      children, component, theme: providerTheme, ...rest
+    } = props,
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
   return (

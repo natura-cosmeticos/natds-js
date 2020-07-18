@@ -1,5 +1,7 @@
 import * as React from "react";
-import { AppBar, Toolbar, IconButton, Typography, Button, Icon } from "@naturacosmeticos/natds-web";
+import {
+  AppBar, Toolbar, IconButton, Typography, Button, Icon,
+} from "@naturacosmeticos/natds-web";
 import { makeStyles } from "@material-ui/core/styles";
 
 interface IAppBarWrapper {
@@ -8,19 +10,19 @@ interface IAppBarWrapper {
 }
 
 const AppBarWrapper = (props: IAppBarWrapper) => {
-  const { color, "elevation": elevationProp } = props;
+  const { color, elevation: elevationProp } = props;
 
   const useStyles = makeStyles((theme) => ({
-    "root": {
-      "flexGrow": 1,
-      "width": "500px"
+    root: {
+      flexGrow: 1,
+      width: "500px",
     },
-    "menuButton": {
-      "marginRight": theme.spacing(2)
+    menuButton: {
+      marginRight: theme.spacing(2),
     },
-    "title": {
-      "flexGrow": 1
-    }
+    title: {
+      flexGrow: 1,
+    },
   }));
 
   const classes = useStyles();
@@ -44,30 +46,30 @@ const AppBarWrapper = (props: IAppBarWrapper) => {
 
 export const colors = [
   {
-    "title": "default",
-    "component": <AppBarWrapper color="default" />
+    title: "default",
+    component: <AppBarWrapper color="default" />,
   },
   {
-    "title": "inherit",
-    "component": <AppBarWrapper color="inherit" />
+    title: "inherit",
+    component: <AppBarWrapper color="inherit" />,
   },
   {
-    "title": "primary",
-    "component": <AppBarWrapper color="primary" />
+    title: "primary",
+    component: <AppBarWrapper color="primary" />,
   },
   {
-    "title": "secondary",
-    "component": <AppBarWrapper color="secondary" />
-  }
+    title: "secondary",
+    component: <AppBarWrapper color="secondary" />,
+  },
 ];
 
 export const elevation = [
   {
-    "title": "Default elevation",
-    "component": <AppBarWrapper color="primary" />
+    title: "Default elevation",
+    component: <AppBarWrapper color="primary" />,
   },
   {
-    "title": "Elevation equals zero",
-    "component": <AppBarWrapper color="primary" elevation={0} />
-  }
+    title: "Elevation equals zero",
+    component: <AppBarWrapper color="primary" elevation={0} />,
+  },
 ];

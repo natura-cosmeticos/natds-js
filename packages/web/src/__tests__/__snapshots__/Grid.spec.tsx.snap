@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`GridContainer component should match to snapshot 1`] = `
+exports[`Grid components GridContainer component should match to snapshot 1`] = `
 <ForwardRef>
   <WithStyles(ForwardRef(Grid))
     container={true}
@@ -123,7 +123,7 @@ exports[`GridContainer component should match to snapshot 1`] = `
 </ForwardRef>
 `;
 
-exports[`GridItem component should match to snapshot 1`] = `
+exports[`Grid components GridItem component should match to snapshot 1`] = `
 <ForwardRef>
   <WithStyles(ForwardRef(Grid))
     item={true}

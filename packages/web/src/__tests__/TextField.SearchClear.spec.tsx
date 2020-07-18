@@ -3,22 +3,22 @@ import "jest-styled-components";
 import * as React from "react";
 import { assert, spy } from "sinon";
 
-import SearchClear from "../Components/TextField/SearchClear";
 import { expect } from "chai";
 import { shallow } from "enzyme";
 import { themes } from "@naturacosmeticos/natds-styles";
+import SearchClear from "../Components/TextField/SearchClear";
 
 const getProps = (props: any = {}) => {
   const {
     onClearSearch = spy(),
     searchIcon = () => <i />,
-    theme = themes.natura.light
+    theme = themes.natura.light,
   } = props;
 
   return {
     onClearSearch,
     searchIcon,
-    theme
+    theme,
   };
 };
 

@@ -3,60 +3,59 @@ import {
   AppBar,
   TabContainer,
   TabItem,
-  Icon
+  Icon,
 } from "@naturacosmeticos/natds-web";
 import { makeStyles } from "@material-ui/core/styles";
 import { boolean, select, number } from "@storybook/addon-knobs";
 
 const appBarColor: any = {
-  "default": "default",
-  "inherit": "inherit",
-  "primary": "primary",
-  "secondary": "secondary"
+  default: "default",
+  inherit: "inherit",
+  primary: "primary",
+  secondary: "secondary",
 };
 
 const tabContainerTextColor: any = {
-  "inherit": "inherit",
-  "primary": "primary",
-  "secondary": "secondary"
+  inherit: "inherit",
+  primary: "primary",
+  secondary: "secondary",
 };
 
 const tabContainerIndicatorColor: any = {
-  "secondary": "secondary",
-  "primary": "primary"
+  secondary: "secondary",
+  primary: "primary",
 };
 
 const tabContainerVariant: any = {
-  "standard": "standard",
-  "scrollable": "scrollable",
-  "fullWidth": "fullWidth"
+  standard: "standard",
+  scrollable: "scrollable",
+  fullWidth: "fullWidth",
 };
 
 const tabContainerScrollButtons: any = {
-  "auto": "auto",
-  "desktop": "desktop",
-  "on": "on",
-  "off": "off"
+  auto: "auto",
+  desktop: "desktop",
+  on: "on",
+  off: "off",
 };
 
 const a11yProps = (index: any) => ({
-  "id": `simple-tab-${index}`,
-  "aria-controls": `simple-tabpanel-${index}`
+  id: `simple-tab-${index}`,
+  "aria-controls": `simple-tabpanel-${index}`,
 });
 
 export const Interactive = () => {
   const useStyles = makeStyles((theme) => ({
-    "root": {
-      "flexGrow": 1,
-      "backgroundColor": theme.palette.background.paper,
-      "maxWidth": number("Container maxWidth", 640)
-    }
+    root: {
+      flexGrow: 1,
+      backgroundColor: theme.palette.background.paper,
+      maxWidth: number("Container maxWidth", 640),
+    },
   }));
 
   const classes = useStyles();
   const [
-    value,
-    setValue
+    value, setValue,
   ] = React.useState(0);
 
   const handleChange = (event: React.ChangeEvent<any>, newValue: number) => {
@@ -83,22 +82,22 @@ export const Interactive = () => {
           textColor={select(
             "TabContainer textColor",
             tabContainerTextColor,
-            tabContainerTextColor.inherit
+            tabContainerTextColor.inherit,
           )}
           indicatorColor={select(
             "TabContainer indicatorColor",
             tabContainerIndicatorColor,
-            tabContainerIndicatorColor.secondary
+            tabContainerIndicatorColor.secondary,
           )}
           variant={select(
             "TabContainer variant",
             tabContainerVariant,
-            tabContainerVariant.standard
+            tabContainerVariant.standard,
           )}
           scrollButtons={select(
             "TabContainer scrollButtons",
             tabContainerScrollButtons,
-            tabContainerScrollButtons.auto
+            tabContainerScrollButtons.auto,
           )}
           centered={boolean("TabContainer centered", false)}
         >

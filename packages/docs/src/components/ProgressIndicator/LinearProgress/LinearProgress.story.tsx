@@ -9,22 +9,21 @@ import { PropTypes } from "@material-ui/core";
 import LinearProgressDocs from "./LinearProgress.docs.mdx";
 
 export default {
-  "title": "Components|ProgressIndicator/LinearProgress",
-  "component": LinearProgress,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|ProgressIndicator/LinearProgress",
+  component: LinearProgress,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["LinearProgress"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["LinearProgress"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": LinearProgressDocs
-    }
-  }
+    docs: {
+      page: LinearProgressDocs,
+    },
+  },
 };
 
 const primary: PropTypes.Color = "primary";
@@ -32,24 +31,24 @@ const secondary: PropTypes.Color = "secondary";
 
 const colors: any = {
   primary,
-  secondary
+  secondary,
 };
 
 const variants: any = {
-  "determinate": "determinate",
-  "indeterminate": "indeterminate",
-  "buffer": "buffer",
-  "query": "query"
+  determinate: "determinate",
+  indeterminate: "indeterminate",
+  buffer: "buffer",
+  query: "query",
 };
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
-  "root": {
-    "width": "100%",
+  root: {
+    width: "100%",
     "& > * + *": {
-      "marginTop": theme.spacing(2)
-    }
-  }
-})
+      marginTop: theme.spacing(2),
+    },
+  },
+}),
 );
 
 export const Interactive = () => {
@@ -84,8 +83,7 @@ export const LinearIndeterminate = () => {
 export const LinearDeterminate = () => {
   const classes = useStyles();
   const [
-    completed,
-    setCompleted
+    completed, setCompleted,
   ] = React.useState(0);
 
   React.useEffect(() => {
@@ -96,13 +94,11 @@ export const LinearDeterminate = () => {
         }
         const diff = Math.random() * 10;
 
-
         return Math.min(oldCompleted + diff, 100);
       });
     };
 
     const timer = setInterval(progress, 500);
-
 
     return () => {
       clearInterval(timer);
@@ -123,12 +119,10 @@ export const LinearDeterminate = () => {
 export const LinearBuffer = () => {
   const classes = useStyles();
   const [
-    completed,
-    setCompleted
+    completed, setCompleted,
   ] = React.useState(0);
   const [
-    buffer,
-    setBuffer
+    buffer, setBuffer,
   ] = React.useState(10);
 
   const progress = React.useRef(() => {});

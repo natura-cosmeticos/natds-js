@@ -5,13 +5,13 @@ import { TypographyFontFamily } from "./TypographyFontFamily";
 import { TypographyFontSize } from "./TypographyFontSize";
 
 export default {
-  "title": "Design Tokens|Typography",
-  "parameters": {
-    "theme": {
-      "context": "web"
+  title: "Design Tokens|Typography",
+  parameters: {
+    theme: {
+      context: "web",
     },
-    ...tokensParams
-  }
+    ...tokensParams,
+  },
 };
 
 export const Scale = () => <TypographyScale />;

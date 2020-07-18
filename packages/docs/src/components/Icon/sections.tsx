@@ -12,8 +12,8 @@ const buildConfigSizes = (type: string) => {
   const [name]: any = getListByType(type);
 
   return iconSizes.map((size: any) => ({
-    "title": size,
-    "component": <Icon name={name} size={size} />
+    title: size,
+    component: <Icon name={name} size={size} />,
   }));
 };
 

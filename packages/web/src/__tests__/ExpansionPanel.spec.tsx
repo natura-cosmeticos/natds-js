@@ -6,7 +6,7 @@ import {
   ExpansionPanel,
   ExpansionPanelActions,
   ExpansionPanelDetails,
-  ExpansionPanelSummary
+  ExpansionPanelSummary,
 } from "..";
 
 describe("ExpansionPanel component", () => {

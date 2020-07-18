@@ -1,40 +1,40 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
 
-import Link from "../Components/Link";
 import { expect } from "chai";
+import Link from "../Components/Link";
 
 const colors: any = {
-  "error": "error",
-  "inherit": "inherit",
-  "primary": "primary",
-  "secondary": "secondary",
-  "textPrimary": "textPrimary",
-  "textSecondary": "textSecondary"
+  error: "error",
+  inherit: "inherit",
+  primary: "primary",
+  secondary: "secondary",
+  textPrimary: "textPrimary",
+  textSecondary: "textSecondary",
 };
 
 const underlines: any = {
-  "always": "always",
-  "hover": "hover",
-  "none": "none"
+  always: "always",
+  hover: "hover",
+  none: "none",
 };
 
 const variants: any = {
-  "body1": "body1",
-  "body2": "body2",
-  "button": "button",
-  "caption": "caption",
-  "h1": "h1",
-  "h2": "h2",
-  "h3": "h3",
-  "h4": "h4",
-  "h5": "h5",
-  "h6": "h6",
-  "inherit": "inherit",
-  "overline": "overline",
-  "srOnly": "srOnly",
-  "subtitle1": "subtitle1",
-  "subtitle2": "subtitle2"
+  body1: "body1",
+  body2: "body2",
+  button: "button",
+  caption: "caption",
+  h1: "h1",
+  h2: "h2",
+  h3: "h3",
+  h4: "h4",
+  h5: "h5",
+  h6: "h6",
+  inherit: "inherit",
+  overline: "overline",
+  srOnly: "srOnly",
+  subtitle1: "subtitle1",
+  subtitle2: "subtitle2",
 };
 
 describe("Link component", () => {

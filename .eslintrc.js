@@ -1,44 +1,47 @@
 /* eslint-disable max-lines */
 /* eslint-disable no-magic-numbers */
 module.exports = {
-  "env": {
-    "browser": true,
-    "es2020": true,
-    "node": true
+  env: {
+    browser: true,
+    es2020: true,
+    jest: true,
+    mocha: false,
+    node: true,
   },
-  "extends": [
+  extends: [
     "eslint:recommended",
     "plugin:react/recommended",
-    "plugin:@typescript-eslint/recommended"
+    "plugin:@typescript-eslint/recommended",
+    "@naturacosmeticos/natura",
   ],
-  "overrides": [
+  overrides: [
     {
-      "files": "*.d.ts",
-      "rules": {
-        "init-declarations": ["off"]
-      }
+      files: "*.d.ts",
+      rules: {
+        "init-declarations": ["off"],
+      },
     },
     {
-      "files": [
+      files: [
         "**/jest.config.js",
         "packages/icons/scripts/*.js",
         "packages/web/config/test/*.ts",
-        "scripts/helpers/*.js"
+        "scripts/helpers/*.js",
       ],
-      "rules": {
+      rules: {
         "@typescript-eslint/no-var-requires": ["off"],
         "max-len": [
-          "off",
-          127
+          "off", 127,
         ],
         "max-lines": ["off"],
-        "no-console": ["off"]
-      }
+        "no-console": ["off"],
+      },
     },
     {
-      "files": [
+      files: [
         "packages/docs/addons/ComponentWithLabel/index.tsx",
         "packages/docs/src/components/Badge/Badge.story.tsx",
+        "packages/docs/src/components/BottomNavigation/Interactive.tsx",
         "packages/docs/src/components/Buttons/ButtonGroup/ButtonGroup.story.tsx",
         "packages/docs/src/components/Link/sections.tsx",
         "packages/docs/src/components/List/Interactive.tsx",
@@ -60,107 +63,108 @@ module.exports = {
         "packages/web/src/Components/Fab/IFabProps.tsx",
         "packages/web/src/Components/shared.ts",
         "packages/web/src/Components/TextField/Field.tsx",
-        "packages/web/src/Provider/index.tsx"
+        "packages/web/src/Provider/index.tsx",
       ],
-      "rules": {
-        "@typescript-eslint/ban-ts-comment": ["off"]
-      }
+      rules: {
+        "@typescript-eslint/ban-ts-comment": ["off"],
+      },
     },
     {
-      "files": ["*.spec.tsx"],
-      "rules": {
+      files: ["*.spec.{ts,tsx}"],
+      rules: {
         "@typescript-eslint/no-empty-function": ["off"],
         "@typescript-eslint/no-explicit-any": ["off"],
         "max-len": [
-          "error",
-          151
+          "error", 151,
         ],
         "max-lines": [
-          "error",
-          399
+          "error", 399,
         ],
         "max-lines-per-function": [
-          "error",
-          208
+          "error", 208,
+        ],
+        "max-nested-callbacks": [
+          "error", 5,
         ],
         "max-statements": [
-          "error",
-          28
+          "error", 28,
         ],
+        "mocha/no-setup-in-describe": ["off"],
         "no-console": ["off"],
         "no-empty-function": ["off"],
         "no-return-assign": ["off"],
         "no-undefined": ["off"],
-        "sort-vars": ["off"]
-      }
+        "sort-vars": ["off"],
+      },
     },
     {
-      "files": ["packages/web/src/Components/**/*.{ts,tsx}"],
-      "rules": {
+      files: ["packages/web/src/Components/**/*.{ts,tsx}"],
+      rules: {
         "@typescript-eslint/explicit-module-boundary-types": ["off"],
         "@typescript-eslint/no-explicit-any": ["off"],
         "max-len": [
-          "error",
-          179
+          "error", 179,
         ],
         "max-lines-per-function": [
-          "error",
-          101
+          "error", 101,
         ],
         "no-use-before-define": ["off"],
-        "react/display-name": ["off"]
-      }
+        "react/display-name": ["off"],
+      },
     },
     {
-      "files": ["packages/icons/src/natds-icons.css.d.ts"],
-      "rules": {
-        "newline-after-var": ["off"]
-      }
+      files: ["packages/icons/src/natds-icons.css.d.ts"],
+      rules: {
+        "max-lines": ["off"],
+        "newline-after-var": ["off"],
+      },
     },
     {
-      "files": ["packages/docs/**/*.{js,jsx,ts,tsx}"],
-      "rules": {
+      files: ["packages/docs/**/*.{js,jsx,ts,tsx}"],
+      rules: {
         "@typescript-eslint/explicit-module-boundary-types": ["off"],
         "@typescript-eslint/no-explicit-any": ["off"],
         "@typescript-eslint/no-empty-function": ["off"],
         "@typescript-eslint/no-unused-vars": ["off"],
+        complexity: ["error", 16],
 
         /**
          * @todo fix(docs): re-enable `global-require` and replace unexpected require() by a valid image reference
          */
         "global-require": ["off"],
         "max-len": [
-          "error",
-          250
+          "error", 250,
+        ],
+        "max-lines": [
+          "error", 184,
         ],
         "max-lines-per-function": [
-          "error",
-          107
+          "error", 107,
         ],
         "no-empty-function": ["off"],
         "no-magic-numbers": ["off"],
         "no-undefined": ["off"],
+        "no-unused-vars": ["off"],
         "no-use-before-define": ["off"],
         "react/display-name": ["off"],
         "react/no-children-prop": ["off"],
         "react/prop-types": ["off"],
-        "require-jsdoc": ["off"]
-      }
-    }
-  ],
-  "parser": "@typescript-eslint/parser",
-  "parserOptions": {
-    "ecmaFeatures": {
-      "jsx": true
+        "require-jsdoc": ["off"],
+      },
     },
-    "ecmaVersion": 11,
-    "sourceType": "module"
-  },
-  "plugins": [
-    "react",
-    "@typescript-eslint"
   ],
-  "rules": {
+  parser: "@typescript-eslint/parser",
+  parserOptions: {
+    ecmaFeatures: {
+      jsx: true,
+    },
+    ecmaVersion: 11,
+    sourceType: "module",
+  },
+  plugins: [
+    "react", "@typescript-eslint",
+  ],
+  rules: {
     "accessor-pairs": "error",
     "array-bracket-newline": "error",
     "array-bracket-spacing": "error",
@@ -170,31 +174,33 @@ module.exports = {
     "arrow-parens": "error",
     "arrow-spacing": [
       "error",
-      { "after": true,
-        "before": true }
+      {
+        after: true,
+        before: true,
+      },
     ],
     "block-scoped-var": "error",
     "block-spacing": "error",
     "brace-style": "error",
     "callback-return": "error",
-    "camelcase": "error",
+    camelcase: "error",
     "capitalized-comments": "off",
     "class-methods-use-this": "error",
     "comma-dangle": "error",
     "comma-spacing": "error",
     "comma-style": "error",
-    "complexity": "error",
+    complexity: "error",
     "computed-property-spacing": "error",
     "consistent-return": "error",
     "consistent-this": "error",
-    "curly": "error",
+    curly: "error",
     "default-case": "error",
     "default-case-last": "error",
     "default-param-last": "error",
     "dot-location": "error",
     "dot-notation": "error",
     "eol-last": "error",
-    "eqeqeq": "error",
+    eqeqeq: "error",
     "func-call-spacing": "error",
     "func-name-matching": "error",
     "func-names": "error",
@@ -206,18 +212,19 @@ module.exports = {
     "grouped-accessor-pairs": "error",
     "guard-for-in": "error",
     "handle-callback-err": "error",
-    "id-blacklist": "error",
     "id-denylist": "error",
     "id-length": "error",
     "id-match": "error",
     "implicit-arrow-linebreak": "error",
-    "indent": [
-      "error",
-      2
+    "import/extensions": "off",
+    "import/no-extraneous-dependencies": "off",
+    "import/no-unresolved": "off",
+    "import/prefer-default-export": "off",
+    indent: [
+      "error", 2,
     ],
     "indent-legacy": [
-      "error",
-      2
+      "error", 2,
     ],
     "init-declarations": "error",
     "jsx-quotes": "error",
@@ -231,16 +238,14 @@ module.exports = {
     "max-classes-per-file": "error",
     "max-depth": "error",
     "max-len": [
-      "error",
-      121
+      "error", 121,
     ],
     "max-lines": "error",
     "max-lines-per-function": "error",
     "max-nested-callbacks": "error",
     "max-params": "error",
     "max-statements": [
-      "error",
-      12
+      "error", 12,
     ],
     "max-statements-per-line": "error",
     "multiline-comment-style": "error",
@@ -371,17 +376,16 @@ module.exports = {
     "prefer-spread": "error",
     "prefer-template": "error",
     "quote-props": "error",
-    "quotes": [
-      "error",
-      "double"
+    quotes: [
+      "error", "double",
     ],
-    "radix": "error",
+    radix: "error",
     "require-atomic-updates": "error",
     "require-await": "error",
     "require-jsdoc": "error",
     "require-unicode-regexp": ["off"],
     "rest-spread-spacing": "error",
-    "semi": "error",
+    semi: "error",
     "semi-spacing": "error",
     "semi-style": "error",
     "sort-imports": "off",
@@ -393,7 +397,7 @@ module.exports = {
     "space-infix-ops": "error",
     "space-unary-ops": "error",
     "spaced-comment": "error",
-    "strict": "error",
+    strict: "error",
     "switch-colon-spacing": "error",
     "symbol-description": "error",
     "template-curly-spacing": "error",
@@ -404,13 +408,24 @@ module.exports = {
     "wrap-iife": "error",
     "wrap-regex": "error",
     "yield-star-spacing": "error",
-    "yoda": "error"
+    yoda: "error",
   },
-  "settings": {
-    "react": {
-      "linkComponents": ["Link"],
-      "pragma": "React",
-      "version": "16.13.1"
-    }
-  }
+  settings: {
+    "import/resolver": {
+      node: {
+        paths: [
+          "packages/docs/addons",
+          "packages/docs/src",
+          "packages/icons/src",
+          "packages/styles/src",
+          "packages/web/src",
+        ],
+      },
+    },
+    react: {
+      linkComponents: ["Link"],
+      pragma: "React",
+      version: "16.13.1",
+    },
+  },
 };

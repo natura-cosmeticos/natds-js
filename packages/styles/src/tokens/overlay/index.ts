@@ -2,5 +2,5 @@
 import { IOverlay } from "./IOverlay";
 
 export const overlay: IOverlay = {
-  "solidBlack": 0.56
+  solidBlack: 0.56,
 };

@@ -1,3 +1,6 @@
+/**
+ * @todo refactor(web): refactor InputStateHelpTextProvider
+ */
 import React, { FunctionComponent } from "react";
 import styled from "styled-components";
 import { ITheme, tokens } from "@naturacosmeticos/natds-styles";
@@ -19,6 +22,7 @@ export interface IInputStateHelpTextProviderProps {
   readOnly?: boolean;
 }
 
+// eslint-disable-next-line complexity
 export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextProviderProps> = (props: IInputStateHelpTextProviderProps) => {
   const {
       id,
@@ -30,7 +34,7 @@ export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextPr
       state,
       className,
       children,
-      readOnly = false
+      readOnly = false,
     } = props,
 
     content = label && required ? `${label} *` : label,
@@ -39,14 +43,14 @@ export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextPr
 
   return (
     <Container theme={theme} className={className}>
-      {content &&
-        <Label theme={theme} htmlFor={id} state={state} disabled={disabled}>
+      {content
+        && <Label theme={theme} htmlFor={id} state={state} disabled={disabled}>
           {content}
         </Label>
       }
       {children}
-      {!readOnly && helpText &&
-        <HelpText theme={theme} state={state} disabled={disabled}>
+      {!readOnly && helpText
+        && <HelpText theme={theme} state={state} disabled={disabled}>
           {stateIcon}
           {helpText}
         </HelpText>
@@ -98,6 +102,6 @@ const Container = styled.div`
 `,
 
   stateIcons = {
-    "error": IconError,
-    "success": IconSuccess
+    error: IconError,
+    success: IconSuccess,
   };

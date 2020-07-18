@@ -1,27 +1,25 @@
 import React from "react";
 import renderer from "react-test-renderer";
 
-import { Fab, themes } from "../";
+import { Fab, themes } from "..";
 import { Provider } from "../Provider";
-
 
 describe("Fab component", () => {
   describe("rendering", () => {
     const colors = [
         "primary",
         "secondary",
-        "light"
+        "light",
       ],
 
       sizes = [
         "large",
         "medium",
-        "small"
+        "small",
       ],
 
       variants = [
-        "round",
-        "extended"
+        "round", "extended",
       ];
 
     test("it should render with no props", () => {

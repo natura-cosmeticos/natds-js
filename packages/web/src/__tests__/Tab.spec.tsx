@@ -1,8 +1,8 @@
 import * as React from "react";
-import { TabContainer, TabItem } from "..";
 
 import { expect } from "chai";
 import { mount } from "enzyme";
+import { TabContainer, TabItem } from "..";
 
 describe("Tab components", () => {
   describe("rendering variants", () => {

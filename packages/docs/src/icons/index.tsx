@@ -22,12 +22,10 @@ const IconDisplay = (props: IIconDisplayProps) => {
   const { iconList, itemsPerRow, title } = props;
   const builtList = iconList.reduce(buildConfigItem, []);
   const [
-    query,
-    setQuery
+    query, setQuery,
   ] = React.useState("");
   const searcher = new FuzzySearch(builtList, [
-    "name",
-    "category"
+    "name", "category",
   ]);
 
   const onSearch = (event: { target: { value: React.SetStateAction<string>; }; }) => {
@@ -61,10 +59,9 @@ export default IconDisplay;
 const emptyList = () => <dt className="icons__category">No items</dt>;
 
 // @todo refactor(styles): convert to arrow function
-function buildListItem (this: any, props: IIconDisplayItem, key: number) {
+function buildListItem(this: any, props: IIconDisplayItem, key: number) {
   // eslint-disable-next-line no-invalid-this
   const { itemsPerRow = "auto" } = this;
-
 
   return props.category ? buildCategory(props, key) : buildItem(props, key, itemsPerRow);
 }
@@ -73,13 +70,13 @@ const buildCategory = ({ category }: IIconDisplayItem, key: number) => <dt class
   {category}
 </dt>;
 
-function buildItem ({ name, icon, iconName }: IIconDisplayItem, key: number, itemsPerRow: string) {
+function buildItem({ name, icon, iconName }: IIconDisplayItem, key: number, itemsPerRow: string) {
 
   /**
    * @todo fix(docs): TS2363 - The right-hand side of an arithmetic operation must be of type 'any', 'number', 'bigint' or an enum type.
    */
   // @ts-ignore
-  const styles = itemsPerRow === "auto" ? {} : { "flexBasis": `${100 / itemsPerRow}%` };
+  const styles = itemsPerRow === "auto" ? {} : { flexBasis: `${100 / itemsPerRow}%` };
 
   return (
     <dd className="icons__item" key={key} style={styles}>
@@ -93,12 +90,11 @@ function buildItem ({ name, icon, iconName }: IIconDisplayItem, key: number, ite
 // eslint-disable-next-line init-declarations
 let lastCategory: string;
 
-function buildConfigItem (accum: any, name: any) {
+function buildConfigItem(accum: any, name: any) {
 
-  const [
-    , category,
-    iconName
-  ] = name.split("-");
+  const [,
+    category,
+    iconName] = name.split("-");
 
   if (lastCategory !== category) {
     lastCategory = category;
@@ -108,7 +104,7 @@ function buildConfigItem (accum: any, name: any) {
   accum.push({
     name,
     iconName,
-    "icon": <i className={`natds-icons natds-icons-2x natds-icons-${String(name)}`} />
+    icon: <i className={`natds-icons natds-icons-2x natds-icons-${String(name)}`} />,
   });
 
   return accum;

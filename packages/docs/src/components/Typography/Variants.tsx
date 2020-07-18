@@ -44,4 +44,3 @@ export const Variants = () => <div className="typography__story__container">
     <Typography variant="overline">overline. Lorem ipsum ziguium</Typography>
   </div>
 </div>;
-

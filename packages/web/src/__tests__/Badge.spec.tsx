@@ -5,31 +5,39 @@ import renderer from "react-test-renderer";
 import Badge from "../Components/Badge";
 
 export const anchors: any = {
-  "topleft": { "horizontal": "left",
-    "vertical": "top" },
-  "topright": { "horizontal": "right",
-    "vertical": "top" },
-  "bottomleft": { "horizontal": "left",
-    "vertical": "bottom" },
-  "bottomright": { "horizontal": "right",
-    "vertical": "bottom" }
+  topleft: {
+    horizontal: "left",
+    vertical: "top",
+  },
+  topright: {
+    horizontal: "right",
+    vertical: "top",
+  },
+  bottomleft: {
+    horizontal: "left",
+    vertical: "bottom",
+  },
+  bottomright: {
+    horizontal: "right",
+    vertical: "bottom",
+  },
 };
 
 export const colors: any = {
-  "default": "default",
-  "error": "error",
-  "primary": "primary",
-  "secondary": "secondary"
+  default: "default",
+  error: "error",
+  primary: "primary",
+  secondary: "secondary",
 };
 
 export const variants: any = {
-  "dot": "dot",
-  "standard": "standard"
+  dot: "dot",
+  standard: "standard",
 };
 
 export const overlaps: any = {
-  "circle": "circle",
-  "rectangle": "rectangle"
+  circle: "circle",
+  rectangle: "rectangle",
 };
 
 describe("Badge component", () => {

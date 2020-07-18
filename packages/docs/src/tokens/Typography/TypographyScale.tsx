@@ -60,4 +60,3 @@ export const TypographyScale = () => <div className="typography__container">
         OVERLINE TEXT
   </Typography>
 </div>;
-

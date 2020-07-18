@@ -15,7 +15,7 @@ export default {
   avatarSizes,
   buttonSizes,
   colorTokens,
-  "colors": { natura },
+  colors: { natura },
   elevation,
   fontSize,
   iconSizes,
@@ -23,5 +23,5 @@ export default {
   overlay,
   radius,
   sizes,
-  spacing
+  spacing,
 };

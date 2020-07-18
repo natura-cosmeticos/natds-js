@@ -10,33 +10,31 @@ const { radius } = tokens;
 
 const mapSchema = (item: any) => [
   {
-    "name": item[0],
-    "type": "text"
+    name: item[0],
+    type: "text",
   },
   {
-    "name": item[1],
-    "type": "text"
-  }
+    name: item[1],
+    type: "text",
+  },
 ];
 
 const radiusSchema = {
-  "head": [
-    "name",
-    "value"
+  head: [
+    "name", "value",
   ],
-  "body": Object.entries(radius).map(mapSchema)
+  body: Object.entries(radius).map(mapSchema),
 };
 
-
 export default {
-  "title": "Design Tokens|Radius",
-  "parameters": {
-    "docs": {
-      "container": null,
-      "page": () => <Table schema={radiusSchema} title="Radius" />
+  title: "Design Tokens|Radius",
+  parameters: {
+    docs: {
+      container: null,
+      page: () => <Table schema={radiusSchema} title="Radius" />,
     },
-    ...tokensParams
-  }
+    ...tokensParams,
+  },
 };
 
 interface IRadiusItem {
@@ -52,9 +50,7 @@ const RadiusItem: React.FunctionComponent<IRadiusItem> = ({ name, borderRadius }
 export const Scale = () => <div className="radius__container">
   <h4 className="radius__container__title">Base = 4</h4>
   {Object.entries(radius).map(([
-    key,
-    value
-  ]) => <RadiusItem name={key} key={key} borderRadius={value} />
+    key, value,
+  ]) => <RadiusItem name={key} key={key} borderRadius={value} />,
   )}
 </div>;
-

@@ -9,14 +9,14 @@ export {IIconProps} from "./IIconProps";
 
 export const Icon: FunctionComponent<IIconProps> = forwardRef((
   {
-    "className": receivedClassName,
+    className: receivedClassName,
     name,
     size,
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     theme,
     ...props
   }: IIconProps,
-  ref: any
+  ref: any,
 ) => {
 
   const useIconStyles = makeIconStyles({size}),
@@ -26,7 +26,7 @@ export const Icon: FunctionComponent<IIconProps> = forwardRef((
       "natds-icons",
       `natds-icons-${String(name)}`,
       classes.root,
-      receivedClassName
+      receivedClassName,
     ];
 
   return <i className={clsx(classNames)} ref={ref} {...props} />;

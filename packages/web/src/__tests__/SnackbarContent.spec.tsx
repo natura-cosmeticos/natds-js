@@ -11,7 +11,7 @@ describe("SnackbarContent Component", () => {
       "error",
       "success",
       "info",
-      "warning"
+      "warning",
     ];
 
     test("should match to snapshot - SnackbarContent default", () => {

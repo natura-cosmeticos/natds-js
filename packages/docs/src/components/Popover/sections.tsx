@@ -11,8 +11,7 @@ const PopoverWrapper = ({
   showActionLink?: boolean;
 }) => {
   const [
-    anchor,
-    setAnchor
+    anchor, setAnchor,
   ] = React.useState();
 
   /**
@@ -20,20 +19,20 @@ const PopoverWrapper = ({
    * @todo feat(docs): replace alert() call by SnackBar
    */
   const actionLink = showActionLink && {
-    "text": "Close Popover",
+    text: "Close Popover",
     // eslint-disable-next-line no-alert
-    "onClick": () => alert("Action link was clicked.")
+    onClick: () => alert("Action link was clicked."),
   } || undefined;
 
   // @todo fix(docs): TS2769 - No overload matches this call on Button ref and Popover open properties
   return (
     <div
       style={{
-        "height": "100px",
-        "width": "280px",
-        "display": "flex",
-        "alignItems": direction.includes("top") ? "flex-end" : "flex-start",
-        "justifyContent": direction.includes("left") ? "flex-end" : "flex-start"
+        height: "100px",
+        width: "280px",
+        display: "flex",
+        alignItems: direction.includes("top") ? "flex-end" : "flex-start",
+        justifyContent: direction.includes("left") ? "flex-end" : "flex-start",
       }}
     >
       <Button
@@ -65,67 +64,67 @@ const PopoverWrapper = ({
  */
 export const attributes = [
   {
-    "title": "Direction",
-    "component": <PopoverWrapper />
+    title: "Direction",
+    component: <PopoverWrapper />,
   },
   {
-    "title": "Action Link",
-    "component": <PopoverWrapper showActionLink />
+    title: "Action Link",
+    component: <PopoverWrapper showActionLink />,
   },
   {
-    "title": "Max Width - 75px",
+    title: "Max Width - 75px",
     // @ts-ignore
-    "component": <PopoverWrapper maxWidth={75} />
-  }
+    component: <PopoverWrapper maxWidth={75} />,
+  },
 ];
 
 export const directions = [
   {
-    "title": "top",
-    "component": <PopoverWrapper direction="top" />
+    title: "top",
+    component: <PopoverWrapper direction="top" />,
   },
   {
-    "title": "top-start",
-    "component": <PopoverWrapper direction="top-start" />
+    title: "top-start",
+    component: <PopoverWrapper direction="top-start" />,
   },
   {
-    "title": "top-end",
-    "component": <PopoverWrapper direction="top-end" />
+    title: "top-end",
+    component: <PopoverWrapper direction="top-end" />,
   },
   {
-    "title": "bottom",
-    "component": <PopoverWrapper direction="bottom" />
+    title: "bottom",
+    component: <PopoverWrapper direction="bottom" />,
   },
   {
-    "title": "bottom-start",
-    "component": <PopoverWrapper direction="bottom-start" />
+    title: "bottom-start",
+    component: <PopoverWrapper direction="bottom-start" />,
   },
   {
-    "title": "bottom-end",
-    "component": <PopoverWrapper direction="bottom-end" />
+    title: "bottom-end",
+    component: <PopoverWrapper direction="bottom-end" />,
   },
   {
-    "title": "right",
-    "component": <PopoverWrapper direction="right" />
+    title: "right",
+    component: <PopoverWrapper direction="right" />,
   },
   {
-    "title": "right-start",
-    "component": <PopoverWrapper direction="right-start" />
+    title: "right-start",
+    component: <PopoverWrapper direction="right-start" />,
   },
   {
-    "title": "right-end",
-    "component": <PopoverWrapper direction="right-end" />
+    title: "right-end",
+    component: <PopoverWrapper direction="right-end" />,
   },
   {
-    "title": "left",
-    "component": <PopoverWrapper direction="left" />
+    title: "left",
+    component: <PopoverWrapper direction="left" />,
   },
   {
-    "title": "left-start",
-    "component": <PopoverWrapper direction="left-start" />
+    title: "left-start",
+    component: <PopoverWrapper direction="left-start" />,
   },
   {
-    "title": "left-end",
-    "component": <PopoverWrapper direction="left-end" />
-  }
+    title: "left-end",
+    component: <PopoverWrapper direction="left-end" />,
+  },
 ];

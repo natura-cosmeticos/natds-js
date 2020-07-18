@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
 
-import Switch from "../Components/Switch";
 import { expect } from "chai";
+import Switch from "../Components/Switch";
 
 describe("Switch component", () => {
   describe("rendering", () => {

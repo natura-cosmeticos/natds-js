@@ -9,42 +9,40 @@ import {
   DialogContentText,
   DialogActions,
   Button,
-  Radio
+  Radio,
 } from "@naturacosmeticos/natds-web";
 
 import DialogDocs from "./Dialog.docs.mdx";
 
 export default {
-  "title": "Components|Dialog",
-  "component": Dialog,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Dialog",
+  component: Dialog,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Dialog"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Dialog"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": DialogDocs
-    }
-  }
+    docs: {
+      page: DialogDocs,
+    },
+  },
 };
 
 const maxWidth: any = {
-  "xs": "xs",
-  "sm": "sm",
-  "md": "md",
-  "lg": "lg",
-  "xl": "xl"
+  xs: "xs",
+  sm: "sm",
+  md: "md",
+  lg: "lg",
+  xl: "xl",
 };
 
 export const Interactive = () => {
   const [
-    open,
-    setOpen
+    open, setOpen,
   ] = React.useState(false);
 
   const handleClickOpen = () => {
@@ -130,4 +128,3 @@ export const Confirmation = () => <Dialog open={true} fullWidth={true} maxWidth=
     <Button>Ok</Button>
   </DialogActions>
 </Dialog>;
-

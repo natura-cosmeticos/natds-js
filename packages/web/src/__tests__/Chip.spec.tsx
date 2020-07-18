@@ -9,19 +9,19 @@ import Avatar from "../Components/Avatar";
 import Icon from "../Components/Icon";
 
 const colors: any = {
-  "primary": "primary",
-  "secondary": "secondary",
-  "default": "default"
+  primary: "primary",
+  secondary: "secondary",
+  default: "default",
 };
 
 const variants: any = {
-  "default": "default",
-  "outlined": "outlined"
+  default: "default",
+  outlined: "outlined",
 };
 
 const sizes: any = {
-  "small": "small",
-  "medium": "medium"
+  small: "small",
+  medium: "medium",
 };
 
 describe("Chip component", () => {
@@ -32,8 +32,8 @@ describe("Chip component", () => {
 
     expect(chip.find(".MuiChip-label")).to.have.text(label);
 
-    chip.find(".MuiChip-deleteIcon").first().
-      simulate("click");
+    chip.find(".MuiChip-deleteIcon").first()
+      .simulate("click");
 
     assert.calledOnce(onDelete);
   });

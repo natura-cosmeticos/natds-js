@@ -11,45 +11,44 @@ import {
   ExpansionPanelDetails,
   ExpansionPanelSummary,
   Icon,
-  Typography
+  Typography,
 } from "@naturacosmeticos/natds-web";
 import ExpansionPanelDocs from "./ExpansionPanel.docs.mdx";
 
 export default {
-  "title": "Components|ExpansionPanel",
-  "component": ExpansionPanel,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|ExpansionPanel",
+  component: ExpansionPanel,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["ExpansionPanel"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["ExpansionPanel"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": ExpansionPanelDocs
-    }
-  }
+    docs: {
+      page: ExpansionPanelDocs,
+    },
+  },
 };
 
 const useStyles = makeStyles((theme) => ({
-  "root": {
-    "width": "920px"
+  root: {
+    width: "920px",
   },
-  "row": {
-    "flexFlow": "row wrap"
+  row: {
+    flexFlow: "row wrap",
   },
-  "title": {
-    "flex": "2 1 0"
+  title: {
+    flex: "2 1 0",
   },
-  "details": {
-    "flex": "3 1 0"
+  details: {
+    flex: "3 1 0",
   },
-  "rowTitle": {
-    "marginBottom": "16px"
-  }
+  rowTitle: {
+    marginBottom: "16px",
+  },
 }));
 
 export const Interactive = () => {

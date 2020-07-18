@@ -9,87 +9,86 @@ import "./styles.scss";
 import GridDocs from "./Grid.docs.mdx";
 
 export default {
-  "title": "Components|Grid",
-  "component": GridContainer,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Grid",
+  component: GridContainer,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["GridContainer"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["GridContainer"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": GridDocs
-    }
-  }
+    docs: {
+      page: GridDocs,
+    },
+  },
 };
 
 const breakpoint = {
-  "md": "md",
-  "sm": "sm",
-  "xs": "xs"
+  md: "md",
+  sm: "sm",
+  xs: "xs",
 };
 
 const gridItemBreakpointProps = {
-  "md": [
-    { "md": 12 },
-    { "md": 6 },
-    { "md": 6 },
-    { "md": 4 },
-    { "md": 4 },
-    { "md": 4 },
-    { "md": 2 },
-    { "md": 2 },
-    { "md": 2 },
-    { "md": 2 },
-    { "md": 2 },
-    { "md": 2 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 },
-    { "md": 1 }
+  md: [
+    { md: 12 },
+    { md: 6 },
+    { md: 6 },
+    { md: 4 },
+    { md: 4 },
+    { md: 4 },
+    { md: 2 },
+    { md: 2 },
+    { md: 2 },
+    { md: 2 },
+    { md: 2 },
+    { md: 2 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
+    { md: 1 },
   ],
-  "sm": [
-    { "sm": 12 },
-    { "sm": 6 },
-    { "sm": 6 },
-    { "sm": 3 },
-    { "sm": 3 },
-    { "sm": 3 },
-    { "sm": 3 },
-    { "sm": 2 },
-    { "sm": 2 },
-    { "sm": 2 },
-    { "sm": 2 },
-    { "sm": 2 },
-    { "sm": 2 }
+  sm: [
+    { sm: 12 },
+    { sm: 6 },
+    { sm: 6 },
+    { sm: 3 },
+    { sm: 3 },
+    { sm: 3 },
+    { sm: 3 },
+    { sm: 2 },
+    { sm: 2 },
+    { sm: 2 },
+    { sm: 2 },
+    { sm: 2 },
+    { sm: 2 },
   ],
-  "xs": [
-    { "xs": 12 },
-    { "xs": 6 },
-    { "xs": 6 },
-    { "xs": 3 },
-    { "xs": 3 },
-    { "xs": 3 },
-    { "xs": 3 }
-  ]
+  xs: [
+    { xs: 12 },
+    { xs: 6 },
+    { xs: 6 },
+    { xs: 3 },
+    { xs: 3 },
+    { xs: 3 },
+    { xs: 3 },
+  ],
 };
 
 const maxBreakpointWidth = {
-  "md": { "maxWidth": "1180px" },
-  "sm": { "maxWidth": "960px" },
-  "xs": { "maxWidth": "600px" }
+  md: { maxWidth: "1180px" },
+  sm: { maxWidth: "960px" },
+  xs: { maxWidth: "600px" },
 };
 
 const mountGridItem = (selectBreakpoint: any, value: any, key: number) => <GridItem key={key} {...value}>
@@ -97,7 +96,7 @@ const mountGridItem = (selectBreakpoint: any, value: any, key: number) => <GridI
 </GridItem>;
 const mapGridItemBreakpoint = (selectBreakpoint: string) => gridItemBreakpointProps[
   selectBreakpoint
-].map((value: any, key: number) => mountGridItem(selectBreakpoint, value, key)
+].map((value: any, key: number) => mountGridItem(selectBreakpoint, value, key),
 );
 
 export const Fluid = () => {
@@ -117,7 +116,7 @@ export const Fluid = () => {
   );
 };
 
-export const Interactive = () => <div className="grid__container" style={{ "width": "100%" }}>
+export const Interactive = () => <div className="grid__container" style={{ width: "100%" }}>
   <GridContainer spacing={3}>
     <GridItem
       md={number("md", 12)}
@@ -128,4 +127,3 @@ export const Interactive = () => <div className="grid__container" style={{ "widt
     </GridItem>
   </GridContainer>
 </div>;
-

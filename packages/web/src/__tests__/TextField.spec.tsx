@@ -4,11 +4,11 @@ import * as React from "react";
 import * as renderer from "react-test-renderer";
 
 import Favorite from "@material-ui/icons/Favorite";
-import TextField from "../Components/TextField";
 
 import { expect } from "chai";
 import { shallow } from "enzyme";
 import { themes } from "@naturacosmeticos/natds-styles";
+import TextField from "../Components/TextField";
 
 const getProps = (props: any = {}) => {
 
@@ -21,7 +21,7 @@ const getProps = (props: any = {}) => {
     placeholder = "Placeholder",
     required,
     state,
-    theme = themes.natura.light
+    theme = themes.natura.light,
   } = props;
 
   return {
@@ -33,7 +33,7 @@ const getProps = (props: any = {}) => {
     placeholder,
     required,
     state,
-    theme
+    theme,
   };
 };
 
@@ -106,13 +106,13 @@ describe("TextField component", () => {
     });
 
     test("should match snapshot - TextField (success)", () => {
-      const component = renderer.create(<TextField {...getProps({ "state": "success" })} />).toJSON();
+      const component = renderer.create(<TextField {...getProps({ state: "success" })} />).toJSON();
 
       expect(component).to.matchSnapshot("TextField success snapshot");
     });
 
     test("should match snapshot - TextField (success hover)", () => {
-      const component = shallow(<TextField {...getProps({ "state": "success" })} />);
+      const component = shallow(<TextField {...getProps({ state: "success" })} />);
 
       component.find("#field").simulate("mouseover");
 
@@ -120,7 +120,7 @@ describe("TextField component", () => {
     });
 
     test("should match snapshot - TextField (success focus)", () => {
-      const component = shallow(<TextField {...getProps({ "state": "success" })} />);
+      const component = shallow(<TextField {...getProps({ state: "success" })} />);
 
       component.find("#field").simulate("focus");
 
@@ -128,13 +128,13 @@ describe("TextField component", () => {
     });
 
     test("should match snapshot - TextField (error)", () => {
-      const component = renderer.create(<TextField {...getProps({ "state": "error" })} />).toJSON();
+      const component = renderer.create(<TextField {...getProps({ state: "error" })} />).toJSON();
 
       expect(component).to.matchSnapshot("TextField error snapshot");
     });
 
     test("should match snapshot - TextField (error hover)", () => {
-      const component = shallow(<TextField {...getProps({ "state": "error" })} />);
+      const component = shallow(<TextField {...getProps({ state: "error" })} />);
 
       component.find("#field").simulate("mouseover");
 
@@ -142,7 +142,7 @@ describe("TextField component", () => {
     });
 
     test("should match snapshot - TextField (error focus)", () => {
-      const component = shallow(<TextField {...getProps({ "state": "error" })} />);
+      const component = shallow(<TextField {...getProps({ state: "error" })} />);
 
       component.find("#field").simulate("focus");
 
@@ -150,26 +150,28 @@ describe("TextField component", () => {
     });
 
     test("should match snapshot - TextField (required)", () => {
-      const component = renderer.create(<TextField {...getProps({ "required": true })} />).toJSON();
+      const component = renderer.create(<TextField {...getProps({ required: true })} />).toJSON();
 
       expect(component).to.matchSnapshot("TextField required snapshot");
     });
 
     test("should match snapshot - TextField (required without label)", () => {
-      const component = renderer.create(<TextField {...getProps({ "label": null,
-        "required": true })} />).toJSON();
+      const component = renderer.create(<TextField {...getProps({
+        label: null,
+        required: true,
+      })} />).toJSON();
 
       expect(component).to.matchSnapshot("TextField required without label snapshot");
     });
 
     test("should match snapshot - TextField (disabled)", () => {
-      const component = renderer.create(<TextField {...getProps({ "disabled": true })} />).toJSON();
+      const component = renderer.create(<TextField {...getProps({ disabled: true })} />).toJSON();
 
       expect(component).to.matchSnapshot("TextField disabled snapshot");
     });
 
     test("should match snapshot - TextField (disabled hover)", () => {
-      const component = shallow(<TextField {...getProps({ "disabled": true })} />);
+      const component = shallow(<TextField {...getProps({ disabled: true })} />);
 
       component.find("#field").simulate("mouseover");
 
@@ -177,7 +179,7 @@ describe("TextField component", () => {
     });
 
     test("should match snapshot - TextField (disabled focus)", () => {
-      const component = shallow(<TextField {...getProps({ "disabled": true })} />);
+      const component = shallow(<TextField {...getProps({ disabled: true })} />);
 
       component.find("#field").simulate("focus");
 
@@ -217,7 +219,7 @@ describe("TextField component", () => {
         /\d/,
         /\d/,
         /\d/,
-        /\d/
+        /\d/,
       ];
       const component = renderer.create(<TextField {...getProps({ mask })} />).toJSON();
 
@@ -225,7 +227,7 @@ describe("TextField component", () => {
     });
 
     test("should match snapshot - TextField (theme change)", () => {
-      const component = renderer.create(<TextField {...getProps({ "theme": themes.natura.dark })} />).toJSON();
+      const component = renderer.create(<TextField {...getProps({ theme: themes.natura.dark })} />).toJSON();
 
       expect(component).to.matchSnapshot("TextField theme change snapshot");
     });
@@ -237,7 +239,7 @@ describe("TextField component", () => {
     });
 
     test("should match snapshot - TextField (default with empty theme)", () => {
-      const component = renderer.create(<TextField {...getProps({ "theme": {} })} />).toJSON();
+      const component = renderer.create(<TextField {...getProps({ theme: {} })} />).toJSON();
 
       expect(component).to.matchSnapshot("TextField default with empty theme snapshot");
     });

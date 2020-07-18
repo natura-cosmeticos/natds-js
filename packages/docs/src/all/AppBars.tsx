@@ -5,7 +5,7 @@ import {
   IconButton,
   Icon,
   Typography,
-  Badge
+  Badge,
 } from "@naturacosmeticos/natds-web";
 import { useStyles } from "./styles";
 

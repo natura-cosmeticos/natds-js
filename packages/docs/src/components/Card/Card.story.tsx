@@ -12,14 +12,14 @@ import {
   Avatar,
   Typography,
   IconButton,
-  Button
+  Button,
 } from "@naturacosmeticos/natds-web";
 
 import {
   FavoriteBorder as FavoriteBorderIcon,
   ShareOutlined as ShareOutlinedIcon,
   ExpandMore as ExpandMoreIcon,
-  MoreVert as MoreVertIcon
+  MoreVert as MoreVertIcon,
 } from "@material-ui/icons";
 import { makeStyles, createStyles, Theme } from "@material-ui/core";
 import clsx from "clsx";
@@ -27,48 +27,46 @@ import clsx from "clsx";
 import CardDocs from "./Card.docs.mdx";
 
 export default {
-  "title": "Components|Card",
-  "component": Card,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Card",
+  component: Card,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Card"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Card"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": CardDocs
-    }
-  }
+    docs: {
+      page: CardDocs,
+    },
+  },
 };
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
-  "expand": {
-    "transform": "rotate(0deg)",
-    "marginLeft": "auto",
-    "transition": theme.transitions.create("transform", {
-      "duration": theme.transitions.duration.shortest
-    })
+  expand: {
+    transform: "rotate(0deg)",
+    marginLeft: "auto",
+    transition: theme.transitions.create("transform", {
+      duration: theme.transitions.duration.shortest,
+    }),
   },
-  "expandOpen": {
-    "transform": "rotate(180deg)"
-  }
-})
+  expandOpen: {
+    transform: "rotate(180deg)",
+  },
+}),
 );
 
 const source: any = {
-  "avatar": require("../../assets/images/1.png"),
-  "media": require("../../assets/images/media.jpeg")
+  avatar: require("../../assets/images/1.png"),
+  media: require("../../assets/images/media.jpeg"),
 };
 
 export const Interactive = () => {
   const classes = useStyles();
   const [
-    expanded,
-    setExpanded
+    expanded, setExpanded,
   ] = React.useState(false);
 
   const handleExpandClick = () => {
@@ -76,7 +74,7 @@ export const Interactive = () => {
   };
 
   return (
-    <Card style={{ "maxWidth": number("Card maxWidth", 328) }}>
+    <Card style={{ maxWidth: number("Card maxWidth", 328) }}>
       <CardHeader
         avatar={<Avatar src={source.avatar} color="default" />}
         action={
@@ -88,7 +86,7 @@ export const Interactive = () => {
         subheader={<Typography variant="body2">Body 2</Typography>}
       />
       <CardMedia
-        style={{ "height": number("CardMedia height", 184) }}
+        style={{ height: number("CardMedia height", 184) }}
         image={source.media}
         title="media image"
       />
@@ -107,7 +105,7 @@ export const Interactive = () => {
         <IconButton aria-label="share" children={<ShareOutlinedIcon />} />
         <IconButton
           className={clsx(classes.expand, {
-            [classes.expandOpen]: expanded
+            [classes.expandOpen]: expanded,
           })}
           onClick={handleExpandClick}
           aria-expanded={expanded}
@@ -132,7 +130,7 @@ export const Interactive = () => {
   );
 };
 
-export const Simple = () => <Card style={{ "maxWidth": 328 }}>
+export const Simple = () => <Card style={{ maxWidth: 328 }}>
   <CardContent>
     <Typography variant="overline" color="textSecondary">
         OVERLINE
@@ -150,9 +148,9 @@ export const Simple = () => <Card style={{ "maxWidth": 328 }}>
     <Button size="small">BUTTON</Button>
   </CardActions>
 </Card>;
-export const Media = () => <Card style={{ "maxWidth": 328 }}>
+export const Media = () => <Card style={{ maxWidth: 328 }}>
   <CardMedia
-    style={{ "height": 184 }}
+    style={{ height: 184 }}
     image={source.media}
     title="media image"
   />
@@ -170,4 +168,3 @@ export const Media = () => <Card style={{ "maxWidth": 328 }}>
     <Button aria-label="button" children="button" />
   </CardActions>
 </Card>;
-

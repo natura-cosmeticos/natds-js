@@ -1,11 +1,11 @@
 import * as React from "react";
-import tokensParams from "../../shared";
 import Table from "@addons/Table";
-import { parseColortokens } from "../shared";
 import { tokens } from "@naturacosmeticos/natds-styles";
+import tokensParams from "../../shared";
+import { parseColortokens } from "../shared";
 
 const {
-  "colorTokens": { theBodyShopLightColorTokens, theBodyShopDarkColorTokens }
+  colorTokens: { theBodyShopLightColorTokens, theBodyShopDarkColorTokens },
 } = tokens;
 
 const LightComponent = () => <Table
@@ -18,18 +18,18 @@ const DarkComponent = () => <Table
 />;
 
 export default {
-  "title": "Design Tokens|Themes/TheBodyShop",
-  "parameters": {
-    "docs": {
-      "container": null,
-      "page": () => <div>
+  title: "Design Tokens|Themes/TheBodyShop",
+  parameters: {
+    docs: {
+      container: null,
+      page: () => <div>
         <LightComponent />
         <DarkComponent />
-      </div>
+      </div>,
 
     },
-    ...tokensParams
-  }
+    ...tokensParams,
+  },
 };
 
 export const Light = () => <LightComponent />;

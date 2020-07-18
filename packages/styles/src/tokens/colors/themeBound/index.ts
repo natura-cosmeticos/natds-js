@@ -2,7 +2,7 @@ import { naturaDarkColorTokens, naturaLightColorTokens } from "./natura";
 import { avonDarkColorTokens, avonLightColorTokens } from "./avon";
 import {
   theBodyShopDarkColorTokens,
-  theBodyShopLightColorTokens
+  theBodyShopLightColorTokens,
 } from "./theBodyShop";
 
 export const colorTokens = {
@@ -11,5 +11,5 @@ export const colorTokens = {
   naturaDarkColorTokens,
   naturaLightColorTokens,
   theBodyShopDarkColorTokens,
-  theBodyShopLightColorTokens
+  theBodyShopLightColorTokens,
 };

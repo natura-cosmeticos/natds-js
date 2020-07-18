@@ -1,3 +1,5 @@
+/* eslint-disable complexity */
+/* eslint-disable max-lines */
 import React, { FunctionComponent, forwardRef, useState } from "react";
 import styled from "styled-components";
 import MaskedInput from "react-text-mask";
@@ -8,7 +10,7 @@ import {
   getBorderByState,
   getColorByState,
   getProp,
-  stateStyles
+  stateStyles,
 } from "./shared";
 import PasswordReveal from "./PasswordReveal";
 import SearchClear from "./SearchClear";
@@ -19,6 +21,9 @@ export const SEARCH_TYPE = "search";
 export const PASSWORD_TYPE = "password";
 export const DATE = "date";
 
+/**
+ * @todo refactor(web): refactor Field component
+ */
 export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITextFieldProps, ref: any) => {
   const {
     className,
@@ -49,12 +54,10 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
   }
 
   const [
-      showing,
-      togglePasswordReveal
+      showing, togglePasswordReveal,
     ] = useState(false),
     [
-      value,
-      setValue
+      value, setValue,
     ] = useState(""),
     customType = showing ? TEXT_TYPE : type,
     showPasswordReveal = type === PASSWORD_TYPE && !icon,
@@ -95,8 +98,8 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
         ref={ref}
         {...rest}
       />
-      {showPasswordReveal &&
-          <PasswordReveal
+      {showPasswordReveal
+          && <PasswordReveal
             theme={theme}
             showing={showing}
             onTogglePasswordReveal={togglePasswordReveal}
@@ -104,15 +107,15 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
             hidePasswordIcon={hidePasswordIcon}
           />
       }
-      {showSearchClear &&
-          <SearchClear
+      {showSearchClear
+          && <SearchClear
             theme={theme}
             onClearSearch={clearSearch}
             searchIcon={searchIcon}
           />
       }
-      {icon &&
-          <CustomIcon theme={theme} icon={icon} onIconPress={onIconPress} />
+      {icon
+          && <CustomIcon theme={theme} icon={icon} onIconPress={onIconPress} />
       }
     </FieldContainer>
   );

@@ -1,19 +1,21 @@
 import * as React from "react";
-import { text, number, boolean, select } from "@storybook/addon-knobs";
+import {
+  text, number, boolean, select,
+} from "@storybook/addon-knobs";
 import { Paper, Typography } from "@naturacosmeticos/natds-web";
 import { makeStyles } from "@material-ui/core/styles";
 
 export const Interactive = () => {
   const useStyles = makeStyles((theme) => ({
-    "root": {
-      "padding": theme.spacing(3, 2)
-    }
+    root: {
+      padding: theme.spacing(3, 2),
+    },
   }));
   const classes = useStyles();
 
   const variant: any = {
-    "elevation": "elevation",
-    "outlined": "outlined"
+    elevation: "elevation",
+    outlined: "outlined",
   };
 
   return (
@@ -29,7 +31,7 @@ export const Interactive = () => {
       <Typography component="p">
         {text(
           "Body Text",
-          "Paper can be used to build surface or other elements for your application."
+          "Paper can be used to build surface or other elements for your application.",
         )}
       </Typography>
     </Paper>

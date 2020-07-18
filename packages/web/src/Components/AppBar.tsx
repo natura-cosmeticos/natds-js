@@ -16,21 +16,21 @@ const defaultAppBarElevation = 2;
 
 export const AppBar: FunctionComponent<IAppBarProps> = forwardRef((
   props: Omit<IAppBarProps, "translate">,
-  ref: any
+  ref: any,
 ) => {
   const {
       elevation,
-      "theme": providerTheme,
-      classes
+      theme: providerTheme,
+      classes,
     } = props,
 
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
 
     useStyles = React.useMemo(() => makeStyles({
-      "colorDefault": {
-        "backgroundColor": theme.palette.background.paper,
-        "color": theme.palette.background.paperContrastText
-      }
+      colorDefault: {
+        backgroundColor: theme.palette.background.paper,
+        color: theme.palette.background.paperContrastText,
+      },
     }), [theme]),
 
     customClasses = useStyles();
@@ -42,8 +42,10 @@ export const AppBar: FunctionComponent<IAppBarProps> = forwardRef((
 
   return <MaterialAppBar
     {...props}
-    classes={{...customClasses,
-      ...classes}}
+    classes={{
+      ...customClasses,
+      ...classes,
+    }}
     elevation={!elevation && elevation !== NO_ELEVATION ? defaultAppBarElevation : elevation}
     ref={ref}
   />;

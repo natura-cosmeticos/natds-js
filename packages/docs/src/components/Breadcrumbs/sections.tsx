@@ -3,7 +3,7 @@ import {
   Breadcrumbs,
   Typography,
   Link,
-  Icon
+  Icon,
 } from "@naturacosmeticos/natds-web";
 import { makeStyles } from "@material-ui/core/styles";
 
@@ -31,17 +31,17 @@ const BreadcrumbsWrapper = (props: IBreadcrumbsWrapper) => {
 
 const BreadcrumbsIconsWrapper = (props: IBreadcrumbsWrapper) => {
   const useStyles = makeStyles((theme) => ({
-    "link": {
-      "display": "flex"
+    link: {
+      display: "flex",
     },
-    "label": {
+    label: {
       "&:hover": {
-        "textDecoration": "underline"
-      }
+        textDecoration: "underline",
+      },
     },
-    "icon": {
-      "marginRight": "4px"
-    }
+    icon: {
+      marginRight: "4px",
+    },
   }));
 
   const classes = useStyles();
@@ -74,22 +74,22 @@ const BreadcrumbsIconsWrapper = (props: IBreadcrumbsWrapper) => {
 
 export const separators = [
   {
-    "title": " ",
-    "component": <BreadcrumbsWrapper separator="/" />
+    title: " ",
+    component: <BreadcrumbsWrapper separator="/" />,
   },
   {
-    "title": " ",
-    "component": <BreadcrumbsWrapper separator="-" />
+    title: " ",
+    component: <BreadcrumbsWrapper separator="-" />,
   },
   {
-    "title": " ",
-    "component": <BreadcrumbsWrapper separator=">" />
-  }
+    title: " ",
+    component: <BreadcrumbsWrapper separator=">" />,
+  },
 ];
 
 export const icons = [
   {
-    "title": " ",
-    "component": <BreadcrumbsIconsWrapper />
-  }
+    title: " ",
+    component: <BreadcrumbsIconsWrapper />,
+  },
 ];

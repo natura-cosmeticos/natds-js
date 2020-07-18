@@ -32,14 +32,14 @@ export default ComponentWithLabel;
  * @constructor
  */
 // eslint-disable-next-line func-style
-function BuildComponentItem ({ title, component }: IComponentWithLabelItem, key: number) {
+function BuildComponentItem({ title, component }: IComponentWithLabelItem, key: number) {
 
   /**
    * @todo refactor(docs): remove unexpected/invalid this
    */
   // @ts-ignore
   const { itemsPerRow = "auto" }:any = this;
-  const styles = itemsPerRow === "auto" ? {} : { "flexBasis": `${100 / itemsPerRow}%` };
+  const styles = itemsPerRow === "auto" ? {} : { flexBasis: `${100 / itemsPerRow}%` };
 
   return (
     <li className="component__item" key={key} style={styles}>

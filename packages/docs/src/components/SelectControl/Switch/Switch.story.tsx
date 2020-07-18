@@ -8,22 +8,21 @@ import { PropTypes } from "@material-ui/core";
 import SwitchDocs from "./Switch.docs.mdx";
 
 export default {
-  "title": "Components|SelectControl/Switch",
-  "component": [Switch],
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|SelectControl/Switch",
+  component: [Switch],
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Switch"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Switch"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": SwitchDocs
-    }
-  }
+    docs: {
+      page: SwitchDocs,
+    },
+  },
 };
 
 const primary: PropTypes.Color = "primary";
@@ -33,7 +32,7 @@ const defaultColorPropType: PropTypes.Color = "default";
 const colors: any = {
   primary,
   secondary,
-  "default": defaultColorPropType
+  default: defaultColorPropType,
 };
 
 export const Interactive = () => <Switch
@@ -41,4 +40,3 @@ export const Interactive = () => <Switch
   checked={boolean("checked", true)}
   disabled={boolean("disabled", false)}
 />;
-
