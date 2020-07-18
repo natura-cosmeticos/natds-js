@@ -7,16 +7,16 @@ import { theBodyShopDark } from "./themes/theBodyShop/the-body-shop-dark";
 export { ITheme } from "./themes/ITheme";
 
 export default {
-  natura: {
-    light: naturaLight,
-    dark: naturaDark
+  "avon": {
+    "dark": avonDark,
+    "light": avonLight
   },
-  avon: {
-    light: avonLight,
-    dark: avonDark
+  "natura": {
+    "dark": naturaDark,
+    "light": naturaLight
   },
-  theBodyShop: {
-    light: theBodyShopLight,
-    dark: theBodyShopDark
-  },
+  "theBodyShop": {
+    "dark": theBodyShopDark,
+    "light": theBodyShopLight
+  }
 };

@@ -1,12 +1,9 @@
-/**
- * @todo Review/re-enable `no-construct` tslint rule
- */
-import React, { FunctionComponent, Dispatch, SetStateAction, ComponentType } from 'react';
-import styled from 'styled-components';
-import ClearRounded from '@material-ui/icons/ClearRounded';
+import React, { ComponentType, Dispatch, FunctionComponent, SetStateAction } from "react";
+import styled from "styled-components";
+import ClearRounded from "@material-ui/icons/ClearRounded";
 
-import { IThemeWeb } from 'Themes';
-import { tokens } from '@naturacosmeticos/natds-styles';
+import { IThemeWeb } from "Themes";
+import { tokens } from "@naturacosmeticos/natds-styles";
 
 export interface ISearchClear {
   theme: IThemeWeb | unknown;
@@ -26,8 +23,8 @@ const SearchIconStyles = `
 `;
 
 export const SearchClear: FunctionComponent<ISearchClear> = (props: ISearchClear) => {
-  const { theme, onClearSearch, searchIcon = ClearRounded } = props;
-  const Component: ComponentType<any> = styled(searchIcon)`${SearchIconStyles}`;
+  const { theme, onClearSearch, searchIcon = ClearRounded } = props,
+    Component: ComponentType<any> = styled(searchIcon)`${SearchIconStyles}`;
 
   return (
     <Component

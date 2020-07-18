@@ -1,20 +1,34 @@
-const fs = require('fs');
-const path = require('path');
-const version = process.argv[2];
+const fs = require("fs");
+const path = require("path");
 
-configFilePath = path.resolve(__dirname, '..', '..', 'packages', 'docs', 'dist', 'versions_config.json');
+const VERSION_ARGUMENT_INDEX = 2;
+const version = process.argv[VERSION_ARGUMENT_INDEX];
 
-console.info(`STORYBOOK Opening ${configFilePath}...`)
+const configFilePath = path.resolve(__dirname, "..", "..", "packages", "docs", "dist", "versions_config.json");
+
+console.info(`STORYBOOK Opening ${configFilePath}...`);
 const versionsConfig = require(configFilePath);
 
-console.info(`STORYBOOK Adding ${version} to versions list...`)
-versionsConfig[0].versions = [version, ...versionsConfig[0].versions];
+const FIRST_INDEX = 0;
+const VERSIONS_CONFIG_SPACES = 2;
 
-console.info(`STORYBOOK Removing duplicate versions from versions list...`)
-const uniqueArrayCallback = (element, position) => versionsConfig[0].versions.indexOf(element) === position
-versionsConfig[0].versions = versionsConfig[0].versions.filter(uniqueArrayCallback)
+console.info(`STORYBOOK Adding ${version} to versions list...`);
+versionsConfig[FIRST_INDEX].versions = [
+  version,
+  ...versionsConfig[FIRST_INDEX].versions
+];
 
-console.info(`STORYBOOK Writing new versions list to ${configFilePath}...`)
-fs.writeFileSync(configFilePath, JSON.stringify(versionsConfig, null, 2))
+console.info("STORYBOOK Removing duplicate versions from versions list...");
+const uniqueArrayCallback = (element, position) => versionsConfig[FIRST_INDEX].versions.indexOf(element) === position;
 
-console.info('STORYBOOK Done writing new versions. Now create a PR from ${TRAVIS_BUILD_DIR}-docs to master-docs.')
+versionsConfig[FIRST_INDEX].versions = versionsConfig[FIRST_INDEX].versions.filter(uniqueArrayCallback);
+
+console.info(`STORYBOOK Writing new versions list to ${configFilePath}...`);
+
+/**
+ * @todo fix: convert Storybook versions write file sync method to async
+ */
+// eslint-disable-next-line no-sync
+fs.writeFileSync(configFilePath, JSON.stringify(versionsConfig, null, VERSIONS_CONFIG_SPACES));
+
+console.info("STORYBOOK Done writing new versions");

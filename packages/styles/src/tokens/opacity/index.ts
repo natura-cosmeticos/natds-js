@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 import { IOpacity } from "./IOpacity";
 
 export const opacity: IOpacity = {

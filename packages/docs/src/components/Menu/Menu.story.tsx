@@ -1,22 +1,25 @@
-import * as React from 'react';
-import { Menu, MenuItem, Button } from '@naturacosmeticos/natds-web';
-import withJest from '@decorators/jest/jest';
-import withContainer from '@decorators/container/withContainer';
-import { boolean } from '@storybook/addon-knobs';
-import MenuDocs from './Menu.docs.mdx';
+import * as React from "react";
+import { Menu, MenuItem, Button } from "@naturacosmeticos/natds-web";
+import withJest from "@decorators/jest/jest";
+import withContainer from "@decorators/container/withContainer";
+import { boolean } from "@storybook/addon-knobs";
+import MenuDocs from "./Menu.docs.mdx";
 
 export default {
-  title: 'Components|Menu',
-  component: Menu,
-  decorators: [withJest(), withContainer],
-  parameters: {
-    jestImportPath: 'web',
-    jest: ['Menu'],
-    theme: {
-      context: 'web'
+  "title": "Components|Menu",
+  "component": Menu,
+  "decorators": [
+    withJest(),
+    withContainer
+  ],
+  "parameters": {
+    "jestImportPath": "web",
+    "jest": ["Menu"],
+    "theme": {
+      "context": "web"
     },
-    docs: {
-      page: MenuDocs
+    "docs": {
+      "page": MenuDocs
     }
   }
 };
@@ -38,8 +41,14 @@ const Item = React.forwardRef((props: any, ref: any) => {
 });
 
 export const Interactive = () => {
-  const [anchorEl, setAnchorEl] = React.useState(null);
-  const [selected, setSelected] = React.useState(null);
+  const [
+    anchorEl,
+    setAnchorEl
+  ] = React.useState(null);
+  const [
+    selected,
+    setSelected
+  ] = React.useState(null);
 
   const handleButtonClick = (event: any) => {
     setAnchorEl(event.currentTarget);
@@ -47,15 +56,22 @@ export const Interactive = () => {
 
   const handleItemClick = (event: any) => {
     const selectedItem = event.target.dataset.key;
-    const newSelected = selected !== selectedItem ? selectedItem : null;
+    let newSelected = null;
+
+    if (selected !== selectedItem) {
+      newSelected = selectedItem;
+    }
+
     setSelected(newSelected);
     setAnchorEl(null);
   };
 
-  const button = boolean('button', true);
+  const button = boolean("button", true);
 
   const itemProps = {
-    button, selected, handleItemClick
+    button,
+    selected,
+    handleItemClick
   };
 
   return (

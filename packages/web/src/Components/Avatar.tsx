@@ -1,19 +1,21 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import MaterialAvatar, { AvatarProps as MaterialAvatarProps } from '@material-ui/core/Avatar';
-import { withTheme } from '@material-ui/styles';
-import { IAvatarSizes } from '@naturacosmeticos/natds-styles';
-import { IThemeWeb } from 'Themes';
+import React, { FunctionComponent, forwardRef } from "react";
+import MaterialAvatar, { AvatarProps as MaterialAvatarProps } from "@material-ui/core/Avatar";
+import { withTheme } from "@material-ui/styles";
+import { IAvatarSizes } from "@naturacosmeticos/natds-styles";
+import { IThemeWeb } from "Themes";
 
 export type AvatarSizes = keyof IAvatarSizes;
-export type AvatarColors = 'primary' | 'secondary' | 'default' | string;
+export type AvatarColors = "primary" | "secondary" | "default" | string;
 
 export interface IAvatarProps extends MaterialAvatarProps {
+
   /**
    * @optional
    * @default 'standard'
    * Size of the Avatar
    */
   size?: AvatarSizes;
+
   /**
    * @optional
    * @default 'primary'
@@ -37,51 +39,45 @@ export const Avatar: FunctionComponent<IAvatarProps> = forwardRef((
 });
 
 const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
-  /**
-   * @todo Fix `no-unused-expression` detected by tslint
-   */
-  // tslint:disable-next-line:no-unused-expression
-  if (!size) return {};
 
-  const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
+    if (!size) {
+      return {};
+    }
 
-  /**
-   * @todo Fix `no-unused-expression` detected by tslint
-   */
-  // tslint:disable-next-line:no-unused-expression
-  if (!avatarSizes) return {};
+    const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
 
-  const value = avatarSizes[size];
-  const sizeInPx = `${value.size}px`;
+    if (!avatarSizes) {
+      return {};
+    }
 
-  return {
-    width: sizeInPx,
-    height: sizeInPx,
-    fontSize: value.fontSize
+    const value = avatarSizes[size],
+      sizeInPx = `${value.size}px`;
+
+    return {
+      "fontSize": value.fontSize,
+      "height": sizeInPx,
+      "width": sizeInPx
+    };
+  },
+
+  withColors = (color: AvatarColors | undefined, theme: any = {}) => {
+
+    if (!color) {
+      return {};
+    }
+
+    const { palette = {} }: { palette: any } = theme,
+
+      selectedColor = palette[color];
+
+    if (!selectedColor || color === "default") {
+      return {};
+    }
+
+    return {
+      "background": selectedColor.main,
+      "color": selectedColor.contrastText
+    };
   };
-};
-
-const withColors = (color: AvatarColors | undefined, theme: any = {}) => {
-  /**
-   * @todo Fix `no-unused-expression` detected by tslint
-   */
-  // tslint:disable-next-line:no-unused-expression
-  if (!color) return {};
-
-  const { palette = {} }: { palette: any } = theme;
-
-  const selectedColor = palette[color];
-
-  /**
-   * @todo Fix `no-unused-expression` detected by tslint
-   */
-  // tslint:disable-next-line:no-unused-expression
-  if (!selectedColor || color === 'default') return {};
-
-  return {
-    color: selectedColor.contrastText,
-    background: selectedColor.main
-  };
-};
 
 export default withTheme(Avatar);

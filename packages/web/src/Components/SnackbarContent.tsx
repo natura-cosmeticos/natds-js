@@ -1,26 +1,28 @@
-import React, { FunctionComponent, forwardRef } from 'react';
+import React, { FunctionComponent, forwardRef } from "react";
 import MaterialSnackbarContent, {
-  SnackbarContentProps,
-} from '@material-ui/core/SnackbarContent';
-import { withTheme, makeStyles } from '@material-ui/core/styles';
-import clsx from 'clsx';
+  SnackbarContentProps
+} from "@material-ui/core/SnackbarContent";
+import { makeStyles, withTheme } from "@material-ui/core/styles";
+import clsx from "clsx";
 
-import { IThemeWeb } from '../Themes';
-import { getDefaultTheme } from './shared';
+import { IThemeWeb } from "../Themes";
+import { getDefaultTheme } from "./shared";
 
 type ISnackbarContentColors =
-  | 'default'
-  | 'info'
-  | 'warning'
-  | 'error'
-  | 'success';
+  | "default"
+  | "info"
+  | "warning"
+  | "error"
+  | "success";
 
 export interface ISnackbarContentProps
-  extends Omit<SnackbarContentProps, 'theme' | 'color'> {
+  extends Omit<SnackbarContentProps, "theme" | "color"> {
+
   /**
    * @optional
    */
   theme?: IThemeWeb | unknown;
+
   /**
    * @optional
    * @default 'default'
@@ -33,40 +35,38 @@ export const SnackbarContent: FunctionComponent<ISnackbarContentProps> = forward
   props: ISnackbarContentProps,
   ref: any
 ) => {
-  const { color = 'default', theme: providerTheme, className, ...rest } = props;
+  const { color = "default", "theme": providerTheme, className, ...rest } = props,
 
-  const theme: any = React.useMemo(() => {
-    return getDefaultTheme(providerTheme);
-  }, [providerTheme]);
+    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
 
-  const useStyles = React.useMemo(() => {
-    const { complementary, error, success, background } = theme.palette;
+    useStyles = React.useMemo(() => {
+      const { complementary, error, success, background } = theme.palette;
 
-    return makeStyles({
-      default: {
-        backgroundColor: background.paperContrastText,
-        color: background.paper,
-      },
-      info: {
-        backgroundColor: complementary.link,
-        color: complementary.linkContrastText,
-      },
-      warning: {
-        backgroundColor: complementary.warning,
-        color: complementary.warningContrastText,
-      },
-      error: {
-        backgroundColor: error.main,
-        color: error.contrastText,
-      },
-      success: {
-        backgroundColor: success.main,
-        color: success.contrastText,
-      },
-    });
-  }, [theme]);
+      return makeStyles({
+        "default": {
+          "backgroundColor": background.paperContrastText,
+          "color": background.paper
+        },
+        "error": {
+          "backgroundColor": error.main,
+          "color": error.contrastText
+        },
+        "info": {
+          "backgroundColor": complementary.link,
+          "color": complementary.linkContrastText
+        },
+        "success": {
+          "backgroundColor": success.main,
+          "color": success.contrastText
+        },
+        "warning": {
+          "backgroundColor": complementary.warning,
+          "color": complementary.warningContrastText
+        }
+      });
+    }, [theme]),
 
-  const classes = useStyles();
+    classes = useStyles();
 
   return (
     <MaterialSnackbarContent

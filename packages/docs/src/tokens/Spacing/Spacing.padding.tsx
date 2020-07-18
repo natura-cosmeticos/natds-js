@@ -1,13 +1,13 @@
-import * as React from 'react';
+import * as React from "react";
 
-import './styles.scss';
-import { ISpacing } from '@naturacosmeticos/natds-styles';
+import "./styles.scss";
+import { ISpacing } from "@naturacosmeticos/natds-styles";
 
 interface ISpacingPaddingComponent {
   spacing: any;
 }
 
-function buildLists(spacing: ISpacing) {
+const buildLists = (spacing: ISpacing) => {
   const {
     spacingMicro,
     spacingTiny,
@@ -20,87 +20,87 @@ function buildLists(spacing: ISpacing) {
 
   const paddingFull = [
     {
-      name: 'p={spacingHuge}',
-      border: `${spacingHuge}px`,
-      value: spacingHuge
+      "name": "p={spacingHuge}",
+      "border": `${spacingHuge}px`,
+      "value": spacingHuge
     },
     {
-      name: 'p={spacingLarge}',
-      border: `${spacingLarge}px`,
-      value: spacingLarge
+      "name": "p={spacingLarge}",
+      "border": `${spacingLarge}px`,
+      "value": spacingLarge
     },
     {
-      name: 'p={spacingSemi}',
-      border: `${spacingSemi}px`,
-      value: spacingSemi
+      "name": "p={spacingSemi}",
+      "border": `${spacingSemi}px`,
+      "value": spacingSemi
     },
     {
-      name: 'p={spacingStandard}',
-      border: `${spacingStandard}px`,
-      value: spacingStandard
+      "name": "p={spacingStandard}",
+      "border": `${spacingStandard}px`,
+      "value": spacingStandard
     },
     {
-      name: 'p={spacingSmall}',
-      border: `${spacingSmall}px`,
-      value: spacingSmall
+      "name": "p={spacingSmall}",
+      "border": `${spacingSmall}px`,
+      "value": spacingSmall
     },
     {
-      name: 'p={spacingTiny}',
-      border: `${spacingTiny}px`,
-      value: spacingTiny
+      "name": "p={spacingTiny}",
+      "border": `${spacingTiny}px`,
+      "value": spacingTiny
     },
     {
-      name: 'p={spacingMicro}',
-      border: `${spacingMicro}px`,
-      value: spacingMicro
+      "name": "p={spacingMicro}",
+      "border": `${spacingMicro}px`,
+      "value": spacingMicro
     }
   ];
 
   const paddingSingle = [
     {
-      name: 'pt={spacingHuge}',
-      border: `${spacingHuge}px 0 0`,
-      value: spacingHuge
+      "name": "pt={spacingHuge}",
+      "border": `${spacingHuge}px 0 0`,
+      "value": spacingHuge
     },
     {
-      name: 'pr={spacingLarge}',
-      border: `0 ${spacingLarge}px 0 0`,
-      value: spacingLarge
+      "name": "pr={spacingLarge}",
+      "border": `0 ${spacingLarge}px 0 0`,
+      "value": spacingLarge
     },
     {
-      name: 'pb={spacingSemi}',
-      border: `0 0 ${spacingSemi}px`,
-      value: spacingSemi
+      "name": "pb={spacingSemi}",
+      "border": `0 0 ${spacingSemi}px`,
+      "value": spacingSemi
     },
     {
-      name: 'pl={spacingStandard}',
-      border: `0 0 0 ${spacingStandard}px`,
-      value: spacingStandard
+      "name": "pl={spacingStandard}",
+      "border": `0 0 0 ${spacingStandard}px`,
+      "value": spacingStandard
     },
     {
-      name: 'pt={spacingSmall}',
-      border: `${spacingSmall}px 0 0`,
-      value: spacingSmall
+      "name": "pt={spacingSmall}",
+      "border": `${spacingSmall}px 0 0`,
+      "value": spacingSmall
     },
     {
-      name: 'pr={spacingTiny}',
-      border: `0 ${spacingTiny}px 0 0`,
-      value: spacingTiny
+      "name": "pr={spacingTiny}",
+      "border": `0 ${spacingTiny}px 0 0`,
+      "value": spacingTiny
     },
     {
-      name: 'pb={spacingMicro}',
-      border: `0 0 ${spacingMicro}px`,
-      value: spacingMicro
+      "name": "pb={spacingMicro}",
+      "border": `0 0 ${spacingMicro}px`,
+      "value": spacingMicro
     },
     {
-      name: 'py={spacingSemi}',
-      border: `${spacingSemi}px 0`,
-      value: spacingSemi
+      "name": "py={spacingSemi}",
+      "border": `${spacingSemi}px 0`,
+      "value": spacingSemi
     },
     {
-      name: 'px={spacingSmall}',
-      border: `0 ${spacingSmall}px`,
-      value: spacingSmall
+      "name": "px={spacingSmall}",
+      "border": `0 ${spacingSmall}px`,
+      "value": spacingSmall
     }
   ];
 
@@ -108,9 +108,9 @@ function buildLists(spacing: ISpacing) {
     paddingFull,
     paddingSingle
   };
-}
+};
 
-export default function SpacingPadding(props: ISpacingPaddingComponent) {
+const SpacingPadding = (props: ISpacingPaddingComponent) => {
   const { paddingFull, paddingSingle } = buildLists(props.spacing);
 
   return (
@@ -123,13 +123,12 @@ export default function SpacingPadding(props: ISpacingPaddingComponent) {
       </div>
     </div>
   );
-}
+};
 
-function SpacingPaddingBlock({ name, value, border }: { name: string, value: number, border: string }, key: number) {
-  return (
-    <div className="spacing__padding__block" key={key}>
-      <div className="spacing__padding__box" style={{ borderWidth: border }}>text</div>
-      <h5 className="spacing__padding__name">{name}</h5>
-    </div>
-  );
-}
+export default SpacingPadding;
+
+const SpacingPaddingBlock = ({ name, value, border }: { name: string, value: number, border: string }, key: number) => <div className="spacing__padding__block" key={key}>
+  <div className="spacing__padding__box" style={{ "borderWidth": border }}>text</div>
+  <h5 className="spacing__padding__name">{name}</h5>
+</div>;
+

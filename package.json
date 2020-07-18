@@ -31,6 +31,9 @@
     "clean": "lerna clean",
     "cm": "git cz",
     "commit": "git cz",
+    "eslint": "eslint",
+    "format": "yarn lint --fix",
+    "format:staged": "yarn lint:staged --fix",
     "lerna": "lerna",
     "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog",
     "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --force-publish --yes",
@@ -42,7 +45,8 @@
     "lerna:release:publish:ci": "yarn lerna:release:publish --yes",
     "lerna:graduate:version": "lerna version --conventional-commits --conventional-graduate",
     "lerna:graduate:version:ci": "yarn lerna:graduate:version --force-publish --yes",
-    "lint": "lerna run lint",
+    "lint": "yarn eslint .",
+    "lint:staged": "yarn eslint $(git diff --name-only --diff-filter=ACM \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" | sed 's| |\\\\ |g')",
     "prebuild": "yarn lint",
     "prepare": "BUILD=production yarn test",
     "pretest": "yarn build:libs",
@@ -78,9 +82,13 @@
     "@stryker-mutator/core": "3.3.1",
     "@stryker-mutator/javascript-mutator": "3.3.1",
     "@stryker-mutator/jest-runner": "3.3.1",
+    "@typescript-eslint/eslint-plugin": "3.6.1",
+    "@typescript-eslint/parser": "3.6.1",
     "commitizen": "4.1.2",
     "concurrently": "5.2.0",
     "cz-lerna-changelog": "2.0.3",
+    "eslint": "^7.4.0",
+    "eslint-plugin-react": "7.20.3",
     "husky": "4.2.5",
     "jest": "26.1.0",
     "lerna": "3.22.1",
@@ -98,8 +106,8 @@
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn lint",
-      "pre-push": "yarn test"
+      "pre-commit": "yarn format:staged",
+      "pre-push": "yarn format && yarn test"
     }
   }
 }

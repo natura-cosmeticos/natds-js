@@ -1,3 +1,6 @@
+#!/bin/bash
+set -e
+
 git remote rm origin
 
 # This remote is using a contributor account and an OAuth key from GitHub

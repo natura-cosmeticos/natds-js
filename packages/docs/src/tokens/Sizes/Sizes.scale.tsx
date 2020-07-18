@@ -1,12 +1,12 @@
-import * as React from 'react';
+import * as React from "react";
 
-import './styles.scss';
+import "./styles.scss";
 
 interface ISizesScaleComponent {
   sizes: any;
 }
 
-export default function SizesScale(props: ISizesScaleComponent) {
+export default function SizesScale (props: ISizesScaleComponent) {
   return (
     <div className="sizes__scale">
       {Object.entries(props.sizes).map(sizeBlock)}
@@ -14,8 +14,11 @@ export default function SizesScale(props: ISizesScaleComponent) {
   );
 }
 
-function sizeBlock([name, value]: any[], key: number) {
-  const style = { width: `${value}px` };
+const sizeBlock = ([
+  name,
+  value]: any[
+], key: number) => {
+  const style = { "width": `${value}px` };
 
   return (
     <div className="sizes__scale__block" key={key}>
@@ -25,4 +28,4 @@ function sizeBlock([name, value]: any[], key: number) {
       <h5 className="sizes__scale__name">{name} | {value}</h5>
     </div>
   );
-}
+};

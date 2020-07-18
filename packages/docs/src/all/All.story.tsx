@@ -28,13 +28,13 @@ export const All = () => {
 };
 
 export default {
-  title: "Samples|All",
-  component: All,
-  decorators: [withContainer],
-  parameters: {
-    jestImportPath: "web",
-    theme: {
-      context: "web"
-    },
-  },
+  "title": "Samples|All",
+  "component": All,
+  "decorators": [withContainer],
+  "parameters": {
+    "jestImportPath": "web",
+    "theme": {
+      "context": "web"
+    }
+  }
 };

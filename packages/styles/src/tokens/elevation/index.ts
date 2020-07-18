@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 import { IElevation } from "./IElevation";
 
 export const elevation: IElevation = {
@@ -11,5 +12,5 @@ export const elevation: IElevation = {
   "9": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
   "12": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
   "16": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
-  "24": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+  "24": "0 24px 38px 0 rgba(0, 0, 0, 0.14)"
 };

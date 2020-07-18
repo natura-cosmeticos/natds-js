@@ -1,0 +1,13 @@
+.github
+.netlify
+coverage
+node_modules
+packages/*/.stryker-tmp
+packages/*/coverage
+packages/*/dist
+packages/*/node_modules
+packages/*/reports
+package.json
+reports
+scripts/lint-staged.sh
+*.spec.tsx.snap

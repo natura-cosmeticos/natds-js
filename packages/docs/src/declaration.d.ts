@@ -1,2 +1,2 @@
-declare module '*.jpg';
-declare module '*.mdx';
+declare module "*.jpg";
+declare module "*.mdx";

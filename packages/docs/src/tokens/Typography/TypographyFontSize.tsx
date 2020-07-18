@@ -1,6 +1,6 @@
-import * as React from 'react';
-import { themes } from '@naturacosmeticos/natds-styles';
-import Table from '@addons/Table';
+import * as React from "react";
+import { themes } from "@naturacosmeticos/natds-styles";
+import Table from "@addons/Table";
 
 const {
   h1,
@@ -34,22 +34,26 @@ const fontSizes:any = {
   overline
 };
 
-const mapSchema = ([key, value]: any) => {
-  return [
-    {
-      name: key,
-      type: 'text'
-    },
-    {
-      name: value.fontSize,
-      type: 'text'
-    }
-  ];
-};
+const mapSchema = ([
+  key,
+  value]:
+any) => [
+  {
+    "name": key,
+    "type": "text"
+  },
+  {
+    "name": value.fontSize,
+    "type": "text"
+  }
+];
 
 const fontSizeSchema = {
-  head: ['Tag/Key', 'Size'],
-  body: Object.entries(fontSizes).map(mapSchema)
+  "head": [
+    "Tag/Key",
+    "Size"
+  ],
+  "body": Object.entries(fontSizes).map(mapSchema)
 };
 
-export const TypographyFontSize = () => (<Table schema={fontSizeSchema} title="Font Size"/>);
+export const TypographyFontSize = () => <Table schema={fontSizeSchema} title="Font Size"/>;

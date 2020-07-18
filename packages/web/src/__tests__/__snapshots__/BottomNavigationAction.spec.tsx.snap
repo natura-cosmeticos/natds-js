@@ -313,7 +313,7 @@ exports[`BottomNavigationAction component rendering it should match to default s
     className="MuiBottomNavigationAction-wrapper"
   >
     <span
-      className="MuiBottomNavigationAction-label makeStyles-label-2 MuiBottomNavigationAction-iconOnly"
+      className="MuiBottomNavigationAction-label makeStyles-label-1 MuiBottomNavigationAction-iconOnly"
     />
   </span>
 </button>
@@ -321,7 +321,7 @@ exports[`BottomNavigationAction component rendering it should match to default s
 
 exports[`BottomNavigationAction component rendering it should match to selected snapshot: BottomNavigationAction selected snapshot 1`] = `
 <button
-  className="MuiButtonBase-root MuiBottomNavigationAction-root Mui-selected makeStyles-selected-3"
+  className="MuiButtonBase-root MuiBottomNavigationAction-root Mui-selected makeStyles-selected-4"
   disabled={false}
   onBlur={[Function]}
   onClick={[Function]}
@@ -632,7 +632,7 @@ exports[`BottomNavigationAction component rendering it should match to selected 
     className="MuiBottomNavigationAction-wrapper"
   >
     <span
-      className="MuiBottomNavigationAction-label makeStyles-label-4 Mui-selected makeStyles-selected-3"
+      className="MuiBottomNavigationAction-label makeStyles-label-3 Mui-selected makeStyles-selected-4"
     />
   </span>
   <span

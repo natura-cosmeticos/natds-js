@@ -26,9 +26,7 @@
   "scripts": {
     "build": "yarn clean && tsc -p ./tsconfig.json",
     "clean": "rm -rf dist",
-    "lint": "tslint 'src/**/*.{ts,tsx}'",
     "open:coverage": "open coverage/lcov-report/index.html",
-    "prebuild": "yarn lint",
     "prepare": "yarn snyk-protect",
     "pretest": "yarn build",
     "start": "yarn build --watch",
@@ -45,8 +43,8 @@
     "jest": "26.1.0",
     "sass": "1.26.10",
     "snyk": "^1.341.1",
-    "ts-jest": "26.1.2",
-    "typescript": "3.9.6",
+    "ts-jest": "26.1.3",
+    "typescript": "3.9.7",
     "yarn": "1.22.4"
   },
   "publishConfig": {

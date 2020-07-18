@@ -1,20 +1,20 @@
-import * as React from 'react';
-import { Paper, Typography } from '@naturacosmeticos/natds-web';
-import { makeStyles } from '@material-ui/core/styles';
+import * as React from "react";
+import { Paper, Typography } from "@naturacosmeticos/natds-web";
+import { makeStyles } from "@material-ui/core/styles";
 
 const PaperWrapper = ({
   elevation,
   variant,
-  square,
+  square
 }: {
   elevation?: any;
   variant?: any;
   square?: boolean;
 }) => {
-  const useStyles = makeStyles(theme => ({
-    root: {
-      padding: theme.spacing(3, 2),
-    },
+  const useStyles = makeStyles((theme) => ({
+    "root": {
+      "padding": theme.spacing(3, 2)
+    }
   }));
   const classes = useStyles();
 
@@ -38,30 +38,30 @@ const PaperWrapper = ({
 
 export const elevations = [
   {
-    title: '0',
-    component: <PaperWrapper elevation={0} />,
+    "title": "0",
+    "component": <PaperWrapper elevation={0} />
   },
   {
-    title: 'default',
-    component: <PaperWrapper />,
+    "title": "default",
+    "component": <PaperWrapper />
   },
   {
-    title: '3',
-    component: <PaperWrapper elevation={3} />,
-  },
+    "title": "3",
+    "component": <PaperWrapper elevation={3} />
+  }
 ];
 
 export const variants = [
   {
-    title: 'elevation',
-    component: <PaperWrapper variant="elevation" />,
+    "title": "elevation",
+    "component": <PaperWrapper variant="elevation" />
   },
   {
-    title: 'outlined',
-    component: <PaperWrapper variant="outlined" />,
+    "title": "outlined",
+    "component": <PaperWrapper variant="outlined" />
   },
   {
-    title: 'outlined square',
-    component: <PaperWrapper variant="outlined" square />,
-  },
+    "title": "outlined square",
+    "component": <PaperWrapper variant="outlined" square />
+  }
 ];
