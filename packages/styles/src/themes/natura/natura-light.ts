@@ -549,7 +549,7 @@ export const naturaLight: ITheme = {
     MuiTableSortLabel: {
       icon: {
         marginLeft: spacing.spacing,
-      }
-    }
-  }
+      },
+    },
+  },
 };

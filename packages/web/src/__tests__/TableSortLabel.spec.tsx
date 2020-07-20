@@ -1,5 +1,5 @@
-import React from 'react';
-import * as renderer from 'react-test-renderer';
+import React from "react";
+import * as renderer from "react-test-renderer";
 
 import {
   TableContainer,
@@ -8,12 +8,12 @@ import {
   TableCell,
   TableHead,
   TableSortLabel,
-  Icon
-} from '..';
+  Icon,
+} from "..";
 
-describe('TableSortLabel component', () => {
-  describe('rendering', () => {
-    test('should match to snapshot - TableSortlabel active with Icon', () => {
+describe("TableSortLabel component", () => {
+  describe("rendering", () => {
+    test("should match to snapshot - TableSortlabel active with Icon", () => {
       const component = renderer.create(
         <TableContainer>
           <Table>
@@ -23,7 +23,7 @@ describe('TableSortLabel component', () => {
                   <TableSortLabel
                     active
                     IconComponent={() => <Icon name="outlined-navigation-directionbottom" size="small" />}
-                    onClick={() => 'click'}
+                    onClick={() => "click"}
                   >
                     TableSortLabel test
                   </TableSortLabel>
@@ -31,12 +31,13 @@ describe('TableSortLabel component', () => {
               </TableRow>
             </TableHead>
           </Table>
-        </TableContainer>
+        </TableContainer>,
       );
-      expect(component.toJSON()).toMatchSnapshot('TableSortlabel active with Icon');
+
+      expect(component.toJSON()).toMatchSnapshot("TableSortlabel active with Icon");
     });
 
-    test('should match to snapshot - TableSortlabel inactive without Icon', () => {
+    test("should match to snapshot - TableSortlabel inactive without Icon", () => {
       const component = renderer.create(
         <TableContainer>
           <Table>
@@ -45,7 +46,7 @@ describe('TableSortLabel component', () => {
                 <TableCell align="center">
                   <TableSortLabel
                     active={false}
-                    onClick={() => 'click'}
+                    onClick={() => "click"}
                   >
                     TableSortLabel test
                   </TableSortLabel>
@@ -53,9 +54,10 @@ describe('TableSortLabel component', () => {
               </TableRow>
             </TableHead>
           </Table>
-        </TableContainer>
+        </TableContainer>,
       );
-      expect(component.toJSON()).toMatchSnapshot('TableSortlabel active with Icon');
+
+      expect(component.toJSON()).toMatchSnapshot("TableSortlabel active with Icon");
     });
   });
 });

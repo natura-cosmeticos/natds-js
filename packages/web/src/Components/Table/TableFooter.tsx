@@ -1,13 +1,14 @@
-import React, { FunctionComponent, forwardRef } from 'react';
+import React, { FunctionComponent, forwardRef } from "react";
 import MaterialTableFooter, {
   TableFooterProps as ITableFooterProps,
-} from '@material-ui/core/TableFooter';
-import { withTheme } from '@material-ui/core/styles';
-export { TableFooterProps as ITableFooterProps } from '@material-ui/core/TableFooter';
+} from "@material-ui/core/TableFooter";
+import { withTheme } from "@material-ui/core/styles";
+
+export { TableFooterProps as ITableFooterProps } from "@material-ui/core/TableFooter";
 
 export const TableFooter: FunctionComponent<ITableFooterProps> = forwardRef((
   props: ITableFooterProps,
-  ref: any
+  ref: any,
 ) => (
   <MaterialTableFooter {...props} ref={ref} />
 ));

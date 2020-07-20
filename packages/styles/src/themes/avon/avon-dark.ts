@@ -564,15 +564,15 @@ export const avonDark: ITheme = {
         backgroundColor: avonDarkColorTokens.colorLink,
       },
     },
-    "MuiAlertTitle": {
-      "root": {
-        ...fontSize.h6
-      }
+    MuiAlertTitle: {
+      root: {
+        ...fontSize.h6,
+      },
     },
     MuiTableSortLabel: {
       icon: {
         marginLeft: spacing.spacing,
-      }
-    }
-  }
+      },
+    },
+  },
 };

@@ -566,7 +566,7 @@ export const theBodyShopLight: ITheme = {
     MuiTableSortLabel: {
       icon: {
         marginLeft: spacing.spacing,
-      }
-    }
-  }
+      },
+    },
+  },
 };

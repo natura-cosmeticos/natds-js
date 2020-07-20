@@ -574,14 +574,14 @@ export const naturaDark: ITheme = {
       },
     },
     MuiAlertTitle: {
-      "root": {
-        ...fontSize.h6
-      }
+      root: {
+        ...fontSize.h6,
+      },
     },
     MuiTableSortLabel: {
       icon: {
         marginLeft: spacing.spacing,
-      }
-    }
-  }
+      },
+    },
+  },
 };

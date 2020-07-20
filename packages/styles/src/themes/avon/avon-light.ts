@@ -537,7 +537,7 @@ export const avonLight: ITheme = {
     MuiTableSortLabel: {
       icon: {
         marginLeft: spacing.spacing,
-      }
-    }
-  }
+      },
+    },
+  },
 };
