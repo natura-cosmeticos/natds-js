@@ -34,5 +34,5 @@ but the following list should give some indication of our plans for the next rel
 ## What do we expect for 1.0?
 
 - Only `rollup` will be used for building files;
-- Break with old `natds-styles` contract;
+- Total removal of old contract at `natds-styles`;
 - All components and tokens codes will follow `natds-commons` contracts - the single source of truth CTI structure - with multibrand, dark/light support.
