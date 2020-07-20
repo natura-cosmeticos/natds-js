@@ -37,7 +37,7 @@
     "lerna": "lerna",
     "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog --no-git-tag-version",
     "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --force-publish --yes",
-    "lerna:prerelease:publish": "lerna publish from-git --ignore-prepublish",
+    "lerna:prerelease:publish": "lerna publish from-git --canary --ignore-prepublish",
     "lerna:prerelease:publish:ci": "yarn lerna:prerelease:publish --yes",
     "lerna:release:version": "lerna version --allow-branch master --conventional-commits",
     "lerna:release:version:ci": "yarn lerna:release:version --create-release github --yes",
