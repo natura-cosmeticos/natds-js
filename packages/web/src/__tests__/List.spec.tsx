@@ -12,7 +12,7 @@ import {
   ListItemIcon,
   ListItemSecondaryAction,
   ListItemText,
-  ListSubheader
+  ListSubheader,
 } from "..";
 
 describe("List components", () => {

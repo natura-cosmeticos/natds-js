@@ -12,12 +12,13 @@ export interface IDrawerBodyProps {
 
 export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
   props: IDrawerBodyProps,
-  ref: any
+  ref: any,
 ) => {
-  const { children, component, "theme": providerTheme, ...rest } = props;
+  const {
+    children, component, theme: providerTheme, ...rest
+  } = props;
   const [
-    scrolled,
-    setScrolled
+    scrolled, setScrolled,
   ] = useState(false);
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
   const SCROLL_POSITION_ZERO = 0;

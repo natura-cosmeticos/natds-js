@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
 
-import { AppBar } from "../";
+import { AppBar } from "..";
 
 describe("AppBar component", () => {
   describe("rendering", () => {

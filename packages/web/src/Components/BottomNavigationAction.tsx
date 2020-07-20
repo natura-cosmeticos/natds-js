@@ -14,10 +14,10 @@ export interface IBottomNavigationActionProps extends BottomNavigationActionProp
 
 export const BottomNavigationAction: FunctionComponent<IBottomNavigationActionProps> = forwardRef((
   props: IBottomNavigationActionProps,
-  ref: any
+  ref: any,
 ) => {
   const {
-      "theme": providerTheme
+      theme: providerTheme,
     } = props,
 
     theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
@@ -33,17 +33,17 @@ export const BottomNavigationAction: FunctionComponent<IBottomNavigationActionPr
       /**
        * @todo fix(web): TS2339 - Property 'typography' does not exist on type 'unknown'.
        */
-      const { "typography": { caption } } = theme;
+      const { typography: { caption } } = theme;
 
       return makeStyles({
-        "label": {
+        label: {
           "&$selected": {
-            "fontSize": caption.fontSize
-          }
+            fontSize: caption.fontSize,
+          },
         },
-        "selected": {
-          "color": text.primary
-        }
+        selected: {
+          color: text.primary,
+        },
       });
     }, [theme]),
 

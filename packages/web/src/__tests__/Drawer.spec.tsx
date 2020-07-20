@@ -5,16 +5,16 @@ import { mount } from "enzyme";
 import Drawer from "../Components/Drawer";
 
 export const anchors: any = {
-  "left": "left",
-  "top": "top",
-  "right": "right",
-  "bottom": "bottom"
+  left: "left",
+  top: "top",
+  right: "right",
+  bottom: "bottom",
 };
 
 export const variants: any = {
-  "permanent": "permanent",
-  "persistent": "persistent",
-  "temporary": "temporary"
+  permanent: "permanent",
+  persistent: "persistent",
+  temporary: "temporary",
 };
 
 describe("Drawer component", () => {

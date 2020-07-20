@@ -4,75 +4,75 @@ import Favorite from "@material-ui/icons/Favorite";
 
 export const types = [
   {
-    "title": "Standard",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" />
+    title: "Standard",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" />,
   },
   {
-    "title": "Search",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="search" />
+    title: "Search",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="search" />,
   },
   {
-    "title": "Password",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="password" />
+    title: "Password",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="password" />,
   },
 
   /**
    * @todo feat(docs): replace alert() call by SnackBar or another alerting strategy
    */
   {
-    "title": "Custom Icon",
+    title: "Custom Icon",
     // eslint-disable-next-line no-alert
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="text" icon={<Favorite />} onIconPress={() => alert("Favorited!")} />
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" type="text" icon={<Favorite />} onIconPress={() => alert("Favorited!")} />,
   },
   {
-    "title": "Multiline",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" multiline rows="4" />
-  }
+    title: "Multiline",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" multiline rows="4" />,
+  },
 ];
 
 export const states = [
   {
-    "title": "Standard",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" />
+    title: "Standard",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" />,
   },
   {
-    "title": "Filled",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" value="Hello World" />
+    title: "Filled",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" value="Hello World" />,
   },
   {
-    "title": "Success",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" state="success" />
+    title: "Success",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" state="success" />,
   },
   {
-    "title": "Error",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" state="error" />
-  }
+    title: "Error",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" state="error" />,
+  },
 ];
 
 export const attributes = [
   {
-    "title": "Required",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" required />
+    title: "Required",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" required />,
   },
   {
-    "title": "Disabled",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" disabled />
+    title: "Disabled",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" disabled />,
   },
   {
-    "title": "Readonly",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly />
+    title: "Readonly",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly />,
   },
   {
-    "title": "Readonly Filled",
-    "component": <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly value="Hello World" />
+    title: "Readonly Filled",
+    component: <TextField label="Label" helpText="Assistive text" placeholder="Placeholder" readOnly value="Hello World" />,
   },
   {
-    "title": "Without helper text",
-    "component": <TextField label="Label" placeholder="Placeholder" />
+    title: "Without helper text",
+    component: <TextField label="Label" placeholder="Placeholder" />,
   },
   {
-    "title": "With Mask",
-    "component": <TextField label="Label" placeholder="(11) 9999-9999" mask={[
+    title: "With Mask",
+    component: <TextField label="Label" placeholder="(11) 9999-9999" mask={[
       "(",
       /[1-9]/,
       /\d/,
@@ -86,7 +86,7 @@ export const attributes = [
       /\d/,
       /\d/,
       /\d/,
-      /\d/
-    ]} />
-  }
+      /\d/,
+    ]} />,
+  },
 ];

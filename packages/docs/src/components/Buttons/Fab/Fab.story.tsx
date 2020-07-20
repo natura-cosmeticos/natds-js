@@ -8,39 +8,38 @@ import { select, boolean, text } from "@storybook/addon-knobs";
 import FabDocs from "./Fab.docs.mdx";
 
 export default {
-  "title": "Components|Buttons/Fab",
-  "component": Fab,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Buttons/Fab",
+  component: Fab,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Fab"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Fab"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": FabDocs
-    }
-  }
+    docs: {
+      page: FabDocs,
+    },
+  },
 };
 
 const colors: any = {
-  "primary": "primary",
-  "secondary": "secondary",
-  "light": "light"
+  primary: "primary",
+  secondary: "secondary",
+  light: "light",
 };
 
 const sizes: any = {
-  "small": "small",
-  "medium": "medium",
-  "large": "large"
+  small: "small",
+  medium: "medium",
+  large: "large",
 };
 
 const variants: any = {
-  "round": "round",
-  "extended": "extended"
+  round: "round",
+  extended: "extended",
 };
 
 export const Interactive = () => {
@@ -74,7 +73,6 @@ export const Round = () => <Fab
 </Fab>;
 export const Extended = () => {
   const leadingIcon = boolean("Leading Icon", false);
-
 
   return (
     <Fab

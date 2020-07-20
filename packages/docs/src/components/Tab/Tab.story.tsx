@@ -5,25 +5,23 @@ import { TabContainer, TabItem } from "@naturacosmeticos/natds-web";
 import TabDocs from "./Tab.docs.mdx";
 
 export default {
-  "title": "Components|Tab",
-  "component": [
-    TabContainer,
-    TabItem
+  title: "Components|Tab",
+  component: [
+    TabContainer, TabItem,
   ],
-  "decorators": [
-    withJest(),
-    withContainer
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Tab"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Tab"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": TabDocs
-    }
-  }
+    docs: {
+      page: TabDocs,
+    },
+  },
 };
 
 export { Interactive } from "./Interactive";

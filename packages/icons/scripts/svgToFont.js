@@ -1,14 +1,15 @@
 #!/usr/bin/env node
+/* eslint-disable max-lines-per-function */
 const webfont = require("webfont").default;
 const fs = require("fs");
 
 const config = {
-  "files": "./src/assets/cleaned/**/*.svg",
-  "fontHeight": 600,
-  "fontName": "natds-icons",
-  "normalize": true,
-  "template": "css",
-  "templateFontPath": "./fonts"
+  files: "./src/assets/cleaned/**/*.svg",
+  fontHeight: 600,
+  fontName: "natds-icons",
+  normalize: true,
+  template: "css",
+  templateFontPath: "./fonts",
 };
 
 const distMetadata = "./src/";
@@ -18,7 +19,7 @@ const types = [
   "ttf",
   "woff",
   "woff2",
-  "svg"
+  "svg",
 ];
 
 const onError = (error) => {
@@ -27,6 +28,7 @@ const onError = (error) => {
   }
 };
 
+// @todo refactor(icons): refactor createSwiftOutput()
 const createSwiftOutput = (metadata) => {
 
   const FIRST_CHAR_INDEX = 0;
@@ -41,20 +43,20 @@ const createSwiftOutput = (metadata) => {
     return capitalizeWord(item);
   };
 
-  const toCamelCase = (word) => word.
-    split("-").
-    map(toCamelCaseMapper).
-    join("");
+  const toCamelCase = (word) => word
+    .split("-")
+    .map(toCamelCaseMapper)
+    .join("");
 
   const toIosUnicode = (unicode) => `${unicode.replace("%u", "\\u{")}}`;
 
   const formattedMetadataSwift = `
 public enum Icon: String, CaseIterable {
   ${
-  Object.
-    keys(metadata).
-    map((iconName) => `case ${toCamelCase(iconName)} = "${iconName}"\n`).
-    join("")
+  Object
+    .keys(metadata)
+    .map((iconName) => `case ${toCamelCase(iconName)} = "${iconName}"\n`)
+    .join("")
 }
 }
 
@@ -62,10 +64,10 @@ extension Icon {
   var unicode: String {
       switch self {
       ${
-  Object.
-    keys(metadata).
-    map((iconName) => `case .${toCamelCase(iconName)}: return "${toIosUnicode(metadata[iconName])}"\n`).
-    join("")
+  Object
+    .keys(metadata)
+    .map((iconName) => `case .${toCamelCase(iconName)}: return "${toIosUnicode(metadata[iconName])}"\n`)
+    .join("")
 }
       }
   }
@@ -75,13 +77,14 @@ extension Icon {
   fs.writeFile(`${distMetadata + config.fontName}.swift`, formattedMetadataSwift, onError);
 };
 
+const FIRST_INDEX = 0;
 const INDEX_INCREMENT = 1;
 
 const onSuccess = (result) => {
-  const { "config": { fontName }, template, glyphsData } = result;
+  const { config: { fontName }, template, glyphsData } = result;
   const metadata = {};
 
-  glyphsData.forEach(({ "metadata": { name, unicode } }) => {
+  glyphsData.forEach(({ metadata: { name, unicode } }) => {
     const escapedUnicode = escape(unicode);
 
     Object.assign(metadata, { [name]: escapedUnicode });
@@ -92,7 +95,7 @@ const onSuccess = (result) => {
 
   fs.writeFile(`${distMetadata + fontName}.json`, formattedMetadataJson, onError);
 
-  for (let index = 0; index < types.length; index += INDEX_INCREMENT) {
+  for (let index = FIRST_INDEX; index < types.length; index += INDEX_INCREMENT) {
     const element = types[index];
     const filename = `${distFont + fontName}.${element}`;
     const font = result[element];
@@ -103,5 +106,5 @@ const onSuccess = (result) => {
   createSwiftOutput(metadata);
 };
 
-webfont(config).then(onSuccess).
-  catch(onError);
+webfont(config).then(onSuccess)
+  .catch(onError);

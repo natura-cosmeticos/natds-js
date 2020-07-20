@@ -9,22 +9,21 @@ import { tokens } from "@naturacosmeticos/natds-styles";
 import IconDocs from "./Icon.docs.mdx";
 
 export default {
-  "title": "Components|Icon",
-  "component": Icon,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Icon",
+  component: Icon,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Icon"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Icon"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": IconDocs
-    }
-  }
+    docs: {
+      page: IconDocs,
+    },
+  },
 };
 
 const icons: any = Object.keys(iconNames);
@@ -34,4 +33,3 @@ export const Interactive = () => <Icon
   name={select("icon name", icons, icons[0])}
   size={select("icon size", sizes, sizes[3])}
 />;
-

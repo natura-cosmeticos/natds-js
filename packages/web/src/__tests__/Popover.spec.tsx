@@ -5,18 +5,18 @@ import { mount } from "enzyme";
 import Popover from "../Components/Popover";
 
 const directions: any = {
-  "bottom": "bottom",
+  bottom: "bottom",
   "bottom-end": "bottom-end",
   "bottom-start": "bottom-start",
-  "left": "left",
+  left: "left",
   "left-end": "left-end",
   "left-start": "left-start",
-  "right": "right",
+  right: "right",
   "right-end": "right-end",
   "right-start": "right-start",
-  "top": "top",
+  top: "top",
   "top-end": "top-end",
-  "top-start": "top-start"
+  "top-start": "top-start",
 };
 
 describe("Popover component", () => {
@@ -47,7 +47,7 @@ describe("Popover component", () => {
   });
 
   test("should match snapshot - Popover with Action Link", () => {
-    const wrapper = mount(<Popover open actionLink={{ "text": "Action link" }}>
+    const wrapper = mount(<Popover open actionLink={{ text: "Action link" }}>
       content
     </Popover>);
 

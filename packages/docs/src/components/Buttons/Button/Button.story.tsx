@@ -10,22 +10,21 @@ import { PropTypes } from "@material-ui/core";
 import ButtonDocs from "./Button.docs.mdx";
 
 export default {
-  "title": "Components|Buttons/Button",
-  "component": Button,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Buttons/Button",
+  component: Button,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Button"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Button"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": ButtonDocs
-    }
-  }
+    docs: {
+      page: ButtonDocs,
+    },
+  },
 };
 
 const primary: PropTypes.Color = "primary";
@@ -35,19 +34,19 @@ const defaultColorPropType: PropTypes.Color = "default";
 const colors: any = {
   primary,
   secondary,
-  "default": defaultColorPropType
+  default: defaultColorPropType,
 };
 
 const variants: any = {
-  "text": "text",
-  "outlined": "outlined",
-  "contained": "contained"
+  text: "text",
+  outlined: "outlined",
+  contained: "contained",
 };
 
 const sizes: any = {
-  "small": "small",
-  "medium": "medium",
-  "large": "large"
+  small: "small",
+  medium: "medium",
+  large: "large",
 };
 
 export const Interactive = () => <Button
@@ -77,4 +76,3 @@ export const Contained = () => <Button
   size={select("Size", sizes, sizes.medium)}>
   {text("label", "Button Component")}
 </Button>;
-

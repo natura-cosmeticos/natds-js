@@ -8,22 +8,21 @@ import { PropTypes } from "@material-ui/core";
 import RadioDocs from "./Radio.docs.mdx";
 
 export default {
-  "title": "Components|SelectControl/Radio",
-  "component": [Radio],
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|SelectControl/Radio",
+  component: [Radio],
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Radio"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Radio"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": RadioDocs
-    }
-  }
+    docs: {
+      page: RadioDocs,
+    },
+  },
 };
 
 const primary: PropTypes.Color = "primary";
@@ -33,7 +32,7 @@ const defaultColorPropType: PropTypes.Color = "default";
 const colors: any = {
   primary,
   secondary,
-  "default": defaultColorPropType
+  default: defaultColorPropType,
 };
 
 export const Interactive = () => <Radio
@@ -41,4 +40,3 @@ export const Interactive = () => <Radio
   checked={boolean("checked", true)}
   disabled={boolean("disabled", false)}
 />;
-

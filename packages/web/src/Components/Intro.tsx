@@ -2,8 +2,8 @@
 import React, { FunctionComponent, forwardRef } from "react";
 import { withTheme } from "@material-ui/styles";
 import styled from "styled-components";
-import { Typography, TypographyColor, TypographyVariant } from "./Typography";
 import { IThemeWeb } from "Themes";
+import { Typography, TypographyColor, TypographyVariant } from "./Typography";
 
 export interface IIntroProps extends Omit<React.HTMLAttributes<HTMLDivElement>, "title"> {
   theme: IThemeWeb | unknown;
@@ -51,7 +51,7 @@ export interface IIntroProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 
 
 export const Intro: FunctionComponent<IIntroProps> = forwardRef((
   props: IIntroProps,
-  ref: any
+  ref: any,
 ) => {
   const {
     theme,
@@ -94,7 +94,7 @@ const titleVariants = [
   "h3",
   "h4",
   "h5",
-  "h6"
+  "h6",
 ];
 
 const IntroContainer = styled.section`
@@ -105,18 +105,17 @@ const IntroTitle = styled.h3`
   display: flex;
   align-items: center;
   position: relative;
-  padding-left: ${({ "theme": { sizes } }) => `${sizes.standard}px`};
-  margin-bottom: ${({ "theme": { sizes } }) => `${sizes.micro}px!important`};
+  padding-left: ${({ theme: { sizes } }) => `${sizes.standard}px`};
+  margin-bottom: ${({ theme: { sizes } }) => `${sizes.micro}px!important`};
 
   &:before {
     content: "";
-    border-left: ${({ "theme": { palette, sizes }, variant }: { theme: any, variant: any }) => {
+    border-left: ${({ theme: { palette, sizes }, variant }: { theme: any, variant: any }) => {
       const width = titleVariants.includes(variant) ? sizes.tiny : sizes.micro;
-
 
       return `${palette.primary.main} ${width}px solid`;
     }};
-    border-radius: ${({ "theme": { sizes } }) => `0 ${sizes.micro}px ${sizes.micro}px 0`};
+    border-radius: ${({ theme: { sizes } }) => `0 ${sizes.micro}px ${sizes.micro}px 0`};
     position: absolute;
     top: 0;
     left: 0;
@@ -124,11 +123,11 @@ const IntroTitle = styled.h3`
   }
 
   > .natds-icons {
-    margin-right: ${({ "theme": { sizes } }) => `${sizes.tiny}px`};
+    margin-right: ${({ theme: { sizes } }) => `${sizes.tiny}px`};
   }
 `;
 
 const IntroDetails = styled.p`
-  padding-left: ${({ "theme": { sizes } }) => `${sizes.standard}px`};
+  padding-left: ${({ theme: { sizes } }) => `${sizes.standard}px`};
   display: block;
 `;

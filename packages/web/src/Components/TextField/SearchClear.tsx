@@ -1,4 +1,6 @@
-import React, { ComponentType, Dispatch, FunctionComponent, SetStateAction } from "react";
+import React, {
+  ComponentType, Dispatch, FunctionComponent, SetStateAction,
+} from "react";
 import styled from "styled-components";
 import ClearRounded from "@material-ui/icons/ClearRounded";
 

@@ -1,5 +1,7 @@
 import * as React from "react";
-import { text, boolean, select, number } from "@storybook/addon-knobs";
+import {
+  text, boolean, select, number,
+} from "@storybook/addon-knobs";
 import withJest from "@decorators/jest/jest";
 import withContainer from "@decorators/container/withContainer";
 import { iconNames } from "@naturacosmeticos/natds-icons";
@@ -9,28 +11,27 @@ import {
   Breadcrumbs,
   Typography,
   Link,
-  Icon
+  Icon,
 } from "@naturacosmeticos/natds-web";
 
 import BreadcrumbsDocs from "./Breadcrumbs.docs.mdx";
 
 export default {
-  "title": "Components|Breadcrumbs",
-  "component": Breadcrumbs,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Breadcrumbs",
+  component: Breadcrumbs,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Breadcrumbs"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Breadcrumbs"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": BreadcrumbsDocs
-    }
-  }
+    docs: {
+      page: BreadcrumbsDocs,
+    },
+  },
 };
 
 const handleClick = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => {
@@ -40,18 +41,18 @@ const handleClick = (event: React.MouseEvent<HTMLAnchorElement, MouseEvent>) => 
 const icons: any = Object.keys(iconNames);
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
-  "link": {
-    "display": "flex"
+  link: {
+    display: "flex",
   },
-  "label": {
+  label: {
     "&:hover": {
-      "textDecoration": "underline"
-    }
+      textDecoration: "underline",
+    },
   },
-  "icon": {
-    "marginRight": "4px"
-  }
-})
+  icon: {
+    marginRight: "4px",
+  },
+}),
 );
 
 export const Interactive = () => <Breadcrumbs aria-label="breadcrumb" separator={text("Separador", "/")}>

@@ -3,10 +3,9 @@ import * as renderer from "react-test-renderer";
 
 import { assert, spy } from "sinon";
 
-import { ToggleButton } from "../Components/ToggleButton";
 import { expect } from "chai";
 import { shallow } from "enzyme";
-
+import { ToggleButton } from "../Components/ToggleButton";
 
 interface IMockedIconProps {
   className?: string;

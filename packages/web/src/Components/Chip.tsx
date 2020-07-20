@@ -14,9 +14,9 @@ export interface IChipProps extends ChipProps {
 
 export const Chip: FunctionComponent<IChipProps> = forwardRef((
   props: IChipProps,
-  ref: any
+  ref: any,
 ) => {
-  const { "deleteIcon": providedDeletedIcon } = props,
+  const { deleteIcon: providedDeletedIcon } = props,
     deleteIcon = React.isValidElement(providedDeletedIcon)
       ? providedDeletedIcon
       : <Icon name="filled-action-cancel" />;

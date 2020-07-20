@@ -14,7 +14,7 @@ describe("ContextualBadge component", () => {
         "warning",
         "success",
         "light",
-        "dark"
+        "dark",
       ],
       types = ["standard"];
 

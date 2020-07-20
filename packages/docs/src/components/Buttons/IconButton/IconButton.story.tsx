@@ -11,22 +11,21 @@ import { PropTypes } from "@material-ui/core";
 import IconButtonDocs from "./IconButton.docs.mdx";
 
 export default {
-  "title": "Components|Buttons/IconButton",
-  "component": IconButton,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Buttons/IconButton",
+  component: IconButton,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["IconButton"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["IconButton"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": IconButtonDocs
-    }
-  }
+    docs: {
+      page: IconButtonDocs,
+    },
+  },
 };
 
 const primary: PropTypes.Color = "primary";
@@ -36,12 +35,12 @@ const defaultColorPropType: PropTypes.Color = "default";
 const colors: any = {
   primary,
   secondary,
-  "default": defaultColorPropType
+  default: defaultColorPropType,
 };
 
 const sizes: any = {
-  "small": "small",
-  "medium": "medium"
+  small: "small",
+  medium: "medium",
 };
 
 const icons: any = Object.keys(iconNames);
@@ -56,4 +55,3 @@ export const Interactive = () => <IconButton
     size={select("Icon Size", iconSizes, iconSizes[2])}
   />}
 />;
-

@@ -8,13 +8,13 @@ export { IFabProps } from "./IFabProps";
 
 export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
   props: IFabProps,
-  ref: any
+  ref: any,
 ) => {
   const {
       color = "primary",
-      "theme": providerTheme,
+      theme: providerTheme,
       disabled,
-      style
+      style,
     } = props,
 
     theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
@@ -22,20 +22,19 @@ export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
     colorMap = React.useMemo(() => {
       const { palette } = providerTheme as any;
 
-
       return {
-        "light": {
-          "backgroundColor": palette.background.default,
-          "color": palette.background.defaultContrastText
+        light: {
+          backgroundColor: palette.background.default,
+          color: palette.background.defaultContrastText,
         },
-        "primary": {
-          "backgroundColor": palette.primary.main,
-          "color": palette.primary.contrastText
+        primary: {
+          backgroundColor: palette.primary.main,
+          color: palette.primary.contrastText,
         },
-        "secondary": {
-          "backgroundColor": palette.secondary.main,
-          "color": palette.secondary.contrastText
-        }
+        secondary: {
+          backgroundColor: palette.secondary.main,
+          color: palette.secondary.contrastText,
+        },
       };
     }, [theme]);
 
@@ -54,8 +53,10 @@ export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
       {...props}
       color="inherit"
       ref={ref}
-      style={{ ...colorStyle,
-        ...style }}
+      style={{
+        ...colorStyle,
+        ...style,
+      }}
     />
   );
 });

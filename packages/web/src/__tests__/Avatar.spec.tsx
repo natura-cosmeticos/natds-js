@@ -3,8 +3,8 @@ import * as renderer from "react-test-renderer";
 import { expect } from "chai";
 import { shallow } from "enzyme";
 
-import Avatar from "../Components/Avatar";
 import {ITheme, themes} from "@naturacosmeticos/natds-styles";
+import Avatar from "../Components/Avatar";
 
 const label = "A",
 

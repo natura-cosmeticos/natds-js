@@ -10,49 +10,48 @@ import { tokens } from "@naturacosmeticos/natds-styles";
 import IntroDocs from "./Intro.docs.mdx";
 
 const variants: any = {
-  "h1": "h1",
-  "h2": "h2",
-  "h3": "h3",
-  "h4": "h4",
-  "h5": "h5",
-  "h6": "h6",
-  "subtitle1": "subtitle1",
-  "subtitle2": "subtitle2",
-  "body1": "body1",
-  "body2": "body2",
-  "caption": "caption",
-  "button": "button",
-  "overline": "overline",
-  "inherit": "inherit"
+  h1: "h1",
+  h2: "h2",
+  h3: "h3",
+  h4: "h4",
+  h5: "h5",
+  h6: "h6",
+  subtitle1: "subtitle1",
+  subtitle2: "subtitle2",
+  body1: "body1",
+  body2: "body2",
+  caption: "caption",
+  button: "button",
+  overline: "overline",
+  inherit: "inherit",
 };
 
 const color: any = {
-  "initial": "initial",
-  "inherit": "inherit",
-  "primary": "primary",
-  "secondary": "secondary",
-  "textPrimary": "textPrimary",
-  "textSecondary": "textSecondary",
-  "error": "error"
+  initial: "initial",
+  inherit: "inherit",
+  primary: "primary",
+  secondary: "secondary",
+  textPrimary: "textPrimary",
+  textSecondary: "textSecondary",
+  error: "error",
 };
 
 export default {
-  "title": "Components|Intro",
-  "component": Intro,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Intro",
+  component: Intro,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Intro"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Intro"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": IntroDocs
-    }
-  }
+    docs: {
+      page: IntroDocs,
+    },
+  },
 };
 
 export const Interactive = () => {
@@ -70,7 +69,7 @@ export const Interactive = () => {
 
   return (
     <Intro
-      style={{ "width": text("size", "600px") }}
+      style={{ width: text("size", "600px") }}
       title={withIcon ? <IconWithTitle /> : title}
       titleVariant={select("title variant", variants, variants.subtitle1)}
       titleColor={select("title color", color, color.textPrimary)}

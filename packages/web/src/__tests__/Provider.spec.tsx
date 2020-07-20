@@ -1,9 +1,8 @@
 import * as React from "react";
 
-import { Provider } from "../Provider";
-
 import { createMuiTheme } from "@material-ui/core";
 import { mount } from "enzyme";
+import { Provider } from "../Provider";
 import { themes } from "../Themes";
 
 describe("Provider component", () => {
@@ -25,9 +24,9 @@ describe("Provider component", () => {
 
     mockedTheme.palette = {
       ...mockedTheme.palette,
-      "primary": {
-        "main": "#000000"
-      }
+      primary: {
+        main: "#000000",
+      },
     };
 
     const provider = mount(<Provider theme={mockedTheme}>Mocked</Provider>);

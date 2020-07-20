@@ -13,5 +13,5 @@ export {
   NatdsIconsSvg,
   NatdsIconsTtf,
   NatdsIconsWoff,
-  NatdsIconsWoff2
+  NatdsIconsWoff2,
 };

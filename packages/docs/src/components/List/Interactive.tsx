@@ -1,3 +1,4 @@
+/* eslint-disable max-lines */
 import * as React from "react";
 import { boolean } from "@storybook/addon-knobs";
 import {
@@ -12,25 +13,25 @@ import {
   IconButton,
   Collapse,
   Switch,
-  Checkbox
+  Checkbox,
 } from "@naturacosmeticos/natds-web";
 import { createStyles, Theme, makeStyles } from "@material-ui/core/styles";
 import { Divider } from "@naturacosmeticos/natds-web/dist/Components/Divider";
 import { Typography } from "@naturacosmeticos/natds-web/dist/Components/Typography";
 
 const useStyles = makeStyles((theme: Theme) => createStyles({
-  "root": {
-    "width": "100%",
-    "maxWidth": 360,
-    "backgroundColor": theme.palette.background.paper
+  root: {
+    width: "100%",
+    maxWidth: 360,
+    backgroundColor: theme.palette.background.paper,
   },
-  "nested": {
-    "paddingLeft": theme.spacing(3)
+  nested: {
+    paddingLeft: theme.spacing(3),
   },
-  "checkbox": {
-    "marginLeft": "-6px"
-  }
-})
+  checkbox: {
+    marginLeft: "-6px",
+  },
+}),
 );
 
 // @todo refactor(docs): refactor Interactive function from List component docs
@@ -38,12 +39,10 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
 export const Interactive = () => {
   const classes = useStyles();
   const [
-    open,
-    setOpen
+    open, setOpen,
   ] = React.useState(true);
   const [
-    selectedIndex,
-    setSelectedIndex
+    selectedIndex, setSelectedIndex,
   ] = React.useState(0);
 
   const handleClick = () => {
@@ -52,7 +51,7 @@ export const Interactive = () => {
 
   const handleListItemClick = (
     event: React.MouseEvent<HTMLDivElement, MouseEvent>,
-    index: number
+    index: number,
   ) => {
     setSelectedIndex(index);
   };

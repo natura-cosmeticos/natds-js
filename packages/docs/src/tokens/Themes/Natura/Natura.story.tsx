@@ -1,11 +1,11 @@
 import * as React from "react";
-import tokensParams from "../../shared";
 import Table from "@addons/Table";
-import { parseColortokens } from "../shared";
 import { tokens } from "@naturacosmeticos/natds-styles";
+import tokensParams from "../../shared";
+import { parseColortokens } from "../shared";
 
 const {
-  "colorTokens": { naturaLightColorTokens, naturaDarkColorTokens }
+  colorTokens: { naturaLightColorTokens, naturaDarkColorTokens },
 } = tokens;
 
 const LightComponent = () => <Table
@@ -15,18 +15,18 @@ const LightComponent = () => <Table
 const DarkComponent = () => <Table schema={parseColortokens(naturaDarkColorTokens)} title="Natura Dark" />;
 
 export default {
-  "title": "Design Tokens|Themes/Natura",
-  "parameters": {
-    "docs": {
-      "container": null,
-      "page": () => <div>
+  title: "Design Tokens|Themes/Natura",
+  parameters: {
+    docs: {
+      container: null,
+      page: () => <div>
         <LightComponent />
         <DarkComponent />
-      </div>
+      </div>,
 
     },
-    ...tokensParams
-  }
+    ...tokensParams,
+  },
 };
 
 export const Light = () => <LightComponent />;

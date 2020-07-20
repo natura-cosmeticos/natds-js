@@ -15,7 +15,7 @@ const {
   body2,
   button,
   caption,
-  overline
+  overline,
 } = themes.natura.light.typography;
 
 const fontSizes:any = {
@@ -31,29 +31,27 @@ const fontSizes:any = {
   body2,
   button,
   caption,
-  overline
+  overline,
 };
 
 const mapSchema = ([
-  key,
-  value]:
+  key, value]:
 any) => [
   {
-    "name": key,
-    "type": "text"
+    name: key,
+    type: "text",
   },
   {
-    "name": value.fontSize,
-    "type": "text"
-  }
+    name: value.fontSize,
+    type: "text",
+  },
 ];
 
 const fontSizeSchema = {
-  "head": [
-    "Tag/Key",
-    "Size"
+  head: [
+    "Tag/Key", "Size",
   ],
-  "body": Object.entries(fontSizes).map(mapSchema)
+  body: Object.entries(fontSizes).map(mapSchema),
 };
 
 export const TypographyFontSize = () => <Table schema={fontSizeSchema} title="Font Size"/>;

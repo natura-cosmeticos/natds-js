@@ -1,37 +1,36 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
 
-import { Icon, Intro } from "..";
-
 import { expect } from "chai";
 import { themes } from "@naturacosmeticos/natds-styles";
+import { Icon, Intro } from "..";
 
 const variants: any = {
-  "body1": "body1",
-  "body2": "body2",
-  "button": "button",
-  "caption": "caption",
-  "h1": "h1",
-  "h2": "h2",
-  "h3": "h3",
-  "h4": "h4",
-  "h5": "h5",
-  "h6": "h6",
-  "inherit": "inherit",
-  "overline": "overline",
-  "srOnly": "srOnly",
-  "subtitle1": "subtitle1",
-  "subtitle2": "subtitle2"
+  body1: "body1",
+  body2: "body2",
+  button: "button",
+  caption: "caption",
+  h1: "h1",
+  h2: "h2",
+  h3: "h3",
+  h4: "h4",
+  h5: "h5",
+  h6: "h6",
+  inherit: "inherit",
+  overline: "overline",
+  srOnly: "srOnly",
+  subtitle1: "subtitle1",
+  subtitle2: "subtitle2",
 };
 
 const colors: any = {
-  "error": "error",
-  "inherit": "inherit",
-  "initial": "initial",
-  "primary": "primary",
-  "secondary": "secondary",
-  "textPrimary": "textPrimary",
-  "textSecondary": "textSecondary"
+  error: "error",
+  inherit: "inherit",
+  initial: "initial",
+  primary: "primary",
+  secondary: "secondary",
+  textPrimary: "textPrimary",
+  textSecondary: "textSecondary",
 };
 
 const theme = themes.natura.light;

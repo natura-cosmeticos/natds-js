@@ -78,7 +78,7 @@ export interface ITypographyProps extends TypographyProps {
 
 export const Typography: FunctionComponent<ITypographyProps> = forwardRef((
   props: ITypographyProps,
-  ref: any
+  ref: any,
 ) => {
   const {
     variant = "body1",

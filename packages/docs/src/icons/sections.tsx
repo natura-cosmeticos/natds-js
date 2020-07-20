@@ -14,8 +14,8 @@ const buildConfig = (type: string) => {
 
 // @todo refactor(docs): adopt <Icon /> component instead of <i /> on buildConfigItem
 const buildConfigItem = (name: string): IComponentWithLabelItem => ({
-  "title": name,
-  "component": <i className={`natds-icons natds-icons-2x natds-icons-${String(name)}`} />
+  title: name,
+  component: <i className={`natds-icons natds-icons-2x natds-icons-${String(name)}`} />,
 });
 
 export const outlined = buildConfig("outlined");

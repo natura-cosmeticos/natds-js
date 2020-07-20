@@ -2,48 +2,50 @@ import * as React from "react";
 import withJest from "@decorators/jest/jest";
 import withContainer from "@decorators/container/withContainer";
 import { createStyles, Theme, makeStyles } from "@material-ui/core/styles";
-import { select, boolean, text, number } from "@storybook/addon-knobs";
-import { anchors, variants, navigation, footer } from "./sections";
-
+import {
+  select, boolean, text, number,
+} from "@storybook/addon-knobs";
 import {
   Drawer,
   DrawerHeader,
   DrawerBody,
   DrawerFooter,
-  DrawerMenu
+  DrawerMenu,
 } from "@naturacosmeticos/natds-web";
+import {
+  anchors, variants, navigation, footer,
+} from "./sections";
 
 import DrawerDocs from "./Drawer.docs.mdx";
 
 export default {
-  "title": "Components|Drawer",
-  "component": Drawer,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Drawer",
+  component: Drawer,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Drawer"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Drawer"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": DrawerDocs
-    }
-  }
+    docs: {
+      page: DrawerDocs,
+    },
+  },
 };
 
 export const Interactive = () => {
   const useStyles = makeStyles((theme: Theme) => createStyles({
-    "drawer": {
-      "width": text("width", "256px"),
-      "height": text("height", "100%"),
-      "overflow": "hidden",
-      "display": "flex",
-      "justifyContent": "space-between",
-      "flexFlow": "column nowrap"
-    }
+    drawer: {
+      width: text("width", "256px"),
+      height: text("height", "100%"),
+      overflow: "hidden",
+      display: "flex",
+      justifyContent: "space-between",
+      flexFlow: "column nowrap",
+    },
   }));
 
   const classes = useStyles();
@@ -53,7 +55,7 @@ export const Interactive = () => {
       open={boolean("open", false)}
       anchor={select("anchor", anchors, anchors.left)}
       variant={select("variant", variants, variants.permanent)}
-      classes={{ "paper": classes.drawer }}>
+      classes={{ paper: classes.drawer }}>
 
       <DrawerHeader
         avatarSrc={require("../../assets/images/1.png")}

@@ -2,53 +2,54 @@ import * as React from "react";
 import { Badge, Icon } from "@naturacosmeticos/natds-web";
 import withJest from "@decorators/jest/jest";
 import withContainer from "@decorators/container/withContainer";
-import { select, text, boolean, number } from "@storybook/addon-knobs";
+import {
+  select, text, boolean, number,
+} from "@storybook/addon-knobs";
+
+import { iconNames } from "@naturacosmeticos/natds-icons";
+import { tokens } from "@naturacosmeticos/natds-styles";
 import {
   colorList as colors,
   variantList as variants,
   anchorList as anchors,
-  overlapList as overlaps
+  overlapList as overlaps,
 } from "./sections";
-
-import { iconNames } from "@naturacosmeticos/natds-icons";
-import { tokens } from "@naturacosmeticos/natds-styles";
 
 import BadgeDocs from "./Badge.docs.mdx";
 
 export default {
-  "title": "Components|Badge",
-  "component": Badge,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Badge",
+  component: Badge,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Badge"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Badge"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": BadgeDocs
-    }
-  }
+    docs: {
+      page: BadgeDocs,
+    },
+  },
 };
 
 const icons: any = Object.keys(iconNames);
 const sizes: any = Object.keys(tokens.iconSizes);
 
 const content: any = {
-  "icon": "icon",
-  "rectangle": "rectangle",
-  "circle": "circle"
+  icon: "icon",
+  rectangle: "rectangle",
+  circle: "circle",
 };
 
 // @ts-ignore
 const Content = ({ type }) => {
   const styles: any = {
-    "width": "40px",
-    "height": "40px",
-    "background": `${tokens.colors.natura.grayscale.colorBrdNatGray1}`
+    width: "40px",
+    height: "40px",
+    background: `${tokens.colors.natura.grayscale.colorBrdNatGray1}`,
   };
 
   if (type === content.icon) {
@@ -66,8 +67,10 @@ const Content = ({ type }) => {
   }
 
   return (
-    <div style={{ ...styles,
-      "borderRadius": "50%" }} key="circle" />
+    <div style={{
+      ...styles,
+      borderRadius: "50%",
+    }} key="circle" />
   );
 };
 
@@ -83,4 +86,3 @@ export const Interactive = () => <Badge
 >
   <Content type={select("content", content, content.circle)} />
 </Badge>;
-

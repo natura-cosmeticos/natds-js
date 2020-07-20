@@ -1,5 +1,7 @@
 import * as React from "react";
-import { boolean, select, text, number } from "@storybook/addon-knobs";
+import {
+  boolean, select, text, number,
+} from "@storybook/addon-knobs";
 import withJest from "@decorators/jest/jest";
 import withContainer from "@decorators/container/withContainer";
 import Favorite from "@material-ui/icons/Favorite";
@@ -8,39 +10,38 @@ import { TextField } from "@naturacosmeticos/natds-web";
 import TextFieldDocs from "./TextField.docs.mdx";
 
 export default {
-  "title": "Components|TextField",
-  "component": TextField,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|TextField",
+  component: TextField,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["TextField"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["TextField"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": TextFieldDocs
-    }
-  }
+    docs: {
+      page: TextFieldDocs,
+    },
+  },
 };
 
 const types: any = {
-  "text": "text",
-  "password": "password",
-  "search": "search",
-  "date": "date"
+  text: "text",
+  password: "password",
+  search: "search",
+  date: "date",
 };
 
 const states: any = {
-  "success": "success",
-  "error": "error",
-  "default": undefined
+  success: "success",
+  error: "error",
+  default: undefined,
 };
 
 const mask: any = {
-  "phone": [
+  phone: [
     "(",
     /[1-9]/,
     /\d/,
@@ -54,14 +55,16 @@ const mask: any = {
     /\d/,
     /\d/,
     /\d/,
-    /\d/
+    /\d/,
   ],
-  "none": undefined
+  none: undefined,
 };
 
 export const Interactive = () => <TextField
-  style={{ "flex": "1 1 auto",
-    "width": "328px" }}
+  style={{
+    flex: "1 1 auto",
+    width: "328px",
+  }}
   label={text("label", "Label")}
   placeholder={text("placeholder", "XD")}
   helpText={text("helpText", "Assistive text")}
@@ -74,4 +77,3 @@ export const Interactive = () => <TextField
   rows={number("rows", 1)}
   icon={boolean("icon", false) ? <Favorite /> : null}
 />;
-

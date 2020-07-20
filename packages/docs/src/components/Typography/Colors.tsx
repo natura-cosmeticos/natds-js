@@ -24,4 +24,3 @@ export const Colors = () => <div className="typography__story__container">
     <Typography variant="h5" color="error">Error color</Typography>
   </div>
 </div>;
-

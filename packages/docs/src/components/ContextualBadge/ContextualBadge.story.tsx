@@ -7,37 +7,36 @@ import { text, select } from "@storybook/addon-knobs";
 import ContextualBadgeDocs from "./ContextualBadge.docs.mdx";
 
 export default {
-  "title": "Components|ContextualBadge",
-  "component": ContextualBadge,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|ContextualBadge",
+  component: ContextualBadge,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["ContextualBadge"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["ContextualBadge"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": ContextualBadgeDocs
-    }
-  }
+    docs: {
+      page: ContextualBadgeDocs,
+    },
+  },
 };
 
 const colors: any = {
-  "primary": "primary",
-  "secondary": "secondary",
-  "info": "info",
-  "error": "error",
-  "warning": "warning",
-  "success": "success",
-  "light": "light",
-  "dark": "dark"
+  primary: "primary",
+  secondary: "secondary",
+  info: "info",
+  error: "error",
+  warning: "warning",
+  success: "success",
+  light: "light",
+  dark: "dark",
 };
 
 const types: any = {
-  "standard": "standard"
+  standard: "standard",
 };
 
 export const Interactive = () => <ContextualBadge
@@ -52,4 +51,3 @@ export const Standard = () => <ContextualBadge
 >
   {text("children", "Standard")}
 </ContextualBadge>;
-

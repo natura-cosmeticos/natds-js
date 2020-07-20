@@ -1,8 +1,8 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
 
-import Radio from "../Components/Radio";
 import { expect } from "chai";
+import Radio from "../Components/Radio";
 
 describe("Radio component", () => {
   describe("rendering", () => {

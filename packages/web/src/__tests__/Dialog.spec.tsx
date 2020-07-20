@@ -8,7 +8,7 @@ import {
   DialogActions,
   DialogContent,
   DialogContentText,
-  DialogTitle
+  DialogTitle,
 } from "..";
 
 describe("Dialog components", () => {

@@ -10,22 +10,21 @@ import { PropTypes } from "@material-ui/core";
 import ButtonGroupDocs from "./ButtonGroup.docs.mdx";
 
 export default {
-  "title": "Components|Buttons/ButtonGroup",
-  "component": Button,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Buttons/ButtonGroup",
+  component: Button,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Button"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Button"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": ButtonGroupDocs
-    }
-  }
+    docs: {
+      page: ButtonGroupDocs,
+    },
+  },
 };
 
 const primary: PropTypes.Color = "primary";
@@ -35,19 +34,19 @@ const defaultPropTypeColor: PropTypes.Color = "default";
 const colors: any = {
   primary,
   secondary,
-  "default": defaultPropTypeColor
+  default: defaultPropTypeColor,
 };
 
 const variants: any = {
-  "text": "text",
-  "outlined": "outlined",
-  "contained": "contained"
+  text: "text",
+  outlined: "outlined",
+  contained: "contained",
 };
 
 const sizes: any = {
-  "small": "small",
-  "medium": "medium",
-  "large": "large"
+  small: "small",
+  medium: "medium",
+  large: "large",
 };
 
 export const Interactive = () => <div>

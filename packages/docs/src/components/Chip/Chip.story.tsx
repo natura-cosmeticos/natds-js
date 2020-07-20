@@ -9,50 +9,48 @@ import { Chip, Icon, Avatar } from "@naturacosmeticos/natds-web";
 import ChipDocs from "./Chip.docs.mdx";
 
 export default {
-  "title": "Components|Chip",
-  "component": Chip,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Chip",
+  component: Chip,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Chip"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Chip"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": ChipDocs
-    }
-  }
+    docs: {
+      page: ChipDocs,
+    },
+  },
 };
 
 const avatarSrc: any = {
-  "image": require("../../assets/images/1.png"),
-  "anonymous": require("../../assets/images/avatar.png"),
-  "none": null
+  image: require("../../assets/images/1.png"),
+  anonymous: require("../../assets/images/avatar.png"),
+  none: null,
 };
 
 const colors:any = {
-  "primary": "primary",
-  "secondary": "secondary",
-  "default": "default"
+  primary: "primary",
+  secondary: "secondary",
+  default: "default",
 };
 
 const variants: any = {
-  "default": "default",
-  "outlined": "outlined"
+  default: "default",
+  outlined: "outlined",
 };
 
 const sizes: any = {
-  "small": "small",
-  "medium": "medium"
+  small: "small",
+  medium: "medium",
 };
 
 const icons: any = Object.keys(iconNames);
 const deleteIcons: any = [
-  undefined,
-  ...icons
+  undefined, ...icons,
 ];
 
 // @todo refactor(docs): refactor Default function from Chip.story.tsx

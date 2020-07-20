@@ -5,6 +5,5 @@ export const getFontSize = ({ size = "standard", theme }: {size?: keyof IIconSiz
   const { iconSizes = {} } = theme || {},
     fontSize = iconSizes[String(size)];
 
-
   return `${fontSize}px`;
 };

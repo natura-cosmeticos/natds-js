@@ -6,8 +6,7 @@ import { Menu, MenuItem } from "..";
 
 const Component = () => {
   const [
-      anchorEl,
-      setAnchorEl
+      anchorEl, setAnchorEl,
     ] = React.useState(null),
 
     handleClick = (event: any) => {

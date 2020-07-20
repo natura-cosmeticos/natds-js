@@ -74,7 +74,7 @@ describe("Library", () => {
     "ToggleButton",
     "Toolbar",
     "Tooltip",
-    "Typography"
+    "Typography",
   ];
 
   // @ts-ignore

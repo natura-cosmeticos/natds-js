@@ -5,41 +5,40 @@ import {
   Typography,
   Icon,
   Button,
-  IconButton
+  IconButton,
 } from "@naturacosmeticos/natds-web";
 import { makeStyles } from "@material-ui/core/styles";
 import { select, number } from "@storybook/addon-knobs";
 
 const colors: any = {
-  "default": "default",
-  "error": "error",
-  "warning": "warning",
-  "success": "success",
-  "info": "info"
+  default: "default",
+  error: "error",
+  warning: "warning",
+  success: "success",
+  info: "info",
 };
 
 const rangeOptions: any = {
-  "range": true,
-  "min": 500,
-  "max": 10000,
-  "step": 500
+  range: true,
+  min: 500,
+  max: 10000,
+  step: 500,
 };
 
 const verticalAnchor: any = {
-  "top": "top",
-  "bottom": "bottom"
+  top: "top",
+  bottom: "bottom",
 };
 
 const horizontalAnchor: any = {
-  "left": "left",
-  "right": "right",
-  "center": "center"
+  left: "left",
+  right: "right",
+  center: "center",
 };
 
 export const Interactive = () => {
   const [
-    isOpen,
-    toggleOpen
+    isOpen, toggleOpen,
   ] = React.useState(false);
 
   const handleClose = () => {
@@ -47,13 +46,13 @@ export const Interactive = () => {
   };
 
   const useStyles = makeStyles({
-    "message": {
-      "display": "flex",
-      "alignItems": "center"
+    message: {
+      display: "flex",
+      alignItems: "center",
     },
-    "messageIcon": {
-      "marginRight": "10px"
-    }
+    messageIcon: {
+      marginRight: "10px",
+    },
   });
 
   const classes = useStyles();
@@ -66,16 +65,16 @@ export const Interactive = () => {
       <Snackbar
         open={isOpen}
         anchorOrigin={{
-          "vertical": select(
+          vertical: select(
             "anchorOrigin.vertical",
             verticalAnchor,
-            verticalAnchor.bottom
+            verticalAnchor.bottom,
           ),
-          "horizontal": select(
+          horizontal: select(
             "anchorOrigin.horizontal",
             horizontalAnchor,
-            horizontalAnchor.left
-          )
+            horizontalAnchor.left,
+          ),
         }}
         autoHideDuration={number("autoHideDuration", 2000, rangeOptions)}
         onClose={handleClose}

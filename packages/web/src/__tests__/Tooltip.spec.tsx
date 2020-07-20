@@ -1,23 +1,22 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
-import Tooltip from "../Components/Tooltip";
 import { expect } from "chai";
+import Tooltip from "../Components/Tooltip";
 
 const placements: any = {
-  "bottom": "bottom",
+  bottom: "bottom",
   "bottom-end": "bottom-end",
   "bottom-start": "bottom-start",
-  "left": "left",
+  left: "left",
   "left-end": "left-end",
   "left-start": "left-start",
-  "right": "right",
+  right: "right",
   "right-end": "right-end",
   "right-start": "right-start",
-  "top": "top",
+  top: "top",
   "top-end": "top-end",
-  "top-start": "top-start"
+  "top-start": "top-start",
 };
-
 
 describe("Tooltip component", () => {
   Object.keys(placements).forEach((placement: string) => {

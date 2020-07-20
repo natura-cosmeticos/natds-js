@@ -7,24 +7,26 @@ import tokensParams from "../shared";
 const { natura } = tokens.colors;
 
 const mapColorSchema = (color: any[]) => [
-  { "name": color[0],
-    "type": "text" },
-  { "name": color[1],
-    "type": "color" }
+  {
+    name: color[0],
+    type: "text",
+  },
+  {
+    name: color[1],
+    type: "color",
+  },
 ];
 
 const createTable = (entry: any[]) => {
   const [
-    title,
-    colors
+    title, colors,
   ] = entry;
 
   const schema = {
-    "head": [
-      "name",
-      "color"
+    head: [
+      "name", "color",
     ],
-    "body": Object.entries(colors).map(mapColorSchema)
+    body: Object.entries(colors).map(mapColorSchema),
   };
 
   return (
@@ -33,18 +35,17 @@ const createTable = (entry: any[]) => {
 };
 
 export default {
-  "title": "Design Tokens|Colors",
-  "parameters": {
-    "docs": {
-      "container": null,
-      "page": () => <div>
+  title: "Design Tokens|Colors",
+  parameters: {
+    docs: {
+      container: null,
+      page: () => <div>
         {Object.entries(natura).map(createTable)}
-      </div>
+      </div>,
 
     },
-    ...tokensParams
-  }
+    ...tokensParams,
+  },
 };
 
 export const Natura = () => <Colors colors={natura} />;
-

@@ -14,7 +14,6 @@ const errorReadingFile = (fileReadError) => {
 // @todo refactor(docs): adopt <Typography /> instead of <h4 />
 const LocalhostWarning = () => <h4 className="versions__warning">Versions don&apos;t work in localhost environments</h4>;
 
-
 const changeVersion = (version, name) => {
   const { origin, search } = window.location;
   const newPath = `${origin}/${name}/${version}/${search}`;
@@ -25,20 +24,19 @@ const changeVersion = (version, name) => {
 const mapper = (list = []) => {
   const [{ versions = [], name } = {}] = list;
 
-
-  return versions.map((version) => ({ name,
-    version }));
+  return versions.map((version) => ({
+    name,
+    version,
+  }));
 };
 
 export const Versions = (props) => {
   const { disabled } = props.api.getCurrentParameter(PARAM_KEY) || {};
   const [
-    versions,
-    setVersions
+    versions, setVersions,
   ] = useState([]);
   const [
-    currentVersion,
-    setCurrentVersion
+    currentVersion, setCurrentVersion,
   ] = useState(null);
   const isLocal = window.location.hostname === "localhost";
 
@@ -48,8 +46,8 @@ export const Versions = (props) => {
       return LocalhostWarning;
     }
 
-    readConfig().then(setVersions).
-      catch(errorReadingFile);
+    readConfig().then(setVersions)
+      .catch(errorReadingFile);
   }, []);
 
   useEffect(() => {
@@ -92,6 +90,7 @@ export const Versions = (props) => {
         placement="top"
         trigger="click"
         closeOnClick
+        // eslint-disable-next-line no-unused-vars
         tooltip={({ onHide }) => <TooltipLinkList
           links={getDisplayedItems(items, handleChange, currentVersion)}
         />
@@ -113,15 +112,17 @@ const getDisplayedItems = (list, onChange, selectedItem) => {
   }
 
   return [
-    ...list.map((params) => createItemProps(params, onChange, selectedItem)
-    )
+    ...list.map((params) => createItemProps(params, onChange, selectedItem),
+    ),
   ];
 };
 
 const createItemProps = ({ name, version }, onChange, selectedItem) => ({
-  "id": `${name}-${version}`,
-  "title": version,
-  "active": selectedItem === version,
-  "onClick": () => onChange({ name,
-    version })
+  id: `${name}-${version}`,
+  title: version,
+  active: selectedItem === version,
+  onClick: () => onChange({
+    name,
+    version,
+  }),
 });

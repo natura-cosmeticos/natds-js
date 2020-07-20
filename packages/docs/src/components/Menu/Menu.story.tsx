@@ -6,26 +6,27 @@ import { boolean } from "@storybook/addon-knobs";
 import MenuDocs from "./Menu.docs.mdx";
 
 export default {
-  "title": "Components|Menu",
-  "component": Menu,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Menu",
+  component: Menu,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Menu"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Menu"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": MenuDocs
-    }
-  }
+    docs: {
+      page: MenuDocs,
+    },
+  },
 };
 
 const Item = React.forwardRef((props: any, ref: any) => {
-  const { selected, handleItemClick, button, children, ...rest } = props;
+  const {
+    selected, handleItemClick, button, children, ...rest
+  } = props;
 
   return (
     <MenuItem
@@ -42,12 +43,10 @@ const Item = React.forwardRef((props: any, ref: any) => {
 
 export const Interactive = () => {
   const [
-    anchorEl,
-    setAnchorEl
+    anchorEl, setAnchorEl,
   ] = React.useState(null);
   const [
-    selected,
-    setSelected
+    selected, setSelected,
   ] = React.useState(null);
 
   const handleButtonClick = (event: any) => {
@@ -71,7 +70,7 @@ export const Interactive = () => {
   const itemProps = {
     button,
     selected,
-    handleItemClick
+    handleItemClick,
   };
 
   return (

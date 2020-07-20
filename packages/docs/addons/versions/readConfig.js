@@ -1,9 +1,6 @@
 /* eslint-disable no-promise-executor-return */
 
-/**
- * @todo refactor(docs): remove unused config file
- * @type {null}
- */
+// eslint-disable-next-line no-unused-vars
 const configFile = null;
 
 // @todo refactor(docs): rewrite readConfig() function to avoid `no-promise-executor-return` errors
@@ -24,8 +21,8 @@ const readConfig = (filename = "versions_config.json") => new Promise((resolve, 
     }
 
     response.json().then(resolve);
-  }).
-    catch(() => {
+  })
+    .catch(() => {
       throw new Error("Error getting config");
     });
 });

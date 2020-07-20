@@ -3,13 +3,13 @@ import {
   AppBar,
   TabContainer,
   TabItem,
-  Icon
+  Icon,
 } from "@naturacosmeticos/natds-web";
 import { makeStyles } from "@material-ui/core/styles";
 
 const a11yProps = (index: any) => ({
-  "id": `simple-tab-${index}`,
-  "aria-controls": `simple-tabpanel-${index}`
+  id: `simple-tab-${index}`,
+  "aria-controls": `simple-tabpanel-${index}`,
 });
 
 const AppBarWrapper = ({
@@ -21,7 +21,7 @@ const AppBarWrapper = ({
   disabled,
   wrapped,
   icon,
-  label = true
+  label = true,
 }: {
   variant?: any;
   width?: number;
@@ -34,17 +34,16 @@ const AppBarWrapper = ({
   label?: boolean;
 }) => {
   const useStyles = makeStyles((theme) => ({
-    "root": {
-      "flexGrow": 1,
-      "backgroundColor": theme.palette.background.paper,
-      "width": width || 640
-    }
+    root: {
+      flexGrow: 1,
+      backgroundColor: theme.palette.background.paper,
+      width: width || 640,
+    },
   }));
 
   const classes = useStyles();
   const [
-    value,
-    setValue
+    value, setValue,
   ] = React.useState(0);
 
   const handleChange = (event: React.ChangeEvent<unknown>, newValue: number) => {
@@ -107,67 +106,67 @@ const AppBarWrapper = ({
 
 export const tabContainerVariant = [
   {
-    "title": "standard",
-    "component": <AppBarWrapper variant="standard" />
+    title: "standard",
+    component: <AppBarWrapper variant="standard" />,
   },
   {
-    "title": "scrollable",
-    "component": <AppBarWrapper variant="scrollable" width={600} />
+    title: "scrollable",
+    component: <AppBarWrapper variant="scrollable" width={600} />,
   },
   {
-    "title": "fullWidth",
-    "component": <AppBarWrapper variant="fullWidth" width={1240} />
-  }
+    title: "fullWidth",
+    component: <AppBarWrapper variant="fullWidth" width={1240} />,
+  },
 ];
 
 export const tabContainerTextColor = [
   {
-    "title": "inherit",
-    "component": <AppBarWrapper textColor="inherit" />
+    title: "inherit",
+    component: <AppBarWrapper textColor="inherit" />,
   },
   {
-    "title": "primary",
-    "component": <AppBarWrapper textColor="primary" />
+    title: "primary",
+    component: <AppBarWrapper textColor="primary" />,
   },
   {
-    "title": "secondary",
-    "component": <AppBarWrapper textColor="secondary" />
-  }
+    title: "secondary",
+    component: <AppBarWrapper textColor="secondary" />,
+  },
 ];
 
 export const tabContainerIndicatorColor = [
   {
-    "title": "secondary",
-    "component": <AppBarWrapper indicatorColor="secondary" />
+    title: "secondary",
+    component: <AppBarWrapper indicatorColor="secondary" />,
   },
   {
-    "title": "primary",
-    "component": <AppBarWrapper indicatorColor="primary" />
-  }
+    title: "primary",
+    component: <AppBarWrapper indicatorColor="primary" />,
+  },
 ];
 
 export const tabContainerAttribute = [
   {
-    "title": "centered",
-    "component": <AppBarWrapper width={1240} centered={true} />
-  }
+    title: "centered",
+    component: <AppBarWrapper width={1240} centered={true} />,
+  },
 ];
 
 export const tabItemAttribute = [
   {
-    "title": "icon",
-    "component": <AppBarWrapper icon={true} label={false} />
+    title: "icon",
+    component: <AppBarWrapper icon={true} label={false} />,
   },
   {
-    "title": "icon with label",
-    "component": <AppBarWrapper icon={true} />
+    title: "icon with label",
+    component: <AppBarWrapper icon={true} />,
   },
   {
-    "title": "disabled",
-    "component": <AppBarWrapper disabled={true} />
+    title: "disabled",
+    component: <AppBarWrapper disabled={true} />,
   },
   {
-    "title": "wrapped",
-    "component": <AppBarWrapper wrapped={true} width={800} />
-  }
+    title: "wrapped",
+    component: <AppBarWrapper wrapped={true} width={800} />,
+  },
 ];

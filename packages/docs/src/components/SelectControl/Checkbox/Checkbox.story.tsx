@@ -8,22 +8,21 @@ import { PropTypes } from "@material-ui/core";
 import CheckboxDocs from "./Checkbox.docs.mdx";
 
 export default {
-  "title": "Components|SelectControl/Checkbox",
-  "component": [Checkbox],
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|SelectControl/Checkbox",
+  component: [Checkbox],
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Checkbox"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Checkbox"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": CheckboxDocs
-    }
-  }
+    docs: {
+      page: CheckboxDocs,
+    },
+  },
 };
 
 const primary: PropTypes.Color = "primary";
@@ -33,7 +32,7 @@ const defaultColorPropType: PropTypes.Color = "default";
 const colors: any = {
   primary,
   secondary,
-  "default": defaultColorPropType
+  default: defaultColorPropType,
 };
 
 export const Interactive = () => <Checkbox
@@ -41,4 +40,3 @@ export const Interactive = () => <Checkbox
   checked={boolean("checked", true)}
   disabled={boolean("disabled", false)}
 />;
-

@@ -7,20 +7,19 @@ import ListDocs from "./List.docs.mdx";
 export { Interactive } from "./Interactive";
 
 export default {
-  "title": "Components|List",
-  "component": List,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|List",
+  component: List,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["List"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["List"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": ListDocs
-    }
-  }
+    docs: {
+      page: ListDocs,
+    },
+  },
 };

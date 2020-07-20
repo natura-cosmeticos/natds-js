@@ -17,7 +17,9 @@ export interface IDrawerHeaderProps {
   theme: IThemeWeb | unknown;
 }
 
-const buildContent = ({ primary, secondary, avatarSrc, avatarChildren, theme }: IDrawerHeaderProps) => <>
+const buildContent = ({
+  primary, secondary, avatarSrc, avatarChildren, theme,
+}: IDrawerHeaderProps) => <>
   {(avatarSrc || avatarChildren) && <DrawerHeaderAvatar as={Avatar} src={avatarSrc} size="large" theme={theme}>{avatarChildren}</DrawerHeaderAvatar>}
   {primary && <Typography variant="h5">{primary}</Typography>}
   {secondary && <Typography variant="subtitle2" color="textSecondary">{secondary}</Typography>}
@@ -25,12 +27,16 @@ const buildContent = ({ primary, secondary, avatarSrc, avatarChildren, theme }: 
 
 export const DrawerHeader: FunctionComponent<IDrawerHeaderProps> = forwardRef((
   props: IDrawerHeaderProps,
-  ref: any
+  ref: any,
 ) => {
-  const { children, component, "theme": providerTheme, ...rest } = props,
+  const {
+      children, component, theme: providerTheme, ...rest
+    } = props,
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
-    content = children || buildContent({ ...props,
-      theme });
+    content = children || buildContent({
+      ...props,
+      theme,
+    });
 
   return (
     <DrawerHeaderComponent

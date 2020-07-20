@@ -5,5 +5,5 @@ module.exports = {
   ...base,
   displayName,
   name,
-  "roots": ["<rootDir>/scripts"]
+  roots: ["<rootDir>/scripts"],
 };

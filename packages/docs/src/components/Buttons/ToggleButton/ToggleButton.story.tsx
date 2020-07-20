@@ -11,22 +11,21 @@ import { PropTypes } from "@material-ui/core";
 import ToggleButtonDocs from "./ToggleButton.docs.mdx";
 
 export default {
-  "title": "Components|Buttons/ToggleButton",
-  "component": ToggleButton,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Buttons/ToggleButton",
+  component: ToggleButton,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["ToggleButton"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["ToggleButton"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": ToggleButtonDocs
-    }
-  }
+    docs: {
+      page: ToggleButtonDocs,
+    },
+  },
 };
 
 const primary: PropTypes.Color = "primary";
@@ -36,12 +35,12 @@ const defaultColorPropType: PropTypes.Color = "default";
 const colors: any = {
   primary,
   secondary,
-  "default": defaultColorPropType
+  default: defaultColorPropType,
 };
 
 const sizes: any = {
-  "small": "small",
-  "medium": "medium"
+  small: "small",
+  medium: "medium",
 };
 
 const icons: any = Object.keys(iconNames);
@@ -55,4 +54,3 @@ export const Interactive = () => <ToggleButton
   iconOn={<Icon name={select("Icon ON", icons, "filled-action-check")} size={select("Icon Size", iconSizes, iconSizes[2])} />}
   iconOff={<Icon name={select("Icon OFF", icons, "outlined-action-check")} size={select("Icon Size", iconSizes, iconSizes[2])} />}
 />;
-

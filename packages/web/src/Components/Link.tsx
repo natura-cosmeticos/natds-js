@@ -31,12 +31,12 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
 
 const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & React.RefAttributes<unknown>> = forwardRef((
   props: ILinkProps,
-  ref: any
+  ref: any,
 ) => {
   const {
       color = "default",
-      "theme": providerTheme,
-      style
+      theme: providerTheme,
+      style,
     } = props,
 
     defaultColor = color === "default",
@@ -48,9 +48,9 @@ const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & 
       const { palette } = theme as any;
 
       return {
-        "default": {
-          "color": palette.complementary.link
-        }
+        default: {
+          color: palette.complementary.link,
+        },
       };
     }, [theme]),
 
@@ -60,8 +60,10 @@ const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & 
     <MaterialLink
       {...props}
       color={validColor as any}
-      style={{ ...colorStyle,
-        ...style }}
+      style={{
+        ...colorStyle,
+        ...style,
+      }}
       ref={ref}
     />
   );

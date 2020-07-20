@@ -11,11 +11,11 @@ import tokensParams from "../tokens/shared";
 import "@naturacosmeticos/natds-icons/dist/natds-icons.css";
 
 export default {
-  "title": "Icons|Natura",
-  "parameters": {
-    "docs": { "page": IconsDocs },
-    ...tokensParams
-  }
+  title: "Icons|Natura",
+  parameters: {
+    docs: { page: IconsDocs },
+    ...tokensParams,
+  },
 };
 
 const outlined = getListByType("outlined");
@@ -26,4 +26,3 @@ export const Outlined = () => <IconDisplay iconList={outlined} itemsPerRow={6} t
 
 // @ts-ignore
 export const Filled = () => <IconDisplay iconList={filled} itemsPerRow={6} title="Filled" />;
-

@@ -1,16 +1,16 @@
 import "jest-styled-components";
 import * as React from "react";
 
-import Field, { FieldComponent } from "../Components/TextField/Field";
 import { assert, spy } from "sinon";
 import { mount, shallow } from "enzyme";
 
 import MaskedInput from "react-text-mask";
+import { expect } from "chai";
+import { themes } from "@naturacosmeticos/natds-styles";
 import PasswordReveal from "../Components/TextField/PasswordReveal";
 import SearchClear from "../Components/TextField/SearchClear";
 
-import { expect } from "chai";
-import { themes } from "@naturacosmeticos/natds-styles";
+import Field, { FieldComponent } from "../Components/TextField/Field";
 
 const getProps = (props: any = {}) => {
   const {
@@ -23,7 +23,7 @@ const getProps = (props: any = {}) => {
     required,
     state,
     theme = themes.natura.light,
-    type
+    type,
   } = props;
 
   return {
@@ -36,7 +36,7 @@ const getProps = (props: any = {}) => {
     required,
     state,
     theme,
-    type
+    type,
   };
 };
 
@@ -49,32 +49,25 @@ describe("TextField Field component", () => {
   });
 
   test("should render single line masked input", () => {
-    const props = getProps({ "mask": ["v"] });
+    const props = getProps({ mask: ["v"] });
     const component = shallow(<Field {...props} />);
 
     expect(component.find("#field").prop("as")).to.equal(MaskedInput);
   });
 
   test("should render multiline input", () => {
-    const props = getProps({ "mask": ["v"] });
-    const component = shallow(<Field {...props} multiline />);
-
-    expect(component.find("#field").prop("as")).to.equal("textarea");
-  });
-
-  test("should render multiline input", () => {
-    const props = getProps({ "mask": ["v"] });
+    const props = getProps({ mask: ["v"] });
     const component = shallow(<Field {...props} multiline />);
 
     expect(component.find("#field").prop("as")).to.equal("textarea");
   });
 
   test("should reveal input value for password types", () => {
-    const props = getProps({ "type": "password" });
+    const props = getProps({ type: "password" });
     const component = mount(<Field {...props} />);
     const value = "newpassword";
 
-    component.find(FieldComponent).simulate("change", { "target": { value } });
+    component.find(FieldComponent).simulate("change", { target: { value } });
     component.find(PasswordReveal).simulate("click");
 
     expect(component.find(FieldComponent).prop("type")).to.equal("text");
@@ -87,11 +80,11 @@ describe("TextField Field component", () => {
   });
 
   test("should clear input value for search types", () => {
-    const props = getProps({ "type": "search" });
+    const props = getProps({ type: "search" });
     const component = mount(<Field {...props} />);
     const value = "new search";
 
-    component.find(FieldComponent).simulate("change", { "target": { value } });
+    component.find(FieldComponent).simulate("change", { target: { value } });
 
     expect(component.find(FieldComponent).prop("value")).to.equal(value);
 
@@ -101,7 +94,7 @@ describe("TextField Field component", () => {
   });
 
   test("should clear input value for search types and call the callback function", () => {
-    const props = getProps({ "type": "search" });
+    const props = getProps({ type: "search" });
     const onChange = spy();
     const value = "new search";
     const component = mount(<Field {...props} onChange={onChange} value={value} />);
@@ -116,7 +109,7 @@ describe("TextField Field component", () => {
     const component = shallow(<Field {...props} />);
     const value = "new value";
 
-    component.find(FieldComponent).simulate("change", { "target": { value } });
+    component.find(FieldComponent).simulate("change", { target: { value } });
 
     expect(component.find(FieldComponent).prop("value")).to.equal(value);
   });
@@ -125,7 +118,7 @@ describe("TextField Field component", () => {
     const props = getProps();
     const onChange = spy();
     const value = "new value";
-    const event = { "target": { value } };
+    const event = { target: { value } };
     const component = shallow(<Field {...props} onChange={onChange} />);
 
     component.find(FieldComponent).simulate("change", event);

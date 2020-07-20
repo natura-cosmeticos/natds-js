@@ -27,12 +27,12 @@ export interface IAvatarProps extends MaterialAvatarProps {
 
 export const Avatar: FunctionComponent<IAvatarProps> = forwardRef((
   props: IAvatarProps,
-  ref: any
+  ref: any,
 ) => {
   const style = {
     ...withSizes(props.size, props.theme),
     ...withColors(props.color, props.theme),
-    ...props.style
+    ...props.style,
   };
 
   return <MaterialAvatar {...props} style={style} ref={ref} />;
@@ -54,9 +54,9 @@ const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
       sizeInPx = `${value.size}px`;
 
     return {
-      "fontSize": value.fontSize,
-      "height": sizeInPx,
-      "width": sizeInPx
+      fontSize: value.fontSize,
+      height: sizeInPx,
+      width: sizeInPx,
     };
   },
 
@@ -75,8 +75,8 @@ const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
     }
 
     return {
-      "background": selectedColor.main,
-      "color": selectedColor.contrastText
+      background: selectedColor.main,
+      color: selectedColor.contrastText,
     };
   };
 

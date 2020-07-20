@@ -3,6 +3,49 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.4](https://github.com/natura-cosmeticos/natds/compare/v0.13.3...v0.13.4) (2020-07-20)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.3](https://github.com/natura-cosmeticos/natds/compare/v0.13.2...v0.13.3) (2020-07-20)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.2](https://github.com/natura-cosmeticos/natds/compare/v0.13.1...v0.13.2) (2020-07-20)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.1](https://github.com/natura-cosmeticos/natds/compare/v0.13.0...v0.13.1) (2020-07-20)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+# [0.13.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.5...v0.13.0) (2020-07-18)
+
+
+### Features
+
+* add eslint-config-natura code style ([fbcb48c](https://github.com/natura-cosmeticos/natds/commit/fbcb48ce02adfcdac3cf4e94f72b7e2101c611cf))
+
+
+
+
+
 ## [0.12.5](https://github.com/natura-cosmeticos/natds/compare/v0.12.4...v0.12.5) (2020-07-17)
 
 **Note:** Version bump only for package natds

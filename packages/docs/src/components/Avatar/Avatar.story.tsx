@@ -8,36 +8,35 @@ import { tokens } from "@naturacosmeticos/natds-styles";
 import AvatarDocs from "./Avatar.docs.mdx";
 
 export default {
-  "title": "Components|Avatar",
-  "component": Avatar,
-  "decorators": [
-    withJest(),
-    withContainer
+  title: "Components|Avatar",
+  component: Avatar,
+  decorators: [
+    withJest(), withContainer,
   ],
-  "parameters": {
-    "jestImportPath": "web",
-    "jest": ["Avatar"],
-    "theme": {
-      "context": "web"
+  parameters: {
+    jestImportPath: "web",
+    jest: ["Avatar"],
+    theme: {
+      context: "web",
     },
-    "docs": {
-      "page": AvatarDocs
-    }
-  }
+    docs: {
+      page: AvatarDocs,
+    },
+  },
 };
 
 const source: any = {
-  "image": require("../../assets/images/1.png"),
-  "anonymous": require("../../assets/images/avatar.png"),
-  "none": null
+  image: require("../../assets/images/1.png"),
+  anonymous: require("../../assets/images/avatar.png"),
+  none: null,
 };
 
 const sizes: any = Object.keys(tokens.avatarSizes);
 
 const colors: any = {
-  "primary": "primary",
-  "secondary": "secondary",
-  "default": "default"
+  primary: "primary",
+  secondary: "secondary",
+  default: "default",
 };
 
 export const Interactive = () => <Avatar
@@ -64,4 +63,3 @@ export const Text = () => <Avatar
   size={select("size", sizes, "huge")}
   color={select("color", colors, colors.primary)}
 />;
-

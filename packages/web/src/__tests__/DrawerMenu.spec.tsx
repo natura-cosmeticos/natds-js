@@ -11,48 +11,48 @@ import Collapse from "../Components/Collapse";
 
 const listBasic = [
   {
-    "icon": "outlined-action-love",
-    "name": "Menu Item"
-  }
+    icon: "outlined-action-love",
+    name: "Menu Item",
+  },
 ];
 
 const listComplete = [
   {
-    "icon": "outlined-action-love",
-    "name": "Menu Item"
+    icon: "outlined-action-love",
+    name: "Menu Item",
   },
   {
-    "badge": "Novo",
-    "icon": "outlined-action-love",
-    "name": "Menu Item",
-    "onSelect": () => null
+    badge: "Novo",
+    icon: "outlined-action-love",
+    name: "Menu Item",
+    onSelect: () => null,
   },
   {
-    "badge": "Novo",
-    "icon": "outlined-action-love",
-    "list": [
+    badge: "Novo",
+    icon: "outlined-action-love",
+    list: [
       {
-        "name": "Menu Item",
-        "icon": "outlined-action-love"
+        name: "Menu Item",
+        icon: "outlined-action-love",
       },
       {
-        "name": "Menu Item",
-        "icon": "outlined-action-love",
-        "badge": "New"
-      }
+        name: "Menu Item",
+        icon: "outlined-action-love",
+        badge: "New",
+      },
     ],
-    "name": "Menu Item",
-    "onToggle": () => null,
-    "opened": false
+    name: "Menu Item",
+    onToggle: () => null,
+    opened: false,
   },
   {
-    "section": "section"
+    section: "section",
   },
   {
-    "name": "Menu Item",
-    "icon": "outlined-action-love",
-    "badge": "Novo"
-  }
+    name: "Menu Item",
+    icon: "outlined-action-love",
+    badge: "Novo",
+  },
 ];
 
 describe("DrawerMenu component", () => {
@@ -95,8 +95,10 @@ describe("DrawerMenu component", () => {
   test("should render list item with badge", () => {
     const [listItem] = listBasic,
       list = [
-        { ...listItem,
-          "badge": "badge" }
+        {
+          ...listItem,
+          badge: "badge",
+        },
       ],
       component = mount(<DrawerMenu list={list as [IDrawerMenuSectionProps]} />);
 
@@ -116,8 +118,10 @@ describe("DrawerMenu component", () => {
   test("should start with submenu opened", () => {
     const listItem = listComplete[INDEX_TWO],
       list = [
-        { ...listItem,
-          "opened": true }
+        {
+          ...listItem,
+          opened: true,
+        },
       ],
       component = mount(<DrawerMenu list={list as unknown as [IDrawerMenuSectionProps]} />);
 
@@ -130,8 +134,8 @@ describe("DrawerMenu component", () => {
 
     expect(component.find(Collapse).prop("in")).to.equal(false);
 
-    component.find("li").at(INDEX_TWO).
-      simulate("click");
+    component.find("li").at(INDEX_TWO)
+      .simulate("click");
 
     expect(component.find(Collapse).prop("in")).to.equal(true);
 
@@ -142,8 +146,8 @@ describe("DrawerMenu component", () => {
     const onSelect = spy(listComplete[INDEX_ONE], "onSelect"),
       component = mount(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
 
-    component.find("li").at(INDEX_ONE).
-      simulate("click");
+    component.find("li").at(INDEX_ONE)
+      .simulate("click");
 
     assert.calledOnce(onSelect);
   });
