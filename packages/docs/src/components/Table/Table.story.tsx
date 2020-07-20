@@ -1,4 +1,4 @@
-import * as React from 'react';
+import * as React from "react";
 import withJest from "@decorators/jest/jest";
 import withContainer from "@decorators/container/withContainer";
 import {
