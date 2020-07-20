@@ -20,7 +20,7 @@ but the following list should give some indication of our plans for the next rel
 8. **Better snapshot testing**: gradually adopt `react-test-renderer` instead of current `enzyme` for snapshot testing;
 9. **Better code examples**: mantain boilerplates and code snippets showing how implement Design System in web projects.
 
-## Next release plans
+## Next plans
 
 - Gradually adopt `rollup` instead of `tsc` for building `natds-web`;
 - Add single source of truth (`natds-commons`) as dependency;
