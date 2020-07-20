@@ -32,7 +32,7 @@ const onError = (error) => {
 const createSwiftOutput = (metadata) => {
 
   const FIRST_CHAR_INDEX = 0;
-  const SECOND_CHAR_INDEX = 0;
+  const SECOND_CHAR_INDEX = 1;
   const capitalizeWord = (word) => `${word[FIRST_CHAR_INDEX].toUpperCase()}${word.slice(SECOND_CHAR_INDEX)}`;
 
   const toCamelCaseMapper = (item, index) => {
