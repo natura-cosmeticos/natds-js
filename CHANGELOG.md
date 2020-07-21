@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.6](https://github.com/natura-cosmeticos/natds/compare/v0.13.5...v0.13.6) (2020-07-21)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
 ## [0.13.5](https://github.com/natura-cosmeticos/natds/compare/v0.13.5-alpha.DSY-1250.0...v0.13.5) (2020-07-21)
 
 
