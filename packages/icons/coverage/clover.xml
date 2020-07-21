@@ -1,0 +1,56 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<coverage generated="1595370778180" clover="3.2.0">
+  <project timestamp="1595370778180" name="All files">
+    <metrics statements="29" coveredstatements="29" conditionals="2" coveredconditionals="2" methods="8" coveredmethods="8" elements="39" coveredelements="39" complexity="0" loc="29" ncloc="29" packages="1" files="7" classes="7"/>
+    <file name="capitalizeWord.js" path="/home/travis/build/natura-cosmeticos/natds-js/packages/icons/scripts/helpers/capitalizeWord.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="2" count="12" type="stmt"/>
+      <line num="4" count="6" type="stmt"/>
+    </file>
+    <file name="getIconString.js" path="/home/travis/build/natura-cosmeticos/natds-js/packages/icons/scripts/helpers/getIconString.js">
+      <metrics statements="5" coveredstatements="5" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="3" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="9" count="1" type="stmt"/>
+      <line num="12" count="1" type="stmt"/>
+    </file>
+    <file name="getUnicodeIconString.js" path="/home/travis/build/natura-cosmeticos/natds-js/packages/icons/scripts/helpers/getUnicodeIconString.js">
+      <metrics statements="7" coveredstatements="7" conditionals="0" coveredconditionals="0" methods="2" coveredmethods="2"/>
+      <line num="1" count="1" type="stmt"/>
+      <line num="2" count="1" type="stmt"/>
+      <line num="4" count="1" type="stmt"/>
+      <line num="5" count="1" type="stmt"/>
+      <line num="7" count="2" type="stmt"/>
+      <line num="10" count="1" type="stmt"/>
+      <line num="13" count="1" type="stmt"/>
+    </file>
+    <file name="iconNameMapper.js" path="/home/travis/build/natura-cosmeticos/natds-js/packages/icons/scripts/helpers/iconNameMapper.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="2" type="stmt"/>
+      <line num="3" count="3" type="stmt"/>
+      <line num="5" count="2" type="stmt"/>
+    </file>
+    <file name="toCamelCase.js" path="/home/travis/build/natura-cosmeticos/natds-js/packages/icons/scripts/helpers/toCamelCase.js">
+      <metrics statements="3" coveredstatements="3" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="4" type="stmt"/>
+      <line num="3" count="6" type="stmt"/>
+      <line num="8" count="4" type="stmt"/>
+    </file>
+    <file name="toCamelCaseMapper.js" path="/home/travis/build/natura-cosmeticos/natds-js/packages/icons/scripts/helpers/toCamelCaseMapper.js">
+      <metrics statements="7" coveredstatements="7" conditionals="2" coveredconditionals="2" methods="1" coveredmethods="1"/>
+      <line num="1" count="5" type="stmt"/>
+      <line num="3" count="5" type="stmt"/>
+      <line num="5" count="18" type="stmt"/>
+      <line num="7" count="18" type="cond" truecount="2" falsecount="0"/>
+      <line num="8" count="7" type="stmt"/>
+      <line num="11" count="11" type="stmt"/>
+      <line num="14" count="5" type="stmt"/>
+    </file>
+    <file name="toIosUnicode.js" path="/home/travis/build/natura-cosmeticos/natds-js/packages/icons/scripts/helpers/toIosUnicode.js">
+      <metrics statements="2" coveredstatements="2" conditionals="0" coveredconditionals="0" methods="1" coveredmethods="1"/>
+      <line num="1" count="3" type="stmt"/>
+      <line num="3" count="2" type="stmt"/>
+    </file>
+  </project>
+</coverage>
