@@ -45,7 +45,7 @@ You can follow our guideline in your feature branch which go as it follows:
 
 ### HOTFIXES
 
-- Checkout from `master` and create a branch named `hotfix/<name>`. Make the fix and PR it back to `master`. After the merge, it will be released to npm and a new version will be available on storybook.
+- Checkout from `main` and create a branch named `hotfix/<name>`. Make the fix and PR it back to `main`. After the merge, it will be released to npm and a new version will be available on storybook.
 
 ## For contributors on Natura Organization
 
@@ -98,8 +98,8 @@ We use [Netlify](https://www.netlify.com/) to create new storybook instances, ge
 
 ## Starting a new milestone
 
-- Checkout from master branch with name `vX.Y.Z`, where `X.Y.Z` is the milestone number and alter the root package.json version to `X.Y.Z`
-- Checkout from master-docs to `vX.Y.Z-docs`
+- Checkout from `main` branch with name `vX.Y.Z`, where `X.Y.Z` is the milestone number and alter the root package.json version to `X.Y.Z`
+- Checkout from `main-docs` to `vX.Y.Z-docs`
 - Clear the versions array file at `packages/docs/dist/verions_config.json` and remove all folders inside `packages/docs/dist/releases` and commit the changes.
 - Create an instance at netlify ([instructions here](./DEPLOY_NETLIFY.md)) syncing to the branch `vX.Y.Z-docs` without a build process. The instance must be pointing to `packages/docs/dist` and the link of the instance must be `https://natds-vX-Y-Z-alpha.netlify.com/`
 - Alter the github rule of the protected branches from `v*.*.*` to `v`

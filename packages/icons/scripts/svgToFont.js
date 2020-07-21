@@ -1,7 +1,9 @@
 #!/usr/bin/env node
-/* eslint-disable max-lines-per-function */
+
 const webfont = require("webfont").default;
 const fs = require("fs");
+const getIconString = require("./helpers/getIconString");
+const getUnicodeIconString = require("./helpers/getUnicodeIconString");
 
 const config = {
   files: "./src/assets/cleaned/**/*.svg",
@@ -30,45 +32,15 @@ const onError = (error) => {
 
 // @todo refactor(icons): refactor createSwiftOutput()
 const createSwiftOutput = (metadata) => {
-
-  const FIRST_CHAR_INDEX = 0;
-  const SECOND_CHAR_INDEX = 0;
-  const capitalizeWord = (word) => `${word[FIRST_CHAR_INDEX].toUpperCase()}${word.slice(SECOND_CHAR_INDEX)}`;
-
-  const toCamelCaseMapper = (item, index) => {
-    if (index === FIRST_CHAR_INDEX) {
-      return item;
-    }
-
-    return capitalizeWord(item);
-  };
-
-  const toCamelCase = (word) => word
-    .split("-")
-    .map(toCamelCaseMapper)
-    .join("");
-
-  const toIosUnicode = (unicode) => `${unicode.replace("%u", "\\u{")}}`;
-
   const formattedMetadataSwift = `
 public enum Icon: String, CaseIterable {
-  ${
-  Object
-    .keys(metadata)
-    .map((iconName) => `case ${toCamelCase(iconName)} = "${iconName}"\n`)
-    .join("")
-}
+  ${getIconString(metadata)}
 }
 
 extension Icon {
   var unicode: String {
       switch self {
-      ${
-  Object
-    .keys(metadata)
-    .map((iconName) => `case .${toCamelCase(iconName)}: return "${toIosUnicode(metadata[iconName])}"\n`)
-    .join("")
-}
+      ${getUnicodeIconString(metadata)}
       }
   }
 }
@@ -80,14 +52,13 @@ extension Icon {
 const FIRST_INDEX = 0;
 const INDEX_INCREMENT = 1;
 
+// eslint-disable-next-line max-lines-per-function
 const onSuccess = (result) => {
   const { config: { fontName }, template, glyphsData } = result;
   const metadata = {};
 
   glyphsData.forEach(({ metadata: { name, unicode } }) => {
-    const escapedUnicode = escape(unicode);
-
-    Object.assign(metadata, { [name]: escapedUnicode });
+    Object.assign(metadata, { [name]: escape(unicode) });
   });
 
   fs.writeFile(`${distMetadata + fontName}.css`, template, onError);

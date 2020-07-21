@@ -137,7 +137,7 @@ Um _pull request_ só será mesclado com a _branch_ principal se:
   - Codecov: a cobertura de 100% deve ser mantida;
   - Commitlint: todas as mensagens de _commit_ seguem o [Conventional Commits](https://www.conventionalcommits.org/pt-br/);
   - Mergeable: as alterações e a descrição do _pull request_
-    não ferem nenhuma das [políticas do Mergeable](https://github.com/natura-cosmeticos/.github/blob/master/.github/mergeable.yml);
+    não ferem nenhuma das [políticas do Mergeable](https://github.com/natura-cosmeticos/.github/blob/main/.github/mergeable.yml);
   - Travis CI: nenhum _build_ quebrou e todos os testes passaram;
   - Typo CI: não há nenhum typo que prejudique o entendimento ou leitura do código;
   - Snyk: não há versões obsoletas ou com vulnerabilidades conhecidas;

@@ -37,23 +37,24 @@ cd "${TRAVIS_BUILD_DIR}"
 echo "STORYBOOK Fetching from Git..."
 git fetch
 
-if [ "${TRAVIS_BRANCH}" = "master" ]; then
+if [ "${TRAVIS_BRANCH}" = "main" ]; then
   echo "STORYBOOK At main branch"
   git checkout .
 
   echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
-  git checkout master-docs
+  git checkout main-docs
 else
   echo "STORYBOOK At DSY-* branch"
 
   echo "STORYBOOK Updating from remote..."
   git remote update
 
-  echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
-  git checkout -b "${TRAVIS_BRANCH}-docs"
-
+  # @see https://stackoverflow.com/questions/49297153/why-is-it-not-a-commit-and-a-branch-cannot-be-created-from-it
   echo "STORYBOOK Fetching from Git..."
-  git fetch
+  git fetch --all
+
+  echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
+  git checkout -b "${TRAVIS_BRANCH}-docs" main-docs
 fi
 
 echo "STORYBOOK Adding version ${VERSION} to versions JSON file"

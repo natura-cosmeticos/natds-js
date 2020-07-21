@@ -102,6 +102,7 @@ declare const styles: {
   readonly "natds-icons-outlined-alert-empty": string;
   readonly "natds-icons-outlined-alert-indeterminate": string;
   readonly "natds-icons-outlined-alert-info": string;
+  readonly "natds-icons-outlined-alert-notification": string;
   readonly "natds-icons-outlined-alert-warning": string;
   readonly "natds-icons-outlined-communication-chat": string;
   readonly "natds-icons-outlined-communication-email": string;

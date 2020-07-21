@@ -35,11 +35,11 @@
     "format": "yarn lint --fix",
     "format:staged": "yarn lint:staged --fix",
     "lerna": "lerna",
-    "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog",
+    "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog --no-git-tag-version",
     "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --force-publish --yes",
-    "lerna:prerelease:publish": "lerna publish from-git --ignore-prepublish",
+    "lerna:prerelease:publish": "lerna publish from-git --canary --ignore-prepublish",
     "lerna:prerelease:publish:ci": "yarn lerna:prerelease:publish --yes",
-    "lerna:release:version": "lerna version --allow-branch master --conventional-commits",
+    "lerna:release:version": "lerna version --allow-branch main --conventional-commits",
     "lerna:release:version:ci": "yarn lerna:release:version --create-release github --yes",
     "lerna:release:publish": "lerna publish from-git --dist-tag latest --ignore-prepublish",
     "lerna:release:publish:ci": "yarn lerna:release:publish --yes",
@@ -95,7 +95,7 @@
     "husky": "4.2.5",
     "jest": "26.1.0",
     "lerna": "3.22.1",
-    "netlify": "4.3.5",
+    "netlify": "4.3.6",
     "shelljs": "0.8.4"
   },
   "config": {
