@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.7](https://github.com/natura-cosmeticos/natds/compare/v0.13.6...v0.13.7) (2020-07-21)
+
+
+### Bug Fixes
+
+* **icons:** add `outlined-alert-notification` icon ([9d488c5](https://github.com/natura-cosmeticos/natds/commit/9d488c5374e517dc5d1a578a8ec34096cc80a376))
+
+
+
+
+
 ## [0.13.6](https://github.com/natura-cosmeticos/natds/compare/v0.13.5...v0.13.6) (2020-07-21)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
