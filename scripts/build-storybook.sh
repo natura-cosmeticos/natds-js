@@ -49,11 +49,12 @@ else
   echo "STORYBOOK Updating from remote..."
   git remote update
 
+  # @see https://stackoverflow.com/questions/49297153/why-is-it-not-a-commit-and-a-branch-cannot-be-created-from-it
+  echo "STORYBOOK Fetching from Git..."
+  git fetch --all
+
   echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
   git checkout -b "${TRAVIS_BRANCH}-docs" main-docs
-
-  echo "STORYBOOK Fetching from Git..."
-  git fetch
 fi
 
 echo "STORYBOOK Adding version ${VERSION} to versions JSON file"
