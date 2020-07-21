@@ -35,7 +35,7 @@
     "format": "yarn lint --fix",
     "format:staged": "yarn lint:staged --fix",
     "lerna": "lerna",
-    "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog --no-git-tag-version",
+    "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog",
     "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --force-publish --yes",
     "lerna:prerelease:publish": "lerna publish from-git --canary --ignore-prepublish",
     "lerna:prerelease:publish:ci": "yarn lerna:prerelease:publish --yes",
