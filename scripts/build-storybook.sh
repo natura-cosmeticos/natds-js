@@ -37,12 +37,12 @@ cd "${TRAVIS_BUILD_DIR}"
 echo "STORYBOOK Fetching from Git..."
 git fetch
 
-if [ "${TRAVIS_BRANCH}" = "master" ]; then
+if [ "${TRAVIS_BRANCH}" = "main" ]; then
   echo "STORYBOOK At main branch"
   git checkout .
 
   echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
-  git checkout master-docs
+  git checkout main-docs
 else
   echo "STORYBOOK At DSY-* branch"
 
@@ -50,7 +50,7 @@ else
   git remote update
 
   echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
-  git checkout -b "${TRAVIS_BRANCH}-docs"
+  git checkout -b "${TRAVIS_BRANCH}-docs" main-docs
 
   echo "STORYBOOK Fetching from Git..."
   git fetch

@@ -4,7 +4,7 @@
 
 When a component seems not to be styled according to Storybook, maybe you are not importing and/or using the `<Provider>` component.
 
-Most of times, you just need to import `Provider` and wrap all your application once with `<Provider>`.
+Most of the times, you just need to import `Provider` and wrap all your application once with `<Provider>`.
 
 For example: if you are working with `create-react-app` (CRA), you could put inside your `src/App.js` (or `src/App/index.js`) file:
 

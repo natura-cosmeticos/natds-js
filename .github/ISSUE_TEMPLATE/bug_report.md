@@ -13,7 +13,7 @@ assignees: ''
 
 - [ ] I have checked the examples demonstrated at [Storybook](https://natds-js.netlify.app);
 - [ ] I remembered to add the `<Provider>` for my components to be stylized according to the Storybook;
-- [ ] I checked the [TROUBLESHOOTING.md](https://github.com/natura-cosmeticos/natds-js/blob/master/TROUBLESHOOTING.md#troubleshooting) file and found that my error is not covered there;
+- [ ] I checked the [TROUBLESHOOTING.md](https://github.com/natura-cosmeticos/natds-js/blob/main/TROUBLESHOOTING.md#troubleshooting) file and found that my error is not covered there;
 - [ ] I've used this Design System before;
 - [ ] I've used [Material UI](https://material-ui.com/) before.
 
