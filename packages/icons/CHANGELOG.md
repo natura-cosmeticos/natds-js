@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.5](https://github.com/natura-cosmeticos/natds/compare/v0.13.5-alpha.DSY-1250.0...v0.13.5) (2020-07-21)
+
+
+### Bug Fixes
+
+* **icons:** fix icon filenames ([8958723](https://github.com/natura-cosmeticos/natds/commit/8958723d2cfc5b2e0a82088627ed9987f002eaed))
+
+
+
+
+
 ## [0.13.3](https://github.com/natura-cosmeticos/natds/compare/v0.13.2...v0.13.3) (2020-07-20)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
