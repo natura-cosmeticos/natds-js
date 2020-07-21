@@ -24,11 +24,11 @@ module.exports = {
     {
       files: [
         "**/jest.config.js",
-        "packages/icons/scripts/*.js",
-        "packages/web/config/test/*.ts",
-        "scripts/helpers/*.js",
+        "**/scripts/**/*.js",
+        "config/test/*.ts",
       ],
       rules: {
+        "@typescript-eslint/explicit-module-boundary-types": ["off"],
         "@typescript-eslint/no-var-requires": ["off"],
         "max-len": [
           "off", 127,
@@ -70,7 +70,7 @@ module.exports = {
       },
     },
     {
-      files: ["*.spec.{ts,tsx}"],
+      files: ["*.{spec,test}.{js,jsx,ts,tsx}"],
       rules: {
         "@typescript-eslint/no-empty-function": ["off"],
         "@typescript-eslint/no-explicit-any": ["off"],
