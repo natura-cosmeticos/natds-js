@@ -4,7 +4,7 @@
 
 When a component seems not to be styled according to Storybook, maybe you are not importing and/or using the `<Provider>` component.
 
-Most of the times, you just need to import `Provider` and wrap all your application once with `<Provider>`.
+Most of the times, you only need to import `Provider` and wrap all your application once with `<Provider>`.
 
 For example: if you are working with `create-react-app` (CRA), you could put inside your `src/App.js` (or `src/App/index.js`) file:
 
@@ -22,11 +22,11 @@ export const App = () => (
 )
 ```
 
-## Invalid hook call
+## Not valid call
 
 ### Check your `react` and `react-dom` dependencies
 
-Ideally, just one version for `react` and `react-dom` should be installed.
+Ideally, only one version for `react` and `react-dom` should be installed.
 
 1. Run `npm ls react` in your project and check if there's more than one entry;
 2. Now check the same with `npm ls react-dom`;
@@ -41,13 +41,7 @@ If nothing works, try the following steps:
 2. Try to vary your `@material-ui/core` versions and check if your application runs;
 3. Try to uninstall `@material-ui/core` and reinstall `@naturacosmeticos/natds-web` and check if it works;
 
-If nothing works, try the following steps:
-
-### Check your code
-
-You cannot use a hook inside a class component.
-
-If this is happening, try to rewrite your component in one of the following formats and check if works:
+If nothing works, try to rewrite your component in one of the following formats and check if works:
 
    - function component;
    - arrow function component;

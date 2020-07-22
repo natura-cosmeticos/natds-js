@@ -24,6 +24,7 @@
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
+    "alex": "alex",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "build:docs:prerelease": "bash scripts/build-storybook-release.sh",
@@ -104,13 +105,14 @@
     }
   },
   "dependencies": {
+    "alex": "^8.1.1",
     "glob": "7.1.6"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn format:staged",
-      "pre-push": "yarn format && yarn test"
+      "pre-commit": "alex && yarn format:staged",
+      "pre-push": "alex && yarn format && yarn test"
     }
   }
 }
