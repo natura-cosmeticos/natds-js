@@ -1,8 +1,3 @@
-/**
- * @todo fix: convert Storybook versions write file sync method to async
- */
-
-/* eslint-disable no-sync */
 const fs = require("fs");
 const path = require("path");
 const prependVersionToArray = require("./prependVersionToArray");
@@ -34,7 +29,11 @@ const FIRST_INDEX = 0;
 
 versionsConfig[FIRST_INDEX].versions = updatedVersions;
 
-console.info(`STORYBOOK Writing new versions list to ${configFilePath}...`);
-fs.writeFileSync(configFilePath, JSON.stringify(versionsConfig, null, VERSIONS_CONFIG_SPACES));
+const data = JSON.stringify(versionsConfig, null, VERSIONS_CONFIG_SPACES);
 
-console.info("STORYBOOK Done writing new versions");
+(async () => {
+  console.info(`STORYBOOK Writing new versions list to ${configFilePath}...`);
+  await fs.writeFile(configFilePath, data, () => {
+    console.info("STORYBOOK Done writing new versions");
+  });
+})();
