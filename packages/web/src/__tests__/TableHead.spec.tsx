@@ -24,7 +24,7 @@ describe("TableHead component", () => {
         </TableContainer>,
       );
 
-      expect(component.toJSON).toMatchSnapshot("TableHead component");
+      expect(component.toJSON()).toMatchSnapshot("TableHead component");
     });
   });
 });

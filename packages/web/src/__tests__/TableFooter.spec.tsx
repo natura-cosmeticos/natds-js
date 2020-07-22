@@ -24,7 +24,7 @@ describe("TableFooter component", () => {
         </TableContainer>,
       );
 
-      expect(component.toJSON).toMatchSnapshot("TableFooter component");
+      expect(component.toJSON()).toMatchSnapshot("TableFooter component");
     });
   });
 });
