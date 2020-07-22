@@ -47,4 +47,4 @@ The work process between the development and UX team will flow as follows:
 
 ## Consequences
 
-The changes mean a bigger complexity due to the multiple storybook instances and CI hooks, but they also mean a pipeline of work between the teams, where each one knows where and when to act in the project.
+The changes mean a greater complexity due to the multiple storybook instances and CI triggers, but they also mean a pipeline of work between the teams, where each one knows where and when to act in the project.

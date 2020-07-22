@@ -61,7 +61,7 @@ After merged, the PR will generate a version on the storybook that the milestone
 
 ## Initiating the Contribution
 
-First, you need to install dependencies and build packages. After that you will be able to execute any of the projects (docs and web).
+First, you need to install dependencies and build packages. After that you will be able to run any of the projects (docs and web).
 
 ```sh
 git clone https://github.com/natura-cosmeticos/natds

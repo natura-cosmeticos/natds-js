@@ -1,6 +1,6 @@
 {
   "name": "@naturacosmeticos/natds-docs",
-  "version": "0.14.0-alpha.DSY-1148.0",
+  "version": "0.13.9",
   "description": "Natura Design System - A collection of components used by Natura Cosmeticos",
   "main": "dist/index.js",
   "keywords": [
@@ -58,10 +58,10 @@
     "@types/react-dom": "16.9.8",
     "@types/react-native": "0.63.1",
     "babel-loader": "8.1.0",
-    "codecov": "3.7.1",
+    "codecov": "3.7.2",
     "css-loader": "3.6.0",
     "file-loader": "6.0.0",
-    "react-docgen-typescript": "1.20.0",
+    "react-docgen-typescript": "1.20.1",
     "react-docgen-typescript-loader": "3.7.2",
     "sass-loader": "9.0.2",
     "snyk": "^1.341.1",
@@ -75,9 +75,9 @@
   "dependencies": {
     "@material-ui/core": "4.11.0",
     "@material-ui/icons": "4.9.1",
-    "@naturacosmeticos/natds-icons": "^0.14.0-alpha.DSY-1148.0",
-    "@naturacosmeticos/natds-styles": "^0.14.0-alpha.DSY-1148.0",
-    "@naturacosmeticos/natds-web": "^0.14.0-alpha.DSY-1148.0",
+    "@naturacosmeticos/natds-icons": "^0.13.9",
+    "@naturacosmeticos/natds-styles": "^0.13.9",
+    "@naturacosmeticos/natds-web": "^0.13.9",
     "directory-tree": "2.2.4",
     "fuzzy-search": "3.2.1",
     "react": "16.13.1",

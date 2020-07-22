@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.9](https://github.com/natura-cosmeticos/natds/compare/v0.13.8...v0.13.9) (2020-07-22)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.8](https://github.com/natura-cosmeticos/natds/compare/v0.13.7...v0.13.8) (2020-07-22)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency alex to 8.1.1 ([68c48ed](https://github.com/natura-cosmeticos/natds/commit/68c48ed5f0357bfd7331d5de702111ed6354f2dc))
+
+
+
+
+
 ## [0.13.7](https://github.com/natura-cosmeticos/natds/compare/v0.13.6...v0.13.7) (2020-07-21)
 
 
@@ -452,7 +471,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** downgrade `styled-components` deps to avoid hook errors ([e7817a3](https://github.com/natura-cosmeticos/natds/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
+* **deps:** downgrade `styled-components` deps to avoid errors ([e7817a3](https://github.com/natura-cosmeticos/natds/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
 
 
 
@@ -466,7 +485,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Bug Fixes
 
 * fix error Command "test" not found on Travis CI ([418552e](https://github.com/natura-cosmeticos/natds/commit/418552ebb1bc7993b24761d754dd1aff90a35e32))
-* make \`test\` script run a complete sanity check ([f8e0c03](https://github.com/natura-cosmeticos/natds/commit/f8e0c03f47075a2f054cd2a8ed6e1ac2cfc08e89))
+* make \`test\` script run a complete check ([f8e0c03](https://github.com/natura-cosmeticos/natds/commit/f8e0c03f47075a2f054cd2a8ed6e1ac2cfc08e89))
 * **deps:** update dependency @types/react-native to v0.62.13 ([d0596cf](https://github.com/natura-cosmeticos/natds/commit/d0596cf5cc34b965dcf3eb572c5784c1e9d50ce8))
 * **deps:** update dependency clsx to v1.1.1 ([22980af](https://github.com/natura-cosmeticos/natds/commit/22980afdc71844ea3a0778de8f5221c01fc31fd3))
 * **deps:** update dependency fuzzy-search to v3.2.1 ([b59bbf6](https://github.com/natura-cosmeticos/natds/commit/b59bbf6c737bf77f2aa2362172c28f64c5f4fb5f))
@@ -523,7 +542,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **themes:** fixing the color used by input to colorHighEmphasis ([d20ae14](https://github.com/natura-cosmeticos/natds/commit/d20ae14fb8cd6ccfb7b25079e6ad03d3eece9eff))
+* **themes:** fixing colorHighEmphasis applied to input ([d20ae14](https://github.com/natura-cosmeticos/natds/commit/d20ae14fb8cd6ccfb7b25079e6ad03d3eece9eff))
 
 
 
@@ -539,7 +558,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **Popover:** added a new attribute to determine the maxWidth and fixed arrow position to center of ([3ac6937](https://github.com/natura-cosmeticos/natds/commit/3ac69373bedae11aac72e1866b4180457e3cb30c))
-* **Popover:** fixed dark themes color for paper and refactoring the docs ([ab9fe50](https://github.com/natura-cosmeticos/natds/commit/ab9fe50eb4751e873e78517a7ff46e8569ca1191))
+* **Popover:** fixed dark themes tokens for paper and refactoring the docs ([ab9fe50](https://github.com/natura-cosmeticos/natds/commit/ab9fe50eb4751e873e78517a7ff46e8569ca1191))
 
 
 
@@ -996,7 +1015,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** downgrade `styled-components` deps to avoid hook errors ([e7817a3](https://github.com/natura-cosmeticos/natds/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
+* **deps:** downgrade `styled-components` deps to avoid errors ([e7817a3](https://github.com/natura-cosmeticos/natds/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
 
 
 

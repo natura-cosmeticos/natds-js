@@ -24,6 +24,7 @@
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
+    "alex": "alex",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "build:docs:prerelease": "bash scripts/build-storybook-release.sh",
@@ -53,7 +54,7 @@
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "stryker:run": "stryker run",
-    "test": "lerna run test:ci --stream",
+    "test": "jest && lerna run test:ci --stream",
     "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons",
     "version": "echo $npm_package_version",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\""
@@ -104,13 +105,14 @@
     }
   },
   "dependencies": {
+    "alex": "8.1.1",
     "glob": "7.1.6"
   },
   "husky": {
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn format:staged",
-      "pre-push": "yarn format && yarn test"
+      "pre-commit": "alex && yarn format:staged",
+      "pre-push": "alex && yarn format && yarn test"
     }
   }
 }
