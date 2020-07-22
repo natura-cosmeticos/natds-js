@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.8](https://github.com/natura-cosmeticos/natds/compare/v0.13.7...v0.13.8) (2020-07-22)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency alex to 8.1.1 ([68c48ed](https://github.com/natura-cosmeticos/natds/commit/68c48ed5f0357bfd7331d5de702111ed6354f2dc))
+
+
+
+
+
 ## [0.13.7](https://github.com/natura-cosmeticos/natds/compare/v0.13.6...v0.13.7) (2020-07-21)
 
 
