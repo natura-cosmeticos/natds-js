@@ -26,16 +26,13 @@ export default function Table(props: ITableComponent) {
 
 const renderTableHead = (head: string[]) => <thead className="table__head">
   <tr>
-    {head.map((name: string, key: number) => <th className="table__head__item" key={key}>{name}</th>,
-    )}
+    {head.map((name: string, key: number) => <th className="table__head__item" key={key}>{name}</th>)}
   </tr>
 </thead>;
 const renderTableBody = (body: any[]) => <tbody className="table__body">
   {body.map((items: any[], trkey: number) => <tr className="table__body__row" key={trkey}>
-    {items.map((item: any, tdkey: number) => <td className="table__body__item" key={tdkey}>{renderItem(item)}</td>,
-    )}
-  </tr>,
-  )}
+    {items.map((item: any, tdkey: number) => <td className="table__body__item" key={tdkey}>{renderItem(item)}</td>)}
+  </tr>)}
 </tbody>;
 const renderItem = (item: any) => {
   if (item.type === "color") {

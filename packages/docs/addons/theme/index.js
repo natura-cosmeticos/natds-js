@@ -32,8 +32,7 @@ const getDisplayedItems = (list, onChange, selectedItem) => {
   }
 
   return [
-    ...list.map((params) => createBackgroundSelectorItem(params, onChange, selectedItem),
-    ),
+    ...list.map((params) => createBackgroundSelectorItem(params, onChange, selectedItem)),
   ];
 };
 

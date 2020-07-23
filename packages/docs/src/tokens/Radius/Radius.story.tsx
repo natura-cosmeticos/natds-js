@@ -51,6 +51,5 @@ export const Scale = () => <div className="radius__container">
   <h4 className="radius__container__title">Base = 4</h4>
   {Object.entries(radius).map(([
     key, value,
-  ]) => <RadiusItem name={key} key={key} borderRadius={value} />,
-  )}
+  ]) => <RadiusItem name={key} key={key} borderRadius={value} />)}
 </div>;

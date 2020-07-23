@@ -96,8 +96,7 @@ const mountGridItem = (selectBreakpoint: any, value: any, key: number) => <GridI
 </GridItem>;
 const mapGridItemBreakpoint = (selectBreakpoint: string) => gridItemBreakpointProps[
   selectBreakpoint
-].map((value: any, key: number) => mountGridItem(selectBreakpoint, value, key),
-);
+].map((value: any, key: number) => mountGridItem(selectBreakpoint, value, key));
 
 export const Fluid = () => {
   const selectBreakpoint = select("Breakpoint", breakpoint, breakpoint.md);

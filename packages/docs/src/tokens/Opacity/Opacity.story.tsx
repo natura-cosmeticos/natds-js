@@ -55,7 +55,6 @@ export const Scale = () => <div className="opacity__container">
   <div>
     {sortedOpacity.map(([
       key, value,
-    ]) => <OpacityBox name={key} key={key} value={value} />,
-    )}
+    ]) => <OpacityBox name={key} key={key} value={value} />)}
   </div>
 </div>;

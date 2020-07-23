@@ -55,7 +55,6 @@ export const Scale = () => <div className="elevation__container">
   <div>
     {sortedElevation.map(([
       key, value,
-    ]) => <Elevation name={key} key={key} value={value} />,
-    )}
+    ]) => <Elevation name={key} key={key} value={value} />)}
   </div>
 </div>;

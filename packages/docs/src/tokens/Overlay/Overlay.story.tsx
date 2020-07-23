@@ -55,7 +55,6 @@ export const Scale = () => <div className="overlay__container">
   <div>
     {sortedOverlay.map(([
       key, value,
-    ]) => <OverlayBox name={key} key={key} value={value} />,
-    )}
+    ]) => <OverlayBox name={key} key={key} value={value} />)}
   </div>
 </div>;

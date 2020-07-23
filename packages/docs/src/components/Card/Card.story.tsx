@@ -55,8 +55,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
   expandOpen: {
     transform: "rotate(180deg)",
   },
-}),
-);
+}));
 
 const source: any = {
   avatar: require("../../assets/images/1.png"),

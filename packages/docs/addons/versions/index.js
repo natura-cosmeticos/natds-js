@@ -112,8 +112,7 @@ const getDisplayedItems = (list, onChange, selectedItem) => {
   }
 
   return [
-    ...list.map((params) => createItemProps(params, onChange, selectedItem),
-    ),
+    ...list.map((params) => createItemProps(params, onChange, selectedItem)),
   ];
 };
 

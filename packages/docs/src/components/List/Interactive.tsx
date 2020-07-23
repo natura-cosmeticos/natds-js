@@ -31,8 +31,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
   checkbox: {
     marginLeft: "-6px",
   },
-}),
-);
+}));
 
 // @todo refactor(docs): refactor Interactive function from List component docs
 // eslint-disable-next-line max-lines-per-function

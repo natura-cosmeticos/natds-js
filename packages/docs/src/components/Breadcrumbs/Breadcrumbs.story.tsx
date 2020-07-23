@@ -52,8 +52,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
   icon: {
     marginRight: "4px",
   },
-}),
-);
+}));
 
 export const Interactive = () => <Breadcrumbs aria-label="breadcrumb" separator={text("Separador", "/")}>
   <Link color="inherit" href="#" onClick={handleClick}>

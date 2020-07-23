@@ -48,8 +48,7 @@ const useStyles = makeStyles((theme: Theme) => createStyles({
       marginTop: theme.spacing(2),
     },
   },
-}),
-);
+}));
 
 export const Interactive = () => {
   const classes = useStyles();
