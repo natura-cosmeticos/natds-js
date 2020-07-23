@@ -7,7 +7,7 @@ import {spacing} from "../../tokens/spacing";
 import {typography} from "../avon/typography";
 import {fontSize} from "../../tokens/fontSize";
 import {elevation} from "../../tokens/elevation";
-import {overrides} from "./overrides"
+import {overrides} from "./overrides";
 
 export const baseTheme = {
   avatarSizes,
@@ -15,6 +15,7 @@ export const baseTheme = {
   iconSizes,
   overrides,
   shape: {
+
     /**
      * @todo refactor badgeBorderRadius to get value from token.radius
      */
@@ -28,4 +29,4 @@ export const baseTheme = {
     ...fontSize,
     ...typography,
   },
-}
+};
