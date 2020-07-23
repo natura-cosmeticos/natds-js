@@ -27,5 +27,5 @@ export const MuiChip = {
   },
   root: {
     fontSize: fontSize.subtitle2.fontSize,
-  }
+  },
 };

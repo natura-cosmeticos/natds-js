@@ -1,6 +1,5 @@
 /* eslint-disable max-lines */
 /* eslint-disable no-magic-numbers */
-/* eslint-disable sort-keys */
 
 /**
  * @todo refactor(styles): replace magic numbers by tokens (including opacity, padding and sizing)
@@ -10,8 +9,6 @@ import hexToRgba from "hex-to-rgba";
 import merge from "lodash.merge";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
-import { typography } from "./typography";
-import { fontSize } from "../../tokens/fontSize";
 import { elevation } from "../../tokens/elevation";
 import { getBaseTheme } from "../base";
 
@@ -63,10 +60,6 @@ export const naturaLight: ITheme = merge(getBaseTheme(), {
       warning: naturaLightColorTokens.colorWarning,
       warningContrastText: naturaLightColorTokens.colorOnWarning,
     },
-  },
-  typography: {
-    ...typography,
-    ...fontSize,
   },
   shadows: elevation,
   overrides: {
