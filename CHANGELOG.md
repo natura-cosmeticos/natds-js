@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.13.10](https://github.com/natura-cosmeticos/natds/compare/v0.13.9...v0.13.10) (2020-07-23)
+
+
+### Bug Fixes
+
+* **docs:** prevent duplicated versions on storybook menu ([9777a56](https://github.com/natura-cosmeticos/natds/commit/9777a565d436fbc378b8f727490f80eb9e0fb932))
+
+
+
+
+
 ## [0.13.9](https://github.com/natura-cosmeticos/natds/compare/v0.13.8...v0.13.9) (2020-07-22)
 
 **Note:** Version bump only for package natds
