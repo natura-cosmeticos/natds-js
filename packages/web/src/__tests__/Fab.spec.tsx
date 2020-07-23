@@ -7,20 +7,20 @@ import { Provider } from "../Provider";
 describe("Fab component", () => {
   describe("rendering", () => {
     const colors = [
-        "primary",
-        "secondary",
-        "light",
-      ],
+      "primary",
+      "secondary",
+      "light",
+    ];
 
-      sizes = [
-        "large",
-        "medium",
-        "small",
-      ],
+    const sizes = [
+      "large",
+      "medium",
+      "small",
+    ];
 
-      variants = [
-        "round", "extended",
-      ];
+    const variants = [
+      "round", "extended",
+    ];
 
     test("it should render with no props", () => {
       const wrapper = renderer.create(<Fab>F</Fab>);

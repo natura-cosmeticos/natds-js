@@ -19,21 +19,21 @@ export const AppBar: FunctionComponent<IAppBarProps> = forwardRef((
   ref: any,
 ) => {
   const {
-      elevation,
-      theme: providerTheme,
-      classes,
-    } = props,
+    elevation,
+    theme: providerTheme,
+    classes,
+  } = props;
 
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
-    useStyles = React.useMemo(() => makeStyles({
-      colorDefault: {
-        backgroundColor: theme.palette.background.paper,
-        color: theme.palette.background.paperContrastText,
-      },
-    }), [theme]),
+  const useStyles = React.useMemo(() => makeStyles({
+    colorDefault: {
+      backgroundColor: theme.palette.background.paper,
+      color: theme.palette.background.paperContrastText,
+    },
+  }), [theme]);
 
-    customClasses = useStyles();
+  const customClasses = useStyles();
 
   /**
    * @todo refactor(web): replace elevation magic number by corresponding token

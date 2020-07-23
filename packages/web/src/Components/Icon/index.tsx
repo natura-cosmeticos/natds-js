@@ -19,15 +19,15 @@ export const Icon: FunctionComponent<IIconProps> = forwardRef((
   ref: any,
 ) => {
 
-  const useIconStyles = makeIconStyles({size}),
-    classes = useIconStyles(),
+  const useIconStyles = makeIconStyles({size});
+  const classes = useIconStyles();
 
-    classNames = [
-      "natds-icons",
-      `natds-icons-${String(name)}`,
-      classes.root,
-      receivedClassName,
-    ];
+  const classNames = [
+    "natds-icons",
+    `natds-icons-${String(name)}`,
+    classes.root,
+    receivedClassName,
+  ];
 
   return <i className={clsx(classNames)} ref={ref} {...props} />;
 

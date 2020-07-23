@@ -53,19 +53,19 @@ const getActionLink = (actionLink?: IActionLink) => {
 // @todo refactor(web): refactor Popover component
 export const Popover: FunctionComponent<IPopoverProps> = forwardRef((props: IPopoverProps, ref: any) => {
   const {
-      actionLink,
-      children,
-      component,
-      direction = "bottom",
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      modifiers,
-      theme: providerTheme,
-      ...rest
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
-    [
-      arrowRef, setArrowRef,
-    ] = React.useState<HTMLSpanElement | null>(null);
+    actionLink,
+    children,
+    component,
+    direction = "bottom",
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    modifiers,
+    theme: providerTheme,
+    ...rest
+  } = props;
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const [
+    arrowRef, setArrowRef,
+  ] = React.useState<HTMLSpanElement | null>(null);
 
   return (
     <StyledPopper

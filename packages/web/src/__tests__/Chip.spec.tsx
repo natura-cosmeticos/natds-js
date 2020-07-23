@@ -26,9 +26,9 @@ const sizes: any = {
 
 describe("Chip component", () => {
   test("Chip calls onDelete", () => {
-    const onDelete = spy(),
-      label = "A Chip Component",
-      chip = mount(<Chip label={label} onDelete={onDelete} />);
+    const onDelete = spy();
+    const label = "A Chip Component";
+    const chip = mount(<Chip label={label} onDelete={onDelete} />);
 
     expect(chip.find(".MuiChip-label")).to.have.text(label);
 

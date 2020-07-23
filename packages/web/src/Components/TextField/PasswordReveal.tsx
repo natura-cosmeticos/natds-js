@@ -29,16 +29,16 @@ const baseIconStyle = `
 
 export const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPasswordReveal) => {
   const {
-      theme,
-      onTogglePasswordReveal,
-      showing,
-      showPasswordIcon = VisibilityIcon,
-      hidePasswordIcon = VisibilityIconOff,
-    } = props,
+    theme,
+    onTogglePasswordReveal,
+    showing,
+    showPasswordIcon = VisibilityIcon,
+    hidePasswordIcon = VisibilityIconOff,
+  } = props;
 
-    Component: ComponentType<any> = showing
-      ? styled(hidePasswordIcon)`${baseIconStyle}`
-      : styled(showPasswordIcon)`${baseIconStyle}`;
+  const Component: ComponentType<any> = showing
+    ? styled(hidePasswordIcon)`${baseIconStyle}`
+    : styled(showPasswordIcon)`${baseIconStyle}`;
 
   return (
     <Component

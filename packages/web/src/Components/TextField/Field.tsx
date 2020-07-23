@@ -1,5 +1,6 @@
 /* eslint-disable complexity */
 /* eslint-disable max-lines */
+/* eslint-disable max-statements */
 import React, { FunctionComponent, forwardRef, useState } from "react";
 import styled from "styled-components";
 import MaskedInput from "react-text-mask";
@@ -54,29 +55,29 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
   }
 
   const [
-      showing, togglePasswordReveal,
-    ] = useState(false),
-    [
-      value, setValue,
-    ] = useState(""),
-    customType = showing ? TEXT_TYPE : type,
-    showPasswordReveal = type === PASSWORD_TYPE && !icon,
-    showSearchClear = type === SEARCH_TYPE && !icon,
-    hasIcon = Boolean(showPasswordReveal) || Boolean(showSearchClear) || Boolean(icon),
+    showing, togglePasswordReveal,
+  ] = useState(false);
+  const [
+    value, setValue,
+  ] = useState("");
+  const customType = showing ? TEXT_TYPE : type;
+  const showPasswordReveal = type === PASSWORD_TYPE && !icon;
+  const showSearchClear = type === SEARCH_TYPE && !icon;
+  const hasIcon = Boolean(showPasswordReveal) || Boolean(showSearchClear) || Boolean(icon);
 
-    handleChange = (event: any) => {
-      setValue(event.target.value);
-      if (onChange) {
-        onChange(event);
-      }
-    },
+  const handleChange = (event: any) => {
+    setValue(event.target.value);
+    if (onChange) {
+      onChange(event);
+    }
+  };
 
-    clearSearch = (event: any) => {
-      setValue("");
-      if (onChange) {
-        onChange(event);
-      }
-    };
+  const clearSearch = (event: any) => {
+    setValue("");
+    if (onChange) {
+      onChange(event);
+    }
+  };
 
   return (
     <FieldContainer theme={theme} disabled={disabled}>
@@ -123,9 +124,9 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
 
 export default Field;
 
-const IconPad = `${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingLarge}px ${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingSmall}px`,
+const IconPad = `${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingLarge}px ${tokens.spacing.spacingSmall}px ${tokens.spacing.spacingSmall}px`;
 
-  FieldContainer = styled.div`
+const FieldContainer = styled.div`
   display: flex;
   flex-flow: column nowrap;
   position: relative;

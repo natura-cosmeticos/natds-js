@@ -15,9 +15,9 @@ export const DrawerFooter: FunctionComponent<IDrawerFooterProps> = forwardRef((
   ref: any,
 ) => {
   const {
-      children, component, theme: providerTheme, ...rest
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+    children, component, theme: providerTheme, ...rest
+  } = props;
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
   return (
     <DrawerFooterComponent

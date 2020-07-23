@@ -35,12 +35,12 @@ export const ToggleButton: FunctionComponent<IToggleButtonProps> = forwardRef((
   ref: any,
 ) => {
   const {
-      iconOn, iconOff, checked = false, onClick, ...rest
-    } = props,
-    [
-      checkedState, onToggle,
-    ] = useState(checked),
-    icon: any = checkedState ? iconOn : iconOff;
+    iconOn, iconOff, checked = false, onClick, ...rest
+  } = props;
+  const [
+    checkedState, onToggle,
+  ] = useState(checked);
+  const icon: any = checkedState ? iconOn : iconOff;
 
   useEffect(() => onToggle(checked), [checked]);
 

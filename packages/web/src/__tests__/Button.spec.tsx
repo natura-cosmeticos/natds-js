@@ -51,8 +51,8 @@ describe("Button component", () => {
 
   describe("interaction", () => {
     test("should call onClick", () => {
-      const mockOnClick = spy(),
-        component = shallow(<Button onClick={mockOnClick} />);
+      const mockOnClick = spy();
+      const component = shallow(<Button onClick={mockOnClick} />);
 
       component.simulate("click");
 

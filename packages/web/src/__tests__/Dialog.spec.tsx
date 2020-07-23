@@ -20,8 +20,8 @@ describe("Dialog components", () => {
     });
 
     test("should match to snapshot - with title", () => {
-      const children = <DialogTitle>Dialog title test text</DialogTitle>,
-        component = mount(<Dialog open={true}>{children}</Dialog>);
+      const children = <DialogTitle>Dialog title test text</DialogTitle>;
+      const component = mount(<Dialog open={true}>{children}</Dialog>);
 
       expect(component).matchSnapshot("Dialog with title snapshot");
     });

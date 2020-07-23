@@ -7,16 +7,16 @@ import { Provider } from "../Provider";
 describe("ContextualBadge component", () => {
   describe("rendering", () => {
     const colors = [
-        "primary",
-        "secondary",
-        "info",
-        "error",
-        "warning",
-        "success",
-        "light",
-        "dark",
-      ],
-      types = ["standard"];
+      "primary",
+      "secondary",
+      "info",
+      "error",
+      "warning",
+      "success",
+      "light",
+      "dark",
+    ];
+    const types = ["standard"];
 
     test("it should render each color", () => {
       colors.forEach((color) => {

@@ -141,8 +141,8 @@ export const stateStyles = {
 };
 
 export const getProp = (namespace: string, type: string, key?: string) => ({theme}: { theme?: any }) => {
-  const propNamespace = theme[namespace] || {},
-    propType = propNamespace[type] || {};
+  const propNamespace = theme[namespace] || {};
+  const propType = propNamespace[type] || {};
 
   return key ? propType[key] : propType;
 };

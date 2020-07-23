@@ -7,23 +7,23 @@ import DrawerBody, { DrawerBodyComponent, DrawerBodyScrollComponent } from "../C
 
 describe("DrawerBody component", () => {
   test("should match snapshot - DrawerBody children", () => {
-    const children = <div>some custom children</div>,
-      component = renderer.create(<DrawerBody>{children}</DrawerBody>);
+    const children = <div>some custom children</div>;
+    const component = renderer.create(<DrawerBody>{children}</DrawerBody>);
 
     expect(component).matchSnapshot("DrawerBody with children snapshot");
   });
 
   test("should match snapshot - DrawerBody custom component", () => {
-    const children = <div>some custom children</div>,
-      component = renderer.create(<DrawerBody component="section">{children}</DrawerBody>);
+    const children = <div>some custom children</div>;
+    const component = renderer.create(<DrawerBody component="section">{children}</DrawerBody>);
 
     expect(component).matchSnapshot("DrawerBody with custom component snapshot");
   });
 
   test("should custom children prevail over the properties", () => {
-    const children = <div className="custom">some custom children</div>,
-      component = mount(<DrawerBody>{children}</DrawerBody>),
-      event: any = { target: { scrollTop: 10 } };
+    const children = <div className="custom">some custom children</div>;
+    const component = mount(<DrawerBody>{children}</DrawerBody>);
+    const event: any = { target: { scrollTop: 10 } };
 
     component.find(DrawerBodyScrollComponent).simulate("scroll", event);
 

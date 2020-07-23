@@ -17,37 +17,37 @@ export const BottomNavigationAction: FunctionComponent<IBottomNavigationActionPr
   ref: any,
 ) => {
   const {
-      theme: providerTheme,
-    } = props,
+    theme: providerTheme,
+  } = props;
 
-    theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
+  const theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
-    useStyles = React.useMemo(() => {
+  const useStyles = React.useMemo(() => {
 
-      /**
-       * @todo fix(web): TS2571 - Object is of type 'unknown'.
-       */
-      // @ts-ignore
-      const { text } = theme.palette;
+    /**
+     * @todo fix(web): TS2571 - Object is of type 'unknown'.
+     */
+    // @ts-ignore
+    const { text } = theme.palette;
 
-      /**
-       * @todo fix(web): TS2339 - Property 'typography' does not exist on type 'unknown'.
-       */
-      const { typography: { caption } } = theme;
+    /**
+     * @todo fix(web): TS2339 - Property 'typography' does not exist on type 'unknown'.
+     */
+    const { typography: { caption } } = theme;
 
-      return makeStyles({
-        label: {
-          "&$selected": {
-            fontSize: caption.fontSize,
-          },
+    return makeStyles({
+      label: {
+        "&$selected": {
+          fontSize: caption.fontSize,
         },
-        selected: {
-          color: text.primary,
-        },
-      });
-    }, [theme]),
+      },
+      selected: {
+        color: text.primary,
+      },
+    });
+  }, [theme]);
 
-    classes = useStyles();
+  const classes = useStyles();
 
   return <MaterialBottomNavigationAction {...props} classes={classes} ref={ref} />;
 });

@@ -34,27 +34,27 @@ const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & 
   ref: any,
 ) => {
   const {
-      color = "default",
-      theme: providerTheme,
-      style,
-    } = props,
+    color = "default",
+    theme: providerTheme,
+    style,
+  } = props;
 
-    defaultColor = color === "default",
-    validColor = defaultColor ? "inherit" : color,
+  const defaultColor = color === "default";
+  const validColor = defaultColor ? "inherit" : color;
 
-    theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
+  const theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
-    colorMap = React.useMemo(() => {
-      const { palette } = theme as any;
+  const colorMap = React.useMemo(() => {
+    const { palette } = theme as any;
 
-      return {
-        default: {
-          color: palette.complementary.link,
-        },
-      };
-    }, [theme]),
+    return {
+      default: {
+        color: palette.complementary.link,
+      },
+    };
+  }, [theme]);
 
-    colorStyle = defaultColor ? colorMap[color] : {};
+  const colorStyle = defaultColor ? colorMap[color] : {};
 
   return (
     <MaterialLink

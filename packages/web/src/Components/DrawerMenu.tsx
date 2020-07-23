@@ -17,8 +17,8 @@ import ListItemIcon from "./ListItemIcon";
 import ListItemText from "./ListItemText";
 import Typography from "./Typography";
 
-const ICON_ARROW_DOWN = "outlined-navigation-arrowbottom",
-  ICON_ARROW_UP = "outlined-navigation-arrowtop";
+const ICON_ARROW_DOWN = "outlined-navigation-arrowbottom";
+const ICON_ARROW_UP = "outlined-navigation-arrowtop";
 
 export interface IDrawerMenuProps {
   children?: React.ReactNode;
@@ -52,22 +52,22 @@ export const DrawerMenu: FunctionComponent<IDrawerMenuProps> = forwardRef((
   ref: any,
 ) => {
   const {
-      children, list, theme: providerTheme, component, ...rest
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
-    StyledList = React.useMemo(() => makeStyles({
-      padding: {
-        marginBottom: theme.sizes.tiny,
-        marginTop: theme.sizes.tiny,
-        paddingBottom: 0,
-        paddingTop: 0,
-      },
-    }), [theme]),
+    children, list, theme: providerTheme, component, ...rest
+  } = props;
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const StyledList = React.useMemo(() => makeStyles({
+    padding: {
+      marginBottom: theme.sizes.tiny,
+      marginTop: theme.sizes.tiny,
+      paddingBottom: 0,
+      paddingTop: 0,
+    },
+  }), [theme]);
 
-    content = children || <List
-      classes={StyledList()}
-      dense
-    >{list && list.map(BuildDrawerMenuItems(theme))}</List>;
+  const content = children || <List
+    classes={StyledList()}
+    dense
+  >{list && list.map(BuildDrawerMenuItems(theme))}</List>;
 
   return (
     <DrawerMenuComponent {...rest} as={component} ref={ref}>
@@ -81,65 +81,65 @@ export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = for
   ref: any,
 ) => {
   const {
-      onToggle, icon, name, list, theme: providerTheme,
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
-    [
-      opened, toggleSubmenu,
-    ] = React.useState(props.opened),
+    onToggle, icon, name, list, theme: providerTheme,
+  } = props;
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const [
+    opened, toggleSubmenu,
+  ] = React.useState(props.opened);
 
-    StyledSubList = React.useMemo(() => makeStyles({
-      padding: {
-        borderLeft: `${theme.palette.action.hover} 1px solid`,
-        margin: `0 0 0 ${theme.sizes.semix}px`,
-        padding: `0 0 0 ${theme.sizes.tiny}px`,
+  const StyledSubList = React.useMemo(() => makeStyles({
+    padding: {
+      borderLeft: `${theme.palette.action.hover} 1px solid`,
+      margin: `0 0 0 ${theme.sizes.semix}px`,
+      padding: `0 0 0 ${theme.sizes.tiny}px`,
+    },
+  }), [theme]);
+
+  const StyledListSectionItem = React.useMemo(() => makeStyles({
+    root: {
+      borderRadius: theme.shape.borderRadius,
+      cursor: "pointer",
+      marginBottom: theme.sizes.micro,
+      padding: theme.sizes.tiny,
+      // eslint-disable-next-line sort-keys
+      "&:hover": {
+        backgroundColor: theme.palette.action.hover,
       },
-    }), [theme]),
-
-    StyledListSectionItem = React.useMemo(() => makeStyles({
-      root: {
-        borderRadius: theme.shape.borderRadius,
-        cursor: "pointer",
-        marginBottom: theme.sizes.micro,
-        padding: theme.sizes.tiny,
+      // eslint-disable-next-line sort-keys
+      "&$selected": {
+        backgroundColor: `${theme.palette.action.hover}`,
         // eslint-disable-next-line sort-keys
         "&:hover": {
           backgroundColor: theme.palette.action.hover,
         },
-        // eslint-disable-next-line sort-keys
-        "&$selected": {
-          backgroundColor: `${theme.palette.action.hover}`,
-          // eslint-disable-next-line sort-keys
-          "&:hover": {
-            backgroundColor: theme.palette.action.hover,
-          },
-        },
       },
-      selected: {},
-    }), [theme]),
+    },
+    selected: {},
+  }), [theme]);
 
-    StyledListItemIcon = React.useMemo(() => makeStyles({
-      root: {
-        marginRight: theme.sizes.standard,
-        marginTop: 0,
-        minWidth: "auto",
-      },
-    }), [theme]),
+  const StyledListItemIcon = React.useMemo(() => makeStyles({
+    root: {
+      marginRight: theme.sizes.standard,
+      marginTop: 0,
+      minWidth: "auto",
+    },
+  }), [theme]);
 
-    classes = StyledSubList(),
-    classesItem = StyledListSectionItem(),
-    classesIcon = StyledListItemIcon(),
-    listIconName = opened ? ICON_ARROW_UP : ICON_ARROW_DOWN,
+  const classes = StyledSubList();
+  const classesItem = StyledListSectionItem();
+  const classesIcon = StyledListItemIcon();
+  const listIconName = opened ? ICON_ARROW_UP : ICON_ARROW_DOWN;
 
-    handleClick = (event: React.SyntheticEvent) => {
-      toggleSubmenu(!opened);
+  const handleClick = (event: React.SyntheticEvent) => {
+    toggleSubmenu(!opened);
 
-      /**
-       * @todo refactor(web): convert expression to if block, add test
-       */
-      // eslint-disable-next-line no-unused-expressions
-      onToggle && onToggle(event, !opened, name);
-    };
+    /**
+     * @todo refactor(web): convert expression to if block, add test
+     */
+    // eslint-disable-next-line no-unused-expressions
+    onToggle && onToggle(event, !opened, name);
+  };
 
   return (
     <>
@@ -164,42 +164,43 @@ export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = for
   );
 });
 
+// eslint-disable-next-line max-statements
 export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = forwardRef((
   props: IDrawerMenuItemProps,
   ref: any,
 ) => {
   const {
-      onSelect, name, icon, selected, section, theme: providerTheme,
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
+    onSelect, name, icon, selected, section, theme: providerTheme,
+  } = props;
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
-    StyledListItem = React.useMemo(() => makeStyles({
-      root: {
-        borderRadius: theme.shape.borderRadius,
-        cursor: "pointer",
-        padding: theme.sizes.tiny,
-        // eslint-disable-next-line sort-keys
-        "&:hover": {
-          backgroundColor: theme.palette.action.hover,
-        },
+  const StyledListItem = React.useMemo(() => makeStyles({
+    root: {
+      borderRadius: theme.shape.borderRadius,
+      cursor: "pointer",
+      padding: theme.sizes.tiny,
+      // eslint-disable-next-line sort-keys
+      "&:hover": {
+        backgroundColor: theme.palette.action.hover,
       },
-    }), [theme]),
+    },
+  }), [theme]);
 
-    StyledListSubheader = React.useMemo(() => makeStyles({
-      root: {
-        backgroundColor: `${theme.palette.background.paper}`,
-        borderTop: `${theme.palette.action.hover} 1px solid`,
-        margin: `${theme.sizes.small}px -${theme.sizes.tiny}px 0`,
-      },
-    }), [theme]),
+  const StyledListSubheader = React.useMemo(() => makeStyles({
+    root: {
+      backgroundColor: `${theme.palette.background.paper}`,
+      borderTop: `${theme.palette.action.hover} 1px solid`,
+      margin: `${theme.sizes.small}px -${theme.sizes.tiny}px 0`,
+    },
+  }), [theme]);
 
-    StyledListItemIcon = React.useMemo(() => makeStyles({
-      root: {
-        marginRight: theme.sizes.standard,
-        marginTop: 0,
-        minWidth: "auto",
-      },
-    }), [theme]);
+  const StyledListItemIcon = React.useMemo(() => makeStyles({
+    root: {
+      marginRight: theme.sizes.standard,
+      marginTop: 0,
+      minWidth: "auto",
+    },
+  }), [theme]);
 
   if (section) {
     const classesSubheader = StyledListSubheader(theme);
@@ -209,10 +210,10 @@ export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = forwardRe
     );
   }
 
-  const classes = StyledListItem(),
-    classesIcon = StyledListItemIcon(),
-    handleClick = (event: React.SyntheticEvent) => onSelect && onSelect(event, name),
-    onClick = onSelect ? { onClick: handleClick } : {};
+  const classes = StyledListItem();
+  const classesIcon = StyledListItemIcon();
+  const handleClick = (event: React.SyntheticEvent) => onSelect && onSelect(event, name);
+  const onClick = onSelect ? { onClick: handleClick } : {};
 
   return (
     <ListItem

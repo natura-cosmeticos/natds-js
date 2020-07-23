@@ -6,9 +6,9 @@ import { shallow } from "enzyme";
 import {ITheme, themes} from "@naturacosmeticos/natds-styles";
 import Avatar from "../Components/Avatar";
 
-const label = "A",
+const label = "A";
 
-  MockedIcon = () => <i />;
+const MockedIcon = () => <i />;
 
 describe("Avatar component", () => {
   describe("rendering variants", () => {
@@ -45,8 +45,8 @@ describe("Avatar component", () => {
     });
 
     test("should match snapshot - Avatar with image", () => {
-      const image = "source/image.png",
-        component = renderer.create(<Avatar src={image} />).toJSON();
+      const image = "source/image.png";
+      const component = renderer.create(<Avatar src={image} />).toJSON();
 
       expect(component).to.matchSnapshot("Avatar with initials snapshot");
     });

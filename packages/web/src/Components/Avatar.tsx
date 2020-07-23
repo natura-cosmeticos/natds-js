@@ -40,44 +40,44 @@ export const Avatar: FunctionComponent<IAvatarProps> = forwardRef((
 
 const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
 
-    if (!size) {
-      return {};
-    }
+  if (!size) {
+    return {};
+  }
 
-    const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
+  const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
 
-    if (!avatarSizes) {
-      return {};
-    }
+  if (!avatarSizes) {
+    return {};
+  }
 
-    const value = avatarSizes[size],
-      sizeInPx = `${value.size}px`;
+  const value = avatarSizes[size];
+  const sizeInPx = `${value.size}px`;
 
-    return {
-      fontSize: value.fontSize,
-      height: sizeInPx,
-      width: sizeInPx,
-    };
-  },
-
-  withColors = (color: AvatarColors | undefined, theme: any = {}) => {
-
-    if (!color) {
-      return {};
-    }
-
-    const { palette = {} }: { palette: any } = theme,
-
-      selectedColor = palette[color];
-
-    if (!selectedColor || color === "default") {
-      return {};
-    }
-
-    return {
-      background: selectedColor.main,
-      color: selectedColor.contrastText,
-    };
+  return {
+    fontSize: value.fontSize,
+    height: sizeInPx,
+    width: sizeInPx,
   };
+};
+
+const withColors = (color: AvatarColors | undefined, theme: any = {}) => {
+
+  if (!color) {
+    return {};
+  }
+
+  const { palette = {} }: { palette: any } = theme;
+
+  const selectedColor = palette[color];
+
+  if (!selectedColor || color === "default") {
+    return {};
+  }
+
+  return {
+    background: selectedColor.main,
+    color: selectedColor.contrastText,
+  };
+};
 
 export default withTheme(Avatar);

@@ -6,12 +6,12 @@ import { Menu, MenuItem } from "..";
 
 const Component = () => {
   const [
-      anchorEl, setAnchorEl,
-    ] = React.useState(null),
+    anchorEl, setAnchorEl,
+  ] = React.useState(null);
 
-    handleClick = (event: any) => {
-      setAnchorEl(event.currentTarget);
-    };
+  const handleClick = (event: any) => {
+    setAnchorEl(event.currentTarget);
+  };
 
   return (
     <>

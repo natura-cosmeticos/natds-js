@@ -11,32 +11,32 @@ export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
   ref: any,
 ) => {
   const {
-      color = "primary",
-      theme: providerTheme,
-      disabled,
-      style,
-    } = props,
+    color = "primary",
+    theme: providerTheme,
+    disabled,
+    style,
+  } = props;
 
-    theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
+  const theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
-    colorMap = React.useMemo(() => {
-      const { palette } = providerTheme as any;
+  const colorMap = React.useMemo(() => {
+    const { palette } = providerTheme as any;
 
-      return {
-        light: {
-          backgroundColor: palette.background.default,
-          color: palette.background.defaultContrastText,
-        },
-        primary: {
-          backgroundColor: palette.primary.main,
-          color: palette.primary.contrastText,
-        },
-        secondary: {
-          backgroundColor: palette.secondary.main,
-          color: palette.secondary.contrastText,
-        },
-      };
-    }, [theme]);
+    return {
+      light: {
+        backgroundColor: palette.background.default,
+        color: palette.background.defaultContrastText,
+      },
+      primary: {
+        backgroundColor: palette.primary.main,
+        color: palette.primary.contrastText,
+      },
+      secondary: {
+        backgroundColor: palette.secondary.main,
+        color: palette.secondary.contrastText,
+      },
+    };
+  }, [theme]);
 
   let colorStyle = {};
 

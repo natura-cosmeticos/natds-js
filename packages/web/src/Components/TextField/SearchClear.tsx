@@ -25,8 +25,8 @@ const SearchIconStyles = `
 `;
 
 export const SearchClear: FunctionComponent<ISearchClear> = (props: ISearchClear) => {
-  const { theme, onClearSearch, searchIcon = ClearRounded } = props,
-    Component: ComponentType<any> = styled(searchIcon)`${SearchIconStyles}`;
+  const { theme, onClearSearch, searchIcon = ClearRounded } = props;
+  const Component: ComponentType<any> = styled(searchIcon)`${SearchIconStyles}`;
 
   return (
     <Component

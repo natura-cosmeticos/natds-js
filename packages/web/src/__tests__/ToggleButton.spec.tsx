@@ -66,9 +66,9 @@ describe("ToggleButton component", () => {
       assert.calledOnce(mockOnClick);
     });
 
-    const FIRST_INDEX = 0,
-      LENGTH_EMPTY = 0,
-      LENGTH_ONE = 1;
+    const FIRST_INDEX = 0;
+    const LENGTH_EMPTY = 0;
+    const LENGTH_ONE = 1;
 
     test("should start checked", () => {
       const component = shallow(<ToggleButton iconOn={<MockedIcon className="on" />} iconOff={<MockedIcon className="off" />} checked={true} />);

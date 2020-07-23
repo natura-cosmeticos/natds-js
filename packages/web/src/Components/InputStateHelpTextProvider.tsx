@@ -25,21 +25,21 @@ export interface IInputStateHelpTextProviderProps {
 // eslint-disable-next-line complexity
 export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextProviderProps> = (props: IInputStateHelpTextProviderProps) => {
   const {
-      id,
-      label,
-      helpText,
-      theme,
-      required = false,
-      disabled = false,
-      state,
-      className,
-      children,
-      readOnly = false,
-    } = props,
+    id,
+    label,
+    helpText,
+    theme,
+    required = false,
+    disabled = false,
+    state,
+    className,
+    children,
+    readOnly = false,
+  } = props;
 
-    content = label && required ? `${label} *` : label,
-    IconState = stateIcons[String(state)],
-    stateIcon = IconState && <IconState theme={theme} />;
+  const content = label && required ? `${label} *` : label;
+  const IconState = stateIcons[String(state)];
+  const stateIcon = IconState && <IconState theme={theme} />;
 
   return (
     <Container theme={theme} className={className}>
@@ -65,18 +65,18 @@ const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
   font-family: ${getProp("typography", "fontFamily")};
-`,
+`;
 
-  Label = styled.label`
+const Label = styled.label`
   font-size: ${getProp("typography", "subtitle2", "fontSize")};
   font-weight: ${getProp("typography", "subtitle2", "fontWeight")};
   color: ${getColorByState(stateStyles.hover)};
   line-height: 1.2;
   padding: 0 0 ${tokens.spacing.spacingMicro}px;
   font-family: ${getProp("typography", "subtitle2", "fontFamily")};
-`,
+`;
 
-  HelpText = styled.span`
+const HelpText = styled.span`
   font-size: ${getProp("typography", "caption", "fontSize")};
   font-weight: ${getProp("typography", "caption", "fontWeight")};
   color: ${getColorByState(stateStyles.hover)};
@@ -85,23 +85,23 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   font-family: ${getProp("typography", "subtitle2", "fontFamily")};
-`,
+`;
 
-  baseIcon = `
+const baseIcon = `
   width: 16px!important;
   height: 16px!important;
   margin-right: 4px;
-`,
+`;
 
-  IconError = styled(ErrorIcon)`
+const IconError = styled(ErrorIcon)`
   ${baseIcon}
-`,
+`;
 
-  IconSuccess = styled(SuccessIcon)`
+const IconSuccess = styled(SuccessIcon)`
   ${baseIcon}
-`,
+`;
 
-  stateIcons = {
-    error: IconError,
-    success: IconSuccess,
-  };
+const stateIcons = {
+  error: IconError,
+  success: IconSuccess,
+};

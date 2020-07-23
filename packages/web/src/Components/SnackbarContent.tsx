@@ -36,41 +36,41 @@ export const SnackbarContent: FunctionComponent<ISnackbarContentProps> = forward
   ref: any,
 ) => {
   const {
-      color = "default", theme: providerTheme, className, ...rest
-    } = props,
+    color = "default", theme: providerTheme, className, ...rest
+  } = props;
 
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
-    useStyles = React.useMemo(() => {
-      const {
-        complementary, error, success, background,
-      } = theme.palette;
+  const useStyles = React.useMemo(() => {
+    const {
+      complementary, error, success, background,
+    } = theme.palette;
 
-      return makeStyles({
-        default: {
-          backgroundColor: background.paperContrastText,
-          color: background.paper,
-        },
-        error: {
-          backgroundColor: error.main,
-          color: error.contrastText,
-        },
-        info: {
-          backgroundColor: complementary.link,
-          color: complementary.linkContrastText,
-        },
-        success: {
-          backgroundColor: success.main,
-          color: success.contrastText,
-        },
-        warning: {
-          backgroundColor: complementary.warning,
-          color: complementary.warningContrastText,
-        },
-      });
-    }, [theme]),
+    return makeStyles({
+      default: {
+        backgroundColor: background.paperContrastText,
+        color: background.paper,
+      },
+      error: {
+        backgroundColor: error.main,
+        color: error.contrastText,
+      },
+      info: {
+        backgroundColor: complementary.link,
+        color: complementary.linkContrastText,
+      },
+      success: {
+        backgroundColor: success.main,
+        color: success.contrastText,
+      },
+      warning: {
+        backgroundColor: complementary.warning,
+        color: complementary.warningContrastText,
+      },
+    });
+  }, [theme]);
 
-    classes = useStyles();
+  const classes = useStyles();
 
   return (
     <MaterialSnackbarContent

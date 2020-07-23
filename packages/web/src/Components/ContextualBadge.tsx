@@ -61,80 +61,80 @@ export const ContextualBadge: FunctionComponent<IContextualBadgeProps> = forward
   ref: any,
 ) => {
   const {
-      children,
-      classes,
-      color = "primary",
-      style,
-      theme: providerTheme,
-      type = "standard",
-      ...rest
-    } = props,
+    children,
+    classes,
+    color = "primary",
+    style,
+    theme: providerTheme,
+    type = "standard",
+    ...rest
+  } = props;
 
-    theme: any = React.useMemo(
-      () => getDefaultTheme(providerTheme),
-      [providerTheme],
-    ),
+  const theme: any = React.useMemo(
+    () => getDefaultTheme(providerTheme),
+    [providerTheme],
+  );
 
-    colorMap = React.useMemo(() => {
-      const {
-        primary, secondary, complementary, error, success, background, text,
-      } = theme.palette;
+  const colorMap = React.useMemo(() => {
+    const {
+      primary, secondary, complementary, error, success, background, text,
+    } = theme.palette;
 
-      return {
-        dark: {
-          container: text.disabled,
-          text: background.defaultContrastText,
-        },
-        error: {
-          container: error.main,
-          text: error.contrastText,
-        },
-        info: {
-          container: complementary.link,
-          text: complementary.linkContrastText,
-        },
-        light: {
-          container: background.paper,
-          text: background.paperContrastText,
-        },
-        primary: {
-          container: primary.main,
-          text: primary.contrastText,
-        },
-        secondary: {
-          container: secondary.main,
-          text: secondary.contrastText,
-        },
-        success: {
-          container: success.main,
-          text: success.contrastText,
-        },
-        warning: {
-          container: complementary.warning,
-          text: complementary.warningContrastText,
-        },
-      };
-    }, [theme]),
+    return {
+      dark: {
+        container: text.disabled,
+        text: background.defaultContrastText,
+      },
+      error: {
+        container: error.main,
+        text: error.contrastText,
+      },
+      info: {
+        container: complementary.link,
+        text: complementary.linkContrastText,
+      },
+      light: {
+        container: background.paper,
+        text: background.paperContrastText,
+      },
+      primary: {
+        container: primary.main,
+        text: primary.contrastText,
+      },
+      secondary: {
+        container: secondary.main,
+        text: secondary.contrastText,
+      },
+      success: {
+        container: success.main,
+        text: success.contrastText,
+      },
+      warning: {
+        container: complementary.warning,
+        text: complementary.warningContrastText,
+      },
+    };
+  }, [theme]);
 
-    fontMap = React.useMemo(() => {
-      const { typography } = theme;
+  const fontMap = React.useMemo(() => {
+    const { typography } = theme;
 
-      return {
-        fontFamily: typography.fontFamily,
-        fontSize: typography.caption.fontSize,
-        fontWeight: typography.caption.fontWeight,
-        lineHeight: defaultValues.lineHeight,
-      };
-    }, [theme]),
+    return {
+      fontFamily: typography.fontFamily,
+      fontSize: typography.caption.fontSize,
+      fontWeight: typography.caption.fontWeight,
+      lineHeight: defaultValues.lineHeight,
+    };
+  }, [theme]);
 
-    constraints = React.useMemo(() => {
-      const { spacing, shape } = theme;
+  const constraints = React.useMemo(() => {
+    const { spacing, shape } = theme;
 
-      return {
-        borderRadius: shape.badgeBorderRadius,
-        padding: `1px ${spacing()}px`,
-      };
-    }, [theme]);
+    return {
+      borderRadius: shape.badgeBorderRadius,
+      padding: `1px ${spacing()}px`,
+    };
+  }, [theme]);
 
   return (
     <Container

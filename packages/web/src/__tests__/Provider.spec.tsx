@@ -38,6 +38,7 @@ describe("Provider component", () => {
        * @todo fix(web): TS2345 - Argument of type 'IThemeWeb' is not assignable to parameter of type 'ThemeOptions'
        */
       // @ts-ignore
-      JSON.stringify(createMuiTheme(mockedTheme)));
+      JSON.stringify(createMuiTheme(mockedTheme)),
+    );
   });
 });

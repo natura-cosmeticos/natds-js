@@ -69,15 +69,15 @@ describe("DrawerMenu component", () => {
   });
 
   test("should match snapshot - DrawerMenu custom children", () => {
-    const children = <div>some custom children</div>,
-      component = renderer.create(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]}>{children}</DrawerMenu>).toJSON();
+    const children = <div>some custom children</div>;
+    const component = renderer.create(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]}>{children}</DrawerMenu>).toJSON();
 
     expect(component).matchSnapshot("DrawerMenu custom children snapshot");
   });
 
   test("should render custom children", () => {
-    const children = <div className="custom">some custom children</div>,
-      component = mount(<DrawerMenu list={listBasic as [IDrawerMenuSectionProps]}>{children}</DrawerMenu>);
+    const children = <div className="custom">some custom children</div>;
+    const component = mount(<DrawerMenu list={listBasic as [IDrawerMenuSectionProps]}>{children}</DrawerMenu>);
 
     expect(component).to.have.descendants(".custom");
     expect(component).to.not.have.descendants(DrawerMenuItem);
@@ -93,14 +93,14 @@ describe("DrawerMenu component", () => {
   });
 
   test("should render list item with badge", () => {
-    const [listItem] = listBasic,
-      list = [
-        {
-          ...listItem,
-          badge: "badge",
-        },
-      ],
-      component = mount(<DrawerMenu list={list as [IDrawerMenuSectionProps]} />);
+    const [listItem] = listBasic;
+    const list = [
+      {
+        ...listItem,
+        badge: "badge",
+      },
+    ];
+    const component = mount(<DrawerMenu list={list as [IDrawerMenuSectionProps]} />);
 
     expect(component).to.have.descendants(ContextualBadge);
     expect(component).to.not.have.descendants(DrawerMenuSection);
@@ -112,25 +112,25 @@ describe("DrawerMenu component", () => {
     expect(component).to.have.descendants(DrawerMenuSection);
   });
 
-  const INDEX_ONE = 1,
-    INDEX_TWO = 2;
+  const INDEX_ONE = 1;
+  const INDEX_TWO = 2;
 
   test("should start with submenu opened", () => {
-    const listItem = listComplete[INDEX_TWO],
-      list = [
-        {
-          ...listItem,
-          opened: true,
-        },
-      ],
-      component = mount(<DrawerMenu list={list as unknown as [IDrawerMenuSectionProps]} />);
+    const listItem = listComplete[INDEX_TWO];
+    const list = [
+      {
+        ...listItem,
+        opened: true,
+      },
+    ];
+    const component = mount(<DrawerMenu list={list as unknown as [IDrawerMenuSectionProps]} />);
 
     expect(component.find(Collapse).prop("in")).to.equal(true);
   });
 
   test("should open submenu and call onToggle", () => {
-    const onToggle = spy(listComplete[INDEX_TWO], "onToggle"),
-      component = mount(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
+    const onToggle = spy(listComplete[INDEX_TWO], "onToggle");
+    const component = mount(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
 
     expect(component.find(Collapse).prop("in")).to.equal(false);
 
@@ -143,8 +143,8 @@ describe("DrawerMenu component", () => {
   });
 
   test("should select a item and call onSelect", () => {
-    const onSelect = spy(listComplete[INDEX_ONE], "onSelect"),
-      component = mount(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
+    const onSelect = spy(listComplete[INDEX_ONE], "onSelect");
+    const component = mount(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
 
     component.find("li").at(INDEX_ONE)
       .simulate("click");
