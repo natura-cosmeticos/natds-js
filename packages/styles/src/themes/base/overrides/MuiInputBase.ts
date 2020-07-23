@@ -1,5 +1,7 @@
 export const MuiInputBase = {
   root: {
+    borderRadius: "4px",
+    padding: "12px",
     "&.MuiInput-underline:before": {
       borderBottom: "none",
     },

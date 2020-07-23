@@ -13,6 +13,7 @@ import {MuiInputBase} from "./overrides/MuiInputBase";
 import {MuiInputLabel} from "./overrides/MuiInputLabel";
 import {MuiSelect} from "./overrides/MuiSelect";
 import {MuiTab} from "./overrides/MuiTab";
+// import {MuiTable} from "./overrides/MuiTable";
 import {MuiTextField} from "./overrides/MuiTextField";
 import {MuiToolbar} from "./overrides/MuiToolbar";
 
@@ -32,6 +33,7 @@ export const overrides = {
   MuiListItem,
   MuiSelect,
   MuiTab,
+  // MuiTable,
   MuiTextField,
   MuiToolbar,
 };

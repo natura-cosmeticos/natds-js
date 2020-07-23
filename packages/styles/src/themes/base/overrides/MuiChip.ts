@@ -1,4 +1,5 @@
 import {sizes} from "../../../tokens/sizes";
+import {fontSize} from "../../../tokens/fontSize";
 
 export const MuiChip = {
   deleteIcon: {
@@ -24,4 +25,7 @@ export const MuiChip = {
     marginTop: "1px",
     width: `${sizes.small}px`,
   },
+  root: {
+    fontSize: fontSize.subtitle2.fontSize,
+  }
 };
