@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.14.0](https://github.com/natura-cosmeticos/natds/compare/v0.13.14...v0.14.0) (2020-07-24)
+
+
+### Features
+
+* **icons:** add new filled icon: \`filled-content-divulgation\` ([04b2413](https://github.com/natura-cosmeticos/natds/commit/04b241359d7afaa4a3a31444128d8b7995c6bb5f))
+
+
+
+
+
 ## [0.13.13](https://github.com/natura-cosmeticos/natds/compare/v0.13.12...v0.13.13) (2020-07-23)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
