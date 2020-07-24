@@ -7,31 +7,17 @@
  */
 
 import hexToRgba from "hex-to-rgba";
+import merge from "lodash.merge";
 import tokens from "../../tokens";
+
 import { ITheme } from "../ITheme";
-import { typography } from "./typography";
-import { fontSize } from "../../tokens/fontSize";
-import { spacing } from "../../tokens/spacing";
-import { avatarSizes } from "../../tokens/avatarSizes";
-import { buttonSizes } from "../../tokens/buttonSizes";
-import { elevation } from "../../tokens/elevation";
-import { iconSizes } from "../../tokens/iconSizes";
-import { sizes } from "../../tokens/sizes";
+import { getBaseTheme } from "../base";
 
 const {
   colorTokens: { avonDarkColorTokens },
 } = tokens;
 
-export const avonDark: ITheme = {
-  shape: {
-    borderRadius: tokens.radius.medium,
-    badgeBorderRadius: 100,
-  },
-  sizes,
-  avatarSizes,
-  buttonSizes,
-  iconSizes,
-  spacing: spacing.spacing,
+export const avonDark: ITheme = merge(getBaseTheme(), {
   palette: {
     action: {
       disabled: hexToRgba(avonDarkColorTokens.colorOnSecondary, 0.24),
@@ -76,11 +62,6 @@ export const avonDark: ITheme = {
       warningContrastText: avonDarkColorTokens.colorOnSecondary,
     },
   },
-  typography: {
-    ...typography,
-    ...fontSize,
-  },
-  shadows: elevation,
   overrides: {
     MuiButton: {
       outlinedPrimary: {
@@ -92,20 +73,7 @@ export const avonDark: ITheme = {
           borderColor: `${avonDarkColorTokens.colorHighlight}3D`,
         },
       },
-      sizeSmall: {
-        ...buttonSizes.small,
-        ...fontSize.subtitle2,
-      },
-      root: {
-        ...buttonSizes.medium,
-        ...fontSize.subtitle2,
-      },
-      sizeLarge: {
-        ...buttonSizes.large,
-        ...fontSize.subtitle2,
-      },
       text: {
-        padding: null,
         "&.Mui-disabled": {
           color: `${avonDarkColorTokens.colorHighlight}3D`,
           borderColor: `${avonDarkColorTokens.colorHighlight}3D`,
@@ -118,7 +86,6 @@ export const avonDark: ITheme = {
         },
       },
       outlined: {
-        padding: null,
         borderColor: `${avonDarkColorTokens.colorHighlight}3D`,
         "&.Mui-disabled": {
           color: `${avonDarkColorTokens.colorHighlight}3D`,
@@ -134,10 +101,6 @@ export const avonDark: ITheme = {
     MuiIconButton: {
       root: {
         color: avonDarkColorTokens.colorHighEmphasis,
-        padding: "8px",
-      },
-      sizeSmall: {
-        padding: "4px",
       },
     },
     MuiExpansionPanel: {
@@ -154,42 +117,13 @@ export const avonDark: ITheme = {
     },
     MuiExpansionPanelSummary: {
       root: {
-        alignItems: "flex-start",
-        marginTop: "8px",
         "&$disabled": {
           opacity: 1,
         },
       },
     },
-    MuiToolbar: {
-      root: {
-        padding: "0 16px",
-        "@media (min-width: 600px)": {
-          padding: "0 16px",
-        },
-      },
-      gutters: {
-        padding: "0 16px",
-        "@media (min-width: 600px)": {
-          padding: "0 16px",
-        },
-      },
-      regular: {
-        minHeight: "56px",
-        "@media (min-width: 600px)": {
-          minHeight: "56px",
-        },
-      },
-      dense: {
-        minHeight: "56px",
-        "@media (min-width: 600px)": {
-          minHeight: "56px",
-        },
-      },
-    },
     MuiListItem: {
       root: {
-        cursor: "pointer",
         "&:hover": {
           backgroundColor: hexToRgba(
             avonDarkColorTokens.colorHighEmphasis,
@@ -204,28 +138,15 @@ export const avonDark: ITheme = {
               0.04,
             ),
           },
-          "&:focus": {
-            outline: "none",
-          },
         },
         "&.Mui-disabled": {
           opacity: 0.32,
-        },
-      },
-      gutters: {
-        "&:focus": {
-          outline: "none",
         },
       },
       button: {
         "&:hover": {
           backgroundColor: hexToRgba(avonDarkColorTokens.colorOnSecondary, 0.04),
         },
-      },
-    },
-    MuiBadge: {
-      badge: {
-        padding: "0 4px",
       },
     },
     MuiTab: {
@@ -239,17 +160,11 @@ export const avonDark: ITheme = {
           opacity: 0.24,
         },
       },
-      wrapper: {
-        "& > *:first-child": {
-          marginBottom: "2px !important",
-        },
-      },
     },
     MuiChip: {
       root: {
         backgroundColor: hexToRgba(avonDarkColorTokens.colorOnBackground, 0.12),
         color: avonDarkColorTokens.colorOnBackground,
-        fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(
             avonDarkColorTokens.colorOnBackground,
@@ -301,28 +216,11 @@ export const avonDark: ITheme = {
           backgroundColor: avonDarkColorTokens.colorSecondary,
         },
       },
-      icon: {
-        fontSize: `${sizes.standard}px`,
-      },
-      iconSmall: {
-        width: `${sizes.small}px`,
-        height: `${sizes.small}px`,
-        fontSize: `${sizes.small}px`,
-        marginTop: "1px",
-      },
       deleteIcon: {
-        width: `${sizes.standard}px`,
-        height: `${sizes.standard}px`,
-        fontSize: `${sizes.standard}px`,
         color: hexToRgba(avonDarkColorTokens.colorOnBackground, 0.8),
         "&:hover": {
           color: hexToRgba(avonDarkColorTokens.colorOnBackground, 0.6),
         },
-      },
-      deleteIconSmall: {
-        width: `${sizes.small}px`,
-        height: `${sizes.small}px`,
-        fontSize: `${sizes.small}px`,
       },
       deleteIconColorPrimary: {
         color: hexToRgba(avonDarkColorTokens.colorOnBackground, 0.8),
@@ -335,11 +233,6 @@ export const avonDark: ITheme = {
         "&:hover": {
           color: avonDarkColorTokens.colorOnBackground,
         },
-      },
-    },
-    MuiTextField: {
-      "& .MuiInputLabel": {
-        marginTop: "20px",
       },
     },
     MuiInputBase: {
@@ -375,23 +268,9 @@ export const avonDark: ITheme = {
             boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
           },
         },
-        "&.MuiInput-underline:before": {
-          borderBottom: "none",
-        },
-        "&.MuiInput-underline.Mui-disabled:before": {
-          borderBottomStyle: "none",
-        },
-        "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
-          borderBottom: "none",
-        },
-        "&.MuiInput-underline:after": {
-          borderBottom: "none",
-        },
         "&:hover.Mui-disabled": {
           boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
         },
-        padding: "12px",
-        borderRadius: "4px",
         boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
       },
       input: {
@@ -401,39 +280,14 @@ export const avonDark: ITheme = {
         },
       },
     },
-    MuiInputAdornment: {
-      root: {
-        position: "absolute",
-        right: "0",
-      },
-      positionEnd: {
-        marginRight: spacing.spacingTiny,
-      },
-    },
-    MuiInputLabel: {
-      formControl: {
-        transform: "none",
-        marginTop: "-4px",
-      },
-      shrink: {
-        transform: "none",
-        marginTop: "-4px",
-      },
-    },
     MuiFormLabel: {
       root: {
-        fontSize: fontSize.subtitle2.fontSize,
         "&.Mui-focused": {
-          fontSize: fontSize.subtitle2.fontSize,
           color: avonDarkColorTokens.colorMediumEmphasis,
         },
         "&.Mui-error": {
           color: avonDarkColorTokens.colorHighEmphasis,
         },
-      },
-      formControl: {
-        transform: "none",
-        marginTop: "-4px",
       },
     },
     MuiFormHelperText: {
@@ -503,17 +357,6 @@ export const avonDark: ITheme = {
       },
     },
     MuiAlert: {
-      root: {
-        width: 278,
-        padding: spacing.spacingSmall,
-        ...fontSize.body1,
-      },
-      icon: {
-        marginRight: spacing.spacingTiny,
-      },
-      message: {
-        padding: "5px 0",
-      },
       standardSuccess: {
         color: avonDarkColorTokens.colorHighEmphasis,
         backgroundColor: hexToRgba(avonDarkColorTokens.colorSuccess, 0.16),
@@ -564,10 +407,5 @@ export const avonDark: ITheme = {
         backgroundColor: avonDarkColorTokens.colorLink,
       },
     },
-    MuiAlertTitle: {
-      root: {
-        ...fontSize.h6,
-      },
-    },
   },
-};
+});

@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Natura Dark Theme matches Natura Dark Theme snapshot: Natura Dark Theme 1`] = `
+exports[`Avon Light Theme matches Avon Light theme snapshot: Avon Light Theme 1`] = `
 Object {
   "avatarSizes": Object {
     "huge": Object {
@@ -557,43 +557,43 @@ Object {
       "disabled": "rgba(0, 0, 0, 0.24)",
     },
     "background": Object {
-      "default": "#121212",
-      "defaultContrastText": "#FFFFFF",
-      "paper": "#333333",
-      "paperContrastText": "#FFFFFF",
+      "default": "#FAFAFA",
+      "defaultContrastText": "#333333",
+      "paper": "#FFFFFF",
+      "paperContrastText": "#333333",
     },
     "complementary": Object {
-      "highlight": "#FFFFFF",
+      "highlight": "#000000",
       "link": "#227BBD",
       "linkContrastText": "#FFFFFF",
       "warning": "#FCC433",
-      "warningContrastText": "#000000",
+      "warningContrastText": "#333333",
     },
     "error": Object {
       "contrastText": "#FFFFFF",
       "main": "#E74627",
     },
     "primary": Object {
-      "contrastText": "#333333",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#F4AB34",
+      "contrastText": "#FFFFFF",
+      "dark": "#A70058",
+      "light": "#FF56B5",
+      "main": "#DE0085",
     },
     "secondary": Object {
-      "contrastText": "#000000",
-      "dark": "#EF8426",
-      "light": "#FEFDE8",
-      "main": "#FF6B0B",
+      "contrastText": "#333333",
+      "dark": "#B7B7B7",
+      "light": "#FFFFFF",
+      "main": "#E9E9E9",
     },
     "success": Object {
       "contrastText": "#FFFFFF",
       "main": "#569A32",
     },
     "text": Object {
-      "disabled": "#777777",
-      "hint": "#777777",
-      "primary": "#FAFAFA",
-      "secondary": "#BBBBBB",
+      "disabled": "#BBBBBB",
+      "hint": "#BBBBBB",
+      "primary": "#333333",
+      "secondary": "#777777",
     },
   },
   "shadows": Object {

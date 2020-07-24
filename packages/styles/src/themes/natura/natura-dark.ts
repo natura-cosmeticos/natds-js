@@ -9,8 +9,8 @@
 import hexToRgba from "hex-to-rgba";
 import merge from "lodash.merge";
 import tokens from "../../tokens";
+
 import { ITheme } from "../ITheme";
-import { fontSize } from "../../tokens/fontSize";
 import { getBaseTheme } from "../base";
 
 const {
@@ -175,7 +175,6 @@ export const naturaDark: ITheme = merge(getBaseTheme(), {
           0.12,
         ),
         color: naturaDarkColorTokens.colorOnBackground,
-        fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorOnBackground,
@@ -293,9 +292,7 @@ export const naturaDark: ITheme = merge(getBaseTheme(), {
     },
     MuiFormLabel: {
       root: {
-        fontSize: fontSize.subtitle2.fontSize,
         "&.Mui-focused": {
-          fontSize: fontSize.subtitle2.fontSize,
           color: naturaDarkColorTokens.colorMediumEmphasis,
         },
         "&.Mui-error": {

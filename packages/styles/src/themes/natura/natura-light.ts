@@ -9,7 +9,6 @@ import hexToRgba from "hex-to-rgba";
 import merge from "lodash.merge";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
-import { elevation } from "../../tokens/elevation";
 import { getBaseTheme } from "../base";
 
 const {
@@ -61,7 +60,6 @@ export const naturaLight: ITheme = merge(getBaseTheme(), {
       warningContrastText: naturaLightColorTokens.colorOnWarning,
     },
   },
-  shadows: elevation,
   overrides: {
     MuiButton: {
       outlinedPrimary: {

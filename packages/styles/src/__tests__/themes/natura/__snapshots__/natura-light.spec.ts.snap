@@ -213,7 +213,7 @@ Object {
           "&.Mui-disabled": Object {
             "borderColor": "#FFFFFF3D",
           },
-          "borderColor": "#EF8426",
+          "borderColor": "#BC6198",
         },
       },
       "groupedContainedSecondary": Object {
@@ -221,7 +221,7 @@ Object {
           "&.Mui-disabled": Object {
             "borderColor": "#FFFFFF3D",
           },
-          "borderColor": "#FF5808",
+          "borderColor": "#B7B7B7",
         },
       },
       "groupedTextHorizontal": Object {
@@ -254,12 +254,12 @@ Object {
       },
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#BC6198",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#EF8426",
+          "backgroundColor": "#BC6198",
         },
       },
       "deleteIcon": Object {
@@ -303,13 +303,13 @@ Object {
       },
       "outlinedPrimary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#F4AB34",
+          "backgroundColor": "#F091C9",
         },
         "color": "#FFFFFF",
       },
       "outlinedSecondary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#FF6B0B",
+          "backgroundColor": "#E9E9E9",
         },
         "color": "#FFFFFF",
       },
@@ -333,7 +333,7 @@ Object {
           "opacity": 0.32,
         },
         "&$expanded": Object {
-          "borderColor": "#F4AB34",
+          "borderColor": "#F091C9",
         },
         "border": "transparent 1px solid",
       },
@@ -397,7 +397,7 @@ Object {
       },
       "root": Object {
         "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
-          "boxShadow": "#F4AB34 0 0 0 2px",
+          "boxShadow": "#F091C9 0 0 0 2px",
         },
         "&.MuiError": Object {
           "&.Mui-focused": Object {
@@ -460,7 +460,7 @@ Object {
     "MuiListItem": Object {
       "button": Object {
         "&:hover": Object {
-          "backgroundColor": "rgba(0, 0, 0, 0.04)",
+          "backgroundColor": "rgba(51, 51, 51, 0.04)",
         },
       },
       "gutters": Object {
@@ -474,15 +474,16 @@ Object {
             "outline": "none",
           },
           "&:hover": Object {
-            "backgroundColor": "rgba(0, 0, 0, 0.04)",
+            "backgroundColor": "rgba(51, 51, 51, 0.04)",
           },
-          "backgroundColor": "rgba(255, 107, 11, 0.16)",
+          "background": "rgba(233, 233, 233, 0.16)",
+          "backgroundColor": "rgba(233, 233, 233, 0.16)",
         },
         "&.Mui-disabled": Object {
           "opacity": 0.32,
         },
         "&:hover": Object {
-          "backgroundColor": "rgba(250, 250, 250, 0.04)",
+          "backgroundColor": "rgba(250, 250, 250, 0.16)",
         },
         "cursor": "pointer",
       },
