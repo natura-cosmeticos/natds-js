@@ -5,6 +5,7 @@ import MaterialTableRow, {
 import { withTheme, makeStyles } from "@material-ui/core/styles";
 import { IThemeWeb } from "../../Themes";
 import { getDefaultTheme } from "../shared";
+import hexToRgba from "hex-to-rgba";
 
 export interface ITableRowProps extends MaterialTableRowProps {
   theme?: IThemeWeb | unknown;
@@ -25,7 +26,7 @@ export const TableRow: FunctionComponent<ITableRowProps> = forwardRef((
       /**
        * @todo refactor: replace with a solid color and remove !important
        */
-      backgroundColor: `${theme.palette.primary.main}29 !important`,
+      backgroundColor: `${hexToRgba(theme.palette.primary.main, 0.16)} !important`,
     },
   }), [theme]);
 
