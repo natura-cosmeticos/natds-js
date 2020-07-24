@@ -480,7 +480,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -846,6 +846,11 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -1062,7 +1067,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -1084,13 +1089,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -1114,14 +1119,14 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -1130,7 +1135,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -1334,7 +1339,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -1700,6 +1705,11 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -1916,7 +1926,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -1938,13 +1948,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -1968,14 +1978,14 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -1984,7 +1994,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -2206,7 +2216,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -2572,6 +2582,11 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -2788,7 +2803,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -2810,13 +2825,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -2840,14 +2855,14 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -2856,7 +2871,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -3481,7 +3496,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -3847,6 +3862,11 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -4063,7 +4083,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -4085,13 +4105,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -4115,14 +4135,14 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -4131,7 +4151,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -4335,7 +4355,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -4701,6 +4721,11 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -4917,7 +4942,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -4939,13 +4964,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -4969,14 +4994,14 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -4985,7 +5010,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -5226,7 +5251,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -5592,6 +5617,11 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -5808,7 +5838,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -5830,13 +5860,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -5860,14 +5890,14 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -5876,7 +5906,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -6501,7 +6531,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -6867,6 +6897,11 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -7083,7 +7118,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -7105,13 +7140,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -7135,14 +7170,14 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -7151,7 +7186,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -7355,7 +7390,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -7721,6 +7756,11 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -7937,7 +7977,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -7959,13 +7999,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -7989,14 +8029,14 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -8005,7 +8045,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -8265,7 +8305,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -8631,6 +8671,11 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -8847,7 +8892,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -8869,13 +8914,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -8899,14 +8944,14 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -8915,7 +8960,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -9540,7 +9585,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -9906,6 +9951,11 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -10122,7 +10172,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -10144,13 +10194,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -10174,14 +10224,14 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -10190,7 +10240,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -10394,7 +10444,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -10760,6 +10810,11 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -10976,7 +11031,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -10998,13 +11053,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -11028,14 +11083,14 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -11044,7 +11099,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -11323,7 +11378,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -11689,6 +11744,11 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -11905,7 +11965,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -11927,13 +11987,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -11957,14 +12017,14 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -11973,7 +12033,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -12598,7 +12658,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -12964,6 +13024,11 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -13180,7 +13245,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -13202,13 +13267,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -13232,14 +13297,14 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -13248,7 +13313,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -13452,7 +13517,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -13818,6 +13883,11 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -14034,7 +14104,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -14056,13 +14126,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -14086,14 +14156,14 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -14102,7 +14172,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -14400,7 +14470,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -14766,6 +14836,11 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -14982,7 +15057,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -15004,13 +15079,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -15034,14 +15109,14 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -15050,7 +15125,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -15675,7 +15750,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -16041,6 +16116,11 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -16257,7 +16337,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -16279,13 +16359,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -16309,14 +16389,14 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -16325,7 +16405,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -16529,7 +16609,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -16895,6 +16975,11 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -17111,7 +17196,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -17133,13 +17218,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -17163,14 +17248,14 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -17179,7 +17264,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -17496,7 +17581,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -17862,6 +17947,11 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -18078,7 +18168,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -18100,13 +18190,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -18130,14 +18220,14 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -18146,7 +18236,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -18771,7 +18861,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -19137,6 +19227,11 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -19353,7 +19448,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -19375,13 +19470,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -19405,14 +19500,14 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -19421,7 +19516,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -19625,7 +19720,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -19991,6 +20086,11 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -20207,7 +20307,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -20229,13 +20329,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -20259,14 +20359,14 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -20275,7 +20375,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -20611,7 +20711,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -20977,6 +21077,11 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -21193,7 +21298,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -21215,13 +21320,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -21245,14 +21350,14 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -21261,7 +21366,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -21886,7 +21991,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -22252,6 +22357,11 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -22468,7 +22578,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -22490,13 +22600,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -22520,14 +22630,14 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -22536,7 +22646,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -22740,7 +22850,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -23106,6 +23216,11 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -23322,7 +23437,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -23344,13 +23459,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -23374,14 +23489,14 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -23390,7 +23505,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -23745,7 +23860,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -24111,6 +24226,11 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -24327,7 +24447,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -24349,13 +24469,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -24379,14 +24499,14 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -24395,7 +24515,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -25020,7 +25140,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -25386,6 +25506,11 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -25602,7 +25727,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -25624,13 +25749,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -25654,14 +25779,14 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -25670,7 +25795,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -25874,7 +25999,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -26240,6 +26365,11 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -26456,7 +26586,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -26478,13 +26608,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -26508,14 +26638,14 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -26524,7 +26654,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -26898,7 +27028,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -27264,6 +27394,11 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -27480,7 +27615,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -27502,13 +27637,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -27532,14 +27667,14 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -27548,7 +27683,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -28173,7 +28308,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -28539,6 +28674,11 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -28755,7 +28895,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -28777,13 +28917,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -28807,14 +28947,14 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -28823,7 +28963,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -29027,7 +29167,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -29393,6 +29533,11 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -29609,7 +29754,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -29631,13 +29776,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -29661,14 +29806,14 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -29677,7 +29822,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -30070,7 +30215,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -30436,6 +30581,11 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -30652,7 +30802,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -30674,13 +30824,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -30704,14 +30854,14 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -30720,7 +30870,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -31345,7 +31495,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -31711,6 +31861,11 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -31927,7 +32082,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -31949,13 +32104,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -31979,14 +32134,14 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -31995,7 +32150,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -32199,7 +32354,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -32565,6 +32720,11 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -32781,7 +32941,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -32803,13 +32963,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -32833,14 +32993,14 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -32849,7 +33009,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -33261,7 +33421,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -33627,6 +33787,11 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -33843,7 +34008,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -33865,13 +34030,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -33895,14 +34060,14 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -33911,7 +34076,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -34536,7 +34701,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -34902,6 +35067,11 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -35118,7 +35288,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -35140,13 +35310,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -35170,14 +35340,14 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -35186,7 +35356,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -35390,7 +35560,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -35756,6 +35926,11 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -35972,7 +36147,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -35994,13 +36169,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -36024,14 +36199,14 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -36040,7 +36215,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -36471,7 +36646,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -36837,6 +37012,11 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -37053,7 +37233,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -37075,13 +37255,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -37105,14 +37285,14 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -37121,7 +37301,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {
@@ -37754,7 +37934,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             "MuiAlertTitle": Object {
               "root": Object {
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
               },
             },
             "MuiAvatar": Object {
@@ -38120,6 +38300,11 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                 },
               },
             },
+            "MuiTableSortLabel": Object {
+              "icon": Object {
+                "marginLeft": 8,
+              },
+            },
             "MuiTextField": Object {
               "& .MuiInputLabel": Object {
                 "marginTop": "20px",
@@ -38336,7 +38521,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             "button": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.875rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.75,
               "textTransform": "uppercase",
             },
@@ -38358,13 +38543,13 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             "h1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "6rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.167,
             },
             "h2": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "3.75rem",
-              "fontWeight": 300,
+              "fontWeight": 400,
               "lineHeight": 1.2,
             },
             "h3": Object {
@@ -38388,14 +38573,14 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             "h6": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1.25rem",
-              "fontWeight": 600,
+              "fontWeight": 500,
               "lineHeight": 1.6,
             },
             "htmlFontSize": 16,
             "overline": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "0.75rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 2.66,
               "textTransform": "uppercase",
             },
@@ -38404,7 +38589,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             "subtitle1": Object {
               "fontFamily": "\\"Roboto\\", sans-serif",
               "fontSize": "1rem",
-              "fontWeight": 400,
+              "fontWeight": 500,
               "lineHeight": 1.75,
             },
             "subtitle2": Object {
@@ -38608,7 +38793,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               "MuiAlertTitle": Object {
                 "root": Object {
                   "fontSize": "1.25rem",
-                  "fontWeight": 600,
+                  "fontWeight": 500,
                 },
               },
               "MuiAvatar": Object {
@@ -38974,6 +39159,11 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                   },
                 },
               },
+              "MuiTableSortLabel": Object {
+                "icon": Object {
+                  "marginLeft": 8,
+                },
+              },
               "MuiTextField": Object {
                 "& .MuiInputLabel": Object {
                   "marginTop": "20px",
@@ -39190,7 +39380,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               "button": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.875rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
                 "textTransform": "uppercase",
               },
@@ -39212,13 +39402,13 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               "h1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "6rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.167,
               },
               "h2": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "3.75rem",
-                "fontWeight": 300,
+                "fontWeight": 400,
                 "lineHeight": 1.2,
               },
               "h3": Object {
@@ -39242,14 +39432,14 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               "h6": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1.25rem",
-                "fontWeight": 600,
+                "fontWeight": 500,
                 "lineHeight": 1.6,
               },
               "htmlFontSize": 16,
               "overline": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "0.75rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 2.66,
                 "textTransform": "uppercase",
               },
@@ -39258,7 +39448,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               "subtitle1": Object {
                 "fontFamily": "\\"Roboto\\", sans-serif",
                 "fontSize": "1rem",
-                "fontWeight": 400,
+                "fontWeight": 500,
                 "lineHeight": 1.75,
               },
               "subtitle2": Object {
@@ -39715,7 +39905,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     "MuiAlertTitle": Object {
                       "root": Object {
                         "fontSize": "1.25rem",
-                        "fontWeight": 600,
+                        "fontWeight": 500,
                       },
                     },
                     "MuiAvatar": Object {
@@ -40081,6 +40271,11 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                         },
                       },
                     },
+                    "MuiTableSortLabel": Object {
+                      "icon": Object {
+                        "marginLeft": 8,
+                      },
+                    },
                     "MuiTextField": Object {
                       "& .MuiInputLabel": Object {
                         "marginTop": "20px",
@@ -40297,7 +40492,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     "button": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.875rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                       "textTransform": "uppercase",
                     },
@@ -40319,13 +40514,13 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     "h1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "6rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.167,
                     },
                     "h2": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "3.75rem",
-                      "fontWeight": 300,
+                      "fontWeight": 400,
                       "lineHeight": 1.2,
                     },
                     "h3": Object {
@@ -40349,14 +40544,14 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     "h6": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1.25rem",
-                      "fontWeight": 600,
+                      "fontWeight": 500,
                       "lineHeight": 1.6,
                     },
                     "htmlFontSize": 16,
                     "overline": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "0.75rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 2.66,
                       "textTransform": "uppercase",
                     },
@@ -40365,7 +40560,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     "subtitle1": Object {
                       "fontFamily": "\\"Roboto\\", sans-serif",
                       "fontSize": "1rem",
-                      "fontWeight": 400,
+                      "fontWeight": 500,
                       "lineHeight": 1.75,
                     },
                     "subtitle2": Object {

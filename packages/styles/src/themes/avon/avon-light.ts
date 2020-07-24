@@ -534,5 +534,10 @@ export const avonLight: ITheme = {
         ...fontSize.h6,
       },
     },
+    MuiTableSortLabel: {
+      icon: {
+        marginLeft: spacing.spacing,
+      },
+    },
   },
 };

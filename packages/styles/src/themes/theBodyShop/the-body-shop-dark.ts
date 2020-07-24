@@ -591,5 +591,10 @@ export const theBodyShopDark: ITheme = {
         ...fontSize.h6,
       },
     },
+    MuiTableSortLabel: {
+      icon: {
+        marginLeft: spacing.spacing,
+      },
+    },
   },
 };

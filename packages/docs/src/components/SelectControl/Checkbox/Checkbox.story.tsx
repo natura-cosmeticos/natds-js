@@ -39,4 +39,5 @@ export const Interactive = () => <Checkbox
   color={select("colors", colors, colors.secondary)}
   checked={boolean("checked", true)}
   disabled={boolean("disabled", false)}
+  indeterminate={boolean("indeterminate", false)}
 />;

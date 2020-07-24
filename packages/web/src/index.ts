@@ -68,6 +68,15 @@ export { default as SnackbarContent, ISnackbarContentProps } from "./Components/
 export { default as Switch, ISwitchProps } from "./Components/Switch";
 export { default as TabContainer, ITabContainerProps } from "./Components/TabContainer";
 export { default as TabItem, ITabItemProps } from "./Components/TabItem";
+export { default as TableContainer, ITableContainerProps } from "./Components/Table/TableContainer";
+export { default as Table, ITableProps } from "./Components/Table/Table";
+export { default as TableHead, ITableHeadProps } from "./Components/Table/TableHead";
+export { default as TableRow, ITableRowProps } from "./Components/Table/TableRow";
+export { default as TableBody, ITableBodyProps } from "./Components/Table/TableBody";
+export { default as TableCell, ITableCellProps } from "./Components/Table/TableCell";
+export { default as TableSortLabel, ITableSortLabelProps } from "./Components/Table/TableSortLabel";
+export { default as TablePagination, ITablePaginationProps } from "./Components/Table/TablePagination";
+export { default as TableFooter, ITableFooterProps } from "./Components/Table/TableFooter";
 export { default as TextField, ITextFieldProps } from "./Components/TextField";
 export { default as ToggleButton, IToggleButtonProps } from "./Components/ToggleButton";
 export { default as Toolbar, IToolbarProps } from "./Components/Toolbar";
