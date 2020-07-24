@@ -3,8 +3,8 @@ import MaterialTable from "@material-ui/core/Table";
 
 import { withTheme, makeStyles } from "@material-ui/core/styles";
 import { tokens } from "@naturacosmeticos/natds-styles";
-import { getDefaultTheme } from "../shared";
 import hexToRgba from "hex-to-rgba";
+import { getDefaultTheme } from "../shared";
 import { ITableProps } from "./ITableProps";
 
 export { ITableProps } from "./ITableProps";
