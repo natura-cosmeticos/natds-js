@@ -11,7 +11,7 @@ import merge from "lodash.merge";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { fontSize } from "../../tokens/fontSize";
-import { getBaseTheme } from "../base"
+import { getBaseTheme } from "../base";
 
 const {
   colorTokens: { naturaDarkColorTokens },
