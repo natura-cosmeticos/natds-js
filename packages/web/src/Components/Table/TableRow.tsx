@@ -21,6 +21,10 @@ export const TableRow: FunctionComponent<ITableRowProps> = forwardRef((
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
   const useStyles = React.useMemo(() => makeStyles({
     selected: {
+
+      /**
+       * @todo refactor: replace with a solid color and remove !important
+       */
       backgroundColor: `${theme.palette.primary.main}29 !important`,
     },
   }), [theme]);
