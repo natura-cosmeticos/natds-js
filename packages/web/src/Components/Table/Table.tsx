@@ -34,23 +34,23 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
       borderRadius: dividers === false && rounded === true ? `${tokens.sizes.micro}` : `${theme.sizes.none}`,
       backgroundColor: theme.palette.background.paper,
       "& thead > tr > th ": {
-        fontWeight: "bold",
         backgroundColor: theme.palette.background.paper,
-        borderTop: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
-
-        borderRight: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
         borderBottom: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
+        borderRight: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
+        borderTop: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
+        fontSize: tokens.fontSize.subtitle2.fontSize,
+        fontWeight: tokens.fontSize.subtitle2.fontWeight,
         padding: `${tokens.spacing.spacingStandard}px`,
-        fontSize: "14px",
       },
       "& th:first-child": {
         borderLeft: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
       },
       "& td": {
-        borderRight: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
         borderBottom: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
+        borderRight: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
+        fontSize: tokens.fontSize.body2.fontSize,
+        fontWeight: tokens.fontSize.body2.fontWeight,
         padding: `${tokens.spacing.spacingStandard}px`,
-        fontSize: "14px",
       },
       "& td:first-child": {
         borderLeft: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
@@ -58,6 +58,10 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
       "& tr": {
         backgroundColor: theme.palette.background.default,
         "&:nth-of-type(even)": {
+
+          /**
+           * @todo replace with solid color
+           */
           backgroundColor: striped === false ? theme.palette.background.default : `${theme.palette.complementary.highlight}0A`,
         },
       },
