@@ -19,6 +19,7 @@ export const TableRow: FunctionComponent<ITableRowProps> = forwardRef((
     theme: providerTheme,
   } = props;
 
+  const rgbAlpha = 0.16;
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
   const useStyles = React.useMemo(() => makeStyles({
     selected: {
@@ -26,7 +27,7 @@ export const TableRow: FunctionComponent<ITableRowProps> = forwardRef((
       /**
        * @todo refactor: replace with a solid color and remove !important
        */
-      backgroundColor: `${hexToRgba(theme.palette.primary.main, 0.16)} !important`,
+      backgroundColor: `${hexToRgba(theme.palette.primary.main, rgbAlpha)} !important`,
     },
   }), [theme]);
 

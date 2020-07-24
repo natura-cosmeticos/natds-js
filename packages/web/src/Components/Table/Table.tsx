@@ -21,6 +21,7 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
     ...rest
   } = props;
 
+  const rgbAlpha = 0.04;
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
   /**
@@ -63,7 +64,7 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
           /**
            * @todo replace with solid color
            */
-          backgroundColor: striped === false ? theme.palette.background.default : `${hexToRgba(theme.palette.complementary.highlight, 0.04)}`,
+          backgroundColor: striped === false ? theme.palette.background.default : `${hexToRgba(theme.palette.complementary.highlight, rgbAlpha)}`,
         },
       },
       "& thead > tr:first-child": {
