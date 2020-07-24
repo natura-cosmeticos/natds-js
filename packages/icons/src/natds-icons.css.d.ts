@@ -34,6 +34,7 @@ declare const styles: {
   readonly "natds-icons-filled-brand-twitter": string;
   readonly "natds-icons-filled-brand-whatsapp": string;
   readonly "natds-icons-filled-brand-youtube": string;
+  readonly "natds-icons-filled-content-divulgation": string;
   readonly "natds-icons-filled-finance-charging": string;
   readonly "natds-icons-filled-media-pause": string;
   readonly "natds-icons-filled-media-play": string;
