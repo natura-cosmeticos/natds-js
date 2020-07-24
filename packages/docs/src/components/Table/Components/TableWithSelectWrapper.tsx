@@ -70,7 +70,7 @@ export const TableWithSelectWrapper = ({
         striped={striped}
         rounded={rounded}>
         <TableHead>
-          <TableRow >
+          <TableRow>
             <TableCell align="center">
               <Checkbox
                 checked={handleChecked(dataState)}
