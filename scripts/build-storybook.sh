@@ -49,11 +49,14 @@ else
   echo "STORYBOOK Updating from remote..."
   git remote update
 
+  echo "STORYBOOK Switching to main-docs branch..."
+  git checkout main-docs
+
   # @see https://stackoverflow.com/questions/49297153/why-is-it-not-a-commit-and-a-branch-cannot-be-created-from-it
   echo "STORYBOOK Fetching from Git..."
   git fetch --all
 
-  echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
+  echo "STORYBOOK Creating ${TRAVIS_BRANCH}-docs branch from main-docs branch..."
   git checkout -b "${TRAVIS_BRANCH}-docs" main-docs
 fi
 
