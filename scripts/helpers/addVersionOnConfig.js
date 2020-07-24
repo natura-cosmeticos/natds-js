@@ -7,8 +7,8 @@ const VERSION_ARGUMENT_INDEX = 2;
 const VERSIONS_CONFIG_SPACES = 2;
 const newVersion = process.argv[VERSION_ARGUMENT_INDEX];
 
-if(typeof newVersion === "undefined") {
-  throw new Error("Please provide a version string")
+if (typeof newVersion === "undefined") {
+  throw new Error("Please provide a version string");
 }
 
 const configFilePath = path.resolve(__dirname, "..", "..", "packages", "docs", "dist", "versions_config.json");
