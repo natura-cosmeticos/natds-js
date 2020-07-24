@@ -3,6 +3,67 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.14.0...v0.15.0) (2020-07-24)
+
+
+### Bug Fixes
+
+* **docs:** add 400 and 500 font weights ([af8d17d](https://github.com/natura-cosmeticos/natds-js/commit/af8d17d9a8fb16128bdba1caeb8c9c1422110df3))
+* **docs:** add missing indeterminate knob - Closes [#699](https://github.com/natura-cosmeticos/natds-js/issues/699) ([8478ca0](https://github.com/natura-cosmeticos/natds-js/commit/8478ca0ea2dcffcdaac7e2d852b46f7344a2540b))
+
+
+### Features
+
+* **web:** add `Table` (DataTable) component [DSY-1148] ([c17649a](https://github.com/natura-cosmeticos/natds-js/commit/c17649a7e623ee90e86ba747e7a13cb338e8c34f)), closes [#588](https://github.com/natura-cosmeticos/natds-js/issues/588)
+
+
+
+# [0.14.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.13.7...v0.14.0-alpha.DSY-1148.0) (2020-07-21)
+
+
+
+# [0.13.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.12.1...v0.13.0-alpha.DSY-1148.0) (2020-07-16)
+
+
+
+## [0.12.1](https://github.com/natura-cosmeticos/natds-js/compare/v0.12.0...v0.12.1) (2020-07-16)
+
+
+
+# [0.12.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.12.0-alpha.DSY-1148.0...v0.12.0) (2020-07-15)
+
+
+
+# [0.12.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.12.0-alpha.DSY-1081.0...v0.12.0-alpha.DSY-1148.0) (2020-07-14)
+
+
+
+# [0.12.0-alpha.DSY-1081.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.11.3...v0.12.0-alpha.DSY-1081.0) (2020-07-13)
+
+
+
+## [0.11.3](https://github.com/natura-cosmeticos/natds-js/compare/v0.11.2...v0.11.3) (2020-07-13)
+
+
+
+## [0.11.2](https://github.com/natura-cosmeticos/natds-js/compare/v0.10.0...v0.11.2) (2020-07-13)
+
+
+
+# [0.10.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.9.5...v0.10.0) (2020-07-11)
+
+
+
+## [0.9.5](https://github.com/natura-cosmeticos/natds-js/compare/v0.9.4...v0.9.5) (2020-07-10)
+
+
+
+## 0.9.4 (2020-07-10)
+
+
+
+
+
 # [0.14.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.13.14...v0.14.0) (2020-07-24)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-docs

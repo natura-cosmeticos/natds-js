@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/natura-cosmeticos/natds/compare/v0.14.0...v0.15.0) (2020-07-24)
+
+
+### Bug Fixes
+
+* **styles:** set correct font weights to typography tokens ([eb76549](https://github.com/natura-cosmeticos/natds/commit/eb76549e5405915c389d971af526e0ca35a9798d))
+
+
+### Features
+
+* **web:** add `Table` (DataTable) component [DSY-1148] ([c17649a](https://github.com/natura-cosmeticos/natds/commit/c17649a7e623ee90e86ba747e7a13cb338e8c34f)), closes [#588](https://github.com/natura-cosmeticos/natds/issues/588)
+
+
+
+# [0.14.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds/compare/v0.13.7...v0.14.0-alpha.DSY-1148.0) (2020-07-21)
+
+
+
+# [0.13.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.1...v0.13.0-alpha.DSY-1148.0) (2020-07-16)
+
+
+
+# [0.12.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.0-alpha.DSY-1148.0...v0.12.0) (2020-07-15)
+
+
+
+# [0.12.0-alpha.DSY-1081.0](https://github.com/natura-cosmeticos/natds/compare/v0.11.3...v0.12.0-alpha.DSY-1081.0) (2020-07-13)
+
+
+
+
+
 # [0.14.0](https://github.com/natura-cosmeticos/natds/compare/v0.13.14...v0.14.0) (2020-07-24)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles

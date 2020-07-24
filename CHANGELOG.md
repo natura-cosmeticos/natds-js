@@ -3,6 +3,86 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.15.0](https://github.com/natura-cosmeticos/natds/compare/v0.14.0...v0.15.0) (2020-07-24)
+
+
+### Bug Fixes
+
+* **docs:** add 400 and 500 font weights ([af8d17d](https://github.com/natura-cosmeticos/natds/commit/af8d17d9a8fb16128bdba1caeb8c9c1422110df3))
+* **docs:** add missing indeterminate knob - Closes [#699](https://github.com/natura-cosmeticos/natds/issues/699) ([8478ca0](https://github.com/natura-cosmeticos/natds/commit/8478ca0ea2dcffcdaac7e2d852b46f7344a2540b))
+* **styles:** set correct font weights to typography tokens ([eb76549](https://github.com/natura-cosmeticos/natds/commit/eb76549e5405915c389d971af526e0ca35a9798d))
+
+
+
+# [0.14.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds/compare/v0.13.7...v0.14.0-alpha.DSY-1148.0) (2020-07-21)
+
+
+
+# [0.13.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.1...v0.13.0-alpha.DSY-1148.0) (2020-07-16)
+
+
+
+## [0.12.1](https://github.com/natura-cosmeticos/natds/compare/v0.12.0...v0.12.1) (2020-07-16)
+
+
+
+# [0.12.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.0-alpha.DSY-1148.0...v0.12.0) (2020-07-15)
+
+
+### Bug Fixes
+
+* **icons:** update generated `natds-icons` font files ([2eacab5](https://github.com/natura-cosmeticos/natds/commit/2eacab5565f0b8f738de8d7fd8ad19a4efa05179))
+* avoid warning on importing ([6f45bb3](https://github.com/natura-cosmeticos/natds/commit/6f45bb3e63b08e055acd1d7a22ab6b1f3c2647d6))
+
+
+
+# [0.12.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.0-alpha.DSY-1081.0...v0.12.0-alpha.DSY-1148.0) (2020-07-14)
+
+
+### Bug Fixes
+
+* **web:** update component test snapshots ([72504cc](https://github.com/natura-cosmeticos/natds/commit/72504cccc9cff7f92e14b526879ba0580c301f50))
+
+
+
+# [0.12.0-alpha.DSY-1081.0](https://github.com/natura-cosmeticos/natds/compare/v0.11.3...v0.12.0-alpha.DSY-1081.0) (2020-07-13)
+
+
+### Bug Fixes
+
+* **web:** omit override props in Table component ([ffd8a7b](https://github.com/natura-cosmeticos/natds/commit/ffd8a7b72511d60ff554b7eb6f20f12a26bab443))
+
+
+
+## [0.11.3](https://github.com/natura-cosmeticos/natds/compare/v0.11.2...v0.11.3) (2020-07-13)
+
+
+### Bug Fixes
+
+* **web:** fix class icon in TableSortLabel ([e29dcb8](https://github.com/natura-cosmeticos/natds/commit/e29dcb864530c1f8fe333344991298f6b868d7c6))
+* **web:** update test snapshots for Table* components ([5c0c00e](https://github.com/natura-cosmeticos/natds/commit/5c0c00e7210425049b11759c07c8cecabd4157ce))
+* fix typo on postinstall script ([dcbe71b](https://github.com/natura-cosmeticos/natds/commit/dcbe71bd280eb608b60244d7a9b3bad2cb1c48d3))
+
+
+
+## [0.11.2](https://github.com/natura-cosmeticos/natds/compare/v0.10.0...v0.11.2) (2020-07-13)
+
+
+
+# [0.10.0](https://github.com/natura-cosmeticos/natds/compare/v0.9.5...v0.10.0) (2020-07-11)
+
+
+
+## [0.9.5](https://github.com/natura-cosmeticos/natds/compare/v0.9.4...v0.9.5) (2020-07-10)
+
+
+
+## 0.9.4 (2020-07-10)
+
+
+
+
+
 # [0.14.0](https://github.com/natura-cosmeticos/natds/compare/v0.13.14...v0.14.0) (2020-07-24)
 
 
