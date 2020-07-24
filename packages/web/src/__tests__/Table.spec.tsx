@@ -98,5 +98,59 @@ describe("Table component", () => {
         "TableComponent with rounded on and dividers off",
       );
     });
+
+    test("should match to snapshot - with striped on", () => {
+      const component = renderer.create(
+        <TableContainer>
+          <Table striped={true}>
+            <TableHead>
+              <TableRow>
+                <TableCell>Test header cell</TableCell>
+              </TableRow>
+            </TableHead>
+          </Table>
+        </TableContainer>,
+      );
+
+      expect(component.toJSON()).toMatchSnapshot(
+        "TableComponent with striped on",
+      );
+    });
+
+    test("should match to snapshot - with dividers on", () => {
+      const component = renderer.create(
+        <TableContainer>
+          <Table dividers={true}>
+            <TableHead>
+              <TableRow>
+                <TableCell>Test header cell</TableCell>
+              </TableRow>
+            </TableHead>
+          </Table>
+        </TableContainer>,
+      );
+
+      expect(component.toJSON()).toMatchSnapshot(
+        "TableComponent with dividers on",
+      );
+    });
+
+    test("should match to snapshot - with rounded off", () => {
+      const component = renderer.create(
+        <TableContainer>
+          <Table rounded={false}>
+            <TableHead>
+              <TableRow>
+                <TableCell>Test header cell</TableCell>
+              </TableRow>
+            </TableHead>
+          </Table>
+        </TableContainer>,
+      );
+
+      expect(component.toJSON()).toMatchSnapshot(
+        "TableComponent with rounded off",
+      );
+    });
   });
 });
