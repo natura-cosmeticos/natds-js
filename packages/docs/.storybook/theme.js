@@ -1,6 +1,7 @@
 import { create } from '@storybook/theming/create';
+import brandImage from "../src/assets/images/logo-natura.png"
 
-require('../src/assets/images/favicon.png');
+import "../src/assets/images/favicon.png";
 
 export default create({
   base: 'light',
@@ -21,5 +22,5 @@ export default create({
 
   brandTitle: 'natds-js',
   brandUrl: '/',
-  brandImage: require('../src/assets/images/logo-natura.png'),
+  brandImage,
 });
