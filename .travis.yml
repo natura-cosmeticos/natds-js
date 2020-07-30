@@ -30,7 +30,7 @@ jobs:
       if: type = push AND branch =~ /^DSY-(\d+)$/
       before_script:
         - "sh ./scripts/configure-git.sh"
-        - "yarn lerna:prerelease:version:ci --preid alpha.$TRAVIS_BRANCH"
+        - "yarn lerna:prerelease:version:ci --preid alpha.$TRAVIS_BRANCH.$TRAVIS_BUILD_NUMBER"
       script: "yarn lerna:prerelease:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
       after_script:
         - "chmod +x ./scripts/build-storybook.sh"
