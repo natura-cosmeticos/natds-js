@@ -61,6 +61,7 @@ module.exports = {
         "packages/web/src/Components/BottomNavigationAction.tsx",
         "packages/web/src/Components/Fab/index.tsx",
         "packages/web/src/Components/Fab/IFabProps.tsx",
+        "packages/web/src/Components/index.test.tsx",
         "packages/web/src/Components/shared.ts",
         "packages/web/src/Components/TextField/Field.tsx",
         "packages/web/src/Provider/index.tsx",
