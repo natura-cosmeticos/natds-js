@@ -1,4 +1,4 @@
-import * as library from "../index";
+import * as library from "..";
 
 describe("Library", () => {
   it("exports theme Provider", () => {
@@ -24,6 +24,7 @@ describe("Library", () => {
     "Chip",
     "CircularProgress",
     "Collapse",
+    "Container",
     "ContextualBadge",
     "Dialog",
     "DialogActions",
