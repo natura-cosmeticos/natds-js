@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
 
-import Container from "../../Components/Container";
+import Container from ".";
 
 describe("Container component", () => {
   it("matches default snapshot", () => {
