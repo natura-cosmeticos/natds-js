@@ -6,12 +6,29 @@ import { IFabProps } from "./IFabProps";
 
 export { IFabProps } from "./IFabProps";
 
+export const colors: any = {
+  primary: "primary",
+  secondary: "secondary",
+  light: "light",
+};
+
+export const sizes: any = {
+  small: "small",
+  medium: "medium",
+  large: "large",
+};
+
+export const variants: any = {
+  round: "round",
+  extended: "extended",
+};
+
 export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
   props: IFabProps,
   ref: any,
 ) => {
   const {
-      color = "primary",
+      color = colors.primary,
       theme: providerTheme,
       disabled,
       style,
