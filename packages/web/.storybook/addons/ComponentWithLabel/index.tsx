@@ -1,6 +1,9 @@
 import * as React from "react";
+import Typography from "../../../src/Components/Typography"
 
 import "./styles.scss";
+import {createStyles, makeStyles} from "@material-ui/core";
+import ContextualBadge from "../../../src/Components/ContextualBadge";
 
 export interface IComponentWithLabelItem {
   title?: string;
@@ -41,9 +44,19 @@ function BuildComponentItem({ title, component }: IComponentWithLabelItem, key: 
   const { itemsPerRow = "auto" }:any = this;
   const styles = itemsPerRow === "auto" ? {} : { flexBasis: `${100 / itemsPerRow}%` };
 
+  const useStyles = makeStyles(createStyles((theme) => {
+    heading: {
+      marginBottom: console.log(theme)
+    }
+  }))
+
+  const classes = useStyles();
+
   return (
     <li className="component__item" key={key} style={styles}>
-      <h5 className="component__item__title">{title}</h5>
+      <Typography component={"h2"} gutterBottom={true} variant={"caption"}>
+        <ContextualBadge color={"light"} component={"h2"}>{title}</ContextualBadge>
+      </Typography>
       {component}
     </li>
   );
