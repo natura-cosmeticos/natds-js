@@ -1,11 +1,13 @@
 import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
 import { Fab } from '.';
 import { themes } from '../../Themes';
-import { Provider } from '../../Provider'
+import { Provider } from '../../Provider';
 import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 import ComponentWithLabel from '../../../.storybook/addons/ComponentWithLabel';
+import withJest from "../../../.storybook/decorators/jest/jest";
+import withContainer from "../../../.storybook/decorators/container";
 
-<Meta component={Fab} title="Components|Buttons/Fab" />
+<Meta component={Fab} decorators={[withJest(), withContainer]} title="Components|Buttons/Fab" />
 
 # Fab
 
