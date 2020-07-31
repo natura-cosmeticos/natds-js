@@ -1,8 +1,32 @@
 import * as React from "react";
-import Box from "@material-ui/core/Box";
 import Container from "@material-ui/core/Container";
-import { tokens } from "@naturacosmeticos/natds-styles"
+import makeStyles from "@material-ui/core/styles/makeStyles";
+import {createStyles} from "@material-ui/core";
+import {tokens} from "@naturacosmeticos/natds-styles";
 
-const container = (storyFn: any) => <Container><Box style={{padding: tokens.spacing.spacingSemi}}>{storyFn()}</Box></Container>;
+// @todo get from Design System theme
+
+const useStyles = makeStyles(createStyles((theme) => ({
+  root: {
+    paddingTop: tokens.spacing.spacingStandard
+  }
+})))
+
+const container = (storyFn: any) => {
+
+  const classes = useStyles();
+
+  return (
+    <Container className={classes["root"]} maxWidth={false}>
+      {storyFn()}
+    </Container>
+  );
+};
+
+const playgroundContainer = (storyFn: any) => {
+
+
+
+}
 
 export default container;
