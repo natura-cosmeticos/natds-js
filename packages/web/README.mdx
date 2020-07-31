@@ -1,14 +1,21 @@
+import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+
+import { docsAndTokensParams } from './.storybook/parameters/docsAndTokensParams'
+
+<Meta parameters={{ ...docsAndTokensParams, theme: "web" }} title="Documentation|Getting started" />
+
 # Natura Design System - React Web
 
 React components for web development inside Natura.
 
-![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
-[![codecov](https://codecov.io/gh/natura-cosmeticos/natds-js/branch/master/graph/badge.svg)](https://codecov.io/gh/natura-cosmeticos/natds-js)
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Travis Build Status](https://travis-ci.org/natura-cosmeticos/natds-js.svg?branch=main)](https://travis-ci.org/natura-cosmeticos/natds-js)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
----
+## How to install
 
-## Install
+If your project is using `react` and `react-dom` version `16.8.4` or higher:
 
 ### Using NPM
 
@@ -17,10 +24,12 @@ Install source files via npm or [use a CDN](./docs/using-cdn.md). We take care o
 Please note that `react >= 16.8.4` and `react-dom >= 16.8.4` are peer dependencies.
 
 ```shell script
-# with npm
 $ npm install @naturacosmeticos/natds-web
+```
 
-# with yarn
+Working with Yarn? Use the equivalent install command:
+
+```shell script
 $ yarn add @naturacosmeticos/natds-web
 ```
 
@@ -38,18 +47,26 @@ This package does not provide Roboto font, only its font family names.
 
 This package only works fine with the use of `<Provider />`, that is **essential** for applying styles correctly.
 
-```jsx highlight-line="3"
+You must enclose all your application in a Provider component as follows:
+
+```jsx highlight-line="4"
 import React from 'react'
-import { Button, Provider } from "@naturacosmeticos/natds-web";
+import { Button, Provider, themes } from "@naturacosmeticos/natds-web";
 
 export const App = () => (
-    <Provider>
+    <Provider theme={themes.natura.light}>
         <Button color={"primary"} variant={"contained"}>Button</Button>
     </Provider>
 )
 ```
 
-Explore the [storybook docs](https://natds-js.netlify.app/) for more details and examples.
+Please don't try to override theme palette or another tokens. Our Design System themes are ready to use.
+
+---
+
+## How to contribute
+
+To contribute, please check our [Contributing guidelines](./CONTRIBUTING.md).
 
 ---
 
@@ -66,10 +83,10 @@ If your project does not meet the minimum requirements, you can use [@naturacosm
 
 Installing `@naturacosmeticos/natds-web` will also install the following packages:
 
-- `@material-ui/core`
-- `@naturacosmeticos/natds-icons`
-- `@naturacosmeticos/natds-styles`
-- `styled-components`
+    - `@material-ui/core`
+    - `@naturacosmeticos/natds-icons`
+    - `@naturacosmeticos/natds-styles`
+    - `styled-components`
 
 Thus, it is not necessary to install them to use the Design System.
 
@@ -95,7 +112,3 @@ For more info and examples, check our [CDN documentation](./docs/using-cdn.md).
 ## Troubleshooting
 
 Having troubles? Please check our [Troubleshooting documentation](../../TROUBLESHOOTING.md).
-
-## Contributing
-
-To contribute, please check out our [Contributing guidelines](./CONTRIBUTING.md)
