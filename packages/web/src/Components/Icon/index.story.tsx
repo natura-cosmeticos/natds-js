@@ -1,12 +1,13 @@
 import * as React from "react";
 import { select } from "@storybook/addon-knobs";
+
 import withJest from "../../../.storybook/decorators/jest/jest";
 import withContainer from "../../../.storybook/decorators/container";
 
-import { Icon } from ".";
+import { Icon } from "@naturacosmeticos/natds-web";
 import { iconNames } from "@naturacosmeticos/natds-icons";
 import { tokens } from "@naturacosmeticos/natds-styles";
-import {parameters} from "./parameters";
+import { parameters } from "./parameters";
 
 export default {
   title: "Playground|Icon",

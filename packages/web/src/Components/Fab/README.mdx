@@ -1,15 +1,16 @@
 import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
 import { select, boolean, text } from "@storybook/addon-knobs";
 
-import ComponentWithLabel from '../../../.storybook/addons/ComponentWithLabel';
+import ComponentWithLabel from '../../../.storybook/components/ComponentWithLabel';
 import withJest from "../../../.storybook/decorators/jest/jest";
 import withContainer from "../../../.storybook/decorators/container";
 
 import { Fab } from '.';
-import { parameters } from './parameters';
+import { parameters } from './stories/parameters';
+import { colors, sizes, variants, disabled, leadingIcon } from './stories/sections';
+
 import { themes } from '../../Themes';
 import { Provider } from '../../Provider';
-import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 
 <Meta component={Fab} decorators={[withJest(), withContainer]} parameters={parameters} title="Components|Fab" />
 
@@ -17,27 +18,21 @@ import { colors, sizes, variants, disabled, leadingIcon } from './sections';
 
 ## Usage
 
-### Colors
-
 <Preview>
   <Story name="Fab colors">
-    <ComponentWithLabel componentList={colors} />
+    <ComponentWithLabel componentList={colors} headingText={"Colors"} />
   </Story>
 </Preview>
-
-### Sizes
 
 <Preview>
   <Story name="Fab sizes">
-    <ComponentWithLabel componentList={sizes} />
+    <ComponentWithLabel componentList={sizes} headingText={"Sizes"} />
   </Story>
 </Preview>
 
-### Variants
-
 <Preview>
   <Story name="Fab variants">
-    <ComponentWithLabel componentList={variants} />
+    <ComponentWithLabel componentList={variants} headingText={"Variants"} />
   </Story>
 </Preview>
 
@@ -56,11 +51,9 @@ import { Fab } from '@naturacosmeticos/natds-web';
 </Fab>
 ```
 
-### Extended With leading icon
-
 <Preview>
   <Story name="Fab extended with leading icon">
-    <ComponentWithLabel componentList={leadingIcon} />
+    <ComponentWithLabel componentList={leadingIcon} headingText={"Extended with leading icon"} />
   </Story>
 </Preview>
 
@@ -74,11 +67,9 @@ import { Fab } from '@naturacosmeticos/natds-web';
 </Fab>
 ```
 
-### Disabled
-
 <Preview>
   <Story name="Fab disabled">
-    <ComponentWithLabel componentList={disabled} />
+    <ComponentWithLabel componentList={disabled} headingText={"Disabled"} />
   </Story>
 </Preview>
 

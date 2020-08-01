@@ -28,7 +28,7 @@ export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
   ref: any,
 ) => {
   const {
-      color = colors.primary,
+      color = "primary",
       theme: providerTheme,
       disabled,
       style,

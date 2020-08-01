@@ -2,7 +2,7 @@ import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
 import withJest from "../../../.storybook/decorators/jest/jest";
 import withContainer from "../../../.storybook/decorators/container";
 import { colors, elevation } from './sections';
-import ComponentWithLabel from '../../../.storybook/addons/ComponentWithLabel';
+import ComponentWithLabel from '../../../.storybook/components/ComponentWithLabel';
 import {parameters} from "./parameters";
 
 import { AppBar } from '.';
@@ -13,19 +13,15 @@ import { AppBar } from '.';
 
 ## Usage
 
-### Colors
-
 <Preview>
   <Story name="AppBar colors">
-    <ComponentWithLabel componentList={colors} />
+    <ComponentWithLabel componentList={colors} headingText={"Colors"} />
   </Story>
 </Preview>
 
-### Elevation
-
 <Preview>
   <Story name="AppBar elevations">
-    <ComponentWithLabel componentList={elevation} />
+    <ComponentWithLabel componentList={elevation} headingText={"Elevation"} />
   </Story>
 </Preview>
 

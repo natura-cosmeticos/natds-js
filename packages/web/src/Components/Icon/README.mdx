@@ -1,7 +1,7 @@
 import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
 import { select, boolean, text } from "@storybook/addon-knobs";
 
-import ComponentWithLabel from '../../../.storybook/addons/ComponentWithLabel';
+import ComponentWithLabel from '../../../.storybook/components/ComponentWithLabel';
 import withJest from "../../../.storybook/decorators/jest/jest";
 import withContainer from "../../../.storybook/decorators/container";
 
@@ -16,15 +16,11 @@ import { parameters } from './parameters';
 
 ## Usage
 
-### Sizes
-
 <Preview>
   <Story name="Icon sizes">
-    <ComponentWithLabel componentList={sizes} itemsPerRow={9} />
+    <ComponentWithLabel componentList={sizes} headingText={"Sizes"} itemsPerRow={9} />
   </Story>
 </Preview>
-
-## API
 
 ```jsx highlight-line="2"
 import { Icon } from '@naturacosmeticos/natds-web';

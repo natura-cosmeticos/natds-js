@@ -1,5 +1,5 @@
 import * as React from "react";
-import { parameters } from './parameters';
+import { parameters } from './stories/parameters';
 import withJest from "../../../.storybook/decorators/jest/jest";
 import withContainer from "../../../.storybook/decorators/container";
 
