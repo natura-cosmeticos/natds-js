@@ -1,8 +1,9 @@
 import React, { FunctionComponent, forwardRef } from "react";
 import MaterialAppBar, { AppBarProps } from "@material-ui/core/AppBar";
 import { makeStyles, withTheme } from "@material-ui/core/styles";
-import { IThemeWeb } from "../Themes";
-import { getDefaultTheme } from "./shared";
+import { IThemeWeb } from "../../Themes";
+import { getDefaultTheme } from "../shared";
+import PropTypes from "prop-types";
 
 export interface IAppBarProps extends AppBarProps {
 
@@ -52,3 +53,7 @@ export const AppBar: FunctionComponent<IAppBarProps> = forwardRef((
 });
 
 export default withTheme(AppBar);
+
+AppBar.propTypes = {
+  children: PropTypes.node
+}

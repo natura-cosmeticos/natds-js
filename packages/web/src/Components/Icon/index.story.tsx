@@ -6,6 +6,7 @@ import withContainer from "../../../.storybook/decorators/container";
 import { Icon } from ".";
 import { iconNames } from "@naturacosmeticos/natds-icons";
 import { tokens } from "@naturacosmeticos/natds-styles";
+import {parameters} from "./parameters";
 
 export default {
   title: "Playground|Icon",
@@ -13,13 +14,7 @@ export default {
   decorators: [
     withJest(), withContainer,
   ],
-  parameters: {
-    jestImportPath: "web",
-    jest: ["Icon"],
-    theme: {
-      context: "web",
-    }
-  },
+  parameters
 };
 
 const icons: any = Object.keys(iconNames);
