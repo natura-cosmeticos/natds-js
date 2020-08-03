@@ -1,4 +1,5 @@
-import prependVersionToArray from "./prependVersionToArray";
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const prependVersionToArray = require("./prependVersionToArray");
 
 describe("prependVersionToArray", () => {
   it("should prepend version correctly", () => {

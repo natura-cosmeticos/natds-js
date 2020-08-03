@@ -1,4 +1,5 @@
-import uniqueArray from "./uniqueArray";
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const uniqueArray = require("./uniqueArray");
 
 describe("uniqueArray function", () => {
   it("should unique an array correctly", () => {
