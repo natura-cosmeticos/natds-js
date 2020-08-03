@@ -44,16 +44,24 @@ describe("TextField PasswordReveal component", () => {
     expect(component.html()).to.be.equal(icon.html());
   });
 
+  /**
+   * @todo rewrite test to support null type assignment
+   */
   test("should render default showPasswordIcon", () => {
     const props = getProps({ showing: false });
-    const component = shallow(<PasswordReveal {...props} showPasswordIcon={null} hidePasswordIcon={null} />);
+    // eslint-disable-next-line no-undefined
+    const component = shallow(<PasswordReveal {...props} showPasswordIcon={undefined} hidePasswordIcon={null} />);
 
     expect(component.html()).to.contain("svg");
   });
 
+  /**
+   * @todo rewrite test to support null type assignment
+   */
   test("should render default hidePasswordIcon", () => {
     const props = getProps({ showing: true });
-    const component = shallow(<PasswordReveal {...props} showPasswordIcon={null} hidePasswordIcon={null} />);
+    // eslint-disable-next-line no-undefined
+    const component = shallow(<PasswordReveal {...props} showPasswordIcon={undefined} hidePasswordIcon={null} />);
 
     expect(component.html()).to.contain("svg");
   });
