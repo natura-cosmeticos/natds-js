@@ -2,10 +2,10 @@
 
 exports[`TextField component rendering state should match snapshot - TextField (custom icon with action): TextField custom icon with action snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -48,7 +48,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -58,10 +58,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (custom icon): TextField custom icon snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -99,7 +99,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -108,7 +108,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default focus): TextField default focus snapshot 1`] = `
-<ForwardRef
+<TextField
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -793,7 +793,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default hover): TextField default hover snapshot 1`] = `
-<ForwardRef
+<TextField
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -1479,10 +1479,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (default with empty theme): TextField default with empty theme snapshot 1`] = `
 <div
-  className="sc-AxhCb jZGwSK"
+  className="sc-AxgMl eAHCPh"
 >
   <label
-    className="sc-AxhUy fMOGAB"
+    className="sc-AxheI jDqvmJ"
     disabled={false}
     htmlFor="field"
   >
@@ -1505,7 +1505,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl fzeASr"
+    className="sc-Axmtr eFPjHO"
     disabled={false}
   >
     Assistive text
@@ -1515,10 +1515,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (default without placeholder): TextField default without placeholder snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -1541,7 +1541,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -1551,10 +1551,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (default): TextField default snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -1577,7 +1577,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -1586,7 +1586,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled focus): TextField disabled focus snapshot 1`] = `
-<ForwardRef
+<TextField
   disabled={true}
   helpText="Assistive text"
   id="field"
@@ -2272,7 +2272,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled hover): TextField disabled hover snapshot 1`] = `
-<ForwardRef
+<TextField
   disabled={true}
   helpText="Assistive text"
   id="field"
@@ -2959,10 +2959,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled): TextField disabled snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ieODrh"
+    className="sc-AxheI cdaMgZ"
     disabled={true}
     htmlFor="field"
   >
@@ -2985,7 +2985,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl fKlbWG"
+    className="sc-Axmtr bzrAIv"
     disabled={true}
   >
     Assistive text
@@ -2994,7 +2994,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error focus): TextField error focus snapshot 1`] = `
-<ForwardRef
+<TextField
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -3680,7 +3680,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error hover): TextField error hover snapshot 1`] = `
-<ForwardRef
+<TextField
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -4367,10 +4367,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (error): TextField error snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy kwVpZY"
+    className="sc-AxheI evhyPQ"
     disabled={false}
     htmlFor="field"
   >
@@ -4393,12 +4393,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl hyBiUT"
+    className="sc-Axmtr gHBhiy"
     disabled={false}
   >
     <svg
       aria-hidden={true}
-      className="MuiSvgIcon-root sc-AxheI iqLCJf"
+      className="MuiSvgIcon-root sc-AxhCb kvTbVW"
       focusable="false"
       theme={
         Object {
@@ -5088,7 +5088,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled focus): TextField filled focus snapshot 1`] = `
-<ForwardRef
+<TextField
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -5774,7 +5774,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled hover): TextField filled hover snapshot 1`] = `
-<ForwardRef
+<TextField
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -6461,10 +6461,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (filled): TextField filled snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -6487,7 +6487,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -6497,10 +6497,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (mask): TextField mask snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -7219,7 +7219,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -7229,10 +7229,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (multiline): TextField multiline snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -7255,7 +7255,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -7265,10 +7265,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (property forwarded): TextField property forwarded snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -7291,7 +7291,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -7301,10 +7301,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (readonly explicitly set to false): TextField readonly explicitly set to false snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -7328,7 +7328,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -7338,10 +7338,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (readonly explicitly set to true): TextField readonly explicitly set to true snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -7369,7 +7369,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (required without label): TextField required without label snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <div
     className="sc-AxirZ YOqtI"
@@ -7388,7 +7388,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -7398,10 +7398,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (required): TextField required snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ekBNxp"
+    className="sc-AxheI jyjFMd"
     disabled={false}
     htmlFor="field"
   >
@@ -7424,7 +7424,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl iyobOG"
+    className="sc-Axmtr chPrLP"
     disabled={false}
   >
     Assistive text
@@ -7433,7 +7433,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success focus): TextField success focus snapshot 1`] = `
-<ForwardRef
+<TextField
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -8119,7 +8119,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success hover): TextField success hover snapshot 1`] = `
-<ForwardRef
+<TextField
   helpText="Assistive text"
   id="field"
   label="Label"
@@ -8806,10 +8806,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (success): TextField success snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy hkXaLn"
+    className="sc-AxheI bjjjBf"
     disabled={false}
     htmlFor="field"
   >
@@ -8832,12 +8832,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl hgxQxE"
+    className="sc-Axmtr cPzWhB"
     disabled={false}
   >
     <svg
       aria-hidden={true}
-      className="MuiSvgIcon-root sc-Axmtr gGsfRc"
+      className="MuiSvgIcon-root sc-AxhUy bJRDub"
       focusable="false"
       theme={
         Object {
@@ -9528,10 +9528,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (theme change): TextField theme change snapshot 1`] = `
 <div
-  className="sc-AxhCb kunLZo"
+  className="sc-AxgMl byWJEn"
 >
   <label
-    className="sc-AxhUy ieODrh"
+    className="sc-AxheI cdaMgZ"
     disabled={false}
     htmlFor="field"
   >
@@ -9554,7 +9554,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="sc-AxgMl fKlbWG"
+    className="sc-Axmtr bzrAIv"
     disabled={false}
   >
     Assistive text

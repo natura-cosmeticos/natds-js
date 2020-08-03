@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Drawer component should match snapshot - Any valid Drawer with bottom anchor: Drawer snapshot - with bottom anchor 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Drawer)
   anchor="bottom"
   open={true}
 >
-  <ForwardRef
+  <Drawer
     anchor="bottom"
     open={true}
     theme={
@@ -2152,16 +2152,16 @@ exports[`Drawer component should match snapshot - Any valid Drawer with bottom a
         </ForwardRef(Modal)>
       </ForwardRef(Drawer)>
     </WithStyles(ForwardRef(Drawer))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Drawer>
+</WithTheme(Drawer)>
 `;
 
 exports[`Drawer component should match snapshot - Any valid Drawer with left anchor: Drawer snapshot - with left anchor 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Drawer)
   anchor="left"
   open={true}
 >
-  <ForwardRef
+  <Drawer
     anchor="left"
     open={true}
     theme={
@@ -4227,16 +4227,16 @@ exports[`Drawer component should match snapshot - Any valid Drawer with left anc
         </ForwardRef(Modal)>
       </ForwardRef(Drawer)>
     </WithStyles(ForwardRef(Drawer))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Drawer>
+</WithTheme(Drawer)>
 `;
 
 exports[`Drawer component should match snapshot - Any valid Drawer with permanent variant: Drawer snapshot - with permanent color 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Drawer)
   open={true}
   variant="permanent"
 >
-  <ForwardRef
+  <Drawer
     open={true}
     theme={
       Object {
@@ -5479,16 +5479,16 @@ exports[`Drawer component should match snapshot - Any valid Drawer with permanen
         </div>
       </ForwardRef(Drawer)>
     </WithStyles(ForwardRef(Drawer))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Drawer>
+</WithTheme(Drawer)>
 `;
 
 exports[`Drawer component should match snapshot - Any valid Drawer with persistent variant: Drawer snapshot - with persistent color 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Drawer)
   open={true}
   variant="persistent"
 >
-  <ForwardRef
+  <Drawer
     open={true}
     theme={
       Object {
@@ -6788,16 +6788,16 @@ exports[`Drawer component should match snapshot - Any valid Drawer with persiste
         </div>
       </ForwardRef(Drawer)>
     </WithStyles(ForwardRef(Drawer))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Drawer>
+</WithTheme(Drawer)>
 `;
 
 exports[`Drawer component should match snapshot - Any valid Drawer with right anchor: Drawer snapshot - with right anchor 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Drawer)
   anchor="right"
   open={true}
 >
-  <ForwardRef
+  <Drawer
     anchor="right"
     open={true}
     theme={
@@ -8917,16 +8917,16 @@ exports[`Drawer component should match snapshot - Any valid Drawer with right an
         </ForwardRef(Modal)>
       </ForwardRef(Drawer)>
     </WithStyles(ForwardRef(Drawer))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Drawer>
+</WithTheme(Drawer)>
 `;
 
 exports[`Drawer component should match snapshot - Any valid Drawer with temporary variant: Drawer snapshot - with temporary color 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Drawer)
   open={true}
   variant="temporary"
 >
-  <ForwardRef
+  <Drawer
     open={true}
     theme={
       Object {
@@ -11100,16 +11100,16 @@ exports[`Drawer component should match snapshot - Any valid Drawer with temporar
         </ForwardRef(Modal)>
       </ForwardRef(Drawer)>
     </WithStyles(ForwardRef(Drawer))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Drawer>
+</WithTheme(Drawer)>
 `;
 
 exports[`Drawer component should match snapshot - Any valid Drawer with top anchor: Drawer snapshot - with top anchor 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Drawer)
   anchor="top"
   open={true}
 >
-  <ForwardRef
+  <Drawer
     anchor="top"
     open={true}
     theme={
@@ -13202,6 +13202,6 @@ exports[`Drawer component should match snapshot - Any valid Drawer with top anch
         </ForwardRef(Modal)>
       </ForwardRef(Drawer)>
     </WithStyles(ForwardRef(Drawer))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Drawer>
+</WithTheme(Drawer)>
 `;

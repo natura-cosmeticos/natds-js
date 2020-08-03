@@ -2,8 +2,8 @@
 
 exports[`Breadcrumbs component rendering it should match default snapshot: Breadcrumbs snapshot 1`] = `
 <Component>
-  <WithTheme(ForwardRef)>
-    <ForwardRef>
+  <WithTheme(Breadcrumbs)>
+    <Breadcrumbs>
       <WithStyles(ForwardRef(Breadcrumbs))>
         <ForwardRef(Breadcrumbs)
           classes={
@@ -1917,8 +1917,8 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                                     }
                                   }
                                 >
-                                  <WithTheme(ForwardRef)>
-                                    <ForwardRef>
+                                  <WithTheme(Typography)>
+                                    <Typography>
                                       <WithStyles(ForwardRef(Typography))
                                         align="inherit"
                                         variant="body1"
@@ -1968,8 +1968,8 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                                           </p>
                                         </ForwardRef(Typography)>
                                       </WithStyles(ForwardRef(Typography))>
-                                    </ForwardRef>
-                                  </WithTheme(ForwardRef)>
+                                    </Typography>
+                                  </WithTheme(Typography)>
                                 </a>
                               </ForwardRef(Typography)>
                             </WithStyles(ForwardRef(Typography))>
@@ -1984,7 +1984,7 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
           </WithStyles(ForwardRef(Typography))>
         </ForwardRef(Breadcrumbs)>
       </WithStyles(ForwardRef(Breadcrumbs))>
-    </ForwardRef>
-  </WithTheme(ForwardRef)>
+    </Breadcrumbs>
+  </WithTheme(Breadcrumbs)>
 </Component>
 `;

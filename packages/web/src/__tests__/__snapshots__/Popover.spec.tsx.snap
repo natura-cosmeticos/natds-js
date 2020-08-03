@@ -1,11 +1,11 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Popover component should match snapshot - Any valid Popover with bottom direction: Popover snapshot - with bottom direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="bottom"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="bottom"
     open={true}
     theme={
@@ -2896,7 +2896,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -2946,10 +2946,10 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -3001,27 +3001,27 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with bottom-end direction: Popover snapshot - with bottom-end direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="bottom-end"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="bottom-end"
     open={true}
     theme={
@@ -5931,7 +5931,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -5981,10 +5981,10 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -6036,27 +6036,27 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with bottom-start direction: Popover snapshot - with bottom-start direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="bottom-start"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="bottom-start"
     open={true}
     theme={
@@ -8985,7 +8985,7 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -9035,10 +9035,10 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -9090,27 +9090,27 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with left direction: Popover snapshot - with left direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="left"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="left"
     open={true}
     theme={
@@ -12058,7 +12058,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -12108,10 +12108,10 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -12163,27 +12163,27 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with left-end direction: Popover snapshot - with left-end direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="left-end"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="left-end"
     open={true}
     theme={
@@ -15150,7 +15150,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -15200,10 +15200,10 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -15255,27 +15255,27 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with left-start direction: Popover snapshot - with left-start direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="left-start"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="left-start"
     open={true}
     theme={
@@ -18261,7 +18261,7 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -18311,10 +18311,10 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -18366,27 +18366,27 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with right direction: Popover snapshot - with right direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="right"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="right"
     open={true}
     theme={
@@ -21391,7 +21391,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -21441,10 +21441,10 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -21496,27 +21496,27 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with right-end direction: Popover snapshot - with right-end direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="right-end"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="right-end"
     open={true}
     theme={
@@ -24540,7 +24540,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -24590,10 +24590,10 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -24645,27 +24645,27 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with right-start direction: Popover snapshot - with right-start direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="right-start"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="right-start"
     open={true}
     theme={
@@ -27708,7 +27708,7 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -27758,10 +27758,10 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -27813,27 +27813,27 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with top direction: Popover snapshot - with top direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="top"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="top"
     open={true}
     theme={
@@ -30895,7 +30895,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -30945,10 +30945,10 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -31000,27 +31000,27 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with top-end direction: Popover snapshot - with top-end direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="top-end"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="top-end"
     open={true}
     theme={
@@ -34101,7 +34101,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -34151,10 +34151,10 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -34206,27 +34206,27 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Any valid Popover with top-start direction: Popover snapshot - with top-start direction 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   direction="top-start"
   open={true}
 >
-  <ForwardRef
+  <Popover
     direction="top-start"
     open={true}
     theme={
@@ -37326,7 +37326,7 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -37376,10 +37376,10 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -37431,23 +37431,23 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
 
 exports[`Popover component should match snapshot - Popover with Action Link: Popover snapshot - with Action Link 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Popover)
   actionLink={
     Object {
       "text": "Action link",
@@ -37455,7 +37455,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
   }
   open={true}
 >
-  <ForwardRef
+  <Popover
     actionLink={
       Object {
         "text": "Action link",
@@ -40585,7 +40585,7 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
               <span
                 className="arrow"
               />
-              <ForwardRef
+              <Paper
                 className="popover-container"
                 elevation={12}
                 variant="elevation"
@@ -40635,10 +40635,10 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(ForwardRef)
+                      <WithTheme(Typography)
                         variant="body2"
                       >
-                        <ForwardRef
+                        <Typography
                           variant="body2"
                         >
                           <WithStyles(ForwardRef(Typography))
@@ -40690,8 +40690,8 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                               </p>
                             </ForwardRef(Typography)>
                           </WithStyles(ForwardRef(Typography))>
-                        </ForwardRef>
-                      </WithTheme(ForwardRef)>
+                        </Typography>
+                      </WithTheme(Typography)>
                       <WithTheme(ForwardRef)
                         className="popover-action-link"
                         variant="body2"
@@ -42551,12 +42551,12 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </Portal>
         </ForwardRef(Portal)>
       </ForwardRef(Popper)>
     </Styled(Component)>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Popover>
+</WithTheme(Popover)>
 `;
