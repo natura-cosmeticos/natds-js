@@ -1,4 +1,6 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const toCamelCase = require("./toCamelCase");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const toIosUnicode = require("./toIosUnicode");
 
 const getUnicodeIconString = (metadata) => {

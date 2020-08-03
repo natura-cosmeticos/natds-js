@@ -1,8 +1,12 @@
 #!/usr/bin/env node
 
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const webfont = require("webfont").default;
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const fs = require("fs");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const getIconString = require("./helpers/getIconString");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const getUnicodeIconString = require("./helpers/getUnicodeIconString");
 
 const config = {
@@ -26,7 +30,8 @@ const types = [
 
 const onError = (error) => {
   if (error) {
-    console.log(error);
+    // eslint-disable-next-line no-console
+    console.error(error);
   }
 };
 

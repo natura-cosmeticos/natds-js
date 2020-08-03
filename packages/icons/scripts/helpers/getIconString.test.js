@@ -1,4 +1,4 @@
-const getIconString = require("./getIconString");
+import getIconString from "./getIconString";
 
 describe("Icon string getter", () => {
   it("should...", () => {

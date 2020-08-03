@@ -1,4 +1,4 @@
-const toIosUnicode = require("./toIosUnicode");
+import toIosUnicode from "./toIosUnicode";
 
 describe("toIosUnicode function", () => {
   it("should convert correctly to iOS Unicode", () => {
