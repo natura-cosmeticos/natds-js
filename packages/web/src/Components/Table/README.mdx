@@ -1,11 +1,8 @@
 import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
 
-import ComponentWithLabel from '../../../.storybook/components/ComponentWithLabel';
-import withJest from "../../../.storybook/decorators/jest/jest";
-import withContainer from "../../../.storybook/decorators/container";
+import { ComponentWithLabel, getDefaultDecorators, getComponentParams } from '../../../.storybook';
 
-import { tableContainerVariant, tableContainerAttribute } from './stories/sections.tsx'
-import { parameters } from './stories/parameters'
+import { tableContainerVariant, tableContainerAttribute } from './stories/sections'
 import { Table } from './Table'
 import { TableBody } from './TableBody'
 import { TableCell } from './TableCell'
@@ -13,7 +10,10 @@ import { TableContainer } from './TableContainer'
 import { TableHead } from './TableHead'
 import { TableRow } from './TableRow'
 
-<Meta component={[Table, TableBody, TableCell, TableContainer, TableHead, TableRow]} decorators={[withJest(), withContainer]} parameters={parameters} title={"Components|Table"} />
+<Meta component={[Table, TableBody, TableCell, TableContainer, TableHead, TableRow]}
+    decorators={getDefaultDecorators()}
+    parameters={getComponentParams(["Table"])}
+    title={"Components|Table"} />
 
 # Table
 

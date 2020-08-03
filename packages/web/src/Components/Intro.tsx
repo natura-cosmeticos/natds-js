@@ -1,4 +1,4 @@
-/* eslint-disable indent */
+/* eslint-disable indent,@typescript-eslint/no-explicit-any */
 import React, { FunctionComponent, forwardRef } from "react";
 import { withTheme } from "@material-ui/styles";
 import styled from "styled-components";
@@ -51,6 +51,7 @@ export interface IIntroProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 
 
 export const Intro: FunctionComponent<IIntroProps> = forwardRef((
   props: IIntroProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
@@ -85,6 +86,8 @@ export const Intro: FunctionComponent<IIntroProps> = forwardRef((
     </IntroContainer>
   );
 });
+
+Intro.displayName = "Intro";
 
 export default withTheme(Intro);
 

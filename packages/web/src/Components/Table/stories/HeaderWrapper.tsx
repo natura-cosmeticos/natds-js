@@ -1,13 +1,13 @@
 import * as React from "react";
-import {
-  Icon,
-  Table,
-  TableCell,
-  TableHead,
-  TableRow,
-  TableSortLabel,
-} from "@naturacosmeticos/natds-web";
 
+import Icon from "../../Icon";
+import { Table } from "../Table";
+import { TableCell } from "../TableCell";
+import { TableHead } from "../TableHead";
+import { TableRow } from "../TableRow";
+import { TableSortLabel } from "../TableSortLabel";
+
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const HeaderWrapper = ({
   active,
   direction,
@@ -15,18 +15,22 @@ export const HeaderWrapper = ({
 }:{
     active?: boolean,
     direction?: "asc" | "desc",
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     IconComponent?: any
   }) => {
 
-  const defaultComponent = (componentDirection?: "asc" | "desc", componentActive?: boolean) => {
+  const DefaultIcon = ({componentActive, componentDirection, ...props}: { componentActive?: boolean, componentDirection ?: "asc" | "desc" }) => {
+    let iconName = "outlined-action-order";
+
     if (componentActive && componentDirection === "desc") {
-      return (props: any) => <Icon {...props} name="outlined-navigation-directionbottom" size="small" />;
-    }
-    if (componentActive && componentDirection === "asc") {
-      return (props: any) => <Icon {...props} name="outlined-navigation-directiontop" size="small" />;
+      iconName = "outlined-navigation-directionbottom";
     }
 
-    return (props: any) => <Icon {...props} name="outlined-action-order" size="small" />;
+    if (componentActive && componentDirection === "asc") {
+      iconName = "outlined-navigation-directiontop";
+    }
+
+    return <Icon name={iconName} size="small" {...props} />;
   };
 
   return (
@@ -37,8 +41,8 @@ export const HeaderWrapper = ({
             <TableCell align="center">
               <TableSortLabel
                 active={active}
-                onClick={() => { }}
-                IconComponent={IconComponent || defaultComponent(direction, active)}
+                onClick={() => { Function.prototype(); }}
+                IconComponent={IconComponent || DefaultIcon({componentActive: active, componentDirection: direction})}
               >
                   Cell with Sort Icon
               </TableSortLabel>

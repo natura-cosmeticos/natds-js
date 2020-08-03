@@ -10,7 +10,10 @@ export {
 
 export const ExpansionPanelSummary: FunctionComponent<IExpansionPanelSummaryProps> = forwardRef((
   props: IExpansionPanelSummaryProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialExpansionPanelSummary {...props} ref={ref} />);
+
+ExpansionPanelSummary.displayName = "ExpansionPanelSummary";
 
 export default withTheme(ExpansionPanelSummary);

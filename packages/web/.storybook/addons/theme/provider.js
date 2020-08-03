@@ -1,10 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { addons, makeDecorator } from "@storybook/addons";
 import { FORCE_RE_RENDER } from "@storybook/core-events";
-import {
-  Provider as ProviderWeb,
-  themes as themesWeb,
-} from "@naturacosmeticos/natds-web";
+import { Provider as ProviderWeb } from "../../../src/Provider"
+import { themes as themesWeb } from "../../../src/Themes"
 import { CHANGE, PARAM_KEY } from "./shared";
 
 const THEME_PROVIDERS = {

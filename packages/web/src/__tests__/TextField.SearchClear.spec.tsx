@@ -8,6 +8,7 @@ import { shallow } from "enzyme";
 import { themes } from "@naturacosmeticos/natds-styles";
 import SearchClear from "../Components/TextField/SearchClear";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const getProps = (props: any = {}) => {
   const {
     onClearSearch = spy(),
@@ -33,7 +34,7 @@ describe("TextField SearchClear component", () => {
 
   test("should render default Icon", () => {
     const props = getProps();
-    const component = shallow(<SearchClear {...props} searchIcon={undefined} />);
+    const component = shallow(<SearchClear {...props} searchIcon={null} />);
 
     expect(component.html()).to.contain("svg");
   });

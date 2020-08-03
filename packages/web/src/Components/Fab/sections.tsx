@@ -1,5 +1,6 @@
 import * as React from "react";
-import { Fab, Icon } from "@naturacosmeticos/natds-web";
+import Fab from ".";
+import Icon from "../Icon";
 
 export const colors = [
   {

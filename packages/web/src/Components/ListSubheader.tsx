@@ -8,7 +8,10 @@ export { ListSubheaderProps as IListSubheaderProps } from "@material-ui/core/Lis
 
 const ListSubheader: FunctionComponent<IListSubheaderProps> = forwardRef((
   props: IListSubheaderProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialListSubheader {...props} ref={ref} />);
+
+ListSubheader.displayName = "ListSubheader";
 
 export default withTheme(ListSubheader);

@@ -6,7 +6,7 @@ import { themes } from "../Themes";
 
 describe("SnackbarContent Component", () => {
   describe("Rendering", () => {
-    const colors = [
+    const colors : string[] = [
       "default",
       "error",
       "success",
@@ -25,7 +25,7 @@ describe("SnackbarContent Component", () => {
       expect(wrapper.toJSON()).toMatchSnapshot("SnackbarContent default with custom theme snapshot");
     });
     test("should match to snapshot - SnackbarContent default with colors", () => {
-      colors.forEach((color: any) => {
+      colors.forEach((color: string) => {
         const wrapper = renderer.create(<Provider theme={themes.natura.light}><SnackbarContent color={color} /></Provider>);
 
         expect(wrapper.toJSON()).toMatchSnapshot(`SnackbarContent color ${color} snapshot`);

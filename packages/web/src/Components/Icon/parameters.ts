@@ -3,5 +3,5 @@ export const parameters = {
   jest: ["Icon"],
   theme: {
     context: "web",
-  }
+  },
 };

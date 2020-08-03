@@ -14,6 +14,7 @@ export interface IBottomNavigationActionProps extends BottomNavigationActionProp
 
 export const BottomNavigationAction: FunctionComponent<IBottomNavigationActionProps> = forwardRef((
   props: IBottomNavigationActionProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
@@ -51,5 +52,7 @@ export const BottomNavigationAction: FunctionComponent<IBottomNavigationActionPr
 
   return <MaterialBottomNavigationAction {...props} classes={classes} ref={ref} />;
 });
+
+BottomNavigationAction.displayName = "BottomNavigationAction";
 
 export default withTheme(BottomNavigationAction);

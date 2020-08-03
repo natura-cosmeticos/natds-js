@@ -1,13 +1,10 @@
 import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
-import withJest from "../../../.storybook/decorators/jest/jest";
-import withContainer from "../../../.storybook/decorators/container";
 import { colors, elevation } from './sections';
-import ComponentWithLabel from '../../../.storybook/components/ComponentWithLabel';
-import {parameters} from "./parameters";
+import { ComponentWithLabel, getComponentParams, getDefaultDecorators } from '../../../.storybook';
 
 import { AppBar } from '.';
 
-<Meta component={AppBar} decorators={[withJest(), withContainer]} parameters={parameters} title="Components|AppBar" />
+<Meta component={AppBar} decorators={getDefaultDecorators()} parameters={getComponentParams(["AppBar"])} title="Components|AppBar" />
 
 # AppBar
 

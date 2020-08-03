@@ -1,4 +1,4 @@
-/* eslint-disable max-lines */
+/* eslint-disable max-lines,max-lines-per-function */
 import React, { FunctionComponent, forwardRef } from "react";
 import styled from "styled-components";
 import { withTheme } from "@material-ui/core/styles";
@@ -15,6 +15,7 @@ type IContextualBadgeColors = "primary" | "secondary" | "info" | "error" | "warn
 type IContextualBadgeTypes = "standard";
 
 export interface IContextualBadgeProps {
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [propName: string]: any;
 
   /**
@@ -58,24 +59,26 @@ export interface IContextualBadgeProps {
 // @todo refactor(web): refactor ContextualBadge component
 export const ContextualBadge: FunctionComponent<IContextualBadgeProps> = forwardRef((
   props: IContextualBadgeProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
-      children,
-      classes,
-      color = "primary",
-      style,
-      theme: providerTheme,
-      type = "standard",
-      ...rest
-    } = props,
+    children,
+    classes,
+    color = "primary",
+    style,
+    theme: providerTheme,
+    type = "standard",
+    ...rest
+  } = props;
 
-    theme: any = React.useMemo(
-      () => getDefaultTheme(providerTheme),
-      [providerTheme],
-    ),
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const theme: any = React.useMemo(
+    () => getDefaultTheme(providerTheme),
+    [providerTheme],
+  );
 
-    colorMap = React.useMemo(() => {
+  const colorMap = React.useMemo(() => {
       const {
         primary, secondary, complementary, error, success, background, text,
       } = theme.palette;
@@ -181,5 +184,7 @@ const Container = styled.span<IContainerProps>`
   line-height: ${(props) => props.lineHeight}px;
   padding: ${(props) => props.padding};
 `;
+
+ContextualBadge.displayName = "ContextualBadge";
 
 export default withTheme(ContextualBadge);

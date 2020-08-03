@@ -1,22 +1,22 @@
 import * as React from "react";
 
-import withJest from "../../../../.storybook/decorators/jest/jest";
-import withContainer from "../../../../.storybook/decorators/container";
-
 import { boolean, select } from "@storybook/addon-knobs";
-import {tableAlignOptions} from "./tableAlignOptions";
-import {dataTable, IDataTable} from "./exampleDataTable";
-import { parameters } from "./parameters"
+import { getDefaultDecorators, getComponentParams } from "../../../.storybook";
 
-import {
-  Checkbox,
-  Table,
-  TableBody,
-  TableCell,
-  TableContainer,
-  TableHead,
-  TableRow,
-} from "@naturacosmeticos/natds-web";
+import {tableAlignOptions} from "./stories/tableAlignOptions";
+import {dataTable, IDataTable} from "./stories/exampleDataTable";
+
+import Checkbox from "../Checkbox";
+import Table from "./Table";
+import TableBody from "./TableBody";
+import TableCell from "./TableCell";
+import TableContainer from "./TableContainer";
+import TableHead from "./TableHead";
+import TableRow from "./TableRow";
+import {handleSelectAllClick} from "./functions/handleSelectAllClick";
+import {handleIndeterminate} from "./functions/handleIndeterminate";
+import {handleChecked} from "./functions/handleChecked";
+import {handleSelect} from "./functions/handleSelect";
 
 export default {
   title: "Playground|Table",
@@ -26,10 +26,11 @@ export default {
     TableContainer,
     TableHead,
     TableRow],
-  decorators: [withJest(), withContainer],
-  parameters
+  decorators: getDefaultDecorators(),
+  parameters: getComponentParams(["Table"]),
 };
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const Interactive = () => {
 
   const dividersOption = boolean("Table Divided", true);
@@ -38,49 +39,6 @@ export const Interactive = () => {
   const stripedOption = boolean("Table Striped", true);
 
   const [dataState, setSelected] = React.useState<IDataTable[]>(dataTable);
-
-  const handleSelect = (event: React.MouseEvent<unknown>, item: IDataTable) => {
-    let modifiedTable: IDataTable[] = [];
-
-    modifiedTable = dataState.map((auxItem) => {
-      if (auxItem.id === item.id) {
-        const updatedAuxItem = auxItem;
-
-        updatedAuxItem.selected = !updatedAuxItem.selected;
-
-        return updatedAuxItem;
-      }
-
-      return auxItem;
-    });
-
-    setSelected(modifiedTable);
-  };
-
-  // @todo refactor(docs): extract duplicated code for handleSelectAllClick
-  const handleSelectAllClick = (event: React.ChangeEvent<HTMLInputElement>) => {
-    let auxiliaryTable: IDataTable[] = [];
-
-    auxiliaryTable = dataState.map((auxItem) => {
-      const updatedAuxItem = auxItem;
-
-      updatedAuxItem.selected = event.target.checked;
-
-      return updatedAuxItem;
-    });
-
-    setSelected(auxiliaryTable);
-  };
-
-  // @todo refactor(docs): extract duplicated code for handleIndeterminate
-  const handleIndeterminate = (data: IDataTable[]) => {
-    const numSelected = data.filter((item) => item.selected).length;
-
-    return numSelected > 0 && numSelected < data.length;
-  };
-
-  // @todo refactor(docs): extract duplicated code for handleChecked
-  const handleChecked = (data: IDataTable[]) => data.every((item) => item.selected);
 
   return (
     <TableContainer>
@@ -94,9 +52,9 @@ export const Interactive = () => {
             <TableCell align="center">
               <Checkbox
                 color="primary"
-                onChange={handleSelectAllClick}
+                onChange={handleSelectAllClick({dataState, setSelected})}
                 checked={handleChecked(dataState)}
-                indeterminate={handleIndeterminate(dataState)}
+                indeterminate={handleIndeterminate({dataState})}
                 inputProps={{ "aria-label": "Checkbox header" }}
               />
             </TableCell>
@@ -109,7 +67,7 @@ export const Interactive = () => {
           {dataState.map((item) => (
             <TableRow
               key={item.id}
-              onClick={(event) => handleSelect(event, item)}
+              onClick={(event) => handleSelect({dataState, setSelected})(event, item)}
               selected={item.selected}>
               <TableCell align="center">
                 <Checkbox

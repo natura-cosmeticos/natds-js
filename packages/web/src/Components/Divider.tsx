@@ -6,7 +6,10 @@ export { DividerProps as IDividerProps } from "@material-ui/core/Divider";
 
 export const Divider: FunctionComponent<Omit<IDividerProps, "translate">> = forwardRef((
   props: Omit<IDividerProps, "translate">,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialDivider {...props} ref={ref} />);
+
+Divider.displayName = "Divider";
 
 export default withTheme(Divider);

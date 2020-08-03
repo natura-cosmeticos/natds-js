@@ -9,6 +9,22 @@ import SuccessIcon from "@material-ui/icons/CheckCircleOutline";
 
 import { getColorByState, getProp, stateStyles } from "./TextField/shared";
 
+const baseIcon = `
+  width: 16px!important;
+  height: 16px!important;
+  margin-right: 4px;
+`;
+const IconError = styled(ErrorIcon)`
+  ${baseIcon}
+`;
+const IconSuccess = styled(SuccessIcon)`
+  ${baseIcon}
+`;
+const stateIcons = {
+  error: IconError,
+  success: IconSuccess,
+};
+
 export interface IInputStateHelpTextProviderProps {
   id?: string;
   theme?: ITheme;
@@ -18,6 +34,7 @@ export interface IInputStateHelpTextProviderProps {
   disabled?: boolean;
   state: "error" | "success" | undefined;
   className?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   children?: any;
   readOnly?: boolean;
 }
@@ -65,18 +82,16 @@ const Container = styled.div`
   display: flex;
   flex-flow: column nowrap;
   font-family: ${getProp("typography", "fontFamily")};
-`,
-
-  Label = styled.label`
+`;
+const Label = styled.label`
   font-size: ${getProp("typography", "subtitle2", "fontSize")};
   font-weight: ${getProp("typography", "subtitle2", "fontWeight")};
   color: ${getColorByState(stateStyles.hover)};
   line-height: 1.2;
   padding: 0 0 ${tokens.spacing.spacingMicro}px;
   font-family: ${getProp("typography", "subtitle2", "fontFamily")};
-`,
-
-  HelpText = styled.span`
+`;
+const HelpText = styled.span`
   font-size: ${getProp("typography", "caption", "fontSize")};
   font-weight: ${getProp("typography", "caption", "fontWeight")};
   color: ${getColorByState(stateStyles.hover)};
@@ -85,23 +100,4 @@ const Container = styled.div`
   display: flex;
   align-items: center;
   font-family: ${getProp("typography", "subtitle2", "fontFamily")};
-`,
-
-  baseIcon = `
-  width: 16px!important;
-  height: 16px!important;
-  margin-right: 4px;
-`,
-
-  IconError = styled(ErrorIcon)`
-  ${baseIcon}
-`,
-
-  IconSuccess = styled(SuccessIcon)`
-  ${baseIcon}
-`,
-
-  stateIcons = {
-    error: IconError,
-    success: IconSuccess,
-  };
+`;

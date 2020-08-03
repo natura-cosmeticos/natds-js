@@ -11,6 +11,7 @@ export { ITableProps } from "./ITableProps";
 
 export const Table: FunctionComponent<ITableProps> = forwardRef((
   props: ITableProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
@@ -22,6 +23,7 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
   } = props;
 
   const rgbAlpha = 0.04;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
   /**
@@ -91,5 +93,7 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
 
   return <MaterialTable className={customClasses.root} {...rest} ref={ref}/>;
 });
+
+Table.displayName = "Table";
 
 export default withTheme(Table);

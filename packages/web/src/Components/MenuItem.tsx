@@ -6,6 +6,7 @@ export { MenuItemProps as IMenuItemProps } from "@material-ui/core/MenuItem";
 
 const MenuItem: FunctionComponent<IMenuItemProps> = forwardRef((
   props: IMenuItemProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const { button } = props;
@@ -18,5 +19,7 @@ const MenuItem: FunctionComponent<IMenuItemProps> = forwardRef((
     />
   );
 });
+
+MenuItem.displayName = "MenuItem";
 
 export default withTheme(MenuItem);

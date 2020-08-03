@@ -1,12 +1,11 @@
 import * as React from "react";
-import {
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableRow,
-} from "@naturacosmeticos/natds-web";
+import { Table } from "../Table";
+import { TableBody } from "../TableBody";
+import { TableCell } from "../TableCell";
+import { TableHead } from "../TableHead";
+import { TableRow } from "../TableRow";
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const TableWrapper = ({
   align,
   dividers,

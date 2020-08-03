@@ -1,18 +1,19 @@
 import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
 import { select, boolean, text } from "@storybook/addon-knobs";
 
-import ComponentWithLabel from '../../../.storybook/components/ComponentWithLabel';
-import withJest from "../../../.storybook/decorators/jest/jest";
-import withContainer from "../../../.storybook/decorators/container";
+import { ComponentWithLabel, getComponentParams, getDefaultDecorators } from "../../../.storybook";
 
-import { Fab } from '.';
-import { parameters } from './stories/parameters';
-import { colors, sizes, variants, disabled, leadingIcon } from './stories/sections';
+import { Fab } from ".";
+import { colors, sizes, variants, disabled, leadingIcon } from "./sections";
 
-import { themes } from '../../Themes';
-import { Provider } from '../../Provider';
+import { themes } from "../../Themes";
+import { Provider } from "../../Provider";
 
-<Meta component={Fab} decorators={[withJest(), withContainer]} parameters={parameters} title="Components|Fab" />
+<Meta
+    component={Fab}
+    decorators={getDefaultDecorators()}
+    parameters={getComponentParams(["Fab"])}
+    title="Components|Fab" />
 
 # Fab (Floating Action Button)
 

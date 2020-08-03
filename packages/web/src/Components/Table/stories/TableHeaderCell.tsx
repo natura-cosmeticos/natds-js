@@ -1,12 +1,11 @@
 import * as React from "react";
-import {
-  Checkbox,
-  Table,
-  TableCell,
-  TableHead,
-  TableRow,
-} from "@naturacosmeticos/natds-web";
+import Checkbox from "../../Checkbox";
+import Table from "../Table";
+import TableCell from "../TableCell";
+import TableHead from "../TableHead";
+import TableRow from "../TableRow";
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const TableHeaderCell = ({
   indeterminate,
 }:{

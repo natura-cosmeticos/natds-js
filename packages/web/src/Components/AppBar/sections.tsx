@@ -1,10 +1,14 @@
 import * as React from "react";
-import {
-  AppBar, Toolbar, IconButton, Typography, Button, Icon,
-} from "@naturacosmeticos/natds-web";
 import { makeStyles } from "@material-ui/core/styles";
+import AppBar from ".";
+import Toolbar from "../Toolbar";
+import IconButton from "../IconButton";
+import Typography from "../Typography";
+import Button from "../Button";
+import Icon from "../Icon";
 
 interface IAppBarWrapper {
+   // eslint-disable-next-line @typescript-eslint/no-explicit-any
    color: any;
    elevation?: number;
 }
@@ -15,10 +19,12 @@ const AppBarWrapper = (props: IAppBarWrapper) => {
   const useStyles = makeStyles((theme) => ({
     root: {
       flexGrow: 1,
-      width: "500px",
+      // eslint-disable-next-line no-magic-numbers
+      width: theme.spacing(64),
     },
     menuButton: {
-      marginRight: theme.spacing(2),
+      // eslint-disable-next-line no-magic-numbers
+      marginRight: theme.spacing(32),
     },
     title: {
       flexGrow: 1,

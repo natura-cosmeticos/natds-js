@@ -12,6 +12,7 @@ export interface IDrawerBodyProps {
 
 export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
   props: IDrawerBodyProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
@@ -20,8 +21,11 @@ export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
   const [
     scrolled, setScrolled,
   ] = useState(false);
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
   const SCROLL_POSITION_ZERO = 0;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleScrolled = (event: any) => setScrolled(event.target.scrollTop > SCROLL_POSITION_ZERO);
 
   return (
@@ -39,6 +43,8 @@ export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
     </DrawerBodyComponent>
   );
 });
+
+DrawerBody.displayName = "DrawerBody";
 
 export default withTheme(DrawerBody);
 

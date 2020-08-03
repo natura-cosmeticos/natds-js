@@ -6,25 +6,26 @@ import { IFabProps } from "./IFabProps";
 
 export { IFabProps } from "./IFabProps";
 
-export const colors: any = {
+export const colors: { secondary: string; light: string; primary: string } = {
   primary: "primary",
   secondary: "secondary",
   light: "light",
 };
 
-export const sizes: any = {
+export const sizes: { small: string; large: string; medium: string } = {
   small: "small",
   medium: "medium",
   large: "large",
 };
 
-export const variants: any = {
+export const variants: { round: string; extended: string } = {
   round: "round",
   extended: "extended",
 };
 
 export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
   props: IFabProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
@@ -37,6 +38,7 @@ export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
     theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
 
     colorMap = React.useMemo(() => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const { palette } = providerTheme as any;
 
       return {
@@ -77,5 +79,7 @@ export const Fab: React.FunctionComponent<IFabProps> = React.forwardRef((
     />
   );
 });
+
+Fab.displayName = "Fab";
 
 export default withTheme(Fab);

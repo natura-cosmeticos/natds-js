@@ -4,7 +4,20 @@ import { expect } from "chai";
 import { mount } from "enzyme";
 import Popover from "../Components/Popover";
 
-const directions: any = {
+const directions: {
+  "right-start": string;
+  "bottom-start": string;
+  top: string;
+  left: string;
+  bottom: string;
+  "left-start": string;
+  "top-start": string;
+  right: string;
+  "bottom-end": string;
+  "right-end": string;
+  "left-end": string;
+  "top-end": string
+} = {
   bottom: "bottom",
   "bottom-end": "bottom-end",
   "bottom-start": "bottom-start",
@@ -21,24 +34,30 @@ const directions: any = {
 
 describe("Popover component", () => {
 
-  /*
-   *Due to Material-UI not handling the anchorEl property correctly,
-   *this mock was created disabling the console.error unnecessary.
-   *For more information, follow
-   *https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Popper/Popper.js#L238
+  /**
+   * Due to Material-UI not handling the anchorEl property correctly,
+   * this mock was created disabling the console.error unnecessary.
+   *
+   * @see https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Popper/Popper.js#L238
    */
-
+  // eslint-disable-next-line no-console
   const originalConsoleError = console.error;
 
-  afterEach(() => console.error = originalConsoleError);
+  afterEach(() => {
+    // eslint-disable-next-line no-console
+    console.error = originalConsoleError;
+  });
 
-  const mockedConsoleError = () => {};
+  const mockedConsoleError = () => Function.prototype();
 
-  beforeEach(() => console.error = mockedConsoleError);
+  beforeEach(() => {
+    // eslint-disable-next-line no-console
+    console.error = mockedConsoleError;
+  });
 
   Object.keys(directions).forEach((direction: string) => {
     test(`should match snapshot - Any valid Popover with ${direction} direction`, () => {
-      const wrapper = mount(<Popover open direction={direction as any}>
+      const wrapper = mount(<Popover open direction={direction as keyof typeof directions}>
         content
       </Popover>);
 

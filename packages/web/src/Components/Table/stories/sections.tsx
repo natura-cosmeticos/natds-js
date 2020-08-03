@@ -1,9 +1,9 @@
 import * as React from "react";
 
-import { TableHeaderCell } from "./TableHeaderCell"
-import { TableWrapper } from "./TableWrapper"
-import { TableWithSelectWrapper } from "./TableWithSelectWrapper"
-import { HeaderWrapper } from "./HeaderWrapper"
+import { TableHeaderCell } from "./TableHeaderCell";
+import { TableWrapper } from "./TableWrapper";
+import { TableWithSelectWrapper } from "./TableWithSelectWrapper";
+import { HeaderWrapper } from "./HeaderWrapper";
 
 export const tableContainerVariant = [
   {

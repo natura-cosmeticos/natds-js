@@ -4,8 +4,10 @@ import * as renderer from "react-test-renderer";
 import { expect } from "chai";
 import { themes } from "@naturacosmeticos/natds-styles";
 import { Icon, Intro } from "..";
+import { ITypographyVariants } from "./types/ITypographyVariants";
+import { IColors } from "./types/IColors";
 
-const variants: any = {
+const variants: ITypographyVariants = {
   body1: "body1",
   body2: "body2",
   button: "button",
@@ -23,7 +25,7 @@ const variants: any = {
   subtitle2: "subtitle2",
 };
 
-const colors: any = {
+const colors: IColors = {
   error: "error",
   inherit: "inherit",
   initial: "initial",
@@ -61,13 +63,16 @@ describe("Intro component", () => {
 
   Object.keys(variants).forEach((variant: string) => {
     test(`should match snapshot - Any valid Intro with ${variant} titleVariant`, () => {
-      const component = renderer.create(<Intro titleVariant={variant as any} title="title" theme={theme} />).toJSON();
+      const component = renderer.create(<Intro titleVariant={variant as keyof typeof variants} title="title" theme={theme} />).toJSON();
 
       expect(component).matchSnapshot(`Intro snapshot - with ${variant} titleVariant`);
     });
 
     test(`should match snapshot - Any valid Intro with ${variant} detailVariant`, () => {
-      const component = renderer.create(<Intro detail="detail" detailVariant={variant as any} title="title" theme={theme} />).toJSON();
+      const component = renderer.create(<Intro detail="detail"
+        detailVariant={variant as keyof typeof variants}
+        title="title"
+        theme={theme} />).toJSON();
 
       expect(component).matchSnapshot(`Intro snapshot - with ${variant} detailVariant`);
     });
@@ -75,13 +80,13 @@ describe("Intro component", () => {
 
   Object.keys(colors).forEach((color: string) => {
     test(`should match snapshot - Any valid Intro with ${color} titleColor`, () => {
-      const component = renderer.create(<Intro titleColor={color as any} title="title" theme={theme} />).toJSON();
+      const component = renderer.create(<Intro titleColor={color as keyof typeof colors} title="title" theme={theme} />).toJSON();
 
       expect(component).matchSnapshot(`Intro snapshot - with ${color} titleColor`);
     });
 
     test(`should match snapshot - Any valid Intro with ${color} detailColor`, () => {
-      const component = renderer.create(<Intro detail="detail" detailColor={color as any} title="title" theme={theme} />).toJSON();
+      const component = renderer.create(<Intro detail="detail" detailColor={color as keyof typeof colors} title="title" theme={theme} />).toJSON();
 
       expect(component).matchSnapshot(`Intro snapshot - with ${color} detailColor`);
     });

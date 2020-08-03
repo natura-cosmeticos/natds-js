@@ -8,7 +8,10 @@ export { CardContentProps as ICardContentProps } from "@material-ui/core/CardCon
 
 const CardContent: FunctionComponent<ICardContentProps> = forwardRef((
   props: ICardContentProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialCardContent {...props} ref={ref} />);
+
+CardContent.displayName = "CardContent";
 
 export default withTheme(CardContent);

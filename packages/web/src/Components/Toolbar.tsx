@@ -6,7 +6,10 @@ export { ToolbarProps as IToolbarProps } from "@material-ui/core/Toolbar";
 
 export const Toolbar: FunctionComponent<IToolbarProps> = forwardRef((
   props: IToolbarProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialToolbar {...props} ref={ref} />);
+
+Toolbar.displayName = "Toolbar";
 
 export default withTheme(Toolbar);

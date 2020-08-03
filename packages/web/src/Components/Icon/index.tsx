@@ -12,10 +12,9 @@ export const Icon: FunctionComponent<IIconProps> = forwardRef((
     className: receivedClassName,
     name,
     size,
-    // eslint-disable-next-line @typescript-eslint/no-unused-vars
-    theme,
     ...props
   }: IIconProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
 
@@ -32,5 +31,7 @@ export const Icon: FunctionComponent<IIconProps> = forwardRef((
   return <i className={clsx(classNames)} ref={ref} {...props} />;
 
 });
+
+Icon.displayName = "Icon";
 
 export default withTheme(Icon);

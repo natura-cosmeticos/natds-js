@@ -33,12 +33,14 @@ export interface ISnackbarContentProps
 
 export const SnackbarContent: FunctionComponent<ISnackbarContentProps> = forwardRef((
   props: ISnackbarContentProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
       color = "default", theme: providerTheme, className, ...rest
     } = props,
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
 
     useStyles = React.useMemo(() => {
@@ -80,5 +82,7 @@ export const SnackbarContent: FunctionComponent<ISnackbarContentProps> = forward
     />
   );
 });
+
+SnackbarContent.displayName = "SnackbarContent";
 
 export default withTheme(SnackbarContent);

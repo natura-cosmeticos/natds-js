@@ -1,8 +1,8 @@
-import React from "react";
+import * as React from "react";
 import { shallow } from "enzyme";
 import { expect } from "chai";
 import { assert, spy } from "sinon";
-import renderer from "react-test-renderer";
+import * as renderer from "react-test-renderer";
 
 import Button from "../Components/Button";
 
@@ -51,8 +51,8 @@ describe("Button component", () => {
 
   describe("interaction", () => {
     test("should call onClick", () => {
-      const mockOnClick = spy(),
-        component = shallow(<Button onClick={mockOnClick} />);
+      const mockOnClick = spy();
+      const component = shallow(<Button onClick={mockOnClick} />);
 
       component.simulate("click");
 

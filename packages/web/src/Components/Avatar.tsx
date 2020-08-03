@@ -25,8 +25,56 @@ export interface IAvatarProps extends MaterialAvatarProps {
   theme: IThemeWeb | unknown;
 }
 
+const withSizes = (size: AvatarSizes | undefined,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  theme: any = {}) => {
+
+  if (!size) {
+    return {};
+  }
+
+  const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
+
+  if (!avatarSizes) {
+    return {};
+  }
+
+  const value = avatarSizes[size],
+    sizeInPx = `${value.size}px`;
+
+  return {
+    fontSize: value.fontSize,
+    height: sizeInPx,
+    width: sizeInPx,
+  };
+};
+
+const withColors = (color: AvatarColors | undefined,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  theme: any = {}) => {
+
+  if (!color) {
+    return {};
+  }
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const { palette = {} }: { palette: any } = theme,
+
+    selectedColor = palette[color];
+
+  if (!selectedColor || color === "default") {
+    return {};
+  }
+
+  return {
+    background: selectedColor.main,
+    color: selectedColor.contrastText,
+  };
+};
+
 export const Avatar: FunctionComponent<IAvatarProps> = forwardRef((
   props: IAvatarProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const style = {
@@ -38,46 +86,6 @@ export const Avatar: FunctionComponent<IAvatarProps> = forwardRef((
   return <MaterialAvatar {...props} style={style} ref={ref} />;
 });
 
-const withSizes = (size: AvatarSizes | undefined, theme: any = {}) => {
-
-    if (!size) {
-      return {};
-    }
-
-    const { avatarSizes }: { avatarSizes: IAvatarSizes } = theme;
-
-    if (!avatarSizes) {
-      return {};
-    }
-
-    const value = avatarSizes[size],
-      sizeInPx = `${value.size}px`;
-
-    return {
-      fontSize: value.fontSize,
-      height: sizeInPx,
-      width: sizeInPx,
-    };
-  },
-
-  withColors = (color: AvatarColors | undefined, theme: any = {}) => {
-
-    if (!color) {
-      return {};
-    }
-
-    const { palette = {} }: { palette: any } = theme,
-
-      selectedColor = palette[color];
-
-    if (!selectedColor || color === "default") {
-      return {};
-    }
-
-    return {
-      background: selectedColor.main,
-      color: selectedColor.contrastText,
-    };
-  };
+Avatar.displayName = "Avatar";
 
 export default withTheme(Avatar);

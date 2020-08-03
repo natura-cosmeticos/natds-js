@@ -1,12 +1,12 @@
 import * as React from "react";
 import { select } from "@storybook/addon-knobs";
 
+import { iconNames } from "@naturacosmeticos/natds-icons";
+import { tokens } from "@naturacosmeticos/natds-styles";
 import withJest from "../../../.storybook/decorators/jest/jest";
 import withContainer from "../../../.storybook/decorators/container";
 
-import { Icon } from "@naturacosmeticos/natds-web";
-import { iconNames } from "@naturacosmeticos/natds-icons";
-import { tokens } from "@naturacosmeticos/natds-styles";
+import Icon from "../Icon";
 import { parameters } from "./parameters";
 
 export default {
@@ -15,12 +15,15 @@ export default {
   decorators: [
     withJest(), withContainer,
   ],
-  parameters
+  parameters,
 };
 
-const icons: any = Object.keys(iconNames);
+const icons: string[] = Object.keys(iconNames);
+
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const sizes: any = Object.keys(tokens.iconSizes);
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const Interactive = () => <Icon
   name={select("icon name", icons, icons[0])}
   size={select("icon size", sizes, sizes[3])}

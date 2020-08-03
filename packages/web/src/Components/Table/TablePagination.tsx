@@ -8,9 +8,12 @@ export { TablePaginationProps as ITablePaginationProps } from "@material-ui/core
 
 export const TablePagination: FunctionComponent<ITablePaginationProps> = forwardRef((
   props: ITablePaginationProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => (
   <MaterialTablePagination {...props} ref={ref} />
 ));
+
+TablePagination.displayName = "TablePagination";
 
 export default withTheme(TablePagination);

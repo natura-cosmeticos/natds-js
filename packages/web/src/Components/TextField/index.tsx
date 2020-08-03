@@ -10,8 +10,12 @@ export type ITextFieldProps = TextFieldProps & IInputStateHelpTextProviderProps;
 
 type ITextFieldPropsWithoutTheme = Omit<ITextFieldProps, "theme">;
 
-export const TextField: FunctionComponent<ITextFieldPropsWithoutTheme> = forwardRef((props: ITextFieldProps, ref: any) => <InputStateHelpTextProvider {...props}>
+export const TextField: FunctionComponent<ITextFieldPropsWithoutTheme> = forwardRef((props: ITextFieldProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  ref: any) => <InputStateHelpTextProvider {...props}>
   <Field {...props} ref={ref} />
 </InputStateHelpTextProvider>);
+
+TextField.displayName = "TextField";
 
 export default withTheme(TextField);

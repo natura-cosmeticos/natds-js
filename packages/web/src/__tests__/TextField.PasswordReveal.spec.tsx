@@ -8,6 +8,7 @@ import { shallow } from "enzyme";
 import { themes } from "@naturacosmeticos/natds-styles";
 import PasswordReveal from "../Components/TextField/PasswordReveal";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const getProps = (props: any = {}) => {
   const {
     hidePasswordIcon = () => <i className="hide" />,
@@ -45,14 +46,14 @@ describe("TextField PasswordReveal component", () => {
 
   test("should render default showPasswordIcon", () => {
     const props = getProps({ showing: false });
-    const component = shallow(<PasswordReveal {...props} showPasswordIcon={undefined} hidePasswordIcon={undefined} />);
+    const component = shallow(<PasswordReveal {...props} showPasswordIcon={null} hidePasswordIcon={null} />);
 
     expect(component.html()).to.contain("svg");
   });
 
   test("should render default hidePasswordIcon", () => {
     const props = getProps({ showing: true });
-    const component = shallow(<PasswordReveal {...props} showPasswordIcon={undefined} hidePasswordIcon={undefined} />);
+    const component = shallow(<PasswordReveal {...props} showPasswordIcon={null} hidePasswordIcon={null} />);
 
     expect(component.html()).to.contain("svg");
   });

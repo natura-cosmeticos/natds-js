@@ -8,7 +8,10 @@ export { CardHeaderProps as ICardHeaderProps } from "@material-ui/core/CardHeade
 
 const CardHeader: FunctionComponent<ICardHeaderProps> = forwardRef((
   props: ICardHeaderProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialCardHeader {...props} ref={ref} />);
+
+CardHeader.displayName = "CardHeader";
 
 export default withTheme(CardHeader);

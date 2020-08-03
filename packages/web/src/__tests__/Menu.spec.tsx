@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { mount } from "enzyme";
 import { expect } from "chai";
 
@@ -9,7 +9,7 @@ const Component = () => {
       anchorEl, setAnchorEl,
     ] = React.useState(null),
 
-    handleClick = (event: any) => {
+    handleClick = (event: React.SyntheticEvent) => {
       setAnchorEl(event.currentTarget);
     };
 

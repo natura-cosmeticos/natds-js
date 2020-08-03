@@ -12,12 +12,14 @@ export interface IDrawerFooterProps {
 
 export const DrawerFooter: FunctionComponent<IDrawerFooterProps> = forwardRef((
   props: IDrawerFooterProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
-      children, component, theme: providerTheme, ...rest
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+    children, component, theme: providerTheme, ...rest
+  } = props;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
   return (
     <DrawerFooterComponent
@@ -29,6 +31,8 @@ export const DrawerFooter: FunctionComponent<IDrawerFooterProps> = forwardRef((
     </DrawerFooterComponent>
   );
 });
+
+DrawerFooter.displayName = "DrawerFooter";
 
 export default withTheme(DrawerFooter);
 

@@ -1,16 +1,15 @@
 import * as React from "react";
-import {
-  Checkbox,
-  Table,
-  TableBody,
-  TableCell,
-  TableHead,
-  TableRow,
-} from "@naturacosmeticos/natds-web";
 import Container from "@material-ui/core/Container";
+import { Checkbox } from "../../Checkbox";
+import { Table } from "../Table";
+import { TableBody } from "../TableBody";
+import { TableCell } from "../TableCell";
+import { TableHead } from "../TableHead";
+import { TableRow } from "../TableRow";
 import {ITableWithSelectWrapper} from "./ITableWithSelectWrapper";
 import {dataTable, IDataTable} from "./exampleDataTable";
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const TableWithSelectWrapper = ({
   align,
   dividers,
@@ -56,7 +55,9 @@ export const TableWithSelectWrapper = ({
   const handleIndeterminate = (data: IDataTable[]) => {
     const selectedRows = data.filter((item) => item.selected).length;
 
-    return selectedRows > 0 && selectedRows < data.length;
+    const NO_ROW_SELECTED = 0;
+
+    return selectedRows > NO_ROW_SELECTED && selectedRows < data.length;
   };
 
   // @todo: refactor(docs): extract duplicated code for handleIndeterminate and handleChecked
