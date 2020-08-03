@@ -12,4 +12,8 @@ export const spacing: ISpacing = {
   spacingSemi: sizes.semi,
   spacingLarge: sizes.medium,
   spacingHuge: sizes.large,
+  spacingHugeX: sizes.hugex,
+  spacingHugeXX: sizes.hugexx,
+  spacingHugeXXX: sizes.hugexxx,
+  spacingVeryHuge: sizes.veryhuge,
 };
