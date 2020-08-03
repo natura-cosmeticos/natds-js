@@ -1,4 +1,4 @@
-const prependVersionToArray = require("./prependVersionToArray");
+import prependVersionToArray from "./prependVersionToArray";
 
 describe("prependVersionToArray", () => {
   it("should prepend version correctly", () => {

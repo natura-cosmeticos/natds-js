@@ -1,4 +1,4 @@
-const uniqueArray = require("./uniqueArray");
+import uniqueArray from "./uniqueArray";
 
 describe("uniqueArray function", () => {
   it("should unique an array correctly", () => {
