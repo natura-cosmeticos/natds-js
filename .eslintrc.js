@@ -18,39 +18,11 @@ module.exports = {
     {
       files: "*.d.ts",
       rules: {
-        "init-declarations": ["off"],
+        "init-declarations": "off",
       },
     },
     {
       files: [
-        "**/jest.config.js",
-        "**/scripts/**/*.js",
-        "config/test/*.ts",
-      ],
-      rules: {
-        "@typescript-eslint/explicit-module-boundary-types": ["off"],
-        "@typescript-eslint/no-var-requires": ["off"],
-        "max-len": [
-          "off", 127,
-        ],
-        "max-lines": ["off"],
-        "no-console": ["off"],
-      },
-    },
-    {
-      files: [
-        "packages/docs/addons/ComponentWithLabel/index.tsx",
-        "packages/docs/src/components/Badge/Badge.story.tsx",
-        "packages/docs/src/components/BottomNavigation/Interactive.tsx",
-        "packages/docs/src/components/Buttons/ButtonGroup/ButtonGroup.story.tsx",
-        "packages/docs/src/components/Link/sections.tsx",
-        "packages/docs/src/components/List/Interactive.tsx",
-        "packages/docs/src/components/Popover/Popover.story.tsx",
-        "packages/docs/src/components/Popover/sections.tsx",
-        "packages/docs/src/components/Tab/Interactive.tsx",
-        "packages/docs/src/components/Tab/sections.tsx",
-        "packages/docs/src/icons/Icons.story.tsx",
-        "packages/docs/src/icons/index.tsx",
         "packages/styles/src/themes/theBodyShop/the-body-shop-dark.ts",
         "packages/styles/src/themes/theBodyShop/the-body-shop-light.ts",
         "packages/web/src/__tests__/index.spec.tsx",
@@ -66,14 +38,12 @@ module.exports = {
         "packages/web/src/Provider/index.tsx",
       ],
       rules: {
-        "@typescript-eslint/ban-ts-comment": ["off"],
+        "@typescript-eslint/ban-ts-comment": "off",
       },
     },
     {
       files: ["*.{spec,test}.{js,jsx,ts,tsx}"],
       rules: {
-        "@typescript-eslint/no-empty-function": ["off"],
-        "@typescript-eslint/no-explicit-any": ["off"],
         "max-len": [
           "error", 151,
         ],
@@ -89,67 +59,24 @@ module.exports = {
         "max-statements": [
           "error", 28,
         ],
-        "mocha/no-setup-in-describe": ["off"],
-        "no-console": ["off"],
-        "no-empty-function": ["off"],
-        "no-return-assign": ["off"],
-        "no-undefined": ["off"],
-        "sort-vars": ["off"],
       },
     },
     {
       files: ["packages/web/src/Components/**/*.{ts,tsx}"],
       rules: {
-        "@typescript-eslint/explicit-module-boundary-types": ["off"],
-        "@typescript-eslint/no-explicit-any": ["off"],
         "max-len": [
           "error", 179,
         ],
         "max-lines-per-function": [
           "error", 101,
         ],
-        "no-use-before-define": ["off"],
-        "react/display-name": ["off"],
       },
     },
     {
       files: ["packages/icons/src/natds-icons.css.d.ts"],
       rules: {
-        "max-lines": ["off"],
-        "newline-after-var": ["off"],
-      },
-    },
-    {
-      files: ["packages/docs/**/*.{js,jsx,ts,tsx}"],
-      rules: {
-        "@typescript-eslint/explicit-module-boundary-types": ["off"],
-        "@typescript-eslint/no-explicit-any": ["off"],
-        "@typescript-eslint/no-empty-function": ["off"],
-        "@typescript-eslint/no-unused-vars": ["off"],
-        complexity: ["error", 16],
-
-        /**
-         * @todo fix(docs): re-enable `global-require` and replace unexpected require() by a valid image reference
-         */
-        "global-require": ["off"],
-        "max-len": [
-          "error", 250,
-        ],
-        "max-lines": [
-          "error", 184,
-        ],
-        "max-lines-per-function": [
-          "error", 107,
-        ],
-        "no-empty-function": ["off"],
-        "no-magic-numbers": ["off"],
-        "no-undefined": ["off"],
-        "no-unused-vars": ["off"],
-        "no-use-before-define": ["off"],
-        "react/display-name": ["off"],
-        "react/no-children-prop": ["off"],
-        "react/prop-types": ["off"],
-        "require-jsdoc": ["off"],
+        "max-lines": "off",
+        "newline-after-var": "off",
       },
     },
   ],
@@ -248,6 +175,7 @@ module.exports = {
       "error", 12,
     ],
     "max-statements-per-line": "error",
+    "mocha/no-setup-in-describe": "off",
     "multiline-comment-style": "error",
     "multiline-ternary": "off",
     "new-cap": "error",
@@ -383,7 +311,7 @@ module.exports = {
     "require-atomic-updates": "error",
     "require-await": "error",
     "require-jsdoc": "error",
-    "require-unicode-regexp": ["off"],
+    "require-unicode-regexp": "off",
     "rest-spread-spacing": "error",
     semi: "error",
     "semi-spacing": "error",
@@ -414,8 +342,6 @@ module.exports = {
     "import/resolver": {
       node: {
         paths: [
-          "packages/docs/addons",
-          "packages/docs/src",
           "packages/icons/src",
           "packages/styles/src",
           "packages/web/src",
