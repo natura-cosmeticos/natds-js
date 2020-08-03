@@ -23,13 +23,13 @@ echo "STORYBOOK Creating temp directory for bundle..."
 mkdir -p ../tmp
 
 echo "STORYBOOK Opening docs package directory..."
-cd "${TRAVIS_BUILD_DIR}/packages/docs"
+cd "${TRAVIS_BUILD_DIR}/packages/web"
 
 echo "STORYBOOK Generating JSON report for Jest addon..."
-yarn lerna run test:packages
+yarn run test:output
 
 echo "STORYBOOK Building Storybook..."
-yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
+yarn storybook:build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
 
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"
@@ -60,9 +60,9 @@ else
   git checkout -b "${TRAVIS_BRANCH}-docs" main-docs
 fi
 
-echo "STORYBOOK Adding version ${VERSION} to versions JSON file"
-cd scripts
-node helpers/addVersionOnConfig.js "${VERSION}"
+echo "STORYBOOK [SKIPPED] Adding version ${VERSION} to versions JSON file"
+# cd scripts
+# node helpers/addVersionOnConfig.js "${VERSION}"
 
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"
