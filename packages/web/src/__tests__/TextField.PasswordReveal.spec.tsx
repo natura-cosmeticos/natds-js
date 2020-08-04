@@ -50,7 +50,7 @@ describe("TextField PasswordReveal component", () => {
   test("should render default showPasswordIcon", () => {
     const props = getProps({ showing: false });
     // eslint-disable-next-line no-undefined
-    const component = shallow(<PasswordReveal {...props} showPasswordIcon={undefined} hidePasswordIcon={null} />);
+    const component = shallow(<PasswordReveal {...props} showPasswordIcon={undefined} hidePasswordIcon={undefined} />);
 
     expect(component.html()).to.contain("svg");
   });
@@ -61,7 +61,7 @@ describe("TextField PasswordReveal component", () => {
   test("should render default hidePasswordIcon", () => {
     const props = getProps({ showing: true });
     // eslint-disable-next-line no-undefined
-    const component = shallow(<PasswordReveal {...props} showPasswordIcon={undefined} hidePasswordIcon={null} />);
+    const component = shallow(<PasswordReveal {...props} showPasswordIcon={undefined} hidePasswordIcon={undefined} />);
 
     expect(component.html()).to.contain("svg");
   });

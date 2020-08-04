@@ -3,7 +3,7 @@ import { expect } from "chai";
 import * as renderer from "react-test-renderer";
 
 import Badge from "../Components/Badge";
-import {IBadgeAnchors} from "./types/IBadgeAnchors";
+import {IBadgeAnchors} from "../Components/types/IBadgeAnchors";
 
 export const anchors: IBadgeAnchors = {
   topleft: {

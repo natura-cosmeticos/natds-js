@@ -15,7 +15,9 @@ export type TypographyVariant =
   | "body2"
   | "button"
   | "caption"
-  | "overline";
+  | "overline"
+  | "inherit"
+  | "srOnly";
 
 type TypographyAlign = "inherit" | "left" | "center" | "right" | "justify";
 

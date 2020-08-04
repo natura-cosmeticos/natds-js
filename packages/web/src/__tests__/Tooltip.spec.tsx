@@ -2,7 +2,7 @@ import * as React from "react";
 import * as renderer from "react-test-renderer";
 import { expect } from "chai";
 import Tooltip from "../Components/Tooltip";
-import {IPlacements} from "./types/IPlacements";
+import {IPlacements} from "../Components/types/IPlacements";
 
 const placements : IPlacements = {
   bottom: "bottom",
