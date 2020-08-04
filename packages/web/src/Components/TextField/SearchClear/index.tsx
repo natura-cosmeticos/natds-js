@@ -1,6 +1,4 @@
-import React, {
-  Dispatch, FunctionComponent, SetStateAction,
-} from "react";
+import * as React from "react";
 import styled from "styled-components";
 import ClearRounded from "@material-ui/icons/ClearRounded";
 
@@ -9,7 +7,8 @@ import {IThemeWeb} from "../../../Themes";
 
 export interface ISearchClear {
   theme: IThemeWeb | unknown;
-  onClearSearch: Dispatch<SetStateAction<string>>;
+  onClearSearch: React.Dispatch<React.SetStateAction<string>>;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   searchIcon?: any;
 }
 
@@ -24,8 +23,9 @@ const SearchIconStyles = `
   &, & > svg { fill: inherit!important; }
 `;
 
-export const SearchClear: FunctionComponent<ISearchClear> = (props: ISearchClear) => {
+export const SearchClear: React.FunctionComponent<ISearchClear> = (props: ISearchClear) => {
   const { theme, onClearSearch, searchIcon = ClearRounded } = props;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Component : any = styled(searchIcon)`${SearchIconStyles}`;
 
   return (
