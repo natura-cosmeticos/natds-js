@@ -1,11 +1,20 @@
 import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
 
-<Meta title="Contributing|Component folder structure" />
+<Meta title="Developer|Components" />
 
-# Component folder structure
+# Component anatomy
+
+## Folder structure
+
+### Component
 
 - `I{Component}Props.ts` (optional): interface with properties definition;
-- `index.story.tsx`: the Playground (Interactive) story;
-- `index.tsx`: exports main component (and related ones);
-- `sections.tsx`: variations for stories;
+- `index.tsx`: component production code;
+- `index.test.tsx`: component test code;
+
+### Stories & docs
+
 - `README.mdx`: documentation and non-interactive stories;
+- `index.story.tsx`: the interactive story (for Playground);
+- `stories.tsx`: all variations for stories;
+- `stories.test.tsx`: tests for all variations;
