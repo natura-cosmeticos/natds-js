@@ -1,8 +1,8 @@
-import { Meta, Story, Preview } from '@storybook/addon-docs/blocks';
+import { Meta } from '@storybook/addon-docs/blocks';
 
-import { docsAndTokensParams } from './.storybook/parameters/docsAndTokensParams'
+<Meta title="Documentation|Getting started" />
 
-<Meta parameters={{ ...docsAndTokensParams, theme: "web" }} title="Documentation|Getting started" />
+---
 
 # Natura Design System - React Web
 
@@ -33,10 +33,10 @@ Working with Yarn? Use the equivalent install command:
 $ yarn add @naturacosmeticos/natds-web
 ```
 
-Load the Roboto font:
+Load the Roboto font with `400` and `500` font weights:
 
 ```
-https://fonts.googleapis.com/css?family=Roboto:300,400,500,700&display=swap
+https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap
 ```
 
 This package does not provide Roboto font, only its font family names.
@@ -60,13 +60,13 @@ export const App = () => (
 )
 ```
 
-Please don't try to override theme palette or another tokens. Our Design System themes are ready to use.
+Please do not try to override theme palette or another tokens. Our Design System themes are ready to use.
 
 ---
 
 ## How to contribute
 
-To contribute, please check our [Contributing guidelines](./CONTRIBUTING.md).
+To contribute, please check our [Contributing guidelines](https://github.com/natura-cosmeticos/natds-js/blob/main/CONTRIBUTING.md).
 
 ---
 
