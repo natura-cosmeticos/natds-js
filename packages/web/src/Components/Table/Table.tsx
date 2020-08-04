@@ -87,7 +87,10 @@ export const Table: FunctionComponent<ITableProps> = forwardRef((
         },
       },
     },
-  }), [theme]);
+  }), [theme,
+    dividers,
+    rounded,
+    striped]);
 
   const customClasses = useStyles();
 
