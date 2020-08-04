@@ -11,6 +11,7 @@ module.exports = {
   extends: [
     "eslint:recommended",
     "plugin:react/recommended",
+    "plugin:react-hooks/recommended",
     "plugin:@typescript-eslint/recommended",
     "@naturacosmeticos/natura",
   ],
@@ -308,6 +309,8 @@ module.exports = {
       "error", "double",
     ],
     radix: "error",
+    "react-hooks/exhaustive-deps": "error",
+    "react-hooks/rules-of-hooks": "error",
     "require-atomic-updates": "error",
     "require-await": "error",
     "require-jsdoc": "error",
