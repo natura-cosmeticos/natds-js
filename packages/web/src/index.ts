@@ -24,6 +24,7 @@ export { default as CircularProgress, ICircularProgressProps } from "./Component
 export { default as Collapse, ICollapseProps } from "./Components/Collapse";
 export { default as Container, IContainerProps } from "./Components/Container";
 export { default as ContextualBadge, IContextualBadgeProps } from "./Components/ContextualBadge";
+export { default as CssBaseline, ICssBaselineProps } from "./Components/CssBaseline";
 export { default as Dialog, IDialogProps } from "./Components/Dialog";
 export { default as DialogActions, IDialogActionsProps } from "./Components/DialogActions";
 export { default as DialogContent, IDialogContentProps } from "./Components/DialogContent";
@@ -64,6 +65,7 @@ export { default as Paper, IPaperProps } from "./Components/Paper";
 export { default as PickersUtilProvider, IMuiPickersUtilsProviderProps } from "./Components/PickersUtilProvider";
 export { default as Popover, IPopoverProps } from "./Components/Popover";
 export { default as Radio, IRadioProps } from "./Components/Radio";
+export { default as ScopedCssBaseline, IScopedCssBaselineProps } from "./Components/ScopedCssBaseline";
 export { default as Skeleton, ISkeletonProps } from "./Components/Skeleton";
 export { default as Snackbar, ISnackbarProps } from "./Components/Snackbar";
 export { default as SnackbarContent, ISnackbarContentProps } from "./Components/SnackbarContent";
