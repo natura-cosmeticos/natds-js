@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.17.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.16.13...v0.17.0) (2020-08-05)
+
+
+### Features
+
+* **web:** add CssBaseline layout component ([a273f97](https://github.com/natura-cosmeticos/natds-js/commit/a273f9736f0bf635a34b7896fb2976b0a36636ed))
+* **web:** add ScopedCssBaseline layout component ([ddcc9e8](https://github.com/natura-cosmeticos/natds-js/commit/ddcc9e81c93d57174b665e61c46ccfb929436f47))
+* **web:** add Skeleton component ([4f307f5](https://github.com/natura-cosmeticos/natds-js/commit/4f307f5f19b57f38b8f17b2a61cf7953195ae667))
+* **web:** add support to named imports of CssBaseline and ScopedCssBaseline ([1dcad70](https://github.com/natura-cosmeticos/natds-js/commit/1dcad70b2cc4385ae5e0f3e94146664131762632))
+
+
+
+
+
 ## [0.16.11](https://github.com/natura-cosmeticos/natds-js/compare/v0.16.10...v0.16.11) (2020-08-03)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
