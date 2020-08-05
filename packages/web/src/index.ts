@@ -64,6 +64,7 @@ export { default as Paper, IPaperProps } from "./Components/Paper";
 export { default as PickersUtilProvider, IMuiPickersUtilsProviderProps } from "./Components/PickersUtilProvider";
 export { default as Popover, IPopoverProps } from "./Components/Popover";
 export { default as Radio, IRadioProps } from "./Components/Radio";
+export { default as Skeleton, ISkeletonProps } from "./Components/Skeleton";
 export { default as Snackbar, ISnackbarProps } from "./Components/Snackbar";
 export { default as SnackbarContent, ISnackbarContentProps } from "./Components/SnackbarContent";
 export { default as Switch, ISwitchProps } from "./Components/Switch";

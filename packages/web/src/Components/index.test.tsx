@@ -66,6 +66,7 @@ describe("Library", () => {
     "PickersUtilProvider",
     "Popover",
     "Radio",
+    "Skeleton",
     "Snackbar",
     "SnackbarContent",
     "Switch",
