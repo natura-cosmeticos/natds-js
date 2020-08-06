@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.17.1](https://github.com/natura-cosmeticos/natds/compare/v0.18.0-alpha.DSY-1098.4413.0...v0.17.1) (2020-08-06)
+
+
+### Reverts
+
+* Revert "chore(release): publish v0.18.0-alpha.DSY-1098.4413.0 via lerna [skip ci]" ([555dcb3](https://github.com/natura-cosmeticos/natds/commit/555dcb3b66996f6bbe384d737262963bac6fd2b8))
+
+
+
+
+
 # [0.17.0](https://github.com/natura-cosmeticos/natds/compare/v0.16.13...v0.17.0) (2020-08-05)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
