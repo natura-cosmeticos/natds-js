@@ -1,5 +1,5 @@
-import MaterialSkeleton from "@material-ui/lab/Skeleton";
+import * as MaterialSkeleton from "@material-ui/lab/Skeleton";
 
-export { SkeletonProps as ISkeletonProps } from "@material-ui/lab/Skeleton";
+export type ISkeletonProps = MaterialSkeleton.SkeletonProps;
 
-export default MaterialSkeleton;
+export default MaterialSkeleton.default;
