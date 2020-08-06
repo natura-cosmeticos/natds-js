@@ -81,7 +81,10 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
+
+# generate output
 /dist/
+packages/web/storybook-static/
 
 # Gatsby files
 .cache/
