@@ -37,7 +37,7 @@ export const ComponentWithLabel = (props: IComponentWithLabelProps) => {
     <React.Fragment>
       {headingText && headingText.length > 0 && <Typography color={"textPrimary"} component={"h3"} variant={"h6"}>{headingText}</Typography>}
       <ul className={classes["root"]}>
-        {componentList.map(BuildComponentItem({itemsPerRow}))}
+        {componentList && componentList.map(BuildComponentItem({itemsPerRow}))}
       </ul>
     </React.Fragment>
   );
