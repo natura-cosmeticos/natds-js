@@ -6,6 +6,7 @@ import IconButton from "../IconButton";
 import Typography from "../Typography";
 import Button from "../Button";
 import Icon from "../Icon";
+import {IStorySections} from "../types/IStorySections";
 
 interface IAppBarWrapper {
    // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -50,32 +51,32 @@ const AppBarWrapper = (props: IAppBarWrapper) => {
   );
 };
 
-export const colors = [
+export const colors : IStorySections = [
   {
-    title: "default",
     component: <AppBarWrapper color="default" />,
+    title: "default",
   },
   {
-    title: "inherit",
     component: <AppBarWrapper color="inherit" />,
+    title: "inherit",
   },
   {
-    title: "primary",
     component: <AppBarWrapper color="primary" />,
+    title: "primary",
   },
   {
-    title: "secondary",
     component: <AppBarWrapper color="secondary" />,
+    title: "secondary",
   },
 ];
 
 export const elevation = [
   {
-    title: "Default elevation",
     component: <AppBarWrapper color="primary" />,
+    title: "Default elevation",
   },
   {
-    title: "Elevation equals zero",
     component: <AppBarWrapper color="primary" elevation={0} />,
+    title: "Elevation equals zero",
   },
 ];
