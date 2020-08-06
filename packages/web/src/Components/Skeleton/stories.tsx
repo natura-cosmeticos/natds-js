@@ -12,7 +12,7 @@ export const variants: IStorySections = [
   },
   {
     component: <Skeleton variant={"circle"} height={tokens.sizes.semix} width={tokens.sizes.semix} />,
-    title: "Circle: semix size (40px)",
+    title: "Circle",
   },
   {
     component: <Skeleton variant={"rect"} height={tokens.sizes.hugex} width={tokens.sizes.veryhuge} />,
