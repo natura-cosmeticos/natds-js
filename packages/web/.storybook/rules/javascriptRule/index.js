@@ -1,5 +1,5 @@
-const scriptsRule = {
-  test: /\.(ts|js)x?$/,
+const javascriptRule = {
+  test: /\.(js)x?$/,
     exclude: /node_modules/,
   use: [
   {
@@ -14,4 +14,4 @@ const scriptsRule = {
 ]
 }
 
-module.exports = { scriptsRule }
+module.exports = { javascriptRule }
