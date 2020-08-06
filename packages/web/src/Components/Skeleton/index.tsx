@@ -1,5 +1,9 @@
 import * as MaterialSkeleton from "@material-ui/lab/Skeleton";
+import React from "react";
+import {ISkeletonProps} from "./ISkeletonProps";
 
-export type ISkeletonProps = MaterialSkeleton.SkeletonProps;
+export const Skeleton = (props: ISkeletonProps, ref: any) => <MaterialSkeleton.default {...props} ref={ref} />;
+const DefaultSkeleton = React.forwardRef<HTMLElement, ISkeletonProps>(Skeleton);
 
-export default MaterialSkeleton.default;
+DefaultSkeleton.displayName = "Skeleton";
+export default DefaultSkeleton;

@@ -1,7 +1,7 @@
 import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
 import { ComponentWithLabel, getComponentParams, getDefaultDecorators } from '../../../.storybook';
 
-import Skeleton from '.'
+import { Skeleton } from '.'
 import { animations, forAvatar, forTypography, variants } from './stories'
 
 <Meta component={Skeleton} parameters={getComponentParams(["Skeleton"])} title="Components|Skeleton" />
@@ -16,7 +16,13 @@ the screen. (Cf. [Avoid The Spinner](https://www.lukew.com/ff/entry.asp?1797))
 
 The component can be used *directly in your components*. For instance:
 
+## Import
+
 ```jsx
+import Skeleton from "@naturacosmeticos/natds-web/dist/Skeleton";
+// or
+import { Skeleton } from "@naturacosmeticos/natds-web";
+
 {item ? (
   <img alt={item.title} height= src={item.src} />
 ) : (
@@ -24,7 +30,13 @@ The component can be used *directly in your components*. For instance:
 )}
 ```
 
-## Variants
+## Props
+
+<Props of={Skeleton} />
+
+## Usage
+
+### Variants
 
 The component supports 3 shape variants.
 
@@ -145,16 +157,6 @@ Rather than showing an abstract widget, skeleton screens create anticipation of 
 ## Skeleton API
 
 The API documentation of the Skeleton component. Learn more about the props.
-
-### Import
-
-```jsx
-import Skeleton from "@naturacosmeticos/natds-web/dist/Skeleton";
-// or
-import { Skeleton } from "@naturacosmeticos/natds-web";
-```
-
-### Props
 
 The `ref` is forwarded to the root element.
 
