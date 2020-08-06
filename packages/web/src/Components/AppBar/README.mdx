@@ -2,9 +2,10 @@ import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
 import { colors, elevation } from './stories';
 import { ComponentWithLabel, getComponentParams, getDefaultDecorators } from '../../../.storybook';
 
-import { AppBar } from '.';
+import AppBar from '.';
+import Toolbar from '../Toolbar';
 
-<Meta component={AppBar} parameters={getComponentParams(["AppBar"])} title="Components|AppBar" />
+<Meta component={AppBar} parameters={getComponentParams(["AppBar"])} subcomponents={Toolbar} title="Components|AppBar" />
 
 # AppBar
 
@@ -12,9 +13,14 @@ import { AppBar } from '.';
 
 <Preview>
   <Story name="AppBar colors">
-    <ComponentWithLabel componentList={colors} headingText={"Colors"} />
+    {() => <div>
+      <AppBar color={"primary"} position={"static"}><Toolbar>Teste</Toolbar></AppBar>
+      <AppBar color={"secondary"} position={"static"}><Toolbar>Teste</Toolbar></AppBar>
+    </div>}
   </Story>
 </Preview>
+
+<Props of={AppBar} components={{AppBar, Toolbar}} />
 
 <Preview>
   <Story name="AppBar elevations">
