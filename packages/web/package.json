@@ -72,9 +72,9 @@
     "styled-components": "5.1.1"
   },
   "devDependencies": {
-    "@babel/core": "7.10.5",
+    "@babel/core": "7.11.1",
     "@babel/plugin-proposal-class-properties": "7.10.4",
-    "@babel/plugin-proposal-object-rest-spread": "7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.11.0",
     "@babel/preset-flow": "7.10.4",
     "@babel/preset-react": "7.10.4",
     "@babel/preset-typescript": "7.10.4",
@@ -90,7 +90,7 @@
     "@storybook/addon-knobs": "5.3.19",
     "@storybook/addon-storysource": "5.3.19",
     "@storybook/addon-viewport": "5.3.19",
-    "@storybook/addons": "^5.3.19",
+    "@storybook/addons": "5.3.19",
     "@storybook/react": "5.3.19",
     "@storybook/source-loader": "5.3.19",
     "@storybook/storybook-deployer": "2.8.6",
@@ -101,8 +101,8 @@
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
     "@types/fuzzy-search": "2.1.0",
-    "@types/jest": "26.0.8",
-    "@types/lodash": "4.14.158",
+    "@types/jest": "26.0.9",
+    "@types/lodash": "4.14.159",
     "@types/react-dom": "16.9.8",
     "@types/react-test-renderer": "16.9.3",
     "@types/react-text-mask": "5.4.6",
@@ -114,12 +114,12 @@
     "chai-enzyme": "1.0.0-beta.1",
     "chai-jest-snapshot": "2.0.0",
     "codecov": "3.7.2",
-    "css-loader": "3.6.0",
+    "css-loader": "4.2.1",
     "directory-tree": "2.2.4",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "enzyme-to-json": "3.5.0",
-    "eslint-plugin-react-hooks": "^4.0.8",
+    "eslint-plugin-react-hooks": "4.0.8",
     "file-loader": "6.0.0",
     "fuzzy-search": "3.2.1",
     "jest": "26.2.2",
@@ -157,7 +157,7 @@
     }
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": ">=10.13.0"
   },
   "publishConfig": {
     "access": "public"
