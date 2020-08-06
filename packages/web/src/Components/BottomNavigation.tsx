@@ -6,7 +6,10 @@ export { BottomNavigationProps as IBottomNavigationProps } from "@material-ui/co
 
 export const BottomNavigation: FunctionComponent<IBottomNavigationProps> = forwardRef((
   props: IBottomNavigationProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialBottomNavigation {...props} ref={ref} />);
+
+BottomNavigation.displayName = "BottomNavigation";
 
 export default withTheme(BottomNavigation);

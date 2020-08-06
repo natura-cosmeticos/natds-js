@@ -8,7 +8,10 @@ export { ListItemIconProps as IListItemIconProps } from "@material-ui/core/ListI
 
 export const ListItemIcon: FunctionComponent<IListItemIconProps> = forwardRef((
   props: IListItemIconProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialListItemIcon {...props} ref={ref} />);
+
+ListItemIcon.displayName = "ListItemIcon";
 
 export default withTheme(ListItemIcon);

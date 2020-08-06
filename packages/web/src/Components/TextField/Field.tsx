@@ -24,7 +24,9 @@ export const DATE = "date";
 /**
  * @todo refactor(web): refactor Field component
  */
-export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITextFieldProps, ref: any) => {
+export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITextFieldProps,
+  // eslint-disable-next-line
+  ref: any) => {
   const {
     className,
     disabled = false,
@@ -64,13 +66,14 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
     showSearchClear = type === SEARCH_TYPE && !icon,
     hasIcon = Boolean(showPasswordReveal) || Boolean(showSearchClear) || Boolean(icon),
 
-    handleChange = (event: any) => {
+    handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
       setValue(event.target.value);
       if (onChange) {
         onChange(event);
       }
     },
 
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
     clearSearch = (event: any) => {
       setValue("");
       if (onChange) {
@@ -120,6 +123,8 @@ export const Field: FunctionComponent<ITextFieldProps> = forwardRef((props: ITex
     </FieldContainer>
   );
 });
+
+Field.displayName = "Field";
 
 export default Field;
 

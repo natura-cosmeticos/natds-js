@@ -1,4 +1,4 @@
-const getUnicodeIconString = require("./getUnicodeIconString");
+import getUnicodeIconString from "./getUnicodeIconString";
 
 describe("Unicode icon string getter", () => {
   it("should...", () => {

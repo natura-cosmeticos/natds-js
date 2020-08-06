@@ -10,6 +10,7 @@ import { shallow } from "enzyme";
 import { themes } from "@naturacosmeticos/natds-styles";
 import TextField from "../Components/TextField";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const getProps = (props: any = {}) => {
 
   const {

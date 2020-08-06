@@ -1,0 +1,114 @@
+import { Meta } from '@storybook/addon-docs/blocks';
+
+<Meta title="Documentation|Getting started" />
+
+---
+
+# Natura Design System - React Web
+
+React components for web development inside Natura.
+
+[![lerna](https://img.shields.io/badge/maintained%20with-lerna-cc00ff.svg)](https://lerna.js.org/)
+[![semantic-release](https://img.shields.io/badge/%20%20%F0%9F%93%A6%F0%9F%9A%80-semantic--release-e10079.svg)](https://github.com/semantic-release/semantic-release)
+[![Travis Build Status](https://travis-ci.org/natura-cosmeticos/natds-js.svg?branch=main)](https://travis-ci.org/natura-cosmeticos/natds-js)
+[![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
+
+## How to install
+
+If your project is using `react` and `react-dom` version `16.8.4` or higher:
+
+### Using NPM
+
+Install source files via npm or [use a CDN](./docs/using-cdn.md). We take care of injecting the CSS needed.
+
+Please note that `react >= 16.8.4` and `react-dom >= 16.8.4` are peer dependencies.
+
+```shell script
+$ npm install @naturacosmeticos/natds-web
+```
+
+Working with Yarn? Use the equivalent install command:
+
+```shell script
+$ yarn add @naturacosmeticos/natds-web
+```
+
+Load the Roboto font with `400` and `500` font weights:
+
+```
+https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap
+```
+
+This package does not provide Roboto font, only its font family names.
+
+---
+
+## Usage
+
+This package only works fine with the use of `<Provider />`, that is **essential** for applying styles correctly.
+
+You must enclose all your application in a Provider component as follows:
+
+```jsx highlight-line="4"
+import React from 'react'
+import { Button, Provider, themes } from "@naturacosmeticos/natds-web";
+
+export const App = () => (
+    <Provider theme={themes.natura.light}>
+        <Button color={"primary"} variant={"contained"}>Button</Button>
+    </Provider>
+)
+```
+
+Please do not try to override theme palette or another tokens. Our Design System themes are ready to use.
+
+---
+
+## How to contribute
+
+To contribute, please check our [Contributing guidelines](https://github.com/natura-cosmeticos/natds-js/blob/main/CONTRIBUTING.md).
+
+---
+
+## Additional information
+
+### Requirements
+
+- We recommend at least LTS Node version (v8.0.0+);
+- If your project uses TypeScript, we need TypeScript 2.1 at least;
+
+If your project does not meet the minimum requirements, you can use [@naturacosmeticos/natds-styles](../styles/README.md).
+
+### Bundled in this package
+
+Installing `@naturacosmeticos/natds-web` will also install the following packages:
+
+- `@material-ui/core`
+- `@naturacosmeticos/natds-icons`
+- `@naturacosmeticos/natds-styles`
+- `styled-components`
+
+Thus, it is not necessary to install them to use the Design System.
+
+### Using a CDN
+
+**⚠️ This feature is experimental**.
+
+We provide a Universal Module Definition (UMD) file via `jsdelivr`:
+
+https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web
+
+```html
+<script
+    crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web">
+</script>
+```
+
+For more info and examples, check our [CDN documentation](./docs/using-cdn.md).
+
+---
+
+## Troubleshooting
+
+Having troubles? Please check our [Troubleshooting documentation](../../TROUBLESHOOTING.md).

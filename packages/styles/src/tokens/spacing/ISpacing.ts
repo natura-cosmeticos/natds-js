@@ -8,4 +8,8 @@ export interface ISpacing {
   spacingSemi: number;
   spacingLarge: number;
   spacingHuge: number;
+  spacingHugeX: number;
+  spacingHugeXX: number;
+  spacingHugeXXX: number;
+  spacingVeryHuge: number;
 }

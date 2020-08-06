@@ -429,6 +429,9 @@ Object {
   "spacing": Object {
     "spacing": 8,
     "spacingHuge": 64,
+    "spacingHugeX": 128,
+    "spacingHugeXX": 144,
+    "spacingHugeXXX": 192,
     "spacingLarge": 48,
     "spacingMicro": 4,
     "spacingNone": 0,
@@ -436,6 +439,7 @@ Object {
     "spacingSmall": 16,
     "spacingStandard": 24,
     "spacingTiny": 8,
+    "spacingVeryHuge": 256,
   },
 }
 `;

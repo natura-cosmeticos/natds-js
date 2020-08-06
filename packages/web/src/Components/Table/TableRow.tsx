@@ -13,6 +13,7 @@ export interface ITableRowProps extends MaterialTableRowProps {
 
 export const TableRow: FunctionComponent<ITableRowProps> = forwardRef((
   props: ITableRowProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
@@ -20,6 +21,7 @@ export const TableRow: FunctionComponent<ITableRowProps> = forwardRef((
   } = props;
 
   const rgbAlpha = 0.16;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
   const useStyles = React.useMemo(() => makeStyles({
     selected: {
@@ -37,5 +39,7 @@ export const TableRow: FunctionComponent<ITableRowProps> = forwardRef((
     <MaterialTableRow classes={{selected: customClasses.selected}} {...props} ref={ref} />
   );
 });
+
+TableRow.displayName = "TableRow";
 
 export default withTheme(TableRow);

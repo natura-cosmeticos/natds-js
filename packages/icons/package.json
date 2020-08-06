@@ -1,7 +1,7 @@
 {
   "name": "@naturacosmeticos/natds-icons",
   "displayName": "NatDS Icons",
-  "version": "0.17.0",
+  "version": "0.18.0-alpha.DSY-1098.4413.0",
   "private": false,
   "description": "A collection of icons for Natura Design System",
   "keywords": [
@@ -59,6 +59,7 @@
   },
   "config": {},
   "devDependencies": {
+    "@babel/preset-env": "7.11.0",
     "@rollup/plugin-json": "4.1.0",
     "@rollup/plugin-typescript": "5.0.2",
     "@rollup/plugin-url": "5.0.1",

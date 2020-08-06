@@ -1,6 +1,9 @@
 #!/usr/bin/env node
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const fs = require("fs");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const SVGO = require("svgo");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const glob = require("glob");
 
 const INPUT = "./src/assets/raw/**/*.svg";
@@ -51,7 +54,8 @@ const svgo = new SVGO({
 
 const onError = (err) => {
   if (err) {
-    console.log(err);
+    // eslint-disable-next-line no-console
+    console.error(err);
     throw err;
   }
 };
@@ -75,6 +79,7 @@ const onFileReady = (content, path) => {
 
 const readFiles = () => glob(INPUT, (readFilesError, filenames) => {
   if (readFilesError) {
+    // eslint-disable-next-line no-console
     console.error(readFilesError);
     throw readFilesError;
   }
@@ -83,6 +88,7 @@ const readFiles = () => glob(INPUT, (readFilesError, filenames) => {
     // eslint-disable-next-line no-shadow
     fs.readFile(filepath, "utf-8", (readFileError, content) => {
       if (readFileError) {
+        // eslint-disable-next-line no-console
         console.error(readFileError);
         throw readFileError;
       }

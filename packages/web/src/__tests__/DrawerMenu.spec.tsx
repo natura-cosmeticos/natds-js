@@ -99,8 +99,8 @@ describe("DrawerMenu component", () => {
           ...listItem,
           badge: "badge",
         },
-      ],
-      component = mount(<DrawerMenu list={list as [IDrawerMenuSectionProps]} />);
+      ];
+    const component = mount(<DrawerMenu list={list as [IDrawerMenuSectionProps]} />);
 
     expect(component).to.have.descendants(ContextualBadge);
     expect(component).to.not.have.descendants(DrawerMenuSection);
@@ -116,21 +116,21 @@ describe("DrawerMenu component", () => {
     INDEX_TWO = 2;
 
   test("should start with submenu opened", () => {
-    const listItem = listComplete[INDEX_TWO],
-      list = [
-        {
-          ...listItem,
-          opened: true,
-        },
-      ],
-      component = mount(<DrawerMenu list={list as unknown as [IDrawerMenuSectionProps]} />);
+    const listItem = listComplete[INDEX_TWO];
+    const list = [
+      {
+        ...listItem,
+        opened: true,
+      },
+    ];
+    const component = mount(<DrawerMenu list={list as unknown as [IDrawerMenuSectionProps]} />);
 
     expect(component.find(Collapse).prop("in")).to.equal(true);
   });
 
   test("should open submenu and call onToggle", () => {
-    const onToggle = spy(listComplete[INDEX_TWO], "onToggle"),
-      component = mount(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
+    const onToggle = spy(listComplete[INDEX_TWO], "onToggle");
+    const component = mount(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
 
     expect(component.find(Collapse).prop("in")).to.equal(false);
 
@@ -143,8 +143,8 @@ describe("DrawerMenu component", () => {
   });
 
   test("should select a item and call onSelect", () => {
-    const onSelect = spy(listComplete[INDEX_ONE], "onSelect"),
-      component = mount(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
+    const onSelect = spy(listComplete[INDEX_ONE], "onSelect");
+    const component = mount(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
 
     component.find("li").at(INDEX_ONE)
       .simulate("click");

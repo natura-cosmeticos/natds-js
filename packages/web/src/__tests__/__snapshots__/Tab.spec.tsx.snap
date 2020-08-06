@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Tab components rendering variants should match to snapshot - empty TabContainer: TabContainer empty snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(TabContainer)
   value={false}
 >
-  <ForwardRef
+  <TabContainer
     theme={
       Object {
         "breakpoints": Object {
@@ -1251,16 +1251,16 @@ exports[`Tab components rendering variants should match to snapshot - empty TabC
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </TabContainer>
+</WithTheme(TabContainer)>
 `;
 
 exports[`Tab components rendering variants should match to snapshot - with TabContainer centered : TabContainer indicatorColor centered snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(TabContainer)
   centered={true}
   value={false}
 >
-  <ForwardRef
+  <TabContainer
     centered={true}
     theme={
       Object {
@@ -2465,7 +2465,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               onKeyDown={[Function]}
               role="tablist"
             >
-              <WithTheme(ForwardRef)
+              <WithTheme(TabItem)
                 fullWidth={false}
                 indicator={false}
                 key=".0"
@@ -2474,7 +2474,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={0}
               >
-                <ForwardRef
+                <TabItem
                   fullWidth={false}
                   indicator={false}
                   label="Item One"
@@ -4337,9 +4337,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
-              <WithTheme(ForwardRef)
+                </TabItem>
+              </WithTheme(TabItem)>
+              <WithTheme(TabItem)
                 fullWidth={false}
                 indicator={false}
                 key=".1"
@@ -4348,7 +4348,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={1}
               >
-                <ForwardRef
+                <TabItem
                   fullWidth={false}
                   indicator={false}
                   label="Item Two"
@@ -6211,9 +6211,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
-              <WithTheme(ForwardRef)
+                </TabItem>
+              </WithTheme(TabItem)>
+              <WithTheme(TabItem)
                 fullWidth={false}
                 indicator={false}
                 key=".2"
@@ -6222,7 +6222,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={2}
               >
-                <ForwardRef
+                <TabItem
                   fullWidth={false}
                   indicator={false}
                   label="Item Three"
@@ -8085,8 +8085,8 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
+                </TabItem>
+              </WithTheme(TabItem)>
             </div>
             <WithStyles(ForwardRef(TabIndicator))
               className="MuiTabs-indicator"
@@ -8133,16 +8133,16 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </TabContainer>
+</WithTheme(TabContainer)>
 `;
 
 exports[`Tab components rendering variants should match to snapshot - with TabContainer indicatorColor applied: TabContainer indicatorColor applied snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(TabContainer)
   indicatorColor="secondary"
   value={false}
 >
-  <ForwardRef
+  <TabContainer
     indicatorColor="secondary"
     theme={
       Object {
@@ -9347,7 +9347,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               onKeyDown={[Function]}
               role="tablist"
             >
-              <WithTheme(ForwardRef)
+              <WithTheme(TabItem)
                 fullWidth={false}
                 indicator={false}
                 key=".0"
@@ -9356,7 +9356,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={0}
               >
-                <ForwardRef
+                <TabItem
                   fullWidth={false}
                   indicator={false}
                   label="Item One"
@@ -11219,9 +11219,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
-              <WithTheme(ForwardRef)
+                </TabItem>
+              </WithTheme(TabItem)>
+              <WithTheme(TabItem)
                 fullWidth={false}
                 indicator={false}
                 key=".1"
@@ -11230,7 +11230,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={1}
               >
-                <ForwardRef
+                <TabItem
                   fullWidth={false}
                   indicator={false}
                   label="Item Two"
@@ -13093,9 +13093,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
-              <WithTheme(ForwardRef)
+                </TabItem>
+              </WithTheme(TabItem)>
+              <WithTheme(TabItem)
                 fullWidth={false}
                 indicator={false}
                 key=".2"
@@ -13104,7 +13104,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="inherit"
                 value={2}
               >
-                <ForwardRef
+                <TabItem
                   fullWidth={false}
                   indicator={false}
                   label="Item Three"
@@ -14967,8 +14967,8 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
+                </TabItem>
+              </WithTheme(TabItem)>
             </div>
             <WithStyles(ForwardRef(TabIndicator))
               className="MuiTabs-indicator"
@@ -15015,16 +15015,16 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </TabContainer>
+</WithTheme(TabContainer)>
 `;
 
 exports[`Tab components rendering variants should match to snapshot - with TabContainer textColor applied: TabContainer textColor applied snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(TabContainer)
   textColor="secondary"
   value={false}
 >
-  <ForwardRef
+  <TabContainer
     textColor="secondary"
     theme={
       Object {
@@ -16229,7 +16229,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
               onKeyDown={[Function]}
               role="tablist"
             >
-              <WithTheme(ForwardRef)
+              <WithTheme(TabItem)
                 fullWidth={false}
                 indicator={false}
                 key=".0"
@@ -16238,7 +16238,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="secondary"
                 value={0}
               >
-                <ForwardRef
+                <TabItem
                   fullWidth={false}
                   indicator={false}
                   label="Item One"
@@ -18101,9 +18101,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
-              <WithTheme(ForwardRef)
+                </TabItem>
+              </WithTheme(TabItem)>
+              <WithTheme(TabItem)
                 fullWidth={false}
                 indicator={false}
                 key=".1"
@@ -18112,7 +18112,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="secondary"
                 value={1}
               >
-                <ForwardRef
+                <TabItem
                   fullWidth={false}
                   indicator={false}
                   label="Item Two"
@@ -19975,9 +19975,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
-              <WithTheme(ForwardRef)
+                </TabItem>
+              </WithTheme(TabItem)>
+              <WithTheme(TabItem)
                 fullWidth={false}
                 indicator={false}
                 key=".2"
@@ -19986,7 +19986,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                 textColor="secondary"
                 value={2}
               >
-                <ForwardRef
+                <TabItem
                   fullWidth={false}
                   indicator={false}
                   label="Item Three"
@@ -21849,8 +21849,8 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
+                </TabItem>
+              </WithTheme(TabItem)>
             </div>
             <WithStyles(ForwardRef(TabIndicator))
               className="MuiTabs-indicator"
@@ -21897,15 +21897,15 @@ exports[`Tab components rendering variants should match to snapshot - with TabCo
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </TabContainer>
+</WithTheme(TabContainer)>
 `;
 
 exports[`Tab components rendering variants should match to snapshot - with TabItem disabled : TabContainer indicatorColor disabled snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(TabContainer)
   value={false}
 >
-  <ForwardRef
+  <TabContainer
     theme={
       Object {
         "breakpoints": Object {
@@ -23107,7 +23107,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
               onKeyDown={[Function]}
               role="tablist"
             >
-              <WithTheme(ForwardRef)
+              <WithTheme(TabItem)
                 disabled={true}
                 fullWidth={false}
                 indicator={false}
@@ -23117,7 +23117,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                 textColor="inherit"
                 value={0}
               >
-                <ForwardRef
+                <TabItem
                   disabled={true}
                   fullWidth={false}
                   indicator={false}
@@ -24955,9 +24955,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
-              <WithTheme(ForwardRef)
+                </TabItem>
+              </WithTheme(TabItem)>
+              <WithTheme(TabItem)
                 disabled={true}
                 fullWidth={false}
                 indicator={false}
@@ -24967,7 +24967,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                 textColor="inherit"
                 value={1}
               >
-                <ForwardRef
+                <TabItem
                   disabled={true}
                   fullWidth={false}
                   indicator={false}
@@ -26805,9 +26805,9 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
-              <WithTheme(ForwardRef)
+                </TabItem>
+              </WithTheme(TabItem)>
+              <WithTheme(TabItem)
                 disabled={true}
                 fullWidth={false}
                 indicator={false}
@@ -26817,7 +26817,7 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                 textColor="inherit"
                 value={2}
               >
-                <ForwardRef
+                <TabItem
                   disabled={true}
                   fullWidth={false}
                   indicator={false}
@@ -28655,8 +28655,8 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(Tab)>
                   </WithStyles(ForwardRef(Tab))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
+                </TabItem>
+              </WithTheme(TabItem)>
             </div>
             <WithStyles(ForwardRef(TabIndicator))
               className="MuiTabs-indicator"
@@ -28703,6 +28703,6 @@ exports[`Tab components rendering variants should match to snapshot - with TabIt
         </div>
       </ForwardRef(Tabs)>
     </WithStyles(ForwardRef(Tabs))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </TabContainer>
+</WithTheme(TabContainer)>
 `;

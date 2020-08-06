@@ -1,4 +1,4 @@
-import React from "react";
+import * as React from "react";
 import { mount } from "enzyme";
 import { expect } from "chai";
 
@@ -6,12 +6,13 @@ import { Menu, MenuItem } from "..";
 
 const Component = () => {
   const [
-      anchorEl, setAnchorEl,
-    ] = React.useState(null),
+    anchorEl, setAnchorEl,
+  ] = React.useState(null);
 
-    handleClick = (event: any) => {
-      setAnchorEl(event.currentTarget);
-    };
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const handleClick = (event: any) => {
+    setAnchorEl(event.currentTarget);
+  };
 
   return (
     <>

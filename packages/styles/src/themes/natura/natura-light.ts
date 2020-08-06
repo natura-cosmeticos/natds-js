@@ -33,6 +33,7 @@ export const naturaLight: ITheme = {
   sizes,
   spacing: spacing.spacing,
   palette: {
+    type: "light",
     action: {
       disabled: hexToRgba(naturaLightColorTokens.colorOnPrimaryLight, 0.24),
     },

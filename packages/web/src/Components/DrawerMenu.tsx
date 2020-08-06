@@ -1,5 +1,6 @@
 /* eslint-disable max-lines */
 /* eslint-disable new-cap */
+/* eslint-disable no-use-before-define */
 import React, { FunctionComponent, forwardRef } from "react";
 import { makeStyles, withTheme } from "@material-ui/core";
 import styled from "styled-components";
@@ -49,13 +50,16 @@ export interface IDrawerMenuSectionProps extends IDrawerMenuItemProps {
 // @todo refactor(web): refactor DrawerMenu component
 export const DrawerMenu: FunctionComponent<IDrawerMenuProps> = forwardRef((
   props: IDrawerMenuProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
-      children, list, theme: providerTheme, component, ...rest
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
-    StyledList = React.useMemo(() => makeStyles({
+    children, list, theme: providerTheme, component, ...rest
+  } = props;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const StyledList = React.useMemo(() => makeStyles({
       padding: {
         marginBottom: theme.sizes.tiny,
         marginTop: theme.sizes.tiny,
@@ -76,15 +80,19 @@ export const DrawerMenu: FunctionComponent<IDrawerMenuProps> = forwardRef((
   );
 });
 
+DrawerMenu.displayName = "DrawerMenu";
+
 export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = forwardRef((
   props: IDrawerMenuSectionProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
-      onToggle, icon, name, list, theme: providerTheme,
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
-    [
+    onToggle, icon, name, list, theme: providerTheme,
+  } = props;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const [
       opened, toggleSubmenu,
     ] = React.useState(props.opened),
 
@@ -164,42 +172,46 @@ export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = for
   );
 });
 
+DrawerMenuSection.displayName = "DrawerMenuSection";
+
 export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = forwardRef((
   props: IDrawerMenuItemProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
-      onSelect, name, icon, selected, section, theme: providerTheme,
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
+    onSelect, name, icon, selected, section, theme: providerTheme,
+  } = props;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
-    StyledListItem = React.useMemo(() => makeStyles({
-      root: {
-        borderRadius: theme.shape.borderRadius,
-        cursor: "pointer",
-        padding: theme.sizes.tiny,
-        // eslint-disable-next-line sort-keys
-        "&:hover": {
-          backgroundColor: theme.palette.action.hover,
-        },
+  const StyledListItem = React.useMemo(() => makeStyles({
+    root: {
+      borderRadius: theme.shape.borderRadius,
+      cursor: "pointer",
+      padding: theme.sizes.tiny,
+      // eslint-disable-next-line sort-keys
+      "&:hover": {
+        backgroundColor: theme.palette.action.hover,
       },
-    }), [theme]),
+    },
+  }), [theme]);
 
-    StyledListSubheader = React.useMemo(() => makeStyles({
-      root: {
-        backgroundColor: `${theme.palette.background.paper}`,
-        borderTop: `${theme.palette.action.hover} 1px solid`,
-        margin: `${theme.sizes.small}px -${theme.sizes.tiny}px 0`,
-      },
-    }), [theme]),
+  const StyledListSubheader = React.useMemo(() => makeStyles({
+    root: {
+      backgroundColor: `${theme.palette.background.paper}`,
+      borderTop: `${theme.palette.action.hover} 1px solid`,
+      margin: `${theme.sizes.small}px -${theme.sizes.tiny}px 0`,
+    },
+  }), [theme]);
 
-    StyledListItemIcon = React.useMemo(() => makeStyles({
-      root: {
-        marginRight: theme.sizes.standard,
-        marginTop: 0,
-        minWidth: "auto",
-      },
-    }), [theme]);
+  const StyledListItemIcon = React.useMemo(() => makeStyles({
+    root: {
+      marginRight: theme.sizes.standard,
+      marginTop: 0,
+      minWidth: "auto",
+    },
+  }), [theme]);
 
   if (section) {
     const classesSubheader = StyledListSubheader(theme);
@@ -227,6 +239,8 @@ export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = forwardRe
     </ListItem>
   );
 });
+
+DrawerMenuItem.displayName = "DrawerMenuItem";
 
 const BuildDrawerMenuItems = (theme: IThemeWeb | unknown) => (props: IDrawerMenuSectionProps, key: number) => {
   if (props.list) {

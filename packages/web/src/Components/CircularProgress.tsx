@@ -6,7 +6,10 @@ export { CircularProgressProps as ICircularProgressProps } from "@material-ui/co
 
 export const CircularProgress: FunctionComponent<Omit<ICircularProgressProps, "translate">> = forwardRef((
   props: Omit<ICircularProgressProps, "translate">,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialCircularProgress {...props} ref={ref} />);
+
+CircularProgress.displayName = "CircularProgress";
 
 export default withTheme(CircularProgress);

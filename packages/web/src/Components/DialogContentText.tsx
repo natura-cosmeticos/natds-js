@@ -10,7 +10,10 @@ export {
 
 export const DialogContentText: FunctionComponent<IDialogContentTextProps> = forwardRef((
   props: IDialogContentTextProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialDialogContentText {...props} ref={ref} />);
+
+DialogContentText.displayName = "DialogContextText";
 
 export default withTheme(DialogContentText);

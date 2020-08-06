@@ -31,20 +31,22 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
 
 const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & React.RefAttributes<unknown>> = forwardRef((
   props: ILinkProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
-      color = "default",
-      theme: providerTheme,
-      style,
-    } = props,
+    color = "default",
+    theme: providerTheme,
+    style,
+  } = props;
 
-    defaultColor = color === "default",
-    validColor = defaultColor ? "inherit" : color,
+  const defaultColor = color === "default";
+  const validColor = defaultColor ? "inherit" : color;
 
-    theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
+  const theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
-    colorMap = React.useMemo(() => {
+  const colorMap = React.useMemo(() => {
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       const { palette } = theme as any;
 
       return {
@@ -59,6 +61,7 @@ const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & 
   return (
     <MaterialLink
       {...props}
+      // eslint-disable-next-line @typescript-eslint/no-explicit-any
       color={validColor as any}
       style={{
         ...colorStyle,

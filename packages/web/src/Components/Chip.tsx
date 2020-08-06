@@ -14,6 +14,7 @@ export interface IChipProps extends ChipProps {
 
 export const Chip: FunctionComponent<IChipProps> = forwardRef((
   props: IChipProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const { deleteIcon: providedDeletedIcon } = props,
@@ -25,5 +26,7 @@ export const Chip: FunctionComponent<IChipProps> = forwardRef((
     <MaterialChip {...props} deleteIcon={deleteIcon} ref={ref} />
   );
 });
+
+Chip.displayName = "Chip";
 
 export default withTheme(Chip);

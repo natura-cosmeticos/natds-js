@@ -32,6 +32,7 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, "translate" |
 
 export const ToggleButton: FunctionComponent<IToggleButtonProps> = forwardRef((
   props: IToggleButtonProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
@@ -39,8 +40,8 @@ export const ToggleButton: FunctionComponent<IToggleButtonProps> = forwardRef((
     } = props,
     [
       checkedState, onToggle,
-    ] = useState(checked),
-    icon: any = checkedState ? iconOn : iconOff;
+    ] = useState(checked);
+  const icon : React.ReactNode = checkedState ? iconOn : iconOff;
 
   useEffect(() => onToggle(checked), [checked]);
 
@@ -59,5 +60,7 @@ export const ToggleButton: FunctionComponent<IToggleButtonProps> = forwardRef((
     >{icon}</IconButton>
   );
 });
+
+ToggleButton.displayName = "ToggleButton";
 
 export default withTheme(ToggleButton);

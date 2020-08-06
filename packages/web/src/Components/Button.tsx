@@ -1,12 +1,16 @@
-import React, { FunctionComponent, forwardRef } from "react";
+import * as React from "react";
+import * as MaterialButton from "@material-ui/core/Button";
+
 import { withTheme } from "@material-ui/styles";
-import MaterialButton, { ButtonProps as IButtonProps } from "@material-ui/core/Button";
 
-export { ButtonProps as IButtonProps } from "@material-ui/core/Button";
+export type IButtonProps = MaterialButton.ButtonProps
 
-export const Button: FunctionComponent<Omit<IButtonProps, "translate">> = forwardRef((
+export const Button: React.FunctionComponent<Omit<IButtonProps, "translate">> = React.forwardRef((
   props: Omit<IButtonProps, "translate">,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
-) => <MaterialButton {...props} ref={ref} />);
+) => <MaterialButton.default {...props} ref={ref} />);
+
+Button.displayName = "Button";
 
 export default withTheme(Button);

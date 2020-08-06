@@ -8,7 +8,10 @@ export { ListItemTextProps as IListItemTextProps } from "@material-ui/core/ListI
 
 const ListItemText: FunctionComponent<IListItemTextProps> = forwardRef((
   props: IListItemTextProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialListItemText {...props} ref={ref} />);
+
+ListItemText.displayName = "ListItemText";
 
 export default withTheme(ListItemText);

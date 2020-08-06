@@ -1,26 +1,24 @@
-import React from "react";
-import renderer from "react-test-renderer";
+import * as React from "react";
+import * as renderer from "react-test-renderer";
 
 import { Fab, themes } from "..";
 import { Provider } from "../Provider";
 
 describe("Fab component", () => {
   describe("rendering", () => {
-    const colors = [
-        "primary",
-        "secondary",
-        "light",
-      ],
-
-      sizes = [
-        "large",
-        "medium",
-        "small",
-      ],
-
-      variants = [
-        "round", "extended",
-      ];
+    const colors: string[] = [
+      "primary",
+      "secondary",
+      "light",
+    ];
+    const sizes: string[] = [
+      "large",
+      "medium",
+      "small",
+    ];
+    const variants: string[] = [
+      "round", "extended",
+    ];
 
     test("it should render with no props", () => {
       const wrapper = renderer.create(<Fab>F</Fab>);
@@ -41,7 +39,7 @@ describe("Fab component", () => {
     });
 
     test("it should render all colors", () => {
-      colors.forEach((color: any) => {
+      colors.forEach((color: string) => {
         const wrapper = renderer.create(<Fab color={color}>F</Fab>);
 
         expect(wrapper.toJSON()).toMatchSnapshot(`Color ${color} Fab`);
@@ -49,7 +47,7 @@ describe("Fab component", () => {
     });
 
     test("it should render all sizes", () => {
-      sizes.forEach((size: any) => {
+      sizes.forEach((size: string) => {
         const wrapper = renderer.create(<Fab size={size}>F</Fab>);
 
         expect(wrapper.toJSON()).toMatchSnapshot(`Size ${size} Fab`);
@@ -57,7 +55,7 @@ describe("Fab component", () => {
     });
 
     test("it should render all variants", () => {
-      variants.forEach((variant: any) => {
+      variants.forEach((variant: string) => {
         const wrapper = renderer.create(<Fab variant={variant}>F</Fab>);
 
         expect(wrapper.toJSON()).toMatchSnapshot(`Size ${variant} Fab`);

@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Card components rendering variants should match to snapshot - empty card: Card empty snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(Card)>
+  <Card>
     <WithStyles(ForwardRef(Card))>
       <ForwardRef(Card)
         classes={
@@ -58,13 +58,13 @@ exports[`Card components rendering variants should match to snapshot - empty car
         </WithStyles(ForwardRef(Paper))>
       </ForwardRef(Card)>
     </WithStyles(ForwardRef(Card))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Card>
+</WithTheme(Card)>
 `;
 
 exports[`Card components rendering variants should match to snapshot - with action area: Card with action area snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(Card)>
+  <Card>
     <WithStyles(ForwardRef(Card))>
       <ForwardRef(Card)
         classes={
@@ -116,8 +116,8 @@ exports[`Card components rendering variants should match to snapshot - with acti
             <div
               className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
-              <WithTheme(ForwardRef)>
-                <ForwardRef>
+              <WithTheme(CardActionArea)>
+                <CardActionArea>
                   <WithStyles(ForwardRef(CardActionArea))>
                     <ForwardRef(CardActionArea)
                       classes={
@@ -197,20 +197,20 @@ exports[`Card components rendering variants should match to snapshot - with acti
                       </WithStyles(ForwardRef(ButtonBase))>
                     </ForwardRef(CardActionArea)>
                   </WithStyles(ForwardRef(CardActionArea))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
+                </CardActionArea>
+              </WithTheme(CardActionArea)>
             </div>
           </ForwardRef(Paper)>
         </WithStyles(ForwardRef(Paper))>
       </ForwardRef(Card)>
     </WithStyles(ForwardRef(Card))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Card>
+</WithTheme(Card)>
 `;
 
 exports[`Card components rendering variants should match to snapshot - with actions: Card with actions snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(Card)>
+  <Card>
     <WithStyles(ForwardRef(Card))>
       <ForwardRef(Card)
         classes={
@@ -262,8 +262,8 @@ exports[`Card components rendering variants should match to snapshot - with acti
             <div
               className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
-              <WithTheme(ForwardRef)>
-                <ForwardRef>
+              <WithTheme(CardActions)>
+                <CardActions>
                   <WithStyles(ForwardRef(CardActions))>
                     <ForwardRef(CardActions)
                       classes={
@@ -276,8 +276,8 @@ exports[`Card components rendering variants should match to snapshot - with acti
                       <div
                         className="MuiCardActions-root MuiCardActions-spacing"
                       >
-                        <WithTheme(ForwardRef)>
-                          <ForwardRef>
+                        <WithTheme(Button)>
+                          <Button>
                             <WithStyles(ForwardRef(Button))>
                               <ForwardRef(Button)
                                 classes={
@@ -392,25 +392,25 @@ exports[`Card components rendering variants should match to snapshot - with acti
                                 </WithStyles(ForwardRef(ButtonBase))>
                               </ForwardRef(Button)>
                             </WithStyles(ForwardRef(Button))>
-                          </ForwardRef>
-                        </WithTheme(ForwardRef)>
+                          </Button>
+                        </WithTheme(Button)>
                       </div>
                     </ForwardRef(CardActions)>
                   </WithStyles(ForwardRef(CardActions))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
+                </CardActions>
+              </WithTheme(CardActions)>
             </div>
           </ForwardRef(Paper)>
         </WithStyles(ForwardRef(Paper))>
       </ForwardRef(Card)>
     </WithStyles(ForwardRef(Card))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Card>
+</WithTheme(Card)>
 `;
 
 exports[`Card components rendering variants should match to snapshot - with collapse: Card with collapse snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(Card)>
+  <Card>
     <WithStyles(ForwardRef(Card))>
       <ForwardRef(Card)
         classes={
@@ -462,7 +462,7 @@ exports[`Card components rendering variants should match to snapshot - with coll
             <div
               className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
-              <ForwardRef
+              <Collapse
                 in={true}
                 timeout="auto"
                 unmountOnExit={true}
@@ -566,19 +566,19 @@ exports[`Card components rendering variants should match to snapshot - with coll
                     </Transition>
                   </ForwardRef(Collapse)>
                 </WithStyles(ForwardRef(Collapse))>
-              </ForwardRef>
+              </Collapse>
             </div>
           </ForwardRef(Paper)>
         </WithStyles(ForwardRef(Paper))>
       </ForwardRef(Card)>
     </WithStyles(ForwardRef(Card))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Card>
+</WithTheme(Card)>
 `;
 
 exports[`Card components rendering variants should match to snapshot - with content: Card with content snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(Card)>
+  <Card>
     <WithStyles(ForwardRef(Card))>
       <ForwardRef(Card)
         classes={
@@ -630,8 +630,8 @@ exports[`Card components rendering variants should match to snapshot - with cont
             <div
               className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
-              <WithTheme(ForwardRef)>
-                <ForwardRef>
+              <WithTheme(CardContent)>
+                <CardContent>
                   <WithStyles(ForwardRef(CardContent))>
                     <ForwardRef(CardContent)
                       classes={
@@ -690,20 +690,20 @@ exports[`Card components rendering variants should match to snapshot - with cont
                       </div>
                     </ForwardRef(CardContent)>
                   </WithStyles(ForwardRef(CardContent))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
+                </CardContent>
+              </WithTheme(CardContent)>
             </div>
           </ForwardRef(Paper)>
         </WithStyles(ForwardRef(Paper))>
       </ForwardRef(Card)>
     </WithStyles(ForwardRef(Card))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Card>
+</WithTheme(Card)>
 `;
 
 exports[`Card components rendering variants should match to snapshot - with header: Card with header snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(Card)>
+  <Card>
     <WithStyles(ForwardRef(Card))>
       <ForwardRef(Card)
         classes={
@@ -755,11 +755,11 @@ exports[`Card components rendering variants should match to snapshot - with head
             <div
               className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
-              <WithTheme(ForwardRef)
+              <WithTheme(CardHeader)
                 subheader="Header 2"
                 title="Header 1"
               >
-                <ForwardRef
+                <CardHeader
                   subheader="Header 2"
                   title="Header 1"
                 >
@@ -899,20 +899,20 @@ exports[`Card components rendering variants should match to snapshot - with head
                       </div>
                     </ForwardRef(CardHeader)>
                   </WithStyles(ForwardRef(CardHeader))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
+                </CardHeader>
+              </WithTheme(CardHeader)>
             </div>
           </ForwardRef(Paper)>
         </WithStyles(ForwardRef(Paper))>
       </ForwardRef(Card)>
     </WithStyles(ForwardRef(Card))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Card>
+</WithTheme(Card)>
 `;
 
 exports[`Card components rendering variants should match to snapshot - with media: Card with media snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(Card)>
+  <Card>
     <WithStyles(ForwardRef(Card))>
       <ForwardRef(Card)
         classes={
@@ -964,10 +964,10 @@ exports[`Card components rendering variants should match to snapshot - with medi
             <div
               className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
-              <WithTheme(ForwardRef)
+              <WithTheme(CardMedia)
                 title="media image"
               >
-                <ForwardRef
+                <CardMedia
                   title="media image"
                 >
                   <WithStyles(ForwardRef(CardMedia))
@@ -991,20 +991,20 @@ exports[`Card components rendering variants should match to snapshot - with medi
                       </div>
                     </ForwardRef(CardMedia)>
                   </WithStyles(ForwardRef(CardMedia))>
-                </ForwardRef>
-              </WithTheme(ForwardRef)>
+                </CardMedia>
+              </WithTheme(CardMedia)>
             </div>
           </ForwardRef(Paper)>
         </WithStyles(ForwardRef(Paper))>
       </ForwardRef(Card)>
     </WithStyles(ForwardRef(Card))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Card>
+</WithTheme(Card)>
 `;
 
 exports[`Card components rendering variants should match to snapshot - with paper: Card with paper snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(Card)>
+  <Card>
     <WithStyles(ForwardRef(Card))>
       <ForwardRef(Card)
         classes={
@@ -1056,7 +1056,7 @@ exports[`Card components rendering variants should match to snapshot - with pape
             <div
               className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
             >
-              <ForwardRef>
+              <Paper>
                 <WithStyles(ForwardRef(Paper))>
                   <ForwardRef(Paper)
                     classes={
@@ -1142,12 +1142,12 @@ exports[`Card components rendering variants should match to snapshot - with pape
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
-              </ForwardRef>
+              </Paper>
             </div>
           </ForwardRef(Paper)>
         </WithStyles(ForwardRef(Paper))>
       </ForwardRef(Card)>
     </WithStyles(ForwardRef(Card))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Card>
+</WithTheme(Card)>
 `;

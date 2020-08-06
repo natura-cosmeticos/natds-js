@@ -14,7 +14,10 @@ export {
 
 export const ExpansionPanel: FunctionComponent<IExpansionPanelProps> = forwardRef((
   props: IExpansionPanelProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialExpansionPanel {...props} ref={ref} />);
+
+ExpansionPanel.displayName = "ExpansionPanel";
 
 export default withTheme(ExpansionPanel);

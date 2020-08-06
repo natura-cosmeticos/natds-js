@@ -12,6 +12,7 @@ import SearchClear from "../Components/TextField/SearchClear";
 
 import Field, { FieldComponent } from "../Components/TextField/Field";
 
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 const getProps = (props: any = {}) => {
   const {
     disabled,

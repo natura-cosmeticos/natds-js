@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-web",
   "displayName": "NatDS React Web",
   "description": "A collection of components from Natura Design System for React websites and webapps",
-  "version": "0.17.0",
+  "version": "0.18.0-alpha.DSY-1098.4413.0",
   "private": false,
   "keywords": [
     "design-system",
@@ -15,15 +15,7 @@
     "url": "https://github.com/natura-cosmeticos/natds-js/issues"
   },
   "license": "ISC",
-  "author": "Natura Cosméticos <designsystem@natura.net>",
-  "contributors": [
-    "Daniel Castro <daniel.castro@vizir.com.br>",
-    "Jimmy Andrade <jimmy.andrade@thoughtworks.com>",
-    "Matheus Robert Lichtnow <matheus@vizir.com.br>",
-    "Vagner Saraiva <vagner@vizir.com.br>",
-    "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
-    "Vinícius Ponciano <vinicius.ponciano@thoughtworks.com>"
-  ],
+  "author": "Natura & Co. <designsystem@natura.net>",
   "files": [
     "README.md",
     "dist/"
@@ -53,6 +45,12 @@
     "rollup:build": "rollup -c",
     "snyk-protect": "snyk protect",
     "start": "yarn build -w",
+    "storybook:build": "build-storybook",
+    "storybook:build:local": "yarn storybook:build -o dist-docs",
+    "storybook:build:ci": "yarn storybook:build --ci --quiet",
+    "storybook:start": "start-storybook -p 5000",
+    "storybook:test": "build-storybook -o dist-test --quiet && rm -rf dist-test",
+    "storybook:watch": "yarn storybook:start",
     "test": "yarn testc",
     "testc": "jest --coverage",
     "test:ci": "yarn test && codecov",
@@ -66,23 +64,43 @@
     "@material-ui/icons": "4.9.1",
     "@material-ui/lab": "4.0.0-alpha.56",
     "@material-ui/pickers": "3.2.10",
-    "@naturacosmeticos/natds-icons": "^0.17.0",
-    "@naturacosmeticos/natds-styles": "^0.17.0",
+    "@naturacosmeticos/natds-icons": "^0.18.0-alpha.DSY-1098.4413.0",
+    "@naturacosmeticos/natds-styles": "^0.18.0-alpha.DSY-1098.4413.0",
     "clsx": "1.1.1",
     "lodash": "4.17.19",
     "react-text-mask": "5.4.3",
     "styled-components": "5.1.1"
   },
   "devDependencies": {
+    "@babel/core": "7.10.5",
+    "@babel/plugin-proposal-class-properties": "7.10.4",
+    "@babel/plugin-proposal-object-rest-spread": "7.10.4",
+    "@babel/preset-flow": "7.10.4",
+    "@babel/preset-react": "7.10.4",
+    "@babel/preset-typescript": "7.10.4",
     "@rollup/plugin-babel": "5.1.0",
     "@rollup/plugin-commonjs": "14.0.0",
     "@rollup/plugin-node-resolve": "8.4.0",
     "@rollup/plugin-typescript": "5.0.2",
+    "@storybook/addon-a11y": "5.3.19",
+    "@storybook/addon-actions": "5.3.19",
+    "@storybook/addon-backgrounds": "5.3.19",
+    "@storybook/addon-docs": "5.3.19",
+    "@storybook/addon-jest": "5.3.19",
+    "@storybook/addon-knobs": "5.3.19",
+    "@storybook/addon-storysource": "5.3.19",
+    "@storybook/addon-viewport": "5.3.19",
+    "@storybook/addons": "^5.3.19",
+    "@storybook/react": "5.3.19",
+    "@storybook/source-loader": "5.3.19",
+    "@storybook/storybook-deployer": "2.8.6",
+    "@storybook/theming": "5.3.19",
     "@types/chai": "4.2.12",
     "@types/chai-enzyme": "0.6.7",
     "@types/chai-jest-snapshot": "1.3.6",
     "@types/enzyme": "3.10.5",
     "@types/enzyme-adapter-react-16": "1.0.6",
+    "@types/fuzzy-search": "2.1.0",
     "@types/jest": "26.0.8",
     "@types/lodash": "4.14.158",
     "@types/react-dom": "16.9.8",
@@ -90,34 +108,51 @@
     "@types/react-text-mask": "5.4.6",
     "@types/sinon": "9.0.4",
     "@types/styled-components": "5.1.2",
+    "babel-loader": "8.1.0",
     "babel-plugin-dynamic-import-node": "2.3.3",
     "chai": "4.2.0",
     "chai-enzyme": "1.0.0-beta.1",
     "chai-jest-snapshot": "2.0.0",
     "codecov": "3.7.2",
+    "css-loader": "3.6.0",
+    "directory-tree": "2.2.4",
     "enzyme": "3.11.0",
     "enzyme-adapter-react-16": "1.15.2",
     "enzyme-to-json": "3.5.0",
+    "eslint-plugin-react-hooks": "^4.0.8",
+    "file-loader": "6.0.0",
+    "fuzzy-search": "3.2.1",
     "jest": "26.2.2",
     "jest-styled-components": "7.0.2",
     "prettier": "2.0.5",
     "react": "16.13.1",
+    "react-docgen-typescript": "1.20.1",
+    "react-docgen-typescript-loader": "3.7.2",
     "react-dom": "16.13.1",
     "rollup": "2.23.0",
     "rollup-plugin-node-polyfills": "0.2.1",
+    "sass-loader": "9.0.2",
     "sinon": "9.0.2",
     "snyk": "^1.341.1",
+    "style-loader": "1.2.1",
     "ts-jest": "26.1.4",
+    "ts-loader": "8.0.1",
+    "tsconfig-paths-webpack-plugin": "3.2.0",
     "typescript": "3.9.7",
+    "url-loader": "4.1.0",
     "yarn": "1.22.4"
   },
   "peerDependencies": {
     "@types/react": ">= 16.8.6",
+    "@types/react-dom": "16.9.8",
     "react": ">= 16.8.4",
     "react-dom": ">= 16.8.4"
   },
   "peerDependenciesMeta": {
     "@types/react": {
+      "optional": true
+    },
+    "@types/react-dom": {
       "optional": true
     }
   },
@@ -128,5 +163,10 @@
     "access": "public"
   },
   "snyk": true,
-  "gitHead": "53a7cf24e9ef90d76a994113606780df4fda0922"
+  "gitHead": "53a7cf24e9ef90d76a994113606780df4fda0922",
+  "storybook-deployer": {
+    "gitUsername": "Natura & Co.",
+    "gitEmail": "designsystem@natura.net",
+    "commitMessage": "docs(storybook): deploy storybook"
+  }
 }

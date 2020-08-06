@@ -8,7 +8,10 @@ export { CardActionAreaProps as ICardActionAreaProps } from "@material-ui/core/C
 
 const CardActionArea: FunctionComponent<ICardActionAreaProps> = forwardRef((
   props: ICardActionAreaProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialCardActionArea {...props} ref={ref} />);
+
+CardActionArea.displayName = "CardActionArea";
 
 export default withTheme(CardActionArea);

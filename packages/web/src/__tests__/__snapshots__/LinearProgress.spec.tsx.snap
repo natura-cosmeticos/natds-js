@@ -82,8 +82,8 @@ exports[`Circular Progress components rendering variants should match snapshot -
 `;
 
 exports[`Circular Progress components rendering variants should match to snapshot - empty LinearProgress: LinearProgress empty snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(LinearProgress)>
+  <LinearProgress>
     <WithStyles(ForwardRef(LinearProgress))>
       <ForwardRef(LinearProgress)
         classes={
@@ -124,6 +124,6 @@ exports[`Circular Progress components rendering variants should match to snapsho
         </div>
       </ForwardRef(LinearProgress)>
     </WithStyles(ForwardRef(LinearProgress))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </LinearProgress>
+</WithTheme(LinearProgress)>
 `;

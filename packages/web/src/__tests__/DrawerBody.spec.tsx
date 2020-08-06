@@ -23,7 +23,7 @@ describe("DrawerBody component", () => {
   test("should custom children prevail over the properties", () => {
     const children = <div className="custom">some custom children</div>,
       component = mount(<DrawerBody>{children}</DrawerBody>),
-      event: any = { target: { scrollTop: 10 } };
+      event: { target: { scrollTop: number } } = { target: { scrollTop: 10 } };
 
     component.find(DrawerBodyScrollComponent).simulate("scroll", event);
 

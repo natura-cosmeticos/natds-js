@@ -1,8 +1,8 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`List components rendering variants should match to snapshot - empty list: List empty snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(List)>
+  <List>
     <WithStyles(ForwardRef(List))>
       <ForwardRef(List)
         classes={
@@ -19,13 +19,13 @@ exports[`List components rendering variants should match to snapshot - empty lis
         />
       </ForwardRef(List)>
     </WithStyles(ForwardRef(List))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </List>
+</WithTheme(List)>
 `;
 
 exports[`List components rendering variants should match to snapshot - with ListItem button: List with ListItem button snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(List)>
+  <List>
     <WithStyles(ForwardRef(List))>
       <ForwardRef(List)
         classes={
@@ -134,13 +134,13 @@ exports[`List components rendering variants should match to snapshot - with List
         </ul>
       </ForwardRef(List)>
     </WithStyles(ForwardRef(List))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </List>
+</WithTheme(List)>
 `;
 
 exports[`List components rendering variants should match to snapshot - with ListItem: List with ListItem snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(List)>
+  <List>
     <WithStyles(ForwardRef(List))>
       <ForwardRef(List)
         classes={
@@ -184,13 +184,13 @@ exports[`List components rendering variants should match to snapshot - with List
         </ul>
       </ForwardRef(List)>
     </WithStyles(ForwardRef(List))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </List>
+</WithTheme(List)>
 `;
 
 exports[`List components rendering variants should match to snapshot - with ListItemAvatar: List with ListItemAvatar snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(List)>
+  <List>
     <WithStyles(ForwardRef(List))>
       <ForwardRef(List)
         classes={
@@ -243,11 +243,11 @@ exports[`List components rendering variants should match to snapshot - with List
                         <div
                           className="MuiListItemAvatar-root"
                         >
-                          <WithTheme(ForwardRef)
+                          <WithTheme(Avatar)
                             color="default"
                             size="small"
                           >
-                            <ForwardRef
+                            <Avatar
                               color="default"
                               size="small"
                             >
@@ -278,24 +278,24 @@ exports[`List components rendering variants should match to snapshot - with List
                                     size="small"
                                     style={Object {}}
                                   >
-                                    <WithTheme(ForwardRef)
+                                    <WithTheme(Icon)
                                       name="outlined-navigation-close"
                                       size="tiny"
                                     >
-                                      <ForwardRef
+                                      <Icon
                                         name="outlined-navigation-close"
                                         size="tiny"
                                       >
                                         <i
                                           className="natds-icons natds-icons-outlined-navigation-close makeStyles-root-1"
                                         />
-                                      </ForwardRef>
-                                    </WithTheme(ForwardRef)>
+                                      </Icon>
+                                    </WithTheme(Icon)>
                                   </div>
                                 </ForwardRef(Avatar)>
                               </WithStyles(ForwardRef(Avatar))>
-                            </ForwardRef>
-                          </WithTheme(ForwardRef)>
+                            </Avatar>
+                          </WithTheme(Avatar)>
                         </div>
                       </ForwardRef(ListItemAvatar)>
                     </WithStyles(ForwardRef(ListItemAvatar))>
@@ -307,13 +307,13 @@ exports[`List components rendering variants should match to snapshot - with List
         </ul>
       </ForwardRef(List)>
     </WithStyles(ForwardRef(List))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </List>
+</WithTheme(List)>
 `;
 
 exports[`List components rendering variants should match to snapshot - with ListItemIcon: List with ListItemIcon snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(List)>
+  <List>
     <WithStyles(ForwardRef(List))>
       <ForwardRef(List)
         classes={
@@ -350,10 +350,10 @@ exports[`List components rendering variants should match to snapshot - with List
                 className="MuiListItem-root MuiListItem-gutters"
                 disabled={false}
               >
-                <WithTheme(ForwardRef)
+                <WithTheme(ListItemIcon)
                   key=".0"
                 >
-                  <ForwardRef>
+                  <ListItemIcon>
                     <WithStyles(ForwardRef(ListItemIcon))>
                       <ForwardRef(ListItemIcon)
                         classes={
@@ -366,37 +366,37 @@ exports[`List components rendering variants should match to snapshot - with List
                         <div
                           className="MuiListItemIcon-root"
                         >
-                          <WithTheme(ForwardRef)
+                          <WithTheme(Icon)
                             name="outlined-navigation-close"
                             size="small"
                           >
-                            <ForwardRef
+                            <Icon
                               name="outlined-navigation-close"
                               size="small"
                             >
                               <i
                                 className="natds-icons natds-icons-outlined-navigation-close makeStyles-root-2"
                               />
-                            </ForwardRef>
-                          </WithTheme(ForwardRef)>
+                            </Icon>
+                          </WithTheme(Icon)>
                         </div>
                       </ForwardRef(ListItemIcon)>
                     </WithStyles(ForwardRef(ListItemIcon))>
-                  </ForwardRef>
-                </WithTheme(ForwardRef)>
+                  </ListItemIcon>
+                </WithTheme(ListItemIcon)>
               </li>
             </ForwardRef(ListItem)>
           </WithStyles(ForwardRef(ListItem))>
         </ul>
       </ForwardRef(List)>
     </WithStyles(ForwardRef(List))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </List>
+</WithTheme(List)>
 `;
 
 exports[`List components rendering variants should match to snapshot - with ListItemSecondaryAction: List with ListItemSecondaryAction snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(List)>
+  <List>
     <WithStyles(ForwardRef(List))>
       <ForwardRef(List)
         classes={
@@ -433,10 +433,10 @@ exports[`List components rendering variants should match to snapshot - with List
                 className="MuiListItem-root MuiListItem-gutters"
                 disabled={false}
               >
-                <WithTheme(ForwardRef)
+                <WithTheme(ListItemSecondaryAction)
                   key=".0"
                 >
-                  <ForwardRef>
+                  <ListItemSecondaryAction>
                     <WithStyles(ForwardRef(ListItemSecondaryAction))>
                       <ForwardRef(ListItemSecondaryAction)
                         classes={
@@ -448,11 +448,11 @@ exports[`List components rendering variants should match to snapshot - with List
                         <div
                           className="MuiListItemSecondaryAction-root"
                         >
-                          <WithTheme(ForwardRef)
+                          <WithTheme(IconButton)
                             aria-label="shopping"
                             edge="end"
                           >
-                            <ForwardRef
+                            <IconButton
                               aria-label="shopping"
                               edge="end"
                             >
@@ -519,19 +519,19 @@ exports[`List components rendering variants should match to snapshot - with List
                                         <span
                                           className="MuiIconButton-label"
                                         >
-                                          <WithTheme(ForwardRef)
+                                          <WithTheme(Icon)
                                             name="outlined-navigation-close"
                                             size="tiny"
                                           >
-                                            <ForwardRef
+                                            <Icon
                                               name="outlined-navigation-close"
                                               size="tiny"
                                             >
                                               <i
                                                 className="natds-icons natds-icons-outlined-navigation-close makeStyles-root-3"
                                               />
-                                            </ForwardRef>
-                                          </WithTheme(ForwardRef)>
+                                            </Icon>
+                                          </WithTheme(Icon)>
                                         </span>
                                         <WithStyles(memo)
                                           center={true}
@@ -566,26 +566,26 @@ exports[`List components rendering variants should match to snapshot - with List
                                   </WithStyles(ForwardRef(ButtonBase))>
                                 </ForwardRef(IconButton)>
                               </WithStyles(ForwardRef(IconButton))>
-                            </ForwardRef>
-                          </WithTheme(ForwardRef)>
+                            </IconButton>
+                          </WithTheme(IconButton)>
                         </div>
                       </ForwardRef(ListItemSecondaryAction)>
                     </WithStyles(ForwardRef(ListItemSecondaryAction))>
-                  </ForwardRef>
-                </WithTheme(ForwardRef)>
+                  </ListItemSecondaryAction>
+                </WithTheme(ListItemSecondaryAction)>
               </li>
             </ForwardRef(ListItem)>
           </WithStyles(ForwardRef(ListItem))>
         </ul>
       </ForwardRef(List)>
     </WithStyles(ForwardRef(List))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </List>
+</WithTheme(List)>
 `;
 
 exports[`List components rendering variants should match to snapshot - with ListItemText: List with ListItemText snapshot 1`] = `
-<WithTheme(ForwardRef)>
-  <ForwardRef>
+<WithTheme(List)>
+  <List>
     <WithStyles(ForwardRef(List))>
       <ForwardRef(List)
         classes={
@@ -622,11 +622,11 @@ exports[`List components rendering variants should match to snapshot - with List
                 className="MuiListItem-root MuiListItem-gutters"
                 disabled={false}
               >
-                <WithTheme(ForwardRef)
+                <WithTheme(ListItemText)
                   key=".0"
                   primary="Text only"
                 >
-                  <ForwardRef
+                  <ListItemText
                     primary="Text only"
                   >
                     <WithStyles(ForwardRef(ListItemText))
@@ -704,44 +704,44 @@ exports[`List components rendering variants should match to snapshot - with List
                         </div>
                       </ForwardRef(ListItemText)>
                     </WithStyles(ForwardRef(ListItemText))>
-                  </ForwardRef>
-                </WithTheme(ForwardRef)>
+                  </ListItemText>
+                </WithTheme(ListItemText)>
               </li>
             </ForwardRef(ListItem)>
           </WithStyles(ForwardRef(ListItem))>
         </ul>
       </ForwardRef(List)>
     </WithStyles(ForwardRef(List))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </List>
+</WithTheme(List)>
 `;
 
 exports[`List components rendering variants should match to snapshot - with ListSubheader: List with ListSubheader snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(List)
   subheader={
-    <WithTheme(ForwardRef)
+    <WithTheme(ListSubheader)
       id="subheader"
     >
       Subheader
-    </WithTheme(ForwardRef)>
+    </WithTheme(ListSubheader)>
   }
 >
-  <ForwardRef
+  <List
     subheader={
-      <WithTheme(ForwardRef)
+      <WithTheme(ListSubheader)
         id="subheader"
       >
         Subheader
-      </WithTheme(ForwardRef)>
+      </WithTheme(ListSubheader)>
     }
   >
     <WithStyles(ForwardRef(List))
       subheader={
-        <WithTheme(ForwardRef)
+        <WithTheme(ListSubheader)
           id="subheader"
         >
           Subheader
-        </WithTheme(ForwardRef)>
+        </WithTheme(ListSubheader)>
       }
     >
       <ForwardRef(List)
@@ -754,20 +754,20 @@ exports[`List components rendering variants should match to snapshot - with List
           }
         }
         subheader={
-          <WithTheme(ForwardRef)
+          <WithTheme(ListSubheader)
             id="subheader"
           >
             Subheader
-          </WithTheme(ForwardRef)>
+          </WithTheme(ListSubheader)>
         }
       >
         <ul
           className="MuiList-root MuiList-padding MuiList-subheader"
         >
-          <WithTheme(ForwardRef)
+          <WithTheme(ListSubheader)
             id="subheader"
           >
-            <ForwardRef
+            <ListSubheader
               id="subheader"
             >
               <WithStyles(ForwardRef(ListSubheader))
@@ -794,11 +794,11 @@ exports[`List components rendering variants should match to snapshot - with List
                   </li>
                 </ForwardRef(ListSubheader)>
               </WithStyles(ForwardRef(ListSubheader))>
-            </ForwardRef>
-          </WithTheme(ForwardRef)>
+            </ListSubheader>
+          </WithTheme(ListSubheader)>
         </ul>
       </ForwardRef(List)>
     </WithStyles(ForwardRef(List))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </List>
+</WithTheme(List)>
 `;

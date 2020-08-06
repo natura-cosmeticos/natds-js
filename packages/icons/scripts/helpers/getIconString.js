@@ -1,3 +1,4 @@
+// eslint-disable-next-line @typescript-eslint/no-var-requires
 const iconNameMapper = require("./iconNameMapper");
 
 const getIconString = (metadata) => {

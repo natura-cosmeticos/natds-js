@@ -15,7 +15,9 @@ export type TypographyVariant =
   | "body2"
   | "button"
   | "caption"
-  | "overline";
+  | "overline"
+  | "inherit"
+  | "srOnly";
 
 type TypographyAlign = "inherit" | "left" | "center" | "right" | "justify";
 
@@ -78,6 +80,7 @@ export interface ITypographyProps extends TypographyProps {
 
 export const Typography: FunctionComponent<ITypographyProps> = forwardRef((
   props: ITypographyProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
@@ -97,5 +100,7 @@ export const Typography: FunctionComponent<ITypographyProps> = forwardRef((
     </MaterialTypography>
   );
 });
+
+Typography.displayName = "Typography";
 
 export default withTheme(Typography);

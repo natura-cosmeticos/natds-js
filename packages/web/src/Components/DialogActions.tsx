@@ -10,7 +10,10 @@ export {
 
 export const DialogActions: FunctionComponent<IDialogActionsProps> = forwardRef((
   props: IDialogActionsProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => <MaterialDialogActions {...props} ref={ref} />);
+
+DialogActions.displayName = "DialogActions";
 
 export default withTheme(DialogActions);

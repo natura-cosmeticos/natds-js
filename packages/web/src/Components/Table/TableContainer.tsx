@@ -8,9 +8,12 @@ export { TableContainerProps as ITableContainerProps } from "@material-ui/core/T
 
 export const TableContainer: FunctionComponent<ITableContainerProps> = forwardRef((
   props: ITableContainerProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => (
   <MaterialTableContainer {...props} ref={ref} />
 ));
+
+TableContainer.displayName = "TableContainer";
 
 export default withTheme(TableContainer);

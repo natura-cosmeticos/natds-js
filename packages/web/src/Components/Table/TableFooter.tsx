@@ -8,9 +8,12 @@ export { TableFooterProps as ITableFooterProps } from "@material-ui/core/TableFo
 
 export const TableFooter: FunctionComponent<ITableFooterProps> = forwardRef((
   props: ITableFooterProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => (
   <MaterialTableFooter {...props} ref={ref} />
 ));
+
+TableFooter.displayName = "TableFooter";
 
 export default withTheme(TableFooter);

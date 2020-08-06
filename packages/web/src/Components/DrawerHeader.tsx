@@ -27,16 +27,19 @@ const buildContent = ({
 
 export const DrawerHeader: FunctionComponent<IDrawerHeaderProps> = forwardRef((
   props: IDrawerHeaderProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
-      children, component, theme: providerTheme, ...rest
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
-    content = children || buildContent({
-      ...props,
-      theme,
-    });
+    children, component, theme: providerTheme, ...rest
+  } = props;
+
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const content = children || buildContent({
+    ...props,
+    theme,
+  });
 
   return (
     <DrawerHeaderComponent
@@ -48,6 +51,8 @@ export const DrawerHeader: FunctionComponent<IDrawerHeaderProps> = forwardRef((
     </DrawerHeaderComponent>
   );
 });
+
+DrawerHeader.displayName = "DrawerHeader";
 
 export default withTheme(DrawerHeader);
 

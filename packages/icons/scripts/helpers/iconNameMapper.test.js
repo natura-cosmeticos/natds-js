@@ -1,4 +1,4 @@
-const iconNameMapper = require("./iconNameMapper");
+import iconNameMapper from "./iconNameMapper";
 
 describe("Icon name mapper", () => {
   it("should...", () => {

@@ -8,9 +8,12 @@ export { TableSortLabelProps as ITableSortLabelProps } from "@material-ui/core/T
 
 export const TableSortLabel: FunctionComponent<ITableSortLabelProps> = forwardRef((
   props: ITableSortLabelProps,
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => (
   <MaterialTableSortLabel {...props} ref={ref} />
 ));
+
+TableSortLabel.displayName = "TableSortLabel";
 
 export default withTheme(TableSortLabel);

@@ -44,15 +44,15 @@ describe("DrawerHeader component", () => {
   });
 
   test("should custom children prevail over the properties", () => {
-    const children = <div className="custom">some custom children</div>,
-      primary = "primary text",
-      secondary = "secondary text",
-      avatarText = "avatar text",
-      component = shallow(<DrawerHeader
-        avatarChildren={avatarText}
-        primary={primary}
-        secondary={secondary}
-      >{children}</DrawerHeader>);
+    const children = <div className="custom">some custom children</div>;
+    const primary = "primary text";
+    const secondary = "secondary text";
+    const avatarText = "avatar text";
+    const component = shallow(<DrawerHeader
+      avatarChildren={avatarText}
+      primary={primary}
+      secondary={secondary}
+    >{children}</DrawerHeader>);
 
     expect(component).to.not.have.descendants(Avatar);
     expect(component).to.not.have.descendants(Typography);

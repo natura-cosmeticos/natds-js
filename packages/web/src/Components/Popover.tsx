@@ -15,6 +15,7 @@ import Typography from "../Components/Typography";
 interface IActionLink extends Omit<ILinkProps, "theme"> {
   text: string;
   href?: string;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   onClick?: any;
 }
 
@@ -51,21 +52,23 @@ const getActionLink = (actionLink?: IActionLink) => {
 };
 
 // @todo refactor(web): refactor Popover component
+// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const Popover: FunctionComponent<IPopoverProps> = forwardRef((props: IPopoverProps, ref: any) => {
   const {
-      actionLink,
-      children,
-      component,
-      direction = "bottom",
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
-      modifiers,
-      theme: providerTheme,
-      ...rest
-    } = props,
-    theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]),
-    [
-      arrowRef, setArrowRef,
-    ] = React.useState<HTMLSpanElement | null>(null);
+    actionLink,
+    children,
+    component,
+    direction = "bottom",
+    // eslint-disable-next-line @typescript-eslint/no-unused-vars
+    modifiers,
+    theme: providerTheme,
+    ...rest
+  } = props;
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const [
+    arrowRef, setArrowRef,
+  ] = React.useState<HTMLSpanElement | null>(null);
 
   return (
     <StyledPopper
@@ -96,6 +99,8 @@ export const Popover: FunctionComponent<IPopoverProps> = forwardRef((props: IPop
     </StyledPopper>
   );
 });
+
+Popover.displayName = "Popover";
 
 export default withTheme(Popover);
 
