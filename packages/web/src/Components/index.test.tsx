@@ -1,4 +1,4 @@
-import * as library from "../index";
+import * as library from "..";
 
 const components = [
   "AlertTitle",
@@ -20,7 +20,9 @@ const components = [
   "Chip",
   "CircularProgress",
   "Collapse",
+  "Container",
   "ContextualBadge",
+  "CssBaseline",
   "Dialog",
   "DialogActions",
   "DialogContent",
@@ -61,6 +63,8 @@ const components = [
   "PickersUtilProvider",
   "Popover",
   "Radio",
+  "ScopedCssBaseline",
+  "Skeleton",
   "Snackbar",
   "SnackbarContent",
   "Switch",
@@ -77,7 +81,6 @@ describe("Library", () => {
   it("exports theme Provider", () => {
     expect(library.Provider).toBeDefined();
   });
-
   // @ts-ignore
   it.each(components)("exports %p component", (component) => {
     expect(library[component]).toBeDefined();

@@ -3,6 +3,94 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.17.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.16.13...v0.17.0) (2020-08-05)
+
+
+### Features
+
+* **web:** add CssBaseline layout component ([a273f97](https://github.com/natura-cosmeticos/natds-js/commit/a273f9736f0bf635a34b7896fb2976b0a36636ed))
+* **web:** add ScopedCssBaseline layout component ([ddcc9e8](https://github.com/natura-cosmeticos/natds-js/commit/ddcc9e81c93d57174b665e61c46ccfb929436f47))
+* **web:** add Skeleton component ([4f307f5](https://github.com/natura-cosmeticos/natds-js/commit/4f307f5f19b57f38b8f17b2a61cf7953195ae667))
+* **web:** add support to named imports of CssBaseline and ScopedCssBaseline ([1dcad70](https://github.com/natura-cosmeticos/natds-js/commit/1dcad70b2cc4385ae5e0f3e94146664131762632))
+
+
+
+
+
+## [0.16.11](https://github.com/natura-cosmeticos/natds-js/compare/v0.16.10...v0.16.11) (2020-08-03)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.16.6](https://github.com/natura-cosmeticos/natds-js/compare/v0.16.5...v0.16.6) (2020-07-31)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.16.3](https://github.com/natura-cosmeticos/natds-js/compare/v0.16.2...v0.16.3) (2020-07-31)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.16.2](https://github.com/natura-cosmeticos/natds-js/compare/v0.16.1...v0.16.2) (2020-07-31)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+# [0.16.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.15.6...v0.16.0) (2020-07-30)
+
+
+### Features
+
+* **web:** add Container component ([6d3fc72](https://github.com/natura-cosmeticos/natds-js/commit/6d3fc72c96679d0b3dce43de5bc50f0f40a1dbc6))
+* **web:** import Container when importing * from natds-web ([1428384](https://github.com/natura-cosmeticos/natds-js/commit/14283845cf02ffa80a4d8c982cde101c5d355cc5))
+
+
+### Performance Improvements
+
+* **web:** import Container without importing everything ([bccfe8b](https://github.com/natura-cosmeticos/natds-js/commit/bccfe8b62c295b035b932921f495c14c41f6d704))
+
+
+
+# [0.16.0-alpha.DSY-1279.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.15.4...v0.16.0-alpha.DSY-1279.0) (2020-07-30)
+
+
+### Features
+
+* **web:** add `Container` layout component ([b168758](https://github.com/natura-cosmeticos/natds-js/commit/b168758af09e6313dd816b658c2d3112626b55ff))
+
+
+
+
+
+## [0.15.6](https://github.com/natura-cosmeticos/natds-js/compare/v0.15.5...v0.15.6) (2020-07-30)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
+## [0.15.2](https://github.com/natura-cosmeticos/natds-js/compare/v0.15.1...v0.15.2) (2020-07-28)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-web
+
+
+
+
+
 # [0.15.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.14.0...v0.15.0) (2020-07-24)
 
 

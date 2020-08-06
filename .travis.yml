@@ -21,16 +21,16 @@ branches:
     - /v\d+\.\d+\.\d+-docs$/
 jobs:
   include:
-    - stage: sanity-check
+    - stage: confidence-check
       if: NOT (branch =~ /^DSY-(\d+)$/ OR branch = main)
-      name: "Sanity check"
+      name: "Confidence check"
       script: yarn test:ci
     - stage: pre-release
       name: "Pre-release"
       if: type = push AND branch =~ /^DSY-(\d+)$/
       before_script:
         - "sh ./scripts/configure-git.sh"
-        - "yarn lerna:prerelease:version:ci --preid alpha.$TRAVIS_BRANCH"
+        - "yarn lerna:prerelease:version:ci --preid alpha.$TRAVIS_BRANCH.$TRAVIS_BUILD_NUMBER"
       script: "yarn lerna:prerelease:publish:ci --pre-dist-tag $TRAVIS_BRANCH"
       after_script:
         - "chmod +x ./scripts/build-storybook.sh"
