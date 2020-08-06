@@ -4,6 +4,7 @@ import {makeStyles} from "@material-ui/core/styles";
 import clsx from "clsx";
 import { getComponentParams } from "../../../.storybook";
 import {colors, optionsElevation, positions} from ".";
+import Skeleton from "../../Components/Skeleton";
 
 const AppBar = React.lazy(() => import("."));
 const Button = React.lazy(() => import("../Button"));
@@ -53,7 +54,7 @@ export const Playground = () => {
   const prominentClasses = useProminentStyles();
 
   return (
-    <React.Suspense fallback={<progress>Loading...</progress>}>
+    <React.Suspense fallback={<Skeleton variant={"rect"} />}>
       <AppBar color={select("color", colors, colors.primary)}
         elevation={number("elevation", optionsElevation.value, optionsElevation)}
         position={select("position", positions, positions.static)}>
