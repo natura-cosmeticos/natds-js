@@ -1,3 +1,11 @@
+import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
+import { ComponentWithLabel, getComponentParams, getDefaultDecorators } from '../../../.storybook';
+
+import Skeleton from '.'
+import { animations, forAvatar, forTypography, variants } from './stories'
+
+<Meta component={Skeleton} parameters={getComponentParams(["Skeleton"])} title="Components|Skeleton" />
+
 # Skeleton
 
 Display a placeholder preview of your content before the data gets loaded to reduce load-time frustration.
@@ -20,11 +28,11 @@ The component can be used *directly in your components*. For instance:
 
 The component supports 3 shape variants.
 
+### Text
+
 <Preview>
   <Story name="Skeleton variants">
-    <Skeleton variant={"text"} />
-    <Skeleton variant={"circle"} height={40} width={40} />
-    <Skeleton variant={"rect"} height={118} width={210} />
+    <ComponentWithLabel componentList={variants} headingText={"Variants"} />
   </Story>
 </Preview>
 
@@ -46,10 +54,8 @@ export const Variants = () => (
 By default, the skeleton pulsate, but you can change the animation for a wave or disable it entirely.
 
 <Preview>
-  <Story name="Skeleton variants">
-    <Skeleton />
-    <Skeleton animation={false} />
-    <Skeleton animation="wave" />
+  <Story name="Skeleton animations">
+    <ComponentWithLabel componentList={animations} headingText={"Animations"} />
   </Story>
 </Preview>
 
@@ -73,10 +79,8 @@ In addition to accepting `height` and `width` props, the component can also infe
 It works well when it comes to typography as its height is set using `em` units.
 
 <Preview>
-  <Story name="Skeleton variants">
-    <Typography variant={"h1"}>
-      { loading ? <Skeleton /> : "h1" }
-    </Typography>
+  <Story name="Skeleton with Typography">
+    <ComponentWithLabel componentList={forTypography} headingText={"With Typography"} />
   </Story>
 </Preview>
 
@@ -103,8 +107,8 @@ However, when it comes to other components, you may not want to repeat the heigh
 In these instances, you can pass `children` and it will infer its width and height from them.
 
 <Preview>
-  <Story>
-    <Skeleton><Avatar /></Skeleton>
+  <Story name="Skeleton with Avatar">
+    <ComponentWithLabel componentList={forAvatar} header={"With Avatar"} />
   </Story>
 </Preview>
 

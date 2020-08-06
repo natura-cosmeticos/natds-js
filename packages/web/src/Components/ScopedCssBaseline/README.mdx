@@ -1,3 +1,10 @@
+import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
+import { ComponentWithLabel, getComponentParams, getDefaultDecorators } from '../../../.storybook';
+
+import ScopedCssBaseline from '.';
+
+<Meta component={ScopedCssBaseline} parameters={getComponentParams(["ScopedCssBaseline"])} title="Layout components|Scoped CSS Baseline" />
+
 # Scoped CssBaseline
 
 Sometimes, you might be progressively migrating a website to Natura Design System, and using a global reset might not be an option.
