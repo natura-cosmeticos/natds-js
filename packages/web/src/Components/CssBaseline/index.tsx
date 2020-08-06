@@ -1,5 +1,5 @@
-import MaterialCssBaseline from "@material-ui/core/CssBaseline";
+import * as MaterialCssBaseline from "@material-ui/core/CssBaseline";
 
-export { CssBaselineProps as ICssBaselineProps } from "@material-ui/core/CssBaseline";
+export type ICssBaselineProps = MaterialCssBaseline.CssBaselineProps;
 
-export default MaterialCssBaseline;
+export default MaterialCssBaseline.default;
