@@ -8,7 +8,7 @@ const webResources = "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|w
 
 module.exports = {
   ...base,
-  collectCoverageFrom: ["src/**/*.{js,jsx,ts,tsx}"],
+  collectCoverageFrom: ["src/**/*.{js,jsx,ts,tsx}", "!src/**/*.story.tsx"],
   displayName,
   globalSetup: "./global-setup.js",
   moduleNameMapper: {
