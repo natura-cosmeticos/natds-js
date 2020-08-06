@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.17.2](https://github.com/natura-cosmeticos/natds-js/compare/v0.17.1...v0.17.2) (2020-08-06)
+
+
+### Bug Fixes
+
+* **container:** prevent "export not found" error ([dcd83bb](https://github.com/natura-cosmeticos/natds-js/commit/dcd83bb29bee4ffc0676c42768f9862beda20315))
+* **cssbaseline:** prevent "export not found" error ([905d8b7](https://github.com/natura-cosmeticos/natds-js/commit/905d8b7283d6d22034ff5c0d8e879ec56d899727))
+* **scopedcssbaseline:** prevent "export not found" error ([913fd84](https://github.com/natura-cosmeticos/natds-js/commit/913fd845ffa319104354966f6c0442dea17e4b9e))
+* **skeleton:** prevent error "export 'Skeleton' was not found" ([e2249c3](https://github.com/natura-cosmeticos/natds-js/commit/e2249c3fff85c8b660bee2969fb3e880e6656848))
+* **storybook:** prevent error when story component list is empty ([44ea24e](https://github.com/natura-cosmeticos/natds-js/commit/44ea24e90a408d54c4bac58f7477c32e90154d25))
+
+
+
+
+
 ## [0.17.1](https://github.com/natura-cosmeticos/natds-js/compare/v0.18.0-alpha.DSY-1098.4413.0...v0.17.1) (2020-08-06)
 
 
