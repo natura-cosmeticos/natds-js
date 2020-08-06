@@ -1,10 +1,10 @@
 import * as React from "react";
 import PropTypes from "prop-types";
-import { Container as MaterialContainer } from "@material-ui/core";
+import createStyles from "@material-ui/core/styles/createStyles";
 import makeStyles from "@material-ui/core/styles/makeStyles";
-import {createStyles} from "@material-ui/core";
 import {tokens} from "@naturacosmeticos/natds-styles";
-import CssBaseline from "@material-ui/core/CssBaseline";
+import ScopedCssBaseline from "../../../src/Components/ScopedCssBaseline";
+import { Container as InnerContainer } from "../../../src/Components/Container";
 
 const useStyles = makeStyles(createStyles(() => ({
   root: {
@@ -17,12 +17,11 @@ const Container = ({children} : {children: NonNullable<React.ReactNode>}) => {
   const classes = useStyles();
 
   return (
-    <React.Fragment>
-      <CssBaseline />
-      <MaterialContainer className={classes["root"]} maxWidth={false}>
+    <ScopedCssBaseline>
+      <InnerContainer classes={classes} maxWidth={false}>
         {children}
-      </MaterialContainer>
-    </React.Fragment>
+      </InnerContainer>
+    </ScopedCssBaseline>
   );
 };
 
