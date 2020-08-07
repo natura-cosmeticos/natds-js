@@ -14,8 +14,16 @@ import Toolbar from '../Toolbar';
 <Preview>
   <Story name="AppBar colors">
     {() => <div>
-      <AppBar color={"primary"} position={"static"}><Toolbar>Teste</Toolbar></AppBar>
-      <AppBar color={"secondary"} position={"static"}><Toolbar>Teste</Toolbar></AppBar>
+      <AppBar color={"primary"} position={"static"}>
+        <Toolbar>
+          <Typography component={"h1"} variant={"h6"}>Primary color</Typography>
+        </Toolbar>
+      </AppBar>
+      <AppBar color={"secondary"} position={"static"}>
+        <Toolbar>
+          <Typography component={"h1"} variant={"h6"}>Secondary color</Typography>
+        </Toolbar>
+      </AppBar>
     </div>}
   </Story>
 </Preview>
