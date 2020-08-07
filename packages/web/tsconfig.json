@@ -26,11 +26,7 @@
     "sourceMap": true,
     "strict": true,
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es5",
-    "typeRoots": [
-      "node_modules/@types",
-      "node_modules/@types","./typings.d.ts"
-    ]
+    "target": "es5"
   },
   "files": [
     "src/index.ts"
