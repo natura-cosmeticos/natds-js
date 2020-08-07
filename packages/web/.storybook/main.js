@@ -9,8 +9,10 @@ module.exports = {
     // './storybook/addons/versions/register.js',
   ],
   stories: [
-    "../README.mdx",
+    "../src/README.mdx",
     "../src/Components/**/README.mdx",
-    "../src/Components/**/index.story.tsx"
+    "../src/Components/**/index.story.tsx",
+    "../src/Components/README.mdx",
+    "../docs/*.mdx"
   ]
 }
