@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.17.3](https://github.com/natura-cosmeticos/natds-js/compare/v0.17.2...v0.17.3) (2020-08-07)
+
+
+### Bug Fixes
+
+* **skeleton:** add missing ISkeletonProps export ([ca5dccf](https://github.com/natura-cosmeticos/natds-js/commit/ca5dccf07dcd157358d52a2ac38b790fda62b591))
+* **skeleton:** keep interface/props even with forwardRef ([5d66200](https://github.com/natura-cosmeticos/natds-js/commit/5d6620063d545031888b8a3197d4c33eaf0eb5f6))
+
+
+
+
+
 ## [0.17.2](https://github.com/natura-cosmeticos/natds-js/compare/v0.17.1...v0.17.2) (2020-08-06)
 
 
