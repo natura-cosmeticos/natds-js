@@ -2,7 +2,7 @@ import React, { FunctionComponent, forwardRef } from "react";
 import MaterialAvatar, { AvatarProps as MaterialAvatarProps } from "@material-ui/core/Avatar";
 import { withTheme } from "@material-ui/styles";
 import { IAvatarSizes } from "@naturacosmeticos/natds-styles";
-import { IThemeWeb } from "Themes";
+import { IThemeWeb } from "../Themes";
 
 export type AvatarSizes = keyof IAvatarSizes;
 export type AvatarColors = "primary" | "secondary" | "default" | string;
