@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.17.5](https://github.com/natura-cosmeticos/natds-js/compare/v0.17.4...v0.17.5) (2020-08-07)
+
+
+### Bug Fixes
+
+* **avatar:** fix IThemeWeb import ([e197acc](https://github.com/natura-cosmeticos/natds-js/commit/e197acc9182d71da3939d8f1e68335ad16400651))
+* **skeleton:** add missing "children" property ([4119965](https://github.com/natura-cosmeticos/natds-js/commit/4119965b46ab665a10438501a224846622dc94a2))
+* **storybook:** don't ignore typescript checking on storybook build ([9cd23a3](https://github.com/natura-cosmeticos/natds-js/commit/9cd23a34b8be2490f34af0386a9e3a8ee82486c8))
+
+
+
+
+
 ## [0.17.4](https://github.com/natura-cosmeticos/natds-js/compare/v0.17.3...v0.17.4) (2020-08-07)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
