@@ -3,7 +3,9 @@ import { colors, elevation } from './stories';
 import { ComponentWithLabel, getComponentParams, getDefaultDecorators } from '../../../.storybook';
 
 import AppBar from '.';
+import Divider from '../Divider';
 import Toolbar from '../Toolbar';
+import Typography from '../Typography';
 
 <Meta component={AppBar} parameters={getComponentParams(["AppBar"])} subcomponents={Toolbar} title="Components|AppBar" />
 
@@ -12,19 +14,42 @@ import Toolbar from '../Toolbar';
 ## Usage
 
 <Preview>
-  <Story name="AppBar colors">
-    {() => <div>
-      <AppBar color={"primary"} position={"static"}>
+  <Story name="AppBar primary color">
+    {() => <AppBar color={"primary"} position={"static"}>
         <Toolbar>
           <Typography component={"h1"} variant={"h6"}>Primary color</Typography>
         </Toolbar>
-      </AppBar>
-      <AppBar color={"secondary"} position={"static"}>
+      </AppBar>}
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="AppBar secondary color">
+    {() => <AppBar color={"secondary"} position={"static"}>
         <Toolbar>
           <Typography component={"h1"} variant={"h6"}>Secondary color</Typography>
         </Toolbar>
-      </AppBar>
-    </div>}
+      </AppBar>}
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="AppBar default color">
+    {() => <AppBar color={"default"} position={"static"}>
+        <Toolbar>
+          <Typography component={"h1"} variant={"h6"}>Default color</Typography>
+        </Toolbar>
+      </AppBar>}
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="AppBar inherit color">
+    {() => <AppBar color={"inherit"} position={"static"}>
+        <Toolbar>
+          <Typography component={"h1"} variant={"h6"}>Inherit color</Typography>
+        </Toolbar>
+      </AppBar>}
   </Story>
 </Preview>
 
