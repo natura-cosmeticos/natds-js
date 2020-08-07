@@ -5,7 +5,7 @@ const typescriptRule = {
       loader: require.resolve('ts-loader'),
       options: {
         configFile: require.resolve('../../tsconfig.json'),
-        transpileOnly: true,
+        transpileOnly: false,
       },
     },
     {
