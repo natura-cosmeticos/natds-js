@@ -24,7 +24,6 @@
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
-    "alex": "alex",
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
     "build:docs:prerelease": "yarn prebuild && bash scripts/build-storybook-release.sh",
@@ -46,8 +45,8 @@
     "lerna:release:publish:ci": "yarn lerna:release:publish --yes",
     "lerna:graduate:version": "lerna version --conventional-commits --conventional-graduate",
     "lerna:graduate:version:ci": "yarn lerna:graduate:version --force-publish --yes",
-    "lint": "yarn alex && yarn eslint .",
-    "lint:staged": "yarn alex && yarn eslint $(git diff --name-only --diff-filter=ACM \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" | sed 's| |\\\\ |g')",
+    "lint": "yarn eslint .",
+    "lint:staged": "yarn eslint $(git diff --name-only --diff-filter=ACM \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" | sed 's| |\\\\ |g')",
     "prebuild": "yarn lint",
     "prepare": "BUILD=production yarn test",
     "pretest": "yarn build:libs",
@@ -77,8 +76,8 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "9.1.1",
-    "@commitlint/config-conventional": "9.1.1",
+    "@commitlint/cli": "^9.1.2",
+    "@commitlint/config-conventional": "^9.1.2",
     "@naturacosmeticos/eslint-config-natura": "2.0.2",
     "@stryker-mutator/core": "3.3.1",
     "@stryker-mutator/javascript-mutator": "3.3.1",
@@ -96,16 +95,13 @@
     "jest": "26.3.0",
     "lerna": "3.22.1",
     "netlify": "4.3.11",
-    "shelljs": "0.8.4"
+    "shelljs": "0.8.4",
+    "typescript": "3.9.7"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
-  },
-  "dependencies": {
-    "alex": "8.2.0",
-    "glob": "7.1.6"
   },
   "husky": {
     "hooks": {
