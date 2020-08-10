@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.17.18](https://github.com/natura-cosmeticos/natds/compare/v0.17.17...v0.17.18) (2020-08-10)
+
+
+### Performance Improvements
+
+* avoid linting of ignored/generated files ([b63429c](https://github.com/natura-cosmeticos/natds/commit/b63429cbf258aa1ad0491c6224b54ebd199ee0f5))
+
+
+
+
+
 ## [0.17.17](https://github.com/natura-cosmeticos/natds/compare/v0.17.16...v0.17.17) (2020-08-10)
 
 **Note:** Version bump only for package natds
