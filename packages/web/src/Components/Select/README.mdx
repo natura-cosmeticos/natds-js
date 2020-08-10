@@ -1,0 +1,34 @@
+import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
+import { getComponentParams } from '../../../.storybook';
+
+import FormControl from "../FormControl";
+import InputLabel from "../InputLabel";
+import MenuItem from "../MenuItem";
+import Select from ".";
+
+<Meta component={Select} parameters={getComponentParams(["Select"])} subcomponents={MenuItem} title="Components|Select" />
+
+# Select
+
+You can use select components for collecting user provided information from a list of options.
+
+## Simple Select
+
+Select component positions menus over their emitting elements such that the currently selected menu item appears on top
+of the emitting element.
+
+<Preview>
+  <Story name="Select">
+        <FormControl>
+          <InputLabel id="demo-simple-select-label">Age</InputLabel>
+          <Select
+            labelId="demo-simple-select-label"
+            id="demo-simple-select"
+          >
+            <MenuItem value={10}>Ten</MenuItem>
+            <MenuItem value={20}>Twenty</MenuItem>
+            <MenuItem value={30}>Thirty</MenuItem>
+          </Select>
+        </FormControl>
+  </Story>
+</Preview>
