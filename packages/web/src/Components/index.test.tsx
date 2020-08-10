@@ -60,7 +60,6 @@ const components = [
   "MenuItem",
   "MenuList",
   "Paper",
-  "PickersUtilProvider",
   "Popover",
   "Radio",
   "ScopedCssBaseline",
