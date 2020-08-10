@@ -26,8 +26,6 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "build:docs:prerelease": "yarn prebuild && bash scripts/build-storybook-release.sh",
-    "build:libs": "yarn build --ignore @naturacosmeticos/natds-docs",
     "clean": "lerna clean",
     "cm": "git cz",
     "commit": "git cz",
@@ -49,7 +47,7 @@
     "lint:staged": "yarn eslint $(git diff --name-only --diff-filter=ACM \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" | sed 's| |\\\\ |g')",
     "prebuild": "yarn lint",
     "prepare": "BUILD=production yarn test",
-    "pretest": "yarn build:libs",
+    "pretest": "yarn build",
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "stryker:run": "stryker run",
@@ -107,7 +105,7 @@
     "hooks": {
       "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
       "pre-commit": "yarn format:staged",
-      "pre-push": "yarn lint && yarn test"
+      "pre-push": "yarn test"
     }
   }
 }
