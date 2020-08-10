@@ -1,10 +1,10 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`Dialog components rendering variants should match to snapshot - Opened: Dialog opened snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Dialog)
   open={true}
 >
-  <ForwardRef
+  <Dialog
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -88,12 +88,17 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -389,7 +394,7 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                         class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
-                        Lorem ipsum
+                        Dialog test children text
                       </div>
                     </div>
                     <div
@@ -487,7 +492,7 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                     </ForwardRef(Fade)>
                   </ForwardRef(Backdrop)>
                 </WithStyles(ForwardRef(Backdrop))>
-                <TrapFocus
+                <Unstable_TrapFocus
                   disableAutoFocus={false}
                   disableEnforceFocus={false}
                   disableRestoreFocus={false}
@@ -537,8 +542,8 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                     >
                       <div
                         className="MuiDialog-container MuiDialog-scrollPaper"
-                        onClick={[Function]}
                         onMouseDown={[Function]}
+                        onMouseUp={[Function]}
                         role="none presentation"
                         style={
                           Object {
@@ -594,7 +599,7 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                               className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
-                              Lorem ipsum
+                              Dialog test children text
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -605,22 +610,22 @@ exports[`Dialog components rendering variants should match to snapshot - Opened:
                     data-test="sentinelEnd"
                     tabIndex={0}
                   />
-                </TrapFocus>
+                </Unstable_TrapFocus>
               </div>
             </Portal>
           </ForwardRef(Portal)>
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Dialog>
+</WithTheme(Dialog)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with actions: Dialog with actions snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Dialog)
   open={true}
 >
-  <ForwardRef
+  <Dialog
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -704,12 +709,17 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -1006,7 +1016,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                         class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
-                        Lorem ipsum
+                        Dialog test children text
                       </div>
                     </div>
                     <div
@@ -1045,7 +1055,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                           <h2
                             class="MuiTypography-root MuiTypography-h6"
                           >
-                            Lorem ipsum
+                            Dialog title test text
                           </h2>
                         </div>
                       </div>
@@ -1083,7 +1093,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                         <div
                           class="MuiDialogContent-root"
                         >
-                          Lorem ipsum
+                          Dialog content test text
                         </div>
                       </div>
                     </div>
@@ -1123,7 +1133,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                           <p
                             class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary"
                           >
-                            Lorem ipsum
+                            Dialog content test text
                           </p>
                         </div>
                       </div>
@@ -1163,7 +1173,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                           <p
                             class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary"
                           >
-                            Lorem ipsum
+                            Dialog content test text
                           </p>
                         </div>
                         <div
@@ -1281,7 +1291,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                     </ForwardRef(Fade)>
                   </ForwardRef(Backdrop)>
                 </WithStyles(ForwardRef(Backdrop))>
-                <TrapFocus
+                <Unstable_TrapFocus
                   disableAutoFocus={false}
                   disableEnforceFocus={false}
                   disableRestoreFocus={false}
@@ -1331,8 +1341,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                     >
                       <div
                         className="MuiDialog-container MuiDialog-scrollPaper"
-                        onClick={[Function]}
                         onMouseDown={[Function]}
+                        onMouseUp={[Function]}
                         role="none presentation"
                         style={
                           Object {
@@ -1388,8 +1398,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                               className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(ForwardRef)>
-                                <ForwardRef>
+                              <WithTheme(DialogContent)>
+                                <DialogContent>
                                   <WithStyles(ForwardRef(DialogContent))>
                                     <ForwardRef(DialogContent)
                                       classes={
@@ -1402,8 +1412,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                       <div
                                         className="MuiDialogContent-root"
                                       >
-                                        <WithTheme(ForwardRef)>
-                                          <ForwardRef>
+                                        <WithTheme(DialogContextText)>
+                                          <DialogContextText>
                                             <WithStyles(ForwardRef(DialogContentText))>
                                               <ForwardRef(DialogContentText)
                                                 classes={
@@ -1464,21 +1474,21 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                                     <p
                                                       className="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary"
                                                     >
-                                                      Lorem ipsum
+                                                      Dialog content test text
                                                     </p>
                                                   </ForwardRef(Typography)>
                                                 </WithStyles(ForwardRef(Typography))>
                                               </ForwardRef(DialogContentText)>
                                             </WithStyles(ForwardRef(DialogContentText))>
-                                          </ForwardRef>
-                                        </WithTheme(ForwardRef)>
+                                          </DialogContextText>
+                                        </WithTheme(DialogContextText)>
                                       </div>
                                     </ForwardRef(DialogContent)>
                                   </WithStyles(ForwardRef(DialogContent))>
-                                </ForwardRef>
-                              </WithTheme(ForwardRef)>
-                              <WithTheme(ForwardRef)>
-                                <ForwardRef>
+                                </DialogContent>
+                              </WithTheme(DialogContent)>
+                              <WithTheme(DialogActions)>
+                                <DialogActions>
                                   <WithStyles(ForwardRef(DialogActions))>
                                     <ForwardRef(DialogActions)
                                       classes={
@@ -1491,8 +1501,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                       <div
                                         className="MuiDialogActions-root MuiDialogActions-spacing"
                                       >
-                                        <WithTheme(ForwardRef)>
-                                          <ForwardRef>
+                                        <WithTheme(Button)>
+                                          <Button>
                                             <WithStyles(ForwardRef(Button))>
                                               <ForwardRef(Button)
                                                 classes={
@@ -1574,48 +1584,46 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                                                       >
                                                         Action
                                                       </span>
-                                                      <NoSsr>
-                                                        <WithStyles(memo)
+                                                      <WithStyles(memo)
+                                                        center={false}
+                                                      >
+                                                        <ForwardRef(TouchRipple)
                                                           center={false}
-                                                        >
-                                                          <ForwardRef(TouchRipple)
-                                                            center={false}
-                                                            classes={
-                                                              Object {
-                                                                "child": "MuiTouchRipple-child",
-                                                                "childLeaving": "MuiTouchRipple-childLeaving",
-                                                                "childPulsate": "MuiTouchRipple-childPulsate",
-                                                                "ripple": "MuiTouchRipple-ripple",
-                                                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                                                "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                                                "root": "MuiTouchRipple-root",
-                                                              }
+                                                          classes={
+                                                            Object {
+                                                              "child": "MuiTouchRipple-child",
+                                                              "childLeaving": "MuiTouchRipple-childLeaving",
+                                                              "childPulsate": "MuiTouchRipple-childPulsate",
+                                                              "ripple": "MuiTouchRipple-ripple",
+                                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                              "root": "MuiTouchRipple-root",
                                                             }
+                                                          }
+                                                        >
+                                                          <span
+                                                            className="MuiTouchRipple-root"
                                                           >
-                                                            <span
-                                                              className="MuiTouchRipple-root"
-                                                            >
-                                                              <TransitionGroup
-                                                                childFactory={[Function]}
-                                                                component={null}
-                                                                exit={true}
-                                                              />
-                                                            </span>
-                                                          </ForwardRef(TouchRipple)>
-                                                        </WithStyles(memo)>
-                                                      </NoSsr>
+                                                            <TransitionGroup
+                                                              childFactory={[Function]}
+                                                              component={null}
+                                                              exit={true}
+                                                            />
+                                                          </span>
+                                                        </ForwardRef(TouchRipple)>
+                                                      </WithStyles(memo)>
                                                     </button>
                                                   </ForwardRef(ButtonBase)>
                                                 </WithStyles(ForwardRef(ButtonBase))>
                                               </ForwardRef(Button)>
                                             </WithStyles(ForwardRef(Button))>
-                                          </ForwardRef>
-                                        </WithTheme(ForwardRef)>
+                                          </Button>
+                                        </WithTheme(Button)>
                                       </div>
                                     </ForwardRef(DialogActions)>
                                   </WithStyles(ForwardRef(DialogActions))>
-                                </ForwardRef>
-                              </WithTheme(ForwardRef)>
+                                </DialogActions>
+                              </WithTheme(DialogActions)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -1626,22 +1634,22 @@ exports[`Dialog components rendering variants should match to snapshot - with ac
                     data-test="sentinelEnd"
                     tabIndex={0}
                   />
-                </TrapFocus>
+                </Unstable_TrapFocus>
               </div>
             </Portal>
           </ForwardRef(Portal)>
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Dialog>
+</WithTheme(Dialog)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with content divider: Dialog with content divider snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Dialog)
   open={true}
 >
-  <ForwardRef
+  <Dialog
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -1725,12 +1733,17 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -2027,7 +2040,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                         class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
-                        Lorem ipsum
+                        Dialog test children text
                       </div>
                     </div>
                     <div
@@ -2066,7 +2079,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                           <h2
                             class="MuiTypography-root MuiTypography-h6"
                           >
-                            Lorem ipsum
+                            Dialog title test text
                           </h2>
                         </div>
                       </div>
@@ -2104,7 +2117,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                         <div
                           class="MuiDialogContent-root"
                         >
-                          Lorem ipsum
+                          Dialog content test text
                         </div>
                       </div>
                     </div>
@@ -2144,7 +2157,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                           <p
                             class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary"
                           >
-                            Lorem ipsum
+                            Dialog content test text
                           </p>
                         </div>
                       </div>
@@ -2185,7 +2198,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                           <p
                             class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary"
                           >
-                            Lorem ipsum
+                            Dialog content test text
                           </p>
                         </div>
                         <div
@@ -2243,7 +2256,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                           <h2
                             class="MuiTypography-root MuiTypography-h6"
                           >
-                            Lorem ipsum
+                            Dialog title test text
                           </h2>
                         </div>
                         <div
@@ -2252,7 +2265,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                           <p
                             class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary"
                           >
-                            Lorem ipsum
+                            Dialog content text
                           </p>
                         </div>
                         <div
@@ -2370,7 +2383,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     </ForwardRef(Fade)>
                   </ForwardRef(Backdrop)>
                 </WithStyles(ForwardRef(Backdrop))>
-                <TrapFocus
+                <Unstable_TrapFocus
                   disableAutoFocus={false}
                   disableEnforceFocus={false}
                   disableRestoreFocus={false}
@@ -2420,8 +2433,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     >
                       <div
                         className="MuiDialog-container MuiDialog-scrollPaper"
-                        onClick={[Function]}
                         onMouseDown={[Function]}
+                        onMouseUp={[Function]}
                         role="none presentation"
                         style={
                           Object {
@@ -2477,8 +2490,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                               className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(ForwardRef)>
-                                <ForwardRef>
+                              <WithTheme(DialogTitle)>
+                                <DialogTitle>
                                   <WithStyles(ForwardRef(DialogTitle))>
                                     <ForwardRef(DialogTitle)
                                       classes={
@@ -2535,19 +2548,19 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                             <h2
                                               className="MuiTypography-root MuiTypography-h6"
                                             >
-                                              Lorem ipsum
+                                              Dialog title test text
                                             </h2>
                                           </ForwardRef(Typography)>
                                         </WithStyles(ForwardRef(Typography))>
                                       </div>
                                     </ForwardRef(DialogTitle)>
                                   </WithStyles(ForwardRef(DialogTitle))>
-                                </ForwardRef>
-                              </WithTheme(ForwardRef)>
-                              <WithTheme(ForwardRef)
+                                </DialogTitle>
+                              </WithTheme(DialogTitle)>
+                              <WithTheme(DialogContent)
                                 dividers={true}
                               >
-                                <ForwardRef
+                                <DialogContent
                                   dividers={true}
                                 >
                                   <WithStyles(ForwardRef(DialogContent))
@@ -2565,8 +2578,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       <div
                                         className="MuiDialogContent-root MuiDialogContent-dividers"
                                       >
-                                        <WithTheme(ForwardRef)>
-                                          <ForwardRef>
+                                        <WithTheme(DialogContextText)>
+                                          <DialogContextText>
                                             <WithStyles(ForwardRef(DialogContentText))>
                                               <ForwardRef(DialogContentText)
                                                 classes={
@@ -2627,21 +2640,21 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                     <p
                                                       className="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary"
                                                     >
-                                                      Lorem ipsum
+                                                      Dialog content text
                                                     </p>
                                                   </ForwardRef(Typography)>
                                                 </WithStyles(ForwardRef(Typography))>
                                               </ForwardRef(DialogContentText)>
                                             </WithStyles(ForwardRef(DialogContentText))>
-                                          </ForwardRef>
-                                        </WithTheme(ForwardRef)>
+                                          </DialogContextText>
+                                        </WithTheme(DialogContextText)>
                                       </div>
                                     </ForwardRef(DialogContent)>
                                   </WithStyles(ForwardRef(DialogContent))>
-                                </ForwardRef>
-                              </WithTheme(ForwardRef)>
-                              <WithTheme(ForwardRef)>
-                                <ForwardRef>
+                                </DialogContent>
+                              </WithTheme(DialogContent)>
+                              <WithTheme(DialogActions)>
+                                <DialogActions>
                                   <WithStyles(ForwardRef(DialogActions))>
                                     <ForwardRef(DialogActions)
                                       classes={
@@ -2654,8 +2667,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       <div
                                         className="MuiDialogActions-root MuiDialogActions-spacing"
                                       >
-                                        <WithTheme(ForwardRef)>
-                                          <ForwardRef>
+                                        <WithTheme(Button)>
+                                          <Button>
                                             <WithStyles(ForwardRef(Button))>
                                               <ForwardRef(Button)
                                                 classes={
@@ -2737,48 +2750,46 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                       >
                                                         Action
                                                       </span>
-                                                      <NoSsr>
-                                                        <WithStyles(memo)
+                                                      <WithStyles(memo)
+                                                        center={false}
+                                                      >
+                                                        <ForwardRef(TouchRipple)
                                                           center={false}
-                                                        >
-                                                          <ForwardRef(TouchRipple)
-                                                            center={false}
-                                                            classes={
-                                                              Object {
-                                                                "child": "MuiTouchRipple-child",
-                                                                "childLeaving": "MuiTouchRipple-childLeaving",
-                                                                "childPulsate": "MuiTouchRipple-childPulsate",
-                                                                "ripple": "MuiTouchRipple-ripple",
-                                                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                                                "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                                                "root": "MuiTouchRipple-root",
-                                                              }
+                                                          classes={
+                                                            Object {
+                                                              "child": "MuiTouchRipple-child",
+                                                              "childLeaving": "MuiTouchRipple-childLeaving",
+                                                              "childPulsate": "MuiTouchRipple-childPulsate",
+                                                              "ripple": "MuiTouchRipple-ripple",
+                                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                                              "root": "MuiTouchRipple-root",
                                                             }
+                                                          }
+                                                        >
+                                                          <span
+                                                            className="MuiTouchRipple-root"
                                                           >
-                                                            <span
-                                                              className="MuiTouchRipple-root"
-                                                            >
-                                                              <TransitionGroup
-                                                                childFactory={[Function]}
-                                                                component={null}
-                                                                exit={true}
-                                                              />
-                                                            </span>
-                                                          </ForwardRef(TouchRipple)>
-                                                        </WithStyles(memo)>
-                                                      </NoSsr>
+                                                            <TransitionGroup
+                                                              childFactory={[Function]}
+                                                              component={null}
+                                                              exit={true}
+                                                            />
+                                                          </span>
+                                                        </ForwardRef(TouchRipple)>
+                                                      </WithStyles(memo)>
                                                     </button>
                                                   </ForwardRef(ButtonBase)>
                                                 </WithStyles(ForwardRef(ButtonBase))>
                                               </ForwardRef(Button)>
                                             </WithStyles(ForwardRef(Button))>
-                                          </ForwardRef>
-                                        </WithTheme(ForwardRef)>
+                                          </Button>
+                                        </WithTheme(Button)>
                                       </div>
                                     </ForwardRef(DialogActions)>
                                   </WithStyles(ForwardRef(DialogActions))>
-                                </ForwardRef>
-                              </WithTheme(ForwardRef)>
+                                </DialogActions>
+                              </WithTheme(DialogActions)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -2789,22 +2800,22 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     data-test="sentinelEnd"
                     tabIndex={0}
                   />
-                </TrapFocus>
+                </Unstable_TrapFocus>
               </div>
             </Portal>
           </ForwardRef(Portal)>
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Dialog>
+</WithTheme(Dialog)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with content text: Dialog with content text snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Dialog)
   open={true}
 >
-  <ForwardRef
+  <Dialog
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -2888,12 +2899,17 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -3190,7 +3206,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                         class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
-                        Lorem ipsum
+                        Dialog test children text
                       </div>
                     </div>
                     <div
@@ -3229,7 +3245,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                           <h2
                             class="MuiTypography-root MuiTypography-h6"
                           >
-                            Lorem ipsum
+                            Dialog title test text
                           </h2>
                         </div>
                       </div>
@@ -3267,7 +3283,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                         <div
                           class="MuiDialogContent-root"
                         >
-                          Lorem ipsum
+                          Dialog content test text
                         </div>
                       </div>
                     </div>
@@ -3306,7 +3322,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                           <p
                             class="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary"
                           >
-                            Lorem ipsum
+                            Dialog content test text
                           </p>
                         </div>
                       </div>
@@ -3406,7 +3422,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     </ForwardRef(Fade)>
                   </ForwardRef(Backdrop)>
                 </WithStyles(ForwardRef(Backdrop))>
-                <TrapFocus
+                <Unstable_TrapFocus
                   disableAutoFocus={false}
                   disableEnforceFocus={false}
                   disableRestoreFocus={false}
@@ -3456,8 +3472,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     >
                       <div
                         className="MuiDialog-container MuiDialog-scrollPaper"
-                        onClick={[Function]}
                         onMouseDown={[Function]}
+                        onMouseUp={[Function]}
                         role="none presentation"
                         style={
                           Object {
@@ -3513,8 +3529,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                               className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(ForwardRef)>
-                                <ForwardRef>
+                              <WithTheme(DialogContent)>
+                                <DialogContent>
                                   <WithStyles(ForwardRef(DialogContent))>
                                     <ForwardRef(DialogContent)
                                       classes={
@@ -3527,8 +3543,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       <div
                                         className="MuiDialogContent-root"
                                       >
-                                        <WithTheme(ForwardRef)>
-                                          <ForwardRef>
+                                        <WithTheme(DialogContextText)>
+                                          <DialogContextText>
                                             <WithStyles(ForwardRef(DialogContentText))>
                                               <ForwardRef(DialogContentText)
                                                 classes={
@@ -3589,19 +3605,19 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                                     <p
                                                       className="MuiTypography-root MuiDialogContentText-root MuiTypography-body1 MuiTypography-colorTextSecondary"
                                                     >
-                                                      Lorem ipsum
+                                                      Dialog content test text
                                                     </p>
                                                   </ForwardRef(Typography)>
                                                 </WithStyles(ForwardRef(Typography))>
                                               </ForwardRef(DialogContentText)>
                                             </WithStyles(ForwardRef(DialogContentText))>
-                                          </ForwardRef>
-                                        </WithTheme(ForwardRef)>
+                                          </DialogContextText>
+                                        </WithTheme(DialogContextText)>
                                       </div>
                                     </ForwardRef(DialogContent)>
                                   </WithStyles(ForwardRef(DialogContent))>
-                                </ForwardRef>
-                              </WithTheme(ForwardRef)>
+                                </DialogContent>
+                              </WithTheme(DialogContent)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -3612,22 +3628,22 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     data-test="sentinelEnd"
                     tabIndex={0}
                   />
-                </TrapFocus>
+                </Unstable_TrapFocus>
               </div>
             </Portal>
           </ForwardRef(Portal)>
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Dialog>
+</WithTheme(Dialog)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with content: Dialog with content snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Dialog)
   open={true}
 >
-  <ForwardRef
+  <Dialog
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -3711,12 +3727,17 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -4013,7 +4034,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                         class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
-                        Lorem ipsum
+                        Dialog test children text
                       </div>
                     </div>
                     <div
@@ -4052,7 +4073,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                           <h2
                             class="MuiTypography-root MuiTypography-h6"
                           >
-                            Lorem ipsum
+                            Dialog title test text
                           </h2>
                         </div>
                       </div>
@@ -4089,7 +4110,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                         <div
                           class="MuiDialogContent-root"
                         >
-                          Lorem ipsum
+                          Dialog content test text
                         </div>
                       </div>
                     </div>
@@ -4188,7 +4209,7 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     </ForwardRef(Fade)>
                   </ForwardRef(Backdrop)>
                 </WithStyles(ForwardRef(Backdrop))>
-                <TrapFocus
+                <Unstable_TrapFocus
                   disableAutoFocus={false}
                   disableEnforceFocus={false}
                   disableRestoreFocus={false}
@@ -4238,8 +4259,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     >
                       <div
                         className="MuiDialog-container MuiDialog-scrollPaper"
-                        onClick={[Function]}
                         onMouseDown={[Function]}
+                        onMouseUp={[Function]}
                         role="none presentation"
                         style={
                           Object {
@@ -4295,8 +4316,8 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                               className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(ForwardRef)>
-                                <ForwardRef>
+                              <WithTheme(DialogContent)>
+                                <DialogContent>
                                   <WithStyles(ForwardRef(DialogContent))>
                                     <ForwardRef(DialogContent)
                                       classes={
@@ -4309,12 +4330,12 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                                       <div
                                         className="MuiDialogContent-root"
                                       >
-                                        Lorem ipsum
+                                        Dialog content test text
                                       </div>
                                     </ForwardRef(DialogContent)>
                                   </WithStyles(ForwardRef(DialogContent))>
-                                </ForwardRef>
-                              </WithTheme(ForwardRef)>
+                                </DialogContent>
+                              </WithTheme(DialogContent)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -4325,22 +4346,22 @@ exports[`Dialog components rendering variants should match to snapshot - with co
                     data-test="sentinelEnd"
                     tabIndex={0}
                   />
-                </TrapFocus>
+                </Unstable_TrapFocus>
               </div>
             </Portal>
           </ForwardRef(Portal)>
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Dialog>
+</WithTheme(Dialog)>
 `;
 
 exports[`Dialog components rendering variants should match to snapshot - with title: Dialog with title snapshot 1`] = `
-<WithTheme(ForwardRef)
+<WithTheme(Dialog)
   open={true}
 >
-  <ForwardRef
+  <Dialog
     open={true}
   >
     <WithStyles(ForwardRef(Dialog))
@@ -4424,12 +4445,17 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                   "overrides": Object {},
                   "palette": Object {
                     "action": Object {
+                      "activatedOpacity": 0.12,
                       "active": "rgba(0, 0, 0, 0.54)",
                       "disabled": "rgba(0, 0, 0, 0.26)",
                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                      "hover": "rgba(0, 0, 0, 0.08)",
-                      "hoverOpacity": 0.08,
-                      "selected": "rgba(0, 0, 0, 0.14)",
+                      "disabledOpacity": 0.38,
+                      "focus": "rgba(0, 0, 0, 0.12)",
+                      "focusOpacity": 0.12,
+                      "hover": "rgba(0, 0, 0, 0.04)",
+                      "hoverOpacity": 0.04,
+                      "selected": "rgba(0, 0, 0, 0.08)",
+                      "selectedOpacity": 0.08,
                     },
                     "augmentColor": [Function],
                     "background": Object {
@@ -4726,7 +4752,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                         class="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                         role="dialog"
                       >
-                        Lorem ipsum
+                        Dialog test children text
                       </div>
                     </div>
                     <div
@@ -4764,7 +4790,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                           <h2
                             class="MuiTypography-root MuiTypography-h6"
                           >
-                            Lorem ipsum
+                            Dialog title test text
                           </h2>
                         </div>
                       </div>
@@ -4864,7 +4890,7 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                     </ForwardRef(Fade)>
                   </ForwardRef(Backdrop)>
                 </WithStyles(ForwardRef(Backdrop))>
-                <TrapFocus
+                <Unstable_TrapFocus
                   disableAutoFocus={false}
                   disableEnforceFocus={false}
                   disableRestoreFocus={false}
@@ -4914,8 +4940,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                     >
                       <div
                         className="MuiDialog-container MuiDialog-scrollPaper"
-                        onClick={[Function]}
                         onMouseDown={[Function]}
+                        onMouseUp={[Function]}
                         role="none presentation"
                         style={
                           Object {
@@ -4971,8 +4997,8 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                               className="MuiPaper-root MuiDialog-paper MuiDialog-paperScrollPaper MuiDialog-paperWidthSm MuiPaper-elevation24 MuiPaper-rounded"
                               role="dialog"
                             >
-                              <WithTheme(ForwardRef)>
-                                <ForwardRef>
+                              <WithTheme(DialogTitle)>
+                                <DialogTitle>
                                   <WithStyles(ForwardRef(DialogTitle))>
                                     <ForwardRef(DialogTitle)
                                       classes={
@@ -5029,15 +5055,15 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                                             <h2
                                               className="MuiTypography-root MuiTypography-h6"
                                             >
-                                              Lorem ipsum
+                                              Dialog title test text
                                             </h2>
                                           </ForwardRef(Typography)>
                                         </WithStyles(ForwardRef(Typography))>
                                       </div>
                                     </ForwardRef(DialogTitle)>
                                   </WithStyles(ForwardRef(DialogTitle))>
-                                </ForwardRef>
-                              </WithTheme(ForwardRef)>
+                                </DialogTitle>
+                              </WithTheme(DialogTitle)>
                             </div>
                           </ForwardRef(Paper)>
                         </WithStyles(ForwardRef(Paper))>
@@ -5048,13 +5074,13 @@ exports[`Dialog components rendering variants should match to snapshot - with ti
                     data-test="sentinelEnd"
                     tabIndex={0}
                   />
-                </TrapFocus>
+                </Unstable_TrapFocus>
               </div>
             </Portal>
           </ForwardRef(Portal)>
         </ForwardRef(Modal)>
       </ForwardRef(Dialog)>
     </WithStyles(ForwardRef(Dialog))>
-  </ForwardRef>
-</WithTheme(ForwardRef)>
+  </Dialog>
+</WithTheme(Dialog)>
 `;

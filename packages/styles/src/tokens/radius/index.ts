@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 import { IRadius } from "./IRadius";
 
 export const radius: IRadius = {
@@ -5,5 +6,5 @@ export const radius: IRadius = {
   circle: "50%",
   small: 2,
   medium: 4,
-  large: 8
+  large: 8,
 };

@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 import { IColorThemeTokens } from "../IColorThemeTokens";
 import { natura } from "../../natura";
 
@@ -29,5 +30,5 @@ export const naturaLightColorTokens: IColorThemeTokens = {
   colorWarning: natura.complementary.colorBrdNatCpOrange4,
   colorOnWarning: natura.grayscale.colorBrdNatGray,
   colorAlert: natura.complementary.colorBrdNatCpRed2,
-  colorOnAlert: natura.primary.colorBrdNatPrimaryWhite
+  colorOnAlert: natura.primary.colorBrdNatPrimaryWhite,
 };

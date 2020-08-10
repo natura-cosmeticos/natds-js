@@ -1,0 +1,37 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton when variant is {"component": [Object], "title": "Circle"} should render correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-circle MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": 40,
+      "width": 40,
+    }
+  }
+/>
+`;
+
+exports[`Skeleton when variant is {"component": [Object], "title": "Rect"} should render correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": 128,
+      "width": 256,
+    }
+  }
+/>
+`;
+
+exports[`Skeleton when variant is {"component": [Object], "title": "Text"} should render correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+/>
+`;

@@ -1,59 +1,75 @@
-import * as React from 'react';
-import { expect } from 'chai';
-import { mount } from 'enzyme';
+import * as React from "react";
 
-import Popover from '../Components/Popover';
+import { expect } from "chai";
+import { mount } from "enzyme";
+import Popover from "../Components/Popover";
 
-const directions: any = {
-  'bottom-end': 'bottom-end',
-  'bottom-start': 'bottom-start',
-  'bottom': 'bottom',
-  'left-end': 'left-end',
-  'left-start': 'left-start',
-  'left': 'left',
-  'right-end': 'right-end',
-  'right-start': 'right-start',
-  'right': 'right',
-  'top-end': 'top-end',
-  'top-start': 'top-start',
-  'top': 'top',
+const directions: {
+  "right-start": string;
+  "bottom-start": string;
+  top: string;
+  left: string;
+  bottom: string;
+  "left-start": string;
+  "top-start": string;
+  right: string;
+  "bottom-end": string;
+  "right-end": string;
+  "left-end": string;
+  "top-end": string
+} = {
+  bottom: "bottom",
+  "bottom-end": "bottom-end",
+  "bottom-start": "bottom-start",
+  left: "left",
+  "left-end": "left-end",
+  "left-start": "left-start",
+  right: "right",
+  "right-end": "right-end",
+  "right-start": "right-start",
+  top: "top",
+  "top-end": "top-end",
+  "top-start": "top-start",
 };
 
-describe('Popover component', () => {
-  /*
-    Due to Material-UI not handling the anchorEl property correctly,
-    this mock was created disabling the console.error unnecessary.
-    For more information, follow
-    https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Popper/Popper.js#L238
-  */
+describe("Popover component", () => {
 
-  // tslint:disable-next-line: no-console
+  /**
+   * Due to Material-UI not handling the anchorEl property correctly,
+   * this mock was created disabling the console.error unnecessary.
+   *
+   * @see https://github.com/mui-org/material-ui/blob/master/packages/material-ui/src/Popper/Popper.js#L238
+   */
+  // eslint-disable-next-line no-console
   const originalConsoleError = console.error;
-  // tslint:disable-next-line: no-console
-  afterEach(() => (console.error = originalConsoleError));
 
-  // tslint:disable-next-line: no-empty
-  const mockedConsoleError = () => {};
-  // tslint:disable-next-line: no-console
-  beforeEach(() => (console.error = mockedConsoleError));
+  afterEach(() => {
+    // eslint-disable-next-line no-console
+    console.error = originalConsoleError;
+  });
+
+  const mockedConsoleError = () => Function.prototype();
+
+  beforeEach(() => {
+    // eslint-disable-next-line no-console
+    console.error = mockedConsoleError;
+  });
 
   Object.keys(directions).forEach((direction: string) => {
     test(`should match snapshot - Any valid Popover with ${direction} direction`, () => {
-      const wrapper = mount(<Popover open direction={direction as any}>
+      const wrapper = mount(<Popover open direction={direction as keyof typeof directions}>
         content
       </Popover>);
-      expect(wrapper).matchSnapshot(
-        `Popover snapshot - with ${direction} direction`
-      );
+
+      expect(wrapper).matchSnapshot(`Popover snapshot - with ${direction} direction`);
     });
   });
 
-  test(`should match snapshot - Popover with Action Link`, () => {
-    const wrapper = mount(<Popover open actionLink={{ text: 'Action link' }}>
+  test("should match snapshot - Popover with Action Link", () => {
+    const wrapper = mount(<Popover open actionLink={{ text: "Action link" }}>
       content
     </Popover>);
-    expect(wrapper).matchSnapshot(
-      `Popover snapshot - with Action Link`
-    );
+
+    expect(wrapper).matchSnapshot("Popover snapshot - with Action Link");
   });
 });

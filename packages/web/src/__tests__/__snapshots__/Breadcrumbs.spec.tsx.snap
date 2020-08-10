@@ -2,8 +2,8 @@
 
 exports[`Breadcrumbs component rendering it should match default snapshot: Breadcrumbs snapshot 1`] = `
 <Component>
-  <WithTheme(ForwardRef)>
-    <ForwardRef>
+  <WithTheme(Breadcrumbs)>
+    <Breadcrumbs>
       <WithStyles(ForwardRef(Breadcrumbs))>
         <ForwardRef(Breadcrumbs)
           classes={
@@ -114,12 +114,17 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                             "overrides": Object {},
                             "palette": Object {
                               "action": Object {
+                                "activatedOpacity": 0.12,
                                 "active": "rgba(0, 0, 0, 0.54)",
                                 "disabled": "rgba(0, 0, 0, 0.26)",
                                 "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                "hover": "rgba(0, 0, 0, 0.08)",
-                                "hoverOpacity": 0.08,
-                                "selected": "rgba(0, 0, 0, 0.14)",
+                                "disabledOpacity": 0.38,
+                                "focus": "rgba(0, 0, 0, 0.12)",
+                                "focusOpacity": 0.12,
+                                "hover": "rgba(0, 0, 0, 0.04)",
+                                "hoverOpacity": 0.04,
+                                "selected": "rgba(0, 0, 0, 0.08)",
+                                "selectedOpacity": 0.08,
                               },
                               "augmentColor": [Function],
                               "background": Object {
@@ -408,12 +413,17 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                               "overrides": Object {},
                               "palette": Object {
                                 "action": Object {
+                                  "activatedOpacity": 0.12,
                                   "active": "rgba(0, 0, 0, 0.54)",
                                   "disabled": "rgba(0, 0, 0, 0.26)",
                                   "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                  "hover": "rgba(0, 0, 0, 0.08)",
-                                  "hoverOpacity": 0.08,
-                                  "selected": "rgba(0, 0, 0, 0.14)",
+                                  "disabledOpacity": 0.38,
+                                  "focus": "rgba(0, 0, 0, 0.12)",
+                                  "focusOpacity": 0.12,
+                                  "hover": "rgba(0, 0, 0, 0.04)",
+                                  "hoverOpacity": 0.04,
+                                  "selected": "rgba(0, 0, 0, 0.08)",
+                                  "selectedOpacity": 0.08,
                                 },
                                 "augmentColor": [Function],
                                 "background": Object {
@@ -712,12 +722,17 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                                 "overrides": Object {},
                                 "palette": Object {
                                   "action": Object {
+                                    "activatedOpacity": 0.12,
                                     "active": "rgba(0, 0, 0, 0.54)",
                                     "disabled": "rgba(0, 0, 0, 0.26)",
                                     "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                    "hover": "rgba(0, 0, 0, 0.08)",
-                                    "hoverOpacity": 0.08,
-                                    "selected": "rgba(0, 0, 0, 0.14)",
+                                    "disabledOpacity": 0.38,
+                                    "focus": "rgba(0, 0, 0, 0.12)",
+                                    "focusOpacity": 0.12,
+                                    "hover": "rgba(0, 0, 0, 0.04)",
+                                    "hoverOpacity": 0.04,
+                                    "selected": "rgba(0, 0, 0, 0.08)",
+                                    "selectedOpacity": 0.08,
                                   },
                                   "augmentColor": [Function],
                                   "background": Object {
@@ -1010,12 +1025,17 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                                   "overrides": Object {},
                                   "palette": Object {
                                     "action": Object {
+                                      "activatedOpacity": 0.12,
                                       "active": "rgba(0, 0, 0, 0.54)",
                                       "disabled": "rgba(0, 0, 0, 0.26)",
                                       "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                      "hover": "rgba(0, 0, 0, 0.08)",
-                                      "hoverOpacity": 0.08,
-                                      "selected": "rgba(0, 0, 0, 0.14)",
+                                      "disabledOpacity": 0.38,
+                                      "focus": "rgba(0, 0, 0, 0.12)",
+                                      "focusOpacity": 0.12,
+                                      "hover": "rgba(0, 0, 0, 0.04)",
+                                      "hoverOpacity": 0.04,
+                                      "selected": "rgba(0, 0, 0, 0.08)",
+                                      "selectedOpacity": 0.08,
                                     },
                                     "augmentColor": [Function],
                                     "background": Object {
@@ -1343,12 +1363,17 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                                     "overrides": Object {},
                                     "palette": Object {
                                       "action": Object {
+                                        "activatedOpacity": 0.12,
                                         "active": "rgba(0, 0, 0, 0.54)",
                                         "disabled": "rgba(0, 0, 0, 0.26)",
                                         "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                        "hover": "rgba(0, 0, 0, 0.08)",
-                                        "hoverOpacity": 0.08,
-                                        "selected": "rgba(0, 0, 0, 0.14)",
+                                        "disabledOpacity": 0.38,
+                                        "focus": "rgba(0, 0, 0, 0.12)",
+                                        "focusOpacity": 0.12,
+                                        "hover": "rgba(0, 0, 0, 0.04)",
+                                        "hoverOpacity": 0.04,
+                                        "selected": "rgba(0, 0, 0, 0.08)",
+                                        "selectedOpacity": 0.08,
                                       },
                                       "augmentColor": [Function],
                                       "background": Object {
@@ -1640,12 +1665,17 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                                       "overrides": Object {},
                                       "palette": Object {
                                         "action": Object {
+                                          "activatedOpacity": 0.12,
                                           "active": "rgba(0, 0, 0, 0.54)",
                                           "disabled": "rgba(0, 0, 0, 0.26)",
                                           "disabledBackground": "rgba(0, 0, 0, 0.12)",
-                                          "hover": "rgba(0, 0, 0, 0.08)",
-                                          "hoverOpacity": 0.08,
-                                          "selected": "rgba(0, 0, 0, 0.14)",
+                                          "disabledOpacity": 0.38,
+                                          "focus": "rgba(0, 0, 0, 0.12)",
+                                          "focusOpacity": 0.12,
+                                          "hover": "rgba(0, 0, 0, 0.04)",
+                                          "hoverOpacity": 0.04,
+                                          "selected": "rgba(0, 0, 0, 0.08)",
+                                          "selectedOpacity": 0.08,
                                         },
                                         "augmentColor": [Function],
                                         "background": Object {
@@ -1887,8 +1917,8 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                                     }
                                   }
                                 >
-                                  <WithTheme(ForwardRef)>
-                                    <ForwardRef>
+                                  <WithTheme(Typography)>
+                                    <Typography>
                                       <WithStyles(ForwardRef(Typography))
                                         align="inherit"
                                         variant="body1"
@@ -1938,8 +1968,8 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                                           </p>
                                         </ForwardRef(Typography)>
                                       </WithStyles(ForwardRef(Typography))>
-                                    </ForwardRef>
-                                  </WithTheme(ForwardRef)>
+                                    </Typography>
+                                  </WithTheme(Typography)>
                                 </a>
                               </ForwardRef(Typography)>
                             </WithStyles(ForwardRef(Typography))>
@@ -1954,7 +1984,7 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
           </WithStyles(ForwardRef(Typography))>
         </ForwardRef(Breadcrumbs)>
       </WithStyles(ForwardRef(Breadcrumbs))>
-    </ForwardRef>
-  </WithTheme(ForwardRef)>
+    </Breadcrumbs>
+  </WithTheme(Breadcrumbs)>
 </Component>
 `;

@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 import { IColorThemeTokens } from "../IColorThemeTokens";
 
 export const avonDarkColorTokens: IColorThemeTokens = {
@@ -28,5 +29,5 @@ export const avonDarkColorTokens: IColorThemeTokens = {
   colorWarning: "#FCC433",
   colorOnWarning: "#333333",
   colorAlert: "#E74627",
-  colorOnAlert: "#FFFFFFF"
+  colorOnAlert: "#FFFFFFF",
 };

@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 import { ISpacing } from "./ISpacing";
 import { sizes } from "../sizes";
 
@@ -10,5 +11,9 @@ export const spacing: ISpacing = {
   spacingStandard: sizes.standard,
   spacingSemi: sizes.semi,
   spacingLarge: sizes.medium,
-  spacingHuge: sizes.large
+  spacingHuge: sizes.large,
+  spacingHugeX: sizes.hugex,
+  spacingHugeXX: sizes.hugexx,
+  spacingHugeXXX: sizes.hugexxx,
+  spacingVeryHuge: sizes.veryhuge,
 };

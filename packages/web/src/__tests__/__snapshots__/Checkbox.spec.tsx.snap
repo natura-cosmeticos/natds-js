@@ -24,15 +24,13 @@ exports[`Checkbox component rendering should match to snapshot - Checked: Checkb
       checked={true}
       className="PrivateSwitchBase-input-4"
       data-indeterminate={false}
-      disabled={false}
       onChange={[Function]}
       type="checkbox"
     />
     <svg
-      aria-hidden="true"
+      aria-hidden={true}
       className="MuiSvgIcon-root"
       focusable="false"
-      role="presentation"
       viewBox="0 0 24 24"
     >
       <path
@@ -66,15 +64,13 @@ exports[`Checkbox component rendering should match to snapshot - Color: Checkbox
     <input
       className="PrivateSwitchBase-input-4"
       data-indeterminate={false}
-      disabled={false}
       onChange={[Function]}
       type="checkbox"
     />
     <svg
-      aria-hidden="true"
+      aria-hidden={true}
       className="MuiSvgIcon-root"
       focusable="false"
-      role="presentation"
       viewBox="0 0 24 24"
     >
       <path
@@ -111,15 +107,13 @@ exports[`Checkbox component rendering should match to snapshot - Default: Checkb
     <input
       className="PrivateSwitchBase-input-4"
       data-indeterminate={false}
-      disabled={false}
       onChange={[Function]}
       type="checkbox"
     />
     <svg
-      aria-hidden="true"
+      aria-hidden={true}
       className="MuiSvgIcon-root"
       focusable="false"
-      role="presentation"
       viewBox="0 0 24 24"
     >
       <path
@@ -154,15 +148,13 @@ exports[`Checkbox component rendering should match to snapshot - Disabled: Check
       checked={true}
       className="PrivateSwitchBase-input-4"
       data-indeterminate={false}
-      disabled={false}
       onChange={[Function]}
       type="checkbox"
     />
     <svg
-      aria-hidden="true"
+      aria-hidden={true}
       className="MuiSvgIcon-root"
       focusable="false"
-      role="presentation"
       viewBox="0 0 24 24"
     >
       <path

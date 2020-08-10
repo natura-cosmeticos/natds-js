@@ -1,10 +1,12 @@
-import React, { FunctionComponent, Dispatch, SetStateAction, ComponentType } from 'react';
-import styled from 'styled-components';
-import VisibilityIcon from '@material-ui/icons/VisibilityOutlined';
-import VisibilityIconOff from '@material-ui/icons/VisibilityOffOutlined';
+import React, {
+  ComponentType, Dispatch, FunctionComponent, SetStateAction,
+} from "react";
+import styled from "styled-components";
+import VisibilityIcon from "@material-ui/icons/VisibilityOutlined";
+import VisibilityIconOff from "@material-ui/icons/VisibilityOffOutlined";
 
-import { IThemeWeb } from 'Themes';
-import { tokens } from '@naturacosmeticos/natds-styles';
+import { IThemeWeb } from "Themes";
+import { tokens } from "@naturacosmeticos/natds-styles";
 
 export interface IPasswordReveal {
   theme: IThemeWeb | unknown;
@@ -31,9 +33,10 @@ export const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPassw
     onTogglePasswordReveal,
     showing,
     showPasswordIcon = VisibilityIcon,
-    hidePasswordIcon = VisibilityIconOff
+    hidePasswordIcon = VisibilityIconOff,
   } = props;
 
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Component: ComponentType<any> = showing
     ? styled(hidePasswordIcon)`${baseIconStyle}`
     : styled(showPasswordIcon)`${baseIconStyle}`;
@@ -47,4 +50,3 @@ export const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPassw
 };
 
 export default PasswordReveal;
-

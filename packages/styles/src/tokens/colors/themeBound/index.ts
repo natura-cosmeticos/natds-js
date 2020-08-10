@@ -1,15 +1,15 @@
-import { naturaLightColorTokens, naturaDarkColorTokens } from "./natura";
-import { avonLightColorTokens, avonDarkColorTokens } from "./avon";
+import { naturaDarkColorTokens, naturaLightColorTokens } from "./natura";
+import { avonDarkColorTokens, avonLightColorTokens } from "./avon";
 import {
+  theBodyShopDarkColorTokens,
   theBodyShopLightColorTokens,
-  theBodyShopDarkColorTokens
 } from "./theBodyShop";
 
 export const colorTokens = {
-  naturaLightColorTokens,
-  naturaDarkColorTokens,
-  avonLightColorTokens,
   avonDarkColorTokens,
+  avonLightColorTokens,
+  naturaDarkColorTokens,
+  naturaLightColorTokens,
+  theBodyShopDarkColorTokens,
   theBodyShopLightColorTokens,
-  theBodyShopDarkColorTokens
 };

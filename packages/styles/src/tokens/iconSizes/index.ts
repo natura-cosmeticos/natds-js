@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 import { IIconSizes } from "./IIconSizes";
 import { sizes } from "../sizes";
 
@@ -12,5 +13,5 @@ export const iconSizes: IIconSizes = {
   largexx: sizes.hugex,
   huge: sizes.hugexx,
   hugex: sizes.hugexxx,
-  hugexx: sizes.veryhuge
+  hugexx: sizes.veryhuge,
 };

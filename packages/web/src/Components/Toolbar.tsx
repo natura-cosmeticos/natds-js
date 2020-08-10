@@ -1,13 +1,15 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import MaterialToolbar, { ToolbarProps as IToolbarProps } from '@material-ui/core/Toolbar';
-import { withTheme} from '@material-ui/core/styles';
-export { ToolbarProps as IToolbarProps } from '@material-ui/core/Toolbar';
+import * as React from "react";
+import * as MaterialToolbar from "@material-ui/core/Toolbar";
+import { withTheme} from "@material-ui/core/styles";
 
-const Toolbar: FunctionComponent<IToolbarProps> = forwardRef((
+export type IToolbarProps = MaterialToolbar.ToolbarProps;
+
+export const Toolbar: React.FunctionComponent<IToolbarProps> = React.forwardRef((
   props: IToolbarProps,
-  ref: any
-) => (
-  <MaterialToolbar {...props} ref={ref} />
-));
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  ref: any,
+) => <MaterialToolbar.default {...props} ref={ref} />);
+
+Toolbar.displayName = "Toolbar";
 
 export default withTheme(Toolbar);

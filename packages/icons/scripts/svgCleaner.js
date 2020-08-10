@@ -1,14 +1,17 @@
 #!/usr/bin/env node
-const fs = require('fs');
-const SVGO = require('svgo');
-const glob = require("glob")
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const fs = require("fs");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const SVGO = require("svgo");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const glob = require("glob");
 
 const INPUT = "./src/assets/raw/**/*.svg";
 const OUTPUT = "./src/assets/cleaned/";
 
 const svgo = new SVGO({
   plugins: [
-    { cleanupAttrs: true, },
+    { cleanupAttrs: true },
     { removeDoctype: true },
     { removeXMLProcInst: true },
     { removeComments: true },
@@ -37,54 +40,62 @@ const svgo = new SVGO({
     { moveGroupAttrsToElems: true },
     { collapseGroups: true },
     { removeRasterImages: false },
-    { mergePaths: {
-      noSpaceAfterFlags: false
-    } },
+    {
+      mergePaths: {
+        noSpaceAfterFlags: false,
+      },
+    },
     { convertShapeToPath: true },
     { sortAttrs: true },
     { removeDimensions: true },
-    { removeAttrs: { attrs: '(stroke|fill)' } }
-  ]
+    { removeAttrs: { attrs: "(stroke|fill)" } },
+  ],
 });
 
-
-function onError(err) {
+const onError = (err) => {
   if (err) {
-    console.log(err);
+    // eslint-disable-next-line no-console
+    console.error(err);
     throw err;
   }
-}
+};
 
-function getName(path) {
-  const parts = path.split('/');
-  return parts[parts.length - 1];
-}
+const getName = (path) => {
+  const parts = path.split("/");
 
-function onFileReady(content, path) {
-  svgo.optimize(content, { path }).then(function ({ data }) {
+  // eslint-disable-next-line no-magic-numbers
+  const LAST_INDEX = parts.length - 1;
+
+  return parts[LAST_INDEX];
+};
+
+const onFileReady = (content, path) => {
+  svgo.optimize(content, { path }).then(({ data }) => {
     const filename = getName(path);
+
     fs.writeFile(OUTPUT + filename, data, onError);
   });
-}
+};
 
-function readFiles() {
-  return glob(INPUT, function (error, filenames) {
-    if (error) {
-      console.error(error);
-      throw error;
-    }
+const readFiles = () => glob(INPUT, (readFilesError, filenames) => {
+  if (readFilesError) {
+    // eslint-disable-next-line no-console
+    console.error(readFilesError);
+    throw readFilesError;
+  }
 
-    filenames.forEach(function (filepath) {
-      fs.readFile(filepath, 'utf-8', function (error, content) {
-        if (error) {
-          console.error(error);
-          throw error;
-        }
+  filenames.forEach((filepath) => {
+    // eslint-disable-next-line no-shadow
+    fs.readFile(filepath, "utf-8", (readFileError, content) => {
+      if (readFileError) {
+        // eslint-disable-next-line no-console
+        console.error(readFileError);
+        throw readFileError;
+      }
 
-        return onFileReady(content, filepath);
-      });
+      return onFileReady(content, filepath);
     });
   });
-}
+});
 
 readFiles();

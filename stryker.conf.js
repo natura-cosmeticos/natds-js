@@ -4,12 +4,15 @@
 module.exports = {
   coverageAnalysis: "off",
   mutate: [
-    'scripts/**/*.js',
-    '!scripts/__tests__/**/*.js'
+    "scripts/**/*.js", "!scripts/__tests__/**/*.js",
   ],
   mutator: "javascript",
   packageManager: "yarn",
-  reporters: ["html", "clear-text", "dashboard"],
+  reporters: [
+    "html",
+    "clear-text",
+    "dashboard",
+  ],
   testRunner: "jest",
-  transpilers: []
+  transpilers: [],
 };

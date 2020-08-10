@@ -7,11 +7,11 @@ exports[`Menu components should match to snapshot - closed Menu: Menu closed sna
   >
     open
   </button>
-  <WithTheme(ForwardRef)
+  <WithTheme(Menu)
     anchorEl={null}
     open={false}
   >
-    <ForwardRef
+    <Menu
       anchorEl={null}
       open={false}
     >
@@ -100,8 +100,8 @@ exports[`Menu components should match to snapshot - closed Menu: Menu closed sna
           </WithStyles(ForwardRef(Popover))>
         </ForwardRef(Menu)>
       </WithStyles(ForwardRef(Menu))>
-    </ForwardRef>
-  </WithTheme(ForwardRef)>
+    </Menu>
+  </WithTheme(Menu)>
 </Component>
 `;
 
@@ -112,7 +112,7 @@ exports[`Menu components should match to snapshot - opened Menu: Menu opened sna
   >
     open
   </button>
-  <WithTheme(ForwardRef)
+  <WithTheme(Menu)
     anchorEl={
       <button>
         open
@@ -120,7 +120,7 @@ exports[`Menu components should match to snapshot - opened Menu: Menu opened sna
     }
     open={true}
   >
-    <ForwardRef
+    <Menu
       anchorEl={
         <button>
           open
@@ -391,13 +391,12 @@ exports[`Menu components should match to snapshot - opened Menu: Menu opened sna
                               "position": "fixed",
                               "right": 0,
                               "top": 0,
-                              "touchAction": "none",
                               "zIndex": -1,
                             }
                           }
                         />
                       </ForwardRef(SimpleBackdrop)>
-                      <TrapFocus
+                      <Unstable_TrapFocus
                         disableAutoFocus={false}
                         disableEnforceFocus={false}
                         disableRestoreFocus={false}
@@ -547,12 +546,12 @@ exports[`Menu components should match to snapshot - opened Menu: Menu opened sna
                                           role="menu"
                                           tabIndex={-1}
                                         >
-                                          <WithTheme(ForwardRef)
+                                          <WithTheme(MenuItem)
                                             autoFocus={true}
                                             key=".$.0"
                                             tabIndex={0}
                                           >
-                                            <ForwardRef
+                                            <MenuItem
                                               autoFocus={true}
                                               tabIndex={0}
                                             >
@@ -620,8 +619,8 @@ exports[`Menu components should match to snapshot - opened Menu: Menu opened sna
                                                   </WithStyles(ForwardRef(ListItem))>
                                                 </ForwardRef(MenuItem)>
                                               </WithStyles(ForwardRef(MenuItem))>
-                                            </ForwardRef>
-                                          </WithTheme(ForwardRef)>
+                                            </MenuItem>
+                                          </WithTheme(MenuItem)>
                                         </ul>
                                       </ForwardRef(List)>
                                     </WithStyles(ForwardRef(List))>
@@ -635,7 +634,7 @@ exports[`Menu components should match to snapshot - opened Menu: Menu opened sna
                           data-test="sentinelEnd"
                           tabIndex={0}
                         />
-                      </TrapFocus>
+                      </Unstable_TrapFocus>
                     </div>
                   </Portal>
                 </ForwardRef(Portal)>
@@ -644,7 +643,7 @@ exports[`Menu components should match to snapshot - opened Menu: Menu opened sna
           </WithStyles(ForwardRef(Popover))>
         </ForwardRef(Menu)>
       </WithStyles(ForwardRef(Menu))>
-    </ForwardRef>
-  </WithTheme(ForwardRef)>
+    </Menu>
+  </WithTheme(Menu)>
 </Component>
 `;

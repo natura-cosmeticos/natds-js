@@ -40,11 +40,11 @@ The work process between the development and UX team will flow as follows:
   - Shutting down the storybook containing the alpha versions for the milestone of the release;
   - Removing alpha tags from the milestone branch;
   - Remove unused branches that were already merged to the milestone;
-  - Merge the milestone branch to master;
-  - Generate tags on master;
+  - Merge the milestone branch to `main`;
+  - Generate tags on `main`;
   - Generate the release notes and publish to npm;
 - At any given moment that a Breaking Change is detected, the teams should be warned on slack, signal on the Natura JIRA that the task means a Breaking Change and alter the version number of the release on the Natura JIRA.
 
 ## Consequences
 
-The changes mean a bigger complexity due to the multiple storybook instances and CI hooks, but they also mean a pipeline of work between the teams, where each one knows where and when to act in the project.
+The changes mean a greater complexity due to the multiple storybook instances and CI triggers, but they also mean a pipeline of work between the teams, where each one knows where and when to act in the project.

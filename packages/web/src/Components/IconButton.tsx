@@ -1,15 +1,15 @@
-import React, { FunctionComponent, forwardRef } from 'react';
-import { withTheme } from '@material-ui/styles';
-import MaterialIconButton, {
-  IconButtonProps as IIconButtonProps
-} from '@material-ui/core/IconButton';
-export { IconButtonProps as IIconButtonProps } from '@material-ui/core/IconButton';
+import * as React from "react";
+import { withTheme } from "@material-ui/styles";
+import * as MaterialIconButton from "@material-ui/core/IconButton";
 
-export const IconButton: FunctionComponent<IIconButtonProps> = forwardRef((
+export type IIconButtonProps = MaterialIconButton.IconButtonProps;
+
+export const IconButton: React.FunctionComponent<IIconButtonProps> = React.forwardRef((
   props: IIconButtonProps,
-  ref: any
-) => (
-    <MaterialIconButton {...props} ref={ref} />
-));
+  // eslint-disable-next-line @typescript-eslint/no-explicit-any
+  ref: any,
+) => <MaterialIconButton.default {...props} ref={ref} />);
+
+IconButton.displayName = "IconButton";
 
 export default withTheme(IconButton);

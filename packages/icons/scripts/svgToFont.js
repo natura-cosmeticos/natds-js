@@ -1,84 +1,86 @@
 #!/usr/bin/env node
-const webfont = require('webfont').default;
-const fs = require('fs');
 
-const distMetada = './src/';
-const distFont = './src/fonts/';
-const files = './src/assets/cleaned/**/*.svg';
-const fontName = 'natds-icons';
-const types = ['eot', 'ttf', 'woff', 'woff2', 'svg'];
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const webfont = require("webfont").default;
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const fs = require("fs");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const getIconString = require("./helpers/getIconString");
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const getUnicodeIconString = require("./helpers/getUnicodeIconString");
 
-function createSwiftOutput(metadata) {
-  const capitalizeWord = word => `${word[0].toUpperCase()}${word.slice(1)}`;
+const config = {
+  files: "./src/assets/cleaned/**/*.svg",
+  fontHeight: 600,
+  fontName: "natds-icons",
+  normalize: true,
+  template: "css",
+  templateFontPath: "./fonts",
+};
 
-  const toCamelCase = word => word
-    .split('-')
-    .map((item, index) => index === 0 ? item : capitalizeWord(item))
-    .join('')
+const distMetadata = "./src/";
+const distFont = "./src/fonts/";
+const types = [
+  "eot",
+  "ttf",
+  "woff",
+  "woff2",
+  "svg",
+];
 
-  const toIosUnicode = (unicode) => `${unicode.replace('%u', '\\u{')}}`
+const onError = (error) => {
+  if (error) {
+    // eslint-disable-next-line no-console
+    console.error(error);
+  }
+};
 
+// @todo refactor(icons): refactor createSwiftOutput()
+const createSwiftOutput = (metadata) => {
   const formattedMetadataSwift = `
 public enum Icon: String, CaseIterable {
-  ${
-    Object
-      .keys(metadata)
-      .map(iconName => `case ${toCamelCase(iconName)} = "${iconName}"\n`)
-      .join('')
-    }
+  ${getIconString(metadata)}
 }
 
 extension Icon {
   var unicode: String {
       switch self {
-      ${
-    Object
-      .keys(metadata)
-      .map(iconName => `case .${toCamelCase(iconName)}: return "${toIosUnicode(metadata[iconName])}"\n`)
-      .join('')
-    }
+      ${getUnicodeIconString(metadata)}
       }
   }
 }
-`
-  fs.writeFile(distMetada + fontName + '.swift', formattedMetadataSwift, onError);
-}
+`;
 
-function onError(error) {
-  if (error) console.log(error);
-}
+  fs.writeFile(`${distMetadata + config.fontName}.swift`, formattedMetadataSwift, onError);
+};
 
-function onSuccess(result) {
+const FIRST_INDEX = 0;
+const INDEX_INCREMENT = 1;
+
+// eslint-disable-next-line max-lines-per-function
+const onSuccess = (result) => {
   const { config: { fontName }, template, glyphsData } = result;
   const metadata = {};
 
   glyphsData.forEach(({ metadata: { name, unicode } }) => {
-    const escapedUnicode = escape(unicode);
-    Object.assign(metadata, { [name]: escapedUnicode });
+    Object.assign(metadata, { [name]: escape(unicode) });
   });
 
-  fs.writeFile(distMetada + fontName + '.css', template, onError);
-  const formattedMetadataJson = JSON.stringify(metadata, null, "\t") + "\n";
-  fs.writeFile(distMetada + fontName + '.json', formattedMetadataJson, onError);
+  fs.writeFile(`${distMetadata + fontName}.css`, template, onError);
+  const formattedMetadataJson = `${JSON.stringify(metadata, null, "\t")}\n`;
 
-  for (let index = 0; index < types.length; index++) {
+  fs.writeFile(`${distMetadata + fontName}.json`, formattedMetadataJson, onError);
+
+  for (let index = FIRST_INDEX; index < types.length; index += INDEX_INCREMENT) {
     const element = types[index];
-    const filename = distFont + fontName + '.' + element;
+    const filename = `${distFont + fontName}.${element}`;
     const font = result[element];
 
     fs.writeFile(filename, font, onError);
   }
 
   createSwiftOutput(metadata);
-}
-
-const config = {
-  files,
-  fontName,
-  template: 'css',
-  fontHeight: 600,
-  normalize: true,
-  templateFontPath: './fonts'
 };
 
-webfont(config).then(onSuccess).catch(onError);
+webfont(config).then(onSuccess)
+  .catch(onError);

@@ -26,7 +26,6 @@ exports[`Switch component rendering should match to snapshot - Checked: Switch c
       <input
         checked={true}
         className="PrivateSwitchBase-input-4 MuiSwitch-input"
-        disabled={false}
         onChange={[Function]}
         type="checkbox"
       />
@@ -66,7 +65,6 @@ exports[`Switch component rendering should match to snapshot - Color: Switch col
     >
       <input
         className="PrivateSwitchBase-input-4 MuiSwitch-input"
-        disabled={false}
         onChange={[Function]}
         type="checkbox"
       />
@@ -109,7 +107,6 @@ exports[`Switch component rendering should match to snapshot - Default: Switch d
     >
       <input
         className="PrivateSwitchBase-input-4 MuiSwitch-input"
-        disabled={false}
         onChange={[Function]}
         type="checkbox"
       />
@@ -150,7 +147,6 @@ exports[`Switch component rendering should match to snapshot - Disabled: Switch 
       <input
         checked={true}
         className="PrivateSwitchBase-input-4 MuiSwitch-input"
-        disabled={false}
         onChange={[Function]}
         type="checkbox"
       />

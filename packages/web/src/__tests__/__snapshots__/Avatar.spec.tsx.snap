@@ -131,7 +131,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "MuiAlertTitle": Object {
           "root": Object {
             "fontSize": "1.25rem",
-            "fontWeight": 600,
+            "fontWeight": 500,
           },
         },
         "MuiAvatar": Object {
@@ -497,6 +497,11 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             },
           },
         },
+        "MuiTableSortLabel": Object {
+          "icon": Object {
+            "marginLeft": 8,
+          },
+        },
         "MuiTextField": Object {
           "& .MuiInputLabel": Object {
             "marginTop": "20px",
@@ -572,6 +577,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "primary": "#333333",
           "secondary": "#777777",
         },
+        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -622,7 +628,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "button": Object {
           "fontSize": "0.875rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "caption": Object {
           "fontSize": "0.75rem",
@@ -631,18 +637,18 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
         "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-        "fontFamilyBrand3": undefined,
+        "fontFamilyBrand3": null,
         "fontWeightBold": 700,
         "fontWeightLight": 300,
         "fontWeightMedium": 500,
         "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h2": Object {
           "fontSize": "3.75rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h3": Object {
           "fontSize": "3rem",
@@ -658,15 +664,15 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "h6": Object {
           "fontSize": "1.25rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "overline": Object {
           "fontSize": "0.75rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle1": Object {
           "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle2": Object {
           "fontSize": "0.875rem",
@@ -677,10 +683,9 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   }
 >
   <svg
-    aria-hidden="true"
+    aria-hidden={true}
     className="MuiSvgIcon-root MuiAvatar-fallback"
     focusable="false"
-    role="presentation"
     viewBox="0 0 24 24"
   >
     <path
@@ -827,7 +832,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "MuiAlertTitle": Object {
           "root": Object {
             "fontSize": "1.25rem",
-            "fontWeight": 600,
+            "fontWeight": 500,
           },
         },
         "MuiAvatar": Object {
@@ -1193,6 +1198,11 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             },
           },
         },
+        "MuiTableSortLabel": Object {
+          "icon": Object {
+            "marginLeft": 8,
+          },
+        },
         "MuiTextField": Object {
           "& .MuiInputLabel": Object {
             "marginTop": "20px",
@@ -1268,6 +1278,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "primary": "#333333",
           "secondary": "#777777",
         },
+        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -1318,7 +1329,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "button": Object {
           "fontSize": "0.875rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "caption": Object {
           "fontSize": "0.75rem",
@@ -1327,18 +1338,18 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
         "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-        "fontFamilyBrand3": undefined,
+        "fontFamilyBrand3": null,
         "fontWeightBold": 700,
         "fontWeightLight": 300,
         "fontWeightMedium": 500,
         "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h2": Object {
           "fontSize": "3.75rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h3": Object {
           "fontSize": "3rem",
@@ -1354,15 +1365,15 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "h6": Object {
           "fontSize": "1.25rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "overline": Object {
           "fontSize": "0.75rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle1": Object {
           "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle2": Object {
           "fontSize": "0.875rem",
@@ -1373,10 +1384,9 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   }
 >
   <svg
-    aria-hidden="true"
+    aria-hidden={true}
     className="MuiSvgIcon-root MuiAvatar-fallback"
     focusable="false"
-    role="presentation"
     viewBox="0 0 24 24"
   >
     <path
@@ -1523,7 +1533,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "MuiAlertTitle": Object {
           "root": Object {
             "fontSize": "1.25rem",
-            "fontWeight": 600,
+            "fontWeight": 500,
           },
         },
         "MuiAvatar": Object {
@@ -1889,6 +1899,11 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
             },
           },
         },
+        "MuiTableSortLabel": Object {
+          "icon": Object {
+            "marginLeft": 8,
+          },
+        },
         "MuiTextField": Object {
           "& .MuiInputLabel": Object {
             "marginTop": "20px",
@@ -1964,6 +1979,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
           "primary": "#333333",
           "secondary": "#777777",
         },
+        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -2014,7 +2030,7 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "button": Object {
           "fontSize": "0.875rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "caption": Object {
           "fontSize": "0.75rem",
@@ -2023,18 +2039,18 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
         "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-        "fontFamilyBrand3": undefined,
+        "fontFamilyBrand3": null,
         "fontWeightBold": 700,
         "fontWeightLight": 300,
         "fontWeightMedium": 500,
         "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h2": Object {
           "fontSize": "3.75rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h3": Object {
           "fontSize": "3rem",
@@ -2050,15 +2066,15 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
         },
         "h6": Object {
           "fontSize": "1.25rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "overline": Object {
           "fontSize": "0.75rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle1": Object {
           "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle2": Object {
           "fontSize": "0.875rem",
@@ -2069,10 +2085,9 @@ exports[`Avatar component rendering avatars colors should match snapshot - Avata
   }
 >
   <svg
-    aria-hidden="true"
+    aria-hidden={true}
     className="MuiSvgIcon-root MuiAvatar-fallback"
     focusable="false"
-    role="presentation"
     viewBox="0 0 24 24"
   >
     <path
@@ -2220,7 +2235,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiAlertTitle": Object {
           "root": Object {
             "fontSize": "1.25rem",
-            "fontWeight": 600,
+            "fontWeight": 500,
           },
         },
         "MuiAvatar": Object {
@@ -2586,6 +2601,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
           },
         },
+        "MuiTableSortLabel": Object {
+          "icon": Object {
+            "marginLeft": 8,
+          },
+        },
         "MuiTextField": Object {
           "& .MuiInputLabel": Object {
             "marginTop": "20px",
@@ -2661,6 +2681,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "primary": "#333333",
           "secondary": "#777777",
         },
+        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -2711,7 +2732,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "button": Object {
           "fontSize": "0.875rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "caption": Object {
           "fontSize": "0.75rem",
@@ -2720,18 +2741,18 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
         "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-        "fontFamilyBrand3": undefined,
+        "fontFamilyBrand3": null,
         "fontWeightBold": 700,
         "fontWeightLight": 300,
         "fontWeightMedium": 500,
         "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h2": Object {
           "fontSize": "3.75rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h3": Object {
           "fontSize": "3rem",
@@ -2747,15 +2768,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "h6": Object {
           "fontSize": "1.25rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "overline": Object {
           "fontSize": "0.75rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle1": Object {
           "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle2": Object {
           "fontSize": "0.875rem",
@@ -2766,10 +2787,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   }
 >
   <svg
-    aria-hidden="true"
+    aria-hidden={true}
     className="MuiSvgIcon-root MuiAvatar-fallback"
     focusable="false"
-    role="presentation"
     viewBox="0 0 24 24"
   >
     <path
@@ -2917,7 +2937,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiAlertTitle": Object {
           "root": Object {
             "fontSize": "1.25rem",
-            "fontWeight": 600,
+            "fontWeight": 500,
           },
         },
         "MuiAvatar": Object {
@@ -3283,6 +3303,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
           },
         },
+        "MuiTableSortLabel": Object {
+          "icon": Object {
+            "marginLeft": 8,
+          },
+        },
         "MuiTextField": Object {
           "& .MuiInputLabel": Object {
             "marginTop": "20px",
@@ -3358,6 +3383,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "primary": "#333333",
           "secondary": "#777777",
         },
+        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -3408,7 +3434,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "button": Object {
           "fontSize": "0.875rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "caption": Object {
           "fontSize": "0.75rem",
@@ -3417,18 +3443,18 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
         "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-        "fontFamilyBrand3": undefined,
+        "fontFamilyBrand3": null,
         "fontWeightBold": 700,
         "fontWeightLight": 300,
         "fontWeightMedium": 500,
         "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h2": Object {
           "fontSize": "3.75rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h3": Object {
           "fontSize": "3rem",
@@ -3444,15 +3470,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "h6": Object {
           "fontSize": "1.25rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "overline": Object {
           "fontSize": "0.75rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle1": Object {
           "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle2": Object {
           "fontSize": "0.875rem",
@@ -3463,10 +3489,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   }
 >
   <svg
-    aria-hidden="true"
+    aria-hidden={true}
     className="MuiSvgIcon-root MuiAvatar-fallback"
     focusable="false"
-    role="presentation"
     viewBox="0 0 24 24"
   >
     <path
@@ -3614,7 +3639,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiAlertTitle": Object {
           "root": Object {
             "fontSize": "1.25rem",
-            "fontWeight": 600,
+            "fontWeight": 500,
           },
         },
         "MuiAvatar": Object {
@@ -3980,6 +4005,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
           },
         },
+        "MuiTableSortLabel": Object {
+          "icon": Object {
+            "marginLeft": 8,
+          },
+        },
         "MuiTextField": Object {
           "& .MuiInputLabel": Object {
             "marginTop": "20px",
@@ -4055,6 +4085,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "primary": "#333333",
           "secondary": "#777777",
         },
+        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -4105,7 +4136,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "button": Object {
           "fontSize": "0.875rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "caption": Object {
           "fontSize": "0.75rem",
@@ -4114,18 +4145,18 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
         "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-        "fontFamilyBrand3": undefined,
+        "fontFamilyBrand3": null,
         "fontWeightBold": 700,
         "fontWeightLight": 300,
         "fontWeightMedium": 500,
         "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h2": Object {
           "fontSize": "3.75rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h3": Object {
           "fontSize": "3rem",
@@ -4141,15 +4172,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "h6": Object {
           "fontSize": "1.25rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "overline": Object {
           "fontSize": "0.75rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle1": Object {
           "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle2": Object {
           "fontSize": "0.875rem",
@@ -4160,10 +4191,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   }
 >
   <svg
-    aria-hidden="true"
+    aria-hidden={true}
     className="MuiSvgIcon-root MuiAvatar-fallback"
     focusable="false"
-    role="presentation"
     viewBox="0 0 24 24"
   >
     <path
@@ -4311,7 +4341,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiAlertTitle": Object {
           "root": Object {
             "fontSize": "1.25rem",
-            "fontWeight": 600,
+            "fontWeight": 500,
           },
         },
         "MuiAvatar": Object {
@@ -4677,6 +4707,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
           },
         },
+        "MuiTableSortLabel": Object {
+          "icon": Object {
+            "marginLeft": 8,
+          },
+        },
         "MuiTextField": Object {
           "& .MuiInputLabel": Object {
             "marginTop": "20px",
@@ -4752,6 +4787,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "primary": "#333333",
           "secondary": "#777777",
         },
+        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -4802,7 +4838,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "button": Object {
           "fontSize": "0.875rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "caption": Object {
           "fontSize": "0.75rem",
@@ -4811,18 +4847,18 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
         "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-        "fontFamilyBrand3": undefined,
+        "fontFamilyBrand3": null,
         "fontWeightBold": 700,
         "fontWeightLight": 300,
         "fontWeightMedium": 500,
         "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h2": Object {
           "fontSize": "3.75rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h3": Object {
           "fontSize": "3rem",
@@ -4838,15 +4874,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "h6": Object {
           "fontSize": "1.25rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "overline": Object {
           "fontSize": "0.75rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle1": Object {
           "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle2": Object {
           "fontSize": "0.875rem",
@@ -4857,10 +4893,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   }
 >
   <svg
-    aria-hidden="true"
+    aria-hidden={true}
     className="MuiSvgIcon-root MuiAvatar-fallback"
     focusable="false"
-    role="presentation"
     viewBox="0 0 24 24"
   >
     <path
@@ -5008,7 +5043,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "MuiAlertTitle": Object {
           "root": Object {
             "fontSize": "1.25rem",
-            "fontWeight": 600,
+            "fontWeight": 500,
           },
         },
         "MuiAvatar": Object {
@@ -5374,6 +5409,11 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
             },
           },
         },
+        "MuiTableSortLabel": Object {
+          "icon": Object {
+            "marginLeft": 8,
+          },
+        },
         "MuiTextField": Object {
           "& .MuiInputLabel": Object {
             "marginTop": "20px",
@@ -5449,6 +5489,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
           "primary": "#333333",
           "secondary": "#777777",
         },
+        "type": "light",
       },
       "shadows": Object {
         "0": "none",
@@ -5499,7 +5540,7 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "button": Object {
           "fontSize": "0.875rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "caption": Object {
           "fontSize": "0.75rem",
@@ -5508,18 +5549,18 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         "fontFamily": "\\"Roboto\\", sans-serif",
         "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
         "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
-        "fontFamilyBrand3": undefined,
+        "fontFamilyBrand3": null,
         "fontWeightBold": 700,
         "fontWeightLight": 300,
         "fontWeightMedium": 500,
         "fontWeightRegular": 400,
         "h1": Object {
           "fontSize": "6rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h2": Object {
           "fontSize": "3.75rem",
-          "fontWeight": 300,
+          "fontWeight": 400,
         },
         "h3": Object {
           "fontSize": "3rem",
@@ -5535,15 +5576,15 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
         },
         "h6": Object {
           "fontSize": "1.25rem",
-          "fontWeight": 600,
+          "fontWeight": 500,
         },
         "overline": Object {
           "fontSize": "0.75rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle1": Object {
           "fontSize": "1rem",
-          "fontWeight": 400,
+          "fontWeight": 500,
         },
         "subtitle2": Object {
           "fontSize": "0.875rem",
@@ -5554,10 +5595,9 @@ exports[`Avatar component rendering avatars sizes should match snapshot - Avatar
   }
 >
   <svg
-    aria-hidden="true"
+    aria-hidden={true}
     className="MuiSvgIcon-root MuiAvatar-fallback"
     focusable="false"
-    role="presentation"
     viewBox="0 0 24 24"
   >
     <path

@@ -1,0 +1,56 @@
+{
+  "compilerOptions": {
+    "allowJs": true,
+    "allowSyntheticDefaultImports": true,
+    "baseUrl": "./",
+    "emitDecoratorMetadata": true,
+    "esModuleInterop": true,
+    "experimentalDecorators": true,
+    "forceConsistentCasingInFileNames": true,
+    "jsx": "react",
+    "lib": [
+      "es5",
+      "es6",
+      "es7",
+      "es2017",
+      "dom"
+    ],
+    "module": "commonjs",
+    "moduleResolution": "node",
+    "newLine": "lf",
+    "noEmit": false,
+    "noImplicitAny": true,
+    "noImplicitReturns": true,
+    "noImplicitThis": true,
+    "outDir": "dist",
+    "paths": {
+      "@addons/*": [
+        "./addons/*"
+      ],
+      "@decorators/*": [
+        "./decorators/*"
+      ],
+      "@packages/*": [
+        "../*"
+      ],
+      "@src/*": [
+        "./src/*"
+      ]
+    },
+    "resolveJsonModule": true,
+    "rootDirs": [
+      "../../packages",
+      "./src",
+      "./decorators",
+      "./addons"
+    ],
+    "skipLibCheck": true,
+    "sourceMap": true,
+    "strictNullChecks": true,
+    "suppressImplicitAnyIndexErrors": true,
+    "target": "es5"
+  },
+  "exclude": [
+    "node_modules"
+  ]
+}

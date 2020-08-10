@@ -1,25 +1,26 @@
+/* eslint-disable sort-keys */
 import { IAvatarSizes } from "./IAvatarSizes";
 import { sizes } from "../sizes";
 
 export const avatarSizes: IAvatarSizes = {
   tiny: {
+    fontSize: ".625rem",
     size: sizes.standard,
-    fontSize: ".625rem"
   },
   small: {
+    fontSize: ".875rem",
     size: sizes.semi,
-    fontSize: ".875rem"
   },
   standard: {
+    fontSize: "1rem",
     size: sizes.semix,
-    fontSize: "1rem"
   },
   large: {
+    fontSize: "1rem",
     size: sizes.medium,
-    fontSize: "1rem"
   },
   huge: {
+    fontSize: "1.5rem",
     size: sizes.largexx,
-    fontSize: "1.5rem"
-  }
+  },
 };

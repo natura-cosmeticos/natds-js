@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 import { IColorsNatura } from "./IColorsNatura";
 
 export const natura: IColorsNatura = {
@@ -5,14 +6,14 @@ export const natura: IColorsNatura = {
     colorBrdNatPrimaryOrange: "#FF6B0B",
     colorBrdNatPrimaryYellow: "#F4AB34",
     colorBrdNatPrimaryBrown: "#513528",
-    colorBrdNatPrimaryWhite: "#FFFFFF"
+    colorBrdNatPrimaryWhite: "#FFFFFF",
   },
 
   secondary: {
     colorBrdNatSecondaryPurple: "#7080A0",
     colorBrdNatSecondaryBlue: "#71CACD",
     colorBrdNatSecondaryGreen: "#B3CA36",
-    colorBrdNatSecondaryYellow: "#FFBA1B"
+    colorBrdNatSecondaryYellow: "#FFBA1B",
   },
 
   grayscale: {
@@ -20,7 +21,7 @@ export const natura: IColorsNatura = {
     colorBrdNatGray: "#333333",
     colorBrdNatGray1: "#777777",
     colorBrdNatGray2: "#BBBBBB",
-    colorBrdNatGray3: "#EEEEEE"
+    colorBrdNatGray3: "#EEEEEE",
   },
 
   level: {
@@ -28,7 +29,7 @@ export const natura: IColorsNatura = {
     colorLevelBronze: "#C47F5B",
     colorLevelSilver: "#9D9D9C",
     colorLevelDiamond: "#AEC2CE",
-    colorLevelGold: "#D8B75E"
+    colorLevelGold: "#D8B75E",
   },
 
   complementary: {
@@ -54,7 +55,7 @@ export const natura: IColorsNatura = {
     colorBrdNatCpRed4: "#F29669",
     colorBrdNatCpBrown1: "#371E14",
     colorBrdNatCpBrown2: "#5D3B2A",
-    colorBrdNatCpBrown3: "#7A573C"
+    colorBrdNatCpBrown3: "#7A573C",
   },
 
   gradient: {
@@ -74,6 +75,6 @@ export const natura: IColorsNatura = {
     colorBrdNatGrad14: "linear-gradient(112deg, #E8E0D1 0%, #DBE7B1 100%) 0% 0% no-repeat padding-box",
     colorBrdNatGrad15: "linear-gradient(112deg, #FAC6AB 0%, #DCEFF3 100%) 0% 0% no-repeat padding-box",
     colorBrdNatGrad16: "linear-gradient(112deg, #E8E0D1 0%, #FAC6AB 100%) 0% 0% no-repeat padding-box",
-    colorBrdNatGrad17: "linear-gradient(112deg, #FFEDB5 0%, #FAC6AB 100%) 0% 0% no-repeat padding-box"
-  }
+    colorBrdNatGrad17: "linear-gradient(112deg, #FFEDB5 0%, #FAC6AB 100%) 0% 0% no-repeat padding-box",
+  },
 };

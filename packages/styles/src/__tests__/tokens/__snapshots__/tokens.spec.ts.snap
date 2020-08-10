@@ -327,7 +327,7 @@ Object {
     },
     "button": Object {
       "fontSize": "0.875rem",
-      "fontWeight": 600,
+      "fontWeight": 500,
     },
     "caption": Object {
       "fontSize": "0.75rem",
@@ -335,11 +335,11 @@ Object {
     },
     "h1": Object {
       "fontSize": "6rem",
-      "fontWeight": 300,
+      "fontWeight": 400,
     },
     "h2": Object {
       "fontSize": "3.75rem",
-      "fontWeight": 300,
+      "fontWeight": 400,
     },
     "h3": Object {
       "fontSize": "3rem",
@@ -355,15 +355,15 @@ Object {
     },
     "h6": Object {
       "fontSize": "1.25rem",
-      "fontWeight": 600,
+      "fontWeight": 500,
     },
     "overline": Object {
       "fontSize": "0.75rem",
-      "fontWeight": 400,
+      "fontWeight": 500,
     },
     "subtitle1": Object {
       "fontSize": "1rem",
-      "fontWeight": 400,
+      "fontWeight": 500,
     },
     "subtitle2": Object {
       "fontSize": "0.875rem",
@@ -429,6 +429,9 @@ Object {
   "spacing": Object {
     "spacing": 8,
     "spacingHuge": 64,
+    "spacingHugeX": 128,
+    "spacingHugeXX": 144,
+    "spacingHugeXXX": 192,
     "spacingLarge": 48,
     "spacingMicro": 4,
     "spacingNone": 0,
@@ -436,6 +439,7 @@ Object {
     "spacingSmall": 16,
     "spacingStandard": 24,
     "spacingTiny": 8,
+    "spacingVeryHuge": 256,
   },
 }
 `;

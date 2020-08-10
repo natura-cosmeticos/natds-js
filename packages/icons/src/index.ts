@@ -1,8 +1,3 @@
-/**
- * @todo Review/re-enable `await-promise` tslint rule
- * @todo Review/re-enable `deprecation` tslint rule
- * @todo Review/re-enable `no-unnecessary-qualifier` tslint rule
- */
 import * as iconStyles from "./natds-icons.css";
 import iconNames from "./natds-icons.json";
 import * as NatdsIconsEot from "./fonts/natds-icons.eot";
@@ -18,5 +13,5 @@ export {
   NatdsIconsSvg,
   NatdsIconsTtf,
   NatdsIconsWoff,
-  NatdsIconsWoff2
+  NatdsIconsWoff2,
 };

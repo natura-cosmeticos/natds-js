@@ -1,3 +1,4 @@
+/* eslint-disable sort-keys */
 export interface IColorThemeTokens {
   colorPrimary: string;
   colorOnPrimary: string;

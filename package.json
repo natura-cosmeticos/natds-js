@@ -26,36 +26,38 @@
   "scripts": {
     "bootstrap": "lerna bootstrap",
     "build": "lerna run build",
-    "build:docs:prerelease": "bash scripts/build-storybook-release.sh",
-    "build:libs": "lerna run build --ignore @naturacosmeticos/natds-docs",
     "clean": "lerna clean",
+    "cm": "git cz",
     "commit": "git cz",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx --cache",
+    "format": "yarn lint --fix",
+    "format:staged": "yarn lint:staged --fix",
     "lerna": "lerna",
     "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog",
-    "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --force-publish --yes",
-    "lerna:prerelease:publish": "lerna publish from-git --ignore-prepublish",
+    "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --force-git-tag --force-publish --yes",
+    "lerna:prerelease:publish": "lerna publish from-git --canary --ignore-prepublish",
     "lerna:prerelease:publish:ci": "yarn lerna:prerelease:publish --yes",
-    "lerna:release:version": "lerna version --allow-branch master --conventional-commits",
-    "lerna:release:version:ci": "yarn lerna:release:version --create-release github --yes",
+    "lerna:release:version": "lerna version --allow-branch main --conventional-commits",
+    "lerna:release:version:ci": "yarn lerna:release:version --create-release github --force-publish --yes",
     "lerna:release:publish": "lerna publish from-git --dist-tag latest --ignore-prepublish",
     "lerna:release:publish:ci": "yarn lerna:release:publish --yes",
     "lerna:graduate:version": "lerna version --conventional-commits --conventional-graduate",
     "lerna:graduate:version:ci": "yarn lerna:graduate:version --force-publish --yes",
-    "lint": "lerna run lint",
+    "lint": "yarn eslint .",
+    "lint:staged": "yarn eslint $(git diff --name-only --diff-filter=ACM \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" | sed 's| |\\\\ |g')",
     "prebuild": "yarn lint",
     "prepare": "BUILD=production yarn test",
-    "pretest": "yarn build:libs",
+    "pretest": "yarn build",
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "stryker:run": "stryker run",
-    "test": "lerna run test:ci --stream",
+    "test": "jest && lerna run test:ci --stream",
     "test:ci": "lerna run test:ci --ignore @naturacosmeticos/natds-docs --ignore @naturacosmeticos/natds-icons",
     "version": "echo $npm_package_version",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\""
   },
   "workspaces": {
     "packages": [
-      "packages/docs",
       "packages/icons",
       "packages/styles",
       "packages/web"
@@ -72,31 +74,38 @@
     ]
   },
   "devDependencies": {
-    "@commitlint/cli": "9.0.1",
-    "@commitlint/config-conventional": "9.0.1",
+    "@commitlint/cli": "9.1.2",
+    "@commitlint/config-conventional": "9.1.2",
+    "@naturacosmeticos/eslint-config-natura": "2.0.2",
     "@stryker-mutator/core": "3.3.1",
     "@stryker-mutator/javascript-mutator": "3.3.1",
     "@stryker-mutator/jest-runner": "3.3.1",
+    "@typescript-eslint/eslint-plugin": "3.9.0",
+    "@typescript-eslint/parser": "3.9.0",
     "commitizen": "4.1.2",
-    "concurrently": "5.2.0",
+    "concurrently": "5.3.0",
     "cz-lerna-changelog": "2.0.3",
+    "eslint": "7.6.0",
+    "eslint-plugin-import": "2.22.0",
+    "eslint-plugin-mocha": "8.0.0",
+    "eslint-plugin-react": "7.20.5",
     "husky": "4.2.5",
-    "jest": "26.1.0",
+    "jest": "26.3.0",
     "lerna": "3.22.1",
-    "netlify": "4.3.5",
-    "shelljs": "0.8.4"
+    "netlify": "4.3.11",
+    "shelljs": "0.8.4",
+    "typescript": "3.9.7"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
   },
-  "dependencies": {
-    "glob": "7.1.6"
-  },
   "husky": {
     "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS"
+      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
+      "pre-commit": "yarn format:staged",
+      "pre-push": "yarn test"
     }
   }
 }

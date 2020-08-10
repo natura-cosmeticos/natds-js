@@ -23,24 +23,46 @@ echo "STORYBOOK Creating temp directory for bundle..."
 mkdir -p ../tmp
 
 echo "STORYBOOK Opening docs package directory..."
-cd "${TRAVIS_BUILD_DIR}/packages/docs"
+cd "${TRAVIS_BUILD_DIR}/packages/web"
 
 echo "STORYBOOK Generating JSON report for Jest addon..."
-yarn lerna run test:packages
+yarn run test:output
 
 echo "STORYBOOK Building Storybook..."
-yarn build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
+yarn storybook:build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
 
 echo "STORYBOOK Going back to project root directory..."
-cd "$TRAVIS_BUILD_DIR"
+cd "${TRAVIS_BUILD_DIR}"
 
-echo "STORYBOOK Moving to docs branch..."
-git checkout .
-git checkout "${TRAVIS_BRANCH}-docs"
+echo "STORYBOOK Fetching from Git..."
+git fetch
 
-echo "STORYBOOK Adding version ${VERSION} to versions JSON file..."
-cd scripts
-node helpers/addVersionOnConfig.js "${VERSION}"
+if [ "${TRAVIS_BRANCH}" = "main" ]; then
+  echo "STORYBOOK At main branch"
+  git checkout .
+
+  echo "STORYBOOK Switching to ${TRAVIS_BRANCH}-docs branch..."
+  git checkout main-docs
+else
+  echo "STORYBOOK At DSY-* branch"
+
+  echo "STORYBOOK Updating from remote..."
+  git remote update
+
+  echo "STORYBOOK Switching to main-docs branch..."
+  git checkout main-docs
+
+  # @see https://stackoverflow.com/questions/49297153/why-is-it-not-a-commit-and-a-branch-cannot-be-created-from-it
+  echo "STORYBOOK Fetching from Git..."
+  git fetch --all
+
+  echo "STORYBOOK Creating ${TRAVIS_BRANCH}-docs branch from main-docs branch..."
+  git checkout -b "${TRAVIS_BRANCH}-docs" main-docs
+fi
+
+echo "STORYBOOK [SKIPPED] Adding version ${VERSION} to versions JSON file"
+# cd scripts
+# node helpers/addVersionOnConfig.js "${VERSION}"
 
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"
@@ -48,9 +70,11 @@ cd "${TRAVIS_BUILD_DIR}"
 echo "STORYBOOK Copying generated Storybook to releases directory..."
 cp -r "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" packages/docs/dist/releases
 
-echo "STORYBOOK Committing changes..."
+echo "STORYBOOK Staging all changes..."
 git add --all
-git commit -m "docs: generating storybook for version ${VERSION} [skip ci]" --allow-empty
 
-echo "STORYBOOK Updating master-docs branch..."
-git push -f -u origin master-docs
+echo "STORYBOOK Committing changes"
+git commit -m "docs: generating storybook for version ${VERSION} [skip travis]" --allow-empty
+
+echo "STORYBOOK Updating ${TRAVIS_BRANCH}-docs branch..."
+git push -f -u origin "${TRAVIS_BRANCH}-docs"

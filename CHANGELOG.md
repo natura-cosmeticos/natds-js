@@ -3,6 +3,773 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.17.19](https://github.com/natura-cosmeticos/natds/compare/v0.17.18...v0.17.19) (2020-08-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.18](https://github.com/natura-cosmeticos/natds/compare/v0.17.17...v0.17.18) (2020-08-10)
+
+
+### Performance Improvements
+
+* avoid linting of ignored/generated files ([b63429c](https://github.com/natura-cosmeticos/natds/commit/b63429cbf258aa1ad0491c6224b54ebd199ee0f5))
+
+
+
+
+
+## [0.17.17](https://github.com/natura-cosmeticos/natds/compare/v0.17.16...v0.17.17) (2020-08-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.16](https://github.com/natura-cosmeticos/natds/compare/v0.17.15...v0.17.16) (2020-08-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.15](https://github.com/natura-cosmeticos/natds/compare/v0.17.14...v0.17.15) (2020-08-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.14](https://github.com/natura-cosmeticos/natds/compare/v0.17.13...v0.17.14) (2020-08-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.13](https://github.com/natura-cosmeticos/natds/compare/v0.17.12...v0.17.13) (2020-08-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.12](https://github.com/natura-cosmeticos/natds/compare/v0.17.11...v0.17.12) (2020-08-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.11](https://github.com/natura-cosmeticos/natds/compare/v0.17.10...v0.17.11) (2020-08-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.10](https://github.com/natura-cosmeticos/natds/compare/v0.17.9...v0.17.10) (2020-08-08)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.9](https://github.com/natura-cosmeticos/natds/compare/v0.17.8...v0.17.9) (2020-08-08)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.8](https://github.com/natura-cosmeticos/natds/compare/v0.17.7...v0.17.8) (2020-08-08)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.7](https://github.com/natura-cosmeticos/natds/compare/v0.17.6...v0.17.7) (2020-08-08)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.6](https://github.com/natura-cosmeticos/natds/compare/v0.17.5...v0.17.6) (2020-08-07)
+
+
+### Reverts
+
+* Revert "chore(web): add suport to markdown as module" ([fa81305](https://github.com/natura-cosmeticos/natds/commit/fa81305d06a4f916e14acfe2e13513857227ab31))
+
+
+
+
+
+## [0.17.5](https://github.com/natura-cosmeticos/natds/compare/v0.17.4...v0.17.5) (2020-08-07)
+
+
+### Bug Fixes
+
+* **avatar:** fix IThemeWeb import ([e197acc](https://github.com/natura-cosmeticos/natds/commit/e197acc9182d71da3939d8f1e68335ad16400651))
+* **skeleton:** add missing "children" property ([4119965](https://github.com/natura-cosmeticos/natds/commit/4119965b46ab665a10438501a224846622dc94a2))
+* **storybook:** don't ignore typescript checking on storybook build ([9cd23a3](https://github.com/natura-cosmeticos/natds/commit/9cd23a34b8be2490f34af0386a9e3a8ee82486c8))
+
+
+
+
+
+## [0.17.4](https://github.com/natura-cosmeticos/natds/compare/v0.17.3...v0.17.4) (2020-08-07)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.17.3](https://github.com/natura-cosmeticos/natds/compare/v0.17.2...v0.17.3) (2020-08-07)
+
+
+### Bug Fixes
+
+* **skeleton:** add missing ISkeletonProps export ([ca5dccf](https://github.com/natura-cosmeticos/natds/commit/ca5dccf07dcd157358d52a2ac38b790fda62b591))
+* **skeleton:** keep interface/props even with forwardRef ([5d66200](https://github.com/natura-cosmeticos/natds/commit/5d6620063d545031888b8a3197d4c33eaf0eb5f6))
+
+
+
+
+
+## [0.17.2](https://github.com/natura-cosmeticos/natds/compare/v0.17.1...v0.17.2) (2020-08-06)
+
+
+### Bug Fixes
+
+* **container:** prevent "export not found" error ([dcd83bb](https://github.com/natura-cosmeticos/natds/commit/dcd83bb29bee4ffc0676c42768f9862beda20315))
+* **cssbaseline:** prevent "export not found" error ([905d8b7](https://github.com/natura-cosmeticos/natds/commit/905d8b7283d6d22034ff5c0d8e879ec56d899727))
+* **scopedcssbaseline:** prevent "export not found" error ([913fd84](https://github.com/natura-cosmeticos/natds/commit/913fd845ffa319104354966f6c0442dea17e4b9e))
+* **skeleton:** prevent error "export 'Skeleton' was not found" ([e2249c3](https://github.com/natura-cosmeticos/natds/commit/e2249c3fff85c8b660bee2969fb3e880e6656848))
+* **storybook:** prevent error when story component list is empty ([44ea24e](https://github.com/natura-cosmeticos/natds/commit/44ea24e90a408d54c4bac58f7477c32e90154d25))
+
+
+### Features
+
+* **web:** add a revamped storybook ([51dbac2](https://github.com/natura-cosmeticos/natds/commit/51dbac225fe60da109594ee9980d13bac185cd71))
+
+
+
+
+
+## [0.17.1](https://github.com/natura-cosmeticos/natds/compare/v0.18.0-alpha.DSY-1098.4413.0...v0.17.1) (2020-08-06)
+
+
+### Reverts
+
+* Revert "chore(release): publish v0.18.0-alpha.DSY-1098.4413.0 via lerna [skip ci]" ([555dcb3](https://github.com/natura-cosmeticos/natds/commit/555dcb3b66996f6bbe384d737262963bac6fd2b8))
+
+
+
+
+
+# [0.17.0](https://github.com/natura-cosmeticos/natds/compare/v0.16.13...v0.17.0) (2020-08-05)
+
+
+### Features
+
+* **web:** add CssBaseline layout component ([a273f97](https://github.com/natura-cosmeticos/natds/commit/a273f9736f0bf635a34b7896fb2976b0a36636ed))
+* **web:** add ScopedCssBaseline layout component ([ddcc9e8](https://github.com/natura-cosmeticos/natds/commit/ddcc9e81c93d57174b665e61c46ccfb929436f47))
+* **web:** add Skeleton component ([4f307f5](https://github.com/natura-cosmeticos/natds/commit/4f307f5f19b57f38b8f17b2a61cf7953195ae667))
+* **web:** add support to named imports of CssBaseline and ScopedCssBaseline ([1dcad70](https://github.com/natura-cosmeticos/natds/commit/1dcad70b2cc4385ae5e0f3e94146664131762632))
+
+
+
+
+
+## [0.16.13](https://github.com/natura-cosmeticos/natds/compare/v0.16.12...v0.16.13) (2020-08-05)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.12](https://github.com/natura-cosmeticos/natds/compare/v0.16.11...v0.16.12) (2020-08-05)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.11](https://github.com/natura-cosmeticos/natds/compare/v0.16.10...v0.16.11) (2020-08-03)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.10](https://github.com/natura-cosmeticos/natds/compare/v0.16.9...v0.16.10) (2020-08-03)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.9](https://github.com/natura-cosmeticos/natds/compare/v0.16.8...v0.16.9) (2020-08-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.8](https://github.com/natura-cosmeticos/natds/compare/v0.16.7...v0.16.8) (2020-08-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.7](https://github.com/natura-cosmeticos/natds/compare/v0.16.6...v0.16.7) (2020-08-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.6](https://github.com/natura-cosmeticos/natds/compare/v0.16.5...v0.16.6) (2020-07-31)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.5](https://github.com/natura-cosmeticos/natds/compare/v0.16.4...v0.16.5) (2020-07-31)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.4](https://github.com/natura-cosmeticos/natds/compare/v0.16.3...v0.16.4) (2020-07-31)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.3](https://github.com/natura-cosmeticos/natds/compare/v0.16.2...v0.16.3) (2020-07-31)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.2](https://github.com/natura-cosmeticos/natds/compare/v0.16.1...v0.16.2) (2020-07-31)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.16.1](https://github.com/natura-cosmeticos/natds/compare/v0.16.0...v0.16.1) (2020-07-30)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+# [0.16.0](https://github.com/natura-cosmeticos/natds/compare/v0.15.6...v0.16.0) (2020-07-30)
+
+
+### Features
+
+* **web:** import Container when importing * from natds-web ([1428384](https://github.com/natura-cosmeticos/natds/commit/14283845cf02ffa80a4d8c982cde101c5d355cc5))
+
+
+### Performance Improvements
+
+* **web:** import Container without importing everything ([bccfe8b](https://github.com/natura-cosmeticos/natds/commit/bccfe8b62c295b035b932921f495c14c41f6d704))
+
+
+
+# [0.16.0-alpha.DSY-1279.0](https://github.com/natura-cosmeticos/natds/compare/v0.15.4...v0.16.0-alpha.DSY-1279.0) (2020-07-30)
+
+
+### Features
+
+* **web:** add `Container` layout component ([b168758](https://github.com/natura-cosmeticos/natds/commit/b168758af09e6313dd816b658c2d3112626b55ff))
+
+
+
+
+
+## [0.15.6](https://github.com/natura-cosmeticos/natds/compare/v0.15.5...v0.15.6) (2020-07-30)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.15.5](https://github.com/natura-cosmeticos/natds/compare/v0.15.4...v0.15.5) (2020-07-30)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.15.4](https://github.com/natura-cosmeticos/natds/compare/v0.15.3...v0.15.4) (2020-07-29)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.15.3](https://github.com/natura-cosmeticos/natds/compare/v0.15.2...v0.15.3) (2020-07-29)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.15.2](https://github.com/natura-cosmeticos/natds/compare/v0.15.1...v0.15.2) (2020-07-28)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.15.1](https://github.com/natura-cosmeticos/natds/compare/v0.15.0...v0.15.1) (2020-07-27)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+# [0.15.0](https://github.com/natura-cosmeticos/natds/compare/v0.14.0...v0.15.0) (2020-07-24)
+
+
+### Bug Fixes
+
+* **docs:** add 400 and 500 font weights ([af8d17d](https://github.com/natura-cosmeticos/natds/commit/af8d17d9a8fb16128bdba1caeb8c9c1422110df3))
+* **docs:** add missing indeterminate knob - Closes [#699](https://github.com/natura-cosmeticos/natds/issues/699) ([8478ca0](https://github.com/natura-cosmeticos/natds/commit/8478ca0ea2dcffcdaac7e2d852b46f7344a2540b))
+* **styles:** set correct font weights to typography tokens ([eb76549](https://github.com/natura-cosmeticos/natds/commit/eb76549e5405915c389d971af526e0ca35a9798d))
+
+
+
+# [0.14.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds/compare/v0.13.7...v0.14.0-alpha.DSY-1148.0) (2020-07-21)
+
+
+
+# [0.13.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.1...v0.13.0-alpha.DSY-1148.0) (2020-07-16)
+
+
+
+## [0.12.1](https://github.com/natura-cosmeticos/natds/compare/v0.12.0...v0.12.1) (2020-07-16)
+
+
+
+# [0.12.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.0-alpha.DSY-1148.0...v0.12.0) (2020-07-15)
+
+
+### Bug Fixes
+
+* **icons:** update generated `natds-icons` font files ([2eacab5](https://github.com/natura-cosmeticos/natds/commit/2eacab5565f0b8f738de8d7fd8ad19a4efa05179))
+* avoid warning on importing ([6f45bb3](https://github.com/natura-cosmeticos/natds/commit/6f45bb3e63b08e055acd1d7a22ab6b1f3c2647d6))
+
+
+
+# [0.12.0-alpha.DSY-1148.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.0-alpha.DSY-1081.0...v0.12.0-alpha.DSY-1148.0) (2020-07-14)
+
+
+### Bug Fixes
+
+* **web:** update component test snapshots ([72504cc](https://github.com/natura-cosmeticos/natds/commit/72504cccc9cff7f92e14b526879ba0580c301f50))
+
+
+
+# [0.12.0-alpha.DSY-1081.0](https://github.com/natura-cosmeticos/natds/compare/v0.11.3...v0.12.0-alpha.DSY-1081.0) (2020-07-13)
+
+
+### Bug Fixes
+
+* **web:** omit override props in Table component ([ffd8a7b](https://github.com/natura-cosmeticos/natds/commit/ffd8a7b72511d60ff554b7eb6f20f12a26bab443))
+
+
+
+## [0.11.3](https://github.com/natura-cosmeticos/natds/compare/v0.11.2...v0.11.3) (2020-07-13)
+
+
+### Bug Fixes
+
+* **web:** fix class icon in TableSortLabel ([e29dcb8](https://github.com/natura-cosmeticos/natds/commit/e29dcb864530c1f8fe333344991298f6b868d7c6))
+* **web:** update test snapshots for Table* components ([5c0c00e](https://github.com/natura-cosmeticos/natds/commit/5c0c00e7210425049b11759c07c8cecabd4157ce))
+* fix typo on postinstall script ([dcbe71b](https://github.com/natura-cosmeticos/natds/commit/dcbe71bd280eb608b60244d7a9b3bad2cb1c48d3))
+
+
+
+## [0.11.2](https://github.com/natura-cosmeticos/natds/compare/v0.10.0...v0.11.2) (2020-07-13)
+
+
+
+# [0.10.0](https://github.com/natura-cosmeticos/natds/compare/v0.9.5...v0.10.0) (2020-07-11)
+
+
+
+## [0.9.5](https://github.com/natura-cosmeticos/natds/compare/v0.9.4...v0.9.5) (2020-07-10)
+
+
+
+## 0.9.4 (2020-07-10)
+
+
+
+
+
+# [0.14.0](https://github.com/natura-cosmeticos/natds/compare/v0.13.14...v0.14.0) (2020-07-24)
+
+
+### Features
+
+* **icons:** add new filled icon: \`filled-content-divulgation\` ([04b2413](https://github.com/natura-cosmeticos/natds/commit/04b241359d7afaa4a3a31444128d8b7995c6bb5f))
+
+
+
+
+
+## [0.13.14](https://github.com/natura-cosmeticos/natds/compare/v0.13.13...v0.13.14) (2020-07-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency alex to v8.2.0 ([8f97b06](https://github.com/natura-cosmeticos/natds/commit/8f97b068db4f1533c65d22175b81f386e18c8e55))
+
+
+
+
+
+## [0.13.13](https://github.com/natura-cosmeticos/natds/compare/v0.13.12...v0.13.13) (2020-07-23)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.12](https://github.com/natura-cosmeticos/natds/compare/v0.13.11...v0.13.12) (2020-07-23)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.11](https://github.com/natura-cosmeticos/natds/compare/v0.13.10...v0.13.11) (2020-07-23)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.10](https://github.com/natura-cosmeticos/natds/compare/v0.13.9...v0.13.10) (2020-07-23)
+
+
+### Bug Fixes
+
+* **docs:** prevent duplicated versions on storybook menu ([9777a56](https://github.com/natura-cosmeticos/natds/commit/9777a565d436fbc378b8f727490f80eb9e0fb932))
+
+
+
+
+
+## [0.13.9](https://github.com/natura-cosmeticos/natds/compare/v0.13.8...v0.13.9) (2020-07-22)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.8](https://github.com/natura-cosmeticos/natds/compare/v0.13.7...v0.13.8) (2020-07-22)
+
+
+### Bug Fixes
+
+* **deps:** pin dependency alex to 8.1.1 ([68c48ed](https://github.com/natura-cosmeticos/natds/commit/68c48ed5f0357bfd7331d5de702111ed6354f2dc))
+
+
+
+
+
+## [0.13.7](https://github.com/natura-cosmeticos/natds/compare/v0.13.6...v0.13.7) (2020-07-21)
+
+
+### Bug Fixes
+
+* **icons:** add `outlined-alert-notification` icon ([9d488c5](https://github.com/natura-cosmeticos/natds/commit/9d488c5374e517dc5d1a578a8ec34096cc80a376))
+
+
+
+
+
+## [0.13.6](https://github.com/natura-cosmeticos/natds/compare/v0.13.5...v0.13.6) (2020-07-21)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.5](https://github.com/natura-cosmeticos/natds/compare/v0.13.5-alpha.DSY-1250.0...v0.13.5) (2020-07-21)
+
+
+### Bug Fixes
+
+* **icons:** fix icon filenames ([8958723](https://github.com/natura-cosmeticos/natds/commit/8958723d2cfc5b2e0a82088627ed9987f002eaed))
+
+
+
+
+
+## [0.13.4](https://github.com/natura-cosmeticos/natds/compare/v0.13.3...v0.13.4) (2020-07-20)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.3](https://github.com/natura-cosmeticos/natds/compare/v0.13.2...v0.13.3) (2020-07-20)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.2](https://github.com/natura-cosmeticos/natds/compare/v0.13.1...v0.13.2) (2020-07-20)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.13.1](https://github.com/natura-cosmeticos/natds/compare/v0.13.0...v0.13.1) (2020-07-20)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+# [0.13.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.5...v0.13.0) (2020-07-18)
+
+
+### Features
+
+* add eslint-config-natura code style ([fbcb48c](https://github.com/natura-cosmeticos/natds/commit/fbcb48ce02adfcdac3cf4e94f72b7e2101c611cf))
+
+
+
+
+
+## [0.12.5](https://github.com/natura-cosmeticos/natds/compare/v0.12.4...v0.12.5) (2020-07-17)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.12.4](https://github.com/natura-cosmeticos/natds/compare/v0.12.3...v0.12.4) (2020-07-17)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.12.3](https://github.com/natura-cosmeticos/natds/compare/v0.12.2...v0.12.3) (2020-07-17)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.12.2](https://github.com/natura-cosmeticos/natds/compare/v0.12.1...v0.12.2) (2020-07-16)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.12.1](https://github.com/natura-cosmeticos/natds/compare/v0.12.0...v0.12.1) (2020-07-16)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+# [0.12.0](https://github.com/natura-cosmeticos/natds/compare/v0.12.0-alpha.DSY-1075.0...v0.12.0) (2020-07-15)
+
+
+### Bug Fixes
+
+* **icons:** update generated `natds-icons` font files ([2eacab5](https://github.com/natura-cosmeticos/natds/commit/2eacab5565f0b8f738de8d7fd8ad19a4efa05179))
+
+
+
+# [0.12.0-alpha.DSY-1081.0](https://github.com/natura-cosmeticos/natds/compare/v0.11.3...v0.12.0-alpha.DSY-1081.0) (2020-07-13)
+
+
+### Features
+
+* add `outlined-place-rocket` and `outlined-place-runningtruck` icons ([d8f0cc9](https://github.com/natura-cosmeticos/natds/commit/d8f0cc90a51e527798975a83cf839c280a6daf49))
+
+
+
+## [0.11.3](https://github.com/natura-cosmeticos/natds/compare/v0.11.3-alpha.DSY-1075.0...v0.11.3) (2020-07-13)
+
+
+
+## [0.11.3-alpha.DSY-1081.0](https://github.com/natura-cosmeticos/natds/compare/v0.11.2...v0.11.3-alpha.DSY-1081.0) (2020-07-13)
+
+
+
+
+
+## [0.11.3](https://github.com/natura-cosmeticos/natds/compare/v0.11.2...v0.11.3) (2020-07-13)
+
+
+### Bug Fixes
+
+* fix typo on postinstall script ([dcbe71b](https://github.com/natura-cosmeticos/natds/commit/dcbe71bd280eb608b60244d7a9b3bad2cb1c48d3))
+
+
+
+
+
+## [0.11.2](https://github.com/natura-cosmeticos/natds/compare/v0.11.1...v0.11.2) (2020-07-13)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.11.1](https://github.com/natura-cosmeticos/natds/compare/v0.11.0...v0.11.1) (2020-07-13)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+# [0.11.0](https://github.com/natura-cosmeticos/natds/compare/v0.11.0-alpha.DSY-1147.0...v0.11.0) (2020-07-11)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+# [0.10.0](https://github.com/natura-cosmeticos/natds/compare/v0.9.5...v0.10.0) (2020-07-11)
+
+
+### Bug Fixes
+
+* **web:** prevent type error on getDefaultTheme() ([6a7f5d2](https://github.com/natura-cosmeticos/natds/commit/6a7f5d294d4c3670d021f9bbbb06a96f699ced2e))
+* **web:** prevent type error on Provider ([8789f53](https://github.com/natura-cosmeticos/natds/commit/8789f5312161761242ace844e235044ab4fa685b))
+* **web:** prevent type error on Provider test ([9ff6a0e](https://github.com/natura-cosmeticos/natds/commit/9ff6a0e468c3b009e235983553563283bbb0c3db))
+* **web:** prevent type errors on IFabProps and Fab component ([ed7d835](https://github.com/natura-cosmeticos/natds/commit/ed7d8359025404a3051d8ed4ddcc79d0e954bd21))
+* **web:** remove type warning from Provider test file ([fe52de8](https://github.com/natura-cosmeticos/natds/commit/fe52de86bf3394f01a74b89361b9fa2f16d6d00c))
+
+
+### Features
+
+* **web:** update test snapshots ([99c1731](https://github.com/natura-cosmeticos/natds/commit/99c17312ec64026388888bcdd427de7ddb4ad3e5))
+
+
+
+
+
+## [0.9.5](https://github.com/natura-cosmeticos/natds/compare/v0.9.4...v0.9.5) (2020-07-10)
+
+
+### Bug Fixes
+
+* **web:** update TextField snapshot and yarn lock file ([c548e0e](https://github.com/natura-cosmeticos/natds/commit/c548e0eb1eafae584440167e412f28615d1911f4))
+
+
+
+
+
+## [0.9.4](https://github.com/natura-cosmeticos/natds/compare/v0.9.3...v0.9.4) (2020-07-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.9.3](https://github.com/natura-cosmeticos/natds/compare/v0.9.2...v0.9.3) (2020-07-10)
+
+
+
+## [0.9.2-alpha.DSY-1162.0](https://github.com/natura-cosmeticos/natds/compare/v0.9.1...v0.9.2-alpha.DSY-1162.0) (2020-07-10)
+
+
+### Bug Fixes
+
+* **deps:** upgrade styled-components dependencies ([0994087](https://github.com/natura-cosmeticos/natds/commit/09940877d8ae26df08288ece8e1885c63a575c4b))
+
+
+
+
+
+## [0.9.2](https://github.com/natura-cosmeticos/natds/compare/v0.9.1...v0.9.2) (2020-07-10)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
 ## [0.9.1](https://github.com/natura-cosmeticos/natds/compare/v0.9.1-alpha.DSY-1161.0...v0.9.1) (2020-07-09)
 
 **Note:** Version bump only for package natds
@@ -214,7 +981,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** downgrade `styled-components` deps to avoid hook errors ([e7817a3](https://github.com/natura-cosmeticos/natds/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
+* **deps:** downgrade `styled-components` deps to avoid errors ([e7817a3](https://github.com/natura-cosmeticos/natds/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
 
 
 
@@ -228,7 +995,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Bug Fixes
 
 * fix error Command "test" not found on Travis CI ([418552e](https://github.com/natura-cosmeticos/natds/commit/418552ebb1bc7993b24761d754dd1aff90a35e32))
-* make \`test\` script run a complete sanity check ([f8e0c03](https://github.com/natura-cosmeticos/natds/commit/f8e0c03f47075a2f054cd2a8ed6e1ac2cfc08e89))
+* make \`test\` script run a complete check ([f8e0c03](https://github.com/natura-cosmeticos/natds/commit/f8e0c03f47075a2f054cd2a8ed6e1ac2cfc08e89))
 * **deps:** update dependency @types/react-native to v0.62.13 ([d0596cf](https://github.com/natura-cosmeticos/natds/commit/d0596cf5cc34b965dcf3eb572c5784c1e9d50ce8))
 * **deps:** update dependency clsx to v1.1.1 ([22980af](https://github.com/natura-cosmeticos/natds/commit/22980afdc71844ea3a0778de8f5221c01fc31fd3))
 * **deps:** update dependency fuzzy-search to v3.2.1 ([b59bbf6](https://github.com/natura-cosmeticos/natds/commit/b59bbf6c737bf77f2aa2362172c28f64c5f4fb5f))
@@ -285,7 +1052,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **themes:** fixing the color used by input to colorHighEmphasis ([d20ae14](https://github.com/natura-cosmeticos/natds/commit/d20ae14fb8cd6ccfb7b25079e6ad03d3eece9eff))
+* **themes:** fixing colorHighEmphasis applied to input ([d20ae14](https://github.com/natura-cosmeticos/natds/commit/d20ae14fb8cd6ccfb7b25079e6ad03d3eece9eff))
 
 
 
@@ -301,7 +1068,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ### Features
 
 * **Popover:** added a new attribute to determine the maxWidth and fixed arrow position to center of ([3ac6937](https://github.com/natura-cosmeticos/natds/commit/3ac69373bedae11aac72e1866b4180457e3cb30c))
-* **Popover:** fixed dark themes color for paper and refactoring the docs ([ab9fe50](https://github.com/natura-cosmeticos/natds/commit/ab9fe50eb4751e873e78517a7ff46e8569ca1191))
+* **Popover:** fixed dark themes tokens for paper and refactoring the docs ([ab9fe50](https://github.com/natura-cosmeticos/natds/commit/ab9fe50eb4751e873e78517a7ff46e8569ca1191))
 
 
 
@@ -758,7 +1525,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Bug Fixes
 
-* **deps:** downgrade `styled-components` deps to avoid hook errors ([e7817a3](https://github.com/natura-cosmeticos/natds/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
+* **deps:** downgrade `styled-components` deps to avoid errors ([e7817a3](https://github.com/natura-cosmeticos/natds/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
 
 
 
