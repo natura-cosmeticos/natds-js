@@ -7,8 +7,12 @@ packages/*/coverage
 packages/*/dist
 packages/*/node_modules
 packages/*/reports
+packages/*/storybook-static
+packages/docs
 packages/icons/src/natds-icons.css.d.ts
 package.json
+releases
 reports
 scripts/lint-staged.sh
 *.spec.tsx.snap
+yarn-error.log
