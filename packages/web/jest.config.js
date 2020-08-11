@@ -20,7 +20,7 @@ module.exports = {
     "<rootDir>/config/test/setupEnzyme.ts", "<rootDir>/config/test/setupChai.ts",
   ],
   snapshotSerializers: ["enzyme-to-json/serializer"],
-  testMatch: ["<rootDir>/src/**/*.{spec,test}.tsx"],
+  testMatch: ["<rootDir>/src/**/*.{spec,test}.{ts,tsx}"],
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
