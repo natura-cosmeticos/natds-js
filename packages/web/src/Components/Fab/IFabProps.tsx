@@ -1,30 +1,42 @@
-import * as React from "react";
 import {FabProps} from "@material-ui/core/Fab";
-import {IThemeWeb} from "../../Themes";
 
-type IFabColor = "primary" | "secondary" | "light";
+export type IFabColor = "primary" | "secondary" | "light";
+export type IFabSize = "small" | "medium" | "large";
+export type IFabVariant = "round" | "extended";
 
-/**
- * @todo fix(web): TS2320 Interface 'IFabProps' cannot simultaneously extend two types on IFabProps
- */
-// @ts-ignore
-export interface IFabProps extends React.HtmlHTMLAttributes<HTMLButtonElement>, Pick<FabProps,
-  | "size"
-  | "href"
-  | "disableFocusRipple"
-  | "variant"
+export interface IFabProps extends Pick<FabProps,
   | "children"
   | "disabled"
-  > {
+  | "disableFocusRipple"
+  | "href"
+  | "size"
+  | "variant"> {
 
   /**
    * @optional
    * The color of the component
    */
-  color?: IFabColor;
-
-  /**
-   * @optional
-   */
-  theme?: IThemeWeb | unknown;
+  color ?: IFabColor;
 }
+
+export const colors: Record<IFabColor, IFabColor> = {
+  primary: "primary",
+  secondary: "secondary",
+  light: "light",
+};
+
+export const defaultProps = {
+  color: colors.primary,
+  disabled: false,
+};
+
+export const sizes: Record<IFabSize, IFabSize> = {
+  small: "small",
+  medium: "medium",
+  large: "large",
+};
+
+export const variants: Record<IFabVariant, IFabVariant> = {
+  round: "round",
+  extended: "extended",
+};
