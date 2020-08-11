@@ -29,7 +29,7 @@
     "clean": "lerna clean",
     "cm": "git cz",
     "commit": "git cz",
-    "eslint": "eslint --ext .js,.jsx,.ts,.tsx --cache",
+    "eslint": "eslint --ext .js,.jsx,.ts,.tsx --cache --max-warnings 0",
     "format": "yarn lint --fix",
     "format:staged": "yarn lint:staged --fix",
     "lerna": "lerna",
