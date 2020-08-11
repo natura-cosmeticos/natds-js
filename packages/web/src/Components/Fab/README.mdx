@@ -1,0 +1,85 @@
+import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
+import { select, boolean, text } from "@storybook/addon-knobs";
+
+import { ComponentWithLabel, getComponentParams } from "../../../.storybook";
+
+import { Fab } from ".";
+import { colors, sizes, variants, disabled, leadingIcon } from "./stories";
+
+<Meta
+    component={Fab}
+    parameters={getComponentParams(["Fab"])}
+    title="Components|Fab" />
+
+# Fab (Floating Action Button)
+
+## Usage
+
+<Preview>
+  <Story name="Fab colors">
+    <ComponentWithLabel componentList={colors} headingText={"Colors"} />
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="Fab sizes">
+    <ComponentWithLabel componentList={sizes} headingText={"Sizes"} />
+  </Story>
+</Preview>
+
+<Preview>
+  <Story name="Fab variants">
+    <ComponentWithLabel componentList={variants} headingText={"Variants"} />
+  </Story>
+</Preview>
+
+
+```jsx
+import { Fab } from '@naturacosmeticos/natds-web';
+
+// Round
+<Fab>
+  <AnyIcon />
+</Fab>
+
+// Extended
+<Fab variant="extended">
+  Text
+</Fab>
+```
+
+<Preview>
+  <Story name="Fab extended with leading icon">
+    <ComponentWithLabel componentList={leadingIcon} headingText={"Extended with leading icon"} />
+  </Story>
+</Preview>
+
+```jsx
+import { Fab } from '@naturacosmeticos/natds-web';
+
+// Extended with leading icon
+<Fab variant="extended">
+  <AnyIcon />
+  Extended
+</Fab>
+```
+
+<Preview>
+  <Story name="Fab disabled">
+    <ComponentWithLabel componentList={disabled} headingText={"Disabled"} />
+  </Story>
+</Preview>
+
+---
+
+## FAB Props
+
+| Name     |                Type                 |  Default  |                                                                   Description                                                                   |
+| :------- | :---------------------------------: | :-------: | :---------------------------------------------------------------------------------------------------------------------------------------------: |
+| variant  |        'round' \| 'extended'        |  'round'  |                                                          The component variant to use                                                           |
+| color    | 'primary' \| 'secondary' \| 'light' | 'primary' |                                     The color to be used from the theme. 'light' uses the 'paper' namespace                                     |
+| size     |   'large' \| 'medium' \| 'small'    |  'large'  |                                                            The size of the component                                                            |
+| disabled |               boolean               |   false   |                                        Disables the button on the component and applies specific styling                                        |
+| children |           React.ReactNode           |           | The children of the component. For 'round' variant, we recommend not using too many letters, as it can cause distortions on the component shape |
+| classes  |               string                |           |                                                       CSS classes to use on the component                                                       |
+| style    |         React.CSSProperties         |           |                                                    Style to be used inline on the component                                                     |
