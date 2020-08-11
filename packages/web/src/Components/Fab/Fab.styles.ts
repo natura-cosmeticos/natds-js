@@ -1,7 +1,7 @@
+/* eslint-disable @typescript-eslint/no-explicit-any,@typescript-eslint/explicit-module-boundary-types */
 import createStyles from "@material-ui/core/styles/createStyles";
 import makeStyles from "@material-ui/core/styles/makeStyles";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const createFabStyles = ({palette}: any) => createStyles({
 
   /**
@@ -29,5 +29,4 @@ export const createFabStyles = ({palette}: any) => createStyles({
   },
 });
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
 export const makeFabStyles = (theme: any) => makeStyles(createFabStyles(theme));

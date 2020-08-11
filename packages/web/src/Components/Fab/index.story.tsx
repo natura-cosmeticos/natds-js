@@ -14,7 +14,7 @@ export default {
 export const Playground: () => JSX.Element = () => {
   const variant = select("variant", variants, variants.round);
 
-  const icons: any = Object.keys(iconNames);
+  const icons: string[] = Object.keys(iconNames);
   const iconName: keyof typeof iconNames = select("icon name", icons, "outlined-action-add") as keyof typeof iconNames;
 
   const IconComponent = <Icon name={iconName} size={"small"} />;
