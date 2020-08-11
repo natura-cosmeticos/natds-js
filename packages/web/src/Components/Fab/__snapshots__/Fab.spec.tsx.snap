@@ -1,226 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Fab component rendering it should render all colors: Color light Fab 1`] = `
-<button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-16"
-  disabled={false}
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={0}
-  type="button"
->
-  <span
-    className="MuiFab-label"
-  >
-    F
-  </span>
-  <span
-    className="MuiTouchRipple-root"
-  />
-</button>
-`;
-
-exports[`Fab component rendering it should render all colors: Color primary Fab 1`] = `
-<button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-10 MuiFab-primary makeStyles-primary-11"
-  disabled={false}
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={0}
-  type="button"
->
-  <span
-    className="MuiFab-label"
-  >
-    F
-  </span>
-  <span
-    className="MuiTouchRipple-root"
-  />
-</button>
-`;
-
-exports[`Fab component rendering it should render all colors: Color secondary Fab 1`] = `
-<button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-13 MuiFab-secondary makeStyles-secondary-15"
-  disabled={false}
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={0}
-  type="button"
->
-  <span
-    className="MuiFab-label"
-  >
-    F
-  </span>
-</button>
-`;
-
-exports[`Fab component rendering it should render all sizes: Size large Fab 1`] = `
-<button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-19 MuiFab-primary makeStyles-primary-20"
-  disabled={false}
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={0}
-  type="button"
->
-  <span
-    className="MuiFab-label"
-  >
-    F
-  </span>
-</button>
-`;
-
-exports[`Fab component rendering it should render all sizes: Size medium Fab 1`] = `
-<button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-22 MuiFab-sizeMedium MuiFab-primary makeStyles-primary-23"
-  disabled={false}
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={0}
-  type="button"
->
-  <span
-    className="MuiFab-label"
-  >
-    F
-  </span>
-  <span
-    className="MuiTouchRipple-root"
-  />
-</button>
-`;
-
-exports[`Fab component rendering it should render all sizes: Size small Fab 1`] = `
-<button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-25 MuiFab-sizeSmall MuiFab-primary makeStyles-primary-26"
-  disabled={false}
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={0}
-  type="button"
->
-  <span
-    className="MuiFab-label"
-  >
-    F
-  </span>
-</button>
-`;
-
-exports[`Fab component rendering it should render all variants: Size extended Fab 1`] = `
-<button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-31 MuiFab-extended MuiFab-primary makeStyles-primary-32"
-  disabled={false}
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={0}
-  type="button"
->
-  <span
-    className="MuiFab-label"
-  >
-    F
-  </span>
-</button>
-`;
-
-exports[`Fab component rendering it should render all variants: Size round Fab 1`] = `
-<button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-28 MuiFab-primary makeStyles-primary-29"
-  disabled={false}
-  onBlur={[Function]}
-  onDragLeave={[Function]}
-  onFocus={[Function]}
-  onKeyDown={[Function]}
-  onKeyUp={[Function]}
-  onMouseDown={[Function]}
-  onMouseLeave={[Function]}
-  onMouseUp={[Function]}
-  onTouchEnd={[Function]}
-  onTouchMove={[Function]}
-  onTouchStart={[Function]}
-  tabIndex={0}
-  type="button"
->
-  <span
-    className="MuiFab-label"
-  >
-    F
-  </span>
-  <span
-    className="MuiTouchRipple-root"
-  />
-</button>
-`;
-
-exports[`Fab component rendering it should render with Provider theme: Provider Theme Fab 1`] = `
+exports[`Fab component when Natura dark theme is provided should render correctly: Provider Natura Dark Theme Fab 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root makeStyles-root-4 MuiFab-primary makeStyles-primary-5"
   disabled={false}
@@ -249,9 +29,281 @@ exports[`Fab component rendering it should render with Provider theme: Provider 
 </button>
 `;
 
-exports[`Fab component rendering it should render with disabled truthy: Disabled Fab 1`] = `
+exports[`Fab component when Natura light theme is provided should render correctly: Provider Natura Light Theme Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-7 Mui-disabled MuiFab-primary makeStyles-primary-8 Mui-disabled"
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-7 MuiFab-primary makeStyles-primary-8"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+</button>
+`;
+
+exports[`Fab component when a color is specified should render color "light" correctly: Color light Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-22"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Fab component when a color is specified should render color "primary" correctly: Color primary Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-16 MuiFab-primary makeStyles-primary-17"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Fab component when a color is specified should render color "secondary" correctly: Color secondary Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-19 MuiFab-secondary makeStyles-secondary-21"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+</button>
+`;
+
+exports[`Fab component when a size is specified should render size "large" correctly: Size large Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-25 MuiFab-primary makeStyles-primary-26"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+</button>
+`;
+
+exports[`Fab component when a size is specified should render size "medium" correctly: Size medium Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-28 MuiFab-sizeMedium MuiFab-primary makeStyles-primary-29"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Fab component when a size is specified should render size "small" correctly: Size small Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-31 MuiFab-sizeSmall MuiFab-primary makeStyles-primary-32"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+</button>
+`;
+
+exports[`Fab component when a variant is specified should render variant "extended" correctly: Size extended Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-37 MuiFab-extended MuiFab-primary makeStyles-primary-38"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+</button>
+`;
+
+exports[`Fab component when a variant is specified should render variant "round" correctly: Size round Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-34 MuiFab-primary makeStyles-primary-35"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Fab component when disabled is explicitly false should render correctly: Not Disabled Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-13 MuiFab-primary makeStyles-primary-14"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiFab-label"
+  >
+    F
+  </span>
+</button>
+`;
+
+exports[`Fab component when disabled is explicitly true should render correctly: Disabled Fab 1`] = `
+<button
+  className="MuiButtonBase-root MuiFab-root makeStyles-root-10 Mui-disabled MuiFab-primary makeStyles-primary-11 Mui-disabled"
   disabled={true}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -275,7 +327,7 @@ exports[`Fab component rendering it should render with disabled truthy: Disabled
 </button>
 `;
 
-exports[`Fab component rendering it should render with no props: No Props Fab 1`] = `
+exports[`Fab component when no props are provided should render correctly: No Props Fab 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root makeStyles-root-1 MuiFab-primary makeStyles-primary-2"
   disabled={false}

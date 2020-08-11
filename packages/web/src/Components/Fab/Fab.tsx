@@ -3,24 +3,14 @@ import * as React from "react";
 import MaterialFab from "@material-ui/core/Fab";
 import useTheme from "@material-ui/core/styles/useTheme";
 import {PropTypes} from "@material-ui/core";
-import {
-  colors, defaultProps, IFabColor, IFabProps,
-} from "./IFabProps";
+import {defaultProps, IFabProps} from "./IFabProps";
 import {makeFabStyles} from "./Fab.styles";
-
-const getColorProp: (color: IFabColor) => ("primary" | "secondary" | "default" | string) = (color: IFabColor) => {
-  switch (color) {
-  case colors.primary: return colors.primary;
-  case colors.secondary: return colors.secondary;
-  case colors.light: return "default";
-  default: return "default";
-  }
-};
+import {getColorProp} from "./getColorProp";
 
 const Fab : (props: IFabProps, ref: any) => JSX.Element = (props: IFabProps, ref: any) => {
 
   const {
-    color = defaultProps.color,
+    color,
     disabled,
   } = props;
 
@@ -41,10 +31,7 @@ const Fab : (props: IFabProps, ref: any) => JSX.Element = (props: IFabProps, ref
 
 const DefaultFab = React.forwardRef<HTMLElement, IFabProps>(Fab);
 
-DefaultFab.defaultProps = {
-  color: colors.primary,
-  disabled: false,
-};
+DefaultFab.defaultProps = defaultProps;
 DefaultFab.displayName = "Fab";
 
 export default DefaultFab;
