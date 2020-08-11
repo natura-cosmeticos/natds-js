@@ -1,7 +1,6 @@
-import * as MaterialSkeleton from "@material-ui/lab/Skeleton";
+import { SkeletonProps } from "@material-ui/lab/Skeleton";
 
-export type ISkeletonProps = Pick<
-  MaterialSkeleton.SkeletonProps,
+export type ISkeletonProps = Pick<SkeletonProps,
   "animation" |
   "children" |
   "height" |
