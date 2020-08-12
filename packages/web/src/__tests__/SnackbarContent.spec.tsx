@@ -1,12 +1,12 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
 import { Provider } from "../Provider";
-import SnackbarContent from "../Components/SnackbarContent";
+import SnackbarContent, {ISnackbarContentColors} from "../Components/SnackbarContent";
 import { themes } from "../Themes";
 
 describe("SnackbarContent Component", () => {
   describe("Rendering", () => {
-    const colors : string[] = [
+    const colors : ISnackbarContentColors[] = [
       "default",
       "error",
       "success",
@@ -25,7 +25,7 @@ describe("SnackbarContent Component", () => {
       expect(wrapper.toJSON()).toMatchSnapshot("SnackbarContent default with custom theme snapshot");
     });
     test("should match to snapshot - SnackbarContent default with colors", () => {
-      colors.forEach((color: string) => {
+      colors.forEach((color: ISnackbarContentColors) => {
         const wrapper = renderer.create(<Provider theme={themes.natura.light}><SnackbarContent color={color} /></Provider>);
 
         expect(wrapper.toJSON()).toMatchSnapshot(`SnackbarContent color ${color} snapshot`);

@@ -8,7 +8,7 @@ import clsx from "clsx";
 import { IThemeWeb } from "../Themes";
 import { getDefaultTheme } from "./shared";
 
-type ISnackbarContentColors =
+export type ISnackbarContentColors =
   | "default"
   | "info"
   | "warning"
