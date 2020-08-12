@@ -1,6 +1,6 @@
-import React, { FunctionComponent, forwardRef } from "react";
-import { withTheme } from "@material-ui/styles";
-import MaterialTypography, { TypographyClassKey, TypographyProps } from "@material-ui/core/Typography";
+import {TypographyClassKey, TypographyProps} from "@material-ui/core/Typography";
+import React from "react";
+import {TypographyColor} from "./Typography";
 
 export type TypographyVariant =
   | "h1"
@@ -20,15 +20,6 @@ export type TypographyVariant =
   | "srOnly";
 
 type TypographyAlign = "inherit" | "left" | "center" | "right" | "justify";
-
-export type TypographyColor =
-  | "initial"
-  | "inherit"
-  | "primary"
-  | "secondary"
-  | "textPrimary"
-  | "textSecondary"
-  | "error";
 
 export interface ITypographyProps extends TypographyProps {
 
@@ -77,30 +68,3 @@ export interface ITypographyProps extends TypographyProps {
    */
   variantMapping?: Record<string, unknown>;
 }
-
-export const Typography: FunctionComponent<ITypographyProps> = forwardRef((
-  props: ITypographyProps,
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  ref: any,
-) => {
-  const {
-    variant = "body1",
-    align = "inherit",
-    ...rest
-  } = props;
-
-  return (
-    <MaterialTypography
-      variant={variant}
-      align={align}
-      ref={ref}
-      {...rest}
-    >
-      {props.children}
-    </MaterialTypography>
-  );
-});
-
-Typography.displayName = "Typography";
-
-export default withTheme(Typography);
