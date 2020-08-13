@@ -1,10 +1,9 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
-import { expect } from "chai";
-import Tooltip from "../Components/Tooltip";
-import {IPlacements} from "../Components/types/IPlacements";
+import Tooltip from ".";
+import {IPlacement} from "./ITooltipProps";
 
-const placements : IPlacements = {
+const placements : Record<IPlacement, IPlacement> = {
   bottom: "bottom",
   "bottom-end": "bottom-end",
   "bottom-start": "bottom-start",
@@ -22,9 +21,10 @@ const placements : IPlacements = {
 describe("Tooltip component", () => {
   Object.keys(placements).forEach((placement: string) => {
     test(`should match snapshot - Any valid Tooltip with ${placement} placement`, () => {
-      const component = renderer.create(<Tooltip title="some title" placement={placement}><div>some content</div></Tooltip>).toJSON();
+      const component: JSX.Element = <Tooltip title="some title" placement={placement as IPlacement}><div>some content</div></Tooltip>;
+      const actual = renderer.create(component).toJSON();
 
-      expect(component).matchSnapshot(`Tooltip snapshot - with ${placement} color`);
+      expect(actual).toMatchSnapshot(`Tooltip snapshot - with ${placement} color`);
     });
   });
 });
