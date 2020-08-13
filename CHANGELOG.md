@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.18.0](https://github.com/natura-cosmeticos/natds/compare/v0.17.23...v0.18.0) (2020-08-13)
+
+
+### Bug Fixes
+
+* **fab:** remove type errors and theme property pollution ([1808502](https://github.com/natura-cosmeticos/natds/commit/1808502b991e36107d92e4c23ca4dc22859ec75b))
+* **storybook:** prevent `import/no-named-as-default` warning ([ea63180](https://github.com/natura-cosmeticos/natds/commit/ea631800f3df1351c6ac9dfa40020fe88c67c963))
+* **storybook:** remove type/eslint errors, bring addons back ([3733948](https://github.com/natura-cosmeticos/natds/commit/3733948763c3b9193c0e9280575c1d1f4c528274))
+* **typography:** prevent error when using TypographyColor type ([1f3c98f](https://github.com/natura-cosmeticos/natds/commit/1f3c98fda24e45e7cc9ed498197b977db8fcfea2))
+
+
+### Features
+
+* **fab:** fully refactored component ([6fc43a1](https://github.com/natura-cosmeticos/natds/commit/6fc43a1d84fbd538dc781150b718287808e3c037))
+* **tooltip:** fully refactored component ([a0f6586](https://github.com/natura-cosmeticos/natds/commit/a0f65865ed0eba941b4b4ef45d7d990ed217d73f))
+
+
+
+
+
 ## [0.17.23](https://github.com/natura-cosmeticos/natds/compare/v0.17.22...v0.17.23) (2020-08-11)
 
 **Note:** Version bump only for package natds
