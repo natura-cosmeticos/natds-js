@@ -3,15 +3,6 @@ import { withTheme } from "@material-ui/styles";
 import MaterialTypography from "@material-ui/core/Typography";
 import {ITypographyProps} from "./ITypographyProps";
 
-export type TypographyColor =
-  | "initial"
-  | "inherit"
-  | "primary"
-  | "secondary"
-  | "textPrimary"
-  | "textSecondary"
-  | "error";
-
 export const Typography: React.FunctionComponent<ITypographyProps> = React.forwardRef((
   props: ITypographyProps,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

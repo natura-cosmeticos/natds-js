@@ -1,6 +1,14 @@
 import {TypographyClassKey, TypographyProps} from "@material-ui/core/Typography";
 import React from "react";
-import {TypographyColor} from "./Typography";
+
+export type TypographyColor =
+  | "initial"
+  | "inherit"
+  | "primary"
+  | "secondary"
+  | "textPrimary"
+  | "textSecondary"
+  | "error";
 
 export type TypographyVariant =
   | "h1"
