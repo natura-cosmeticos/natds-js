@@ -1,6 +1,6 @@
 import { create } from "@storybook/theming/create";
-import { themes } from "@naturacosmeticos/natds-styles"
-import brandImage from "../assets/images/logo-natura.png"
+import { themes } from "@naturacosmeticos/natds-styles";
+import brandImage from "../assets/images/logo-natura.png";
 import "../assets/images/favicon.png";
 import {baseTheme} from "./baseTheme";
 
@@ -38,5 +38,5 @@ export const naturaLightTheme = create({
   inputBorderRadius: theme.shape.borderRadius,
 
   // Brand
-  brandImage
+  brandImage,
 });

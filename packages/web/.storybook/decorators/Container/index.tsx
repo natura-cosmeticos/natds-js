@@ -8,11 +8,11 @@ import { Container as InnerContainer } from "../../../src/Components/Container";
 
 const useStyles = makeStyles(createStyles(() => ({
   root: {
-    paddingTop: tokens.spacing.spacingStandard
-  }
-})))
+    paddingTop: tokens.spacing.spacingStandard,
+  },
+})));
 
-const Container = ({children} : {children: NonNullable<React.ReactNode>}) => {
+const Container : React.FunctionComponent = ({children} : {children: NonNullable<React.ReactNode>}) => {
 
   const classes = useStyles();
 
@@ -28,7 +28,7 @@ const Container = ({children} : {children: NonNullable<React.ReactNode>}) => {
 Container.displayName = "MaterialContainer";
 
 Container.propTypes = {
-  children: PropTypes.node.isRequired
-}
+  children: PropTypes.node.isRequired,
+};
 
 export default Container;

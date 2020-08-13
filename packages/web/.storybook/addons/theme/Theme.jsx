@@ -1,64 +1,19 @@
-/* eslint-disable no-mixed-operators */
-import React, {useEffect, Fragment} from "react";
-import {useAddonState, Consumer} from "@storybook/api";
-import {TabButton, WithTooltip, TooltipLinkList} from "@storybook/components";
-
+import {Consumer, useAddonState} from "@storybook/api";
+import React, {Fragment, useEffect} from "react";
+import PropTypes from "prop-types";
 import {STORY_CHANGED} from "@storybook/core-events";
-import {PANEL_ID, CHANGE, PARAM_KEY} from "./shared";
-
-import "./styles.css";
+import {TabButton, TooltipLinkList, WithTooltip} from "@storybook/components";
+import {CHANGE, PANEL_ID, PARAM_KEY} from "./shared";
+import {getDisplayedItems} from "./getDisplayedItems";
+import {mapper} from "./mapper";
 
 const DEFAULT_THEME = {
   name: "natura",
   type: "light",
 };
 
-const parseTheme = (themes) => Object.entries(themes).reduce((accum, [
-  name, variants,
-]) => {
-  Object.entries(variants).forEach(([type]) => {
-    accum.push({
-      name,
-      type,
-    });
-  });
-
-  return accum;
-}, []);
-
-const getDisplayedItems = (list, onChange, selectedItem) => {
-  if (!list.length) {
-    return [];
-  }
-
-  return [
-    ...list.map((params) => createBackgroundSelectorItem(params, onChange, selectedItem),
-    ),
-  ];
-};
-
-const createBackgroundSelectorItem = ({name, type}, onChange, selectedItem) => ({
-  id: `${name} - ${type}`,
-  title: `${name} - ${type}`,
-  active: selectedItem.name === name && selectedItem.type === type,
-  onClick: () => onChange({
-    name,
-    type,
-  }),
-});
-
-const mapper = ({api, state}) => {
-  const story = state.storiesHash[state.storyId];
-
-  /**
-   * @todo refactor(docs): fix unexpected mix of '&&' and '||'
-   */
-  const {themes = {}} = story && api.getParameters(story.id, PARAM_KEY) || {};
-
-  return {items: parseTheme(themes)};
-};
-
-export default function Theme(props) {
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types,max-lines-per-function
+export const Theme = (props) => {
   const {channel, api} = props;
   const [
     currentTheme, changeTheme,
@@ -76,16 +31,20 @@ export default function Theme(props) {
     });
 
     return () => channel.removeListener(STORY_CHANGED);
+    // eslint-disable-next-line react-hooks/exhaustive-deps
   }, []);
 
   if (disabled) {
     return null;
   }
 
+  const ONE_ITEM = 1;
+
   return (
     <Consumer filter={mapper}>
+      {/* eslint-disable-next-line max-lines-per-function */}
       {({items}) => {
-        if (items.length < 1) {
+        if (items.length < ONE_ITEM) {
           return null;
         }
 
@@ -114,4 +73,15 @@ export default function Theme(props) {
       }}
     </Consumer>
   );
-}
+};
+
+Theme.propTypes = {
+  api: PropTypes.shape({
+    getCurrentParameter: PropTypes.func,
+  }),
+  channel: PropTypes.shape({
+    emit: PropTypes.func,
+    on: PropTypes.func,
+    removeListener: PropTypes.func,
+  }),
+};

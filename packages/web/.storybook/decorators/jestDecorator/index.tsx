@@ -1,6 +1,7 @@
 import { makeDecorator } from "@storybook/addons";
 import { withTests } from "@storybook/addon-jest";
 
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
 // @ts-ignore
 import resultsWeb from "../../../.jest-test-results.json";
 

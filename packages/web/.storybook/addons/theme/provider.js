@@ -1,8 +1,8 @@
 import React, { useState, useEffect } from "react";
 import { addons, makeDecorator } from "@storybook/addons";
 import { FORCE_RE_RENDER } from "@storybook/core-events";
-import { Provider as ProviderWeb } from "../../../src/Provider"
-import { themes as themesWeb } from "../../../src/Themes"
+import { Provider as ProviderWeb } from "../../../src/Provider";
+import { themes as themesWeb } from "../../../src/Themes";
 import { CHANGE, PARAM_KEY } from "./shared";
 
 const THEME_PROVIDERS = {
@@ -39,7 +39,8 @@ const getBackground = (disableBackground, theme) => {
     : theme.palette.background.default;
 };
 
-const wrapper = (getStory, storyContext, { options, parameters }) => {
+// eslint-disable-next-line max-lines-per-function
+const Wrapper = (getStory, storyContext, { options, parameters }) => {
   const channel = addons.getChannel();
   const { context, disableBackground } = parameters;
   const { provider: Provider, themes, defaultTheme } = getProvider(context, options);
@@ -62,7 +63,7 @@ const wrapper = (getStory, storyContext, { options, parameters }) => {
       channel.removeListener(CHANGE, changeThemeListener);
       channel.removeListener(knobsChange, forceReRenderListener);
     };
-  }, []);
+  }, [channel, themes]);
 
   const background = getBackground(disableBackground, theme);
 
@@ -82,5 +83,5 @@ export const withTheme = makeDecorator({
   parameterName: PARAM_KEY,
   skipIfNoParametersOrOptions: true,
   allowDeprecatedUsage: true,
-  wrapper,
+  wrapper: Wrapper,
 });

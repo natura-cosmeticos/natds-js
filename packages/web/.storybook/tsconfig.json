@@ -23,24 +23,10 @@
     "noImplicitReturns": true,
     "noImplicitThis": true,
     "outDir": "dist",
-    "paths": {
-      "@addons/*": [
-        "./addons/*"
-      ],
-      "@decorators/*": [
-        "./decorators/*"
-      ],
-      "@packages/*": [
-        "../*"
-      ],
-      "@src/*": [
-        "./src/*"
-      ]
-    },
     "resolveJsonModule": true,
     "rootDirs": [
-      "../../packages",
-      "./src",
+      "../../",
+      "../src",
       "./decorators",
       "./addons"
     ],
@@ -51,6 +37,6 @@
     "target": "es5"
   },
   "exclude": [
-    "node_modules"
+    "../node_modules"
   ]
 }

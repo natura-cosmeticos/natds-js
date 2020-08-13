@@ -1,7 +1,4 @@
-/* eslint-disable no-promise-executor-return */
-
-// eslint-disable-next-line no-unused-vars
-const configFile = null;
+/* eslint-disable max-lines-per-function,no-promise-executor-return,@typescript-eslint/explicit-module-boundary-types */
 
 // @todo refactor(docs): rewrite readConfig() function to avoid `no-promise-executor-return` errors
 const readConfig = (filename = "versions_config.json") => new Promise((resolve, reject) => {
