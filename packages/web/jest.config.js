@@ -8,7 +8,10 @@ const webResources = "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|w
 
 module.exports = {
   ...base,
-  collectCoverageFrom: ["src/**/*.{js,jsx,ts,tsx}", "!src/**/*.story.tsx"],
+  // @todo include storybook files on collectCoverageFrom
+  collectCoverageFrom: [
+    "src/**/*.{js,jsx,ts,tsx}", "!src/**/*.story.tsx",
+  ],
   displayName,
   globalSetup: "./global-setup.js",
   moduleNameMapper: {
@@ -20,7 +23,11 @@ module.exports = {
     "<rootDir>/config/test/setupEnzyme.ts", "<rootDir>/config/test/setupChai.ts",
   ],
   snapshotSerializers: ["enzyme-to-json/serializer"],
-  testMatch: ["<rootDir>/src/**/*.{spec,test}.{ts,tsx}"],
+  roots: ["<rootDir>/src", "<rootDir>/.storybook"],
+  testMatch: [
+    "<rootDir>/src/**/*.{spec,test}.{ts,tsx}", "<rootDir>/.storybook/**/*.{spec,test}.{ts,tsx}",
+  ],
+  // @todo add support to JS and JSX files on testing
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
