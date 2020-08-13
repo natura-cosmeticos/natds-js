@@ -16,3 +16,4 @@ reports
 scripts/lint-staged.sh
 *.spec.tsx.snap
 yarn-error.log
+!packages/web/.storybook
