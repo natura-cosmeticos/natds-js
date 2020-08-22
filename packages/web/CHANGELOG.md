@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.18.11](https://github.com/natura-cosmeticos/natds-js/compare/v0.18.10...v0.18.11) (2020-08-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-react to ^0.11.0 ([af0107a](https://github.com/natura-cosmeticos/natds-js/commit/af0107a2482fc4cebdb614f39113ddb48fac82dd))
+
+
+
+
+
 ## [0.18.10](https://github.com/natura-cosmeticos/natds-js/compare/v0.18.9...v0.18.10) (2020-08-22)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
