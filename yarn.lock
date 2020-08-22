@@ -2573,6 +2573,32 @@
     eslint-plugin-mocha "^7.0.0"
     snyk "^1.316.1"
 
+"@naturacosmeticos/natds-react-container@^0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-react-container/-/natds-react-container-0.10.3.tgz#c76e56e5af3057179f088f20a2c941d9529579ff"
+  integrity sha512-tLoOMgDOmBeb8DvComC8EUkATTC2tJEb5R1n8E9VLNyy5jAnf+MZW/EybXx+wcOrunNAMpxeR7m2G5ejea72Lw==
+
+"@naturacosmeticos/natds-react-skeleton@^0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-react-skeleton/-/natds-react-skeleton-0.10.3.tgz#72916292c620a740ff9ecc3671065ce1f426fa58"
+  integrity sha512-0itoLZmu+3/PpDdoAtyuoKHS2huF8xbe+r4TVKLnDxSacZjTq/etTiugQNy/ePwS1GBUn8qc+lfyqyKuMPqlvA==
+
+"@naturacosmeticos/natds-react-typography@^0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-react-typography/-/natds-react-typography-0.10.3.tgz#258c57a5b4ddf90a429437f2c798637731dc35dc"
+  integrity sha512-8u540QphuwpZGdCxn+twyOkZMgLTXXWSoXQyOWT9+zyHpZJreey0Q15RFMWTR+0Nsyq3KGIM+GqHJpABAWwntA==
+
+"@naturacosmeticos/natds-react@^0.10.3":
+  version "0.10.3"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-react/-/natds-react-0.10.3.tgz#3eb585f75edb36147e0a1a9e2004dd8603878fd8"
+  integrity sha512-3z98i6A+wsgkpB+2FEvBczQdlboe8oQlf6wdTHS+eXyGvK55NF5LsgReLigblEyz0Zmh/zWS/b99UB396STBQg==
+  dependencies:
+    "@material-ui/core" "4.11.0"
+    "@material-ui/lab" "4.0.0-alpha.56"
+    "@naturacosmeticos/natds-react-container" "^0.10.3"
+    "@naturacosmeticos/natds-react-skeleton" "^0.10.3"
+    "@naturacosmeticos/natds-react-typography" "^0.10.3"
+
 "@netlify/open-api@^0.15.0":
   version "0.15.0"
   resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-0.15.0.tgz#cf75d2ed2131e73fbcbdddbf1638e92cd0855aa3"
