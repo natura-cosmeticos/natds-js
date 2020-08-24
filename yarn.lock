@@ -2528,10 +2528,10 @@
     "@naturacosmeticos/natds-react-skeleton" "^0.12.1"
     "@naturacosmeticos/natds-react-typography" "^0.12.1"
 
-"@netlify/open-api@^0.15.0":
-  version "0.15.0"
-  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-0.15.0.tgz#cf75d2ed2131e73fbcbdddbf1638e92cd0855aa3"
-  integrity sha512-Nk1NswVrUtI7SDbyn/uvITYeIG5iukKlhsu/6fg4k1G5RMHqMDtVHy+2qcOhKmkf7Qc3ZkIKKd2mQfM6zg2cxw==
+"@netlify/open-api@^0.16.0":
+  version "0.16.0"
+  resolved "https://registry.yarnpkg.com/@netlify/open-api/-/open-api-0.16.0.tgz#f4a7ac8ee6d852b61186d8de093cb88c48fa0eec"
+  integrity sha512-o3QI9hAe6lspQysWrB8CygMO4h+7B4qtPDkacitZ4VPBR26rX2TASq0/x1TNa4TnFG2lNgzkuBWhtXAmd/9tdw==
 
 "@netlify/zip-it-and-ship-it@^1.3.10":
   version "1.3.10"
@@ -13444,12 +13444,12 @@ nested-error-stacks@^2.0.0:
   resolved "https://registry.yarnpkg.com/nested-error-stacks/-/nested-error-stacks-2.1.0.tgz#0fbdcf3e13fe4994781280524f8b96b0cdff9c61"
   integrity sha512-AO81vsIO1k1sM4Zrd6Hu7regmJN1NSiAja10gc4bX3F0wd+9rQmcuHQaHVQCYIEC8iFXnE+mavh23GOt7wBgug==
 
-netlify@4.3.11:
-  version "4.3.11"
-  resolved "https://registry.yarnpkg.com/netlify/-/netlify-4.3.11.tgz#2917f457813d2ef8d73f098db77b074ac47356eb"
-  integrity sha512-d29AhXEtwtj8l+tRhssvUqp91wgv/b4ERI/nD20X6/S2X5s98h0+ySf4A062Y/A6el4C79JqeJ+SFLo/vNZ/Eg==
+netlify@4.3.12:
+  version "4.3.12"
+  resolved "https://registry.yarnpkg.com/netlify/-/netlify-4.3.12.tgz#b9e847d7a851cce819697d6e63c132704a236d96"
+  integrity sha512-uHyKa0wPwhTJblqY4uoxhOkR34I72o3rItJCpBPL4g+7ELDt88qk//WoV3p9CT1TX+sgXvLZuN92HHAM5OPk/w==
   dependencies:
-    "@netlify/open-api" "^0.15.0"
+    "@netlify/open-api" "^0.16.0"
     "@netlify/zip-it-and-ship-it" "^1.3.10"
     backoff "^2.5.0"
     clean-deep "^3.3.0"
