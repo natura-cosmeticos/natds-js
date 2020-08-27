@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.18.27](https://github.com/natura-cosmeticos/natds/compare/v0.18.26...v0.18.27) (2020-08-27)
+
+**Note:** Version bump only for package @naturacosmeticos/natds-styles
+
+
+
+
+
 ## [0.18.26](https://github.com/natura-cosmeticos/natds/compare/v0.18.25...v0.18.26) (2020-08-26)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles
