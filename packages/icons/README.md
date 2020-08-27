@@ -61,7 +61,7 @@ So always try to use the latest version of `natds-web` (or` natds-icons`, if thi
 
 ---
 
-### For React native projects
+### For React Native projects
 
 If your React Native project is not already using our library for the Design System, please install the `natds-rn` dependency:
 
@@ -73,22 +73,11 @@ npm install --save @naturacosmeticos/natds-rn
 yarn add @naturacosmeticos/natds-rn
 ```
 
-Now, have you installed the [@naturacosmeticos/natds-rn](https://github.com/natura-cosmeticos/natds-rn/) library?
+**Now, have you installed the [@naturacosmeticos/natds-rn](https://github.com/natura-cosmeticos/natds-rn/) library?**
 
-Then, you can import the `Icon` component and, in the` name` property, enter the name of the icon you want to use, like:
+Then follow the instructions of [Icons section of React Native readme](https://github.com/natura-cosmeticos/natds-rn/#icons).
 
-```jsx
-import { Icon } from "@naturacosmeticos/natds-rn";
-
-const YourApp = () => (
-  <>
-    <Icon name={"outlined-finance-bag"} />
-    <Icon name={"outlined-content-gift"} />
-  </>
-)
-```
-
-Looking for examples of using the `Icon` component in React Native and all the available properties?
+**Looking for examples of using the `Icon` component in React Native and all the available properties?**
 
 Check out our [documentation for `Icon` in the React Native Storybook for web](https://natds-rn.netlify.app/?path=/docs/components-icon--all).
 
