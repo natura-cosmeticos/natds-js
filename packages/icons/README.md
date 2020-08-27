@@ -3,15 +3,67 @@
 ![Travis (.org)](https://img.shields.io/travis/natura-cosmeticos/natds-js.svg)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
-## Before you start...
+## Installation and usage
 
-Are already using the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) library?
+### For React projects
 
-You don't need to install this library directly.
+Are you already using the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) library?
 
-## How to install
+You just need to import the `Icon` component.
 
-You can still use this package by installing it directly into your project with:
+If your React project is not already using our React component library for the Design System, please install the `natds-web` dependency:
+
+```shell script
+# with npm
+npm install --save @naturacosmeticos/natds-web
+
+# with yarn
+yarn add @naturacosmeticos/natds-web
+```
+
+Then, you can import the `Icon` component and, in the` name` property, enter the name of the icon you want to use, like:
+
+```jsx
+import { Icon } from "@naturacosmeticos/natds-web";
+
+const YourApp = () => (
+  <>
+    <Icon name={"outlined-finance-bag"} />
+    <Icon name={"outlined-content-gift"} />
+  </>
+)
+```
+
+Note that, above, we are using two examples of icons out of the hundreds of options we offer.
+
+<details>
+  <summary>How does the `Icon` component work internally?</summary>
+  
+We have created a React component using JSX that works like this:
+
+```jsx highlight-line="2"
+import React from "react"
+import "@naturacosmeticos/natds-icons/dist/natds-icons.css";
+import { iconNames } from "@naturacosmeticos/natds-icons";
+
+const Icon = (props) => (
+  <i className={`natds-icons-${props.name}`} />
+);
+```
+  
+</details>
+
+#### What name should I use for the icon I need to insert?
+
+You can search for the icons you need in our [Design System Storybook for web](https://storybook-web.natura.com.br).
+
+Note that the availability of the icons may vary depending on the version you use.
+
+So always try to use the latest version of `natds-web` (or` natds-icons`, if this is the case)
+
+### For non-React projects
+
+You can use this package by installing it directly into your project with:
 
 ```sh
 # with npm
@@ -20,8 +72,6 @@ npm install --save @naturacosmeticos/natds-icons
 # with yarn
 yarn add @naturacosmeticos/natds-icons
 ```
-
-## How to use
 
 You can import fonts and the generated [CSS](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.css) and [JSON](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.json) files like this:
 
@@ -38,18 +88,6 @@ import {
 ```
 
 For use on web environments, you will need to serve the fonts and consume the [CSS](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.css) file as you see fit.
-
-One possible way to use it on React is creating a simple (JSX) component like this:
-
-```jsx highlight-line="2"
-import React from "react"
-import '@naturacosmeticos/natds-icons/dist/natds-icons.css';
-import { iconNames } from '@naturacosmeticos/natds-icons';
-
-const Icon = (props) => (
-  <i className={`natds-icons-${props.name}`} />
-);
-```
 
 You can also import the [JSON file](https://github.com/natura-cosmeticos/natds-js/blob/master/packages/icons/src/natds-icons.json) that contains the relationships between the icon names and their `unicode` counterparts (don't rely on the `unicodes`, they are generated automatically)
 
