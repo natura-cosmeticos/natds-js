@@ -5,7 +5,7 @@
 
 ## Installation and usage
 
-### For React projects
+### For React web projects
 
 If your React project is not already using our React component library for the Design System, please install the `natds-web` dependency:
 
@@ -51,13 +51,48 @@ const Icon = (props) => (
   
 </details>
 
-#### What name should I use for the icon I need to insert?
+#### Where do I find icon names?
 
-You can search for the icons you need in our [Design System Storybook for web](https://storybook-web.natura.com.br).
+You can search for the icons you need in our [Design System Storybook](https://storybook-web.natura.com.br).
 
 Note that the availability of the icons may vary depending on the version you use.
 
 So always try to use the latest version of `natds-web` (or` natds-icons`, if this is the case)
+
+---
+
+### For React native projects
+
+If your React Native project is not already using our library for the Design System, please install the `natds-rn` dependency:
+
+```shell script
+# with npm
+npm install --save @naturacosmeticos/natds-rn
+
+# with yarn
+yarn add @naturacosmeticos/natds-rn
+```
+
+Now, have you installed the [@naturacosmeticos/natds-rn](https://github.com/natura-cosmeticos/natds-rn/) library?
+
+Then, you can import the `Icon` component and, in the` name` property, enter the name of the icon you want to use, like:
+
+```jsx
+import { Icon } from "@naturacosmeticos/natds-rn";
+
+const YourApp = () => (
+  <>
+    <Icon name={"outlined-finance-bag"} />
+    <Icon name={"outlined-content-gift"} />
+  </>
+)
+```
+
+Looking for examples of using the `Icon` component in React Native and all the available properties?
+
+Check out our [documentation for `Icon` in the React Native Storybook for web](https://natds-rn.netlify.app/?path=/docs/components-icon--all).
+
+---
 
 ### For non-React projects
 
