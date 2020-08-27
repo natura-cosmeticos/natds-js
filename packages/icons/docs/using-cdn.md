@@ -1,7 +1,5 @@
 # Using `natds-icons` via CDN
 
----
-
 You can start using `natds-icons` with minimal Front-end infrastructure, which is great for prototyping.
 
 Currently, natds-icons are available in CSS, JSON and fonts:
