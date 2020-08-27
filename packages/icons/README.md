@@ -7,10 +7,6 @@
 
 ### For React projects
 
-Are you already using the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) library?
-
-You just need to import the `Icon` component.
-
 If your React project is not already using our React component library for the Design System, please install the `natds-web` dependency:
 
 ```shell script
@@ -20,6 +16,8 @@ npm install --save @naturacosmeticos/natds-web
 # with yarn
 yarn add @naturacosmeticos/natds-web
 ```
+
+Now, have you installed the [@naturacosmeticos/natds-web](https://github.com/natura-cosmeticos/natds-js/tree/master/packages/web) library?
 
 Then, you can import the `Icon` component and, in the` name` property, enter the name of the icon you want to use, like:
 
