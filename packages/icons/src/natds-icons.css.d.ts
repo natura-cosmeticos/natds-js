@@ -36,6 +36,7 @@ declare const styles: {
   readonly "natds-icons-filled-brand-youtube": string;
   readonly "natds-icons-filled-content-divulgation": string;
   readonly "natds-icons-filled-finance-charging": string;
+  readonly "natds-icons-filled-finance-paymentlink": string;
   readonly "natds-icons-filled-media-pause": string;
   readonly "natds-icons-filled-media-play": string;
   readonly "natds-icons-filled-media-stop": string;
@@ -154,6 +155,7 @@ declare const styles: {
   readonly "natds-icons-outlined-finance-littlemachine": string;
   readonly "natds-icons-outlined-finance-money": string;
   readonly "natds-icons-outlined-finance-moneypaper": string;
+  readonly "natds-icons-outlined-finance-paymentlink": string;
   readonly "natds-icons-outlined-finance-promotion": string;
   readonly "natds-icons-outlined-finance-shoppingcart": string;
   readonly "natds-icons-outlined-finance-shoppingcartproduct": string;
