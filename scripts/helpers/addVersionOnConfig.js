@@ -22,7 +22,7 @@ console.info(`STORYBOOK Opening ${configFilePath}...`);
 
 // eslint-disable-next-line import/no-dynamic-require,@typescript-eslint/no-var-requires
 const versionsConfig = require(configFilePath);
-const [{versions}] = versionsConfig;
+const [{ versions }] = versionsConfig;
 
 // eslint-disable-next-line no-console
 console.info(`STORYBOOK Adding ${newVersion} to versions list...`);
