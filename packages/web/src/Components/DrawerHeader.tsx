@@ -56,6 +56,7 @@ DrawerHeader.displayName = "DrawerHeader";
 
 export default withTheme(DrawerHeader);
 
+// @todo rewrite to remove dependency from StyledComponents
 const DrawerHeaderComponent = styled.div<{ theme: IThemeWeb }>`
   border-bottom: ${({ theme }) => `${theme.palette.divider} 1px solid`};
   flex: 0 0 auto;
