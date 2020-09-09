@@ -15,7 +15,7 @@ const getPluginsForBrowser = () => [
   nodePolyfills(),
 ];
 
-const getBrowserOutputConfig = ({filePath = "", globals, name = "natdsWeb"}) => [
+const getBrowserOutputConfig = ({ filePath = "", globals, name = "natdsWeb" }) => [
   {
     dir: `./dist/umd/${filePath}`,
     format: "umd",
@@ -33,7 +33,7 @@ export default [
     external: ["@naturacosmeticos/natds-icons/dist/natds-icons.css"],
     input: "./dist/index.js",
     output: getBrowserOutputConfig({
-      globals: {"@naturacosmeticos/natds-icons/dist/natds-icons.css": "natDsIcons"},
+      globals: { "@naturacosmeticos/natds-icons/dist/natds-icons.css": "natDsIcons" },
     }),
     plugins: getPluginsForBrowser(),
   },
