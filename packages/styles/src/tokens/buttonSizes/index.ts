@@ -2,6 +2,9 @@
 import { IButtonSizes } from "./IButtonSizes";
 import { sizes } from "../sizes";
 
+/**
+ * Button size tokens are used by MuiButton override, for properties `root`, `sizeLarge`, `sizeSmall`
+ */
 export const buttonSizes: IButtonSizes = {
   small: {
     paddingTop: sizes.none,
@@ -11,11 +14,11 @@ export const buttonSizes: IButtonSizes = {
     height: sizes.semi,
   },
   medium: {
+    height: sizes.semiX,
     paddingTop: sizes.none,
-    paddingRight: 12,
+    paddingRight: sizes.small - sizes.micro,
     paddingBottom: sizes.none,
-    paddingLeft: 12,
-    height: sizes.semix,
+    paddingLeft: sizes.small - sizes.micro,
   },
   large: {
     paddingTop: sizes.none,
