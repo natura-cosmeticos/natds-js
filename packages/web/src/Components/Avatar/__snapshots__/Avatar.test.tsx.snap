@@ -1,0 +1,153 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar component given a default theme was provided when no props are overridden should render correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-19 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-21"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when color is "default" should render default correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-46 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-48"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when color is "primary" should render primary correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-40 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-42"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when color is "secondary" should render secondary correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-43 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-45"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when no property is provided should render correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-22 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-24"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when size is "huge" should render huge correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-37 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-39"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when size is "large" should render large correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-34 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-36"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when size is "small" should render small correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-28 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-30"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when size is "standard" should render standard correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-31 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-33"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when size is "tiny" should render tiny correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-25 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-27"
+  />
+</div>
+`;
+
+exports[`Avatar component given no theme was provided when an icon is provided as children should render correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-15 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i />
+</div>
+`;
+
+exports[`Avatar component given no theme was provided when an image is provided as children should render correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-17 MuiAvatar-circle"
+>
+  <img
+    alt=""
+    className="MuiAvatar-img"
+    src="source/image.png"
+  />
+</div>
+`;
+
+exports[`Avatar component given no theme was provided when color is "default" should render default color correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-5 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  A
+</div>
+`;
+
+exports[`Avatar component given no theme was provided when color is "primary" should render primary color correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  A
+</div>
+`;
+
+exports[`Avatar component given no theme was provided when color is "secondary" should render secondary color correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-3 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  A
+</div>
+`;
+
+exports[`Avatar component given no theme was provided when initials are provided as children should render correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-13 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  AB
+</div>
+`;
