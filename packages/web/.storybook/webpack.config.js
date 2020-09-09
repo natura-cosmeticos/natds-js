@@ -1,13 +1,21 @@
 /* eslint-disable @typescript-eslint/no-var-requires */
-const {storyRule} = require("./rules/storyRule");
-const {markdownRule} = require("./rules/markdownRule");
-const {typescriptRule} = require("./rules/typescriptRule");
+const { merge } = require("webpack-merge");
 
-module.exports = ({config}) => {
-  config.module.rules.push(storyRule);
-  config.module.rules.push(markdownRule);
-  config.module.rules.push(typescriptRule);
-  config.resolve.extensions.push(".js", ".jsx", ".md", ".mdx", ".ts", ".tsx");
+const KB = 1024;
+const minSize = 30;
+const maxSize = 1024;
 
-  return config;
+const configOverrides = {
+  optimization: {
+    splitChunks: {
+      chunks: "all",
+      minSize: minSize * KB,
+      maxSize: maxSize * KB,
+    },
+  },
+  performance: {
+    maxAssetSize: maxSize * KB,
+  },
 };
+
+module.exports = ({ config }) => merge(config, configOverrides);
