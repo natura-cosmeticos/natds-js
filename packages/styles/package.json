@@ -47,14 +47,15 @@
     "typescript": "4.0.2",
     "yarn": "1.22.5"
   },
+  "dependencies": {
+    "@naturacosmeticos/natds-themes": "0.2.0",
+    "hex-to-rgba": "2.0.1"
+  },
   "publishConfig": {
     "access": "public"
   },
   "files": [
     "dist"
   ],
-  "dependencies": {
-    "hex-to-rgba": "2.0.1"
-  },
   "gitHead": "53a7cf24e9ef90d76a994113606780df4fda0922"
 }
