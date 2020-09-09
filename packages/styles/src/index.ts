@@ -1,6 +1,7 @@
 export { default as tokens } from "./tokens";
 export { default as themes, ITheme } from "./themes";
 export { IAvatarSizes } from "./tokens/avatarSizes/IAvatarSizes";
+export { IAvatarProperties } from "./tokens/avatarSizes/IAvatarProperties";
 export { IButtonSizes } from "./tokens/buttonSizes/IButtonSizes";
 export { IElevation } from "./tokens/elevation/IElevation";
 export { IIconSizes } from "./tokens/iconSizes/IIconSizes";
