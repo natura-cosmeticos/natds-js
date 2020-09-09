@@ -2,7 +2,7 @@
 
 exports[`Button component rendering sizes should match snapshot - Size Large: Large Button snapshot 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSizeLarge MuiButton-sizeLarge"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-textSizeLarge MuiButton-sizeLarge"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -19,7 +19,7 @@ exports[`Button component rendering sizes should match snapshot - Size Large: La
   type="button"
 >
   <span
-    className="MuiButton-label"
+    className="MuiButton-label NatDSButton-label-2"
   >
     A Button Component
   </span>
@@ -28,7 +28,7 @@ exports[`Button component rendering sizes should match snapshot - Size Large: La
 
 exports[`Button component rendering sizes should match snapshot - Size Medium: Medium Button snapshot 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root MuiButton-text"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -45,7 +45,7 @@ exports[`Button component rendering sizes should match snapshot - Size Medium: M
   type="button"
 >
   <span
-    className="MuiButton-label"
+    className="MuiButton-label NatDSButton-label-2"
   >
     A Button Component
   </span>
@@ -57,7 +57,7 @@ exports[`Button component rendering sizes should match snapshot - Size Medium: M
 
 exports[`Button component rendering sizes should match snapshot - Size Small: Small Button snapshot 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -74,7 +74,7 @@ exports[`Button component rendering sizes should match snapshot - Size Small: Sm
   type="button"
 >
   <span
-    className="MuiButton-label"
+    className="MuiButton-label NatDSButton-label-2"
   >
     A Button Component
   </span>
@@ -83,7 +83,7 @@ exports[`Button component rendering sizes should match snapshot - Size Small: Sm
 
 exports[`Button component rendering variants should match snapshot - High emphasis button (variant contained): High emphasis Button snapshot 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root MuiButton-contained"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -100,7 +100,7 @@ exports[`Button component rendering variants should match snapshot - High emphas
   type="button"
 >
   <span
-    className="MuiButton-label"
+    className="MuiButton-label NatDSButton-label-2"
   >
     A Button Component
   </span>
@@ -112,7 +112,7 @@ exports[`Button component rendering variants should match snapshot - High emphas
 
 exports[`Button component rendering variants should match snapshot - Low emphasis button (variant text): Low emphasis Button snapshot 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root MuiButton-text"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -129,7 +129,7 @@ exports[`Button component rendering variants should match snapshot - Low emphasi
   type="button"
 >
   <span
-    className="MuiButton-label"
+    className="MuiButton-label NatDSButton-label-2"
   >
     A Button Component
   </span>
@@ -141,7 +141,7 @@ exports[`Button component rendering variants should match snapshot - Low emphasi
 
 exports[`Button component rendering variants should match snapshot - Medium emphasis button (variant outlined): Medium emphasis Button snapshot 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root MuiButton-outlined"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-outlined"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -158,7 +158,7 @@ exports[`Button component rendering variants should match snapshot - Medium emph
   type="button"
 >
   <span
-    className="MuiButton-label"
+    className="MuiButton-label NatDSButton-label-2"
   >
     A Button Component
   </span>
