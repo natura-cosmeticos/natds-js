@@ -1,20 +1,58 @@
-export interface ISizes {
+import { IDeprecatedSizes } from "./IDeprecatedSizes";
+
+export interface ISizes extends IDeprecatedSizes {
   none: number;
   micro: number;
   tiny: number;
   small: number;
   standard: number;
   semi: number;
-  semix: number;
+
+  /**
+   * @since 0.19.0
+   */
+  semiX: number;
   medium: number;
-  mediumx: number;
+
+  /**
+   * @since 0.19.0
+   */
+  mediumX: number;
   large: number;
-  largex: number;
-  largexx: number;
-  largexxx: number;
+
+  /**
+   * @since 0.19.0
+   */
+  largeX: number;
+
+  /**
+   * @since 0.19.0
+   */
+  largeXX: number;
+
+  /**
+   * @since 0.19.0
+   */
+  largeXXX: number;
   huge: number;
-  hugex: number;
-  hugexx: number;
-  hugexxx: number;
-  veryhuge: number;
+
+  /**
+   * @since 0.19.0
+   */
+  hugeX: number;
+
+  /**
+   * @since 0.19.0
+   */
+  hugeXX: number;
+
+  /**
+   * @since 0.19.0
+   */
+  hugeXXX: number;
+
+  /**
+   * @since 0.19.0
+   */
+  veryHuge: number;
 }
