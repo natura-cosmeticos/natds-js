@@ -1,6 +1,6 @@
 import React, { FunctionComponent, forwardRef } from "react";
 import { withTheme } from "@material-ui/styles";
-import MaterialCircularProgress, {CircularProgressProps as ICircularProgressProps} from "@material-ui/core/CircularProgress";
+import MaterialCircularProgress, { CircularProgressProps as ICircularProgressProps } from "@material-ui/core/CircularProgress";
 
 export { CircularProgressProps as ICircularProgressProps } from "@material-ui/core/CircularProgress";
 
