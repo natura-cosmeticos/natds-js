@@ -1,12 +1,6 @@
-/* eslint-disable max-lines */
-/* eslint-disable no-magic-numbers */
-/* eslint-disable sort-keys */
-
-/**
- * @todo refactor(styles): replace magic numbers by tokens (including opacity, padding and sizing)
- */
-
+/* eslint-disable max-lines,no-magic-numbers,sort-keys */
 import hexToRgba from "hex-to-rgba";
+import themes from "@naturacosmeticos/natds-themes";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -22,9 +16,15 @@ const {
   colorTokens: { naturaLightColorTokens },
 } = tokens;
 
+const { borderRadius } = themes.natura.light;
+
 export const naturaLight: ITheme = {
   shape: {
-    borderRadius: tokens.radius.medium,
+    borderRadius: borderRadius.medium,
+
+    /**
+     * @todo move this token to natds-themes
+     */
     badgeBorderRadius: 100,
   },
   avatarSizes,
