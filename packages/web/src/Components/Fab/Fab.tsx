@@ -1,37 +1,44 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import * as React from "react";
+
 import MaterialFab from "@material-ui/core/Fab";
-import useTheme from "@material-ui/core/styles/useTheme";
-import {PropTypes} from "@material-ui/core";
-import {defaultProps, IFabProps} from "./IFabProps";
-import {makeFabStyles} from "./Fab.styles";
-import {getColorProp} from "./getColorProp";
+import { FabColor, IFabProps, MaterialFabColor } from "./Fab.props";
+import colors from "./__fixtures__/colors";
+import { useStyles } from "./Fab.styles";
+import { getColorProp } from "./getColorProp";
 
-const Fab : (props: IFabProps, ref: any) => JSX.Element = (props: IFabProps, ref: any) => {
-
-  const {
-    color,
-    disabled,
-  } = props;
-
-  const theme = useTheme();
-  const useStyles = makeFabStyles(theme);
-  const classes = useStyles();
-
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
-  return <MaterialFab
-    {...props}
-    classes={classes}
-    color={getColorProp(color) as PropTypes.Color}
-    disabled={disabled}
-    ref={ref}
-  />;
+export const defaultProps = {
+  color: colors.primary,
+  disabled: false,
 };
 
-const DefaultFab = React.forwardRef<HTMLElement, IFabProps>(Fab);
+export const Fab = React.forwardRef<unknown, IFabProps>(
+  (props: IFabProps,
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    ref: any,
+  ) => {
+    const {
+      color,
 
-DefaultFab.defaultProps = defaultProps;
-DefaultFab.displayName = "Fab";
+      /**
+       * @deprecated `disabled` property was deprecated since version 0.19 and will be removed at 1.0.
+       * The FAB promotes action, and should not be displayed in a disabled state.
+       * If you want to present a FAB that does not perform an action, you should also present an explanation to the user.
+       */
+      disabled,
+      ...otherProps
+    } = props;
 
-export default DefaultFab;
+    const classes = useStyles();
+
+    return <MaterialFab
+      classes={classes}
+      color={getColorProp(color as FabColor) as MaterialFabColor}
+      disabled={disabled}
+      ref={ref}
+      {...otherProps}/>;
+  },
+);
+Fab.displayName = "Fab";
+Fab.defaultProps = defaultProps;
+
+export default Fab;

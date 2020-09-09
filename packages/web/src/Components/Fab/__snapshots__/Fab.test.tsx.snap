@@ -2,7 +2,7 @@
 
 exports[`Fab component when Natura dark theme is provided should render correctly: Provider Natura Dark Theme Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-4 MuiFab-primary makeStyles-primary-5"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-4 MuiFab-primary NatDSFab-primary-5"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -31,7 +31,7 @@ exports[`Fab component when Natura dark theme is provided should render correctl
 
 exports[`Fab component when Natura light theme is provided should render correctly: Provider Natura Light Theme Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-7 MuiFab-primary makeStyles-primary-8"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-7 MuiFab-primary NatDSFab-primary-8"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -57,7 +57,7 @@ exports[`Fab component when Natura light theme is provided should render correct
 
 exports[`Fab component when a color is specified should render color "light" correctly: Color light Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-22"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -86,7 +86,7 @@ exports[`Fab component when a color is specified should render color "light" cor
 
 exports[`Fab component when a color is specified should render color "primary" correctly: Color primary Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-16 MuiFab-primary makeStyles-primary-17"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -115,7 +115,7 @@ exports[`Fab component when a color is specified should render color "primary" c
 
 exports[`Fab component when a color is specified should render color "secondary" correctly: Color secondary Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-19 MuiFab-secondary makeStyles-secondary-21"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-secondary NatDSFab-secondary-3"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -141,7 +141,7 @@ exports[`Fab component when a color is specified should render color "secondary"
 
 exports[`Fab component when a size is specified should render size "large" correctly: Size large Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-25 MuiFab-primary makeStyles-primary-26"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -167,7 +167,7 @@ exports[`Fab component when a size is specified should render size "large" corre
 
 exports[`Fab component when a size is specified should render size "medium" correctly: Size medium Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-28 MuiFab-sizeMedium MuiFab-primary makeStyles-primary-29"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-sizeMedium MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -196,7 +196,7 @@ exports[`Fab component when a size is specified should render size "medium" corr
 
 exports[`Fab component when a size is specified should render size "small" correctly: Size small Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-31 MuiFab-sizeSmall MuiFab-primary makeStyles-primary-32"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-sizeSmall MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -222,7 +222,7 @@ exports[`Fab component when a size is specified should render size "small" corre
 
 exports[`Fab component when a variant is specified should render variant "extended" correctly: Size extended Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-37 MuiFab-extended MuiFab-primary makeStyles-primary-38"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-extended MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -248,7 +248,7 @@ exports[`Fab component when a variant is specified should render variant "extend
 
 exports[`Fab component when a variant is specified should render variant "round" correctly: Size round Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-34 MuiFab-primary makeStyles-primary-35"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -277,7 +277,7 @@ exports[`Fab component when a variant is specified should render variant "round"
 
 exports[`Fab component when disabled is explicitly false should render correctly: Not Disabled Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-13 MuiFab-primary makeStyles-primary-14"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -303,7 +303,7 @@ exports[`Fab component when disabled is explicitly false should render correctly
 
 exports[`Fab component when disabled is explicitly true should render correctly: Disabled Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-10 Mui-disabled MuiFab-primary makeStyles-primary-11 Mui-disabled"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 Mui-disabled MuiFab-primary NatDSFab-primary-2 Mui-disabled"
   disabled={true}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -329,7 +329,7 @@ exports[`Fab component when disabled is explicitly true should render correctly:
 
 exports[`Fab component when no props are provided should render correctly: No Props Fab 1`] = `
 <button
-  className="MuiButtonBase-root MuiFab-root makeStyles-root-1 MuiFab-primary makeStyles-primary-2"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}

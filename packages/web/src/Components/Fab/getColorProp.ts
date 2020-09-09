@@ -1,13 +1,22 @@
-import {colors, IFabColor} from "./IFabProps";
+import { FabColor, MaterialFabColor } from "./Fab.props";
+import colors from "./__fixtures__/colors";
 
-export const getColorProp: (color?: IFabColor) => (null | "primary" | "secondary" | "light" | string) = (color ?: IFabColor) => {
+export const getColorProp: (color: FabColor) => MaterialFabColor = (color) => {
+
   if (typeof color === "undefined") {
-    return null;
+    return "default" as MaterialFabColor;
   }
-  switch (color) {
-  case colors.primary: return colors.primary;
-  case colors.secondary: return colors.secondary;
-  case colors.light: return "default";
-  default: return null;
+
+  const colorMapping = {
+    [colors.primary]: "primary",
+    [colors.secondary]: "secondary",
+    [colors.light]: "default",
+  };
+
+  if (Object.keys(colorMapping).includes(color)) {
+    return colorMapping[color] as MaterialFabColor;
   }
+
+  return "default" as MaterialFabColor;
+
 };

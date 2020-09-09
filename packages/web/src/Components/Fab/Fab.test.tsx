@@ -5,7 +5,7 @@ import * as renderer from "react-test-renderer";
 import { Fab } from ".";
 import { Provider } from "../../Provider";
 import { themes } from "../../Themes";
-import {IFabColor, IFabSize, IFabVariant} from "./IFabProps";
+import { IFabColor, IFabSize, IFabVariant } from "./IFabProps";
 
 describe("Fab component", () => {
 

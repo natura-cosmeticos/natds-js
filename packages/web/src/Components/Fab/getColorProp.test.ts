@@ -1,5 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment,no-undefined */
-import {getColorProp} from "./getColorProp";
+import { getColorProp } from "./getColorProp";
 
 describe("Fab color property getter", () => {
   describe("when color property is primary", () => {
@@ -28,7 +28,7 @@ describe("Fab color property getter", () => {
       // @ts-ignore
       const actual = getColorProp(null);
 
-      expect(actual).toBe(null);
+      expect(actual).toBe("default");
     });
   });
   describe("when color property is undefined", () => {
@@ -36,7 +36,7 @@ describe("Fab color property getter", () => {
       // @ts-ignore
       const actual = getColorProp();
 
-      expect(actual).toBe(null);
+      expect(actual).toBe("default");
     });
   });
   describe("when color property is not a valid value", () => {
@@ -44,7 +44,7 @@ describe("Fab color property getter", () => {
       // @ts-ignore
       const actual = getColorProp("not a valid value");
 
-      expect(actual).toBe(null);
+      expect(actual).toBe("default");
     });
   });
 });
