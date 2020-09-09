@@ -1,22 +1,15 @@
-import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
-import { ComponentWithLabel, getComponentParams, getDefaultDecorators } from '../../../.storybook';
-
-import Container from '.';
-
-<Meta component={Container} parameters={getComponentParams(["Container"])} title="Layout components|Container" />
-
 # Container
 
 The container centers your content horizontally. It's most the basic layout element.
 
-While containers can be nested, most layouts do not required a nested container.
+While containers can be nested, most layouts do not require a nested container.
 
 ## Import
 
-```js
-import Container from "@naturacosmeticos/natds-web/dist/Components/Container"
+```jsx
+import { Container } from "@naturacosmeticos/natds-react"
 // or
-import { Container } from "@naturacosmeticos/natds-web"
+import Container from "@naturacosmeticos/natds-react-container"
 ```
 
 ## Usage
@@ -48,6 +41,3 @@ export const FixedContainerExample = () => (
 )
 ```
 
-### Container API
-
-Please check the [Container API page on Material UI website](https://material-ui.com/api/container/) for more detail.

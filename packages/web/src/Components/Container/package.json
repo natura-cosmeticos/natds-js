@@ -1,0 +1,42 @@
+{
+  "name": "@naturacosmeticos/natds-react-container",
+  "displayName": "Container",
+  "description": "Container component for React web by Natura Design System",
+  "version": "0.15.0",
+  "private": false,
+  "keywords": [
+    "container",
+    "component",
+    "react",
+    "web",
+    "natura",
+    "natds",
+    "design"
+  ],
+  "homepage": "https://github.com/natura-cosmeticos/natds-react/tree/main/packages/web/src/Components/Container#readme",
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-react/issues"
+  },
+  "license": "ISC",
+  "author": "Natura Design System <designsystem@natura.net>",
+  "source": "index.ts",
+  "repository": {
+    "directory": "paclages/web/src/Components/Container",
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/natds-js.git"
+  },
+  "scripts": {
+    "build": "rollup -c"
+  },
+  "peerDependencies": {
+    "@material-ui/core": "^4.11.0",
+    "react": "^16.8.0"
+  },
+  "config": {},
+  "publishConfig": {
+    "access": "public"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  }
+}
