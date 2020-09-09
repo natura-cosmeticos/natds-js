@@ -1,6 +1,10 @@
 /* eslint-disable sort-keys */
 import { IColorsNatura } from "./IColorsNatura";
 
+/**
+ * @deprecated `colors.natura` is deprecated since version 0.19.0. It will be removed on version 1.0.
+ * Please use `theme.natura.light.palette` (or `theme.natura.dark.palette`)
+ */
 export const natura: IColorsNatura = {
   primary: {
     colorBrdNatPrimaryOrange: "#FF6B0B",
