@@ -5,7 +5,8 @@ const REGULAR = 400;
 const MEDIUM = 500;
 
 /**
- * @todo refactor: rename `fontSize` to typography
+ * @deprecated since 0.19. It will be removed at 1.0.
+ * Please use typography tokens directly from the theme.
  */
 export const fontSize = {
   h1: {
