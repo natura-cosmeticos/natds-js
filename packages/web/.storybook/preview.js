@@ -1,16 +1,54 @@
-import React from "react";
-import { addDecorator } from "@storybook/react";
-import { addParameters } from "@storybook/client-api";
-import { withKnobs } from "@storybook/addon-knobs";
-import { withA11y } from "@storybook/addon-a11y";
-import Container from "./decorators/Container";
-import { withTheme } from "./addons/theme/provider";
-import { initialParams } from "./parameters/initialParams";
+/* eslint-disable import/prefer-default-export */
+// import { naturaLightTheme } from "@naturacosmeticos/natds-react-storybook-themes";
 
-const decorationFunction = (storyFn) => <Container>{storyFn()}</Container>;
+import { ThemeProviderDecorator } from "./decorators/ThemeProviderDecorator";
 
-addDecorator(decorationFunction);
-addDecorator(withA11y);
-addDecorator(withTheme);
-addDecorator(withKnobs);
-addParameters(initialParams);
+export const parameters = {
+  actions: { argTypesRegex: "^on[A-Z].*" },
+  controls: { expanded: true },
+  // docs: { theme: naturaLightTheme },
+};
+
+export const decorators = [ThemeProviderDecorator];
+
+export const globalTypes = {
+  theme: {
+    defaultValue: "naturaLight",
+    description: "Global theme for components",
+    name: "Theme",
+    toolbar: {
+      items: [
+        {
+          right: "🌑",
+          title: "Avon Dark",
+          value: "avonDark",
+        },
+        {
+          right: "☀️",
+          title: "Avon Light",
+          value: "avonLight",
+        },
+        {
+          right: "🌑",
+          title: "Natura Dark",
+          value: "naturaDark",
+        },
+        {
+          right: "☀️",
+          title: "Natura Light",
+          value: "naturaLight",
+        },
+        {
+          right: "🌑",
+          title: "The Body Shop Dark",
+          value: "theBodyShopDark",
+        },
+        {
+          right: "☀️",
+          title: "The Body Shop Light",
+          value: "theBodyShopLight",
+        },
+      ],
+    },
+  },
+};

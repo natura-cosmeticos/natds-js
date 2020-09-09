@@ -1,6 +1,7 @@
 import { addons } from "@storybook/addons";
-import {naturaLightTheme} from "./themes/naturaLightTheme";
+// import { naturaLightTheme } from "@naturacosmeticos/natds-react-storybook-themes";
 
 addons.setConfig({
-  theme: naturaLightTheme,
+  panelPosition: "bottom",
+  // theme: naturaLightTheme,
 });

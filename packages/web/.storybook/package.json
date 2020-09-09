@@ -1,0 +1,73 @@
+{
+  "name": "@naturacosmeticos/natds-react-storybook-config",
+  "displayName": "StorybookBaseConfig",
+  "description": "Storybook base config for natds-react-* packages",
+  "version": "0.15.0",
+  "private": false,
+  "keywords": [
+    "storybook-base-config",
+    "component",
+    "react",
+    "web",
+    "natura",
+    "natds",
+    "design"
+  ],
+  "homepage": "https://github.com/natura-cosmeticos/natds-react/tree/main/@config/storybook#readme",
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-react/issues"
+  },
+  "license": "ISC",
+  "author": "Natura Design System <designsystem@natura.net>",
+  "files": [
+    "main.js",
+    "manager.js",
+    "preview.js",
+    "README.md"
+  ],
+  "main": "./main.js",
+  "source": "./main.js",
+  "directories": {
+    "lib": "."
+  },
+  "repository": {
+    "directory": "@config/storybook",
+    "type": "git",
+    "url": "https://github.com/natura-cosmeticos/natds-react.git"
+  },
+  "config": {
+    "displayName": "StorybookBaseConfig",
+    "main": "./main.js",
+    "name": "storybook-base-config",
+    "org": "natura-cosmeticos",
+    "repo": "natds-react",
+    "source": "src/main.js",
+    "url": "https://github.com/natura-cosmeticos/natds-react"
+  },
+  "dependencies": {
+    "webpack-merge": "5.1.2"
+  },
+  "peerDependencies": {
+    "@babel/core": "^7.11.1",
+    "@storybook/addon-actions": "^6.0.10",
+    "@storybook/addon-controls": "^6.0.10",
+    "@storybook/addon-essentials": "^6.0.10",
+    "@storybook/addon-links": "^6.0.10",
+    "@storybook/addons": "^6.0.10",
+    "@storybook/react": "^6.0.10",
+    "babel-loader": "^8.1.0",
+    "react": "^16.13.1",
+    "react-docgen": "^5.3.0",
+    "react-docgen-typescript": "^1.20.1",
+    "react-docgen-typescript-loader": "^3.7.2",
+    "react-dom": "^16.13.1",
+    "react-is": "^16.13.1",
+    "webpack": "^4.44.1"
+  },
+  "engines": {
+    "node": ">=8.0.0"
+  },
+  "publishConfig": {
+    "access": "public"
+  }
+}
