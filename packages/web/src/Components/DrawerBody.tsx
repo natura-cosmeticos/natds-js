@@ -75,7 +75,7 @@ export const DrawerBodyComponent = styled.div<{ scrolled: boolean, theme: ITheme
 
   &:before {
     content: "";
-    box-shadow: ${({scrolled}) => getDrawerBodyComponentBoxShadow({scrolled})};
+    box-shadow: ${({ scrolled }) => getDrawerBodyComponentBoxShadow({ scrolled })};
     height: 10px;
     pointer-events: none;
     top: 0;
