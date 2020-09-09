@@ -1,0 +1,97 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Skeleton component given a default theme is provided when height and with props are provided renders correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": 16,
+      "width": 16,
+    }
+  }
+/>
+`;
+
+exports[`Skeleton component given a default theme is provided when height prop is provided renders correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": 16,
+      "width": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Skeleton component given a default theme is provided when no props are overridden renders correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Skeleton component given a default theme is provided when width prop is provided renders correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": undefined,
+      "width": 16,
+    }
+  }
+/>
+`;
+
+exports[`Skeleton component given no theme is provided when height and with props are provided renders correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Skeleton component given no theme is provided when height prop is provided renders correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Skeleton component given no theme is provided when no props are overridden renders correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+/>
+`;
+
+exports[`Skeleton component given no theme is provided when width prop is provided renders correctly 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": undefined,
+      "width": undefined,
+    }
+  }
+/>
+`;
