@@ -8,9 +8,9 @@ export interface IButtonSizes {
 }
 
 interface IButtonProperties {
-  paddingTop: number;
-  paddingRight: number;
+  height: number;
   paddingBottom: number;
   paddingLeft: number;
-  height: number;
+  paddingRight: number;
+  paddingTop: number;
 }
