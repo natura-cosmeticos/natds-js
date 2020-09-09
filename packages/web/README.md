@@ -13,27 +13,43 @@ React components for web development inside Natura.
 
 ---
 
-## Installation
+## Getting started
 
-Design System components for React web is available as an [npm package](https://www.npmjs.com/package/@naturacosmeticos/natds-web).
+Install and get started with Natura Design System components for React for web applications.
 
-### Stable channel v0
+### Installation
 
-```shell script
-// with npm
-npm install @naturacosmeticos/natds-web
+Design System components for React is available as an [npm package](https://www.npmjs.com/package/@naturacosmeticos/natds-web).
 
-// with yarn
-yarn add @naturacosmeticos/natds-web
-```
+#### Stable channel v0
 
 To get the latest stable release always use `latest` distribution channel.
 
-## Usage
+```shell script
+$ npm install @naturacosmeticos/natds-web
+```
+
+Working with Yarn? Use the equivalent install command:
+
+```shell script
+$ yarn add @naturacosmeticos/natds-web
+```
+
+Load the Roboto font with `400` and `500` font weights:
+
+```
+https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap
+```
+
+This package does not provide Roboto font, only its font family names.
+
+### Usage
 
 Here is a quick example to get you started:
 
-```jsx highlight-line="4"
+Note that we enclose all your application in a `Provider` component.
+
+```jsx
 import React from 'react'
 import { Button, Provider, themes } from "@naturacosmeticos/natds-web";
 
@@ -45,6 +61,54 @@ export const App = () => (
   </Provider>
 )
 ```
+
+This package only works fine with the use of `<Provider />`, that is **essential** for applying styles correctly.
+
+Please do not try to override theme palette or another tokens. Our Design System themes are ready to use.
+
+## Additional information
+
+### Requirements
+
+- Please note that `react >= 16.8.4` and `react-dom >= 16.8.4` are peer dependencies.
+- We recommend at least LTS Node version (v8.0.0+);
+- If your project uses TypeScript, we need TypeScript 2.1 at least;
+
+If your project does not meet the minimum requirements, you can use [@naturacosmeticos/natds-styles](../styles/README.md).
+
+### Bundled in this package
+
+Installing `@naturacosmeticos/natds-web` will also install the following packages:
+
+- `@material-ui/core`
+- `@naturacosmeticos/natds-icons`
+- `@naturacosmeticos/natds-styles`
+- `styled-components`
+
+Thus, it is not necessary to install them to use the Design System.
+
+### Using a CDN
+
+**⚠️ This feature is experimental**.
+
+We provide a Universal Module Definition (UMD) file via `jsdelivr`:
+
+https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web
+
+```html
+<script
+    crossorigin="anonymous"
+    src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web">
+</script>
+```
+
+For more info and examples, check our [CDN documentation](./docs/using-cdn.md).
+
+---
+
+## Troubleshooting
+
+Having troubles? Please check our [Troubleshooting documentation](../../TROUBLESHOOTING.md).
 
 ## Questions
 
@@ -60,7 +124,7 @@ Check out our [documentation website](http://storybook-web.natura.com.br/).
 
 ## Contributing
 
-Read our [contributing guide](../../CONTRIBUTING.md) to learn abot our development process, how to propose new components,
+Read our [contributing guide](../../CONTRIBUTING.md) to learn about our development process, how to propose new components,
 and how to build and test your changes to Natura Design System components for React web.
 
 ## Changelog
