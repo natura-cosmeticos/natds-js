@@ -106,6 +106,34 @@ $ yarn
 $ yarn build:libs
 ```
 
+### Tarefas de _linting_ e testes
+
+Use o `eslint` para verificar se o seu código está de acordo com o _code style_:
+
+```sh
+yarn lint
+```
+
+Como muitos dos nossos componentes são _wrappers_ de outros já testados, usamos muitos testes de _snapshot_.
+Quaisquer linhas adicionais de código escritas dentro dos próprios componentes precisam ter 100% de cobertura de teste.
+
+Use o `jest` para verificar se os testes passam:
+
+```sh
+yarn test
+```
+
+Consulte a seção `scripts` no arquivo `package.json` para conferir a lista completa de tarefas disponíveis.
+
+### Posso alterar alguma definição de tema?
+
+Os nossos componentes e temas utilizam o Material UI como base.
+Os temas são criados na biblioteca `@naturacosmeticos/natds-styles`.
+Esse pacote realiza um _parse_ dos temas do Material UI.
+
+Qualquer alteração no contrato do tema ou componentes existentes deve ser comunicada ao time Design System.
+Assim, iremos avaliar se a alteração é aplicável, e se não causa _breaking changes_.
+
 ## 5. Faça commits semânticos
 
 Em vez de utilizar `git commit`, por favor, use este comando:
@@ -122,7 +150,7 @@ Graças a esse formato, é possível definir se a próxima versão será um _pat
 
 A partir de 20 de junho de 2020, _commits_ feitos fora deste formato poderão ser recusados.
 
-## 5. Crie um _pull request_
+## 6. Crie um _pull request_
 
 Ao criar um _pull request_, não se esqueça de:
 
