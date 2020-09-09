@@ -10,30 +10,36 @@ import {
 } from "@naturacosmeticos/natds-styles";
 
 export interface IThemeWeb
-  extends Pick<ITheme, "shape" | "palette" | "avatarSizes" | "sizes"> {
+  extends Pick<ITheme,
+    | "avatarSizes"
+    | "palette"
+    | "shape"
+    | "sizes"
+    | "spacing"
+    > {
   shadows?: IShadows;
   typography: {
+    body1?: IFont;
+    body2?: IFont;
+    button?: IFont;
+    caption?: IFont;
     fontFamily?: string;
     fontFamilyBrand1?: string;
     fontFamilyBrand2?: string;
     fontFamilyBrand3?: string;
-    fontWeightLight?: number;
-    fontWeightRegular?: number;
-    fontWeightMedium?: number;
     fontWeightBold?: number;
+    fontWeightLight?: number;
+    fontWeightMedium?: number;
+    fontWeightRegular?: number;
     h1?: IFont;
     h2?: IFont;
     h3?: IFont;
     h4?: IFont;
     h5?: IFont;
     h6?: IFont;
+    overline?: IFont;
     subtitle1?: IFont;
     subtitle2?: IFont;
-    body1?: IFont;
-    body2?: IFont;
-    button?: IFont;
-    caption?: IFont;
-    overline?: IFont;
   };
 }
 
