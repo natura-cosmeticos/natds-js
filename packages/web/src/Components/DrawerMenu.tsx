@@ -59,6 +59,7 @@ export const DrawerMenu: FunctionComponent<IDrawerMenuProps> = forwardRef((
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  // @todo rewrite to remove dependency from StyledComponents
   const StyledList = React.useMemo(() => makeStyles({
       padding: {
         marginBottom: theme.sizes.tiny,
@@ -99,7 +100,7 @@ export const DrawerMenuSection: FunctionComponent<IDrawerMenuSectionProps> = for
     StyledSubList = React.useMemo(() => makeStyles({
       padding: {
         borderLeft: `${theme.palette.action.hover} 1px solid`,
-        margin: `0 0 0 ${theme.sizes.semix}px`,
+        margin: `0 0 0 ${theme.sizes.semiX}px`,
         padding: `0 0 0 ${theme.sizes.tiny}px`,
       },
     }), [theme]),
@@ -242,6 +243,7 @@ export const DrawerMenuItem: FunctionComponent<IDrawerMenuItemProps> = forwardRe
 
 DrawerMenuItem.displayName = "DrawerMenuItem";
 
+// eslint-disable-next-line react/display-name
 const BuildDrawerMenuItems = (theme: IThemeWeb | unknown) => (props: IDrawerMenuSectionProps, key: number) => {
   if (props.list) {
     return <DrawerMenuSection theme={theme} key={key} {...props} />;
