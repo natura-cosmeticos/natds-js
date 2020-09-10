@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 import createStyles from "@material-ui/core/styles/createStyles";
 import { IAvatarProperties } from "@naturacosmeticos/natds-styles";
 import { StyleRules } from "@material-ui/core";
@@ -35,11 +36,20 @@ export const getStylesForColor: ({ color, theme }: AvatarStylesArgs) => AvatarSt
 
   const { palette } = theme;
 
-  if (color && color !== "default" && palette && palette[color]) {
-    root.backgroundColor = palette[color].main;
-    root.color = palette[color].contrastText;
-    fallback.color = palette[color].contrastText;
-    fallback.fill = palette[color].contrastText;
+  /**
+   * @todo fix Element implicitly has an 'any' type because expression of type 'string' can't be used to index type
+   */
+  // @ts-ignore
+  if (color && color !== "default" && typeof palette[color] !== "undefined") {
+    // @ts-ignore
+    const colorObject = palette[color];
+
+    if (typeof colorObject !== "undefined") {
+      root.backgroundColor = colorObject.main;
+      root.color = colorObject.contrastText;
+      fallback.color = colorObject.contrastText;
+      fallback.fill = colorObject.contrastText;
+    }
   }
 
   return { fallback, root } as AvatarStyles;
