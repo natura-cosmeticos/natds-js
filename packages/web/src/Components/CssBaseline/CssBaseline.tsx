@@ -1,6 +1,6 @@
 import MaterialCssBaseline from "@material-ui/core/CssBaseline";
 
-export { ICssBaselineProps } from "./ICssBaselineProps";
+export { ICssBaselineProps } from "./CssBaseline.props";
 
 export const CssBaseline = MaterialCssBaseline;
 
