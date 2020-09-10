@@ -20,7 +20,7 @@ export default {
   title: "Components/FAB",
 } as Meta;
 
-const Template : Story<IFabProps> = (args) => <Fab {...args} />;
+const Template : Story<IFabProps> = (args) => <Fab {...args}>{args.children}</Fab>;
 
 export const Playground : Story<IFabProps> = Template.bind({});
 Playground.args = {
@@ -28,7 +28,7 @@ Playground.args = {
   /**
    * @todo add support for choosing icon
    */
-  children: <Icon name={"outlined-action-add"} {...IconStories.StandardAddIcon.args} />,
+  children: <Icon name={"outlined-action-add"} {...IconStories.SmallAddIcon.args} />,
   color: colors.primary,
   size: sizes.large,
   variant: variants.round,
