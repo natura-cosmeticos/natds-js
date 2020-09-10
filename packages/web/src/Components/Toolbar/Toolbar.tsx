@@ -16,8 +16,7 @@ export const Toolbar = React.forwardRef<unknown, IToolbarProps>(
 
     const classNames = clsx(
       className,
-      // eslint-disable-next-line dot-notation
-      variant === "prominent" && classes["prominent"],
+      variant === "prominent" && classes.prominent,
     );
 
     return <MaterialToolbar
