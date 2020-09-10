@@ -79,6 +79,7 @@ module.exports = {
       rules: {
         "max-lines": "off",
         "newline-after-var": "off",
+        "no-multiple-empty-lines": "off",
       },
     },
   ],
