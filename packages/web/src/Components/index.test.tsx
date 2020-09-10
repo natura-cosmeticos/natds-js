@@ -1,7 +1,6 @@
 import * as library from "..";
 
 const components = [
-  "AlertTitle",
   "AppBar",
   "Avatar",
   "Badge",
@@ -66,6 +65,7 @@ const components = [
   "Skeleton",
   "Snackbar",
   "SnackbarContent",
+  "Spacing",
   "Switch",
   "TabContainer",
   "TabItem",
