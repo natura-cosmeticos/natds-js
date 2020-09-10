@@ -38,6 +38,7 @@ module.exports = {
     "../src/Components/Fab/Fab.stories.tsx",
     "../src/Components/Icon/Icon.stories.tsx",
     "../src/Components/IconButton/IconButton.stories.tsx",
+    "../src/Components/ScopedCssBaseline/ScopedCssBaseline.stories.mdx",
     "../src/Components/Skeleton/Skeleton.stories.tsx",
     "../src/Components/Spacing/Spacing.stories.tsx",
     "../src/Components/Spacing/Spacing.margin.stories.tsx",
