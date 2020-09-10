@@ -12,45 +12,35 @@ exports[`Avatar component given a default theme was provided when no props are o
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "default" should render default correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-46 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-181 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-48"
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-183"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "primary" should render primary correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-40 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-145 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-42"
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-147"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "secondary" should render secondary correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-43 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-163 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-45"
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-165"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when no property is provided should render correctly 1`] = `
-<div
-  className="MuiAvatar-root NatDsAvatar-root-22 MuiAvatar-circle MuiAvatar-colorDefault"
->
-  <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-24"
-  />
-</div>
-`;
-
-exports[`Avatar component given a specific theme was explicitly provided when size is "huge" should render huge correctly 1`] = `
 <div
   className="MuiAvatar-root NatDsAvatar-root-37 MuiAvatar-circle MuiAvatar-colorDefault"
 >
@@ -60,42 +50,52 @@ exports[`Avatar component given a specific theme was explicitly provided when si
 </div>
 `;
 
-exports[`Avatar component given a specific theme was explicitly provided when size is "large" should render large correctly 1`] = `
+exports[`Avatar component given a specific theme was explicitly provided when size is "huge" should render huge correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-34 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-127 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-36"
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-129"
+  />
+</div>
+`;
+
+exports[`Avatar component given a specific theme was explicitly provided when size is "large" should render large correctly 1`] = `
+<div
+  className="MuiAvatar-root NatDsAvatar-root-109 MuiAvatar-circle MuiAvatar-colorDefault"
+>
+  <i
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-111"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "small" should render small correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-28 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-73 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-30"
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-75"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "standard" should render standard correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-31 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-91 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-33"
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-93"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "tiny" should render tiny correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-25 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-55 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-27"
+    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-57"
   />
 </div>
 `;
