@@ -20,5 +20,5 @@ export const getFontSize : ({ size, theme }: IconFontSizeArgs) => string = ({ si
     return `${fontSize}px`;
   }
 
-  return "1em";
+  return "";
 };

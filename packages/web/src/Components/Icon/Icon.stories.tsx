@@ -12,13 +12,10 @@ export default {
 const Template : Story<IIconProps> = (args) => <Icon {...args} />;
 
 export const Playground : Story<IIconProps> = Template.bind({});
-Playground.args = {
-  name: "outlined-action-add",
-  size: "standard",
-};
+Playground.args = {};
 
 export const StandardAddIcon : Story<IIconProps> = Template.bind({});
-Playground.args = {
+StandardAddIcon.args = {
   name: "outlined-action-add",
   size: "standard",
 };

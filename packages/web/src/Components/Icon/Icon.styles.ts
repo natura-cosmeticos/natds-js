@@ -5,26 +5,6 @@ import { IThemeWeb } from "../../Themes";
 
 // @todo adopt with base in prop: https://material-ui.com/pt/styles/basics/#adapting-based-on-props
 const styles = (theme: IThemeWeb) => createStyles({
-  root: {
-    flexShrink: 0,
-
-    /**
-     * @todo adopt 1em height on `natds-react` 1.0
-     */
-    // height: "1em",
-
-    /**
-     * Chrome fix for https://bugs.chromium.org/p/chromium/issues/detail?id=820541
-     * @todo remove at some point
-     */
-    overflow: "hidden",
-    userSelect: "none",
-
-    /**
-     * @todo adopt 1em width on `natds-react` 1.0
-     */
-    // width: "1em",
-  },
   microFontSize: {
     fontSize: getFontSize({ size: "micro", theme }),
   },

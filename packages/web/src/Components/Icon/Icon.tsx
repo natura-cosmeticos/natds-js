@@ -1,4 +1,5 @@
 import * as React from "react";
+import MaterialIcon from "@material-ui/core/Icon";
 import "@naturacosmeticos/natds-icons/dist/natds-icons.css";
 import clsx from "clsx";
 import { useStyles } from "./Icon.styles";
@@ -21,32 +22,24 @@ export const Icon = React.forwardRef<unknown, IIconProps>(
   ) => {
 
     const {
-      className,
-      name,
-      size,
-      ...rest
+      className, name = "filled-default-mockup", size = "standard", ...otherProps
     } = props;
 
     const classes = useStyles();
-
     const sizeClassNameKey = `${size}FontSize`;
 
-    const classNames = [
+    const classNames = clsx([
       "natds-icons",
       `natds-icons-${String(name)}`,
-      classes.root,
+      className,
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       classes[sizeClassNameKey],
-      className,
-    ];
+    ]);
 
-    /**
-     * @todo Adopt Material UI Icon component since `natds-react` 1.0
-     */
-    return <i className={clsx(classNames)} ref={ref} {...rest} />;
-
-  });
+    return <MaterialIcon className={classNames} component={"i"} ref={ref} {...otherProps}>{name}</MaterialIcon>;
+  },
+);
 
 Icon.displayName = "Icon";
 export default Icon;
