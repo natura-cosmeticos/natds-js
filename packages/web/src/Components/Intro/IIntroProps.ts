@@ -1,6 +1,6 @@
 import * as React from "react";
-import {IThemeWeb} from "../../Themes";
-import {TypographyColor, TypographyVariant} from "../Typography";
+import { IThemeWeb } from "../../Themes";
+import { TypographyColor, TypographyVariant } from "../Typography";
 
 export interface IIntroProps extends Omit<React.HTMLAttributes<HTMLDivElement>, "title"> {
   theme: IThemeWeb | unknown;

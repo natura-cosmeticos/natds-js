@@ -3,9 +3,9 @@ import * as React from "react";
 import { withTheme } from "@material-ui/styles";
 import styled from "styled-components";
 import { Typography } from "../Typography";
-import {IIntroProps} from "./IIntroProps";
+import { IIntroProps } from "./IIntroProps";
 
-export {IIntroProps} from "./IIntroProps";
+export { IIntroProps } from "./IIntroProps";
 
 export const Intro: React.FunctionComponent<IIntroProps> = React.forwardRef((
   props: IIntroProps,

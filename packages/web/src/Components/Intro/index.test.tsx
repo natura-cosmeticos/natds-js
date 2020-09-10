@@ -5,7 +5,7 @@ import { expect } from "chai";
 import { themes } from "@naturacosmeticos/natds-styles";
 import Icon from "../Icon";
 import { Intro } from "./index";
-import {TypographyColor, TypographyVariant} from "../Typography";
+import { TypographyColor, TypographyVariant } from "../Typography";
 
 const variants : Record<TypographyVariant, TypographyVariant> = {
   body1: "body1",
