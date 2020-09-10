@@ -1,7 +1,8 @@
 import {
-  IIconSizes, ITheme, themes, tokens,
+  IIconSizes, tokens,
 } from "@naturacosmeticos/natds-styles";
 import { getFontSize } from "./getFontSize";
+import { IThemeWeb, themes } from "../../Themes";
 
 describe("Font size", () => {
 
@@ -49,7 +50,7 @@ describe("Font size", () => {
 
         const actual = getFontSize({
           size: size as keyof IIconSizes,
-          theme: {} as ITheme,
+          theme: {} as IThemeWeb,
         });
 
         it("can be undefined", () => {
