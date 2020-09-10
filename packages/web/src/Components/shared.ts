@@ -1,6 +1,6 @@
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import isEqual from "lodash/isEqual";
-import {ThemeOptions, createMuiTheme} from "@material-ui/core/styles";
+import { ThemeOptions, createMuiTheme } from "@material-ui/core/styles";
 import { themes } from "../Themes";
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any
