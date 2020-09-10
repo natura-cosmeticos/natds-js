@@ -53,8 +53,8 @@ describe("Font size", () => {
           theme: {} as IThemeWeb,
         });
 
-        it("can be undefined", () => {
-          expect(actual).toContain("undefined");
+        it("should be not undefined", () => {
+          expect(actual).not.toContain("undefined");
         });
 
       });
@@ -67,8 +67,8 @@ describe("Font size", () => {
           size: size as keyof IIconSizes,
         });
 
-        it("can be undefined", () => {
-          expect(actual).toContain("undefined");
+        it("should be 1em", () => {
+          expect(actual).toContain("1em");
         });
 
       });
