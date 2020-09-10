@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment,max-len */
 import { ITextFieldProps } from "./ITextFieldProps";
 import { IStateTypes } from "./IStateTypes";
 
@@ -50,7 +51,7 @@ export const stateStyles = {
  * @param state
  * @param initial
  */
-// eslint-disable-next-line max-len
+// @ts-ignore
 const getState = ({ disabled, state }: Pick<ITextFieldProps, "disabled" | "state">, initial: IStateTypes) => (disabled ? stateStyles.disabled : stateStyles[state || ""]) || initial;
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types,@typescript-eslint/no-explicit-any
