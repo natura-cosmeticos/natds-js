@@ -1,5 +1,4 @@
-/* eslint-disable max-lines */
-/* eslint-disable max-lines-per-function */
+/* eslint-disable @typescript-eslint/ban-ts-comment,@typescript-eslint/no-explicit-any,max-lines,max-len,max-lines-per-function,no-param-reassign */
 import { createMuiTheme } from "@material-ui/core/styles";
 import { Shadows as IShadows } from "@material-ui/core/styles/shadows";
 import {
@@ -12,6 +11,7 @@ import {
 export interface IThemeWeb
   extends Pick<ITheme,
     | "avatarSizes"
+    | "iconSizes"
     | "palette"
     | "shape"
     | "sizes"
@@ -44,12 +44,17 @@ export interface IThemeWeb
 }
 
 const parseShadows = (shadows: IElevation): IShadows => {
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+
     const outShadows: any = [];
 
     createMuiTheme({}).shadows.forEach((shadow, index) => {
 
+      /**
+       * @todo fix TS7053: Element implicitly has an 'any' type...
+       */
+      // @ts-ignore
       if (shadows[index.toString()]) {
+        // @ts-ignore
         outShadows.push(shadows[index.toString()]);
       } else {
         outShadows.push(shadow);
@@ -59,7 +64,7 @@ const parseShadows = (shadows: IElevation): IShadows => {
     return outShadows;
   },
 
-  // @todo refactor(web): refactor parseTheme function
+  // @todo refactor parseTheme function
   parseTheme = (theme: ITheme): IThemeWeb => {
     const { shadows } = theme;
 
@@ -106,11 +111,20 @@ const createThemesObject = (): IThemesWeb<keyof typeof styleThemes> => {
   >;
 
   keys.forEach((key) => {
+
+    /**
+     * @todo fix TS7053: Element implicitly has an 'any' type...
+     */
+    // @ts-ignore
     newThemes[key] = {
       dark: {} as IThemeWeb,
       light: {} as IThemeWeb,
     };
 
+    /**
+     * @todo TS7053: Element implicitly has an 'any' type...
+     */
+    // @ts-ignore
     return newThemes[key];
   });
 
@@ -118,12 +132,20 @@ const createThemesObject = (): IThemesWeb<keyof typeof styleThemes> => {
 };
 
 /**
- * @todo fix(web): avoid assignment to property of function parameter 'result'
+ * @todo fix: avoid assignment to property of function parameter 'result'
  */
 export const themes = Object.keys(styleThemes).reduce((result, key) => {
-  // eslint-disable-next-line no-param-reassign
+
+  /**
+   * @todo fix TS7053: Element implicitly has an 'any' type...
+   */
+  // @ts-ignore
   result[key].light = parseTheme(styleThemes[key].light);
-  // eslint-disable-next-line no-param-reassign
+
+  /**
+   * @todo fix TS7053: Element implicitly has an 'any' type...
+   */
+  // @ts-ignore
   result[key].dark = parseTheme(styleThemes[key].dark);
 
   return result;
