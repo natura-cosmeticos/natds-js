@@ -1,22 +1,178 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
 exports[`TextField component rendering state should match snapshot - TextField (custom icon with action): TextField custom icon with action snapshot 1`] = `
+.c4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.c4,
+.c4 > svg {
+  fill: inherit!important;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px 48px 16px 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c5 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="eBYKIW undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -27,7 +183,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       value=""
     />
     <i
-      className="gMeDIa"
+      className="c4"
       onClick={[Function]}
       style={
         Object {
@@ -48,7 +204,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="chPrLP"
+    className="c5"
     disabled={false}
   >
     Assistive text
@@ -57,22 +213,178 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (custom icon): TextField custom icon snapshot 1`] = `
+.c4 {
+  width: 24px;
+  height: 24px;
+  position: absolute;
+  top: 16px;
+  right: 16px;
+}
+
+.c4,
+.c4 > svg {
+  fill: inherit!important;
+}
+
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px 48px 16px 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c5 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="eBYKIW undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -83,7 +395,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
       value=""
     />
     <i
-      className="gMeDIa"
+      className="c4"
       style={Object {}}
     >
       <svg
@@ -99,7 +411,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </i>
   </div>
   <span
-    className="chPrLP"
+    className="c5"
     disabled={false}
   >
     Assistive text
@@ -162,9 +474,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -707,22 +1023,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -848,9 +1173,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -1393,22 +1722,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -1480,22 +1818,132 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default with empty theme): TextField default with empty theme snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  box-shadow: 0 0 0 1px;
+}
+
+.c3:placeholder-shown {
+  box-shadow: undefined 0 0 0 1px;
+}
+
+.c3:placeholder-shown {
+  box-shadow: undefined 0 0 0 1px;
+}
+
+.c3:placeholder-shown {
+  box-shadow: undefined 0 0 0 1px;
+}
+
+.c3:placeholder-shown {
+  box-shadow: undefined 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: undefined 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: undefined 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: undefined 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+}
+
+.c1 {
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="eAHCPh"
+  className="c0"
 >
   <label
-    className="jDqvmJ"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="iIbRqT"
+    className="c2"
     disabled={false}
   >
     <input
-      className="jnnNxh undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1507,7 +1955,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="eFPjHO"
+    className="c4"
     disabled={false}
   >
     Assistive text
@@ -1516,22 +1964,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default without placeholder): TextField default without placeholder snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="kNxsZa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1543,7 +2134,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="chPrLP"
+    className="c4"
     disabled={false}
   >
     Assistive text
@@ -1552,22 +2143,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (default): TextField default snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="kNxsZa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -1579,7 +2313,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="chPrLP"
+    className="c4"
     disabled={false}
   >
     Assistive text
@@ -1643,9 +2377,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -2188,22 +2926,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -2330,9 +3077,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -2875,22 +3626,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -2962,22 +3722,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled): TextField disabled snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #BBBBBB;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #BBBBBB;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #BBBBBB;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="cdaMgZ"
+    className="c1"
     disabled={true}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="esQkmo"
+    className="c2"
     disabled={true}
   >
     <input
-      className="dkEQBn undefined__input"
+      className="c3 undefined__input"
       disabled={true}
       id="field"
       label="Label"
@@ -2989,7 +3892,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="bzrAIv"
+    className="c4"
     disabled={true}
   >
     Assistive text
@@ -3053,9 +3956,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -3598,22 +4505,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -3740,9 +4656,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -4285,22 +5205,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -4372,22 +5301,171 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (error): TextField error snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #E74627 0 0 0 2px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #E74627 0 0 0 2px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #E74627 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #E74627 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c5 {
+  width: 16px!important;
+  height: 16px!important;
+  margin-right: 4px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #E74627;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #E74627;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="evhyPQ"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="dCQVfl undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -4399,12 +5477,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="gHBhiy"
+    className="c4"
     disabled={false}
   >
     <svg
       aria-hidden={true}
-      className="MuiSvgIcon-root kvTbVW"
+      className="MuiSvgIcon-root c5"
       focusable="false"
       theme={
         Object {
@@ -4455,9 +5533,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -5000,22 +6082,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": 8,
@@ -5149,9 +6240,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -5694,22 +6789,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -5836,9 +6940,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -6381,22 +7489,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -6469,22 +7586,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (filled): TextField filled snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="kNxsZa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -6496,7 +7756,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="chPrLP"
+    className="c4"
     disabled={false}
   >
     Assistive text
@@ -6505,22 +7765,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (mask): TextField mask snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="kNxsZa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       hasIcon={false}
       helpText="Assistive text"
@@ -6596,9 +7999,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -7141,22 +8548,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": 8,
@@ -7229,7 +8645,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="chPrLP"
+    className="c4"
     disabled={false}
   >
     Assistive text
@@ -7238,22 +8654,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (multiline): TextField multiline snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <textarea
-      className="kNxsZa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -7265,7 +8824,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="chPrLP"
+    className="c4"
     disabled={false}
   >
     Assistive text
@@ -7274,22 +8833,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (property forwarded): TextField property forwarded snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="kNxsZa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -7301,7 +9003,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="chPrLP"
+    className="c4"
     disabled={false}
   >
     Assistive text
@@ -7310,22 +9012,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (readonly explicitly set to false): TextField readonly explicitly set to false snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="kNxsZa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -7338,7 +9183,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="chPrLP"
+    className="c4"
     disabled={false}
   >
     Assistive text
@@ -7347,22 +9192,149 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (readonly explicitly set to true): TextField readonly explicitly set to true snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="kNxsZa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -7378,15 +9350,150 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (required without label): TextField required without label snapshot 1`] = `
+.c1 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c2 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c2:disabled,
+.c2:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c2::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c2::-moz-placeholder {
+  color: #777777;
+}
+
+.c2:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c2::placeholder {
+  color: #777777;
+}
+
+.c2:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c2:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c2:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c2:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c2:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c2:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c2:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c2:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c2:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c2:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c2[type='text']::-ms-clear,
+.c2[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c2[type='search']::-webkit-search-decoration,
+.c2[type='search']::-webkit-search-cancel-button,
+.c2[type='search']::-webkit-search-results-button,
+.c2[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c3 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <div
-    className="YOqtI"
+    className="c1"
     disabled={false}
   >
     <input
-      className="kNxsZa undefined__input"
+      className="c2 undefined__input"
       disabled={false}
       id="field"
       label={null}
@@ -7398,7 +9505,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="chPrLP"
+    className="c3"
     disabled={false}
   >
     Assistive text
@@ -7407,22 +9514,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (required): TextField required snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #333333 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #777777;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #777777;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="jyjFMd"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label *
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="kNxsZa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -7434,7 +9684,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="chPrLP"
+    className="c4"
     disabled={false}
   >
     Assistive text
@@ -7498,9 +9748,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -8043,22 +10297,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -8185,9 +10448,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "iconSizes": Object {
         "huge": 144,
+        "hugeX": 192,
+        "hugeXX": 256,
         "hugex": 192,
         "hugexx": 256,
         "large": 72,
+        "largeX": 96,
+        "largeXX": 128,
         "largex": 96,
         "largexx": 128,
         "medium": 64,
@@ -8730,22 +10997,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
       },
       "sizes": Object {
         "huge": 96,
+        "hugeX": 128,
+        "hugeXX": 144,
+        "hugeXXX": 192,
         "hugex": 128,
         "hugexx": 144,
         "hugexxx": 192,
         "large": 64,
+        "largeX": 72,
+        "largeXX": 80,
+        "largeXXX": 88,
         "largex": 72,
         "largexx": 80,
         "largexxx": 88,
         "medium": 48,
+        "mediumX": 56,
         "mediumx": 56,
         "micro": 4,
         "none": 0,
         "semi": 32,
+        "semiX": 40,
         "semix": 40,
         "small": 16,
         "standard": 24,
         "tiny": 8,
+        "veryHuge": 256,
         "veryhuge": 256,
       },
       "spacing": 8,
@@ -8817,22 +11093,171 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (success): TextField success snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #333333;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #333333;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #BBBBBB;
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3::placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #569A32 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #569A32 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #569A32 0 0 0 1px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #569A32 0 0 0 1px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c5 {
+  width: 16px!important;
+  height: 16px!important;
+  margin-right: 4px;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #569A32;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #569A32;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="bjjjBf"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="YOqtI"
+    className="c2"
     disabled={false}
   >
     <input
-      className="bvSYHF undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -8844,12 +11269,12 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="cPzWhB"
+    className="c4"
     disabled={false}
   >
     <svg
       aria-hidden={true}
-      className="MuiSvgIcon-root bJRDub"
+      className="MuiSvgIcon-root c5"
       focusable="false"
       theme={
         Object {
@@ -8900,9 +11325,13 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -9445,22 +11874,31 @@ exports[`TextField component rendering state should match snapshot - TextField (
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": 8,
@@ -9540,22 +11978,165 @@ exports[`TextField component rendering state should match snapshot - TextField (
 `;
 
 exports[`TextField component rendering state should match snapshot - TextField (theme change): TextField theme change snapshot 1`] = `
+.c2 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  position: relative;
+  fill: #FAFAFA;
+}
+
+.c3 {
+  background-color: transparent;
+  border: 0;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+  line-height: 24px;
+  min-height: 48px;
+  outline: none;
+  color: #FAFAFA;
+  font-size: 0.875rem;
+  font-weight: 400;
+  font-family: "Roboto",sans-serif;
+  -webkit-flex: 1 1 100%;
+  -ms-flex: 1 1 100%;
+  flex: 1 1 100%;
+  padding: 16px;
+  resize: vertical;
+}
+
+.c3:disabled,
+.c3:disabled:hover {
+  color: #777777;
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3::-webkit-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3::-moz-placeholder {
+  color: #BBBBBB;
+}
+
+.c3:-ms-input-placeholder {
+  color: #BBBBBB;
+}
+
+.c3::placeholder {
+  color: #BBBBBB;
+}
+
+.c3:disabled::-webkit-input-placeholder {
+  color: #777777;
+}
+
+.c3:disabled::-moz-placeholder {
+  color: #777777;
+}
+
+.c3:disabled:-ms-input-placeholder {
+  color: #777777;
+}
+
+.c3:disabled::placeholder {
+  color: #777777;
+}
+
+.c3:placeholder-shown {
+  box-shadow: #777777 0 0 0 1px;
+}
+
+.c3:not(:placeholder-shown) {
+  box-shadow: #FAFAFA 0 0 0 1px;
+}
+
+.c3:focus:not(:-moz-read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:focus:not(:read-only) {
+  box-shadow: #F4AB34 0 0 0 2px;
+}
+
+.c3:hover:not(:-moz-read-only):not(:disabled):not(:focus) {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3:hover:not(:read-only):not(:disabled):not(:focus) {
+  box-shadow: #BBBBBB 0 0 0 1px;
+}
+
+.c3[type='text']::-ms-clear,
+.c3[type='text']::-ms-reveal {
+  display: none;
+  width: 0;
+  height: 0;
+}
+
+.c3[type='search']::-webkit-search-decoration,
+.c3[type='search']::-webkit-search-cancel-button,
+.c3[type='search']::-webkit-search-results-button,
+.c3[type='search']::-webkit-search-results-decoration {
+  display: none;
+}
+
+.c0 {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-flow: column nowrap;
+  -ms-flex-flow: column nowrap;
+  flex-flow: column nowrap;
+  font-family: "Roboto",sans-serif;
+}
+
+.c1 {
+  font-size: 0.875rem;
+  font-weight: 500;
+  color: #BBBBBB;
+  line-height: 1.2;
+  padding: 0 0 4px;
+}
+
+.c4 {
+  font-size: 0.75rem;
+  font-weight: 400;
+  color: #BBBBBB;
+  line-height: 1.2;
+  padding: 4px 0 0;
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-align-items: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  align-items: center;
+}
+
 <div
-  className="byWJEn"
+  className="c0"
 >
   <label
-    className="cdaMgZ"
+    className="c1"
     disabled={false}
     htmlFor="field"
   >
     Label
   </label>
   <div
-    className="hydfqP"
+    className="c2"
     disabled={false}
   >
     <input
-      className="bnucRa undefined__input"
+      className="c3 undefined__input"
       disabled={false}
       id="field"
       label="Label"
@@ -9567,7 +12148,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <span
-    className="bzrAIv"
+    className="c4"
     disabled={false}
   >
     Assistive text

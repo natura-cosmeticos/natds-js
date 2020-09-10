@@ -1917,59 +1917,60 @@ exports[`Breadcrumbs component rendering it should match default snapshot: Bread
                                     }
                                   }
                                 >
-                                  <WithTheme(Typography)>
-                                    <Typography>
-                                      <WithStyles(ForwardRef(Typography))
+                                  <Typography
+                                    align="inherit"
+                                    variant="body1"
+                                  >
+                                    <WithStyles(ForwardRef(Typography))
+                                      align="inherit"
+                                      variant="body1"
+                                    >
+                                      <ForwardRef(Typography)
                                         align="inherit"
+                                        classes={
+                                          Object {
+                                            "alignCenter": "MuiTypography-alignCenter",
+                                            "alignJustify": "MuiTypography-alignJustify",
+                                            "alignLeft": "MuiTypography-alignLeft",
+                                            "alignRight": "MuiTypography-alignRight",
+                                            "body1": "MuiTypography-body1",
+                                            "body2": "MuiTypography-body2",
+                                            "button": "MuiTypography-button",
+                                            "caption": "MuiTypography-caption",
+                                            "colorError": "MuiTypography-colorError",
+                                            "colorInherit": "MuiTypography-colorInherit",
+                                            "colorPrimary": "MuiTypography-colorPrimary",
+                                            "colorSecondary": "MuiTypography-colorSecondary",
+                                            "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                            "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                            "displayBlock": "MuiTypography-displayBlock",
+                                            "displayInline": "MuiTypography-displayInline",
+                                            "gutterBottom": "MuiTypography-gutterBottom",
+                                            "h1": "MuiTypography-h1",
+                                            "h2": "MuiTypography-h2",
+                                            "h3": "MuiTypography-h3",
+                                            "h4": "MuiTypography-h4",
+                                            "h5": "MuiTypography-h5",
+                                            "h6": "MuiTypography-h6",
+                                            "noWrap": "MuiTypography-noWrap",
+                                            "overline": "MuiTypography-overline",
+                                            "paragraph": "MuiTypography-paragraph",
+                                            "root": "MuiTypography-root",
+                                            "srOnly": "MuiTypography-srOnly",
+                                            "subtitle1": "MuiTypography-subtitle1",
+                                            "subtitle2": "MuiTypography-subtitle2",
+                                          }
+                                        }
                                         variant="body1"
                                       >
-                                        <ForwardRef(Typography)
-                                          align="inherit"
-                                          classes={
-                                            Object {
-                                              "alignCenter": "MuiTypography-alignCenter",
-                                              "alignJustify": "MuiTypography-alignJustify",
-                                              "alignLeft": "MuiTypography-alignLeft",
-                                              "alignRight": "MuiTypography-alignRight",
-                                              "body1": "MuiTypography-body1",
-                                              "body2": "MuiTypography-body2",
-                                              "button": "MuiTypography-button",
-                                              "caption": "MuiTypography-caption",
-                                              "colorError": "MuiTypography-colorError",
-                                              "colorInherit": "MuiTypography-colorInherit",
-                                              "colorPrimary": "MuiTypography-colorPrimary",
-                                              "colorSecondary": "MuiTypography-colorSecondary",
-                                              "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                              "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                              "displayBlock": "MuiTypography-displayBlock",
-                                              "displayInline": "MuiTypography-displayInline",
-                                              "gutterBottom": "MuiTypography-gutterBottom",
-                                              "h1": "MuiTypography-h1",
-                                              "h2": "MuiTypography-h2",
-                                              "h3": "MuiTypography-h3",
-                                              "h4": "MuiTypography-h4",
-                                              "h5": "MuiTypography-h5",
-                                              "h6": "MuiTypography-h6",
-                                              "noWrap": "MuiTypography-noWrap",
-                                              "overline": "MuiTypography-overline",
-                                              "paragraph": "MuiTypography-paragraph",
-                                              "root": "MuiTypography-root",
-                                              "srOnly": "MuiTypography-srOnly",
-                                              "subtitle1": "MuiTypography-subtitle1",
-                                              "subtitle2": "MuiTypography-subtitle2",
-                                            }
-                                          }
-                                          variant="body1"
+                                        <p
+                                          className="MuiTypography-root MuiTypography-body1"
                                         >
-                                          <p
-                                            className="MuiTypography-root MuiTypography-body1"
-                                          >
-                                            Code
-                                          </p>
-                                        </ForwardRef(Typography)>
-                                      </WithStyles(ForwardRef(Typography))>
-                                    </Typography>
-                                  </WithTheme(Typography)>
+                                          Code
+                                        </p>
+                                      </ForwardRef(Typography)>
+                                    </WithStyles(ForwardRef(Typography))>
+                                  </Typography>
                                 </a>
                               </ForwardRef(Typography)>
                             </WithStyles(ForwardRef(Typography))>

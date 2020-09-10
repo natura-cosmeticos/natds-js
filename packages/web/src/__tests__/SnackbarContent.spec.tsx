@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
 import { Provider } from "../Provider";
-import SnackbarContent, {ISnackbarContentColors} from "../Components/SnackbarContent";
+import SnackbarContent, { ISnackbarContentColors } from "../Components/SnackbarContent";
 import { themes } from "../Themes";
 
 describe("SnackbarContent Component", () => {

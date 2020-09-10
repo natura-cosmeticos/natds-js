@@ -7,8 +7,7 @@ exports[`Chip component should match snapshot - Any valid Chip with Avatar: Chip
   onKeyUp={[Function]}
 >
   <div
-    className="MuiAvatar-root MuiAvatar-circle MuiChip-avatar MuiAvatar-colorDefault"
-    style={Object {}}
+    className="MuiAvatar-root NatDsAvatar-root-2 MuiAvatar-circle MuiChip-avatar MuiAvatar-colorDefault"
   >
     XD
   </div>
@@ -25,7 +24,7 @@ exports[`Chip component should match snapshot - Any valid Chip with Icon: Chip s
   onKeyUp={[Function]}
 >
   <i
-    className="natds-icons natds-icons-filled-action-add makeStyles-root-2 MuiChip-icon"
+    className="natds-icons natds-icons-filled-action-add NatDSIcon-root-4 MuiChip-icon"
   />
   <span
     className="MuiChip-label"
@@ -45,7 +44,7 @@ exports[`Chip component should match snapshot - Any valid Chip with custom delet
     className="MuiChip-label"
   />
   <i
-    className="natds-icons natds-icons-filled-action-cancel makeStyles-root-4 MuiChip-deleteIcon"
+    className="natds-icons natds-icons-filled-action-cancel NatDSIcon-root-6 MuiChip-deleteIcon"
     onClick={[Function]}
   />
 </div>
@@ -75,7 +74,7 @@ exports[`Chip component should match snapshot - Any valid Chip with default dele
     className="MuiChip-label"
   />
   <i
-    className="natds-icons natds-icons-filled-action-cancel makeStyles-root-3 MuiChip-deleteIcon"
+    className="natds-icons natds-icons-filled-action-cancel NatDSIcon-root-5 MuiChip-deleteIcon"
     onClick={[Function]}
   />
 </div>

@@ -243,59 +243,46 @@ exports[`List components rendering variants should match to snapshot - with List
                         <div
                           className="MuiListItemAvatar-root"
                         >
-                          <WithTheme(Avatar)
+                          <Avatar
                             color="default"
                             size="small"
                           >
-                            <Avatar
-                              color="default"
-                              size="small"
+                            <WithStyles(ForwardRef(Avatar))
+                              classes={
+                                Object {
+                                  "fallback": "NatDsAvatar-fallback-2",
+                                  "root": "NatDsAvatar-root-1",
+                                }
+                              }
                             >
-                              <WithStyles(ForwardRef(Avatar))
-                                color="default"
-                                size="small"
-                                style={Object {}}
-                              >
-                                <ForwardRef(Avatar)
-                                  classes={
-                                    Object {
-                                      "circle": "MuiAvatar-circle",
-                                      "colorDefault": "MuiAvatar-colorDefault",
-                                      "fallback": "MuiAvatar-fallback",
-                                      "img": "MuiAvatar-img",
-                                      "root": "MuiAvatar-root",
-                                      "rounded": "MuiAvatar-rounded",
-                                      "square": "MuiAvatar-square",
-                                    }
+                              <ForwardRef(Avatar)
+                                classes={
+                                  Object {
+                                    "circle": "MuiAvatar-circle",
+                                    "colorDefault": "MuiAvatar-colorDefault",
+                                    "fallback": "MuiAvatar-fallback NatDsAvatar-fallback-2",
+                                    "img": "MuiAvatar-img",
+                                    "root": "MuiAvatar-root NatDsAvatar-root-1",
+                                    "rounded": "MuiAvatar-rounded",
+                                    "square": "MuiAvatar-square",
                                   }
-                                  color="default"
-                                  size="small"
-                                  style={Object {}}
+                                }
+                              >
+                                <div
+                                  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
                                 >
-                                  <div
-                                    className="MuiAvatar-root MuiAvatar-circle MuiAvatar-colorDefault"
-                                    color="default"
-                                    size="small"
-                                    style={Object {}}
+                                  <Icon
+                                    name="outlined-navigation-close"
+                                    size="tiny"
                                   >
-                                    <WithTheme(Icon)
-                                      name="outlined-navigation-close"
-                                      size="tiny"
-                                    >
-                                      <Icon
-                                        name="outlined-navigation-close"
-                                        size="tiny"
-                                      >
-                                        <i
-                                          className="natds-icons natds-icons-outlined-navigation-close makeStyles-root-1"
-                                        />
-                                      </Icon>
-                                    </WithTheme(Icon)>
-                                  </div>
-                                </ForwardRef(Avatar)>
-                              </WithStyles(ForwardRef(Avatar))>
-                            </Avatar>
-                          </WithTheme(Avatar)>
+                                    <i
+                                      className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-3"
+                                    />
+                                  </Icon>
+                                </div>
+                              </ForwardRef(Avatar)>
+                            </WithStyles(ForwardRef(Avatar))>
+                          </Avatar>
                         </div>
                       </ForwardRef(ListItemAvatar)>
                     </WithStyles(ForwardRef(ListItemAvatar))>
@@ -366,19 +353,14 @@ exports[`List components rendering variants should match to snapshot - with List
                         <div
                           className="MuiListItemIcon-root"
                         >
-                          <WithTheme(Icon)
+                          <Icon
                             name="outlined-navigation-close"
                             size="small"
                           >
-                            <Icon
-                              name="outlined-navigation-close"
-                              size="small"
-                            >
-                              <i
-                                className="natds-icons natds-icons-outlined-navigation-close makeStyles-root-2"
-                              />
-                            </Icon>
-                          </WithTheme(Icon)>
+                            <i
+                              className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-4"
+                            />
+                          </Icon>
                         </div>
                       </ForwardRef(ListItemIcon)>
                     </WithStyles(ForwardRef(ListItemIcon))>
@@ -448,126 +430,116 @@ exports[`List components rendering variants should match to snapshot - with List
                         <div
                           className="MuiListItemSecondaryAction-root"
                         >
-                          <WithTheme(IconButton)
+                          <IconButton
                             aria-label="shopping"
                             edge="end"
                           >
-                            <IconButton
+                            <WithStyles(ForwardRef(IconButton))
                               aria-label="shopping"
                               edge="end"
                             >
-                              <WithStyles(ForwardRef(IconButton))
+                              <ForwardRef(IconButton)
                                 aria-label="shopping"
+                                classes={
+                                  Object {
+                                    "colorInherit": "MuiIconButton-colorInherit",
+                                    "colorPrimary": "MuiIconButton-colorPrimary",
+                                    "colorSecondary": "MuiIconButton-colorSecondary",
+                                    "disabled": "Mui-disabled",
+                                    "edgeEnd": "MuiIconButton-edgeEnd",
+                                    "edgeStart": "MuiIconButton-edgeStart",
+                                    "label": "MuiIconButton-label",
+                                    "root": "MuiIconButton-root",
+                                    "sizeSmall": "MuiIconButton-sizeSmall",
+                                  }
+                                }
                                 edge="end"
                               >
-                                <ForwardRef(IconButton)
+                                <WithStyles(ForwardRef(ButtonBase))
                                   aria-label="shopping"
-                                  classes={
-                                    Object {
-                                      "colorInherit": "MuiIconButton-colorInherit",
-                                      "colorPrimary": "MuiIconButton-colorPrimary",
-                                      "colorSecondary": "MuiIconButton-colorSecondary",
-                                      "disabled": "Mui-disabled",
-                                      "edgeEnd": "MuiIconButton-edgeEnd",
-                                      "edgeStart": "MuiIconButton-edgeStart",
-                                      "label": "MuiIconButton-label",
-                                      "root": "MuiIconButton-root",
-                                      "sizeSmall": "MuiIconButton-sizeSmall",
-                                    }
-                                  }
-                                  edge="end"
+                                  centerRipple={true}
+                                  className="MuiIconButton-root MuiIconButton-edgeEnd"
+                                  disabled={false}
+                                  focusRipple={true}
                                 >
-                                  <WithStyles(ForwardRef(ButtonBase))
+                                  <ForwardRef(ButtonBase)
                                     aria-label="shopping"
                                     centerRipple={true}
                                     className="MuiIconButton-root MuiIconButton-edgeEnd"
+                                    classes={
+                                      Object {
+                                        "disabled": "Mui-disabled",
+                                        "focusVisible": "Mui-focusVisible",
+                                        "root": "MuiButtonBase-root",
+                                      }
+                                    }
                                     disabled={false}
                                     focusRipple={true}
                                   >
-                                    <ForwardRef(ButtonBase)
+                                    <button
                                       aria-label="shopping"
-                                      centerRipple={true}
-                                      className="MuiIconButton-root MuiIconButton-edgeEnd"
-                                      classes={
-                                        Object {
-                                          "disabled": "Mui-disabled",
-                                          "focusVisible": "Mui-focusVisible",
-                                          "root": "MuiButtonBase-root",
-                                        }
-                                      }
+                                      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
                                       disabled={false}
-                                      focusRipple={true}
+                                      onBlur={[Function]}
+                                      onDragLeave={[Function]}
+                                      onFocus={[Function]}
+                                      onKeyDown={[Function]}
+                                      onKeyUp={[Function]}
+                                      onMouseDown={[Function]}
+                                      onMouseLeave={[Function]}
+                                      onMouseUp={[Function]}
+                                      onTouchEnd={[Function]}
+                                      onTouchMove={[Function]}
+                                      onTouchStart={[Function]}
+                                      tabIndex={0}
+                                      type="button"
                                     >
-                                      <button
-                                        aria-label="shopping"
-                                        className="MuiButtonBase-root MuiIconButton-root MuiIconButton-edgeEnd"
-                                        disabled={false}
-                                        onBlur={[Function]}
-                                        onDragLeave={[Function]}
-                                        onFocus={[Function]}
-                                        onKeyDown={[Function]}
-                                        onKeyUp={[Function]}
-                                        onMouseDown={[Function]}
-                                        onMouseLeave={[Function]}
-                                        onMouseUp={[Function]}
-                                        onTouchEnd={[Function]}
-                                        onTouchMove={[Function]}
-                                        onTouchStart={[Function]}
-                                        tabIndex={0}
-                                        type="button"
+                                      <span
+                                        className="MuiIconButton-label"
                                       >
-                                        <span
-                                          className="MuiIconButton-label"
+                                        <Icon
+                                          name="outlined-navigation-close"
+                                          size="tiny"
                                         >
-                                          <WithTheme(Icon)
-                                            name="outlined-navigation-close"
-                                            size="tiny"
-                                          >
-                                            <Icon
-                                              name="outlined-navigation-close"
-                                              size="tiny"
-                                            >
-                                              <i
-                                                className="natds-icons natds-icons-outlined-navigation-close makeStyles-root-3"
-                                              />
-                                            </Icon>
-                                          </WithTheme(Icon)>
-                                        </span>
-                                        <WithStyles(memo)
+                                          <i
+                                            className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-5"
+                                          />
+                                        </Icon>
+                                      </span>
+                                      <WithStyles(memo)
+                                        center={true}
+                                      >
+                                        <ForwardRef(TouchRipple)
                                           center={true}
-                                        >
-                                          <ForwardRef(TouchRipple)
-                                            center={true}
-                                            classes={
-                                              Object {
-                                                "child": "MuiTouchRipple-child",
-                                                "childLeaving": "MuiTouchRipple-childLeaving",
-                                                "childPulsate": "MuiTouchRipple-childPulsate",
-                                                "ripple": "MuiTouchRipple-ripple",
-                                                "ripplePulsate": "MuiTouchRipple-ripplePulsate",
-                                                "rippleVisible": "MuiTouchRipple-rippleVisible",
-                                                "root": "MuiTouchRipple-root",
-                                              }
+                                          classes={
+                                            Object {
+                                              "child": "MuiTouchRipple-child",
+                                              "childLeaving": "MuiTouchRipple-childLeaving",
+                                              "childPulsate": "MuiTouchRipple-childPulsate",
+                                              "ripple": "MuiTouchRipple-ripple",
+                                              "ripplePulsate": "MuiTouchRipple-ripplePulsate",
+                                              "rippleVisible": "MuiTouchRipple-rippleVisible",
+                                              "root": "MuiTouchRipple-root",
                                             }
+                                          }
+                                        >
+                                          <span
+                                            className="MuiTouchRipple-root"
                                           >
-                                            <span
-                                              className="MuiTouchRipple-root"
-                                            >
-                                              <TransitionGroup
-                                                childFactory={[Function]}
-                                                component={null}
-                                                exit={true}
-                                              />
-                                            </span>
-                                          </ForwardRef(TouchRipple)>
-                                        </WithStyles(memo)>
-                                      </button>
-                                    </ForwardRef(ButtonBase)>
-                                  </WithStyles(ForwardRef(ButtonBase))>
-                                </ForwardRef(IconButton)>
-                              </WithStyles(ForwardRef(IconButton))>
-                            </IconButton>
-                          </WithTheme(IconButton)>
+                                            <TransitionGroup
+                                              childFactory={[Function]}
+                                              component={null}
+                                              exit={true}
+                                            />
+                                          </span>
+                                        </ForwardRef(TouchRipple)>
+                                      </WithStyles(memo)>
+                                    </button>
+                                  </ForwardRef(ButtonBase)>
+                                </WithStyles(ForwardRef(ButtonBase))>
+                              </ForwardRef(IconButton)>
+                            </WithStyles(ForwardRef(IconButton))>
+                          </IconButton>
                         </div>
                       </ForwardRef(ListItemSecondaryAction)>
                     </WithStyles(ForwardRef(ListItemSecondaryAction))>

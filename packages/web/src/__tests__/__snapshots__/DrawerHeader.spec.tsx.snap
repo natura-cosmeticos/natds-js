@@ -5,15 +5,7 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
   className="sc-AxjAm kGSLYw"
 >
   <div
-    className="MuiAvatar-root MuiAvatar-circle sc-AxirZ hekwJL"
-    size="large"
-    style={
-      Object {
-        "fontSize": "1rem",
-        "height": "48px",
-        "width": "48px",
-      }
-    }
+    className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle sc-AxirZ hekwJL"
     theme={
       Object {
         "avatarSizes": Object {
@@ -85,9 +77,13 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
         "direction": "ltr",
         "iconSizes": Object {
           "huge": 144,
+          "hugeX": 192,
+          "hugeXX": 256,
           "hugex": 192,
           "hugexx": 256,
           "large": 72,
+          "largeX": 96,
+          "largeXX": 128,
           "largex": 96,
           "largexx": 128,
           "medium": 64,
@@ -708,22 +704,31 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Imag
         },
         "sizes": Object {
           "huge": 96,
+          "hugeX": 128,
+          "hugeXX": 144,
+          "hugeXXX": 192,
           "hugex": 128,
           "hugexx": 144,
           "hugexxx": 192,
           "large": 64,
+          "largeX": 72,
+          "largeXX": 80,
+          "largeXXX": 88,
           "largex": 72,
           "largexx": 80,
           "largexxx": 88,
           "medium": 48,
+          "mediumX": 56,
           "mediumx": 56,
           "micro": 4,
           "none": 0,
           "semi": 32,
+          "semiX": 40,
           "semix": 40,
           "small": 16,
           "standard": 24,
           "tiny": 8,
+          "veryHuge": 256,
           "veryhuge": 256,
         },
         "spacing": [Function],
@@ -865,15 +870,7 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
   className="sc-AxjAm kGSLYw"
 >
   <div
-    className="MuiAvatar-root MuiAvatar-circle sc-AxirZ hekwJL MuiAvatar-colorDefault"
-    size="large"
-    style={
-      Object {
-        "fontSize": "1rem",
-        "height": "48px",
-        "width": "48px",
-      }
-    }
+    className="MuiAvatar-root NatDsAvatar-root-3 MuiAvatar-circle sc-AxirZ hekwJL MuiAvatar-colorDefault"
     theme={
       Object {
         "avatarSizes": Object {
@@ -945,9 +942,13 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
         "direction": "ltr",
         "iconSizes": Object {
           "huge": 144,
+          "hugeX": 192,
+          "hugeXX": 256,
           "hugex": 192,
           "hugexx": 256,
           "large": 72,
+          "largeX": 96,
+          "largeXX": 128,
           "largex": 96,
           "largexx": 128,
           "medium": 64,
@@ -1568,22 +1569,31 @@ exports[`DrawerHeader component should match snapshot - DrawerHeader Avatar Text
         },
         "sizes": Object {
           "huge": 96,
+          "hugeX": 128,
+          "hugeXX": 144,
+          "hugeXXX": 192,
           "hugex": 128,
           "hugexx": 144,
           "hugexxx": 192,
           "large": 64,
+          "largeX": 72,
+          "largeXX": 80,
+          "largeXXX": 88,
           "largex": 72,
           "largexx": 80,
           "largexxx": 88,
           "medium": 48,
+          "mediumX": 56,
           "mediumx": 56,
           "micro": 4,
           "none": 0,
           "semi": 32,
+          "semiX": 40,
           "semix": 40,
           "small": 16,
           "standard": 24,
           "tiny": 8,
+          "veryHuge": 256,
           "veryhuge": 256,
         },
         "spacing": [Function],

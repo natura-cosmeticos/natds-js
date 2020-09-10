@@ -390,9 +390,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -1013,22 +1017,31 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -1249,9 +1262,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -1872,22 +1889,31 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -2126,9 +2152,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -2749,22 +2779,31 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -2946,63 +2985,60 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -3406,9 +3442,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -4029,22 +4069,31 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -4265,9 +4314,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -4888,22 +4941,31 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -5161,9 +5223,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -5784,22 +5850,31 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -5981,63 +6056,60 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -6441,9 +6513,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -7064,22 +7140,31 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -7300,9 +7385,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -7923,22 +8012,31 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -8215,9 +8313,13 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -8838,22 +8940,31 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -9035,63 +9146,60 @@ exports[`Popover component should match snapshot - Any valid Popover with bottom
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -9495,9 +9603,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -10118,22 +10230,31 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -10354,9 +10475,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -10977,22 +11102,31 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -11288,9 +11422,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -11911,22 +12049,31 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -12108,63 +12255,60 @@ exports[`Popover component should match snapshot - Any valid Popover with left d
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -12568,9 +12712,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -13191,22 +13339,31 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -13427,9 +13584,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -14050,22 +14211,31 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -14380,9 +14550,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -15003,22 +15177,31 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -15200,63 +15383,60 @@ exports[`Popover component should match snapshot - Any valid Popover with left-e
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -15660,9 +15840,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -16283,22 +16467,31 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -16519,9 +16712,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -17142,22 +17339,31 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -17491,9 +17697,13 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -18114,22 +18324,31 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -18311,63 +18530,60 @@ exports[`Popover component should match snapshot - Any valid Popover with left-s
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -18771,9 +18987,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -19394,22 +19614,31 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -19630,9 +19859,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -20253,22 +20486,31 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -20621,9 +20863,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -21244,22 +21490,31 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -21441,63 +21696,60 @@ exports[`Popover component should match snapshot - Any valid Popover with right 
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -21901,9 +22153,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -22524,22 +22780,31 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -22760,9 +23025,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -23383,22 +23652,31 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -23770,9 +24048,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -24393,22 +24675,31 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -24590,63 +24881,60 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -25050,9 +25338,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -25673,22 +25965,31 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -25909,9 +26210,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -26532,22 +26837,31 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -26938,9 +27252,13 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -27561,22 +27879,31 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -27758,63 +28085,60 @@ exports[`Popover component should match snapshot - Any valid Popover with right-
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -28218,9 +28542,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -28841,22 +29169,31 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -29077,9 +29414,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -29700,22 +30041,31 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -30125,9 +30475,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -30748,22 +31102,31 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -30945,63 +31308,60 @@ exports[`Popover component should match snapshot - Any valid Popover with top di
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -31405,9 +31765,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -32028,22 +32392,31 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -32264,9 +32637,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -32887,22 +33264,31 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -33331,9 +33717,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -33954,22 +34344,31 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -34151,63 +34550,60 @@ exports[`Popover component should match snapshot - Any valid Popover with top-en
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -34611,9 +35007,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -35234,22 +35634,31 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -35470,9 +35879,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -36093,22 +36506,31 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -36556,9 +36978,13 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -37179,22 +37605,31 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -37376,63 +37811,60 @@ exports[`Popover component should match snapshot - Any valid Popover with top-st
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                     </div>
                   </ForwardRef(Paper)>
                 </WithStyles(ForwardRef(Paper))>
@@ -37844,9 +38276,13 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
           "direction": "ltr",
           "iconSizes": Object {
             "huge": 144,
+            "hugeX": 192,
+            "hugeXX": 256,
             "hugex": 192,
             "hugexx": 256,
             "large": 72,
+            "largeX": 96,
+            "largeXX": 128,
             "largex": 96,
             "largexx": 128,
             "medium": 64,
@@ -38467,22 +38903,31 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
           },
           "sizes": Object {
             "huge": 96,
+            "hugeX": 128,
+            "hugeXX": 144,
+            "hugeXXX": 192,
             "hugex": 128,
             "hugexx": 144,
             "hugexxx": 192,
             "large": 64,
+            "largeX": 72,
+            "largeXX": 80,
+            "largeXXX": 88,
             "largex": 72,
             "largexx": 80,
             "largexxx": 88,
             "medium": 48,
+            "mediumX": 56,
             "mediumx": 56,
             "micro": 4,
             "none": 0,
             "semi": 32,
+            "semiX": 40,
             "semix": 40,
             "small": 16,
             "standard": 24,
             "tiny": 8,
+            "veryHuge": 256,
             "veryhuge": 256,
           },
           "spacing": [Function],
@@ -38703,9 +39148,13 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             "direction": "ltr",
             "iconSizes": Object {
               "huge": 144,
+              "hugeX": 192,
+              "hugeXX": 256,
               "hugex": 192,
               "hugexx": 256,
               "large": 72,
+              "largeX": 96,
+              "largeXX": 128,
               "largex": 96,
               "largexx": 128,
               "medium": 64,
@@ -39326,22 +39775,31 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
             },
             "sizes": Object {
               "huge": 96,
+              "hugeX": 128,
+              "hugeXX": 144,
+              "hugeXXX": 192,
               "hugex": 128,
               "hugexx": 144,
               "hugexxx": 192,
               "large": 64,
+              "largeX": 72,
+              "largeXX": 80,
+              "largeXXX": 88,
               "largex": 72,
               "largexx": 80,
               "largexxx": 88,
               "medium": 48,
+              "mediumX": 56,
               "mediumx": 56,
               "micro": 4,
               "none": 0,
               "semi": 32,
+              "semiX": 40,
               "semix": 40,
               "small": 16,
               "standard": 24,
               "tiny": 8,
+              "veryHuge": 256,
               "veryhuge": 256,
             },
             "spacing": [Function],
@@ -39815,9 +40273,13 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                   "direction": "ltr",
                   "iconSizes": Object {
                     "huge": 144,
+                    "hugeX": 192,
+                    "hugeXX": 256,
                     "hugex": 192,
                     "hugexx": 256,
                     "large": 72,
+                    "largeX": 96,
+                    "largeXX": 128,
                     "largex": 96,
                     "largexx": 128,
                     "medium": 64,
@@ -40438,22 +40900,31 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                   },
                   "sizes": Object {
                     "huge": 96,
+                    "hugeX": 128,
+                    "hugeXX": 144,
+                    "hugeXXX": 192,
                     "hugex": 128,
                     "hugexx": 144,
                     "hugexxx": 192,
                     "large": 64,
+                    "largeX": 72,
+                    "largeXX": 80,
+                    "largeXXX": 88,
                     "largex": 72,
                     "largexx": 80,
                     "largexxx": 88,
                     "medium": 48,
+                    "mediumX": 56,
                     "mediumx": 56,
                     "micro": 4,
                     "none": 0,
                     "semi": 32,
+                    "semiX": 40,
                     "semix": 40,
                     "small": 16,
                     "standard": 24,
                     "tiny": 8,
+                    "veryHuge": 256,
                     "veryhuge": 256,
                   },
                   "spacing": [Function],
@@ -40635,63 +41106,60 @@ exports[`Popover component should match snapshot - Popover with Action Link: Pop
                     <div
                       className="MuiPaper-root popover-container MuiPaper-elevation12 MuiPaper-rounded"
                     >
-                      <WithTheme(Typography)
+                      <Typography
+                        align="inherit"
                         variant="body2"
                       >
-                        <Typography
+                        <WithStyles(ForwardRef(Typography))
+                          align="inherit"
                           variant="body2"
                         >
-                          <WithStyles(ForwardRef(Typography))
+                          <ForwardRef(Typography)
                             align="inherit"
+                            classes={
+                              Object {
+                                "alignCenter": "MuiTypography-alignCenter",
+                                "alignJustify": "MuiTypography-alignJustify",
+                                "alignLeft": "MuiTypography-alignLeft",
+                                "alignRight": "MuiTypography-alignRight",
+                                "body1": "MuiTypography-body1",
+                                "body2": "MuiTypography-body2",
+                                "button": "MuiTypography-button",
+                                "caption": "MuiTypography-caption",
+                                "colorError": "MuiTypography-colorError",
+                                "colorInherit": "MuiTypography-colorInherit",
+                                "colorPrimary": "MuiTypography-colorPrimary",
+                                "colorSecondary": "MuiTypography-colorSecondary",
+                                "colorTextPrimary": "MuiTypography-colorTextPrimary",
+                                "colorTextSecondary": "MuiTypography-colorTextSecondary",
+                                "displayBlock": "MuiTypography-displayBlock",
+                                "displayInline": "MuiTypography-displayInline",
+                                "gutterBottom": "MuiTypography-gutterBottom",
+                                "h1": "MuiTypography-h1",
+                                "h2": "MuiTypography-h2",
+                                "h3": "MuiTypography-h3",
+                                "h4": "MuiTypography-h4",
+                                "h5": "MuiTypography-h5",
+                                "h6": "MuiTypography-h6",
+                                "noWrap": "MuiTypography-noWrap",
+                                "overline": "MuiTypography-overline",
+                                "paragraph": "MuiTypography-paragraph",
+                                "root": "MuiTypography-root",
+                                "srOnly": "MuiTypography-srOnly",
+                                "subtitle1": "MuiTypography-subtitle1",
+                                "subtitle2": "MuiTypography-subtitle2",
+                              }
+                            }
                             variant="body2"
                           >
-                            <ForwardRef(Typography)
-                              align="inherit"
-                              classes={
-                                Object {
-                                  "alignCenter": "MuiTypography-alignCenter",
-                                  "alignJustify": "MuiTypography-alignJustify",
-                                  "alignLeft": "MuiTypography-alignLeft",
-                                  "alignRight": "MuiTypography-alignRight",
-                                  "body1": "MuiTypography-body1",
-                                  "body2": "MuiTypography-body2",
-                                  "button": "MuiTypography-button",
-                                  "caption": "MuiTypography-caption",
-                                  "colorError": "MuiTypography-colorError",
-                                  "colorInherit": "MuiTypography-colorInherit",
-                                  "colorPrimary": "MuiTypography-colorPrimary",
-                                  "colorSecondary": "MuiTypography-colorSecondary",
-                                  "colorTextPrimary": "MuiTypography-colorTextPrimary",
-                                  "colorTextSecondary": "MuiTypography-colorTextSecondary",
-                                  "displayBlock": "MuiTypography-displayBlock",
-                                  "displayInline": "MuiTypography-displayInline",
-                                  "gutterBottom": "MuiTypography-gutterBottom",
-                                  "h1": "MuiTypography-h1",
-                                  "h2": "MuiTypography-h2",
-                                  "h3": "MuiTypography-h3",
-                                  "h4": "MuiTypography-h4",
-                                  "h5": "MuiTypography-h5",
-                                  "h6": "MuiTypography-h6",
-                                  "noWrap": "MuiTypography-noWrap",
-                                  "overline": "MuiTypography-overline",
-                                  "paragraph": "MuiTypography-paragraph",
-                                  "root": "MuiTypography-root",
-                                  "srOnly": "MuiTypography-srOnly",
-                                  "subtitle1": "MuiTypography-subtitle1",
-                                  "subtitle2": "MuiTypography-subtitle2",
-                                }
-                              }
-                              variant="body2"
+                            <p
+                              className="MuiTypography-root MuiTypography-body2"
                             >
-                              <p
-                                className="MuiTypography-root MuiTypography-body2"
-                              >
-                                content
-                              </p>
-                            </ForwardRef(Typography)>
-                          </WithStyles(ForwardRef(Typography))>
-                        </Typography>
-                      </WithTheme(Typography)>
+                              content
+                            </p>
+                          </ForwardRef(Typography)>
+                        </WithStyles(ForwardRef(Typography))>
+                      </Typography>
                       <WithTheme(ForwardRef)
                         className="popover-action-link"
                         variant="body2"
