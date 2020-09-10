@@ -1,3 +1,13 @@
+const developerStories = [
+  "../docs/readme.stories.mdx",
+  "../docs/troubleshooting.stories.mdx",
+  "../docs/using-cdn.stories.mdx",
+];
+
+const contributorStories = [
+  "../docs/contributing.pt-br.stories.mdx", "../docs/component-folder.stories.mdx",
+];
+
 module.exports = {
   addons: [
     {
@@ -25,10 +35,6 @@ module.exports = {
    * @todo include stories from /docs
    */
   stories: [
-    "../docs/readme.stories.mdx",
-    "../docs/contributing.pt-br.stories.mdx",
-    "../docs/troubleshooting.stories.mdx",
-    "../docs/using-cdn.stories.mdx",
     "../src/Components/AppBar/AppBar.stories.tsx",
     "../src/Components/Avatar/Avatar.stories.tsx",
     "../src/Components/Badge/Badge.stories.tsx",
@@ -45,6 +51,8 @@ module.exports = {
     "../src/Components/Spacing/Spacing.padding.stories.tsx",
     "../src/Components/Toolbar/Toolbar.padding.stories.tsx",
     "../src/Components/Typography/Typography.stories.tsx",
+    ...developerStories,
+    ...contributorStories,
   ],
   typescript: {
     check: true,

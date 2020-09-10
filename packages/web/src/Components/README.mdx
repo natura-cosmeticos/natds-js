@@ -1,22 +1,17 @@
 import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
 
-<Meta title="Developer|Components" />
+<Meta title="Developer/Components" />
 
 # Component anatomy
 
 Building a component? Get instructions and best practices here.
 
-## Folder structure
+## Component folder structure
 
-### Component
-
-- `I{Component}Props.ts` (optional): interface with properties definition;
-- `index.tsx`: component production code;
-- `index.test.tsx`: component test code;
-
-### Stories & docs
-
-- `README.mdx`: documentation and non-interactive stories;
-- `index.story.tsx`: the interactive story (for Playground);
-- `stories.tsx`: all variations for stories;
-- `stories.test.tsx`: tests for all variations;
+- `{Component}.tsx`: component production code (AC1);
+- `{Component}.props.ts` (optional): interface with props definition and args metadata (AC3);
+- `{Component}.stories.test.tsx`: tests for all stories (AC5);
+- `{Component}.stories.tsx`: the interactive stories for Storybook (AC2);
+- `{Component}.styles.ts` (optional): style overrides for component (AC4);
+- `{Component}.test.tsx`: component test code (AC5);
+- `README.md` (optional): documentation (AC2);
