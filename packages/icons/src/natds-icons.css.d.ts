@@ -240,3 +240,4 @@ declare const styles: {
   readonly "natds-icons-outlined-social-person": string;
 };
 export = styles;
+
