@@ -8,7 +8,7 @@ import MaterialPopper, {
 import styled from "styled-components";
 import { IThemeWeb } from "Themes";
 import { getDefaultTheme } from "./shared";
-import Link, {ILinkProps} from "../Components/Link";
+import Link, { ILinkProps } from "../Components/Link";
 import Paper from "../Components/Paper";
 import Typography from "../Components/Typography";
 
@@ -119,6 +119,7 @@ const THEME_SPACING_2 = 2;
  */
 const DEFAULT_POPOVER_CONTAINER_MAX_WIDTH = 380;
 
+// @todo rewrite to remove dependency from StyledComponents
 const StyledPopper = styled(MaterialPopper)<{ theme: IThemeWeb, maxWidth: number }>`
   && {
     z-index: 1;
