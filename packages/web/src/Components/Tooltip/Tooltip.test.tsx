@@ -1,7 +1,7 @@
 import * as React from "react";
 import * as renderer from "react-test-renderer";
 import Tooltip from ".";
-import {IPlacement} from "./ITooltipProps";
+import { IPlacement } from "./ITooltipProps";
 
 const placements : Record<IPlacement, IPlacement> = {
   bottom: "bottom",

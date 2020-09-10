@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Toolbar styles given a default theme is provided when no prop is overridden should render correctly 1`] = `
+<div
+  className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+/>
+`;
+
+exports[`Toolbar styles given a default theme is provided when variant property is "dense" should render correctly 1`] = `
+<div
+  className="MuiToolbar-root MuiToolbar-dense MuiToolbar-gutters"
+/>
+`;
+
+exports[`Toolbar styles given a default theme is provided when variant property is "prominent" should render correctly 1`] = `
+<div
+  className="MuiToolbar-root MuiToolbar-regular NatDSToolbar-prominent-4 MuiToolbar-gutters"
+/>
+`;
+
+exports[`Toolbar styles given a default theme is provided when variant property is "regular" should render correctly 1`] = `
+<div
+  className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+/>
+`;
+
+exports[`Toolbar styles given no theme was provided when no prop is overridden should render correctly 1`] = `
+<div
+  className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+/>
+`;
+
+exports[`Toolbar styles given no theme was provided when variant property is "dense" should render correctly 1`] = `
+<div
+  className="MuiToolbar-root MuiToolbar-dense MuiToolbar-gutters"
+/>
+`;
+
+exports[`Toolbar styles given no theme was provided when variant property is "prominent" should render correctly 1`] = `
+<div
+  className="MuiToolbar-root MuiToolbar-regular NatDSToolbar-prominent-1 MuiToolbar-gutters"
+/>
+`;
+
+exports[`Toolbar styles given no theme was provided when variant property is "regular" should render correctly 1`] = `
+<div
+  className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+/>
+`;
