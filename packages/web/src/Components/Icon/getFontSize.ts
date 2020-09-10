@@ -1,9 +1,23 @@
-import { IIconSizes, ITheme } from "@naturacosmeticos/natds-styles";
+import { IIconSizes } from "@naturacosmeticos/natds-styles";
+import { IThemeWeb } from "../../Themes";
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
-export const getFontSize = ({ size = "standard", theme }: {size?: keyof IIconSizes, theme: ITheme}) => {
-  const { iconSizes = {} } = theme || {},
-    fontSize = iconSizes[String(size)];
+type IconFontSizeArgs = {
+  size?: keyof IIconSizes,
+  theme: IThemeWeb
+}
 
-  return `${fontSize}px`;
+export const getFontSize : ({ size, theme }: IconFontSizeArgs) => string = ({ size = "standard", theme }) => {
+  const { iconSizes } = theme;
+
+  /**
+   * @todo fix TS7053: Element implicitly has an 'any' type, expression of type 'string' can't be used to index type {}
+   */
+  if (iconSizes && typeof iconSizes[size] !== "undefined") {
+
+    const fontSize = iconSizes[size];
+
+    return `${fontSize}px`;
+  }
+
+  return "1em";
 };
