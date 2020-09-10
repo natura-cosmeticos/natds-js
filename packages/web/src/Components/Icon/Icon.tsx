@@ -1,7 +1,7 @@
 import * as React from "react";
 import "@naturacosmeticos/natds-icons/dist/natds-icons.css";
 import clsx from "clsx";
-import { makeIconStyles } from "./makeIconStyles";
+import { useStyles } from "./Icon.styles";
 import { IIconProps } from "./Icon.props";
 
 export { IIconProps } from "./Icon.props";
@@ -27,16 +27,23 @@ export const Icon = React.forwardRef<unknown, IIconProps>(
       ...rest
     } = props;
 
-    const useIconStyles = makeIconStyles({ size }),
-      classes = useIconStyles(),
+    const classes = useStyles();
 
-      classNames = [
-        "natds-icons",
-        `natds-icons-${String(name)}`,
-        classes.root,
-        className,
-      ];
+    const sizeClassNameKey = `${size}FontSize`;
 
+    const classNames = [
+      "natds-icons",
+      `natds-icons-${String(name)}`,
+      classes.root,
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      classes[sizeClassNameKey],
+      className,
+    ];
+
+    /**
+     * @todo Adopt Material UI Icon component since `natds-react` 1.0
+     */
     return <i className={clsx(classNames)} ref={ref} {...rest} />;
 
   });
