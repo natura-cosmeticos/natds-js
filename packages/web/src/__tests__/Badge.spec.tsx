@@ -3,7 +3,25 @@ import { expect } from "chai";
 import * as renderer from "react-test-renderer";
 
 import Badge from "../Components/Badge";
-import { IBadgeAnchors } from "../Components/types/IBadgeAnchors";
+
+export interface IBadgeAnchors {
+  bottomleft: {
+    horizontal: string;
+    vertical: string
+  };
+  topleft: {
+    horizontal: string;
+    vertical: string
+  };
+  topright: {
+    horizontal: string;
+    vertical: string
+  };
+  bottomright: {
+    horizontal: string;
+    vertical: string
+  }
+}
 
 export const anchors: IBadgeAnchors = {
   topleft: {
