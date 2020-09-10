@@ -25,6 +25,7 @@ export const CustomIcon: FunctionComponent<ICustomIcon> = (props: ICustomIcon) =
 
 export default CustomIcon;
 
+// @todo rewrite to remove dependency from StyledComponents
 const ClearIconStyled = styled.i`
   width: ${tokens.spacing.spacingStandard}px;
   height: ${tokens.spacing.spacingStandard}px;

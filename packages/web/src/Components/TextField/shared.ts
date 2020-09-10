@@ -1,8 +1,11 @@
-import {ITextFieldProps} from "./ITextFieldProps";
-import {IStateTypes} from "./IStateTypes";
+import { ITextFieldProps } from "./ITextFieldProps";
+import { IStateTypes } from "./IStateTypes";
 
-export {ITextFieldProps} from "./ITextFieldProps";
+export { ITextFieldProps } from "./ITextFieldProps";
 
+/**
+ * @todo move to `natds-styles` or `natds-themes`
+ */
 export const stateStyles = {
   default: {
     borderWidth: "0 0 0 1px",
@@ -41,10 +44,17 @@ export const stateStyles = {
   },
 };
 
-const getState = ({disabled, state}: Pick<ITextFieldProps, "disabled" | "state">, initial: IStateTypes) => (disabled ? stateStyles.disabled : stateStyles[state || ""]) || initial;
+/**
+ * @todo refactor to decrease length
+ * @param disabled
+ * @param state
+ * @param initial
+ */
+// eslint-disable-next-line max-len
+const getState = ({ disabled, state }: Pick<ITextFieldProps, "disabled" | "state">, initial: IStateTypes) => (disabled ? stateStyles.disabled : stateStyles[state || ""]) || initial;
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types,@typescript-eslint/no-explicit-any
-export const getProp = (namespace: string, type: string, key?: string) => ({theme}: { theme?: any }) => {
+export const getProp = (namespace: string, type: string, key?: string) => ({ theme }: { theme?: any }) => {
   const propNamespace = theme[namespace] || {},
     propType = propNamespace[type] || {};
 
@@ -53,14 +63,14 @@ export const getProp = (namespace: string, type: string, key?: string) => ({them
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const getColorByState = (initial: IStateTypes) => (props: ITextFieldProps) => {
-  const {type, key} = getState(props, initial);
+  const { type, key } = getState(props, initial);
 
   return getProp("palette", type, key)(props);
 };
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const getBorderByState = (initial: IStateTypes) => (props: ITextFieldProps) => {
-  const {type, key, borderWidth} = getState(props, initial);
+  const { type, key, borderWidth } = getState(props, initial);
 
   return `${getProp("palette", type, key)(props)} ${borderWidth}`;
 };

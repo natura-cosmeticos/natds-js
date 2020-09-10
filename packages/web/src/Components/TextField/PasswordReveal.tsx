@@ -38,6 +38,7 @@ export const PasswordReveal: FunctionComponent<IPasswordReveal> = (props: IPassw
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Component: ComponentType<any> = showing
+    // @todo rewrite component to remove dependency of StyledComponents
     ? styled(hidePasswordIcon)`${baseIconStyle}`
     : styled(showPasswordIcon)`${baseIconStyle}`;
 

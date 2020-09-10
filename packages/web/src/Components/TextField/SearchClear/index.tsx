@@ -3,7 +3,7 @@ import styled from "styled-components";
 import ClearRounded from "@material-ui/icons/ClearRounded";
 
 import { tokens } from "@naturacosmeticos/natds-styles";
-import {IThemeWeb} from "../../../Themes";
+import { IThemeWeb } from "../../../Themes";
 
 export interface ISearchClear {
   theme: IThemeWeb | unknown;
@@ -25,6 +25,7 @@ const SearchIconStyles = `
 
 export const SearchClear: React.FunctionComponent<ISearchClear> = (props: ISearchClear) => {
   const { theme, onClearSearch, searchIcon = ClearRounded } = props;
+  // @todo rewrite component to remove dependency of StyledComponents
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const Component : any = styled(searchIcon)`${SearchIconStyles}`;
 

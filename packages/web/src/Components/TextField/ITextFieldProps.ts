@@ -1,5 +1,5 @@
-import {ComponentType} from "react";
-import {IThemeWeb} from "../../Themes";
+import { ComponentType } from "react";
+import { IThemeWeb } from "../../Themes";
 
 export interface ITextFieldProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
