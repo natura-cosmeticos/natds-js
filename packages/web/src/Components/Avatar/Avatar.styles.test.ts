@@ -22,8 +22,20 @@ describe("Avatar styles", () => {
       const theme = themes.natura.light;
 
       it("should override background and text color", () => {
+
+        /**
+         * @todo fix Error TS7053: Element implicitly has an 'any' type...
+         *
+         * Because expression of type 'string' can't be used to index a type.
+         * No index signature with a parameter of type 'string' was found on type.
+         *
+         */
         if (typeof theme.palette !== "undefined") {
+          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+          // @ts-ignore
           theme.palette[color].main = "#FFFFFF";
+          // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+          // @ts-ignore
           theme.palette[color].contrastText = "#000000";
         }
 
