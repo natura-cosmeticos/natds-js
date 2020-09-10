@@ -1,4 +1,4 @@
-import styles, { getStylesForColor } from "./Avatar.styles";
+import { getStylesForColor, styles } from "./Avatar.styles";
 import { IThemeWeb, themes } from "../../Themes";
 import { AvatarColor } from "./Avatar.props";
 

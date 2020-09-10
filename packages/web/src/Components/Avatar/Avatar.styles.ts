@@ -29,60 +29,37 @@ type AvatarStyles = {
   root: AvatarRootStyles
 }
 
-const getRootStylesForColor = ({ color, theme }: AvatarStylesArgs) => {
+// eslint-disable-next-line complexity
+export const getStylesForColor: ({ color, theme }: AvatarStylesArgs) => AvatarStyles = ({ color, theme }) => {
+
+  const fallback = {} as AvatarFallbackStyles;
   const root = {} as AvatarRootStyles;
 
-  if (typeof theme === "undefined"
-    || typeof color !== "string"
-    || color !== "default"
-    || typeof theme.palette !== "undefined") {
-    return root as AvatarRootStyles;
-  }
-
   const { palette } = theme;
 
   /**
    * @todo fix Element implicitly has an 'any' type because expression of type 'string' can't be used to index type
    */
-  // @ts-ignore
-  const paletteColorObject = palette[color];
+  if (
+    typeof color === "string"
+    && color !== "default"
+    && typeof palette !== "undefined"
+    // @ts-ignore
+    && typeof palette[color] !== "undefined") {
+    // @ts-ignore
+    const colorObject = palette[color];
 
-  root.backgroundColor = paletteColorObject.main;
-  root.color = paletteColorObject.contrastText;
-
-  return root as AvatarRootStyles;
-
-};
-
-const getFallbackStylesForColor = ({ color, theme }: AvatarStylesArgs) => {
-  const fallback = {} as AvatarFallbackStyles;
-
-  if (typeof theme === "undefined"
-    || typeof color !== "string"
-    || color !== "default"
-    || typeof theme.palette !== "undefined") {
-    return fallback as AvatarFallbackStyles;
+    if (typeof colorObject !== "undefined") {
+      root.backgroundColor = colorObject.main;
+      root.color = colorObject.contrastText;
+      fallback.color = colorObject.contrastText;
+      fallback.fill = colorObject.contrastText;
+    }
   }
 
-  const { palette } = theme;
-
-  /**
-   * @todo fix Element implicitly has an 'any' type because expression of type 'string' can't be used to index type
-   */
-  // @ts-ignore
-  const paletteColorObject = palette[color];
-
-  fallback.color = paletteColorObject.contrastText;
-  fallback.fill = paletteColorObject.cotrastText;
-
-  return fallback as AvatarFallbackStyles;
+  return { fallback, root } as AvatarStyles;
 
 };
-
-export const getStylesForColor: ({ color, theme }: AvatarStylesArgs) => AvatarStyles = ({ color, theme }) => ({
-  fallback: getFallbackStylesForColor({ color, theme }),
-  root: getRootStylesForColor({ color, theme }),
-} as AvatarStyles);
 
 const getStylesForSize: ({ size, theme }: AvatarStylesArgs) => AvatarStyles = ({ size, theme }) => {
 
