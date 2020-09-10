@@ -1,6 +1,6 @@
 import * as library from "..";
 
-const components = [
+const components : string[] = [
   "AppBar",
   "Avatar",
   "Badge",
@@ -81,7 +81,7 @@ describe("Library", () => {
     expect(library.Provider).toBeDefined();
   });
   // @ts-ignore
-  it.each(components)("exports %p component", (component) => {
-    expect(library[component]).toBeDefined();
+  it.each(components)("exports %p component", (component: string) => {
+    expect(library).toHaveProperty(component);
   });
 });
