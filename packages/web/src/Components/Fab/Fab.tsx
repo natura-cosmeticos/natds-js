@@ -32,7 +32,7 @@ export const Fab = React.forwardRef<unknown, IFabProps>(
 
     return <MaterialFab
       classes={classes}
-      color={getColorProp(color as FabColor) as MaterialFabColor}
+      color={getColorProp({ color: color as FabColor }) as MaterialFabColor}
       disabled={disabled}
       ref={ref}
       {...otherProps}/>;

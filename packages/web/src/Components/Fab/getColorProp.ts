@@ -1,7 +1,7 @@
 import { FabColor, MaterialFabColor } from "./Fab.props";
 import colors from "./__fixtures__/colors";
 
-export const getColorProp: (color: FabColor) => MaterialFabColor = (color) => {
+export const getColorProp: ({ color }: {color: FabColor}) => MaterialFabColor = ({ color }) => {
 
   if (typeof color === "undefined") {
     return "default" as MaterialFabColor;
