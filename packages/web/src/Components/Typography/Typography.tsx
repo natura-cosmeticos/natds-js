@@ -1,31 +1,39 @@
 import * as React from "react";
-import { withTheme } from "@material-ui/styles";
 import MaterialTypography from "@material-ui/core/Typography";
-import {ITypographyProps} from "./ITypographyProps";
+import { ITypographyProps } from "./Typography.props";
 
-export const Typography: React.FunctionComponent<ITypographyProps> = React.forwardRef((
+export { ITypographyProps } from "./Typography.props";
+
+// eslint-disable-next-line max-lines-per-function
+export const Typography = React.forwardRef<unknown, ITypographyProps>((
   props: ITypographyProps,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
-    variant = "body1",
-    align = "inherit",
+    align,
+    children,
+    variant,
     ...rest
   } = props;
 
   return (
     <MaterialTypography
-      variant={variant}
       align={align}
       ref={ref}
+      variant={variant}
       {...rest}
     >
-      {props.children}
+      {children}
     </MaterialTypography>
   );
 });
 
 Typography.displayName = "Typography";
 
-export default withTheme(Typography);
+Typography.defaultProps = {
+  align: "inherit",
+  variant: "body1",
+};
+
+export default Typography;

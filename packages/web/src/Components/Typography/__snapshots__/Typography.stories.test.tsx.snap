@@ -1,0 +1,115 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography stories with alignments renders correctly 1`] = `
+Array [
+  <p
+    className="MuiTypography-root MuiTypography-body1 MuiTypography-alignLeft"
+  >
+    left: 
+    Left alignment
+  </p>,
+  <p
+    className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+  >
+    center: 
+    Center alignment
+  </p>,
+  <p
+    className="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
+  >
+    right: 
+    Right alignment
+  </p>,
+]
+`;
+
+exports[`Typography stories with default arguments renders correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1"
+/>
+`;
+
+exports[`Typography stories with variants renders correctly 1`] = `
+Array [
+  <h1
+    className="MuiTypography-root MuiTypography-h1"
+  >
+    h1: 
+    Heading 1 text
+  </h1>,
+  <h2
+    className="MuiTypography-root MuiTypography-h2"
+  >
+    h2: 
+    Heading 2 text
+  </h2>,
+  <h3
+    className="MuiTypography-root MuiTypography-h3"
+  >
+    h3: 
+    Heading 3 text
+  </h3>,
+  <h4
+    className="MuiTypography-root MuiTypography-h4"
+  >
+    h4: 
+    Heading 4 text
+  </h4>,
+  <h5
+    className="MuiTypography-root MuiTypography-h5"
+  >
+    h5: 
+    Heading 5 text
+  </h5>,
+  <h6
+    className="MuiTypography-root MuiTypography-h6"
+  >
+    h6: 
+    Heading 6 text
+  </h6>,
+  <h6
+    className="MuiTypography-root MuiTypography-subtitle1"
+  >
+    subtitle1: 
+    Subtitle 1 text
+  </h6>,
+  <h6
+    className="MuiTypography-root MuiTypography-subtitle2"
+  >
+    subtitle2: 
+    Subtitle 2 text
+  </h6>,
+  <p
+    className="MuiTypography-root MuiTypography-body1"
+  >
+    body1: 
+    Body 1 text
+  </p>,
+  <p
+    className="MuiTypography-root MuiTypography-body2"
+  >
+    body2: 
+    Body 2 text
+  </p>,
+  <span
+    className="MuiTypography-root MuiTypography-caption"
+  >
+    caption: 
+    Caption text
+  </span>,
+  <div>
+    <span
+      className="MuiTypography-root MuiTypography-button"
+    >
+      button: 
+      Button text
+    </span>
+  </div>,
+  <span
+    className="MuiTypography-root MuiTypography-overline"
+  >
+    overline: 
+    Overline text
+  </span>,
+]
+`;

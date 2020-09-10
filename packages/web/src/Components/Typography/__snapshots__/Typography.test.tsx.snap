@@ -1,0 +1,343 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Typography component when align prop is set to "center" should render and use the provided center align correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
+>
+  center
+</p>
+`;
+
+exports[`Typography component when align prop is set to "inherit" should render and use the provided inherit align correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1"
+>
+  inherit
+</p>
+`;
+
+exports[`Typography component when align prop is set to "left" should render and use the provided left align correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-alignLeft"
+>
+  left
+</p>
+`;
+
+exports[`Typography component when align prop is set to "right" should render and use the provided right align correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
+>
+  right
+</p>
+`;
+
+exports[`Typography component when color prop is set to "error" should render and use the provided color error correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-colorError"
+>
+  error
+</p>
+`;
+
+exports[`Typography component when color prop is set to "inherit" should render and use the provided color inherit correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-colorInherit"
+>
+  inherit
+</p>
+`;
+
+exports[`Typography component when color prop is set to "initial" should render and use the provided color initial correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1"
+>
+  initial
+</p>
+`;
+
+exports[`Typography component when color prop is set to "primary" should render and use the provided color primary correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-colorPrimary"
+>
+  primary
+</p>
+`;
+
+exports[`Typography component when color prop is set to "secondary" should render and use the provided color secondary correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-colorSecondary"
+>
+  secondary
+</p>
+`;
+
+exports[`Typography component when color prop is set to "textPrimary" should render and use the provided color textPrimary correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextPrimary"
+>
+  textPrimary
+</p>
+`;
+
+exports[`Typography component when color prop is set to "textSecondary" should render and use the provided color textSecondary correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+>
+  textSecondary
+</p>
+`;
+
+exports[`Typography component when default props and no children are provided should render correctly and output correct props 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1"
+/>
+`;
+
+exports[`Typography component when default props with children are provided should render correctly and output correct props 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1"
+>
+  Typography test text
+</p>
+`;
+
+exports[`Typography component when noWrap prop is provided should render and use the provided noWrap prop correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 MuiTypography-noWrap"
+>
+  Test text
+</p>
+`;
+
+exports[`Typography component when variant prop is set to "body1" when classes property is not provided should render and use the provided body1 variant correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1"
+>
+  body1
+</p>
+`;
+
+exports[`Typography component when variant prop is set to "body1" when classes property is provided should render body1 and use the provided class correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1 testClassName"
+>
+  body1
+</p>
+`;
+
+exports[`Typography component when variant prop is set to "body2" when classes property is not provided should render and use the provided body2 variant correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body2"
+>
+  body2
+</p>
+`;
+
+exports[`Typography component when variant prop is set to "body2" when classes property is provided should render body2 and use the provided class correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body2 testClassName"
+>
+  body2
+</p>
+`;
+
+exports[`Typography component when variant prop is set to "button" when classes property is not provided should render and use the provided button variant correctly 1`] = `
+<span
+  className="MuiTypography-root MuiTypography-button"
+>
+  button
+</span>
+`;
+
+exports[`Typography component when variant prop is set to "button" when classes property is provided should render button and use the provided class correctly 1`] = `
+<span
+  className="MuiTypography-root MuiTypography-button testClassName"
+>
+  button
+</span>
+`;
+
+exports[`Typography component when variant prop is set to "caption" when classes property is not provided should render and use the provided caption variant correctly 1`] = `
+<span
+  className="MuiTypography-root MuiTypography-caption"
+>
+  caption
+</span>
+`;
+
+exports[`Typography component when variant prop is set to "caption" when classes property is provided should render caption and use the provided class correctly 1`] = `
+<span
+  className="MuiTypography-root MuiTypography-caption testClassName"
+>
+  caption
+</span>
+`;
+
+exports[`Typography component when variant prop is set to "h1" when classes property is not provided should render and use the provided h1 variant correctly 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-h1"
+>
+  h1
+</h1>
+`;
+
+exports[`Typography component when variant prop is set to "h1" when classes property is provided should render h1 and use the provided class correctly 1`] = `
+<h1
+  className="MuiTypography-root MuiTypography-h1 testClassName"
+>
+  h1
+</h1>
+`;
+
+exports[`Typography component when variant prop is set to "h2" when classes property is not provided should render and use the provided h2 variant correctly 1`] = `
+<h2
+  className="MuiTypography-root MuiTypography-h2"
+>
+  h2
+</h2>
+`;
+
+exports[`Typography component when variant prop is set to "h2" when classes property is provided should render h2 and use the provided class correctly 1`] = `
+<h2
+  className="MuiTypography-root MuiTypography-h2 testClassName"
+>
+  h2
+</h2>
+`;
+
+exports[`Typography component when variant prop is set to "h3" when classes property is not provided should render and use the provided h3 variant correctly 1`] = `
+<h3
+  className="MuiTypography-root MuiTypography-h3"
+>
+  h3
+</h3>
+`;
+
+exports[`Typography component when variant prop is set to "h3" when classes property is provided should render h3 and use the provided class correctly 1`] = `
+<h3
+  className="MuiTypography-root MuiTypography-h3 testClassName"
+>
+  h3
+</h3>
+`;
+
+exports[`Typography component when variant prop is set to "h4" when classes property is not provided should render and use the provided h4 variant correctly 1`] = `
+<h4
+  className="MuiTypography-root MuiTypography-h4"
+>
+  h4
+</h4>
+`;
+
+exports[`Typography component when variant prop is set to "h4" when classes property is provided should render h4 and use the provided class correctly 1`] = `
+<h4
+  className="MuiTypography-root MuiTypography-h4 testClassName"
+>
+  h4
+</h4>
+`;
+
+exports[`Typography component when variant prop is set to "h5" when classes property is not provided should render and use the provided h5 variant correctly 1`] = `
+<h5
+  className="MuiTypography-root MuiTypography-h5"
+>
+  h5
+</h5>
+`;
+
+exports[`Typography component when variant prop is set to "h5" when classes property is provided should render h5 and use the provided class correctly 1`] = `
+<h5
+  className="MuiTypography-root MuiTypography-h5 testClassName"
+>
+  h5
+</h5>
+`;
+
+exports[`Typography component when variant prop is set to "h6" when classes property is not provided should render and use the provided h6 variant correctly 1`] = `
+<h6
+  className="MuiTypography-root MuiTypography-h6"
+>
+  h6
+</h6>
+`;
+
+exports[`Typography component when variant prop is set to "h6" when classes property is provided should render h6 and use the provided class correctly 1`] = `
+<h6
+  className="MuiTypography-root MuiTypography-h6 testClassName"
+>
+  h6
+</h6>
+`;
+
+exports[`Typography component when variant prop is set to "inherit" when classes property is not provided should render and use the provided inherit variant correctly 1`] = `
+<span
+  className="MuiTypography-root"
+>
+  inherit
+</span>
+`;
+
+exports[`Typography component when variant prop is set to "overline" when classes property is not provided should render and use the provided overline variant correctly 1`] = `
+<span
+  className="MuiTypography-root MuiTypography-overline"
+>
+  overline
+</span>
+`;
+
+exports[`Typography component when variant prop is set to "overline" when classes property is provided should render overline and use the provided class correctly 1`] = `
+<span
+  className="MuiTypography-root MuiTypography-overline testClassName"
+>
+  overline
+</span>
+`;
+
+exports[`Typography component when variant prop is set to "srOnly" when classes property is not provided should render and use the provided srOnly variant correctly 1`] = `
+<span
+  className="MuiTypography-root MuiTypography-srOnly"
+>
+  srOnly
+</span>
+`;
+
+exports[`Typography component when variant prop is set to "srOnly" when classes property is provided should render srOnly and use the provided class correctly 1`] = `
+<span
+  className="MuiTypography-root MuiTypography-srOnly testClassName"
+>
+  srOnly
+</span>
+`;
+
+exports[`Typography component when variant prop is set to "subtitle1" when classes property is not provided should render and use the provided subtitle1 variant correctly 1`] = `
+<h6
+  className="MuiTypography-root MuiTypography-subtitle1"
+>
+  subtitle1
+</h6>
+`;
+
+exports[`Typography component when variant prop is set to "subtitle1" when classes property is provided should render subtitle1 and use the provided class correctly 1`] = `
+<h6
+  className="MuiTypography-root MuiTypography-subtitle1 testClassName"
+>
+  subtitle1
+</h6>
+`;
+
+exports[`Typography component when variant prop is set to "subtitle2" when classes property is not provided should render and use the provided subtitle2 variant correctly 1`] = `
+<h6
+  className="MuiTypography-root MuiTypography-subtitle2"
+>
+  subtitle2
+</h6>
+`;
+
+exports[`Typography component when variant prop is set to "subtitle2" when classes property is provided should render subtitle2 and use the provided class correctly 1`] = `
+<h6
+  className="MuiTypography-root MuiTypography-subtitle2 testClassName"
+>
+  subtitle2
+</h6>
+`;
