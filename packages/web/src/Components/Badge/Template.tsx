@@ -13,7 +13,7 @@ import { Icon } from "../Icon";
 const useStyles = makeStyles(createStyles((theme: IThemeWeb) => ({
   root: {
     "& > *": {
-      margin: theme.sizes.tiny,
+      marginRight: theme.sizes.small,
     },
   },
   shape: {
