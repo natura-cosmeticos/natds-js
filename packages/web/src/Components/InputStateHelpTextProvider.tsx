@@ -55,6 +55,8 @@ export const InputStateHelpTextProvider: FunctionComponent<IInputStateHelpTextPr
     } = props,
 
     content = label && required ? `${label} *` : label,
+    // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+    // @ts-ignore
     IconState = stateIcons[String(state)],
     stateIcon = IconState && <IconState theme={theme} />;
 
