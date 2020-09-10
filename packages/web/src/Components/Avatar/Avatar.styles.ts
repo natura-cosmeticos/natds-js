@@ -39,8 +39,12 @@ export const getStylesForColor: ({ color, theme }: AvatarStylesArgs) => AvatarSt
   /**
    * @todo fix Element implicitly has an 'any' type because expression of type 'string' can't be used to index type
    */
-  // @ts-ignore
-  if (color && color !== "default" && typeof palette[color] !== "undefined") {
+  if (
+    typeof color === "string"
+    && color !== "default"
+    && typeof palette !== "undefined"
+    // @ts-ignore
+    && typeof palette[color] !== "undefined") {
     // @ts-ignore
     const colorObject = palette[color];
 
