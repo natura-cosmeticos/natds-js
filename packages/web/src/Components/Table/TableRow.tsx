@@ -36,7 +36,7 @@ export const TableRow: FunctionComponent<ITableRowProps> = forwardRef((
   const customClasses = useStyles();
 
   return (
-    <MaterialTableRow classes={{selected: customClasses.selected}} {...props} ref={ref} />
+    <MaterialTableRow classes={{ selected: customClasses.selected }} {...props} ref={ref} />
   );
 });
 

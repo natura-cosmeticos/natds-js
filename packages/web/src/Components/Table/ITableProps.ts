@@ -1,5 +1,5 @@
-import {TableProps as MaterialTableProps} from "@material-ui/core/Table/Table";
-import {IThemeWeb} from "../../Themes";
+import { TableProps as MaterialTableProps } from "@material-ui/core/Table/Table";
+import { IThemeWeb } from "../../Themes";
 
 export interface ITableProps extends MaterialTableProps {
 
