@@ -3,7 +3,6 @@ import { themes as webThemes } from "./Themes";
 export const themes = { ...webThemes };
 export { Provider } from "./Provider";
 
-export { default as AlertTitle, IAlertTitleProps } from "./Components/AlertTitle";
 export { default as AppBar, IAppBarProps } from "./Components/AppBar";
 export { default as Avatar, IAvatarProps } from "./Components/Avatar";
 export { default as Badge, IBadgeProps } from "./Components/Badge";
@@ -68,6 +67,7 @@ export { default as ScopedCssBaseline, IScopedCssBaselineProps } from "./Compone
 export { default as Skeleton, ISkeletonProps } from "./Components/Skeleton";
 export { default as Snackbar, ISnackbarProps } from "./Components/Snackbar";
 export { default as SnackbarContent, ISnackbarContentProps } from "./Components/SnackbarContent";
+export { default as Spacing, ISpacingProps } from "./Components/Spacing";
 export { default as Switch, ISwitchProps } from "./Components/Switch";
 export { default as TabContainer, ITabContainerProps } from "./Components/TabContainer";
 export { default as TabItem, ITabItemProps } from "./Components/TabItem";
