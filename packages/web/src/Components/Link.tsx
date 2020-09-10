@@ -45,18 +45,23 @@ const Link: React.ForwardRefExoticComponent<React.PropsWithoutRef<ILinkProps> & 
 
   const theme = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
 
+  /**
+   * @todo refactor and extract colorMap and colorStyle
+   */
   const colorMap = React.useMemo(() => {
-      // eslint-disable-next-line @typescript-eslint/no-explicit-any
-      const { palette } = theme as any;
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const { palette } = theme as any;
 
-      return {
-        default: {
-          color: palette.complementary.link,
-        },
-      };
-    }, [theme]),
+    return {
+      default: {
+        color: palette.complementary.link,
+      },
+    };
+  }, [theme]);
 
-    colorStyle = defaultColor ? colorMap[color] : {};
+  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+  // @ts-ignore
+  const colorStyle = defaultColor ? colorMap[color] : {};
 
   return (
     <MaterialLink
