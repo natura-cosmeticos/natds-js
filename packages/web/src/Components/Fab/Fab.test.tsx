@@ -5,7 +5,10 @@ import * as renderer from "react-test-renderer";
 import { Fab } from ".";
 import { Provider } from "../../Provider";
 import { themes } from "../../Themes";
-import { IFabColor, IFabSize, IFabVariant } from "./IFabProps";
+import { FabColor, FabSize, FabVariant } from "./Fab.props";
+import colors from "./__fixtures__/colors";
+import sizes from "./__fixtures__/sizes";
+import variants from "./__fixtures__/variants";
 
 describe("Fab component", () => {
 
@@ -50,14 +53,9 @@ describe("Fab component", () => {
   });
 
   describe("when a color is specified", () => {
-    const colors: IFabColor[] = [
-      "primary",
-      "secondary",
-      "light",
-    ];
 
     // @ts-ignore
-    it.each(colors)("should render color %p correctly", (color: IFabColor) => {
+    it.each(Object.keys(colors))("should render color %p correctly", (color: FabColor) => {
       const wrapper : renderer.ReactTestRenderer = renderer.create(<Fab color={color}>F</Fab>);
 
       expect(wrapper.toJSON()).toMatchSnapshot(`Color ${color} Fab`);
@@ -66,14 +64,9 @@ describe("Fab component", () => {
   });
 
   describe("when a size is specified", () => {
-    const sizes: IFabSize[] = [
-      "large",
-      "medium",
-      "small",
-    ];
 
     // @ts-ignore
-    it.each(sizes)("should render size %p correctly", (size: IFabSize) => {
+    it.each(Object.keys(sizes))("should render size %p correctly", (size: FabSize) => {
       const wrapper : renderer.ReactTestRenderer = renderer.create(<Fab size={size}>F</Fab>);
 
       expect(wrapper.toJSON()).toMatchSnapshot(`Size ${size} Fab`);
@@ -81,12 +74,9 @@ describe("Fab component", () => {
   });
 
   describe("when a variant is specified", () => {
-    const variants: IFabVariant[] = [
-      "round", "extended",
-    ];
 
     // @ts-ignore
-    it.each(variants)("should render variant %p correctly", (variant: IFabVariant) => {
+    it.each(Object.keys(variants))("should render variant %p correctly", (variant: FabVariant) => {
       const wrapper : renderer.ReactTestRenderer = renderer.create(<Fab variant={variant}>F</Fab>);
 
       expect(wrapper.toJSON()).toMatchSnapshot(`Size ${variant} Fab`);
