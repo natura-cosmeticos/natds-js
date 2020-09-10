@@ -17,9 +17,9 @@ export default {
 const Template : Story<IButtonProps> = (args) => <Button {...args} />;
 
 const TemplateWithColors : Story<IButtonProps> = (args) => <>
-  <Button {...args} color={"primary"}>Primary color</Button>
-  <Button {...args} color={"secondary"}>Secondary color</Button>
-  <Button {...args} color={"default"}>Default color</Button>
+  <Button {...args} color={"primary"}>Primary color</Button>&nbsp;
+  <Button {...args} color={"secondary"}>Secondary color</Button>&nbsp;
+  <Button {...args} color={"default"}>Default color</Button>&nbsp;
 </>;
 
 const TemplateWithSizes : Story<IButtonProps> = (args) => <>
