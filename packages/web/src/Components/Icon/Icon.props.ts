@@ -1,4 +1,4 @@
-import { iconNames } from "@naturacosmeticos/natds-icons";
+import iconNames from "@naturacosmeticos/natds-icons/dist/natds-icons.json";
 import { IIconSizes } from "@naturacosmeticos/natds-styles";
 import { IconProps } from "@material-ui/core";
 

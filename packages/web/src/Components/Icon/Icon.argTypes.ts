@@ -1,4 +1,9 @@
-import { iconNames } from "@naturacosmeticos/natds-icons";
+/**
+ * @todo Generate declaration file for `natds-icon.json`
+ */
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import iconNames from "@naturacosmeticos/natds-icons/dist/natds-icons.json";
 import { tokens } from "@naturacosmeticos/natds-styles";
 import { IIconProps } from "./Icon.props";
 import { colors } from "./__fixtures__/colors";
