@@ -1,7 +1,7 @@
 import React, { FunctionComponent, forwardRef } from "react";
 import { withTheme } from "@material-ui/styles";
 import MaterialChip, { ChipProps } from "@material-ui/core/Chip";
-import { IThemeWeb } from "Themes";
+import { IThemeWeb } from "../Themes";
 import Icon from "./Icon";
 
 export interface IChipProps extends ChipProps {

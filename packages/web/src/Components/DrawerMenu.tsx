@@ -4,8 +4,8 @@
 import React, { FunctionComponent, forwardRef } from "react";
 import { makeStyles, withTheme } from "@material-ui/core";
 import styled from "styled-components";
-import { IThemeWeb } from "Themes";
 import iconNames from "@naturacosmeticos/natds-icons/dist/natds-icons.json";
+import { IThemeWeb } from "../Themes";
 import { getDefaultTheme } from "./shared";
 
 import ContextualBadge from "./ContextualBadge";
