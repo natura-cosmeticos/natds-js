@@ -21,14 +21,16 @@
     "outDir": "dist",
     "resolveJsonModule": true,
     "rootDir": "./src",
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "sourceMap": true,
     "strict": true,
     "suppressImplicitAnyIndexErrors": true,
-    "target": "es5"
+    "target": "es5",
+    "types": ["jest"]
   },
   "include": [
     "./src/index.ts",
-    "./src/typings/**/*.d.ts"
+    "./src/natds-icons.json",
+    "./src/**/*.d.ts"
   ]
 }
