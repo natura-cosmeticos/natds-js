@@ -1,71 +1,75 @@
 /* eslint-disable sort-keys */
+import { natura } from "@naturacosmeticos/natds-themes";
 import { IOpacity } from "./IOpacity";
 
+const { opacity: naturaLightOpacity } = natura.light;
+
 export const opacity: IOpacity = {
+  ...naturaLightOpacity,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.transparent` directly from a theme.
    */
-  "00": 0,
+  "00": naturaLightOpacity.transparent,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.lower` directly from a theme.
    */
-  "04": 0.04,
+  "04": naturaLightOpacity.lower,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.veryLow` directly from a theme.
    */
-  "08": 0.08,
+  "08": naturaLightOpacity.veryLow,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.low` directly from a theme.
    */
-  12: 0.12,
+  12: naturaLightOpacity.low,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.mediumLow` directly from a theme.
    */
-  16: 0.16,
+  16: naturaLightOpacity.mediumLow,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.disabledLow` directly from a theme.
    */
-  24: 0.24,
+  24: naturaLightOpacity.disabledLow,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.disabled` directly from a theme.
    */
-  32: 0.32,
+  32: naturaLightOpacity.disabled,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.medium` directly from a theme.
    */
-  48: 0.48,
+  48: naturaLightOpacity.medium,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.mediumHigh` directly from a theme.
    */
-  56: 0.56,
+  56: naturaLightOpacity.mediumHigh,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.high` directly from a theme.
    */
-  64: 0.64,
+  64: naturaLightOpacity.high,
 
   /**
-   * @deprecated since 0.19. It will be removed at.
-   * Please use `` key instead of ``.
+   * @deprecated since 0.19. It will be removed at 1.0.
+   * Please use `opacity.veryHigh` directly from a theme.
    */
   80: 0.80,
 };
