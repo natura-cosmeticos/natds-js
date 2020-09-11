@@ -22,11 +22,12 @@
     "outDir": "dist",
     "resolveJsonModule": true,
     "rootDir": "./src",
-    "skipLibCheck": true,
+    "skipLibCheck": false,
     "sourceMap": true,
     "strict": true,
     "suppressImplicitAnyIndexErrors": false,
-    "target": "es5"
+    "target": "es5",
+    "types": ["jest", "react"]
   },
   "files": [
     "src/index.ts"
