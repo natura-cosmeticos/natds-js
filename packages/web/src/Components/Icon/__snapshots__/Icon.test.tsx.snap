@@ -1,103 +1,172 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Icon component when a default icon is explicitly provided should render correctly 1`] = `
+<i
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-default-mockup NatDSIcon-standardFontSize-4"
+>
+  filled-default-mockup
+</i>
+`;
+
+exports[`Icon component when a default icon is implicitly defined should render correctly 1`] = `
+<i
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-default-mockup NatDSIcon-standardFontSize-4"
+>
+  filled-default-mockup
+</i>
+`;
+
 exports[`Icon component when a valid icon name is provided should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-standardFontSize-4"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when an empty theme is provided should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-17"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-standardFontSize-19"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "huge" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-hugeFontSize-12"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-hugeFontSize-11"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "hugeX" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-hugeXFontSize-14"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-hugeXFontSize-13"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "hugeXX" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-hugeXXFontSize-16"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-hugeXXFontSize-15"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "hugex" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-hugexFontSize-13"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-hugexFontSize-12"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "hugexx" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-hugexxFontSize-15"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-hugexxFontSize-14"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "large" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-largeFontSize-7"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-largeFontSize-6"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "largeX" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-largeXFontSize-9"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-largeXFontSize-8"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "largeXX" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-largeXXFontSize-11"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-largeXXFontSize-10"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "largex" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-largexFontSize-8"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-largexFontSize-7"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "largexx" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-largexxFontSize-10"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-largexxFontSize-9"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "medium" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-mediumFontSize-6"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-mediumFontSize-5"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "micro" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-microFontSize-2"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-microFontSize-1"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "small" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-smallFontSize-4"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-smallFontSize-3"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "standard" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-standardFontSize-5"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-standardFontSize-4"
+>
+  filled-action-add
+</i>
 `;
 
 exports[`Icon component when icon size is "tiny" should render correctly 1`] = `
 <i
-  className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-tinyFontSize-3"
-/>
+  aria-hidden={true}
+  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-tinyFontSize-2"
+>
+  filled-action-add
+</i>
 `;

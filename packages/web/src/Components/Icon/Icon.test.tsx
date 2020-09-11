@@ -11,6 +11,24 @@ describe("Icon component", () => {
 
   let testRenderer = {} as TestRenderer.ReactTestRenderer;
 
+  describe("when a default icon is implicitly defined", () => {
+    it("should render correctly", () => {
+      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+      // @ts-ignore
+      testRenderer = TestRenderer.create(<Icon/>);
+
+      expect(testRenderer).toMatchSnapshot();
+    });
+  });
+
+  describe("when a default icon is explicitly provided", () => {
+    it("should render correctly", () => {
+      testRenderer = TestRenderer.create(<Icon name={"filled-default-mockup"} />);
+
+      expect(testRenderer).toMatchSnapshot();
+    });
+  });
+
   describe("when a valid icon name is provided", () => {
     it("should render correctly", () => {
       testRenderer = TestRenderer.create(<Icon name="filled-action-add" />);
