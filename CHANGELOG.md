@@ -3,6 +3,35 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.19.0 (2020-09-11)
+
+
+### Bug Fixes
+
+* **avatar:** prevent error on Avatar styling when palette.primary is not defined ([f3a94c7](https://github.com/natura-cosmeticos/natds/commit/f3a94c7d6f38af23a749a4d3be7229180bf1b419))
+* **fab:** prevent TypeScript error when using Fab props & fixtures ([b5b8f99](https://github.com/natura-cosmeticos/natds/commit/b5b8f9952e12f678ad5b87657fa2fc384889c8e3))
+* **icon:** prevent error on getting font size when theme is undefined ([e1a70ac](https://github.com/natura-cosmeticos/natds/commit/e1a70ac6b82a4d3976f6bea4550e776e615a6e90))
+* **icon:** prevent icon font size to be an empty value ([13c2360](https://github.com/natura-cosmeticos/natds/commit/13c2360a2e62e4394657771ca1a43dadc62a0a1e))
+* **icon:** prevent TypeScript errors when getting font size for Icon ([c9db1a0](https://github.com/natura-cosmeticos/natds/commit/c9db1a0dddc747b5dab99a0f091cb3e3cd16185c))
+* **input state help text provider:** prevent TypeScript errors ([30bd227](https://github.com/natura-cosmeticos/natds/commit/30bd227f06a2f42e42343c3c2d04750b43e187c4))
+* **link:** prevent TypeScript errors and register tech debts ([3ccbd55](https://github.com/natura-cosmeticos/natds/commit/3ccbd55e77d819ec52596497aabe1cd6f1e08025))
+* **text field:** prevent TypeScript errors and register tech debts ([0c1b6e6](https://github.com/natura-cosmeticos/natds/commit/0c1b6e600484fe0890f64234e11a1680e53cb65d))
+
+
+### Features
+
+* **icon:** add support for color prop, dark mode and default icon [DSY-831] ([eb98dcc](https://github.com/natura-cosmeticos/natds/commit/eb98dcc228c4894599056543f587969ce4776176))
+* **icon:** add support to uppercaseX size tokens [DSY-1461] ([a1faacb](https://github.com/natura-cosmeticos/natds/commit/a1faacb4c00c27d8c374074ddbddce44de71cb46))
+* **icons:** add new filled & outlined icons [DSY-1362] ([d95481b](https://github.com/natura-cosmeticos/natds/commit/d95481bb4db6aede5e69b65d3e4d50a62e2b8ebf))
+* **icons:** update `outlined-content-channel` and `outlined-product-perfumery` icons [DSY-1362] ([89b62d9](https://github.com/natura-cosmeticos/natds/commit/89b62d9da8ed1c35b631e48af6dd035f049517f2))
+* **icons:** updated Fonts, CSS, JSON and Swift files with new/updated icons [DSY-1362] ([317f6f0](https://github.com/natura-cosmeticos/natds/commit/317f6f097fdf5a4815a06a274d1195b42032b0c3))
+* **spacing:** add support for named exporting of Spacing component [DSY-1461] ([7fbfa74](https://github.com/natura-cosmeticos/natds/commit/7fbfa7478b8428886503d7ccc6dacdd6c65cf0f5))
+* **storybook:** add "Contributing" and "Developer" sections [DSY-859] ([d3d4ed3](https://github.com/natura-cosmeticos/natds/commit/d3d4ed32fd79d75a8f727e7e3e7718965e19e716))
+
+
+
+
+
 ## [0.18.36](https://github.com/natura-cosmeticos/natds/compare/v0.18.35...v0.18.36) (2020-08-29)
 
 **Note:** Version bump only for package natds

@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.19.0 (2020-09-11)
+
+
+### Features
+
+* **icons:** add new filled & outlined icons [DSY-1362] ([d95481b](https://github.com/natura-cosmeticos/natds/commit/d95481bb4db6aede5e69b65d3e4d50a62e2b8ebf))
+* **icons:** update `outlined-content-channel` and `outlined-product-perfumery` icons [DSY-1362] ([89b62d9](https://github.com/natura-cosmeticos/natds/commit/89b62d9da8ed1c35b631e48af6dd035f049517f2))
+* **icons:** updated Fonts, CSS, JSON and Swift files with new/updated icons [DSY-1362] ([317f6f0](https://github.com/natura-cosmeticos/natds/commit/317f6f097fdf5a4815a06a274d1195b42032b0c3))
+
+
+
+
+
 ## [0.18.36](https://github.com/natura-cosmeticos/natds/compare/v0.18.35...v0.18.36) (2020-08-29)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
