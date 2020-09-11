@@ -5,7 +5,7 @@ import { IColorsNatura } from "./IColorsNatura";
 const { color } = themes.natura.light;
 
 /**
- * @deprecated `colors.natura` is deprecated since version 0.19.0 and tt will be removed on version 1.0.
+ * @deprecated `colors.natura` is deprecated since version 0.19.0 and it will be removed on version 1.0.
  * Please use colors from `theme.natura.light.palette`.
  */
 export const natura: IColorsNatura = {
