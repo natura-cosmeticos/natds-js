@@ -22,7 +22,10 @@ export const Icon = React.forwardRef<unknown, IIconProps>(
   ) => {
 
     const {
-      className, name = "filled-default-mockup", size = "standard", ...otherProps
+      className,
+      name = "filled-default-mockup",
+      size = "standard",
+      ...otherProps
     } = props;
 
     const classes = useStyles();
