@@ -2461,10 +2461,10 @@
     eslint-plugin-mocha "^7.0.0"
     snyk "^1.316.1"
 
-"@naturacosmeticos/natds-themes@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.2.0.tgz#ccbecd21b75594d37a0ea3053222c5902e8ec2ac"
-  integrity sha512-rlB26of2YHNeRuA2nn3sDEEaw4HFZeIdEdie0nxagij/0qaT6F2XbIk+hMYBCng/iZNCh+4P92u0Y1/UwdkvJg==
+"@naturacosmeticos/natds-themes@0.4.0":
+  version "0.4.0"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.4.0.tgz#894af3e0d482c93638d4c550857afda360237403"
+  integrity sha512-OcE3PkFhSZhwUEPUAUk/POXDAnMwn8/ixOzIs2ZECS+NSeeD23laeRhZvOlqhAJgj2Hl/lubnj0Q11+KC2/w9w==
 
 "@netlify/open-api@^0.16.0":
   version "0.16.0"
@@ -8180,10 +8180,10 @@ envinfo@^7.3.1:
   resolved "https://registry.yarnpkg.com/envinfo/-/envinfo-7.7.3.tgz#4b2d8622e3e7366afb8091b23ed95569ea0208cc"
   integrity sha512-46+j5QxbPWza0PB1i15nZx0xQ4I/EfQxg9J8Had3b408SV63nEtor2e+oiY63amTo9KTuh2a3XLObNwduxYwwA==
 
-enzyme-adapter-react-16@1.15.3:
-  version "1.15.3"
-  resolved "https://registry.yarnpkg.com/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.15.3.tgz#90154055be3318d70a51df61ac89cfa22e3d5f60"
-  integrity sha512-98rqNI4n9HZslWIPuuwy4hK1bxRuMy+XX0CU1dS8iUqcgisTxeBaap6oPp2r4MWC8OphCbbqAT8EU/xHz3zIaQ==
+enzyme-adapter-react-16@1.15.4:
+  version "1.15.4"
+  resolved "https://registry.yarnpkg.com/enzyme-adapter-react-16/-/enzyme-adapter-react-16-1.15.4.tgz#328a782365a363ecb424f99283c4833dd92c0f21"
+  integrity sha512-wPzxs+JaGDK2TPYzl5a9YWGce6i2SQ3Cg51ScLeyj2WotUZ8Obcq1ke/U1Y2VGpYlb9rrX2yCjzSMgtKCeAt5w==
   dependencies:
     enzyme-adapter-utils "^1.13.1"
     enzyme-shallow-equal "^1.0.4"
