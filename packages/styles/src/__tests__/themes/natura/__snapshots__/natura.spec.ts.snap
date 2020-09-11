@@ -67,10 +67,10 @@ Object {
   "overrides": Object {
     "MuiAlert": Object {
       "filledInfo": Object {
-        "backgroundColor": "#227BBD",
+        "backgroundColor": "#227bbd",
       },
       "filledWarning": Object {
-        "backgroundColor": "#FCC433",
+        "backgroundColor": "#fcc433",
         "color": "#333333",
       },
       "icon": Object {
@@ -84,9 +84,9 @@ Object {
       },
       "outlinedInfo": Object {
         "& .MuiAlert-icon": Object {
-          "color": "#227BBD",
+          "color": "#227bbd",
         },
-        "borderColor": "#227BBD",
+        "borderColor": "#227bbd",
         "color": "#FAFAFA",
       },
       "outlinedSuccess": Object {
@@ -94,9 +94,9 @@ Object {
       },
       "outlinedWarning": Object {
         "& .MuiAlert-icon": Object {
-          "color": "#FCC433",
+          "color": "#fcc433",
         },
-        "borderColor": "#FCC433",
+        "borderColor": "#fcc433",
         "color": "#FAFAFA",
       },
       "root": Object {
@@ -111,7 +111,7 @@ Object {
       },
       "standardInfo": Object {
         "& .MuiAlert-icon": Object {
-          "color": "#227BBD",
+          "color": "#227bbd",
         },
         "backgroundColor": "rgba(34, 123, 189, 0.16)",
         "color": "#FAFAFA",
@@ -122,7 +122,7 @@ Object {
       },
       "standardWarning": Object {
         "& .MuiAlert-icon": Object {
-          "color": "#FCC433",
+          "color": "#fcc433",
         },
         "backgroundColor": "rgba(252, 196, 51, 0.16)",
         "color": "#FAFAFA",
@@ -147,16 +147,16 @@ Object {
     "MuiButton": Object {
       "contained": Object {
         "&.Mui-disabled": Object {
-          "backgroundColor": "#FFFFFF14",
-          "color": "#FFFFFF3D",
+          "backgroundColor": "#ffffff14",
+          "color": "#ffffff3D",
         },
       },
       "outlined": Object {
         "&.Mui-disabled": Object {
-          "borderColor": "#FFFFFF3D",
-          "color": "#FFFFFF3D",
+          "borderColor": "#ffffff3D",
+          "color": "#ffffff3D",
         },
-        "borderColor": "#FFFFFF3D",
+        "borderColor": "#ffffff3D",
         "padding": null,
       },
       "outlinedPrimary": Object {
@@ -164,7 +164,7 @@ Object {
       },
       "outlinedSecondary": Object {
         "&.Mui-disabled": Object {
-          "borderColor": "#FFFFFF3D",
+          "borderColor": "#ffffff3D",
         },
         "color": "#FAFAFA",
       },
@@ -197,8 +197,8 @@ Object {
       },
       "text": Object {
         "&.Mui-disabled": Object {
-          "borderColor": "#FFFFFF3D",
-          "color": "#FFFFFF3D",
+          "borderColor": "#ffffff3D",
+          "color": "#ffffff3D",
         },
         "padding": null,
       },
@@ -207,15 +207,15 @@ Object {
       "groupedContainedHorizontal": Object {
         "&:not(:last-child)": Object {
           "&.Mui-disabled": Object {
-            "borderColor": "#FFFFFF3D",
+            "borderColor": "#ffffff3D",
           },
-          "borderRightColor": "#FFFFFF1F",
+          "borderRightColor": "#ffffff1F",
         },
       },
       "groupedContainedPrimary": Object {
         "&:not(:last-child)": Object {
           "&.Mui-disabled": Object {
-            "borderColor": "#FFFFFF3D",
+            "borderColor": "#ffffff3D",
           },
           "borderColor": "#EF8426",
         },
@@ -223,7 +223,7 @@ Object {
       "groupedContainedSecondary": Object {
         "&:not(:last-child)": Object {
           "&.Mui-disabled": Object {
-            "borderColor": "#FFFFFF3D",
+            "borderColor": "#ffffff3D",
           },
           "borderColor": "#FF5808",
         },
@@ -231,19 +231,19 @@ Object {
       "groupedTextHorizontal": Object {
         "&:not(:last-child)": Object {
           "&.Mui-disabled": Object {
-            "borderColor": "#FFFFFF3D",
+            "borderColor": "#ffffff3D",
           },
-          "borderRightColor": "#FFFFFF1F",
+          "borderRightColor": "#ffffff1F",
         },
       },
       "groupedTextPrimary": Object {
         "&:not(:last-child).Mui-disabled": Object {
-          "borderColor": "#FFFFFF3D",
+          "borderColor": "#ffffff3D",
         },
       },
       "groupedTextSecondary": Object {
         "&:not(:last-child).Mui-disabled": Object {
-          "borderColor": "#FFFFFF3D",
+          "borderColor": "#ffffff3D",
         },
       },
     },
@@ -277,13 +277,13 @@ Object {
       },
       "deleteIconColorPrimary": Object {
         "&:hover": Object {
-          "color": "#FFFFFF",
+          "color": "#ffffff",
         },
         "color": "rgba(255, 255, 255, 0.8)",
       },
       "deleteIconColorSecondary": Object {
         "&:hover": Object {
-          "color": "#FFFFFF",
+          "color": "#ffffff",
         },
         "color": "rgba(255, 255, 255, 0.8)",
       },
@@ -303,30 +303,30 @@ Object {
       },
       "outlined": Object {
         "borderColor": "rgba(255, 255, 255, 0.12)",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
       },
       "outlinedPrimary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#F4AB34",
+          "backgroundColor": "#f4ab34",
         },
-        "color": "#FFFFFF",
+        "color": "#ffffff",
       },
       "outlinedSecondary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#FF6B0B",
+          "backgroundColor": "#ff6b0b",
         },
-        "color": "#FFFFFF",
+        "color": "#ffffff",
       },
       "root": Object {
         "& $avatar": Object {
           "backgroundColor": "rgba(255, 255, 255, 0.24)",
-          "color": "#FFFFFF",
+          "color": "#ffffff",
         },
         "&$disabled": Object {
           "opacity": 0.4,
         },
         "backgroundColor": "rgba(255, 255, 255, 0.12)",
-        "color": "#FFFFFF",
+        "color": "#ffffff",
         "fontSize": "0.875rem",
       },
     },
@@ -337,7 +337,7 @@ Object {
           "opacity": 0.32,
         },
         "&$expanded": Object {
-          "borderColor": "#F4AB34",
+          "borderColor": "#f4ab34",
         },
         "border": "transparent 1px solid",
       },
@@ -354,7 +354,7 @@ Object {
     "MuiFormHelperText": Object {
       "root": Object {
         "&.Mui-error": Object {
-          "color": "#BBBBBB",
+          "color": "#bbbbbb",
         },
       },
     },
@@ -368,7 +368,7 @@ Object {
           "color": "#FAFAFA",
         },
         "&.Mui-focused": Object {
-          "color": "#BBBBBB",
+          "color": "#bbbbbb",
           "fontSize": "0.875rem",
         },
         "fontSize": "0.875rem",
@@ -401,20 +401,20 @@ Object {
       },
       "root": Object {
         "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
-          "boxShadow": "#F4AB34 0 0 0 2px",
+          "boxShadow": "#f4ab34 0 0 0 2px",
         },
         "&.MuiError": Object {
           "&.Mui-focused": Object {
-            "boxShadow": "#E74627 0 0 0 2px",
+            "boxShadow": "#e74627 0 0 0 2px",
           },
           "&:hover": Object {
-            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "boxShadow": "#bbbbbb 0 0 0 1px",
           },
-          "boxShadow": "#E74627 0 0 0 2px",
+          "boxShadow": "#e74627 0 0 0 2px",
         },
         "&.MuiFilled:not(.Mui-focused)": Object {
           "&:hover": Object {
-            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "boxShadow": "#bbbbbb 0 0 0 1px",
           },
           "boxShadow": "#FAFAFA 0 0 0 1px",
         },
@@ -432,15 +432,15 @@ Object {
         },
         "&.MuiSuccess": Object {
           "&.Mui-focused": Object {
-            "boxShadow": "#569A32 0 0 0 1px",
+            "boxShadow": "#569a32 0 0 0 1px",
           },
           "&:hover": Object {
-            "boxShadow": "#BBBBBB 0 0 0 1px",
+            "boxShadow": "#bbbbbb 0 0 0 1px",
           },
-          "boxShadow": "#569A32 0 0 0 1px",
+          "boxShadow": "#569a32 0 0 0 1px",
         },
         "&:hover": Object {
-          "boxShadow": "#BBBBBB 0 0 0 1px",
+          "boxShadow": "#bbbbbb 0 0 0 1px",
         },
         "&:hover.Mui-disabled": Object {
           "boxShadow": "#777777 0 0 0 1px",
@@ -464,7 +464,7 @@ Object {
     "MuiListItem": Object {
       "button": Object {
         "&:hover": Object {
-          "backgroundColor": "rgba(0, 0, 0, 0.04)",
+          "backgroundColor": "rgba(51, 51, 51, 0.04)",
         },
       },
       "gutters": Object {
@@ -478,7 +478,7 @@ Object {
             "outline": "none",
           },
           "&:hover": Object {
-            "backgroundColor": "rgba(0, 0, 0, 0.04)",
+            "backgroundColor": "rgba(51, 51, 51, 0.04)",
           },
           "backgroundColor": "rgba(255, 107, 11, 0.16)",
         },
@@ -503,7 +503,7 @@ Object {
     },
     "MuiSvgIcon": Object {
       "root": Object {
-        "fill": "#BBBBBB",
+        "fill": "#bbbbbb",
       },
     },
     "MuiTab": Object {
@@ -562,60 +562,71 @@ Object {
   },
   "palette": Object {
     "action": Object {
-      "disabled": "rgba(0, 0, 0, 0.24)",
+      "disabled": "rgba(51, 51, 51, 0.24)",
     },
     "background": Object {
       "default": "#121212",
-      "defaultContrastText": "#FFFFFF",
+      "defaultContrastText": "#ffffff",
       "paper": "#333333",
-      "paperContrastText": "#FFFFFF",
+      "paperContrastText": "#ffffff",
     },
     "complementary": Object {
-      "highlight": "#FFFFFF",
-      "link": "#227BBD",
-      "linkContrastText": "#FFFFFF",
-      "warning": "#FCC433",
-      "warningContrastText": "#000000",
+      "highlight": "#ffffff",
+      "link": "#227bbd",
+      "linkContrastText": "#ffffff",
+      "warning": "#fcc433",
+      "warningContrastText": "#333333",
     },
     "error": Object {
-      "contrastText": "#FFFFFF",
-      "main": "#E74627",
+      "contrastText": "#ffffff",
+      "main": "#e74627",
     },
     "primary": Object {
       "contrastText": "#333333",
       "dark": "#EF8426",
       "light": "#FEFDE8",
-      "main": "#F4AB34",
+      "main": "#f4ab34",
     },
     "secondary": Object {
-      "contrastText": "#000000",
+      "contrastText": "#333333",
       "dark": "#EF8426",
       "light": "#FEFDE8",
-      "main": "#FF6B0B",
+      "main": "#ff6b0b",
     },
     "success": Object {
-      "contrastText": "#FFFFFF",
-      "main": "#569A32",
+      "contrastText": "#ffffff",
+      "main": "#569a32",
     },
     "text": Object {
       "disabled": "#777777",
       "hint": "#777777",
       "primary": "#FAFAFA",
-      "secondary": "#BBBBBB",
+      "secondary": "#bbbbbb",
     },
   },
   "shadows": Object {
     "0": "none",
-    "1": "0 1px 1px 0 rgba(0, 0, 0, 0.16)",
-    "12": "0 12px 17px 0 rgba(0, 0, 0, 0.16)",
-    "16": "0 16px 24px 0 rgba(0, 0, 0, 0.16)",
-    "2": "0 2px 2px 0 rgba(0, 0, 0, 0.16)",
-    "24": "0 24px 38px 0 rgba(0, 0, 0, 0.16)",
-    "3": "0 3px 4px 0 rgba(0, 0, 0, 0.16)",
-    "4": "0 4px 5px 0 rgba(0, 0, 0, 0.16)",
-    "6": "0 6px 10px 0 rgba(0, 0, 0, 0.16)",
-    "8": "0 8px 10px 0 rgba(0, 0, 0, 0.16)",
-    "9": "0 9px 12px 0 rgba(0, 0, 0, 0.16)",
+    "1": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "12": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "16": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "2": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
+    "24": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+    "3": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "4": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "6": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "8": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "9": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "huge": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "hugeX": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "hugeXX": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+    "large": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeX": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeXX": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "medium": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "micro": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "none": "none",
+    "small": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "tiny": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
   },
   "shape": Object {
     "badgeBorderRadius": 100,
@@ -783,10 +794,10 @@ Object {
   "overrides": Object {
     "MuiAlert": Object {
       "filledInfo": Object {
-        "backgroundColor": "#227BBD",
+        "backgroundColor": "#227bbd",
       },
       "filledWarning": Object {
-        "backgroundColor": "#FCC433",
+        "backgroundColor": "#fcc433",
         "color": "#333333",
       },
       "icon": Object {
@@ -800,9 +811,9 @@ Object {
       },
       "outlinedInfo": Object {
         "& .MuiAlert-icon": Object {
-          "color": "#227BBD",
+          "color": "#227bbd",
         },
-        "borderColor": "#227BBD",
+        "borderColor": "#227bbd",
         "color": "#333333",
       },
       "outlinedSuccess": Object {
@@ -810,9 +821,9 @@ Object {
       },
       "outlinedWarning": Object {
         "& .MuiAlert-icon": Object {
-          "color": "#FCC433",
+          "color": "#fcc433",
         },
-        "borderColor": "#FCC433",
+        "borderColor": "#fcc433",
         "color": "#333333",
       },
       "root": Object {
@@ -827,7 +838,7 @@ Object {
       },
       "standardInfo": Object {
         "& .MuiAlert-icon": Object {
-          "color": "#227BBD",
+          "color": "#227bbd",
         },
         "backgroundColor": "rgba(34, 123, 189, 0.16)",
         "color": "#333333",
@@ -838,7 +849,7 @@ Object {
       },
       "standardWarning": Object {
         "& .MuiAlert-icon": Object {
-          "color": "#FCC433",
+          "color": "#fcc433",
         },
         "backgroundColor": "rgba(252, 196, 51, 0.16)",
         "color": "#333333",
@@ -863,16 +874,16 @@ Object {
     "MuiButton": Object {
       "contained": Object {
         "&.Mui-disabled": Object {
-          "backgroundColor": "#00000014",
-          "color": "#0000003D",
+          "backgroundColor": "#33333314",
+          "color": "#3333333D",
         },
       },
       "outlined": Object {
         "&.Mui-disabled": Object {
-          "borderColor": "#0000003D",
-          "color": "#0000003D",
+          "borderColor": "#3333333D",
+          "color": "#3333333D",
         },
-        "borderColor": "#0000003D",
+        "borderColor": "#3333333D",
         "padding": null,
       },
       "outlinedPrimary": Object {
@@ -880,7 +891,7 @@ Object {
       },
       "outlinedSecondary": Object {
         "&.Mui-disabled": Object {
-          "borderColor": "#0000003D",
+          "borderColor": "#3333333D",
         },
         "color": "#333333",
       },
@@ -913,8 +924,8 @@ Object {
       },
       "text": Object {
         "&.Mui-disabled": Object {
-          "borderColor": "#0000003D",
-          "color": "#0000003D",
+          "borderColor": "#3333333D",
+          "color": "#3333333D",
         },
         "padding": null,
       },
@@ -923,15 +934,15 @@ Object {
       "groupedContainedHorizontal": Object {
         "&:not(:last-child)": Object {
           "&.Mui-disabled": Object {
-            "borderColor": "#0000003D",
+            "borderColor": "#3333333D",
           },
-          "borderRightColor": "#0000001F",
+          "borderRightColor": "#3333331F",
         },
       },
       "groupedContainedPrimary": Object {
         "&:not(:last-child)": Object {
           "&.Mui-disabled": Object {
-            "borderColor": "#0000003D",
+            "borderColor": "#3333333D",
           },
           "borderColor": "#EF8426",
         },
@@ -939,7 +950,7 @@ Object {
       "groupedContainedSecondary": Object {
         "&:not(:last-child)": Object {
           "&.Mui-disabled": Object {
-            "borderColor": "#0000003D",
+            "borderColor": "#3333333D",
           },
           "borderColor": "#FF5808",
         },
@@ -947,19 +958,19 @@ Object {
       "groupedTextHorizontal": Object {
         "&:not(:last-child)": Object {
           "&.Mui-disabled": Object {
-            "borderColor": "#0000003D",
+            "borderColor": "#3333333D",
           },
-          "borderRightColor": "#0000001F",
+          "borderRightColor": "#3333331F",
         },
       },
       "groupedTextPrimary": Object {
         "&:not(:last-child).Mui-disabled": Object {
-          "borderColor": "#0000003D",
+          "borderColor": "#3333333D",
         },
       },
       "groupedTextSecondary": Object {
         "&:not(:last-child).Mui-disabled": Object {
-          "borderColor": "#0000003D",
+          "borderColor": "#3333333D",
         },
       },
     },
@@ -976,22 +987,22 @@ Object {
       },
       "deleteIcon": Object {
         "&:hover": Object {
-          "color": "#000000",
+          "color": "#333333",
         },
-        "color": "rgba(0, 0, 0, 0.8)",
+        "color": "rgba(51, 51, 51, 0.8)",
         "fontSize": "24px",
         "height": "24px",
         "width": "24px",
       },
       "deleteIconColorPrimary": Object {
         "&:hover": Object {
-          "color": "#FFFFFF",
+          "color": "#ffffff",
         },
         "color": "rgba(255, 255, 255, 0.8)",
       },
       "deleteIconColorSecondary": Object {
         "&:hover": Object {
-          "color": "#FFFFFF",
+          "color": "#ffffff",
         },
         "color": "rgba(255, 255, 255, 0.8)",
       },
@@ -1010,24 +1021,24 @@ Object {
         "width": "16px",
       },
       "outlined": Object {
-        "borderColor": "rgba(0, 0, 0, 0.12)",
-        "color": "#000000",
+        "borderColor": "rgba(51, 51, 51, 0.12)",
+        "color": "#333333",
       },
       "outlinedPrimary": Object {
-        "color": "#000000",
+        "color": "#333333",
       },
       "outlinedSecondary": Object {
-        "color": "#000000",
+        "color": "#333333",
       },
       "root": Object {
         "& $avatar": Object {
-          "backgroundColor": "rgba(0, 0, 0, 0.24)",
+          "backgroundColor": "rgba(51, 51, 51, 0.24)",
           "color": "#333333",
         },
         "&$disabled": Object {
           "opacity": 0.4,
         },
-        "backgroundColor": "rgba(0, 0, 0, 0.12)",
+        "backgroundColor": "rgba(51, 51, 51, 0.12)",
         "color": "#333333",
         "fontSize": "0.875rem",
       },
@@ -1035,11 +1046,11 @@ Object {
     "MuiExpansionPanel": Object {
       "root": Object {
         "&$disabled": Object {
-          "backgroundColor": "#FFFFFF",
+          "backgroundColor": "#ffffff",
           "opacity": 0.32,
         },
         "&$expanded": Object {
-          "borderColor": "#F4AB34",
+          "borderColor": "#f4ab34",
         },
         "border": "transparent 1px solid",
       },
@@ -1060,7 +1071,7 @@ Object {
       },
       "root": Object {
         "&.Mui-error": Object {
-          "color": "#E74627",
+          "color": "#e74627",
         },
         "&.Mui-focused": Object {
           "color": "#777777",
@@ -1096,16 +1107,16 @@ Object {
       },
       "root": Object {
         "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
-          "boxShadow": "#F4AB34 0 0 0 2px",
+          "boxShadow": "#f4ab34 0 0 0 2px",
         },
         "&.MuiError": Object {
           "&.Mui-focused": Object {
-            "boxShadow": "#E74627 0 0 0 2px",
+            "boxShadow": "#e74627 0 0 0 2px",
           },
           "&:hover": Object {
             "boxShadow": "#777777 0 0 0 1px",
           },
-          "boxShadow": "#E74627 0 0 0 2px",
+          "boxShadow": "#e74627 0 0 0 2px",
         },
         "&.MuiFilled:not(.Mui-focused)": Object {
           "&:hover": Object {
@@ -1127,21 +1138,21 @@ Object {
         },
         "&.MuiSuccess": Object {
           "&.Mui-focused": Object {
-            "boxShadow": "#569A32 0 0 0 1px",
+            "boxShadow": "#569a32 0 0 0 1px",
           },
           "&:hover": Object {
             "boxShadow": "#777777 0 0 0 1px",
           },
-          "boxShadow": "#569A32 0 0 0 1px",
+          "boxShadow": "#569a32 0 0 0 1px",
         },
         "&:hover": Object {
           "boxShadow": "#777777 0 0 0 1px",
         },
         "&:hover.Mui-disabled": Object {
-          "boxShadow": "#BBBBBB 0 0 0 1px",
+          "boxShadow": "#bbbbbb 0 0 0 1px",
         },
         "borderRadius": "4px",
-        "boxShadow": "#BBBBBB 0 0 0 1px",
+        "boxShadow": "#bbbbbb 0 0 0 1px",
         "color": "#333333",
         "padding": "12px",
       },
@@ -1159,7 +1170,7 @@ Object {
     "MuiListItem": Object {
       "button": Object {
         "&:hover": Object {
-          "backgroundColor": "rgba(0, 0, 0, 0.04)",
+          "backgroundColor": "rgba(51, 51, 51, 0.04)",
         },
       },
       "gutters": Object {
@@ -1173,7 +1184,7 @@ Object {
             "outline": "none",
           },
           "&:hover": Object {
-            "backgroundColor": "rgba(0, 0, 0, 0.04)",
+            "backgroundColor": "rgba(51, 51, 51, 0.04)",
           },
           "backgroundColor": "rgba(255, 107, 11, 0.16)",
         },
@@ -1181,7 +1192,7 @@ Object {
           "opacity": 0.32,
         },
         "&:hover": Object {
-          "backgroundColor": "rgba(0, 0, 0, 0.04)",
+          "backgroundColor": "rgba(51, 51, 51, 0.04)",
         },
         "cursor": "pointer",
       },
@@ -1189,7 +1200,7 @@ Object {
     "MuiSelect": Object {
       "select": Object {
         "&.Mui-disabled": Object {
-          "color": "#BBBBBB",
+          "color": "#bbbbbb",
         },
         "&:focus": Object {
           "backgroundColor": "transparent",
@@ -1257,39 +1268,39 @@ Object {
     "background": Object {
       "default": "#FAFAFA",
       "defaultContrastText": "#333333",
-      "paper": "#FFFFFF",
+      "paper": "#ffffff",
       "paperContrastText": "#333333",
     },
     "complementary": Object {
-      "highlight": "#000000",
-      "link": "#227BBD",
-      "linkContrastText": "#FFFFFF",
-      "warning": "#FCC433",
+      "highlight": "#333333",
+      "link": "#227bbd",
+      "linkContrastText": "#ffffff",
+      "warning": "#fcc433",
       "warningContrastText": "#333333",
     },
     "error": Object {
-      "contrastText": "#FFFFFF",
-      "main": "#E74627",
+      "contrastText": "#ffffff",
+      "main": "#e74627",
     },
     "primary": Object {
       "contrastText": "#333333",
       "dark": "#EF8426",
       "light": "#FEFDE8",
-      "main": "#F4AB34",
+      "main": "#f4ab34",
     },
     "secondary": Object {
-      "contrastText": "#000000",
+      "contrastText": "#333333",
       "dark": "#FF5808",
       "light": "#FFF8E1",
-      "main": "#FF6B0B",
+      "main": "#ff6b0b",
     },
     "success": Object {
-      "contrastText": "#FFFFFF",
-      "main": "#569A32",
+      "contrastText": "#ffffff",
+      "main": "#569a32",
     },
     "text": Object {
-      "disabled": "#BBBBBB",
-      "hint": "#BBBBBB",
+      "disabled": "#bbbbbb",
+      "hint": "#bbbbbb",
       "primary": "#333333",
       "secondary": "#777777",
     },
@@ -1297,16 +1308,27 @@ Object {
   },
   "shadows": Object {
     "0": "none",
-    "1": "0 1px 1px 0 rgba(0, 0, 0, 0.16)",
-    "12": "0 12px 17px 0 rgba(0, 0, 0, 0.16)",
-    "16": "0 16px 24px 0 rgba(0, 0, 0, 0.16)",
-    "2": "0 2px 2px 0 rgba(0, 0, 0, 0.16)",
-    "24": "0 24px 38px 0 rgba(0, 0, 0, 0.16)",
-    "3": "0 3px 4px 0 rgba(0, 0, 0, 0.16)",
-    "4": "0 4px 5px 0 rgba(0, 0, 0, 0.16)",
-    "6": "0 6px 10px 0 rgba(0, 0, 0, 0.16)",
-    "8": "0 8px 10px 0 rgba(0, 0, 0, 0.16)",
-    "9": "0 9px 12px 0 rgba(0, 0, 0, 0.16)",
+    "1": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "12": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "16": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "2": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
+    "24": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+    "3": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "4": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "6": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "8": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "9": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "huge": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "hugeX": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "hugeXX": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+    "large": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeX": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeXX": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "medium": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "micro": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "none": "none",
+    "small": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "tiny": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
   },
   "shape": Object {
     "badgeBorderRadius": 100,
