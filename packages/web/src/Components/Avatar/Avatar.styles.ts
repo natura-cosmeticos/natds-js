@@ -45,16 +45,15 @@ export const getStylesForColor: ({ color, theme }: AvatarStylesArgs) => AvatarSt
     && color !== "default"
     && typeof palette !== "undefined"
     // @ts-ignore
-    && typeof palette[color] !== "undefined") {
+    && typeof palette[color] !== "undefined"
+  ) {
     // @ts-ignore
     const colorObject = palette[color];
 
-    if (typeof colorObject !== "undefined") {
-      root.backgroundColor = colorObject.main;
-      root.color = colorObject.contrastText;
-      fallback.color = colorObject.contrastText;
-      fallback.fill = colorObject.contrastText;
-    }
+    root.backgroundColor = colorObject.main;
+    root.color = colorObject.contrastText;
+    fallback.color = colorObject.contrastText;
+    fallback.fill = colorObject.contrastText;
   }
 
   return { fallback, root } as AvatarStyles;
