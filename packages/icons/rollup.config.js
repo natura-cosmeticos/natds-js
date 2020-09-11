@@ -32,12 +32,12 @@ export default {
     json(),
     url({
       include: [
-        "**/*.eot",
-        "**/*.woff2",
-        "**/*.woff",
-        "**/*.ttf",
-        "**/*.svg",
         "**/*.css",
+        "**/*.eot",
+        "**/*.svg",
+        "**/*.ttf",
+        "**/*.woff",
+        "**/*.woff2",
       ],
     }),
   ],
