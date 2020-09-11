@@ -1,14 +1,12 @@
 import theme from "@naturacosmeticos/natds-themes";
-import { IDeprecatedSizes } from "./IDeprecatedSizes";
-import { ISizes } from "./ISizes";
 
-const { size } : { size: ISizes } = theme.natura.light;
+const { size } = theme.natura.light;
 
 /**
  * @deprecated size keys `semix`, `mediumx`, `largex*`, `hugex*` and `veryhuge` are deprecated since version 0.19
  * and will be deleted in v1.0.
  */
-export const deprecatedSizes: IDeprecatedSizes = {
+export const deprecatedSizes = {
 
   /**
    * @deprecated `semix` key is deprecated since version 0.19 and will be deleted in version 1.0.
