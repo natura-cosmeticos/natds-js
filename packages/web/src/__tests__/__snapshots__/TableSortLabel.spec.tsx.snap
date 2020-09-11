@@ -1491,8 +1491,11 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
           >
             TableSortLabel test
             <i
-              className="natds-icons natds-icons-outlined-navigation-directionbottom NatDSIcon-root-3 NatDSIcon-smallFontSize-6"
-            />
+              aria-hidden={true}
+              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-directionbottom NatDSIcon-smallFontSize-5"
+            >
+              outlined-navigation-directionbottom
+            </i>
           </span>
         </th>
       </tr>
@@ -1796,7 +1799,7 @@ exports[`TableSortLabel component rendering should match to snapshot - TableSort
   }
 >
   <table
-    className="MuiTable-root makeStyles-root-19"
+    className="MuiTable-root makeStyles-root-18"
     role={null}
   >
     <thead

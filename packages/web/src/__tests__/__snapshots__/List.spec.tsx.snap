@@ -275,9 +275,35 @@ exports[`List components rendering variants should match to snapshot - with List
                                     name="outlined-navigation-close"
                                     size="tiny"
                                   >
-                                    <i
-                                      className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-3 NatDSIcon-tinyFontSize-5"
-                                    />
+                                    <WithStyles(ForwardRef(Icon))
+                                      className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-tinyFontSize-4"
+                                      component="i"
+                                    >
+                                      <ForwardRef(Icon)
+                                        className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-tinyFontSize-4"
+                                        classes={
+                                          Object {
+                                            "colorAction": "MuiIcon-colorAction",
+                                            "colorDisabled": "MuiIcon-colorDisabled",
+                                            "colorError": "MuiIcon-colorError",
+                                            "colorPrimary": "MuiIcon-colorPrimary",
+                                            "colorSecondary": "MuiIcon-colorSecondary",
+                                            "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                            "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                            "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                            "root": "MuiIcon-root",
+                                          }
+                                        }
+                                        component="i"
+                                      >
+                                        <i
+                                          aria-hidden={true}
+                                          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-close NatDSIcon-tinyFontSize-4"
+                                        >
+                                          outlined-navigation-close
+                                        </i>
+                                      </ForwardRef(Icon)>
+                                    </WithStyles(ForwardRef(Icon))>
                                   </Icon>
                                 </div>
                               </ForwardRef(Avatar)>
@@ -357,9 +383,35 @@ exports[`List components rendering variants should match to snapshot - with List
                             name="outlined-navigation-close"
                             size="small"
                           >
-                            <i
-                              className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-3 NatDSIcon-smallFontSize-6"
-                            />
+                            <WithStyles(ForwardRef(Icon))
+                              className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-smallFontSize-5"
+                              component="i"
+                            >
+                              <ForwardRef(Icon)
+                                className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-smallFontSize-5"
+                                classes={
+                                  Object {
+                                    "colorAction": "MuiIcon-colorAction",
+                                    "colorDisabled": "MuiIcon-colorDisabled",
+                                    "colorError": "MuiIcon-colorError",
+                                    "colorPrimary": "MuiIcon-colorPrimary",
+                                    "colorSecondary": "MuiIcon-colorSecondary",
+                                    "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                    "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                    "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                    "root": "MuiIcon-root",
+                                  }
+                                }
+                                component="i"
+                              >
+                                <i
+                                  aria-hidden={true}
+                                  className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-close NatDSIcon-smallFontSize-5"
+                                >
+                                  outlined-navigation-close
+                                </i>
+                              </ForwardRef(Icon)>
+                            </WithStyles(ForwardRef(Icon))>
                           </Icon>
                         </div>
                       </ForwardRef(ListItemIcon)>
@@ -501,9 +553,35 @@ exports[`List components rendering variants should match to snapshot - with List
                                           name="outlined-navigation-close"
                                           size="tiny"
                                         >
-                                          <i
-                                            className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-3 NatDSIcon-tinyFontSize-5"
-                                          />
+                                          <WithStyles(ForwardRef(Icon))
+                                            className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-tinyFontSize-4"
+                                            component="i"
+                                          >
+                                            <ForwardRef(Icon)
+                                              className="natds-icons natds-icons-outlined-navigation-close NatDSIcon-tinyFontSize-4"
+                                              classes={
+                                                Object {
+                                                  "colorAction": "MuiIcon-colorAction",
+                                                  "colorDisabled": "MuiIcon-colorDisabled",
+                                                  "colorError": "MuiIcon-colorError",
+                                                  "colorPrimary": "MuiIcon-colorPrimary",
+                                                  "colorSecondary": "MuiIcon-colorSecondary",
+                                                  "fontSizeInherit": "MuiIcon-fontSizeInherit",
+                                                  "fontSizeLarge": "MuiIcon-fontSizeLarge",
+                                                  "fontSizeSmall": "MuiIcon-fontSizeSmall",
+                                                  "root": "MuiIcon-root",
+                                                }
+                                              }
+                                              component="i"
+                                            >
+                                              <i
+                                                aria-hidden={true}
+                                                className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-close NatDSIcon-tinyFontSize-4"
+                                              >
+                                                outlined-navigation-close
+                                              </i>
+                                            </ForwardRef(Icon)>
+                                          </WithStyles(ForwardRef(Icon))>
                                         </Icon>
                                       </span>
                                       <WithStyles(memo)

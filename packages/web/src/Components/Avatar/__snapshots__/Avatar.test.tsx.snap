@@ -5,98 +5,128 @@ exports[`Avatar component given a default theme was provided when no props are o
   className="MuiAvatar-root NatDsAvatar-root-19 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-21"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-24"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "default" should render default correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-181 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-172 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-183"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-177"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "primary" should render primary correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-145 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-138 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-147"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-143"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "secondary" should render secondary correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-163 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-155 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-165"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-160"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when no property is provided should render correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-37 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-36 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-39"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-41"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "huge" should render huge correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-127 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-121 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-129"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-126"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "large" should render large correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-109 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-104 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-111"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-109"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "small" should render small correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-73 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-70 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-75"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-75"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "standard" should render standard correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-91 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-87 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-93"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-92"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "tiny" should render tiny correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-55 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-53 MuiAvatar-circle MuiAvatar-colorDefault"
 >
   <i
-    className="natds-icons natds-icons-outlined-social-person NatDSIcon-root-57"
-  />
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-standardFontSize-58"
+  >
+    outlined-social-person
+  </i>
 </div>
 `;
 

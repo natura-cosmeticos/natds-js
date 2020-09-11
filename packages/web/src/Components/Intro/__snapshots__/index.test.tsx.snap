@@ -48273,8 +48273,11 @@ exports[`Intro component should match snapshot - Intro with title and icon: Intr
     }
   >
     <i
-      className="natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-tinyFontSize-3"
-    />
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-tinyFontSize-2"
+    >
+      filled-action-add
+    </i>
     title
   </h6>
 </section>
