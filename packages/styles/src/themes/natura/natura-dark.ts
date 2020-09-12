@@ -19,7 +19,14 @@ import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
 const {
-  colorTokens: { naturaDarkColorTokens },
+  colorTokens: {
+
+    /**
+     * @deprecated `naturaDarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+     * Please use `theme.natura.dark.color` from `natds-themes`.
+     */
+    naturaDarkColorTokens,
+  },
 } = tokens;
 
 export const naturaDark: ITheme = {
