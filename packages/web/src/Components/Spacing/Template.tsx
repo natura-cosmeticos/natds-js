@@ -6,6 +6,7 @@ import * as React from "react";
 import { ISpacingProps } from "./Spacing.props";
 import { IThemeWeb } from "../../Themes";
 import Spacing from "./Spacing";
+import { Typography } from "../Typography";
 
 export const Template : Story<ISpacingProps> = (args) => {
 
@@ -30,7 +31,7 @@ export const Template : Story<ISpacingProps> = (args) => {
 
   return <div className={classes["outer"]}>
     <Spacing className={classes["root"]} {...args}>
-      <div className={classes["inner"]}>{args.children || "Spacing content"}</div>
+      <Typography className={classes["inner"]}>{args.children || "Spacing content"}</Typography>
     </Spacing>
   </div>;
 
