@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
-import { natura } from "@naturacosmeticos/natds-themes";
+import themes from "@naturacosmeticos/natds-themes";
 import { IElevation } from "./IElevation";
 
-const { elevation: naturaLightElevation } = natura.light;
+const { elevation: naturaLightElevation } = themes.natura.light;
 
 export const elevation: IElevation = {
   ...naturaLightElevation,
