@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
-import { natura } from "@naturacosmeticos/natds-themes";
+import themes from "@naturacosmeticos/natds-themes";
 import { IFont } from "./IFont";
 
-const { light: theme } = natura;
+const { light: theme } = themes.natura;
 
 /**
  * @deprecated since 0.19. It will be removed at 1.0.
