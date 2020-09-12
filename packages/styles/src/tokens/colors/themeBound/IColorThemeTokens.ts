@@ -1,4 +1,7 @@
-/* eslint-disable sort-keys */
+/**
+ * @deprecated `IColorThemeTokens` is deprecated since v0.20 and will be removed at v1.0.
+ * Please use `Color` type from `natds-themes`.
+ */
 export interface IColorThemeTokens {
   colorPrimary: string;
   colorOnPrimary: string;
