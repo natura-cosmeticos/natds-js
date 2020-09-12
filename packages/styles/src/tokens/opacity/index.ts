@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
-import { natura } from "@naturacosmeticos/natds-themes";
+import themes from "@naturacosmeticos/natds-themes";
 import { IOpacity } from "./IOpacity";
 
-const { opacity: naturaLightOpacity } = natura.light;
+const { opacity: naturaLightOpacity } = themes.natura.light;
 
 export const opacity: IOpacity = {
   ...naturaLightOpacity,
@@ -71,5 +71,5 @@ export const opacity: IOpacity = {
    * @deprecated since 0.19. It will be removed at 1.0.
    * Please use `opacity.veryHigh` directly from a theme.
    */
-  80: 0.80,
+  80: naturaLightOpacity.veryHigh,
 };
