@@ -1,9 +1,10 @@
-/* eslint-disable sort-keys */
+import themes from "@naturacosmeticos/natds-themes";
 import { IOverlay } from "./IOverlay";
 
 /**
- * @todo refactor/move to `natds-themes`
+ * @deprecated `overlay` is deprecated since v0.20 and will be removed at v1.0.
+ * Please use `mediumHigh` opacity token from your theme.
  */
 export const overlay: IOverlay = {
-  solidBlack: 0.56,
+  solidBlack: themes.natura.light.opacity.mediumHigh,
 };
