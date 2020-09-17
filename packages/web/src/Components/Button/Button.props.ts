@@ -4,4 +4,6 @@ import { PropTypes } from "@material-ui/core";
 export type ButtonColor = PropTypes.Color;
 export type ButtonSize = "small" | "medium" | "large";
 export type ButtonVariant = "text" | "outlined" | "contained";
-export type IButtonProps = Omit<ButtonProps, "translate">;
+export interface IButtonProps extends Omit<ButtonProps, "translate"> {
+  fullWidth?: boolean;
+}
