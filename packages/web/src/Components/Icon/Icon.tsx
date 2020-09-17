@@ -14,11 +14,10 @@ export { IIconProps } from "./Icon.props";
  * import { Icon } from '@naturacosmeticos/natds-web';
  * ```
  */
-export const Icon = React.forwardRef<unknown, IIconProps>(
+export const Icon = React.forwardRef<HTMLElement, IIconProps>(
   (
     props: IIconProps,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ref: any,
+    ref,
   ) => {
 
     const {
