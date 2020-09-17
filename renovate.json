@@ -2,19 +2,25 @@
   "automerge": false,
   "enabled": true,
   "extends": [
-    "config:base"
+    "config:base",
+    "default:enableVulnerabilityAlerts",
+    "default:pinVersions"
   ],
   "ignoreDeps": [
     "@naturacosmeticos/natds-icons",
     "@naturacosmeticos/natds-styles",
     "@naturacosmeticos/natds-web",
-    "snyk"
   ],
   "labels": ["dependencies", "renovate"],
-  "lockFileMaintenance": true,
+  "lockFileMaintenance": { "enabled": true },
   "masterIssue": true,
   "masterIssueAutoclose": true,
   "packageRules": [
+    {
+      "paths": ["package.json"],
+      "labels": ["dependencies", "renovate", "root"],
+      "enabled": true
+    },
     {
       "groupName": "jest dependencies",
       "groupSlug": "jest",
@@ -48,9 +54,19 @@
     {
       "packagePatterns": ["snyk"],
       "labels": ["dependencies", "renovate", "security"]
+    },
+    {
+      "paths": ["examples/create-react-app/package.json"],
+      "labels": ["cra", "dependencies", "examples", "renovate"],
+      "enabled": true
+    },
+    {
+      "paths": ["examples/create-react-app-with-typescript/package.json"],
+      "labels": ["cra-typescript", "dependencies", "examples", "renovate"],
+      "enabled": true
     }
   ],
-  "semanticCommits": true,
+  "semanticCommits": "enabled",
   "unicodeEmoji": true,
   "updateLockFiles": true,
   "vulnerabilityAlerts": {
