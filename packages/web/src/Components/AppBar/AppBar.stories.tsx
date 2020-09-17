@@ -25,7 +25,7 @@ export default {
 } as Meta;
 
 const Template : Story<IAppBarProps> = (args) => <AppBar {...args}>
-  <Toolbar {...ToolbarStories.Playground.args}>
+  <Toolbar {...ToolbarStories.ToolbarPlayground.args}>
     <Typography {...TypographyStories.AppBarTitle.args}>{args.children}</Typography>
   </Toolbar>
 </AppBar>;
