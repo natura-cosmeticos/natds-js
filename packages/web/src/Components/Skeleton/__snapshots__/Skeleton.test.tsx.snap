@@ -18,7 +18,7 @@ exports[`Skeleton component given a default theme is provided when height prop i
   style={
     Object {
       "height": 16,
-      "width": undefined,
+      "width": "",
     }
   }
 />
@@ -29,8 +29,8 @@ exports[`Skeleton component given a default theme is provided when no props are 
   className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
   style={
     Object {
-      "height": undefined,
-      "width": undefined,
+      "height": "",
+      "width": "",
     }
   }
 />
@@ -41,7 +41,7 @@ exports[`Skeleton component given a default theme is provided when width prop is
   className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
   style={
     Object {
-      "height": undefined,
+      "height": "",
       "width": 16,
     }
   }
@@ -53,8 +53,8 @@ exports[`Skeleton component given no theme is provided when height and with prop
   className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
   style={
     Object {
-      "height": undefined,
-      "width": undefined,
+      "height": "",
+      "width": "",
     }
   }
 />
@@ -65,8 +65,8 @@ exports[`Skeleton component given no theme is provided when height prop is provi
   className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
   style={
     Object {
-      "height": undefined,
-      "width": undefined,
+      "height": "",
+      "width": "",
     }
   }
 />
@@ -77,8 +77,8 @@ exports[`Skeleton component given no theme is provided when no props are overrid
   className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
   style={
     Object {
-      "height": undefined,
-      "width": undefined,
+      "height": "",
+      "width": "",
     }
   }
 />
@@ -89,8 +89,8 @@ exports[`Skeleton component given no theme is provided when width prop is provid
   className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
   style={
     Object {
-      "height": undefined,
-      "width": undefined,
+      "height": "",
+      "width": "",
     }
   }
 />

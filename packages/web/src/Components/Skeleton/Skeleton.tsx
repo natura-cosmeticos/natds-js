@@ -1,10 +1,11 @@
 import * as React from "react";
 import MaterialSkeleton from "@material-ui/lab/Skeleton";
 import useTheme from "@material-ui/core/styles/useTheme";
-import { ISkeletonProps } from "./ISkeletonProps";
+import { ISkeletonProps } from "./Skeleton.props";
 import { IThemeWeb } from "../../Themes";
+import { getSizeFromProp } from "../shared/getSizeFromProp";
 
-export { ISkeletonProps } from "./ISkeletonProps";
+export { ISkeletonProps } from "./Skeleton.props";
 
 /**
  * Display a placeholder preview of your content before the data gets loaded to reduce
@@ -22,22 +23,27 @@ export { ISkeletonProps } from "./ISkeletonProps";
  * import { Skeleton } from "@naturacosmeticos/natds-web";
  * ```
  */
-export const Skeleton = React.forwardRef<unknown, ISkeletonProps>(
-  (props: ISkeletonProps,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ref: any) => {
-
-    const { height, width, ...otherProps } = props;
+export const Skeleton = React.forwardRef<HTMLDivElement, ISkeletonProps>(
+  (props: ISkeletonProps, ref) => {
+    const {
+      height, width, ...otherProps
+    } = props;
 
     const theme : IThemeWeb = useTheme();
 
-    const heightForComponent = height && theme.sizes && theme.sizes[height];
-    const widthForComponent = width && theme.sizes && theme.sizes[width];
+    const heightAttribute = getSizeFromProp({
+      sizePropValue: height,
+      themeSizes: theme.sizes,
+    });
+    const widthAttribute = getSizeFromProp({
+      sizePropValue: width,
+      themeSizes: theme.sizes,
+    });
 
     return <MaterialSkeleton
       {...otherProps}
-      height={heightForComponent}
-      width={widthForComponent}
+      height={heightAttribute}
+      width={widthAttribute}
       ref={ref} />;
   },
 );

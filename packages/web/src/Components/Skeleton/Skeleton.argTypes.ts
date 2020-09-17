@@ -1,9 +1,4 @@
-import { tokens } from "@naturacosmeticos/natds-styles";
-
-const sizeControl = {
-  options: Object.keys(tokens.sizes),
-  type: "select",
-};
+import { sizePropArgType } from "../shared/sizePropArgType";
 
 export const argTypes = {
   animation: {
@@ -29,7 +24,7 @@ In these instances, you can pass \`children\` and it will infer its width and he
 `,
   },
   height: {
-    control: sizeControl,
+    ...sizePropArgType,
     type: {
       required: false,
     },
@@ -46,7 +41,7 @@ In these instances, you can pass \`children\` and it will infer its width and he
     },
   },
   width: {
-    control: sizeControl,
+    ...sizePropArgType,
     type: {
       required: false,
     },

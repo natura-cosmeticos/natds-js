@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Story } from "@storybook/react";
-import { argTypes } from "./argTypes";
+import { argTypes } from "./Skeleton.argTypes";
 import * as TypographyStories from "../Typography/Typography.stories";
 import * as AvatarStories from "../Avatar/Avatar.stories";
 
