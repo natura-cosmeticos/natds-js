@@ -8,6 +8,7 @@
   "lerna": "3.16.4",
   "npmClient": "yarn",
   "packages": [
+    "examples/*",
     "packages/*"
   ],
   "useWorkspaces": true,
