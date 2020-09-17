@@ -10,7 +10,7 @@ import Badge from "./Badge";
 import * as IconStories from "../Icon/Icon.stories";
 import { Icon } from "../Icon";
 
-const useStyles = makeStyles(createStyles((theme: IThemeWeb) => ({
+const useStyles = makeStyles((theme: IThemeWeb) => createStyles({
   root: {
     "& > *": {
       marginRight: theme.sizes.small,
@@ -26,15 +26,15 @@ const useStyles = makeStyles(createStyles((theme: IThemeWeb) => ({
     width: theme.sizes.semiX,
   },
   shapeCircle: {
-    borderRadius: theme.shape.badgeBorderRadius,
+    borderRadius: theme.shape ? theme.shape.badgeBorderRadius : "",
   },
-})), { name: "BadgeDemo" });
+}), { name: "BadgeDemo" });
 
 export const BadgeShapeCircleContent : Story<IBadgeProps> = (props) => {
   const classes = useStyles();
 
   // eslint-disable-next-line dot-notation
-  return <div className={clsx(classes["shape"], classes["shapeCircle"])} {...props} />;
+  return <div className={clsx(classes.shape, classes.shapeCircle)} {...props} />;
 };
 
 export const BadgeShapeContent : Story<IBadgeProps> = (props) => {
