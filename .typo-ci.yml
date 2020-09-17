@@ -1,3 +1,5 @@
+# chore: update Typo CI config file
+---
 dictionaries:
   - en
 excluded_files:
@@ -119,3 +121,4 @@ excluded_words:
   - wav
   - webfont
   - Zivolo
+spellcheck_filenames: true
