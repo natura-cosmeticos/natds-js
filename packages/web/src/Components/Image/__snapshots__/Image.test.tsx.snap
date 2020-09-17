@@ -1,0 +1,46 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Image component when disableSelection property is explicitly set to false should render correctly 1`] = `
+<img
+  alt="Image alt text"
+  className="NatDSImage-root-1 NatDSImage-root-4"
+  height=""
+  width=""
+/>
+`;
+
+exports[`Image component when disableSelection property is explicitly set to true should render correctly 1`] = `
+<img
+  alt="Image alt text"
+  className="NatDSImage-root-1 NatDSImage-root-3"
+  height=""
+  width=""
+/>
+`;
+
+exports[`Image component when height is set to auto should render correctly 1`] = `
+<img
+  alt="Image alt text"
+  className="NatDSImage-root-1 NatDSImage-root-5"
+  height=""
+  width=""
+/>
+`;
+
+exports[`Image component when only required properties are provided should render correctly 1`] = `
+<img
+  alt="Image alt text"
+  className="NatDSImage-root-1 NatDSImage-root-2"
+  height=""
+  width=""
+/>
+`;
+
+exports[`Image component when width is set to auto should render correctly 1`] = `
+<img
+  alt="Image alt text"
+  className="NatDSImage-root-1 NatDSImage-root-6"
+  height=""
+  width=""
+/>
+`;
