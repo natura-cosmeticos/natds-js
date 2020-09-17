@@ -6,27 +6,29 @@ Array [
     className="MuiTypography-root MuiTypography-body1 MuiTypography-alignLeft"
   >
     left: 
-    Left alignment
+    Alignments story
   </p>,
   <p
     className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
   >
     center: 
-    Center alignment
+    Alignments story
   </p>,
   <p
     className="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
   >
     right: 
-    Right alignment
+    Alignments story
   </p>,
 ]
 `;
 
-exports[`Typography stories with default arguments renders correctly 1`] = `
+exports[`Typography stories with interactive arguments renders correctly 1`] = `
 <p
   className="MuiTypography-root MuiTypography-body1"
-/>
+>
+  Playground story
+</p>
 `;
 
 exports[`Typography stories with variants renders correctly 1`] = `
@@ -35,81 +37,81 @@ Array [
     className="MuiTypography-root MuiTypography-h1"
   >
     h1: 
-    Heading 1 text
+    Variants story
   </h1>,
   <h2
     className="MuiTypography-root MuiTypography-h2"
   >
     h2: 
-    Heading 2 text
+    Variants story
   </h2>,
   <h3
     className="MuiTypography-root MuiTypography-h3"
   >
     h3: 
-    Heading 3 text
+    Variants story
   </h3>,
   <h4
     className="MuiTypography-root MuiTypography-h4"
   >
     h4: 
-    Heading 4 text
+    Variants story
   </h4>,
   <h5
     className="MuiTypography-root MuiTypography-h5"
   >
     h5: 
-    Heading 5 text
+    Variants story
   </h5>,
   <h6
     className="MuiTypography-root MuiTypography-h6"
   >
     h6: 
-    Heading 6 text
+    Variants story
   </h6>,
   <h6
     className="MuiTypography-root MuiTypography-subtitle1"
   >
     subtitle1: 
-    Subtitle 1 text
+    Variants story
   </h6>,
   <h6
     className="MuiTypography-root MuiTypography-subtitle2"
   >
     subtitle2: 
-    Subtitle 2 text
+    Variants story
   </h6>,
   <p
     className="MuiTypography-root MuiTypography-body1"
   >
     body1: 
-    Body 1 text
+    Variants story
   </p>,
   <p
     className="MuiTypography-root MuiTypography-body2"
   >
     body2: 
-    Body 2 text
+    Variants story
   </p>,
   <span
     className="MuiTypography-root MuiTypography-caption"
   >
     caption: 
-    Caption text
+    Variants story
   </span>,
   <div>
     <span
       className="MuiTypography-root MuiTypography-button"
     >
       button: 
-      Button text
+      Variants story
     </span>
   </div>,
   <span
     className="MuiTypography-root MuiTypography-overline"
   >
     overline: 
-    Overline text
+    Variants story
   </span>,
 ]
 `;
