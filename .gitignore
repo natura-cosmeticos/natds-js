@@ -40,6 +40,7 @@ build/Release
 # Dependency directories
 /node_modules/
 jspm_packages/
+examples/*/node_modules/
 packages/*/node_modules/
 
 # TypeScript v1 declaration files
@@ -81,10 +82,7 @@ typings/
 
 # Nuxt.js build / generate output
 .nuxt
-
-# generate output
 /dist/
-packages/web/storybook-static/
 
 # Gatsby files
 .cache/
@@ -127,3 +125,6 @@ reports/mutation/html
 packages/icons/LICENSE
 packages/styles/LICENSE
 packages/web/LICENSE
+
+# storybook generated files
+packages/web/storybook-static/
