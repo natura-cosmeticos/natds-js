@@ -12,13 +12,37 @@
   ],
   "author": "Natura Cosméticos <designsystem@natura.net>",
   "contributors": [
-    "Vicente Lyrio <vicente.lyrio@vizir.com.br>",
-    "Vagner Saraiva <vagner@vizir.com.br>",
-    "Matheus Robert Lichtnow <matheus@vizir.com.br>",
-    "Daniel Castro <daniel.castro@vizir.com.br>",
-    "Vinícius Ponciano <vinicius.ponciano@thoughtworks.com>"
+    {
+      "name": "Ariel Flor",
+      "email": "aflor@thoughtworks.com"
+    },
+    {
+      "name": "Daniel Castro",
+      "email": "daniel.castro@vizir.com.br"
+    },
+    {
+      "name": "Jimmy Andrade",
+      "email": "jimmy.andrade@thoughtworks.com",
+      "url": "https://github.com/jimmyandrade"
+    },
+    {
+      "name": "Matheus Robert Lichtnow",
+      "email": "matheus@vizir.com.br"
+    },
+    {
+      "name": "Vagner Saraiva",
+      "email": "vagner@vizir.com.br"
+    },
+    {
+      "name": "Vicente Lyrio",
+      "email": "vicente.lyrio@vizir.com.br"
+    },
+    {
+      "name": "Vinícius Ponciano",
+      "email": "vinicius.ponciano@thoughtworks.com"
+    }
   ],
-  "homepage": "https://github.com/natura-cosmeticos/natds",
+  "homepage": "https://github.com/natura-cosmeticos/natds-js#readme",
   "repository": {
     "type": "git",
     "url": "https://github.com/natura-cosmeticos/natds.git"
@@ -59,6 +83,8 @@
   },
   "workspaces": {
     "packages": [
+      "examples/create-react-app",
+      "examples/create-react-app-with-typescript",
       "packages/icons",
       "packages/styles",
       "packages/web"
@@ -89,6 +115,7 @@
     "eslint-plugin-import": "2.22.0",
     "eslint-plugin-mocha": "8.0.0",
     "eslint-plugin-react": "7.20.6",
+    "eslint-plugin-react-hooks": "4.1.2",
     "husky": "4.2.5",
     "jest": "26.4.2",
     "lerna": "3.22.1",
