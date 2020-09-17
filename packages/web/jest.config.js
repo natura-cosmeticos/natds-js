@@ -8,15 +8,17 @@ const webResources = "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|w
 
 module.exports = {
   ...base,
-  // @todo include storybook files on collectCoverageFrom
+
+  /**
+   * @todo include Storybook files on collectCoverageFrom
+   */
   collectCoverageFrom: [
     "src/**/*.{js,jsx,ts,tsx}",
-    "!src/**/*.story.tsx",
-    "!src/**/Template.tsx",
-    "!src/**/__fixtures__/*.ts",
     "!src/**/*.stories.tsx",
-    "!src/**/*.stories.meta.ts",
     "!src/**/*.argTypes.ts",
+    "!src/**/__fixtures__/*.ts",
+    "!src/**/Template.tsx",
+    "!src/**/*.stories.meta.ts",
     "!src/**/jest.config.js",
   ],
   displayName,
@@ -34,7 +36,10 @@ module.exports = {
   testMatch: [
     "<rootDir>/src/**/*.{spec,test}.{ts,tsx}", "<rootDir>/.storybook/**/*.{spec,test}.{ts,tsx}",
   ],
-  // @todo add support to JS and JSX files on testing
+
+  /**
+   * @todo add support to JS and JSX files on testing
+   */
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
