@@ -1,9 +1,9 @@
 import * as React from "react";
 
 import MaterialContainer from "@material-ui/core/Container";
-import { IContainerProps } from "./IContainerProps";
+import { IContainerProps } from "./Container.props";
 
-export { IContainerProps } from "./IContainerProps";
+export { IContainerProps } from "./Container.props";
 
 export const Container = React.forwardRef<unknown, IContainerProps>(
   (props: IContainerProps,
