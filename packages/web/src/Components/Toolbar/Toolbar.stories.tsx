@@ -25,7 +25,7 @@ const Template : Story<IToolbarProps> = (args) => <AppBar {...AppBarStories.Play
   <Toolbar {...args}>
     <Spacing {...SpacingMarginStories.SmallRightMargin.args}>
       <IconButton>
-        <Icon name={IconStories.SmallNaturaIcon.args.name} {...IconStories.SmallNaturaIcon.args} />
+        <Icon name={"filled-brand-naturarosacea"} {...IconStories.SmallNaturaIcon.args} />
       </IconButton>
     </Spacing>
     {args.children}
@@ -33,14 +33,14 @@ const Template : Story<IToolbarProps> = (args) => <AppBar {...AppBarStories.Play
   </Toolbar>
 </AppBar>;
 
-export const Playground = Template.bind({});
-Playground.args = {
+export const ToolbarPlayground = Template.bind({});
+ToolbarPlayground.args = {
   children: <Typography {...TypographyStories.AppBarTitle.args}>AppBar text</Typography>,
 };
-Playground.storyName = "Playground";
+ToolbarPlayground.storyName = "Playground";
 
-export const Prominent = Template.bind({});
-Prominent.args = {
+export const ProminentToolbar = Template.bind({});
+ProminentToolbar.args = {
   children: <Typography {...TypographyStories.ProminentAppBarTitle.args}>AppBar text</Typography>,
   variant: "prominent",
 };
