@@ -1,0 +1,62 @@
+{
+  "name": "create-react-app",
+  "private": true,
+  "description": "Example project for Design System React Web with create-react-app",
+  "source": "src/index.js",
+  "version": "0.19.1",
+  "author": {
+    "name": "Natura & Co. Design System",
+    "email": "designsystem@natura.net"
+  },
+  "license": "ISC",
+  "repository": {
+    "directory": "examples/create-react-app",
+    "type": "git",
+    "url": "git+https://github.com/natura-cosmeticos/natds-js.git"
+  },
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-js/issues"
+  },
+  "scripts": {
+    "build": "react-scripts build",
+    "pretest": "npm run build",
+    "start": "react-scripts start",
+    "test": "jest --passWithNoTests",
+    "testu": "npm run test -- -u"
+  },
+  "keywords": [
+    "natds",
+    "examples",
+    "js",
+    "javascript",
+    "react",
+    "web"
+  ],
+  "dependencies": {
+    "@naturacosmeticos/natds-web": "^0.19.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1"
+  },
+  "devDependencies": {
+    "eslint": "7.8.1",
+    "eslint-plugin-react-hooks": "4.1.2",
+    "react-scripts": "^3.4.2",
+    "react-test-renderer": "^16.13.1"
+  },
+  "browserslist": {
+    "production": [
+      ">0.2%",
+      "not dead",
+      "not op_mini all"
+    ],
+    "development": [
+      "last 1 chrome version",
+      "last 1 firefox version",
+      "last 1 safari version"
+    ]
+  },
+  "engines": {
+    "node": ">=9.3.0",
+    "npm": ">=5.7.0"
+  }
+}

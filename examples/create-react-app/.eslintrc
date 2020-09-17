@@ -1,0 +1,14 @@
+{
+  "ecmaFeatures": {
+    "experimentalObjectRestSpread": true
+  },
+  "parserOptions": {
+    "ecmaFeatures": {
+      "experimentalObjectRestSpread": true,
+      "jsx": true
+    },
+    "ecmaVersion": 2018,
+    "sourceType": "module"
+  },
+  "root": true
+}

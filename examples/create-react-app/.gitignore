@@ -1,0 +1,11 @@
+# react-scripts build folder
+build
+
+# test coverage folder
+coverage
+
+# avoid ignoring public folder
+!public
+
+# avoid ignoring .env file
+!.env
