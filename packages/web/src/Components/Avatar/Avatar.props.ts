@@ -26,6 +26,7 @@ export interface IAvatarProps extends Omit<MaterialAvatarProps, "variant"> {
    *
    * @default "standard"
    * @optional
+   * @todo Adopt new avatar sizes for 1.0
    * @type AvatarSizes
    */
   size?: AvatarSize;
