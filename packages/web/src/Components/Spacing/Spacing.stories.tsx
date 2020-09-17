@@ -5,7 +5,7 @@ import meta from "./Spacing.stories.meta";
 
 export default {
   ...meta,
-  title: "Components/Spacing",
+  title: "Utilities/Spacing",
 } as Meta;
 
 export const Playground : Story<ISpacingProps> = Template.bind({});

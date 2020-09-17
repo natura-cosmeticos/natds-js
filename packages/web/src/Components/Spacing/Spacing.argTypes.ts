@@ -1,50 +1,48 @@
-import { tokens } from "@naturacosmeticos/natds-styles";
 import { ISpacingProps } from "./Spacing.props";
+import { SizeArgType } from "../shared/SizeArgType";
+import { spacingPropArgType } from "../shared";
 
-type SpacingSizeControl = { options: string[]; type: string };
+type ArgTypesKey = keyof ISpacingProps | string;
 
-const control: SpacingSizeControl = {
-  options: Object.keys(tokens.sizes),
-  type: "select",
+export const spacingArgTypes : Record<ArgTypesKey, SizeArgType> = {
+  margin: spacingPropArgType,
+  padding: spacingPropArgType,
+  marginBottom: spacingPropArgType,
+  marginLeft: spacingPropArgType,
+  marginRight: spacingPropArgType,
+  marginTop: spacingPropArgType,
+  marginX: spacingPropArgType,
+  marginY: spacingPropArgType,
+  paddingBottom: spacingPropArgType,
+  paddingLeft: spacingPropArgType,
+  paddingRight: spacingPropArgType,
+  paddingTop: spacingPropArgType,
+  paddingX: spacingPropArgType,
+  paddingY: spacingPropArgType,
 };
 
-export const spacingArgTypes : Record<keyof ISpacingProps | string, { control: SpacingSizeControl }> = {
-  margin: { control },
-  padding: { control },
-  marginBottom: { control },
-  marginLeft: { control },
-  marginRight: { control },
-  marginTop: { control },
-  marginX: { control },
-  marginY: { control },
-  paddingBottom: { control },
-  paddingLeft: { control },
-  paddingRight: { control },
-  paddingTop: { control },
-  paddingX: { control },
-  paddingY: { control },
-};
-
-export const spacingAliasArgTypes : Record<keyof ISpacingProps | string, { control: SpacingSizeControl }> = {
+export const spacingAliasArgTypes : Record<ArgTypesKey, SizeArgType> = {
   // eslint-disable-next-line id-length
-  m: { control },
-  mb: { control },
-  ml: { control },
-  mr: { control },
-  mt: { control },
-  mx: { control },
-  my: { control },
+  m: spacingPropArgType,
+  mb: spacingPropArgType,
+  ml: spacingPropArgType,
+  mr: spacingPropArgType,
+  mt: spacingPropArgType,
+  mx: spacingPropArgType,
+  my: spacingPropArgType,
   // eslint-disable-next-line id-length
-  p: { control },
-  pb: { control },
-  pl: { control },
-  pr: { control },
-  pt: { control },
-  px: { control },
-  py: { control },
+  p: spacingPropArgType,
+  pb: spacingPropArgType,
+  pl: spacingPropArgType,
+  pr: spacingPropArgType,
+  pt: spacingPropArgType,
+  px: spacingPropArgType,
+  py: spacingPropArgType,
 };
 
-export const argTypes : Record<keyof ISpacingProps | string, { control?: SpacingSizeControl }> = {
+type ArgTypesValue = SizeArgType | Record<string, unknown>;
+
+export const argTypes : Record<ArgTypesKey, ArgTypesValue> = {
   ...spacingArgTypes,
   children: {},
   component: {},

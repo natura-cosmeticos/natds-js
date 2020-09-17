@@ -8,7 +8,7 @@ export const meta = {
   parameters: {
     layout: "fullscreen",
   },
-  title: "Components/Spacing",
+  title: "Utilities/Spacing",
 } as Meta;
 
 export default meta;

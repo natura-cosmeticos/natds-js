@@ -9,10 +9,10 @@ import Spacing from "./Spacing";
 
 export const Template : Story<ISpacingProps> = (args) => {
 
-  const useStyles = makeStyles(createStyles((theme: IThemeWeb) => ({
+  const useStyles = makeStyles((theme: IThemeWeb) => createStyles({
     inner: {
-      backgroundColor: theme.palette && theme.palette.background ? theme.palette.background.paper : null,
-      color: theme.palette && theme.palette.background ? theme.palette.background.paperContrastText : null,
+      backgroundColor: theme.palette && theme.palette.background ? theme.palette.background.paper : "",
+      color: theme.palette && theme.palette.background ? theme.palette.background.paperContrastText : "",
       display: "flex",
     },
     root: {
@@ -24,7 +24,7 @@ export const Template : Story<ISpacingProps> = (args) => {
       display: "flex",
       width: "fit-content",
     },
-  })), { name: "SpacingDemo" });
+  }), { name: "SpacingDemo" });
 
   const classes = useStyles();
 

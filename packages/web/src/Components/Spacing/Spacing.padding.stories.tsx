@@ -6,7 +6,7 @@ import meta from "./Spacing.stories.meta";
 
 export default {
   ...meta,
-  title: "Components/Spacing/Padding",
+  title: "Utilities/Spacing/Padding",
 } as Meta;
 
 const {

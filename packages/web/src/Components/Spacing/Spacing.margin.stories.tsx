@@ -6,7 +6,7 @@ import meta from "./Spacing.stories.meta";
 
 export default {
   ...meta,
-  title: "Components/Spacing/Margin",
+  title: "Utilities/Spacing/Margin",
 } as Meta;
 
 const {
