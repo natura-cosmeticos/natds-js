@@ -1,4 +1,4 @@
-# Scoped CssBaseline
+# Scoped CSS Baseline
 
 Sometimes, you might be progressively migrating a website to Natura Design System, and using a global reset might not be an option.
 
