@@ -19,6 +19,6 @@ export const Provider:React.FunctionComponent<IProvider> = (props:IProvider) => 
     newTheme = createMuiTheme(theme);
 
   return (
-    <MuiThemeProvider {...props} theme={newTheme} />
+    <MuiThemeProvider {...props} theme={newTheme}>{props.children}</MuiThemeProvider>
   );
 };
