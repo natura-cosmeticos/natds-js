@@ -4,19 +4,24 @@ import { IconProps } from "@material-ui/core";
 
 export type IconColor = "inherit" | "primary" | "secondary" | "default" | "error" | "disabled" | "action"
 export type IconName = keyof typeof iconNames;
+export type IconSize = keyof IIconSizes;
 
-export interface IIconProps extends Omit<IconProps, "children" | "fontSize"> {
+export interface IIconProps extends Omit<IconProps, "children" | "fontSize" | "name"> {
 
   /**
-   * The icon name
+   * The icon name.
+   *
    * @required
+   * @todo Deprecate `name` prop soon, because it messes with `name` attribute from HTML
+   * @type IconName
    */
   name: IconName;
 
   /**
-   * The icon size
+   * The icon size. It is `standard` by default.
    *
-   * @default "standard"
+   * @optional
+   * @type IconSize
    */
-  size?: keyof IIconSizes;
+  size?: IconSize;
 }
