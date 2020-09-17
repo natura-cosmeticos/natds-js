@@ -1,34 +1,31 @@
 import * as React from "react";
-import * as reactTestRenderer from "react-test-renderer";
+import * as TestRenderer from "react-test-renderer";
 import { Alignments, Playground, Variants } from "./Typography.stories";
 
 describe("Typography stories", () => {
-  describe("with default arguments", () => {
-    it("renders correctly", () => {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      const actual = reactTestRenderer.create(<Playground />);
 
-      expect(actual).toMatchSnapshot();
+  let testRenderer : TestRenderer.ReactTestRenderer = {} as TestRenderer.ReactTestRenderer;
+
+  describe("with interactive arguments", () => {
+    it("renders correctly", () => {
+      testRenderer = TestRenderer.create(<Playground>Playground story</Playground>);
+
+      expect(testRenderer).toMatchSnapshot();
     });
   });
   describe("with variants", () => {
     it("renders correctly", () => {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      const actual = reactTestRenderer.create(<Variants />);
+      testRenderer = TestRenderer.create(<Variants>Variants story</Variants>);
 
-      expect(actual).toMatchSnapshot();
+      expect(testRenderer).toMatchSnapshot();
     });
   });
 
   describe("with alignments", () => {
     it("renders correctly", () => {
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      const actual = reactTestRenderer.create(<Alignments />);
+      testRenderer = TestRenderer.create(<Alignments>Alignments story</Alignments>);
 
-      expect(actual).toMatchSnapshot();
+      expect(testRenderer).toMatchSnapshot();
     });
   });
 });
