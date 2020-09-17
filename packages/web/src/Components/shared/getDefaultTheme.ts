@@ -1,9 +1,8 @@
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
-import isEqual from "lodash/isEqual";
+import { isEqual } from "lodash";
 import { ThemeOptions, createMuiTheme } from "@material-ui/core/styles";
-import { themes } from "../Themes";
+import { themes } from "../../Themes";
 
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types,@typescript-eslint/no-explicit-any
 export const getDefaultTheme = (providerTheme: any) => {
   const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme)),
     parsedDefaultTheme = JSON.parse(JSON.stringify(createMuiTheme({})));
@@ -15,3 +14,5 @@ export const getDefaultTheme = (providerTheme: any) => {
   return providerTheme;
 
 };
+
+export default getDefaultTheme;

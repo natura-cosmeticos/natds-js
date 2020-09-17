@@ -1,0 +1,44 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Size prop arg type should match snapshot 1`] = `
+Object {
+  "control": Object {
+    "options": Array [
+      "auto",
+      "none",
+      "micro",
+      "tiny",
+      "small",
+      "standard",
+      "semi",
+      "semiX",
+      "medium",
+      "mediumX",
+      "large",
+      "largeX",
+      "largeXX",
+      "largeXXX",
+      "huge",
+      "hugeX",
+      "hugeXX",
+      "hugeXXX",
+      "veryHuge",
+      "semix",
+      "mediumx",
+      "largex",
+      "largexx",
+      "largexxx",
+      "hugex",
+      "hugexx",
+      "hugexxx",
+      "veryhuge",
+    ],
+    "type": "select",
+  },
+  "table": Object {
+    "defaultValue": Object {
+      "summary": "auto",
+    },
+  },
+}
+`;
