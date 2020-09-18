@@ -20,6 +20,7 @@ lib-cov
 
 # Coverage directory used by tools like istanbul
 /coverage/
+examples/*/coverage
 *.lcov
 
 # nyc test coverage
@@ -77,12 +78,10 @@ typings/
 # parcel-bundler cache (https://parceljs.org/)
 .cache
 
-# Next.js build output
+# build output
 .next
-
-# Nuxt.js build / generate output
 .nuxt
-/dist/
+examples/*/build
 
 # Gatsby files
 .cache/
@@ -90,7 +89,8 @@ typings/
 # https://nextjs.org/blog/next-9-1#public-directory-support
 # public
 
-# vuepress build output
+# generate/vuepress build output
+/dist/
 .vuepress/dist
 
 # Serverless directories
