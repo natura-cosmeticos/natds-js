@@ -7,7 +7,7 @@ import { ITypographyProps, Typography } from "./Typography";
 export default {
   argTypes,
   component: Typography,
-  title: "Components/Typography",
+  title: "Components/Typography (text)",
 };
 
 const Template: Story<ITypographyProps> = (args) => <Typography {...args}>{args.children}</Typography>;
@@ -52,20 +52,28 @@ Heading1.args = {
   children: "Typography example",
   variant: "h1",
 };
-Heading1.storyName = "Heading level 1";
+Heading1.storyName = "Examples/Heading 1 (h1) example";
+
+export const Heading2: Story<ITypographyProps> = Template.bind({});
+Heading2.args = {
+  children: "Typography example for heading level 2 (h2)",
+  variant: "h2",
+};
+Heading2.storyName = "Heading 2 (h2) example";
 
 export const Heading3: Story<ITypographyProps> = Template.bind({});
 Heading3.args = {
   children: "Typography example for heading level 3 (h3)",
   variant: "h3",
 };
-Heading3.storyName = "Heading level 3";
+Heading3.storyName = "Heading 3 (h3) example";
 
 export const Body1: Story<ITypographyProps> = Template.bind({});
 Body1.args = {
   children: "Typography example for body1 variant",
   variant: "body1",
 };
+Body1.storyName = "Body1 example";
 
 export const Caption: Story<ITypographyProps> = Template.bind({});
 Caption.args = {
