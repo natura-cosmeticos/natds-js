@@ -13,7 +13,14 @@ import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
 const {
-  colorTokens: { naturaLightColorTokens },
+  colorTokens: {
+
+    /**
+     * @deprecated `naturaLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+     * Please use `theme.natura.light.color` from `natds-themes`.
+     */
+    naturaLightColorTokens,
+  },
 } = tokens;
 
 const { borderRadius } = themes.natura.light;
