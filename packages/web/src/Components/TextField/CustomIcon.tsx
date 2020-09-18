@@ -1,7 +1,7 @@
 import React, { ComponentType, FunctionComponent } from "react";
 import styled from "styled-components";
-import { IThemeWeb } from "Themes";
 import { tokens } from "@naturacosmeticos/natds-styles";
+import { IThemeWeb } from "../../Themes";
 
 export interface ICustomIcon {
   theme: IThemeWeb | unknown;

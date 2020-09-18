@@ -5,8 +5,8 @@ import styled from "styled-components";
 import VisibilityIcon from "@material-ui/icons/VisibilityOutlined";
 import VisibilityIconOff from "@material-ui/icons/VisibilityOffOutlined";
 
-import { IThemeWeb } from "Themes";
 import { tokens } from "@naturacosmeticos/natds-styles";
+import { IThemeWeb } from "../../Themes";
 
 export interface IPasswordReveal {
   theme: IThemeWeb | unknown;
