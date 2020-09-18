@@ -3,6 +3,7 @@ import * as TestRenderer from "react-test-renderer";
 import { Toolbar } from "./Toolbar";
 import { Provider } from "../../Provider";
 import { variants } from "./__fixtures__/variants";
+import { ToolbarVariant } from "./Toolbar.props";
 
 describe("Toolbar styles", () => {
 
@@ -17,7 +18,7 @@ describe("Toolbar styles", () => {
     });
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    describe.each(Object.keys(variants))("when variant property is %p", (variant) => {
+    describe.each(Object.keys(variants))("when variant property is %p", (variant: ToolbarVariant) => {
       it("should render correctly", () => {
         testRenderer = TestRenderer.create(<Toolbar variant={variant} />);
         expect(testRenderer).toMatchSnapshot();
@@ -34,7 +35,7 @@ describe("Toolbar styles", () => {
     });
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    describe.each(Object.keys(variants))("when variant property is %p", (variant) => {
+    describe.each(Object.keys(variants))("when variant property is %p", (variant: ToolbarVariant) => {
       it("should render correctly", () => {
         testRenderer = TestRenderer.create(<Provider><Toolbar variant={variant} /></Provider>);
         expect(testRenderer).toMatchSnapshot();
