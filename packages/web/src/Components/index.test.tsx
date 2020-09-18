@@ -44,6 +44,7 @@ const components : string[] = [
   "GridItem",
   "Icon",
   "IconButton",
+  "Image",
   "InputLabel",
   "Intro",
   "LinearProgress",
@@ -69,6 +70,15 @@ const components : string[] = [
   "Switch",
   "TabContainer",
   "TabItem",
+  "Table",
+  "TableBody",
+  "TableContainer",
+  "TableCell",
+  "TableFooter",
+  "TableHead",
+  "TablePagination",
+  "TableRow",
+  "TableSortLabel",
   "TextField",
   "ToggleButton",
   "Toolbar",
@@ -76,12 +86,37 @@ const components : string[] = [
   "Typography",
 ];
 
+const brands = [
+  "avon",
+  "natura",
+  "theBodyShop",
+];
+
 describe("Library", () => {
-  it("exports theme Provider", () => {
-    expect(library.Provider).toBeDefined();
+  describe("Theme Provider", () => {
+    it("is exported", () => {
+      expect(library.Provider).toBeDefined();
+    });
   });
   // @ts-ignore
-  it.each(components)("exports %p component", (component: string) => {
-    expect(library).toHaveProperty(component);
+  describe.each(components)("%p component", (component: string) => {
+    it("is exported", () => {
+      expect(library).toHaveProperty(component);
+    });
+  });
+  // @ts-ignore
+  describe.each(brands)("Themes for brand %p", (brand) => {
+    describe("when theme mode is dark", () => {
+      it("should be exported", () => {
+        expect(library.themes).toHaveProperty(brand);
+        expect(library.themes).toHaveProperty(brand);
+      });
+    });
+    describe("when theme mode is light", () => {
+      it("should be exported", () => {
+        expect(library.themes).toHaveProperty(brand);
+        expect(library.themes).toHaveProperty(brand);
+      });
+    });
   });
 });
