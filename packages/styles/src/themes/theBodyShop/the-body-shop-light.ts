@@ -19,7 +19,14 @@ import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
 const {
-  colorTokens: { theBodyShopLightColorTokens },
+  colorTokens: {
+
+    /**
+     * @deprecated `theBodyShopLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+     * Please use `theme.theBodyShop.light.color` from `natds-themes`.
+     */
+    theBodyShopLightColorTokens,
+  },
 } = tokens;
 
 export const theBodyShopLight: ITheme = {
