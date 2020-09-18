@@ -3,6 +3,28 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.20.0](https://github.com/natura-cosmeticos/natds/compare/v0.19.1...v0.20.0) (2020-09-18)
+
+
+### Bug Fixes
+
+* **badge:** prevent TypeScript errors on colors, overlaps and variants fixtures ([12fa028](https://github.com/natura-cosmeticos/natds/commit/12fa028ce525d7397de791ad7183aebc4f3121a0))
+* **provider:** prevent "missing children property" error ([38e7ef4](https://github.com/natura-cosmeticos/natds/commit/38e7ef4a747153cca696187f8684f5542560bed6))
+* **toolbar:** prevent TypeScript error on story ([9c60980](https://github.com/natura-cosmeticos/natds/commit/9c609802197cbfa95589a76cf5bc5304d52b8663))
+
+
+### Features
+
+* **button:** add type support for `fullWidth` property ([83f89e3](https://github.com/natura-cosmeticos/natds/commit/83f89e370b8ce1511dc2a7fdff49ba9a42615ace))
+* **examples/create-react-app:** add react example app ([df1a661](https://github.com/natura-cosmeticos/natds/commit/df1a6613b7b99e03abb7171d1422531803f50465))
+* **image:** add `Image` component [DSY-1184] ([7e2aa79](https://github.com/natura-cosmeticos/natds/commit/7e2aa79eb9e16da29545561fd2254580e8b9cf84))
+* **skeleton:** add support to `auto` and numeric values for `height` and `width` properties ([e02a973](https://github.com/natura-cosmeticos/natds/commit/e02a973eaa1d13f52dd78da7bb3be66a0d179130))
+* **spacing:** add support to `auto` and numeric values for `height` and `width` properties ([34a624d](https://github.com/natura-cosmeticos/natds/commit/34a624de42e83a2a119d40aa2e96ea1c581bd827))
+
+
+
+
+
 ## [0.19.1](https://github.com/natura-cosmeticos/natds/compare/v0.19.0...v0.19.1) (2020-09-11)
 
 **Note:** Version bump only for package natds
