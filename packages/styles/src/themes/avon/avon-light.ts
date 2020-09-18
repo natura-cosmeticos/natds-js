@@ -19,7 +19,14 @@ import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
 
 const {
-  colorTokens: { avonLightColorTokens },
+  colorTokens: {
+
+    /**
+     * @deprecated `avonLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+     * Please use `theme.avon.light.color` from `natds-themes`.
+     */
+    avonLightColorTokens,
+  },
 } = tokens;
 
 export const avonLight: ITheme = {
