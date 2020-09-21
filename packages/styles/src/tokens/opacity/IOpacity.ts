@@ -1,4 +1,6 @@
-export interface IOpacity {
+import { Opacity } from "@naturacosmeticos/natds-themes";
+
+export interface IOpacity extends Opacity {
   "00": number;
   "04": number;
   "08": number;
