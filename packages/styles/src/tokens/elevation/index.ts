@@ -1,25 +1,75 @@
 /* eslint-disable sort-keys */
-import hexToRgba from "hex-to-rgba";
+import themes from "@naturacosmeticos/natds-themes";
 import { IElevation } from "./IElevation";
 
-/**
- * Defines 16% opacity for use in color
- *
- * Opacities must be a multiple of 8.
- */
-const shadowColorAlpha = 0.16;
-const shadowColor = hexToRgba("#000000", shadowColorAlpha);
+const { elevation: naturaLightElevation } = themes.natura.light;
 
 export const elevation: IElevation = {
-  0: "none",
-  1: `0 1px 1px 0 ${shadowColor}`,
-  2: `0 2px 2px 0 ${shadowColor}`,
-  3: `0 3px 4px 0 ${shadowColor}`,
-  4: `0 4px 5px 0 ${shadowColor}`,
-  6: `0 6px 10px 0 ${shadowColor}`,
-  8: `0 8px 10px 0 ${shadowColor}`,
-  9: `0 9px 12px 0 ${shadowColor}`,
-  12: `0 12px 17px 0 ${shadowColor}`,
-  16: `0 16px 24px 0 ${shadowColor}`,
-  24: `0 24px 38px 0 ${shadowColor}`,
+  ...naturaLightElevation,
+
+  /**
+   * @deprecated elevation token `0` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `none` elevation token from a theme, like Natura light.
+   */
+  0: naturaLightElevation.none,
+
+  /**
+   * @deprecated elevation token `1` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `micro` elevation token from a theme, like Natura light.
+   */
+  1: naturaLightElevation.micro,
+
+  /**
+   * @deprecated elevation token `2` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `tiny` elevation token from a theme, like Natura light.
+   */
+  2: naturaLightElevation.tiny,
+
+  /**
+   * @deprecated elevation token `3` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `small` elevation token from a theme, like Natura light.
+   */
+  3: naturaLightElevation.small,
+
+  /**
+   * @deprecated elevation token `4` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `medium` elevation token from a theme, like Natura light.
+   */
+  4: naturaLightElevation.medium,
+
+  /**
+   * @deprecated elevation token `6` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `large` elevation token from a theme, like Natura light.
+   */
+  6: naturaLightElevation.large,
+
+  /**
+   * @deprecated elevation token `8` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `largeX` elevation token from a theme, like Natura light.
+   */
+  8: naturaLightElevation.largeX,
+
+  /**
+   * @deprecated elevation token `9` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `largeXX` elevation token from a theme, like Natura light.
+   */
+  9: naturaLightElevation.largeXX,
+
+  /**
+   * @deprecated elevation token `12` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `huge` elevation token from a theme, like Natura light.
+   */
+  12: naturaLightElevation.huge,
+
+  /**
+   * @deprecated elevation token `16` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `hugeX` elevation token from a theme, like Natura light.
+   */
+  16: naturaLightElevation.hugeX,
+
+  /**
+   * @deprecated elevation token `24` is deprecated since v0.20 and will be removed at v1.0.
+   * Please use `hugeXX` elevation token from a theme, like Natura light.
+   */
+  24: naturaLightElevation.hugeXX,
 };
