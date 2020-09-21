@@ -14,7 +14,17 @@ import { spacing } from "./tokens/spacing";
 export default {
   avatarSizes,
   buttonSizes,
+
+  /**
+   * @deprecated `colorTokens` are deprecated since version v0.20 and will be removed on v1.0.
+   * Please use `theme.${brand}.${mode}.color`
+   */
   colorTokens,
+
+  /**
+   * @deprecated `colors` is deprecated since version v0.20 and will be removed on v1.0.
+   * Please use `theme.natura.${mode}.color`
+   */
   colors: { natura },
   elevation,
   fontSize,
