@@ -14,6 +14,10 @@ export const buttonSizes: IButtonSizes = {
     height: sizes.semi,
   },
   medium: {
+
+    /**
+     * @todo remove warning: 'semiX' should probably not be assigned to 'height'
+     */
     height: sizes.semiX,
     paddingTop: sizes.none,
     paddingRight: sizes.small - sizes.micro,
