@@ -1,16 +1,19 @@
 /* eslint-disable sort-keys */
+import themes from "@naturacosmeticos/natds-themes";
 import { IColorsNatura } from "./IColorsNatura";
 
+const { color } = themes.natura.light;
+
 /**
- * @deprecated `colors.natura` is deprecated since version 0.19.0. It will be removed on version 1.0.
- * Please use `theme.natura.light.palette` (or `theme.natura.dark.palette`)
+ * @deprecated `colors.natura` is deprecated since version 0.19.0 and it will be removed on version 1.0.
+ * Please use colors from `theme.natura.light.palette`.
  */
 export const natura: IColorsNatura = {
   primary: {
-    colorBrdNatPrimaryOrange: "#FF6B0B",
-    colorBrdNatPrimaryYellow: "#F4AB34",
+    colorBrdNatPrimaryOrange: color.secondary,
+    colorBrdNatPrimaryYellow: color.primary,
     colorBrdNatPrimaryBrown: "#513528",
-    colorBrdNatPrimaryWhite: "#FFFFFF",
+    colorBrdNatPrimaryWhite: color.surface,
   },
 
   secondary: {
@@ -21,10 +24,10 @@ export const natura: IColorsNatura = {
   },
 
   grayscale: {
-    colorBrdBlack: "#000000",
-    colorBrdNatGray: "#333333",
-    colorBrdNatGray1: "#777777",
-    colorBrdNatGray2: "#BBBBBB",
+    colorBrdBlack: color.onSurface,
+    colorBrdNatGray: color.onBackground,
+    colorBrdNatGray1: color.mediumEmphasis,
+    colorBrdNatGray2: color.lowEmphasis,
     colorBrdNatGray3: "#EEEEEE",
   },
 
@@ -37,11 +40,11 @@ export const natura: IColorsNatura = {
   },
 
   complementary: {
-    colorBrdNatCpBlue1: "#227BBD",
+    colorBrdNatCpBlue1: color.link,
     colorBrdNatCpBlue2: "#6BB1E2",
     colorBrdNatCpBlue3: "#54BECF",
     colorBrdNatCpBlue4: "#8E96A9",
-    colorBrdNatCpGreen1: "#569A32",
+    colorBrdNatCpGreen1: color.success,
     colorBrdNatCpGreen2: "#8EBE2F",
     colorBrdNatCpGreen3: "#C2CD00",
     colorBrdNatCpGreen4: "#BEC950",
@@ -52,9 +55,9 @@ export const natura: IColorsNatura = {
     colorBrdNatCpOrange1: "#E8530E",
     colorBrdNatCpOrange2: "#EE7D00",
     colorBrdNatCpOrange3: "#F49B00",
-    colorBrdNatCpOrange4: "#FCC433",
+    colorBrdNatCpOrange4: color.warning,
     colorBrdNatCpRed1: "#DC0719",
-    colorBrdNatCpRed2: "#E74627",
+    colorBrdNatCpRed2: color.alert,
     colorBrdNatCpRed3: "#ED743E",
     colorBrdNatCpRed4: "#F29669",
     colorBrdNatCpBrown1: "#371E14",
@@ -63,7 +66,7 @@ export const natura: IColorsNatura = {
   },
 
   gradient: {
-    colorBrdNatGrad1: "linear-gradient(112deg, #FFDA1B 0%, #FF6B0B 100%) 0% 0% no-repeat padding-box",
+    colorBrdNatGrad1: `linear-gradient(112deg, #FFDA1B 0%, ${color.secondary} 100%) 0% 0% no-repeat padding-box`,
     colorBrdNatGrad2: "linear-gradient(112deg, #86DDD4 0%, #6F38B5 100%) 0% 0% no-repeat padding-box",
     colorBrdNatGrad3: "linear-gradient(112deg, #728C9E 0%, #FD6C20 100%) 0% 0% no-repeat padding-box",
     colorBrdNatGrad4: "linear-gradient(112deg, #728C9E 0%, #FEE23E 100%) 0% 0% no-repeat padding-box",
