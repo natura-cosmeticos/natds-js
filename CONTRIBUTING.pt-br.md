@@ -26,7 +26,6 @@ Recomendamos pelo menos a versão `1.19.1`. Idealmente, prefira versões superio
 Como utilizamos `lerna` para gerenciar o versionamento dos pacotes do _monorepo_.
 Estes são os pacotes atuais do projeto:
 
-* `packages/docs`: Storybook com documentação dos _tokens_ de estilo e dos componentes React;
 * `packages/icons`: Biblioteca de ícones;
 * `packages/styles`: Biblioteca com tema e estilos do Design System para a web;
 * `packages/web`: Biblioteca de componentes para a web.
