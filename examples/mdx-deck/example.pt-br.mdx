@@ -1,0 +1,81 @@
+import { naturaLightDeckTheme } from "./themes/natura/light.js"
+
+export const theme = naturaLightDeckTheme
+
+# React web
+
+---
+
+## Novidades
+
+- Componente `Fab` totalmente reescrito;
+- Remoção de [vulnerabilidade do lodash](https://snyk.io/vuln/SNYK-JS-LODASH-590103);
+- Remoção de erros de tipo dos componentes `Fab`, `Tooltip` e `Typography`;
+- Atualizações gerais de segurança e desempenho;
+
+---
+
+## Novidades para quem contribui
+
+- Suporte oficial ao novo TypeScript 4;
+- Atualizações de dependências de desenvolvimento, incluindo contribuição para o `commitizen`;
+- _Linting_ mais rápido para o seu _code style_ não ficar mal;
+- Remoção temporária da dependência `alex` (vulnerabilidades encontradas).
+
+Confira o [diff no GitHub](https://github.com/natura-cosmeticos/natds-js/compare/v0.17.11...v0.18.20)
+
+---
+
+## Versões depreciadas
+
+Usando alguma dessas versões? Por favor, atualize:
+
+- `0.18.1`
+- `0.18.0`
+- `0.17.4`
+- `0.17.3`
+- `0.17.2`
+
+Futuras depreciações: `0.0.1` (dia 18 de outubro de 2020).
+
+---
+
+## Já atualizou a biblioteca do Design System hoje?
+
+```shell script
+npm install @naturacosmeticos/natds-web
+```
+
+```shell script
+yarn add @naturacosmeticos/natds-web
+```
+
+Nosso _path-to-production_ é contínuo.
+
+---
+
+## Componentes afetados
+
+Se o seu projeto utiliza algum desses componentes, por favor, atualize os seus testes de _snapshot_:
+
+- `Avatar`
+- `DrawerHeader`
+- `Fab`
+- `Icon`
+- `Popover`
+- `TextField`
+- `Tooltip`
+- `Typography`
+
+---
+
+## Futuro
+
+* Novo Storybook (mais rápido e com mais recursos para pessoas desenvolvedoras);
+* Migração gradual do `natds-web` para `natds-react` como biblioteca de componentes React;
+* Trazer `alex` de volta na sua versão `9.x`, com suporte a MDX;
+* Migração do `enzyme` para `react-test-renderer` como biblioteca de rendering;
+
+---
+
+## Obrigade

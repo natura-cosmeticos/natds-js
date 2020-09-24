@@ -1,0 +1,15 @@
+{
+  "name": "mdx-deck",
+  "version": "0.20.0",
+  "private": true,
+  "devDependencies": {
+    "mdx-deck": "4.1.1"
+  },
+  "dependencies": {
+    "@naturacosmeticos/natds-themes": "0.4.1"
+  },
+  "scripts": {
+    "build": "mdx-deck build",
+    "start": "mdx-deck"
+  }
+}
