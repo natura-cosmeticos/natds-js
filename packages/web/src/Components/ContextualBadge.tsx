@@ -4,7 +4,7 @@ import styled from "styled-components";
 import { withTheme } from "@material-ui/core/styles";
 
 import { IThemeWeb } from "../Themes";
-import { getDefaultTheme } from "./shared";
+import { getDefaultTheme } from "../hooks/useDefaultTheme";
 
 const defaultValues = {
   lineHeight: 16,
