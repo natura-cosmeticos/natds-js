@@ -1,7 +1,7 @@
 import * as React from "react";
 import { Story } from "@storybook/react";
 import { Icon, IIconProps } from "./Icon";
-import argTypes from "./Icon.argTypes";
+import { argTypes } from "./Icon.argTypes";
 
 export default {
   argTypes,

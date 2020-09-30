@@ -1,8 +1,11 @@
-import { iconNames } from "@naturacosmeticos/natds-icons";
+import iconNames from "@naturacosmeticos/natds-icons/dist/natds-icons.json";
 import { IIconSizes } from "@naturacosmeticos/natds-styles";
 import { IconProps } from "@material-ui/core";
 
-export type IconColor = "inherit" | "primary" | "secondary" | "default" | "error" | "disabled" | "action"
+/**
+ * @todo add support to color tokens from Natura & Co. themes
+ */
+export type IconColor = "inherit" | "primary" | "secondary" | "default";
 export type IconName = keyof typeof iconNames;
 export type IconSize = keyof IIconSizes;
 

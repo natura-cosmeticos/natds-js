@@ -1,10 +1,10 @@
 import { IconColor } from "../Icon.props";
 
+/**
+ * @todo add support to color tokens from Natura & Co. themes
+ */
 export const colors : Record<IconColor, IconColor> = {
-  action: "action",
   default: "default",
-  disabled: "disabled",
-  error: "error",
   inherit: "inherit",
   primary: "primary",
   secondary: "secondary",
