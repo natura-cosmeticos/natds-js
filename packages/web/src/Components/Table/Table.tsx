@@ -1,102 +1,104 @@
-import React, { FunctionComponent, forwardRef } from "react";
+/* eslint-disable complexity */
+import * as React from "react";
 import MaterialTable from "@material-ui/core/Table";
 
-import { withTheme, makeStyles } from "@material-ui/core/styles";
 import { tokens } from "@naturacosmeticos/natds-styles";
 import hexToRgba from "hex-to-rgba";
-import { getDefaultTheme } from "../shared";
-import { ITableProps } from "./ITableProps";
+import makeStyles from "@material-ui/core/styles/makeStyles";
+import { ITableProps } from "./Table.props";
+import useDefaultTheme from "../../hooks/useDefaultTheme";
 
-export { ITableProps } from "./ITableProps";
+export { ITableProps } from "./Table.props";
 
-export const Table: FunctionComponent<ITableProps> = forwardRef((
-  props: ITableProps,
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  ref: any,
-) => {
-  const {
-    theme: providerTheme,
-    dividers = true,
-    rounded = false,
-    striped = true,
-    ...rest
-  } = props;
+export const Table = React.forwardRef<HTMLTableElement, ITableProps>(
+  (
+    props: ITableProps,
+    ref,
+  ) => {
+    const {
+      dividers = true,
+      rounded = false,
+      striped = true,
+      ...rest
+    } = props;
 
-  const rgbAlpha = 0.04;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+    const rgbAlpha = 0.04;
 
-  /**
-   * @todo refactor(web): move Table styles to `natds-styles`, consider `dividers` prop
-   */
-  // eslint-disable-next-line complexity
-  const useStyles = React.useMemo(() => makeStyles({
-    root: {
-      color: theme.palette.text.primary,
-      borderCollapse: "separate",
-      border: dividers === false ? `1px solid ${theme.palette.text.hint}` : "none",
-      borderRadius: dividers === false && rounded === true ? `${tokens.sizes.micro}` : `${theme.sizes.none}`,
-      backgroundColor: theme.palette.background.paper,
-      "& thead > tr > th ": {
+    // eslint-disable-next-line @typescript-eslint/no-explicit-any
+    const theme: any = useDefaultTheme();
+
+    /**
+     * @todo refactor(web): move Table styles to `natds-styles`, consider `dividers` prop
+     */
+
+    const useStyles = React.useMemo(() => makeStyles({
+      root: {
+        border: dividers ? "none" : `1px solid ${theme.palette.text.hint}`,
+        borderCollapse: "separate",
+        borderRadius: !dividers && rounded ? `${tokens.sizes.micro}` : `${theme.sizes.none}`,
         backgroundColor: theme.palette.background.paper,
-        borderBottom: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
-        borderRight: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
-        borderTop: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
-        fontSize: tokens.fontSize.subtitle2.fontSize,
-        fontWeight: tokens.fontSize.subtitle2.fontWeight,
-        padding: `${tokens.spacing.spacingStandard}px`,
-      },
-      "& th:first-child": {
-        borderLeft: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
-      },
-      "& td": {
-        borderBottom: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
-        borderRight: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
-        fontSize: tokens.fontSize.body2.fontSize,
-        fontWeight: tokens.fontSize.body2.fontWeight,
-        padding: `${tokens.spacing.spacingStandard}px`,
-      },
-      "& td:first-child": {
-        borderLeft: dividers === false ? `${tokens.sizes.none}` : `1px solid ${theme.palette.text.hint}`,
-      },
-      "& tr": {
-        backgroundColor: theme.palette.background.default,
-        "&:nth-of-type(even)": {
+        color: theme.palette.text.primary,
+        "& thead > tr > th ": {
+          backgroundColor: theme.palette.background.paper,
+          borderBottom: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+          borderRight: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+          borderTop: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+          fontSize: tokens.fontSize.subtitle2.fontSize,
+          fontWeight: tokens.fontSize.subtitle2.fontWeight,
+          padding: `${tokens.spacing.spacingStandard}px`,
+        },
+        "& th:first-child": {
+          borderLeft: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+        },
+        "& td": {
+          borderBottom: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+          borderRight: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+          fontSize: tokens.fontSize.body2.fontSize,
+          fontWeight: tokens.fontSize.body2.fontWeight,
+          padding: `${tokens.spacing.spacingStandard}px`,
+        },
+        "& td:first-child": {
+          borderLeft: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+        },
+        "& tr": {
+          backgroundColor: theme.palette.background.default,
+          "&:nth-of-type(even)": {
 
-          /**
-           * @todo replace with solid color
-           */
-          backgroundColor: striped === false ? theme.palette.background.default : `${hexToRgba(theme.palette.complementary.highlight, rgbAlpha)}`,
+            /**
+             * @todo replace with solid color
+             */
+            backgroundColor: striped ? `${hexToRgba(theme.palette.complementary.highlight, rgbAlpha)}` : theme.palette.background.default,
+          },
+        },
+        "& thead > tr:first-child": {
+          "& > th:first-child": {
+            borderTopLeftRadius: rounded && `${tokens.sizes.micro}px`,
+          },
+          "& > th:last-child": {
+            borderTopRightRadius: rounded && `${tokens.sizes.micro}px`,
+          },
+        },
+
+        "& tbody > tr:last-child": {
+          "& > td:first-child": {
+            borderBottomLeftRadius: rounded && `${tokens.sizes.micro}px`,
+          },
+          "& > td:last-child": {
+            borderBottomRightRadius: rounded && `${tokens.sizes.micro}px`,
+          },
         },
       },
-      "& thead > tr:first-child": {
-        "& > th:first-child": {
-          borderTopLeftRadius: rounded && `${tokens.sizes.micro}px`,
-        },
-        "& > th:last-child": {
-          borderTopRightRadius: rounded && `${tokens.sizes.micro}px`,
-        },
-      },
+    }), [theme,
+      dividers,
+      rounded,
+      striped]);
 
-      "& tbody > tr:last-child": {
-        "& > td:first-child": {
-          borderBottomLeftRadius: rounded && `${tokens.sizes.micro}px`,
-        },
-        "& > td:last-child": {
-          borderBottomRightRadius: rounded && `${tokens.sizes.micro}px`,
-        },
-      },
-    },
-  }), [theme,
-    dividers,
-    rounded,
-    striped]);
+    const classes = useStyles({ dividers, rounded, striped });
 
-  const customClasses = useStyles();
-
-  return <MaterialTable className={customClasses.root} {...rest} ref={ref}/>;
-});
+    return <MaterialTable classes={classes} {...rest} ref={ref}/>;
+  },
+);
 
 Table.displayName = "Table";
 
-export default withTheme(Table);
+export default Table;
