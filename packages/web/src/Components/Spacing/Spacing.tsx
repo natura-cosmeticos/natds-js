@@ -21,6 +21,14 @@ export const Spacing = React.forwardRef<unknown, ISpacingProps>((
     marginTop,
     marginX,
     marginY,
+    mb,
+    ml,
+    mr,
+    mt,
+    mx,
+    my,
+    // eslint-disable-next-line id-length
+    p,
     padding,
     paddingBottom,
     paddingLeft,
@@ -28,6 +36,12 @@ export const Spacing = React.forwardRef<unknown, ISpacingProps>((
     paddingTop,
     paddingX,
     paddingY,
+    pb,
+    pl,
+    pr,
+    pt,
+    px,
+    py,
     ...otherProps
   } = props;
 
@@ -41,6 +55,14 @@ export const Spacing = React.forwardRef<unknown, ISpacingProps>((
     marginTop,
     marginX,
     marginY,
+    mb,
+    ml,
+    mr,
+    mt,
+    mx,
+    my,
+    // eslint-disable-next-line id-length
+    p,
     padding,
     paddingBottom,
     paddingLeft,
@@ -48,6 +70,12 @@ export const Spacing = React.forwardRef<unknown, ISpacingProps>((
     paddingTop,
     paddingX,
     paddingY,
+    pb,
+    pl,
+    pr,
+    pt,
+    px,
+    py,
   });
 
   return <Component className={clsx(classes.root, className)}
