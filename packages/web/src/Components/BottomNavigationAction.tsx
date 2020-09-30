@@ -1,8 +1,8 @@
 import React, { FunctionComponent, forwardRef } from "react";
 import MaterialBottomNavigationAction, { BottomNavigationActionProps } from "@material-ui/core/BottomNavigationAction";
 import { makeStyles, withTheme } from "@material-ui/core/styles";
-import { getDefaultTheme } from "./shared";
 import { IThemeWeb } from "../Themes";
+import { getDefaultTheme } from "../hooks/useDefaultTheme";
 
 export interface IBottomNavigationActionProps extends BottomNavigationActionProps {
 
