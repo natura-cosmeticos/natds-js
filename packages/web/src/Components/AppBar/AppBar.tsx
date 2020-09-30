@@ -2,7 +2,7 @@ import * as React from "react";
 import * as PropTypes from "prop-types";
 import MaterialAppBar from "@material-ui/core/AppBar";
 import { IAppBarProps } from "./AppBar.props";
-import useStyles from "./AppBar.styles";
+import { useStyles } from "./AppBar.styles";
 
 const getElevation: (elevation?: number) => (number) = (elevation?: number) => {
   const NO_ELEVATION = 0;
@@ -45,9 +45,7 @@ export const AppBar = React.forwardRef<unknown, IAppBarProps>(
 );
 
 AppBar.displayName = "AppBar";
-
-AppBar.propTypes = {
-  children: PropTypes.node,
-};
+AppBar.propTypes = AppBar.propTypes || {};
+AppBar.propTypes.children = PropTypes.node;
 
 export default AppBar;
