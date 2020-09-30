@@ -6,11 +6,11 @@ import MaterialPopper, {
 } from "@material-ui/core/Popper";
 
 import styled from "styled-components";
-import { IThemeWeb } from "Themes";
-import { getDefaultTheme } from "./shared";
+import { IThemeWeb } from "../Themes";
 import Link, { ILinkProps } from "../Components/Link";
 import Paper from "../Components/Paper";
 import Typography from "../Components/Typography";
+import { getDefaultTheme } from "../hooks/useDefaultTheme";
 
 interface IActionLink extends Omit<ILinkProps, "theme"> {
   text: string;
