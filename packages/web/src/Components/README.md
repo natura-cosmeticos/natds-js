@@ -1,8 +1,4 @@
-import { Meta, Preview, Props, Story } from '@storybook/addon-docs/blocks';
-
-<Meta title="Developer/Components" />
-
-# Component anatomy
+# API & Pattern Guidelines
 
 Building a component? Get instructions and best practices here.
 
