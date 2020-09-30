@@ -1,6 +1,8 @@
-import { sizePropArgType } from "../shared/sizePropArgType";
+import { ArgType } from "@storybook/addons";
+import { sizePropArgType } from "../../../.storybook/argTypes/sizePropArgType";
+import { ISkeletonProps } from "./Skeleton.props";
 
-export const argTypes = {
+export const argTypes : Record<keyof ISkeletonProps | string, ArgType> = {
   animation: {
     description: `
 The animation. If \`false\` the animation effect is disabled.

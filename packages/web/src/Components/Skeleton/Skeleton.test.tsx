@@ -29,7 +29,7 @@ describe("Skeleton component", () => {
         expect(testRenderer).toMatchSnapshot();
       });
     });
-    describe("when height and with props are provided", () => {
+    describe("when height and width props are provided", () => {
       it("renders correctly", () => {
         testRenderer = TestRenderer.create(<Skeleton height={"small"} width={"small"} />);
 

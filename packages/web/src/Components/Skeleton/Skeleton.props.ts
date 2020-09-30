@@ -1,10 +1,9 @@
 import { SkeletonProps } from "@material-ui/lab/Skeleton";
-import { SizeProp } from "../shared/SizeProp";
+import { SizePropValue } from "../../hooks/useSizeStyleProp";
 
-export interface ISkeletonProps extends Pick<SkeletonProps,
-  "animation" |
-  "children" |
-  "variant"
+export interface ISkeletonProps extends Omit<SkeletonProps,
+  "height" |
+  "width"
   > {
 
   /**
@@ -13,9 +12,9 @@ export interface ISkeletonProps extends Pick<SkeletonProps,
    * Useful when you want to adapt the skeleton to a element - for instance, a card.
    *
    * @optional
-   * @type SizeProp
+   * @type SizePropValue
    */
-  height?: SizeProp,
+  height?: SizePropValue,
 
   /**
    * Width of the skeleton.
@@ -23,7 +22,7 @@ export interface ISkeletonProps extends Pick<SkeletonProps,
    * Useful when the skeleton is inside an inline element with no width of its own.
    *
    * @optional
-   * @type SizeProp
+   * @type SizePropValue
    */
-  width?: SizeProp
+  width?: SizePropValue
 }

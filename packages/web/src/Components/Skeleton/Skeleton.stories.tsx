@@ -45,7 +45,7 @@ const TemplateWithChildren: Story<ISkeletonProps> = (args) => <>
 
 export const WithTypographyHeading1 : Story<ISkeletonProps> = TemplateWithChildren.bind({});
 WithTypographyHeading1.args = {
-  children: <Typography {...TypographyStories.Heading1.args}>Skeleton with heading 1</Typography>,
+  children: <Typography {...TypographyStories.Heading1.args}>Skeleton with <abbr title={"Heading level 1"}>h1</abbr></Typography>,
 };
 WithTypographyHeading1.storyName = "With Typography Heading level 1";
 

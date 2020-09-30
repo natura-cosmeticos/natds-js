@@ -3,7 +3,7 @@ import MaterialSkeleton from "@material-ui/lab/Skeleton";
 import useTheme from "@material-ui/core/styles/useTheme";
 import { ISkeletonProps } from "./Skeleton.props";
 import { IThemeWeb } from "../../Themes";
-import { getSizeFromProp } from "../shared/getSizeFromProp";
+import { getSizeStyleProp } from "../../hooks/useSizeStyleProp";
 
 export { ISkeletonProps } from "./Skeleton.props";
 
@@ -31,13 +31,13 @@ export const Skeleton = React.forwardRef<HTMLDivElement, ISkeletonProps>(
 
     const theme : IThemeWeb = useTheme();
 
-    const heightAttribute = getSizeFromProp({
-      sizePropValue: height,
-      themeSizes: theme.sizes,
+    const heightAttribute = getSizeStyleProp({
+      theme,
+      value: height,
     });
-    const widthAttribute = getSizeFromProp({
-      sizePropValue: width,
-      themeSizes: theme.sizes,
+    const widthAttribute = getSizeStyleProp({
+      theme,
+      value: width,
     });
 
     return <MaterialSkeleton
