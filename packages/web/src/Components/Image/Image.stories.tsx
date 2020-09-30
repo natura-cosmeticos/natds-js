@@ -15,5 +15,5 @@ const Template : Story<ImageProps> = (args: ImageProps) => <Image {...args} />;
 export const Playground : Story<ImageProps> = Template.bind({});
 Playground.args = {
   alt: "Nat Natura holding a cat",
-  src: "https://pbs.twimg.com/profile_images/1285932878795333632/Wl95KE_m_400x400.jpg",
+  src: "https://pbs.twimg.com/profile_images/1308179129267781632/wLDnEiOy_400x400.jpg",
 };

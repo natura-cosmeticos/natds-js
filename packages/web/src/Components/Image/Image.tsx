@@ -3,8 +3,8 @@ import useTheme from "@material-ui/core/styles/useTheme";
 import clsx from "clsx";
 import { ImageProps } from "./Image.props";
 import { useStyles } from "./Image.styles";
-import { getSizeFromProp } from "../shared/getSizeFromProp";
 import { IThemeWeb } from "../../Themes";
+import { getSizeStyleProp } from "../../hooks/useSizeStyleProp";
 
 export { ImageProps } from "./Image.props";
 
@@ -20,13 +20,13 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
 
     const theme : IThemeWeb = useTheme();
 
-    const heightAttribute = getSizeFromProp({
-      sizePropValue: height,
-      themeSizes: theme.sizes,
+    const heightAttribute = getSizeStyleProp({
+      theme,
+      value: height,
     });
-    const widthAttribute = getSizeFromProp({
-      sizePropValue: width,
-      themeSizes: theme.sizes,
+    const widthAttribute = getSizeStyleProp({
+      theme,
+      value: width,
     });
 
     return (

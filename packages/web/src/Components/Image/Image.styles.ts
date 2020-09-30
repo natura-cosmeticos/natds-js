@@ -2,28 +2,28 @@ import makeStyles from "@material-ui/core/styles/makeStyles";
 import createStyles from "@material-ui/core/styles/createStyles";
 import { ImageProps } from "./Image.props";
 import { IThemeWeb } from "../../Themes";
-import { getSizeFromProp } from "../shared/getSizeFromProp";
+import { getSizeStyleProp } from "../../hooks/useSizeStyleProp";
 
 export const useStyles = makeStyles((theme: IThemeWeb) => createStyles({
   root: ({
     disableSelection, height, maxHeight, maxWidth, width,
   }: ImageProps) => ({
-    height: getSizeFromProp({
-      sizePropValue: height,
-      themeSizes: theme.sizes,
+    height: getSizeStyleProp({
+      theme,
+      value: height,
     }),
-    maxHeight: getSizeFromProp({
-      sizePropValue: maxHeight,
-      themeSizes: theme.sizes,
+    maxHeight: getSizeStyleProp({
+      theme,
+      value: maxHeight,
     }),
-    maxWidth: getSizeFromProp({
-      sizePropValue: maxWidth,
-      themeSizes: theme.sizes,
+    maxWidth: getSizeStyleProp({
+      theme,
+      value: maxWidth,
     }),
     userSelect: disableSelection ? "none" : "auto",
-    width: getSizeFromProp({
-      sizePropValue: width,
-      themeSizes: theme.sizes,
+    width: getSizeStyleProp({
+      theme,
+      value: width,
     }),
   }),
 }), { name: "NatDSImage" });

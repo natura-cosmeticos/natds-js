@@ -1,5 +1,5 @@
 import * as React from "react";
-import { SizeProp } from "../shared/SizeProp";
+import { SizePropValue } from "../../hooks/useSizeStyleProp";
 
 export type ImageVariant = "standard" | "highlight";
 
@@ -39,9 +39,9 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
    * You can set `"auto"` if you want to let the image determine the height.
    *
    * @optional
-   * @type SizeProp
+   * @type SizePropValue
    */
-  height?: SizeProp;
+  height?: SizePropValue;
 
   /**
    * Sets the maximum image height.
@@ -49,9 +49,9 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
    * Prevents the `height` property value from becoming greater than the value indicated by `maxHeight`.
    *
    * @optional
-   * @type SizeProp
+   * @type SizePropValue
    */
-  maxHeight?: SizeProp;
+  maxHeight?: SizePropValue;
 
   /**
    * Sets the maximum image width.
@@ -59,9 +59,9 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
    * Prevents the `width` property value from becoming greater than the value indicated by `maxWidth`.
    *
    * @optional
-   * @type SizeProp
+   * @type SizePropValue
    */
-  maxWidth?: SizeProp;
+  maxWidth?: SizePropValue;
 
   /**
    * An alias for `image` property.
@@ -91,8 +91,8 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
    * You can set `"auto"` if you want to let the image determine the width.
    *
    * @optional
-   * @type SizeProp
+   * @type SizePropValue
    */
-  width?: SizeProp;
+  width?: SizePropValue;
 
 }

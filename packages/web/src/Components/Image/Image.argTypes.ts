@@ -1,5 +1,5 @@
 import { ImageProps } from "./Image.props";
-import { sizePropArgType } from "../shared/sizePropArgType";
+import { sizePropArgType } from "../../../.storybook/argTypes/sizePropArgType";
 
 export const argTypes : Record<keyof ImageProps | string, unknown> = {
   alt: {
