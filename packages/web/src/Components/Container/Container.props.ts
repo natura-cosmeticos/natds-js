@@ -1,6 +1,7 @@
 import * as React from "react";
 import { ContainerProps } from "@material-ui/core/Container";
 
+export type ContainerMaxWidth = ContainerProps["maxWidth"];
 export interface IContainerProps extends ContainerProps {
 
   /**
