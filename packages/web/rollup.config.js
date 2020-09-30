@@ -25,15 +25,21 @@ const getBrowserOutputConfig = ({ filePath = "", globals, name = "natdsWeb" }) =
   },
 ];
 
+const globals = {
+  "@naturacosmeticos/natds-icons/dist/natds-icons.css": "natDsIcons",
+  react: "React",
+};
+const external = Object.keys(globals);
+
 /**
  * @see https://github.com/rollup/plugins/issues/243#issuecomment-595964778
  */
 export default [
   {
-    external: ["@naturacosmeticos/natds-icons/dist/natds-icons.css"],
+    external,
     input: "./dist/index.js",
     output: getBrowserOutputConfig({
-      globals: { "@naturacosmeticos/natds-icons/dist/natds-icons.css": "natDsIcons" },
+      globals,
     }),
     plugins: getPluginsForBrowser(),
   },
