@@ -1,8 +1,8 @@
 import React, { forwardRef } from "react";
 import MaterialLink, { LinkProps } from "@material-ui/core/Link";
 import { withTheme } from "@material-ui/core";
-import { IThemeWeb } from "Themes";
-import { getDefaultTheme } from "./shared";
+import { IThemeWeb } from "../Themes";
+import { getDefaultTheme } from "../hooks/useDefaultTheme";
 
 type LinkColor =
   | "default"
