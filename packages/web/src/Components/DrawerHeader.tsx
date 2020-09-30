@@ -1,11 +1,11 @@
 import React, { FunctionComponent, forwardRef } from "react";
 import { withTheme } from "@material-ui/core";
 import styled from "styled-components";
-import { IThemeWeb } from "Themes";
-import { getDefaultTheme } from "./shared";
+import { IThemeWeb } from "../Themes";
 
 import Typography from "./Typography";
 import Avatar from "./Avatar";
+import { getDefaultTheme } from "../hooks/useDefaultTheme";
 
 export interface IDrawerHeaderProps {
   children?: React.ReactNode;

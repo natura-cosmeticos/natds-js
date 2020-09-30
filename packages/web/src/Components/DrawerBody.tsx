@@ -1,8 +1,8 @@
 import React, { FunctionComponent, forwardRef, useState } from "react";
 import { withTheme } from "@material-ui/core";
 import styled from "styled-components";
-import { IThemeWeb } from "Themes";
-import { getDefaultTheme } from "./shared";
+import { IThemeWeb } from "../Themes";
+import { getDefaultTheme } from "../hooks/useDefaultTheme";
 
 export interface IDrawerBodyProps {
   children?: React.ReactNode;

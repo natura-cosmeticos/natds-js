@@ -4,9 +4,8 @@
 import React, { FunctionComponent, forwardRef } from "react";
 import { makeStyles, withTheme } from "@material-ui/core";
 import styled from "styled-components";
-import { IThemeWeb } from "Themes";
-import { iconNames } from "@naturacosmeticos/natds-icons";
-import { getDefaultTheme } from "./shared";
+import iconNames from "@naturacosmeticos/natds-icons/dist/natds-icons.json";
+import { IThemeWeb } from "../Themes";
 
 import ContextualBadge from "./ContextualBadge";
 import Collapse from "./Collapse";
@@ -17,6 +16,7 @@ import ListSubheader from "./ListSubheader";
 import ListItemIcon from "./ListItemIcon";
 import ListItemText from "./ListItemText";
 import Typography from "./Typography";
+import { getDefaultTheme } from "../hooks/useDefaultTheme";
 
 const ICON_ARROW_DOWN = "outlined-navigation-arrowbottom",
   ICON_ARROW_UP = "outlined-navigation-arrowtop";
