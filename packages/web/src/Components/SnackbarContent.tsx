@@ -6,7 +6,7 @@ import { makeStyles, withTheme } from "@material-ui/core/styles";
 import clsx from "clsx";
 
 import { IThemeWeb } from "../Themes";
-import { getDefaultTheme } from "./shared";
+import { getDefaultTheme } from "../hooks/useDefaultTheme";
 
 export type ISnackbarContentColors =
   | "default"
