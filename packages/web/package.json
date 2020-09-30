@@ -15,7 +15,11 @@
     "url": "https://github.com/natura-cosmeticos/natds-js/issues"
   },
   "license": "ISC",
-  "author": "Natura & Co. <designsystem@natura.net>",
+  "author": {
+    "email": "designsystem@natura.net",
+    "name": "Natura & Co.",
+    "url": "https://github.com/natura-cosmeticos"
+  },
   "files": [
     "README.md",
     "dist/"
@@ -74,14 +78,15 @@
     "@babel/preset-flow": "7.10.4",
     "@babel/preset-react": "7.10.4",
     "@babel/preset-typescript": "7.10.4",
+    "@naturacosmeticos/natds-storybook-themes": "0.13.12",
     "@rollup/plugin-babel": "5.2.0",
     "@rollup/plugin-commonjs": "15.0.0",
     "@rollup/plugin-node-resolve": "9.0.0",
     "@rollup/plugin-typescript": "5.0.2",
-    "@storybook/addon-actions": "6.0.21",
-    "@storybook/addon-essentials": "6.0.21",
-    "@storybook/addon-links": "6.0.21",
-    "@storybook/react": "6.0.21",
+    "@storybook/addon-actions": "6.0.22",
+    "@storybook/addon-essentials": "6.0.22",
+    "@storybook/addon-links": "6.0.22",
+    "@storybook/react": "6.0.22",
     "@types/chai": "4.2.12",
     "@types/chai-enzyme": "0.6.7",
     "@types/chai-jest-snapshot": "1.3.6",
