@@ -1,9 +1,7 @@
 #!/usr/bin/env node
-// eslint-disable-next-line @typescript-eslint/no-var-requires
+/* eslint-disable @typescript-eslint/no-var-requires */
 const fs = require("fs");
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const SVGO = require("svgo");
-// eslint-disable-next-line @typescript-eslint/no-var-requires
 const glob = require("glob");
 
 const INPUT = "./src/assets/raw/**/*.svg";
