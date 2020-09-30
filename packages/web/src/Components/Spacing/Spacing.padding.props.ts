@@ -1,102 +1,102 @@
-import { SizeProp } from "../shared/SizeProp";
+import { SizePropValue } from "../../hooks/useSizeStyleProp";
 
 export type SpacingPaddingProps = {
 
   /**
    * Alias for `padding` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  p?: SizeProp,
+  p?: SizePropValue,
 
   /**
    * Defines padding
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  padding?: SizeProp,
+  padding?: SizePropValue,
 
   /**
    * Defines bottom padding
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  paddingBottom?: SizeProp,
+  paddingBottom?: SizePropValue,
 
   /**
    * Defines left padding
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  paddingLeft?: SizeProp,
+  paddingLeft?: SizePropValue,
 
   /**
    * Defines right padding
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  paddingRight?: SizeProp,
+  paddingRight?: SizePropValue,
 
   /**
    * Defines top padding
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  paddingTop?: SizeProp,
+  paddingTop?: SizePropValue,
 
   /**
    * Defines left and right paddings
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  paddingX?: SizeProp,
+  paddingX?: SizePropValue,
 
   /**
    * Defines bottom and top paddings
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  paddingY?: SizeProp,
+  paddingY?: SizePropValue,
 
   /**
    * Alias for `padding-bottom` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  pb?: SizeProp,
+  pb?: SizePropValue,
 
   /**
    * Alias for `padding-left` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  pl?: SizeProp,
+  pl?: SizePropValue,
 
   /**
    * Alias for `padding-right` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  pr?: SizeProp,
+  pr?: SizePropValue,
 
   /**
    * Alias for `padding-top` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  pt?: SizeProp,
+  pt?: SizePropValue,
 
   /**
    * Alias for `paddingX` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  px?: SizeProp,
+  px?: SizePropValue,
 
   /**
    * Alias for `paddingY` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  py?: SizeProp,
+  py?: SizePropValue,
 }

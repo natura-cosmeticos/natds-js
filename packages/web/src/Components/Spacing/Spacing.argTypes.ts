@@ -1,10 +1,10 @@
+import { ArgType } from "@storybook/addons";
 import { ISpacingProps } from "./Spacing.props";
-import { SizeArgType } from "../shared/SizeArgType";
-import { spacingPropArgType } from "../shared";
+import spacingPropArgType from "../../../.storybook/argTypes/spacingPropArgType";
 
 type ArgTypesKey = keyof ISpacingProps | string;
 
-export const spacingArgTypes : Record<ArgTypesKey, SizeArgType> = {
+export const spacingArgTypes : Record<ArgTypesKey, ArgType> = {
   margin: spacingPropArgType,
   padding: spacingPropArgType,
   marginBottom: spacingPropArgType,
@@ -21,7 +21,7 @@ export const spacingArgTypes : Record<ArgTypesKey, SizeArgType> = {
   paddingY: spacingPropArgType,
 };
 
-export const spacingAliasArgTypes : Record<ArgTypesKey, SizeArgType> = {
+export const spacingAliasArgTypes : Record<ArgTypesKey, ArgType> = {
   // eslint-disable-next-line id-length
   m: spacingPropArgType,
   mb: spacingPropArgType,
@@ -40,9 +40,7 @@ export const spacingAliasArgTypes : Record<ArgTypesKey, SizeArgType> = {
   py: spacingPropArgType,
 };
 
-type ArgTypesValue = SizeArgType | Record<string, unknown>;
-
-export const argTypes : Record<ArgTypesKey, ArgTypesValue> = {
+export const argTypes : Record<ArgTypesKey, ArgType> = {
   ...spacingArgTypes,
   children: {},
   component: {},

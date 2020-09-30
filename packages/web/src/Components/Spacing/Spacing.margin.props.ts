@@ -1,102 +1,102 @@
-import { SizeProp } from "../shared/SizeProp";
+import { SizePropValue } from "../../hooks/useSizeStyleProp";
 
 export type SpacingMarginProps = {
 
   /**
    * Alias for `margin` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  m?: SizeProp,
+  m?: SizePropValue,
 
   /**
    * Defines margin
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  margin?: SizeProp,
+  margin?: SizePropValue,
 
   /**
    * Defines bottom margin
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  marginBottom?: SizeProp,
+  marginBottom?: SizePropValue,
 
   /**
    * Defines left margin
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  marginLeft?: SizeProp,
+  marginLeft?: SizePropValue,
 
   /**
    * Defines right margin
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  marginRight?: SizeProp,
+  marginRight?: SizePropValue,
 
   /**
    * Defines top margin
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  marginTop?: SizeProp,
+  marginTop?: SizePropValue,
 
   /**
    * Defines left and right margins
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  marginX?: SizeProp,
+  marginX?: SizePropValue,
 
   /**
    * Defines bottom and top margins
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  marginY?: SizeProp,
+  marginY?: SizePropValue,
 
   /**
    * Alias for `margin-bottom` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  mb?: SizeProp,
+  mb?: SizePropValue,
 
   /**
    * Alias for `margin-left` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  ml?: SizeProp,
+  ml?: SizePropValue,
 
   /**
    * Alias for `margin-right` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  mr?: SizeProp,
+  mr?: SizePropValue,
 
   /**
    * Alias for `margin-top` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  mt?: SizeProp,
+  mt?: SizePropValue,
 
   /**
    * Alias for `marginX` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  mx?: SizeProp,
+  mx?: SizePropValue,
 
   /**
    * Alias for `marginY` property
    *
-   * @type SizeProp
+   * @type SizePropValue
    */
-  my?: SizeProp,
+  my?: SizePropValue,
 };

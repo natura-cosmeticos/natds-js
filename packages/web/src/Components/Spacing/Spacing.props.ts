@@ -4,7 +4,7 @@ import { SpacingPaddingProps } from "./Spacing.padding.props";
 
 export type SpacingMarginCssPropKey = "marginBottom" | "marginLeft" | "marginRight" | "marginTop";
 export type SpacingPaddingCssPropKey = "paddingBottom" | "paddingLeft" | "paddingRight" | "paddingTop";
-export type SpacingCssPropKey = SpacingMarginCssPropKey | SpacingPaddingCssPropKey
+export type SpacingStylePropKey = SpacingMarginCssPropKey | SpacingPaddingCssPropKey
 export type SpacingMarginAndPaddingProps = SpacingMarginProps & SpacingPaddingProps;
 
 export interface ISpacingProps extends SpacingMarginAndPaddingProps {
