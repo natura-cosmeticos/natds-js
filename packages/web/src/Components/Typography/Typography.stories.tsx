@@ -3,6 +3,10 @@ import { Story } from "@storybook/react";
 import { argTypes } from "./Typography.argTypes";
 
 import { ITypographyProps, Typography } from "./Typography";
+import { Container } from "../Container";
+import { useTypographyTokens } from "../../hooks/useTypographyTokens";
+import { TypographyVariant } from "./Typography.props";
+import variants from "./__fixtures__/variants";
 
 export default {
   argTypes,
@@ -13,29 +17,26 @@ export default {
 const Template: Story<ITypographyProps> = (args) => <Typography {...args}>{args.children}</Typography>;
 
 export const Playground: Story<ITypographyProps> = Template.bind({});
-Playground.storyName = "Playground";
+Playground.args = {
+  children: "Text",
+};
 
-// eslint-disable-next-line complexity, max-lines-per-function
-export const Variants: Story<ITypographyProps> = (args) => (
-  <React.Fragment>
-    <Typography {...args} variant={"h1"}>h1: {args.children || "Heading 1 text"}</Typography>
-    <Typography {...args} variant={"h2"}>h2: {args.children || "Heading 2 text"}</Typography>
-    <Typography {...args} variant={"h3"}>h3: {args.children || "Heading 3 text"}</Typography>
-    <Typography {...args} variant={"h4"}>h4: {args.children || "Heading 4 text"}</Typography>
-    <Typography {...args} variant={"h5"}>h5: {args.children || "Heading 5 text"}</Typography>
-    <Typography {...args} variant={"h6"}>h6: {args.children || "Heading 6 text"}</Typography>
-    <Typography {...args} variant={"subtitle1"}>subtitle1: {args.children || "Subtitle 1 text"}</Typography>
-    <Typography {...args} variant={"subtitle2"}>subtitle2: {args.children || "Subtitle 2 text"}</Typography>
-    <Typography {...args} variant={"body1"}>body1: {args.children || "Body 1 text"}</Typography>
-    <Typography {...args} variant={"body2"}>body2: {args.children || "Body 2 text"}</Typography>
-    <Typography {...args} variant={"caption"}>caption: {args.children || "Caption text"}</Typography>
-    <div>
-      <Typography {...args} variant={"button"}>button: {args.children || "Button text"}</Typography>
-    </div>
-    <Typography {...args} variant={"overline"}>overline: {args.children || "Overline text"}</Typography>
-  </React.Fragment>
-);
-// @todo rewrite Variants story to remove complexity
+export const Variants: Story<ITypographyProps> = (args) => {
+
+  const typographyTokens = useTypographyTokens();
+
+  return (
+    <Container>
+      {
+        variants.map((variant: TypographyVariant) => (
+          <Typography {...args} display={"block"} key={variant} variant={variant}>
+            {variant} {typographyTokens[variant]?.fontSize}
+          </Typography>
+        ))
+      }
+    </Container>
+  );
+};
 Variants.storyName = "Variants";
 
 export const Alignments: Story<ITypographyProps> = (args) => (
@@ -52,7 +53,7 @@ Heading1.args = {
   children: "Typography example",
   variant: "h1",
 };
-Heading1.storyName = "Examples/Heading 1 (h1) example";
+Heading1.storyName = "Heading 1 (h1) example";
 
 export const Heading2: Story<ITypographyProps> = Template.bind({});
 Heading2.args = {

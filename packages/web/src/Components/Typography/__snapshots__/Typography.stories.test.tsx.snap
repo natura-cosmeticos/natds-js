@@ -32,86 +32,111 @@ exports[`Typography stories with interactive arguments renders correctly 1`] = `
 `;
 
 exports[`Typography stories with variants renders correctly 1`] = `
-Array [
+<div
+  className="MuiContainer-root MuiContainer-maxWidthLg"
+>
   <h1
-    className="MuiTypography-root MuiTypography-h1"
+    className="MuiTypography-root MuiTypography-h1 MuiTypography-displayBlock"
   >
-    h1: 
-    Variants story
-  </h1>,
+    h1
+     
+    6rem
+  </h1>
   <h2
-    className="MuiTypography-root MuiTypography-h2"
+    className="MuiTypography-root MuiTypography-h2 MuiTypography-displayBlock"
   >
-    h2: 
-    Variants story
-  </h2>,
+    h2
+     
+    3.75rem
+  </h2>
   <h3
-    className="MuiTypography-root MuiTypography-h3"
+    className="MuiTypography-root MuiTypography-h3 MuiTypography-displayBlock"
   >
-    h3: 
-    Variants story
-  </h3>,
+    h3
+     
+    3rem
+  </h3>
   <h4
-    className="MuiTypography-root MuiTypography-h4"
+    className="MuiTypography-root MuiTypography-h4 MuiTypography-displayBlock"
   >
-    h4: 
-    Variants story
-  </h4>,
+    h4
+     
+    2.125rem
+  </h4>
   <h5
-    className="MuiTypography-root MuiTypography-h5"
+    className="MuiTypography-root MuiTypography-h5 MuiTypography-displayBlock"
   >
-    h5: 
-    Variants story
-  </h5>,
+    h5
+     
+    1.5rem
+  </h5>
   <h6
-    className="MuiTypography-root MuiTypography-h6"
+    className="MuiTypography-root MuiTypography-h6 MuiTypography-displayBlock"
   >
-    h6: 
-    Variants story
-  </h6>,
+    h6
+     
+    1.25rem
+  </h6>
   <h6
-    className="MuiTypography-root MuiTypography-subtitle1"
+    className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-displayBlock"
   >
-    subtitle1: 
-    Variants story
-  </h6>,
+    subtitle1
+     
+    1rem
+  </h6>
   <h6
-    className="MuiTypography-root MuiTypography-subtitle2"
+    className="MuiTypography-root MuiTypography-subtitle2 MuiTypography-displayBlock"
   >
-    subtitle2: 
-    Variants story
-  </h6>,
+    subtitle2
+     
+    0.875rem
+  </h6>
   <p
-    className="MuiTypography-root MuiTypography-body1"
+    className="MuiTypography-root MuiTypography-body1 MuiTypography-displayBlock"
   >
-    body1: 
-    Variants story
-  </p>,
+    body1
+     
+    1rem
+  </p>
   <p
-    className="MuiTypography-root MuiTypography-body2"
+    className="MuiTypography-root MuiTypography-body2 MuiTypography-displayBlock"
   >
-    body2: 
-    Variants story
-  </p>,
+    body2
+     
+    0.875rem
+  </p>
   <span
-    className="MuiTypography-root MuiTypography-caption"
+    className="MuiTypography-root MuiTypography-button MuiTypography-displayBlock"
   >
-    caption: 
-    Variants story
-  </span>,
-  <div>
-    <span
-      className="MuiTypography-root MuiTypography-button"
-    >
-      button: 
-      Variants story
-    </span>
-  </div>,
+    button
+     
+    0.875rem
+  </span>
   <span
-    className="MuiTypography-root MuiTypography-overline"
+    className="MuiTypography-root MuiTypography-caption MuiTypography-displayBlock"
   >
-    overline: 
-    Variants story
-  </span>,
-]
+    caption
+     
+    0.75rem
+  </span>
+  <span
+    className="MuiTypography-root MuiTypography-overline MuiTypography-displayBlock"
+  >
+    overline
+     
+    0.75rem
+  </span>
+  <span
+    className="MuiTypography-root MuiTypography-displayBlock"
+  >
+    inherit
+     
+  </span>
+  <span
+    className="MuiTypography-root MuiTypography-srOnly MuiTypography-displayBlock"
+  >
+    srOnly
+     
+  </span>
+</div>
 `;

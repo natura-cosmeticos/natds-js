@@ -1,33 +1,50 @@
+import { ArgType } from "@storybook/addons";
 import { ITypographyProps } from "./Typography.props";
+import { aligns } from "./__fixtures__/aligns";
+import { displays } from "./__fixtures__/displays";
+import { colors } from "./__fixtures__/colors";
+import { variants } from "./__fixtures__/variants";
 
-export const argTypes : Record<keyof ITypographyProps | string, unknown> = {
+const defaultFalseTable = {
+  defaultValue: {
+    summary: false,
+  },
+};
+
+export const argTypes : Record<keyof ITypographyProps | string, ArgType> = {
   align: {
-    defaultValue: "inherit",
+    control: {
+      options: aligns,
+      type: "select",
+    },
+    table: {
+      defaultValue: {
+        summary: "\"inherit\"",
+      },
+    },
   },
   children: {
     control: {
       type: "text",
     },
-    defaultValue: "Text",
     name: "children",
-    type: {
-      required: true,
-    },
   },
   classes: {
     control: {
       type: "text",
     },
-    defaultValue: "",
     name: "classes",
-    type: {
-      required: false,
-    },
   },
   color: {
+    control: {
+      options: colors,
+      type: "select",
+    },
     name: "color",
-    type: {
-      required: false,
+    table: {
+      defaultValue: {
+        summary: "initial",
+      },
     },
   },
   component: {
@@ -35,35 +52,51 @@ export const argTypes : Record<keyof ITypographyProps | string, unknown> = {
       type: "text",
     },
   },
+  display: {
+    control: {
+      options: displays,
+      type: "inline-radio",
+    },
+    description: "Controls the display type",
+    table: {
+      defaultValue: {
+        summary: "\"initial\"",
+      },
+    },
+  },
   gutterBottom: {
     control: {
       type: "boolean",
     },
-    defaultValue: false,
     description: "If `true`, the text will have a bottom margin.",
     name: "gutterBottom",
+    table: defaultFalseTable,
   },
   noWrap: {
     control: {
       type: "boolean",
     },
-    defaultValue: false,
     name: "noWrap",
+    table: defaultFalseTable,
   },
   paragraph: {
     control: {
       type: "boolean",
     },
-    defaultValue: false,
+    table: defaultFalseTable,
   },
   variant: {
-    defaultValue: "body1",
-  },
-  variantMapping: {
     control: {
-      type: "object",
+      options: variants,
+      type: "select",
+    },
+    table: {
+      defaultValue: {
+        summary: "body1",
+      },
     },
   },
+  variantMapping: {},
 };
 
 export default argTypes;
