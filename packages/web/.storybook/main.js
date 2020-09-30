@@ -1,19 +1,21 @@
-const developerStories = [
-  "../docs/readme.stories.mdx",
+const componentStories = [
+  "../src/Components/**/*.stories.tsx",
+];
+
+const welcomeStories = [
+  "../docs/getting-started.stories.mdx",
+  "../docs/api-pattern-guidelines.stories.mdx",
+  "../docs/changelog.stories.mdx",
+  "../docs/contributing.pt-br.stories.mdx",
   "../docs/troubleshooting.stories.mdx",
-  "../docs/using-cdn.stories.mdx",
 ];
 
 const exampleStories = [
   "../docs/examples/sign-in.stories.tsx",
 ];
 
-const contributorStories = [
-  "../docs/contributing.pt-br.stories.mdx", "../docs/component-folder.stories.mdx",
-];
-
 const utilitiesStories = [
-  "../src/Components/Container/Container.stories.mdx",
+  "../src/Components/Container/Container.stories.tsx",
   "../src/Components/CssBaseline/CssBaseline.stories.mdx",
   "../src/Components/GridContainer/GridContainer.stories.tsx",
   "../src/Components/GridItem/GridItem.stories.tsx",
@@ -47,22 +49,10 @@ module.exports = {
   ],
 
   stories: [
-    ...exampleStories,
-    "../src/Components/AppBar/AppBar.stories.tsx",
-    "../src/Components/Avatar/Avatar.stories.tsx",
-    "../src/Components/Badge/Badge.stories.tsx",
-    "../src/Components/Button/Button.stories.tsx",
-    "../src/Components/Fab/Fab.stories.tsx",
-    "../src/Components/Icon/Icon.stories.tsx",
-    "../src/Components/IconButton/IconButton.stories.tsx",
-    "../src/Components/Image/Image.stories.tsx",
-    "../src/Components/Paper/Paper.stories.tsx",
-    "../src/Components/Skeleton/Skeleton.stories.tsx",
-    "../src/Components/Toolbar/Toolbar.stories.tsx",
-    "../src/Components/Typography/Typography.stories.tsx",
+    ...welcomeStories,
+    ...componentStories,
     ...utilitiesStories,
-    ...developerStories,
-    ...contributorStories,
+    ...exampleStories,
   ],
   typescript: {
     check: true,
