@@ -64,6 +64,10 @@ export const styles = (theme: IThemeWeb) => {
   const root : FabStyles = getStylesForRoot(theme);
 
   if (theme.shadows) {
+
+    /**
+     * @todo Adopt `natds-themes` elevation token
+     */
     // eslint-disable-next-line prefer-destructuring
     root.boxShadow = theme.shadows[4];
   }
