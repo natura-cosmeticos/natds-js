@@ -9,7 +9,7 @@
     "@naturacosmeticos/natds-themes": "0.4.1"
   },
   "scripts": {
-    "build": "mdx-deck build",
-    "start": "mdx-deck"
+    "build-mdx-deck": "mdx-deck build",
+    "mdx-deck": "mdx-deck"
   }
 }
