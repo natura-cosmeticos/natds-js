@@ -3,6 +3,40 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.21.0 (2020-09-30)
+
+
+### Bug Fixes
+
+* **spacing:** add support to alias properties ([3b3510f](https://github.com/natura-cosmeticos/natds/commit/3b3510fcafde04a22daaab9667c66ca8c0a972d8))
+* **web:** prevent TypeScript errors on chai config ([7706ae9](https://github.com/natura-cosmeticos/natds/commit/7706ae9185c44ea4b226fa4f6b03d4c6c6a54841))
+* **web:** prevent TypeScript errors when importing IThemeWeb or iconNames ([f1a4626](https://github.com/natura-cosmeticos/natds/commit/f1a462677b7758942d6fa2813e6e29f19d8dbbcb)), closes [#343](https://github.com/natura-cosmeticos/natds/issues/343) [#617](https://github.com/natura-cosmeticos/natds/issues/617)
+
+
+### Features
+
+* **examples/mdx-deck:** add `mdx-deck` example ([5f0861d](https://github.com/natura-cosmeticos/natds/commit/5f0861d1199626b1dc7a22771c558b890ed90f81))
+* **icons:** added TypeScript definition for icons JSON ([2e8f50d](https://github.com/natura-cosmeticos/natds/commit/2e8f50d0f34c2ee657cab09b9f2eb64c4cf45c17))
+* **storybook:** add common size & spacing argTypes ([13683aa](https://github.com/natura-cosmeticos/natds/commit/13683aac43848157bf062dbb4714456c9cbeaf39))
+* **storybook:** add example story for Sign In UI ([5e4f96e](https://github.com/natura-cosmeticos/natds/commit/5e4f96e87a9735daeec863f406904123ebe1797e))
+* **web:** add useDefaultTheme hook ([a567537](https://github.com/natura-cosmeticos/natds/commit/a567537aa44d6085261200544adbcd03bd5f3751))
+* **web:** add useSizeStyleProp hook ([f59ddbc](https://github.com/natura-cosmeticos/natds/commit/f59ddbcd1f48f21f7a9ca97e454e0d3ff580adc4))
+* **web:** add useSizeTokens hook ([4f767f6](https://github.com/natura-cosmeticos/natds/commit/4f767f6817e8bfeb819dcbf5b70d12b578a6862d))
+* **web:** add useSizeTokenValue hook ([08421e2](https://github.com/natura-cosmeticos/natds/commit/08421e29fb5cdfd949a1a4b29fe697aa344f195b))
+* **web:** add useSpacingFromStyle hook ([ae52cdd](https://github.com/natura-cosmeticos/natds/commit/ae52cddcbe9bf3573814bcf6de089ce67a70edd8))
+* **web:** add useSpacingPropNames hook ([634f05a](https://github.com/natura-cosmeticos/natds/commit/634f05ad491a983915e810c8b044933a12b914bf))
+* **web:** add useTypographyTokens hook ([81e4074](https://github.com/natura-cosmeticos/natds/commit/81e407429cf081a0c831aa2174426bfa4f1f39cf))
+* **web:** add useTypographyTokenValue hook ([69ae938](https://github.com/natura-cosmeticos/natds/commit/69ae938f60a558ede1b5ff31db69bd85f128cf16))
+
+
+### Performance Improvements
+
+* improve eslint linting performance ([7de0c28](https://github.com/natura-cosmeticos/natds/commit/7de0c28f96316d019b6cd85ca35053979e978aef))
+
+
+
+
+
 ## [0.20.1](https://github.com/natura-cosmeticos/natds/compare/v0.20.0...v0.20.1) (2020-09-23)
 
 **Note:** Version bump only for package natds

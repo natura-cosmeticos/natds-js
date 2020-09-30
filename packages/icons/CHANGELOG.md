@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# 0.21.0 (2020-09-30)
+
+
+### Features
+
+* **examples/mdx-deck:** add `mdx-deck` example ([5f0861d](https://github.com/natura-cosmeticos/natds/commit/5f0861d1199626b1dc7a22771c558b890ed90f81))
+* **icons:** added TypeScript definition for icons JSON ([2e8f50d](https://github.com/natura-cosmeticos/natds/commit/2e8f50d0f34c2ee657cab09b9f2eb64c4cf45c17))
+
+
+
+
+
 ## [0.20.1](https://github.com/natura-cosmeticos/natds/compare/v0.20.0...v0.20.1) (2020-09-23)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-icons
