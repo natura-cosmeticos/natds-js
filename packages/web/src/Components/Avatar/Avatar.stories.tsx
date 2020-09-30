@@ -8,7 +8,7 @@ import sizes from "./__fixtures__/sizes";
 
 import { IAvatarProps } from "./Avatar.props";
 
-const natNaturaImage = "https://pbs.twimg.com/profile_images/1285932878795333632/Wl95KE_m_400x400.jpg";
+const natNaturaImage = "https://pbs.twimg.com/profile_images/1308179129267781632/wLDnEiOy_400x400.jpg";
 const Avatar : React.ForwardRefExoticComponent<IAvatarProps> = React.lazy(() => import("./Avatar"));
 
 Avatar.displayName = "Avatar";
