@@ -20,6 +20,7 @@ module.exports = {
     "!src/**/Template.tsx",
     "!src/**/*.stories.meta.ts",
     "!src/**/jest.config.js",
+    "!src/hooks/**/*.ts",
   ],
   displayName,
   globalSetup: "./global-setup.js",
