@@ -3167,15 +3167,15 @@
     "@naturacosmeticos/natds-themes" "^0.4.1"
     "@storybook/theming" "6.0.21"
 
-"@naturacosmeticos/natds-themes@0.4.0":
-  version "0.4.0"
-  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.4.0.tgz#894af3e0d482c93638d4c550857afda360237403"
-  integrity sha512-OcE3PkFhSZhwUEPUAUk/POXDAnMwn8/ixOzIs2ZECS+NSeeD23laeRhZvOlqhAJgj2Hl/lubnj0Q11+KC2/w9w==
-
 "@naturacosmeticos/natds-themes@0.4.1", "@naturacosmeticos/natds-themes@^0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.4.1.tgz#900ff504bbd137935c6e78fca67805b3ffc5e53b"
   integrity sha512-8KDmNHTZhyZDwZvVRWhK/HpxLiog6UWNqMCHpLTIgrhWovDZv8WLazmE88MsiNdxhR675qELjfNLaYBoU+ACFg==
+
+"@naturacosmeticos/natds-themes@0.4.3":
+  version "0.4.3"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.4.3.tgz#9f53d2a33fe47cf10379514335b4749cdd4196cd"
+  integrity sha512-v3U8ClOnycmsCQz9qboMFkTFbt9p3w/KM6GQtdxUUecFPDvZgYGN/QM0Cr2ypQ1pXI/Oin4eQLoqCTD/lhEyog==
 
 "@netlify/open-api@^0.16.0":
   version "0.16.0"
@@ -3536,10 +3536,10 @@
   dependencies:
     tslib "^2.0.0"
 
-"@rollup/plugin-babel@5.2.0":
-  version "5.2.0"
-  resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.2.0.tgz#b87556d61ed108b4eaf9d18b5323965adf8d9bee"
-  integrity sha512-CPABsajaKjINgBQ3it+yMnfVO3ibsrMBxRzbUOUw2cL1hsZJ7aogU8mgglQm3S2hHJgjnAmxPz0Rq7DVdmHsTw==
+"@rollup/plugin-babel@5.2.1":
+  version "5.2.1"
+  resolved "https://registry.yarnpkg.com/@rollup/plugin-babel/-/plugin-babel-5.2.1.tgz#20fc8f8864dc0eaa1c5578408459606808f72924"
+  integrity sha512-Jd7oqFR2dzZJ3NWANDyBjwTtX/lYbZpVcmkHrfQcpvawHs9E4c0nYk5U2mfZ6I/DZcIvy506KZJi54XK/jxH7A==
   dependencies:
     "@babel/helper-module-imports" "^7.10.4"
     "@rollup/pluginutils" "^3.1.0"
@@ -16043,7 +16043,7 @@ jest-styled-components@7.0.3:
   dependencies:
     css "^2.2.4"
 
-jest-util@26.x, jest-util@^26.3.0:
+jest-util@26.x, jest-util@^26.1.0, jest-util@^26.3.0:
   version "26.3.0"
   resolved "https://registry.yarnpkg.com/jest-util/-/jest-util-26.3.0.tgz#a8974b191df30e2bf523ebbfdbaeb8efca535b3e"
   integrity sha512-4zpn6bwV0+AMFN0IYhH/wnzIQzRaYVrz1A8sYnRnj4UXDXbOVtWmlaZkO9mipFqZ13okIfN87aDoJWB7VH6hcw==
@@ -20994,15 +20994,10 @@ react-docgen-typescript-plugin@^0.5.2:
     react-docgen-typescript-loader "^3.7.2"
     tslib "^2.0.0"
 
-react-docgen-typescript@1.20.3:
-  version "1.20.3"
-  resolved "https://registry.yarnpkg.com/react-docgen-typescript/-/react-docgen-typescript-1.20.3.tgz#d121bcb3ed8ab0a2c75f37fb3f90413cb4dbd429"
-  integrity sha512-ISdbO2O5BbD62trroxGmcQXlkFzARRL8ylK0tdnzllGuxcMu3IbnPOFOY/dOfRl8K4LVG9U8yulEVwpyGxGNYA==
-
-react-docgen-typescript@^1.15.0, react-docgen-typescript@^1.20.1:
-  version "1.20.4"
-  resolved "https://registry.yarnpkg.com/react-docgen-typescript/-/react-docgen-typescript-1.20.4.tgz#9a5655986077ccfc58c1a447f92c3d19f7a875bf"
-  integrity sha512-gE2SeseJd6+o981qr9VQJRbvFJ5LjLSKQiwhHsuLN4flt+lheKtG1jp2BPzrv2MKR5gmbLwpmNtK4wbLCPSZAw==
+react-docgen-typescript@1.20.5, react-docgen-typescript@^1.15.0, react-docgen-typescript@^1.20.1:
+  version "1.20.5"
+  resolved "https://registry.yarnpkg.com/react-docgen-typescript/-/react-docgen-typescript-1.20.5.tgz#fb8d78a707243498436c2952bd3f6f488a68d4f3"
+  integrity sha512-AbLGMtn76bn7SYBJSSaKJrZ0lgNRRR3qL60PucM5M4v/AXyC8221cKBXW5Pyt9TfDRfe+LDnPNlg7TibxX0ovA==
 
 react-docgen@5.3.0, react-docgen@^5.0.0:
   version "5.3.0"
@@ -22512,10 +22507,10 @@ sass-loader@8.0.2:
     schema-utils "^2.6.1"
     semver "^6.3.0"
 
-sass@1.26.10:
-  version "1.26.10"
-  resolved "https://registry.yarnpkg.com/sass/-/sass-1.26.10.tgz#851d126021cdc93decbf201d1eca2a20ee434760"
-  integrity sha512-bzN0uvmzfsTvjz0qwccN1sPm2HxxpNI/Xa+7PlUEMS+nQvbyuEK7Y0qFqxlPHhiNHb1Ze8WQJtU31olMObkAMw==
+sass@1.26.11:
+  version "1.26.11"
+  resolved "https://registry.yarnpkg.com/sass/-/sass-1.26.11.tgz#0f22cc4ab2ba27dad1d4ca30837beb350b709847"
+  integrity sha512-W1l/+vjGjIamsJ6OnTe0K37U2DBO/dgsv2Z4c89XQ8ZOO6l/VwkqwLSqoYzJeJs6CLuGSTRWc91GbQFL3lvrvw==
   dependencies:
     chokidar ">=2.0.0 <4.0.0"
 
@@ -24902,6 +24897,23 @@ ts-jest@26.3.0:
     semver "7.x"
     yargs-parser "18.x"
 
+ts-jest@26.4.1:
+  version "26.4.1"
+  resolved "https://registry.yarnpkg.com/ts-jest/-/ts-jest-26.4.1.tgz#08ec0d3fc2c3a39e4a46eae5610b69fafa6babd0"
+  integrity sha512-F4aFq01aS6mnAAa0DljNmKr/Kk9y4HVZ1m6/rtJ0ED56cuxINGq3Q9eVAh+z5vcYKe5qnTMvv90vE8vUMFxomg==
+  dependencies:
+    "@types/jest" "26.x"
+    bs-logger "0.x"
+    buffer-from "1.x"
+    fast-json-stable-stringify "2.x"
+    jest-util "^26.1.0"
+    json5 "2.x"
+    lodash.memoize "4.x"
+    make-error "1.x"
+    mkdirp "1.x"
+    semver "7.x"
+    yargs-parser "20.x"
+
 ts-loader@8.0.3:
   version "8.0.3"
   resolved "https://registry.yarnpkg.com/ts-loader/-/ts-loader-8.0.3.tgz#56858f4296edf1ed55e01f8520552984d3f0911c"
@@ -26715,6 +26727,11 @@ yargs-parser@18.x, yargs-parser@^18.1.2, yargs-parser@^18.1.3:
   dependencies:
     camelcase "^5.0.0"
     decamelize "^1.2.0"
+
+yargs-parser@20.x:
+  version "20.2.1"
+  resolved "https://registry.yarnpkg.com/yargs-parser/-/yargs-parser-20.2.1.tgz#28f3773c546cdd8a69ddae68116b48a5da328e77"
+  integrity sha512-yYsjuSkjbLMBp16eaOt7/siKTjNVjMm3SoJnIg3sEh/JsvqVVDyjRKmaJV4cl+lNIgq6QEco2i3gDebJl7/vLA==
 
 yargs-parser@^10.0.0:
   version "10.1.0"
