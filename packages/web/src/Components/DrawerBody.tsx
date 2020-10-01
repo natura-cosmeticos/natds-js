@@ -1,28 +1,26 @@
-import React, { FunctionComponent, forwardRef, useState } from "react";
-import { withTheme } from "@material-ui/core";
+import React, { useState } from "react";
 import styled from "styled-components";
 import { IThemeWeb } from "../Themes";
-import { getDefaultTheme } from "../hooks/useDefaultTheme";
+import useDefaultTheme from "../hooks/useDefaultTheme";
 
 export interface IDrawerBodyProps {
   children?: React.ReactNode;
   component?: React.ElementType;
-  theme: IThemeWeb | unknown;
 }
 
-export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
+export const DrawerBody = React.forwardRef<HTMLElement, IDrawerBodyProps>((
   props: IDrawerBodyProps,
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   ref: any,
 ) => {
   const {
-    children, component, theme: providerTheme, ...rest
+    children, component, ...otherProps
   } = props;
   const [
     scrolled, setScrolled,
   ] = useState(false);
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const theme: any = React.useMemo(() => getDefaultTheme(providerTheme), [providerTheme]);
+  const theme: any = useDefaultTheme();
   const SCROLL_POSITION_ZERO = 0;
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -34,7 +32,7 @@ export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
       as={component}
       theme={theme}
       ref={ref}
-      {...rest}>
+      {...otherProps}>
       <DrawerBodyScrollComponent
         onScroll={handleScrolled}
         theme={theme}>
@@ -46,7 +44,7 @@ export const DrawerBody: FunctionComponent<IDrawerBodyProps> = forwardRef((
 
 DrawerBody.displayName = "DrawerBody";
 
-export default withTheme(DrawerBody);
+export default DrawerBody;
 
 /**
  * @todo refactor(web): replace string by shadow token
