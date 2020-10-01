@@ -1,0 +1,144 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ContextualBadge component rendering it should render according to theme: ContextualBadge Custom Theme 1`] = `
+<span
+  className="sc-bdnylx bTMpJH"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="with-theme"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering it should render each type: ContextualBadge Types 1`] = `
+<span
+  className="sc-bdnylx bTMpJH"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="standard"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering it should render the default color and default type: ContextualBadge Default Color And Type 1`] = `
+<span
+  className="sc-bdnylx bTMpJH"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="default"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 1`] = `
+<span
+  className="sc-bdnylx klkYsZ"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="dark"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 2`] = `
+<span
+  className="sc-bdnylx gegMfQ"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="error"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 3`] = `
+<span
+  className="sc-bdnylx cxVyHh"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="light"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 4`] = `
+<span
+  className="sc-bdnylx cMBgVC"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="info"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 5`] = `
+<span
+  className="sc-bdnylx bTMpJH"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="primary"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 6`] = `
+<span
+  className="sc-bdnylx bOQbfj"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="secondary"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 7`] = `
+<span
+  className="sc-bdnylx fauhhf"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="success"
+>
+  Mock
+</span>
+`;
+
+exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 8`] = `
+<span
+  className="sc-bdnylx flODLv"
+  data-type="standard"
+  fontFamily="\\"Roboto\\", sans-serif"
+  fontSize={12}
+  fontWeight={400}
+  id="warning"
+>
+  Mock
+</span>
+`;
