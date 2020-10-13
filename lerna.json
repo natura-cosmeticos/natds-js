@@ -2,6 +2,9 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
+      "ignoreChanges": [
+        "packages/icons/**"
+      ],
       "message": "chore(release): publish %s via lerna [skip ci]"
     }
   },
