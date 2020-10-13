@@ -3,6 +3,352 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.21.39](https://github.com/natura-cosmeticos/natds/compare/v0.21.38...v0.21.39) (2020-10-13)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.38](https://github.com/natura-cosmeticos/natds/compare/v0.21.37...v0.21.38) (2020-10-07)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.37](https://github.com/natura-cosmeticos/natds/compare/v0.21.36...v0.21.37) (2020-10-06)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.36](https://github.com/natura-cosmeticos/natds/compare/v0.21.35...v0.21.36) (2020-10-06)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.35](https://github.com/natura-cosmeticos/natds/compare/v0.21.34...v0.21.35) (2020-10-06)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.34](https://github.com/natura-cosmeticos/natds/compare/v0.21.33...v0.21.34) (2020-10-06)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.33](https://github.com/natura-cosmeticos/natds/compare/v0.21.32...v0.21.33) (2020-10-06)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.32](https://github.com/natura-cosmeticos/natds/compare/v0.21.31...v0.21.32) (2020-10-06)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.31](https://github.com/natura-cosmeticos/natds/compare/v0.21.30...v0.21.31) (2020-10-06)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.30](https://github.com/natura-cosmeticos/natds/compare/v0.21.29...v0.21.30) (2020-10-06)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.29](https://github.com/natura-cosmeticos/natds/compare/v0.21.28...v0.21.29) (2020-10-05)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.28](https://github.com/natura-cosmeticos/natds/compare/v0.21.27...v0.21.28) (2020-10-05)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.27](https://github.com/natura-cosmeticos/natds/compare/v0.21.26...v0.21.27) (2020-10-05)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.26](https://github.com/natura-cosmeticos/natds/compare/v0.21.25...v0.21.26) (2020-10-05)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.25](https://github.com/natura-cosmeticos/natds/compare/v0.21.24...v0.21.25) (2020-10-03)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.24](https://github.com/natura-cosmeticos/natds/compare/v0.21.23...v0.21.24) (2020-10-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.23](https://github.com/natura-cosmeticos/natds/compare/v0.21.22...v0.21.23) (2020-10-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.22](https://github.com/natura-cosmeticos/natds/compare/v0.21.21...v0.21.22) (2020-10-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.21](https://github.com/natura-cosmeticos/natds/compare/v0.21.20...v0.21.21) (2020-10-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.20](https://github.com/natura-cosmeticos/natds/compare/v0.21.19...v0.21.20) (2020-10-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.19](https://github.com/natura-cosmeticos/natds/compare/v0.21.18...v0.21.19) (2020-10-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.18](https://github.com/natura-cosmeticos/natds/compare/v0.21.17...v0.21.18) (2020-10-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.17](https://github.com/natura-cosmeticos/natds/compare/v0.21.16...v0.21.17) (2020-10-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.16](https://github.com/natura-cosmeticos/natds/compare/v0.21.15...v0.21.16) (2020-10-02)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.15](https://github.com/natura-cosmeticos/natds/compare/v0.21.14...v0.21.15) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.14](https://github.com/natura-cosmeticos/natds/compare/v0.21.13...v0.21.14) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.13](https://github.com/natura-cosmeticos/natds/compare/v0.21.12...v0.21.13) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.12](https://github.com/natura-cosmeticos/natds/compare/v0.21.11...v0.21.12) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.11](https://github.com/natura-cosmeticos/natds/compare/v0.21.10...v0.21.11) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.10](https://github.com/natura-cosmeticos/natds/compare/v0.21.9...v0.21.10) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.9](https://github.com/natura-cosmeticos/natds/compare/v0.21.8...v0.21.9) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.8](https://github.com/natura-cosmeticos/natds/compare/v0.21.7...v0.21.8) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.7](https://github.com/natura-cosmeticos/natds/compare/v0.21.6...v0.21.7) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.6](https://github.com/natura-cosmeticos/natds/compare/v0.21.5...v0.21.6) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.5](https://github.com/natura-cosmeticos/natds/compare/v0.21.4...v0.21.5) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.4](https://github.com/natura-cosmeticos/natds/compare/v0.21.3...v0.21.4) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.3](https://github.com/natura-cosmeticos/natds/compare/v0.21.2...v0.21.3) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.2](https://github.com/natura-cosmeticos/natds/compare/v0.21.1...v0.21.2) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+## [0.21.1](https://github.com/natura-cosmeticos/natds/compare/v0.21.0...v0.21.1) (2020-10-01)
+
+**Note:** Version bump only for package natds
+
+
+
+
+
+# 0.21.0 (2020-09-30)
+
+
+### Bug Fixes
+
+* **spacing:** add support to alias properties ([3b3510f](https://github.com/natura-cosmeticos/natds/commit/3b3510fcafde04a22daaab9667c66ca8c0a972d8))
+* **web:** prevent TypeScript errors on chai config ([7706ae9](https://github.com/natura-cosmeticos/natds/commit/7706ae9185c44ea4b226fa4f6b03d4c6c6a54841))
+* **web:** prevent TypeScript errors when importing IThemeWeb or iconNames ([f1a4626](https://github.com/natura-cosmeticos/natds/commit/f1a462677b7758942d6fa2813e6e29f19d8dbbcb)), closes [#343](https://github.com/natura-cosmeticos/natds/issues/343) [#617](https://github.com/natura-cosmeticos/natds/issues/617)
+
+
+### Features
+
+* **examples/mdx-deck:** add `mdx-deck` example ([5f0861d](https://github.com/natura-cosmeticos/natds/commit/5f0861d1199626b1dc7a22771c558b890ed90f81))
+* **icons:** added TypeScript definition for icons JSON ([2e8f50d](https://github.com/natura-cosmeticos/natds/commit/2e8f50d0f34c2ee657cab09b9f2eb64c4cf45c17))
+* **storybook:** add common size & spacing argTypes ([13683aa](https://github.com/natura-cosmeticos/natds/commit/13683aac43848157bf062dbb4714456c9cbeaf39))
+* **storybook:** add example story for Sign In UI ([5e4f96e](https://github.com/natura-cosmeticos/natds/commit/5e4f96e87a9735daeec863f406904123ebe1797e))
+* **web:** add useDefaultTheme hook ([a567537](https://github.com/natura-cosmeticos/natds/commit/a567537aa44d6085261200544adbcd03bd5f3751))
+* **web:** add useSizeStyleProp hook ([f59ddbc](https://github.com/natura-cosmeticos/natds/commit/f59ddbcd1f48f21f7a9ca97e454e0d3ff580adc4))
+* **web:** add useSizeTokens hook ([4f767f6](https://github.com/natura-cosmeticos/natds/commit/4f767f6817e8bfeb819dcbf5b70d12b578a6862d))
+* **web:** add useSizeTokenValue hook ([08421e2](https://github.com/natura-cosmeticos/natds/commit/08421e29fb5cdfd949a1a4b29fe697aa344f195b))
+* **web:** add useSpacingFromStyle hook ([ae52cdd](https://github.com/natura-cosmeticos/natds/commit/ae52cddcbe9bf3573814bcf6de089ce67a70edd8))
+* **web:** add useSpacingPropNames hook ([634f05a](https://github.com/natura-cosmeticos/natds/commit/634f05ad491a983915e810c8b044933a12b914bf))
+* **web:** add useTypographyTokens hook ([81e4074](https://github.com/natura-cosmeticos/natds/commit/81e407429cf081a0c831aa2174426bfa4f1f39cf))
+* **web:** add useTypographyTokenValue hook ([69ae938](https://github.com/natura-cosmeticos/natds/commit/69ae938f60a558ede1b5ff31db69bd85f128cf16))
+
+
+### Performance Improvements
+
+* improve eslint linting performance ([7de0c28](https://github.com/natura-cosmeticos/natds/commit/7de0c28f96316d019b6cd85ca35053979e978aef))
+
+
+
+
+
 ## [0.20.1](https://github.com/natura-cosmeticos/natds/compare/v0.20.0...v0.20.1) (2020-09-23)
 
 **Note:** Version bump only for package natds

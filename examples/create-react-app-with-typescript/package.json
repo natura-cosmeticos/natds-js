@@ -3,7 +3,7 @@
   "private": true,
   "description": "Example project for Design System UI components for React web with TypeScript",
   "source": "src/index.tsx",
-  "version": "0.20.1",
+  "version": "0.21.40-alpha.DSY-1519.7937.0",
   "author": {
     "name": "Natura & Co. Design System",
     "email": "designsystem@natura.net"
@@ -29,13 +29,13 @@
     "web"
   ],
   "devDependencies": {
-    "@naturacosmeticos/natds-web": "^0.20.1",
-    "@types/react": "16.9.49",
+    "@naturacosmeticos/natds-web": "^0.21.40-alpha.DSY-1519.7937.0",
+    "@types/react": "16.9.51",
     "@types/react-dom": "16.9.8",
     "react": "16.13.1",
     "react-dom": "16.13.1",
     "react-scripts": "3.4.3",
-    "typescript": "4.0.2"
+    "typescript": "4.0.3"
   },
   "browserslist": {
     "production": [
