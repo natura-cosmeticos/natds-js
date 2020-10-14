@@ -8,7 +8,19 @@ para trazer a sugestão e estimular conversas.
 Note que temos um [Código de Conduta](./CODE_OF_CONDUCT.md).
 Por favor, siga as suas regras em todas as interações com as pessoas, documentação, código e discussões do projeto.
 
-## 1. Prepare seu ambiente local de desenvolvimento
+## Como é o processo de criação de um componente para o Design System?
+
+1. Uma pessoa de uma squad puxa um card no nosso board (no card vai ter a especificação do que precisa ser implementado, como as variantes, propriedades, e os critérios de aceitação);
+
+2. A gente cria uma PR no GitHub com o nome do card, e lá a pessoa (ou o grupo de pessoas) da squad pode ir codando e enviando as alterações. Sempre tem uma pipeline rodando pra conferir se tem testes, se não tem problemas de código, etc.;
+
+3. Uma vez pronto, o código passa por validação (code review) e o componente passa por validação visual (usando as histórias que forem criadas no Storybook). A gente vai acompanhando as devas à medida que sugerimos ajustes, até a aprovação;
+
+4. Quando tudo estiver OK, o código é integrado com a branch principal, e é lançada uma nova versão do natds-web com o novo componente.
+
+## Passo-a-passo de contribuição
+
+## Como preparar meu ambiente de desenvolvimento para contribuir?
 
 ### Node.js
 
@@ -21,16 +33,15 @@ Utilizamos o recurso de [Espaços de Trabalho (Workspaces) do Yarn](https://clas
 Por isso, é essencial [instalar o `yarn` globalmente](https://classic.yarnpkg.com/pt-BR/docs/install).
 Recomendamos pelo menos a versão `1.19.1`. Idealmente, prefira versões superiores a `1.22.4`.
 
-## 2. Conheça a estrutura básica do projeto
+## Qual é a estrutura básica do projeto?
 
 Como utilizamos `lerna` para gerenciar o versionamento dos pacotes do _monorepo_.
 Estes são os pacotes atuais do projeto:
 
-* `packages/icons`: Biblioteca de ícones;
 * `packages/styles`: Biblioteca com tema e estilos do Design System para a web;
 * `packages/web`: Biblioteca de componentes para a web.
 
-## 3. Conheça o ABC do fluxo de contribuição
+## Conheça o ABC do fluxo de contribuição
 
 ### Antes de começar
 
