@@ -2,7 +2,6 @@
   "compilerOptions": {
     "allowJs": false,
     "allowSyntheticDefaultImports": true,
-    "alwaysStrict": true,
     "baseUrl": "./src",
     "declaration": true,
     "esModuleInterop": true,
@@ -21,6 +20,7 @@
     "noImplicitAny": true,
     "noImplicitReturns": true,
     "noImplicitThis": true,
+    "noImplicitUseStrict": true,
     "noUnusedLocals": true,
     "outDir": "dist",
     "removeComments": false,
@@ -28,7 +28,6 @@
     "rootDir": "./src",
     "skipLibCheck": false,
     "sourceMap": true,
-    "strict": true,
     "strictBindCallApply": true,
     "strictFunctionTypes": true,
     "strictNullChecks": true,
@@ -38,6 +37,8 @@
     "types": ["jest", "react"]
   },
   "files": [
-    "src/index.ts"
+    "src/index.ts",
+    "declaration.d.ts",
+    "global.d.ts"
   ]
 }
