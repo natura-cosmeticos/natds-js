@@ -6,10 +6,10 @@
     }
   },
   "lerna": "3.16.4",
-  "npmClient": "yarn",
   "packages": [
     "examples/*",
-    "packages/*"
+    "packages/styles",
+    "packages/web"
   ],
   "useWorkspaces": true,
   "version": "0.20.1"
