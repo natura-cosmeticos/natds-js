@@ -8,8 +8,7 @@
   "lerna": "3.16.4",
   "packages": [
     "examples/*",
-    "packages/styles",
-    "packages/web"
+    "packages/*"
   ],
   "useWorkspaces": true,
   "version": "0.20.1"
