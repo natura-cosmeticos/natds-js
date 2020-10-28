@@ -3,7 +3,7 @@ import {
   IAvatarSizes,
   IButtonSizes,
   IElevation,
-  IIconSizes,
+  IIconSizes, IOpacity,
   ISizes,
 } from "..";
 
@@ -18,6 +18,14 @@ type ITypography = {
   fontWeightBold?: number;
 } & typeof fontSize;
 
+/**
+ * Interface with theme options
+ *
+ * This interface is agnostic to the styling library that will be used,
+ * but was inspired by the Material UI theme options structure.
+ *
+ * @see https://material-ui.com/pt/customization/theming/#api
+ */
 export interface ITheme {
   shape?: {
     borderRadius?: number;
@@ -84,6 +92,11 @@ export interface ITheme {
   buttonSizes: IButtonSizes;
   spacing: number;
   shadows: IElevation;
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  overrides: any;
+
+  /**
+   * @since 0.22
+   * @todo Adopt opacity tokens from theme
+   */
+  opacity: IOpacity;
+  overrides: Record<string, unknown>;
 }
