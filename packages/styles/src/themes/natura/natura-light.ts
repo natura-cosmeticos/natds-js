@@ -435,10 +435,6 @@ export const naturaLight: ITheme = {
           color: naturaLightColorTokens.colorAlert,
         },
       },
-      formControl: {
-        transform: "none",
-        marginTop: "-4px",
-      },
     },
     MuiSelect: {
       select: {

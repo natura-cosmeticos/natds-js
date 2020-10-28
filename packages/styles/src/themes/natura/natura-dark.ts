@@ -454,10 +454,6 @@ export const naturaDark: ITheme = {
           color: naturaDarkColorTokens.colorHighEmphasis,
         },
       },
-      formControl: {
-        transform: "none",
-        marginTop: "-4px",
-      },
     },
     MuiFormHelperText: {
       root: {

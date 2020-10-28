@@ -462,9 +462,6 @@ export const theBodyShopDark: ITheme = {
           color: theBodyShopDarkColorTokens.colorHighEmphasis,
         },
       },
-      formControl: {
-        transform: "none",
-      },
     },
     MuiFormHelperText: {
       root: {

@@ -422,10 +422,6 @@ export const avonLight: ITheme = {
           color: avonLightColorTokens.colorAlert,
         },
       },
-      formControl: {
-        transform: "none",
-        marginTop: "-4px",
-      },
     },
     MuiButtonGroup: {
       groupedContainedPrimary: {

@@ -442,10 +442,6 @@ export const theBodyShopLight: ITheme = {
           color: theBodyShopLightColorTokens.colorAlert,
         },
       },
-      formControl: {
-        transform: "none",
-        marginTop: "-4px",
-      },
     },
     MuiSelect: {
       select: {

@@ -445,10 +445,6 @@ export const avonDark: ITheme = {
           color: avonDarkColorTokens.colorHighEmphasis,
         },
       },
-      formControl: {
-        transform: "none",
-        marginTop: "-4px",
-      },
     },
     MuiFormHelperText: {
       root: {
