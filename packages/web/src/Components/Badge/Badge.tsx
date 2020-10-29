@@ -11,10 +11,8 @@ import { IBadgeProps } from "./Badge.props";
  * import { Badge } from '@naturacosmeticos/natds-web';
  * ```
  */
-export const Badge = React.forwardRef<unknown, IBadgeProps>((
-  props: IBadgeProps,
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  ref: any,
+export const Badge = React.forwardRef<HTMLDivElement, IBadgeProps>((
+  props: IBadgeProps, ref,
 ) => <MaterialBadge {...props} ref={ref} />);
 
 Badge.displayName = "Badge";

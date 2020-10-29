@@ -1,0 +1,281 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Badge Bottom Left Anchor 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-149 BadgeDemo-shapeCircle-150"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginBottomLeftCircle MuiBadge-colorPrimary"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Bottom Right Anchor 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-152 BadgeDemo-shapeCircle-153"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginBottomRightCircle MuiBadge-colorPrimary"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Circle Overlap 1`] = `
+<div
+  className="BadgeDemo-root-156"
+>
+  <span
+    className="MuiBadge-root"
+  >
+    <div
+      className="BadgeDemo-shape-157"
+    />
+    <span
+      className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorPrimary"
+    >
+      99+
+    </span>
+  </span>
+  <span
+    className="MuiBadge-root"
+  >
+    <div
+      className="BadgeDemo-shape-157 BadgeDemo-shapeCircle-158"
+    />
+    <span
+      className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorPrimary"
+    >
+      99+
+    </span>
+  </span>
+  <span
+    className="MuiBadge-root"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-communication-email NatDSIcon-root-159 NatDSIcon-root-160"
+    >
+      outlined-communication-email
+    </i>
+    <span
+      className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorPrimary"
+    >
+      99+
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/Badge Default Color 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-125 BadgeDemo-shapeCircle-126"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Dot Variant 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-137 BadgeDemo-shapeCircle-138"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorPrimary MuiBadge-dot"
+  >
+    
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Error Color 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-128 BadgeDemo-shapeCircle-129"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorError"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Playground 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-122 BadgeDemo-shapeCircle-123"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorPrimary"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Primary Color 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-131 BadgeDemo-shapeCircle-132"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorPrimary"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Rectangle Overlap 1`] = `
+<div
+  className="BadgeDemo-root-161"
+>
+  <span
+    className="MuiBadge-root"
+  >
+    <div
+      className="BadgeDemo-shape-162"
+    />
+    <span
+      className="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorPrimary"
+    >
+      99+
+    </span>
+  </span>
+  <span
+    className="MuiBadge-root"
+  >
+    <div
+      className="BadgeDemo-shape-162 BadgeDemo-shapeCircle-163"
+    />
+    <span
+      className="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorPrimary"
+    >
+      99+
+    </span>
+  </span>
+  <span
+    className="MuiBadge-root"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-communication-email NatDSIcon-root-164 NatDSIcon-root-165"
+    >
+      outlined-communication-email
+    </i>
+    <span
+      className="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorPrimary"
+    >
+      99+
+    </span>
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/Badge Secondary Color 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-134 BadgeDemo-shapeCircle-135"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorSecondary"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Standard Variant 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-140 BadgeDemo-shapeCircle-141"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorPrimary"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Top Left Anchor 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-143 BadgeDemo-shapeCircle-144"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopLeftCircle MuiBadge-colorPrimary"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge Top Right Anchor 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <div
+    className="BadgeDemo-shape-146 BadgeDemo-shapeCircle-147"
+  />
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorPrimary"
+  >
+    99+
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Badge With Filter Icon 1`] = `
+<span
+  className="MuiBadge-root"
+>
+  <i
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-filter NatDSIcon-root-154 NatDSIcon-root-155"
+  >
+    outlined-action-filter
+  </i>
+  <span
+    className="MuiTypography-root MuiTypography-srOnly"
+  >
+    Filters (1 active)
+  </span>
+  <span
+    className="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorSecondary"
+  >
+    1
+  </span>
+</span>
+`;
