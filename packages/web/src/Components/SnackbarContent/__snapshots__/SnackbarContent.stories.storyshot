@@ -1,0 +1,257 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content Default Color 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-default-1524 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      This is a message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content Error Color 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-error-1530 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      This is a message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content Info Color 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-info-1546 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      This is a message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content Playground 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-default-1486 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      This is a message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content Success Color 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-success-1537 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      This is a message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content Warning Color 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-warning-1543 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      This is a message
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content With Button 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-default-1491 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      This is a message
+    </p>
+  </div>
+  <div
+    className="MuiSnackbarContent-action"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-1496 MuiButton-text MuiButton-colorInherit"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-1497"
+      >
+        Button text
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content With Button, Icon and text 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-default-1549 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      <div
+        style={
+          Object {
+            "alignItems": "center",
+            "display": "flex",
+          }
+        }
+      >
+        <div
+          className="NatDSSpacing-root-1554 NatDSSpacing-root-1555"
+        >
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-filled-brand-naturarosacea NatDSIcon-root-1556 NatDSIcon-smallFontSize-1559"
+          >
+            filled-brand-naturarosacea
+          </i>
+        </div>
+        <p
+          className="MuiTypography-root MuiTypography-body2"
+        >
+          This is a message
+        </p>
+      </div>
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content With Close Button 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-default-1498 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      This is a message
+    </p>
+  </div>
+  <div
+    className="MuiSnackbarContent-action"
+  >
+    <button
+      aria-label="Close"
+      className="MuiButtonBase-root MuiIconButton-root MuiIconButton-colorInherit"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <i
+          aria-hidden={true}
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-1503 NatDSIcon-tinyFontSize-1505"
+        >
+          outlined-navigation-close
+        </i>
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Snackbar (toast)/Snackbar Content With Longer Message 1`] = `
+<div
+  className="MuiPaper-root MuiSnackbarContent-root NatDSSnackbarContent-default-1519 MuiPaper-elevation6"
+  role="alert"
+>
+  <div
+    className="MuiSnackbarContent-message"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      This is a longer message to see how it works
+    </p>
+  </div>
+</div>
+`;
