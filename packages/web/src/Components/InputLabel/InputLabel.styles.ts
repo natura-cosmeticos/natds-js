@@ -17,7 +17,7 @@ const style = ({ palette, sizes, typography } : IThemeWeb) => createStyles({
       return palette?.text?.secondary;
     },
     lineHeight: "1.2em",
-    padding: `${sizes.none} ${sizes.none} ${sizes.micro}px`,
+    padding: `${sizes?.none} ${sizes?.none} ${sizes?.micro}px`,
   },
 });
 
