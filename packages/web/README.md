@@ -51,10 +51,11 @@ Note that we enclose all your application in a `Provider` component.
 
 ```jsx
 import React from 'react'
-import { Button, Provider, themes } from "@naturacosmeticos/natds-web";
+import { Button, CssBaseline, Provider, themes } from "@naturacosmeticos/natds-web";
 
 export const App = () => (
   <Provider theme={themes.natura.light}>
+    <CssBaseline />
     <Button color={"primary"} variant={"contained"}>
       Hello World
     </Button>
@@ -85,7 +86,7 @@ Installing `@naturacosmeticos/natds-web` will also install the following package
 - `@naturacosmeticos/natds-styles`
 - `styled-components`
 
-Thus, it is not necessary to install them to use the Design System.
+Thus, it is not necessary to install them separately to use the Design System.
 
 ### Using a CDN
 
@@ -116,7 +117,7 @@ For how-to questions and other issues, please use the [issues section on our Git
 
 ## Examples
 
-Look for some [example projects](https://github.com/natura-cosmeticos/natds-js-samples) to get started.
+Look for some [example projects](https://github.com/natura-cosmeticos/natds-js/tree/main/examples) to get started.
 
 ## Documentation
 
