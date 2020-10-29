@@ -1,0 +1,330 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Switch (selection control) Default Color 1`] = `
+<span
+  className="MuiSwitch-root"
+>
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1739 MuiSwitch-switchBase PrivateSwitchBase-checked-1740 Mui-checked"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-1742 MuiSwitch-input"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="MuiSwitch-thumb"
+      />
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </span>
+  <span
+    className="MuiSwitch-track"
+  />
+</span>
+`;
+
+exports[`Storyshots Components/Switch (selection control) Disabled 1`] = `
+Array [
+  <span
+    className="MuiSwitch-root"
+  >
+    <span
+      aria-disabled={true}
+      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1747 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-disabled-1749 Mui-disabled Mui-disabled Mui-disabled"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={-1}
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <input
+          checked={false}
+          className="PrivateSwitchBase-input-1750 MuiSwitch-input"
+          disabled={true}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="MuiSwitch-thumb"
+        />
+      </span>
+    </span>
+    <span
+      className="MuiSwitch-track"
+    />
+  </span>,
+  <span
+    className="MuiSwitch-root"
+  >
+    <span
+      aria-disabled={true}
+      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1747 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-checked-1748 Mui-checked PrivateSwitchBase-disabled-1749 Mui-disabled Mui-disabled Mui-disabled"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={-1}
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <input
+          checked={true}
+          className="PrivateSwitchBase-input-1750 MuiSwitch-input"
+          disabled={true}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="MuiSwitch-thumb"
+        />
+      </span>
+    </span>
+    <span
+      className="MuiSwitch-track"
+    />
+  </span>,
+]
+`;
+
+exports[`Storyshots Components/Switch (selection control) Enabled 1`] = `
+Array [
+  <span
+    className="MuiSwitch-root"
+  >
+    <span
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1743 MuiSwitch-switchBase MuiSwitch-colorSecondary"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <input
+          checked={false}
+          className="PrivateSwitchBase-input-1746 MuiSwitch-input"
+          disabled={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="MuiSwitch-thumb"
+        />
+      </span>
+    </span>
+    <span
+      className="MuiSwitch-track"
+    />
+  </span>,
+  <span
+    className="MuiSwitch-root"
+  >
+    <span
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1743 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-checked-1744 Mui-checked"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={null}
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <input
+          checked={true}
+          className="PrivateSwitchBase-input-1746 MuiSwitch-input"
+          disabled={false}
+          onChange={[Function]}
+          type="checkbox"
+        />
+        <span
+          className="MuiSwitch-thumb"
+        />
+      </span>
+    </span>
+    <span
+      className="MuiSwitch-track"
+    />
+  </span>,
+]
+`;
+
+exports[`Storyshots Components/Switch (selection control) Playground 1`] = `
+<span
+  className="MuiSwitch-root"
+>
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1727 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-checked-1728 Mui-checked"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-1730 MuiSwitch-input"
+        disabled={false}
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="MuiSwitch-thumb"
+      />
+    </span>
+  </span>
+  <span
+    className="MuiSwitch-track"
+  />
+</span>
+`;
+
+exports[`Storyshots Components/Switch (selection control) Primary Color 1`] = `
+<span
+  className="MuiSwitch-root"
+>
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1731 MuiSwitch-switchBase MuiSwitch-colorPrimary PrivateSwitchBase-checked-1732 Mui-checked"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-1734 MuiSwitch-input"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="MuiSwitch-thumb"
+      />
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </span>
+  <span
+    className="MuiSwitch-track"
+  />
+</span>
+`;
+
+exports[`Storyshots Components/Switch (selection control) Secondary Color 1`] = `
+<span
+  className="MuiSwitch-root"
+>
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1735 MuiSwitch-switchBase MuiSwitch-colorSecondary PrivateSwitchBase-checked-1736 Mui-checked"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-1738 MuiSwitch-input"
+        onChange={[Function]}
+        type="checkbox"
+      />
+      <span
+        className="MuiSwitch-thumb"
+      />
+    </span>
+  </span>
+  <span
+    className="MuiSwitch-track"
+  />
+</span>
+`;
