@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card components rendering variants should match to snapshot - empty card: Card empty snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+/>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with action area: Card with action area snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <button
+    className="MuiButtonBase-root MuiCardActionArea-root"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    Card action area test text
+    <span
+      className="MuiCardActionArea-focusHighlight"
+    />
+  </button>
+</div>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with actions: Card with actions snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiCardActions-root MuiCardActions-spacing"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-2"
+      >
+        Button action text
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with collapse: Card with collapse snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiCollapse-container MuiCollapse-entered"
+    style={
+      Object {
+        "minHeight": "0px",
+      }
+    }
+  >
+    <div
+      className="MuiCollapse-wrapper"
+    >
+      <div
+        className="MuiCollapse-wrapperInner"
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1"
+        >
+          Collapse text
+        </p>
+      </div>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with content: Card with content snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiCardContent-root"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      Content text
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with header: Card with header snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiCardHeader-root"
+  >
+    <div
+      className="MuiCardHeader-content"
+    >
+      <span
+        className="MuiTypography-root MuiCardHeader-title MuiTypography-h5 MuiTypography-displayBlock"
+      >
+        Header 1
+      </span>
+      <span
+        className="MuiTypography-root MuiCardHeader-subheader MuiTypography-body1 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+      >
+        Header 2
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with media: Card with media snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiCardMedia-root"
+    title="media image"
+  >
+    Card media image placeholder
+  </div>
+</div>
+`;
+
+exports[`Card components rendering variants should match to snapshot - with paper: Card with paper snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      Paper text
+    </p>
+  </div>
+</div>
+`;
