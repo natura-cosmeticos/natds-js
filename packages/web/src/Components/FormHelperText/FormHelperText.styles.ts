@@ -19,7 +19,7 @@ const style = createStyles(({ palette, sizes, typography }: IThemeWeb) => ({
     },
     display: "flex",
     lineHeight: "1.2em",
-    padding: `${sizes.micro}px ${sizes.none} ${sizes.none}`,
+    padding: `${sizes?.micro}px ${sizes?.none} ${sizes?.none}`,
   },
 }));
 
