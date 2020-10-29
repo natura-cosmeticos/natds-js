@@ -1,0 +1,28 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Breadcrumbs component rendering should match snapshot 1`] = `
+<nav
+  className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+>
+  <ol
+    className="MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-1 NatDSLink-default-2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onFocus={[Function]}
+      >
+        <p
+          className="MuiTypography-root MuiTypography-body1"
+        >
+          Breadcrumbs link text
+        </p>
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
