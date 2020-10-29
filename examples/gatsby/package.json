@@ -1,7 +1,7 @@
 {
   "name": "gatsby",
   "private": true,
-  "version": "0.20.1",
+  "version": "0.21.0-alpha.DSY-1501.8130.0",
   "author": {
     "email": "designsystem@natura.net",
     "name": "Natura & Co. Design System",
@@ -17,10 +17,10 @@
     "url": "https://github.com/natura-cosmeticos/natds-js/issues"
   },
   "dependencies": {
-    "@naturacosmeticos/natds-web": "^0.20.1",
+    "@naturacosmeticos/natds-web": "^0.21.0-alpha.DSY-1501.8130.0",
     "gatsby": "latest",
-    "gatsby-plugin-material-ui": "latest",
     "gatsby-plugin-google-fonts": "latest",
+    "gatsby-plugin-material-ui": "latest",
     "gatsby-plugin-react-helmet": "latest",
     "react": "latest",
     "react-dom": "latest",
