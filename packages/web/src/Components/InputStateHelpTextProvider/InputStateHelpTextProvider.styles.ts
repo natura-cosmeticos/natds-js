@@ -4,9 +4,9 @@ import { IThemeWeb } from "../../Themes";
 
 const style = ({ sizes }: IThemeWeb) => createStyles({
   icon: {
-    height: sizes.small,
-    marginRight: sizes.micro,
-    width: sizes.small,
+    height: sizes?.small,
+    marginRight: sizes?.micro,
+    width: sizes?.small,
   },
 });
 
