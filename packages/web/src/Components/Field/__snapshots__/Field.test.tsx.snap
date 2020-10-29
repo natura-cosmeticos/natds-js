@@ -21,3 +21,152 @@ exports[`Field component should match snapshot 1`] = `
   />
 </div>
 `;
+
+exports[`Field component should render input for password types 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline MuiInputBase-adornedEnd"
+  onClick={[Function]}
+  required={false}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-10 MuiInputBase-inputAdornedEnd"
+    disabled={false}
+    id="field"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+    required={false}
+    type="password"
+    value=""
+  />
+  <svg
+    aria-hidden={true}
+    className="MuiSvgIcon-root NatDSPasswordReveal-root-11"
+    focusable="false"
+    onClick={[Function]}
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M12 6c3.79 0 7.17 2.13 8.82 5.5C19.17 14.87 15.79 17 12 17s-7.17-2.13-8.82-5.5C4.83 8.13 8.21 6 12 6m0-2C7 4 2.73 7.11 1 11.5 2.73 15.89 7 19 12 19s9.27-3.11 11-7.5C21.27 7.11 17 4 12 4zm0 5c1.38 0 2.5 1.12 2.5 2.5S13.38 14 12 14s-2.5-1.12-2.5-2.5S10.62 9 12 9m0-2c-2.48 0-4.5 2.02-4.5 4.5S9.52 16 12 16s4.5-2.02 4.5-4.5S14.48 7 12 7z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Field component should render input for search type 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline MuiInputBase-adornedEnd"
+  onClick={[Function]}
+  required={false}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-12 MuiInputBase-inputAdornedEnd MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch NatDSInput-inputTypeSearch-5"
+    disabled={false}
+    id="field"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+    required={false}
+    type="search"
+    value=""
+  />
+  <svg
+    aria-hidden={true}
+    className="MuiSvgIcon-root NatDSSearchClear-root-13"
+    focusable="false"
+    onClick={[Function]}
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M18.3 5.71a.9959.9959 0 00-1.41 0L12 10.59 7.11 5.7a.9959.9959 0 00-1.41 0c-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Field component should render input for search types and onChange 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline MuiInputBase-adornedEnd"
+  onClick={[Function]}
+  required={false}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-14 MuiInputBase-inputAdornedEnd MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch NatDSInput-inputTypeSearch-5"
+    disabled={false}
+    id="field"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+    required={false}
+    type="search"
+    value="new search"
+  />
+  <svg
+    aria-hidden={true}
+    className="MuiSvgIcon-root NatDSSearchClear-root-13"
+    focusable="false"
+    onClick={[Function]}
+    viewBox="0 0 24 24"
+  >
+    <path
+      d="M18.3 5.71a.9959.9959 0 00-1.41 0L12 10.59 7.11 5.7a.9959.9959 0 00-1.41 0c-.39.39-.39 1.02 0 1.41L10.59 12 5.7 16.89c-.39.39-.39 1.02 0 1.41.39.39 1.02.39 1.41 0L12 13.41l4.89 4.89c.39.39 1.02.39 1.41 0 .39-.39.39-1.02 0-1.41L13.41 12l4.89-4.89c.38-.38.38-1.02 0-1.4z"
+    />
+  </svg>
+</div>
+`;
+
+exports[`Field component should render single line input 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+  required={false}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-8"
+    disabled={false}
+    id="field"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+    required={false}
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Field component should render single line masked input 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+  required={false}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-9"
+    disabled={false}
+    id="field"
+    inputRef={[Function]}
+    mask={
+      Array [
+        "v",
+      ]
+    }
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+    required={false}
+    type="text"
+    value=""
+  />
+</div>
+`;
