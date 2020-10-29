@@ -13,3 +13,5 @@ export const elevation: {
   step: 1,
   value: 2,
 };
+
+export default elevation;

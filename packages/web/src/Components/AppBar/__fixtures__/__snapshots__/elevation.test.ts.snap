@@ -1,0 +1,11 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Elevation control config should match snapshot 1`] = `
+Object {
+  "max": 24,
+  "min": 0,
+  "range": true,
+  "step": 1,
+  "value": 2,
+}
+`;
