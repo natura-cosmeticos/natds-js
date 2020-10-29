@@ -1,0 +1,59 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Utilities/Grid/GridContainer Playground 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Utilities/Grid/GridContainer Spacing 3 1`] = `
+<div
+  className="MuiGrid-root GridDemo-container-192 MuiGrid-container MuiGrid-spacing-xs-3"
+>
+  <div
+    className="MuiGrid-root GridDemo-item-193 MuiGrid-item MuiGrid-grid-xs-12 MuiGrid-grid-sm-12 MuiGrid-grid-md-12 MuiGrid-grid-lg-12"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      Spacing 3
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root GridDemo-item-193 MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      Spacing 3
+    </div>
+  </div>
+  <div
+    className="MuiGrid-root GridDemo-item-193 MuiGrid-item MuiGrid-grid-xs-6 MuiGrid-grid-sm-6 MuiGrid-grid-md-6"
+  >
+    <div
+      className="MuiPaper-root MuiPaper-elevation2 MuiPaper-rounded"
+    >
+      Spacing 3
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Utilities/Grid/GridContainer Zero Spacing 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;

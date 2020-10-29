@@ -1,0 +1,79 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Utilities/Grid/GridItem Md 6 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Utilities/Grid/GridItem Md 12 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Utilities/Grid/GridItem Playground 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Utilities/Grid/GridItem Sm 12 1`] = `
+<div
+  className="MuiGrid-root GridDemo-root-197 MuiGrid-container MuiGrid-spacing-xs-3"
+>
+  <div
+    className="MuiGrid-root GridDemo-root-197 MuiGrid-item MuiGrid-grid-sm-12"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      sm 12
+    </p>
+    <span
+      className="MuiTypography-root MuiTypography-caption"
+    >
+      Use the viewport tool to check how this grid will behave visually at different widths.
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Utilities/Grid/GridItem Xs 12 1`] = `
+<div
+  className="MuiGrid-root GridDemo-root-198 MuiGrid-container MuiGrid-spacing-xs-3"
+>
+  <div
+    className="MuiGrid-root GridDemo-root-198 MuiGrid-item"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      xs 12
+    </p>
+    <span
+      className="MuiTypography-root MuiTypography-caption"
+    >
+      Use the viewport tool to check how this grid will behave visually at different widths.
+    </span>
+  </div>
+</div>
+`;
