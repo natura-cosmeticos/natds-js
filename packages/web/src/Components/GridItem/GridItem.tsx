@@ -8,14 +8,14 @@ export { IGridItemProps } from "./GridItem.props";
 /**
  * For more details consult the full [Material Grid API](https://material-ui.com/api/grid/).
  */
-export const GridItem = React.forwardRef<unknown, IGridItemProps>(
-  (props: IGridItemProps,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ref: any) => <MaterialGrid
-    item={true}
-    ref={ref}
-    {...props}
-  />);
+export const GridItem = React.forwardRef<HTMLDivElement, IGridItemProps>(
+  (props: IGridItemProps, ref) => (
+    <MaterialGrid
+      item={true}
+      ref={ref}
+      {...props}
+    />),
+);
 
 GridItem.displayName = "GridItem";
 
