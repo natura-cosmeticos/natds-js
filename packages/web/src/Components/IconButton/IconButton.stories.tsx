@@ -1,11 +1,15 @@
-import * as React from "react";
+/* eslint-disable max-lines */
 import { Story } from "@storybook/react";
-import * as IconStories from "../Icon/Icon.stories";
+import * as React from "react";
+import { SmallIcon, TinyIcon } from "../Icon/Icon.stories";
 import { IconButton, IIconButtonProps } from "./IconButton";
 import { Icon } from "../Icon";
 import { argTypes } from "./IconButton.argTypes";
 import { colors } from "./__fixtures__/colors";
 import { sizes } from "./__fixtures__/sizes";
+import { Template } from "./Template";
+import { WithFilterIcon } from "../Badge/Badge.stories";
+import { Badge } from "../Badge";
 
 export default {
   argTypes,
@@ -13,22 +17,6 @@ export default {
   subcomponents: { Icon },
   title: "Components/Icon Button",
 };
-
-const Template : Story<IIconButtonProps> = (args) => <IconButton {...args}>
-  <Icon name={"outlined-action-add"} {...IconStories.SmallCloseIcon.args} />
-</IconButton>;
-
-const TemplateWithTinyIcon : Story<IIconButtonProps> = (args) => <IconButton {...args}>
-  <Icon name={"outlined-action-add"} {...IconStories.TinyIcon.args} />
-</IconButton>;
-
-const TemplateForMenuButton : Story<IIconButtonProps> = (args) => <IconButton {...args}>
-  <Icon name={"outlined-action-add"} {...IconStories.TinyMenuIcon.args} />
-</IconButton>;
-
-const TemplateWithSmallIcon : Story<IIconButtonProps> = (args) => <IconButton {...args}>
-  <Icon name={"outlined-action-add"} {...IconStories.SmallIcon.args} />
-</IconButton>;
 
 export const Playground : Story<IIconButtonProps> = Template.bind({});
 Playground.args = {
@@ -39,58 +27,121 @@ Playground.args = {
 
 export const PrimaryColor : Story<IIconButtonProps> = Template.bind({});
 PrimaryColor.args = { color: colors.primary };
-PrimaryColor.storyName = "Primary color";
 
 export const SecondaryColor : Story<IIconButtonProps> = Template.bind({});
 SecondaryColor.args = { color: colors.secondary };
-SecondaryColor.storyName = "Secondary color";
 
 export const InheritColor : Story<IIconButtonProps> = Template.bind({});
 InheritColor.args = { color: colors.inherit };
-InheritColor.storyName = "Inherit color";
 
 export const DefaultColor : Story<IIconButtonProps> = Template.bind({});
 DefaultColor.args = { color: colors.default };
-DefaultColor.storyName = "Default color";
 
-export const SmallWithTinyIcon = TemplateWithTinyIcon.bind({});
+export const SmallWithTinyIcon = Template.bind({});
 SmallWithTinyIcon.args = {
   ...PrimaryColor.args,
-  children: IconStories.TinyIcon,
+  children: <Icon {...TinyIcon.args} name={"filled-default-mockup"} />,
   size: sizes.small,
 };
 
-export const SmallWithSmallIcon = TemplateWithSmallIcon.bind({});
+export const SmallWithSmallIcon = Template.bind({});
 SmallWithSmallIcon.args = {
   ...PrimaryColor.args,
-  children: IconStories.SmallIcon,
+  children: <Icon {...SmallIcon.args} name={"filled-default-mockup"} />,
   size: sizes.small,
 };
 
-export const MediumWithTinyIcon = TemplateWithTinyIcon.bind({});
-MediumWithTinyIcon.args = {
+export const MediumWithTinyIconAndPrimaryColor = Template.bind({});
+MediumWithTinyIconAndPrimaryColor.args = {
   ...PrimaryColor.args,
-  children: IconStories.TinyIcon,
+  children: <Icon {...TinyIcon.args} name={"filled-default-mockup"} />,
   size: sizes.medium,
 };
 
-export const MediumWithSmallIcon = TemplateWithSmallIcon.bind({});
+export const MediumWithTinyIconAndSecondaryColor = Template.bind({});
+MediumWithTinyIconAndSecondaryColor.args = {
+  ...SecondaryColor.args,
+  children: <Icon {...TinyIcon.args} name={"filled-default-mockup"} />,
+  size: sizes.medium,
+};
+
+export const MediumWithTinyIconAndDefaultColor = Template.bind({});
+MediumWithTinyIconAndDefaultColor.args = {
+  ...DefaultColor.args,
+  children: <Icon {...TinyIcon.args} name={"filled-default-mockup"} />,
+  size: sizes.medium,
+};
+
+export const MediumWithSmallIcon = Template.bind({});
 MediumWithSmallIcon.args = {
   ...PrimaryColor.args,
-  children: IconStories.SmallIcon,
+  children: <Icon {...SmallIcon.args} name={"filled-default-mockup"} />,
   size: sizes.medium,
 };
 
 export const Disabled = Template.bind({});
-Disabled.args = {
-  ...Playground.args,
-  disabled: true,
-};
+Disabled.args = { ...Playground.args, disabled: true };
 
-export const MenuButtonExample = TemplateForMenuButton.bind({});
+export const MenuButtonExample = Template.bind({});
 MenuButtonExample.args = {
   "aria-label": "Toggle menu",
-  children: IconStories.TinyMenuIcon,
-  color: "inherit",
+  children: <Icon {...TinyIcon.args} name={"filled-navigation-menu"} />,
+  color: colors.inherit,
   edge: "start",
+};
+
+export const SearchButtonExample = Template.bind({});
+SearchButtonExample.args = {
+  "aria-label": "Search",
+  children: <Icon {...TinyIcon.args} name={"outlined-action-search"} />,
+  color: colors.inherit,
+  edge: "start",
+};
+
+export const CloseButtonExample = Template.bind({});
+CloseButtonExample.args = {
+  "aria-label": "Close",
+  children: <Icon {...TinyIcon.args} name={"outlined-navigation-close"} />,
+  color: colors.inherit,
+};
+
+export const FilterButtonExample = Template.bind({});
+FilterButtonExample.args = {
+  "aria-label": "Filter",
+  children: <Badge {...WithFilterIcon.args} />,
+  color: colors.inherit,
+  edge: "start",
+};
+
+export const MyProfileButtonExample = Template.bind({});
+MyProfileButtonExample.args = {
+  "aria-label": "My Profile",
+  children: <Icon {...TinyIcon.args} name={"outlined-social-myprofile"} />,
+  color: colors.inherit,
+  edge: "start",
+};
+
+export const NavigationMoreButtonExample = Template.bind({});
+NavigationMoreButtonExample.args = {
+  "aria-label": "More",
+  children: <Icon {...TinyIcon.args} name={"filled-navigation-more"} />,
+};
+
+export const AddToFavoritesExample = Template.bind({});
+AddToFavoritesExample.args = {
+  "aria-label": "Add to favorites",
+  children: <Icon {...TinyIcon.args} name={"outlined-action-love"} />,
+};
+
+export const ShareExample = Template.bind({});
+ShareExample.args = {
+  "aria-label": "Share",
+  children: <Icon {...TinyIcon.args} name={"outlined-action-share"} />,
+};
+
+export const ExpandExample = Template.bind({});
+ExpandExample.args = {
+  "aria-expanded": false,
+  "aria-label": "Show more options",
+  children: <Icon {...TinyIcon.args} name={"outlined-navigation-arrowbottom"} />,
 };
