@@ -7,7 +7,6 @@ module.exports = {
   ...base,
   displayName,
   name,
-  testMatch: ["<rootDir>/src/__tests__/**/*.spec.ts"],
   transform: {
     "^.+\\.tsx?$": "ts-jest",
   },
