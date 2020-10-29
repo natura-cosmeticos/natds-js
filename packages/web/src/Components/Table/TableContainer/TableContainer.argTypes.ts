@@ -1,10 +1,10 @@
 import { ArgType } from "@storybook/addons";
-import { ITableHeadProps } from "./TableHead.props";
+import { ITableContainerProps } from "./TableContainer.props";
 import { objectArgType } from "../../../../.storybook/argTypes/objectArgType";
 
-export const argTypes : Record<keyof ITableHeadProps | string, ArgType> = {
+export const argTypes : Record<keyof ITableContainerProps | string, ArgType> = {
   children: {
-    description: "The table itself, normally `TableRow`.",
+    description: "The table itself, normally `Table`.",
     table: {
       type: { summary: "node" },
     },
@@ -16,8 +16,7 @@ export const argTypes : Record<keyof ITableHeadProps | string, ArgType> = {
   component: {
     description: "The component used for the root node. Either a string to use a HTML element or a component.",
     table: {
-      defaultValue: { summary: "\"thead\"" },
-      type: { summary: "elementType" },
+      type: { summary: "\"div\"" },
     },
   },
 };

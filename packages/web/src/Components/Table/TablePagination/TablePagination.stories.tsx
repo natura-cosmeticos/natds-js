@@ -35,7 +35,7 @@ const Template : Story<ITablePaginationProps> = (args) => {
     onChangePage={handleChangePage}
     onChangeRowsPerPage={handleChangeRowsPerPage}
     page={args.page || page}
-    // eslint-disable-next-line array-element-newline,no-magic-numbers
+    // eslint-disable-next-line no-magic-numbers
     rowsPerPageOptions={args.rowsPerPageOptions || [INITIAL_ROWS_PER_PAGE, 10, 25, 50, 100]}
     rowsPerPage={args.rowsPerPage || rowsPerPage}
   />);

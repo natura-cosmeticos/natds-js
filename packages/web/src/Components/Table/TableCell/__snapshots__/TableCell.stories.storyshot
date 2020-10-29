@@ -1,0 +1,184 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Table/Table Cell Center Align 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2147"
+  role={null}
+>
+  <tbody
+    className="MuiTableBody-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root"
+      role={null}
+    >
+      <td
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignCenter"
+      >
+        This is a slightly longer sample text to demonstrate centered alignment.
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Cell Header Cell 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2153"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head"
+        scope="col"
+      >
+        Header cell
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Cell Header Cell With Checkbox 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2155"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head"
+        scope="col"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-2157 MuiCheckbox-root MuiCheckbox-colorPrimary MuiIconButton-colorPrimary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              aria-label="Select all items"
+              className="PrivateSwitchBase-input-2160"
+              data-indeterminate={false}
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+        </span>
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Cell Left Align 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2149"
+  role={null}
+>
+  <tbody
+    className="MuiTableBody-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root"
+      role={null}
+    >
+      <td
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignLeft"
+      >
+        This is a slightly longer sample text to demonstrate left alignment.
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Cell Playground 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2145"
+  role={null}
+>
+  <tbody
+    className="MuiTableBody-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root"
+      role={null}
+    >
+      <td
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-body"
+      >
+        Cell
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Cell Right Align 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2151"
+  role={null}
+>
+  <tbody
+    className="MuiTableBody-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root"
+      role={null}
+    >
+      <td
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-body MuiTableCell-alignRight"
+      >
+        This is a slightly longer sample text to demonstrate right alignment.
+      </td>
+    </tr>
+  </tbody>
+</table>
+`;

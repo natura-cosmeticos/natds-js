@@ -1,4 +1,3 @@
-import * as React from "react";
 import { Meta, Story } from "@storybook/react";
 import { ITableProps, Table } from "./Table";
 import { TableBody } from "./TableBody";
@@ -10,6 +9,7 @@ import { TablePagination } from "./TablePagination";
 import { TableRow } from "./TableRow";
 import { TableSortLabel } from "./TableSortLabel";
 import { argTypes } from "./Table.argTypes";
+import Template from "./Template";
 
 export default {
   argTypes,
@@ -27,20 +27,28 @@ export default {
   title: "Components/Table",
 } as Meta;
 
-const Template : Story<ITableProps> = (args: ITableProps) => <TableContainer>
-  <Table {...args}>
-    <TableHead>
-      <TableRow>
-        <TableCell align={"center"} />
-      </TableRow>
-    </TableHead>
-  </Table>
-</TableContainer>;
-
 export const Playground : Story<ITableProps> = Template.bind({});
 Playground.args = {
   "aria-label": "Simple table",
   dividers: true,
   rounded: true,
   striped: true,
+};
+
+export const Standard : Story<ITableProps> = Template.bind({});
+Standard.args = {};
+
+export const Rounded : Story<ITableProps> = Template.bind({});
+Rounded.args = {
+  rounded: true,
+};
+
+export const NoDividers : Story<ITableProps> = Template.bind({});
+NoDividers.args = {
+  dividers: false,
+};
+
+export const NoStripes : Story<ITableProps> = Template.bind({});
+NoStripes.args = {
+  striped: false,
 };

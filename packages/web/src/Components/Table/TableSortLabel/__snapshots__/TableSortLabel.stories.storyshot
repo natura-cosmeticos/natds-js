@@ -1,0 +1,201 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Table/Table Sort Label Active 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2215"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+        scope="col"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiTableSortLabel-root MuiTableSortLabel-active"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Cell with sort icon
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-order NatDSIcon-root-2217 NatDSIcon-microFontSize-2218"
+          >
+            outlined-action-order
+          </i>
+        </span>
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Sort Label Asc Order 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2251"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+        scope="col"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiTableSortLabel-root MuiTableSortLabel-active"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Cell with sort icon
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-directiontop NatDSIcon-root-2253 NatDSIcon-microFontSize-2254"
+          >
+            outlined-navigation-directiontop
+          </i>
+        </span>
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Sort Label Desc Order 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2233"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+        scope="col"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiTableSortLabel-root MuiTableSortLabel-active"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Cell with sort icon
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-directionbottom NatDSIcon-root-2235 NatDSIcon-microFontSize-2236"
+          >
+            outlined-navigation-directionbottom
+          </i>
+        </span>
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Sort Label Playground 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2197"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+        scope="col"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiTableSortLabel-root"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Cell with sort icon
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-order NatDSIcon-root-2199 NatDSIcon-microFontSize-2200"
+          >
+            outlined-action-order
+          </i>
+        </span>
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
