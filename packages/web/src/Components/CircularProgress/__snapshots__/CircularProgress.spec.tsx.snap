@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circular Progress components rendering thickness should match snapshot - with variant static 1`] = `
+<div
+  className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+  role="progressbar"
+  style={
+    Object {
+      "height": 40,
+      "width": 40,
+    }
+  }
+>
+  <svg
+    className="MuiCircularProgress-svg"
+    viewBox="22 22 44 44"
+  >
+    <circle
+      className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+      cx={44}
+      cy={44}
+      fill="none"
+      r={20.2}
+      strokeWidth={3.6}
+      style={Object {}}
+    />
+  </svg>
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant determinate: With variant determinate snapshot 1`] = `
+<div
+  aria-valuenow={0}
+  className="MuiCircularProgress-root MuiCircularProgress-colorPrimary"
+  role="progressbar"
+  style={
+    Object {
+      "height": 40,
+      "transform": "rotate(0.000deg)",
+      "width": 40,
+    }
+  }
+>
+  <svg
+    className="MuiCircularProgress-svg"
+    viewBox="22 22 44 44"
+  >
+    <circle
+      className="MuiCircularProgress-circle"
+      cx={44}
+      cy={44}
+      fill="none"
+      r={20.2}
+      strokeWidth={3.6}
+      style={
+        Object {
+          "strokeDasharray": "126.920",
+          "strokeDashoffset": "126.920px",
+        }
+      }
+    />
+  </svg>
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant indeterminate: With variant indeterminate snapshot 1`] = `
+<div
+  className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+  role="progressbar"
+  style={
+    Object {
+      "height": 40,
+      "width": 40,
+    }
+  }
+>
+  <svg
+    className="MuiCircularProgress-svg"
+    viewBox="22 22 44 44"
+  >
+    <circle
+      className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+      cx={44}
+      cy={44}
+      fill="none"
+      r={20.2}
+      strokeWidth={3.6}
+      style={Object {}}
+    />
+  </svg>
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant static: With variant static snapshot 1`] = `
+<div
+  aria-valuenow={0}
+  className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-static"
+  role="progressbar"
+  style={
+    Object {
+      "height": 40,
+      "transform": "rotate(-90deg)",
+      "width": 40,
+    }
+  }
+>
+  <svg
+    className="MuiCircularProgress-svg"
+    viewBox="22 22 44 44"
+  >
+    <circle
+      className="MuiCircularProgress-circle MuiCircularProgress-circleStatic"
+      cx={44}
+      cy={44}
+      fill="none"
+      r={20.2}
+      strokeWidth={3.6}
+      style={
+        Object {
+          "strokeDasharray": "126.920",
+          "strokeDashoffset": "126.920px",
+        }
+      }
+    />
+  </svg>
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match to snapshot - empty CircularProgress: CircularProgress empty snapshot 1`] = `
+<div
+  className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
+  role="progressbar"
+  style={
+    Object {
+      "height": 40,
+      "width": 40,
+    }
+  }
+>
+  <svg
+    className="MuiCircularProgress-svg"
+    viewBox="22 22 44 44"
+  >
+    <circle
+      className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
+      cx={44}
+      cy={44}
+      fill="none"
+      r={20.2}
+      strokeWidth={3.6}
+      style={Object {}}
+    />
+  </svg>
+</div>
+`;
