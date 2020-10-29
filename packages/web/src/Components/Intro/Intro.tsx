@@ -20,6 +20,7 @@ export const Intro = React.forwardRef<HTMLDivElement, IIntroProps>((
   props: IIntroProps, ref,
 ) => {
   const {
+    children,
     detail,
     detailColor = "textPrimary",
     detailComponent,
@@ -49,6 +50,7 @@ export const Intro = React.forwardRef<HTMLDivElement, IIntroProps>((
         variant={detailVariant}
         color={detailColor}
       >{detail}</IntroDetails>}
+      {children}
     </IntroContainer>
   );
 });

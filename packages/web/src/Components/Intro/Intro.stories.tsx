@@ -8,8 +8,10 @@ import { IntroContainer } from "./IntroContainer";
 import { colors } from "./__fixtures__/colors";
 import { variants } from "./__fixtures__/variants";
 import { Icon } from "../Icon";
-import { SmallAddIcon } from "../Icon/Icon.stories";
+import { SmallIcon } from "../Icon/Icon.stories";
 import { argTypes } from "./Intro.argTypes";
+import { Container } from "../Container";
+import { Fluid } from "../Container/Container.stories";
 
 export default {
   argTypes,
@@ -18,11 +20,13 @@ export default {
   title: "Components/Intro",
 } as Meta;
 
-const Template : Story<IIntroProps> = (args: IIntroProps) => <Intro {...args} />;
+const Template : Story<IIntroProps> = (args: IIntroProps) => (
+  <Container {...Fluid.args}><Intro {...args} /></Container>
+);
 
 export const Playground : Story<IIntroProps> = Template.bind({});
 Playground.args = {
-  detail: "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Mauris ut quam non libero placerat placerat id vel",
+  detail: "This is a Intro detail long text. You can change this text, as well as its color and variant at Controls.",
   detailColor: colors.textPrimary,
   detailVariant: variants.body2,
 
@@ -39,7 +43,7 @@ export const WithIcon : Story<IIntroProps> = Template.bind({});
 WithIcon.args = {
   ...Playground.args,
   title: <>
-    <Icon name={"outlined-action-add"} {...SmallAddIcon.args} />
+    <Icon {...SmallIcon.args} name={"outlined-action-add"} />
     {Playground.args.title}
   </>,
 };
