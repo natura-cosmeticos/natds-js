@@ -7,7 +7,4 @@ module.exports = {
   ...base,
   displayName,
   name,
-  transform: {
-    "^.+\\.tsx?$": "ts-jest",
-  },
 };
