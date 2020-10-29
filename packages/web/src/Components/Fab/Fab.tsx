@@ -11,11 +11,8 @@ export const defaultProps = {
   disabled: false,
 };
 
-export const Fab = React.forwardRef<unknown, IFabProps>(
-  (props: IFabProps,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ref: any,
-  ) => {
+export const Fab = React.forwardRef<HTMLButtonElement, IFabProps>(
+  (props: IFabProps, ref) => {
     const {
       color,
 
