@@ -15,10 +15,8 @@ export { IContainerProps } from "./Container.props";
  * import { Container } from "@naturacosmeticos/natds-react"
  * ```
  */
-export const Container = React.forwardRef<unknown, IContainerProps>(
-  (props: IContainerProps,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ref: any) => <MaterialContainer {...props} ref={ref} />,
+export const Container = React.forwardRef<HTMLDivElement, IContainerProps>(
+  (props: IContainerProps, ref) => <MaterialContainer {...props} ref={ref} />,
 );
 
 Container.displayName = "Container";
