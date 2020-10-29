@@ -10,10 +10,6 @@ const welcomeStories = [
   "../docs/troubleshooting.stories.mdx",
 ];
 
-const exampleStories = [
-  "../docs/examples/sign-in.stories.tsx",
-];
-
 const utilitiesStories = [
   "../src/Components/Container/Container.stories.tsx",
   "../src/Components/CssBaseline/CssBaseline.stories.mdx",
@@ -24,6 +20,18 @@ const utilitiesStories = [
   "../src/Components/Spacing/Spacing.margin.stories.tsx",
   "../src/Components/Spacing/Spacing.padding.stories.tsx",
 ];
+
+const exampleStories = [
+  "../src/examples/*.stories.tsx",
+];
+
+const propFilter = (prop) => {
+  if (prop.parent) {
+    return !(/node_modules/u).test(prop.parent.fileName);
+  }
+
+  return true;
+};
 
 module.exports = {
   addons: [
@@ -50,9 +58,9 @@ module.exports = {
 
   stories: [
     ...welcomeStories,
+    ...exampleStories,
     ...componentStories,
     ...utilitiesStories,
-    ...exampleStories,
   ],
   typescript: {
     check: true,
@@ -60,13 +68,7 @@ module.exports = {
     reactDocgen: "react-docgen-typescript",
     reactDocgenTypescriptOptions: {
       shouldExtractLiteralValuesFromEnum: true,
-      propFilter: (prop) => {
-        if (prop.parent) {
-          return !(/node_modules/u).test(prop.parent.fileName);
-        }
-
-        return true;
-      },
+      propFilter,
     },
   },
 };

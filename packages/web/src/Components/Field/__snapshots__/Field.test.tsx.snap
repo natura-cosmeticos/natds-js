@@ -1,0 +1,24 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Field component should match snapshot 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+  required={false}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-7"
+    disabled={false}
+    id="test-field"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder=""
+    required={false}
+    rows=""
+    type="text"
+    value=""
+  />
+</div>
+`;

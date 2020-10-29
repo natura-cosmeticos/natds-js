@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import * as React from "react";
 import { CssBaseline } from "../../../src/Components/CssBaseline";
 import { Provider } from "../../../src/Provider";
@@ -21,7 +22,6 @@ const getTheme = (themeKey) => {
   return themesMap.naturaLight;
 };
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const ThemeProviderDecorator = (Story, context) => {
   const theme = getTheme(context.globals.theme);
 
