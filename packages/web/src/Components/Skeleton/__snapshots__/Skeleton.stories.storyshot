@@ -1,0 +1,228 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Skeleton Circle 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-circle MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": 40,
+      "width": 40,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Components/Skeleton Default animation (pulse) 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": 256,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Components/Skeleton No Animation 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text"
+  style={
+    Object {
+      "height": "",
+      "width": 256,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Components/Skeleton Playground 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Components/Skeleton Rect 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-rect MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": 128,
+      "width": 256,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Components/Skeleton Text 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Components/Skeleton Wave Animation 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-wave"
+  style={
+    Object {
+      "height": "",
+      "width": 256,
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Components/Skeleton With Loading Avatar 1`] = `
+Array [
+  <span
+    className="MuiSkeleton-root MuiSkeleton-circle MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto MuiSkeleton-pulse"
+    style={
+      Object {
+        "height": "",
+        "width": "",
+      }
+    }
+  >
+    <div
+      className="MuiAvatar-root NatDsAvatar-root-1478 MuiAvatar-circle"
+    >
+      <img
+        alt="Nat Natura holding a cat"
+        className="MuiAvatar-img"
+        src="https://pbs.twimg.com/profile_images/1308179129267781632/wLDnEiOy_400x400.jpg"
+      />
+    </div>
+  </span>,
+  <div
+    className="MuiAvatar-root NatDsAvatar-root-1480 MuiAvatar-circle"
+  >
+    <img
+      alt="Nat Natura holding a cat"
+      className="MuiAvatar-img"
+      src="https://pbs.twimg.com/profile_images/1308179129267781632/wLDnEiOy_400x400.jpg"
+    />
+  </div>,
+]
+`;
+
+exports[`Storyshots Components/Skeleton With Typography Body 1 Variant 1`] = `
+Array [
+  <span
+    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto MuiSkeleton-pulse"
+    style={
+      Object {
+        "height": "",
+        "width": "",
+      }
+    }
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body1"
+    >
+      Skeleton with body1 example
+    </p>
+  </span>,
+  <p
+    className="MuiTypography-root MuiTypography-body1"
+  >
+    Skeleton with body1 example
+  </p>,
+]
+`;
+
+exports[`Storyshots Components/Skeleton With Typography Caption 1`] = `
+Array [
+  <span
+    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto MuiSkeleton-pulse"
+    style={
+      Object {
+        "height": "",
+        "width": "",
+      }
+    }
+  >
+    <span
+      className="MuiTypography-root MuiTypography-caption"
+    >
+      Skeleton with caption example
+    </span>
+  </span>,
+  <span
+    className="MuiTypography-root MuiTypography-caption"
+  >
+    Skeleton with caption example
+  </span>,
+]
+`;
+
+exports[`Storyshots Components/Skeleton With Typography Heading level 1 1`] = `
+Array [
+  <span
+    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto MuiSkeleton-pulse"
+    style={
+      Object {
+        "height": "",
+        "width": "",
+      }
+    }
+  >
+    <h1
+      className="MuiTypography-root MuiTypography-h1"
+    >
+      Skeleton with 
+      <abbr
+        title="Heading level 1"
+      >
+        h1
+      </abbr>
+    </h1>
+  </span>,
+  <h1
+    className="MuiTypography-root MuiTypography-h1"
+  >
+    Skeleton with 
+    <abbr
+      title="Heading level 1"
+    >
+      h1
+    </abbr>
+  </h1>,
+]
+`;
+
+exports[`Storyshots Components/Skeleton With Typography Heading level 3 1`] = `
+Array [
+  <span
+    className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-withChildren MuiSkeleton-fitContent MuiSkeleton-heightAuto MuiSkeleton-pulse"
+    style={
+      Object {
+        "height": "",
+        "width": "",
+      }
+    }
+  >
+    <h3
+      className="MuiTypography-root MuiTypography-h3"
+    >
+      Skeleton with heading 3 example
+    </h3>
+  </span>,
+  <h3
+    className="MuiTypography-root MuiTypography-h3"
+  >
+    Skeleton with heading 3 example
+  </h3>,
+]
+`;
