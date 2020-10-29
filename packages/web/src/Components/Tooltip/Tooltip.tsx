@@ -1,15 +1,21 @@
-/* eslint-disable @typescript-eslint/no-explicit-any */
 import * as React from "react";
 import MaterialTooltip from "@material-ui/core/Tooltip";
-import { ITooltipProps } from "./ITooltipProps";
+import { ITooltipProps } from "./Tooltip.props";
 
-const Tooltip : (props: ITooltipProps, ref: any) => JSX.Element = (props: ITooltipProps, ref: any) => <MaterialTooltip
-  {...props}
-  ref={ref}
-  title={props.title} />;
+export { ITooltipProps } from "./Tooltip.props";
 
-const DefaultTooltip = React.forwardRef<HTMLElement, ITooltipProps>(Tooltip);
+export const Tooltip = React.forwardRef<HTMLElement, ITooltipProps>(
+  (props: ITooltipProps, ref) => {
+    const { children, title, ...otherProps } = props;
 
-DefaultTooltip.displayName = "DefaultTooltip";
+    return (
+      <MaterialTooltip ref={ref || null} title={title} {...otherProps}>
+        {children}
+      </MaterialTooltip>
+    );
+  },
+);
 
-export default DefaultTooltip;
+Tooltip.displayName = "Tooltip";
+
+export default Tooltip;
