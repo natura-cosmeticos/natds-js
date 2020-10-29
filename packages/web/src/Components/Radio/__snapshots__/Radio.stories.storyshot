@@ -1,0 +1,613 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Radio (selection control) Default Color 1`] = `
+Array [
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1457 MuiRadio-root"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={false}
+        className="PrivateSwitchBase-input-1460"
+        disabled={false}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1461"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1462"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </span>,
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1457 MuiRadio-root PrivateSwitchBase-checked-1458 Mui-checked"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-1460"
+        disabled={false}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1461 PrivateRadioButtonIcon-checked-1463"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1462"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </span>,
+]
+`;
+
+exports[`Storyshots Components/Radio (selection control) Disabled 1`] = `
+Array [
+  <span
+    aria-disabled={true}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1471 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-disabled-1473 Mui-disabled MuiIconButton-colorSecondary Mui-disabled Mui-disabled"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={-1}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={false}
+        className="PrivateSwitchBase-input-1474"
+        disabled={true}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1475"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1476"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+  </span>,
+  <span
+    aria-disabled={true}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1471 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-1472 Mui-checked PrivateSwitchBase-disabled-1473 Mui-disabled MuiIconButton-colorSecondary Mui-disabled Mui-disabled"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={-1}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-1474"
+        disabled={true}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1475 PrivateRadioButtonIcon-checked-1477"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1476"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+  </span>,
+]
+`;
+
+exports[`Storyshots Components/Radio (selection control) Enabled 1`] = `
+Array [
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1464 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={false}
+        className="PrivateSwitchBase-input-1467"
+        disabled={false}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1468"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1469"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+  </span>,
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1464 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-1465 Mui-checked MuiIconButton-colorPrimary"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-1467"
+        disabled={false}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1468 PrivateRadioButtonIcon-checked-1470"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1469"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+  </span>,
+]
+`;
+
+exports[`Storyshots Components/Radio (selection control) Playground 1`] = `
+<span
+  aria-disabled={false}
+  className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1436 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-1437 Mui-checked MuiIconButton-colorSecondary"
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={null}
+>
+  <span
+    className="MuiIconButton-label"
+  >
+    <input
+      checked={true}
+      className="PrivateSwitchBase-input-1439"
+      disabled={false}
+      onChange={[Function]}
+      type="radio"
+    />
+    <div
+      className="PrivateRadioButtonIcon-root-1440 PrivateRadioButtonIcon-checked-1442"
+    >
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+        />
+      </svg>
+      <svg
+        aria-hidden={true}
+        className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1441"
+        focusable="false"
+        viewBox="0 0 24 24"
+      >
+        <path
+          d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+        />
+      </svg>
+    </div>
+  </span>
+</span>
+`;
+
+exports[`Storyshots Components/Radio (selection control) Primary Color 1`] = `
+Array [
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1443 MuiRadio-root MuiRadio-colorPrimary MuiIconButton-colorPrimary"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={false}
+        className="PrivateSwitchBase-input-1446"
+        disabled={false}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1447"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1448"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </span>,
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1443 MuiRadio-root MuiRadio-colorPrimary PrivateSwitchBase-checked-1444 Mui-checked MuiIconButton-colorPrimary"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-1446"
+        disabled={false}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1447 PrivateRadioButtonIcon-checked-1449"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1448"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </span>,
+]
+`;
+
+exports[`Storyshots Components/Radio (selection control) Secondary Color 1`] = `
+Array [
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1450 MuiRadio-root MuiRadio-colorSecondary MuiIconButton-colorSecondary"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={false}
+        className="PrivateSwitchBase-input-1453"
+        disabled={false}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1454"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1455"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+  </span>,
+  <span
+    aria-disabled={false}
+    className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-1450 MuiRadio-root MuiRadio-colorSecondary PrivateSwitchBase-checked-1451 Mui-checked MuiIconButton-colorSecondary"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={null}
+  >
+    <span
+      className="MuiIconButton-label"
+    >
+      <input
+        checked={true}
+        className="PrivateSwitchBase-input-1453"
+        disabled={false}
+        onChange={[Function]}
+        type="radio"
+      />
+      <div
+        className="PrivateRadioButtonIcon-root-1454 PrivateRadioButtonIcon-checked-1456"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 2C6.48 2 2 6.48 2 12s4.48 10 10 10 10-4.48 10-10S17.52 2 12 2zm0 18c-4.42 0-8-3.58-8-8s3.58-8 8-8 8 3.58 8 8-3.58 8-8 8z"
+          />
+        </svg>
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root PrivateRadioButtonIcon-layer-1455"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M8.465 8.465C9.37 7.56 10.62 7 12 7C14.76 7 17 9.24 17 12C17 13.38 16.44 14.63 15.535 15.535C14.63 16.44 13.38 17 12 17C9.24 17 7 14.76 7 12C7 10.62 7.56 9.37 8.465 8.465Z"
+          />
+        </svg>
+      </div>
+    </span>
+  </span>,
+]
+`;
