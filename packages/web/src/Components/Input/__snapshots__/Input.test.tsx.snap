@@ -1,0 +1,133 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component when hasIcon property is false should match snapshot 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-9"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input component when hasIcon property is true should match snapshot 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-8"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input component when multiline property is explicitly false should match snapshot 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-12"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input component when no props are provided should match snapshot 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-7"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input component when rows property is set and multiline property is explicitly false should match snapshot 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-14"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    rows={1}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input component when rows property is set should match snapshot 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-13"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    rows={1}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input component when state is error should match snapshot 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  data-state="error"
+  onClick={[Function]}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-10"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;
+
+exports[`Input component when state is success should match snapshot 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  data-state="success"
+  onClick={[Function]}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-11"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    type="text"
+  />
+</div>
+`;

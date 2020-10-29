@@ -24,7 +24,7 @@ const style = createStyles(
         "& [disabled], & [disabled]:focus, & [disabled]:hover": {
           boxShadow: `${palette?.text?.hint} 0 0 0 1px`,
           color: palette?.text?.hint,
-          opacity: opacity.opaque,
+          opacity: opacity?.opaque,
           "&::placeholder": {
             color: palette?.text?.secondary,
           },
@@ -38,17 +38,17 @@ const style = createStyles(
       input: {
         ...typography.body2,
         backgroundColor: "transparent",
-        border: sizes.none,
+        border: sizes?.none,
         borderRadius: shape?.borderRadius,
         boxShadow,
         boxSizing: "border-box",
         color: palette?.text?.primary,
         flex: "1 1 100%",
-        lineHeight: `${sizes.standard}px`,
-        minHeight: sizes.mediumX as number,
+        lineHeight: `${sizes?.standard}px`,
+        minHeight: sizes?.mediumX as number,
         outline: "none",
-        padding: sizes.small,
-        paddingRight: ({ hasIcon }: IInputProps) => (hasIcon ? sizes.large : sizes.small),
+        padding: sizes?.small,
+        paddingRight: ({ hasIcon }: IInputProps) => (hasIcon ? sizes?.large : sizes?.small),
         width: "100%",
         "&:hover:not(:read-only):not(:disabled):not(:focus)": {
           boxShadow: `${palette?.text?.secondary} 0 0 0 1px`,
@@ -58,8 +58,8 @@ const style = createStyles(
         },
         "&::-ms-clear": {
           display: "none",
-          height: sizes.none,
-          width: sizes.none,
+          height: sizes?.none,
+          width: sizes?.none,
         },
 
         /**
@@ -83,7 +83,7 @@ const style = createStyles(
       root: {
         display: "flex",
         flexFlow: "column nowrap",
-        padding: sizes.none,
+        padding: sizes?.none,
         "& svg, & .natds-icons": {
           fill: palette?.text?.primary,
         },
