@@ -64,6 +64,31 @@ Object {
     "standard": 48,
     "tiny": 24,
   },
+  "opacity": Object {
+    "00": 0,
+    "04": 0.04,
+    "08": 0.08,
+    "12": 0.12,
+    "16": 0.16,
+    "24": 0.24,
+    "32": 0.32,
+    "48": 0.48,
+    "56": 0.56,
+    "64": 0.64,
+    "80": 0.8,
+    "disabled": 0.32,
+    "disabledLow": 0.24,
+    "high": 0.64,
+    "low": 0.12,
+    "lower": 0.04,
+    "medium": 0.48,
+    "mediumHigh": 0.56,
+    "mediumLow": 0.16,
+    "opaque": 1,
+    "transparent": 0,
+    "veryHigh": 0.8,
+    "veryLow": 0.08,
+  },
   "overrides": Object {
     "MuiAlert": Object {
       "filledInfo": Object {
@@ -364,9 +389,6 @@ Object {
       },
     },
     "MuiFormLabel": Object {
-      "formControl": Object {
-        "transform": "none",
-      },
       "root": Object {
         "&.Mui-error": Object {
           "color": "#fafafa",
@@ -809,6 +831,31 @@ Object {
     "standard": 48,
     "tiny": 24,
   },
+  "opacity": Object {
+    "00": 0,
+    "04": 0.04,
+    "08": 0.08,
+    "12": 0.12,
+    "16": 0.16,
+    "24": 0.24,
+    "32": 0.32,
+    "48": 0.48,
+    "56": 0.56,
+    "64": 0.64,
+    "80": 0.8,
+    "disabled": 0.32,
+    "disabledLow": 0.24,
+    "high": 0.64,
+    "low": 0.12,
+    "lower": 0.04,
+    "medium": 0.48,
+    "mediumHigh": 0.56,
+    "mediumLow": 0.16,
+    "opaque": 1,
+    "transparent": 0,
+    "veryHigh": 0.8,
+    "veryLow": 0.08,
+  },
   "overrides": Object {
     "MuiAlert": Object {
       "filledInfo": Object {
@@ -1088,10 +1135,6 @@ Object {
       },
     },
     "MuiFormLabel": Object {
-      "formControl": Object {
-        "marginTop": "-4px",
-        "transform": "none",
-      },
       "root": Object {
         "&.Mui-error": Object {
           "color": "#e74627",
