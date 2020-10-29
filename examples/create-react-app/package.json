@@ -3,7 +3,7 @@
   "private": true,
   "description": "Example project for Design System React Web with create-react-app",
   "source": "src/index.js",
-  "version": "0.21.0-alpha.DSY-1501.8130.0",
+  "version": "0.21.39",
   "author": {
     "name": "Natura & Co. Design System",
     "email": "designsystem@natura.net"
@@ -33,12 +33,12 @@
     "web"
   ],
   "dependencies": {
-    "@naturacosmeticos/natds-web": "^0.21.0-alpha.DSY-1501.8130.0",
+    "@naturacosmeticos/natds-web": "^0.21.39",
     "react": "16.13.1",
     "react-dom": "16.13.1"
   },
   "devDependencies": {
-    "eslint": "7.8.1",
+    "eslint": "7.10.0",
     "eslint-plugin-react-hooks": "4.1.2",
     "react-scripts": "^3.4.2",
     "react-test-renderer": "^16.13.1"

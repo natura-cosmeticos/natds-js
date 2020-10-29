@@ -2,6 +2,9 @@
   "command": {
     "publish": {
       "conventionalCommits": true,
+      "ignoreChanges": [
+        "packages/icons/**"
+      ],
       "message": "chore(release): publish %s via lerna [skip ci]"
     }
   },
@@ -11,5 +14,5 @@
     "packages/*"
   ],
   "useWorkspaces": true,
-  "version": "0.21.0-alpha.DSY-1501.8130.0"
+  "version": "0.21.39"
 }
