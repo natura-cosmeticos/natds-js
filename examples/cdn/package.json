@@ -1,0 +1,31 @@
+{
+  "name": "@natds-js-examples/cdn",
+  "private": true,
+  "description": "Example project for Design System React Web with CDN",
+  "main": "src/index.html",
+  "scripts": {
+    "start": "open ./index.html"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/natura-cosmeticos/natds-js-examples.git",
+    "directory": "examples/cdn"
+  },
+  "keywords": [
+    "natds",
+    "examples",
+    "js",
+    "javascript",
+    "react",
+    "web",
+    "cdn"
+  ],
+  "author": "Natura & Co. <designsystem@natura.net>",
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/nxxatds-js-examples/issues"
+  },
+  "engines": {
+    "node": ">=9.3.0",
+    "npm": ">=5.7.0"
+  }
+}
