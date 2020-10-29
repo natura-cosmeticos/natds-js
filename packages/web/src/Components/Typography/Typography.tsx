@@ -4,17 +4,11 @@ import { ITypographyProps } from "./Typography.props";
 
 export { ITypographyProps } from "./Typography.props";
 
-// eslint-disable-next-line max-lines-per-function
-export const Typography = React.forwardRef<unknown, ITypographyProps>((
-  props: ITypographyProps,
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  ref: any,
+export const Typography = React.forwardRef<HTMLSpanElement | HTMLElement, ITypographyProps>((
+  props: ITypographyProps, ref,
 ) => {
   const {
-    align,
-    children,
-    variant,
-    ...rest
+    align, children, variant, ...rest
   } = props;
 
   return (
