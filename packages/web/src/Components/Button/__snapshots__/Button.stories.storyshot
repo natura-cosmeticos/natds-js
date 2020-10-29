@@ -1,0 +1,709 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Button Colors 1`] = `
+Array [
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-275 MuiButton-contained MuiButton-containedPrimary"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-276"
+    >
+      Primary color
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+  " ",
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-275 MuiButton-contained MuiButton-containedSecondary"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-276"
+    >
+      Secondary color
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+  " ",
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-275 MuiButton-contained"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-276"
+    >
+      Default color
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+  " ",
+]
+`;
+
+exports[`Storyshots Components/Button Contained Variant 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-259 MuiButton-contained MuiButton-containedPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-260"
+  >
+    Button component text
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Button Disabled 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-265 MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+  disabled={true}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-266"
+  >
+    Button component text
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button End Icon 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-271 MuiButton-contained MuiButton-containedPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-272"
+  >
+    Button component text
+    <span
+      className="MuiButton-endIcon MuiButton-iconSizeMedium"
+    >
+      <i
+        aria-hidden={true}
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-favorite NatDSIcon-root-273 NatDSIcon-root-274"
+      >
+        outlined-action-favorite
+      </i>
+    </span>
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button For Actions 1`] = `
+Array [
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-293 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-294"
+    >
+      Small size
+    </span>
+  </button>,
+  " ",
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-293 MuiButton-text"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-294"
+    >
+      Medium size
+    </span>
+  </button>,
+  " ",
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-293 MuiButton-text MuiButton-textSizeLarge MuiButton-sizeLarge"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-294"
+    >
+      Large size
+    </span>
+  </button>,
+  " ",
+]
+`;
+
+exports[`Storyshots Components/Button For Dialog Actions 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-281 MuiButton-text MuiButton-textPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-282"
+  >
+    Action text
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button For Snackbar 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-279 MuiButton-text MuiButton-colorInherit"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-280"
+  >
+    Button component text
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Button Full Width 1`] = `
+Array [
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-291 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-fullWidth"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-292"
+    >
+      Small size
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+  " ",
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-291 MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-292"
+    >
+      Medium size
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+  " ",
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-291 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-292"
+    >
+      Large size
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+  " ",
+]
+`;
+
+exports[`Storyshots Components/Button Inherit Color 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-277 MuiButton-contained MuiButton-colorInherit"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-278"
+  >
+    Button component text
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button Large Size 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-289 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-290"
+  >
+    Button component text
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button Medium Size 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-287 MuiButton-contained MuiButton-containedPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-288"
+  >
+    Button component text
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Button Outlined Variant 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-261 MuiButton-outlined MuiButton-outlinedPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-262"
+  >
+    Button component text
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button Playground 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-257 MuiButton-contained MuiButton-containedPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-258"
+  >
+    Button component text
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button Sizes 1`] = `
+Array [
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-283 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-284"
+    >
+      Small size
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+  " ",
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-283 MuiButton-contained MuiButton-containedPrimary"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-284"
+    >
+      Medium size
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+  " ",
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-283 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-284"
+    >
+      Large size
+    </span>
+    <span
+      className="MuiTouchRipple-root"
+    />
+  </button>,
+  " ",
+]
+`;
+
+exports[`Storyshots Components/Button Small Size 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-285 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-286"
+  >
+    Button component text
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Button Start Icon 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-267 MuiButton-contained MuiButton-containedPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-268"
+  >
+    <span
+      className="MuiButton-startIcon MuiButton-iconSizeMedium"
+    >
+      <i
+        aria-hidden={true}
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-favorite NatDSIcon-root-269 NatDSIcon-root-270"
+      >
+        outlined-action-favorite
+      </i>
+    </span>
+    Button component text
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Button Text Variant 1`] = `
+<button
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-263 MuiButton-text MuiButton-textPrimary"
+  disabled={false}
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiButton-label NatDSButton-label-264"
+  >
+    Button component text
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;

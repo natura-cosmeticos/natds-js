@@ -1,32 +1,13 @@
 import * as React from "react";
 import { Story } from "@storybook/react";
 import { Button, IButtonProps } from "./Button";
-import { argTypes } from "./Button.argTypes";
 import { Icon } from "../Icon";
-import * as IconStories from "../Icon/Icon.stories";
 import { colors } from "./__fixtures__/colors";
 import { sizes } from "./__fixtures__/sizes";
 import { variants } from "./__fixtures__/variants";
+import { Template, TemplateWithColors, TemplateWithSizes } from "./Template";
 
-export default {
-  argTypes,
-  component: Button,
-  title: "Components/Button",
-};
-
-const Template : Story<IButtonProps> = (args) => <Button {...args} />;
-
-const TemplateWithColors : Story<IButtonProps> = (args) => <>
-  <Button {...args} color={"primary"}>Primary color</Button>&nbsp;
-  <Button {...args} color={"secondary"}>Secondary color</Button>&nbsp;
-  <Button {...args} color={"default"}>Default color</Button>&nbsp;
-</>;
-
-const TemplateWithSizes : Story<IButtonProps> = (args) => <>
-  <Button {...args} size={"small"}>Small size</Button>&nbsp;
-  <Button {...args} size={"medium"}>Medium size</Button>&nbsp;
-  <Button {...args} size={"large"}>Large size</Button>&nbsp;
-</>;
+export default { component: Button, title: "Components/Button" };
 
 export const Playground : Story<IButtonProps> = Template.bind({});
 Playground.args = {
@@ -65,13 +46,13 @@ Disabled.args = {
 export const StartIcon : Story<IButtonProps> = Template.bind({});
 StartIcon.args = {
   ...Playground.args,
-  startIcon: <Icon name={"outlined-action-favorite"} {...IconStories.OutlinedFavoriteIcon.args} />,
+  startIcon: <Icon name={"outlined-action-favorite"} />,
 };
 
 export const EndIcon : Story<IButtonProps> = Template.bind({});
 EndIcon.args = {
   ...Playground.args,
-  endIcon: <Icon name={"outlined-action-favorite"} {...IconStories.OutlinedFavoriteIcon.args} />,
+  endIcon: <Icon name={"outlined-action-favorite"} />,
 };
 
 export const Colors : Story<IButtonProps> = TemplateWithColors.bind({});
@@ -90,11 +71,52 @@ InheritColor.parameters = {
   },
 };
 
+export const ForSnackbar : Story<IButtonProps> = Template.bind({});
+ForSnackbar.args = {
+  ...Playground.args,
+  color: colors.inherit,
+  variant: variants.text,
+};
+
+export const ForDialogActions : Story<IButtonProps> = Template.bind({});
+ForDialogActions.args = {
+  children: "Action text",
+  color: colors.primary,
+  variant: variants.text,
+};
+
 export const Sizes : Story<IButtonProps> = TemplateWithSizes.bind({});
 Sizes.args = Playground.args;
+
+/**
+ * @todo Check if small size is still part of UI specs
+ */
+export const SmallSize : Story<IButtonProps> = Template.bind({});
+SmallSize.args = {
+  ...Playground.args,
+  size: sizes.small,
+};
+
+export const MediumSize : Story<IButtonProps> = Template.bind({});
+MediumSize.args = {
+  ...Playground.args,
+  size: sizes.medium,
+};
+
+export const LargeSize : Story<IButtonProps> = Template.bind({});
+LargeSize.args = {
+  ...Playground.args,
+  size: sizes.large,
+};
 
 export const FullWidth : Story<IButtonProps> = TemplateWithSizes.bind({});
 FullWidth.args = {
   ...Playground.args,
   fullWidth: true,
+};
+
+export const ForActions : Story<IButtonProps> = TemplateWithSizes.bind({});
+ForActions.args = {
+  children: "Button label",
+  size: sizes.small,
 };
