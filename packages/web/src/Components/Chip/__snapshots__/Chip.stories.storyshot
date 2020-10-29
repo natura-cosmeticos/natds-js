@@ -1,0 +1,187 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Chip Clickable 1`] = `
+<div>
+  <div
+    className="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-clickable"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <span
+      className="MuiChip-label"
+    >
+      Label
+    </span>
+  </div>
+   
+  <div
+    className="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-outlined MuiChip-outlinedPrimary MuiChip-clickable"
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    role="button"
+    tabIndex={0}
+  >
+    <span
+      className="MuiChip-label"
+    >
+      Label
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Chip Default Variant 1`] = `
+<div
+  className="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-clickable"
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <span
+    className="MuiChip-label"
+  >
+    Label
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</div>
+`;
+
+exports[`Storyshots Components/Chip Disabled 1`] = `
+<div>
+  <div
+    aria-disabled={true}
+    className="MuiChip-root MuiChip-colorPrimary Mui-disabled"
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+  >
+    <span
+      className="MuiChip-label"
+    >
+      Label
+    </span>
+  </div>
+   
+  <div
+    aria-disabled={true}
+    className="MuiChip-root MuiChip-colorPrimary MuiChip-outlined MuiChip-outlinedPrimary Mui-disabled"
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+  >
+    <span
+      className="MuiChip-label"
+    >
+      Label
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Chip Outlined Variant 1`] = `
+<div
+  className="MuiButtonBase-root MuiChip-root MuiChip-colorPrimary MuiChip-clickableColorPrimary MuiChip-outlined MuiChip-outlinedPrimary MuiChip-clickable"
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <span
+    className="MuiChip-label"
+  >
+    Label
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/Chip Playground 1`] = `
+<div
+  className="MuiButtonBase-root MuiChip-root MuiChip-clickable"
+  onBlur={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="button"
+  tabIndex={0}
+>
+  <span
+    className="MuiChip-label"
+  >
+    Chip component label
+  </span>
+</div>
+`;
+
+exports[`Storyshots Components/Chip Standard 1`] = `
+<div>
+  <div
+    className="MuiChip-root MuiChip-colorPrimary"
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+  >
+    <span
+      className="MuiChip-label"
+    >
+      Label
+    </span>
+  </div>
+   
+  <div
+    className="MuiChip-root MuiChip-colorPrimary MuiChip-outlined MuiChip-outlinedPrimary"
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+  >
+    <span
+      className="MuiChip-label"
+    >
+      Label
+    </span>
+  </div>
+</div>
+`;

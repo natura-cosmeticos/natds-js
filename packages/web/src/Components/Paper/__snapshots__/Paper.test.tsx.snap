@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Paper components rendering variants should match to snapshot - default Paper: Paper default snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+/>
+`;
+
+exports[`Paper components rendering variants should match to snapshot - with elevation: Paper with elevation snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
+/>
+`;
+
+exports[`Paper components rendering variants should match to snapshot - with variant outlined square: Paper with variant outlined square snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-outlined"
+/>
+`;
+
+exports[`Paper components rendering variants should match to snapshot - with variant outlined: Paper with variant outlined snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-outlined MuiPaper-rounded"
+/>
+`;

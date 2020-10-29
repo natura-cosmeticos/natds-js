@@ -3,25 +3,28 @@ import { TableProps as MaterialTableProps } from "@material-ui/core/Table/Table"
 export interface ITableProps extends MaterialTableProps {
 
   /**
-   * With dividers
+   * Set dividers for `Table`.
    *
-   * @default false
+   * If `true`, `Table` will be rendered with dividers.
+   *
    * @optional
    */
   dividers?: boolean;
 
   /**
-   * With rounded borders
+   * Set rounded borders for `Table`.
    *
-   * @default false
+   * If `true`, `Table` will be rendered with rounded borders.
+   *
    * @optional
    */
   rounded?: boolean;
 
   /**
-   * With stripes
+   * Set stripes for `Table`.
    *
-   * @default false
+   * If `true`, `Table` will be rendered with stripes.
+   *
    * @optional
    */
   striped?: boolean;

@@ -1,0 +1,349 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Bottom Navigation/Bottom Navigation Action Playground 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-filled-default-mockup NatDSIcon-root-189 NatDSIcon-root-190"
+    >
+      filled-default-mockup
+    </i>
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-187"
+    >
+      Label text
+    </span>
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Bottom Navigation/Bottom Navigation Action With Cancel Icon 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-cancel NatDSIcon-root-193 NatDSIcon-root-194"
+    >
+      filled-action-cancel
+    </i>
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-191 MuiBottomNavigationAction-iconOnly"
+    >
+      Canceled orders
+    </span>
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Bottom Navigation/Bottom Navigation Action With Cancel Icon And Label 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-cancel NatDSIcon-root-197 NatDSIcon-root-198"
+    >
+      filled-action-cancel
+    </i>
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-195"
+    >
+      Canceled orders
+    </span>
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Bottom Navigation/Bottom Navigation Action With Check Icon 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-check NatDSIcon-root-201 NatDSIcon-root-202"
+    >
+      filled-action-check
+    </i>
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-199 MuiBottomNavigationAction-iconOnly"
+    >
+      Confirmed orders
+    </span>
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Bottom Navigation/Bottom Navigation Action With Check Icon And Label 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-check NatDSIcon-root-205 NatDSIcon-root-206"
+    >
+      filled-action-check
+    </i>
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-203"
+    >
+      Confirmed orders
+    </span>
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Bottom Navigation/Bottom Navigation Action With Home Icon 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-home NatDSIcon-root-217 NatDSIcon-root-218"
+    >
+      outlined-navigation-home
+    </i>
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-215 MuiBottomNavigationAction-iconOnly"
+    >
+      Home
+    </span>
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Bottom Navigation/Bottom Navigation Action With Home Icon And Label 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-home NatDSIcon-root-221 NatDSIcon-root-222"
+    >
+      outlined-navigation-home
+    </i>
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-219"
+    >
+      Home
+    </span>
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Bottom Navigation/Bottom Navigation Action With Play Icon 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-filled-media-play NatDSIcon-root-209 NatDSIcon-root-210"
+    >
+      filled-media-play
+    </i>
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-207 MuiBottomNavigationAction-iconOnly"
+    >
+      Training videos
+    </span>
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Bottom Navigation/Bottom Navigation Action With Play Icon And Label 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-filled-media-play NatDSIcon-root-213 NatDSIcon-root-214"
+    >
+      filled-media-play
+    </i>
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-211"
+    >
+      Training videos
+    </span>
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;

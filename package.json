@@ -48,7 +48,7 @@
     "url": "https://github.com/natura-cosmeticos/natds.git"
   },
   "scripts": {
-    "bootstrap": "lerna bootstrap",
+    "bootstrap": "lerna bootstrap --hoist --strict",
     "build": "lerna run build",
     "clean": "lerna clean",
     "cm": "git cz",
@@ -85,8 +85,8 @@
     "packages": [
       "examples/create-react-app",
       "examples/create-react-app-with-typescript",
+      "examples/gatsby",
       "examples/mdx-deck",
-      "packages/icons",
       "packages/styles",
       "packages/web"
     ],
@@ -103,6 +103,7 @@
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@naturacosmeticos/eslint-config-natura": "2.0.2",
+    "@storybook/addon-storyshots": "6.0.26",
     "@stryker-mutator/core": "3.3.1",
     "@stryker-mutator/javascript-mutator": "3.3.1",
     "@stryker-mutator/jest-runner": "3.3.1",
@@ -120,7 +121,6 @@
     "husky": "4.3.0",
     "jest": "26.4.2",
     "lerna": "3.22.1",
-    "netlify": "4.7.0",
     "shelljs": "0.8.4",
     "typescript": "4.0.2"
   },

@@ -1,0 +1,22 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputLabel component when no props are provided should match snapshot 1`] = `
+<label
+  className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-1 NatDSInputLabel-root-2 MuiInputLabel-animated MuiInputLabel-shrink"
+  data-shrink={true}
+/>
+`;
+
+exports[`InputLabel component when state is error should match snapshot 1`] = `
+<label
+  className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-1 NatDSInputLabel-root-3 MuiInputLabel-animated MuiInputLabel-shrink"
+  data-shrink={true}
+/>
+`;
+
+exports[`InputLabel component when state is success should match snapshot 1`] = `
+<label
+  className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-1 NatDSInputLabel-root-4 MuiInputLabel-animated MuiInputLabel-shrink"
+  data-shrink={true}
+/>
+`;

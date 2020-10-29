@@ -27,16 +27,14 @@ export const Icon = React.forwardRef<HTMLElement, IIconProps>(
       ...otherProps
     } = props;
 
-    const classes = useStyles();
-    const sizeClassNameKey = `${size}FontSize`;
+    const classes = useStyles({ name, size });
+    // const sizeClassNameKey = `${size}FontSize`;
 
     const classNames = clsx([
       "natds-icons",
       `natds-icons-${String(name)}`,
       className,
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-      // @ts-ignore
-      classes[sizeClassNameKey],
+      classes.root,
     ]);
 
     return <MaterialIcon className={classNames} component={"i"} ref={ref} {...otherProps}>{name}</MaterialIcon>;

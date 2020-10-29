@@ -17,6 +17,7 @@ import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
+import { opacity } from "../../tokens/opacity";
 
 const {
   colorTokens: {
@@ -37,6 +38,12 @@ export const theBodyShopLight: ITheme = {
   avatarSizes,
   buttonSizes,
   iconSizes,
+
+  /**
+   * @since 0.22
+   * @todo Adopt opacity tokens from theme
+   */
+  opacity,
   sizes,
   spacing: spacing.spacing,
   palette: {
@@ -434,10 +441,6 @@ export const theBodyShopLight: ITheme = {
         "&.Mui-error": {
           color: theBodyShopLightColorTokens.colorAlert,
         },
-      },
-      formControl: {
-        transform: "none",
-        marginTop: "-4px",
       },
     },
     MuiSelect: {

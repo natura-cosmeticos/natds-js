@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/no-var-requires */
+/* eslint-disable @typescript-eslint/no-var-requires,@typescript-eslint/explicit-module-boundary-types */
 const { merge } = require("webpack-merge");
 
 const KB = 1024;
@@ -18,4 +18,6 @@ const configOverrides = {
   },
 };
 
-module.exports = ({ config }) => merge(config, configOverrides);
+const webpackConfig = ({ config }) => merge(config, configOverrides);
+
+module.exports = webpackConfig;

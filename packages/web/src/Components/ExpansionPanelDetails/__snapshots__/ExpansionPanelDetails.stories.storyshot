@@ -1,0 +1,45 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Expansion Panel/Expansion Panel Details Playground 1`] = `
+<div
+  className="MuiAccordionDetails-root"
+>
+  Expansion panel details content
+</div>
+`;
+
+exports[`Storyshots Components/Expansion Panel/Expansion Panel Details With Subtitle 1 1`] = `
+<div
+  className="MuiAccordionDetails-root"
+>
+  <h6
+    className="MuiTypography-root MuiTypography-subtitle1"
+  >
+    Expansion panel details with subtitle 1 typography
+  </h6>
+</div>
+`;
+
+exports[`Storyshots Components/Expansion Panel/Expansion Panel Details With Subtitle 1 And Text Primary Color 1`] = `
+<div
+  className="MuiAccordionDetails-root"
+>
+  <h6
+    className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
+  >
+    This is a longer content text for expansion panel details with primary text color.
+  </h6>
+</div>
+`;
+
+exports[`Storyshots Components/Expansion Panel/Expansion Panel Details With Subtitle 1 And Text Secondary Color 1`] = `
+<div
+  className="MuiAccordionDetails-root"
+>
+  <h6
+    className="MuiTypography-root MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
+  >
+    This is a longer content text for expansion panel details with secondary text color.
+  </h6>
+</div>
+`;

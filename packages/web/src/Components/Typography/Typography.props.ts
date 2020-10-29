@@ -1,5 +1,4 @@
-import * as React from "react";
-import { TypographyClassKey, TypographyProps } from "@material-ui/core/Typography";
+import { TypographyProps } from "@material-ui/core/Typography";
 
 export type TypographyAlign = "inherit" | "left" | "center" | "right" | "justify";
 
@@ -34,80 +33,128 @@ export type TypographyVariant =
     | "inherit"
     | "srOnly";
 
-export interface ITypographyProps extends TypographyProps {
+export interface ITypographyProps extends Omit<TypographyProps, "children"> {
 
-    /**
-     * Variant that defines the typography based on the provided theme.
-     *
-     * Typography includes font size, line height, font family and font weight definitions,
-     * among others. When variant is `undefined`, it defaults to `body1`
-     *
-     * @default 'body1'
-     */
-    variant?: TypographyVariant;
+  /**
+   * Set the text-align on the component. Defaults to 'inherit'
+   *
+   * @default "inherit"
+   * @optional
+   * @type "inherit" | "left" | "center" | "right"
+   */
+  align?: TypographyAlign;
 
-    /**
-     * Set the text-align on the component. Defaults to 'inherit'
-     *
-     * @default 'inherit'
-     */
-    align?: TypographyAlign;
+  /**
+   * The inner content of `Typography`.
+   *
+   * Children nodes to apply the typography.
+   *
+   * @optional
+   * @type node
+   */
+  children?: TypographyProps["children"];
 
-    /**
-     * Override or extend the styles applied to the component
-     */
-    classes?: Partial<Record<TypographyClassKey, string>>;
+  /**
+   * Override or extend the styles applied to the component
+   *
+   * @optional
+   * @type object
+   */
+  classes?: TypographyProps["classes"];
 
-    /**
-     * The color of the component.
-     *
-     * It supports those theme colors that make sense for this component.
-     */
-    color?: TypographyColor;
+  /**
+   * The color of the component.
+   *
+   * It supports those theme colors that make sense for this component.
+   *
+   * @default "initial"
+   * @optional
+   * @type "error" | "inherit" | "initial" | "primary" | "secondary" | "textPrimary" | "textSecondary"
+   */
+  color?: TypographyColor;
 
-    /**
-     * If true, the text will not wrap, but instead will truncate
-     * with a text overflow ellipsis.
-     *
-     * Note that text overflow can only happen with block or inline-block level elements.
-     * The element needs to have a width in order to overflow).
-     *
-     * @default false
-     */
-    noWrap?: boolean;
+  /**
+   * The component used for the root node.
+   *
+   * Either a `string` to use a DOM element or a component.
+   * By default, it maps the variant to a good default headline component.
+   *
+   * @optional
+   * @type node
+   */
+  component?: TypographyProps["children"];
 
-    /**
-     * The inner content of Typography. Children nodes to apply the typography
-     */
-    children: React.ReactNode;
+  /**
+   * @optional
+   * @todo Add a description
+   */
+  css?: never
 
-    /**
-     * The component used for the root node. Either a string to use a DOM element
-     * or a component. By default, it maps the variant to a good default headline component.
-     */
-    component?: React.ElementType<React.HTMLAttributes<HTMLElement>>;
+  /**
+   * Controls the display type
+   *
+   * @default "initial"
+   * @optional
+   * @type "initial" | "inline" | "block"
+   */
+  display?: TypographyProps["display"]
 
-    /**
-     * If `true` and `component` property is `undefined`,
-     * the component used for Root Node will be `p`.
-     *
-     * If `true`, the text will have a bottom margin.
-     */
-    paragraph?: boolean;
+  /**
+   * If `true`, the text will have a bottom margin.
+   *
+   * @default false
+   * @optional
+   * @type bool
+   */
+  gutterBottom?: TypographyProps["gutterBottom"]
 
-    /**
-     * Maps the internal html tag variants,
-     * where the key is variant and the value is the tag to use.
-     * Alternatively, use the `component` property.
-     *
-     * We are empirically mapping the variant prop to a range of different DOM element types.
-     * For instance, subtitle1 to `<h6>`.
-     *
-     * If you wish to change that mapping, you can provide your own.
-     * Alternatively, you can use the `component` prop.
-     */
-    variantMapping?: Record<string, unknown>;
+  /**
+   * If true, the text will not wrap, but instead will truncate
+   * with a text overflow ellipsis.
+   *
+   * Note that text overflow can only happen with block or inline-block level elements.
+   * The element needs to have a width in order to overflow).
+   *
+   * @default false
+   * @optional
+   * @type bool
+   */
+  noWrap?: boolean;
 
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    css?: any;
+  /**
+   * If `true` and `component` property is `undefined`,
+   * the component used for root node will be `p`.
+   *
+   * If `true`, the text will have a bottom margin.
+   *
+   * @default false
+   * @type bool
+   */
+  paragraph?: boolean;
+
+  /**
+   * Variant that defines the typography based on the provided theme.
+   *
+   * Typography includes font size, line height, font family and font weight definitions,
+   * among others. When variant is `undefined`, it defaults to `body1`
+   *
+   * @default "body1"
+   * @optional
+   * @type "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "subtitle1" | "subtitle2" | "body1" | "body2" | "button" | "caption" | 'overline" | "inherit" | "srOnly"
+   */
+  variant?: TypographyProps["variant"];
+
+  /**
+   * Maps the internal html tag variants, where the key is variant and the value is the tag to use.
+   * Alternatively, use the `component` property.
+   *
+   * We are empirically mapping the variant prop to a range of different DOM element types.
+   * For instance, `subtitle1` to `<h6>`.
+   *
+   * If you wish to change that mapping, you can provide your own.
+   *
+   * @optional
+   * @type object
+   */
+  variantMapping?: TypographyProps["variantMapping"];
 }

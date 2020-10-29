@@ -1,14 +1,11 @@
-// eslint-disable-next-line @typescript-eslint/ban-ts-comment
-// @ts-ignore
 import hexToRgba from "hex-to-rgba";
 import { createStyles, makeStyles } from "@material-ui/core/styles";
 import { IThemeWeb } from "../../../Themes";
 
 const rgbAlpha = 0.16;
 
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const style = (theme: IThemeWeb) => {
-
-  console.log(theme);
 
   const styles = {
     selected: {},

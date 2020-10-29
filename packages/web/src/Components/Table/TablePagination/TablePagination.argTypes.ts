@@ -1,5 +1,6 @@
 import { ArgType } from "@storybook/addons";
 import { ITablePaginationProps } from "./TablePagination.props";
+import { objectArgType } from "../../../../.storybook/argTypes/objectArgType";
 
 export const argTypes : Record<keyof ITablePaginationProps | string, ArgType> = {
   ActionsComponent: {
@@ -10,12 +11,8 @@ export const argTypes : Record<keyof ITablePaginationProps | string, ArgType> = 
     },
   },
   backIconButtonProps: {
-    control: { type: "object" },
+    ...objectArgType,
     description: "Props applied to the back arrow `IconButton` component.",
-    table: {
-      type: { summary: "object" },
-    },
-    type: { name: "object", required: false },
   },
   backIconButtonText: {
     control: { type: "text" },
@@ -27,12 +24,31 @@ export const argTypes : Record<keyof ITablePaginationProps | string, ArgType> = 
     type: { name: "string", required: false },
   },
   classes: {
-    control: { type: "object" },
+    ...objectArgType,
     description: "Override or extend the styles applied to the component.",
+  },
+  component: {
+    description: "The component used for the root node. Either a string to use a HTML element or a component.",
     table: {
-      type: { summary: "object" },
+      defaultValue: { summary: "TableCell" },
+      type: { summary: "elementType" },
     },
-    type: { name: "object", required: false },
+  },
+  count: {
+    control: { min: -1, step: 1, type: "number" },
+    description: "The total number of rows. To enable server side pagination for an unknown number of items, provide `-1`.",
+    type: { name: "number", required: true },
+  },
+  labelDisplayedRows: {
+    description: "Customize the displayed rows label. Invoked with a `{ from, to, count, page }` object.",
+    table: {
+      defaultValue: {
+        // eslint-disable-next-line no-template-curly-in-string
+        detail: "({ from, to, count }) => ${from}-${to} of ${count !== -1 ? count : more than ${to}}",
+        summary: "({ from, to, count }) => string",
+      },
+      type: { summary: "func" },
+    },
   },
   labelRowsPerPage: {
     description: "Customize the rows per page label.",
@@ -42,12 +58,8 @@ export const argTypes : Record<keyof ITablePaginationProps | string, ArgType> = 
     },
   },
   nextIconButtonProps: {
-    control: { type: "object" },
+    ...objectArgType,
     description: "Props applied to the next arrow `IconButton` element.",
-    table: {
-      type: { summary: "object" },
-    },
-    type: { name: "object", required: false },
   },
   nextIconButtonText: {
     control: { type: "text" },
@@ -121,13 +133,12 @@ If less than two options are available, no select field will be displayed.
     },
   },
   SelectProps: {
-    control: { type: "object" },
+    ...objectArgType,
     description: "Props applied to the rows per page `Select` element.",
     table: {
+      ...objectArgType.table,
       defaultValue: { summary: "{}" },
-      type: { summary: "object" },
     },
-    type: { name: "object", required: false },
   },
 };
 

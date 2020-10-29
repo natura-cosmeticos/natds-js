@@ -1,105 +1,119 @@
-import * as React from "react";
 import { Story } from "@storybook/react";
-import { argTypes } from "./Typography.argTypes";
 
 import { ITypographyProps, Typography } from "./Typography";
-import { Container } from "../Container";
-import { useTypographyTokens } from "../../hooks/useTypographyTokens";
-import { TypographyVariant } from "./Typography.props";
-import variants from "./__fixtures__/variants";
+import { variants } from "./__fixtures__/variants";
+import { colors } from "./__fixtures__/colors";
+import { Template, TemplateWithVariants, TemplateWithAlignments } from "./Template";
 
-export default {
-  argTypes,
-  component: Typography,
-  title: "Components/Typography (text)",
-};
-
-const Template: Story<ITypographyProps> = (args) => <Typography {...args}>{args.children}</Typography>;
+export default { component: Typography, title: "Components/Typography (text)" };
 
 export const Playground: Story<ITypographyProps> = Template.bind({});
-Playground.args = {
-  children: "Text",
-};
-
-export const Variants: Story<ITypographyProps> = (args) => {
-
-  const typographyTokens = useTypographyTokens();
-
-  return (
-    <Container>
-      {
-        variants.map((variant: TypographyVariant) => (
-          <Typography {...args} display={"block"} key={variant} variant={variant}>
-            {variant} {typographyTokens[variant]?.fontSize}
-          </Typography>
-        ))
-      }
-    </Container>
-  );
-};
-Variants.storyName = "Variants";
-
-export const Alignments: Story<ITypographyProps> = (args) => (
-  <React.Fragment>
-    <Typography {...args} align={"left"}>left: {args.children || "Left alignment"}</Typography>
-    <Typography {...args} align={"center"}>center: {args.children || "Center alignment"}</Typography>
-    <Typography {...args} align={"right"}>right: {args.children || "Right alignment"}</Typography>
-  </React.Fragment>
-);
-Alignments.storyName = "Alignments";
+export const Variants: Story<ITypographyProps> = TemplateWithVariants.bind({});
+export const Alignments: Story<ITypographyProps> = TemplateWithAlignments.bind({});
 
 export const Heading1: Story<ITypographyProps> = Template.bind({});
 Heading1.args = {
   children: "Typography example",
-  variant: "h1",
+  variant: variants.h1,
 };
-Heading1.storyName = "Heading 1 (h1) example";
 
 export const Heading2: Story<ITypographyProps> = Template.bind({});
 Heading2.args = {
   children: "Typography example for heading level 2 (h2)",
-  variant: "h2",
+  variant: variants.h2,
 };
-Heading2.storyName = "Heading 2 (h2) example";
 
 export const Heading3: Story<ITypographyProps> = Template.bind({});
 Heading3.args = {
   children: "Typography example for heading level 3 (h3)",
-  variant: "h3",
+  variant: variants.h3,
 };
-Heading3.storyName = "Heading 3 (h3) example";
+
+export const Heading4: Story<ITypographyProps> = Template.bind({});
+Heading4.args = {
+  children: "Typography example for heading level 4 (h4)",
+  variant: variants.h4,
+};
+
+export const Heading6: Story<ITypographyProps> = Template.bind({});
+Heading6.args = {
+  children: "Typography example for heading level 6 (h6)",
+  variant: variants.h6,
+};
 
 export const Body1: Story<ITypographyProps> = Template.bind({});
 Body1.args = {
   children: "Typography example for body1 variant",
-  variant: "body1",
+  variant: variants.body1,
 };
-Body1.storyName = "Body1 example";
+
+export const Body2: Story<ITypographyProps> = Template.bind({});
+Body2.args = {
+  children: "Typography example for body2 variant",
+  variant: variants.body2,
+};
+
+export const Subtitle1: Story<ITypographyProps> = Template.bind({});
+Subtitle1.args = {
+  children: "Typography example for subtitle1 variant",
+  variant: variants.subtitle1,
+};
 
 export const Caption: Story<ITypographyProps> = Template.bind({});
 Caption.args = {
   children: "Typography example for caption variant",
-  variant: "caption",
+  variant: variants.caption,
 };
 
-export const AppBarTitle: Story<ITypographyProps> = Template.bind({});
-AppBarTitle.args = {
+export const Overline: Story<ITypographyProps> = Template.bind({});
+Overline.args = {
+  children: "Overline text",
+  variant: variants.overline,
+};
+
+export const ForAppBarTitle: Story<ITypographyProps> = Template.bind({});
+ForAppBarTitle.args = {
   children: "Typography example for AppBar contents",
   component: "h1",
-  style: {
-    flexGrow: 1,
-  },
-  variant: "h6",
+  variant: variants.h6,
 };
-AppBarTitle.storyName = "AppBar title";
 
-export const ProminentAppBarTitle: Story<ITypographyProps> = Template.bind({});
-ProminentAppBarTitle.args = {
-  ...AppBarTitle.args,
-  children: "Typography example for prominent AppBar contents",
-  style: {
-    ...AppBarTitle.args.style,
-    alignSelf: "flex-end",
-  },
+export const TextPrimaryColor : Story<ITypographyProps> = Template.bind({});
+TextPrimaryColor.args = {
+  children: "Typography with text primary color",
+  color: colors.textPrimary,
 };
-ProminentAppBarTitle.storyName = "Prominent AppBar title";
+
+export const TextSecondaryColor : Story<ITypographyProps> = Template.bind({});
+TextSecondaryColor.args = {
+  children: "Typography with text secondary color",
+  color: colors.textSecondary,
+};
+
+export const CaptionWithSecondaryText : Story<ITypographyProps> = Template.bind({});
+CaptionWithSecondaryText.args = {
+  ...Caption.args,
+  ...TextSecondaryColor.args,
+  children: "Typography with caption variant and text secondary color",
+};
+
+export const CaptionWithSecondaryParagraph : Story<ITypographyProps> = Template.bind({});
+CaptionWithSecondaryParagraph.args = {
+  ...CaptionWithSecondaryText.args,
+  children: "Paragraph with caption variant and text secondary",
+  paragraph: true,
+};
+
+export const Subtitle1WithTextPrimaryColor : Story<ITypographyProps> = Template.bind({});
+Subtitle1WithTextPrimaryColor.args = {
+  ...Subtitle1.args,
+  ...TextPrimaryColor.args,
+  children: "Subtitle 1 with text primary color",
+};
+
+export const Subtitle1WithTextSecondaryColor : Story<ITypographyProps> = Template.bind({});
+Subtitle1WithTextSecondaryColor.args = {
+  ...Subtitle1.args,
+  ...TextSecondaryColor.args,
+  children: "Subtitle 1 with text secondary color",
+};

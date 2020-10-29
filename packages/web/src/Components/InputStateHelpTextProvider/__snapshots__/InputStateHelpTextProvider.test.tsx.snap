@@ -1,0 +1,73 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[` 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
+`;
+
+exports[` 2`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
+`;
+
+exports[` 3`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
+`;
+
+exports[` 4`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
+`;
+
+exports[` 5`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-3 NatDSFormHelperText-root-4 Mui-error"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-cancel NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-5 NatDSIcon-root-6"
+    >
+      outlined-alert-cancel
+    </i>
+    Test help text
+  </p>
+</div>
+`;
+
+exports[` 6`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-3 NatDSFormHelperText-root-7"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-check NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-5 NatDSIcon-root-8"
+    >
+      outlined-alert-check
+    </i>
+    Test help text
+  </p>
+</div>
+`;
+
+exports[`InputStateHelpTextProvider component when state is error should match snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
+`;
+
+exports[`InputStateHelpTextProvider component when state is success should match snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
+`;

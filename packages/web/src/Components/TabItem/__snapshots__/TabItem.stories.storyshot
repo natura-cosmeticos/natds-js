@@ -1,0 +1,424 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Tabs/Tab Item Disabled 1`] = `
+<button
+  aria-controls="disabled-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit Mui-disabled MuiTab-labelIcon Mui-disabled"
+  disabled={true}
+  id="disabled-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-outlet NatDSIcon-root-2035 NatDSIcon-smallFontSize-2038"
+    >
+      outlined-product-outlet
+    </i>
+    Outlet
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item Playground 1`] = `
+<button
+  aria-controls="playground-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+  disabled={false}
+  id="playground-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item With Brands Product Icon 1`] = `
+<button
+  aria-controls="brandsproduct-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+  disabled={false}
+  id="brandsproduct-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-brandsproduct NatDSIcon-root-2051 NatDSIcon-smallFontSize-2054"
+    >
+      outlined-product-brandsproduct
+    </i>
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item With Brands Product Icon And Label 1`] = `
+<button
+  aria-controls="products-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon"
+  disabled={false}
+  id="products-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-brandsproduct NatDSIcon-root-2067 NatDSIcon-smallFontSize-2070"
+    >
+      outlined-product-brandsproduct
+    </i>
+    Products
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item With Label 1`] = `
+<button
+  aria-controls="simple-tab-0"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+  disabled={false}
+  id="simple-tab-0"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    Item One
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item With Love Icon 1`] = `
+<button
+  aria-controls="love-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+  disabled={false}
+  id="love-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-1971 NatDSIcon-smallFontSize-1974"
+    >
+      outlined-action-love
+    </i>
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item With Love Icon And Label 1`] = `
+<button
+  aria-controls="favorites-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon"
+  disabled={false}
+  id="favorites-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-1987 NatDSIcon-smallFontSize-1990"
+    >
+      outlined-action-love
+    </i>
+    Favorites
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item With Makeup Icon 1`] = `
+<button
+  aria-controls="makeup-icon-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+  disabled={false}
+  id="makeup-icon-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-makeup NatDSIcon-root-2083 NatDSIcon-smallFontSize-2086"
+    >
+      outlined-product-makeup
+    </i>
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item With Makeup Icon And Label 1`] = `
+<button
+  aria-controls="makeup-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon"
+  disabled={false}
+  id="makeup-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-makeup NatDSIcon-root-2099 NatDSIcon-smallFontSize-2102"
+    >
+      outlined-product-makeup
+    </i>
+    Makeup
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item With Outlet Icon 1`] = `
+<button
+  aria-controls="outlet-icon-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit"
+  disabled={false}
+  id="outlet-icon-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-outlet NatDSIcon-root-2003 NatDSIcon-smallFontSize-2006"
+    >
+      outlined-product-outlet
+    </i>
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item With Outlet Icon And Label 1`] = `
+<button
+  aria-controls="outlet-tab"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-labelIcon"
+  disabled={false}
+  id="outlet-tab"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-outlet NatDSIcon-root-2019 NatDSIcon-smallFontSize-2022"
+    >
+      outlined-product-outlet
+    </i>
+    Outlet
+  </span>
+</button>
+`;
+
+exports[`Storyshots Components/Tabs/Tab Item Wrapped 1`] = `
+<button
+  aria-controls="simple-tab-0-wrapped"
+  className="MuiButtonBase-root MuiTab-root MuiTab-textColorInherit MuiTab-wrapped"
+  disabled={false}
+  id="simple-tab-0-wrapped"
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  role="tab"
+  tabIndex={-1}
+  type="button"
+>
+  <span
+    className="MuiTab-wrapper"
+  >
+    Item One With Longest Text
+  </span>
+</button>
+`;

@@ -11,8 +11,6 @@ export const getFontSize : ({ size, theme }: IconFontSizeArgs) => string = ({ si
   /**
    * @todo fix TS7053: Element implicitly has an 'any' type, expression of type 'string' can't be used to index type {}
    */
-  // eslint-disable-next-line @typescript-eslint/ban-ts-comment
-  // @ts-ignore
   if (typeof theme !== "undefined" && typeof theme.iconSizes !== "undefined" && typeof theme.iconSizes[size] !== "undefined") {
     const { iconSizes } = theme;
     const fontSize = iconSizes[size];

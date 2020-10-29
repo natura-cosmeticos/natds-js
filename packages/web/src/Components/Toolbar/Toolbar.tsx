@@ -5,10 +5,8 @@ import { IToolbarProps } from "./Toolbar.props";
 import { useStyles } from "./Toolbar.styles";
 import { getVariantForMaterial } from "./getVariantForMaterial";
 
-export const Toolbar = React.forwardRef<unknown, IToolbarProps>(
-  (props: IToolbarProps,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ref: any) => {
+export const Toolbar = React.forwardRef<HTMLDivElement, IToolbarProps>(
+  (props: IToolbarProps, ref) => {
     const { className, variant, ...other } = props;
 
     const variantForMaterial = getVariantForMaterial({ variant });

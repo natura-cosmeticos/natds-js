@@ -1,5 +1,5 @@
 import Tooltip from "./Tooltip";
 
-export { ITooltipProps } from "./ITooltipProps";
+export { ITooltipProps } from "./Tooltip.props";
 export { Tooltip };
 export default Tooltip;

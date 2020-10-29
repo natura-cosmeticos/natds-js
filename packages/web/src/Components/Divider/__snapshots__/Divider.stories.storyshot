@@ -1,0 +1,172 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Divider Full Width Variant 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthSm"
+>
+  <div
+    className="MuiBox-root MuiBox-root-101 NatDSSpacing-root-99 NatDSSpacing-root-100 DividerDemo-container-98"
+  >
+    <span
+      className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+    >
+      This is a content before divider
+    </span>
+    <hr
+      className="MuiDivider-root"
+    />
+    <span
+      className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+    >
+      This is a content after divider
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Divider Full Width With Subheader Example 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthSm"
+>
+  <div
+    className="MuiBox-root MuiBox-root-113 NatDSSpacing-root-111 NatDSSpacing-root-112 DividerDemo-container-110"
+  >
+    <hr
+      className="MuiDivider-root"
+    />
+    <div
+      className="MuiBox-root MuiBox-root-115 NatDSSpacing-root-111 NatDSSpacing-root-114"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+      >
+        Subheader with 
+        fullWidth
+         variant
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Divider Inset Variant 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthSm"
+>
+  <div
+    className="MuiBox-root MuiBox-root-105 NatDSSpacing-root-103 NatDSSpacing-root-104 DividerDemo-container-102"
+  >
+    <span
+      className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+    >
+      This is a content before divider
+    </span>
+    <hr
+      className="MuiDivider-root MuiDivider-inset"
+    />
+    <span
+      className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+    >
+      This is a content after divider
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Divider Inset With Subheader Example 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthSm"
+>
+  <div
+    className="MuiBox-root MuiBox-root-119 NatDSSpacing-root-117 NatDSSpacing-root-118 DividerDemo-container-116"
+  >
+    <hr
+      className="MuiDivider-root MuiDivider-inset"
+    />
+    <div
+      className="MuiBox-root MuiBox-root-121 NatDSSpacing-root-117 NatDSSpacing-root-120"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+      >
+        Subheader with 
+        inset
+         variant
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Divider Middle Variant 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthSm"
+>
+  <div
+    className="MuiBox-root MuiBox-root-109 NatDSSpacing-root-107 NatDSSpacing-root-108 DividerDemo-container-106"
+  >
+    <span
+      className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+    >
+      This is a content before divider
+    </span>
+    <hr
+      className="MuiDivider-root MuiDivider-middle"
+    />
+    <span
+      className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+    >
+      This is a content after divider
+    </span>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Divider Middle With Subheader Example 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthSm"
+>
+  <div
+    className="MuiBox-root MuiBox-root-125 NatDSSpacing-root-123 NatDSSpacing-root-124 DividerDemo-container-122"
+  >
+    <hr
+      className="MuiDivider-root MuiDivider-middle"
+    />
+    <div
+      className="MuiBox-root MuiBox-root-127 NatDSSpacing-root-123 NatDSSpacing-root-126"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+      >
+        Subheader with 
+        middle
+         variant
+      </span>
+    </div>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Divider Playground 1`] = `
+<div
+  className="MuiContainer-root MuiContainer-maxWidthSm"
+>
+  <div
+    className="MuiBox-root MuiBox-root-97 NatDSSpacing-root-95 NatDSSpacing-root-96 DividerDemo-container-94"
+  >
+    <span
+      className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+    >
+      This is a content before divider
+    </span>
+    <hr
+      className="MuiDivider-root"
+    />
+    <span
+      className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary"
+    >
+      This is a content after divider
+    </span>
+  </div>
+</div>
+`;

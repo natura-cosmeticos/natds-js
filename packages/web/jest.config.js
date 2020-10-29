@@ -8,40 +8,49 @@ const webResources = "\\.(jpg|jpeg|png|gif|eot|otf|webp|svg|ttf|woff|woff2|mp4|w
 
 module.exports = {
   ...base,
-
-  /**
-   * @todo include Storybook files on collectCoverageFrom
-   */
   collectCoverageFrom: [
-    "src/**/*.{js,jsx,ts,tsx}",
+    "**/*.{js,jsx,ts,tsx}",
+    "!**/node_modules/**",
+    "!**/webpack.config.js",
+    "!.storybook/main.js",
+    "!.storybook/manager.js",
+    "!.storybook/decorators/ThemeProviderDecorator/index.js",
     "!src/**/*.stories.tsx",
-    "!src/**/*.argTypes.ts",
-    "!src/**/__fixtures__/*.ts",
     "!src/**/Template.tsx",
-    "!src/**/*.stories.meta.ts",
+    "!src/**/*.argTypes.ts",
     "!src/**/jest.config.js",
+    "!src/**/__fixtures__/*.ts",
+    "!src/**/*.props.ts",
+    "!src/Components/Dialog*/Dialog*.tsx",
+    "!src/Components/Drawer/Drawer.tsx",
+    "!src/Components/DrawerBody/DrawerBody.tsx",
+    "!src/Components/DrawerBody/DrawerBodyComponent/DrawerBodyComponent.tsx",
+    "!src/Components/DrawerMenu/DrawerMenuItem/DrawerMenuItem.tsx",
+    "!src/Components/DrawerMenu/DrawerMenuSection/DrawerMenuSection.tsx",
+    "!src/Components/Field/Field.tsx",
+    "!src/Components/Field/PasswordReveal/PasswordReveal.tsx",
+    "!src/Components/Popover/Popover.tsx",
+    "!src/Components/Popover/StyledPopper/StyledPopper.tsx",
+    "!src/Components/SnackbarContent/SnackbarContent.styles.ts",
+    "!src/Components/ToggleButton/ToggleButton.tsx",
     "!src/hooks/**/*.ts",
   ],
   displayName,
+  errorOnDeprecated: true,
   globalSetup: "./global-setup.js",
+  moduleDirectories: ["node_modules", "../../node_modules"],
   moduleNameMapper: {
-    [styleFiles]: "<rootDir>/config/test/styleMock.js",
-    [webResources]: "<rootDir>/config/test/fileMock.js",
+    [styleFiles]: "<rootDir>/config/test/styleMock.ts",
+    [webResources]: "<rootDir>/config/test/fileMock.ts",
   },
   name,
+  roots: ["<rootDir>/src", "<rootDir>/.storybook"],
   setupFilesAfterEnv: [
     "<rootDir>/config/test/setupEnzyme.ts", "<rootDir>/config/test/setupChai.ts",
   ],
   snapshotSerializers: ["enzyme-to-json/serializer"],
-  roots: ["<rootDir>/src", "<rootDir>/.storybook"],
-  testMatch: [
-    "<rootDir>/src/**/*.{spec,test}.{ts,tsx}", "<rootDir>/.storybook/**/*.{spec,test}.{ts,tsx}",
-  ],
-
-  /**
-   * @todo add support to JS and JSX files on testing
-   */
   transform: {
-    "^.+\\.tsx?$": "ts-jest",
+    "^.+\\.[tj]sx?$": "babel-jest",
+    "^.+\\.mdx?$": "@storybook/addon-docs/jest-transform-mdx",
   },
 };

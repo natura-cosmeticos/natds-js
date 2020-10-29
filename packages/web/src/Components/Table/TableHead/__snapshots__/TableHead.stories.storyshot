@@ -1,0 +1,202 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Table/Table Head Playground 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2161"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+        scope="col"
+      >
+        Header cell with text
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Head With Checkbox 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2163"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+        scope="col"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-2165 MuiCheckbox-root MuiCheckbox-colorPrimary MuiIconButton-colorPrimary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              aria-label="Select all items"
+              className="PrivateSwitchBase-input-2168"
+              data-indeterminate={false}
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 5v14H5V5h14m0-2H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2z"
+              />
+            </svg>
+          </span>
+        </span>
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Head With Indeterminate Checkbox 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2169"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+        scope="col"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiIconButton-root PrivateSwitchBase-root-2171 MuiCheckbox-root MuiCheckbox-colorSecondary MuiCheckbox-indeterminate MuiIconButton-colorSecondary"
+          onBlur={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          tabIndex={null}
+        >
+          <span
+            className="MuiIconButton-label"
+          >
+            <input
+              className="PrivateSwitchBase-input-2174"
+              data-indeterminate={true}
+              onChange={[Function]}
+              type="checkbox"
+            />
+            <svg
+              aria-hidden={true}
+              className="MuiSvgIcon-root"
+              focusable="false"
+              viewBox="0 0 24 24"
+            >
+              <path
+                d="M19 3H5c-1.1 0-2 .9-2 2v14c0 1.1.9 2 2 2h14c1.1 0 2-.9 2-2V5c0-1.1-.9-2-2-2zm-2 10H7v-2h10v2z"
+              />
+            </svg>
+          </span>
+          <span
+            className="MuiTouchRipple-root"
+          />
+        </span>
+      </th>
+    </tr>
+  </thead>
+</table>
+`;
+
+exports[`Storyshots Components/Table/Table Head With Table Sort 1`] = `
+<table
+  className="MuiTable-root makeStyles-root-2175"
+  role={null}
+>
+  <thead
+    className="MuiTableHead-root"
+    role={null}
+  >
+    <tr
+      className="MuiTableRow-root MuiTableRow-head"
+      role={null}
+    >
+      <th
+        aria-sort={null}
+        className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+        scope="col"
+      >
+        <span
+          aria-disabled={false}
+          className="MuiButtonBase-root MuiTableSortLabel-root"
+          onBlur={[Function]}
+          onClick={[Function]}
+          onDragLeave={[Function]}
+          onFocus={[Function]}
+          onKeyDown={[Function]}
+          onKeyUp={[Function]}
+          onMouseDown={[Function]}
+          onMouseLeave={[Function]}
+          onMouseUp={[Function]}
+          onTouchEnd={[Function]}
+          onTouchMove={[Function]}
+          onTouchStart={[Function]}
+          role="button"
+          tabIndex={0}
+        >
+          Cell with sort icon
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-order NatDSIcon-root-2177 NatDSIcon-microFontSize-2178"
+          >
+            outlined-action-order
+          </i>
+        </span>
+      </th>
+    </tr>
+  </thead>
+</table>
+`;

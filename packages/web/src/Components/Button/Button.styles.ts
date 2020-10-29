@@ -21,7 +21,7 @@ type ButtonStyles = {
 
 export const getRootStyles: (theme: IThemeWeb) => (ButtonRootStyles) = (theme) => {
 
-  if (typeof theme.sizes === "undefined" || typeof theme.sizes.small === "undefined") {
+  if (typeof theme === "undefined" || typeof theme.sizes === "undefined" || typeof theme.sizes.small === "undefined") {
     return {} as ButtonRootStyles;
   }
 
@@ -34,13 +34,13 @@ export const getRootStyles: (theme: IThemeWeb) => (ButtonRootStyles) = (theme) =
 
 export const getLabelStyles: (theme: IThemeWeb) => (ButtonLabelStyles) = (theme) => {
 
-  if (typeof theme.sizes === "undefined") {
+  if (typeof theme === "undefined" || typeof theme.sizes === "undefined") {
     return {} as ButtonLabelStyles;
   }
 
   return {
     lineHeight: `${theme.sizes.standard}px`,
-    height: theme.sizes.standard,
+    height: theme.sizes?.standard,
     marginBottom: theme.sizes.tiny,
     marginTop: theme.sizes.tiny,
   } as ButtonLabelStyles;

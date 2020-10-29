@@ -1,0 +1,714 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField component rendering state should match snapshot - TextField (custom icon with action): TextField custom icon with action snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-47 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-48 MuiInputBase-inputAdornedEnd"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value=""
+    />
+    <button
+      className="MuiButtonBase-root MuiIconButton-root NatDSCustomIcon-root-44 NatDSCustomIcon-root-49"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-50"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (custom icon): TextField custom icon snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-42 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-43 MuiInputBase-inputAdornedEnd"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value=""
+    />
+    <button
+      className="MuiButtonBase-root MuiIconButton-root NatDSCustomIcon-root-44 NatDSCustomIcon-root-45"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <svg
+          aria-hidden={true}
+          className="MuiSvgIcon-root"
+          focusable="false"
+          viewBox="0 0 24 24"
+        >
+          <path
+            d="M12 21.35l-1.45-1.32C5.4 15.36 2 12.28 2 8.5 2 5.42 4.42 3 7.5 3c1.74 0 3.41.81 4.5 2.09C13.09 3.81 14.76 3 16.5 3 19.58 3 22 5.42 22 8.5c0 3.78-3.4 6.86-8.55 11.54L12 21.35z"
+          />
+        </svg>
+      </span>
+    </button>
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-46"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (default with empty theme): TextField default with empty theme snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-60 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-61"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-62"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (default without placeholder): TextField default without placeholder snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-19 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-20"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder=""
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-21"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (default): TextField default snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-4 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-11"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-13"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (disabled): TextField disabled snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-39 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink Mui-disabled Mui-disabled"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline Mui-disabled Mui-disabled NatDSInput-disabled-5 MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-40 Mui-disabled Mui-disabled NatDSInput-disabled-5"
+      disabled={true}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-41 Mui-disabled"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (error): TextField error snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-30 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink Mui-error Mui-error"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    data-state="error"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-31"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-32 Mui-error"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-cancel NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-28 NatDSIcon-root-33"
+    >
+      outlined-alert-cancel
+    </i>
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (filled): TextField filled snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-22 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-23"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value="some value"
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-24"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (mask): TextField mask snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-51 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-52"
+      disabled={false}
+      id="field"
+      inputRef={[Function]}
+      mask={
+        Array [
+          "(",
+          /\\[1-9\\]/,
+          /\\\\d/,
+          ")",
+          " ",
+          /\\\\d/,
+          /\\\\d/,
+          /\\\\d/,
+          /\\\\d/,
+          /\\\\d/,
+          "-",
+          /\\\\d/,
+          /\\\\d/,
+          /\\\\d/,
+          /\\\\d/,
+        ]
+      }
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-53"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (property forwarded): TextField property forwarded snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-57 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-58"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="email"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-59"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (readonly explicitly set to false): TextField readonly explicitly set to false snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-16 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-17"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      readOnly={false}
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-18"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (readonly explicitly set to true): TextField readonly explicitly set to true snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-14 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-15"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      readOnly={true}
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (required without label): TextField required without label snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={true}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-37"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-38"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (required): TextField required snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-34 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label *
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={true}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-35"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={true}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-36"
+  >
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (success): TextField success snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-25 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    data-state="success"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-26"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-27"
+  >
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-check NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-28 NatDSIcon-root-29"
+    >
+      outlined-alert-check
+    </i>
+    Assistive text
+  </p>
+</div>
+`;
+
+exports[`TextField component rendering state should match snapshot - TextField (theme change): TextField theme change snapshot 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-54 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+    htmlFor="field"
+  >
+    Label
+  </label>
+  <div
+    className="MuiInputBase-root MuiInput-root NatDSInput-root-10 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    required={false}
+  >
+    <input
+      aria-invalid={false}
+      className="MuiInputBase-input MuiInput-input NatDSInput-input-7 NatDSInput-input-55"
+      disabled={false}
+      id="field"
+      onAnimationStart={[Function]}
+      onBlur={[Function]}
+      onChange={[Function]}
+      onFocus={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      type="text"
+      value=""
+    />
+  </div>
+  <p
+    className="MuiFormHelperText-root NatDSFormHelperText-root-12 NatDSFormHelperText-root-56"
+  >
+    Assistive text
+  </p>
+</div>
+`;

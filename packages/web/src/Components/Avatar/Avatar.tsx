@@ -15,10 +15,8 @@ import { Icon } from "../Icon";
  * import { Avatar } from "@naturacosmeticos/natds-web";
  * ```
  */
-export const Avatar = React.forwardRef<unknown, IAvatarProps>((
-  props: IAvatarProps,
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  ref: any,
+export const Avatar = React.forwardRef<HTMLDivElement, IAvatarProps>((
+  props: IAvatarProps, ref,
 ) => {
 
   const {

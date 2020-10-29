@@ -1,0 +1,213 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TableSortLabel component when active and direction is ascending should match snapshot 1`] = `
+<div
+  className="MuiTableContainer-root"
+>
+  <table
+    className="MuiTable-root makeStyles-root-1"
+    role={null}
+  >
+    <thead
+      className="MuiTableHead-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+        role={null}
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+          scope="col"
+        >
+          <span
+            aria-disabled={false}
+            className="MuiButtonBase-root MuiTableSortLabel-root MuiTableSortLabel-active"
+            onBlur={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <i
+              aria-hidden={true}
+              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-directiontop NatDSIcon-root-3 NatDSIcon-root-4"
+            >
+              outlined-navigation-directiontop
+            </i>
+          </span>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</div>
+`;
+
+exports[`TableSortLabel component when active and direction is descending should match snapshot 1`] = `
+<div
+  className="MuiTableContainer-root"
+>
+  <table
+    className="MuiTable-root makeStyles-root-5"
+    role={null}
+  >
+    <thead
+      className="MuiTableHead-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+        role={null}
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+          scope="col"
+        >
+          <span
+            aria-disabled={false}
+            className="MuiButtonBase-root MuiTableSortLabel-root MuiTableSortLabel-active"
+            onBlur={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            <i
+              aria-hidden={true}
+              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-directionbottom NatDSIcon-root-3 NatDSIcon-root-6"
+            >
+              outlined-navigation-directionbottom
+            </i>
+          </span>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</div>
+`;
+
+exports[`TableSortLabel component when active and with icon should match snapshot: TableSortLabel active with Icon 1`] = `
+<div
+  className="MuiTableContainer-root"
+>
+  <table
+    className="MuiTable-root makeStyles-root-7"
+    role={null}
+  >
+    <thead
+      className="MuiTableHead-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+        role={null}
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+          scope="col"
+        >
+          <span
+            aria-disabled={false}
+            className="MuiButtonBase-root MuiTableSortLabel-root MuiTableSortLabel-active"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            TableSortLabel test
+            <i
+              aria-hidden={true}
+              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-directionbottom NatDSIcon-root-3 NatDSIcon-root-8"
+            >
+              outlined-navigation-directionbottom
+            </i>
+          </span>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</div>
+`;
+
+exports[`TableSortLabel component when inactive and without icon should match snapshot: TableSortLabel active with Icon 1`] = `
+<div
+  className="MuiTableContainer-root"
+>
+  <table
+    className="MuiTable-root makeStyles-root-9"
+    role={null}
+  >
+    <thead
+      className="MuiTableHead-root"
+      role={null}
+    >
+      <tr
+        className="MuiTableRow-root MuiTableRow-head"
+        role={null}
+      >
+        <th
+          aria-sort={null}
+          className="MuiTableCell-root MuiTableCell-head MuiTableCell-alignCenter"
+          scope="col"
+        >
+          <span
+            aria-disabled={false}
+            className="MuiButtonBase-root MuiTableSortLabel-root"
+            onBlur={[Function]}
+            onClick={[Function]}
+            onDragLeave={[Function]}
+            onFocus={[Function]}
+            onKeyDown={[Function]}
+            onKeyUp={[Function]}
+            onMouseDown={[Function]}
+            onMouseLeave={[Function]}
+            onMouseUp={[Function]}
+            onTouchEnd={[Function]}
+            onTouchMove={[Function]}
+            onTouchStart={[Function]}
+            role="button"
+            tabIndex={0}
+          >
+            TableSortLabel test
+            <i
+              aria-hidden={true}
+              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-order NatDSIcon-root-3 NatDSIcon-root-10"
+            >
+              outlined-action-order
+            </i>
+          </span>
+        </th>
+      </tr>
+    </thead>
+  </table>
+</div>
+`;

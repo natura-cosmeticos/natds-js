@@ -1,34 +1,34 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Typography component when align prop is set to "center" should render and use the provided center align correctly 1`] = `
-<p
-  className="MuiTypography-root MuiTypography-body1 MuiTypography-alignCenter"
->
-  center
-</p>
-`;
-
-exports[`Typography component when align prop is set to "inherit" should render and use the provided inherit align correctly 1`] = `
+exports[`Typography component when align prop is set to "0" should render and use the provided 0 align correctly 1`] = `
 <p
   className="MuiTypography-root MuiTypography-body1"
 >
-  inherit
+  0
 </p>
 `;
 
-exports[`Typography component when align prop is set to "left" should render and use the provided left align correctly 1`] = `
+exports[`Typography component when align prop is set to "1" should render and use the provided 1 align correctly 1`] = `
 <p
-  className="MuiTypography-root MuiTypography-body1 MuiTypography-alignLeft"
+  className="MuiTypography-root MuiTypography-body1"
 >
-  left
+  1
 </p>
 `;
 
-exports[`Typography component when align prop is set to "right" should render and use the provided right align correctly 1`] = `
+exports[`Typography component when align prop is set to "2" should render and use the provided 2 align correctly 1`] = `
 <p
-  className="MuiTypography-root MuiTypography-body1 MuiTypography-alignRight"
+  className="MuiTypography-root MuiTypography-body1"
 >
-  right
+  2
+</p>
+`;
+
+exports[`Typography component when align prop is set to "3" should render and use the provided 3 align correctly 1`] = `
+<p
+  className="MuiTypography-root MuiTypography-body1"
+>
+  3
 </p>
 `;
 

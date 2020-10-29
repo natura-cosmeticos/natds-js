@@ -18,42 +18,38 @@ const useStyles = makeStyles((theme: IThemeWeb) => createStyles({
   },
   shape: {
     backgroundColor: "#FF00FF1A",
-
-    /**
-     * @todo check why IDE shows warning: 'semiX' should probably not be assigned to 'height'
-     */
-    height: theme.sizes.semiX,
-    width: theme.sizes.semiX,
+    height: theme.sizes.semiX as number,
+    width: theme.sizes.semiX as number,
   },
   shapeCircle: {
     borderRadius: theme.shape ? theme.shape.badgeBorderRadius : "",
   },
 }), { name: "BadgeDemo" });
 
-export const BadgeShapeCircleContent : Story<IBadgeProps> = (props) => {
-  const classes = useStyles();
+export const BadgeShapeCircleContent : Story<IBadgeProps> = (props: IBadgeProps) => {
+  const { shape, shapeCircle } = useStyles();
 
-  // eslint-disable-next-line dot-notation
-  return <div className={clsx(classes.shape, classes.shapeCircle)} {...props} />;
+  return <div className={clsx(shape, shapeCircle)} {...props} />;
 };
 
-export const BadgeShapeContent : Story<IBadgeProps> = (props) => {
-  const classes = useStyles();
+export const BadgeShapeContent : Story<IBadgeProps> = (props: IBadgeProps) => {
+  const { shape } = useStyles();
 
-  // eslint-disable-next-line dot-notation
-  return <div className={classes["shape"]} {...props} />;
+  return <div className={shape} {...props} />;
 };
 
-export const Template : Story<IBadgeProps> = (args) => <Badge {...args}>
-  {args.children || args.overlap === "circle" ? <BadgeShapeCircleContent /> : <BadgeShapeContent />}
-</Badge>;
+export const Template : Story<IBadgeProps> = (args: IBadgeProps) => (
+  <Badge {...args}>
+    {args.children && args.children}
+    {!args.children && (args.overlap === "circle" ? <BadgeShapeCircleContent /> : <BadgeShapeContent />)}
+  </Badge>
+);
 
-export const TemplateWithShapes : Story<IBadgeProps> = (args) => {
+export const TemplateWithShapes : Story<IBadgeProps> = (args: IBadgeProps) => {
 
-  const classes = useStyles();
+  const { root } = useStyles();
 
-  // eslint-disable-next-line dot-notation
-  return <div className={classes["root"]}>
+  return <div className={root}>
     <Badge {...args}>
       <BadgeShapeContent />
     </Badge>
@@ -61,7 +57,7 @@ export const TemplateWithShapes : Story<IBadgeProps> = (args) => {
       <BadgeShapeCircleContent />
     </Badge>
     <Badge {...args}>
-      {args.children || <Icon name={"outlined-communication-email"} {...IconStories.OutlinedEmailIcon.args} />}
+      {args.children || <Icon name={"outlined-communication-email"} />}
     </Badge>
   </div>;
 };

@@ -9,11 +9,10 @@
     }
   },
   "lerna": "3.16.4",
-  "npmClient": "yarn",
   "packages": [
     "examples/*",
     "packages/*"
   ],
   "useWorkspaces": true,
-  "version": "0.21.40-alpha.DSY-1519.7937.0"
+  "version": "0.21.39"
 }

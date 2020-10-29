@@ -13,14 +13,10 @@ export { IButtonProps } from "./Button.props";
  *
  * For more advanced usages, check [Material UI Button docs](https://material-ui.com/components/buttons/)
  */
-export const Button = React.forwardRef<unknown, IButtonProps>(
-  (
-    props: IButtonProps,
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    ref: any,
-  ) => {
+export const Button = React.forwardRef<HTMLButtonElement, IButtonProps>(
+  (props: IButtonProps, ref) => {
 
-    const { classes, ...otherProps } = props;
+    const { classes, disableElevation, ...otherProps } = props;
 
     const mergedClasses = {
       ...classes,
@@ -29,6 +25,7 @@ export const Button = React.forwardRef<unknown, IButtonProps>(
 
     return <MaterialButton
       classes={mergedClasses}
+      disableElevation={disableElevation}
       ref={ref}
       {...otherProps}
     />;

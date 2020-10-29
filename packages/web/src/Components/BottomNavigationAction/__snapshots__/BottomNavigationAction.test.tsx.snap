@@ -1,0 +1,62 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`BottomNavigationAction component when no props are provided should match snapshot 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root MuiBottomNavigationAction-iconOnly"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-1 MuiBottomNavigationAction-iconOnly"
+    />
+  </span>
+</button>
+`;
+
+exports[`BottomNavigationAction component when selected should match snapshot 1`] = `
+<button
+  className="MuiButtonBase-root MuiBottomNavigationAction-root Mui-selected NatDSBottomNavigationAction-selected-2"
+  disabled={false}
+  onBlur={[Function]}
+  onClick={[Function]}
+  onDragLeave={[Function]}
+  onFocus={[Function]}
+  onKeyDown={[Function]}
+  onKeyUp={[Function]}
+  onMouseDown={[Function]}
+  onMouseLeave={[Function]}
+  onMouseUp={[Function]}
+  onTouchEnd={[Function]}
+  onTouchMove={[Function]}
+  onTouchStart={[Function]}
+  tabIndex={0}
+  type="button"
+>
+  <span
+    className="MuiBottomNavigationAction-wrapper"
+  >
+    <span
+      className="MuiBottomNavigationAction-label NatDSBottomNavigationAction-label-1 Mui-selected NatDSBottomNavigationAction-selected-2"
+    />
+  </span>
+  <span
+    className="MuiTouchRipple-root"
+  />
+</button>
+`;

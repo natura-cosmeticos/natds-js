@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Action link component when both text and children properties are provided should render correctly 1`] = `
+<a
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-1 NatDSLink-default-3 popover-action-link MuiTypography-body2 MuiTypography-colorInherit"
+  onBlur={[Function]}
+  onFocus={[Function]}
+>
+  Test text
+</a>
+`;
+
+exports[`Action link component when no props are provided should match snapshot 1`] = `null`;
+
+exports[`Action link component when text property is provided should render correctly 1`] = `
+<a
+  className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-1 NatDSLink-default-2 popover-action-link MuiTypography-body2 MuiTypography-colorInherit"
+  onBlur={[Function]}
+  onFocus={[Function]}
+>
+  Test text
+</a>
+`;

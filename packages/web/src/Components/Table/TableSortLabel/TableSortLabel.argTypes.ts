@@ -78,6 +78,7 @@ export const argTypes : Record<keyof ITableSortLabelProps | string, ArgType> = {
     control: { type: "text" },
     type: { name: "string", required: false },
   },
+  onClick: {},
   onFocusVisible: {},
   tabIndex: {
     // eslint-disable-next-line no-magic-numbers

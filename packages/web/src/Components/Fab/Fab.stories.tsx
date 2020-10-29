@@ -5,9 +5,9 @@ import { Fab as component } from "./Fab";
 import { variants } from "./__fixtures__/variants";
 import { colors } from "./__fixtures__/colors";
 import { sizes } from "./__fixtures__/sizes";
-import * as IconStories from "../Icon/Icon.stories";
 import { Icon } from "../Icon";
 import { argTypes } from "./Fab.argTypes";
+import { SmallIcon } from "../Icon/Icon.stories";
 
 const Fab : React.ForwardRefExoticComponent<IFabProps> = React.lazy(() => import("./Fab"));
 
@@ -22,13 +22,12 @@ export default {
 
 const Template : Story<IFabProps> = (args) => <Fab {...args}>{args.children}</Fab>;
 
+/**
+ * @todo add support for choosing icon
+ */
 export const Playground : Story<IFabProps> = Template.bind({});
 Playground.args = {
-
-  /**
-   * @todo add support for choosing icon
-   */
-  children: <Icon name={"outlined-action-add"} {...IconStories.SmallAddIcon.args} />,
+  children: <Icon {...SmallIcon.args} name={"outlined-action-add"} />,
   color: colors.primary,
   size: sizes.large,
   variant: variants.round,
@@ -93,6 +92,6 @@ SmallSize.args = {
 export const LeadingIcon : Story<IFabProps> = Template.bind({});
 LeadingIcon.args = {
   ...Playground.args,
-  children: <><Icon name={"outlined-action-add"} {...IconStories.SmallAddIcon.args} /> Icon and text</>,
+  children: <><Icon {...SmallIcon.args} name={"outlined-action-add"} /> Icon and text</>,
   variant: variants.extended,
 };

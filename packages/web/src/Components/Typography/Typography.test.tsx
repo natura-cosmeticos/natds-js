@@ -41,8 +41,8 @@ describe("Typography component", () => {
       expect(testInstance.props.variant).toBe("body1");
     });
   });
-  // @ts-ignore
-  describe.each(aligns)("when align prop is set to %p", (actualAlign: TypographyAlign) => {
+
+  describe.each(Object.keys(aligns))("when align prop is set to %p", (actualAlign: TypographyAlign) => {
     beforeAll(() => {
       testRenderer = TestRenderer.create(
         <Typography align={actualAlign}>{actualAlign}</Typography>,
@@ -54,8 +54,8 @@ describe("Typography component", () => {
       expect(testInstance.props.align).toBe(actualAlign);
     });
   });
-  // @ts-ignore
-  describe.each(colors)("when color prop is set to %p", (actualColor: TypographyColor) => {
+
+  describe.each(Object.keys(colors))("when color prop is set to %p", (actualColor: TypographyColor) => {
     beforeAll(() => {
       testRenderer = TestRenderer.create(
         <Typography color={actualColor}>{actualColor}</Typography>,
@@ -77,8 +77,8 @@ describe("Typography component", () => {
       expect(testInstance.props.noWrap).toBe(true);
     });
   });
-  // @ts-ignore
-  describe.each(variants)("when variant prop is set to %p", (actualVariant: TypographyVariant) => {
+
+  describe.each(Object.keys(variants))("when variant prop is set to %p", (actualVariant: TypographyVariant) => {
     describe("when classes property is not provided", () => {
       beforeAll(() => {
         testRenderer = TestRenderer.create(<Typography variant={actualVariant}>{actualVariant}</Typography>);

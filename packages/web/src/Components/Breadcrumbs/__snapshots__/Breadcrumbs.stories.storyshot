@@ -1,0 +1,433 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Breadcrumbs Playground 1`] = `
+<nav
+  aria-label="Breadcrumbs"
+  className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+>
+  <ol
+    className="MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-223 NatDSLink-default-224 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Design System
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-223 NatDSLink-default-225 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Components
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        aria-current="page"
+        className="MuiTypography-root MuiLink-root MuiLink-underlineNone NatDSLink-default-223 NatDSLink-default-226 MuiTypography-body2 MuiTypography-colorTextPrimary"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Breadcrumbs
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Storyshots Components/Breadcrumbs Separated By Hyphens 1`] = `
+<nav
+  aria-label="Breadcrumbs"
+  className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+>
+  <ol
+    className="MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-231 NatDSLink-default-232 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Design System
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      -
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-231 NatDSLink-default-233 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Components
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      -
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        aria-current="page"
+        className="MuiTypography-root MuiLink-root MuiLink-underlineNone NatDSLink-default-231 NatDSLink-default-234 MuiTypography-body2 MuiTypography-colorTextPrimary"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Breadcrumbs
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Storyshots Components/Breadcrumbs Separated By Right Angle Quote 1`] = `
+<nav
+  aria-label="Breadcrumbs"
+  className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+>
+  <ol
+    className="MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-235 NatDSLink-default-236 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Design System
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      &gt;
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-235 NatDSLink-default-237 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Components
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      &gt;
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        aria-current="page"
+        className="MuiTypography-root MuiLink-root MuiLink-underlineNone NatDSLink-default-235 NatDSLink-default-238 MuiTypography-body2 MuiTypography-colorTextPrimary"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Breadcrumbs
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Storyshots Components/Breadcrumbs Separated By Slashes 1`] = `
+<nav
+  aria-label="Breadcrumbs"
+  className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+>
+  <ol
+    className="MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-227 NatDSLink-default-228 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Design System
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-227 NatDSLink-default-229 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Components
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        aria-current="page"
+        className="MuiTypography-root MuiLink-root MuiLink-underlineNone NatDSLink-default-227 NatDSLink-default-230 MuiTypography-body2 MuiTypography-colorTextPrimary"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Breadcrumbs
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Storyshots Components/Breadcrumbs With Icons And Body 1 1`] = `
+<nav
+  aria-label="Breadcrumb"
+  className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+>
+  <ol
+    className="MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-239 NatDSLink-default-240 MuiTypography-body1 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <div
+          className="MuiBox-root MuiBox-root-243 NatDSSpacing-root-241 NatDSSpacing-root-242"
+        >
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-home NatDSIcon-root-244 NatDSIcon-root-245"
+          >
+            outlined-navigation-home
+          </i>
+        </div>
+        Design System
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-239 NatDSLink-default-246 MuiTypography-body1 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Components
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        aria-current="page"
+        className="MuiTypography-root MuiLink-root MuiLink-underlineNone NatDSLink-default-239 NatDSLink-default-247 MuiTypography-body1 MuiTypography-colorTextPrimary"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Breadcrumbs
+      </a>
+    </li>
+  </ol>
+</nav>
+`;
+
+exports[`Storyshots Components/Breadcrumbs With Icons And Body 2 1`] = `
+<nav
+  aria-label="Breadcrumbs"
+  className="MuiTypography-root MuiBreadcrumbs-root MuiTypography-body1 MuiTypography-colorTextSecondary"
+>
+  <ol
+    className="MuiBreadcrumbs-ol"
+  >
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-248 NatDSLink-default-249 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+        style={
+          Object {
+            "display": "flex",
+          }
+        }
+      >
+        <div
+          className="MuiBox-root MuiBox-root-252 NatDSSpacing-root-250 NatDSSpacing-root-251"
+        >
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-home NatDSIcon-root-253 NatDSIcon-root-254"
+          >
+            outlined-navigation-home
+          </i>
+        </div>
+        Design System
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        className="MuiTypography-root MuiLink-root MuiLink-underlineHover NatDSLink-default-248 NatDSLink-default-255 MuiTypography-body2 MuiTypography-colorInherit"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Components
+      </a>
+    </li>
+    <li
+      aria-hidden={true}
+      className="MuiBreadcrumbs-separator"
+    >
+      /
+    </li>
+    <li
+      className="MuiBreadcrumbs-li"
+    >
+      <a
+        aria-current="page"
+        className="MuiTypography-root MuiLink-root MuiLink-underlineNone NatDSLink-default-248 NatDSLink-default-256 MuiTypography-body2 MuiTypography-colorTextPrimary"
+        href="#"
+        onBlur={[Function]}
+        onClick={[Function]}
+        onFocus={[Function]}
+        onKeyPress={[Function]}
+      >
+        Breadcrumbs
+      </a>
+    </li>
+  </ol>
+</nav>
+`;

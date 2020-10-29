@@ -1,17 +1,18 @@
 import * as React from "react";
 
 import clsx from "clsx";
+import { Box } from "@material-ui/core";
 import { ISpacingProps } from "./Spacing.props";
 import { useStyles } from "./Spacing.styles";
 
-export const Spacing = React.forwardRef<unknown, ISpacingProps>((
+export const Spacing : React.FunctionComponent<ISpacingProps> = (
   props: ISpacingProps,
-  ref: unknown,
 ) => {
   const {
     children,
     className,
     component: Component = "div",
+    display,
     // eslint-disable-next-line id-length
     m,
     margin,
@@ -42,6 +43,7 @@ export const Spacing = React.forwardRef<unknown, ISpacingProps>((
     pt,
     px,
     py,
+    style,
     ...otherProps
   } = props;
 
@@ -78,12 +80,16 @@ export const Spacing = React.forwardRef<unknown, ISpacingProps>((
     py,
   });
 
-  return <Component className={clsx(classes.root, className)}
+  return <Box
+    component={Component}
+    className={clsx(classes.root, className)}
+    display={display}
     {...otherProps}
-    ref={ref}>
+    style={style}
+  >
     {children}
-  </Component>;
-});
+  </Box>;
+};
 
 Spacing.displayName = "Spacing";
 export default Spacing;

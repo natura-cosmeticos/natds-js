@@ -5,6 +5,7 @@ export interface IThemeWeb
   extends Pick<ITheme,
     | "avatarSizes"
     | "iconSizes"
+    | "opacity"
     | "palette"
     | "shape"
     | "sizes"

@@ -14,7 +14,7 @@ export { IMenuProps } from "./Menu.props";
  * import { Menu } from '@naturacosmeticos/natds-web';
  * ```
  */
-export const Menu = React.forwardRef<unknown, IMenuProps>(
+export const Menu = React.forwardRef<HTMLElement, IMenuProps>(
   (props: IMenuProps, ref) => {
     const { open, ...otherProps } = props;
 

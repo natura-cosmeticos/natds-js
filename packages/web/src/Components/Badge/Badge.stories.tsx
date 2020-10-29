@@ -1,12 +1,16 @@
 import { Meta, Story } from "@storybook/react";
+import * as React from "react";
 import Badge from "./Badge";
 import { IBadgeProps } from "./Badge.props";
 import { colors } from "./__fixtures__/colors";
 import { variants } from "./__fixtures__/variants";
 import { anchorOrigins } from "./__fixtures__/anchorOrigins";
-import Template, { TemplateWithShapes } from "./Template";
+import { Template, TemplateWithShapes } from "./Template";
 import { argTypes } from "./Badge.argTypes";
 import { overlaps } from "./__fixtures__/overlaps";
+import { Icon } from "../Icon";
+import { TinyIcon } from "../Icon/Icon.stories";
+import { Typography } from "../Typography";
 
 export default {
   argTypes,
@@ -84,6 +88,16 @@ export const BottomRightAnchor : Story<IBadgeProps> = Template.bind({});
 BottomRightAnchor.args = {
   ...Playground.args,
   anchorOrigin: anchorOrigins.bottomRight,
+};
+
+export const WithFilterIcon : Story<IBadgeProps> = Template.bind({});
+WithFilterIcon.args = {
+  badgeContent: 1,
+  children: [
+    <Icon key={"icon"} {...TinyIcon.args} name={"outlined-action-filter"} />,
+    <Typography key={"srOnly"} variant={"srOnly"}>Filters (1 active)</Typography>,
+  ],
+  color: colors.secondary,
 };
 
 export const CircleOverlap : Story<IBadgeProps> = TemplateWithShapes.bind({});

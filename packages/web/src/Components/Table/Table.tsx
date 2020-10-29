@@ -10,6 +10,16 @@ import useDefaultTheme from "../../hooks/useDefaultTheme";
 
 export { ITableProps } from "./Table.props";
 
+/**
+ * For more advanced usages, check [Material UI Table docs](https://material-ui.com/pt/components/table/).
+ *
+ * ## Importing
+ *
+ * ```
+ * import { Table, TableContainer, TableHead, TableRow, TableCell, TableBody } from "@naturacosmeticos/natds-web";
+ * ```
+ *
+ */
 export const Table = React.forwardRef<HTMLTableElement, ITableProps>(
   (
     props: ITableProps,

@@ -5,9 +5,7 @@ We provide a `CssBaseline` component to kickstart an elegant and consistent base
 ## Import
 
 ```jsx
-import { CssBaseline } from "@naturacosmeticos/natds-react"
-// or
-import CssBaseline from "@naturacosmeticos/natds-react-css-baseline"
+import { CssBaseline } from "@naturacosmeticos/natds-web"
 ```
 
 ## Global reset
@@ -16,7 +14,7 @@ You might be familiar with `normalize.css`, a collection of HTML element and att
 
 ```jsx
 import React from "react";
-import CssBaseline from "@naturacosmeticos/natds-react-css-baseline"
+import { CssBaseline } from "@naturacosmeticos/natds-web"
 
 export const MyApp = () => (
   <React.Fragment>
@@ -35,7 +33,7 @@ It's possible to apply the baseline only to the children by using the `ScopedCss
 ```jsx
 import React from "react";
 import MyApp from "./MyApp";
-import ScopedCssBaseline from "@naturacosmeticos/natds-react-scoped-css-baseline"
+import ScopedCssBaseline from "@naturacosmeticos/natds-web"
 
 export const MyAppWithScopedStyles = () => (
   <ScopedCssBaseline>

@@ -2,7 +2,7 @@ import * as React from "react";
 import MaterialTablePagination from "@material-ui/core/TablePagination";
 import { ITablePaginationProps } from "./TablePagination.props";
 
-export const TablePagination = React.forwardRef<unknown, ITablePaginationProps>(
+export const TablePagination = React.forwardRef<HTMLElement, ITablePaginationProps>(
   (props: ITablePaginationProps, ref) => <MaterialTablePagination {...props} ref={ref} />,
 );
 

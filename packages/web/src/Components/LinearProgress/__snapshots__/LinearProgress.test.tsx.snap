@@ -1,0 +1,98 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant Buffer: With variant buffer snapshot 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={50}
+  className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-buffer"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-dashed MuiLinearProgress-dashedColorPrimary"
+  />
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Buffer"
+    style={
+      Object {
+        "transform": "translateX(-50%)",
+      }
+    }
+  />
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-colorPrimary MuiLinearProgress-bar2Buffer"
+    style={
+      Object {
+        "transform": "translateX(-30%)",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant determinate: With variant determinate snapshot 1`] = `
+<div
+  aria-valuemax={100}
+  aria-valuemin={0}
+  aria-valuenow={70}
+  className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-determinate"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Determinate"
+    style={
+      Object {
+        "transform": "translateX(-30%)",
+      }
+    }
+  />
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant indeterminate: With variant indeterminate snapshot 1`] = `
+<div
+  className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-indeterminate"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate"
+    style={Object {}}
+  />
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-bar2Indeterminate MuiLinearProgress-barColorPrimary"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match snapshot - with variant query: With variant query snapshot 1`] = `
+<div
+  className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-query"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate"
+    style={Object {}}
+  />
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-bar2Indeterminate MuiLinearProgress-barColorPrimary"
+    style={Object {}}
+  />
+</div>
+`;
+
+exports[`Circular Progress components rendering variants should match to snapshot - empty LinearProgress: LinearProgress empty snapshot 1`] = `
+<div
+  className="MuiLinearProgress-root MuiLinearProgress-colorPrimary MuiLinearProgress-indeterminate"
+  role="progressbar"
+>
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-barColorPrimary MuiLinearProgress-bar1Indeterminate"
+    style={Object {}}
+  />
+  <div
+    className="MuiLinearProgress-bar MuiLinearProgress-bar2Indeterminate MuiLinearProgress-barColorPrimary"
+    style={Object {}}
+  />
+</div>
+`;

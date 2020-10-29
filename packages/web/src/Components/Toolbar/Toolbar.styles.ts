@@ -20,6 +20,9 @@ export const styles : ({ sizes }: IThemeWeb) => StyleRules<"prominent"> = ({ siz
     minHeight: sizes ? `${sizes.hugeX}px` : null,
     paddingBottom: sizes ? `${sizes.small}px` : null,
     paddingTop: sizes ? `${sizes.tiny}px` : null,
+    "& .NatDSAppBarHighlight": {
+      alignSelf: "flex-end",
+    },
   } as ToolbarProminentStyles,
 } as ToolbarStyles);
 

@@ -2,6 +2,27 @@ import { getLabelStyles, getRootStyles } from "./Button.styles";
 import { IThemeWeb } from "../../Themes";
 
 describe("Button styles", () => {
+  describe("when theme is undefined", () => {
+    describe("root styles", () => {
+      it("should not be overridden", () => {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        const actual = getRootStyles();
+
+        expect(actual).toStrictEqual({});
+      });
+    });
+    describe("label styles", () => {
+      it("should not be overriden", () => {
+        // eslint-disable-next-line @typescript-eslint/ban-ts-comment
+        // @ts-ignore
+        const actual = getLabelStyles();
+
+        expect(actual).toStrictEqual({});
+      });
+    });
+  });
+
   describe("when theme sizes are undefined", () => {
     describe("root styles", () => {
       it("should be not overridden", () => {

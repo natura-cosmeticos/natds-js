@@ -1,0 +1,318 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Card Playground 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+  style={
+    Object {
+      "maxWidth": 328,
+    }
+  }
+>
+  <div
+    className="MuiCardHeader-root"
+  >
+    <div
+      className="MuiCardHeader-avatar"
+    >
+      <div
+        className="MuiAvatar-root NatDsAvatar-root-325 MuiAvatar-circle"
+      >
+        <img
+          alt="Nat Natura holding a cat"
+          className="MuiAvatar-img"
+          src="https://pbs.twimg.com/profile_images/1308179129267781632/wLDnEiOy_400x400.jpg"
+        />
+      </div>
+    </div>
+    <div
+      className="MuiCardHeader-content"
+    >
+      <span
+        className="MuiTypography-root MuiCardHeader-title MuiTypography-body2 MuiTypography-displayBlock"
+      >
+        Title text
+      </span>
+      <span
+        className="MuiTypography-root MuiCardHeader-subheader MuiTypography-body2 MuiTypography-colorTextSecondary MuiTypography-displayBlock"
+      >
+        Subheader text
+      </span>
+    </div>
+    <div
+      className="MuiCardHeader-action"
+    >
+      <button
+        aria-label="More"
+        className="MuiButtonBase-root MuiIconButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-filled-navigation-more NatDSIcon-root-327 NatDSIcon-root-328"
+          >
+            filled-navigation-more
+          </i>
+        </span>
+      </button>
+    </div>
+  </div>
+  <div
+    className="MuiCardMedia-root"
+    style={
+      Object {
+        "backgroundImage": "url(\\"https://zeroheight.com/uploads/CKp-xkMzUziuVtBy4yXxyg.jpg\\")",
+        "height": 184,
+      }
+    }
+    title="Card Media with image"
+  />
+  <div
+    className="MuiCardContent-root"
+  >
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      Card content with body2 typography variant
+    </p>
+  </div>
+  <div
+    className="MuiCardActions-root"
+  >
+    <button
+      aria-label="Add to favorites"
+      className="MuiButtonBase-root MuiIconButton-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <i
+          aria-hidden={true}
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-327 NatDSIcon-root-329"
+        >
+          outlined-action-love
+        </i>
+      </span>
+    </button>
+    <button
+      aria-label="Share"
+      className="MuiButtonBase-root MuiIconButton-root"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <i
+          aria-hidden={true}
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-share NatDSIcon-root-327 NatDSIcon-root-330"
+        >
+          outlined-action-share
+        </i>
+      </span>
+    </button>
+    <button
+      aria-expanded={false}
+      aria-label="Show more options"
+      className="MuiButtonBase-root MuiIconButton-root CardDemo-collapsedIcon-323"
+      disabled={false}
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiIconButton-label"
+      >
+        <i
+          aria-hidden={true}
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-327 NatDSIcon-root-331"
+        >
+          outlined-navigation-arrowbottom
+        </i>
+      </span>
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Card Simple 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+  style={
+    Object {
+      "maxWidth": 328,
+    }
+  }
+>
+  <div
+    className="MuiCardContent-root"
+  >
+    <span
+      className="MuiTypography-root MuiTypography-overline"
+    >
+      Overline text
+    </span>
+    <h6
+      className="MuiTypography-root MuiTypography-h6"
+    >
+      Typography example for heading level 6 (h6)
+    </h6>
+    <p
+      className="MuiTypography-root MuiTypography-caption MuiTypography-colorTextSecondary MuiTypography-paragraph"
+    >
+      Paragraph with caption variant and text secondary
+    </p>
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      Typography example for body2 variant
+    </p>
+  </div>
+  <div
+    className="MuiCardActions-root MuiCardActions-spacing"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-332 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-333"
+      >
+        Button label
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Card With Media 1`] = `
+<div
+  className="MuiPaper-root MuiCard-root MuiPaper-elevation1 MuiPaper-rounded"
+  style={
+    Object {
+      "maxWidth": 328,
+    }
+  }
+>
+  <div
+    className="MuiCardMedia-root"
+    style={
+      Object {
+        "backgroundImage": "url(\\"https://zeroheight.com/uploads/CKp-xkMzUziuVtBy4yXxyg.jpg\\")",
+        "height": 184,
+      }
+    }
+    title="Card Media with image"
+  />
+  <div
+    className="MuiCardContent-root"
+  >
+    <h6
+      className="MuiTypography-root MuiTypography-h6"
+    >
+      Typography example for heading level 6 (h6)
+    </h6>
+    <p
+      className="MuiTypography-root MuiTypography-body2"
+    >
+      Typography example for body2 variant
+    </p>
+  </div>
+  <div
+    className="MuiCardActions-root MuiCardActions-spacing"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-334 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-335"
+      >
+        Button label
+      </span>
+    </button>
+  </div>
+</div>
+`;

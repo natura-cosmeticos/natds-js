@@ -1,0 +1,19 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`FormHelpText when no state is provided should match snapshot 1`] = `
+<p
+  className="MuiFormHelperText-root NatDSFormHelperText-root-1 NatDSFormHelperText-root-2"
+/>
+`;
+
+exports[`FormHelpText when state is error is provided should match snapshot 1`] = `
+<p
+  className="MuiFormHelperText-root NatDSFormHelperText-root-1 NatDSFormHelperText-root-3"
+/>
+`;
+
+exports[`FormHelpText when state is success is provided should match snapshot 1`] = `
+<p
+  className="MuiFormHelperText-root NatDSFormHelperText-root-1 NatDSFormHelperText-root-4"
+/>
+`;

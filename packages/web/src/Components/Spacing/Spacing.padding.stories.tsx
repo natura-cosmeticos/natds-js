@@ -25,6 +25,10 @@ export const SemiPadding : Story<ISpacingProps> = Template.bind({});
 SemiPadding.args = { padding: "semi" };
 SemiPadding.storyName = `Semi padding (${semi}px)`;
 
+export const SemiPaddingTop : Story<ISpacingProps> = Template.bind({});
+SemiPaddingTop.args = { paddingTop: "semi" };
+SemiPaddingTop.storyName = `Semi Top Padding (${semi}px)`;
+
 export const StandardPadding : Story<ISpacingProps> = Template.bind({});
 StandardPadding.args = { padding: "standard" };
 StandardPadding.storyName = `Standard padding (${standard}px)`;

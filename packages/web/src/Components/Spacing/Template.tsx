@@ -18,7 +18,6 @@ export const Template : Story<ISpacingProps> = (args) => {
     },
     root: {
       backgroundColor: "#FF00FF1A",
-      display: "flex",
     },
     outer: {
       backgroundColor: "#FF00FF1A",
@@ -30,7 +29,7 @@ export const Template : Story<ISpacingProps> = (args) => {
   const classes = useStyles();
 
   return <div className={classes["outer"]}>
-    <Spacing className={classes["root"]} {...args}>
+    <Spacing className={classes["root"]} display={"flex"} {...args}>
       <Typography className={classes["inner"]}>{args.children || "Spacing content"}</Typography>
     </Spacing>
   </div>;
