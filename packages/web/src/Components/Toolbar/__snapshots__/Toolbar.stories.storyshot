@@ -1,0 +1,160 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/App Bar/Toolbar Playground 1`] = `
+<header
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation2"
+>
+  <div
+    className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
+  >
+    <div
+      className="NatDSSpacing-root-1290 NatDSSpacing-root-1291"
+    >
+      <button
+        className="MuiButtonBase-root MuiIconButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-filled-brand-naturarosacea NatDSIcon-root-1292 NatDSIcon-smallFontSize-1295"
+          >
+            filled-brand-naturarosacea
+          </i>
+        </span>
+      </button>
+    </div>
+    <h1
+      className="MuiTypography-root MuiTypography-h6"
+      style={
+        Object {
+          "flexGrow": 1,
+        }
+      }
+    >
+      AppBar text
+    </h1>
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-1308 MuiButton-contained MuiButton-colorInherit"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-1309"
+      >
+        Login
+      </span>
+    </button>
+  </div>
+</header>
+`;
+
+exports[`Storyshots Components/App Bar/Toolbar Prominent Toolbar 1`] = `
+<header
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorPrimary MuiPaper-elevation2"
+>
+  <div
+    className="MuiToolbar-root MuiToolbar-regular NatDSToolbar-prominent-1311 MuiToolbar-gutters"
+  >
+    <div
+      className="NatDSSpacing-root-1312 NatDSSpacing-root-1313"
+    >
+      <button
+        className="MuiButtonBase-root MuiIconButton-root"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiIconButton-label"
+        >
+          <i
+            aria-hidden={true}
+            className="material-icons MuiIcon-root natds-icons natds-icons-filled-brand-naturarosacea NatDSIcon-root-1314 NatDSIcon-smallFontSize-1317"
+          >
+            filled-brand-naturarosacea
+          </i>
+        </span>
+        <span
+          className="MuiTouchRipple-root"
+        />
+      </button>
+    </div>
+    <h1
+      className="MuiTypography-root MuiTypography-h6"
+      style={
+        Object {
+          "alignSelf": "flex-end",
+          "flexGrow": 1,
+        }
+      }
+    >
+      AppBar text
+    </h1>
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-1330 MuiButton-contained MuiButton-colorInherit"
+      disabled={false}
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-1331"
+      >
+        Login
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</header>
+`;
