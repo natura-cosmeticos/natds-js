@@ -7,25 +7,25 @@ import { ExpansionPanelDetails } from "../ExpansionPanelDetails";
 
 describe("ExpansionPanel component", () => {
   it("should match snapshot - Simple children", () => {
-    const testRenderer = TestRenderer.create(<ExpansionPanel><div>content</div></ExpansionPanel>).toJSON();
+    const testRenderer = TestRenderer.create(<ExpansionPanel><div>content</div></ExpansionPanel>);
 
     expect(testRenderer).toMatchSnapshot("ExpansionPanel with simple children");
   });
 
   it("should match snapshot - ExpansionPanelActions children", () => {
-    const testRenderer = TestRenderer.create(<ExpansionPanel><ExpansionPanelActions>content</ExpansionPanelActions></ExpansionPanel>).toJSON();
+    const testRenderer = TestRenderer.create(<ExpansionPanel><ExpansionPanelActions>content</ExpansionPanelActions></ExpansionPanel>);
 
     expect(testRenderer).toMatchSnapshot("ExpansionPanel with ExpansionPanelActions");
   });
 
   it("should match snapshot - ExpansionPanelDetails children", () => {
-    const testRenderer = TestRenderer.create(<ExpansionPanel><ExpansionPanelDetails>content</ExpansionPanelDetails></ExpansionPanel>).toJSON();
+    const testRenderer = TestRenderer.create(<ExpansionPanel><ExpansionPanelDetails>content</ExpansionPanelDetails></ExpansionPanel>);
 
     expect(testRenderer).toMatchSnapshot("ExpansionPanel with ExpansionPanelDetails");
   });
 
   it("should match snapshot - ExpansionPanelSummary children", () => {
-    const testRenderer = TestRenderer.create(<ExpansionPanel><ExpansionPanelSummary>content</ExpansionPanelSummary></ExpansionPanel>).toJSON();
+    const testRenderer = TestRenderer.create(<ExpansionPanel><ExpansionPanelSummary>content</ExpansionPanelSummary></ExpansionPanel>);
 
     expect(testRenderer).toMatchSnapshot("ExpansionPanel with ExpansionPanelSummary");
   });
@@ -35,7 +35,7 @@ describe("ExpansionPanel component", () => {
       <ExpansionPanelSummary>Summary</ExpansionPanelSummary>
       <ExpansionPanelDetails>Details</ExpansionPanelDetails>
       <ExpansionPanelActions>Actions</ExpansionPanelActions>
-    </ExpansionPanel>).toJSON();
+    </ExpansionPanel>);
 
     expect(testRenderer).toMatchSnapshot("ExpansionPanel with complete example");
   });
