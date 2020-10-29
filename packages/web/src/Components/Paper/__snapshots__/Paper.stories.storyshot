@@ -1,0 +1,121 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Components/Paper Default Elevation 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Components/Paper Elevation Variant 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <div
+    className="NatDSSpacing-root-1430 NatDSSpacing-root-1431"
+  >
+    <h3
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      This is a sheet of paper.
+    </h3>
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+    >
+      Paper can be used to build surface or other elements for your application.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Paper Outlined Square 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-outlined"
+>
+  <div
+    className="NatDSSpacing-root-1434 NatDSSpacing-root-1435"
+  >
+    <h3
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      This is a sheet of paper.
+    </h3>
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+    >
+      Paper can be used to build surface or other elements for your application.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Paper Outlined Variant 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-outlined MuiPaper-rounded"
+>
+  <div
+    className="NatDSSpacing-root-1432 NatDSSpacing-root-1433"
+  >
+    <h3
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      This is a sheet of paper.
+    </h3>
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+    >
+      Paper can be used to build surface or other elements for your application.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Paper Playground 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;
+
+exports[`Storyshots Components/Paper Three Elevation 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation3 MuiPaper-rounded"
+>
+  <div
+    className="NatDSSpacing-root-1428 NatDSSpacing-root-1429"
+  >
+    <h3
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-gutterBottom"
+    >
+      This is a sheet of paper.
+    </h3>
+    <p
+      className="MuiTypography-root MuiTypography-body1 MuiTypography-gutterBottom"
+    >
+      Paper can be used to build surface or other elements for your application.
+    </p>
+  </div>
+</div>
+`;
+
+exports[`Storyshots Components/Paper Zero Elevation 1`] = `
+<span
+  className="MuiSkeleton-root MuiSkeleton-text MuiSkeleton-pulse"
+  style={
+    Object {
+      "height": "",
+      "width": "",
+    }
+  }
+/>
+`;
