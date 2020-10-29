@@ -51,20 +51,20 @@ const listComplete = [
 
 describe("DrawerMenu component", () => {
   test("should match snapshot - DrawerMenu list", () => {
-    const component = TestRenderer.create(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />).toJSON();
+    const component = TestRenderer.create(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} />);
 
     expect(component).toMatchSnapshot();
   });
 
   test("should match snapshot - DrawerMenu custom component", () => {
-    const component = TestRenderer.create(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} component="section" />).toJSON();
+    const component = TestRenderer.create(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]} component="section" />);
 
     expect(component).toMatchSnapshot();
   });
 
   test("should match snapshot - DrawerMenu custom children", () => {
     const children = <div>some custom children</div>,
-      component = TestRenderer.create(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]}>{children}</DrawerMenu>).toJSON();
+      component = TestRenderer.create(<DrawerMenu list={listComplete as unknown as [IDrawerMenuSectionProps]}>{children}</DrawerMenu>);
 
     expect(component).toMatchSnapshot();
   });
