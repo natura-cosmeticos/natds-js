@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Fab component when Natura dark theme is provided should render correctly: Provider Natura Dark Theme Fab 1`] = `
+exports[`Fab component when Natura dark theme is provided should render correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-4 MuiFab-primary NatDSFab-primary-5"
   disabled={false}
@@ -29,7 +29,7 @@ exports[`Fab component when Natura dark theme is provided should render correctl
 </button>
 `;
 
-exports[`Fab component when Natura light theme is provided should render correctly: Provider Natura Light Theme Fab 1`] = `
+exports[`Fab component when Natura light theme is provided should render correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-7 MuiFab-primary NatDSFab-primary-8"
   disabled={false}
@@ -55,7 +55,7 @@ exports[`Fab component when Natura light theme is provided should render correct
 </button>
 `;
 
-exports[`Fab component when a color is specified should render color "light" correctly: Color light Fab 1`] = `
+exports[`Fab component when a color is specified should render color "light" correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1"
   disabled={false}
@@ -84,7 +84,7 @@ exports[`Fab component when a color is specified should render color "light" cor
 </button>
 `;
 
-exports[`Fab component when a color is specified should render color "primary" correctly: Color primary Fab 1`] = `
+exports[`Fab component when a color is specified should render color "primary" correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
@@ -113,7 +113,7 @@ exports[`Fab component when a color is specified should render color "primary" c
 </button>
 `;
 
-exports[`Fab component when a color is specified should render color "secondary" correctly: Color secondary Fab 1`] = `
+exports[`Fab component when a color is specified should render color "secondary" correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-secondary NatDSFab-secondary-3"
   disabled={false}
@@ -139,7 +139,7 @@ exports[`Fab component when a color is specified should render color "secondary"
 </button>
 `;
 
-exports[`Fab component when a size is specified should render size "large" correctly: Size large Fab 1`] = `
+exports[`Fab component when a size is specified should render size "large" correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
@@ -165,7 +165,7 @@ exports[`Fab component when a size is specified should render size "large" corre
 </button>
 `;
 
-exports[`Fab component when a size is specified should render size "medium" correctly: Size medium Fab 1`] = `
+exports[`Fab component when a size is specified should render size "medium" correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-sizeMedium MuiFab-primary NatDSFab-primary-2"
   disabled={false}
@@ -194,7 +194,7 @@ exports[`Fab component when a size is specified should render size "medium" corr
 </button>
 `;
 
-exports[`Fab component when a size is specified should render size "small" correctly: Size small Fab 1`] = `
+exports[`Fab component when a size is specified should render size "small" correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-sizeSmall MuiFab-primary NatDSFab-primary-2"
   disabled={false}
@@ -220,7 +220,7 @@ exports[`Fab component when a size is specified should render size "small" corre
 </button>
 `;
 
-exports[`Fab component when a variant is specified should render variant "extended" correctly: Size extended Fab 1`] = `
+exports[`Fab component when a variant is specified should render variant "extended" correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-extended MuiFab-primary NatDSFab-primary-2"
   disabled={false}
@@ -246,7 +246,7 @@ exports[`Fab component when a variant is specified should render variant "extend
 </button>
 `;
 
-exports[`Fab component when a variant is specified should render variant "round" correctly: Size round Fab 1`] = `
+exports[`Fab component when a variant is specified should render variant "round" correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
@@ -275,7 +275,7 @@ exports[`Fab component when a variant is specified should render variant "round"
 </button>
 `;
 
-exports[`Fab component when disabled is explicitly false should render correctly: Not Disabled Fab 1`] = `
+exports[`Fab component when disabled is explicitly false should render correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
@@ -301,7 +301,7 @@ exports[`Fab component when disabled is explicitly false should render correctly
 </button>
 `;
 
-exports[`Fab component when disabled is explicitly true should render correctly: Disabled Fab 1`] = `
+exports[`Fab component when disabled is explicitly true should render correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 Mui-disabled MuiFab-primary NatDSFab-primary-2 Mui-disabled"
   disabled={true}
@@ -327,7 +327,7 @@ exports[`Fab component when disabled is explicitly true should render correctly:
 </button>
 `;
 
-exports[`Fab component when no props are provided should render correctly: No Props Fab 1`] = `
+exports[`Fab component when no props are provided should render correctly 1`] = `
 <button
   className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
