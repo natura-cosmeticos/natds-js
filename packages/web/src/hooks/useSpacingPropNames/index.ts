@@ -1,5 +1,3 @@
-/* eslint-disable array-element-newline */
-
 import { SpacingStylePropKey, SpacingMarginAndPaddingProps } from "../../Components/Spacing/Spacing.props";
 
 type SpacingMarginAndPaddingPropsArray = Array<keyof SpacingMarginAndPaddingProps>;
