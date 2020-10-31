@@ -1,7 +1,7 @@
 import { themes as webThemes } from "./Themes";
 
 export const themes = { ...webThemes };
-export { Provider } from "./Provider";
+export { default as Provider, IProviderProps } from "./Provider";
 
 export { default as AppBar, IAppBarProps } from "./Components/AppBar";
 export { default as AppBarHighlight, AppBarHighlightProps } from "./Components/AppBarHighlight";
@@ -92,4 +92,5 @@ export { default as Toolbar, IToolbarProps } from "./Components/Toolbar";
 export { default as Tooltip, ITooltipProps } from "./Components/Tooltip";
 export { default as Typography, ITypographyProps } from "./Components/Typography";
 
+export { default as makeStyles } from "./styles/makeStyles";
 export { default as useSizeTokens } from "./hooks/useSizeTokens";
