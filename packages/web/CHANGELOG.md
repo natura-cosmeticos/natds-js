@@ -206,7 +206,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ### Features
 
-* **deps:** upgrade styled-components dependencies ([f5dbaed](https://github.com/natura-cosmeticos/natds-js/commit/f5dbaed6b1dcc4d5b8a79d3e2278d3aabdbc13f2))
 * **storybook:** add example story for Sign In UI ([5e4f96e](https://github.com/natura-cosmeticos/natds-js/commit/5e4f96e87a9735daeec863f406904123ebe1797e))
 
 
@@ -1523,11 +1522,6 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 
 ## [0.9.2-alpha.DSY-1162.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.9.1...v0.9.2-alpha.DSY-1162.0) (2020-07-10)
-
-
-### Bug Fixes
-
-* **deps:** upgrade styled-components dependencies ([0994087](https://github.com/natura-cosmeticos/natds-js/commit/09940877d8ae26df08288ece8e1885c63a575c4b))
 
 
 

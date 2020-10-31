@@ -84,7 +84,7 @@ Installing `@naturacosmeticos/natds-web` will also install the following package
 - `@material-ui/core`
 - `@naturacosmeticos/natds-icons`
 - `@naturacosmeticos/natds-styles`
-- `styled-components`
+- Other dependencies for styling.
 
 Thus, it is not necessary to install them separately to use the Design System.
 
