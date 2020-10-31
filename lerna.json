@@ -11,6 +11,7 @@
   "lerna": "3.16.4",
   "packages": [
     "examples/*",
+    "examples/single-spa/*",
     "packages/*"
   ],
   "useWorkspaces": true,
