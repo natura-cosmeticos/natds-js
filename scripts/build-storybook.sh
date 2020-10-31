@@ -29,7 +29,7 @@ echo "STORYBOOK Generating JSON report for Jest addon..."
 yarn run test:output
 
 echo "STORYBOOK Building Storybook..."
-yarn storybook:build -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
+yarn build-storybook-ci -o "${TRAVIS_BUILD_DIR}/../tmp/v${VERSION}" --quiet
 
 echo "STORYBOOK Going back to project root directory..."
 cd "${TRAVIS_BUILD_DIR}"
