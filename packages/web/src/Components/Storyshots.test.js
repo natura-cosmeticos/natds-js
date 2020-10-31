@@ -1,7 +1,9 @@
 import * as ReactDOM from "react-dom";
 import * as TestRenderer from "react-test-renderer";
 import initStoryshots, { Stories2SnapsConverter } from "@storybook/addon-storyshots";
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
+import createNodeMock from "../__mocks__/createNodeMock";
 
 jest.mock("react-dom");
 
@@ -9,14 +11,6 @@ const idsToIgnore = [
   // "components-chip--disabled",
 ];
 
-/**
- * The following components can not be tested with Storyshots because they use React Portal
- *
- * ✕ Components/Drawer
- * ✕ Components/Drawer Body
- * ✕ Components/Menu
- * ✕ Components/Menu/Menu Item
- */
 initStoryshots({
   framework: "react",
   test: ({ story, context, done }) => {
@@ -34,12 +28,10 @@ initStoryshots({
 
     const storyElement = story.render();
 
-    const testRenderer = TestRenderer.create(storyElement);
+    const testRenderer = TestRenderer.create(storyElement, { createNodeMock });
 
     if (snapshotFilename && !idsToIgnore.includes(story.id)) {
       expect(testRenderer).toMatchSpecificSnapshot(snapshotFilename);
-    } else {
-      console.info(`${story.id} is being ignored because a snapshot filename could not be found or story was ignored`);
     }
 
     if (typeof done === "function") {
