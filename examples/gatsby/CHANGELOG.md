@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.23.1](https://github.com/natura-cosmeticos/natds-js/compare/v0.23.0...v0.23.1) (2020-10-31)
+
+**Note:** Version bump only for package gatsby
+
+
+
+
+
 # [0.23.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.22.15...v0.23.0) (2020-10-31)
 
 **Note:** Version bump only for package gatsby

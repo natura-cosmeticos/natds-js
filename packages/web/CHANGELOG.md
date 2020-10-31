@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.23.1](https://github.com/natura-cosmeticos/natds-js/compare/v0.23.0...v0.23.1) (2020-10-31)
+
+
+### Bug Fixes
+
+* **web:** add support to importing createStyles ([9dfd6c8](https://github.com/natura-cosmeticos/natds-js/commit/9dfd6c86ebd0ad3b8b23572eb080c694becf94c2))
+
+
+
+
+
 # [0.23.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.22.15...v0.23.0) (2020-10-31)
 
 
