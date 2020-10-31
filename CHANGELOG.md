@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.23.0](https://github.com/natura-cosmeticos/natds/compare/v0.22.15...v0.23.0) (2020-10-31)
+
+
+### Features
+
+* wrap makeStyles from Material UI library ([20e44c7](https://github.com/natura-cosmeticos/natds/commit/20e44c7021187863d04cc1ddd4c03f7e7da7f2eb)), closes [#700](https://github.com/natura-cosmeticos/natds/issues/700)
+
+
+
+
+
 ## [0.22.15](https://github.com/natura-cosmeticos/natds/compare/v0.22.14...v0.22.15) (2020-10-31)
 
 

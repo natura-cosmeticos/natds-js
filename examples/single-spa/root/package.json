@@ -1,6 +1,6 @@
 {
   "name": "single-spa-root",
-  "version": "0.22.15",
+  "version": "0.23.0",
   "private": true,
   "scripts": {
     "start": "webpack-dev-server --mode=development --port 9000 --env.isLocal=true"
