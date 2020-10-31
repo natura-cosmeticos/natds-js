@@ -3,6 +3,14 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.22.15](https://github.com/natura-cosmeticos/natds-js/compare/v0.22.14...v0.22.15) (2020-10-31)
+
+**Note:** Version bump only for package create-react-app-with-typescript
+
+
+
+
+
 ## [0.22.14](https://github.com/natura-cosmeticos/natds-js/compare/v0.22.13...v0.22.14) (2020-10-31)
 
 **Note:** Version bump only for package create-react-app-with-typescript

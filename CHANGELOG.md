@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.22.15](https://github.com/natura-cosmeticos/natds/compare/v0.22.14...v0.22.15) (2020-10-31)
+
+
+### Bug Fixes
+
+* **deps:** security upgrade for dot-prop and node-forge deps ([46e14a5](https://github.com/natura-cosmeticos/natds/commit/46e14a5489aae7ca34d4f2a7a186325873d50a3c))
+* **storybook:** prevent errors on Tooltip story ([28fe3ef](https://github.com/natura-cosmeticos/natds/commit/28fe3effb6fffa34f12e655078549abb9c2dd4f4))
+* **storybook:** prevent errors when building storybook ([ffc1f62](https://github.com/natura-cosmeticos/natds/commit/ffc1f62884f878805fd1422961d336322b7c903c))
+* **tooltip:** prevent ref errors ([935f8b0](https://github.com/natura-cosmeticos/natds/commit/935f8b08b9d33894402b062d350f1ab7382c5879))
+
+
+
+
+
 ## [0.22.14](https://github.com/natura-cosmeticos/natds/compare/v0.22.13...v0.22.14) (2020-10-31)
 
 **Note:** Version bump only for package natds
