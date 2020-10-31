@@ -1,4 +1,5 @@
 import { Meta, Story } from "@storybook/react";
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { ITooltipProps, Tooltip } from "./Tooltip";
 
@@ -12,3 +13,6 @@ const Template : Story<ITooltipProps> = (args: ITooltipProps) => (
 );
 
 export const Playground : Story<ITooltipProps> = Template.bind({});
+Playground.args = {
+  children: <div>Tooltip content</div>,
+};
