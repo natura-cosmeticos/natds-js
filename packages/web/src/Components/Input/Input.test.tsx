@@ -1,36 +1,7 @@
 import * as React from "react";
 import * as TestRenderer from "react-test-renderer";
 import { Input } from "./Input";
-
-const mockClientHeight = 100;
-const mockClientWidth = 300;
-
-// eslint-disable-next-line @typescript-eslint/no-explicit-any
-const createNodeMock: (element: any) => (HTMLDivElement | null) = (element) => {
-  if (element.type === "div") {
-    const mockElement: HTMLDivElement = document.createElement("div");
-
-    mockElement.style.padding = "0";
-    Reflect.defineProperty(mockElement, "clientHeight", {
-      get() {
-        return mockClientHeight;
-      },
-      enumerable: true,
-      configurable: true,
-    });
-    Reflect.defineProperty(mockElement, "clientWidth", {
-      get() {
-        return mockClientWidth;
-      },
-      enumerable: true,
-      configurable: true,
-    });
-
-    return mockElement;
-  }
-
-  return null;
-};
+import { createNodeMock } from "../../__mocks__/createNodeMock";
 
 describe("Input component", () => {
   describe("when no props are provided", () => {
