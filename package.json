@@ -88,7 +88,7 @@
       "examples/create-react-app-with-typescript",
       "examples/gatsby",
       "examples/mdx-deck",
-      "examples/single-spa",
+      "examples/single-spa/root",
       "packages/styles",
       "packages/web"
     ],
@@ -139,6 +139,8 @@
     }
   },
   "resolutions": {
+    "dot-prop": "^5.2.0",
+    "node-forge": "^0.10.0",
     "react": "^16.13.1",
     "react-dom": "^16.13.1",
     "@types/react": "16.9.55"
