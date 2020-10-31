@@ -40,15 +40,11 @@ module.exports = {
   globalSetup: "./global-setup.js",
   moduleDirectories: ["node_modules", "../../node_modules"],
   moduleNameMapper: {
-    [styleFiles]: "<rootDir>/config/test/styleMock.ts",
-    [webResources]: "<rootDir>/config/test/fileMock.ts",
+    [styleFiles]: "<rootDir>/src/__mocks__/styleMock.ts",
+    [webResources]: "<rootDir>/src/__mocks__/fileMock.ts",
   },
   name,
   roots: ["<rootDir>/src", "<rootDir>/.storybook"],
-  setupFilesAfterEnv: [
-    "<rootDir>/config/test/setupEnzyme.ts", "<rootDir>/config/test/setupChai.ts",
-  ],
-  snapshotSerializers: ["enzyme-to-json/serializer"],
   transform: {
     "^.+\\.[tj]sx?$": "babel-jest",
     "^.+\\.mdx?$": "@storybook/addon-docs/jest-transform-mdx",
