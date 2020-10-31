@@ -50,4 +50,4 @@ jobs:
             branch: main
       after_deploy:
         - "cd ${TRAVIS_BUILD_DIR}/packages/web"
-        - "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
+        - "npx chromatic --exit-once-uploaded --project-token=$CHROMATIC_PROJECT_TOKEN"
