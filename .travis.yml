@@ -49,5 +49,5 @@ jobs:
           on:
             branch: main
       after_deploy:
-        - "chmod +x ./scripts/build-storybook.sh"
-        - "sh ./scripts/build-storybook.sh"
+        - "cd ${TRAVIS_BUILD_DIR}/packages/web"
+        - "npx chromatic --project-token=$CHROMATIC_PROJECT_TOKEN"
