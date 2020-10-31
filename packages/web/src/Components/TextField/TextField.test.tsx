@@ -1,5 +1,4 @@
-import "jest-styled-components";
-
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import * as TestRenderer from "react-test-renderer";
 
