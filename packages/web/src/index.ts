@@ -92,5 +92,6 @@ export { default as Toolbar, IToolbarProps } from "./Components/Toolbar";
 export { default as Tooltip, ITooltipProps } from "./Components/Tooltip";
 export { default as Typography, ITypographyProps } from "./Components/Typography";
 
+export { default as createStyles } from "./styles/makeStyles";
 export { default as makeStyles } from "./styles/makeStyles";
 export { default as useSizeTokens } from "./hooks/useSizeTokens";
