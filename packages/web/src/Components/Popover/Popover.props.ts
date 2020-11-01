@@ -1,20 +1,22 @@
 import { PopperProps } from "@material-ui/core/Popper/Popper";
 import * as React from "react";
 import { PopperPlacementType } from "@material-ui/core";
-import { IActionLink } from "./getActionLink/ActionLink.props";
+import { IActionLinkProps } from "./ActionLink";
 
 export interface IPopoverProps extends Omit<PopperProps, "placement"> {
 
   /**
    * @optional
-   * @type IActionLink
+   * @type IActionLinkProps
    */
-  actionLink?: IActionLink;
+  actionLink?: IActionLinkProps;
 
   /**
    * This is the reference element, or a function that returns the reference element
    *
    * It may be used to set the position of the popover.
+   *
+   * Its value should be an HTML element instance or a referenceObject.
    *
    * @optional
    * @type object | func

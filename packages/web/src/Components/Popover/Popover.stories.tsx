@@ -18,6 +18,7 @@ Playground.args = {
   placement: placements.bottom,
   id: "popover",
   maxWidth: 0,
+  open: false,
 };
 
 export const InitiallyOpen : Story<IPopoverProps> = Template.bind({});
