@@ -39,6 +39,16 @@ export interface IInputProps extends Omit<InputProps, OmittedProps> {
   inputComponent?: InputProps["inputComponent"]
 
   /**
+   * If `dense`, will adjust vertical spacing.
+   *
+   * This is normally obtained via context from `FormControl`.
+   * The `normal` value is not supported.
+   *
+   * @type "dense" | "none"
+   */
+  margin?: InputProps["margin"]
+
+  /**
    * Mask format. Based on [React Input Mask](https://github.com/sanniassin/react-input-mask)
    *
    * @optional
