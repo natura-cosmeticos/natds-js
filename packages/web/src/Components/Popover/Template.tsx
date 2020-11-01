@@ -35,6 +35,7 @@ export const Template : Story<IPopoverProps> = (args: IPopoverProps) => {
         anchorEl={anchor}
         id={args.id}
         open={isChromatic() ? args.open : open}
+        transition={isChromatic() ? false : args.transition}
       >
         {args.children}
       </Popover>

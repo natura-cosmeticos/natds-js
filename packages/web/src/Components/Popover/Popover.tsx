@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import Paper from "../Paper";
 import Typography from "../Typography";
