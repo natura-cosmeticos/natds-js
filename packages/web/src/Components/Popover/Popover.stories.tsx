@@ -109,6 +109,9 @@ RightEndPlacement.args = {
   id: "right-end-placement",
   placement: placements["right-end"],
 };
+RightEndPlacement.parameters = {
+  chromatic: { pauseAnimationAtEnd: true },
+};
 
 export const LeftPlacement : Story<IPopoverProps> = Template.bind({});
 LeftPlacement.args = {

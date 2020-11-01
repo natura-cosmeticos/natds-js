@@ -81,6 +81,9 @@ StaticVariantWithValue100.args = {
 
 export const DeterminateLiveExample : Story<ICircularProgressProps> = DynamicTemplate.bind({});
 DeterminateLiveExample.args = DeterminateVariant.args;
+DeterminateLiveExample.parameters = {
+  chromatic: { pauseAnimationAtEnd: true },
+};
 
 export const StaticLiveExample : Story<ICircularProgressProps> = TemplateForStatic.bind({});
 StaticLiveExample.args = StaticVariantWithValue5.args;

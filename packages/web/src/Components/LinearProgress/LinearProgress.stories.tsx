@@ -62,6 +62,9 @@ DeterminateLiveExample.args = {
   value: 0,
   variant: variants.determinate,
 };
+DeterminateLiveExample.parameters = {
+  chromatic: { pauseAnimationAtEnd: true },
+};
 
 export const BufferLiveExample : Story<ILinearProgressProps> = DynamicTemplate.bind({});
 BufferLiveExample.args = {
@@ -69,4 +72,7 @@ BufferLiveExample.args = {
   value: 0,
   valueBuffer: 10,
   variant: variants.buffer,
+};
+BufferLiveExample.parameters = {
+  chromatic: { pauseAnimationAtEnd: true },
 };
