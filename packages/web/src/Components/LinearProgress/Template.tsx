@@ -1,5 +1,9 @@
 import { Story } from "@storybook/react";
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import isChromatic from "chromatic/isChromatic";
 import { ILinearProgressProps } from "./LinearProgress.props";
 import { LinearProgress } from "./LinearProgress";
 import { argTypes } from "./LinearProgress.argTypes";
@@ -46,7 +50,11 @@ export const DynamicTemplate : Story<ILinearProgressProps> = (args: ILinearProgr
     };
   }, []);
 
-  return <LinearProgress {...args} value={value} valueBuffer={valueBuffer} />;
+  return <LinearProgress
+    {...args}
+    value={isChromatic() ? args.value : value}
+    valueBuffer={isChromatic() ? args.valueBuffer : valueBuffer}
+  />;
 
 };
 

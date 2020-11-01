@@ -1,5 +1,9 @@
 import { Story } from "@storybook/react";
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import isChromatic from "chromatic/isChromatic";
 import { IPopoverProps } from "./Popover.props";
 import { Spacing } from "../Spacing";
 import { VeryHugeMargin } from "../Spacing/Spacing.margin.stories";
@@ -30,7 +34,7 @@ export const Template : Story<IPopoverProps> = (args: IPopoverProps) => {
         {...args}
         anchorEl={anchor}
         id={args.id}
-        open={open}
+        open={isChromatic() ? args.open : open}
       >
         {args.children}
       </Popover>

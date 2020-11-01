@@ -1,7 +1,11 @@
 import { Story } from "@storybook/react";
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import createStyles from "@material-ui/core/styles/createStyles";
 import makeStyles from "@material-ui/core/styles/makeStyles";
+// eslint-disable-next-line @typescript-eslint/ban-ts-comment
+// @ts-ignore
+import isChromatic from "chromatic/isChromatic";
 import { ICircularProgressProps } from "./CircularProgress.props";
 import { CircularProgress } from "./CircularProgress";
 import { IThemeWeb } from "../../Themes";
@@ -40,7 +44,7 @@ export const DynamicTemplate : Story<ICircularProgressProps> = (args: ICircularP
   const [value] = useDynamicProgressValue(args.value);
 
   return (
-    <CircularProgress {...args} value={value} />
+    <CircularProgress {...args} value={isChromatic() ? args.value : value} />
   );
 
 };
@@ -96,9 +100,7 @@ export const TemplateForStatic : Story<ICircularProgressProps> = (args: ICircula
       <CircularProgress {...args} value={50}/>
       <CircularProgress {...args} value={75}/>
       <CircularProgress {...args} value={100}/>
-      <CircularProgress {...args} value={dynamicValue}/>
+      <CircularProgress {...args} value={isChromatic() ? args.value : dynamicValue}/>
     </div>
   );
 };
-
-export default Template;
