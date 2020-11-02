@@ -97,7 +97,7 @@ RightPlacement.args = {
   placement: placements.right,
 };
 RightPlacement.parameters = {
-  chromatic: { pauseAnimationAtEnd: true },
+  chromatic: { disable: true },
 };
 
 export const RightStartPlacement : Story<IPopoverProps> = Template.bind({});
