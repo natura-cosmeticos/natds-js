@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [0.23.12](https://github.com/natura-cosmeticos/natds/compare/v0.23.11...v0.23.12) (2020-11-02)
+
+
+### Bug Fixes
+
+* **deps:** upgrade styled-components to 5.2.1 ([3b9c017](https://github.com/natura-cosmeticos/natds/commit/3b9c01746feecc36404b3535e0da785b1fac1422))
+
+
+
+
+
 ## [0.23.11](https://github.com/natura-cosmeticos/natds/compare/v0.23.10...v0.23.11) (2020-11-02)
 
 **Note:** Version bump only for package natds
