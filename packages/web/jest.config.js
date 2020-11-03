@@ -29,6 +29,7 @@ module.exports = {
     "!src/Components/DrawerMenu/DrawerMenuSection/DrawerMenuSection.tsx",
     "!src/Components/Field/Field.tsx",
     "!src/Components/Field/PasswordReveal/PasswordReveal.tsx",
+    "!src/Components/Intro/Intro.styles.ts",
     "!src/Components/Popover/Popover.tsx",
     "!src/Components/SnackbarContent/SnackbarContent.styles.ts",
     "!src/Components/ToggleButton/ToggleButton.tsx",
