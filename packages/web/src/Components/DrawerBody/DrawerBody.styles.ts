@@ -6,6 +6,14 @@ type UseStylesArgs = {
   scrolled: boolean
 }
 
+export const boxShadow = ({ scrolled }: UseStylesArgs) => {
+  if (scrolled) {
+    return "rgba(0, 0, 0, .14) inset 0 9px 5px -5px";
+  }
+
+  return "none";
+};
+
 const style = ({ sizes }: IThemeWeb) => createStyles({
   root: {
     display: "flex",
@@ -13,13 +21,7 @@ const style = ({ sizes }: IThemeWeb) => createStyles({
     overflow: "hidden",
     position: "relative",
     "&::before": {
-      boxShadow: ({ scrolled }: UseStylesArgs) => {
-        if (scrolled) {
-          return "rgba(0, 0, 0, .14) inset 0 9px 5px -5px";
-        }
-
-        return "none";
-      },
+      boxShadow,
       content: "\"\"",
       height: sizes?.small,
       left: 0,
