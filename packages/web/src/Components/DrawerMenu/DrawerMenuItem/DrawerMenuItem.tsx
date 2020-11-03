@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { makeStyles } from "@material-ui/core";
 import ListSubheader from "../../ListSubheader";
@@ -7,7 +8,7 @@ import ListItemIcon from "../../ListItemIcon";
 import Icon from "../../Icon";
 import ListItemText from "../../ListItemText";
 import { IDrawerMenuItemProps } from "./DrawerMenuItem.props";
-import { getMenuItemText } from "../getMenuItemText";
+import { MenuItemText } from "../MenuItemText";
 import { IDrawerMenuSectionProps } from "../DrawerMenuSection";
 import { IThemeWeb } from "../../../Themes";
 
@@ -31,10 +32,10 @@ export const DrawerMenuItem = React.forwardRef<HTMLDivElement, IDrawerMenuItemPr
   }));
   const classes = useListItemStyles();
 
-  const useListItemIconStyles = makeStyles((theme: IThemeWeb) => makeStyles({
+  const useListItemIconStyles = makeStyles(({ sizes }: IThemeWeb) => makeStyles({
     root: {
-      marginRight: theme.sizes?.standard,
-      marginTop: 0,
+      marginRight: sizes?.standard,
+      marginTop: sizes?.none,
       minWidth: "auto",
     },
   }));
@@ -70,7 +71,9 @@ export const DrawerMenuItem = React.forwardRef<HTMLDivElement, IDrawerMenuItemPr
       button
       ref={ref}>
       {icon && <ListItemIcon classes={classesIcon}><Icon name={icon} size="tiny" /></ListItemIcon>}
-      <ListItemText>{getMenuItemText(props as IDrawerMenuSectionProps)}</ListItemText>
+      <ListItemText>
+        <MenuItemText {...props as IDrawerMenuSectionProps} />
+      </ListItemText>
     </ListItem>
   );
 });

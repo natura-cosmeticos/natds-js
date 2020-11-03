@@ -2,7 +2,7 @@
 
 exports[`DrawerMenu component should match snapshot - DrawerMenu custom children 1`] = `
 <div
-  className="sc-dlfnbm gQlDxm"
+  className="NatDSDrawerMenu-root-1"
 >
   <div>
     some custom children
@@ -12,14 +12,14 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu custom children
 
 exports[`DrawerMenu component should match snapshot - DrawerMenu custom component 1`] = `
 <section
-  className="sc-dlfnbm gQlDxm"
+  className="NatDSDrawerMenu-root-1"
 >
   <ul
-    className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-16"
+    className="MuiList-root MuiList-dense MuiList-padding NatDSDrawerMenu-listPadding-2"
   >
     <li
       aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-17 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-27 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
       onBlur={[Function]}
       onDragLeave={[Function]}
       onFocus={[Function]}
@@ -39,7 +39,7 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu custom componen
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-18"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-28"
         >
           outlined-action-love
         </i>
@@ -50,12 +50,283 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu custom componen
         <span
           className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
         >
-          Menu Item
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
         </span>
       </div>
       <span
         className="MuiTouchRipple-root"
       />
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-29 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root"
+      >
+        <i
+          aria-hidden={true}
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-30"
+        >
+          outlined-action-love
+        </i>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
+            data-type="standard"
+          >
+            Novo
+          </span>
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-32 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root makeStyles-root-34"
+      >
+        <i
+          aria-hidden={true}
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-35"
+        >
+          outlined-action-love
+        </i>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
+            data-type="standard"
+          >
+            Novo
+          </span>
+        </span>
+      </div>
+      <i
+        aria-hidden={true}
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-4 NatDSIcon-root-36"
+      >
+        outlined-navigation-arrowbottom
+      </i>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </li>
+    <li
+      className="MuiListSubheader-root MuiListSubheader-sticky MuiListSubheader-gutters"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-caption"
+      >
+        section
+      </span>
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-38 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root"
+      >
+        <i
+          aria-hidden={true}
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-39"
+        >
+          outlined-action-love
+        </i>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
+            data-type="standard"
+          >
+            Novo
+          </span>
+        </span>
+      </div>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </li>
+  </ul>
+</section>
+`;
+
+exports[`DrawerMenu component should match snapshot - DrawerMenu list 1`] = `
+<div
+  className="NatDSDrawerMenu-root-1"
+>
+  <ul
+    className="MuiList-root MuiList-dense MuiList-padding NatDSDrawerMenu-listPadding-2"
+  >
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-3 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root"
+      >
+        <i
+          aria-hidden={true}
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-5"
+        >
+          outlined-action-love
+        </i>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+        </span>
+      </div>
+    </li>
+    <li
+      aria-disabled={false}
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-7 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      role="button"
+      tabIndex={0}
+    >
+      <div
+        className="MuiListItemIcon-root"
+      >
+        <i
+          aria-hidden={true}
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-8"
+        >
+          outlined-action-love
+        </i>
+      </div>
+      <div
+        className="MuiListItemText-root MuiListItemText-dense"
+      >
+        <span
+          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
+        >
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
+          <span
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
+            data-type="standard"
+          >
+            Novo
+          </span>
+        </span>
+      </div>
     </li>
     <li
       aria-disabled={false}
@@ -76,11 +347,11 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu custom componen
       tabIndex={0}
     >
       <div
-        className="MuiListItemIcon-root"
+        className="MuiListItemIcon-root makeStyles-root-21"
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-20"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-22"
         >
           outlined-action-love
         </i>
@@ -97,65 +368,8 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu custom componen
             Menu Item
           </span>
           <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
             data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
-          >
-            Novo
-          </span>
-        </span>
-      </div>
-      <span
-        className="MuiTouchRipple-root"
-      />
-    </li>
-    <li
-      aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-22 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      role="button"
-      tabIndex={0}
-    >
-      <div
-        className="MuiListItemIcon-root makeStyles-root-24"
-      >
-        <i
-          aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-25"
-        >
-          outlined-action-love
-        </i>
-      </div>
-      <div
-        className="MuiListItemText-root MuiListItemText-dense"
-      >
-        <span
-          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
-        >
-          <span
-            className="MuiTypography-root MuiTypography-body2"
-          >
-            Menu Item
-          </span>
-          <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
-            data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
           >
             Novo
           </span>
@@ -163,228 +377,7 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu custom componen
       </div>
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-3 NatDSIcon-root-26"
-      >
-        outlined-navigation-arrowbottom
-      </i>
-      <span
-        className="MuiTouchRipple-root"
-      />
-    </li>
-    <li
-      className="MuiListSubheader-root MuiListSubheader-sticky MuiListSubheader-gutters"
-    >
-      <span
-        className="MuiTypography-root MuiTypography-caption"
-      >
-        section
-      </span>
-    </li>
-    <li
-      aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-28 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
-      onBlur={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      role="button"
-      tabIndex={0}
-    >
-      <div
-        className="MuiListItemIcon-root"
-      >
-        <i
-          aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-29"
-        >
-          outlined-action-love
-        </i>
-      </div>
-      <div
-        className="MuiListItemText-root MuiListItemText-dense"
-      >
-        <span
-          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
-        >
-          <span
-            className="MuiTypography-root MuiTypography-body2"
-          >
-            Menu Item
-          </span>
-          <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
-            data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
-          >
-            Novo
-          </span>
-        </span>
-      </div>
-      <span
-        className="MuiTouchRipple-root"
-      />
-    </li>
-  </ul>
-</section>
-`;
-
-exports[`DrawerMenu component should match snapshot - DrawerMenu list 1`] = `
-<div
-  className="sc-dlfnbm gQlDxm"
->
-  <ul
-    className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-1"
-  >
-    <li
-      aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-2 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
-      onBlur={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      role="button"
-      tabIndex={0}
-    >
-      <div
-        className="MuiListItemIcon-root"
-      >
-        <i
-          aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-4"
-        >
-          outlined-action-love
-        </i>
-      </div>
-      <div
-        className="MuiListItemText-root MuiListItemText-dense"
-      >
-        <span
-          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
-        >
-          Menu Item
-        </span>
-      </div>
-    </li>
-    <li
-      aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-5 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      role="button"
-      tabIndex={0}
-    >
-      <div
-        className="MuiListItemIcon-root"
-      >
-        <i
-          aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-6"
-        >
-          outlined-action-love
-        </i>
-      </div>
-      <div
-        className="MuiListItemText-root MuiListItemText-dense"
-      >
-        <span
-          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
-        >
-          <span
-            className="MuiTypography-root MuiTypography-body2"
-          >
-            Menu Item
-          </span>
-          <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
-            data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
-          >
-            Novo
-          </span>
-        </span>
-      </div>
-    </li>
-    <li
-      aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-8 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
-      onBlur={[Function]}
-      onClick={[Function]}
-      onDragLeave={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onKeyUp={[Function]}
-      onMouseDown={[Function]}
-      onMouseLeave={[Function]}
-      onMouseUp={[Function]}
-      onTouchEnd={[Function]}
-      onTouchMove={[Function]}
-      onTouchStart={[Function]}
-      role="button"
-      tabIndex={0}
-    >
-      <div
-        className="MuiListItemIcon-root makeStyles-root-10"
-      >
-        <i
-          aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-11"
-        >
-          outlined-action-love
-        </i>
-      </div>
-      <div
-        className="MuiListItemText-root MuiListItemText-dense"
-      >
-        <span
-          className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
-        >
-          <span
-            className="MuiTypography-root MuiTypography-body2"
-          >
-            Menu Item
-          </span>
-          <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
-            data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
-          >
-            Novo
-          </span>
-        </span>
-      </div>
-      <i
-        aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-3 NatDSIcon-root-12"
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-4 NatDSIcon-root-23"
       >
         outlined-navigation-arrowbottom
       </i>
@@ -400,7 +393,7 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu list 1`] = `
     </li>
     <li
       aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-14 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-25 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
       onBlur={[Function]}
       onDragLeave={[Function]}
       onFocus={[Function]}
@@ -420,7 +413,7 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu list 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-15"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-26"
         >
           outlined-action-love
         </i>
@@ -437,11 +430,8 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu list 1`] = `
             Menu Item
           </span>
           <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
             data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
           >
             Novo
           </span>
@@ -454,7 +444,7 @@ exports[`DrawerMenu component should match snapshot - DrawerMenu list 1`] = `
 
 exports[`DrawerMenu component should render custom children 1`] = `
 <div
-  className="sc-dlfnbm gQlDxm"
+  className="NatDSDrawerMenu-root-1"
 >
   <div
     className="custom"
@@ -466,14 +456,14 @@ exports[`DrawerMenu component should render custom children 1`] = `
 
 exports[`DrawerMenu component should render list item 1`] = `
 <div
-  className="sc-dlfnbm gQlDxm"
+  className="NatDSDrawerMenu-root-1"
 >
   <ul
-    className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-30"
+    className="MuiList-root MuiList-dense MuiList-padding NatDSDrawerMenu-listPadding-2"
   >
     <li
       aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-31 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-40 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
       onBlur={[Function]}
       onDragLeave={[Function]}
       onFocus={[Function]}
@@ -493,7 +483,7 @@ exports[`DrawerMenu component should render list item 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-32"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-41"
         >
           outlined-action-love
         </i>
@@ -504,7 +494,11 @@ exports[`DrawerMenu component should render list item 1`] = `
         <span
           className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
         >
-          Menu Item
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
         </span>
       </div>
     </li>
@@ -514,14 +508,14 @@ exports[`DrawerMenu component should render list item 1`] = `
 
 exports[`DrawerMenu component should render list item with badge 1`] = `
 <div
-  className="sc-dlfnbm gQlDxm"
+  className="NatDSDrawerMenu-root-1"
 >
   <ul
-    className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-33"
+    className="MuiList-root MuiList-dense MuiList-padding NatDSDrawerMenu-listPadding-2"
   >
     <li
       aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-34 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-42 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
       onBlur={[Function]}
       onDragLeave={[Function]}
       onFocus={[Function]}
@@ -541,7 +535,7 @@ exports[`DrawerMenu component should render list item with badge 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-35"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-43"
         >
           outlined-action-love
         </i>
@@ -558,11 +552,8 @@ exports[`DrawerMenu component should render list item with badge 1`] = `
             Menu Item
           </span>
           <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
             data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
           >
             badge
           </span>
@@ -578,14 +569,14 @@ exports[`DrawerMenu component should render list item with badge 1`] = `
 
 exports[`DrawerMenu component should render submenu item 1`] = `
 <div
-  className="sc-dlfnbm gQlDxm"
+  className="NatDSDrawerMenu-root-1"
 >
   <ul
-    className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-36"
+    className="MuiList-root MuiList-dense MuiList-padding NatDSDrawerMenu-listPadding-2"
   >
     <li
       aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-37 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-44 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
       onBlur={[Function]}
       onDragLeave={[Function]}
       onFocus={[Function]}
@@ -605,7 +596,7 @@ exports[`DrawerMenu component should render submenu item 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-38"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-45"
         >
           outlined-action-love
         </i>
@@ -616,13 +607,17 @@ exports[`DrawerMenu component should render submenu item 1`] = `
         <span
           className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
         >
-          Menu Item
+          <span
+            className="MuiTypography-root MuiTypography-body2"
+          >
+            Menu Item
+          </span>
         </span>
       </div>
     </li>
     <li
       aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-39 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-46 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
       onBlur={[Function]}
       onClick={[Function]}
       onDragLeave={[Function]}
@@ -643,7 +638,7 @@ exports[`DrawerMenu component should render submenu item 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-40"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-47"
         >
           outlined-action-love
         </i>
@@ -660,11 +655,8 @@ exports[`DrawerMenu component should render submenu item 1`] = `
             Menu Item
           </span>
           <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
             data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
           >
             Novo
           </span>
@@ -673,7 +665,7 @@ exports[`DrawerMenu component should render submenu item 1`] = `
     </li>
     <li
       aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-42 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-49 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
       onBlur={[Function]}
       onClick={[Function]}
       onDragLeave={[Function]}
@@ -690,11 +682,11 @@ exports[`DrawerMenu component should render submenu item 1`] = `
       tabIndex={0}
     >
       <div
-        className="MuiListItemIcon-root makeStyles-root-44"
+        className="MuiListItemIcon-root makeStyles-root-51"
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-45"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-52"
         >
           outlined-action-love
         </i>
@@ -711,11 +703,8 @@ exports[`DrawerMenu component should render submenu item 1`] = `
             Menu Item
           </span>
           <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
             data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
           >
             Novo
           </span>
@@ -723,7 +712,7 @@ exports[`DrawerMenu component should render submenu item 1`] = `
       </div>
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-3 NatDSIcon-root-46"
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-4 NatDSIcon-root-53"
       >
         outlined-navigation-arrowbottom
       </i>
@@ -739,7 +728,7 @@ exports[`DrawerMenu component should render submenu item 1`] = `
     </li>
     <li
       aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-48 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-55 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
       onBlur={[Function]}
       onDragLeave={[Function]}
       onFocus={[Function]}
@@ -759,7 +748,7 @@ exports[`DrawerMenu component should render submenu item 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-49"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-56"
         >
           outlined-action-love
         </i>
@@ -776,11 +765,8 @@ exports[`DrawerMenu component should render submenu item 1`] = `
             Menu Item
           </span>
           <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
             data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
           >
             Novo
           </span>
@@ -793,14 +779,14 @@ exports[`DrawerMenu component should render submenu item 1`] = `
 
 exports[`DrawerMenu component should start with submenu opened 1`] = `
 <div
-  className="sc-dlfnbm gQlDxm"
+  className="NatDSDrawerMenu-root-1"
 >
   <ul
-    className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-50"
+    className="MuiList-root MuiList-dense MuiList-padding NatDSDrawerMenu-listPadding-2"
   >
     <li
       aria-disabled={false}
-      className="MuiButtonBase-root MuiListItem-root makeStyles-root-52 MuiListItem-dense MuiListItem-gutters MuiListItem-button Mui-selected makeStyles-selected-53"
+      className="MuiButtonBase-root MuiListItem-root makeStyles-root-58 MuiListItem-dense MuiListItem-gutters MuiListItem-button Mui-selected makeStyles-selected-59"
       onBlur={[Function]}
       onClick={[Function]}
       onDragLeave={[Function]}
@@ -817,11 +803,11 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
       tabIndex={0}
     >
       <div
-        className="MuiListItemIcon-root makeStyles-root-54"
+        className="MuiListItemIcon-root makeStyles-root-60"
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-55"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-61"
         >
           outlined-action-love
         </i>
@@ -838,11 +824,8 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
             Menu Item
           </span>
           <span
-            className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
+            className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
             data-type="standard"
-            fontFamily="\\"Roboto\\", sans-serif"
-            fontSize={12}
-            fontWeight={400}
           >
             Novo
           </span>
@@ -850,7 +833,7 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
       </div>
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowtop NatDSIcon-root-3 NatDSIcon-root-56"
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowtop NatDSIcon-root-4 NatDSIcon-root-62"
       >
         outlined-navigation-arrowtop
       </i>
@@ -873,11 +856,11 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
           className="MuiCollapse-wrapperInner"
         >
           <ul
-            className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-51"
+            className="MuiList-root MuiList-dense MuiList-padding makeStyles-padding-57"
           >
             <li
               aria-disabled={false}
-              className="MuiButtonBase-root MuiListItem-root makeStyles-root-57 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+              className="MuiButtonBase-root MuiListItem-root makeStyles-root-63 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
               onBlur={[Function]}
               onDragLeave={[Function]}
               onFocus={[Function]}
@@ -897,7 +880,7 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
               >
                 <i
                   aria-hidden={true}
-                  className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-58"
+                  className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-64"
                 >
                   outlined-action-love
                 </i>
@@ -908,7 +891,11 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
                 <span
                   className="MuiTypography-root MuiListItemText-primary MuiTypography-body2 MuiTypography-displayBlock"
                 >
-                  Menu Item
+                  <span
+                    className="MuiTypography-root MuiTypography-body2"
+                  >
+                    Menu Item
+                  </span>
                 </span>
               </div>
               <span
@@ -917,7 +904,7 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
             </li>
             <li
               aria-disabled={false}
-              className="MuiButtonBase-root MuiListItem-root makeStyles-root-59 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
+              className="MuiButtonBase-root MuiListItem-root makeStyles-root-65 MuiListItem-dense MuiListItem-gutters MuiListItem-button"
               onBlur={[Function]}
               onDragLeave={[Function]}
               onFocus={[Function]}
@@ -937,7 +924,7 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
               >
                 <i
                   aria-hidden={true}
-                  className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-3 NatDSIcon-root-60"
+                  className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-4 NatDSIcon-root-66"
                 >
                   outlined-action-love
                 </i>
@@ -954,11 +941,8 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
                     Menu Item
                   </span>
                   <span
-                    className="sc-gsTCUz gYcUew sc-bdfBwQ dQkjgA"
+                    className="NatDSContextualBadge-root-9 NatDSContextualBadge-error-11 NatDSMenuItemText-badgeComponent-6"
                     data-type="standard"
-                    fontFamily="\\"Roboto\\", sans-serif"
-                    fontSize={12}
-                    fontWeight={400}
                   >
                     New
                   </span>

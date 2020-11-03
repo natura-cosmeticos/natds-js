@@ -20,6 +20,14 @@ exports[`Drawer Menu Item component should match snapshot 1`] = `
 >
   <div
     className="MuiListItemText-root"
-  />
+  >
+    <span
+      className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-body2"
+      />
+    </span>
+  </div>
 </li>
 `;

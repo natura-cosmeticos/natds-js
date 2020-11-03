@@ -1,10 +1,9 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
-import { makeStyles } from "@material-ui/core";
-import List from "../List";
+import { List } from "../List";
 import { IDrawerMenuProps } from "./DrawerMenu.props";
-import useDefaultTheme from "../../hooks/useDefaultTheme";
 import { BuildDrawerMenuItems } from "./BuildDrawerMenuItems";
-import { DrawerMenuComponent } from "./DrawerMenuComponent";
+import { useStyles } from "./DrawerMenu.styles";
 
 /**
  * ## Importing
@@ -12,41 +11,31 @@ import { DrawerMenuComponent } from "./DrawerMenuComponent";
  * ```
  * import { DrawerMenu } from '@naturacosmeticos/natds-web';
  * ```
- *
- * @todo refactor(web): refactor DrawerMenu component
  */
 export const DrawerMenu = React.forwardRef<HTMLElement, IDrawerMenuProps>((
   props: IDrawerMenuProps, ref,
 ) => {
   const {
-    children, list, component, ...rest
+    children,
+    component: Component = "div",
+    list,
+    ...otherProps
   } = props;
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const theme : any = useDefaultTheme();
+  const { root, listPadding } = useStyles();
 
-  // @todo move to .styles.ts file
-  const StyledList = React.useMemo(() => makeStyles({
-      padding: {
-        marginBottom: theme.sizes?.tiny,
-        marginTop: theme.sizes?.tiny,
-        paddingBottom: 0,
-        paddingTop: 0,
-      },
-    }), [theme]),
-
-    content = children || <List
-      classes={StyledList()}
-      dense
-    >{list && list.map((drawerMenuSectionProps, index) => (
-        <BuildDrawerMenuItems {...drawerMenuSectionProps} key={index} />
-      ))}
-    </List>;
+  const content = children || <List
+    classes={{ padding: listPadding }}
+    dense
+  >{list && list.map((drawerMenuSectionProps, index) => (
+      <BuildDrawerMenuItems {...drawerMenuSectionProps} key={index} />
+    ))}
+  </List>;
 
   return (
-    <DrawerMenuComponent {...rest} as={component} ref={ref}>
+    <Component {...otherProps} className={root} ref={ref}>
       {content}
-    </DrawerMenuComponent>
+    </Component>
   );
 });
 

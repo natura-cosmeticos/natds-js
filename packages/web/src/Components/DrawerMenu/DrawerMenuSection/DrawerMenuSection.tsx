@@ -1,4 +1,5 @@
 /* eslint-disable sort-keys */
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { createStyles, makeStyles } from "@material-ui/core";
 import ListItem from "../../ListItem";
@@ -8,7 +9,7 @@ import ListItemText from "../../ListItemText";
 import Collapse from "../../Collapse";
 import List from "../../List";
 import BuildDrawerMenuItems from "../BuildDrawerMenuItems/BuildDrawerMenuItems";
-import { getMenuItemText } from "../getMenuItemText";
+import { MenuItemText } from "../MenuItemText";
 import { IDrawerMenuSectionProps } from "./DrawerMenuSection.props";
 import { IThemeWeb } from "../../../Themes";
 
@@ -89,7 +90,7 @@ export const DrawerMenuSection = React.forwardRef<any, IDrawerMenuSectionProps>(
         button
         ref={ref}>
         {icon && <ListItemIcon classes={classesIcon}><Icon name={icon} size="tiny" /></ListItemIcon>}
-        <ListItemText>{getMenuItemText(props)}</ListItemText>
+        <ListItemText><MenuItemText {...props} /></ListItemText>
         <Icon name={listIconName} size="tiny" />
       </ListItem>
       <Collapse in={opened} timeout="auto" unmountOnExit component="li">

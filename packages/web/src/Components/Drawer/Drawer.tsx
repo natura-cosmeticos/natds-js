@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import MaterialDrawer from "@material-ui/core/Drawer";
 import { IDrawerProps } from "./Drawer.props";

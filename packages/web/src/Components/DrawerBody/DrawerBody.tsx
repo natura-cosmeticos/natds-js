@@ -1,8 +1,7 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { IDrawerBodyProps } from "./DrawerBody.props";
-import { DrawerBodyComponent } from "./DrawerBodyComponent";
-import { DrawerBodyScrollComponent } from "./DrawerBodyScrollComponent";
-import useDefaultTheme from "../../hooks/useDefaultTheme";
+import { useStyles } from "./DrawerBody.styles";
 
 export { IDrawerBodyProps } from "./DrawerBody.props";
 
@@ -17,14 +16,14 @@ export const DrawerBody = React.forwardRef<HTMLElement, IDrawerBodyProps>((
   props: IDrawerBodyProps, ref,
 ) => {
   const {
-    children, component, ...otherProps
+    children,
+    component: Component = "div",
+    scrollComponent: ScrollComponent = "div",
+    ...otherProps
   } = props;
   const [
     scrolled, setScrolled,
   ] = React.useState(false);
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const theme: any = useDefaultTheme();
-  const SCROLL_POSITION_ZERO = 0;
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleScrolled = (event: any) => {
@@ -39,23 +38,25 @@ export const DrawerBody = React.forwardRef<HTMLElement, IDrawerBodyProps>((
     const { scrollTop } = target;
 
     if (typeof scrollTop !== "undefined") {
+      const SCROLL_POSITION_ZERO = 0;
+
       setScrolled(scrollTop > SCROLL_POSITION_ZERO);
     }
   };
 
+  const { root, scroll } = useStyles({ scrolled });
+
   return (
-    <DrawerBodyComponent
-      scrolled={scrolled}
-      as={component}
-      theme={theme}
+    <Component
+      className={root}
       ref={ref}
       {...otherProps}>
-      <DrawerBodyScrollComponent
-        onScroll={handleScrolled}
-        theme={theme}>
+      <ScrollComponent
+        className={scroll}
+        onScroll={handleScrolled}>
         {children}
-      </DrawerBodyScrollComponent>
-    </DrawerBodyComponent>
+      </ScrollComponent>
+    </Component>
   );
 });
 

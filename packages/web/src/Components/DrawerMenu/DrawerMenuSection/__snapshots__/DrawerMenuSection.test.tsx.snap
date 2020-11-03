@@ -21,10 +21,18 @@ exports[`DrawerMenuSection component should match snapshot 1`] = `
 >
   <div
     className="MuiListItemText-root"
-  />
+  >
+    <span
+      className="MuiTypography-root MuiListItemText-primary MuiTypography-body1 MuiTypography-displayBlock"
+    >
+      <span
+        className="MuiTypography-root MuiTypography-body2"
+      />
+    </span>
+  </div>
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-5 NatDSIcon-root-6"
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-6 NatDSIcon-root-7"
   >
     outlined-navigation-arrowbottom
   </i>

@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { Meta, Story } from "@storybook/react";
 import { DrawerHeader, IDrawerHeaderProps } from "./DrawerHeader";

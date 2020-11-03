@@ -1,7 +1,7 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { IDrawerFooterProps } from "./DrawerFooter.props";
-import { DrawerFooterComponent } from "./DrawerFooterComponent";
-import useDefaultTheme from "../../hooks/useDefaultTheme";
+import useStyles from "./DrawerFooter.styles";
 
 export { IDrawerFooterProps } from "./DrawerFooter.props";
 
@@ -15,19 +15,18 @@ export { IDrawerFooterProps } from "./DrawerFooter.props";
 export const DrawerFooter = React.forwardRef<HTMLElement, IDrawerFooterProps>(
   (props: IDrawerFooterProps, ref) => {
     const {
-      children, component, ...otherProps
+      children, component: Component = "div", ...otherProps
     } = props;
-    // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const theme: any = useDefaultTheme();
+
+    const { root } = useStyles();
 
     return (
-      <DrawerFooterComponent
-        as={component}
-        theme={theme}
+      <Component
         {...otherProps}
+        className={root}
         ref={ref}>
         {children}
-      </DrawerFooterComponent>
+      </Component>
     );
   });
 

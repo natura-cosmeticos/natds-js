@@ -1,11 +1,10 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 
 import Typography from "../Typography";
 import Avatar from "../Avatar";
 import { IDrawerHeaderProps } from "./DrawerHeader.props";
-import { DrawerHeaderAvatar } from "./DrawerHeaderAvatar/DrawerHeaderAvatar";
-import useDefaultTheme from "../../hooks/useDefaultTheme";
-import { DrawerHeaderComponent } from "./DrawerHeaderComponent";
+import useStyles from "./DrawerHeader.styles";
 
 export { IDrawerHeaderProps } from "./DrawerHeader.props";
 
@@ -20,30 +19,35 @@ export const DrawerHeader = React.forwardRef<HTMLElement, IDrawerHeaderProps>((
   props: IDrawerHeaderProps, ref,
 ) => {
   const {
-    children, component, ...rest
+    avatarChildren,
+    avatarComponent: AvatarComponent = Avatar,
+    avatarSrc,
+    children,
+    component: Component = "div",
+    primary,
+    secondary,
+    ...otherProps
   } = props;
 
-  // eslint-disable-next-line @typescript-eslint/no-explicit-any
-  const theme: any = useDefaultTheme();
+  const { avatar, root } = useStyles();
 
-  const buildContent = ({
-    primary, secondary, avatarSrc, avatarChildren,
-  }: IDrawerHeaderProps) => <>
-    {(avatarSrc || avatarChildren) && <DrawerHeaderAvatar as={Avatar} src={avatarSrc} size="large" theme={theme}>{avatarChildren}</DrawerHeaderAvatar>}
+  let content = <>
+    {(avatarSrc || avatarChildren) && <AvatarComponent className={avatar} size="large" src={avatarSrc}>{avatarChildren}</AvatarComponent>}
     {primary && <Typography variant="h5">{primary}</Typography>}
     {secondary && <Typography variant="subtitle2" color="textSecondary">{secondary}</Typography>}
   </>;
 
-  const content = children || buildContent(props);
+  if (children) {
+    content = <>{children}</>;
+  }
 
   return (
-    <DrawerHeaderComponent
-      as={component}
-      theme={theme}
-      {...rest}
+    <Component
+      className={root}
+      {...otherProps}
       ref={ref}>
       {content}
-    </DrawerHeaderComponent>
+    </Component>
   );
 });
 
