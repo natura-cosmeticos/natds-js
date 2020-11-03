@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/natura-cosmeticos/natds/compare/v0.23.13...v0.24.0) (2020-11-03)
+
+
+### Features
+
+* **styles:** add colors for action.active and divider ([988ca7a](https://github.com/natura-cosmeticos/natds/commit/988ca7abd5e1d8ae5a059e2b94211d10a2c17dc9))
+
+
+
+
+
 ## [0.23.13](https://github.com/natura-cosmeticos/natds/compare/v0.23.12...v0.23.13) (2020-11-02)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles

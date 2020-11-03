@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [0.24.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.23.13...v0.24.0) (2020-11-03)
+
+
+### Bug Fixes
+
+* **button:** prevent error when no theme is provided ([697966f](https://github.com/natura-cosmeticos/natds-js/commit/697966ff6638968ebb6b776e6eaaaf35f24610e4))
+* **deps:** remove styled-components, prevent TypeScript errors ([a7cbc71](https://github.com/natura-cosmeticos/natds-js/commit/a7cbc71d34d2970c5cad7fec8acedf8c780908eb)), closes [#617](https://github.com/natura-cosmeticos/natds-js/issues/617)
+* **list item icon:** fix icon color for dark mode ([2a59bb6](https://github.com/natura-cosmeticos/natds-js/commit/2a59bb6aad19168ee6ad505e70924b6aa1d33699))
+* **storybook:** bring back missing theme switcher ([dc75e40](https://github.com/natura-cosmeticos/natds-js/commit/dc75e40292ea5984b429df5d7b9c247578826397))
+
+
+### Features
+
+* **contextual badge:** add support to className property ([4408981](https://github.com/natura-cosmeticos/natds-js/commit/440898183f015a5515449f6b47a23f6c80a030c1))
+
+
+
+
+
 ## [0.23.13](https://github.com/natura-cosmeticos/natds-js/compare/v0.23.12...v0.23.13) (2020-11-02)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
