@@ -48,8 +48,10 @@ module.exports = {
     {
       name: "@storybook/addon-links",
     },
+    {
+      name: "@storybook/addon-toolbars",
+    },
   ],
-
   stories: [
     ...welcomeStories,
     ...exampleStories,
