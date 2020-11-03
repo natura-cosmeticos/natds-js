@@ -34,12 +34,47 @@ export interface ITheme {
   palette?: {
     type?: "light" | "dark";
     action?: {
-      active?: string;
+
+      /**
+       * Active color
+       *
+       * Useful for ListItemIcon icon color, for example.
+       * Since it is required since 0.24, every theme must implement it.
+       */
+      active: string;
       hover?: string;
       hoverOpacity?: number;
       selected?: string;
       disabled?: string;
       disabledBackground?: string;
+    };
+    background?: {
+      paper?: string;
+      default?: string;
+      paperContrastText?: string;
+      defaultContrastText?: string;
+    };
+    complementary?: {
+      highlight?: string;
+      link?: string;
+      linkContrastText?: string;
+      warning?: string;
+      warningContrastText?: string;
+    };
+
+    /**
+     * Divider color
+     *
+     * Useful for DrawerFooter border top color, for example.
+     *
+     * @since 0.24
+     */
+    divider: string;
+    error?: {
+      main: string;
+      light?: string;
+      dark?: string;
+      contrastText?: string;
     };
     primary?: {
       main: string;
@@ -59,30 +94,11 @@ export interface ITheme {
       dark?: string;
       contrastText?: string;
     };
-    error?: {
-      main: string;
-      light?: string;
-      dark?: string;
-      contrastText?: string;
-    };
-    background?: {
-      paper?: string;
-      default?: string;
-      paperContrastText?: string;
-      defaultContrastText?: string;
-    };
     text?: {
       primary?: string;
       secondary?: string;
       disabled?: string;
       hint?: string;
-    };
-    complementary?: {
-      highlight?: string;
-      link?: string;
-      linkContrastText?: string;
-      warning?: string;
-      warningContrastText?: string;
     };
   };
   sizes: ISizes;

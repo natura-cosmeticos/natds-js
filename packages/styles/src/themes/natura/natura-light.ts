@@ -11,7 +11,7 @@ import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
-import { opacity } from "../../tokens/opacity";
+import { opacity as legacyOpacity } from "../../tokens/opacity";
 
 const {
   colorTokens: {
@@ -24,7 +24,7 @@ const {
   },
 } = tokens;
 
-const { borderRadius } = themes.natura.light;
+const { borderRadius, color, opacity } = themes.natura.light;
 
 export const naturaLight: ITheme = {
   shape: {
@@ -41,16 +41,26 @@ export const naturaLight: ITheme = {
 
   /**
    * @since 0.22
-   * @todo Adopt opacity tokens from theme
+   * @todo Adopt opacity tokens from theme and deprecate legacy opacity
    */
-  opacity,
+  opacity: legacyOpacity,
   sizes,
   spacing: spacing.spacing,
   palette: {
     type: "light",
     action: {
+
+      /**
+       * @since 0.24
+       */
+      active: hexToRgba(color.highlight, opacity.mediumHigh),
       disabled: hexToRgba(naturaLightColorTokens.colorOnPrimaryLight, 0.24),
     },
+
+    /**
+     * @since 0.24
+     */
+    divider: hexToRgba(color.highlight, opacity.low),
     primary: {
       main: naturaLightColorTokens.colorPrimary,
       light: naturaLightColorTokens.colorPrimaryLight,

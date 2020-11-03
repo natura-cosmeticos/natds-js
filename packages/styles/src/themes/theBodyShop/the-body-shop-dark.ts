@@ -7,6 +7,7 @@
  */
 
 import hexToRgba from "hex-to-rgba";
+import themes from "@naturacosmeticos/natds-themes";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -17,7 +18,7 @@ import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
-import { opacity } from "../../tokens/opacity";
+import { opacity as legacyOpacity } from "../../tokens/opacity";
 
 const {
   colorTokens: {
@@ -29,6 +30,8 @@ const {
     theBodyShopDarkColorTokens,
   },
 } = tokens;
+
+const { color, opacity } = themes.theBodyShop.dark;
 
 export const theBodyShopDark: ITheme = {
   shape: {
@@ -44,12 +47,22 @@ export const theBodyShopDark: ITheme = {
    * @since 0.22
    * @todo Adopt opacity tokens from theme
    */
-  opacity,
+  opacity: legacyOpacity,
   spacing: spacing.spacing,
   palette: {
     action: {
+
+      /**
+       * @since 0.24
+       */
+      active: hexToRgba(color.highlight, opacity.mediumHigh),
       disabled: hexToRgba(theBodyShopDarkColorTokens.colorOnSecondary, 0.24),
     },
+
+    /**
+     * @since 0.24
+     */
+    divider: hexToRgba(color.highlight, opacity.low),
     primary: {
       main: theBodyShopDarkColorTokens.colorPrimary,
       light: theBodyShopDarkColorTokens.colorPrimaryLight,

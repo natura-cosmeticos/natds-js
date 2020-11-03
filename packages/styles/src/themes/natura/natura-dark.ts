@@ -7,6 +7,7 @@
  */
 
 import hexToRgba from "hex-to-rgba";
+import themes from "@naturacosmeticos/natds-themes";
 import tokens from "../../tokens";
 import { ITheme } from "../ITheme";
 import { typography } from "./typography";
@@ -17,7 +18,9 @@ import { buttonSizes } from "../../tokens/buttonSizes";
 import { elevation } from "../../tokens/elevation";
 import { iconSizes } from "../../tokens/iconSizes";
 import { sizes } from "../../tokens/sizes";
-import { opacity } from "../../tokens/opacity";
+import { opacity as legacyOpacity } from "../../tokens/opacity";
+
+const { color, opacity } = themes.natura.dark;
 
 const {
   colorTokens: {
@@ -42,14 +45,24 @@ export const naturaDark: ITheme = {
 
   /**
    * @since 0.22
-   * @todo Adopt opacity tokens from theme
+   * @todo Adopt opacity tokens from theme and deprecate legacy opacity
    */
-  opacity,
+  opacity: legacyOpacity,
   spacing: spacing.spacing,
   palette: {
     action: {
+
+      /**
+       * @since 0.24
+       */
+      active: hexToRgba(color.highlight, opacity.mediumHigh),
       disabled: hexToRgba(naturaDarkColorTokens.colorOnSecondary, 0.24),
     },
+
+    /**
+     * @since 0.24
+     */
+    divider: hexToRgba(color.highlight, opacity.low),
     primary: {
       main: naturaDarkColorTokens.colorPrimary,
       light: naturaDarkColorTokens.colorPrimaryLight,
