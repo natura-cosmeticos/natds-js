@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import MaterialListItemIcon from "@material-ui/core/ListItemIcon";
 import { IListItemIconProps } from "./ListItemIcon.props";
