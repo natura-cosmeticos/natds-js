@@ -5,7 +5,7 @@ import { Divider } from "./Divider";
 import { IDividerProps } from "./Divider.props";
 import { variants } from "./__fixtures__/variants";
 import { Container } from "../Container";
-import { Fluid } from "../Container/Container.stories";
+import { FluidWithSmMaxSize } from "../Container/Container.stories";
 import { Spacing } from "../Spacing";
 import { CaptionWithSecondaryText } from "../Typography/Typography.stories";
 import { Typography } from "../Typography";
@@ -27,7 +27,7 @@ const useStyles = makeStyles(createStyles({
 }), { name: "DividerDemo" });
 
 const Template : Story<IDividerProps> = (args: IDividerProps) => (
-  <Container {...Fluid.args}>
+  <Container {...FluidWithSmMaxSize.args}>
     <Spacing className={useStyles().container} {...SemiXMarginY.args}>
       <Typography {...CaptionWithSecondaryText.args}>This is a content before divider</Typography>
       <Divider {...args} />
@@ -37,7 +37,7 @@ const Template : Story<IDividerProps> = (args: IDividerProps) => (
 );
 
 const TemplateForSubheader : Story<IDividerProps> = (args: IDividerProps) => (
-  <Container {...Fluid.args}>
+  <Container {...FluidWithSmMaxSize.args}>
     <Spacing {...SemiPaddingTop.args} className={useStyles().container}>
       <Divider {...args} />
       <Spacing
