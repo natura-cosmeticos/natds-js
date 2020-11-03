@@ -22,6 +22,11 @@ export const WithIcon : Story<IListItemIconProps> = Template.bind({});
 WithIcon.args = {
   children: <Icon {...SmallIcon.args} name={"outlined-action-love"} />,
 };
+WithIcon.parameters = {
+  description: {
+    story: "By default, icon color is the highlight color with medium high opacity.",
+  },
+};
 
 export const WithCheckbox : Story<IListItemIconProps> = Template.bind({});
 WithCheckbox.args = {
