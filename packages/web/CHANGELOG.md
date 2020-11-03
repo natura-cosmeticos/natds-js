@@ -14,10 +14,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## [0.23.12](https://github.com/natura-cosmeticos/natds-js/compare/v0.23.11...v0.23.12) (2020-11-02)
 
 
-### Bug Fixes
-
-* **deps:** upgrade styled-components to 5.2.1 ([3b9c017](https://github.com/natura-cosmeticos/natds-js/commit/3b9c01746feecc36404b3535e0da785b1fac1422))
-
+**Note:** Version bump only for package @naturacosmeticos/natds-web
 
 
 
@@ -2215,9 +2212,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 ## [0.7.2-alpha.0](https://github.com/natura-cosmeticos/natds-js/compare/v0.7.1...v0.7.2-alpha.0) (2020-06-18)
 
 
-### Bug Fixes
-
-* **deps:** downgrade `styled-components` deps to avoid hook errors ([e7817a3](https://github.com/natura-cosmeticos/natds-js/commit/e7817a38412d8976c5eed4d69ac25ef4dac7bb2d))
+**Note:** Version bump only for package @naturacosmeticos/natds-web
 
 
 
@@ -2702,7 +2697,7 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 * **New component KeyboardDatePicker:** new component KeyboardDatePicker ([992d212](https://github.com/natura-cosmeticos/natds/commit/992d212c79612168ef17ced195d67e3063d27090))
 * **New Component Linear Progress:** finishing new component Linear Progress ([05fee1a](https://github.com/natura-cosmeticos/natds/commit/05fee1a7c13d81de3c358afb5cf038e299334a18))
 * **Pickers:** apply to pickers better specs following material design guidelines ([5f77c6f](https://github.com/natura-cosmeticos/natds/commit/5f77c6fd3c2430b4caa03b19d6581bb808a43340))
-* **Styled New Component KeyboardDatePicker:** styled new component keyboardDatePicker ([ecf2da4](https://github.com/natura-cosmeticos/natds/commit/ecf2da41915cf6e22be6a3ba45faeaac62835863))
+* **New Component KeyboardDatePicker:** new component keyboardDatePicker ([ecf2da4](https://github.com/natura-cosmeticos/natds/commit/ecf2da41915cf6e22be6a3ba45faeaac62835863))
 
 
 
