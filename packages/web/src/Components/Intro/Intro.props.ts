@@ -61,6 +61,10 @@ export interface IIntroProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 
    * Variant of the Title
    *
    * Defines the font size, line height, font family and font weight based on the provided theme for the Title
+   *
+   * @default "subtitle1"
+   * @optional
+   * @type 'h1' | 'h2' | 'h3' | 'h4' | 'h5' | 'h6' | 'subtitle1' | 'subtitle2' | 'body1' | 'body2' | 'caption' | 'button' | 'overline'
    */
   titleVariant?: TypographyVariant;
 
