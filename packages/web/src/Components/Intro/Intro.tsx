@@ -1,11 +1,8 @@
-/* eslint-disable indent,@typescript-eslint/no-explicit-any */
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { Typography } from "../Typography";
 import { IIntroProps } from "./Intro.props";
-import { IntroDetails } from "./IntroDetails";
-import { useDefaultTheme } from "../../hooks/useDefaultTheme";
-import { IntroTitle } from "./IntroTitle";
-import { IntroContainer } from "./IntroContainer";
+import useStyles from "./Intro.styles";
 
 export { IIntroProps } from "./Intro.props";
 
@@ -21,37 +18,36 @@ export const Intro = React.forwardRef<HTMLDivElement, IIntroProps>((
 ) => {
   const {
     children,
+    component: Component = "section",
     detail,
     detailColor = "textPrimary",
-    detailComponent,
+    detailComponent: DetailComponent = Typography,
     detailVariant = "body2",
     title,
     titleColor = "textPrimary",
-    titleComponent,
+    titleComponent: TitleComponent = Typography,
     titleVariant = "subtitle1",
-    ...rest
+    ...otherProps
   } = props;
 
-  const theme = useDefaultTheme();
+  const { introDetail, introTitle, root } = useStyles();
 
   return (
-    <IntroContainer ref={ref} {...rest}>
-      <IntroTitle
-        as={Typography}
-        theme={theme}
-        component={titleComponent}
-        variant={titleVariant}
+    <Component className={root} ref={ref} {...otherProps}>
+      <TitleComponent
+        className={introTitle}
         color={titleColor}
-      >{title}</IntroTitle>
-      {detail && <IntroDetails
-        as={Typography}
-        theme={theme}
-        component={detailComponent}
-        variant={detailVariant}
+        component={"h3"}
+        variant={titleVariant}
+      >{title}</TitleComponent>
+      {detail && <DetailComponent
+        className={introDetail}
         color={detailColor}
-      >{detail}</IntroDetails>}
+        component={"p"}
+        variant={detailVariant}
+      >{detail}</DetailComponent>}
       {children}
-    </IntroContainer>
+    </Component>
   );
 });
 
