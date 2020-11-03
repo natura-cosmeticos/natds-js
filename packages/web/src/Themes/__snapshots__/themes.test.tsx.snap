@@ -588,6 +588,7 @@ Object {
   },
   "palette": Object {
     "action": Object {
+      "active": "rgba(255, 255, 255, 0.56)",
       "disabled": "rgba(51, 51, 51, 0.24)",
     },
     "background": Object {
@@ -603,6 +604,7 @@ Object {
       "warning": "#fcc433",
       "warningContrastText": "#333333",
     },
+    "divider": "rgba(255, 255, 255, 0.12)",
     "error": Object {
       "contrastText": "#ffffff",
       "main": "#e74627",
@@ -1332,6 +1334,7 @@ Object {
   },
   "palette": Object {
     "action": Object {
+      "active": "rgba(0, 0, 0, 0.56)",
       "disabled": "rgba(0, 0, 0, 0.24)",
     },
     "background": Object {
@@ -1347,6 +1350,7 @@ Object {
       "warning": "#fcc433",
       "warningContrastText": "#333333",
     },
+    "divider": "rgba(0, 0, 0, 0.12)",
     "error": Object {
       "contrastText": "#ffffff",
       "main": "#e74627",
@@ -2102,6 +2106,7 @@ Object {
   },
   "palette": Object {
     "action": Object {
+      "active": "rgba(255, 255, 255, 0.56)",
       "disabled": "rgba(0, 0, 0, 0.24)",
     },
     "background": Object {
@@ -2117,6 +2122,7 @@ Object {
       "warning": "#fcc433",
       "warningContrastText": "#000000",
     },
+    "divider": "rgba(255, 255, 255, 0.12)",
     "error": Object {
       "contrastText": "#ffffff",
       "main": "#e74627",
@@ -2846,6 +2852,7 @@ Object {
   },
   "palette": Object {
     "action": Object {
+      "active": "rgba(0, 0, 0, 0.56)",
       "disabled": "rgba(51, 51, 51, 0.24)",
     },
     "background": Object {
@@ -2861,6 +2868,7 @@ Object {
       "warning": "#fcc433",
       "warningContrastText": "#333333",
     },
+    "divider": "rgba(0, 0, 0, 0.12)",
     "error": Object {
       "contrastText": "#ffffff",
       "main": "#e74627",
@@ -3617,6 +3625,7 @@ Object {
   },
   "palette": Object {
     "action": Object {
+      "active": "rgba(255, 255, 255, 0.56)",
       "disabled": "rgba(0, 0, 0, 0.24)",
     },
     "background": Object {
@@ -3632,6 +3641,7 @@ Object {
       "warning": "#fcc433",
       "warningContrastText": "#000000",
     },
+    "divider": "rgba(255, 255, 255, 0.12)",
     "error": Object {
       "contrastText": "#ffffff",
       "main": "#e74627",
@@ -4364,6 +4374,7 @@ Object {
   },
   "palette": Object {
     "action": Object {
+      "active": "rgba(0, 0, 0, 0.56)",
       "disabled": "rgba(0, 0, 0, 0.24)",
     },
     "background": Object {
@@ -4379,6 +4390,7 @@ Object {
       "warning": "#fcc433",
       "warningContrastText": "#333333",
     },
+    "divider": "rgba(0, 0, 0, 0.12)",
     "error": Object {
       "contrastText": "#ffffff",
       "main": "#e74627",
