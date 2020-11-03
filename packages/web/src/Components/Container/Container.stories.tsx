@@ -26,17 +26,23 @@ Playground.args = {
   children: "Example content here",
 };
 
-export const Fluid : Story<IContainerProps> = Template.bind({});
-Fluid.args = {
+export const FluidWithSmMaxSize : Story<IContainerProps> = Template.bind({});
+FluidWithSmMaxSize.args = {
   ...Playground.args,
   maxWidth: "sm",
 };
-Fluid.parameters = {
+FluidWithSmMaxSize.parameters = {
   docs: {
     description: {
       story: "A fluid container with is bounded by the `maxWidth` property value.",
     },
   },
+};
+
+export const FluidWithXsMaxSize : Story<IContainerProps> = Template.bind({});
+FluidWithXsMaxSize.args = {
+  ...Playground.args,
+  maxWidth: "xs",
 };
 
 export const Fixed : Story<IContainerProps> = Template.bind({});
