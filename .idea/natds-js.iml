@@ -3,6 +3,15 @@
   <component name="NewModuleRootManager">
     <content url="file://$MODULE_DIR$">
       <excludeFolder url="file://$MODULE_DIR$/.tmp" />
+      <excludeFolder url="file://$MODULE_DIR$/.yarn" />
+      <excludeFolder url="file://$MODULE_DIR$/coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/examples/create-react-app/build" />
+      <excludeFolder url="file://$MODULE_DIR$/examples/gatsby/.cache" />
+      <excludeFolder url="file://$MODULE_DIR$/examples/gatsby/public" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/styles/coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/styles/dist" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/web/coverage" />
+      <excludeFolder url="file://$MODULE_DIR$/packages/web/dist" />
       <excludeFolder url="file://$MODULE_DIR$/temp" />
       <excludeFolder url="file://$MODULE_DIR$/tmp" />
     </content>
