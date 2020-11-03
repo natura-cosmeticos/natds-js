@@ -26,8 +26,8 @@ export const getRootStyles: (theme: IThemeWeb) => (ButtonRootStyles) = (theme) =
   }
 
   return {
-    paddingLeft: theme.sizes.small,
-    paddingRight: theme.sizes.small,
+    paddingLeft: theme?.sizes?.small,
+    paddingRight: theme?.sizes?.small,
   } as ButtonRootStyles;
 
 };
