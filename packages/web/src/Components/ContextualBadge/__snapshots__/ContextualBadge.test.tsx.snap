@@ -2,11 +2,8 @@
 
 exports[`ContextualBadge component rendering it should render according to theme: ContextualBadge Custom Theme 1`] = `
 <span
-  className="sc-bdfBwQ jXcZJH"
+  className="NatDSContextualBadge-root-10 NatDSContextualBadge-primary-15"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="with-theme"
 >
   Mock
@@ -15,11 +12,8 @@ exports[`ContextualBadge component rendering it should render according to theme
 
 exports[`ContextualBadge component rendering it should render each type: ContextualBadge Types 1`] = `
 <span
-  className="sc-bdfBwQ jXcZJH"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-primary-6"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="standard"
 >
   Mock
@@ -28,11 +22,8 @@ exports[`ContextualBadge component rendering it should render each type: Context
 
 exports[`ContextualBadge component rendering it should render the default color and default type: ContextualBadge Default Color And Type 1`] = `
 <span
-  className="sc-bdfBwQ jXcZJH"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-primary-6"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="default"
 >
   Mock
@@ -41,11 +32,8 @@ exports[`ContextualBadge component rendering it should render the default color 
 
 exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 1`] = `
 <span
-  className="sc-bdfBwQ kTOTyl"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-dark-2"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="dark"
 >
   Mock
@@ -54,11 +42,8 @@ exports[`ContextualBadge component rendering should render each color: Contextua
 
 exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 2`] = `
 <span
-  className="sc-bdfBwQ cjAUow"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-error-3"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="error"
 >
   Mock
@@ -67,11 +52,8 @@ exports[`ContextualBadge component rendering should render each color: Contextua
 
 exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 3`] = `
 <span
-  className="sc-bdfBwQ dgztMt"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-light-5"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="light"
 >
   Mock
@@ -80,11 +62,8 @@ exports[`ContextualBadge component rendering should render each color: Contextua
 
 exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 4`] = `
 <span
-  className="sc-bdfBwQ ctuqXu"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-info-4"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="info"
 >
   Mock
@@ -93,11 +72,8 @@ exports[`ContextualBadge component rendering should render each color: Contextua
 
 exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 5`] = `
 <span
-  className="sc-bdfBwQ jXcZJH"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-primary-6"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="primary"
 >
   Mock
@@ -106,11 +82,8 @@ exports[`ContextualBadge component rendering should render each color: Contextua
 
 exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 6`] = `
 <span
-  className="sc-bdfBwQ bpmtuD"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-secondary-7"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="secondary"
 >
   Mock
@@ -119,11 +92,8 @@ exports[`ContextualBadge component rendering should render each color: Contextua
 
 exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 7`] = `
 <span
-  className="sc-bdfBwQ fppZv"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-success-8"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="success"
 >
   Mock
@@ -132,11 +102,8 @@ exports[`ContextualBadge component rendering should render each color: Contextua
 
 exports[`ContextualBadge component rendering should render each color: ContextualBadge Colors 8`] = `
 <span
-  className="sc-bdfBwQ dhinHL"
+  className="NatDSContextualBadge-root-1 NatDSContextualBadge-warning-9"
   data-type="standard"
-  fontFamily="\\"Roboto\\", sans-serif"
-  fontSize={12}
-  fontWeight={400}
   id="warning"
 >
   Mock

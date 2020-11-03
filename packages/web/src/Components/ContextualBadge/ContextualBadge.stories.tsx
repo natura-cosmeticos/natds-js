@@ -1,16 +1,15 @@
 import { Meta, Story } from "@storybook/react";
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { ContextualBadge } from "./ContextualBadge";
 import { IContextualBadgeProps } from "./ContextualBadge.props";
 import { argTypes } from "./ContextualBadge.argTypes";
 import { colors } from "./__fixtures__/colors";
 import { types } from "./__fixtures__/types";
-import { ContextualBadgeContainer } from "./ContextualBadgeContainer";
 
 export default {
   argTypes,
   component: ContextualBadge,
-  subcomponents: { ContextualBadgeContainer },
   title: "Components/Contextual Badge (Tag)",
 } as Meta;
 
