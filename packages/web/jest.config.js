@@ -30,7 +30,6 @@ module.exports = {
     "!src/Components/Field/Field.tsx",
     "!src/Components/Field/PasswordReveal/PasswordReveal.tsx",
     "!src/Components/Popover/Popover.tsx",
-    "!src/Components/Popover/StyledPopper/StyledPopper.tsx",
     "!src/Components/SnackbarContent/SnackbarContent.styles.ts",
     "!src/Components/ToggleButton/ToggleButton.tsx",
     "!src/hooks/**/*.ts",
