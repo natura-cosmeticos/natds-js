@@ -8,11 +8,24 @@ export interface IContextualBadgeProps {
   [propName: string]: any;
 
   /**
-   * Classes to be used on the ContextualBadge
+   * Class names to be used on the ContextualBadge (deprecated).
    *
+   * Please use `className` property instead.
+   *
+   * @deprecated `classes` property as string is deprecated since 0.24.
+   * Please use `className` instead. It will be removed at 1.0.
    * @optional
+   * @type string
    */
   classes?: string;
+
+  /**
+   * Forward CSS class name to `class` HTML attribute.
+   *
+   * @optional
+   * @type string
+   */
+  className?: string;
 
   /**
    * Elements to be placed inside the ContextualBadge
@@ -30,9 +43,10 @@ export interface IContextualBadgeProps {
   /**
    * The input id property
    *
+   * @required
    * @type string
    */
-  id: string;
+  id?: string;
 
   /**
    * Style to be used on the ContextualBadge
