@@ -63,9 +63,9 @@ exports[`Storyshots Components/Badge Circle Overlap 1`] = `
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root NatDSIcon-root-159 NatDSIcon-root-160 outlined-communication-email"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-communication-email NatDSIcon-root-159 NatDSIcon-root-160"
     >
-      
+      outlined-communication-email
     </i>
     <span
       className="MuiBadge-badge MuiBadge-anchorOriginTopRightCircle MuiBadge-colorPrimary"
@@ -184,9 +184,9 @@ exports[`Storyshots Components/Badge Rectangle Overlap 1`] = `
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root NatDSIcon-root-164 NatDSIcon-root-165 outlined-communication-email"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-communication-email NatDSIcon-root-164 NatDSIcon-root-165"
     >
-      
+      outlined-communication-email
     </i>
     <span
       className="MuiBadge-badge MuiBadge-anchorOriginTopRightRectangle MuiBadge-colorPrimary"
@@ -263,9 +263,9 @@ exports[`Storyshots Components/Badge With Filter Icon 1`] = `
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root NatDSIcon-root-154 NatDSIcon-root-155 outlined-action-filter"
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-filter NatDSIcon-root-154 NatDSIcon-root-155"
   >
-    
+    outlined-action-filter
   </i>
   <span
     className="MuiTypography-root MuiTypography-srOnly"

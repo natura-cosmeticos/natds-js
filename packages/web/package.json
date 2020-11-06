@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-web",
   "displayName": "NatDS React Web",
   "description": "A collection of components from Natura Design System for React websites and webapps",
-  "version": "0.24.0",
+  "version": "1.0.0-alpha.0",
   "private": false,
   "keywords": [
     "design-system",
@@ -79,7 +79,6 @@
     "@babel/preset-typescript": "7.12.1",
     "@rollup/plugin-babel": "5.2.1",
     "@rollup/plugin-commonjs": "16.0.0",
-    "@rollup/plugin-json": "^4.1.0",
     "@rollup/plugin-node-resolve": "10.0.0",
     "@rollup/plugin-typescript": "6.1.0",
     "@storybook/addon-actions": "6.0.28",
