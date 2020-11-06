@@ -47,7 +47,7 @@ export { default as FormControlLabel, IFormControlLabelProps } from "./Component
 export { default as FormHelperText, IFormHelperTextProps } from "./Components/FormHelperText";
 export { default as GridContainer, IGridContainerProps } from "./Components/GridContainer";
 export { default as GridItem, IGridItemProps } from "./Components/GridItem";
-export { default as Icon, IIconProps } from "./Components/Icon";
+export { Icon, IIconProps } from "./Components/Icon";
 export { default as IconButton, IIconButtonProps } from "./Components/IconButton";
 export { default as Image, ImageProps } from "./Components/Image";
 export { default as Input, IInputProps } from "./Components/Input";

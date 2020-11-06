@@ -1,6 +1,6 @@
 import * as React from "react";
 import MaterialChip from "@material-ui/core/Chip";
-import Icon from "../Icon";
+import { Icon } from "../Icon";
 import { IChipProps } from "./Chip.props";
 
 /**

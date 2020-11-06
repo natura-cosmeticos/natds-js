@@ -3791,14 +3791,6 @@
     string.fromcodepoint "^1.0.0"
     string.prototype.codepointat "^1.0.0"
 
-"@naturacosmeticos/natds-storybook-themes@0.13.19":
-  version "0.13.19"
-  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-storybook-themes/-/natds-storybook-themes-0.13.19.tgz"
-  integrity sha512-LgQd8pi/JCu487lVGUUB+49bMI1UXn7XroJwpCj8LEQRDCKdFcnSH/lFvm/RxQciK51/4dXFqlf35Ch3mu7Qdw==
-  dependencies:
-    "@naturacosmeticos/natds-themes" "^0.4.8"
-    "@storybook/theming" "6.0.21"
-
 "@naturacosmeticos/natds-themes@0.4.1":
   version "0.4.1"
   resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.4.1.tgz"
@@ -4875,14 +4867,6 @@
     ts-dedent "^1.1.1"
     util-deprecate "^1.0.2"
 
-"@storybook/client-logger@6.0.21":
-  version "6.0.21"
-  resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.0.21.tgz"
-  integrity sha512-8aUEbhjXV+UMYQWukVYnp+kZafF+LD4Dm7eMo37IUZvt3VIjV1VvhxIDVJtqjk2vv0KZTepESFBkZQLmBzI9Zg==
-  dependencies:
-    core-js "^3.0.1"
-    global "^4.3.2"
-
 "@storybook/client-logger@6.0.26":
   version "6.0.26"
   resolved "https://registry.yarnpkg.com/@storybook/client-logger/-/client-logger-6.0.26.tgz"
@@ -5284,24 +5268,6 @@
     lodash "^4.17.15"
     prettier "~2.0.5"
     regenerator-runtime "^0.13.3"
-
-"@storybook/theming@6.0.21":
-  version "6.0.21"
-  resolved "https://registry.yarnpkg.com/@storybook/theming/-/theming-6.0.21.tgz"
-  integrity sha512-n97DfB9kG6WrV1xBGDyeQibTrh8pBBCp3dSL3UTGH+KX3C2+4sm6QHlTgyekbi5FrbFEbnuZOKAS3YbLVONsRQ==
-  dependencies:
-    "@emotion/core" "^10.0.20"
-    "@emotion/is-prop-valid" "^0.8.6"
-    "@emotion/styled" "^10.0.17"
-    "@storybook/client-logger" "6.0.21"
-    core-js "^3.0.1"
-    deep-object-diff "^1.1.0"
-    emotion-theming "^10.0.19"
-    global "^4.3.2"
-    memoizerific "^1.11.3"
-    polished "^3.4.4"
-    resolve-from "^5.0.0"
-    ts-dedent "^1.1.1"
 
 "@storybook/theming@6.0.26":
   version "6.0.26"

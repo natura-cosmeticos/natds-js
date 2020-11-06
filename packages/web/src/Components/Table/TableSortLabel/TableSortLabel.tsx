@@ -1,8 +1,7 @@
 import * as React from "react";
 import MaterialTableSortLabel from "@material-ui/core/TableSortLabel";
-import { iconNames } from "@naturacosmeticos/natds-icons";
 import { ITableSortLabelProps } from "./TableSortLabel.props";
-import { Icon } from "../../Icon";
+import { Icon, IconName } from "../../Icon";
 
 export const TableSortLabel = React.forwardRef<HTMLSpanElement, ITableSortLabelProps>(
   (props: ITableSortLabelProps, ref) => {
@@ -11,7 +10,7 @@ export const TableSortLabel = React.forwardRef<HTMLSpanElement, ITableSortLabelP
     } = props;
 
     const DefaultIconComponent = () => {
-      let defaultIconName : keyof typeof iconNames = "outlined-action-order";
+      let defaultIconName = "outlined-action-order" as IconName;
 
       if (active && direction === "desc") {
         defaultIconName = "outlined-navigation-directionbottom";

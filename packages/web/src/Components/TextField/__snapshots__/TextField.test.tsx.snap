@@ -336,9 +336,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-cancel NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-28 NatDSIcon-root-33"
+      className="material-icons MuiIcon-root NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-28 NatDSIcon-root-33 outlined-alert-cancel"
     >
-      outlined-alert-cancel
+      
     </i>
     Assistive text
   </p>
@@ -665,9 +665,9 @@ exports[`TextField component rendering state should match snapshot - TextField (
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-check NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-28 NatDSIcon-root-29"
+      className="material-icons MuiIcon-root NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-28 NatDSIcon-root-29 outlined-alert-check"
     >
-      outlined-alert-check
+      
     </i>
     Assistive text
   </p>

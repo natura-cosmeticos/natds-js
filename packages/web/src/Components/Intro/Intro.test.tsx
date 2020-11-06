@@ -2,7 +2,7 @@
 import * as React from "react";
 import * as TestRenderer from "react-test-renderer";
 
-import Icon from "../Icon";
+import { Icon } from "../Icon";
 import { Intro } from "./index";
 import { TypographyColor, TypographyVariant } from "../Typography";
 import { Provider } from "../../Provider";
@@ -17,7 +17,7 @@ const TitleWithIcon = () => <>
 
 describe("Intro component", () => {
 
-  let testRenderer : TestRenderer.ReactTestRenderer = {} as TestRenderer.ReactTestRenderer;
+  let testRenderer = {} as TestRenderer.ReactTestRenderer;
 
   describe("when no theme is explicitly provided", () => {
     describe("and titleVariant property is undefined", () => {
@@ -95,7 +95,7 @@ describe("Intro component", () => {
       it(`should match snapshot - Any valid Intro with ${variant} detailVariant`, () => {
         testRenderer = TestRenderer.create(<Provider theme={theme}><Intro detail="detail"
           detailVariant={variant as TypographyVariant}
-          title="title"/></Provider>);
+          title="title" /></Provider>);
 
         expect(testRenderer).toMatchSnapshot();
       });

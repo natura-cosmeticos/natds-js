@@ -5,7 +5,7 @@ import ListSubheader from "../../ListSubheader";
 import Typography from "../../Typography";
 import ListItem from "../../ListItem";
 import ListItemIcon from "../../ListItemIcon";
-import Icon from "../../Icon";
+import { Icon } from "../../Icon";
 import ListItemText from "../../ListItemText";
 import { IDrawerMenuItemProps } from "./DrawerMenuItem.props";
 import { MenuItemText } from "../MenuItemText";

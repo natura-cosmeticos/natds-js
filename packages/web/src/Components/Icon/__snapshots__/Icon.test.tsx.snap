@@ -3,170 +3,170 @@
 exports[`Icon component when a default icon is explicitly provided should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-default-mockup NatDSIcon-root-1 NatDSIcon-root-3"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-3 filled-default-mockup"
 >
-  filled-default-mockup
+  
 </i>
 `;
 
 exports[`Icon component when a default icon is implicitly defined should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-default-mockup NatDSIcon-root-1 NatDSIcon-root-2"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-2 filled-default-mockup"
 >
-  filled-default-mockup
+  
 </i>
 `;
 
 exports[`Icon component when a valid icon name is provided should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-4"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-4 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when an empty theme is provided should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-20 NatDSIcon-root-21"
+  className="material-icons MuiIcon-root NatDSIcon-root-20 NatDSIcon-root-21 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "huge" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-15"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-15 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "hugeX" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-17"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-17 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "hugeXX" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-19"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-19 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "hugex" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-16"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-16 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "hugexx" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-18"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-18 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "large" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-10"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-10 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "largeX" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-12"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-12 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "largeXX" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-14"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-14 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "largex" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-11"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-11 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "largexx" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-13"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-13 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "medium" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-9"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-9 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "micro" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-5"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-5 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "small" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-7"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-7 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "standard" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-8"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-8 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;
 
 exports[`Icon component when icon size is "tiny" should render correctly 1`] = `
 <i
   aria-hidden={true}
-  className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-1 NatDSIcon-root-6"
+  className="material-icons MuiIcon-root NatDSIcon-root-1 NatDSIcon-root-6 filled-action-add"
 >
-  filled-action-add
+  
 </i>
 `;

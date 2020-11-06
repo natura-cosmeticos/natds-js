@@ -2,45 +2,35 @@ import commonjs from "@rollup/plugin-commonjs";
 import babel from "@rollup/plugin-babel";
 import nodeResolve from "@rollup/plugin-node-resolve";
 import nodePolyfills from "rollup-plugin-node-polyfills";
-
-const getPluginsForBrowser = () => [
-  nodeResolve({
-    preferBuiltins: true,
-  }),
-  commonjs(),
-  babel({
-    babelHelpers: "bundled",
-    exclude: "node_modules/**",
-  }),
-  nodePolyfills(),
-];
-
-const getBrowserOutputConfig = ({ filePath = "", globals, name = "natdsWeb" }) => [
-  {
-    dir: `./dist/umd/${filePath}`,
-    format: "umd",
-    globals,
-    name,
-    sourcemap: true,
-  },
-];
-
-const globals = {
-  "@naturacosmeticos/natds-icons/dist/natds-icons.css": "natDsIcons",
-  react: "React",
-};
-const external = Object.keys(globals);
+import json from "@rollup/plugin-json";
 
 /**
  * @see https://github.com/rollup/plugins/issues/243#issuecomment-595964778
  */
 export default [
   {
-    external,
+    external: ["react"],
     input: "./dist/index.js",
-    output: getBrowserOutputConfig({
-      globals,
-    }),
-    plugins: getPluginsForBrowser(),
+    output: [
+      {
+        dir: "./dist/umd/",
+        format: "umd",
+        globals: { react: "React" },
+        name: "natdsWeb",
+        sourcemap: true,
+      },
+    ],
+    plugins: [
+      nodeResolve({
+        preferBuiltins: true,
+      }),
+      commonjs(),
+      babel({
+        babelHelpers: "bundled",
+        exclude: "node_modules/**",
+      }),
+      nodePolyfills(),
+      json(),
+    ],
   },
 ];
