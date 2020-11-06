@@ -3804,7 +3804,7 @@
   resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.4.1.tgz"
   integrity sha512-8KDmNHTZhyZDwZvVRWhK/HpxLiog6UWNqMCHpLTIgrhWovDZv8WLazmE88MsiNdxhR675qELjfNLaYBoU+ACFg==
 
-"@naturacosmeticos/natds-themes@^0.4.8":
+"@naturacosmeticos/natds-themes@0.4.8", "@naturacosmeticos/natds-themes@^0.4.8":
   version "0.4.8"
   resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.4.8.tgz"
   integrity sha512-o4KVTaUQeNl2s1WWQf5aqZy8vhtdtu+BG7DzQ4DiDDb2qoU2i/jsDA/Rny1/IK8t+FwndUuACRnTuBuXDqb5OQ==
@@ -11005,9 +11005,9 @@ dot-case@^3.0.3:
     no-case "^3.0.3"
     tslib "^1.10.0"
 
-dot-prop@^4.2.0, dot-prop@^5.1.0, dot-prop@^5.2.0:
+dot-prop@5.2.0, dot-prop@^4.2.0, dot-prop@^5.1.0, dot-prop@^5.2.0:
   version "5.2.0"
-  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.2.0.tgz"
+  resolved "https://registry.yarnpkg.com/dot-prop/-/dot-prop-5.2.0.tgz#c34ecc29556dc45f1f4c22697b6f4904e0cc4fcb"
   integrity sha512-uEUyaDKoSQ1M4Oq8l45hSE26SnTxL6snNnqvK/VWx5wJhmff5z0FUVJDKDanor/6w3kzE3i7XZOk+7wC0EXr1A==
   dependencies:
     is-obj "^2.0.0"
@@ -18827,7 +18827,7 @@ node-fetch@^2.3.0, node-fetch@^2.5.0, node-fetch@^2.6.0:
   resolved "https://registry.yarnpkg.com/node-fetch/-/node-fetch-2.6.0.tgz"
   integrity sha512-8dG4H5ujfvFiqDmVu9fQ5bOHUC15JMjMY/Zumv26oOvvVJjM67KF8koCWIabKQ1GJIa9r2mMZscBq/TbdOcmNA==
 
-node-forge@0.9.0, node-forge@^0.10.0:
+node-forge@0.10.0, node-forge@0.9.0:
   version "0.10.0"
   resolved "https://registry.yarnpkg.com/node-forge/-/node-forge-0.10.0.tgz#32dea2afb3e9926f02ee5ce8794902691a676bf3"
   integrity sha512-PPmu8eEeG9saEUvI97fm4OYxXVB6bFvyNTyiUOBichBpFG8A1Ljw3bY62+5oOjDEMHRnd0Y7HQ+x7uzxOzC6JA==
@@ -21477,7 +21477,7 @@ react-docgen@^5.0.0:
     node-dir "^0.1.10"
     strip-indent "^3.0.0"
 
-react-dom@17.0.1, react-dom@^16.8.3, react-dom@^16.8.6, react-dom@^17.0.1, react-dom@latest:
+react-dom@17.0.1, react-dom@^16.8.3, react-dom@^16.8.6, react-dom@latest:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react-dom/-/react-dom-17.0.1.tgz#1de2560474ec9f0e334285662ede52dbc5426fc6"
   integrity sha512-6eV150oJZ9U2t9svnsspTMrWNyHc6chX0KzDeAOXftRa8bNeOKTTfCJ7KorIwenkHd2xqVTBTCZd79yk/lx/Ug==
@@ -21853,7 +21853,7 @@ react-transition-group@^4.4.0:
     loose-envify "^1.4.0"
     prop-types "^15.6.2"
 
-react@17.0.1, react@^16.8.0, react@^16.8.3, react@^16.8.6, react@^17.0.1, react@latest:
+react@17.0.1, react@^16.8.0, react@^16.8.3, react@^16.8.6, react@latest:
   version "17.0.1"
   resolved "https://registry.yarnpkg.com/react/-/react-17.0.1.tgz#6e0600416bd57574e3f86d92edba3d9008726127"
   integrity sha512-lG9c9UuMHdcAexXtigOZLX8exLWkW0Ku29qPRU8uhF2R9BN96dLCt0psvzPLlHc5OWkgymP3qwTRgbnw5BKx3w==
@@ -23759,7 +23759,7 @@ snyk-try-require@1.3.1, snyk-try-require@^1.1.1, snyk-try-require@^1.3.1:
     lru-cache "^4.0.0"
     then-fs "^2.0.0"
 
-snyk@^1.316.1, snyk@^1.341.1:
+snyk@1.421.1, snyk@^1.316.1:
   version "1.421.1"
   resolved "https://registry.yarnpkg.com/snyk/-/snyk-1.421.1.tgz"
   integrity sha512-EFOk4cQRxWINFjzri6xcYQD5eAJRaQb119cfJH68WbDp4ukAOdK6/W+HjPlxkESWd7ZwG2JsqSh9VITs9XlgBQ==

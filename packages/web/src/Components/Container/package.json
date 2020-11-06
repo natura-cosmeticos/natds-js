@@ -29,14 +29,14 @@
     "build": "rollup -c"
   },
   "peerDependencies": {
-    "@material-ui/core": "^4.11.0",
-    "react": "^16.8.0"
+    "@material-ui/core": "4.11.0",
+    "react": "16.14.0"
   },
   "config": {},
   "publishConfig": {
     "access": "public"
   },
   "engines": {
-    "node": ">=8.0.0"
+    "node": "15.1.0"
   }
 }
