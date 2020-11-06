@@ -33,9 +33,9 @@ exports[` 5`] = `
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-cancel NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-5 NatDSIcon-root-6"
+      className="material-icons MuiIcon-root NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-5 NatDSIcon-root-6 outlined-alert-cancel"
     >
-      outlined-alert-cancel
+      
     </i>
     Test help text
   </p>
@@ -51,9 +51,9 @@ exports[` 6`] = `
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-check NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-5 NatDSIcon-root-8"
+      className="material-icons MuiIcon-root NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-5 NatDSIcon-root-8 outlined-alert-check"
     >
-      outlined-alert-check
+      
     </i>
     Test help text
   </p>

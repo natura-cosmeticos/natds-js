@@ -635,9 +635,9 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-18 NatDSIcon-root-19"
+      className="material-icons MuiIcon-root NatDSIcon-root-18 NatDSIcon-root-19 filled-action-add"
     >
-      filled-action-add
+      
     </i>
     title
   </h3>
