@@ -5,7 +5,7 @@ import { IIconProps } from "./Icon.props";
 export const argTypes : Record<keyof IIconProps | string, unknown> = {
   name: {
     control: {
-      options: Object.keys(iconNames),
+      options: iconNames,
       type: "select",
     },
   },

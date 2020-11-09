@@ -1,7 +1,8 @@
 import * as React from "react";
+import { IconName } from "@naturacosmeticos/natds-icons";
 import MaterialTableSortLabel from "@material-ui/core/TableSortLabel";
 import { ITableSortLabelProps } from "./TableSortLabel.props";
-import { Icon, IconName } from "../../Icon";
+import { Icon } from "../../Icon";
 
 export const TableSortLabel = React.forwardRef<HTMLSpanElement, ITableSortLabelProps>(
   (props: ITableSortLabelProps, ref) => {
