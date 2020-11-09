@@ -8,7 +8,7 @@ exports[`Storyshots Components/App Bar Default Elevation 1`] = `
     className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
   >
     <div
-      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-63"
+      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-3"
     >
       <h1
         className="MuiTypography-root MuiTypography-h6"
@@ -22,13 +22,13 @@ exports[`Storyshots Components/App Bar Default Elevation 1`] = `
 
 exports[`Storyshots Components/App Bar Default color 1`] = `
 <header
-  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorDefault NatDSAppBar-colorDefault-55 MuiPaper-elevation2"
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorDefault NatDSAppBar-colorDefault-1 MuiPaper-elevation2"
 >
   <div
     className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
   >
     <div
-      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-57"
+      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-3"
     >
       <h1
         className="MuiTypography-root MuiTypography-h6"
@@ -48,7 +48,7 @@ exports[`Storyshots Components/App Bar Inherit color 1`] = `
     className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
   >
     <div
-      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-60"
+      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-3"
     >
       <h1
         className="MuiTypography-root MuiTypography-h6"
@@ -68,7 +68,7 @@ exports[`Storyshots Components/App Bar No Elevation 1`] = `
     className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
   >
     <div
-      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-66"
+      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-3"
     >
       <h1
         className="MuiTypography-root MuiTypography-h6"
@@ -88,7 +88,7 @@ exports[`Storyshots Components/App Bar Playground 1`] = `
     className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
   >
     <div
-      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-24"
+      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-3"
     >
       <h1
         className="MuiTypography-root MuiTypography-h6"
@@ -108,7 +108,7 @@ exports[`Storyshots Components/App Bar Primary color 1`] = `
     className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
   >
     <div
-      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-34"
+      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-3"
     >
       <h1
         className="MuiTypography-root MuiTypography-h6"
@@ -128,7 +128,7 @@ exports[`Storyshots Components/App Bar Secondary color 1`] = `
     className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
   >
     <div
-      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-51"
+      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-3"
     >
       <h1
         className="MuiTypography-root MuiTypography-h6"
@@ -170,14 +170,14 @@ exports[`Storyshots Components/App Bar With Icon Buttons 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-filled-navigation-menu NatDSIcon-root-89 NatDSIcon-root-90"
+          className="material-icons MuiIcon-root natds-icons natds-icons-filled-navigation-menu NatDSIcon-root-3 NatDSIcon-root-4"
         >
           filled-navigation-menu
         </i>
       </span>
     </button>
     <div
-      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-91"
+      className="NatDSAppBarHighlight NatDSAppBarHighlight-root-5"
     >
       <h1
         className="MuiTypography-root MuiTypography-h6"
@@ -208,7 +208,7 @@ exports[`Storyshots Components/App Bar With Icon Buttons 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-search NatDSIcon-root-89 NatDSIcon-root-92"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-search NatDSIcon-root-3 NatDSIcon-root-6"
         >
           outlined-action-search
         </i>
@@ -240,7 +240,7 @@ exports[`Storyshots Components/App Bar With Icon Buttons 1`] = `
         >
           <i
             aria-hidden={true}
-            className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-filter NatDSIcon-root-89 NatDSIcon-root-93"
+            className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-filter NatDSIcon-root-3 NatDSIcon-root-7"
           >
             outlined-action-filter
           </i>
@@ -280,7 +280,7 @@ exports[`Storyshots Components/App Bar With Icon Buttons 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-myprofile NatDSIcon-root-89 NatDSIcon-root-94"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-myprofile NatDSIcon-root-3 NatDSIcon-root-8"
         >
           outlined-social-myprofile
         </i>
@@ -304,7 +304,7 @@ exports[`Storyshots Components/App Bar With Prominent Toolbar 1`] = `
 
 exports[`Storyshots Components/App Bar With Tabs 1`] = `
 <header
-  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorDefault NatDSAppBar-colorDefault-67 MuiPaper-elevation2"
+  className="MuiPaper-root MuiAppBar-root MuiAppBar-positionStatic MuiAppBar-colorDefault NatDSAppBar-colorDefault-1 MuiPaper-elevation2"
 >
   <div
     className="MuiTabs-root"
@@ -351,14 +351,14 @@ exports[`Storyshots Components/App Bar With Tabs 1`] = `
           >
             <i
               aria-hidden={true}
-              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-68 NatDSIcon-root-69"
+              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-2 NatDSIcon-root-3"
             >
               outlined-action-love
             </i>
             Favorites
           </span>
           <span
-            className="PrivateTabIndicator-root-70 PrivateTabIndicator-colorSecondary-72 MuiTabs-indicator"
+            className="PrivateTabIndicator-root-4 PrivateTabIndicator-colorSecondary-6 MuiTabs-indicator"
             style={Object {}}
           />
         </button>
@@ -389,7 +389,7 @@ exports[`Storyshots Components/App Bar With Tabs 1`] = `
           >
             <i
               aria-hidden={true}
-              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-outlet NatDSIcon-root-68 NatDSIcon-root-74"
+              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-outlet NatDSIcon-root-2 NatDSIcon-root-8"
             >
               outlined-product-outlet
             </i>
@@ -423,7 +423,7 @@ exports[`Storyshots Components/App Bar With Tabs 1`] = `
           >
             <i
               aria-hidden={true}
-              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-brandsproduct NatDSIcon-root-68 NatDSIcon-root-75"
+              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-brandsproduct NatDSIcon-root-2 NatDSIcon-root-9"
             >
               outlined-product-brandsproduct
             </i>
@@ -457,7 +457,7 @@ exports[`Storyshots Components/App Bar With Tabs 1`] = `
           >
             <i
               aria-hidden={true}
-              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-makeup NatDSIcon-root-68 NatDSIcon-root-76"
+              className="material-icons MuiIcon-root natds-icons natds-icons-outlined-product-makeup NatDSIcon-root-2 NatDSIcon-root-10"
             >
               outlined-product-makeup
             </i>

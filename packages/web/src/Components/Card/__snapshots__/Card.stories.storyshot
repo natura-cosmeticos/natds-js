@@ -16,7 +16,7 @@ exports[`Storyshots Components/Card Playground 1`] = `
       className="MuiCardHeader-avatar"
     >
       <div
-        className="MuiAvatar-root NatDsAvatar-root-325 MuiAvatar-circle"
+        className="MuiAvatar-root NatDsAvatar-root-3 MuiAvatar-circle"
       >
         <img
           alt="Nat Natura holding a cat"
@@ -65,7 +65,7 @@ exports[`Storyshots Components/Card Playground 1`] = `
         >
           <i
             aria-hidden={true}
-            className="material-icons MuiIcon-root natds-icons natds-icons-filled-navigation-more NatDSIcon-root-327 NatDSIcon-root-328"
+            className="material-icons MuiIcon-root natds-icons natds-icons-filled-navigation-more NatDSIcon-root-5 NatDSIcon-root-6"
           >
             filled-navigation-more
           </i>
@@ -118,7 +118,7 @@ exports[`Storyshots Components/Card Playground 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-327 NatDSIcon-root-329"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-5 NatDSIcon-root-7"
         >
           outlined-action-love
         </i>
@@ -147,7 +147,7 @@ exports[`Storyshots Components/Card Playground 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-share NatDSIcon-root-327 NatDSIcon-root-330"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-share NatDSIcon-root-5 NatDSIcon-root-8"
         >
           outlined-action-share
         </i>
@@ -156,7 +156,7 @@ exports[`Storyshots Components/Card Playground 1`] = `
     <button
       aria-expanded={false}
       aria-label="Show more options"
-      className="MuiButtonBase-root MuiIconButton-root CardDemo-collapsedIcon-323"
+      className="MuiButtonBase-root MuiIconButton-root CardDemo-collapsedIcon-1"
       disabled={false}
       onBlur={[Function]}
       onClick={[Function]}
@@ -178,7 +178,7 @@ exports[`Storyshots Components/Card Playground 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-327 NatDSIcon-root-331"
+          className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-5 NatDSIcon-root-9"
         >
           outlined-navigation-arrowbottom
         </i>
@@ -225,7 +225,7 @@ exports[`Storyshots Components/Card Simple 1`] = `
     className="MuiCardActions-root MuiCardActions-spacing"
   >
     <button
-      className="MuiButtonBase-root MuiButton-root NatDSButton-root-332 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
       disabled={false}
       onBlur={[Function]}
       onDragLeave={[Function]}
@@ -242,7 +242,7 @@ exports[`Storyshots Components/Card Simple 1`] = `
       type="button"
     >
       <span
-        className="MuiButton-label NatDSButton-label-333"
+        className="MuiButton-label NatDSButton-label-2"
       >
         Button label
       </span>
@@ -291,7 +291,7 @@ exports[`Storyshots Components/Card With Media 1`] = `
     className="MuiCardActions-root MuiCardActions-spacing"
   >
     <button
-      className="MuiButtonBase-root MuiButton-root NatDSButton-root-334 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
       disabled={false}
       onBlur={[Function]}
       onDragLeave={[Function]}
@@ -308,7 +308,7 @@ exports[`Storyshots Components/Card With Media 1`] = `
       type="button"
     >
       <span
-        className="MuiButton-label NatDSButton-label-335"
+        className="MuiButton-label NatDSButton-label-2"
       >
         Button label
       </span>

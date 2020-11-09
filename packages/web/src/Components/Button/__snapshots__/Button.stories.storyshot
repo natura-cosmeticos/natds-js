@@ -3,7 +3,7 @@
 exports[`Storyshots Components/Button Colors 1`] = `
 Array [
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-275 MuiButton-contained MuiButton-containedPrimary"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -20,7 +20,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-276"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Primary color
     </span>
@@ -30,7 +30,7 @@ Array [
   </button>,
   " ",
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-275 MuiButton-contained MuiButton-containedSecondary"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedSecondary"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -47,7 +47,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-276"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Secondary color
     </span>
@@ -57,7 +57,7 @@ Array [
   </button>,
   " ",
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-275 MuiButton-contained"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -74,7 +74,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-276"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Default color
     </span>
@@ -88,7 +88,7 @@ Array [
 
 exports[`Storyshots Components/Button Contained Variant 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-259 MuiButton-contained MuiButton-containedPrimary"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -105,7 +105,7 @@ exports[`Storyshots Components/Button Contained Variant 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-260"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
@@ -117,7 +117,7 @@ exports[`Storyshots Components/Button Contained Variant 1`] = `
 
 exports[`Storyshots Components/Button Disabled 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-265 MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary Mui-disabled Mui-disabled"
   disabled={true}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -134,7 +134,7 @@ exports[`Storyshots Components/Button Disabled 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-266"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
@@ -143,7 +143,7 @@ exports[`Storyshots Components/Button Disabled 1`] = `
 
 exports[`Storyshots Components/Button End Icon 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-271 MuiButton-contained MuiButton-containedPrimary"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -160,7 +160,7 @@ exports[`Storyshots Components/Button End Icon 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-272"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
     <span
@@ -168,7 +168,7 @@ exports[`Storyshots Components/Button End Icon 1`] = `
     >
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-favorite NatDSIcon-root-273 NatDSIcon-root-274"
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-favorite NatDSIcon-root-3 NatDSIcon-root-4"
       >
         outlined-action-favorite
       </i>
@@ -180,7 +180,7 @@ exports[`Storyshots Components/Button End Icon 1`] = `
 exports[`Storyshots Components/Button For Actions 1`] = `
 Array [
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-293 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -197,14 +197,14 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-294"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Small size
     </span>
   </button>,
   " ",
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-293 MuiButton-text"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -221,14 +221,14 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-294"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Medium size
     </span>
   </button>,
   " ",
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-293 MuiButton-text MuiButton-textSizeLarge MuiButton-sizeLarge"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-textSizeLarge MuiButton-sizeLarge"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -245,7 +245,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-294"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Large size
     </span>
@@ -256,7 +256,7 @@ Array [
 
 exports[`Storyshots Components/Button For Dialog Actions 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-281 MuiButton-text MuiButton-textPrimary"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-textPrimary"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -273,7 +273,7 @@ exports[`Storyshots Components/Button For Dialog Actions 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-282"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Action text
   </span>
@@ -282,7 +282,7 @@ exports[`Storyshots Components/Button For Dialog Actions 1`] = `
 
 exports[`Storyshots Components/Button For Snackbar 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-279 MuiButton-text MuiButton-colorInherit"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-colorInherit"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -299,7 +299,7 @@ exports[`Storyshots Components/Button For Snackbar 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-280"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
@@ -312,7 +312,7 @@ exports[`Storyshots Components/Button For Snackbar 1`] = `
 exports[`Storyshots Components/Button Full Width 1`] = `
 Array [
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-291 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-fullWidth"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall MuiButton-fullWidth"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -329,7 +329,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-292"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Small size
     </span>
@@ -339,7 +339,7 @@ Array [
   </button>,
   " ",
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-291 MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -356,7 +356,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-292"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Medium size
     </span>
@@ -366,7 +366,7 @@ Array [
   </button>,
   " ",
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-291 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge MuiButton-fullWidth"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -383,7 +383,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-292"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Large size
     </span>
@@ -397,7 +397,7 @@ Array [
 
 exports[`Storyshots Components/Button Inherit Color 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-277 MuiButton-contained MuiButton-colorInherit"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-colorInherit"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -414,7 +414,7 @@ exports[`Storyshots Components/Button Inherit Color 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-278"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
@@ -423,7 +423,7 @@ exports[`Storyshots Components/Button Inherit Color 1`] = `
 
 exports[`Storyshots Components/Button Large Size 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-289 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -440,7 +440,7 @@ exports[`Storyshots Components/Button Large Size 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-290"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
@@ -449,7 +449,7 @@ exports[`Storyshots Components/Button Large Size 1`] = `
 
 exports[`Storyshots Components/Button Medium Size 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-287 MuiButton-contained MuiButton-containedPrimary"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -466,7 +466,7 @@ exports[`Storyshots Components/Button Medium Size 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-288"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
@@ -478,7 +478,7 @@ exports[`Storyshots Components/Button Medium Size 1`] = `
 
 exports[`Storyshots Components/Button Outlined Variant 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-261 MuiButton-outlined MuiButton-outlinedPrimary"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-outlined MuiButton-outlinedPrimary"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -495,7 +495,7 @@ exports[`Storyshots Components/Button Outlined Variant 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-262"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
@@ -504,7 +504,7 @@ exports[`Storyshots Components/Button Outlined Variant 1`] = `
 
 exports[`Storyshots Components/Button Playground 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-257 MuiButton-contained MuiButton-containedPrimary"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -521,7 +521,7 @@ exports[`Storyshots Components/Button Playground 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-258"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
@@ -531,7 +531,7 @@ exports[`Storyshots Components/Button Playground 1`] = `
 exports[`Storyshots Components/Button Sizes 1`] = `
 Array [
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-283 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -548,7 +548,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-284"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Small size
     </span>
@@ -558,7 +558,7 @@ Array [
   </button>,
   " ",
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-283 MuiButton-contained MuiButton-containedPrimary"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -575,7 +575,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-284"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Medium size
     </span>
@@ -585,7 +585,7 @@ Array [
   </button>,
   " ",
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-283 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeLarge MuiButton-sizeLarge"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -602,7 +602,7 @@ Array [
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-284"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Large size
     </span>
@@ -616,7 +616,7 @@ Array [
 
 exports[`Storyshots Components/Button Small Size 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-285 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary MuiButton-containedSizeSmall MuiButton-sizeSmall"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -633,7 +633,7 @@ exports[`Storyshots Components/Button Small Size 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-286"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
@@ -642,7 +642,7 @@ exports[`Storyshots Components/Button Small Size 1`] = `
 
 exports[`Storyshots Components/Button Start Icon 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-267 MuiButton-contained MuiButton-containedPrimary"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-contained MuiButton-containedPrimary"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -659,14 +659,14 @@ exports[`Storyshots Components/Button Start Icon 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-268"
+    className="MuiButton-label NatDSButton-label-2"
   >
     <span
       className="MuiButton-startIcon MuiButton-iconSizeMedium"
     >
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-favorite NatDSIcon-root-269 NatDSIcon-root-270"
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-favorite NatDSIcon-root-3 NatDSIcon-root-4"
       >
         outlined-action-favorite
       </i>
@@ -681,7 +681,7 @@ exports[`Storyshots Components/Button Start Icon 1`] = `
 
 exports[`Storyshots Components/Button Text Variant 1`] = `
 <button
-  className="MuiButtonBase-root MuiButton-root NatDSButton-root-263 MuiButton-text MuiButton-textPrimary"
+  className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-textPrimary"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -698,7 +698,7 @@ exports[`Storyshots Components/Button Text Variant 1`] = `
   type="button"
 >
   <span
-    className="MuiButton-label NatDSButton-label-264"
+    className="MuiButton-label NatDSButton-label-2"
   >
     Button component text
   </span>
