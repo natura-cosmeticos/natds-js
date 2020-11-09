@@ -1,4 +1,4 @@
-import { iconNames } from "@naturacosmeticos/natds-icons";
+import { IconName } from "@naturacosmeticos/natds-icons";
 import { IIconSizes } from "@naturacosmeticos/natds-styles";
 import { IconProps } from "@material-ui/core/Icon";
 
@@ -11,7 +11,7 @@ export type IconColor =
   "inherit" |
   "primary" |
   "secondary";
-export type IconName = keyof typeof iconNames;
+
 export type IconSize = keyof IIconSizes;
 
 export interface IIconProps extends Omit<IconProps, "children" | "fontSize" | "name"> {
