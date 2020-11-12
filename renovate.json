@@ -25,7 +25,7 @@
       "groupName": "jest dependencies",
       "groupSlug": "jest",
       "labels": ["dependencies", "renovate", "testing"],
-      "packagePatterns": ["@types/chai-jest-snapshot", "ts-jest"]
+      "packagePatterns": ["@types/chai-jest-snapshot", "ts-jest", "^@testing-library"]
     },
     {
       "groupName": "rollup dependencies",
@@ -40,7 +40,7 @@
       "packagePatterns": [".*styled-components"]
     },
     {
-      "packagePatterns": ["eslint"],
+      "packagePatterns": ["^eslint", "^@typescript-eslint"],
       "labels": ["dependencies", "linting", "renovate"]
     },
     {
@@ -64,6 +64,7 @@
   ],
   "prConcurrentLimit": 3,
   "semanticCommits": "enabled",
+  "commitMessageSuffix": "[skip netlify]",
   "unicodeEmoji": true,
   "updateLockFiles": true,
   "vulnerabilityAlerts": {
