@@ -31,13 +31,13 @@
       "groupName": "rollup dependencies",
       "groupSlug": "rollup",
       "labels": ["dependencies", "renovate", "rollup"],
-      "packagePatterns": ["@rollup/plugin-babel", "@rollup/plugin-commonjs", "@rollup/plugin-node-resolve", "@rollup/plugin-typescript"]
+      "packagePatterns": ["^@rollup"]
     },
     {
       "groupName": "styled-components dependencies",
       "groupSlug": "styled-components",
       "labels": ["dependencies", "renovate", "styled-components"],
-      "packagePatterns": ["@types/styled-components", "jest-styled-components", "styled-components"]
+      "packagePatterns": [".*styled-components"]
     },
     {
       "packagePatterns": ["eslint"],
@@ -48,12 +48,8 @@
       "labels": ["dependencies", "renovate", "security"]
     },
     {
-      "packagePatterns": ["@material-ui/core", "@material-ui/icons"],
+      "packagePatterns": ["^@material-ui"],
       "labels": ["dependencies", "material ui", "renovate"]
-    },
-    {
-      "packagePatterns": ["snyk"],
-      "labels": ["dependencies", "renovate", "security"]
     },
     {
       "paths": ["examples/create-react-app/package.json"],
@@ -66,6 +62,7 @@
       "enabled": true
     }
   ],
+  "prConcurrentLimit": 3,
   "semanticCommits": "enabled",
   "unicodeEmoji": true,
   "updateLockFiles": true,
