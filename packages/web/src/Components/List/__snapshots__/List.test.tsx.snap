@@ -62,9 +62,7 @@ exports[`List components rendering variants should match to snapshot - with List
         <i
           aria-hidden={true}
           className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-3 NatDSIcon-root-4"
-        >
-          outlined-navigation-close
-        </i>
+        />
       </div>
     </div>
   </li>
@@ -85,9 +83,7 @@ exports[`List components rendering variants should match to snapshot - with List
       <i
         aria-hidden={true}
         className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-3 NatDSIcon-root-5"
-      >
-        outlined-navigation-close
-      </i>
+      />
     </div>
   </li>
 </ul>
@@ -128,9 +124,7 @@ exports[`List components rendering variants should match to snapshot - with List
           <i
             aria-hidden={true}
             className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-close NatDSIcon-root-3 NatDSIcon-root-6"
-          >
-            outlined-navigation-close
-          </i>
+          />
         </span>
       </button>
     </div>

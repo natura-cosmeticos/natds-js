@@ -41,9 +41,7 @@ exports[`TableSortLabel component when active and direction is ascending should 
             <i
               aria-hidden={true}
               className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-directiontop NatDSIcon-root-3 NatDSIcon-root-4"
-            >
-              outlined-navigation-directiontop
-            </i>
+            />
           </span>
         </th>
       </tr>
@@ -93,9 +91,7 @@ exports[`TableSortLabel component when active and direction is descending should
             <i
               aria-hidden={true}
               className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-directionbottom NatDSIcon-root-3 NatDSIcon-root-6"
-            >
-              outlined-navigation-directionbottom
-            </i>
+            />
           </span>
         </th>
       </tr>
@@ -147,9 +143,7 @@ exports[`TableSortLabel component when active and with icon should match snapsho
             <i
               aria-hidden={true}
               className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-directionbottom NatDSIcon-root-3 NatDSIcon-root-8"
-            >
-              outlined-navigation-directionbottom
-            </i>
+            />
           </span>
         </th>
       </tr>
@@ -201,9 +195,7 @@ exports[`TableSortLabel component when inactive and without icon should match sn
             <i
               aria-hidden={true}
               className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-order NatDSIcon-root-3 NatDSIcon-root-10"
-            >
-              outlined-action-order
-            </i>
+            />
           </span>
         </th>
       </tr>
