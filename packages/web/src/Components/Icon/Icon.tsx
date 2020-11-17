@@ -27,7 +27,6 @@ export const Icon = React.forwardRef<HTMLElement, IIconProps>(
     } = props;
 
     const classes = useStyles({ name, size });
-    // const sizeClassNameKey = `${size}FontSize`;
 
     const classNames = clsx([
       "natds-icons",
@@ -36,7 +35,7 @@ export const Icon = React.forwardRef<HTMLElement, IIconProps>(
       classes.root,
     ]);
 
-    return <MaterialIcon className={classNames} component={"i"} ref={ref} {...otherProps}>{name}</MaterialIcon>;
+    return <MaterialIcon className={classNames} component={"i"} ref={ref} {...otherProps} />;
   },
 );
 

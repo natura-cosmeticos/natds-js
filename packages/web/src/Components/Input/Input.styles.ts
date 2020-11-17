@@ -61,16 +61,6 @@ const style = createStyles(
           height: sizes?.none,
           width: sizes?.none,
         },
-
-        /**
-         * @see https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown
-         */
-        "&:placeholder-shown": {
-          boxShadow,
-        },
-        "&:not(:placeholder-shown)": {
-          boxShadow: `${palette?.text?.primary} 0 0 0 1px`,
-        },
       },
       inputMultiline: {
         resize: "vertical",
