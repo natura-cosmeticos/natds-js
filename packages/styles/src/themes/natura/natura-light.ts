@@ -406,7 +406,6 @@ export const naturaLight: ITheme = {
         },
         padding: "12px",
         borderRadius: "4px",
-        boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
       },
       input: {
         color: naturaLightColorTokens.colorHighEmphasis,

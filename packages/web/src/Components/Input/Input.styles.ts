@@ -13,7 +13,7 @@ const style = createStyles(
         return `${palette?.error?.main} 0 0 2px`;
       }
       if (state === "success") {
-        return `${palette?.success?.main} 0 0 1px`;
+        return `${palette?.success?.main} 0 0 2px`;
       }
 
       return `${palette?.text?.hint} 0 0 0 1px`;
