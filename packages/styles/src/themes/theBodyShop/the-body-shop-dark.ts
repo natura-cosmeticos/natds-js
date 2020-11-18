@@ -436,7 +436,6 @@ export const theBodyShopDark: ITheme = {
         },
         padding: "12px",
         borderRadius: "4px",
-        boxShadow: `${theBodyShopDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
       },
       input: {
         color: theBodyShopDarkColorTokens.colorHighEmphasis,

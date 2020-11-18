@@ -428,7 +428,6 @@ export const naturaDark: ITheme = {
         },
         padding: "12px",
         borderRadius: "4px",
-        boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
       },
       input: {
         color: naturaDarkColorTokens.colorHighEmphasis,

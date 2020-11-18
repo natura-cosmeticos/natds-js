@@ -396,7 +396,6 @@ export const avonLight: ITheme = {
         },
         padding: "12px",
         borderRadius: "4px",
-        boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
       },
       input: {
         color: avonLightColorTokens.colorHighEmphasis,
