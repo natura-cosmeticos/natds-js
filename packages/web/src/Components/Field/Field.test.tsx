@@ -11,6 +11,7 @@ const getProps = (props: Partial<ITextFieldProps> = {}) => {
     id = "field",
     label = "Label",
     mask,
+    maxLength,
     placeholder = "Placeholder",
     required,
     state,
@@ -24,6 +25,7 @@ const getProps = (props: Partial<ITextFieldProps> = {}) => {
     id,
     label,
     mask,
+    maxLength,
     placeholder,
     required,
     state,
@@ -72,6 +74,13 @@ describe("Field component", () => {
     const onChange = jest.fn();
     const value = "new search";
     const testRenderer = TestRenderer.create(<Field {...props} onChange={onChange} value={value} />);
+
+    expect(testRenderer).toMatchSnapshot();
+  });
+
+  it("should render input with maxLength attribute equal 3", () => {    
+    const props = getProps({ maxLength: "3" });
+    const testRenderer = TestRenderer.create(<Field {...props} />);
 
     expect(testRenderer).toMatchSnapshot();
   });

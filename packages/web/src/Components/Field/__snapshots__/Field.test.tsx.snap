@@ -121,6 +121,52 @@ exports[`Field component should render input for search types and onChange 1`] =
 </div>
 `;
 
+exports[`Field component should render input with maxLength attribute equal 3 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+  required={false}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-15"
+    disabled={false}
+    id="field"
+    maxLength="3"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+    required={false}
+    type="text"
+    value=""
+  />
+</div>
+`;
+
+exports[`Field component should render input with maxLength equal 3 1`] = `
+<div
+  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  onClick={[Function]}
+  required={false}
+>
+  <input
+    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-15"
+    disabled={false}
+    id="field"
+    maxLength="3"
+    onAnimationStart={[Function]}
+    onBlur={[Function]}
+    onChange={[Function]}
+    onFocus={[Function]}
+    placeholder="Placeholder"
+    required={false}
+    type="text"
+    value=""
+  />
+</div>
+`;
+
 exports[`Field component should render single line input 1`] = `
 <div
   className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
