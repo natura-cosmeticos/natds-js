@@ -51,10 +51,15 @@ Note that we enclose all your application in a `Provider` component.
 
 ```jsx
 import React from 'react'
+import { createGenerateClassName } from "@material-ui/core/styles";
 import { Button, CssBaseline, Provider, themes } from "@naturacosmeticos/natds-web";
 
+const generateClassName = createGenerateClassName({
+    productionPrefix: props.cssPrefix || "natds",
+});
+
 export const App = () => (
-  <Provider theme={themes.natura.light}>
+  <Provider theme={themes.natura.light} generateClassName={generateClassName}>
     <CssBaseline />
     <Button color={"primary"} variant={"contained"}>
       Hello World
@@ -63,7 +68,7 @@ export const App = () => (
 )
 ```
 
-This package only works fine with the use of `<Provider />`, that is **essential** for applying styles correctly.
+This package only works fine with the use of `<Provider />`, that is **essential** for applying styles correctly. And to avoid problems with multiple style fonts, it is necessary to add a `cssPrefix` with theme provider.
 
 Please do not try to override theme palette or another tokens. Our Design System themes are ready to use.
 
