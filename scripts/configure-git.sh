@@ -11,8 +11,8 @@ git fetch --quiet
 git checkout "${TRAVIS_BRANCH}"
 
 # System Team will make the commit
-git config --global user.email "systemteamopensource@natura.net"
-git config --global user.name "${GITHUB_API_USER} in behalf of System Team Open Source"
+git config --global user.email "designsystem@natura.net"
+git config --global user.name "${GITHUB_API_USER} in behalf of Design System Team"
 
 npm config set '//registry.npmjs.org/:_authToken' "${NPM_AUTH_TOKEN}"
 yarn config set _authToken "${NPM_AUTH_TOKEN}"
