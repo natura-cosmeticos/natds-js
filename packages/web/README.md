@@ -35,11 +35,13 @@ Working with Yarn? Use the equivalent install command:
 $ yarn add @naturacosmeticos/natds-web
 ```
 
-Load the Roboto font with `400` and `500` font weights:
+### Fonts & Icons
 
-```
-https://fonts.googleapis.com/css2?family=Roboto:wght@400;500&display=swap
-```
+Load the Roboto font with `400` and `500` font weights and the `natds-icons`:
+
+`https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;500&display=swap`
+
+`./natds-icons.css`
 
 This package does not provide Roboto font, only its font family names.
 
