@@ -1,5 +1,7 @@
 #!/bin/bash
-set -e
 
-mkdir build
-echo "test deploy" > ./build/test.txt
+yarn install
+yarn build:storybook
+mkdir -p build
+cp packages/web/docs/dist/* build
+
