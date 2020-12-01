@@ -3,5 +3,4 @@
 yarn install
 yarn build:storybook
 mkdir -p build
-cp packages/web/docs/dist/* build
-
+cp -r packages/web/docs/dist/* build
