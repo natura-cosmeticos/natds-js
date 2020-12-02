@@ -3,7 +3,7 @@
 FOLDER_NAME=${GIT_BRANCH//[\/]/-}
 OUTPUT_PATH=build
 
-echo "Build for ${GIT_BRANCH} branch started with parameters ${1}"
+printenv
 
 yarn install
 yarn build:storybook
