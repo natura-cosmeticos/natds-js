@@ -3,6 +3,8 @@
 FOLDER_NAME=${GIT_BRANCH//[\/]/-}
 OUTPUT_PATH=build
 
+echo "Build for ${GIT_BRANCH} branch started with parameters ${1}"
+
 yarn install
 yarn build:storybook
 mkdir -p build
