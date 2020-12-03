@@ -3,6 +3,21 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/natura-cosmeticos/natds/compare/v1.0.0-alpha.DSY-666.10065.0...v1.0.0) (2020-12-03)
+
+
+### Bug Fixes
+
+* **web:** remove root box shadow from text field ([4584cdb](https://github.com/natura-cosmeticos/natds/commit/4584cdbfaf6f603e1de9bef207df9bedb2957bbc))
+
+
+
+## [0.24.1](https://github.com/natura-cosmeticos/natds/compare/v1.0.0-alpha.3...v0.24.1) (2020-11-12)
+
+
+
+
+
 ## [0.24.1](https://github.com/natura-cosmeticos/natds/compare/v0.24.0...v0.24.1) (2020-11-12)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles

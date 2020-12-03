@@ -3,6 +3,34 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.0.0](https://github.com/natura-cosmeticos/natds/compare/v1.0.0-alpha.DSY-666.10065.0...v1.0.0) (2020-12-03)
+
+
+### Bug Fixes
+
+* **web:** remove root box shadow from text field ([4584cdb](https://github.com/natura-cosmeticos/natds/commit/4584cdbfaf6f603e1de9bef207df9bedb2957bbc))
+* **web:** TextField with states border color, remove icon name from icon component ([d77b147](https://github.com/natura-cosmeticos/natds/commit/d77b147d2e60ca52f12c6637a62e5e1e73c496b8))
+
+
+### Features
+
+* **web:** add cssPrefix option to isolate classes ([6ea4ef9](https://github.com/natura-cosmeticos/natds/commit/6ea4ef9a95402659e909ec4f55dd40b70028908a))
+* **web:** add maxLength to Field component + update TextField playground ([7e4ffa0](https://github.com/natura-cosmeticos/natds/commit/7e4ffa0d436e23fcf5e24d0b16de954c9314a206))
+* **web:** remove natds-icons font loading. Now the user has the ability to decide when to load the ([24ae5e5](https://github.com/natura-cosmeticos/natds/commit/24ae5e568eefe1960bfea63db906553e7e4e3b6c))
+
+
+### BREAKING CHANGES
+
+* **web:** The application now has to manually load the natds-icons font. See the docs for more information
+
+
+
+## [0.24.1](https://github.com/natura-cosmeticos/natds/compare/v1.0.0-alpha.3...v0.24.1) (2020-11-12)
+
+
+
+
+
 ## [0.24.1](https://github.com/natura-cosmeticos/natds/compare/v0.24.0...v0.24.1) (2020-11-12)
 
 **Note:** Version bump only for package natds
