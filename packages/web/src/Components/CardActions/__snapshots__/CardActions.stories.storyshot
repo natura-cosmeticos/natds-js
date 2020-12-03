@@ -5,7 +5,7 @@ exports[`Storyshots Components/Card/Card Actions Playground 1`] = `
   className="MuiCardActions-root MuiCardActions-spacing"
 >
   <button
-    className="MuiButtonBase-root MuiButton-root NatDSButton-root-336 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text MuiButton-textSizeSmall MuiButton-sizeSmall"
     disabled={false}
     onBlur={[Function]}
     onDragLeave={[Function]}
@@ -22,7 +22,7 @@ exports[`Storyshots Components/Card/Card Actions Playground 1`] = `
     type="button"
   >
     <span
-      className="MuiButton-label NatDSButton-label-337"
+      className="MuiButton-label NatDSButton-label-2"
     >
       Button label
     </span>
@@ -60,10 +60,8 @@ exports[`Storyshots Components/Card/Card Actions With Icon Buttons 1`] = `
     >
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-338 NatDSIcon-root-339"
-      >
-        outlined-action-love
-      </i>
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-1 NatDSIcon-root-2"
+      />
     </span>
   </button>
   <button
@@ -89,10 +87,8 @@ exports[`Storyshots Components/Card/Card Actions With Icon Buttons 1`] = `
     >
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-share NatDSIcon-root-338 NatDSIcon-root-340"
-      >
-        outlined-action-share
-      </i>
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-share NatDSIcon-root-1 NatDSIcon-root-3"
+      />
     </span>
   </button>
   <button
@@ -119,10 +115,8 @@ exports[`Storyshots Components/Card/Card Actions With Icon Buttons 1`] = `
     >
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-338 NatDSIcon-root-341"
-      >
-        outlined-navigation-arrowbottom
-      </i>
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-1 NatDSIcon-root-4"
+      />
     </span>
   </button>
 </div>
@@ -155,10 +149,8 @@ exports[`Storyshots Components/Card/Card Actions With Icon Buttons And Disabled 
     >
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-342 NatDSIcon-root-343"
-      >
-        outlined-action-love
-      </i>
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-love NatDSIcon-root-1 NatDSIcon-root-2"
+      />
     </span>
     <span
       className="MuiTouchRipple-root"
@@ -187,10 +179,8 @@ exports[`Storyshots Components/Card/Card Actions With Icon Buttons And Disabled 
     >
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-share NatDSIcon-root-342 NatDSIcon-root-344"
-      >
-        outlined-action-share
-      </i>
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-action-share NatDSIcon-root-1 NatDSIcon-root-3"
+      />
     </span>
     <span
       className="MuiTouchRipple-root"
@@ -220,10 +210,8 @@ exports[`Storyshots Components/Card/Card Actions With Icon Buttons And Disabled 
     >
       <i
         aria-hidden={true}
-        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-342 NatDSIcon-root-345"
-      >
-        outlined-navigation-arrowbottom
-      </i>
+        className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom NatDSIcon-root-1 NatDSIcon-root-4"
+      />
     </span>
     <span
       className="MuiTouchRipple-root"

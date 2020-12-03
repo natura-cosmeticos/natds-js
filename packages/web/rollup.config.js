@@ -26,7 +26,6 @@ const getBrowserOutputConfig = ({ filePath = "", globals, name = "natdsWeb" }) =
 ];
 
 const globals = {
-  "@naturacosmeticos/natds-icons/dist/natds-icons.css": "natDsIcons",
   react: "React",
 };
 const external = Object.keys(globals);

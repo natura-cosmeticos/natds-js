@@ -1,11 +1,11 @@
-import { iconNames } from "@naturacosmeticos/natds-icons";
 import * as React from "react";
+import { IconName } from "@naturacosmeticos/natds-icons";
 import { IThemeWeb } from "../../../Themes";
 import { IDrawerMenuSectionProps } from "../DrawerMenuSection";
 
 export interface IDrawerMenuItemProps {
   badge?: string;
-  icon?: keyof typeof iconNames;
+  icon?: IconName;
   list?: [IDrawerMenuSectionProps];
   name?: string;
   onSelect?: (event: React.SyntheticEvent, name?: string) => void;

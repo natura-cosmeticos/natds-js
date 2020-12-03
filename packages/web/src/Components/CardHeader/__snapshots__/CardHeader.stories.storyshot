@@ -8,7 +8,7 @@ exports[`Storyshots Components/Card/Card Header Playground 1`] = `
     className="MuiCardHeader-avatar"
   >
     <div
-      className="MuiAvatar-root NatDsAvatar-root-346 MuiAvatar-circle"
+      className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle"
     >
       <img
         alt="Nat Natura holding a cat"
@@ -57,10 +57,8 @@ exports[`Storyshots Components/Card/Card Header Playground 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-filled-navigation-more NatDSIcon-root-348 NatDSIcon-root-349"
-        >
-          filled-navigation-more
-        </i>
+          className="material-icons MuiIcon-root natds-icons natds-icons-filled-navigation-more NatDSIcon-root-3 NatDSIcon-root-4"
+        />
       </span>
     </button>
   </div>
@@ -75,7 +73,7 @@ exports[`Storyshots Components/Card/Card Header With Custom Typography 1`] = `
     className="MuiCardHeader-avatar"
   >
     <div
-      className="MuiAvatar-root NatDsAvatar-root-350 MuiAvatar-circle"
+      className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle"
     >
       <img
         alt="Nat Natura holding a cat"
@@ -124,10 +122,8 @@ exports[`Storyshots Components/Card/Card Header With Custom Typography 1`] = `
       >
         <i
           aria-hidden={true}
-          className="material-icons MuiIcon-root natds-icons natds-icons-filled-navigation-more NatDSIcon-root-352 NatDSIcon-root-353"
-        >
-          filled-navigation-more
-        </i>
+          className="material-icons MuiIcon-root natds-icons natds-icons-filled-navigation-more NatDSIcon-root-3 NatDSIcon-root-4"
+        />
       </span>
       <span
         className="MuiTouchRipple-root"

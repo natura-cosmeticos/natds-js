@@ -13,7 +13,7 @@ const style = createStyles(
         return `${palette?.error?.main} 0 0 2px`;
       }
       if (state === "success") {
-        return `${palette?.success?.main} 0 0 1px`;
+        return `${palette?.success?.main} 0 0 2px`;
       }
 
       return `${palette?.text?.hint} 0 0 0 1px`;
@@ -60,16 +60,6 @@ const style = createStyles(
           display: "none",
           height: sizes?.none,
           width: sizes?.none,
-        },
-
-        /**
-         * @see https://developer.mozilla.org/en-US/docs/Web/CSS/:placeholder-shown
-         */
-        "&:placeholder-shown": {
-          boxShadow,
-        },
-        "&:not(:placeholder-shown)": {
-          boxShadow: `${palette?.text?.primary} 0 0 0 1px`,
         },
       },
       inputMultiline: {

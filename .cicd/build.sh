@@ -1,6 +1,6 @@
 #!/bin/bash
 
-FOLDER_NAME=${GIT_BRANCH//[\/]/-}
+FOLDER_NAME=${BRANCH_NAME//[\/]/-}
 OUTPUT_PATH=build
 
 yarn install

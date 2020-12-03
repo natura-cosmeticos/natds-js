@@ -38,6 +38,7 @@ Playground.args = {
   icon: null,
   label: "Label",
   multiline: false,
+  maxLength: "",
   placeholder: "Placeholder",
   required: false,
   rows: 1,

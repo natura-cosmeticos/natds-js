@@ -3,7 +3,7 @@ import * as TestRenderer from "react-test-renderer";
 
 import { IIconSizes, tokens } from "@naturacosmeticos/natds-styles";
 
-import Icon from "../../Components/Icon";
+import { Icon } from "../../Components/Icon";
 import { Provider } from "../../Provider";
 import { IThemeWeb } from "../../Themes";
 
@@ -15,7 +15,7 @@ describe("Icon component", () => {
     it("should render correctly", () => {
       // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
-      testRenderer = TestRenderer.create(<Icon/>);
+      testRenderer = TestRenderer.create(<Icon />);
 
       expect(testRenderer).toMatchSnapshot();
     });
@@ -36,7 +36,7 @@ describe("Icon component", () => {
     });
   });
 
-  const iconSizes : string[] = Object.keys(tokens.iconSizes);
+  const iconSizes: string[] = Object.keys(tokens.iconSizes);
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore

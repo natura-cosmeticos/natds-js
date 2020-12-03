@@ -26,9 +26,7 @@ exports[`Chip component should match snapshot - Any valid Chip with Icon: Chip s
   <i
     aria-hidden={true}
     className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add MuiChip-icon NatDSIcon-root-3 NatDSIcon-root-4"
-  >
-    filled-action-add
-  </i>
+  />
   <span
     className="MuiChip-label"
   />
@@ -50,9 +48,7 @@ exports[`Chip component should match snapshot - Any valid Chip with custom delet
     aria-hidden={true}
     className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-cancel MuiChip-deleteIcon NatDSIcon-root-3 NatDSIcon-root-6"
     onClick={[Function]}
-  >
-    filled-action-cancel
-  </i>
+  />
 </div>
 `;
 
@@ -83,9 +79,7 @@ exports[`Chip component should match snapshot - Any valid Chip with default dele
     aria-hidden={true}
     className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-cancel MuiChip-deleteIcon NatDSIcon-root-3 NatDSIcon-root-5"
     onClick={[Function]}
-  >
-    filled-action-cancel
-  </i>
+  />
 </div>
 `;
 

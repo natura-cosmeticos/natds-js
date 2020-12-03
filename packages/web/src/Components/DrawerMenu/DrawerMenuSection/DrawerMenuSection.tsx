@@ -4,7 +4,7 @@ import * as React from "react";
 import { createStyles, makeStyles } from "@material-ui/core";
 import ListItem from "../../ListItem";
 import ListItemIcon from "../../ListItemIcon";
-import Icon from "../../Icon";
+import { Icon } from "../../Icon";
 import ListItemText from "../../ListItemText";
 import Collapse from "../../Collapse";
 import List from "../../List";

@@ -1,6 +1,5 @@
 import * as React from "react";
 import MaterialIcon from "@material-ui/core/Icon";
-import "@naturacosmeticos/natds-icons/dist/natds-icons.css";
 import clsx from "clsx";
 import { useStyles } from "./Icon.styles";
 import { IIconProps } from "./Icon.props";
@@ -28,7 +27,6 @@ export const Icon = React.forwardRef<HTMLElement, IIconProps>(
     } = props;
 
     const classes = useStyles({ name, size });
-    // const sizeClassNameKey = `${size}FontSize`;
 
     const classNames = clsx([
       "natds-icons",
@@ -37,7 +35,7 @@ export const Icon = React.forwardRef<HTMLElement, IIconProps>(
       classes.root,
     ]);
 
-    return <MaterialIcon className={classNames} component={"i"} ref={ref} {...otherProps}>{name}</MaterialIcon>;
+    return <MaterialIcon className={classNames} component={"i"} ref={ref} {...otherProps} />;
   },
 );
 

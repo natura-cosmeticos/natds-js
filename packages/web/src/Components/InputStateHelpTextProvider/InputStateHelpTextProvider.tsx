@@ -1,15 +1,16 @@
 import * as React from "react";
+import { IconName } from "@naturacosmeticos/natds-icons";
 import { IInputStateHelpTextProviderProps } from "./InputStateHelpTextProvider.props";
 import { FormHelperText } from "../FormHelperText";
 import { InputLabel } from "../InputLabel";
 import { FormControl } from "../FormControl";
-import { Icon, IIconProps } from "../Icon";
+import { Icon } from "../Icon";
 import useStyles from "./InputStateHelpTextProvider.styles";
 
 export { IInputStateHelpTextProviderProps } from "./InputStateHelpTextProvider.props";
 
 // eslint-disable-next-line complexity
-export const InputStateHelpTextProvider : React.FunctionComponent<IInputStateHelpTextProviderProps> = (props: IInputStateHelpTextProviderProps) => {
+export const InputStateHelpTextProvider: React.FunctionComponent<IInputStateHelpTextProviderProps> = (props: IInputStateHelpTextProviderProps) => {
   const {
     id,
     label,
@@ -24,7 +25,7 @@ export const InputStateHelpTextProvider : React.FunctionComponent<IInputStateHel
 
   const content = label && required ? `${label} *` : label;
 
-  let stateIconName : IIconProps["name"] = "filled-default-mockup";
+  let stateIconName: IconName = "filled-default-mockup";
 
   if (state === "error") {
     stateIconName = "outlined-alert-cancel";
