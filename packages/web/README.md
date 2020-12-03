@@ -4,7 +4,6 @@ React components for web development inside Natura.
 
 [![npm package](https://img.shields.io/npm/v/@naturacosmeticos/natds-web/latest.svg)](https://www.npmjs.com/package/@naturacosmeticos/natds-web)
 [![Monthly downloads](https://img.shields.io/npm/dm/@naturacosmeticos/natds-web.svg)](https://www.npmjs.com/package/@naturacosmeticos/natds-web)
-[![Travis build status](https://travis-ci.org/natura-cosmeticos/natds-js.svg?branch=main)](https://travis-ci.com/natura-cosmeticos/natds-js)
 [![Code coverage](https://img.shields.io/codecov/c/github/natura-cosmeticos/natds-js/main.svg)](https://codecov.io/gh/natura-cosmeticos/natds-js/branch/main)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=packages/web/package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 [![Issue resolution](https://isitmaintained.com/badge/resolution/natura-cosmeticos/natds-js.svg)](https://isitmaintained.com/project/natura-cosmeticos/natds-js)
@@ -35,15 +34,41 @@ Working with Yarn? Use the equivalent install command:
 $ yarn add @naturacosmeticos/natds-web
 ```
 
-### Fonts & Icons
+### Fonts
 
-Load the Roboto font with `400` and `500` font weights and the `natds-icons`:
+Load the Roboto font with `400` and `500` font weights:
 
-`https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;500&display=swap`
+`<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />`
 
-`./natds-icons.css`
+> This package does not provide Roboto font, only its font family names.
 
-This package does not provide Roboto font, only its font family names.
+### Icons
+
+Load the font icons from the package `@naturacosmeticos/natds-icons`:
+
+`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css">`
+
+or load it from the node_modules with a module bundler like webpack or rollup
+
+main.js
+
+```javascript
+import React from 'react';
+import 'node_modules/@naturacosmeticos/natds-icons/natds-icons.css';
+```
+
+webpack.config.js
+
+```javascript
+module.exports = {
+  module: {
+    loaders: [
+      { test: /\.css$/, loader: "style-loader!css-loader" },
+      // ...
+    ]
+  }
+};
+```
 
 ### Usage
 
