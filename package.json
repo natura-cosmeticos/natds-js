@@ -54,9 +54,9 @@
     "clean": "lerna clean",
     "cm": "git cz",
     "commit": "git cz",
-    "eslint": "eslint --ext .js,.jsx,.ts,.tsx --cache --max-warnings 0",
-    "format": "yarn lint --fix",
-    "format:staged": "yarn lint:staged --fix",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx --cache --max-warnings 0",
+    "lint:fix": "yarn lint --fix",
+    "lint:staged": "yarn eslint $(git diff --name-only --diff-filter=ACM \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" | sed 's| |\\\\ |g') --fix",
     "lerna": "lerna",
     "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog",
     "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --force-git-tag --force-publish=@naturacosmeticos/natds-styles,@naturacosmeticos/natds-web --yes",
@@ -68,17 +68,13 @@
     "lerna:release:publish:ci": "yarn lerna:release:publish --yes",
     "lerna:graduate:version": "lerna version --conventional-commits --conventional-graduate",
     "lerna:graduate:version:ci": "yarn lerna:graduate:version --force-publish=@naturacosmeticos/natds-styles,@naturacosmeticos/natds-web --yes",
-    "lint": "yarn eslint",
-    "lint:staged": "yarn eslint $(git diff --name-only --diff-filter=ACM \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" | sed 's| |\\\\ |g')",
-    "prebuild": "yarn lint",
-    "prepare": "BUILD=production yarn test",
-    "pretest": "yarn build",
+    "prepare": "BUILD=production",
     "reinstall": "yarn clean && rm -rf node_modules && rm -rf yarn.lock",
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "stryker:run": "stryker run",
-    "test": "jest && lerna run test:ci --stream",
-    "test:ci": "lerna run test:ci",
+    "test": "yarn build && jest && lerna run test --stream",
+    "test:ci": "lerna run test:ci --stream",
     "version": "echo $npm_package_version",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\""
   },
@@ -131,13 +127,6 @@
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
-    }
-  },
-  "husky": {
-    "hooks": {
-      "commit-msg": "commitlint -E HUSKY_GIT_PARAMS",
-      "pre-commit": "yarn format:staged",
-      "pre-push": "yarn test"
     }
   },
   "resolutions": {

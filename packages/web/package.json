@@ -47,16 +47,14 @@
     "build-storybook-ci": "yarn build-storybook --quiet",
     "clean": "rm -rf ./dist",
     "open:coverage": "open coverage/lcov-report/index.html",
-    "pretest": "yarn build",
     "rollup:build": "rollup -c",
-    "start": "yarn build -w",
+    "start": "yarn build --watch",
     "storybook": "yarn update:storybook:fonts && start-storybook -p 6006 -s ./.storybook/assets",
-    "test": "yarn testc",
-    "testc": "jest --coverage",
-    "test:ci": "yarn test && codecov",
-    "test:output": "yarn test --json --outputFile=.jest-test-results.json || true",
-    "testw": "yarn test --watch",
-    "watch": "yarn start"
+    "test": "jest --verbose --silent",
+    "test:coverage": "jest --coverage --silent",
+    "test:ci": "yarn test:coverage && codecov",
+    "test:output": "yarn test:coverage --json --outputFile=.jest-test-results.json || true",
+    "test:watch": "yarn test --watch"
   },
   "config": {},
   "dependencies": {
