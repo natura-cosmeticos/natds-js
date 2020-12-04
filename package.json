@@ -74,7 +74,7 @@
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "stryker:run": "stryker run",
     "test": "yarn build && jest && lerna run test --stream",
-    "test:ci": "lerna run test:ci --stream",
+    "test:ci": " yarn build && lerna run test:ci --stream",
     "version": "echo $npm_package_version",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\""
   },
