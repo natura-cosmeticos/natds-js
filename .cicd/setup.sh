@@ -2,7 +2,7 @@
 
 printenv
 
-bash ./configure-git.sh
+bash .cicd/configure-git.sh
 
 yarn install
 yarn build
