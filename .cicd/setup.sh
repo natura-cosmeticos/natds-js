@@ -2,5 +2,7 @@
 
 printenv
 
+bash ./configure-git.sh
+
 yarn install
 yarn build
