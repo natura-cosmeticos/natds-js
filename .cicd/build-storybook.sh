@@ -15,5 +15,3 @@ if [ -z $1 ]; then
 fi
 
 cp -r packages/web/docs/dist/* ${OUTPUT_PATH}
-
-echo "BUILD NUMBER $BUILD_NUMBER"
