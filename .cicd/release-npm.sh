@@ -2,7 +2,7 @@
 
 echo "release NPM"
 
-BRANCH=$(git symbolic-ref --short HEAD)
+BRANCH="DSY-1796"
 RELEASE_BRANCH="alpha.${BRANCH}.$BUILD_NUMBER"
 
 NPM_TOKEN=$NATDS_NPM_TOKEN
