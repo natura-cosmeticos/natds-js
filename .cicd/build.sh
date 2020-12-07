@@ -3,6 +3,8 @@
 FOLDER_NAME=${BRANCH_NAME//[\/]/-}
 OUTPUT_PATH=build
 
+printenv
+
 yarn install
 yarn build:storybook
 mkdir -p build
