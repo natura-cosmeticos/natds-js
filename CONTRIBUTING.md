@@ -1,109 +1,118 @@
 # Contributing to Natura Design System
 
-When contributing to this repository, please first discuss the change you wish to make via issue, email, or any other method with the owners of this repository before making a change.
+## Before starting
 
-This repo is using node version `node@10.16.3`. Have this version installed to avoid potential problems.
-We also use yarn workspaces, so you should install `yarn@1.19.1` or higher as a package manager. See [installation guide](https://yarnpkg.com/en/docs/install).
-
-We use typescript in this project, with only a few exceptions on the docs package for configuration.
-
+We recommend that you open an issue to bring your suggestions and start a conversation.
 Please note we have a [code of conduct](./CODE_OF_CONDUCT), follow it in all your interactions with the project.
 
-## Project Structure
+## About the proccess to create a component
 
-We use lerna to manage our versioning on the monorepo packages. The monorepo structure goes as it follows:
+In summary:
 
-packages <br>
-&nbsp;&nbsp;&nbsp;&nbsp; /styles <br>
-&nbsp;&nbsp;&nbsp;&nbsp; /web <br>
-&nbsp;&nbsp;&nbsp;&nbsp; /docs <br>
+1. You pull a card from our board. It contains what needs to be implemented, such as variants, props and acceptance criteria.
 
-## Travis CI
+2. After create a _branch_ with the JIRA task code (e.g. DSY-1234) and finish your contribution, you can open a _pull request_ for us. Once ready, the code goes through a code review and the component goes through a visual validation by our Design System Team.
 
-Travis CI's responsibilities are testing, bumping versions of the packages and the root package, and versioning the docs. List of branches that will be evaluated on Travis and their respectives pipelines right now.
+3. When everything is ready, the _pull request_ will be approved and the code integrated with the **main branch**, launching a new version of `natds-web`.
 
-| Branch Name Pattern | Pipeline                                                                                                                                                                                                   |
-|---------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------|
-| `^feature/(.+)$`    | Travis will build and test on pull requests                                                                                                                                                                |
-| `^v\d+.\d+.\d+$`    | Travis will build and test on pull request.On merge it will bump the root package version, commit changes to the current branch, build and version the docs and commit it to the docs corresponding branch |
-## Code of Conduct
+## Step-by-Step
 
-Natura Design System has adopted the [Contributor Covenant](https://www.contributor-covenant.org/) as its Code of Conduct, and we expect project participants to adhere to it.
-Please read [the full text](/CODE_OF_CONDUCT.md) so that you can understand which actions will and will not be tolerated.
+### 1. Environment
 
-## Branching
+This repo is using node version `node@10.16.3`. Have this version or higher installed to avoid potential problems. We also use yarn workspaces, so you should install `yarn@1.19.1` or higher as a package manager. See [installation guide](https://classic.yarnpkg.com/en/docs/install#mac-stable).
 
-Your feature branch must be checked out from the milestone that the feature belongs. You can follow whichever PR guideline inside your feature branch, but make sure that when Pull Requesting back to the milestone branch to use the [pull request template](./.github/PULL_REQUEST_TEMPLATE.md).
+### 2. Project Structure
 
-You can follow our guideline in your feature branch which go as it follows:
+We use `lerna` to manage our versioning on the _monorepo_ packages. The monorepo structure goes as it follows:
 
-- After creating your feature branch, checkout from it with another branched named with one of the conventions:
-  - `feature/<task name>` when Pull Requesting back to your original feature branch, travis will run tests;
-  - `docs/<name>` for docs only. Travis will also run tests;
-- Then PR it back to your original feature branch;
-- Iterate until the whole original feature is complete and PR it to the milestone branch;
+- `packages/styles`: Natura Design System theme and styles library for the web;
+- `packages/web`: component library for the web.
 
-### HOTFIXES
+### 4. ABC of contributing flow
 
-- Checkout from `main` and create a branch named `hotfix/<name>`. Make the fix and PR it back to `main`. After the merge, it will be released to npm and a new version will be available on storybook.
+> These recommendations are only valid for people who contribute to the Natura organization. If this is not your case, fork this repository to propose improvements.
 
-## For contributors on Natura Organization
+#### Branches
 
-If you find yourself in this category, you can go directly to branching this repository, without worrying about forking.
+Contributions to the Design System must be created from a branch in the `DSY-0000` format. The branch name will be the code for a JIRA task that represents this contribution. To get a JIRA task code, just look for the Design System squad in Slack or Teams.
 
-## For contributors outside Natura Organization
+This is true for new features, hotfixes and documentation improvements.
 
-We are not open for external contribution right now.
+#### Continuous Integration
 
-## Visual Validation
+Jenkins responsibilities are testing, bumping versions of the packages and the root package, and versioning the docs.
 
-After merged, the PR will generate a version on the storybook that the milestone is attached. Provide the version number to the UX team for validation.
+#### Design Validation
 
-## Initiating the Contribution
+When a pull request is opened, the Jenkins pipeline takes care of generating a new version of the **storybook**. When this happens, include the **url** generated to the card on the Jira board, in the **Link field for functional validation** field.
 
-First, you need to install dependencies and build packages. After that you will be able to run any of the projects (docs and web).
+> e.g.: https://storybook-web.natura.com.br/YOUR-BRANCH/index.html
 
-```sh
-git clone https://github.com/natura-cosmeticos/natds
-cd natds
-git checkout <milestone_branch>
-yarn
-yarn build:libs
+### 5. Initiating the Contribution
+
+Clone this repo to your development environment:
+
+```shell script
+$ git clone https://github.com/natura-cosmeticos/natds-js
 ```
 
-### Commits
+Do the _checkout_ for your _branch_:
 
-You should use the [Commitizen](https://github.com/commitizen/cz-cli) CLI that is installed on the root `package.json`. You can use it by going to the root folder and:
-
-```sh
-yarn commit
+```shell script
+$ cd natds-js
+$ git checkout -b DSY-0000 # DSY-0000 such as the name of your branch
 ```
 
-Be careful on which options you choose, please, read the [Semantic Release](https://github.com/semantic-release/semantic-release) guideline.
+Install all dependencies and do an initial _build_, to guarantee that is all be working:
 
-## Pull Request Process
+```shell script
+$ yarn
+$ yarn build:libs
+```
 
-1. Ensure any install or build dependencies are removed before the end of the layer when doing a build;
-2. Update the README.md with details of changes to the interface, this includes new environment variables, exposed ports, useful file locations and container parameters;
-3. We use [Commitizen](https://github.com/commitizen/cz-cli) to follow [Semantic Release](https://github.com/semantic-release/semantic-release) patterns;
-4. You may merge the Pull Request in once you have the sign-off of two other developers, or if you do not have permission to do that, you may request the second reviewer to merge it for you;
-5. We use [Verdaccio](https://github.com/verdaccio/verdaccio) to release local test. Before submitting a PR, we advise you to take a few steps:
-   > After installing Verdaccio, on a terminal/console, start `verdaccio` process.<br/>
-   > At another terminal/console, run the command `yarn release:local`. This will publish the packages locally (http://localhost:4873), which may include the dependency required for other projects, e.g.: `yarn add @ naturacosmeticos/natds-web --registry=http://localhost:4873`.<br/>
-   > Before you finish, run `yarn release:local:revert` to revert commit generated by the previous process.
+#### Lint & Test tasks
 
-## Publish new storybook instance
+Use `eslint` to check if your code is following our code style:
 
-We use [Netlify](https://www.netlify.com/) to create new storybook instances, generated after creating a milestone (alpha versions). Get access with an administrator and follow [instructions](./DEPLOY_NETLIFY.md).
+```sh
+yarn lint
+```
 
-## Starting a new milestone
+Any additional lines of code written within the components themselves must have 100% test coverage. Use `jest` to verify that all tests are passing
 
-- Checkout from `main` branch with name `vX.Y.Z`, where `X.Y.Z` is the milestone number and alter the root package.json version to `X.Y.Z`
-- Checkout from `main-docs` to `vX.Y.Z-docs`
-- Clear the versions array file at `packages/docs/dist/verions_config.json` and remove all folders inside `packages/docs/dist/releases` and commit the changes.
-- Create an instance at netlify ([instructions here](./DEPLOY_NETLIFY.md)) syncing to the branch `vX.Y.Z-docs` without a build process. The instance must be pointing to `packages/docs/dist` and the link of the instance must be `https://natds-vX-Y-Z-alpha.netlify.com/`
-- Alter the github rule of the protected branches from `v*.*.*` to `v`
-- Delete the docs branch of the third to last milestone. The code branch of that milestone can also be deleted
-- Rollback the github rule from `v` to `v*.*.*`
-- The next merged PR on on the `vX.Y.Z` branch will generate an alpha version and will be visible on the netlify instance
+```sh
+yarn test
+```
 
+#### Can I change a theme definition?
+
+Our components and themes use Material UI as a base. The themes are created in the library @naturacosmeticos/natds-styles. This package performs a parse of the Material UI themes. Any changes to the existing theme or component contract must be communicated to the Design System team. Thus, we will assess whether the change is applicable, and whether it does not cause breaking changes.
+
+### 6. Do semantic commits
+
+Instead of use `git commit` please use this one:
+
+```shell script
+$ yarn commit
+```
+
+This command triggers [Commitizen](https://www.thoughtworks.com/pt/radar/tools/commitizen), already installed in the project as a dependency, which will help you to create a commit message.
+
+Commits _must_ follow the format of [Conventional Commits](https://www.conventionalcommits.org/pt-br/). Thanks to thats is possivle to define whether the next version will be a _patch_, a _minor_ or _major_ release.
+
+### 7. Create a Pull Request
+
+When creating a PR, be sure to:
+
+- Document, in the description of the PR, if there has been any change in the project's dependencies;
+- Also tell in the description of the PR which changes were made
+- If necessary, updates the README.md
+
+A PR only will merge with main branch if:
+
+- The code was approved by at least two contributors
+- Changes pass all checks
+
+When your branch is merged with the main branch, a new version of the libraries for this project will be released!
+
+Well done!
