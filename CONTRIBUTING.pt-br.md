@@ -14,15 +14,15 @@ Por favor, siga as suas regras em todas as interações com as pessoas, document
 
 2. A gente cria uma PR no GitHub com o nome do card, e lá a pessoa (ou o grupo de pessoas) da squad pode ir codando e enviando as alterações. Sempre tem uma pipeline rodando pra conferir se tem testes, se não tem problemas de código, etc.;
 
-3. Uma vez pronto, o código passa por validação (code review) e o componente passa por validação visual (usando as histórias que forem criadas no Storybook). A gente vai acompanhando as devas à medida que sugerimos ajustes, até a aprovação;
+3. Uma vez pronto, o código passa por validação (code review) e o componente passa por validação visual (usando as histórias que forem criadas no Storybook). A gente vai acompanhando as pessoas desenvolvedoras à medida que sugerimos ajustes, até a aprovação;
 
-4. Quando tudo estiver OK, o código é integrado com a branch principal, e é lançada uma nova versão do natds-web com o novo componente.
+4. Quando tudo estiver OK, o código é integrado com a branch principal, e é lançada uma nova versão do `natds-web` com o novo componente.
 
 ## Passo-a-passo de contribuição
 
-## Como preparar meu ambiente de desenvolvimento para contribuir?
+### Como preparar meu ambiente de desenvolvimento para contribuir?
 
-### Node.js
+#### Node.js
 
 Garanta que o seu ambiente tenha o [Node.js](https://nodejs.org/en/) instalado.
 Recomendamos pelo menos a versão `10.16.3` do Node.js. Idealmente, prefira versões superiores a `12.17.0`.
@@ -38,8 +38,8 @@ Recomendamos pelo menos a versão `1.19.1`. Idealmente, prefira versões superio
 Como utilizamos `lerna` para gerenciar o versionamento dos pacotes do _monorepo_.
 Estes são os pacotes atuais do projeto:
 
-* `packages/styles`: Biblioteca com tema e estilos do Design System para a web;
-* `packages/web`: Biblioteca de componentes para a web.
+- `packages/styles`: Biblioteca com tema e estilos do Design System para a web;
+- `packages/web`: Biblioteca de componentes para a web.
 
 ## Conheça o ABC do fluxo de contribuição
 
@@ -51,25 +51,19 @@ Se este não é o seu caso, realize um _fork_ do repositório para propor melhor
 
 ### Branches
 
-Contribuições com o Design System devem ser criadas a partir de uma _branch_ no formato `DSY-000`.
+Contribuições com o Design System devem ser criadas a partir de uma _branch_ no formato `DSY-0000`.
 O nome da _branch_ será o código de uma tarefa do JIRA que representa essa contribuição.
 
 Isso é válido para novas _features_, _hotfixes_ e melhorias na documentação.
 
-Para obter um código de tarefa do JIRA, basta procurar a _squad_ de Design System através de algum desses canais:
-
-- _Guild_ semanal de Design System;
-- Teams;
-- Slack;
+Para obter um código de tarefa do JIRA, basta procurar a _squad_ de Design System no **Slack** ou **Teams**.
 
 ### Continuous Integration
 
-Utilizamos o Travis CI como _pipeline_ de integração contínua.
-É responsabilidade do Travis realizar o teste e _bumping_ de versões dos pacotes.
+Utilizamos o Jenkins como _pipeline_ de integração contínua.
+É responsabilidade do Jenkins realizar o teste e _bumping_ de versões dos pacotes.
 
 Atualmente, novos _releases_ só são publicados quando realizamos um _merge_ para o _branch_ principal.
-
-É possível [acessar a configuração do Travis CI](./.travis.yml) para saber mais.
 
 <details>
 
@@ -88,11 +82,9 @@ o que facilitaria o teste e validação das contribuições.
 
 ### Design Validation
 
-Quando um _pull request_ de alteração de componentes é mesclado com o branch principal,
-é gerada uma nova versão do _storybook_ seguindo o formato de [versionamento semântico](https://semver.org/lang/pt-BR/).
+Quando um _pull request_ é aberto, a pipeline do Jenkins se encarrega de gerar uma nova versão do _storybook_. Quando isso acontecer, inclua a `url` gerada à card no board do Jira, no campo **Link para validação funcional**
 
-Quando isso acontecer, forneça o número da versão ao time de UX para validação.
-O time avaliará se as alterações estão de acordo com o esperado em termos de acessibilidade e visual.
+> A `url` gerada será algo como `https://storybook-web.natura.com.br/[SUA-BRANCH]/index.html`
 
 ## 4. Comece a contribuir
 
@@ -164,9 +156,9 @@ A partir de 20 de junho de 2020, _commits_ feitos fora deste formato poderão se
 
 Ao criar um _pull request_, não se esqueça de:
 
-* Documentar, na descrição do _pull request_, se houve alguma modificação nas dependências do projeto;
-* Informar, também na descrição do _pull request_, quais mudanças foram realizadas;
-* Atualizar o README.md, caso haja mudanças que afetem a instalação ou utilização da biblioteca;
+- Documentar, na descrição do _pull request_, se houve alguma modificação nas dependências do projeto;
+- Informar, também na descrição do _pull request_, quais mudanças foram realizadas;
+- Atualizar o README.md, caso haja mudanças que afetem a instalação ou utilização da biblioteca;
 
 Um _pull request_ só será mesclado com a _branch_ principal se:
 
