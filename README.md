@@ -33,7 +33,7 @@ You can also install icons separately. Please check [`natds-icons` docs](./packa
 
 ## How to use
 
-Check our [Design System Storybook](https://natds-js.netlify.app/) for all React components and design tokens.
+Check our [Design System Storybook](http://storybook-web.natura.com.br/) for all React components and design tokens.
 
 ## How to contribute
 
