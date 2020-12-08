@@ -1,5 +1,7 @@
 #!/bin/bash
 
+[[ -z "${CHANGE_BRANCH}" ]] && BRANCH_NAME=$BRANCH_NAME || BRANCH_NAME=$CHANGE_BRANCH
+
 FOLDER_NAME=${BRANCH_NAME//[\/]/-}
 OUTPUT_PATH=build
 
