@@ -2,8 +2,7 @@
 
 echo "release NPM"
 
-[[ -z "${CHANGE_BRANCH}" ]] && BRANCH=$BRANCH_NAME || BRANCH=$CHANGE_BRANCH
-
+BRANCH=$(bash ./.cicd/get-branch-name.sh)
 NPM_TOKEN=$NATDS_NPM_TOKEN
 GH_TOKEN=$NATDS_GH_TOKEN
 RELEASE_BRANCH="alpha.${BRANCH}.$BUILD_NUMBER"

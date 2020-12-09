@@ -1,11 +1,11 @@
 #!/bin/bash
 
-[[ -z "${CHANGE_BRANCH}" ]] && BRANCH_NAME=$BRANCH_NAME || BRANCH_NAME=$CHANGE_BRANCH
+BRANCH_NAME=$(bash ./.cicd/get-branch-name.sh)
 
 FOLDER_NAME=${BRANCH_NAME//[\/]/-}
 OUTPUT_PATH=build
 
-yarn build:storybook
+# yarn build:storybook
 mkdir -p build
 
 echo "Verifying $1"

@@ -9,7 +9,7 @@ git remote add origin "https://${NATDS_GH_TOKEN}@github.com/natura-cosmeticos/na
 
 git fetch --quiet
 
-[[ -z "${CHANGE_BRANCH}" ]] && BRANCH=$BRANCH_NAME || BRANCH=$CHANGE_BRANCH
+BRANCH=$(bash ./.cicd/get-branch-name.sh)
 
 git checkout "${BRANCH}"
 
@@ -18,5 +18,4 @@ git config --global user.email "designsystem@natura.net"
 git config --global user.name "Natura Design System Team"
 
 npm config set '//registry.npmjs.org/:_authToken' "${NATDS_NPM_TOKEN}"
-# yarn config set _authToken "${NATDS_NPM_TOKEN}"
 
