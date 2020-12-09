@@ -5,7 +5,7 @@ BRANCH_NAME=$(bash ./.cicd/get-branch-name.sh)
 FOLDER_NAME=${BRANCH_NAME//[\/]/-}
 OUTPUT_PATH=build
 
-# yarn build:storybook
+yarn build:storybook
 mkdir -p build
 
 echo "Verifying $1"
