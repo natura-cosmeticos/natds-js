@@ -5,7 +5,6 @@
 [![Travis Build Status](https://travis-ci.org/natura-cosmeticos/natds-js.svg?branch=main)](https://travis-ci.org/natura-cosmeticos/natds-js)
 [![Known Vulnerabilities](https://snyk.io/test/github/natura-cosmeticos/natds-js/badge.svg?targetFile=package.json)](https://snyk.io/test/github/natura-cosmeticos/natds-js?targetFile=package.json)
 
-
 ## How to install
 
 If your project is using `react` and `react-dom` version `16.8.4` or higher:
