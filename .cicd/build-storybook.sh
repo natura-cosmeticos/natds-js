@@ -1,9 +1,10 @@
 #!/bin/bash
 
+BRANCH_NAME=$(bash ./.cicd/get-branch-name.sh)
+
 FOLDER_NAME=${BRANCH_NAME//[\/]/-}
 OUTPUT_PATH=build
 
-yarn install
 yarn build:storybook
 mkdir -p build
 

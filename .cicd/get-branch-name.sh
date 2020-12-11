@@ -1,0 +1,5 @@
+#!/bin/bash
+
+[[ -z "${CHANGE_BRANCH}" ]] && BRANCH=$BRANCH_NAME || BRANCH=$CHANGE_BRANCH
+
+echo $BRANCH
