@@ -54,7 +54,7 @@ main.js
 
 ```javascript
 import React from 'react';
-import 'node_modules/@naturacosmeticos/natds-icons/natds-icons.css';
+import '@naturacosmeticos/natds-icons/natds-icons.css';
 ```
 
 webpack.config.js
