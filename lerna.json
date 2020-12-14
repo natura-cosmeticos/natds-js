@@ -10,9 +10,8 @@
   },
   "lerna": "3.16.4",
   "packages": [
-    "examples/*",
-    "examples/single-spa/*",
-    "packages/*"
+    "packages/styles",
+    "packages/web"
   ],
   "useWorkspaces": true,
   "version": "1.0.1-alpha.DSY-1706.45.0"
