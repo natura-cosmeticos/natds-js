@@ -74,13 +74,13 @@ $ yarn build:libs
 
 Use `eslint` to check if your code is following our code style:
 
-```sh
+```shell script
 yarn lint
 ```
 
 Any additional lines of code written within the components themselves must have 100% test coverage. Use `jest` to verify that all tests are passing
 
-```sh
+```shell script
 yarn test
 ```
 

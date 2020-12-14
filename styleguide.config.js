@@ -1,59 +1,85 @@
+/* eslint-disable */
+
 const glob = require("glob");
-const path = require("path");
+const docGen = require("react-docgen-typescript");
 
 const excludePatterns = [
-  '.stories.',
-  '.argTypes.',
-  '.test.',
-  '.styles.',
-  '.props.',
-  'index.ts',
-  '__fixtures__',
-  '__snapshots__',
-  '__mocks__',
-  'Template.tsx',
-  'getFontSize.ts',
-  'getColorProp.ts',
-  'Skeleton',
-  'CssBaseline',
-]
+  ".stories.",
+  ".argTypes.",
+  ".test.",
+  ".styles.",
+  ".props.",
+  "index.ts",
+  "__fixtures__",
+  "__snapshots__",
+  "__mocks__",
+  "Template.tsx",
+  "getFontSize.ts",
+  "getColorProp.ts",
+  "Skeleton",
+  "CssBaseline",
+];
 
-const docs = [
-  path.resolve(__dirname, './README.md'),
-  path.resolve(__dirname, './CONTRIBUTING.md'),
-]
+const getComponents = () => glob
+  .sync("packages/web/src/Components/**/*.{ts,tsx}")
+  .filter((file) => {
+    const matchExcludedPattern = excludePatterns
+      .find((pattern) => file.includes(pattern));
+
+    return !matchExcludedPattern;
+  });
+
+const propsParser = docGen.withDefaultConfig({
+  savePropValueAsString: true,
+}).parse;
 
 module.exports = {
-  components: () => {
-    const components = glob
-      .sync("packages/web/src/Components/Readme/readme.tsx")
-      .filter(file => {
-        const matchExcludedPattern = excludePatterns.find(pattern => file.includes(pattern))
 
-        return !matchExcludedPattern;
-      });
-
-    return components;
-  },
-  propsParser: require("react-docgen-typescript").withDefaultConfig({
-    savePropValueAsString: true,
-  }).parse,
+  propsParser,
   usageMode: "expand",
   exampleMode: "hide",
+  styleguideDir: "build/props",
+  pagePerSection: true,
+  sections: [
+    {
+      name: "Getting Started",
+      sections: [
+        {
+          name: "Read me",
+          content: "README.md",
+        },
+        {
+          name: "Contributing",
+          content: "CONTRIBUTING.md",
+        },
+        {
+          name: "Troubleshooting",
+          content: "TROUBLESHOOTING.md",
+        },
+      ],
+      sectionDepth: 2,
+    },
+    {
+      name: "Components",
+      components: getComponents,
+      sectionDepth: 1,
+    },
+  ],
   webpackConfig: {
-
     resolve: {
-      // Add ".ts" and ".tsx" as resolvable extensions.
-      extensions: [".ts", ".tsx", ".js", ".json"]
+      extensions: [".ts", ".tsx", ".js", ".json"],
     },
     module: {
       rules: [
-        { test: /\.tsx?$/, loader: "ts-loader" },
+        {
+          test: /\.tsx?$/,
+          loader: "ts-loader",
+        },
         {
           test: /\.css$/,
-          use: ['style-loader', 'css-loader']
-        }
+          use: ["style-loader", "css-loader"],
+        },
       ],
-    }
-  }
+    },
+  },
 };
