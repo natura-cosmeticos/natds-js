@@ -19,3 +19,4 @@ git config --global user.name "Natura Design System Team"
 
 npm config set '//registry.npmjs.org/:_authToken' "${NATDS_NPM_TOKEN}"
 
+git ls-remote --tags origin
