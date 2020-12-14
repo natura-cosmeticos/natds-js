@@ -32,7 +32,7 @@ import {tokens} from "@naturacosmeticos/natds-styles"
 const {tokens} = require("@naturacosmeticos/natds-styles")
 ```
 
-Check our [Design System Storybook](https://natds-js.netlify.app/) for all available design tokens.
+Check our [Design System Storybook](https://storybook-web.natura.com.br/) for all available design tokens.
 
 ## How to contribute
 
