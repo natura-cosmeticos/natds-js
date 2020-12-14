@@ -5,7 +5,7 @@
 We recommend that you open an issue to bring your suggestions and start a conversation.
 Please note we have a [code of conduct](./CODE_OF_CONDUCT), follow it in all your interactions with the project.
 
-## About the proccess to create a component
+## About the process to create a component
 
 In summary:
 
@@ -98,7 +98,7 @@ $ yarn commit
 
 This command triggers [Commitizen](https://www.thoughtworks.com/pt/radar/tools/commitizen), already installed in the project as a dependency, which will help you to create a commit message.
 
-Commits _must_ follow the format of [Conventional Commits](https://www.conventionalcommits.org/pt-br/). Thanks to thats is possivle to define whether the next version will be a _patch_, a _minor_ or _major_ release.
+Commits _must_ follow the format of [Conventional Commits](https://www.conventionalcommits.org/pt-br/). Thanks to this it is possible to define whether the next version will be a _patch_, a _minor_ or _major_ release.
 
 ### 7. Create a Pull Request
 
