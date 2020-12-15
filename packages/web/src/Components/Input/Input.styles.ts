@@ -53,6 +53,9 @@ const style = createStyles(
         "&:hover:not(:read-only):not(:disabled):not(:focus)": {
           boxShadow: `${palette?.text?.secondary} 0 0 0 1px`,
         },
+        "&:invalid":{
+          boxShadow,
+        },
         "&::placeholder": {
           color: palette?.text?.secondary,
         },
