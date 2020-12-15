@@ -3,7 +3,29 @@
     "publish": {
       "conventionalCommits": true,
       "ignoreChanges": [
-        "packages/icons/**"
+        "*.test.*",
+        "*.snap.*",
+        "*-snap.*",
+        "*.md",
+        "*.mdx",
+        "*.config.*",
+        "*.yml",
+        "*.snyk",
+        "*.storyshot",
+        "*.stories.*",
+        "*.argTypes.*",
+        "package.json",
+        "yarn.lock",
+        ".editorconfig",
+        ".eslintrc.js",
+        "renovate.json",
+        "**/__mocks__/**",
+        "**/__fixtures__/**",
+        ".cicd/**",
+        ".github/**",
+        "packages/web/.storybook/**",
+        "packages/web/bin/**"
+
       ],
       "message": "chore(release): publish %s via lerna [ci skip]"
     }
