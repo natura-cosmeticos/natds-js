@@ -23,7 +23,6 @@ export { default as Chip, IChipProps } from "./Components/Chip";
 export { default as CircularProgress, ICircularProgressProps } from "./Components/CircularProgress";
 export { default as Collapse, ICollapseProps } from "./Components/Collapse";
 export { default as Container, IContainerProps } from "./Components/Container";
-export { default as Tag, ITagProps } from "./Components/Tag";
 export { default as CssBaseline, ICssBaselineProps } from "./Components/CssBaseline";
 export { default as Dialog, IDialogProps } from "./Components/Dialog";
 export { default as DialogActions, IDialogActionsProps } from "./Components/DialogActions";
@@ -86,6 +85,7 @@ export { default as TableHead, ITableHeadProps } from "./Components/Table/TableH
 export { default as TablePagination, ITablePaginationProps } from "./Components/Table/TablePagination";
 export { default as TableRow, ITableRowProps } from "./Components/Table/TableRow";
 export { default as TableSortLabel, ITableSortLabelProps } from "./Components/Table/TableSortLabel";
+export { default as Tag, ITagProps } from "./Components/Tag";
 export { default as TextField, ITextFieldProps } from "./Components/TextField";
 export { default as ToggleButton, IToggleButtonProps } from "./Components/ToggleButton";
 export { default as Toolbar, IToolbarProps } from "./Components/Toolbar";

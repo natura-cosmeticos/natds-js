@@ -49,10 +49,10 @@ const style = ({
     borderBottomRightRadius: shape?.badgeBorderRadius,
   },
   small: {
-    padding: `0px ${sizes?.tiny}px`,
+    padding: `${sizes?.none}px  ${sizes?.tiny}px`,
   },
   standard: {
-    padding: `2px ${sizes?.tiny}px`,
+    padding: `${sizes?.micro}px ${sizes?.tiny}px`,
   },
 });
 
