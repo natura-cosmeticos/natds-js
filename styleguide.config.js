@@ -49,6 +49,10 @@ module.exports = {
           content: "README.md",
         },
         {
+          name: "Icons",
+          content: "packages/web/docs/icons.md",
+        },
+        {
           name: "Contributing",
           content: "CONTRIBUTING.md",
         },
