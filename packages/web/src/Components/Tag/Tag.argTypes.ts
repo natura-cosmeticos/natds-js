@@ -1,9 +1,10 @@
 import { ArgType } from "@storybook/addons";
-import { IContextualBadgeProps } from "./ContextualBadge.props";
+import { ITagProps } from "./Tag.props";
 import { colors } from "./__fixtures__/colors";
-import { types } from "./__fixtures__/types";
+import { sizes } from "./__fixtures__/sizes";
+import { positions } from "./__fixtures__/positions";
 
-export const argTypes : Record<keyof IContextualBadgeProps, ArgType> = {
+export const argTypes : Record<keyof ITagProps, ArgType> = {
   classes: {
     control: { type: "text" },
     description: "The classes to use on the container 'div'",
@@ -13,7 +14,7 @@ export const argTypes : Record<keyof IContextualBadgeProps, ArgType> = {
     type: { name: "string", required: false },
   },
   children: {
-    description: "The children that will be placed inside the badge",
+    description: "The children that will be placed inside the tag",
     table: {
       type: { summary: "React.ReactNode" },
     },
@@ -23,7 +24,7 @@ export const argTypes : Record<keyof IContextualBadgeProps, ArgType> = {
       options: colors,
       type: "select",
     },
-    description: "Color of the ContextualBadge to use from the theme.",
+    description: "Color of the Tag to use from the theme.",
     table: {
       defaultValue: { summary: "\"primary\"" },
       type: { summary: "'primary' \\| 'secondary' \\| 'info' \\| 'error' \\| 'warning' \\| 'success' \\| 'light' \\| 'dark'" },
@@ -45,14 +46,24 @@ export const argTypes : Record<keyof IContextualBadgeProps, ArgType> = {
     },
     type: { name: "object", required: false },
   },
-  type: {
+  size: {
     control: {
-      options: types,
+      options: sizes,
       type: "inline-radio",
     },
-    description: "The type of the badge",
+    description: "The size of the Tag",
     table: {
-      defaultValue: { summary: "\"standard\"" },
+      defaultValue: { summary: "\"small\"" },
+    },
+  },
+  position: {
+    control: {
+      options: positions,
+      type: "inline-radio",
+    },
+    description: "The position of the Tag",
+    table: {
+      defaultValue: { summary: "\"default\"" },
     },
   },
 };
