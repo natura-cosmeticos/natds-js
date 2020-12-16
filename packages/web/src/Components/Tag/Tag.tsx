@@ -1,22 +1,22 @@
 // eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import clsx from "clsx";
-import { IContextualBadgeProps } from "./ContextualBadge.props";
-import useStyles from "./ContextualBadge.styles";
+import { ITagProps } from "./Tag.props";
+import useStyles from "./Tag.styles";
 
-export { IContextualBadgeProps } from "./ContextualBadge.props";
+export { ITagProps } from "./Tag.props";
 
 /**
  * ## Importing
  *
  * ```
- * import { ContextualBadge } from '@naturacosmeticos/natds-web';
+ * import { Tag } from '@naturacosmeticos/natds-web';
  * ```
  *
  * @todo rename component to Tag
  */
-export const ContextualBadge = React.forwardRef<HTMLDivElement, IContextualBadgeProps>(
-  (props: IContextualBadgeProps, ref) => {
+export const Tag = React.forwardRef<HTMLDivElement, ITagProps>(
+  (props: ITagProps, ref) => {
     const {
       children,
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
@@ -24,17 +24,25 @@ export const ContextualBadge = React.forwardRef<HTMLDivElement, IContextualBadge
       className,
       component: Component = "span",
       color = "primary",
+      position = "default",
+      size = "small",
       style,
-      type = "standard",
       ...otherProps
     } = props;
 
     const classes = useStyles();
+    
+    const classNames = clsx(
+      className,
+      classes.root,
+      classes[color],
+      classes[position],
+      classes[size],
+    );
 
     return (
       <Component
-        className={clsx(classes.root, classes[color], legacyClasses, className)}
-        data-type={type}
+        className={clsx(classNames, legacyClasses)}
         ref={ref}
         style={style}
         {...otherProps}
@@ -44,6 +52,6 @@ export const ContextualBadge = React.forwardRef<HTMLDivElement, IContextualBadge
     );
   });
 
-ContextualBadge.displayName = "ContextualBadge";
+Tag.displayName = "Tag";
 
-export default ContextualBadge;
+export default Tag;

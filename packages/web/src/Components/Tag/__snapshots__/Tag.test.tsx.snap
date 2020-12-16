@@ -1,0 +1,127 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Tag component rendering it should render according to theme: Tag Custom Theme 1`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-primary-6 NatDSTag-default-10 NatDSTag-small-12"
+  id="with-theme"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering it should render each position: Tag Positions 1`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-primary-6 NatDSTag-default-10 NatDSTag-small-12"
+  id="default"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering it should render each position: Tag Positions 2`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-primary-6 NatDSTag-left-11 NatDSTag-small-12"
+  id="left"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering it should render each size: Tag Sizes 1`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-primary-6 NatDSTag-default-10 NatDSTag-small-12"
+  id="small"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering it should render each size: Tag Sizes 2`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-primary-6 NatDSTag-default-10 NatDSTag-standard-13"
+  id="standard"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering it should render the default color, default size and default position: Tag Default Color And Type 1`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-primary-6 NatDSTag-default-10 NatDSTag-small-12"
+  id="default"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering should render each color: Tag Colors 1`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-dark-2 NatDSTag-default-10 NatDSTag-small-12"
+  id="dark"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering should render each color: Tag Colors 2`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-error-3 NatDSTag-default-10 NatDSTag-small-12"
+  id="error"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering should render each color: Tag Colors 3`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-light-5 NatDSTag-default-10 NatDSTag-small-12"
+  id="light"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering should render each color: Tag Colors 4`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-info-4 NatDSTag-default-10 NatDSTag-small-12"
+  id="info"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering should render each color: Tag Colors 5`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-primary-6 NatDSTag-default-10 NatDSTag-small-12"
+  id="primary"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering should render each color: Tag Colors 6`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-secondary-7 NatDSTag-default-10 NatDSTag-small-12"
+  id="secondary"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering should render each color: Tag Colors 7`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-success-8 NatDSTag-default-10 NatDSTag-small-12"
+  id="success"
+>
+  Mock
+</span>
+`;
+
+exports[`Tag component rendering should render each color: Tag Colors 8`] = `
+<span
+  className="NatDSTag-root-1 NatDSTag-warning-9 NatDSTag-default-10 NatDSTag-small-12"
+  id="warning"
+>
+  Mock
+</span>
+`;
