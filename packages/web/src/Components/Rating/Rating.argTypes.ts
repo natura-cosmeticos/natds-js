@@ -11,12 +11,6 @@ export const argTypes : Record<keyof IRatingProps, ArgType> = {
     },
     type: { name: "string", required: false },
   },
-  children: {
-    description: "The children that will be placed inside the tag",
-    table: {
-      type: { summary: "React.ReactNode" },
-    },
-  },
   id: {
     control: { type: "text" },
     description: "The input id property",
