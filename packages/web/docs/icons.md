@@ -11,13 +11,13 @@ You need to load the font icons from the package using the stylesheet inside you
 or load it from `node_modules` with a module bundler like *Webpack* or *Rollup*:
 
 *main.js*
-```javascript
+```shell
 import React from 'react';
 import 'node_modules/@naturacosmeticos/natds-icons/natds-icons.css';
 ```
 
 *webpack.config.js*
-```javascript
+```shell
 module.exports = {
   module: {
     loaders: [
