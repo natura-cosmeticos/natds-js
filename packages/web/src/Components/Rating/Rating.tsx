@@ -19,7 +19,7 @@ export const Rating = React.forwardRef<HTMLDivElement, IRatingProps>(
   (props: IRatingProps, ref) => {
     const {
       className,
-      size,
+      size = "small",
       rate
     } = props;
 
@@ -31,6 +31,7 @@ export const Rating = React.forwardRef<HTMLDivElement, IRatingProps>(
     ]);
 
     return <MaterialRating
+      classes={{ iconEmpty: classes.iconEmpty }}
       className={classNames}
       value={rate}
       name="rating"
