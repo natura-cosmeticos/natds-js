@@ -10,15 +10,25 @@ type RatingStylesArgs = {
 
 export const getFontSize : ({ size, theme }: RatingStylesArgs) => string = ({ size = "small", theme }) => {
   const { sizes } = theme;
-  const fontSize = sizes[size];
+  const nullValue = "";
 
-  return `${fontSize}px`;
+  if (size && sizes && sizes[size]) {
+    const fontSize = sizes[size];
+
+    return `${fontSize}px`;
+  }
+
+  return nullValue;
 };
 
 const style = (theme: IThemeWeb) => createStyles({
   root: ({ size }: IRatingProps) => ({
     fontSize: getFontSize({ size, theme }),
   }),
+
+  iconEmpty:{
+    color: theme.palette?.text?.secondary,
+  }
 });
 
 export const useStyles = makeStyles(style, { name: "NatDSRating" });
