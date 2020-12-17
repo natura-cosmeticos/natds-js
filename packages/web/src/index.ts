@@ -68,7 +68,7 @@ export { default as Paper, IPaperProps } from "./Components/Paper";
 export { default as Popover, IPopoverProps } from "./Components/Popover";
 export { default as Radio, IRadioProps } from "./Components/Radio";
 export { default as RadioGroup, IRadioGroupProps } from "./Components/RadioGroup";
-export { default as Rating } from "./Components/Rating";
+export { default as Rating, IRatingProps } from "./Components/Rating";
 export { default as ScopedCssBaseline, IScopedCssBaselineProps } from "./Components/ScopedCssBaseline";
 export { default as Skeleton, ISkeletonProps } from "./Components/Skeleton";
 export { default as Snackbar, ISnackbarProps } from "./Components/Snackbar";
