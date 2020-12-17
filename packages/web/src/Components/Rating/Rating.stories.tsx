@@ -12,7 +12,7 @@ export default {
   title: "Components/Rating",
 } as Meta;
 
-const Template : Story<IRatingProps> = (args: IRatingProps) => <Rating />;
+const Template : Story<IRatingProps> = (args: IRatingProps) => <Rating id={args.id} {...args} />;
 
 export const Playground : Story<IRatingProps> = Template.bind({});
 Playground.args = {
