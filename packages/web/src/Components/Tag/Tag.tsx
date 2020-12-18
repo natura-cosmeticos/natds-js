@@ -6,15 +6,6 @@ import useStyles from "./Tag.styles";
 
 export { ITagProps } from "./Tag.props";
 
-/**
- * ## Importing
- *
- * ```
- * import { Tag } from '@naturacosmeticos/natds-web';
- * ```
- *
- * @todo rename component to Tag
- */
 export const Tag = React.forwardRef<HTMLDivElement, ITagProps>(
   (props: ITagProps, ref) => {
     const {
