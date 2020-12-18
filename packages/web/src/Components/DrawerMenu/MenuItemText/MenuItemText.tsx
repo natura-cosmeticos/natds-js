@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import Typography from "../../Typography";
-import Tag from "../../Tag";
+import { Tag } from "../../Tag";
 import { IDrawerMenuSectionProps } from "../DrawerMenuSection";
 import { useStyles } from "./MenuItemText.styles";
 
