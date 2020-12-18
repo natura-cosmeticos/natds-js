@@ -6,15 +6,6 @@ import useStyles from "./Tag.styles";
 
 export { ITagProps } from "./Tag.props";
 
-/**
- * ## Importing
- *
- * ```
- * import { Tag } from '@naturacosmeticos/natds-web';
- * ```
- *
- * @todo rename component to Tag
- */
 export const Tag = React.forwardRef<HTMLDivElement, ITagProps>(
   (props: ITagProps, ref) => {
     const {
@@ -54,5 +45,12 @@ export const Tag = React.forwardRef<HTMLDivElement, ITagProps>(
 
 Tag.displayName = "Tag";
 
+
+/**
+     * @deprecated `Contextual Badge` is deprecated since 1.1.0.
+     * Use Tag instead.
+*/
 export const ContextualBadge = Tag;
-export default ContextualBadge;
+ContextualBadge.displayName = "Contextual Badge"
+
+export default { ContextualBadge, Tag };
