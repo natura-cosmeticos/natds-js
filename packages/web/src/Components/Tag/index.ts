@@ -1,5 +1,5 @@
-import Tag from "./Tag";
+import ContextualBadge from "./Tag";
 
 export { ITagProps } from "./Tag.props";
-export { Tag };
-export default Tag;
+export { ContextualBadge };
+export default ContextualBadge;

@@ -54,4 +54,5 @@ export const Tag = React.forwardRef<HTMLDivElement, ITagProps>(
 
 Tag.displayName = "Tag";
 
-export default Tag;
+export const ContextualBadge = Tag;
+export default ContextualBadge;
