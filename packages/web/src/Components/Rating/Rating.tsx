@@ -3,6 +3,7 @@ import * as React from "react";
 import MaterialRating from "@material-ui/lab/Rating";
 import clsx from "clsx";
 import { IRatingProps } from "./Rating.props";
+import { Icon } from "../Icon";
 import useStyles from "./Rating.styles";
 
 export { IRatingProps } from "./Rating.props";
@@ -16,7 +17,7 @@ export { IRatingProps } from "./Rating.props";
  */
 
 export const Rating = React.forwardRef<HTMLDivElement, IRatingProps>(
-  (props: IRatingProps, ref) => {
+  (props: IRatingProps) => {
     const {
       className,
       size = "small",
@@ -32,11 +33,11 @@ export const Rating = React.forwardRef<HTMLDivElement, IRatingProps>(
 
     return <MaterialRating
       classes={{ iconEmpty: classes.iconEmpty }}
-      className={classNames}
       value={rate}
+      max={5}
       name="rating"
       readOnly={true}
-      ref={ref}
+      icon={<Icon className={classNames} name={"filled-action-rating"}/>}
     />;
   });
 

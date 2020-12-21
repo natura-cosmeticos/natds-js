@@ -16,7 +16,7 @@ const Template : Story<IRatingProps> = (args: IRatingProps) => <Rating id={args.
 
 export const Playground : Story<IRatingProps> = Template.bind({});
 Playground.args = {
-  id: "playground",
+  id: "rating",
   size: sizes.small,
   rate: 3
 };
