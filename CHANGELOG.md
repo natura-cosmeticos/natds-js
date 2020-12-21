@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.1.0](https://github.com/natura-cosmeticos/natds/compare/v1.0.1...v1.1.0) (2020-12-21)
+
+
+### Features
+
+* **tag:** add size and position attribute to the Tag component ([5d3532c](https://github.com/natura-cosmeticos/natds/commit/5d3532c521a360a11d6fb9c660f580f3d2be303c))
+
+
+
+
+
 ## [1.0.1](https://github.com/natura-cosmeticos/natds/compare/v1.0.1-alpha.DSY-1706.45.0...v1.0.1) (2020-12-15)
 
 
