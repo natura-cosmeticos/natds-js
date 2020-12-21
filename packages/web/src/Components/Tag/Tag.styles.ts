@@ -7,9 +7,7 @@ const style = ({
 }: IThemeWeb) => createStyles({
   root: {
     ...typography.caption,
-    borderRadius: shape?.badgeBorderRadius,
     lineHeight: `${sizes?.small}px`,
-    padding: `1px ${sizes?.tiny}px`,
   },
   dark: {
     backgroundColor: palette?.text?.disabled,
@@ -43,8 +41,21 @@ const style = ({
     backgroundColor: palette?.complementary?.warning,
     color: palette?.complementary?.warningContrastText,
   },
+  default: {
+    borderRadius: shape?.badgeBorderRadius,
+  },
+  left: {
+    borderTopRightRadius: shape?.badgeBorderRadius,
+    borderBottomRightRadius: shape?.badgeBorderRadius,
+  },
+  small: {
+    padding: `${sizes?.none}px  ${sizes?.tiny}px`,
+  },
+  standard: {
+    padding: `${sizes?.micro}px ${sizes?.tiny}px`,
+  },
 });
 
-const useStyles = makeStyles(style, { name: "NatDSContextualBadge" });
+const useStyles = makeStyles(style, { name: "NatDSTag" });
 
 export default useStyles;

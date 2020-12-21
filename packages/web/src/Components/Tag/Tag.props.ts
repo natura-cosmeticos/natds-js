@@ -1,14 +1,15 @@
 import * as React from "react";
 
-export type IContextualBadgeColors = "primary" | "secondary" | "info" | "error" | "warning" | "success" | "light" | "dark";
-export type IContextualBadgeTypes = "standard";
+export type ITagColors = "primary" | "secondary" | "info" | "error" | "warning" | "success" | "light" | "dark";
+export type ITagSizes = "small" | "standard";
+export type ITagPositions = "default" | "left";
 
-export interface IContextualBadgeProps {
+export interface ITagProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [propName: string]: any;
 
   /**
-   * Class names to be used on the ContextualBadge (deprecated).
+   * Class names to be used on the Tag (deprecated).
    *
    * Please use `className` property instead.
    *
@@ -28,17 +29,17 @@ export interface IContextualBadgeProps {
   className?: string;
 
   /**
-   * Elements to be placed inside the ContextualBadge
+   * Elements to be placed inside the Tag
    */
   children?: React.ReactNode;
 
   /**
-   * Color of the ContextualBadge to use from the theme. Defaults to \"primary\"
+   * Color of the Tag to use from the theme. Defaults to \"primary\"
    *
    * @optional
    * @type 'primary' | 'secondary' | 'info' | 'error' | 'warning' | 'success' | 'light' | 'dark'
    */
-  color?: IContextualBadgeColors;
+  color?: ITagColors;
 
   /**
    * The input id property
@@ -49,15 +50,21 @@ export interface IContextualBadgeProps {
   id?: string;
 
   /**
-   * Style to be used on the ContextualBadge
+   * Style to be used on Tag
    */
   style?: React.CSSProperties;
 
   /**
-   * Type of the `ContextualBadge`. Defaults to `"standard"`.
+   * Size of the `Tag`. Defaults to `"small"`.
    *
    * @optional
    */
-  type?: IContextualBadgeTypes;
+  size?: ITagSizes;
 
+  /**
+   * Position of the `Tag`. Defaults to `"default"`.
+   *
+   * @optional
+   */
+  position?: ITagPositions;
 }

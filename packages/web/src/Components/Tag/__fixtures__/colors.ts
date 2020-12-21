@@ -1,6 +1,6 @@
-import { IContextualBadgeColors } from "../ContextualBadge.props";
+import { ITagColors } from "../Tag.props";
 
-export const colors : Record<IContextualBadgeColors, IContextualBadgeColors> = {
+export const colors : Record<ITagColors, ITagColors> = {
   dark: "dark",
   error: "error",
   light: "light",
