@@ -30,17 +30,19 @@ export const argTypes : Record<keyof IRatingProps, ArgType> = {
   size: {
     control: {
       options: sizes,
-      type: "select",
+      type: "text",
     },
     description: "The size of the Rating",
     table: {
-      defaultValue: { summary: "\"small\"" },
-      type: { summary: "'small' \\| 'standard' \\| 'semi' \\| 'semix'" },
+      defaultValue: { summary: "small" },
+      type: { name: "string", summary: "small | standard | semi | semix" },
     },
   },
   rate: {
     control: {
       type: "number",
+      min: 0,
+      max: 5
     },
     description: "The rating value",
     table: {
