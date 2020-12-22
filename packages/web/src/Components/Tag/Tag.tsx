@@ -51,6 +51,5 @@ Tag.displayName = "Tag";
      * Use Tag instead.
 */
 export const ContextualBadge = Tag;
-ContextualBadge.displayName = "Contextual Badge"
 
 export default { ContextualBadge, Tag };
