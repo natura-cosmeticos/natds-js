@@ -20,6 +20,7 @@ export { default as CardHeader, ICardHeaderProps } from "./Components/CardHeader
 export { default as CardMedia, ICardMediaProps } from "./Components/CardMedia";
 export { default as Checkbox, ICheckboxProps } from "./Components/Checkbox";
 export { default as Chip, IChipProps } from "./Components/Chip";
+export { default as Counter, ICounterProps } from "./Components/Counter";
 export { default as CircularProgress, ICircularProgressProps } from "./Components/CircularProgress";
 export { default as Collapse, ICollapseProps } from "./Components/Collapse";
 export { default as Container, IContainerProps } from "./Components/Container";
