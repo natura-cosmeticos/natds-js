@@ -493,6 +493,11 @@ export const theBodyShopDark: ITheme = {
       },
     },
     MuiButtonGroup: {
+      groupedOutlinedHorizontal: {
+        "&:not(:first-child)": {
+          marginLeft: "none",
+        },
+      },
       groupedContainedPrimary: {
         "&:not(:last-child)": {
           borderColor: theBodyShopDarkColorTokens.colorPrimaryDark,
