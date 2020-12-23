@@ -436,6 +436,11 @@ export const avonLight: ITheme = {
       },
     },
     MuiButtonGroup: {
+      groupedOutlinedHorizontal: {
+        "&:not(:first-child)": {
+          marginLeft: "none",
+        },
+      },
       groupedContainedPrimary: {
         "&:not(:last-child)": {
           borderColor: avonLightColorTokens.colorPrimaryDark,
