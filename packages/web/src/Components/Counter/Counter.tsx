@@ -18,7 +18,8 @@ export { ICounterProps } from "./Counter.props";
  * ```
  */
 
-export const Counter = React.forwardRef<unknown, ICounterProps>((props: ICounterProps) => {
+// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
+export const Counter = (props: ICounterProps) => {
 
   const {
     onChange,
@@ -87,6 +88,7 @@ export const Counter = React.forwardRef<unknown, ICounterProps>((props: ICounter
         disabled={readOnly}
       >
         <Button
+          id={"decrement-button"}
           disabled={minReached}
           variant="outlined"
           onClick={decrement}
@@ -94,12 +96,14 @@ export const Counter = React.forwardRef<unknown, ICounterProps>((props: ICounter
           -
         </Button>
         <TextField
+          color="secondary"
           value={value}
           className={input}
           type="number"
           onChange={handleInputChange}
         />
         <Button
+          id={"increment-button"}
           disabled={maxReached}
           variant="outlined"
           onClick={increment}
@@ -109,7 +113,7 @@ export const Counter = React.forwardRef<unknown, ICounterProps>((props: ICounter
       </ButtonGroup>
     </div>
   );
-});
+};
 
 Counter.displayName = "Counter";
 
