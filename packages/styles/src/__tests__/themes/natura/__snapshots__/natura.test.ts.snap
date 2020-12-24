@@ -258,6 +258,11 @@ Object {
           "borderColor": "#ff5808",
         },
       },
+      "groupedOutlinedHorizontal": Object {
+        "&:not(:first-child)": Object {
+          "marginLeft": "none",
+        },
+      },
       "groupedTextHorizontal": Object {
         "&:not(:last-child)": Object {
           "&.Mui-disabled": Object {
@@ -1024,6 +1029,11 @@ Object {
             "borderColor": "#0000003D",
           },
           "borderColor": "#ff5808",
+        },
+      },
+      "groupedOutlinedHorizontal": Object {
+        "&:not(:first-child)": Object {
+          "marginLeft": "none",
         },
       },
       "groupedTextHorizontal": Object {
