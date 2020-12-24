@@ -44,16 +44,16 @@ export interface ICounterProps {
    * @optional
    * @type number
    */
-  maxValue?: number,
+  maxValue: number,
 
   /**
-   * The mininum valid value for the component
+   * The minimum valid value for the component
    *
    * @default 0
    * @optional
    * @type number
    */
-  minValue?: number,
+  minValue: number,
 
   /**
    * Execute a callback when user change the input manually.

@@ -1,3 +1,4 @@
+/* eslint-disable no-magic-numbers */
 /* eslint-disable max-lines-per-function */
 import * as React from "react";
 import * as TestRenderer from "react-test-renderer";
@@ -87,6 +88,30 @@ describe("Counter component", () => {
     expect(increment).toHaveBeenCalled();
   });
 
+  it("should not call onIncrement and onDecrement function", () => {
+    const decrement = jest.fn();
+    const increment = jest.fn();
+    const testRenderer : TestRenderer.ReactTestRenderer = TestRenderer.create(
+      <Counter
+        initialValue={1}
+        maxValue={1}
+        minValue={1}
+        onChange={jest.fn()}
+        onIncrement={increment}
+        onDecrement={decrement}
+      />,
+    );
+
+    const testInstance = testRenderer.root;
+    const incrementButton = testInstance.findByProps({ id: "increment-button" });
+    const decrementButton = testInstance.findByProps({ id: "decrement-button" });
+
+    TestRenderer.act(() => decrementButton.props.onClick());
+    TestRenderer.act(() => incrementButton.props.onClick());
+    expect(decrement).not.toHaveBeenCalled();
+    expect(increment).not.toHaveBeenCalled();
+  });
+
   it("should call onChange function", () => {
     const onChange = jest.fn();
     const testRenderer : TestRenderer.ReactTestRenderer = TestRenderer.create(
@@ -105,5 +130,15 @@ describe("Counter component", () => {
       input.props.onChange({ target: { value: 12 } });
     });
     expect(onChange).toHaveBeenCalled();
+
+    TestRenderer.act(() => {
+      input.props.onChange({ target: { value: null } });
+    });
+    expect(onChange).toHaveBeenCalledTimes(2);
+
+    TestRenderer.act(() => {
+      input.props.onChange({ target: { value: 200 } });
+    });
+    expect(onChange).toHaveBeenCalledTimes(2);
   });
 });
