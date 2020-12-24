@@ -3,6 +3,8 @@ import { getButtonheight, getInputHeight } from "./Counter.styles";
 
 const baseProps = {
   initialValue: 1,
+  maxValue: 99,
+  minValue: 0,
   onChange: jest.fn(),
   onDecrement: jest.fn(),
   onIncrement: jest.fn(),
@@ -10,7 +12,7 @@ const baseProps = {
 
 describe("Counter styles", () => {
   describe("getButtonheight", () => {
-    it("should have differente values between small and medium", () => {
+    it("should have different values between small and medium", () => {
       const small: ICounterProps = {
         ...baseProps,
         size: "small",
@@ -29,7 +31,7 @@ describe("Counter styles", () => {
   });
 
   describe("getInputHeight", () => {
-    it("should have differente values between small and medium", () => {
+    it("should have different values between small and medium", () => {
       const small: ICounterProps = {
         ...baseProps,
         size: "small",

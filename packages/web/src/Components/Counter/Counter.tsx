@@ -1,3 +1,5 @@
+/* eslint-disable max-lines */
+/* eslint-disable @typescript-eslint/no-empty-function */
 /* eslint-disable no-unused-expressions */
 import * as React from "react";
 import { ICounterProps } from "./Counter.props";
@@ -29,13 +31,13 @@ export const Counter = (props: ICounterProps) => {
     label,
     readOnly,
     initialValue,
-    maxValue = MAX_VALUE,
-    minValue = MIN_VALUE,
+    maxValue,
+    minValue,
   } = props;
 
   const { button, input } = useStyles(props);
 
-  const [value, setValue] = React.useState(initialValue || QUANTITY);
+  const [value, setValue] = React.useState(initialValue);
 
   // eslint-disable-next-line consistent-return
   React.useEffect(() => {
@@ -47,31 +49,28 @@ export const Counter = (props: ICounterProps) => {
     }
   }, [initialValue]);
 
-  const handleInputChange = (event: { target: HTMLInputElement }) => {
+  const handleInputChange = (event: { target: HTMLInputElement }): void => {
     const newValue = Number(event.target.value);
 
-    if (!newValue || (newValue >= minValue && newValue <= maxValue)) {
-      setValue(newValue);
-      onChange && onChange(newValue);
-    }
+    if (newValue < minValue || newValue > maxValue) return;
+    setValue(newValue);
+    onChange && onChange(newValue);
   };
 
-  const increment = () => {
+  const increment = () : void => {
     const newValue = value + QUANTITY;
 
-    if (newValue <= maxValue) {
-      setValue(newValue);
-      onIncrement && onIncrement(newValue);
-    }
+    if (newValue > maxValue) return;
+    setValue(newValue);
+    onIncrement && onIncrement(newValue);
   };
 
-  const decrement = () => {
+  const decrement = () : void => {
     const newValue = value - QUANTITY;
 
-    if (newValue >= minValue) {
-      setValue(newValue);
-      onDecrement && onDecrement(newValue);
-    }
+    if (newValue < minValue) return;
+    setValue(newValue);
+    onDecrement && onDecrement(newValue);
   };
 
   const maxReached = value >= maxValue;
