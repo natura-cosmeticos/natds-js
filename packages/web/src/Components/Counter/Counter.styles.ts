@@ -7,10 +7,12 @@ import { INPUT_DIFFERENCE } from "./constants";
 
 const { sizes } = tokens;
 
+export const getButtonheight = ({ size }: ICounterProps): number => (size === "small" ? sizes?.semiX : sizes?.medium);
+export const getInputHeight = (props: ICounterProps) : number => getButtonheight(props) - INPUT_DIFFERENCE;
+
 const style = (theme: IThemeWeb) => createStyles({
   button: {
-    fontSize: 14,
-    minHeight: ({ size }: ICounterProps) => `${size === "small" ? theme.sizes?.semiX : theme.sizes?.medium}px`,
+    minHeight: getButtonheight,
     "&:last-child": {
       borderLeft: 0,
     },
@@ -22,7 +24,7 @@ const style = (theme: IThemeWeb) => createStyles({
       padding: 0,
       borderRadius: 0,
       margin: 1,
-      minHeight: ({ size }: ICounterProps) => `${(size === "small" ? sizes?.semiX : sizes?.medium) - INPUT_DIFFERENCE}px`,
+      minHeight: getInputHeight,
       fontSize: theme.typography.body1?.fontSize,
       "&::-webkit-inner-spin-button, &::-webkit-outer-spin-button": {
         WebkitAppearance: "none",

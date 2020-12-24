@@ -13,7 +13,13 @@ export const argTypes : Record<keyof ICounterProps | string, ArgType> = {
   },
   size: {
     defaultValue: "small",
-    type: "string",
+    control: {
+      type: "select",
+      options: [
+        "small",
+        "medium",
+      ],
+    },
   },
   initialValue: {
     defaultValue: 1,
