@@ -1,14 +1,9 @@
 import makeStyles from "@material-ui/core/styles/makeStyles";
 import { createStyles } from "@material-ui/core";
 import { IThemeWeb } from "../../Themes";
-import { IRatingProps, IRatingSizes } from "./Rating.props";
+import { IRatingProps } from "./Rating.props";
 
-type RatingStylesArgs = {
-  size?: IRatingSizes,
-  theme: IThemeWeb
-};
-
-export const getFontSize : ({ size, theme }: RatingStylesArgs) => string = ({ size = "small", theme }) => {
+export const getFontSize = (theme: IThemeWeb) => ({ size }: IRatingProps): string => {
   const { sizes } = theme;
   const nullValue = "";
 
@@ -22,13 +17,12 @@ export const getFontSize : ({ size, theme }: RatingStylesArgs) => string = ({ si
 };
 
 const style = (theme: IThemeWeb) => createStyles({
-  root: ({ size }: IRatingProps) => ({
-    fontSize: getFontSize({ size, theme }),
-  }),
-
-  iconEmpty:{
+  root: {
+    fontSize: getFontSize(theme),
+  },
+  iconEmpty: {
     color: theme.palette?.text?.secondary,
-  }
+  },
 });
 
 export const useStyles = makeStyles(style, { name: "NatDSRating" });
