@@ -20,8 +20,8 @@ export const Rating = React.forwardRef<HTMLDivElement, IRatingProps>(
   (props: IRatingProps) => {
     const {
       className,
-      size = "small",
-      rate
+      size,
+      rate,
     } = props;
 
     const classes = useStyles({ size });
@@ -42,5 +42,9 @@ export const Rating = React.forwardRef<HTMLDivElement, IRatingProps>(
   });
 
 Rating.displayName = "Rating";
+
+Rating.defaultProps = {
+  size: "small",
+};
 
 export default Rating;
