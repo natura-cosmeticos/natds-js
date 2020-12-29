@@ -25,7 +25,6 @@
         ".github/**",
         "packages/web/.storybook/**",
         "packages/web/bin/**"
-
       ],
       "message": "chore(release): publish %s via lerna [ci skip]"
     }
@@ -36,5 +35,5 @@
     "packages/web"
   ],
   "useWorkspaces": true,
-  "version": "1.0.1"
+  "version": "1.0.2-alpha.DSY-1702.3.0"
 }
