@@ -110,6 +110,7 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
         state={state}
         type={customType || TEXT_TYPE}
         value={value}
+        disableUnderline={true}
         {...otherProps}
       />
     );

@@ -22,7 +22,6 @@ import { opacity as legacyOpacity } from "../../tokens/opacity";
 
 const {
   colorTokens: {
-
     /**
      * @deprecated `avonDarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
      * Please use `theme.avon.dark.color` from `natds-themes`.
@@ -51,7 +50,6 @@ export const avonDark: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-
       /**
        * @since 0.24
        */
@@ -220,15 +218,15 @@ export const avonDark: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             avonDarkColorTokens.colorHighEmphasis,
-            0.16,
+            0.16
           ),
         },
         "&$selected": {
-          background: hexToRgba(avonDarkColorTokens.colorSecondary, 0.16),
+          background: hexToRgba(avonDarkColorTokens.colorPrimary, 0.16),
           "&:hover": {
             backgroundColor: hexToRgba(
               avonDarkColorTokens.colorOnSecondary,
-              0.04,
+              0.04
             ),
           },
           "&:focus": {
@@ -246,7 +244,10 @@ export const avonDark: ITheme = {
       },
       button: {
         "&:hover": {
-          backgroundColor: hexToRgba(avonDarkColorTokens.colorOnSecondary, 0.04),
+          backgroundColor: hexToRgba(
+            avonDarkColorTokens.colorOnSecondary,
+            0.04
+          ),
         },
       },
     },
@@ -280,7 +281,7 @@ export const avonDark: ITheme = {
         "& $avatar": {
           backgroundColor: hexToRgba(
             avonDarkColorTokens.colorOnBackground,
-            0.24,
+            0.24
           ),
           color: avonDarkColorTokens.colorOnBackground,
         },
@@ -292,13 +293,13 @@ export const avonDark: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             avonDarkColorTokens.colorOnBackground,
-            0.16,
+            0.16
           ),
         },
         "&:focus": {
           backgroundColor: hexToRgba(
             avonDarkColorTokens.colorOnBackground,
-            0.16,
+            0.16
           ),
         },
       },
@@ -371,39 +372,34 @@ export const avonDark: ITheme = {
     },
     MuiInputBase: {
       root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        borderRadius: "4px",
+        boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
         color: avonDarkColorTokens.colorHighEmphasis,
-        "&.MuiInput-input": {
-          borderRadius: "4px",
-          "&:hover": {
-            borderRadius: "4px",
-          },
-          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-            boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`,
-          },
+        width: "100%",
+        "&[data-state='error']": {
+          boxShadow: `${avonDarkColorTokens.colorAlert} 0 0 0 1px`,
         },
-        "&.MuiError": {
-          boxShadow: `${avonDarkColorTokens.colorAlert} 0 0 0 2px`,
-          "&:hover": {
-            boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
-          },
-          "&.Mui-focused": {
-            boxShadow: `${avonDarkColorTokens.colorAlert} 0 0 0 2px`,
-          },
-        },
-        "&.MuiSuccess": {
+        "&[data-state='success']": {
           boxShadow: `${avonDarkColorTokens.colorSuccess} 0 0 0 1px`,
-          "&:hover": {
-            boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        },
+        "&:hover": {
+          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+          "&.Mui-disabled": {
+            boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
           },
-          "&.Mui-focused": {
-            boxShadow: `${avonDarkColorTokens.colorSuccess} 0 0 0 1px`,
-          },
+        },
+        "&.Mui-focused": {
+          boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${avonDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
           "&:hover": {
             boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
           },
+        },
+        "&.MuiInputBase-multiline": {
+          padding: sizes?.none,
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none",
@@ -417,15 +413,29 @@ export const avonDark: ITheme = {
         "&.MuiInput-underline:after": {
           borderBottom: "none",
         },
-        "&:hover.Mui-disabled": {
-          boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
-        },
-        padding: "12px",
       },
       input: {
-        color: avonDarkColorTokens.colorHighEmphasis,
-        "&.Mui-disabled": {
+        "&.Mui-disabled:not(::placeholder)": {
           opacity: 0.24,
+        },
+        "&::placeholder": {
+          color: avonDarkColorTokens.colorMediumEmphasis,
+        },
+        "&.MuiInput-inputTypeSearch": {
+          paddingRight: sizes.large,
+        },
+        border: sizes?.none,
+        boxSizing: "border-box",
+        lineHeight: `${sizes?.standard}px`,
+        minHeight: sizes?.mediumX,
+        padding: sizes?.small,
+      },
+      inputMultiline: {
+        padding: sizes?.small,
+      },
+      inputTypeSearch: {
+        "&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration": {
+          display: "none",
         },
       },
     },
@@ -475,6 +485,10 @@ export const avonDark: ITheme = {
         "&.Mui-disabled": {
           color: avonDarkColorTokens.colorLowEmphasis,
         },
+      },
+      icon: {
+        top: sizes.micro,
+        color: avonDarkColorTokens.colorHighEmphasis,
       },
     },
     MuiButtonGroup: {

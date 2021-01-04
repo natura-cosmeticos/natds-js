@@ -1,7 +1,6 @@
 import MaterialInput from "@material-ui/core/Input";
 import * as React from "react";
 import { IInputProps } from "./Input.props";
-import { useStyles } from "./Input.styles";
 
 export { IInputProps } from "./Input.props";
 
@@ -17,11 +16,8 @@ export const Input = React.forwardRef<unknown, IInputProps>(
       ...otherProps
     } = props;
 
-    const classes = useStyles({ hasIcon, state });
-
     return <MaterialInput
       {...otherProps}
-      classes={classes}
       data-state={state}
       disabled={disabled}
       multiline={multiline}
