@@ -2,7 +2,6 @@
 import * as React from "react";
 import useTheme from "@material-ui/core/styles/useTheme";
 import clsx from "clsx";
-import ProductEmpty from "./images/product-empty.png";
 import { ImageProps } from "./Image.props";
 import { useStyles } from "./Image.styles";
 import { IThemeWeb } from "../../Themes";
