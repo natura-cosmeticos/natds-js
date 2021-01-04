@@ -50,13 +50,13 @@ exports[`Storyshots Examples/Sign up Step 1 1`] = `
         CPF
       </label>
       <div
-        className="MuiInputBase-root MuiInput-root NatDSInput-root-18 MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
+        className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
         onClick={[Function]}
         required={false}
       >
         <input
           aria-invalid={false}
-          className="MuiInputBase-input MuiInput-input NatDSInput-input-15 NatDSInput-input-19"
+          className="MuiInputBase-input MuiInput-input"
           disabled={false}
           id="cpf"
           onAnimationStart={[Function]}
@@ -74,7 +74,7 @@ exports[`Storyshots Examples/Sign up Step 1 1`] = `
       className="MuiBottomNavigation-root"
     >
       <button
-        className="MuiButtonBase-root MuiButton-root NatDSButton-root-20 MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+        className="MuiButtonBase-root MuiButton-root NatDSButton-root-13 MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
         disabled={false}
         onBlur={[Function]}
         onDragLeave={[Function]}
@@ -94,7 +94,7 @@ exports[`Storyshots Examples/Sign up Step 1 1`] = `
         value={0}
       >
         <span
-          className="MuiButton-label NatDSButton-label-21"
+          className="MuiButton-label NatDSButton-label-14"
         >
           Próximo
         </span>

@@ -22,7 +22,6 @@ import { opacity as legacyOpacity } from "../../tokens/opacity";
 
 const {
   colorTokens: {
-
     /**
      * @deprecated `avonLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
      * Please use `theme.avon.light.color` from `natds-themes`.
@@ -51,7 +50,6 @@ export const avonLight: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-
       /**
        * @since 0.24
        */
@@ -220,15 +218,15 @@ export const avonLight: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             avonLightColorTokens.colorOnSecondary,
-            0.04,
+            0.04
           ),
         },
         "&$selected": {
-          backgroundColor: hexToRgba(avonLightColorTokens.colorSecondary, 0.16),
+          backgroundColor: hexToRgba(avonLightColorTokens.colorPrimary, 0.16),
           "&:hover": {
             backgroundColor: hexToRgba(
               avonLightColorTokens.colorHighlight,
-              0.04,
+              0.04
             ),
           },
           "&:focus": {
@@ -348,39 +346,34 @@ export const avonLight: ITheme = {
     },
     MuiInputBase: {
       root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        borderRadius: "4px",
+        boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
         color: avonLightColorTokens.colorHighEmphasis,
-        "&.MuiInput-input": {
-          borderRadius: "4px",
-          "&:hover": {
-            borderRadius: "4px",
-          },
-          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-            boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`,
-          },
+        width: "100%",
+        "&[data-state='error']": {
+          boxShadow: `${avonLightColorTokens.colorAlert} 0 0 0 1px`,
         },
-        "&.MuiError": {
-          boxShadow: `${avonLightColorTokens.colorAlert} 0 0 0 2px`,
-          "&:hover": {
-            boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
-          },
-          "&.Mui-focused": {
-            boxShadow: `${avonLightColorTokens.colorAlert} 0 0 0 2px`,
-          },
-        },
-        "&.MuiSuccess": {
+        "&[data-state='success']": {
           boxShadow: `${avonLightColorTokens.colorSuccess} 0 0 0 1px`,
-          "&:hover": {
-            boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        },
+        "&:hover": {
+          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+          "&.Mui-disabled": {
+            boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
           },
-          "&.Mui-focused": {
-            boxShadow: `${avonLightColorTokens.colorSuccess} 0 0 0 1px`,
-          },
+        },
+        "&.Mui-focused": {
+          boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${avonLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
           "&:hover": {
             boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
           },
+        },
+        "&.MuiInputBase-multiline": {
+          padding: sizes?.none,
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none",
@@ -394,15 +387,29 @@ export const avonLight: ITheme = {
         "&.MuiInput-underline:after": {
           borderBottom: "none",
         },
-        "&:hover.Mui-disabled": {
-          boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
-        },
-        padding: "12px",
       },
       input: {
-        color: avonLightColorTokens.colorHighEmphasis,
-        "&.Mui-disabled": {
+        "&.Mui-disabled:not(::placeholder)": {
           opacity: 0.24,
+        },
+        "&::placeholder": {
+          color: avonLightColorTokens.colorMediumEmphasis,
+        },
+        "&.MuiInput-inputTypeSearch": {
+          paddingRight: sizes.large,
+        },
+        border: sizes?.none,
+        boxSizing: "border-box",
+        lineHeight: `${sizes?.standard}px`,
+        minHeight: sizes?.mediumX,
+        padding: sizes?.small,
+      },
+      inputMultiline: {
+        padding: sizes?.small,
+      },
+      inputTypeSearch: {
+        "&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration": {
+          display: "none",
         },
       },
     },
@@ -494,6 +501,10 @@ export const avonLight: ITheme = {
         "&.Mui-disabled": {
           color: avonLightColorTokens.colorLowEmphasis,
         },
+      },
+      icon: {
+        top: sizes.micro,
+        color: avonLightColorTokens.colorHighEmphasis,
       },
     },
     MuiAlert: {
