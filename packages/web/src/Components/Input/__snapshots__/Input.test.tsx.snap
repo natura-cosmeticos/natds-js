@@ -2,11 +2,11 @@
 
 exports[`Input component when hasIcon property is false should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-9"
+    className="MuiInputBase-input MuiInput-input"
     onAnimationStart={[Function]}
     onBlur={[Function]}
     onChange={[Function]}
@@ -18,11 +18,11 @@ exports[`Input component when hasIcon property is false should match snapshot 1`
 
 exports[`Input component when hasIcon property is true should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-8"
+    className="MuiInputBase-input MuiInput-input"
     onAnimationStart={[Function]}
     onBlur={[Function]}
     onChange={[Function]}
@@ -34,11 +34,11 @@ exports[`Input component when hasIcon property is true should match snapshot 1`]
 
 exports[`Input component when multiline property is explicitly false should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-12"
+    className="MuiInputBase-input MuiInput-input"
     onAnimationStart={[Function]}
     onBlur={[Function]}
     onChange={[Function]}
@@ -50,11 +50,11 @@ exports[`Input component when multiline property is explicitly false should matc
 
 exports[`Input component when no props are provided should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-7"
+    className="MuiInputBase-input MuiInput-input"
     onAnimationStart={[Function]}
     onBlur={[Function]}
     onChange={[Function]}
@@ -66,11 +66,11 @@ exports[`Input component when no props are provided should match snapshot 1`] = 
 
 exports[`Input component when rows property is set and multiline property is explicitly false should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-14"
+    className="MuiInputBase-input MuiInput-input"
     onAnimationStart={[Function]}
     onBlur={[Function]}
     onChange={[Function]}
@@ -83,11 +83,11 @@ exports[`Input component when rows property is set and multiline property is exp
 
 exports[`Input component when rows property is set should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-13"
+    className="MuiInputBase-input MuiInput-input"
     onAnimationStart={[Function]}
     onBlur={[Function]}
     onChange={[Function]}
@@ -100,12 +100,12 @@ exports[`Input component when rows property is set should match snapshot 1`] = `
 
 exports[`Input component when state is error should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline"
   data-state="error"
   onClick={[Function]}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-10"
+    className="MuiInputBase-input MuiInput-input"
     onAnimationStart={[Function]}
     onBlur={[Function]}
     onChange={[Function]}
@@ -117,12 +117,12 @@ exports[`Input component when state is error should match snapshot 1`] = `
 
 exports[`Input component when state is success should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline"
   data-state="success"
   onClick={[Function]}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-11"
+    className="MuiInputBase-input MuiInput-input"
     onAnimationStart={[Function]}
     onBlur={[Function]}
     onChange={[Function]}

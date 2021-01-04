@@ -24,7 +24,6 @@ const { color, opacity } = themes.natura.dark;
 
 const {
   colorTokens: {
-
     /**
      * @deprecated `naturaDarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
      * Please use `theme.natura.dark.color` from `natds-themes`.
@@ -51,7 +50,6 @@ export const naturaDark: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-
       /**
        * @since 0.24
        */
@@ -220,18 +218,15 @@ export const naturaDark: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorHighEmphasis,
-            0.04,
+            0.04
           ),
         },
         "&$selected": {
-          backgroundColor: hexToRgba(
-            naturaDarkColorTokens.colorSecondary,
-            0.16,
-          ),
+          backgroundColor: hexToRgba(naturaDarkColorTokens.colorPrimary, 0.16),
           "&:hover": {
             backgroundColor: hexToRgba(
               naturaDarkColorTokens.colorOnSecondary,
-              0.04,
+              0.04
             ),
           },
           "&:focus": {
@@ -251,7 +246,7 @@ export const naturaDark: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorOnSecondary,
-            0.04,
+            0.04
           ),
         },
       },
@@ -282,14 +277,14 @@ export const naturaDark: ITheme = {
       root: {
         backgroundColor: hexToRgba(
           naturaDarkColorTokens.colorOnBackground,
-          0.12,
+          0.12
         ),
         color: naturaDarkColorTokens.colorOnBackground,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorOnBackground,
-            0.24,
+            0.24
           ),
           color: naturaDarkColorTokens.colorOnBackground,
         },
@@ -301,13 +296,13 @@ export const naturaDark: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorOnBackground,
-            0.16,
+            0.16
           ),
         },
         "&:focus": {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorOnBackground,
-            0.16,
+            0.16
           ),
         },
       },
@@ -380,39 +375,34 @@ export const naturaDark: ITheme = {
     },
     MuiInputBase: {
       root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        borderRadius: "4px",
+        boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
         color: naturaDarkColorTokens.colorHighEmphasis,
-        "&.MuiInput-input": {
-          borderRadius: "4px",
-          "&:hover": {
-            borderRadius: "4px",
-          },
-          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-            boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`,
-          },
+        width: "100%",
+        "&[data-state='error']": {
+          boxShadow: `${naturaDarkColorTokens.colorAlert} 0 0 0 1px`,
         },
-        "&.MuiError": {
-          boxShadow: `${naturaDarkColorTokens.colorAlert} 0 0 0 2px`,
-          "&:hover": {
-            boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
-          },
-          "&.Mui-focused": {
-            boxShadow: `${naturaDarkColorTokens.colorAlert} 0 0 0 2px`,
-          },
-        },
-        "&.MuiSuccess": {
+        "&[data-state='success']": {
           boxShadow: `${naturaDarkColorTokens.colorSuccess} 0 0 0 1px`,
-          "&:hover": {
-            boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        },
+        "&:hover": {
+          boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+          "&.Mui-disabled": {
+            boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
           },
-          "&.Mui-focused": {
-            boxShadow: `${naturaDarkColorTokens.colorSuccess} 0 0 0 1px`,
-          },
+        },
+        "&.Mui-focused": {
+          boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${naturaDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
           "&:hover": {
             boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
           },
+        },
+        "&.MuiInputBase-multiline": {
+          padding: sizes?.none,
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none",
@@ -426,15 +416,32 @@ export const naturaDark: ITheme = {
         "&.MuiInput-underline:after": {
           borderBottom: "none",
         },
-        "&:hover.Mui-disabled": {
-          boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
-        },
-        padding: "12px",
+      },
+      adornedEnd: {
+        paddingRight: sizes.medium,
       },
       input: {
-        color: naturaDarkColorTokens.colorHighEmphasis,
-        "&.Mui-disabled": {
+        "&.Mui-disabled:not(::placeholder)": {
           opacity: 0.24,
+        },
+        "&::placeholder": {
+          color: naturaDarkColorTokens.colorMediumEmphasis,
+        },
+        "&.MuiInput-inputTypeSearch": {
+          paddingRight: sizes.large,
+        },
+        border: sizes?.none,
+        boxSizing: "border-box",
+        lineHeight: `${sizes?.standard}px`,
+        minHeight: sizes?.mediumX,
+        padding: sizes?.small,
+      },
+      inputMultiline: {
+        padding: sizes?.small,
+      },
+      inputTypeSearch: {
+        "&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration": {
+          display: "none",
         },
       },
     },
@@ -484,6 +491,10 @@ export const naturaDark: ITheme = {
         "&.Mui-disabled": {
           color: naturaDarkColorTokens.colorLowEmphasis,
         },
+      },
+      icon: {
+        top: sizes.micro,
+        color: naturaDarkColorTokens.colorHighEmphasis,
       },
     },
     MuiButtonGroup: {

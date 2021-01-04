@@ -2,12 +2,12 @@
 
 exports[`Field component should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root"
   onClick={[Function]}
   required={false}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-7"
+    className="MuiInputBase-input MuiInput-input"
     disabled={false}
     id="test-field"
     onAnimationStart={[Function]}
@@ -24,12 +24,12 @@ exports[`Field component should match snapshot 1`] = `
 
 exports[`Field component should render input for password types 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline MuiInputBase-adornedEnd"
+  className="MuiInputBase-root MuiInput-root MuiInputBase-adornedEnd"
   onClick={[Function]}
   required={false}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-10 MuiInputBase-inputAdornedEnd"
+    className="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd"
     disabled={false}
     id="field"
     onAnimationStart={[Function]}
@@ -43,7 +43,7 @@ exports[`Field component should render input for password types 1`] = `
   />
   <svg
     aria-hidden={true}
-    className="MuiSvgIcon-root NatDSPasswordReveal-root-11"
+    className="MuiSvgIcon-root NatDSPasswordReveal-root-1"
     focusable="false"
     onClick={[Function]}
     viewBox="0 0 24 24"
@@ -57,12 +57,12 @@ exports[`Field component should render input for password types 1`] = `
 
 exports[`Field component should render input for search type 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline MuiInputBase-adornedEnd"
+  className="MuiInputBase-root MuiInput-root MuiInputBase-adornedEnd"
   onClick={[Function]}
   required={false}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-12 MuiInputBase-inputAdornedEnd MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch NatDSInput-inputTypeSearch-5"
+    className="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch"
     disabled={false}
     id="field"
     onAnimationStart={[Function]}
@@ -76,7 +76,7 @@ exports[`Field component should render input for search type 1`] = `
   />
   <svg
     aria-hidden={true}
-    className="MuiSvgIcon-root NatDSSearchClear-root-13"
+    className="MuiSvgIcon-root NatDSSearchClear-root-2"
     focusable="false"
     onClick={[Function]}
     viewBox="0 0 24 24"
@@ -90,12 +90,12 @@ exports[`Field component should render input for search type 1`] = `
 
 exports[`Field component should render input for search types and onChange 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline MuiInputBase-adornedEnd"
+  className="MuiInputBase-root MuiInput-root MuiInputBase-adornedEnd"
   onClick={[Function]}
   required={false}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-14 MuiInputBase-inputAdornedEnd MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch NatDSInput-inputTypeSearch-5"
+    className="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch"
     disabled={false}
     id="field"
     onAnimationStart={[Function]}
@@ -109,7 +109,7 @@ exports[`Field component should render input for search types and onChange 1`] =
   />
   <svg
     aria-hidden={true}
-    className="MuiSvgIcon-root NatDSSearchClear-root-13"
+    className="MuiSvgIcon-root NatDSSearchClear-root-2"
     focusable="false"
     onClick={[Function]}
     viewBox="0 0 24 24"
@@ -123,12 +123,12 @@ exports[`Field component should render input for search types and onChange 1`] =
 
 exports[`Field component should render input with maxLength attribute equal 3 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root"
   onClick={[Function]}
   required={false}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-15"
+    className="MuiInputBase-input MuiInput-input"
     disabled={false}
     id="field"
     maxLength="3"
@@ -146,12 +146,12 @@ exports[`Field component should render input with maxLength attribute equal 3 1`
 
 exports[`Field component should render single line input 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root"
   onClick={[Function]}
   required={false}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-8"
+    className="MuiInputBase-input MuiInput-input"
     disabled={false}
     id="field"
     onAnimationStart={[Function]}
@@ -168,12 +168,12 @@ exports[`Field component should render single line input 1`] = `
 
 exports[`Field component should render single line masked input 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root NatDSInput-root-6 MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root"
   onClick={[Function]}
   required={false}
 >
   <input
-    className="MuiInputBase-input MuiInput-input NatDSInput-input-3 NatDSInput-input-9"
+    className="MuiInputBase-input MuiInput-input"
     disabled={false}
     id="field"
     inputRef={[Function]}
