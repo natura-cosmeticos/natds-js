@@ -1,11 +1,13 @@
 import * as React from "react";
 import { Meta, Story } from "@storybook/react";
-import { Counter, ICounterProps } from "./Counter";
+import { Counter as component, ICounterProps } from "./Counter";
 import argTypes from "./Container.argTypes";
+
+const Counter : React.ForwardRefExoticComponent<ICounterProps> = React.lazy(() => import("./Counter"));
 
 export default {
   argTypes,
-  component: Counter,
+  component,
   title: "Components/Counter",
 } as Meta;
 
