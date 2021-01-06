@@ -20,6 +20,7 @@ export { default as CardHeader, ICardHeaderProps } from "./Components/CardHeader
 export { default as CardMedia, ICardMediaProps } from "./Components/CardMedia";
 export { default as Checkbox, ICheckboxProps } from "./Components/Checkbox";
 export { default as Chip, IChipProps } from "./Components/Chip";
+export { default as Counter, ICounterProps } from "./Components/Counter";
 export { default as CircularProgress, ICircularProgressProps } from "./Components/CircularProgress";
 export { default as Collapse, ICollapseProps } from "./Components/Collapse";
 export { default as Container, IContainerProps } from "./Components/Container";
@@ -68,6 +69,7 @@ export { default as Paper, IPaperProps } from "./Components/Paper";
 export { default as Popover, IPopoverProps } from "./Components/Popover";
 export { default as Radio, IRadioProps } from "./Components/Radio";
 export { default as RadioGroup, IRadioGroupProps } from "./Components/RadioGroup";
+export { default as Rating, IRatingProps } from "./Components/Rating";
 export { default as ScopedCssBaseline, IScopedCssBaselineProps } from "./Components/ScopedCssBaseline";
 export { default as Skeleton, ISkeletonProps } from "./Components/Skeleton";
 export { default as Snackbar, ISnackbarProps } from "./Components/Snackbar";

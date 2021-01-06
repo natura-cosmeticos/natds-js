@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/natura-cosmeticos/natds/compare/v1.1.1...v1.2.0) (2021-01-08)
+
+
+### Features
+
+* **Counter:** add new Counter component and unit tests ([#1265](https://github.com/natura-cosmeticos/natds/issues/1265)) ([a1773b1](https://github.com/natura-cosmeticos/natds/commit/a1773b1402adb96d782e9c03d12364da39cb41fa))
+
+
+
+
+
 ## [1.0.1](https://github.com/natura-cosmeticos/natds/compare/v1.0.1-alpha.DSY-1706.45.0...v1.0.1) (2020-12-15)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles

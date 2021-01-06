@@ -33,6 +33,16 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
   disableSelection?: boolean;
 
   /**
+   * Add fallback image.
+   *
+   * When image loads with error apply fallback.
+   *
+   * @optional
+   * @type string
+   */
+  fallback?: React.ImgHTMLAttributes<HTMLImageElement>["src"];
+
+  /**
    * Sets the image height.
    *
    * Number of pixels or size token for image height.
@@ -64,12 +74,34 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
   maxWidth?: SizePropValue;
 
   /**
+   * Sets the image border-radius.
+   *
+   * If `true`, image border-radius is set to 4px.
+   * If `false`, image border-radius is set to none.
+   *
+   * @optional
+   * @type boolean
+   */
+  radius?: boolean;
+
+  /**
    * An alias for `image` property.
    *
    * @optional
    * @type string
    */
   src?: React.ImgHTMLAttributes<HTMLImageElement>["src"];
+
+  /**
+   * Add overlay to the image.
+   *
+   * If `true`, add image overlay.
+   * If `false`, no overlay.
+   *
+   * @optional
+   * @type boolean
+   */
+  state?: boolean;
 
   /**
    * Override with inline-styles
