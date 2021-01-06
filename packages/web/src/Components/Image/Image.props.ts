@@ -2,6 +2,7 @@ import * as React from "react";
 import { SizePropValue } from "../../hooks/useSizeStyleProp";
 
 export type ImageVariant = "standard" | "highlight";
+export type ImageFallback = "product" | React.ImgHTMLAttributes<HTMLImageElement>["src"];
 
 export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElement>, "height" | "width"> {
 
@@ -31,6 +32,16 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
    * @type boolean
    */
   disableSelection?: boolean;
+
+  /**
+   * Add fallback image.
+   *
+   * When image loads with error apply fallback. If fallback is equal to "product" then apply product-empty image.
+   *
+   * @optional
+   * @type "product" | string
+   */
+  fallback?: ImageFallback;
 
   /**
    * Sets the image height.
@@ -64,12 +75,34 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
   maxWidth?: SizePropValue;
 
   /**
+   * Sets the image border-radius.
+   *
+   * If `true`, image border-radius is set to 4px.
+   * If `false`, image border-radius is set to none.
+   *
+   * @optional
+   * @type boolean
+   */
+  radius?: boolean;
+
+  /**
    * An alias for `image` property.
    *
    * @optional
    * @type string
    */
   src?: React.ImgHTMLAttributes<HTMLImageElement>["src"];
+
+  /**
+   * Add overlay to the image.
+   *
+   * If `true`, add image overlay.
+   * If `false`, no overlay.
+   *
+   * @optional
+   * @type boolean
+   */
+  state?: boolean;
 
   /**
    * Override with inline-styles

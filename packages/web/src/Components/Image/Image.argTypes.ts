@@ -49,11 +49,17 @@ If \`"auto"\` uses the default behavior of the browser.
   },
   maxHeight: sizePropArgType,
   maxWidth: sizePropArgType,
+  fallback: {
+    control: {
+      type: "text",
+    },
+  },
   src: {
     control: {
       type: "text",
     },
   },
+  state: {},
   style: {
     control: {
       type: "object",
@@ -70,4 +76,5 @@ If \`"auto"\` uses the default behavior of the browser.
     },
     table: sizePropArgType.table,
   },
+  radius: {},
 };

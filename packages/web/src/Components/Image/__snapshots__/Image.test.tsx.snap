@@ -3,8 +3,9 @@
 exports[`Image component when disableSelection property is explicitly set to false should render correctly 1`] = `
 <img
   alt="Image alt text"
-  className="NatDSImage-root-1 NatDSImage-root-4"
+  className="NatDSImage-root-1 NatDSImage-root-10"
   height=""
+  onError={[Function]}
   width=""
 />
 `;
@@ -12,8 +13,29 @@ exports[`Image component when disableSelection property is explicitly set to fal
 exports[`Image component when disableSelection property is explicitly set to true should render correctly 1`] = `
 <img
   alt="Image alt text"
-  className="NatDSImage-root-1 NatDSImage-root-3"
+  className="NatDSImage-root-1 NatDSImage-root-7"
   height=""
+  onError={[Function]}
+  width=""
+/>
+`;
+
+exports[`Image component when error should render correctly 1`] = `
+<img
+  alt="Image alt text"
+  className="NatDSImage-root-1 NatDSImage-root-28"
+  height=""
+  onError={[Function]}
+  width=""
+/>
+`;
+
+exports[`Image component when fallback property exist should render correctly 1`] = `
+<img
+  alt="Image alt text"
+  className="NatDSImage-root-1 NatDSImage-root-22"
+  height=""
+  onError={[Function]}
   width=""
 />
 `;
@@ -21,8 +43,9 @@ exports[`Image component when disableSelection property is explicitly set to tru
 exports[`Image component when height is set to auto should render correctly 1`] = `
 <img
   alt="Image alt text"
-  className="NatDSImage-root-1 NatDSImage-root-5"
+  className="NatDSImage-root-1 NatDSImage-root-13"
   height=""
+  onError={[Function]}
   width=""
 />
 `;
@@ -30,17 +53,46 @@ exports[`Image component when height is set to auto should render correctly 1`] 
 exports[`Image component when only required properties are provided should render correctly 1`] = `
 <img
   alt="Image alt text"
-  className="NatDSImage-root-1 NatDSImage-root-2"
+  className="NatDSImage-root-1 NatDSImage-root-4"
   height=""
+  onError={[Function]}
   width=""
 />
+`;
+
+exports[`Image component when radius is true should render correctly 1`] = `
+<img
+  alt="Image alt text"
+  className="NatDSImage-root-1 NatDSImage-root-25"
+  height=""
+  onError={[Function]}
+  width=""
+/>
+`;
+
+exports[`Image component when state is true should render correctly 1`] = `
+<div
+  className="NatDSImage-container-2 NatDSImage-container-20"
+>
+  <img
+    alt="Image alt text"
+    className="NatDSImage-root-1 NatDSImage-root-19"
+    height=""
+    onError={[Function]}
+    width=""
+  />
+  <div
+    className="NatDSImage-overlay-3 NatDSImage-overlay-21"
+  />
+</div>
 `;
 
 exports[`Image component when width is set to auto should render correctly 1`] = `
 <img
   alt="Image alt text"
-  className="NatDSImage-root-1 NatDSImage-root-6"
+  className="NatDSImage-root-1 NatDSImage-root-16"
   height=""
+  onError={[Function]}
   width=""
 />
 `;
