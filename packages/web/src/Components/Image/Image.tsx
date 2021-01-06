@@ -47,7 +47,7 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
     };
 
     const heightAttr = heightAttribute === "auto" ? "" : heightAttribute;
-    const widhtAttr = widthAttribute === "auto" ? "" : widthAttribute;
+    const widthAttr = widthAttribute === "auto" ? "" : widthAttribute;
 
     if (state) {
       return (
@@ -61,7 +61,7 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
             ref={ref}
             src={imageSrc.src}
             style={style}
-            width={widhtAttr}
+            width={widthAttr}
             {...otherProps}
           />
           <div className={classes.overlay}></div>
@@ -79,7 +79,7 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
         ref={ref}
         src={imageSrc.src}
         style={style}
-        width={widhtAttr}
+        width={widthAttr}
         {...otherProps}
       />
     );
