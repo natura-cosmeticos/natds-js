@@ -431,9 +431,6 @@ Object {
         "color": "#fafafa",
       },
       "root": Object {
-        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
-          "boxShadow": "#f4ab34 0 0 0 2px",
-        },
         "&.MuiError": Object {
           "&.Mui-focused": Object {
             "boxShadow": "#e74627 0 0 0 2px",
@@ -448,6 +445,15 @@ Object {
             "boxShadow": "#bbbbbb 0 0 0 1px",
           },
           "boxShadow": "#fafafa 0 0 0 1px",
+        },
+        "&.MuiInput-input": Object {
+          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
+            "boxShadow": "#f4ab34 0 0 0 2px",
+          },
+          "&:hover": Object {
+            "borderRadius": "4px",
+          },
+          "borderRadius": "4px",
         },
         "&.MuiInput-underline.Mui-disabled:before": Object {
           "borderBottomStyle": "none",
@@ -470,13 +476,9 @@ Object {
           },
           "boxShadow": "#569a32 0 0 0 1px",
         },
-        "&:hover": Object {
-          "boxShadow": "#bbbbbb 0 0 0 1px",
-        },
         "&:hover.Mui-disabled": Object {
           "boxShadow": "#777777 0 0 0 1px",
         },
-        "borderRadius": "4px",
         "color": "#fafafa",
         "padding": "12px",
       },
@@ -1183,9 +1185,6 @@ Object {
         "color": "#333333",
       },
       "root": Object {
-        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
-          "boxShadow": "#f4ab34 0 0 0 2px",
-        },
         "&.MuiError": Object {
           "&.Mui-focused": Object {
             "boxShadow": "#e74627 0 0 0 2px",
@@ -1200,6 +1199,15 @@ Object {
             "boxShadow": "#777777 0 0 0 1px",
           },
           "boxShadow": "#333333 0 0 0 1px",
+        },
+        "&.MuiInput-input": Object {
+          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": Object {
+            "boxShadow": "#f4ab34 0 0 0 2px",
+          },
+          "&:hover": Object {
+            "borderRadius": "4px",
+          },
+          "borderRadius": "4px",
         },
         "&.MuiInput-underline.Mui-disabled:before": Object {
           "borderBottomStyle": "none",
@@ -1222,13 +1230,9 @@ Object {
           },
           "boxShadow": "#569a32 0 0 0 1px",
         },
-        "&:hover": Object {
-          "boxShadow": "#777777 0 0 0 1px",
-        },
         "&:hover.Mui-disabled": Object {
           "boxShadow": "#bbbbbb 0 0 0 1px",
         },
-        "borderRadius": "4px",
         "color": "#333333",
         "padding": "12px",
       },

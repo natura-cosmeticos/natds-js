@@ -15,7 +15,6 @@ import { opacity as legacyOpacity } from "../../tokens/opacity";
 
 const {
   colorTokens: {
-
     /**
      * @deprecated `naturaLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
      * Please use `theme.natura.light.color` from `natds-themes`.
@@ -49,7 +48,6 @@ export const naturaLight: ITheme = {
   palette: {
     type: "light",
     action: {
-
       /**
        * @since 0.24
        */
@@ -218,18 +216,18 @@ export const naturaLight: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             naturaLightColorTokens.colorOnSecondary,
-            0.04,
+            0.04
           ),
         },
         "&$selected": {
           backgroundColor: hexToRgba(
             naturaLightColorTokens.colorSecondary,
-            0.16,
+            0.16
           ),
           "&:hover": {
             backgroundColor: hexToRgba(
               naturaLightColorTokens.colorOnSecondary,
-              0.04,
+              0.04
             ),
           },
           "&:focus": {
@@ -249,7 +247,7 @@ export const naturaLight: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             naturaLightColorTokens.colorOnSecondary,
-            0.04,
+            0.04
           ),
         },
       },
@@ -280,14 +278,14 @@ export const naturaLight: ITheme = {
       root: {
         backgroundColor: hexToRgba(
           naturaLightColorTokens.colorOnSecondary,
-          0.12,
+          0.12
         ),
         color: naturaLightColorTokens.colorOnPrimary,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(
             naturaLightColorTokens.colorOnSecondary,
-            0.24,
+            0.24
           ),
           color: naturaLightColorTokens.colorOnPrimary,
         },
@@ -359,8 +357,14 @@ export const naturaLight: ITheme = {
     MuiInputBase: {
       root: {
         color: naturaLightColorTokens.colorHighEmphasis,
-        "&:hover": {
-          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        "&.MuiInput-input": {
+          borderRadius: "4px",
+          "&:hover": {
+            borderRadius: "4px",
+          },
+          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
+            boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`,
+          },
         },
         "&.MuiError": {
           boxShadow: `${naturaLightColorTokens.colorAlert} 0 0 0 2px`,
@@ -379,9 +383,6 @@ export const naturaLight: ITheme = {
           "&.Mui-focused": {
             boxShadow: `${naturaLightColorTokens.colorSuccess} 0 0 0 1px`,
           },
-        },
-        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
@@ -405,7 +406,6 @@ export const naturaLight: ITheme = {
           boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
         },
         padding: "12px",
-        borderRadius: "4px",
       },
       input: {
         color: naturaLightColorTokens.colorHighEmphasis,

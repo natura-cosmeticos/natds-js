@@ -372,8 +372,14 @@ export const avonDark: ITheme = {
     MuiInputBase: {
       root: {
         color: avonDarkColorTokens.colorHighEmphasis,
-        "&:hover": {
-          boxShadow: `${avonDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        "&.MuiInput-input": {
+          borderRadius: "4px",
+          "&:hover": {
+            borderRadius: "4px",
+          },
+          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
+            boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`,
+          },
         },
         "&.MuiError": {
           boxShadow: `${avonDarkColorTokens.colorAlert} 0 0 0 2px`,
@@ -392,9 +398,6 @@ export const avonDark: ITheme = {
           "&.Mui-focused": {
             boxShadow: `${avonDarkColorTokens.colorSuccess} 0 0 0 1px`,
           },
-        },
-        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-          boxShadow: `${avonDarkColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${avonDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
@@ -418,7 +421,6 @@ export const avonDark: ITheme = {
           boxShadow: `${avonDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
         },
         padding: "12px",
-        borderRadius: "4px",
       },
       input: {
         color: avonDarkColorTokens.colorHighEmphasis,

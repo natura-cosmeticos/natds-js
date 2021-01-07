@@ -369,8 +369,14 @@ export const theBodyShopLight: ITheme = {
     MuiInputBase: {
       root: {
         color: theBodyShopLightColorTokens.colorHighEmphasis,
-        "&:hover": {
-          boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        "&.MuiInput-input": {
+          borderRadius: "4px",
+          "&:hover": {
+            borderRadius: "4px",
+          },
+          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
+            boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`,
+          },
         },
         "&.MuiError": {
           boxShadow: `${theBodyShopLightColorTokens.colorAlert} 0 0 0 2px`,
@@ -389,9 +395,6 @@ export const theBodyShopLight: ITheme = {
           "&.Mui-focused": {
             boxShadow: `${theBodyShopLightColorTokens.colorSuccess} 0 0 0 1px`,
           },
-        },
-        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-          boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${theBodyShopLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
@@ -415,7 +418,6 @@ export const theBodyShopLight: ITheme = {
           boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
         },
         padding: "12px",
-        borderRadius: "4px",
       },
       input: {
         color: theBodyShopLightColorTokens.colorHighEmphasis,
