@@ -1,13 +1,15 @@
 // eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { Meta, Story } from "@storybook/react";
-import { Image } from "./Image";
+import { Image as component } from "./Image";
 import { ImageProps } from "./Image.props";
 import { argTypes } from "./Image.argTypes";
 
+const Image : React.ForwardRefExoticComponent<ImageProps> = React.lazy(() => import("./Image"));
+
 export default {
   argTypes,
-  component: Image,
+  component,
   title: "Components/Image",
 } as Meta;
 
