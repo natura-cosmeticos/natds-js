@@ -389,8 +389,14 @@ export const theBodyShopDark: ITheme = {
     MuiInputBase: {
       root: {
         color: theBodyShopDarkColorTokens.colorHighEmphasis,
-        "&:hover": {
-          boxShadow: `${theBodyShopDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        "&.MuiInput-input": {
+          borderRadius: "4px",
+          "&:hover": {
+            borderRadius: "4px",
+          },
+          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
+            boxShadow: `${theBodyShopDarkColorTokens.colorPrimary} 0 0 0 2px`,
+          },
         },
         "&.MuiError": {
           boxShadow: `${theBodyShopDarkColorTokens.colorAlert} 0 0 0 2px`,
@@ -409,9 +415,6 @@ export const theBodyShopDark: ITheme = {
           "&.Mui-focused": {
             boxShadow: `${theBodyShopDarkColorTokens.colorSuccess} 0 0 0 1px`,
           },
-        },
-        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-          boxShadow: `${theBodyShopDarkColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${theBodyShopDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
@@ -435,7 +438,6 @@ export const theBodyShopDark: ITheme = {
           boxShadow: `${theBodyShopDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
         },
         padding: "12px",
-        borderRadius: "4px",
       },
       input: {
         color: theBodyShopDarkColorTokens.colorHighEmphasis,
@@ -493,6 +495,11 @@ export const theBodyShopDark: ITheme = {
       },
     },
     MuiButtonGroup: {
+      groupedOutlinedHorizontal: {
+        "&:not(:first-child)": {
+          marginLeft: "none",
+        },
+      },
       groupedContainedPrimary: {
         "&:not(:last-child)": {
           borderColor: theBodyShopDarkColorTokens.colorPrimaryDark,

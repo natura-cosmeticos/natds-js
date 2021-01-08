@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.2.0](https://github.com/natura-cosmeticos/natds-js/compare/v1.1.1...v1.2.0) (2021-01-08)
+
+
+### Features
+
+* **Counter:** add new Counter component and unit tests ([#1265](https://github.com/natura-cosmeticos/natds-js/issues/1265)) ([a1773b1](https://github.com/natura-cosmeticos/natds-js/commit/a1773b1402adb96d782e9c03d12364da39cb41fa))
+* **rating:** add new component ([4b9ee8b](https://github.com/natura-cosmeticos/natds-js/commit/4b9ee8b93657e013c36a88b7b86ef2a1922ed067))
+
+
+
+
+
 ## [1.1.1](https://github.com/natura-cosmeticos/natds-js/compare/v1.1.0...v1.1.1) (2020-12-22)
 
 
