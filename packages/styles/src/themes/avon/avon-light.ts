@@ -349,8 +349,14 @@ export const avonLight: ITheme = {
     MuiInputBase: {
       root: {
         color: avonLightColorTokens.colorHighEmphasis,
-        "&:hover": {
-          boxShadow: `${avonLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        "&.MuiInput-input": {
+          borderRadius: "4px",
+          "&:hover": {
+            borderRadius: "4px",
+          },
+          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
+            boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`,
+          },
         },
         "&.MuiError": {
           boxShadow: `${avonLightColorTokens.colorAlert} 0 0 0 2px`,
@@ -369,9 +375,6 @@ export const avonLight: ITheme = {
           "&.Mui-focused": {
             boxShadow: `${avonLightColorTokens.colorSuccess} 0 0 0 1px`,
           },
-        },
-        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-          boxShadow: `${avonLightColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${avonLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
@@ -395,7 +398,6 @@ export const avonLight: ITheme = {
           boxShadow: `${avonLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
         },
         padding: "12px",
-        borderRadius: "4px",
       },
       input: {
         color: avonLightColorTokens.colorHighEmphasis,
@@ -436,6 +438,11 @@ export const avonLight: ITheme = {
       },
     },
     MuiButtonGroup: {
+      groupedOutlinedHorizontal: {
+        "&:not(:first-child)": {
+          marginLeft: "none",
+        },
+      },
       groupedContainedPrimary: {
         "&:not(:last-child)": {
           borderColor: avonLightColorTokens.colorPrimaryDark,

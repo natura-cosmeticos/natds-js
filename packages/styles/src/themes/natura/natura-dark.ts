@@ -381,8 +381,14 @@ export const naturaDark: ITheme = {
     MuiInputBase: {
       root: {
         color: naturaDarkColorTokens.colorHighEmphasis,
-        "&:hover": {
-          boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        "&.MuiInput-input": {
+          borderRadius: "4px",
+          "&:hover": {
+            borderRadius: "4px",
+          },
+          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
+            boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`,
+          },
         },
         "&.MuiError": {
           boxShadow: `${naturaDarkColorTokens.colorAlert} 0 0 0 2px`,
@@ -401,9 +407,6 @@ export const naturaDark: ITheme = {
           "&.Mui-focused": {
             boxShadow: `${naturaDarkColorTokens.colorSuccess} 0 0 0 1px`,
           },
-        },
-        "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-          boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${naturaDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
@@ -427,7 +430,6 @@ export const naturaDark: ITheme = {
           boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
         },
         padding: "12px",
-        borderRadius: "4px",
       },
       input: {
         color: naturaDarkColorTokens.colorHighEmphasis,
@@ -485,6 +487,11 @@ export const naturaDark: ITheme = {
       },
     },
     MuiButtonGroup: {
+      groupedOutlinedHorizontal: {
+        "&:not(:first-child)": {
+          marginLeft: "none",
+        },
+      },
       groupedContainedPrimary: {
         "&:not(:last-child)": {
           borderColor: naturaDarkColorTokens.colorPrimaryDark,

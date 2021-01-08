@@ -1,0 +1,195 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Counter component renders correctly: Counter component renders correctly 1`] = `
+<div>
+  <div
+    className="MuiButtonGroup-root MuiButtonGroup-disableElevation"
+    role="group"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-5 MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-button-1 NatDSCounter-button-3 MuiButton-outlinedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+      disabled={false}
+      id="decrement-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-6"
+      >
+        -
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+    <div
+      className="MuiFormControl-root NatDSFormControl-root-8 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-input-2 NatDSCounter-input-4"
+    >
+      <div
+        className="MuiInputBase-root MuiInput-root NatDSInput-root-14 MuiInput-underline MuiInputBase-colorSecondary MuiInput-colorSecondary MuiInputBase-formControl MuiInput-formControl"
+        disableElevation={true}
+        disableFocusRipple={false}
+        disableRipple={false}
+        onClick={[Function]}
+        required={false}
+        size="small"
+        variant="outlined"
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input MuiInput-input NatDSInput-input-11 NatDSInput-input-15 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-input-2 NatDSCounter-input-4__input"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          required={false}
+          type="number"
+          value={1}
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-5 MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-button-1 NatDSCounter-button-3 MuiButton-outlinedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+      disabled={false}
+      id="increment-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-6"
+      >
+        +
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
+
+exports[`Counter component renders with label: Counter component renders with label 1`] = `
+<div>
+  <label
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-18 NatDSInputLabel-root-19 MuiInputLabel-animated MuiInputLabel-shrink"
+    data-shrink={true}
+  >
+    Contador
+  </label>
+  <div
+    className="MuiButtonGroup-root MuiButtonGroup-disableElevation"
+    role="group"
+  >
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-5 MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-button-1 NatDSCounter-button-16 MuiButton-outlinedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+      disabled={false}
+      id="decrement-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-6"
+      >
+        -
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+    <div
+      className="MuiFormControl-root NatDSFormControl-root-8 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-input-2 NatDSCounter-input-17"
+    >
+      <div
+        className="MuiInputBase-root MuiInput-root NatDSInput-root-14 MuiInput-underline MuiInputBase-colorSecondary MuiInput-colorSecondary MuiInputBase-formControl MuiInput-formControl"
+        disableElevation={true}
+        disableFocusRipple={false}
+        disableRipple={false}
+        onClick={[Function]}
+        required={false}
+        size="small"
+        variant="outlined"
+      >
+        <input
+          aria-invalid={false}
+          className="MuiInputBase-input MuiInput-input NatDSInput-input-11 NatDSInput-input-20 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-input-2 NatDSCounter-input-17__input"
+          disabled={false}
+          onAnimationStart={[Function]}
+          onBlur={[Function]}
+          onChange={[Function]}
+          onFocus={[Function]}
+          placeholder=""
+          required={false}
+          type="number"
+          value={1}
+        />
+      </div>
+    </div>
+    <button
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-5 MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-button-1 NatDSCounter-button-16 MuiButton-outlinedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+      disabled={false}
+      id="increment-button"
+      onBlur={[Function]}
+      onClick={[Function]}
+      onDragLeave={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onKeyUp={[Function]}
+      onMouseDown={[Function]}
+      onMouseLeave={[Function]}
+      onMouseUp={[Function]}
+      onTouchEnd={[Function]}
+      onTouchMove={[Function]}
+      onTouchStart={[Function]}
+      tabIndex={0}
+      type="button"
+    >
+      <span
+        className="MuiButton-label NatDSButton-label-6"
+      >
+        +
+      </span>
+      <span
+        className="MuiTouchRipple-root"
+      />
+    </button>
+  </div>
+</div>
+`;
