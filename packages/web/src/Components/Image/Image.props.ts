@@ -2,7 +2,6 @@ import * as React from "react";
 import { SizePropValue } from "../../hooks/useSizeStyleProp";
 
 export type ImageVariant = "standard" | "highlight";
-export type ImageFallback = "product" | React.ImgHTMLAttributes<HTMLImageElement>["src"];
 
 export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElement>, "height" | "width"> {
 
@@ -36,12 +35,12 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
   /**
    * Add fallback image.
    *
-   * When image loads with error apply fallback. If fallback is equal to "product" then apply product-empty image.
+   * When image loads with error apply fallback.
    *
    * @optional
-   * @type "product" | string
+   * @type string
    */
-  fallback?: ImageFallback;
+  fallback?: React.ImgHTMLAttributes<HTMLImageElement>["src"];
 
   /**
    * Sets the image height.

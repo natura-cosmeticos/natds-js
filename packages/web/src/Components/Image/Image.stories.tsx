@@ -42,10 +42,3 @@ Fallback.args = {
   fallback: "https://zeroheight.com/uploads/CKp-xkMzUziuVtBy4yXxyg.jpg",
   maxWidth: "veryHuge",
 };
-
-export const ProductFallback : Story<ImageProps> = Template.bind({});
-ProductFallback.args = {
-  alt: "Nat Natura holding a cat",
-  src: "https://pbs.twimg.com/profile_images/308179129267781632/wLDnEiOy_400x400.jpg",
-  fallback: "product",
-};

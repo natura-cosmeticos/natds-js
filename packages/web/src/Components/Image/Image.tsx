@@ -2,7 +2,6 @@
 import * as React from "react";
 import useTheme from "@material-ui/core/styles/useTheme";
 import clsx from "clsx";
-import ProductEmpty from "./images/product-empty.png";
 import { ImageProps } from "./Image.props";
 import { useStyles } from "./Image.styles";
 import { IThemeWeb } from "../../Themes";
@@ -34,11 +33,9 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
 
     const [imageSrc, setImageSrc] = React.useState({ src, error: false });
 
-    const fallbackSrc = fallback === "product" ? ProductEmpty : fallback;
-
     const onError = () => {
       if (!imageSrc.error) {
-        setImageSrc({ src: fallbackSrc, error: true });
+        setImageSrc({ src: fallback, error: true });
 
         return null;
       }

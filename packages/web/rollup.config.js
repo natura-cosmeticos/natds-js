@@ -7,9 +7,7 @@ const getPluginsForBrowser = () => [
   nodeResolve({
     preferBuiltins: true,
   }),
-  commonjs({
-    include: ".png",
-  }),
+  commonjs(),
   babel({
     babelHelpers: "bundled",
     exclude: "node_modules/**",

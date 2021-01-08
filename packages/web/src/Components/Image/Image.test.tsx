@@ -45,7 +45,7 @@ describe("Image component", () => {
   });
   describe("when fallback property exist", () => {
     it("should render correctly", () => {
-      testRenderer = TestRenderer.create(<Image alt={"Image alt text"} fallback={"product"} />);
+      testRenderer = TestRenderer.create(<Image alt={"Image alt text"} fallback={"https://zeroheight.com/uploads/CKp-xkMzUziuVtBy4yXxyg.jpg"} />);
       expect(testRenderer).toMatchSnapshot();
     });
   });
