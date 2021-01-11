@@ -20,3 +20,6 @@ fi
 yarn build:storybook
 
 cp -r packages/web/docs/dist/* ${OUTPUT_PATH}
+
+mkdir -p build/assets
+cp -r packages/web/src/assets/* build/assets
