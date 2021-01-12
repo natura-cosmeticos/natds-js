@@ -20,9 +20,3 @@ fi
 yarn build:storybook
 
 cp -r packages/web/docs/dist/* ${OUTPUT_PATH}
-
-
-echo "Creating folder to assets..."
-mkdir -p build/assets
-echo "Copying assets..."
-cp -r packages/web/src/assets/* build/assets
