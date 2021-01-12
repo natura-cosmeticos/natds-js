@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.3.0](https://github.com/natura-cosmeticos/natds-js/compare/v1.2.0...v1.3.0) (2021-01-12)
+
+
+### Features
+
+* **Image:** update Image component ([#1267](https://github.com/natura-cosmeticos/natds-js/issues/1267)) ([44856aa](https://github.com/natura-cosmeticos/natds-js/commit/44856aa9dd7b1057040a7a870589268cf131a20c))
+
+
+
+
+
 # [1.2.0](https://github.com/natura-cosmeticos/natds-js/compare/v1.1.1...v1.2.0) (2021-01-08)
 
 
