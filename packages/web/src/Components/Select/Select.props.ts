@@ -27,12 +27,12 @@ export interface SelectProps {
   /**
    * Options of Select
    */
-  options: string[];
+  options: Array<string | number>;
 
   /**
    * @optional
    */
-  placeholder: string;
+  placeholder?: string;
 
   /**
    * @optional

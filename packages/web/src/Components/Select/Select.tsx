@@ -21,10 +21,10 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
 
     const { state, id, placeholder, options, ...otherProps } = props;
 
-    const [value, setValue] = React.useState('');
-    
+    const [value, setValue] = React.useState<string | number>();
     const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
-      setValue(event.target.value as string);
+      const selectedValue = event.target.value as string
+      setValue(selectedValue);
     };
 
     const menuProps: Partial<MenuProps> = {
