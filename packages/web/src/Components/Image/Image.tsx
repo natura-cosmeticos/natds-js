@@ -1,3 +1,4 @@
+// eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import useTheme from "@material-ui/core/styles/useTheme";
 import clsx from "clsx";
@@ -9,13 +10,14 @@ import { getSizeStyleProp } from "../../hooks/useSizeStyleProp";
 export { ImageProps } from "./Image.props";
 
 export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
+  // eslint-disable-next-line complexity, max-statements
   (props: ImageProps, ref) => {
     const {
-      alt, className, draggable, disableSelection, height, maxHeight, maxWidth, style, width, ...otherProps
+      alt, className, draggable, disableSelection, fallback, height, maxHeight, maxWidth, radius, state, style, src, width, ...otherProps
     } = props;
 
     const classes = useStyles({
-      alt, disableSelection, height, maxHeight, maxWidth, width,
+      alt, disableSelection, height, maxHeight, maxWidth, radius, state, src, width,
     });
 
     const theme : IThemeWeb = useTheme();
@@ -29,15 +31,52 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
       value: width,
     });
 
+    const [imageSrc, setImageSrc] = React.useState({ src, error: false });
+
+    const onError = () => {
+      if (!imageSrc.error) {
+        setImageSrc({ src: fallback, error: true });
+
+        return null;
+      }
+
+      return null;
+    };
+
+    const heightAttr = heightAttribute === "auto" ? "" : heightAttribute;
+    const widthAttr = widthAttribute === "auto" ? "" : widthAttribute;
+
+    if (state) {
+      return (
+        <div className={classes.container}>
+          <img
+            alt={alt}
+            className={clsx(classes.root, className)}
+            draggable={draggable}
+            height={heightAttr}
+            onError={onError}
+            ref={ref}
+            src={imageSrc.src}
+            style={style}
+            width={widthAttr}
+            {...otherProps}
+          />
+          <div className={classes.overlay}></div>
+        </div>
+      );
+    }
+
     return (
       <img
         alt={alt}
         className={clsx(classes.root, className)}
         draggable={draggable}
-        height={heightAttribute === "auto" ? "" : heightAttribute}
+        height={heightAttr}
+        onError={onError}
         ref={ref}
+        src={imageSrc.src}
         style={style}
-        width={widthAttribute === "auto" ? "" : widthAttribute }
+        width={widthAttr}
         {...otherProps}
       />
     );
