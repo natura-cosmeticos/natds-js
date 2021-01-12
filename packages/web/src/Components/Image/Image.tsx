@@ -34,11 +34,9 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
 
     const [imageSrc, setImageSrc] = React.useState({ src, error: false });
 
-    const fallbackSrc = fallback === "product" ? ProductEmpty : fallback;
-
     const onError = () => {
       if (!imageSrc.error) {
-        setImageSrc({ src: fallbackSrc, error: true });
+        setImageSrc({ src: fallback, error: true });
 
         return null;
       }
@@ -47,7 +45,7 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
     };
 
     const heightAttr = heightAttribute === "auto" ? "" : heightAttribute;
-    const widhtAttr = widthAttribute === "auto" ? "" : widthAttribute;
+    const widthAttr = widthAttribute === "auto" ? "" : widthAttribute;
 
     if (state) {
       return (
@@ -61,7 +59,7 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
             ref={ref}
             src={imageSrc.src}
             style={style}
-            width={widhtAttr}
+            width={widthAttr}
             {...otherProps}
           />
           <div className={classes.overlay}></div>
@@ -79,7 +77,7 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
         ref={ref}
         src={imageSrc.src}
         style={style}
-        width={widhtAttr}
+        width={widthAttr}
         {...otherProps}
       />
     );

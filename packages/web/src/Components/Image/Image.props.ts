@@ -36,12 +36,12 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
   /**
    * Add fallback image.
    *
-   * When image loads with error apply fallback. If fallback is equal to "product" then apply product-empty image.
+   * When image loads with error apply fallback.
    *
    * @optional
-   * @type "product" | string
+   * @type string
    */
-  fallback?: ImageFallback;
+  fallback?: React.ImgHTMLAttributes<HTMLImageElement>["src"];
 
   /**
    * Sets the image height.

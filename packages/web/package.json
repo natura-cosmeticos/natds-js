@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-web",
   "displayName": "NatDS React Web",
   "description": "A collection of components from Natura Design System for React websites and webapps",
-  "version": "1.2.0",
+  "version": "1.3.0",
   "private": false,
   "keywords": [
     "design-system",
@@ -41,8 +41,9 @@
     "url": "https://github.com/natura-cosmeticos/natds-js.git"
   },
   "scripts": {
-    "build": "yarn clean && tsc -p ./tsconfig.json && yarn rollup:build",
+    "build": "yarn clean && tsc -p ./tsconfig.json && yarn rollup:build && yarn copy-assets",
     "update:storybook:fonts": "bash ./bin/copyAssetsToStorybook.sh",
+    "copy-assets": "mkdir -p ./dist/assets && cp -r ./src/assets/* ./dist/assets",
     "build-storybook": "yarn update:storybook:fonts && build-storybook -o docs/dist -s ./.storybook/assets",
     "build-storybook-ci": "yarn build-storybook --quiet",
     "clean": "rm -rf ./dist",
@@ -62,7 +63,7 @@
     "@material-ui/icons": "4.9.1",
     "@material-ui/lab": "4.0.0-alpha.56",
     "@naturacosmeticos/natds-icons": "^1.0.0",
-    "@naturacosmeticos/natds-styles": "^1.2.0",
+    "@naturacosmeticos/natds-styles": "^1.3.0",
     "clsx": "1.1.1",
     "lodash": "4.17.20",
     "react-text-mask": "5.4.3"
