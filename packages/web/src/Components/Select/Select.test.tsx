@@ -18,11 +18,11 @@ const getProps = (props: Partial<ISelectProps> = {}) => {
 };
 
 describe('Select component', () => {
-  it('should renders correctly', () => {
+  it('should render correctly', () => {
     const component = TestRenderer.create(<Select {...getProps()} />);
     expect(component).toMatchSnapshot();
   });
-  it('should render disabled', () => {
+  it('should render as disabled', () => {
     const component = TestRenderer.create(
       <Select {...getProps()} disabled={true} />
     );
@@ -31,12 +31,6 @@ describe('Select component', () => {
   it('should render with helper text', () => {
     const component = TestRenderer.create(
       <Select {...getProps()} helpText="Helper Text" />
-    );
-    expect(component).toMatchSnapshot();
-  });
-  it('should render with label', () => {
-    const component = TestRenderer.create(
-      <Select {...getProps()} label="Label" />
     );
     expect(component).toMatchSnapshot();
   });
@@ -63,6 +57,15 @@ describe('Select component', () => {
       <Select {...getProps()} state="error" />
     );
     expect(component).toMatchSnapshot();
+  });
+  it('should select option1', async () => {
+    const { getByRole } = render(<Select {...getProps()} />);
+
+    fireEvent.mouseDown(getByRole('button'));
+    const listbox = within(getByRole('listbox'));
+    fireEvent.click(listbox.getByText('Option1'));
+
+    expect(getByRole('button')).toMatchSnapshot();
   });
   it('should select option2', async () => {
     const { getByRole } = render(<Select {...getProps()} />);
