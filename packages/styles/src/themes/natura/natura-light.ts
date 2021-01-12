@@ -395,6 +395,9 @@ export const naturaLight: ITheme = {
           borderBottom: "none",
         },
       },
+      adornedEnd: {
+        paddingRight: sizes.medium,
+      },
       input: {
         "&.Mui-disabled:not(::placeholder)": {
           opacity: 0.24,
