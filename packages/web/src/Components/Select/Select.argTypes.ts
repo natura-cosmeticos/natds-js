@@ -26,6 +26,10 @@ export const argTypes: Record<keyof ISelectProps, ArgType> = {
     description:
       'Label is the text used above the Select element. It describes the field name.',
   },
+  onChange: {
+    defaultValue: null,
+    type: "function",
+  },
   options: {
     control: { type: 'array' },
     description: 'All options of Select',

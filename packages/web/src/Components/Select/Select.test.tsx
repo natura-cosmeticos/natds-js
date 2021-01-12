@@ -12,9 +12,19 @@ const getProps = (props: Partial<ISelectProps> = {}) => {
     options = ['Option1', 'Option2'],
     placeholder = 'Placeholder',
     state,
+    onChange,
   } = props;
 
-  return { state, id, placeholder, options, disabled, helpText, label };
+  return {
+    state,
+    id,
+    placeholder,
+    options,
+    disabled,
+    helpText,
+    label,
+    onChange,
+  };
 };
 
 describe('Select component', () => {
@@ -76,13 +86,19 @@ describe('Select component', () => {
 
     expect(getByRole('button')).toMatchSnapshot();
   });
-  it('should select option1', async () => {
-    const { getByRole } = render(<Select {...getProps()} />);
+  it('should calls onChange when select option1', async () => {
+    const mockOnChange = jest.fn();
+    const { getByRole } = render(
+      <Select {...getProps()} onChange={mockOnChange} />
+    );
 
     fireEvent.mouseDown(getByRole('button'));
+    
     const listbox = within(getByRole('listbox'));
+    
     fireEvent.click(listbox.getByText('Option1'));
 
-    expect(getByRole('button')).toMatchSnapshot();
+    expect(mockOnChange).toHaveBeenCalledTimes(1);
+    expect(getByRole('button').textContent).toEqual('Option1')
   });
 });

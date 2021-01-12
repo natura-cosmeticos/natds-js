@@ -23,7 +23,12 @@ export interface SelectProps {
    * Help text placed underneath the Select
    */
   label?: string;
-
+  /**
+   * Execute a callback when user change the selected option.
+   *
+   * @type Function
+   */
+  onChange: (newValue: string | number) => void;
   /**
    * Options of Select
    */

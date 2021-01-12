@@ -1,5 +1,58 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Select component should render as disabled 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+>
+  <div
+    className="MuiInputBase-root MuiInput-root MuiInput-underline Mui-disabled Mui-disabled MuiInputBase-formControl MuiInput-formControl"
+    onClick={[Function]}
+    options={
+      Array [
+        "Option1",
+        "Option2",
+      ]
+    }
+  >
+    <div
+      aria-disabled="true"
+      aria-haspopup="listbox"
+      aria-labelledby="Select"
+      className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input Mui-disabled Mui-disabled Mui-disabled"
+      id="Select"
+      onBlur={[Function]}
+      onFocus={[Function]}
+      onKeyDown={[Function]}
+      onMouseDown={null}
+      role="button"
+      tabIndex={null}
+    >
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&#8203;",
+          }
+        }
+      />
+    </div>
+    <input
+      aria-hidden={true}
+      className="MuiSelect-nativeInput"
+      onAnimationStart={[Function]}
+      onChange={[Function]}
+      placeholder="Placeholder"
+      required={false}
+      tabIndex={-1}
+      value="Placeholder"
+    />
+    <i
+      aria-hidden={true}
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon Mui-disabled NatDSIcon-root-3 NatDSIcon-root-5"
+    />
+  </div>
+</div>
+`;
+
 exports[`Select component should render as required 1`] = `
 <div
   className="MuiFormControl-root NatDSFormControl-root-2"
@@ -27,7 +80,13 @@ exports[`Select component should render as required 1`] = `
       role="button"
       tabIndex={0}
     >
-      Placeholder
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&#8203;",
+          }
+        }
+      />
     </div>
     <input
       aria-hidden={true}
@@ -37,22 +96,22 @@ exports[`Select component should render as required 1`] = `
       placeholder="Placeholder"
       required={true}
       tabIndex={-1}
-      value=""
+      value="Placeholder"
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-14"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-12"
     />
   </div>
 </div>
 `;
 
-exports[`Select component should render disabled 1`] = `
+exports[`Select component should render correctly 1`] = `
 <div
   className="MuiFormControl-root NatDSFormControl-root-2"
 >
   <div
-    className="MuiInputBase-root MuiInput-root MuiInput-underline Mui-disabled Mui-disabled MuiInputBase-formControl MuiInput-formControl"
+    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     options={
       Array [
@@ -62,19 +121,24 @@ exports[`Select component should render disabled 1`] = `
     }
   >
     <div
-      aria-disabled="true"
       aria-haspopup="listbox"
       aria-labelledby="Select"
-      className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input Mui-disabled Mui-disabled Mui-disabled"
+      className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
       id="Select"
       onBlur={[Function]}
       onFocus={[Function]}
       onKeyDown={[Function]}
-      onMouseDown={null}
+      onMouseDown={[Function]}
       role="button"
-      tabIndex={null}
+      tabIndex={0}
     >
-      Placeholder
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&#8203;",
+          }
+        }
+      />
     </div>
     <input
       aria-hidden={true}
@@ -84,11 +148,11 @@ exports[`Select component should render disabled 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value=""
+      value="Placeholder"
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon Mui-disabled NatDSIcon-root-3 NatDSIcon-root-5"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-4"
     />
   </div>
 </div>
@@ -121,7 +185,13 @@ exports[`Select component should render with helper text 1`] = `
       role="button"
       tabIndex={0}
     >
-      Placeholder
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&#8203;",
+          }
+        }
+      />
     </div>
     <input
       aria-hidden={true}
@@ -131,7 +201,7 @@ exports[`Select component should render with helper text 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value=""
+      value="Placeholder"
     />
     <i
       aria-hidden={true}
@@ -139,7 +209,7 @@ exports[`Select component should render with helper text 1`] = `
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-7 NatDSFormHelperText-root-8"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-7 NatDSFormHelperText-root-8 MuiFormHelperText-filled"
   >
     Helper Text
   </p>
@@ -151,7 +221,7 @@ exports[`Select component should render with label 1`] = `
   className="MuiFormControl-root NatDSFormControl-root-2"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-9 NatDSInputLabel-root-10 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-9 NatDSInputLabel-root-10 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
     data-shrink={true}
   >
     Label
@@ -178,7 +248,13 @@ exports[`Select component should render with label 1`] = `
       role="button"
       tabIndex={0}
     >
-      Placeholder
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&#8203;",
+          }
+        }
+      />
     </div>
     <input
       aria-hidden={true}
@@ -188,63 +264,11 @@ exports[`Select component should render with label 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value=""
+      value="Placeholder"
     />
     <i
       aria-hidden={true}
       className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-11"
-    />
-  </div>
-</div>
-`;
-
-exports[`Select component should render with label 2`] = `
-<div
-  className="MuiFormControl-root NatDSFormControl-root-2"
->
-  <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-9 NatDSInputLabel-root-12 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
-    data-shrink={true}
-  >
-    Label
-  </label>
-  <div
-    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-    onClick={[Function]}
-    options={
-      Array [
-        "Option1",
-        "Option2",
-      ]
-    }
-  >
-    <div
-      aria-haspopup="listbox"
-      aria-labelledby="Select"
-      className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
-      id="Select"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onMouseDown={[Function]}
-      role="button"
-      tabIndex={0}
-    >
-      Placeholder
-    </div>
-    <input
-      aria-hidden={true}
-      className="MuiSelect-nativeInput"
-      onAnimationStart={[Function]}
-      onChange={[Function]}
-      placeholder="Placeholder"
-      required={false}
-      tabIndex={-1}
-      value=""
-    />
-    <i
-      aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-13"
     />
   </div>
 </div>
@@ -278,7 +302,13 @@ exports[`Select component should render with state error 1`] = `
       role="button"
       tabIndex={0}
     >
-      Placeholder
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&#8203;",
+          }
+        }
+      />
     </div>
     <input
       aria-hidden={true}
@@ -288,11 +318,11 @@ exports[`Select component should render with state error 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value=""
+      value="Placeholder"
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-16"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-14"
     />
   </div>
 </div>
@@ -326,7 +356,13 @@ exports[`Select component should render with state success 1`] = `
       role="button"
       tabIndex={0}
     >
-      Placeholder
+      <span
+        dangerouslySetInnerHTML={
+          Object {
+            "__html": "&#8203;",
+          }
+        }
+      />
     </div>
     <input
       aria-hidden={true}
@@ -336,57 +372,11 @@ exports[`Select component should render with state success 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value=""
+      value="Placeholder"
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-15"
-    />
-  </div>
-</div>
-`;
-
-exports[`Select component should renders correctly 1`] = `
-<div
-  className="MuiFormControl-root NatDSFormControl-root-2"
->
-  <div
-    className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
-    onClick={[Function]}
-    options={
-      Array [
-        "Option1",
-        "Option2",
-      ]
-    }
-  >
-    <div
-      aria-haspopup="listbox"
-      aria-labelledby="Select"
-      className="MuiSelect-root MuiSelect-select MuiSelect-selectMenu MuiInputBase-input MuiInput-input"
-      id="Select"
-      onBlur={[Function]}
-      onFocus={[Function]}
-      onKeyDown={[Function]}
-      onMouseDown={[Function]}
-      role="button"
-      tabIndex={0}
-    >
-      Placeholder
-    </div>
-    <input
-      aria-hidden={true}
-      className="MuiSelect-nativeInput"
-      onAnimationStart={[Function]}
-      onChange={[Function]}
-      placeholder="Placeholder"
-      required={false}
-      tabIndex={-1}
-      value=""
-    />
-    <i
-      aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-4"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-13"
     />
   </div>
 </div>
