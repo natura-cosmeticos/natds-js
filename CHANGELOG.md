@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.4.1](https://github.com/natura-cosmeticos/natds/compare/v1.4.0...v1.4.1) (2021-01-13)
+
+
+### Bug Fixes
+
+* **counter:** removes padding inside input ([a103dd4](https://github.com/natura-cosmeticos/natds/commit/a103dd4adb19f0f776fb07391de335c182d7bf11))
+
+
+
+
+
 # [1.4.0](https://github.com/natura-cosmeticos/natds/compare/v1.4.0-alpha.DSY-1728.13.0...v1.4.0) (2021-01-13)
 
 **Note:** Version bump only for package natds
