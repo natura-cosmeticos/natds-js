@@ -27,6 +27,7 @@ const style = (theme: IThemeWeb) => createStyles({
     },
     "& .MuiInput-input": {
       minHeight: getInputHeight,
+      padding: 0,
       "&::-webkit-inner-spin-button, &::-webkit-outer-spin-button": {
         WebkitAppearance: "none",
       },
