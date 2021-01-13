@@ -220,10 +220,7 @@ export const naturaLight: ITheme = {
           ),
         },
         "&$selected": {
-          backgroundColor: hexToRgba(
-            naturaLightColorTokens.colorSecondary,
-            0.16
-          ),
+          backgroundColor: hexToRgba(naturaLightColorTokens.colorPrimary, 0.16),
           "&:hover": {
             backgroundColor: hexToRgba(
               naturaLightColorTokens.colorOnSecondary,
@@ -356,39 +353,34 @@ export const naturaLight: ITheme = {
     },
     MuiInputBase: {
       root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        borderRadius: "4px",
+        boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
         color: naturaLightColorTokens.colorHighEmphasis,
-        "&.MuiInput-input": {
-          borderRadius: "4px",
-          "&:hover": {
-            borderRadius: "4px",
-          },
-          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-            boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`,
-          },
+        width: "100%",
+        "&[data-state='error']": {
+          boxShadow: `${naturaLightColorTokens.colorAlert} 0 0 0 1px`,
         },
-        "&.MuiError": {
-          boxShadow: `${naturaLightColorTokens.colorAlert} 0 0 0 2px`,
-          "&:hover": {
-            boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
-          },
-          "&.Mui-focused": {
-            boxShadow: `${naturaLightColorTokens.colorAlert} 0 0 0 2px`,
-          },
-        },
-        "&.MuiSuccess": {
+        "&[data-state='success']": {
           boxShadow: `${naturaLightColorTokens.colorSuccess} 0 0 0 1px`,
-          "&:hover": {
-            boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        },
+        "&:hover": {
+          boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+          "&.Mui-disabled": {
+            boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
           },
-          "&.Mui-focused": {
-            boxShadow: `${naturaLightColorTokens.colorSuccess} 0 0 0 1px`,
-          },
+        },
+        "&.Mui-focused": {
+          boxShadow: `${naturaLightColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${naturaLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
           "&:hover": {
             boxShadow: `${naturaLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
           },
+        },
+        "&.MuiInputBase-multiline": {
+          padding: sizes?.none,
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none",
@@ -402,15 +394,32 @@ export const naturaLight: ITheme = {
         "&.MuiInput-underline:after": {
           borderBottom: "none",
         },
-        "&:hover.Mui-disabled": {
-          boxShadow: `${naturaLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
-        },
-        padding: "12px",
+      },
+      adornedEnd: {
+        paddingRight: sizes.medium,
       },
       input: {
-        color: naturaLightColorTokens.colorHighEmphasis,
-        "&.Mui-disabled": {
+        "&.Mui-disabled:not(::placeholder)": {
           opacity: 0.24,
+        },
+        "&::placeholder": {
+          color: naturaLightColorTokens.colorMediumEmphasis,
+        },
+        "&.MuiInput-inputTypeSearch": {
+          paddingRight: sizes.large,
+        },
+        border: sizes?.none,
+        boxSizing: "border-box",
+        lineHeight: `${sizes?.standard}px`,
+        minHeight: sizes?.mediumX,
+        padding: sizes?.small,
+      },
+      inputMultiline: {
+        padding: sizes?.small,
+      },
+      inputTypeSearch: {
+        "&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration": {
+          display: "none",
         },
       },
     },
@@ -453,6 +462,10 @@ export const naturaLight: ITheme = {
         "&.Mui-disabled": {
           color: naturaLightColorTokens.colorLowEmphasis,
         },
+      },
+      icon: {
+        top: sizes.micro,
+        color: naturaLightColorTokens.colorHighEmphasis,
       },
     },
     MuiButtonGroup: {

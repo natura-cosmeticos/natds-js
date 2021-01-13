@@ -20,12 +20,13 @@ const style = (theme: IThemeWeb) => createStyles({
   input: {
     textAlign: "center",
     width: `${sizes.semiX}px`,
-    "& .MuiInput-input": {
-      padding: 0,
+    "& .MuiInput-root": {
       borderRadius: 0,
-      margin: 1,
+      marginTop: 1,
+      padding: 0,
+    },
+    "& .MuiInput-input": {
       minHeight: getInputHeight,
-      fontSize: theme.typography.body1?.fontSize,
       "&::-webkit-inner-spin-button, &::-webkit-outer-spin-button": {
         WebkitAppearance: "none",
       },
@@ -33,6 +34,6 @@ const style = (theme: IThemeWeb) => createStyles({
   },
 });
 
-export const useStyles = makeStyles(style, { name: "NatDSCounter" });
+export const useStyles = makeStyles(style, { name: 'NatDSCounter' });
 
 export default useStyles;

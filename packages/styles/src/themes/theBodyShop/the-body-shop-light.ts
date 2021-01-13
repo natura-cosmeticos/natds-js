@@ -22,7 +22,6 @@ import { opacity as legacyOpacity } from "../../tokens/opacity";
 
 const {
   colorTokens: {
-
     /**
      * @deprecated `theBodyShopLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
      * Please use `theme.theBodyShop.light.color` from `natds-themes`.
@@ -51,7 +50,6 @@ export const theBodyShopLight: ITheme = {
   spacing: spacing.spacing,
   palette: {
     action: {
-
       /**
        * @since 0.24
        */
@@ -225,18 +223,18 @@ export const theBodyShopLight: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             theBodyShopLightColorTokens.colorOnSurface,
-            0.04,
+            0.04
           ),
         },
         "&$selected": {
           backgroundColor: hexToRgba(
-            theBodyShopLightColorTokens.colorSecondary,
-            0.16,
+            theBodyShopLightColorTokens.colorPrimary,
+            0.16
           ),
           "&:hover": {
             backgroundColor: hexToRgba(
               theBodyShopLightColorTokens.colorHighlight,
-              0.04,
+              0.04
             ),
           },
           "&:focus": {
@@ -256,7 +254,7 @@ export const theBodyShopLight: ITheme = {
         "&:hover": {
           backgroundColor: hexToRgba(
             theBodyShopLightColorTokens.colorHighlight,
-            0.04,
+            0.04
           ),
         },
       },
@@ -287,14 +285,14 @@ export const theBodyShopLight: ITheme = {
       root: {
         backgroundColor: hexToRgba(
           theBodyShopLightColorTokens.colorHighlight,
-          0.12,
+          0.12
         ),
         color: theBodyShopLightColorTokens.colorHighEmphasis,
         fontSize: fontSize.subtitle2.fontSize,
         "& $avatar": {
           backgroundColor: hexToRgba(
             theBodyShopLightColorTokens.colorHighlight,
-            0.24,
+            0.24
           ),
           color: theBodyShopLightColorTokens.colorHighEmphasis,
         },
@@ -315,7 +313,7 @@ export const theBodyShopLight: ITheme = {
       outlined: {
         borderColor: hexToRgba(
           theBodyShopLightColorTokens.colorHighlight,
-          0.12,
+          0.12
         ),
         color: theBodyShopLightColorTokens.colorHighlight,
       },
@@ -368,39 +366,34 @@ export const theBodyShopLight: ITheme = {
     },
     MuiInputBase: {
       root: {
+        fontSize: fontSize.subtitle2.fontSize,
+        borderRadius: "4px",
+        boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
         color: theBodyShopLightColorTokens.colorHighEmphasis,
-        "&.MuiInput-input": {
-          borderRadius: "4px",
-          "&:hover": {
-            borderRadius: "4px",
-          },
-          "&.Mui-focused:not(.MuiError):not(.MuiSuccess)": {
-            boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`,
-          },
+        width: "100%",
+        "&[data-state='error']": {
+          boxShadow: `${theBodyShopLightColorTokens.colorAlert} 0 0 0 1px`,
         },
-        "&.MuiError": {
-          boxShadow: `${theBodyShopLightColorTokens.colorAlert} 0 0 0 2px`,
-          "&:hover": {
-            boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
-          },
-          "&.Mui-focused": {
-            boxShadow: `${theBodyShopLightColorTokens.colorAlert} 0 0 0 2px`,
-          },
-        },
-        "&.MuiSuccess": {
+        "&[data-state='success']": {
           boxShadow: `${theBodyShopLightColorTokens.colorSuccess} 0 0 0 1px`,
-          "&:hover": {
-            boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+        },
+        "&:hover": {
+          boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
+          "&.Mui-disabled": {
+            boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
           },
-          "&.Mui-focused": {
-            boxShadow: `${theBodyShopLightColorTokens.colorSuccess} 0 0 0 1px`,
-          },
+        },
+        "&.Mui-focused": {
+          boxShadow: `${theBodyShopLightColorTokens.colorPrimary} 0 0 0 2px`,
         },
         "&.MuiFilled:not(.Mui-focused)": {
           boxShadow: `${theBodyShopLightColorTokens.colorHighEmphasis} 0 0 0 1px`,
           "&:hover": {
             boxShadow: `${theBodyShopLightColorTokens.colorMediumEmphasis} 0 0 0 1px`,
           },
+        },
+        "&.MuiInputBase-multiline": {
+          padding: sizes?.none,
         },
         "&.MuiInput-underline:before": {
           borderBottom: "none",
@@ -414,15 +407,32 @@ export const theBodyShopLight: ITheme = {
         "&.MuiInput-underline:after": {
           borderBottom: "none",
         },
-        "&:hover.Mui-disabled": {
-          boxShadow: `${theBodyShopLightColorTokens.colorLowEmphasis} 0 0 0 1px`,
-        },
-        padding: "12px",
+      },
+      adornedEnd: {
+        paddingRight: sizes.medium,
       },
       input: {
-        color: theBodyShopLightColorTokens.colorHighEmphasis,
-        "&.Mui-disabled": {
+        "&.Mui-disabled:not(::placeholder)": {
           opacity: 0.24,
+        },
+        "&::placeholder": {
+          color: theBodyShopLightColorTokens.colorMediumEmphasis,
+        },
+        "&.MuiInput-inputTypeSearch": {
+          paddingRight: sizes.large,
+        },
+        border: sizes?.none,
+        boxSizing: "border-box",
+        lineHeight: `${sizes?.standard}px`,
+        minHeight: sizes?.mediumX,
+        padding: sizes?.small,
+      },
+      inputMultiline: {
+        padding: sizes?.small,
+      },
+      inputTypeSearch: {
+        "&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration": {
+          display: "none",
         },
       },
     },
@@ -465,6 +475,10 @@ export const theBodyShopLight: ITheme = {
         "&.Mui-disabled": {
           color: theBodyShopLightColorTokens.colorLowEmphasis,
         },
+      },
+      icon: {
+        top: sizes.micro,
+        color: theBodyShopLightColorTokens.colorHighEmphasis,
       },
     },
     MuiButtonGroup: {
@@ -535,7 +549,7 @@ export const theBodyShopLight: ITheme = {
         color: theBodyShopLightColorTokens.colorHighEmphasis,
         backgroundColor: hexToRgba(
           theBodyShopLightColorTokens.colorSuccess,
-          0.16,
+          0.16
         ),
       },
       outlinedSuccess: {
@@ -543,7 +557,10 @@ export const theBodyShopLight: ITheme = {
       },
       standardError: {
         color: theBodyShopLightColorTokens.colorHighEmphasis,
-        backgroundColor: hexToRgba(theBodyShopLightColorTokens.colorAlert, 0.16),
+        backgroundColor: hexToRgba(
+          theBodyShopLightColorTokens.colorAlert,
+          0.16
+        ),
       },
       outlinedError: {
         color: theBodyShopLightColorTokens.colorHighEmphasis,
@@ -552,7 +569,7 @@ export const theBodyShopLight: ITheme = {
         color: theBodyShopLightColorTokens.colorHighEmphasis,
         backgroundColor: hexToRgba(
           theBodyShopLightColorTokens.colorWarning,
-          0.16,
+          0.16
         ),
         "& .MuiAlert-icon": {
           color: theBodyShopLightColorTokens.colorWarning,
