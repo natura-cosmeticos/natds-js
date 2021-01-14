@@ -39,6 +39,7 @@ export const avonLight: ITheme = {
   },
   avatarSizes,
   buttonSizes,
+  color,
   iconSizes,
 
   /**

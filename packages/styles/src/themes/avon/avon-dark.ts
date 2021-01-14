@@ -40,6 +40,7 @@ export const avonDark: ITheme = {
   sizes,
   avatarSizes,
   buttonSizes,
+  color,
   iconSizes,
 
   /**

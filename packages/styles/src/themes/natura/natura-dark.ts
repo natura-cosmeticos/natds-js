@@ -40,6 +40,7 @@ export const naturaDark: ITheme = {
   sizes,
   avatarSizes,
   buttonSizes,
+  color,
   iconSizes,
 
   /**
