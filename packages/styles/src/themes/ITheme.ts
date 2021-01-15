@@ -6,6 +6,7 @@ import {
   IIconSizes, IOpacity,
   ISizes,
 } from "..";
+import { Color } from "@naturacosmeticos/natds-themes";
 
 type ITypography = {
   fontFamily?: string;
@@ -107,6 +108,7 @@ export interface ITheme {
   iconSizes: IIconSizes;
   buttonSizes: IButtonSizes;
   spacing: number;
+  color: Color;
   shadows: IElevation;
 
   /**

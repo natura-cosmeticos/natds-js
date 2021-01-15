@@ -36,6 +36,7 @@ export const naturaLight: ITheme = {
   },
   avatarSizes,
   buttonSizes,
+  color,
   iconSizes,
 
   /**

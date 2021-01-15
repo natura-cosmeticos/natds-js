@@ -40,6 +40,7 @@ export const theBodyShopDark: ITheme = {
   sizes,
   avatarSizes,
   buttonSizes,
+  color,
   iconSizes,
 
   /**
