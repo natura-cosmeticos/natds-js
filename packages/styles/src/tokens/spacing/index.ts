@@ -1,19 +1,3 @@
-/* eslint-disable sort-keys */
-import { ISpacing } from "./ISpacing";
-import { sizes } from "../sizes";
+import themes from "@naturacosmeticos/natds-themes";
 
-export const spacing: ISpacing = {
-  spacing: sizes.tiny,
-  spacingNone: sizes.none,
-  spacingMicro: sizes.micro,
-  spacingTiny: sizes.tiny,
-  spacingSmall: sizes.small,
-  spacingStandard: sizes.standard,
-  spacingSemi: sizes.semi,
-  spacingLarge: sizes.medium,
-  spacingHuge: sizes.large,
-  spacingHugeX: sizes.hugeX,
-  spacingHugeXX: sizes.hugeXX,
-  spacingHugeXXX: sizes.hugeXXX,
-  spacingVeryHuge: sizes.veryHuge,
-};
+export const { spacing } = themes.natura.light;

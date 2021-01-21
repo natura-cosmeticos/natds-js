@@ -1,3 +1,5 @@
+import { ISpacing } from "tokens/spacing/ISpacing";
+import { Color } from "@naturacosmeticos/natds-themes";
 import { fontSize } from "../tokens/fontSize";
 import {
   IAvatarSizes,
@@ -6,7 +8,6 @@ import {
   IIconSizes, IOpacity,
   ISizes,
 } from "..";
-import { Color } from "@naturacosmeticos/natds-themes";
 
 type ITypography = {
   fontFamily?: string;
@@ -107,7 +108,7 @@ export interface ITheme {
   avatarSizes: IAvatarSizes;
   iconSizes: IIconSizes;
   buttonSizes: IButtonSizes;
-  spacing: number;
+  spacing: ISpacing;
   color: Color;
   shadows: IElevation;
 

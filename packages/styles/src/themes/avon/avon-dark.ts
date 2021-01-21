@@ -48,7 +48,7 @@ export const avonDark: ITheme = {
    * @todo Adopt opacity tokens from theme
    */
   opacity: legacyOpacity,
-  spacing: spacing.spacing,
+  spacing,
   palette: {
     action: {
       /**
@@ -449,7 +449,7 @@ export const avonDark: ITheme = {
         right: "0",
       },
       positionEnd: {
-        marginRight: spacing.spacingTiny,
+        marginRight: spacing.tiny,
       },
     },
     MuiInputLabel: {
@@ -552,11 +552,11 @@ export const avonDark: ITheme = {
     MuiAlert: {
       root: {
         width: 278,
-        padding: spacing.spacingSmall,
+        padding: spacing.small,
         ...fontSize.body1,
       },
       icon: {
-        marginRight: spacing.spacingTiny,
+        marginRight: spacing.tiny,
       },
       message: {
         padding: "5px 0",
@@ -618,7 +618,7 @@ export const avonDark: ITheme = {
     },
     MuiTableSortLabel: {
       icon: {
-        marginLeft: spacing.spacing,
+        marginLeft: spacing.tiny,
       },
     },
   },
