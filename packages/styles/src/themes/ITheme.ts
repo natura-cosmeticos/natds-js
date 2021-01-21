@@ -1,12 +1,13 @@
-import { ISpacing } from "tokens/spacing/ISpacing";
 import { Color } from "@naturacosmeticos/natds-themes";
 import { fontSize } from "../tokens/fontSize";
 import {
   IAvatarSizes,
   IButtonSizes,
   IElevation,
-  IIconSizes, IOpacity,
+  IIconSizes,
+  IOpacity,
   ISizes,
+  ISpacing,
 } from "..";
 
 type ITypography = {

@@ -55,7 +55,7 @@ export const Table = React.forwardRef<HTMLTableElement, ITableProps>(
           borderTop: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
           fontSize: tokens.fontSize.subtitle2.fontSize,
           fontWeight: tokens.fontSize.subtitle2.fontWeight,
-          padding: `${tokens.spacing.spacingStandard}px`,
+          padding: `${tokens.spacing.standard}px`,
         },
         "& th:first-child": {
           borderLeft: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
@@ -65,7 +65,7 @@ export const Table = React.forwardRef<HTMLTableElement, ITableProps>(
           borderRight: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
           fontSize: tokens.fontSize.body2.fontSize,
           fontWeight: tokens.fontSize.body2.fontWeight,
-          padding: `${tokens.spacing.spacingStandard}px`,
+          padding: `${tokens.spacing.standard}px`,
         },
         "& td:first-child": {
           borderLeft: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
