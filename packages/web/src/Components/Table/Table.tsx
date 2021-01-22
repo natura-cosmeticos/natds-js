@@ -45,7 +45,7 @@ export const Table = React.forwardRef<HTMLTableElement, ITableProps>(
       root: {
         border: dividers ? "none" : `1px solid ${theme.palette?.text?.hint}`,
         borderCollapse: "separate",
-        borderRadius: !dividers && rounded ? `${tokens.sizes.micro}` : `${theme.sizes.none}`,
+        borderRadius: !dividers && rounded ? `${tokens.sizes.micro}` : `${theme.sizes?.none}`,
         backgroundColor: theme.palette?.background?.paper,
         color: theme.palette?.text?.primary,
         "& thead > tr > th ": {
