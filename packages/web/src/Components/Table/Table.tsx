@@ -35,7 +35,7 @@ export const Table = React.forwardRef<HTMLTableElement, ITableProps>(
     const rgbAlpha = 0.04;
 
     // eslint-disable-next-line @typescript-eslint/no-explicit-any
-    const theme: any = useDefaultTheme();
+    const theme = useDefaultTheme();
 
     /**
      * @todo refactor(web): move Table styles to `natds-styles`, consider `dividers` prop
@@ -43,41 +43,41 @@ export const Table = React.forwardRef<HTMLTableElement, ITableProps>(
 
     const useStyles = React.useMemo(() => makeStyles({
       root: {
-        border: dividers ? "none" : `1px solid ${theme.palette.text.hint}`,
+        border: dividers ? "none" : `1px solid ${theme.palette?.text?.hint}`,
         borderCollapse: "separate",
         borderRadius: !dividers && rounded ? `${tokens.sizes.micro}` : `${theme.sizes.none}`,
-        backgroundColor: theme.palette.background.paper,
-        color: theme.palette.text.primary,
+        backgroundColor: theme.palette?.background?.paper,
+        color: theme.palette?.text?.primary,
         "& thead > tr > th ": {
-          backgroundColor: theme.palette.background.paper,
-          borderBottom: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
-          borderRight: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
-          borderTop: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+          backgroundColor: theme.palette?.background?.paper,
+          borderBottom: dividers ? `1px solid ${theme.palette?.text?.hint}` : `${tokens.sizes.none}`,
+          borderRight: dividers ? `1px solid ${theme.palette?.text?.hint}` : `${tokens.sizes.none}`,
+          borderTop: dividers ? `1px solid ${theme.palette?.text?.hint}` : `${tokens.sizes.none}`,
           fontSize: tokens.fontSize.subtitle2.fontSize,
           fontWeight: tokens.fontSize.subtitle2.fontWeight,
           padding: `${tokens.spacing.standard}px`,
         },
         "& th:first-child": {
-          borderLeft: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+          borderLeft: dividers ? `1px solid ${theme.palette?.text?.hint}` : `${tokens.sizes.none}`,
         },
         "& td": {
-          borderBottom: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
-          borderRight: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+          borderBottom: dividers ? `1px solid ${theme.palette?.text?.hint}` : `${tokens.sizes.none}`,
+          borderRight: dividers ? `1px solid ${theme.palette?.text?.hint}` : `${tokens.sizes.none}`,
           fontSize: tokens.fontSize.body2.fontSize,
           fontWeight: tokens.fontSize.body2.fontWeight,
           padding: `${tokens.spacing.standard}px`,
         },
         "& td:first-child": {
-          borderLeft: dividers ? `1px solid ${theme.palette.text.hint}` : `${tokens.sizes.none}`,
+          borderLeft: dividers ? `1px solid ${theme.palette?.text?.hint}` : `${tokens.sizes.none}`,
         },
         "& tr": {
-          backgroundColor: theme.palette.background.default,
+          backgroundColor: theme.palette?.background?.default,
           "&:nth-of-type(even)": {
 
             /**
              * @todo replace with solid color
              */
-            backgroundColor: striped ? `${hexToRgba(theme.palette.complementary.highlight, rgbAlpha)}` : theme.palette.background.default,
+            backgroundColor: striped ? `${hexToRgba(theme.palette?.complementary?.highlight || "", rgbAlpha)}` : theme.palette?.background?.default,
           },
         },
         "& thead > tr:first-child": {
