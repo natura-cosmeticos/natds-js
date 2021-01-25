@@ -99,6 +99,20 @@ This package only works fine with the use of `<Provider />`, that is **essential
 
 Please do not try to override theme palette or another tokens. Our Design System themes are ready to use.
 
+### Styling
+
+```js
+import { createStyles, makeStyles, IThemeWeb } from "@naturacosmeticos/natds-web";
+
+export const useStyles = makeStyles((theme: IThemeWeb) =>
+  createStyles({
+    backgroundIcon: {
+      backgroundColor: theme.color.onPrimary,
+    }
+  )}
+)
+```
+
 ## Additional information
 
 ### Requirements
