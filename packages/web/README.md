@@ -63,10 +63,10 @@ webpack.config.js
 module.exports = {
   module: {
     loaders: [
-      { test: /\.css$/, loader: "style-loader!css-loader" },
+      { test: /\.css$/, loader: 'style-loader!css-loader' },
       // ...
-    ]
-  }
+    ],
+  },
 };
 ```
 
@@ -77,22 +77,27 @@ Here is a quick example to get you started:
 Note that we enclose all your application in a `Provider` component.
 
 ```jsx
-import React from 'react'
-import { createGenerateClassName } from "@material-ui/core/styles";
-import { Button, CssBaseline, Provider, themes } from "@naturacosmeticos/natds-web";
+import React from 'react';
+import { createGenerateClassName } from '@material-ui/core/styles';
+import {
+  Button,
+  CssBaseline,
+  Provider,
+  themes,
+} from '@naturacosmeticos/natds-web';
 
 const generateClassName = createGenerateClassName({
-    productionPrefix: props.cssPrefix || "natds",
+  productionPrefix: props.cssPrefix || 'natds',
 });
 
 export const App = () => (
   <Provider theme={themes.natura.light} generateClassName={generateClassName}>
     <CssBaseline />
-    <Button color={"primary"} variant={"contained"}>
+    <Button color={'primary'} variant={'contained'}>
       Hello World
     </Button>
   </Provider>
-)
+);
 ```
 
 This package only works fine with the use of `<Provider />`, that is **essential** for applying styles correctly. And to avoid problems with multiple style fonts, it is necessary to add a `cssPrefix` with theme provider.
@@ -100,6 +105,14 @@ This package only works fine with the use of `<Provider />`, that is **essential
 Please do not try to override theme palette or another tokens. Our Design System themes are ready to use.
 
 ### Styling
+
+You can access the Theme objects via some hooks.
+
+#### makeStyles
+
+If you want to create a custom stylesheet based on the Theme, use makeStyles:
+
+> Read more about makeStyles [here](https://material-ui.com/styles/api/#makestyles-styles-options-hook)
 
 ```js
 import { createStyles, makeStyles, IThemeWeb } from "@naturacosmeticos/natds-web";
@@ -111,6 +124,43 @@ export const useStyles = makeStyles((theme: IThemeWeb) =>
     }
   )}
 )
+```
+
+#### getDefaultTheme
+
+If you to access Theme properties, use `getDefaultTheme()`
+> Read more [here](https://material-ui.com/styles/api/#usetheme-theme)
+
+```js
+import React from 'react';
+import {
+  Button,
+  Paper,
+  TextField,
+  Spacing,
+  useDefaultTheme,
+} from '@naturacosmeticos/natds-web';
+
+export const App = () => {
+  const theme = useDefaultTheme();
+
+  return (
+    <Paper component="form">
+      <h1 style={{ color: theme.color.primary }}>Login</h1>
+      <Spacing padding="small">
+        <TextField
+          helpText={'Informe um e-mail válido da Natura'}
+          label={'E-mail'}
+          required={true}
+          type={'email'}
+        />
+        <Button color={'primary'} type={'submit'} variant={'contained'}>
+          Entrar
+        </Button>
+      </Spacing>
+    </Paper>
+  );
+};
 ```
 
 ## Additional information
@@ -144,9 +194,9 @@ https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web
 
 ```html
 <script
-    crossorigin="anonymous"
-    src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web">
-</script>
+  crossorigin="anonymous"
+  src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web"
+></script>
 ```
 
 For more info and examples, check our [CDN documentation](./docs/using-cdn.md).
