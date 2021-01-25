@@ -1,22 +1,22 @@
 import { isEqual } from "lodash";
-import { ThemeOptions, createMuiTheme, Theme } from "@material-ui/core/styles";
+import { ThemeOptions, createMuiTheme } from "@material-ui/core/styles";
 import useTheme from "@material-ui/core/styles/useTheme";
 import { IThemeWeb, themes } from "../../Themes";
 
-export const getDefaultTheme : (providerTheme: IThemeWeb | unknown) => Theme = (providerTheme) => {
+export const getDefaultTheme = (providerTheme : IThemeWeb) => {
   const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme)),
     parsedDefaultTheme = JSON.parse(JSON.stringify(createMuiTheme({})));
 
   if (isEqual(parsedProviderTheme, parsedDefaultTheme)) {
-    return createMuiTheme(themes.natura.light as ThemeOptions);
+    return createMuiTheme(themes.natura.light as ThemeOptions) as unknown as IThemeWeb;
   }
 
-  return providerTheme as Theme;
+  return providerTheme;
 
 };
 
-export const useDefaultTheme: () => Theme = () => {
-  const providerTheme = useTheme();
+export const useDefaultTheme = () => {
+  const providerTheme = useTheme() as IThemeWeb;
 
   return getDefaultTheme(providerTheme);
 };
