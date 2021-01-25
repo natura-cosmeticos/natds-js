@@ -1,15 +1,16 @@
 import { IFont, ITheme } from "@naturacosmeticos/natds-styles";
 import { Shadows as IShadows } from "@material-ui/core/styles/shadows";
+import { Spacing } from "@material-ui/core/styles/createSpacing";
 
 export interface IThemeWeb
   extends Pick<ITheme,
     | "avatarSizes"
     | "iconSizes"
     | "opacity"
+    | "color"
     | "palette"
     | "shape"
     | "sizes"
-    | "spacing"
     > {
   shadows?: IShadows;
   typography: {
@@ -37,4 +38,5 @@ export interface IThemeWeb
     subtitle1?: IFont;
     subtitle2?: IFont;
   };
+  spacing: Spacing;
 }
