@@ -1,17 +1,26 @@
 import { themes as styleThemes } from "@naturacosmeticos/natds-styles";
 import { IThemesWeb } from "./IThemesWeb";
-import { ThemeBrandName } from "./ThemeBrandName";
-import { parseTheme } from "./parseTheme";
-import { createThemesObject } from "./createThemesObject";
+import parseShadows from "./parseShadows";
 
-export const themes = Object.keys(styleThemes).reduce((value: IThemesWeb<ThemeBrandName>, key: string) => {
+type BrandName = keyof typeof styleThemes;
 
-  const result = value;
+// eslint-disable-next-line max-lines-per-function
+export const themes = Object.keys(styleThemes).reduce((acc, value) => {
+  const brand = styleThemes[value as BrandName];
 
-  result[key as ThemeBrandName].dark = parseTheme(styleThemes[key as ThemeBrandName].dark);
-  result[key as ThemeBrandName].light = parseTheme(styleThemes[key as ThemeBrandName].light);
-
-  return result;
-}, createThemesObject());
+  return {
+    ...acc,
+    [value]: {
+      light: {
+        ...brand.light,
+        shadows: parseShadows(brand.light.shadows),
+      },
+      dark: {
+        ...brand.dark,
+        shadows: parseShadows(brand.dark.shadows),
+      },
+    },
+  };
+}, {} as IThemesWeb<BrandName>);
 
 export default themes;

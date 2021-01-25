@@ -33,6 +33,7 @@ module.exports = {
     "!src/Components/Popover/Popover.tsx",
     "!src/Components/SnackbarContent/SnackbarContent.styles.ts",
     "!src/Components/ToggleButton/ToggleButton.tsx",
+    "!src/Components/Table/Table.tsx",
     "!src/hooks/**/*.ts",
   ],
   displayName,

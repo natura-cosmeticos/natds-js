@@ -2,7 +2,7 @@ import { IFont, ITheme } from "@naturacosmeticos/natds-styles";
 import { Shadows as IShadows } from "@material-ui/core/styles/shadows";
 import { Spacing } from "@material-ui/core/styles/createSpacing";
 
-export interface IThemeWeb
+export interface IThemeOptions
   extends Pick<ITheme,
     | "avatarSizes"
     | "iconSizes"
@@ -10,6 +10,7 @@ export interface IThemeWeb
     | "color"
     | "palette"
     | "shape"
+    | "spacing"
     | "sizes"
     > {
   shadows?: IShadows;
@@ -38,5 +39,6 @@ export interface IThemeWeb
     subtitle1?: IFont;
     subtitle2?: IFont;
   };
-  spacing: Spacing;
 }
+
+export type IThemeWeb = Omit<IThemeOptions, "spacing"> & { spacing: Spacing }
