@@ -1,4 +1,5 @@
 #!/bin/bash
+set -e
 
 BRANCH_NAME=$(bash ./.cicd/get-branch-name.sh)
 

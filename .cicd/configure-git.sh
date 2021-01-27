@@ -3,6 +3,10 @@ set -e
 
 printenv
 
+echo "commit message"
+
+git log -1 --pretty=%B
+
 git remote rm origin
 
 # This remote is using a contributor account and an OAuth key from GitHub
