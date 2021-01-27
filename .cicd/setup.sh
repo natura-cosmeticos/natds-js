@@ -1,7 +1,9 @@
 #!/bin/bash
 set -e
 
-bash .cicd/configure-git.sh
+if [ -z $(./.cicd/skip-commit.sh) ]; then
+  bash .cicd/configure-git.sh
 
-yarn install
-yarn build
+  yarn install
+  yarn build
+fi

@@ -1,7 +1,9 @@
 #!/bin/bash
 set -e
 
-echo "Quality Check"
+if [ -z $(./.cicd/skip-commit.sh) ]; then
+  echo "Quality Check"
 
-yarn lint
-yarn test:ci
+  yarn lint
+  yarn test:ci
+fi
