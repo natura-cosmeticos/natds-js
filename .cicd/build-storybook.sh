@@ -1,13 +1,13 @@
 #!/bin/bash
 set -e
 
+BRANCH_NAME=$(bash ./.cicd/get-branch-name.sh)
+FOLDER_NAME=${BRANCH_NAME//[\/]/-}
+OUTPUT_PATH=build
+
+mkdir -p build
+
 if [ -z $(./.cicd/skip-commit.sh) ]; then
-  BRANCH_NAME=$(bash ./.cicd/get-branch-name.sh)
-  FOLDER_NAME=${BRANCH_NAME//[\/]/-}
-  OUTPUT_PATH=build
-
-  mkdir -p build
-
   echo "Verifying $1"
 
   if [ -z $1 ]; then
