@@ -50,7 +50,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist --strict",
     "build": "lerna run build",
-    "build:storybook": "lerna run build-storybook --stream",
+    "build:storybook": "lerna run build-storybook-ci",
     "build:styleguide": "styleguidist build",
     "clean": "lerna clean",
     "cm": "git cz",
