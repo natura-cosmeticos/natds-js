@@ -54,7 +54,7 @@
     "start": "yarn build --watch",
     "test": "jest --verbose --silent",
     "test:coverage": "jest --coverage --silent",
-    "test:ci": "yarn test:coverage && codecov",
+    "test:ci": "yarn test:coverage",
     "test:output": "yarn test:coverage --json --outputFile=.jest-test-results.json || true",
     "test:watch": "yarn test --watch"
   },
