@@ -1,6 +1,7 @@
 /* eslint-disable */
 
 const glob = require("glob");
+const path = require("path");
 const docGen = require("react-docgen-typescript");
 
 const excludePatterns = [
@@ -18,6 +19,8 @@ const excludePatterns = [
   "getColorProp.ts",
   "Skeleton",
   "CssBaseline",
+  "constants.ts",
+  "getVariantForMaterial.ts"
 ];
 
 const getComponents = () => glob
@@ -34,7 +37,6 @@ const propsParser = docGen.withDefaultConfig({
 }).parse;
 
 module.exports = {
-
   propsParser,
   usageMode: "expand",
   exampleMode: "hide",
@@ -71,17 +73,17 @@ module.exports = {
   ],
   webpackConfig: {
     resolve: {
-      extensions: [".ts", ".tsx", ".js", ".json"],
+      extensions: [".tsx", ".ts"],
     },
     module: {
       rules: [
         {
           test: /\.tsx?$/,
+          include: path.resolve(__dirname, 'packages/web/src'),
           loader: "ts-loader",
-        },
-        {
-          test: /\.css$/,
-          use: ["style-loader", "css-loader"],
+          options: {
+            transpileOnly: true
+          }
         },
       ],
     },
