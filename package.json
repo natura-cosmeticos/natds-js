@@ -50,7 +50,7 @@
   "scripts": {
     "bootstrap": "lerna bootstrap --hoist --strict",
     "build": "lerna run build",
-    "build:storybook": "lerna run build-storybook --stream",
+    "build:storybook": "lerna run build-storybook-ci",
     "build:styleguide": "styleguidist build",
     "clean": "lerna clean",
     "cm": "git cz",
@@ -74,8 +74,8 @@
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "stryker:run": "stryker run",
-    "test": "yarn build && jest && lerna run test --stream",
-    "test:ci": "lerna run test:ci --stream",
+    "test": "yarn build && lerna run test --stream",
+    "test:ci": "lerna run test:ci -- --runInBand",
     "version": "echo $npm_package_version",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\""
   },

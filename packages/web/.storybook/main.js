@@ -60,7 +60,7 @@ module.exports = {
     ...utilitiesStories,
   ],
   typescript: {
-    check: true,
+    check: false,
     checkOptions: {},
     reactDocgen: "react-docgen-typescript",
     reactDocgenTypescriptOptions: {
