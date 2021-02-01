@@ -1,9 +1,8 @@
-import { Meta, Story } from "@storybook/react";
 import * as React from "react";
+import { Meta, Story } from "@storybook/react";
 import { createStyles, makeStyles } from "@material-ui/core/styles";
-import { Divider } from "./Divider";
+import { Divider as component } from "./Divider";
 import { IDividerProps } from "./Divider.props";
-import { variants } from "./__fixtures__/variants";
 import { Container } from "../Container";
 import { FluidWithSmMaxSize } from "../Container/Container.stories";
 import { Spacing } from "../Spacing";
@@ -13,8 +12,10 @@ import { SemiXMarginY } from "../Spacing/Spacing.margin.stories";
 import { SemiPaddingTop } from "../Spacing/Spacing.padding.stories";
 import { ForFullWidthSubheader, ForInsetSubheader } from "../Spacing/Spacing.stories";
 
+const Divider:React.ForwardRefExoticComponent<IDividerProps> = React.lazy(() => import("../Divider"));
+
 export default {
-  component: Divider,
+  component,
   title: "Components/Divider",
 } as Meta;
 
@@ -52,27 +53,27 @@ const TemplateForSubheader : Story<IDividerProps> = (args: IDividerProps) => (
 
 export const Playground : Story<IDividerProps> = Template.bind({});
 Playground.args = {
-  variant: variants.fullWidth,
+  variant: "fullWidth",
 };
 
 export const FullWidthVariant : Story<IDividerProps> = Template.bind({});
 FullWidthVariant.args = {
-  variant: variants.fullWidth,
+  variant: "fullWidth",
 };
 
 export const InsetVariant : Story<IDividerProps> = Template.bind({});
 InsetVariant.args = {
-  variant: variants.inset,
+  variant: "inset",
 };
 
 export const MiddleVariant : Story<IDividerProps> = Template.bind({});
 MiddleVariant.args = {
-  variant: variants.middle,
+  variant: "middle",
 };
 
 export const FullWidthWithSubheaderExample : Story<IDividerProps> = TemplateForSubheader.bind({});
 FullWidthWithSubheaderExample.args = {
-  variant: variants.fullWidth,
+  variant: "fullWidth",
 };
 FullWidthWithSubheaderExample.parameters = {
   docs: {
@@ -84,7 +85,7 @@ FullWidthWithSubheaderExample.parameters = {
 
 export const InsetWithSubheaderExample : Story<IDividerProps> = TemplateForSubheader.bind({});
 InsetWithSubheaderExample.args = {
-  variant: variants.inset,
+  variant: "inset",
 };
 InsetWithSubheaderExample.parameters = {
   docs: {
@@ -96,7 +97,7 @@ InsetWithSubheaderExample.parameters = {
 
 export const MiddleWithSubheaderExample : Story<IDividerProps> = TemplateForSubheader.bind({});
 MiddleWithSubheaderExample.args = {
-  variant: variants.middle,
+  variant: "middle",
 };
 MiddleWithSubheaderExample.parameters = {
   docs: {
