@@ -70,39 +70,3 @@ export const MiddleVariant : Story<IDividerProps> = Template.bind({});
 MiddleVariant.args = {
   variant: "middle",
 };
-
-export const FullWidthWithSubheaderExample : Story<IDividerProps> = TemplateForSubheader.bind({});
-FullWidthWithSubheaderExample.args = {
-  variant: "fullWidth",
-};
-FullWidthWithSubheaderExample.parameters = {
-  docs: {
-    description: {
-      story: "Subheader is being applied with `Typography`.",
-    },
-  },
-};
-
-export const InsetWithSubheaderExample : Story<IDividerProps> = TemplateForSubheader.bind({});
-InsetWithSubheaderExample.args = {
-  variant: "inset",
-};
-InsetWithSubheaderExample.parameters = {
-  docs: {
-    description: {
-      story: "Subheader is being applied with `Typography`.",
-    },
-  },
-};
-
-export const MiddleWithSubheaderExample : Story<IDividerProps> = TemplateForSubheader.bind({});
-MiddleWithSubheaderExample.args = {
-  variant: "middle",
-};
-MiddleWithSubheaderExample.parameters = {
-  docs: {
-    description: {
-      story: "Subheader is being applied with `Typography`.",
-    },
-  },
-};

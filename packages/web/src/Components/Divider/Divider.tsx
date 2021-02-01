@@ -3,15 +3,13 @@ import MaterialDivider from "@material-ui/core/Divider";
 import { IDividerProps } from "./Divider.props";
 
 /**
- *
  * ```
  * import { Divider } from "@naturacosmeticos/natds-web";
  * ```
- *
  */
 export const Divider = React.forwardRef<HTMLHRElement, IDividerProps>(
-  (props: IDividerProps, ref) => (
-    <MaterialDivider {...props} ref={ref} />
+  ({ variant = "fullWidth" }: IDividerProps, ref) => (
+    <MaterialDivider ref={ref} variant={variant} />
   ),
 );
 
