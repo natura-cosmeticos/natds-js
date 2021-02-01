@@ -61,7 +61,7 @@ export const theBodyShopLight: ITheme = {
     /**
      * @since 0.24
      */
-    divider: hexToRgba(color.highlight, opacity.low),
+    divider: theBodyShopLightColorTokens.colorLowEmphasis,
     primary: {
       main: theBodyShopLightColorTokens.colorPrimary,
       light: theBodyShopLightColorTokens.colorPrimaryLight,

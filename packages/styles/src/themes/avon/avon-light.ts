@@ -61,7 +61,7 @@ export const avonLight: ITheme = {
     /**
      * @since 0.24
      */
-    divider: hexToRgba(color.highlight, opacity.low),
+    divider: avonLightColorTokens.colorLowEmphasis,
     primary: {
       main: avonLightColorTokens.colorPrimary,
       light: avonLightColorTokens.colorPrimaryLight,
