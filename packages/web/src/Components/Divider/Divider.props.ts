@@ -1,6 +1,4 @@
-import { DividerProps } from "@material-ui/core/Divider";
-
-export interface IDividerProps extends Omit<DividerProps, "translate"> {
+export interface IDividerProps {
 
   /**
    * The variant to use.
