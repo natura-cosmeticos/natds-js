@@ -5,10 +5,9 @@ import { Story } from "@storybook/react";
 import { IGridContainerProps } from "./GridContainer.props";
 import { ITypographyProps } from "../Typography";
 import { GridItem } from "../GridItem";
-import { IPaperProps } from "../Paper";
+import { Paper } from "../Card/Card";
 
 const GridContainer : React.ForwardRefExoticComponent<IGridContainerProps> = React.lazy(() => import("./GridContainer"));
-const Paper : React.ForwardRefExoticComponent<IPaperProps> = React.lazy(() => import("../Paper"));
 const Typography : React.ForwardRefExoticComponent<ITypographyProps> = React.lazy(() => import("../Typography"));
 
 GridContainer.displayName = "GridContainer";

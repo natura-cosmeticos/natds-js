@@ -1,5 +1,6 @@
 import * as React from "react";
 import { Meta, Story } from "@storybook/react";
+import { Paper } from "../Components/Card/Card";
 
 export default {
   title: "Examples/Sign In",
@@ -10,7 +11,6 @@ const Container = React.lazy(() => import("../Components/Container"));
 const GridContainer = React.lazy(() => import("../Components/GridContainer"));
 const GridItem = React.lazy(() => import("../Components/GridItem"));
 const Link = React.lazy(() => import("../Components/Link"));
-const Paper = React.lazy(() => import("../Components/Paper"));
 const Spacing = React.lazy(() => import("../Components/Spacing"));
 const TextField = React.lazy(() => import("../Components/TextField"));
 const Typography = React.lazy(() => import("../Components/Typography"));
