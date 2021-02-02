@@ -13,7 +13,7 @@ export interface ICardProps
   /**
    * Override or extend the styles applied to the component
    */
-  className: PaperProps["className"];
+  className?: PaperProps["className"];
 
   /**
    * If `true`, no elevation is used.
