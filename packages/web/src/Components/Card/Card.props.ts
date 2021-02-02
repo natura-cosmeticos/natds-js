@@ -1,19 +1,18 @@
 /* eslint-disable no-magic-numbers */
-import { PaperProps } from "@material-ui/core";
+import { CardProps } from "@material-ui/core";
 
-export interface ICardProps
-  extends Pick<PaperProps, "children" | "elevation" | "square"> {
+export interface ICardProps extends Pick<CardProps, "children" | "elevation" | "square"> {
 
   /**
    * The content of the component.
    *
    */
-  children: PaperProps["children"];
+  children: CardProps["children"];
 
   /**
    * Override or extend the styles applied to the component
    */
-  className: PaperProps["className"];
+  className?: CardProps["className"];
 
   /**
    * If `true`, no elevation is used.
@@ -22,7 +21,7 @@ export interface ICardProps
    * @optional
    * @type number
    */
-  elevation?: PaperProps["elevation"];
+  elevation?: CardProps["elevation"];
 
   /**
    * If `true`, rounded corners are disabled.
@@ -30,5 +29,5 @@ export interface ICardProps
    * @optional
    * @type boolean
    */
-  square?: PaperProps["square"];
+  square?: CardProps["square"];
 }
