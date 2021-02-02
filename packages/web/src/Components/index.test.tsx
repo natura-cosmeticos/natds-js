@@ -9,6 +9,7 @@ const components : string[] = [
   "Breadcrumbs",
   "Button",
   "ButtonGroup",
+  "Card",
   "Checkbox",
   "Chip",
   "CircularProgress",
