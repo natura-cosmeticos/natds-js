@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Storyshots Examples/Product Card Product Card 1`] = `
+<div
+  className="MuiPaper-root CardDemo-card-1 MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <img
+    alt="an outlined product draw"
+    className="NatDSImage-root-5 NatDSImage-root-8"
+    height={328}
+    onError={[Function]}
+    src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-256x256.png"
+    width=""
+  />
+  <div
+    className="CardDemo-cardContent-2"
+  >
+    <span
+      className="MuiTypography-root MuiTypography-overline MuiTypography-colorTextSecondary"
+    >
+      Overline Product
+    </span>
+    <p
+      className="MuiTypography-root MuiTypography-h5 MuiTypography-paragraph"
+    >
+      Header 5 Product
+    </p>
+    <p
+      className="MuiTypography-root CardDemo-cardTextDecoration-3 MuiTypography-body1 MuiTypography-colorTextSecondary"
+    >
+      Body 1 Price
+    </p>
+    <h4
+      className="MuiTypography-root MuiTypography-h4"
+    >
+      R$ 99,00
+    </h4>
+    <div
+      className="CardDemo-cardButton-4"
+    >
+      <button
+        className="MuiButtonBase-root MuiButton-root NatDSButton-root-11 MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+        disabled={false}
+        onBlur={[Function]}
+        onDragLeave={[Function]}
+        onFocus={[Function]}
+        onKeyDown={[Function]}
+        onKeyUp={[Function]}
+        onMouseDown={[Function]}
+        onMouseLeave={[Function]}
+        onMouseUp={[Function]}
+        onTouchEnd={[Function]}
+        onTouchMove={[Function]}
+        onTouchStart={[Function]}
+        tabIndex={0}
+        type="button"
+      >
+        <span
+          className="MuiButton-label NatDSButton-label-12"
+        >
+          Default
+        </span>
+      </button>
+    </div>
+  </div>
+</div>
+`;
