@@ -1,7 +1,7 @@
 /* eslint-disable no-magic-numbers */
 import { PaperProps } from "@material-ui/core";
 
-export interface ICardProps extends Omit<PaperProps, "component" | "variant"> {
+export interface ICardProps extends Pick<PaperProps, "children" | "elevation" | "square"> {
 
   /**
    * The content of the component.
@@ -15,7 +15,7 @@ export interface ICardProps extends Omit<PaperProps, "component" | "variant"> {
   className?: PaperProps["className"];
 
   /**
-   * It accepts 0 or 1.
+   * It accepts values between 0 and 24 inclusive.
    *
    * @default 1
    * @optional

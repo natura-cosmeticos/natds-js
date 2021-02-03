@@ -12,10 +12,7 @@ import { ICardProps } from "./Card.props";
  */
 
 export const Card = React.forwardRef<HTMLDivElement, ICardProps>(
-  (props: ICardProps, ref) => (
-    <MaterialPaper {...props} variant="elevation" ref={ref} />
-  ),
-);
+  (props: ICardProps, ref) => <MaterialPaper {...props} ref={ref} />);
 
 Card.displayName = "Card";
 
