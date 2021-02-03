@@ -1,5 +1,4 @@
 #!/bin/bash
-set -e
 
 if [ -z $(./.cicd/skip-commit.sh) ]; then
   echo "release NPM"
