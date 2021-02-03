@@ -3,11 +3,10 @@ export const argTypes = {
   children: {
     description: "The content of the component.",
     table: { type: { summary: "node" } },
+    control: { type: null },
   },
   className: {
-    control: {
-      type: "text",
-    },
+    control: { type: null },
   },
   elevation: {
     control: {

@@ -4,11 +4,11 @@ import MaterialPaper from "@material-ui/core/Paper";
 import { ICardProps } from "./Card.props";
 
 /**
- * ## Importing
  *
  * ```
  * import { Card } from "@naturacosmeticos/natds-web";
  * ```
+ *
  */
 
 export const Card = React.forwardRef<HTMLDivElement, ICardProps>(
