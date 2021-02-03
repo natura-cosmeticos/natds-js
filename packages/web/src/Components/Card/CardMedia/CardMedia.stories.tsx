@@ -1,8 +1,10 @@
 import * as React from "react";
-import { Card, createStyles, makeStyles } from "@material-ui/core";
+import { createStyles, makeStyles } from "@material-ui/core";
 import { Story } from "@storybook/react";
+
 import { ICardMediaProps } from "./CardMedia.props";
-import Typography from "../../Typography";
+import { Card } from "../Card";
+import { Typography } from "../../Typography";
 
 const CardMedia: React.ForwardRefExoticComponent<ICardMediaProps> = React.lazy(() => import("./CardMedia"));
 

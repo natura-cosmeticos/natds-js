@@ -2,10 +2,11 @@
 import * as React from "react";
 import { Meta, Story } from "@storybook/react";
 import { makeStyles, createStyles } from "@material-ui/core";
+
 import { Card } from "../Components/Card/Card";
-import { Image } from "../Components/Image";
-import Typography from "../Components/Typography";
-import Button from "../Components/Button";
+import { Typography } from "../Components/Typography";
+import { Button } from "../Components/Button";
+import { CardMedia } from "../Components/Card/CardMedia";
 
 export default {
   title: "Examples/Product Card",
@@ -27,18 +28,20 @@ const useStyles = makeStyles(
       marginTop: 24,
     },
   }),
-  { name: "CardDemo" }
+  { name: "CardDemo" },
 );
 
-const imageURL =
-  "https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-256x256.png";
-
+const imageURL = "https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-256x256.png";
 const Template: Story = () => {
   const classes = useStyles();
 
   return (
-    <Card className={classes.card} square={true}>
-      <Image src={imageURL} alt="green leaves" width={328} />
+    <Card className={classes.card}>
+      <CardMedia
+        image={imageURL}
+        style={{ height: 328 }}
+        alt="an outlined product draw"
+      />
       <div className={classes.cardContent}>
         <Typography variant="overline" color="textSecondary">
           Overline Product
@@ -50,7 +53,7 @@ const Template: Story = () => {
           color="textSecondary"
           className={classes.cardTextDecoration}
         >
-          Body 1 Product
+          Body 1 Price
         </Typography>
         <Typography variant="h4">R$ 99,00</Typography>
         <div className={classes.cardButton}>
