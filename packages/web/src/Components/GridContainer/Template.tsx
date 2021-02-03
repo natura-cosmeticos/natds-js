@@ -5,13 +5,13 @@ import { Story } from "@storybook/react";
 import { IGridContainerProps } from "./GridContainer.props";
 import { ITypographyProps } from "../Typography";
 import { GridItem } from "../GridItem";
-import { Paper } from "../Card/Card";
+import { Card } from "../Card/Card";
 
 const GridContainer : React.ForwardRefExoticComponent<IGridContainerProps> = React.lazy(() => import("./GridContainer"));
 const Typography : React.ForwardRefExoticComponent<ITypographyProps> = React.lazy(() => import("../Typography"));
 
 GridContainer.displayName = "GridContainer";
-Paper.displayName = "Paper";
+Card.displayName = "Card";
 Typography.displayName = "Typography";
 
 export const Template : Story<IGridContainerProps> = (args) => {
@@ -30,13 +30,13 @@ export const Template : Story<IGridContainerProps> = (args) => {
 
   return <GridContainer className={classes.container} {...args}>
     <GridItem className={classes.item} lg={12} md={12} sm={12} xs={12}>
-      <Paper elevation={2}>{args.children}</Paper>
+      <Card elevation={2}>{args.children}</Card>
     </GridItem>
     <GridItem className={classes.item} md={6} sm={6} xs={6}>
-      <Paper elevation={2}>{args.children}</Paper>
+      <Card elevation={2}>{args.children}</Card>
     </GridItem>
     <GridItem className={classes.item} md={6} sm={6} xs={6}>
-      <Paper elevation={2}>{args.children}</Paper>
+      <Card elevation={2}>{args.children}</Card>
     </GridItem>
   </GridContainer>;
 

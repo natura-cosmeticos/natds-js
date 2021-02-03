@@ -1,5 +1,5 @@
-import { Card, Paper } from "./Card";
+import Card from "./Card";
 
 export { ICardProps } from "./Card.props";
-export { Card, Paper };
-export default { Card, Paper };
+export { Card };
+export default Card;

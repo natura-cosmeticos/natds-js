@@ -1,7 +1,7 @@
 // eslint-disable-next-line no-use-before-define
 import * as React from "react";
 import { Popper } from "@material-ui/core";
-import { Paper } from "../Card";
+import { Card } from "../Card";
 import Typography from "../Typography";
 import { IPopoverProps } from "./Popover.props";
 import { ActionLink } from "./ActionLink";
@@ -63,12 +63,12 @@ export const Popover = React.forwardRef<unknown, IPopoverProps>(
         {...rest}
       >
         <span aria-hidden={true} className={arrow} ref={setArrowRef} />
-        <Paper elevation={12} className={container}>
+        <Card elevation={12} className={container}>
           <Typography variant="body2">{children}</Typography>
           {actionLink && (
             <ActionLink {...actionLink} className={actionLinkContainer} />
           )}
-        </Paper>
+        </Card>
       </Component>
     );
   },
