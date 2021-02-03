@@ -1,6 +1,6 @@
 /* eslint-disable no-magic-numbers */
 import * as React from "react";
-import MaterialPaper from "@material-ui/core/Paper";
+import MaterialCard from "@material-ui/core/Card";
 import { ICardProps } from "./Card.props";
 
 /**
@@ -12,7 +12,7 @@ import { ICardProps } from "./Card.props";
 
 export const Card = React.forwardRef<HTMLDivElement, ICardProps>(
   ({ elevation = 1, ...props }: ICardProps, ref) => (
-    <MaterialPaper
+    <MaterialCard
       {...props}
       variant="elevation"
       elevation={elevation}
