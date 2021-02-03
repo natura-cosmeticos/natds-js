@@ -1,0 +1,49 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card components should match to snapshot - default props: Card empty snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+/>
+`;
+
+exports[`Card components should match to snapshot - with children: Card empty snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1 MuiPaper-rounded"
+>
+  <button
+    className="MuiButtonBase-root MuiButton-root NatDSButton-root-1 MuiButton-text"
+    disabled={false}
+    onBlur={[Function]}
+    onDragLeave={[Function]}
+    onFocus={[Function]}
+    onKeyDown={[Function]}
+    onKeyUp={[Function]}
+    onMouseDown={[Function]}
+    onMouseLeave={[Function]}
+    onMouseUp={[Function]}
+    onTouchEnd={[Function]}
+    onTouchMove={[Function]}
+    onTouchStart={[Function]}
+    tabIndex={0}
+    type="button"
+  >
+    <span
+      className="MuiButton-label NatDSButton-label-2"
+    >
+      default
+    </span>
+  </button>
+</div>
+`;
+
+exports[`Card components should match to snapshot - without elevation: Card empty snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation0 MuiPaper-rounded"
+/>
+`;
+
+exports[`Card components should match to snapshot - without square: Card empty snapshot 1`] = `
+<div
+  className="MuiPaper-root MuiPaper-elevation1"
+/>
+`;

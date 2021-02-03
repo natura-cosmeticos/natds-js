@@ -7,7 +7,7 @@ export interface ICardProps extends Pick<PaperProps, "children" | "elevation" | 
    * The content of the component.
    *
    */
-  children: PaperProps["children"];
+  children?: PaperProps["children"];
 
   /**
    * Override or extend the styles applied to the component
