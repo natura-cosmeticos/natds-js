@@ -1,6 +1,6 @@
 import * as React from "react";
 import { Meta, Story } from "@storybook/react";
-import { Paper } from "../Components/Card/Card";
+import { Card } from "../Components/Card/Card";
 
 export default {
   title: "Examples/Sign In",
@@ -18,7 +18,7 @@ const Typography = React.lazy(() => import("../Components/Typography"));
 // eslint-disable-next-line max-lines-per-function
 const Template : Story = () => (
   <Container component={"main"} maxWidth={"xs"}>
-    <Paper>
+    <Card>
       <Typography component={"h1"} variant={"h5"}>Sign in</Typography>
       <form noValidate={true}>
         <Spacing marginBottom={"tiny"} marginTop={"small"}>
@@ -69,7 +69,7 @@ const Template : Story = () => (
           </GridItem>
         </GridContainer>
       </form>
-    </Paper>
+    </Card>
   </Container>
 );
 
