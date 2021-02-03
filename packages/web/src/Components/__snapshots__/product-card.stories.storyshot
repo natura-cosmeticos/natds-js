@@ -2,15 +2,17 @@
 
 exports[`Storyshots Examples/Product Card Product Card 1`] = `
 <div
-  className="MuiPaper-root CardDemo-card-1 MuiPaper-elevation1"
+  className="MuiPaper-root MuiCard-root CardDemo-card-1 MuiPaper-elevation1 MuiPaper-rounded"
 >
-  <img
-    alt="green leaves"
-    className="NatDSImage-root-5 NatDSImage-root-8"
-    height=""
-    onError={[Function]}
-    src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-256x256.png"
-    width={328}
+  <div
+    alt="an outlined product draw"
+    className="MuiCardMedia-root"
+    style={
+      Object {
+        "backgroundImage": "url(\\"https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-256x256.png\\")",
+        "height": 328,
+      }
+    }
   />
   <div
     className="CardDemo-cardContent-2"
@@ -28,7 +30,7 @@ exports[`Storyshots Examples/Product Card Product Card 1`] = `
     <p
       className="MuiTypography-root CardDemo-cardTextDecoration-3 MuiTypography-body1 MuiTypography-colorTextSecondary"
     >
-      Body 1 Product
+      Body 1 Price
     </p>
     <h4
       className="MuiTypography-root MuiTypography-h4"
@@ -39,7 +41,7 @@ exports[`Storyshots Examples/Product Card Product Card 1`] = `
       className="CardDemo-cardButton-4"
     >
       <button
-        className="MuiButtonBase-root MuiButton-root NatDSButton-root-11 MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
+        className="MuiButtonBase-root MuiButton-root NatDSButton-root-5 MuiButton-contained MuiButton-containedPrimary MuiButton-fullWidth"
         disabled={false}
         onBlur={[Function]}
         onDragLeave={[Function]}
@@ -56,7 +58,7 @@ exports[`Storyshots Examples/Product Card Product Card 1`] = `
         type="button"
       >
         <span
-          className="MuiButton-label NatDSButton-label-12"
+          className="MuiButton-label NatDSButton-label-6"
         >
           Default
         </span>

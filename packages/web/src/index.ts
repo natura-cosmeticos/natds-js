@@ -13,6 +13,7 @@ export { default as Breadcrumbs, IBreadcrumbsProps } from "./Components/Breadcru
 export { default as Button, IButtonProps } from "./Components/Button";
 export { default as ButtonGroup, IButtonGroupProps } from "./Components/ButtonGroup";
 export { default as Card, Paper, ICardProps } from "./Components/Card";
+export { default as CardMedia, ICardMediaProps } from "./Components/Card/CardMedia";
 export { default as Checkbox, ICheckboxProps } from "./Components/Checkbox";
 export { default as Chip, IChipProps } from "./Components/Chip";
 export { default as Counter, ICounterProps } from "./Components/Counter";
