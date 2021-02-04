@@ -11,9 +11,14 @@ import { ICardProps } from "./Card.props";
  *
  */
 
-export const Card = React.forwardRef<HTMLDivElement, ICardProps>(
-  (props: ICardProps, ref) => <MaterialPaper {...props} ref={ref} />);
+export const Card = (props: ICardProps, ref) => (<MaterialPaper {...props} ref={ref} />);
 
 Card.displayName = "Card";
 
-export default Card;
+/**
+ * @deprecated
+ */
+
+export const Paper = Card;
+
+export default { Card, Paper };
