@@ -12,7 +12,7 @@ export { default as BottomNavigationAction, IBottomNavigationActionProps } from 
 export { default as Breadcrumbs, IBreadcrumbsProps } from "./Components/Breadcrumbs";
 export { default as Button, IButtonProps } from "./Components/Button";
 export { default as ButtonGroup, IButtonGroupProps } from "./Components/ButtonGroup";
-export { default as Card, ICardProps } from "./Components/Card";
+export { default as Paper, Card, ICardProps } from "./Components/Card";
 export { default as Checkbox, ICheckboxProps } from "./Components/Checkbox";
 export { default as Chip, IChipProps } from "./Components/Chip";
 export { default as Counter, ICounterProps } from "./Components/Counter";
@@ -82,7 +82,7 @@ export { default as TableHead, ITableHeadProps } from "./Components/Table/TableH
 export { default as TablePagination, ITablePaginationProps } from "./Components/Table/TablePagination";
 export { default as TableRow, ITableRowProps } from "./Components/Table/TableRow";
 export { default as TableSortLabel, ITableSortLabelProps } from "./Components/Table/TableSortLabel";
-export { default as Tag, ContextualBadge, ITagProps } from "./Components/Tag";
+export { default as ContextualBadge, Tag, ITagProps } from "./Components/Tag";
 export { default as TextField, ITextFieldProps } from "./Components/TextField";
 export { default as ToggleButton, IToggleButtonProps } from "./Components/ToggleButton";
 export { default as Toolbar, IToolbarProps } from "./Components/Toolbar";

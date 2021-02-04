@@ -20,6 +20,6 @@ Card.displayName = "Card";
  * @deprecated
  */
 
-export const Paper = <Card></Card>;
+export const Paper = Card;
 
 export default { Card, Paper };
