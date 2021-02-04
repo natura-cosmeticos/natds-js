@@ -21,4 +21,5 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
   else
     echo "Nothing to publish"
   fi
+  exit 0
 fi
