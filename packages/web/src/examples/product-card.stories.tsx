@@ -32,7 +32,7 @@ const useStyles = makeStyles(
 );
 
 const imageURL =
-  "https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty-512x512.png";
+  "https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web@latest/dist/assets/product-empty.svg";
 
 const ProductCardTemplate: Story = () => {
   const classes = useStyles();
