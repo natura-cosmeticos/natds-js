@@ -53,7 +53,6 @@ const components : string[] = [
   "Menu",
   "MenuItem",
   "MenuList",
-  "Paper",
   "Popover",
   "Radio",
   "ScopedCssBaseline",
