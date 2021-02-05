@@ -61,7 +61,7 @@ export const naturaDark: ITheme = {
     /**
      * @since 0.24
      */
-    divider: hexToRgba(color.highlight, opacity.low),
+    divider: naturaDarkColorTokens.colorLowEmphasis,
     primary: {
       main: naturaDarkColorTokens.colorPrimary,
       light: naturaDarkColorTokens.colorPrimaryLight,
