@@ -1,29 +1,32 @@
-import { CardProps } from "@material-ui/core/Card";
+import { PaperProps } from "@material-ui/core";
 
-export interface ICardProps extends CardProps {
+export interface ICardProps extends Pick<PaperProps, "children" | "elevation" | "square"> {
 
   /**
    * The content of the component.
    *
-   * @optional
-   * @type node
    */
-  children?: CardProps["children"]
+  children?: PaperProps["children"];
 
   /**
-   * Override or extend the styles applied to the component.
-   *
-   * @optional
-   * @type object
+   * Override or extend the styles applied to the component
    */
-  classes?: CardProps["classes"]
+  className?: PaperProps["className"];
 
   /**
-   * If `true`, the card will use raised styling.
+   * It accepts values between 0 and 24 inclusive.
    *
+   * @default 1
+   * @optional
+   * @type number
+   */
+  elevation?: PaperProps["elevation"];
+
+  /**
+   * If `true`, rounded corners are disabled.
    * @default false
    * @optional
-   * @type bool
+   * @type boolean
    */
-  raised?: CardProps["raised"]
+  square?: PaperProps["square"];
 }

@@ -1,46 +1,51 @@
-import { Meta, Story } from "@storybook/react";
 import * as React from "react";
+import { makeStyles, createStyles } from "@material-ui/core";
+import { Story } from "@storybook/react";
+import { argTypes } from "./Card.argTypes";
+
 import { Card } from "./Card";
-import { CardActions } from "../CardActions";
-import { CardContent } from "../CardContent";
-import { CardHeader } from "../CardHeader";
-import { CardMedia } from "../CardMedia";
+import { Typography } from "../Typography";
+import { Button } from "../Button";
 import { ICardProps } from "./Card.props";
-import { WithHeading6AndBody2, WithMultipleTypographies } from "../CardContent/CardContent.stories";
-import { PlaygroundTemplate, Template } from "./Template";
-import { Playground as CardActionsPlayground } from "../CardActions/CardActions.stories";
-import { Playground as CardMediaPlayground } from "../CardMedia/CardMedia.stories";
 
 export default {
+  argTypes,
   component: Card,
-  subcomponents: {
-    CardActions, CardContent, CardHeader, CardMedia,
-  },
   title: "Components/Card",
-} as Meta;
-
-export const Playground : Story<ICardProps> = PlaygroundTemplate.bind({});
-Playground.args = {
-  style: { maxWidth: 328 },
 };
 
-export const Simple : Story<ICardProps> = Template.bind({});
-Simple.args = {
-  children: [
-    <CardContent key={"content"} {...WithMultipleTypographies.args} />,
-    <CardActions key={"actions"} {...CardActionsPlayground.args} />,
-  ],
-  style: { maxWidth: 328 },
+Card.displayName = "Card";
+
+const useStyles = makeStyles(
+  createStyles({
+    card: {
+      padding: 16,
+      maxWidth: 328,
+    },
+    body: {
+      margin: "16px 0",
+    },
+  }),
+  { name: "CardDemo" },
+);
+
+const CardTemplate: Story<ICardProps> = (args: ICardProps) => {
+  const classes = useStyles();
+
+  return (
+    <Card {...args} className={classes.card}>
+      <Typography variant="overline">overline</Typography>
+      <Typography variant="h6">Header 6</Typography>
+      <Typography variant="caption">Caption</Typography>
+      <Typography variant="body2" className={classes.body}>
+        This is an example of text using the body2 variant of Typography
+        component
+      </Typography>
+      <Button variant="contained" color="primary">
+        Default
+      </Button>
+    </Card>
+  );
 };
 
-export const WithMedia : Story<ICardProps> = Template.bind({});
-WithMedia.args = {
-  children: [
-    <CardMedia key={"media"} {...CardMediaPlayground.args} />,
-    <CardContent key={"content"} {...WithHeading6AndBody2.args} />,
-    <CardActions key={"actions"} {...CardActionsPlayground.args} />,
-  ],
-  style: {
-    maxWidth: 328,
-  },
-};
+export const Playground = CardTemplate.bind({});
