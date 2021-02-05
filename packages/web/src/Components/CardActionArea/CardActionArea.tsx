@@ -5,11 +5,9 @@ import { ICardActionAreaProps } from "./CardActionArea.props";
 export { ICardActionAreaProps } from "./CardActionArea.props";
 
 /**
- * ## Importing
+ * @deprecated `CardActionArea` component will be deprecated soon
  *
- * ```
- * import { CardActionArea } from "@naturacosmeticos/natds-web";
- * ```
+ * It doesn't make sense for Natura Design System that the library is an exact copy of everything that exists on MaterialUI.
  */
 export const CardActionArea = React.forwardRef<HTMLButtonElement, ICardActionAreaProps>(
   (props: ICardActionAreaProps, ref: ICardActionAreaProps["ref"]) => (

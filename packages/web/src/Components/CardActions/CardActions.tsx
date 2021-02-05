@@ -3,11 +3,9 @@ import MaterialCardActions from "@material-ui/core/CardActions";
 import { ICardActionsProps } from "./CardActions.props";
 
 /**
- * ## Importing
+ * @deprecated `CardActions` component will be deprecated soon
  *
- * ```
- * import { CardActions } from "@naturacosmeticos/natds-web";
- * ```
+ * It doesn't make sense for Natura Design System that the library is an exact copy of everything that exists on MaterialUI.
  */
 export const CardActions = React.forwardRef(
   (props: ICardActionsProps, ref) => (
