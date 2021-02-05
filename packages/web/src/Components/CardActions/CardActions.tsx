@@ -3,11 +3,8 @@ import MaterialCardActions from "@material-ui/core/CardActions";
 import { ICardActionsProps } from "./CardActions.props";
 
 /**
- * ## Importing
+ * @deprecated `CardActions` component will be deprecated soon
  *
- * ```
- * import { CardActions } from "@naturacosmeticos/natds-web";
- * ```
  */
 export const CardActions = React.forwardRef(
   (props: ICardActionsProps, ref) => (

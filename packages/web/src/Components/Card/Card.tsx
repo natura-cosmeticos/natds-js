@@ -1,24 +1,24 @@
 import * as React from "react";
-import MaterialCard from "@material-ui/core/Card";
+import MaterialPaper from "@material-ui/core/Paper";
 import { ICardProps } from "./Card.props";
 
 /**
- * For more advanced usages, check [Material Card docs](https://material-ui.com/components/cards/)
- *
- * ## Importing
- *
  * ```
- * import { Card } from "@naturacosmeticos/natds-web";
+ * import { Card } from '@naturacosmeticos/natds-web';
  * ```
  *
- * @see https://material-ui.com/components/cards/
  */
-export const Card = React.forwardRef<unknown, ICardProps>(
-  (props: ICardProps, ref: ICardProps["ref"]) => (
-    <MaterialCard {...props} ref={ref} />
-  ),
+export const Card = React.forwardRef<HTMLDivElement, ICardProps>(
+  (props: ICardProps, ref) => <MaterialPaper {...props} ref={ref} />,
 );
 
 Card.displayName = "Card";
 
-export default Card;
+/**
+ * @deprecated `Paper` component will be deprecated soon.
+ * Use `Card` instead
+ */
+
+export const Paper = Card;
+
+export default { Card, Paper };

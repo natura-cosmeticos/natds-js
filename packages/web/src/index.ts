@@ -12,7 +12,7 @@ export { default as BottomNavigationAction, IBottomNavigationActionProps } from 
 export { default as Breadcrumbs, IBreadcrumbsProps } from "./Components/Breadcrumbs";
 export { default as Button, IButtonProps } from "./Components/Button";
 export { default as ButtonGroup, IButtonGroupProps } from "./Components/ButtonGroup";
-export { default as Card, ICardProps } from "./Components/Card";
+export * from "./Components/Card";
 export { default as CardActionArea, ICardActionAreaProps } from "./Components/CardActionArea";
 export { default as CardActions, ICardActionsProps } from "./Components/CardActions";
 export { default as CardContent, ICardContentProps } from "./Components/CardContent";
@@ -65,7 +65,6 @@ export { default as ListSubheader, IListSubheaderProps } from "./Components/List
 export { default as Menu, IMenuProps } from "./Components/Menu";
 export { default as MenuItem, IMenuItemProps } from "./Components/MenuItem";
 export { default as MenuList, IMenuListProps } from "./Components/MenuList";
-export { default as Paper, IPaperProps } from "./Components/Paper";
 export { default as Popover, IPopoverProps } from "./Components/Popover";
 export { default as Radio, IRadioProps } from "./Components/Radio";
 export { default as RadioGroup, IRadioGroupProps } from "./Components/RadioGroup";
@@ -88,7 +87,7 @@ export { default as TableHead, ITableHeadProps } from "./Components/Table/TableH
 export { default as TablePagination, ITablePaginationProps } from "./Components/Table/TablePagination";
 export { default as TableRow, ITableRowProps } from "./Components/Table/TableRow";
 export { default as TableSortLabel, ITableSortLabelProps } from "./Components/Table/TableSortLabel";
-export { default as Tag, ContextualBadge, ITagProps } from "./Components/Tag";
+export * from "./Components/Tag";
 export { default as TextField, ITextFieldProps } from "./Components/TextField";
 export { default as ToggleButton, IToggleButtonProps } from "./Components/ToggleButton";
 export { default as Toolbar, IToolbarProps } from "./Components/Toolbar";

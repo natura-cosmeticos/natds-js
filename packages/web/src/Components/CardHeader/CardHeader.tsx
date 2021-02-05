@@ -3,11 +3,8 @@ import MaterialCardHeader from "@material-ui/core/CardHeader";
 import { ICardHeaderProps } from "./CardHeader.props";
 
 /**
- * ## Importing
+ * @deprecated `CardHeader` component will be deprecated soon
  *
- * ```
- * import { CardHeader } from "@naturacosmeticos/natds-web";
- * ```
  */
 export const CardHeader = React.forwardRef<HTMLDivElement, ICardHeaderProps>(
   (props: ICardHeaderProps, ref: ICardHeaderProps["ref"]) => (
