@@ -5,7 +5,6 @@ import { ICardMediaProps } from "./CardMedia.props";
 /**
  * @deprecated `CardMedia` component will be deprecated soon.
  *
- * It doesn't make sense for Natura Design System that the library is an exact copy of everything that exists on MaterialUI.
  */
 export const CardMedia = React.forwardRef<HTMLDivElement, ICardMediaProps>(
   (props: ICardMediaProps, ref) => <MaterialCardMedia {...props} ref={ref} />,
