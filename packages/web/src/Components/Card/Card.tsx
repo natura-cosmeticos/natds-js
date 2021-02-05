@@ -4,10 +4,10 @@ import { ICardProps } from "./Card.props";
 
 /**
  * ```
- * import { Card } from "@naturacosmeticos/natds-web";
+ * import { Card } from '@naturacosmeticos/natds-web';
  * ```
+ *
  */
-
 export const Card = React.forwardRef<HTMLDivElement, ICardProps>(
   (props: ICardProps, ref) => <MaterialPaper {...props} ref={ref} />,
 );
@@ -15,7 +15,7 @@ export const Card = React.forwardRef<HTMLDivElement, ICardProps>(
 Card.displayName = "Card";
 
 /**
- * @deprecated `Paper` component will be deprecated
+ * @deprecated `Paper` component will be deprecated soon.
  * Use `Card` instead
  */
 
