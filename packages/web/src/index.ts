@@ -87,7 +87,7 @@ export { default as TableHead, ITableHeadProps } from "./Components/Table/TableH
 export { default as TablePagination, ITablePaginationProps } from "./Components/Table/TablePagination";
 export { default as TableRow, ITableRowProps } from "./Components/Table/TableRow";
 export { default as TableSortLabel, ITableSortLabelProps } from "./Components/Table/TableSortLabel";
-export { default as Tag, ContextualBadge, ITagProps } from "./Components/Tag";
+export * from "./Components/Tag";
 export { default as TextField, ITextFieldProps } from "./Components/TextField";
 export { default as ToggleButton, IToggleButtonProps } from "./Components/ToggleButton";
 export { default as Toolbar, IToolbarProps } from "./Components/Toolbar";
