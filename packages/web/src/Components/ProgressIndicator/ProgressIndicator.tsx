@@ -11,7 +11,7 @@ import { IProgressIndicatorProps } from "./ProgressIndicator.props";
  *
  */
 export const ProgressIndicator = React.forwardRef<unknown, IProgressIndicatorProps>(
-  (props: IProgressIndicatorProps, ref) => <MaterialCircularProgress {...props}ref={ref} />);
+  (props: IProgressIndicatorProps, ref) => <MaterialCircularProgress {...props} ref={ref} />);
 
 ProgressIndicator.displayName = "ProgressIndicator";
 

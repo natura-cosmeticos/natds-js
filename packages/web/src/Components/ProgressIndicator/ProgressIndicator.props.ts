@@ -33,7 +33,8 @@ export interface IProgressIndicatorProps extends Pick<CircularProgressProps, "co
    *
    * @default 48
    * @optional
-   * @type 24 | 32 | 40 | 48
+   * @values 24 | 32 | 40 | 48
+   * @type number
    */
   size?: CircularProgressProps["size"]
 }
