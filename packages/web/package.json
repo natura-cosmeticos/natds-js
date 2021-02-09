@@ -44,7 +44,7 @@
     "build": "yarn clean && tsc -p ./tsconfig.json && yarn rollup:build && yarn copy-assets",
     "update:storybook:fonts": "bash ./bin/copyAssetsToStorybook.sh",
     "copy-assets": "mkdir -p ./dist/assets && cp -r ./src/assets/* ./dist/assets",
-    "build-storybook": "yarn update:storybook:fonts && build-storybook -o docs/dist -s ./.storybook/assets",
+    "build-storybook": "yarn update:storybook:fonts && build-storybook --docs -o docs/dist -s ./.storybook/assets",
     "build-storybook-ci": "yarn build-storybook --quiet",
     "clean": "rm -rf ./dist",
     "open:coverage": "open coverage/lcov-report/index.html",
