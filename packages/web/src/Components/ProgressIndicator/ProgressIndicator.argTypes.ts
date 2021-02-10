@@ -21,13 +21,6 @@ export const argTypes = {
     description: "The size of the circle.",
     table: { type: { summary: "number" } },
   },
-  disableShrink: {
-    table: {
-      defaultValue: { summary: false },
-      type: { summary: "bool" },
-    },
-    description: "If true, the shrink animation is disabled.",
-  },
 };
 
 export default argTypes;

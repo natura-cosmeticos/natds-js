@@ -22,7 +22,7 @@ const useStyles = makeStyles(
 
 ProgressIndicator.displayName = "ProgressIndicator";
 
-export const Template: Story<IProgressIndicatorProps> = (
+export const Playground: Story<IProgressIndicatorProps> = (
   args: IProgressIndicatorProps) => <ProgressIndicator {...args} />;
 
 export const Colors: Story<IProgressIndicatorProps> = (args) => {
@@ -34,19 +34,16 @@ export const Colors: Story<IProgressIndicatorProps> = (args) => {
         {...args}
         color="primary"
         className={classes.progressIndicator}
-        disableShrink={true}
       />
       <ProgressIndicator
         {...args}
         color="secondary"
         className={classes.progressIndicator}
-        disableShrink={true}
       />
       <ProgressIndicator
         {...args}
         color="inherit"
         className={classes.progressIndicator}
-        disableShrink={true}
       />
     </>
   );
@@ -61,25 +58,21 @@ export const Sizes: Story<IProgressIndicatorProps> = (args) => {
         {...args}
         size={24}
         className={classes.progressIndicator}
-        disableShrink={true}
       />
       <ProgressIndicator
         {...args}
         size={32}
         className={classes.progressIndicator}
-        disableShrink={true}
       />
       <ProgressIndicator
         {...args}
         size={40}
         className={classes.progressIndicator}
-        disableShrink={true}
       />
       <ProgressIndicator
         {...args}
         size={48}
         className={classes.progressIndicator}
-        disableShrink={true}
       />
     </>
   );

@@ -1,6 +1,6 @@
 import { CircularProgressProps } from "@material-ui/core/CircularProgress";
 
-export interface IProgressIndicatorProps extends Pick<CircularProgressProps, "color" | "disableShrink" > {
+export interface IProgressIndicatorProps extends Pick<CircularProgressProps, "color" > {
 
   /**
    * Override or extend the styles applied to the component.
@@ -18,15 +18,6 @@ export interface IProgressIndicatorProps extends Pick<CircularProgressProps, "co
    * @type "primary" | "secondary" | "inherit"
    */
   color?: CircularProgressProps["color"];
-
-  /**
-   * If `true`, the shrink animation is disabled.
-   *
-   * @default false
-   * @optional
-   * @type bool
-   */
-  disableShrink?: CircularProgressProps["disableShrink"];
 
   /**
    * The size of the circle.

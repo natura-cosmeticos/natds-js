@@ -38,10 +38,4 @@ describe("ProgressIndicator components", () => {
 
     expect(testRenderer).toMatchSnapshot();
   });
-
-  it("should match to snapshot - with disableShrink enabled", () => {
-    const testRenderer = TestRenderer.create(<ProgressIndicator disableShrink={true} />);
-
-    expect(testRenderer).toMatchSnapshot();
-  });
 });
