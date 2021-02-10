@@ -16,7 +16,7 @@ export const argTypes = {
   size: {
     control: {
       type: "select",
-      options: [24, 32, 40, 48],
+      options: [24, 32, 48, 64],
     },
     description: "The size of the circle.",
     table: { type: { summary: "number" } },
