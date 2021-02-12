@@ -5,14 +5,6 @@ export const argTypes = {
     description: "Override or extend the styles applied to the component.",
     table: { type: { summary: "object" } },
   },
-  color: {
-    control: {
-      type: "select",
-      options: ["primary", "secondary", "inherit"],
-    },
-    description:
-      "The color of the component. It supports those theme colors that make sense for this component.",
-  },
   size: {
     control: {
       type: "select",

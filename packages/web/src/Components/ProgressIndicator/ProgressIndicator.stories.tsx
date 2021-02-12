@@ -22,32 +22,7 @@ const useStyles = makeStyles(
 
 ProgressIndicator.displayName = "ProgressIndicator";
 
-export const Playground: Story<IProgressIndicatorProps> = (
-  args: IProgressIndicatorProps) => <ProgressIndicator {...args} />;
-
-export const Colors: Story<IProgressIndicatorProps> = (args) => {
-  const classes = useStyles();
-
-  return (
-    <>
-      <ProgressIndicator
-        {...args}
-        color="primary"
-        className={classes.progressIndicator}
-      />
-      <ProgressIndicator
-        {...args}
-        color="secondary"
-        className={classes.progressIndicator}
-      />
-      <ProgressIndicator
-        {...args}
-        color="inherit"
-        className={classes.progressIndicator}
-      />
-    </>
-  );
-};
+export const Playground: Story<IProgressIndicatorProps> = (args: IProgressIndicatorProps) => <ProgressIndicator {...args} />;
 
 export const Sizes: Story<IProgressIndicatorProps> = (args) => {
   const classes = useStyles();
@@ -66,12 +41,12 @@ export const Sizes: Story<IProgressIndicatorProps> = (args) => {
       />
       <ProgressIndicator
         {...args}
-        size={40}
+        size={48}
         className={classes.progressIndicator}
       />
       <ProgressIndicator
         {...args}
-        size={48}
+        size={64}
         className={classes.progressIndicator}
       />
     </>

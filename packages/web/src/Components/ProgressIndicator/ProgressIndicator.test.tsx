@@ -9,18 +9,6 @@ describe("ProgressIndicator components", () => {
     expect(testRenderer).toMatchSnapshot();
   });
 
-  it("should match to snapshot - with secondary color", () => {
-    const testRenderer = TestRenderer.create(<ProgressIndicator color="secondary" />);
-
-    expect(testRenderer).toMatchSnapshot();
-  });
-
-  it("should match to snapshot - with inherit color", () => {
-    const testRenderer = TestRenderer.create(<ProgressIndicator color="inherit" />);
-
-    expect(testRenderer).toMatchSnapshot();
-  });
-
   it("should match to snapshot - with size 24", () => {
     const testRenderer = TestRenderer.create(<ProgressIndicator size={24} />);
 
@@ -33,8 +21,8 @@ describe("ProgressIndicator components", () => {
     expect(testRenderer).toMatchSnapshot();
   });
 
-  it("should match to snapshot - with size 40", () => {
-    const testRenderer = TestRenderer.create(<ProgressIndicator size={48} />);
+  it("should match to snapshot - with size 64", () => {
+    const testRenderer = TestRenderer.create(<ProgressIndicator size={64} />);
 
     expect(testRenderer).toMatchSnapshot();
   });

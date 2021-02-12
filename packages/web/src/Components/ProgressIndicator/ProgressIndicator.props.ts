@@ -1,6 +1,5 @@
-import { CircularProgressProps } from "@material-ui/core/CircularProgress";
-
-export interface IProgressIndicatorProps extends Pick<CircularProgressProps, "color" > {
+/* eslint-disable no-magic-numbers */
+export interface IProgressIndicatorProps {
 
   /**
    * Override or extend the styles applied to the component.
@@ -8,24 +7,14 @@ export interface IProgressIndicatorProps extends Pick<CircularProgressProps, "co
    * @optional
    * @type object
    */
-  className?: CircularProgressProps["className"];
-
-  /**
-   * The color of the component. It supports those theme colors that make sense for this component.
-   *
-   * @default "primary"
-   * @optional
-   * @type "primary" | "secondary" | "inherit"
-   */
-  color?: CircularProgressProps["color"];
+  className?: string;
 
   /**
    * The size of the circle.
    *
    * @default 48
    * @optional
-   * @values 24 | 32 | 48 | 64
    * @type number
    */
-  size?: CircularProgressProps["size"]
+  size?: 24 | 32 | 48 | 64
 }

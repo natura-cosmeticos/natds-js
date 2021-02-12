@@ -3,15 +3,12 @@ import MaterialCircularProgress from "@material-ui/core/CircularProgress";
 import { IProgressIndicatorProps } from "./ProgressIndicator.props";
 
 /**
- *
- * ## Importing
  * ```
- * import { CircularProgress } from '@naturacosmeticos/natds-web';
+ * import { ProgressIndicator } from "@naturacosmeticos/natds-web";
  * ```
- *
  */
 export const ProgressIndicator = React.forwardRef<unknown, IProgressIndicatorProps>(
-  (props: IProgressIndicatorProps, ref) => <MaterialCircularProgress {...props} ref={ref} />);
+  (props: IProgressIndicatorProps, ref) => <MaterialCircularProgress {...props} ref={ref} color="primary"/>);
 
 ProgressIndicator.displayName = "ProgressIndicator";
 

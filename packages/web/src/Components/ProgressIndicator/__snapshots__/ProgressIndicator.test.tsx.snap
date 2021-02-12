@@ -28,62 +28,6 @@ exports[`ProgressIndicator components should match to snapshot - default props 1
 </div>
 `;
 
-exports[`ProgressIndicator components should match to snapshot - with inherit color 1`] = `
-<div
-  className="MuiCircularProgress-root MuiCircularProgress-indeterminate"
-  role="progressbar"
-  style={
-    Object {
-      "height": 40,
-      "width": 40,
-    }
-  }
->
-  <svg
-    className="MuiCircularProgress-svg"
-    viewBox="22 22 44 44"
-  >
-    <circle
-      className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
-      cx={44}
-      cy={44}
-      fill="none"
-      r={20.2}
-      strokeWidth={3.6}
-      style={Object {}}
-    />
-  </svg>
-</div>
-`;
-
-exports[`ProgressIndicator components should match to snapshot - with secondary color 1`] = `
-<div
-  className="MuiCircularProgress-root MuiCircularProgress-colorSecondary MuiCircularProgress-indeterminate"
-  role="progressbar"
-  style={
-    Object {
-      "height": 40,
-      "width": 40,
-    }
-  }
->
-  <svg
-    className="MuiCircularProgress-svg"
-    viewBox="22 22 44 44"
-  >
-    <circle
-      className="MuiCircularProgress-circle MuiCircularProgress-circleIndeterminate"
-      cx={44}
-      cy={44}
-      fill="none"
-      r={20.2}
-      strokeWidth={3.6}
-      style={Object {}}
-    />
-  </svg>
-</div>
-`;
-
 exports[`ProgressIndicator components should match to snapshot - with size 24 1`] = `
 <div
   className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
@@ -140,14 +84,14 @@ exports[`ProgressIndicator components should match to snapshot - with size 32 1`
 </div>
 `;
 
-exports[`ProgressIndicator components should match to snapshot - with size 40 1`] = `
+exports[`ProgressIndicator components should match to snapshot - with size 64 1`] = `
 <div
   className="MuiCircularProgress-root MuiCircularProgress-colorPrimary MuiCircularProgress-indeterminate"
   role="progressbar"
   style={
     Object {
-      "height": 48,
-      "width": 48,
+      "height": 64,
+      "width": 64,
     }
   }
 >
