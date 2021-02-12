@@ -28,7 +28,7 @@ export const Sizes: Story<IProgressIndicatorProps> = (args) => {
   const classes = useStyles();
 
   return (
-    <>
+    <div style={{ display: "flex" }}>
       <ProgressIndicator
         {...args}
         size={24}
@@ -49,6 +49,6 @@ export const Sizes: Story<IProgressIndicatorProps> = (args) => {
         size={64}
         className={classes.progressIndicator}
       />
-    </>
+    </div>
   );
 };

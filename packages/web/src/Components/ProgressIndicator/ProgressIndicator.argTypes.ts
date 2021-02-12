@@ -5,6 +5,11 @@ export const argTypes = {
     description: "Override or extend the styles applied to the component.",
     table: { type: { summary: "object" } },
   },
+  layer: {
+    description:
+      "If `true`, a layer will be applied behind the progress indicator",
+    table: { type: { summary: "bool" } },
+  },
   size: {
     control: {
       type: "select",

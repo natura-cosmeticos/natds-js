@@ -10,11 +10,20 @@ export interface IProgressIndicatorProps {
   className?: string;
 
   /**
+   * If `true`, a layer will be applied behind the progress indicator
+   *
+   * @default false
+   * @optional
+   * @type boolean
+   */
+  layer?: boolean;
+
+  /**
    * The size of the circle.
    *
    * @default 48
    * @optional
    * @type number
    */
-  size?: 24 | 32 | 48 | 64
+  size?: 24 | 32 | 48 | 64;
 }
