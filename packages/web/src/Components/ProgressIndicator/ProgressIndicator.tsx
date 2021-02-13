@@ -1,3 +1,4 @@
+/* eslint-disable no-magic-numbers */
 /* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import * as React from "react";
 import MaterialCircularProgress from "@material-ui/core/CircularProgress";
@@ -10,16 +11,16 @@ import { useStyles } from "./ProgressIndicator.styles";
  * ```
  */
 
-export const ProgressIndicator = ({ layer = false, ...props }: IProgressIndicatorProps) => {
+export const ProgressIndicator = ({ layer = false, size = 48, ...props }: IProgressIndicatorProps) => {
   const { circularLayer } = useStyles(props);
 
   return (
     <>
       {layer
         ? <div className={circularLayer}>
-          <MaterialCircularProgress {...props} />
+          <MaterialCircularProgress {...props} size={size} />
         </div>
-        : <MaterialCircularProgress {...props} />
+        : <MaterialCircularProgress {...props} size={size}/>
       }
     </>
   );
