@@ -41,7 +41,6 @@ export const Sizes: Story<IProgressIndicatorProps> = (args) => {
       />
       <ProgressIndicator
         {...args}
-        size={48}
         className={classes.progressIndicator}
       />
       <ProgressIndicator
