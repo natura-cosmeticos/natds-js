@@ -4,7 +4,9 @@ import { makeStyles } from "@material-ui/core";
 import { IProgressIndicatorProps } from "./ProgressIndicator.props";
 import { IThemeWeb } from "../../Themes";
 
-export const getLayerSize = ({ size }: IProgressIndicatorProps): number => size + 8;
+const defaultSize = 48;
+
+export const getLayerSize = ({ size }: IProgressIndicatorProps): number => (size ? size + 4 : defaultSize + 4);
 
 const style = (theme :IThemeWeb) => createStyles({
   circularLayer: {
