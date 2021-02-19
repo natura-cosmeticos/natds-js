@@ -5,11 +5,8 @@ import { ILinearProgressProps } from "./LinearProgress.props";
 export { ILinearProgressProps } from "./LinearProgress.props";
 
 /**
- * ## Importing
+ * @deprecated `LinearProgress` component will be deprecated soon.
  *
- * ```
- * import { LinearProgress } from "@naturacosmeticos/natds-web";
- * ```
  */
 export const LinearProgress = React.forwardRef<unknown, ILinearProgressProps>(
   (props: Omit<ILinearProgressProps, "translate">, ref) => (
