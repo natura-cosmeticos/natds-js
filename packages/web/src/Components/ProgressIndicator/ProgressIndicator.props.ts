@@ -16,7 +16,7 @@ export interface IProgressIndicatorProps {
    * @optional
    * @type boolean
    */
-  layer?: boolean;
+  showLayer?: boolean;
 
   /**
    * The size of the circle.

@@ -12,12 +12,12 @@ import { useStyles } from "./ProgressIndicator.styles";
  */
 
 export const ProgressIndicator = (props: IProgressIndicatorProps) => {
-  const { layer = false, size = 48, ...otherProps } = props;
+  const { showLayer = false, size = 48, ...otherProps } = props;
   const { circularLayer } = useStyles(props);
 
   return (
     <>
-      {layer
+      {showLayer
         ? <div className={circularLayer}>
           <MaterialCircularProgress {...otherProps} size={size} />
         </div>

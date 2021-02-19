@@ -16,7 +16,7 @@ describe("ProgressIndicator components", () => {
   });
 
   it("should match to snapshot - with layer", () => {
-    const testRenderer = TestRenderer.create(<ProgressIndicator layer={true} />);
+    const testRenderer = TestRenderer.create(<ProgressIndicator showLayer={true} />);
 
     expect(testRenderer).toMatchSnapshot();
   });
