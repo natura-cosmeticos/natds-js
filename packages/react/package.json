@@ -2,6 +2,7 @@
   "name": "react",
   "displayName": "NatDS-React",
   "version": "0.15.0",
+  "private": false,
   "description": "A collection of components from Natura Design System for React",
   "keywords": [
     "design-system",
@@ -9,34 +10,35 @@
     "react",
     "web"
   ],
+  "homepage": "https://github.com/natura-cosmeticos/natds-js/tree/master/packages/react/README.md",
+  "bugs": {
+    "url": "https://github.com/natura-cosmeticos/natds-js/issues"
+  },
+  "license": "ISC",
   "author": {
     "email": "designsystem@natura.net",
     "name": "Natura&Co.",
     "url": "https://github.com/natura-cosmeticos"
   },
-  "bugs": {
-    "url": "https://github.com/natura-cosmeticos/natds-js/issues"
-  },
-  "homepage": "https://github.com/natura-cosmeticos/natds-js/tree/master/packages/react/README.md",
-  "license": "ISC",
-  "main": "dist/index.js",
-  "directories": {
-    "lib": "dist"
-  },
   "files": [
     "README.md",
     "dist/"
   ],
+  "main": "dist/index.js",
+  "directories": {
+    "lib": "dist"
+  },
   "repository": {
     "directory": "packages/react",
     "type": "git",
     "url": "git+https://github.com/natura-cosmeticos/natds-js.git"
   },
   "scripts": {
-    "build": "yarn clean && tsc -p ./tsconfig.json && yarn rollup:build && yarn copy-assets",
-    "build-storybook": "build-storybook",
+    "build": "yarn clean && tsc -p ./tsconfig.json && yarn rollup:build && yarn copy:assets",
+    "build:storybook": "yarn build-storybook -o docs/dist",
+    "build-storybook-ci": "yarn build:storybook --quiet",
     "clean": "rm -rf ./dist",
-    "copy-assets": "mkdir -p ./dist/assets && cp -r ./src/assets/* ./dist/assets",
+    "copy:assets": "mkdir -p ./dist/assets && cp -r ./src/assets/* ./dist/assets",
     "rollup:build": "rollup -c",
     "storybook": "start-storybook -p 6006",
     "test": "jest",
