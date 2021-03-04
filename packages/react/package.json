@@ -33,15 +33,23 @@
     "url": "git+https://github.com/natura-cosmeticos/natds-js.git"
   },
   "scripts": {
-    "test": "jest",
+    "build": "yarn clean && tsc -p ./tsconfig.json && yarn rollup:build && yarn copy-assets",
+    "build-storybook": "build-storybook",
+    "clean": "rm -rf ./dist",
+    "copy-assets": "mkdir -p ./dist/assets && cp -r ./src/assets/* ./dist/assets",
+    "rollup:build": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "build-storybook": "build-storybook"
+    "test": "jest",
+    "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@babel/core": "^7.13.8",
     "@babel/preset-env": "7.13.9",
     "@babel/preset-react": "7.12.13",
     "@babel/preset-typescript": "7.13.0",
+    "@rollup/plugin-babel": "5.3.0",
+    "@rollup/plugin-commonjs": "17.1.0",
+    "@rollup/plugin-node-resolve": "11.2.0",
     "@storybook/addon-actions": "6.1.21",
     "@storybook/addon-essentials": "^6.1.21",
     "@storybook/addon-links": "^6.1.21",
@@ -57,6 +65,8 @@
     "react": "17.0.1",
     "react-dom": "17.0.1",
     "react-test-renderer": "17.0.1",
+    "rollup": "2.40.0",
+    "rollup-plugin-node-polyfills": "0.2.1",
     "typescript": "4.2.2"
   },
   "peerDependencies": {
@@ -72,5 +82,9 @@
     "@types/react-dom": {
       "optional": true
     }
+  },
+  "resolutions": {
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1"
   }
 }
