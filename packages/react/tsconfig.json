@@ -20,7 +20,8 @@
     "strictFunctionTypes": true,
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
-    "target": "es5"
+    "target": "es5",
+    "types": ["jest", "react"]
   },
-  "files": ["src/index.ts"]
+  "files": ["src/index.ts", "declaration.d.ts", "global.d.ts"]
 }
