@@ -82,7 +82,8 @@
   "workspaces": {
     "packages": [
       "packages/styles",
-      "packages/web"
+      "packages/web",
+      "packages/react"
     ],
     "nohoist": [
       "**/create-react-class",
@@ -131,6 +132,6 @@
     "node-forge": "^0.10.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "@types/react": "16.14.2"
+    "@types/react": "^17.0.2"
   }
 }

@@ -32,7 +32,8 @@
   "lerna": "3.16.4",
   "packages": [
     "packages/styles",
-    "packages/web"
+    "packages/web",
+    "packages/react"
   ],
   "useWorkspaces": true,
   "version": "1.5.3"
