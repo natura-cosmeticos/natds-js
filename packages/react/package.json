@@ -1,5 +1,5 @@
 {
-  "name": "react",
+  "name": "@naturacosmeticos/natds-react",
   "displayName": "NatDS-React",
   "version": "0.15.0",
   "private": false,
@@ -41,14 +41,14 @@
     "copy:assets": "mkdir -p ./dist/assets && cp -r ./src/assets/* ./dist/assets",
     "rollup:build": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "test": "jest",
     "test:watch": "jest --watch"
   },
   "devDependencies": {
     "@types/react": "17.0.2",
     "@types/react-dom": "17.0.1",
     "react": "17.0.1",
-    "react-dom": "17.0.1"
+    "react-dom": "17.0.1",
+    "react-test-renderer": "17.0.1"
   },
   "peerDependencies": {
     "@types/react": ">= 16.8.6",
