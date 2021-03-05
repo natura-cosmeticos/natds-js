@@ -98,7 +98,6 @@
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
     "@naturacosmeticos/eslint-config-natura": "2.0.2",
-    "@storybook/addon-storyshots": "6.0.26",
     "@stryker-mutator/core": "4.2.0",
     "@stryker-mutator/javascript-mutator": "4.0.0",
     "@stryker-mutator/jest-runner": "4.2.0",
@@ -120,18 +119,40 @@
     "shelljs": "0.8.4",
     "ts-loader": "^8.0.11",
     "typescript": "4.0.5",
-    "yarn": "1.22.10"
+    "yarn": "1.22.10",
+    "@babel/core": "7.12.10",
+    "@babel/plugin-proposal-class-properties": "7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "7.12.1",
+    "@babel/preset-env": "7.12.11",
+    "@babel/preset-flow": "7.12.1",
+    "@babel/preset-react": "7.12.10",
+    "@babel/preset-typescript": "7.12.7",
+    "@rollup/plugin-babel": "5.2.2",
+    "@rollup/plugin-commonjs": "16.0.0",
+    "@rollup/plugin-node-resolve": "10.0.0",
+    "@rollup/plugin-typescript": "6.1.0",
+    "@storybook/addon-actions": "6.0.28",
+    "@storybook/addon-essentials": "6.0.28",
+    "@storybook/addon-links": "6.0.28",
+    "@storybook/addon-storyshots": "6.0.28",
+    "@storybook/react": "6.0.28",
+    "@testing-library/dom": "7.26.3",
+    "@testing-library/react": "11.1.0",
+    "@testing-library/user-event": "12.1.10",
+    "@types/jest": "26.0.20",
+    "babel-loader": "8.2.2",
+    "babel-plugin-dynamic-import-node": "2.3.3",
+    "prettier": "2.2.1",
+    "react-docgen-typescript": "1.20.5",
+    "react-docgen-typescript-loader": "3.7.2",
+    "react-test-renderer": "17.0.1",
+    "rollup": "2.36.1",
+    "rollup-plugin-node-polyfills": "0.2.1",
+    "webpack-merge": "5.7.0"
   },
   "config": {
     "commitizen": {
       "path": "./node_modules/cz-lerna-changelog"
     }
-  },
-  "resolutions": {
-    "dot-prop": "^5.2.0",
-    "node-forge": "^0.10.0",
-    "react": "^17.0.1",
-    "react-dom": "^17.0.1",
-    "@types/react": "^17.0.2"
   }
 }
