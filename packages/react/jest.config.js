@@ -3,7 +3,10 @@ const { displayName, name } = require("./package.json");
 
 module.exports = {
   ...base,
-  collectCoverageFrom: ["src/**/*.{js,jsx,ts,tsx}"],
+  collectCoverageFrom: [
+    "src/**/*.{js,jsx,ts,tsx}",
+    "!src/**/*.stories.tsx"
+  ],
   errorOnDeprecated: true,
   displayName,
   name,

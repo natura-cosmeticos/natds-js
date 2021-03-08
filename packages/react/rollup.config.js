@@ -20,7 +20,7 @@ const getPluginsForBrowser = () => [
 const getBrowserOutputConfig = ({
   filePath = "",
   globals,
-  name = "natdsWeb",
+  name = "natdsReact",
 }) => [
   {
     dir: `./dist/umd/${filePath}`,
