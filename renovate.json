@@ -7,9 +7,9 @@
     "default:pinVersions"
   ],
   "ignoreDeps": [
-    "@naturacosmeticos/natds-icons",
     "@naturacosmeticos/natds-styles",
-    "@naturacosmeticos/natds-web"
+    "@naturacosmeticos/natds-web",
+    "@naturacosmeticos/natds-react"
   ],
   "labels": ["dependencies", "renovate"],
   "lockFileMaintenance": { "enabled": true },
@@ -44,23 +44,9 @@
       "labels": ["dependencies", "linting", "renovate"]
     },
     {
-      "packagePatterns": ["snyk"],
-      "labels": ["dependencies", "renovate", "security"]
-    },
-    {
       "packagePatterns": ["^@material-ui"],
       "labels": ["dependencies", "material ui", "renovate"]
     },
-    {
-      "paths": ["examples/create-react-app/package.json"],
-      "labels": ["cra", "dependencies", "examples", "renovate"],
-      "enabled": true
-    },
-    {
-      "paths": ["examples/create-react-app-with-typescript/package.json"],
-      "labels": ["cra-typescript", "dependencies", "examples", "renovate"],
-      "enabled": true
-    }
   ],
   "prConcurrentLimit": 3,
   "semanticCommits": "enabled",
