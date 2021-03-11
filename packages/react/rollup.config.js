@@ -36,9 +36,6 @@ const globals = {
 };
 const external = Object.keys(globals);
 
-/**
- * @see https://github.com/rollup/plugins/issues/243#issuecomment-595964778
- */
 export default [
   {
     external,
