@@ -1,81 +1,43 @@
+const path = require('path')
+
 module.exports = {
   env: {
     browser: true,
     es2020: true,
     jest: true,
-    mocha: false,
-    node: true,
+    node: true
   },
   extends: [
-    'eslint:recommended',
-    'plugin:react/recommended',
-    'plugin:react-hooks/recommended',
-    'plugin:@typescript-eslint/recommended',
-    '@naturacosmeticos/natura',
+    '@naturacosmeticos/eslint-config-natds/base',
+    '@naturacosmeticos/eslint-config-natds/jest',
+    '@naturacosmeticos/eslint-config-natds/react',
+    '@naturacosmeticos/eslint-config-natds/typescript'
   ],
-  parser: '@typescript-eslint/parser',
-  parserOptions: {
-    ecmaFeatures: { jsx: true },
-    ecmaVersion: 11,
-    sourceType: 'module',
-  },
-  plugins: ['react', '@typescript-eslint'],
-  rules: {
-    'array-bracket-spacing': 'error',
-    'arrow-parens': 'error',
-    'block-spacing': 'error',
-    'brace-style': 'error',
-    'comma-dangle': 'error',
-    'comma-spacing': 'error',
-    'computed-property-spacing': 'error',
-    'default-case': 'error',
-    'eol-last': 'error',
-    'func-call-spacing': 'error',
-    'id-length': 'error',
-    'implicit-arrow-linebreak': 'error',
-    'jsx-quotes': 'error',
-    'key-spacing': 'error',
-    'keyword-spacing': 'error',
-    'lines-around-comment': 'error',
-    'lines-between-class-members': 'error',
-    'max-depth': 'error',
-    'new-cap': 'error',
-    'new-parens': 'error',
-    'no-alert': 'error',
-    'no-bitwise': 'error',
-    'no-console': 'error',
-    'no-duplicate-imports': 'error',
-    'no-floating-decimal': 'error',
-    'no-multi-assign': 'error',
-    'no-multi-spaces': 'error',
-    'no-multiple-empty-lines': 'error',
-    'no-nested-ternary': 'error',
-    'no-throw-literal': 'error',
-    'no-trailing-spaces': 'error',
-    'no-undef-init': 'error',
-    'no-unneeded-ternary': 'error',
-    'no-unused-expressions': 'error',
-    'no-useless-computed-key': 'error',
-    'no-whitespace-before-property': 'error',
-    'object-curly-spacing': 'error',
-    'prefer-template': 'error',
-    'space-in-parens': 'error',
-    'wrap-regex': 'error',
-  },
+  overrides: [{
+    files: ['./packages/web/**/*.{ts,tsx,js}'],
+    rules: {
+      'import/no-extraneous-dependencies': [
+        'error',
+        {
+          devDependencies: true,
+          packageDir: path.join(__dirname, 'packages', 'natds-icons')
+        }
+      ]
+    }
+  }],
   settings: {
     'import/resolver': {
       node: {
+        extensions: ['.ts'],
         paths: [
-          'packages/styles/src',
-          'packages/web/src',
-          'packages/react/src',
-        ],
-      },
+          'packages/'
+        ]
+      }
     },
     react: {
       linkComponents: ['Link'],
       pragma: 'React',
-      version: '16.13.1',
-    },
-  },
-};
+      version: '16.13.1'
+    }
+  }
+}

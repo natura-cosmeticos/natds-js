@@ -47,6 +47,8 @@
     "build-storybook": "yarn update:storybook:fonts && build-storybook -o docs/dist -s ./.storybook/assets",
     "build-storybook-ci": "yarn build-storybook --quiet",
     "clean": "rm -rf ./dist",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx  ./",
+    "lint:fix": "yarn lint --fix",
     "open:coverage": "open coverage/lcov-report/index.html",
     "rollup:build": "rollup -c",
     "start": "yarn build --watch",
