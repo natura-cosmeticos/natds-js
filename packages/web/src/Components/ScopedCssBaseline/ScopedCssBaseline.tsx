@@ -1,7 +1,7 @@
-import MaterialScopedCssBaseline from "@material-ui/core/ScopedCssBaseline";
+import MaterialScopedCssBaseline from '@material-ui/core/ScopedCssBaseline'
 
-export { IScopedCssBaselineProps } from "./ScopedCssBaseline.props";
+export { IScopedCssBaselineProps } from './ScopedCssBaseline.props'
 
-export const ScopedCssBaseline = MaterialScopedCssBaseline;
+export const ScopedCssBaseline = MaterialScopedCssBaseline
 
-export default ScopedCssBaseline;
+export default ScopedCssBaseline

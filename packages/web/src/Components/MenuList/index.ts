@@ -1,5 +1,5 @@
-import MenuList from "./MenuList";
+import MenuList from './MenuList'
 
-export { IMenuListProps } from "./MenuList.props";
-export { MenuList };
-export default MenuList;
+export { IMenuListProps } from './MenuList.props'
+export { MenuList }
+export default MenuList

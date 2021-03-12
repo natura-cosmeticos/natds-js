@@ -1,11 +1,11 @@
-import { LinearProgressProps } from "@material-ui/core/LinearProgress";
+import { LinearProgressProps } from '@material-ui/core/LinearProgress'
 
 /**
  * For more advanced usages, check [Material UI Progress docs](https://material-ui.com/pt/components/progress/)
  *
  * @see https://material-ui.com/pt/components/progress/
  */
-export interface ILinearProgressProps extends Omit<LinearProgressProps, "translate"> {
+export interface ILinearProgressProps extends Omit<LinearProgressProps, 'translate'> {
 
   /**
    * Override or extend the styles applied to the component.
@@ -16,7 +16,7 @@ export interface ILinearProgressProps extends Omit<LinearProgressProps, "transla
    * @see https://material-ui.com/api/linear-progress/#css
    * @type object
    */
-  classes?: LinearProgressProps["classes"]
+  classes?: LinearProgressProps['classes']
 
   /**
    * The color of the component. It supports those theme colors that make sense for this component.
@@ -26,7 +26,7 @@ export interface ILinearProgressProps extends Omit<LinearProgressProps, "transla
    * @todo Check if we should include `inherit` color
    * @type "primary" | "secondary"
    */
-  color?: LinearProgressProps["color"]
+  color?: LinearProgressProps['color']
 
   /**
    * The value of the progress indicator for the `determinate` and `static` variants. Value between `0` and `100`.
@@ -34,7 +34,7 @@ export interface ILinearProgressProps extends Omit<LinearProgressProps, "transla
    * @optional
    * @type number
    */
-  value?: LinearProgressProps["value"]
+  value?: LinearProgressProps['value']
 
   /**
    * The value for the `buffer` variant. Value between `0` and `100`.
@@ -42,7 +42,7 @@ export interface ILinearProgressProps extends Omit<LinearProgressProps, "transla
    * @optional
    * @type number
    */
-  valueBuffer?: LinearProgressProps["valueBuffer"]
+  valueBuffer?: LinearProgressProps['valueBuffer']
 
   /**
    * The variant to use. Use `indeterminate` when there is no progress value.
@@ -51,5 +51,5 @@ export interface ILinearProgressProps extends Omit<LinearProgressProps, "transla
    * @optional
    * @type "determinate" | "indeterminate" | "buffer" | "query"
    */
-  variant?: LinearProgressProps["variant"]
+  variant?: LinearProgressProps['variant']
 }

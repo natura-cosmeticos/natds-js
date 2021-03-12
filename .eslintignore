@@ -1,11 +1,9 @@
 *.spec.tsx.snap
 .github
-.netlify
 .stryker-tmp
 coverage
 dist
 docs
-examples/create-react-app
 lcov-report
 node_modules
 packages/*/.stryker-tmp
@@ -18,7 +16,7 @@ packages/*/storybook-static
 package.json
 releases
 reports
-scripts/lint-staged.sh
+scripts
 storybook-static
 yarn-error.log
 

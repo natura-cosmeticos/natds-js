@@ -1,9 +1,9 @@
-import * as React from "react";
-import MaterialBreadcrumbs from "@material-ui/core/Breadcrumbs";
+import * as React from 'react'
+import MaterialBreadcrumbs from '@material-ui/core/Breadcrumbs'
 
-import { IBreadcrumbsProps } from "./Breadcrumbs.props";
+import { IBreadcrumbsProps } from './Breadcrumbs.props'
 
-export { IBreadcrumbsProps } from "./Breadcrumbs.props";
+export { IBreadcrumbsProps } from './Breadcrumbs.props'
 
 /**
  * ## Importing
@@ -13,8 +13,9 @@ export { IBreadcrumbsProps } from "./Breadcrumbs.props";
  * ```
  */
 export const Breadcrumbs = React.forwardRef<HTMLElement, IBreadcrumbsProps>(
-  (props: IBreadcrumbsProps, ref) => <MaterialBreadcrumbs {...props} ref={ref} />);
+  (props: IBreadcrumbsProps, ref) => <MaterialBreadcrumbs {...props} ref={ref} />
+)
 
-Breadcrumbs.displayName = "Breadcrumbs";
+Breadcrumbs.displayName = 'Breadcrumbs'
 
-export default Breadcrumbs;
+export default Breadcrumbs

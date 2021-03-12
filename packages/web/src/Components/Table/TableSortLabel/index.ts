@@ -1,5 +1,5 @@
-import TableSortLabel from "./TableSortLabel";
+import TableSortLabel from './TableSortLabel'
 
-export { ITableSortLabelProps } from "./TableSortLabel.props";
-export { TableSortLabel };
-export default TableSortLabel;
+export { ITableSortLabelProps } from './TableSortLabel.props'
+export { TableSortLabel }
+export default TableSortLabel

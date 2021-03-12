@@ -1,7 +1,7 @@
-import * as React from "react";
-import MaterialChip from "@material-ui/core/Chip";
-import { Icon } from "../Icon";
-import { IChipProps } from "./Chip.props";
+import * as React from 'react'
+import MaterialChip from '@material-ui/core/Chip'
+import { Icon } from '../Icon'
+import { IChipProps } from './Chip.props'
 
 /**
  * For more advanced usages, check [Material UI Chip docs](https://material-ui.com/components/chips/)
@@ -15,27 +15,26 @@ import { IChipProps } from "./Chip.props";
  * @see https://material-ui.com/components/chips/
  */
 export const Chip = React.forwardRef<HTMLDivElement, IChipProps>((
-  props: IChipProps, ref,
+  props: IChipProps, ref
 ) => {
   const {
     deleteIcon, onDelete, size, ...otherProps
-  } = props;
+  } = props
 
   const iconFactory = () => {
-
     if (!React.isValidElement(deleteIcon)) {
-      const iconSize = size === "small" ? "micro" : "tiny";
+      const iconSize = size === 'small' ? 'micro' : 'tiny'
 
-      return <Icon name="filled-action-cancel" size={iconSize} />;
+      return <Icon name="filled-action-cancel" size={iconSize} />
     }
 
-    return deleteIcon;
-  };
+    return deleteIcon
+  }
 
   /**
    * @see https://material-ui.com/guides/composition/#caveat-with-inlining
    */
-  const validDeleteIcon = React.useMemo(iconFactory, [deleteIcon, size]);
+  const validDeleteIcon = React.useMemo(iconFactory, [deleteIcon, size])
 
   return (
     <MaterialChip
@@ -45,9 +44,9 @@ export const Chip = React.forwardRef<HTMLDivElement, IChipProps>((
       {...otherProps}
       ref={ref}
     />
-  );
-});
+  )
+})
 
-Chip.displayName = "Chip";
+Chip.displayName = 'Chip'
 
-export default Chip;
+export default Chip

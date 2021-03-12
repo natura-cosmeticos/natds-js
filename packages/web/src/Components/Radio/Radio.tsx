@@ -1,9 +1,9 @@
-import * as React from "react";
-import MaterialRadio from "@material-ui/core/Radio";
+import * as React from 'react'
+import MaterialRadio from '@material-ui/core/Radio'
 
-import { IRadioProps } from "./Radio.props";
+import { IRadioProps } from './Radio.props'
 
-export { IRadioProps } from "./Radio.props";
+export { IRadioProps } from './Radio.props'
 
 /**
  * For more advanced usages, check [Material UI Radio docs](https://material-ui.com/components/radio-buttons/)
@@ -18,8 +18,8 @@ export { IRadioProps } from "./Radio.props";
  */
 export const Radio = React.forwardRef<HTMLButtonElement, IRadioProps>((props: IRadioProps, ref) => (
   <MaterialRadio {...props} ref={ref} />
-));
+))
 
-Radio.displayName = "Radio";
+Radio.displayName = 'Radio'
 
-export default Radio;
+export default Radio

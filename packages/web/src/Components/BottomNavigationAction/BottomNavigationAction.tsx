@@ -1,9 +1,9 @@
-import * as React from "react";
-import MaterialBottomNavigationAction from "@material-ui/core/BottomNavigationAction";
-import { IBottomNavigationActionProps } from "./BottomNavigationAction.props";
-import { useStyles } from "./BottomNavigationAction.styles";
+import * as React from 'react'
+import MaterialBottomNavigationAction from '@material-ui/core/BottomNavigationAction'
+import { IBottomNavigationActionProps } from './BottomNavigationAction.props'
+import { useStyles } from './BottomNavigationAction.styles'
 
-export { IBottomNavigationActionProps } from "./BottomNavigationAction.props";
+export { IBottomNavigationActionProps } from './BottomNavigationAction.props'
 
 /**
  * ## Importing
@@ -13,13 +13,13 @@ export { IBottomNavigationActionProps } from "./BottomNavigationAction.props";
  * ```
  */
 export const BottomNavigationAction = React.forwardRef<HTMLButtonElement, IBottomNavigationActionProps>((
-  props: IBottomNavigationActionProps, ref,
+  props: IBottomNavigationActionProps, ref
 ) => {
-  const classes = useStyles();
+  const classes = useStyles()
 
-  return <MaterialBottomNavigationAction {...props} classes={classes} ref={ref} />;
-});
+  return <MaterialBottomNavigationAction {...props} classes={classes} ref={ref} />
+})
 
-BottomNavigationAction.displayName = "BottomNavigationAction";
+BottomNavigationAction.displayName = 'BottomNavigationAction'
 
-export default BottomNavigationAction;
+export default BottomNavigationAction

@@ -1,22 +1,22 @@
-import { Story } from "@storybook/react";
-import * as React from "react";
-import { IExpansionPanelProps } from "./ExpansionPanel.props";
-import { ExpansionPanel } from "./ExpansionPanel";
-import { ExpansionPanelSummary } from "../ExpansionPanelSummary";
+import { Story } from '@storybook/react'
+import * as React from 'react'
+import { IExpansionPanelProps } from './ExpansionPanel.props'
+import { ExpansionPanel } from './ExpansionPanel'
+import { ExpansionPanelSummary } from '../ExpansionPanelSummary'
 import {
   Playground as SummaryPlayground,
-  WithTypography, WithTypographyInsideDiv,
-} from "../ExpansionPanelSummary/ExpansionPanelSummary.stories";
-import { ExpansionPanelDetails } from "../ExpansionPanelDetails";
+  WithTypography, WithTypographyInsideDiv
+} from '../ExpansionPanelSummary/ExpansionPanelSummary.stories'
+import { ExpansionPanelDetails } from '../ExpansionPanelDetails'
 import {
   Playground as DetailsPlayground,
   WithSubtitle1, WithSubtitle1AndTextPrimaryColor,
-  WithSubtitle1AndTextSecondaryColor,
-} from "../ExpansionPanelDetails/ExpansionPanelDetails.stories";
-import { ExpansionPanelActions } from "../ExpansionPanelActions";
-import { Playground as ActionsPlayground } from "../ExpansionPanelActions/ExpansionPanelActions.stories";
-import { Divider } from "../Divider";
-import { Playground as DividerPlayground } from "../Divider/Divider.stories";
+  WithSubtitle1AndTextSecondaryColor
+} from '../ExpansionPanelDetails/ExpansionPanelDetails.stories'
+import { ExpansionPanelActions } from '../ExpansionPanelActions'
+import { Playground as ActionsPlayground } from '../ExpansionPanelActions/ExpansionPanelActions.stories'
+import { Divider } from '../Divider'
+import { Playground as DividerPlayground } from '../Divider/Divider.stories'
 
 export const Template : Story<IExpansionPanelProps> = (args: IExpansionPanelProps) => (
   <div>
@@ -48,6 +48,6 @@ export const Template : Story<IExpansionPanelProps> = (args: IExpansionPanelProp
       <Divider {...DividerPlayground.args} />
     </ExpansionPanel>
   </div>
-);
+)
 
-export default Template;
+export default Template

@@ -3,25 +3,25 @@ export const argTypes = {
     description: "Defines the `align-content` style property. It's applied for all screen sizes.",
     table: {
       defaultValue: {
-        summary: "stretch",
-      },
-    },
+        summary: 'stretch'
+      }
+    }
   },
   alignItems: {
     description: "Defines the `align-items` style property. It's applied for all screen sizes.",
     table: {
       defaultValue: {
-        summary: "stretch",
-      },
-    },
+        summary: 'stretch'
+      }
+    }
   },
   children: {
-    description: "The content of the component.",
+    description: 'The content of the component.',
     table: {
       type: {
-        summary: "node",
-      },
-    },
+        summary: 'node'
+      }
+    }
   },
   classes: {
     description: `
@@ -30,55 +30,55 @@ See [CSS API](https://material-ui.com/api/grid/#css) below for more details.
 `,
     table: {
       type: {
-        summary: "object",
-      },
-    },
+        summary: 'object'
+      }
+    }
   },
   component: {
-    description: "The component used for the root node. Either a string to use a HTML element or a component.",
+    description: 'The component used for the root node. Either a string to use a HTML element or a component.',
     table: {
       defaultValue: {
-        summary: "div",
+        summary: 'div'
       },
       type: {
-        summary: "elementType",
-      },
-    },
+        summary: 'elementType'
+      }
+    }
   },
   direction: {
-    description: "Defines the `flex-direction` style property. It is applied for all screen sizes.",
+    description: 'Defines the `flex-direction` style property. It is applied for all screen sizes.'
   },
   justify: {
-    description: "Defines the `justify-content` style property. It is applied for all screen sizes.",
+    description: 'Defines the `justify-content` style property. It is applied for all screen sizes.'
   },
   spacing: {
     control: {
       max: 10,
       min: 0,
       step: 1,
-      type: "range",
+      type: 'range'
     },
-    description: "Defines the space between the `GridItem` component.",
+    description: 'Defines the space between the `GridItem` component.',
     table: {
       defaultValue: {
-        summary: 0,
-      },
+        summary: 0
+      }
     },
     type: {
-      required: false,
-    },
+      required: false
+    }
   },
   wrap: {
     description: "Defines the `flex-wrap` style property. It's applied for all screen sizes.",
     table: {
       defaultValue: {
-        summary: "wrap",
-      },
-    },
+        summary: 'wrap'
+      }
+    }
   },
   zeroMinWidth: {
     control: {
-      type: "boolean",
+      type: 'boolean'
     },
     description: `
 If \`true\`, it sets \`min-width: 0\` on the item.
@@ -86,10 +86,10 @@ Refer to the limitations section of the documentation to better understand the u
 `,
     table: {
       defaultValue: {
-        summary: false,
-      },
-    },
-  },
-};
+        summary: false
+      }
+    }
+  }
+}
 
-export default argTypes;
+export default argTypes

@@ -1,20 +1,20 @@
-import { IconName } from "@naturacosmeticos/natds-icons";
-import { IIconSizes } from "@naturacosmeticos/natds-styles";
-import { IconProps } from "@material-ui/core/Icon";
+import { IconName } from '@naturacosmeticos/natds-icons'
+import { IIconSizes } from '@naturacosmeticos/natds-styles'
+import { IconProps } from '@material-ui/core/Icon'
 
 /**
  * @todo add support to color tokens from Natura & Co. themes
  */
 export type IconColor =
-  "default" |
-  "error" |
-  "inherit" |
-  "primary" |
-  "secondary";
+  'default' |
+  'error' |
+  'inherit' |
+  'primary' |
+  'secondary';
 
 export type IconSize = keyof IIconSizes;
 
-export interface IIconProps extends Omit<IconProps, "children" | "fontSize" | "name"> {
+export interface IIconProps extends Omit<IconProps, 'children' | 'fontSize' | 'name'> {
 
   /**
    * @todo add support to color tokens from Natura & Co. themes

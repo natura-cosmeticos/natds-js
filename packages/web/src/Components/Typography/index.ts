@@ -1,7 +1,7 @@
-import Typography from "./Typography";
+import Typography from './Typography'
 
 export {
-  ITypographyProps, TypographyAlign, TypographyColor, TypographyVariant,
-} from "./Typography.props";
-export { Typography };
-export default Typography;
+  ITypographyProps, TypographyAlign, TypographyColor, TypographyVariant
+} from './Typography.props'
+export { Typography }
+export default Typography

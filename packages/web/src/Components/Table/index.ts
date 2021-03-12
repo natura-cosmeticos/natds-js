@@ -1,5 +1,5 @@
-import Table from "./Table";
+import Table from './Table'
 
-export { ITableProps } from "./Table.props";
-export { Table };
-export default Table;
+export { ITableProps } from './Table.props'
+export { Table }
+export default Table

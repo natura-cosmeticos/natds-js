@@ -1,17 +1,17 @@
-import * as React from "react";
+import * as React from 'react'
 
-import clsx from "clsx";
-import { Box } from "@material-ui/core";
-import { ISpacingProps } from "./Spacing.props";
-import { useStyles } from "./Spacing.styles";
+import clsx from 'clsx'
+import { Box } from '@material-ui/core'
+import { ISpacingProps } from './Spacing.props'
+import { useStyles } from './Spacing.styles'
 
 export const Spacing : React.FunctionComponent<ISpacingProps> = (
-  props: ISpacingProps,
+  props: ISpacingProps
 ) => {
   const {
     children,
     className,
-    component: Component = "div",
+    component: Component = 'div',
     display,
     // eslint-disable-next-line id-length
     m,
@@ -45,7 +45,7 @@ export const Spacing : React.FunctionComponent<ISpacingProps> = (
     py,
     style,
     ...otherProps
-  } = props;
+  } = props
 
   const classes = useStyles({
     // eslint-disable-next-line id-length
@@ -77,19 +77,21 @@ export const Spacing : React.FunctionComponent<ISpacingProps> = (
     pr,
     pt,
     px,
-    py,
-  });
+    py
+  })
 
-  return <Box
-    component={Component}
-    className={clsx(classes.root, className)}
-    display={display}
-    {...otherProps}
-    style={style}
-  >
-    {children}
-  </Box>;
-};
+  return (
+    <Box
+      component={Component}
+      className={clsx(classes.root, className)}
+      display={display}
+      {...otherProps}
+      style={style}
+    >
+      {children}
+    </Box>
+  )
+}
 
-Spacing.displayName = "Spacing";
-export default Spacing;
+Spacing.displayName = 'Spacing'
+export default Spacing

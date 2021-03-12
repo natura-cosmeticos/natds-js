@@ -1,38 +1,38 @@
-import { getLabelStyles, getRootStyles } from "./Button.styles";
-import { IThemeWeb } from "../../Themes";
+import { getLabelStyles, getRootStyles } from './Button.styles'
+import { IThemeWeb } from '../../Themes'
 
-describe("Button styles", () => {
-  describe("when theme is undefined", () => {
-    describe("root styles", () => {
-      it("should not be overridden", () => {
+describe('Button styles', () => {
+  describe('when theme is undefined', () => {
+    describe('root styles', () => {
+      it('should not be overridden', () => {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
-        const actual = getRootStyles();
+        const actual = getRootStyles()
 
-        expect(actual).toStrictEqual({});
-      });
-    });
-    describe("label styles", () => {
-      it("should not be overriden", () => {
+        expect(actual).toStrictEqual({})
+      })
+    })
+    describe('label styles', () => {
+      it('should not be overriden', () => {
         // eslint-disable-next-line @typescript-eslint/ban-ts-comment
         // @ts-ignore
-        const actual = getLabelStyles();
+        const actual = getLabelStyles()
 
-        expect(actual).toStrictEqual({});
-      });
-    });
-  });
+        expect(actual).toStrictEqual({})
+      })
+    })
+  })
 
-  describe("when theme sizes are undefined", () => {
-    describe("root styles", () => {
-      it("should be not overridden", () => {
-        const actual = getRootStyles({} as IThemeWeb);
+  describe('when theme sizes are undefined', () => {
+    describe('root styles', () => {
+      it('should be not overridden', () => {
+        const actual = getRootStyles({} as IThemeWeb)
 
-        expect(actual).toStrictEqual({});
-      });
-    });
-  });
-  describe("when theme small size is defined", () => {
+        expect(actual).toStrictEqual({})
+      })
+    })
+  })
+  describe('when theme small size is defined', () => {
     const theme = {
       sizes: {
         none: 0,
@@ -52,28 +52,27 @@ describe("Button styles", () => {
         hugeX: 128,
         hugeXX: 144,
         hugeXXX: 192,
-        veryHuge: 256,
-      },
-    } as IThemeWeb;
+        veryHuge: 256
+      }
+    } as IThemeWeb
 
-    describe("button horizontal padding", () => {
-      it("should use small size token", () => {
-        const actual = getRootStyles(theme);
-        const small = 16;
+    describe('button horizontal padding', () => {
+      it('should use small size token', () => {
+        const actual = getRootStyles(theme)
+        const small = 16
 
-        expect(actual).toHaveProperty("paddingLeft", small);
-        expect(actual).toHaveProperty("paddingRight", small);
-      });
-    });
+        expect(actual).toHaveProperty('paddingLeft', small)
+        expect(actual).toHaveProperty('paddingRight', small)
+      })
+    })
 
-    describe("label line height", () => {
-      it("should use standard size token be pixel measured", () => {
-        const actual = getLabelStyles(theme);
-        const standard = "24px";
+    describe('label line height', () => {
+      it('should use standard size token be pixel measured', () => {
+        const actual = getLabelStyles(theme)
+        const standard = '24px'
 
-        expect(actual).toHaveProperty("lineHeight", standard);
-      });
-    });
-
-  });
-});
+        expect(actual).toHaveProperty('lineHeight', standard)
+      })
+    })
+  })
+})

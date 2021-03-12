@@ -1,19 +1,18 @@
-import React from "react";
-import { ButtonProps } from "./Button.props";
+import React from 'react'
+import { ButtonProps } from './Button.props'
 
-export const Button: React.FC<ButtonProps> = ({
+const Button: React.FC<ButtonProps> = ({
   primary = false,
-  size = "medium",
+  size = 'medium',
   label,
   ...props
-}) => {
+}) => (
+  <button
+    type="button"
+    {...props}
+  >
+    {label}
+  </button>
+)
 
-  return (
-    <button
-      type="button"
-      {...props}
-    >
-      {label}
-    </button>
-  );
-};
+export default Button

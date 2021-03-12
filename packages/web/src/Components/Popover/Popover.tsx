@@ -1,11 +1,11 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
-import { Popper } from "@material-ui/core";
-import { Card } from "../Card";
-import Typography from "../Typography";
-import { IPopoverProps } from "./Popover.props";
-import { ActionLink } from "./ActionLink";
-import { useStyles } from "./Popover.styles";
+import * as React from 'react'
+import { Popper } from '@material-ui/core'
+import { Card } from '../Card'
+import Typography from '../Typography'
+import { IPopoverProps } from './Popover.props'
+import { ActionLink } from './ActionLink'
+import { useStyles } from './Popover.styles'
 
 /**
  * ## Importing
@@ -20,22 +20,22 @@ export const Popover = React.forwardRef<unknown, IPopoverProps>((props: IPopover
     actionLink,
     children,
     component: Component = Popper,
-    direction = "bottom",
+    direction = 'bottom',
     maxWidth,
     // eslint-disable-next-line @typescript-eslint/no-unused-vars
     modifiers,
     open,
     ...rest
-  } = props;
+  } = props
   const [
-    arrowRef, setArrowRef,
-  ] = React.useState<HTMLSpanElement | null>(null);
+    arrowRef, setArrowRef
+  ] = React.useState<HTMLSpanElement | null>(null)
 
   const {
-    actionLinkContainer, arrow, container, root,
+    actionLinkContainer, arrow, container, root
   } = useStyles({
-    children, direction, maxWidth, open,
-  });
+    children, direction, maxWidth, open
+  })
 
   return (
     <Component
@@ -43,30 +43,30 @@ export const Popover = React.forwardRef<unknown, IPopoverProps>((props: IPopover
       modifiers={{
         arrow: {
           element: arrowRef,
-          enabled: true,
+          enabled: true
         },
         flip: {
-          enabled: true,
+          enabled: true
         },
         preventOverflow: {
-          boundariesElement: "scrollParent",
-          enabled: true,
-        },
+          boundariesElement: 'scrollParent',
+          enabled: true
+        }
       }}
       open={open}
       placement={direction}
       ref={ref}
       {...rest}
     >
-      <span aria-hidden={true} className={arrow} ref={setArrowRef} />
+      <span aria-hidden className={arrow} ref={setArrowRef} />
       <Card elevation={12} className={container}>
         <Typography variant="body2">{children}</Typography>
         {actionLink && <ActionLink {...actionLink} className={actionLinkContainer} />}
       </Card>
     </Component>
-  );
-});
+  )
+})
 
-Popover.displayName = "Popover";
+Popover.displayName = 'Popover'
 
-export default Popover;
+export default Popover

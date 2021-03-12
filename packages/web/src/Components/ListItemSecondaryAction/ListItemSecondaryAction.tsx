@@ -1,6 +1,6 @@
-import * as React from "react";
-import MaterialListItemSecondaryAction from "@material-ui/core/ListItemSecondaryAction";
-import { IListItemSecondaryActionProps } from "./ListItemSecondaryAction.props";
+import * as React from 'react'
+import MaterialListItemSecondaryAction from '@material-ui/core/ListItemSecondaryAction'
+import { IListItemSecondaryActionProps } from './ListItemSecondaryAction.props'
 
 /**
  * ## Importing
@@ -10,9 +10,9 @@ import { IListItemSecondaryActionProps } from "./ListItemSecondaryAction.props";
  * ```
  */
 export const ListItemSecondaryAction = React.forwardRef<unknown, IListItemSecondaryActionProps>((
-  props: IListItemSecondaryActionProps, ref,
-) => <MaterialListItemSecondaryAction {...props} ref={ref} />);
+  props: IListItemSecondaryActionProps, ref
+) => <MaterialListItemSecondaryAction {...props} ref={ref} />)
 
-ListItemSecondaryAction.displayName = "ListItemSecondaryAction";
+ListItemSecondaryAction.displayName = 'ListItemSecondaryAction'
 
-export default ListItemSecondaryAction;
+export default ListItemSecondaryAction

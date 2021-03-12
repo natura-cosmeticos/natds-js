@@ -6,5 +6,5 @@ export interface IDividerProps {
    * @default "fullWidth"
    * @type "fullWidth" | "inset" | "middle"
    */
-  variant?: "fullWidth" | "inset" | "middle"
+  variant?: 'fullWidth' | 'inset' | 'middle'
 }

@@ -1,9 +1,9 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
-import createStyles from "@material-ui/core/styles/createStyles";
-import { IAvatarProperties } from "@naturacosmeticos/natds-styles";
-import { StyleRules } from "@material-ui/core";
-import { AvatarColor, AvatarSize } from "./Avatar.props";
-import { IThemeWeb } from "../../Themes";
+import createStyles from '@material-ui/core/styles/createStyles'
+import { IAvatarProperties } from '@naturacosmeticos/natds-styles'
+import { StyleRules } from '@material-ui/core'
+import { AvatarColor, AvatarSize } from './Avatar.props'
+import { IThemeWeb } from '../../Themes'
 
 type AvatarStylesArgs = {
   color?: AvatarColor,
@@ -19,9 +19,9 @@ type AvatarFallbackStyles = {
 type AvatarRootStyles = {
   backgroundColor: string,
   color: string,
-  fontSize: IAvatarProperties["fontSize"],
-  height: IAvatarProperties["size"],
-  width: IAvatarProperties["size"]
+  fontSize: IAvatarProperties['fontSize'],
+  height: IAvatarProperties['size'],
+  width: IAvatarProperties['size']
 }
 
 type AvatarStyles = {
@@ -31,67 +31,62 @@ type AvatarStyles = {
 
 // eslint-disable-next-line complexity
 export const getStylesForColor: ({ color, theme }: AvatarStylesArgs) => AvatarStyles = ({ color, theme }) => {
+  const fallback = {} as AvatarFallbackStyles
+  const root = {} as AvatarRootStyles
 
-  const fallback = {} as AvatarFallbackStyles;
-  const root = {} as AvatarRootStyles;
-
-  const { palette } = theme;
+  const { palette } = theme
 
   /**
    * @todo fix Element implicitly has an 'any' type because expression of type 'string' can't be used to index type
    */
   if (
-    typeof color === "string"
-    && color !== "default"
-    && typeof palette !== "undefined"
+    typeof color === 'string'
+    && color !== 'default'
+    && typeof palette !== 'undefined'
     // @ts-ignore
-    && typeof palette[color] !== "undefined"
+    && typeof palette[color] !== 'undefined'
   ) {
     // @ts-ignore
-    const colorObject = palette[color];
+    const colorObject = palette[color]
 
-    root.backgroundColor = colorObject.main;
-    root.color = colorObject.contrastText;
-    fallback.color = colorObject.contrastText;
-    fallback.fill = colorObject.contrastText;
+    root.backgroundColor = colorObject.main
+    root.color = colorObject.contrastText
+    fallback.color = colorObject.contrastText
+    fallback.fill = colorObject.contrastText
   }
 
-  return { fallback, root } as AvatarStyles;
-
-};
+  return { fallback, root } as AvatarStyles
+}
 
 const getStylesForSize: ({ size, theme }: AvatarStylesArgs) => AvatarStyles = ({ size, theme }) => {
+  const fallback = {} as AvatarFallbackStyles
+  const root = {} as AvatarRootStyles
 
-  const fallback = {} as AvatarFallbackStyles;
-  const root = {} as AvatarRootStyles;
-
-  const { avatarSizes } = theme;
+  const { avatarSizes } = theme
 
   if (size && avatarSizes && avatarSizes[size]) {
-    root.fontSize = avatarSizes[size].fontSize;
-    root.height = avatarSizes[size].size;
-    root.width = avatarSizes[size].size;
+    root.fontSize = avatarSizes[size].fontSize
+    root.height = avatarSizes[size].size
+    root.width = avatarSizes[size].size
   }
 
-  return { fallback, root } as AvatarStyles;
+  return { fallback, root } as AvatarStyles
+}
 
-};
-
-export const styles : ({ color, size, theme }: AvatarStylesArgs) => StyleRules<"root" | "fallback"> = ({ color, size, theme }) => {
-
-  const colorStyles = getStylesForColor({ color, theme });
-  const sizeStyles = getStylesForSize({ size, theme });
+export const styles : ({ color, size, theme }: AvatarStylesArgs) => StyleRules<'root' | 'fallback'> = ({ color, size, theme }) => {
+  const colorStyles = getStylesForColor({ color, theme })
+  const sizeStyles = getStylesForSize({ size, theme })
 
   return createStyles({
     root: {
       ...colorStyles.root,
-      ...sizeStyles.root,
+      ...sizeStyles.root
     },
     fallback: {
       ...colorStyles.fallback,
-      ...sizeStyles.fallback,
-    },
-  });
-};
+      ...sizeStyles.fallback
+    }
+  })
+}
 
-export default styles;
+export default styles

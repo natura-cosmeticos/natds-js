@@ -1,13 +1,13 @@
-import * as React from "react";
-import * as TestRenderer from "react-test-renderer";
-import SearchClear from "./SearchClear";
+import * as React from 'react'
+import * as TestRenderer from 'react-test-renderer'
+import SearchClear from './SearchClear'
 
-describe("SearchClear component", () => {
-  it("should match snapshot", () => {
+describe('SearchClear component', () => {
+  it('should match snapshot', () => {
     const testRenderer : TestRenderer.ReactTestRenderer = TestRenderer.create(
-      <SearchClear onClearSearch={() => Function.prototype()} />,
-    );
+      <SearchClear onClearSearch={() => Function.prototype()} />
+    )
 
-    expect(testRenderer).toMatchSnapshot();
-  });
-});
+    expect(testRenderer).toMatchSnapshot()
+  })
+})

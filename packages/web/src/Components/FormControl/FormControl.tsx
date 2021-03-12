@@ -1,7 +1,7 @@
-import MaterialFormControl from "@material-ui/core/FormControl";
-import * as React from "react";
-import { IFormControlProps } from "./FormControl.props";
-import { useStyles } from "./FormControl.styles";
+import MaterialFormControl from '@material-ui/core/FormControl'
+import * as React from 'react'
+import { IFormControlProps } from './FormControl.props'
+import { useStyles } from './FormControl.styles'
 
 /**
  * Provides context such as filled/focused/error/required for form inputs.
@@ -24,11 +24,11 @@ import { useStyles } from "./FormControl.styles";
  */
 export const FormControl = React.forwardRef<HTMLDivElement, IFormControlProps>(
   (props: IFormControlProps, ref) => {
-    const classes = useStyles();
+    const classes = useStyles()
 
-    return <MaterialFormControl {...props} classes={classes} ref={ref} />;
-  },
-);
-FormControl.displayName = "FormControl";
+    return <MaterialFormControl {...props} classes={classes} ref={ref} />
+  }
+)
+FormControl.displayName = 'FormControl'
 
-export default FormControl;
+export default FormControl

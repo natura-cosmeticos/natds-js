@@ -1,5 +1,5 @@
-import Divider from "./Divider";
+import Divider from './Divider'
 
-export { IDividerProps } from "./Divider.props";
-export { Divider };
-export default Divider;
+export { IDividerProps } from './Divider.props'
+export { Divider }
+export default Divider

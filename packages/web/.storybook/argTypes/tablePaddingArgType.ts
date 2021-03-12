@@ -1,18 +1,18 @@
-import { ArgType } from "@storybook/addons";
+import { ArgType } from '@storybook/addons'
 
 export const tablePaddingArgType : ArgType = {
   control: {
     options: [
-      "default",
-      "checkbox",
-      "none",
+      'default',
+      'checkbox',
+      'none'
     ],
-    type: "inline-radio",
+    type: 'inline-radio'
   },
   table: {
-    defaultValue: { summary: "\"default\"" },
-    type: { summary: "\"default\" | \"checkbox\" | \"none\"" },
-  },
-};
+    defaultValue: { summary: '"default"' },
+    type: { summary: '"default" | "checkbox" | "none"' }
+  }
+}
 
-export default tablePaddingArgType;
+export default tablePaddingArgType

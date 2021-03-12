@@ -1,9 +1,9 @@
-import * as React from "react";
-import { IInputStateHelpTextProviderProps } from "../InputStateHelpTextProvider";
-import { IThemeWeb } from "../../Themes";
-import { Mask, MaskFn, State } from "../Input/Input.props";
+import * as React from 'react'
+import { IInputStateHelpTextProviderProps } from '../InputStateHelpTextProvider'
+import { IThemeWeb } from '../../Themes'
+import { Mask, MaskFn, State } from '../Input/Input.props'
 
-export type Type = "password" | "search" | "text" | React.InputHTMLAttributes<HTMLInputElement>["type"];
+export type Type = 'password' | 'search' | 'text' | React.InputHTMLAttributes<HTMLInputElement>['type'];
 
 export interface TextFieldProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
-import MaterialListItemIcon from "@material-ui/core/ListItemIcon";
-import { IListItemIconProps } from "./ListItemIcon.props";
+import * as React from 'react'
+import MaterialListItemIcon from '@material-ui/core/ListItemIcon'
+import { IListItemIconProps } from './ListItemIcon.props'
 
-export { IListItemIconProps } from "./ListItemIcon.props";
+export { IListItemIconProps } from './ListItemIcon.props'
 
 /**
  * ## Importing
@@ -13,9 +13,9 @@ export { IListItemIconProps } from "./ListItemIcon.props";
  * ```
  */
 export const ListItemIcon = React.forwardRef<unknown, IListItemIconProps>((
-  props: IListItemIconProps, ref,
-) => <MaterialListItemIcon {...props} ref={ref} />);
+  props: IListItemIconProps, ref
+) => <MaterialListItemIcon {...props} ref={ref} />)
 
-ListItemIcon.displayName = "ListItemIcon";
+ListItemIcon.displayName = 'ListItemIcon'
 
-export default ListItemIcon;
+export default ListItemIcon

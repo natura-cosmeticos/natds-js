@@ -1,5 +1,5 @@
-import Rating from "./Rating";
+import Rating from './Rating'
 
-export { IRatingProps } from "./Rating.props";
-export { Rating };
-export default Rating;
+export { IRatingProps } from './Rating.props'
+export { Rating }
+export default Rating

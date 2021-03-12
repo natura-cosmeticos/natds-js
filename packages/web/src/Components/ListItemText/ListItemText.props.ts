@@ -1,4 +1,4 @@
-import { ListItemTextProps } from "@material-ui/core/ListItemText";
+import { ListItemTextProps } from '@material-ui/core/ListItemText'
 
 export interface IListItemTextProps extends ListItemTextProps {
 
@@ -8,7 +8,7 @@ export interface IListItemTextProps extends ListItemTextProps {
    * @optional
    * @type node
    */
-  children?: ListItemTextProps["children"]
+  children?: ListItemTextProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -19,7 +19,7 @@ export interface IListItemTextProps extends ListItemTextProps {
    * @see https://material-ui.com/api/list/#css
    * @type object
    */
-  classes?: ListItemTextProps["classes"]
+  classes?: ListItemTextProps['classes']
 
   /**
    * If `true`, the children won't be wrapped by a `Typography` component.
@@ -31,7 +31,7 @@ export interface IListItemTextProps extends ListItemTextProps {
    * @optional
    * @type bool
    */
-  disableTypography?: ListItemTextProps["disableTypography"]
+  disableTypography?: ListItemTextProps['disableTypography']
 
   /**
    * If `true`, the children will be indented. This should be used if there is no left avatar or left icon.
@@ -40,7 +40,7 @@ export interface IListItemTextProps extends ListItemTextProps {
    * @optional
    * @type bool
    */
-  inset?: ListItemTextProps["inset"]
+  inset?: ListItemTextProps['inset']
 
   /**
    * The main content element.
@@ -48,7 +48,7 @@ export interface IListItemTextProps extends ListItemTextProps {
    * @optional
    * @type node
    */
-  primary?: ListItemTextProps["primary"]
+  primary?: ListItemTextProps['primary']
 
   /**
    * These props will be forwarded to the primary `Typography` component (as long as `disableTypography` is not `true`).
@@ -56,7 +56,7 @@ export interface IListItemTextProps extends ListItemTextProps {
    * @optional
    * @type object
    */
-  primaryTypographyProps?: ListItemTextProps["primaryTypographyProps"]
+  primaryTypographyProps?: ListItemTextProps['primaryTypographyProps']
 
   /**
    * The secondary content element.
@@ -64,7 +64,7 @@ export interface IListItemTextProps extends ListItemTextProps {
    * @optional
    * @type node
    */
-  secondary?: ListItemTextProps["secondary"]
+  secondary?: ListItemTextProps['secondary']
 
   /**
    * These props will be forwarded to the secondary `Typography` component (as long as `disableTypography` is not `true`).
@@ -72,5 +72,5 @@ export interface IListItemTextProps extends ListItemTextProps {
    * @optional
    * @type object
    */
-  secondaryTypographyProps?: ListItemTextProps["secondaryTypographyProps"]
+  secondaryTypographyProps?: ListItemTextProps['secondaryTypographyProps']
 }

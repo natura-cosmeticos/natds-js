@@ -1,5 +1,5 @@
-import * as React from "react";
-import { IIconButtonProps } from "../IconButton";
+import * as React from 'react'
+import { IIconButtonProps } from '../IconButton'
 
 /**
  * ToggleButton extends IconButton.
@@ -8,7 +8,7 @@ import { IIconButtonProps } from "../IconButton";
  *
  * @see IconButton
  */
-export interface IToggleButtonProps extends Omit<IIconButtonProps, "children" | "onClick" | "translate"> {
+export interface IToggleButtonProps extends Omit<IIconButtonProps, 'children' | 'onClick' | 'translate'> {
 
   /**
    * Defines the initial state. Can be changed.
@@ -26,7 +26,7 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, "children" | 
    * @todo Add CSS API link
    * @type object
    */
-  classes?: IIconButtonProps["classes"];
+  classes?: IIconButtonProps['classes'];
 
   /**
    * The color of the component. It supports those theme colors that make sense for this component.
@@ -35,7 +35,7 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, "children" | 
    * @optional
    * @type "default" | "inherit" | "primary" | "secondary"
    */
-  color?: IIconButtonProps["color"];
+  color?: IIconButtonProps['color'];
 
   /**
    * If true, the `ToggleButton` will be disabled.
@@ -44,7 +44,7 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, "children" | 
    * @optional
    * @type bool
    */
-  disabled?: IIconButtonProps["disabled"];
+  disabled?: IIconButtonProps['disabled'];
 
   /**
    * If `true`, the keyboard focus ripple will be disabled. `disableRipple` must also be `true`.
@@ -53,7 +53,7 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, "children" | 
    * @optional
    * @type bool
    */
-  disableFocusRipple?: IIconButtonProps["disableFocusRipple"];
+  disableFocusRipple?: IIconButtonProps['disableFocusRipple'];
 
   /**
    * If `true`, the ripple effect will be disabled.
@@ -64,7 +64,7 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, "children" | 
    * @optional
    * @type bool
    */
-  disableRipple?: IIconButtonProps["disableRipple"];
+  disableRipple?: IIconButtonProps['disableRipple'];
 
   /**
    * If given, uses a negative margin to counteract the padding on one side.
@@ -76,7 +76,7 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, "children" | 
    * @optional
    * @type "start" | "end" | false
    */
-  edge?: IIconButtonProps["edge"];
+  edge?: IIconButtonProps['edge'];
 
   /**
    * Icon component when not checked (when state is *off*)
@@ -111,5 +111,5 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, "children" | 
    * @optional
    * @type "small" | "medium"
    */
-  size?: IIconButtonProps["size"];
+  size?: IIconButtonProps['size'];
 }

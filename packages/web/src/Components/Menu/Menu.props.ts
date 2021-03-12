@@ -1,4 +1,4 @@
-import { MenuProps } from "@material-ui/core/Menu";
+import { MenuProps } from '@material-ui/core/Menu'
 
 export type IMenuProps = MenuProps
-export type MenuVariant = MenuProps["variant"]
+export type MenuVariant = MenuProps['variant']

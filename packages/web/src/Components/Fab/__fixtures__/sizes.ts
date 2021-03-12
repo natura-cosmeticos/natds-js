@@ -1,9 +1,9 @@
-import { FabSize } from "../Fab.props";
+import { FabSize } from '../Fab.props'
 
 export const sizes: Record<FabSize, FabSize> = {
-  small: "small",
-  medium: "medium",
-  large: "large",
-};
+  small: 'small',
+  medium: 'medium',
+  large: 'large'
+}
 
-export default sizes;
+export default sizes

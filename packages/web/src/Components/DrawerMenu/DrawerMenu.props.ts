@@ -1,5 +1,5 @@
-import * as React from "react";
-import { IDrawerMenuSectionProps } from "./DrawerMenuSection";
+import * as React from 'react'
+import { IDrawerMenuSectionProps } from './DrawerMenuSection'
 
 export interface IDrawerMenuProps {
   children?: React.ReactNode;

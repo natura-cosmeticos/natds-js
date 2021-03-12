@@ -1,13 +1,13 @@
-import { SnackbarContentProps } from "@material-ui/core/SnackbarContent";
+import { SnackbarContentProps } from '@material-ui/core/SnackbarContent'
 
 export type ISnackbarContentColors =
-  | "default"
-  | "error"
-  | "info"
-  | "success"
-  | "warning";
+  | 'default'
+  | 'error'
+  | 'info'
+  | 'success'
+  | 'warning';
 
-export interface ISnackbarContentProps extends Omit<SnackbarContentProps, "color" | "theme"> {
+export interface ISnackbarContentProps extends Omit<SnackbarContentProps, 'color' | 'theme'> {
 
   /**
    * The action to display.
@@ -15,7 +15,7 @@ export interface ISnackbarContentProps extends Omit<SnackbarContentProps, "color
    * @optional
    * @type node
    */
-  action?: SnackbarContentProps["action"]
+  action?: SnackbarContentProps['action']
 
   /**
    * Override or extend the styles applied to the component. Check CSS API for more details.
@@ -23,7 +23,7 @@ export interface ISnackbarContentProps extends Omit<SnackbarContentProps, "color
    * @todo add link to Material UI CSS API
    * @type object
    */
-  classes?: SnackbarContentProps["classes"]
+  classes?: SnackbarContentProps['classes']
 
   /**
    * The color scheme to be applied to the content (including the background) based on the theme.
@@ -42,7 +42,7 @@ export interface ISnackbarContentProps extends Omit<SnackbarContentProps, "color
    * @optional
    * @type node
    */
-  message?: SnackbarContentProps["message"]
+  message?: SnackbarContentProps['message']
 
   /**
    * The `role` of the `SnackbarContent`.
@@ -52,5 +52,5 @@ export interface ISnackbarContentProps extends Omit<SnackbarContentProps, "color
    * @default "alert"
    * @type "alert" | "alertDialog"
    */
-  role?: SnackbarContentProps["role"]
+  role?: SnackbarContentProps['role']
 }

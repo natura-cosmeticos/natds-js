@@ -1,9 +1,9 @@
-import { AppBarPosition } from "../AppBar.props";
+import { AppBarPosition } from '../AppBar.props'
 
 export const positions: Record<AppBarPosition, AppBarPosition> = {
-  absolute: "absolute",
-  fixed: "fixed",
-  relative: "relative",
-  static: "static",
-  sticky: "sticky",
-};
+  absolute: 'absolute',
+  fixed: 'fixed',
+  relative: 'relative',
+  static: 'static',
+  sticky: 'sticky'
+}

@@ -1,4 +1,4 @@
-import { ListItemSecondaryActionProps } from "@material-ui/core/ListItemSecondaryAction";
+import { ListItemSecondaryActionProps } from '@material-ui/core/ListItemSecondaryAction'
 
 export interface IListItemSecondaryActionProps extends ListItemSecondaryActionProps {
 
@@ -8,7 +8,7 @@ export interface IListItemSecondaryActionProps extends ListItemSecondaryActionPr
    * @optional
    * @type element
    */
-  children?: ListItemSecondaryActionProps["children"]
+  children?: ListItemSecondaryActionProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -19,5 +19,5 @@ export interface IListItemSecondaryActionProps extends ListItemSecondaryActionPr
    * @see https://material-ui.com/api/list/#css
    * @type object
    */
-  classes?: ListItemSecondaryActionProps["classes"]
+  classes?: ListItemSecondaryActionProps['classes']
 }

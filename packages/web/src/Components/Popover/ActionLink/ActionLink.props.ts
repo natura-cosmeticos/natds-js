@@ -1,6 +1,6 @@
-import { ILinkProps } from "../../Link";
+import { ILinkProps } from '../../Link'
 
-export interface IActionLinkProps extends Omit<ILinkProps, "children" | "theme"> {
+export interface IActionLinkProps extends Omit<ILinkProps, 'children' | 'theme'> {
 
   /**
    * Please use `text` instead of `children`.
@@ -8,7 +8,7 @@ export interface IActionLinkProps extends Omit<ILinkProps, "children" | "theme">
    * @optional
    * @todo adopt `children` as primary property instead of `text`
    */
-  children?: ILinkProps["children"]
+  children?: ILinkProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -17,11 +17,11 @@ export interface IActionLinkProps extends Omit<ILinkProps, "children" | "theme">
    *
    * @see https://material-ui.com/api/link/#css
    */
-  classes?: ILinkProps["classes"]
+  classes?: ILinkProps['classes']
 
-  href?: ILinkProps["href"]
+  href?: ILinkProps['href']
 
-  onClick?: ILinkProps["onClick"]
+  onClick?: ILinkProps['onClick']
 
   /**
    * @required

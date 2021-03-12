@@ -1,5 +1,5 @@
-import * as React from "react";
-import { BreadcrumbsProps } from "@material-ui/core/Breadcrumbs";
+import * as React from 'react'
+import { BreadcrumbsProps } from '@material-ui/core/Breadcrumbs'
 
 export interface IBreadcrumbsProps extends BreadcrumbsProps {
 
@@ -9,7 +9,7 @@ export interface IBreadcrumbsProps extends BreadcrumbsProps {
    * @optional
    * @type string
    */
-  "aria-label"?: BreadcrumbsProps["aria-label"]
+  'aria-label'?: BreadcrumbsProps['aria-label']
 
   /**
    * The breadcrumb children.
@@ -17,7 +17,7 @@ export interface IBreadcrumbsProps extends BreadcrumbsProps {
    * @required
    * @type node
    */
-  children: BreadcrumbsProps["children"]
+  children: BreadcrumbsProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -28,7 +28,7 @@ export interface IBreadcrumbsProps extends BreadcrumbsProps {
    * @see https://material-ui.com/api/breadcrumbs/#css
    * @type object
    */
-  classes?: BreadcrumbsProps["classes"]
+  classes?: BreadcrumbsProps['classes']
 
   /**
    * The component used for the root node.
@@ -52,7 +52,7 @@ export interface IBreadcrumbsProps extends BreadcrumbsProps {
    * @see https://material-ui.com/guides/localization/
    * @type string
    */
-  expandText?: BreadcrumbsProps["expandText"]
+  expandText?: BreadcrumbsProps['expandText']
 
   /**
    * If max items is exceeded, the number of items to show after the ellipsis.
@@ -61,7 +61,7 @@ export interface IBreadcrumbsProps extends BreadcrumbsProps {
    * @optional
    * @type number
    */
-  itemsAfterCollapse?: BreadcrumbsProps["itemsAfterCollapse"]
+  itemsAfterCollapse?: BreadcrumbsProps['itemsAfterCollapse']
 
   /**
    * If max items is exceeded, the number of items to show before the ellipsis.
@@ -70,7 +70,7 @@ export interface IBreadcrumbsProps extends BreadcrumbsProps {
    * @optional
    * @type number
    */
-  itemsBeforeCollapse?: BreadcrumbsProps["itemsBeforeCollapse"]
+  itemsBeforeCollapse?: BreadcrumbsProps['itemsBeforeCollapse']
 
   /**
    * Specifies the maximum number of breadcrumbs to display.
@@ -82,7 +82,7 @@ export interface IBreadcrumbsProps extends BreadcrumbsProps {
    * @optional
    * @type number
    */
-  maxItems?: BreadcrumbsProps["maxItems"]
+  maxItems?: BreadcrumbsProps['maxItems']
 
   /**
    * Custom separator node.
@@ -91,5 +91,5 @@ export interface IBreadcrumbsProps extends BreadcrumbsProps {
    * @optional
    * @type node
    */
-  separator?: BreadcrumbsProps["separator"]
+  separator?: BreadcrumbsProps['separator']
 }

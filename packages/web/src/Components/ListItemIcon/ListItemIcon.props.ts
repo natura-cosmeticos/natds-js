@@ -1,4 +1,4 @@
-import { ListItemIconProps } from "@material-ui/core/ListItemIcon";
+import { ListItemIconProps } from '@material-ui/core/ListItemIcon'
 
 export interface IListItemIconProps extends ListItemIconProps {
 
@@ -9,7 +9,7 @@ export interface IListItemIconProps extends ListItemIconProps {
    * @see Icon
    * @type element
    */
-  children?: ListItemIconProps["children"]
+  children?: ListItemIconProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -20,6 +20,6 @@ export interface IListItemIconProps extends ListItemIconProps {
    * @see https://material-ui.com/api/list/#css
    * @type object
    */
-  classes?: ListItemIconProps["classes"]
+  classes?: ListItemIconProps['classes']
 
 }

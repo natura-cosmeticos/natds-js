@@ -1,15 +1,15 @@
-import * as React from "react";
+import * as React from 'react'
 
-import MaterialFab from "@material-ui/core/Fab";
-import { FabColor, IFabProps, MaterialFabColor } from "./Fab.props";
-import colors from "./__fixtures__/colors";
-import { useStyles } from "./Fab.styles";
-import { getColorProp } from "./getColorProp";
+import MaterialFab from '@material-ui/core/Fab'
+import { FabColor, IFabProps, MaterialFabColor } from './Fab.props'
+import colors from './__fixtures__/colors'
+import { useStyles } from './Fab.styles'
+import { getColorProp } from './getColorProp'
 
 export const defaultProps = {
   color: colors.primary,
-  disabled: false,
-};
+  disabled: false
+}
 
 export const Fab = React.forwardRef<HTMLButtonElement, IFabProps>(
   (props: IFabProps, ref) => {
@@ -23,19 +23,22 @@ export const Fab = React.forwardRef<HTMLButtonElement, IFabProps>(
        */
       disabled,
       ...otherProps
-    } = props;
+    } = props
 
-    const classes = useStyles();
+    const classes = useStyles()
 
-    return <MaterialFab
-      classes={classes}
-      color={getColorProp({ color: color as FabColor }) as MaterialFabColor}
-      disabled={disabled}
-      ref={ref}
-      {...otherProps}/>;
-  },
-);
-Fab.displayName = "Fab";
-Fab.defaultProps = defaultProps;
+    return (
+      <MaterialFab
+        classes={classes}
+        color={getColorProp({ color: color as FabColor }) as MaterialFabColor}
+        disabled={disabled}
+        ref={ref}
+        {...otherProps}
+      />
+    )
+  }
+)
+Fab.displayName = 'Fab'
+Fab.defaultProps = defaultProps
 
-export default Fab;
+export default Fab

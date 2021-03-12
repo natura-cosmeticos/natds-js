@@ -1,5 +1,5 @@
-import * as React from "react";
-import { ListItemProps } from "@material-ui/core/ListItem";
+import * as React from 'react'
+import { ListItemProps } from '@material-ui/core/ListItem'
 
 export type IListItemProps = ListItemProps;
 
@@ -12,7 +12,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type "flex-start" | "center"
    */
-  alignItems?: ListItemProps["alignItems"]
+  alignItems?: ListItemProps['alignItems']
 
   /**
    * If `true`, the list item will be focused during the first mount.
@@ -23,7 +23,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type bool
    */
-  autoFocus?: ListItemProps["autoFocus"]
+  autoFocus?: ListItemProps['autoFocus']
 
   /**
    * If `true`, the list item will be a button (using `ButtonBase`).
@@ -34,7 +34,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type bool
    */
-  button?: ListItemProps["button"]
+  button?: ListItemProps['button']
 
   /**
    * The content of the component. If a `ListItemSecondaryAction` is used it must be the last child.
@@ -42,7 +42,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type node
    */
-  children?: ListItemProps["children"]
+  children?: ListItemProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -53,7 +53,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @see https://material-ui.com/api/list/#css
    * @type object
    */
-  classes?: ListItemProps["classes"]
+  classes?: ListItemProps['classes']
 
   /**
    * The component used for the root node. Either a string to use a DOM element or a component.
@@ -72,7 +72,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type element
    */
-  ContainerComponent?: ListItemProps["ContainerComponent"]
+  ContainerComponent?: ListItemProps['ContainerComponent']
 
   /**
    * Props applied to the container component if used.
@@ -81,7 +81,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type object
    */
-  ContainerProps?: ListItemProps["ContainerProps"]
+  ContainerProps?: ListItemProps['ContainerProps']
 
   /**
    * If `true`, compact vertical padding designed for keyboard and mouse input will be used.
@@ -90,7 +90,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type bool
    */
-  dense?: ListItemProps["dense"]
+  dense?: ListItemProps['dense']
 
   /**
    * If `true`, the list item will be disabled.
@@ -99,7 +99,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type bool
    */
-  disabled?: ListItemProps["disabled"]
+  disabled?: ListItemProps['disabled']
 
   /**
    * If true, the horizontal padding (left and right) is removed.
@@ -108,7 +108,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type bool
    */
-  disableGutters?: ListItemProps["disableGutters"]
+  disableGutters?: ListItemProps['disableGutters']
 
   /**
    * If `true`, a 1px light border is added to the bottom of the list item.
@@ -117,7 +117,7 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @optional
    * @type bool
    */
-  divider?: ListItemProps["divider"]
+  divider?: ListItemProps['divider']
 
   /**
    * Use to apply selected styling.
@@ -125,5 +125,5 @@ export interface OverriddenListItemProps extends ListItemProps {
    * @default false
    * @type bool
    */
-  selected?: ListItemProps["selected"]
+  selected?: ListItemProps['selected']
 }

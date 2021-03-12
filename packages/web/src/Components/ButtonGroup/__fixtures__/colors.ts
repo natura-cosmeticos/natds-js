@@ -1,9 +1,9 @@
-import { ButtonGroupColor } from "../ButtonGroup.props";
+import { ButtonGroupColor } from '../ButtonGroup.props'
 
 export const colors: Record<ButtonGroupColor, ButtonGroupColor> = {
-  default: "default",
-  primary: "primary",
-  secondary: "secondary",
-};
+  default: 'default',
+  primary: 'primary',
+  secondary: 'secondary'
+}
 
-export default colors;
+export default colors

@@ -1,11 +1,11 @@
-import { ArgType } from "@storybook/addons";
+import { ArgType } from '@storybook/addons'
 
 export const booleanArgType : ArgType = {
-  control: { type: "boolean" },
+  control: { type: 'boolean' },
   table: {
-    type: { summary: "bool" },
+    type: { summary: 'bool' }
   },
-  type: { name: "boolean", required: false },
-};
+  type: { name: 'boolean', required: false }
+}
 
-export default booleanArgType;
+export default booleanArgType

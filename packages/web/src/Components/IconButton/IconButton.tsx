@@ -1,9 +1,9 @@
-import * as React from "react";
+import * as React from 'react'
 
-import MaterialIconButton from "@material-ui/core/IconButton";
-import { IIconButtonProps } from "./IconButton.props";
+import MaterialIconButton from '@material-ui/core/IconButton'
+import { IIconButtonProps } from './IconButton.props'
 
-export { IIconButtonProps } from "./IconButton.props";
+export { IIconButtonProps } from './IconButton.props'
 
 /**
  * For advanced usages, check [Material UI IconButton docs](https://material-ui.com/components/buttons/#icon-buttons)
@@ -17,8 +17,9 @@ export { IIconButtonProps } from "./IconButton.props";
  * @see https://material-ui.com/components/buttons/#icon-buttons
  */
 export const IconButton = React.forwardRef<HTMLButtonElement, IIconButtonProps>(
-  (props: IIconButtonProps, ref) => <MaterialIconButton {...props} ref={ref} />);
+  (props: IIconButtonProps, ref) => <MaterialIconButton {...props} ref={ref} />
+)
 
-IconButton.displayName = "IconButton";
+IconButton.displayName = 'IconButton'
 
-export default IconButton;
+export default IconButton

@@ -1,8 +1,8 @@
-import { IChipProps } from "../Chip.props";
+import { IChipProps } from '../Chip.props'
 
-export const sizes: Record<IChipProps["size"], IChipProps["size"]> = {
-  small: "small",
-  medium: "medium",
-};
+export const sizes: Record<IChipProps['size'], IChipProps['size']> = {
+  small: 'small',
+  medium: 'medium'
+}
 
-export default sizes;
+export default sizes

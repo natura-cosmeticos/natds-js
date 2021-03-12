@@ -1,6 +1,6 @@
-import { IChipProps } from "../Chip.props";
+import { IChipProps } from '../Chip.props'
 
-export const variants: Record<IChipProps["variant"], IChipProps["variant"]> = {
-  default: "default",
-  outlined: "outlined",
-};
+export const variants: Record<IChipProps['variant'], IChipProps['variant']> = {
+  default: 'default',
+  outlined: 'outlined'
+}

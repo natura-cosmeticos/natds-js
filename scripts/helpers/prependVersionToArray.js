@@ -1,3 +1,3 @@
-const prependVersionToArray = (newVersion, currentVersions) => [newVersion, ...currentVersions];
+const prependVersionToArray = (newVersion, currentVersions) => [newVersion, ...currentVersions]
 
-module.exports = prependVersionToArray;
+module.exports = prependVersionToArray

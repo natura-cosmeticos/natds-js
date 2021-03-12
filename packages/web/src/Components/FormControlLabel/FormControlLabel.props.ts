@@ -1,4 +1,4 @@
-import { FormControlLabelProps } from "@material-ui/core/FormControlLabel";
+import { FormControlLabelProps } from '@material-ui/core/FormControlLabel'
 
 export interface IFormControlLabelProps extends FormControlLabelProps {
 
@@ -8,7 +8,7 @@ export interface IFormControlLabelProps extends FormControlLabelProps {
    * @optional
    * @type bool
    */
-  checked?: FormControlLabelProps["checked"]
+  checked?: FormControlLabelProps['checked']
 
   /**
    * Override or extend the styles applied to the component.
@@ -19,7 +19,7 @@ export interface IFormControlLabelProps extends FormControlLabelProps {
    * @see https://material-ui.com/pt/api/form-control-label/#css
    * @type object
    */
-  classes?: FormControlLabelProps["classes"]
+  classes?: FormControlLabelProps['classes']
 
   /**
    * A control element. For instance, it can be be a `Radio`, a `Switch` or a `Checkbox`.
@@ -27,7 +27,7 @@ export interface IFormControlLabelProps extends FormControlLabelProps {
    * @required
    * @type element
    */
-  control: FormControlLabelProps["control"]
+  control: FormControlLabelProps['control']
 
   /**
    * If `true`, the control will be disabled.
@@ -35,7 +35,7 @@ export interface IFormControlLabelProps extends FormControlLabelProps {
    * @optional
    * @type bool
    */
-  disabled?: FormControlLabelProps["disabled"]
+  disabled?: FormControlLabelProps['disabled']
 
   /**
    * Pass a ref to the input element.
@@ -43,7 +43,7 @@ export interface IFormControlLabelProps extends FormControlLabelProps {
    * @optional
    * @type ref
    */
-  inputRef?: FormControlLabelProps["inputRef"]
+  inputRef?: FormControlLabelProps['inputRef']
 
   /**
    * The text to be used in an enclosing label element.
@@ -52,7 +52,7 @@ export interface IFormControlLabelProps extends FormControlLabelProps {
    * @required
    * @type node
    */
-  label: FormControlLabelProps["label"]
+  label: FormControlLabelProps['label']
 
   /**
    * The position of the label.
@@ -61,7 +61,7 @@ export interface IFormControlLabelProps extends FormControlLabelProps {
    * @optional
    * @type "bottom" | "end" | "start" | "top"
    */
-  labelPlacement?: FormControlLabelProps["labelPlacement"]
+  labelPlacement?: FormControlLabelProps['labelPlacement']
 
   /**
    * Callback fired when the state is changed.
@@ -72,7 +72,7 @@ export interface IFormControlLabelProps extends FormControlLabelProps {
    * @returns void
    * @type func
    */
-  onChange?: FormControlLabelProps["onChange"]
+  onChange?: FormControlLabelProps['onChange']
 
   /**
    * The value of the component
@@ -80,5 +80,5 @@ export interface IFormControlLabelProps extends FormControlLabelProps {
    * @optional
    * @type any
    */
-  value?: FormControlLabelProps["value"]
+  value?: FormControlLabelProps['value']
 }

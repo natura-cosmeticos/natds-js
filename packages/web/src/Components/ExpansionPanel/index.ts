@@ -1,5 +1,5 @@
-import ExpansionPanel from "./ExpansionPanel";
+import ExpansionPanel from './ExpansionPanel'
 
-export { IExpansionPanelProps } from "./ExpansionPanel.props";
-export { ExpansionPanel };
-export default ExpansionPanel;
+export { IExpansionPanelProps } from './ExpansionPanel.props'
+export { ExpansionPanel }
+export default ExpansionPanel

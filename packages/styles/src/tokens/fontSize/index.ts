@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
-import themes from "@naturacosmeticos/natds-themes";
-import { IFont } from "./IFont";
+import themes from '@naturacosmeticos/natds-themes'
+import { IFont } from './IFont'
 
-const { light: theme } = themes.natura;
+const { light: theme } = themes.natura
 
 /**
  * @deprecated since 0.19. It will be removed at 1.0.
@@ -21,5 +21,5 @@ export const fontSize = {
   body2: theme.body2 as IFont,
   button: theme.button.default as IFont,
   caption: theme.caption as IFont,
-  overline: theme.overline as IFont,
-};
+  overline: theme.overline as IFont
+}

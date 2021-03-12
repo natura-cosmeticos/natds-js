@@ -1,9 +1,9 @@
-import * as React from "react";
-import { SpacingMarginProps } from "./Spacing.margin.props";
-import { SpacingPaddingProps } from "./Spacing.padding.props";
+import * as React from 'react'
+import { SpacingMarginProps } from './Spacing.margin.props'
+import { SpacingPaddingProps } from './Spacing.padding.props'
 
-export type SpacingMarginCssPropKey = "marginBottom" | "marginLeft" | "marginRight" | "marginTop";
-export type SpacingPaddingCssPropKey = "paddingBottom" | "paddingLeft" | "paddingRight" | "paddingTop";
+export type SpacingMarginCssPropKey = 'marginBottom' | 'marginLeft' | 'marginRight' | 'marginTop';
+export type SpacingPaddingCssPropKey = 'paddingBottom' | 'paddingLeft' | 'paddingRight' | 'paddingTop';
 export type SpacingStylePropKey = SpacingMarginCssPropKey | SpacingPaddingCssPropKey
 export type SpacingMarginAndPaddingProps = SpacingMarginProps & SpacingPaddingProps;
 
@@ -33,7 +33,7 @@ export interface ISpacingProps extends SpacingMarginAndPaddingProps {
    */
   component?: React.ElementType,
 
-  display?: "block" | "flex" | "inline" | "inline-block" | "inline-flex" | Record<string, string>,
+  display?: 'block' | 'flex' | 'inline' | 'inline-block' | 'inline-flex' | Record<string, string>,
 
   /**
    * Specifies an inline style for an element.

@@ -1,25 +1,25 @@
-import { ImageProps } from "./Image.props";
-import { sizePropArgType } from "../../../.storybook/argTypes/sizePropArgType";
+import { ImageProps } from './Image.props'
+import { sizePropArgType } from '../../../.storybook/argTypes/sizePropArgType'
 
 export const argTypes : Record<keyof ImageProps | string, unknown> = {
   alt: {
     control: {
-      type: "text",
-    },
+      type: 'text'
+    }
   },
   className: {
     control: {
-      type: "text",
-    },
+      type: 'text'
+    }
   },
   draggable: {
     control: {
       options: [
         true,
         false,
-        "auto",
+        'auto'
       ],
-      type: "inline-radio",
+      type: 'inline-radio'
     },
     description: `
 The draggable property specifies whether an element is draggable or not.
@@ -33,48 +33,48 @@ If \`"auto"\` uses the default behavior of the browser.
 `,
     table: {
       defaultValue: {
-        summary: "auto",
+        summary: 'auto'
       },
       type: {
-        summary: "true | false | \"auto\"",
-      },
-    },
+        summary: 'true | false | "auto"'
+      }
+    }
   },
   disableSelection: {},
   height: {
     control: {
-      type: "number",
+      type: 'number'
     },
-    table: sizePropArgType.table,
+    table: sizePropArgType.table
   },
   maxHeight: sizePropArgType,
   maxWidth: sizePropArgType,
   fallback: {
     control: {
-      type: "text",
-    },
+      type: 'text'
+    }
   },
   src: {
     control: {
-      type: "text",
-    },
+      type: 'text'
+    }
   },
   state: {},
   style: {
     control: {
-      type: "object",
+      type: 'object'
     },
     table: {
       defaultValue: {
-        summary: "{}",
-      },
-    },
+        summary: '{}'
+      }
+    }
   },
   width: {
     control: {
-      type: "number",
+      type: 'number'
     },
-    table: sizePropArgType.table,
+    table: sizePropArgType.table
   },
-  radius: {},
-};
+  radius: {}
+}

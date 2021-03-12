@@ -1,4 +1,4 @@
-import { DialogActionsProps } from "@material-ui/core";
+import { DialogActionsProps } from '@material-ui/core'
 
 export interface IDialogActionsProps extends DialogActionsProps {
 
@@ -8,7 +8,7 @@ export interface IDialogActionsProps extends DialogActionsProps {
    * @required
    * @type node
    */
-  children: DialogActionsProps["children"]
+  children: DialogActionsProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -16,7 +16,7 @@ export interface IDialogActionsProps extends DialogActionsProps {
    * @optional
    * @type object
    */
-  classes?: DialogActionsProps["classes"]
+  classes?: DialogActionsProps['classes']
 
   /**
    * Used in `DialogActions`. If `true`, the actions do not have additional margin.
@@ -25,5 +25,5 @@ export interface IDialogActionsProps extends DialogActionsProps {
    * @optional
    * @type bool
    */
-  disableSpacing?: DialogActionsProps["disableSpacing"]
+  disableSpacing?: DialogActionsProps['disableSpacing']
 }

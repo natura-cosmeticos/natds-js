@@ -1,5 +1,5 @@
-import Link from "./Link";
+import Link from './Link'
 
-export { ILinkProps } from "./Link.props";
-export { Link };
-export default Link;
+export { ILinkProps } from './Link.props'
+export { Link }
+export default Link

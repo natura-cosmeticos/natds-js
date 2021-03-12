@@ -1,6 +1,6 @@
 /* eslint-disable sort-keys */
-import { IButtonSizes } from "./IButtonSizes";
-import { sizes } from "../sizes";
+import { IButtonSizes } from './IButtonSizes'
+import { sizes } from '../sizes'
 
 /**
  * Button size tokens are used by MuiButton override, for properties `root`, `sizeLarge`, `sizeSmall`
@@ -11,7 +11,7 @@ export const buttonSizes: IButtonSizes = {
     paddingRight: sizes.tiny,
     paddingBottom: sizes.none,
     paddingLeft: sizes.tiny,
-    height: sizes.semi,
+    height: sizes.semi
   },
   medium: {
 
@@ -22,13 +22,13 @@ export const buttonSizes: IButtonSizes = {
     paddingTop: sizes.none,
     paddingRight: sizes.small - sizes.micro,
     paddingBottom: sizes.none,
-    paddingLeft: sizes.small - sizes.micro,
+    paddingLeft: sizes.small - sizes.micro
   },
   large: {
     paddingTop: sizes.none,
     paddingRight: sizes.small,
     paddingBottom: sizes.none,
     paddingLeft: sizes.small,
-    height: sizes.medium,
-  },
-};
+    height: sizes.medium
+  }
+}

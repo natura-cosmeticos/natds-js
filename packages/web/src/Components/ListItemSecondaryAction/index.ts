@@ -1,5 +1,5 @@
-import ListItemSecondaryAction from "./ListItemSecondaryAction";
+import ListItemSecondaryAction from './ListItemSecondaryAction'
 
-export { IListItemSecondaryActionProps } from "./ListItemSecondaryAction.props";
-export { ListItemSecondaryAction };
-export default ListItemSecondaryAction;
+export { IListItemSecondaryActionProps } from './ListItemSecondaryAction.props'
+export { ListItemSecondaryAction }
+export default ListItemSecondaryAction

@@ -1,8 +1,8 @@
-import * as React from "react";
-import MaterialDialogTitle from "@material-ui/core/DialogTitle";
-import { IDialogTitleProps } from "./DialogTitle.props";
+import * as React from 'react'
+import MaterialDialogTitle from '@material-ui/core/DialogTitle'
+import { IDialogTitleProps } from './DialogTitle.props'
 
-export { IDialogTitleProps } from "./DialogTitle.props";
+export { IDialogTitleProps } from './DialogTitle.props'
 
 /**
  * For more advanced usages, check [Material UI Dialog docs](https://material-ui.com/components/dialogs/)
@@ -18,9 +18,9 @@ export { IDialogTitleProps } from "./DialogTitle.props";
 export const DialogTitle = React.forwardRef<unknown, IDialogTitleProps>(
   (props: IDialogTitleProps, ref) => (
     <MaterialDialogTitle {...props} ref={ref} />
-  ),
-);
+  )
+)
 
-DialogTitle.displayName = "DialogTitle";
+DialogTitle.displayName = 'DialogTitle'
 
-export default DialogTitle;
+export default DialogTitle

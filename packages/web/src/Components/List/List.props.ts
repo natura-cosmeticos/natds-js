@@ -1,5 +1,5 @@
-import * as React from "react";
-import { ListProps } from "@material-ui/core/List";
+import * as React from 'react'
+import { ListProps } from '@material-ui/core/List'
 
 export interface IListProps extends ListProps {
 
@@ -9,7 +9,7 @@ export interface IListProps extends ListProps {
    * @optional
    * @type node
    */
-  children?: ListProps["children"]
+  children?: ListProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -20,7 +20,7 @@ export interface IListProps extends ListProps {
    * @see https://material-ui.com/api/list/#css
    * @type object
    */
-  classes?: ListProps["classes"]
+  classes?: ListProps['classes']
 
   /**
    * @default "ul"
@@ -38,7 +38,7 @@ export interface IListProps extends ListProps {
    * @optional
    * @type bool
    */
-  dense?: ListProps["dense"]
+  dense?: ListProps['dense']
 
   /**
    * If `true`, vertical padding will be removed from the list.
@@ -47,7 +47,7 @@ export interface IListProps extends ListProps {
    * @optional
    * @type bool
    */
-  disablePadding?: ListProps["disablePadding"]
+  disablePadding?: ListProps['disablePadding']
 
   /**
    * The content of the subheader, normally `ListSubheader`.
@@ -56,5 +56,5 @@ export interface IListProps extends ListProps {
    * @see ListSubheader
    * @type node
    */
-  subheader?: ListProps["subheader"]
+  subheader?: ListProps['subheader']
 }

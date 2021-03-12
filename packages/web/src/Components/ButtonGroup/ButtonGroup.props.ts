@@ -1,7 +1,7 @@
-import * as React from "react";
-import { ButtonGroupProps } from "@material-ui/core/ButtonGroup";
+import * as React from 'react'
+import { ButtonGroupProps } from '@material-ui/core/ButtonGroup'
 
-export type ButtonGroupColor = "default" | "primary" | "secondary";
+export type ButtonGroupColor = 'default' | 'primary' | 'secondary';
 export interface IButtonGroupProps extends ButtonGroupProps {
 
   /**
@@ -10,7 +10,7 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @required
    * @type node
    */
-  children: ButtonGroupProps["children"]
+  children: ButtonGroupProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -21,7 +21,7 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @see https://material-ui.com/pt/api/button-group/#css
    * @type object
    */
-  classes?: ButtonGroupProps["classes"]
+  classes?: ButtonGroupProps['classes']
 
   /**
    * The color of the component.
@@ -50,7 +50,7 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @optional
    * @type bool
    */
-  disabled?: ButtonGroupProps["disabled"]
+  disabled?: ButtonGroupProps['disabled']
 
   /**
    * If `true`, no elevation is used.
@@ -59,7 +59,7 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @optional
    * @type bool
    */
-  disableElevation?: ButtonGroupProps["disableElevation"]
+  disableElevation?: ButtonGroupProps['disableElevation']
 
   /**
    * If true, the button keyboard focus ripple will be disabled.
@@ -68,7 +68,7 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @optional
    * @type bool
    */
-  disableFocusRipple?: ButtonGroupProps["disableFocusRipple"]
+  disableFocusRipple?: ButtonGroupProps['disableFocusRipple']
 
   /**
    * If `true`, the button ripple effect will be disabled.
@@ -76,7 +76,7 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @optional
    * @type bool
    */
-  disableRipple?: ButtonGroupProps["disableRipple"]
+  disableRipple?: ButtonGroupProps['disableRipple']
 
   /**
    * If `true`, the buttons will take up the full width of its container.
@@ -86,7 +86,7 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @todo Check if this variant should be kept on future versions
    * @type bool
    */
-  fullWidth?: ButtonGroupProps["fullWidth"]
+  fullWidth?: ButtonGroupProps['fullWidth']
 
   /**
    * The group orientation (layout flow direction).
@@ -96,7 +96,7 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @todo Check if this variant should be kept in future versions.
    * @type "horizontal" | "vertical"
    */
-  orientation?: ButtonGroupProps["orientation"]
+  orientation?: ButtonGroupProps['orientation']
 
   /**
    * The size of the button. `small` is equivalent to the dense button styling.
@@ -105,7 +105,7 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @optional
    * @type "small" | "medium" | "large"
    */
-  size?: ButtonGroupProps["size"]
+  size?: ButtonGroupProps['size']
 
   /**
    * The variant to use.
@@ -114,5 +114,5 @@ export interface IButtonGroupProps extends ButtonGroupProps {
    * @todo Check if "outlined" or "text" should be the default
    * @type "text" | "outlined" | "contained"
    */
-  variant?: ButtonGroupProps["variant"]
+  variant?: ButtonGroupProps['variant']
 }

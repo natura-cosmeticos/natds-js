@@ -1,5 +1,5 @@
-import * as React from "react";
-import { BottomNavigationProps } from "@material-ui/core/BottomNavigation";
+import * as React from 'react'
+import { BottomNavigationProps } from '@material-ui/core/BottomNavigation'
 
 export interface IBottomNavigationProps extends BottomNavigationProps {
 

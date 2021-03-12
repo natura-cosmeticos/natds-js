@@ -1,7 +1,7 @@
-import themes from "@naturacosmeticos/natds-themes";
-import { IColorThemeTokens } from "../IColorThemeTokens";
+import themes from '@naturacosmeticos/natds-themes'
+import { IColorThemeTokens } from '../IColorThemeTokens'
 
-const { color } = themes.theBodyShop.dark;
+const { color } = themes.theBodyShop.dark
 
 export const theBodyShopDarkColorTokens: IColorThemeTokens = {
   colorPrimary: color.primary,
@@ -31,7 +31,7 @@ export const theBodyShopDarkColorTokens: IColorThemeTokens = {
   colorWarning: color.warning,
   colorOnWarning: color.onWarning,
   colorAlert: color.alert,
-  colorOnAlert: color.onAlert,
-};
+  colorOnAlert: color.onAlert
+}
 
-export default theBodyShopDarkColorTokens;
+export default theBodyShopDarkColorTokens

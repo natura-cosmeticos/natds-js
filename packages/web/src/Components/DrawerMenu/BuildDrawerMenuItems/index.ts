@@ -1,4 +1,4 @@
-import BuildDrawerMenuItems from "./BuildDrawerMenuItems";
+import BuildDrawerMenuItems from './BuildDrawerMenuItems'
 
-export { BuildDrawerMenuItems };
-export default BuildDrawerMenuItems;
+export { BuildDrawerMenuItems }
+export default BuildDrawerMenuItems

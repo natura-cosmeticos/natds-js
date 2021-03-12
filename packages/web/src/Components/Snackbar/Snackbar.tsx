@@ -1,9 +1,9 @@
-import * as React from "react";
-import MaterialSnackbar from "@material-ui/core/Snackbar";
+import * as React from 'react'
+import MaterialSnackbar from '@material-ui/core/Snackbar'
 
-import { ISnackbarProps } from "./Snackbar.props";
+import { ISnackbarProps } from './Snackbar.props'
 
-export { ISnackbarProps } from "./Snackbar.props";
+export { ISnackbarProps } from './Snackbar.props'
 
 /**
  * Snackbars provide brief messages about app processes at some edge of the screen.
@@ -20,9 +20,9 @@ export { ISnackbarProps } from "./Snackbar.props";
  * @see https://material-ui.com/components/snackbars/
  */
 export const Snackbar = React.forwardRef<unknown, ISnackbarProps>((
-  props: ISnackbarProps, ref,
-) => <MaterialSnackbar {...props} ref={ref} />);
+  props: ISnackbarProps, ref
+) => <MaterialSnackbar {...props} ref={ref} />)
 
-Snackbar.displayName = "Snackbar";
+Snackbar.displayName = 'Snackbar'
 
-export default Snackbar;
+export default Snackbar

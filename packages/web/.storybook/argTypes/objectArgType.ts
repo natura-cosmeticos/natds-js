@@ -1,11 +1,11 @@
-import { ArgType } from "@storybook/addons";
+import { ArgType } from '@storybook/addons'
 
 export const objectArgType : ArgType = {
-  control: { type: "object" },
+  control: { type: 'object' },
   table: {
-    type: { summary: "object" },
+    type: { summary: 'object' }
   },
-  type: { name: "object", required: false },
-};
+  type: { name: 'object', required: false }
+}
 
-export default objectArgType;
+export default objectArgType

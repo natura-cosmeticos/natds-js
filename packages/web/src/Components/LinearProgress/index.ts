@@ -1,5 +1,5 @@
-import LinearProgress from "./LinearProgress";
+import LinearProgress from './LinearProgress'
 
-export { ILinearProgressProps } from "./LinearProgress.props";
-export { LinearProgress };
-export default LinearProgress;
+export { ILinearProgressProps } from './LinearProgress.props'
+export { LinearProgress }
+export default LinearProgress

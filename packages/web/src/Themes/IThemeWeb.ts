@@ -1,15 +1,15 @@
-import { IFont, ITheme } from "@naturacosmeticos/natds-styles";
-import { Shadows as IShadows } from "@material-ui/core/styles/shadows";
+import { IFont, ITheme } from '@naturacosmeticos/natds-styles'
+import { Shadows as IShadows } from '@material-ui/core/styles/shadows'
 
 export interface IThemeWeb
   extends Pick<ITheme,
-    | "avatarSizes"
-    | "iconSizes"
-    | "opacity"
-    | "palette"
-    | "shape"
-    | "sizes"
-    | "spacing"
+    | 'avatarSizes'
+    | 'iconSizes'
+    | 'opacity'
+    | 'palette'
+    | 'shape'
+    | 'sizes'
+    | 'spacing'
     > {
   shadows?: IShadows;
   typography: {

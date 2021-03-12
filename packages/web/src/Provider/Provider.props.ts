@@ -1,5 +1,5 @@
-import * as React from "react";
-import { IThemeWeb } from "../Themes";
+import * as React from 'react'
+import { IThemeWeb } from '../Themes'
 
 export interface IProviderProps {
 

@@ -1,5 +1,5 @@
-import Snackbar from "./Snackbar";
+import Snackbar from './Snackbar'
 
-export { ISnackbarProps } from "./Snackbar.props";
-export { Snackbar };
-export default Snackbar;
+export { ISnackbarProps } from './Snackbar.props'
+export { Snackbar }
+export default Snackbar

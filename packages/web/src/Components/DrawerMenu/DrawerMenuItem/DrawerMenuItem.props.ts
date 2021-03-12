@@ -1,7 +1,7 @@
-import * as React from "react";
-import { IconName } from "@naturacosmeticos/natds-icons";
-import { IThemeWeb } from "../../../Themes";
-import { IDrawerMenuSectionProps } from "../DrawerMenuSection";
+import * as React from 'react'
+import { IconName } from '@naturacosmeticos/natds-icons'
+import { IThemeWeb } from '../../../Themes'
+import { IDrawerMenuSectionProps } from '../DrawerMenuSection'
 
 export interface IDrawerMenuItemProps {
   badge?: string;

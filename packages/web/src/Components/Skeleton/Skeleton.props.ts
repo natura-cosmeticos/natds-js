@@ -1,9 +1,9 @@
-import { SkeletonProps } from "@material-ui/lab/Skeleton";
-import { SizePropValue } from "../../hooks/useSizeStyleProp";
+import { SkeletonProps } from '@material-ui/lab/Skeleton'
+import { SizePropValue } from '../../hooks/useSizeStyleProp'
 
 export interface ISkeletonProps extends Omit<SkeletonProps,
-  "height" |
-  "width"
+  'height' |
+  'width'
   > {
 
   /**

@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
-import MaterialRating from "@material-ui/lab/Rating";
-import clsx from "clsx";
-import { IRatingProps } from "./Rating.props";
-import { Icon } from "../Icon";
-import useStyles from "./Rating.styles";
+import * as React from 'react'
+import MaterialRating from '@material-ui/lab/Rating'
+import clsx from 'clsx'
+import { IRatingProps } from './Rating.props'
+import { Icon } from '../Icon'
+import useStyles from './Rating.styles'
 
-export { IRatingProps } from "./Rating.props";
+export { IRatingProps } from './Rating.props'
 
 /**
  * ## Importing
@@ -21,31 +21,34 @@ export const Rating = React.forwardRef<HTMLDivElement, IRatingProps>(
     const {
       className,
       size,
-      rate,
-    } = props;
+      rate
+    } = props
 
-    const classes = useStyles({ size });
+    const classes = useStyles({ size })
 
     const classNames = clsx([
       className,
-      classes.root,
-    ]);
+      classes.root
+    ])
 
-    return <MaterialRating
-      ref={ref}
-      classes={{ iconEmpty: classes.iconEmpty }}
-      value={rate}
-      max={5}
-      name="rating"
-      readOnly={true}
-      icon={<Icon className={classNames} name={"filled-action-rating"}/>}
-    />;
-  });
+    return (
+      <MaterialRating
+        ref={ref}
+        classes={{ iconEmpty: classes.iconEmpty }}
+        value={rate}
+        max={5}
+        name="rating"
+        readOnly
+        icon={<Icon className={classNames} name="filled-action-rating" />}
+      />
+    )
+  }
+)
 
-Rating.displayName = "Rating";
+Rating.displayName = 'Rating'
 
 Rating.defaultProps = {
-  size: "small",
-};
+  size: 'small'
+}
 
-export default Rating;
+export default Rating

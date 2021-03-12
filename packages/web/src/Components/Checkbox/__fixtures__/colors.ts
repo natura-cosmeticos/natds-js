@@ -1,9 +1,9 @@
-import { CheckboxColor } from "../Checkbox.props";
+import { CheckboxColor } from '../Checkbox.props'
 
 export const colors: Record<CheckboxColor, CheckboxColor> = {
-  primary: "primary",
-  secondary: "secondary",
-  default: "default",
-};
+  primary: 'primary',
+  secondary: 'secondary',
+  default: 'default'
+}
 
-export default colors;
+export default colors

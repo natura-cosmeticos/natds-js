@@ -1,48 +1,48 @@
-import commonjs from "@rollup/plugin-commonjs";
-import babel from "@rollup/plugin-babel";
-import nodeResolve from "@rollup/plugin-node-resolve";
-import nodePolyfills from "rollup-plugin-node-polyfills";
+import commonjs from '@rollup/plugin-commonjs'
+import babel from '@rollup/plugin-babel'
+import nodeResolve from '@rollup/plugin-node-resolve'
+import nodePolyfills from 'rollup-plugin-node-polyfills'
 
 const getPluginsForBrowser = () => [
   nodeResolve({
-    preferBuiltins: true,
+    preferBuiltins: true
   }),
   commonjs({
-    include: ".png",
+    include: '.png'
   }),
   babel({
-    babelHelpers: "bundled",
-    exclude: "node_modules/**",
+    babelHelpers: 'bundled',
+    exclude: 'node_modules/**'
   }),
-  nodePolyfills(),
-];
+  nodePolyfills()
+]
 
 const getBrowserOutputConfig = ({
-  filePath = "",
+  filePath = '',
   globals,
-  name = "natdsReact",
+  name = 'natdsReact'
 }) => [
   {
     dir: `./dist/umd/${filePath}`,
-    format: "umd",
+    format: 'umd',
     globals,
     name,
-    sourcemap: true,
-  },
-];
+    sourcemap: true
+  }
+]
 
 const globals = {
-  react: "React",
-};
-const external = Object.keys(globals);
+  react: 'React'
+}
+const external = Object.keys(globals)
 
 export default [
   {
     external,
-    input: "./dist/index.js",
+    input: './dist/index.js',
     output: getBrowserOutputConfig({
-      globals,
+      globals
     }),
-    plugins: getPluginsForBrowser(),
-  },
-];
+    plugins: getPluginsForBrowser()
+  }
+]

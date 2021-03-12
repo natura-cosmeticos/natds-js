@@ -1,5 +1,5 @@
-import SnackbarContent from "./SnackbarContent";
+import SnackbarContent from './SnackbarContent'
 
-export { ISnackbarContentProps } from "./SnackbarContent.props";
-export { SnackbarContent };
-export default SnackbarContent;
+export { ISnackbarContentProps } from './SnackbarContent.props'
+export { SnackbarContent }
+export default SnackbarContent

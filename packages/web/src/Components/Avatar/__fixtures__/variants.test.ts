@@ -1,7 +1,7 @@
-import { variants } from "./variants";
+import { variants } from './variants'
 
-describe("Avatar deprecated variants", () => {
-  it("should match snapshot", () => {
-    expect(variants).toMatchSnapshot();
-  });
-});
+describe('Avatar deprecated variants', () => {
+  it('should match snapshot', () => {
+    expect(variants).toMatchSnapshot()
+  })
+})

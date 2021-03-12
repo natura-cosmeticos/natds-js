@@ -1,7 +1,7 @@
-import sizePropArgType from "./sizePropArgType";
+import sizePropArgType from './sizePropArgType'
 
-describe("Size prop arg type", () => {
-  it("should match snapshot", () => {
-    expect(sizePropArgType).toMatchSnapshot();
-  });
-});
+describe('Size prop arg type', () => {
+  it('should match snapshot', () => {
+    expect(sizePropArgType).toMatchSnapshot()
+  })
+})

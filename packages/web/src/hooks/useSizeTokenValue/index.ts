@@ -1,7 +1,7 @@
-import useTheme from "@material-ui/core/styles/useTheme";
-import { ISizes } from "@naturacosmeticos/natds-styles";
-import { IThemeWeb } from "../../Themes";
-import { getSizeTokens } from "../useSizeTokens";
+import useTheme from '@material-ui/core/styles/useTheme'
+import { ISizes } from '@naturacosmeticos/natds-styles'
+import { IThemeWeb } from '../../Themes'
+import { getSizeTokens } from '../useSizeTokens'
 
 type SizeTokenName = keyof ISizes;
 
@@ -13,20 +13,20 @@ type GetSizeTokenValueArgs = {
 type GetSizeTokenValueFn = ({ name, theme }: GetSizeTokenValueArgs) => number | null;
 
 export const getSizeTokenValue: GetSizeTokenValueFn = ({ name, theme }) => {
-  if (typeof name !== "string") {
-    return null;
+  if (typeof name !== 'string') {
+    return null
   }
-  const sizeTokens = getSizeTokens(theme);
+  const sizeTokens = getSizeTokens(theme)
 
-  if (typeof sizeTokens === "undefined") {
-    return null;
+  if (typeof sizeTokens === 'undefined') {
+    return null
   }
 
-  return sizeTokens[name];
-};
+  return sizeTokens[name]
+}
 
 export const useSizeTokenValue: (sizeTokenName?: SizeTokenName) => number | null = (sizeTokenName) => {
-  const theme : IThemeWeb = useTheme();
+  const theme : IThemeWeb = useTheme()
 
-  return getSizeTokenValue({ name: sizeTokenName, theme });
-};
+  return getSizeTokenValue({ name: sizeTokenName, theme })
+}

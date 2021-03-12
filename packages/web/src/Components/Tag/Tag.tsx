@@ -1,10 +1,10 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
-import clsx from "clsx";
-import { ITagProps } from "./Tag.props";
-import useStyles from "./Tag.styles";
+import * as React from 'react'
+import clsx from 'clsx'
+import { ITagProps } from './Tag.props'
+import useStyles from './Tag.styles'
 
-export { ITagProps } from "./Tag.props";
+export { ITagProps } from './Tag.props'
 
 export const Tag = React.forwardRef<HTMLDivElement, ITagProps>(
   (props: ITagProps, ref) => {
@@ -13,23 +13,23 @@ export const Tag = React.forwardRef<HTMLDivElement, ITagProps>(
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       classes: legacyClasses,
       className,
-      component: Component = "span",
-      color = "primary",
-      position = "default",
-      size = "small",
+      component: Component = 'span',
+      color = 'primary',
+      position = 'default',
+      size = 'small',
       style,
       ...otherProps
-    } = props;
+    } = props
 
-    const classes = useStyles();
-    
+    const classes = useStyles()
+
     const classNames = clsx(
       className,
       classes.root,
       classes[color],
       classes[position],
-      classes[size],
-    );
+      classes[size]
+    )
 
     return (
       <Component
@@ -40,16 +40,16 @@ export const Tag = React.forwardRef<HTMLDivElement, ITagProps>(
       >
         {children}
       </Component>
-    );
-  });
+    )
+  }
+)
 
-Tag.displayName = "Tag";
-
+Tag.displayName = 'Tag'
 
 /**
      * @deprecated `Contextual Badge` is deprecated since 1.1.0.
      * Use Tag instead.
 */
-export const ContextualBadge = Tag;
+export const ContextualBadge = Tag
 
-export default { ContextualBadge, Tag };
+export default { ContextualBadge, Tag }

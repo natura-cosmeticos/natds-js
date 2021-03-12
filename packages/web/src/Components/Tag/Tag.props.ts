@@ -1,8 +1,8 @@
-import * as React from "react";
+import * as React from 'react'
 
-export type ITagColors = "primary" | "secondary" | "info" | "error" | "warning" | "success" | "light" | "dark";
-export type ITagSizes = "small" | "standard";
-export type ITagPositions = "default" | "left";
+export type ITagColors = 'primary' | 'secondary' | 'info' | 'error' | 'warning' | 'success' | 'light' | 'dark';
+export type ITagSizes = 'small' | 'standard';
+export type ITagPositions = 'default' | 'left';
 
 export interface ITagProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

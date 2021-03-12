@@ -1,5 +1,5 @@
-import AppBarHighlight from "./AppBarHighlight";
+import AppBarHighlight from './AppBarHighlight'
 
-export { AppBarHighlightProps } from "./AppBarHighlight.props";
-export { AppBarHighlight };
-export default AppBarHighlight;
+export { AppBarHighlightProps } from './AppBarHighlight.props'
+export { AppBarHighlight }
+export default AppBarHighlight

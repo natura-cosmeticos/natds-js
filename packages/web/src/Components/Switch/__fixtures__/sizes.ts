@@ -1,8 +1,8 @@
-import { ISwitchProps } from "../Switch.props";
+import { ISwitchProps } from '../Switch.props'
 
-export const sizes : Record<ISwitchProps["size"], ISwitchProps["size"]> = {
-  medium: "medium",
-  small: "small",
-};
+export const sizes : Record<ISwitchProps['size'], ISwitchProps['size']> = {
+  medium: 'medium',
+  small: 'small'
+}
 
-export default sizes;
+export default sizes

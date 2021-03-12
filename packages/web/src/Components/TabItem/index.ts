@@ -1,5 +1,5 @@
-import TabItem from "./TabItem";
+import TabItem from './TabItem'
 
-export { ITabItemProps } from "./TabItem.props";
-export { TabItem };
-export default TabItem;
+export { ITabItemProps } from './TabItem.props'
+export { TabItem }
+export default TabItem

@@ -1,20 +1,20 @@
-import * as React from "react";
-import { LinkProps } from "@material-ui/core/Link";
+import * as React from 'react'
+import { LinkProps } from '@material-ui/core/Link'
 
 type LinkColor =
-  | "default"
-  | "error"
-  | "inherit"
-  | "initial"
-  | "primary"
-  | "secondary"
-  | "textPrimary"
-  | "textSecondary"
+  | 'default'
+  | 'error'
+  | 'inherit'
+  | 'initial'
+  | 'primary'
+  | 'secondary'
+  | 'textPrimary'
+  | 'textSecondary'
 ;
 
-export type MaterialLinkColor = LinkProps["color"];
+export type MaterialLinkColor = LinkProps['color'];
 
-export interface ILinkProps extends Omit<LinkProps, "color"> {
+export interface ILinkProps extends Omit<LinkProps, 'color'> {
 
   /**
    * The`Link` color.
@@ -31,7 +31,7 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
    * @required
    * @type node
    */
-  children: LinkProps["children"]
+  children: LinkProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -40,7 +40,7 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
    *
    * @see https://material-ui.com/api/link/#css
    */
-  classes?: LinkProps["classes"]
+  classes?: LinkProps['classes']
 
   /**
    * The component used for the root node. Either a string to use a DOM element or a component.
@@ -57,7 +57,7 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
    * @optional
    * @type object
    */
-  TypographyClasses?: LinkProps["TypographyClasses"]
+  TypographyClasses?: LinkProps['TypographyClasses']
 
   /**
    * Controls when the link should have an underline.
@@ -66,7 +66,7 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
    * @optional
    * @type "none" | "hover" | "always"
    */
-  underline?: LinkProps["underline"]
+  underline?: LinkProps['underline']
 
   /**
    * Applies the theme typography styles.
@@ -74,6 +74,6 @@ export interface ILinkProps extends Omit<LinkProps, "color"> {
    * @default "inherit"
    * @type string
    */
-  variant?: LinkProps["variant"]
+  variant?: LinkProps['variant']
 
 }

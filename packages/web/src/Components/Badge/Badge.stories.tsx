@@ -1,113 +1,113 @@
-import { Meta, Story } from "@storybook/react";
-import * as React from "react";
-import Badge from "./Badge";
-import { IBadgeProps } from "./Badge.props";
-import { colors } from "./__fixtures__/colors";
-import { variants } from "./__fixtures__/variants";
-import { anchorOrigins } from "./__fixtures__/anchorOrigins";
-import { Template, TemplateWithShapes } from "./Template";
-import { argTypes } from "./Badge.argTypes";
-import { overlaps } from "./__fixtures__/overlaps";
-import { Icon } from "../Icon";
-import { TinyIcon } from "../Icon/Icon.stories";
-import { Typography } from "../Typography";
+import { Meta, Story } from '@storybook/react'
+import * as React from 'react'
+import Badge from './Badge'
+import { IBadgeProps } from './Badge.props'
+import { colors } from './__fixtures__/colors'
+import { variants } from './__fixtures__/variants'
+import { anchorOrigins } from './__fixtures__/anchorOrigins'
+import { Template, TemplateWithShapes } from './Template'
+import { argTypes } from './Badge.argTypes'
+import { overlaps } from './__fixtures__/overlaps'
+import { Icon } from '../Icon'
+import { TinyIcon } from '../Icon/Icon.stories'
+import { Typography } from '../Typography'
 
 export default {
   argTypes,
   component: Badge,
-  title: "Components/Badge",
-} as Meta;
+  title: 'Components/Badge'
+} as Meta
 
-export const Playground : Story<IBadgeProps> = Template.bind({});
+export const Playground : Story<IBadgeProps> = Template.bind({})
 Playground.args = {
   anchorOrigin: anchorOrigins.topRight,
-  badgeContent: "999",
+  badgeContent: '999',
   color: colors.primary,
   invisible: false,
   max: 99,
   overlap: overlaps.circle,
   showZero: false,
-  variant: variants.standard,
-};
+  variant: variants.standard
+}
 
-export const DefaultColor : Story<IBadgeProps> = Template.bind({});
+export const DefaultColor : Story<IBadgeProps> = Template.bind({})
 DefaultColor.args = {
   ...Playground.args,
-  color: colors.default,
-};
+  color: colors.default
+}
 
-export const ErrorColor : Story<IBadgeProps> = Template.bind({});
+export const ErrorColor : Story<IBadgeProps> = Template.bind({})
 ErrorColor.args = {
   ...Playground.args,
-  color: colors.error,
-};
+  color: colors.error
+}
 
-export const PrimaryColor : Story<IBadgeProps> = Template.bind({});
+export const PrimaryColor : Story<IBadgeProps> = Template.bind({})
 PrimaryColor.args = {
   ...Playground.args,
-  color: colors.primary,
-};
+  color: colors.primary
+}
 
-export const SecondaryColor : Story<IBadgeProps> = Template.bind({});
+export const SecondaryColor : Story<IBadgeProps> = Template.bind({})
 SecondaryColor.args = {
   ...Playground.args,
-  color: colors.secondary,
-};
+  color: colors.secondary
+}
 
-export const DotVariant : Story<IBadgeProps> = Template.bind({});
+export const DotVariant : Story<IBadgeProps> = Template.bind({})
 DotVariant.args = {
   ...Playground.args,
-  variant: variants.dot,
-};
+  variant: variants.dot
+}
 
-export const StandardVariant : Story<IBadgeProps> = Template.bind({});
+export const StandardVariant : Story<IBadgeProps> = Template.bind({})
 StandardVariant.args = {
   ...Playground.args,
-  variant: variants.standard,
-};
+  variant: variants.standard
+}
 
-export const TopLeftAnchor : Story<IBadgeProps> = Template.bind({});
+export const TopLeftAnchor : Story<IBadgeProps> = Template.bind({})
 TopLeftAnchor.args = {
   ...Playground.args,
-  anchorOrigin: anchorOrigins.topLeft,
-};
+  anchorOrigin: anchorOrigins.topLeft
+}
 
-export const TopRightAnchor : Story<IBadgeProps> = Template.bind({});
+export const TopRightAnchor : Story<IBadgeProps> = Template.bind({})
 TopRightAnchor.args = {
   ...Playground.args,
-  anchorOrigin: anchorOrigins.topRight,
-};
+  anchorOrigin: anchorOrigins.topRight
+}
 
-export const BottomLeftAnchor : Story<IBadgeProps> = Template.bind({});
+export const BottomLeftAnchor : Story<IBadgeProps> = Template.bind({})
 BottomLeftAnchor.args = {
   ...Playground.args,
-  anchorOrigin: anchorOrigins.bottomLeft,
-};
+  anchorOrigin: anchorOrigins.bottomLeft
+}
 
-export const BottomRightAnchor : Story<IBadgeProps> = Template.bind({});
+export const BottomRightAnchor : Story<IBadgeProps> = Template.bind({})
 BottomRightAnchor.args = {
   ...Playground.args,
-  anchorOrigin: anchorOrigins.bottomRight,
-};
+  anchorOrigin: anchorOrigins.bottomRight
+}
 
-export const WithFilterIcon : Story<IBadgeProps> = Template.bind({});
+export const WithFilterIcon : Story<IBadgeProps> = Template.bind({})
 WithFilterIcon.args = {
   badgeContent: 1,
   children: [
-    <Icon key={"icon"} {...TinyIcon.args} name={"outlined-action-filter"} />,
-    <Typography key={"srOnly"} variant={"srOnly"}>Filters (1 active)</Typography>,
+    <Icon key="icon" {...TinyIcon.args} name="outlined-action-filter" />,
+    <Typography key="srOnly" variant="srOnly">Filters (1 active)</Typography>
   ],
-  color: colors.secondary,
-};
+  color: colors.secondary
+}
 
-export const CircleOverlap : Story<IBadgeProps> = TemplateWithShapes.bind({});
+export const CircleOverlap : Story<IBadgeProps> = TemplateWithShapes.bind({})
 CircleOverlap.args = {
   ...Playground.args,
-  overlap: overlaps.circle,
-};
+  overlap: overlaps.circle
+}
 
-export const RectangleOverlap : Story<IBadgeProps> = TemplateWithShapes.bind({});
+export const RectangleOverlap : Story<IBadgeProps> = TemplateWithShapes.bind({})
 RectangleOverlap.args = {
   ...Playground.args,
-  overlap: overlaps.rectangle,
-};
+  overlap: overlaps.rectangle
+}

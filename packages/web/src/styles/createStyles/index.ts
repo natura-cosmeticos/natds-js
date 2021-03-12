@@ -1,4 +1,4 @@
-import { createStyles } from "./createStyles";
+import { createStyles } from './createStyles'
 
-export { createStyles };
-export default createStyles;
+export { createStyles }
+export default createStyles

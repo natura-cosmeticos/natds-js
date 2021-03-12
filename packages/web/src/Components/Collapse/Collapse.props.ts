@@ -1,4 +1,4 @@
-import { CollapseProps } from "@material-ui/core/Collapse";
+import { CollapseProps } from '@material-ui/core/Collapse'
 
 export interface ICollapseProps extends CollapseProps {
 
@@ -8,7 +8,7 @@ export interface ICollapseProps extends CollapseProps {
    * @optional
    * @type node
    */
-  children?: CollapseProps["children"]
+  children?: CollapseProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -16,7 +16,7 @@ export interface ICollapseProps extends CollapseProps {
    * @optional
    * @type object
    */
-  classes?: CollapseProps["classes"]
+  classes?: CollapseProps['classes']
 
   /**
    * The height of the container when collapsed.
@@ -26,7 +26,7 @@ export interface ICollapseProps extends CollapseProps {
    * @todo add support to size tokens
    * @type string | number
    */
-  collapsedHeight?: CollapseProps["collapsedHeight"]
+  collapsedHeight?: CollapseProps['collapsedHeight']
 
   /**
    * The component used for the root node. Either a string to use a DOM element or a component.
@@ -35,7 +35,7 @@ export interface ICollapseProps extends CollapseProps {
    * @optional
    * @type element
    */
-  component?: CollapseProps["component"]
+  component?: CollapseProps['component']
 
   /**
    * If `true`, the component will transition in.
@@ -43,7 +43,7 @@ export interface ICollapseProps extends CollapseProps {
    * @optional
    * @type bool
    */
-  in?: CollapseProps["in"]
+  in?: CollapseProps['in']
 
   /**
    * The duration for the transition, in milliseconds.
@@ -60,5 +60,5 @@ export interface ICollapseProps extends CollapseProps {
    *
    * @type number | object | "auto"
    */
-  timeout?: CollapseProps["timeout"]
+  timeout?: CollapseProps['timeout']
 }

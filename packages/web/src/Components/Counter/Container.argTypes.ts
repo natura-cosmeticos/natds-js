@@ -1,50 +1,50 @@
-import { ArgType } from "@storybook/addons";
-import { ICounterProps } from "./Counter.props";
+import { ArgType } from '@storybook/addons'
+import { ICounterProps } from './Counter.props'
 
 export const argTypes : Record<keyof ICounterProps | string, ArgType> = {
 
   label: {
     defaultValue: null,
-    type: "string",
+    type: 'string'
   },
   readOnly: {
     defaultValue: false,
-    type: "boolean",
+    type: 'boolean'
   },
   size: {
-    defaultValue: "small",
+    defaultValue: 'small',
     control: {
-      type: "select",
+      type: 'select',
       options: [
-        "small",
-        "medium",
-      ],
-    },
+        'small',
+        'medium'
+      ]
+    }
   },
   initialValue: {
     defaultValue: 1,
-    type: "number",
+    type: 'number'
   },
   maxValue: {
     defaultValue: 99,
-    type: "number",
+    type: 'number'
   },
   minValue: {
     defaultValue: 0,
-    type: "number",
+    type: 'number'
   },
   onChange: {
     defaultValue: null,
-    type: "function",
+    type: 'function'
   },
   onIncrement: {
     defaultValue: null,
-    type: "function",
+    type: 'function'
   },
   onDecrement: {
     defaultValue: null,
-    type: "function",
-  },
-};
+    type: 'function'
+  }
+}
 
-export default argTypes;
+export default argTypes

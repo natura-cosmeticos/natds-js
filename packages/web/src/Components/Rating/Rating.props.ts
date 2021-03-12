@@ -1,6 +1,6 @@
-import * as React from "react";
+import * as React from 'react'
 
-export type IRatingSizes = "small" | "standard" | "semi" | "semix";
+export type IRatingSizes = 'small' | 'standard' | 'semi' | 'semix';
 
 export interface IRatingProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any

@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
-import themes from "@naturacosmeticos/natds-themes";
-import { IElevation } from "./IElevation";
+import themes from '@naturacosmeticos/natds-themes'
+import { IElevation } from './IElevation'
 
-const { elevation: naturaLightElevation } = themes.natura.light;
+const { elevation: naturaLightElevation } = themes.natura.light
 
 export const elevation: IElevation = {
   ...naturaLightElevation,
@@ -71,5 +71,5 @@ export const elevation: IElevation = {
    * @deprecated elevation token `24` is deprecated since v0.20 and will be removed at v1.0.
    * Please use `hugeXX` elevation token from a theme, like Natura light.
    */
-  24: naturaLightElevation.hugeXX,
-};
+  24: naturaLightElevation.hugeXX
+}

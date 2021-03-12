@@ -1,36 +1,36 @@
-import * as React from "react";
-import { makeStyles, createStyles } from "@material-ui/core";
-import { Story } from "@storybook/react";
-import { argTypes } from "./Card.argTypes";
+import * as React from 'react'
+import { makeStyles, createStyles } from '@material-ui/core'
+import { Story } from '@storybook/react'
+import { argTypes } from './Card.argTypes'
 
-import { Card } from "./Card";
-import { Typography } from "../Typography";
-import { Button } from "../Button";
-import { ICardProps } from "./Card.props";
+import { Card } from './Card'
+import { Typography } from '../Typography'
+import { Button } from '../Button'
+import { ICardProps } from './Card.props'
 
 export default {
   argTypes,
   component: Card,
-  title: "Components/Card",
-};
+  title: 'Components/Card'
+}
 
-Card.displayName = "Card";
+Card.displayName = 'Card'
 
 const useStyles = makeStyles(
   createStyles({
     card: {
       padding: 16,
-      maxWidth: 328,
+      maxWidth: 328
     },
     body: {
-      margin: "16px 0",
-    },
+      margin: '16px 0'
+    }
   }),
-  { name: "CardDemo" },
-);
+  { name: 'CardDemo' }
+)
 
 const CardTemplate: Story<ICardProps> = (args: ICardProps) => {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
     <Card {...args} className={classes.card}>
@@ -45,7 +45,7 @@ const CardTemplate: Story<ICardProps> = (args: ICardProps) => {
         Default
       </Button>
     </Card>
-  );
-};
+  )
+}
 
-export const Playground = CardTemplate.bind({});
+export const Playground = CardTemplate.bind({})

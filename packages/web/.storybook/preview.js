@@ -1,10 +1,10 @@
-import { ThemeProviderDecorator } from "./decorators/ThemeProviderDecorator";
+import { ThemeProviderDecorator } from './decorators/ThemeProviderDecorator'
 
-export { globalTypes } from "./globalTypes";
+export { globalTypes } from './globalTypes'
 
-export const decorators = [ThemeProviderDecorator];
+export const decorators = [ThemeProviderDecorator]
 
 export const parameters = {
-  actions: { argTypesRegex: "^on[A-Z].*" },
-  controls: { expanded: true },
-};
+  actions: { argTypesRegex: '^on[A-Z].*' },
+  controls: { expanded: true }
+}

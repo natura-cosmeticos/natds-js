@@ -1,97 +1,101 @@
-import * as React from "react";
-import { Meta, Story } from "@storybook/react";
-import { IFabProps } from "./Fab.props";
-import { Fab as component } from "./Fab";
-import { variants } from "./__fixtures__/variants";
-import { colors } from "./__fixtures__/colors";
-import { sizes } from "./__fixtures__/sizes";
-import { Icon } from "../Icon";
-import { argTypes } from "./Fab.argTypes";
-import { SmallIcon } from "../Icon/Icon.stories";
+import * as React from 'react'
+import { Meta, Story } from '@storybook/react'
+import { IFabProps } from './Fab.props'
+import { Fab as component } from './Fab'
+import { variants } from './__fixtures__/variants'
+import { colors } from './__fixtures__/colors'
+import { sizes } from './__fixtures__/sizes'
+import { Icon } from '../Icon'
+import { argTypes } from './Fab.argTypes'
+import { SmallIcon } from '../Icon/Icon.stories'
 
-const Fab : React.ForwardRefExoticComponent<IFabProps> = React.lazy(() => import("./Fab"));
+const Fab : React.ForwardRefExoticComponent<IFabProps> = React.lazy(() => import('./Fab'))
 
-Fab.displayName = "Fab";
+Fab.displayName = 'Fab'
 
 export default {
   argTypes,
   component,
   subcomponents: { Icon },
-  title: "Components/FAB",
-} as Meta;
+  title: 'Components/FAB'
+} as Meta
 
-const Template : Story<IFabProps> = (args) => <Fab {...args}>{args.children}</Fab>;
+const Template : Story<IFabProps> = (args) => <Fab {...args}>{args.children}</Fab>
 
 /**
  * @todo add support for choosing icon
  */
-export const Playground : Story<IFabProps> = Template.bind({});
+export const Playground : Story<IFabProps> = Template.bind({})
 Playground.args = {
-  children: <Icon {...SmallIcon.args} name={"outlined-action-add"} />,
+  children: <Icon {...SmallIcon.args} name="outlined-action-add" />,
   color: colors.primary,
   size: sizes.large,
-  variant: variants.round,
-};
+  variant: variants.round
+}
 
-export const PrimaryColor : Story<IFabProps> = Template.bind({});
+export const PrimaryColor : Story<IFabProps> = Template.bind({})
 PrimaryColor.args = {
   ...Playground.args,
-  color: colors.primary,
-};
+  color: colors.primary
+}
 
-export const SecondaryColor : Story<IFabProps> = Template.bind({});
+export const SecondaryColor : Story<IFabProps> = Template.bind({})
 SecondaryColor.args = {
   ...Playground.args,
-  color: colors.secondary,
-};
+  color: colors.secondary
+}
 SecondaryColor.parameters = {
   docs: {
     description: {
-      story: "We recommend that you give preference to the secondary color when using the FAB component.",
-    },
-  },
-};
+      story: 'We recommend that you give preference to the secondary color when using the FAB component.'
+    }
+  }
+}
 
-export const LightColor : Story<IFabProps> = Template.bind({});
+export const LightColor : Story<IFabProps> = Template.bind({})
 LightColor.args = {
   ...Playground.args,
-  color: colors.light,
-};
+  color: colors.light
+}
 
-export const RoundVariant : Story<IFabProps> = Template.bind({});
+export const RoundVariant : Story<IFabProps> = Template.bind({})
 RoundVariant.args = {
   ...Playground.args,
-  variant: variants.round,
-};
+  variant: variants.round
+}
 
-export const ExtendedVariant : Story<IFabProps> = Template.bind({});
+export const ExtendedVariant : Story<IFabProps> = Template.bind({})
 ExtendedVariant.args = {
   ...Playground.args,
-  children: "Extended (with text)",
-  variant: "extended",
-};
+  children: 'Extended (with text)',
+  variant: 'extended'
+}
 
-export const LargeSize : Story<IFabProps> = Template.bind({});
+export const LargeSize : Story<IFabProps> = Template.bind({})
 LargeSize.args = {
   ...Playground.args,
-  size: sizes.large,
-};
+  size: sizes.large
+}
 
-export const MediumSize : Story<IFabProps> = Template.bind({});
+export const MediumSize : Story<IFabProps> = Template.bind({})
 MediumSize.args = {
   ...Playground.args,
-  size: sizes.medium,
-};
+  size: sizes.medium
+}
 
-export const SmallSize : Story<IFabProps> = Template.bind({});
+export const SmallSize : Story<IFabProps> = Template.bind({})
 SmallSize.args = {
   ...Playground.args,
-  size: sizes.small,
-};
+  size: sizes.small
+}
 
-export const LeadingIcon : Story<IFabProps> = Template.bind({});
+export const LeadingIcon : Story<IFabProps> = Template.bind({})
 LeadingIcon.args = {
   ...Playground.args,
-  children: <><Icon {...SmallIcon.args} name={"outlined-action-add"} /> Icon and text</>,
-  variant: variants.extended,
-};
+  children: <>
+    <Icon {...SmallIcon.args} name="outlined-action-add" />
+    {' '}
+    Icon and text
+  </>,
+  variant: variants.extended
+}

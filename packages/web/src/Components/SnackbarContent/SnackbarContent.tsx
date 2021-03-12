@@ -1,11 +1,11 @@
-import React from "react";
-import MaterialSnackbarContent from "@material-ui/core/SnackbarContent";
-import clsx from "clsx";
+import React from 'react'
+import MaterialSnackbarContent from '@material-ui/core/SnackbarContent'
+import clsx from 'clsx'
 
-import { ISnackbarContentProps } from "./SnackbarContent.props";
-import { useStyles } from "./SnackbarContent.styles";
+import { ISnackbarContentProps } from './SnackbarContent.props'
+import { useStyles } from './SnackbarContent.styles'
 
-export { ISnackbarContentProps } from "./SnackbarContent.props";
+export { ISnackbarContentProps } from './SnackbarContent.props'
 
 /**
  * ## Importing
@@ -15,18 +15,18 @@ export { ISnackbarContentProps } from "./SnackbarContent.props";
  * ```
  */
 export const SnackbarContent = React.forwardRef<HTMLElement, ISnackbarContentProps>((
-  props: ISnackbarContentProps, ref,
+  props: ISnackbarContentProps, ref
 ) => {
   const {
-    color = "default", className, ...rest
-  } = props;
+    color = 'default', className, ...rest
+  } = props
 
-  const classes = useStyles();
+  const classes = useStyles()
 
   const classNames : string = clsx(
     classes[color as keyof typeof classes],
-    className,
-  );
+    className
+  )
 
   return (
     <MaterialSnackbarContent
@@ -34,9 +34,9 @@ export const SnackbarContent = React.forwardRef<HTMLElement, ISnackbarContentPro
       className={classNames}
       ref={ref}
     />
-  );
-});
+  )
+})
 
-SnackbarContent.displayName = "SnackbarContent";
+SnackbarContent.displayName = 'SnackbarContent'
 
-export default SnackbarContent;
+export default SnackbarContent

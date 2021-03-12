@@ -1,4 +1,4 @@
-import { Size } from "@naturacosmeticos/natds-themes";
+import { Size } from '@naturacosmeticos/natds-themes'
 
 export interface ISizes extends Size {
 

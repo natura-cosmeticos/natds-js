@@ -1,34 +1,34 @@
-import { Story } from "@storybook/react";
-import * as React from "react";
-import { IAppBarProps } from "./AppBar.props";
-import { IToolbarProps, Toolbar } from "../Toolbar";
-import { AppBar } from "./AppBar";
-import { Typography } from "../Typography";
-import { TabContainer } from "../TabContainer";
-import { ForAppBar } from "../TabContainer/TabContainer.stories";
-import { TabItem } from "../TabItem";
+import { Story } from '@storybook/react'
+import * as React from 'react'
+import { IAppBarProps } from './AppBar.props'
+import { IToolbarProps, Toolbar } from '../Toolbar'
+import { AppBar } from './AppBar'
+import { Typography } from '../Typography'
+import { TabContainer } from '../TabContainer'
+import { ForAppBar } from '../TabContainer/TabContainer.stories'
+import { TabItem } from '../TabItem'
 import {
   WithBrandsProductIconAndLabel,
   WithLoveIconAndLabel,
   WithMakeupIconAndLabel,
-  WithOutletIconAndLabel,
-} from "../TabItem/TabItem.stories";
-import { Spacing } from "../Spacing";
-import { SmallRightMargin } from "../Spacing/Spacing.margin.stories";
-import { IconButton } from "../IconButton";
-import { Icon } from "../Icon";
-import { Button } from "../Button";
-import { InheritColor } from "../Button/Button.stories";
-import { positions } from "./__fixtures__/positions";
+  WithOutletIconAndLabel
+} from '../TabItem/TabItem.stories'
+import { Spacing } from '../Spacing'
+import { SmallRightMargin } from '../Spacing/Spacing.margin.stories'
+import { IconButton } from '../IconButton'
+import { Icon } from '../Icon'
+import { Button } from '../Button'
+import { InheritColor } from '../Button/Button.stories'
+import { positions } from './__fixtures__/positions'
 import {
   FilterButtonExample,
   MenuButtonExample,
   MyProfileButtonExample,
-  SearchButtonExample,
-} from "../IconButton/IconButton.stories";
-import { AppBarHighlight } from "../AppBarHighlight";
-import { ForAppBarTitle } from "../Typography/Typography.stories";
-import { SmallIcon } from "../Icon/Icon.stories";
+  SearchButtonExample
+} from '../IconButton/IconButton.stories'
+import { AppBarHighlight } from '../AppBarHighlight'
+import { ForAppBarTitle } from '../Typography/Typography.stories'
+import { SmallIcon } from '../Icon/Icon.stories'
 
 export const Template : Story<IAppBarProps> = (args: IAppBarProps) => (
   <AppBar {...args}>
@@ -38,16 +38,16 @@ export const Template : Story<IAppBarProps> = (args: IAppBarProps) => (
       </AppBarHighlight>
     </Toolbar>
   </AppBar>
-);
+)
 
 export const TemplateWithTabs : Story<IAppBarProps> = (args: IAppBarProps) => {
-  const initialState = 0;
-  const [value, setValue] = React.useState<number>(initialState);
+  const initialState = 0
+  const [value, setValue] = React.useState<number>(initialState)
 
   // eslint-disable-next-line @typescript-eslint/ban-types
   const handleChange = (event: React.ChangeEvent<{}>, newValue: number) => {
-    setValue(newValue);
-  };
+    setValue(newValue)
+  }
 
   return (
     <AppBar {...args}>
@@ -59,22 +59,22 @@ export const TemplateWithTabs : Story<IAppBarProps> = (args: IAppBarProps) => {
         <TabItem {...WithMakeupIconAndLabel.args} />
       </TabContainer>
     </AppBar>
-  );
-};
+  )
+}
 
 export const ToolbarTemplate : Story<IToolbarProps> = (args: IToolbarProps) => (
   <AppBar position={positions.static}>
     <Toolbar {...args}>
       <Spacing {...SmallRightMargin.args}>
         <IconButton>
-          <Icon {...SmallIcon.args} name={"filled-brand-naturarosacea"} />
+          <Icon {...SmallIcon.args} name="filled-brand-naturarosacea" />
         </IconButton>
       </Spacing>
       {args.children}
       <Button {...InheritColor.args}>Login</Button>
     </Toolbar>
   </AppBar>
-);
+)
 
 export const TemplateWithIconButtons : Story<IAppBarProps> = (args: IAppBarProps) => (
   <AppBar {...args}>
@@ -88,4 +88,4 @@ export const TemplateWithIconButtons : Story<IAppBarProps> = (args: IAppBarProps
       <IconButton {...MyProfileButtonExample.args} />
     </Toolbar>
   </AppBar>
-);
+)

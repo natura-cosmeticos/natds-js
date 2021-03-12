@@ -1,9 +1,9 @@
-import createStyles from "./createStyles";
+import createStyles from './createStyles'
 
-describe("Create styles", () => {
-  it("should", () => {
-    const actual = createStyles({});
+describe('Create styles', () => {
+  it('should', () => {
+    const actual = createStyles({})
 
-    expect(actual).toStrictEqual({});
-  });
-});
+    expect(actual).toStrictEqual({})
+  })
+})

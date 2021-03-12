@@ -1,15 +1,15 @@
 import {
   naturaDarkColorTokens,
-  naturaLightColorTokens,
-} from "./natura";
+  naturaLightColorTokens
+} from './natura'
 import {
   avonDarkColorTokens,
-  avonLightColorTokens,
-} from "./avon";
+  avonLightColorTokens
+} from './avon'
 import {
   theBodyShopDarkColorTokens,
-  theBodyShopLightColorTokens,
-} from "./theBodyShop";
+  theBodyShopLightColorTokens
+} from './theBodyShop'
 
 /**
  * @deprecated theme-bound `colorTokens` are deprecated since v0.20 and will be removed at v1.0.
@@ -51,5 +51,5 @@ export const colorTokens = {
    * @deprecated `theBodyShopLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
    * Please use `theme.theBodyShop.light.colors` from `natds-themes`.
    */
-  theBodyShopLightColorTokens,
-};
+  theBodyShopLightColorTokens
+}

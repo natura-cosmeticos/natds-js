@@ -1,5 +1,5 @@
-import DialogTitle from "./DialogTitle";
+import DialogTitle from './DialogTitle'
 
-export { IDialogTitleProps } from "./DialogTitle.props";
-export { DialogTitle };
-export default DialogTitle;
+export { IDialogTitleProps } from './DialogTitle.props'
+export { DialogTitle }
+export default DialogTitle

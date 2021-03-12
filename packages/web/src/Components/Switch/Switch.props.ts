@@ -1,6 +1,6 @@
-import { SwitchProps } from "@material-ui/core/Switch";
+import { SwitchProps } from '@material-ui/core/Switch'
 
-export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
+export interface ISwitchProps extends Omit<SwitchProps, 'translate'> {
 
   /**
    * If `true`, the component is checked.
@@ -8,7 +8,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type bool
    */
-  checked?: SwitchProps["checked"]
+  checked?: SwitchProps['checked']
 
   /**
    * The icon to display when the component is checked.
@@ -16,7 +16,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type node
    */
-  checkedIcon?: SwitchProps["checkedIcon"]
+  checkedIcon?: SwitchProps['checkedIcon']
 
   /**
    * Override or extend the styles applied to the component.
@@ -26,7 +26,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type object
    */
-  classes?: SwitchProps["classes"]
+  classes?: SwitchProps['classes']
 
   /**
    * The color of the component.
@@ -37,7 +37,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type "primary" | "secondary" | "default"
    */
-  color?: SwitchProps["color"]
+  color?: SwitchProps['color']
 
   /**
    * If `true`, the switch will be disabled. Defaults to `false`.
@@ -45,7 +45,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type bool
    */
-  disabled?: SwitchProps["disabled"]
+  disabled?: SwitchProps['disabled']
 
   /**
    * If `true`, the ripple effect will be disabled.
@@ -53,7 +53,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type bool
    */
-  disableRipple?: SwitchProps["disableRipple"]
+  disableRipple?: SwitchProps['disableRipple']
 
   /**
    * If given, uses a negative margin to counteract the padding on one side.
@@ -64,7 +64,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type "start" | "end" | false
    */
-  edge?: SwitchProps["edge"]
+  edge?: SwitchProps['edge']
 
   /**
    * The icon to display when the component is unchecked.
@@ -72,7 +72,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type node
    */
-  icon?: SwitchProps["icon"]
+  icon?: SwitchProps['icon']
 
   /**
    * The `id` of the `input` element.
@@ -80,7 +80,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type string
    */
-  id?: SwitchProps["id"]
+  id?: SwitchProps['id']
 
   /**
    * [Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes) applied to the `input` element.
@@ -88,7 +88,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes
    * @type object
    */
-  inputProps?: SwitchProps["inputProps"]
+  inputProps?: SwitchProps['inputProps']
 
   /**
    * Pass a `ref` to the `input` element.
@@ -96,7 +96,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type ref
    */
-  inputRef?: SwitchProps["inputRef"]
+  inputRef?: SwitchProps['inputRef']
 
   /**
    * Callback fired when the state is changed i.e `function(event: object) => void`
@@ -104,7 +104,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type func
    */
-  onChange?: SwitchProps["onChange"]
+  onChange?: SwitchProps['onChange']
 
   /**
    * If `true`, the `input` element will be required.
@@ -112,7 +112,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type bool
    */
-  required?: SwitchProps["required"]
+  required?: SwitchProps['required']
 
   /**
    * The size of the switch. `small` is equivalent to the dense switch styling.
@@ -120,7 +120,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type "small" | "medium
    */
-  size?: SwitchProps["size"]
+  size?: SwitchProps['size']
 
   /**
    * The `input` component prop type.
@@ -128,7 +128,7 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type string
    */
-  type?: SwitchProps["type"]
+  type?: SwitchProps['type']
 
   /**
    * The `value` of the component. The DOM API casts this to a `string`.
@@ -136,6 +136,6 @@ export interface ISwitchProps extends Omit<SwitchProps, "translate"> {
    * @optional
    * @type any
    */
-  value?: SwitchProps["value"]
+  value?: SwitchProps['value']
 
 }

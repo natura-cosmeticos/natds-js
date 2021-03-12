@@ -1,5 +1,5 @@
-import ListSubheader from "./ListSubheader";
+import ListSubheader from './ListSubheader'
 
-export { IListSubheaderProps } from "./ListSubheader.props";
-export { ListSubheader };
-export default ListSubheader;
+export { IListSubheaderProps } from './ListSubheader.props'
+export { ListSubheader }
+export default ListSubheader

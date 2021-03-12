@@ -1,4 +1,4 @@
-import { DialogTitleProps } from "@material-ui/core/DialogTitle";
+import { DialogTitleProps } from '@material-ui/core/DialogTitle'
 
 export interface IDialogTitleProps extends DialogTitleProps {
 
@@ -8,7 +8,7 @@ export interface IDialogTitleProps extends DialogTitleProps {
    * @required
    * @type node
    */
-  children: DialogTitleProps["children"]
+  children: DialogTitleProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -16,7 +16,7 @@ export interface IDialogTitleProps extends DialogTitleProps {
    * @optional
    * @type object
    */
-  classes?: DialogTitleProps["classes"]
+  classes?: DialogTitleProps['classes']
 
   /**
    * Used in `DialogTitle`. If `true`, the children won't be wrapped by a `Typography` component.
@@ -26,5 +26,5 @@ export interface IDialogTitleProps extends DialogTitleProps {
    * @see Typography
    * @type bool
    */
-  disableTypography?: DialogTitleProps["disableTypography"]
+  disableTypography?: DialogTitleProps['disableTypography']
 }

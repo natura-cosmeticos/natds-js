@@ -1,8 +1,8 @@
-import { VerticalAnchorOrigin } from "../Snackbar.props";
+import { VerticalAnchorOrigin } from '../Snackbar.props'
 
 export const verticalAnchorOrigins : Record<VerticalAnchorOrigin, VerticalAnchorOrigin> = {
-  bottom: "bottom",
-  top: "top",
-};
+  bottom: 'bottom',
+  top: 'top'
+}
 
-export default verticalAnchorOrigins;
+export default verticalAnchorOrigins

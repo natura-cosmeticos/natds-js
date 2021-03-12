@@ -1,8 +1,8 @@
-import { BadgeOverlap } from "../Badge.props";
+import { BadgeOverlap } from '../Badge.props'
 
 export const overlaps: Record<NonNullable<BadgeOverlap>, NonNullable<BadgeOverlap>> = {
-  circle: "circle",
-  rectangle: "rectangle",
-};
+  circle: 'circle',
+  rectangle: 'rectangle'
+}
 
-export default overlaps;
+export default overlaps

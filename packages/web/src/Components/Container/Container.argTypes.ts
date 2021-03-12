@@ -1,63 +1,63 @@
-import { ArgType } from "@storybook/addons";
-import { IContainerProps } from "./Container.props";
-import maxWidths from "./__fixtures__/maxWidths";
+import { ArgType } from '@storybook/addons'
+import { IContainerProps } from './Container.props'
+import maxWidths from './__fixtures__/maxWidths'
 
 export const argTypes : Record<keyof IContainerProps | string, ArgType> = {
   children: {
-    description: "The content of the component. The children to render into the `Container`.",
+    description: 'The content of the component. The children to render into the `Container`.',
     table: {
       type: {
-        summary: "node",
-      },
-    },
+        summary: 'node'
+      }
+    }
   },
   component: {
     table: {
       defaultValue: {
-        summary: "\"div\"",
+        summary: '"div"'
       },
       type: {
-        summary: "elementType",
-      },
-    },
+        summary: 'elementType'
+      }
+    }
   },
   disableGutters: {
     control: {
-      type: "boolean",
+      type: 'boolean'
     },
     table: {
       defaultValue: {
-        summary: false,
+        summary: false
       },
       type: {
-        summary: "bool",
-      },
-    },
+        summary: 'bool'
+      }
+    }
   },
   fixed: {
     control: {
-      type: "boolean",
+      type: 'boolean'
     },
     table: {
       defaultValue: {
-        summary: false,
+        summary: false
       },
       type: {
-        summary: "bool",
-      },
-    },
+        summary: 'bool'
+      }
+    }
   },
   maxWidth: {
     control: {
       options: maxWidths,
-      type: "select",
+      type: 'select'
     },
     table: {
       defaultValue: {
-        summary: "\"lg\"",
-      },
-    },
-  },
-};
+        summary: '"lg"'
+      }
+    }
+  }
+}
 
-export default argTypes;
+export default argTypes

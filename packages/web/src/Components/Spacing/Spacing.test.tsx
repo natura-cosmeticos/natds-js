@@ -1,64 +1,63 @@
-import * as React from "react";
-import * as TestRenderer from "react-test-renderer";
-import Spacing from "./Spacing";
-import { spacingArgTypes } from "./Spacing.argTypes";
-import { Provider } from "../../Provider";
+import * as React from 'react'
+import * as TestRenderer from 'react-test-renderer'
+import Spacing from './Spacing'
+import { spacingArgTypes } from './Spacing.argTypes'
+import { Provider } from '../../Provider'
 
-describe("Spacing component", () => {
+describe('Spacing component', () => {
+  let testRenderer : TestRenderer.ReactTestRenderer = {} as TestRenderer.ReactTestRenderer
 
-  let testRenderer : TestRenderer.ReactTestRenderer = {} as TestRenderer.ReactTestRenderer;
+  describe('given no default theme is provided', () => {
+    describe('when no props are provided', () => {
+      it('should render correctly', () => {
+        testRenderer = TestRenderer.create(<Spacing />)
 
-  describe("given no default theme is provided", () => {
-    describe("when no props are provided", () => {
-      it("should render correctly", () => {
-        testRenderer = TestRenderer.create(<Spacing />);
+        expect(testRenderer).toMatchSnapshot()
+      })
+    })
+  })
 
-        expect(testRenderer).toMatchSnapshot();
-      });
-    });
-  });
-
-  describe("given a valid default theme is provided", () => {
-    describe("when no props are provided", () => {
-      it("should render correctly", () => {
+  describe('given a valid default theme is provided', () => {
+    describe('when no props are provided', () => {
+      it('should render correctly', () => {
         testRenderer = TestRenderer.create(<Provider>
           <Spacing />
-        </Provider>);
+        </Provider>)
 
-        expect(testRenderer).toMatchSnapshot();
-      });
-    });
-    describe("when a `div` is provided as component", () => {
-      it("should render correctly", () => {
+        expect(testRenderer).toMatchSnapshot()
+      })
+    })
+    describe('when a `div` is provided as component', () => {
+      it('should render correctly', () => {
         testRenderer = TestRenderer.create(<Provider>
-          <Spacing component={"div"}/>
-        </Provider>);
+          <Spacing component="div" />
+        </Provider>)
 
-        expect(testRenderer).toMatchSnapshot();
-      });
-    });
-    describe("when a `span` is provided as a component", () => {
-      it("should render correctly", () => {
+        expect(testRenderer).toMatchSnapshot()
+      })
+    })
+    describe('when a `span` is provided as a component', () => {
+      it('should render correctly', () => {
         testRenderer = TestRenderer.create(<Provider>
-          <Spacing component={"span"}/>
-        </Provider>);
+          <Spacing component="span" />
+        </Provider>)
 
-        expect(testRenderer).toMatchSnapshot();
-      });
-    });
+        expect(testRenderer).toMatchSnapshot()
+      })
+    })
     // eslint-disable-next-line @typescript-eslint/ban-ts-comment
     // @ts-ignore
-    describe.each(Object.keys(spacingArgTypes))("when a %p prop is provided", (prop) => {
-      it("should render correctly", () => {
+    describe.each(Object.keys(spacingArgTypes))('when a %p prop is provided', (prop) => {
+      it('should render correctly', () => {
         const props = {
-          [prop]: "small",
-        };
+          [prop]: 'small'
+        }
 
         testRenderer = TestRenderer.create(<Provider>
           <Spacing {...props} />
-        </Provider>);
-        expect(testRenderer).toMatchSnapshot();
-      });
-    });
-  });
-});
+        </Provider>)
+        expect(testRenderer).toMatchSnapshot()
+      })
+    })
+  })
+})

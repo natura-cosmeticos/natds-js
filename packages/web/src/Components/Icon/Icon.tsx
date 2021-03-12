@@ -1,10 +1,10 @@
-import * as React from "react";
-import MaterialIcon from "@material-ui/core/Icon";
-import clsx from "clsx";
-import { useStyles } from "./Icon.styles";
-import { IIconProps } from "./Icon.props";
+import * as React from 'react'
+import MaterialIcon from '@material-ui/core/Icon'
+import clsx from 'clsx'
+import { useStyles } from './Icon.styles'
+import { IIconProps } from './Icon.props'
 
-export { IIconProps } from "./Icon.props";
+export { IIconProps } from './Icon.props'
 
 /**
  * ## Import
@@ -16,28 +16,27 @@ export { IIconProps } from "./Icon.props";
 export const Icon = React.forwardRef<HTMLElement, IIconProps>(
   (
     props: IIconProps,
-    ref,
+    ref
   ) => {
-
     const {
       className,
-      name = "filled-default-mockup",
-      size = "standard",
+      name = 'filled-default-mockup',
+      size = 'standard',
       ...otherProps
-    } = props;
+    } = props
 
-    const classes = useStyles({ name, size });
+    const classes = useStyles({ name, size })
 
     const classNames = clsx([
-      "natds-icons",
+      'natds-icons',
       `natds-icons-${String(name)}`,
       className,
-      classes.root,
-    ]);
+      classes.root
+    ])
 
-    return <MaterialIcon className={classNames} component={"i"} ref={ref} {...otherProps} />;
-  },
-);
+    return <MaterialIcon className={classNames} component="i" ref={ref} {...otherProps} />
+  }
+)
 
-Icon.displayName = "Icon";
-export default Icon;
+Icon.displayName = 'Icon'
+export default Icon

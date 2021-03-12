@@ -1,4 +1,4 @@
-import { TableProps as MaterialTableProps } from "@material-ui/core/Table/Table";
+import { TableProps as MaterialTableProps } from '@material-ui/core/Table/Table'
 
 export interface ITableProps extends MaterialTableProps {
 

@@ -1,12 +1,12 @@
-import { ButtonProps } from "@material-ui/core/Button";
-import { PropTypes } from "@material-ui/core";
-import * as React from "react";
+import { ButtonProps } from '@material-ui/core/Button'
+import { PropTypes } from '@material-ui/core'
+import * as React from 'react'
 
 export type ButtonColor = PropTypes.Color;
-export type ButtonSize = "small" | "medium" | "large";
-export type ButtonVariant = "text" | "outlined" | "contained";
+export type ButtonSize = 'small' | 'medium' | 'large';
+export type ButtonVariant = 'text' | 'outlined' | 'contained';
 
-export interface IButtonProps extends Omit<ButtonProps, "translate"> {
+export interface IButtonProps extends Omit<ButtonProps, 'translate'> {
 
   /**
    * The content of the button
@@ -14,7 +14,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type node
    */
-  children?: ButtonProps["children"]
+  children?: ButtonProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -25,7 +25,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @see https://material-ui.com/api/button/#css
    * @type object
    */
-  classes?: ButtonProps["classes"]
+  classes?: ButtonProps['classes']
 
   /**
    * The color of the `Button` component. It supports those theme colors that make sense for this component.
@@ -34,7 +34,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type "default" | "inherit" | "primary" | "secondary"
    */
-  color?: ButtonProps["color"]
+  color?: ButtonProps['color']
 
   /**
    * The component used for the root node. Either a `string` to use a DOM element or a component.
@@ -52,7 +52,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @default false
    * @type bool
    */
-  disabled?: ButtonProps["disabled"]
+  disabled?: ButtonProps['disabled']
 
   /**
    * If `true`, no elevation is used.
@@ -61,7 +61,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type bool
    */
-  disableElevation?: ButtonProps["disableElevation"]
+  disableElevation?: ButtonProps['disableElevation']
 
   /**
    * If `true`, the keyboard focus ripple will be disabled. `disableRipple` must also be `true`.
@@ -70,7 +70,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type bool
    */
-  disableFocusRipple?: ButtonProps["disableFocusRipple"]
+  disableFocusRipple?: ButtonProps['disableFocusRipple']
 
   /**
    * If `true`, the ripple effect will be disabled.
@@ -81,7 +81,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type bool
    */
-  disableRipple?: ButtonProps["disableRipple"]
+  disableRipple?: ButtonProps['disableRipple']
 
   /**
    * Element placed after the children.
@@ -89,7 +89,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type node
    */
-  endIcon?: ButtonProps["endIcon"]
+  endIcon?: ButtonProps['endIcon']
 
   /**
    * If `true`, the `Button` will take up the full width of its container.
@@ -98,7 +98,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type bool
    */
-  fullWidth?: ButtonProps["fullWidth"];
+  fullWidth?: ButtonProps['fullWidth'];
 
   /**
    * The URL to link to when the button is clicked.
@@ -107,7 +107,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type string
    */
-  href?: ButtonProps["href"]
+  href?: ButtonProps['href']
 
   /**
    * The size of the button.
@@ -116,7 +116,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @todo check if "small" size is still on UI Specs
    * @type "small" | "medium" | "large"
    */
-  size?: ButtonProps["size"]
+  size?: ButtonProps['size']
 
   /**
    * Element placed before the children.
@@ -124,7 +124,7 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type node
    */
-  startIcon?: ButtonProps["startIcon"]
+  startIcon?: ButtonProps['startIcon']
 
   /**
    * The variant to use.
@@ -132,5 +132,5 @@ export interface IButtonProps extends Omit<ButtonProps, "translate"> {
    * @optional
    * @type "contained" | "outlined" | "text"
    */
-  variant?: ButtonProps["variant"]
+  variant?: ButtonProps['variant']
 }

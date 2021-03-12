@@ -1,17 +1,17 @@
-import { PaperProps } from "@material-ui/core";
+import { PaperProps } from '@material-ui/core'
 
-export interface ICardProps extends Pick<PaperProps, "children" | "elevation" | "square"> {
+export interface ICardProps extends Pick<PaperProps, 'children' | 'elevation' | 'square'> {
 
   /**
    * The content of the component.
    *
    */
-  children?: PaperProps["children"];
+  children?: PaperProps['children'];
 
   /**
    * Override or extend the styles applied to the component
    */
-  className?: PaperProps["className"];
+  className?: PaperProps['className'];
 
   /**
    * It accepts values between 0 and 24 inclusive.
@@ -20,7 +20,7 @@ export interface ICardProps extends Pick<PaperProps, "children" | "elevation" | 
    * @optional
    * @type number
    */
-  elevation?: PaperProps["elevation"];
+  elevation?: PaperProps['elevation'];
 
   /**
    * If `true`, rounded corners are disabled.
@@ -28,5 +28,5 @@ export interface ICardProps extends Pick<PaperProps, "children" | "elevation" | 
    * @optional
    * @type boolean
    */
-  square?: PaperProps["square"];
+  square?: PaperProps['square'];
 }

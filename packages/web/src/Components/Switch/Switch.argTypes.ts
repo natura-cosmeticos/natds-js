@@ -1,32 +1,32 @@
-import { ArgType } from "@storybook/addons";
-import { ISwitchProps } from "./Switch.props";
-import { colors } from "./__fixtures__/colors";
-import { booleanArgType } from "../../../.storybook/argTypes/booleanArgType";
-import { objectArgType } from "../../../.storybook/argTypes/objectArgType";
-import { edges } from "./__fixtures__/edges";
-import { sizes } from "./__fixtures__/sizes";
-import { stringArgType } from "../../../.storybook/argTypes/stringArgType";
+import { ArgType } from '@storybook/addons'
+import { ISwitchProps } from './Switch.props'
+import { colors } from './__fixtures__/colors'
+import { booleanArgType } from '../../../.storybook/argTypes/booleanArgType'
+import { objectArgType } from '../../../.storybook/argTypes/objectArgType'
+import { edges } from './__fixtures__/edges'
+import { sizes } from './__fixtures__/sizes'
+import { stringArgType } from '../../../.storybook/argTypes/stringArgType'
 
 export const argTypes : Record<keyof ISwitchProps | string, ArgType> = {
   checked: booleanArgType,
   checkedIcon: {},
   classes: objectArgType,
   color: {
-    control: { options: colors, type: "radio" },
+    control: { options: colors, type: 'radio' },
     table: {
-      defaultValue: { summary: `"${colors.secondary}"` },
-    },
+      defaultValue: { summary: `"${colors.secondary}"` }
+    }
   },
   disabled: {
     ...booleanArgType,
     table: {
       ...booleanArgType.table,
-      defaultValue: { summary: false },
-    },
+      defaultValue: { summary: false }
+    }
   },
   disableRipple: booleanArgType,
   edge: {
-    control: { options: edges, type: "radio" },
+    control: { options: edges, type: 'radio' }
   },
   icon: {},
   id: stringArgType,
@@ -35,7 +35,7 @@ export const argTypes : Record<keyof ISwitchProps | string, ArgType> = {
   onChange: {},
   required: booleanArgType,
   size: {
-    control: { options: sizes, type: "radio" },
+    control: { options: sizes, type: 'radio' }
   },
   type: stringArgType,
   value: {},
@@ -46,7 +46,7 @@ export const argTypes : Record<keyof ISwitchProps | string, ArgType> = {
   focusRipple: booleanArgType,
   focusVisibleClassName: stringArgType,
   onFocusVisible: {},
-  TouchRippleProps: objectArgType,
-};
+  TouchRippleProps: objectArgType
+}
 
-export default argTypes;
+export default argTypes

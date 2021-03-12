@@ -1,5 +1,5 @@
-import InputLabel from "./InputLabel";
+import InputLabel from './InputLabel'
 
-export { IInputLabelProps } from "./InputLabel.props";
-export { InputLabel };
-export default InputLabel;
+export { IInputLabelProps } from './InputLabel.props'
+export { InputLabel }
+export default InputLabel

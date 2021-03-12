@@ -1,7 +1,7 @@
-import * as React from "react";
-import MaterialCheckbox, { CheckboxProps as ICheckboxProps } from "@material-ui/core/Checkbox";
+import * as React from 'react'
+import MaterialCheckbox, { CheckboxProps as ICheckboxProps } from '@material-ui/core/Checkbox'
 
-export { ICheckboxProps } from "./Checkbox.props";
+export { ICheckboxProps } from './Checkbox.props'
 
 /**
  * For more advanced usages, check [Material UI Checkbox docs](https://material-ui.com/components/checkboxes/)
@@ -13,23 +13,24 @@ export { ICheckboxProps } from "./Checkbox.props";
  * ```
  */
 export const Checkbox = React.forwardRef<HTMLButtonElement, ICheckboxProps>((
-  props: ICheckboxProps, ref,
+  props: ICheckboxProps, ref
 ) => {
-
-  const { indeterminateIcon, ...otherProps } = props;
+  const { indeterminateIcon, ...otherProps } = props
 
   /**
    * @todo adopt default indeterminate icon from `natds-icons`
    */
   // const defaultIndeterminateIcon = <Icon name={"filled-toggle-indeterminatecheckbox"} />;
 
-  return <MaterialCheckbox
-    indeterminateIcon={indeterminateIcon}
-    ref={ref}
-    {...otherProps}
-  />;
-});
+  return (
+    <MaterialCheckbox
+      indeterminateIcon={indeterminateIcon}
+      ref={ref}
+      {...otherProps}
+    />
+  )
+})
 
-Checkbox.displayName = "Checkbox";
+Checkbox.displayName = 'Checkbox'
 
-export default Checkbox;
+export default Checkbox

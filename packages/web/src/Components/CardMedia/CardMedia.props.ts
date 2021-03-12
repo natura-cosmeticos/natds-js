@@ -1,10 +1,10 @@
-import { CardMediaProps } from "@material-ui/core/CardMedia";
-import * as React from "react";
+import { CardMediaProps } from '@material-ui/core/CardMedia'
+import * as React from 'react'
 
 /**
  * @todo add support to `height` and `width` properties with theme size token support
  */
-export interface ICardMediaProps extends Omit<CardMediaProps, "translate"> {
+export interface ICardMediaProps extends Omit<CardMediaProps, 'translate'> {
 
   /**
    * The content of the component.
@@ -12,7 +12,7 @@ export interface ICardMediaProps extends Omit<CardMediaProps, "translate"> {
    * @optional
    * @type node
    */
-  children?: CardMediaProps["children"]
+  children?: CardMediaProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -20,7 +20,7 @@ export interface ICardMediaProps extends Omit<CardMediaProps, "translate"> {
    * @optional
    * @type object
    */
-  classes?: CardMediaProps["classes"]
+  classes?: CardMediaProps['classes']
 
   /**
    * The component used for the root node. Either a string to use a DOM element or a component.
@@ -39,7 +39,7 @@ export interface ICardMediaProps extends Omit<CardMediaProps, "translate"> {
    * @optional
    * @type string
    */
-  image?: CardMediaProps["image"]
+  image?: CardMediaProps['image']
 
   /**
    * An alias for image property.
@@ -50,7 +50,7 @@ export interface ICardMediaProps extends Omit<CardMediaProps, "translate"> {
    * @optional
    * @type string
    */
-  src?: CardMediaProps["src"]
+  src?: CardMediaProps['src']
 
   /**
    * The `title` property is most often shown as a tooltip text when the mouse moves over the element.
@@ -60,5 +60,5 @@ export interface ICardMediaProps extends Omit<CardMediaProps, "translate"> {
    * @optional
    * @type string
    */
-  title?: CardMediaProps["title"]
+  title?: CardMediaProps['title']
 }

@@ -1,7 +1,7 @@
 export const displays = [
-  "initial",
-  "inline",
-  "block",
-];
+  'initial',
+  'inline',
+  'block'
+]
 
-export default displays;
+export default displays

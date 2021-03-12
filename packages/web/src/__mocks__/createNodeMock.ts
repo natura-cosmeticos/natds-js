@@ -1,32 +1,31 @@
-const mockClientHeight = 100;
-const mockClientWidth = 300;
+const mockClientHeight = 100
+const mockClientWidth = 300
 
 // eslint-disable-next-line @typescript-eslint/no-explicit-any,max-lines-per-function
 export const createNodeMock: (element: any) => (HTMLElement) = (element) => {
+  if (typeof element.type !== 'undefined') {
+    const mockElement: HTMLElement = document.createElement(element.type)
 
-  if (typeof element.type !== "undefined") {
-    const mockElement: HTMLElement = document.createElement(element.type);
-
-    mockElement.style.padding = "0";
-    Reflect.defineProperty(mockElement, "clientHeight", {
+    mockElement.style.padding = '0'
+    Reflect.defineProperty(mockElement, 'clientHeight', {
       get() {
-        return mockClientHeight;
+        return mockClientHeight
       },
       enumerable: true,
-      configurable: true,
-    });
-    Reflect.defineProperty(mockElement, "clientWidth", {
+      configurable: true
+    })
+    Reflect.defineProperty(mockElement, 'clientWidth', {
       get() {
-        return mockClientWidth;
+        return mockClientWidth
       },
       enumerable: true,
-      configurable: true,
-    });
+      configurable: true
+    })
 
-    return mockElement;
+    return mockElement
   }
 
-  return null;
-};
+  return null
+}
 
-export default createNodeMock;
+export default createNodeMock

@@ -1,10 +1,10 @@
-import { TypographyAlign } from "../Typography.props";
+import { TypographyAlign } from '../Typography.props'
 
 export const aligns : TypographyAlign[] = [
-  "inherit",
-  "left",
-  "center",
-  "right",
-];
+  'inherit',
+  'left',
+  'center',
+  'right'
+]
 
-export default aligns;
+export default aligns

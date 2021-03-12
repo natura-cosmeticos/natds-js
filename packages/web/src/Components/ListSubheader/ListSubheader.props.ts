@@ -1,5 +1,5 @@
-import * as React from "react";
-import { ListSubheaderProps } from "@material-ui/core/ListSubheader";
+import * as React from 'react'
+import { ListSubheaderProps } from '@material-ui/core/ListSubheader'
 
 export interface IListSubheaderProps extends ListSubheaderProps {
 
@@ -9,7 +9,7 @@ export interface IListSubheaderProps extends ListSubheaderProps {
    * @optional
    * @type node
    */
-  children?: ListSubheaderProps["children"]
+  children?: ListSubheaderProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -19,7 +19,7 @@ export interface IListSubheaderProps extends ListSubheaderProps {
    * @see https://material-ui.com/api/list/#css
    * @type object
    */
-  classes?: ListSubheaderProps["classes"]
+  classes?: ListSubheaderProps['classes']
 
   /**
    * The color of the component. It supports those theme colors that make sense for this component.
@@ -28,7 +28,7 @@ export interface IListSubheaderProps extends ListSubheaderProps {
    * @optional
    * @type "default" | "primary" | "inherit"
    */
-  color?: ListSubheaderProps["color"]
+  color?: ListSubheaderProps['color']
 
   /**
    * The component used for the root node. Either a string to use a DOM element or a component.
@@ -46,7 +46,7 @@ export interface IListSubheaderProps extends ListSubheaderProps {
    * @optional
    * @type bool
    */
-  disableGutters?: ListSubheaderProps["disableGutters"]
+  disableGutters?: ListSubheaderProps['disableGutters']
 
   /**
    * If `true`, the `ListSubheader` will not stick to the top during scroll.
@@ -55,7 +55,7 @@ export interface IListSubheaderProps extends ListSubheaderProps {
    * @optional
    * @type bool
    */
-  disableSticky?: ListSubheaderProps["disableSticky"]
+  disableSticky?: ListSubheaderProps['disableSticky']
 
   /**
    * If `true`, the `ListSubheader` will be indented.
@@ -64,5 +64,5 @@ export interface IListSubheaderProps extends ListSubheaderProps {
    * @optional
    * @type bool
    */
-  inset?: ListSubheaderProps["inset"]
+  inset?: ListSubheaderProps['inset']
 }

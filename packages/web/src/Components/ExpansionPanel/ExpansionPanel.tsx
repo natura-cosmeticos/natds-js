@@ -1,8 +1,8 @@
-import * as React from "react";
-import MaterialExpansionPanel from "@material-ui/core/Accordion";
-import { IExpansionPanelProps } from "./ExpansionPanel.props";
+import * as React from 'react'
+import MaterialExpansionPanel from '@material-ui/core/Accordion'
+import { IExpansionPanelProps } from './ExpansionPanel.props'
 
-export { IExpansionPanelProps } from "./ExpansionPanel.props";
+export { IExpansionPanelProps } from './ExpansionPanel.props'
 
 /**
  * For more advanced usages, check [Material UI Accordion docs](https://material-ui.com/components/accordion/)
@@ -17,12 +17,12 @@ export { IExpansionPanelProps } from "./ExpansionPanel.props";
  */
 export const ExpansionPanel = React.forwardRef<unknown, IExpansionPanelProps>(
   (props: IExpansionPanelProps, ref) => {
-    const { children, ...otherProps } = props;
+    const { children, ...otherProps } = props
 
-    return <MaterialExpansionPanel {...otherProps} ref={ref}>{children}</MaterialExpansionPanel>;
-  },
-);
+    return <MaterialExpansionPanel {...otherProps} ref={ref}>{children}</MaterialExpansionPanel>
+  }
+)
 
-ExpansionPanel.displayName = "ExpansionPanel";
+ExpansionPanel.displayName = 'ExpansionPanel'
 
-export default ExpansionPanel;
+export default ExpansionPanel

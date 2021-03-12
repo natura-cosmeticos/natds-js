@@ -1,8 +1,8 @@
-import * as React from "react";
-import IconButton from "../IconButton";
-import { IToggleButtonProps } from "./ToggleButton.props";
+import * as React from 'react'
+import IconButton from '../IconButton'
+import { IToggleButtonProps } from './ToggleButton.props'
 
-export { IToggleButtonProps } from "./ToggleButton.props";
+export { IToggleButtonProps } from './ToggleButton.props'
 
 /**
  * ## Importing
@@ -12,7 +12,7 @@ export { IToggleButtonProps } from "./ToggleButton.props";
  * ```
  */
 export const ToggleButton = React.forwardRef<HTMLButtonElement, IToggleButtonProps>((
-  props: IToggleButtonProps, ref,
+  props: IToggleButtonProps, ref
 ) => {
   const {
     checked = false,
@@ -20,32 +20,34 @@ export const ToggleButton = React.forwardRef<HTMLButtonElement, IToggleButtonPro
     iconOn,
     onClick,
     ...otherProps
-  } = props;
+  } = props
 
   const [
-    checkedState, onToggle,
-  ] = React.useState(checked);
+    checkedState, onToggle
+  ] = React.useState(checked)
 
-  const icon : React.ReactNode = checkedState ? iconOn : iconOff;
+  const icon : React.ReactNode = checkedState ? iconOn : iconOff
 
-  React.useEffect(() => onToggle(checked), [checked]);
+  React.useEffect(() => onToggle(checked), [checked])
 
   const handleClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    onToggle(!checkedState);
+    onToggle(!checkedState)
     if (onClick) {
-      onClick(event, checkedState);
+      onClick(event, checkedState)
     }
-  };
+  }
 
   return (
     <IconButton
       onClick={handleClick}
       {...otherProps}
       ref={ref}
-    >{icon}</IconButton>
-  );
-});
+    >
+      {icon}
+    </IconButton>
+  )
+})
 
-ToggleButton.displayName = "ToggleButton";
+ToggleButton.displayName = 'ToggleButton'
 
-export default ToggleButton;
+export default ToggleButton

@@ -1,5 +1,5 @@
-import Collapse from "./Collapse";
+import Collapse from './Collapse'
 
-export { ICollapseProps } from "./Collapse.props";
-export { Collapse };
-export default Collapse;
+export { ICollapseProps } from './Collapse.props'
+export { Collapse }
+export default Collapse

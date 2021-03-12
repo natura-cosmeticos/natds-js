@@ -1,6 +1,6 @@
-import { ArgType } from "@storybook/addons";
-import { ISpacingProps } from "./Spacing.props";
-import spacingPropArgType from "../../../.storybook/argTypes/spacingPropArgType";
+import { ArgType } from '@storybook/addons'
+import { ISpacingProps } from './Spacing.props'
+import spacingPropArgType from '../../../.storybook/argTypes/spacingPropArgType'
 
 type ArgTypesKey = keyof ISpacingProps | string;
 
@@ -18,8 +18,8 @@ export const spacingArgTypes : Record<ArgTypesKey, ArgType> = {
   paddingRight: spacingPropArgType,
   paddingTop: spacingPropArgType,
   paddingX: spacingPropArgType,
-  paddingY: spacingPropArgType,
-};
+  paddingY: spacingPropArgType
+}
 
 export const spacingAliasArgTypes : Record<ArgTypesKey, ArgType> = {
   // eslint-disable-next-line id-length
@@ -37,14 +37,14 @@ export const spacingAliasArgTypes : Record<ArgTypesKey, ArgType> = {
   pr: spacingPropArgType,
   pt: spacingPropArgType,
   px: spacingPropArgType,
-  py: spacingPropArgType,
-};
+  py: spacingPropArgType
+}
 
 export const argTypes : Record<ArgTypesKey, ArgType> = {
   ...spacingArgTypes,
   children: {},
   component: {},
-  ...spacingAliasArgTypes,
-};
+  ...spacingAliasArgTypes
+}
 
-export default argTypes;
+export default argTypes

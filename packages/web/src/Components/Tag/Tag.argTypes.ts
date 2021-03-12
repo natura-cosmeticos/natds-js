@@ -1,71 +1,71 @@
-import { ArgType } from "@storybook/addons";
-import { ITagProps } from "./Tag.props";
-import { colors } from "./__fixtures__/colors";
-import { sizes } from "./__fixtures__/sizes";
-import { positions } from "./__fixtures__/positions";
+import { ArgType } from '@storybook/addons'
+import { ITagProps } from './Tag.props'
+import { colors } from './__fixtures__/colors'
+import { sizes } from './__fixtures__/sizes'
+import { positions } from './__fixtures__/positions'
 
 export const argTypes : Record<keyof ITagProps, ArgType> = {
   classes: {
-    control: { type: "text" },
+    control: { type: 'text' },
     description: "The classes to use on the container 'div'",
     table: {
-      type: { summary: "string" },
+      type: { summary: 'string' }
     },
-    type: { name: "string", required: false },
+    type: { name: 'string', required: false }
   },
   children: {
-    description: "The children that will be placed inside the tag",
+    description: 'The children that will be placed inside the tag',
     table: {
-      type: { summary: "React.ReactNode" },
-    },
+      type: { summary: 'React.ReactNode' }
+    }
   },
   color: {
     control: {
       options: colors,
-      type: "select",
+      type: 'select'
     },
-    description: "Color of the Tag to use from the theme.",
+    description: 'Color of the Tag to use from the theme.',
     table: {
-      defaultValue: { summary: "\"primary\"" },
-      type: { summary: "'primary' \\| 'secondary' \\| 'info' \\| 'error' \\| 'warning' \\| 'success' \\| 'light' \\| 'dark'" },
-    },
+      defaultValue: { summary: '"primary"' },
+      type: { summary: "'primary' \\| 'secondary' \\| 'info' \\| 'error' \\| 'warning' \\| 'success' \\| 'light' \\| 'dark'" }
+    }
   },
   id: {
-    control: { type: "text" },
-    description: "The input id property",
+    control: { type: 'text' },
+    description: 'The input id property',
     table: {
-      type: { summary: "string" },
+      type: { summary: 'string' }
     },
-    type: { name: "string", required: true },
+    type: { name: 'string', required: true }
   },
   style: {
-    control: { type: "object" },
+    control: { type: 'object' },
     description: "Inline style for the container 'div'",
     table: {
-      type: { summary: "React.CSSProperties" },
+      type: { summary: 'React.CSSProperties' }
     },
-    type: { name: "object", required: false },
+    type: { name: 'object', required: false }
   },
   size: {
     control: {
       options: sizes,
-      type: "inline-radio",
+      type: 'inline-radio'
     },
-    description: "The size of the Tag",
+    description: 'The size of the Tag',
     table: {
-      defaultValue: { summary: "\"small\"" },
-    },
+      defaultValue: { summary: '"small"' }
+    }
   },
   position: {
     control: {
       options: positions,
-      type: "inline-radio",
+      type: 'inline-radio'
     },
-    description: "The position of the Tag",
+    description: 'The position of the Tag',
     table: {
-      defaultValue: { summary: "\"default\"" },
-    },
-  },
-};
+      defaultValue: { summary: '"default"' }
+    }
+  }
+}
 
-export default argTypes;
+export default argTypes

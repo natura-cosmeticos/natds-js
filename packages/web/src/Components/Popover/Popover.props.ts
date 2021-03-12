@@ -1,9 +1,9 @@
-import { PopperProps } from "@material-ui/core/Popper/Popper";
-import * as React from "react";
-import { PopperPlacementType } from "@material-ui/core";
-import { IActionLinkProps } from "./ActionLink";
+import { PopperProps } from '@material-ui/core/Popper/Popper'
+import * as React from 'react'
+import { PopperPlacementType } from '@material-ui/core'
+import { IActionLinkProps } from './ActionLink'
 
-export interface IPopoverProps extends Omit<PopperProps, "placement"> {
+export interface IPopoverProps extends Omit<PopperProps, 'placement'> {
 
   /**
    * @optional
@@ -21,7 +21,7 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @optional
    * @type object | func
    */
-  anchorEl?: PopperProps["anchorEl"],
+  anchorEl?: PopperProps['anchorEl'],
 
   /**
    * Popper render function or node.
@@ -29,7 +29,7 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @required
    * @type node | func
    */
-  children: PopperProps["children"],
+  children: PopperProps['children'],
 
   /**
    * @optional
@@ -43,7 +43,7 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @optional
    * @type object | func
    */
-  container?: PopperProps["container"];
+  container?: PopperProps['container'];
 
   /**
    * @optional
@@ -58,7 +58,7 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @optional
    * @type bool
    */
-  disablePortal?: PopperProps["disablePortal"];
+  disablePortal?: PopperProps['disablePortal'];
 
   /**
    * Always keep the children in the DOM.
@@ -69,7 +69,7 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @optional
    * @type bool
    */
-  keepMounted?: PopperProps["keepMounted"];
+  keepMounted?: PopperProps['keepMounted'];
 
   /**
    * @optional
@@ -84,7 +84,7 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @required
    * @type bool
    */
-  open: PopperProps["open"]
+  open: PopperProps['open']
 
   /**
    * Popper placement.
@@ -93,7 +93,7 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @optional
    * @type "bottom-end" | "bottom-start" | "bottom" | "left-end" | "left-start" | "left" | "right-end" | "right-start" | "right" | "top-end" | "top-start" | "top"
    */
-  placement?: PopperProps["placement"]
+  placement?: PopperProps['placement']
 
   /**
    * Options provided to the `Popover` positioning engine.
@@ -103,7 +103,7 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @see https://popper.js.org/
    * @type object
    */
-  popperOptions?: PopperProps["popperOptions"]
+  popperOptions?: PopperProps['popperOptions']
 
   /**
    * A ref that points to the used popper instance.
@@ -111,7 +111,7 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @optional
    * @type ref
    */
-  popperRef?: PopperProps["popperRef"]
+  popperRef?: PopperProps['popperRef']
 
   /**
    * Help supporting a `react-transition-group` / `Transition` component.
@@ -121,5 +121,5 @@ export interface IPopoverProps extends Omit<PopperProps, "placement"> {
    * @see https://reactcommunity.org/react-transition-group/
    * @type bool
    */
-  transition?: PopperProps["transition"]
+  transition?: PopperProps['transition']
 }

@@ -1,4 +1,4 @@
-import { ListItemAvatarProps } from "@material-ui/core/ListItemAvatar";
+import { ListItemAvatarProps } from '@material-ui/core/ListItemAvatar'
 
 export interface IListItemAvatarProps extends ListItemAvatarProps {
 
@@ -9,7 +9,7 @@ export interface IListItemAvatarProps extends ListItemAvatarProps {
    * @see Avatar
    * @type element
    */
-  children: ListItemAvatarProps["children"]
+  children: ListItemAvatarProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -19,5 +19,5 @@ export interface IListItemAvatarProps extends ListItemAvatarProps {
    * @see https://material-ui.com/api/list/#css
    * @type object
    */
-  classes?: ListItemAvatarProps["classes"]
+  classes?: ListItemAvatarProps['classes']
 }

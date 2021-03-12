@@ -1,12 +1,12 @@
-import { fontSize } from "../tokens/fontSize";
+import { Color } from '@naturacosmeticos/natds-themes'
+import { fontSize } from '../tokens/fontSize'
 import {
   IAvatarSizes,
   IButtonSizes,
   IElevation,
   IIconSizes, IOpacity,
-  ISizes,
-} from "..";
-import { Color } from "@naturacosmeticos/natds-themes";
+  ISizes
+} from '..'
 
 type ITypography = {
   fontFamily?: string;
@@ -33,7 +33,7 @@ export interface ITheme {
     badgeBorderRadius?: number;
   };
   palette?: {
-    type?: "light" | "dark";
+    type?: 'light' | 'dark';
     action?: {
 
       /**

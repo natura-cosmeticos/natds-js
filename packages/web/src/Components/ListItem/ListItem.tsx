@@ -1,6 +1,6 @@
-import MaterialListItem from "@material-ui/core/ListItem";
+import MaterialListItem from '@material-ui/core/ListItem'
 
-export { IListItemProps } from "./ListItem.props";
+export { IListItemProps } from './ListItem.props'
 
 /**
  * ## Importing
@@ -9,6 +9,6 @@ export { IListItemProps } from "./ListItem.props";
  * import { ListItem } from "@naturacosmeticos/natds-web";
  * ```
  */
-export const ListItem = MaterialListItem;
+export const ListItem = MaterialListItem
 
-export default ListItem;
+export default ListItem

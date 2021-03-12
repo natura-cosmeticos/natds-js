@@ -1,10 +1,10 @@
-import { InputProps } from "@material-ui/core/Input";
+import { InputProps } from '@material-ui/core/Input'
 
 export type Mask = Array<string | RegExp>;
 export type MaskFn = () => Mask | void;
-export type State = "error" | "success" | undefined;
+export type State = 'error' | 'success' | undefined;
 
-type OmittedProps = "classes" | "inputComponent"
+type OmittedProps = 'classes' | 'inputComponent'
 
 export interface IInputProps extends Omit<InputProps, OmittedProps> {
 
@@ -12,7 +12,7 @@ export interface IInputProps extends Omit<InputProps, OmittedProps> {
    * @optional
    * @type string
    */
-  className?: InputProps["className"]
+  className?: InputProps['className']
 
   /**
    * If `true`, the `input` or `textarea` element will be disabled.
@@ -20,7 +20,7 @@ export interface IInputProps extends Omit<InputProps, OmittedProps> {
    * @optional
    * @type bool
    */
-  disabled?: InputProps["disabled"]
+  disabled?: InputProps['disabled']
 
   /**
    * If `true`, input will receive a padding-right equivalent to `large` spacing token
@@ -36,7 +36,7 @@ export interface IInputProps extends Omit<InputProps, OmittedProps> {
    *
    * @optional
    */
-  inputComponent?: InputProps["inputComponent"]
+  inputComponent?: InputProps['inputComponent']
 
   /**
    * If `dense`, will adjust vertical spacing.
@@ -46,7 +46,7 @@ export interface IInputProps extends Omit<InputProps, OmittedProps> {
    *
    * @type "dense" | "none"
    */
-  margin?: InputProps["margin"]
+  margin?: InputProps['margin']
 
   /**
    * Mask format. Based on [React Input Mask](https://github.com/sanniassin/react-input-mask)
@@ -63,7 +63,7 @@ export interface IInputProps extends Omit<InputProps, OmittedProps> {
    * @optional
    * @type bool
    */
-  multiline?: InputProps["multiline"]
+  multiline?: InputProps['multiline']
 
   /**
    * @optional

@@ -1,4 +1,4 @@
-import { AccordionProps } from "@material-ui/core/Accordion";
+import { AccordionProps } from '@material-ui/core/Accordion'
 
 export interface IExpansionPanelProps extends AccordionProps {
 
@@ -14,7 +14,7 @@ export interface IExpansionPanelProps extends AccordionProps {
    * @required
    * @type node
    */
-  children: AccordionProps["children"]
+  children: AccordionProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -25,7 +25,7 @@ export interface IExpansionPanelProps extends AccordionProps {
    * @see https://material-ui.com/api/expansion-panel/#css
    * @type object
    */
-  classes?: AccordionProps["classes"]
+  classes?: AccordionProps['classes']
 
   /**
    * If `true`, expands the panel by default.
@@ -34,7 +34,7 @@ export interface IExpansionPanelProps extends AccordionProps {
    * @optional
    * @type bool
    */
-  defaultExpanded?: AccordionProps["defaultExpanded"]
+  defaultExpanded?: AccordionProps['defaultExpanded']
 
   /**
    * If `true`, the panel will be displayed in a disabled state.
@@ -43,7 +43,7 @@ export interface IExpansionPanelProps extends AccordionProps {
    * @optional
    * @type bool
    */
-  disabled?: AccordionProps["disabled"]
+  disabled?: AccordionProps['disabled']
 
   /**
    * If `true`, expands the panel, otherwise collapse it. Setting this prop enables control over the panel.
@@ -51,7 +51,7 @@ export interface IExpansionPanelProps extends AccordionProps {
    * @optional
    * @type bool
    */
-  expanded?: AccordionProps["expanded"]
+  expanded?: AccordionProps['expanded']
 
   /**
    * Callback fired when the expand/collapse state is changed.
@@ -62,7 +62,7 @@ export interface IExpansionPanelProps extends AccordionProps {
    * @returns void
    * @type func
    */
-  onChange?: AccordionProps["onChange"]
+  onChange?: AccordionProps['onChange']
 
   /**
    * The component used for the collapse effect.
@@ -72,7 +72,7 @@ export interface IExpansionPanelProps extends AccordionProps {
    *
    * @type element
    */
-  TransitionComponent?: AccordionProps["TransitionComponent"]
+  TransitionComponent?: AccordionProps['TransitionComponent']
 
   /**
    * Props applied to the Transition element.
@@ -81,5 +81,5 @@ export interface IExpansionPanelProps extends AccordionProps {
    *
    * @type object
    */
-  TransitionProps?: AccordionProps["TransitionProps"]
+  TransitionProps?: AccordionProps['TransitionProps']
 }

@@ -1,5 +1,5 @@
-import TableCell from "./TableCell";
+import TableCell from './TableCell'
 
-export { ITableCellProps } from "./TableCell.props";
-export { TableCell };
-export default TableCell;
+export { ITableCellProps } from './TableCell.props'
+export { TableCell }
+export default TableCell

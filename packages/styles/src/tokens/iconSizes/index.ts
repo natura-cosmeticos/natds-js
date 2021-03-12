@@ -1,6 +1,6 @@
 /* eslint-disable sort-keys */
-import { IIconSizes } from "./IIconSizes";
-import { sizes } from "../sizes";
+import { IIconSizes } from './IIconSizes'
+import { sizes } from '../sizes'
 
 export const iconSizes: IIconSizes = {
   micro: sizes.small,
@@ -53,5 +53,5 @@ export const iconSizes: IIconSizes = {
   /**
    * @since 0.19.0
    */
-  hugeXX: sizes.veryHuge,
-};
+  hugeXX: sizes.veryHuge
+}

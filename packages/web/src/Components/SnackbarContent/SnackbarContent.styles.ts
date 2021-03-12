@@ -1,44 +1,43 @@
-import createStyles from "@material-ui/core/styles/createStyles";
-import makeStyles from "@material-ui/core/styles/makeStyles";
-import { IThemeWeb } from "../../Themes";
+import createStyles from '@material-ui/core/styles/createStyles'
+import makeStyles from '@material-ui/core/styles/makeStyles'
+import { IThemeWeb } from '../../Themes'
 
 const style = ({ palette }: IThemeWeb) => {
-
-  if (typeof palette === "undefined") {
+  if (typeof palette === 'undefined') {
     return createStyles({
       default: {},
       error: {},
       info: {},
-      success: {},
-    });
+      success: {}
+    })
   }
 
   const {
-    background, complementary, error, success,
-  } = palette;
+    background, complementary, error, success
+  } = palette
 
   return createStyles({
     default: {
       backgroundColor: background?.paperContrastText,
-      color: background?.paper,
+      color: background?.paper
     },
     error: {
       backgroundColor: error?.main,
-      color: error?.contrastText,
+      color: error?.contrastText
     },
     info: {
       backgroundColor: complementary?.link,
-      color: complementary?.linkContrastText,
+      color: complementary?.linkContrastText
     },
     success: {
       backgroundColor: success?.main,
-      color: success?.contrastText,
+      color: success?.contrastText
     },
     warning: {
       backgroundColor: complementary?.warning,
-      color: complementary?.warningContrastText,
-    },
-  });
-};
+      color: complementary?.warningContrastText
+    }
+  })
+}
 
-export const useStyles = makeStyles(style, { name: "NatDSSnackbarContent" });
+export const useStyles = makeStyles(style, { name: 'NatDSSnackbarContent' })
