@@ -41,11 +41,10 @@
   },
   "scripts": {
     "build": "yarn clean && tsc -p ./tsconfig.json && yarn rollup:build",
-    "build:storybook": "yarn build-storybook -o docs/dist",
-    "build-storybook-ci": "yarn build:storybook --quiet",
+    "build:storybook:ci": "yarn build:storybook --quiet",
     "clean": "rm -rf ./dist",
     "copy:assets": "mkdir -p ./dist/assets && cp -r ./src/assets/* ./dist/assets",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx  ./",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./",
     "lint:fix": "yarn lint --fix",
     "rollup:build": "rollup -c",
     "storybook": "start-storybook -p 6006",
