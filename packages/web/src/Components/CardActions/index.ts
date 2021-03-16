@@ -1,5 +1,5 @@
-import CardActions from "./CardActions";
+import CardActions from './CardActions'
 
-export { ICardActionsProps } from "./CardActions.props";
-export { CardActions };
-export default CardActions;
+export { ICardActionsProps } from './CardActions.props'
+export { CardActions }
+export default CardActions

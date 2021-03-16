@@ -1,11 +1,11 @@
-import { ISnackbarContentColors } from "../SnackbarContent.props";
+import { ISnackbarContentColors } from '../SnackbarContent.props'
 
 export const colors: Record<ISnackbarContentColors, ISnackbarContentColors> = {
-  default: "default",
-  error: "error",
-  warning: "warning",
-  success: "success",
-  info: "info",
-};
+  default: 'default',
+  error: 'error',
+  warning: 'warning',
+  success: 'success',
+  info: 'info'
+}
 
-export default colors;
+export default colors

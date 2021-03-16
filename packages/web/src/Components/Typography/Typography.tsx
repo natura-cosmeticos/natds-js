@@ -1,15 +1,15 @@
-import * as React from "react";
-import MaterialTypography from "@material-ui/core/Typography";
-import { ITypographyProps } from "./Typography.props";
+import * as React from 'react'
+import MaterialTypography from '@material-ui/core/Typography'
+import { ITypographyProps } from './Typography.props'
 
-export { ITypographyProps } from "./Typography.props";
+export { ITypographyProps } from './Typography.props'
 
 export const Typography = React.forwardRef<HTMLSpanElement | HTMLElement, ITypographyProps>((
-  props: ITypographyProps, ref,
+  props: ITypographyProps, ref
 ) => {
   const {
     align, children, variant, ...rest
-  } = props;
+  } = props
 
   return (
     <MaterialTypography
@@ -20,14 +20,14 @@ export const Typography = React.forwardRef<HTMLSpanElement | HTMLElement, ITypog
     >
       {children}
     </MaterialTypography>
-  );
-});
+  )
+})
 
-Typography.displayName = "Typography";
+Typography.displayName = 'Typography'
 
 Typography.defaultProps = {
-  align: "inherit",
-  variant: "body1",
-};
+  align: 'inherit',
+  variant: 'body1'
+}
 
-export default Typography;
+export default Typography

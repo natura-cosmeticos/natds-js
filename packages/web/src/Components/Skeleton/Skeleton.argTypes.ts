@@ -1,6 +1,6 @@
-import { ArgType } from "@storybook/addons";
-import { sizePropArgType } from "../../../.storybook/argTypes/sizePropArgType";
-import { ISkeletonProps } from "./Skeleton.props";
+import { ArgType } from '@storybook/addons'
+import { sizePropArgType } from '../../../.storybook/argTypes/sizePropArgType'
+import { ISkeletonProps } from './Skeleton.props'
 
 export const argTypes : Record<keyof ISkeletonProps | string, ArgType> = {
   animation: {
@@ -11,43 +11,43 @@ By default, the skeleton pulsate, but you can change the animation for a wave or
 `,
     table: {
       defaultValue: {
-        summary: "pulse",
-      },
+        summary: 'pulse'
+      }
     },
     type: {
-      required: false,
-    },
+      required: false
+    }
   },
   children: {
     description: `
 When it comes to other components, you may not want to repeat the height and width.
 
 In these instances, you can pass \`children\` and it will infer its width and height from them.
-`,
+`
   },
   height: {
     ...sizePropArgType,
     type: {
-      required: false,
-    },
+      required: false
+    }
   },
   variant: {
-    description: "The component supports 3 shape variants for the type of content that will be rendered.",
+    description: 'The component supports 3 shape variants for the type of content that will be rendered.',
     table: {
       defaultValue: {
-        summary: "text",
-      },
+        summary: 'text'
+      }
     },
     type: {
-      required: false,
-    },
+      required: false
+    }
   },
   width: {
     ...sizePropArgType,
     type: {
-      required: false,
-    },
-  },
-};
+      required: false
+    }
+  }
+}
 
-export default argTypes;
+export default argTypes

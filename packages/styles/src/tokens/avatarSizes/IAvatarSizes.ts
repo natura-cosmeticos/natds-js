@@ -1,4 +1,4 @@
-import { IAvatarProperties } from "./IAvatarProperties";
+import { IAvatarProperties } from './IAvatarProperties'
 
 export interface IAvatarSizes {
   tiny: IAvatarProperties;

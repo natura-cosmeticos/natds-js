@@ -1,6 +1,6 @@
-import * as React from "react";
-import MaterialDialogContentText from "@material-ui/core/DialogContentText";
-import { IDialogContentTextProps } from "./DialogContentText.props";
+import * as React from 'react'
+import MaterialDialogContentText from '@material-ui/core/DialogContentText'
+import { IDialogContentTextProps } from './DialogContentText.props'
 
 /**
  * For more advanced usages, check [Material UI Dialog docs](https://material-ui.com/components/dialogs/)
@@ -16,9 +16,9 @@ import { IDialogContentTextProps } from "./DialogContentText.props";
 export const DialogContentText = React.forwardRef<HTMLSpanElement, IDialogContentTextProps>(
   (props: IDialogContentTextProps, ref) => (
     <MaterialDialogContentText {...props} ref={ref} />
-  ),
-);
+  )
+)
 
-DialogContentText.displayName = "DialogContextText";
+DialogContentText.displayName = 'DialogContextText'
 
-export default DialogContentText;
+export default DialogContentText

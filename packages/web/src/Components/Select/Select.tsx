@@ -1,12 +1,12 @@
-import * as React from 'react';
-import MaterialSelect from '@material-ui/core/Select';
-import { Icon } from '../Icon';
-import { MenuItem } from '../MenuItem';
-import InputStateHelpTextProvider from '../InputStateHelpTextProvider';
-import { ISelectProps } from './Select.props';
-import { MenuProps } from '@material-ui/core';
+import * as React from 'react'
+import MaterialSelect from '@material-ui/core/Select'
+import { MenuProps } from '@material-ui/core'
+import { Icon } from '../Icon'
+import { MenuItem } from '../MenuItem'
+import InputStateHelpTextProvider from '../InputStateHelpTextProvider'
+import { ISelectProps } from './Select.props'
 
-export { ISelectProps } from './Select.props';
+export { ISelectProps } from './Select.props'
 
 /**
  * ## Importing
@@ -18,29 +18,30 @@ export { ISelectProps } from './Select.props';
 
 export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISelectProps>(
   (props: ISelectProps, ref) => {
+    const {
+      state, id, placeholder, options, onChange, ...otherProps
+    } = props
 
-    const { state, id, placeholder, options, onChange, ...otherProps } = props;
+    const [value, setValue] = React.useState<string | number>()
 
-    const [value, setValue] = React.useState<string | number>();
-    
     const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
       const selectedValue = event.target.value as string
-      
-      setValue(selectedValue);
-      onChange && onChange(selectedValue);
-    };
+
+      setValue(selectedValue)
+      onChange && onChange(selectedValue)
+    }
 
     const menuProps: Partial<MenuProps> = {
       anchorOrigin: {
         vertical: 'bottom',
-        horizontal: 'left',
+        horizontal: 'left'
       },
       transformOrigin: {
         vertical: 'top',
-        horizontal: 'left',
+        horizontal: 'left'
       },
-      getContentAnchorEl: null,
-    };
+      getContentAnchorEl: null
+    }
     return (
       <InputStateHelpTextProvider {...otherProps} state={state}>
         <MaterialSelect
@@ -67,9 +68,10 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
           ))}
         </MaterialSelect>
       </InputStateHelpTextProvider>
-    );
-});
+    )
+  }
+)
 
-Select.displayName = 'Select';
+Select.displayName = 'Select'
 
-export default Select;
+export default Select

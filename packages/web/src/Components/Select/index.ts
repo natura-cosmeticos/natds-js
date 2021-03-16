@@ -1,4 +1,4 @@
-import { Select } from './Select';
+import { Select } from './Select'
 
-export { ISelectProps } from './Select.props';
-export default Select;
+export { ISelectProps } from './Select.props'
+export default Select

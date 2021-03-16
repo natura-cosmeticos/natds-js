@@ -1,4 +1,4 @@
-import { AccordionSummaryProps } from "@material-ui/core/AccordionSummary";
+import { AccordionSummaryProps } from '@material-ui/core/AccordionSummary'
 
 export interface IExpansionPanelSummaryProps extends AccordionSummaryProps {
 
@@ -8,7 +8,7 @@ export interface IExpansionPanelSummaryProps extends AccordionSummaryProps {
    * @optional
    * @type node
    */
-  children?: AccordionSummaryProps["children"]
+  children?: AccordionSummaryProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -19,7 +19,7 @@ export interface IExpansionPanelSummaryProps extends AccordionSummaryProps {
    * @see https://material-ui.com/api/expansion-panel-summary/#css
    * @type object
    */
-  classes?: AccordionSummaryProps["classes"]
+  classes?: AccordionSummaryProps['classes']
 
   /**
    * The icon to display as the expand indicator.
@@ -27,7 +27,7 @@ export interface IExpansionPanelSummaryProps extends AccordionSummaryProps {
    * @optional
    * @type node
    */
-  expandIcon?: AccordionSummaryProps["expandIcon"]
+  expandIcon?: AccordionSummaryProps['expandIcon']
 
   /**
    * Props applied to the `IconButton` element wrapping the expand icon.
@@ -35,5 +35,5 @@ export interface IExpansionPanelSummaryProps extends AccordionSummaryProps {
    * @optional
    * @type object
    */
-  IconButtonProps?: AccordionSummaryProps["IconButtonProps"]
+  IconButtonProps?: AccordionSummaryProps['IconButtonProps']
 }

@@ -1,4 +1,4 @@
-import Field from "./Field";
+import Field from './Field'
 
-export { Field };
-export default Field;
+export { Field }
+export default Field

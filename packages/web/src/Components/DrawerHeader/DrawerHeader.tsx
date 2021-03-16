@@ -1,12 +1,12 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
+import * as React from 'react'
 
-import Typography from "../Typography";
-import Avatar from "../Avatar";
-import { IDrawerHeaderProps } from "./DrawerHeader.props";
-import useStyles from "./DrawerHeader.styles";
+import Typography from '../Typography'
+import Avatar from '../Avatar'
+import { IDrawerHeaderProps } from './DrawerHeader.props'
+import useStyles from './DrawerHeader.styles'
 
-export { IDrawerHeaderProps } from "./DrawerHeader.props";
+export { IDrawerHeaderProps } from './DrawerHeader.props'
 
 /**
  * ## Importing
@@ -16,41 +16,44 @@ export { IDrawerHeaderProps } from "./DrawerHeader.props";
  * ```
  */
 export const DrawerHeader = React.forwardRef<HTMLElement, IDrawerHeaderProps>((
-  props: IDrawerHeaderProps, ref,
+  props: IDrawerHeaderProps, ref
 ) => {
   const {
     avatarChildren,
     avatarComponent: AvatarComponent = Avatar,
     avatarSrc,
     children,
-    component: Component = "div",
+    component: Component = 'div',
     primary,
     secondary,
     ...otherProps
-  } = props;
+  } = props
 
-  const { avatar, root } = useStyles();
+  const { avatar, root } = useStyles()
 
-  let content = <>
-    {(avatarSrc || avatarChildren) && <AvatarComponent className={avatar} size="large" src={avatarSrc}>{avatarChildren}</AvatarComponent>}
-    {primary && <Typography variant="h5">{primary}</Typography>}
-    {secondary && <Typography variant="subtitle2" color="textSecondary">{secondary}</Typography>}
-  </>;
+  let content = (
+    <>
+      {(avatarSrc || avatarChildren) && <AvatarComponent className={avatar} size="large" src={avatarSrc}>{avatarChildren}</AvatarComponent>}
+      {primary && <Typography variant="h5">{primary}</Typography>}
+      {secondary && <Typography variant="subtitle2" color="textSecondary">{secondary}</Typography>}
+    </>
+  )
 
   if (children) {
-    content = <>{children}</>;
+    content = <>{children}</>
   }
 
   return (
     <Component
       className={root}
       {...otherProps}
-      ref={ref}>
+      ref={ref}
+    >
       {content}
     </Component>
-  );
-});
+  )
+})
 
-DrawerHeader.displayName = "DrawerHeader";
+DrawerHeader.displayName = 'DrawerHeader'
 
-export default DrawerHeader;
+export default DrawerHeader

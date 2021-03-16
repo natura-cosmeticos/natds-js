@@ -1,4 +1,4 @@
-import { CardActionsProps } from "@material-ui/core/CardActions";
+import { CardActionsProps } from '@material-ui/core/CardActions'
 
 export interface ICardActionsProps extends CardActionsProps {
 
@@ -8,7 +8,7 @@ export interface ICardActionsProps extends CardActionsProps {
    * @optional
    * @type node
    */
-  children?: CardActionsProps["children"]
+  children?: CardActionsProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -16,7 +16,7 @@ export interface ICardActionsProps extends CardActionsProps {
    * @optional
    * @type object
    */
-  classes?: CardActionsProps["classes"]
+  classes?: CardActionsProps['classes']
 
   /**
    * If true, the actions do not have additional margin.
@@ -25,5 +25,5 @@ export interface ICardActionsProps extends CardActionsProps {
    * @optional
    * @type bool
    */
-  disableSpacing?: CardActionsProps["disableSpacing"]
+  disableSpacing?: CardActionsProps['disableSpacing']
 }

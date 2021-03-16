@@ -1,5 +1,5 @@
-import TableContainer from "./TableContainer";
+import TableContainer from './TableContainer'
 
-export { ITableContainerProps } from "./TableContainer.props";
-export { TableContainer };
-export default TableContainer;
+export { ITableContainerProps } from './TableContainer.props'
+export { TableContainer }
+export default TableContainer

@@ -1,50 +1,50 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
-import useTheme from "@material-ui/core/styles/useTheme";
-import clsx from "clsx";
-import { ImageProps } from "./Image.props";
-import { useStyles } from "./Image.styles";
-import { IThemeWeb } from "../../Themes";
-import { getSizeStyleProp } from "../../hooks/useSizeStyleProp";
+import * as React from 'react'
+import useTheme from '@material-ui/core/styles/useTheme'
+import clsx from 'clsx'
+import { ImageProps } from './Image.props'
+import { useStyles } from './Image.styles'
+import { IThemeWeb } from '../../Themes'
+import { getSizeStyleProp } from '../../hooks/useSizeStyleProp'
 
-export { ImageProps } from "./Image.props";
+export { ImageProps } from './Image.props'
 
 export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
   // eslint-disable-next-line complexity, max-statements
   (props: ImageProps, ref) => {
     const {
       alt, className, draggable, disableSelection, fallback, height, maxHeight, maxWidth, radius, state, style, src, width, ...otherProps
-    } = props;
+    } = props
 
     const classes = useStyles({
-      alt, disableSelection, height, maxHeight, maxWidth, radius, state, src, width,
-    });
+      alt, disableSelection, height, maxHeight, maxWidth, radius, state, src, width
+    })
 
-    const theme : IThemeWeb = useTheme();
+    const theme : IThemeWeb = useTheme()
 
     const heightAttribute = getSizeStyleProp({
       theme,
-      value: height,
-    });
+      value: height
+    })
     const widthAttribute = getSizeStyleProp({
       theme,
-      value: width,
-    });
+      value: width
+    })
 
-    const [imageSrc, setImageSrc] = React.useState({ src, error: false });
+    const [imageSrc, setImageSrc] = React.useState({ src, error: false })
 
     const onError = () => {
       if (!imageSrc.error) {
-        setImageSrc({ src: fallback, error: true });
+        setImageSrc({ src: fallback, error: true })
 
-        return null;
+        return null
       }
 
-      return null;
-    };
+      return null
+    }
 
-    const heightAttr = heightAttribute === "auto" ? "" : heightAttribute;
-    const widthAttr = widthAttribute === "auto" ? "" : widthAttribute;
+    const heightAttr = heightAttribute === 'auto' ? '' : heightAttribute
+    const widthAttr = widthAttribute === 'auto' ? '' : widthAttribute
 
     if (state) {
       return (
@@ -61,9 +61,9 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
             width={widthAttr}
             {...otherProps}
           />
-          <div className={classes.overlay}></div>
+          <div className={classes.overlay} />
         </div>
-      );
+      )
     }
 
     return (
@@ -79,10 +79,10 @@ export const Image = React.forwardRef<HTMLImageElement, ImageProps>(
         width={widthAttr}
         {...otherProps}
       />
-    );
-  },
-);
+    )
+  }
+)
 
-Image.displayName = "Image";
+Image.displayName = 'Image'
 
-export default Image;
+export default Image

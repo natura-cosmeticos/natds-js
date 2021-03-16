@@ -1,6 +1,6 @@
-import { ISizes } from "@naturacosmeticos/natds-styles";
-import { IThemeWeb } from "../../Themes";
+import { ISizes } from '@naturacosmeticos/natds-styles'
+import { IThemeWeb } from '../../Themes'
 
-export const getSizeTokens: (theme: IThemeWeb) => ISizes = (theme) => theme.sizes;
+export const getSizeTokens: (theme: IThemeWeb) => ISizes = (theme) => theme.sizes
 
-export default getSizeTokens;
+export default getSizeTokens

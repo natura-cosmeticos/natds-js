@@ -1,14 +1,14 @@
-import * as React from "react";
-import * as TestRenderer from "react-test-renderer";
-import { TableContainer } from "../TableContainer";
-import { Table } from "../Table";
-import { TableFooter } from "./TableFooter";
-import { TableRow } from "../TableRow";
-import { TableCell } from "../TableCell";
+import * as React from 'react'
+import * as TestRenderer from 'react-test-renderer'
+import { TableContainer } from '../TableContainer'
+import { Table } from '../Table'
+import { TableFooter } from './TableFooter'
+import { TableRow } from '../TableRow'
+import { TableCell } from '../TableCell'
 
-describe("TableFooter component", () => {
-  describe("rendering", () => {
-    test("should match to snapshot - TableFooter component", () => {
+describe('TableFooter component', () => {
+  describe('rendering', () => {
+    test('should match to snapshot - TableFooter component', () => {
       const testRenderer = TestRenderer.create(
         <TableContainer>
           <Table>
@@ -18,10 +18,10 @@ describe("TableFooter component", () => {
               </TableRow>
             </TableFooter>
           </Table>
-        </TableContainer>,
-      );
+        </TableContainer>
+      )
 
-      expect(testRenderer).toMatchSnapshot();
-    });
-  });
-});
+      expect(testRenderer).toMatchSnapshot()
+    })
+  })
+})

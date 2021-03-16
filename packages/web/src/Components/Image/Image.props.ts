@@ -1,10 +1,10 @@
-import * as React from "react";
-import { SizePropValue } from "../../hooks/useSizeStyleProp";
+import * as React from 'react'
+import { SizePropValue } from '../../hooks/useSizeStyleProp'
 
-export type ImageVariant = "standard" | "highlight";
-export type ImageFallback = "product" | React.ImgHTMLAttributes<HTMLImageElement>["src"];
+export type ImageVariant = 'standard' | 'highlight';
+export type ImageFallback = 'product' | React.ImgHTMLAttributes<HTMLImageElement>['src'];
 
-export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElement>, "height" | "width"> {
+export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElement>, 'height' | 'width'> {
 
   /**
    * Image alternative text.
@@ -12,7 +12,7 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
    * @required
    * @type string
    */
-  alt: React.ImgHTMLAttributes<HTMLImageElement>["alt"];
+  alt: React.ImgHTMLAttributes<HTMLImageElement>['alt'];
 
   /**
    * `className` property which is applied to the root element.
@@ -20,7 +20,7 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
    * @optional
    * @type string
    */
-  className?: React.HTMLAttributes<HTMLImageElement>["className"];
+  className?: React.HTMLAttributes<HTMLImageElement>['className'];
 
   /**
    * Prevents image selection.
@@ -41,7 +41,7 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
    * @optional
    * @type string
    */
-  fallback?: React.ImgHTMLAttributes<HTMLImageElement>["src"];
+  fallback?: React.ImgHTMLAttributes<HTMLImageElement>['src'];
 
   /**
    * Sets the image height.
@@ -91,7 +91,7 @@ export interface ImageProps extends Omit<React.ImgHTMLAttributes<HTMLImageElemen
    * @optional
    * @type string
    */
-  src?: React.ImgHTMLAttributes<HTMLImageElement>["src"];
+  src?: React.ImgHTMLAttributes<HTMLImageElement>['src'];
 
   /**
    * Add overlay to the image.

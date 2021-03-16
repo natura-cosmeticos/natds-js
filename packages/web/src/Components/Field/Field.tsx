@@ -1,15 +1,15 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment,@typescript-eslint/no-explicit-any */
-import * as React from "react";
-import MaskedInput from "react-text-mask";
-import PasswordReveal from "./PasswordReveal";
-import SearchClear from "./SearchClear";
-import CustomIcon from "./CustomIcon";
-import { ITextFieldProps } from "../TextField";
-import { IInputProps, Input } from "../Input";
+import * as React from 'react'
+import MaskedInput from 'react-text-mask'
+import PasswordReveal from './PasswordReveal'
+import SearchClear from './SearchClear'
+import CustomIcon from './CustomIcon'
+import { ITextFieldProps } from '../TextField'
+import { IInputProps, Input } from '../Input'
 
-export const TEXT_TYPE = "text";
-export const SEARCH_TYPE = "search";
-export const PASSWORD_TYPE = "password";
+export const TEXT_TYPE = 'text'
+export const SEARCH_TYPE = 'search'
+export const PASSWORD_TYPE = 'password'
 
 export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, ITextFieldProps>(
   // eslint-disable-next-line complexity,max-statements
@@ -29,7 +29,7 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
       multiline,
       onChange,
       onIconPress,
-      placeholder = "",
+      placeholder = '',
       required = false,
       searchIcon,
       showPasswordIcon,
@@ -38,56 +38,60 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
       theme: providedTheme,
       type,
       ...otherProps
-    } = props;
+    } = props
 
-    let fieldType : IInputProps["inputComponent"] = "input";
+    let fieldType : IInputProps['inputComponent'] = 'input'
 
     if (multiline) {
-      fieldType = "textarea";
+      fieldType = 'textarea'
     } else if (mask) {
-      fieldType = MaskedInput;
+      fieldType = MaskedInput
     }
 
-    const [showing, togglePasswordReveal] = React.useState(false);
-    const [value, setValue] = React.useState("");
-    const customType = showing ? TEXT_TYPE : type;
-    const showPasswordReveal = type === PASSWORD_TYPE && !icon;
-    const showSearchClear = type === SEARCH_TYPE && !icon;
-    const hasIcon = Boolean(showPasswordReveal) || Boolean(showSearchClear) || Boolean(icon);
+    const [showing, togglePasswordReveal] = React.useState(false)
+    const [value, setValue] = React.useState('')
+    const customType = showing ? TEXT_TYPE : type
+    const showPasswordReveal = type === PASSWORD_TYPE && !icon
+    const showSearchClear = type === SEARCH_TYPE && !icon
+    const hasIcon = Boolean(showPasswordReveal) || Boolean(showSearchClear) || Boolean(icon)
 
     const handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
-      setValue(event.target.value);
+      setValue(event.target.value)
       if (onChange) {
-        onChange(event);
+        onChange(event)
       }
-    };
+    }
 
     const clearSearch = (event: any) => {
-      setValue("");
+      setValue('')
       if (onChange) {
-        onChange(event);
+        onChange(event)
       }
-    };
+    }
 
-    let endAdornment : React.ReactNode = null;
+    let endAdornment : React.ReactNode = null
 
     if (showPasswordReveal) {
-      endAdornment = <PasswordReveal
-        hidePasswordIcon={hidePasswordIcon}
-        onTogglePasswordReveal={togglePasswordReveal}
-        showing={showing}
-        showPasswordIcon={showPasswordIcon}
-      />;
+      endAdornment = (
+        <PasswordReveal
+          hidePasswordIcon={hidePasswordIcon}
+          onTogglePasswordReveal={togglePasswordReveal}
+          showing={showing}
+          showPasswordIcon={showPasswordIcon}
+        />
+      )
     }
     if (showSearchClear) {
-      endAdornment = <SearchClear
-        onClearSearch={clearSearch}
-        searchIcon={searchIcon}
-      />;
+      endAdornment = (
+        <SearchClear
+          onClearSearch={clearSearch}
+          searchIcon={searchIcon}
+        />
+      )
     }
     if (icon) {
       // @ts-ignore
-      endAdornment = <CustomIcon icon={icon} onIconPress={onIconPress} />;
+      endAdornment = <CustomIcon icon={icon} onIconPress={onIconPress} />
     }
 
     return (
@@ -100,22 +104,23 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
         inputProps={{
           className: className && `${className}__input`,
           mask,
-          maxLength: maxLength
+          maxLength
         }}
         multiline={multiline}
-        onChange={ handleChange }
+        onChange={handleChange}
         placeholder={placeholder}
         ref={ref}
         required={required}
         state={state}
         type={customType || TEXT_TYPE}
         value={value}
-        disableUnderline={true}
+        disableUnderline
         {...otherProps}
       />
-    );
-  });
+    )
+  }
+)
 
-Field.displayName = "Field";
+Field.displayName = 'Field'
 
-export default Field;
+export default Field

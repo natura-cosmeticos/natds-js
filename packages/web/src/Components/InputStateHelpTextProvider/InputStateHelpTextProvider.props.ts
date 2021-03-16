@@ -1,4 +1,4 @@
-import * as React from "react";
+import * as React from 'react'
 
 export interface IInputStateHelpTextProviderProps {
   children?: React.ReactNode;
@@ -9,5 +9,5 @@ export interface IInputStateHelpTextProviderProps {
   label?: string;
   readOnly?: boolean;
   required?: boolean;
-  state: "error" | "success" | undefined;
+  state: 'error' | 'success' | undefined;
 }

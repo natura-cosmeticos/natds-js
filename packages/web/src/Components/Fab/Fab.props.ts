@@ -1,18 +1,18 @@
-import { FabProps } from "@material-ui/core/Fab";
-import { PropTypes } from "@material-ui/core";
+import { FabProps } from '@material-ui/core/Fab'
+import { PropTypes } from '@material-ui/core'
 
 export type MaterialFabColor = PropTypes.Color;
-export type FabColor = "primary" | "secondary" | "light";
-export type FabSize = "small" | "medium" | "large";
-export type FabVariant = "round" | "extended";
+export type FabColor = 'primary' | 'secondary' | 'light';
+export type FabSize = 'small' | 'medium' | 'large';
+export type FabVariant = 'round' | 'extended';
 
 export interface IFabProps extends Pick<FabProps,
-  | "children"
-  | "disabled"
-  | "disableFocusRipple"
-  | "href"
-  | "size"
-  | "variant"> {
+  | 'children'
+  | 'disabled'
+  | 'disableFocusRipple'
+  | 'href'
+  | 'size'
+  | 'variant'> {
 
   /**
    * The color of the component

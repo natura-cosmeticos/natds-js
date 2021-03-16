@@ -1,6 +1,6 @@
-import * as React from "react";
-import MaterialCardContent from "@material-ui/core/CardContent";
-import { ICardContentProps } from "./CardContent.props";
+import * as React from 'react'
+import MaterialCardContent from '@material-ui/core/CardContent'
+import { ICardContentProps } from './CardContent.props'
 
 /**
  * @deprecated `CardContent` component will be deprecated soon
@@ -9,9 +9,9 @@ import { ICardContentProps } from "./CardContent.props";
 export const CardContent = React.forwardRef<HTMLDivElement, ICardContentProps>(
   (props: ICardContentProps, ref) => (
     <MaterialCardContent {...props} ref={ref} />
-  ),
-);
+  )
+)
 
-CardContent.displayName = "CardContent";
+CardContent.displayName = 'CardContent'
 
-export default CardContent;
+export default CardContent

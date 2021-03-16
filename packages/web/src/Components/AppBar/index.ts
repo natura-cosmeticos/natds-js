@@ -1,5 +1,5 @@
-import AppBar from "./AppBar";
+import AppBar from './AppBar'
 
-export { IAppBarProps } from "./AppBar.props";
-export { AppBar };
-export default AppBar;
+export { IAppBarProps } from './AppBar.props'
+export { AppBar }
+export default AppBar

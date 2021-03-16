@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
-import { IDrawerBodyProps } from "./DrawerBody.props";
-import { useStyles } from "./DrawerBody.styles";
+import * as React from 'react'
+import { IDrawerBodyProps } from './DrawerBody.props'
+import { useStyles } from './DrawerBody.styles'
 
-export { IDrawerBodyProps } from "./DrawerBody.props";
+export { IDrawerBodyProps } from './DrawerBody.props'
 
 /**
  * ## Importing
@@ -13,53 +13,55 @@ export { IDrawerBodyProps } from "./DrawerBody.props";
  * ```
  */
 export const DrawerBody = React.forwardRef<HTMLElement, IDrawerBodyProps>((
-  props: IDrawerBodyProps, ref,
+  props: IDrawerBodyProps, ref
 ) => {
   const {
     children,
-    component: Component = "div",
-    scrollComponent: ScrollComponent = "div",
+    component: Component = 'div',
+    scrollComponent: ScrollComponent = 'div',
     ...otherProps
-  } = props;
+  } = props
   const [
-    scrolled, setScrolled,
-  ] = React.useState(false);
+    scrolled, setScrolled
+  ] = React.useState(false)
 
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   const handleScrolled = (event: any) => {
-    if (typeof event === "undefined") {
-      return;
+    if (typeof event === 'undefined') {
+      return
     }
-    const { target } = event;
+    const { target } = event
 
-    if (typeof target === "undefined") {
-      return;
+    if (typeof target === 'undefined') {
+      return
     }
-    const { scrollTop } = target;
+    const { scrollTop } = target
 
-    if (typeof scrollTop !== "undefined") {
-      const SCROLL_POSITION_ZERO = 0;
+    if (typeof scrollTop !== 'undefined') {
+      const SCROLL_POSITION_ZERO = 0
 
-      setScrolled(scrollTop > SCROLL_POSITION_ZERO);
+      setScrolled(scrollTop > SCROLL_POSITION_ZERO)
     }
-  };
+  }
 
-  const { root, scroll } = useStyles({ scrolled });
+  const { root, scroll } = useStyles({ scrolled })
 
   return (
     <Component
       className={root}
       ref={ref}
-      {...otherProps}>
+      {...otherProps}
+    >
       <ScrollComponent
         className={scroll}
-        onScroll={handleScrolled}>
+        onScroll={handleScrolled}
+      >
         {children}
       </ScrollComponent>
     </Component>
-  );
-});
+  )
+})
 
-DrawerBody.displayName = "DrawerBody";
+DrawerBody.displayName = 'DrawerBody'
 
-export default DrawerBody;
+export default DrawerBody

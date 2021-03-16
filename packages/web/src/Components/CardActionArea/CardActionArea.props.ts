@@ -1,4 +1,4 @@
-import { CardActionAreaProps } from "@material-ui/core/CardActionArea";
+import { CardActionAreaProps } from '@material-ui/core/CardActionArea'
 
 /**
  * CardActionArea Props
@@ -11,7 +11,7 @@ export interface ICardActionAreaProps extends CardActionAreaProps {
    * @optional
    * @type node
    */
-  children?: CardActionAreaProps["children"]
+  children?: CardActionAreaProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -19,5 +19,5 @@ export interface ICardActionAreaProps extends CardActionAreaProps {
    * @optional
    * @type object
    */
-  classes?: CardActionAreaProps["classes"]
+  classes?: CardActionAreaProps['classes']
 }

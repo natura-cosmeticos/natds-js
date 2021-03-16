@@ -1,17 +1,17 @@
-import { ArgType } from "@storybook/addons";
-import { IRadioProps } from "./Radio.props";
-import { booleanArgType } from "../../../.storybook/argTypes/booleanArgType";
-import { objectArgType } from "../../../.storybook/argTypes/objectArgType";
-import { colors } from "./__fixtures__/colors";
-import { stringArgType } from "../../../.storybook/argTypes/stringArgType";
-import sizes from "./__fixtures__/sizes";
-import edges from "./__fixtures__/edges";
+import { ArgType } from '@storybook/addons'
+import { IRadioProps } from './Radio.props'
+import { booleanArgType } from '../../../.storybook/argTypes/booleanArgType'
+import { objectArgType } from '../../../.storybook/argTypes/objectArgType'
+import { colors } from './__fixtures__/colors'
+import { stringArgType } from '../../../.storybook/argTypes/stringArgType'
+import sizes from './__fixtures__/sizes'
+import edges from './__fixtures__/edges'
 
 export const argTypes : Record<keyof IRadioProps | string, ArgType> = {
   checked: booleanArgType,
   checkedIcon: {},
   classes: objectArgType,
-  color: { options: colors, type: "radio" },
+  color: { options: colors, type: 'radio' },
   disabled: booleanArgType,
   disableRipple: booleanArgType,
   icon: {},
@@ -21,7 +21,7 @@ export const argTypes : Record<keyof IRadioProps | string, ArgType> = {
   name: stringArgType,
   onChange: {},
   required: booleanArgType,
-  size: { options: sizes, type: "radio" },
+  size: { options: sizes, type: 'radio' },
   value: {},
   action: {},
   centerRipple: booleanArgType,
@@ -30,13 +30,13 @@ export const argTypes : Record<keyof IRadioProps | string, ArgType> = {
   edge: {
     control: {
       options: edges,
-      type: "radio",
-    },
+      type: 'radio'
+    }
   },
   focusRipple: booleanArgType,
   focusVisibleClassName: stringArgType,
   onFocusVisible: {},
-  TouchRippleProps: {},
-};
+  TouchRippleProps: {}
+}
 
-export default argTypes;
+export default argTypes

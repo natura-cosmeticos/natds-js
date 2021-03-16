@@ -1,25 +1,25 @@
-import * as React from "react";
-import * as TestRenderer from "react-test-renderer";
-import { Divider } from "./Divider";
+import * as React from 'react'
+import * as TestRenderer from 'react-test-renderer'
+import { Divider } from './Divider'
 
-describe("Divider component", () => {
-  describe("rendering variants", () => {
-    test("should match to snapshot - Variant FullWidth Default", () => {
-      const testRenderer = TestRenderer.create(<Divider />);
+describe('Divider component', () => {
+  describe('rendering variants', () => {
+    test('should match to snapshot - Variant FullWidth Default', () => {
+      const testRenderer = TestRenderer.create(<Divider />)
 
-      expect(testRenderer).toMatchSnapshot("Divider variant fullWidth default snapshot");
-    });
+      expect(testRenderer).toMatchSnapshot('Divider variant fullWidth default snapshot')
+    })
 
-    test("should match to snapshot - Variant Inset", () => {
-      const testRenderer = TestRenderer.create(<Divider variant="inset" />);
+    test('should match to snapshot - Variant Inset', () => {
+      const testRenderer = TestRenderer.create(<Divider variant="inset" />)
 
-      expect(testRenderer).toMatchSnapshot("Divider variant inset snapshot");
-    });
+      expect(testRenderer).toMatchSnapshot('Divider variant inset snapshot')
+    })
 
-    test("should match to snapshot - Variant Middle", () => {
-      const testRenderer = TestRenderer.create(<Divider variant="middle" />);
+    test('should match to snapshot - Variant Middle', () => {
+      const testRenderer = TestRenderer.create(<Divider variant="middle" />)
 
-      expect(testRenderer).toMatchSnapshot("Divider variant middle snapshot");
-    });
-  });
-});
+      expect(testRenderer).toMatchSnapshot('Divider variant middle snapshot')
+    })
+  })
+})

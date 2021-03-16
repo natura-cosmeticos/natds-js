@@ -1,5 +1,5 @@
-import TableBody from "./TableBody";
+import TableBody from './TableBody'
 
-export { ITableBodyProps } from "./TableBody.props";
-export { TableBody };
-export default TableBody;
+export { ITableBodyProps } from './TableBody.props'
+export { TableBody }
+export default TableBody

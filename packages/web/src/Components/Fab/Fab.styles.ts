@@ -1,7 +1,7 @@
 /* eslint-disable @typescript-eslint/no-explicit-any,@typescript-eslint/explicit-module-boundary-types */
-import createStyles from "@material-ui/core/styles/createStyles";
-import makeStyles from "@material-ui/core/styles/makeStyles";
-import { IThemeWeb } from "../../Themes";
+import createStyles from '@material-ui/core/styles/createStyles'
+import makeStyles from '@material-ui/core/styles/makeStyles'
+import { IThemeWeb } from '../../Themes'
 
 type FabStyles = {
   backgroundColor?: string,
@@ -14,73 +14,65 @@ type FabStyles = {
  * @return  {FabStyles}           Styles for `color="primary"
  */
 const getStylesForPrimary = (theme: IThemeWeb) => {
-
-  const primary : FabStyles = {};
+  const primary : FabStyles = {}
 
   if (theme.palette && theme.palette.primary) {
-    primary.backgroundColor = theme.palette.primary.main;
-    primary.color = theme.palette.primary.contrastText;
+    primary.backgroundColor = theme.palette.primary.main
+    primary.color = theme.palette.primary.contrastText
   }
 
-  return primary;
-};
+  return primary
+}
 
 /**
  * @param   {IThemeWeb}   theme   The provided theme
  * @return  {FabStyles}           Styles for `color="light"`
  */
 const getStylesForRoot = (theme: IThemeWeb) => {
-
-  const root : FabStyles = {};
+  const root : FabStyles = {}
 
   if (theme.palette && theme.palette.background) {
-    root.backgroundColor = theme.palette.background.default;
-    root.color = theme.palette.background.defaultContrastText;
+    root.backgroundColor = theme.palette.background.default
+    root.color = theme.palette.background.defaultContrastText
   }
 
-  return root;
-
-};
+  return root
+}
 
 /**
  * @param   {IThemeWeb}   theme   The provided theme
  * @return  {FabStyles}           Styles for `color="secondary"`
  */
 const getStylesForSecondary = (theme: IThemeWeb) => {
-
-  const secondary : FabStyles = {};
+  const secondary : FabStyles = {}
 
   if (theme.palette && theme.palette.secondary) {
-    secondary.backgroundColor = theme.palette.secondary.main;
-    secondary.color = theme.palette.secondary.contrastText;
+    secondary.backgroundColor = theme.palette.secondary.main
+    secondary.color = theme.palette.secondary.contrastText
   }
 
-  return secondary;
-
-};
+  return secondary
+}
 
 export const styles = (theme: IThemeWeb) => {
-
-  const root : FabStyles = getStylesForRoot(theme);
+  const root : FabStyles = getStylesForRoot(theme)
 
   if (theme.shadows) {
-
     /**
      * @todo Adopt `natds-themes` elevation token
      */
     // eslint-disable-next-line prefer-destructuring
-    root.boxShadow = theme.shadows[4];
+    root.boxShadow = theme.shadows[4]
   }
 
   return {
     root,
     primary: getStylesForPrimary(theme),
-    secondary: getStylesForSecondary(theme),
-  };
-
-};
+    secondary: getStylesForSecondary(theme)
+  }
+}
 
 export const useStyles = makeStyles(
   createStyles(styles),
-  { name: "NatDSFab" },
-);
+  { name: 'NatDSFab' }
+)

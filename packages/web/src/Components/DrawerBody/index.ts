@@ -1,5 +1,5 @@
-import DrawerBody from "./DrawerBody";
+import DrawerBody from './DrawerBody'
 
-export { IDrawerBodyProps } from "./DrawerBody.props";
-export { DrawerBody };
-export default DrawerBody;
+export { IDrawerBodyProps } from './DrawerBody.props'
+export { DrawerBody }
+export default DrawerBody

@@ -1,6 +1,6 @@
 import {
-  AccordionActionsProps,
-} from "@material-ui/core/AccordionActions";
+  AccordionActionsProps
+} from '@material-ui/core/AccordionActions'
 
 export interface IExpansionPanelActionsProps extends AccordionActionsProps {
 
@@ -10,7 +10,7 @@ export interface IExpansionPanelActionsProps extends AccordionActionsProps {
    * @optional
    * @type node
    */
-  children?: AccordionActionsProps["children"]
+  children?: AccordionActionsProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -21,7 +21,7 @@ export interface IExpansionPanelActionsProps extends AccordionActionsProps {
    * @see https://material-ui.com/api/expansion-panel-actions/#css
    * @type object
    */
-  classes?: AccordionActionsProps["classes"]
+  classes?: AccordionActionsProps['classes']
 
   /**
    * If `true`, the actions do not have additional margin.
@@ -30,5 +30,5 @@ export interface IExpansionPanelActionsProps extends AccordionActionsProps {
    * @default false
    * @type bool
    */
-  disableSpacing?: AccordionActionsProps["disableSpacing"]
+  disableSpacing?: AccordionActionsProps['disableSpacing']
 }

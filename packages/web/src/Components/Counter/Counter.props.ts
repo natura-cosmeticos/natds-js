@@ -1,4 +1,4 @@
-export type Sizes = "small" | "medium";
+export type Sizes = 'small' | 'medium';
 
 export interface ICounterProps {
 

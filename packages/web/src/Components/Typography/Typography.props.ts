@@ -1,15 +1,15 @@
-import { TypographyProps } from "@material-ui/core/Typography";
+import { TypographyProps } from '@material-ui/core/Typography'
 
-export type TypographyAlign = "inherit" | "left" | "center" | "right" | "justify";
+export type TypographyAlign = 'inherit' | 'left' | 'center' | 'right' | 'justify';
 
 export type TypographyColor =
-    | "initial"
-    | "inherit"
-    | "primary"
-    | "secondary"
-    | "textPrimary"
-    | "textSecondary"
-    | "error";
+    | 'initial'
+    | 'inherit'
+    | 'primary'
+    | 'secondary'
+    | 'textPrimary'
+    | 'textSecondary'
+    | 'error';
 
 /**
  * Variants can have the following values:
@@ -17,23 +17,23 @@ export type TypographyColor =
  * 'caption' | 'button' | 'overline' | undefined
  */
 export type TypographyVariant =
-    | "h1"
-    | "h2"
-    | "h3"
-    | "h4"
-    | "h5"
-    | "h6"
-    | "subtitle1"
-    | "subtitle2"
-    | "body1"
-    | "body2"
-    | "button"
-    | "caption"
-    | "overline"
-    | "inherit"
-    | "srOnly";
+    | 'h1'
+    | 'h2'
+    | 'h3'
+    | 'h4'
+    | 'h5'
+    | 'h6'
+    | 'subtitle1'
+    | 'subtitle2'
+    | 'body1'
+    | 'body2'
+    | 'button'
+    | 'caption'
+    | 'overline'
+    | 'inherit'
+    | 'srOnly';
 
-export interface ITypographyProps extends Omit<TypographyProps, "children"> {
+export interface ITypographyProps extends Omit<TypographyProps, 'children'> {
 
   /**
    * Set the text-align on the component. Defaults to 'inherit'
@@ -52,7 +52,7 @@ export interface ITypographyProps extends Omit<TypographyProps, "children"> {
    * @optional
    * @type node
    */
-  children?: TypographyProps["children"];
+  children?: TypographyProps['children'];
 
   /**
    * Override or extend the styles applied to the component
@@ -60,7 +60,7 @@ export interface ITypographyProps extends Omit<TypographyProps, "children"> {
    * @optional
    * @type object
    */
-  classes?: TypographyProps["classes"];
+  classes?: TypographyProps['classes'];
 
   /**
    * The color of the component.
@@ -82,7 +82,7 @@ export interface ITypographyProps extends Omit<TypographyProps, "children"> {
    * @optional
    * @type node
    */
-  component?: TypographyProps["children"];
+  component?: TypographyProps['children'];
 
   /**
    * @optional
@@ -97,7 +97,7 @@ export interface ITypographyProps extends Omit<TypographyProps, "children"> {
    * @optional
    * @type "initial" | "inline" | "block"
    */
-  display?: TypographyProps["display"]
+  display?: TypographyProps['display']
 
   /**
    * If `true`, the text will have a bottom margin.
@@ -106,7 +106,7 @@ export interface ITypographyProps extends Omit<TypographyProps, "children"> {
    * @optional
    * @type bool
    */
-  gutterBottom?: TypographyProps["gutterBottom"]
+  gutterBottom?: TypographyProps['gutterBottom']
 
   /**
    * If true, the text will not wrap, but instead will truncate
@@ -142,7 +142,7 @@ export interface ITypographyProps extends Omit<TypographyProps, "children"> {
    * @optional
    * @type "h1" | "h2" | "h3" | "h4" | "h5" | "h6" | "subtitle1" | "subtitle2" | "body1" | "body2" | "button" | "caption" | 'overline" | "inherit" | "srOnly"
    */
-  variant?: TypographyProps["variant"];
+  variant?: TypographyProps['variant'];
 
   /**
    * Maps the internal html tag variants, where the key is variant and the value is the tag to use.
@@ -156,5 +156,5 @@ export interface ITypographyProps extends Omit<TypographyProps, "children"> {
    * @optional
    * @type object
    */
-  variantMapping?: TypographyProps["variantMapping"];
+  variantMapping?: TypographyProps['variantMapping'];
 }

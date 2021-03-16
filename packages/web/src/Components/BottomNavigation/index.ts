@@ -1,5 +1,5 @@
-import BottomNavigation from "./BottomNavigation";
+import BottomNavigation from './BottomNavigation'
 
-export { IBottomNavigationProps } from "./BottomNavigation.props";
-export { BottomNavigation };
-export default BottomNavigation;
+export { IBottomNavigationProps } from './BottomNavigation.props'
+export { BottomNavigation }
+export default BottomNavigation

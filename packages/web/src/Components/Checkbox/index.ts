@@ -1,5 +1,5 @@
-import Checkbox from "./Checkbox";
+import Checkbox from './Checkbox'
 
-export { ICheckboxProps } from "./Checkbox.props";
-export { Checkbox };
-export default Checkbox;
+export { ICheckboxProps } from './Checkbox.props'
+export { Checkbox }
+export default Checkbox

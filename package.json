@@ -55,9 +55,8 @@
     "clean": "lerna clean",
     "cm": "git cz",
     "commit": "git cz",
-    "lint": "eslint --ext .js,.jsx,.ts,.tsx --cache --max-warnings 0",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./ --quiet",
     "lint:fix": "yarn lint --fix",
-    "lint:staged": "yarn eslint $(git diff --name-only --diff-filter=ACM \"*.js\" \"*.jsx\" \"*.ts\" \"*.tsx\" | sed 's| |\\\\ |g') --fix",
     "lerna": "lerna",
     "lerna:prerelease:version": "lerna version --conventional-commits --conventional-prerelease --no-changelog",
     "lerna:prerelease:version:ci": "yarn lerna:prerelease:version --force-git-tag --yes",
@@ -82,7 +81,8 @@
   "workspaces": {
     "packages": [
       "packages/styles",
-      "packages/web"
+      "packages/web",
+      "packages/react"
     ],
     "nohoist": [
       "**/create-react-class",
@@ -94,31 +94,58 @@
     ]
   },
   "devDependencies": {
+    "@babel/core": "7.12.10",
+    "@babel/plugin-proposal-class-properties": "7.12.1",
+    "@babel/plugin-proposal-object-rest-spread": "7.12.1",
+    "@babel/preset-env": "7.12.11",
+    "@babel/preset-flow": "7.12.1",
+    "@babel/preset-react": "7.12.10",
+    "@babel/preset-typescript": "7.12.7",
     "@commitlint/cli": "11.0.0",
     "@commitlint/config-conventional": "11.0.0",
-    "@naturacosmeticos/eslint-config-natura": "2.0.2",
-    "@storybook/addon-storyshots": "6.0.26",
+    "@naturacosmeticos/eslint-config-natds": "0.0.1-alpha.4",
+    "@rollup/plugin-babel": "5.2.2",
+    "@rollup/plugin-commonjs": "16.0.0",
+    "@rollup/plugin-node-resolve": "10.0.0",
+    "@rollup/plugin-typescript": "6.1.0",
+    "@storybook/addon-actions": "6.0.28",
+    "@storybook/addon-essentials": "6.0.28",
+    "@storybook/addon-links": "6.0.28",
+    "@storybook/addon-storyshots": "6.0.28",
+    "@storybook/react": "6.0.28",
     "@stryker-mutator/core": "4.2.0",
     "@stryker-mutator/javascript-mutator": "4.0.0",
     "@stryker-mutator/jest-runner": "4.2.0",
-    "@typescript-eslint/eslint-plugin": "4.6.0",
-    "@typescript-eslint/parser": "4.6.0",
+    "@testing-library/dom": "7.26.3",
+    "@testing-library/react": "11.1.0",
+    "@testing-library/user-event": "12.1.10",
+    "@types/jest": "26.0.20",
+    "@typescript-eslint/eslint-plugin": "4.17.0",
+    "@typescript-eslint/parser": "4.17.0",
     "alex": "9.1.0",
+    "babel-loader": "8.2.2",
+    "babel-plugin-dynamic-import-node": "2.3.3",
     "commitizen": "4.2.2",
     "concurrently": "5.3.0",
     "cz-lerna-changelog": "2.0.3",
-    "eslint": "7.17.0",
+    "eslint": "7.21.0",
     "eslint-plugin-import": "2.22.1",
-    "eslint-plugin-mocha": "8.0.0",
+    "eslint-plugin-jest": "24.2.1",
     "eslint-plugin-react": "7.22.0",
     "eslint-plugin-react-hooks": "4.2.0",
     "husky": "4.3.8",
     "jest": "26.6.1",
     "lerna": "3.22.1",
+    "prettier": "2.2.1",
+    "react-docgen-typescript": "1.20.5",
+    "react-docgen-typescript-loader": "3.7.2",
     "react-styleguidist": "^11.1.5",
+    "rollup": "2.36.1",
+    "rollup-plugin-node-polyfills": "0.2.1",
     "shelljs": "0.8.4",
     "ts-loader": "^8.0.11",
     "typescript": "4.0.5",
+    "webpack-merge": "5.7.0",
     "yarn": "1.22.10"
   },
   "config": {
@@ -127,10 +154,8 @@
     }
   },
   "resolutions": {
-    "dot-prop": "^5.2.0",
-    "node-forge": "^0.10.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
-    "@types/react": "16.14.2"
+    "@types/react": "^17.0.2"
   }
 }

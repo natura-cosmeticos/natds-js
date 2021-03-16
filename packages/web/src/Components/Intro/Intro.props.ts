@@ -1,7 +1,7 @@
-import * as React from "react";
-import { TypographyColor, TypographyVariant } from "../Typography";
+import * as React from 'react'
+import { TypographyColor, TypographyVariant } from '../Typography'
 
-export interface IIntroProps extends Omit<React.HTMLAttributes<HTMLDivElement>, "title"> {
+export interface IIntroProps extends Omit<React.HTMLAttributes<HTMLDivElement>, 'title'> {
 
   /**
    * The component used for the root node.

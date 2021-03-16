@@ -1,5 +1,5 @@
-import * as React from "react";
-import { CardContentProps } from "@material-ui/core/CardContent";
+import * as React from 'react'
+import { CardContentProps } from '@material-ui/core/CardContent'
 
 export interface ICardContentProps extends CardContentProps {
 
@@ -9,7 +9,7 @@ export interface ICardContentProps extends CardContentProps {
    * @optional
    * @type node
    */
-  children?: CardContentProps["children"]
+  children?: CardContentProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -17,7 +17,7 @@ export interface ICardContentProps extends CardContentProps {
    * @optional
    * @type object
    */
-  classes?: CardContentProps["classes"]
+  classes?: CardContentProps['classes']
 
   /**
    * The component used for the root node. Either a string to use a DOM element or a component.

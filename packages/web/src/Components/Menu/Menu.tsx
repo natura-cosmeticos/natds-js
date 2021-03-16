@@ -1,9 +1,9 @@
-import * as React from "react";
+import * as React from 'react'
 
-import MaterialMenu from "@material-ui/core/Menu";
-import { IMenuProps } from "./Menu.props";
+import MaterialMenu from '@material-ui/core/Menu'
+import { IMenuProps } from './Menu.props'
 
-export { IMenuProps } from "./Menu.props";
+export { IMenuProps } from './Menu.props'
 
 /**
  * For more advanced usages, check [Material UI Menu docs](https://material-ui.com/components/Menus/)
@@ -16,12 +16,12 @@ export { IMenuProps } from "./Menu.props";
  */
 export const Menu = React.forwardRef<HTMLElement, IMenuProps>(
   (props: IMenuProps, ref) => {
-    const { open, ...otherProps } = props;
+    const { open, ...otherProps } = props
 
-    return <MaterialMenu open={open} ref={ref} {...otherProps} />;
-  },
-);
+    return <MaterialMenu open={open} ref={ref} {...otherProps} />
+  }
+)
 
-Menu.displayName = "Menu";
+Menu.displayName = 'Menu'
 
-export default Menu;
+export default Menu

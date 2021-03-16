@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
-import MaterialDrawer from "@material-ui/core/Drawer";
-import { IDrawerProps } from "./Drawer.props";
+import * as React from 'react'
+import MaterialDrawer from '@material-ui/core/Drawer'
+import { IDrawerProps } from './Drawer.props'
 
-export { IDrawerProps } from "./Drawer.props";
+export { IDrawerProps } from './Drawer.props'
 
 /**
  * Navigation drawers provide access to destinations in your app or website.
@@ -20,8 +20,9 @@ export { IDrawerProps } from "./Drawer.props";
  * @todo Check whether Drawer component should be renamed to NavigationDrawer
  */
 export const Drawer = React.forwardRef<unknown, IDrawerProps>(
-  (props: IDrawerProps, ref) => <MaterialDrawer {...props} ref={ref} />);
+  (props: IDrawerProps, ref) => <MaterialDrawer {...props} ref={ref} />
+)
 
-Drawer.displayName = "Drawer";
+Drawer.displayName = 'Drawer'
 
-export default Drawer;
+export default Drawer

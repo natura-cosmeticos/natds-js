@@ -1,4 +1,4 @@
-import { SizePropValue } from "../../hooks/useSizeStyleProp";
+import { SizePropValue } from '../../hooks/useSizeStyleProp'
 
 export type SpacingMarginProps = {
 

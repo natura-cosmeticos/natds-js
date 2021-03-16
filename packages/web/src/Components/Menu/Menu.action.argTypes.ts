@@ -1,6 +1,6 @@
 const table = {
-  type: { summary: "func" },
-};
+  type: { summary: 'func' }
+}
 
 export const actionArgTypes = {
   onClose: {
@@ -14,35 +14,35 @@ The callback receives two arguments:
 `,
     table: {
       type: {
-        detail: "function(event: object, reason: string) => void",
-        summary: "func",
-      },
-    },
+        detail: 'function(event: object, reason: string) => void',
+        summary: 'func'
+      }
+    }
   },
   onEnter: {
-    description: "Callback fired before the `Menu` enters.",
-    table,
+    description: 'Callback fired before the `Menu` enters.',
+    table
   },
   onEntered: {
-    description: "Callback fired when the `Menu` has entered.",
-    table,
+    description: 'Callback fired when the `Menu` has entered.',
+    table
   },
   onEntering: {
-    description: "Callback fired when the `Menu` is entering.",
-    table,
+    description: 'Callback fired when the `Menu` is entering.',
+    table
   },
   onExit: {
-    description: "Callback fired before the `Menu` exits.",
-    table,
+    description: 'Callback fired before the `Menu` exits.',
+    table
   },
   onExited: {
-    description: "Callback fired when the `Menu` has exited.",
-    table,
+    description: 'Callback fired when the `Menu` has exited.',
+    table
   },
   onExiting: {
-    description: "Callback fired when the Menu is exiting.",
-    table,
-  },
-};
+    description: 'Callback fired when the Menu is exiting.',
+    table
+  }
+}
 
-export default actionArgTypes;
+export default actionArgTypes

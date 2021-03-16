@@ -1,8 +1,8 @@
 /* eslint-disable @typescript-eslint/no-explicit-any */
 /* eslint-disable sort-keys */
-import themes from "@naturacosmeticos/natds-themes";
+import themes from '@naturacosmeticos/natds-themes'
 
-const { typography: typographyFromTheme } = themes.theBodyShop.light;
+const { typography: typographyFromTheme } = themes.theBodyShop.light
 
 /**
  * @deprecated `typography` token without a mode is deprecated since v0.20 and will be removed at v1.0.
@@ -34,5 +34,5 @@ export const typography: any = {
    * @deprecated `fontWeightBold` is deprecated since v0.20 and will be removed at v1.0.
    * Please use `typography.fontWeight.medium` theme token from `natds-themes`.
    */
-  fontWeightBold: 700,
-};
+  fontWeightBold: 700
+}

@@ -1,4 +1,4 @@
-import { AccordionDetailsProps } from "@material-ui/core/AccordionDetails";
+import { AccordionDetailsProps } from '@material-ui/core/AccordionDetails'
 
 export interface IExpansionPanelDetailsProps extends AccordionDetailsProps {
 
@@ -8,7 +8,7 @@ export interface IExpansionPanelDetailsProps extends AccordionDetailsProps {
    * @optional
    * @type node
    */
-  children?: AccordionDetailsProps["children"]
+  children?: AccordionDetailsProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -19,5 +19,5 @@ export interface IExpansionPanelDetailsProps extends AccordionDetailsProps {
    * @see https://material-ui.com/api/expansion-panel-details/#css
    * @type object
    */
-  classes?: AccordionDetailsProps["classes"]
+  classes?: AccordionDetailsProps['classes']
 }

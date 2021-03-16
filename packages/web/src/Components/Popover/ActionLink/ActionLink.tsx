@@ -1,26 +1,25 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
-import { Link } from "../../Link";
-import { IActionLinkProps } from "./ActionLink.props";
+import * as React from 'react'
+import { Link } from '../../Link'
+import { IActionLinkProps } from './ActionLink.props'
 
-export { IActionLinkProps } from "./ActionLink.props";
+export { IActionLinkProps } from './ActionLink.props'
 
 export const ActionLink = React.forwardRef<HTMLAnchorElement, IActionLinkProps>(
-  (props: IActionLinkProps, ref: IActionLinkProps["ref"]) => {
-
+  (props: IActionLinkProps, ref: IActionLinkProps['ref']) => {
     if (!props) {
-      return null;
+      return null
     }
 
     const {
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       children,
       classes,
-      className = "popover-action-link",
+      className = 'popover-action-link',
       text,
-      variant = "body2",
+      variant = 'body2',
       ...otherProps
-    } = props;
+    } = props
 
     return (
       <Link
@@ -28,12 +27,13 @@ export const ActionLink = React.forwardRef<HTMLAnchorElement, IActionLinkProps>(
         className={className}
         ref={ref}
         variant={variant}
-        {...otherProps}>
+        {...otherProps}
+      >
         {text}
       </Link>
-    );
-  },
-);
-ActionLink.displayName = "ActionLink";
+    )
+  }
+)
+ActionLink.displayName = 'ActionLink'
 
-export default ActionLink;
+export default ActionLink

@@ -1,9 +1,9 @@
-import * as React from "react";
+import * as React from 'react'
 
-import MaterialGrid from "@material-ui/core/Grid";
-import { IGridItemProps } from "./GridItem.props";
+import MaterialGrid from '@material-ui/core/Grid'
+import { IGridItemProps } from './GridItem.props'
 
-export { IGridItemProps } from "./GridItem.props";
+export { IGridItemProps } from './GridItem.props'
 
 /**
  * For more details consult the full [Material Grid API](https://material-ui.com/api/grid/).
@@ -11,12 +11,13 @@ export { IGridItemProps } from "./GridItem.props";
 export const GridItem = React.forwardRef<HTMLDivElement, IGridItemProps>(
   (props: IGridItemProps, ref) => (
     <MaterialGrid
-      item={true}
+      item
       ref={ref}
       {...props}
-    />),
-);
+    />
+  )
+)
 
-GridItem.displayName = "GridItem";
+GridItem.displayName = 'GridItem'
 
-export default GridItem;
+export default GridItem

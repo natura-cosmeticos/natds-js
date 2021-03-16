@@ -1,5 +1,5 @@
-import makeStylesFromMaterial from "@material-ui/core/styles/makeStyles";
+import makeStylesFromMaterial from '@material-ui/core/styles/makeStyles'
 
-export const makeStyles = makeStylesFromMaterial;
+export const makeStyles = makeStylesFromMaterial
 
-export default makeStyles;
+export default makeStyles

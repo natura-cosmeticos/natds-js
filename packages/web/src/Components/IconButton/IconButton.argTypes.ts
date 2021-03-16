@@ -1,91 +1,91 @@
-import { IIconButtonProps } from "./IconButton.props";
-import { colors } from "./__fixtures__/colors";
-import { sizes } from "./__fixtures__/sizes";
+import { IIconButtonProps } from './IconButton.props'
+import { colors } from './__fixtures__/colors'
+import { sizes } from './__fixtures__/sizes'
 
 export const argTypes : Record<keyof IIconButtonProps | string, unknown> = {
   children: {
-    description: "The content of the component. Usually, the icon element.",
+    description: 'The content of the component. Usually, the icon element.',
     table: {
       type: {
-        summary: "node",
-      },
-    },
+        summary: 'node'
+      }
+    }
   },
   classes: {
     control: {
-      type: "object",
+      type: 'object'
     },
-    description: "Override or extend the styles applied to the component.",
+    description: 'Override or extend the styles applied to the component.',
     table: {
       type: {
-        summary: "object",
-      },
-    },
+        summary: 'object'
+      }
+    }
   },
   color: {
     control: {
       options: colors,
-      type: "inline-radio",
+      type: 'inline-radio'
     },
-    description: "The color of the component. It supports those theme colors that make sense for this component.",
+    description: 'The color of the component. It supports those theme colors that make sense for this component.',
     table: {
       defaultValue: {
-        summary: "default",
-      },
-    },
+        summary: 'default'
+      }
+    }
   },
   disabled: {
     control: {
-      type: "boolean",
+      type: 'boolean'
     },
-    description: "If true, the `IconButton` base button will be disabled.",
+    description: 'If true, the `IconButton` base button will be disabled.',
     table: {
       defaultValue: {
-        summary: false,
-      },
-    },
+        summary: false
+      }
+    }
   },
   disableFocusRipple: {
     control: {
-      type: "boolean",
+      type: 'boolean'
     },
-    description: "If true, the keyboard focus ripple will be disabled. `disableRipple` must also be `true`.",
+    description: 'If true, the keyboard focus ripple will be disabled. `disableRipple` must also be `true`.',
     table: {
       defaultValue: {
-        summary: false,
-      },
-    },
+        summary: false
+      }
+    }
   },
   disableRipple: {
     control: {
-      type: "boolean",
-    },
+      type: 'boolean'
+    }
   },
   edge: {
     control: {
       options: [
-        "start",
-        "end",
-        false,
+        'start',
+        'end',
+        false
       ],
-      type: "inline-radio",
+      type: 'inline-radio'
     },
     table: {
       defaultValue: {
-        summary: false,
-      },
-    },
+        summary: false
+      }
+    }
   },
   size: {
     control: {
       options: sizes,
-      type: "inline-radio",
+      type: 'inline-radio'
     },
-    description: "The size of the `IconButton`. `small` is equivalent to the dense `IconButton` styling.",
+    description: 'The size of the `IconButton`. `small` is equivalent to the dense `IconButton` styling.',
     table: {
       defaultValue: {
-        summary: "medium",
-      },
-    },
-  },
-};
+        summary: 'medium'
+      }
+    }
+  }
+}

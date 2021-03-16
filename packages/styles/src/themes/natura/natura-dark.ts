@@ -6,21 +6,21 @@
  * @todo refactor(styles): replace magic numbers by tokens (including opacity, padding and sizing)
  */
 
-import hexToRgba from "hex-to-rgba";
-import themes from "@naturacosmeticos/natds-themes";
-import tokens from "../../tokens";
-import { ITheme } from "../ITheme";
-import { typography } from "./typography";
-import { fontSize } from "../../tokens/fontSize";
-import { spacing } from "../../tokens/spacing";
-import { avatarSizes } from "../../tokens/avatarSizes";
-import { buttonSizes } from "../../tokens/buttonSizes";
-import { elevation } from "../../tokens/elevation";
-import { iconSizes } from "../../tokens/iconSizes";
-import { sizes } from "../../tokens/sizes";
-import { opacity as legacyOpacity } from "../../tokens/opacity";
+import hexToRgba from 'hex-to-rgba'
+import themes from '@naturacosmeticos/natds-themes'
+import tokens from '../../tokens'
+import { ITheme } from '../ITheme'
+import { typography } from './typography'
+import { fontSize } from '../../tokens/fontSize'
+import { spacing } from '../../tokens/spacing'
+import { avatarSizes } from '../../tokens/avatarSizes'
+import { buttonSizes } from '../../tokens/buttonSizes'
+import { elevation } from '../../tokens/elevation'
+import { iconSizes } from '../../tokens/iconSizes'
+import { sizes } from '../../tokens/sizes'
+import { opacity as legacyOpacity } from '../../tokens/opacity'
 
-const { color, opacity } = themes.natura.dark;
+const { color, opacity } = themes.natura.dark
 
 const {
   colorTokens: {
@@ -28,14 +28,14 @@ const {
      * @deprecated `naturaDarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
      * Please use `theme.natura.dark.color` from `natds-themes`.
      */
-    naturaDarkColorTokens,
-  },
-} = tokens;
+    naturaDarkColorTokens
+  }
+} = tokens
 
 export const naturaDark: ITheme = {
   shape: {
     borderRadius: tokens.radius.medium,
-    badgeBorderRadius: 100,
+    badgeBorderRadius: 100
   },
   sizes,
   avatarSizes,
@@ -55,7 +55,7 @@ export const naturaDark: ITheme = {
        * @since 0.24
        */
       active: hexToRgba(color.highlight, opacity.mediumHigh),
-      disabled: hexToRgba(naturaDarkColorTokens.colorOnSecondary, 0.24),
+      disabled: hexToRgba(naturaDarkColorTokens.colorOnSecondary, 0.24)
     },
 
     /**
@@ -66,213 +66,213 @@ export const naturaDark: ITheme = {
       main: naturaDarkColorTokens.colorPrimary,
       light: naturaDarkColorTokens.colorPrimaryLight,
       dark: naturaDarkColorTokens.colorPrimaryDark,
-      contrastText: naturaDarkColorTokens.colorOnPrimary,
+      contrastText: naturaDarkColorTokens.colorOnPrimary
     },
     secondary: {
       main: naturaDarkColorTokens.colorSecondary,
       light: naturaDarkColorTokens.colorPrimaryLight,
       dark: naturaDarkColorTokens.colorPrimaryDark,
-      contrastText: naturaDarkColorTokens.colorOnSecondary,
+      contrastText: naturaDarkColorTokens.colorOnSecondary
     },
     error: {
       main: naturaDarkColorTokens.colorAlert,
-      contrastText: naturaDarkColorTokens.colorOnAlert,
+      contrastText: naturaDarkColorTokens.colorOnAlert
     },
     success: {
       main: naturaDarkColorTokens.colorSuccess,
-      contrastText: naturaDarkColorTokens.colorOnSuccess,
+      contrastText: naturaDarkColorTokens.colorOnSuccess
     },
     background: {
       paper: naturaDarkColorTokens.colorSurface,
       default: naturaDarkColorTokens.colorBackground,
       paperContrastText: naturaDarkColorTokens.colorOnSurface,
-      defaultContrastText: naturaDarkColorTokens.colorOnBackground,
+      defaultContrastText: naturaDarkColorTokens.colorOnBackground
     },
     text: {
       primary: naturaDarkColorTokens.colorHighEmphasis,
       secondary: naturaDarkColorTokens.colorMediumEmphasis,
       disabled: naturaDarkColorTokens.colorLowEmphasis,
-      hint: naturaDarkColorTokens.colorLowEmphasis,
+      hint: naturaDarkColorTokens.colorLowEmphasis
     },
     complementary: {
       highlight: naturaDarkColorTokens.colorHighlight,
       link: naturaDarkColorTokens.colorLink,
       linkContrastText: naturaDarkColorTokens.colorOnLink,
       warning: naturaDarkColorTokens.colorWarning,
-      warningContrastText: naturaDarkColorTokens.colorOnSecondary,
-    },
+      warningContrastText: naturaDarkColorTokens.colorOnSecondary
+    }
   },
   typography: {
     ...typography,
-    ...fontSize,
+    ...fontSize
   },
   shadows: elevation,
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: naturaDarkColorTokens.colorHighEmphasis,
+        color: naturaDarkColorTokens.colorHighEmphasis
       },
       outlinedSecondary: {
         color: naturaDarkColorTokens.colorHighEmphasis,
-        "&.Mui-disabled": {
-          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-        },
+        '&.Mui-disabled': {
+          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`
+        }
       },
       sizeSmall: {
         ...buttonSizes.small,
-        ...fontSize.subtitle2,
+        ...fontSize.subtitle2
       },
       root: {
         ...buttonSizes.medium,
-        ...fontSize.subtitle2,
+        ...fontSize.subtitle2
       },
       sizeLarge: {
         ...buttonSizes.large,
-        ...fontSize.subtitle2,
+        ...fontSize.subtitle2
       },
       text: {
         padding: null,
-        "&.Mui-disabled": {
+        '&.Mui-disabled': {
           color: `${naturaDarkColorTokens.colorHighlight}3D`,
-          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-        },
+          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`
+        }
       },
       contained: {
-        "&.Mui-disabled": {
+        '&.Mui-disabled': {
           color: `${naturaDarkColorTokens.colorHighlight}3D`,
-          backgroundColor: `${naturaDarkColorTokens.colorHighlight}14`,
-        },
+          backgroundColor: `${naturaDarkColorTokens.colorHighlight}14`
+        }
       },
       outlined: {
         padding: null,
         borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-        "&.Mui-disabled": {
+        '&.Mui-disabled': {
           color: `${naturaDarkColorTokens.colorHighlight}3D`,
-          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-        },
-      },
+          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`
+        }
+      }
     },
     MuiAvatar: {
       colorDefault: {
-        color: naturaDarkColorTokens.colorHighEmphasis,
-      },
+        color: naturaDarkColorTokens.colorHighEmphasis
+      }
     },
     MuiIconButton: {
       root: {
         color: naturaDarkColorTokens.colorHighEmphasis,
-        padding: "8px",
+        padding: '8px'
       },
       sizeSmall: {
-        padding: "4px",
-      },
+        padding: '4px'
+      }
     },
     MuiExpansionPanel: {
       root: {
-        border: "transparent 1px solid",
-        "&$expanded": {
-          borderColor: naturaDarkColorTokens.colorPrimary,
+        border: 'transparent 1px solid',
+        '&$expanded': {
+          borderColor: naturaDarkColorTokens.colorPrimary
         },
-        "&$disabled": {
+        '&$disabled': {
           backgroundColor: naturaDarkColorTokens.colorSurface,
-          opacity: 0.32,
-        },
-      },
+          opacity: 0.32
+        }
+      }
     },
     MuiExpansionPanelSummary: {
       root: {
-        alignItems: "flex-start",
-        marginTop: "8px",
-        "&$disabled": {
-          opacity: 1,
-        },
-      },
+        alignItems: 'flex-start',
+        marginTop: '8px',
+        '&$disabled': {
+          opacity: 1
+        }
+      }
     },
     MuiToolbar: {
       root: {
-        padding: "0 16px",
-        "@media (min-width: 600px)": {
-          padding: "0 16px",
-        },
+        padding: '0 16px',
+        '@media (min-width: 600px)': {
+          padding: '0 16px'
+        }
       },
       gutters: {
-        padding: "0 16px",
-        "@media (min-width: 600px)": {
-          padding: "0 16px",
-        },
+        padding: '0 16px',
+        '@media (min-width: 600px)': {
+          padding: '0 16px'
+        }
       },
       regular: {
-        minHeight: "56px",
-        "@media (min-width: 600px)": {
-          minHeight: "56px",
-        },
+        minHeight: '56px',
+        '@media (min-width: 600px)': {
+          minHeight: '56px'
+        }
       },
       dense: {
-        minHeight: "56px",
-        "@media (min-width: 600px)": {
-          minHeight: "56px",
-        },
-      },
+        minHeight: '56px',
+        '@media (min-width: 600px)': {
+          minHeight: '56px'
+        }
+      }
     },
     MuiListItem: {
       root: {
-        cursor: "pointer",
-        "&:hover": {
+        cursor: 'pointer',
+        '&:hover': {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorHighEmphasis,
             0.04
-          ),
+          )
         },
-        "&$selected": {
+        '&$selected': {
           backgroundColor: hexToRgba(naturaDarkColorTokens.colorPrimary, 0.16),
-          "&:hover": {
+          '&:hover': {
             backgroundColor: hexToRgba(
               naturaDarkColorTokens.colorOnSecondary,
               0.04
-            ),
+            )
           },
-          "&:focus": {
-            outline: "none",
-          },
+          '&:focus': {
+            outline: 'none'
+          }
         },
-        "&.Mui-disabled": {
-          opacity: 0.32,
-        },
+        '&.Mui-disabled': {
+          opacity: 0.32
+        }
       },
       gutters: {
-        "&:focus": {
-          outline: "none",
-        },
+        '&:focus': {
+          outline: 'none'
+        }
       },
       button: {
-        "&:hover": {
+        '&:hover': {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorOnSecondary,
             0.04
-          ),
-        },
-      },
+          )
+        }
+      }
     },
     MuiBadge: {
       badge: {
-        padding: "0 4px",
-      },
+        padding: '0 4px'
+      }
     },
     MuiTab: {
       root: {
-        "&$disabled": {
-          opacity: 0.24,
-        },
+        '&$disabled': {
+          opacity: 0.24
+        }
       },
       textColorInherit: {
-        "&$disabled": {
-          opacity: 0.24,
-        },
+        '&$disabled': {
+          opacity: 0.24
+        }
       },
       wrapper: {
-        "& > *:first-child": {
-          marginBottom: "2px !important",
-        },
-      },
+        '& > *:first-child': {
+          marginBottom: '2px !important'
+        }
+      }
     },
     MuiChip: {
       root: {
@@ -282,347 +282,347 @@ export const naturaDark: ITheme = {
         ),
         color: naturaDarkColorTokens.colorOnBackground,
         fontSize: fontSize.subtitle2.fontSize,
-        "& $avatar": {
+        '& $avatar': {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorOnBackground,
             0.24
           ),
-          color: naturaDarkColorTokens.colorOnBackground,
+          color: naturaDarkColorTokens.colorOnBackground
         },
-        "&$disabled": {
-          opacity: 0.4,
-        },
+        '&$disabled': {
+          opacity: 0.4
+        }
       },
       clickable: {
-        "&:hover": {
+        '&:hover': {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorOnBackground,
             0.16
-          ),
+          )
         },
-        "&:focus": {
+        '&:focus': {
           backgroundColor: hexToRgba(
             naturaDarkColorTokens.colorOnBackground,
             0.16
-          ),
-        },
+          )
+        }
       },
       clickableColorPrimary: {
-        "&:hover": {
-          backgroundColor: naturaDarkColorTokens.colorPrimaryDark,
-        },
+        '&:hover': {
+          backgroundColor: naturaDarkColorTokens.colorPrimaryDark
+        }
       },
       clickableColorSecondary: {
-        "&:hover": {
-          backgroundColor: naturaDarkColorTokens.colorPrimaryDark,
-        },
+        '&:hover': {
+          backgroundColor: naturaDarkColorTokens.colorPrimaryDark
+        }
       },
       outlined: {
         borderColor: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.12),
-        color: naturaDarkColorTokens.colorOnBackground,
+        color: naturaDarkColorTokens.colorOnBackground
       },
       outlinedPrimary: {
         color: naturaDarkColorTokens.colorOnBackground,
-        "& $avatar": {
-          backgroundColor: naturaDarkColorTokens.colorPrimary,
-        },
+        '& $avatar': {
+          backgroundColor: naturaDarkColorTokens.colorPrimary
+        }
       },
       outlinedSecondary: {
         color: naturaDarkColorTokens.colorOnBackground,
-        "& $avatar": {
-          backgroundColor: naturaDarkColorTokens.colorSecondary,
-        },
+        '& $avatar': {
+          backgroundColor: naturaDarkColorTokens.colorSecondary
+        }
       },
       icon: {
-        fontSize: `${sizes.standard}px`,
+        fontSize: `${sizes.standard}px`
       },
       iconSmall: {
         width: `${sizes.small}px`,
         height: `${sizes.small}px`,
         fontSize: `${sizes.small}px`,
-        marginTop: "1px",
+        marginTop: '1px'
       },
       deleteIcon: {
         width: `${sizes.standard}px`,
         height: `${sizes.standard}px`,
         fontSize: `${sizes.standard}px`,
         color: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.8),
-        "&:hover": {
-          color: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.6),
-        },
+        '&:hover': {
+          color: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.6)
+        }
       },
       deleteIconSmall: {
         width: `${sizes.small}px`,
         height: `${sizes.small}px`,
-        fontSize: `${sizes.small}px`,
+        fontSize: `${sizes.small}px`
       },
       deleteIconColorPrimary: {
         color: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.8),
-        "&:hover": {
-          color: naturaDarkColorTokens.colorOnBackground,
-        },
+        '&:hover': {
+          color: naturaDarkColorTokens.colorOnBackground
+        }
       },
       deleteIconColorSecondary: {
         color: hexToRgba(naturaDarkColorTokens.colorOnBackground, 0.8),
-        "&:hover": {
-          color: naturaDarkColorTokens.colorOnBackground,
-        },
-      },
+        '&:hover': {
+          color: naturaDarkColorTokens.colorOnBackground
+        }
+      }
     },
     MuiTextField: {
-      "& .MuiInputLabel": {
-        marginTop: "20px",
-      },
+      '& .MuiInputLabel': {
+        marginTop: '20px'
+      }
     },
     MuiInputBase: {
       root: {
         fontSize: fontSize.subtitle2.fontSize,
-        borderRadius: "4px",
+        borderRadius: '4px',
         boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
         color: naturaDarkColorTokens.colorHighEmphasis,
-        width: "100%",
+        width: '100%',
         "&[data-state='error']": {
-          boxShadow: `${naturaDarkColorTokens.colorAlert} 0 0 0 1px`,
+          boxShadow: `${naturaDarkColorTokens.colorAlert} 0 0 0 1px`
         },
         "&[data-state='success']": {
-          boxShadow: `${naturaDarkColorTokens.colorSuccess} 0 0 0 1px`,
+          boxShadow: `${naturaDarkColorTokens.colorSuccess} 0 0 0 1px`
         },
-        "&:hover": {
+        '&:hover': {
           boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
-          "&.Mui-disabled": {
-            boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`,
-          },
+          '&.Mui-disabled': {
+            boxShadow: `${naturaDarkColorTokens.colorLowEmphasis} 0 0 0 1px`
+          }
         },
-        "&.Mui-focused": {
-          boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`,
+        '&.Mui-focused': {
+          boxShadow: `${naturaDarkColorTokens.colorPrimary} 0 0 0 2px`
         },
-        "&.MuiFilled:not(.Mui-focused)": {
+        '&.MuiFilled:not(.Mui-focused)': {
           boxShadow: `${naturaDarkColorTokens.colorHighEmphasis} 0 0 0 1px`,
-          "&:hover": {
-            boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`,
-          },
+          '&:hover': {
+            boxShadow: `${naturaDarkColorTokens.colorMediumEmphasis} 0 0 0 1px`
+          }
         },
-        "&.MuiInputBase-multiline": {
-          padding: sizes?.none,
+        '&.MuiInputBase-multiline': {
+          padding: sizes?.none
         },
-        "&.MuiInput-underline:before": {
-          borderBottom: "none",
+        '&.MuiInput-underline:before': {
+          borderBottom: 'none'
         },
-        "&.MuiInput-underline.Mui-disabled:before": {
-          borderBottomStyle: "none",
+        '&.MuiInput-underline.Mui-disabled:before': {
+          borderBottomStyle: 'none'
         },
-        "&.MuiInput-underline:hover:not(.Mui-disabled):before": {
-          borderBottom: "none",
+        '&.MuiInput-underline:hover:not(.Mui-disabled):before': {
+          borderBottom: 'none'
         },
-        "&.MuiInput-underline:after": {
-          borderBottom: "none",
-        },
+        '&.MuiInput-underline:after': {
+          borderBottom: 'none'
+        }
       },
       adornedEnd: {
-        paddingRight: sizes.medium,
+        paddingRight: sizes.medium
       },
       input: {
-        "&.Mui-disabled:not(::placeholder)": {
-          opacity: 0.24,
+        '&.Mui-disabled:not(::placeholder)': {
+          opacity: 0.24
         },
-        "&::placeholder": {
-          color: naturaDarkColorTokens.colorMediumEmphasis,
+        '&::placeholder': {
+          color: naturaDarkColorTokens.colorMediumEmphasis
         },
-        "&.MuiInput-inputTypeSearch": {
-          paddingRight: sizes.large,
+        '&.MuiInput-inputTypeSearch': {
+          paddingRight: sizes.large
         },
         border: sizes?.none,
-        boxSizing: "border-box",
+        boxSizing: 'border-box',
         lineHeight: `${sizes?.standard}px`,
         minHeight: sizes?.mediumX,
-        padding: sizes?.small,
+        padding: sizes?.small
       },
       inputMultiline: {
-        padding: sizes?.small,
+        padding: sizes?.small
       },
       inputTypeSearch: {
-        "&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration": {
-          display: "none",
-        },
-      },
+        '&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration': {
+          display: 'none'
+        }
+      }
     },
     MuiInputAdornment: {
       root: {
-        position: "absolute",
-        right: "0",
+        position: 'absolute',
+        right: '0'
       },
       positionEnd: {
-        marginRight: spacing.spacingTiny,
-      },
+        marginRight: spacing.spacingTiny
+      }
     },
     MuiInputLabel: {
       formControl: {
-        transform: "none",
-        marginTop: "-4px",
+        transform: 'none',
+        marginTop: '-4px'
       },
       shrink: {
-        transform: "none",
-        marginTop: "-4px",
-      },
+        transform: 'none',
+        marginTop: '-4px'
+      }
     },
     MuiFormLabel: {
       root: {
         fontSize: fontSize.subtitle2.fontSize,
-        "&.Mui-focused": {
+        '&.Mui-focused': {
           fontSize: fontSize.subtitle2.fontSize,
-          color: naturaDarkColorTokens.colorMediumEmphasis,
+          color: naturaDarkColorTokens.colorMediumEmphasis
         },
-        "&.Mui-error": {
-          color: naturaDarkColorTokens.colorHighEmphasis,
-        },
-      },
+        '&.Mui-error': {
+          color: naturaDarkColorTokens.colorHighEmphasis
+        }
+      }
     },
     MuiFormHelperText: {
       root: {
-        "&.Mui-error": {
-          color: naturaDarkColorTokens.colorMediumEmphasis,
-        },
-      },
+        '&.Mui-error': {
+          color: naturaDarkColorTokens.colorMediumEmphasis
+        }
+      }
     },
     MuiSelect: {
       select: {
-        "&:focus": {
-          backgroundColor: "transparent",
+        '&:focus': {
+          backgroundColor: 'transparent'
         },
-        "&.Mui-disabled": {
-          color: naturaDarkColorTokens.colorLowEmphasis,
-        },
+        '&.Mui-disabled': {
+          color: naturaDarkColorTokens.colorLowEmphasis
+        }
       },
       icon: {
         top: sizes.micro,
-        color: naturaDarkColorTokens.colorHighEmphasis,
-      },
+        color: naturaDarkColorTokens.colorHighEmphasis
+      }
     },
     MuiButtonGroup: {
       groupedOutlinedHorizontal: {
-        "&:not(:first-child)": {
-          marginLeft: "none",
-        },
+        '&:not(:first-child)': {
+          marginLeft: 'none'
+        }
       },
       groupedContainedPrimary: {
-        "&:not(:last-child)": {
+        '&:not(:last-child)': {
           borderColor: naturaDarkColorTokens.colorPrimaryDark,
-          "&.Mui-disabled": {
-            borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-          },
-        },
+          '&.Mui-disabled': {
+            borderColor: `${naturaDarkColorTokens.colorHighlight}3D`
+          }
+        }
       },
       groupedContainedSecondary: {
-        "&:not(:last-child)": {
+        '&:not(:last-child)': {
           borderColor: naturaDarkColorTokens.colorSecondaryDark,
-          "&.Mui-disabled": {
-            borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-          },
-        },
+          '&.Mui-disabled': {
+            borderColor: `${naturaDarkColorTokens.colorHighlight}3D`
+          }
+        }
       },
       groupedContainedHorizontal: {
-        "&:not(:last-child)": {
+        '&:not(:last-child)': {
           borderRightColor: `${naturaDarkColorTokens.colorHighlight}1F`,
-          "&.Mui-disabled": {
-            borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-          },
-        },
+          '&.Mui-disabled': {
+            borderColor: `${naturaDarkColorTokens.colorHighlight}3D`
+          }
+        }
       },
       groupedTextPrimary: {
-        "&:not(:last-child).Mui-disabled": {
-          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-        },
+        '&:not(:last-child).Mui-disabled': {
+          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`
+        }
       },
       groupedTextSecondary: {
-        "&:not(:last-child).Mui-disabled": {
-          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-        },
+        '&:not(:last-child).Mui-disabled': {
+          borderColor: `${naturaDarkColorTokens.colorHighlight}3D`
+        }
       },
       groupedTextHorizontal: {
-        "&:not(:last-child)": {
+        '&:not(:last-child)': {
           borderRightColor: `${naturaDarkColorTokens.colorHighlight}1F`,
-          "&.Mui-disabled": {
-            borderColor: `${naturaDarkColorTokens.colorHighlight}3D`,
-          },
-        },
-      },
+          '&.Mui-disabled': {
+            borderColor: `${naturaDarkColorTokens.colorHighlight}3D`
+          }
+        }
+      }
     },
     MuiSvgIcon: {
       root: {
-        fill: naturaDarkColorTokens.colorMediumEmphasis,
-      },
+        fill: naturaDarkColorTokens.colorMediumEmphasis
+      }
     },
     MuiAlert: {
       root: {
         width: 278,
         padding: spacing.spacingSmall,
-        ...fontSize.body1,
+        ...fontSize.body1
       },
       icon: {
-        marginRight: spacing.spacingTiny,
+        marginRight: spacing.spacingTiny
       },
       message: {
-        padding: "5px 0",
+        padding: '5px 0'
       },
       standardSuccess: {
         color: naturaDarkColorTokens.colorHighEmphasis,
-        backgroundColor: hexToRgba(naturaDarkColorTokens.colorSuccess, 0.16),
+        backgroundColor: hexToRgba(naturaDarkColorTokens.colorSuccess, 0.16)
       },
       outlinedSuccess: {
-        color: naturaDarkColorTokens.colorHighEmphasis,
+        color: naturaDarkColorTokens.colorHighEmphasis
       },
       standardError: {
         color: naturaDarkColorTokens.colorHighEmphasis,
-        backgroundColor: hexToRgba(naturaDarkColorTokens.colorAlert, 0.16),
+        backgroundColor: hexToRgba(naturaDarkColorTokens.colorAlert, 0.16)
       },
       outlinedError: {
-        color: naturaDarkColorTokens.colorHighEmphasis,
+        color: naturaDarkColorTokens.colorHighEmphasis
       },
       standardWarning: {
         color: naturaDarkColorTokens.colorHighEmphasis,
         backgroundColor: hexToRgba(naturaDarkColorTokens.colorWarning, 0.16),
-        "& .MuiAlert-icon": {
-          color: naturaDarkColorTokens.colorWarning,
-        },
+        '& .MuiAlert-icon': {
+          color: naturaDarkColorTokens.colorWarning
+        }
       },
       outlinedWarning: {
         color: naturaDarkColorTokens.colorHighEmphasis,
         borderColor: naturaDarkColorTokens.colorWarning,
-        "& .MuiAlert-icon": {
-          color: naturaDarkColorTokens.colorWarning,
-        },
+        '& .MuiAlert-icon': {
+          color: naturaDarkColorTokens.colorWarning
+        }
       },
       filledWarning: {
         color: naturaDarkColorTokens.colorOnWarning,
-        backgroundColor: naturaDarkColorTokens.colorWarning,
+        backgroundColor: naturaDarkColorTokens.colorWarning
       },
       standardInfo: {
         color: naturaDarkColorTokens.colorHighEmphasis,
         backgroundColor: hexToRgba(naturaDarkColorTokens.colorLink, 0.16),
-        "& .MuiAlert-icon": {
-          color: naturaDarkColorTokens.colorLink,
-        },
+        '& .MuiAlert-icon': {
+          color: naturaDarkColorTokens.colorLink
+        }
       },
       outlinedInfo: {
         color: naturaDarkColorTokens.colorHighEmphasis,
         borderColor: naturaDarkColorTokens.colorLink,
-        "& .MuiAlert-icon": {
-          color: naturaDarkColorTokens.colorLink,
-        },
+        '& .MuiAlert-icon': {
+          color: naturaDarkColorTokens.colorLink
+        }
       },
       filledInfo: {
-        backgroundColor: naturaDarkColorTokens.colorLink,
-      },
+        backgroundColor: naturaDarkColorTokens.colorLink
+      }
     },
     MuiAlertTitle: {
       root: {
-        ...fontSize.h6,
-      },
+        ...fontSize.h6
+      }
     },
     MuiTableSortLabel: {
       icon: {
-        marginLeft: spacing.spacing,
-      },
-    },
-  },
-};
+        marginLeft: spacing.spacing
+      }
+    }
+  }
+}

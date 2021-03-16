@@ -1,4 +1,4 @@
-import { IDeprecatedIconSizes } from "./IDeprecatedIconSizes";
+import { IDeprecatedIconSizes } from './IDeprecatedIconSizes'
 
 export interface IIconSizes extends IDeprecatedIconSizes {
   micro: number;

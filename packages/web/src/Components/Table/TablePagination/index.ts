@@ -1,5 +1,5 @@
-import TablePagination from "./TablePagination";
+import TablePagination from './TablePagination'
 
-export { ITablePaginationProps } from "./TablePagination.props";
-export { TablePagination };
-export default TablePagination;
+export { ITablePaginationProps } from './TablePagination.props'
+export { TablePagination }
+export default TablePagination

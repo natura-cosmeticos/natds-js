@@ -1,5 +1,5 @@
-import FormHelperText from "./FormHelperText";
+import FormHelperText from './FormHelperText'
 
-export { IFormHelperTextProps } from "./FormHelperText.props";
-export { FormHelperText };
-export default FormHelperText;
+export { IFormHelperTextProps } from './FormHelperText.props'
+export { FormHelperText }
+export default FormHelperText

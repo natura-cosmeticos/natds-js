@@ -1,35 +1,35 @@
-import { ArgType } from "@storybook/addons";
-import { IBottomNavigationActionProps } from "./BottomNavigationAction.props";
-import { objectArgType } from "../../../.storybook/argTypes/objectArgType";
-import { booleanArgType } from "../../../.storybook/argTypes/booleanArgType";
+import { ArgType } from '@storybook/addons'
+import { IBottomNavigationActionProps } from './BottomNavigationAction.props'
+import { objectArgType } from '../../../.storybook/argTypes/objectArgType'
+import { booleanArgType } from '../../../.storybook/argTypes/booleanArgType'
 
 export const argTypes : Record<keyof IBottomNavigationActionProps | string, ArgType> = {
   children: {
     control: { type: null },
     table: {
-      type: { summary: "unsupportedProp" },
-    },
+      type: { summary: 'unsupportedProp' }
+    }
   },
   classes: {
     ...objectArgType,
-    description: "Override or extend the styles applied to the component. See CSS API for more details.",
+    description: 'Override or extend the styles applied to the component. See CSS API for more details.'
   },
   icon: {
-    description: "The `Icon` element.",
+    description: 'The `Icon` element.',
     table: {
-      type: { summary: "node" },
-    },
+      type: { summary: 'node' }
+    }
   },
   label: {
-    description: "The label element.",
+    description: 'The label element.',
     table: {
-      type: { summary: "node" },
-    },
+      type: { summary: 'node' }
+    }
   },
   showLabel: {
-    ...booleanArgType,
+    ...booleanArgType
   },
-  value: {},
-};
+  value: {}
+}
 
-export default argTypes;
+export default argTypes

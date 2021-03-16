@@ -1,6 +1,6 @@
-import * as React from "react";
-import MaterialCardActions from "@material-ui/core/CardActions";
-import { ICardActionsProps } from "./CardActions.props";
+import * as React from 'react'
+import MaterialCardActions from '@material-ui/core/CardActions'
+import { ICardActionsProps } from './CardActions.props'
 
 /**
  * @deprecated `CardActions` component will be deprecated soon
@@ -9,9 +9,9 @@ import { ICardActionsProps } from "./CardActions.props";
 export const CardActions = React.forwardRef(
   (props: ICardActionsProps, ref) => (
     <MaterialCardActions {...props} ref={ref} />
-  ),
-);
+  )
+)
 
-CardActions.displayName = "CardActions";
+CardActions.displayName = 'CardActions'
 
-export default CardActions;
+export default CardActions

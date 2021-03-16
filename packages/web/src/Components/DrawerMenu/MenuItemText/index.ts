@@ -1,4 +1,4 @@
-import MenuItemText from "./MenuItemText";
+import MenuItemText from './MenuItemText'
 
-export { MenuItemText };
-export default MenuItemText;
+export { MenuItemText }
+export default MenuItemText

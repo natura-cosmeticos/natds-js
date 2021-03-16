@@ -1,8 +1,8 @@
-import * as React from "react";
-import AccordionSummary from "@material-ui/core/AccordionSummary";
-import { IExpansionPanelSummaryProps } from "./ExpansionPanelSummary.props";
+import * as React from 'react'
+import AccordionSummary from '@material-ui/core/AccordionSummary'
+import { IExpansionPanelSummaryProps } from './ExpansionPanelSummary.props'
 
-export { IExpansionPanelSummaryProps } from "./ExpansionPanelSummary.props";
+export { IExpansionPanelSummaryProps } from './ExpansionPanelSummary.props'
 
 /**
  * ## Importing
@@ -12,9 +12,9 @@ export { IExpansionPanelSummaryProps } from "./ExpansionPanelSummary.props";
  * ```
  */
 export const ExpansionPanelSummary = React.forwardRef<HTMLDivElement, IExpansionPanelSummaryProps>((
-  props: IExpansionPanelSummaryProps, ref,
-) => <AccordionSummary {...props} ref={ref} />);
+  props: IExpansionPanelSummaryProps, ref
+) => <AccordionSummary {...props} ref={ref} />)
 
-ExpansionPanelSummary.displayName = "ExpansionPanelSummary";
+ExpansionPanelSummary.displayName = 'ExpansionPanelSummary'
 
-export default ExpansionPanelSummary;
+export default ExpansionPanelSummary

@@ -1,7 +1,7 @@
-import { CardHeaderProps } from "@material-ui/core/CardHeader";
-import * as React from "react";
+import { CardHeaderProps } from '@material-ui/core/CardHeader'
+import * as React from 'react'
 
-export interface ICardHeaderProps extends Omit<CardHeaderProps, "title"> {
+export interface ICardHeaderProps extends Omit<CardHeaderProps, 'title'> {
 
   /**
    * The action to display.
@@ -9,7 +9,7 @@ export interface ICardHeaderProps extends Omit<CardHeaderProps, "title"> {
    * @optional
    * @type node
    */
-  action?: CardHeaderProps["action"]
+  action?: CardHeaderProps['action']
 
   /**
    * Apply `Avatar`.
@@ -18,7 +18,7 @@ export interface ICardHeaderProps extends Omit<CardHeaderProps, "title"> {
    * @see Avatar
    * @type node
    */
-  avatar?: CardHeaderProps["avatar"]
+  avatar?: CardHeaderProps['avatar']
 
   /**
    * Override or extend the styles applied to the component.
@@ -26,7 +26,7 @@ export interface ICardHeaderProps extends Omit<CardHeaderProps, "title"> {
    * @optional
    * @type object
    */
-  classes?: CardHeaderProps["classes"]
+  classes?: CardHeaderProps['classes']
 
   /**
    * The component used for the root node.
@@ -50,7 +50,7 @@ export interface ICardHeaderProps extends Omit<CardHeaderProps, "title"> {
    * @see Typography
    * @type bool
    */
-  disableTypography?: CardHeaderProps["disableTypography"]
+  disableTypography?: CardHeaderProps['disableTypography']
 
   /**
    * The content of the component.
@@ -58,7 +58,7 @@ export interface ICardHeaderProps extends Omit<CardHeaderProps, "title"> {
    * @optional
    * @type node
    */
-  subheader?: CardHeaderProps["subheader"]
+  subheader?: CardHeaderProps['subheader']
 
   /**
    * These props will be forwarded to the subheader (as long as `disableTypography` is not `true`).
@@ -67,7 +67,7 @@ export interface ICardHeaderProps extends Omit<CardHeaderProps, "title"> {
    * @see ITypographyProps
    * @type object
    */
-  subheaderTypographyProps?: CardHeaderProps["subheaderTypographyProps"]
+  subheaderTypographyProps?: CardHeaderProps['subheaderTypographyProps']
 
   /**
    * The content of the `Card` Title.
@@ -84,6 +84,6 @@ export interface ICardHeaderProps extends Omit<CardHeaderProps, "title"> {
    * @see ITypographyProps
    * @type object
    */
-  titleTypographyProps?: CardHeaderProps["titleTypographyProps"]
+  titleTypographyProps?: CardHeaderProps['titleTypographyProps']
 
 }

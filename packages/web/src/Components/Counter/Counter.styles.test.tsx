@@ -1,5 +1,5 @@
-import { ICounterProps } from "./Counter.props";
-import { getButtonheight, getInputHeight } from "./Counter.styles";
+import { ICounterProps } from './Counter.props'
+import { getButtonheight, getInputHeight } from './Counter.styles'
 
 const baseProps = {
   initialValue: 1,
@@ -7,57 +7,57 @@ const baseProps = {
   minValue: 0,
   onChange: jest.fn(),
   onDecrement: jest.fn(),
-  onIncrement: jest.fn(),
-};
+  onIncrement: jest.fn()
+}
 
-describe("Counter styles", () => {
-  describe("getButtonheight", () => {
-    it("should have different values between small and medium", () => {
+describe('Counter styles', () => {
+  describe('getButtonheight', () => {
+    it('should have different values between small and medium', () => {
       const small: ICounterProps = {
         ...baseProps,
-        size: "small",
-      };
+        size: 'small'
+      }
 
       const medium: ICounterProps = {
         ...baseProps,
-        size: "medium",
-      };
+        size: 'medium'
+      }
 
-      const valueSmall = getButtonheight(small);
-      const valueMedium = getButtonheight(medium);
+      const valueSmall = getButtonheight(small)
+      const valueMedium = getButtonheight(medium)
 
-      expect(valueSmall !== valueMedium).toBe(true);
-    });
-  });
+      expect(valueSmall !== valueMedium).toBe(true)
+    })
+  })
 
-  describe("getInputHeight", () => {
-    it("should have different values between small and medium", () => {
+  describe('getInputHeight', () => {
+    it('should have different values between small and medium', () => {
       const small: ICounterProps = {
         ...baseProps,
-        size: "small",
-      };
+        size: 'small'
+      }
 
       const medium: ICounterProps = {
         ...baseProps,
-        size: "medium",
-      };
+        size: 'medium'
+      }
 
-      const smallHeight = getInputHeight(small);
-      const mediumHeight = getInputHeight(medium);
+      const smallHeight = getInputHeight(small)
+      const mediumHeight = getInputHeight(medium)
 
-      expect(smallHeight !== mediumHeight).toBe(true);
-    });
+      expect(smallHeight !== mediumHeight).toBe(true)
+    })
 
-    it("should have different values from button", () => {
+    it('should have different values from button', () => {
       const small: ICounterProps = {
         ...baseProps,
-        size: "small",
-      };
+        size: 'small'
+      }
 
-      const buttonHeight = getButtonheight(small);
-      const inputHeight = getInputHeight(small);
+      const buttonHeight = getButtonheight(small)
+      const inputHeight = getInputHeight(small)
 
-      expect(buttonHeight !== inputHeight).toBe(true);
-    });
-  });
-});
+      expect(buttonHeight !== inputHeight).toBe(true)
+    })
+  })
+})

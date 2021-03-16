@@ -1,7 +1,7 @@
-import themes from "@naturacosmeticos/natds-themes";
-import { IColorThemeTokens } from "../IColorThemeTokens";
+import themes from '@naturacosmeticos/natds-themes'
+import { IColorThemeTokens } from '../IColorThemeTokens'
 
-const { color } = themes.natura.dark;
+const { color } = themes.natura.dark
 
 export const naturaDarkColorTokens: IColorThemeTokens = {
   colorPrimary: color.primary,
@@ -31,7 +31,7 @@ export const naturaDarkColorTokens: IColorThemeTokens = {
   colorWarning: color.warning,
   colorOnWarning: color.onWarning,
   colorAlert: color.alert,
-  colorOnAlert: color.onAlert,
-};
+  colorOnAlert: color.onAlert
+}
 
-export default naturaDarkColorTokens;
+export default naturaDarkColorTokens

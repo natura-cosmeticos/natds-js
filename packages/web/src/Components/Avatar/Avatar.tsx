@@ -1,10 +1,10 @@
-import * as React from "react";
-import MaterialAvatar from "@material-ui/core/Avatar";
-import makeStyles from "@material-ui/core/styles/makeStyles";
-import { IAvatarProps } from "./Avatar.props";
-import { IThemeWeb } from "../../Themes";
-import styles from "./Avatar.styles";
-import { Icon } from "../Icon";
+import * as React from 'react'
+import MaterialAvatar from '@material-ui/core/Avatar'
+import makeStyles from '@material-ui/core/styles/makeStyles'
+import { IAvatarProps } from './Avatar.props'
+import { IThemeWeb } from '../../Themes'
+import styles from './Avatar.styles'
+import { Icon } from '../Icon'
 
 /**
  * ## Importing
@@ -16,9 +16,8 @@ import { Icon } from "../Icon";
  * ```
  */
 export const Avatar = React.forwardRef<HTMLDivElement, IAvatarProps>((
-  props: IAvatarProps, ref,
+  props: IAvatarProps, ref
 ) => {
-
   const {
     color,
     size,
@@ -29,20 +28,25 @@ export const Avatar = React.forwardRef<HTMLDivElement, IAvatarProps>((
      */
     variant,
     ...otherProps
-  } = props;
+  } = props
 
   const useStyles = makeStyles(
-    (theme: IThemeWeb) => styles({ color, size, theme }), { name: "NatDsAvatar" },
-  );
+    (theme: IThemeWeb) => styles({ color, size, theme }), { name: 'NatDsAvatar' }
+  )
 
-  const classes = useStyles();
+  const classes = useStyles()
 
-  return <MaterialAvatar
-    classes={classes}
-    variant={variant}
-    {...otherProps}
-    ref={ref}>{props.children || <Icon name={"outlined-social-person"} />}</MaterialAvatar>;
-});
+  return (
+    <MaterialAvatar
+      classes={classes}
+      variant={variant}
+      {...otherProps}
+      ref={ref}
+    >
+      {props.children || <Icon name="outlined-social-person" />}
+    </MaterialAvatar>
+  )
+})
 
-Avatar.displayName = "Avatar";
-export default Avatar;
+Avatar.displayName = 'Avatar'
+export default Avatar

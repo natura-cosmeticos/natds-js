@@ -1,14 +1,14 @@
-import * as React from "react";
-import * as TestRenderer from "react-test-renderer";
-import { TableContainer } from "../TableContainer";
-import { Table } from "../Table";
-import { TableBody } from "../TableBody";
-import { TableRow } from "../TableRow";
-import { TableCell } from "./TableCell";
+import * as React from 'react'
+import * as TestRenderer from 'react-test-renderer'
+import { TableContainer } from '../TableContainer'
+import { Table } from '../Table'
+import { TableBody } from '../TableBody'
+import { TableRow } from '../TableRow'
+import { TableCell } from './TableCell'
 
-describe("TableCell component", () => {
-  describe("rendering", () => {
-    test("should match to snapshot - standard TableCellComponent", () => {
+describe('TableCell component', () => {
+  describe('rendering', () => {
+    test('should match to snapshot - standard TableCellComponent', () => {
       const testRenderer = TestRenderer.create(
         <TableContainer>
           <Table>
@@ -18,10 +18,10 @@ describe("TableCell component", () => {
               </TableRow>
             </TableBody>
           </Table>
-        </TableContainer>,
-      );
+        </TableContainer>
+      )
 
-      expect(testRenderer).toMatchSnapshot("TableCellComponent standard");
-    });
-  });
-});
+      expect(testRenderer).toMatchSnapshot('TableCellComponent standard')
+    })
+  })
+})

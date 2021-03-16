@@ -1,4 +1,4 @@
-import { State } from 'Components/Input/Input.props';
+import { State } from 'Components/Input/Input.props'
 
 export interface SelectProps {
   /**

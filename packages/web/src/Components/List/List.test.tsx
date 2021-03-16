@@ -1,49 +1,49 @@
-import * as React from "react";
-import * as TestRenderer from "react-test-renderer";
-import { List } from "./List";
-import { ListSubheader } from "../ListSubheader";
-import { ListItem } from "../ListItem";
-import { ListItemAvatar } from "../ListItemAvatar";
-import { Avatar } from "../Avatar";
-import { Icon } from "../Icon";
-import { ListItemIcon } from "../ListItemIcon";
-import { ListItemSecondaryAction } from "../ListItemSecondaryAction";
-import { IconButton } from "../IconButton";
-import { ListItemText } from "../ListItemText";
+import * as React from 'react'
+import * as TestRenderer from 'react-test-renderer'
+import { List } from './List'
+import { ListSubheader } from '../ListSubheader'
+import { ListItem } from '../ListItem'
+import { ListItemAvatar } from '../ListItemAvatar'
+import { Avatar } from '../Avatar'
+import { Icon } from '../Icon'
+import { ListItemIcon } from '../ListItemIcon'
+import { ListItemSecondaryAction } from '../ListItemSecondaryAction'
+import { IconButton } from '../IconButton'
+import { ListItemText } from '../ListItemText'
 
-describe("List components", () => {
-  describe("rendering variants", () => {
-    test("should match to snapshot - empty list", () => {
-      const component = TestRenderer.create(<List />);
+describe('List components', () => {
+  describe('rendering variants', () => {
+    test('should match to snapshot - empty list', () => {
+      const component = TestRenderer.create(<List />)
 
-      expect(component).toMatchSnapshot("List empty snapshot");
-    });
+      expect(component).toMatchSnapshot('List empty snapshot')
+    })
 
-    test("should match to snapshot - with ListSubheader", () => {
+    test('should match to snapshot - with ListSubheader', () => {
       const component = TestRenderer.create(<List
         subheader={<ListSubheader id="subheader">Subheader</ListSubheader>}
-      />);
+      />)
 
-      expect(component).toMatchSnapshot("List with ListSubheader snapshot");
-    });
+      expect(component).toMatchSnapshot('List with ListSubheader snapshot')
+    })
 
-    test("should match to snapshot - with ListItem", () => {
+    test('should match to snapshot - with ListItem', () => {
       const component = TestRenderer.create(<List>
         <ListItem>Test</ListItem>
-      </List>);
+      </List>)
 
-      expect(component).toMatchSnapshot("List with ListItem snapshot");
-    });
+      expect(component).toMatchSnapshot('List with ListItem snapshot')
+    })
 
-    test("should match to snapshot - with ListItem button", () => {
+    test('should match to snapshot - with ListItem button', () => {
       const component = TestRenderer.create(<List>
         <ListItem button>Test</ListItem>
-      </List>);
+      </List>)
 
-      expect(component).toMatchSnapshot("List with ListItem button snapshot");
-    });
+      expect(component).toMatchSnapshot('List with ListItem button snapshot')
+    })
 
-    test("should match to snapshot - with ListItemAvatar", () => {
+    test('should match to snapshot - with ListItemAvatar', () => {
       const component = TestRenderer.create(<List>
         <ListItem>
           <ListItemAvatar>
@@ -52,24 +52,24 @@ describe("List components", () => {
             </Avatar>
           </ListItemAvatar>
         </ListItem>
-      </List>);
+      </List>)
 
-      expect(component).toMatchSnapshot("List with ListItemAvatar snapshot");
-    });
+      expect(component).toMatchSnapshot('List with ListItemAvatar snapshot')
+    })
 
-    test("should match to snapshot - with ListItemIcon", () => {
+    test('should match to snapshot - with ListItemIcon', () => {
       const component = TestRenderer.create(<List>
         <ListItem>
           <ListItemIcon>
             <Icon name="outlined-navigation-close" size="small" />
           </ListItemIcon>
         </ListItem>
-      </List>);
+      </List>)
 
-      expect(component).toMatchSnapshot("List with ListItemIcon snapshot");
-    });
+      expect(component).toMatchSnapshot('List with ListItemIcon snapshot')
+    })
 
-    test("should match to snapshot - with ListItemSecondaryAction", () => {
+    test('should match to snapshot - with ListItemSecondaryAction', () => {
       const component = TestRenderer.create(<List>
         <ListItem>
           <ListItemSecondaryAction>
@@ -78,19 +78,19 @@ describe("List components", () => {
             </IconButton>
           </ListItemSecondaryAction>
         </ListItem>
-      </List>);
+      </List>)
 
-      expect(component).toMatchSnapshot("List with ListItemSecondaryAction snapshot");
-    });
+      expect(component).toMatchSnapshot('List with ListItemSecondaryAction snapshot')
+    })
 
-    test("should match to snapshot - with ListItemText", () => {
+    test('should match to snapshot - with ListItemText', () => {
       const component = TestRenderer.create(<List>
         <ListItem>
           <ListItemText primary="Text only" />
         </ListItem>
-      </List>);
+      </List>)
 
-      expect(component).toMatchSnapshot("List with ListItemText snapshot");
-    });
-  });
-});
+      expect(component).toMatchSnapshot('List with ListItemText snapshot')
+    })
+  })
+})

@@ -1,5 +1,5 @@
-import Drawer from "./Drawer";
+import Drawer from './Drawer'
 
-export { IDrawerProps } from "./Drawer.props";
-export { Drawer };
-export default Drawer;
+export { IDrawerProps } from './Drawer.props'
+export { Drawer }
+export default Drawer

@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
-import themes from "@naturacosmeticos/natds-themes";
-import { IOpacity } from "./IOpacity";
+import themes from '@naturacosmeticos/natds-themes'
+import { IOpacity } from './IOpacity'
 
-const { opacity: naturaLightOpacity } = themes.natura.light;
+const { opacity: naturaLightOpacity } = themes.natura.light
 
 export const opacity: IOpacity = {
   ...naturaLightOpacity,
@@ -11,19 +11,19 @@ export const opacity: IOpacity = {
    * @deprecated `00` as opacity token name is deprecated since 0.19. It will be removed at 1.0.
    * Please use `opacity.transparent` directly from a theme.
    */
-  "00": naturaLightOpacity.transparent,
+  '00': naturaLightOpacity.transparent,
 
   /**
    * @deprecated `04` as opacity token name is deprecated since 0.19. It will be removed at 1.0.
    * Please use `opacity.lower` directly from a theme.
    */
-  "04": naturaLightOpacity.lower,
+  '04': naturaLightOpacity.lower,
 
   /**
    * @deprecated `08` as opacity token name is deprecated since 0.19. It will be removed at 1.0.
    * Please use `opacity.veryLow` directly from a theme.
    */
-  "08": naturaLightOpacity.veryLow,
+  '08': naturaLightOpacity.veryLow,
 
   /**
    * @deprecated `12` as opacity token name is deprecated since 0.19. It will be removed at 1.0.
@@ -71,5 +71,5 @@ export const opacity: IOpacity = {
    * @deprecated `80` as opacity token name is deprecated since 0.19. It will be removed at 1.0.
    * Please use `opacity.veryHigh` directly from a theme.
    */
-  80: naturaLightOpacity.veryHigh,
-};
+  80: naturaLightOpacity.veryHigh
+}

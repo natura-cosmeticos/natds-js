@@ -1,9 +1,9 @@
-import { ToolbarProps } from "@material-ui/core/Toolbar";
+import { ToolbarProps } from '@material-ui/core/Toolbar'
 
-export type ToolbarVariant = "regular" | "dense" | "prominent"
-export type MaterialToolbarVariant = Omit<ToolbarVariant, "prominent">;
+export type ToolbarVariant = 'regular' | 'dense' | 'prominent'
+export type MaterialToolbarVariant = Omit<ToolbarVariant, 'prominent'>;
 
-export interface IToolbarProps extends Omit<ToolbarProps, "variant"> {
+export interface IToolbarProps extends Omit<ToolbarProps, 'variant'> {
 
   /**
    * The variant to use.

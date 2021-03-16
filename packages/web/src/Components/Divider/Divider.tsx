@@ -1,6 +1,6 @@
-import * as React from "react";
-import MaterialDivider from "@material-ui/core/Divider";
-import { IDividerProps } from "./Divider.props";
+import * as React from 'react'
+import MaterialDivider from '@material-ui/core/Divider'
+import { IDividerProps } from './Divider.props'
 
 /**
  * ```
@@ -8,11 +8,11 @@ import { IDividerProps } from "./Divider.props";
  * ```
  */
 export const Divider = React.forwardRef<HTMLHRElement, IDividerProps>(
-  ({ variant = "fullWidth" }: IDividerProps, ref) => (
+  ({ variant = 'fullWidth' }: IDividerProps, ref) => (
     <MaterialDivider ref={ref} variant={variant} />
-  ),
-);
+  )
+)
 
-Divider.displayName = "Divider";
+Divider.displayName = 'Divider'
 
-export default Divider;
+export default Divider

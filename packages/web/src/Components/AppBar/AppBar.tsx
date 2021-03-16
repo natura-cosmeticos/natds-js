@@ -1,7 +1,7 @@
-import * as React from "react";
-import MaterialAppBar from "@material-ui/core/AppBar";
-import { IAppBarProps } from "./AppBar.props";
-import { useStyles } from "./AppBar.styles";
+import * as React from 'react'
+import MaterialAppBar from '@material-ui/core/AppBar'
+import { IAppBarProps } from './AppBar.props'
+import { useStyles } from './AppBar.styles'
 
 /**
  * By default, an `AppBar` does not include icons or any additional elements.<br />
@@ -20,36 +20,36 @@ import { useStyles } from "./AppBar.styles";
  */
 export const AppBar = React.forwardRef<unknown, IAppBarProps>(
   (
-    props: IAppBarProps, ref,
+    props: IAppBarProps, ref
   ) => {
-
-    const customClasses = useStyles();
-    const { classes, elevation } = props;
+    const customClasses = useStyles()
+    const { classes, elevation } = props
 
     const getElevation: () => (number) = () => {
-      const NO_ELEVATION = 0;
-      const DEFAULT_ELEVATION = 2;
+      const NO_ELEVATION = 0
+      const DEFAULT_ELEVATION = 2
 
       if (!elevation && elevation !== NO_ELEVATION) {
-        return DEFAULT_ELEVATION;
+        return DEFAULT_ELEVATION
       }
 
-      return elevation;
-    };
+      return elevation
+    }
 
-    return <MaterialAppBar
-      {...props}
-      classes={{
-        ...customClasses,
-        ...classes,
-      }}
-      elevation={getElevation()}
-      ref={ref}
-    />;
+    return (
+      <MaterialAppBar
+        {...props}
+        classes={{
+          ...customClasses,
+          ...classes
+        }}
+        elevation={getElevation()}
+        ref={ref}
+      />
+    )
+  }
+)
 
-  },
-);
+AppBar.displayName = 'AppBar'
 
-AppBar.displayName = "AppBar";
-
-export default AppBar;
+export default AppBar

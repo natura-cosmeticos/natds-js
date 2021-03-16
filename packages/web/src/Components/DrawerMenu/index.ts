@@ -1,5 +1,5 @@
-import DrawerMenu from "./DrawerMenu";
+import DrawerMenu from './DrawerMenu'
 
-export { IDrawerMenuProps } from "./DrawerMenu.props";
-export { DrawerMenu };
-export default DrawerMenu;
+export { IDrawerMenuProps } from './DrawerMenu.props'
+export { DrawerMenu }
+export default DrawerMenu

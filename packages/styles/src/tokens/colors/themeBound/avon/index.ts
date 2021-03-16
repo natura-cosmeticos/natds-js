@@ -1,2 +1,2 @@
-export { avonLightColorTokens } from "./avon-light";
-export { avonDarkColorTokens } from "./avon-dark";
+export { avonLightColorTokens } from './avon-light'
+export { avonDarkColorTokens } from './avon-dark'

@@ -1,8 +1,8 @@
-import * as React from "react";
-import MaterialMenuItem from "@material-ui/core/MenuItem";
-import { IMenuItemProps } from "./MenuItem.props";
+import * as React from 'react'
+import MaterialMenuItem from '@material-ui/core/MenuItem'
+import { IMenuItemProps } from './MenuItem.props'
 
-export { IMenuItemProps } from "./MenuItem.props";
+export { IMenuItemProps } from './MenuItem.props'
 
 /**
  * ## Importing
@@ -13,7 +13,7 @@ export { IMenuItemProps } from "./MenuItem.props";
  */
 export const MenuItem = React.forwardRef<HTMLLIElement, IMenuItemProps>(
   (props: IMenuItemProps, ref) => {
-    const { button, ...otherProps } = props;
+    const { button, ...otherProps } = props
 
     return (
       <MaterialMenuItem
@@ -21,7 +21,8 @@ export const MenuItem = React.forwardRef<HTMLLIElement, IMenuItemProps>(
         button={button as true | undefined}
         ref={ref}
       />
-    );
-  });
-MenuItem.displayName = "MenuItem";
-export default MenuItem;
+    )
+  }
+)
+MenuItem.displayName = 'MenuItem'
+export default MenuItem

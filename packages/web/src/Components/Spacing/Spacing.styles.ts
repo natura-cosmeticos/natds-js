@@ -1,49 +1,49 @@
-import { createStyles, makeStyles } from "@material-ui/core/styles";
-import { IThemeWeb } from "../../Themes";
-import { SpacingMarginAndPaddingProps } from "./Spacing.props";
-import { getSpacingFromStyleProp } from "../../hooks/useSpacingFromStyleProp";
+import { createStyles, makeStyles } from '@material-ui/core/styles'
+import { IThemeWeb } from '../../Themes'
+import { SpacingMarginAndPaddingProps } from './Spacing.props'
+import { getSpacingFromStyleProp } from '../../hooks/useSpacingFromStyleProp'
 
 export const useStyles = makeStyles((theme: IThemeWeb) => createStyles({
   root: (props: SpacingMarginAndPaddingProps) => ({
     marginBottom: getSpacingFromStyleProp({
       props,
-      stylePropName: "marginBottom",
-      theme,
+      stylePropName: 'marginBottom',
+      theme
     }),
     marginLeft: getSpacingFromStyleProp({
       props,
-      stylePropName: "marginLeft",
-      theme,
+      stylePropName: 'marginLeft',
+      theme
     }),
     marginRight: getSpacingFromStyleProp({
       props,
-      stylePropName: "marginRight",
-      theme,
+      stylePropName: 'marginRight',
+      theme
     }),
     marginTop: getSpacingFromStyleProp({
       props,
-      stylePropName: "marginTop",
-      theme,
+      stylePropName: 'marginTop',
+      theme
     }),
     paddingBottom: getSpacingFromStyleProp({
       props,
-      stylePropName: "paddingBottom",
-      theme,
+      stylePropName: 'paddingBottom',
+      theme
     }),
     paddingLeft: getSpacingFromStyleProp({
       props,
-      stylePropName: "paddingLeft",
-      theme,
+      stylePropName: 'paddingLeft',
+      theme
     }),
     paddingRight: getSpacingFromStyleProp({
       props,
-      stylePropName: "paddingRight",
-      theme,
+      stylePropName: 'paddingRight',
+      theme
     }),
     paddingTop: getSpacingFromStyleProp({
       props,
-      stylePropName: "paddingTop",
-      theme,
-    }),
-  }),
-}), { name: "NatDSSpacing" });
+      stylePropName: 'paddingTop',
+      theme
+    })
+  })
+}), { name: 'NatDSSpacing' })

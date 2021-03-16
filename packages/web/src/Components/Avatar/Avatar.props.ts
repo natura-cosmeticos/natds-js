@@ -1,16 +1,16 @@
-import { AvatarProps as MaterialAvatarProps } from "@material-ui/core/Avatar/Avatar";
-import { IAvatarSizes } from "@naturacosmeticos/natds-styles";
+import { AvatarProps as MaterialAvatarProps } from '@material-ui/core/Avatar/Avatar'
+import { IAvatarSizes } from '@naturacosmeticos/natds-styles'
 
-export type AvatarColor = "primary" | "secondary" | "default" | string;
+export type AvatarColor = 'primary' | 'secondary' | 'default' | string;
 export type AvatarSize = keyof IAvatarSizes;
 
 /**
  * @deprecated `rounded` and `square` variants are deprecated since version 0.19.
  * They will be removed at version 1.0, when all Avatar variants will be `circle` by default.
  */
-export type AvatarVariant = "circle" | "rounded" | "square";
+export type AvatarVariant = 'circle' | 'rounded' | 'square';
 
-export interface IAvatarProps extends Omit<MaterialAvatarProps, "variant"> {
+export interface IAvatarProps extends Omit<MaterialAvatarProps, 'variant'> {
 
   /**
    * The color of the Avatar, using the tokens from the current theme

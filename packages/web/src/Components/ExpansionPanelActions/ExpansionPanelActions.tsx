@@ -1,8 +1,8 @@
-import * as React from "react";
-import AccordionActions from "@material-ui/core/AccordionActions";
-import { IExpansionPanelActionsProps } from "./ExpansionPanelActions.props";
+import * as React from 'react'
+import AccordionActions from '@material-ui/core/AccordionActions'
+import { IExpansionPanelActionsProps } from './ExpansionPanelActions.props'
 
-export { IExpansionPanelActionsProps } from "./ExpansionPanelActions.props";
+export { IExpansionPanelActionsProps } from './ExpansionPanelActions.props'
 
 /**
  * ## Importing
@@ -12,9 +12,9 @@ export { IExpansionPanelActionsProps } from "./ExpansionPanelActions.props";
  * ```
  */
 export const ExpansionPanelActions = React.forwardRef<unknown, IExpansionPanelActionsProps>((
-  props: IExpansionPanelActionsProps, ref,
-) => <AccordionActions {...props} ref={ref} />);
+  props: IExpansionPanelActionsProps, ref
+) => <AccordionActions {...props} ref={ref} />)
 
-ExpansionPanelActions.displayName = "ExpansionPanelActions";
+ExpansionPanelActions.displayName = 'ExpansionPanelActions'
 
-export default ExpansionPanelActions;
+export default ExpansionPanelActions

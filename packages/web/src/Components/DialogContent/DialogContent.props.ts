@@ -1,4 +1,4 @@
-import { DialogContentProps } from "@material-ui/core/DialogContent";
+import { DialogContentProps } from '@material-ui/core/DialogContent'
 
 export interface IDialogContentProps extends DialogContentProps {
 
@@ -8,7 +8,7 @@ export interface IDialogContentProps extends DialogContentProps {
    * @required
    * @type node
    */
-  children: DialogContentProps["children"]
+  children: DialogContentProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -16,7 +16,7 @@ export interface IDialogContentProps extends DialogContentProps {
    * @optional
    * @type object
    */
-  classes?: DialogContentProps["classes"]
+  classes?: DialogContentProps['classes']
 
   /**
    * Used in `DialogContent`. Display the top and bottom dividers.
@@ -25,5 +25,5 @@ export interface IDialogContentProps extends DialogContentProps {
    * @optional
    * @type bool
    */
-  dividers?: DialogContentProps["dividers"]
+  dividers?: DialogContentProps['dividers']
 }

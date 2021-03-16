@@ -1,4 +1,4 @@
-import { DialogContentTextProps } from "@material-ui/core/DialogContentText";
+import { DialogContentTextProps } from '@material-ui/core/DialogContentText'
 
 export interface IDialogContentTextProps extends DialogContentTextProps {
 
@@ -8,7 +8,7 @@ export interface IDialogContentTextProps extends DialogContentTextProps {
    * @required
    * @type node
    */
-  children: DialogContentTextProps["children"]
+  children: DialogContentTextProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -16,5 +16,5 @@ export interface IDialogContentTextProps extends DialogContentTextProps {
    * @optional
    * @type object
    */
-  classes?: DialogContentTextProps["classes"]
+  classes?: DialogContentTextProps['classes']
 }

@@ -1,5 +1,5 @@
-import getSizeTokens from "./getSizeTokens";
-import useSizeTokens from "./useSizeTokens";
+import getSizeTokens from './getSizeTokens'
+import useSizeTokens from './useSizeTokens'
 
-export { getSizeTokens, useSizeTokens };
-export default useSizeTokens;
+export { getSizeTokens, useSizeTokens }
+export default useSizeTokens

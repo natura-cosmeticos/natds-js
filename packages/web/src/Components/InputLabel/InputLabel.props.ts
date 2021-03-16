@@ -1,7 +1,7 @@
-import { InputLabelProps } from "@material-ui/core/InputLabel";
-import { State } from "../Input/Input.props";
+import { InputLabelProps } from '@material-ui/core/InputLabel'
+import { State } from '../Input/Input.props'
 
-export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
+export interface IInputLabelProps extends Omit<InputLabelProps, 'shrink'> {
 
   /**
    * The contents of the `InputLabel`.
@@ -9,7 +9,7 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @optional
    * @type node
    */
-  children?: InputLabelProps["children"]
+  children?: InputLabelProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -20,7 +20,7 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @see https://material-ui.com/pt/api/input-label/#css
    * @type object
    */
-  classes?: InputLabelProps["classes"]
+  classes?: InputLabelProps['classes']
 
   /**
    * The color of the component. It supports those theme colors that make sense for this component.
@@ -28,7 +28,7 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @optional
    * @type "primary" | "secondary"
    */
-  color?: InputLabelProps["color"]
+  color?: InputLabelProps['color']
 
   /**
    * If `true`, the transition animation is disabled.
@@ -37,7 +37,7 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @optional
    * @type bool
    */
-  disableAnimation?: InputLabelProps["disableAnimation"]
+  disableAnimation?: InputLabelProps['disableAnimation']
 
   /**
    * If `true`, apply disabled class.
@@ -45,7 +45,7 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @optional
    * @type bool
    */
-  disabled?: InputLabelProps["disabled"]
+  disabled?: InputLabelProps['disabled']
 
   /**
    * If `true`, the label will be displayed in an error state.
@@ -53,7 +53,7 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @optional
    * @type bool
    */
-  error?: InputLabelProps["error"]
+  error?: InputLabelProps['error']
 
   /**
    * If `true`, the input of this label is focused.
@@ -61,7 +61,7 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @optional
    * @type bool
    */
-  focused?: InputLabelProps["focused"]
+  focused?: InputLabelProps['focused']
 
   /**
    * If `dense`, will adjust vertical spacing. This is normally obtained via context from `FormControl`.
@@ -69,7 +69,7 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @optional
    * @type "dense"
    */
-  margin?: InputLabelProps["margin"]
+  margin?: InputLabelProps['margin']
 
   /**
    * if `true`, the label will indicate that the input is required.
@@ -77,7 +77,7 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @optional
    * @type bool
    */
-  required?: InputLabelProps["required"]
+  required?: InputLabelProps['required']
 
   /**
    * @optional
@@ -91,5 +91,5 @@ export interface IInputLabelProps extends Omit<InputLabelProps, "shrink"> {
    * @optional
    * @type "filled" | "outlined" | "standard"
    */
-  variant?: InputLabelProps["variant"]
+  variant?: InputLabelProps['variant']
 }

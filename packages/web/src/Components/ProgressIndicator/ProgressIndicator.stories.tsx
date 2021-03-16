@@ -1,34 +1,34 @@
-import React from "react";
-import { Meta, Story } from "@storybook/react";
-import { createStyles, makeStyles } from "@material-ui/core/styles";
-import { ProgressIndicator } from "./ProgressIndicator";
-import { IProgressIndicatorProps } from "./ProgressIndicator.props";
-import { argTypes } from "./ProgressIndicator.argTypes";
+import React from 'react'
+import { Meta, Story } from '@storybook/react'
+import { createStyles, makeStyles } from '@material-ui/core/styles'
+import { ProgressIndicator } from './ProgressIndicator'
+import { IProgressIndicatorProps } from './ProgressIndicator.props'
+import { argTypes } from './ProgressIndicator.argTypes'
 
 export default {
   argTypes,
   component: ProgressIndicator,
-  title: "Components/Progress Indicator",
-} as Meta;
+  title: 'Components/Progress Indicator'
+} as Meta
 
 const useStyles = makeStyles(
   createStyles({
     progressIndicator: {
-      margin: "0 16px",
-    },
+      margin: '0 16px'
+    }
   }),
-  { name: "ProgressIndicatorDemo" },
-);
+  { name: 'ProgressIndicatorDemo' }
+)
 
-ProgressIndicator.displayName = "ProgressIndicator";
+ProgressIndicator.displayName = 'ProgressIndicator'
 
-export const Playground: Story<IProgressIndicatorProps> = (args: IProgressIndicatorProps) => <ProgressIndicator {...args} />;
+export const Playground: Story<IProgressIndicatorProps> = (args: IProgressIndicatorProps) => <ProgressIndicator {...args} />
 
 export const Sizes: Story<IProgressIndicatorProps> = (args) => {
-  const classes = useStyles();
+  const classes = useStyles()
 
   return (
-    <div style={{ display: "flex" }}>
+    <div style={{ display: 'flex' }}>
       <ProgressIndicator
         {...args}
         size={24}
@@ -49,5 +49,5 @@ export const Sizes: Story<IProgressIndicatorProps> = (args) => {
         className={classes.progressIndicator}
       />
     </div>
-  );
-};
+  )
+}

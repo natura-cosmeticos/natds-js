@@ -1,65 +1,65 @@
-import { colors } from "./__fixtures__/colors";
-import { sizes } from "./__fixtures__/sizes";
-import { IAvatarProps } from "./Avatar.props";
+import { colors } from './__fixtures__/colors'
+import { sizes } from './__fixtures__/sizes'
+import { IAvatarProps } from './Avatar.props'
 
 export const argTypes : Record<keyof IAvatarProps | string, unknown> = {
   alt: {
     control: {
-      type: "text",
-    },
+      type: 'text'
+    }
   },
   children: {
     control: {
-      type: "object",
-    },
+      type: 'object'
+    }
   },
   color: {
     control: {
       options: colors,
-      type: "inline-radio",
+      type: 'inline-radio'
     },
-    defaultValue: colors.default,
+    defaultValue: colors.default
   },
   component: {
     control: {
-      type: "text",
+      type: 'text'
     },
-    description: "The component used for the root node. Either a `string` to use a DOM element or a component.",
+    description: 'The component used for the root node. Either a `string` to use a DOM element or a component.',
     table: {
       defaultValue: {
-        summary: "\"div\"",
+        summary: '"div"'
       },
       type: {
-        summary: "elementType",
-      },
-    },
+        summary: 'elementType'
+      }
+    }
   },
   imgProps: {
     control: {
-      type: "object",
-    },
+      type: 'object'
+    }
   },
   size: {
     control: {
       options: sizes,
-      type: "select",
+      type: 'select'
     },
-    defaultValue: sizes.standard,
+    defaultValue: sizes.standard
   },
   src: {
     control: {
-      type: "text",
-    },
+      type: 'text'
+    }
   },
   srcSet: {
     control: {
-      type: "text",
-    },
+      type: 'text'
+    }
   },
   sizes: {
     control: {
-      type: "text",
-    },
+      type: 'text'
+    }
   },
 
   /**
@@ -68,15 +68,15 @@ export const argTypes : Record<keyof IAvatarProps | string, unknown> = {
    */
   variant: {
     control: {
-      options: ["circle"],
-      type: "inline-radio",
+      options: ['circle'],
+      type: 'inline-radio'
     },
     table: {
       defaultValue: {
-        summary: "\"circle\"",
-      },
-    },
-  },
-};
+        summary: '"circle"'
+      }
+    }
+  }
+}
 
-export default argTypes;
+export default argTypes

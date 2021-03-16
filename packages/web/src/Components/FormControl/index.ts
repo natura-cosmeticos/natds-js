@@ -1,5 +1,5 @@
-import FormControl from "./FormControl";
+import FormControl from './FormControl'
 
-export { IFormControlProps } from "./FormControl.props";
-export { FormControl };
-export default FormControl;
+export { IFormControlProps } from './FormControl.props'
+export { FormControl }
+export default FormControl

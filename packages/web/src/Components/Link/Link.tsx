@@ -1,10 +1,10 @@
-import * as React from "react";
-import MaterialLink from "@material-ui/core/Link";
-import clsx from "clsx";
-import { ILinkProps, MaterialLinkColor } from "./Link.props";
-import { useStyles } from "./Link.styles";
+import * as React from 'react'
+import MaterialLink from '@material-ui/core/Link'
+import clsx from 'clsx'
+import { ILinkProps, MaterialLinkColor } from './Link.props'
+import { useStyles } from './Link.styles'
 
-export { ILinkProps } from "./Link.props";
+export { ILinkProps } from './Link.props'
 
 /**
  * For more advanced usages, check [Material UI Link docs](https://material-ui.com/components/links/)
@@ -22,20 +22,20 @@ export const Link = React.forwardRef<HTMLAnchorElement | HTMLSpanElement, ILinkP
     const {
       className,
       children,
-      color = "default",
+      color = 'default',
       style,
       ...otherProps
-    } = props;
+    } = props
 
-    const { default: stylesForDefault } = useStyles({ children, color });
+    const { default: stylesForDefault } = useStyles({ children, color })
 
     const getColorForMaterial = () => {
-      if (color === "default") {
-        return "inherit" as MaterialLinkColor;
+      if (color === 'default') {
+        return 'inherit' as MaterialLinkColor
       }
 
-      return color as MaterialLinkColor;
-    };
+      return color as MaterialLinkColor
+    }
 
     return (
       <MaterialLink
@@ -47,10 +47,10 @@ export const Link = React.forwardRef<HTMLAnchorElement | HTMLSpanElement, ILinkP
       >
         {children}
       </MaterialLink>
-    );
-  },
-);
+    )
+  }
+)
 
-Link.displayName = "Link";
+Link.displayName = 'Link'
 
-export default Link;
+export default Link

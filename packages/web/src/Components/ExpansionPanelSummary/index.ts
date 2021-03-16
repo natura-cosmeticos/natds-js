@@ -1,5 +1,5 @@
-import ExpansionPanelSummary from "./ExpansionPanelSummary";
+import ExpansionPanelSummary from './ExpansionPanelSummary'
 
-export { IExpansionPanelSummaryProps } from "./ExpansionPanelSummary.props";
-export { ExpansionPanelSummary };
-export default ExpansionPanelSummary;
+export { IExpansionPanelSummaryProps } from './ExpansionPanelSummary.props'
+export { ExpansionPanelSummary }
+export default ExpansionPanelSummary

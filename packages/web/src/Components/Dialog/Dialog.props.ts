@@ -1,4 +1,4 @@
-import { DialogProps } from "@material-ui/core/Dialog";
+import { DialogProps } from '@material-ui/core/Dialog'
 
 export interface IDialogProps extends DialogProps {
 
@@ -8,7 +8,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type string
    */
-  "aria-describedby"?: DialogProps["aria-describedby"]
+  'aria-describedby'?: DialogProps['aria-describedby']
 
   /**
    * The id(s) of the element(s) that label the dialog.
@@ -16,7 +16,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type string
    */
-  "aria-labelledby"?: DialogProps["aria-labelledby"]
+  'aria-labelledby'?: DialogProps['aria-labelledby']
 
   /**
    * Component children, usually the included sub-components.
@@ -24,7 +24,7 @@ export interface IDialogProps extends DialogProps {
    * @required
    * @type node
    */
-  children: DialogProps["children"]
+  children: DialogProps['children']
 
   /**
    * If `true`, clicking the backdrop will not fire the `onClose` callback.
@@ -33,7 +33,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type bool
    */
-  disableBackdropClick?: DialogProps["disableBackdropClick"]
+  disableBackdropClick?: DialogProps['disableBackdropClick']
 
   /**
    * If `true`, hitting escape will not fire the `onClose` callback.
@@ -42,7 +42,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type bool
    */
-  disableEscapeKeyDown?: DialogProps["disableEscapeKeyDown"]
+  disableEscapeKeyDown?: DialogProps['disableEscapeKeyDown']
 
   /**
    * If `true`, the dialog will be full-screen.
@@ -51,7 +51,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type bool
    */
-  fullScreen?: DialogProps["fullScreen"]
+  fullScreen?: DialogProps['fullScreen']
 
   /**
    * If `true`, the dialog stretches to `maxWidth`.
@@ -60,7 +60,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type bool
    */
-  fullWidth?: DialogProps["fullWidth"]
+  fullWidth?: DialogProps['fullWidth']
 
   /**
    * Determine the max-width of the dialog.
@@ -69,7 +69,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type "xs" | "sm" | "md" | "lg" | "xl"
    */
-  maxWidth?: DialogProps["maxWidth"]
+  maxWidth?: DialogProps['maxWidth']
 
   /**
    * Callback fired when the backdrop is clicked.
@@ -77,7 +77,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type func
    */
-  onBackdropClick?: DialogProps["onBackdropClick"]
+  onBackdropClick?: DialogProps['onBackdropClick']
 
   /**
    * Callback fired when the component requests to be closed.
@@ -85,7 +85,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type func
    */
-  onClose?: DialogProps["onClose"]
+  onClose?: DialogProps['onClose']
 
   /**
    * Callback fired before the dialog enters.
@@ -93,7 +93,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type func
    */
-  onEnter?: DialogProps["onEnter"]
+  onEnter?: DialogProps['onEnter']
 
   /**
    * Callback fired when the dialog has entered.
@@ -101,7 +101,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type func
    */
-  onEntered?: DialogProps["onEntered"]
+  onEntered?: DialogProps['onEntered']
 
   /**
    * Callback fired when the dialog is entering.
@@ -109,7 +109,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type func
    */
-  onEntering?: DialogProps["onEntering"]
+  onEntering?: DialogProps['onEntering']
 
   /**
    * Callback fired when the escape key is pressed, `disableKeyboard` is false and the modal is in focus.
@@ -117,7 +117,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type func
    */
-  onEscapeKeyDown?: DialogProps["onEscapeKeyDown"]
+  onEscapeKeyDown?: DialogProps['onEscapeKeyDown']
 
   /**
    * Callback fired before the dialog exits.
@@ -125,7 +125,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type func
    */
-  onExit?: DialogProps["onExit"]
+  onExit?: DialogProps['onExit']
 
   /**
    * Callback fired when the dialog has exited.
@@ -133,7 +133,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type func
    */
-  onExited?: DialogProps["onExited"]
+  onExited?: DialogProps['onExited']
 
   /**
    * Callback fired when the dialog is exiting.
@@ -141,7 +141,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type func
    */
-  onExiting?: DialogProps["onExiting"]
+  onExiting?: DialogProps['onExiting']
 
   /**
    * If `true`, the `Dialog` is open.
@@ -149,7 +149,7 @@ export interface IDialogProps extends DialogProps {
    * @required
    * @type bool
    */
-  open: DialogProps["open"]
+  open: DialogProps['open']
 
   /**
    * The component used to render the body of the dialog. Defaults to `Paper`.
@@ -158,7 +158,7 @@ export interface IDialogProps extends DialogProps {
    * @see Paper
    * @type element
    */
-  PaperComponent?: DialogProps["PaperComponent"]
+  PaperComponent?: DialogProps['PaperComponent']
 
   /**
    * Props applied to the `Paper` element.
@@ -168,7 +168,7 @@ export interface IDialogProps extends DialogProps {
    * @see IPaperProps
    * @type IPaperProps | object
    */
-  PaperProps?: DialogProps["PaperProps"]
+  PaperProps?: DialogProps['PaperProps']
 
   /**
    * Determine the container for scrolling the dialog.
@@ -177,7 +177,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type "body" | "paper"
    */
-  scroll?: DialogProps["scroll"]
+  scroll?: DialogProps['scroll']
 
   /**
    * The component used for the transition.
@@ -187,7 +187,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type element
    */
-  TransitionComponent?: DialogProps["TransitionComponent"]
+  TransitionComponent?: DialogProps['TransitionComponent']
 
   /**
    * The duration for the transition, in milliseconds.
@@ -199,7 +199,7 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type number | { enter?: number, exit?: number }
    */
-  transitionDuration?: DialogProps["transitionDuration"]
+  transitionDuration?: DialogProps['transitionDuration']
 
   /**
    * Props applied to the `Transition` element.
@@ -207,5 +207,5 @@ export interface IDialogProps extends DialogProps {
    * @optional
    * @type object
    */
-  TransitionProps?: DialogProps["TransitionProps"]
+  TransitionProps?: DialogProps['TransitionProps']
 }

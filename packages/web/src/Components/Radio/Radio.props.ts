@@ -1,6 +1,6 @@
-import { RadioProps } from "@material-ui/core/Radio";
+import { RadioProps } from '@material-ui/core/Radio'
 
-export interface IRadioProps extends Omit<RadioProps, "translate"> {
+export interface IRadioProps extends Omit<RadioProps, 'translate'> {
 
   /**
    * If `true`, the component is checked.
@@ -8,7 +8,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type bool
    */
-  checked?: RadioProps["checked"]
+  checked?: RadioProps['checked']
 
   /**
    * The icon to display when the component is checked.
@@ -16,7 +16,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type node
    */
-  checkedIcon?: RadioProps["checkedIcon"]
+  checkedIcon?: RadioProps['checkedIcon']
 
   /**
    * Override or extend the styles applied to the component.
@@ -27,7 +27,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @see https://material-ui.com/pt/api/switch/#css
    * @type object
    */
-  classes?: RadioProps["classes"]
+  classes?: RadioProps['classes']
 
   /**
    * The color of the component. It supports those theme colors that make sense for this component.
@@ -36,7 +36,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type "primary" | "secondary" | "default"
    */
-  color?: RadioProps["color"]
+  color?: RadioProps['color']
 
   /**
    * If `true`, the radio will be disabled.
@@ -45,7 +45,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type bool
    */
-  disabled?: RadioProps["disabled"]
+  disabled?: RadioProps['disabled']
 
   /**
    * If `true`, the ripple effect will be disabled.
@@ -53,7 +53,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type bool
    */
-  disableRipple?: RadioProps["disableRipple"]
+  disableRipple?: RadioProps['disableRipple']
 
   /**
    * The icon to display when the component is unchecked.
@@ -61,7 +61,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type node
    */
-  icon?: RadioProps["icon"]
+  icon?: RadioProps['icon']
 
   /**
    * The `id` of the `input` element.
@@ -69,7 +69,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type string
    */
-  id?: RadioProps["id"]
+  id?: RadioProps['id']
 
   /**
    * [Attributes](https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes) applied to the input element.
@@ -78,7 +78,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @see https://developer.mozilla.org/en-US/docs/Web/HTML/Element/input#Attributes
    * @type object
    */
-  inputProps?: RadioProps["inputProps"]
+  inputProps?: RadioProps['inputProps']
 
   /**
    * Pass a `ref` to the `input` element.
@@ -86,7 +86,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type ref
    */
-  inputRef?: RadioProps["inputRef"]
+  inputRef?: RadioProps['inputRef']
 
   /**
    * Name attribute of the `input` element.
@@ -94,7 +94,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type string
    */
-  name?: RadioProps["name"]
+  name?: RadioProps['name']
 
   /**
    * Callback fired when the state is changed i.e `function(event: object) => void`
@@ -105,7 +105,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type func
    */
-  onChange?: RadioProps["onChange"]
+  onChange?: RadioProps['onChange']
 
   /**
    * If true, the input element will be required.
@@ -113,7 +113,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type bool
    */
-  required?: RadioProps["required"]
+  required?: RadioProps['required']
 
   /**
    * The size of the radio. `small` is equivalent to the dense radio styling.
@@ -121,7 +121,7 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type "small" | "medium"
    */
-  size?: RadioProps["size"]
+  size?: RadioProps['size']
 
   /**
    * The value of the component. The DOM API casts this to a `string`.
@@ -129,5 +129,5 @@ export interface IRadioProps extends Omit<RadioProps, "translate"> {
    * @optional
    * @type any
    */
-  value?: RadioProps["value"]
+  value?: RadioProps['value']
 }

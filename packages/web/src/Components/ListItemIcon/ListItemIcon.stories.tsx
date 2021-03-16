@@ -1,34 +1,34 @@
-import * as React from "react";
-import { Meta, Story } from "@storybook/react";
-import ListItemIcon, { IListItemIconProps } from "./ListItemIcon";
-import { Icon } from "../Icon";
-import { SmallIcon } from "../Icon/Icon.stories";
-import { Checkbox } from "../Checkbox";
-import { Playground as CheckboxPlayground } from "../Checkbox/Checkbox.stories";
+import * as React from 'react'
+import { Meta, Story } from '@storybook/react'
+import ListItemIcon, { IListItemIconProps } from './ListItemIcon'
+import { Icon } from '../Icon'
+import { SmallIcon } from '../Icon/Icon.stories'
+import { Checkbox } from '../Checkbox'
+import { Playground as CheckboxPlayground } from '../Checkbox/Checkbox.stories'
 
 export default {
   component: ListItemIcon,
   subcomponents: { Checkbox, Icon },
-  title: "Components/List/List Item Icon",
-} as Meta;
+  title: 'Components/List/List Item Icon'
+} as Meta
 
 const Template : Story<IListItemIconProps> = (args: IListItemIconProps) => (
   <ListItemIcon {...args} />
-);
+)
 
-export const Playground : Story<IListItemIconProps> = Template.bind({});
+export const Playground : Story<IListItemIconProps> = Template.bind({})
 
-export const WithIcon : Story<IListItemIconProps> = Template.bind({});
+export const WithIcon : Story<IListItemIconProps> = Template.bind({})
 WithIcon.args = {
-  children: <Icon {...SmallIcon.args} name={"outlined-action-love"} />,
-};
+  children: <Icon {...SmallIcon.args} name="outlined-action-love" />
+}
 WithIcon.parameters = {
   description: {
-    story: "By default, icon color is the highlight color with medium high opacity.",
-  },
-};
+    story: 'By default, icon color is the highlight color with medium high opacity.'
+  }
+}
 
-export const WithCheckbox : Story<IListItemIconProps> = Template.bind({});
+export const WithCheckbox : Story<IListItemIconProps> = Template.bind({})
 WithCheckbox.args = {
-  children: <Checkbox {...CheckboxPlayground.args} />,
-};
+  children: <Checkbox {...CheckboxPlayground.args} />
+}

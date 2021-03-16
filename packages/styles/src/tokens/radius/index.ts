@@ -1,8 +1,8 @@
 /* eslint-disable sort-keys */
-import themes from "@naturacosmeticos/natds-themes";
-import { IRadius } from "./IRadius";
+import themes from '@naturacosmeticos/natds-themes'
+import { IRadius } from './IRadius'
 
-const { borderRadius } = themes.natura.light;
+const { borderRadius } = themes.natura.light
 
 /**
  * @deprecated since 0.19.0.
@@ -10,5 +10,5 @@ const { borderRadius } = themes.natura.light;
  */
 export const radius: IRadius = {
   ...borderRadius,
-  circle: "50%",
-};
+  circle: '50%'
+}

@@ -1,4 +1,4 @@
-import { RadioGroupProps } from "@material-ui/core/RadioGroup";
+import { RadioGroupProps } from '@material-ui/core/RadioGroup'
 
 export interface IRadioGroupProps extends RadioGroupProps {
 
@@ -8,7 +8,7 @@ export interface IRadioGroupProps extends RadioGroupProps {
    * @optional
    * @type node
    */
-  children?: RadioGroupProps["children"];
+  children?: RadioGroupProps['children'];
 
   /**
    * The default `input` element value. Use when the component is not controlled.
@@ -16,7 +16,7 @@ export interface IRadioGroupProps extends RadioGroupProps {
    * @optional
    * @type Array<string> | number | string
    */
-  defaultValue?: RadioGroupProps["defaultValue"];
+  defaultValue?: RadioGroupProps['defaultValue'];
 
   /**
    * The name used to reference the value of the control.
@@ -26,7 +26,7 @@ export interface IRadioGroupProps extends RadioGroupProps {
    * @optional
    * @type string
    */
-  name?: RadioGroupProps["name"];
+  name?: RadioGroupProps['name'];
 
   /**
    * Callback fired when a radio button is selected.
@@ -38,7 +38,7 @@ export interface IRadioGroupProps extends RadioGroupProps {
    * @returns void
    * @type func
    */
-  onChange?: RadioGroupProps["onChange"];
+  onChange?: RadioGroupProps['onChange'];
 
   /**
    * Value of the selected radio button. The DOM API casts this to a string.
@@ -46,5 +46,5 @@ export interface IRadioGroupProps extends RadioGroupProps {
    * @optional
    * @type any
    */
-  value?: RadioGroupProps["value"];
+  value?: RadioGroupProps['value'];
 }

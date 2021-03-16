@@ -1,7 +1,7 @@
-import { SnackbarProps, SnackbarOrigin } from "@material-ui/core/Snackbar";
+import { SnackbarProps, SnackbarOrigin } from '@material-ui/core/Snackbar'
 
-export type HorizontalAnchorOrigin = SnackbarOrigin["horizontal"];
-export type VerticalAnchorOrigin = SnackbarOrigin["vertical"];
+export type HorizontalAnchorOrigin = SnackbarOrigin['horizontal'];
+export type VerticalAnchorOrigin = SnackbarOrigin['vertical'];
 
 export interface ISnackbarProps extends SnackbarProps {
 
@@ -11,7 +11,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type node
    */
-  action?: SnackbarProps["action"]
+  action?: SnackbarProps['action']
 
   /**
    * The anchor of the `Snackbar`.
@@ -20,7 +20,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type { horizontal: "left" | "center" | "right", vertical: "top" | "bottom" }
    */
-  anchorOrigin?: SnackbarProps["anchorOrigin"]
+  anchorOrigin?: SnackbarProps['anchorOrigin']
 
   /**
    * The number of milliseconds to wait before automatically calling the `onClose` function.
@@ -31,7 +31,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @default null
    * @type number
    */
-  autoHideDuration?: SnackbarProps["autoHideDuration"]
+  autoHideDuration?: SnackbarProps['autoHideDuration']
 
   /**
    * Replace the `SnackbarContent` component.
@@ -39,7 +39,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type element
    */
-  children?: SnackbarProps["children"]
+  children?: SnackbarProps['children']
 
   /**
    * Override or extend the styles applied to the component.
@@ -47,21 +47,21 @@ export interface ISnackbarProps extends SnackbarProps {
    * @todo add link to Material UI CSS API
    * @type object
    */
-  classes?: SnackbarProps["classes"]
+  classes?: SnackbarProps['classes']
 
   /**
    * Props applied to the `ClickAwayListener` element.
    *
    * @type object
    */
-  ClickAwayListenerProps?: SnackbarProps["ClickAwayListenerProps"]
+  ClickAwayListenerProps?: SnackbarProps['ClickAwayListenerProps']
 
   /**
    * Props applied to the `SnackbarContent` element.
    *
    * @type object
    */
-  ContentProps?: SnackbarProps["ContentProps"]
+  ContentProps?: SnackbarProps['ContentProps']
 
   /**
    * If `true`, the `autoHideDuration` timer will expire even if the window is not focused.
@@ -69,7 +69,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @default false
    * @type bool
    */
-  disableWindowBlurListener?: SnackbarProps["disableWindowBlurListener"]
+  disableWindowBlurListener?: SnackbarProps['disableWindowBlurListener']
 
   /**
    * When displaying multiple consecutive `Snackbar`s from a parent rendering a single `<Snackbar/>`,
@@ -81,14 +81,14 @@ export interface ISnackbarProps extends SnackbarProps {
    *
    * @type any
    */
-  key?: SnackbarProps["key"]
+  key?: SnackbarProps['key']
 
   /**
    * The message to display.
    *
    * @type node
    */
-  message?: SnackbarProps["message"]
+  message?: SnackbarProps['message']
 
   /**
    * Callback fired when the component requests to be closed.
@@ -104,7 +104,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type func
    */
-  onClose?: SnackbarProps["onClose"]
+  onClose?: SnackbarProps['onClose']
 
   /**
    * Callback fired before the transition is entering.
@@ -112,7 +112,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type func
    */
-  onEnter?: SnackbarProps["onEnter"]
+  onEnter?: SnackbarProps['onEnter']
 
   /**
    * Callback fired when the transition has entered.
@@ -120,7 +120,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type func
    */
-  onEntered?: SnackbarProps["onEntered"]
+  onEntered?: SnackbarProps['onEntered']
 
   /**
    * Callback fired when the transition is entering.
@@ -128,7 +128,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type func
    */
-  onEntering?: SnackbarProps["onEntering"]
+  onEntering?: SnackbarProps['onEntering']
 
   /**
    * Callback fired before the transition is exiting.
@@ -136,7 +136,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type func
    */
-  onExit?: SnackbarProps["onExit"]
+  onExit?: SnackbarProps['onExit']
 
   /**
    * Callback fired when the transition has exited.
@@ -144,7 +144,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type func
    */
-  onExited?: SnackbarProps["onExited"]
+  onExited?: SnackbarProps['onExited']
 
   /**
    * Callback fired when the transition is exiting.
@@ -152,7 +152,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type func
    */
-  onExiting?: SnackbarProps["onExiting"]
+  onExiting?: SnackbarProps['onExiting']
 
   /**
    * If `true`, `Snackbar` is open.
@@ -160,7 +160,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type bool
    */
-  open?: SnackbarProps["open"]
+  open?: SnackbarProps['open']
 
   /**
    * The number of milliseconds to wait before dismissing after user interaction.
@@ -171,7 +171,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type number
    */
-  resumeHideDuration?: SnackbarProps["resumeHideDuration"]
+  resumeHideDuration?: SnackbarProps['resumeHideDuration']
 
   /**
    * The component used for the transition. Defaults to `Grow`.
@@ -179,7 +179,7 @@ export interface ISnackbarProps extends SnackbarProps {
    * @optional
    * @type element
    */
-  TransitionComponent?: SnackbarProps["TransitionComponent"]
+  TransitionComponent?: SnackbarProps['TransitionComponent']
 
   /**
    * The duration for the transition, in milliseconds.
@@ -189,12 +189,12 @@ export interface ISnackbarProps extends SnackbarProps {
    *
    * @type number | { enter?: number, exit?: number }
    */
-  transitionDuration?: SnackbarProps["transitionDuration"]
+  transitionDuration?: SnackbarProps['transitionDuration']
 
   /**
    * Props applied to the Transition element.
    *
    * @type object
    */
-  TransitionProps?: SnackbarProps["TransitionProps"]
+  TransitionProps?: SnackbarProps['TransitionProps']
 }

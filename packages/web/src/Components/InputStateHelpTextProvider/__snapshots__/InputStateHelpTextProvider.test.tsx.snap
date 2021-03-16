@@ -1,30 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[` 1`] = `
-<div
-  className="MuiFormControl-root NatDSFormControl-root-2"
-/>
-`;
-
-exports[` 2`] = `
-<div
-  className="MuiFormControl-root NatDSFormControl-root-2"
-/>
-`;
-
-exports[` 3`] = `
-<div
-  className="MuiFormControl-root NatDSFormControl-root-2"
-/>
-`;
-
-exports[` 4`] = `
-<div
-  className="MuiFormControl-root NatDSFormControl-root-2"
-/>
-`;
-
-exports[` 5`] = `
+exports[`InputStateHelpTextProvider component when help text is set and when state is error 1`] = `
 <div
   className="MuiFormControl-root NatDSFormControl-root-2"
 >
@@ -40,7 +16,7 @@ exports[` 5`] = `
 </div>
 `;
 
-exports[` 6`] = `
+exports[`InputStateHelpTextProvider component when help text is set and when state is success 1`] = `
 <div
   className="MuiFormControl-root NatDSFormControl-root-2"
 >
@@ -54,6 +30,30 @@ exports[` 6`] = `
     Test help text
   </p>
 </div>
+`;
+
+exports[`InputStateHelpTextProvider component when readonly property is explicitly false and when state is error 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
+`;
+
+exports[`InputStateHelpTextProvider component when readonly property is explicitly false and when state is success 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
+`;
+
+exports[`InputStateHelpTextProvider component when readonly property is explicitly true and when state is error 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
+`;
+
+exports[`InputStateHelpTextProvider component when readonly property is explicitly true and when state is success 1`] = `
+<div
+  className="MuiFormControl-root NatDSFormControl-root-2"
+/>
 `;
 
 exports[`InputStateHelpTextProvider component when state is error should match snapshot 1`] = `

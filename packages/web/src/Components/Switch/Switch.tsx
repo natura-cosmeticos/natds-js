@@ -1,6 +1,6 @@
-import * as React from "react";
-import MaterialSwitch from "@material-ui/core/Switch";
-import { ISwitchProps } from "./Switch.props";
+import * as React from 'react'
+import MaterialSwitch from '@material-ui/core/Switch'
+import { ISwitchProps } from './Switch.props'
 
 /**
  * For more advanced usages, check [Material UI Switch docs](https://material-ui.com/components/switches/)
@@ -12,9 +12,9 @@ import { ISwitchProps } from "./Switch.props";
  * ```
  */
 export const Switch = React.forwardRef<HTMLButtonElement, ISwitchProps>((
-  props: ISwitchProps, ref,
-) => <MaterialSwitch {...props} ref={ref} />);
+  props: ISwitchProps, ref
+) => <MaterialSwitch {...props} ref={ref} />)
 
-Switch.displayName = "Switch";
+Switch.displayName = 'Switch'
 
-export default Switch;
+export default Switch

@@ -1,4 +1,4 @@
-import { TooltipProps } from "@material-ui/core/Tooltip";
+import { TooltipProps } from '@material-ui/core/Tooltip'
 
 export interface ITooltipProps extends TooltipProps {
 
@@ -11,5 +11,5 @@ export interface ITooltipProps extends TooltipProps {
    * @required
    * @type element
    */
-  children: TooltipProps["children"]
+  children: TooltipProps['children']
 }

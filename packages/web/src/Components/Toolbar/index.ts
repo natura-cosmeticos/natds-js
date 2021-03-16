@@ -1,5 +1,5 @@
-import Toolbar from "./Toolbar";
+import Toolbar from './Toolbar'
 
-export { IToolbarProps } from "./Toolbar.props";
-export { Toolbar };
-export default Toolbar;
+export { IToolbarProps } from './Toolbar.props'
+export { Toolbar }
+export default Toolbar

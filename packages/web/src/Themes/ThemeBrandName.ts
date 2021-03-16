@@ -1,1 +1,1 @@
-export type ThemeBrandName = "avon" | "natura" | "theBodyShop";
+export type ThemeBrandName = 'avon' | 'natura' | 'theBodyShop';

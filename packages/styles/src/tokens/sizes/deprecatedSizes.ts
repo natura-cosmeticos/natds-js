@@ -1,6 +1,6 @@
-import theme from "@naturacosmeticos/natds-themes";
+import theme from '@naturacosmeticos/natds-themes'
 
-const { size } = theme.natura.light;
+const { size } = theme.natura.light
 
 /**
  * @deprecated size keys `semix`, `mediumx`, `largex*`, `hugex*` and `veryhuge` are deprecated since version 0.19
@@ -69,6 +69,6 @@ export const deprecatedSizes = {
    *
    * In case you need `veryHuge` token, please use `veryHuge` (with capital H) instead of `veryhuge`.
    */
-  veryhuge: size.veryHuge,
+  veryhuge: size.veryHuge
 
-};
+}

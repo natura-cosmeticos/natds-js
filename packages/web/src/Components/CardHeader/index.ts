@@ -1,5 +1,5 @@
-import CardHeader from "./CardHeader";
+import CardHeader from './CardHeader'
 
-export { ICardHeaderProps } from "./CardHeader.props";
-export { CardHeader };
-export default CardHeader;
+export { ICardHeaderProps } from './CardHeader.props'
+export { CardHeader }
+export default CardHeader

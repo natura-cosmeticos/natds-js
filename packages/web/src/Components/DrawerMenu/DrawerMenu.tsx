@@ -1,9 +1,9 @@
 // eslint-disable-next-line no-use-before-define
-import * as React from "react";
-import { List } from "../List";
-import { IDrawerMenuProps } from "./DrawerMenu.props";
-import { BuildDrawerMenuItems } from "./BuildDrawerMenuItems";
-import { useStyles } from "./DrawerMenu.styles";
+import * as React from 'react'
+import { List } from '../List'
+import { IDrawerMenuProps } from './DrawerMenu.props'
+import { BuildDrawerMenuItems } from './BuildDrawerMenuItems'
+import { useStyles } from './DrawerMenu.styles'
 
 /**
  * ## Importing
@@ -13,32 +13,35 @@ import { useStyles } from "./DrawerMenu.styles";
  * ```
  */
 export const DrawerMenu = React.forwardRef<HTMLElement, IDrawerMenuProps>((
-  props: IDrawerMenuProps, ref,
+  props: IDrawerMenuProps, ref
 ) => {
   const {
     children,
-    component: Component = "div",
+    component: Component = 'div',
     list,
     ...otherProps
-  } = props;
+  } = props
 
-  const { root, listPadding } = useStyles();
+  const { root, listPadding } = useStyles()
 
-  const content = children || <List
+  const content = children || (
+  <List
     classes={{ padding: listPadding }}
     dense
-  >{list && list.map((drawerMenuSectionProps, index) => (
+  >
+    {list && list.map((drawerMenuSectionProps, index) => (
       <BuildDrawerMenuItems {...drawerMenuSectionProps} key={index} />
     ))}
-  </List>;
+  </List>
+  )
 
   return (
     <Component {...otherProps} className={root} ref={ref}>
       {content}
     </Component>
-  );
-});
+  )
+})
 
-DrawerMenu.displayName = "DrawerMenu";
+DrawerMenu.displayName = 'DrawerMenu'
 
-export default DrawerMenu;
+export default DrawerMenu

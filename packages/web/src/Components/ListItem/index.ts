@@ -1,5 +1,5 @@
-import ListItem from "./ListItem";
+import ListItem from './ListItem'
 
-export { IListItemProps } from "./ListItem.props";
-export { ListItem };
-export default ListItem;
+export { IListItemProps } from './ListItem.props'
+export { ListItem }
+export default ListItem

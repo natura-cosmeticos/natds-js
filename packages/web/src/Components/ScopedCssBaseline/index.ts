@@ -1,5 +1,5 @@
-import ScopedCssBaseline from "./ScopedCssBaseline";
+import ScopedCssBaseline from './ScopedCssBaseline'
 
-export { IScopedCssBaselineProps } from "./ScopedCssBaseline.props";
-export { ScopedCssBaseline };
-export default ScopedCssBaseline;
+export { IScopedCssBaselineProps } from './ScopedCssBaseline.props'
+export { ScopedCssBaseline }
+export default ScopedCssBaseline

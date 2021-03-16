@@ -1,5 +1,5 @@
-import DialogContentText from "./DialogContentText";
+import DialogContentText from './DialogContentText'
 
-export { IDialogContentTextProps } from "./DialogContentText.props";
-export { DialogContentText };
-export default DialogContentText;
+export { IDialogContentTextProps } from './DialogContentText.props'
+export { DialogContentText }
+export default DialogContentText

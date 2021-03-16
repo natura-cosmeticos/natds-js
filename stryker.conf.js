@@ -2,17 +2,17 @@
  * @type {import('@stryker-mutator/api/core').StrykerOptions}
  */
 module.exports = {
-  coverageAnalysis: "off",
+  coverageAnalysis: 'off',
   mutate: [
-    "scripts/**/*.js", "!scripts/__tests__/**/*.js",
+    'scripts/**/*.js', '!scripts/__tests__/**/*.js'
   ],
-  mutator: "javascript",
-  packageManager: "yarn",
+  mutator: 'javascript',
+  packageManager: 'yarn',
   reporters: [
-    "html",
-    "clear-text",
-    "dashboard",
+    'html',
+    'clear-text',
+    'dashboard'
   ],
-  testRunner: "jest",
-  transpilers: [],
-};
+  testRunner: 'jest',
+  transpilers: []
+}

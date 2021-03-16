@@ -1,16 +1,16 @@
 /* eslint-disable max-lines */
 /* eslint-disable @typescript-eslint/no-empty-function */
 /* eslint-disable no-unused-expressions */
-import * as React from "react";
-import { ICounterProps } from "./Counter.props";
-import { TextField } from "../TextField";
-import { useStyles } from "./Counter.styles";
-import { ButtonGroup } from "../ButtonGroup";
-import { Button } from "../Button";
-import { InputLabel } from "../InputLabel";
-import { QUANTITY, MAX_VALUE, MIN_VALUE } from "./constants";
+import * as React from 'react'
+import { ICounterProps } from './Counter.props'
+import { TextField } from '../TextField'
+import { useStyles } from './Counter.styles'
+import { ButtonGroup } from '../ButtonGroup'
+import { Button } from '../Button'
+import { InputLabel } from '../InputLabel'
+import { QUANTITY, MAX_VALUE, MIN_VALUE } from './constants'
 
-export { ICounterProps } from "./Counter.props";
+export { ICounterProps } from './Counter.props'
 
 /**
  * ## Importing
@@ -22,7 +22,6 @@ export { ICounterProps } from "./Counter.props";
 
 // eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const Counter = (props: ICounterProps) => {
-
   const {
     onChange,
     onDecrement,
@@ -32,49 +31,49 @@ export const Counter = (props: ICounterProps) => {
     readOnly,
     initialValue,
     maxValue,
-    minValue,
-  } = props;
+    minValue
+  } = props
 
-  const { button, input } = useStyles(props);
+  const { button, input } = useStyles(props)
 
-  const [value, setValue] = React.useState(initialValue);
+  const [value, setValue] = React.useState(initialValue)
 
   // eslint-disable-next-line consistent-return
   React.useEffect(() => {
     if (initialValue > MAX_VALUE) {
-      return setValue(MAX_VALUE);
+      return setValue(MAX_VALUE)
     }
     if (initialValue < MIN_VALUE) {
-      return setValue(MIN_VALUE);
+      return setValue(MIN_VALUE)
     }
-  }, [initialValue]);
+  }, [initialValue])
 
   const handleInputChange = (event: { target: HTMLInputElement }): void => {
-    const newValue = Number(event.target.value);
+    const newValue = Number(event.target.value)
 
-    if (newValue < minValue || newValue > maxValue) return;
-    setValue(newValue);
-    onChange && onChange(newValue);
-  };
+    if (newValue < minValue || newValue > maxValue) return
+    setValue(newValue)
+    onChange && onChange(newValue)
+  }
 
   const increment = () : void => {
-    const newValue = value + QUANTITY;
+    const newValue = value + QUANTITY
 
-    if (newValue > maxValue) return;
-    setValue(newValue);
-    onIncrement && onIncrement(newValue);
-  };
+    if (newValue > maxValue) return
+    setValue(newValue)
+    onIncrement && onIncrement(newValue)
+  }
 
   const decrement = () : void => {
-    const newValue = value - QUANTITY;
+    const newValue = value - QUANTITY
 
-    if (newValue < minValue) return;
-    setValue(newValue);
-    onDecrement && onDecrement(newValue);
-  };
+    if (newValue < minValue) return
+    setValue(newValue)
+    onDecrement && onDecrement(newValue)
+  }
 
-  const maxReached = value >= maxValue;
-  const minReached = value <= minValue;
+  const maxReached = value >= maxValue
+  const minReached = value <= minValue
 
   return (
     <div>
@@ -87,11 +86,12 @@ export const Counter = (props: ICounterProps) => {
         disabled={readOnly}
       >
         <Button
-          id={"decrement-button"}
+          id="decrement-button"
           disabled={minReached}
           variant="outlined"
           onClick={decrement}
-          className={button}>
+          className={button}
+        >
           -
         </Button>
         <TextField
@@ -102,25 +102,26 @@ export const Counter = (props: ICounterProps) => {
           onChange={handleInputChange}
         />
         <Button
-          id={"increment-button"}
+          id="increment-button"
           disabled={maxReached}
           variant="outlined"
           onClick={increment}
-          className={button}>
+          className={button}
+        >
           +
         </Button>
       </ButtonGroup>
     </div>
-  );
-};
+  )
+}
 
-Counter.displayName = "Counter";
+Counter.displayName = 'Counter'
 
 Counter.defaultProps = {
   readOnly: false,
-  size: "small",
+  size: 'small',
   minValue: MIN_VALUE,
-  maxValue: MAX_VALUE,
-};
+  maxValue: MAX_VALUE
+}
 
-export default Counter;
+export default Counter

@@ -1,10 +1,10 @@
-import * as React from "react";
+import * as React from 'react'
 
-import MaterialButton from "@material-ui/core/Button";
-import { IButtonProps } from "./Button.props";
-import useStyles from "./Button.styles";
+import MaterialButton from '@material-ui/core/Button'
+import { IButtonProps } from './Button.props'
+import useStyles from './Button.styles'
 
-export { IButtonProps } from "./Button.props";
+export { IButtonProps } from './Button.props'
 
 /**
  * ```
@@ -15,22 +15,23 @@ export { IButtonProps } from "./Button.props";
  */
 export const Button = React.forwardRef<HTMLButtonElement, IButtonProps>(
   (props: IButtonProps, ref) => {
-
-    const { classes, disableElevation, ...otherProps } = props;
+    const { classes, disableElevation, ...otherProps } = props
 
     const mergedClasses = {
       ...classes,
-      ...useStyles(),
-    };
+      ...useStyles()
+    }
 
-    return <MaterialButton
-      classes={mergedClasses}
-      disableElevation={disableElevation}
-      ref={ref}
-      {...otherProps}
-    />;
+    return (
+      <MaterialButton
+        classes={mergedClasses}
+        disableElevation={disableElevation}
+        ref={ref}
+        {...otherProps}
+      />
+    )
+  }
+)
 
-  });
-
-Button.displayName = "Button";
-export default Button;
+Button.displayName = 'Button'
+export default Button

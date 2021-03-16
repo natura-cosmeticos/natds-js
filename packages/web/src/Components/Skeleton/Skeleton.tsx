@@ -1,11 +1,11 @@
-import * as React from "react";
-import MaterialSkeleton from "@material-ui/lab/Skeleton";
-import useTheme from "@material-ui/core/styles/useTheme";
-import { ISkeletonProps } from "./Skeleton.props";
-import { IThemeWeb } from "../../Themes";
-import { getSizeStyleProp } from "../../hooks/useSizeStyleProp";
+import * as React from 'react'
+import MaterialSkeleton from '@material-ui/lab/Skeleton'
+import useTheme from '@material-ui/core/styles/useTheme'
+import { ISkeletonProps } from './Skeleton.props'
+import { IThemeWeb } from '../../Themes'
+import { getSizeStyleProp } from '../../hooks/useSizeStyleProp'
 
-export { ISkeletonProps } from "./Skeleton.props";
+export { ISkeletonProps } from './Skeleton.props'
 
 /**
  * Display a placeholder preview of your content before the data gets loaded to reduce
@@ -27,26 +27,29 @@ export const Skeleton = React.forwardRef<HTMLDivElement, ISkeletonProps>(
   (props: ISkeletonProps, ref) => {
     const {
       height, width, ...otherProps
-    } = props;
+    } = props
 
-    const theme : IThemeWeb = useTheme();
+    const theme : IThemeWeb = useTheme()
 
     const heightAttribute = getSizeStyleProp({
       theme,
-      value: height,
-    });
+      value: height
+    })
     const widthAttribute = getSizeStyleProp({
       theme,
-      value: width,
-    });
+      value: width
+    })
 
-    return <MaterialSkeleton
-      {...otherProps}
-      height={heightAttribute}
-      width={widthAttribute}
-      ref={ref} />;
-  },
-);
+    return (
+      <MaterialSkeleton
+        {...otherProps}
+        height={heightAttribute}
+        width={widthAttribute}
+        ref={ref}
+      />
+    )
+  }
+)
 
-Skeleton.displayName = "Skeleton";
-export default Skeleton;
+Skeleton.displayName = 'Skeleton'
+export default Skeleton

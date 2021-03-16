@@ -1,13 +1,13 @@
-import * as React from "react";
-import * as TestRenderer from "react-test-renderer";
-import { TableContainer } from "../TableContainer";
-import { Table } from "../Table";
-import { TableBody } from "../TableBody";
-import { TableRow } from "../TableRow";
-import { TableCell } from "../TableCell";
+import * as React from 'react'
+import * as TestRenderer from 'react-test-renderer'
+import { TableContainer } from '../TableContainer'
+import { Table } from '../Table'
+import { TableBody } from '.'
+import { TableRow } from '../TableRow'
+import { TableCell } from '../TableCell'
 
-describe("TableBody component", () => {
-  it("should match snapshot", () => {
+describe('TableBody component', () => {
+  it('should match snapshot', () => {
     const testRenderer: TestRenderer.ReactTestRenderer = TestRenderer.create(
       <TableContainer>
         <Table>
@@ -17,9 +17,9 @@ describe("TableBody component", () => {
             </TableRow>
           </TableBody>
         </Table>
-      </TableContainer>,
-    );
+      </TableContainer>
+    )
 
-    expect(testRenderer).toMatchSnapshot();
-  });
-});
+    expect(testRenderer).toMatchSnapshot()
+  })
+})

@@ -1,5 +1,5 @@
-import DialogActions from "./DialogActions";
+import DialogActions from './DialogActions'
 
-export { IDialogActionsProps } from "./DialogActions.props";
-export { DialogActions };
-export default DialogActions;
+export { IDialogActionsProps } from './DialogActions.props'
+export { DialogActions }
+export default DialogActions
