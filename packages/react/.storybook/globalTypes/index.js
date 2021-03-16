@@ -35,7 +35,7 @@ export const globalTypes = {
           value: "light",
         },
         {
-          title: "Avon",
+          title: "Dark",
           value: "dark",
         },
       ],
