@@ -51,6 +51,7 @@ module.exports = {
       rules: {
         '@typescript-eslint/no-var-requires': 1,
         'import/no-named-as-default': 'off',
+        'import/no-unresolved': 'off',
         'no-use-before-define': 'off',
         'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
         'react/jsx-props-no-spreading': 'off',
