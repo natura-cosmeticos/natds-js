@@ -1,10 +1,9 @@
 import React from 'react'
 import { ThemeProvider } from 'react-jss'
-import themes from '@naturacosmeticos/natds-themes';
-import { IProviderProps } from "Provider";
+import themes from '@naturacosmeticos/natds-themes'
+import { IProviderProps } from 'Provider'
 
-export const Provider = ({ children, brand, mode }: IProviderProps) => {
-
+const Provider = ({ children, brand, mode }: IProviderProps) => {
   const currentTheme = brand && mode ? themes[brand][mode] : themes.natura.light
 
   return (
@@ -13,3 +12,5 @@ export const Provider = ({ children, brand, mode }: IProviderProps) => {
     </ThemeProvider>
   )
 }
+
+export default Provider
