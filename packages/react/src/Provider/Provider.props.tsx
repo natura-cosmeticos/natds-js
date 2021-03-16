@@ -1,10 +1,11 @@
-import * as React from "react";
-import { BrandThemes, Themes } from '@naturacosmeticos/natds-themes';
+import * as React from 'react'
+import { BrandThemes, Themes } from '@naturacosmeticos/natds-themes'
+
 export interface IProviderProps {
 
-  children: React.ReactNode;
+  children: React.ReactNode
 
-  brand?: Themes;
+  brand?: Themes
 
   mode?: BrandThemes
 }
