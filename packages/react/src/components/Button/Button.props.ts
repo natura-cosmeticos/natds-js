@@ -2,7 +2,7 @@ export interface ButtonProps {
   /**
    * The size of the button
    */
-  size?: 'semi' | 'semix' | 'medium';
+  size?: 'semi' | 'semiX' | 'medium';
 
   /**
    * The text content of the button
