@@ -1,11 +1,21 @@
 import * as React from 'react'
-import * as TestRenderer from 'react-test-renderer'
+import { render } from '@testing-library/react'
+import { JssProvider, SheetsRegistry } from 'react-jss'
 import Button from '.'
+import ThemeProvider from '../../ThemeProvider'
 
 describe('Button component', () => {
-  it('should render correctly', () => {
-    const button = TestRenderer.create(<Button label="button" />)
+  it('should render correctly with default props', () => {
+    const sheets = new SheetsRegistry()
 
-    expect(button).toMatchSnapshot()
+    const { container } = render(
+      <JssProvider registry={sheets}>
+        <ThemeProvider>
+          <Button label="button" />
+        </ThemeProvider>
+      </JssProvider>
+    )
+
+    expect([sheets.toString(), container]).toMatchSnapshot()
   })
 })

@@ -8,4 +8,4 @@ export default {
   component: Button
 } as Meta
 
-export const Template: Story<ButtonProps> = (args) => <Button {...args} />
+export const Template: Story<ButtonProps> = (args) => <Button {...args} label="button" />

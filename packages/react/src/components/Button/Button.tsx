@@ -5,7 +5,7 @@ import styles from './Button.styles'
 /**
  * `import { Button } from '@naturacosmeticos/natds-react'`
  */
-const Button = ({ label = 'button', size = 'medium', ...props }: ButtonProps): JSX.Element => {
+const Button = ({ label, size = 'semiX', ...props }: ButtonProps): JSX.Element => {
   const classes = styles({ size })
 
   return (
