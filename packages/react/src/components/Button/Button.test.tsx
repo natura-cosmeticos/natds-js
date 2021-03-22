@@ -2,7 +2,7 @@ import * as React from 'react'
 import { render } from '@testing-library/react'
 import { JssProvider, SheetsRegistry } from 'react-jss'
 import Button from '.'
-import ThemeProvider from '../../ThemeProvider'
+import { ThemeProvider } from '../../ThemeProvider'
 
 describe('Button component', () => {
   it('should render correctly with default props', () => {

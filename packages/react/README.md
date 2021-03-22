@@ -79,30 +79,22 @@ module.exports = {
 
 Here is a quick example to get you started:
 
-Note that we enclose all your application in a `Provider` component.
+Note that we enclose all your application in a `ThemeProvider` component.
 
 ```jsx
 import React from "react";
-import {
-  Button,
-  CssBaseline,
-  Provider,
-  themes,
-} from "@naturacosmeticos/natds-web";
+import { Button, ThemeProvider } from "@naturacosmeticos/natds-web";
 
 export const App = () => (
-  <Provider theme={themes.natura.light} cssPrefix="YourCssPrefixHere">
-    <CssBaseline />
+  <ThemeProvider brand="natura" mode="light">
     <Button color="primary" variant="contained">
       Hello World
     </Button>
-  </Provider>
+  </ThemeProvider>
 );
 ```
 
-This package only works fine with the use of `<Provider />`, that is **essential** for applying styles correctly. And to avoid problems with multiple style fonts, it is necessary to add a `cssPrefix` with theme provider (the default is `natds`).
-
-Please do not try to override theme palette or another tokens. Our Design System themes are ready to use.
+This package only works fine with the use of `<ThemeProvider />`, that is **essential** for applying styles correctly.
 
 ## Additional information
 

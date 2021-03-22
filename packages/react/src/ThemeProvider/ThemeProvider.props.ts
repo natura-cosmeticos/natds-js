@@ -1,8 +1,10 @@
+import { Brand, ThemeMode } from './buildTheme'
+
 export interface ThemeProviderProps {
 
   children: React.ReactNode
 
-  brand?: 'natura' | 'avon' | 'theBodyShop' | 'aesop'
+  brand?: Brand
 
-  mode?: 'light' | 'dark'
+  mode?: ThemeMode
 }

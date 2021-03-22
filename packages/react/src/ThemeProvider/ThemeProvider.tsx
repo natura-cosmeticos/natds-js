@@ -1,16 +1,12 @@
 import React from 'react'
-import { ThemeProvider as JssProvider } from 'react-jss'
-import themes from '@naturacosmeticos/natds-themes'
-import { ThemeProviderProps } from 'ThemeProvider'
+import { ThemeProvider as Provider } from 'react-jss'
+import { ThemeProviderProps } from './ThemeProvider.props'
+import buildTheme from './buildTheme'
 
-const ThemeProvider = ({ children, brand, mode }: ThemeProviderProps): JSX.Element => {
-  const currentTheme = brand && mode ? themes[brand][mode] : themes.natura.light
-
-  return (
-    <JssProvider theme={currentTheme}>
-      {children}
-    </JssProvider>
-  )
-}
+const ThemeProvider = ({ children, brand, mode }: ThemeProviderProps) => (
+  <Provider theme={buildTheme(brand, mode)}>
+    {children}
+  </Provider>
+)
 
 export default ThemeProvider
