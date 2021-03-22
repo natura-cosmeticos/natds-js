@@ -1,21 +1,21 @@
 import * as React from 'react'
-import { render } from '@testing-library/react'
-import { JssProvider, SheetsRegistry } from 'react-jss'
+import { fireEvent } from '@testing-library/react'
 import Button from '.'
-import { ThemeProvider } from '../../ThemeProvider'
+import renderWithTheme from '../../helpers/renderWithTheme'
 
 describe('Button component', () => {
   it('should render correctly with default props', () => {
-    const sheets = new SheetsRegistry()
+    const { styles, component } = renderWithTheme(<Button label="button" />)
 
-    const { container } = render(
-      <JssProvider registry={sheets}>
-        <ThemeProvider>
-          <Button label="button" />
-        </ThemeProvider>
-      </JssProvider>
-    )
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
 
-    expect([sheets.toString(), container]).toMatchSnapshot()
+  it('should call onClick', () => {
+    const onClickMock = jest.fn()
+    const { component: { getByTestId } } = renderWithTheme(<Button label="button" onClick={onClickMock} testID="btn-test" />)
+
+    fireEvent(getByTestId('btn-test'), new MouseEvent('click', { bubbles: true }))
+
+    expect(onClickMock).toHaveBeenCalled()
   })
 })

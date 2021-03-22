@@ -13,4 +13,9 @@ export interface ButtonProps {
    * Optional click handler
    */
   onClick?: () => void;
+
+  /**
+   * Optional ID for testing
+   */
+  testID?: string;
 }
