@@ -2,7 +2,7 @@
 
 exports[`Button component should render correctly with default props 1`] = `
 Array [
-  ".button-0-2-1 {
+  ".natdsbutton-0-2-1 {
   border: 0;
   cursor: pointer;
   outline: 0;
@@ -11,14 +11,14 @@ Array [
   border-radius: 4px;
   background-color: #f4ab34;
 }
-.button-0-2-1:hover {
+.natdsbutton-0-2-1:hover {
   background-color: #ef8426;
 }
-.button-0-2-1:disabled {
+.natdsbutton-0-2-1:disabled {
   cursor: default;
   background-color: #bbbbbb;
 }
-.label-0-2-2 {
+.natdslabel-0-2-2 {
   color: #333333;
   font-size: 14px;
   font-family: Roboto, sans-serif;
@@ -27,16 +27,16 @@ Array [
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.natdsbutton-d0-0-2-3 {
   height: 40px;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="natdsbutton-0-2-1 natdsbutton-d0-0-2-3"
       type="button"
     >
       <span
-        class="label-0-2-2"
+        class="natdslabel-0-2-2"
       >
         button
       </span>
