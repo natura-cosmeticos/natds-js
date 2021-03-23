@@ -6,14 +6,14 @@ module.exports = {
   ],
   addons: [
     {
+      name: '@storybook/addon-docs',
+      options: { transcludeMarkdown: true },
+    },
+    {
       name: '@storybook/addon-essentials',
       options: {
         actions: false,
       },
-    },
-    {
-      name: '@storybook/addon-docs',
-      options: { transcludeMarkdown: true },
     },
   ],
 };

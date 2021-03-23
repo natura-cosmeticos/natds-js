@@ -3,6 +3,8 @@ import { Story, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '.'
 
 const componentStatus = `
+---
+
 **NOTE**: This component is available in the following variants:
 
   - ✅ contained
@@ -20,6 +22,8 @@ With the following attribute status:
 - **Display**:
     - ✅ \`inline\`
     - ❌ \`block\`
+
+---
 `
 
 export default {
