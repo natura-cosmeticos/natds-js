@@ -14,6 +14,10 @@ Array [
 .button-0-2-1:hover {
   background-color: #ef8426;
 }
+.button-0-2-1:disabled {
+  cursor: default;
+  background-color: #bbbbbb;
+}
 .label-0-2-2 {
   color: #333333;
   font-size: 14px;

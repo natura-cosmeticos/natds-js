@@ -18,4 +18,10 @@ export interface ButtonProps {
    * Optional ID for testing
    */
   testID?: string;
+
+  /**
+   * If `true`, the button will be disabled.
+   * @default false
+   */
+  disabled?: boolean;
 }

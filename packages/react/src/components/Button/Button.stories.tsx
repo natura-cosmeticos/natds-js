@@ -18,7 +18,7 @@ With the following attribute status:
     - ✅ \`semiX\`
     - ✅ \`medium\`
 - ❌ **Icon**
-- ❌ **Disabled**
+- ✅  **Disabled**
 - **Display**:
     - ✅ \`inline\`
     - ❌ \`block\`
@@ -48,3 +48,9 @@ export const Sizes: Story<ButtonProps> = (args) => (
     <Button {...args} label="medium" size="medium" />
   </>
 )
+
+export const Disabled: Story<ButtonProps> = All.bind({})
+Disabled.args = {
+  ...All.args,
+  disabled: true
+}

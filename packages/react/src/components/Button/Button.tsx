@@ -3,12 +3,17 @@ import { ButtonProps } from './Button.props'
 import styles from './Button.styles'
 
 const Button = ({
-  label, size = 'semiX', onClick, testID, ...props
+  disabled = false,
+  label,
+  onClick,
+  size = 'semiX',
+  testID,
+  ...props
 }: ButtonProps): JSX.Element => {
   const classes = styles({ size })
 
   return (
-    <button className={classes.button} type="button" {...props} onClick={onClick} data-testid={testID}>
+    <button className={classes.button} type="button" {...props} onClick={onClick} data-testid={testID} disabled={disabled}>
       <span className={classes.label}>{label}</span>
     </button>
   )

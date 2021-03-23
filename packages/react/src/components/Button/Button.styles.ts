@@ -14,6 +14,10 @@ const styles = createUseStyles((theme: Theme) => ({
     padding: `${theme.spacing.tiny}px ${theme.spacing.small}px`,
     '&:hover': {
       backgroundColor: theme.color.primaryDark
+    },
+    '&:disabled': {
+      backgroundColor: theme.color.lowEmphasis,
+      cursor: 'default'
     }
   },
   label: {
