@@ -3,9 +3,9 @@
 exports[`Button component should render correctly with default props 1`] = `
 Array [
   ".button-0-2-1 {
-  border: none;
+  border: 0;
   cursor: pointer;
-  outline: none;
+  outline: 0;
   padding: 8px 16px;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
   border-radius: 4px;
@@ -14,8 +14,9 @@ Array [
 .label-0-2-2 {
   color: #333333;
   font-size: 14px;
-  font-weight: bold;
-  letter-spacing: 1px;
+  font-weight: 500;
+  line-height: 1.5;
+  letter-spacing: 1.23px;
   text-transform: uppercase;
 }
 .button-d0-0-2-3 {

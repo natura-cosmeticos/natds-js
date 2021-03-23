@@ -5,19 +5,17 @@ import { ButtonProps } from './Button.props'
 const styles = createUseStyles((theme: Theme) => ({
   button: {
     backgroundColor: theme.color.primary,
-    border: 'none',
+    border: 0,
     borderRadius: 4,
     boxShadow: theme.elevation.tiny,
     cursor: 'pointer',
     height: ({ size }: ButtonProps) => (size && theme.size[size]),
-    outline: 'none',
+    outline: 0,
     padding: `${theme.spacing.tiny}px ${theme.spacing.small}px`
   },
   label: {
+    ...theme.button.default,
     color: theme.color.onPrimary,
-    fontSize: 14,
-    fontWeight: 'bold',
-    letterSpacing: 1,
     textTransform: 'uppercase'
   }
 }))

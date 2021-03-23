@@ -2,9 +2,6 @@ import React from 'react'
 import { ButtonProps } from './Button.props'
 import styles from './Button.styles'
 
-/**
- * `import { Button } from '@naturacosmeticos/natds-react'`
- */
 const Button = ({
   label, size = 'semiX', onClick, testID, ...props
 }: ButtonProps): JSX.Element => {
