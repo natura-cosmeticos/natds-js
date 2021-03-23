@@ -11,11 +11,15 @@ const styles = createUseStyles((theme: Theme) => ({
     cursor: 'pointer',
     height: ({ size }: ButtonProps) => (size && theme.size[size]),
     outline: 0,
-    padding: `${theme.spacing.tiny}px ${theme.spacing.small}px`
+    padding: `${theme.spacing.tiny}px ${theme.spacing.small}px`,
+    '&:hover': {
+      backgroundColor: theme.color.primaryDark
+    }
   },
   label: {
     ...theme.button.default,
     color: theme.color.onPrimary,
+    fontFamily: 'Roboto, sans-serif',
     textTransform: 'uppercase'
   }
 }))
