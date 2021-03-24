@@ -4,7 +4,7 @@ import styles from './Button.styles'
 
 const Button = ({
   disabled = false,
-  display = 'inline',
+  fullWidth = false,
   label,
   onClick,
   size = 'semiX',
@@ -12,7 +12,9 @@ const Button = ({
   variant = 'contained',
   ...props
 }: ButtonProps): JSX.Element => {
-  const classes = styles({ size, display, variant })
+  const classes = styles({
+    size, fullWidth, variant, disabled
+  })
 
   return (
     <button

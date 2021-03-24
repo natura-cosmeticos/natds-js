@@ -9,8 +9,8 @@ const componentStatus = `
 **NOTE**: This component is available in the following variants:
 
   - ✅ contained
-  - ❌ outlined
-  - ❌ text
+  - ✅ outlined
+  - ✅ text
 
 With the following attribute status:
 
@@ -39,7 +39,13 @@ export default {
 export const Playground: Story<ButtonProps> = (args) => <Button {...args} />
 Playground.args = { label: 'button' }
 
-export const Variants: Story<ButtonProps> = () => <Button label="contained" variant="contained" />
+export const Variants: Story<ButtonProps> = () => (
+  <StoryContainer>
+    <Button label="contained" variant="contained" />
+    <Button label="outlined" variant="outlined" />
+    <Button label="text" variant="text" />
+  </StoryContainer>
+)
 
 export const Sizes: Story<ButtonProps> = () => (
   <StoryContainer>
@@ -49,11 +55,7 @@ export const Sizes: Story<ButtonProps> = () => (
   </StoryContainer>
 )
 
-export const Display: Story<ButtonProps> = (args) => (
-  <StoryContainer>
-    <Button {...args} display="block" label="block" />
-    <Button {...args} label="inline" />
-  </StoryContainer>
-)
-
 export const Disabled: Story<ButtonProps> = (args) => <Button {...args} label="disabled" disabled />
+
+export const FullWidth: Story<ButtonProps> = Playground.bind({})
+FullWidth.args = { ...Playground.args, fullWidth: true }

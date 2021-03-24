@@ -28,8 +28,35 @@ describe('Button component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-  it('should render correctly when the display is block', () => {
-    const { styles, component } = renderWithTheme(<Button label="button" display="block" />)
+  it('should render correctly when the fullWidth is true', () => {
+    const { styles, component } = renderWithTheme(<Button label="button" fullWidth />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly when disabled is true', () => {
+    const { styles, component } = renderWithTheme(<Button label="button" disabled />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+  it('should render correctly when the variant is outlined', () => {
+    const { styles, component } = renderWithTheme(<Button label="button" variant="outlined" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+  it('should render correctly when the variant is text', () => {
+    const { styles, component } = renderWithTheme(<Button label="button" variant="text" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly when the variant is text and is disabled', () => {
+    const { styles, component } = renderWithTheme(<Button label="button" variant="text" disabled />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+  it('should render correctly when the variant is outlined and is disabled', () => {
+    const { styles, component } = renderWithTheme(<Button label="button" variant="outlined" disabled />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })

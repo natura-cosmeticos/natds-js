@@ -6,9 +6,9 @@ export interface ButtonProps {
   disabled?: boolean;
 
   /**
-   * @default inline
+   * @default false
    */
-  display?: 'inline' | 'block';
+  fullWidth?: boolean;
 
   /**
    * The text content of the button
@@ -33,5 +33,5 @@ export interface ButtonProps {
   /**
    * The variant to use.
    */
-  variant?: 'contained';
+  variant?: 'contained' | 'outlined' | 'text';
 }
