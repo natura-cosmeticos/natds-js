@@ -36,8 +36,8 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<ButtonProps> = (args) => <Button {...args} />
-Playground.args = { label: 'button' }
+export const Template: Story<ButtonProps> = (args) => <Button {...args} />
+Template.args = { label: 'button' }
 
 export const Variants: Story<ButtonProps> = (args) => (
   <StoryContainer>
@@ -46,7 +46,7 @@ export const Variants: Story<ButtonProps> = (args) => (
     <Button {...args} variant="text" />
   </StoryContainer>
 )
-Variants.args = { ...Playground.args }
+Variants.args = { ...Template.args }
 
 export const Sizes: Story<ButtonProps> = (args) => (
   <StoryContainer>
@@ -55,10 +55,10 @@ export const Sizes: Story<ButtonProps> = (args) => (
     <Button {...args} size="medium" />
   </StoryContainer>
 )
-Sizes.args = { ...Playground.args }
+Sizes.args = { ...Template.args }
 
 export const Disabled: Story<ButtonProps> = (args) => <Button {...args} />
-Disabled.args = { ...Playground.args, disabled: true }
+Disabled.args = { ...Template.args, disabled: true }
 
-export const FullWidth: Story<ButtonProps> = Playground.bind({})
-FullWidth.args = { ...Playground.args, fullWidth: true }
+export const FullWidth: Story<ButtonProps> = Template.bind({})
+FullWidth.args = { ...Template.args, fullWidth: true }
