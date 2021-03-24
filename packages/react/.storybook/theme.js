@@ -13,6 +13,7 @@ export const buildTheme = (theme, mode) => create({
   colorSecondary: theme.color.secondary,
   textColor: theme.color.highEmphasis,
   textInverseColor: theme.color.lowEmphasis,
+  fontBase: 'Roboto, sans-serif'
 })
 
 export const dark = buildTheme(themes.natura.dark, 'dark');
