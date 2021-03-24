@@ -50,7 +50,7 @@
   "scripts": {
     "build": "yarn clean && tsc -p ./tsconfig.json",
     "clean": "rm -rf dist",
-    "lint": "eslint --ext .js,.ts, ./ --quiet",
+    "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src --quiet --color",
     "lint:fix": "yarn lint --fix",
     "open:coverage": "open coverage/lcov-report/index.html",
     "start": "yarn build --watch",
