@@ -1,3 +1,4 @@
+/* eslint-disable complexity */
 /* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
@@ -53,7 +54,8 @@ const styles = createUseStyles((theme: Theme) => ({
     padding: `${theme.spacing.tiny}px ${theme.spacing.small}px`
   }),
   label: ({ disabled, variant }: ButtonStyleProps) => ({
-    ...theme.button.default,
+    fontWeight: 500,
+    letterSpacing: 1.23,
     color: theme.color.onPrimary,
     fontFamily: 'Roboto, sans-serif',
     textTransform: 'uppercase',

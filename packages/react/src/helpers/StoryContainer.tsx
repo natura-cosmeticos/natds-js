@@ -4,6 +4,7 @@ import { createUseStyles } from 'react-jss'
 const styles = createUseStyles({
   container: {
     display: 'flex',
+    flexWrap: 'wrap',
     gap: 16,
     maxWidth: 500
   }
