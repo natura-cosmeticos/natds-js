@@ -39,23 +39,26 @@ export default {
 export const Playground: Story<ButtonProps> = (args) => <Button {...args} />
 Playground.args = { label: 'button' }
 
-export const Variants: Story<ButtonProps> = () => (
+export const Variants: Story<ButtonProps> = (args) => (
   <StoryContainer>
-    <Button label="contained" variant="contained" />
-    <Button label="outlined" variant="outlined" />
-    <Button label="text" variant="text" />
+    <Button {...args} variant="contained" />
+    <Button {...args} variant="outlined" />
+    <Button {...args} variant="text" />
   </StoryContainer>
 )
+Variants.args = { ...Playground.args }
 
-export const Sizes: Story<ButtonProps> = () => (
+export const Sizes: Story<ButtonProps> = (args) => (
   <StoryContainer>
-    <Button label="semi" size="semi" />
-    <Button label="semiX" size="semiX" />
-    <Button label="medium" size="medium" />
+    <Button {...args} size="semi" />
+    <Button {...args} size="semiX" />
+    <Button {...args} size="medium" />
   </StoryContainer>
 )
+Sizes.args = { ...Playground.args }
 
-export const Disabled: Story<ButtonProps> = (args) => <Button {...args} label="disabled" disabled />
+export const Disabled: Story<ButtonProps> = (args) => <Button {...args} />
+Disabled.args = { ...Playground.args, disabled: true }
 
 export const FullWidth: Story<ButtonProps> = Playground.bind({})
 FullWidth.args = { ...Playground.args, fullWidth: true }
