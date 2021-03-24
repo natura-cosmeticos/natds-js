@@ -4,7 +4,7 @@ import { ThemeProviderProps } from './ThemeProvider.props'
 import buildTheme from './buildTheme'
 
 const ThemeProvider = ({
-  children, brand, mode, cssPrefix = 'natds'
+  children, brand, mode, cssPrefix = 'natds-'
 }: ThemeProviderProps) => (
   <JssProvider classNamePrefix={cssPrefix}>
     <Provider theme={buildTheme(brand, mode)}>
