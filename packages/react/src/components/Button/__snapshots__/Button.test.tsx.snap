@@ -2,9 +2,9 @@
 
 exports[`Button component should render correctly when disabled is true 1`] = `
 Array [
-  ".natds-button-0-2-1 {}
-.natds-label-0-2-2 {}
-.natds-button-d0-0-2-3 {
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
   border: 0;
   cursor: pointer;
   height: 40px;
@@ -14,30 +14,28 @@ Array [
   border-radius: 4px;
   background-color: #f4ab34;
 }
-.natds-button-d0-0-2-3:hover {
+.button-d0-0-2-3:hover {
   background-color: #ef8426;
 }
-.natds-button-d0-0-2-3:disabled {
+.button-d0-0-2-3:disabled {
   cursor: default;
   background-color: #bbbbbb;
 }
-.natds-label-d1-0-2-4 {
+.label-d1-0-2-4 {
   color: #333333;
-  font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }",
   <div>
     <button
-      class="natds-button-0-2-1 natds-button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-3"
       disabled=""
       type="button"
     >
       <span
-        class="natds-label-0-2-2 natds-label-d1-0-2-4"
+        class="label-0-2-2 label-d1-0-2-4"
       >
         button
       </span>
@@ -48,9 +46,9 @@ Array [
 
 exports[`Button component should render correctly when the fullWidth is true 1`] = `
 Array [
-  ".natds-button-0-2-1 {}
-.natds-label-0-2-2 {}
-.natds-button-d0-0-2-3 {
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
   width: 100%;
   border: 0;
   cursor: pointer;
@@ -61,29 +59,27 @@ Array [
   border-radius: 4px;
   background-color: #f4ab34;
 }
-.natds-button-d0-0-2-3:hover {
+.button-d0-0-2-3:hover {
   background-color: #ef8426;
 }
-.natds-button-d0-0-2-3:disabled {
+.button-d0-0-2-3:disabled {
   cursor: default;
   background-color: #bbbbbb;
 }
-.natds-label-d1-0-2-4 {
+.label-d1-0-2-4 {
   color: #333333;
-  font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }",
   <div>
     <button
-      class="natds-button-0-2-1 natds-button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-3"
       type="button"
     >
       <span
-        class="natds-label-0-2-2 natds-label-d1-0-2-4"
+        class="label-0-2-2 label-d1-0-2-4"
       >
         button
       </span>
@@ -94,9 +90,9 @@ Array [
 
 exports[`Button component should render correctly when the size is medium 1`] = `
 Array [
-  ".natds-button-0-2-1 {}
-.natds-label-0-2-2 {}
-.natds-button-d0-0-2-3 {
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
   border: 0;
   cursor: pointer;
   height: 48px;
@@ -106,29 +102,27 @@ Array [
   border-radius: 4px;
   background-color: #f4ab34;
 }
-.natds-button-d0-0-2-3:hover {
+.button-d0-0-2-3:hover {
   background-color: #ef8426;
 }
-.natds-button-d0-0-2-3:disabled {
+.button-d0-0-2-3:disabled {
   cursor: default;
   background-color: #bbbbbb;
 }
-.natds-label-d1-0-2-4 {
+.label-d1-0-2-4 {
   color: #333333;
-  font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }",
   <div>
     <button
-      class="natds-button-0-2-1 natds-button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-3"
       type="button"
     >
       <span
-        class="natds-label-0-2-2 natds-label-d1-0-2-4"
+        class="label-0-2-2 label-d1-0-2-4"
       >
         button
       </span>
@@ -139,9 +133,9 @@ Array [
 
 exports[`Button component should render correctly when the size is semi 1`] = `
 Array [
-  ".natds-button-0-2-1 {}
-.natds-label-0-2-2 {}
-.natds-button-d0-0-2-3 {
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
   border: 0;
   cursor: pointer;
   height: 32px;
@@ -151,29 +145,27 @@ Array [
   border-radius: 4px;
   background-color: #f4ab34;
 }
-.natds-button-d0-0-2-3:hover {
+.button-d0-0-2-3:hover {
   background-color: #ef8426;
 }
-.natds-button-d0-0-2-3:disabled {
+.button-d0-0-2-3:disabled {
   cursor: default;
   background-color: #bbbbbb;
 }
-.natds-label-d1-0-2-4 {
+.label-d1-0-2-4 {
   color: #333333;
-  font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }",
   <div>
     <button
-      class="natds-button-0-2-1 natds-button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-3"
       type="button"
     >
       <span
-        class="natds-label-0-2-2 natds-label-d1-0-2-4"
+        class="label-0-2-2 label-d1-0-2-4"
       >
         button
       </span>
@@ -184,9 +176,9 @@ Array [
 
 exports[`Button component should render correctly when the variant is outlined 1`] = `
 Array [
-  ".natds-button-0-2-1 {}
-.natds-label-0-2-2 {}
-.natds-button-d0-0-2-3 {
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
   border: 1px solid #f4ab3480;
   cursor: pointer;
   height: 40px;
@@ -195,31 +187,29 @@ Array [
   border-radius: 4px;
   background-color: transparent;
 }
-.natds-button-d0-0-2-3:hover {
+.button-d0-0-2-3:hover {
   border: 1px solid #f4ab34;
   background-color: #ef84260a;
 }
-.natds-button-d0-0-2-3:disabled {
+.button-d0-0-2-3:disabled {
   border: 1px solid #bbbbbb;
   cursor: default;
   background-color: transparent;
 }
-.natds-label-d1-0-2-4 {
+.label-d1-0-2-4 {
   color: #333333;
-  font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }",
   <div>
     <button
-      class="natds-button-0-2-1 natds-button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-3"
       type="button"
     >
       <span
-        class="natds-label-0-2-2 natds-label-d1-0-2-4"
+        class="label-0-2-2 label-d1-0-2-4"
       >
         button
       </span>
@@ -230,9 +220,9 @@ Array [
 
 exports[`Button component should render correctly when the variant is outlined and is disabled 1`] = `
 Array [
-  ".natds-button-0-2-1 {}
-.natds-label-0-2-2 {}
-.natds-button-d0-0-2-3 {
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
   border: 1px solid #f4ab3480;
   cursor: pointer;
   height: 40px;
@@ -241,32 +231,30 @@ Array [
   border-radius: 4px;
   background-color: transparent;
 }
-.natds-button-d0-0-2-3:hover {
+.button-d0-0-2-3:hover {
   border: 1px solid #f4ab34;
   background-color: #ef84260a;
 }
-.natds-button-d0-0-2-3:disabled {
+.button-d0-0-2-3:disabled {
   border: 1px solid #bbbbbb;
   cursor: default;
   background-color: transparent;
 }
-.natds-label-d1-0-2-4 {
+.label-d1-0-2-4 {
   color: #bbbbbb;
-  font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }",
   <div>
     <button
-      class="natds-button-0-2-1 natds-button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-3"
       disabled=""
       type="button"
     >
       <span
-        class="natds-label-0-2-2 natds-label-d1-0-2-4"
+        class="label-0-2-2 label-d1-0-2-4"
       >
         button
       </span>
@@ -277,9 +265,9 @@ Array [
 
 exports[`Button component should render correctly when the variant is text 1`] = `
 Array [
-  ".natds-button-0-2-1 {}
-.natds-label-0-2-2 {}
-.natds-button-d0-0-2-3 {
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
   border: 0;
   cursor: pointer;
   height: 40px;
@@ -288,29 +276,27 @@ Array [
   border-radius: 4px;
   background-color: transparent;
 }
-.natds-button-d0-0-2-3:hover {
+.button-d0-0-2-3:hover {
   background-color: #f4ab340a;
 }
-.natds-button-d0-0-2-3:disabled {
+.button-d0-0-2-3:disabled {
   cursor: default;
   background-color: transparent;
 }
-.natds-label-d1-0-2-4 {
+.label-d1-0-2-4 {
   color: #333333;
-  font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }",
   <div>
     <button
-      class="natds-button-0-2-1 natds-button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-3"
       type="button"
     >
       <span
-        class="natds-label-0-2-2 natds-label-d1-0-2-4"
+        class="label-0-2-2 label-d1-0-2-4"
       >
         button
       </span>
@@ -321,9 +307,9 @@ Array [
 
 exports[`Button component should render correctly when the variant is text and is disabled 1`] = `
 Array [
-  ".natds-button-0-2-1 {}
-.natds-label-0-2-2 {}
-.natds-button-d0-0-2-3 {
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
   border: 0;
   cursor: pointer;
   height: 40px;
@@ -332,30 +318,28 @@ Array [
   border-radius: 4px;
   background-color: transparent;
 }
-.natds-button-d0-0-2-3:hover {
+.button-d0-0-2-3:hover {
   background-color: #f4ab340a;
 }
-.natds-button-d0-0-2-3:disabled {
+.button-d0-0-2-3:disabled {
   cursor: default;
   background-color: transparent;
 }
-.natds-label-d1-0-2-4 {
+.label-d1-0-2-4 {
   color: #bbbbbb;
-  font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }",
   <div>
     <button
-      class="natds-button-0-2-1 natds-button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-3"
       disabled=""
       type="button"
     >
       <span
-        class="natds-label-0-2-2 natds-label-d1-0-2-4"
+        class="label-0-2-2 label-d1-0-2-4"
       >
         button
       </span>
@@ -366,9 +350,9 @@ Array [
 
 exports[`Button component should render correctly with default props 1`] = `
 Array [
-  ".natds-button-0-2-1 {}
-.natds-label-0-2-2 {}
-.natds-button-d0-0-2-3 {
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
   border: 0;
   cursor: pointer;
   height: 40px;
@@ -378,29 +362,27 @@ Array [
   border-radius: 4px;
   background-color: #f4ab34;
 }
-.natds-button-d0-0-2-3:hover {
+.button-d0-0-2-3:hover {
   background-color: #ef8426;
 }
-.natds-button-d0-0-2-3:disabled {
+.button-d0-0-2-3:disabled {
   cursor: default;
   background-color: #bbbbbb;
 }
-.natds-label-d1-0-2-4 {
+.label-d1-0-2-4 {
   color: #333333;
-  font-size: 14px;
   font-family: Roboto, sans-serif;
   font-weight: 500;
-  line-height: 1.5;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }",
   <div>
     <button
-      class="natds-button-0-2-1 natds-button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-3"
       type="button"
     >
       <span
-        class="natds-label-0-2-2 natds-label-d1-0-2-4"
+        class="label-0-2-2 label-d1-0-2-4"
       >
         button
       </span>
