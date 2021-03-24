@@ -1,8 +1,14 @@
 export interface ButtonProps {
   /**
-   * The size of the button
+   * If `true`, the button will be disabled.
+   * @default false
    */
-  size?: 'semi' | 'semiX' | 'medium';
+  disabled?: boolean;
+
+  /**
+   * @default inline
+   */
+  display?: 'inline' | 'block';
 
   /**
    * The text content of the button
@@ -15,13 +21,17 @@ export interface ButtonProps {
   onClick?: () => void;
 
   /**
+   * The size of the button
+   */
+  size?: 'semi' | 'semiX' | 'medium';
+
+  /**
    * Optional ID for testing
    */
   testID?: string;
 
   /**
-   * If `true`, the button will be disabled.
-   * @default false
+   * The variant to use.
    */
-  disabled?: boolean;
+  variant?: 'contained';
 }

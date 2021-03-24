@@ -9,7 +9,6 @@ describe('Button component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-
   it('should call onClick', () => {
     const onClickMock = jest.fn()
     const { component: { getByTestId } } = renderWithTheme(<Button label="button" onClick={onClickMock} testID="btn-test" />)
@@ -17,5 +16,21 @@ describe('Button component', () => {
     fireEvent(getByTestId('btn-test'), new MouseEvent('click', { bubbles: true }))
 
     expect(onClickMock).toHaveBeenCalled()
+  })
+
+  it('should render correctly when the size is semi', () => {
+    const { styles, component } = renderWithTheme(<Button label="button" size="semi" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+  it('should render correctly when the size is medium', () => {
+    const { styles, component } = renderWithTheme(<Button label="button" size="medium" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+  it('should render correctly when the display is block', () => {
+    const { styles, component } = renderWithTheme(<Button label="button" display="block" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 })

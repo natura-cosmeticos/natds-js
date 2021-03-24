@@ -2,14 +2,16 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { ButtonProps } from './Button.props'
 
+type ButtonStyleProps = Required<Pick<ButtonProps, 'size' | 'variant' | 'display' | 'disabled'>>
+
 const styles = createUseStyles((theme: Theme) => ({
-  button: {
+  button: ({ size, display }: ButtonStyleProps) => ({
     backgroundColor: theme.color.primary,
     border: 0,
     borderRadius: 4,
     boxShadow: theme.elevation.tiny,
     cursor: 'pointer',
-    height: ({ size }: ButtonProps) => (size && theme.size[size]),
+    height: theme.size[size],
     outline: 0,
     padding: `${theme.spacing.tiny}px ${theme.spacing.small}px`,
     '&:hover': {
@@ -18,8 +20,11 @@ const styles = createUseStyles((theme: Theme) => ({
     '&:disabled': {
       backgroundColor: theme.color.lowEmphasis,
       cursor: 'default'
-    }
-  },
+    },
+    ...(display === 'block' && {
+      width: '100%'
+    })
+  }),
   label: {
     ...theme.button.default,
     color: theme.color.onPrimary,

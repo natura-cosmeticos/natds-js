@@ -1,6 +1,7 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '.'
+import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
 ---
@@ -18,10 +19,10 @@ With the following attribute status:
     - ✅ \`semiX\`
     - ✅ \`medium\`
 - ❌ **Icon**
-- ✅  **Disabled**
+- ✅ **Disabled**
 - **Display**:
     - ✅ \`inline\`
-    - ❌ \`block\`
+    - ✅ \`block\`
 
 ---
 `
@@ -35,22 +36,24 @@ export default {
   }
 } as Meta
 
-export const All: Story<ButtonProps> = (args) => <Button {...args} />
+export const Playground: Story<ButtonProps> = (args) => <Button {...args} />
+Playground.args = { label: 'button' }
 
-All.args = { label: 'button' }
+export const Variants: Story<ButtonProps> = () => <Button label="contained" variant="contained" />
 
-export const Sizes: Story<ButtonProps> = (args) => (
-  <>
-    <Button {...args} label="semi" size="semi" />
-    &nbsp;&nbsp;
-    <Button {...args} label="semiX" />
-    &nbsp;&nbsp;
-    <Button {...args} label="medium" size="medium" />
-  </>
+export const Sizes: Story<ButtonProps> = () => (
+  <StoryContainer>
+    <Button label="semi" size="semi" />
+    <Button label="semiX" size="semiX" />
+    <Button label="medium" size="medium" />
+  </StoryContainer>
 )
 
-export const Disabled: Story<ButtonProps> = All.bind({})
-Disabled.args = {
-  ...All.args,
-  disabled: true
-}
+export const Display: Story<ButtonProps> = (args) => (
+  <StoryContainer>
+    <Button {...args} display="block" label="block" />
+    <Button {...args} label="inline" />
+  </StoryContainer>
+)
+
+export const Disabled: Story<ButtonProps> = (args) => <Button {...args} label="disabled" disabled />

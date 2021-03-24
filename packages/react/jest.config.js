@@ -5,7 +5,8 @@ module.exports = {
   ...base,
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
-    '!src/**/*.stories.tsx'
+    '!src/**/*.stories.tsx',
+    '!src/helpers/**'
   ],
   errorOnDeprecated: true,
   displayName,
