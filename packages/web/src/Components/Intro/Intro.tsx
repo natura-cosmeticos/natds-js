@@ -30,7 +30,7 @@ export const Intro = React.forwardRef<HTMLDivElement, IIntroProps>((
     ...otherProps
   } = props
 
-  const { introDetail, introTitle, root } = useStyles()
+  const { introDetail, introTitle, root } = useStyles(props)
 
   return (
     <Component className={root} ref={ref} {...otherProps}>
