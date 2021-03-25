@@ -1,16 +1,17 @@
 export interface ButtonProps {
   /**
-   * Is this the principal call to action on the page?
+   * If `true`, the button will be disabled.
+   * @default false
    */
-  primary?: boolean;
+  disabled?: boolean;
 
   /**
-   * How large should the button be?
+   * @default false
    */
-  size?: 'small' | 'medium' | 'large';
+  fullWidth?: boolean;
 
   /**
-   * Button contents
+   * The text content of the button
    */
   label: string;
 
@@ -18,4 +19,19 @@ export interface ButtonProps {
    * Optional click handler
    */
   onClick?: () => void;
+
+  /**
+   * The size of the button
+   */
+  size?: 'semi' | 'semiX' | 'medium';
+
+  /**
+   * Optional ID for testing
+   */
+  testID?: string;
+
+  /**
+   * The variant to use.
+   */
+  variant?: 'contained' | 'outlined' | 'text';
 }

@@ -1,9 +1,392 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`Button component should render correctly 1`] = `
-<button
-  type="button"
->
-  button
-</button>
+exports[`Button component should render correctly when disabled is true 1`] = `
+Array [
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
+  border: 0;
+  cursor: pointer;
+  height: 40px;
+  outline: 0;
+  padding: 8px 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  background-color: #f4ab34;
+}
+.button-d0-0-2-3:hover {
+  background-color: #ef8426;
+}
+.button-d0-0-2-3:disabled {
+  cursor: default;
+  background-color: #bbbbbb;
+}
+.label-d1-0-2-4 {
+  color: #333333;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}",
+  <div>
+    <button
+      class="button-0-2-1 button-d0-0-2-3"
+      disabled=""
+      type="button"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        button
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Button component should render correctly when the fullWidth is true 1`] = `
+Array [
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
+  width: 100%;
+  border: 0;
+  cursor: pointer;
+  height: 40px;
+  outline: 0;
+  padding: 8px 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  background-color: #f4ab34;
+}
+.button-d0-0-2-3:hover {
+  background-color: #ef8426;
+}
+.button-d0-0-2-3:disabled {
+  cursor: default;
+  background-color: #bbbbbb;
+}
+.label-d1-0-2-4 {
+  color: #333333;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}",
+  <div>
+    <button
+      class="button-0-2-1 button-d0-0-2-3"
+      type="button"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        button
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Button component should render correctly when the size is medium 1`] = `
+Array [
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
+  border: 0;
+  cursor: pointer;
+  height: 48px;
+  outline: 0;
+  padding: 8px 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  background-color: #f4ab34;
+}
+.button-d0-0-2-3:hover {
+  background-color: #ef8426;
+}
+.button-d0-0-2-3:disabled {
+  cursor: default;
+  background-color: #bbbbbb;
+}
+.label-d1-0-2-4 {
+  color: #333333;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}",
+  <div>
+    <button
+      class="button-0-2-1 button-d0-0-2-3"
+      type="button"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        button
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Button component should render correctly when the size is semi 1`] = `
+Array [
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
+  border: 0;
+  cursor: pointer;
+  height: 32px;
+  outline: 0;
+  padding: 8px 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  background-color: #f4ab34;
+}
+.button-d0-0-2-3:hover {
+  background-color: #ef8426;
+}
+.button-d0-0-2-3:disabled {
+  cursor: default;
+  background-color: #bbbbbb;
+}
+.label-d1-0-2-4 {
+  color: #333333;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}",
+  <div>
+    <button
+      class="button-0-2-1 button-d0-0-2-3"
+      type="button"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        button
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Button component should render correctly when the variant is outlined 1`] = `
+Array [
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
+  border: 1px solid #f4ab3480;
+  cursor: pointer;
+  height: 40px;
+  outline: 0;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.button-d0-0-2-3:hover {
+  border: 1px solid #f4ab34;
+  background-color: #ef84260a;
+}
+.button-d0-0-2-3:disabled {
+  border: 1px solid #bbbbbb;
+  cursor: default;
+  background-color: transparent;
+}
+.label-d1-0-2-4 {
+  color: #333333;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}",
+  <div>
+    <button
+      class="button-0-2-1 button-d0-0-2-3"
+      type="button"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        button
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Button component should render correctly when the variant is outlined and is disabled 1`] = `
+Array [
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
+  border: 1px solid #f4ab3480;
+  cursor: pointer;
+  height: 40px;
+  outline: 0;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.button-d0-0-2-3:hover {
+  border: 1px solid #f4ab34;
+  background-color: #ef84260a;
+}
+.button-d0-0-2-3:disabled {
+  border: 1px solid #bbbbbb;
+  cursor: default;
+  background-color: transparent;
+}
+.label-d1-0-2-4 {
+  color: #bbbbbb;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}",
+  <div>
+    <button
+      class="button-0-2-1 button-d0-0-2-3"
+      disabled=""
+      type="button"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        button
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Button component should render correctly when the variant is text 1`] = `
+Array [
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
+  border: 0;
+  cursor: pointer;
+  height: 40px;
+  outline: 0;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.button-d0-0-2-3:hover {
+  background-color: #f4ab340a;
+}
+.button-d0-0-2-3:disabled {
+  cursor: default;
+  background-color: transparent;
+}
+.label-d1-0-2-4 {
+  color: #333333;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}",
+  <div>
+    <button
+      class="button-0-2-1 button-d0-0-2-3"
+      type="button"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        button
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Button component should render correctly when the variant is text and is disabled 1`] = `
+Array [
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
+  border: 0;
+  cursor: pointer;
+  height: 40px;
+  outline: 0;
+  padding: 8px 16px;
+  border-radius: 4px;
+  background-color: transparent;
+}
+.button-d0-0-2-3:hover {
+  background-color: #f4ab340a;
+}
+.button-d0-0-2-3:disabled {
+  cursor: default;
+  background-color: transparent;
+}
+.label-d1-0-2-4 {
+  color: #bbbbbb;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}",
+  <div>
+    <button
+      class="button-0-2-1 button-d0-0-2-3"
+      disabled=""
+      type="button"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        button
+      </span>
+    </button>
+  </div>,
+]
+`;
+
+exports[`Button component should render correctly with default props 1`] = `
+Array [
+  ".button-0-2-1 {}
+.label-0-2-2 {}
+.button-d0-0-2-3 {
+  border: 0;
+  cursor: pointer;
+  height: 40px;
+  outline: 0;
+  padding: 8px 16px;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  background-color: #f4ab34;
+}
+.button-d0-0-2-3:hover {
+  background-color: #ef8426;
+}
+.button-d0-0-2-3:disabled {
+  cursor: default;
+  background-color: #bbbbbb;
+}
+.label-d1-0-2-4 {
+  color: #333333;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}",
+  <div>
+    <button
+      class="button-0-2-1 button-d0-0-2-3"
+      type="button"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        button
+      </span>
+    </button>
+  </div>,
+]
 `;
