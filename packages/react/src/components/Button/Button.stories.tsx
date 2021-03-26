@@ -58,7 +58,13 @@ export const Sizes: Story<ButtonProps> = (args) => (
 )
 Sizes.args = { ...Template.args }
 
-export const Disabled: Story<ButtonProps> = (args) => <Button {...args} />
+export const Disabled: Story<ButtonProps> = (args) => (
+  <StoryContainer>
+    <Button {...args} variant="contained" />
+    <Button {...args} variant="outlined" />
+    <Button {...args} variant="text" />
+  </StoryContainer>
+)
 Disabled.args = { ...Template.args, disabled: true }
 
 export const FullWidth: Story<ButtonProps> = Template.bind({})
