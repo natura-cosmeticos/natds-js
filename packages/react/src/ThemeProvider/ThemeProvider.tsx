@@ -5,7 +5,7 @@ import buildTheme from './buildTheme'
 
 const ThemeProvider = ({
   children, brand, mode
-}: ThemeProviderProps) => (
+}: ThemeProviderProps): JSX.Element => (
   <Provider theme={buildTheme(brand, mode)}>
     {children}
   </Provider>
