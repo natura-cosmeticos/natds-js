@@ -1,0 +1,64 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Divider component should render correctly when the variant is inset 1`] = `
+Array [
+  ".divider-0-2-1 {
+  border: 0;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #bbbbbb;
+}
+.divider-d0-0-2-2 {
+  margin-right: 0;
+  margin-left: 24px;
+}",
+  <div>
+    <hr
+      class="divider-0-2-1 divider-d0-0-2-2"
+    />
+  </div>,
+]
+`;
+
+exports[`Divider component should render correctly when the variant is middle 1`] = `
+Array [
+  ".divider-0-2-1 {
+  border: 0;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #bbbbbb;
+}
+.divider-d0-0-2-2 {
+  margin-right: 24px;
+  margin-left: 24px;
+}",
+  <div>
+    <hr
+      class="divider-0-2-1 divider-d0-0-2-2"
+    />
+  </div>,
+]
+`;
+
+exports[`Divider component should render correctly with default props 1`] = `
+Array [
+  ".divider-0-2-1 {
+  border: 0;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #bbbbbb;
+}
+.divider-d0-0-2-2 {
+  margin-right: 0;
+  margin-left: 0;
+}",
+  <div>
+    <hr
+      class="divider-0-2-1 divider-d0-0-2-2"
+    />
+  </div>,
+]
+`;
