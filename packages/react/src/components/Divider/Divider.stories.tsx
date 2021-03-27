@@ -24,13 +24,35 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<DividerProps> = (args) => <Divider {...args} />
-
-export const Variants: Story<DividerProps> = (args) => (
-  <StoryContainer isColumn>
-    <Divider {...args} variant="full-bleed" />
-    <Divider {...args} variant="inset" />
-    <Divider {...args} variant="middle" />
-  </StoryContainer>
+export const Playground: Story<DividerProps> = (args) => (
+  <Template>
+    <Divider {...args} />
+  </Template>
 )
-Variants.args = { ...Playground.args }
+
+export const FullBleed: Story<DividerProps> = (args) => (
+  <Template>
+    <Divider {...args} variant="full-bleed" />
+  </Template>
+)
+FullBleed.args = { ...Playground.args }
+
+export const Inset: Story<DividerProps> = (args) => (
+  <Template>
+    <Divider {...args} variant="inset" />
+  </Template>
+)
+FullBleed.args = { ...Playground.args }
+
+export const Middle: Story<DividerProps> = (args) => (
+  <Template>
+    <Divider {...args} variant="middle" />
+  </Template>
+)
+FullBleed.args = { ...Playground.args }
+
+const Template = ({ children }) => (
+  <div style={{ maxWidth: 200, border: '1px solid #00000014', padding: '16px 0' }}>
+    {children}
+  </div>
+)
