@@ -6,43 +6,58 @@ Array [
   cursor: pointer;
   outline: 0;
   padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
   border-radius: 4px;
-}
-.button-0-2-1:hover {
-  background-color: #0000000a;
-}
-.button-0-2-1:focus {
-  background-color: #0000001f;
 }
 .button-0-2-1:disabled {
   cursor: default;
 }
-.label-0-2-2 {
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  visibility: visible;
+  background-color: #000000;
+}
+.overlay-0-2-2:hover {
+  opacity: 0.04;
+}
+.overlay-0-2-2:focus {
+  opacity: 0.12;
+}
+.label-0-2-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 0;
   height: 40px;
   width: auto;
 }
-.button-d0-0-2-3:disabled {
+.button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
 }
-.label-d1-0-2-4 {
+.label-d1-0-2-5 {
   color: #333333;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-4"
       disabled=""
       type="button"
     >
+      <div
+        class="overlay-0-2-2"
+      />
       <span
-        class="label-0-2-2 label-d1-0-2-4"
+        class="label-0-2-3 label-d1-0-2-5"
       >
         button
       </span>
@@ -57,42 +72,57 @@ Array [
   cursor: pointer;
   outline: 0;
   padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
   border-radius: 4px;
-}
-.button-0-2-1:hover {
-  background-color: #0000000a;
-}
-.button-0-2-1:focus {
-  background-color: #0000001f;
 }
 .button-0-2-1:disabled {
   cursor: default;
 }
-.label-0-2-2 {
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  visibility: visible;
+  background-color: #000000;
+}
+.overlay-0-2-2:hover {
+  opacity: 0.04;
+}
+.overlay-0-2-2:focus {
+  opacity: 0.12;
+}
+.label-0-2-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 0;
   height: 40px;
   width: 100%;
 }
-.button-d0-0-2-3:disabled {
+.button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
 }
-.label-d1-0-2-4 {
+.label-d1-0-2-5 {
   color: #333333;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-4"
       type="button"
     >
+      <div
+        class="overlay-0-2-2"
+      />
       <span
-        class="label-0-2-2 label-d1-0-2-4"
+        class="label-0-2-3 label-d1-0-2-5"
       >
         button
       </span>
@@ -107,42 +137,57 @@ Array [
   cursor: pointer;
   outline: 0;
   padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
   border-radius: 4px;
-}
-.button-0-2-1:hover {
-  background-color: #0000000a;
-}
-.button-0-2-1:focus {
-  background-color: #0000001f;
 }
 .button-0-2-1:disabled {
   cursor: default;
 }
-.label-0-2-2 {
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  visibility: visible;
+  background-color: #000000;
+}
+.overlay-0-2-2:hover {
+  opacity: 0.04;
+}
+.overlay-0-2-2:focus {
+  opacity: 0.12;
+}
+.label-0-2-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 0;
   height: 48px;
   width: auto;
 }
-.button-d0-0-2-3:disabled {
+.button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
 }
-.label-d1-0-2-4 {
+.label-d1-0-2-5 {
   color: #333333;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-4"
       type="button"
     >
+      <div
+        class="overlay-0-2-2"
+      />
       <span
-        class="label-0-2-2 label-d1-0-2-4"
+        class="label-0-2-3 label-d1-0-2-5"
       >
         button
       </span>
@@ -157,42 +202,57 @@ Array [
   cursor: pointer;
   outline: 0;
   padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
   border-radius: 4px;
-}
-.button-0-2-1:hover {
-  background-color: #0000000a;
-}
-.button-0-2-1:focus {
-  background-color: #0000001f;
 }
 .button-0-2-1:disabled {
   cursor: default;
 }
-.label-0-2-2 {
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  visibility: visible;
+  background-color: #000000;
+}
+.overlay-0-2-2:hover {
+  opacity: 0.04;
+}
+.overlay-0-2-2:focus {
+  opacity: 0.12;
+}
+.label-0-2-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 0;
   height: 32px;
   width: auto;
 }
-.button-d0-0-2-3:disabled {
+.button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
 }
-.label-d1-0-2-4 {
+.label-d1-0-2-5 {
   color: #333333;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-4"
       type="button"
     >
+      <div
+        class="overlay-0-2-2"
+      />
       <span
-        class="label-0-2-2 label-d1-0-2-4"
+        class="label-0-2-3 label-d1-0-2-5"
       >
         button
       </span>
@@ -207,43 +267,58 @@ Array [
   cursor: pointer;
   outline: 0;
   padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
   border-radius: 4px;
-}
-.button-0-2-1:hover {
-  background-color: #0000000a;
-}
-.button-0-2-1:focus {
-  background-color: #0000001f;
 }
 .button-0-2-1:disabled {
   cursor: default;
 }
-.label-0-2-2 {
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  visibility: visible;
+  background-color: #000000;
+}
+.overlay-0-2-2:hover {
+  opacity: 0.04;
+}
+.overlay-0-2-2:focus {
+  opacity: 0.12;
+}
+.label-0-2-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.button-d0-0-2-4 {
   background-color: transparent;
   border: 1px solid #f4ab34;
   height: 40px;
   width: auto;
 }
-.button-d0-0-2-3:disabled {
+.button-d0-0-2-4:disabled {
   background-color: transparent;
   border: 1px solid #bbbbbb;
 }
-.label-d1-0-2-4 {
+.label-d1-0-2-5 {
   color: #333333;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-4"
       type="button"
     >
+      <div
+        class="overlay-0-2-2"
+      />
       <span
-        class="label-0-2-2 label-d1-0-2-4"
+        class="label-0-2-3 label-d1-0-2-5"
       >
         button
       </span>
@@ -258,44 +333,59 @@ Array [
   cursor: pointer;
   outline: 0;
   padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
   border-radius: 4px;
-}
-.button-0-2-1:hover {
-  background-color: #0000000a;
-}
-.button-0-2-1:focus {
-  background-color: #0000001f;
 }
 .button-0-2-1:disabled {
   cursor: default;
 }
-.label-0-2-2 {
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  visibility: visible;
+  background-color: #000000;
+}
+.overlay-0-2-2:hover {
+  opacity: 0.04;
+}
+.overlay-0-2-2:focus {
+  opacity: 0.12;
+}
+.label-0-2-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.button-d0-0-2-4 {
   background-color: transparent;
   border: 1px solid #f4ab34;
   height: 40px;
   width: auto;
 }
-.button-d0-0-2-3:disabled {
+.button-d0-0-2-4:disabled {
   background-color: transparent;
   border: 1px solid #bbbbbb;
 }
-.label-d1-0-2-4 {
+.label-d1-0-2-5 {
   color: #777777;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-4"
       disabled=""
       type="button"
     >
+      <div
+        class="overlay-0-2-2"
+      />
       <span
-        class="label-0-2-2 label-d1-0-2-4"
+        class="label-0-2-3 label-d1-0-2-5"
       >
         button
       </span>
@@ -310,42 +400,57 @@ Array [
   cursor: pointer;
   outline: 0;
   padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
   border-radius: 4px;
-}
-.button-0-2-1:hover {
-  background-color: #0000000a;
-}
-.button-0-2-1:focus {
-  background-color: #0000001f;
 }
 .button-0-2-1:disabled {
   cursor: default;
 }
-.label-0-2-2 {
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  visibility: visible;
+  background-color: #000000;
+}
+.overlay-0-2-2:hover {
+  opacity: 0.04;
+}
+.overlay-0-2-2:focus {
+  opacity: 0.12;
+}
+.label-0-2-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.button-d0-0-2-4 {
   background-color: transparent;
   border: 0;
   height: 40px;
   width: auto;
 }
-.button-d0-0-2-3:disabled {
+.button-d0-0-2-4:disabled {
   background-color: transparent;
 }
-.label-d1-0-2-4 {
+.label-d1-0-2-5 {
   color: #333333;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-4"
       type="button"
     >
+      <div
+        class="overlay-0-2-2"
+      />
       <span
-        class="label-0-2-2 label-d1-0-2-4"
+        class="label-0-2-3 label-d1-0-2-5"
       >
         button
       </span>
@@ -360,43 +465,58 @@ Array [
   cursor: pointer;
   outline: 0;
   padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
   border-radius: 4px;
-}
-.button-0-2-1:hover {
-  background-color: #0000000a;
-}
-.button-0-2-1:focus {
-  background-color: #0000001f;
 }
 .button-0-2-1:disabled {
   cursor: default;
 }
-.label-0-2-2 {
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  visibility: visible;
+  background-color: #000000;
+}
+.overlay-0-2-2:hover {
+  opacity: 0.04;
+}
+.overlay-0-2-2:focus {
+  opacity: 0.12;
+}
+.label-0-2-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.button-d0-0-2-4 {
   background-color: transparent;
   border: 0;
   height: 40px;
   width: auto;
 }
-.button-d0-0-2-3:disabled {
+.button-d0-0-2-4:disabled {
   background-color: transparent;
 }
-.label-d1-0-2-4 {
+.label-d1-0-2-5 {
   color: #777777;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-4"
       disabled=""
       type="button"
     >
+      <div
+        class="overlay-0-2-2"
+      />
       <span
-        class="label-0-2-2 label-d1-0-2-4"
+        class="label-0-2-3 label-d1-0-2-5"
       >
         button
       </span>
@@ -411,42 +531,57 @@ Array [
   cursor: pointer;
   outline: 0;
   padding: 8px 16px;
+  overflow: hidden;
+  position: relative;
   border-radius: 4px;
-}
-.button-0-2-1:hover {
-  background-color: #0000000a;
-}
-.button-0-2-1:focus {
-  background-color: #0000001f;
 }
 .button-0-2-1:disabled {
   cursor: default;
 }
-.label-0-2-2 {
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0;
+  position: absolute;
+  visibility: visible;
+  background-color: #000000;
+}
+.overlay-0-2-2:hover {
+  opacity: 0.04;
+}
+.overlay-0-2-2:focus {
+  opacity: 0.12;
+}
+.label-0-2-3 {
   font-family: Roboto, sans-serif;
   font-weight: 500;
   letter-spacing: 1.23px;
   text-transform: uppercase;
 }
-.button-d0-0-2-3 {
+.button-d0-0-2-4 {
   background-color: #f4ab34;
   border: 0;
   height: 40px;
   width: auto;
 }
-.button-d0-0-2-3:disabled {
+.button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
 }
-.label-d1-0-2-4 {
+.label-d1-0-2-5 {
   color: #333333;
 }",
   <div>
     <button
-      class="button-0-2-1 button-d0-0-2-3"
+      class="button-0-2-1 button-d0-0-2-4"
       type="button"
     >
+      <div
+        class="overlay-0-2-2"
+      />
       <span
-        class="label-0-2-2 label-d1-0-2-4"
+        class="label-0-2-3 label-d1-0-2-5"
       >
         button
       </span>
