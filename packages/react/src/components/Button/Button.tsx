@@ -25,6 +25,7 @@ const Button = ({
       type="button"
       {...props}
     >
+      <div className={classes.overlay} />
       <span className={classes.label}>{label}</span>
     </button>
   )
