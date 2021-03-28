@@ -1,0 +1,23 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon component should render correctly with default props 1`] = `
+Array [
+  ".icon-0-2-1 {
+  font-style: normal;
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-2 {
+  color: #000000;
+  font-size: 24px;
+}",
+  <div>
+    <i
+      aria-hidden="true"
+      class="icon-0-2-1 icon-d0-0-2-2"
+    >
+      
+    </i>
+  </div>,
+]
+`;
