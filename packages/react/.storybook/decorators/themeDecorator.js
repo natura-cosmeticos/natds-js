@@ -4,7 +4,7 @@ import { ThemeProvider } from '../../src/ThemeProvider'
 const ThemeDecorator = (Story, context) => {
 
   const brand = context.globals.brand
-  const mode = context.globals.mode
+  const mode = 'light'
 
   return (
     <ThemeProvider brand={brand} mode={mode}>
