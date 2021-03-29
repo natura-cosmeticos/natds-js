@@ -21,7 +21,6 @@ const getLabelStyles = (theme: Theme, props: ButtonStyleProps) => {
 
 const styles = createUseStyles((theme: Theme) => ({
   button: {
-    overflow: 'hidden',
     position: 'relative',
     backgroundColor: (props) => (isContained(props) ? theme.color.primary : 'transparent'),
     border: (props) => (isOutlined(props) ? `1px solid ${theme.color.primary}` : 0),
@@ -31,26 +30,26 @@ const styles = createUseStyles((theme: Theme) => ({
     outline: 0,
     padding: [theme.spacing.tiny, theme.spacing.small],
     width: (props) => (isFullWidth(props) ? '100%' : 'auto'),
+    '&:after': {
+      position: 'absolute',
+      backgroundColor: theme.color.highlight,
+      height: '100%',
+      width: '100%',
+      top: 0,
+      left: 0,
+      opacity: 0,
+      content: '" "'
+    },
+    '&:hover:not([disabled]):after': {
+      opacity: theme.opacity.lower
+    },
+    '&:focus:not([disabled]):after': {
+      opacity: theme.opacity.low
+    },
     '&:disabled': {
       cursor: 'default',
       backgroundColor: (props) => (isContained(props) ? theme.color.lowEmphasis : 'transparent'),
       border: (props) => (isOutlined(props) && `1px solid ${theme.color.lowEmphasis}`)
-    }
-  },
-  overlay: {
-    position: 'absolute',
-    backgroundColor: theme.color.highlight,
-    height: '100%',
-    visibility: 'visible',
-    width: '100%',
-    top: 0,
-    left: 0,
-    opacity: 0,
-    '&:hover': {
-      opacity: theme.opacity.lower
-    },
-    '&:focus': {
-      opacity: theme.opacity.low
     }
   },
   label: {
