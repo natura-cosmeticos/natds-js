@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/natura-cosmeticos/natds/compare/v1.5.6...v1.6.0) (2021-03-30)
+
+
+### Features
+
+* **divider:** add new component ([#1297](https://github.com/natura-cosmeticos/natds/issues/1297)) ([b4a0961](https://github.com/natura-cosmeticos/natds/commit/b4a096118a4467d88b81334f47a55f3d232b84e2))
+
+
+
+
+
 ## [1.5.6](https://github.com/natura-cosmeticos/natds/compare/v1.5.5...v1.5.6) (2021-03-25)
 
 **Note:** Version bump only for package natds
