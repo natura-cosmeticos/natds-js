@@ -27,18 +27,18 @@ With the following attribute status:
 ---
 `
 
-// export default {
-//   title: 'Components/Button',
-//   component: Button,
-//   parameters: {
-//     componentSubtitle:
-//       'Buttons allow users to take actions, and make choices, with a single tap',
-//     docs: { description: { component: componentStatus } }
-//   }
-// } as Meta
+export default {
+  title: 'Components/Button',
+  component: Button,
+  parameters: {
+    componentSubtitle:
+      'Buttons allow users to take actions, and make choices, with a single tap',
+    docs: { description: { component: componentStatus } }
+  }
+} as Meta
 
-export const Template: Story<ButtonProps> = (args) => <Button {...args} />
-Template.args = { label: 'button' }
+export const Playground: Story<ButtonProps> = (args) => <Button {...args} />
+Playground.args = { label: 'button' }
 
 export const Variants: Story<ButtonProps> = (args) => (
   <StoryContainer>
@@ -47,7 +47,7 @@ export const Variants: Story<ButtonProps> = (args) => (
     <Button {...args} variant="text" />
   </StoryContainer>
 )
-Variants.args = { ...Template.args }
+Variants.args = { ...Playground.args }
 
 export const Sizes: Story<ButtonProps> = (args) => (
   <StoryContainer>
@@ -56,7 +56,7 @@ export const Sizes: Story<ButtonProps> = (args) => (
     <Button {...args} size="medium" />
   </StoryContainer>
 )
-Sizes.args = { ...Template.args }
+Sizes.args = { ...Playground.args }
 
 export const Disabled: Story<ButtonProps> = (args) => (
   <StoryContainer>
@@ -65,7 +65,7 @@ export const Disabled: Story<ButtonProps> = (args) => (
     <Button {...args} variant="text" />
   </StoryContainer>
 )
-Disabled.args = { ...Template.args, disabled: true }
+Disabled.args = { ...Playground.args, disabled: true }
 
-export const FullWidth: Story<ButtonProps> = Template.bind({})
-FullWidth.args = { ...Template.args, fullWidth: true }
+export const FullWidth: Story<ButtonProps> = Playground.bind({})
+FullWidth.args = { ...Playground.args, fullWidth: true }
