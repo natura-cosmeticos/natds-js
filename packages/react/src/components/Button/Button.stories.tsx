@@ -27,14 +27,15 @@ With the following attribute status:
 ---
 `
 
-export default {
-  title: 'Components/Button',
-  component: Button,
-  parameters: {
-    componentSubtitle: 'Buttons allow users to take actions, and make choices, with a single tap',
-    docs: { description: { component: componentStatus } }
-  }
-} as Meta
+// export default {
+//   title: 'Components/Button',
+//   component: Button,
+//   parameters: {
+//     componentSubtitle:
+//       'Buttons allow users to take actions, and make choices, with a single tap',
+//     docs: { description: { component: componentStatus } }
+//   }
+// } as Meta
 
 export const Template: Story<ButtonProps> = (args) => <Button {...args} />
 Template.args = { label: 'button' }

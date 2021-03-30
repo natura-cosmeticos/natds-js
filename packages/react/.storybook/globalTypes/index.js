@@ -24,23 +24,6 @@ export const globalTypes = {
       ],
     },
   },
-  mode: {
-    defaultValue: "light",
-    description: "Global theme for components",
-    name: "Mode",
-    toolbar: {
-      items: [
-        {
-          title: "Light",
-          value: "light",
-        },
-        {
-          title: "Dark",
-          value: "dark",
-        },
-      ],
-    },
-  }
 };
 
 export default globalTypes;
