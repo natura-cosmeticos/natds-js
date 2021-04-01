@@ -2,26 +2,26 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { RippleProps } from './Ripple.props'
 
-type RippleStyleProps = Required<Pick<RippleProps, 'size' | 'color' | 'hideOverflow' | 'disabled' | 'fullWidth'>>
+type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth'>>
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
-    overflow: ({ hideOverflow }: RippleStyleProps) => (!hideOverflow && 'hidden'),
-    position: 'relative',
+    cursor: 'pointer',
     display: ({ fullWidth }: RippleStyleProps) => (fullWidth ? 'block' : 'inline-block'),
-    cursor: ({ disabled }: RippleStyleProps) => (disabled ? 'default' : 'pointer')
+    overflow: ({ hideOverflow }: RippleStyleProps) => (!hideOverflow && 'hidden'),
+    position: 'relative'
   },
   ripple: {
     backgroundColor: ({ color }: RippleStyleProps) => theme.color[color],
     borderRadius: '50%',
-    height: ({ size }: RippleStyleProps) => size,
-    left: '50%',
+    height: ({ size }) => size,
+    left: ({ mousePosition }) => mousePosition.x,
     opacity: theme.opacity.transparent,
     position: 'absolute',
-    top: '50%',
+    top: ({ mousePosition }) => mousePosition.y,
     transform: 'translate(-50%, -50%)',
-    transition: 'scale opacity 0.3s',
-    width: ({ size }: RippleStyleProps) => size
+    transition: 'scale opacity 300ms',
+    width: ({ size }) => size
   },
   rippleActive: {
     animation: '$ripple 0.5s',
@@ -29,15 +29,15 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   '@keyframes ripple': {
     '0%': {
-      transform: 'translate(-50%, -50%) scale(0)'
+      transform: 'scale(0)'
     },
     '75%': {
       opacity: theme.opacity.low,
-      transform: 'translate(-50%, -50%) scale(1)'
+      transform: 'scale(1)'
     },
     '100%': {
       opacity: theme.opacity.transparent,
-      transform: 'translate(-50%, -50%) scale(1)'
+      transform: 'scale(1)'
     }
   }
 }))

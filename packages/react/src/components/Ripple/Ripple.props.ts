@@ -23,8 +23,4 @@ export interface RippleProps {
    * If `true`, the ripple exceeds the element
    */
   hideOverflow?: boolean
-  /**
-   * The size of ripple
-   */
-  size: number
 }
