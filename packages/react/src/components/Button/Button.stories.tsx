@@ -1,7 +1,6 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '.'
-import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
 ---
@@ -41,29 +40,35 @@ export const Playground: Story<ButtonProps> = (args) => <Button {...args} />
 Playground.args = { label: 'button' }
 
 export const Variants: Story<ButtonProps> = (args) => (
-  <StoryContainer>
+  <>
     <Button {...args} variant="contained" />
+    <div style={{ margin: 8 }} />
     <Button {...args} variant="outlined" />
+    <div style={{ margin: 8 }} />
     <Button {...args} variant="text" />
-  </StoryContainer>
+  </>
 )
 Variants.args = { ...Playground.args }
 
 export const Sizes: Story<ButtonProps> = (args) => (
-  <StoryContainer>
+  <>
     <Button {...args} size="semi" />
+    <div style={{ margin: 8 }} />
     <Button {...args} size="semiX" />
+    <div style={{ margin: 8 }} />
     <Button {...args} size="medium" />
-  </StoryContainer>
+  </>
 )
 Sizes.args = { ...Playground.args }
 
 export const Disabled: Story<ButtonProps> = (args) => (
-  <StoryContainer>
+  <>
     <Button {...args} variant="contained" />
+    <div style={{ margin: 8 }} />
     <Button {...args} variant="outlined" />
+    <div style={{ margin: 8 }} />
     <Button {...args} variant="text" />
-  </StoryContainer>
+  </>
 )
 Disabled.args = { ...Playground.args, disabled: true }
 

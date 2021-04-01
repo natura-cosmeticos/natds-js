@@ -23,6 +23,7 @@ const styles = createUseStyles((theme: Theme) => ({
   button: {
     backgroundColor: (props) => (isContained(props) ? theme.color.primary : 'transparent'),
     border: (props) => (isOutlined(props) ? `1px solid ${theme.color.primary}` : 0),
+    boxShadow: (props) => (isContained(props) ? theme.elevation.tiny : 'none'),
     borderRadius: theme.borderRadius.medium,
     cursor: 'pointer',
     height: ({ size }: ButtonStyleProps) => theme.size[size],
@@ -58,7 +59,8 @@ const styles = createUseStyles((theme: Theme) => ({
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontWeight: 500,
     letterSpacing: 1.23,
-    textTransform: 'uppercase'
+    textTransform: 'uppercase',
+    userSelect: 'none'
   }
 }))
 
