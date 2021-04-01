@@ -1,5 +1,6 @@
 import React from 'react'
 import { ButtonProps } from './Button.props'
+import { Ripple } from '../Ripple'
 import styles from './Button.styles'
 
 const Button = ({
@@ -17,16 +18,18 @@ const Button = ({
   })
 
   return (
-    <button
-      className={classes.button}
-      data-testid={testID}
-      disabled={disabled}
-      onClick={onClick}
-      type="button"
-      {...props}
-    >
-      <span className={classes.label}>{label}</span>
-    </button>
+    <Ripple disabled={disabled} fullWidth={fullWidth}>
+      <button
+        className={classes.button}
+        data-testid={testID}
+        disabled={disabled}
+        onClick={onClick}
+        type="button"
+        {...props}
+      >
+        <span className={classes.label}>{label}</span>
+      </button>
+    </Ripple>
   )
 }
 

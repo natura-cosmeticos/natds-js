@@ -2,581 +2,950 @@
 
 exports[`Button component should render correctly when disabled is true 1`] = `
 Array [
-  ".button-0-2-1 {
-  cursor: pointer;
-  outline: 0;
-  padding: 8px 16px;
-  overflow: hidden;
+  ".wrapper-0-2-5 {
   position: relative;
-  border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  transform: translate(-50%, -50%);
+  transition: scale opacity 250ms;
+  border-radius: 50%;
 }
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
+.rippleActive-0-2-7 {
+  z-index: 999;
+  animation: keyframes-ripple-0-2-8 0.5s;
 }
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
-.button-0-2-1:disabled {
-  cursor: default;
-}
-.label-0-2-2 {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  user-select: none;
-  letter-spacing: 1.23px;
-  text-transform: uppercase;
-}
-.button-d0-0-2-3 {
-  background-color: #f4ab34;
-  border: 0;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  height: 40px;
-  width: auto;
-}
-.button-d0-0-2-3:disabled {
-  background-color: #bbbbbb;
-}
-.label-d1-0-2-4 {
-  color: #333333;
-}",
+  .wrapper-d0-0-2-9 {
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+  }
+  .button-0-2-1 {
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .button-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .button-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .button-0-2-1:disabled {
+    cursor: default;
+  }
+  .label-0-2-2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    user-select: none;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-3 {
+    background-color: #f4ab34;
+    border: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    height: 40px;
+    width: auto;
+  }
+  .button-d0-0-2-3:disabled {
+    background-color: #bbbbbb;
+  }
+  .label-d1-0-2-4 {
+    color: #333333;
+  }",
   <div>
-    <button
-      class="button-0-2-1 button-d0-0-2-3"
-      disabled=""
-      type="button"
+    <div
+      class="wrapper-0-2-5 wrapper-d0-0-2-9"
     >
-      <span
-        class="label-0-2-2 label-d1-0-2-4"
+      <button
+        class="button-0-2-1 button-d0-0-2-3"
+        disabled=""
+        type="button"
       >
-        button
-      </span>
-    </button>
+        <span
+          class="label-0-2-2 label-d1-0-2-4"
+        >
+          button
+        </span>
+      </button>
+      <div
+        class="ripple-0-2-6 ripple-d1-0-2-10 "
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Button component should render correctly when the fullWidth is true 1`] = `
 Array [
-  ".button-0-2-1 {
-  cursor: pointer;
-  outline: 0;
-  padding: 8px 16px;
-  overflow: hidden;
+  ".wrapper-0-2-5 {
   position: relative;
-  border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  transform: translate(-50%, -50%);
+  transition: scale opacity 250ms;
+  border-radius: 50%;
 }
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
+.rippleActive-0-2-7 {
+  z-index: 999;
+  animation: keyframes-ripple-0-2-8 0.5s;
 }
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
-.button-0-2-1:disabled {
-  cursor: default;
-}
-.label-0-2-2 {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  user-select: none;
-  letter-spacing: 1.23px;
-  text-transform: uppercase;
-}
-.button-d0-0-2-3 {
-  background-color: #f4ab34;
-  border: 0;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  height: 40px;
-  width: 100%;
-}
-.button-d0-0-2-3:disabled {
-  background-color: #bbbbbb;
-}
-.label-d1-0-2-4 {
-  color: #333333;
-}",
+  .wrapper-d0-0-2-9 {
+    overflow: hidden;
+    display: block;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+  }
+  .button-0-2-1 {
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .button-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .button-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .button-0-2-1:disabled {
+    cursor: default;
+  }
+  .label-0-2-2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    user-select: none;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-3 {
+    background-color: #f4ab34;
+    border: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    height: 40px;
+    width: 100%;
+  }
+  .button-d0-0-2-3:disabled {
+    background-color: #bbbbbb;
+  }
+  .label-d1-0-2-4 {
+    color: #333333;
+  }",
   <div>
-    <button
-      class="button-0-2-1 button-d0-0-2-3"
-      type="button"
+    <div
+      class="wrapper-0-2-5 wrapper-d0-0-2-9"
     >
-      <span
-        class="label-0-2-2 label-d1-0-2-4"
+      <button
+        class="button-0-2-1 button-d0-0-2-3"
+        type="button"
       >
-        button
-      </span>
-    </button>
+        <span
+          class="label-0-2-2 label-d1-0-2-4"
+        >
+          button
+        </span>
+      </button>
+      <div
+        class="ripple-0-2-6 ripple-d1-0-2-10 "
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Button component should render correctly when the size is medium 1`] = `
 Array [
-  ".button-0-2-1 {
-  cursor: pointer;
-  outline: 0;
-  padding: 8px 16px;
-  overflow: hidden;
+  ".wrapper-0-2-5 {
   position: relative;
-  border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  transform: translate(-50%, -50%);
+  transition: scale opacity 250ms;
+  border-radius: 50%;
 }
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
+.rippleActive-0-2-7 {
+  z-index: 999;
+  animation: keyframes-ripple-0-2-8 0.5s;
 }
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
-.button-0-2-1:disabled {
-  cursor: default;
-}
-.label-0-2-2 {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  user-select: none;
-  letter-spacing: 1.23px;
-  text-transform: uppercase;
-}
-.button-d0-0-2-3 {
-  background-color: #f4ab34;
-  border: 0;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  height: 48px;
-  width: auto;
-}
-.button-d0-0-2-3:disabled {
-  background-color: #bbbbbb;
-}
-.label-d1-0-2-4 {
-  color: #333333;
-}",
+  .wrapper-d0-0-2-9 {
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+  }
+  .button-0-2-1 {
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .button-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .button-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .button-0-2-1:disabled {
+    cursor: default;
+  }
+  .label-0-2-2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    user-select: none;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-3 {
+    background-color: #f4ab34;
+    border: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    height: 48px;
+    width: auto;
+  }
+  .button-d0-0-2-3:disabled {
+    background-color: #bbbbbb;
+  }
+  .label-d1-0-2-4 {
+    color: #333333;
+  }",
   <div>
-    <button
-      class="button-0-2-1 button-d0-0-2-3"
-      type="button"
+    <div
+      class="wrapper-0-2-5 wrapper-d0-0-2-9"
     >
-      <span
-        class="label-0-2-2 label-d1-0-2-4"
+      <button
+        class="button-0-2-1 button-d0-0-2-3"
+        type="button"
       >
-        button
-      </span>
-    </button>
+        <span
+          class="label-0-2-2 label-d1-0-2-4"
+        >
+          button
+        </span>
+      </button>
+      <div
+        class="ripple-0-2-6 ripple-d1-0-2-10 "
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Button component should render correctly when the size is semi 1`] = `
 Array [
-  ".button-0-2-1 {
-  cursor: pointer;
-  outline: 0;
-  padding: 8px 16px;
-  overflow: hidden;
+  ".wrapper-0-2-5 {
   position: relative;
-  border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  transform: translate(-50%, -50%);
+  transition: scale opacity 250ms;
+  border-radius: 50%;
 }
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
+.rippleActive-0-2-7 {
+  z-index: 999;
+  animation: keyframes-ripple-0-2-8 0.5s;
 }
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
-.button-0-2-1:disabled {
-  cursor: default;
-}
-.label-0-2-2 {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  user-select: none;
-  letter-spacing: 1.23px;
-  text-transform: uppercase;
-}
-.button-d0-0-2-3 {
-  background-color: #f4ab34;
-  border: 0;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  height: 32px;
-  width: auto;
-}
-.button-d0-0-2-3:disabled {
-  background-color: #bbbbbb;
-}
-.label-d1-0-2-4 {
-  color: #333333;
-}",
+  .wrapper-d0-0-2-9 {
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+  }
+  .button-0-2-1 {
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .button-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .button-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .button-0-2-1:disabled {
+    cursor: default;
+  }
+  .label-0-2-2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    user-select: none;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-3 {
+    background-color: #f4ab34;
+    border: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    height: 32px;
+    width: auto;
+  }
+  .button-d0-0-2-3:disabled {
+    background-color: #bbbbbb;
+  }
+  .label-d1-0-2-4 {
+    color: #333333;
+  }",
   <div>
-    <button
-      class="button-0-2-1 button-d0-0-2-3"
-      type="button"
+    <div
+      class="wrapper-0-2-5 wrapper-d0-0-2-9"
     >
-      <span
-        class="label-0-2-2 label-d1-0-2-4"
+      <button
+        class="button-0-2-1 button-d0-0-2-3"
+        type="button"
       >
-        button
-      </span>
-    </button>
+        <span
+          class="label-0-2-2 label-d1-0-2-4"
+        >
+          button
+        </span>
+      </button>
+      <div
+        class="ripple-0-2-6 ripple-d1-0-2-10 "
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Button component should render correctly when the variant is outlined 1`] = `
 Array [
-  ".button-0-2-1 {
-  cursor: pointer;
-  outline: 0;
-  padding: 8px 16px;
-  overflow: hidden;
+  ".wrapper-0-2-5 {
   position: relative;
-  border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  transform: translate(-50%, -50%);
+  transition: scale opacity 250ms;
+  border-radius: 50%;
 }
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
+.rippleActive-0-2-7 {
+  z-index: 999;
+  animation: keyframes-ripple-0-2-8 0.5s;
 }
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
-.button-0-2-1:disabled {
-  cursor: default;
-}
-.label-0-2-2 {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  user-select: none;
-  letter-spacing: 1.23px;
-  text-transform: uppercase;
-}
-.button-d0-0-2-3 {
-  background-color: transparent;
-  border: 1px solid #f4ab34;
-  box-shadow: none;
-  height: 40px;
-  width: auto;
-}
-.button-d0-0-2-3:disabled {
-  background-color: transparent;
-  border: 1px solid #bbbbbb;
-}
-.label-d1-0-2-4 {
-  color: #333333;
-}",
+  .wrapper-d0-0-2-9 {
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+  }
+  .button-0-2-1 {
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .button-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .button-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .button-0-2-1:disabled {
+    cursor: default;
+  }
+  .label-0-2-2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    user-select: none;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-3 {
+    background-color: transparent;
+    border: 1px solid #f4ab34;
+    box-shadow: none;
+    height: 40px;
+    width: auto;
+  }
+  .button-d0-0-2-3:disabled {
+    background-color: transparent;
+    border: 1px solid #bbbbbb;
+  }
+  .label-d1-0-2-4 {
+    color: #333333;
+  }",
   <div>
-    <button
-      class="button-0-2-1 button-d0-0-2-3"
-      type="button"
+    <div
+      class="wrapper-0-2-5 wrapper-d0-0-2-9"
     >
-      <span
-        class="label-0-2-2 label-d1-0-2-4"
+      <button
+        class="button-0-2-1 button-d0-0-2-3"
+        type="button"
       >
-        button
-      </span>
-    </button>
+        <span
+          class="label-0-2-2 label-d1-0-2-4"
+        >
+          button
+        </span>
+      </button>
+      <div
+        class="ripple-0-2-6 ripple-d1-0-2-10 "
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Button component should render correctly when the variant is outlined and is disabled 1`] = `
 Array [
-  ".button-0-2-1 {
-  cursor: pointer;
-  outline: 0;
-  padding: 8px 16px;
-  overflow: hidden;
+  ".wrapper-0-2-5 {
   position: relative;
-  border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  transform: translate(-50%, -50%);
+  transition: scale opacity 250ms;
+  border-radius: 50%;
 }
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
+.rippleActive-0-2-7 {
+  z-index: 999;
+  animation: keyframes-ripple-0-2-8 0.5s;
 }
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
-.button-0-2-1:disabled {
-  cursor: default;
-}
-.label-0-2-2 {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  user-select: none;
-  letter-spacing: 1.23px;
-  text-transform: uppercase;
-}
-.button-d0-0-2-3 {
-  background-color: transparent;
-  border: 1px solid #f4ab34;
-  box-shadow: none;
-  height: 40px;
-  width: auto;
-}
-.button-d0-0-2-3:disabled {
-  background-color: transparent;
-  border: 1px solid #bbbbbb;
-}
-.label-d1-0-2-4 {
-  color: #777777;
-}",
+  .wrapper-d0-0-2-9 {
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+  }
+  .button-0-2-1 {
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .button-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .button-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .button-0-2-1:disabled {
+    cursor: default;
+  }
+  .label-0-2-2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    user-select: none;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-3 {
+    background-color: transparent;
+    border: 1px solid #f4ab34;
+    box-shadow: none;
+    height: 40px;
+    width: auto;
+  }
+  .button-d0-0-2-3:disabled {
+    background-color: transparent;
+    border: 1px solid #bbbbbb;
+  }
+  .label-d1-0-2-4 {
+    color: #777777;
+  }",
   <div>
-    <button
-      class="button-0-2-1 button-d0-0-2-3"
-      disabled=""
-      type="button"
+    <div
+      class="wrapper-0-2-5 wrapper-d0-0-2-9"
     >
-      <span
-        class="label-0-2-2 label-d1-0-2-4"
+      <button
+        class="button-0-2-1 button-d0-0-2-3"
+        disabled=""
+        type="button"
       >
-        button
-      </span>
-    </button>
+        <span
+          class="label-0-2-2 label-d1-0-2-4"
+        >
+          button
+        </span>
+      </button>
+      <div
+        class="ripple-0-2-6 ripple-d1-0-2-10 "
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Button component should render correctly when the variant is text 1`] = `
 Array [
-  ".button-0-2-1 {
-  cursor: pointer;
-  outline: 0;
-  padding: 8px 16px;
-  overflow: hidden;
+  ".wrapper-0-2-5 {
   position: relative;
-  border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  transform: translate(-50%, -50%);
+  transition: scale opacity 250ms;
+  border-radius: 50%;
 }
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
+.rippleActive-0-2-7 {
+  z-index: 999;
+  animation: keyframes-ripple-0-2-8 0.5s;
 }
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
-.button-0-2-1:disabled {
-  cursor: default;
-}
-.label-0-2-2 {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  user-select: none;
-  letter-spacing: 1.23px;
-  text-transform: uppercase;
-}
-.button-d0-0-2-3 {
-  background-color: transparent;
-  border: 0;
-  box-shadow: none;
-  height: 40px;
-  width: auto;
-}
-.button-d0-0-2-3:disabled {
-  background-color: transparent;
-}
-.label-d1-0-2-4 {
-  color: #333333;
-}",
+  .wrapper-d0-0-2-9 {
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+  }
+  .button-0-2-1 {
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .button-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .button-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .button-0-2-1:disabled {
+    cursor: default;
+  }
+  .label-0-2-2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    user-select: none;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-3 {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    height: 40px;
+    width: auto;
+  }
+  .button-d0-0-2-3:disabled {
+    background-color: transparent;
+  }
+  .label-d1-0-2-4 {
+    color: #333333;
+  }",
   <div>
-    <button
-      class="button-0-2-1 button-d0-0-2-3"
-      type="button"
+    <div
+      class="wrapper-0-2-5 wrapper-d0-0-2-9"
     >
-      <span
-        class="label-0-2-2 label-d1-0-2-4"
+      <button
+        class="button-0-2-1 button-d0-0-2-3"
+        type="button"
       >
-        button
-      </span>
-    </button>
+        <span
+          class="label-0-2-2 label-d1-0-2-4"
+        >
+          button
+        </span>
+      </button>
+      <div
+        class="ripple-0-2-6 ripple-d1-0-2-10 "
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Button component should render correctly when the variant is text and is disabled 1`] = `
 Array [
-  ".button-0-2-1 {
-  cursor: pointer;
-  outline: 0;
-  padding: 8px 16px;
-  overflow: hidden;
+  ".wrapper-0-2-5 {
   position: relative;
-  border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  transform: translate(-50%, -50%);
+  transition: scale opacity 250ms;
+  border-radius: 50%;
 }
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
+.rippleActive-0-2-7 {
+  z-index: 999;
+  animation: keyframes-ripple-0-2-8 0.5s;
 }
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
-.button-0-2-1:disabled {
-  cursor: default;
-}
-.label-0-2-2 {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  user-select: none;
-  letter-spacing: 1.23px;
-  text-transform: uppercase;
-}
-.button-d0-0-2-3 {
-  background-color: transparent;
-  border: 0;
-  box-shadow: none;
-  height: 40px;
-  width: auto;
-}
-.button-d0-0-2-3:disabled {
-  background-color: transparent;
-}
-.label-d1-0-2-4 {
-  color: #777777;
-}",
+  .wrapper-d0-0-2-9 {
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+  }
+  .button-0-2-1 {
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .button-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .button-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .button-0-2-1:disabled {
+    cursor: default;
+  }
+  .label-0-2-2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    user-select: none;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-3 {
+    background-color: transparent;
+    border: 0;
+    box-shadow: none;
+    height: 40px;
+    width: auto;
+  }
+  .button-d0-0-2-3:disabled {
+    background-color: transparent;
+  }
+  .label-d1-0-2-4 {
+    color: #777777;
+  }",
   <div>
-    <button
-      class="button-0-2-1 button-d0-0-2-3"
-      disabled=""
-      type="button"
+    <div
+      class="wrapper-0-2-5 wrapper-d0-0-2-9"
     >
-      <span
-        class="label-0-2-2 label-d1-0-2-4"
+      <button
+        class="button-0-2-1 button-d0-0-2-3"
+        disabled=""
+        type="button"
       >
-        button
-      </span>
-    </button>
+        <span
+          class="label-0-2-2 label-d1-0-2-4"
+        >
+          button
+        </span>
+      </button>
+      <div
+        class="ripple-0-2-6 ripple-d1-0-2-10 "
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Button component should render correctly with default props 1`] = `
 Array [
-  ".button-0-2-1 {
-  cursor: pointer;
-  outline: 0;
-  padding: 8px 16px;
-  overflow: hidden;
+  ".wrapper-0-2-5 {
   position: relative;
-  border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
-  background-color: #000000;
+  transform: translate(-50%, -50%);
+  transition: scale opacity 250ms;
+  border-radius: 50%;
 }
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
+.rippleActive-0-2-7 {
+  z-index: 999;
+  animation: keyframes-ripple-0-2-8 0.5s;
 }
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(1);
+  }
 }
-.button-0-2-1:disabled {
-  cursor: default;
-}
-.label-0-2-2 {
-  font-family: Roboto, sans-serif;
-  font-weight: 500;
-  user-select: none;
-  letter-spacing: 1.23px;
-  text-transform: uppercase;
-}
-.button-d0-0-2-3 {
-  background-color: #f4ab34;
-  border: 0;
-  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
-  height: 40px;
-  width: auto;
-}
-.button-d0-0-2-3:disabled {
-  background-color: #bbbbbb;
-}
-.label-d1-0-2-4 {
-  color: #333333;
-}",
+  .wrapper-d0-0-2-9 {
+    overflow: hidden;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+  }
+  .button-0-2-1 {
+    cursor: pointer;
+    outline: 0;
+    padding: 8px 16px;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .button-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .button-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .button-0-2-1:disabled {
+    cursor: default;
+  }
+  .label-0-2-2 {
+    font-family: Roboto, sans-serif;
+    font-weight: 500;
+    user-select: none;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-3 {
+    background-color: #f4ab34;
+    border: 0;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    height: 40px;
+    width: auto;
+  }
+  .button-d0-0-2-3:disabled {
+    background-color: #bbbbbb;
+  }
+  .label-d1-0-2-4 {
+    color: #333333;
+  }",
   <div>
-    <button
-      class="button-0-2-1 button-d0-0-2-3"
-      type="button"
+    <div
+      class="wrapper-0-2-5 wrapper-d0-0-2-9"
     >
-      <span
-        class="label-0-2-2 label-d1-0-2-4"
+      <button
+        class="button-0-2-1 button-d0-0-2-3"
+        type="button"
       >
-        button
-      </span>
-    </button>
+        <span
+          class="label-0-2-2 label-d1-0-2-4"
+        >
+          button
+        </span>
+      </button>
+      <div
+        class="ripple-0-2-6 ripple-d1-0-2-10 "
+      />
+    </div>
   </div>,
 ]
 `;

@@ -21,12 +21,12 @@ const Ripple = ({
       setTimeout(() => setAnimation(''), 300)
     }
 
+    const rippleContainer = e.currentTarget
     const {
       width, height, x, y
-    } = e.currentTarget.getBoundingClientRect()
-
-    const posX = e.clientX - x - (e.currentTarget.offsetWidth / 2)
-    const posY = e.clientY - y - (e.currentTarget.offsetWidth / 2)
+    } = rippleContainer.getBoundingClientRect()
+    const posX = e.clientX - x - (rippleContainer.offsetWidth / 2)
+    const posY = e.clientY - y - (rippleContainer.offsetWidth / 2)
 
     setMousePosition({ x: posX, y: posY })
     setRippleSize({ width, height })
