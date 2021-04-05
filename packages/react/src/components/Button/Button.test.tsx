@@ -3,6 +3,8 @@ import { fireEvent } from '@testing-library/react'
 import Button from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
 
+jest.mock('../Ripple/Ripple')
+
 describe('Button component', () => {
   it('should render correctly with default props', () => {
     const { styles, component } = renderWithTheme(<Button label="button" />)

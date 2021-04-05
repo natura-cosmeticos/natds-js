@@ -18,7 +18,7 @@ const Button = ({
   })
 
   return (
-    <Ripple disabled={disabled} fullWidth={fullWidth}>
+    <Ripple disabled={disabled} fullWidth={fullWidth} data-testid="ripple-button">
       <button
         className={classes.button}
         data-testid={testID}
