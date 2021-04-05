@@ -1,6 +1,6 @@
 import { Color } from '@naturacosmeticos/natds-themes'
 
-type RippleColors = keyof Pick<Color, 'primary' | 'secondary' | 'highlight'>
+type RippleColors = keyof Pick<Color, 'primary' | 'highlight'>
 
 export interface RippleProps {
   /**
@@ -14,13 +14,17 @@ export interface RippleProps {
   /**
    * If `true`, the ripple effect is disabled
    */
-  disabled: boolean
+  disabled?: boolean
   /**
    *
    */
-  fullWidth: boolean
+  fullWidth?: boolean
   /**
    * If `true`, the ripple exceeds the element
    */
   hideOverflow?: boolean
+  /**
+   * If `true`, align the ripple in the center of element
+   */
+  isCentered?: boolean
 }

@@ -1,9 +1,6 @@
 import React from 'react'
 import { RippleProps } from '../Ripple.props'
 
-export const Ripple = ({
-  children,
-  ...props
-}: RippleProps): JSX.Element => <div {...props}>{children}</div>
+export const Ripple = ({ children }: RippleProps): JSX.Element => <div data-testid="ripple">{children}</div>
 
 export default Ripple
