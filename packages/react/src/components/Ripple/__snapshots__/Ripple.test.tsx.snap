@@ -1,0 +1,72 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Ripple should render correctly with children 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-2 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-3 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-4 {
+  z-index: 999;
+}
+@keyframes keyframes-ripple-0-2-5 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+  }
+}
+  .wrapper-d0-0-2-6 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-7 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-8 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-9 {
+    animation: keyframes-ripple-0-2-5 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-1 wrapper-d0-0-2-6"
+      data-testid="ripple-wrapper"
+    >
+       any children 
+      <div
+        class="rippleContainer-0-2-3 rippleContainer-d2-0-2-8"
+      >
+        <div
+          class="ripple-0-2-2 ripple-d1-0-2-7 "
+          data-testid="ripple-animation"
+        />
+      </div>
+    </div>
+  </div>,
+]
+`;

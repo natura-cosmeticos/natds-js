@@ -15,7 +15,7 @@ describe('Button component', () => {
     const onClickMock = jest.fn()
     const { component: { getByTestId } } = renderWithTheme(<Button label="button" onClick={onClickMock} testID="btn-test" />)
 
-    fireEvent(getByTestId('btn-test'), new MouseEvent('click', { bubbles: true }))
+    fireEvent.click(getByTestId('btn-test'))
 
     expect(onClickMock).toHaveBeenCalled()
   })

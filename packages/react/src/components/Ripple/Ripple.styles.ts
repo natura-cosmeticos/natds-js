@@ -29,7 +29,7 @@ const styles = createUseStyles((theme: Theme) => ({
     left: 0,
     bottom: 0,
     right: 0,
-    overflow: ({ hideOverflow }: RippleStyleProps) => (hideOverflow && 'hidden'),
+    overflow: ({ hideOverflow }: RippleStyleProps) => (hideOverflow && 'hidden')
   },
   rippleActive: {
     animation: ({ ANIMATION_DURATION }) => `$ripple ${ANIMATION_DURATION}ms`,

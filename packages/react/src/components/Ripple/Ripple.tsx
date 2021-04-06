@@ -5,7 +5,7 @@ import { RippleProps } from './Ripple.props'
 type Size = { width: number, height: number }
 type MousePosition = { x: number, y: number }
 
-const getBiggestSide = ({ width, height }: Size): number => (width > height ? width : height)
+export const getBiggestSide = ({ width, height }: Size): number => (width > height ? width : height)
 
 const Ripple = ({
   children,
@@ -54,10 +54,10 @@ const Ripple = ({
   })
 
   return (
-    <div className={wrapper} onClick={showRipple}>
+    <div className={wrapper} onClick={showRipple} data-testid="ripple-wrapper">
       {children}
       <div className={rippleContainer}>
-        <div className={`${ripple} ${animation}`} />
+        <div className={`${ripple} ${animation}`} data-testid="ripple-animation" />
       </div>
     </div>
   )
