@@ -10,8 +10,7 @@ const Button = ({
   onClick,
   size = 'semiX',
   testID,
-  variant = 'contained',
-  ...props
+  variant = 'contained'
 }: ButtonProps): JSX.Element => {
   const classes = styles({
     size, fullWidth, variant, disabled
@@ -25,7 +24,6 @@ const Button = ({
         disabled={disabled}
         onClick={onClick}
         type="button"
-        {...props}
       >
         <span className={classes.label}>{label}</span>
       </button>
