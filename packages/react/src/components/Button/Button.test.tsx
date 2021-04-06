@@ -36,7 +36,7 @@ describe('Button component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should render correctly when disabled is true', () => {
+  it('should render correctly when the variant is contained and disabled is true', () => {
     const { styles, component } = renderWithTheme(<Button label="button" disabled />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()

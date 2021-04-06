@@ -35,7 +35,7 @@ export default {
       'Buttons allow users to take actions, and make choices, with a single tap',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
-  },
+  }
 } as Meta
 
 export const Playground: Story<ButtonProps> = (args) => <Button {...args} onClick={() => console.log('clicked!')} />
