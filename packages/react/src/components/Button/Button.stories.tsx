@@ -33,11 +33,12 @@ export default {
   parameters: {
     componentSubtitle:
       'Buttons allow users to take actions, and make choices, with a single tap',
-    docs: { description: { component: componentStatus } }
-  }
+    docs: { description: { component: componentStatus } },
+    actions: { argTypesRegex: '^on.*' }
+  },
 } as Meta
 
-export const Playground: Story<ButtonProps> = (args) => <Button {...args} />
+export const Playground: Story<ButtonProps> = (args) => <Button {...args} onClick={() => console.log('clicked!')} />
 Playground.args = { label: 'button' }
 
 export const Variants: Story<ButtonProps> = (args) => (

@@ -33,7 +33,7 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   rippleActive: {
     animation: ({ ANIMATION_DURATION }) => `$ripple ${ANIMATION_DURATION}ms`,
-    zIndex: 999
+    zIndex: 1
   },
   '@keyframes ripple': {
     '0%': {
@@ -44,7 +44,8 @@ const styles = createUseStyles((theme: Theme) => ({
       opacity: theme.opacity.low
     },
     '100%': {
-      opacity: theme.opacity.transparent
+      opacity: theme.opacity.transparent,
+      zIndex: 0
     }
   }
 }))

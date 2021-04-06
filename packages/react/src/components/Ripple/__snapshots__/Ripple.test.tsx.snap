@@ -33,6 +33,7 @@ Array [
   }
   100% {
     opacity: 0;
+    z-index: 0;
   }
 }
   .wrapper-d0-0-2-6 {
@@ -57,7 +58,6 @@ Array [
       class="wrapper-0-2-1 wrapper-d0-0-2-6"
       data-testid="ripple-wrapper"
     >
-       any children 
       <div
         class="rippleContainer-0-2-3 rippleContainer-d2-0-2-8"
       >
@@ -66,6 +66,7 @@ Array [
           data-testid="ripple-animation"
         />
       </div>
+       any children 
     </div>
   </div>,
 ]

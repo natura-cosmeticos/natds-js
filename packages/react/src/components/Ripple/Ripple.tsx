@@ -55,10 +55,10 @@ const Ripple = ({
 
   return (
     <div className={wrapper} onClick={showRipple} data-testid="ripple-wrapper">
-      {children}
       <div className={rippleContainer}>
         <div className={`${ripple} ${animation}`} data-testid="ripple-animation" />
       </div>
+      {children}
     </div>
   )
 }
