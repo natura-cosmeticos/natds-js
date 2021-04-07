@@ -33,7 +33,7 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   rippleActive: {
     animation: ({ ANIMATION_DURATION }) => `$ripple ${ANIMATION_DURATION}ms`,
-    zIndex: 1
+    zIndex: 99
   },
   '@keyframes ripple': {
     '0%': {
