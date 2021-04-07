@@ -19,6 +19,19 @@ const getLabelStyles = (theme: Theme, props: ButtonStyleProps) => {
   return isDisabled(props) ? color.disabled : color.active
 }
 
+const getPaddingStyles = (theme: Theme, props: ButtonStyleProps) => {
+  switch (props.size) {
+    case 'semi':
+      return theme.spacing.micro
+    case 'medium':
+      return theme.spacing.small
+    case 'semiX':
+      return theme.spacing.tiny
+    default:
+      return theme.spacing.small
+  }
+}
+
 const styles = createUseStyles((theme: Theme) => ({
   button: {
     backgroundColor: (props) => (isContained(props) ? theme.color.primary : 'transparent'),
@@ -29,7 +42,8 @@ const styles = createUseStyles((theme: Theme) => ({
     height: ({ size }: ButtonStyleProps) => theme.size[size],
     outline: 0,
     overflow: 'hidden',
-    padding: [theme.spacing.tiny, theme.spacing.small],
+    paddingLeft: (props) => getPaddingStyles(theme, props),
+    paddingRight: (props) => getPaddingStyles(theme, props),
     position: 'relative',
     width: (props) => (isFullWidth(props) ? '100%' : 'auto'),
     '&:after': {
