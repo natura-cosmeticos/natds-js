@@ -18,7 +18,7 @@ export interface ButtonProps {
   /**
    * Optional click handler
    */
-  onClick?: () => void;
+  onClick: () => void;
 
   /**
    * The size of the button

@@ -11,9 +11,6 @@ module.exports = {
     },
     {
       name: '@storybook/addon-essentials',
-      options: {
-        actions: false,
-      },
     },
   ],
 };

@@ -1,68 +1,82 @@
-/* eslint-disable complexity */
-/* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { ButtonProps } from './Button.props'
 
 type ButtonStyleProps = Required<Pick<ButtonProps, 'size' | 'variant' | 'fullWidth' | 'disabled'>>
 
+const isContained = ({ variant }: ButtonStyleProps) => variant === 'contained'
+const isOutlined = ({ variant }: ButtonStyleProps) => variant === 'outlined'
+const isFullWidth = ({ fullWidth }: ButtonStyleProps) => fullWidth
+const isDisabled = ({ disabled }: ButtonStyleProps) => disabled
+
+const getLabelStyles = (theme: Theme, props: ButtonStyleProps) => {
+  const color = {
+    active: (isContained(props) ? theme.color.onPrimary : theme.color.highEmphasis),
+    disabled: ((isContained(props) && isDisabled(props))
+      ? theme.color.highEmphasis : theme.color.mediumEmphasis
+    )
+  }
+  return isDisabled(props) ? color.disabled : color.active
+}
+
+const getPaddingStyles = (theme: Theme, props: ButtonStyleProps) => {
+  switch (props.size) {
+    case 'semi':
+      return theme.spacing.micro
+    case 'medium':
+      return theme.spacing.small
+    case 'semiX':
+      return theme.spacing.tiny
+    default:
+      return theme.spacing.small
+  }
+}
+
 const styles = createUseStyles((theme: Theme) => ({
-  button: ({ size, fullWidth, variant }: ButtonStyleProps) => ({
-    ...(variant === 'contained' && {
-      backgroundColor: theme.color.primary,
-      boxShadow: theme.elevation.tiny,
-      border: 0,
-      '&:hover': {
-        backgroundColor: theme.color.primaryDark
-      },
-      '&:disabled': {
-        backgroundColor: theme.color.lowEmphasis,
-        cursor: 'default'
-      }
-    }),
-    ...(variant === 'outlined' && {
-      backgroundColor: 'transparent',
-      border: `1px solid ${theme.color.primary}80`,
-      '&:hover': {
-        border: `1px solid ${theme.color.primary}`,
-        backgroundColor: `${theme.color.primaryDark}0a`
-      },
-      '&:disabled': {
-        border: `1px solid ${theme.color.lowEmphasis}`,
-        backgroundColor: 'transparent',
-        cursor: 'default'
-      }
-    }),
-    ...(variant === 'text' && {
-      backgroundColor: 'transparent',
-      border: 0,
-      '&:hover': {
-        backgroundColor: `${theme.color.primary}0a`
-      },
-      '&:disabled': {
-        backgroundColor: 'transparent',
-        cursor: 'default'
-      }
-    }),
-    ...(fullWidth && {
-      width: '100%'
-    }),
-    borderRadius: 4,
+  button: {
+    backgroundColor: (props) => (isContained(props) ? theme.color.primary : 'transparent'),
+    border: (props) => (isOutlined(props) ? `1px solid ${theme.color.primary}` : 0),
+    boxShadow: (props) => (isContained(props) ? theme.elevation.tiny : 'none'),
+    borderRadius: theme.borderRadius.medium,
     cursor: 'pointer',
-    height: theme.size[size],
+    height: ({ size }: ButtonStyleProps) => theme.size[size],
     outline: 0,
-    padding: `${theme.spacing.tiny}px ${theme.spacing.small}px`
-  }),
-  label: ({ disabled, variant }: ButtonStyleProps) => ({
+    overflow: 'hidden',
+    paddingLeft: (props) => getPaddingStyles(theme, props),
+    paddingRight: (props) => getPaddingStyles(theme, props),
+    position: 'relative',
+    width: (props) => (isFullWidth(props) ? '100%' : 'auto'),
+    '&:after': {
+      backgroundColor: theme.color.highlight,
+      content: '" "',
+      height: '100%',
+      left: 0,
+      opacity: 0,
+      position: 'absolute',
+      top: 0,
+      width: '100%'
+    },
+    '&:hover:not([disabled]):after': {
+      opacity: theme.opacity.lower
+    },
+    '&:focus:not([disabled]):after': {
+      opacity: theme.opacity.low
+    },
+    '&:disabled': {
+      backgroundColor: (props) => (isContained(props) ? theme.color.lowEmphasis : 'transparent'),
+      border: (props) => (isOutlined(props) && `1px solid ${theme.color.lowEmphasis}`),
+      boxShadow: theme.elevation.none.replace,
+      cursor: 'default'
+    }
+  },
+  label: {
+    color: (props) => getLabelStyles(theme, props),
+    fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontWeight: 500,
     letterSpacing: 1.23,
-    color: theme.color.onPrimary,
-    fontFamily: 'Roboto, sans-serif',
     textTransform: 'uppercase',
-    ...((variant === 'outlined' || variant === 'text') && disabled && {
-      color: theme.color.lowEmphasis
-    })
-  })
+    userSelect: 'none'
+  }
 }))
 
 export default styles

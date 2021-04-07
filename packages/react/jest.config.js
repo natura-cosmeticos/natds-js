@@ -6,11 +6,13 @@ module.exports = {
   collectCoverageFrom: [
     'src/**/*.{js,jsx,ts,tsx}',
     '!src/**/*.stories.tsx',
+    '!src/**/*.styles.ts',
     '!src/helpers/**'
   ],
   errorOnDeprecated: true,
   displayName,
   name,
+  setupFilesAfterEnv: ['<rootDir>/setup.js'],
   roots: ['<rootDir>/src'],
   transform: {
     '^.+\\.[tj]sx?$': 'babel-jest',

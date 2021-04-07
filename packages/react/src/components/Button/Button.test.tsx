@@ -3,6 +3,8 @@ import { fireEvent } from '@testing-library/react'
 import Button from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
 
+jest.mock('../Ripple/Ripple')
+
 describe('Button component', () => {
   it('should render correctly with default props', () => {
     const { styles, component } = renderWithTheme(<Button label="button" />)
@@ -13,7 +15,7 @@ describe('Button component', () => {
     const onClickMock = jest.fn()
     const { component: { getByTestId } } = renderWithTheme(<Button label="button" onClick={onClickMock} testID="btn-test" />)
 
-    fireEvent(getByTestId('btn-test'), new MouseEvent('click', { bubbles: true }))
+    fireEvent.click(getByTestId('btn-test'))
 
     expect(onClickMock).toHaveBeenCalled()
   })
@@ -34,7 +36,7 @@ describe('Button component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should render correctly when disabled is true', () => {
+  it('should render correctly when the variant is contained and disabled is true', () => {
     const { styles, component } = renderWithTheme(<Button label="button" disabled />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
