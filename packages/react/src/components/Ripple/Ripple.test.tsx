@@ -24,14 +24,14 @@ describe('Ripple', () => {
     const { component } = renderWithTheme(<Ripple> any children </Ripple>)
 
     const wrapper = component.getByTestId('ripple-wrapper')
-    const ripleAnimation = component.getByTestId('ripple-animation')
+    const rippleAnimation = component.getByTestId('ripple-animation')
 
-    expect(ripleAnimation).not.toHaveClass(classWithRippleAnimation)
+    expect(rippleAnimation).not.toHaveClass(classWithRippleAnimation)
     fireEvent.click(wrapper)
-    expect(ripleAnimation).toHaveClass(classWithRippleAnimation)
+    expect(rippleAnimation).toHaveClass(classWithRippleAnimation)
 
     act(() => jest.advanceTimersByTime(1000))
-    expect(ripleAnimation).not.toHaveClass(classWithRippleAnimation)
+    expect(rippleAnimation).not.toHaveClass(classWithRippleAnimation)
   })
   it('should not add ripple animation class when Ripple is disabled', async () => {
     const { component } = renderWithTheme(<Ripple disabled> any children </Ripple>)
