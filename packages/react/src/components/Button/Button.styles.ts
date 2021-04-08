@@ -65,7 +65,7 @@ const styles = createUseStyles((theme: Theme) => ({
     '&:disabled': {
       backgroundColor: (props) => (isContained(props) ? theme.color.lowEmphasis : 'transparent'),
       border: (props) => (isOutlined(props) && `1px solid ${theme.color.lowEmphasis}`),
-      boxShadow: theme.elevation.none.replace,
+      boxShadow: theme.elevation.none,
       cursor: 'default'
     }
   },
