@@ -6,10 +6,10 @@ coverage:
         target: auto
         flags:
           - icons
-      styles:
+      react:
         target: auto
         flags:
-          - styles
+          - react
       web:
         target: auto
         flags:
@@ -25,11 +25,13 @@ flags:
     paths:
       - packages/icons
     carryforward: false
-  styles:
+  react:
     paths:
-      - packages/styles
+      - packages/react
     carryforward: false
   web:
     paths:
       - packages/web
     carryforward: false
+ignore:
+  - "**/*.styles.ts"
