@@ -2,10 +2,10 @@ coverage:
   status:
     project:
       default: off
-      icons:
+      styles:
         target: auto
         flags:
-          - icons
+          - styles
       react:
         target: auto
         flags:
@@ -21,7 +21,7 @@ comment:
   require_base: true
   require_head: true
 flags:
-  icons:
+  styles:
     paths:
       - packages/styles
     carryforward: false
