@@ -7,7 +7,7 @@
     "default:pinVersions"
   ],
   "ignoreDeps": [
-    "@naturacosmeticos/natds-icons",
+    "@naturacosmeticos/natds-react",
     "@naturacosmeticos/natds-styles",
     "@naturacosmeticos/natds-web"
   ],
@@ -25,7 +25,7 @@
       "groupName": "jest dependencies",
       "groupSlug": "jest",
       "labels": ["dependencies", "renovate", "testing"],
-      "packagePatterns": ["@types/chai-jest-snapshot", "ts-jest", "^@testing-library"]
+      "packagePatterns": ["ts-jest", "^@testing-library"]
     },
     {
       "groupName": "rollup dependencies",
@@ -34,32 +34,12 @@
       "packagePatterns": ["^@rollup"]
     },
     {
-      "groupName": "styled-components dependencies",
-      "groupSlug": "styled-components",
-      "labels": ["dependencies", "renovate", "styled-components"],
-      "packagePatterns": [".*styled-components"]
-    },
-    {
       "packagePatterns": ["^eslint", "^@typescript-eslint"],
       "labels": ["dependencies", "linting", "renovate"]
     },
     {
-      "packagePatterns": ["snyk"],
-      "labels": ["dependencies", "renovate", "security"]
-    },
-    {
       "packagePatterns": ["^@material-ui"],
       "labels": ["dependencies", "material ui", "renovate"]
-    },
-    {
-      "paths": ["examples/create-react-app/package.json"],
-      "labels": ["cra", "dependencies", "examples", "renovate"],
-      "enabled": true
-    },
-    {
-      "paths": ["examples/create-react-app-with-typescript/package.json"],
-      "labels": ["cra-typescript", "dependencies", "examples", "renovate"],
-      "enabled": true
     }
   ],
   "prConcurrentLimit": 3,
