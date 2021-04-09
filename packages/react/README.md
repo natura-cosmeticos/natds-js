@@ -3,7 +3,7 @@
 React components for web development inside Natura&Co.
 
 [![npm package](https://img.shields.io/npm/v/@naturacosmeticos/natds-react/latest.svg)](https://www.npmjs.com/package/@naturacosmeticos/natds-react)
-[![Code coverage](https://img.shields.io/codecov/c/github/natura-cosmeticos/natds-js/main.svg)](https://codecov.io/gh/natura-cosmeticos/natds-js/branch/main)
+[![codecov](https://codecov.io/gh/natura-cosmeticos/natds-js/branch/main/graph/badge.svg?token=ehUsMUSSbj)](https://codecov.io/gh/natura-cosmeticos/natds-js)
 [![GitHub Issues](https://img.shields.io/github/issues/natura-cosmeticos/natds-js.svg)](https://github.com/natura-cosmeticos/natds-js/issues)
 [![License](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)
 
@@ -20,13 +20,13 @@ React components for web development inside Natura&Co.
 ### Installation
 
 ```shell script
-$ npm install @naturacosmeticos/natds-web
+$ npm install @naturacosmeticos/natds-react
 ```
 
 OR
 
 ```shell script
-$ yarn add @naturacosmeticos/natds-web
+$ yarn add @naturacosmeticos/natds-react
 ```
 
 ### Fonts
@@ -96,47 +96,13 @@ export const App = () => (
 
 This package only works fine with the use of `<ThemeProvider />`, that is **essential** for applying styles correctly.
 
-## Additional information
-
-### Bundled in this package
-
-Installing `@naturacosmeticos/natds-react` will also install the following packages:
-
-- `@naturacosmeticos/natds-icons`
-- `@naturacosmeticos/natds-styles`
-
-Thus, it is **not necessary to install them separately** to use the Design System.
-
-### Using a CDN
-
-**⚠️ This feature is experimental**.
-
-We provide a Universal Module Definition (UMD) file via `jsdelivr`:
-
-https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web
-
-```html
-<script
-  crossorigin="anonymous"
-  src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-web"
-></script>
-```
-
-For more info and examples, check our [CDN documentation](./docs/using-cdn.md).
-
----
-
-## Troubleshooting
-
-Having troubles? Please check our [Troubleshooting documentation](../../TROUBLESHOOTING.md).
-
 ## Questions
 
 For how-to questions and other issues, please use the [issues section on our GitHub repo](https://github.com/natura-cosmeticos/natds-js/issues).
 
 ## Documentation
 
-Check out our [documentation website](https://natds-web.natura.design/).
+Check out our [documentation website](https://natds-web.natura.design/react/index.html).
 
 ## Changelog
 
