@@ -65,28 +65,6 @@ You can try to fix this with the following steps:
 
 2. Try to run your application again.
 
-## Subsequent property declarations must have the same type
-
-This error can occur when you use TypeScript in your project,
-and when you have `styled-components` installed.
-
-You can try to fix this with the following steps:
-
-1. Run the following command to check if `styled-components` is a dependency of your project:
-
-   ```shell script
-   npm ls @types/react-native
-   ```
-
-2. Make compiler options generate warnings instead of errors,
-   adding the following line in your `tsconfig.json`:
-
-   ```json
-   {
-      "noEmitOnError": true
-   }
-   ```
-
 ## Dependency warnings
 
 ### Version of react-dom/server with minor vulnerability
