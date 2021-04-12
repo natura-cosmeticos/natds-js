@@ -5,8 +5,10 @@ import styles from './Icon.styles'
 
 const Icon = ({
   ariaHidden = true,
+  ariaLabel,
   color = 'highlight',
   name = 'outlined-default-mockup',
+  role = 'img',
   size = 'standard',
   testID = `icon-${name}`
 }: IconProps): JSX.Element => {
@@ -15,7 +17,13 @@ const Icon = ({
   const classes = styles({ size, color })
 
   return (
-    <i className={classes.icon} data-testid={testID} aria-hidden={ariaHidden}>
+    <i
+      aria-hidden={ariaHidden}
+      arial-label={ariaLabel}
+      className={classes.icon}
+      data-testid={testID}
+      role={role}
+    >
       {icon}
     </i>
   )
