@@ -12,19 +12,30 @@ export interface IconProps {
   ariaHidden?: boolean
 
   /**
+   * Use to define a string that labels the current element
+   * if your icon is not decorative
+   */
+  ariaLabel?: string,
+
+  /**
   * The Icon color
-  * @default "primary"
-  */
+   * @default "primary"
+   */
   color?: IconColor;
 
   /**
   * The Icon name
-  * @default "filled-default-mockup"
-  */
+   * @default "filled-default-mockup"
+   */
   name?: IconName;
 
   /**
-   * The Icon size
+   * @default 'img'
+   */
+  role?: 'img' | 'button',
+
+  /**
+  * The Icon size
    * @default "standard"
    */
   size?: IconSize;
