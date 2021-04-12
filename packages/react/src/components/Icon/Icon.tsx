@@ -8,21 +8,15 @@ const Icon = ({
   color = 'highlight',
   name = 'outlined-default-mockup',
   size = 'standard',
-  testID,
-  ...props
+  testID = `icon-${name}`
 }: IconProps): JSX.Element => {
   const unicodeName = iconNames[name].replace('%', '\\')
-  const code = JSON.parse(`["${unicodeName}"]`)[0]
+  const icon = JSON.parse(`["${unicodeName}"]`)[0]
   const classes = styles({ size, color })
 
   return (
-    <i
-      className={classes.icon}
-      data-testid={testID}
-      aria-hidden={ariaHidden}
-      {...props}
-    >
-      {code}
+    <i className={classes.icon} data-testid={testID} aria-hidden={ariaHidden}>
+      {icon}
     </i>
   )
 }
