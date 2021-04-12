@@ -8,9 +8,9 @@ const componentStatus = `
 **NOTE**: This component is available with the following attribute status:
 
 - ✅ **Color**
-    - Support Color tokens from Natura&Co. themes
+    - Support Color tokens from theme
 - ✅  **Size**
-    - Support Size tokens from Natura&Co. themes
+    - Support Size tokens from theme
 - ✅  **Name:**
     - Check all Icon names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
 
