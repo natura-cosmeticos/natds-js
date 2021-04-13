@@ -28,6 +28,7 @@ excluded_words:
   - brand
   - cicd
   - cjs
+  - data-testid
   - date-fns
   - dedupe
   - eqeqeq
@@ -47,12 +48,13 @@ excluded_words:
   - javascript-mutator
   - Kirollos
   - largex
-  - Lubbe
   - Lichtnow
+  - Lubbe
   - Lucida
   - Lyrio
   - Matheus
   - mediumx
+  - mockup
   - Mui
   - MuiAlert
   - MuiAlertTitle
@@ -65,11 +67,11 @@ excluded_words:
   - MuiExpansionPanelSummary
   - MuiFormHelperText
   - MuiFormLabel
-  - MuiListItem
   - MuiIconButton
   - MuiInputAdornment
   - MuiInputBase
   - MuiInputLabel
+  - MuiListItem
   - MuiSelect
   - MuiSvgIcon
   - MuiTab
@@ -78,11 +80,11 @@ excluded_words:
   - multiline-comment-style
   - multiline-ternary
   - natds
-  - natDsIcons
-  - natdsIcons
   - natds-icons
   - natds-styles
   - natds-web
+  - natdsIcons
+  - natDsIcons
   - natdsWeb
   - natura
   - naturacosmeticos
@@ -115,6 +117,7 @@ excluded_words:
   - stryker-tmp
   - tcm
   - testc
+  - theming
   - Tiancheng
   - transpilers
   - typoci
@@ -123,6 +126,4 @@ excluded_words:
   - wav
   - webfont
   - Zivolo
-  - theming
-  - data-testid
 spellcheck_filenames: true
