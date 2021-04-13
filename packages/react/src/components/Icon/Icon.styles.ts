@@ -9,7 +9,6 @@ const styles = createUseStyles((theme: Theme) => ({
     color: ({ color }: IconStyleProps) => theme.color[color],
     fontSize: ({ size }: IconStyleProps) => theme.size[size],
     fontFamily: 'natds-icons',
-    fontStyle: 'normal',
     userSelect: 'none'
   }
 }))
