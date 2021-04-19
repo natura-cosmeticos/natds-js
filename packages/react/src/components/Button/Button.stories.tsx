@@ -72,10 +72,10 @@ Disabled.args = { ...Playground.args, disabled: true }
 export const Icon: Story<ButtonProps> = (args) => (
   <StoryContainer>
     <Button {...args} />
-    <Button {...args} iconPosition="left" />
+    <Button {...args} iconPosition="right" />
   </StoryContainer>
 )
-Icon.args = { ...Playground.args, showIcon: true, iconName: 'outlined-default-mockup' }
+Icon.args = { ...Playground.args, showIcon: true }
 
 export const FullWidth: Story<ButtonProps> = Playground.bind({})
 FullWidth.args = { ...Playground.args, fullWidth: true }
