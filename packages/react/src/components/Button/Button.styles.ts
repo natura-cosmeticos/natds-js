@@ -1,8 +1,16 @@
+/* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { ButtonProps } from './Button.props'
 
-type ButtonStyleProps = Required<Pick<ButtonProps, 'size' | 'variant' | 'fullWidth' | 'disabled'>>
+type ButtonStyleProps = Required<Pick<ButtonProps,
+  'disabled' |
+  'fullWidth' |
+  'iconPosition' |
+  'showIcon' |
+  'size' |
+  'variant'
+>>
 
 const isContained = ({ variant }: ButtonStyleProps) => variant === 'contained'
 const isOutlined = ({ variant }: ButtonStyleProps) => variant === 'outlined'
@@ -69,13 +77,26 @@ const styles = createUseStyles((theme: Theme) => ({
       cursor: 'default'
     }
   },
+  labelContainer: {
+    alignItems: 'center',
+    display: 'flex',
+    flexDirection: ({ iconPosition }: ButtonStyleProps) => (iconPosition === 'left' ? 'row' : 'row-reverse'),
+    justifyContent: 'center'
+  },
   label: {
-    color: (props) => getLabelStyles(theme, props),
+    color: (props: ButtonStyleProps) => getLabelStyles(theme, props),
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
+    fontSize: 14,
     fontWeight: 500,
     letterSpacing: 1.23,
+    marginLeft: ({ iconPosition, showIcon }: ButtonStyleProps) => showIcon && iconPosition === 'left' && theme.size.tiny,
+    marginRight: ({ iconPosition, showIcon }: ButtonStyleProps) => showIcon && iconPosition === 'right' && theme.size.tiny,
+    overflow: 'hidden',
+    textAlign: 'center',
+    textOverflow: 'ellipsis',
     textTransform: 'uppercase',
-    userSelect: 'none'
+    userSelect: 'none',
+    whiteSpace: 'nowrap'
   }
 }))
 
