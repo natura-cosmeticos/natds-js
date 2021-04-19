@@ -18,7 +18,7 @@ With the following attribute status:
     - ✅ \`semi\`
     - ✅ \`semiX\`
     - ✅ \`medium\`
-- ❌ **Icon**
+- ✅ **Icon**
 - ✅ **Disabled**
 - **Display**:
     - ✅ \`inline\`
@@ -39,7 +39,7 @@ export default {
 } as Meta
 
 export const Playground: Story<ButtonProps> = (args) => <Button {...args} onClick={() => console.log('clicked!')} />
-Playground.args = { label: 'button' }
+Playground.args = { text: 'button' }
 
 export const Variants: Story<ButtonProps> = (args) => (
   <StoryContainer>
@@ -68,6 +68,14 @@ export const Disabled: Story<ButtonProps> = (args) => (
 )
 
 Disabled.args = { ...Playground.args, disabled: true }
+
+export const Icon: Story<ButtonProps> = (args) => (
+  <StoryContainer>
+    <Button {...args} />
+    <Button {...args} iconPosition="right" />
+  </StoryContainer>
+)
+Icon.args = { ...Playground.args, showIcon: true }
 
 export const FullWidth: Story<ButtonProps> = Playground.bind({})
 FullWidth.args = { ...Playground.args, fullWidth: true }
