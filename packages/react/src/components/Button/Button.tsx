@@ -1,31 +1,43 @@
 import React from 'react'
 import { ButtonProps } from './Button.props'
+import { Icon } from '../Icon'
 import { Ripple } from '../Ripple'
 import styles from './Button.styles'
 
 const Button = ({
   disabled = false,
   fullWidth = false,
-  label,
+  iconName = 'outlined-default-mockup',
+  iconPosition = 'left',
   onClick,
+  showIcon = false,
   size = 'semiX',
   testID,
+  text,
   variant = 'contained'
 }: ButtonProps): JSX.Element => {
-  const classes = styles({
-    size, fullWidth, variant, disabled
+  const { button, label, labelContainer } = styles({
+    size,
+    fullWidth,
+    variant,
+    disabled,
+    iconPosition,
+    showIcon
   })
 
   return (
     <Ripple disabled={disabled} fullWidth={fullWidth}>
       <button
-        className={classes.button}
+        className={button}
         data-testid={testID}
         disabled={disabled}
         onClick={onClick}
         type="button"
       >
-        <span className={classes.label}>{label}</span>
+        <span className={labelContainer}>
+          {showIcon && <Icon name={iconName} size="standard" />}
+          <span className={label}>{text}</span>
+        </span>
       </button>
     </Ripple>
   )
