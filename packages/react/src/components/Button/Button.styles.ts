@@ -80,7 +80,7 @@ const styles = createUseStyles((theme: Theme) => ({
   labelContainer: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: ({ iconPosition }: ButtonStyleProps) => (iconPosition === 'left' ? 'row' : 'row-reverse'),
+    flexDirection: ({ iconPosition }: ButtonStyleProps) => (iconPosition === 'right' ? 'row' : 'row-reverse'),
     justifyContent: 'center'
   },
   label: {

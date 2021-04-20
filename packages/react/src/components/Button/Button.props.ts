@@ -21,7 +21,7 @@ export interface ButtonProps {
 
   /**
    * Set the position of icon
-   * @default left
+   * @default right
    */
   iconPosition?: 'left' | 'right'
 

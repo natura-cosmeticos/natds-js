@@ -63,13 +63,13 @@ describe('Button component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-  it('should render icon to the left when the showIcon is true', () => {
+  it('should render icon to the right when the showIcon is true', () => {
     const { styles, component } = renderWithTheme(<Button text="button" showIcon onClick={() => ''} />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-  it('should render icon to the right when the showIcon is true and iconPosition is right', () => {
-    const { styles, component } = renderWithTheme(<Button text="button" showIcon iconPosition="right" onClick={() => ''} />)
+  it('should render icon to the left when the showIcon is true and iconPosition is left', () => {
+    const { styles, component } = renderWithTheme(<Button text="button" showIcon iconPosition="left" onClick={() => ''} />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })

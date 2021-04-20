@@ -8,7 +8,7 @@ const Button = ({
   disabled = false,
   fullWidth = false,
   iconName = 'outlined-default-mockup',
-  iconPosition = 'left',
+  iconPosition = 'right',
   onClick,
   showIcon = false,
   size = 'semiX',
@@ -35,8 +35,8 @@ const Button = ({
         type="button"
       >
         <span className={labelContainer}>
-          {showIcon && <Icon name={iconName} size="standard" />}
           <span className={label}>{text}</span>
+          {showIcon && <Icon name={iconName} />}
         </span>
       </button>
     </Ripple>
