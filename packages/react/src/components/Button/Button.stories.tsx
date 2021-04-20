@@ -72,7 +72,7 @@ Disabled.args = { ...Playground.args, disabled: true }
 export const Icon: Story<ButtonProps> = (args) => (
   <StoryContainer>
     <Button {...args} />
-    <Button {...args} iconPosition="right" />
+    <Button {...args} iconPosition="left" />
   </StoryContainer>
 )
 Icon.args = { ...Playground.args, showIcon: true }
