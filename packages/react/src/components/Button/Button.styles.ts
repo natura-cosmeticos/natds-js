@@ -40,6 +40,9 @@ const getPaddingStyles = (theme: Theme, props: ButtonStyleProps) => {
   }
 }
 
+// eslint-disable-next-line max-len
+const getLabelMargin = (theme: Theme, side: string) => ({ showIcon, iconPosition }: ButtonStyleProps) => showIcon && iconPosition === side && theme.size.tiny
+
 const styles = createUseStyles((theme: Theme) => ({
   button: {
     backgroundColor: (props) => (isContained(props) ? theme.color.primary : 'transparent'),
@@ -89,8 +92,8 @@ const styles = createUseStyles((theme: Theme) => ({
     fontSize: 14,
     fontWeight: 500,
     letterSpacing: 1.23,
-    marginLeft: ({ iconPosition, showIcon }: ButtonStyleProps) => showIcon && iconPosition === 'left' && theme.size.tiny,
-    marginRight: ({ iconPosition, showIcon }: ButtonStyleProps) => showIcon && iconPosition === 'right' && theme.size.tiny,
+    marginLeft: getLabelMargin(theme, 'left'),
+    marginRight: getLabelMargin(theme, 'right'),
     overflow: 'hidden',
     textAlign: 'center',
     textOverflow: 'ellipsis',
