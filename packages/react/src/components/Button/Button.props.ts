@@ -16,7 +16,7 @@ export interface ButtonProps {
   /**
    * Set the icon to be rendered.
    * Check all available names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
-   * @default 'outlined-default-mockup'
+   * @default outlined-default-mockup
    */
   iconName: IconName
 
@@ -50,13 +50,13 @@ export interface ButtonProps {
 
   /**
    * The text content of the button
-   * @default 'button'
+   * @default button
    */
   text: string;
 
   /**
    * The variant to use.
-   * @default 'contained'
+   * @default contained
    */
   variant?: 'contained' | 'outlined' | 'text';
 

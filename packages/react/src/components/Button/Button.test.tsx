@@ -4,6 +4,7 @@ import { fireEvent } from '@testing-library/react'
 import Button from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import { ButtonProps } from './Button.props'
+import { checkIconColor } from './Button'
 
 jest.mock('../Ripple/Ripple')
 
@@ -85,5 +86,18 @@ describe('Button component', () => {
 
     expect(component.getByTestId('icon-filled-action-check')).toBeTruthy()
     expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+})
+
+describe('CheckIconColor', () => {
+  it('should return mediumEmphasis when the button is disabled and is different than contained variant', () => {
+    const checkedIconColor = checkIconColor('text', true)
+
+    expect(checkedIconColor).toBe('mediumEmphasis')
+  })
+  it('should return highEmphasis when the button is disabled and is the contained variant', () => {
+    const checkedIconColor = checkIconColor('contained', true)
+
+    expect(checkedIconColor).toBe('highEmphasis')
   })
 })

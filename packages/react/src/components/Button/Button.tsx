@@ -4,6 +4,8 @@ import { Icon } from '../Icon'
 import { Ripple } from '../Ripple'
 import styles from './Button.styles'
 
+export const checkIconColor = (variant: string, isDisabled: boolean) => (isDisabled && variant !== 'contained' ? 'mediumEmphasis' : 'highEmphasis')
+
 const Button = ({
   disabled = false,
   fullWidth = false,
@@ -36,7 +38,7 @@ const Button = ({
       >
         <span className={labelContainer}>
           <span className={label}>{text}</span>
-          {showIcon && <Icon name={iconName} />}
+          {showIcon && <Icon name={iconName} color={checkIconColor(variant, disabled)} />}
         </span>
       </button>
     </Ripple>
