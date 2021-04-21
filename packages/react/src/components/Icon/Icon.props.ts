@@ -27,7 +27,7 @@ export interface IconProps {
   * The Icon name
    * @default "filled-default-mockup"
    */
-  name?: IconName;
+  name: IconName;
 
   /**
    * @default 'img'
