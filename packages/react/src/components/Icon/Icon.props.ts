@@ -25,7 +25,7 @@ export interface IconProps {
 
   /**
   * The Icon name
-   * @default "filled-default-mockup"
+   * @default "outlined-default-mockup"
    */
   name: IconName;
 
