@@ -7,7 +7,7 @@ import styles from './Button.styles'
 const Button = ({
   disabled = false,
   fullWidth = false,
-  iconName = 'outlined-default-mockup',
+  iconName,
   iconPosition = 'right',
   onClick,
   showIcon = false,
