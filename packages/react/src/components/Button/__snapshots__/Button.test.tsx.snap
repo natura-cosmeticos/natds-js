@@ -788,6 +788,108 @@ Array [
 ]
 `;
 
+exports[`Button component should render correctly with the given iconName 1`] = `
+Array [
+  ".icon-0-2-7 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-8 {
+  color: #000000;
+  font-size: 24px;
+}
+.button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
+  overflow: hidden;
+  position: relative;
+  border-radius: 4px;
+}
+.button-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.button-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.button-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.button-0-2-1:disabled {
+  cursor: default;
+  box-shadow: none;
+}
+.labelContainer-0-2-2 {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.label-0-2-3 {
+  overflow: hidden;
+  font-size: 14px;
+  text-align: center;
+  font-family: Roboto, sans-serif;
+  font-weight: 500;
+  user-select: none;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  letter-spacing: 1.23px;
+  text-transform: uppercase;
+}
+.button-d0-0-2-4 {
+  background-color: #f4ab34;
+  border: 0;
+  box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 40px;
+  padding-left: 8px;
+  padding-right: 8px;
+  width: auto;
+}
+.button-d0-0-2-4:disabled {
+  background-color: #bbbbbb;
+}
+.labelContainer-d1-0-2-5 {
+  flex-direction: row;
+}
+.label-d2-0-2-6 {
+  color: #333333;
+  margin-right: 8px;
+}",
+  <div>
+    <div
+      data-testid="ripple"
+    >
+      <button
+        class="button-0-2-1 button-d0-0-2-4"
+        type="button"
+      >
+        <span
+          class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
+        >
+          <span
+            class="label-0-2-3 label-d2-0-2-6"
+          >
+            button
+          </span>
+          <i
+            aria-hidden="true"
+            class="icon-0-2-7 icon-d0-0-2-8 natds-icons natds-icons-filled-action-check"
+            data-testid="icon-filled-action-check"
+            role="img"
+          />
+        </span>
+      </button>
+    </div>
+  </div>,
+]
+`;
+
 exports[`Button component should render icon to the left when the showIcon is true and iconPosition is left 1`] = `
 Array [
   ".icon-0-2-7 {
