@@ -29,7 +29,8 @@ const IconButton = ({
   disabled = false,
   iconName,
   onClick,
-  size = 'semi'
+  size = 'semi',
+  testID
 }: IconButtonProps): JSX.Element => {
   const { iconButtonContainer } = styles({ disabled, backgroundStyle, size })
   const iconSize = getIconSize(size) as IconSize
@@ -37,7 +38,7 @@ const IconButton = ({
 
   return (
     <Ripple disabled={disabled} isCentered>
-      <button onClick={onClick} className={iconButtonContainer} disabled={disabled} type="button">
+      <button onClick={onClick} className={iconButtonContainer} disabled={disabled} type="button" data-testid={testID}>
         <Icon name={iconName} color={iconColor} size={iconSize} ariaHidden={false} role="button" ariaLabel={ariaLabel} />
       </button>
     </Ripple>

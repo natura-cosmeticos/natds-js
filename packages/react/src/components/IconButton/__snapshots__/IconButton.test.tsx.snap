@@ -1,0 +1,1258 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Icon Button component should render correctly when is disabled 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #777777;
+  font-size: 24px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        disabled=""
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon Button component should render correctly when the backgroundStyle is float 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: #ffffff;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+  height: 32px;
+  width: 32px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #333333;
+  font-size: 24px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon Button component should render correctly when the backgroundStyle is float and is disabled 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: #bbbbbb;
+  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+  height: 32px;
+  width: 32px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #777777;
+  font-size: 24px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        disabled=""
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon Button component should render correctly when the backgroundStyle is overlay 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: #000000;
+  height: 32px;
+  opacity: 0.56;
+  width: 32px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #333333;
+  font-size: 24px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon Button component should render correctly when the backgroundStyle is overlay and is disabled 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: #000000;
+  height: 32px;
+  opacity: 0.56;
+  width: 32px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #bbbbbb;
+  font-size: 24px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        disabled=""
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon Button component should render correctly when the color is primary 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #f4ab34;
+  font-size: 24px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon Button component should render correctly when the color is surface 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #ffffff;
+  font-size: 24px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon Button component should render correctly when the size is medium 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: transparent;
+  height: 48px;
+  width: 48px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #333333;
+  font-size: 40px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon Button component should render correctly when the size is semiX 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: transparent;
+  height: 40px;
+  width: 40px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #333333;
+  font-size: 32px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Icon Button component should render correctly with default props 1`] = `
+Array [
+  ".iconButtonContainer-0-2-1 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-1:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-1:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-1:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-2 {
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #333333;
+  font-size: 24px;
+}
+.wrapper-0-2-3 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-4 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        type="button"
+      >
+        <i
+          aria-hidden="false"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          data-testid="icon-outlined-default-mockup"
+          role="button"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;

@@ -44,4 +44,9 @@ export interface IconButtonProps {
    * @default semi
    */
   size?: IconButtonSize
+
+  /**
+   * Optional ID for testing
+   */
+  testID?: string;
 }
