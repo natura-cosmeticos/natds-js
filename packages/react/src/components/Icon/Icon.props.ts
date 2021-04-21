@@ -1,8 +1,8 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { Color, Size } from '@naturacosmeticos/natds-themes'
 
-type IconSize = keyof Size
-type IconColor = keyof Color
+export type IconSize = keyof Size
+export type IconColor = keyof Color
 export interface IconProps {
   /**
    * Removes the entire element from the accessibility tree

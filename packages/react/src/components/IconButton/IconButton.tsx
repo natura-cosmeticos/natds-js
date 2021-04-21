@@ -1,8 +1,26 @@
 import React from 'react'
-import { IconButtonProps, IconButtonSize } from './IconButton.props'
-import styles, { getIconSize } from './IconButton.styles'
+import { IconColor, IconSize } from 'components/Icon/Icon.props'
+import { IconButtonColors, IconButtonProps, IconButtonSize } from './IconButton.props'
+import styles from './IconButton.styles'
 import Icon from '../Icon/Icon'
 import Ripple from '../Ripple/Ripple'
+
+const getIconSize = (size: IconButtonSize) => {
+  const iconSize = {
+    medium: 'semiX',
+    semi: 'standard',
+    semiX: 'semi'
+  }
+
+  return iconSize[size]
+}
+
+const checkIconColor = (backgroundStyle: string, isDisabled: boolean, color: IconButtonColors) => {
+  if (isDisabled) {
+    return backgroundStyle === 'overlay' ? 'lowEmphasis' : 'mediumEmphasis'
+  }
+  return color
+}
 
 const IconButton = ({
   ariaLabel,
@@ -14,12 +32,13 @@ const IconButton = ({
   size = 'semi'
 }: IconButtonProps): JSX.Element => {
   const { iconButtonContainer } = styles({ disabled, backgroundStyle, size })
-  const iconSize = getIconSize(size) as IconButtonSize
+  const iconSize = getIconSize(size) as IconSize
+  const iconColor = checkIconColor(backgroundStyle, disabled, color) as IconColor
 
   return (
     <Ripple disabled={disabled} isCentered>
       <button onClick={onClick} className={iconButtonContainer} disabled={disabled} type="button">
-        <Icon name={iconName} color={color} size={iconSize} ariaHidden={false} role="button" ariaLabel={ariaLabel} />
+        <Icon name={iconName} color={iconColor} size={iconSize} ariaHidden={false} role="button" ariaLabel={ariaLabel} />
       </button>
     </Ripple>
   )
