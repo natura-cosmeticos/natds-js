@@ -41,6 +41,7 @@ export const Color: Story<IconButtonProps> = (args) => (
   <StoryContainer>
     <IconButton {...args} />
     <IconButton {...args} color="primary" />
+    <IconButton {...args} color="surface" />
   </StoryContainer>
 )
 
