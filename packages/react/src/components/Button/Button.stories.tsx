@@ -8,19 +8,19 @@ const componentStatus = `
 
 **NOTE**: This component is available in the following variants:
 
-  - ✅ contained
-  - ✅ outlined
-  - ✅ text
+  - ✅ \`contained\`
+  - ✅ \`outlined\`
+  - ✅ \`text\`
 
 With the following attribute status:
 
-- **Size:**
+- **Size**
     - ✅ \`semi\`
     - ✅ \`semiX\`
     - ✅ \`medium\`
 - ✅ **Icon**
 - ✅ **Disabled**
-- **Display**:
+- **Display**
     - ✅ \`inline\`
     - ✅ \`block\`
 

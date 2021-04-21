@@ -8,20 +8,18 @@ const componentStatus = `
 
 **NOTE**: This component is available with the following attribute status:
 
-- ✅ **Color**
-    - HighEmphasis
-    - Primary
-- ✅  **Size**
-    - Semi
-    - SemiX
-    - Medium
-- ✅  **Background Style:**
-    - None
-    - Float
-    - Overlay
+- **Color**
+  - ✅ \`primary\`
+  - ✅ \`highEmphasis\`
+- **Size**
+  - ✅ \`semi\`
+  - ✅ \`semiX\`
+  - ✅ \`medium\`
+- **Background Style**
+  - ✅ \`none\`
+  - ✅ \`float\`
+  - ✅ \`overlay\`
 - ✅  **Disabled**
-- ✅  **Icon**
-    - Check all Icon names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
 
 ---
 `
@@ -37,6 +35,7 @@ export default {
 } as Meta
 
 export const Playground: Story<IconButtonProps> = (args) => <IconButton {...args} onClick={() => console.log('clicked!')} />
+Playground.args = { iconName: 'outlined-default-mockup' }
 
 export const Color: Story<IconButtonProps> = (args) => (
   <StoryContainer>

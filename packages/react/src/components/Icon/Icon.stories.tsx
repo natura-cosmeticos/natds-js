@@ -11,7 +11,7 @@ const componentStatus = `
     - Support Color tokens from theme
 - ✅  **Size**
     - Support Size tokens from theme
-- ✅  **Name:**
+- ✅  **Name**
     - Check all Icon names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
 
 ---
