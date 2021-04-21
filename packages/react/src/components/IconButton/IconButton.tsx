@@ -9,7 +9,7 @@ const IconButton = ({
   backgroundStyle = 'none',
   color = 'highEmphasis',
   disabled = false,
-  iconName = 'outlined-default-mockup',
+  iconName,
   onClick,
   size = 'semi'
 }: IconButtonProps): JSX.Element => {
