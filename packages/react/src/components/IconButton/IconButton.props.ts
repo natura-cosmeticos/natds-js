@@ -28,10 +28,11 @@ export interface IconButtonProps {
   disabled?: boolean
 
   /**
-  * The Icon name to be used
-   * @default "filled-default-mockup"
+   * Set the icon to be rendered.
+   * Check all available names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
+   * @default "outlined-default-mockup"
    */
-  iconName?: IconName
+  iconName: IconName
 
   /**
    * The click handler
@@ -39,7 +40,7 @@ export interface IconButtonProps {
   onClick: () => void
 
   /**
-   * The size of icon button
+   * The icon button size
    * @default semi
    */
   size?: IconButtonSize
