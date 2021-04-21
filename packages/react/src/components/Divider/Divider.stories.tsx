@@ -1,16 +1,15 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Divider, DividerProps } from '.'
-import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
 ---
 
 **NOTE**: This component is available in the following variants:
 
-  - ✅ full-bleed
-  - ✅ inset
-  - ✅ middle
+  - ✅ \`full-bleed\`
+  - ✅ \`inset\`
+  - ✅ \`middle\`
 
 ---
 `
