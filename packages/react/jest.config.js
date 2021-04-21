@@ -12,10 +12,11 @@ module.exports = {
   errorOnDeprecated: true,
   displayName,
   name,
-  setupFilesAfterEnv: ['<rootDir>/setup.js'],
-  roots: ['<rootDir>/src'],
+  setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
+  roots: ['<rootDir>/src', '<rootDir>/regression'],
   transform: {
     '^.+\\.[tj]sx?$': 'babel-jest',
-    '^.+\\.mdx?$': '@storybook/addon-docs/jest-transform-mdx'
+    '^.+\\.mdx?$': '@storybook/addon-docs/jest-transform-mdx',
+    '\\.(jpg|jpeg|png|gif|webp|svg)$': 'jest-transform-file'
   }
 }

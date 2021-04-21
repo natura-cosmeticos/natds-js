@@ -49,8 +49,9 @@
     "lint:fix": "yarn lint --fix",
     "rollup:build": "rollup -c",
     "storybook": "start-storybook -p 6006",
-    "test": "jest --verbose",
-    "test:ci": "jest --coverage && codecov -t",
+    "test": "jest --testPathPattern=src --verbose",
+    "test:ci": "jest  --testPathPattern=src --coverage && codecov -t",
+    "test:regression": "jest --testPathPattern=regression",
     "test:watch": "jest --watch"
   },
   "dependencies": {
