@@ -1,26 +1,16 @@
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { createUseStyles } from 'react-jss'
-import { IconButtonProps, IconButtonSize } from './IconButton.props'
+import { IconButtonProps } from './IconButton.props'
 
 type IconButtonStyleProps = Required<Pick<IconButtonProps, 'backgroundStyle' | 'disabled' | 'size'>>
 
 const getBackgroundStyles = (theme: Theme, props: IconButtonStyleProps): string => {
   const styles = {
     none: 'transparent',
-    float: theme.color.surface,
+    float: (props.disabled ? theme.color.lowEmphasis : theme.color.surface),
     overlay: theme.color.highlight
   }
   return styles[props.backgroundStyle]
-}
-
-export const getIconSize = (size: IconButtonSize): string => {
-  const iconSize = {
-    medium: 'semiX',
-    semi: 'standard',
-    semiX: 'semi'
-  }
-
-  return iconSize[size]
 }
 
 const styles = createUseStyles((theme: Theme) => ({
