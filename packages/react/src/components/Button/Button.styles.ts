@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
@@ -14,21 +15,18 @@ type ButtonStyleProps = Required<Pick<ButtonProps,
 
 const isContained = ({ variant }: ButtonStyleProps) => variant === 'contained'
 const isOutlined = ({ variant }: ButtonStyleProps) => variant === 'outlined'
-const isFullWidth = ({ fullWidth }: ButtonStyleProps) => fullWidth
-const isDisabled = ({ disabled }: ButtonStyleProps) => disabled
 
 const getLabelStyles = (theme: Theme, props: ButtonStyleProps) => {
   const color = {
     active: (isContained(props) ? theme.color.onPrimary : theme.color.highEmphasis),
-    disabled: ((isContained(props) && isDisabled(props))
-      ? theme.color.highEmphasis : theme.color.mediumEmphasis
-    )
+    disabled: ((isContained(props) && props.disabled) ? theme.color.highEmphasis : theme.color.mediumEmphasis)
   }
-  return isDisabled(props) ? color.disabled : color.active
+
+  return props.disabled ? color.disabled : color.active
 }
 
-const getPaddingStyles = (theme: Theme, props: ButtonStyleProps) => {
-  switch (props.size) {
+const getPaddingStyles = (theme: Theme, { size }: ButtonStyleProps) => {
+  switch (size) {
     case 'semi':
       return theme.spacing.micro
     case 'medium':
@@ -40,7 +38,6 @@ const getPaddingStyles = (theme: Theme, props: ButtonStyleProps) => {
   }
 }
 
-// eslint-disable-next-line max-len
 const getLabelMargin = (theme: Theme, side: string) => ({ showIcon, iconPosition }: ButtonStyleProps) => showIcon && iconPosition === side && theme.size.tiny
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -56,7 +53,7 @@ const styles = createUseStyles((theme: Theme) => ({
     paddingLeft: (props) => getPaddingStyles(theme, props),
     paddingRight: (props) => getPaddingStyles(theme, props),
     position: 'relative',
-    width: (props) => (isFullWidth(props) ? '100%' : 'auto'),
+    width: ({ fullWidth }: ButtonStyleProps) => (fullWidth ? '100%' : 'auto'),
     '&:after': {
       backgroundColor: theme.color.highlight,
       content: '" "',
