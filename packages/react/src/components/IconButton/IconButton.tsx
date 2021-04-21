@@ -5,7 +5,7 @@ import styles from './IconButton.styles'
 import Icon from '../Icon/Icon'
 import Ripple from '../Ripple/Ripple'
 
-const getIconSize = (size: IconButtonSize) => {
+export const getIconSize = (size: IconButtonSize) => {
   const iconSize = {
     medium: 'semiX',
     semi: 'standard',
@@ -15,7 +15,8 @@ const getIconSize = (size: IconButtonSize) => {
   return iconSize[size]
 }
 
-const checkIconColor = (backgroundStyle: string, isDisabled: boolean, color: IconButtonColors) => {
+// eslint-disable-next-line max-len
+export const checkIconColor = (backgroundStyle: string, isDisabled: boolean, color: IconButtonColors) => {
   if (isDisabled) {
     return backgroundStyle === 'overlay' ? 'lowEmphasis' : 'mediumEmphasis'
   }
@@ -29,7 +30,8 @@ const IconButton = ({
   disabled = false,
   iconName,
   onClick,
-  size = 'semi'
+  size = 'semi',
+  testID
 }: IconButtonProps): JSX.Element => {
   const { iconButtonContainer } = styles({ disabled, backgroundStyle, size })
   const iconSize = getIconSize(size) as IconSize
@@ -37,7 +39,7 @@ const IconButton = ({
 
   return (
     <Ripple disabled={disabled} isCentered>
-      <button onClick={onClick} className={iconButtonContainer} disabled={disabled} type="button">
+      <button onClick={onClick} className={iconButtonContainer} disabled={disabled} type="button" data-testid={testID}>
         <Icon name={iconName} color={iconColor} size={iconSize} ariaHidden={false} role="button" ariaLabel={ariaLabel} />
       </button>
     </Ripple>
