@@ -13,18 +13,21 @@ const getBackgroundStyles = (theme: Theme, props: IconButtonStyleProps): string 
   return styles[props.backgroundStyle]
 }
 
+const setBoxShadow = (theme: Theme) => ({ backgroundStyle, disabled }: IconButtonStyleProps) => backgroundStyle === 'float' && !disabled && theme.elevation.medium
+const setOpacity = (theme: Theme) => ({ backgroundStyle }: IconButtonStyleProps) => backgroundStyle === 'overlay' && theme.opacity.mediumHigh
+
 const styles = createUseStyles((theme: Theme) => ({
   iconButtonContainer: {
     alignItems: 'center',
     backgroundColor: (props: IconButtonStyleProps) => getBackgroundStyles(theme, props),
     border: 'none',
     borderRadius: '50%',
-    boxShadow: ({ backgroundStyle }: IconButtonStyleProps) => backgroundStyle === 'float' && theme.elevation.medium,
+    boxShadow: setBoxShadow(theme),
     cursor: 'pointer',
     display: 'inline-flex',
     height: ({ size }: IconButtonStyleProps) => theme.size[size],
     justifyContent: 'center',
-    opacity: ({ backgroundStyle }: IconButtonStyleProps) => backgroundStyle === 'overlay' && theme.opacity.mediumHigh,
+    opacity: setOpacity(theme),
     outline: 'none',
     overflow: 'hidden',
     position: 'relative',
