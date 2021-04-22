@@ -8,7 +8,7 @@ export interface IconButtonProps {
   /**
    * Use to define a text that explains the expected action
    */
-  ariaLabel?: string,
+  ariaLabel: string,
   /**
    * Set a background-style
    * @default none
