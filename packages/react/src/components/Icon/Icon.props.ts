@@ -1,8 +1,8 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { Color, Size } from '@naturacosmeticos/natds-themes'
 
-type IconSize = keyof Size
-type IconColor = keyof Color
+export type IconSize = keyof Size
+export type IconColor = keyof Color
 export interface IconProps {
   /**
    * Removes the entire element from the accessibility tree
@@ -24,8 +24,9 @@ export interface IconProps {
   color?: IconColor;
 
   /**
-  * The Icon name
-   * @default "filled-default-mockup"
+   * Set the icon to be rendered.
+   * Check all available names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
+   * @default outlined-default-mockup
    */
   name: IconName;
 
