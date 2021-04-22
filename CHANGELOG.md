@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [1.8.1](https://github.com/natura-cosmeticos/natds/compare/v1.8.0...v1.8.1) (2021-04-22)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.4.0 ([#1347](https://github.com/natura-cosmeticos/natds/issues/1347)) ([6be01a0](https://github.com/natura-cosmeticos/natds/commit/6be01a01403da1361197aa5f2a8ba600ca74e83d))
+
+
+
+
+
 # [1.8.0](https://github.com/natura-cosmeticos/natds/compare/v1.7.1...v1.8.0) (2021-04-14)
 
 
