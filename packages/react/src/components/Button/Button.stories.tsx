@@ -39,7 +39,7 @@ export default {
 } as Meta
 
 export const Playground: Story<ButtonProps> = (args) => <Button {...args} onClick={() => console.log('clicked!')} />
-Playground.args = { text: 'button', iconName: 'outlined-default-mockup' }
+Playground.args = { text: 'button' }
 
 export const Variants: Story<ButtonProps> = (args) => (
   <StoryContainer>
@@ -75,7 +75,7 @@ export const Icon: Story<ButtonProps> = (args) => (
     <Button {...args} iconPosition="left" />
   </StoryContainer>
 )
-Icon.args = { ...Playground.args, showIcon: true }
+Icon.args = { ...Playground.args, showIcon: true, iconName: 'outlined-default-mockup' }
 
 export const FullWidth: Story<ButtonProps> = Playground.bind({})
 FullWidth.args = { ...Playground.args, fullWidth: true }
