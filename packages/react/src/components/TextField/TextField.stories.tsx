@@ -50,4 +50,14 @@ export const Size: Story<TextFieldProps> = (args) => (
   </StoryContainer>
 )
 
-Size.args = { label: 'Label' }
+Size.args = { ...Playground.args }
+
+export const Feedback: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} />
+    <TextField {...args} feedback="error" />
+    <TextField {...args} feedback="success" />
+  </StoryContainer>
+)
+
+Feedback.args = { ...Playground.args }
