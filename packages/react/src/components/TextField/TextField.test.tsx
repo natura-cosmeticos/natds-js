@@ -23,4 +23,11 @@ describe('TextField component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+
+  it('should render correctly when required', () => {
+    const { styles, component } = renderWithTheme(<TextField {...textFieldProps} testID="input" required />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+    expect(component.getByTestId('input')).toBeRequired()
+  })
 })
