@@ -1,0 +1,25 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`TextField component should render correctly with given size 1`] = `
+Array [
+  ".input-0-2-1 {
+  width: 100%;
+  padding: 16px;
+  box-sizing: border-box;
+  border-radius: 4px;
+}
+.input-0-2-1::placeholder {
+  color: #777777;
+  letter-spacing: 0.51px;
+}
+.input-d0-0-2-2 {
+  height: 48px;
+}",
+  <div>
+    <input
+      class="input-0-2-1 input-d0-0-2-2"
+      type="text"
+    />
+  </div>,
+]
+`;
