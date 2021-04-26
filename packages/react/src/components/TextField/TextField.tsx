@@ -7,6 +7,7 @@ const TextField = ({
   disabled = false,
   feedback = 'none',
   helperText,
+  label,
   placeholder,
   readOnly = false,
   required = false,
@@ -14,18 +15,22 @@ const TextField = ({
   testID,
   type = 'text'
 }: TextFieldProps): JSX.Element => {
-  const classes = styles({ disabled, size })
+  const classes = styles({ disabled, feedback, size })
 
   return (
-    <input
-      data-testid={testID}
-      className={classes.input}
-      disabled={disabled}
-      placeholder={placeholder}
-      readOnly={readOnly}
-      required={required}
-      type={type}
-    />
+    <div>
+      <label className={classes.label}>{label}</label>
+      <input
+        data-testid={testID}
+        className={classes.input}
+        disabled={disabled}
+        placeholder={placeholder}
+        readOnly={readOnly}
+        required={required}
+        type={type}
+      />
+      <span className={classes.helperText}>{helperText}</span>
+    </div>
   )
 }
 
