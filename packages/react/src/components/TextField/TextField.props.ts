@@ -28,6 +28,11 @@ export interface TextFieldProps {
   helperText?: string;
 
   /**
+   * A Label needs to describe the purpose of the field. It is shown above the input.
+   */
+  label: string;
+
+  /**
    * The placeholder text shown inside the field
   */
   placeholder?: string;

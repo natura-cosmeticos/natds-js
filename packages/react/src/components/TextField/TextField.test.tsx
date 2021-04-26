@@ -3,11 +3,23 @@ import TextField from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import { TextFieldProps } from './TextField.props'
 
-const textFieldProps: TextFieldProps = {}
+const textFieldProps: TextFieldProps = { helperText: 'Helper text', label: 'Label' }
 
 describe('TextField component', () => {
   it('should render correctly with given size', () => {
     const { styles, component } = renderWithTheme(<TextField {...textFieldProps} size="medium" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly with feedback error', () => {
+    const { styles, component } = renderWithTheme(<TextField {...textFieldProps} feedback="error" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly with feedback success', () => {
+    const { styles, component } = renderWithTheme(<TextField {...textFieldProps} feedback="success" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
