@@ -14,7 +14,7 @@ const componentStatus = `
 - **Feedback**
   - ✅ \`error\`
   - ✅ \`success\`
-- ❌ **Required**
+- ✅ **Required**
 - ❌ **Disabled**
 - ❌ **ReadOnly**
 - ❌ **HelperText**
@@ -61,3 +61,12 @@ export const Feedback: Story<TextFieldProps> = (args) => (
 )
 
 Feedback.args = { ...Playground.args }
+
+export const Required: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} />
+    <TextField {...args} required />
+  </StoryContainer>
+)
+
+Required.args = { ...Playground.args }
