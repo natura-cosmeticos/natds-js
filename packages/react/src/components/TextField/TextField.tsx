@@ -18,8 +18,11 @@ const TextField = ({
   const classes = styles({ disabled, feedback, size })
 
   return (
-    <div>
-      <label className={classes.label}>{label}</label>
+    <div className={classes.container}>
+      <label className={classes.label}>
+        {label}
+        {required && '*'}
+      </label>
       <input
         data-testid={testID}
         className={classes.input}

@@ -16,6 +16,9 @@ const getFeedbackColor = (theme: Theme, { feedback }: TextFieldStyleProps) => {
 }
 
 const styles = createUseStyles((theme: Theme) => ({
+  container: {
+    flexGrow: 1
+  },
   input: {
     boxSizing: 'border-box',
     borderColor: (props: TextFieldStyleProps) => getFeedbackColor(theme, props),
