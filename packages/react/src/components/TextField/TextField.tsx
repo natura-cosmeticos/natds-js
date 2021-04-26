@@ -1,4 +1,3 @@
-import { ClassNames } from '@emotion/core'
 import React from 'react'
 import { TextFieldProps } from './TextField.props'
 import styles from './TextField.styles'
