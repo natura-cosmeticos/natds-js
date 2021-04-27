@@ -1,10 +1,10 @@
 import React from 'react'
-import { TextFieldProps } from './TextField.props'
+import { TextFieldFeedback, TextFieldProps } from './TextField.props'
 import { Icon } from '../Icon'
 import styles from './TextField.styles'
 
-const getIconName = (feedback) => (feedback === 'success' ? 'outlined-action-check' : 'outlined-action-cancel')
-const getIconColor = (feedback) => (feedback === 'success' ? 'success' : 'alert')
+export const getIconName = (feedback: TextFieldFeedback) => (feedback === 'success' ? 'outlined-action-check' : 'outlined-action-cancel')
+export const getIconColor = (feedback: TextFieldFeedback) => (feedback === 'success' ? 'success' : 'alert')
 
 const TextField = ({
   action = 'none',
