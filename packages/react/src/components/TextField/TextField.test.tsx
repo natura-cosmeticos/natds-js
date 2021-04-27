@@ -41,4 +41,10 @@ describe('TextField component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+  it('should render correctly when is disabled', () => {
+    const { styles, component } = renderWithTheme(<TextField {...textFieldProps} testID="disabled-input" disabled />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+    expect(component.getByTestId('disabled-input')).toBeDisabled()
+  })
 })
