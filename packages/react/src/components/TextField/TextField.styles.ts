@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TextFieldProps } from './TextField.props'
@@ -37,6 +38,7 @@ const styles = createUseStyles((theme: Theme) => ({
     borderColor: (props: TextFieldStyleProps) => getFeedbackBorderColor(theme, props),
     borderRadius: theme.borderRadius.medium,
     boxSizing: 'border-box',
+    color: ({ disabled }: TextFieldStyleProps) => (disabled ? theme.color.lowEmphasis : theme.color.onPrimary),
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontSize: 16,
     height: ({ size }: TextFieldStyleProps) => theme.size[size],
@@ -52,7 +54,7 @@ const styles = createUseStyles((theme: Theme) => ({
       outline: 'none'
     },
     '&::placeholder': {
-      color: theme.color.mediumEmphasis
+      color: ({ disabled }: TextFieldStyleProps) => (disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis)
     }
   },
   helperText: {
