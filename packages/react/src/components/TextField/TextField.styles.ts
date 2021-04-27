@@ -2,9 +2,9 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TextFieldProps } from './TextField.props'
 
-type TextFieldStyleProps = Required<TextFieldProps>
+type TextFieldStyleProps = Required<Pick<TextFieldProps, 'size' | 'feedback'>>
 
-const getFeedbackColor = (theme: Theme, { feedback }: TextFieldStyleProps) => {
+const getFeedbackBorderColor = (theme: Theme, { feedback }: TextFieldStyleProps) => {
   switch (feedback) {
     case 'error':
       return theme.color.alert
@@ -15,39 +15,55 @@ const getFeedbackColor = (theme: Theme, { feedback }: TextFieldStyleProps) => {
   }
 }
 
+const getFeedbackTextColor = (theme: Theme, { feedback }: TextFieldStyleProps) => {
+  switch (feedback) {
+    case 'error':
+      return theme.color.alert
+    case 'success':
+      return theme.color.success
+    default:
+      return theme.color.mediumEmphasis
+  }
+}
+
 const styles = createUseStyles((theme: Theme) => ({
   container: {
     flexGrow: 1
   },
   input: {
-    boxSizing: 'border-box',
-    borderColor: (props: TextFieldStyleProps) => getFeedbackColor(theme, props),
+    border: '1px solid',
+    borderColor: (props: TextFieldStyleProps) => getFeedbackBorderColor(theme, props),
     borderRadius: theme.borderRadius.medium,
-    borderStyle: 'solid',
+    boxSizing: 'border-box',
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontSize: 16,
-    letterSpacing: 0.51,
     height: ({ size }: TextFieldStyleProps) => theme.size[size],
+    letterSpacing: 0.51,
     padding: theme.spacing.small,
     width: '100%',
+    '&:hover:not([disabled])': {
+      borderColor: theme.color.mediumEmphasis
+    },
+    '&:focus': {
+      border: '2px solid',
+      borderColor: theme.color.primary,
+      outline: 'none'
+    },
     '&::placeholder': {
-      color: theme.color.mediumEmphasis,
-      letterSpacing: 0.51
+      color: theme.color.mediumEmphasis
     }
   },
   helperText: {
-    color: (props: TextFieldStyleProps) => getFeedbackColor(theme, props),
+    color: (props: TextFieldStyleProps) => getFeedbackTextColor(theme, props),
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontSize: 12,
-    letterSpacing: 0.38,
-    textAlign: 'left'
+    letterSpacing: 0.4
   },
   label: {
-    color: (props: TextFieldStyleProps) => getFeedbackColor(theme, props),
+    color: (props: TextFieldStyleProps) => getFeedbackTextColor(theme, props),
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontSize: 14,
-    letterSpacing: 1.11,
-    textAlign: 'left'
+    letterSpacing: 0.11
   }
 }))
 
