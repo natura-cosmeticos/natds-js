@@ -1,6 +1,7 @@
 import { Size } from '@naturacosmeticos/natds-themes'
 
 export type TextFieldSize = keyof Pick<Size, 'medium' | 'mediumX'>
+export type TextFieldFeedback = 'success' | 'error'
 
 export interface TextFieldProps {
   /**
@@ -18,7 +19,7 @@ export interface TextFieldProps {
   /**
   * Visual feedback used to show the user if the value typed fit its validation rules or not
   */
-  feedback?: 'error' | 'success';
+  feedback?: TextFieldFeedback;
 
   /**
   * A helper text is used to provide hints or feedback
