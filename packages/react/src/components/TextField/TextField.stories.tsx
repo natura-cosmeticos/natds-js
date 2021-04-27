@@ -15,7 +15,7 @@ const componentStatus = `
   - ✅ \`error\`
   - ✅ \`success\`
 - ✅ **Required**
-- ❌ **Disabled**
+- ✅ **Disabled**
 - ❌ **ReadOnly**
 - ✅ **HelperText**
 - **Action**
@@ -39,7 +39,9 @@ export default {
 } as Meta
 
 export const Playground: Story<TextFieldProps> = (args) => (
-  <TextField {...args} />
+  <StoryContainer>
+    <TextField {...args} />
+  </StoryContainer>
 )
 Playground.args = { helperText: 'Helper text', label: 'Label', placeholder: 'Placeholder' }
 
@@ -54,7 +56,7 @@ Size.args = { ...Playground.args }
 
 export const HelperText: Story<TextFieldProps> = (args) => (
   <StoryContainer>
-    <TextField {...args} helperText="A short helper text" />
+    <TextField {...args} helperText="Helper text" />
   </StoryContainer>
 )
 
@@ -62,7 +64,6 @@ HelperText.args = { ...Playground.args }
 
 export const Feedback: Story<TextFieldProps> = (args) => (
   <StoryContainer>
-    <TextField {...args} />
     <TextField {...args} feedback="error" />
     <TextField {...args} feedback="success" />
   </StoryContainer>
@@ -77,3 +78,11 @@ export const Required: Story<TextFieldProps> = (args) => (
 )
 
 Required.args = { ...Playground.args, required: true }
+
+export const Disabled: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} />
+  </StoryContainer>
+)
+
+Disabled.args = { ...Playground.args, disabled: true }
