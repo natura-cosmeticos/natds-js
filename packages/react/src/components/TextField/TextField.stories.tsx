@@ -12,12 +12,12 @@ const componentStatus = `
   - ✅ \`medium\`
   - ✅ \`mediumX\`
 - **Feedback**
-  - ❌ \`error\`
-  - ❌ \`success\`
-- ❌ **Required**
+  - ✅ \`error\`
+  - ✅ \`success\`
+- ✅ **Required**
 - ❌ **Disabled**
 - ❌ **ReadOnly**
-- ❌ **HelperText**
+- ✅ **HelperText**
 - **Action**
   - ❌ \`iconButton \`
   - ❌ \`image \`
@@ -52,6 +52,14 @@ export const Size: Story<TextFieldProps> = (args) => (
 
 Size.args = { ...Playground.args }
 
+export const HelperText: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} helperText="A short helper text" />
+  </StoryContainer>
+)
+
+HelperText.args = { ...Playground.args }
+
 export const Feedback: Story<TextFieldProps> = (args) => (
   <StoryContainer>
     <TextField {...args} />
@@ -65,8 +73,7 @@ Feedback.args = { ...Playground.args }
 export const Required: Story<TextFieldProps> = (args) => (
   <StoryContainer>
     <TextField {...args} />
-    <TextField {...args} required />
   </StoryContainer>
 )
 
-Required.args = { ...Playground.args }
+Required.args = { ...Playground.args, required: true }
