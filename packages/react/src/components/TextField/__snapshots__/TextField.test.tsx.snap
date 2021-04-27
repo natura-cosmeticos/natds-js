@@ -1,5 +1,82 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`TextField component should render correctly when is disabled 1`] = `
+Array [
+  ".container-0-2-1 {
+  flex-grow: 1;
+}
+.input-0-2-2 {
+  width: 100%;
+  border: 1px solid;
+  padding: 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  border-radius: 4px;
+  letter-spacing: 0.51px;
+}
+.input-0-2-2:hover:not([disabled]) {
+  border-color: #777777;
+}
+.input-0-2-2:focus:not([hover]) {
+  border: 2px solid;
+  outline: none;
+  border-color: #f4ab34;
+}
+.input-0-2-2::placeholder {}
+.helperText-0-2-3 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+.helperText-0-2-3 > i {}
+.label-0-2-4 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.11px;
+}
+.input-d0-0-2-5 {
+  border-color: #bbbbbb;
+  color: #bbbbbb;
+  height: 56px;
+}
+.input-d0-0-2-5::placeholder {
+  color: #bbbbbb;
+}
+.helperText-d1-0-2-6 {
+  color: #bbbbbb;
+}
+.helperText-d1-0-2-6 > i {}
+.label-d2-0-2-7 {
+  color: #bbbbbb;
+}",
+  <div>
+    <div
+      class="container-0-2-1"
+    >
+      <label
+        class="label-0-2-4 label-d2-0-2-7"
+      >
+        Label
+      </label>
+      <input
+        class="input-0-2-2 input-d0-0-2-5"
+        data-testid="disabled-input"
+        disabled=""
+        type="text"
+      />
+      <p
+        class="helperText-0-2-3 helperText-d1-0-2-6"
+      />
+    </div>
+  </div>,
+]
+`;
+
 exports[`TextField component should render correctly when required 1`] = `
 Array [
   ".container-0-2-1 {
@@ -23,9 +100,7 @@ Array [
   outline: none;
   border-color: #f4ab34;
 }
-.input-0-2-2::placeholder {
-  color: #777777;
-}
+.input-0-2-2::placeholder {}
 .helperText-0-2-3 {
   display: flex;
   font-size: 12px;
@@ -43,7 +118,11 @@ Array [
 }
 .input-d0-0-2-5 {
   border-color: #bbbbbb;
+  color: #333333;
   height: 56px;
+}
+.input-d0-0-2-5::placeholder {
+  color: #777777;
 }
 .helperText-d1-0-2-6 {
   color: #777777;
@@ -99,9 +178,7 @@ Array [
   outline: none;
   border-color: #f4ab34;
 }
-.input-0-2-2::placeholder {
-  color: #777777;
-}
+.input-0-2-2::placeholder {}
 .helperText-0-2-3 {
   display: flex;
   font-size: 12px;
@@ -119,7 +196,11 @@ Array [
 }
 .input-d0-0-2-5 {
   border-color: #bbbbbb;
+  color: #333333;
   height: 56px;
+}
+.input-d0-0-2-5::placeholder {
+  color: #777777;
 }
 .helperText-d1-0-2-6 {
   color: #777777;
@@ -180,9 +261,7 @@ Array [
   outline: none;
   border-color: #f4ab34;
 }
-.input-0-2-2::placeholder {
-  color: #777777;
-}
+.input-0-2-2::placeholder {}
 .helperText-0-2-3 {
   display: flex;
   font-size: 12px;
@@ -200,7 +279,11 @@ Array [
 }
 .input-d0-0-2-5 {
   border-color: #e74627;
+  color: #333333;
   height: 56px;
+}
+.input-d0-0-2-5::placeholder {
+  color: #777777;
 }
 .helperText-d1-0-2-6 {
   color: #e74627;
@@ -270,9 +353,7 @@ Array [
   outline: none;
   border-color: #f4ab34;
 }
-.input-0-2-2::placeholder {
-  color: #777777;
-}
+.input-0-2-2::placeholder {}
 .helperText-0-2-3 {
   display: flex;
   font-size: 12px;
@@ -290,7 +371,11 @@ Array [
 }
 .input-d0-0-2-5 {
   border-color: #569a32;
+  color: #333333;
   height: 56px;
+}
+.input-d0-0-2-5::placeholder {
+  color: #777777;
 }
 .helperText-d1-0-2-6 {
   color: #569a32;
@@ -352,9 +437,7 @@ Array [
   outline: none;
   border-color: #f4ab34;
 }
-.input-0-2-2::placeholder {
-  color: #777777;
-}
+.input-0-2-2::placeholder {}
 .helperText-0-2-3 {
   display: flex;
   font-size: 12px;
@@ -372,7 +455,11 @@ Array [
 }
 .input-d0-0-2-5 {
   border-color: #bbbbbb;
+  color: #333333;
   height: 56px;
+}
+.input-d0-0-2-5::placeholder {
+  color: #777777;
 }
 .helperText-d1-0-2-6 {
   color: #777777;
@@ -427,9 +514,7 @@ Array [
   outline: none;
   border-color: #f4ab34;
 }
-.input-0-2-2::placeholder {
-  color: #777777;
-}
+.input-0-2-2::placeholder {}
 .helperText-0-2-3 {
   display: flex;
   font-size: 12px;
@@ -447,7 +532,11 @@ Array [
 }
 .input-d0-0-2-5 {
   border-color: #bbbbbb;
+  color: #333333;
   height: 48px;
+}
+.input-d0-0-2-5::placeholder {
+  color: #777777;
 }
 .helperText-d1-0-2-6 {
   color: #777777;
