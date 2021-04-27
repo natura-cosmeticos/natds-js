@@ -12,9 +12,9 @@ const componentStatus = `
   - ✅ \`medium\`
   - ✅ \`mediumX\`
 - **Feedback**
-  - ✅ \`error\`
-  - ✅ \`success\`
-- ✅ **Required**
+  - ❌ \`error\`
+  - ❌ \`success\`
+- ❌ **Required**
 - ❌ **Disabled**
 - ❌ **ReadOnly**
 - ❌ **HelperText**
@@ -41,7 +41,7 @@ export default {
 export const Playground: Story<TextFieldProps> = (args) => (
   <TextField {...args} />
 )
-Playground.args = { helperText: 'Helper text', label: 'Label' }
+Playground.args = { helperText: 'Helper text', label: 'Label', placeholder: 'Placeholder' }
 
 export const Size: Story<TextFieldProps> = (args) => (
   <StoryContainer>
