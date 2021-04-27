@@ -1,11 +1,15 @@
 import React from 'react'
 import { TextFieldProps } from './TextField.props'
+import { Icon } from '../Icon'
 import styles from './TextField.styles'
+
+const getIconName = (feedback) => (feedback === 'success' ? 'outlined-action-check' : 'outlined-action-cancel')
+const getIconColor = (feedback) => (feedback === 'success' ? 'success' : 'alert')
 
 const TextField = ({
   action = 'none',
   disabled = false,
-  feedback = 'none',
+  feedback,
   helperText,
   label,
   placeholder,
@@ -32,7 +36,10 @@ const TextField = ({
         required={required}
         type={type}
       />
-      <span className={classes.helperText}>{helperText}</span>
+      <p className={classes.helperText}>
+        {feedback && <Icon name={getIconName(feedback)} color={getIconColor(feedback)} size="small" />}
+        {helperText}
+      </p>
     </div>
   )
 }
