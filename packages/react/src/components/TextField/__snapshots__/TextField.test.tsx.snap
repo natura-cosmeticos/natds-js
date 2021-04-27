@@ -7,39 +7,50 @@ Array [
 }
 .input-0-2-2 {
   width: 100%;
+  border: 1px solid;
   padding: 16px;
   font-size: 16px;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  border-style: solid;
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:hover:not([disabled]) {
+  border-color: #777777;
+}
+.input-0-2-2:focus:not([hover]) {
+  border: 2px solid;
+  outline: none;
+  border-color: #f4ab34;
+}
 .input-0-2-2::placeholder {
   color: #777777;
-  letter-spacing: 0.51px;
 }
 .helperText-0-2-3 {
+  display: flex;
   font-size: 12px;
-  text-align: left;
+  margin-top: 4px;
+  align-items: center;
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.38px;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
 }
+.helperText-0-2-3 > i {}
 .label-0-2-4 {
   font-size: 14px;
-  text-align: left;
   font-family: Roboto, sans-serif;
-  letter-spacing: 1.11px;
+  letter-spacing: 0.11px;
 }
 .input-d0-0-2-5 {
   border-color: #bbbbbb;
   height: 56px;
 }
 .helperText-d1-0-2-6 {
-  color: #bbbbbb;
+  color: #777777;
 }
+.helperText-d1-0-2-6 > i {}
 .label-d2-0-2-7 {
-  color: #bbbbbb;
+  color: #777777;
 }",
   <div>
     <div
@@ -57,11 +68,82 @@ Array [
         required=""
         type="text"
       />
-      <span
+      <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly with default props 1`] = `
+Array [
+  ".container-0-2-1 {
+  flex-grow: 1;
+}
+.input-0-2-2 {
+  width: 100%;
+  border: 1px solid;
+  padding: 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  border-radius: 4px;
+  letter-spacing: 0.51px;
+}
+.input-0-2-2:hover:not([disabled]) {
+  border-color: #777777;
+}
+.input-0-2-2:focus:not([hover]) {
+  border: 2px solid;
+  outline: none;
+  border-color: #f4ab34;
+}
+.input-0-2-2::placeholder {
+  color: #777777;
+}
+.helperText-0-2-3 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+.helperText-0-2-3 > i {}
+.label-0-2-4 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.11px;
+}
+.input-d0-0-2-5 {
+  border-color: #bbbbbb;
+  height: 56px;
+}
+.helperText-d1-0-2-6 {
+  color: #777777;
+}
+.helperText-d1-0-2-6 > i {}
+.label-d2-0-2-7 {
+  color: #777777;
+}",
+  <div>
+    <div
+      class="container-0-2-1"
+    >
+      <label
+        class="label-0-2-4 label-d2-0-2-7"
       >
-        Helper text
-      </span>
+        Label
+      </label>
+      <input
+        class="input-0-2-2 input-d0-0-2-5"
+        type="text"
+      />
+      <p
+        class="helperText-0-2-3 helperText-d1-0-2-6"
+      />
     </div>
   </div>,
 ]
@@ -69,34 +151,52 @@ Array [
 
 exports[`TextField component should render correctly with feedback error 1`] = `
 Array [
-  ".container-0-2-1 {
+  ".icon-0-2-8 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-9 {
+  color: #e74627;
+  font-size: 16px;
+}
+.container-0-2-1 {
   flex-grow: 1;
 }
 .input-0-2-2 {
   width: 100%;
+  border: 1px solid;
   padding: 16px;
   font-size: 16px;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  border-style: solid;
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:hover:not([disabled]) {
+  border-color: #777777;
+}
+.input-0-2-2:focus:not([hover]) {
+  border: 2px solid;
+  outline: none;
+  border-color: #f4ab34;
+}
 .input-0-2-2::placeholder {
   color: #777777;
-  letter-spacing: 0.51px;
 }
 .helperText-0-2-3 {
+  display: flex;
   font-size: 12px;
-  text-align: left;
+  margin-top: 4px;
+  align-items: center;
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.38px;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
 }
+.helperText-0-2-3 > i {}
 .label-0-2-4 {
   font-size: 14px;
-  text-align: left;
   font-family: Roboto, sans-serif;
-  letter-spacing: 1.11px;
+  letter-spacing: 0.11px;
 }
 .input-d0-0-2-5 {
   border-color: #e74627;
@@ -105,6 +205,9 @@ Array [
 .helperText-d1-0-2-6 {
   color: #e74627;
 }
+.helperText-d1-0-2-6 > i {
+  margin-right: 4px;
+}
 .label-d2-0-2-7 {
   color: #e74627;
 }",
@@ -121,11 +224,16 @@ Array [
         class="input-0-2-2 input-d0-0-2-5"
         type="text"
       />
-      <span
+      <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       >
-        Helper text
-      </span>
+        <i
+          aria-hidden="true"
+          class="icon-0-2-8 icon-d0-0-2-9 natds-icons natds-icons-outlined-action-cancel"
+          data-testid="icon-outlined-action-cancel"
+          role="img"
+        />
+      </p>
     </div>
   </div>,
 ]
@@ -133,34 +241,52 @@ Array [
 
 exports[`TextField component should render correctly with feedback success 1`] = `
 Array [
-  ".container-0-2-1 {
+  ".icon-0-2-8 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-9 {
+  color: #569a32;
+  font-size: 16px;
+}
+.container-0-2-1 {
   flex-grow: 1;
 }
 .input-0-2-2 {
   width: 100%;
+  border: 1px solid;
   padding: 16px;
   font-size: 16px;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  border-style: solid;
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:hover:not([disabled]) {
+  border-color: #777777;
+}
+.input-0-2-2:focus:not([hover]) {
+  border: 2px solid;
+  outline: none;
+  border-color: #f4ab34;
+}
 .input-0-2-2::placeholder {
   color: #777777;
-  letter-spacing: 0.51px;
 }
 .helperText-0-2-3 {
+  display: flex;
   font-size: 12px;
-  text-align: left;
+  margin-top: 4px;
+  align-items: center;
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.38px;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
 }
+.helperText-0-2-3 > i {}
 .label-0-2-4 {
   font-size: 14px;
-  text-align: left;
   font-family: Roboto, sans-serif;
-  letter-spacing: 1.11px;
+  letter-spacing: 0.11px;
 }
 .input-d0-0-2-5 {
   border-color: #569a32;
@@ -169,6 +295,9 @@ Array [
 .helperText-d1-0-2-6 {
   color: #569a32;
 }
+.helperText-d1-0-2-6 > i {
+  margin-right: 4px;
+}
 .label-d2-0-2-7 {
   color: #569a32;
 }",
@@ -185,56 +314,72 @@ Array [
         class="input-0-2-2 input-d0-0-2-5"
         type="text"
       />
-      <span
+      <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       >
-        Helper text
-      </span>
+        <i
+          aria-hidden="true"
+          class="icon-0-2-8 icon-d0-0-2-9 natds-icons natds-icons-outlined-action-check"
+          data-testid="icon-outlined-action-check"
+          role="img"
+        />
+      </p>
     </div>
   </div>,
 ]
 `;
 
-exports[`TextField component should render correctly with given size 1`] = `
+exports[`TextField component should render correctly with helper text 1`] = `
 Array [
   ".container-0-2-1 {
   flex-grow: 1;
 }
 .input-0-2-2 {
   width: 100%;
+  border: 1px solid;
   padding: 16px;
   font-size: 16px;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
-  border-style: solid;
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:hover:not([disabled]) {
+  border-color: #777777;
+}
+.input-0-2-2:focus:not([hover]) {
+  border: 2px solid;
+  outline: none;
+  border-color: #f4ab34;
+}
 .input-0-2-2::placeholder {
   color: #777777;
-  letter-spacing: 0.51px;
 }
 .helperText-0-2-3 {
+  display: flex;
   font-size: 12px;
-  text-align: left;
+  margin-top: 4px;
+  align-items: center;
   font-family: Roboto, sans-serif;
-  letter-spacing: 0.38px;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
 }
+.helperText-0-2-3 > i {}
 .label-0-2-4 {
   font-size: 14px;
-  text-align: left;
   font-family: Roboto, sans-serif;
-  letter-spacing: 1.11px;
+  letter-spacing: 0.11px;
 }
 .input-d0-0-2-5 {
   border-color: #bbbbbb;
-  height: 48px;
+  height: 56px;
 }
 .helperText-d1-0-2-6 {
-  color: #bbbbbb;
+  color: #777777;
 }
+.helperText-d1-0-2-6 > i {}
 .label-d2-0-2-7 {
-  color: #bbbbbb;
+  color: #777777;
 }",
   <div>
     <div
@@ -249,11 +394,84 @@ Array [
         class="input-0-2-2 input-d0-0-2-5"
         type="text"
       />
-      <span
+      <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       >
-        Helper text
-      </span>
+        helper text
+      </p>
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly with medium size 1`] = `
+Array [
+  ".container-0-2-1 {
+  flex-grow: 1;
+}
+.input-0-2-2 {
+  width: 100%;
+  border: 1px solid;
+  padding: 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  border-radius: 4px;
+  letter-spacing: 0.51px;
+}
+.input-0-2-2:hover:not([disabled]) {
+  border-color: #777777;
+}
+.input-0-2-2:focus:not([hover]) {
+  border: 2px solid;
+  outline: none;
+  border-color: #f4ab34;
+}
+.input-0-2-2::placeholder {
+  color: #777777;
+}
+.helperText-0-2-3 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+.helperText-0-2-3 > i {}
+.label-0-2-4 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.11px;
+}
+.input-d0-0-2-5 {
+  border-color: #bbbbbb;
+  height: 48px;
+}
+.helperText-d1-0-2-6 {
+  color: #777777;
+}
+.helperText-d1-0-2-6 > i {}
+.label-d2-0-2-7 {
+  color: #777777;
+}",
+  <div>
+    <div
+      class="container-0-2-1"
+    >
+      <label
+        class="label-0-2-4 label-d2-0-2-7"
+      >
+        Label
+      </label>
+      <input
+        class="input-0-2-2 input-d0-0-2-5"
+        type="text"
+      />
+      <p
+        class="helperText-0-2-3 helperText-d1-0-2-6"
+      />
     </div>
   </div>,
 ]

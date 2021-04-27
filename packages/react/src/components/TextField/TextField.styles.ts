@@ -2,7 +2,7 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TextFieldProps } from './TextField.props'
 
-type TextFieldStyleProps = Required<Pick<TextFieldProps, 'size' | 'feedback'>>
+type TextFieldStyleProps = Required<Pick<TextFieldProps, 'size' | 'feedback' | 'disabled'>>
 
 const getFeedbackBorderColor = (theme: Theme, { feedback }: TextFieldStyleProps) => {
   switch (feedback) {
@@ -15,14 +15,16 @@ const getFeedbackBorderColor = (theme: Theme, { feedback }: TextFieldStyleProps)
   }
 }
 
-const getFeedbackTextColor = (theme: Theme, { feedback }: TextFieldStyleProps) => {
+const getFeedbackTextColor = (theme: Theme, { feedback, disabled }: TextFieldStyleProps) => {
+  const defaultColor = disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis
+
   switch (feedback) {
     case 'error':
       return theme.color.alert
     case 'success':
       return theme.color.success
     default:
-      return theme.color.mediumEmphasis
+      return defaultColor
   }
 }
 
@@ -44,7 +46,7 @@ const styles = createUseStyles((theme: Theme) => ({
     '&:hover:not([disabled])': {
       borderColor: theme.color.mediumEmphasis
     },
-    '&:focus': {
+    '&:focus:not([hover])': {
       border: '2px solid',
       borderColor: theme.color.primary,
       outline: 'none'
@@ -54,10 +56,17 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   },
   helperText: {
+    alignItems: 'center',
     color: (props: TextFieldStyleProps) => getFeedbackTextColor(theme, props),
+    display: 'flex',
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontSize: 12,
-    letterSpacing: 0.4
+    letterSpacing: 0.4,
+    marginTop: theme.spacing.micro,
+    marginBottom: 0,
+    '& > i': {
+      marginRight: ({ feedback }: TextFieldStyleProps) => feedback && theme.spacing.micro
+    }
   },
   label: {
     color: (props: TextFieldStyleProps) => getFeedbackTextColor(theme, props),
