@@ -17,9 +17,8 @@ export interface TextFieldProps {
 
   /**
   * Visual feedback used to show the user if the value typed fit its validation rules or not
-  * @default none
   */
-  feedback?: 'none' | 'error' | 'success';
+  feedback?: 'error' | 'success';
 
   /**
   * A helper text is used to provide hints or feedback
