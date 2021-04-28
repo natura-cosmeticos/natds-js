@@ -8,9 +8,12 @@ const textFieldProps: TextFieldProps = { label: 'Label' }
 
 describe('TextField component', () => {
   it('should render correctly with default props', () => {
-    const { styles, component } = renderWithTheme(<TextField {...textFieldProps} />)
+    const { styles, component } = renderWithTheme(<TextField {...textFieldProps} testID="default-text-field" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
+    expect(component.getByTestId('default-text-field')).toHaveAttribute('type', 'text')
+    expect(component.getByTestId('default-text-field')).not.toBeDisabled()
+    expect(component.getByTestId('default-text-field')).not.toBeRequired()
   })
   it('should render correctly with medium size', () => {
     const { styles, component } = renderWithTheme(<TextField {...textFieldProps} size="medium" />)
@@ -47,6 +50,11 @@ describe('TextField component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
     expect(component.getByTestId('disabled-input')).toBeDisabled()
+  })
+  it('should have password as type', () => {
+    const { component } = renderWithTheme(<TextField {...textFieldProps} testID="attr-password" type="password" />)
+
+    expect(component.getByTestId('attr-password')).toHaveAttribute('type', 'password')
   })
 })
 

@@ -22,6 +22,11 @@ export interface TextFieldProps {
   feedback?: TextFieldFeedback;
 
   /**
+   * Event handler
+   */
+   onChange: (e: React.ChangeEvent<HTMLInputElement>) => void
+
+  /**
   * A helper text is used to provide hints or feedback
   * to the user about how to fill in the field. It is shown below the input.
   */
@@ -67,4 +72,9 @@ export interface TextFieldProps {
    * @default text
    */
   type?: 'text' | 'password' | 'multiline';
+
+  /**
+   * The current value of Text Field
+   */
+  value?: string
 }
