@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { TextField, TextFieldProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
@@ -22,9 +22,9 @@ const componentStatus = `
   - ❌ \`iconButton \`
   - ❌ \`image \`
 - **Type**
-  - ❌ \`password \`
+  - ✅  \`password \`
   - ❌ \`multiline \`
-  - ❌ \`text \`
+  - ✅  \`text \`
 
 ---
 `
@@ -38,11 +38,15 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<TextFieldProps> = (args) => (
-  <StoryContainer>
-    <TextField {...args} />
-  </StoryContainer>
-)
+export const Playground: Story<TextFieldProps> = (args) => {
+  const [value, setValue] = useState<string>('')
+
+  return (
+    <StoryContainer>
+      <TextField {...args} onChange={(e) => setValue(e.target.value)} value={value} />
+    </StoryContainer>
+  )
+}
 Playground.args = { helperText: 'Helper text', label: 'Label', placeholder: 'Placeholder' }
 
 export const Size: Story<TextFieldProps> = (args) => (
@@ -85,4 +89,16 @@ export const Disabled: Story<TextFieldProps> = (args) => (
   </StoryContainer>
 )
 
-Disabled.args = { ...Playground.args, disabled: true }
+Disabled.args = { ...Playground.args, disabled: true, value: 'Hello World' }
+
+export const Type: Story<TextFieldProps> = (args) => {
+  const [password, setPassword] = useState<string>('Hello World')
+  const [text, setText] = useState<string>('Hello World')
+
+  return (
+    <StoryContainer>
+      <TextField {...args} type="password" onChange={(e) => setPassword(e.target.value)} value={password} label="Password type" />
+      <TextField {...args} onChange={(e) => setText(e.target.value)} value={text} label="Text type" />
+    </StoryContainer>
+  )
+}

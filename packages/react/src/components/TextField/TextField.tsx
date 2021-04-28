@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import React from 'react'
 import { TextFieldFeedback, TextFieldProps } from './TextField.props'
 import { Icon } from '../Icon'
@@ -10,6 +11,7 @@ const TextField = ({
   action = 'none',
   disabled = false,
   feedback,
+  onChange,
   helperText,
   label,
   placeholder,
@@ -17,7 +19,8 @@ const TextField = ({
   required = false,
   size = 'mediumX',
   testID,
-  type = 'text'
+  type = 'text',
+  value
 }: TextFieldProps): JSX.Element => {
   const classes = styles({ disabled, feedback, size })
 
@@ -26,16 +29,18 @@ const TextField = ({
       <label className={classes.label}>
         {label}
         {required && '*'}
+        <input
+          className={classes.input}
+          data-testid={testID}
+          disabled={disabled}
+          onChange={onChange}
+          placeholder={placeholder}
+          readOnly={readOnly}
+          required={required}
+          type={type}
+          value={value}
+        />
       </label>
-      <input
-        data-testid={testID}
-        className={classes.input}
-        disabled={disabled}
-        placeholder={placeholder}
-        readOnly={readOnly}
-        required={required}
-        type={type}
-      />
       <p className={classes.helperText}>
         {feedback && <Icon name={getIconName(feedback)} color={getIconColor(feedback)} size="small" />}
         {helperText}
