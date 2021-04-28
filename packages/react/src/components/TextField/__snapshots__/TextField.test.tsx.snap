@@ -62,13 +62,14 @@ Array [
         class="label-0-2-4 label-d2-0-2-7"
       >
         Label
+        <input
+          class="input-0-2-2 input-d0-0-2-5"
+          data-testid="disabled-input"
+          disabled=""
+          type="text"
+          value=""
+        />
       </label>
-      <input
-        class="input-0-2-2 input-d0-0-2-5"
-        data-testid="disabled-input"
-        disabled=""
-        type="text"
-      />
       <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       />
@@ -140,13 +141,14 @@ Array [
       >
         Label
         *
+        <input
+          class="input-0-2-2 input-d0-0-2-5"
+          data-testid="input"
+          required=""
+          type="text"
+          value=""
+        />
       </label>
-      <input
-        class="input-0-2-2 input-d0-0-2-5"
-        data-testid="input"
-        required=""
-        type="text"
-      />
       <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       />
@@ -217,11 +219,13 @@ Array [
         class="label-0-2-4 label-d2-0-2-7"
       >
         Label
+        <input
+          class="input-0-2-2 input-d0-0-2-5"
+          data-testid="default-text-field"
+          type="text"
+          value=""
+        />
       </label>
-      <input
-        class="input-0-2-2 input-d0-0-2-5"
-        type="text"
-      />
       <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       />
@@ -302,11 +306,12 @@ Array [
         class="label-0-2-4 label-d2-0-2-7"
       >
         Label
+        <input
+          class="input-0-2-2 input-d0-0-2-5"
+          type="text"
+          value=""
+        />
       </label>
-      <input
-        class="input-0-2-2 input-d0-0-2-5"
-        type="text"
-      />
       <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       >
@@ -394,11 +399,12 @@ Array [
         class="label-0-2-4 label-d2-0-2-7"
       >
         Label
+        <input
+          class="input-0-2-2 input-d0-0-2-5"
+          type="text"
+          value=""
+        />
       </label>
-      <input
-        class="input-0-2-2 input-d0-0-2-5"
-        type="text"
-      />
       <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       >
@@ -476,11 +482,12 @@ Array [
         class="label-0-2-4 label-d2-0-2-7"
       >
         Label
+        <input
+          class="input-0-2-2 input-d0-0-2-5"
+          type="text"
+          value=""
+        />
       </label>
-      <input
-        class="input-0-2-2 input-d0-0-2-5"
-        type="text"
-      />
       <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       >
@@ -553,11 +560,12 @@ Array [
         class="label-0-2-4 label-d2-0-2-7"
       >
         Label
+        <input
+          class="input-0-2-2 input-d0-0-2-5"
+          type="text"
+          value=""
+        />
       </label>
-      <input
-        class="input-0-2-2 input-d0-0-2-5"
-        type="text"
-      />
       <p
         class="helperText-0-2-3 helperText-d1-0-2-6"
       />
