@@ -75,6 +75,14 @@ export const Feedback: Story<TextFieldProps> = (args) => (
 
 Feedback.args = { ...Playground.args }
 
+export const ReadOnly: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} />
+  </StoryContainer>
+)
+
+ReadOnly.args = { ...Playground.args, readOnly: true, value: 'Hello World' }
+
 export const Required: Story<TextFieldProps> = (args) => (
   <StoryContainer>
     <TextField {...args} />
