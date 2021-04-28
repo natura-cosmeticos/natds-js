@@ -1,9 +1,10 @@
+/* eslint-disable max-lines-per-function */
 /* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TextFieldProps } from './TextField.props'
 
-type TextFieldStyleProps = Required<Pick<TextFieldProps, 'size' | 'feedback' | 'disabled'>>
+type TextFieldStyleProps = Required<Pick<TextFieldProps, 'size' | 'feedback' | 'disabled' | 'readOnly'>>
 
 const getFeedbackBorderColor = (theme: Theme, { feedback }: TextFieldStyleProps) => {
   switch (feedback) {
@@ -48,7 +49,7 @@ const styles = createUseStyles((theme: Theme) => ({
     '&:hover:not([disabled])': {
       borderColor: theme.color.mediumEmphasis
     },
-    '&:focus:not([hover])': {
+    '&:focus': {
       border: '2px solid',
       borderColor: theme.color.primary,
       outline: 'none'
