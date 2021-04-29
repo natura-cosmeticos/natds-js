@@ -16,7 +16,7 @@ const componentStatus = `
   - ✅ \`success\`
 - ✅ **Required**
 - ✅ **Disabled**
-- ❌ **ReadOnly**
+- ✅  **ReadOnly**
 - ✅ **HelperText**
 - **Action**
   - ❌ \`iconButton \`
