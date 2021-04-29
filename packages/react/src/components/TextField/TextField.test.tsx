@@ -4,7 +4,7 @@ import renderWithTheme from '../../helpers/renderWithTheme'
 import { getIconColor, getIconName } from './TextField'
 import { TextFieldProps } from './TextField.props'
 
-const textFieldProps: TextFieldProps = { label: 'Label' }
+const textFieldProps: TextFieldProps = { label: 'Label', onChange: () => '' }
 
 describe('TextField component', () => {
   it('should render correctly with default props', () => {
@@ -51,6 +51,11 @@ describe('TextField component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
     expect(component.getByTestId('disabled-input')).toBeDisabled()
   })
+  it('should render correctly when is readonly', () => {
+    const { styles, component } = renderWithTheme(<TextField {...textFieldProps} readOnly />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
   it('should have password as type', () => {
     const { component } = renderWithTheme(<TextField {...textFieldProps} testID="attr-password" type="password" />)
 
@@ -63,7 +68,7 @@ describe('getIconName', () => {
     expect(getIconName('success')).toBe('outlined-action-check')
   })
   it('should return outlined-action-cancel when receive feedback error', () => {
-    expect(getIconName('err')).toBe('outlined-action-cancel')
+    expect(getIconName('error')).toBe('outlined-action-cancel')
   })
 })
 

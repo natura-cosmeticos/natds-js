@@ -46,6 +46,9 @@ const styles = createUseStyles((theme: Theme) => ({
     letterSpacing: 0.51,
     padding: theme.spacing.small,
     width: '100%',
+    '&:disabled': {
+      backgroundColor: theme.color.surface
+    },
     '&:hover:not([disabled])': {
       borderColor: theme.color.mediumEmphasis
     },
@@ -56,6 +59,21 @@ const styles = createUseStyles((theme: Theme) => ({
     },
     '&::placeholder': {
       color: ({ disabled }: TextFieldStyleProps) => (disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis)
+    }
+  },
+  overlay: {
+    position: 'relative',
+    cursor: ({ readOnly }: TextFieldStyleProps) => readOnly && 'not-allowed',
+    '&:after': {
+      borderRadius: theme.borderRadius.medium,
+      backgroundColor: theme.color.lowEmphasis,
+      content: "' '",
+      height: '100%',
+      left: 0,
+      opacity: ({ readOnly }: TextFieldStyleProps) => (readOnly ? theme.opacity.disabledLow : 0),
+      position: 'absolute',
+      top: 0,
+      width: '100%'
     }
   },
   helperText: {

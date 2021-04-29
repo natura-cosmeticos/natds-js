@@ -22,24 +22,28 @@ const TextField = ({
   type = 'text',
   value
 }: TextFieldProps): JSX.Element => {
-  const classes = styles({ disabled, feedback, size })
+  const classes = styles({
+    disabled, feedback, readOnly, size
+  })
 
   return (
     <div className={classes.container}>
       <label className={classes.label}>
         {label}
         {required && '*'}
-        <input
-          className={classes.input}
-          data-testid={testID}
-          disabled={disabled}
-          onChange={onChange}
-          placeholder={placeholder}
-          readOnly={readOnly}
-          required={required}
-          type={type}
-          value={value}
-        />
+        <div className={classes.overlay}>
+          <input
+            className={classes.input}
+            data-testid={testID}
+            disabled={disabled}
+            onChange={onChange}
+            placeholder={placeholder}
+            readOnly={readOnly}
+            required={required}
+            type={type}
+            value={value}
+          />
+        </div>
       </label>
       <p className={classes.helperText}>
         {feedback && <Icon name={getIconName(feedback)} color={getIconColor(feedback)} size="small" />}
