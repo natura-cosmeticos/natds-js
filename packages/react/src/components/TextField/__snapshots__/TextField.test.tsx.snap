@@ -15,6 +15,9 @@ Array [
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:disabled {
+  background-color: #ffffff;
+}
 .input-0-2-2:hover:not([disabled]) {
   border-color: #777777;
 }
@@ -24,7 +27,20 @@ Array [
   border-color: #f4ab34;
 }
 .input-0-2-2::placeholder {}
-.helperText-0-2-3 {
+.overlay-0-2-3 {
+  position: relative;
+}
+.overlay-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  position: absolute;
+  border-radius: 4px;
+  background-color: #bbbbbb;
+}
+.helperText-0-2-4 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -33,25 +49,29 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-3 > i {}
-.label-0-2-4 {
+.helperText-0-2-4 > i {}
+.label-0-2-5 {
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.11px;
 }
-.input-d0-0-2-5 {
+.input-d0-0-2-6 {
   border-color: #bbbbbb;
   color: #bbbbbb;
   height: 56px;
 }
-.input-d0-0-2-5::placeholder {
+.input-d0-0-2-6::placeholder {
   color: #bbbbbb;
 }
-.helperText-d1-0-2-6 {
+.overlay-d1-0-2-7 {}
+.overlay-d1-0-2-7:after {
+  opacity: 0;
+}
+.helperText-d2-0-2-8 {
   color: #bbbbbb;
 }
-.helperText-d1-0-2-6 > i {}
-.label-d2-0-2-7 {
+.helperText-d2-0-2-8 > i {}
+.label-d3-0-2-9 {
   color: #bbbbbb;
 }",
   <div>
@@ -59,19 +79,126 @@ Array [
       class="container-0-2-1"
     >
       <label
-        class="label-0-2-4 label-d2-0-2-7"
+        class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <input
-          class="input-0-2-2 input-d0-0-2-5"
-          data-testid="disabled-input"
-          disabled=""
-          type="text"
-          value=""
-        />
+        <div
+          class="overlay-0-2-3 overlay-d1-0-2-7"
+        >
+          <input
+            class="input-0-2-2 input-d0-0-2-6"
+            data-testid="disabled-input"
+            disabled=""
+            type="text"
+            value=""
+          />
+        </div>
       </label>
       <p
-        class="helperText-0-2-3 helperText-d1-0-2-6"
+        class="helperText-0-2-4 helperText-d2-0-2-8"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when is readonly 1`] = `
+Array [
+  ".container-0-2-1 {
+  flex-grow: 1;
+}
+.input-0-2-2 {
+  width: 100%;
+  border: 1px solid;
+  padding: 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  border-radius: 4px;
+  letter-spacing: 0.51px;
+}
+.input-0-2-2:disabled {
+  background-color: #ffffff;
+}
+.input-0-2-2:hover:not([disabled]) {
+  border-color: #777777;
+}
+.input-0-2-2:focus {
+  border: 2px solid;
+  outline: none;
+  border-color: #f4ab34;
+}
+.input-0-2-2::placeholder {}
+.overlay-0-2-3 {
+  position: relative;
+}
+.overlay-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  position: absolute;
+  border-radius: 4px;
+  background-color: #bbbbbb;
+}
+.helperText-0-2-4 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+.helperText-0-2-4 > i {}
+.label-0-2-5 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.11px;
+}
+.input-d0-0-2-6 {
+  border-color: #bbbbbb;
+  color: #333333;
+  height: 56px;
+}
+.input-d0-0-2-6::placeholder {
+  color: #777777;
+}
+.overlay-d1-0-2-7 {
+  cursor: not-allowed;
+}
+.overlay-d1-0-2-7:after {
+  opacity: 0.24;
+}
+.helperText-d2-0-2-8 {
+  color: #777777;
+}
+.helperText-d2-0-2-8 > i {}
+.label-d3-0-2-9 {
+  color: #777777;
+}",
+  <div>
+    <div
+      class="container-0-2-1"
+    >
+      <label
+        class="label-0-2-5 label-d3-0-2-9"
+      >
+        Label
+        <div
+          class="overlay-0-2-3 overlay-d1-0-2-7"
+        >
+          <input
+            class="input-0-2-2 input-d0-0-2-6"
+            readonly=""
+            type="text"
+            value=""
+          />
+        </div>
+      </label>
+      <p
+        class="helperText-0-2-4 helperText-d2-0-2-8"
       />
     </div>
   </div>,
@@ -93,6 +220,9 @@ Array [
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:disabled {
+  background-color: #ffffff;
+}
 .input-0-2-2:hover:not([disabled]) {
   border-color: #777777;
 }
@@ -102,7 +232,20 @@ Array [
   border-color: #f4ab34;
 }
 .input-0-2-2::placeholder {}
-.helperText-0-2-3 {
+.overlay-0-2-3 {
+  position: relative;
+}
+.overlay-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  position: absolute;
+  border-radius: 4px;
+  background-color: #bbbbbb;
+}
+.helperText-0-2-4 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -111,25 +254,29 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-3 > i {}
-.label-0-2-4 {
+.helperText-0-2-4 > i {}
+.label-0-2-5 {
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.11px;
 }
-.input-d0-0-2-5 {
+.input-d0-0-2-6 {
   border-color: #bbbbbb;
   color: #333333;
   height: 56px;
 }
-.input-d0-0-2-5::placeholder {
+.input-d0-0-2-6::placeholder {
   color: #777777;
 }
-.helperText-d1-0-2-6 {
+.overlay-d1-0-2-7 {}
+.overlay-d1-0-2-7:after {
+  opacity: 0;
+}
+.helperText-d2-0-2-8 {
   color: #777777;
 }
-.helperText-d1-0-2-6 > i {}
-.label-d2-0-2-7 {
+.helperText-d2-0-2-8 > i {}
+.label-d3-0-2-9 {
   color: #777777;
 }",
   <div>
@@ -137,20 +284,24 @@ Array [
       class="container-0-2-1"
     >
       <label
-        class="label-0-2-4 label-d2-0-2-7"
+        class="label-0-2-5 label-d3-0-2-9"
       >
         Label
         *
-        <input
-          class="input-0-2-2 input-d0-0-2-5"
-          data-testid="input"
-          required=""
-          type="text"
-          value=""
-        />
+        <div
+          class="overlay-0-2-3 overlay-d1-0-2-7"
+        >
+          <input
+            class="input-0-2-2 input-d0-0-2-6"
+            data-testid="input"
+            required=""
+            type="text"
+            value=""
+          />
+        </div>
       </label>
       <p
-        class="helperText-0-2-3 helperText-d1-0-2-6"
+        class="helperText-0-2-4 helperText-d2-0-2-8"
       />
     </div>
   </div>,
@@ -172,6 +323,9 @@ Array [
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:disabled {
+  background-color: #ffffff;
+}
 .input-0-2-2:hover:not([disabled]) {
   border-color: #777777;
 }
@@ -181,7 +335,20 @@ Array [
   border-color: #f4ab34;
 }
 .input-0-2-2::placeholder {}
-.helperText-0-2-3 {
+.overlay-0-2-3 {
+  position: relative;
+}
+.overlay-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  position: absolute;
+  border-radius: 4px;
+  background-color: #bbbbbb;
+}
+.helperText-0-2-4 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -190,25 +357,29 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-3 > i {}
-.label-0-2-4 {
+.helperText-0-2-4 > i {}
+.label-0-2-5 {
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.11px;
 }
-.input-d0-0-2-5 {
+.input-d0-0-2-6 {
   border-color: #bbbbbb;
   color: #333333;
   height: 56px;
 }
-.input-d0-0-2-5::placeholder {
+.input-d0-0-2-6::placeholder {
   color: #777777;
 }
-.helperText-d1-0-2-6 {
+.overlay-d1-0-2-7 {}
+.overlay-d1-0-2-7:after {
+  opacity: 0;
+}
+.helperText-d2-0-2-8 {
   color: #777777;
 }
-.helperText-d1-0-2-6 > i {}
-.label-d2-0-2-7 {
+.helperText-d2-0-2-8 > i {}
+.label-d3-0-2-9 {
   color: #777777;
 }",
   <div>
@@ -216,18 +387,22 @@ Array [
       class="container-0-2-1"
     >
       <label
-        class="label-0-2-4 label-d2-0-2-7"
+        class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <input
-          class="input-0-2-2 input-d0-0-2-5"
-          data-testid="default-text-field"
-          type="text"
-          value=""
-        />
+        <div
+          class="overlay-0-2-3 overlay-d1-0-2-7"
+        >
+          <input
+            class="input-0-2-2 input-d0-0-2-6"
+            data-testid="default-text-field"
+            type="text"
+            value=""
+          />
+        </div>
       </label>
       <p
-        class="helperText-0-2-3 helperText-d1-0-2-6"
+        class="helperText-0-2-4 helperText-d2-0-2-8"
       />
     </div>
   </div>,
@@ -236,11 +411,11 @@ Array [
 
 exports[`TextField component should render correctly with feedback error 1`] = `
 Array [
-  ".icon-0-2-8 {
+  ".icon-0-2-10 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-9 {
+.icon-d0-0-2-11 {
   color: #e74627;
   font-size: 16px;
 }
@@ -257,6 +432,9 @@ Array [
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:disabled {
+  background-color: #ffffff;
+}
 .input-0-2-2:hover:not([disabled]) {
   border-color: #777777;
 }
@@ -266,7 +444,20 @@ Array [
   border-color: #f4ab34;
 }
 .input-0-2-2::placeholder {}
-.helperText-0-2-3 {
+.overlay-0-2-3 {
+  position: relative;
+}
+.overlay-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  position: absolute;
+  border-radius: 4px;
+  background-color: #bbbbbb;
+}
+.helperText-0-2-4 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -275,27 +466,31 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-3 > i {}
-.label-0-2-4 {
+.helperText-0-2-4 > i {}
+.label-0-2-5 {
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.11px;
 }
-.input-d0-0-2-5 {
+.input-d0-0-2-6 {
   border-color: #e74627;
   color: #333333;
   height: 56px;
 }
-.input-d0-0-2-5::placeholder {
+.input-d0-0-2-6::placeholder {
   color: #777777;
 }
-.helperText-d1-0-2-6 {
+.overlay-d1-0-2-7 {}
+.overlay-d1-0-2-7:after {
+  opacity: 0;
+}
+.helperText-d2-0-2-8 {
   color: #e74627;
 }
-.helperText-d1-0-2-6 > i {
+.helperText-d2-0-2-8 > i {
   margin-right: 4px;
 }
-.label-d2-0-2-7 {
+.label-d3-0-2-9 {
   color: #e74627;
 }",
   <div>
@@ -303,21 +498,25 @@ Array [
       class="container-0-2-1"
     >
       <label
-        class="label-0-2-4 label-d2-0-2-7"
+        class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <input
-          class="input-0-2-2 input-d0-0-2-5"
-          type="text"
-          value=""
-        />
+        <div
+          class="overlay-0-2-3 overlay-d1-0-2-7"
+        >
+          <input
+            class="input-0-2-2 input-d0-0-2-6"
+            type="text"
+            value=""
+          />
+        </div>
       </label>
       <p
-        class="helperText-0-2-3 helperText-d1-0-2-6"
+        class="helperText-0-2-4 helperText-d2-0-2-8"
       >
         <i
           aria-hidden="true"
-          class="icon-0-2-8 icon-d0-0-2-9 natds-icons natds-icons-outlined-action-cancel"
+          class="icon-0-2-10 icon-d0-0-2-11 natds-icons natds-icons-outlined-action-cancel"
           data-testid="icon-outlined-action-cancel"
           role="img"
         />
@@ -329,11 +528,11 @@ Array [
 
 exports[`TextField component should render correctly with feedback success 1`] = `
 Array [
-  ".icon-0-2-8 {
+  ".icon-0-2-10 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-9 {
+.icon-d0-0-2-11 {
   color: #569a32;
   font-size: 16px;
 }
@@ -350,6 +549,9 @@ Array [
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:disabled {
+  background-color: #ffffff;
+}
 .input-0-2-2:hover:not([disabled]) {
   border-color: #777777;
 }
@@ -359,7 +561,20 @@ Array [
   border-color: #f4ab34;
 }
 .input-0-2-2::placeholder {}
-.helperText-0-2-3 {
+.overlay-0-2-3 {
+  position: relative;
+}
+.overlay-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  position: absolute;
+  border-radius: 4px;
+  background-color: #bbbbbb;
+}
+.helperText-0-2-4 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -368,27 +583,31 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-3 > i {}
-.label-0-2-4 {
+.helperText-0-2-4 > i {}
+.label-0-2-5 {
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.11px;
 }
-.input-d0-0-2-5 {
+.input-d0-0-2-6 {
   border-color: #569a32;
   color: #333333;
   height: 56px;
 }
-.input-d0-0-2-5::placeholder {
+.input-d0-0-2-6::placeholder {
   color: #777777;
 }
-.helperText-d1-0-2-6 {
+.overlay-d1-0-2-7 {}
+.overlay-d1-0-2-7:after {
+  opacity: 0;
+}
+.helperText-d2-0-2-8 {
   color: #569a32;
 }
-.helperText-d1-0-2-6 > i {
+.helperText-d2-0-2-8 > i {
   margin-right: 4px;
 }
-.label-d2-0-2-7 {
+.label-d3-0-2-9 {
   color: #569a32;
 }",
   <div>
@@ -396,21 +615,25 @@ Array [
       class="container-0-2-1"
     >
       <label
-        class="label-0-2-4 label-d2-0-2-7"
+        class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <input
-          class="input-0-2-2 input-d0-0-2-5"
-          type="text"
-          value=""
-        />
+        <div
+          class="overlay-0-2-3 overlay-d1-0-2-7"
+        >
+          <input
+            class="input-0-2-2 input-d0-0-2-6"
+            type="text"
+            value=""
+          />
+        </div>
       </label>
       <p
-        class="helperText-0-2-3 helperText-d1-0-2-6"
+        class="helperText-0-2-4 helperText-d2-0-2-8"
       >
         <i
           aria-hidden="true"
-          class="icon-0-2-8 icon-d0-0-2-9 natds-icons natds-icons-outlined-action-check"
+          class="icon-0-2-10 icon-d0-0-2-11 natds-icons natds-icons-outlined-action-check"
           data-testid="icon-outlined-action-check"
           role="img"
         />
@@ -435,6 +658,9 @@ Array [
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:disabled {
+  background-color: #ffffff;
+}
 .input-0-2-2:hover:not([disabled]) {
   border-color: #777777;
 }
@@ -444,7 +670,20 @@ Array [
   border-color: #f4ab34;
 }
 .input-0-2-2::placeholder {}
-.helperText-0-2-3 {
+.overlay-0-2-3 {
+  position: relative;
+}
+.overlay-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  position: absolute;
+  border-radius: 4px;
+  background-color: #bbbbbb;
+}
+.helperText-0-2-4 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -453,25 +692,29 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-3 > i {}
-.label-0-2-4 {
+.helperText-0-2-4 > i {}
+.label-0-2-5 {
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.11px;
 }
-.input-d0-0-2-5 {
+.input-d0-0-2-6 {
   border-color: #bbbbbb;
   color: #333333;
   height: 56px;
 }
-.input-d0-0-2-5::placeholder {
+.input-d0-0-2-6::placeholder {
   color: #777777;
 }
-.helperText-d1-0-2-6 {
+.overlay-d1-0-2-7 {}
+.overlay-d1-0-2-7:after {
+  opacity: 0;
+}
+.helperText-d2-0-2-8 {
   color: #777777;
 }
-.helperText-d1-0-2-6 > i {}
-.label-d2-0-2-7 {
+.helperText-d2-0-2-8 > i {}
+.label-d3-0-2-9 {
   color: #777777;
 }",
   <div>
@@ -479,17 +722,21 @@ Array [
       class="container-0-2-1"
     >
       <label
-        class="label-0-2-4 label-d2-0-2-7"
+        class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <input
-          class="input-0-2-2 input-d0-0-2-5"
-          type="text"
-          value=""
-        />
+        <div
+          class="overlay-0-2-3 overlay-d1-0-2-7"
+        >
+          <input
+            class="input-0-2-2 input-d0-0-2-6"
+            type="text"
+            value=""
+          />
+        </div>
       </label>
       <p
-        class="helperText-0-2-3 helperText-d1-0-2-6"
+        class="helperText-0-2-4 helperText-d2-0-2-8"
       >
         helper text
       </p>
@@ -513,6 +760,9 @@ Array [
   border-radius: 4px;
   letter-spacing: 0.51px;
 }
+.input-0-2-2:disabled {
+  background-color: #ffffff;
+}
 .input-0-2-2:hover:not([disabled]) {
   border-color: #777777;
 }
@@ -522,7 +772,20 @@ Array [
   border-color: #f4ab34;
 }
 .input-0-2-2::placeholder {}
-.helperText-0-2-3 {
+.overlay-0-2-3 {
+  position: relative;
+}
+.overlay-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  position: absolute;
+  border-radius: 4px;
+  background-color: #bbbbbb;
+}
+.helperText-0-2-4 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -531,25 +794,29 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-3 > i {}
-.label-0-2-4 {
+.helperText-0-2-4 > i {}
+.label-0-2-5 {
   font-size: 14px;
   font-family: Roboto, sans-serif;
   letter-spacing: 0.11px;
 }
-.input-d0-0-2-5 {
+.input-d0-0-2-6 {
   border-color: #bbbbbb;
   color: #333333;
   height: 48px;
 }
-.input-d0-0-2-5::placeholder {
+.input-d0-0-2-6::placeholder {
   color: #777777;
 }
-.helperText-d1-0-2-6 {
+.overlay-d1-0-2-7 {}
+.overlay-d1-0-2-7:after {
+  opacity: 0;
+}
+.helperText-d2-0-2-8 {
   color: #777777;
 }
-.helperText-d1-0-2-6 > i {}
-.label-d2-0-2-7 {
+.helperText-d2-0-2-8 > i {}
+.label-d3-0-2-9 {
   color: #777777;
 }",
   <div>
@@ -557,17 +824,21 @@ Array [
       class="container-0-2-1"
     >
       <label
-        class="label-0-2-4 label-d2-0-2-7"
+        class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <input
-          class="input-0-2-2 input-d0-0-2-5"
-          type="text"
-          value=""
-        />
+        <div
+          class="overlay-0-2-3 overlay-d1-0-2-7"
+        >
+          <input
+            class="input-0-2-2 input-d0-0-2-6"
+            type="text"
+            value=""
+          />
+        </div>
       </label>
       <p
-        class="helperText-0-2-3 helperText-d1-0-2-6"
+        class="helperText-0-2-4 helperText-d2-0-2-8"
       />
     </div>
   </div>,
