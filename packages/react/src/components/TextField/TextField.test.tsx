@@ -1,7 +1,8 @@
+/* eslint-disable max-lines-per-function */
 import * as React from 'react'
 import TextField from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
-import { getIconColor, getIconName } from './TextField'
+import { Action, getIconColor, getIconName } from './TextField'
 import { TextFieldProps } from './TextField.props'
 
 const textFieldProps: TextFieldProps = { label: 'Label', onChange: () => '' }
@@ -60,6 +61,31 @@ describe('TextField component', () => {
     const { component } = renderWithTheme(<TextField {...textFieldProps} testID="attr-password" type="password" />)
 
     expect(component.getByTestId('attr-password')).toHaveAttribute('type', 'password')
+  })
+
+  it('should render an icon button into field', () => {
+    const { styles, component } = renderWithTheme(<TextField {...textFieldProps} testID="attr-password" type="password" action="icon" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render an image into field', () => {
+    const { styles, component } = renderWithTheme(<TextField {...textFieldProps} testID="attr-password" type="password" action="image" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  describe('Action component', () => {
+    it('should render an icon button when action is icon', () => {
+      const { styles, component } = renderWithTheme(<Action action="icon" />)
+
+      expect([styles.toString(), component.container]).toMatchSnapshot()
+    })
+    it('should render an icon button when action is image', () => {
+      const { styles, component } = renderWithTheme(<Action action="image" />)
+
+      expect([styles.toString(), component.container]).toMatchSnapshot()
+    })
   })
 })
 
