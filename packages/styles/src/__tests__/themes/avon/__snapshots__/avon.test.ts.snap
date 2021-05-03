@@ -61,18 +61,18 @@ Object {
     "onPrimary": "#000000",
     "onPrimaryDark": "#000000",
     "onPrimaryLight": "#000000",
-    "onSecondary": "#333333",
-    "onSecondaryDark": "#333333",
-    "onSecondaryLight": "#333333",
+    "onSecondary": "#000000",
+    "onSecondaryDark": "#000000",
+    "onSecondaryLight": "#000000",
     "onSuccess": "#ffffff",
     "onSurface": "#ffffff",
     "onWarning": "#333333",
-    "primary": "#f091c9",
-    "primaryDark": "#bc6198",
-    "primaryLight": "#ffc3fc",
-    "secondary": "#e9e9e9",
-    "secondaryDark": "#b7b7b7",
-    "secondaryLight": "#ffffff",
+    "primary": "#be9ae2",
+    "primaryDark": "#8d6bb0",
+    "primaryLight": "#f1cbff",
+    "secondary": "#f593c4",
+    "secondaryDark": "#c16394",
+    "secondaryLight": "#ffc5f7",
     "success": "#569a32",
     "surface": "#333333",
     "warning": "#fcc433",
@@ -277,7 +277,7 @@ Object {
           "&.Mui-disabled": Object {
             "borderColor": "#ffffff3D",
           },
-          "borderColor": "#bc6198",
+          "borderColor": "#8d6bb0",
         },
       },
       "groupedContainedSecondary": Object {
@@ -285,7 +285,7 @@ Object {
           "&.Mui-disabled": Object {
             "borderColor": "#ffffff3D",
           },
-          "borderColor": "#b7b7b7",
+          "borderColor": "#c16394",
         },
       },
       "groupedOutlinedHorizontal": Object {
@@ -323,12 +323,12 @@ Object {
       },
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#bc6198",
+          "backgroundColor": "#8d6bb0",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#bc6198",
+          "backgroundColor": "#8d6bb0",
         },
       },
       "deleteIcon": Object {
@@ -372,13 +372,13 @@ Object {
       },
       "outlinedPrimary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#f091c9",
+          "backgroundColor": "#be9ae2",
         },
         "color": "#ffffff",
       },
       "outlinedSecondary": Object {
         "& $avatar": Object {
-          "backgroundColor": "#e9e9e9",
+          "backgroundColor": "#f593c4",
         },
         "color": "#ffffff",
       },
@@ -402,7 +402,7 @@ Object {
           "opacity": 0.32,
         },
         "&$expanded": Object {
-          "borderColor": "#f091c9",
+          "borderColor": "#be9ae2",
         },
         "border": "transparent 1px solid",
       },
@@ -483,7 +483,7 @@ Object {
       },
       "root": Object {
         "&.Mui-focused": Object {
-          "boxShadow": "#f091c9 0 0 0 2px",
+          "boxShadow": "#be9ae2 0 0 0 2px",
         },
         "&.MuiFilled:not(.Mui-focused)": Object {
           "&:hover": Object {
@@ -538,7 +538,7 @@ Object {
     "MuiListItem": Object {
       "button": Object {
         "&:hover": Object {
-          "backgroundColor": "rgba(51, 51, 51, 0.04)",
+          "backgroundColor": "rgba(0, 0, 0, 0.04)",
         },
       },
       "gutters": Object {
@@ -552,9 +552,9 @@ Object {
             "outline": "none",
           },
           "&:hover": Object {
-            "backgroundColor": "rgba(51, 51, 51, 0.04)",
+            "backgroundColor": "rgba(0, 0, 0, 0.04)",
           },
-          "background": "rgba(240, 145, 201, 0.16)",
+          "background": "rgba(190, 154, 226, 0.16)",
         },
         "&.Mui-disabled": Object {
           "opacity": 0.32,
@@ -641,7 +641,7 @@ Object {
   "palette": Object {
     "action": Object {
       "active": "rgba(255, 255, 255, 0.56)",
-      "disabled": "rgba(51, 51, 51, 0.24)",
+      "disabled": "rgba(0, 0, 0, 0.24)",
     },
     "background": Object {
       "default": "#121212",
@@ -654,7 +654,7 @@ Object {
       "link": "#227bbd",
       "linkContrastText": "#ffffff",
       "warning": "#fcc433",
-      "warningContrastText": "#333333",
+      "warningContrastText": "#000000",
     },
     "divider": "#777777",
     "error": Object {
@@ -663,15 +663,15 @@ Object {
     },
     "primary": Object {
       "contrastText": "#000000",
-      "dark": "#bc6198",
-      "light": "#ffc3fc",
-      "main": "#f091c9",
+      "dark": "#8d6bb0",
+      "light": "#f1cbff",
+      "main": "#be9ae2",
     },
     "secondary": Object {
-      "contrastText": "#333333",
-      "dark": "#b7b7b7",
-      "light": "#ffffff",
-      "main": "#e9e9e9",
+      "contrastText": "#000000",
+      "dark": "#c16394",
+      "light": "#ffc5f7",
+      "main": "#f593c4",
     },
     "success": Object {
       "contrastText": "#ffffff",
@@ -880,20 +880,20 @@ Object {
     "onBackground": "#333333",
     "onLink": "#ffffff",
     "onPrimary": "#ffffff",
-    "onPrimaryDark": "#ffffff",
+    "onPrimaryDark": "#000000",
     "onPrimaryLight": "#000000",
-    "onSecondary": "#333333",
-    "onSecondaryDark": "#333333",
-    "onSecondaryLight": "#333333",
+    "onSecondary": "#ffffff",
+    "onSecondaryDark": "#ffffff",
+    "onSecondaryLight": "#000000",
     "onSuccess": "#ffffff",
     "onSurface": "#333333",
     "onWarning": "#333333",
-    "primary": "#de0085",
-    "primaryDark": "#a70058",
-    "primaryLight": "#ff56b5",
-    "secondary": "#e9e9e9",
-    "secondaryDark": "#b7b7b7",
-    "secondaryLight": "#ffffff",
+    "primary": "#7f28c4",
+    "primaryDark": "#4b0092",
+    "primaryLight": "#b35bf8",
+    "secondary": "#e2197c",
+    "secondaryDark": "#aa0050",
+    "secondaryLight": "#ff5eab",
     "success": "#569a32",
     "surface": "#ffffff",
     "warning": "#fcc433",
@@ -1098,7 +1098,7 @@ Object {
           "&.Mui-disabled": Object {
             "borderColor": "#0000003D",
           },
-          "borderColor": "#a70058",
+          "borderColor": "#4b0092",
         },
       },
       "groupedContainedSecondary": Object {
@@ -1106,7 +1106,7 @@ Object {
           "&.Mui-disabled": Object {
             "borderColor": "#0000003D",
           },
-          "borderColor": "#b7b7b7",
+          "borderColor": "#aa0050",
         },
       },
       "groupedOutlinedHorizontal": Object {
@@ -1136,12 +1136,12 @@ Object {
     "MuiChip": Object {
       "clickableColorPrimary": Object {
         "&:hover": Object {
-          "backgroundColor": "#de0085",
+          "backgroundColor": "#7f28c4",
         },
       },
       "clickableColorSecondary": Object {
         "&:hover": Object {
-          "backgroundColor": "#e9e9e9",
+          "backgroundColor": "#e2197c",
         },
       },
       "deleteIcon": Object {
@@ -1161,9 +1161,9 @@ Object {
       },
       "deleteIconColorSecondary": Object {
         "&:hover": Object {
-          "color": "#333333",
+          "color": "#ffffff",
         },
-        "color": "rgba(51, 51, 51, 0.8)",
+        "color": "rgba(255, 255, 255, 0.8)",
       },
       "deleteIconSmall": Object {
         "fontSize": "16px",
@@ -1209,7 +1209,7 @@ Object {
           "opacity": 0.32,
         },
         "&$expanded": Object {
-          "borderColor": "#de0085",
+          "borderColor": "#7f28c4",
         },
         "border": "transparent 1px solid",
       },
@@ -1283,7 +1283,7 @@ Object {
       },
       "root": Object {
         "&.Mui-focused": Object {
-          "boxShadow": "#de0085 0 0 0 2px",
+          "boxShadow": "#7f28c4 0 0 0 2px",
         },
         "&.MuiFilled:not(.Mui-focused)": Object {
           "&:hover": Object {
@@ -1354,13 +1354,13 @@ Object {
           "&:hover": Object {
             "backgroundColor": "rgba(0, 0, 0, 0.04)",
           },
-          "backgroundColor": "rgba(222, 0, 133, 0.16)",
+          "backgroundColor": "rgba(127, 40, 196, 0.16)",
         },
         "&.Mui-disabled": Object {
           "opacity": 0.32,
         },
         "&:hover": Object {
-          "backgroundColor": "rgba(51, 51, 51, 0.04)",
+          "backgroundColor": "rgba(255, 255, 255, 0.04)",
         },
         "cursor": "pointer",
       },
@@ -1458,15 +1458,15 @@ Object {
     },
     "primary": Object {
       "contrastText": "#ffffff",
-      "dark": "#a70058",
-      "light": "#ff56b5",
-      "main": "#de0085",
+      "dark": "#4b0092",
+      "light": "#b35bf8",
+      "main": "#7f28c4",
     },
     "secondary": Object {
-      "contrastText": "#333333",
-      "dark": "#b7b7b7",
-      "light": "#ffffff",
-      "main": "#e9e9e9",
+      "contrastText": "#ffffff",
+      "dark": "#aa0050",
+      "light": "#ff5eab",
+      "main": "#e2197c",
     },
     "success": Object {
       "contrastText": "#ffffff",
