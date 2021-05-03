@@ -19,8 +19,8 @@ const componentStatus = `
 - ✅  **ReadOnly**
 - ✅ **HelperText**
 - **Action**
-  - ❌ \`iconButton \`
-  - ❌ \`image \`
+  - ✅  \`icon \`
+  - ✅  \`image \`
 - **Type**
   - ✅  \`password \`
   - ❌ \`multiline \`
@@ -34,7 +34,8 @@ export default {
   component: TextField,
   parameters: {
     componentSubtitle: 'Text fields let users enter and edit text',
-    docs: { description: { component: componentStatus } }
+    docs: { description: { component: componentStatus } },
+    actions: { argTypesRegex: '^on.*' }
   }
 } as Meta
 
@@ -110,3 +111,12 @@ export const Type: Story<TextFieldProps> = (args) => {
     </StoryContainer>
   )
 }
+
+export const Action: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} action="icon" />
+    <TextField {...args} action="image" />
+  </StoryContainer>
+)
+
+Action.args = { ...Playground.args, src: 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-react@2.0.0-alpha.DSY-1963.53.0/dist/assets/mastercard@2x.png' }
