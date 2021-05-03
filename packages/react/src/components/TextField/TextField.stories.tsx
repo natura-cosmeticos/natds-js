@@ -19,7 +19,7 @@ const componentStatus = `
 - ✅  **ReadOnly**
 - ✅ **HelperText**
 - **Action**
-  - ❌ \`iconButton \`
+  - ❌ \`icon \`
   - ❌ \`image \`
 - **Type**
   - ✅  \`password \`
@@ -34,7 +34,8 @@ export default {
   component: TextField,
   parameters: {
     componentSubtitle: 'Text fields let users enter and edit text',
-    docs: { description: { component: componentStatus } }
+    docs: { description: { component: componentStatus } },
+    actions: { argTypesRegex: '^on.*' }
   }
 } as Meta
 
@@ -110,3 +111,10 @@ export const Type: Story<TextFieldProps> = (args) => {
     </StoryContainer>
   )
 }
+
+export const Action: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} action="icon" value="a text field with large text inside to test the spacing between it and the icon or image at the end" />
+    <TextField {...args} action="image" src="https://brand.mastercard.com/content/dam/mccom/brandcenter/thumbnails/mastercard_circles_92px_2x.png" />
+  </StoryContainer>
+)

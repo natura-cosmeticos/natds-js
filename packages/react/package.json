@@ -40,7 +40,7 @@
     "url": "git+https://github.com/natura-cosmeticos/natds-js.git"
   },
   "scripts": {
-    "build": "yarn clean && tsc -p ./tsconfig.json && yarn rollup:build",
+    "build": "yarn clean && tsc -p ./tsconfig.json && yarn rollup:build && yarn copy:assets",
     "build:storybook": "yarn build-storybook -o docs/dist",
     "build:storybook:ci": "yarn build:storybook --quiet",
     "clean": "rm -rf ./dist",
