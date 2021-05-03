@@ -1,5 +1,553 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`TextField component Action component should render an icon button when action is icon 1`] = `
+Array [
+  ".iconButtonContainer-0-2-4 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-4:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-4:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-4:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-5 {
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+}
+.icon-0-2-15 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-16 {
+  color: #333333;
+  font-size: 24px;
+}
+.wrapper-0-2-6 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-7 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-8 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-9 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-10 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-11 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-12 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-13 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .action-0-2-1 {
+    top: 50%;
+    height: 100%;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    flex-wrap: wrap;
+    transform: translateY(-50%);
+    align-content: center;
+    background-color: pink;
+  }
+  .actionImage-0-2-2 {
+    width: 64px;
+    height: 100%;
+  }
+  .action-d0-0-2-3 {
+    right: 16px;
+  }",
+  <div>
+    <div
+      class="action-0-2-1 action-d0-0-2-3"
+    >
+      <div
+        class="wrapper-0-2-6 wrapper-d0-0-2-11"
+        data-testid="ripple-wrapper"
+      >
+        <div
+          class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
+        >
+          <div
+            class="ripple-0-2-7 ripple-d1-0-2-12 "
+            data-testid="ripple-animation"
+          />
+        </div>
+        <button
+          class="iconButtonContainer-0-2-4 iconButtonContainer-d0-0-2-5"
+          type="button"
+        >
+          <i
+            aria-hidden="false"
+            class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
+            data-testid="icon-undefined"
+            role="button"
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component Action component should render an icon button when action is image 1`] = `
+Array [
+  ".action-0-2-1 {
+  top: 50%;
+  height: 100%;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  flex-wrap: wrap;
+  transform: translateY(-50%);
+  align-content: center;
+  background-color: pink;
+}
+.actionImage-0-2-2 {
+  width: 64px;
+  height: 100%;
+}
+.action-d0-0-2-3 {
+  right: 0;
+}",
+  <div>
+    <div
+      class="action-0-2-1 action-d0-0-2-3"
+    >
+      <img
+        class="actionImage-0-2-2"
+        width="64"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render an icon button into field 1`] = `
+Array [
+  ".iconButtonContainer-0-2-13 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-13:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-13:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-13:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-13:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-14 {
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+}
+.icon-0-2-24 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-25 {
+  color: #333333;
+  font-size: 24px;
+}
+.wrapper-0-2-15 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-16 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-17 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-18 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-19 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-20 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-21 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-22 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-23 {
+    animation: keyframes-ripple-0-2-19 300ms;
+  }
+  .container-0-2-1 {
+    flex-grow: 1;
+  }
+  .input-0-2-2 {
+    width: 100%;
+    border: 1px solid;
+    padding: 16px;
+    font-size: 16px;
+    box-sizing: border-box;
+    font-family: Roboto, sans-serif;
+    border-radius: 4px;
+    letter-spacing: 0.51px;
+  }
+  .input-0-2-2:disabled {
+    background-color: #ffffff;
+  }
+  .input-0-2-2:hover:not([disabled]) {
+    border-color: #777777;
+  }
+  .input-0-2-2:focus {
+    border: 2px solid;
+    outline: none;
+    border-color: #f4ab34;
+  }
+  .input-0-2-2::placeholder {  }
+  .overlay-0-2-3 {
+    position: relative;
+  }
+  .overlay-0-2-3:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: ' ';
+    position: absolute;
+    border-radius: 4px;
+    background-color: #bbbbbb;
+  }
+  .helperText-0-2-4 {
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 0;
+    letter-spacing: 0.4px;
+  }
+  .helperText-0-2-4 > i {  }
+  .label-0-2-5 {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.11px;
+  }
+  .input-d0-0-2-6 {
+    border-color: #bbbbbb;
+    color: #333333;
+    height: 56px;
+  }
+  .input-d0-0-2-6::placeholder {
+    color: #777777;
+  }
+  .overlay-d1-0-2-7 {  }
+  .overlay-d1-0-2-7:after {
+    opacity: 0;
+  }
+  .helperText-d2-0-2-8 {
+    color: #777777;
+  }
+  .helperText-d2-0-2-8 > i {  }
+  .label-d3-0-2-9 {
+    color: #777777;
+  }
+  .action-0-2-10 {
+    top: 50%;
+    height: 100%;
+    display: flex;
+    z-index: 1;
+    position: absolute;
+    flex-wrap: wrap;
+    transform: translateY(-50%);
+    align-content: center;
+    background-color: pink;
+  }
+  .actionImage-0-2-11 {
+    width: 64px;
+    height: 100%;
+  }
+  .action-d0-0-2-12 {
+    right: 16px;
+  }",
+  <div>
+    <div
+      class="container-0-2-1"
+    >
+      <label
+        class="label-0-2-5 label-d3-0-2-9"
+      >
+        Label
+      </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          data-testid="attr-password"
+          type="password"
+          value=""
+        />
+        <div
+          class="action-0-2-10 action-d0-0-2-12"
+        >
+          <div
+            class="wrapper-0-2-15 wrapper-d0-0-2-20"
+            data-testid="ripple-wrapper"
+          >
+            <div
+              class="rippleContainer-0-2-17 rippleContainer-d2-0-2-22"
+            >
+              <div
+                class="ripple-0-2-16 ripple-d1-0-2-21 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="iconButtonContainer-0-2-13 iconButtonContainer-d0-0-2-14"
+              type="button"
+            >
+              <i
+                aria-hidden="false"
+                class="icon-0-2-24 icon-d0-0-2-25 natds-icons natds-icons-outlined-default-mockup"
+                data-testid="icon-undefined"
+                role="button"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        class="helperText-0-2-4 helperText-d2-0-2-8"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render an image into field 1`] = `
+Array [
+  ".container-0-2-1 {
+  flex-grow: 1;
+}
+.input-0-2-2 {
+  width: 100%;
+  border: 1px solid;
+  padding: 16px;
+  font-size: 16px;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  border-radius: 4px;
+  letter-spacing: 0.51px;
+}
+.input-0-2-2:disabled {
+  background-color: #ffffff;
+}
+.input-0-2-2:hover:not([disabled]) {
+  border-color: #777777;
+}
+.input-0-2-2:focus {
+  border: 2px solid;
+  outline: none;
+  border-color: #f4ab34;
+}
+.input-0-2-2::placeholder {}
+.overlay-0-2-3 {
+  position: relative;
+}
+.overlay-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: ' ';
+  position: absolute;
+  border-radius: 4px;
+  background-color: #bbbbbb;
+}
+.helperText-0-2-4 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+.helperText-0-2-4 > i {}
+.label-0-2-5 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.11px;
+}
+.input-d0-0-2-6 {
+  border-color: #bbbbbb;
+  color: #333333;
+  height: 56px;
+}
+.input-d0-0-2-6::placeholder {
+  color: #777777;
+}
+.overlay-d1-0-2-7 {}
+.overlay-d1-0-2-7:after {
+  opacity: 0;
+}
+.helperText-d2-0-2-8 {
+  color: #777777;
+}
+.helperText-d2-0-2-8 > i {}
+.label-d3-0-2-9 {
+  color: #777777;
+}
+.action-0-2-10 {
+  top: 50%;
+  height: 100%;
+  display: flex;
+  z-index: 1;
+  position: absolute;
+  flex-wrap: wrap;
+  transform: translateY(-50%);
+  align-content: center;
+  background-color: pink;
+}
+.actionImage-0-2-11 {
+  width: 64px;
+  height: 100%;
+}
+.action-d0-0-2-12 {
+  right: 0;
+}",
+  <div>
+    <div
+      class="container-0-2-1"
+    >
+      <label
+        class="label-0-2-5 label-d3-0-2-9"
+      >
+        Label
+      </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          data-testid="attr-password"
+          type="password"
+          value=""
+        />
+        <div
+          class="action-0-2-10 action-d0-0-2-12"
+        >
+          <img
+            class="actionImage-0-2-11"
+            width="64"
+          />
+        </div>
+      </div>
+      <p
+        class="helperText-0-2-4 helperText-d2-0-2-8"
+      />
+    </div>
+  </div>,
+]
+`;
+
 exports[`TextField component should render correctly when is disabled 1`] = `
 Array [
   ".container-0-2-1 {
@@ -82,18 +630,18 @@ Array [
         class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <div
-          class="overlay-0-2-3 overlay-d1-0-2-7"
-        >
-          <input
-            class="input-0-2-2 input-d0-0-2-6"
-            data-testid="disabled-input"
-            disabled=""
-            type="text"
-            value=""
-          />
-        </div>
       </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          data-testid="disabled-input"
+          disabled=""
+          type="text"
+          value=""
+        />
+      </div>
       <p
         class="helperText-0-2-4 helperText-d2-0-2-8"
       />
@@ -186,17 +734,17 @@ Array [
         class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <div
-          class="overlay-0-2-3 overlay-d1-0-2-7"
-        >
-          <input
-            class="input-0-2-2 input-d0-0-2-6"
-            readonly=""
-            type="text"
-            value=""
-          />
-        </div>
       </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          readonly=""
+          type="text"
+          value=""
+        />
+      </div>
       <p
         class="helperText-0-2-4 helperText-d2-0-2-8"
       />
@@ -288,18 +836,18 @@ Array [
       >
         Label
         *
-        <div
-          class="overlay-0-2-3 overlay-d1-0-2-7"
-        >
-          <input
-            class="input-0-2-2 input-d0-0-2-6"
-            data-testid="input"
-            required=""
-            type="text"
-            value=""
-          />
-        </div>
       </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          data-testid="input"
+          required=""
+          type="text"
+          value=""
+        />
+      </div>
       <p
         class="helperText-0-2-4 helperText-d2-0-2-8"
       />
@@ -390,17 +938,17 @@ Array [
         class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <div
-          class="overlay-0-2-3 overlay-d1-0-2-7"
-        >
-          <input
-            class="input-0-2-2 input-d0-0-2-6"
-            data-testid="default-text-field"
-            type="text"
-            value=""
-          />
-        </div>
       </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          data-testid="default-text-field"
+          type="text"
+          value=""
+        />
+      </div>
       <p
         class="helperText-0-2-4 helperText-d2-0-2-8"
       />
@@ -501,16 +1049,16 @@ Array [
         class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <div
-          class="overlay-0-2-3 overlay-d1-0-2-7"
-        >
-          <input
-            class="input-0-2-2 input-d0-0-2-6"
-            type="text"
-            value=""
-          />
-        </div>
       </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          type="text"
+          value=""
+        />
+      </div>
       <p
         class="helperText-0-2-4 helperText-d2-0-2-8"
       >
@@ -618,16 +1166,16 @@ Array [
         class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <div
-          class="overlay-0-2-3 overlay-d1-0-2-7"
-        >
-          <input
-            class="input-0-2-2 input-d0-0-2-6"
-            type="text"
-            value=""
-          />
-        </div>
       </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          type="text"
+          value=""
+        />
+      </div>
       <p
         class="helperText-0-2-4 helperText-d2-0-2-8"
       >
@@ -725,16 +1273,16 @@ Array [
         class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <div
-          class="overlay-0-2-3 overlay-d1-0-2-7"
-        >
-          <input
-            class="input-0-2-2 input-d0-0-2-6"
-            type="text"
-            value=""
-          />
-        </div>
       </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          type="text"
+          value=""
+        />
+      </div>
       <p
         class="helperText-0-2-4 helperText-d2-0-2-8"
       >
@@ -827,16 +1375,16 @@ Array [
         class="label-0-2-5 label-d3-0-2-9"
       >
         Label
-        <div
-          class="overlay-0-2-3 overlay-d1-0-2-7"
-        >
-          <input
-            class="input-0-2-2 input-d0-0-2-6"
-            type="text"
-            value=""
-          />
-        </div>
       </label>
+      <div
+        class="overlay-0-2-3 overlay-d1-0-2-7"
+      >
+        <input
+          class="input-0-2-2 input-d0-0-2-6"
+          type="text"
+          value=""
+        />
+      </div>
       <p
         class="helperText-0-2-4 helperText-d2-0-2-8"
       />

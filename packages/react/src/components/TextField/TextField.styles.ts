@@ -4,7 +4,7 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { TextFieldProps } from './TextField.props'
 
-type TextFieldStyleProps = Required<Pick<TextFieldProps, 'size' | 'feedback' | 'disabled' | 'readOnly'>>
+type TextFieldStyleProps = Required<Pick<TextFieldProps, 'size' | 'feedback' | 'disabled' | 'readOnly' | 'action'>>
 
 const getFeedbackBorderColor = (theme: Theme, { feedback }: TextFieldStyleProps) => {
   switch (feedback) {
@@ -30,7 +30,7 @@ const getFeedbackTextColor = (theme: Theme, { feedback, disabled }: TextFieldSty
   }
 }
 
-const styles = createUseStyles((theme: Theme) => ({
+export const styles = createUseStyles((theme: Theme) => ({
   container: {
     flexGrow: 1
   },
@@ -97,4 +97,21 @@ const styles = createUseStyles((theme: Theme) => ({
   }
 }))
 
-export default styles
+export const actionStyles = createUseStyles((theme: Theme) => ({
+  action: {
+    alignContent: 'center',
+    display: 'flex',
+    flexWrap: 'wrap',
+    height: '100%',
+    position: 'absolute',
+    right: ({ action }: TextFieldStyleProps) => (action === 'icon' ? theme.spacing.small : 0),
+    top: '50%',
+    transform: 'translateY(-50%)',
+    zIndex: 1,
+    backgroundColor: 'pink'
+  },
+  actionImage: {
+    width: theme.size.large,
+    height: '100%'
+  }
+}))
