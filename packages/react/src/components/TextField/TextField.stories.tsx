@@ -9,21 +9,21 @@ const componentStatus = `
 **NOTE**: This component is available with the following attribute status:
 
 - **Size**
-  - ✅ \`medium\`
-  - ✅ \`mediumX\`
+  - ✅  \`medium\`
+  - ✅  \`mediumX\`
 - **Feedback**
-  - ✅ \`error\`
-  - ✅ \`success\`
+  - ✅  \`error\`
+  - ✅  \`success\`
 - ✅ **Required**
 - ✅ **Disabled**
-- ✅  **ReadOnly**
+- ❌ **ReadOnly**
 - ✅ **HelperText**
 - **Action**
   - ✅  \`icon \`
   - ✅  \`image \`
 - **Type**
   - ✅  \`password \`
-  - ❌ \`multiline \`
+  - ✅  \`multiline \`
   - ✅  \`text \`
 
 ---
@@ -103,11 +103,13 @@ Disabled.args = { ...Playground.args, disabled: true, value: 'Hello World' }
 export const Type: Story<TextFieldProps> = (args) => {
   const [password, setPassword] = useState<string>('Hello World')
   const [text, setText] = useState<string>('Hello World')
+  const [textArea, setTextArea] = useState<string>('Hello World')
 
   return (
     <StoryContainer>
-      <TextField {...args} type="password" onChange={(e) => setPassword(e.target.value)} value={password} label="Password type" />
+      <TextField {...args} onChange={(e) => setPassword(e.target.value)} value={password} type="password" label="Password type" />
       <TextField {...args} onChange={(e) => setText(e.target.value)} value={text} label="Text type" />
+      <TextField {...args} onChange={(e) => setTextArea(e.target.value)} value={textArea} type="multiline" label="Multiline type" />
     </StoryContainer>
   )
 }

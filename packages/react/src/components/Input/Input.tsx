@@ -4,25 +4,50 @@ import styles from './Input.styles'
 
 const Input = ({
   disabled = false,
+  minRows = 3,
+  onBlur,
   onChange,
+  onFocus,
   placeholder,
   readOnly = false,
+  isResizable = false,
   size = 'mediumX',
+  testId = 'ds-input',
   type = 'text',
   value
 }: InputProps): JSX.Element => {
-  const classes = styles({ size })
+  const classes = styles({ size, isResizable })
+  const isMultiline = type === 'multiline'
 
   return (
-    <input
-      className={classes.input}
-      disabled={disabled}
-      onChange={onChange}
-      placeholder={placeholder}
-      readOnly={readOnly}
-      type={type}
-      value={value}
-    />
+    isMultiline
+      ? (
+        <textarea
+          className={classes.textArea}
+          data-testid={testId}
+          disabled={disabled}
+          onBlur={onBlur}
+          onChange={onChange}
+          onFocus={onFocus}
+          placeholder={placeholder}
+          readOnly={readOnly}
+          rows={minRows}
+        />
+      )
+      : (
+        <input
+          className={classes.input}
+          data-testid={testId}
+          disabled={disabled}
+          onBlur={onBlur}
+          onChange={onChange}
+          onFocus={onFocus}
+          placeholder={placeholder}
+          readOnly={readOnly}
+          type={type}
+          value={value}
+        />
+      )
   )
 }
 

@@ -1,0 +1,162 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should render correctly when type is multiline 1`] = `
+Array [
+  ".base-0-2-1 {
+  color: #777777;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.base-0-2-1:read-only {
+  pointer-events: none;
+}
+.base-0-2-1:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.base-0-2-1::placeholder {}
+.input-0-2-2 {
+  color: #777777;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.input-0-2-2:read-only {
+  pointer-events: none;
+}
+.input-0-2-2:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.input-0-2-2::placeholder {}
+.textArea-0-2-3 {
+  color: #777777;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-3:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-3:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.textArea-0-2-3::placeholder {}
+.base-d0-0-2-4 {}
+.base-d0-0-2-4::placeholder {
+  color: #777777;
+}
+.input-d1-0-2-5 {
+  height: 56px;
+}
+.textArea-d2-0-2-6 {
+  resize: none;
+}",
+  <div>
+    <textarea
+      class="textArea-0-2-3 textArea-d2-0-2-6"
+      data-testid="input-multiline"
+      rows="3"
+    />
+  </div>,
+]
+`;
+
+exports[`Input component should render correctly with default props 1`] = `
+Array [
+  ".base-0-2-1 {
+  color: #777777;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.base-0-2-1:read-only {
+  pointer-events: none;
+}
+.base-0-2-1:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.base-0-2-1::placeholder {}
+.input-0-2-2 {
+  color: #777777;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.input-0-2-2:read-only {
+  pointer-events: none;
+}
+.input-0-2-2:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.input-0-2-2::placeholder {}
+.textArea-0-2-3 {
+  color: #777777;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-3:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-3:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.textArea-0-2-3::placeholder {}
+.base-d0-0-2-4 {}
+.base-d0-0-2-4::placeholder {
+  color: #777777;
+}
+.input-d1-0-2-5 {
+  height: 56px;
+}
+.textArea-d2-0-2-6 {
+  resize: none;
+}",
+  <div>
+    <input
+      class="input-0-2-2 input-d1-0-2-5"
+      data-testid="input-text"
+      type="text"
+      value=""
+    />
+  </div>,
+]
+`;
