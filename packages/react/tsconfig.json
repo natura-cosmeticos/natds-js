@@ -21,7 +21,9 @@
     "strictNullChecks": true,
     "strictPropertyInitialization": true,
     "target": "es5",
-    "types": ["jest", "react"]
+    "types": ["jest", "react", "@testing-library/jest-dom"]
   },
-  "files": ["src/index.ts", "global.d.ts"]
+  "files": ["src/index.ts", "global.d.ts"],
+  "include": ["src/components/**/*.stories.*", "src/components/**/*.test.*"]
+
 }

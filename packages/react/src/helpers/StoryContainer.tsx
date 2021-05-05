@@ -7,12 +7,12 @@ const styles = createUseStyles({
     flexWrap: 'wrap',
     gap: 16,
     maxWidth: 400,
-    flexDirection: (props) => (props.isColumn ? 'column' : 'row')
+    flexDirection: 'row'
   }
 })
 
-const StoryContainer = ({ children, isColumn = false }) => {
-  const classes = styles({ isColumn })
+const StoryContainer: React.FC = ({ children }) => {
+  const classes = styles()
 
   return (
     <div className={classes.container}>

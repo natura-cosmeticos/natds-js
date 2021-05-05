@@ -50,7 +50,7 @@ export const Middle: Story<DividerProps> = (args) => (
 )
 FullBleed.args = { ...Playground.args }
 
-const Template = ({ children }) => (
+const Template: React.FC = ({ children }) => (
   <div style={{ maxWidth: 200, border: '1px solid #00000014', padding: '16px 0' }}>
     {children}
   </div>
