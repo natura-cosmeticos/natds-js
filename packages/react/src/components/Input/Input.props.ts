@@ -5,10 +5,15 @@ export type InputType = 'text' | 'password' | 'multiline'
 
 export interface InputProps {
   disabled?: boolean,
-  onChange: React.ChangeEventHandler<HTMLInputElement>,
+  minRows?: number,
+  onBlur: React.FocusEventHandler<HTMLInputElement | HTMLTextAreaElement>,
+  onChange: React.ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement>,
+  onFocus: React.FocusEventHandler<HTMLInputElement | HTMLTextAreaElement>
   placeholder?: string,
   readOnly?: boolean,
+  isResizable?: boolean,
   size?: InputSize,
-  type: InputType
+  testId?: string,
+  type?: InputType,
   value?: string,
 }
