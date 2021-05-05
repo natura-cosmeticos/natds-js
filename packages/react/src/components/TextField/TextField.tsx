@@ -1,8 +1,11 @@
+/* eslint-disable react/destructuring-assignment */
 /* eslint-disable max-lines-per-function */
 /* eslint-disable max-len */
 import React from 'react'
 import { IconButton } from '../IconButton'
-import { TextFieldFeedback, TextFieldProps } from './TextField.props'
+import {
+  TextFieldActionIcon, TextFieldActionImage, TextFieldFeedback, TextFieldProps
+} from './TextField.props'
 import { Icon } from '../Icon'
 import { Input } from '../Input'
 import { styles, actionStyles } from './TextField.styles'
@@ -10,47 +13,41 @@ import { styles, actionStyles } from './TextField.styles'
 export const getIconName = (feedback: TextFieldFeedback) => (feedback === 'success' ? 'outlined-action-check' : 'outlined-action-cancel')
 export const getIconColor = (feedback: TextFieldFeedback) => (feedback === 'success' ? 'success' : 'alert')
 
-export const Action = ({
-  action,
-  iconName,
-  onClick,
-  ariaLabel,
-  readOnly,
-  disabled,
-  src,
-  alt
-}) => {
-  const classes = actionStyles({ action })
+export const isIconAction = (props: TextFieldProps): props is TextFieldActionIcon => (props as TextFieldActionIcon).action === 'icon'
+
+export const Action = (props: TextFieldActionIcon | TextFieldActionImage): JSX.Element => {
+  const classes = actionStyles(props)
 
   return (
     <div className={classes.action}>
-      {action === 'icon'
-        ? (<IconButton iconName={iconName} onClick={onClick} ariaLabel={ariaLabel} disabled={disabled || readOnly} />)
-        : <img src={src} alt={alt} className={classes.actionImage} />}
+      {isIconAction(props)
+        ? (<IconButton iconName={props.iconName} onClick={props.onClick} ariaLabel={props.ariaLabel} disabled={props.disabled || props.readOnly} />)
+        : <img src={props.src} alt={props.alt} className={classes.actionImage} />}
     </div>
   )
 }
 
-const TextField = ({
-  action = 'none',
-  disabled = false,
-  feedback,
-  helperText,
-  label,
-  onChange,
-  placeholder,
-  readOnly = false,
-  required = false,
-  size = 'mediumX',
-  testID,
-  type = 'text',
-  value,
-  iconName,
-  onClick,
-  ariaLabel,
-  src,
-  alt
-}: TextFieldProps): JSX.Element => {
+const TextField = (props: TextFieldProps): JSX.Element => {
+  const {
+    disabled = false,
+    feedback,
+    helperText,
+    isResizable = false,
+    label,
+    minRows = 3,
+    onBlur,
+    onChange,
+    onFocus,
+    placeholder,
+    readOnly = false,
+    required = false,
+    size = 'mediumX',
+    testID,
+    type = 'text',
+    value,
+    ...rest
+  } = props
+
   const classes = styles({
     disabled, feedback, readOnly, size
   })
@@ -63,27 +60,19 @@ const TextField = ({
       </label>
       <div className={classes.inputContainer}>
         <Input
-          size={size}
           disabled={disabled}
-          placeholder={placeholder}
-          value={value}
+          onBlur={onBlur}
           onChange={onChange}
+          onFocus={onFocus}
+          placeholder={placeholder}
           readOnly={readOnly}
+          size={size}
           type={type}
+          value={value}
+          minRows={minRows}
+          isResizable={isResizable}
         />
-        {action !== 'none'
-          && (
-          <Action
-            action={action}
-            iconName={iconName}
-            onClick={onClick}
-            ariaLabel={ariaLabel}
-            src={src}
-            alt={alt}
-            disabled={disabled}
-            readOnly={readOnly}
-          />
-          )}
+        {rest.action && isIconAction(props) && (<Action {...props} />)}
       </div>
       <p className={classes.helperText}>
         {feedback && <Icon name={getIconName(feedback)} color={getIconColor(feedback)} size="small" />}
