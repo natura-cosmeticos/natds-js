@@ -7,7 +7,8 @@ import { checkIconColor, getIconSize } from './IconButton'
 
 const iconButtonProps: IconButtonProps = {
   iconName: 'outlined-default-mockup',
-  onClick: () => ''
+  onClick: () => '',
+  ariaLabel: ''
 }
 
 describe('Icon Button component', () => {
