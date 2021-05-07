@@ -38,6 +38,7 @@ const TextField = (props: TextFieldProps): JSX.Element => {
     disabled = false,
     feedback,
     helperText,
+    id,
     isResizable = false,
     label,
     minRows = 3,
@@ -60,12 +61,13 @@ const TextField = (props: TextFieldProps): JSX.Element => {
 
   return (
     <div data-testid={testID}>
-      <label className={classes.label}>
+      <label className={classes.label} htmlFor={id}>
         {label}
         {required && '*'}
       </label>
       <div className={classes.inputContainer}>
         <Input
+          id={id}
           disabled={disabled}
           onBlur={onBlur}
           onChange={onChange}
