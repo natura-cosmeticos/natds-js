@@ -8,7 +8,7 @@ const styles = createUseStyles((theme: Theme) => ({
   base: {
     background: 'none',
     border: 'none',
-    color: theme.color.mediumEmphasis,
+    color: theme.color.highEmphasis,
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontSize: 16,
     letterSpacing: 0.51,

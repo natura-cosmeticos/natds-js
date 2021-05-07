@@ -7,7 +7,8 @@ import { TextFieldProps } from './TextField.props'
 const defaultProps: TextFieldProps = {
   onBlur: () => '',
   onChange: () => '',
-  onFocus: () => ''
+  onFocus: () => '',
+  id: 'example to test'
 }
 
 describe('TextField component', () => {
