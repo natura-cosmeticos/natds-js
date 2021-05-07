@@ -11,19 +11,19 @@ const defaultProps: InputProps = {
 
 describe('Input component', () => {
   it('should render correctly with default props', () => {
-    const { styles, component } = renderWithTheme(<Input {...defaultProps} testId="input-text" />)
+    const { styles, component } = renderWithTheme(<Input {...defaultProps} />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
-    expect(component.getByTestId('input-text')).not.toBeDisabled()
-    expect(component.getByTestId('input-text')).not.toBeRequired()
+    expect(component.getByTestId('ds-input')).not.toBeDisabled()
+    expect(component.getByTestId('ds-input')).not.toBeRequired()
   })
 
   it('should render correctly when type is multiline', () => {
-    const { styles, component } = renderWithTheme(<Input {...defaultProps} type="multiline" testId="input-multiline" />)
+    const { styles, component } = renderWithTheme(<Input {...defaultProps} type="multiline" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
-    expect(component.getByTestId('input-multiline')).not.toBeDisabled()
-    expect(component.getByTestId('input-multiline')).not.toBeRequired()
-    expect(component.getByTestId('input-multiline')).toHaveProperty('readOnly', false)
+    expect(component.getByTestId('ds-input-multiline')).not.toBeDisabled()
+    expect(component.getByTestId('ds-input-multiline')).not.toBeRequired()
+    expect(component.getByTestId('ds-input-multiline')).toHaveProperty('readOnly', false)
   })
 })
