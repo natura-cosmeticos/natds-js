@@ -24,6 +24,6 @@
     "types": ["jest", "react", "@testing-library/jest-dom"]
   },
   "files": ["src/index.ts", "global.d.ts"],
-  "include": ["src/components/**/*.stories.*", "src/components/**/*.test.*"]
-
+  "include": ["src/components/**/*.stories.*", "src/components/**/*.test.*"],
+  "exclude": ["src/components/Ripple/*.test.*"]
 }
