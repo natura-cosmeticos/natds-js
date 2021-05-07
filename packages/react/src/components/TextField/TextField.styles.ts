@@ -41,6 +41,7 @@ export const actionStyles = createUseStyles((theme: Theme) => ({
 
 export const styles = createUseStyles((theme: Theme) => ({
   inputContainer: {
+    position: 'relative',
     border: '1px solid',
     borderColor: (props: TextFieldStyleProps) => getFeedbackBorderColor(theme, props),
     borderRadius: theme.borderRadius.medium,
@@ -53,6 +54,16 @@ export const styles = createUseStyles((theme: Theme) => ({
     '&:focus-within': {
       border: '2px solid',
       borderColor: theme.color.primary
+    },
+    '&:after': {
+      backgroundColor: theme.color.lowEmphasis,
+      content: '""',
+      height: '100%',
+      left: 0,
+      opacity: ({ readOnly }: TextFieldStyleProps) => (readOnly ? theme.opacity.disabledLow : 0),
+      position: 'absolute',
+      top: 0,
+      width: '100%'
     }
   },
   label: {
