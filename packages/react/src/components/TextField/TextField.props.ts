@@ -13,7 +13,7 @@ type BaseProps = InputProps & {
    */
   helperText?: string
   /**
-   * If `filled`, will appear above the field
+   * If filled, will appear above the field.
    */
   label?: string
   /**

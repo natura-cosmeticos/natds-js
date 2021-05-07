@@ -10,6 +10,10 @@ export interface InputProps {
    */
   disabled?: boolean,
   /**
+   * The id of the `input` element, shared with label.
+   */
+  id: string
+  /**
    * Minimum number of rows to display when input type option is set to multiline.
    * @default 3
    */
