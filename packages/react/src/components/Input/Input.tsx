@@ -12,7 +12,6 @@ const Input = ({
   readOnly = false,
   isResizable = false,
   size = 'mediumX',
-  testId = 'ds-input',
   type = 'text',
   value
 }: InputProps): JSX.Element => {
@@ -24,7 +23,7 @@ const Input = ({
       ? (
         <textarea
           className={classes.textArea}
-          data-testid={testId}
+          data-testid="ds-input-multiline"
           disabled={disabled}
           onBlur={onBlur}
           onChange={onChange}
@@ -37,7 +36,7 @@ const Input = ({
       : (
         <input
           className={classes.input}
-          data-testid={testId}
+          data-testid="ds-input"
           disabled={disabled}
           onBlur={onBlur}
           onChange={onChange}
