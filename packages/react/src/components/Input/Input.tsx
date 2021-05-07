@@ -4,13 +4,14 @@ import styles from './Input.styles'
 
 const Input = ({
   disabled = false,
+  id,
+  isResizable = false,
   minRows = 3,
   onBlur,
   onChange,
   onFocus,
   placeholder,
   readOnly = false,
-  isResizable = false,
   size = 'mediumX',
   type = 'text',
   value
@@ -31,6 +32,7 @@ const Input = ({
           placeholder={placeholder}
           readOnly={readOnly}
           rows={minRows}
+          id={id}
         />
       )
       : (
@@ -45,6 +47,7 @@ const Input = ({
           readOnly={readOnly}
           type={type}
           value={value}
+          id={id}
         />
       )
   )

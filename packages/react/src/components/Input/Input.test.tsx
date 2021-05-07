@@ -6,7 +6,8 @@ import { InputProps } from './Input.props'
 const defaultProps: InputProps = {
   onBlur: () => '',
   onChange: () => '',
-  onFocus: () => ''
+  onFocus: () => '',
+  id: 'example to test'
 }
 
 describe('Input component', () => {

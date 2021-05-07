@@ -32,7 +32,7 @@ const getFeedbackTextColor = (theme: Theme, { feedback, disabled }: TextFieldSty
 
 export const actionStyles = createUseStyles((theme: Theme) => ({
   action: {
-    paddingRight: ({ action }) => action === 'icon' && theme.spacing.small
+    marginRight: ({ action }) => action === 'icon' && theme.spacing.tiny
   },
   actionImage: {
     maxWidth: theme.size.large
@@ -42,6 +42,7 @@ export const actionStyles = createUseStyles((theme: Theme) => ({
 export const styles = createUseStyles((theme: Theme) => ({
   inputContainer: {
     position: 'relative',
+    backgroundColor: theme.color.surface,
     border: '1px solid',
     borderColor: (props: TextFieldStyleProps) => getFeedbackBorderColor(theme, props),
     borderRadius: theme.borderRadius.medium,
@@ -68,9 +69,11 @@ export const styles = createUseStyles((theme: Theme) => ({
   },
   label: {
     color: (props: TextFieldStyleProps) => getFeedbackTextColor(theme, props),
+    display: 'inline-block',
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontSize: 14,
-    letterSpacing: 0.11
+    letterSpacing: 0.11,
+    marginBottom: theme.spacing.micro
   },
   helperText: {
     alignItems: 'center',
