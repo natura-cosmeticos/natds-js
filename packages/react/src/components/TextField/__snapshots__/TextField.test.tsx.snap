@@ -1027,6 +1027,11 @@ Array [
 .textArea-d2-0-2-12 {
   resize: none;
 }
+.action-0-2-13 {}
+.actionImage-0-2-14 {
+  max-width: 64px;
+}
+.action-d0-0-2-15 {}
 .inputContainer-0-2-1 {
   border: 1px solid;
   display: flex;
@@ -1083,6 +1088,15 @@ Array [
           type="text"
           value=""
         />
+        <div
+          class="action-0-2-13 action-d0-0-2-15"
+        >
+          <img
+            alt=""
+            class="actionImage-0-2-14"
+            src=""
+          />
+        </div>
       </div>
       <p
         class="helperText-0-2-3 helperText-d2-0-2-6"
