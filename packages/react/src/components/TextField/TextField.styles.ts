@@ -49,6 +49,7 @@ export const styles = createUseStyles((theme: Theme) => ({
     display: 'flex',
     alignItems: 'center',
     justifyContent: 'space-between',
+    cursor: ({ disabled, readOnly }: TextFieldStyleProps) => (!disabled && !readOnly ? 'text' : 'default'),
     '&:hover': {
       borderColor: ({ disabled }: TextFieldStyleProps) => !disabled && theme.color.mediumEmphasis
     },
@@ -64,7 +65,8 @@ export const styles = createUseStyles((theme: Theme) => ({
       opacity: ({ readOnly }: TextFieldStyleProps) => (readOnly ? theme.opacity.disabledLow : 0),
       position: 'absolute',
       top: 0,
-      width: '100%'
+      width: '100%',
+      pointerEvents: 'none'
     }
   },
   label: {
