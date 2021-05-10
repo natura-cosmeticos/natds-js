@@ -1,10 +1,60 @@
+/* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { InputProps } from './Input.props'
 
-type InputStyleProps = Required<Pick<InputProps, 'size' | 'isResizable'>>
+type InputStyleProps = Required<Pick<InputProps, 'size' | 'isResizable' | 'disabled' | 'readOnly' | 'feedback'>>
 
-const styles = createUseStyles((theme: Theme) => ({
+const getFeedbackBorderColor = (theme: Theme, { feedback }: InputStyleProps) => {
+  switch (feedback) {
+    case 'error':
+      return theme.color.alert
+    case 'success':
+      return theme.color.success
+    default:
+      return theme.color.lowEmphasis
+  }
+}
+
+export const actionStyles = createUseStyles((theme: Theme) => ({
+  action: {
+    marginRight: ({ action }) => action === 'icon' && theme.spacing.tiny
+  },
+  actionImage: {
+    maxWidth: theme.size.large
+  }
+}))
+
+export const styles = createUseStyles((theme: Theme) => ({
+  wrapper: {
+    position: 'relative',
+    backgroundColor: theme.color.surface,
+    border: '1px solid',
+    borderColor: (props: InputStyleProps) => getFeedbackBorderColor(theme, props),
+    borderRadius: theme.borderRadius.medium,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'space-between',
+    cursor: ({ disabled, readOnly }: InputStyleProps) => (!disabled && !readOnly ? 'text' : 'default'),
+    '&:hover': {
+      borderColor: ({ disabled }: InputStyleProps) => !disabled && theme.color.mediumEmphasis
+    },
+    '&:focus-within': {
+      border: '2px solid',
+      borderColor: theme.color.primary
+    },
+    '&:after': {
+      backgroundColor: theme.color.lowEmphasis,
+      content: '""',
+      height: '100%',
+      left: 0,
+      opacity: ({ readOnly }: InputStyleProps) => (readOnly ? theme.opacity.disabledLow : 0),
+      position: 'absolute',
+      top: 0,
+      width: '100%',
+      pointerEvents: 'none'
+    }
+  },
   base: {
     background: 'none',
     border: 'none',
@@ -36,5 +86,3 @@ const styles = createUseStyles((theme: Theme) => ({
     resize: ({ isResizable }: InputStyleProps) => !isResizable && 'none'
   }
 }))
-
-export default styles

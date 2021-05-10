@@ -1,14 +1,20 @@
+import { IconName } from '@naturacosmeticos/natds-icons'
 import { Size } from '@naturacosmeticos/natds-themes'
 
 export type InputSize = keyof Pick<Size, 'medium' | 'mediumX'>
 export type InputType = 'text' | 'password' | 'multiline'
+export type Feedback = 'success' | 'error'
 
-export interface InputProps {
+export interface BaseProps {
   /**
    * If `true`, the component is disabled.
    * @default false
    */
   disabled?: boolean,
+  /**
+   * The type of feedback to the user
+   */
+  feedback?: Feedback
   /**
    * The id of the `input` element, shared with label.
    */
@@ -59,3 +65,43 @@ export interface InputProps {
    */
   value?: string,
 }
+
+export type InputActionIcon = BaseProps & ({
+  /**
+   * If `icon`, will display an Icon Button to the right of Input
+   */
+  action: 'icon'
+  /**
+   * Set the icon to be rendered.
+   * Check all available names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
+   * @default outlined-default-mockup
+   */
+  iconName: IconName
+  /**
+   * Use to define a text that explains the expected action
+   */
+  ariaLabel: string
+  /**
+   * Click handler
+   */
+  onClick: () => void
+})
+
+export type InputActionImage = BaseProps & ({
+  /**
+   * If `image`, will display an image to the right of Input
+   */
+  action: 'image'
+  /**
+   * Provides alternative information for an image if a user for some reason cannot view it
+   */
+  alt: string
+  /**
+   * The path for the image
+   */
+  src: string
+})
+
+export type InputProps = BaseProps & { action?: never }
+| InputActionIcon
+| InputActionImage

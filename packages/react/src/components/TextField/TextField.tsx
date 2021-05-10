@@ -2,36 +2,14 @@
 /* eslint-disable max-lines-per-function */
 /* eslint-disable max-len */
 import React from 'react'
-import { IconButton } from '../IconButton'
-import {
-  TextFieldActionIcon, TextFieldActionImage, TextFieldFeedback, TextFieldProps
-} from './TextField.props'
+import { Feedback } from 'components/Input/Input.props'
+import { TextFieldProps } from './TextField.props'
 import { Icon } from '../Icon'
 import { Input } from '../Input'
-import { styles, actionStyles } from './TextField.styles'
+import styles from './TextField.styles'
 
-export const getIconName = (feedback: TextFieldFeedback) => (feedback === 'success' ? 'outlined-action-check' : 'outlined-action-cancel')
-export const getIconColor = (feedback: TextFieldFeedback) => (feedback === 'success' ? 'success' : 'alert')
-
-export const isIconAction = (props: TextFieldProps): props is TextFieldActionIcon => (props as TextFieldActionIcon).action === 'icon'
-export const isImageAction = (props: TextFieldProps): props is TextFieldActionImage => (props as TextFieldActionImage).action === 'image'
-
-export const Action = (props: TextFieldProps): JSX.Element => {
-  const classes = actionStyles(props)
-
-  return (
-    <div className={classes.action}>
-      {
-        isIconAction(props)
-          && <IconButton iconName={props.iconName} onClick={props.onClick} ariaLabel={props.ariaLabel} disabled={props.disabled || props.readOnly} />
-      }
-      {
-        isImageAction(props)
-          && <img src={props.src} alt={props.alt} className={classes.actionImage} />
-      }
-    </div>
-  )
-}
+export const getIconName = (feedback: Feedback) => (feedback === 'success' ? 'outlined-action-check' : 'outlined-action-cancel')
+export const getIconColor = (feedback: Feedback) => (feedback === 'success' ? 'success' : 'alert')
 
 const TextField = (props: TextFieldProps): JSX.Element => {
   const {
@@ -65,23 +43,22 @@ const TextField = (props: TextFieldProps): JSX.Element => {
         {label}
         {required && '*'}
       </label>
-      <div className={classes.inputContainer}>
-        <Input
-          id={id}
-          disabled={disabled}
-          onBlur={onBlur}
-          onChange={onChange}
-          onFocus={onFocus}
-          placeholder={placeholder}
-          readOnly={readOnly}
-          size={size}
-          type={type}
-          value={value}
-          minRows={minRows}
-          isResizable={isResizable}
-        />
-        {rest.action && (<Action {...props} />)}
-      </div>
+      <Input
+        id={id}
+        disabled={disabled}
+        onBlur={onBlur}
+        onChange={onChange}
+        onFocus={onFocus}
+        placeholder={placeholder}
+        readOnly={readOnly}
+        size={size}
+        type={type}
+        value={value}
+        minRows={minRows}
+        isResizable={isResizable}
+        feedback={feedback}
+        {...rest}
+      />
       <p className={classes.helperText}>
         {feedback && <Icon name={getIconName(feedback)} color={getIconColor(feedback)} size="small" />}
         {helperText}
