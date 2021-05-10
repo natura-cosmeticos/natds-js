@@ -16,7 +16,7 @@ const componentStatus = `
   - ✅  \`success\`
 - ✅ **Required**
 - ✅ **Disabled**
-- ❌ **ReadOnly**
+- ✅ **ReadOnly**
 - ✅ **HelperText**
 - **Action**
   - ✅  \`icon \`
@@ -114,11 +114,29 @@ export const Type: Story<TextFieldProps> = (args) => {
   )
 }
 
-export const Action: Story<TextFieldProps> = (args) => (
+export const ActionIcon: Story<TextFieldProps> = (args) => (
   <StoryContainer>
-    <TextField {...args} action="icon" iconName="filled-action-love" onClick={() => ''} ariaLabel="heart icon button" />
-    <TextField {...args} action="image" src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-react@2.0.0-alpha.DSY-1963.53.0/dist/assets/mastercard@2x.png" alt="mastercard logo" />
+    <TextField {...args} />
   </StoryContainer>
 )
 
-Action.args = { ...Playground.args }
+ActionIcon.args = {
+  ...Playground.args,
+  action: 'icon',
+  iconName: 'filled-action-love',
+  onClick: () => '',
+  ariaLabel: 'heart icon button'
+}
+
+export const ActionImage: Story<TextFieldProps> = (args) => (
+  <StoryContainer>
+    <TextField {...args} />
+  </StoryContainer>
+)
+
+ActionImage.args = {
+  ...Playground.args,
+  action: 'image',
+  src: 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-react@2.0.0-alpha.DSY-1963.53.0/dist/assets/mastercard@2x.png',
+  alt: 'mastercard logo'
+}
