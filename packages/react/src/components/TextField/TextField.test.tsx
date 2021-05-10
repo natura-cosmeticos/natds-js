@@ -1,5 +1,6 @@
 /* eslint-disable max-lines-per-function */
 import React from 'react'
+import userEvent from '@testing-library/user-event'
 import TextField, { getIconColor, getIconName } from './TextField'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import { TextFieldProps } from './TextField.props'
@@ -72,6 +73,30 @@ describe('TextField component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
     expect(component.getByTestId('ds-input')).toHaveAttribute('type', 'password')
+  })
+
+  it('should call onChange when is typing', () => {
+    const onChangeMock = jest.fn()
+    const { component } = renderWithTheme(<TextField {...defaultProps} onChange={onChangeMock} />)
+
+    userEvent.type(component.getByRole('textbox'), 'Hello World')
+    expect(onChangeMock).toHaveBeenCalledTimes(11)
+  })
+  it('should call onFocus when is typing', () => {
+    const onFocusMock = jest.fn()
+    const { component } = renderWithTheme(<TextField {...defaultProps} onFocus={onFocusMock} />)
+
+    userEvent.type(component.getByRole('textbox'), 'Hello World')
+    expect(component.getByRole('textbox')).toHaveFocus()
+    expect(onFocusMock).toHaveBeenCalled()
+  })
+  it('should call onBlur when the element loses focus', () => {
+    const onBlurMock = jest.fn()
+    const { component } = renderWithTheme(<TextField {...defaultProps} onBlur={onBlurMock} />)
+
+    userEvent.type(component.getByRole('textbox'), 'Hello World')
+    userEvent.tab()
+    expect(onBlurMock).toHaveBeenCalled()
   })
 })
 describe('getIconName', () => {
