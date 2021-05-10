@@ -1,4 +1,4 @@
-import { isEqual } from 'lodash'
+import isEqual from 'lodash/isEqual'
 import { ThemeOptions, createMuiTheme, Theme } from '@material-ui/core/styles'
 import useTheme from '@material-ui/core/styles/useTheme'
 import { IThemeWeb, themes } from '../../Themes'
