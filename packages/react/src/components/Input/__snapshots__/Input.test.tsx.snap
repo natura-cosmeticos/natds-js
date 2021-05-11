@@ -44,7 +44,6 @@ Array [
   color: #bbbbbb;
   cursor: default;
 }
-.base-0-2-2::placeholder {}
 .input-0-2-3 {
   color: #333333;
   width: 100%;
@@ -94,22 +93,22 @@ Array [
 .wrapper-d0-0-2-5:after {
   opacity: 0;
 }
-.base-d1-0-2-6 {}
-.base-d1-0-2-6::placeholder {
+.input-d1-0-2-6 {}
+.input-d1-0-2-6::placeholder {
   color: #777777;
 }
-.input-d2-0-2-7 {
-  height: 56px;
-}
-.textArea-d3-0-2-8 {
+.textArea-d2-0-2-7 {
   resize: none;
+}
+.textArea-d2-0-2-7::placeholder {
+  color: #777777;
 }",
   <div>
     <div
       class="wrapper-0-2-1 wrapper-d0-0-2-5"
     >
       <textarea
-        class="textArea-0-2-4 textArea-d3-0-2-8"
+        class="textArea-0-2-4 textArea-d2-0-2-7"
         data-testid="ds-input-multiline"
         id="example to test"
         rows="3"
@@ -163,7 +162,6 @@ Array [
   color: #bbbbbb;
   cursor: default;
 }
-.base-0-2-2::placeholder {}
 .input-0-2-3 {
   color: #333333;
   width: 100%;
@@ -213,22 +211,22 @@ Array [
 .wrapper-d0-0-2-5:after {
   opacity: 0;
 }
-.base-d1-0-2-6 {}
-.base-d1-0-2-6::placeholder {
+.input-d1-0-2-6 {}
+.input-d1-0-2-6::placeholder {
   color: #777777;
 }
-.input-d2-0-2-7 {
-  height: 56px;
-}
-.textArea-d3-0-2-8 {
+.textArea-d2-0-2-7 {
   resize: none;
+}
+.textArea-d2-0-2-7::placeholder {
+  color: #777777;
 }",
   <div>
     <div
       class="wrapper-0-2-1 wrapper-d0-0-2-5"
     >
       <input
-        class="input-0-2-3 input-d2-0-2-7"
+        class="input-0-2-3 input-d1-0-2-6"
         data-testid="ds-input"
         id="example to test"
         type="text"

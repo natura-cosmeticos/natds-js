@@ -22,9 +22,7 @@ const Input = (props: InputProps): JSX.Element => {
     ...rest
   } = props
 
-  const classes = styles({
-    size, isResizable, disabled, readOnly, feedback
-  })
+  const classes = styles(props)
   const isMultiline = type === 'multiline'
 
   return (

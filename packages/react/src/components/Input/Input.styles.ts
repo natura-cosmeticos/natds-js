@@ -1,9 +1,10 @@
+/* eslint-disable max-len */
 /* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { InputProps } from './Input.props'
 
-type InputStyleProps = Required<Pick<InputProps, 'size' | 'isResizable' | 'disabled' | 'readOnly' | 'feedback'>>
+type InputStyleProps = Required<Pick<InputProps, 'size' | 'isResizable' | 'disabled' | 'readOnly' | 'feedback' | 'action'>>
 
 const getFeedbackBorderColor = (theme: Theme, { feedback }: InputStyleProps) => {
   switch (feedback) {
@@ -62,19 +63,24 @@ const styles = createUseStyles((theme: Theme) => ({
     '&:disabled': {
       color: theme.color.lowEmphasis,
       cursor: 'default'
-    },
-    '&::placeholder': {
-      color: ({ disabled }) => (disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis)
     }
   },
   input: {
     extend: 'base',
     boxSizing: 'border-box',
-    height: ({ size }: InputStyleProps) => theme.size[size]
+    height: ({ size }: InputStyleProps) => theme.size[size],
+    paddingRight: ({ action }: InputStyleProps) => action && theme.spacing.tiny,
+    '&::placeholder': {
+      color: ({ disabled }: InputStyleProps) => (disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis)
+    }
   },
   textArea: {
     extend: 'base',
-    resize: ({ isResizable }: InputStyleProps) => !isResizable && 'none'
+    paddingRight: ({ action }: InputStyleProps) => action && theme.spacing.tiny,
+    resize: ({ isResizable }: InputStyleProps) => !isResizable && 'none',
+    '&::placeholder': {
+      color: ({ disabled }: InputStyleProps) => (disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis)
+    }
   }
 }))
 

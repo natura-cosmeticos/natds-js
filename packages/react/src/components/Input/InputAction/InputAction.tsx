@@ -20,7 +20,7 @@ const InputAction = (props: InputProps): JSX.Element => {
             onClick={props.onClick}
             ariaLabel={props.ariaLabel}
             disabled={props.disabled || props.readOnly}
-            testID="input-action-icon"
+            testID="ds-input-action-icon"
           />
         )
       }
@@ -31,7 +31,7 @@ const InputAction = (props: InputProps): JSX.Element => {
           src={props.src}
           alt={props.alt}
           className={classes.actionImage}
-          data-testid="input-action-image"
+          data-testid="ds-input-action-image"
         />
         )
       }
