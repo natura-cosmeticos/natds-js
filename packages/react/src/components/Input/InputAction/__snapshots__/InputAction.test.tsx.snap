@@ -1,0 +1,161 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputAction component should render an icon button when receive action icon 1`] = `
+Array [
+  ".iconButtonContainer-0-2-4 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-4:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-4:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-4:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-4:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-5 {
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+}
+.icon-0-2-15 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-16 {
+  color: #333333;
+  font-size: 24px;
+}
+.wrapper-0-2-6 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-7 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-8 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-9 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-10 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-11 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-12 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-13 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .action-0-2-1 {  }
+  .actionImage-0-2-2 {
+    max-width: 64px;
+  }
+  .action-d0-0-2-3 {
+    margin-right: 8px;
+  }",
+  <div>
+    <div
+      class="action-0-2-1 action-d0-0-2-3"
+    >
+      <div
+        class="wrapper-0-2-6 wrapper-d0-0-2-11"
+        data-testid="ripple-wrapper"
+      >
+        <div
+          class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
+        >
+          <div
+            class="ripple-0-2-7 ripple-d1-0-2-12 "
+            data-testid="ripple-animation"
+          />
+        </div>
+        <button
+          class="iconButtonContainer-0-2-4 iconButtonContainer-d0-0-2-5"
+          data-testid="input-action-icon"
+          type="button"
+        >
+          <i
+            aria-hidden="false"
+            arial-label="some rating icon button"
+            class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-filled-action-rating"
+            data-testid="icon-filled-action-rating"
+            role="button"
+          />
+        </button>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`InputAction component should render correctly when type is multiline 1`] = `
+Array [
+  ".action-0-2-1 {}
+.actionImage-0-2-2 {
+  max-width: 64px;
+}
+.action-d0-0-2-3 {}",
+  <div>
+    <div
+      class="action-0-2-1 action-d0-0-2-3"
+    >
+      <img
+        alt=""
+        class="actionImage-0-2-2"
+        data-testid="input-action-image"
+        src=""
+      />
+    </div>
+  </div>,
+]
+`;
