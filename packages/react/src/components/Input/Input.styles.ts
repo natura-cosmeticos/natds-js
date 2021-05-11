@@ -16,16 +16,7 @@ const getFeedbackBorderColor = (theme: Theme, { feedback }: InputStyleProps) => 
   }
 }
 
-export const actionStyles = createUseStyles((theme: Theme) => ({
-  action: {
-    marginRight: ({ action }) => action === 'icon' && theme.spacing.tiny
-  },
-  actionImage: {
-    maxWidth: theme.size.large
-  }
-}))
-
-export const styles = createUseStyles((theme: Theme) => ({
+const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     position: 'relative',
     backgroundColor: theme.color.surface,
@@ -86,3 +77,5 @@ export const styles = createUseStyles((theme: Theme) => ({
     resize: ({ isResizable }: InputStyleProps) => !isResizable && 'none'
   }
 }))
+
+export default styles

@@ -1,36 +1,8 @@
-/* eslint-disable react/destructuring-assignment */
 /* eslint-disable max-lines-per-function */
 import React from 'react'
-import { InputActionIcon, InputActionImage, InputProps } from './Input.props'
-import { IconButton } from '../IconButton'
-import { actionStyles, styles } from './Input.styles'
-
-export const isIconAction = (props: InputProps): props is InputActionIcon => (props as InputActionIcon).action === 'icon'
-export const isImageAction = (props: InputProps): props is InputActionImage => (props as InputActionImage).action === 'image'
-
-export const Action = (props: InputProps): JSX.Element => {
-  const classes = actionStyles(props)
-
-  return (
-    <div className={classes.action}>
-      {
-        isIconAction(props)
-        && (
-        <IconButton
-          iconName={props.iconName}
-          onClick={props.onClick}
-          ariaLabel={props.ariaLabel}
-          disabled={props.disabled || props.readOnly}
-        />
-        )
-      }
-      {
-        isImageAction(props)
-        && <img src={props.src} alt={props.alt} className={classes.actionImage} />
-      }
-    </div>
-  )
-}
+import { InputProps } from './Input.props'
+import styles from './Input.styles'
+import InputAction from './InputAction'
 
 const Input = (props: InputProps): JSX.Element => {
   const {
@@ -89,7 +61,7 @@ const Input = (props: InputProps): JSX.Element => {
             />
           )
       }
-      {rest.action && (<Action {...props} />)}
+      {rest.action && (<InputAction {...props} />)}
     </div>
   )
 }

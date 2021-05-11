@@ -802,288 +802,6 @@ Array [
   color: #333333;
   font-size: 24px;
 }
-.iconButtonContainer-0-2-16 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-16:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-16:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-16:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-16:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-17 {
-  background-color: transparent;
-  height: 32px;
-  width: 32px;
-}
-.wrapper-0-2-18 {
-  cursor: pointer;
-  position: relative;
-  align-self: start;
-}
-.ripple-0-2-19 {
-  opacity: 0;
-  position: absolute;
-  transform: translate(-50%, -50%);
-  border-radius: 50%;
-}
-.rippleContainer-0-2-20 {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
-  position: absolute;
-}
-.rippleActive-0-2-21 {
-  z-index: 99;
-}
-@keyframes keyframes-ripple-0-2-22 {
-  0% {
-    transform: translate(-50%, -50%) scale(0);
-  }
-  75% {
-    opacity: 0.12;
-    transform: translate(-50%, -50%) scale(1);
-  }
-  100% {
-    opacity: 0;
-    z-index: 0;
-  }
-}
-  .wrapper-d0-0-2-23 {
-    display: inline-block;
-  }
-  .ripple-d1-0-2-24 {
-    background-color: #000000;
-    height: 0;
-    left: 50%;
-    top: 50%;
-    transition: scale opacity 300ms;
-    width: 0;
-  }
-  .rippleContainer-d2-0-2-25 {
-    overflow: hidden;
-  }
-  .rippleActive-d3-0-2-26 {
-    animation: keyframes-ripple-0-2-22 300ms;
-  }
-  .action-0-2-13 {  }
-  .actionImage-0-2-14 {
-    max-width: 64px;
-  }
-  .action-d0-0-2-15 {
-    margin-right: 8px;
-  }
-  .wrapper-0-2-5 {
-    border: 1px solid;
-    display: flex;
-    position: relative;
-    align-items: center;
-    border-radius: 4px;
-    justify-content: space-between;
-    background-color: #ffffff;
-  }
-  .wrapper-0-2-5:hover {  }
-  .wrapper-0-2-5:focus-within {
-    border: 2px solid;
-    border-color: #f4ab34;
-  }
-  .wrapper-0-2-5:after {
-    top: 0;
-    left: 0;
-    width: 100%;
-    height: 100%;
-    content: \\"\\";
-    position: absolute;
-    pointer-events: none;
-    background-color: #bbbbbb;
-  }
-  .base-0-2-6 {
-    color: #333333;
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 16px;
-    font-size: 16px;
-    background: none;
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.51px;
-  }
-  .base-0-2-6:read-only {
-    pointer-events: none;
-  }
-  .base-0-2-6:disabled {
-    color: #bbbbbb;
-    cursor: default;
-  }
-  .base-0-2-6::placeholder {  }
-  .input-0-2-7 {
-    color: #333333;
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 16px;
-    font-size: 16px;
-    background: none;
-    box-sizing: border-box;
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.51px;
-  }
-  .input-0-2-7:read-only {
-    pointer-events: none;
-  }
-  .input-0-2-7:disabled {
-    color: #bbbbbb;
-    cursor: default;
-  }
-  .input-0-2-7::placeholder {  }
-  .textArea-0-2-8 {
-    color: #333333;
-    width: 100%;
-    border: none;
-    outline: none;
-    padding: 16px;
-    font-size: 16px;
-    background: none;
-    font-family: Roboto, sans-serif;
-    letter-spacing: 0.51px;
-  }
-  .textArea-0-2-8:read-only {
-    pointer-events: none;
-  }
-  .textArea-0-2-8:disabled {
-    color: #bbbbbb;
-    cursor: default;
-  }
-  .textArea-0-2-8::placeholder {  }
-  .wrapper-d0-0-2-9 {
-    border-color: #bbbbbb;
-    cursor: text;
-  }
-  .wrapper-d0-0-2-9:hover {
-    border-color: #777777;
-  }
-  .wrapper-d0-0-2-9:after {
-    opacity: 0;
-  }
-  .base-d1-0-2-10 {  }
-  .base-d1-0-2-10::placeholder {
-    color: #777777;
-  }
-  .input-d2-0-2-11 {
-    height: 56px;
-  }
-  .textArea-d3-0-2-12 {
-    resize: none;
-  }
-  .label-0-2-1 {
-    display: inline-block;
-    font-size: 14px;
-    font-family: Roboto, sans-serif;
-    margin-bottom: 4px;
-    letter-spacing: 0.11px;
-  }
-  .helperText-0-2-2 {
-    display: flex;
-    font-size: 12px;
-    margin-top: 4px;
-    align-items: center;
-    font-family: Roboto, sans-serif;
-    margin-bottom: 0;
-    letter-spacing: 0.4px;
-  }
-  .helperText-0-2-2 > i {  }
-  .label-d0-0-2-3 {
-    color: #777777;
-  }
-  .helperText-d1-0-2-4 {
-    color: #777777;
-  }
-  .helperText-d1-0-2-4 > i {  }",
-  <div>
-    <div>
-      <label
-        class="label-0-2-1 label-d0-0-2-3"
-        for="example to test"
-      >
-        *
-      </label>
-      <div
-        class="wrapper-0-2-5 wrapper-d0-0-2-9"
-      >
-        <input
-          class="input-0-2-7 input-d2-0-2-11"
-          data-testid="ds-input"
-          id="example to test"
-          type="text"
-          value=""
-        />
-        <div
-          class="action-0-2-13 action-d0-0-2-15"
-        >
-          <div
-            class="wrapper-0-2-18 wrapper-d0-0-2-23"
-            data-testid="ripple-wrapper"
-          >
-            <div
-              class="rippleContainer-0-2-20 rippleContainer-d2-0-2-25"
-            >
-              <div
-                class="ripple-0-2-19 ripple-d1-0-2-24 "
-                data-testid="ripple-animation"
-              />
-            </div>
-            <button
-              class="iconButtonContainer-0-2-16 iconButtonContainer-d0-0-2-17"
-              type="button"
-            >
-              <i
-                aria-hidden="false"
-                arial-label="any label"
-                class="icon-0-2-27 icon-d0-0-2-28 natds-icons natds-icons-filled-action-love"
-                data-testid="icon-filled-action-love"
-                role="button"
-              />
-            </button>
-          </div>
-        </div>
-      </div>
-      <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
-      />
-    </div>
-  </div>,
-]
-`;
-
-exports[`TextField component should render correctly when it has an image action 1`] = `
-Array [
-  ".action-0-2-13 {}
-.actionImage-0-2-14 {
-  max-width: 64px;
-}
-.action-d0-0-2-15 {}
 .wrapper-0-2-5 {
   border: 1px solid;
   display: flex;
@@ -1186,6 +904,289 @@ Array [
 .textArea-d3-0-2-12 {
   resize: none;
 }
+.iconButtonContainer-0-2-16 {
+  border: none;
+  cursor: pointer;
+  display: inline-flex;
+  outline: none;
+  overflow: hidden;
+  position: relative;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.iconButtonContainer-0-2-16:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0;
+  position: absolute;
+  background-color: #000000;
+}
+.iconButtonContainer-0-2-16:hover:not([disabled]):after {
+  opacity: 0.04;
+}
+.iconButtonContainer-0-2-16:focus:not([disabled]):after {
+  opacity: 0.12;
+}
+.iconButtonContainer-0-2-16:disabled {
+  cursor: default;
+}
+.iconButtonContainer-d0-0-2-17 {
+  background-color: transparent;
+  height: 32px;
+  width: 32px;
+}
+.wrapper-0-2-18 {
+  cursor: pointer;
+  position: relative;
+  align-self: start;
+}
+.ripple-0-2-19 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-20 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
+}
+.rippleActive-0-2-21 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-22 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-23 {
+    display: inline-block;
+  }
+  .ripple-d1-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-26 {
+    animation: keyframes-ripple-0-2-22 300ms;
+  }
+  .action-0-2-13 {  }
+  .actionImage-0-2-14 {
+    max-width: 64px;
+  }
+  .action-d0-0-2-15 {
+    margin-right: 8px;
+  }
+  .label-0-2-1 {
+    display: inline-block;
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 4px;
+    letter-spacing: 0.11px;
+  }
+  .helperText-0-2-2 {
+    display: flex;
+    font-size: 12px;
+    margin-top: 4px;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    margin-bottom: 0;
+    letter-spacing: 0.4px;
+  }
+  .helperText-0-2-2 > i {  }
+  .label-d0-0-2-3 {
+    color: #777777;
+  }
+  .helperText-d1-0-2-4 {
+    color: #777777;
+  }
+  .helperText-d1-0-2-4 > i {  }",
+  <div>
+    <div>
+      <label
+        class="label-0-2-1 label-d0-0-2-3"
+        for="example to test"
+      >
+        *
+      </label>
+      <div
+        class="wrapper-0-2-5 wrapper-d0-0-2-9"
+      >
+        <input
+          class="input-0-2-7 input-d2-0-2-11"
+          data-testid="ds-input"
+          id="example to test"
+          type="text"
+          value=""
+        />
+        <div
+          class="action-0-2-13 action-d0-0-2-15"
+        >
+          <div
+            class="wrapper-0-2-18 wrapper-d0-0-2-23"
+            data-testid="ripple-wrapper"
+          >
+            <div
+              class="rippleContainer-0-2-20 rippleContainer-d2-0-2-25"
+            >
+              <div
+                class="ripple-0-2-19 ripple-d1-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="iconButtonContainer-0-2-16 iconButtonContainer-d0-0-2-17"
+              data-testid="input-action-icon"
+              type="button"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="any label"
+                class="icon-0-2-27 icon-d0-0-2-28 natds-icons natds-icons-filled-action-love"
+                data-testid="icon-filled-action-love"
+                role="button"
+              />
+            </button>
+          </div>
+        </div>
+      </div>
+      <p
+        class="helperText-0-2-2 helperText-d1-0-2-4"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`TextField component should render correctly when it has an image action 1`] = `
+Array [
+  ".wrapper-0-2-5 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-5:hover {}
+.wrapper-0-2-5:focus-within {
+  border: 2px solid;
+  border-color: #f4ab34;
+}
+.wrapper-0-2-5:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\"\\";
+  position: absolute;
+  pointer-events: none;
+  background-color: #bbbbbb;
+}
+.base-0-2-6 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.base-0-2-6:read-only {
+  pointer-events: none;
+}
+.base-0-2-6:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.base-0-2-6::placeholder {}
+.input-0-2-7 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.input-0-2-7:read-only {
+  pointer-events: none;
+}
+.input-0-2-7:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.input-0-2-7::placeholder {}
+.textArea-0-2-8 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-8:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-8:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.textArea-0-2-8::placeholder {}
+.wrapper-d0-0-2-9 {
+  border-color: #bbbbbb;
+  cursor: text;
+}
+.wrapper-d0-0-2-9:hover {
+  border-color: #777777;
+}
+.wrapper-d0-0-2-9:after {
+  opacity: 0;
+}
+.base-d1-0-2-10 {}
+.base-d1-0-2-10::placeholder {
+  color: #777777;
+}
+.input-d2-0-2-11 {
+  height: 56px;
+}
+.textArea-d3-0-2-12 {
+  resize: none;
+}
+.action-0-2-13 {}
+.actionImage-0-2-14 {
+  max-width: 64px;
+}
+.action-d0-0-2-15 {}
 .label-0-2-1 {
   display: inline-block;
   font-size: 14px;
@@ -1234,6 +1235,7 @@ Array [
           <img
             alt=""
             class="actionImage-0-2-14"
+            data-testid="input-action-image"
             src=""
           />
         </div>
