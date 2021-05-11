@@ -63,7 +63,10 @@ export const styles = createUseStyles((theme: Theme) => ({
     fontSize: 16,
     letterSpacing: 0.51,
     outline: 'none',
-    padding: theme.spacing.small,
+    paddingTop: theme.spacing.small,
+    paddingBottom: theme.spacing.small,
+    paddingLeft: theme.spacing.small,
+    paddingRight: ({ action }) => (action ? theme.spacing.tiny : theme.spacing.small),
     width: '100%',
     '&:read-only': {
       pointerEvents: 'none'
