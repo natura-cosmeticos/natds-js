@@ -31,11 +31,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -50,12 +52,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -70,11 +77,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -94,7 +106,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -186,11 +200,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -205,12 +221,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -225,11 +246,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -249,7 +275,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -341,11 +369,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -360,12 +390,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -380,11 +415,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -404,7 +444,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -496,11 +538,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -515,12 +559,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -535,11 +584,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -559,7 +613,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -661,11 +717,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -680,12 +738,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -700,11 +763,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -724,7 +792,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -924,11 +994,13 @@ Array [
     width: 100%;
     border: none;
     outline: none;
-    padding: 16px;
     font-size: 16px;
     background: none;
     font-family: Roboto, sans-serif;
+    padding-top: 16px;
+    padding-left: 16px;
     letter-spacing: 0.51px;
+    padding-bottom: 16px;
   }
   .base-0-2-6:read-only {
     pointer-events: none;
@@ -943,12 +1015,17 @@ Array [
     width: 100%;
     border: none;
     outline: none;
-    padding: 16px;
     font-size: 16px;
     background: none;
     box-sizing: border-box;
     font-family: Roboto, sans-serif;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
     letter-spacing: 0.51px;
+    padding-bottom: 16px;
   }
   .input-0-2-7:read-only {
     pointer-events: none;
@@ -963,11 +1040,16 @@ Array [
     width: 100%;
     border: none;
     outline: none;
-    padding: 16px;
     font-size: 16px;
     background: none;
     font-family: Roboto, sans-serif;
+    padding-top: 16px;
+    padding-left: 16px;
+    padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
     letter-spacing: 0.51px;
+    padding-bottom: 16px;
   }
   .textArea-0-2-8:read-only {
     pointer-events: none;
@@ -987,7 +1069,9 @@ Array [
   .wrapper-d0-0-2-9:after {
     opacity: 0;
   }
-  .base-d1-0-2-10 {  }
+  .base-d1-0-2-10 {
+    padding-right: 16px;
+  }
   .base-d1-0-2-10::placeholder {
     color: #777777;
   }
@@ -1113,11 +1197,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -1132,12 +1218,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -1152,11 +1243,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -1176,7 +1272,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -1285,11 +1383,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -1304,12 +1404,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -1324,11 +1429,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -1348,7 +1458,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -1447,11 +1559,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -1466,12 +1580,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -1486,11 +1605,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -1510,7 +1634,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -1601,11 +1727,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -1620,12 +1748,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -1640,11 +1773,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -1664,7 +1802,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -1756,11 +1896,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -1775,12 +1917,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -1795,11 +1942,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -1819,7 +1971,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
@@ -1909,11 +2063,13 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .base-0-2-6:read-only {
   pointer-events: none;
@@ -1928,12 +2084,17 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   box-sizing: border-box;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .input-0-2-7:read-only {
   pointer-events: none;
@@ -1948,11 +2109,16 @@ Array [
   width: 100%;
   border: none;
   outline: none;
-  padding: 16px;
   font-size: 16px;
   background: none;
   font-family: Roboto, sans-serif;
+  padding-top: 16px;
+  padding-left: 16px;
+  padding-right: ({
+      action
+    }) => action ? theme.spacing.tiny : theme.spacing.small;
   letter-spacing: 0.51px;
+  padding-bottom: 16px;
 }
 .textArea-0-2-8:read-only {
   pointer-events: none;
@@ -1972,7 +2138,9 @@ Array [
 .wrapper-d0-0-2-9:after {
   opacity: 0;
 }
-.base-d1-0-2-10 {}
+.base-d1-0-2-10 {
+  padding-right: 16px;
+}
 .base-d1-0-2-10::placeholder {
   color: #777777;
 }
