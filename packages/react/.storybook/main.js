@@ -9,8 +9,7 @@ module.exports = {
       name: '@storybook/addon-docs',
       options: { transcludeMarkdown: true },
     },
-    {
-      name: '@storybook/addon-essentials',
-    },
-  ],
-};
+    '@storybook/addon-essentials',
+    '@storybook/addon-a11y',
+  ]
+}
