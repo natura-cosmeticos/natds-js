@@ -51,6 +51,7 @@ export interface BaseProps {
   /**
    * If `true`, the label is displayed as required with a `*` character
    * and the `input` element is required.
+   * @default false
    */
   required?: boolean
   /**
