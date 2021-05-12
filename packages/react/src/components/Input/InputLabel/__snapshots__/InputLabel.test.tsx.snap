@@ -1,5 +1,28 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
+exports[`Input component should render correctly when is disabled 1`] = `
+Array [
+  ".label-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.label-d0-0-2-2 {
+  color: #bbbbbb;
+  display: inline-block;
+}",
+  <div>
+    <label
+      class="label-0-2-1 label-d0-0-2-2"
+      for="label"
+    >
+      some label
+    </label>
+  </div>,
+]
+`;
+
 exports[`Input component should render correctly when is required 1`] = `
 Array [
   ".label-0-2-1 {
