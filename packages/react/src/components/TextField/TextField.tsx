@@ -3,6 +3,7 @@
 /* eslint-disable max-len */
 import React from 'react'
 import { Feedback } from 'components/Input/Input.props'
+import { InputLabel } from '../Input/InputLabel'
 import { TextFieldProps } from './TextField.props'
 import { Icon } from '../Icon'
 import { Input } from '../Input'
@@ -39,10 +40,7 @@ const TextField = (props: TextFieldProps): JSX.Element => {
 
   return (
     <div data-testid={testID}>
-      <label className={classes.label} htmlFor={id}>
-        {label}
-        {required && '*'}
-      </label>
+      <InputLabel id={id} required={required} label={label} feedback={feedback} />
       <Input
         id={id}
         disabled={disabled}

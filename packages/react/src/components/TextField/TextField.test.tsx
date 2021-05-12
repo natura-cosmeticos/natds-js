@@ -18,6 +18,11 @@ describe('TextField component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+  it('should render correctly have a label', () => {
+    const { styles, component } = renderWithTheme(<TextField {...defaultProps} label="some label here" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
   it('should render correctly when size is medium', () => {
     const { styles, component } = renderWithTheme(<TextField {...defaultProps} size="medium" />)
 
