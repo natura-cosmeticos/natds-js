@@ -20,7 +20,7 @@ const styles = createUseStyles((theme: Theme) => ({
     color: getFeedbackTextColor(theme),
     display: ({ label }: InputLabelProps) => (label ? 'inline-block' : 'none'),
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
-    fontSize: 14,
+    fontSize: theme.subtitle2.fontSize,
     letterSpacing: 0.11,
     marginBottom: theme.spacing.micro
   }

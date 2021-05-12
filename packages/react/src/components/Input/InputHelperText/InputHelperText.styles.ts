@@ -5,7 +5,6 @@ import { InputHelperTextProps } from './InputHelperText.props'
 
 export const getFeedbackTextColor = (theme: Theme) => ({ feedback, disabled }: InputHelperTextProps) => {
   const defaultColor = disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis
-
   switch (feedback) {
     case 'error':
       return theme.color.alert
@@ -22,7 +21,7 @@ const styles = createUseStyles((theme: Theme) => ({
     color: getFeedbackTextColor(theme),
     display: 'flex',
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
-    fontSize: 12,
+    fontSize: theme.caption.fontSize,
     letterSpacing: 0.4,
     marginTop: theme.spacing.micro,
     marginBottom: 0,
