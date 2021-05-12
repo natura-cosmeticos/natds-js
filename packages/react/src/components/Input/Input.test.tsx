@@ -7,7 +7,7 @@ const defaultProps: InputProps = {
   onBlur: () => '',
   onChange: () => '',
   onFocus: () => '',
-  id: 'example to test'
+  id: 'example_to_test'
 }
 
 describe('Input component', () => {
