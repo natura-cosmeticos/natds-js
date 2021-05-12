@@ -82,7 +82,7 @@ export interface BaseProps {
 
 export type InputActionIcon = BaseProps & ({
   /**
-   * If `icon`, will display an Icon Button to the right of Input
+   * If `icon`, will display an iconButton inside the input, on the left
    */
   action: 'icon'
   /**
@@ -103,7 +103,7 @@ export type InputActionIcon = BaseProps & ({
 
 export type InputActionImage = BaseProps & ({
   /**
-   * If `image`, will display an image to the right of Input
+   * If `image`, will display an image inside the input, on the left
    */
   action: 'image'
   /**
