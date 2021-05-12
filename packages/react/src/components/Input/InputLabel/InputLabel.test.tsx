@@ -1,7 +1,7 @@
 import React from 'react'
 import renderWithTheme from '../../../helpers/renderWithTheme'
 import InputLabel from '.'
-import { InputLabelProps } from './InputLabel'
+import { InputLabelProps } from './InputLabel.props'
 
 const defaultProps: InputLabelProps = {
   id: 'label',

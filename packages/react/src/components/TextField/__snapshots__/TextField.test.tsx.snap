@@ -2,17 +2,7 @@
 
 exports[`TextField component should render correctly have a label 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: inline-block;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -21,12 +11,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -36,7 +26,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -47,14 +37,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -66,15 +56,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -85,44 +75,47 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: inline-block;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -131,27 +124,24 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-11 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       >
         some label here
       </label>
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
@@ -159,7 +149,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       />
     </div>
   </div>,
@@ -168,17 +158,7 @@ Array [
 
 exports[`TextField component should render correctly when is disabled 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -187,12 +167,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -202,7 +182,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -213,14 +193,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -232,15 +212,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -251,44 +231,47 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -297,25 +280,22 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-11 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
@@ -323,7 +303,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       />
     </div>
   </div>,
@@ -332,17 +312,7 @@ Array [
 
 exports[`TextField component should render correctly when is read only 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -351,12 +321,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -366,7 +336,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -377,14 +347,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -396,15 +366,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -415,44 +385,47 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -461,25 +434,22 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-11 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
@@ -487,7 +457,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       />
     </div>
   </div>,
@@ -496,17 +466,7 @@ Array [
 
 exports[`TextField component should render correctly when is required 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -515,12 +475,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -530,7 +490,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -541,14 +501,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -560,15 +520,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -579,44 +539,47 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -625,25 +588,22 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-11 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
@@ -651,7 +611,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       />
     </div>
   </div>,
@@ -660,17 +620,7 @@ Array [
 
 exports[`TextField component should render correctly when it has a helper text 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -679,12 +629,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -694,7 +644,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -705,14 +655,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -724,15 +674,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -743,44 +693,47 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -789,25 +742,22 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-11 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
@@ -815,7 +765,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       >
         any helper text here
       </p>
@@ -826,25 +776,7 @@ Array [
 
 exports[`TextField component should render correctly when it has an error feedback 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #e74627;
-  display: none;
-}
-.icon-0-2-14 {
-  font-family: natds-icons;
-  user-select: none;
-}
-.icon-d0-0-2-15 {
-  color: #e74627;
-  font-size: 16px;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -853,12 +785,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -868,7 +800,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -879,14 +811,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -898,15 +830,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -917,44 +849,55 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #e74627;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #e74627;
+  font-size: 16px;
+}
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #e74627;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -963,27 +906,24 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #e74627;
 }
-.helperText-d1-0-2-4 {
-  color: #e74627;
-}
-.helperText-d1-0-2-4 > i {
+.helperText-d0-0-2-11 > i {
   margin-right: 4px;
 }",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
@@ -991,11 +931,11 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       >
         <i
           aria-hidden="true"
-          class="icon-0-2-14 icon-d0-0-2-15 natds-icons natds-icons-outlined-action-cancel"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-action-cancel"
           data-testid="icon-outlined-action-cancel"
           role="img"
         />
@@ -1007,25 +947,7 @@ Array [
 
 exports[`TextField component should render correctly when it has an icon button action 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.icon-0-2-28 {
-  font-family: natds-icons;
-  user-select: none;
-}
-.icon-d0-0-2-29 {
-  color: #333333;
-  font-size: 24px;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -1034,12 +956,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1049,7 +971,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1060,14 +982,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1079,15 +1001,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1098,39 +1020,39 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
   padding-right: 8px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   padding-right: 8px;
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.iconButtonContainer-0-2-17 {
+.iconButtonContainer-0-2-13 {
   border: none;
   cursor: pointer;
   display: inline-flex;
@@ -1141,7 +1063,7 @@ Array [
   border-radius: 50%;
   justify-content: center;
 }
-.iconButtonContainer-0-2-17:after {
+.iconButtonContainer-0-2-13:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1151,42 +1073,50 @@ Array [
   position: absolute;
   background-color: #000000;
 }
-.iconButtonContainer-0-2-17:hover:not([disabled]):after {
+.iconButtonContainer-0-2-13:hover:not([disabled]):after {
   opacity: 0.04;
 }
-.iconButtonContainer-0-2-17:focus:not([disabled]):after {
+.iconButtonContainer-0-2-13:focus:not([disabled]):after {
   opacity: 0.12;
 }
-.iconButtonContainer-0-2-17:disabled {
+.iconButtonContainer-0-2-13:disabled {
   cursor: default;
 }
-.iconButtonContainer-d0-0-2-18 {
+.iconButtonContainer-d0-0-2-14 {
   background-color: transparent;
   height: 32px;
   width: 32px;
 }
-.wrapper-0-2-19 {
+.icon-0-2-24 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-25 {
+  color: #333333;
+  font-size: 24px;
+}
+.wrapper-0-2-15 {
   cursor: pointer;
   position: relative;
   align-self: start;
 }
-.ripple-0-2-20 {
+.ripple-0-2-16 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-21 {
+.rippleContainer-0-2-17 {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   position: absolute;
 }
-.rippleActive-0-2-22 {
+.rippleActive-0-2-18 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-23 {
+@keyframes keyframes-ripple-0-2-19 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1199,10 +1129,10 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-24 {
+  .wrapper-d0-0-2-20 {
     display: inline-block;
   }
-  .ripple-d1-0-2-25 {
+  .ripple-d1-0-2-21 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1210,27 +1140,30 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-26 {
+  .rippleContainer-d2-0-2-22 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-27 {
-    animation: keyframes-ripple-0-2-23 300ms;
+  .rippleActive-d3-0-2-23 {
+    animation: keyframes-ripple-0-2-19 300ms;
   }
-  .action-0-2-14 {  }
-  .actionImage-0-2-15 {
+  .action-0-2-10 {  }
+  .actionImage-0-2-11 {
     max-width: 64px;
   }
-  .action-d0-0-2-16 {
+  .action-d0-0-2-12 {
     margin-right: 8px;
   }
   .label-0-2-1 {
-    display: inline-block;
     font-size: 14px;
     font-family: Roboto, sans-serif;
     margin-bottom: 4px;
     letter-spacing: 0.11px;
   }
-  .helperText-0-2-2 {
+  .label-d0-0-2-2 {
+    color: #777777;
+    display: none;
+  }
+  .helperText-0-2-26 {
     display: flex;
     font-size: 12px;
     margin-top: 4px;
@@ -1239,54 +1172,51 @@ Array [
     margin-bottom: 0;
     letter-spacing: 0.4px;
   }
-  .helperText-0-2-2 > i {  }
-  .label-d0-0-2-3 {
+  .helperText-0-2-26 > i {  }
+  .helperText-d0-0-2-27 {
     color: #777777;
   }
-  .helperText-d1-0-2-4 {
-    color: #777777;
-  }
-  .helperText-d1-0-2-4 > i {  }",
+  .helperText-d0-0-2-27 > i {  }",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
           value=""
         />
         <div
-          class="action-0-2-14 action-d0-0-2-16"
+          class="action-0-2-10 action-d0-0-2-12"
         >
           <div
-            class="wrapper-0-2-19 wrapper-d0-0-2-24"
+            class="wrapper-0-2-15 wrapper-d0-0-2-20"
             data-testid="ripple-wrapper"
           >
             <div
-              class="rippleContainer-0-2-21 rippleContainer-d2-0-2-26"
+              class="rippleContainer-0-2-17 rippleContainer-d2-0-2-22"
             >
               <div
-                class="ripple-0-2-20 ripple-d1-0-2-25 "
+                class="ripple-0-2-16 ripple-d1-0-2-21 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
-              class="iconButtonContainer-0-2-17 iconButtonContainer-d0-0-2-18"
+              class="iconButtonContainer-0-2-13 iconButtonContainer-d0-0-2-14"
               data-testid="ds-input-action-icon"
               type="button"
             >
               <i
                 aria-hidden="false"
                 arial-label="any label"
-                class="icon-0-2-28 icon-d0-0-2-29 natds-icons natds-icons-filled-action-love"
+                class="icon-0-2-24 icon-d0-0-2-25 natds-icons natds-icons-filled-action-love"
                 data-testid="icon-filled-action-love"
                 role="button"
               />
@@ -1295,7 +1225,7 @@ Array [
         </div>
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-26 helperText-d0-0-2-27"
       />
     </div>
   </div>,
@@ -1304,17 +1234,7 @@ Array [
 
 exports[`TextField component should render correctly when it has an image action 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -1323,12 +1243,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1338,7 +1258,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1349,14 +1269,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1368,15 +1288,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1387,51 +1307,54 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
   padding-right: 8px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   padding-right: 8px;
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.action-0-2-14 {}
-.actionImage-0-2-15 {
+.action-0-2-10 {}
+.actionImage-0-2-11 {
   max-width: 64px;
 }
-.action-d0-0-2-16 {}
+.action-d0-0-2-12 {}
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: none;
+}
+.helperText-0-2-13 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -1440,43 +1363,40 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-13 > i {}
+.helperText-d0-0-2-14 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-14 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
           value=""
         />
         <div
-          class="action-0-2-14 action-d0-0-2-16"
+          class="action-0-2-10 action-d0-0-2-12"
         >
           <img
             alt=""
-            class="actionImage-0-2-15"
+            class="actionImage-0-2-11"
             data-testid="ds-input-action-image"
             src=""
           />
         </div>
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-13 helperText-d0-0-2-14"
       />
     </div>
   </div>,
@@ -1485,25 +1405,7 @@ Array [
 
 exports[`TextField component should render correctly when it has an success feedback 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #569a32;
-  display: none;
-}
-.icon-0-2-14 {
-  font-family: natds-icons;
-  user-select: none;
-}
-.icon-d0-0-2-15 {
-  color: #569a32;
-  font-size: 16px;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -1512,12 +1414,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1527,7 +1429,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1538,14 +1440,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1557,15 +1459,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1576,44 +1478,55 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #569a32;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #569a32;
+  font-size: 16px;
+}
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #569a32;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -1622,27 +1535,24 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #569a32;
 }
-.helperText-d1-0-2-4 {
-  color: #569a32;
-}
-.helperText-d1-0-2-4 > i {
+.helperText-d0-0-2-11 > i {
   margin-right: 4px;
 }",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
@@ -1650,11 +1560,11 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       >
         <i
           aria-hidden="true"
-          class="icon-0-2-14 icon-d0-0-2-15 natds-icons natds-icons-outlined-action-check"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-action-check"
           data-testid="icon-outlined-action-check"
           role="img"
         />
@@ -1666,17 +1576,7 @@ Array [
 
 exports[`TextField component should render correctly when it has multiline type 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -1685,12 +1585,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1700,7 +1600,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1711,14 +1611,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1730,15 +1630,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1749,44 +1649,47 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -1795,32 +1698,29 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-11 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <textarea
-          class="textArea-0-2-10 textArea-d2-0-2-13"
+          class="textArea-0-2-6 textArea-d2-0-2-9"
           data-testid="ds-input-multiline"
           id="example to test"
           rows="3"
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       />
     </div>
   </div>,
@@ -1829,17 +1729,7 @@ Array [
 
 exports[`TextField component should render correctly when it has password type 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -1848,12 +1738,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1863,7 +1753,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1874,14 +1764,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1893,15 +1783,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -1912,44 +1802,47 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -1958,25 +1851,22 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-11 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="password"
@@ -1984,7 +1874,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       />
     </div>
   </div>,
@@ -1993,17 +1883,7 @@ Array [
 
 exports[`TextField component should render correctly when size is medium 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -2012,12 +1892,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -2027,7 +1907,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2038,14 +1918,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2057,15 +1937,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2076,44 +1956,47 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 48px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -2122,25 +2005,22 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-11 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
@@ -2148,7 +2028,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       />
     </div>
   </div>,
@@ -2157,17 +2037,7 @@ Array [
 
 exports[`TextField component should render correctly with default props 1`] = `
 Array [
-  ".label-0-2-5 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-6 {
-  color: #777777;
-  display: none;
-}
-.wrapper-0-2-7 {
+  ".wrapper-0-2-3 {
   border: 1px solid;
   display: flex;
   position: relative;
@@ -2176,12 +2046,12 @@ Array [
   justify-content: space-between;
   background-color: #ffffff;
 }
-.wrapper-0-2-7:hover {}
-.wrapper-0-2-7:focus-within {
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
   border: 2px solid;
   border-color: #f4ab34;
 }
-.wrapper-0-2-7:after {
+.wrapper-0-2-3:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -2191,7 +2061,7 @@ Array [
   pointer-events: none;
   background-color: #bbbbbb;
 }
-.base-0-2-8 {
+.base-0-2-4 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2202,14 +2072,14 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.base-0-2-8:read-only {
+.base-0-2-4:read-only {
   pointer-events: none;
 }
-.base-0-2-8:disabled {
+.base-0-2-4:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9 {
+.input-0-2-5 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2221,15 +2091,15 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.input-0-2-9:read-only {
+.input-0-2-5:read-only {
   pointer-events: none;
 }
-.input-0-2-9:disabled {
+.input-0-2-5:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.input-0-2-9::placeholder {}
-.textArea-0-2-10 {
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
   color: #333333;
   width: 100%;
   border: none;
@@ -2240,44 +2110,47 @@ Array [
   font-family: Roboto, sans-serif;
   letter-spacing: 0.51px;
 }
-.textArea-0-2-10:read-only {
+.textArea-0-2-6:read-only {
   pointer-events: none;
 }
-.textArea-0-2-10:disabled {
+.textArea-0-2-6:disabled {
   color: #bbbbbb;
   cursor: default;
 }
-.textArea-0-2-10::placeholder {}
-.wrapper-d0-0-2-11 {
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
   border-color: #bbbbbb;
   cursor: text;
 }
-.wrapper-d0-0-2-11:hover {
+.wrapper-d0-0-2-7:hover {
   border-color: #777777;
 }
-.wrapper-d0-0-2-11:after {
+.wrapper-d0-0-2-7:after {
   opacity: 0;
 }
-.input-d1-0-2-12 {
+.input-d1-0-2-8 {
   height: 56px;
 }
-.input-d1-0-2-12::placeholder {
+.input-d1-0-2-8::placeholder {
   color: #777777;
 }
-.textArea-d2-0-2-13 {
+.textArea-d2-0-2-9 {
   resize: none;
 }
-.textArea-d2-0-2-13::placeholder {
+.textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
 .label-0-2-1 {
-  display: inline-block;
   font-size: 14px;
   font-family: Roboto, sans-serif;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.helperText-0-2-2 {
+.label-d0-0-2-2 {
+  color: #777777;
+  display: none;
+}
+.helperText-0-2-10 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -2286,25 +2159,22 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-2 > i {}
-.label-d0-0-2-3 {
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
   color: #777777;
 }
-.helperText-d1-0-2-4 {
-  color: #777777;
-}
-.helperText-d1-0-2-4 > i {}",
+.helperText-d0-0-2-11 > i {}",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-1 label-d0-0-2-2"
         for="example to test"
       />
       <div
-        class="wrapper-0-2-7 wrapper-d0-0-2-11"
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-9 input-d1-0-2-12"
+          class="input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example to test"
           type="text"
@@ -2312,7 +2182,7 @@ Array [
         />
       </div>
       <p
-        class="helperText-0-2-2 helperText-d1-0-2-4"
+        class="helperText-0-2-10 helperText-d0-0-2-11"
       />
     </div>
   </div>,

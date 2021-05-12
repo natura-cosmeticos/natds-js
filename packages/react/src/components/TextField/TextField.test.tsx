@@ -1,7 +1,7 @@
 /* eslint-disable max-lines-per-function */
 import React from 'react'
 import userEvent from '@testing-library/user-event'
-import TextField, { getIconColor, getIconName } from './TextField'
+import TextField from './TextField'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import { TextFieldProps } from './TextField.props'
 
@@ -102,22 +102,5 @@ describe('TextField component', () => {
     userEvent.type(component.getByRole('textbox'), 'Hello World')
     userEvent.tab()
     expect(onBlurMock).toHaveBeenCalled()
-  })
-})
-describe('getIconName', () => {
-  it('should return outlined-action-check when receive feedback success', () => {
-    expect(getIconName('success')).toBe('outlined-action-check')
-  })
-  it('should return outlined-action-cancel when receive feedback error', () => {
-    expect(getIconName('error')).toBe('outlined-action-cancel')
-  })
-})
-
-describe('getIconColor', () => {
-  it('should return `success` when receive feedback success', () => {
-    expect(getIconColor('success')).toBe('success')
-  })
-  it('should return `alert` when receive feedback error', () => {
-    expect(getIconColor('error')).toBe('alert')
   })
 })

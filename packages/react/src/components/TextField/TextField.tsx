@@ -1,16 +1,8 @@
-/* eslint-disable react/destructuring-assignment */
-/* eslint-disable max-lines-per-function */
-/* eslint-disable max-len */
 import React from 'react'
-import { Feedback } from 'components/Input/Input.props'
-import { InputLabel } from '../Input/InputLabel'
-import { TextFieldProps } from './TextField.props'
-import { Icon } from '../Icon'
 import { Input } from '../Input'
-import styles from './TextField.styles'
-
-export const getIconName = (feedback: Feedback) => (feedback === 'success' ? 'outlined-action-check' : 'outlined-action-cancel')
-export const getIconColor = (feedback: Feedback) => (feedback === 'success' ? 'success' : 'alert')
+import { InputLabel } from '../Input/InputLabel'
+import { InputHelperText } from '../Input/InputHelperText'
+import { TextFieldProps } from './TextField.props'
 
 const TextField = (props: TextFieldProps): JSX.Element => {
   const {
@@ -34,10 +26,6 @@ const TextField = (props: TextFieldProps): JSX.Element => {
     ...rest
   } = props
 
-  const classes = styles({
-    disabled, feedback, readOnly, size
-  })
-
   return (
     <div data-testid={testID}>
       <InputLabel id={id} required={required} label={label} feedback={feedback} />
@@ -57,10 +45,7 @@ const TextField = (props: TextFieldProps): JSX.Element => {
         feedback={feedback}
         {...rest}
       />
-      <p className={classes.helperText}>
-        {feedback && <Icon name={getIconName(feedback)} color={getIconColor(feedback)} size="small" />}
-        {helperText}
-      </p>
+      <InputHelperText disabled={disabled} feedback={feedback} helperText={helperText} />
     </div>
   )
 }
