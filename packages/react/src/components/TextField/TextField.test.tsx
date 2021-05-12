@@ -9,7 +9,7 @@ const defaultProps: TextFieldProps = {
   onBlur: () => '',
   onChange: () => '',
   onFocus: () => '',
-  id: 'example to test'
+  id: 'example_to_test'
 }
 
 describe('TextField component', () => {
@@ -84,6 +84,7 @@ describe('TextField component', () => {
     const onChangeMock = jest.fn()
     const { component } = renderWithTheme(<TextField {...defaultProps} onChange={onChangeMock} />)
 
+    userEvent.click(component.getByRole('textbox'))
     userEvent.type(component.getByRole('textbox'), 'Hello World')
     expect(onChangeMock).toHaveBeenCalledTimes(11)
   })
@@ -91,7 +92,7 @@ describe('TextField component', () => {
     const onFocusMock = jest.fn()
     const { component } = renderWithTheme(<TextField {...defaultProps} onFocus={onFocusMock} />)
 
-    userEvent.type(component.getByRole('textbox'), 'Hello World')
+    userEvent.click(component.getByRole('textbox'))
     expect(component.getByRole('textbox')).toHaveFocus()
     expect(onFocusMock).toHaveBeenCalled()
   })
@@ -99,7 +100,7 @@ describe('TextField component', () => {
     const onBlurMock = jest.fn()
     const { component } = renderWithTheme(<TextField {...defaultProps} onBlur={onBlurMock} />)
 
-    userEvent.type(component.getByRole('textbox'), 'Hello World')
+    userEvent.click(component.getByRole('textbox'))
     userEvent.tab()
     expect(onBlurMock).toHaveBeenCalled()
   })
