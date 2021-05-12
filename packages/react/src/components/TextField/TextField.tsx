@@ -28,7 +28,13 @@ const TextField = (props: TextFieldProps): JSX.Element => {
 
   return (
     <div data-testid={testID}>
-      <InputLabel id={id} required={required} label={label} feedback={feedback} />
+      <InputLabel
+        id={id}
+        required={required}
+        label={label}
+        feedback={feedback}
+        disabled={disabled}
+      />
       <Input
         id={id}
         disabled={disabled}

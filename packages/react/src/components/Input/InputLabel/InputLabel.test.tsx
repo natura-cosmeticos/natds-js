@@ -20,6 +20,11 @@ describe('Input component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+  it('should render correctly when is disabled', () => {
+    const { styles, component } = renderWithTheme(<InputLabel {...defaultProps} disabled />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
   it('should render correctly when there is an error feedback', () => {
     const { styles, component } = renderWithTheme(<InputLabel {...defaultProps} feedback="error" />)
 
