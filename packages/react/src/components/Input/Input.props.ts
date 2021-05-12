@@ -20,6 +20,10 @@ export interface BaseProps {
    */
   id: string
   /**
+   * If filled, will appear above the field.
+   */
+  label?: string
+  /**
    * Minimum number of rows to display when input type option is set to multiline.
    * @default 3
    */
@@ -40,6 +44,11 @@ export interface BaseProps {
    * The short hint displayed in the `input` before the user enters a value.
    */
   placeholder?: string,
+  /**
+   * If `true`, the label is displayed as required with a `*` character
+   * and the `input` element is required.
+   */
+  required?: boolean
   /**
    * If `true`, the user cannot change the value of the field
    * @default false
@@ -103,5 +112,5 @@ export type InputActionImage = BaseProps & ({
 })
 
 export type InputProps = BaseProps & { action?: never }
-| InputActionIcon
-| InputActionImage
+  | InputActionIcon
+  | InputActionImage
