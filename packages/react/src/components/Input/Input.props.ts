@@ -20,6 +20,10 @@ export interface BaseProps {
    */
   id: string
   /**
+   * The helper text content.
+   */
+  helperText?: string
+  /**
    * If filled, will appear above the field.
    */
   label?: string

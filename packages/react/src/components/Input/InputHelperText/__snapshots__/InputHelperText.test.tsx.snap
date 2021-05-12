@@ -1,0 +1,111 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`InputHelperText component should render correctly with helper text 1`] = `
+Array [
+  ".helperText-0-2-1 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+.helperText-0-2-1 > i {}
+.helperText-d0-0-2-2 {
+  color: #777777;
+}
+.helperText-d0-0-2-2 > i {}",
+  <div>
+    <p
+      class="helperText-0-2-1 helperText-d0-0-2-2"
+    >
+      some helper text
+    </p>
+  </div>,
+]
+`;
+
+exports[`InputHelperText component should render correctly with helper text and feedback error 1`] = `
+Array [
+  ".helperText-0-2-1 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+.helperText-0-2-1 > i {}
+.helperText-d0-0-2-2 {
+  color: #e74627;
+}
+.helperText-d0-0-2-2 > i {
+  margin-right: 4px;
+}
+.icon-0-2-3 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-4 {
+  color: #e74627;
+  font-size: 16px;
+}",
+  <div>
+    <p
+      class="helperText-0-2-1 helperText-d0-0-2-2"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-0-2-3 icon-d0-0-2-4 natds-icons natds-icons-outlined-action-cancel"
+        data-testid="icon-outlined-action-cancel"
+        role="img"
+      />
+      some helper text
+    </p>
+  </div>,
+]
+`;
+
+exports[`InputHelperText component should render correctly with helper text and feedback success 1`] = `
+Array [
+  ".helperText-0-2-1 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+.helperText-0-2-1 > i {}
+.helperText-d0-0-2-2 {
+  color: #569a32;
+}
+.helperText-d0-0-2-2 > i {
+  margin-right: 4px;
+}
+.icon-0-2-3 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-4 {
+  color: #569a32;
+  font-size: 16px;
+}",
+  <div>
+    <p
+      class="helperText-0-2-1 helperText-d0-0-2-2"
+    >
+      <i
+        aria-hidden="true"
+        class="icon-0-2-3 icon-d0-0-2-4 natds-icons natds-icons-outlined-action-check"
+        data-testid="icon-outlined-action-check"
+        role="img"
+      />
+      some helper text
+    </p>
+  </div>,
+]
+`;
