@@ -5,7 +5,7 @@ import { InputProps } from '../Input.props'
 type InputActionStyleProps = Required<Pick<InputProps, 'action'>>
 
 const styles = createUseStyles((theme: Theme) => ({
-  action: {
+  container: {
     marginRight: ({ action }: InputActionStyleProps) => action === 'icon' && theme.spacing.tiny
   },
   actionImage: {

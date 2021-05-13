@@ -137,6 +137,6 @@ export const ActionImage: Story<TextFieldProps> = (args) => (
 ActionImage.args = {
   ...Playground.args,
   action: 'image',
-  src: 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-react@2.0.0-alpha.DSY-1963.53.0/dist/assets/mastercard@2x.png',
-  alt: 'mastercard logo'
+  src: '/img_placeholder.svg',
+  alt: 'image placeholder example'
 }
