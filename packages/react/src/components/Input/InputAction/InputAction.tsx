@@ -11,7 +11,7 @@ const InputAction = (props: InputProps): JSX.Element => {
   const classes = styles(props)
 
   return (
-    <div className={classes.action}>
+    <div className={classes.container}>
       {
         isIconAction(props)
         && (

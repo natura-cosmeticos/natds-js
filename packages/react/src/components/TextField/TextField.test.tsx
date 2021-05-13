@@ -18,7 +18,7 @@ describe('TextField component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-  it('should render correctly have a label', () => {
+  it('should render correctly when have a label', () => {
     const { styles, component } = renderWithTheme(<TextField {...defaultProps} label="some label here" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
@@ -33,7 +33,7 @@ describe('TextField component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-  it('should render correctly when it has an success feedback', () => {
+  it('should render correctly when it has a success feedback', () => {
     const { styles, component } = renderWithTheme(<TextField {...defaultProps} feedback="success" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()

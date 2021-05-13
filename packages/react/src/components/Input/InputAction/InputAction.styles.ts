@@ -2,10 +2,12 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { InputProps } from '../Input.props'
 
-type InputActionStyleProps = Required<Pick<InputProps, 'action'>>
+type InputActionStyleProps = Required<Pick<InputProps, 'action' | 'size'>>
 
 const styles = createUseStyles((theme: Theme) => ({
-  action: {
+  container: {
+    display: 'flex',
+    maxHeight: ({ size }: InputActionStyleProps) => theme.size[size],
     marginRight: ({ action }: InputActionStyleProps) => action === 'icon' && theme.spacing.tiny
   },
   actionImage: {

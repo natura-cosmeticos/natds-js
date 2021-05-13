@@ -96,16 +96,18 @@ Array [
   .rippleActive-d3-0-2-14 {
     animation: keyframes-ripple-0-2-10 300ms;
   }
-  .action-0-2-1 {  }
+  .container-0-2-1 {
+    display: flex;
+  }
   .actionImage-0-2-2 {
     max-width: 64px;
   }
-  .action-d0-0-2-3 {
+  .container-d0-0-2-3 {
     margin-right: 8px;
   }",
   <div>
     <div
-      class="action-0-2-1 action-d0-0-2-3"
+      class="container-0-2-1 container-d0-0-2-3"
     >
       <div
         class="wrapper-0-2-6 wrapper-d0-0-2-11"
@@ -140,14 +142,16 @@ Array [
 
 exports[`InputAction component should render correctly when type is multiline 1`] = `
 Array [
-  ".action-0-2-1 {}
+  ".container-0-2-1 {
+  display: flex;
+}
 .actionImage-0-2-2 {
   max-width: 64px;
 }
-.action-d0-0-2-3 {}",
+.container-d0-0-2-3 {}",
   <div>
     <div
-      class="action-0-2-1 action-d0-0-2-3"
+      class="container-0-2-1 container-d0-0-2-3"
     >
       <img
         alt=""

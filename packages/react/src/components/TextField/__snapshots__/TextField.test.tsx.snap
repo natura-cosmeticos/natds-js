@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`TextField component should render correctly have a label 1`] = `
+exports[`TextField component should render correctly when have a label 1`] = `
 Array [
   ".wrapper-0-2-3 {
   border: 1px solid;
@@ -774,6 +774,177 @@ Array [
 ]
 `;
 
+exports[`TextField component should render correctly when it has a success feedback 1`] = `
+Array [
+  ".wrapper-0-2-3 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-3:hover {}
+.wrapper-0-2-3:focus-within {
+  border: 2px solid;
+  border-color: #f4ab34;
+}
+.wrapper-0-2-3:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\"\\";
+  position: absolute;
+  pointer-events: none;
+  background-color: #bbbbbb;
+}
+.base-0-2-4 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.base-0-2-4:read-only {
+  pointer-events: none;
+}
+.base-0-2-4:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.input-0-2-5 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.input-0-2-5:read-only {
+  pointer-events: none;
+}
+.input-0-2-5:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.input-0-2-5::placeholder {}
+.textArea-0-2-6 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-6:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-6:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.textArea-0-2-6::placeholder {}
+.wrapper-d0-0-2-7 {
+  border-color: #569a32;
+  cursor: text;
+}
+.wrapper-d0-0-2-7:hover {
+  border-color: #777777;
+}
+.wrapper-d0-0-2-7:after {
+  opacity: 0;
+}
+.input-d1-0-2-8 {
+  height: 56px;
+}
+.input-d1-0-2-8::placeholder {
+  color: #777777;
+}
+.textArea-d2-0-2-9 {
+  resize: none;
+}
+.textArea-d2-0-2-9::placeholder {
+  color: #777777;
+}
+.icon-0-2-12 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-13 {
+  color: #569a32;
+  font-size: 16px;
+}
+.label-0-2-1 {
+  font-size: 14px;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 4px;
+  letter-spacing: 0.11px;
+}
+.label-d0-0-2-2 {
+  color: #569a32;
+  display: none;
+}
+.helperText-0-2-10 {
+  display: flex;
+  font-size: 12px;
+  margin-top: 4px;
+  align-items: center;
+  font-family: Roboto, sans-serif;
+  margin-bottom: 0;
+  letter-spacing: 0.4px;
+}
+.helperText-0-2-10 > i {}
+.helperText-d0-0-2-11 {
+  color: #569a32;
+}
+.helperText-d0-0-2-11 > i {
+  margin-right: 4px;
+}",
+  <div>
+    <div>
+      <label
+        class="label-0-2-1 label-d0-0-2-2"
+        for="example_to_test"
+      />
+      <div
+        class="wrapper-0-2-3 wrapper-d0-0-2-7"
+      >
+        <input
+          class="input-0-2-5 input-d1-0-2-8"
+          data-testid="ds-input"
+          id="example_to_test"
+          type="text"
+          value=""
+        />
+      </div>
+      <p
+        class="helperText-0-2-10 helperText-d0-0-2-11"
+      >
+        <i
+          aria-hidden="true"
+          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-action-check"
+          data-testid="icon-outlined-action-check"
+          role="img"
+        />
+      </p>
+    </div>
+  </div>,
+]
+`;
+
 exports[`TextField component should render correctly when it has an error feedback 1`] = `
 Array [
   ".wrapper-0-2-3 {
@@ -1146,11 +1317,14 @@ Array [
   .rippleActive-d3-0-2-23 {
     animation: keyframes-ripple-0-2-19 300ms;
   }
-  .action-0-2-10 {  }
+  .container-0-2-10 {
+    display: flex;
+  }
   .actionImage-0-2-11 {
     max-width: 64px;
   }
-  .action-d0-0-2-12 {
+  .container-d0-0-2-12 {
+    max-height: 56px;
     margin-right: 8px;
   }
   .label-0-2-1 {
@@ -1194,7 +1368,7 @@ Array [
           value=""
         />
         <div
-          class="action-0-2-10 action-d0-0-2-12"
+          class="container-0-2-10 container-d0-0-2-12"
         >
           <div
             class="wrapper-0-2-15 wrapper-d0-0-2-20"
@@ -1339,11 +1513,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.action-0-2-10 {}
+.container-0-2-10 {
+  display: flex;
+}
 .actionImage-0-2-11 {
   max-width: 64px;
 }
-.action-d0-0-2-12 {}
+.container-d0-0-2-12 {
+  max-height: 56px;
+}
 .label-0-2-1 {
   font-size: 14px;
   font-family: Roboto, sans-serif;
@@ -1385,7 +1563,7 @@ Array [
           value=""
         />
         <div
-          class="action-0-2-10 action-d0-0-2-12"
+          class="container-0-2-10 container-d0-0-2-12"
         >
           <img
             alt=""
@@ -1398,177 +1576,6 @@ Array [
       <p
         class="helperText-0-2-13 helperText-d0-0-2-14"
       />
-    </div>
-  </div>,
-]
-`;
-
-exports[`TextField component should render correctly when it has an success feedback 1`] = `
-Array [
-  ".wrapper-0-2-3 {
-  border: 1px solid;
-  display: flex;
-  position: relative;
-  align-items: center;
-  border-radius: 4px;
-  justify-content: space-between;
-  background-color: #ffffff;
-}
-.wrapper-0-2-3:hover {}
-.wrapper-0-2-3:focus-within {
-  border: 2px solid;
-  border-color: #f4ab34;
-}
-.wrapper-0-2-3:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\"\\";
-  position: absolute;
-  pointer-events: none;
-  background-color: #bbbbbb;
-}
-.base-0-2-4 {
-  color: #333333;
-  width: 100%;
-  border: none;
-  outline: none;
-  padding: 16px;
-  font-size: 16px;
-  background: none;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.51px;
-}
-.base-0-2-4:read-only {
-  pointer-events: none;
-}
-.base-0-2-4:disabled {
-  color: #bbbbbb;
-  cursor: default;
-}
-.input-0-2-5 {
-  color: #333333;
-  width: 100%;
-  border: none;
-  outline: none;
-  padding: 16px;
-  font-size: 16px;
-  background: none;
-  box-sizing: border-box;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.51px;
-}
-.input-0-2-5:read-only {
-  pointer-events: none;
-}
-.input-0-2-5:disabled {
-  color: #bbbbbb;
-  cursor: default;
-}
-.input-0-2-5::placeholder {}
-.textArea-0-2-6 {
-  color: #333333;
-  width: 100%;
-  border: none;
-  outline: none;
-  padding: 16px;
-  font-size: 16px;
-  background: none;
-  font-family: Roboto, sans-serif;
-  letter-spacing: 0.51px;
-}
-.textArea-0-2-6:read-only {
-  pointer-events: none;
-}
-.textArea-0-2-6:disabled {
-  color: #bbbbbb;
-  cursor: default;
-}
-.textArea-0-2-6::placeholder {}
-.wrapper-d0-0-2-7 {
-  border-color: #569a32;
-  cursor: text;
-}
-.wrapper-d0-0-2-7:hover {
-  border-color: #777777;
-}
-.wrapper-d0-0-2-7:after {
-  opacity: 0;
-}
-.input-d1-0-2-8 {
-  height: 56px;
-}
-.input-d1-0-2-8::placeholder {
-  color: #777777;
-}
-.textArea-d2-0-2-9 {
-  resize: none;
-}
-.textArea-d2-0-2-9::placeholder {
-  color: #777777;
-}
-.icon-0-2-12 {
-  font-family: natds-icons;
-  user-select: none;
-}
-.icon-d0-0-2-13 {
-  color: #569a32;
-  font-size: 16px;
-}
-.label-0-2-1 {
-  font-size: 14px;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 4px;
-  letter-spacing: 0.11px;
-}
-.label-d0-0-2-2 {
-  color: #569a32;
-  display: none;
-}
-.helperText-0-2-10 {
-  display: flex;
-  font-size: 12px;
-  margin-top: 4px;
-  align-items: center;
-  font-family: Roboto, sans-serif;
-  margin-bottom: 0;
-  letter-spacing: 0.4px;
-}
-.helperText-0-2-10 > i {}
-.helperText-d0-0-2-11 {
-  color: #569a32;
-}
-.helperText-d0-0-2-11 > i {
-  margin-right: 4px;
-}",
-  <div>
-    <div>
-      <label
-        class="label-0-2-1 label-d0-0-2-2"
-        for="example_to_test"
-      />
-      <div
-        class="wrapper-0-2-3 wrapper-d0-0-2-7"
-      >
-        <input
-          class="input-0-2-5 input-d1-0-2-8"
-          data-testid="ds-input"
-          id="example_to_test"
-          type="text"
-          value=""
-        />
-      </div>
-      <p
-        class="helperText-0-2-10 helperText-d0-0-2-11"
-      >
-        <i
-          aria-hidden="true"
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-action-check"
-          data-testid="icon-outlined-action-check"
-          role="img"
-        />
-      </p>
     </div>
   </div>,
 ]
