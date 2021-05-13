@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.0.0](https://github.com/natura-cosmeticos/natds/compare/v1.8.3...v2.0.0) (2021-05-13)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.5.0 ([#1359](https://github.com/natura-cosmeticos/natds/issues/1359)) ([ce6f4ba](https://github.com/natura-cosmeticos/natds/commit/ce6f4ba9f431e67ff86a5cae205365fdda675d10))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.5.0 ([#1372](https://github.com/natura-cosmeticos/natds/issues/1372)) ([6a02f41](https://github.com/natura-cosmeticos/natds/commit/6a02f41d17441b46e8bc12e25ee90e1233f40029))
+* **deps:** update mui monorepo ([#1360](https://github.com/natura-cosmeticos/natds/issues/1360)) ([e09b34d](https://github.com/natura-cosmeticos/natds/commit/e09b34d169f797ca1f0dc351ec786c83961e6783))
+
+
+### BREAKING CHANGES
+
+* **deps:** change Avon main colors
+
+Co-authored-by: Renovate Bot <bot@renovateapp.com>
+
+
+
+
+
 ## [1.8.3](https://github.com/natura-cosmeticos/natds/compare/v1.8.2...v1.8.3) (2021-04-26)
 
 **Note:** Version bump only for package natds
