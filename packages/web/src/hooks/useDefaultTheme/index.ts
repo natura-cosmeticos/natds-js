@@ -1,9 +1,11 @@
-import { isEqual } from 'lodash'
 import { ThemeOptions, createMuiTheme, Theme } from '@material-ui/core/styles'
 import useTheme from '@material-ui/core/styles/useTheme'
 import { IThemeWeb, themes } from '../../Themes'
 
-export const getDefaultTheme : (providerTheme: IThemeWeb | unknown) => Theme = (providerTheme) => {
+const parserToString = (theme: IThemeWeb) => Object.entries(theme).sort().toString()
+const isEqual = (providedTheme: IThemeWeb, defaultTheme: IThemeWeb) => parserToString(providedTheme) === parserToString(defaultTheme)
+
+export const getDefaultTheme: (providerTheme: IThemeWeb | unknown) => Theme = (providerTheme) => {
   const parsedProviderTheme = JSON.parse(JSON.stringify(providerTheme))
   const parsedDefaultTheme = JSON.parse(JSON.stringify(createMuiTheme({})))
 
