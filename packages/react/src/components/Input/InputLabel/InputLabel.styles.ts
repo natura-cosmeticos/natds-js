@@ -1,8 +1,8 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
-import { InputLabelProps } from './InputLabel.props'
+import { InputProps } from '../Input.props'
 
-export const getFeedbackTextColor = (theme: Theme) => ({ feedback, disabled }: InputLabelProps) => {
+export const getFeedbackTextColor = (theme: Theme) => ({ feedback, disabled }: InputProps) => {
   const defaultColor = disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis
 
   switch (feedback) {
@@ -18,7 +18,7 @@ export const getFeedbackTextColor = (theme: Theme) => ({ feedback, disabled }: I
 const styles = createUseStyles((theme: Theme) => ({
   label: {
     color: getFeedbackTextColor(theme),
-    display: ({ label }: InputLabelProps) => (label ? 'inline-block' : 'none'),
+    display: ({ label }: InputProps) => (label ? 'inline-block' : 'none'),
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontSize: theme.subtitle2.fontSize,
     letterSpacing: 0.11,

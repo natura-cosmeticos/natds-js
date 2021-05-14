@@ -1,19 +1,7 @@
-/* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
-import { InputHelperTextProps } from './InputHelperText.props'
-
-export const getFeedbackTextColor = (theme: Theme) => ({ feedback, disabled }: InputHelperTextProps) => {
-  const defaultColor = disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis
-  switch (feedback) {
-    case 'error':
-      return theme.color.alert
-    case 'success':
-      return theme.color.success
-    default:
-      return defaultColor
-  }
-}
+import { InputProps } from '../Input.props'
+import { getFeedbackTextColor } from '../InputLabel/InputLabel.styles'
 
 const styles = createUseStyles((theme: Theme) => ({
   helperText: {
@@ -26,7 +14,7 @@ const styles = createUseStyles((theme: Theme) => ({
     marginTop: theme.spacing.micro,
     marginBottom: 0,
     '& > i': {
-      marginRight: ({ feedback }: InputHelperTextProps) => feedback && theme.spacing.micro
+      marginRight: ({ feedback }: InputProps) => feedback && theme.spacing.micro
     }
   }
 }))
