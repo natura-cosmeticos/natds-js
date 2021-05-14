@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.1.0](https://github.com/natura-cosmeticos/natds/compare/v2.0.0...v2.1.0) (2021-05-14)
+
+
+### Features
+
+* **text field:** add new component ([#1351](https://github.com/natura-cosmeticos/natds/issues/1351)) ([441ed68](https://github.com/natura-cosmeticos/natds/commit/441ed68890b2cf1abc66deeb7a8a739d6098278f))
+
+
+
+
+
 # [2.0.0](https://github.com/natura-cosmeticos/natds/compare/v1.8.3...v2.0.0) (2021-05-13)
 
 
