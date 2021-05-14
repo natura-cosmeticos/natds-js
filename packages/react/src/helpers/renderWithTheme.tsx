@@ -3,7 +3,7 @@ import { JssProvider, SheetsRegistry } from 'react-jss'
 import { render } from '@testing-library/react'
 import { ThemeProvider } from '../ThemeProvider'
 
-const renderWithTheme = (component) => {
+const renderWithTheme = (component: JSX.Element) => {
   const sheets = new SheetsRegistry()
 
   const renderTree = render(

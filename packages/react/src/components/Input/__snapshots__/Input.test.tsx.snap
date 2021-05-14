@@ -1,0 +1,238 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Input component should render correctly when type is multiline 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-1:hover {}
+.wrapper-0-2-1:focus-within {
+  border: 2px solid;
+  border-color: #f4ab34;
+}
+.wrapper-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\"\\";
+  position: absolute;
+  pointer-events: none;
+  background-color: #bbbbbb;
+}
+.base-0-2-2 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.base-0-2-2:read-only {
+  pointer-events: none;
+}
+.base-0-2-2:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.input-0-2-3 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.input-0-2-3:read-only {
+  pointer-events: none;
+}
+.input-0-2-3:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.input-0-2-3::placeholder {}
+.textArea-0-2-4 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-4:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-4:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.textArea-0-2-4::placeholder {}
+.wrapper-d0-0-2-5 {
+  border-color: #bbbbbb;
+  cursor: text;
+}
+.wrapper-d0-0-2-5:hover {
+  border-color: #777777;
+}
+.wrapper-d0-0-2-5:after {
+  opacity: 0;
+}
+.input-d1-0-2-6 {}
+.input-d1-0-2-6::placeholder {
+  color: #777777;
+}
+.textArea-d2-0-2-7 {
+  resize: none;
+}
+.textArea-d2-0-2-7::placeholder {
+  color: #777777;
+}",
+  <div>
+    <div
+      class="wrapper-0-2-1 wrapper-d0-0-2-5"
+    >
+      <textarea
+        class="textArea-0-2-4 textArea-d2-0-2-7"
+        data-testid="ds-input-multiline"
+        id="example_to_test"
+        rows="3"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Input component should render correctly with default props 1`] = `
+Array [
+  ".wrapper-0-2-1 {
+  border: 1px solid;
+  display: flex;
+  position: relative;
+  align-items: center;
+  border-radius: 4px;
+  justify-content: space-between;
+  background-color: #ffffff;
+}
+.wrapper-0-2-1:hover {}
+.wrapper-0-2-1:focus-within {
+  border: 2px solid;
+  border-color: #f4ab34;
+}
+.wrapper-0-2-1:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\"\\";
+  position: absolute;
+  pointer-events: none;
+  background-color: #bbbbbb;
+}
+.base-0-2-2 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.base-0-2-2:read-only {
+  pointer-events: none;
+}
+.base-0-2-2:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.input-0-2-3 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  box-sizing: border-box;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.input-0-2-3:read-only {
+  pointer-events: none;
+}
+.input-0-2-3:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.input-0-2-3::placeholder {}
+.textArea-0-2-4 {
+  color: #333333;
+  width: 100%;
+  border: none;
+  outline: none;
+  padding: 16px;
+  font-size: 16px;
+  background: none;
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.51px;
+}
+.textArea-0-2-4:read-only {
+  pointer-events: none;
+}
+.textArea-0-2-4:disabled {
+  color: #bbbbbb;
+  cursor: default;
+}
+.textArea-0-2-4::placeholder {}
+.wrapper-d0-0-2-5 {
+  border-color: #bbbbbb;
+  cursor: text;
+}
+.wrapper-d0-0-2-5:hover {
+  border-color: #777777;
+}
+.wrapper-d0-0-2-5:after {
+  opacity: 0;
+}
+.input-d1-0-2-6 {}
+.input-d1-0-2-6::placeholder {
+  color: #777777;
+}
+.textArea-d2-0-2-7 {
+  resize: none;
+}
+.textArea-d2-0-2-7::placeholder {
+  color: #777777;
+}",
+  <div>
+    <div
+      class="wrapper-0-2-1 wrapper-d0-0-2-5"
+    >
+      <input
+        class="input-0-2-3 input-d1-0-2-6"
+        data-testid="ds-input"
+        id="example_to_test"
+        type="text"
+        value=""
+      />
+    </div>
+  </div>,
+]
+`;
