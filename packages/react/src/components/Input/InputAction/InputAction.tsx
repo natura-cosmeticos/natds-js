@@ -27,12 +27,14 @@ const InputAction = (props: InputProps): JSX.Element => {
       {
         isImageAction(props)
         && (
-        <img
-          src={props.src}
-          alt={props.alt}
-          className={classes.actionImage}
-          data-testid="ds-input-action-image"
-        />
+          <div className={classes.wrapper}>
+            <img
+              src={props.src}
+              alt={props.alt}
+              className={classes.image}
+              data-testid="ds-input-action-image"
+            />
+          </div>
         )
       }
     </div>

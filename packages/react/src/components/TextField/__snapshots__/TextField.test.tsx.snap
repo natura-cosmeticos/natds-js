@@ -1223,7 +1223,7 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.iconButtonContainer-0-2-13 {
+.iconButtonContainer-0-2-15 {
   border: none;
   cursor: pointer;
   display: inline-flex;
@@ -1234,7 +1234,7 @@ Array [
   border-radius: 50%;
   justify-content: center;
 }
-.iconButtonContainer-0-2-13:after {
+.iconButtonContainer-0-2-15:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1244,50 +1244,50 @@ Array [
   position: absolute;
   background-color: #000000;
 }
-.iconButtonContainer-0-2-13:hover:not([disabled]):after {
+.iconButtonContainer-0-2-15:hover:not([disabled]):after {
   opacity: 0.04;
 }
-.iconButtonContainer-0-2-13:focus:not([disabled]):after {
+.iconButtonContainer-0-2-15:focus:not([disabled]):after {
   opacity: 0.12;
 }
-.iconButtonContainer-0-2-13:disabled {
+.iconButtonContainer-0-2-15:disabled {
   cursor: default;
 }
-.iconButtonContainer-d0-0-2-14 {
+.iconButtonContainer-d0-0-2-16 {
   background-color: transparent;
   height: 32px;
   width: 32px;
 }
-.icon-0-2-24 {
+.icon-0-2-26 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-25 {
+.icon-d0-0-2-27 {
   color: #333333;
   font-size: 24px;
 }
-.wrapper-0-2-15 {
+.wrapper-0-2-17 {
   cursor: pointer;
   position: relative;
   align-self: start;
 }
-.ripple-0-2-16 {
+.ripple-0-2-18 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-17 {
+.rippleContainer-0-2-19 {
   top: 0;
   left: 0;
   right: 0;
   bottom: 0;
   position: absolute;
 }
-.rippleActive-0-2-18 {
+.rippleActive-0-2-20 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-19 {
+@keyframes keyframes-ripple-0-2-21 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1300,10 +1300,10 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-20 {
+  .wrapper-d0-0-2-22 {
     display: inline-block;
   }
-  .ripple-d1-0-2-21 {
+  .ripple-d1-0-2-23 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1311,21 +1311,29 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-22 {
+  .rippleContainer-d2-0-2-24 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-23 {
-    animation: keyframes-ripple-0-2-19 300ms;
+  .rippleActive-d3-0-2-25 {
+    animation: keyframes-ripple-0-2-21 300ms;
   }
-  .container-0-2-10 {
+  .container-0-2-10 {  }
+  .wrapper-0-2-11 {
     display: flex;
+    overflow: hidden;
+    align-items: center;
+    border-top-right-radius: 3px;
+    border-bottom-right-radius: 3px;
   }
-  .actionImage-0-2-11 {
+  .image-0-2-12 {
     max-width: 64px;
+    object-fit: cover;
   }
-  .container-d0-0-2-12 {
-    max-height: 56px;
+  .container-d0-0-2-13 {
     margin-right: 8px;
+  }
+  .wrapper-d1-0-2-14 {
+    height: 56px;
   }
   .label-0-2-1 {
     font-size: 14px;
@@ -1337,7 +1345,7 @@ Array [
     color: #777777;
     display: none;
   }
-  .helperText-0-2-26 {
+  .helperText-0-2-28 {
     display: flex;
     font-size: 12px;
     margin-top: 4px;
@@ -1346,11 +1354,11 @@ Array [
     margin-bottom: 0;
     letter-spacing: 0.4px;
   }
-  .helperText-0-2-26 > i {  }
-  .helperText-d0-0-2-27 {
+  .helperText-0-2-28 > i {  }
+  .helperText-d0-0-2-29 {
     color: #777777;
   }
-  .helperText-d0-0-2-27 > i {  }",
+  .helperText-d0-0-2-29 > i {  }",
   <div>
     <div>
       <label
@@ -1368,29 +1376,29 @@ Array [
           value=""
         />
         <div
-          class="container-0-2-10 container-d0-0-2-12"
+          class="container-0-2-10 container-d0-0-2-13"
         >
           <div
-            class="wrapper-0-2-15 wrapper-d0-0-2-20"
+            class="wrapper-0-2-17 wrapper-d0-0-2-22"
             data-testid="ripple-wrapper"
           >
             <div
-              class="rippleContainer-0-2-17 rippleContainer-d2-0-2-22"
+              class="rippleContainer-0-2-19 rippleContainer-d2-0-2-24"
             >
               <div
-                class="ripple-0-2-16 ripple-d1-0-2-21 "
+                class="ripple-0-2-18 ripple-d1-0-2-23 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
-              class="iconButtonContainer-0-2-13 iconButtonContainer-d0-0-2-14"
+              class="iconButtonContainer-0-2-15 iconButtonContainer-d0-0-2-16"
               data-testid="ds-input-action-icon"
               type="button"
             >
               <i
                 aria-hidden="false"
                 arial-label="any label"
-                class="icon-0-2-24 icon-d0-0-2-25 natds-icons natds-icons-filled-action-love"
+                class="icon-0-2-26 icon-d0-0-2-27 natds-icons natds-icons-filled-action-love"
                 data-testid="icon-filled-action-love"
                 role="button"
               />
@@ -1399,7 +1407,7 @@ Array [
         </div>
       </div>
       <p
-        class="helperText-0-2-26 helperText-d0-0-2-27"
+        class="helperText-0-2-28 helperText-d0-0-2-29"
       />
     </div>
   </div>,
@@ -1513,14 +1521,21 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.container-0-2-10 {
+.container-0-2-10 {}
+.wrapper-0-2-11 {
   display: flex;
+  overflow: hidden;
+  align-items: center;
+  border-top-right-radius: 3px;
+  border-bottom-right-radius: 3px;
 }
-.actionImage-0-2-11 {
+.image-0-2-12 {
   max-width: 64px;
+  object-fit: cover;
 }
-.container-d0-0-2-12 {
-  max-height: 56px;
+.container-d0-0-2-13 {}
+.wrapper-d1-0-2-14 {
+  height: 56px;
 }
 .label-0-2-1 {
   font-size: 14px;
@@ -1532,7 +1547,7 @@ Array [
   color: #777777;
   display: none;
 }
-.helperText-0-2-13 {
+.helperText-0-2-15 {
   display: flex;
   font-size: 12px;
   margin-top: 4px;
@@ -1541,11 +1556,11 @@ Array [
   margin-bottom: 0;
   letter-spacing: 0.4px;
 }
-.helperText-0-2-13 > i {}
-.helperText-d0-0-2-14 {
+.helperText-0-2-15 > i {}
+.helperText-d0-0-2-16 {
   color: #777777;
 }
-.helperText-d0-0-2-14 > i {}",
+.helperText-d0-0-2-16 > i {}",
   <div>
     <div>
       <label
@@ -1563,18 +1578,22 @@ Array [
           value=""
         />
         <div
-          class="container-0-2-10 container-d0-0-2-12"
+          class="container-0-2-10 container-d0-0-2-13"
         >
-          <img
-            alt=""
-            class="actionImage-0-2-11"
-            data-testid="ds-input-action-image"
-            src=""
-          />
+          <div
+            class="wrapper-0-2-11 wrapper-d1-0-2-14"
+          >
+            <img
+              alt=""
+              class="image-0-2-12"
+              data-testid="ds-input-action-image"
+              src=""
+            />
+          </div>
         </div>
       </div>
       <p
-        class="helperText-0-2-13 helperText-d0-0-2-14"
+        class="helperText-0-2-15 helperText-d0-0-2-16"
       />
     </div>
   </div>,
