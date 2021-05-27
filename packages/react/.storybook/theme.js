@@ -7,7 +7,7 @@ export const buildTheme = (theme, mode) => create({
   barBg: theme.color.surface,
   barTextColor: theme.color.highEmphasis,
   base: mode,
-  brandImage: 'https://placehold.it/350x150',
+  brandImage: 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@0.6.0/dist/assets/natura-a-official.svg',
   brandTitle: 'Natura Design System',
   colorPrimary: theme.color.primary,
   colorSecondary: theme.color.secondary,
