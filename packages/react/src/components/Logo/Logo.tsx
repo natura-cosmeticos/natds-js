@@ -12,11 +12,11 @@ const Logo = ({
   const theme: Theme = useTheme()
   const classes = styles({ size })
 
-  const convertedModel = model === 'primary' ? 'a' : 'b'
-  const isCustom = color === 'neutral' ? 'neutral' : 'custom'
+  const checkColor = color === 'neutral' ? 'neutral' : 'custom'
+  const checkModel = model === 'primary' ? 'a' : 'b'
 
   const BASE_URL = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets'
-  const URL = `${BASE_URL}/${theme.asset.brand[isCustom][convertedModel]}.svg`
+  const URL = `${BASE_URL}/${theme.asset.brand[checkColor][checkModel]}.svg`
 
   return (
     <img className={classes.root} src={URL} />
