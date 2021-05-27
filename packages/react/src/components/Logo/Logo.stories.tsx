@@ -8,12 +8,6 @@ const componentStatus = `
 
 Attribute status:
 
-- **Brands**
-    - ✅ \`Natura\`
-    - ✅ \`Avon\`
-    - ✅ \`The Body Shop\`
-    - ✅ \`Aesop\`
-    - ❌ \`Natura&Co\`
 - **Size**
     - ✅ \`medium\`
     - ✅ \`mediumx\`
@@ -73,6 +67,7 @@ export const Color: Story<LogoProps> = (args) => (
     <Logo {...args} />
   </StoryContainer>
 )
+Color.args = { ...Playground.args }
 
 export const Model: Story<LogoProps> = (args) => (
   <StoryContainer>
