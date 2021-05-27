@@ -48,7 +48,7 @@
     "lint": "eslint --ext .js,.jsx,.ts,.tsx ./src --color",
     "lint:fix": "yarn lint --fix",
     "rollup:build": "rollup -c",
-    "storybook": "start-storybook -s .storybook/static -p 6006",
+    "storybook": "start-storybook --no-manager-cache -s .storybook/static -p 6006",
     "test": "jest --testPathPattern=src --verbose",
     "test:ci": "jest  --testPathPattern=src --coverage && codecov -t",
     "test:regression": "jest --testPathPattern=regression",
