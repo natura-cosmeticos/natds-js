@@ -28,7 +28,7 @@ Attribute status:
     - ❌ \`surface\`
 - **Model**
     - ✅ \`primary\`
-    - ❌ \`secondary\`
+    - ✅ \`secondary\`
 
 ---
 `
@@ -44,7 +44,7 @@ export default {
 } as Meta
 
 export const Playground: Story<LogoProps> = (args) => <Logo {...args} />
-Playground.args = { size: 'large' }
+Playground.args = { size: 'medium' }
 
 export const Size: Story<LogoProps> = (args) => (
   <StoryContainer>
