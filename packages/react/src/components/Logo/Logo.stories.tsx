@@ -22,10 +22,10 @@ Attribute status:
     - ✅ \`veryhuge\`
 - **Color**
     - ✅ \`neutral\`
-    - ❌ \`primary\`
-    - ❌ \`secondary\`
-    - ❌ \`highlight\`
-    - ❌ \`surface\`
+    - ✅ \`primary\`
+    - ✅ \`secondary\`
+    - ✅ \`highlight\`
+    - ✅ \`surface\`
 - **Model**
     - ✅ \`primary\`
     - ✅ \`secondary\`
@@ -64,6 +64,10 @@ export const Size: Story<LogoProps> = (args) => (
 export const Color: Story<LogoProps> = (args) => (
   <StoryContainer>
     <Logo {...args} />
+    <Logo {...args} color="primary" />
+    <Logo {...args} color="secondary" />
+    <Logo {...args} color="highlight" />
+    <Logo {...args} color="surface" />
   </StoryContainer>
 )
 
