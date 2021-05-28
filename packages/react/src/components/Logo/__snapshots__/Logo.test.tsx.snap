@@ -2,9 +2,11 @@
 
 exports[`Logo component should render correctly with custom color 1`] = `
 Array [
-  ".root-0-2-1 {}
+  ".root-0-2-1 {
+  height: 100%;
+}
 .root-d0-0-2-2 {
-  height: 256px;
+  width: 256px;
 }",
   <div>
     <img
@@ -17,9 +19,11 @@ Array [
 
 exports[`Logo component should render correctly with default props 1`] = `
 Array [
-  ".root-0-2-1 {}
+  ".root-0-2-1 {
+  height: 100%;
+}
 .root-d0-0-2-2 {
-  height: 256px;
+  width: 256px;
 }",
   <div>
     <img
@@ -32,9 +36,11 @@ Array [
 
 exports[`Logo component should render correctly with medium size 1`] = `
 Array [
-  ".root-0-2-1 {}
+  ".root-0-2-1 {
+  height: 100%;
+}
 .root-d0-0-2-2 {
-  height: 48px;
+  width: 48px;
 }",
   <div>
     <img
@@ -47,9 +53,11 @@ Array [
 
 exports[`Logo component should render correctly with secondary model 1`] = `
 Array [
-  ".root-0-2-1 {}
+  ".root-0-2-1 {
+  height: 100%;
+}
 .root-d0-0-2-2 {
-  height: 256px;
+  width: 256px;
 }",
   <div>
     <img

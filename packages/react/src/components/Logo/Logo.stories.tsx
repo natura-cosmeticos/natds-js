@@ -44,7 +44,6 @@ export default {
 } as Meta
 
 export const Playground: Story<LogoProps> = (args) => <Logo {...args} />
-Playground.args = { size: 'medium' }
 
 export const Size: Story<LogoProps> = (args) => (
   <StoryContainer>
@@ -67,7 +66,6 @@ export const Color: Story<LogoProps> = (args) => (
     <Logo {...args} />
   </StoryContainer>
 )
-Color.args = { ...Playground.args }
 
 export const Model: Story<LogoProps> = (args) => (
   <StoryContainer>
@@ -75,4 +73,3 @@ export const Model: Story<LogoProps> = (args) => (
     <Logo {...args} model="secondary" />
   </StoryContainer>
 )
-Model.args = { ...Playground.args }

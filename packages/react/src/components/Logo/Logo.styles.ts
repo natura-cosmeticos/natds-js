@@ -4,7 +4,8 @@ import { LogoProps } from './Logo.props'
 
 const styles = createUseStyles((theme: Theme) => ({
   root: {
-    height: ({ size }: LogoProps) => size && theme.size[size]
+    width: ({ size }: LogoProps) => size && theme.size[size],
+    height: '100%',
   }
 }))
 
