@@ -30,7 +30,7 @@ describe('components', () => {
     const page = await browser.newPage()
 
     await page.setViewport({
-      height: 400,
+      height: 500,
       width: 800
     })
 
