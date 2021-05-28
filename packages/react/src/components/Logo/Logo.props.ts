@@ -1,12 +1,12 @@
-import { Size } from '@naturacosmeticos/natds-themes'
+import { Color, Size } from '@naturacosmeticos/natds-themes'
 
-type LogoColors = 'primary' | 'secondary' | 'highlight' | 'surface' | 'neutral'
-type LogoSizes = keyof Omit<Size, 'none' | 'micro' | 'small' | 'standard' | 'semi' | 'semix'>
+type LogoColors = 'neutral' | keyof Pick<Color, 'primary' | 'secondary' | 'highlight' | 'surface'>
+type LogoSizes = keyof Omit<Size, 'none' | 'micro' | 'tiny' | 'small' | 'standard' | 'semi' | 'semiX' >
 type LogoModels = 'primary' | 'secondary'
 
 export interface LogoProps {
   /**
-   * The logo color
+   * The Logo color
    * @default neutral
    */
   color?: LogoColors;
