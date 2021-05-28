@@ -1,0 +1,61 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo component should render correctly with custom color 1`] = `
+Array [
+  ".root-0-2-1 {}
+.root-d0-0-2-2 {
+  height: 256px;
+}",
+  <div>
+    <img
+      class="root-0-2-1 root-d0-0-2-2"
+      src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-custom.svg"
+    />
+  </div>,
+]
+`;
+
+exports[`Logo component should render correctly with default props 1`] = `
+Array [
+  ".root-0-2-1 {}
+.root-d0-0-2-2 {
+  height: 256px;
+}",
+  <div>
+    <img
+      class="root-0-2-1 root-d0-0-2-2"
+      src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-official.svg"
+    />
+  </div>,
+]
+`;
+
+exports[`Logo component should render correctly with medium size 1`] = `
+Array [
+  ".root-0-2-1 {}
+.root-d0-0-2-2 {
+  height: 48px;
+}",
+  <div>
+    <img
+      class="root-0-2-1 root-d0-0-2-2"
+      src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-official.svg"
+    />
+  </div>,
+]
+`;
+
+exports[`Logo component should render correctly with secondary model 1`] = `
+Array [
+  ".root-0-2-1 {}
+.root-d0-0-2-2 {
+  height: 256px;
+}",
+  <div>
+    <img
+      class="root-0-2-1 root-d0-0-2-2"
+      src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-b-official.svg"
+    />
+  </div>,
+]
+`;
