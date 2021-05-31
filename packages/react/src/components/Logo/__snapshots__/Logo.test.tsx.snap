@@ -2,68 +2,110 @@
 
 exports[`Logo component should render correctly with custom color 1`] = `
 Array [
-  ".root-0-2-1 {
+  ".root-0-2-1 {}
+.root-0-2-1 svg {
   height: 100%;
 }
-.root-d0-0-2-2 {
+.root-0-2-1 svg path {}
+.root-d0-0-2-2 {}
+.root-d0-0-2-2 svg {
   width: 256px;
+}
+.root-d0-0-2-2 svg path {
+  fill: #f4ab34;
 }",
   <div>
-    <img
+    <div
+      aria-label="logo"
       class="root-0-2-1 root-d0-0-2-2"
-      src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-custom.svg"
-    />
+      role="img"
+    >
+      <div
+        data-src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-custom.svg"
+        src=""
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Logo component should render correctly with default props 1`] = `
 Array [
-  ".root-0-2-1 {
+  ".root-0-2-1 {}
+.root-0-2-1 svg {
   height: 100%;
 }
-.root-d0-0-2-2 {
+.root-0-2-1 svg path {}
+.root-d0-0-2-2 {}
+.root-d0-0-2-2 svg {
   width: 256px;
-}",
+}
+.root-d0-0-2-2 svg path {}",
   <div>
-    <img
+    <div
+      aria-label="logo"
       class="root-0-2-1 root-d0-0-2-2"
-      src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-official.svg"
-    />
+      role="img"
+    >
+      <div
+        data-src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-official.svg"
+        src=""
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Logo component should render correctly with medium size 1`] = `
 Array [
-  ".root-0-2-1 {
+  ".root-0-2-1 {}
+.root-0-2-1 svg {
   height: 100%;
 }
-.root-d0-0-2-2 {
+.root-0-2-1 svg path {}
+.root-d0-0-2-2 {}
+.root-d0-0-2-2 svg {
   width: 48px;
-}",
+}
+.root-d0-0-2-2 svg path {}",
   <div>
-    <img
+    <div
+      aria-label="logo"
       class="root-0-2-1 root-d0-0-2-2"
-      src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-official.svg"
-    />
+      role="img"
+    >
+      <div
+        data-src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-official.svg"
+        src=""
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Logo component should render correctly with secondary model 1`] = `
 Array [
-  ".root-0-2-1 {
+  ".root-0-2-1 {}
+.root-0-2-1 svg {
   height: 100%;
 }
-.root-d0-0-2-2 {
+.root-0-2-1 svg path {}
+.root-d0-0-2-2 {}
+.root-d0-0-2-2 svg {
   width: 256px;
-}",
+}
+.root-d0-0-2-2 svg path {}",
   <div>
-    <img
+    <div
+      aria-label="logo"
       class="root-0-2-1 root-d0-0-2-2"
-      src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-b-official.svg"
-    />
+      role="img"
+    >
+      <div
+        data-src="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-b-official.svg"
+        src=""
+      />
+    </div>
   </div>,
 ]
 `;
