@@ -10,26 +10,22 @@ describe('Logo component', () => {
   it('should render correctly with default props', () => {
     const { styles, component } = renderWithTheme(<Logo />)
 
-    expect(component.getByRole('img')).toHaveAttribute('src', defaultURL)
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
   it('should render correctly with medium size', () => {
     const { styles, component } = renderWithTheme(<Logo size="medium" />)
 
-    expect(component.getByRole('img')).toHaveAttribute('src', defaultURL)
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
   it('should render correctly with custom color', () => {
     const { styles, component } = renderWithTheme(<Logo color="primary" />)
 
-    expect(component.getByRole('img')).toHaveAttribute('src', customColorURL)
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
   it('should render correctly with secondary model', () => {
     const { styles, component } = renderWithTheme(<Logo model="secondary" />)
 
-    expect(component.getByRole('img')).toHaveAttribute('src', secondaryModelURL)
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 })

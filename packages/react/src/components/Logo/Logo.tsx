@@ -23,7 +23,6 @@ const Logo = ({
     <ReactSVG
       src={URL}
       className={classes.root}
-      data-testid="ds-logo"
       role="img"
       aria-label="logo"
     />
