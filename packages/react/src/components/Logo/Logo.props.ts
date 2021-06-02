@@ -18,7 +18,7 @@ export interface LogoProps {
 
   /**
    * The Logo model.
-   * @default primary
+   * @default a
    */
   model?: LogoModels;
 
