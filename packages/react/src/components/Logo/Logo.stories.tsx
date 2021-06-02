@@ -73,7 +73,7 @@ export const Color: Story<LogoProps> = (args) => (
 
 export const Model: Story<LogoProps> = (args) => (
   <StoryContainer>
-    <Logo {...args} model="primary" />
-    <Logo {...args} model="secondary" />
+    <Logo {...args} />
   </StoryContainer>
 )
+Model.args = { ...Playground.args, model: 'a' }
