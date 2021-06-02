@@ -1,5 +1,5 @@
+/* eslint-disable no-useless-escape */
 import React from 'react'
-import { ReactSVG } from 'react-svg'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { useTheme } from 'react-jss'
 import { LogoProps } from './Logo.props'
@@ -16,13 +16,12 @@ const Logo = ({
   const checkColor = color === 'neutral' ? 'neutral' : 'custom'
   const checkModel = model === 'primary' ? 'a' : 'b'
 
-  const BASE_URL = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets'
-  const URL = `${BASE_URL}/${theme.asset.brand[checkColor][checkModel]}.svg`
+  const logo = theme.asset.brand[checkColor][checkModel]
 
   return (
-    <ReactSVG
-      src={URL}
+    <div
       className={classes.root}
+      dangerouslySetInnerHTML={{ __html: logo }}
       role="img"
       aria-label="logo"
     />
