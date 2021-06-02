@@ -7,15 +7,15 @@ import styles from './Logo.styles'
 const Logo = ({
   color = 'neutral',
   size = 'veryHuge',
+  model = 'a',
   arialLabel = 'logo'
 }: LogoProps): JSX.Element => {
   const theme: Theme = useTheme()
   const classes = styles({ size, color })
 
   const checkColor = color === 'neutral' ? 'neutral' : 'custom'
-  const checkModel = model === 'primary' ? 'a' : 'b'
 
-  const logo = theme.asset.brand[checkColor][checkModel]
+  const logo = theme.asset.brand[checkColor][model]
 
   return (
     <div
