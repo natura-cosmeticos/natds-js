@@ -2,10 +2,6 @@ import React from 'react'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import Logo from './Logo'
 
-const defaultURL = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-official.svg'
-const customColorURL = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-a-custom.svg'
-const secondaryModelURL = 'https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/natura-b-official.svg'
-
 describe('Logo component', () => {
   it('should render correctly with default props', () => {
     const { styles, component } = renderWithTheme(<Logo />)

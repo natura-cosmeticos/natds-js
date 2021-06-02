@@ -1,4 +1,3 @@
-/* eslint-disable no-useless-escape */
 import React from 'react'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { useTheme } from 'react-jss'
