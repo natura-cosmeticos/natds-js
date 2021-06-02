@@ -13,7 +13,6 @@ export interface LogoProps {
 
   /**
    * The Logo model.
-   * Only available for Natura and The Body Shop theme
    * @default primary
    */
   model?: LogoModels;
