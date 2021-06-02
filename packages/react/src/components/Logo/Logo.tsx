@@ -7,7 +7,7 @@ import styles from './Logo.styles'
 const Logo = ({
   color = 'neutral',
   size = 'veryHuge',
-  model = 'primary'
+  arialLabel = 'logo'
 }: LogoProps): JSX.Element => {
   const theme: Theme = useTheme()
   const classes = styles({ size, color })
@@ -22,7 +22,7 @@ const Logo = ({
       className={classes.root}
       dangerouslySetInnerHTML={{ __html: logo }}
       role="img"
-      aria-label="logo"
+      aria-label={arialLabel}
     />
   )
 }
