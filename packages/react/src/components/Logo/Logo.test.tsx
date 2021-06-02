@@ -20,7 +20,7 @@ describe('Logo component', () => {
   })
 
   it('should render correctly with secondary model', () => {
-    const { styles, component } = renderWithTheme(<Logo model="secondary" />)
+    const { styles, component } = renderWithTheme(<Logo model="a" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
