@@ -1,0 +1,43 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress Indicator should render correctly with default props 1`] = `
+Array [
+  ".base-0-2-1 {
+  border: 4px solid #f4ab34;
+  animation: keyframes-spin-0-2-3 1.4s linear infinite;
+  border-left-color: transparent;
+}
+.layer-0-2-2 {
+  padding: 4px;
+}
+@keyframes keyframes-spin-0-2-3 {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  .base-d0-0-2-4 {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+  }
+  .layer-d1-0-2-5 {
+    height: 48px;
+    width: 48px;
+    border-radius: 50%;
+  }",
+  <div>
+    <div
+      class="layer-0-2-2 layer-d1-0-2-5"
+      data-testid="ds-progress-indicator"
+      role="progressbar"
+    >
+      <div
+        class="base-0-2-1 base-d0-0-2-4"
+      />
+    </div>
+  </div>,
+]
+`;
