@@ -8,11 +8,11 @@ const ProgressIndicator = ({
   testID = 'ds-progress-indicator',
   variant = 'circular'
 }: ProgressIndicatorProps): JSX.Element => {
-  const { base, layer } = styles({ size, showLayer, variant })
+  const { layer, spinner } = styles({ size, showLayer, variant })
 
   return (
     <div className={layer} role="progressbar" data-testid={testID}>
-      <div className={base} />
+      <div className={spinner} />
     </div>
   )
 }
