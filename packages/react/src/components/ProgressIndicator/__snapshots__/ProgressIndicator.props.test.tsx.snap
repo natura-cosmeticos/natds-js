@@ -2,40 +2,47 @@
 
 exports[`Progress Indicator should render correctly with default props 1`] = `
 Array [
-  ".base-0-2-1 {
-  border: 4px solid #f4ab34;
-  animation: keyframes-spin-0-2-3 1.4s linear infinite;
-  border-left-color: transparent;
-}
-.layer-0-2-2 {
+  ".layer-0-2-1 {
+  display: flex;
   padding: 4px;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.spinner-0-2-2 {
+  border: 4px solid #f4ab34;
+  animation: keyframes-spin-0-2-3 1.7s linear infinite;
+  border-radius: 50%;
+  border-top-color: transparent;
+  border-left-color: transparent;
 }
 @keyframes keyframes-spin-0-2-3 {
   0% {
     transform: rotate(0deg);
   }
-  100% {
+  75% {
     transform: rotate(360deg);
   }
-}
-  .base-d0-0-2-4 {
-    height: 48px;
-    width: 48px;
-    border-radius: 50%;
+  100% {
+    transform: rotate(720deg);
   }
-  .layer-d1-0-2-5 {
+}
+  .layer-d0-0-2-4 {
+    height: 56px;
+    width: 56px;
+  }
+  .spinner-d1-0-2-5 {
     height: 48px;
     width: 48px;
-    border-radius: 50%;
   }",
   <div>
     <div
-      class="layer-0-2-2 layer-d1-0-2-5"
+      class="layer-0-2-1 layer-d0-0-2-4"
       data-testid="ds-progress-indicator"
       role="progressbar"
     >
       <div
-        class="base-0-2-1 base-d0-0-2-4"
+        class="spinner-0-2-2 spinner-d1-0-2-5"
       />
     </div>
   </div>,
