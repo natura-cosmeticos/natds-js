@@ -11,7 +11,7 @@ Array [
 }
 .loader-0-2-2 {}
 .loader-0-2-2 svg {
-  animation: keyframes-rotate-0-2-4 1.7s linear infinite;
+  animation: keyframes-rotate-0-2-4 2.7s linear infinite;
 }
 .loader-0-2-2 svg circle {
   fill: none;
@@ -35,8 +35,14 @@ Array [
   }
 }
 @keyframes keyframes-rotate-0-2-4 {
-  100% {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
     transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
   }
 }
   .layer-d0-0-2-5 {
@@ -83,7 +89,7 @@ Array [
 }
 .loader-0-2-2 {}
 .loader-0-2-2 svg {
-  animation: keyframes-rotate-0-2-4 1.7s linear infinite;
+  animation: keyframes-rotate-0-2-4 2.7s linear infinite;
 }
 .loader-0-2-2 svg circle {
   fill: none;
@@ -107,8 +113,14 @@ Array [
   }
 }
 @keyframes keyframes-rotate-0-2-4 {
-  100% {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
     transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
   }
 }
   .layer-d0-0-2-5 {
