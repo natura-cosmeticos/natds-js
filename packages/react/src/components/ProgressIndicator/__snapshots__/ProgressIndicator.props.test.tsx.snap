@@ -10,17 +10,17 @@ Array [
   justify-content: center;
 }
 .loader-0-2-2 {}
-.circularLoader-0-2-3 {
-  animation: keyframes-rotate-0-2-6 1.7s linear infinite;
+.loader-0-2-2 svg {
+  animation: keyframes-rotate-0-2-4 1.7s linear infinite;
 }
-.loaderPath-0-2-4 {
+.loader-0-2-2 svg circle {
   fill: none;
   stroke: #f4ab34;
-  animation: keyframes-spin-0-2-5 1.7s linear infinite;
+  animation: keyframes-spin-0-2-3 1.7s linear infinite;
   stroke-width: 4;
   stroke-linecap: round;
 }
-@keyframes keyframes-spin-0-2-5 {
+@keyframes keyframes-spin-0-2-3 {
   0% {
     stroke-dasharray: 1,200;
     stroke-dashoffset: 0;
@@ -34,34 +34,32 @@ Array [
     stroke-dashoffset: -124;
   }
 }
-@keyframes keyframes-rotate-0-2-6 {
+@keyframes keyframes-rotate-0-2-4 {
   100% {
     transform: rotate(360deg);
   }
 }
-  .layer-d0-0-2-7 {
+  .layer-d0-0-2-5 {
     height: 48px;
     width: 48px;
   }
-  .loader-d1-0-2-8 {
+  .loader-d1-0-2-6 {
     height: 48px;
     width: 48px;
   }",
   <div>
     <div
-      class="layer-0-2-1 layer-d0-0-2-7"
+      class="layer-0-2-1 layer-d0-0-2-5"
       data-testid="ds-progress-indicator"
       role="progressbar"
     >
       <div
-        class="loader-0-2-2 loader-d1-0-2-8"
+        class="loader-0-2-2 loader-d1-0-2-6"
       >
         <svg
-          class="circularLoader-0-2-3"
           viewBox="25 25 50 50"
         >
           <circle
-            class="loaderPath-0-2-4"
             cx="50"
             cy="50"
             r="20"
