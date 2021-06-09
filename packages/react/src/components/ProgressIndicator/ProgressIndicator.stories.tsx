@@ -28,7 +28,7 @@ export default {
   title: 'Components/ProgressIndicator',
   component: ProgressIndicator,
   parameters: {
-    componentSubtitle: 'A helper component to display icons from @naturacosmeticos/natds-icons package',
+    componentSubtitle: 'Progress indicators express an unspecified wait time.',
     docs: { description: { component: componentStatus } }
   }
 } as Meta
