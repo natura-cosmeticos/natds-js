@@ -9,42 +9,65 @@ Array [
   border-radius: 50%;
   justify-content: center;
 }
-.spinner-0-2-2 {
-  border: 4px solid #f4ab34;
-  animation: keyframes-spin-0-2-3 1.7s linear infinite;
-  box-sizing: border-box;
-  border-radius: 50%;
-  border-top-color: transparent;
-  border-left-color: transparent;
+.loader-0-2-2 {}
+.circularLoader-0-2-3 {
+  animation: keyframes-rotate-0-2-6 1.7s linear infinite;
 }
-@keyframes keyframes-spin-0-2-3 {
+.loaderPath-0-2-4 {
+  fill: none;
+  stroke: #f4ab34;
+  animation: keyframes-spin-0-2-5 1.7s linear infinite;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+@keyframes keyframes-spin-0-2-5 {
   0% {
-    transform: rotate(0deg);
+    stroke-dasharray: 1,200;
+    stroke-dashoffset: 0;
   }
-  75% {
-    transform: rotate(360deg);
+  50% {
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: -35;
   }
   100% {
-    transform: rotate(720deg);
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: -124;
   }
 }
-  .layer-d0-0-2-4 {
+@keyframes keyframes-rotate-0-2-6 {
+  100% {
+    transform: rotate(360deg);
+  }
+}
+  .layer-d0-0-2-7 {
     height: 48px;
     width: 48px;
   }
-  .spinner-d1-0-2-5 {
+  .loader-d1-0-2-8 {
     height: 48px;
     width: 48px;
   }",
   <div>
     <div
-      class="layer-0-2-1 layer-d0-0-2-4"
+      class="layer-0-2-1 layer-d0-0-2-7"
       data-testid="ds-progress-indicator"
       role="progressbar"
     >
       <div
-        class="spinner-0-2-2 spinner-d1-0-2-5"
-      />
+        class="loader-0-2-2 loader-d1-0-2-8"
+      >
+        <svg
+          class="circularLoader-0-2-3"
+          viewBox="25 25 50 50"
+        >
+          <circle
+            class="loaderPath-0-2-4"
+            cx="50"
+            cy="50"
+            r="20"
+          />
+        </svg>
+      </div>
     </div>
   </div>,
 ]
