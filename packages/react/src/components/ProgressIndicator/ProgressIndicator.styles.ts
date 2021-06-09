@@ -1,3 +1,4 @@
+/* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { ProgressIndicatorProps } from './ProgressIndicator.props'
@@ -17,7 +18,7 @@ const styles = createUseStyles((theme: Theme) => ({
     height: ({ size }: ProgressIndicatorProps) => size && theme.size[size],
     width: ({ size }: ProgressIndicatorProps) => size && theme.size[size],
     '& svg': {
-      animation: '$rotate 1.7s linear infinite',
+      animation: '$rotate 2.7s linear infinite',
       '& circle': {
         fill: 'none',
         strokeWidth: theme.size.micro,
@@ -42,7 +43,15 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   },
   '@keyframes rotate': {
-    '100%': { transform: 'rotate(360deg)' }
+    '0%': {
+      transform: 'rotate(0deg)'
+    },
+    '50%': {
+      transform: 'rotate(360deg)'
+    },
+    '100%': {
+      transform: 'rotate(720deg)'
+    }
   }
 }))
 
