@@ -43,5 +43,16 @@ export const Size: Story<ProgressIndicatorProps> = (args) => (
     <ProgressIndicator {...args} size="large" />
   </StoryContainer>
 )
-export const Layer: Story<ProgressIndicatorProps> = (args) => <ProgressIndicator {...args} />
+export const Layer: Story<ProgressIndicatorProps> = (args) => (
+  <div style={{
+    alignItems: 'center',
+    backgroundColor: '#00000099',
+    display: 'flex',
+    height: '100vh',
+    justifyContent: 'center'
+  }}
+  >
+    <ProgressIndicator {...args} />
+  </div>
+)
 Layer.args = { ...Playground.args, showLayer: true }
