@@ -8,8 +8,15 @@ describe('Progress Indicator', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+
   it('should render correctly with the given size', () => {
     const { styles, component } = renderWithTheme(<ProgressIndicator size="standard" ariaLabel="ds-progress-indicator" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly a layer behind the component', () => {
+    const { styles, component } = renderWithTheme(<ProgressIndicator showLayer ariaLabel="ds-progress-indicator" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
