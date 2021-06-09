@@ -13,26 +13,36 @@ const styles = createUseStyles((theme: Theme) => ({
     justifyContent: 'center',
     padding: theme.size.micro
   },
-  spinner: {
+  loader: {
     height: ({ size }: ProgressIndicatorProps) => size && theme.size[size],
     width: ({ size }: ProgressIndicatorProps) => size && theme.size[size],
-    border: `${theme.size.micro}px solid ${theme.color.primary}`,
-    borderLeftColor: 'transparent',
-    borderTopColor: 'transparent',
-    borderRadius: '50%',
-    animation: '$spin 1.7s linear infinite',
-    boxSizing: 'border-box'
+    '& svg': {
+      animation: '$rotate 1.7s linear infinite',
+      '& circle': {
+        fill: 'none',
+        strokeWidth: theme.size.micro,
+        animation: '$spin 1.7s linear infinite',
+        strokeLinecap: 'round',
+        stroke: theme.color.primary
+      }
+    }
   },
   '@keyframes spin': {
     '0%': {
-      transform: 'rotate(0deg)'
+      strokeDasharray: '1,200',
+      strokeDashoffset: 0
     },
-    '75%': {
-      transform: 'rotate(360deg)'
+    '50%': {
+      strokeDasharray: '100,200',
+      strokeDashoffset: -35
     },
     '100%': {
-      transform: 'rotate(720deg)'
+      strokeDasharray: '100,200',
+      strokeDashoffset: -124
     }
+  },
+  '@keyframes rotate': {
+    '100%': { transform: 'rotate(360deg)' }
   }
 }))
 
