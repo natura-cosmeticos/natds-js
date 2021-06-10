@@ -16,7 +16,7 @@ describe('Progress Indicator', () => {
   })
 
   it('should render correctly a layer behind the component', () => {
-    const { styles, component } = renderWithTheme(<ProgressIndicator showLayer ariaLabel="ds-progress-indicator" />)
+    const { styles, component } = renderWithTheme(<ProgressIndicator showBackdrop ariaLabel="ds-progress-indicator" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })

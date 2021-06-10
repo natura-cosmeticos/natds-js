@@ -12,7 +12,7 @@ export interface ProgressIndicatorProps {
    * Show a layer behind the progress indicator
    * @default false
    */
-  showLayer?: boolean
+  showBackdrop?: boolean
 
   /**
    * The Progress Indicator size

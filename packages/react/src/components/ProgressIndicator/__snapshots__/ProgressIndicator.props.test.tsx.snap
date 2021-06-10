@@ -2,7 +2,7 @@
 
 exports[`Progress Indicator should render correctly a layer behind the component 1`] = `
 Array [
-  ".layer-0-2-1 {
+  ".backdrop-0-2-1 {
   display: flex;
   padding: 4px;
   align-items: center;
@@ -45,7 +45,7 @@ Array [
     transform: rotate(720deg);
   }
 }
-  .layer-d0-0-2-5 {
+  .backdrop-d0-0-2-5 {
     height: 48px;
     width: 48px;
     background-color: #ffffff;
@@ -57,7 +57,7 @@ Array [
   <div>
     <div
       aria-label="ds-progress-indicator"
-      class="layer-0-2-1 layer-d0-0-2-5"
+      class="backdrop-0-2-1 backdrop-d0-0-2-5"
       data-testid="ds-progress-indicator"
       role="progressbar"
     >
@@ -81,7 +81,7 @@ Array [
 
 exports[`Progress Indicator should render correctly with default props 1`] = `
 Array [
-  ".layer-0-2-1 {
+  ".backdrop-0-2-1 {
   display: flex;
   padding: 4px;
   align-items: center;
@@ -124,7 +124,7 @@ Array [
     transform: rotate(720deg);
   }
 }
-  .layer-d0-0-2-5 {
+  .backdrop-d0-0-2-5 {
     height: 48px;
     width: 48px;
   }
@@ -135,7 +135,7 @@ Array [
   <div>
     <div
       aria-label="ds-progress-indicator"
-      class="layer-0-2-1 layer-d0-0-2-5"
+      class="backdrop-0-2-1 backdrop-d0-0-2-5"
       data-testid="ds-progress-indicator"
       role="progressbar"
     >
@@ -159,7 +159,7 @@ Array [
 
 exports[`Progress Indicator should render correctly with the given size 1`] = `
 Array [
-  ".layer-0-2-1 {
+  ".backdrop-0-2-1 {
   display: flex;
   padding: 4px;
   align-items: center;
@@ -202,7 +202,7 @@ Array [
     transform: rotate(720deg);
   }
 }
-  .layer-d0-0-2-5 {
+  .backdrop-d0-0-2-5 {
     height: 24px;
     width: 24px;
   }
@@ -213,7 +213,7 @@ Array [
   <div>
     <div
       aria-label="ds-progress-indicator"
-      class="layer-0-2-1 layer-d0-0-2-5"
+      class="backdrop-0-2-1 backdrop-d0-0-2-5"
       data-testid="ds-progress-indicator"
       role="progressbar"
     >

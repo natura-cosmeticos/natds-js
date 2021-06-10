@@ -43,7 +43,7 @@ export const Size: Story<ProgressIndicatorProps> = (args) => (
     <ProgressIndicator {...args} size="large" />
   </StoryContainer>
 )
-export const Layer: Story<ProgressIndicatorProps> = (args) => (
+export const Backdrop: Story<ProgressIndicatorProps> = (args) => (
   <div style={{
     alignItems: 'center',
     backgroundColor: '#00000099',
@@ -55,4 +55,4 @@ export const Layer: Story<ProgressIndicatorProps> = (args) => (
     <ProgressIndicator {...args} />
   </div>
 )
-Layer.args = { ...Playground.args, showLayer: true }
+Backdrop.args = { ...Playground.args, showBackdrop: true }
