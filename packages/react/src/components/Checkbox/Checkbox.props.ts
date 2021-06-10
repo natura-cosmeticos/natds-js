@@ -1,4 +1,4 @@
-type CheckboxVariant = 'standard' | 'indeterminated'
+type CheckboxVariant = 'standard' | 'indeterminate'
 
 export interface CheckboxProps {
 

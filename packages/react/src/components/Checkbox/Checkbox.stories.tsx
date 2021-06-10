@@ -9,7 +9,7 @@ const componentStatus = `
 **NOTE**: This component is available in the following variants:
 
   - ❌ \`standard\`
-  - ❌ \`indeterminated\`
+  - ❌ \`indeterminate\`
 
 With the following attribute status:
 
@@ -44,7 +44,7 @@ export const Variants: Story<CheckboxProps> = (args) => {
   return (
     <StoryContainer>
       <Checkbox {...args} checked={check1} onChange={() => setCheck1(!check1)} />
-      <Checkbox {...args} checked={check2} onChange={() => setCheck2(!check2)} variant="indeterminated" />
+      <Checkbox {...args} checked={check2} onChange={() => setCheck2(!check2)} variant="indeterminate" />
     </StoryContainer>
   )
 }
@@ -54,7 +54,7 @@ export const Disabled: Story<CheckboxProps> = (args) => (
   <StoryContainer>
     <Checkbox {...args} disabled />
     <Checkbox {...args} disabled checked />
-    <Checkbox {...args} disabled checked variant="indeterminated" />
+    <Checkbox {...args} disabled checked variant="indeterminate" />
   </StoryContainer>
 )
 Disabled.args = { ...Playground.args }
