@@ -9,7 +9,6 @@ export const buildTheme = (theme, mode) => create({
   barBg: theme.color.surface,
   barTextColor: theme.color.highEmphasis,
   base: mode,
-  brandImage: `${BASE_URL}/${theme.asset.brand.neutral.a}.svg`,
   brandTitle: 'Natura Design System',
   colorPrimary: theme.color.primary,
   colorSecondary: theme.color.secondary,

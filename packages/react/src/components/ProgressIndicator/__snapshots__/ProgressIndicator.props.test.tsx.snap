@@ -1,0 +1,236 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Progress Indicator should render correctly a layer behind the component 1`] = `
+Array [
+  ".backdrop-0-2-1 {
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.loader-0-2-2 {}
+.loader-0-2-2 svg {
+  animation: keyframes-rotate-0-2-4 2.7s linear infinite;
+}
+.loader-0-2-2 svg circle {
+  fill: none;
+  stroke: #f4ab34;
+  animation: keyframes-spin-0-2-3 1.7s linear infinite;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+@keyframes keyframes-spin-0-2-3 {
+  0% {
+    stroke-dasharray: 1,200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: -124;
+  }
+}
+@keyframes keyframes-rotate-0-2-4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+  .backdrop-d0-0-2-5 {
+    height: 48px;
+    width: 48px;
+    background-color: #ffffff;
+  }
+  .loader-d1-0-2-6 {
+    height: 48px;
+    width: 48px;
+  }",
+  <div>
+    <div
+      aria-label="ds-progress-indicator"
+      class="backdrop-0-2-1 backdrop-d0-0-2-5"
+      data-testid="ds-progress-indicator"
+      role="progressbar"
+    >
+      <div
+        class="loader-0-2-2 loader-d1-0-2-6"
+      >
+        <svg
+          viewBox="25 25 50 50"
+        >
+          <circle
+            cx="50"
+            cy="50"
+            r="20"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Progress Indicator should render correctly with default props 1`] = `
+Array [
+  ".backdrop-0-2-1 {
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.loader-0-2-2 {}
+.loader-0-2-2 svg {
+  animation: keyframes-rotate-0-2-4 2.7s linear infinite;
+}
+.loader-0-2-2 svg circle {
+  fill: none;
+  stroke: #f4ab34;
+  animation: keyframes-spin-0-2-3 1.7s linear infinite;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+@keyframes keyframes-spin-0-2-3 {
+  0% {
+    stroke-dasharray: 1,200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: -124;
+  }
+}
+@keyframes keyframes-rotate-0-2-4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+  .backdrop-d0-0-2-5 {
+    height: 48px;
+    width: 48px;
+  }
+  .loader-d1-0-2-6 {
+    height: 48px;
+    width: 48px;
+  }",
+  <div>
+    <div
+      aria-label="ds-progress-indicator"
+      class="backdrop-0-2-1 backdrop-d0-0-2-5"
+      data-testid="ds-progress-indicator"
+      role="progressbar"
+    >
+      <div
+        class="loader-0-2-2 loader-d1-0-2-6"
+      >
+        <svg
+          viewBox="25 25 50 50"
+        >
+          <circle
+            cx="50"
+            cy="50"
+            r="20"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Progress Indicator should render correctly with the given size 1`] = `
+Array [
+  ".backdrop-0-2-1 {
+  display: flex;
+  padding: 4px;
+  align-items: center;
+  border-radius: 50%;
+  justify-content: center;
+}
+.loader-0-2-2 {}
+.loader-0-2-2 svg {
+  animation: keyframes-rotate-0-2-4 2.7s linear infinite;
+}
+.loader-0-2-2 svg circle {
+  fill: none;
+  stroke: #f4ab34;
+  animation: keyframes-spin-0-2-3 1.7s linear infinite;
+  stroke-width: 4;
+  stroke-linecap: round;
+}
+@keyframes keyframes-spin-0-2-3 {
+  0% {
+    stroke-dasharray: 1,200;
+    stroke-dashoffset: 0;
+  }
+  50% {
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: -35;
+  }
+  100% {
+    stroke-dasharray: 100,200;
+    stroke-dashoffset: -124;
+  }
+}
+@keyframes keyframes-rotate-0-2-4 {
+  0% {
+    transform: rotate(0deg);
+  }
+  50% {
+    transform: rotate(360deg);
+  }
+  100% {
+    transform: rotate(720deg);
+  }
+}
+  .backdrop-d0-0-2-5 {
+    height: 24px;
+    width: 24px;
+  }
+  .loader-d1-0-2-6 {
+    height: 24px;
+    width: 24px;
+  }",
+  <div>
+    <div
+      aria-label="ds-progress-indicator"
+      class="backdrop-0-2-1 backdrop-d0-0-2-5"
+      data-testid="ds-progress-indicator"
+      role="progressbar"
+    >
+      <div
+        class="loader-0-2-2 loader-d1-0-2-6"
+      >
+        <svg
+          viewBox="25 25 50 50"
+        >
+          <circle
+            cx="50"
+            cy="50"
+            r="20"
+          />
+        </svg>
+      </div>
+    </div>
+  </div>,
+]
+`;
