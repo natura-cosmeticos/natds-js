@@ -1,0 +1,167 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Checkbox component should render correctly as indeterminate 1`] = `
+Array [
+  ".checkbox-0-2-1 {
+  width: 16px;
+  border: 2px solid #777777;
+  cursor: pointer;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  appearance: none;
+  border-radius: 2px;
+}
+.checkbox-0-2-1:disabled {
+  border: 2px solid #bbbbbb;
+  cursor: default;
+}
+.checkbox-0-2-1:checked {
+  color: #ffffff;
+  border: 2px solid #f4ab34;
+  background-color: #f4ab34;
+}
+.checkbox-0-2-1:checked:after {
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: natds-icons;
+}
+.checkbox-0-2-1:checked:disabled {
+  border: 2px solid #bbbbbb;
+  background-color: #bbbbbb;
+}
+.checkbox-d0-0-2-2 {}
+.checkbox-d0-0-2-2:checked {}
+.checkbox-d0-0-2-2:checked:after {
+  content: \\"\\";
+}",
+  <div>
+    <input
+      class="checkbox-0-2-1 checkbox-d0-0-2-2"
+      data-testid="ds-checkbox-any"
+      id="any"
+      type="checkbox"
+      value=""
+    />
+    <label
+      for="any"
+    />
+  </div>,
+]
+`;
+
+exports[`Checkbox component should render correctly with check 1`] = `
+Array [
+  ".checkbox-0-2-1 {
+  width: 16px;
+  border: 2px solid #777777;
+  cursor: pointer;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  appearance: none;
+  border-radius: 2px;
+}
+.checkbox-0-2-1:disabled {
+  border: 2px solid #bbbbbb;
+  cursor: default;
+}
+.checkbox-0-2-1:checked {
+  color: #ffffff;
+  border: 2px solid #f4ab34;
+  background-color: #f4ab34;
+}
+.checkbox-0-2-1:checked:after {
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: natds-icons;
+}
+.checkbox-0-2-1:checked:disabled {
+  border: 2px solid #bbbbbb;
+  background-color: #bbbbbb;
+}
+.checkbox-d0-0-2-2 {}
+.checkbox-d0-0-2-2:checked {}
+.checkbox-d0-0-2-2:checked:after {
+  content: \\"\\";
+}",
+  <div>
+    <input
+      checked=""
+      class="checkbox-0-2-1 checkbox-d0-0-2-2"
+      data-testid="ds-checkbox-any"
+      id="any"
+      type="checkbox"
+      value=""
+    />
+    <label
+      for="any"
+    />
+  </div>,
+]
+`;
+
+exports[`Checkbox component should render correctly with default props 1`] = `
+Array [
+  ".checkbox-0-2-1 {
+  width: 16px;
+  border: 2px solid #777777;
+  cursor: pointer;
+  height: 16px;
+  display: inline-block;
+  position: relative;
+  appearance: none;
+  border-radius: 2px;
+}
+.checkbox-0-2-1:disabled {
+  border: 2px solid #bbbbbb;
+  cursor: default;
+}
+.checkbox-0-2-1:checked {
+  color: #ffffff;
+  border: 2px solid #f4ab34;
+  background-color: #f4ab34;
+}
+.checkbox-0-2-1:checked:after {
+  top: 50%;
+  left: 50%;
+  display: block;
+  position: absolute;
+  font-size: 16px;
+  transform: translate(-50%, -50%);
+  text-align: center;
+  font-family: natds-icons;
+}
+.checkbox-0-2-1:checked:disabled {
+  border: 2px solid #bbbbbb;
+  background-color: #bbbbbb;
+}
+.checkbox-d0-0-2-2 {}
+.checkbox-d0-0-2-2:checked {}
+.checkbox-d0-0-2-2:checked:after {
+  content: \\"\\";
+}",
+  <div>
+    <input
+      class="checkbox-0-2-1 checkbox-d0-0-2-2"
+      data-testid="ds-checkbox-any"
+      id="any"
+      type="checkbox"
+      value=""
+    />
+    <label
+      for="any"
+    />
+  </div>,
+]
+`;
