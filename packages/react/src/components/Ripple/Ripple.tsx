@@ -8,6 +8,7 @@ type MousePosition = { x: number, y: number }
 export const getBiggestSide = ({ width, height }: Size): number => (width > height ? width : height)
 
 const Ripple = ({
+  animationDuration = 300,
   children,
   color = 'highlight',
   disabled = false,
@@ -19,12 +20,10 @@ const Ripple = ({
   const [mousePosition, setMousePosition] = useState<MousePosition>({ x: 0, y: 0 })
   const [rippleSize, setRippleSize] = useState<Size>({ width: 0, height: 0 })
 
-  const ANIMATION_DURATION = 300
-
   const showRipple = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!disabled) {
       setAnimation(rippleActive)
-      setTimeout(() => setAnimation(''), ANIMATION_DURATION)
+      setTimeout(() => setAnimation(''), animationDuration)
     }
 
     const {
@@ -43,7 +42,7 @@ const Ripple = ({
   const {
     ripple, rippleActive, rippleContainer, wrapper
   } = styles({
-    ANIMATION_DURATION,
+    animationDuration,
     color,
     disabled,
     fullWidth,
