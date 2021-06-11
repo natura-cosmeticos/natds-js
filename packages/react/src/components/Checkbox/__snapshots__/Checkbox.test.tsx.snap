@@ -2,166 +2,352 @@
 
 exports[`Checkbox component should render correctly as indeterminate 1`] = `
 Array [
-  ".checkbox-0-2-1 {
-  width: 16px;
-  border: 2px solid #777777;
-  cursor: pointer;
-  height: 16px;
-  display: inline-block;
+  ".wrapper-0-2-3 {
   position: relative;
-  appearance: none;
-  border-radius: 2px;
+  align-self: start;
 }
-.checkbox-0-2-1:disabled {
-  border: 2px solid #bbbbbb;
-  cursor: default;
-}
-.checkbox-0-2-1:checked {
-  color: #ffffff;
-  border: 2px solid #f4ab34;
-  background-color: #f4ab34;
-}
-.checkbox-0-2-1:checked:after {
-  top: 50%;
-  left: 50%;
-  display: block;
+.ripple-0-2-4 {
+  opacity: 0;
   position: absolute;
-  font-size: 16px;
   transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: natds-icons;
+  border-radius: 50%;
 }
-.checkbox-0-2-1:checked:disabled {
-  border: 2px solid #bbbbbb;
-  background-color: #bbbbbb;
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
 }
-.checkbox-d0-0-2-2 {}
-.checkbox-d0-0-2-2:checked {}
-.checkbox-d0-0-2-2:checked:after {
-  content: \\"\\";
-}",
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }
+  .checkbox-0-2-1 {
+    width: 16px;
+    border: 2px solid #777777;
+    cursor: pointer;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    appearance: none;
+    border-radius: 2px;
+  }
+  .checkbox-0-2-1:disabled {
+    border: 2px solid #bbbbbb;
+    cursor: default;
+  }
+  .checkbox-0-2-1:checked {
+    color: #ffffff;
+    border: 2px solid #f4ab34;
+    background-color: #f4ab34;
+  }
+  .checkbox-0-2-1:checked:after {
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: natds-icons;
+  }
+  .checkbox-0-2-1:checked:disabled {
+    border: 2px solid #bbbbbb;
+    background-color: #bbbbbb;
+  }
+  .checkbox-d0-0-2-2 {  }
+  .checkbox-d0-0-2-2:checked {  }
+  .checkbox-d0-0-2-2:checked:after {
+    content: \\"\\";
+  }",
   <div>
-    <input
-      class="checkbox-0-2-1 checkbox-d0-0-2-2"
-      data-testid="ds-checkbox-any"
-      id="any"
-      type="checkbox"
-      value=""
-    />
-    <label
-      for="any"
-    />
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <input
+        class="checkbox-0-2-1 checkbox-d0-0-2-2"
+        data-testid="ds-checkbox-any"
+        id="any"
+        type="checkbox"
+        value=""
+      />
+      <label
+        for="any"
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Checkbox component should render correctly with check 1`] = `
 Array [
-  ".checkbox-0-2-1 {
-  width: 16px;
-  border: 2px solid #777777;
-  cursor: pointer;
-  height: 16px;
-  display: inline-block;
+  ".wrapper-0-2-3 {
   position: relative;
-  appearance: none;
-  border-radius: 2px;
+  align-self: start;
 }
-.checkbox-0-2-1:disabled {
-  border: 2px solid #bbbbbb;
-  cursor: default;
-}
-.checkbox-0-2-1:checked {
-  color: #ffffff;
-  border: 2px solid #f4ab34;
-  background-color: #f4ab34;
-}
-.checkbox-0-2-1:checked:after {
-  top: 50%;
-  left: 50%;
-  display: block;
+.ripple-0-2-4 {
+  opacity: 0;
   position: absolute;
-  font-size: 16px;
   transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: natds-icons;
+  border-radius: 50%;
 }
-.checkbox-0-2-1:checked:disabled {
-  border: 2px solid #bbbbbb;
-  background-color: #bbbbbb;
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
 }
-.checkbox-d0-0-2-2 {}
-.checkbox-d0-0-2-2:checked {}
-.checkbox-d0-0-2-2:checked:after {
-  content: \\"\\";
-}",
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #f4ab34;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }
+  .checkbox-0-2-1 {
+    width: 16px;
+    border: 2px solid #777777;
+    cursor: pointer;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    appearance: none;
+    border-radius: 2px;
+  }
+  .checkbox-0-2-1:disabled {
+    border: 2px solid #bbbbbb;
+    cursor: default;
+  }
+  .checkbox-0-2-1:checked {
+    color: #ffffff;
+    border: 2px solid #f4ab34;
+    background-color: #f4ab34;
+  }
+  .checkbox-0-2-1:checked:after {
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: natds-icons;
+  }
+  .checkbox-0-2-1:checked:disabled {
+    border: 2px solid #bbbbbb;
+    background-color: #bbbbbb;
+  }
+  .checkbox-d0-0-2-2 {  }
+  .checkbox-d0-0-2-2:checked {  }
+  .checkbox-d0-0-2-2:checked:after {
+    content: \\"\\";
+  }",
   <div>
-    <input
-      checked=""
-      class="checkbox-0-2-1 checkbox-d0-0-2-2"
-      data-testid="ds-checkbox-any"
-      id="any"
-      type="checkbox"
-      value=""
-    />
-    <label
-      for="any"
-    />
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <input
+        checked=""
+        class="checkbox-0-2-1 checkbox-d0-0-2-2"
+        data-testid="ds-checkbox-any"
+        id="any"
+        type="checkbox"
+        value=""
+      />
+      <label
+        for="any"
+      />
+    </div>
   </div>,
 ]
 `;
 
 exports[`Checkbox component should render correctly with default props 1`] = `
 Array [
-  ".checkbox-0-2-1 {
-  width: 16px;
-  border: 2px solid #777777;
-  cursor: pointer;
-  height: 16px;
-  display: inline-block;
+  ".wrapper-0-2-3 {
   position: relative;
-  appearance: none;
-  border-radius: 2px;
+  align-self: start;
 }
-.checkbox-0-2-1:disabled {
-  border: 2px solid #bbbbbb;
-  cursor: default;
-}
-.checkbox-0-2-1:checked {
-  color: #ffffff;
-  border: 2px solid #f4ab34;
-  background-color: #f4ab34;
-}
-.checkbox-0-2-1:checked:after {
-  top: 50%;
-  left: 50%;
-  display: block;
+.ripple-0-2-4 {
+  opacity: 0;
   position: absolute;
-  font-size: 16px;
   transform: translate(-50%, -50%);
-  text-align: center;
-  font-family: natds-icons;
+  border-radius: 50%;
 }
-.checkbox-0-2-1:checked:disabled {
-  border: 2px solid #bbbbbb;
-  background-color: #bbbbbb;
+.rippleContainer-0-2-5 {
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  position: absolute;
 }
-.checkbox-d0-0-2-2 {}
-.checkbox-d0-0-2-2:checked {}
-.checkbox-d0-0-2-2:checked:after {
-  content: \\"\\";
-}",
+.rippleActive-0-2-6 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-7 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-8 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .ripple-d1-0-2-9 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-10 {  }
+  .rippleActive-d3-0-2-11 {
+    animation: keyframes-ripple-0-2-7 300ms;
+  }
+  .checkbox-0-2-1 {
+    width: 16px;
+    border: 2px solid #777777;
+    cursor: pointer;
+    height: 16px;
+    display: inline-block;
+    position: relative;
+    appearance: none;
+    border-radius: 2px;
+  }
+  .checkbox-0-2-1:disabled {
+    border: 2px solid #bbbbbb;
+    cursor: default;
+  }
+  .checkbox-0-2-1:checked {
+    color: #ffffff;
+    border: 2px solid #f4ab34;
+    background-color: #f4ab34;
+  }
+  .checkbox-0-2-1:checked:after {
+    top: 50%;
+    left: 50%;
+    display: block;
+    position: absolute;
+    font-size: 16px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    font-family: natds-icons;
+  }
+  .checkbox-0-2-1:checked:disabled {
+    border: 2px solid #bbbbbb;
+    background-color: #bbbbbb;
+  }
+  .checkbox-d0-0-2-2 {  }
+  .checkbox-d0-0-2-2:checked {  }
+  .checkbox-d0-0-2-2:checked:after {
+    content: \\"\\";
+  }",
   <div>
-    <input
-      class="checkbox-0-2-1 checkbox-d0-0-2-2"
-      data-testid="ds-checkbox-any"
-      id="any"
-      type="checkbox"
-      value=""
-    />
-    <label
-      for="any"
-    />
+    <div
+      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      data-testid="ripple-wrapper"
+    >
+      <div
+        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+      >
+        <div
+          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <input
+        class="checkbox-0-2-1 checkbox-d0-0-2-2"
+        data-testid="ds-checkbox-any"
+        id="any"
+        type="checkbox"
+        value=""
+      />
+      <label
+        for="any"
+      />
+    </div>
   </div>,
 ]
 `;
