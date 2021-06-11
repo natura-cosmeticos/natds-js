@@ -7,28 +7,31 @@ const Checkbox = ({
   checked = false,
   disabled = false,
   id,
+  indeterminate = false,
   onChange,
-  value,
-  indeterminate = false
+  testID = `ds-checkbox-${id}`,
+  value
 }: CheckboxProps): JSX.Element => {
   const { checkbox } = styles({ indeterminate })
 
   const getRippleColor = checked ? 'primary' : 'highlight'
 
   return (
-    <Ripple isCentered hideOverflow={false} disabled={disabled} color={getRippleColor}>
-      <input
-        data-testid={`ds-checkbox-${id}`}
-        checked={checked}
-        className={checkbox}
-        disabled={disabled}
-        id={id}
-        onChange={onChange}
-        type="checkbox"
-        value={value}
-      />
-      <label htmlFor={id} />
-    </Ripple>
+    <div>
+      <Ripple isCentered hideOverflow={false} disabled={disabled} color={getRippleColor}>
+        <input
+          data-testid={testID}
+          checked={checked}
+          className={checkbox}
+          disabled={disabled}
+          id={id}
+          onChange={onChange}
+          type="checkbox"
+          value={value}
+        />
+        <label htmlFor={id} />
+      </Ripple>
+    </div>
   )
 }
 
