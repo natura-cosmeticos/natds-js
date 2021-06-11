@@ -7,14 +7,25 @@ const Checkbox = ({
   disabled = false,
   id,
   onChange,
-  variant = 'standard'
+  value,
+  indeterminate = false
 }: CheckboxProps): JSX.Element => {
-  const { checkbox } = styles({ variant })
+  const { checkbox } = styles({ indeterminate })
 
   return (
-    <label htmlFor={id}>
-      <input type="checkbox" className={checkbox} disabled={disabled} id={id} checked={checked} onChange={onChange} />
-    </label>
+    <>
+      <input
+        data-testid={`ds-checkbox-${id}`}
+        checked={checked}
+        className={checkbox}
+        disabled={disabled}
+        id={id}
+        onChange={onChange}
+        type="checkbox"
+        value={value}
+      />
+      <label htmlFor={id} />
+    </>
   )
 }
 
