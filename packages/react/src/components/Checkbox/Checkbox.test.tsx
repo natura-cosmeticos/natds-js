@@ -7,7 +7,7 @@ import { CheckboxProps } from './Checkbox.props'
 const defaultProps: CheckboxProps = {
   onChange: () => '',
   id: 'any',
-  value: ''
+  value: 'any value'
 }
 
 describe('Checkbox component', () => {
@@ -17,14 +17,20 @@ describe('Checkbox component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should render correctly with check', () => {
+  it('should render correctly when is checked', () => {
     const { styles, component } = renderWithTheme(<Checkbox {...defaultProps} checked />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should render correctly as indeterminate', () => {
+  it('should render correctly when is indeterminate', () => {
     const { styles, component } = renderWithTheme(<Checkbox {...defaultProps} indeterminate />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly when is disabled', () => {
+    const { styles, component } = renderWithTheme(<Checkbox {...defaultProps} disabled />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
