@@ -3,7 +3,6 @@
 exports[`Ripple should render correctly with children 1`] = `
 Array [
   ".wrapper-0-2-1 {
-  cursor: pointer;
   position: relative;
   align-self: start;
 }
@@ -37,6 +36,7 @@ Array [
   }
 }
   .wrapper-d0-0-2-6 {
+    cursor: pointer;
     display: inline-block;
   }
   .ripple-d1-0-2-7 {

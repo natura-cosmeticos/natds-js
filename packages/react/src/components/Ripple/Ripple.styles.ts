@@ -6,7 +6,7 @@ type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'd
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
-    cursor: 'pointer',
+    cursor: ({ disabled }: RippleStyleProps) => (disabled ? 'default' : 'pointer'),
     display: ({ fullWidth }: RippleStyleProps) => (fullWidth ? 'block' : 'inline-block'),
     position: 'relative',
     alignSelf: 'start'
