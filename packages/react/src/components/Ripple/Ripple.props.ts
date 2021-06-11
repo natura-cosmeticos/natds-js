@@ -4,6 +4,10 @@ type RippleColors = keyof Pick<Color, 'primary' | 'highlight'>
 
 export interface RippleProps {
   /**
+   * The animation duration
+   */
+  animationDuration?: number
+  /**
    * The element that will have the ripple effect applied
    */
   children: React.ReactNode

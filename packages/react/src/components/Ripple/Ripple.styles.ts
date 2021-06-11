@@ -20,7 +20,7 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'absolute',
     top: ({ mousePosition, isCentered }) => (isCentered ? '50%' : mousePosition.y),
     transform: 'translate(-50%, -50%)',
-    transition: ({ ANIMATION_DURATION }) => `scale opacity ${ANIMATION_DURATION}ms`,
+    transition: ({ animationDuration }) => `scale opacity ${animationDuration}ms`,
     width: ({ size }) => size
   },
   rippleContainer: {
@@ -32,7 +32,7 @@ const styles = createUseStyles((theme: Theme) => ({
     overflow: ({ hideOverflow }: RippleStyleProps) => (hideOverflow && 'hidden')
   },
   rippleActive: {
-    animation: ({ ANIMATION_DURATION }) => `$ripple ${ANIMATION_DURATION}ms`,
+    animation: ({ animationDuration }) => `$ripple ${animationDuration}ms`,
     zIndex: 99
   },
   '@keyframes ripple': {

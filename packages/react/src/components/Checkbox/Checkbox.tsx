@@ -17,7 +17,13 @@ const Checkbox = ({
   const getRippleColor = checked ? 'primary' : 'highlight'
 
   return (
-    <Ripple isCentered hideOverflow={false} disabled={disabled} color={getRippleColor}>
+    <Ripple
+      isCentered
+      hideOverflow={false}
+      disabled={disabled}
+      color={getRippleColor}
+      animationDuration={500}
+    >
       <input
         data-testid={testID}
         checked={checked}
