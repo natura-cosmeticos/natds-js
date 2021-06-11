@@ -1,23 +1,16 @@
-type CheckboxVariant = 'standard' | 'indeterminate'
-
 export interface CheckboxProps {
 
   /**
    * If `true`, the component is checked
    * @default false
    */
-  checked: boolean
+  checked?: boolean
+
   /**
    * If `true`, the Checkbox will be disabled.
    * @default false
    */
   disabled?: boolean
-
-  /**
-   * The Checkbox variant
-   * @default standard
-   */
-  variant?: CheckboxVariant
 
   /**
    * The id of the Checkbox element
@@ -29,4 +22,17 @@ export interface CheckboxProps {
    *
    */
   onChange: React.ChangeEventHandler<HTMLInputElement>,
+
+  /**
+   * The string to use as the value of the checkbox when submitting the form,
+   * if the checkbox is currently toggled on
+   */
+  value: string
+
+  /**
+   * If `true`, indicates that the value of the checkbox is indeterminate
+   * rather than true or false
+   * @default false
+   */
+  indeterminate?: boolean
 }
