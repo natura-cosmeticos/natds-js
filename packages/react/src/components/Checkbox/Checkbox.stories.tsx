@@ -38,13 +38,13 @@ export const Playground: Story<CheckboxProps> = (args) => {
 Playground.args = { id: 'ds-checkbox' }
 
 export const Variants: Story<CheckboxProps> = (args) => {
-  const [check1, setCheck1] = useState(false)
-  const [check2, setCheck2] = useState(false)
+  const [check1, setCheck1] = useState(true)
+  const [check2, setCheck2] = useState(true)
 
   return (
     <StoryContainer>
       <Checkbox {...args} checked={check1} onChange={() => setCheck1(!check1)} />
-      <Checkbox {...args} checked={check2} onChange={() => setCheck2(!check2)} variant="indeterminate" />
+      <Checkbox {...args} checked={check2} onChange={() => setCheck2(!check2)} indeterminate />
     </StoryContainer>
   )
 }
@@ -54,7 +54,7 @@ export const Disabled: Story<CheckboxProps> = (args) => (
   <StoryContainer>
     <Checkbox {...args} disabled />
     <Checkbox {...args} disabled checked />
-    <Checkbox {...args} disabled checked variant="indeterminate" />
+    <Checkbox {...args} disabled checked indeterminate />
   </StoryContainer>
 )
 Disabled.args = { ...Playground.args }
