@@ -8,12 +8,12 @@ const componentStatus = `
 
 **NOTE**: This component is available in the following variants:
 
-  - ❌ \`standard\`
-  - ❌ \`indeterminate\`
+  - ✅ \`standard\`
+  - ✅ \`indeterminate\`
 
 With the following attribute status:
 
-- ❌ **Disabled**
+- ✅ **Disabled**
 
 ---
 `
