@@ -1,5 +1,6 @@
 import React from 'react'
 import { CheckboxProps } from './Checkbox.props'
+import Ripple from '../Ripple'
 import styles from './Checkbox.styles'
 
 const Checkbox = ({
@@ -12,8 +13,10 @@ const Checkbox = ({
 }: CheckboxProps): JSX.Element => {
   const { checkbox } = styles({ indeterminate })
 
+  const getRippleColor = checked ? 'primary' : 'highlight'
+
   return (
-    <>
+    <Ripple isCentered hideOverflow={false} disabled={disabled} color={getRippleColor}>
       <input
         data-testid={`ds-checkbox-${id}`}
         checked={checked}
@@ -25,7 +28,7 @@ const Checkbox = ({
         value={value}
       />
       <label htmlFor={id} />
-    </>
+    </Ripple>
   )
 }
 
