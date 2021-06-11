@@ -4,14 +4,15 @@ import { CheckboxProps } from './Checkbox.props'
 
 const styles = createUseStyles((theme: Theme) => ({
   checkbox: {
+    top: 2,
     appearance: 'none',
     border: `2px solid ${theme.color.mediumEmphasis}`,
     borderRadius: 2,
     cursor: 'pointer',
     display: 'inline-block',
-    height: theme.size.small,
+    height: 18,
     position: 'relative',
-    width: theme.size.small,
+    width: 18,
     '&:disabled': {
       border: `2px solid ${theme.color.lowEmphasis}`,
       cursor: 'default'
