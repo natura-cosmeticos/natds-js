@@ -18,21 +18,26 @@ export interface CheckboxProps {
   id: string
 
   /**
-   * The onChange event occurs when the element is checked.
-   *
+   * If `true`, indicates that the value of the checkbox is indeterminate
+   * rather than true or false
+   * @default false
    */
+  indeterminate?: boolean
+
+  /**
+  * The onChange event occurs when the element is checked.
+  *
+  */
   onChange: React.ChangeEventHandler<HTMLInputElement>,
+
+  /**
+   * Optional ID for testing
+   */
+  testID?: string,
 
   /**
    * The string to use as the value of the checkbox when submitting the form,
    * if the checkbox is currently toggled on
    */
   value: string
-
-  /**
-   * If `true`, indicates that the value of the checkbox is indeterminate
-   * rather than true or false
-   * @default false
-   */
-  indeterminate?: boolean
 }
