@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Checkbox, CheckboxProps } from '.'
@@ -29,13 +30,13 @@ export default {
 } as Meta
 
 export const Playground: Story<CheckboxProps> = (args) => {
-  const [check, setCheck] = useState(false)
+  const [check, setCheck] = useState(args.checked)
 
   return (
     <Checkbox {...args} checked={check} onChange={() => setCheck(!check)} />
   )
 }
-Playground.args = { id: 'checkbox' }
+Playground.args = { id: 'checkbox', testID: 'ds-checkbox', checked: false }
 
 export const Variants: Story<CheckboxProps> = (args) => {
   const [check1, setCheck1] = useState(true)
