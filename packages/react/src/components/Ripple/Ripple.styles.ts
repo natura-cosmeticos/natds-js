@@ -1,15 +1,28 @@
+/* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { RippleProps } from './Ripple.props'
 
-type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth'>>
+type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover' | 'opacity'>>
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     cursor: ({ disabled }: RippleStyleProps) => (disabled ? 'default' : 'pointer'),
     display: ({ fullWidth }: RippleStyleProps) => (fullWidth ? 'block' : 'inline-block'),
     position: 'relative',
-    alignSelf: 'start'
+    alignSelf: 'start',
+    '&:hover:not([disabled]):after': {
+      backgroundColor: ({ color }: RippleStyleProps) => theme.color[color],
+      borderRadius: '50%',
+      content: '" "',
+      height: '100%',
+      left: 0,
+      opacity: ({ showHover }: RippleStyleProps) => (showHover ? theme.opacity.mediumLow : 0),
+      position: 'absolute',
+      top: 0,
+      width: '100%',
+      zIndex: -1
+    }
   },
   ripple: {
     backgroundColor: ({ color }: RippleStyleProps) => theme.color[color],
@@ -24,12 +37,9 @@ const styles = createUseStyles((theme: Theme) => ({
     width: ({ size }) => size
   },
   rippleContainer: {
-    position: 'absolute',
-    top: 0,
-    left: 0,
-    bottom: 0,
-    right: 0,
-    overflow: ({ hideOverflow }: RippleStyleProps) => (hideOverflow && 'hidden')
+    inset: 0,
+    overflow: ({ hideOverflow }: RippleStyleProps) => (hideOverflow && 'hidden'),
+    position: 'absolute'
   },
   rippleActive: {
     animation: ({ animationDuration }) => `$ripple ${animationDuration}ms`,
