@@ -7,14 +7,10 @@ import StoryContainer from '../../helpers/StoryContainer'
 const componentStatus = `
 ---
 
-**NOTE**: This component is available in the following variants:
+**NOTE**: This component is available with the following attribute status:
 
-  - ✅ \`standard\`
-  - ✅ \`indeterminate\`
-
-With the following attribute status:
-
-- ✅ **Disabled**
+  - ✅ **Disabled**
+  - ✅ **Indeterminate**
 
 ---
 `

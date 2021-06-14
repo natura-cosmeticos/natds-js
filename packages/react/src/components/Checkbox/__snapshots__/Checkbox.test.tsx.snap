@@ -2,27 +2,34 @@
 
 exports[`Checkbox component should render correctly when is checked 1`] = `
 Array [
-  ".wrapper-0-2-3 {
+  ".wrapper-0-2-4 {
   position: relative;
   align-self: start;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4:hover:not([disabled]):after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.rippleContainer-0-2-6 {
+  inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -35,11 +42,15 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .ripple-d1-0-2-9 {
+  .wrapper-d0-0-2-9:hover:not([disabled]):after {
+    background-color: #f4ab34;
+    opacity: 0.16;
+  }
+  .ripple-d1-0-2-10 {
     background-color: #f4ab34;
     height: 0;
     left: 50%;
@@ -47,74 +58,85 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {  }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 500ms;
+  .rippleContainer-d2-0-2-11 {  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 500ms;
   }
-  .checkbox-0-2-1 {
+  .wrapper-0-2-1 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkbox-0-2-2 {
     top: 2px;
-    width: 18px;
+    width: 24px;
     border: 2px solid #777777;
     cursor: pointer;
-    height: 18px;
-    margin: 4px;
+    height: 24px;
+    margin: 0;
     display: inline-block;
     position: relative;
     appearance: none;
     border-radius: 2px;
   }
-  .checkbox-0-2-1:disabled {
+  .checkbox-0-2-2:disabled {
     border: 2px solid #bbbbbb;
     cursor: default;
   }
-  .checkbox-0-2-1:checked {
+  .checkbox-0-2-2:checked {
     color: #ffffff;
     border: 2px solid #f4ab34;
     background-color: #f4ab34;
   }
-  .checkbox-0-2-1:checked:after {
+  .checkbox-0-2-2:checked:after {
     top: 50%;
     left: 50%;
     display: block;
     position: absolute;
-    font-size: 16px;
+    font-size: 24px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: natds-icons;
   }
-  .checkbox-0-2-1:checked:disabled {
+  .checkbox-0-2-2:checked:disabled {
     border: 2px solid #bbbbbb;
     background-color: #bbbbbb;
   }
-  .checkbox-d0-0-2-2 {  }
-  .checkbox-d0-0-2-2:checked {  }
-  .checkbox-d0-0-2-2:checked:after {
+  .checkbox-d0-0-2-3 {  }
+  .checkbox-d0-0-2-3:checked {  }
+  .checkbox-d0-0-2-3:checked:after {
     content: \\"\\";
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
-      <input
-        checked=""
-        class="checkbox-0-2-1 checkbox-d0-0-2-2"
-        data-testid="ds-checkbox-any"
-        id="any"
-        type="checkbox"
-        value="any value"
-      />
-      <label
-        for="any"
-      />
+      <div
+        class="wrapper-0-2-1"
+      >
+        <input
+          checked=""
+          class="checkbox-0-2-2 checkbox-d0-0-2-3"
+          data-testid="ds-checkbox-any"
+          id="any"
+          type="checkbox"
+          value="any value"
+        />
+        <label
+          for="any"
+        />
+      </div>
     </div>
   </div>,
 ]
@@ -122,27 +144,34 @@ Array [
 
 exports[`Checkbox component should render correctly when is disabled 1`] = `
 Array [
-  ".wrapper-0-2-3 {
+  ".wrapper-0-2-4 {
   position: relative;
   align-self: start;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4:hover:not([disabled]):after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.rippleContainer-0-2-6 {
+  inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -155,11 +184,15 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: default;
     display: inline-block;
   }
-  .ripple-d1-0-2-9 {
+  .wrapper-d0-0-2-9:hover:not([disabled]):after {
+    background-color: #000000;
+    opacity: 0.16;
+  }
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -167,74 +200,85 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {  }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 500ms;
+  .rippleContainer-d2-0-2-11 {  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 500ms;
   }
-  .checkbox-0-2-1 {
+  .wrapper-0-2-1 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkbox-0-2-2 {
     top: 2px;
-    width: 18px;
+    width: 24px;
     border: 2px solid #777777;
     cursor: pointer;
-    height: 18px;
-    margin: 4px;
+    height: 24px;
+    margin: 0;
     display: inline-block;
     position: relative;
     appearance: none;
     border-radius: 2px;
   }
-  .checkbox-0-2-1:disabled {
+  .checkbox-0-2-2:disabled {
     border: 2px solid #bbbbbb;
     cursor: default;
   }
-  .checkbox-0-2-1:checked {
+  .checkbox-0-2-2:checked {
     color: #ffffff;
     border: 2px solid #f4ab34;
     background-color: #f4ab34;
   }
-  .checkbox-0-2-1:checked:after {
+  .checkbox-0-2-2:checked:after {
     top: 50%;
     left: 50%;
     display: block;
     position: absolute;
-    font-size: 16px;
+    font-size: 24px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: natds-icons;
   }
-  .checkbox-0-2-1:checked:disabled {
+  .checkbox-0-2-2:checked:disabled {
     border: 2px solid #bbbbbb;
     background-color: #bbbbbb;
   }
-  .checkbox-d0-0-2-2 {  }
-  .checkbox-d0-0-2-2:checked {  }
-  .checkbox-d0-0-2-2:checked:after {
+  .checkbox-d0-0-2-3 {  }
+  .checkbox-d0-0-2-3:checked {  }
+  .checkbox-d0-0-2-3:checked:after {
     content: \\"\\";
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
-      <input
-        class="checkbox-0-2-1 checkbox-d0-0-2-2"
-        data-testid="ds-checkbox-any"
-        disabled=""
-        id="any"
-        type="checkbox"
-        value="any value"
-      />
-      <label
-        for="any"
-      />
+      <div
+        class="wrapper-0-2-1"
+      >
+        <input
+          class="checkbox-0-2-2 checkbox-d0-0-2-3"
+          data-testid="ds-checkbox-any"
+          disabled=""
+          id="any"
+          type="checkbox"
+          value="any value"
+        />
+        <label
+          for="any"
+        />
+      </div>
     </div>
   </div>,
 ]
@@ -242,27 +286,34 @@ Array [
 
 exports[`Checkbox component should render correctly when is indeterminate 1`] = `
 Array [
-  ".wrapper-0-2-3 {
+  ".wrapper-0-2-4 {
   position: relative;
   align-self: start;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4:hover:not([disabled]):after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.rippleContainer-0-2-6 {
+  inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -275,11 +326,15 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .ripple-d1-0-2-9 {
+  .wrapper-d0-0-2-9:hover:not([disabled]):after {
+    background-color: #000000;
+    opacity: 0.16;
+  }
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -287,73 +342,84 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {  }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 500ms;
+  .rippleContainer-d2-0-2-11 {  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 500ms;
   }
-  .checkbox-0-2-1 {
+  .wrapper-0-2-1 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkbox-0-2-2 {
     top: 2px;
-    width: 18px;
+    width: 24px;
     border: 2px solid #777777;
     cursor: pointer;
-    height: 18px;
-    margin: 4px;
+    height: 24px;
+    margin: 0;
     display: inline-block;
     position: relative;
     appearance: none;
     border-radius: 2px;
   }
-  .checkbox-0-2-1:disabled {
+  .checkbox-0-2-2:disabled {
     border: 2px solid #bbbbbb;
     cursor: default;
   }
-  .checkbox-0-2-1:checked {
+  .checkbox-0-2-2:checked {
     color: #ffffff;
     border: 2px solid #f4ab34;
     background-color: #f4ab34;
   }
-  .checkbox-0-2-1:checked:after {
+  .checkbox-0-2-2:checked:after {
     top: 50%;
     left: 50%;
     display: block;
     position: absolute;
-    font-size: 16px;
+    font-size: 24px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: natds-icons;
   }
-  .checkbox-0-2-1:checked:disabled {
+  .checkbox-0-2-2:checked:disabled {
     border: 2px solid #bbbbbb;
     background-color: #bbbbbb;
   }
-  .checkbox-d0-0-2-2 {  }
-  .checkbox-d0-0-2-2:checked {  }
-  .checkbox-d0-0-2-2:checked:after {
+  .checkbox-d0-0-2-3 {  }
+  .checkbox-d0-0-2-3:checked {  }
+  .checkbox-d0-0-2-3:checked:after {
     content: \\"\\";
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
-      <input
-        class="checkbox-0-2-1 checkbox-d0-0-2-2"
-        data-testid="ds-checkbox-any"
-        id="any"
-        type="checkbox"
-        value="any value"
-      />
-      <label
-        for="any"
-      />
+      <div
+        class="wrapper-0-2-1"
+      >
+        <input
+          class="checkbox-0-2-2 checkbox-d0-0-2-3"
+          data-testid="ds-checkbox-any"
+          id="any"
+          type="checkbox"
+          value="any value"
+        />
+        <label
+          for="any"
+        />
+      </div>
     </div>
   </div>,
 ]
@@ -361,27 +427,34 @@ Array [
 
 exports[`Checkbox component should render correctly with default props 1`] = `
 Array [
-  ".wrapper-0-2-3 {
+  ".wrapper-0-2-4 {
   position: relative;
   align-self: start;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4:hover:not([disabled]):after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.rippleContainer-0-2-6 {
+  inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -394,11 +467,15 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .ripple-d1-0-2-9 {
+  .wrapper-d0-0-2-9:hover:not([disabled]):after {
+    background-color: #000000;
+    opacity: 0.16;
+  }
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -406,73 +483,84 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {  }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 500ms;
+  .rippleContainer-d2-0-2-11 {  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 500ms;
   }
-  .checkbox-0-2-1 {
+  .wrapper-0-2-1 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .checkbox-0-2-2 {
     top: 2px;
-    width: 18px;
+    width: 24px;
     border: 2px solid #777777;
     cursor: pointer;
-    height: 18px;
-    margin: 4px;
+    height: 24px;
+    margin: 0;
     display: inline-block;
     position: relative;
     appearance: none;
     border-radius: 2px;
   }
-  .checkbox-0-2-1:disabled {
+  .checkbox-0-2-2:disabled {
     border: 2px solid #bbbbbb;
     cursor: default;
   }
-  .checkbox-0-2-1:checked {
+  .checkbox-0-2-2:checked {
     color: #ffffff;
     border: 2px solid #f4ab34;
     background-color: #f4ab34;
   }
-  .checkbox-0-2-1:checked:after {
+  .checkbox-0-2-2:checked:after {
     top: 50%;
     left: 50%;
     display: block;
     position: absolute;
-    font-size: 16px;
+    font-size: 24px;
     transform: translate(-50%, -50%);
     text-align: center;
     font-family: natds-icons;
   }
-  .checkbox-0-2-1:checked:disabled {
+  .checkbox-0-2-2:checked:disabled {
     border: 2px solid #bbbbbb;
     background-color: #bbbbbb;
   }
-  .checkbox-d0-0-2-2 {  }
-  .checkbox-d0-0-2-2:checked {  }
-  .checkbox-d0-0-2-2:checked:after {
+  .checkbox-d0-0-2-3 {  }
+  .checkbox-d0-0-2-3:checked {  }
+  .checkbox-d0-0-2-3:checked:after {
     content: \\"\\";
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
-      <input
-        class="checkbox-0-2-1 checkbox-d0-0-2-2"
-        data-testid="ds-checkbox-any"
-        id="any"
-        type="checkbox"
-        value="any value"
-      />
-      <label
-        for="any"
-      />
+      <div
+        class="wrapper-0-2-1"
+      >
+        <input
+          class="checkbox-0-2-2 checkbox-d0-0-2-3"
+          data-testid="ds-checkbox-any"
+          id="any"
+          type="checkbox"
+          value="any value"
+        />
+        <label
+          for="any"
+        />
+      </div>
     </div>
   </div>,
 ]
