@@ -3,17 +3,23 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 import { CheckboxProps } from './Checkbox.props'
 
 const styles = createUseStyles((theme: Theme) => ({
+  wrapper: {
+    height: theme.size.semiX,
+    width: theme.size.semiX,
+    display: 'flex',
+    alignItems: 'center',
+    justifyContent: 'center'
+  },
   checkbox: {
     appearance: 'none',
     border: `2px solid ${theme.color.mediumEmphasis}`,
     borderRadius: 2,
     cursor: 'pointer',
     display: 'inline-block',
-    height: 18,
-    margin: theme.spacing.micro,
+    height: theme.size.standard,
+    margin: 0,
     position: 'relative',
-    top: 2,
-    width: 18,
+    width: theme.size.standard,
     '&:disabled': {
       border: `2px solid ${theme.color.lowEmphasis}`,
       cursor: 'default'
@@ -26,7 +32,7 @@ const styles = createUseStyles((theme: Theme) => ({
         content: ({ indeterminate }: CheckboxProps) => (indeterminate ? '"\uea5d"' : '"\uea3c"'),
         display: 'block',
         fontFamily: 'natds-icons',
-        fontSize: theme.size.small,
+        fontSize: theme.size.standard,
         left: '50%',
         position: 'absolute',
         textAlign: 'center',
