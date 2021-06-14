@@ -14,7 +14,8 @@ const Ripple = ({
   disabled = false,
   fullWidth = false,
   hideOverflow = true,
-  isCentered = false
+  isCentered = false,
+  showHover = false
 }: RippleProps): JSX.Element => {
   const [animation, setAnimation] = useState('')
   const [mousePosition, setMousePosition] = useState<MousePosition>({ x: 0, y: 0 })
@@ -49,7 +50,8 @@ const Ripple = ({
     hideOverflow,
     isCentered,
     mousePosition,
-    size
+    size,
+    showHover
   })
 
   return (

@@ -6,6 +6,16 @@ Array [
   position: relative;
   align-self: start;
 }
+.wrapper-0-2-1:hover:not([disabled]):after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
 .ripple-0-2-2 {
   opacity: 0;
   position: absolute;
@@ -13,10 +23,7 @@ Array [
   border-radius: 50%;
 }
 .rippleContainer-0-2-3 {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+  inset: 0;
   position: absolute;
 }
 .rippleActive-0-2-4 {
@@ -38,6 +45,10 @@ Array [
   .wrapper-d0-0-2-6 {
     cursor: pointer;
     display: inline-block;
+  }
+  .wrapper-d0-0-2-6:hover:not([disabled]):after {
+    background-color: #000000;
+    opacity: 0;
   }
   .ripple-d1-0-2-7 {
     background-color: #000000;

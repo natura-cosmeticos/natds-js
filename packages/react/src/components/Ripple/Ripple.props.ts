@@ -31,4 +31,8 @@ export interface RippleProps {
    * If `true`, align the ripple in the center of element
    */
   isCentered?: boolean
+  /**
+   *
+   */
+  showHover?: boolean
 }
