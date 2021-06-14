@@ -3,7 +3,7 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { RippleProps } from './Ripple.props'
 
-type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover' | 'opacity'>>
+type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover'>>
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {

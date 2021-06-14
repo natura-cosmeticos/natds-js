@@ -12,7 +12,7 @@ const Checkbox = ({
   testID = `ds-checkbox-${id}`,
   value
 }: CheckboxProps): JSX.Element => {
-  const { checkbox } = styles({ indeterminate })
+  const { checkbox, wrapper } = styles({ indeterminate })
 
   const getRippleColor = checked ? 'primary' : 'highlight'
 
@@ -23,18 +23,21 @@ const Checkbox = ({
       disabled={disabled}
       color={getRippleColor}
       animationDuration={500}
+      showHover
     >
-      <input
-        data-testid={testID}
-        checked={checked}
-        className={checkbox}
-        disabled={disabled}
-        id={id}
-        onChange={onChange}
-        type="checkbox"
-        value={value}
-      />
-      <label htmlFor={id} />
+      <div className={wrapper}>
+        <input
+          data-testid={testID}
+          checked={checked}
+          className={checkbox}
+          disabled={disabled}
+          id={id}
+          onChange={onChange}
+          type="checkbox"
+          value={value}
+        />
+        <label htmlFor={id} />
+      </div>
     </Ripple>
   )
 }
