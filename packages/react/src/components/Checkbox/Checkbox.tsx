@@ -14,7 +14,7 @@ const Checkbox = ({
 }: CheckboxProps): JSX.Element => {
   const { checkbox, wrapper } = styles({ indeterminate })
 
-  const getRippleColor = checked ? 'primary' : 'highlight'
+  const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
 
   return (
     <Ripple
