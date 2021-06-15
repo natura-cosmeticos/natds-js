@@ -14,6 +14,7 @@ export interface CheckboxProps {
 
   /**
    * The id of the Checkbox element
+   * Must be the same as label
    */
   id: string
 

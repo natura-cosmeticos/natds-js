@@ -37,7 +37,6 @@ const Checkbox = ({
           type="checkbox"
           value={value}
         />
-        <label htmlFor={id} />
       </div>
     </Ripple>
   )
