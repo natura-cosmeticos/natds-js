@@ -1,3 +1,4 @@
+/* eslint-disable max-lines-per-function */
 import React, { useState } from 'react'
 import styles from './Ripple.styles'
 import { RippleProps } from './Ripple.props'
@@ -12,6 +13,7 @@ const Ripple = ({
   children,
   color = 'highlight',
   disabled = false,
+  focus = false,
   fullWidth = false,
   hideOverflow = true,
   isCentered = false,
@@ -54,8 +56,10 @@ const Ripple = ({
     showHover
   })
 
+  const showFocus = focus ? 0 : -1
+
   return (
-    <div className={wrapper} onClick={showRipple} data-testid="ripple-wrapper">
+    <div className={wrapper} onClick={showRipple} data-testid="ripple-wrapper" tabIndex={showFocus}>
       <div className={rippleContainer}>
         <div className={`${ripple} ${animation}`} data-testid="ripple-animation" />
       </div>

@@ -20,6 +20,9 @@ const styles = createUseStyles((theme: Theme) => ({
     margin: 0,
     position: 'relative',
     width: theme.size.standard,
+    '&:focus': {
+      outline: 'none'
+    },
     '&:disabled': {
       border: `2px solid ${theme.color.lowEmphasis}`,
       cursor: 'default'

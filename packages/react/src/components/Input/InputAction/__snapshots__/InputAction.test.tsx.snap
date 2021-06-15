@@ -37,19 +37,15 @@ Array [
   height: 32px;
   width: 32px;
 }
-.icon-0-2-17 {
+.icon-0-2-18 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-18 {
+.icon-d0-0-2-19 {
   color: #333333;
   font-size: 24px;
 }
-.wrapper-0-2-8 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-8:hover:after {
+.sharedRippleEffect-0-2-8 {
   top: 0;
   left: 0;
   width: 100%;
@@ -59,20 +55,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-9 {
+.wrapper-0-2-9 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-9:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-9:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-10 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-10 {
+.rippleContainer-0-2-11 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-11 {
+.rippleActive-0-2-12 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-12 {
+@keyframes keyframes-ripple-0-2-13 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -85,15 +107,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-13 {
+  .wrapper-d0-0-2-14 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-13:hover:after {
+  .wrapper-d0-0-2-14:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-14:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-14 {
+  .ripple-d1-0-2-15 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -101,11 +126,11 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-15 {
+  .rippleContainer-d2-0-2-16 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-16 {
-    animation: keyframes-ripple-0-2-12 300ms;
+  .rippleActive-d3-0-2-17 {
+    animation: keyframes-ripple-0-2-13 300ms;
   }
   .container-0-2-1 {  }
   .wrapper-0-2-2 {
@@ -128,14 +153,15 @@ Array [
       class="container-0-2-1 container-d0-0-2-4"
     >
       <div
-        class="wrapper-0-2-8 wrapper-d0-0-2-13"
+        class="wrapper-0-2-9 wrapper-d0-0-2-14"
         data-testid="ripple-wrapper"
+        tabindex="-1"
       >
         <div
-          class="rippleContainer-0-2-10 rippleContainer-d2-0-2-15"
+          class="rippleContainer-0-2-11 rippleContainer-d2-0-2-16"
         >
           <div
-            class="ripple-0-2-9 ripple-d1-0-2-14 "
+            class="ripple-0-2-10 ripple-d1-0-2-15 "
             data-testid="ripple-animation"
           />
         </div>
@@ -147,7 +173,7 @@ Array [
           <i
             aria-hidden="false"
             arial-label="some rating icon button"
-            class="icon-0-2-17 icon-d0-0-2-18 natds-icons natds-icons-filled-action-rating"
+            class="icon-0-2-18 icon-d0-0-2-19 natds-icons natds-icons-filled-action-rating"
             data-testid="icon-filled-action-rating"
             role="button"
           />
