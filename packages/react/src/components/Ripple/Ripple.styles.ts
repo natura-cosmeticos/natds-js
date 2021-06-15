@@ -1,4 +1,5 @@
 /* eslint-disable max-lines-per-function */
+/* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { RippleProps } from './Ripple.props'
@@ -11,13 +12,13 @@ const styles = createUseStyles((theme: Theme) => ({
     display: ({ fullWidth }: RippleStyleProps) => (fullWidth ? 'block' : 'inline-block'),
     position: 'relative',
     alignSelf: 'start',
-    '&:hover:not([disabled]):after': {
+    '&:hover:after': {
       backgroundColor: ({ color }: RippleStyleProps) => theme.color[color],
       borderRadius: '50%',
       content: '" "',
       height: '100%',
       left: 0,
-      opacity: ({ showHover }: RippleStyleProps) => (showHover ? theme.opacity.mediumLow : 0),
+      opacity: ({ showHover, disabled }: RippleStyleProps) => (!disabled && showHover ? theme.opacity.mediumLow : 0),
       position: 'absolute',
       top: 0,
       width: '100%',
