@@ -2,11 +2,7 @@
 
 exports[`Checkbox component should render correctly when is checked 1`] = `
 Array [
-  ".wrapper-0-2-4 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-4:hover:after {
+  ".sharedRippleEffect-0-2-4 {
   top: 0;
   left: 0;
   width: 100%;
@@ -16,20 +12,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.wrapper-0-2-5 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-5:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-5:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-7 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-8 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-9 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -42,15 +64,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-10 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-10:focus:after {
+    background-color: #f4ab34;
+  }
+  .wrapper-d0-0-2-10:hover:after {
     background-color: #f4ab34;
     opacity: 0.16;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-11 {
     background-color: #f4ab34;
     height: 0;
     left: 50%;
@@ -58,9 +83,9 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {  }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 500ms;
+  .rippleContainer-d2-0-2-12 {  }
+  .rippleActive-d3-0-2-13 {
+    animation: keyframes-ripple-0-2-9 500ms;
   }
   .wrapper-0-2-1 {
     width: 40px;
@@ -79,6 +104,9 @@ Array [
     position: relative;
     appearance: none;
     border-radius: 2px;
+  }
+  .checkbox-0-2-2:focus {
+    outline: none;
   }
   .checkbox-0-2-2:disabled {
     border: 2px solid #bbbbbb;
@@ -110,14 +138,15 @@ Array [
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-5 wrapper-d0-0-2-10"
       data-testid="ripple-wrapper"
+      tabindex="0"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-6 ripple-d1-0-2-11 "
           data-testid="ripple-animation"
         />
       </div>
@@ -143,11 +172,7 @@ Array [
 
 exports[`Checkbox component should render correctly when is disabled 1`] = `
 Array [
-  ".wrapper-0-2-4 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-4:hover:after {
+  ".sharedRippleEffect-0-2-4 {
   top: 0;
   left: 0;
   width: 100%;
@@ -157,20 +182,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.wrapper-0-2-5 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-5:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-5:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-7 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-8 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-9 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -183,15 +234,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-10 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-10:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-10:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-11 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -199,9 +253,9 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {  }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 500ms;
+  .rippleContainer-d2-0-2-12 {  }
+  .rippleActive-d3-0-2-13 {
+    animation: keyframes-ripple-0-2-9 500ms;
   }
   .wrapper-0-2-1 {
     width: 40px;
@@ -220,6 +274,9 @@ Array [
     position: relative;
     appearance: none;
     border-radius: 2px;
+  }
+  .checkbox-0-2-2:focus {
+    outline: none;
   }
   .checkbox-0-2-2:disabled {
     border: 2px solid #bbbbbb;
@@ -251,14 +308,15 @@ Array [
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-5 wrapper-d0-0-2-10"
       data-testid="ripple-wrapper"
+      tabindex="0"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-6 ripple-d1-0-2-11 "
           data-testid="ripple-animation"
         />
       </div>
@@ -284,11 +342,7 @@ Array [
 
 exports[`Checkbox component should render correctly when is indeterminate 1`] = `
 Array [
-  ".wrapper-0-2-4 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-4:hover:after {
+  ".sharedRippleEffect-0-2-4 {
   top: 0;
   left: 0;
   width: 100%;
@@ -298,20 +352,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.wrapper-0-2-5 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-5:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-5:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-7 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-8 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-9 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -324,15 +404,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-10 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-10:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-10:hover:after {
     background-color: #000000;
     opacity: 0.16;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-11 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -340,9 +423,9 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {  }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 500ms;
+  .rippleContainer-d2-0-2-12 {  }
+  .rippleActive-d3-0-2-13 {
+    animation: keyframes-ripple-0-2-9 500ms;
   }
   .wrapper-0-2-1 {
     width: 40px;
@@ -361,6 +444,9 @@ Array [
     position: relative;
     appearance: none;
     border-radius: 2px;
+  }
+  .checkbox-0-2-2:focus {
+    outline: none;
   }
   .checkbox-0-2-2:disabled {
     border: 2px solid #bbbbbb;
@@ -392,14 +478,15 @@ Array [
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-5 wrapper-d0-0-2-10"
       data-testid="ripple-wrapper"
+      tabindex="0"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-6 ripple-d1-0-2-11 "
           data-testid="ripple-animation"
         />
       </div>
@@ -424,11 +511,7 @@ Array [
 
 exports[`Checkbox component should render correctly with default props 1`] = `
 Array [
-  ".wrapper-0-2-4 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-4:hover:after {
+  ".sharedRippleEffect-0-2-4 {
   top: 0;
   left: 0;
   width: 100%;
@@ -438,20 +521,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.wrapper-0-2-5 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-5:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-5:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-6 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-7 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-8 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-9 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -464,15 +573,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-10 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-10:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-10:hover:after {
     background-color: #000000;
     opacity: 0.16;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-11 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -480,9 +592,9 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {  }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 500ms;
+  .rippleContainer-d2-0-2-12 {  }
+  .rippleActive-d3-0-2-13 {
+    animation: keyframes-ripple-0-2-9 500ms;
   }
   .wrapper-0-2-1 {
     width: 40px;
@@ -501,6 +613,9 @@ Array [
     position: relative;
     appearance: none;
     border-radius: 2px;
+  }
+  .checkbox-0-2-2:focus {
+    outline: none;
   }
   .checkbox-0-2-2:disabled {
     border: 2px solid #bbbbbb;
@@ -532,14 +647,15 @@ Array [
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-5 wrapper-d0-0-2-10"
       data-testid="ripple-wrapper"
+      tabindex="0"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-6 ripple-d1-0-2-11 "
           data-testid="ripple-animation"
         />
       </div>

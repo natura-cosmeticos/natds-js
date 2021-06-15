@@ -24,6 +24,7 @@ const Checkbox = ({
       color={getRippleColor}
       animationDuration={500}
       showHover
+      focus
     >
       <div className={wrapper}>
         <input

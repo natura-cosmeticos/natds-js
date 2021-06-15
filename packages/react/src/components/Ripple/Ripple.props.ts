@@ -35,4 +35,8 @@ export interface RippleProps {
    *
    */
   showHover?: boolean
+  /**
+   *
+   */
+  focus?: boolean
 }

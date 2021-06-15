@@ -37,19 +37,15 @@ Array [
   height: 32px;
   width: 32px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #777777;
   font-size: 24px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -59,20 +55,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -85,15 +107,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -101,22 +126,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -128,7 +154,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -176,19 +202,15 @@ Array [
   height: 32px;
   width: 32px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #333333;
   font-size: 24px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -198,20 +220,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -224,15 +272,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -240,22 +291,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -266,7 +318,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -313,19 +365,15 @@ Array [
   height: 32px;
   width: 32px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #777777;
   font-size: 24px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -335,20 +383,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -361,15 +435,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -377,22 +454,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -404,7 +482,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -452,19 +530,15 @@ Array [
   opacity: 0.56;
   width: 32px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #333333;
   font-size: 24px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -474,20 +548,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -500,15 +600,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -516,22 +619,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -542,7 +646,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -590,19 +694,15 @@ Array [
   opacity: 0.56;
   width: 32px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #bbbbbb;
   font-size: 24px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -612,20 +712,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -638,15 +764,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -654,22 +783,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -681,7 +811,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -728,19 +858,15 @@ Array [
   height: 32px;
   width: 32px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #f4ab34;
   font-size: 24px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -750,20 +876,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -776,15 +928,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -792,22 +947,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -818,7 +974,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -865,19 +1021,15 @@ Array [
   height: 32px;
   width: 32px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #ffffff;
   font-size: 24px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -887,20 +1039,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -913,15 +1091,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -929,22 +1110,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -955,7 +1137,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -1002,19 +1184,15 @@ Array [
   height: 48px;
   width: 48px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #333333;
   font-size: 40px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1024,20 +1202,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1050,15 +1254,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1066,22 +1273,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -1092,7 +1300,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -1139,19 +1347,15 @@ Array [
   height: 40px;
   width: 40px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #333333;
   font-size: 32px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1161,20 +1365,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1187,15 +1417,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1203,22 +1436,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -1229,7 +1463,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -1276,19 +1510,15 @@ Array [
   height: 32px;
   width: 32px;
 }
-.icon-0-2-12 {
+.icon-0-2-13 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-13 {
+.icon-d0-0-2-14 {
   color: #333333;
   font-size: 24px;
 }
-.wrapper-0-2-3 {
-  position: relative;
-  align-self: start;
-}
-.wrapper-0-2-3:hover:after {
+.sharedRippleEffect-0-2-3 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1298,20 +1528,46 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-4 {
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-5 {
+.rippleContainer-0-2-6 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-6 {
+.rippleActive-0-2-7 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-7 {
+@keyframes keyframes-ripple-0-2-8 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1324,15 +1580,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-8 {
+  .wrapper-d0-0-2-9 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-8:hover:after {
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-9 {
+  .ripple-d1-0-2-10 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1340,22 +1599,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-10 {
+  .rippleContainer-d2-0-2-11 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-11 {
-    animation: keyframes-ripple-0-2-7 300ms;
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-3 wrapper-d0-0-2-8"
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-5 rippleContainer-d2-0-2-10"
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
       >
         <div
-          class="ripple-0-2-4 ripple-d1-0-2-9 "
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
           data-testid="ripple-animation"
         />
       </div>
@@ -1366,7 +1626,7 @@ Array [
         <i
           aria-hidden="false"
           arial-label=""
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-default-mockup"
+          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />

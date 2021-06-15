@@ -32,7 +32,7 @@ export const Playground: Story<CheckboxProps> = (args) => {
     <Checkbox {...args} checked={check} onChange={() => setCheck(!check)} />
   )
 }
-Playground.args = { id: 'checkbox', testID: 'ds-checkbox', checked: false }
+Playground.args = { testID: 'ds-checkbox', checked: false }
 
 export const Variants: Story<CheckboxProps> = (args) => {
   const [check1, setCheck1] = useState(true)

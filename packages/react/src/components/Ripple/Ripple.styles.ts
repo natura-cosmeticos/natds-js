@@ -7,22 +7,31 @@ import { RippleProps } from './Ripple.props'
 type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover'>>
 
 const styles = createUseStyles((theme: Theme) => ({
+  sharedRippleEffect: {
+    borderRadius: '50%',
+    content: '" "',
+    height: '100%',
+    left: 0,
+    position: 'absolute',
+    top: 0,
+    width: '100%',
+    zIndex: -1
+  },
   wrapper: {
     cursor: ({ disabled }: RippleStyleProps) => (disabled ? 'default' : 'pointer'),
     display: ({ fullWidth }: RippleStyleProps) => (fullWidth ? 'block' : 'inline-block'),
     position: 'relative',
     alignSelf: 'start',
-    '&:hover:after': {
+    outline: 'none',
+    '&:focus:after': {
+      extend: 'sharedRippleEffect',
       backgroundColor: ({ color }: RippleStyleProps) => theme.color[color],
-      borderRadius: '50%',
-      content: '" "',
-      height: '100%',
-      left: 0,
-      opacity: ({ showHover, disabled }: RippleStyleProps) => (!disabled && showHover ? theme.opacity.mediumLow : 0),
-      position: 'absolute',
-      top: 0,
-      width: '100%',
-      zIndex: -1
+      opacity: theme.opacity.mediumLow
+    },
+    '&:hover:after': {
+      extend: 'sharedRippleEffect',
+      backgroundColor: ({ color }: RippleStyleProps) => theme.color[color],
+      opacity: ({ showHover, disabled }: RippleStyleProps) => (!disabled && showHover ? theme.opacity.mediumLow : 0)
     }
   },
   ripple: {
