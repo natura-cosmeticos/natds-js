@@ -49,7 +49,7 @@ Array [
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-8:hover:not([disabled]):after {
+.wrapper-0-2-8:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -89,7 +89,7 @@ Array [
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-13:hover:not([disabled]):after {
+  .wrapper-d0-0-2-13:hover:after {
     background-color: #000000;
     opacity: 0;
   }

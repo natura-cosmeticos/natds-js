@@ -6,7 +6,7 @@ Array [
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:hover:not([disabled]):after {
+.wrapper-0-2-4:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -46,7 +46,7 @@ Array [
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:hover:not([disabled]):after {
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #f4ab34;
     opacity: 0.16;
   }
@@ -147,7 +147,7 @@ Array [
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:hover:not([disabled]):after {
+.wrapper-0-2-4:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -187,9 +187,9 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:hover:not([disabled]):after {
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
-    opacity: 0.16;
+    opacity: 0;
   }
   .ripple-d1-0-2-10 {
     background-color: #000000;
@@ -288,7 +288,7 @@ Array [
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:hover:not([disabled]):after {
+.wrapper-0-2-4:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -328,7 +328,7 @@ Array [
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:hover:not([disabled]):after {
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0.16;
   }
@@ -428,7 +428,7 @@ Array [
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:hover:not([disabled]):after {
+.wrapper-0-2-4:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -468,7 +468,7 @@ Array [
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:hover:not([disabled]):after {
+  .wrapper-d0-0-2-9:hover:after {
     background-color: #000000;
     opacity: 0.16;
   }
