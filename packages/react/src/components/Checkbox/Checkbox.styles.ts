@@ -16,10 +16,10 @@ const styles = createUseStyles((theme: Theme) => ({
     borderRadius: 2,
     cursor: 'pointer',
     display: 'inline-block',
-    height: theme.size.standard,
+    height: 18,
     margin: 0,
     position: 'relative',
-    width: theme.size.standard,
+    width: 18,
     '&:focus': {
       outline: 'none'
     },
@@ -35,7 +35,7 @@ const styles = createUseStyles((theme: Theme) => ({
         content: ({ indeterminate }: CheckboxProps) => (indeterminate ? '"\uea5d"' : '"\uea3c"'),
         display: 'block',
         fontFamily: 'natds-icons',
-        fontSize: theme.size.standard,
+        fontSize: 18,
         left: '50%',
         position: 'absolute',
         textAlign: 'center',
