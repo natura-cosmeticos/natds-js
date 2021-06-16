@@ -32,11 +32,12 @@ export interface RippleProps {
    */
   isCentered?: boolean
   /**
-   *
+   * If `true`, will add a hover equal Ripple effect to the children component
    */
   showHover?: boolean
   /**
-   *
+   * If `true`, will add an effect equal Ripple effect
+   * when the the children component is on focus
    */
   focus?: boolean
 }
