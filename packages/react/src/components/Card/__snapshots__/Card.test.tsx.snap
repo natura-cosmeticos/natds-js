@@ -1,0 +1,67 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Card component should not apply border-radius style 1`] = `
+Array [
+  ".card-0-2-1 {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 328px;
+  background-color: #ffffff;
+}
+.card-d0-0-2-2 {
+  border-radius: none;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+}",
+  <div>
+    <div
+      class="card-0-2-1 card-d0-0-2-2"
+    >
+      some content
+    </div>
+  </div>,
+]
+`;
+
+exports[`Card component should not apply box-shadow style 1`] = `
+Array [
+  ".card-0-2-1 {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 328px;
+  background-color: #ffffff;
+}
+.card-d0-0-2-2 {
+  border-radius: 4px;
+  box-shadow: none;
+}",
+  <div>
+    <div
+      class="card-0-2-1 card-d0-0-2-2"
+    >
+      some content
+    </div>
+  </div>,
+]
+`;
+
+exports[`Card component should render correctly with default props 1`] = `
+Array [
+  ".card-0-2-1 {
+  display: inline-block;
+  overflow: hidden;
+  max-width: 328px;
+  background-color: #ffffff;
+}
+.card-d0-0-2-2 {
+  border-radius: 4px;
+  box-shadow: 0 1px 1px 0 rgba(0, 0, 0, 0.14);
+}",
+  <div>
+    <div
+      class="card-0-2-1 card-d0-0-2-2"
+    >
+      some content
+    </div>
+  </div>,
+]
+`;
