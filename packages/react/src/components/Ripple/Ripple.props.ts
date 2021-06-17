@@ -4,6 +4,10 @@ type RippleColors = keyof Pick<Color, 'primary' | 'highlight'>
 
 export interface RippleProps {
   /**
+   * The animation duration
+   */
+  animationDuration?: number
+  /**
    * The element that will have the ripple effect applied
    */
   children: React.ReactNode
@@ -27,4 +31,13 @@ export interface RippleProps {
    * If `true`, align the ripple in the center of element
    */
   isCentered?: boolean
+  /**
+   * If `true`, will add a hover equal Ripple effect to the children component
+   */
+  showHover?: boolean
+  /**
+   * If `true`, will add an effect equal Ripple effect
+   * when the the children component is on focus
+   */
+  focus?: boolean
 }
