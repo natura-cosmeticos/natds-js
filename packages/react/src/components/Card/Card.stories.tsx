@@ -11,7 +11,7 @@ const componentStatus = `
 
 **NOTE**: This component is available in the following attributes:
 
-  - ✅ \`elavation\`
+  - ✅ \`elevation\`
   - ✅ \`radius\`
 
 ---
