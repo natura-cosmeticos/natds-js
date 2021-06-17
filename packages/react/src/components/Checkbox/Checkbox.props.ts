@@ -13,8 +13,7 @@ export interface CheckboxProps {
   disabled?: boolean
 
   /**
-   * The id of the Checkbox element
-   * Must be the same as label
+   * The id of the Checkbox element. Must be the same as label
    */
   id: string
 
@@ -26,8 +25,7 @@ export interface CheckboxProps {
   indeterminate?: boolean
 
   /**
-  * The onChange event occurs when the element is checked.
-  *
+  * The onchange event occurs when the checked state has been changed.
   */
   onChange: React.ChangeEventHandler<HTMLInputElement>,
 
