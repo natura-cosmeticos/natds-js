@@ -2,28 +2,56 @@
 
 exports[`Ripple should render correctly with children 1`] = `
 Array [
-  ".wrapper-0-2-1 {
-  cursor: pointer;
+  ".sharedRippleEffect-0-2-1 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-2 {
+  outline: none;
   position: relative;
   align-self: start;
 }
-.ripple-0-2-2 {
+.wrapper-0-2-2:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-2:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-3 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-3 {
-  top: 0;
-  left: 0;
-  right: 0;
-  bottom: 0;
+.rippleContainer-0-2-4 {
+  inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-4 {
+.rippleActive-0-2-5 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-5 {
+@keyframes keyframes-ripple-0-2-6 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -36,10 +64,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-6 {
+  .wrapper-d0-0-2-7 {
+    cursor: pointer;
     display: inline-block;
   }
-  .ripple-d1-0-2-7 {
+  .wrapper-d0-0-2-7:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-7:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-8 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -47,22 +83,23 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-8 {
+  .rippleContainer-d2-0-2-9 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-9 {
-    animation: keyframes-ripple-0-2-5 300ms;
+  .rippleActive-d3-0-2-10 {
+    animation: keyframes-ripple-0-2-6 300ms;
   }",
   <div>
     <div
-      class="wrapper-0-2-1 wrapper-d0-0-2-6"
+      class="wrapper-0-2-2 wrapper-d0-0-2-7"
       data-testid="ripple-wrapper"
+      tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-3 rippleContainer-d2-0-2-8"
+        class="rippleContainer-0-2-4 rippleContainer-d2-0-2-9"
       >
         <div
-          class="ripple-0-2-2 ripple-d1-0-2-7 "
+          class="ripple-0-2-3 ripple-d1-0-2-8 "
           data-testid="ripple-animation"
         />
       </div>
