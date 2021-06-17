@@ -5,9 +5,11 @@ const defaultAlias = {
 }
 
 module.exports = {
+  plugins: [
+    ['babel-plugin-module-resolver', { alias: defaultAlias }]
+  ],
   presets: [
     ['@babel/preset-env', { targets: { node: 'current' } }],
-    ['babel-plugin-module-resolver', { alias: defaultAlias }],
     '@babel/preset-typescript',
     '@babel/preset-react'
   ]
