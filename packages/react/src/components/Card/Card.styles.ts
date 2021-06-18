@@ -5,8 +5,8 @@ import { CardProps } from './Card.props'
 const styles = createUseStyles((theme: Theme) => ({
   card: {
     backgroundColor: theme.color.surface,
-    borderRadius: ({ radius }: CardProps) => (radius && radius ? theme.borderRadius.medium : 'none'),
-    boxShadow: ({ elevation }: CardProps) => (elevation && elevation ? theme.elevation.micro : 'none'),
+    borderRadius: ({ radius }: CardProps) => (radius ? theme.borderRadius.medium : 'none'),
+    boxShadow: ({ elevation }: CardProps) => (elevation ? theme.elevation.micro : 'none'),
     display: 'inline-block',
     overflow: 'hidden'
   }
