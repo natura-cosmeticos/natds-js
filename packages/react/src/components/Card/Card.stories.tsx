@@ -41,7 +41,7 @@ export const Playground: Story<CardProps> = (args) => {
           This is just an example of the Card component
           containing an image, a text and a button
         </p>
-        <Button text="button" onClick={() => ''} iconName="filled-action-add" fullWidth />
+        <Button text="button" onClick={() => ''} fullWidth />
       </div>
     </Card>
   )
@@ -92,7 +92,7 @@ const textStyle = createUseStyles((theme: Theme) => ({
     fontSize: 14,
     fontWeight: 'normal',
     letterSpacing: 0.22,
-    maxWidth: 168,
+    maxWidth: 200,
     textAlign: 'center'
   }
 }))
