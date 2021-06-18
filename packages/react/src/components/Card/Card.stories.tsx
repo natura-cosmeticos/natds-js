@@ -5,6 +5,7 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 import { Card, CardProps } from '.'
 import { Button } from '../Button'
 import { Icon } from '../Icon'
+import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
 ---
@@ -50,27 +51,39 @@ export const Elevation: Story<CardProps> = (args) => {
   const { text } = textStyle()
 
   return (
-    <Card {...args}>
-      <p className={text}>
-        This is an example of the Card component with elevation
-      </p>
-    </Card>
+    <StoryContainer>
+      <Card {...args}>
+        <p className={text}>
+          This is an example of the Card component with elevation
+        </p>
+      </Card>
+      <Card {...args} elevation={false}>
+        <p className={text}>
+          This is an example of the Card component without elevation
+        </p>
+      </Card>
+    </StoryContainer>
   )
 }
-Elevation.args = { elevation: true }
 
 export const Radius: Story<CardProps> = (args) => {
   const { text } = textStyle()
 
   return (
-    <Card {...args}>
-      <p className={text}>
-        This is an example of the Card component with radius
-      </p>
-    </Card>
+    <StoryContainer>
+      <Card {...args}>
+        <p className={text}>
+          This is an example of the Card component with radius
+        </p>
+      </Card>
+      <Card {...args} radius={false}>
+        <p className={text}>
+          This is an example of the Card component without radius
+        </p>
+      </Card>
+    </StoryContainer>
   )
 }
-Radius.args = { radius: true }
 
 const textStyle = createUseStyles((theme: Theme) => ({
   text: {
