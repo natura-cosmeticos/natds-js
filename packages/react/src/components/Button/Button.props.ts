@@ -1,6 +1,11 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
+import { Size } from '@naturacosmeticos/natds-themes'
 
-interface ButtonBaseProps {
+export type IconPosition = 'left' | 'right'
+export type ButtonSize = keyof Pick<Size, 'semi' | 'semiX' | 'medium'>
+export type ButtonVariant = 'contained' | 'outlined' | 'text'
+
+export interface ButtonBaseProps {
   /**
    * If `true`, the button will be disabled.
    * @default false
@@ -22,7 +27,7 @@ interface ButtonBaseProps {
   * The size of the button
   * @default semiX
   */
-  size?: 'semi' | 'semiX' | 'medium';
+  size?: ButtonSize;
 
   /**
    * Optional ID for testing
@@ -39,11 +44,11 @@ interface ButtonBaseProps {
    * The variant to use.
    * @default contained
    */
-  variant?: 'contained' | 'outlined' | 'text';
+  variant?: ButtonVariant;
 
 }
 
-type ButtonWithIcon = ButtonBaseProps & {
+export type ButtonWithIcon = ButtonBaseProps & {
   /**
    * If `true`, will show an icon on the right
    * @default false
@@ -53,7 +58,7 @@ type ButtonWithIcon = ButtonBaseProps & {
   /**
    * Set the icon position
    */
-  iconPosition: 'left' | 'right'
+  iconPosition: IconPosition
 
   /**
    * Set the icon to be rendered.
