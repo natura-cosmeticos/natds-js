@@ -77,8 +77,7 @@ export const Icon: Story<ButtonProps> = (args) => (
 Icon.args = {
   ...Playground.args,
   showIcon: true,
-  iconName: 'outlined-default-mockup',
-  iconPosition: 'right'
+  iconName: 'outlined-default-mockup'
 }
 
 export const FullWidth: Story<ButtonProps> = Playground.bind({})

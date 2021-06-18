@@ -58,7 +58,7 @@ export type ButtonWithIcon = ButtonBaseProps & {
   /**
    * Set the icon position
    */
-  iconPosition: IconPosition
+  iconPosition?: IconPosition
 
   /**
    * Set the icon to be rendered.
@@ -68,4 +68,6 @@ export type ButtonWithIcon = ButtonBaseProps & {
   iconName: IconName
 }
 
-export type ButtonProps = ButtonBaseProps & { showIcon?: never } | ButtonWithIcon
+export type ButtonProps = ButtonBaseProps
+  & { showIcon?: never, iconPosition?: never }
+  | ButtonWithIcon

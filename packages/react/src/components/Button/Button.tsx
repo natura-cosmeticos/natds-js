@@ -14,6 +14,7 @@ const Button = ({
   testID,
   text,
   variant = 'contained',
+  iconPosition = 'right',
   ...rest
 }: ButtonProps): JSX.Element => {
   const { button, label, labelContainer } = styles({
@@ -21,6 +22,7 @@ const Button = ({
     fullWidth,
     variant,
     disabled,
+    iconPosition,
     ...rest
   })
 
