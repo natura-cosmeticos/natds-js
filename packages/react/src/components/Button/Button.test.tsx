@@ -9,7 +9,6 @@ import { checkIconColor } from './Button'
 jest.mock('../Ripple/Ripple')
 
 const buttonProps: ButtonProps = {
-  iconName: 'outlined-default-mockup',
   onClick: () => '',
   text: 'button'
 }
@@ -71,18 +70,18 @@ describe('Button component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-  it('should render icon to the right when the showIcon is true', () => {
-    const { styles, component } = renderWithTheme(<Button {...buttonProps} showIcon />)
+  it('should render icon to the right as default when the showIcon is true', () => {
+    const { styles, component } = renderWithTheme(<Button {...buttonProps} showIcon iconName="outlined-default-mockup" />)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
   it('should render icon to the left when the showIcon is true and iconPosition is left', () => {
-    const { styles, component } = renderWithTheme(<Button {...buttonProps} showIcon iconPosition="left" />)
+    const { styles, component } = renderWithTheme(<Button {...buttonProps} showIcon iconPosition="left" iconName="outlined-default-mockup" />)
 
     expect(component.getByTestId('icon-outlined-default-mockup')).toBeTruthy()
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-  it('should render correctly with the given iconName', () => {
+  it('should render correctly with the given icon name', () => {
     const { styles, component } = renderWithTheme(<Button {...buttonProps} showIcon iconName="filled-action-check" />)
 
     expect(component.getByTestId('icon-filled-action-check')).toBeTruthy()

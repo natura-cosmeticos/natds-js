@@ -9,14 +9,13 @@ export const checkIconColor = (variant: string, isDisabled: boolean) => (isDisab
 const Button = ({
   disabled = false,
   fullWidth = false,
-  iconName,
-  iconPosition = 'right',
   onClick,
-  showIcon = false,
   size = 'semiX',
   testID,
   text,
-  variant = 'contained'
+  variant = 'contained',
+  iconPosition = 'right',
+  ...rest
 }: ButtonProps): JSX.Element => {
   const { button, label, labelContainer } = styles({
     size,
@@ -24,7 +23,7 @@ const Button = ({
     variant,
     disabled,
     iconPosition,
-    showIcon
+    ...rest
   })
 
   return (
@@ -38,7 +37,7 @@ const Button = ({
       >
         <span className={labelContainer}>
           <span className={label}>{text}</span>
-          {showIcon && <Icon name={iconName} color={checkIconColor(variant, disabled)} />}
+          {rest.showIcon && <Icon name={rest.iconName} color={checkIconColor(variant, disabled)} />}
         </span>
       </button>
     </Ripple>

@@ -4,19 +4,10 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { ButtonProps } from './Button.props'
 
-type ButtonStyleProps = Required<Pick<ButtonProps,
-  'disabled' |
-  'fullWidth' |
-  'iconPosition' |
-  'showIcon' |
-  'size' |
-  'variant'
->>
+const isContained = ({ variant }: ButtonProps) => variant === 'contained'
+const isOutlined = ({ variant }: ButtonProps) => variant === 'outlined'
 
-const isContained = ({ variant }: ButtonStyleProps) => variant === 'contained'
-const isOutlined = ({ variant }: ButtonStyleProps) => variant === 'outlined'
-
-const getLabelStyles = (theme: Theme, props: ButtonStyleProps) => {
+const getLabelStyles = (theme: Theme, props: ButtonProps) => {
   const color = {
     active: (isContained(props) ? theme.color.onPrimary : theme.color.highEmphasis),
     disabled: ((isContained(props) && props.disabled) ? theme.color.highEmphasis : theme.color.mediumEmphasis)
@@ -25,7 +16,7 @@ const getLabelStyles = (theme: Theme, props: ButtonStyleProps) => {
   return props.disabled ? color.disabled : color.active
 }
 
-const getPaddingStyles = (theme: Theme, { size }: ButtonStyleProps) => {
+const getPaddingStyles = (theme: Theme, { size }: ButtonProps) => {
   switch (size) {
     case 'semi':
       return theme.spacing.micro
@@ -38,7 +29,8 @@ const getPaddingStyles = (theme: Theme, { size }: ButtonStyleProps) => {
   }
 }
 
-const getLabelMargin = (theme: Theme, side: string) => ({ showIcon, iconPosition }: ButtonStyleProps) => showIcon && iconPosition === side && theme.size.tiny
+const getLabelMargin = (theme: Theme, side: string) => (props: ButtonProps) => props.showIcon && props.iconPosition === side && theme.size.tiny
+const getIconPosition = (props: ButtonProps) => (props.showIcon && props.iconPosition === 'right' ? 'row' : 'row-reverse')
 
 const styles = createUseStyles((theme: Theme) => ({
   button: {
@@ -47,13 +39,13 @@ const styles = createUseStyles((theme: Theme) => ({
     boxShadow: (props) => (isContained(props) ? theme.elevation.tiny : 'none'),
     borderRadius: theme.borderRadius.medium,
     cursor: 'pointer',
-    height: ({ size }: ButtonStyleProps) => theme.size[size],
+    height: ({ size }: ButtonProps) => size && theme.size[size],
     outline: 0,
     overflow: 'hidden',
     paddingLeft: (props) => getPaddingStyles(theme, props),
     paddingRight: (props) => getPaddingStyles(theme, props),
     position: 'relative',
-    width: ({ fullWidth }: ButtonStyleProps) => (fullWidth ? '100%' : 'auto'),
+    width: ({ fullWidth }: ButtonProps) => (fullWidth ? '100%' : 'auto'),
     '&:after': {
       backgroundColor: theme.color.highlight,
       content: '" "',
@@ -80,11 +72,11 @@ const styles = createUseStyles((theme: Theme) => ({
   labelContainer: {
     alignItems: 'center',
     display: 'flex',
-    flexDirection: ({ iconPosition }: ButtonStyleProps) => (iconPosition === 'right' ? 'row' : 'row-reverse'),
+    flexDirection: (props) => getIconPosition(props),
     justifyContent: 'center'
   },
   label: {
-    color: (props: ButtonStyleProps) => getLabelStyles(theme, props),
+    color: (props: ButtonProps) => getLabelStyles(theme, props),
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     fontSize: 14,
     fontWeight: 500,
