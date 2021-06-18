@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.4.1](https://github.com/natura-cosmeticos/natds-js/compare/v2.4.0...v2.4.1) (2021-06-18)
+
+
+### Reverts
+
+* Revert "feat: create alias to component (#1421)" (#1424) ([9f9ce24](https://github.com/natura-cosmeticos/natds-js/commit/9f9ce240519e0000f93fe5b7d759faf910a1c4f9)), closes [#1421](https://github.com/natura-cosmeticos/natds-js/issues/1421) [#1424](https://github.com/natura-cosmeticos/natds-js/issues/1424)
+
+
+
+
+
 # [2.4.0](https://github.com/natura-cosmeticos/natds-js/compare/v2.3.0...v2.4.0) (2021-06-17)
 
 
