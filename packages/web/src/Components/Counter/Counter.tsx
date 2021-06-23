@@ -1,13 +1,10 @@
-/* eslint-disable max-lines */
-/* eslint-disable @typescript-eslint/no-empty-function */
-/* eslint-disable no-unused-expressions */
 import * as React from 'react'
 import { ICounterProps } from './Counter.props'
-import { TextField } from '../TextField'
 import { useStyles } from './Counter.styles'
 import { ButtonGroup } from '../ButtonGroup'
 import { Button } from '../Button'
 import { InputLabel } from '../InputLabel'
+import { InputCounter } from './InputCounter'
 import { QUANTITY, MAX_VALUE, MIN_VALUE } from './constants'
 
 export { ICounterProps } from './Counter.props'
@@ -94,11 +91,9 @@ export const Counter = (props: ICounterProps) => {
         >
           -
         </Button>
-        <TextField
-          color="secondary"
+        <InputCounter
           value={value}
           className={input}
-          type="number"
           onChange={handleInputChange}
         />
         <Button

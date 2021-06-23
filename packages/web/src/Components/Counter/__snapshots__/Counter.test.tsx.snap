@@ -39,13 +39,8 @@ exports[`Counter component renders correctly: Counter component renders correctl
     >
       <div
         className="MuiInputBase-root MuiInput-root MuiInputBase-colorSecondary MuiInput-colorSecondary MuiInputBase-formControl MuiInput-formControl"
-        disableElevation={true}
-        disableFocusRipple={false}
-        disableRipple={false}
         onClick={[Function]}
         required={false}
-        size="small"
-        variant="outlined"
       >
         <input
           aria-invalid={false}
@@ -139,13 +134,8 @@ exports[`Counter component renders with label: Counter component renders with la
     >
       <div
         className="MuiInputBase-root MuiInput-root MuiInputBase-colorSecondary MuiInput-colorSecondary MuiInputBase-formControl MuiInput-formControl"
-        disableElevation={true}
-        disableFocusRipple={false}
-        disableRipple={false}
         onClick={[Function]}
         required={false}
-        size="small"
-        variant="outlined"
       >
         <input
           aria-invalid={false}
