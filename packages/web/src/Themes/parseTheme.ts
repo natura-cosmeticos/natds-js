@@ -1,8 +1,8 @@
 import { ITheme } from '@naturacosmeticos/natds-styles'
-import { IThemeWeb } from './IThemeWeb'
+import { IThemeWebBase } from './IThemeWeb'
 import { parseShadows } from './parseShadows'
 
-export const parseTheme = (theme: ITheme): IThemeWeb => {
+export const parseTheme = (theme: ITheme): IThemeWebBase => {
   const { shadows } = theme
 
   return {
