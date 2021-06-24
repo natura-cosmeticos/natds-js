@@ -1,5 +1,7 @@
 import { Color } from '@naturacosmeticos/natds-themes'
+import { Breakpoints } from '@material-ui/core/styles/createBreakpoints'
 import { fontSize } from '../tokens/fontSize'
+
 import {
   IAvatarSizes,
   IButtonSizes,
@@ -27,7 +29,9 @@ type ITypography = {
  *
  * @see https://material-ui.com/pt/customization/theming/#api
  */
-export interface ITheme {
+
+export type ITheme = IThemeBase & { breakpoints?: Breakpoints; }
+export interface IThemeBase {
   shape?: {
     borderRadius?: number;
     badgeBorderRadius?: number;
@@ -110,7 +114,6 @@ export interface ITheme {
   spacing: number;
   color: Color;
   shadows: IElevation;
-
   /**
    * @since 0.22
    * @todo Adopt opacity tokens from theme
