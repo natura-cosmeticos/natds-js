@@ -1,5 +1,5 @@
 import * as React from 'react'
-import { IThemeWeb } from '../Themes'
+import { IThemeWebBase } from '../Themes/IThemeWeb'
 
 export interface IProviderProps {
 
@@ -15,7 +15,7 @@ export interface IProviderProps {
    * @optional
    * @type IThemeWeb
    */
-  theme?: IThemeWeb;
+  theme?: IThemeWebBase;
 
   /**
    * A css prefix to be added in the dynamic class names generation.

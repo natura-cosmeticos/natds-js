@@ -53,6 +53,7 @@
     "rollup:build": "rollup -c",
     "start": "yarn build --watch",
     "storybook": "yarn update:storybook:fonts && start-storybook -p 6006 -s ./.storybook/assets",
+    "tsc": "tsc --noEmit",
     "test": "jest --verbose --silent",
     "test:coverage": "jest --coverage --silent",
     "test:ci": "yarn test:coverage && codecov -t",
