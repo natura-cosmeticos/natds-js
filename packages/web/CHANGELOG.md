@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.2](https://github.com/natura-cosmeticos/natds-js/compare/v2.0.1...v2.0.2) (2021-06-23)
+
+
+### Bug Fixes
+
+* **natds-styles:** add breakpoints to the theme interface ([#1435](https://github.com/natura-cosmeticos/natds-js/issues/1435)) ([b555e4b](https://github.com/natura-cosmeticos/natds-js/commit/b555e4bcbde6c1d9fcfd331909842ea360de60ed))
+
+
+
+
+
 # [2.0.0](https://github.com/natura-cosmeticos/natds-js/compare/v1.8.3...v2.0.0) (2021-05-13)
 
 

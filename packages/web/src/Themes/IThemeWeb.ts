@@ -1,7 +1,12 @@
 import { IFont, ITheme } from '@naturacosmeticos/natds-styles'
 import { Shadows as IShadows } from '@material-ui/core/styles/shadows'
+import { Breakpoints } from '@material-ui/core/styles/createBreakpoints'
 
-export interface IThemeWeb
+export type IThemeWeb = IThemeWebBase & {
+  breakpoints: Breakpoints;
+}
+
+export interface IThemeWebBase
   extends Pick<ITheme,
     | 'avatarSizes'
     | 'iconSizes'
