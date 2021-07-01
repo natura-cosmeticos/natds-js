@@ -22,10 +22,13 @@ export const Icon = React.forwardRef<HTMLElement, IIconProps>(
       className,
       name = 'filled-default-mockup',
       size = 'standard',
+      color,
       ...otherProps
     } = props
 
     const classes = useStyles({ name, size })
+
+    const checkColor = color === 'default' ? 'inherit' : color
 
     const classNames = clsx([
       'natds-icons',
@@ -34,7 +37,7 @@ export const Icon = React.forwardRef<HTMLElement, IIconProps>(
       classes.root
     ])
 
-    return <MaterialIcon className={classNames} component="i" ref={ref} {...otherProps} />
+    return <MaterialIcon className={classNames} component="i" color={checkColor} ref={ref} {...otherProps} />
   }
 )
 

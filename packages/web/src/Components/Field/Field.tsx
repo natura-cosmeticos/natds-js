@@ -25,6 +25,8 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
       // eslint-disable-next-line @typescript-eslint/no-unused-vars
       label,
       mask,
+      guide,
+      placeholderChar,
       maxLength,
       multiline,
       onChange,
@@ -104,7 +106,9 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
         inputProps={{
           className: className && `${className}__input`,
           mask,
-          maxLength
+          guide,
+          maxLength,
+          placeholderChar
         }}
         multiline={multiline}
         onChange={handleChange}
