@@ -35,7 +35,7 @@ describe('Icon component', () => {
     })
   })
 
-  describe('when the deafult color is provided', () => {
+  describe('when the default color is provided', () => {
     it('should render correctly', () => {
       testRenderer = TestRenderer.create(<Icon name="filled-action-add" color="default" />)
       expect(testRenderer).toMatchSnapshot()
