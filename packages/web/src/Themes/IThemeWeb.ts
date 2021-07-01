@@ -1,9 +1,11 @@
 import { IFont, ITheme } from '@naturacosmeticos/natds-styles'
 import { Shadows as IShadows } from '@material-ui/core/styles/shadows'
 import { Breakpoints } from '@material-ui/core/styles/createBreakpoints'
+import { ZIndexOptions } from '@material-ui/core/styles/zIndex'
 
 export type IThemeWeb = IThemeWebBase & {
   breakpoints: Breakpoints;
+  zIndex: ZIndexOptions
 }
 
 export interface IThemeWebBase
