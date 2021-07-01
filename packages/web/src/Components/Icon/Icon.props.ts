@@ -5,7 +5,12 @@ import { IconProps } from '@material-ui/core/Icon'
 /**
  * @todo add support to color tokens from Natura & Co. themes
  */
-export type IconColor = 'default' | 'error' | 'inherit' | 'primary' | 'secondary';
+export type IconColor =
+  'default' |
+  'error' |
+  'inherit' |
+  'primary' |
+  'secondary';
 
 export type IconSize = keyof IIconSizes;
 

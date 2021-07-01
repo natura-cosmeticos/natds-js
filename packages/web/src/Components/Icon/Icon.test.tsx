@@ -35,6 +35,13 @@ describe('Icon component', () => {
     })
   })
 
+  describe('when the deafult color is provided', () => {
+    it('should render correctly', () => {
+      testRenderer = TestRenderer.create(<Icon name="filled-action-add" color="default" />)
+      expect(testRenderer).toMatchSnapshot()
+    })
+  })
+
   const iconSizes: string[] = Object.keys(tokens.iconSizes)
 
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
