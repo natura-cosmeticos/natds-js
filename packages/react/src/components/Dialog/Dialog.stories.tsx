@@ -37,12 +37,12 @@ export default {
 } as Meta
 
 export const Playground: Story<DialogProps> = (args) => {
-  const [showDialog, setShowDialog] = useState(args.openDialog)
+  const [showDialog, setShowDialog] = useState(args.showDialog)
 
   return (
     <>
       <Button text="open dialog" onClick={() => setShowDialog(!showDialog)} />
-      <Dialog {...args} openDialog={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description">
+      <Dialog {...args} showDialog={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description">
         <DialogHeader title="Example" id="dialog-title" />
         <DialogBody showDivider>
           <p id="dialog-description">
@@ -59,4 +59,8 @@ export const Playground: Story<DialogProps> = (args) => {
     </>
   )
 }
-Playground.args = { testID: 'ds-dialog', openDialog: false }
+Playground.args = {
+  role: 'dialog',
+  showDialog: false,
+  testID: 'ds-dialog'
+}

@@ -1,0 +1,284 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog AlertDialog Role should render correctly with given children and default props 1`] = `
+Array [
+  ".dialog-0-2-1 {
+  z-index: 3;
+  position: fixed;
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 2;
+  position: fixed;
+  background: #000000;
+  align-items: center;
+  justify-content: center;
+}
+.dialog-d0-0-2-3 {
+  display: none;
+}
+.overlay-d1-0-2-4 {
+  display: none;
+}
+.dialogContentContainer-0-2-5 {
+  color: #333333;
+  font-size: 16px;
+}
+.dialogContent-0-2-6 {
+  padding: 16px;
+  overflow-y: auto;
+  font-family: Roboto, sans-serif;
+}",
+  <div>
+    <section
+      aria-describedby="description"
+      aria-modal="false"
+      class="dialog-0-2-1 dialog-d0-0-2-3"
+      role="alertdialog"
+    >
+      <div
+        class="dialogContentContainer-0-2-5"
+      >
+        <div
+          class="dialogContent-0-2-6"
+        >
+          something on the body
+        </div>
+      </div>
+    </section>
+    <div
+      class="overlay-0-2-2 overlay-d1-0-2-4"
+    />
+  </div>,
+]
+`;
+
+exports[`Dialog Dialog role should render correctly with divider at DialogBody 1`] = `
+Array [
+  ".dialog-0-2-1 {
+  z-index: 3;
+  position: fixed;
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 2;
+  position: fixed;
+  background: #000000;
+  align-items: center;
+  justify-content: center;
+}
+.dialog-d0-0-2-3 {
+  display: none;
+}
+.overlay-d1-0-2-4 {
+  display: none;
+}
+.dialogHeaderContainer-0-2-5 {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+.dialogHeader-0-2-6 {
+  color: #333333;
+  margin: 0;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+}
+.dialogHeaderChildrenContainer-0-2-7 {
+  gap: 16px;
+  display: flex;
+}
+.action-0-2-13 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  justify-content: flex-end;
+}
+.divider-0-2-10 {
+  border: 0;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #bbbbbb;
+}
+.divider-d0-0-2-11 {
+  margin-right: 0;
+  margin-left: 0;
+}
+.divider-d1-0-2-12 {
+  margin-right: 0;
+  margin-left: 0;
+}
+.dialogContentContainer-0-2-8 {
+  color: #333333;
+  font-size: 16px;
+}
+.dialogContent-0-2-9 {
+  padding: 16px;
+  overflow-y: auto;
+  font-family: Roboto, sans-serif;
+}",
+  <div>
+    <section
+      aria-describedby="description"
+      aria-labelledby="title"
+      aria-modal="false"
+      class="dialog-0-2-1 dialog-d0-0-2-3"
+      role="dialog"
+    >
+      <div
+        class="dialogHeaderContainer-0-2-5"
+      >
+        <h2
+          class="dialogHeader-0-2-6"
+          id="title"
+        >
+          Example
+        </h2>
+        <div
+          class="dialogHeaderChildrenContainer-0-2-7"
+        />
+      </div>
+      <div
+        class="dialogContentContainer-0-2-8"
+      >
+        <hr
+          class="divider-0-2-10 divider-d0-0-2-11"
+        />
+        <div
+          class="dialogContent-0-2-9"
+        >
+          something on the body
+        </div>
+        <hr
+          class="divider-0-2-10 divider-d1-0-2-12"
+        />
+      </div>
+      <div
+        class="action-0-2-13"
+      >
+        something on the footer
+      </div>
+    </section>
+    <div
+      class="overlay-0-2-2 overlay-d1-0-2-4"
+    />
+  </div>,
+]
+`;
+
+exports[`Dialog Dialog role should render correctly with given children 1`] = `
+Array [
+  ".dialog-0-2-1 {
+  z-index: 3;
+  position: fixed;
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  border-radius: 4px;
+  background-color: #ffffff;
+}
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 2;
+  position: fixed;
+  background: #000000;
+  align-items: center;
+  justify-content: center;
+}
+.dialog-d0-0-2-3 {
+  display: none;
+}
+.overlay-d1-0-2-4 {
+  display: none;
+}
+.dialogHeaderContainer-0-2-5 {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  justify-content: space-between;
+}
+.dialogHeader-0-2-6 {
+  color: #333333;
+  margin: 0;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+}
+.dialogHeaderChildrenContainer-0-2-7 {
+  gap: 16px;
+  display: flex;
+}
+.action-0-2-10 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  justify-content: flex-end;
+}
+.dialogContentContainer-0-2-8 {
+  color: #333333;
+  font-size: 16px;
+}
+.dialogContent-0-2-9 {
+  padding: 16px;
+  overflow-y: auto;
+  font-family: Roboto, sans-serif;
+}",
+  <div>
+    <section
+      aria-describedby="description"
+      aria-labelledby="title"
+      aria-modal="false"
+      class="dialog-0-2-1 dialog-d0-0-2-3"
+      role="dialog"
+    >
+      <div
+        class="dialogHeaderContainer-0-2-5"
+      >
+        <h2
+          class="dialogHeader-0-2-6"
+          id="title"
+        >
+          Example
+        </h2>
+        <div
+          class="dialogHeaderChildrenContainer-0-2-7"
+        />
+      </div>
+      <div
+        class="dialogContentContainer-0-2-8"
+      >
+        <div
+          class="dialogContent-0-2-9"
+        >
+          something on the body
+        </div>
+      </div>
+      <div
+        class="action-0-2-10"
+      >
+        something on the footer
+      </div>
+    </section>
+    <div
+      class="overlay-0-2-2 overlay-d1-0-2-4"
+    />
+  </div>,
+]
+`;

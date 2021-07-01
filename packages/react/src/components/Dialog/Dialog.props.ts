@@ -15,10 +15,18 @@ export interface DialogProps {
   children: React.ReactNode
 
   /**
+   * A `dialog` is a window overlaid on either the primary window or another dialog window
+   *
+   * An `alertdialog` is a modal dialog that interrupts the user's workflow to
+   * communicate an important message and acquire a response.
+   */
+  role: 'dialog' | 'alertdialog'
+
+  /**
    * If `true`, the `Dialog` is open.
    * @default false
    */
-  openDialog?: boolean
+  showDialog?: boolean
 
   /**
    * Optional ID for testing
