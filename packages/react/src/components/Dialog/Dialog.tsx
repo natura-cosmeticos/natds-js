@@ -6,22 +6,25 @@ const Dialog = ({
   ariaDescribedBy,
   ariaLabelledBy,
   children,
-  openDialog = false,
+  role,
+  showDialog = false,
   testID
 }: DialogProps): JSX.Element => {
-  const { wrapper, dialog } = styles()
+  const { dialog, overlay } = styles({ showDialog })
 
   return (
     <>
-      {openDialog && (
-        <div className={wrapper}>
-          <div role="dialog" aria-labelledby={ariaLabelledBy} aria-describedby={ariaDescribedBy}>
-            <section data-testid={testID} className={dialog}>
-              {children}
-            </section>
-          </div>
-        </div>
-      )}
+      <section
+        aria-describedby={ariaDescribedBy}
+        aria-labelledby={ariaLabelledBy}
+        aria-modal={showDialog}
+        className={dialog}
+        data-testid={testID}
+        role={role}
+      >
+        {children}
+      </section>
+      <div className={overlay} />
     </>
   )
 }
