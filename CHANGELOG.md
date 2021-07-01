@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.4](https://github.com/natura-cosmeticos/natds/compare/v2.0.3...v2.0.4) (2021-07-01)
+
+
+### Bug Fixes
+
+* change default color to be inherit color and pass text-mask props to input component ([#1445](https://github.com/natura-cosmeticos/natds/issues/1445)) ([ef83ca0](https://github.com/natura-cosmeticos/natds/commit/ef83ca0c5ddf3e2d80866d6cf7537fd8857edc44))
+
+
+
+
+
 ## [2.0.3](https://github.com/natura-cosmeticos/natds/compare/v2.5.1...v2.0.3) (2021-06-24)
 
 
