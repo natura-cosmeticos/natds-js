@@ -5,6 +5,12 @@ export interface DialogHeaderProps {
   children?: React.ReactNode,
 
   /**
+   * The value must be the same as the one passed to
+   * the `aria-labelledby` attribute
+   */
+  id?: string
+
+  /**
    * The title of Dialog
    */
   title: string

@@ -3,9 +3,11 @@ import styles from './Dialog.styles'
 import { DialogProps } from './Dialog.props'
 
 const Dialog = ({
+  ariaDescribedBy,
+  ariaLabelledBy,
   children,
-  testID,
-  openDialog = false
+  openDialog = false,
+  testID
 }: DialogProps): JSX.Element => {
   const { wrapper, dialog } = styles()
 
@@ -13,9 +15,11 @@ const Dialog = ({
     <>
       {openDialog && (
         <div className={wrapper}>
-          <section data-testid={testID} className={dialog}>
-            {children}
-          </section>
+          <div role="dialog" aria-labelledby={ariaLabelledBy} aria-describedby={ariaDescribedBy}>
+            <section data-testid={testID} className={dialog}>
+              {children}
+            </section>
+          </div>
         </div>
       )}
     </>
