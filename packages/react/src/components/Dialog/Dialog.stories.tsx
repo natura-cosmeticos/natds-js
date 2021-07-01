@@ -42,10 +42,10 @@ export const Playground: Story<DialogProps> = (args) => {
   return (
     <>
       <Button text="open dialog" onClick={() => setShowDialog(!showDialog)} />
-      <Dialog {...args} openDialog={showDialog}>
-        <DialogHeader title="Example" />
+      <Dialog {...args} openDialog={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description">
+        <DialogHeader title="Example" id="dialog-title" />
         <DialogBody showDivider>
-          <p>
+          <p id="dialog-description">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit.
             Maecenas nec imperdiet orci, quis facilisis erat.
             Vivamus ornare ipsum nunc, et dictum magna sollicitudin eget.
