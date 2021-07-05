@@ -4,11 +4,14 @@ import { DialogProps } from './Dialog.props'
 
 const styles = createUseStyles((theme: Theme) => ({
   dialog: {
-    display: ({ showDialog }: DialogProps) => (showDialog ? 'block' : 'none'),
     backgroundColor: theme.color.surface,
     borderRadius: theme.borderRadius.medium,
     boxShadow: theme.elevation.hugeX,
-    position: 'fixed',
+    display: ({ showDialog }: DialogProps) => (showDialog ? 'block' : 'none'),
+    left: '50%',
+    position: 'absolute',
+    top: '50%',
+    transform: 'translate(-50%, -50%)',
     zIndex: 3
   },
   overlay: {
