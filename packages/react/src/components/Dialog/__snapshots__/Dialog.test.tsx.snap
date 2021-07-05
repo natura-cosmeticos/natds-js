@@ -9,7 +9,9 @@ Array [
   position: absolute;
   transform: translate(-50%, -50%);
   box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  max-height: 70%;
   border-radius: 4px;
+  flex-direction: column;
   background-color: #ffffff;
 }
 .overlay-0-2-2 {
@@ -21,8 +23,6 @@ Array [
   z-index: 2;
   position: fixed;
   background: #000000;
-  align-items: center;
-  justify-content: center;
 }
 .dialog-d0-0-2-3 {
   display: none;
@@ -30,30 +30,28 @@ Array [
 .overlay-d1-0-2-4 {
   display: none;
 }
-.dialogContentContainer-0-2-5 {
+.dialogContent-0-2-5 {
   color: #333333;
-  font-size: 16px;
-}
-.dialogContent-0-2-6 {
   padding: 16px;
+  font-size: 16px;
   overflow-y: auto;
   font-family: Roboto, sans-serif;
 }",
   <div>
     <section
       aria-describedby="description"
-      aria-modal="false"
+      aria-modal="true"
       class="dialog-0-2-1 dialog-d0-0-2-3"
       role="alertdialog"
     >
       <div
-        class="dialogContentContainer-0-2-5"
+        class="dialogContent-0-2-5"
       >
-        <div
-          class="dialogContent-0-2-6"
+        <p
+          id="description"
         >
           something on the body
-        </div>
+        </p>
       </div>
     </section>
     <div
@@ -72,7 +70,9 @@ Array [
   position: absolute;
   transform: translate(-50%, -50%);
   box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  max-height: 70%;
   border-radius: 4px;
+  flex-direction: column;
   background-color: #ffffff;
 }
 .overlay-0-2-2 {
@@ -84,8 +84,6 @@ Array [
   z-index: 2;
   position: fixed;
   background: #000000;
-  align-items: center;
-  justify-content: center;
 }
 .dialog-d0-0-2-3 {
   display: none;
@@ -109,33 +107,31 @@ Array [
   gap: 16px;
   display: flex;
 }
-.action-0-2-13 {
+.action-0-2-12 {
   gap: 16px;
   display: flex;
   padding: 16px;
   justify-content: flex-end;
 }
-.divider-0-2-10 {
+.divider-0-2-9 {
   border: 0;
   height: 1px;
   margin-top: 0;
   margin-bottom: 0;
   background-color: #bbbbbb;
 }
-.divider-d0-0-2-11 {
+.divider-d0-0-2-10 {
   margin-right: 0;
   margin-left: 0;
 }
-.divider-d1-0-2-12 {
+.divider-d1-0-2-11 {
   margin-right: 0;
   margin-left: 0;
 }
-.dialogContentContainer-0-2-8 {
+.dialogContent-0-2-8 {
   color: #333333;
-  font-size: 16px;
-}
-.dialogContent-0-2-9 {
   padding: 16px;
+  font-size: 16px;
   overflow-y: auto;
   font-family: Roboto, sans-serif;
 }",
@@ -143,7 +139,7 @@ Array [
     <section
       aria-describedby="description"
       aria-labelledby="title"
-      aria-modal="false"
+      aria-modal="true"
       class="dialog-0-2-1 dialog-d0-0-2-3"
       role="dialog"
     >
@@ -160,23 +156,23 @@ Array [
           class="dialogHeaderChildrenContainer-0-2-7"
         />
       </div>
+      <hr
+        class="divider-0-2-9 divider-d0-0-2-10"
+      />
       <div
-        class="dialogContentContainer-0-2-8"
+        class="dialogContent-0-2-8"
       >
-        <hr
-          class="divider-0-2-10 divider-d0-0-2-11"
-        />
-        <div
-          class="dialogContent-0-2-9"
+        <p
+          id="description"
         >
           something on the body
-        </div>
-        <hr
-          class="divider-0-2-10 divider-d1-0-2-12"
-        />
+        </p>
       </div>
+      <hr
+        class="divider-0-2-9 divider-d1-0-2-11"
+      />
       <div
-        class="action-0-2-13"
+        class="action-0-2-12"
       >
         something on the footer
       </div>
@@ -197,7 +193,9 @@ Array [
   position: absolute;
   transform: translate(-50%, -50%);
   box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  max-height: 70%;
   border-radius: 4px;
+  flex-direction: column;
   background-color: #ffffff;
 }
 .overlay-0-2-2 {
@@ -209,8 +207,6 @@ Array [
   z-index: 2;
   position: fixed;
   background: #000000;
-  align-items: center;
-  justify-content: center;
 }
 .dialog-d0-0-2-3 {
   display: none;
@@ -234,18 +230,16 @@ Array [
   gap: 16px;
   display: flex;
 }
-.action-0-2-10 {
+.action-0-2-9 {
   gap: 16px;
   display: flex;
   padding: 16px;
   justify-content: flex-end;
 }
-.dialogContentContainer-0-2-8 {
+.dialogContent-0-2-8 {
   color: #333333;
-  font-size: 16px;
-}
-.dialogContent-0-2-9 {
   padding: 16px;
+  font-size: 16px;
   overflow-y: auto;
   font-family: Roboto, sans-serif;
 }",
@@ -253,7 +247,7 @@ Array [
     <section
       aria-describedby="description"
       aria-labelledby="title"
-      aria-modal="false"
+      aria-modal="true"
       class="dialog-0-2-1 dialog-d0-0-2-3"
       role="dialog"
     >
@@ -271,16 +265,16 @@ Array [
         />
       </div>
       <div
-        class="dialogContentContainer-0-2-8"
+        class="dialogContent-0-2-8"
       >
-        <div
-          class="dialogContent-0-2-9"
+        <p
+          id="description"
         >
           something on the body
-        </div>
+        </p>
       </div>
       <div
-        class="action-0-2-10"
+        class="action-0-2-9"
       >
         something on the footer
       </div>
