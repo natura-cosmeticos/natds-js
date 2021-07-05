@@ -17,7 +17,7 @@ const Dialog = ({
       <section
         aria-describedby={ariaDescribedBy}
         aria-labelledby={ariaLabelledBy}
-        aria-modal={showDialog}
+        aria-modal
         className={dialog}
         data-testid={testID}
         role={role}
