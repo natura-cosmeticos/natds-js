@@ -3,8 +3,11 @@
 exports[`Dialog AlertDialog Role should render correctly with given children and default props 1`] = `
 Array [
   ".dialog-0-2-1 {
+  top: 50%;
+  left: 50%;
   z-index: 3;
-  position: fixed;
+  position: absolute;
+  transform: translate(-50%, -50%);
   box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
   border-radius: 4px;
   background-color: #ffffff;
@@ -63,8 +66,11 @@ Array [
 exports[`Dialog Dialog role should render correctly with divider at DialogBody 1`] = `
 Array [
   ".dialog-0-2-1 {
+  top: 50%;
+  left: 50%;
   z-index: 3;
-  position: fixed;
+  position: absolute;
+  transform: translate(-50%, -50%);
   box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
   border-radius: 4px;
   background-color: #ffffff;
@@ -185,8 +191,11 @@ Array [
 exports[`Dialog Dialog role should render correctly with given children 1`] = `
 Array [
   ".dialog-0-2-1 {
+  top: 50%;
+  left: 50%;
   z-index: 3;
-  position: fixed;
+  position: absolute;
+  transform: translate(-50%, -50%);
   box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
   border-radius: 4px;
   background-color: #ffffff;
