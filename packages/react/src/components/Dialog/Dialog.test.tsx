@@ -9,7 +9,9 @@ describe('Dialog', () => {
     test('should render correctly with given children and default props', () => {
       const { styles, component } = renderWithTheme(
         <Dialog role="alertdialog" ariaDescribedBy="description">
-          <DialogBody id="description">something on the body</DialogBody>
+          <DialogBody>
+            <p id="description">something on the body</p>
+          </DialogBody>
         </Dialog>
       )
 
@@ -21,7 +23,9 @@ describe('Dialog', () => {
       const { styles, component } = renderWithTheme(
         <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description">
           <DialogHeader title="Example" id="title" />
-          <DialogBody id="description">something on the body</DialogBody>
+          <DialogBody>
+            <p id="description">something on the body</p>
+          </DialogBody>
           <DialogFooter>something on the footer</DialogFooter>
         </Dialog>
       )
@@ -32,7 +36,9 @@ describe('Dialog', () => {
       const { styles, component } = renderWithTheme(
         <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description">
           <DialogHeader title="Example" id="title" />
-          <DialogBody id="description" showDivider>something on the body</DialogBody>
+          <DialogBody showDivider>
+            <p id="description">something on the body</p>
+          </DialogBody>
           <DialogFooter>something on the footer</DialogFooter>
         </Dialog>
       )
