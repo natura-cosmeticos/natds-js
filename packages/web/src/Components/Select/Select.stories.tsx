@@ -2,13 +2,11 @@
 import { Meta, Story } from '@storybook/react'
 import * as React from 'react'
 import { Select as component } from './Select'
-import { argTypes } from './Select.argTypes'
 import { ISelectProps } from './Select.props'
 
 const Select: React.ForwardRefExoticComponent<ISelectProps> = React.lazy(() => import('./Select'))
 
 export default {
-  argTypes,
   component,
   title: 'Components/Select'
 } as Meta
