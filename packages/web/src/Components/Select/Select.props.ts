@@ -1,7 +1,7 @@
 import { SelectProps } from '@material-ui/core/Select'
 import { State } from 'Components/Input/Input.props'
 
-export interface ISelectProps extends Pick<SelectProps, 'value'> {
+export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'onClose' | 'multiple'> {
   /**
    * @optional
    * Disables the Select interaction

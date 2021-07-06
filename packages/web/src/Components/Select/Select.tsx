@@ -19,7 +19,16 @@ export { ISelectProps } from './Select.props'
 export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISelectProps>(
   (props: ISelectProps, ref) => {
     const {
-      state, id, placeholder, options, onChange, value, ...otherProps
+      state,
+      id,
+      placeholder,
+      options,
+      onChange,
+      value,
+      onOpen,
+      onClose,
+      multiple,
+      ...rest
     } = props
 
     const menuProps: Partial<MenuProps> = {
@@ -35,18 +44,21 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
     }
 
     return (
-      <InputStateHelpTextProvider {...otherProps} state={state}>
+      <InputStateHelpTextProvider {...rest} state={state}>
         <MaterialSelect
           {...props}
-          id={id}
+          multiple={multiple}
+          data-state={state}
+          defaultValue={placeholder}
           displayEmpty
           IconComponent={(props) => (<Icon name="outlined-navigation-arrowbottom" {...props} />)}
-          onChange={onChange}
-          value={value}
-          defaultValue={placeholder}
-          ref={ref}
+          id={id}
           MenuProps={menuProps}
-          data-state={state}
+          onChange={onChange}
+          onClose={onClose}
+          onOpen={onOpen}
+          ref={ref}
+          value={value}
         >
           {placeholder && (
             <MenuItem value="" disabled>
