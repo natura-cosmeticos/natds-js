@@ -7,10 +7,11 @@ const Dialog = ({
   ariaLabelledBy,
   children,
   role,
+  size = 'medium',
   showDialog = false,
   testID
 }: DialogProps): JSX.Element => {
-  const { dialog, overlay } = styles({ showDialog })
+  const { dialog, overlay } = styles({ showDialog, size })
 
   return (
     <>

@@ -1,3 +1,5 @@
+export type DialogSizes = 'small' | 'medium' | 'large'
+
 export interface DialogProps {
   /**
    * The value of this attribute will be the **id**
@@ -29,6 +31,13 @@ export interface DialogProps {
    * @default false
    */
   showDialog?: boolean
+
+  /**
+   * The width of Dialog.
+   * If the size of `dialog` is larger than the screen width, a width of `90vw` will be applied
+   * @default medium
+   */
+  size?: DialogSizes
 
   /**
    * Optional ID for testing
