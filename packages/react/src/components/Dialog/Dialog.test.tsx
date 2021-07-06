@@ -1,3 +1,4 @@
+/* eslint-disable max-lines-per-function */
 import React from 'react'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import {
@@ -35,6 +36,20 @@ describe('Dialog', () => {
     test('should render correctly with divider at DialogBody', () => {
       const { styles, component } = renderWithTheme(
         <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description">
+          <DialogHeader title="Example" id="title" />
+          <DialogBody showDivider>
+            <p id="description">something on the body</p>
+          </DialogBody>
+          <DialogFooter>something on the footer</DialogFooter>
+        </Dialog>
+      )
+
+      expect([styles.toString(), component.container]).toMatchSnapshot()
+    })
+
+    test('should render correctly with given size', () => {
+      const { styles, component } = renderWithTheme(
+        <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description" size="large">
           <DialogHeader title="Example" id="title" />
           <DialogBody showDivider>
             <p id="description">something on the body</p>
