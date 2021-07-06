@@ -1,16 +1,18 @@
 export interface DialogProps {
   /**
-   * Use this attribute to describe the contents of the dialog.
+   * The value of this attribute will be the **id**
+   * of the element used to describe the **dialog content**.
    */
   ariaDescribedBy?: string
 
   /**
-   * The value of the this attribute will be
-   * the id of the element used to title the dialog.
+   * The value of this attribute will be the **id**
+   * of the element used for the **dialog title**.
    */
   ariaLabelledBy?: string
+
   /**
-   * Component children, usually the included sub-components.
+   * Component children, usually the Dialog sub-components.
    */
   children: React.ReactNode
 
