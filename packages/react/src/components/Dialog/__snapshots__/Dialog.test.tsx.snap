@@ -5,8 +5,8 @@ Array [
   ".dialog-0-2-1 {
   top: 50%;
   left: 50%;
-  z-index: 3;
-  position: absolute;
+  z-index: 1300;
+  position: fixed;
   transform: translate(-50%, -50%);
   box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
   max-height: 70%;
@@ -20,7 +20,7 @@ Array [
   width: 100%;
   height: 100%;
   opacity: 0.56;
-  z-index: 2;
+  z-index: 1299;
   position: fixed;
   background: #000000;
 }
@@ -66,8 +66,8 @@ Array [
   ".dialog-0-2-1 {
   top: 50%;
   left: 50%;
-  z-index: 3;
-  position: absolute;
+  z-index: 1300;
+  position: fixed;
   transform: translate(-50%, -50%);
   box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
   max-height: 70%;
@@ -81,7 +81,7 @@ Array [
   width: 100%;
   height: 100%;
   opacity: 0.56;
-  z-index: 2;
+  z-index: 1299;
   position: fixed;
   background: #000000;
 }
@@ -189,8 +189,8 @@ Array [
   ".dialog-0-2-1 {
   top: 50%;
   left: 50%;
-  z-index: 3;
-  position: absolute;
+  z-index: 1300;
+  position: fixed;
   transform: translate(-50%, -50%);
   box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
   max-height: 70%;
@@ -204,7 +204,7 @@ Array [
   width: 100%;
   height: 100%;
   opacity: 0.56;
-  z-index: 2;
+  z-index: 1299;
   position: fixed;
   background: #000000;
 }
