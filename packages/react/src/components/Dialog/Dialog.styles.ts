@@ -11,10 +11,10 @@ const styles = createUseStyles((theme: Theme) => ({
     flexDirection: 'column',
     left: '50%',
     maxHeight: '70%',
-    position: 'absolute',
+    position: 'fixed',
     top: '50%',
     transform: 'translate(-50%, -50%)',
-    zIndex: 3
+    zIndex: 1300
   },
   overlay: {
     display: ({ showDialog }: DialogProps) => (!showDialog && 'none'),
@@ -25,7 +25,7 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'fixed',
     top: 0,
     width: '100%',
-    zIndex: 2
+    zIndex: 1299
   }
 }))
 
