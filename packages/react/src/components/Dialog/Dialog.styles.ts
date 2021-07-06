@@ -2,6 +2,19 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { DialogProps } from './Dialog.props'
 
+export const getSize = () => ({ size }: DialogProps) => {
+  switch (size) {
+    case 'small':
+      return 328
+    case 'medium':
+      return 536
+    case 'large':
+      return 816
+    default:
+      return 536
+  }
+}
+
 const styles = createUseStyles((theme: Theme) => ({
   dialog: {
     backgroundColor: theme.color.surface,
@@ -14,7 +27,11 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'fixed',
     top: '50%',
     transform: 'translate(-50%, -50%)',
-    zIndex: 1300
+    zIndex: 1300,
+    width: getSize(),
+    '@media screen and (max-width: 325px)': {
+      width: '90vw'
+    }
   },
   overlay: {
     display: ({ showDialog }: DialogProps) => (!showDialog && 'none'),
