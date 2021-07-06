@@ -1,6 +1,7 @@
+import { SelectProps } from '@material-ui/core/Select'
 import { State } from 'Components/Input/Input.props'
 
-export interface SelectProps {
+export interface ISelectProps extends Pick<SelectProps, 'value'> {
   /**
    * @optional
    * Disables the Select interaction
@@ -28,7 +29,7 @@ export interface SelectProps {
    *
    * @type Function
    */
-  onChange: (newValue: string | number) => void;
+  onChange: SelectProps['onChange']
   /**
    * Options of Select
    */
@@ -50,5 +51,3 @@ export interface SelectProps {
    */
   state?: State;
 }
-
-export type ISelectProps = SelectProps;
