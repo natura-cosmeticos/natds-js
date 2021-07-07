@@ -2,12 +2,13 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { useState } from '@storybook/client-api'
-import {
-  Dialog, DialogBody, DialogFooter, DialogHeader
-} from '.'
+import { Dialog } from '.'
 import { Button } from '../Button'
 import { DialogProps } from './Dialog.props'
 import IconButton from '../IconButton'
+import DialogHeader from './DialogHeader'
+import DialogBody from './DialogBody'
+import DialogFooter from './DialogFooter'
 
 const componentStatus = `
 ---
@@ -26,7 +27,7 @@ Attribute status:
 export default {
   title: 'Components/Dialog',
   component: Dialog,
-  subcomponents: { DialogTitle: DialogHeader, DialogBody, DialogAction: DialogFooter },
+  subcomponents: { DialogTitle: DialogHeader, DialogBody, DialogFooter },
   parameters: {
     componentSubtitle: 'Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.',
     docs: { description: { component: componentStatus } },
