@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.0.5](https://github.com/natura-cosmeticos/natds/compare/v2.5.1...v2.0.5) (2021-07-07)
+
+
+### Bug Fixes
+
+* **select:** add missing props ([#1449](https://github.com/natura-cosmeticos/natds/issues/1449)) ([7792e2b](https://github.com/natura-cosmeticos/natds/commit/7792e2bdb1493aa9ab2fb3c09025c8a72c02dadb))
+
+
+
+
+
 ## [2.5.1](https://github.com/natura-cosmeticos/natds/compare/v2.0.4...v2.5.1) (2021-07-05)
 
 
