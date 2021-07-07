@@ -138,6 +138,6 @@ describe('Counter component', () => {
     TestRenderer.act(() => {
       input.props.onChange({ target: { value: 200 } })
     })
-    expect(onChange).toHaveBeenCalledTimes(2)
+    expect(onChange).toHaveBeenCalledTimes(3)
   })
 })

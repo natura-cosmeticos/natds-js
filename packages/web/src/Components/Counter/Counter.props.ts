@@ -60,7 +60,7 @@ export interface ICounterProps {
    *
    * @type Function
    */
-  onChange: (newValue: number) => void,
+  onChange: () => void,
 
   /**
    * Execute a callback when increment button is pressed.

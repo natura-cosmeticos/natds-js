@@ -45,14 +45,6 @@ export const Counter = (props: ICounterProps) => {
     }
   }, [initialValue])
 
-  const handleInputChange = (event: { target: HTMLInputElement }): void => {
-    const newValue = Number(event.target.value)
-
-    if (newValue < minValue || newValue > maxValue) return
-    setValue(newValue)
-    onChange && onChange(newValue)
-  }
-
   const increment = () : void => {
     const newValue = value + QUANTITY
 
@@ -94,7 +86,7 @@ export const Counter = (props: ICounterProps) => {
         <InputCounter
           value={value}
           className={input}
-          onChange={handleInputChange}
+          onChange={onChange}
         />
         <Button
           id="increment-button"
