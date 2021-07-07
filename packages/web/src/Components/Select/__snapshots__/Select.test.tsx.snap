@@ -43,7 +43,6 @@ exports[`Select component should render as disabled 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value="Placeholder"
     />
     <i
       aria-hidden={true}
@@ -96,7 +95,6 @@ exports[`Select component should render as required 1`] = `
       placeholder="Placeholder"
       required={true}
       tabIndex={-1}
-      value="Placeholder"
     />
     <i
       aria-hidden={true}
@@ -148,7 +146,6 @@ exports[`Select component should render correctly 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value="Placeholder"
     />
     <i
       aria-hidden={true}
@@ -201,7 +198,6 @@ exports[`Select component should render with helper text 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value="Placeholder"
     />
     <i
       aria-hidden={true}
@@ -209,7 +205,7 @@ exports[`Select component should render with helper text 1`] = `
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-7 NatDSFormHelperText-root-8 MuiFormHelperText-filled"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-7 NatDSFormHelperText-root-8"
   >
     Helper Text
   </p>
@@ -221,7 +217,7 @@ exports[`Select component should render with label 1`] = `
   className="MuiFormControl-root NatDSFormControl-root-2"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-9 NatDSInputLabel-root-10 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink MuiFormLabel-filled"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-9 NatDSInputLabel-root-10 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
   >
     Label
@@ -264,7 +260,6 @@ exports[`Select component should render with label 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value="Placeholder"
     />
     <i
       aria-hidden={true}
@@ -318,7 +313,6 @@ exports[`Select component should render with state error 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value="Placeholder"
     />
     <i
       aria-hidden={true}
@@ -372,7 +366,6 @@ exports[`Select component should render with state success 1`] = `
       placeholder="Placeholder"
       required={false}
       tabIndex={-1}
-      value="Placeholder"
     />
     <i
       aria-hidden={true}

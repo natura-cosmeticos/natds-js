@@ -19,17 +19,17 @@ export { ISelectProps } from './Select.props'
 export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISelectProps>(
   (props: ISelectProps, ref) => {
     const {
-      state, id, placeholder, options, onChange, ...otherProps
+      defaultValue,
+      id,
+      onChange,
+      onClose,
+      onOpen,
+      options,
+      placeholder,
+      state,
+      value,
+      ...rest
     } = props
-
-    const [value, setValue] = React.useState<string | number>()
-
-    const handleChange = (event: React.ChangeEvent<{ value: unknown }>) => {
-      const selectedValue = event.target.value as string
-
-      setValue(selectedValue)
-      onChange && onChange(selectedValue)
-    }
 
     const menuProps: Partial<MenuProps> = {
       anchorOrigin: {
@@ -42,19 +42,22 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
       },
       getContentAnchorEl: null
     }
+
     return (
-      <InputStateHelpTextProvider {...otherProps} state={state}>
+      <InputStateHelpTextProvider {...rest} state={state}>
         <MaterialSelect
           {...props}
-          id={id}
+          data-state={state}
+          defaultValue={defaultValue}
           displayEmpty
           IconComponent={(props) => (<Icon name="outlined-navigation-arrowbottom" {...props} />)}
-          onChange={handleChange}
-          value={value}
-          defaultValue={placeholder}
-          ref={ref}
+          id={id}
           MenuProps={menuProps}
-          data-state={state}
+          onChange={onChange}
+          onClose={onClose}
+          onOpen={onOpen}
+          ref={ref}
+          value={value}
         >
           {placeholder && (
             <MenuItem value="" disabled>
