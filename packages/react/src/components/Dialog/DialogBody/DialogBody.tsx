@@ -4,12 +4,12 @@ import { DialogBodyProps } from './DialogBody.props'
 import styles from './DialogBody.styles'
 
 const DialogBody = ({ children, showDivider = false }: DialogBodyProps): JSX.Element => {
-  const { dialogContent } = styles()
+  const { content } = styles()
 
   return (
     <>
       {showDivider && <Divider />}
-      <div className={dialogContent}>
+      <div className={content}>
         {children}
       </div>
       {showDivider && <Divider />}
