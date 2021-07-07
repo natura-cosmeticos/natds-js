@@ -11,7 +11,8 @@ const Dialog = ({
   showDialog = false,
   testID
 }: DialogProps): JSX.Element => {
-  const { dialog, overlay } = styles({ showDialog, size })
+  const screenSize = window.innerWidth
+  const { dialog, overlay } = styles({ showDialog, size, screenSize })
 
   return (
     <>
