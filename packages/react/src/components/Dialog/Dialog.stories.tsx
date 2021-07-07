@@ -7,6 +7,7 @@ import {
 } from '.'
 import { Button } from '../Button'
 import { DialogProps } from './Dialog.props'
+import IconButton from '../IconButton'
 
 const componentStatus = `
 ---
@@ -15,9 +16,9 @@ Attribute status:
 
 - ✅ **Divider**
 - **Size**
-    - ❌  \`small\`
-    - ❌  \`medium\`
-    - ❌  \`large\`
+    - ✅  \`small\`
+    - ✅  \`medium\`
+    - ✅  \`large\`
 
 ---
 `
@@ -40,11 +41,17 @@ export const Playground: Story<DialogProps> = (args) => {
     <>
       <Button text="open dialog" onClick={() => setShowDialog(!showDialog)} />
       <Dialog {...args} showDialog={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description">
-        <DialogHeader title="Example" id="dialog-title" />
+        <DialogHeader title="Example" id="dialog-title">
+          <div style={{ display: 'flex', gap: 16 }}>
+            <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />
+            <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />
+            <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />
+          </div>
+        </DialogHeader>
         <DialogBody showDivider>
           <p id="dialog-description">
-            This is an example of Dialog, using the DialogHeader and DialogFooter
-            subcomponents in addition to passing some content to DialogBody
+            This is an example of Dialog, which uses the DialogHeader, with title
+            and three IconButtons, DialogBody and DialogFooter, with one button.
           </p>
         </DialogBody>
         <DialogFooter>

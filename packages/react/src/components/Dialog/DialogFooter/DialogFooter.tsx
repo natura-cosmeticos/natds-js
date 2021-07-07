@@ -3,9 +3,9 @@ import styles from './DialogFooter.styles'
 import { DialogFooterProps } from './DialogFooter.props'
 
 const DialogFooter = ({ children }: DialogFooterProps): JSX.Element => {
-  const { action } = styles()
+  const { footer } = styles()
   return (
-    <div className={action}>
+    <div className={footer}>
       {children}
     </div>
   )
