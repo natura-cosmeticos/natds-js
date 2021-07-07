@@ -36,9 +36,11 @@ Array [
   .overlay-d1-0-2-4 {
     display: none;
   }
-  .dialogContent-0-2-5 {
+  .content-0-2-5 {
+    flex: 1 1 auto;
     color: #333333;
     padding: 16px;
+    position: relative;
     font-size: 16px;
     overflow-y: auto;
     font-family: Roboto, sans-serif;
@@ -51,7 +53,7 @@ Array [
       role="alertdialog"
     >
       <div
-        class="dialogContent-0-2-5"
+        class="content-0-2-5"
       >
         <p
           id="description"
@@ -103,46 +105,47 @@ Array [
   .overlay-d1-0-2-4 {
     display: none;
   }
-  .dialogHeaderContainer-0-2-5 {
+  .header-0-2-5 {
     display: flex;
     padding: 16px;
     align-items: center;
+    flex-shrink: 0;
     justify-content: space-between;
   }
-  .dialogHeader-0-2-6 {
+  .title-0-2-6 {
     color: #333333;
     margin: 0;
     font-size: 20px;
     font-family: Roboto, sans-serif;
   }
-  .dialogHeaderChildrenContainer-0-2-7 {
-    gap: 16px;
-    display: flex;
-  }
-  .action-0-2-12 {
-    gap: 16px;
+  .footer-0-2-11 {
     display: flex;
     padding: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-shrink: 0;
     justify-content: flex-end;
   }
-  .divider-0-2-9 {
+  .divider-0-2-8 {
     border: 0;
     height: 1px;
     margin-top: 0;
     margin-bottom: 0;
     background-color: #bbbbbb;
   }
-  .divider-d0-0-2-10 {
+  .divider-d0-0-2-9 {
     margin-right: 0;
     margin-left: 0;
   }
-  .divider-d1-0-2-11 {
+  .divider-d1-0-2-10 {
     margin-right: 0;
     margin-left: 0;
   }
-  .dialogContent-0-2-8 {
+  .content-0-2-7 {
+    flex: 1 1 auto;
     color: #333333;
     padding: 16px;
+    position: relative;
     font-size: 16px;
     overflow-y: auto;
     font-family: Roboto, sans-serif;
@@ -156,23 +159,20 @@ Array [
       role="dialog"
     >
       <div
-        class="dialogHeaderContainer-0-2-5"
+        class="header-0-2-5"
       >
         <h2
-          class="dialogHeader-0-2-6"
+          class="title-0-2-6"
           id="title"
         >
           Example
         </h2>
-        <div
-          class="dialogHeaderChildrenContainer-0-2-7"
-        />
       </div>
       <hr
-        class="divider-0-2-9 divider-d0-0-2-10"
+        class="divider-0-2-8 divider-d0-0-2-9"
       />
       <div
-        class="dialogContent-0-2-8"
+        class="content-0-2-7"
       >
         <p
           id="description"
@@ -181,10 +181,10 @@ Array [
         </p>
       </div>
       <hr
-        class="divider-0-2-9 divider-d1-0-2-11"
+        class="divider-0-2-8 divider-d1-0-2-10"
       />
       <div
-        class="action-0-2-12"
+        class="footer-0-2-11"
       >
         something on the footer
       </div>
@@ -232,31 +232,32 @@ Array [
   .overlay-d1-0-2-4 {
     display: none;
   }
-  .dialogHeaderContainer-0-2-5 {
+  .header-0-2-5 {
     display: flex;
     padding: 16px;
     align-items: center;
+    flex-shrink: 0;
     justify-content: space-between;
   }
-  .dialogHeader-0-2-6 {
+  .title-0-2-6 {
     color: #333333;
     margin: 0;
     font-size: 20px;
     font-family: Roboto, sans-serif;
   }
-  .dialogHeaderChildrenContainer-0-2-7 {
-    gap: 16px;
-    display: flex;
-  }
-  .action-0-2-9 {
-    gap: 16px;
+  .footer-0-2-8 {
     display: flex;
     padding: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-shrink: 0;
     justify-content: flex-end;
   }
-  .dialogContent-0-2-8 {
+  .content-0-2-7 {
+    flex: 1 1 auto;
     color: #333333;
     padding: 16px;
+    position: relative;
     font-size: 16px;
     overflow-y: auto;
     font-family: Roboto, sans-serif;
@@ -270,20 +271,17 @@ Array [
       role="dialog"
     >
       <div
-        class="dialogHeaderContainer-0-2-5"
+        class="header-0-2-5"
       >
         <h2
-          class="dialogHeader-0-2-6"
+          class="title-0-2-6"
           id="title"
         >
           Example
         </h2>
-        <div
-          class="dialogHeaderChildrenContainer-0-2-7"
-        />
       </div>
       <div
-        class="dialogContent-0-2-8"
+        class="content-0-2-7"
       >
         <p
           id="description"
@@ -292,7 +290,7 @@ Array [
         </p>
       </div>
       <div
-        class="action-0-2-9"
+        class="footer-0-2-8"
       >
         something on the footer
       </div>
@@ -340,46 +338,47 @@ Array [
   .overlay-d1-0-2-4 {
     display: none;
   }
-  .dialogHeaderContainer-0-2-5 {
+  .header-0-2-5 {
     display: flex;
     padding: 16px;
     align-items: center;
+    flex-shrink: 0;
     justify-content: space-between;
   }
-  .dialogHeader-0-2-6 {
+  .title-0-2-6 {
     color: #333333;
     margin: 0;
     font-size: 20px;
     font-family: Roboto, sans-serif;
   }
-  .dialogHeaderChildrenContainer-0-2-7 {
-    gap: 16px;
-    display: flex;
-  }
-  .action-0-2-12 {
-    gap: 16px;
+  .footer-0-2-11 {
     display: flex;
     padding: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    flex-shrink: 0;
     justify-content: flex-end;
   }
-  .divider-0-2-9 {
+  .divider-0-2-8 {
     border: 0;
     height: 1px;
     margin-top: 0;
     margin-bottom: 0;
     background-color: #bbbbbb;
   }
-  .divider-d0-0-2-10 {
+  .divider-d0-0-2-9 {
     margin-right: 0;
     margin-left: 0;
   }
-  .divider-d1-0-2-11 {
+  .divider-d1-0-2-10 {
     margin-right: 0;
     margin-left: 0;
   }
-  .dialogContent-0-2-8 {
+  .content-0-2-7 {
+    flex: 1 1 auto;
     color: #333333;
     padding: 16px;
+    position: relative;
     font-size: 16px;
     overflow-y: auto;
     font-family: Roboto, sans-serif;
@@ -393,23 +392,20 @@ Array [
       role="dialog"
     >
       <div
-        class="dialogHeaderContainer-0-2-5"
+        class="header-0-2-5"
       >
         <h2
-          class="dialogHeader-0-2-6"
+          class="title-0-2-6"
           id="title"
         >
           Example
         </h2>
-        <div
-          class="dialogHeaderChildrenContainer-0-2-7"
-        />
       </div>
       <hr
-        class="divider-0-2-9 divider-d0-0-2-10"
+        class="divider-0-2-8 divider-d0-0-2-9"
       />
       <div
-        class="dialogContent-0-2-8"
+        class="content-0-2-7"
       >
         <p
           id="description"
@@ -418,10 +414,10 @@ Array [
         </p>
       </div>
       <hr
-        class="divider-0-2-9 divider-d1-0-2-11"
+        class="divider-0-2-8 divider-d1-0-2-10"
       />
       <div
-        class="action-0-2-12"
+        class="footer-0-2-11"
       >
         something on the footer
       </div>
