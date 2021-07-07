@@ -1,7 +1,7 @@
 import { SelectProps } from '@material-ui/core/Select'
 import { State } from 'Components/Input/Input.props'
 
-export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'onClose' | 'multiple' | 'defaultValue'> {
+export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'onClose' | 'defaultValue'> {
   /**
    * @optional
    * Disables the Select interaction
@@ -24,12 +24,14 @@ export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'on
    * Help text placed underneath the Select
    */
   label?: string;
+
   /**
    * Execute a callback when user change the selected option.
    *
    * @type Function
    */
   onChange: SelectProps['onChange']
+
   /**
    * Options of Select
    */
@@ -45,9 +47,31 @@ export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'on
    * If this Select is required or not
    */
   required?: boolean;
+
   /**
    * @optional
    * Optional state for component variant
    */
   state?: State;
+
+  /**
+   * The input value. Providing an empty string will select no options.
+   *
+   */
+  value?: SelectProps['value']
+
+  /**
+   * Callback fired when the component requests to be opened.
+   */
+  onOpen?: SelectProps['onOpen']
+
+  /**
+   * Callback fired when the component requests to be closed.
+   */
+  onClose?: SelectProps['onClose']
+
+  /**
+   * The default element value. Use when the component is not controlled.
+   */
+  defaultValue?: SelectProps['defaultValue']
 }

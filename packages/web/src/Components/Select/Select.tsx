@@ -21,7 +21,6 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
     const {
       defaultValue,
       id,
-      multiple,
       onChange,
       onClose,
       onOpen,
@@ -54,7 +53,6 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
           IconComponent={(props) => (<Icon name="outlined-navigation-arrowbottom" {...props} />)}
           id={id}
           MenuProps={menuProps}
-          multiple={multiple}
           onChange={onChange}
           onClose={onClose}
           onOpen={onOpen}
