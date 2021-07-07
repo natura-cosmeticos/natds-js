@@ -3,11 +3,7 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 import { DialogProps, DialogSizes } from './Dialog.props'
 
 export const convertSize = (size: DialogSizes) => {
-  const sizes = {
-    small: 328,
-    medium: 536,
-    large: 816
-  }
+  const sizes = { small: 328, medium: 536, large: 816 }
 
   return sizes[size]
 }

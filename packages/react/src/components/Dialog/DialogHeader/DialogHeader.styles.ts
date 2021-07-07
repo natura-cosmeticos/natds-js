@@ -2,21 +2,18 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 
 const styles = createUseStyles((theme: Theme) => ({
-  dialogHeaderContainer: {
-    padding: theme.size.small,
+  header: {
     display: 'flex',
+    flexShrink: 0,
+    alignItems: 'center',
     justifyContent: 'space-between',
-    alignItems: 'center'
+    padding: theme.size.small
   },
-  dialogHeader: {
+  title: {
     fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
     color: theme.color.highEmphasis,
     fontSize: 20,
     margin: 0
-  },
-  dialogHeaderChildrenContainer: {
-    display: 'flex',
-    gap: theme.spacing.small
   }
 }))
 
