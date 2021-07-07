@@ -1,19 +1,18 @@
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
-import { DialogProps } from './Dialog.props'
+import { DialogProps, DialogSizes } from './Dialog.props'
 
-export const getSize = () => ({ size }: DialogProps) => {
-  switch (size) {
-    case 'small':
-      return 328
-    case 'medium':
-      return 536
-    case 'large':
-      return 816
-    default:
-      return 536
+export const convertSize = (size: DialogSizes) => {
+  const sizes = {
+    small: 328,
+    medium: 536,
+    large: 816
   }
+
+  return sizes[size]
 }
+
+export const getSize = () => ({ size, screenSize }: { size: DialogSizes, screenSize: number }) => (convertSize(size) > screenSize ? '90vw' : convertSize(size))
 
 const styles = createUseStyles((theme: Theme) => ({
   dialog: {
