@@ -50,7 +50,7 @@ export const Playground: Story<DialogProps> = (args) => {
           </div>
         </DialogHeader>
         <DialogBody showDivider>
-          <p id="dialog-description">
+          <p id="dialog-description" style={{ margin: 0 }}>
             This is an example of Dialog, which uses the DialogHeader, with title
             and three IconButtons, DialogBody and DialogFooter, with one button.
           </p>
