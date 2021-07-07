@@ -1,9 +1,10 @@
 /* eslint-disable max-lines-per-function */
 import React from 'react'
 import renderWithTheme from '../../helpers/renderWithTheme'
-import {
-  Dialog, DialogBody, DialogFooter, DialogHeader
-} from '.'
+import { Dialog } from '.'
+import { DialogBody } from './DialogBody'
+import { DialogHeader } from './DialogHeader'
+import { DialogFooter } from './DialogFooter'
 
 describe('Dialog', () => {
   describe('AlertDialog Role', () => {
