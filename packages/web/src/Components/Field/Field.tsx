@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment,@typescript-eslint/no-explicit-any */
+/* eslint-disable complexity */
 import * as React from 'react'
 import MaskedInput from 'react-text-mask'
 import PasswordReveal from './PasswordReveal'
@@ -52,13 +52,10 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
     }
 
     const [showing, togglePasswordReveal] = React.useState(false)
-    const [value, setValue] = React.useState('')
     const customType = showing ? TEXT_TYPE : type
     const showPasswordReveal = type === PASSWORD_TYPE && !icon
     const showSearchClear = type === SEARCH_TYPE && !icon
     const hasIcon = Boolean(showPasswordReveal) || Boolean(showSearchClear) || Boolean(icon)
-
-    const clearSearch = () => setValue('')
 
     let endAdornment: React.ReactNode = null
 
@@ -75,7 +72,7 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
     if (showSearchClear) {
       endAdornment = (
         <SearchClear
-          onClearSearch={clearSearch}
+          onClearSearch={onClearSearch}
           searchIcon={searchIcon}
         />
       )
