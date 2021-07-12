@@ -102,7 +102,7 @@ export interface IToggleButtonProps extends Omit<IIconButtonProps, 'children' | 
    * @param {boolean} state Current state
    * @returns void
    */
-  onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>, state: boolean) => void;
+  onClick?: (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => void;
 
   /**
    * The size of the `ToggleButton`. `small` is equivalent to the dense `IconButton` styling.
