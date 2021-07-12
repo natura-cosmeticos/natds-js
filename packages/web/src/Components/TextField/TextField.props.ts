@@ -1,11 +1,12 @@
 import * as React from 'react'
+import { StandardTextFieldProps } from '@material-ui/core'
 import { IInputStateHelpTextProviderProps } from '../InputStateHelpTextProvider'
 import { IThemeWeb } from '../../Themes'
 import { Mask, MaskFn, State } from '../Input/Input.props'
 
 export type Type = 'password' | 'search' | 'text' | React.InputHTMLAttributes<HTMLInputElement>['type'];
 
-export interface TextFieldProps {
+export interface TextFieldProps extends Pick<StandardTextFieldProps, 'onChange' | 'onBlur' | 'onFocus'> {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
   [propName: string]: any;
 

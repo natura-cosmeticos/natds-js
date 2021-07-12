@@ -30,6 +30,8 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
       maxLength,
       multiline,
       onChange,
+      onBlur,
+      onFocus,
       onIconPress,
       placeholder = '',
       required = false,
@@ -42,7 +44,7 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
       ...otherProps
     } = props
 
-    let fieldType : IInputProps['inputComponent'] = 'input'
+    let fieldType: IInputProps['inputComponent'] = 'input'
 
     if (multiline) {
       fieldType = 'textarea'
@@ -57,21 +59,9 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
     const showSearchClear = type === SEARCH_TYPE && !icon
     const hasIcon = Boolean(showPasswordReveal) || Boolean(showSearchClear) || Boolean(icon)
 
-    const handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
-      setValue(event.target.value)
-      if (onChange) {
-        onChange(event)
-      }
-    }
+    const clearSearch = () => setValue('')
 
-    const clearSearch = (event: any) => {
-      setValue('')
-      if (onChange) {
-        onChange(event)
-      }
-    }
-
-    let endAdornment : React.ReactNode = null
+    let endAdornment: React.ReactNode = null
 
     if (showPasswordReveal) {
       endAdornment = (
@@ -111,7 +101,9 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
           placeholderChar
         }}
         multiline={multiline}
-        onChange={handleChange}
+        onChange={onChange}
+        onBlur={onBlur}
+        onFocus={onFocus}
         placeholder={placeholder}
         ref={ref}
         required={required}
