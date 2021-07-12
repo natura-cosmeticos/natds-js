@@ -32,6 +32,7 @@ const Template: Story<ITextFieldProps> = (args: ITextFieldProps) => {
       type={args.type}
       onChange={(e) => setValue(e.target.value)}
       value={value}
+      onClearSearch={() => setValue('')}
       {...args}
     />
   )

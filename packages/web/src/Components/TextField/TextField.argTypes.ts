@@ -104,7 +104,7 @@ Other types will be forwarded to the input.
     description: 'Callback fired when the input is blurred.'
   },
   onChange: {
-    description: 'Callback fired when the value is changed.',
+    description: 'Callback fired when the value is changed.'
   },
   onFocus: {
     description: 'Callback fired when the value is focused.'
