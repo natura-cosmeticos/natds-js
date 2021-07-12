@@ -1,3 +1,5 @@
+import { InputBaseProps } from '@material-ui/core'
+
 export type Sizes = 'small' | 'medium';
 
 export interface ICounterProps {
@@ -51,7 +53,7 @@ export interface ICounterProps {
    * Execute a callback when user change the input manually.
    * @type Function
    */
-  onChange: () => void,
+  onChange: InputBaseProps['onChange'],
 
   /**
    * Execute a callback when increment button is pressed.
