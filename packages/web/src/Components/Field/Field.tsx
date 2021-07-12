@@ -12,35 +12,34 @@ export const SEARCH_TYPE = 'search'
 export const PASSWORD_TYPE = 'password'
 
 export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, ITextFieldProps>(
-  // eslint-disable-next-line complexity,max-statements
+
   (props: ITextFieldProps, ref) => {
     const {
       className,
       disabled = false,
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      guide,
       helpText,
       hidePasswordIcon,
       icon,
       id,
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       label,
       mask,
-      guide,
-      placeholderChar,
       maxLength,
       multiline,
-      onChange,
       onBlur,
+      onChange,
+      onClearSearch,
       onFocus,
       onIconPress,
       placeholder = '',
+      placeholderChar,
       required = false,
       searchIcon,
       showPasswordIcon,
       state,
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       theme: providedTheme,
       type,
+      value,
       ...otherProps
     } = props
 
