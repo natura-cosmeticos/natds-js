@@ -5,7 +5,6 @@ import { ButtonGroup } from '../ButtonGroup'
 import { Button } from '../Button'
 import { InputLabel } from '../InputLabel'
 import { InputCounter } from './InputCounter'
-import { QUANTITY, MAX_VALUE, MIN_VALUE } from './constants'
 
 export { ICounterProps } from './Counter.props'
 
@@ -17,64 +16,27 @@ export { ICounterProps } from './Counter.props'
  * ```
  */
 
-// eslint-disable-next-line @typescript-eslint/explicit-module-boundary-types
 export const Counter = (props: ICounterProps) => {
   const {
+    value = 0,
     onChange,
     onDecrement,
     onIncrement,
-    size,
+    size = 'small',
     label,
-    readOnly,
-    initialValue,
-    maxValue,
-    minValue
+    readOnly = false,
+    maxValue = 99,
+    minValue = 0
   } = props
 
   const { button, input } = useStyles(props)
-
-  const [value, setValue] = React.useState(initialValue)
-
-  // eslint-disable-next-line consistent-return
-  React.useEffect(() => {
-    if (initialValue > MAX_VALUE) {
-      return setValue(MAX_VALUE)
-    }
-    if (initialValue < MIN_VALUE) {
-      return setValue(MIN_VALUE)
-    }
-  }, [initialValue])
-
-  const handleInputChange = (event: { target: HTMLInputElement }): void => {
-    const newValue = Number(event.target.value)
-
-    if (newValue < minValue || newValue > maxValue) return
-    setValue(newValue)
-    onChange && onChange(newValue)
-  }
-
-  const increment = () : void => {
-    const newValue = value + QUANTITY
-
-    if (newValue > maxValue) return
-    setValue(newValue)
-    onIncrement && onIncrement(newValue)
-  }
-
-  const decrement = () : void => {
-    const newValue = value - QUANTITY
-
-    if (newValue < minValue) return
-    setValue(newValue)
-    onDecrement && onDecrement(newValue)
-  }
 
   const maxReached = value >= maxValue
   const minReached = value <= minValue
 
   return (
     <div>
-      { label && <InputLabel>{ label }</InputLabel> }
+      { label && <InputLabel>{label}</InputLabel>}
       <ButtonGroup
         color="default"
         disableElevation
@@ -86,7 +48,7 @@ export const Counter = (props: ICounterProps) => {
           id="decrement-button"
           disabled={minReached}
           variant="outlined"
-          onClick={decrement}
+          onClick={onDecrement}
           className={button}
         >
           -
@@ -94,13 +56,13 @@ export const Counter = (props: ICounterProps) => {
         <InputCounter
           value={value}
           className={input}
-          onChange={handleInputChange}
+          onChange={onChange}
         />
         <Button
           id="increment-button"
           disabled={maxReached}
           variant="outlined"
-          onClick={increment}
+          onClick={onIncrement}
           className={button}
         >
           +
@@ -111,12 +73,5 @@ export const Counter = (props: ICounterProps) => {
 }
 
 Counter.displayName = 'Counter'
-
-Counter.defaultProps = {
-  readOnly: false,
-  size: 'small',
-  minValue: MIN_VALUE,
-  maxValue: MAX_VALUE
-}
 
 export default Counter
