@@ -21,7 +21,7 @@ export interface ICounterProps {
   readOnly?: boolean
 
   /**
-   * Select Counter component height with two sizes (small or medium).
+   * Select Counter component height
    *
    * @default "small"
    * @optional
@@ -30,21 +30,13 @@ export interface ICounterProps {
   size?: Sizes,
 
   /**
-   * Start the component with a defined value.
-   *
-   * @default 1
-   * @type number
-   */
-  initialValue: number,
-
-  /**
    * The maximum valid value for the component
    *
    * @default 99
    * @optional
    * @type number
    */
-  maxValue: number,
+  maxValue?: number,
 
   /**
    * The minimum valid value for the component
@@ -53,26 +45,29 @@ export interface ICounterProps {
    * @optional
    * @type number
    */
-  minValue: number,
+  minValue?: number,
 
   /**
    * Execute a callback when user change the input manually.
-   *
    * @type Function
    */
-  onChange: (newValue: number) => void,
+  onChange: () => void,
 
   /**
    * Execute a callback when increment button is pressed.
-   *
    * @type Function
    */
-  onIncrement: (newValue: number) => void,
+  onIncrement: () => void,
 
   /**
    * Execute a callback when decrement button is pressed.
-   *
    * @type Function
    */
-  onDecrement: (newValue: number) => void,
+  onDecrement: () => void,
+
+  /**
+   * The value of input
+   * @default 0
+   */
+  value?: number
 }
