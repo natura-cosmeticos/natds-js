@@ -7,7 +7,7 @@ export const convertSize = (size: DialogSizes) => {
   return sizes[size]
 }
 
-export const getSize = () => ({ size, screenSize }: { size: DialogSizes, screenSize: number }) => (convertSize(size) > screenSize ? '90vw' : convertSize(size))
+export const getSize = () => ({ size, width }: { size: DialogSizes, width: number }) => (convertSize(size) > width ? '90vw' : convertSize(size))
 
 const styles = createUseStyles((theme: Theme) => ({
   dialog: {

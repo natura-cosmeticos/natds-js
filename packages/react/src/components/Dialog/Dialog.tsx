@@ -1,6 +1,7 @@
 import React from 'react'
 import styles from './Dialog.styles'
 import { DialogProps } from './Dialog.props'
+import { useWindowSize } from '../../hooks/useWindowSize'
 
 const Dialog = ({
   ariaDescribedBy,
@@ -11,8 +12,8 @@ const Dialog = ({
   showDialog = false,
   testID
 }: DialogProps): JSX.Element => {
-  const screenSize = window.innerWidth
-  const { dialog, overlay } = styles({ showDialog, size, screenSize })
+  const { width } = useWindowSize()
+  const { dialog, overlay } = styles({ showDialog, size, width })
 
   return (
     <>
