@@ -5,9 +5,9 @@ const styles = createUseStyles((theme: Theme) => ({
   footer: {
     alignItems: 'center',
     display: 'flex',
-    flexShrink: 0,
     flexWrap: 'wrap',
     justifyContent: 'flex-end',
+    gap: theme.spacing.small,
     padding: theme.spacing.small
   }
 }))
