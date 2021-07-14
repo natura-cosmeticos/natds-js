@@ -19,6 +19,12 @@ export interface DialogProps {
   children: React.ReactNode
 
   /**
+   * The provided id's container will have the portal's children appended to it.
+   * By default, it uses the `root` element of the top-level document object.
+   */
+  container?: string
+
+  /**
    * A `dialog` is a window overlaid on either the primary window or another dialog window
    *
    * An `alertdialog` is a modal dialog that interrupts the user's workflow to
