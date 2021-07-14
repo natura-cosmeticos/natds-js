@@ -7,6 +7,8 @@ import { DialogBody } from './DialogBody'
 import { DialogHeader } from './DialogHeader'
 import { DialogFooter } from './DialogFooter'
 
+jest.mock('../Portal/Portal')
+
 describe('Dialog', () => {
   test('should render correctly with DialogBody and DialogFooter', () => {
     const { styles, component } = renderWithTheme(
@@ -63,7 +65,7 @@ describe('Dialog', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  test('should render correctly when window is smaller than component', () => {
+  test('should render correctly when window is smaller than component width', () => {
     act(() => {
       global.innerWidth = 320
       global.innerHeight = 664
