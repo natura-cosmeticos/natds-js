@@ -78,52 +78,56 @@ Array [
   justify-content: flex-end;
 }",
   <div>
-    <section
-      aria-describedby="description"
-      aria-labelledby="title"
-      aria-modal="true"
-      class="dialog-0-2-1 dialog-d0-0-2-3"
-      role="dialog"
-    >
-      <div
-        class="header-0-2-5"
-      >
-        <h2
-          class="title-0-2-6"
-          id="title"
-        >
-          Example
-        </h2>
-      </div>
-      <hr
-        class="divider-0-2-8 divider-d0-0-2-9"
-      />
-      <div
-        class="content-0-2-7"
-      >
-        <p
-          id="description"
-        >
-          something on the body
-        </p>
-      </div>
-      <hr
-        class="divider-0-2-8 divider-d1-0-2-10"
-      />
-      <div
-        class="footer-0-2-11"
-      >
-        something on the footer
-      </div>
-    </section>
     <div
-      class="overlay-0-2-2 overlay-d1-0-2-4"
-    />
+      data-testid="ds-portal"
+    >
+      <section
+        aria-describedby="description"
+        aria-labelledby="title"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="dialog"
+      >
+        <div
+          class="header-0-2-5"
+        >
+          <h2
+            class="title-0-2-6"
+            id="title"
+          >
+            Example
+          </h2>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d0-0-2-9"
+        />
+        <div
+          class="content-0-2-7"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d1-0-2-10"
+        />
+        <div
+          class="footer-0-2-11"
+        >
+          something on the footer
+        </div>
+      </section>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
   </div>,
 ]
 `;
 
-exports[`Dialog should render correctly when window is smaller than component 1`] = `
+exports[`Dialog should render correctly when window is smaller than component width 1`] = `
 Array [
   ".dialog-0-2-1 {
   top: 50%;
@@ -201,47 +205,51 @@ Array [
   justify-content: flex-end;
 }",
   <div>
-    <section
-      aria-describedby="description"
-      aria-labelledby="title"
-      aria-modal="true"
-      class="dialog-0-2-1 dialog-d0-0-2-3"
-      role="dialog"
-    >
-      <div
-        class="header-0-2-5"
-      >
-        <h2
-          class="title-0-2-6"
-          id="title"
-        >
-          Example
-        </h2>
-      </div>
-      <hr
-        class="divider-0-2-8 divider-d0-0-2-9"
-      />
-      <div
-        class="content-0-2-7"
-      >
-        <p
-          id="description"
-        >
-          something on the body
-        </p>
-      </div>
-      <hr
-        class="divider-0-2-8 divider-d1-0-2-10"
-      />
-      <div
-        class="footer-0-2-11"
-      >
-        something on the footer
-      </div>
-    </section>
     <div
-      class="overlay-0-2-2 overlay-d1-0-2-4"
-    />
+      data-testid="ds-portal"
+    >
+      <section
+        aria-describedby="description"
+        aria-labelledby="title"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="dialog"
+      >
+        <div
+          class="header-0-2-5"
+        >
+          <h2
+            class="title-0-2-6"
+            id="title"
+          >
+            Example
+          </h2>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d0-0-2-9"
+        />
+        <div
+          class="content-0-2-7"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d1-0-2-10"
+        />
+        <div
+          class="footer-0-2-11"
+        >
+          something on the footer
+        </div>
+      </section>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
   </div>,
 ]
 `;
@@ -296,30 +304,34 @@ Array [
   justify-content: flex-end;
 }",
   <div>
-    <section
-      aria-describedby="description"
-      aria-modal="true"
-      class="dialog-0-2-1 dialog-d0-0-2-3"
-      role="alertdialog"
-    >
-      <div
-        class="content-0-2-5"
-      >
-        <p
-          id="description"
-        >
-          something on the body
-        </p>
-      </div>
-      <div
-        class="footer-0-2-6"
-      >
-        something on the footer
-      </div>
-    </section>
     <div
-      class="overlay-0-2-2 overlay-d1-0-2-4"
-    />
+      data-testid="ds-portal"
+    >
+      <section
+        aria-describedby="description"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="alertdialog"
+      >
+        <div
+          class="content-0-2-5"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <div
+          class="footer-0-2-6"
+        >
+          something on the footer
+        </div>
+      </section>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
   </div>,
 ]
 `;
@@ -387,41 +399,45 @@ Array [
   justify-content: flex-end;
 }",
   <div>
-    <section
-      aria-describedby="description"
-      aria-labelledby="title"
-      aria-modal="true"
-      class="dialog-0-2-1 dialog-d0-0-2-3"
-      role="dialog"
-    >
-      <div
-        class="header-0-2-5"
-      >
-        <h2
-          class="title-0-2-6"
-          id="title"
-        >
-          Example
-        </h2>
-      </div>
-      <div
-        class="content-0-2-7"
-      >
-        <p
-          id="description"
-        >
-          something on the body
-        </p>
-      </div>
-      <div
-        class="footer-0-2-8"
-      >
-        something on the footer
-      </div>
-    </section>
     <div
-      class="overlay-0-2-2 overlay-d1-0-2-4"
-    />
+      data-testid="ds-portal"
+    >
+      <section
+        aria-describedby="description"
+        aria-labelledby="title"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="dialog"
+      >
+        <div
+          class="header-0-2-5"
+        >
+          <h2
+            class="title-0-2-6"
+            id="title"
+          >
+            Example
+          </h2>
+        </div>
+        <div
+          class="content-0-2-7"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <div
+          class="footer-0-2-8"
+        >
+          something on the footer
+        </div>
+      </section>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
   </div>,
 ]
 `;
@@ -504,47 +520,51 @@ Array [
   justify-content: flex-end;
 }",
   <div>
-    <section
-      aria-describedby="description"
-      aria-labelledby="title"
-      aria-modal="true"
-      class="dialog-0-2-1 dialog-d0-0-2-3"
-      role="dialog"
-    >
-      <div
-        class="header-0-2-5"
-      >
-        <h2
-          class="title-0-2-6"
-          id="title"
-        >
-          Example
-        </h2>
-      </div>
-      <hr
-        class="divider-0-2-8 divider-d0-0-2-9"
-      />
-      <div
-        class="content-0-2-7"
-      >
-        <p
-          id="description"
-        >
-          something on the body
-        </p>
-      </div>
-      <hr
-        class="divider-0-2-8 divider-d1-0-2-10"
-      />
-      <div
-        class="footer-0-2-11"
-      >
-        something on the footer
-      </div>
-    </section>
     <div
-      class="overlay-0-2-2 overlay-d1-0-2-4"
-    />
+      data-testid="ds-portal"
+    >
+      <section
+        aria-describedby="description"
+        aria-labelledby="title"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="dialog"
+      >
+        <div
+          class="header-0-2-5"
+        >
+          <h2
+            class="title-0-2-6"
+            id="title"
+          >
+            Example
+          </h2>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d0-0-2-9"
+        />
+        <div
+          class="content-0-2-7"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d1-0-2-10"
+        />
+        <div
+          class="footer-0-2-11"
+        >
+          something on the footer
+        </div>
+      </section>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
   </div>,
 ]
 `;
