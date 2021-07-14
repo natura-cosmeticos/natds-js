@@ -8,6 +8,7 @@ git fetch --quiet
 BRANCH=$(bash ./.cicd/get-branch-name.sh)
 
 git checkout "${BRANCH}"
+git checkout -- .
 
 git config --global user.email "designsystem@natura.net"
 git config --global user.name "Natura Design System Team"
