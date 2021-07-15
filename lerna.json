@@ -24,7 +24,8 @@
         ".cicd/**",
         ".github/**",
         "packages/web/.storybook/**",
-        "packages/web/bin/**"
+        "packages/web/bin/**",
+        "vulnerabilidades.json"
       ],
       "message": "chore(release): publish %s via lerna [skip-ci]"
     }
