@@ -8,9 +8,9 @@
         "*-snap.*",
         "*.md",
         "*.mdx",
+        "*.txt",
         "*.config.*",
         "*.yml",
-        "*.snyk",
         "*.storyshot",
         "*.stories.*",
         "*.argTypes.*",
@@ -24,17 +24,17 @@
         ".cicd/**",
         ".github/**",
         "packages/web/.storybook/**",
-        "packages/web/bin/**"
+        "packages/web/bin/**",
+        "vulnerabilidades.json"
       ],
       "message": "chore(release): publish %s via lerna [skip-ci]"
     }
   },
-  "lerna": "3.16.4",
   "packages": [
     "packages/styles",
     "packages/web",
     "packages/react"
   ],
   "useWorkspaces": true,
-  "version": "2.0.5"
+  "version": "3.0.0-alpha.DSY-2151.34.0"
 }

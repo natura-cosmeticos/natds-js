@@ -3,9 +3,9 @@ import makeStyles from '@material-ui/core/styles/makeStyles'
 import { tokens } from '@naturacosmeticos/natds-styles'
 import { ICounterProps } from './Counter'
 import { IThemeWeb } from '../../Themes'
-import { INPUT_DIFFERENCE } from './constants'
 
 const { sizes } = tokens
+export const INPUT_DIFFERENCE = 2
 
 export const getButtonheight = ({ size }: ICounterProps): number => (size === 'small' ? sizes?.semiX : sizes?.medium)
 export const getInputHeight = (props: ICounterProps) : number => getButtonheight(props) - INPUT_DIFFERENCE

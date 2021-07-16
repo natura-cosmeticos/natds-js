@@ -1,4 +1,4 @@
-/* eslint-disable @typescript-eslint/ban-ts-comment,@typescript-eslint/no-explicit-any */
+/* eslint-disable complexity */
 import * as React from 'react'
 import MaskedInput from 'react-text-mask'
 import PasswordReveal from './PasswordReveal'
@@ -12,37 +12,38 @@ export const SEARCH_TYPE = 'search'
 export const PASSWORD_TYPE = 'password'
 
 export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, ITextFieldProps>(
-  // eslint-disable-next-line complexity,max-statements
+
   (props: ITextFieldProps, ref) => {
     const {
       className,
       disabled = false,
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
+      guide,
       helpText,
       hidePasswordIcon,
       icon,
       id,
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       label,
       mask,
-      guide,
-      placeholderChar,
       maxLength,
       multiline,
+      onBlur,
       onChange,
+      onClearSearch,
+      onFocus,
       onIconPress,
       placeholder = '',
+      placeholderChar,
       required = false,
       searchIcon,
       showPasswordIcon,
       state,
-      // eslint-disable-next-line @typescript-eslint/no-unused-vars
       theme: providedTheme,
       type,
+      value,
       ...otherProps
     } = props
 
-    let fieldType : IInputProps['inputComponent'] = 'input'
+    let fieldType: IInputProps['inputComponent'] = 'input'
 
     if (multiline) {
       fieldType = 'textarea'
@@ -51,27 +52,12 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
     }
 
     const [showing, togglePasswordReveal] = React.useState(false)
-    const [value, setValue] = React.useState('')
     const customType = showing ? TEXT_TYPE : type
     const showPasswordReveal = type === PASSWORD_TYPE && !icon
     const showSearchClear = type === SEARCH_TYPE && !icon
     const hasIcon = Boolean(showPasswordReveal) || Boolean(showSearchClear) || Boolean(icon)
 
-    const handleChange = (event: { target: { value: React.SetStateAction<string>; }; }) => {
-      setValue(event.target.value)
-      if (onChange) {
-        onChange(event)
-      }
-    }
-
-    const clearSearch = (event: any) => {
-      setValue('')
-      if (onChange) {
-        onChange(event)
-      }
-    }
-
-    let endAdornment : React.ReactNode = null
+    let endAdornment: React.ReactNode = null
 
     if (showPasswordReveal) {
       endAdornment = (
@@ -86,7 +72,7 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
     if (showSearchClear) {
       endAdornment = (
         <SearchClear
-          onClearSearch={clearSearch}
+          onClearSearch={onClearSearch}
           searchIcon={searchIcon}
         />
       )
@@ -111,7 +97,9 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
           placeholderChar
         }}
         multiline={multiline}
-        onChange={handleChange}
+        onChange={onChange}
+        onBlur={onBlur}
+        onFocus={onFocus}
         placeholder={placeholder}
         ref={ref}
         required={required}

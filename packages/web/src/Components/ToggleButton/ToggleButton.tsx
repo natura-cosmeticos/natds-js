@@ -22,24 +22,11 @@ export const ToggleButton = React.forwardRef<HTMLButtonElement, IToggleButtonPro
     ...otherProps
   } = props
 
-  const [
-    checkedState, onToggle
-  ] = React.useState(checked)
-
-  const icon : React.ReactNode = checkedState ? iconOn : iconOff
-
-  React.useEffect(() => onToggle(checked), [checked])
-
-  const handleClick = (event: React.MouseEvent<HTMLButtonElement, MouseEvent>) => {
-    onToggle(!checkedState)
-    if (onClick) {
-      onClick(event, checkedState)
-    }
-  }
+  const icon : React.ReactNode = checked ? iconOn : iconOff
 
   return (
     <IconButton
-      onClick={handleClick}
+      onClick={onClick}
       {...otherProps}
       ref={ref}
     >

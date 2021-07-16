@@ -9,7 +9,7 @@ const componentArgType = {
   table: { type: { summary: 'React.ComponentType' } }
 }
 
-export const argTypes : Record<keyof ITextFieldProps, ArgType> = {
+export const argTypes: Record<keyof ITextFieldProps, ArgType> = {
   disabled: {
     ...booleanArgType,
     description: 'Disables the `input` for user interactions.',
@@ -96,6 +96,22 @@ Creates custom functionalities for \`password\` and \`search\` input types.
 Other types will be forwarded to the input.
 `,
     table: { type: { summary: '"password" | "search" | "text" | string' } }
+  },
+  onClearSearch: {
+    description: 'Event to clear input field on "search" type'
+  },
+  onBlur: {
+    description: 'Callback fired when the input is blurred.'
+  },
+  onChange: {
+    description: 'Callback fired when the value is changed.'
+  },
+  onFocus: {
+    description: 'Callback fired when the value is focused.'
+  },
+  value: {
+    ...textArgType,
+    description: 'The value of the `input` element, required for a controlled component.'
   }
 }
 

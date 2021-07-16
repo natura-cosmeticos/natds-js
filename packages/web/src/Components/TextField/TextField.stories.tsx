@@ -20,16 +20,23 @@ export default {
   title: 'Components/Text Field'
 } as Meta
 
-const Template : Story<ITextFieldProps> = (args: ITextFieldProps) => (
-  <TextField
-    helpText={args.helpText || 'Assistive text'}
-    id={args.id || 'demo-text-field'}
-    label={args.label || 'Label'}
-    placeholder={args.placeholder || 'Placeholder'}
-    type={args.type}
-    {...args}
-  />
-)
+const Template: Story<ITextFieldProps> = (args: ITextFieldProps) => {
+  const [value, setValue] = React.useState<string>('')
+
+  return (
+    <TextField
+      helpText={args.helpText || 'Assistive text'}
+      id={args.id || 'demo-text-field'}
+      label={args.label || 'Label'}
+      placeholder={args.placeholder || 'Placeholder'}
+      type={args.type}
+      onChange={(e) => setValue(e.target.value)}
+      value={value}
+      onClearSearch={() => setValue('')}
+      {...args}
+    />
+  )
+}
 
 export const Playground : Story<ITextFieldProps> = Template.bind({})
 Playground.args = {

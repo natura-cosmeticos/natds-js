@@ -1,4 +1,6 @@
 import * as React from 'react'
+import { StandardTextFieldProps } from '@material-ui/core'
+import { ISearchClearProps } from 'Components/Field/SearchClear'
 import { IInputStateHelpTextProviderProps } from '../InputStateHelpTextProvider'
 import { IThemeWeb } from '../../Themes'
 import { Mask, MaskFn, State } from '../Input/Input.props'
@@ -104,6 +106,36 @@ export interface TextFieldProps {
    * @type "password" | "search" | "text" | string
    */
   type?: Type;
+
+  /**
+   * Event to clear input field on 'search' type
+   */
+  onClearSearch?: ISearchClearProps['onClearSearch']
+
+  /**
+  * Callback fired when the input is blurred.
+   */
+  onBlur?: StandardTextFieldProps['onBlur'];
+
+  /**
+   * Callback fired when the value is changed.
+   */
+  onChange?: StandardTextFieldProps['onChange'];
+
+  /**
+   * Callback fired when the value is focused.
+   */
+  onFocus?: StandardTextFieldProps['onFocus'];
+
+  /**
+   * The value of the `input` element, required for a controlled component.
+   */
+  value?: StandardTextFieldProps['value'];
+
+  /**
+   * The short hint displayed in the input before the user enters a value.
+   */
+  placeholder?: StandardTextFieldProps['placeholder']
 
 }
 
