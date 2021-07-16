@@ -25,6 +25,11 @@ export interface DialogProps {
   container?: string
 
   /**
+   * Callback fired when the escape key is pressed,
+   */
+  onEscapeKeyDown?: React.KeyboardEventHandler<HTMLDivElement>
+
+  /**
    * A `dialog` is a window overlaid on either the primary window or another dialog window
    *
    * An `alertdialog` is a modal dialog that interrupts the user's workflow to
