@@ -1,0 +1,29 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portal should render element into a given element id 1`] = `
+<body>
+  <div />
+  <div
+    id="container"
+  >
+    <p
+      data-testid="something"
+    >
+      something
+    </p>
+  </div>
+</body>
+`;
+
+exports[`Portal should render element into a nested div 1`] = `
+<body>
+  <div />
+  <div>
+    <p
+      data-testid="something"
+    >
+      something
+    </p>
+  </div>
+</body>
+`;

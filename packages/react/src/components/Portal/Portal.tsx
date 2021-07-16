@@ -3,7 +3,7 @@ import { createPortal } from 'react-dom'
 
 export interface PortalProps {
   children: React.ReactNode
-  id: string | undefined
+  id?: string | undefined
 }
 
 export const Portal = ({ children, id = 'root' }: PortalProps) => {
