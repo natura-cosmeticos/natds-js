@@ -9,6 +9,7 @@ const Dialog = ({
   ariaLabelledBy,
   children,
   container,
+  onEscapeKeyDown,
   role,
   showDialog = false,
   size = 'medium',
@@ -19,16 +20,17 @@ const Dialog = ({
 
   return (
     <Portal id={container}>
-      <section
+      <div
         aria-describedby={ariaDescribedBy}
         aria-labelledby={ariaLabelledBy}
         aria-modal
         className={dialog}
         data-testid={testID}
+        onKeyDown={onEscapeKeyDown}
         role={role}
       >
         {children}
-      </section>
+      </div>
       <div className={overlay} />
     </Portal>
   )
