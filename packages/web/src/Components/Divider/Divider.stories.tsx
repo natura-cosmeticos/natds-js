@@ -10,7 +10,7 @@ import { CaptionWithSecondaryText } from '../Typography/Typography.stories'
 import { Typography } from '../Typography'
 import { SemiXMarginY } from '../Spacing/Spacing.margin.stories'
 
-const Divider:React.ForwardRefExoticComponent<IDividerProps> = React.lazy(() => import('../Divider'))
+const Divider:React.ForwardRefExoticComponent<IDividerProps> = React.lazy(() => import('./Divider'))
 
 export default {
   component,

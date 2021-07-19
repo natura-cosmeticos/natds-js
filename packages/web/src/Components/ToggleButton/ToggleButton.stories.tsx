@@ -13,11 +13,21 @@ export default {
   title: 'Components/Toggle Button'
 } as Meta
 
-const Template : Story<IToggleButtonProps> = (args: IToggleButtonProps) => (
-  <ToggleButton {...args} iconOff={args.iconOff} iconOn={args.iconOn} />
-)
+const Template: Story<IToggleButtonProps> = (args: IToggleButtonProps) => {
+  const [checked, setChecked] = React.useState(args.checked)
 
-export const Playground : Story<IToggleButtonProps> = Template.bind({})
+  return (
+    <ToggleButton
+      {...args}
+      iconOff={args.iconOff}
+      iconOn={args.iconOn}
+      checked={checked}
+      onClick={() => setChecked(!checked)}
+    />
+  )
+}
+
+export const Playground: Story<IToggleButtonProps> = Template.bind({})
 Playground.args = {
   color: colors.primary,
   checked: false,
@@ -27,31 +37,31 @@ Playground.args = {
   size: sizes.medium
 }
 
-export const InitiallyChecked : Story<IToggleButtonProps> = Template.bind({})
+export const InitiallyChecked: Story<IToggleButtonProps> = Template.bind({})
 InitiallyChecked.args = {
   ...Playground.args,
   checked: true
 }
 
-export const PrimaryColor : Story<IToggleButtonProps> = Template.bind({})
+export const PrimaryColor: Story<IToggleButtonProps> = Template.bind({})
 PrimaryColor.args = {
   ...Playground.args,
   color: colors.primary
 }
 
-export const SecondaryColor : Story<IToggleButtonProps> = Template.bind({})
+export const SecondaryColor: Story<IToggleButtonProps> = Template.bind({})
 SecondaryColor.args = {
   ...Playground.args,
   color: colors.secondary
 }
 
-export const DefaultColor : Story<IToggleButtonProps> = Template.bind({})
+export const DefaultColor: Story<IToggleButtonProps> = Template.bind({})
 DefaultColor.args = {
   ...Playground.args,
   color: colors.default
 }
 
-export const SmallWithTinyIcon : Story<IToggleButtonProps> = Template.bind({})
+export const SmallWithTinyIcon: Story<IToggleButtonProps> = Template.bind({})
 SmallWithTinyIcon.args = {
   ...PrimaryColor.args,
   iconOff: <Icon {...TinyIcon.args} name="outlined-action-check" />,
@@ -59,7 +69,7 @@ SmallWithTinyIcon.args = {
   size: sizes.small
 }
 
-export const SmallWithSmallIcon : Story<IToggleButtonProps> = Template.bind({})
+export const SmallWithSmallIcon: Story<IToggleButtonProps> = Template.bind({})
 SmallWithSmallIcon.args = {
   ...PrimaryColor.args,
   iconOff: <Icon {...SmallIcon.args} name="outlined-action-check" />,
@@ -67,7 +77,7 @@ SmallWithSmallIcon.args = {
   size: sizes.small
 }
 
-export const MediumWithTinyIcon : Story<IToggleButtonProps> = Template.bind({})
+export const MediumWithTinyIcon: Story<IToggleButtonProps> = Template.bind({})
 MediumWithTinyIcon.args = {
   ...PrimaryColor.args,
   iconOff: <Icon {...TinyIcon.args} name="outlined-action-check" />,
@@ -75,7 +85,7 @@ MediumWithTinyIcon.args = {
   size: sizes.medium
 }
 
-export const MediumWithSmallIcon : Story<IToggleButtonProps> = Template.bind({})
+export const MediumWithSmallIcon: Story<IToggleButtonProps> = Template.bind({})
 MediumWithSmallIcon.args = {
   ...PrimaryColor.args,
   iconOff: <Icon {...SmallIcon.args} name="outlined-action-check" />,
@@ -83,7 +93,7 @@ MediumWithSmallIcon.args = {
   size: sizes.medium
 }
 
-export const Disabled : Story<IToggleButtonProps> = Template.bind({})
+export const Disabled: Story<IToggleButtonProps> = Template.bind({})
 Disabled.args = {
   ...Playground.args,
   disabled: true

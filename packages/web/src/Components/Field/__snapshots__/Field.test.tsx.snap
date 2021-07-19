@@ -17,7 +17,6 @@ exports[`Field component should match snapshot 1`] = `
     placeholder=""
     required={false}
     type="text"
-    value=""
   />
 </div>
 `;
@@ -39,7 +38,6 @@ exports[`Field component should render input for password types 1`] = `
     placeholder="Placeholder"
     required={false}
     type="password"
-    value=""
   />
   <svg
     aria-hidden={true}
@@ -72,13 +70,11 @@ exports[`Field component should render input for search type 1`] = `
     placeholder="Placeholder"
     required={false}
     type="search"
-    value=""
   />
   <svg
     aria-hidden={true}
     className="MuiSvgIcon-root NatDSSearchClear-root-2"
     focusable="false"
-    onClick={[Function]}
     viewBox="0 0 24 24"
   >
     <path
@@ -111,7 +107,6 @@ exports[`Field component should render input for search types and onChange 1`] =
     aria-hidden={true}
     className="MuiSvgIcon-root NatDSSearchClear-root-2"
     focusable="false"
-    onClick={[Function]}
     viewBox="0 0 24 24"
   >
     <path
@@ -139,7 +134,6 @@ exports[`Field component should render input with maxLength attribute equal 3 1`
     placeholder="Placeholder"
     required={false}
     type="text"
-    value=""
   />
 </div>
 `;
@@ -161,7 +155,6 @@ exports[`Field component should render single line input 1`] = `
     placeholder="Placeholder"
     required={false}
     type="text"
-    value=""
   />
 </div>
 `;
@@ -189,7 +182,6 @@ exports[`Field component should render single line masked input 1`] = `
     placeholder="Placeholder"
     required={false}
     type="text"
-    value=""
   />
 </div>
 `;
