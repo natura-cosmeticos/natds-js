@@ -1,7 +1,7 @@
 /* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
-import { RadioButtonProps } from './RadioButton.props'
+import { RadioProps } from './Radio.props'
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
@@ -40,7 +40,7 @@ const styles = createUseStyles((theme: Theme) => ({
         left: '50%',
         position: 'absolute',
         textAlign: 'center',
-        backgroundColor: ({ disabled }: RadioButtonProps) => (disabled ? theme.color.lowEmphasis : theme.color.primary),
+        backgroundColor: ({ disabled }: RadioProps) => (disabled ? theme.color.lowEmphasis : theme.color.primary),
         top: '50%',
         transform: 'translate(-50%, -50%)'
       },
