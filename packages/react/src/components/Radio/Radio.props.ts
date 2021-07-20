@@ -1,4 +1,4 @@
-export interface RadioButtonProps {
+export interface RadioProps {
 
   /**
    * If `true`, the component is checked
@@ -7,20 +7,36 @@ export interface RadioButtonProps {
   checked?: boolean
 
   /**
-   * If `true`, the RadioButton will be disabled.
+   * If `true`, the Radio will be disabled.
    * @default false
    */
   disabled?: boolean
 
   /**
-   * The id of the RadioButton element. Must be the same as label
+   * The id of the Radio element. Must be the same as label
    */
   id: string
+
+  /**
+   * Name attribute of the `input` element.
+   */
+  name?: string
 
   /**
   * The onchange event occurs when the checked state has been changed.
   */
   onChange: React.ChangeEventHandler<HTMLInputElement>,
+
+  /**
+   * Pass a ref to the `input` element.
+   */
+  ref?: React.Ref<never>
+
+  /**
+   * If `true`, the `input` element will be required.
+   * @default false
+   */
+  required?: boolean;
 
   /**
    * Optional ID for testing

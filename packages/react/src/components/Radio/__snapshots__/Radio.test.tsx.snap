@@ -1,6 +1,6 @@
 // Jest Snapshot v1, https://goo.gl/fbAQLP
 
-exports[`RadioButton should render correctly when is checked 1`] = `
+exports[`Radio should render correctly when is checked 1`] = `
 Array [
   ".sharedRippleEffect-0-2-4 {
   top: 0;
@@ -251,7 +251,7 @@ Array [
 ]
 `;
 
-exports[`RadioButton should render correctly when is disabled 1`] = `
+exports[`Radio should render correctly when is disabled 1`] = `
 Array [
   ".sharedRippleEffect-0-2-4 {
   top: 0;
@@ -502,7 +502,7 @@ Array [
 ]
 `;
 
-exports[`RadioButton should render correctly with default props 1`] = `
+exports[`Radio should render correctly with default props 1`] = `
 Array [
   ".sharedRippleEffect-0-2-4 {
   top: 0;
