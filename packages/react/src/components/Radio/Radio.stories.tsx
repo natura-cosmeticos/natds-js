@@ -1,7 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
-import { RadioButton, RadioButtonProps } from '.'
+import { Radio, RadioProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
@@ -15,8 +15,8 @@ const componentStatus = `
 `
 
 export default {
-  title: 'Components/RadioButton',
-  component: RadioButton,
+  title: 'Components/Radio',
+  component: Radio,
   parameters: {
     componentSubtitle: 'Radio buttons allow users to select one option from a set.',
     docs: { description: { component: componentStatus } },
@@ -24,19 +24,19 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<RadioButtonProps> = (args) => {
+export const Playground: Story<RadioProps> = (args) => {
   const [check, setCheck] = useState(args.checked)
 
   return (
-    <RadioButton {...args} checked={check} onChange={() => setCheck(!check)} />
+    <Radio {...args} checked={check} onChange={() => setCheck(!check)} />
   )
 }
 Playground.args = { testID: 'ds-radio', checked: false }
 
-export const Disabled: Story<RadioButtonProps> = (args) => (
+export const Disabled: Story<RadioProps> = (args) => (
   <StoryContainer>
-    <RadioButton {...args} disabled />
-    <RadioButton {...args} disabled checked />
+    <Radio {...args} disabled />
+    <Radio {...args} disabled checked />
   </StoryContainer>
 )
 Disabled.args = { ...Playground.args }
