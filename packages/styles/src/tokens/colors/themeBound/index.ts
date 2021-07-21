@@ -10,6 +10,10 @@ import {
   theBodyShopDarkColorTokens,
   theBodyShopLightColorTokens
 } from './theBodyShop'
+import {
+  aesopDarkColorTokens,
+  aesopLightColorTokens
+} from './aesop'
 
 /**
  * @deprecated theme-bound `colorTokens` are deprecated since v0.20 and will be removed at v1.0.
@@ -51,5 +55,17 @@ export const colorTokens = {
    * @deprecated `theBodyShopLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
    * Please use `theme.theBodyShop.light.colors` from `natds-themes`.
    */
-  theBodyShopLightColorTokens
+  theBodyShopLightColorTokens,
+
+  /**
+   * @deprecated `aesopDarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.aesop.dark.color` from `natds-themes`.
+   */
+  aesopDarkColorTokens,
+
+  /**
+   * @deprecated `aesopLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.aesop.light.colors` from `natds-themes`.
+   */
+  aesopLightColorTokens
 }
