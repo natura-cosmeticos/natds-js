@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.6.0](https://github.com/natura-cosmeticos/natds/compare/v3.0.0...v1.6.0) (2021-07-21)
+
+
+### Features
+
+* **theme:** add aesop ([#1477](https://github.com/natura-cosmeticos/natds/issues/1477)) ([15d79e0](https://github.com/natura-cosmeticos/natds/commit/15d79e07f26b3d4256c03ba3a3292514ec8402b6))
+
+
+
+
+
 ## [1.5.4](https://github.com/natura-cosmeticos/natds/compare/v1.5.3...v1.5.4) (2021-03-16)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles
