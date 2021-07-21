@@ -12,7 +12,9 @@ const getTheme = (themeKey) => {
     naturaDark: themes.natura.dark,
     naturaLight: themes.natura.light,
     theBodyShopDark: themes.theBodyShop.dark,
-    theBodyShopLight: themes.theBodyShop.light
+    theBodyShopLight: themes.theBodyShop.light,
+    aesopDark: themes.aesop.dark,
+    aesopLight: themes.aesop.light
   }
 
   if (Object.keys(themesMap).includes(themeKey)) {
