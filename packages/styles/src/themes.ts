@@ -4,6 +4,8 @@ import { avonLight } from './themes/avon/avon-light'
 import { avonDark } from './themes/avon/avon-dark'
 import { theBodyShopLight } from './themes/theBodyShop/the-body-shop-light'
 import { theBodyShopDark } from './themes/theBodyShop/the-body-shop-dark'
+import { aesopLight } from './themes/aesop/aesop-light'
+import { aesopDark } from './themes/aesop/aesop-dark'
 
 export { ITheme } from './themes/ITheme'
 
@@ -19,5 +21,9 @@ export default {
   theBodyShop: {
     dark: theBodyShopDark,
     light: theBodyShopLight
+  },
+  aesop: {
+    dark: aesopDark,
+    light: aesopLight
   }
 }
