@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as TestRenderer from 'react-test-renderer'
 import { render, fireEvent, within } from '@testing-library/react'
-import { ISelectProps, Select } from './Select'
+import { ISelectProps, Select, handleOptions } from './Select'
 
 const getProps = (props: Partial<ISelectProps> = {}) => {
   const {
@@ -100,5 +100,33 @@ describe('Select component', () => {
 
     expect(mockOnChange).toHaveBeenCalledTimes(1)
     expect(getByRole('button').textContent).toEqual('Option1')
+  })
+
+  describe('handleOptions', () => {
+    it('should return correctly when option is number', () => {
+      expect(handleOptions([1, 2, 3])).toEqual([
+        { optionValue: 1, optionDescription: 1 },
+        { optionValue: 2, optionDescription: 2 },
+        { optionValue: 3, optionDescription: 3 }
+      ])
+    })
+    it('should return correctly when option is string', () => {
+      expect(handleOptions(['1', '2', '3'])).toEqual([
+        { optionValue: '1', optionDescription: '1' },
+        { optionValue: '2', optionDescription: '2' },
+        { optionValue: '3', optionDescription: '3' }
+      ])
+    })
+    it('should return correctly when option is oblect', () => {
+      expect(handleOptions([
+        { optionValue: 1, optionDescription: '1' },
+        { optionValue: 2, optionDescription: '2' },
+        { optionValue: 3, optionDescription: '3' }
+      ])).toEqual([
+        { optionValue: 1, optionDescription: '1' },
+        { optionValue: 2, optionDescription: '2' },
+        { optionValue: 3, optionDescription: '3' }
+      ])
+    })
   })
 })
