@@ -1,6 +1,17 @@
 import { SelectProps } from '@material-ui/core/Select'
 import { State } from 'Components/Input/Input.props'
 
+export type DeprecatedOptions = string | number
+export type UpdatedOptions = { optionValue: string | number; optionDescription: string }
+
+/**
+ * @deprecated
+ */
+type DeprecatedSelectOptions = Array<DeprecatedOptions>;
+type UpdatedSelectOptions = Array<UpdatedOptions>;
+
+export type SelectOptions = DeprecatedSelectOptions | UpdatedSelectOptions;
+
 export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'onClose' | 'defaultValue'> {
   /**
    * @optional
@@ -35,7 +46,7 @@ export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'on
   /**
    * Options of Select
    */
-  options: Array<string | number>;
+  options: SelectOptions;
 
   /**
    * @optional
