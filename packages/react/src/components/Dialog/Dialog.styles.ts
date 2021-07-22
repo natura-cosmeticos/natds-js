@@ -3,7 +3,12 @@ import { Theme } from '@naturacosmeticos/natds-themes'
 import { DialogProps, DialogSizes } from './Dialog.props'
 
 export const convertSize = (size: DialogSizes) => {
-  const sizes = { small: 328, medium: 536, large: 816 }
+  const sizes = {
+    small: 328,
+    medium: 536,
+    large: 816
+  }
+
   return sizes[size]
 }
 
@@ -14,7 +19,7 @@ const styles = createUseStyles((theme: Theme) => ({
     backgroundColor: theme.color.surface,
     borderRadius: theme.borderRadius.medium,
     boxShadow: theme.elevation.hugeX,
-    display: ({ showDialog }: DialogProps) => (showDialog ? 'flex' : 'none'),
+    display: ({ open }: DialogProps) => (open ? 'flex' : 'none'),
     flexDirection: 'column',
     left: '50%',
     maxHeight: '70%',
@@ -27,7 +32,7 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   overlay: {
     background: theme.color.highlight,
-    display: ({ showDialog }: DialogProps) => (!showDialog && 'none'),
+    display: ({ open }: DialogProps) => (!open && 'none'),
     height: '100%',
     left: 0,
     opacity: theme.opacity.mediumHigh,

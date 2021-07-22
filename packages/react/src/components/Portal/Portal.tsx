@@ -1,22 +1,20 @@
-import { memo, useEffect, useState } from 'react'
+import { ReactPortal, useEffect, useState } from 'react'
 import { createPortal } from 'react-dom'
 
 export interface PortalProps {
   children: React.ReactNode
-  id?: string | undefined
+  container?: Element | (() => Element | null) | null
 }
 
-export const Portal = ({ children, id = 'root' }: PortalProps) => {
-  const [container] = useState(document.getElementById(id) || document.createElement('div'))
+export const Portal = ({ children, container }: PortalProps): ReactPortal | null => {
+  const [mountNode, setMountNode] = useState<Element | null>()
 
   useEffect(() => {
-    document.body.appendChild(container)
-    return () => {
-      document.body.removeChild(container)
-    }
-  }, [])
+    const element = container || document.body
+    return setMountNode(element)
+  }, [container])
 
-  return createPortal(children, container)
+  return mountNode ? createPortal(children, mountNode) : null
 }
 
-export default memo(Portal)
+export default Portal
