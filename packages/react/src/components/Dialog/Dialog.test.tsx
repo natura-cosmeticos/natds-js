@@ -12,7 +12,7 @@ jest.mock('../Portal/Portal')
 describe('Dialog', () => {
   test('should render correctly with DialogBody and DialogFooter', () => {
     const { styles, component } = renderWithTheme(
-      <Dialog role="alertdialog" ariaDescribedBy="description">
+      <Dialog role="alertdialog" ariaDescribedBy="description" open>
         <DialogBody>
           <p id="description">something on the body</p>
         </DialogBody>
@@ -25,7 +25,7 @@ describe('Dialog', () => {
 
   test('should render correctly with DialogHeader, DialogBody and DialogFooter', () => {
     const { styles, component } = renderWithTheme(
-      <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description">
+      <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description" open>
         <DialogHeader title="Example" id="title" />
         <DialogBody>
           <p id="description">something on the body</p>
@@ -39,7 +39,7 @@ describe('Dialog', () => {
 
   test('should render correctly the divider at DialogBody', () => {
     const { styles, component } = renderWithTheme(
-      <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description">
+      <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description" open>
         <DialogHeader title="Example" id="title" />
         <DialogBody showDivider>
           <p id="description">something on the body</p>
@@ -53,7 +53,7 @@ describe('Dialog', () => {
 
   test('should render correctly with the given size', () => {
     const { styles, component } = renderWithTheme(
-      <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description" size="large">
+      <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description" size="large" open>
         <DialogHeader title="Example" id="title" />
         <DialogBody showDivider>
           <p id="description">something on the body</p>
@@ -74,7 +74,7 @@ describe('Dialog', () => {
     })
 
     const { styles, component } = renderWithTheme(
-      <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description" size="large">
+      <Dialog role="dialog" ariaLabelledBy="title" ariaDescribedBy="description" size="large" open>
         <DialogHeader title="Example" id="title" />
         <DialogBody showDivider>
           <p id="description">something on the body</p>
@@ -82,6 +82,12 @@ describe('Dialog', () => {
         <DialogFooter>something on the footer</DialogFooter>
       </Dialog>
     )
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  test('should not render component with is not open', () => {
+    const { styles, component } = renderWithTheme(<Dialog role="dialog" testID="ds-dialog"> something </Dialog>)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })

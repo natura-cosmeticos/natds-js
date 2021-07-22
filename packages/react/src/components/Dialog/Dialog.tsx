@@ -11,28 +11,32 @@ const Dialog = ({
   container,
   onEscapeKeyDown,
   role,
-  showDialog = false,
+  open = false,
   size = 'medium',
   testID
 }: DialogProps): JSX.Element => {
   const { width } = useWindowSize()
-  const { dialog, overlay } = styles({ showDialog, size, width })
+  const { dialog, overlay } = styles({ open, size, width })
 
   return (
-    <Portal id={container}>
-      <div
-        aria-describedby={ariaDescribedBy}
-        aria-labelledby={ariaLabelledBy}
-        aria-modal
-        className={dialog}
-        data-testid={testID}
-        onKeyDown={onEscapeKeyDown}
-        role={role}
-      >
-        {children}
-      </div>
-      <div className={overlay} />
-    </Portal>
+    <>
+      {open && (
+        <Portal container={container}>
+          <div
+            aria-describedby={ariaDescribedBy}
+            aria-labelledby={ariaLabelledBy}
+            aria-modal
+            className={dialog}
+            data-testid={testID}
+            onKeyDown={onEscapeKeyDown}
+            role={role}
+          >
+            {children}
+          </div>
+          <div className={overlay} />
+        </Portal>
+      )}
+    </>
   )
 }
 

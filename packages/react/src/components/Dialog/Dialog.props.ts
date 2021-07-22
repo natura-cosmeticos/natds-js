@@ -1,31 +1,34 @@
+import { PortalProps } from '../Portal'
+
 export type DialogSizes = 'small' | 'medium' | 'large'
 
 export interface DialogProps {
   /**
-   * The value of this attribute will be the **id**
-   * of the element used to describe the **dialog content**.
+   * The id(s) of the element(s) that describe the dialog.
    */
   ariaDescribedBy?: string
 
   /**
-   * The value of this attribute will be the **id**
-   * of the element used for the **dialog title**.
+   * The id(s) of the element(s) that label the dialog.
    */
   ariaLabelledBy?: string
 
   /**
-   * Component children, usually the Dialog sub-components.
+   * Dialog children, usually the included sub-components.
    */
   children: React.ReactNode
 
   /**
-   * The provided id's container will have the portal's children appended to it.
-   * By default, it uses the `root` element of the top-level document object.
+   * An HTML element or function that returns one.
+   * The `container` will have the portal children appended to it.
+   *
+   * By default, it uses the body of the top-level document object,
+   * so it's simply `document.body` most of the time.
    */
-  container?: string
+  container?: PortalProps['container']
 
   /**
-   * Callback fired when the escape key is pressed,
+   * Callback fired when the escape key is pressed
    */
   onEscapeKeyDown?: React.KeyboardEventHandler<HTMLDivElement>
 
@@ -38,13 +41,13 @@ export interface DialogProps {
   role: 'dialog' | 'alertdialog'
 
   /**
-   * If `true`, the `Dialog` is open.
+   * If `true`, the Dialog is open.
    * @default false
    */
-  showDialog?: boolean
+  open?: boolean
 
   /**
-   * The width of Dialog.
+   * Determine the width of the dialog
    * If the size of `dialog` is larger than the screen width, a width of `90vw` will be applied
    * @default medium
    */

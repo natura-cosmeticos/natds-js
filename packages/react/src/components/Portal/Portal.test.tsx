@@ -6,17 +6,17 @@ describe('Portal', () => {
   beforeAll(() => {
     document.body.innerHTML = '<div id="container"></div>'
   })
-  it('should render element into a given element id', () => {
-    const component = render(<Portal id="container"><p data-testid="something">something</p></Portal>)
-
-    expect(component.baseElement).toMatchSnapshot()
-    expect(document.getElementById('container')).toContainElement(component.getByTestId('something'))
-  })
-
-  it('should render element into a nested div', () => {
+  it('should render element into body as default', () => {
     const component = render(<Portal><p data-testid="something">something</p></Portal>)
 
     expect(component.baseElement).toMatchSnapshot()
-    expect(component.getByTestId('something')).toBeInTheDocument()
+    expect(document.body).toContainElement(component.getByTestId('something'))
+  })
+
+  it('should render element into the givern container', () => {
+    const component = render(<Portal container={() => document.getElementById('container')}><p data-testid="something">something</p></Portal>)
+
+    expect(component.baseElement).toMatchSnapshot()
+    expect(document.getElementById('container')).toContainElement(component.getByTestId('something'))
   })
 })

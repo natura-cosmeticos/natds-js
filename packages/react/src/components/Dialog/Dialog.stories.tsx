@@ -1,7 +1,6 @@
 /* eslint-disable react/destructuring-assignment */
-import React from 'react'
+import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
-import { useState } from '@storybook/client-api'
 import { Dialog } from '.'
 import { Button } from '../Button'
 import { DialogProps } from './Dialog.props'
@@ -36,12 +35,12 @@ export default {
 } as Meta
 
 export const Playground: Story<DialogProps> = (args) => {
-  const [showDialog, setShowDialog] = useState(args.showDialog)
+  const [showDialog, setShowDialog] = useState(args.open)
 
   return (
     <>
       <Button text="open dialog" onClick={() => setShowDialog(!showDialog)} />
-      <Dialog {...args} showDialog={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description">
+      <Dialog {...args} open={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description">
         <DialogHeader title="Example" id="dialog-title">
           <div style={{ display: 'flex', gap: 16 }}>
             <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />
@@ -64,6 +63,6 @@ export const Playground: Story<DialogProps> = (args) => {
 }
 Playground.args = {
   role: 'dialog',
-  showDialog: false,
+  open: false,
   testID: 'ds-dialog'
 }
