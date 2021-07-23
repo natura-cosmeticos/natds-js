@@ -105,27 +105,27 @@ describe('Select component', () => {
   describe('handleOptions', () => {
     it('should return correctly when option is number', () => {
       expect(handleOptions([1, 2, 3])).toEqual([
-        { optionValue: 1, optionDescription: 1 },
-        { optionValue: 2, optionDescription: 2 },
-        { optionValue: 3, optionDescription: 3 }
+        { value: 1, description: 1 },
+        { value: 2, description: 2 },
+        { value: 3, description: 3 }
       ])
     })
     it('should return correctly when option is string', () => {
       expect(handleOptions(['1', '2', '3'])).toEqual([
-        { optionValue: '1', optionDescription: '1' },
-        { optionValue: '2', optionDescription: '2' },
-        { optionValue: '3', optionDescription: '3' }
+        { value: '1', description: '1' },
+        { value: '2', description: '2' },
+        { value: '3', description: '3' }
       ])
     })
     it('should return correctly when option is object', () => {
       expect(handleOptions([
-        { optionValue: 1, optionDescription: '1' },
-        { optionValue: 2, optionDescription: '2' },
-        { optionValue: 3, optionDescription: '3' }
+        { value: 1, description: 'one' },
+        { value: 2, description: 'two' },
+        { value: 3, description: 'three' }
       ])).toEqual([
-        { optionValue: 1, optionDescription: '1' },
-        { optionValue: 2, optionDescription: '2' },
-        { optionValue: 3, optionDescription: '3' }
+        { value: 1, description: 'one' },
+        { value: 2, description: 'two' },
+        { value: 3, description: 'three' }
       ])
     })
   })

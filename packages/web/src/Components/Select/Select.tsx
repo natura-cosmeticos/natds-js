@@ -20,10 +20,10 @@ export { ISelectProps } from './Select.props'
 
 export const handleOptions = (selectOptions: SelectOptions) => (
   selectOptions.map((option: DeprecatedOptions | UpdatedOptions) => {
-    if (typeof option === typeof 1 || typeof option === typeof '') {
-      return { optionValue: option as string | number, optionDescription: option }
+    if (typeof option === 'number' || typeof option === 'string') {
+      return { value: option, description: option }
     }
-    return option as UpdatedOptions
+    return option
   })
 )
 
@@ -76,8 +76,8 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
             </MenuItem>
           )}
           {handleOptions(options)?.map((option, index) => (
-            <MenuItem value={option.optionValue} key={index}>
-              {option.optionDescription}
+            <MenuItem value={option.value} key={index}>
+              {option.description}
             </MenuItem>
           ))}
         </MaterialSelect>

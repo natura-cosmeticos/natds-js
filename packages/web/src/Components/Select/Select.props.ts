@@ -2,7 +2,7 @@ import { SelectProps } from '@material-ui/core/Select'
 import { State } from 'Components/Input/Input.props'
 
 export type DeprecatedOptions = string | number
-export type UpdatedOptions = { optionValue: string | number; optionDescription: string }
+export type UpdatedOptions = { value: string | number; description: string| number }
 
 /**
  * @deprecated
