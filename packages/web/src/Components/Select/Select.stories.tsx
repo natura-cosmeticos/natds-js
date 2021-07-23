@@ -11,7 +11,11 @@ export default {
   title: 'Components/Select'
 } as Meta
 
-const options = ['option 1', 'option 2', 'option 3']
+const options = [
+  { value: 1, description: 'one' },
+  { value: 2, description: 'two' },
+  { value: 3, description: 'three' }
+]
 
 const Template: Story<ISelectProps> = (args: ISelectProps) => {
   const [value, setValue] = React.useState(args.value)
