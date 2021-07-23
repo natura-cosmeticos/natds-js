@@ -1,7 +1,7 @@
 import * as React from 'react'
 import * as TestRenderer from 'react-test-renderer'
 import { render, fireEvent, within } from '@testing-library/react'
-import { ISelectProps, Select } from './Select'
+import { ISelectProps, Select, handleOptions } from './Select'
 
 const getProps = (props: Partial<ISelectProps> = {}) => {
   const {
@@ -100,5 +100,33 @@ describe('Select component', () => {
 
     expect(mockOnChange).toHaveBeenCalledTimes(1)
     expect(getByRole('button').textContent).toEqual('Option1')
+  })
+
+  describe('handleOptions', () => {
+    it('should return correctly when option is number', () => {
+      expect(handleOptions([1, 2, 3])).toEqual([
+        { value: 1, description: 1 },
+        { value: 2, description: 2 },
+        { value: 3, description: 3 }
+      ])
+    })
+    it('should return correctly when option is string', () => {
+      expect(handleOptions(['1', '2', '3'])).toEqual([
+        { value: '1', description: '1' },
+        { value: '2', description: '2' },
+        { value: '3', description: '3' }
+      ])
+    })
+    it('should return correctly when option is object', () => {
+      expect(handleOptions([
+        { value: 1, description: 'one' },
+        { value: 2, description: 'two' },
+        { value: 3, description: 'three' }
+      ])).toEqual([
+        { value: 1, description: 'one' },
+        { value: 2, description: 'two' },
+        { value: 3, description: 'three' }
+      ])
+    })
   })
 })
