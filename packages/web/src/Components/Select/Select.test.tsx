@@ -117,7 +117,7 @@ describe('Select component', () => {
         { optionValue: '3', optionDescription: '3' }
       ])
     })
-    it('should return correctly when option is oblect', () => {
+    it('should return correctly when option is object', () => {
       expect(handleOptions([
         { optionValue: 1, optionDescription: '1' },
         { optionValue: 2, optionDescription: '2' },
