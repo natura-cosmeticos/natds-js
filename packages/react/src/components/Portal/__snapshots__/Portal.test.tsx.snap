@@ -1,0 +1,30 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Portal should render element into body as default 1`] = `
+<body>
+  <div
+    id="container"
+  />
+  <div />
+  <p
+    data-testid="something"
+  >
+    something
+  </p>
+</body>
+`;
+
+exports[`Portal should render element into the given container 1`] = `
+<body>
+  <div
+    id="container"
+  >
+    <p
+      data-testid="something"
+    >
+      something
+    </p>
+  </div>
+  <div />
+</body>
+`;
