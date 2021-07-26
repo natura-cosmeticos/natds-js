@@ -19,8 +19,8 @@ export interface DialogProps {
   children: React.ReactNode
 
   /**
-   * An HTML element or function that returns one.
-   * The `container` will have the portal children appended to it.
+   * An HTML element or function that returns one. This element will be used
+   * as the container for the Dialog and can be used to control where will be rendered
    *
    * By default, it uses the body of the top-level document object,
    * so it's simply `document.body` most of the time.
