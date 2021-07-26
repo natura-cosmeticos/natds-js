@@ -8,8 +8,6 @@ import { Icon } from '../Icon'
 import { Avatar } from '../Avatar'
 
 describe('Chip component', () => {
-  it.todo('should call onDelete')
-
   Object.keys(colors).forEach((color: string) => {
     it(`should match snapshot - Any valid Chip with ${color} color`, () => {
       const testRenderer = TestRenderer.create(<Chip color={color as keyof typeof colors} />)

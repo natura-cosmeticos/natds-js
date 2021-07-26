@@ -37,6 +37,4 @@ describe('DrawerHeader component', () => {
 
     expect(component).toMatchSnapshot('DrawerHeader with Custom children snapshot')
   })
-
-  it.todo('should custom children prevail over the properties')
 })
