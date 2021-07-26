@@ -8,7 +8,7 @@ export interface IDrawerMenuItemProps {
   list?: Array<unknown>;
   name?: string;
   onSelect?: (event: React.SyntheticEvent, name?: string) => void;
-  onToggle?: (event: React.SyntheticEvent, state: boolean, name: string) => void;
+  onToggle?: (event: React.SyntheticEvent, state: boolean, name?: string) => void;
   opened?: boolean;
   section?: string;
   selected?: boolean;
