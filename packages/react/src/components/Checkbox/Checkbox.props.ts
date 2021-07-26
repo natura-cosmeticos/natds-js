@@ -15,7 +15,7 @@ export interface CheckboxProps {
   /**
    * The id of the Checkbox element. Must be the same as label
    */
-  id: string
+  id?: string
 
   /**
    * If `true`, indicates that the value of the checkbox is indeterminate
