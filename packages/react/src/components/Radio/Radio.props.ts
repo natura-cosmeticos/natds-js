@@ -24,14 +24,19 @@ export interface RadioProps {
   name?: string
 
   /**
-  * The onchange event occurs when the checked state has been changed.
+  * The onBlur event occurs the element loses focus.
   */
-  onChange: React.ChangeEventHandler<HTMLInputElement>,
+  onBlur?: React.ChangeEventHandler<HTMLInputElement>
 
   /**
   * The onChange event occurs when the checked state has been changed.
   */
   onChange: React.ChangeEventHandler<HTMLInputElement>
+
+  /**
+  * The onFocus event occurs the element gets focus.
+  */
+  onFocus?: React.ChangeEventHandler<HTMLInputElement>
 
   /**
    * Pass a ref to the Radio element.
