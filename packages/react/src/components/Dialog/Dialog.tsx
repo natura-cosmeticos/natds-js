@@ -18,6 +18,12 @@ const Dialog = ({
   const { width } = useWindowSize()
   const { dialog, overlay } = styles({ open, size, width })
 
+  const handleOnKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
+    if (onEscapeKeyDown && e.key && e.key === 'Escape') {
+      onEscapeKeyDown(e)
+    }
+  }
+
   return (
     <>
       {open && (
@@ -28,8 +34,9 @@ const Dialog = ({
             aria-modal
             className={dialog}
             data-testid={testID}
-            onKeyDown={onEscapeKeyDown}
+            onKeyDown={handleOnKeyDown}
             role={role}
+            tabIndex={0}
           >
             {children}
           </div>

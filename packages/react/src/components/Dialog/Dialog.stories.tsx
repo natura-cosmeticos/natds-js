@@ -40,7 +40,7 @@ export const Playground: Story<DialogProps> = (args) => {
   return (
     <>
       <Button text="open dialog" onClick={() => setShowDialog(!showDialog)} />
-      <Dialog {...args} open={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description">
+      <Dialog {...args} open={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description" onEscapeKeyDown={() => setShowDialog(false)}>
         <DialogHeader title="Example" id="dialog-title">
           <div style={{ display: 'flex', gap: 16 }}>
             <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />

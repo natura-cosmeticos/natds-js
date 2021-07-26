@@ -91,4 +91,40 @@ describe('Dialog', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+
+  test('should call handleOnKeyDown if Escape is pressed', () => {
+    const onEscapeKeyDownMock = jest.fn()
+    const { component } = renderWithTheme(<Dialog role="dialog" onEscapeKeyDown={onEscapeKeyDownMock} open testID="ds-dialog">something</Dialog>)
+    const dialog = component.getByTestId('ds-dialog')
+
+    act(() => {
+      dialog.focus()
+      fireEvent.keyDown(dialog, {
+        key: 'Escape',
+        code: 'Escape',
+        keyCode: 27,
+        charCode: 27
+      })
+    })
+
+    expect(onEscapeKeyDownMock).toHaveBeenCalled()
+  })
+
+  test('should not call handleOnKeyDown if a key other than Escape was pressed', () => {
+    const onEscapeKeyDownMock = jest.fn()
+    const { component } = renderWithTheme(<Dialog role="dialog" onEscapeKeyDown={onEscapeKeyDownMock} open testID="ds-dialog">something</Dialog>)
+    const dialog = component.getByTestId('ds-dialog')
+
+    act(() => {
+      dialog.focus()
+      fireEvent.keyDown(dialog, {
+        key: 'Meta',
+        code: 'Meta',
+        keyCode: 91,
+        charCode: 91
+      })
+    })
+
+    expect(onEscapeKeyDownMock).not.toHaveBeenCalled()
+  })
 })
