@@ -1,7 +1,18 @@
 import { SelectProps } from '@material-ui/core/Select'
 import { State } from 'Components/Input/Input.props'
 
-export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'onClose' | 'defaultValue'> {
+export type DeprecatedOptions = string | number
+export type UpdatedOptions = { value: string | number; description: string | number }
+
+/**
+ * @deprecated
+ */
+type DeprecatedSelectOptions = Array<DeprecatedOptions>;
+type UpdatedSelectOptions = Array<UpdatedOptions>;
+
+export type SelectOptions = DeprecatedSelectOptions | UpdatedSelectOptions;
+
+export interface ISelectProps {
   /**
    * @optional
    * Disables the Select interaction
@@ -35,7 +46,7 @@ export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'on
   /**
    * Options of Select
    */
-  options: Array<string | number>;
+  options: SelectOptions;
 
   /**
    * @optional
@@ -74,4 +85,9 @@ export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'on
    * The default element value. Use when the component is not controlled.
    */
   defaultValue?: SelectProps['defaultValue']
+
+  /**
+   * The onBlur attribute fires the moment that the element loses focus.
+   */
+  onBlur?: React.FocusEventHandler<HTMLInputElement | HTMLTextAreaElement>,
 }
