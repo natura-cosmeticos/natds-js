@@ -2,7 +2,7 @@ import { SelectProps } from '@material-ui/core/Select'
 import { State } from 'Components/Input/Input.props'
 
 export type DeprecatedOptions = string | number
-export type UpdatedOptions = { value: string | number; description: string| number }
+export type UpdatedOptions = { value: string | number; description: string | number }
 
 /**
  * @deprecated
@@ -85,4 +85,9 @@ export interface ISelectProps {
    * The default element value. Use when the component is not controlled.
    */
   defaultValue?: SelectProps['defaultValue']
+
+  /**
+   * The onBlur attribute fires the moment that the element loses focus.
+   */
+  onBlur?: React.FocusEventHandler<HTMLInputElement | HTMLTextAreaElement>,
 }

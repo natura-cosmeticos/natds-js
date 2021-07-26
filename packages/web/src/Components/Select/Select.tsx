@@ -34,6 +34,7 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
       id,
       onChange,
       onClose,
+      onBlur,
       onOpen,
       options,
       placeholder,
@@ -69,6 +70,7 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
           onOpen={onOpen}
           ref={ref}
           value={value}
+          onBlur={onBlur}
         >
           {placeholder && (
             <MenuItem value="" disabled>
