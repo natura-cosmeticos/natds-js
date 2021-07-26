@@ -1,7 +1,7 @@
 export interface RadioProps {
 
   /**
-   * If `true`, the component is checked
+   * If `true`, the Radio is checked
    * @default false
    */
   checked?: boolean
@@ -19,7 +19,7 @@ export interface RadioProps {
   id?: string
 
   /**
-   * Name attribute of the `input` element.
+   * Name attribute of the Radio element.
    */
   name?: string
 
@@ -29,12 +29,17 @@ export interface RadioProps {
   onChange: React.ChangeEventHandler<HTMLInputElement>,
 
   /**
-   * Pass a ref to the `input` element.
+  * The onChange event occurs when the checked state has been changed.
+  */
+  onChange: React.ChangeEventHandler<HTMLInputElement>
+
+  /**
+   * Pass a ref to the Radio element.
    */
   ref?: React.Ref<never>
 
   /**
-   * If `true`, the `input` element will be required.
+   * If `true`, the Radio will be required.
    * @default false
    */
   required?: boolean;
