@@ -4,7 +4,9 @@ import { MenuProps } from '@material-ui/core'
 import { Icon } from '../Icon'
 import { MenuItem } from '../MenuItem'
 import InputStateHelpTextProvider from '../InputStateHelpTextProvider'
-import { ISelectProps } from './Select.props'
+import {
+  DeprecatedOptions, ISelectProps, SelectOptions, UpdatedOptions
+} from './Select.props'
 
 export { ISelectProps } from './Select.props'
 
@@ -16,6 +18,15 @@ export { ISelectProps } from './Select.props'
  * ```
  */
 
+export const handleOptions = (selectOptions: SelectOptions) => (
+  selectOptions.map((option: DeprecatedOptions | UpdatedOptions) => {
+    if (typeof option === 'number' || typeof option === 'string') {
+      return { value: option, description: option }
+    }
+    return option
+  })
+)
+
 export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISelectProps>(
   (props: ISelectProps, ref) => {
     const {
@@ -23,6 +34,7 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
       id,
       onChange,
       onClose,
+      onBlur,
       onOpen,
       options,
       placeholder,
@@ -58,15 +70,16 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
           onOpen={onOpen}
           ref={ref}
           value={value}
+          onBlur={onBlur}
         >
           {placeholder && (
             <MenuItem value="" disabled>
               {placeholder}
             </MenuItem>
           )}
-          {options?.map((option, index) => (
-            <MenuItem value={option} key={index}>
-              {option}
+          {handleOptions(options)?.map((option, index) => (
+            <MenuItem value={option.value} key={index}>
+              {option.description}
             </MenuItem>
           ))}
         </MaterialSelect>
