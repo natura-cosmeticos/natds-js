@@ -12,7 +12,7 @@ type UpdatedSelectOptions = Array<UpdatedOptions>;
 
 export type SelectOptions = DeprecatedSelectOptions | UpdatedSelectOptions;
 
-export interface ISelectProps extends Pick<SelectProps, 'value' | 'onOpen' | 'onClose' | 'defaultValue'> {
+export interface ISelectProps {
   /**
    * @optional
    * Disables the Select interaction
