@@ -49,5 +49,4 @@ describe('Button component', () => {
       expect(testRenderer).toMatchSnapshot()
     })
   })
-  it.todo('should call onClick')
 })

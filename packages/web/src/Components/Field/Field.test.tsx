@@ -36,7 +36,7 @@ const getProps = (props: Partial<ITextFieldProps> = {}) => {
 
 describe('Field component', () => {
   it('should match snapshot', () => {
-    const testRenderer : TestRenderer.ReactTestRenderer = TestRenderer.create(<Field id="test-field" />)
+    const testRenderer: TestRenderer.ReactTestRenderer = TestRenderer.create(<Field id="test-field" />)
 
     expect(testRenderer).toMatchSnapshot()
   })
@@ -84,7 +84,4 @@ describe('Field component', () => {
 
     expect(testRenderer).toMatchSnapshot()
   })
-
-  it.todo('should change input value')
-  it.todo('should change input value and call the callback function')
 })
