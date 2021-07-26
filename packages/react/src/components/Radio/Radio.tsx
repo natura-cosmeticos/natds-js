@@ -8,7 +8,9 @@ const Radio = ({
   disabled = false,
   id,
   name,
+  onBlur,
   onChange,
+  onFocus,
   ref,
   required = false,
   testID = `ds-radio-${id}`,
@@ -36,6 +38,8 @@ const Radio = ({
           disabled={disabled}
           id={id}
           name={name}
+          onBlur={onBlur}
+          onFocus={onFocus}
           onChange={onChange}
           type="radio"
           value={value}
