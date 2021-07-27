@@ -2,7 +2,6 @@
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Radio, RadioProps } from '.'
-import StoryContainer from '../../helpers/StoryContainer'
 
 const componentStatus = `
 ---
@@ -31,12 +30,16 @@ export const Playground: Story<RadioProps> = (args) => {
     <Radio {...args} checked={check} onChange={() => setCheck(!check)} />
   )
 }
-Playground.args = { testID: 'ds-radio', checked: false }
+Playground.args = {
+  testID: 'ds-radio',
+  checked: false,
+  labelText: 'Example'
+}
 
 export const Disabled: Story<RadioProps> = (args) => (
-  <StoryContainer>
+  <>
     <Radio {...args} disabled />
     <Radio {...args} disabled checked />
-  </StoryContainer>
+  </>
 )
 Disabled.args = { ...Playground.args }

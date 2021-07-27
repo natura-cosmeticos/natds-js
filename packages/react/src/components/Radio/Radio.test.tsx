@@ -16,7 +16,7 @@ describe('Radio', () => {
 
     expect(component.getByTestId('ds-radio-any')).not.toBeChecked()
     expect(component.getByTestId('ds-radio-any')).not.toBeDisabled()
-    expect([styles, component]).toMatchSnapshot()
+    expect([styles, component.container]).toMatchSnapshot()
   })
 
   it('should render correctly when is checked', () => {
@@ -30,7 +30,7 @@ describe('Radio', () => {
     const { styles, component } = renderWithTheme(<Radio {...defaultProps} disabled />)
 
     expect(component.getByTestId('ds-radio-any')).toBeDisabled()
-    expect([styles, component]).toMatchSnapshot()
+    expect([styles, component.container]).toMatchSnapshot()
   })
 
   it('should call onChange', () => {
@@ -39,5 +39,11 @@ describe('Radio', () => {
 
     fireEvent.click(component.getByTestId('ds-radio-any'))
     expect(onChangeMock).toHaveBeenCalledTimes(1)
+  })
+
+  it('should render correctly with label', () => {
+    const { styles, component } = renderWithTheme(<Radio {...defaultProps} labelText="Example" />)
+
+    expect([styles, component.container]).toMatchSnapshot()
   })
 })
