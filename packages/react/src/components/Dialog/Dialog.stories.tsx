@@ -12,7 +12,12 @@ import DialogFooter from './DialogFooter'
 const componentStatus = `
 ---
 
-Attribute status:
+**NOTE**: This component is available in the following variants, **using the available subcomponents**:
+
+  - ✅ \`standard\`**
+  - ✅ \`alert\`**
+
+With the following attribute status:
 
 - ✅ **Divider**
 - **Size**
@@ -26,7 +31,7 @@ Attribute status:
 export default {
   title: 'Components/Dialog',
   component: Dialog,
-  subcomponents: { DialogTitle: DialogHeader, DialogBody, DialogFooter },
+  subcomponents: { DialogHeader, DialogBody, DialogFooter },
   parameters: {
     componentSubtitle: 'Dialogs inform users about a task and can contain critical information, require decisions, or involve multiple tasks.',
     docs: { description: { component: componentStatus } },
