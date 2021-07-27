@@ -1,0 +1,601 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Dialog should not render component when is not open 1`] = `
+Array [
+  ".dialog-0-2-1 {
+  top: 50%;
+  left: 50%;
+  z-index: 1300;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  max-height: 70%;
+  overflow-y: auto;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 1299;
+  position: fixed;
+  background: #000000;
+}
+.dialog-d0-0-2-3 {
+  display: none;
+  width: 90vw;
+}
+.overlay-d1-0-2-4 {
+  display: none;
+}",
+  <div />,
+]
+`;
+
+exports[`Dialog should render correctly the divider at DialogBody 1`] = `
+Array [
+  ".dialog-0-2-1 {
+  top: 50%;
+  left: 50%;
+  z-index: 1300;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  max-height: 70%;
+  overflow-y: auto;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 1299;
+  position: fixed;
+  background: #000000;
+}
+.dialog-d0-0-2-3 {
+  display: flex;
+  width: 536px;
+}
+.overlay-d1-0-2-4 {}
+.divider-0-2-8 {
+  border: 0;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #bbbbbb;
+}
+.divider-d0-0-2-9 {
+  margin-right: 0;
+  margin-left: 0;
+}
+.divider-d1-0-2-10 {
+  margin-right: 0;
+  margin-left: 0;
+}
+.content-0-2-7 {
+  flex: 1 1 auto;
+  color: #333333;
+  padding: 16px;
+  position: relative;
+  font-size: 16px;
+  overflow-y: auto;
+  font-family: Roboto, sans-serif;
+}
+.header-0-2-5 {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.title-0-2-6 {
+  color: #333333;
+  margin: 0;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+}
+.footer-0-2-11 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}",
+  <div>
+    <div
+      data-testid="ds-portal"
+    >
+      <div
+        aria-describedby="description"
+        aria-labelledby="title"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="dialog"
+        tabindex="0"
+      >
+        <div
+          class="header-0-2-5"
+        >
+          <h2
+            class="title-0-2-6"
+            id="title"
+          >
+            Example
+          </h2>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d0-0-2-9"
+        />
+        <div
+          class="content-0-2-7"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d1-0-2-10"
+        />
+        <div
+          class="footer-0-2-11"
+        >
+          something on the footer
+        </div>
+      </div>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Dialog should render correctly when window is smaller than component width 1`] = `
+Array [
+  ".dialog-0-2-1 {
+  top: 50%;
+  left: 50%;
+  z-index: 1300;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  max-height: 70%;
+  overflow-y: auto;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 1299;
+  position: fixed;
+  background: #000000;
+}
+.dialog-d0-0-2-3 {
+  display: flex;
+  width: 90vw;
+}
+.overlay-d1-0-2-4 {}
+.divider-0-2-8 {
+  border: 0;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #bbbbbb;
+}
+.divider-d0-0-2-9 {
+  margin-right: 0;
+  margin-left: 0;
+}
+.divider-d1-0-2-10 {
+  margin-right: 0;
+  margin-left: 0;
+}
+.content-0-2-7 {
+  flex: 1 1 auto;
+  color: #333333;
+  padding: 16px;
+  position: relative;
+  font-size: 16px;
+  overflow-y: auto;
+  font-family: Roboto, sans-serif;
+}
+.header-0-2-5 {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.title-0-2-6 {
+  color: #333333;
+  margin: 0;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+}
+.footer-0-2-11 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}",
+  <div>
+    <div
+      data-testid="ds-portal"
+    >
+      <div
+        aria-describedby="description"
+        aria-labelledby="title"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="dialog"
+        tabindex="0"
+      >
+        <div
+          class="header-0-2-5"
+        >
+          <h2
+            class="title-0-2-6"
+            id="title"
+          >
+            Example
+          </h2>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d0-0-2-9"
+        />
+        <div
+          class="content-0-2-7"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d1-0-2-10"
+        />
+        <div
+          class="footer-0-2-11"
+        >
+          something on the footer
+        </div>
+      </div>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Dialog should render correctly with DialogBody and DialogFooter 1`] = `
+Array [
+  ".dialog-0-2-1 {
+  top: 50%;
+  left: 50%;
+  z-index: 1300;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  max-height: 70%;
+  overflow-y: auto;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 1299;
+  position: fixed;
+  background: #000000;
+}
+.dialog-d0-0-2-3 {
+  display: flex;
+  width: 536px;
+}
+.overlay-d1-0-2-4 {}
+.content-0-2-5 {
+  flex: 1 1 auto;
+  color: #333333;
+  padding: 16px;
+  position: relative;
+  font-size: 16px;
+  overflow-y: auto;
+  font-family: Roboto, sans-serif;
+}
+.footer-0-2-6 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}",
+  <div>
+    <div
+      data-testid="ds-portal"
+    >
+      <div
+        aria-describedby="description"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="alertdialog"
+        tabindex="0"
+      >
+        <div
+          class="content-0-2-5"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <div
+          class="footer-0-2-6"
+        >
+          something on the footer
+        </div>
+      </div>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Dialog should render correctly with DialogHeader, DialogBody and DialogFooter 1`] = `
+Array [
+  ".dialog-0-2-1 {
+  top: 50%;
+  left: 50%;
+  z-index: 1300;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  max-height: 70%;
+  overflow-y: auto;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 1299;
+  position: fixed;
+  background: #000000;
+}
+.dialog-d0-0-2-3 {
+  display: flex;
+  width: 536px;
+}
+.overlay-d1-0-2-4 {}
+.content-0-2-7 {
+  flex: 1 1 auto;
+  color: #333333;
+  padding: 16px;
+  position: relative;
+  font-size: 16px;
+  overflow-y: auto;
+  font-family: Roboto, sans-serif;
+}
+.header-0-2-5 {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.title-0-2-6 {
+  color: #333333;
+  margin: 0;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+}
+.footer-0-2-8 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}",
+  <div>
+    <div
+      data-testid="ds-portal"
+    >
+      <div
+        aria-describedby="description"
+        aria-labelledby="title"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="dialog"
+        tabindex="0"
+      >
+        <div
+          class="header-0-2-5"
+        >
+          <h2
+            class="title-0-2-6"
+            id="title"
+          >
+            Example
+          </h2>
+        </div>
+        <div
+          class="content-0-2-7"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <div
+          class="footer-0-2-8"
+        >
+          something on the footer
+        </div>
+      </div>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
+  </div>,
+]
+`;
+
+exports[`Dialog should render correctly with the given size 1`] = `
+Array [
+  ".dialog-0-2-1 {
+  top: 50%;
+  left: 50%;
+  z-index: 1300;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+  max-height: 70%;
+  overflow-y: auto;
+  border-radius: 4px;
+  flex-direction: column;
+  background-color: #ffffff;
+}
+.overlay-0-2-2 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.56;
+  z-index: 1299;
+  position: fixed;
+  background: #000000;
+}
+.dialog-d0-0-2-3 {
+  display: flex;
+  width: 816px;
+}
+.overlay-d1-0-2-4 {}
+.divider-0-2-8 {
+  border: 0;
+  height: 1px;
+  margin-top: 0;
+  margin-bottom: 0;
+  background-color: #bbbbbb;
+}
+.divider-d0-0-2-9 {
+  margin-right: 0;
+  margin-left: 0;
+}
+.divider-d1-0-2-10 {
+  margin-right: 0;
+  margin-left: 0;
+}
+.content-0-2-7 {
+  flex: 1 1 auto;
+  color: #333333;
+  padding: 16px;
+  position: relative;
+  font-size: 16px;
+  overflow-y: auto;
+  font-family: Roboto, sans-serif;
+}
+.header-0-2-5 {
+  display: flex;
+  padding: 16px;
+  align-items: center;
+  flex-shrink: 0;
+  justify-content: space-between;
+}
+.title-0-2-6 {
+  color: #333333;
+  margin: 0;
+  font-size: 20px;
+  font-family: Roboto, sans-serif;
+}
+.footer-0-2-11 {
+  gap: 16px;
+  display: flex;
+  padding: 16px;
+  flex-wrap: wrap;
+  align-items: center;
+  justify-content: flex-end;
+}",
+  <div>
+    <div
+      data-testid="ds-portal"
+    >
+      <div
+        aria-describedby="description"
+        aria-labelledby="title"
+        aria-modal="true"
+        class="dialog-0-2-1 dialog-d0-0-2-3"
+        role="dialog"
+        tabindex="0"
+      >
+        <div
+          class="header-0-2-5"
+        >
+          <h2
+            class="title-0-2-6"
+            id="title"
+          >
+            Example
+          </h2>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d0-0-2-9"
+        />
+        <div
+          class="content-0-2-7"
+        >
+          <p
+            id="description"
+          >
+            something on the body
+          </p>
+        </div>
+        <hr
+          class="divider-0-2-8 divider-d1-0-2-10"
+        />
+        <div
+          class="footer-0-2-11"
+        >
+          something on the footer
+        </div>
+      </div>
+      <div
+        class="overlay-0-2-2 overlay-d1-0-2-4"
+      />
+    </div>
+  </div>,
+]
+`;

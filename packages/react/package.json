@@ -2,7 +2,7 @@
   "name": "@naturacosmeticos/natds-react",
   "displayName": "NatDS-React",
   "description": "A collection of components from Natura Design System for React",
-  "version": "2.5.1",
+  "version": "2.6.0-alpha.DSY-2008.92.0",
   "private": false,
   "keywords": [
     "design-system",
@@ -52,7 +52,7 @@
     "test": "jest --testPathPattern=src --verbose",
     "test:ci": "jest  --testPathPattern=src --coverage && codecov -t",
     "test:regression": "jest --testPathPattern=regression",
-    "test:watch": "jest --watch"
+    "test:watch": "jest --watch --detectOpenHandles"
   },
   "dependencies": {
     "@naturacosmeticos/natds-icons": "1.5.2",
