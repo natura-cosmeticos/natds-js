@@ -12,10 +12,10 @@ import DialogFooter from './DialogFooter'
 const componentStatus = `
 ---
 
-**NOTE**: This component is available in the following variants, **using the available subcomponents**:
+**NOTE**: This component is available in the following variants:
 
-  - ✅ \`standard\`**
-  - ✅ \`alert\`**
+  - ✅ \`standard\` (available but with alternative composition)
+  - ✅ \`alert\`** (available but with alternative composition)
 
 With the following attribute status:
 
