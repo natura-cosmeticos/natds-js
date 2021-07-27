@@ -86,7 +86,7 @@ describe('Dialog', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  test('should not render component with is not open', () => {
+  test('should not render component when is not open', () => {
     const { styles, component } = renderWithTheme(<Dialog role="dialog" testID="ds-dialog"> something </Dialog>)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()

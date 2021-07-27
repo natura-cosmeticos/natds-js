@@ -6,7 +6,7 @@ export interface DialogHeaderProps {
 
   /**
    * The value must be the same as the one passed to
-   * the `aria-labelledby` attribute
+   * the `aria-labelledby` attribute in the Dialog
    */
   id?: string
 

@@ -1,4 +1,3 @@
-/* eslint-disable jest/no-disabled-tests */
 import { act, fireEvent } from '@testing-library/react'
 import { renderHook } from '@testing-library/react-hooks'
 import useWindowSize from './useWindowSize'
@@ -18,7 +17,6 @@ describe('hooks/useWindowSize', () => {
     expect(result.current.width).toEqual(768)
     expect(result.current.height).toEqual(664)
     expect(setTimeout).toHaveBeenCalledTimes(1)
-    // expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 500)
   })
 
   it('should update innerWidth and innerHeight values when window resizes', () => {
@@ -38,6 +36,5 @@ describe('hooks/useWindowSize', () => {
     expect(result.current.width).toBe(320)
     expect(result.current.height).toBe(664)
     expect(setTimeout).toHaveBeenCalledTimes(3)
-    // expect(setTimeout).toHaveBeenLastCalledWith(expect.any(Function), 500)
   })
 })

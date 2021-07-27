@@ -5,7 +5,7 @@ export interface DialogBodyProps {
   children: React.ReactNode
 
   /**
-   * Optional ID for testing
+   * If `true`, will show a Divider above and below the DialogBody
    */
   showDivider?: boolean
 }
