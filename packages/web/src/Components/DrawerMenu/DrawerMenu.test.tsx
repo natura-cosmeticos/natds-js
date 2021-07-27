@@ -114,8 +114,4 @@ describe('DrawerMenu component', () => {
 
     expect(component).toMatchSnapshot()
   })
-
-  it.todo('should open submenu and call onToggle')
-
-  it.todo('should select a item and call onSelect')
 })

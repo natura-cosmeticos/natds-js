@@ -1,15 +1,14 @@
 import * as React from 'react'
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { IThemeWeb } from '../../../Themes'
-import { IDrawerMenuSectionProps } from '../DrawerMenuSection'
 
 export interface IDrawerMenuItemProps {
   badge?: string;
   icon?: IconName;
-  list?: [IDrawerMenuSectionProps];
+  list?: Array<unknown>;
   name?: string;
   onSelect?: (event: React.SyntheticEvent, name?: string) => void;
-  onToggle?: (event: React.SyntheticEvent, state: boolean, name: string) => void;
+  onToggle?: (event: React.SyntheticEvent, state: boolean, name?: string) => void;
   opened?: boolean;
   section?: string;
   selected?: boolean;

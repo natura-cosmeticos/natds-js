@@ -109,6 +109,4 @@ describe('TextField PasswordReveal component', () => {
 
     expect(testRenderer).toMatchSnapshot()
   })
-
-  it.todo('should call onTogglePasswordReveal callback after click')
 })

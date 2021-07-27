@@ -1,8 +1,8 @@
 import * as React from 'react'
-import { IDrawerMenuSectionProps } from './DrawerMenuSection'
+import { IDrawerMenuItemProps } from './DrawerMenuItem'
 
 export interface IDrawerMenuProps {
   children?: React.ReactNode;
   component?: React.ElementType;
-  list?: [IDrawerMenuSectionProps];
+  list?: Array<IDrawerMenuItemProps>;
 }
