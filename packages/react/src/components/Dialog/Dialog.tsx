@@ -19,9 +19,11 @@ const Dialog = ({
   const { dialog, overlay } = styles({ open, size, width })
 
   const handleOnKeyDown = (e: React.KeyboardEvent<HTMLDivElement>) => {
-    if (onEscapeKeyDown && e.key && e.key === 'Escape') {
-      onEscapeKeyDown(e)
-    }
+    document.addEventListener('keydown', (event) => {
+      if (onEscapeKeyDown && event.key && event.key === 'Escape') {
+        onEscapeKeyDown(e)
+      }
+    })
   }
 
   return (
