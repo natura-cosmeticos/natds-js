@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.0.1](https://github.com/natura-cosmeticos/natds/compare/v2.6.0...v4.0.1) (2021-07-27)
+
+
+### Bug Fixes
+
+* **drawer:** change the list type ([#1486](https://github.com/natura-cosmeticos/natds/issues/1486)) ([339fc76](https://github.com/natura-cosmeticos/natds/commit/339fc76140fa648720a752d39abee3750af47dc7))
+* invert import ([a2ca2c1](https://github.com/natura-cosmeticos/natds/commit/a2ca2c11f428d70b18b0c5c2ab2e830fe110df1a))
+
+
+
+
+
 # [2.6.0](https://github.com/natura-cosmeticos/natds/compare/v3.0.0...v2.6.0) (2021-07-27)
 
 
