@@ -3,6 +3,24 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/natura-cosmeticos/natds/compare/v3.0.0...v2.6.0) (2021-07-27)
+
+
+### Bug Fixes
+
+* **select:** accept new option type object ([#1481](https://github.com/natura-cosmeticos/natds/issues/1481)) ([fde7d75](https://github.com/natura-cosmeticos/natds/commit/fde7d75d5b383fe11c7f39a73f110038c6df8f19))
+
+
+### Features
+
+* add aesop theme ([#1478](https://github.com/natura-cosmeticos/natds/issues/1478)) ([f817717](https://github.com/natura-cosmeticos/natds/commit/f81771781eb1b52d7cce3e5f512e59b6786ce637))
+* **dialog:** add new component ([#1444](https://github.com/natura-cosmeticos/natds/issues/1444)) ([ec0f494](https://github.com/natura-cosmeticos/natds/commit/ec0f4947ff48b29a36c02625a62d1c595f27b4c3))
+* **theme:** add aesop ([#1477](https://github.com/natura-cosmeticos/natds/issues/1477)) ([15d79e0](https://github.com/natura-cosmeticos/natds/commit/15d79e07f26b3d4256c03ba3a3292514ec8402b6))
+
+
+
+
+
 # [1.6.0](https://github.com/natura-cosmeticos/natds/compare/v3.0.0...v1.6.0) (2021-07-21)
 
 
