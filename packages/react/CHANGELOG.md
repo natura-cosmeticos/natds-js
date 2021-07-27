@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.6.0](https://github.com/natura-cosmeticos/natds-js/compare/v3.0.0...v2.6.0) (2021-07-27)
+
+
+### Features
+
+* **dialog:** add new component ([#1444](https://github.com/natura-cosmeticos/natds-js/issues/1444)) ([ec0f494](https://github.com/natura-cosmeticos/natds-js/commit/ec0f4947ff48b29a36c02625a62d1c595f27b4c3))
+
+
+
+
+
 ## [2.5.1](https://github.com/natura-cosmeticos/natds-js/compare/v2.0.4...v2.5.1) (2021-07-05)
 
 
