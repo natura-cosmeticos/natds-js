@@ -2,7 +2,7 @@
 
 exports[`Radio should render correctly when is checked 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-4 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -12,12 +12,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-5 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-5:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -28,7 +28,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-5:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -38,20 +38,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-6 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-7 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-8 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-9 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -64,18 +64,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-10 {
+  .wrapper-d0-0-2-11 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-10:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #f4ab34;
   }
-  .wrapper-d0-0-2-10:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #f4ab34;
     opacity: 0.16;
   }
-  .ripple-d1-0-2-11 {
+  .ripple-d1-0-2-12 {
     background-color: #f4ab34;
     height: 0;
     left: 50%;
@@ -83,9 +83,9 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-12 {  }
-  .rippleActive-d3-0-2-13 {
-    animation: keyframes-ripple-0-2-9 500ms;
+  .rippleContainer-d2-0-2-13 {  }
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 500ms;
   }
   .wrapper-0-2-1 {
     width: 40px;
@@ -131,9 +131,13 @@ Array [
   .radio-0-2-2:checked:disabled {
     border: 2px solid #bbbbbb;
   }
-  .radio-d0-0-2-3 {  }
-  .radio-d0-0-2-3:checked {  }
-  .radio-d0-0-2-3:checked:after {
+  .container-0-2-3 {
+    display: flex;
+    align-items: center;
+  }
+  .radio-d0-0-2-4 {  }
+  .radio-d0-0-2-4:checked {  }
+  .radio-d0-0-2-4:checked:after {
     background-color: #f4ab34;
   }",
   Object {
@@ -141,15 +145,51 @@ Array [
     "baseElement": <body>
       <div>
         <div
-          class="wrapper-0-2-5 wrapper-d0-0-2-10"
+          class="container-0-2-3"
+        >
+          <div
+            class="wrapper-0-2-6 wrapper-d0-0-2-11"
+            data-testid="ripple-wrapper"
+            tabindex="0"
+          >
+            <div
+              class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
+            >
+              <div
+                class="ripple-0-2-7 ripple-d1-0-2-12 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <div
+              class="wrapper-0-2-1"
+            >
+              <input
+                checked=""
+                class="radio-0-2-2 radio-d0-0-2-4"
+                data-testid="ds-radio-any"
+                id="any"
+                type="radio"
+                value="any value"
+              />
+            </div>
+          </div>
+        </div>
+      </div>
+    </body>,
+    "container": <div>
+      <div
+        class="container-0-2-3"
+      >
+        <div
+          class="wrapper-0-2-6 wrapper-d0-0-2-11"
           data-testid="ripple-wrapper"
           tabindex="0"
         >
           <div
-            class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
+            class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
           >
             <div
-              class="ripple-0-2-6 ripple-d1-0-2-11 "
+              class="ripple-0-2-7 ripple-d1-0-2-12 "
               data-testid="ripple-animation"
             />
           </div>
@@ -158,41 +198,13 @@ Array [
           >
             <input
               checked=""
-              class="radio-0-2-2 radio-d0-0-2-3"
+              class="radio-0-2-2 radio-d0-0-2-4"
               data-testid="ds-radio-any"
               id="any"
               type="radio"
               value="any value"
             />
           </div>
-        </div>
-      </div>
-    </body>,
-    "container": <div>
-      <div
-        class="wrapper-0-2-5 wrapper-d0-0-2-10"
-        data-testid="ripple-wrapper"
-        tabindex="0"
-      >
-        <div
-          class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
-        >
-          <div
-            class="ripple-0-2-6 ripple-d1-0-2-11 "
-            data-testid="ripple-animation"
-          />
-        </div>
-        <div
-          class="wrapper-0-2-1"
-        >
-          <input
-            checked=""
-            class="radio-0-2-2 radio-d0-0-2-3"
-            data-testid="ds-radio-any"
-            id="any"
-            type="radio"
-            value="any value"
-          />
         </div>
       </div>
     </div>,
@@ -253,7 +265,7 @@ Array [
 
 exports[`Radio should render correctly when is disabled 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-4 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -263,12 +275,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-5 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-5:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -279,7 +291,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-5:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -289,20 +301,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-6 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-7 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-8 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-9 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -315,18 +327,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-10 {
+  .wrapper-d0-0-2-11 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-10:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-10:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-11 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -334,9 +346,9 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-12 {  }
-  .rippleActive-d3-0-2-13 {
-    animation: keyframes-ripple-0-2-9 500ms;
+  .rippleContainer-d2-0-2-13 {  }
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 500ms;
   }
   .wrapper-0-2-1 {
     width: 40px;
@@ -382,54 +394,29 @@ Array [
   .radio-0-2-2:checked:disabled {
     border: 2px solid #bbbbbb;
   }
-  .radio-d0-0-2-3 {  }
-  .radio-d0-0-2-3:checked {  }
-  .radio-d0-0-2-3:checked:after {
+  .container-0-2-3 {
+    display: flex;
+    align-items: center;
+  }
+  .radio-d0-0-2-4 {  }
+  .radio-d0-0-2-4:checked {  }
+  .radio-d0-0-2-4:checked:after {
     background-color: #bbbbbb;
   }",
-  Object {
-    "asFragment": [Function],
-    "baseElement": <body>
-      <div>
-        <div
-          class="wrapper-0-2-5 wrapper-d0-0-2-10"
-          data-testid="ripple-wrapper"
-          tabindex="0"
-        >
-          <div
-            class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
-          >
-            <div
-              class="ripple-0-2-6 ripple-d1-0-2-11 "
-              data-testid="ripple-animation"
-            />
-          </div>
-          <div
-            class="wrapper-0-2-1"
-          >
-            <input
-              class="radio-0-2-2 radio-d0-0-2-3"
-              data-testid="ds-radio-any"
-              disabled=""
-              id="any"
-              type="radio"
-              value="any value"
-            />
-          </div>
-        </div>
-      </div>
-    </body>,
-    "container": <div>
+  <div>
+    <div
+      class="container-0-2-3"
+    >
       <div
-        class="wrapper-0-2-5 wrapper-d0-0-2-10"
+        class="wrapper-0-2-6 wrapper-d0-0-2-11"
         data-testid="ripple-wrapper"
         tabindex="0"
       >
         <div
-          class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
+          class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
         >
           <div
-            class="ripple-0-2-6 ripple-d1-0-2-11 "
+            class="ripple-0-2-7 ripple-d1-0-2-12 "
             data-testid="ripple-animation"
           />
         </div>
@@ -437,7 +424,7 @@ Array [
           class="wrapper-0-2-1"
         >
           <input
-            class="radio-0-2-2 radio-d0-0-2-3"
+            class="radio-0-2-2 radio-d0-0-2-4"
             data-testid="ds-radio-any"
             disabled=""
             id="any"
@@ -446,65 +433,14 @@ Array [
           />
         </div>
       </div>
-    </div>,
-    "debug": [Function],
-    "findAllByAltText": [Function],
-    "findAllByDisplayValue": [Function],
-    "findAllByLabelText": [Function],
-    "findAllByPlaceholderText": [Function],
-    "findAllByRole": [Function],
-    "findAllByTestId": [Function],
-    "findAllByText": [Function],
-    "findAllByTitle": [Function],
-    "findByAltText": [Function],
-    "findByDisplayValue": [Function],
-    "findByLabelText": [Function],
-    "findByPlaceholderText": [Function],
-    "findByRole": [Function],
-    "findByTestId": [Function],
-    "findByText": [Function],
-    "findByTitle": [Function],
-    "getAllByAltText": [Function],
-    "getAllByDisplayValue": [Function],
-    "getAllByLabelText": [Function],
-    "getAllByPlaceholderText": [Function],
-    "getAllByRole": [Function],
-    "getAllByTestId": [Function],
-    "getAllByText": [Function],
-    "getAllByTitle": [Function],
-    "getByAltText": [Function],
-    "getByDisplayValue": [Function],
-    "getByLabelText": [Function],
-    "getByPlaceholderText": [Function],
-    "getByRole": [Function],
-    "getByTestId": [Function],
-    "getByText": [Function],
-    "getByTitle": [Function],
-    "queryAllByAltText": [Function],
-    "queryAllByDisplayValue": [Function],
-    "queryAllByLabelText": [Function],
-    "queryAllByPlaceholderText": [Function],
-    "queryAllByRole": [Function],
-    "queryAllByTestId": [Function],
-    "queryAllByText": [Function],
-    "queryAllByTitle": [Function],
-    "queryByAltText": [Function],
-    "queryByDisplayValue": [Function],
-    "queryByLabelText": [Function],
-    "queryByPlaceholderText": [Function],
-    "queryByRole": [Function],
-    "queryByTestId": [Function],
-    "queryByText": [Function],
-    "queryByTitle": [Function],
-    "rerender": [Function],
-    "unmount": [Function],
-  },
+    </div>
+  </div>,
 ]
 `;
 
 exports[`Radio should render correctly with default props 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-4 {
+  ".sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -514,12 +450,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-5 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-5:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -530,7 +466,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-5:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -540,20 +476,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-6 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-7 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-8 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-9 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -566,18 +502,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-10 {
+  .wrapper-d0-0-2-11 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-10:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-10:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0.16;
   }
-  .ripple-d1-0-2-11 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -585,9 +521,9 @@ Array [
     transition: scale opacity 500ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-12 {  }
-  .rippleActive-d3-0-2-13 {
-    animation: keyframes-ripple-0-2-9 500ms;
+  .rippleContainer-d2-0-2-13 {  }
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 500ms;
   }
   .wrapper-0-2-1 {
     width: 40px;
@@ -633,53 +569,29 @@ Array [
   .radio-0-2-2:checked:disabled {
     border: 2px solid #bbbbbb;
   }
-  .radio-d0-0-2-3 {  }
-  .radio-d0-0-2-3:checked {  }
-  .radio-d0-0-2-3:checked:after {
+  .container-0-2-3 {
+    display: flex;
+    align-items: center;
+  }
+  .radio-d0-0-2-4 {  }
+  .radio-d0-0-2-4:checked {  }
+  .radio-d0-0-2-4:checked:after {
     background-color: #f4ab34;
   }",
-  Object {
-    "asFragment": [Function],
-    "baseElement": <body>
-      <div>
-        <div
-          class="wrapper-0-2-5 wrapper-d0-0-2-10"
-          data-testid="ripple-wrapper"
-          tabindex="0"
-        >
-          <div
-            class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
-          >
-            <div
-              class="ripple-0-2-6 ripple-d1-0-2-11 "
-              data-testid="ripple-animation"
-            />
-          </div>
-          <div
-            class="wrapper-0-2-1"
-          >
-            <input
-              class="radio-0-2-2 radio-d0-0-2-3"
-              data-testid="ds-radio-any"
-              id="any"
-              type="radio"
-              value="any value"
-            />
-          </div>
-        </div>
-      </div>
-    </body>,
-    "container": <div>
+  <div>
+    <div
+      class="container-0-2-3"
+    >
       <div
-        class="wrapper-0-2-5 wrapper-d0-0-2-10"
+        class="wrapper-0-2-6 wrapper-d0-0-2-11"
         data-testid="ripple-wrapper"
         tabindex="0"
       >
         <div
-          class="rippleContainer-0-2-7 rippleContainer-d2-0-2-12"
+          class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
         >
           <div
-            class="ripple-0-2-6 ripple-d1-0-2-11 "
+            class="ripple-0-2-7 ripple-d1-0-2-12 "
             data-testid="ripple-animation"
           />
         </div>
@@ -687,7 +599,7 @@ Array [
           class="wrapper-0-2-1"
         >
           <input
-            class="radio-0-2-2 radio-d0-0-2-3"
+            class="radio-0-2-2 radio-d0-0-2-4"
             data-testid="ds-radio-any"
             id="any"
             type="radio"
@@ -695,58 +607,194 @@ Array [
           />
         </div>
       </div>
-    </div>,
-    "debug": [Function],
-    "findAllByAltText": [Function],
-    "findAllByDisplayValue": [Function],
-    "findAllByLabelText": [Function],
-    "findAllByPlaceholderText": [Function],
-    "findAllByRole": [Function],
-    "findAllByTestId": [Function],
-    "findAllByText": [Function],
-    "findAllByTitle": [Function],
-    "findByAltText": [Function],
-    "findByDisplayValue": [Function],
-    "findByLabelText": [Function],
-    "findByPlaceholderText": [Function],
-    "findByRole": [Function],
-    "findByTestId": [Function],
-    "findByText": [Function],
-    "findByTitle": [Function],
-    "getAllByAltText": [Function],
-    "getAllByDisplayValue": [Function],
-    "getAllByLabelText": [Function],
-    "getAllByPlaceholderText": [Function],
-    "getAllByRole": [Function],
-    "getAllByTestId": [Function],
-    "getAllByText": [Function],
-    "getAllByTitle": [Function],
-    "getByAltText": [Function],
-    "getByDisplayValue": [Function],
-    "getByLabelText": [Function],
-    "getByPlaceholderText": [Function],
-    "getByRole": [Function],
-    "getByTestId": [Function],
-    "getByText": [Function],
-    "getByTitle": [Function],
-    "queryAllByAltText": [Function],
-    "queryAllByDisplayValue": [Function],
-    "queryAllByLabelText": [Function],
-    "queryAllByPlaceholderText": [Function],
-    "queryAllByRole": [Function],
-    "queryAllByTestId": [Function],
-    "queryAllByText": [Function],
-    "queryAllByTitle": [Function],
-    "queryByAltText": [Function],
-    "queryByDisplayValue": [Function],
-    "queryByLabelText": [Function],
-    "queryByPlaceholderText": [Function],
-    "queryByRole": [Function],
-    "queryByTestId": [Function],
-    "queryByText": [Function],
-    "queryByTitle": [Function],
-    "rerender": [Function],
-    "unmount": [Function],
-  },
+    </div>
+  </div>,
+]
+`;
+
+exports[`Radio should render correctly with label 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-5 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-6 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-6:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-6:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-7 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-8 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-9 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-10 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-11 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-11:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-11:hover:after {
+    background-color: #000000;
+    opacity: 0.16;
+  }
+  .ripple-d1-0-2-12 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 500ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-13 {  }
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 500ms;
+  }
+  .label-0-2-15 {
+    font-size: 14px;
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.22px;
+  }
+  .label-d0-0-2-16 {
+    color: #333333;
+  }
+  .wrapper-0-2-1 {
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .radio-0-2-2 {
+    width: 18px;
+    border: 2px solid #f4ab34;
+    cursor: pointer;
+    height: 18px;
+    margin: 0;
+    display: inline-block;
+    position: relative;
+    appearance: none;
+    border-radius: 50%;
+  }
+  .radio-0-2-2:focus {
+    outline: none;
+  }
+  .radio-0-2-2:disabled {
+    border: 2px solid #bbbbbb;
+    cursor: default;
+  }
+  .radio-0-2-2:checked {
+    background-color: #ffffff;
+  }
+  .radio-0-2-2:checked:after {
+    top: 50%;
+    left: 50%;
+    width: 8px;
+    height: 8px;
+    content: \\"\\";
+    display: inline-block;
+    position: absolute;
+    font-size: 18px;
+    transform: translate(-50%, -50%);
+    text-align: center;
+    border-radius: 50%;
+  }
+  .radio-0-2-2:checked:disabled {
+    border: 2px solid #bbbbbb;
+  }
+  .container-0-2-3 {
+    display: flex;
+    align-items: center;
+  }
+  .radio-d0-0-2-4 {  }
+  .radio-d0-0-2-4:checked {  }
+  .radio-d0-0-2-4:checked:after {
+    background-color: #f4ab34;
+  }",
+  <div>
+    <div
+      class="container-0-2-3"
+    >
+      <div
+        class="wrapper-0-2-6 wrapper-d0-0-2-11"
+        data-testid="ripple-wrapper"
+        tabindex="0"
+      >
+        <div
+          class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
+        >
+          <div
+            class="ripple-0-2-7 ripple-d1-0-2-12 "
+            data-testid="ripple-animation"
+          />
+        </div>
+        <div
+          class="wrapper-0-2-1"
+        >
+          <input
+            class="radio-0-2-2 radio-d0-0-2-4"
+            data-testid="ds-radio-any"
+            id="any"
+            type="radio"
+            value="any value"
+          />
+        </div>
+      </div>
+      <label
+        class="label-0-2-15 label-d0-0-2-16"
+      >
+        Example
+      </label>
+    </div>
+  </div>,
 ]
 `;

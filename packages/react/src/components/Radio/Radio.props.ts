@@ -14,9 +14,15 @@ export interface RadioProps {
 
   /**
    * The id of the Radio element.
-   * Must be the same as label
+   * If you are using the 'labelText' attribute, this value it will automatically pass to it
+   * Otherwise, remember to provide the same value for your own label
    */
-  id?: string
+  id: string
+
+  /**
+   * Label that appears to the right of the component
+   */
+  labelText?: string
 
   /**
    * Name attribute of the Radio element.

@@ -1,3 +1,4 @@
+/* eslint-disable max-lines-per-function */
 /* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
@@ -48,6 +49,10 @@ const styles = createUseStyles((theme: Theme) => ({
         border: `2px solid ${theme.color.lowEmphasis}`
       }
     }
+  },
+  container: {
+    display: 'flex',
+    alignItems: 'center'
   }
 }))
 
