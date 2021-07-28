@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.7.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.6.0...@naturacosmeticos/natds-react@2.7.0) (2021-07-28)
+
+
+### Features
+
+* **radio:** add new component ([#1476](https://github.com/natura-cosmeticos/natds-js/issues/1476)) ([f70f880](https://github.com/natura-cosmeticos/natds-js/commit/f70f8800e1e6fc29f1da26bfc3dcbf3077c8332b))
+
+
+
+
+
 ## [4.0.2](https://github.com/natura-cosmeticos/natds-js/compare/v4.0.1...v4.0.2) (2021-07-27)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
