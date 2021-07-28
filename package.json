@@ -73,7 +73,7 @@
     "release:local": "yarn build && lerna publish --no-push --registry http://localhost:4873",
     "release:local:revert": "git reset --hard HEAD~1 && git tag | xargs git tag -d",
     "test": "yarn build && lerna run test --stream",
-    "test:ci": "lerna run test:ci -- --runInBand",
+    "test:ci": "lerna run test:ci --",
     "version": "echo $npm_package_version",
     "watch": "concurrently \"cd packages/styles && yarn watch\" \"cd packages/web && yarn watch\""
   },
