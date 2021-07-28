@@ -27,7 +27,7 @@
         "packages/web/bin/**",
         "vulnerabilidades.json"
       ],
-      "message": "chore(release): publish %s via lerna [skip-ci]"
+      "message": "chore(release): bump natds-js packages via lerna [skip-ci]"
     }
   },
   "packages": [
@@ -35,6 +35,7 @@
     "packages/web",
     "packages/react"
   ],
+  "npmClient": "yarn",
   "useWorkspaces": true,
   "version": "independent"
 }
