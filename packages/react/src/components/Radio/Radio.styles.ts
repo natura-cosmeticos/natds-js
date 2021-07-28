@@ -14,7 +14,7 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   radio: {
     appearance: 'none',
-    border: `2px solid ${theme.color.primary}`,
+    border: `2px solid ${theme.color.mediumEmphasis}`,
     borderRadius: '50%',
     cursor: 'pointer',
     display: 'inline-block',
@@ -30,6 +30,7 @@ const styles = createUseStyles((theme: Theme) => ({
       cursor: 'default'
     },
     '&:checked': {
+      border: `2px solid ${theme.color.primary}`,
       backgroundColor: theme.color.surface,
       '&:after': {
         content: '""',
