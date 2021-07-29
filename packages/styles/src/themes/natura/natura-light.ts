@@ -29,18 +29,7 @@ const {
 } = themes.natura.light
 
 export const naturaLight: ITheme = {
-  asset: {
-    brand: {
-      neutral: {
-        a: asset.brand.neutral.a,
-        b: asset.brand.neutral.b
-      },
-      custom: {
-        a: asset.brand.custom.a,
-        b: asset.brand.custom.b
-      }
-    }
-  },
+  asset,
   shape: {
     borderRadius: borderRadius.medium,
 

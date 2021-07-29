@@ -2554,6 +2554,13 @@
   resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.6.2.tgz#359e74af5546171809c7c32d79d66b4ed4740370"
   integrity sha512-vFe+08hmBNetJAv7XIdyOVevK6jci5Me8Vt2S2LNQapsrfX98+6DUHdtHTVuyIjc+kfi7/H5fzM+AgAQyqhSKA==
 
+"@naturacosmeticos/natds-themes@0.8.1":
+  version "0.8.1"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.8.1.tgz#ccc2e9f71bbff58485596aebdb19b51b2e213a31"
+  integrity sha512-pLdUHinD2tDdcLR+wdjV4QTN6sNhk69VCpFxID5BPjOH7YGIg0/RllhJIJ9DNm/bnBg1y1MyYNkpLeOVcGM4Ng==
+  dependencies:
+    open-color "^1.8.0"
+
 "@nodelib/fs.scandir@2.1.5":
   version "2.1.5"
   resolved "https://registry.yarnpkg.com/@nodelib/fs.scandir/-/fs.scandir-2.1.5.tgz#7619c2eb21b25483f6d167548b4cfd5a7488c3d5"
@@ -12615,6 +12622,11 @@ onetime@^5.1.0, onetime@^5.1.2:
   integrity sha512-kbpaSSGJTWdAY5KPVeMOKXSrPtr8C8C7wodJbcsd51jRnmD+GZu8Y0VoU6Dm5Z4vWr0Ig/1NKuWRKf7j5aaYSg==
   dependencies:
     mimic-fn "^2.1.0"
+
+open-color@^1.8.0:
+  version "1.8.0"
+  resolved "https://registry.yarnpkg.com/open-color/-/open-color-1.8.0.tgz#fb6d76105b08de39bff7a06535eca8e63b65b725"
+  integrity sha512-gSHRpWLx83rKlHZIm9ZoUBsSMijhPRMxOOacUETjY8guu9dAwIAbtZgmVqkfglmhs3/pYppGohzp8fUdJ4YBqQ==
 
 open@^7.0.2, open@^7.0.3:
   version "7.4.2"

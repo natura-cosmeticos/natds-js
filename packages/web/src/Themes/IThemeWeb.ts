@@ -15,6 +15,7 @@ export interface IThemeWebBase
     | 'shape'
     | 'sizes'
     | 'spacing'
+    | 'asset'
     > {
   shadows?: IShadows;
   typography: {

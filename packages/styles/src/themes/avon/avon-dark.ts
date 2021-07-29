@@ -33,18 +33,7 @@ const {
 const { color, opacity, asset } = themes.avon.dark
 
 export const avonDark: ITheme = {
-  asset: {
-    brand: {
-      neutral: {
-        a: asset.brand.neutral.a,
-        b: asset.brand.neutral.b
-      },
-      custom: {
-        a: asset.brand.custom.a,
-        b: asset.brand.custom.b
-      }
-    }
-  },
+  asset,
   shape: {
     borderRadius: tokens.radius.medium,
     badgeBorderRadius: 100
