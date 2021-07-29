@@ -1,4 +1,4 @@
-import { Color } from '@naturacosmeticos/natds-themes'
+import { Asset, Color } from '@naturacosmeticos/natds-themes'
 import { fontSize } from '../tokens/fontSize'
 import {
   IAvatarSizes,
@@ -117,4 +117,5 @@ export interface ITheme {
    */
   opacity: IOpacity;
   overrides: Record<string, unknown>;
+  asset: Asset;
 }
