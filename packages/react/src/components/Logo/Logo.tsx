@@ -15,7 +15,7 @@ const Logo = ({
 
   const checkColor = color === 'neutral' ? 'neutral' : 'custom'
 
-  const logo = theme.asset.brand[checkColor][model]
+  const logo = theme.asset.brand[checkColor][model].file
 
   return (
     <div
