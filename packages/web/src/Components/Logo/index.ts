@@ -1,5 +1,5 @@
 import Logo from './Logo'
 
 export { Logo }
-export { LogoProps } from './Logo.props'
+export { ILogoProps } from './Logo.props'
 export default Logo

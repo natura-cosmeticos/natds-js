@@ -1,6 +1,6 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
-import { Logo, LogoProps } from '.'
+import { Logo, ILogoProps } from '.'
 
 export default {
   title: 'Components/Logo',
@@ -11,9 +11,9 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<LogoProps> = (args) => <Logo {...args} />
+export const Playground: Story<ILogoProps> = (args) => <Logo {...args} />
 
-export const Size: Story<LogoProps> = (args) => (
+export const Size: Story<ILogoProps> = (args) => (
   <>
     <Logo {...args} size="medium" />
     <Logo {...args} size="mediumX" />
@@ -29,7 +29,7 @@ export const Size: Story<LogoProps> = (args) => (
   </>
 )
 
-export const Color: Story<LogoProps> = (args) => (
+export const Color: Story<ILogoProps> = (args) => (
   <>
     <Logo {...args} />
     <Logo {...args} color="primary" />
@@ -39,7 +39,7 @@ export const Color: Story<LogoProps> = (args) => (
   </>
 )
 
-export const Model: Story<LogoProps> = (args) => (
+export const Model: Story<ILogoProps> = (args) => (
   <>
     <Logo {...args} />
   </>

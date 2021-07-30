@@ -5,7 +5,7 @@ type LogoColors = 'neutral' | keyof Pick<Color, 'primary' | 'secondary' | 'highl
 type LogoSizes = keyof Omit<ISizes, 'none' | 'micro' | 'tiny' | 'small' | 'standard' | 'semi' | 'semiX'>
 type LogoModels = 'a' | 'b'
 
-export interface LogoProps {
+export interface ILogoProps {
   /**
    * The Logo description
    */

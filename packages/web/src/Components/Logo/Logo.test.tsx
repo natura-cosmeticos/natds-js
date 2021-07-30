@@ -2,7 +2,7 @@ import React from 'react'
 import * as TestRenderer from 'react-test-renderer'
 import Logo from './Logo'
 
-describe.skip('Logo component', () => {
+describe('Logo component', () => {
   it('should render correctly with default props', () => {
     const component = TestRenderer.create(<Logo />)
 

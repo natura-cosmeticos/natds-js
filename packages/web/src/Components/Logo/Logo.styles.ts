@@ -1,15 +1,18 @@
 import createStyles from '../../styles/createStyles'
 import { makeStyles } from '../../styles/makeStyles'
-import { LogoProps } from './Logo.props'
+import { ILogoProps } from './Logo.props'
 import { IThemeWeb } from '../../Themes'
 
-const styles = ({ sizes, color: pallete }: IThemeWeb) => createStyles({
+const getLogoSize = (theme: IThemeWeb) => ({ size }: ILogoProps) => size && theme.sizes && `${theme.sizes[size]}px`
+const getLogoColor = (theme: IThemeWeb) => ({ color }: ILogoProps) => color !== 'neutral' && theme.color && color && theme.color[color]
+
+const styles = (theme: IThemeWeb) => createStyles({
   root: {
     '& svg': {
       height: '100%',
-      width: ({ size }: LogoProps) => size && sizes[size],
+      width: getLogoSize(theme),
       '& path': {
-        fill: ({ color }: LogoProps) => color !== 'neutral' && color && pallete[color]
+        fill: getLogoColor(theme)
       }
     }
   }

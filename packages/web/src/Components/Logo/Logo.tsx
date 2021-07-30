@@ -2,7 +2,7 @@
 import React from 'react'
 import { useTheme } from '@material-ui/core/styles'
 import { IThemeWeb } from '../../Themes'
-import { LogoProps } from './Logo.props'
+import { ILogoProps } from './Logo.props'
 import { useStyles } from './Logo.styles'
 
 const Logo = ({
@@ -10,19 +10,15 @@ const Logo = ({
   size = 'veryHuge',
   model = 'a',
   arialLabel = 'logo'
-}: LogoProps) => {
+}: ILogoProps) => {
   const theme: IThemeWeb = useTheme()
-  const { root } = useStyles({ size, color })
-
   const checkColor = color === 'neutral' ? 'neutral' : 'custom'
+  const logo = theme.asset?.brand[checkColor][model].file
 
-  console.log({ theme })
-
-  const logo = theme.asset.brand[checkColor][model].file
+  const { root } = useStyles({ size, color, model })
 
   return (
     <div
-      style={{ width: theme.sizes[size] }}
       className={root}
       dangerouslySetInnerHTML={{ __html: logo }}
       role="img"
