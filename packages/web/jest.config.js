@@ -36,6 +36,7 @@ module.exports = {
     '!src/Components/CardContent/CardContent.tsx',
     '!src/Components/CardMedia/CardMedia.tsx',
     '!src/Components/CardHeader/CardHeader.tsx',
+    '!src/Components/Logo/Logo.**',
     '!src/hooks/**/*.ts'
   ],
   displayName,

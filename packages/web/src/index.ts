@@ -88,6 +88,7 @@ export { default as TablePagination, ITablePaginationProps } from './Components/
 export { default as TableRow, ITableRowProps } from './Components/Table/TableRow'
 export { default as TableSortLabel, ITableSortLabelProps } from './Components/Table/TableSortLabel'
 export * from './Components/Tag'
+export * from './Components/Logo'
 export { default as TextField, ITextFieldProps } from './Components/TextField'
 export { default as ToggleButton, IToggleButtonProps } from './Components/ToggleButton'
 export { default as Toolbar, IToolbarProps } from './Components/Toolbar'
