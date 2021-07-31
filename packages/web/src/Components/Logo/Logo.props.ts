@@ -9,7 +9,7 @@ export interface ILogoProps {
   /**
    * The Logo description
    */
-  arialLabel?: string
+  arialabel?: string
 
   /**
   * The Logo color

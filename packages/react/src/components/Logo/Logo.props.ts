@@ -8,7 +8,7 @@ export interface LogoProps {
   /**
    * The Logo description
    */
-  arialLabel?: string
+  arialabel?: string
 
   /**
   * The Logo color

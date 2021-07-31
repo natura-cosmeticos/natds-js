@@ -9,7 +9,7 @@ const Logo = ({
   color = 'neutral',
   size = 'veryHuge',
   model = 'a',
-  arialLabel = 'logo'
+  arialabel = 'logo'
 }: ILogoProps) => {
   const theme: IThemeWeb = useTheme()
   const checkColor = color === 'neutral' ? 'neutral' : 'custom'
@@ -22,7 +22,7 @@ const Logo = ({
       className={root}
       dangerouslySetInnerHTML={{ __html: logo }}
       role="img"
-      aria-label={arialLabel}
+      aria-label={arialabel}
     />
   )
 }
