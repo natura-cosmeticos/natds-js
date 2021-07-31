@@ -11,9 +11,8 @@ export const useWindowSize = (): WindowSize => {
     height: window.innerHeight
   })
 
-  let timer: NodeJS.Timeout
-
   useEffect(() => {
+    let timer: NodeJS.Timeout
     const handler = () => {
       clearTimeout(timer)
 
