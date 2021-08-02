@@ -1,3 +1,5 @@
+export type DividerVariants = 'full-bleed' | 'inset' | 'middle'
+
 export interface DividerProps {
   /**
    * Optional ID for testing
@@ -7,5 +9,5 @@ export interface DividerProps {
   /**
    * The variant to use.
    */
-  variant?: 'full-bleed' | 'inset' | 'middle';
+  variant?: DividerVariants;
 }

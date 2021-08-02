@@ -1,0 +1,317 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`ListItem component should render correctly 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-6 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-7 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+  }
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-11 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
+  }
+  .listItem-0-2-1 {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    padding: 8px 16px;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 48px;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    list-style-type: none;
+    background-color: #ffffff;
+  }
+  .listItem-0-2-1:focus-visible {
+    background-color: red;
+  }
+  .listItem-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    position: absolute;
+  }
+  .listItem-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+    background-color: #000000;
+  }
+  .listItem-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+    background-color: #000000;
+  }
+  .listItem-d0-0-2-2 {  }
+  .listItem-d0-0-2-2:after {
+    background-color: #000000;
+    opacity: 0;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      data-testid="ripple-wrapper"
+      tabindex="-1"
+    >
+      <div
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+      >
+        <div
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <li
+        class="listItem-0-2-1 listItem-d0-0-2-2"
+      >
+        some item here
+      </li>
+    </div>
+  </div>,
+]
+`;
+
+exports[`ListItem component should render correctly with divider 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-3 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-4:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-4:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-5 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-6 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-7 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-8 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-9 {
+    flex-basis: 100%;
+    cursor: pointer;
+    display: block;
+  }
+  .wrapper-d0-0-2-9:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-9:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-10 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-11 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-12 {
+    animation: keyframes-ripple-0-2-8 300ms;
+  }
+  .divider-0-2-13 {
+    border: 0;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #bbbbbb;
+  }
+  .divider-d0-0-2-14 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .listItem-0-2-1 {
+    width: 100%;
+    cursor: pointer;
+    display: flex;
+    padding: 8px 16px;
+    position: relative;
+    box-sizing: border-box;
+    min-height: 48px;
+    align-items: center;
+    font-family: Roboto, sans-serif;
+    list-style-type: none;
+    background-color: #ffffff;
+  }
+  .listItem-0-2-1:focus-visible {
+    background-color: red;
+  }
+  .listItem-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    position: absolute;
+  }
+  .listItem-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+    background-color: #000000;
+  }
+  .listItem-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+    background-color: #000000;
+  }
+  .listItem-d0-0-2-2 {  }
+  .listItem-d0-0-2-2:after {
+    background-color: #000000;
+    opacity: 0;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      data-testid="ripple-wrapper"
+      tabindex="-1"
+    >
+      <div
+        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+      >
+        <div
+          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <li
+        class="listItem-0-2-1 listItem-d0-0-2-2"
+      >
+        some item here
+      </li>
+      <hr
+        class="divider-0-2-13 divider-d0-0-2-14"
+      />
+    </div>
+  </div>,
+]
+`;
