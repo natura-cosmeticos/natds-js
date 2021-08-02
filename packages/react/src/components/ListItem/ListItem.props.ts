@@ -1,5 +1,7 @@
 import { DividerVariants } from 'components/Divider/Divider.props'
 
+export type ListItemFeedback = 'ripple' | 'selection'
+
 export interface ListItemProps {
   /**
    * The ListItem content
@@ -7,15 +9,22 @@ export interface ListItemProps {
   children: React.ReactNode
 
   /**
+   * If you pass any variant, will appear at the bottom of ListItem
    * @default none
    */
   divider?: DividerVariants
 
   /**
+   * If you set `selection`, the `ripple` effect will be disabled
+   * @default ripple
+   */
+  feedback?: ListItemFeedback
+
+  /**
    * An unique identifier. Will be pass to `key` attribute
    * Read more [here](https://reactjs.org/docs/lists-and-keys.html#keys)
    */
-  id: string | number
+  key: string | number
 
   /**
    * Click handler
@@ -23,8 +32,18 @@ export interface ListItemProps {
   onClick?: () => void
 
   /**
-   * If `true`, apply selected styling
-   * @default false
+   * Refs provide a way to access ListItem element
    */
+  ref?: React.Ref<never>
+
+  /**
+  * If `true`, apply selected styling
+  * @default false
+  */
   selected?: boolean
+
+  /**
+   * Optional ID for testing
+   */
+  testID?: string
 }
