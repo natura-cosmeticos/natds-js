@@ -1,4 +1,6 @@
-import React from 'react'
+/* eslint-disable max-len */
+/* eslint-disable no-lone-blocks */
+import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { ListItem, ListItemProps } from '.'
 
@@ -7,13 +9,13 @@ const componentStatus = `
 
 **NOTE FOR UXs**: This component is available in the following variants:
 
-  - ❌ \`base\`
+  - ✅ \`base\`
 
 With the following attribute status:
 
-- ❌ **OnClick**
-- ❌ **Selected**
-- ❌ **Feedback**
+- ✅ **OnClick**
+- ✅ **Selected**
+- ✅ **Feedback**
 - ✅ **Divider**
 
 ---
@@ -30,8 +32,34 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<ListItemProps> = (args) => (<ListItem {...args} />)
-Playground.args = {
-  children: 'List Item text',
-  onClick: () => console.log('I was pressed')
+const items = [
+  { id: 'luca', title: 'Luca' },
+  { id: 'cruella', title: 'Cruella' },
+  { id: 'black-widow', title: 'Black Widow' },
+  { id: 'mulan', title: 'Mulan' }
+]
+export const Playground: Story<ListItemProps> = (args) => {
+  const [selected, setSelected] = useState('')
+
+  return (
+    <ul style={{ margin: 0, padding: 0 }}>
+      {items.map(({ id, title }) => (
+        <ListItem {...args} key={id} selected={title === selected} onClick={() => setSelected(title)}>
+          {title}
+        </ListItem>
+      ))}
+    </ul>
+  )
+}
+
+export const Feedback: Story<ListItemProps> = Playground.bind({})
+Feedback.args = {
+  ...Playground.args,
+  feedback: 'selection'
+}
+
+export const Divider: Story<ListItemProps> = Playground.bind({})
+Divider.args = {
+  ...Playground.args,
+  divider: 'full-bleed'
 }
