@@ -7,15 +7,18 @@ import styles from './ListItem.styles'
 const ListItem = ({
   children,
   divider,
-  id,
+  feedback = 'ripple',
+  key,
   onClick,
-  selected = false
+  ref,
+  selected = false,
+  testID
 }: ListItemProps): JSX.Element => {
   const { listItem } = styles({ selected })
 
   return (
-    <Ripple disabled={!!selected} fullWidth>
-      <li className={listItem} key={id} onClick={onClick}>
+    <Ripple disabled={feedback !== 'ripple'} fullWidth>
+      <li className={listItem} key={key} onClick={onClick} data-testid={testID} ref={ref}>
         {children}
       </li>
       {divider && <Divider variant={divider} />}
