@@ -6,7 +6,7 @@ import styles from './ListItem.styles'
 
 const ListItem = ({
   children,
-  divider,
+  divider = 'none',
   feedback = 'ripple',
   key,
   onClick,
@@ -21,7 +21,7 @@ const ListItem = ({
       <li className={listItem} key={key} onClick={onClick} data-testid={testID} ref={ref}>
         {children}
       </li>
-      {divider && <Divider variant={divider} />}
+      {divider !== 'none' && <Divider variant={divider} />}
     </Ripple>
   )
 }

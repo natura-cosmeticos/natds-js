@@ -1,6 +1,7 @@
 import { DividerVariants } from 'components/Divider/Divider.props'
 
 export type ListItemFeedback = 'ripple' | 'selection'
+export type ListItemDivider = 'none' | DividerVariants
 
 export interface ListItemProps {
   /**
@@ -12,7 +13,7 @@ export interface ListItemProps {
    * If you pass any variant, will appear at the bottom of ListItem
    * @default none
    */
-  divider?: DividerVariants
+  divider?: ListItemDivider
 
   /**
    * If you set `selection`, the `ripple` effect will be disabled
