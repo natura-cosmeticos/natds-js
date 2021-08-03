@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.1.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.0.2...@naturacosmeticos/natds-web@4.1.0) (2021-08-03)
+
+
+### Features
+
+* **logo:** add new component ([#1492](https://github.com/natura-cosmeticos/natds-js/issues/1492)) ([36522da](https://github.com/natura-cosmeticos/natds-js/commit/36522da622345769465354198a98cab5a032b83f))
+
+
+
+
+
 ## [4.0.2](https://github.com/natura-cosmeticos/natds-js/compare/v4.0.1...v4.0.2) (2021-07-27)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
