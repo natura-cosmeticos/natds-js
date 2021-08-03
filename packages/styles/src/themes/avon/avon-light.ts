@@ -30,9 +30,10 @@ const {
   }
 } = tokens
 
-const { color, opacity } = themes.avon.light
+const { color, opacity, asset } = themes.avon.light
 
 export const avonLight: ITheme = {
+  asset,
   shape: {
     borderRadius: tokens.radius.medium,
     badgeBorderRadius: 100

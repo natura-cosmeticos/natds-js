@@ -1,0 +1,53 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Logo component should render correctly with custom color 1`] = `
+<div
+  aria-label="logo"
+  className="NatDSLogo-root-1 NatDSLogo-root-4"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": undefined,
+    }
+  }
+  role="img"
+/>
+`;
+
+exports[`Logo component should render correctly with default props 1`] = `
+<div
+  aria-label="logo"
+  className="NatDSLogo-root-1 NatDSLogo-root-2"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": undefined,
+    }
+  }
+  role="img"
+/>
+`;
+
+exports[`Logo component should render correctly with medium size 1`] = `
+<div
+  aria-label="logo"
+  className="NatDSLogo-root-1 NatDSLogo-root-3"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": undefined,
+    }
+  }
+  role="img"
+/>
+`;
+
+exports[`Logo component should render correctly with secondary model 1`] = `
+<div
+  aria-label="logo"
+  className="NatDSLogo-root-1 NatDSLogo-root-5"
+  dangerouslySetInnerHTML={
+    Object {
+      "__html": undefined,
+    }
+  }
+  role="img"
+/>
+`;

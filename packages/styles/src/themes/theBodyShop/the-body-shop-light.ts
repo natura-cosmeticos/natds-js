@@ -30,9 +30,10 @@ const {
   }
 } = tokens
 
-const { color, opacity } = themes.theBodyShop.light
+const { color, opacity, asset } = themes.theBodyShop.light
 
 export const theBodyShopLight: ITheme = {
+  asset,
   shape: {
     borderRadius: tokens.radius.medium,
     badgeBorderRadius: 100

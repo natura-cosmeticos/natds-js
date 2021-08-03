@@ -30,9 +30,10 @@ const {
   }
 } = tokens
 
-const { color, opacity } = themes.aesop.dark
+const { color, opacity, asset } = themes.aesop.dark
 
 export const aesopDark: ITheme = {
+  asset,
   shape: {
     borderRadius: tokens.radius.medium,
     badgeBorderRadius: 100

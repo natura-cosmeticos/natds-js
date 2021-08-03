@@ -20,7 +20,7 @@ import { iconSizes } from '../../tokens/iconSizes'
 import { sizes } from '../../tokens/sizes'
 import { opacity as legacyOpacity } from '../../tokens/opacity'
 
-const { color, opacity } = themes.natura.dark
+const { color, opacity, asset } = themes.natura.dark
 
 const {
   colorTokens: {
@@ -33,6 +33,7 @@ const {
 } = tokens
 
 export const naturaDark: ITheme = {
+  asset,
   shape: {
     borderRadius: tokens.radius.medium,
     badgeBorderRadius: 100

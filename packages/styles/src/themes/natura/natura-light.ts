@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable max-lines,no-magic-numbers,sort-keys */
 import hexToRgba from 'hex-to-rgba'
 import themes from '@naturacosmeticos/natds-themes'
@@ -23,9 +24,12 @@ const {
   }
 } = tokens
 
-const { borderRadius, color, opacity } = themes.natura.light
+const {
+  borderRadius, color, opacity, asset
+} = themes.natura.light
 
 export const naturaLight: ITheme = {
+  asset,
   shape: {
     borderRadius: borderRadius.medium,
 

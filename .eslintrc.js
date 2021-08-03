@@ -41,6 +41,7 @@ module.exports = {
     }
   ],
   rules: {
+    '@typescript-eslint/explicit-module-boundary-types': 'off',
     '@typescript-eslint/no-var-requires': 1,
     'import/no-extraneous-dependencies': [
       'error',
