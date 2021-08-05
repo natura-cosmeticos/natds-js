@@ -1,8 +1,7 @@
-/* eslint-disable max-len */
-/* eslint-disable no-lone-blocks */
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { ListItem, ListItemProps } from '.'
+import { Divider as DividerComponent } from '../Divider'
 
 const componentStatus = `
 ---
@@ -38,13 +37,19 @@ const items = [
   { id: 'black-widow', title: 'Black Widow' },
   { id: 'mulan', title: 'Mulan' }
 ]
+
 export const Playground: Story<ListItemProps> = (args) => {
   const [selected, setSelected] = useState('')
 
   return (
     <ul style={{ margin: 0, padding: 0 }}>
       {items.map(({ id, title }) => (
-        <ListItem {...args} key={id} selected={title === selected} onClick={() => setSelected(title)}>
+        <ListItem
+          {...args}
+          key={id}
+          selected={title === selected}
+          onClick={() => setSelected(title)}
+        >
           {title}
         </ListItem>
       ))}
@@ -61,5 +66,5 @@ Feedback.args = {
 export const Divider: Story<ListItemProps> = Playground.bind({})
 Divider.args = {
   ...Playground.args,
-  divider: 'full-bleed'
+  SeparatorComponent: <DividerComponent />
 }

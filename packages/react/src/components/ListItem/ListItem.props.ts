@@ -1,19 +1,12 @@
-import { DividerVariants } from 'components/Divider/Divider.props'
+import React from 'react'
 
 export type ListItemFeedback = 'ripple' | 'selection'
-export type ListItemDivider = 'none' | DividerVariants
 
 export interface ListItemProps {
   /**
    * The ListItem content
    */
   children: React.ReactNode
-
-  /**
-   * If you pass any variant, will appear at the bottom of ListItem
-   * @default none
-   */
-  divider?: ListItemDivider
 
   /**
    * If you set `selection`, the `ripple` effect will be disabled
@@ -42,6 +35,12 @@ export interface ListItemProps {
   * @default false
   */
   selected?: boolean
+
+  /**
+   * If you pass the `Divider` component here, it will
+   * appear at the bottom of each `ListItem`
+   */
+  SeparatorComponent?: React.ReactElement
 
   /**
    * Optional ID for testing

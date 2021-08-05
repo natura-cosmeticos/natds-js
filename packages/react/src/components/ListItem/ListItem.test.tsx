@@ -2,6 +2,7 @@ import React from 'react'
 import { fireEvent } from '@testing-library/react'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import ListItem from './ListItem'
+import { Divider } from '../Divider'
 
 describe('ListItem component', () => {
   it('should render correctly', () => {
@@ -10,7 +11,7 @@ describe('ListItem component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
   it('should render correctly with divider', () => {
-    const { styles, component } = renderWithTheme(<ListItem key="some-item" divider="full-bleed">some item here</ListItem>)
+    const { styles, component } = renderWithTheme(<ListItem key="some-item" SeparatorComponent={<Divider />}>some item here</ListItem>)
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })

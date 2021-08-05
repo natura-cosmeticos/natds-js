@@ -386,17 +386,6 @@ Array [
   .rippleActive-d3-0-2-12 {
     animation: keyframes-ripple-0-2-8 300ms;
   }
-  .divider-0-2-13 {
-    border: 0;
-    height: 1px;
-    margin-top: 0;
-    margin-bottom: 0;
-    background-color: #bbbbbb;
-  }
-  .divider-d0-0-2-14 {
-    margin-right: 0;
-    margin-left: 0;
-  }
   .listItem-0-2-1 {
     width: 100%;
     cursor: pointer;
@@ -430,6 +419,17 @@ Array [
   .listItem-d0-0-2-2:after {
     background-color: #000000;
     opacity: 0;
+  }
+  .divider-0-2-13 {
+    border: 0;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #bbbbbb;
+  }
+  .divider-d0-0-2-14 {
+    margin-right: 0;
+    margin-left: 0;
   }",
   <div>
     <div
