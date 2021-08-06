@@ -17,7 +17,14 @@ const ListItem = ({
 
   return (
     <Ripple disabled={feedback !== 'ripple'} fullWidth>
-      <li className={listItem} key={key} onClick={onClick} data-testid={testID} ref={ref}>
+      <li
+        className={listItem}
+        key={key}
+        onClick={onClick}
+        data-testid={testID}
+        ref={ref}
+        tabIndex={0}
+      >
         {children}
       </li>
       {SeparatorComponent}
