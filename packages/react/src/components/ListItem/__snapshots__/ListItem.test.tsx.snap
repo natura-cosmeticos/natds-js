@@ -66,7 +66,7 @@ Array [
 }
   .wrapper-d0-0-2-9 {
     flex-basis: 100%;
-    cursor: pointer;
+    cursor: default;
     display: block;
   }
   .wrapper-d0-0-2-9:focus:after {
@@ -92,7 +92,6 @@ Array [
   }
   .listItem-0-2-1 {
     width: 100%;
-    cursor: pointer;
     display: flex;
     padding: 8px 16px;
     position: relative;
@@ -113,7 +112,6 @@ Array [
   }
   .listItem-0-2-1:hover:after {
     opacity: 0.04;
-    background-color: #000000;
   }
   .listItem-0-2-1:focus:after {  }
   .listItem-d0-0-2-2 {  }
@@ -121,9 +119,12 @@ Array [
     background-color: #000000;
     opacity: 0;
   }
+  .listItem-d0-0-2-2:hover:after {
+    background-color: transparent;
+  }
   .listItem-d0-0-2-2:focus:after {
     background-color: #000000;
-    opacity: 0.12;
+    opacity: 0;
   }",
   <div>
     <div
@@ -150,7 +151,7 @@ Array [
 ]
 `;
 
-exports[`ListItem component should render correctly when is selected 1`] = `
+exports[`ListItem component should render correctly when interaction is selectable and the list item is selected 1`] = `
 Array [
   ".sharedRippleEffect-0-2-3 {
   top: 0;
@@ -216,7 +217,7 @@ Array [
 }
   .wrapper-d0-0-2-9 {
     flex-basis: 100%;
-    cursor: pointer;
+    cursor: default;
     display: block;
   }
   .wrapper-d0-0-2-9:focus:after {
@@ -242,7 +243,6 @@ Array [
   }
   .listItem-0-2-1 {
     width: 100%;
-    cursor: pointer;
     display: flex;
     padding: 8px 16px;
     position: relative;
@@ -263,13 +263,17 @@ Array [
   }
   .listItem-0-2-1:hover:after {
     opacity: 0.04;
-    background-color: #000000;
   }
   .listItem-0-2-1:focus:after {  }
-  .listItem-d0-0-2-2 {  }
+  .listItem-d0-0-2-2 {
+    cursor: pointer;
+  }
   .listItem-d0-0-2-2:after {
     background-color: #f4ab34;
     opacity: 0.16;
+  }
+  .listItem-d0-0-2-2:hover:after {
+    background-color: #000000;
   }
   .listItem-d0-0-2-2:focus:after {
     background-color: #f4ab34;
@@ -366,7 +370,7 @@ Array [
 }
   .wrapper-d0-0-2-9 {
     flex-basis: 100%;
-    cursor: pointer;
+    cursor: default;
     display: block;
   }
   .wrapper-d0-0-2-9:focus:after {
@@ -392,7 +396,6 @@ Array [
   }
   .listItem-0-2-1 {
     width: 100%;
-    cursor: pointer;
     display: flex;
     padding: 8px 16px;
     position: relative;
@@ -413,7 +416,6 @@ Array [
   }
   .listItem-0-2-1:hover:after {
     opacity: 0.04;
-    background-color: #000000;
   }
   .listItem-0-2-1:focus:after {  }
   .listItem-d0-0-2-2 {  }
@@ -421,9 +423,12 @@ Array [
     background-color: #000000;
     opacity: 0;
   }
+  .listItem-d0-0-2-2:hover:after {
+    background-color: transparent;
+  }
   .listItem-d0-0-2-2:focus:after {
     background-color: #000000;
-    opacity: 0.12;
+    opacity: 0;
   }
   .divider-0-2-13 {
     border: 0;

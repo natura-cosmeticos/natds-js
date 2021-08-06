@@ -1,6 +1,6 @@
 import React from 'react'
 
-export type ListItemFeedback = 'ripple' | 'selection'
+export type ListItemInteraction = 'none' | 'action' | 'selectable'
 
 export interface ListItemProps {
   /**
@@ -9,10 +9,11 @@ export interface ListItemProps {
   children: React.ReactNode
 
   /**
-   * If you choose `selection`, the `ripple` effect will be disabled
-   * @default ripple
+   * The type of interaction with each element
+   * Read more about (here)[https://ds.natura.design/28db352be/p/99a1c2-list-item/t/06665a]
+   * @default none
    */
-  feedback?: ListItemFeedback
+  interaction?: ListItemInteraction
 
   /**
    * A unique identifier for the list item. Will be pass to `key` attribute
@@ -31,7 +32,8 @@ export interface ListItemProps {
   ref?: React.Ref<never>
 
   /**
-  * If `true`, apply selected styling
+  * If `true`, apply the selected style if
+  * the `interaction` attribute is of the `selectable` type
   * @default false
   */
   selected?: boolean

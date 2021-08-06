@@ -5,7 +5,7 @@ import styles from './ListItem.styles'
 
 const ListItem = ({
   children,
-  feedback = 'ripple',
+  interaction = 'none',
   key,
   onClick,
   ref,
@@ -13,10 +13,10 @@ const ListItem = ({
   SeparatorComponent,
   testID
 }: ListItemProps): JSX.Element => {
-  const { listItem } = styles({ selected })
+  const { listItem } = styles({ selected, interaction })
 
   return (
-    <Ripple disabled={feedback !== 'ripple'} fullWidth>
+    <Ripple disabled={interaction !== 'action'} fullWidth>
       <li
         className={listItem}
         key={key}

@@ -38,7 +38,27 @@ const items = [
   { id: 'mulan', title: 'Mulan' }
 ]
 
-export const Playground: Story<ListItemProps> = (args) => {
+export const Playground: Story<ListItemProps> = (args) => (
+  <ul style={{ margin: 0, padding: 0 }}>
+    {items.map(({ id, title }) => (
+      <ListItem {...args} key={id}>
+        {title}
+      </ListItem>
+    ))}
+  </ul>
+)
+Playground.args = {
+  interaction: 'none',
+  selected: false
+}
+
+export const InteractionAction: Story<ListItemProps> = Playground.bind({})
+InteractionAction.args = {
+  interaction: 'action',
+  onClick: () => console.log('something happened!')
+}
+
+export const InteractionSelectable: Story<ListItemProps> = (args) => {
   const [selected, setSelected] = useState('')
 
   return (
@@ -56,11 +76,8 @@ export const Playground: Story<ListItemProps> = (args) => {
     </ul>
   )
 }
-
-export const Feedback: Story<ListItemProps> = Playground.bind({})
-Feedback.args = {
-  ...Playground.args,
-  feedback: 'selection'
+InteractionSelectable.args = {
+  interaction: 'selectable'
 }
 
 export const Divider: Story<ListItemProps> = Playground.bind({})
