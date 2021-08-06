@@ -9,13 +9,13 @@ export interface ListItemProps {
   children: React.ReactNode
 
   /**
-   * If you set `selection`, the `ripple` effect will be disabled
+   * If you choose `selection`, the `ripple` effect will be disabled
    * @default ripple
    */
   feedback?: ListItemFeedback
 
   /**
-   * An unique identifier. Will be pass to `key` attribute
+   * A unique identifier for the list item. Will be pass to `key` attribute
    * Read more [here](https://reactjs.org/docs/lists-and-keys.html#keys)
    */
   key: string | number
@@ -38,7 +38,7 @@ export interface ListItemProps {
 
   /**
    * If you pass the `Divider` component here, it will
-   * appear at the bottom of each `ListItem`
+   * be rendered at the bottom of each `ListItem`
    */
   SeparatorComponent?: React.ReactElement
 
