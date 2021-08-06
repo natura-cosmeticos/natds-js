@@ -12,9 +12,10 @@ const componentStatus = `
 
 With the following attribute status:
 
-- ✅ **OnClick**
-- ✅ **Selected**
-- ✅ **Feedback**
+- **Interaction**
+    - ✅ \`none\`
+    - ✅ \`action\`
+    - ✅ \`selectable\`
 - ✅ **Divider**
 
 ---
