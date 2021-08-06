@@ -28,13 +28,13 @@ const styles = createUseStyles(({
       top: 0,
       width: '100%'
     },
-    '&:hover:not([disabled]):after': {
+    '&:hover:after': {
       backgroundColor: color.highlight,
       opacity: opacity.lower
     },
-    '&:focus:not([disabled]):after': {
-      backgroundColor: color.highlight,
-      opacity: opacity.low
+    '&:focus:after': {
+      backgroundColor: ({ selected }: ListItemProps) => (selected ? color.primary : color.highlight),
+      opacity: ({ selected }: ListItemProps) => (selected ? opacity.mediumLow : opacity.low)
     }
   }
 }))

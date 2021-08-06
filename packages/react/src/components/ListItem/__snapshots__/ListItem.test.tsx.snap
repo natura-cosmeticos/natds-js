@@ -111,18 +111,19 @@ Array [
     content: \\" \\";
     position: absolute;
   }
-  .listItem-0-2-1:hover:not([disabled]):after {
+  .listItem-0-2-1:hover:after {
     opacity: 0.04;
     background-color: #000000;
   }
-  .listItem-0-2-1:focus:not([disabled]):after {
-    opacity: 0.12;
-    background-color: #000000;
-  }
+  .listItem-0-2-1:focus:after {  }
   .listItem-d0-0-2-2 {  }
   .listItem-d0-0-2-2:after {
     background-color: #000000;
     opacity: 0;
+  }
+  .listItem-d0-0-2-2:focus:after {
+    background-color: #000000;
+    opacity: 0.12;
   }",
   <div>
     <div
@@ -260,16 +261,17 @@ Array [
     content: \\" \\";
     position: absolute;
   }
-  .listItem-0-2-1:hover:not([disabled]):after {
+  .listItem-0-2-1:hover:after {
     opacity: 0.04;
     background-color: #000000;
   }
-  .listItem-0-2-1:focus:not([disabled]):after {
-    opacity: 0.12;
-    background-color: #000000;
-  }
+  .listItem-0-2-1:focus:after {  }
   .listItem-d0-0-2-2 {  }
   .listItem-d0-0-2-2:after {
+    background-color: #f4ab34;
+    opacity: 0.16;
+  }
+  .listItem-d0-0-2-2:focus:after {
     background-color: #f4ab34;
     opacity: 0.16;
   }",
@@ -409,18 +411,19 @@ Array [
     content: \\" \\";
     position: absolute;
   }
-  .listItem-0-2-1:hover:not([disabled]):after {
+  .listItem-0-2-1:hover:after {
     opacity: 0.04;
     background-color: #000000;
   }
-  .listItem-0-2-1:focus:not([disabled]):after {
-    opacity: 0.12;
-    background-color: #000000;
-  }
+  .listItem-0-2-1:focus:after {  }
   .listItem-d0-0-2-2 {  }
   .listItem-d0-0-2-2:after {
     background-color: #000000;
     opacity: 0;
+  }
+  .listItem-d0-0-2-2:focus:after {
+    background-color: #000000;
+    opacity: 0.12;
   }
   .divider-0-2-13 {
     border: 0;
