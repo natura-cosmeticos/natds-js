@@ -4,7 +4,7 @@ import { createUseStyles } from 'react-jss'
 import { Color, Theme } from '@naturacosmeticos/natds-themes'
 
 export interface LabelSubcomponentProps {
-  text: string
+  label: string
   disabled?: boolean
   id?: string
   color?: keyof Color
@@ -21,16 +21,16 @@ const styles = createUseStyles((theme: Theme) => ({
 }))
 
 const Label = ({
-  text,
+  label,
   disabled = false,
   id,
   color = 'highEmphasis',
   fontSize = 14
 }: LabelSubcomponentProps): JSX.Element => {
-  const { label } = styles({ disabled, color, fontSize })
+  const classes = styles({ disabled, color, fontSize })
 
   return (
-    <label htmlFor={id} className={label}>{text}</label>
+    <label htmlFor={id} className={classes.label}>{label}</label>
   )
 }
 
