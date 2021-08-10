@@ -7,7 +7,7 @@ export interface RatingSubcomponentProps {
   ariaLabel: string
   iconActive?: boolean
   iconFilled?: boolean
-  size: keyof Size
+  size?: keyof Size
 }
 
 const styles = createUseStyles(({ color }: Theme) => ({
