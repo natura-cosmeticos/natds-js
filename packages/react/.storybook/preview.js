@@ -10,5 +10,9 @@ export const parameters = {
   backgrounds: { disable: true, grid: { disable: true } },
   viewport: { disable: true },
   grid: { disable: true },
-  darkMode: { dark, light }
+  darkMode: {
+    current: 'light',
+    dark,
+    light
+  }
 }
