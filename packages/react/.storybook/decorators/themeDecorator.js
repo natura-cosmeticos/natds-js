@@ -1,10 +1,11 @@
 import * as React from "react";
+import { useDarkMode } from 'storybook-dark-mode';
 import { ThemeProvider } from '../../src/ThemeProvider'
 
 const ThemeDecorator = (Story, context) => {
 
   const brand = context.globals.brand
-  const mode = 'light'
+  const mode = useDarkMode() ? 'dark' : 'light'
 
   return (
     <ThemeProvider brand={brand} mode={mode}>
