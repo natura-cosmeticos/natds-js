@@ -1,4 +1,5 @@
 import ThemeDecorator from "./decorators/themeDecorator";
+import { dark, light } from "./theme";
 
 export { globalTypes } from "./globalTypes";
 export const decorators = [ThemeDecorator]
@@ -8,5 +9,10 @@ export const parameters = {
   layout: 'padded',
   backgrounds: { disable: true, grid: { disable: true } },
   viewport: { disable: true },
-  grid: { disable: true }
+  grid: { disable: true },
+  darkMode: {
+    current: 'light',
+    dark,
+    light
+  }
 }

@@ -1,26 +1,15 @@
 export const globalTypes = {
   brand: {
-    defaultValue: "natura",
-    description: "Global theme for components",
-    name: "Theme",
+    name: 'Theme',
+    description: 'The brand theme for components',
+    defaultValue: 'natura',
     toolbar: {
+      showName: true,
       items: [
-        {
-          title: "Aesop",
-          value: "aesop",
-        },
-        {
-          title: "Avon",
-          value: "avon",
-        },
-        {
-          title: "Natura",
-          value: "natura",
-        },
-        {
-          title: "The Body Shop",
-          value: "theBodyShop",
-        },
+        { value: 'aesop', title: 'Aesop' },
+        { value: 'avon', title: 'Avon' },
+        { value: 'natura', title: 'Natura' },
+        { value: 'theBodyShop', title: 'The Body Shop' },
       ],
     },
   },

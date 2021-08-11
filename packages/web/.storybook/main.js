@@ -47,9 +47,6 @@ module.exports = {
       name: '@storybook/addon-actions'
     },
     {
-      name: '@storybook/addon-links'
-    },
-    {
       name: '@storybook/addon-toolbars'
     }
   ],
