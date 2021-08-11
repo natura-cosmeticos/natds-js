@@ -3,8 +3,8 @@ import { ICounterProps } from './Counter.props'
 import { useStyles } from './Counter.styles'
 import { Button } from '../Button'
 import { ButtonGroup } from '../ButtonGroup'
-import { InputCounter } from './InputCounter'
 import { InputLabel } from '../InputLabel'
+import { InputCounter } from './InputCounter'
 
 export { ICounterProps } from './Counter.props'
 
