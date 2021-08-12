@@ -1,0 +1,155 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`RatingBase component should render correctly with the given props 1`] = `
+Array [
+  ".icon-0-2-15 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-16 {
+  color: #000000;
+  font-size: 64px;
+}
+.sharedRippleEffect-0-2-5 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-6 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-6:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-6:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-7 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-8 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-9 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-10 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-11 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-11:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-11:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-12 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-13 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 64px;
+    width: 64px;
+  }
+  .rating-0-2-1 {
+    background-color: transparent;
+  }
+  .rating-0-2-1 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-2 {  }
+  .rating-d0-0-2-2 > i {
+    color: #777777;
+  }",
+  <div>
+    <div
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
+      data-testid="ripple-wrapper"
+      tabindex="-1"
+    >
+      <div
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
+      >
+        <div
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
+          data-testid="ripple-animation"
+        />
+      </div>
+      <button
+        class="base-0-2-3 base-d0-0-2-4 rating-0-2-1 rating-d0-0-2-2"
+        disabled=""
+        type="button"
+      >
+        <i
+          aria-hidden="true"
+          arial-label="Rating Base"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-action-rating"
+          data-testid="icon-outlined-action-rating"
+          role="img"
+        />
+      </button>
+    </div>
+  </div>,
+]
+`;

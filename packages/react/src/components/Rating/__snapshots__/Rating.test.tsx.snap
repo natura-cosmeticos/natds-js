@@ -1,0 +1,4037 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Rating component Counter variant should render correctly 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 16px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 16px;
+    width: 16px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #F8B546;
+  }
+  .label-0-2-21 {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.22px;
+  }
+  .label-d0-0-2-22 {
+    font-size: 14px;
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: row;
+    align-items: center;
+  }
+  .container-d0-0-2-3 > label {
+    order: 2;
+  }
+  .rating-d1-0-2-4 {
+    order: 2;
+  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+      <label
+        class="label-0-2-21 label-d0-0-2-22"
+      >
+        Placeholder
+      </label>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rating component Counter variant should render correctly when align is right 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 16px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 16px;
+    width: 16px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #F8B546;
+  }
+  .label-0-2-21 {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.22px;
+  }
+  .label-d0-0-2-22 {
+    font-size: 14px;
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: row;
+    align-items: center;
+  }
+  .container-d0-0-2-3 > label {
+    order: 1;
+  }
+  .rating-d1-0-2-4 {
+    order: 2;
+  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+      <label
+        class="label-0-2-21 label-d0-0-2-22"
+      >
+        Placeholder
+      </label>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rating component Counter variant should render correctly with the given size 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 32px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 32px;
+    width: 32px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #F8B546;
+  }
+  .label-0-2-21 {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.22px;
+  }
+  .label-d0-0-2-22 {
+    font-size: 14px;
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: row;
+    align-items: center;
+  }
+  .container-d0-0-2-3 > label {
+    order: 2;
+  }
+  .rating-d1-0-2-4 {
+    order: 2;
+  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+      <label
+        class="label-0-2-21 label-d0-0-2-22"
+      >
+        Placeholder
+      </label>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rating component Input variant should render correctly 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d1-0-2-27 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d2-0-2-34 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d3-0-2-41 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d4-0-2-48 {
+  color: #000000;
+  font-size: 32px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d8-0-2-30 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d8-0-2-30:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-30:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-31 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-32 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-33 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d12-0-2-37 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d12-0-2-37:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d12-0-2-37:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d13-0-2-38 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d14-0-2-39 {
+    overflow: hidden;
+  }
+  .rippleActive-d15-0-2-40 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d16-0-2-44 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d16-0-2-44:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d16-0-2-44:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d17-0-2-45 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d18-0-2-46 {
+    overflow: hidden;
+  }
+  .rippleActive-d19-0-2-47 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d1-0-2-22 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d2-0-2-29 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d3-0-2-36 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d4-0-2-43 {
+    height: 32px;
+    width: 32px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #777777;
+  }
+  .rating-d1-0-2-21 {  }
+  .rating-d1-0-2-21 > i {
+    color: #777777;
+  }
+  .rating-d2-0-2-28 {  }
+  .rating-d2-0-2-28 > i {
+    color: #777777;
+  }
+  .rating-d3-0-2-35 {  }
+  .rating-d3-0-2-35 > i {
+    color: #777777;
+  }
+  .rating-d4-0-2-42 {  }
+  .rating-d4-0-2-42 > i {
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: column;
+  }
+  .container-d0-0-2-3 > label {
+    margin-top: 4px;
+    order: 1;
+  }
+  .rating-d1-0-2-4 {  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d4-0-2-23"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d5-0-2-24 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d8-0-2-30"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d9-0-2-31 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d12-0-2-37"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d13-0-2-38 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d16-0-2-44"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d17-0-2-45 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rating component Input variant should render correctly when is disabled 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d1-0-2-27 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d2-0-2-34 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d3-0-2-41 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d4-0-2-48 {
+  color: #000000;
+  font-size: 32px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d8-0-2-30 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d8-0-2-30:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-30:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-31 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-32 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-33 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d12-0-2-37 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d12-0-2-37:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d12-0-2-37:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d13-0-2-38 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d14-0-2-39 {
+    overflow: hidden;
+  }
+  .rippleActive-d15-0-2-40 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d16-0-2-44 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d16-0-2-44:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d16-0-2-44:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d17-0-2-45 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d18-0-2-46 {
+    overflow: hidden;
+  }
+  .rippleActive-d19-0-2-47 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d1-0-2-22 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d2-0-2-29 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d3-0-2-36 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d4-0-2-43 {
+    height: 32px;
+    width: 32px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #777777;
+  }
+  .rating-d1-0-2-21 {  }
+  .rating-d1-0-2-21 > i {
+    color: #777777;
+  }
+  .rating-d2-0-2-28 {  }
+  .rating-d2-0-2-28 > i {
+    color: #777777;
+  }
+  .rating-d3-0-2-35 {  }
+  .rating-d3-0-2-35 > i {
+    color: #777777;
+  }
+  .rating-d4-0-2-42 {  }
+  .rating-d4-0-2-42 > i {
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: column;
+  }
+  .container-d0-0-2-3 > label {
+    margin-top: 4px;
+    order: 1;
+  }
+  .rating-d1-0-2-4 {  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d4-0-2-23"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d5-0-2-24 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d8-0-2-30"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d9-0-2-31 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d12-0-2-37"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d13-0-2-38 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d16-0-2-44"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d17-0-2-45 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rating component Input variant should render correctly with the given label 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d1-0-2-27 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d2-0-2-34 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d3-0-2-41 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d4-0-2-48 {
+  color: #000000;
+  font-size: 32px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d8-0-2-30 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d8-0-2-30:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-30:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-31 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-32 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-33 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d12-0-2-37 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d12-0-2-37:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d12-0-2-37:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d13-0-2-38 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d14-0-2-39 {
+    overflow: hidden;
+  }
+  .rippleActive-d15-0-2-40 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d16-0-2-44 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d16-0-2-44:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d16-0-2-44:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d17-0-2-45 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d18-0-2-46 {
+    overflow: hidden;
+  }
+  .rippleActive-d19-0-2-47 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d1-0-2-22 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d2-0-2-29 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d3-0-2-36 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d4-0-2-43 {
+    height: 32px;
+    width: 32px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #777777;
+  }
+  .rating-d1-0-2-21 {  }
+  .rating-d1-0-2-21 > i {
+    color: #777777;
+  }
+  .rating-d2-0-2-28 {  }
+  .rating-d2-0-2-28 > i {
+    color: #777777;
+  }
+  .rating-d3-0-2-35 {  }
+  .rating-d3-0-2-35 > i {
+    color: #777777;
+  }
+  .rating-d4-0-2-42 {  }
+  .rating-d4-0-2-42 > i {
+    color: #777777;
+  }
+  .label-0-2-49 {
+    font-family: Roboto, sans-serif;
+    letter-spacing: 0.22px;
+  }
+  .label-d0-0-2-50 {
+    font-size: 12px;
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: column;
+  }
+  .container-d0-0-2-3 > label {
+    margin-top: 4px;
+    order: 1;
+  }
+  .rating-d1-0-2-4 {  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d4-0-2-23"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d5-0-2-24 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d8-0-2-30"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d9-0-2-31 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d12-0-2-37"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d13-0-2-38 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d16-0-2-44"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d17-0-2-45 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+      <label
+        class="label-0-2-49 label-d0-0-2-50"
+      >
+        Placeholder
+      </label>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rating component Input variant should render correctly with the given rate 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d1-0-2-27 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d2-0-2-34 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d3-0-2-41 {
+  color: #000000;
+  font-size: 32px;
+}
+.icon-d4-0-2-48 {
+  color: #000000;
+  font-size: 32px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d8-0-2-30 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d8-0-2-30:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-30:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-31 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-32 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-33 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d12-0-2-37 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d12-0-2-37:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d12-0-2-37:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d13-0-2-38 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d14-0-2-39 {
+    overflow: hidden;
+  }
+  .rippleActive-d15-0-2-40 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d16-0-2-44 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d16-0-2-44:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d16-0-2-44:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d17-0-2-45 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d18-0-2-46 {
+    overflow: hidden;
+  }
+  .rippleActive-d19-0-2-47 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d1-0-2-22 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d2-0-2-29 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d3-0-2-36 {
+    height: 32px;
+    width: 32px;
+  }
+  .base-d4-0-2-43 {
+    height: 32px;
+    width: 32px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #F8B546;
+  }
+  .rating-d1-0-2-21 {  }
+  .rating-d1-0-2-21 > i {
+    color: #F8B546;
+  }
+  .rating-d2-0-2-28 {  }
+  .rating-d2-0-2-28 > i {
+    color: #F8B546;
+  }
+  .rating-d3-0-2-35 {  }
+  .rating-d3-0-2-35 > i {
+    color: #777777;
+  }
+  .rating-d4-0-2-42 {  }
+  .rating-d4-0-2-42 > i {
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: column;
+  }
+  .container-d0-0-2-3 > label {
+    margin-top: 4px;
+    order: 1;
+  }
+  .rating-d1-0-2-4 {  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d4-0-2-23"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d5-0-2-24 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d8-0-2-30"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d9-0-2-31 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d12-0-2-37"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d13-0-2-38 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d16-0-2-44"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d17-0-2-45 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Rating component Input variant should render correctly with the given size 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 48px;
+}
+.icon-d1-0-2-27 {
+  color: #000000;
+  font-size: 48px;
+}
+.icon-d2-0-2-34 {
+  color: #000000;
+  font-size: 48px;
+}
+.icon-d3-0-2-41 {
+  color: #000000;
+  font-size: 48px;
+}
+.icon-d4-0-2-48 {
+  color: #000000;
+  font-size: 48px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d8-0-2-30 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d8-0-2-30:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-30:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-31 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-32 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-33 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d12-0-2-37 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d12-0-2-37:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d12-0-2-37:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d13-0-2-38 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d14-0-2-39 {
+    overflow: hidden;
+  }
+  .rippleActive-d15-0-2-40 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d16-0-2-44 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d16-0-2-44:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d16-0-2-44:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d17-0-2-45 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d18-0-2-46 {
+    overflow: hidden;
+  }
+  .rippleActive-d19-0-2-47 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 48px;
+    width: 48px;
+  }
+  .base-d1-0-2-22 {
+    height: 48px;
+    width: 48px;
+  }
+  .base-d2-0-2-29 {
+    height: 48px;
+    width: 48px;
+  }
+  .base-d3-0-2-36 {
+    height: 48px;
+    width: 48px;
+  }
+  .base-d4-0-2-43 {
+    height: 48px;
+    width: 48px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #777777;
+  }
+  .rating-d1-0-2-21 {  }
+  .rating-d1-0-2-21 > i {
+    color: #777777;
+  }
+  .rating-d2-0-2-28 {  }
+  .rating-d2-0-2-28 > i {
+    color: #777777;
+  }
+  .rating-d3-0-2-35 {  }
+  .rating-d3-0-2-35 > i {
+    color: #777777;
+  }
+  .rating-d4-0-2-42 {  }
+  .rating-d4-0-2-42 > i {
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: column;
+  }
+  .container-d0-0-2-3 > label {
+    margin-top: 4px;
+    order: 1;
+  }
+  .rating-d1-0-2-4 {  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d4-0-2-23"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d5-0-2-24 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d8-0-2-30"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d9-0-2-31 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d12-0-2-37"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d13-0-2-38 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d16-0-2-44"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d17-0-2-45 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Input"
+              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+              data-testid="icon-outlined-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`ReadOnly variant should render correctly 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 16px;
+}
+.icon-d1-0-2-27 {
+  color: #000000;
+  font-size: 16px;
+}
+.icon-d2-0-2-34 {
+  color: #000000;
+  font-size: 16px;
+}
+.icon-d3-0-2-41 {
+  color: #000000;
+  font-size: 16px;
+}
+.icon-d4-0-2-48 {
+  color: #000000;
+  font-size: 16px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d8-0-2-30 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d8-0-2-30:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-30:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-31 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-32 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-33 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d12-0-2-37 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d12-0-2-37:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d12-0-2-37:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d13-0-2-38 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d14-0-2-39 {
+    overflow: hidden;
+  }
+  .rippleActive-d15-0-2-40 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d16-0-2-44 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d16-0-2-44:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d16-0-2-44:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d17-0-2-45 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d18-0-2-46 {
+    overflow: hidden;
+  }
+  .rippleActive-d19-0-2-47 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 16px;
+    width: 16px;
+  }
+  .base-d1-0-2-22 {
+    height: 16px;
+    width: 16px;
+  }
+  .base-d2-0-2-29 {
+    height: 16px;
+    width: 16px;
+  }
+  .base-d3-0-2-36 {
+    height: 16px;
+    width: 16px;
+  }
+  .base-d4-0-2-43 {
+    height: 16px;
+    width: 16px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #777777;
+  }
+  .rating-d1-0-2-21 {  }
+  .rating-d1-0-2-21 > i {
+    color: #777777;
+  }
+  .rating-d2-0-2-28 {  }
+  .rating-d2-0-2-28 > i {
+    color: #777777;
+  }
+  .rating-d3-0-2-35 {  }
+  .rating-d3-0-2-35 > i {
+    color: #777777;
+  }
+  .rating-d4-0-2-42 {  }
+  .rating-d4-0-2-42 > i {
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: row;
+  }
+  .container-d0-0-2-3 > label {
+    order: 2;
+  }
+  .rating-d1-0-2-4 {
+    order: 2;
+  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d4-0-2-23"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d5-0-2-24 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d8-0-2-30"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d9-0-2-31 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d12-0-2-37"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d13-0-2-38 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d16-0-2-44"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d17-0-2-45 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`ReadOnly variant should render correctly with the given rate 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 16px;
+}
+.icon-d1-0-2-27 {
+  color: #000000;
+  font-size: 16px;
+}
+.icon-d2-0-2-34 {
+  color: #000000;
+  font-size: 16px;
+}
+.icon-d3-0-2-41 {
+  color: #000000;
+  font-size: 16px;
+}
+.icon-d4-0-2-48 {
+  color: #000000;
+  font-size: 16px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d8-0-2-30 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d8-0-2-30:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-30:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-31 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-32 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-33 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d12-0-2-37 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d12-0-2-37:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d12-0-2-37:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d13-0-2-38 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d14-0-2-39 {
+    overflow: hidden;
+  }
+  .rippleActive-d15-0-2-40 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d16-0-2-44 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d16-0-2-44:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d16-0-2-44:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d17-0-2-45 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d18-0-2-46 {
+    overflow: hidden;
+  }
+  .rippleActive-d19-0-2-47 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 16px;
+    width: 16px;
+  }
+  .base-d1-0-2-22 {
+    height: 16px;
+    width: 16px;
+  }
+  .base-d2-0-2-29 {
+    height: 16px;
+    width: 16px;
+  }
+  .base-d3-0-2-36 {
+    height: 16px;
+    width: 16px;
+  }
+  .base-d4-0-2-43 {
+    height: 16px;
+    width: 16px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #F8B546;
+  }
+  .rating-d1-0-2-21 {  }
+  .rating-d1-0-2-21 > i {
+    color: #F8B546;
+  }
+  .rating-d2-0-2-28 {  }
+  .rating-d2-0-2-28 > i {
+    color: #F8B546;
+  }
+  .rating-d3-0-2-35 {  }
+  .rating-d3-0-2-35 > i {
+    color: #777777;
+  }
+  .rating-d4-0-2-42 {  }
+  .rating-d4-0-2-42 > i {
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: row;
+  }
+  .container-d0-0-2-3 > label {
+    order: 2;
+  }
+  .rating-d1-0-2-4 {
+    order: 2;
+  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d4-0-2-23"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d5-0-2-24 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d8-0-2-30"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d9-0-2-31 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d12-0-2-37"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d13-0-2-38 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d16-0-2-44"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d17-0-2-45 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;
+
+exports[`ReadOnly variant should render correctly with the given size 1`] = `
+Array [
+  ".icon-0-2-19 {
+  font-family: natds-icons;
+  user-select: none;
+}
+.icon-d0-0-2-20 {
+  color: #000000;
+  font-size: 40px;
+}
+.icon-d1-0-2-27 {
+  color: #000000;
+  font-size: 40px;
+}
+.icon-d2-0-2-34 {
+  color: #000000;
+  font-size: 40px;
+}
+.icon-d3-0-2-41 {
+  color: #000000;
+  font-size: 40px;
+}
+.icon-d4-0-2-48 {
+  color: #000000;
+  font-size: 40px;
+}
+.sharedRippleEffect-0-2-9 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10 {
+  outline: none;
+  position: relative;
+  align-self: start;
+}
+.wrapper-0-2-10:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-10:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-11 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-12 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-13 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-14 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-15 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-15:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-15:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-16 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-17 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-18 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d4-0-2-23 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d4-0-2-23:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d4-0-2-23:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d5-0-2-24 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d6-0-2-25 {
+    overflow: hidden;
+  }
+  .rippleActive-d7-0-2-26 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d8-0-2-30 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d8-0-2-30:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d8-0-2-30:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d9-0-2-31 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d10-0-2-32 {
+    overflow: hidden;
+  }
+  .rippleActive-d11-0-2-33 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d12-0-2-37 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d12-0-2-37:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d12-0-2-37:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d13-0-2-38 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d14-0-2-39 {
+    overflow: hidden;
+  }
+  .rippleActive-d15-0-2-40 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .wrapper-d16-0-2-44 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d16-0-2-44:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d16-0-2-44:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d17-0-2-45 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d18-0-2-46 {
+    overflow: hidden;
+  }
+  .rippleActive-d19-0-2-47 {
+    animation: keyframes-ripple-0-2-14 300ms;
+  }
+  .base-0-2-7 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-7:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-8 {
+    height: 40px;
+    width: 40px;
+  }
+  .base-d1-0-2-22 {
+    height: 40px;
+    width: 40px;
+  }
+  .base-d2-0-2-29 {
+    height: 40px;
+    width: 40px;
+  }
+  .base-d3-0-2-36 {
+    height: 40px;
+    width: 40px;
+  }
+  .base-d4-0-2-43 {
+    height: 40px;
+    width: 40px;
+  }
+  .rating-0-2-5 {
+    background-color: transparent;
+  }
+  .rating-0-2-5 > i {
+    display: flex;
+  }
+  .rating-d0-0-2-6 {  }
+  .rating-d0-0-2-6 > i {
+    color: #777777;
+  }
+  .rating-d1-0-2-21 {  }
+  .rating-d1-0-2-21 > i {
+    color: #777777;
+  }
+  .rating-d2-0-2-28 {  }
+  .rating-d2-0-2-28 > i {
+    color: #777777;
+  }
+  .rating-d3-0-2-35 {  }
+  .rating-d3-0-2-35 > i {
+    color: #777777;
+  }
+  .rating-d4-0-2-42 {  }
+  .rating-d4-0-2-42 > i {
+    color: #777777;
+  }
+  .container-0-2-1 {
+    display: flex;
+  }
+  .container-0-2-1 > label {  }
+  .rating-0-2-2 {
+    display: flex;
+  }
+  .container-d0-0-2-3 {
+    flex-direction: row;
+  }
+  .container-d0-0-2-3 > label {
+    order: 2;
+  }
+  .rating-d1-0-2-4 {
+    order: 2;
+  }",
+  <div>
+    <div
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <div
+        class="rating-0-2-2 rating-d1-0-2-4"
+      >
+        <div
+          class="wrapper-0-2-10 wrapper-d0-0-2-15"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d1-0-2-16 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d4-0-2-23"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d5-0-2-24 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d8-0-2-30"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d9-0-2-31 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d12-0-2-37"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d13-0-2-38 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+        <div
+          class="wrapper-0-2-10 wrapper-d16-0-2-44"
+          data-testid="ripple-wrapper"
+          tabindex="-1"
+        >
+          <div
+            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+          >
+            <div
+              class="ripple-0-2-11 ripple-d17-0-2-45 "
+              data-testid="ripple-animation"
+            />
+          </div>
+          <button
+            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            disabled=""
+            type="button"
+          >
+            <i
+              aria-hidden="true"
+              arial-label="Rating Read-Only"
+              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-filled-action-rating"
+              data-testid="icon-filled-action-rating"
+              role="img"
+            />
+          </button>
+        </div>
+      </div>
+    </div>
+  </div>,
+]
+`;

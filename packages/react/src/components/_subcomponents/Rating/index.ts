@@ -1,4 +1,4 @@
-import Rating, { RatingSubcomponentProps } from './Rating.subcomponent'
+import RatingBase, { RatingBaseProps } from './Rating.base'
 
-export { Rating, RatingSubcomponentProps }
-export default Rating
+export { RatingBase, RatingBaseProps }
+export default RatingBase

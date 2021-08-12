@@ -14,7 +14,7 @@ const componentStatus = `
 With the following attribute status:
 
 - ✅ **Label** (only for Input and Counter variant)
-- ❌ **Disabled** (only for Input variant)
+- ✅ **Disabled** (only for Input variant)
 - ✅ **Rate** (only for Read-Only variant)
 - **Size**
     - ✅ \`small\` (only for Read-Only and Counter variants)
@@ -40,15 +40,18 @@ export default {
 } as Meta
 
 export const Playground: Story<RatingProps> = (args) => <Rating {...args} />
+Playground.args = {
+  variant: 'counter'
+}
 
 export const Input: Story<RatingProps> = Playground.bind({})
 Input.parameters = { controls: { exclude: ['align'] } }
 Input.argTypes = {
   align: { defaultValue: 'bottom', options: ['bottom'] },
-  label: { defaultValue: 'Placeholder' },
   rate: { defaultValue: 0, options: [0, 1, 2, 3, 4, 5], control: 'inline-radio' },
   size: { defaultValue: 'semi', options: ['semi', 'semiX', 'medium'] },
-  variant: { defaultValue: 'input', options: ['input'] }
+  variant: { defaultValue: 'input', options: ['input'] },
+  disabled: { defaultValue: false }
 }
 
 export const ReadOnly: Story<RatingProps> = Playground.bind({})

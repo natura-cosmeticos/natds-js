@@ -7,29 +7,28 @@ export type RatingCounterSize = keyof Pick<Size, 'small' | 'standard' | 'semi' |
 export type RatingReadOnlySize = keyof Pick<Size, 'small' | 'standard' | 'semi' | 'semiX'>
 
 export interface RatingBaseProps {
-  testID?: string
   ariaLabel: string
+  testID?: string
 }
 
 export type RatingInput = RatingBaseProps & ({
-  align: 'top'
   disabled?: boolean
   label?: string
   onClick: () => void
-  rate?: RatingValue
+  rate: RatingValue
   size: RatingInputSize
   variant: 'input'
 })
 
 export type RatingCounter = RatingBaseProps & ({
   align?: RatingPosition
-  label?: string
+  label: string
   size: RatingCounterSize
   variant: 'counter'
 })
 
 export type RatingReadOnly = RatingBaseProps & ({
-  rate?: RatingValue
+  rate: RatingValue
   size: RatingReadOnlySize
   variant: 'read-only'
 })
