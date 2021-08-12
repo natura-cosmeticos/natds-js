@@ -16,36 +16,36 @@ export const isRatingCounter = (props: RatingProps): props is RatingCounter => (
 export const isRatingReadOnly = (props: RatingProps): props is RatingReadOnly => (props as RatingReadOnly).variant === 'read-only'
 
 const Rating = (props: RatingProps): JSX.Element => {
-  const { variant, ariaLabel, testID, ...rest } = props
+  const {
+    variant, ariaLabel, testID, ...rest
+  } = props
 
   const { container, rating } = styles({ variant, ...rest })
   const renderTimes = variant === 'counter' ? 1 : 5
+
+  const checkOnClick = isRatingInput(props) ? props.onClick : () => ''
 
   return (
     <div className={container}>
       <div className={rating}>
         {[...Array(renderTimes)].map((_, index) => (
-          variant && (
+          (isRatingCounter(props) || isRatingReadOnly(props) || isRatingInput(props)) && (
             <RatingBase
-              disabled={isRatingInput(props) && props.disabled}
-              clickable={isRatingInput(props)}
-              onClick={props.onClick}
               ariaLabel={ariaLabel}
+              clickable={isRatingInput(props)}
+              data-testid={testID}
+              disabled={isRatingInput(props) && props.disabled}
               iconActive={isRatingCounter(props) || index < props.rate}
               iconFilled={!isRatingInput(props) || index < props.rate}
               key={index.toString()}
+              onClick={checkOnClick}
               size={props.size}
-              data-testid={testID}
             />
           )
         ))}
       </div>
       {((isRatingInput(props) || isRatingCounter(props)) && props.label) && (
-        <LabelSubcomponent
-          color="mediumEmphasis"
-          label={props.label}
-          fontSize={props.variant === 'input' ? 12 : 14}
-        />
+        <LabelSubcomponent color="mediumEmphasis" fontSize={isRatingInput(props) ? 12 : 14} label={props.label} />
       )}
     </div>
   )

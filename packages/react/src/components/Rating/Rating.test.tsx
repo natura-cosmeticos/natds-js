@@ -1,5 +1,3 @@
-/* eslint-disable max-len */
-import { fireEvent } from "@testing-library/react"
 import React from 'react'
 import { Rating } from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
@@ -68,7 +66,9 @@ describe('Rating component', () => {
       expect([styles.toString(), component.container]).toMatchSnapshot()
     })
     it('should render correctly with the given rate', () => {
-      const { styles, component } = renderWithTheme(<Rating {...ratingInputDefaultProps} rate={3} />)
+      const { styles, component } = renderWithTheme(
+        <Rating {...ratingInputDefaultProps} rate={3} />
+      )
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
     })
@@ -78,7 +78,9 @@ describe('Rating component', () => {
       expect([styles.toString(), component.container]).toMatchSnapshot()
     })
     it('should render correctly when is disabled', () => {
-      const { styles, component } = renderWithTheme(<Rating {...ratingInputDefaultProps} disabled />)
+      const { styles, component } = renderWithTheme(
+        <Rating {...ratingInputDefaultProps} disabled />
+      )
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
     })
@@ -92,7 +94,9 @@ describe('ReadOnly variant', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
   it('should render correctly with the given rate', () => {
-    const { styles, component } = renderWithTheme(<Rating {...ratingReadOnlyDefaultProps} rate={3} />)
+    const { styles, component } = renderWithTheme(
+      <Rating {...ratingReadOnlyDefaultProps} rate={3} />
+    )
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
