@@ -23,7 +23,7 @@ export type RatingInput = RatingBaseProps & ({
 
 export type RatingCounter = RatingBaseProps & ({
   align?: RatingPosition
-  label?: string
+  label: string
   size: RatingCounterSize
   variant: 'counter'
 })
