@@ -55,7 +55,7 @@ Input.argTypes = {
 }
 
 export const ReadOnly: Story<RatingProps> = Playground.bind({})
-ReadOnly.parameters = { controls: { exclude: ['align', 'label'] } }
+ReadOnly.parameters = { controls: { exclude: ['align', 'label', 'disabled'] } }
 ReadOnly.argTypes = {
   rate: { defaultValue: 0, options: [0, 1, 2, 3, 4, 5], control: 'inline-radio' },
   size: { defaultValue: 'small', options: ['small', 'standard', 'semi', 'semiX'] },
