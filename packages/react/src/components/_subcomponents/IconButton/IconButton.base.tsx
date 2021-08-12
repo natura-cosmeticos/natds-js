@@ -6,7 +6,7 @@ import { Ripple } from '../../Ripple'
 export interface IconButtonBaseProps {
   classes?: string
   disabled?: boolean
-  icon: React.ReactElement
+  IconComponent: React.ReactElement
   onClick: () => void
   size: keyof Size
   testID?: string
@@ -27,7 +27,7 @@ const styles = createUseStyles((theme: Theme) => ({
 }))
 
 const IconButtonBase = ({
-  classes, icon, size, disabled, onClick, testID
+  classes, IconComponent, size, disabled, onClick, testID
 }: IconButtonBaseProps): JSX.Element => {
   const { base } = styles({ size })
 
@@ -40,7 +40,7 @@ const IconButtonBase = ({
         onClick={onClick}
         type="button"
       >
-        {icon}
+        {IconComponent}
       </button>
     </Ripple>
   )

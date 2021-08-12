@@ -45,7 +45,7 @@ const IconButton = ({
       onClick={onClick}
       size={size}
       testID={testID}
-      icon={(
+      IconComponent={(
         <Icon
           name={iconName}
           color={iconColor}

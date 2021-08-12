@@ -1223,34 +1223,6 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.iconButtonContainer-0-2-15 {
-  overflow: hidden;
-  position: relative;
-  border-radius: 50%;
-}
-.iconButtonContainer-0-2-15:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-15:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-15:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-15:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-16 {
-  background-color: transparent;
-  width: 32px;
-}
 .icon-0-2-29 {
   font-family: natds-icons;
   user-select: none;
@@ -1359,6 +1331,34 @@ Array [
   }
   .base-d0-0-2-18 {
     height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-15 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-15:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-15:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-15:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-15:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-16 {
+    background-color: transparent;
     width: 32px;
   }
   .container-0-2-10 {  }
