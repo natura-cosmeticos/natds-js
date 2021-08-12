@@ -27,7 +27,7 @@ const Rating = (props: RatingProps): JSX.Element => {
         {[...Array(renderTimes)].map((_, index) => (
           variant && (
             <RatingBase
-              disabled={props.disabled}
+              disabled={isRatingInput(props) && props.disabled}
               clickable={isRatingInput(props)}
               onClick={props.onClick}
               ariaLabel={ariaLabel}
