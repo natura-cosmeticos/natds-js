@@ -50,7 +50,7 @@ const Radio = ({
           />
         </div>
       </Ripple>
-      {labelText && <Label text={labelText} disabled={disabled} />}
+      {labelText && <Label label={labelText} disabled={disabled} />}
     </div>
   )
 }
