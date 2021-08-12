@@ -1224,15 +1224,9 @@ Array [
   color: #777777;
 }
 .iconButtonContainer-0-2-15 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
   overflow: hidden;
   position: relative;
-  align-items: center;
   border-radius: 50%;
-  justify-content: center;
 }
 .iconButtonContainer-0-2-15:after {
   top: 0;
@@ -1255,18 +1249,17 @@ Array [
 }
 .iconButtonContainer-d0-0-2-16 {
   background-color: transparent;
-  height: 32px;
   width: 32px;
 }
-.icon-0-2-27 {
+.icon-0-2-29 {
   font-family: natds-icons;
   user-select: none;
 }
-.icon-d0-0-2-28 {
+.icon-d0-0-2-30 {
   color: #333333;
   font-size: 24px;
 }
-.sharedRippleEffect-0-2-17 {
+.sharedRippleEffect-0-2-19 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1276,12 +1269,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-18 {
+.wrapper-0-2-20 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-18:focus:after {
+.wrapper-0-2-20:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1292,7 +1285,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-18:hover:after {
+.wrapper-0-2-20:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1302,20 +1295,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-19 {
+.ripple-0-2-21 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-20 {
+.rippleContainer-0-2-22 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-21 {
+.rippleActive-0-2-23 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-22 {
+@keyframes keyframes-ripple-0-2-24 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1328,18 +1321,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-23 {
+  .wrapper-d0-0-2-25 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-23:focus:after {
+  .wrapper-d0-0-2-25:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-23:hover:after {
+  .wrapper-d0-0-2-25:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-24 {
+  .ripple-d1-0-2-26 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1347,11 +1340,26 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-25 {
+  .rippleContainer-d2-0-2-27 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-26 {
-    animation: keyframes-ripple-0-2-22 300ms;
+  .rippleActive-d3-0-2-28 {
+    animation: keyframes-ripple-0-2-24 300ms;
+  }
+  .base-0-2-17 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-17:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-18 {
+    height: 32px;
+    width: 32px;
   }
   .container-0-2-10 {  }
   .wrapper-0-2-11 {
@@ -1381,7 +1389,7 @@ Array [
     color: #777777;
     display: none;
   }
-  .helperText-0-2-29 {
+  .helperText-0-2-31 {
     display: flex;
     font-size: 12px;
     margin-top: 4px;
@@ -1390,11 +1398,11 @@ Array [
     margin-bottom: 0;
     letter-spacing: 0.4px;
   }
-  .helperText-0-2-29 > i {  }
-  .helperText-d0-0-2-30 {
+  .helperText-0-2-31 > i {  }
+  .helperText-d0-0-2-32 {
     color: #777777;
   }
-  .helperText-d0-0-2-30 > i {  }",
+  .helperText-d0-0-2-32 > i {  }",
   <div>
     <div>
       <label
@@ -1415,27 +1423,27 @@ Array [
           class="container-0-2-10 container-d0-0-2-13"
         >
           <div
-            class="wrapper-0-2-18 wrapper-d0-0-2-23"
+            class="wrapper-0-2-20 wrapper-d0-0-2-25"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-20 rippleContainer-d2-0-2-25"
+              class="rippleContainer-0-2-22 rippleContainer-d2-0-2-27"
             >
               <div
-                class="ripple-0-2-19 ripple-d1-0-2-24 "
+                class="ripple-0-2-21 ripple-d1-0-2-26 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
-              class="iconButtonContainer-0-2-15 iconButtonContainer-d0-0-2-16"
+              class="base-0-2-17 base-d0-0-2-18 iconButtonContainer-0-2-15 iconButtonContainer-d0-0-2-16"
               data-testid="ds-input-action-icon"
               type="button"
             >
               <i
                 aria-hidden="false"
                 arial-label="any label"
-                class="icon-0-2-27 icon-d0-0-2-28 natds-icons natds-icons-filled-action-love"
+                class="icon-0-2-29 icon-d0-0-2-30 natds-icons natds-icons-filled-action-love"
                 data-testid="icon-filled-action-love"
                 role="button"
               />
@@ -1444,7 +1452,7 @@ Array [
         </div>
       </div>
       <p
-        class="helperText-0-2-29 helperText-d0-0-2-30"
+        class="helperText-0-2-31 helperText-d0-0-2-32"
       />
     </div>
   </div>,

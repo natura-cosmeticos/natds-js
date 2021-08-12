@@ -18,17 +18,10 @@ const setOpacity = (theme: Theme) => ({ backgroundStyle }: IconButtonStyleProps)
 
 const styles = createUseStyles((theme: Theme) => ({
   iconButtonContainer: {
-    alignItems: 'center',
     backgroundColor: (props: IconButtonStyleProps) => getBackgroundStyles(theme, props),
-    border: 'none',
     borderRadius: '50%',
     boxShadow: setBoxShadow(theme),
-    cursor: 'pointer',
-    display: 'inline-flex',
-    height: ({ size }: IconButtonStyleProps) => theme.size[size],
-    justifyContent: 'center',
     opacity: setOpacity(theme),
-    outline: 'none',
     overflow: 'hidden',
     position: 'relative',
     width: ({ size }: IconButtonStyleProps) => theme.size[size],
@@ -42,15 +35,9 @@ const styles = createUseStyles((theme: Theme) => ({
       top: 0,
       width: '100%'
     },
-    '&:hover:not([disabled]):after': {
-      opacity: theme.opacity.lower
-    },
-    '&:focus:not([disabled]):after': {
-      opacity: theme.opacity.low
-    },
-    '&:disabled': {
-      cursor: 'default'
-    }
+    '&:hover:not([disabled]):after': { opacity: theme.opacity.lower },
+    '&:focus:not([disabled]):after': { opacity: theme.opacity.low },
+    '&:disabled': { cursor: 'default' }
   }
 }))
 
