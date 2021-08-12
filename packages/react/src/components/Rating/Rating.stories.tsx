@@ -48,7 +48,6 @@ export const Input: Story<RatingProps> = Playground.bind({})
 Input.parameters = { controls: { exclude: ['align'] } }
 Input.argTypes = {
   align: { defaultValue: 'bottom', options: ['bottom'] },
-  label: { defaultValue: 'Placeholder' },
   rate: { defaultValue: 0, options: [0, 1, 2, 3, 4, 5], control: 'inline-radio' },
   size: { defaultValue: 'semi', options: ['semi', 'semiX', 'medium'] },
   variant: { defaultValue: 'input', options: ['input'] },

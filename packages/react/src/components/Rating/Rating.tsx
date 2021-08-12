@@ -16,7 +16,7 @@ export const isRatingCounter = (props: RatingProps): props is RatingCounter => (
 export const isRatingReadOnly = (props: RatingProps): props is RatingReadOnly => (props as RatingReadOnly).variant === 'read-only'
 
 const Rating = (props: RatingProps): JSX.Element => {
-  const { variant, ariaLabel, ...rest } = props
+  const { variant, ariaLabel, testID, ...rest } = props
 
   const { container, rating } = styles({ variant, ...rest })
   const renderTimes = variant === 'counter' ? 1 : 5
@@ -35,6 +35,7 @@ const Rating = (props: RatingProps): JSX.Element => {
               iconFilled={!isRatingInput(props) || index < props.rate}
               key={index.toString()}
               size={props.size}
+              data-testid={testID}
             />
           )
         ))}

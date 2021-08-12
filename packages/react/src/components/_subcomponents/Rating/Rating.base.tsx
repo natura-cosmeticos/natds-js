@@ -29,7 +29,7 @@ const styles = createUseStyles(({ color }: Theme) => ({
 const RatingBase = ({
   ariaLabel,
   clickable = false,
-  disabled,
+  disabled = false,
   iconActive,
   iconFilled,
   onClick,
