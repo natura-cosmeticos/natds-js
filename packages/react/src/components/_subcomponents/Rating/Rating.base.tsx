@@ -6,11 +6,12 @@ import IconButtonBase from '../IconButton'
 
 export interface RatingBaseProps {
   ariaLabel: string
+  disabled?: boolean
   iconActive?: boolean
   iconFilled?: boolean
-  size: keyof Size
+  isClickable?: boolean
   onClick: () => void
-  disabled?: boolean
+  size: keyof Size
 }
 
 export const getRatingColor = ({ color }: Theme) => (
@@ -29,9 +30,10 @@ const styles = createUseStyles((theme: Theme) => ({
 
 const RatingBase = ({
   ariaLabel,
-  disabled = true,
+  disabled,
   iconActive,
   iconFilled,
+  isClickable,
   onClick,
   size
 }: RatingBaseProps): JSX.Element => {
@@ -41,7 +43,7 @@ const RatingBase = ({
   return (
     <IconButtonBase
       classes={rating}
-      disabled={disabled}
+      disabled={disabled || !isClickable}
       size={size}
       onClick={onClick}
       IconComponent={(

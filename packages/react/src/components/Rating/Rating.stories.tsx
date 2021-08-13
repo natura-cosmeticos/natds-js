@@ -1,6 +1,7 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
-import { Rating, RatingProps } from '.'
+import { Rating } from '.'
+import { RatingCounter, RatingInput, RatingReadOnly } from './Rating.props'
 
 const componentStatus = `
 ---
@@ -39,12 +40,7 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<RatingProps> = (args) => <Rating {...args} />
-Playground.args = {
-  variant: 'counter'
-}
-
-export const Input: Story<RatingProps> = Playground.bind({})
+export const Input: Story<RatingInput> = (args) => <Rating {...args} />
 Input.parameters = { controls: { exclude: ['align'] } }
 Input.argTypes = {
   align: { defaultValue: 'bottom', options: ['bottom'] },
@@ -54,7 +50,7 @@ Input.argTypes = {
   disabled: { defaultValue: false }
 }
 
-export const ReadOnly: Story<RatingProps> = Playground.bind({})
+export const ReadOnly: Story<RatingReadOnly> = (args) => <Rating {...args} />
 ReadOnly.parameters = { controls: { exclude: ['align', 'label', 'disabled'] } }
 ReadOnly.argTypes = {
   rate: { defaultValue: 0, options: [0, 1, 2, 3, 4, 5], control: 'inline-radio' },
@@ -62,7 +58,7 @@ ReadOnly.argTypes = {
   variant: { defaultValue: 'read-only', options: ['read-only'] }
 }
 
-export const Counter: Story<RatingProps> = Playground.bind({})
+export const Counter: Story<RatingCounter> = (args) => <Rating {...args} />
 Counter.parameters = { controls: { exclude: ['rate', 'disabled'] } }
 Counter.argTypes = {
   align: { defaultValue: 'left', options: ['left', 'right'] },
