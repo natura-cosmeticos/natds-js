@@ -76,9 +76,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -120,7 +118,7 @@ Array [
   }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
-    color: #F8B546;
+    color: #777777;
   }
   .label-0-2-21 {
     font-family: Roboto, sans-serif;
@@ -268,9 +266,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -312,7 +308,7 @@ Array [
   }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
-    color: #F8B546;
+    color: #777777;
   }
   .label-0-2-21 {
     font-family: Roboto, sans-serif;
@@ -460,9 +456,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -504,7 +498,7 @@ Array [
   }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
-    color: #F8B546;
+    color: #777777;
   }
   .label-0-2-21 {
     font-family: Roboto, sans-serif;
@@ -665,12 +659,10 @@ Array [
   }
 }
   .wrapper-d0-0-2-15 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -690,12 +682,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d4-0-2-23 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d4-0-2-23:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d4-0-2-23:focus:after {  }
   .wrapper-d4-0-2-23:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -715,12 +705,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d8-0-2-30 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d8-0-2-30:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d8-0-2-30:focus:after {  }
   .wrapper-d8-0-2-30:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -740,12 +728,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d12-0-2-37 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d12-0-2-37:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d12-0-2-37:focus:after {  }
   .wrapper-d12-0-2-37:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -765,12 +751,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d16-0-2-44 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d16-0-2-44:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d16-0-2-44:focus:after {  }
   .wrapper-d16-0-2-44:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -883,6 +867,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
             type="button"
           >
             <i
@@ -909,6 +894,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            disabled=""
             type="button"
           >
             <i
@@ -935,6 +921,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            disabled=""
             type="button"
           >
             <i
@@ -961,6 +948,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            disabled=""
             type="button"
           >
             <i
@@ -987,6 +975,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            disabled=""
             type="button"
           >
             <i
@@ -1096,9 +1085,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1121,9 +1108,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d4-0-2-23:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d4-0-2-23:focus:after {  }
   .wrapper-d4-0-2-23:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1146,9 +1131,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d8-0-2-30:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d8-0-2-30:focus:after {  }
   .wrapper-d8-0-2-30:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1171,9 +1154,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d12-0-2-37:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d12-0-2-37:focus:after {  }
   .wrapper-d12-0-2-37:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1196,9 +1177,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d16-0-2-44:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d16-0-2-44:focus:after {  }
   .wrapper-d16-0-2-44:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1526,12 +1505,10 @@ Array [
   }
 }
   .wrapper-d0-0-2-15 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1551,12 +1528,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d4-0-2-23 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d4-0-2-23:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d4-0-2-23:focus:after {  }
   .wrapper-d4-0-2-23:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1576,12 +1551,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d8-0-2-30 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d8-0-2-30:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d8-0-2-30:focus:after {  }
   .wrapper-d8-0-2-30:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1601,12 +1574,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d12-0-2-37 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d12-0-2-37:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d12-0-2-37:focus:after {  }
   .wrapper-d12-0-2-37:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1626,12 +1597,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d16-0-2-44 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d16-0-2-44:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d16-0-2-44:focus:after {  }
   .wrapper-d16-0-2-44:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1752,6 +1721,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
             type="button"
           >
             <i
@@ -1778,6 +1748,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            disabled=""
             type="button"
           >
             <i
@@ -1804,6 +1775,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            disabled=""
             type="button"
           >
             <i
@@ -1830,6 +1802,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            disabled=""
             type="button"
           >
             <i
@@ -1856,6 +1829,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            disabled=""
             type="button"
           >
             <i
@@ -1967,12 +1941,10 @@ Array [
   }
 }
   .wrapper-d0-0-2-15 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -1992,12 +1964,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d4-0-2-23 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d4-0-2-23:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d4-0-2-23:focus:after {  }
   .wrapper-d4-0-2-23:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2017,12 +1987,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d8-0-2-30 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d8-0-2-30:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d8-0-2-30:focus:after {  }
   .wrapper-d8-0-2-30:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2042,12 +2010,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d12-0-2-37 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d12-0-2-37:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d12-0-2-37:focus:after {  }
   .wrapper-d12-0-2-37:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2067,12 +2033,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d16-0-2-44 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d16-0-2-44:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d16-0-2-44:focus:after {  }
   .wrapper-d16-0-2-44:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2130,15 +2094,15 @@ Array [
   }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
-    color: #F8B546;
+    color: #777777;
   }
   .rating-d1-0-2-21 {  }
   .rating-d1-0-2-21 > i {
-    color: #F8B546;
+    color: #777777;
   }
   .rating-d2-0-2-28 {  }
   .rating-d2-0-2-28 > i {
-    color: #F8B546;
+    color: #777777;
   }
   .rating-d3-0-2-35 {  }
   .rating-d3-0-2-35 > i {
@@ -2185,6 +2149,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
             type="button"
           >
             <i
@@ -2211,6 +2176,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            disabled=""
             type="button"
           >
             <i
@@ -2237,6 +2203,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            disabled=""
             type="button"
           >
             <i
@@ -2263,6 +2230,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            disabled=""
             type="button"
           >
             <i
@@ -2289,6 +2257,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            disabled=""
             type="button"
           >
             <i
@@ -2395,12 +2364,10 @@ Array [
   }
 }
   .wrapper-d0-0-2-15 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2420,12 +2387,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d4-0-2-23 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d4-0-2-23:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d4-0-2-23:focus:after {  }
   .wrapper-d4-0-2-23:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2445,12 +2410,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d8-0-2-30 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d8-0-2-30:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d8-0-2-30:focus:after {  }
   .wrapper-d8-0-2-30:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2470,12 +2433,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d12-0-2-37 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d12-0-2-37:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d12-0-2-37:focus:after {  }
   .wrapper-d12-0-2-37:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2495,12 +2456,10 @@ Array [
     animation: keyframes-ripple-0-2-14 300ms;
   }
   .wrapper-d16-0-2-44 {
-    cursor: pointer;
+    cursor: default;
     display: inline-block;
   }
-  .wrapper-d16-0-2-44:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d16-0-2-44:focus:after {  }
   .wrapper-d16-0-2-44:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2613,6 +2572,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+            disabled=""
             type="button"
           >
             <i
@@ -2639,6 +2599,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+            disabled=""
             type="button"
           >
             <i
@@ -2665,6 +2626,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+            disabled=""
             type="button"
           >
             <i
@@ -2691,6 +2653,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+            disabled=""
             type="button"
           >
             <i
@@ -2717,6 +2680,7 @@ Array [
           </div>
           <button
             class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+            disabled=""
             type="button"
           >
             <i
@@ -2826,9 +2790,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2851,9 +2813,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d4-0-2-23:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d4-0-2-23:focus:after {  }
   .wrapper-d4-0-2-23:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2876,9 +2836,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d8-0-2-30:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d8-0-2-30:focus:after {  }
   .wrapper-d8-0-2-30:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2901,9 +2859,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d12-0-2-37:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d12-0-2-37:focus:after {  }
   .wrapper-d12-0-2-37:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -2926,9 +2882,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d16-0-2-44:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d16-0-2-44:focus:after {  }
   .wrapper-d16-0-2-44:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3260,9 +3214,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3285,9 +3237,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d4-0-2-23:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d4-0-2-23:focus:after {  }
   .wrapper-d4-0-2-23:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3310,9 +3260,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d8-0-2-30:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d8-0-2-30:focus:after {  }
   .wrapper-d8-0-2-30:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3335,9 +3283,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d12-0-2-37:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d12-0-2-37:focus:after {  }
   .wrapper-d12-0-2-37:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3360,9 +3306,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d16-0-2-44:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d16-0-2-44:focus:after {  }
   .wrapper-d16-0-2-44:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3420,15 +3364,15 @@ Array [
   }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
-    color: #F8B546;
+    color: #777777;
   }
   .rating-d1-0-2-21 {  }
   .rating-d1-0-2-21 > i {
-    color: #F8B546;
+    color: #777777;
   }
   .rating-d2-0-2-28 {  }
   .rating-d2-0-2-28 > i {
-    color: #F8B546;
+    color: #777777;
   }
   .rating-d3-0-2-35 {  }
   .rating-d3-0-2-35 > i {
@@ -3694,9 +3638,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-15:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d0-0-2-15:focus:after {  }
   .wrapper-d0-0-2-15:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3719,9 +3661,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d4-0-2-23:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d4-0-2-23:focus:after {  }
   .wrapper-d4-0-2-23:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3744,9 +3684,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d8-0-2-30:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d8-0-2-30:focus:after {  }
   .wrapper-d8-0-2-30:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3769,9 +3707,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d12-0-2-37:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d12-0-2-37:focus:after {  }
   .wrapper-d12-0-2-37:hover:after {
     background-color: #000000;
     opacity: 0;
@@ -3794,9 +3730,7 @@ Array [
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d16-0-2-44:focus:after {
-    background-color: #000000;
-  }
+  .wrapper-d16-0-2-44:focus:after {  }
   .wrapper-d16-0-2-44:hover:after {
     background-color: #000000;
     opacity: 0;

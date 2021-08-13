@@ -34,7 +34,7 @@ const Rating = (props: RatingProps): JSX.Element => {
               ariaLabel={ariaLabel}
               clickable={isRatingInput(props)}
               data-testid={testID}
-              disabled={isRatingInput(props) && props.disabled}
+              disabled={!isRatingInput(props) || props.disabled}
               iconActive={isRatingCounter(props) || index < props.rate}
               iconFilled={!isRatingInput(props) || index < props.rate}
               key={index.toString()}

@@ -26,7 +26,7 @@ const styles = createUseStyles((theme: Theme) => ({
     outline: 'none',
     '&:focus:after': {
       extend: 'sharedRippleEffect',
-      backgroundColor: ({ color }: RippleStyleProps) => theme.color[color],
+      backgroundColor: ({ color, disabled }: RippleStyleProps) => !disabled && theme.color[color],
       opacity: theme.opacity.mediumLow
     },
     '&:hover:after': {
