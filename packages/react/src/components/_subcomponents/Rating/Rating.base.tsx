@@ -11,17 +11,18 @@ export interface RatingBaseProps {
   size: keyof Size
   onClick: () => void
   disabled?: boolean
-  clickable?: boolean
 }
 
-const styles = createUseStyles(({ color }: Theme) => ({
+export const getRatingColor = ({ color }: Theme) => (
+  { iconFilled, iconActive, disabled }: RatingBaseProps
+) => (iconFilled && iconActive && !disabled ? '#F8B546' : color.mediumEmphasis)
+
+const styles = createUseStyles((theme: Theme) => ({
   rating: {
     backgroundColor: 'transparent',
     '& > i': {
       display: 'flex',
-      color: ({ iconFilled, iconActive, disabled }: RatingBaseProps) => (
-        iconFilled && iconActive && !disabled ? '#F8B546' : color.mediumEmphasis
-      )
+      color: getRatingColor(theme)
     }
   }
 }))

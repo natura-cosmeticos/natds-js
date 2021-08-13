@@ -32,7 +32,6 @@ const Rating = (props: RatingProps): JSX.Element => {
           (isRatingCounter(props) || isRatingReadOnly(props) || isRatingInput(props)) && (
             <RatingBase
               ariaLabel={ariaLabel}
-              clickable={isRatingInput(props)}
               data-testid={testID}
               disabled={!isRatingInput(props) || props.disabled}
               iconActive={isRatingCounter(props) || index < props.rate}
