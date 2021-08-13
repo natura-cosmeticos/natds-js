@@ -1,15 +1,16 @@
 import React from 'react'
 import { Size, Theme } from '@naturacosmeticos/natds-themes'
 import { createUseStyles } from 'react-jss'
-import { Ripple } from '../../Ripple'
+import { Ripple } from '../Ripple'
 
 export interface IconButtonBaseProps {
   classes?: string
   disabled?: boolean
   IconComponent: React.ReactElement
-  onClick: () => void
+  onClick: (e?: any) => void
   size: keyof Size
   testID?: string
+  value?: string | number
 }
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -27,7 +28,7 @@ const styles = createUseStyles((theme: Theme) => ({
 }))
 
 const IconButtonBase = ({
-  classes, IconComponent, size, disabled, onClick, testID
+  classes, IconComponent, size, disabled, onClick, testID, value
 }: IconButtonBaseProps): JSX.Element => {
   const { base } = styles({ size })
 
@@ -39,6 +40,7 @@ const IconButtonBase = ({
         disabled={disabled}
         onClick={onClick}
         type="button"
+        value={value}
       >
         {IconComponent}
       </button>

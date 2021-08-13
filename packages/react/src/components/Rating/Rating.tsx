@@ -1,13 +1,13 @@
-/* eslint-disable complexity */
 /* eslint-disable react/destructuring-assignment */
-import React from 'react'
+/* eslint-disable complexity */
+import React, { useState } from 'react'
 import {
   RatingInput,
   RatingCounter,
   RatingReadOnly,
   RatingProps
 } from './Rating.props'
-import { RatingBase } from '../_subcomponents/Rating'
+import RatingBase from './RatingBase'
 import { Label as LabelSubcomponent } from '../_subcomponents/Label'
 import styles from './Rating.styles'
 
@@ -17,29 +17,43 @@ export const isRatingReadOnly = (props: RatingProps): props is RatingReadOnly =>
 
 const Rating = (props: RatingProps): JSX.Element => {
   const {
-    variant, ariaLabel, testID, ...rest
+    variant,
+    ariaLabel,
+    testID,
+    size,
+    ...rest
   } = props
 
   const { container, rating } = styles({ variant, ...rest })
-  const renderTimes = variant === 'counter' ? 1 : 5
+
+  const [hover, setHover] = useState(0)
+
+  const showHover = isRatingInput(props) && !props.disabled
+  const renderTimes = isRatingCounter(props) ? 1 : 5
+
+  const IsFilled = (i: number) => !isRatingInput(props) || hover >= i + 1 || i + 1 <= props.rate
+  const isActive = (i: number) => isRatingCounter(props) || i + 1 <= props.rate || i + 1 <= hover
 
   const checkOnClick = isRatingInput(props) ? props.onClick : () => ''
 
   return (
     <div className={container}>
       <div className={rating}>
-        {[...Array(renderTimes)].map((_, index) => (
+        {Array(renderTimes).fill(0).map((_, index) => (
           (isRatingCounter(props) || isRatingReadOnly(props) || isRatingInput(props)) && (
             <RatingBase
               ariaLabel={ariaLabel}
-              clickable={isRatingInput(props)}
-              data-testid={testID}
               disabled={isRatingInput(props) && props.disabled}
-              iconActive={isRatingCounter(props) || index < props.rate}
-              iconFilled={!isRatingInput(props) || index < props.rate}
+              iconActive={isActive(index)}
+              iconFilled={IsFilled(index)}
+              isClickable={isRatingInput(props)}
               key={index.toString()}
               onClick={checkOnClick}
-              size={props.size}
+              onMouseEnter={() => showHover && setHover(index + 1)}
+              onMouseLeave={() => setHover(0)}
+              value={index + 1}
+              size={size}
+              testID={testID}
             />
           )
         ))}
