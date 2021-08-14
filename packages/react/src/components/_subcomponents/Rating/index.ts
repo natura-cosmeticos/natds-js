@@ -1,4 +1,4 @@
-import RatingBase, { RatingBaseProps } from './Rating.base'
+import RatingBase, { RatingBaseProps } from './RatingBase'
 
 export { RatingBase, RatingBaseProps }
 export default RatingBase

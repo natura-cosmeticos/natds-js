@@ -30,7 +30,7 @@ const styles = createUseStyles((theme: Theme) => ({
 
 const RatingBase = ({
   ariaLabel,
-  disabled,
+  disabled = false,
   iconActive,
   iconFilled,
   isClickable,
@@ -43,7 +43,7 @@ const RatingBase = ({
   return (
     <IconButtonBase
       classes={rating}
-      disabled={disabled || !isClickable}
+      disabled={disabled}
       size={size}
       onClick={onClick}
       IconComponent={(

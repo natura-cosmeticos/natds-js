@@ -1,6 +1,6 @@
 import React from 'react'
 import renderWithTheme from '../../../helpers/renderWithTheme'
-import RatingBase, { getRatingColor } from './Rating.base'
+import RatingBase, { getRatingColor } from './RatingBase'
 import mockTheme from '../../../ThemeProvider/mock-theme.json'
 import { RatingBaseProps } from '.'
 
