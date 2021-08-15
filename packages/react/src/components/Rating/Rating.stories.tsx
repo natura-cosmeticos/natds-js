@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Rating } from '.'
 import { RatingCounter, RatingInput, RatingReadOnly } from './Rating.props'
@@ -40,29 +40,35 @@ export default {
   }
 } as Meta
 
-export const Input: Story<RatingInput> = (args) => <Rating {...args} />
+export const Input: Story<RatingInput> = ({ rate, ...args }: RatingInput) => {
+  const [rating, setRating] = useState(rate)
+
+  return (
+    <Rating {...args} rate={rating} onClick={(e) => setRating(e.target.value)} />
+  )
+}
+Input.args = {
+  rate: 2,
+  variant: 'input',
+  disabled: false,
+  size: 'semi'
+}
+
 Input.parameters = { controls: { exclude: ['align'] } }
-Input.argTypes = {
-  align: { defaultValue: 'bottom', options: ['bottom'] },
-  rate: { defaultValue: 0, options: [0, 1, 2, 3, 4, 5], control: 'inline-radio' },
-  size: { defaultValue: 'semi', options: ['semi', 'semiX', 'medium'] },
-  variant: { defaultValue: 'input', options: ['input'] },
-  disabled: { defaultValue: false }
-}
 
-export const ReadOnly: Story<RatingReadOnly> = (args) => <Rating {...args} />
+export const ReadOnly: Story<RatingReadOnly> = (args: RatingReadOnly) => <Rating {...args} />
 ReadOnly.parameters = { controls: { exclude: ['align', 'label', 'disabled'] } }
-ReadOnly.argTypes = {
-  rate: { defaultValue: 0, options: [0, 1, 2, 3, 4, 5], control: 'inline-radio' },
-  size: { defaultValue: 'small', options: ['small', 'standard', 'semi', 'semiX'] },
-  variant: { defaultValue: 'read-only', options: ['read-only'] }
+ReadOnly.args = {
+  rate: 2,
+  size: 'semi',
+  variant: 'read-only'
 }
 
-export const Counter: Story<RatingCounter> = (args) => <Rating {...args} />
+export const Counter: Story<RatingCounter> = (args: RatingCounter) => <Rating {...args} />
 Counter.parameters = { controls: { exclude: ['rate', 'disabled'] } }
-Counter.argTypes = {
-  align: { defaultValue: 'left', options: ['left', 'right'] },
-  label: { defaultValue: 'Placeholder' },
-  size: { defaultValue: 'small', options: ['small', 'standard', 'semi', 'semiX'] },
-  variant: { defaultValue: 'counter', options: ['counter'] }
+Counter.args = {
+  align: 'left',
+  label: 'Placeholder',
+  size: 'semi',
+  variant: 'counter'
 }

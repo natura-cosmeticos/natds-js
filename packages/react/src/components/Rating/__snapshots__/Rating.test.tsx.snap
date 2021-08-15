@@ -111,11 +111,10 @@ Array [
     width: 16px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
     color: #F8B546;
@@ -153,31 +152,35 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              disabled=""
+              type="button"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
       <label
@@ -301,11 +304,10 @@ Array [
     width: 16px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
     color: #F8B546;
@@ -343,31 +345,35 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              disabled=""
+              type="button"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
       <label
@@ -491,11 +497,10 @@ Array [
     width: 32px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
     color: #F8B546;
@@ -533,31 +538,35 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              disabled=""
+              type="button"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
       <label
@@ -815,29 +824,33 @@ Array [
     width: 32px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d1-0-2-21 {  }
   .rating-d1-0-2-21 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d2-0-2-28 {  }
   .rating-d2-0-2-28 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d3-0-2-35 {  }
   .rating-d3-0-2-35 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d4-0-2-42 {  }
   .rating-d4-0-2-42 > i {
+    cursor: pointer;
     color: #777777;
   }
   .container-0-2-1 {
@@ -863,134 +876,159 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d4-0-2-23"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d1-0-2-21"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            class="wrapper-0-2-10 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d5-0-2-24 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d8-0-2-30"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d2-0-2-28"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            class="wrapper-0-2-10 wrapper-d8-0-2-30"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d9-0-2-31 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d9-0-2-31 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d12-0-2-37"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d3-0-2-35"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            class="wrapper-0-2-10 wrapper-d12-0-2-37"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d13-0-2-38 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d13-0-2-38 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d16-0-2-44"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d4-0-2-42"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            class="wrapper-0-2-10 wrapper-d16-0-2-44"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d17-0-2-45 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d17-0-2-45 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
     </div>
@@ -1233,11 +1271,10 @@ Array [
     width: 32px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
     color: #777777;
@@ -1281,139 +1318,164 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d4-0-2-23"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d1-0-2-21"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            class="wrapper-0-2-10 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d5-0-2-24 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d8-0-2-30"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d2-0-2-28"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            class="wrapper-0-2-10 wrapper-d8-0-2-30"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d9-0-2-31 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d9-0-2-31 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d12-0-2-37"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d3-0-2-35"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            class="wrapper-0-2-10 wrapper-d12-0-2-37"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d13-0-2-38 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d13-0-2-38 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d16-0-2-44"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d4-0-2-42"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            class="wrapper-0-2-10 wrapper-d16-0-2-44"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d17-0-2-45 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d17-0-2-45 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
     </div>
@@ -1666,29 +1728,33 @@ Array [
     width: 32px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d1-0-2-21 {  }
   .rating-d1-0-2-21 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d2-0-2-28 {  }
   .rating-d2-0-2-28 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d3-0-2-35 {  }
   .rating-d3-0-2-35 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d4-0-2-42 {  }
   .rating-d4-0-2-42 > i {
+    cursor: pointer;
     color: #777777;
   }
   .label-0-2-49 {
@@ -1722,134 +1788,159 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d4-0-2-23"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d1-0-2-21"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            class="wrapper-0-2-10 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d5-0-2-24 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d8-0-2-30"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d2-0-2-28"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            class="wrapper-0-2-10 wrapper-d8-0-2-30"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d9-0-2-31 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d9-0-2-31 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d12-0-2-37"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d3-0-2-35"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            class="wrapper-0-2-10 wrapper-d12-0-2-37"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d13-0-2-38 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d13-0-2-38 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d16-0-2-44"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d4-0-2-42"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            class="wrapper-0-2-10 wrapper-d16-0-2-44"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d17-0-2-45 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d17-0-2-45 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
       <label
@@ -2107,29 +2198,33 @@ Array [
     width: 32px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
+    cursor: pointer;
     color: #F8B546;
   }
   .rating-d1-0-2-21 {  }
   .rating-d1-0-2-21 > i {
+    cursor: pointer;
     color: #F8B546;
   }
   .rating-d2-0-2-28 {  }
   .rating-d2-0-2-28 > i {
+    cursor: pointer;
     color: #F8B546;
   }
   .rating-d3-0-2-35 {  }
   .rating-d3-0-2-35 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d4-0-2-42 {  }
   .rating-d4-0-2-42 > i {
+    cursor: pointer;
     color: #777777;
   }
   .container-0-2-1 {
@@ -2155,134 +2250,159 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d4-0-2-23"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d1-0-2-21"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            class="wrapper-0-2-10 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d5-0-2-24 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d8-0-2-30"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d2-0-2-28"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            class="wrapper-0-2-10 wrapper-d8-0-2-30"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d9-0-2-31 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d9-0-2-31 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d12-0-2-37"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d3-0-2-35"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            class="wrapper-0-2-10 wrapper-d12-0-2-37"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d13-0-2-38 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d13-0-2-38 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d16-0-2-44"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d4-0-2-42"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            class="wrapper-0-2-10 wrapper-d16-0-2-44"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d17-0-2-45 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d17-0-2-45 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
     </div>
@@ -2535,29 +2655,33 @@ Array [
     width: 48px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d1-0-2-21 {  }
   .rating-d1-0-2-21 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d2-0-2-28 {  }
   .rating-d2-0-2-28 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d3-0-2-35 {  }
   .rating-d3-0-2-35 > i {
+    cursor: pointer;
     color: #777777;
   }
   .rating-d4-0-2-42 {  }
   .rating-d4-0-2-42 > i {
+    cursor: pointer;
     color: #777777;
   }
   .container-0-2-1 {
@@ -2583,134 +2707,159 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d4-0-2-23"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d1-0-2-21"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            class="wrapper-0-2-10 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d5-0-2-24 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d8-0-2-30"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d2-0-2-28"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            class="wrapper-0-2-10 wrapper-d8-0-2-30"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d9-0-2-31 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d9-0-2-31 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d12-0-2-37"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d3-0-2-35"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            class="wrapper-0-2-10 wrapper-d12-0-2-37"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d13-0-2-38 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d13-0-2-38 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d16-0-2-44"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d4-0-2-42"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            class="wrapper-0-2-10 wrapper-d16-0-2-44"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d17-0-2-45 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d17-0-2-45 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Input"
+                class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
+                data-testid="icon-outlined-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Input"
-              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-outlined-action-rating"
-              data-testid="icon-outlined-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
     </div>
@@ -2953,11 +3102,10 @@ Array [
     width: 16px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
     color: #777777;
@@ -3002,139 +3150,164 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d4-0-2-23"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d1-0-2-21"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            class="wrapper-0-2-10 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d5-0-2-24 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d8-0-2-30"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d2-0-2-28"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            class="wrapper-0-2-10 wrapper-d8-0-2-30"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d9-0-2-31 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d9-0-2-31 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d12-0-2-37"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d3-0-2-35"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            class="wrapper-0-2-10 wrapper-d12-0-2-37"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d13-0-2-38 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d13-0-2-38 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d16-0-2-44"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d4-0-2-42"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            class="wrapper-0-2-10 wrapper-d16-0-2-44"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d17-0-2-45 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d17-0-2-45 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
     </div>
@@ -3377,11 +3550,10 @@ Array [
     width: 16px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
     color: #F8B546;
@@ -3426,139 +3598,164 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              disabled=""
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d4-0-2-23"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d1-0-2-21"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            class="wrapper-0-2-10 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d5-0-2-24 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+              disabled=""
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d8-0-2-30"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d2-0-2-28"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            class="wrapper-0-2-10 wrapper-d8-0-2-30"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d9-0-2-31 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d9-0-2-31 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+              disabled=""
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d12-0-2-37"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d3-0-2-35"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            class="wrapper-0-2-10 wrapper-d12-0-2-37"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d13-0-2-38 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d13-0-2-38 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+              disabled=""
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d16-0-2-44"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d4-0-2-42"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            class="wrapper-0-2-10 wrapper-d16-0-2-44"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d17-0-2-45 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d17-0-2-45 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+              disabled=""
+              type="button"
+              value="3"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
     </div>
@@ -3801,11 +3998,10 @@ Array [
     width: 40px;
   }
   .rating-0-2-5 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-5 > i {
-    display: flex;
-  }
+  .rating-0-2-5 > i {  }
   .rating-d0-0-2-6 {  }
   .rating-d0-0-2-6 > i {
     color: #777777;
@@ -3850,139 +4046,164 @@ Array [
         class="rating-0-2-2 rating-d1-0-2-4"
       >
         <div
-          class="wrapper-0-2-10 wrapper-d0-0-2-15"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d0-0-2-6"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            class="wrapper-0-2-10 wrapper-d0-0-2-15"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d1-0-2-16 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d2-0-2-17"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d1-0-2-16 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d0-0-2-8 rating-0-2-5 rating-d0-0-2-6"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d0-0-2-20 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d4-0-2-23"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d1-0-2-21"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            class="wrapper-0-2-10 wrapper-d4-0-2-23"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d5-0-2-24 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d6-0-2-25"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d5-0-2-24 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d1-0-2-22 rating-0-2-5 rating-d1-0-2-21"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d1-0-2-27 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d8-0-2-30"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d2-0-2-28"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            class="wrapper-0-2-10 wrapper-d8-0-2-30"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d9-0-2-31 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d10-0-2-32"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d9-0-2-31 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d2-0-2-29 rating-0-2-5 rating-d2-0-2-28"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d2-0-2-34 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d12-0-2-37"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d3-0-2-35"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            class="wrapper-0-2-10 wrapper-d12-0-2-37"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d13-0-2-38 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d14-0-2-39"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d13-0-2-38 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d3-0-2-36 rating-0-2-5 rating-d3-0-2-35"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d3-0-2-41 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
         <div
-          class="wrapper-0-2-10 wrapper-d16-0-2-44"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="rating-0-2-5 rating-d4-0-2-42"
         >
           <div
-            class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            class="wrapper-0-2-10 wrapper-d16-0-2-44"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-11 ripple-d17-0-2-45 "
-              data-testid="ripple-animation"
-            />
+              class="rippleContainer-0-2-12 rippleContainer-d18-0-2-46"
+            >
+              <div
+                class="ripple-0-2-11 ripple-d17-0-2-45 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
+              disabled=""
+              type="button"
+              value="0"
+            >
+              <i
+                aria-hidden="false"
+                arial-label="Rating Read-Only"
+                class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-filled-action-rating"
+                data-testid="icon-filled-action-rating"
+                role="button"
+              />
+            </button>
           </div>
-          <button
-            class="base-0-2-7 base-d4-0-2-43 rating-0-2-5 rating-d4-0-2-42"
-            disabled=""
-            type="button"
-          >
-            <i
-              aria-hidden="true"
-              arial-label="Rating Read-Only"
-              class="icon-0-2-19 icon-d4-0-2-48 natds-icons natds-icons-filled-action-rating"
-              data-testid="icon-filled-action-rating"
-              role="img"
-            />
-          </button>
         </div>
       </div>
     </div>

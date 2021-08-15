@@ -111,42 +111,45 @@ Array [
     width: 64px;
   }
   .rating-0-2-1 {
+    display: flex;
     background-color: transparent;
   }
-  .rating-0-2-1 > i {
-    display: flex;
-  }
+  .rating-0-2-1 > i {  }
   .rating-d0-0-2-2 {  }
   .rating-d0-0-2-2 > i {
     color: #777777;
   }",
   <div>
     <div
-      class="wrapper-0-2-6 wrapper-d0-0-2-11"
-      data-testid="ripple-wrapper"
-      tabindex="-1"
+      class="rating-0-2-1 rating-d0-0-2-2"
     >
       <div
-        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
+        class="wrapper-0-2-6 wrapper-d0-0-2-11"
+        data-testid="ripple-wrapper"
+        tabindex="-1"
       >
         <div
-          class="ripple-0-2-7 ripple-d1-0-2-12 "
-          data-testid="ripple-animation"
-        />
+          class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
+        >
+          <div
+            class="ripple-0-2-7 ripple-d1-0-2-12 "
+            data-testid="ripple-animation"
+          />
+        </div>
+        <button
+          class="base-0-2-3 base-d0-0-2-4 rating-0-2-1 rating-d0-0-2-2"
+          disabled=""
+          type="button"
+        >
+          <i
+            aria-hidden="false"
+            arial-label="Rating Base"
+            class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-action-rating"
+            data-testid="icon-outlined-action-rating"
+            role="button"
+          />
+        </button>
       </div>
-      <button
-        class="base-0-2-3 base-d0-0-2-4 rating-0-2-1 rating-d0-0-2-2"
-        disabled=""
-        type="button"
-      >
-        <i
-          aria-hidden="true"
-          arial-label="Rating Base"
-          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-action-rating"
-          data-testid="icon-outlined-action-rating"
-          role="img"
-        />
-      </button>
     </div>
   </div>,
 ]

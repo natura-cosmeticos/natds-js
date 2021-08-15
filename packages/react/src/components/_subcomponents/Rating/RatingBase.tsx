@@ -10,8 +10,12 @@ export interface RatingBaseProps {
   iconActive?: boolean
   iconFilled?: boolean
   isClickable?: boolean
-  onClick: () => void
+  onClick: (e: any) => void
+  onMouseEnter?: () => void
+  onMouseLeave?: () => void
+  rate?: number
   size: keyof Size
+  testID?: string
 }
 
 export const getRatingColor = ({ color }: Theme) => (
@@ -20,10 +24,11 @@ export const getRatingColor = ({ color }: Theme) => (
 
 const styles = createUseStyles((theme: Theme) => ({
   rating: {
+    display: 'flex',
     backgroundColor: 'transparent',
     '& > i': {
-      display: 'flex',
-      color: getRatingColor(theme)
+      cursor: ({ disabled, isClickable }: RatingBaseProps) => isClickable && !disabled && 'pointer',
+      color: (getRatingColor(theme))
     }
   }
 }))
@@ -35,25 +40,33 @@ const RatingBase = ({
   iconFilled,
   isClickable,
   onClick,
-  size
+  onMouseEnter,
+  onMouseLeave,
+  rate,
+  size,
+  testID
 }: RatingBaseProps): JSX.Element => {
-  const { rating } = styles({ iconFilled, iconActive, disabled })
+  const { rating } = styles({
+    disabled,
+    isClickable,
+    iconFilled,
+    iconActive
+  })
+
   const checkIcon = iconFilled ? 'filled-action-rating' : 'outlined-action-rating'
 
   return (
-    <IconButtonBase
-      classes={rating}
-      disabled={disabled}
-      size={size}
-      onClick={onClick}
-      IconComponent={(
-        <Icon
-          size={size}
-          name={checkIcon}
-          ariaLabel={ariaLabel}
-        />
-      )}
-    />
+    <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={rating}>
+      <IconButtonBase
+        disabled={disabled || !isClickable}
+        IconComponent={<Icon ariaHidden={false} ariaLabel={ariaLabel} name={checkIcon} role="button" size={size} />}
+        onClick={onClick}
+        size={size}
+        classes={rating}
+        value={rate}
+        testID={testID}
+      />
+    </div>
   )
 }
 
