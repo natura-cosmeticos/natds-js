@@ -9,7 +9,7 @@ const componentStatus = `
 **NOTE FOR UXs**: This component is available in the following variants:
 
   - ✅ \`counter\`
-  - ❌ \`input\`
+  - ✅ \`input\`
   - ✅ \`read-only\`
 
 With the following attribute status:

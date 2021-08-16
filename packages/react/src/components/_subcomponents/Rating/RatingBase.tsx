@@ -13,9 +13,9 @@ export interface RatingBaseProps {
   onClick: (e: any) => void
   onMouseEnter?: () => void
   onMouseLeave?: () => void
-  rate?: number
   size: keyof Size
   testID?: string
+  value?: number
 }
 
 export const getRatingColor = ({ color }: Theme) => (
@@ -24,8 +24,9 @@ export const getRatingColor = ({ color }: Theme) => (
 
 const styles = createUseStyles((theme: Theme) => ({
   rating: {
-    display: 'flex',
     backgroundColor: 'transparent',
+    display: 'flex',
+    position: 'relative',
     '& > i': {
       cursor: ({ disabled, isClickable }: RatingBaseProps) => isClickable && !disabled && 'pointer',
       color: (getRatingColor(theme))
@@ -42,7 +43,7 @@ const RatingBase = ({
   onClick,
   onMouseEnter,
   onMouseLeave,
-  rate,
+  value,
   size,
   testID
 }: RatingBaseProps): JSX.Element => {
@@ -63,7 +64,7 @@ const RatingBase = ({
         onClick={onClick}
         size={size}
         classes={rating}
-        value={rate}
+        value={value}
         testID={testID}
       />
     </div>
