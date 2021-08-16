@@ -33,6 +33,4 @@ export type RatingReadOnly = RatingBaseProps & ({
   variant: 'read-only'
 })
 
-export type RatingProps = RatingCounter
-  | RatingInput
-  | RatingReadOnly
+export type RatingProps = RatingCounter | RatingInput | RatingReadOnly
