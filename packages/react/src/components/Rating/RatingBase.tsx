@@ -1,8 +1,8 @@
 import React from 'react'
 import { Size, Theme } from '@naturacosmeticos/natds-themes'
 import { createUseStyles } from 'react-jss'
-import Icon from '../../Icon'
-import IconButtonBase from '../IconButton'
+import Icon from '../Icon'
+import IconButtonBase from '../IconButton/IconButtonBase'
 
 export interface RatingBaseProps {
   ariaLabel: string

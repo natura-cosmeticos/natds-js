@@ -1,7 +1,7 @@
 import React from 'react'
 import { Size, Theme } from '@naturacosmeticos/natds-themes'
 import { createUseStyles } from 'react-jss'
-import { Ripple } from '../../Ripple'
+import { Ripple } from '../Ripple'
 
 export interface IconButtonBaseProps {
   classes?: string

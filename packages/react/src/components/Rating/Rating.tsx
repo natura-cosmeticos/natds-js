@@ -7,7 +7,7 @@ import {
   RatingReadOnly,
   RatingProps
 } from './Rating.props'
-import { RatingBase } from '../_subcomponents/Rating'
+import RatingBase from './RatingBase'
 import { Label as LabelSubcomponent } from '../_subcomponents/Label'
 import styles from './Rating.styles'
 
@@ -32,7 +32,7 @@ const Rating = (props: RatingProps): JSX.Element => {
   const renderTimes = isRatingCounter(props) ? 1 : 5
 
   const IsFilled = (i: number) => !isRatingInput(props) || hover >= i + 1 || i + 1 <= props.rate
-  const isActive = (i: number) => isRatingCounter(props) || i + 1 <= (hover || props.rate)
+  const isActive = (i: number) => isRatingCounter(props) || i + 1 <= props.rate || i + 1 <= hover
 
   const checkOnClick = isRatingInput(props) ? props.onClick : () => ''
 
