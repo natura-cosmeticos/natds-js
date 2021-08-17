@@ -11,14 +11,14 @@ export interface RatingBaseProps {
   testID?: string
 }
 
-export type RatingCounter = RatingBaseProps & ({
+export type RatingCounterProps = RatingBaseProps & ({
   align?: RatingPosition
   label: string
   size: RatingCounterSize
   variant: 'counter'
 })
 
-export type RatingInput = RatingBaseProps & ({
+export type RatingInputProps = RatingBaseProps & ({
   disabled?: boolean
   label?: string
   onClick: (e: any) => void
@@ -27,10 +27,10 @@ export type RatingInput = RatingBaseProps & ({
   variant: 'input'
 })
 
-export type RatingReadOnly = RatingBaseProps & ({
+export type RatingReadOnlyProps = RatingBaseProps & ({
   rate: RatingValue
   size: RatingReadOnlySize
   variant: 'read-only'
 })
 
-export type RatingProps = RatingCounter | RatingInput | RatingReadOnly
+export type RatingProps = RatingCounterProps | RatingInputProps | RatingReadOnlyProps

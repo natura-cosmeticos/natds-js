@@ -23,9 +23,11 @@ export const getRatingColor = ({ color }: Theme) => (
 ) => (iconFilled && iconActive && !disabled ? '#F8B546' : color.mediumEmphasis)
 
 const styles = createUseStyles((theme: Theme) => ({
-  rating: {
+  ratingContainer: {
+    display: 'flex'
+  },
+  ratingIcon: {
     backgroundColor: 'transparent',
-    display: 'flex',
     position: 'relative',
     '& > i': {
       cursor: ({ disabled, isClickable }: RatingBaseProps) => isClickable && !disabled && 'pointer',
@@ -37,9 +39,9 @@ const styles = createUseStyles((theme: Theme) => ({
 const RatingBase = ({
   ariaLabel,
   disabled = false,
-  iconActive,
-  iconFilled,
-  isClickable,
+  iconActive = true,
+  iconFilled = true,
+  isClickable = false,
   onClick,
   onMouseEnter,
   onMouseLeave,
@@ -47,7 +49,7 @@ const RatingBase = ({
   size,
   testID
 }: RatingBaseProps): JSX.Element => {
-  const { rating } = styles({
+  const { ratingIcon, ratingContainer } = styles({
     disabled,
     isClickable,
     iconFilled,
@@ -57,13 +59,13 @@ const RatingBase = ({
   const checkIcon = iconFilled ? 'filled-action-rating' : 'outlined-action-rating'
 
   return (
-    <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={rating}>
+    <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={ratingContainer}>
       <IconButtonBase
         disabled={disabled || !isClickable}
         IconComponent={<Icon ariaHidden={false} ariaLabel={ariaLabel} name={checkIcon} role="button" size={size} />}
         onClick={onClick}
         size={size}
-        classes={rating}
+        classes={ratingIcon}
         value={value}
         testID={testID}
       />

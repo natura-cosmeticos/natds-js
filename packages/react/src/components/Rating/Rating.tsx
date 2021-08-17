@@ -3,18 +3,18 @@
 /* eslint-disable complexity */
 import React, { useState } from 'react'
 import {
-  RatingInput,
-  RatingCounter,
-  RatingReadOnly,
+  RatingInputProps,
+  RatingCounterProps,
+  RatingReadOnlyProps,
   RatingProps
 } from './Rating.props'
 import RatingBase from './RatingBase'
 import { Label as LabelSubcomponent } from '../_subcomponents/Label'
 import styles from './Rating.styles'
 
-export const isRatingInput = (props: RatingProps): props is RatingInput => (props as RatingInput).variant === 'input'
-export const isRatingCounter = (props: RatingProps): props is RatingCounter => (props as RatingCounter).variant === 'counter'
-export const isRatingReadOnly = (props: RatingProps): props is RatingReadOnly => (props as RatingReadOnly).variant === 'read-only'
+export const isRatingInput = (props: RatingProps): props is RatingInputProps => (props as RatingInputProps).variant === 'input'
+export const isRatingCounter = (props: RatingProps): props is RatingCounterProps => (props as RatingCounterProps).variant === 'counter'
+export const isRatingReadOnly = (props: RatingProps): props is RatingReadOnlyProps => (props as RatingReadOnlyProps).variant === 'read-only'
 
 const Rating = (props: RatingProps): JSX.Element => {
   const {
