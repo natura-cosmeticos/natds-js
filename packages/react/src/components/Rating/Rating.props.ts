@@ -7,29 +7,86 @@ export type RatingCounterSize = keyof Pick<Size, 'small' | 'standard' | 'semi' |
 export type RatingReadOnlySize = keyof Pick<Size, 'small' | 'standard' | 'semi' | 'semiX'>
 
 export interface RatingBaseProps {
+  /**
+   * The meaning of each Rating
+   */
   ariaLabel: string
+  /**
+   * Optional ID for testing
+   */
   testID?: string
 }
 
 export type RatingCounterProps = RatingBaseProps & ({
+  /**
+   * The Rating position relative to placeholder
+   * @default left
+   */
   align?: RatingPosition
+
+  /**
+   * The text aside the Rating
+   */
   label: string
+
+  /**
+   * The size of Rating
+   */
   size: RatingCounterSize
+
+  /**
+   * The variant
+   */
   variant: 'counter'
 })
 
 export type RatingInputProps = RatingBaseProps & ({
+  /**
+   * If `true`, the Rating will be disabled
+   * @default false
+   */
   disabled?: boolean
+
+  /**
+   * The text below the Rating
+   */
   label?: string
+
+  /**
+   * Click handler
+   */
   onClick: (e: any) => void
+
+  /**
+   * The number of Rating stars filled
+   */
   rate: RatingValue
+
+  /**
+   * The size of Rating
+   */
   size: RatingInputSize
+
+  /**
+   * The variant
+   */
   variant: 'input'
 })
 
 export type RatingReadOnlyProps = RatingBaseProps & ({
+  /**
+   * The number of Rating stars filled
+   */
   rate: RatingValue
+
+  /**
+   * The size of Rating
+   */
   size: RatingReadOnlySize
+
+  /**
+   * The variant
+   */
   variant: 'read-only'
 })
 
