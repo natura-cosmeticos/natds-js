@@ -1,7 +1,8 @@
+/* eslint-disable max-len */
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Rating } from '.'
-import { RatingCounter, RatingInput, RatingReadOnly } from './Rating.props'
+import { RatingCounterProps, RatingInputProps, RatingReadOnlyProps } from './Rating.props'
 
 const componentStatus = `
 ---
@@ -40,7 +41,7 @@ export default {
   }
 } as Meta
 
-export const Input: Story<RatingInput> = ({ rate, ...args }: RatingInput) => {
+export const Input: Story<RatingInputProps> = ({ rate, ...args }: RatingInputProps) => {
   const [rating, setRating] = useState(rate)
 
   return (
@@ -56,7 +57,7 @@ Input.args = {
 
 Input.parameters = { controls: { exclude: ['align'] } }
 
-export const ReadOnly: Story<RatingReadOnly> = (args: RatingReadOnly) => <Rating {...args} />
+export const ReadOnly: Story<RatingReadOnlyProps> = (args: RatingReadOnlyProps) => <Rating {...args} />
 ReadOnly.parameters = { controls: { exclude: ['align', 'label', 'disabled'] } }
 ReadOnly.args = {
   rate: 2,
@@ -64,7 +65,7 @@ ReadOnly.args = {
   variant: 'read-only'
 }
 
-export const Counter: Story<RatingCounter> = (args: RatingCounter) => <Rating {...args} />
+export const Counter: Story<RatingCounterProps> = (args: RatingCounterProps) => <Rating {...args} />
 Counter.parameters = { controls: { exclude: ['rate', 'disabled'] } }
 Counter.args = {
   align: 'left',
