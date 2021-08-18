@@ -2,7 +2,9 @@
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Rating } from '.'
-import { RatingCounterProps, RatingInputProps, RatingReadOnlyProps } from './Rating.props'
+import {
+  RatingCounterProps, RatingInputProps, RatingProps, RatingReadOnlyProps
+} from './Rating.props'
 
 const componentStatus = `
 ---
@@ -40,6 +42,13 @@ export default {
     actions: { argTypesRegex: '^on.*' }
   }
 } as Meta
+
+export const Playground: Story<RatingProps> = (args: RatingProps) => <Rating {...args} />
+Playground.args = {
+  variant: 'counter',
+  label: 'Placeholder',
+  size: 'semi'
+}
 
 export const Input: Story<RatingInputProps> = ({ rate, ...args }: RatingInputProps) => {
   const [rating, setRating] = useState(rate)
