@@ -29,6 +29,19 @@ const styles = createUseStyles((theme: Theme) => ({
   ratingIcon: {
     backgroundColor: 'transparent',
     position: 'relative',
+    '&:after': {
+      backgroundColor: theme.color.highlight,
+      borderRadius: '50%',
+      content: '" "',
+      height: '100%',
+      left: 0,
+      opacity: 0,
+      position: 'absolute',
+      top: 0,
+      width: '100%'
+    },
+    '&:hover:not([disabled]):after': { opacity: theme.opacity.lower },
+    '&:focus:not([disabled]):after': { opacity: theme.opacity.low },
     '& > i': {
       cursor: ({ disabled, isClickable }: RatingBaseProps) => isClickable && !disabled && 'pointer',
       color: (getRatingColor(theme))
