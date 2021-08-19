@@ -455,6 +455,7 @@ export const avonDark: ITheme = {
     },
     MuiInputLabel: {
       formControl: {
+        position: 'relative',
         transform: 'none',
         marginTop: '-4px'
       },
