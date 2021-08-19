@@ -47,10 +47,11 @@ export const Playground: Story<RatingProps> = (args: RatingProps) => <Rating {..
 Playground.args = {
   variant: 'counter',
   label: 'Placeholder',
-  size: 'semi'
+  size: 'semi',
+  ariaLabel: 'rating star'
 }
 
-export const Input: Story<RatingInputProps> = ({ rate, ...args }: RatingInputProps) => {
+export const Input: Story<RatingInputProps> = ({ rate, ...args }) => {
   const [rating, setRating] = useState(rate)
 
   return (
@@ -58,17 +59,19 @@ export const Input: Story<RatingInputProps> = ({ rate, ...args }: RatingInputPro
   )
 }
 Input.args = {
-  rate: 2,
-  variant: 'input',
+  ariaLabel: 'rating star',
   disabled: false,
-  size: 'semi'
+  rate: 2,
+  size: 'semi',
+  variant: 'input'
 }
 
-Input.parameters = { controls: { exclude: ['align'] } }
+Input.parameters = { controls: { exclude: ['align', 'rate'] } }
 
 export const ReadOnly: Story<RatingReadOnlyProps> = (args: RatingReadOnlyProps) => <Rating {...args} />
 ReadOnly.parameters = { controls: { exclude: ['align', 'label', 'disabled'] } }
 ReadOnly.args = {
+  ariaLabel: 'rating star',
   rate: 2,
   size: 'semi',
   variant: 'read-only'
@@ -78,6 +81,7 @@ export const Counter: Story<RatingCounterProps> = (args: RatingCounterProps) => 
 Counter.parameters = { controls: { exclude: ['rate', 'disabled'] } }
 Counter.args = {
   align: 'left',
+  ariaLabel: 'rating star',
   label: 'Placeholder',
   size: 'semi',
   variant: 'counter'

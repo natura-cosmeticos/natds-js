@@ -74,8 +74,17 @@ const RatingBase = ({
   return (
     <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={ratingContainer}>
       <IconButtonBase
+        ariaLabel={ariaLabel}
         disabled={disabled || !isClickable}
-        IconComponent={<Icon ariaHidden={false} ariaLabel={ariaLabel} name={checkIcon} role="button" size={size} />}
+        IconComponent={(
+          <Icon
+            ariaHidden
+            ariaLabel={ariaLabel}
+            name={checkIcon}
+            role="button"
+            size={size}
+          />
+        )}
         onClick={onClick}
         size={size}
         classes={ratingIcon}

@@ -4,6 +4,7 @@ import { createUseStyles } from 'react-jss'
 import { Ripple } from '../Ripple'
 
 export interface IconButtonBaseProps {
+  ariaLabel?: string
   classes?: string
   disabled?: boolean
   IconComponent: React.ReactElement
@@ -28,13 +29,14 @@ const styles = createUseStyles((theme: Theme) => ({
 }))
 
 const IconButtonBase = ({
-  classes, IconComponent, size, disabled, onClick, testID, value
+  ariaLabel, classes, disabled, IconComponent, onClick, size, testID, value
 }: IconButtonBaseProps): JSX.Element => {
   const { base } = styles({ size })
 
   return (
     <Ripple disabled={disabled} isCentered>
       <button
+        aria-label={ariaLabel}
         className={`${base} ${classes}`}
         data-testid={testID}
         disabled={disabled}

@@ -40,6 +40,7 @@ const IconButton = ({
 
   return (
     <IconButtonBase
+      ariaLabel={ariaLabel}
       classes={iconButtonContainer}
       disabled={disabled}
       onClick={onClick}
@@ -47,12 +48,11 @@ const IconButton = ({
       testID={testID}
       IconComponent={(
         <Icon
-          name={iconName}
+          ariaHidden
           color={iconColor}
-          size={iconSize}
-          ariaHidden={false}
+          name={iconName}
           role="button"
-          ariaLabel={ariaLabel}
+          size={iconSize}
         />
       )}
     />

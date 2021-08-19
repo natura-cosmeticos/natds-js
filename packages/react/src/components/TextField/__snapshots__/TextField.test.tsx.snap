@@ -1439,13 +1439,13 @@ Array [
               />
             </div>
             <button
+              aria-label="any label"
               class="base-0-2-17 base-d0-0-2-18 iconButtonContainer-0-2-15 iconButtonContainer-d0-0-2-16"
               data-testid="ds-input-action-icon"
               type="button"
             >
               <i
-                aria-hidden="false"
-                arial-label="any label"
+                aria-hidden="true"
                 class="icon-0-2-29 icon-d0-0-2-30 natds-icons natds-icons-filled-action-love"
                 data-testid="icon-filled-action-love"
                 role="button"
