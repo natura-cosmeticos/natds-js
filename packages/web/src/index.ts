@@ -52,6 +52,7 @@ export { default as IconButton, IIconButtonProps } from './Components/IconButton
 export { default as Image, ImageProps } from './Components/Image'
 export { default as Input, IInputProps } from './Components/Input'
 export { default as InputLabel, IInputLabelProps } from './Components/InputLabel'
+export { default as InputStateHelpTextProvider, IInputStateHelpTextProviderProps } from './Components/InputStateHelpTextProvider'
 export { default as Intro, IIntroProps } from './Components/Intro'
 export { default as LinearProgress, ILinearProgressProps } from './Components/LinearProgress'
 export { default as Link, ILinkProps } from './Components/Link'
