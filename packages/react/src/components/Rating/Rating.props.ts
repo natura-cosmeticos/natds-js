@@ -8,12 +8,13 @@ export type RatingReadOnlySize = keyof Pick<Size, 'small' | 'standard' | 'semi' 
 
 export interface RatingBaseProps {
   /**
-   * Use to define a text that explains
-   * the meaning of each Rating
+   * Use to define a text that explains the meaning of EACH Rating.
    */
   ariaLabel: string
   /**
    * Optional ID for testing
+   * By default, this value will be concatenated to the position of each element.
+   * @example rating-1
    */
   testID?: string
 }

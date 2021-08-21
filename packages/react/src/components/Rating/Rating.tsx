@@ -54,7 +54,7 @@ const Rating = (props: RatingProps): JSX.Element => {
               onMouseLeave={() => setHover(0)}
               value={index + 1}
               size={size}
-              testID={testID}
+              testID={`${testID}-${index + 1}`}
             />
           )
         ))}

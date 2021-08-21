@@ -1,3 +1,4 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable max-lines-per-function */
 import React from 'react'
 import { fireEvent, waitFor } from '@testing-library/react'
@@ -37,29 +38,19 @@ const ratingReadOnlyProps: RatingReadOnlyProps = {
 }
 
 describe('Rating', () => {
-  it('should render one time when variant is Counter', () => {
-    const { component: { getAllByTestId } } = renderWithTheme(<Rating {...ratingCounterProps} testID="rating-counter" />)
-
-    expect(getAllByTestId('rating-counter').length).toBe(1)
-  })
-
-  it('should render one time when variant is Input', () => {
-    const { component: { getAllByTestId } } = renderWithTheme(<Rating {...ratingInputProps} testID="rating-input" />)
-
-    expect(getAllByTestId('rating-input').length).toBe(5)
-  })
-
-  it('should render one time when variant is Read-Only', () => {
-    const { component: { getAllByTestId } } = renderWithTheme(<Rating {...ratingInputProps} testID="rating-read-only" />)
-
-    expect(getAllByTestId('rating-read-only').length).toBe(5)
-  })
   describe('Counter', () => {
+    it('should render one time when variant is Counter', () => {
+      const { component: { getAllByTestId } } = renderWithTheme(<Rating {...ratingCounterProps} testID="rating-counter" />)
+
+      expect(getAllByTestId(/rating-counter/).length).toBe(1)
+    })
+
     it('should render correctly with given props', () => {
       const { styles, component } = renderWithTheme(<Rating {...ratingCounterProps} />)
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
     })
+
     it('should render correctly when align is right', () => {
       const { styles, component } = renderWithTheme(
         <Rating {...ratingCounterProps} align="right" />
@@ -67,14 +58,33 @@ describe('Rating', () => {
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
     })
+
+    it('should NOT fire onclick', () => {
+      const onClickMock = jest.fn()
+      const { component: { getByTestId } } = renderWithTheme(
+        // @ts-ignore
+        <Rating {...ratingCounterProps} testID="rating" onClick={onClickMock} />
+      )
+
+      fireEvent.click(getByTestId('rating-1'))
+
+      expect(onClickMock).not.toHaveBeenCalled()
+    })
   })
 
   describe('Input', () => {
+    it('should render five times when variant is Input', () => {
+      const { component: { getAllByTestId } } = renderWithTheme(<Rating {...ratingInputProps} testID="rating-input" />)
+
+      expect(getAllByTestId(/rating-input/).length).toBe(5)
+    })
+
     it('should render correctly with given props', () => {
       const { styles, component } = renderWithTheme(<Rating {...ratingInputProps} />)
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
     })
+
     it('should render correctly when is disabled', () => {
       const { styles, component } = renderWithTheme(
         <Rating {...ratingInputProps} disabled />
@@ -93,33 +103,40 @@ describe('Rating', () => {
 
     it('should call onClick', () => {
       const onClickMock = jest.fn()
-      const { component: { getAllByTestId } } = renderWithTheme(
-        <Rating {...ratingInputProps} testID="rating-1" onClick={onClickMock} />
+      const { component: { getByTestId } } = renderWithTheme(
+        <Rating {...ratingInputProps} testID="rating" onClick={onClickMock} />
       )
 
-      fireEvent.click(getAllByTestId('rating-1')[1])
+      fireEvent.click(getByTestId('rating-1'))
 
       expect(onClickMock).toHaveBeenCalledTimes(1)
     })
 
     it('should change to active a rating star with mouseEnter', async () => {
-      const { styles, component: { getAllByTestId, container } } = renderWithTheme(
-        <Rating {...ratingInputProps} testID="rating-1" />
+      const { styles, component: { getByTestId, getAllByTestId, container } } = renderWithTheme(
+        <Rating {...ratingInputProps} testID="rating" />
       )
 
-      fireEvent.mouseEnter(getAllByTestId('rating-1')[1])
+      fireEvent.mouseEnter(getByTestId('rating-2'))
 
       await waitFor(() => {
         expect([styles.toString(), container]).toMatchSnapshot()
         expect(getAllByTestId('icon-filled-action-rating').length).toBe(2)
+        expect(getAllByTestId('icon-outlined-action-rating').length).toBe(3)
       })
 
-      fireEvent.mouseLeave(getAllByTestId('rating-1')[1])
+      fireEvent.mouseLeave(getByTestId('rating-2'))
       expect(getAllByTestId('icon-outlined-action-rating').length).toBe(5)
     })
   })
 
   describe('Read-Only', () => {
+    it('should render five times when variant is Read-Only', () => {
+      const { component: { getAllByTestId } } = renderWithTheme(<Rating {...ratingInputProps} testID="rating-read-only" />)
+
+      expect(getAllByTestId(/rating-read-only/).length).toBe(5)
+    })
+
     it('should render correctly with given props', () => {
       const { styles, component } = renderWithTheme(<Rating {...ratingReadOnlyProps} />)
 
@@ -130,6 +147,18 @@ describe('Rating', () => {
       const { styles, component } = renderWithTheme(<Rating {...ratingReadOnlyProps} rate={3} />)
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
+    })
+
+    it('should NOT fire onclick', () => {
+      const onClickMock = jest.fn()
+      const { component: { getByTestId } } = renderWithTheme(
+        // @ts-ignore
+        <Rating {...ratingReadOnlyProps} testID="rating" onClick={onClickMock} />
+      )
+
+      fireEvent.click(getByTestId('rating-1'))
+
+      expect(onClickMock).not.toHaveBeenCalled()
     })
   })
 })
@@ -170,6 +199,18 @@ describe('RatingBase', () => {
       fireEvent.click(getByTestId('rating'))
 
       expect(onClickMock).toHaveBeenCalledTimes(1)
+    })
+
+    it('should NOT call onClick when is disabled', () => {
+      const onClickMock = jest.fn()
+
+      const { component: { getByTestId } } = renderWithTheme(
+        <RatingBase {...ratingBaseProps} onClick={onClickMock} testID="rating" disabled />
+      )
+
+      fireEvent.click(getByTestId('rating'))
+
+      expect(onClickMock).not.toHaveBeenCalledTimes(1)
     })
 
     it('should call onMouseEnter and onMouseLeave', () => {
