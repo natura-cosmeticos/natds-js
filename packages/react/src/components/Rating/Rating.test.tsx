@@ -2,6 +2,7 @@
 /* eslint-disable max-lines-per-function */
 import React from 'react'
 import { fireEvent, waitFor } from '@testing-library/react'
+import userEvent from '@testing-library/user-event'
 import RatingBase, { getRatingColor, RatingBaseProps } from './RatingBase'
 import mockTheme from '../../ThemeProvider/mock-theme.json'
 import renderWithTheme from '../../helpers/renderWithTheme'
@@ -127,6 +128,19 @@ describe('Rating', () => {
 
       fireEvent.mouseLeave(getByTestId('rating-2'))
       expect(getAllByTestId('icon-outlined-action-rating').length).toBe(5)
+    })
+
+    it('should move focus when press tab button', async () => {
+      const { styles, component: { getByTestId, container } } = renderWithTheme(
+        <Rating {...ratingInputProps} testID="rating" />
+      )
+
+      const rating1 = getByTestId('rating-1')
+      expect(rating1).not.toHaveFocus()
+
+      userEvent.tab()
+      expect(rating1).toHaveFocus()
+      expect([styles.toString(), container]).toMatchSnapshot()
     })
   })
 
