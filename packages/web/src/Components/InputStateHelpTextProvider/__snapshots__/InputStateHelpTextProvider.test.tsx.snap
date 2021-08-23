@@ -2,14 +2,14 @@
 
 exports[`InputStateHelpTextProvider component when help text is set and when state is error 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-3 NatDSFormHelperText-root-4 Mui-error"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-2 NatDSFormHelperText-root-4 Mui-error"
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-cancel NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-5 NatDSIcon-root-6"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-cancel NatDSFormHelperText-icon-3 NatDSIcon-root-5 NatDSIcon-root-6"
     />
     Test help text
   </p>
@@ -18,14 +18,14 @@ exports[`InputStateHelpTextProvider component when help text is set and when sta
 
 exports[`InputStateHelpTextProvider component when help text is set and when state is success 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-3 NatDSFormHelperText-root-7"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-2 NatDSFormHelperText-root-7"
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-check NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-5 NatDSIcon-root-8"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-check NatDSFormHelperText-icon-3 NatDSIcon-root-5 NatDSIcon-root-8"
     />
     Test help text
   </p>
@@ -34,36 +34,36 @@ exports[`InputStateHelpTextProvider component when help text is set and when sta
 
 exports[`InputStateHelpTextProvider component when readonly property is explicitly false and when state is error 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 />
 `;
 
 exports[`InputStateHelpTextProvider component when readonly property is explicitly false and when state is success 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 />
 `;
 
 exports[`InputStateHelpTextProvider component when readonly property is explicitly true and when state is error 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 />
 `;
 
 exports[`InputStateHelpTextProvider component when readonly property is explicitly true and when state is success 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 />
 `;
 
 exports[`InputStateHelpTextProvider component when state is error should match snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 />
 `;
 
 exports[`InputStateHelpTextProvider component when state is success should match snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 />
 `;
