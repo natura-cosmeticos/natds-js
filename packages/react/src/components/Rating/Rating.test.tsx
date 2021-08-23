@@ -130,9 +130,10 @@ describe('Rating', () => {
       expect(getAllByTestId('icon-outlined-action-rating').length).toBe(5)
     })
 
-    it('should move focus when press tab button', async () => {
-      const { styles, component: { getByTestId, container } } = renderWithTheme(
-        <Rating {...ratingInputProps} testID="rating" />
+    it('should move focus when press tab button and call onClick when press space key', async () => {
+      const onClickMock = jest.fn()
+      const { component: { getByTestId } } = renderWithTheme(
+        <Rating {...ratingInputProps} testID="rating" onClick={onClickMock} />
       )
 
       const rating1 = getByTestId('rating-1')
@@ -140,7 +141,9 @@ describe('Rating', () => {
 
       userEvent.tab()
       expect(rating1).toHaveFocus()
-      expect([styles.toString(), container]).toMatchSnapshot()
+
+      userEvent.type(getByTestId('rating-1'), '{space}')
+      expect(onClickMock).toHaveBeenCalledTimes(1)
     })
   })
 
