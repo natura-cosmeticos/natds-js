@@ -63,7 +63,8 @@ Input.args = {
   disabled: false,
   rate: 2,
   size: 'semi',
-  variant: 'input'
+  variant: 'input',
+  ariaLabelGroup: 'rating star group'
 }
 
 Input.parameters = { controls: { exclude: ['align', 'rate'] } }
@@ -74,7 +75,8 @@ ReadOnly.args = {
   ariaLabel: 'rating star',
   rate: 2,
   size: 'semi',
-  variant: 'read-only'
+  variant: 'read-only',
+  ariaLabelGroup: 'rating star group'
 }
 
 export const Counter: Story<RatingCounterProps> = (args: RatingCounterProps) => <Rating {...args} />

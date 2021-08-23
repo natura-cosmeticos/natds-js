@@ -11,6 +11,12 @@ export interface RatingBaseProps {
    * Use to define a text that explains the meaning of EACH Rating.
    */
   ariaLabel: string
+
+  /**
+   * Use to define a text that explains the meaning of group
+   */
+  ariaLabelGroup?: string
+
   /**
    * Optional ID for testing
    * By default, this value will be concatenated to the position of each element.
@@ -44,9 +50,9 @@ export type RatingCounterProps = RatingBaseProps & ({
 
 export type RatingInputProps = RatingBaseProps & ({
   /**
-   * If `true`, the Rating will be disabled
-   * @default false
-   */
+  * If `true`, the Rating will be disabled
+  * @default false
+  */
   disabled?: boolean
 
   /**

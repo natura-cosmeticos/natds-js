@@ -22,6 +22,7 @@ const Rating = (props: RatingProps): JSX.Element => {
     ariaLabel,
     testID,
     size,
+    ariaLabelGroup,
     ...rest
   } = props
 
@@ -39,7 +40,7 @@ const Rating = (props: RatingProps): JSX.Element => {
 
   return (
     <div className={container}>
-      <div className={rating}>
+      <div className={rating} aria-label={ariaLabelGroup}>
         {Array(renderTimes).fill(0).map((_, index) => (
           (isRatingCounter(props) || isRatingReadOnly(props) || isRatingInput(props)) && (
             <RatingBase
