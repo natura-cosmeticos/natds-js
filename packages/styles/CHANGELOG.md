@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.0.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.0.0...@naturacosmeticos/natds-styles@3.0.1) (2021-08-24)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.8.3 ([#1497](https://github.com/natura-cosmeticos/natds/issues/1497)) ([327a40f](https://github.com/natura-cosmeticos/natds/commit/327a40ff8f896a2e785015e2a0ec5c4eddcacdea))
+* **text field:** fix label to not override the input field ([#1500](https://github.com/natura-cosmeticos/natds/issues/1500)) ([52cf869](https://github.com/natura-cosmeticos/natds/commit/52cf869dbe2588e4710f39445cced327730cfea5))
+
+
+
+
+
 # [3.0.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@0.6.16...@naturacosmeticos/natds-styles@3.0.0) (2021-08-03)
 
 

@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.1.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.1.1...@naturacosmeticos/natds-web@4.1.2) (2021-08-24)
+
+
+### Bug Fixes
+
+* **text field:** fix label to not override the input field ([#1500](https://github.com/natura-cosmeticos/natds-js/issues/1500)) ([52cf869](https://github.com/natura-cosmeticos/natds-js/commit/52cf869dbe2588e4710f39445cced327730cfea5))
+
+
+
+
+
 ## [4.1.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.1.0...@naturacosmeticos/natds-web@4.1.1) (2021-08-11)
 
 
