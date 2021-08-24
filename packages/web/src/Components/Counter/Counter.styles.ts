@@ -22,7 +22,6 @@ const style = (theme: IThemeWeb) => createStyles({
     width: `${sizes.semiX}px`,
     '& .MuiInput-root': {
       borderRadius: 0,
-      marginTop: 1,
       padding: 0
     },
     '& .MuiInput-input': {
@@ -32,6 +31,10 @@ const style = (theme: IThemeWeb) => createStyles({
         WebkitAppearance: 'none'
       }
     }
+  },
+  group: {
+    display: 'flex',
+    alignItems: 'center'
   }
 })
 
