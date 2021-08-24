@@ -29,7 +29,7 @@ export const Counter = (props: ICounterProps) => {
     minValue = 0
   } = props
 
-  const { button, input } = useStyles(props)
+  const { button, input, group } = useStyles(props)
 
   const maxReached = value >= maxValue
   const minReached = value <= minValue
@@ -43,6 +43,7 @@ export const Counter = (props: ICounterProps) => {
         size={size}
         orientation="horizontal"
         disabled={readOnly}
+        className={group}
       >
         <Button
           id="decrement-button"

@@ -23,6 +23,7 @@ export const Input = React.forwardRef<unknown, IInputProps>(
         multiline={multiline}
         ref={ref}
         rows={rows}
+        style={{ marginTop: 0 }}
       />
     )
   }

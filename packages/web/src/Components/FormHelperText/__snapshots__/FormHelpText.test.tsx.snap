@@ -2,18 +2,28 @@
 
 exports[`FormHelpText when no state is provided should match snapshot 1`] = `
 <p
-  className="MuiFormHelperText-root NatDSFormHelperText-root-1 NatDSFormHelperText-root-2"
+  className="MuiFormHelperText-root NatDSFormHelperText-root-1 NatDSFormHelperText-root-3"
 />
 `;
 
 exports[`FormHelpText when state is error is provided should match snapshot 1`] = `
 <p
-  className="MuiFormHelperText-root NatDSFormHelperText-root-1 NatDSFormHelperText-root-3"
-/>
+  className="MuiFormHelperText-root NatDSFormHelperText-root-1 NatDSFormHelperText-root-4"
+>
+  <i
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-cancel NatDSFormHelperText-icon-2 NatDSIcon-root-5 NatDSIcon-root-6"
+  />
+</p>
 `;
 
 exports[`FormHelpText when state is success is provided should match snapshot 1`] = `
 <p
-  className="MuiFormHelperText-root NatDSFormHelperText-root-1 NatDSFormHelperText-root-4"
-/>
+  className="MuiFormHelperText-root NatDSFormHelperText-root-1 NatDSFormHelperText-root-7"
+>
+  <i
+    aria-hidden={true}
+    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-check NatDSFormHelperText-icon-2 NatDSIcon-root-5 NatDSIcon-root-8"
+  />
+</p>
 `;

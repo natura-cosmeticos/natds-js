@@ -458,6 +458,7 @@ export const naturaDark: ITheme = {
     },
     MuiInputLabel: {
       formControl: {
+        position: 'relative',
         transform: 'none',
         marginTop: '-4px'
       },

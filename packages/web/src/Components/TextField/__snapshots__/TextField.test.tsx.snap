@@ -2,10 +2,10 @@
 
 exports[`TextField component rendering state should match snapshot - TextField (custom icon with action): TextField custom icon with action snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-30 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-30 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -15,6 +15,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -64,7 +69,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </button>
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-32"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-32"
   >
     Assistive text
   </p>
@@ -73,10 +78,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (custom icon): TextField custom icon snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-26 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-26 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -86,6 +91,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl MuiInputBase-adornedEnd"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -134,7 +144,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     </button>
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-29"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-29"
   >
     Assistive text
   </p>
@@ -143,10 +153,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (default with empty theme): TextField default with empty theme snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-39 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-39 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -156,6 +166,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -172,7 +187,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-40"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-40"
   >
     Assistive text
   </p>
@@ -181,10 +196,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (default without placeholder): TextField default without placeholder snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-10 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-10 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -194,6 +209,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -210,7 +230,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-11"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-11"
   >
     Assistive text
   </p>
@@ -219,10 +239,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (default): TextField default snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-4 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-3 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -232,6 +252,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -248,7 +273,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-6"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-6"
   >
     Assistive text
   </p>
@@ -257,10 +282,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (disabled): TextField disabled snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-24 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink Mui-disabled Mui-disabled"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-24 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink Mui-disabled Mui-disabled"
     data-shrink={true}
     htmlFor="field"
   >
@@ -270,6 +295,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root Mui-disabled Mui-disabled MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -286,7 +316,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-25 Mui-disabled"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-25 Mui-disabled"
   >
     Assistive text
   </p>
@@ -295,10 +325,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (error): TextField error snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-18 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink Mui-error Mui-error"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-18 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink Mui-error Mui-error"
     data-shrink={true}
     htmlFor="field"
   >
@@ -309,6 +339,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     data-state="error"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -325,11 +360,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-19 Mui-error"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-19 Mui-error"
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-cancel NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-16 NatDSIcon-root-20"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-cancel NatDSFormHelperText-icon-5 NatDSIcon-root-16 NatDSIcon-root-20"
     />
     Assistive text
   </p>
@@ -338,10 +373,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (filled): TextField filled snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-12 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-12 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -351,6 +386,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -368,7 +408,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-13"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-13"
   >
     Assistive text
   </p>
@@ -377,10 +417,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (mask): TextField mask snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-33 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-33 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -390,6 +430,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -426,7 +471,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-34"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-34"
   >
     Assistive text
   </p>
@@ -435,10 +480,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (property forwarded): TextField property forwarded snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-37 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-37 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -448,6 +493,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -464,7 +514,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-38"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-38"
   >
     Assistive text
   </p>
@@ -473,10 +523,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (readonly explicitly set to false): TextField readonly explicitly set to false snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-8 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-8 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -486,6 +536,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -503,7 +558,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-9"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-9"
   >
     Assistive text
   </p>
@@ -512,10 +567,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (readonly explicitly set to true): TextField readonly explicitly set to true snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-7 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-7 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -525,6 +580,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -546,12 +606,17 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (required without label): TextField required without label snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <div
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={true}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -568,7 +633,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-23"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-23"
   >
     Assistive text
   </p>
@@ -577,10 +642,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (required): TextField required snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-21 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-21 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -590,6 +655,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={true}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -606,7 +676,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-22"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-22"
   >
     Assistive text
   </p>
@@ -615,10 +685,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (success): TextField success snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-14 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-14 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -629,6 +699,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     data-state="success"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -645,11 +720,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-15"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-15"
   >
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-check NatDSInputStateHelpTextProvider-icon-1 NatDSIcon-root-16 NatDSIcon-root-17"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-alert-check NatDSFormHelperText-icon-5 NatDSIcon-root-16 NatDSIcon-root-17"
     />
     Assistive text
   </p>
@@ -658,10 +733,10 @@ exports[`TextField component rendering state should match snapshot - TextField (
 
 exports[`TextField component rendering state should match snapshot - TextField (theme change): TextField theme change snapshot 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-3 NatDSInputLabel-root-35 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-2 NatDSInputLabel-root-35 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
     htmlFor="field"
   >
@@ -671,6 +746,11 @@ exports[`TextField component rendering state should match snapshot - TextField (
     className="MuiInputBase-root MuiInput-root MuiInputBase-formControl MuiInput-formControl"
     onClick={[Function]}
     required={false}
+    style={
+      Object {
+        "marginTop": 0,
+      }
+    }
   >
     <input
       aria-invalid={false}
@@ -687,7 +767,7 @@ exports[`TextField component rendering state should match snapshot - TextField (
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-5 NatDSFormHelperText-root-36"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-4 NatDSFormHelperText-root-36"
   >
     Assistive text
   </p>

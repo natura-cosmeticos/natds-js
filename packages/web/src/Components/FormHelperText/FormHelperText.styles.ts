@@ -3,7 +3,7 @@ import makeStyles from '@material-ui/core/styles/makeStyles'
 import { IThemeWeb } from '../../Themes'
 import { IFormHelperTextProps } from './FormHelperText.props'
 
-const style = createStyles(({ palette, sizes, typography }: IThemeWeb) => ({
+const style = ({ typography, palette, sizes }: IThemeWeb) => createStyles({
   root: {
     ...typography.caption,
     alignItems: 'center',
@@ -20,8 +20,13 @@ const style = createStyles(({ palette, sizes, typography }: IThemeWeb) => ({
     display: 'flex',
     lineHeight: '1.2em',
     padding: `${sizes?.micro}px ${sizes?.none} ${sizes?.none}`
+  },
+  icon: {
+    height: sizes?.small,
+    marginRight: sizes?.micro,
+    width: sizes?.small
   }
-}))
+})
 
 export const useStyles = makeStyles(style, { name: 'NatDSFormHelperText' })
 

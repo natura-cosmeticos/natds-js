@@ -2,7 +2,7 @@
 
 exports[`Select component should render as disabled 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <div
     className="MuiInputBase-root MuiInput-root MuiInput-underline Mui-disabled Mui-disabled MuiInputBase-formControl MuiInput-formControl"
@@ -46,7 +46,7 @@ exports[`Select component should render as disabled 1`] = `
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon Mui-disabled NatDSIcon-root-3 NatDSIcon-root-5"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon Mui-disabled NatDSIcon-root-2 NatDSIcon-root-4"
     />
   </div>
 </div>
@@ -54,7 +54,7 @@ exports[`Select component should render as disabled 1`] = `
 
 exports[`Select component should render as required 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <div
     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -98,7 +98,7 @@ exports[`Select component should render as required 1`] = `
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-12"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-2 NatDSIcon-root-12"
     />
   </div>
 </div>
@@ -106,7 +106,7 @@ exports[`Select component should render as required 1`] = `
 
 exports[`Select component should render correctly 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <div
     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -149,7 +149,7 @@ exports[`Select component should render correctly 1`] = `
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-4"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-2 NatDSIcon-root-3"
     />
   </div>
 </div>
@@ -157,7 +157,7 @@ exports[`Select component should render correctly 1`] = `
 
 exports[`Select component should render with helper text 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <div
     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -201,11 +201,11 @@ exports[`Select component should render with helper text 1`] = `
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-6"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-2 NatDSIcon-root-5"
     />
   </div>
   <p
-    className="MuiFormHelperText-root NatDSFormHelperText-root-7 NatDSFormHelperText-root-8"
+    className="MuiFormHelperText-root NatDSFormHelperText-root-6 NatDSFormHelperText-root-8"
   >
     Helper Text
   </p>
@@ -214,7 +214,7 @@ exports[`Select component should render with helper text 1`] = `
 
 exports[`Select component should render with label 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <label
     className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-9 NatDSInputLabel-root-10 MuiInputLabel-formControl MuiInputLabel-animated MuiInputLabel-shrink"
@@ -263,7 +263,7 @@ exports[`Select component should render with label 1`] = `
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-11"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-2 NatDSIcon-root-11"
     />
   </div>
 </div>
@@ -271,7 +271,7 @@ exports[`Select component should render with label 1`] = `
 
 exports[`Select component should render with state error 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <div
     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -316,7 +316,7 @@ exports[`Select component should render with state error 1`] = `
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-14"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-2 NatDSIcon-root-14"
     />
   </div>
 </div>
@@ -324,7 +324,7 @@ exports[`Select component should render with state error 1`] = `
 
 exports[`Select component should render with state success 1`] = `
 <div
-  className="MuiFormControl-root NatDSFormControl-root-2"
+  className="MuiFormControl-root NatDSFormControl-root-1"
 >
   <div
     className="MuiInputBase-root MuiInput-root MuiInput-underline MuiInputBase-formControl MuiInput-formControl"
@@ -369,7 +369,7 @@ exports[`Select component should render with state success 1`] = `
     />
     <i
       aria-hidden={true}
-      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-3 NatDSIcon-root-13"
+      className="material-icons MuiIcon-root natds-icons natds-icons-outlined-navigation-arrowbottom MuiSelect-icon NatDSIcon-root-2 NatDSIcon-root-13"
     />
   </div>
 </div>

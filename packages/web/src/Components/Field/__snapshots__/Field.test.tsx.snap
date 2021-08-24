@@ -5,6 +5,11 @@ exports[`Field component should match snapshot 1`] = `
   className="MuiInputBase-root MuiInput-root"
   onClick={[Function]}
   required={false}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -26,6 +31,11 @@ exports[`Field component should render input for password types 1`] = `
   className="MuiInputBase-root MuiInput-root MuiInputBase-adornedEnd"
   onClick={[Function]}
   required={false}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd"
@@ -58,6 +68,11 @@ exports[`Field component should render input for search type 1`] = `
   className="MuiInputBase-root MuiInput-root MuiInputBase-adornedEnd"
   onClick={[Function]}
   required={false}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch"
@@ -89,6 +104,11 @@ exports[`Field component should render input for search types and onChange 1`] =
   className="MuiInputBase-root MuiInput-root MuiInputBase-adornedEnd"
   onClick={[Function]}
   required={false}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input MuiInputBase-inputAdornedEnd MuiInputBase-inputTypeSearch MuiInput-inputTypeSearch"
@@ -121,6 +141,11 @@ exports[`Field component should render input with maxLength attribute equal 3 1`
   className="MuiInputBase-root MuiInput-root"
   onClick={[Function]}
   required={false}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -143,6 +168,11 @@ exports[`Field component should render single line input 1`] = `
   className="MuiInputBase-root MuiInput-root"
   onClick={[Function]}
   required={false}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -164,6 +194,11 @@ exports[`Field component should render single line masked input 1`] = `
   className="MuiInputBase-root MuiInput-root"
   onClick={[Function]}
   required={false}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"

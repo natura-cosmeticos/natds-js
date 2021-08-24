@@ -461,6 +461,7 @@ export const aesopLight: ITheme = {
     },
     MuiInputLabel: {
       formControl: {
+        position: 'relative',
         transform: 'none',
         marginTop: '-4px'
       },

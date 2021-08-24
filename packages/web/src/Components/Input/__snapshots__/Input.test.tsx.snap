@@ -4,6 +4,11 @@ exports[`Input component when hasIcon property is false should match snapshot 1`
 <div
   className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -20,6 +25,11 @@ exports[`Input component when hasIcon property is true should match snapshot 1`]
 <div
   className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -36,6 +46,11 @@ exports[`Input component when multiline property is explicitly false should matc
 <div
   className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -52,6 +67,11 @@ exports[`Input component when no props are provided should match snapshot 1`] = 
 <div
   className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -68,6 +88,11 @@ exports[`Input component when rows property is set and multiline property is exp
 <div
   className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -85,6 +110,11 @@ exports[`Input component when rows property is set should match snapshot 1`] = `
 <div
   className="MuiInputBase-root MuiInput-root MuiInput-underline"
   onClick={[Function]}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -103,6 +133,11 @@ exports[`Input component when state is error should match snapshot 1`] = `
   className="MuiInputBase-root MuiInput-root MuiInput-underline"
   data-state="error"
   onClick={[Function]}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
@@ -120,6 +155,11 @@ exports[`Input component when state is success should match snapshot 1`] = `
   className="MuiInputBase-root MuiInput-root MuiInput-underline"
   data-state="success"
   onClick={[Function]}
+  style={
+    Object {
+      "marginTop": 0,
+    }
+  }
 >
   <input
     className="MuiInputBase-input MuiInput-input"
