@@ -7,8 +7,9 @@ type IconStyleProps = Required<Pick<IconProps, 'size' | 'color' >>
 const styles = createUseStyles((theme: Theme) => ({
   icon: {
     color: ({ color }: IconStyleProps) => theme.color[color],
-    fontSize: ({ size }: IconStyleProps) => theme.size[size],
     fontFamily: 'natds-icons',
+    fontSize: ({ size }: IconStyleProps) => theme.size[size],
+    pointerEvents: 'none',
     userSelect: 'none'
   }
 }))

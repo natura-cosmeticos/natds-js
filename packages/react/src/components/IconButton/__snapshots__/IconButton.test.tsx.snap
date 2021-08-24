@@ -2,50 +2,16 @@
 
 exports[`Icon Button component should render correctly when is disabled 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: transparent;
-  height: 32px;
-  width: 32px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #777777;
   font-size: 24px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -55,12 +21,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -71,7 +37,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -81,20 +47,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -107,18 +73,16 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
-    background-color: #000000;
-  }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:focus:after {  }
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -126,35 +90,78 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: transparent;
+    width: 32px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         disabled=""
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -166,51 +173,16 @@ Array [
 
 exports[`Icon Button component should render correctly when the backgroundStyle is float 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: #ffffff;
-  box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
-  height: 32px;
-  width: 32px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #333333;
   font-size: 24px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -220,12 +192,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -236,7 +208,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -246,20 +218,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -272,18 +244,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -291,34 +263,78 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: #ffffff;
+    box-shadow: 0 4px 5px 0 rgba(0, 0, 0, 0.14);
+    width: 32px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -330,50 +346,16 @@ Array [
 
 exports[`Icon Button component should render correctly when the backgroundStyle is float and is disabled 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: #bbbbbb;
-  height: 32px;
-  width: 32px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #777777;
   font-size: 24px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -383,12 +365,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -399,7 +381,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -409,20 +391,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -435,18 +417,16 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
-    background-color: #000000;
-  }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:focus:after {  }
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -454,35 +434,78 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: #bbbbbb;
+    width: 32px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         disabled=""
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -494,51 +517,16 @@ Array [
 
 exports[`Icon Button component should render correctly when the backgroundStyle is overlay 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: #000000;
-  height: 32px;
-  opacity: 0.56;
-  width: 32px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #333333;
   font-size: 24px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -548,12 +536,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -564,7 +552,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -574,20 +562,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -600,18 +588,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -619,34 +607,78 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: #000000;
+    opacity: 0.56;
+    width: 32px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -658,51 +690,16 @@ Array [
 
 exports[`Icon Button component should render correctly when the backgroundStyle is overlay and is disabled 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: #000000;
-  height: 32px;
-  opacity: 0.56;
-  width: 32px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #bbbbbb;
   font-size: 24px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -712,12 +709,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -728,7 +725,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -738,20 +735,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -764,18 +761,16 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
-    background-color: #000000;
-  }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:focus:after {  }
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -783,35 +778,79 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: #000000;
+    opacity: 0.56;
+    width: 32px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         disabled=""
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -823,50 +862,16 @@ Array [
 
 exports[`Icon Button component should render correctly when the color is primary 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: transparent;
-  height: 32px;
-  width: 32px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #f4ab34;
   font-size: 24px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -876,12 +881,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -892,7 +897,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -902,20 +907,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -928,18 +933,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -947,34 +952,77 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: transparent;
+    width: 32px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -986,50 +1034,16 @@ Array [
 
 exports[`Icon Button component should render correctly when the color is surface 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: transparent;
-  height: 32px;
-  width: 32px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #ffffff;
   font-size: 24px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1039,12 +1053,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1055,7 +1069,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1065,20 +1079,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1091,18 +1105,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1110,34 +1124,77 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: transparent;
+    width: 32px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -1149,50 +1206,16 @@ Array [
 
 exports[`Icon Button component should render correctly when the size is medium 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: transparent;
-  height: 48px;
-  width: 48px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #333333;
   font-size: 40px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1202,12 +1225,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1218,7 +1241,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1228,20 +1251,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1254,18 +1277,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1273,34 +1296,77 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 48px;
+    width: 48px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: transparent;
+    width: 48px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -1312,50 +1378,16 @@ Array [
 
 exports[`Icon Button component should render correctly when the size is semiX 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: transparent;
-  height: 40px;
-  width: 40px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #333333;
   font-size: 32px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1365,12 +1397,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1381,7 +1413,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1391,20 +1423,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1417,18 +1449,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1436,34 +1468,77 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 40px;
+    width: 40px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: transparent;
+    width: 40px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />
@@ -1475,50 +1550,16 @@ Array [
 
 exports[`Icon Button component should render correctly with default props 1`] = `
 Array [
-  ".iconButtonContainer-0-2-1 {
-  border: none;
-  cursor: pointer;
-  display: inline-flex;
-  outline: none;
-  overflow: hidden;
-  position: relative;
-  align-items: center;
-  border-radius: 50%;
-  justify-content: center;
-}
-.iconButtonContainer-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.iconButtonContainer-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.iconButtonContainer-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
-.iconButtonContainer-0-2-1:disabled {
-  cursor: default;
-}
-.iconButtonContainer-d0-0-2-2 {
-  background-color: transparent;
-  height: 32px;
-  width: 32px;
-}
-.icon-0-2-13 {
+  ".icon-0-2-15 {
   font-family: natds-icons;
   user-select: none;
+  pointer-events: none;
 }
-.icon-d0-0-2-14 {
+.icon-d0-0-2-16 {
   color: #333333;
   font-size: 24px;
 }
-.sharedRippleEffect-0-2-3 {
+.sharedRippleEffect-0-2-5 {
   top: 0;
   left: 0;
   width: 100%;
@@ -1528,12 +1569,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4 {
+.wrapper-0-2-6 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-4:focus:after {
+.wrapper-0-2-6:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1544,7 +1585,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-4:hover:after {
+.wrapper-0-2-6:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -1554,20 +1595,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-5 {
+.ripple-0-2-7 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-6 {
+.rippleContainer-0-2-8 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-7 {
+.rippleActive-0-2-9 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-8 {
+@keyframes keyframes-ripple-0-2-10 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -1580,18 +1621,18 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-9 {
+  .wrapper-d0-0-2-11 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d0-0-2-9:focus:after {
+  .wrapper-d0-0-2-11:focus:after {
     background-color: #000000;
   }
-  .wrapper-d0-0-2-9:hover:after {
+  .wrapper-d0-0-2-11:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-10 {
+  .ripple-d1-0-2-12 {
     background-color: #000000;
     height: 0;
     left: 50%;
@@ -1599,34 +1640,77 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-11 {
+  .rippleContainer-d2-0-2-13 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-12 {
-    animation: keyframes-ripple-0-2-8 300ms;
+  .rippleActive-d3-0-2-14 {
+    animation: keyframes-ripple-0-2-10 300ms;
+  }
+  .base-0-2-3 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-3:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-4 {
+    height: 32px;
+    width: 32px;
+  }
+  .iconButtonContainer-0-2-1 {
+    overflow: hidden;
+    position: relative;
+    border-radius: 50%;
+  }
+  .iconButtonContainer-0-2-1:after {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    content: \\" \\";
+    opacity: 0;
+    position: absolute;
+    background-color: #000000;
+  }
+  .iconButtonContainer-0-2-1:hover:not([disabled]):after {
+    opacity: 0.04;
+  }
+  .iconButtonContainer-0-2-1:focus:not([disabled]):after {
+    opacity: 0.12;
+  }
+  .iconButtonContainer-0-2-1:disabled {
+    cursor: default;
+  }
+  .iconButtonContainer-d0-0-2-2 {
+    background-color: transparent;
+    width: 32px;
   }",
   <div>
     <div
-      class="wrapper-0-2-4 wrapper-d0-0-2-9"
+      class="wrapper-0-2-6 wrapper-d0-0-2-11"
       data-testid="ripple-wrapper"
       tabindex="-1"
     >
       <div
-        class="rippleContainer-0-2-6 rippleContainer-d2-0-2-11"
+        class="rippleContainer-0-2-8 rippleContainer-d2-0-2-13"
       >
         <div
-          class="ripple-0-2-5 ripple-d1-0-2-10 "
+          class="ripple-0-2-7 ripple-d1-0-2-12 "
           data-testid="ripple-animation"
         />
       </div>
       <button
-        class="iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
+        aria-label=""
+        class="base-0-2-3 base-d0-0-2-4 iconButtonContainer-0-2-1 iconButtonContainer-d0-0-2-2"
         type="button"
       >
         <i
-          aria-hidden="false"
-          arial-label=""
-          class="icon-0-2-13 icon-d0-0-2-14 natds-icons natds-icons-outlined-default-mockup"
+          aria-hidden="true"
+          class="icon-0-2-15 icon-d0-0-2-16 natds-icons natds-icons-outlined-default-mockup"
           data-testid="icon-outlined-default-mockup"
           role="button"
         />

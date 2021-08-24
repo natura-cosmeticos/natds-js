@@ -1,0 +1,81 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Label should render correctly 1`] = `
+Array [
+  ".label-0-2-1 {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.22px;
+}
+.label-d0-0-2-2 {
+  font-size: 14px;
+  color: #333333;
+}",
+  <div>
+    <label
+      class="label-0-2-1 label-d0-0-2-2"
+    >
+      some text
+    </label>
+  </div>,
+]
+`;
+
+exports[`Label should render correctly when is disabled 1`] = `
+Array [
+  ".label-0-2-1 {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.22px;
+}
+.label-d0-0-2-2 {
+  font-size: 14px;
+  color: #bbbbbb;
+}",
+  <div>
+    <label
+      class="label-0-2-1 label-d0-0-2-2"
+    >
+      some text
+    </label>
+  </div>,
+]
+`;
+
+exports[`Label should render correctly with the given color 1`] = `
+Array [
+  ".label-0-2-1 {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.22px;
+}
+.label-d0-0-2-2 {
+  font-size: 14px;
+  color: #777777;
+}",
+  <div>
+    <label
+      class="label-0-2-1 label-d0-0-2-2"
+    >
+      some text
+    </label>
+  </div>,
+]
+`;
+
+exports[`Label should render correctly with the given fontSize 1`] = `
+Array [
+  ".label-0-2-1 {
+  font-family: Roboto, sans-serif;
+  letter-spacing: 0.22px;
+}
+.label-d0-0-2-2 {
+  font-size: 18px;
+  color: #333333;
+}",
+  <div>
+    <label
+      class="label-0-2-1 label-d0-0-2-2"
+    >
+      some text
+    </label>
+  </div>,
+]
+`;
