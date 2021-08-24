@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.1.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.0.1...@naturacosmeticos/natds-styles@3.1.0) (2021-08-24)
+
+
+### Features
+
+* **rating:** add new component ([#1494](https://github.com/natura-cosmeticos/natds/issues/1494)) ([174b12a](https://github.com/natura-cosmeticos/natds/commit/174b12a002064f73f883bef548b5d42deea24a4a))
+
+
+
+
+
 ## [3.0.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.0.0...@naturacosmeticos/natds-styles@3.0.1) (2021-08-24)
 
 
