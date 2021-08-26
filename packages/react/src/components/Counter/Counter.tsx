@@ -1,63 +1,45 @@
-import React from 'react'
-import { CounterProps } from './Counter.props'
+import React from "react";
+import { CounterProps } from "./Counter.props";
+import Label from "../_subcomponents/Label";
+import styles from "./Counter.styles";
 
-const Counter = (props: CounterProps) => {
-  const {
-    value = 0,
-    onChange,
-    onDecrement,
-    onIncrement,
-    size = 'small',
-    label,
-    readOnly = false,
-    maxValue = 99,
-    minValue = 0
-  } = props
-
-  const { button, input, group } = useStyles(props)
-
-  const maxReached = value >= maxValue
-  const minReached = value <= minValue
+const Counter = ({
+  value = 0,
+  onChange,
+  onDecrement,
+  onIncrement,
+  size = "semi",
+  label,
+  maxValue = 99,
+  minValue = 0,
+}: CounterProps) => {
+  const maxReached = value >= maxValue;
+  const minReached = value <= minValue;
+  const { buttonBase, inputBase } = styles({ size });
 
   return (
     <div>
-      { label && <InputLabel>{label}</InputLabel>}
-      <ButtonGroup
-        color="default"
-        disableElevation
-        size={size}
-        orientation="horizontal"
-        disabled={readOnly}
-        className={group}
-      >
-        <Button
-          id="decrement-button"
-          disabled={minReached}
-          variant="outlined"
-          onClick={onDecrement}
-          className={button}
-        >
+      {label && <Label color={"mediumEmphasis"} label={label} />}
+      <div className="container">
+        <button id="decrement-button" disabled={minReached} onClick={onDecrement} className={buttonBase}>
           -
-        </Button>
-        <InputCounter
+        </button>
+        <input
           value={value}
-          className={input}
+          className={inputBase}
           onChange={onChange}
         />
-        <Button
+        <button
           id="increment-button"
           disabled={maxReached}
-          variant="outlined"
           onClick={onIncrement}
-          className={button}
+          className={buttonBase}
         >
           +
-        </Button>
-      </ButtonGroup>
+        </button>
+      </div>
     </div>
-  )
-}
+  );
+};
 
-Counter.displayName = 'Counter'
-
-export default Counter
+export default Counter;

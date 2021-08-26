@@ -28,4 +28,18 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<CounterProps> = (args) => <Counter {...args} />
+
+export const Playground: Story<CounterProps> = (args) => { 
+  const [value, setValue] = React.useState(args.value)
+
+  const handleIncrement = () => setValue(value + 1)
+  const handleDecrement = () => setValue(value - 1)
+
+  return (
+    <div>
+      <Counter {...args} onIncrement={handleIncrement} onDecrement={handleDecrement} value={value} />
+    </div>
+  )
+}
+
+Playground.args = {value : 0, label: "label" }

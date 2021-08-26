@@ -1,5 +1,4 @@
 import { Size } from '@naturacosmeticos/natds-themes'
-import { ButtonBaseProps, ButtonWithIcon } from 'components/Button/Button.props'
 
 type CounterSizes = keyof Pick<Size, 'semi' | 'medium' >
 
@@ -9,7 +8,7 @@ export interface CounterProps {
 
   size?: CounterSizes
 
-  label?: String
+  label?: string
 
   readOnly?: boolean
 
@@ -21,10 +20,8 @@ export interface CounterProps {
 
   onDecrement: () => void,
  
-  value?: number
+  value: number
+
+  onChange: React.ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement>
 
 }
-
-export type ButtonProps = ButtonBaseProps
-& { showIcon?: never, iconPosition?: never }
-| ButtonWithIcon
