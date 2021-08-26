@@ -41,6 +41,11 @@ export interface ButtonBaseProps {
   text: string;
 
   /**
+   * The value of Button.
+   */
+  value?: string;
+
+  /**
    * The variant to use.
    * @default contained
    */
