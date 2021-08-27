@@ -1,27 +1,17 @@
 import { Size } from '@naturacosmeticos/natds-themes'
 
-type CounterSizes = keyof Pick<Size, 'semi' | 'medium' >
+type CounterSizes = keyof Pick<Size, 'semiX' | 'medium' >
 
 export interface CounterProps {
-  
   disabled?: boolean
-
-  size?: CounterSizes
-
   label?: string
-
-  readOnly?: boolean
-
   maxValue?: number
-
   minValue?: number
-
-  onIncrement: () => void
-
+  onChange: React.ChangeEventHandler<HTMLInputElement>
   onDecrement: () => void,
- 
+  onIncrement: () => void
+  readOnly?: boolean
+  size?: CounterSizes
+  testID?: string
   value: number
-
-  onChange: React.ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement>
-
 }

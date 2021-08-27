@@ -28,18 +28,22 @@ export default {
   }
 } as Meta
 
+export const Playground: Story<CounterProps> = ({ value, ...args }) => {
+  const [amount, setAmount] = React.useState(value)
 
-export const Playground: Story<CounterProps> = (args) => { 
-  const [value, setValue] = React.useState(args.value)
-
-  const handleIncrement = () => setValue(value + 1)
-  const handleDecrement = () => setValue(value - 1)
+  const handleIncrement = () => setAmount(amount + 1)
+  const handleDecrement = () => setAmount(amount - 1)
 
   return (
     <div>
-      <Counter {...args} onIncrement={handleIncrement} onDecrement={handleDecrement} value={value} />
+      <Counter
+        {...args}
+        onIncrement={handleIncrement}
+        onDecrement={handleDecrement}
+        value={amount}
+      />
     </div>
   )
 }
 
-Playground.args = {value : 0, label: "label" }
+Playground.args = { value: 0, label: 'label' }
