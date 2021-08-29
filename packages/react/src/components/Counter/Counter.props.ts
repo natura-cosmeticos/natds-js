@@ -10,8 +10,7 @@ export interface CounterProps {
   onChange: React.ChangeEventHandler<HTMLInputElement>
   onDecrement: () => void,
   onIncrement: () => void
-  readOnly?: boolean
   size?: CounterSizes
   testID?: string
-  value: number
+  value: number,
 }

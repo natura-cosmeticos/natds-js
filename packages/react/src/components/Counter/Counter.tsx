@@ -3,55 +3,49 @@ import React from 'react'
 import { CounterProps } from './Counter.props'
 import Label from '../_subcomponents/Label'
 import styles from './Counter.styles'
-import ButtonBase from '../Button/ButtonBase'
+import Button from '../Button'
 
 const Counter = ({
-  value = 0,
+  disabled,
+  label,
+  maxValue = 99,
+  minValue = 0,
   onChange,
   onDecrement,
   onIncrement,
   size = 'semiX',
-  label,
-  maxValue = 99,
-  minValue = 0,
   testID,
-  disabled
+  value = 0,
 }: CounterProps) => {
-  const {
-    buttonLeft, buttonRight, buttonGroup, container
-  } = styles({ size, disabled })
+  const { buttonGroup, inputBase } = styles({ size, disabled })
 
   const maxReached = value >= maxValue
   const minReached = value <= minValue
 
   return (
-    <div className={container}>
+    <div data-testid={testID}>
       {label && <Label color="mediumEmphasis" label={label} />}
       <div className={buttonGroup}>
-        <ButtonBase
-          classes={buttonLeft}
-          disabled={minReached}
+        <Button
+          variant="text"
+          text="-"
           onClick={onDecrement}
+          disabled={disabled || minReached}
           size={size}
-          testID={testID}
-          value="-"
-        >
-          -
-        </ButtonBase>
+        />
         <input
           value={value}
           onChange={onChange}
+          className={inputBase}
+          readOnly
         />
-        <ButtonBase
-          classes={buttonRight}
-          disabled={maxReached}
+        <Button
+          variant="text"
+          text="+"
           onClick={onIncrement}
+          disabled={disabled || maxReached}
           size={size}
-          testID={testID}
-          value="+"
-        >
-          +
-        </ButtonBase>
+        />
       </div>
     </div>
   )
