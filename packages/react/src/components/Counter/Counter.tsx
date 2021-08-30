@@ -15,7 +15,7 @@ const Counter = ({
   onIncrement,
   size = 'semiX',
   testID,
-  value = 0,
+  value = 0
 }: CounterProps) => {
   const { buttonGroup, inputBase } = styles({ size, disabled })
 

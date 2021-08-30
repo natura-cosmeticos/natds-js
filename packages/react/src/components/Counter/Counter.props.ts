@@ -8,9 +8,9 @@ export interface CounterProps {
   maxValue?: number
   minValue?: number
   onChange: React.ChangeEventHandler<HTMLInputElement>
-  onDecrement: () => void,
+  onDecrement: () => void
   onIncrement: () => void
   size?: CounterSizes
   testID?: string
-  value: number,
+  value: number
 }
