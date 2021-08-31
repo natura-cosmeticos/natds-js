@@ -27,6 +27,7 @@ const Counter = ({
       {label && <Label color="mediumEmphasis" label={label} />}
       <div className={buttonGroup}>
         <Button
+          testID="onDecrement-btn"
           variant="text"
           text="-"
           onClick={onDecrement}
@@ -40,6 +41,7 @@ const Counter = ({
           readOnly
         />
         <Button
+          testID="onIncrement-btn"
           variant="text"
           text="+"
           onClick={onIncrement}

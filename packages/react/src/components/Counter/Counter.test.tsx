@@ -1,24 +1,45 @@
-import * as React from 'react'
-import { ReactTestRenderer, create } from 'react-test-renderer'
+import React from 'react'
+import { fireEvent } from '@testing-library/react'
 import { CounterProps } from './Counter.props'
 import Counter from './Counter'
+import renderWithTheme from '../../helpers/renderWithTheme'
 
 const defaultProps: CounterProps = {
-  onChange: () => jest.fn(),
-  onIncrement: () => jest.fn(),
-  onDecrement: () => jest.fn(),
-  value: Number()
+  onChange: () => '',
+  onIncrement: () => '',
+  onDecrement: () => '',
+  value: 0
 }
 
-describe('Counter component React', () => {
-  it('renders correctly', () => {
-    const testRenderer: ReactTestRenderer = create(<Counter {...defaultProps} />)
+describe('Counter', () => {
+  it('should render correctly with default props', () => {
+    const { styles, component } = renderWithTheme(<Counter {...defaultProps} />)
 
-    expect(testRenderer).toMatchSnapshot('Counter component renders correctly')
+    expect([styles.toString(), component.container]).toMatchSnapshot()
   })
-  it('renders correctly with label', () => {
-    const testRenderer: ReactTestRenderer = create(<Counter {...defaultProps} label="label" />)
+  it('should render correctly with label', () => {
+    const { styles, component } = renderWithTheme(<Counter {...defaultProps} label="label" />)
 
-    expect(testRenderer).toMatchSnapshot('Counter component renders correctly')
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should call onIncrement when is not disabled', () => {
+    const onIncrementMock = jest.fn()
+    const { component } = renderWithTheme(
+      <Counter {...defaultProps} onIncrement={onIncrementMock} />
+    )
+    fireEvent.click(component.getByTestId('onIncrement-btn'))
+
+    expect(onIncrementMock).toHaveBeenCalledTimes(1)
+  })
+
+  it('should call onDecrement when is not disabled', () => {
+    const onDecrementMock = jest.fn()
+    const { component } = renderWithTheme(
+      <Counter {...defaultProps} onDecrement={onDecrementMock} value={1} />
+    )
+    fireEvent.click(component.getByTestId('onDecrement-btn'))
+
+    expect(onDecrementMock).toHaveBeenCalledTimes(1)
   })
 })
