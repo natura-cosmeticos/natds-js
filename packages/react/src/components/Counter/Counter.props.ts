@@ -8,17 +8,12 @@ export interface CounterProps {
    * If `true` disable component actions.
    *
    * @default false
-   * @optional
-   * @type boolean
    */
   disabled?: boolean
 
   /**
-   * Insert a label above Counter input group. This attribute is optional.
+   * Insert a label above Counter input group.
    *
-   * @default null
-   * @optional
-   * @type string
    */
   label?: string
 
@@ -26,8 +21,6 @@ export interface CounterProps {
    * The maximum valid value for the component
    *
    * @default 99
-   * @optional
-   * @type number
    */
   maxValue?: number
 
@@ -35,26 +28,16 @@ export interface CounterProps {
    * The minimum valid value for the component
    *
    * @default 0
-   * @optional
-   * @type number
    */
   minValue?: number
 
   /**
-   * Execute a callback when user change the input manually.
-   * @type Function
-   */
-  onChange: React.ChangeEventHandler<HTMLInputElement>
-
-  /**
    * Execute a callback when decrement button is pressed.
-   * @type Function
    */
   onDecrement: () => void
 
   /**
    * Execute a callback when increment button is pressed.
-   * @type Function
    */
   onIncrement: () => void
 
@@ -62,8 +45,6 @@ export interface CounterProps {
    * Select Counter component height
    *
    * @default "semiX"
-   * @optional
-   * @type string
    */
   size?: CounterSizes
 
@@ -76,5 +57,5 @@ export interface CounterProps {
    * The value of input
    * @default 0
    */
-  value: number
+  value?: number
 }

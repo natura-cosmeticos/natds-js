@@ -10,7 +10,6 @@ const Counter = ({
   label,
   maxValue = 99,
   minValue = 0,
-  onChange,
   onDecrement,
   onIncrement,
   size = 'semiX',
@@ -36,7 +35,6 @@ const Counter = ({
         />
         <input
           value={value}
-          onChange={onChange}
           className={inputBase}
           readOnly
         />
