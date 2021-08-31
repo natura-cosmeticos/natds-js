@@ -1,3 +1,4 @@
+/* eslint-disable max-lines-per-function */
 import React from 'react'
 import { fireEvent } from '@testing-library/react'
 import { CounterProps } from './Counter.props'
@@ -5,10 +6,8 @@ import Counter from './Counter'
 import renderWithTheme from '../../helpers/renderWithTheme'
 
 const defaultProps: CounterProps = {
-  onChange: () => '',
   onIncrement: () => '',
-  onDecrement: () => '',
-  value: 0
+  onDecrement: () => ''
 }
 
 describe('Counter', () => {
@@ -23,7 +22,7 @@ describe('Counter', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should call onIncrement when is not disabled', () => {
+  it('should call onIncrement when maxValue is not reached', () => {
     const onIncrementMock = jest.fn()
     const { component } = renderWithTheme(
       <Counter {...defaultProps} onIncrement={onIncrementMock} />
@@ -33,7 +32,7 @@ describe('Counter', () => {
     expect(onIncrementMock).toHaveBeenCalledTimes(1)
   })
 
-  it('should call onDecrement when is not disabled', () => {
+  it('should call onDecrement when minValue is not reached', () => {
     const onDecrementMock = jest.fn()
     const { component } = renderWithTheme(
       <Counter {...defaultProps} onDecrement={onDecrementMock} value={1} />
@@ -41,5 +40,34 @@ describe('Counter', () => {
     fireEvent.click(component.getByTestId('onDecrement-btn'))
 
     expect(onDecrementMock).toHaveBeenCalledTimes(1)
+  })
+
+  it('should disabled onIncrement when maxValue is reached', () => {
+    const onIncrementMock = jest.fn()
+    const { component } = renderWithTheme(
+      <Counter {...defaultProps} value={99} onIncrement={onIncrementMock} />
+    )
+    fireEvent.click(component.getByTestId('onIncrement-btn'))
+
+    expect(component.getByTestId('onIncrement-btn')).toBeDisabled()
+    expect(onIncrementMock).not.toHaveBeenCalled()
+  })
+
+  it('should disabled onDecrement when minValue is reached', () => {
+    const onDecrementMock = jest.fn()
+    const { component } = renderWithTheme(
+      <Counter {...defaultProps} onDecrement={onDecrementMock} />
+    )
+    fireEvent.click(component.getByTestId('onDecrement-btn'))
+
+    expect(component.getByTestId('onDecrement-btn')).toBeDisabled()
+    expect(onDecrementMock).not.toHaveBeenCalled()
+  })
+
+  it('should render correctly when is disabled', () => {
+    const { styles, component } = renderWithTheme(<Counter {...defaultProps} disabled />)
+    expect(component.getByTestId('onDecrement-btn')).toBeDisabled()
+    expect(component.getByTestId('onIncrement-btn')).toBeDisabled()
+    expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 })
