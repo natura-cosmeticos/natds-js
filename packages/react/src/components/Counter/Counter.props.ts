@@ -58,4 +58,14 @@ export interface CounterProps {
    * @default 0
    */
   value?: number
+
+  /**
+   * Add a description to increment button
+   */
+  ariaLabelIncrementButton?: string
+
+  /**
+   * Add a description to decrement button
+   */
+  ariaLabelDecrementButton?: string
 }

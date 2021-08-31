@@ -14,7 +14,9 @@ const Counter = ({
   onIncrement,
   size = 'semiX',
   testID,
-  value = 0
+  value = 0,
+  ariaLabelIncrementButton,
+  ariaLabelDecrementButton
 }: CounterProps) => {
   const { buttonGroup, inputBase } = styles({ size, disabled })
 
@@ -26,6 +28,7 @@ const Counter = ({
       {label && <Label color="mediumEmphasis" label={label} />}
       <div className={buttonGroup}>
         <Button
+          ariaLabel={ariaLabelDecrementButton}
           testID="onDecrement-btn"
           variant="text"
           text="-"
@@ -39,6 +42,7 @@ const Counter = ({
           readOnly
         />
         <Button
+          ariaLabel={ariaLabelIncrementButton}
           testID="onIncrement-btn"
           variant="text"
           text="+"

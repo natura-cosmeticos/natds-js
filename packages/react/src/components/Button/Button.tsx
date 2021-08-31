@@ -7,6 +7,7 @@ import styles from './Button.styles'
 export const checkIconColor = (variant: string, isDisabled: boolean) => (isDisabled && variant !== 'contained' ? 'mediumEmphasis' : 'highEmphasis')
 
 const Button = ({
+  ariaLabel,
   disabled = false,
   fullWidth = false,
   onClick,
@@ -29,6 +30,7 @@ const Button = ({
   return (
     <Ripple disabled={disabled} fullWidth={fullWidth}>
       <button
+        aria-label={ariaLabel}
         className={button}
         data-testid={testID}
         disabled={disabled}

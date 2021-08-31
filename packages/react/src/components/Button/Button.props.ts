@@ -6,6 +6,12 @@ export type ButtonSize = keyof Pick<Size, 'semi' | 'semiX' | 'medium'>
 export type ButtonVariant = 'contained' | 'outlined' | 'text'
 
 export interface ButtonBaseProps {
+
+  /**
+   * Button description
+   */
+  ariaLabel?: string
+
   /**
    * If `true`, the button will be disabled.
    * @default false
