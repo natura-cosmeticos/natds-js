@@ -38,10 +38,14 @@ const styles = createUseStyles((theme: Theme) => ({
     border: (props) => (isOutlined(props) ? `1px solid ${theme.color.primary}` : 0),
     boxShadow: (props) => (isContained(props) ? theme.elevation.tiny : 'none'),
     borderRadius: theme.borderRadius.medium,
+    cursor: 'pointer',
+    height: ({ size }: ButtonProps) => size && theme.size[size],
+    outline: 0,
     overflow: 'hidden',
     paddingLeft: (props) => getPaddingStyles(theme, props),
     paddingRight: (props) => getPaddingStyles(theme, props),
     position: 'relative',
+    width: ({ fullWidth }: ButtonProps) => (fullWidth ? '100%' : 'auto'),
     '&:after': {
       backgroundColor: theme.color.highlight,
       content: '" "',
@@ -61,7 +65,8 @@ const styles = createUseStyles((theme: Theme) => ({
     '&:disabled': {
       backgroundColor: (props) => (isContained(props) ? theme.color.lowEmphasis : 'transparent'),
       border: (props) => (isOutlined(props) && `1px solid ${theme.color.lowEmphasis}`),
-      boxShadow: theme.elevation.none
+      boxShadow: theme.elevation.none,
+      cursor: 'default'
     }
   },
   labelContainer: {

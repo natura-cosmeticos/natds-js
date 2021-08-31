@@ -5,7 +5,6 @@ import Button from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import { ButtonProps } from './Button.props'
 import { checkIconColor } from './Button'
-import ButtonBase from './ButtonBase'
 
 jest.mock('../Ripple/Ripple')
 
@@ -100,19 +99,5 @@ describe('CheckIconColor', () => {
     const checkedIconColor = checkIconColor('contained', true)
 
     expect(checkedIconColor).toBe('highEmphasis')
-  })
-})
-
-describe('ButtonBase', () => {
-  it('should render correctly with given props', () => {
-    const { styles, component } = renderWithTheme(<ButtonBase onClick={() => ''} size="semi">something</ButtonBase>)
-
-    expect([styles.toString(), component.container]).toMatchSnapshot()
-  })
-
-  it('should render as fullWidth', () => {
-    const { styles, component } = renderWithTheme(<ButtonBase onClick={() => ''} size="semi" fullWidth>something</ButtonBase>)
-
-    expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 })

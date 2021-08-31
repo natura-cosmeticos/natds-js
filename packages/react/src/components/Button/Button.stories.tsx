@@ -2,7 +2,6 @@ import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Button, ButtonProps } from '.'
 import StoryContainer from '../../helpers/StoryContainer'
-import ButtonBase, { ButtonBaseProps } from './ButtonBase'
 
 const componentStatus = `
 ---
@@ -83,10 +82,3 @@ Icon.args = {
 
 export const FullWidth: Story<ButtonProps> = Playground.bind({})
 FullWidth.args = { ...Playground.args, fullWidth: true }
-
-export const ButtonBaseExample: Story<ButtonBaseProps> = (args) => <ButtonBase {...args} />
-ButtonBaseExample.args = {
-  onClick: () => console.log('clicked'),
-  children: 'button',
-  size: 'semi'
-}

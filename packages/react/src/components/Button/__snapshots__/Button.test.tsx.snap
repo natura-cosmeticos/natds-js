@@ -3,6 +3,8 @@
 exports[`Button component should render correctly when the fullWidth is true 1`] = `
 Array [
   ".button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -24,6 +26,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -47,8 +50,10 @@ Array [
   background-color: #f4ab34;
   border: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: 100%;
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
@@ -58,25 +63,13 @@ Array [
 }
 .label-d2-0-2-6 {
   color: #333333;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: 100%;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         type="button"
       >
         <span
@@ -97,6 +90,8 @@ Array [
 exports[`Button component should render correctly when the size is medium 1`] = `
 Array [
   ".button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -118,6 +113,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -141,8 +137,10 @@ Array [
   background-color: #f4ab34;
   border: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 48px;
   padding-left: 16px;
   padding-right: 16px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
@@ -152,25 +150,13 @@ Array [
 }
 .label-d2-0-2-6 {
   color: #333333;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 48px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         type="button"
       >
         <span
@@ -191,6 +177,8 @@ Array [
 exports[`Button component should render correctly when the size is semi 1`] = `
 Array [
   ".button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -212,6 +200,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -235,8 +224,10 @@ Array [
   background-color: #f4ab34;
   border: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 32px;
   padding-left: 4px;
   padding-right: 4px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
@@ -246,25 +237,13 @@ Array [
 }
 .label-d2-0-2-6 {
   color: #333333;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 32px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         type="button"
       >
         <span
@@ -285,6 +264,8 @@ Array [
 exports[`Button component should render correctly when the variant is contained and disabled is true 1`] = `
 Array [
   ".button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -306,6 +287,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -329,8 +311,10 @@ Array [
   background-color: #f4ab34;
   border: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
@@ -340,25 +324,13 @@ Array [
 }
 .label-d2-0-2-6 {
   color: #333333;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         disabled=""
         type="button"
       >
@@ -380,6 +352,8 @@ Array [
 exports[`Button component should render correctly when the variant is outlined 1`] = `
 Array [
   ".button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -401,6 +375,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -424,8 +399,10 @@ Array [
   background-color: transparent;
   border: 1px solid #f4ab34;
   box-shadow: none;
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: transparent;
@@ -436,25 +413,13 @@ Array [
 }
 .label-d2-0-2-6 {
   color: #333333;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         type="button"
       >
         <span
@@ -475,6 +440,8 @@ Array [
 exports[`Button component should render correctly when the variant is outlined and is disabled 1`] = `
 Array [
   ".button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -496,6 +463,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -519,8 +487,10 @@ Array [
   background-color: transparent;
   border: 1px solid #f4ab34;
   box-shadow: none;
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: transparent;
@@ -531,25 +501,13 @@ Array [
 }
 .label-d2-0-2-6 {
   color: #777777;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         disabled=""
         type="button"
       >
@@ -571,6 +529,8 @@ Array [
 exports[`Button component should render correctly when the variant is text 1`] = `
 Array [
   ".button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -592,6 +552,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -615,8 +576,10 @@ Array [
   background-color: transparent;
   border: 0;
   box-shadow: none;
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: transparent;
@@ -626,25 +589,13 @@ Array [
 }
 .label-d2-0-2-6 {
   color: #333333;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         type="button"
       >
         <span
@@ -665,6 +616,8 @@ Array [
 exports[`Button component should render correctly when the variant is text and is disabled 1`] = `
 Array [
   ".button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -686,6 +639,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -709,8 +663,10 @@ Array [
   background-color: transparent;
   border: 0;
   box-shadow: none;
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: transparent;
@@ -720,25 +676,13 @@ Array [
 }
 .label-d2-0-2-6 {
   color: #777777;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         disabled=""
         type="button"
       >
@@ -760,6 +704,8 @@ Array [
 exports[`Button component should render correctly with default props 1`] = `
 Array [
   ".button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -781,6 +727,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -804,8 +751,10 @@ Array [
   background-color: #f4ab34;
   border: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
@@ -815,25 +764,13 @@ Array [
 }
 .label-d2-0-2-6 {
   color: #333333;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         type="button"
       >
         <span
@@ -853,16 +790,18 @@ Array [
 
 exports[`Button component should render correctly with the given icon name 1`] = `
 Array [
-  ".icon-0-2-9 {
+  ".icon-0-2-7 {
   font-family: natds-icons;
   user-select: none;
   pointer-events: none;
 }
-.icon-d0-0-2-10 {
+.icon-d0-0-2-8 {
   color: #333333;
   font-size: 24px;
 }
 .button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -884,6 +823,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -907,8 +847,10 @@ Array [
   background-color: #f4ab34;
   border: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
@@ -919,25 +861,13 @@ Array [
 .label-d2-0-2-6 {
   color: #333333;
   margin-right: 8px;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         type="button"
       >
         <span
@@ -950,7 +880,7 @@ Array [
           </span>
           <i
             aria-hidden="true"
-            class="icon-0-2-9 icon-d0-0-2-10 natds-icons natds-icons-filled-action-check"
+            class="icon-0-2-7 icon-d0-0-2-8 natds-icons natds-icons-filled-action-check"
             data-testid="icon-filled-action-check"
             role="img"
           />
@@ -963,16 +893,18 @@ Array [
 
 exports[`Button component should render icon to the left when the showIcon is true and iconPosition is left 1`] = `
 Array [
-  ".icon-0-2-9 {
+  ".icon-0-2-7 {
   font-family: natds-icons;
   user-select: none;
   pointer-events: none;
 }
-.icon-d0-0-2-10 {
+.icon-d0-0-2-8 {
   color: #333333;
   font-size: 24px;
 }
 .button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -994,6 +926,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -1017,8 +950,10 @@ Array [
   background-color: #f4ab34;
   border: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
@@ -1029,25 +964,13 @@ Array [
 .label-d2-0-2-6 {
   color: #333333;
   margin-left: 8px;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         type="button"
       >
         <span
@@ -1060,7 +983,7 @@ Array [
           </span>
           <i
             aria-hidden="true"
-            class="icon-0-2-9 icon-d0-0-2-10 natds-icons natds-icons-outlined-default-mockup"
+            class="icon-0-2-7 icon-d0-0-2-8 natds-icons natds-icons-outlined-default-mockup"
             data-testid="icon-outlined-default-mockup"
             role="img"
           />
@@ -1073,16 +996,18 @@ Array [
 
 exports[`Button component should render icon to the right as default when the showIcon is true 1`] = `
 Array [
-  ".icon-0-2-9 {
+  ".icon-0-2-7 {
   font-family: natds-icons;
   user-select: none;
   pointer-events: none;
 }
-.icon-d0-0-2-10 {
+.icon-d0-0-2-8 {
   color: #333333;
   font-size: 24px;
 }
 .button-0-2-1 {
+  cursor: pointer;
+  outline: 0;
   overflow: hidden;
   position: relative;
   border-radius: 4px;
@@ -1104,6 +1029,7 @@ Array [
   opacity: 0.12;
 }
 .button-0-2-1:disabled {
+  cursor: default;
   box-shadow: none;
 }
 .labelContainer-0-2-2 {
@@ -1127,8 +1053,10 @@ Array [
   background-color: #f4ab34;
   border: 0;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  height: 40px;
   padding-left: 8px;
   padding-right: 8px;
+  width: auto;
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
@@ -1139,25 +1067,13 @@ Array [
 .label-d2-0-2-6 {
   color: #333333;
   margin-right: 8px;
-}
-.base-0-2-7 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-7:disabled {
-  cursor: default;
-}
-.base-d0-0-2-8 {
-  height: 40px;
-  width: auto;
 }",
   <div>
     <div
       data-testid="ripple"
     >
       <button
-        class="base-0-2-7 base-d0-0-2-8 button-0-2-1 button-d0-0-2-4"
+        class="button-0-2-1 button-d0-0-2-4"
         type="button"
       >
         <span
@@ -1170,69 +1086,11 @@ Array [
           </span>
           <i
             aria-hidden="true"
-            class="icon-0-2-9 icon-d0-0-2-10 natds-icons natds-icons-outlined-default-mockup"
+            class="icon-0-2-7 icon-d0-0-2-8 natds-icons natds-icons-outlined-default-mockup"
             data-testid="icon-outlined-default-mockup"
             role="img"
           />
         </span>
-      </button>
-    </div>
-  </div>,
-]
-`;
-
-exports[`ButtonBase should render as fullWidth 1`] = `
-Array [
-  ".base-0-2-1 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-1:disabled {
-  cursor: default;
-}
-.base-d0-0-2-2 {
-  height: 32px;
-  width: 100%;
-}",
-  <div>
-    <div
-      data-testid="ripple"
-    >
-      <button
-        class="base-0-2-1 base-d0-0-2-2 undefined"
-        type="button"
-      >
-        something
-      </button>
-    </div>
-  </div>,
-]
-`;
-
-exports[`ButtonBase should render correctly with given props 1`] = `
-Array [
-  ".base-0-2-1 {
-  border: none;
-  cursor: pointer;
-  outline: 0;
-}
-.base-0-2-1:disabled {
-  cursor: default;
-}
-.base-d0-0-2-2 {
-  height: 32px;
-  width: auto;
-}",
-  <div>
-    <div
-      data-testid="ripple"
-    >
-      <button
-        class="base-0-2-1 base-d0-0-2-2 undefined"
-        type="button"
-      >
-        something
       </button>
     </div>
   </div>,
