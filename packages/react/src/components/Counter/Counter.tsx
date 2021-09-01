@@ -18,7 +18,9 @@ const Counter = ({
   ariaLabelIncrementButton,
   ariaLabelDecrementButton
 }: CounterProps) => {
-  const { buttonGroup, inputBase } = styles({ size, disabled })
+  const {
+    buttonGroup, inputBase, buttonLeft, buttonRigth
+  } = styles({ size, disabled })
 
   const maxReached = value >= maxValue
   const minReached = value <= minValue
@@ -28,6 +30,7 @@ const Counter = ({
       {label && <Label color="mediumEmphasis" label={label} />}
       <div className={buttonGroup}>
         <Button
+          classes={buttonLeft}
           ariaLabel={ariaLabelDecrementButton}
           testID="onDecrement-btn"
           variant="text"
@@ -42,6 +45,7 @@ const Counter = ({
           readOnly
         />
         <Button
+          classes={buttonRigth}
           ariaLabel={ariaLabelIncrementButton}
           testID="onIncrement-btn"
           variant="text"

@@ -5,15 +5,26 @@ Array [
   ".buttonGroup-0-2-1 {
   width: fit-content;
   border: 1px solid #bbbbbb;
+  display: flex;
   margin-top: 4px;
   border-radius: 4px;
 }
 .buttonGroup-0-2-1 button {}
-.inputBase-0-2-2 {
+.buttonLeft-0-2-2 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.buttonRigth-0-2-3 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.inputBase-0-2-4 {
   color: #000000;
   width: 40px;
   cursor: default;
+  height: 100%;
   outline: none;
+  padding: 0;
   border-top: none;
   text-align: center;
   border-left: 1px solid #bbbbbb;
@@ -21,14 +32,13 @@ Array [
   border-bottom: none;
   background-color: transparent;
 }
-.buttonGroup-d0-0-2-3 {}
-.buttonGroup-d0-0-2-3 button {
-  width: 32px;
-}
-.inputBase-d1-0-2-4 {
+.buttonGroup-d0-0-2-5 {
   height: 40px;
 }
-.sharedRippleEffect-0-2-11 {
+.buttonGroup-d0-0-2-5 button {
+  width: 32px;
+}
+.sharedRippleEffect-0-2-12 {
   top: 0;
   left: 0;
   width: 100%;
@@ -38,12 +48,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-12 {
+.wrapper-0-2-13 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-12:focus:after {
+.wrapper-0-2-13:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -54,7 +64,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-12:hover:after {
+.wrapper-0-2-13:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -64,20 +74,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-13 {
+.ripple-0-2-14 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-14 {
+.rippleContainer-0-2-15 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-15 {
+.rippleActive-0-2-16 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-16 {
+@keyframes keyframes-ripple-0-2-17 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -90,16 +100,16 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-17 {
+  .wrapper-d0-0-2-18 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-17:focus:after {  }
-  .wrapper-d0-0-2-17:hover:after {
+  .wrapper-d0-0-2-18:focus:after {  }
+  .wrapper-d0-0-2-18:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-18 {
+  .ripple-d1-0-2-19 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -107,22 +117,22 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-19 {
+  .rippleContainer-d2-0-2-20 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-20 {
-    animation: keyframes-ripple-0-2-16 300ms;
+  .rippleActive-d3-0-2-21 {
+    animation: keyframes-ripple-0-2-17 300ms;
   }
-  .wrapper-d4-0-2-24 {
+  .wrapper-d4-0-2-25 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d4-0-2-24:focus:after {  }
-  .wrapper-d4-0-2-24:hover:after {
+  .wrapper-d4-0-2-25:focus:after {  }
+  .wrapper-d4-0-2-25:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d5-0-2-25 {
+  .ripple-d5-0-2-26 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -130,20 +140,20 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d6-0-2-26 {
+  .rippleContainer-d6-0-2-27 {
     overflow: hidden;
   }
-  .rippleActive-d7-0-2-27 {
-    animation: keyframes-ripple-0-2-16 300ms;
+  .rippleActive-d7-0-2-28 {
+    animation: keyframes-ripple-0-2-17 300ms;
   }
-  .button-0-2-5 {
+  .button-0-2-6 {
     cursor: pointer;
     outline: 0;
     overflow: hidden;
     position: relative;
     border-radius: 4px;
   }
-  .button-0-2-5:after {
+  .button-0-2-6:after {
     top: 0;
     left: 0;
     width: 100%;
@@ -153,22 +163,22 @@ Array [
     position: absolute;
     background-color: #000000;
   }
-  .button-0-2-5:hover:not([disabled]):after {
+  .button-0-2-6:hover:not([disabled]):after {
     opacity: 0.04;
   }
-  .button-0-2-5:focus:not([disabled]):after {
+  .button-0-2-6:focus:not([disabled]):after {
     opacity: 0.12;
   }
-  .button-0-2-5:disabled {
+  .button-0-2-6:disabled {
     cursor: default;
     box-shadow: none;
   }
-  .labelContainer-0-2-6 {
+  .labelContainer-0-2-7 {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .label-0-2-7 {
+  .label-0-2-8 {
     overflow: hidden;
     font-size: 14px;
     text-align: center;
@@ -180,7 +190,7 @@ Array [
     letter-spacing: 1.23px;
     text-transform: uppercase;
   }
-  .button-d0-0-2-8 {
+  .button-d0-0-2-9 {
     background-color: transparent;
     border: 0;
     box-shadow: none;
@@ -189,16 +199,16 @@ Array [
     padding-right: 8px;
     width: auto;
   }
-  .button-d0-0-2-8:disabled {
+  .button-d0-0-2-9:disabled {
     background-color: transparent;
   }
-  .labelContainer-d1-0-2-9 {
+  .labelContainer-d1-0-2-10 {
     flex-direction: row-reverse;
   }
-  .label-d2-0-2-10 {
+  .label-d2-0-2-11 {
     color: #777777;
   }
-  .button-d3-0-2-21 {
+  .button-d3-0-2-22 {
     background-color: transparent;
     border: 0;
     box-shadow: none;
@@ -207,44 +217,44 @@ Array [
     padding-right: 8px;
     width: auto;
   }
-  .button-d3-0-2-21:disabled {
+  .button-d3-0-2-22:disabled {
     background-color: transparent;
   }
-  .labelContainer-d4-0-2-22 {
+  .labelContainer-d4-0-2-23 {
     flex-direction: row-reverse;
   }
-  .label-d5-0-2-23 {
+  .label-d5-0-2-24 {
     color: #777777;
   }",
   <div>
     <div>
       <div
-        class="buttonGroup-0-2-1 buttonGroup-d0-0-2-3"
+        class="buttonGroup-0-2-1 buttonGroup-d0-0-2-5"
       >
         <div
-          class="wrapper-0-2-12 wrapper-d0-0-2-17"
+          class="wrapper-0-2-13 wrapper-d0-0-2-18"
           data-testid="ripple-wrapper"
           tabindex="-1"
         >
           <div
-            class="rippleContainer-0-2-14 rippleContainer-d2-0-2-19"
+            class="rippleContainer-0-2-15 rippleContainer-d2-0-2-20"
           >
             <div
-              class="ripple-0-2-13 ripple-d1-0-2-18 "
+              class="ripple-0-2-14 ripple-d1-0-2-19 "
               data-testid="ripple-animation"
             />
           </div>
           <button
-            class="button-0-2-5 button-d0-0-2-8"
+            class="button-0-2-6 button-d0-0-2-9 buttonLeft-0-2-2"
             data-testid="onDecrement-btn"
             disabled=""
             type="button"
           >
             <span
-              class="labelContainer-0-2-6 labelContainer-d1-0-2-9"
+              class="labelContainer-0-2-7 labelContainer-d1-0-2-10"
             >
               <span
-                class="label-0-2-7 label-d2-0-2-10"
+                class="label-0-2-8 label-d2-0-2-11"
               >
                 -
               </span>
@@ -252,34 +262,34 @@ Array [
           </button>
         </div>
         <input
-          class="inputBase-0-2-2 inputBase-d1-0-2-4"
+          class="inputBase-0-2-4"
           readonly=""
           value="0"
         />
         <div
-          class="wrapper-0-2-12 wrapper-d4-0-2-24"
+          class="wrapper-0-2-13 wrapper-d4-0-2-25"
           data-testid="ripple-wrapper"
           tabindex="-1"
         >
           <div
-            class="rippleContainer-0-2-14 rippleContainer-d6-0-2-26"
+            class="rippleContainer-0-2-15 rippleContainer-d6-0-2-27"
           >
             <div
-              class="ripple-0-2-13 ripple-d5-0-2-25 "
+              class="ripple-0-2-14 ripple-d5-0-2-26 "
               data-testid="ripple-animation"
             />
           </div>
           <button
-            class="button-0-2-5 button-d3-0-2-21"
+            class="button-0-2-6 button-d3-0-2-22 buttonRigth-0-2-3"
             data-testid="onIncrement-btn"
             disabled=""
             type="button"
           >
             <span
-              class="labelContainer-0-2-6 labelContainer-d4-0-2-22"
+              class="labelContainer-0-2-7 labelContainer-d4-0-2-23"
             >
               <span
-                class="label-0-2-7 label-d5-0-2-23"
+                class="label-0-2-8 label-d5-0-2-24"
               >
                 +
               </span>
@@ -297,15 +307,26 @@ Array [
   ".buttonGroup-0-2-1 {
   width: fit-content;
   border: 1px solid #bbbbbb;
+  display: flex;
   margin-top: 4px;
   border-radius: 4px;
 }
 .buttonGroup-0-2-1 button {}
-.inputBase-0-2-2 {
+.buttonLeft-0-2-2 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.buttonRigth-0-2-3 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.inputBase-0-2-4 {
   color: #000000;
   width: 40px;
   cursor: default;
+  height: 100%;
   outline: none;
+  padding: 0;
   border-top: none;
   text-align: center;
   border-left: 1px solid #bbbbbb;
@@ -313,14 +334,13 @@ Array [
   border-bottom: none;
   background-color: transparent;
 }
-.buttonGroup-d0-0-2-3 {}
-.buttonGroup-d0-0-2-3 button {
-  width: 32px;
-}
-.inputBase-d1-0-2-4 {
+.buttonGroup-d0-0-2-5 {
   height: 40px;
 }
-.sharedRippleEffect-0-2-11 {
+.buttonGroup-d0-0-2-5 button {
+  width: 32px;
+}
+.sharedRippleEffect-0-2-12 {
   top: 0;
   left: 0;
   width: 100%;
@@ -330,12 +350,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-12 {
+.wrapper-0-2-13 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-12:focus:after {
+.wrapper-0-2-13:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -346,7 +366,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-12:hover:after {
+.wrapper-0-2-13:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -356,20 +376,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-13 {
+.ripple-0-2-14 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-14 {
+.rippleContainer-0-2-15 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-15 {
+.rippleActive-0-2-16 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-16 {
+@keyframes keyframes-ripple-0-2-17 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -382,16 +402,16 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-17 {
+  .wrapper-d0-0-2-18 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-17:focus:after {  }
-  .wrapper-d0-0-2-17:hover:after {
+  .wrapper-d0-0-2-18:focus:after {  }
+  .wrapper-d0-0-2-18:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-18 {
+  .ripple-d1-0-2-19 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -399,24 +419,24 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-19 {
+  .rippleContainer-d2-0-2-20 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-20 {
-    animation: keyframes-ripple-0-2-16 300ms;
+  .rippleActive-d3-0-2-21 {
+    animation: keyframes-ripple-0-2-17 300ms;
   }
-  .wrapper-d4-0-2-24 {
+  .wrapper-d4-0-2-25 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d4-0-2-24:focus:after {
+  .wrapper-d4-0-2-25:focus:after {
     background-color: #000000;
   }
-  .wrapper-d4-0-2-24:hover:after {
+  .wrapper-d4-0-2-25:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d5-0-2-25 {
+  .ripple-d5-0-2-26 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -424,20 +444,20 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d6-0-2-26 {
+  .rippleContainer-d6-0-2-27 {
     overflow: hidden;
   }
-  .rippleActive-d7-0-2-27 {
-    animation: keyframes-ripple-0-2-16 300ms;
+  .rippleActive-d7-0-2-28 {
+    animation: keyframes-ripple-0-2-17 300ms;
   }
-  .button-0-2-5 {
+  .button-0-2-6 {
     cursor: pointer;
     outline: 0;
     overflow: hidden;
     position: relative;
     border-radius: 4px;
   }
-  .button-0-2-5:after {
+  .button-0-2-6:after {
     top: 0;
     left: 0;
     width: 100%;
@@ -447,22 +467,22 @@ Array [
     position: absolute;
     background-color: #000000;
   }
-  .button-0-2-5:hover:not([disabled]):after {
+  .button-0-2-6:hover:not([disabled]):after {
     opacity: 0.04;
   }
-  .button-0-2-5:focus:not([disabled]):after {
+  .button-0-2-6:focus:not([disabled]):after {
     opacity: 0.12;
   }
-  .button-0-2-5:disabled {
+  .button-0-2-6:disabled {
     cursor: default;
     box-shadow: none;
   }
-  .labelContainer-0-2-6 {
+  .labelContainer-0-2-7 {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .label-0-2-7 {
+  .label-0-2-8 {
     overflow: hidden;
     font-size: 14px;
     text-align: center;
@@ -474,7 +494,7 @@ Array [
     letter-spacing: 1.23px;
     text-transform: uppercase;
   }
-  .button-d0-0-2-8 {
+  .button-d0-0-2-9 {
     background-color: transparent;
     border: 0;
     box-shadow: none;
@@ -483,16 +503,16 @@ Array [
     padding-right: 8px;
     width: auto;
   }
-  .button-d0-0-2-8:disabled {
+  .button-d0-0-2-9:disabled {
     background-color: transparent;
   }
-  .labelContainer-d1-0-2-9 {
+  .labelContainer-d1-0-2-10 {
     flex-direction: row-reverse;
   }
-  .label-d2-0-2-10 {
+  .label-d2-0-2-11 {
     color: #777777;
   }
-  .button-d3-0-2-21 {
+  .button-d3-0-2-22 {
     background-color: transparent;
     border: 0;
     box-shadow: none;
@@ -501,44 +521,44 @@ Array [
     padding-right: 8px;
     width: auto;
   }
-  .button-d3-0-2-21:disabled {
+  .button-d3-0-2-22:disabled {
     background-color: transparent;
   }
-  .labelContainer-d4-0-2-22 {
+  .labelContainer-d4-0-2-23 {
     flex-direction: row-reverse;
   }
-  .label-d5-0-2-23 {
+  .label-d5-0-2-24 {
     color: #333333;
   }",
   <div>
     <div>
       <div
-        class="buttonGroup-0-2-1 buttonGroup-d0-0-2-3"
+        class="buttonGroup-0-2-1 buttonGroup-d0-0-2-5"
       >
         <div
-          class="wrapper-0-2-12 wrapper-d0-0-2-17"
+          class="wrapper-0-2-13 wrapper-d0-0-2-18"
           data-testid="ripple-wrapper"
           tabindex="-1"
         >
           <div
-            class="rippleContainer-0-2-14 rippleContainer-d2-0-2-19"
+            class="rippleContainer-0-2-15 rippleContainer-d2-0-2-20"
           >
             <div
-              class="ripple-0-2-13 ripple-d1-0-2-18 "
+              class="ripple-0-2-14 ripple-d1-0-2-19 "
               data-testid="ripple-animation"
             />
           </div>
           <button
-            class="button-0-2-5 button-d0-0-2-8"
+            class="button-0-2-6 button-d0-0-2-9 buttonLeft-0-2-2"
             data-testid="onDecrement-btn"
             disabled=""
             type="button"
           >
             <span
-              class="labelContainer-0-2-6 labelContainer-d1-0-2-9"
+              class="labelContainer-0-2-7 labelContainer-d1-0-2-10"
             >
               <span
-                class="label-0-2-7 label-d2-0-2-10"
+                class="label-0-2-8 label-d2-0-2-11"
               >
                 -
               </span>
@@ -546,33 +566,33 @@ Array [
           </button>
         </div>
         <input
-          class="inputBase-0-2-2 inputBase-d1-0-2-4"
+          class="inputBase-0-2-4"
           readonly=""
           value="0"
         />
         <div
-          class="wrapper-0-2-12 wrapper-d4-0-2-24"
+          class="wrapper-0-2-13 wrapper-d4-0-2-25"
           data-testid="ripple-wrapper"
           tabindex="-1"
         >
           <div
-            class="rippleContainer-0-2-14 rippleContainer-d6-0-2-26"
+            class="rippleContainer-0-2-15 rippleContainer-d6-0-2-27"
           >
             <div
-              class="ripple-0-2-13 ripple-d5-0-2-25 "
+              class="ripple-0-2-14 ripple-d5-0-2-26 "
               data-testid="ripple-animation"
             />
           </div>
           <button
-            class="button-0-2-5 button-d3-0-2-21"
+            class="button-0-2-6 button-d3-0-2-22 buttonRigth-0-2-3"
             data-testid="onIncrement-btn"
             type="button"
           >
             <span
-              class="labelContainer-0-2-6 labelContainer-d4-0-2-22"
+              class="labelContainer-0-2-7 labelContainer-d4-0-2-23"
             >
               <span
-                class="label-0-2-7 label-d5-0-2-23"
+                class="label-0-2-8 label-d5-0-2-24"
               >
                 +
               </span>
@@ -587,26 +607,37 @@ Array [
 
 exports[`Counter should render correctly with label 1`] = `
 Array [
-  ".label-0-2-5 {
+  ".label-0-2-6 {
   font-family: Roboto, sans-serif;
   letter-spacing: 0.22px;
 }
-.label-d0-0-2-6 {
+.label-d0-0-2-7 {
   font-size: 14px;
   color: #777777;
 }
 .buttonGroup-0-2-1 {
   width: fit-content;
   border: 1px solid #bbbbbb;
+  display: flex;
   margin-top: 4px;
   border-radius: 4px;
 }
 .buttonGroup-0-2-1 button {}
-.inputBase-0-2-2 {
+.buttonLeft-0-2-2 {
+  border-top-right-radius: 0;
+  border-bottom-right-radius: 0;
+}
+.buttonRigth-0-2-3 {
+  border-top-left-radius: 0;
+  border-bottom-left-radius: 0;
+}
+.inputBase-0-2-4 {
   color: #000000;
   width: 40px;
   cursor: default;
+  height: 100%;
   outline: none;
+  padding: 0;
   border-top: none;
   text-align: center;
   border-left: 1px solid #bbbbbb;
@@ -614,14 +645,13 @@ Array [
   border-bottom: none;
   background-color: transparent;
 }
-.buttonGroup-d0-0-2-3 {}
-.buttonGroup-d0-0-2-3 button {
-  width: 32px;
-}
-.inputBase-d1-0-2-4 {
+.buttonGroup-d0-0-2-5 {
   height: 40px;
 }
-.sharedRippleEffect-0-2-13 {
+.buttonGroup-d0-0-2-5 button {
+  width: 32px;
+}
+.sharedRippleEffect-0-2-14 {
   top: 0;
   left: 0;
   width: 100%;
@@ -631,12 +661,12 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-14 {
+.wrapper-0-2-15 {
   outline: none;
   position: relative;
   align-self: start;
 }
-.wrapper-0-2-14:focus:after {
+.wrapper-0-2-15:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -647,7 +677,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-14:hover:after {
+.wrapper-0-2-15:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -657,20 +687,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-15 {
+.ripple-0-2-16 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-16 {
+.rippleContainer-0-2-17 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-17 {
+.rippleActive-0-2-18 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-18 {
+@keyframes keyframes-ripple-0-2-19 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -683,16 +713,16 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-19 {
+  .wrapper-d0-0-2-20 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-19:focus:after {  }
-  .wrapper-d0-0-2-19:hover:after {
+  .wrapper-d0-0-2-20:focus:after {  }
+  .wrapper-d0-0-2-20:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-20 {
+  .ripple-d1-0-2-21 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -700,24 +730,24 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-21 {
+  .rippleContainer-d2-0-2-22 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-22 {
-    animation: keyframes-ripple-0-2-18 300ms;
+  .rippleActive-d3-0-2-23 {
+    animation: keyframes-ripple-0-2-19 300ms;
   }
-  .wrapper-d4-0-2-26 {
+  .wrapper-d4-0-2-27 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d4-0-2-26:focus:after {
+  .wrapper-d4-0-2-27:focus:after {
     background-color: #000000;
   }
-  .wrapper-d4-0-2-26:hover:after {
+  .wrapper-d4-0-2-27:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d5-0-2-27 {
+  .ripple-d5-0-2-28 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -725,20 +755,20 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d6-0-2-28 {
+  .rippleContainer-d6-0-2-29 {
     overflow: hidden;
   }
-  .rippleActive-d7-0-2-29 {
-    animation: keyframes-ripple-0-2-18 300ms;
+  .rippleActive-d7-0-2-30 {
+    animation: keyframes-ripple-0-2-19 300ms;
   }
-  .button-0-2-7 {
+  .button-0-2-8 {
     cursor: pointer;
     outline: 0;
     overflow: hidden;
     position: relative;
     border-radius: 4px;
   }
-  .button-0-2-7:after {
+  .button-0-2-8:after {
     top: 0;
     left: 0;
     width: 100%;
@@ -748,22 +778,22 @@ Array [
     position: absolute;
     background-color: #000000;
   }
-  .button-0-2-7:hover:not([disabled]):after {
+  .button-0-2-8:hover:not([disabled]):after {
     opacity: 0.04;
   }
-  .button-0-2-7:focus:not([disabled]):after {
+  .button-0-2-8:focus:not([disabled]):after {
     opacity: 0.12;
   }
-  .button-0-2-7:disabled {
+  .button-0-2-8:disabled {
     cursor: default;
     box-shadow: none;
   }
-  .labelContainer-0-2-8 {
+  .labelContainer-0-2-9 {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .label-0-2-9 {
+  .label-0-2-10 {
     overflow: hidden;
     font-size: 14px;
     text-align: center;
@@ -775,7 +805,7 @@ Array [
     letter-spacing: 1.23px;
     text-transform: uppercase;
   }
-  .button-d0-0-2-10 {
+  .button-d0-0-2-11 {
     background-color: transparent;
     border: 0;
     box-shadow: none;
@@ -784,16 +814,16 @@ Array [
     padding-right: 8px;
     width: auto;
   }
-  .button-d0-0-2-10:disabled {
+  .button-d0-0-2-11:disabled {
     background-color: transparent;
   }
-  .labelContainer-d1-0-2-11 {
+  .labelContainer-d1-0-2-12 {
     flex-direction: row-reverse;
   }
-  .label-d2-0-2-12 {
+  .label-d2-0-2-13 {
     color: #777777;
   }
-  .button-d3-0-2-23 {
+  .button-d3-0-2-24 {
     background-color: transparent;
     border: 0;
     box-shadow: none;
@@ -802,49 +832,49 @@ Array [
     padding-right: 8px;
     width: auto;
   }
-  .button-d3-0-2-23:disabled {
+  .button-d3-0-2-24:disabled {
     background-color: transparent;
   }
-  .labelContainer-d4-0-2-24 {
+  .labelContainer-d4-0-2-25 {
     flex-direction: row-reverse;
   }
-  .label-d5-0-2-25 {
+  .label-d5-0-2-26 {
     color: #333333;
   }",
   <div>
     <div>
       <label
-        class="label-0-2-5 label-d0-0-2-6"
+        class="label-0-2-6 label-d0-0-2-7"
       >
         label
       </label>
       <div
-        class="buttonGroup-0-2-1 buttonGroup-d0-0-2-3"
+        class="buttonGroup-0-2-1 buttonGroup-d0-0-2-5"
       >
         <div
-          class="wrapper-0-2-14 wrapper-d0-0-2-19"
+          class="wrapper-0-2-15 wrapper-d0-0-2-20"
           data-testid="ripple-wrapper"
           tabindex="-1"
         >
           <div
-            class="rippleContainer-0-2-16 rippleContainer-d2-0-2-21"
+            class="rippleContainer-0-2-17 rippleContainer-d2-0-2-22"
           >
             <div
-              class="ripple-0-2-15 ripple-d1-0-2-20 "
+              class="ripple-0-2-16 ripple-d1-0-2-21 "
               data-testid="ripple-animation"
             />
           </div>
           <button
-            class="button-0-2-7 button-d0-0-2-10"
+            class="button-0-2-8 button-d0-0-2-11 buttonLeft-0-2-2"
             data-testid="onDecrement-btn"
             disabled=""
             type="button"
           >
             <span
-              class="labelContainer-0-2-8 labelContainer-d1-0-2-11"
+              class="labelContainer-0-2-9 labelContainer-d1-0-2-12"
             >
               <span
-                class="label-0-2-9 label-d2-0-2-12"
+                class="label-0-2-10 label-d2-0-2-13"
               >
                 -
               </span>
@@ -852,33 +882,33 @@ Array [
           </button>
         </div>
         <input
-          class="inputBase-0-2-2 inputBase-d1-0-2-4"
+          class="inputBase-0-2-4"
           readonly=""
           value="0"
         />
         <div
-          class="wrapper-0-2-14 wrapper-d4-0-2-26"
+          class="wrapper-0-2-15 wrapper-d4-0-2-27"
           data-testid="ripple-wrapper"
           tabindex="-1"
         >
           <div
-            class="rippleContainer-0-2-16 rippleContainer-d6-0-2-28"
+            class="rippleContainer-0-2-17 rippleContainer-d6-0-2-29"
           >
             <div
-              class="ripple-0-2-15 ripple-d5-0-2-27 "
+              class="ripple-0-2-16 ripple-d5-0-2-28 "
               data-testid="ripple-animation"
             />
           </div>
           <button
-            class="button-0-2-7 button-d3-0-2-23"
+            class="button-0-2-8 button-d3-0-2-24 buttonRigth-0-2-3"
             data-testid="onIncrement-btn"
             type="button"
           >
             <span
-              class="labelContainer-0-2-8 labelContainer-d4-0-2-24"
+              class="labelContainer-0-2-9 labelContainer-d4-0-2-25"
             >
               <span
-                class="label-0-2-9 label-d5-0-2-25"
+                class="label-0-2-10 label-d5-0-2-26"
               >
                 +
               </span>

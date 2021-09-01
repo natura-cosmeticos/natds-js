@@ -5,13 +5,24 @@ import { CounterProps } from './Counter.props'
 
 const styles = createUseStyles((theme: Theme) => ({
   buttonGroup: {
+    display: 'flex',
     border: `1px solid ${theme.color.lowEmphasis}`,
     borderRadius: theme.borderRadius.medium,
     marginTop: theme.spacing.micro,
     width: 'fit-content',
+    height: ({ size }: CounterProps) => size && theme.size[size],
     '& button': {
       width: ({ size }: CounterProps) => (size && size === 'semiX' ? theme.size.semi : theme.size.semiX)
     }
+  },
+
+  buttonLeft: {
+    borderTopRightRadius: 0,
+    borderBottomRightRadius: 0
+  },
+  buttonRigth: {
+    borderTopLeftRadius: 0,
+    borderBottomLeftRadius: 0
   },
   inputBase: {
     backgroundColor: 'transparent',
@@ -21,10 +32,11 @@ const styles = createUseStyles((theme: Theme) => ({
     borderTop: 'none',
     color: theme.color.highlight,
     cursor: 'default',
-    height: ({ size }: CounterProps) => size && theme.size[size],
     outline: 'none',
     textAlign: 'center',
-    width: theme.size.semiX
+    width: theme.size.semiX,
+    height: '100%',
+    padding: 0
   }
 }))
 
