@@ -8,6 +8,7 @@ export const checkIconColor = (variant: string, isDisabled: boolean) => (isDisab
 
 const Button = ({
   ariaLabel,
+  classes,
   disabled = false,
   fullWidth = false,
   onClick,
@@ -31,7 +32,7 @@ const Button = ({
     <Ripple disabled={disabled} fullWidth={fullWidth}>
       <button
         aria-label={ariaLabel}
-        className={button}
+        className={`${button} ${classes}`}
         data-testid={testID}
         disabled={disabled}
         onClick={onClick}

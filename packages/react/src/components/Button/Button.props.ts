@@ -19,6 +19,11 @@ export interface ButtonBaseProps {
   disabled?: boolean;
 
   /**
+   * Override or extend the styles applied to the component.
+   */
+  classes?: string;
+
+  /**
    * If `true`, the button will occupy 100% of the width
    * @default false
    */
