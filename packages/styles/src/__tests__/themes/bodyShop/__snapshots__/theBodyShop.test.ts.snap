@@ -630,6 +630,18 @@ Object {
         },
       },
     },
+    "MuiTablePagination": Object {
+      "input": Object {
+        "flexShrink": "initial",
+      },
+      "root": Object {
+        "& .MuiSelect-icon": Object {
+          "height": "100%",
+          "top": 0,
+        },
+        "overflow": "visible",
+      },
+    },
     "MuiTableSortLabel": Object {
       "icon": Object {
         "marginLeft": 8,
@@ -1455,6 +1467,18 @@ Object {
         "& > *:first-child": Object {
           "marginBottom": "2px !important",
         },
+      },
+    },
+    "MuiTablePagination": Object {
+      "input": Object {
+        "flexShrink": "initial",
+      },
+      "root": Object {
+        "& .MuiSelect-icon": Object {
+          "height": "100%",
+          "top": 0,
+        },
+        "overflow": "visible",
       },
     },
     "MuiTableSortLabel": Object {
