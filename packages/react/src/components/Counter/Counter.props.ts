@@ -1,8 +1,18 @@
 import { Size } from '@naturacosmeticos/natds-themes'
 
-type CounterSizes = keyof Pick<Size, 'semiX' | 'medium' >
+type CounterSizes = keyof Pick<Size, 'semiX' | 'medium'>
 
 export interface CounterProps {
+
+  /**
+   * Add a description to increment button
+   */
+  ariaLabelIncrementButton?: string
+
+  /**
+   * Add a description to decrement button
+   */
+  ariaLabelDecrementButton?: string
 
   /**
    * If `true` disable component actions.
@@ -58,14 +68,4 @@ export interface CounterProps {
    * @default 0
    */
   value?: number
-
-  /**
-   * Add a description to increment button
-   */
-  ariaLabelIncrementButton?: string
-
-  /**
-   * Add a description to decrement button
-   */
-  ariaLabelDecrementButton?: string
 }

@@ -8,7 +8,7 @@ export const checkIconColor = (variant: string, isDisabled: boolean) => (isDisab
 
 const Button = ({
   ariaLabel,
-  classes,
+  classes = '',
   disabled = false,
   fullWidth = false,
   onClick,

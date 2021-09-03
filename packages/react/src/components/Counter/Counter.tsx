@@ -6,6 +6,8 @@ import styles from './Counter.styles'
 import Button from '../Button'
 
 const Counter = ({
+  ariaLabelDecrementButton,
+  ariaLabelIncrementButton,
   disabled,
   label,
   maxValue = 99,
@@ -14,9 +16,7 @@ const Counter = ({
   onIncrement,
   size = 'semiX',
   testID,
-  value = 0,
-  ariaLabelIncrementButton,
-  ariaLabelDecrementButton
+  value = 0
 }: CounterProps) => {
   const {
     buttonGroup, inputBase, buttonLeft, buttonRigth
@@ -30,29 +30,29 @@ const Counter = ({
       {label && <Label color="mediumEmphasis" label={label} />}
       <div className={buttonGroup}>
         <Button
-          classes={buttonLeft}
           ariaLabel={ariaLabelDecrementButton}
-          testID="onDecrement-btn"
-          variant="text"
-          text="-"
-          onClick={onDecrement}
+          classes={buttonLeft}
           disabled={disabled || minReached}
+          onClick={onDecrement}
           size={size}
+          testID="onDecrement-btn"
+          text="-"
+          variant="text"
         />
         <input
-          value={value}
           className={inputBase}
           readOnly
+          value={value}
         />
         <Button
-          classes={buttonRigth}
           ariaLabel={ariaLabelIncrementButton}
-          testID="onIncrement-btn"
-          variant="text"
-          text="+"
-          onClick={onIncrement}
+          classes={buttonRigth}
           disabled={disabled || maxReached}
+          onClick={onIncrement}
           size={size}
+          testID="onIncrement-btn"
+          text="+"
+          variant="text"
         />
       </div>
     </div>

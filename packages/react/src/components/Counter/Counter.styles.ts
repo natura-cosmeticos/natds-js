@@ -15,14 +15,13 @@ const styles = createUseStyles((theme: Theme) => ({
       width: ({ size }: CounterProps) => (size && size === 'semiX' ? theme.size.semi : theme.size.semiX)
     }
   },
-
   buttonLeft: {
-    borderTopRightRadius: 0,
-    borderBottomRightRadius: 0
+    borderBottomRightRadius: 0,
+    borderTopRightRadius: 0
   },
   buttonRigth: {
-    borderTopLeftRadius: 0,
-    borderBottomLeftRadius: 0
+    borderBottomLeftRadius: 0,
+    borderTopLeftRadius: 0
   },
   inputBase: {
     backgroundColor: 'transparent',
@@ -32,11 +31,11 @@ const styles = createUseStyles((theme: Theme) => ({
     borderTop: 'none',
     color: theme.color.highlight,
     cursor: 'default',
-    outline: 'none',
-    textAlign: 'center',
-    width: theme.size.semiX,
     height: '100%',
-    padding: 0
+    outline: 'none',
+    padding: 0,
+    textAlign: 'center',
+    width: theme.size.semiX
   }
 }))
 
