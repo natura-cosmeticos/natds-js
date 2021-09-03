@@ -6,11 +6,22 @@ export type ButtonSize = keyof Pick<Size, 'semi' | 'semiX' | 'medium'>
 export type ButtonVariant = 'contained' | 'outlined' | 'text'
 
 export interface ButtonBaseProps {
+
+  /**
+   * Button description
+   */
+  ariaLabel?: string
+
   /**
    * If `true`, the button will be disabled.
    * @default false
    */
   disabled?: boolean;
+
+  /**
+   * Override or extend the styles applied to the component.
+   */
+  classes?: string;
 
   /**
    * If `true`, the button will occupy 100% of the width
