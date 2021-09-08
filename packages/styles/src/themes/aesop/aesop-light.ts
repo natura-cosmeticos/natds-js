@@ -628,6 +628,18 @@ export const aesopLight: ITheme = {
       icon: {
         marginLeft: spacing.spacing
       }
+    },
+    MuiTablePagination: {
+      root: {
+        overflow: 'visible',
+        '& .MuiSelect-icon': {
+          top: 0,
+          height: '100%'
+        }
+      },
+      input: {
+        flexShrink: 'initial'
+      }
     }
   }
 }
