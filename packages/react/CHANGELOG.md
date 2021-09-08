@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.11.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.11.0...@naturacosmeticos/natds-react@2.11.1) (2021-09-08)
+
+
+### Bug Fixes
+
+* **table pagination:** update styles ([#1502](https://github.com/natura-cosmeticos/natds-js/issues/1502)) ([7b92252](https://github.com/natura-cosmeticos/natds-js/commit/7b92252e0ffbd8ab7cba96b684c1af0de1d9a62b))
+
+
+
+
+
 # [2.11.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.11.0-alpha.DSY-1980.21.0...@naturacosmeticos/natds-react@2.11.0) (2021-09-03)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react

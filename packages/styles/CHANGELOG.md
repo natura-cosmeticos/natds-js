@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [3.1.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.1.0...@naturacosmeticos/natds-styles@3.1.1) (2021-09-08)
+
+
+### Bug Fixes
+
+* **table pagination:** update styles ([#1502](https://github.com/natura-cosmeticos/natds/issues/1502)) ([7b92252](https://github.com/natura-cosmeticos/natds/commit/7b92252e0ffbd8ab7cba96b684c1af0de1d9a62b))
+
+
+
+
+
 # [3.1.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.0.1...@naturacosmeticos/natds-styles@3.1.0) (2021-08-24)
 
 
