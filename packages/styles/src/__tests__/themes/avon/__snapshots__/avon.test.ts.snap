@@ -29,6 +29,16 @@ Object {
         },
       },
     },
+    "font": Object {
+      "file": Object {
+        "body": Object {
+          "bold": "Montserrat-Bold",
+          "regular": "Montserrat-Regular",
+        },
+        "display": "Montserrat-Bold",
+        "headline": "Montserrat-SemiBold",
+      },
+    },
   },
   "avatarSizes": Object {
     "huge": Object {
@@ -795,10 +805,17 @@ Object {
       "letterSpacing": 0.22,
     },
     "button": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
     },
     "caption": Object {
       "fontSize": 12,
@@ -889,6 +906,16 @@ Object {
           "height": 58,
           "width": 256,
         },
+      },
+    },
+    "font": Object {
+      "file": Object {
+        "body": Object {
+          "bold": "Montserrat-Bold",
+          "regular": "Montserrat-Regular",
+        },
+        "display": "Montserrat-Bold",
+        "headline": "Montserrat-SemiBold",
       },
     },
   },
@@ -1631,10 +1658,17 @@ Object {
       "letterSpacing": 0.22,
     },
     "button": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
     },
     "caption": Object {
       "fontSize": 12,

@@ -29,6 +29,16 @@ Object {
         },
       },
     },
+    "font": Object {
+      "file": Object {
+        "body": Object {
+          "bold": "WorkSans-Bold",
+          "regular": "WorkSans-Regular",
+        },
+        "display": "DrukCy-Bold",
+        "headline": "Recoleta-SemiBold",
+      },
+    },
   },
   "avatarSizes": Object {
     "huge": Object {
@@ -795,10 +805,17 @@ Object {
       "letterSpacing": 0.22,
     },
     "button": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
     },
     "caption": Object {
       "fontSize": 12,
@@ -889,6 +906,16 @@ Object {
           "height": 109,
           "width": 256,
         },
+      },
+    },
+    "font": Object {
+      "file": Object {
+        "body": Object {
+          "bold": "WorkSans-Bold",
+          "regular": "WorkSans-Regular",
+        },
+        "display": "DrukCy-Bold",
+        "headline": "Recoleta-SemiBold",
       },
     },
   },
@@ -1634,10 +1661,17 @@ Object {
       "letterSpacing": 0.22,
     },
     "button": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
     },
     "caption": Object {
       "fontSize": 12,

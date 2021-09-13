@@ -29,6 +29,16 @@ Object {
         },
       },
     },
+    "font": Object {
+      "file": Object {
+        "body": Object {
+          "bold": "HelveticaNowDisplay-Bd",
+          "regular": "HelveticaNowDisplay-Regular",
+        },
+        "display": "HelveticaNowDisplay-Bd",
+        "headline": "HelveticaNowDisplay-Md",
+      },
+    },
   },
   "avatarSizes": Object {
     "huge": Object {
@@ -795,10 +805,17 @@ Object {
       "letterSpacing": 0.22,
     },
     "button": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
     },
     "caption": Object {
       "fontSize": 12,
@@ -889,6 +906,16 @@ Object {
           "height": 192,
           "width": 256,
         },
+      },
+    },
+    "font": Object {
+      "file": Object {
+        "body": Object {
+          "bold": "HelveticaNowDisplay-Bd",
+          "regular": "HelveticaNowDisplay-Regular",
+        },
+        "display": "HelveticaNowDisplay-Bd",
+        "headline": "HelveticaNowDisplay-Md",
       },
     },
   },
@@ -1632,10 +1659,17 @@ Object {
       "letterSpacing": 0.22,
     },
     "button": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
     },
     "caption": Object {
       "fontSize": 12,
