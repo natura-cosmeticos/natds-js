@@ -6,11 +6,18 @@
     "large": 8
   },
   "button": {
-    "default": {
+    "label": {
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
     }
   },
   "heading1": {
@@ -123,6 +130,28 @@
     "fontWeight": {
       "regular": 400,
       "medium": 500
+    },
+    "display": {
+      "fontFamily": "Helvetica Now Display",
+      "fontWeight": 700
+    },
+    "headline": {
+      "fontFamily": "Helvetica Now Display",
+      "fontWeight": 500
+    },
+    "body": {
+      "regular": {
+        "fontFamily": "Helvetica Now Display",
+        "fontWeight": 400
+      },
+      "bold": {
+        "fontFamily": "Helvetica Now Display",
+        "fontWeight": 700
+      }
+    },
+    "fallback": {
+      "fontFamily": "Arial",
+      "fontWeight": 400
     }
   },
   "spacing": {
@@ -166,6 +195,16 @@
     "onAlert": "#ffffff"
   },
   "asset": {
+    "font": {
+      "file": {
+        "display": "HelveticaNowDisplay-Bd",
+        "headline": "HelveticaNowDisplay-Md",
+        "body": {
+          "regular": "HelveticaNowDisplay-Regular",
+          "bold": "HelveticaNowDisplay-Bd"
+        }
+      }
+    },
     "brand": {
       "neutral": {
         "a": {
