@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable max-lines */
 /* eslint-disable no-magic-numbers */
 /* eslint-disable sort-keys */

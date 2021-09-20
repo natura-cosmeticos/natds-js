@@ -1,4 +1,6 @@
-import { Asset, Color } from '@naturacosmeticos/natds-themes'
+import {
+  Asset, Body, Color, Display
+} from '@naturacosmeticos/natds-themes'
 import { fontSize } from '../tokens/fontSize'
 import {
   IAvatarSizes,
@@ -17,6 +19,9 @@ type ITypography = {
   fontWeightRegular?: number;
   fontWeightMedium?: number;
   fontWeightBold?: number;
+  body?: Body;
+  display?: Display;
+  headling?: Display;
 } & typeof fontSize;
 
 /**
