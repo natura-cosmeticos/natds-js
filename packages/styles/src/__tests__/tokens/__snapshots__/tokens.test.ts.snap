@@ -150,7 +150,7 @@ Object {
       "colorOnBackground": "#333333",
       "colorOnLink": "#ffffff",
       "colorOnPrimary": "#ffffff",
-      "colorOnPrimaryDark": "#000000",
+      "colorOnPrimaryDark": "#ffffff",
       "colorOnPrimaryLight": "#000000",
       "colorOnSecondary": "#ffffff",
       "colorOnSecondaryDark": "#ffffff",
@@ -399,10 +399,17 @@ Object {
       "letterSpacing": 0.22,
     },
     "button": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 14,
-      "fontWeight": 500,
       "letterSpacing": 1.23,
       "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
     },
     "caption": Object {
       "fontSize": 12,

@@ -19,7 +19,7 @@ export const fontSize = {
   subtitle2: theme.subtitle2 as IFont,
   body1: theme.body1 as IFont,
   body2: theme.body2 as IFont,
-  button: theme.button.default as IFont,
+  button: theme.button.label as unknown as IFont,
   caption: theme.caption as IFont,
   overline: theme.overline as IFont
 }
