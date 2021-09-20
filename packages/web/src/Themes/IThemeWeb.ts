@@ -1,4 +1,6 @@
-import { IFont, ITheme } from '@naturacosmeticos/natds-styles'
+import {
+  IFont, ITheme, Display, Body
+} from '@naturacosmeticos/natds-styles'
 import { Shadows as IShadows } from '@material-ui/core/styles/shadows'
 import { Breakpoints } from '@material-ui/core/styles/createBreakpoints'
 
@@ -43,5 +45,8 @@ export interface IThemeWebBase
     srOnly?: IFont;
     subtitle1?: IFont;
     subtitle2?: IFont;
+    headline?: Display;
+    display?: Display;
+    body?: Body;
   };
 }
