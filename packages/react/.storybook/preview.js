@@ -11,7 +11,6 @@ export const parameters = {
   viewport: { disable: true },
   grid: { disable: true },
   darkMode: {
-    current: 'light',
     dark,
     light
   }
