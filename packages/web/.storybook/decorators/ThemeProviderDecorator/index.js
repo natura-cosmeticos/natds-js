@@ -1,20 +1,18 @@
-/* eslint-disable @typescript-eslint/explicit-module-boundary-types */
 import * as React from 'react'
 import { CssBaseline } from '../../../src/Components/CssBaseline'
-import { Provider } from '../../../src/Provider'
-import { themes } from '../../../src/Themes'
+import { Provider, buildTheme } from '../../../src/Provider'
 import { Skeleton } from '../../../src/Components/Skeleton'
 
 const getTheme = (themeKey) => {
   const themesMap = {
-    avonDark: themes.avon.dark,
-    avonLight: themes.avon.light,
-    naturaDark: themes.natura.dark,
-    naturaLight: themes.natura.light,
-    theBodyShopDark: themes.theBodyShop.dark,
-    theBodyShopLight: themes.theBodyShop.light,
-    aesopDark: themes.aesop.dark,
-    aesopLight: themes.aesop.light
+    avonDark: { brand: 'avon', mode: 'dark' },
+    avonLight: { brand: 'avon', mode: 'light' },
+    naturaDark: { brand: 'natura', mode: 'dark' },
+    naturaLight: { brand: 'natura', mode: 'light' },
+    theBodyShopDark: { brand: 'theBodyShop', mode: 'dark' },
+    theBodyShopLight: { brand: 'theBodyShop', mode: 'light' },
+    aesopDark: { brand: 'aesop', mode: 'dark' },
+    aesopLight: { brand: 'aesop', mode: 'light' }
   }
 
   if (Object.keys(themesMap).includes(themeKey)) {
@@ -25,7 +23,8 @@ const getTheme = (themeKey) => {
 }
 
 export const ThemeProviderDecorator = (Story, context) => {
-  const theme = getTheme(context.globals.theme)
+  const { brand, mode } = getTheme(context.globals.theme)
+  const theme = buildTheme(brand, mode)
 
   return (
     <Provider theme={theme}>
