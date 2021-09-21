@@ -1,13 +1,10 @@
 /* eslint-disable import/prefer-default-export */
-/* eslint-disable @typescript-eslint/no-explicit-any */
-/* eslint-disable sort-keys */
 import themes from '@naturacosmeticos/natds-themes'
 import { ITypography } from 'tokens/typography/ITypography'
 
 const { typography: typographyFromTheme } = themes.natura.light
 
 export const typography: ITypography = {
-
   body: {
     regular: {
       fontFamily: `"${typographyFromTheme.body.regular.fontFamily}", ${typographyFromTheme.fallback.fontFamily}`,
@@ -27,15 +24,13 @@ export const typography: ITypography = {
     fontWeight: typographyFromTheme.headline.fontWeight
   },
 
+  fontFamily: `"${typographyFromTheme.body.regular.fontFamily}", ${typographyFromTheme.fallback.fontFamily}`,
+  fontWeightRegular: typographyFromTheme.body.regular.fontWeight,
+
   /**
-   * @deprecated `fontFamily` deprecated since v4.2.2
-   * Please, use `body` or `display` or `headline` instead
-   */
-  fontFamily: `"${typographyFromTheme.fontFamily.primary}", ${typographyFromTheme.fontFamily.secondary}`,
-  /**
-   * @deprecated `fontFamilyBrand1` deprecated since v4.2.2
-   * Please, use `body` or `display` or `headline` instead
-   */
+  * @deprecated `fontFamilyBrand1` deprecated since v4.2.2
+  * Please, use `body` or `display` or `headline` instead
+  */
   fontFamilyBrand1: `"${typographyFromTheme.fontFamily.branding} Display"`,
   /**
    * @deprecated `fontFamilyBrand2` deprecated since v4.2.2
@@ -52,11 +47,6 @@ export const typography: ITypography = {
    * Please, use `body` or `display` or `headline` instead
    */
   fontWeightLight: 300,
-  /**
-   * @deprecated `fontWeightRegular` deprecated since v4.2.2
-   * Please, use `body` or `display` or `headline` instead
-   */
-  fontWeightRegular: typographyFromTheme.fontWeight.regular,
   /**
    * @deprecated `fontWeightMedium` deprecated since v4.2.2
    * Please, use `body` or `display` or `headline` instead
