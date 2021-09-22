@@ -14,10 +14,9 @@ React components for web development inside Natura.
 
 ## Getting started
 
-Install and get started with Natura Design System components for React for web applications.
-
 ### Installation
 
+Install and get started with Natura Design System components for React for web applications.
 Design System components for React is available as an [npm package](https://www.npmjs.com/package/@naturacosmeticos/natds-web).
 
 #### Stable channel v0
@@ -42,11 +41,35 @@ Load the Roboto font with `400` and `500` font weights:
 
 > This package does not provide Roboto font, only its font family names.
 
+### Custom Fonts
+
+Load custom typography by brand:
+```html
+<link href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/[BRAND]_fonts.css" rel="stylesheet" />
+```
+
+Pass for the `Provider` the custom theme built by `buildTheme`
+
+```jsx
+import React from 'react'
+import { Provider } from "@naturacosmeticos/natds-web";
+
+const theme = buildTheme('natura', 'light', 'typography')
+
+export const App = () => (
+  <Provider theme={theme}>
+    ...
+  </Provider>
+)
+```
+
 ### Icons
 
 Load the font icons from the package `@naturacosmeticos/natds-icons`:
 
-`<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css">`
+```html
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css">
+```
 
 or load it from the node_modules with a module bundler like webpack or rollup
 
