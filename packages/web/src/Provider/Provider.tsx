@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import { MuiThemeProvider, StylesProvider, createGenerateClassName } from '@material-ui/core/styles'
 import createMuiTheme, { ThemeOptions } from '@material-ui/core/styles/createMuiTheme'
 import * as React from 'react'
@@ -17,12 +18,12 @@ export const Provider: React.FunctionComponent<IProviderProps> = (props: IProvid
   const theme: ThemeOptions = props.theme ? { ...props.theme } : { ...themes.natura.light }
   const newTheme = createMuiTheme(theme)
 
-  const generateClassName = createGenerateClassName({
+  const generateClassName = () => createGenerateClassName({
     productionPrefix: props.cssPrefix || 'natds'
   })
 
   return (
-    <StylesProvider generateClassName={generateClassName}>
+    <StylesProvider generateClassName={generateClassName()}>
       <MuiThemeProvider {...props} theme={newTheme}>
         {props.children}
       </MuiThemeProvider>

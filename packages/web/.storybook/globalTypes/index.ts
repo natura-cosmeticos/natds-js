@@ -16,7 +16,17 @@ export const globalTypes = {
       ]
     }
   },
-  custom: {}
+  custom: {
+    name: 'Flags',
+    description: 'Enable custom flags',
+    toolbar: {
+      showName: true,
+      items: [
+        { title: 'None', value: undefined },
+        { title: 'Typography', value: 'typography' }
+      ]
+    }
+  }
 }
 
 export default globalTypes
