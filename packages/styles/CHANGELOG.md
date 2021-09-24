@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.2.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.1.2...@naturacosmeticos/natds-styles@3.2.0) (2021-09-24)
+
+
+### Features
+
+* **typography:** add custom typography tokens by brand ([#1509](https://github.com/natura-cosmeticos/natds/issues/1509)) ([9e9be4b](https://github.com/natura-cosmeticos/natds/commit/9e9be4b3b7c5703b9374e0d1ed2234159e5921d7))
+
+
+
+
+
 ## [3.1.2](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.1.1...@naturacosmeticos/natds-styles@3.1.2) (2021-09-20)
 
 

@@ -1,7 +1,18 @@
-# Changelog
+# Change Log
 
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
+
+# [2.12.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.11.2...@naturacosmeticos/natds-react@2.12.0) (2021-09-24)
+
+
+### Features
+
+* **typography:** add custom typography tokens by brand ([#1509](https://github.com/natura-cosmeticos/natds-js/issues/1509)) ([9e9be4b](https://github.com/natura-cosmeticos/natds-js/commit/9e9be4b3b7c5703b9374e0d1ed2234159e5921d7))
+
+
+
+
 
 ## [2.11.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.11.1...@naturacosmeticos/natds-react@2.11.2) (2021-09-20)
 
