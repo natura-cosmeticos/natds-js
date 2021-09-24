@@ -1,3 +1,4 @@
+/* eslint-disable react/destructuring-assignment */
 import { MuiThemeProvider, StylesProvider, createGenerateClassName } from '@material-ui/core/styles'
 import createMuiTheme, { ThemeOptions } from '@material-ui/core/styles/createMuiTheme'
 import * as React from 'react'
@@ -7,7 +8,7 @@ import { IProviderProps } from './Provider.props'
 
 export { IProviderProps } from './Provider.props'
 
-export const Provider: React.FunctionComponent<IProviderProps> = (props: IProviderProps) => {
+export const Provider: React.FunctionComponent<IProviderProps> = ({ cssPrefix, children, ...props }: IProviderProps) => {
   /**
    * @todo fix(web): TS2322 - Type is not assignable to type 'ThemeOptions'. Types of some properties are incompatible.
    */
@@ -17,14 +18,14 @@ export const Provider: React.FunctionComponent<IProviderProps> = (props: IProvid
   const theme: ThemeOptions = props.theme ? { ...props.theme } : { ...themes.natura.light }
   const newTheme = createMuiTheme(theme)
 
-  const generateClassName = createGenerateClassName({
-    productionPrefix: props.cssPrefix || 'natds'
+  const generateClassName = () => createGenerateClassName({
+    productionPrefix: cssPrefix || 'natds'
   })
 
   return (
-    <StylesProvider generateClassName={generateClassName}>
-      <MuiThemeProvider {...props} theme={newTheme}>
-        {props.children}
+    <StylesProvider generateClassName={generateClassName()}>
+      <MuiThemeProvider theme={newTheme}>
+        {children}
       </MuiThemeProvider>
     </StylesProvider>
   )

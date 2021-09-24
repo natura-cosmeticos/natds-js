@@ -1,23 +1,13 @@
 import { Asset, Color } from '@naturacosmeticos/natds-themes'
-import { fontSize } from '../tokens/fontSize'
+import { fontSize } from '../tokens/typography'
 import {
   IAvatarSizes,
   IButtonSizes,
   IElevation,
   IIconSizes, IOpacity,
-  ISizes
+  ISizes,
+  ITypography
 } from '..'
-
-type ITypography = {
-  fontFamily?: string;
-  fontFamilyBrand1?: string;
-  fontFamilyBrand2?: string;
-  fontFamilyBrand3?: string;
-  fontWeightLight?: number;
-  fontWeightRegular?: number;
-  fontWeightMedium?: number;
-  fontWeightBold?: number;
-} & typeof fontSize;
 
 /**
  * Interface with theme options
@@ -103,7 +93,7 @@ export interface ITheme {
     };
   };
   sizes: ISizes;
-  typography: ITypography;
+  typography: ITypography & typeof fontSize;
   avatarSizes: IAvatarSizes;
   iconSizes: IIconSizes;
   buttonSizes: IButtonSizes;

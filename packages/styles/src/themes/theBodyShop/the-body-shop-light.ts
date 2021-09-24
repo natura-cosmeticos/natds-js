@@ -1,3 +1,5 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable max-lines */
 /* eslint-disable no-magic-numbers */
 /* eslint-disable sort-keys */
@@ -11,7 +13,7 @@ import themes from '@naturacosmeticos/natds-themes'
 import tokens from '../../tokens'
 import { ITheme } from '../ITheme'
 import { typography } from './typography'
-import { fontSize } from '../../tokens/fontSize'
+import { fontSize } from '../../tokens/typography'
 import { spacing } from '../../tokens/spacing'
 import { avatarSizes } from '../../tokens/avatarSizes'
 import { buttonSizes } from '../../tokens/buttonSizes'

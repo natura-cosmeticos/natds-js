@@ -2,7 +2,6 @@ export const globalTypes = {
   theme: {
     name: 'Theme',
     description: 'Global theme for components',
-    defaultValue: 'naturaLight',
     toolbar: {
       showName: true,
       items: [
@@ -14,6 +13,17 @@ export const globalTypes = {
         { right: '☀️', title: 'The Body Shop Light', value: 'theBodyShopLight' },
         { right: '🌑', title: 'Aesop Dark', value: 'aesopDark' },
         { right: '☀️', title: 'Aesop Light', value: 'aesopLight' }
+      ]
+    }
+  },
+  custom: {
+    name: 'Flags',
+    description: 'Enable custom flags',
+    toolbar: {
+      showName: true,
+      items: [
+        { title: 'None', value: undefined },
+        { title: 'Typography', value: 'typography' }
       ]
     }
   }

@@ -1,9 +1,11 @@
+import React from 'react'
 import { Story } from '@storybook/react'
-
+import { useTheme } from '@material-ui/core'
 import { ITypographyProps, Typography } from './Typography'
 import { variants } from './__fixtures__/variants'
 import { colors } from './__fixtures__/colors'
 import { Template, TemplateWithVariants, TemplateWithAlignments } from './Template'
+import { IThemeWebBase } from '../../Themes/IThemeWeb'
 
 export default { component: Typography, title: 'Components/Typography (text)' }
 
@@ -116,4 +118,41 @@ Subtitle1WithTextSecondaryColor.args = {
   ...Subtitle1.args,
   ...TextSecondaryColor.args,
   children: 'Subtitle 1 with text secondary color'
+}
+
+export const CustomFonts: Story<ITypographyProps> = () => {
+  const theme: IThemeWebBase = useTheme()
+
+  return (
+    <>
+      <h2 style={{
+        fontFamily: theme.typography.headline.fontFamily,
+        fontWeight: theme.typography.headline.fontWeight
+      }}
+      >
+        Headline
+      </h2>
+      <h2 style={{
+        fontFamily: theme.typography.display.fontFamily,
+        fontWeight: theme.typography.display.fontWeight
+      }}
+      >
+        Display
+      </h2>
+      <h2 style={{
+        fontFamily: theme.typography.body.regular.fontFamily,
+        fontWeight: theme.typography.body.regular.fontWeight
+      }}
+      >
+        Body Regular
+      </h2>
+      <h2 style={{
+        fontFamily: theme.typography.body.bold.fontFamily,
+        fontWeight: theme.typography.body.bold.fontWeight
+      }}
+      >
+        Body Bold
+      </h2>
+    </>
+  )
 }
