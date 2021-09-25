@@ -4,13 +4,12 @@ import { fireEvent } from '@testing-library/react'
 import Button from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
 import { ButtonProps } from './Button.props'
-import { checkIconColor } from './Button'
 
 jest.mock('../Ripple/Ripple')
 
 const buttonProps: ButtonProps = {
   onClick: () => '',
-  text: 'button'
+  children: 'button'
 }
 
 describe('Button component', () => {
@@ -21,11 +20,21 @@ describe('Button component', () => {
   })
   it('should call onClick', () => {
     const onClickMock = jest.fn()
-    const { component: { getByTestId } } = renderWithTheme(<Button {...buttonProps} onClick={onClickMock} testID="btn-test" />)
+    const { component: { getByTestId } } = renderWithTheme(<Button {...buttonProps} onClick={onClickMock} testID="btn-enable" />)
 
-    fireEvent.click(getByTestId('btn-test'))
+    fireEvent.click(getByTestId('btn-enable'))
 
     expect(onClickMock).toHaveBeenCalled()
+  })
+
+  it('should not call onClick when is disabled', () => {
+    const onClickMock = jest.fn()
+    const { component: { getByTestId } } = renderWithTheme(<Button {...buttonProps} disabled onClick={onClickMock} testID="btn-disabled" />)
+
+    fireEvent.click(getByTestId('btn-disabled'))
+
+    expect(getByTestId('btn-disabled')).toBeDisabled()
+    expect(onClickMock).not.toHaveBeenCalled()
   })
 
   it('should render correctly when the size is semi', () => {
@@ -45,8 +54,9 @@ describe('Button component', () => {
   })
 
   it('should render correctly when the variant is contained and disabled is true', () => {
-    const { styles, component } = renderWithTheme(<Button {...buttonProps} disabled />)
+    const { styles, component } = renderWithTheme(<Button {...buttonProps} disabled testID="btn-disabled" />)
 
+    expect(component.getByTestId('btn-disabled')).toBeDisabled()
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
   it('should render correctly when the variant is outlined', () => {
@@ -86,18 +96,5 @@ describe('Button component', () => {
 
     expect(component.getByTestId('icon-filled-action-check')).toBeTruthy()
     expect([styles.toString(), component.container]).toMatchSnapshot()
-  })
-})
-
-describe('CheckIconColor', () => {
-  it('should return mediumEmphasis when the button is disabled and is different than contained variant', () => {
-    const checkedIconColor = checkIconColor('text', true)
-
-    expect(checkedIconColor).toBe('mediumEmphasis')
-  })
-  it('should return highEmphasis when the button is disabled and is the contained variant', () => {
-    const checkedIconColor = checkIconColor('contained', true)
-
-    expect(checkedIconColor).toBe('highEmphasis')
   })
 })

@@ -1,47 +1,50 @@
 import React from 'react'
+import { Theme } from '@naturacosmeticos/natds-themes'
+import { useTheme } from 'react-jss'
+import { IconColor } from 'components/Icon/Icon.props'
 import { ButtonProps } from './Button.props'
 import { Icon } from '../Icon'
 import { Ripple } from '../Ripple'
 import styles from './Button.styles'
 
-export const checkIconColor = (variant: string, isDisabled: boolean) => (isDisabled && variant !== 'contained' ? 'mediumEmphasis' : 'highEmphasis')
-
 const Button = ({
-  ariaLabel,
-  classes = '',
+  children,
+  className = '',
   disabled = false,
   fullWidth = false,
+  iconPosition = 'right',
   onClick,
   size = 'semiX',
   testID,
-  text,
+  type = 'button',
   variant = 'contained',
-  iconPosition = 'right',
   ...rest
 }: ButtonProps): JSX.Element => {
   const { button, label, labelContainer } = styles({
-    size,
-    fullWidth,
-    variant,
     disabled,
+    fullWidth,
     iconPosition,
+    size,
+    variant,
     ...rest
   })
+
+  const theme: Theme = useTheme()
+  const iconColor = theme.button[variant].color.enable.label as IconColor
 
   return (
     <Ripple disabled={disabled} fullWidth={fullWidth}>
       <button
-        aria-label={ariaLabel}
-        className={`${button} ${classes}`}
+        className={`${button} ${className}`}
         data-testid={testID}
         disabled={disabled}
         onClick={onClick}
-        type="button"
+        type={type}
       >
-        <span className={labelContainer}>
-          <span className={label}>{text}</span>
-          {rest.showIcon && <Icon name={rest.iconName} color={checkIconColor(variant, disabled)} />}
-        </span>
+        <div className={labelContainer}>
+          <span className={label}>{children}</span>
+          {rest.showIcon && <Icon name={rest.iconName} color={iconColor} />}
+        </div>
       </button>
     </Ripple>
   )

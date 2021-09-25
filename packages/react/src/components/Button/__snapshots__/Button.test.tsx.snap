@@ -9,26 +9,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -38,7 +24,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -48,8 +34,9 @@ Array [
 }
 .button-d0-0-2-4 {
   background-color: #f4ab34;
-  border: 0;
+  border: 1px solid #FFFFFF00;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -57,13 +44,19 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+  color: #333333;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #ef8426;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #A67423;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
-.label-d2-0-2-6 {
-  color: #333333;
-}",
+.label-d2-0-2-6 {}",
   <div>
     <div
       data-testid="ripple"
@@ -72,7 +65,7 @@ Array [
         class="button-0-2-1 button-d0-0-2-4 "
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -80,7 +73,7 @@ Array [
           >
             button
           </span>
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -96,26 +89,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -125,7 +104,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -135,8 +114,9 @@ Array [
 }
 .button-d0-0-2-4 {
   background-color: #f4ab34;
-  border: 0;
+  border: 1px solid #FFFFFF00;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
   height: 48px;
   padding-left: 16px;
   padding-right: 16px;
@@ -144,13 +124,19 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+  color: #333333;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #ef8426;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #A67423;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
-.label-d2-0-2-6 {
-  color: #333333;
-}",
+.label-d2-0-2-6 {}",
   <div>
     <div
       data-testid="ripple"
@@ -159,7 +145,7 @@ Array [
         class="button-0-2-1 button-d0-0-2-4 "
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -167,7 +153,7 @@ Array [
           >
             button
           </span>
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -183,26 +169,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -212,7 +184,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -222,8 +194,9 @@ Array [
 }
 .button-d0-0-2-4 {
   background-color: #f4ab34;
-  border: 0;
+  border: 1px solid #FFFFFF00;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
   height: 32px;
   padding-left: 4px;
   padding-right: 4px;
@@ -231,13 +204,19 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+  color: #333333;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #ef8426;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #A67423;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
-.label-d2-0-2-6 {
-  color: #333333;
-}",
+.label-d2-0-2-6 {}",
   <div>
     <div
       data-testid="ripple"
@@ -246,7 +225,7 @@ Array [
         class="button-0-2-1 button-d0-0-2-4 "
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -254,7 +233,7 @@ Array [
           >
             button
           </span>
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -270,26 +249,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -299,7 +264,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -309,8 +274,9 @@ Array [
 }
 .button-d0-0-2-4 {
   background-color: #f4ab34;
-  border: 0;
+  border: 1px solid #FFFFFF00;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -318,23 +284,30 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+  color: #333333;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #ef8426;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #A67423;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
-.label-d2-0-2-6 {
-  color: #333333;
-}",
+.label-d2-0-2-6 {}",
   <div>
     <div
       data-testid="ripple"
     >
       <button
         class="button-0-2-1 button-d0-0-2-4 "
+        data-testid="btn-disabled"
         disabled=""
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -342,7 +315,7 @@ Array [
           >
             button
           </span>
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -358,26 +331,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -387,7 +346,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -396,24 +355,30 @@ Array [
   text-transform: uppercase;
 }
 .button-d0-0-2-4 {
-  background-color: transparent;
+  background-color: #FFFFFF00;
   border: 1px solid #f4ab34;
   box-shadow: none;
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: transparent;
+  background-color: #FFFFFF00;
   border: 1px solid #bbbbbb;
+  color: #777777;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #f1f3f5;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #e9ecef;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
-.label-d2-0-2-6 {
-  color: #333333;
-}",
+.label-d2-0-2-6 {}",
   <div>
     <div
       data-testid="ripple"
@@ -422,7 +387,7 @@ Array [
         class="button-0-2-1 button-d0-0-2-4 "
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -430,7 +395,7 @@ Array [
           >
             button
           </span>
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -446,26 +411,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -475,7 +426,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -484,24 +435,30 @@ Array [
   text-transform: uppercase;
 }
 .button-d0-0-2-4 {
-  background-color: transparent;
+  background-color: #FFFFFF00;
   border: 1px solid #f4ab34;
   box-shadow: none;
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: transparent;
+  background-color: #FFFFFF00;
   border: 1px solid #bbbbbb;
+  color: #777777;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #f1f3f5;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #e9ecef;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
-.label-d2-0-2-6 {
-  color: #777777;
-}",
+.label-d2-0-2-6 {}",
   <div>
     <div
       data-testid="ripple"
@@ -511,7 +468,7 @@ Array [
         disabled=""
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -519,7 +476,7 @@ Array [
           >
             button
           </span>
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -535,26 +492,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -564,7 +507,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -573,23 +516,30 @@ Array [
   text-transform: uppercase;
 }
 .button-d0-0-2-4 {
-  background-color: transparent;
-  border: 0;
+  background-color: #FFFFFF00;
+  border: 1px solid #FFFFFF00;
   box-shadow: none;
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: transparent;
+  background-color: #FFFFFF00;
+  border: 1px solid #FFFFFF00;
+  color: #777777;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #f1f3f5;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #e9ecef;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
-.label-d2-0-2-6 {
-  color: #333333;
-}",
+.label-d2-0-2-6 {}",
   <div>
     <div
       data-testid="ripple"
@@ -598,7 +548,7 @@ Array [
         class="button-0-2-1 button-d0-0-2-4 "
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -606,7 +556,7 @@ Array [
           >
             button
           </span>
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -622,26 +572,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -651,7 +587,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -660,23 +596,30 @@ Array [
   text-transform: uppercase;
 }
 .button-d0-0-2-4 {
-  background-color: transparent;
-  border: 0;
+  background-color: #FFFFFF00;
+  border: 1px solid #FFFFFF00;
   box-shadow: none;
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
   width: auto;
 }
 .button-d0-0-2-4:disabled {
-  background-color: transparent;
+  background-color: #FFFFFF00;
+  border: 1px solid #FFFFFF00;
+  color: #777777;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #f1f3f5;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #e9ecef;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
-.label-d2-0-2-6 {
-  color: #777777;
-}",
+.label-d2-0-2-6 {}",
   <div>
     <div
       data-testid="ripple"
@@ -686,7 +629,7 @@ Array [
         disabled=""
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -694,7 +637,7 @@ Array [
           >
             button
           </span>
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -710,26 +653,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -739,7 +668,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -749,8 +678,9 @@ Array [
 }
 .button-d0-0-2-4 {
   background-color: #f4ab34;
-  border: 0;
+  border: 1px solid #FFFFFF00;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -758,13 +688,19 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+  color: #333333;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #ef8426;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #A67423;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
-.label-d2-0-2-6 {
-  color: #333333;
-}",
+.label-d2-0-2-6 {}",
   <div>
     <div
       data-testid="ripple"
@@ -773,7 +709,7 @@ Array [
         class="button-0-2-1 button-d0-0-2-4 "
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -781,7 +717,7 @@ Array [
           >
             button
           </span>
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -796,7 +732,6 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-8 {
-  color: #333333;
   font-size: 24px;
 }
 .button-0-2-1 {
@@ -806,26 +741,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -835,7 +756,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -845,8 +766,9 @@ Array [
 }
 .button-d0-0-2-4 {
   background-color: #f4ab34;
-  border: 0;
+  border: 1px solid #FFFFFF00;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -854,12 +776,19 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+  color: #333333;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #ef8426;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #A67423;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row;
 }
 .label-d2-0-2-6 {
-  color: #333333;
   margin-right: 8px;
 }",
   <div>
@@ -870,7 +799,7 @@ Array [
         class="button-0-2-1 button-d0-0-2-4 "
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -884,7 +813,7 @@ Array [
             data-testid="icon-filled-action-check"
             role="img"
           />
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -899,7 +828,6 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-8 {
-  color: #333333;
   font-size: 24px;
 }
 .button-0-2-1 {
@@ -909,26 +837,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -938,7 +852,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -948,8 +862,9 @@ Array [
 }
 .button-d0-0-2-4 {
   background-color: #f4ab34;
-  border: 0;
+  border: 1px solid #FFFFFF00;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -957,12 +872,19 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+  color: #333333;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #ef8426;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #A67423;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row-reverse;
 }
 .label-d2-0-2-6 {
-  color: #333333;
   margin-left: 8px;
 }",
   <div>
@@ -973,7 +895,7 @@ Array [
         class="button-0-2-1 button-d0-0-2-4 "
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -987,7 +909,7 @@ Array [
             data-testid="icon-outlined-default-mockup"
             role="img"
           />
-        </span>
+        </div>
       </button>
     </div>
   </div>,
@@ -1002,7 +924,6 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-8 {
-  color: #333333;
   font-size: 24px;
 }
 .button-0-2-1 {
@@ -1012,26 +933,12 @@ Array [
   position: relative;
   border-radius: 4px;
 }
-.button-0-2-1:after {
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-  content: \\" \\";
-  opacity: 0;
-  position: absolute;
-  background-color: #000000;
-}
-.button-0-2-1:hover:not([disabled]):after {
-  opacity: 0.04;
-}
-.button-0-2-1:focus:not([disabled]):after {
-  opacity: 0.12;
-}
 .button-0-2-1:disabled {
   cursor: default;
   box-shadow: none;
 }
+.button-0-2-1:hover:not([disabled]) {}
+.button-0-2-1:focus:not([disabled]) {}
 .labelContainer-0-2-2 {
   display: flex;
   align-items: center;
@@ -1041,7 +948,7 @@ Array [
   overflow: hidden;
   font-size: 14px;
   text-align: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
   font-weight: 500;
   user-select: none;
   white-space: nowrap;
@@ -1051,8 +958,9 @@ Array [
 }
 .button-d0-0-2-4 {
   background-color: #f4ab34;
-  border: 0;
+  border: 1px solid #FFFFFF00;
   box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+  color: #333333;
   height: 40px;
   padding-left: 8px;
   padding-right: 8px;
@@ -1060,12 +968,19 @@ Array [
 }
 .button-d0-0-2-4:disabled {
   background-color: #bbbbbb;
+  border: 1px solid #FFFFFF00;
+  color: #333333;
+}
+.button-d0-0-2-4:hover:not([disabled]) {
+  background-color: #ef8426;
+}
+.button-d0-0-2-4:focus:not([disabled]) {
+  background-color: #A67423;
 }
 .labelContainer-d1-0-2-5 {
   flex-direction: row;
 }
 .label-d2-0-2-6 {
-  color: #333333;
   margin-right: 8px;
 }",
   <div>
@@ -1076,7 +991,7 @@ Array [
         class="button-0-2-1 button-d0-0-2-4 "
         type="button"
       >
-        <span
+        <div
           class="labelContainer-0-2-2 labelContainer-d1-0-2-5"
         >
           <span
@@ -1090,7 +1005,7 @@ Array [
             data-testid="icon-outlined-default-mockup"
             role="img"
           />
-        </span>
+        </div>
       </button>
     </div>
   </div>,

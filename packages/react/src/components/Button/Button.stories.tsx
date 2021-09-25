@@ -6,7 +6,7 @@ import StoryContainer from '../../helpers/StoryContainer'
 const componentStatus = `
 ---
 
-**NOTE**: This component is available in the following variants:
+**NOTE FOR UXs**: This component is available in the following variants:
 
   - ✅ \`contained\`
   - ✅ \`outlined\`
@@ -31,15 +31,17 @@ export default {
   title: 'Components/Button',
   component: Button,
   parameters: {
-    componentSubtitle:
-      'Buttons allow users to take actions, and make choices, with a single tap',
+    componentSubtitle: 'Buttons allow users to take actions, and make choices, with a single tap',
     docs: { description: { component: componentStatus } },
     actions: { argTypesRegex: '^on.*' }
   }
 } as Meta
 
-export const Playground: Story<ButtonProps> = (args) => <Button {...args} onClick={() => console.log('clicked!')} />
-Playground.args = { text: 'button' }
+export const Playground: Story<ButtonProps> = (args) => <Button {...args} />
+Playground.args = {
+  children: 'button',
+  onClick: () => console.log('clicked!')
+}
 
 export const Variants: Story<ButtonProps> = (args) => (
   <StoryContainer>
@@ -71,14 +73,11 @@ Disabled.args = { ...Playground.args, disabled: true }
 
 export const Icon: Story<ButtonProps> = (args) => (
   <StoryContainer>
-    <Button {...args} />
+    <Button {...args} showIcon iconName="outlined-default-mockup" iconPosition="left" />
+    <Button {...args} showIcon iconName="outlined-default-mockup" />
   </StoryContainer>
 )
-Icon.args = {
-  ...Playground.args,
-  showIcon: true,
-  iconName: 'outlined-default-mockup'
-}
+Icon.args = { ...Playground.args }
 
 export const FullWidth: Story<ButtonProps> = Playground.bind({})
 FullWidth.args = { ...Playground.args, fullWidth: true }
