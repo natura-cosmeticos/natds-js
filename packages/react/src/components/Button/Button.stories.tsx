@@ -53,11 +53,23 @@ export const Variants: Story<ButtonProps> = (args) => (
 Variants.args = { ...Playground.args }
 
 export const Sizes: Story<ButtonProps> = (args) => (
-  <StoryContainer>
-    <Button {...args} size="semi" />
-    <Button {...args} size="semiX" />
-    <Button {...args} size="medium" />
-  </StoryContainer>
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+    <div style={{ display: 'flex', gap: 8 }}>
+      <Button {...args} size="semi" />
+      <Button {...args} size="semiX" />
+      <Button {...args} size="medium" />
+    </div>
+    <div style={{ display: 'flex', gap: 8 }}>
+      <Button {...args} variant="outlined" size="semi" />
+      <Button {...args} variant="outlined" size="semiX" />
+      <Button {...args} variant="outlined" size="medium" />
+    </div>
+    <div style={{ display: 'flex', gap: 8 }}>
+      <Button {...args} variant="text" size="semi" />
+      <Button {...args} variant="text" size="semiX" />
+      <Button {...args} variant="text" size="medium" />
+    </div>
+  </div>
 )
 Sizes.args = { ...Playground.args }
 
@@ -72,12 +84,28 @@ export const Disabled: Story<ButtonProps> = (args) => (
 Disabled.args = { ...Playground.args, disabled: true }
 
 export const Icon: Story<ButtonProps> = (args) => (
-  <StoryContainer>
-    <Button {...args} showIcon iconName="outlined-default-mockup" iconPosition="left" />
-    <Button {...args} showIcon iconName="outlined-default-mockup" />
-  </StoryContainer>
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+    <div style={{ display: 'flex', gap: 8 }}>
+      <Button {...args} showIcon iconName="outlined-default-mockup" iconPosition="left" />
+      <Button {...args} showIcon iconName="outlined-default-mockup" />
+    </div>
+    <div style={{ display: 'flex', gap: 8 }}>
+      <Button {...args} variant="outlined" showIcon iconName="outlined-default-mockup" iconPosition="left" />
+      <Button {...args} variant="outlined" showIcon iconName="outlined-default-mockup" />
+    </div>
+    <div style={{ display: 'flex', gap: 8 }}>
+      <Button {...args} variant="text" showIcon iconName="outlined-default-mockup" iconPosition="left" />
+      <Button {...args} variant="text" showIcon iconName="outlined-default-mockup" />
+    </div>
+  </div>
 )
 Icon.args = { ...Playground.args }
 
-export const FullWidth: Story<ButtonProps> = Playground.bind({})
+export const FullWidth: Story<ButtonProps> = (args) => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+    <Button {...args} />
+    <Button {...args} variant="outlined" />
+    <Button {...args} variant="text" />
+  </div>
+)
 FullWidth.args = { ...Playground.args, fullWidth: true }
