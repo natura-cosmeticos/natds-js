@@ -40,10 +40,12 @@ const styles = createUseStyles((theme: Theme) => ({
       cursor: 'default'
     },
     '&:hover:not([disabled])': {
-      backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.hover.background
+      backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.hover.background,
+      border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.hover.border}`
     },
     '&:focus:not([disabled])': {
-      backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.focus.background
+      backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.focus.background,
+      border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.focus.border}`
     }
   },
   labelContainer: {
@@ -59,7 +61,6 @@ const styles = createUseStyles((theme: Theme) => ({
     letterSpacing: theme.button.label.letterSpacing,
     marginLeft: getLabelMargin(theme, 'left'),
     marginRight: getLabelMargin(theme, 'right'),
-    overflow: 'hidden',
     textAlign: 'center',
     textOverflow: 'ellipsis',
     textTransform: 'uppercase',

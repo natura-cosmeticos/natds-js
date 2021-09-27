@@ -22,7 +22,6 @@ const styles = createUseStyles((theme: Theme) => ({
     cursor: ({ disabled }: RippleStyleProps) => (disabled ? 'default' : 'pointer'),
     display: ({ fullWidth }: RippleStyleProps) => (fullWidth ? 'block' : 'inline-block'),
     position: 'relative',
-    alignSelf: 'start',
     outline: 'none',
     '&:focus:after': {
       extend: 'sharedRippleEffect',
