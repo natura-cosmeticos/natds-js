@@ -41,11 +41,13 @@ const styles = createUseStyles((theme: Theme) => ({
     },
     '&:hover:not([disabled])': {
       backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.hover.background,
-      border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.hover.border}`
+      border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.hover.border}`,
+      color: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.hover.label
     },
     '&:focus:not([disabled])': {
       backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.focus.background,
-      border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.focus.border}`
+      border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.focus.border}`,
+      color: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.focus.label
     }
   },
   labelContainer: {
