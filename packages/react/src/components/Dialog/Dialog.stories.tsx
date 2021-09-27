@@ -68,6 +68,6 @@ export const Playground: Story<DialogProps> = (args) => {
 }
 Playground.args = {
   role: 'dialog',
-  open: false,
+  open: true,
   testID: 'ds-dialog'
 }
