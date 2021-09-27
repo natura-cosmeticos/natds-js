@@ -9,9 +9,11 @@ mkdir -p build
 
 if [ -z $(./.cicd/skip-commit.sh) ]; then
 
-  OUTPUT_PATH=build/${FOLDER_NAME}
-  mkdir -p ${OUTPUT_PATH}
-  echo "Created ${FOLDER_NAME} folder"
+  if [ -z $1 ]; then
+    OUTPUT_PATH=build/${FOLDER_NAME}
+    mkdir -p ${OUTPUT_PATH}
+    echo "Created ${FOLDER_NAME} folder"
+  fi
 
   yarn build:storybook
   cp -r packages/web/docs/dist/* ${OUTPUT_PATH}
