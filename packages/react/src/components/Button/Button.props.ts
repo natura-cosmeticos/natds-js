@@ -4,24 +4,29 @@ import { Size } from '@naturacosmeticos/natds-themes'
 export type IconPosition = 'left' | 'right'
 export type ButtonSize = keyof Pick<Size, 'semi' | 'semiX' | 'medium'>
 export type ButtonVariant = 'contained' | 'outlined' | 'text'
-
+export type ButtonType = 'button' | 'reset' | 'submit'
 export interface ButtonBaseProps {
-
   /**
-   * Button description
+   * Specify a description to your button.
+   * Use it in cases where a text label is not visible on the screen.
    */
   ariaLabel?: string
 
   /**
-   * If `true`, the button will be disabled.
+   * Specify whether the Button should be disabled, or not
    * @default false
    */
   disabled?: boolean;
 
   /**
-   * Override or extend the styles applied to the component.
+   * Specify the content of your Button
    */
-  classes?: string;
+  children: React.ReactNode
+
+  /**
+   * Specify an optional className to be added to your Button
+   */
+  className?: string;
 
   /**
    * If `true`, the button will occupy 100% of the width
@@ -30,12 +35,13 @@ export interface ButtonBaseProps {
   fullWidth?: boolean;
 
   /**
-   * Click handler
+   * Provide a function to be called when the button element is clicked
    */
   onClick: () => void;
 
   /**
-  * The size of the button
+  * Specify the size of the button, from a list of available sizes.
+  * If no size is specified, the 'semiX' size will be applied as default.
   * @default semiX
   */
   size?: ButtonSize;
@@ -46,13 +52,14 @@ export interface ButtonBaseProps {
   testID?: string;
 
   /**
-   * The text content of the button
-   * @default button
+   * Optional prop to specify the type of the Button
+   * @default 'button'
    */
-  text: string;
+  type?: ButtonType;
 
   /**
-   * The variant to use.
+   * Specify the variant of Button you want to create.
+   * If no variant is specified, a 'contained' button will be rendered.
    * @default contained
    */
   variant?: ButtonVariant;
@@ -61,13 +68,14 @@ export interface ButtonBaseProps {
 
 export type ButtonWithIcon = ButtonBaseProps & {
   /**
-   * If `true`, will show an icon on the right
+   * If `true`, will display an icon on the right of text label
    * @default false
    */
   showIcon: true
 
   /**
-   * Set the icon position
+   * Specify the icon position
+   * @default 'right'
    */
   iconPosition?: IconPosition
 

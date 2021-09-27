@@ -31,14 +31,15 @@ const Counter = ({
       <div className={buttonGroup}>
         <Button
           ariaLabel={ariaLabelDecrementButton}
-          classes={buttonLeft}
+          className={buttonLeft}
           disabled={disabled || minReached}
           onClick={onDecrement}
           size={size}
           testID="onDecrement-btn"
-          text="-"
           variant="text"
-        />
+        >
+          -
+        </Button>
         <input
           className={inputBase}
           readOnly
@@ -46,14 +47,15 @@ const Counter = ({
         />
         <Button
           ariaLabel={ariaLabelIncrementButton}
-          classes={buttonRigth}
+          className={buttonRigth}
           disabled={disabled || maxReached}
           onClick={onIncrement}
           size={size}
           testID="onIncrement-btn"
-          text="+"
           variant="text"
-        />
+        >
+          +
+        </Button>
       </div>
     </div>
   )

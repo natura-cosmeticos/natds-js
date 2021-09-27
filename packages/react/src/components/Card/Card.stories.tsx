@@ -41,7 +41,7 @@ export const Playground: Story<CardProps> = (args) => {
           This is just an example of the Card component
           containing an image, a text and a button
         </p>
-        <Button text="button" onClick={() => ''} fullWidth />
+        <Button onClick={() => ''} fullWidth>button</Button>
       </div>
     </Card>
   )
