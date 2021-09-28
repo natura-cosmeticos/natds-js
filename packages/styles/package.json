@@ -60,9 +60,6 @@
     "test:output": "yarn test:coverage --json --outputFile=.jest-test-results.json || true",
     "test:watch": "yarn test --watch"
   },
-  "devDependencies": {
-    "codecov": "3.8.2"
-  },
   "dependencies": {
     "@naturacosmeticos/natds-themes": "0.12.2",
     "hex-to-rgba": "2.0.1"
