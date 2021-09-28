@@ -1,0 +1,221 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge component Dot variant should render correctly 1`] = `
+Array [
+  ".badge-0-2-1 {
+  display: flex;
+  position: relative;
+}
+.badge-0-2-1:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: keyframes-badge-0-2-3 1.6s infinite;
+  transition: opacity 4ms linear, transition 4ms linear;
+}
+.label-0-2-2 {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}
+@keyframes keyframes-badge-0-2-3 {
+  0% {
+    opacity: 0.48;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.25);
+  }
+}
+  .badge-d0-0-2-4 {
+    background-color: #e74627;
+    border-radius: 4px;
+    height: 8px;
+    width: 8px;
+  }
+  .badge-d0-0-2-4:after {
+    background-color: #e74627;
+    border-radius: 4px;
+  }
+  .label-d1-0-2-5 {
+    color: #ffffff;
+  }",
+  <div>
+    <div
+      class="badge-0-2-1 badge-d0-0-2-4 "
+    />
+  </div>,
+]
+`;
+
+exports[`Badge component Pulse variant should render correctly 1`] = `
+Array [
+  ".badge-0-2-1 {
+  display: flex;
+  position: relative;
+}
+.badge-0-2-1:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: keyframes-badge-0-2-3 1.6s infinite;
+  transition: opacity 4ms linear, transition 4ms linear;
+}
+.label-0-2-2 {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}
+@keyframes keyframes-badge-0-2-3 {
+  0% {
+    opacity: 0.48;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.25);
+  }
+}
+  .badge-d0-0-2-4 {
+    background-color: #e74627;
+    border-radius: 4px;
+    height: 8px;
+    width: 8px;
+  }
+  .badge-d0-0-2-4:after {
+    background-color: #e74627;
+    border-radius: 4px;
+    content: \\"\\";
+  }
+  .label-d1-0-2-5 {
+    color: #ffffff;
+  }",
+  <div>
+    <div
+      class="badge-0-2-1 badge-d0-0-2-4 "
+    />
+  </div>,
+]
+`;
+
+exports[`Badge component Standard variant should render correctly 1`] = `
+Array [
+  ".badge-0-2-1 {
+  display: flex;
+  position: relative;
+}
+.badge-0-2-1:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: keyframes-badge-0-2-3 1.6s infinite;
+  transition: opacity 4ms linear, transition 4ms linear;
+}
+.label-0-2-2 {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}
+@keyframes keyframes-badge-0-2-3 {
+  0% {
+    opacity: 0.48;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.25);
+  }
+}
+  .badge-d0-0-2-4 {
+    background-color: #e74627;
+    border-radius: 8px;
+    height: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .badge-d0-0-2-4:after {
+    background-color: #e74627;
+    border-radius: 8px;
+  }
+  .label-d1-0-2-5 {
+    color: #ffffff;
+  }",
+  <div>
+    <div
+      class="badge-0-2-1 badge-d0-0-2-4 "
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-5"
+      >
+        99
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Badge component Standard variant should render the limit with a plus sign when it is less than the given value. 1`] = `
+Array [
+  ".badge-0-2-1 {
+  display: flex;
+  position: relative;
+}
+.badge-0-2-1:after {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  animation: keyframes-badge-0-2-3 1.6s infinite;
+  transition: opacity 4ms linear, transition 4ms linear;
+}
+.label-0-2-2 {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}
+@keyframes keyframes-badge-0-2-3 {
+  0% {
+    opacity: 0.48;
+    transform: scale(1);
+  }
+  100% {
+    opacity: 0;
+    transform: scale(2.25);
+  }
+}
+  .badge-d0-0-2-4 {
+    background-color: #e74627;
+    border-radius: 8px;
+    height: 16px;
+    padding-left: 4px;
+    padding-right: 4px;
+  }
+  .badge-d0-0-2-4:after {
+    background-color: #e74627;
+    border-radius: 8px;
+  }
+  .label-d1-0-2-5 {
+    color: #ffffff;
+  }",
+  <div>
+    <div
+      class="badge-0-2-1 badge-d0-0-2-4 "
+      data-testid="ds-standard-badge"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-5"
+      >
+        99+
+      </span>
+    </div>
+  </div>,
+]
+`;
