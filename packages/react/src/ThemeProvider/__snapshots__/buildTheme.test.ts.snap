@@ -40,6 +40,41 @@ Object {
       },
     },
   },
+  "avatar": Object {
+    "fallback": Object {
+      "fontFamily": "Arial",
+      "fontWeight": 400,
+    },
+    "largeXXX": Object {
+      "fontSize": 48,
+      "letterSpacing": 0,
+      "lineHeight": 1.5,
+    },
+    "medium": Object {
+      "fontSize": 24,
+      "letterSpacing": 0,
+      "lineHeight": 1.5,
+    },
+    "primary": Object {
+      "fontFamily": "Roboto",
+      "fontWeight": 400,
+    },
+    "semi": Object {
+      "fontSize": 14,
+      "letterSpacing": 0.22,
+      "lineHeight": 1.5,
+    },
+    "semiX": Object {
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.5,
+    },
+    "standard": Object {
+      "fontSize": 12,
+      "letterSpacing": 0,
+      "lineHeight": 1.5,
+    },
+  },
   "badge": Object {
     "color": Object {
       "alert": Object {
@@ -249,6 +284,34 @@ Object {
     "surface": "#ffffff",
     "warning": "#fcc433",
   },
+  "counter": Object {
+    "content": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.25,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
+    },
+    "label": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 14,
+      "letterSpacing": 0.11,
+      "lineHeight": 1.25,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 500,
+      },
+    },
+  },
   "dialog": Object {
     "body": Object {
       "fallback": Object {
@@ -354,6 +417,53 @@ Object {
       },
     },
   },
+  "rating": Object {
+    "counter": Object {
+      "label": Object {
+        "fallback": Object {
+          "fontFamily": "Arial",
+          "fontWeight": 400,
+        },
+        "fontSize": 14,
+        "letterSpacing": 0.22,
+        "lineHeight": 1.5,
+        "primary": Object {
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+        },
+      },
+    },
+    "input": Object {
+      "label": Object {
+        "fallback": Object {
+          "fontFamily": "Arial",
+          "fontWeight": 400,
+        },
+        "fontSize": 12,
+        "letterSpacing": 0.38,
+        "lineHeight": 1.5,
+        "primary": Object {
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+        },
+      },
+    },
+  },
+  "shortcut": Object {
+    "label": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 12,
+      "letterSpacing": 0.38,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
+    },
+  },
   "size": Object {
     "huge": 96,
     "hugeX": 128,
@@ -394,6 +504,21 @@ Object {
     "fontWeight": 500,
     "letterSpacing": 0.11,
   },
+  "tab": Object {
+    "label": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 14,
+      "letterSpacing": 1.23,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 500,
+      },
+    },
+  },
   "tag": Object {
     "label": Object {
       "fallback": Object {
@@ -411,27 +536,43 @@ Object {
   },
   "textField": Object {
     "content": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 16,
       "letterSpacing": 0.51,
       "lineHeight": 1.25,
-    },
-    "fallback": Object {
-      "fontFamily": "Arial",
-      "fontWeight": 400,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
     },
     "helperText": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 12,
       "letterSpacing": 0.38,
       "lineHeight": 1.25,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
     },
     "label": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
       "fontSize": 14,
       "letterSpacing": 0.11,
       "lineHeight": 1.25,
-    },
-    "primary": Object {
-      "fontFamily": "Roboto",
-      "fontWeight": 500,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 500,
+      },
     },
   },
   "typography": Object {
