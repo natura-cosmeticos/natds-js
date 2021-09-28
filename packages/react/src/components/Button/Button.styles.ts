@@ -2,7 +2,7 @@
 /* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
-import { ButtonProps, ButtonVariant } from './Button.props'
+import { ButtonProps } from './Button.props'
 
 const getPaddingStyles = (theme: Theme) => ({ size }: ButtonProps) => {
   const padding = {
@@ -19,11 +19,11 @@ const getIconPosition = () => ({ showIcon, iconPosition }: ButtonProps) => (show
 
 const styles = createUseStyles((theme: Theme) => ({
   button: {
-    backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.enable.background,
-    border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.enable.border}`,
+    backgroundColor: ({ variant }: ButtonProps) => variant && theme.button[variant].color.enable.background,
+    border: ({ variant }: ButtonProps) => variant && `1px solid ${theme.button[variant].color.enable.border}`,
     borderRadius: theme.button.borderRadius,
-    boxShadow: ({ variant }: { variant: ButtonVariant }) => (variant === 'contained' ? theme.elevation.tiny : 'none'),
-    color: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.enable.label,
+    boxShadow: ({ variant }: ButtonProps) => variant && (variant === 'contained' ? theme.elevation.tiny : 'none'),
+    color: ({ variant }: ButtonProps) => variant && theme.button[variant].color.enable.label,
     cursor: 'pointer',
     height: ({ size }: ButtonProps) => size && theme.size[size],
     outline: 0,
@@ -33,21 +33,21 @@ const styles = createUseStyles((theme: Theme) => ({
     position: 'relative',
     width: ({ fullWidth }: ButtonProps) => (fullWidth ? '100%' : 'auto'),
     '&:disabled': {
-      backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.disable.background,
-      border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.disable.border}`,
+      backgroundColor: ({ variant }: ButtonProps) => variant && theme.button[variant].color.disable.background,
+      border: ({ variant }: ButtonProps) => variant && `1px solid ${theme.button[variant].color.disable.border}`,
       boxShadow: theme.elevation.none,
-      color: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.disable.label,
+      color: ({ variant }: ButtonProps) => variant && theme.button[variant].color.disable.label,
       cursor: 'default'
     },
     '&:hover:not([disabled])': {
-      backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.hover.background,
-      border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.hover.border}`,
-      color: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.hover.label
+      backgroundColor: ({ variant }: ButtonProps) => variant && theme.button[variant].color.hover.background,
+      border: ({ variant }: ButtonProps) => variant && `1px solid ${theme.button[variant].color.hover.border}`,
+      color: ({ variant }: ButtonProps) => variant && theme.button[variant].color.hover.label
     },
     '&:focus:not([disabled])': {
-      backgroundColor: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.focus.background,
-      border: ({ variant }: { variant: ButtonVariant }) => `1px solid ${theme.button[variant].color.focus.border}`,
-      color: ({ variant }: { variant: ButtonVariant }) => theme.button[variant].color.focus.label
+      backgroundColor: ({ variant }: ButtonProps) => variant && theme.button[variant].color.focus.background,
+      border: ({ variant }: ButtonProps) => variant && `1px solid ${theme.button[variant].color.focus.border}`,
+      color: ({ variant }: ButtonProps) => variant && theme.button[variant].color.focus.label
     }
   },
   labelContainer: {
