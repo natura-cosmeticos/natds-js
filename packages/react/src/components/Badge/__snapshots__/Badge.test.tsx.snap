@@ -1,0 +1,132 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Badge component Dot variant should render correctly 1`] = `
+Array [
+  ".badge-0-2-1 {
+  display: flex;
+}
+.label-0-2-2 {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}
+.badge-d0-0-2-3 {
+  background-color: #e74627;
+  border-radius: 4px;
+  height: 8px;
+  width: 8px;
+}
+.label-d1-0-2-4 {
+  color: #ffffff;
+}",
+  <div>
+    <div
+      class="badge-0-2-1 badge-d0-0-2-3 undefined"
+    />
+  </div>,
+]
+`;
+
+exports[`Badge component Pulse variant should render correctly 1`] = `
+Array [
+  ".badge-0-2-1 {
+  display: flex;
+}
+.label-0-2-2 {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}
+.badge-d0-0-2-3 {
+  background-color: #e74627;
+  border-radius: 4px;
+  height: 8px;
+  width: 8px;
+}
+.label-d1-0-2-4 {
+  color: #ffffff;
+}",
+  <div>
+    <div
+      class="badge-0-2-1 badge-d0-0-2-3 undefined"
+    />
+  </div>,
+]
+`;
+
+exports[`Badge component Standard variant should render correctly 1`] = `
+Array [
+  ".badge-0-2-1 {
+  display: flex;
+}
+.label-0-2-2 {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}
+.badge-d0-0-2-3 {
+  background-color: #e74627;
+  border-radius: 8px;
+  height: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.label-d1-0-2-4 {
+  color: #ffffff;
+}",
+  <div>
+    <div
+      class="badge-0-2-1 badge-d0-0-2-3 undefined"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        99
+      </span>
+    </div>
+  </div>,
+]
+`;
+
+exports[`Badge component Standard variant should render the limit with a plus sign when it is less than the given value. 1`] = `
+Array [
+  ".badge-0-2-1 {
+  display: flex;
+}
+.label-0-2-2 {
+  font-size: 12px;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.5;
+  letter-spacing: 0.38px;
+}
+.badge-d0-0-2-3 {
+  background-color: #e74627;
+  border-radius: 8px;
+  height: 16px;
+  padding-left: 4px;
+  padding-right: 4px;
+}
+.label-d1-0-2-4 {
+  color: #ffffff;
+}",
+  <div>
+    <div
+      class="badge-0-2-1 badge-d0-0-2-3 undefined"
+      data-testid="ds-standard-badge"
+    >
+      <span
+        class="label-0-2-2 label-d1-0-2-4"
+      >
+        99+
+      </span>
+    </div>
+  </div>,
+]
+`;
