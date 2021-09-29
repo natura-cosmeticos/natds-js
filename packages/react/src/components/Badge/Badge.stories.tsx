@@ -15,7 +15,6 @@ const componentStatus = `
 
 With the following attribute status:
 
-- ✅ **Motion** (only available for Pulse variant)
 - ✅ **Limit** (only available for Standard variant)
 - **Color**
     - ✅ \`alert\`
