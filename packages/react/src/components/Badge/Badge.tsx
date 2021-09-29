@@ -1,9 +1,9 @@
 import React from 'react'
-import { BadgeProps, BadgeStandard } from './Badge.props'
+import { BadgeProps, BadgeStandardProps } from './Badge.props'
 import styles from './Badge.styles'
 
-export const buildValue = ({ value, limit }: BadgeStandard) => (limit && value >= limit ? `${limit}+` : value)
-export const isBadgeStandard = (props: BadgeProps): props is BadgeStandard => props.variant === 'standard'
+export const buildValue = ({ value, limit }: BadgeStandardProps) => (limit && value >= limit ? `${limit}+` : value)
+export const isBadgeStandard = (props: BadgeProps): props is BadgeStandardProps => props.variant === 'standard'
 
 const Badge = (props: BadgeProps): JSX.Element => {
   const {
