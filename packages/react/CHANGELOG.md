@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.13.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.12.3...@naturacosmeticos/natds-react@2.13.0) (2021-09-30)
+
+
+### Features
+
+* **natds-react:** add badge component ([#1517](https://github.com/natura-cosmeticos/natds-js/issues/1517)) ([11a2575](https://github.com/natura-cosmeticos/natds-js/commit/11a25759d8a6bc6d4f585a069152be3eb8726447))
+
+
+
+
+
 ## [2.12.3](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.12.2...@naturacosmeticos/natds-react@2.12.3) (2021-09-28)
 
 
