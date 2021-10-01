@@ -2,6 +2,49 @@
 
 exports[`Theme should build theme with natura light as default 1`] = `
 Object {
+  "alert": Object {
+    "content": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
+    },
+    "title": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 500,
+      },
+    },
+  },
+  "appBarTop": Object {
+    "title": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.25,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 500,
+      },
+    },
+  },
   "asset": Object {
     "brand": Object {
       "custom": Object {
@@ -353,6 +396,21 @@ Object {
     "small": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
     "tiny": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
   },
+  "expansionPanel": Object {
+    "title": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 16,
+      "letterSpacing": 0.13,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
+    },
+  },
   "heading1": Object {
     "fontSize": 96,
     "fontWeight": 400,
@@ -382,6 +440,64 @@ Object {
     "fontSize": 20,
     "fontWeight": 500,
     "letterSpacing": 0.24,
+  },
+  "navigationDrawer": Object {
+    "header": Object {
+      "subtitle": Object {
+        "fallback": Object {
+          "fontFamily": "Arial",
+          "fontWeight": 400,
+        },
+        "fontSize": 14,
+        "letterSpacing": 0.22,
+        "lineHeight": 1.5,
+        "primary": Object {
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+        },
+      },
+      "title": Object {
+        "fallback": Object {
+          "fontFamily": "Arial",
+          "fontWeight": 400,
+        },
+        "fontSize": 20,
+        "letterSpacing": 0.24,
+        "lineHeight": 1.25,
+        "primary": Object {
+          "fontFamily": "Roboto",
+          "fontWeight": 500,
+        },
+      },
+    },
+    "section": Object {
+      "item": Object {
+        "fallback": Object {
+          "fontFamily": "Arial",
+          "fontWeight": 400,
+        },
+        "fontSize": 14,
+        "letterSpacing": 0.22,
+        "lineHeight": 1.5,
+        "primary": Object {
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+        },
+      },
+      "title": Object {
+        "fallback": Object {
+          "fontFamily": "Arial",
+          "fontWeight": 400,
+        },
+        "fontSize": 12,
+        "letterSpacing": 0.38,
+        "lineHeight": 1.5,
+        "primary": Object {
+          "fontFamily": "Roboto",
+          "fontWeight": 400,
+        },
+      },
+    },
   },
   "opacity": Object {
     "disabled": 0.32,
@@ -483,6 +599,21 @@ Object {
     "standard": 24,
     "tiny": 8,
     "veryHuge": 256,
+  },
+  "snackbar": Object {
+    "content": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 14,
+      "letterSpacing": 0.22,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
+    },
   },
   "spacing": Object {
     "large": 48,
