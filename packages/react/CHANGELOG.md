@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.13.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.13.0...@naturacosmeticos/natds-react@2.13.1) (2021-10-01)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.14.2 ([#1528](https://github.com/natura-cosmeticos/natds-js/issues/1528)) ([82c9936](https://github.com/natura-cosmeticos/natds-js/commit/82c993689d7f9e0a668e7ac765b85e23e65e2f84))
+
+
+
+
+
 # [2.13.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.12.3...@naturacosmeticos/natds-react@2.13.0) (2021-09-30)
 
 
