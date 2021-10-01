@@ -5,6 +5,49 @@
     "medium": 4,
     "large": 8
   },
+  "alert": {
+    "title": {
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    },
+    "content": {
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "appBarTop": {
+    "title": {
+      "fontSize": 20,
+      "letterSpacing": 0.24,
+      "lineHeight": 1.25,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 500
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
   "avatar": {
     "standard": {
       "fontSize": 12,
@@ -240,6 +283,79 @@
       }
     }
   },
+  "expansionPanel": {
+    "title": {
+      "fontSize": 16,
+      "letterSpacing": 0.13,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "navigationDrawer": {
+    "header": {
+      "title": {
+        "fontSize": 20,
+        "letterSpacing": 0.24,
+        "lineHeight": 1.25,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 500
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      },
+      "subtitle": {
+        "fontSize": 14,
+        "letterSpacing": 0.22,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      }
+    },
+    "section": {
+      "title": {
+        "fontSize": 12,
+        "letterSpacing": 0.38,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      },
+      "item": {
+        "fontSize": 14,
+        "letterSpacing": 0.22,
+        "lineHeight": 1.5,
+        "primary": {
+          "fontFamily": "Roboto",
+          "fontWeight": 400
+        },
+        "fallback": {
+          "fontFamily": "Arial",
+          "fontWeight": 400
+        }
+      }
+    }
+  },
   "radioButton": {
     "label": {
       "fontSize": 14,
@@ -291,6 +407,21 @@
     "label": {
       "fontSize": 12,
       "letterSpacing": 0.38,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
+  "snackbar": {
+    "content": {
+      "fontSize": 14,
+      "letterSpacing": 0.22,
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
