@@ -1,4 +1,3 @@
-/* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Checkbox, CheckboxProps } from '.'
@@ -7,7 +6,7 @@ import StoryContainer from '../../helpers/StoryContainer'
 const componentStatus = `
 ---
 
-**NOTE**: This component is available with the following attribute status:
+**NOTE FOR UXs**: This component is available with the following attribute status:
 
   - ✅ **Disabled**
   - ✅ **Indeterminate**
@@ -25,8 +24,8 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<CheckboxProps> = (args) => {
-  const [check, setCheck] = useState(args.checked)
+export const Playground: Story<CheckboxProps> = ({ checked, ...args }) => {
+  const [check, setCheck] = useState(checked)
 
   return (
     <Checkbox {...args} checked={check} onChange={() => setCheck(!check)} />
@@ -34,7 +33,7 @@ export const Playground: Story<CheckboxProps> = (args) => {
 }
 Playground.args = {
   checked: false,
-  labelText: 'Example'
+  label: 'Example'
 }
 
 export const Variants: Story<CheckboxProps> = (args) => {

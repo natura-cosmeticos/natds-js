@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 /* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
@@ -52,6 +53,14 @@ const styles = createUseStyles((theme: Theme) => ({
         border: `2px solid ${theme.color.lowEmphasis}`
       }
     }
+  },
+  labelText: {
+    color: ({ disabled }: CheckboxProps) => (disabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
+    fontFamily: [theme.checkbox.label.primary.fontFamily, theme.checkbox.label.fallback.fontFamily],
+    fontSize: theme.checkbox.label.fontSize,
+    fontWeight: theme.checkbox.label.primary.fontWeight,
+    letterSpacing: theme.checkbox.label.letterSpacing,
+    lineHeight: theme.checkbox.label.lineHeight
   }
 }))
 

@@ -12,9 +12,11 @@ const Checkbox = ({
   onChange,
   testID = `ds-checkbox-${id}`,
   value,
-  labelText
+  label
 }: CheckboxProps): JSX.Element => {
-  const { checkbox, wrapper, container } = styles({ indeterminate })
+  const {
+    checkbox, wrapper, container, labelText
+  } = styles({ indeterminate, disabled })
 
   const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
 
@@ -42,7 +44,7 @@ const Checkbox = ({
           />
         </div>
       </Ripple>
-      {labelText && <Label label={labelText} disabled={disabled} />}
+      {label && <Label className={labelText} label={label} />}
     </div>
   )
 }

@@ -19,7 +19,7 @@ const Counter = ({
   value = 0
 }: CounterProps) => {
   const {
-    buttonGroup, inputBase, buttonLeft, buttonRigth
+    buttonGroup, inputBase, buttonLeft, buttonRight, labelText
   } = styles({ size, disabled })
 
   const maxReached = value >= maxValue
@@ -27,7 +27,7 @@ const Counter = ({
 
   return (
     <div data-testid={testID}>
-      {label && <Label color="mediumEmphasis" label={label} />}
+      {label && <Label className={labelText} label={label} />}
       <div className={buttonGroup}>
         <Button
           ariaLabel={ariaLabelDecrementButton}
@@ -47,7 +47,7 @@ const Counter = ({
         />
         <Button
           ariaLabel={ariaLabelIncrementButton}
-          className={buttonRigth}
+          className={buttonRight}
           disabled={disabled || maxReached}
           onClick={onIncrement}
           size={size}

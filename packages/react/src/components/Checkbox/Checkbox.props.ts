@@ -27,7 +27,7 @@ export interface CheckboxProps {
   /**
    * Specify the text that will appear next to component
    */
-  labelText?: string
+  label?: string
   /**
   * The onchange event occurs when the checked state has been changed.
   */
