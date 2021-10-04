@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.13.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.13.1...@naturacosmeticos/natds-react@2.13.2) (2021-10-04)
+
+
+### Bug Fixes
+
+* **natds-react:** add missing label to Checkbox component ([#1540](https://github.com/natura-cosmeticos/natds-js/issues/1540)) ([e07c5e2](https://github.com/natura-cosmeticos/natds-js/commit/e07c5e2b3bb352d9fb877363bf97a45457595ec2))
+
+
+
+
+
 ## [2.13.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.13.0...@naturacosmeticos/natds-react@2.13.1) (2021-10-01)
 
 
