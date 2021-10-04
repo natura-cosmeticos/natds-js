@@ -34,6 +34,11 @@ describe('Checkbox component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+  it('should render correctly with label', () => {
+    const { styles, component } = renderWithTheme(<Checkbox {...defaultProps} labelText="something" />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
 
   it('should call onChange', () => {
     const onChangeMock = jest.fn()
