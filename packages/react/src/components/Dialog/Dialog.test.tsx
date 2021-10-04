@@ -2,6 +2,7 @@
 import React from 'react'
 import { act, fireEvent } from '@testing-library/react'
 import renderWithTheme from '../../helpers/renderWithTheme'
+import { Button } from '../Button'
 import { Dialog } from '.'
 import { DialogBody } from './DialogBody'
 import { DialogHeader } from './DialogHeader'
@@ -16,7 +17,7 @@ describe('Dialog', () => {
         <DialogBody>
           <p id="description">something on the body</p>
         </DialogBody>
-        <DialogFooter>something on the footer</DialogFooter>
+        <DialogFooter primaryButton={<Button onClick={() => ''}>button</Button>} />
       </Dialog>
     )
 
@@ -30,7 +31,7 @@ describe('Dialog', () => {
         <DialogBody>
           <p id="description">something on the body</p>
         </DialogBody>
-        <DialogFooter>something on the footer</DialogFooter>
+        <DialogFooter primaryButton={<Button onClick={() => ''}>button</Button>} />
       </Dialog>
     )
 
@@ -44,7 +45,7 @@ describe('Dialog', () => {
         <DialogBody showDivider>
           <p id="description">something on the body</p>
         </DialogBody>
-        <DialogFooter>something on the footer</DialogFooter>
+        <DialogFooter primaryButton={<Button onClick={() => ''}>button</Button>} />
       </Dialog>
     )
 
@@ -58,7 +59,7 @@ describe('Dialog', () => {
         <DialogBody showDivider>
           <p id="description">something on the body</p>
         </DialogBody>
-        <DialogFooter>something on the footer</DialogFooter>
+        <DialogFooter primaryButton={<Button onClick={() => ''}>button</Button>} />
       </Dialog>
     )
 
@@ -79,7 +80,7 @@ describe('Dialog', () => {
         <DialogBody showDivider>
           <p id="description">something on the body</p>
         </DialogBody>
-        <DialogFooter>something on the footer</DialogFooter>
+        <DialogFooter primaryButton={<Button onClick={() => ''}>button</Button>} />
       </Dialog>
     )
 
