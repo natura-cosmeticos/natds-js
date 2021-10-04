@@ -2,7 +2,7 @@
 /* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
-import { RadioProps } from './Radio.props'
+import { RadioButtonProps } from './RadioButton.props'
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
@@ -12,7 +12,7 @@ const styles = createUseStyles((theme: Theme) => ({
     alignItems: 'center',
     justifyContent: 'center'
   },
-  radio: {
+  radioButton: {
     appearance: 'none',
     border: `2px solid ${theme.color.mediumEmphasis}`,
     borderRadius: '50%',
@@ -42,7 +42,7 @@ const styles = createUseStyles((theme: Theme) => ({
         left: '50%',
         position: 'absolute',
         textAlign: 'center',
-        backgroundColor: ({ disabled }: RadioProps) => (disabled ? theme.color.lowEmphasis : theme.color.primary),
+        backgroundColor: ({ disabled }: RadioButtonProps) => (disabled ? theme.color.lowEmphasis : theme.color.primary),
         top: '50%',
         transform: 'translate(-50%, -50%)'
       },
@@ -54,6 +54,14 @@ const styles = createUseStyles((theme: Theme) => ({
   container: {
     display: 'flex',
     alignItems: 'center'
+  },
+  labelText: {
+    color: ({ disabled }: RadioButtonProps) => (disabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
+    fontFamily: [theme.radioButton.label.primary.fontFamily, theme.radioButton.label.fallback.fontFamily],
+    fontSize: theme.radioButton.label.fontSize,
+    fontWeight: theme.radioButton.label.primary.fontWeight,
+    letterSpacing: theme.radioButton.label.letterSpacing,
+    lineHeight: theme.radioButton.label.lineHeight
   }
 }))
 

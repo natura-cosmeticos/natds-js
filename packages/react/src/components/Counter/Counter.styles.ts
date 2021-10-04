@@ -19,7 +19,7 @@ const styles = createUseStyles((theme: Theme) => ({
     borderBottomRightRadius: 0,
     borderTopRightRadius: 0
   },
-  buttonRigth: {
+  buttonRight: {
     borderBottomLeftRadius: 0,
     borderTopLeftRadius: 0
   },
@@ -36,6 +36,13 @@ const styles = createUseStyles((theme: Theme) => ({
     padding: 0,
     textAlign: 'center',
     width: theme.size.semiX
+  },
+  labelText: {
+    fontFamily: [theme.counter.label.primary.fontFamily, theme.counter.label.fallback.fontFamily],
+    fontSize: theme.counter.label.fontSize,
+    fontWeight: theme.counter.label.primary.fontWeight,
+    letterSpacing: theme.counter.label.letterSpacing,
+    lineHeight: theme.counter.label.lineHeight
   }
 }))
 
