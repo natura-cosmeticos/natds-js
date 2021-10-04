@@ -6,8 +6,8 @@ const styles = createUseStyles((theme: Theme) => ({
     alignItems: 'center',
     display: 'flex',
     flexWrap: 'wrap',
-    justifyContent: 'flex-end',
     gap: theme.spacing.small,
+    justifyContent: 'flex-end',
     padding: theme.spacing.small
   }
 }))

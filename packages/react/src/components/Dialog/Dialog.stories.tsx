@@ -1,21 +1,20 @@
-/* eslint-disable react/destructuring-assignment */
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Dialog } from '.'
 import { Button } from '../Button'
 import { DialogProps } from './Dialog.props'
-import IconButton from '../IconButton'
-import DialogHeader from './DialogHeader'
-import DialogBody from './DialogBody'
-import DialogFooter from './DialogFooter'
+import { IconButton } from '../IconButton'
+import { DialogHeader } from './DialogHeader'
+import { DialogBody } from './DialogBody'
+import { DialogFooter } from './DialogFooter'
 
 const componentStatus = `
 ---
 
-**NOTE**: This component is available in the following variants:
+**NOTES FOR UXs**: This component is available in the following variants:
 
   - ✅ \`standard\` (available but with alternative composition)
-  - ✅ \`alert\`** (available but with alternative composition)
+  - ✅ \`alert\` (available but with alternative composition)
 
 With the following attribute status:
 
@@ -39,13 +38,13 @@ export default {
   }
 } as Meta
 
-export const Playground: Story<DialogProps> = (args) => {
-  const [showDialog, setShowDialog] = useState(args.open)
+export const Playground: Story<DialogProps> = ({ open, ...args }) => {
+  const [showDialog, setShowDialog] = useState(open)
 
   return (
     <>
       <Button onClick={() => setShowDialog(!showDialog)}>open dialog</Button>
-      <Dialog {...args} open={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description" onEscapeKeyDown={() => setShowDialog(false)}>
+      <Dialog {...args} open={showDialog} onEscapeKeyDown={() => setShowDialog(false)}>
         <DialogHeader title="Example" id="dialog-title">
           <div style={{ display: 'flex', gap: 16 }}>
             <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />
@@ -59,15 +58,17 @@ export const Playground: Story<DialogProps> = (args) => {
             and three IconButtons, DialogBody and DialogFooter, with one button.
           </p>
         </DialogBody>
-        <DialogFooter>
-          <Button onClick={() => setShowDialog(false)}>close</Button>
-        </DialogFooter>
+        <DialogFooter
+          primaryButton={<Button onClick={() => setShowDialog(false)}>primary button close</Button>}
+          secondaryButton={<Button variant="text" onClick={() => setShowDialog(false)}>secondary button close</Button>}
+        />
       </Dialog>
     </>
   )
 }
 Playground.args = {
-  role: 'dialog',
+  ariaDescribedBy: 'dialog-description',
+  ariaLabelledBy: 'dialog-title',
   open: true,
-  testID: 'ds-dialog'
+  role: 'dialog'
 }
