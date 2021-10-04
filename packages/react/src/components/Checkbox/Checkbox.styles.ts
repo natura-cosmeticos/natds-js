@@ -1,8 +1,13 @@
+/* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { CheckboxProps } from './Checkbox.props'
 
 const styles = createUseStyles((theme: Theme) => ({
+  container: {
+    display: 'flex',
+    alignItems: 'center'
+  },
   wrapper: {
     height: theme.size.semiX,
     width: theme.size.semiX,

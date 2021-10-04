@@ -25,6 +25,10 @@ export interface CheckboxProps {
   indeterminate?: boolean
 
   /**
+   * Specify the text that will appear next to component
+   */
+  labelText?: string
+  /**
   * The onchange event occurs when the checked state has been changed.
   */
   onChange: React.ChangeEventHandler<HTMLInputElement>,
