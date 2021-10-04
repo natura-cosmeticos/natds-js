@@ -38,79 +38,229 @@ Array [
 
 exports[`Dialog should render correctly the divider at DialogBody 1`] = `
 Array [
-  ".dialog-0-2-1 {
-  top: 50%;
-  left: 50%;
-  z-index: 1300;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
-  max-height: 70%;
-  overflow-y: auto;
-  border-radius: 4px;
-  flex-direction: column;
-  background-color: #ffffff;
-}
-.overlay-0-2-2 {
+  ".sharedRippleEffect-0-2-18 {
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.56;
-  z-index: 1299;
-  position: fixed;
-  background: #000000;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.dialog-d0-0-2-3 {
-  display: flex;
-  width: 536px;
-}
-.overlay-d1-0-2-4 {}
-.divider-0-2-8 {
-  border: 0;
-  height: 1px;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: #bbbbbb;
-}
-.divider-d0-0-2-9 {
-  margin-right: 0;
-  margin-left: 0;
-}
-.divider-d1-0-2-10 {
-  margin-right: 0;
-  margin-left: 0;
-}
-.content-0-2-7 {
-  flex: 1 1 auto;
-  color: #333333;
-  padding: 16px;
+.wrapper-0-2-19 {
+  outline: none;
   position: relative;
-  font-size: 16px;
-  overflow-y: auto;
-  font-family: Roboto, sans-serif;
+  align-self: start;
 }
-.header-0-2-5 {
-  display: flex;
-  padding: 16px;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: space-between;
+.wrapper-0-2-19:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.title-0-2-6 {
-  color: #333333;
-  margin: 0;
-  font-size: 20px;
-  font-family: Roboto, sans-serif;
+.wrapper-0-2-19:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.footer-0-2-11 {
-  gap: 16px;
-  display: flex;
-  padding: 16px;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-}",
+.ripple-0-2-20 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-21 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-22 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-23 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-24 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-24:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-24:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-25 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-26 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-27 {
+    animation: keyframes-ripple-0-2-23 300ms;
+  }
+  .button-0-2-12 {
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-12:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .button-0-2-12:hover:not([disabled]) {  }
+  .button-0-2-12:focus:not([disabled]) {  }
+  .labelContainer-0-2-13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .label-0-2-14 {
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    user-select: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-15 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    color: #333333;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+  }
+  .button-d0-0-2-15:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-15:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-15:focus:not([disabled]) {
+    background-color: #A67423;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .labelContainer-d1-0-2-16 {
+    flex-direction: row-reverse;
+  }
+  .label-d2-0-2-17 {  }
+  .dialog-0-2-1 {
+    top: 50%;
+    left: 50%;
+    z-index: 1300;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+    max-height: 70%;
+    overflow-y: auto;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .overlay-0-2-2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.56;
+    z-index: 1299;
+    position: fixed;
+    background: #000000;
+  }
+  .dialog-d0-0-2-3 {
+    display: flex;
+    width: 536px;
+  }
+  .overlay-d1-0-2-4 {  }
+  .divider-0-2-8 {
+    border: 0;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #bbbbbb;
+  }
+  .divider-d0-0-2-9 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .divider-d1-0-2-10 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .content-0-2-7 {
+    flex: 1 1 auto;
+    color: #333333;
+    padding: 16px;
+    position: relative;
+    font-size: 16px;
+    overflow-y: auto;
+    font-family: Roboto, Arial;
+    line-height: 1.5;
+    letter-spacing: 0.51px;
+  }
+  .header-0-2-5 {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .title-0-2-6 {
+    color: #333333;
+    margin: 0;
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.24px;
+  }
+  .footer-0-2-11 {
+    gap: 16px;
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }",
   <div>
     <div
       data-testid="ds-portal"
@@ -124,7 +274,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="header-0-2-5"
+          class="header-0-2-5 "
         >
           <h2
             class="title-0-2-6"
@@ -137,7 +287,7 @@ Array [
           class="divider-0-2-8 divider-d0-0-2-9"
         />
         <div
-          class="content-0-2-7"
+          class="content-0-2-7 "
         >
           <p
             id="description"
@@ -149,9 +299,36 @@ Array [
           class="divider-0-2-8 divider-d1-0-2-10"
         />
         <div
-          class="footer-0-2-11"
+          class="footer-0-2-11 "
         >
-          something on the footer
+          <div
+            class="wrapper-0-2-19 wrapper-d0-0-2-24"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-21 rippleContainer-d2-0-2-26"
+            >
+              <div
+                class="ripple-0-2-20 ripple-d1-0-2-25 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="button-0-2-12 button-d0-0-2-15 "
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-13 labelContainer-d1-0-2-16"
+              >
+                <span
+                  class="label-0-2-14 label-d2-0-2-17"
+                >
+                  button
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
       <div
@@ -164,79 +341,229 @@ Array [
 
 exports[`Dialog should render correctly when window is smaller than component width 1`] = `
 Array [
-  ".dialog-0-2-1 {
-  top: 50%;
-  left: 50%;
-  z-index: 1300;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
-  max-height: 70%;
-  overflow-y: auto;
-  border-radius: 4px;
-  flex-direction: column;
-  background-color: #ffffff;
-}
-.overlay-0-2-2 {
+  ".sharedRippleEffect-0-2-18 {
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.56;
-  z-index: 1299;
-  position: fixed;
-  background: #000000;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.dialog-d0-0-2-3 {
-  display: flex;
-  width: 90vw;
-}
-.overlay-d1-0-2-4 {}
-.divider-0-2-8 {
-  border: 0;
-  height: 1px;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: #bbbbbb;
-}
-.divider-d0-0-2-9 {
-  margin-right: 0;
-  margin-left: 0;
-}
-.divider-d1-0-2-10 {
-  margin-right: 0;
-  margin-left: 0;
-}
-.content-0-2-7 {
-  flex: 1 1 auto;
-  color: #333333;
-  padding: 16px;
+.wrapper-0-2-19 {
+  outline: none;
   position: relative;
-  font-size: 16px;
-  overflow-y: auto;
-  font-family: Roboto, sans-serif;
+  align-self: start;
 }
-.header-0-2-5 {
-  display: flex;
-  padding: 16px;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: space-between;
+.wrapper-0-2-19:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.title-0-2-6 {
-  color: #333333;
-  margin: 0;
-  font-size: 20px;
-  font-family: Roboto, sans-serif;
+.wrapper-0-2-19:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.footer-0-2-11 {
-  gap: 16px;
-  display: flex;
-  padding: 16px;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-}",
+.ripple-0-2-20 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-21 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-22 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-23 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-24 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-24:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-24:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-25 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-26 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-27 {
+    animation: keyframes-ripple-0-2-23 300ms;
+  }
+  .button-0-2-12 {
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-12:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .button-0-2-12:hover:not([disabled]) {  }
+  .button-0-2-12:focus:not([disabled]) {  }
+  .labelContainer-0-2-13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .label-0-2-14 {
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    user-select: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-15 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    color: #333333;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+  }
+  .button-d0-0-2-15:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-15:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-15:focus:not([disabled]) {
+    background-color: #A67423;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .labelContainer-d1-0-2-16 {
+    flex-direction: row-reverse;
+  }
+  .label-d2-0-2-17 {  }
+  .dialog-0-2-1 {
+    top: 50%;
+    left: 50%;
+    z-index: 1300;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+    max-height: 70%;
+    overflow-y: auto;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .overlay-0-2-2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.56;
+    z-index: 1299;
+    position: fixed;
+    background: #000000;
+  }
+  .dialog-d0-0-2-3 {
+    display: flex;
+    width: 90vw;
+  }
+  .overlay-d1-0-2-4 {  }
+  .divider-0-2-8 {
+    border: 0;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #bbbbbb;
+  }
+  .divider-d0-0-2-9 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .divider-d1-0-2-10 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .content-0-2-7 {
+    flex: 1 1 auto;
+    color: #333333;
+    padding: 16px;
+    position: relative;
+    font-size: 16px;
+    overflow-y: auto;
+    font-family: Roboto, Arial;
+    line-height: 1.5;
+    letter-spacing: 0.51px;
+  }
+  .header-0-2-5 {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .title-0-2-6 {
+    color: #333333;
+    margin: 0;
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.24px;
+  }
+  .footer-0-2-11 {
+    gap: 16px;
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }",
   <div>
     <div
       data-testid="ds-portal"
@@ -250,7 +577,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="header-0-2-5"
+          class="header-0-2-5 "
         >
           <h2
             class="title-0-2-6"
@@ -263,7 +590,7 @@ Array [
           class="divider-0-2-8 divider-d0-0-2-9"
         />
         <div
-          class="content-0-2-7"
+          class="content-0-2-7 "
         >
           <p
             id="description"
@@ -275,9 +602,36 @@ Array [
           class="divider-0-2-8 divider-d1-0-2-10"
         />
         <div
-          class="footer-0-2-11"
+          class="footer-0-2-11 "
         >
-          something on the footer
+          <div
+            class="wrapper-0-2-19 wrapper-d0-0-2-24"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-21 rippleContainer-d2-0-2-26"
+            >
+              <div
+                class="ripple-0-2-20 ripple-d1-0-2-25 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="button-0-2-12 button-d0-0-2-15 "
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-13 labelContainer-d1-0-2-16"
+              >
+                <span
+                  class="label-0-2-14 label-d2-0-2-17"
+                >
+                  button
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
       <div
@@ -290,51 +644,198 @@ Array [
 
 exports[`Dialog should render correctly with DialogBody and DialogFooter 1`] = `
 Array [
-  ".dialog-0-2-1 {
-  top: 50%;
-  left: 50%;
-  z-index: 1300;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
-  max-height: 70%;
-  overflow-y: auto;
-  border-radius: 4px;
-  flex-direction: column;
-  background-color: #ffffff;
-}
-.overlay-0-2-2 {
+  ".sharedRippleEffect-0-2-13 {
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.56;
-  z-index: 1299;
-  position: fixed;
-  background: #000000;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.dialog-d0-0-2-3 {
-  display: flex;
-  width: 536px;
-}
-.overlay-d1-0-2-4 {}
-.content-0-2-5 {
-  flex: 1 1 auto;
-  color: #333333;
-  padding: 16px;
+.wrapper-0-2-14 {
+  outline: none;
   position: relative;
-  font-size: 16px;
-  overflow-y: auto;
-  font-family: Roboto, sans-serif;
+  align-self: start;
 }
-.footer-0-2-6 {
-  gap: 16px;
-  display: flex;
-  padding: 16px;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-}",
+.wrapper-0-2-14:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-14:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-15 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-16 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-17 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-18 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-19 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-19:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-19:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-20 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-21 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-22 {
+    animation: keyframes-ripple-0-2-18 300ms;
+  }
+  .button-0-2-7 {
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-7:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .button-0-2-7:hover:not([disabled]) {  }
+  .button-0-2-7:focus:not([disabled]) {  }
+  .labelContainer-0-2-8 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .label-0-2-9 {
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    user-select: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-10 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    color: #333333;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+  }
+  .button-d0-0-2-10:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-10:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-10:focus:not([disabled]) {
+    background-color: #A67423;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .labelContainer-d1-0-2-11 {
+    flex-direction: row-reverse;
+  }
+  .label-d2-0-2-12 {  }
+  .dialog-0-2-1 {
+    top: 50%;
+    left: 50%;
+    z-index: 1300;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+    max-height: 70%;
+    overflow-y: auto;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .overlay-0-2-2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.56;
+    z-index: 1299;
+    position: fixed;
+    background: #000000;
+  }
+  .dialog-d0-0-2-3 {
+    display: flex;
+    width: 536px;
+  }
+  .overlay-d1-0-2-4 {  }
+  .content-0-2-5 {
+    flex: 1 1 auto;
+    color: #333333;
+    padding: 16px;
+    position: relative;
+    font-size: 16px;
+    overflow-y: auto;
+    font-family: Roboto, Arial;
+    line-height: 1.5;
+    letter-spacing: 0.51px;
+  }
+  .footer-0-2-6 {
+    gap: 16px;
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }",
   <div>
     <div
       data-testid="ds-portal"
@@ -347,7 +848,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="content-0-2-5"
+          class="content-0-2-5 "
         >
           <p
             id="description"
@@ -356,9 +857,36 @@ Array [
           </p>
         </div>
         <div
-          class="footer-0-2-6"
+          class="footer-0-2-6 "
         >
-          something on the footer
+          <div
+            class="wrapper-0-2-14 wrapper-d0-0-2-19"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-16 rippleContainer-d2-0-2-21"
+            >
+              <div
+                class="ripple-0-2-15 ripple-d1-0-2-20 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="button-0-2-7 button-d0-0-2-10 "
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-8 labelContainer-d1-0-2-11"
+              >
+                <span
+                  class="label-0-2-9 label-d2-0-2-12"
+                >
+                  button
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
       <div
@@ -371,64 +899,214 @@ Array [
 
 exports[`Dialog should render correctly with DialogHeader, DialogBody and DialogFooter 1`] = `
 Array [
-  ".dialog-0-2-1 {
-  top: 50%;
-  left: 50%;
-  z-index: 1300;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
-  max-height: 70%;
-  overflow-y: auto;
-  border-radius: 4px;
-  flex-direction: column;
-  background-color: #ffffff;
-}
-.overlay-0-2-2 {
+  ".sharedRippleEffect-0-2-15 {
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.56;
-  z-index: 1299;
-  position: fixed;
-  background: #000000;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.dialog-d0-0-2-3 {
-  display: flex;
-  width: 536px;
-}
-.overlay-d1-0-2-4 {}
-.content-0-2-7 {
-  flex: 1 1 auto;
-  color: #333333;
-  padding: 16px;
+.wrapper-0-2-16 {
+  outline: none;
   position: relative;
-  font-size: 16px;
-  overflow-y: auto;
-  font-family: Roboto, sans-serif;
+  align-self: start;
 }
-.header-0-2-5 {
-  display: flex;
-  padding: 16px;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: space-between;
+.wrapper-0-2-16:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.title-0-2-6 {
-  color: #333333;
-  margin: 0;
-  font-size: 20px;
-  font-family: Roboto, sans-serif;
+.wrapper-0-2-16:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.footer-0-2-8 {
-  gap: 16px;
-  display: flex;
-  padding: 16px;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-}",
+.ripple-0-2-17 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-18 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-19 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-20 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-21 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-21:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-21:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-22 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-23 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-24 {
+    animation: keyframes-ripple-0-2-20 300ms;
+  }
+  .button-0-2-9 {
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-9:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .button-0-2-9:hover:not([disabled]) {  }
+  .button-0-2-9:focus:not([disabled]) {  }
+  .labelContainer-0-2-10 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .label-0-2-11 {
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    user-select: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-12 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    color: #333333;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+  }
+  .button-d0-0-2-12:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-12:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-12:focus:not([disabled]) {
+    background-color: #A67423;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .labelContainer-d1-0-2-13 {
+    flex-direction: row-reverse;
+  }
+  .label-d2-0-2-14 {  }
+  .dialog-0-2-1 {
+    top: 50%;
+    left: 50%;
+    z-index: 1300;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+    max-height: 70%;
+    overflow-y: auto;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .overlay-0-2-2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.56;
+    z-index: 1299;
+    position: fixed;
+    background: #000000;
+  }
+  .dialog-d0-0-2-3 {
+    display: flex;
+    width: 536px;
+  }
+  .overlay-d1-0-2-4 {  }
+  .content-0-2-7 {
+    flex: 1 1 auto;
+    color: #333333;
+    padding: 16px;
+    position: relative;
+    font-size: 16px;
+    overflow-y: auto;
+    font-family: Roboto, Arial;
+    line-height: 1.5;
+    letter-spacing: 0.51px;
+  }
+  .header-0-2-5 {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .title-0-2-6 {
+    color: #333333;
+    margin: 0;
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.24px;
+  }
+  .footer-0-2-8 {
+    gap: 16px;
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }",
   <div>
     <div
       data-testid="ds-portal"
@@ -442,7 +1120,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="header-0-2-5"
+          class="header-0-2-5 "
         >
           <h2
             class="title-0-2-6"
@@ -452,7 +1130,7 @@ Array [
           </h2>
         </div>
         <div
-          class="content-0-2-7"
+          class="content-0-2-7 "
         >
           <p
             id="description"
@@ -461,9 +1139,36 @@ Array [
           </p>
         </div>
         <div
-          class="footer-0-2-8"
+          class="footer-0-2-8 "
         >
-          something on the footer
+          <div
+            class="wrapper-0-2-16 wrapper-d0-0-2-21"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-18 rippleContainer-d2-0-2-23"
+            >
+              <div
+                class="ripple-0-2-17 ripple-d1-0-2-22 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="button-0-2-9 button-d0-0-2-12 "
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-10 labelContainer-d1-0-2-13"
+              >
+                <span
+                  class="label-0-2-11 label-d2-0-2-14"
+                >
+                  button
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
       <div
@@ -476,79 +1181,229 @@ Array [
 
 exports[`Dialog should render correctly with the given size 1`] = `
 Array [
-  ".dialog-0-2-1 {
-  top: 50%;
-  left: 50%;
-  z-index: 1300;
-  position: fixed;
-  transform: translate(-50%, -50%);
-  box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
-  max-height: 70%;
-  overflow-y: auto;
-  border-radius: 4px;
-  flex-direction: column;
-  background-color: #ffffff;
-}
-.overlay-0-2-2 {
+  ".sharedRippleEffect-0-2-18 {
   top: 0;
   left: 0;
   width: 100%;
   height: 100%;
-  opacity: 0.56;
-  z-index: 1299;
-  position: fixed;
-  background: #000000;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.dialog-d0-0-2-3 {
-  display: flex;
-  width: 816px;
-}
-.overlay-d1-0-2-4 {}
-.divider-0-2-8 {
-  border: 0;
-  height: 1px;
-  margin-top: 0;
-  margin-bottom: 0;
-  background-color: #bbbbbb;
-}
-.divider-d0-0-2-9 {
-  margin-right: 0;
-  margin-left: 0;
-}
-.divider-d1-0-2-10 {
-  margin-right: 0;
-  margin-left: 0;
-}
-.content-0-2-7 {
-  flex: 1 1 auto;
-  color: #333333;
-  padding: 16px;
+.wrapper-0-2-19 {
+  outline: none;
   position: relative;
-  font-size: 16px;
-  overflow-y: auto;
-  font-family: Roboto, sans-serif;
+  align-self: start;
 }
-.header-0-2-5 {
-  display: flex;
-  padding: 16px;
-  align-items: center;
-  flex-shrink: 0;
-  justify-content: space-between;
+.wrapper-0-2-19:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.title-0-2-6 {
-  color: #333333;
-  margin: 0;
-  font-size: 20px;
-  font-family: Roboto, sans-serif;
+.wrapper-0-2-19:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
 }
-.footer-0-2-11 {
-  gap: 16px;
-  display: flex;
-  padding: 16px;
-  flex-wrap: wrap;
-  align-items: center;
-  justify-content: flex-end;
-}",
+.ripple-0-2-20 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-21 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-22 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-23 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-24 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-24:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-24:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-25 {
+    background-color: #000000;
+    height: 0;
+    left: 0;
+    top: 0;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-26 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-27 {
+    animation: keyframes-ripple-0-2-23 300ms;
+  }
+  .button-0-2-12 {
+    cursor: pointer;
+    outline: 0;
+    overflow: hidden;
+    position: relative;
+    border-radius: 4px;
+  }
+  .button-0-2-12:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .button-0-2-12:hover:not([disabled]) {  }
+  .button-0-2-12:focus:not([disabled]) {  }
+  .labelContainer-0-2-13 {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .label-0-2-14 {
+    font-size: 14px;
+    text-align: center;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    user-select: none;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    letter-spacing: 1.23px;
+    text-transform: uppercase;
+  }
+  .button-d0-0-2-15 {
+    background-color: #f4ab34;
+    border: 1px solid #FFFFFF00;
+    box-shadow: 0 2px 2px 0 rgba(0, 0, 0, 0.14);
+    color: #333333;
+    height: 40px;
+    padding-left: 8px;
+    padding-right: 8px;
+    width: auto;
+  }
+  .button-d0-0-2-15:disabled {
+    background-color: #bbbbbb;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-15:hover:not([disabled]) {
+    background-color: #ef8426;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .button-d0-0-2-15:focus:not([disabled]) {
+    background-color: #A67423;
+    border: 1px solid #FFFFFF00;
+    color: #333333;
+  }
+  .labelContainer-d1-0-2-16 {
+    flex-direction: row-reverse;
+  }
+  .label-d2-0-2-17 {  }
+  .dialog-0-2-1 {
+    top: 50%;
+    left: 50%;
+    z-index: 1300;
+    position: fixed;
+    transform: translate(-50%, -50%);
+    box-shadow: 0 16px 24px 0 rgba(0, 0, 0, 0.14);
+    max-height: 70%;
+    overflow-y: auto;
+    border-radius: 4px;
+    flex-direction: column;
+    background-color: #ffffff;
+  }
+  .overlay-0-2-2 {
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    opacity: 0.56;
+    z-index: 1299;
+    position: fixed;
+    background: #000000;
+  }
+  .dialog-d0-0-2-3 {
+    display: flex;
+    width: 816px;
+  }
+  .overlay-d1-0-2-4 {  }
+  .divider-0-2-8 {
+    border: 0;
+    height: 1px;
+    margin-top: 0;
+    margin-bottom: 0;
+    background-color: #bbbbbb;
+  }
+  .divider-d0-0-2-9 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .divider-d1-0-2-10 {
+    margin-right: 0;
+    margin-left: 0;
+  }
+  .content-0-2-7 {
+    flex: 1 1 auto;
+    color: #333333;
+    padding: 16px;
+    position: relative;
+    font-size: 16px;
+    overflow-y: auto;
+    font-family: Roboto, Arial;
+    line-height: 1.5;
+    letter-spacing: 0.51px;
+  }
+  .header-0-2-5 {
+    display: flex;
+    padding: 16px;
+    align-items: center;
+    flex-shrink: 0;
+    justify-content: space-between;
+  }
+  .title-0-2-6 {
+    color: #333333;
+    margin: 0;
+    font-size: 20px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.24px;
+  }
+  .footer-0-2-11 {
+    gap: 16px;
+    display: flex;
+    padding: 16px;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: flex-end;
+  }",
   <div>
     <div
       data-testid="ds-portal"
@@ -562,7 +1417,7 @@ Array [
         tabindex="0"
       >
         <div
-          class="header-0-2-5"
+          class="header-0-2-5 "
         >
           <h2
             class="title-0-2-6"
@@ -575,7 +1430,7 @@ Array [
           class="divider-0-2-8 divider-d0-0-2-9"
         />
         <div
-          class="content-0-2-7"
+          class="content-0-2-7 "
         >
           <p
             id="description"
@@ -587,9 +1442,36 @@ Array [
           class="divider-0-2-8 divider-d1-0-2-10"
         />
         <div
-          class="footer-0-2-11"
+          class="footer-0-2-11 "
         >
-          something on the footer
+          <div
+            class="wrapper-0-2-19 wrapper-d0-0-2-24"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
+          >
+            <div
+              class="rippleContainer-0-2-21 rippleContainer-d2-0-2-26"
+            >
+              <div
+                class="ripple-0-2-20 ripple-d1-0-2-25 "
+                data-testid="ripple-animation"
+              />
+            </div>
+            <button
+              class="button-0-2-12 button-d0-0-2-15 "
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-13 labelContainer-d1-0-2-16"
+              >
+                <span
+                  class="label-0-2-14 label-d2-0-2-17"
+                >
+                  button
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
       <div

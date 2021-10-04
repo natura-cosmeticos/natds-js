@@ -45,7 +45,7 @@ export const Playground: Story<DialogProps> = (args) => {
   return (
     <>
       <Button onClick={() => setShowDialog(!showDialog)}>open dialog</Button>
-      <Dialog {...args} open={showDialog} ariaLabelledBy="dialog-title" ariaDescribedBy="dialog-description" onEscapeKeyDown={() => setShowDialog(false)}>
+      <Dialog {...args} open={showDialog} onEscapeKeyDown={() => setShowDialog(false)}>
         <DialogHeader title="Example" id="dialog-title">
           <div style={{ display: 'flex', gap: 16 }}>
             <IconButton iconName="outlined-default-mockup" onClick={() => ''} ariaLabel="any icon" />
@@ -59,15 +59,17 @@ export const Playground: Story<DialogProps> = (args) => {
             and three IconButtons, DialogBody and DialogFooter, with one button.
           </p>
         </DialogBody>
-        <DialogFooter>
-          <Button onClick={() => setShowDialog(false)}>close</Button>
-        </DialogFooter>
+        <DialogFooter
+          primaryButton={<Button onClick={() => setShowDialog(false)}>close</Button>}
+          secondaryButton={<Button variant="text" onClick={() => setShowDialog(false)}>button</Button>}
+        />
       </Dialog>
     </>
   )
 }
 Playground.args = {
-  role: 'dialog',
+  ariaDescribedBy: 'dialog-description',
+  ariaLabelledBy: 'dialog-title',
   open: true,
-  testID: 'ds-dialog'
+  role: 'dialog'
 }

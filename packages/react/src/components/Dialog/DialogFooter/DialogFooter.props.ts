@@ -1,6 +1,15 @@
 export interface DialogFooterProps {
   /**
-   * Component children, usually button
+   * Specify an optional className to be added to your Badge
    */
-  children: React.ReactNode
+  className?: string
+  /**
+   * Specify the main button into Footer area
+   */
+  primaryButton: React.ReactElement
+
+  /**
+   * Specify the secondary button into Footer area
+   */
+  secondaryButton?: React.ReactElement
 }

@@ -2,11 +2,13 @@ import React from 'react'
 import styles from './DialogFooter.styles'
 import { DialogFooterProps } from './DialogFooter.props'
 
-const DialogFooter = ({ children }: DialogFooterProps): JSX.Element => {
+const DialogFooter = ({ primaryButton, className = '', secondaryButton }: DialogFooterProps): JSX.Element => {
   const { footer } = styles()
+
   return (
-    <div className={footer}>
-      {children}
+    <div className={`${footer} ${className}`}>
+      {secondaryButton}
+      {primaryButton}
     </div>
   )
 }

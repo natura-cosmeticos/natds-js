@@ -1,8 +1,12 @@
 export interface DialogHeaderProps {
   /**
-   * Component children, usually the included sub-components.
+   * Component children, usually the included other components.
    */
   children?: React.ReactNode,
+  /**
+   * Specify an optional className to be added to your Badge
+   */
+  className?: string
 
   /**
    * The value must be the same as the one passed to
