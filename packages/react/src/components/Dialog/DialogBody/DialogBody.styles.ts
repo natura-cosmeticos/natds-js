@@ -5,8 +5,10 @@ const styles = createUseStyles((theme: Theme) => ({
   content: {
     color: theme.color.highEmphasis,
     flex: '1 1 auto',
-    fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
-    fontSize: theme.body1.fontSize,
+    fontFamily: [theme.dialog.body.primary.fontFamily, theme.dialog.body.fallback.fontFamily],
+    fontSize: theme.dialog.body.fontSize,
+    letterSpacing: theme.dialog.body.letterSpacing,
+    lineHeight: theme.dialog.body.lineHeight,
     overflowY: 'auto',
     padding: theme.spacing.small,
     position: 'relative'
