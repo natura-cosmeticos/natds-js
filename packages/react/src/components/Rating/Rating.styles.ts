@@ -1,3 +1,4 @@
+/* eslint-disable max-len */
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { createUseStyles } from 'react-jss'
 import { RatingProps } from './Rating.props'
@@ -15,6 +16,14 @@ const styles = createUseStyles((theme: Theme) => ({
   rating: {
     order: ({ variant }: RatingProps) => (variant !== 'input' && 2),
     display: 'flex'
+  },
+  labelText: {
+    color: theme.color.mediumEmphasis,
+    fontFamily: ({ variant }: RatingProps) => variant !== 'read-only' && [theme.rating[variant].label.primary.fontFamily, theme.rating[variant].label.fallback.fontFamily],
+    fontSize: ({ variant }: RatingProps) => variant !== 'read-only' && theme.rating[variant].label.fontSize,
+    fontWeight: ({ variant }: RatingProps) => variant !== 'read-only' && theme.rating[variant].label.primary.fontWeight,
+    letterSpacing: ({ variant }: RatingProps) => variant !== 'read-only' && theme.rating[variant].label.letterSpacing,
+    lineHeight: ({ variant }: RatingProps) => variant !== 'read-only' && theme.rating[variant].label.lineHeight
   }
 }))
 

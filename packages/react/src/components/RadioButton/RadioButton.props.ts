@@ -1,19 +1,19 @@
-export interface RadioProps {
+export interface RadioButtonProps {
 
   /**
-   * If `true`, the Radio is checked
+   * If `true`, the RadioButton is checked
    * @default false
    */
   checked?: boolean
 
   /**
-   * If `true`, the Radio will be disabled.
+   * If `true`, the RadioButton will be disabled.
    * @default false
    */
   disabled?: boolean
 
   /**
-   * The id of the Radio element.
+   * The id of the RadioButton element.
    * If you are using the 'labelText' attribute, this value it will automatically pass to it
    * Otherwise, remember to provide the same value for your own label
    */
@@ -22,10 +22,10 @@ export interface RadioProps {
   /**
    * Label that appears to the right of the component
    */
-  labelText?: string
+  label?: string
 
   /**
-   * Name attribute of the Radio element.
+   * Name attribute of the RadioButton element.
    */
   name?: string
 
@@ -45,12 +45,12 @@ export interface RadioProps {
   onFocus?: React.ChangeEventHandler<HTMLInputElement>
 
   /**
-   * Pass a ref to the Radio element.
+   * Pass a ref to the RadioButton element.
    */
   ref?: React.Ref<never>
 
   /**
-   * If `true`, the Radio will be required.
+   * If `true`, the RadioButton will be required.
    * @default false
    */
   required?: boolean;
@@ -61,8 +61,8 @@ export interface RadioProps {
   testID?: string,
 
   /**
-   * The string to use as the value of the radio when submitting the form,
-   * if the radio is currently toggled on
+   * The string to use as the value of the RadioButton when submitting the form,
+   * if the RadioButton is currently toggled on
    */
   value: string
 }

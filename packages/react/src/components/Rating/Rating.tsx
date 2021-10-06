@@ -1,3 +1,4 @@
+/* eslint-disable max-lines-per-function */
 /* eslint-disable max-len */
 /* eslint-disable react/destructuring-assignment */
 /* eslint-disable complexity */
@@ -9,12 +10,12 @@ import {
   RatingProps
 } from './Rating.props'
 import RatingBase from './RatingBase'
-import { Label as LabelSubcomponent } from '../_subcomponents/Label'
+import { Label } from '../_subcomponents/Label'
 import styles from './Rating.styles'
 
-export const isRatingInput = (props: RatingProps): props is RatingInputProps => (props as RatingInputProps).variant === 'input'
-export const isRatingCounter = (props: RatingProps): props is RatingCounterProps => (props as RatingCounterProps).variant === 'counter'
-export const isRatingReadOnly = (props: RatingProps): props is RatingReadOnlyProps => (props as RatingReadOnlyProps).variant === 'read-only'
+export const isRatingInput = (props: RatingProps): props is RatingInputProps => props.variant === 'input'
+export const isRatingCounter = (props: RatingProps): props is RatingCounterProps => props.variant === 'counter'
+export const isRatingReadOnly = (props: RatingProps): props is RatingReadOnlyProps => props.variant === 'read-only'
 
 const Rating = (props: RatingProps): JSX.Element => {
   const {
@@ -26,7 +27,7 @@ const Rating = (props: RatingProps): JSX.Element => {
     ...rest
   } = props
 
-  const { container, rating } = styles({ variant, ...rest })
+  const { container, rating, labelText } = styles({ variant, ...rest })
 
   const [hover, setHover] = useState(0)
 
@@ -35,7 +36,6 @@ const Rating = (props: RatingProps): JSX.Element => {
 
   const IsFilled = (i: number) => !isRatingInput(props) || hover >= i + 1 || i + 1 <= props.rate
   const isActive = (i: number) => (!isRatingCounter(props) && i + 1 <= props.rate) || i + 1 <= hover || isRatingCounter(props)
-
   const checkOnClick = isRatingInput(props) ? props.onClick : () => ''
 
   return (
@@ -61,7 +61,7 @@ const Rating = (props: RatingProps): JSX.Element => {
         ))}
       </div>
       {((isRatingInput(props) || isRatingCounter(props)) && props.label) && (
-        <LabelSubcomponent color="mediumEmphasis" fontSize={isRatingInput(props) ? 12 : 14} label={props.label} />
+        <Label label={props.label} className={labelText} />
       )}
     </div>
   )

@@ -1,24 +1,26 @@
 import React from 'react'
-import { RadioProps } from './Radio.props'
+import { RadioButtonProps } from './RadioButton.props'
 import Ripple from '../Ripple'
 import { Label } from '../_subcomponents/Label'
-import styles from './Radio.styles'
+import styles from './RadioButton.styles'
 
-const Radio = ({
+const RadioButton = ({
   checked = false,
   disabled = false,
   id,
-  labelText,
+  label,
   name,
   onBlur,
   onChange,
   onFocus,
   ref,
   required = false,
-  testID = `ds-radio-${id}`,
+  testID = `ds-RadioButton-${id}`,
   value
-}: RadioProps): JSX.Element => {
-  const { radio, wrapper, container } = styles({ disabled })
+}: RadioButtonProps): JSX.Element => {
+  const {
+    radioButton, wrapper, container, labelText
+  } = styles({ disabled })
 
   const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
 
@@ -36,7 +38,7 @@ const Radio = ({
         <div className={wrapper} ref={ref}>
           <input
             checked={checked}
-            className={radio}
+            className={radioButton}
             data-testid={testID}
             disabled={disabled}
             id={id}
@@ -50,9 +52,9 @@ const Radio = ({
           />
         </div>
       </Ripple>
-      {labelText && <Label label={labelText} disabled={disabled} />}
+      {label && <Label className={labelText} label={label} id={id} />}
     </div>
   )
 }
 
-export default Radio
+export default RadioButton

@@ -1,5 +1,4 @@
 export interface CheckboxProps {
-
   /**
    * If `true`, the component is checked
    * @default false
@@ -15,7 +14,7 @@ export interface CheckboxProps {
   /**
    * The id of the Checkbox element. Must be the same as label
    */
-  id: string
+  id?: string
 
   /**
    * If `true`, indicates that the value of the checkbox is indeterminate
@@ -27,7 +26,7 @@ export interface CheckboxProps {
   /**
    * Specify the text that will appear next to component
    */
-  labelText?: string
+  label?: string
   /**
   * The onchange event occurs when the checked state has been changed.
   */
