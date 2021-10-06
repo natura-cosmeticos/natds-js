@@ -38,6 +38,7 @@ const styles = createUseStyles((theme: Theme) => ({
     width: theme.size.semiX
   },
   labelText: {
+    color: theme.color.mediumEmphasis,
     fontFamily: [theme.counter.label.primary.fontFamily, theme.counter.label.fallback.fontFamily],
     fontSize: theme.counter.label.fontSize,
     fontWeight: theme.counter.label.primary.fontWeight,

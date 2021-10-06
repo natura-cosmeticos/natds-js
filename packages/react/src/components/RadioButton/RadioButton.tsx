@@ -52,7 +52,7 @@ const RadioButton = ({
           />
         </div>
       </Ripple>
-      {label && <Label className={labelText} label={label} />}
+      {label && <Label className={labelText} label={label} id={id} />}
     </div>
   )
 }
