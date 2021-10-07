@@ -1,8 +1,9 @@
 import React from 'react'
 import { Input } from '../Input'
-import { InputLabel } from '../Input/InputLabel'
 import { InputHelperText } from '../Input/InputHelperText'
 import { TextFieldProps } from './TextField.props'
+import { Label } from '../_subcomponents/Label'
+import styles from './TextField.styles'
 
 const TextField = (props: TextFieldProps): JSX.Element => {
   const {
@@ -26,15 +27,11 @@ const TextField = (props: TextFieldProps): JSX.Element => {
     ...rest
   } = props
 
+  const { labelText } = styles({ feedback, disabled, label })
+
   return (
     <div data-testid={testID}>
-      <InputLabel
-        id={id}
-        required={required}
-        label={label}
-        feedback={feedback}
-        disabled={disabled}
-      />
+      <Label id={id} required={required} label={label} className={labelText} />
       <Input
         id={id}
         disabled={disabled}

@@ -1,33 +1,32 @@
-/* eslint-disable max-len */
 /* eslint-disable max-lines-per-function */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { InputProps } from './Input.props'
 
 const getFeedbackBorderColor = (theme: Theme) => ({ feedback }: InputProps) => {
-  switch (feedback) {
-    case 'error':
-      return theme.color.alert
-    case 'success':
-      return theme.color.success
-    default:
-      return theme.color.lowEmphasis
+  const borderColor = {
+    error: theme.color.alert,
+    success: theme.color.success
   }
+
+  return feedback ? borderColor[feedback] : theme.color.lowEmphasis
 }
 
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
-    position: 'relative',
+    alignItems: 'center',
     backgroundColor: theme.color.surface,
     border: '1px solid',
     borderColor: getFeedbackBorderColor(theme),
     borderRadius: theme.borderRadius.medium,
-    display: 'flex',
-    alignItems: 'center',
-    justifyContent: 'space-between',
     cursor: ({ disabled, readOnly }: InputProps) => (!disabled && !readOnly ? 'text' : 'default'),
+    display: 'flex',
+    justifyContent: 'space-between',
+    position: 'relative',
     '&:hover': {
-      borderColor: ({ disabled, readOnly }: InputProps) => !disabled && !readOnly && theme.color.mediumEmphasis
+      borderColor: ({ disabled, readOnly }: InputProps) => (
+        !disabled && !readOnly && theme.color.mediumEmphasis
+      )
     },
     '&:focus-within': {
       border: '2px solid',
@@ -39,19 +38,24 @@ const styles = createUseStyles((theme: Theme) => ({
       height: '100%',
       left: 0,
       opacity: ({ readOnly }: InputProps) => (readOnly ? theme.opacity.disabledLow : 0),
+      pointerEvents: 'none',
       position: 'absolute',
       top: 0,
-      width: '100%',
-      pointerEvents: 'none'
+      width: '100%'
     }
   },
   base: {
     background: 'none',
     border: 'none',
     color: theme.color.highEmphasis,
-    fontFamily: [theme.typography.fontFamily.primary, theme.typography.fontFamily.secondary],
-    fontSize: 16,
-    letterSpacing: 0.51,
+    fontFamily: [
+      theme.textField.content.primary.fontFamily,
+      theme.textField.content.fallback.fontFamily
+    ],
+    fontSize: theme.textField.content.fontSize,
+    fontWeight: theme.textField.content.primary.fontWeight,
+    letterSpacing: theme.textField.content.letterSpacing,
+    lineHeight: theme.textField.content.lineHeight,
     outline: 'none',
     padding: theme.spacing.small,
     width: '100%',
@@ -69,7 +73,9 @@ const styles = createUseStyles((theme: Theme) => ({
     height: ({ size }: InputProps) => size && theme.size[size],
     paddingRight: ({ action }: InputProps) => action && theme.spacing.tiny,
     '&::placeholder': {
-      color: ({ disabled }: InputProps) => (disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis)
+      color: ({ disabled }: InputProps) => (
+        disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis
+      )
     }
   },
   textArea: {
@@ -77,7 +83,9 @@ const styles = createUseStyles((theme: Theme) => ({
     paddingRight: ({ action }: InputProps) => action && theme.spacing.tiny,
     resize: ({ isResizable }: InputProps) => !isResizable && 'none',
     '&::placeholder': {
-      color: ({ disabled }: InputProps) => (disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis)
+      color: ({ disabled }: InputProps) => (
+        disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis
+      )
     }
   }
 }))
