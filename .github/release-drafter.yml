@@ -24,6 +24,7 @@ version-resolver:
     labels:
       - 'patch'
   default: patch
+no-contributors-template: $CONTRIBUTORS
 template: |
   ## What’s new
 
