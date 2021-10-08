@@ -1,14 +1,16 @@
 import React from 'react'
-import { ThemeProvider as Provider } from 'react-jss'
+import { JssProvider, ThemeProvider as Provider } from 'react-jss'
 import { ThemeProviderProps } from './ThemeProvider.props'
 import buildTheme from './buildTheme'
 
 const ThemeProvider = ({
-  children, brand, mode
+  children, brand, mode, cssPrefix
 }: ThemeProviderProps): JSX.Element => (
-  <Provider theme={buildTheme(brand, mode)}>
-    {children}
-  </Provider>
+  <JssProvider classNamePrefix={cssPrefix}>
+    <Provider theme={buildTheme(brand, mode)}>
+      {children}
+    </Provider>
+  </JssProvider>
 )
 
 export default ThemeProvider
