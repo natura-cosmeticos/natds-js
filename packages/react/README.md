@@ -3,6 +3,7 @@
 React components for web development inside Natura&Co.
 
 [![npm package](https://img.shields.io/npm/v/@naturacosmeticos/natds-react/latest.svg)](https://www.npmjs.com/package/@naturacosmeticos/natds-react)
+[![Monthly downloads](https://img.shields.io/npm/dm/@naturacosmeticos/natds-react.svg)](https://www.npmjs.com/package/@naturacosmeticos/natds-react)
 [![codecov](https://codecov.io/gh/natura-cosmeticos/natds-js/branch/main/graph/badge.svg?token=ehUsMUSSbj)](https://codecov.io/gh/natura-cosmeticos/natds-js)
 [![GitHub Issues](https://img.shields.io/github/issues/natura-cosmeticos/natds-js.svg)](https://github.com/natura-cosmeticos/natds-js/issues)
 [![License](https://img.shields.io/badge/license-ISC-blue.svg)](https://opensource.org/licenses/ISC)
@@ -20,94 +21,77 @@ React components for web development inside Natura&Co.
 ### Installation
 
 ```shell script
-$ npm install @naturacosmeticos/natds-react
+// with npm
+npm install @naturacosmeticos/natds-react
+
+// with yarn
+yarn add @naturacosmeticos/natds-react
 ```
 
-OR
+> Installing `@naturacosmeticos/natds-react` will also install the packages `@naturacosmeticos/natds-icons` and `@naturacosmeticos/natds-themes`
 
-```shell script
-$ yarn add @naturacosmeticos/natds-react
+
+### Usage
+#### **Theme Setup**
+
+This package only works fine with the use of `<ThemeProvider />`, that is **essential** for applying styles correctly.
+
+```tsx
+import React from 'react'
+import { ThemeProvider, Button, buildTheme } from "@naturacosmeticos/natds-react";
+
+const theme = buildTheme('natura', 'light')
+
+export const App = () => (
+  <ThemeProvider theme={theme} cssPrefix="your-css-prefix">
+    <Button variant="contained">
+      Hello World
+    </Button>
+  </ThemeProvider>
+)
 ```
+> Brand is the name of the brand to applied (**natura**, **theBodyShop**, **avon** or **aesop**) and mode is the color scheme for the current branch (**light** or **dark**)
 
-### Fonts
+> To avoid problems with multiple style fonts, it is necessary to add a `cssPrefix` with theme provider. Please do not try to override theme palette or other tokens. Our Design System themes are ready to use.
+
+#### **Fonts**
+##### Roboto
 
 Load the Roboto font with `400` and `500` font weights:
 
 ```html
-<link
-  href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;500&display=swap"
-  rel="stylesheet"
-/>
+<link href="https://fonts.googleapis.com/css2?family=Roboto+Mono&family=Roboto:wght@400;500&display=swap" rel="stylesheet" />
 ```
 
 > This package does not provide Roboto font, only its font family names.
 
-### Icons
+##### Custom Fonts
+Custom fonts are fonts defined by the following brands: avon, aesop, natura and the body shop. They are applied for all components and to use them you need to load the `@font-face` into your `index.html`:
+> Available brands: avon, natura, aesop, theBodyShop
+
+```html
+<link href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-themes@latest/dist/assets/[BRAND]_fonts.css" rel="stylesheet" />
+```
+
+#### Icons
 
 Load the font icons from the package `@naturacosmeticos/natds-icons`:
 
 ```html
-<link
-  rel="stylesheet"
-  href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css"
-/>
+<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@naturacosmeticos/natds-icons@latest/dist/natds-icons.css">
 ```
 
-or load it from the `node_modules` with a module bundler like `webpack` or `rollup`
+or load it from the `node_modules` with a module bundler.
 
 `main.js`
 
 ```javascript
-import React from "react";
-import "@naturacosmeticos/natds-icons/natds-icons.css";
+import '@naturacosmeticos/natds-icons/natds-icons.css'
 ```
 
-`webpack.config.js`
-
-```javascript
-module.exports = {
-  module: {
-    loaders: [
-      { test: /\.css$/, loader: "style-loader!css-loader" },
-      // ...
-    ],
-  },
-};
-```
-
-### Usage
-
-Here is a quick example to get you started:
-
-Note that we enclose all your application in a `ThemeProvider` component.
-
-```jsx
-import React from "react";
-import { Button, ThemeProvider } from "@naturacosmeticos/natds-web";
-
-export const App = () => (
-  <ThemeProvider brand="natura" mode="light">
-    <Button color="primary" variant="contained">
-      Hello World
-    </Button>
-  </ThemeProvider>
-);
-```
-
-This package only works fine with the use of `<ThemeProvider />`, that is **essential** for applying styles correctly.
-
-## Questions
-
-For how-to questions and other issues, please use the [issues section on our GitHub repo](https://github.com/natura-cosmeticos/natds-js/issues).
-
-## Documentation
-
-Check out our [documentation website](https://natds-web.natura.design/react/index.html).
+## UI Documentation
+- [Storybook](https://natds-web.natura.design/react/index.html)
+- [Zero Height](https://ds.natura.design/)
 
 ## Changelog
-
 Recently updated? Please read the [changelog](./CHANGELOG.md).
-
-## License
-
-This project is licensed under the terms of [ISC License](../../LICENSE).

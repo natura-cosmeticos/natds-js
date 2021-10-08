@@ -5,9 +5,12 @@ module.exports = {
     '../src/**/*.stories.@(js|jsx|ts|tsx)'
   ],
   addons: [
+    {
+      name: '@storybook/addon-docs',
+      options: { transcludeMarkdown: true }
+    },
     '@storybook/addon-a11y',
-    '@storybook/addon-docs',
     '@storybook/addon-essentials',
     'storybook-dark-mode'
-  ]
+  ],
 }
