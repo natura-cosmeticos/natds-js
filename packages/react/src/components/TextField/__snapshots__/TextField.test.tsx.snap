@@ -34,7 +34,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -53,7 +55,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -72,7 +76,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -105,13 +111,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: inline-block;
 }
@@ -120,9 +128,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -132,7 +142,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       >
         some label here
@@ -190,7 +200,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -209,7 +221,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -228,7 +242,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -261,13 +277,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: none;
 }
@@ -276,9 +294,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -288,7 +308,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -344,7 +364,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -363,7 +385,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -382,7 +406,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -415,13 +441,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: none;
 }
@@ -430,9 +458,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -442,7 +472,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -498,7 +528,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -517,7 +549,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -536,7 +570,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -569,13 +605,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: none;
 }
@@ -584,9 +622,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -596,7 +636,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -652,7 +692,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -671,7 +713,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -690,7 +734,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -723,13 +769,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: none;
 }
@@ -738,9 +786,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -750,7 +800,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -808,7 +858,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -827,7 +879,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -846,7 +900,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -888,13 +944,15 @@ Array [
   color: #569a32;
   font-size: 16px;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #569a32;
   display: none;
 }
@@ -903,9 +961,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -917,7 +977,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -980,7 +1040,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -999,7 +1061,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -1018,7 +1082,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -1060,13 +1126,15 @@ Array [
   color: #e74627;
   font-size: 16px;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #e74627;
   display: none;
 }
@@ -1075,9 +1143,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -1089,7 +1159,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -1152,7 +1222,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -1171,7 +1243,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -1190,7 +1264,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -1382,13 +1458,15 @@ Array [
   .wrapper-d1-0-2-14 {
     height: 56px;
   }
-  .label-0-2-1 {
+  .labelText-0-2-1 {
     font-size: 14px;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    line-height: 1.5;
     margin-bottom: 4px;
     letter-spacing: 0.11px;
   }
-  .label-d0-0-2-2 {
+  .labelText-d0-0-2-2 {
     color: #777777;
     display: none;
   }
@@ -1397,9 +1475,11 @@ Array [
     font-size: 12px;
     margin-top: 4px;
     align-items: center;
-    font-family: Roboto, sans-serif;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    line-height: 1.25;
     margin-bottom: 0;
-    letter-spacing: 0.4px;
+    letter-spacing: 0.38px;
   }
   .helperText-0-2-31 > i {  }
   .helperText-d0-0-2-32 {
@@ -1409,7 +1489,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -1496,7 +1576,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -1515,7 +1597,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -1534,7 +1618,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -1585,13 +1671,15 @@ Array [
 .wrapper-d1-0-2-14 {
   height: 56px;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: none;
 }
@@ -1600,9 +1688,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-15 > i {}
 .helperText-d0-0-2-16 {
@@ -1612,7 +1702,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -1682,7 +1772,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -1701,7 +1793,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -1720,7 +1814,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -1753,13 +1849,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: none;
 }
@@ -1768,9 +1866,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -1780,7 +1880,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -1835,7 +1935,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -1854,7 +1956,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -1873,7 +1977,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -1906,13 +2012,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: none;
 }
@@ -1921,9 +2029,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -1933,7 +2043,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -1989,7 +2099,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -2008,7 +2120,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -2027,7 +2141,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -2060,13 +2176,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: none;
 }
@@ -2075,9 +2193,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -2087,7 +2207,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div
@@ -2143,7 +2263,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .base-0-2-4:read-only {
@@ -2162,7 +2284,9 @@ Array [
   font-size: 16px;
   background: none;
   box-sizing: border-box;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .input-0-2-5:read-only {
@@ -2181,7 +2305,9 @@ Array [
   padding: 16px;
   font-size: 16px;
   background: none;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   letter-spacing: 0.51px;
 }
 .textArea-0-2-6:read-only {
@@ -2214,13 +2340,15 @@ Array [
 .textArea-d2-0-2-9::placeholder {
   color: #777777;
 }
-.label-0-2-1 {
+.labelText-0-2-1 {
   font-size: 14px;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 500;
+  line-height: 1.5;
   margin-bottom: 4px;
   letter-spacing: 0.11px;
 }
-.label-d0-0-2-2 {
+.labelText-d0-0-2-2 {
   color: #777777;
   display: none;
 }
@@ -2229,9 +2357,11 @@ Array [
   font-size: 12px;
   margin-top: 4px;
   align-items: center;
-  font-family: Roboto, sans-serif;
+  font-family: Roboto, Arial;
+  font-weight: 400;
+  line-height: 1.25;
   margin-bottom: 0;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.38px;
 }
 .helperText-0-2-10 > i {}
 .helperText-d0-0-2-11 {
@@ -2241,7 +2371,7 @@ Array [
   <div>
     <div>
       <label
-        class="label-0-2-1 label-d0-0-2-2"
+        class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
       />
       <div

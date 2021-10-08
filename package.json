@@ -52,7 +52,6 @@
     "build": "lerna run build",
     "build:storybook": "lerna run build:storybook:ci",
     "clean": "lerna clean",
-    "cm": "git cz",
     "commit": "git cz",
     "lint": "lerna run lint",
     "lint:fix": "yarn lint --fix",

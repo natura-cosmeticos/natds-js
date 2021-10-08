@@ -1,13 +1,19 @@
 import React from 'react'
 
 export interface LabelSubcomponentProps {
-  label: string
   className?: string
   id?: string
+  label?: string
+  required?: boolean
 }
 
 const Label = ({
-  label, id, className
-}: LabelSubcomponentProps): JSX.Element => <label htmlFor={id} className={className}>{label}</label>
+  label, id, className, required
+}: LabelSubcomponentProps): JSX.Element => (
+  <label htmlFor={id} className={className}>
+    {label}
+    {required && label && '*'}
+  </label>
+)
 
 export default Label
