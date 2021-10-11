@@ -1,7 +1,7 @@
 /* eslint-disable max-lines-per-function */
 import React from 'react'
 import { CounterProps } from './Counter.props'
-import Label from '../_subcomponents/Label'
+import Label from '../Label'
 import styles from './Counter.styles'
 import Button from '../Button'
 
