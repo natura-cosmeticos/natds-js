@@ -1,14 +1,15 @@
 import React from 'react'
 import { JssProvider, SheetsRegistry } from 'react-jss'
+import themes from '@naturacosmeticos/natds-themes'
 import { render } from '@testing-library/react'
-import { buildTheme, ThemeProvider } from '../ThemeProvider'
+import { ThemeProvider } from '../ThemeProvider'
 
 const renderWithTheme = (component: JSX.Element) => {
   const sheets = new SheetsRegistry()
 
   const renderTree = render(
     <JssProvider registry={sheets}>
-      <ThemeProvider theme={buildTheme('natura', 'light')}>
+      <ThemeProvider theme={themes.natura.light}>
         {component}
       </ThemeProvider>
     </JssProvider>
