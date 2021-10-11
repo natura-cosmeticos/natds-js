@@ -1,8 +1,7 @@
 import React from 'react'
-import { Input } from '../Input'
-import { InputHelperText } from '../Input/InputHelperText'
+import { Input, InputHelperText } from '../Input'
 import { TextFieldProps } from './TextField.props'
-import { Label } from '../_subcomponents/Label'
+import { Label } from '../Label'
 import styles from './TextField.styles'
 
 const TextField = (props: TextFieldProps): JSX.Element => {

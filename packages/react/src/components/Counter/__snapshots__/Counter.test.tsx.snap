@@ -2,51 +2,7 @@
 
 exports[`Counter should render correctly when is disabled 1`] = `
 Array [
-  ".buttonGroup-0-2-1 {
-  width: fit-content;
-  border: 1px solid #bbbbbb;
-  display: flex;
-  margin-top: 4px;
-  border-radius: 4px;
-}
-.buttonGroup-0-2-1 button {}
-.buttonLeft-0-2-2 {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.buttonRight-0-2-3 {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.inputBase-0-2-4 {
-  color: #000000;
-  width: 40px;
-  cursor: default;
-  height: 100%;
-  outline: none;
-  padding: 0;
-  border-top: none;
-  text-align: center;
-  border-left: 1px solid #bbbbbb;
-  border-right: 1px solid #bbbbbb;
-  border-bottom: none;
-  background-color: transparent;
-}
-.labelText-0-2-5 {
-  color: #777777;
-  font-size: 14px;
-  font-family: Roboto, Arial;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 0.11px;
-}
-.buttonGroup-d0-0-2-6 {
-  height: 40px;
-}
-.buttonGroup-d0-0-2-6 button {
-  width: 32px;
-}
-.sharedRippleEffect-0-2-13 {
+  ".sharedRippleEffect-0-2-13 {
   top: 0;
   left: 0;
   width: 100%;
@@ -240,7 +196,51 @@ Array [
   .labelContainer-d4-0-2-24 {
     flex-direction: row-reverse;
   }
-  .label-d5-0-2-25 {  }",
+  .label-d5-0-2-25 {  }
+  .buttonGroup-0-2-1 {
+    width: fit-content;
+    border: 1px solid #bbbbbb;
+    display: flex;
+    margin-top: 4px;
+    border-radius: 4px;
+  }
+  .buttonGroup-0-2-1 button {  }
+  .buttonLeft-0-2-2 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .buttonRight-0-2-3 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .inputBase-0-2-4 {
+    color: #000000;
+    width: 40px;
+    cursor: default;
+    height: 100%;
+    outline: none;
+    padding: 0;
+    border-top: none;
+    text-align: center;
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    border-bottom: none;
+    background-color: transparent;
+  }
+  .labelText-0-2-5 {
+    color: #777777;
+    font-size: 14px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.11px;
+  }
+  .buttonGroup-d0-0-2-6 {
+    height: 40px;
+  }
+  .buttonGroup-d0-0-2-6 button {
+    width: 32px;
+  }",
   <div>
     <div>
       <div
@@ -319,51 +319,7 @@ Array [
 
 exports[`Counter should render correctly with default props 1`] = `
 Array [
-  ".buttonGroup-0-2-1 {
-  width: fit-content;
-  border: 1px solid #bbbbbb;
-  display: flex;
-  margin-top: 4px;
-  border-radius: 4px;
-}
-.buttonGroup-0-2-1 button {}
-.buttonLeft-0-2-2 {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.buttonRight-0-2-3 {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.inputBase-0-2-4 {
-  color: #000000;
-  width: 40px;
-  cursor: default;
-  height: 100%;
-  outline: none;
-  padding: 0;
-  border-top: none;
-  text-align: center;
-  border-left: 1px solid #bbbbbb;
-  border-right: 1px solid #bbbbbb;
-  border-bottom: none;
-  background-color: transparent;
-}
-.labelText-0-2-5 {
-  color: #777777;
-  font-size: 14px;
-  font-family: Roboto, Arial;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 0.11px;
-}
-.buttonGroup-d0-0-2-6 {
-  height: 40px;
-}
-.buttonGroup-d0-0-2-6 button {
-  width: 32px;
-}
-.sharedRippleEffect-0-2-13 {
+  ".sharedRippleEffect-0-2-13 {
   top: 0;
   left: 0;
   width: 100%;
@@ -559,7 +515,51 @@ Array [
   .labelContainer-d4-0-2-24 {
     flex-direction: row-reverse;
   }
-  .label-d5-0-2-25 {  }",
+  .label-d5-0-2-25 {  }
+  .buttonGroup-0-2-1 {
+    width: fit-content;
+    border: 1px solid #bbbbbb;
+    display: flex;
+    margin-top: 4px;
+    border-radius: 4px;
+  }
+  .buttonGroup-0-2-1 button {  }
+  .buttonLeft-0-2-2 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .buttonRight-0-2-3 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .inputBase-0-2-4 {
+    color: #000000;
+    width: 40px;
+    cursor: default;
+    height: 100%;
+    outline: none;
+    padding: 0;
+    border-top: none;
+    text-align: center;
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    border-bottom: none;
+    background-color: transparent;
+  }
+  .labelText-0-2-5 {
+    color: #777777;
+    font-size: 14px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.11px;
+  }
+  .buttonGroup-d0-0-2-6 {
+    height: 40px;
+  }
+  .buttonGroup-d0-0-2-6 button {
+    width: 32px;
+  }",
   <div>
     <div>
       <div
@@ -637,51 +637,7 @@ Array [
 
 exports[`Counter should render correctly with label 1`] = `
 Array [
-  ".buttonGroup-0-2-1 {
-  width: fit-content;
-  border: 1px solid #bbbbbb;
-  display: flex;
-  margin-top: 4px;
-  border-radius: 4px;
-}
-.buttonGroup-0-2-1 button {}
-.buttonLeft-0-2-2 {
-  border-top-right-radius: 0;
-  border-bottom-right-radius: 0;
-}
-.buttonRight-0-2-3 {
-  border-top-left-radius: 0;
-  border-bottom-left-radius: 0;
-}
-.inputBase-0-2-4 {
-  color: #000000;
-  width: 40px;
-  cursor: default;
-  height: 100%;
-  outline: none;
-  padding: 0;
-  border-top: none;
-  text-align: center;
-  border-left: 1px solid #bbbbbb;
-  border-right: 1px solid #bbbbbb;
-  border-bottom: none;
-  background-color: transparent;
-}
-.labelText-0-2-5 {
-  color: #777777;
-  font-size: 14px;
-  font-family: Roboto, Arial;
-  font-weight: 500;
-  line-height: 1.25;
-  letter-spacing: 0.11px;
-}
-.buttonGroup-d0-0-2-6 {
-  height: 40px;
-}
-.buttonGroup-d0-0-2-6 button {
-  width: 32px;
-}
-.sharedRippleEffect-0-2-13 {
+  ".sharedRippleEffect-0-2-13 {
   top: 0;
   left: 0;
   width: 100%;
@@ -877,7 +833,51 @@ Array [
   .labelContainer-d4-0-2-24 {
     flex-direction: row-reverse;
   }
-  .label-d5-0-2-25 {  }",
+  .label-d5-0-2-25 {  }
+  .buttonGroup-0-2-1 {
+    width: fit-content;
+    border: 1px solid #bbbbbb;
+    display: flex;
+    margin-top: 4px;
+    border-radius: 4px;
+  }
+  .buttonGroup-0-2-1 button {  }
+  .buttonLeft-0-2-2 {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+  }
+  .buttonRight-0-2-3 {
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+  }
+  .inputBase-0-2-4 {
+    color: #000000;
+    width: 40px;
+    cursor: default;
+    height: 100%;
+    outline: none;
+    padding: 0;
+    border-top: none;
+    text-align: center;
+    border-left: 1px solid #bbbbbb;
+    border-right: 1px solid #bbbbbb;
+    border-bottom: none;
+    background-color: transparent;
+  }
+  .labelText-0-2-5 {
+    color: #777777;
+    font-size: 14px;
+    font-family: Roboto, Arial;
+    font-weight: 500;
+    line-height: 1.25;
+    letter-spacing: 0.11px;
+  }
+  .buttonGroup-d0-0-2-6 {
+    height: 40px;
+  }
+  .buttonGroup-d0-0-2-6 button {
+    width: 32px;
+  }",
   <div>
     <div>
       <label

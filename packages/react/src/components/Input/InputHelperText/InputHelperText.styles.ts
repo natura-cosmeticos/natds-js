@@ -1,7 +1,19 @@
+/* eslint-disable max-len */
 import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { InputProps } from '../Input.props'
-import { getFeedbackTextColor } from '../../TextField/TextField.styles'
+import { InputHelperTextProps } from './InputHelperText.props'
+
+export const getFeedbackTextColor = (theme: Theme) => ({ feedback, disabled }: InputHelperTextProps) => {
+  const defaultColor = disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis
+
+  const textColor = {
+    error: theme.color.alert,
+    success: theme.color.success
+  }
+
+  return feedback ? textColor[feedback] : defaultColor
+}
 
 const styles = createUseStyles((theme: Theme) => ({
   helperText: {
