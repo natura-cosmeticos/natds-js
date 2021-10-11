@@ -1,9 +1,9 @@
 /* eslint-disable max-lines-per-function */
 import React from 'react'
+import { Label } from '../Label'
+import { Button } from '../Button'
 import { CounterProps } from './Counter.props'
-import Label from '../_subcomponents/Label'
 import styles from './Counter.styles'
-import Button from '../Button'
 
 const Counter = ({
   ariaLabelDecrementButton,
