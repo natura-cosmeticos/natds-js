@@ -28,7 +28,7 @@ npm install @naturacosmeticos/natds-react
 yarn add @naturacosmeticos/natds-react
 ```
 
-> Installing `@naturacosmeticos/natds-react` will also install the packages `@naturacosmeticos/natds-icons` and `@naturacosmeticos/natds-themes`
+Installing `@naturacosmeticos/natds-react` will also install the packages `@naturacosmeticos/natds-icons`, `@naturacosmeticos/natds-themes` and `react-jss`
 
 
 ### Usage
@@ -40,6 +40,16 @@ This package only works fine with the use of `<ThemeProvider />`, that is **esse
 import React from 'react'
 import { ThemeProvider, Button, buildTheme } from "@naturacosmeticos/natds-react";
 
+/**
+ * The `buildTheme` function accepts two parameters:
+ *
+ * — brand: the name of the brand to applied
+ *    ('natura' | 'theBodyShop' | 'avon' | 'aesop')
+ *
+ * — mode: the color scheme for the current branch
+ *    ('light' | 'dark')
+ *
+*/
 const theme = buildTheme('natura', 'light')
 
 export const App = () => (
@@ -50,7 +60,6 @@ export const App = () => (
   </ThemeProvider>
 )
 ```
-> Brand is the name of the brand to applied (**natura**, **theBodyShop**, **avon** or **aesop**) and mode is the color scheme for the current branch (**light** or **dark**)
 
 > To avoid problems with multiple style fonts, it is necessary to add a `cssPrefix` with theme provider. Please do not try to override theme palette or other tokens. Our Design System themes are ready to use.
 
