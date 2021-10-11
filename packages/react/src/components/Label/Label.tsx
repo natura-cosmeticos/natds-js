@@ -1,6 +1,6 @@
 import React from 'react'
 
-export interface LabelSubcomponentProps {
+export interface LabelProps {
   className?: string
   id?: string
   label?: string
@@ -9,7 +9,7 @@ export interface LabelSubcomponentProps {
 
 const Label = ({
   label, id, className, required
-}: LabelSubcomponentProps): JSX.Element => (
+}: LabelProps): JSX.Element => (
   <label htmlFor={id} className={className}>
     {label}
     {required && label && '*'}
