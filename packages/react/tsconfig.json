@@ -2,6 +2,7 @@
   "compilerOptions": {
     "allowJs": false,
     "baseUrl": "./src",
+    "declaration": true,
     "esModuleInterop": true,
     "forceConsistentCasingInFileNames": true,
     "jsx": "react",

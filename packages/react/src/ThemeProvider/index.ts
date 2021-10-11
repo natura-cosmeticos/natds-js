@@ -1,5 +1,7 @@
 import ThemeProvider from './ThemeProvider'
+import buildTheme from './buildTheme'
 
 export { ThemeProviderProps } from './ThemeProvider.props'
-export { ThemeProvider }
+export { ThemeProvider, buildTheme }
+
 export default ThemeProvider

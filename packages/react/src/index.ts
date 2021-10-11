@@ -1,4 +1,5 @@
 export * from './ThemeProvider'
+export { useTheme } from 'react-jss'
 
 // Components
 export * from './components/Badge'

@@ -1,5 +1,6 @@
 import React from 'react'
 import { JssProvider, SheetsRegistry } from 'react-jss'
+import themes from '@naturacosmeticos/natds-themes'
 import { render } from '@testing-library/react'
 import { ThemeProvider } from '../ThemeProvider'
 
@@ -8,7 +9,7 @@ const renderWithTheme = (component: JSX.Element) => {
 
   const renderTree = render(
     <JssProvider registry={sheets}>
-      <ThemeProvider>
+      <ThemeProvider theme={themes.natura.light}>
         {component}
       </ThemeProvider>
     </JssProvider>
