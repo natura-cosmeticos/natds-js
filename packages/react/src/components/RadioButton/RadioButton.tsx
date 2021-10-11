@@ -1,7 +1,7 @@
 import React from 'react'
+import { Ripple } from '../Ripple'
+import { Label } from '../Label'
 import { RadioButtonProps } from './RadioButton.props'
-import Ripple from '../Ripple'
-import { Label } from '../_subcomponents/Label'
 import styles from './RadioButton.styles'
 
 const RadioButton = ({
