@@ -1,19 +1,9 @@
-import {
-  naturaDarkColorTokens,
-  naturaLightColorTokens
-} from './natura'
-import {
-  avonDarkColorTokens,
-  avonLightColorTokens
-} from './avon'
-import {
-  theBodyShopDarkColorTokens,
-  theBodyShopLightColorTokens
-} from './theBodyShop'
-import {
-  aesopDarkColorTokens,
-  aesopLightColorTokens
-} from './aesop'
+/* eslint-disable import/prefer-default-export */
+import { naturaDarkColorTokens, naturaLightColorTokens } from './natura'
+import { avonDarkColorTokens, avonLightColorTokens } from './avon'
+import { theBodyShopDarkColorTokens, theBodyShopLightColorTokens } from './theBodyShop'
+import { aesopDarkColorTokens, aesopLightColorTokens } from './aesop'
+import { biomeDarkColorTokens, biomeLightColorTokens } from './biome'
 
 /**
  * @deprecated theme-bound `colorTokens` are deprecated since v0.20 and will be removed at v1.0.
@@ -67,5 +57,17 @@ export const colorTokens = {
    * @deprecated `aesopLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
    * Please use `theme.aesop.light.colors` from `natds-themes`.
    */
-  aesopLightColorTokens
+  aesopLightColorTokens,
+
+  /**
+   * @deprecated `aesopDarkColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.aesop.dark.color` from `natds-themes`.
+   */
+  biomeDarkColorTokens,
+
+  /**
+   * @deprecated `biomeLightColorTokens` are deprecated since v0.20 and will be removed at v1.0.
+   * Please use `theme.biome.light.colors` from `natds-themes`.
+   */
+  biomeLightColorTokens
 }
