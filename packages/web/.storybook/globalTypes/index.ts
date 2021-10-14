@@ -12,7 +12,9 @@ export const globalTypes = {
         { right: '🌑', title: 'The Body Shop Dark', value: 'theBodyShopDark' },
         { right: '☀️', title: 'The Body Shop Light', value: 'theBodyShopLight' },
         { right: '🌑', title: 'Aesop Dark', value: 'aesopDark' },
-        { right: '☀️', title: 'Aesop Light', value: 'aesopLight' }
+        { right: '☀️', title: 'Aesop Light', value: 'aesopLight' },
+        { right: '🌑', title: 'Biome Dark', value: 'biomeDark' },
+        { right: '☀️', title: 'Biome Light', value: 'biomeLight' }
       ]
     }
   },

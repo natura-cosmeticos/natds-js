@@ -6,6 +6,8 @@ import { theBodyShopLight } from './themes/theBodyShop/the-body-shop-light'
 import { theBodyShopDark } from './themes/theBodyShop/the-body-shop-dark'
 import { aesopLight } from './themes/aesop/aesop-light'
 import { aesopDark } from './themes/aesop/aesop-dark'
+import { biomeLight } from './themes/biome/biome-light'
+import { biomeDark } from './themes/biome/biome-dark'
 
 export { ITheme } from './themes/ITheme'
 
@@ -25,5 +27,9 @@ export default {
   aesop: {
     dark: aesopDark,
     light: aesopLight
+  },
+  biome: {
+    dark: biomeDark,
+    light: biomeLight
   }
 }
