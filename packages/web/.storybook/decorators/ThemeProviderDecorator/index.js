@@ -12,7 +12,9 @@ const getTheme = (themeKey) => {
     theBodyShopDark: { brand: 'theBodyShop', mode: 'dark' },
     theBodyShopLight: { brand: 'theBodyShop', mode: 'light' },
     aesopDark: { brand: 'aesop', mode: 'dark' },
-    aesopLight: { brand: 'aesop', mode: 'light' }
+    aesopLight: { brand: 'aesop', mode: 'light' },
+    biomeLight: { brand: 'biome', mode: 'light' },
+    biomeDark: { brand: 'biome', mode: 'dark' }
   }
 
   if (Object.keys(themesMap).includes(themeKey)) {
