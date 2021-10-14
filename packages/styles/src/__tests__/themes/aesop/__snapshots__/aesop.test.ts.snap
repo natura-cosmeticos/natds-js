@@ -1,0 +1,1800 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Aesop Theme it should match Aesop Dark theme snapshot: Aesop Dark Theme 1`] = `
+Object {
+  "asset": Object {
+    "brand": Object {
+      "custom": Object {
+        "a": Object {
+          "file": "<svg width=\\"256\\" height=\\"82\\" viewBox=\\"0 0 256 82\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\"><g clip-path=\\"url(#a)\\"><path d=\\"M14.928 36.73a137.814 137.814 0 0 0-7.803 21.96 16.278 16.278 0 0 0-3.435-.492c-1.243.05-2.48.215-3.692.492C7.459 42.436 19.865 15.09 25.815 0c.693.138 1.396.22 2.102.246A6.695 6.695 0 0 0 29.769 0c6.45 17.62 24.977 58.367 25.152 58.69a26.014 26.014 0 0 0-4.951-.492 31.76 31.76 0 0 0-5.369.492 153.224 153.224 0 0 0-8.469-21.96H14.928zm10.484-24.99-8.815 20.8h17.867l-9.052-20.8zM68.417 38.322c0 2.349 0 7.125 2.261 10.973a12.8 12.8 0 0 0 11.74 6.545 15.687 15.687 0 0 0 13.34-6.777l1.009.232a27.06 27.06 0 0 0-.595 5.031c-3.685 3.529-8.805 5.463-15.596 5.463-12.747 0-20.545-8.049-20.545-20.972 0-11.569 6.373-21.292 20.131-21.292 18.693 0 18.439 16.27 18.363 20.8l-30.108-.003zm21.72-3.528c0-2.767 0-13.921-10.06-13.921-7.298 0-10.822 5.538-11.578 13.92h21.638zM130.459 27.247a7.816 7.816 0 0 0-3.265-5.023 9.678 9.678 0 0 0-5.45-1.429c-5.112 0-7.794 2.683-7.794 6.284 0 4.866 4.951 6.63 7.877 7.385 7.464 1.927 13.51 3.529 13.51 11.911 0 6.373-4.452 13.495-16.107 13.495a22.744 22.744 0 0 1-12.403-3.514c.947-2.14 1.595-4.4 1.926-6.717l1.001-.246a10.101 10.101 0 0 0 4.533 5.539 11.75 11.75 0 0 0 6.118 1.587c4.365 0 8.469-2.092 8.469-6.873 0-4.782-2.851-5.705-11.649-8.55-3.611-1.18-9.566-3.78-9.566-11.155 0-4.772 2.938-12.486 14.515-12.486 3.864-.069 7.68.88 11.06 2.753a24.503 24.503 0 0 0-1.675 7.046l-1.1-.007zM187.065 38.15c0 13.336-9.224 21.718-21.956 21.718-8.902 0-21.31-4.03-21.31-21.223 0-13.07 8.718-21.199 21.31-21.199 15.916.001 21.956 10.483 21.956 20.704zm-34.717.255c0 11.657 5.117 18.108 12.83 18.108 8.054 0 13.336-6.957 13.336-18.028 0-6.54-2.014-17.69-12.923-17.69-13.244-.001-13.244 15.086-13.244 17.61h.001zM219.182 59.953c-7.891 0-12.324-4.353-13.671-7.793 0 13.154-.082 20.8.423 28.5a15.319 15.319 0 0 0-4.367-.491 16.491 16.491 0 0 0-4.522.492c.668-10.895.919-21.876.919-32.78 0-7.631-.162-17.946-.422-30.102a18.77 18.77 0 0 0 4.112.492c1.384-.02 2.76-.185 4.108-.492-.333 4.609-.333 5.862-.333 7.63a15.5 15.5 0 0 1 14.246-8.049c8.388 0 18.628 6.118 18.628 21.046-.001 13.243-8.143 21.547-19.121 21.547zm-10.398-34.04c-1.68 2.092-3.446 5.115-3.446 13.415 0 7.376 1.675 10.151 3.446 12.236a10.977 10.977 0 0 0 8.88 4.117c11.994 0 11.994-14.17 11.994-16.861 0-12.663-6.04-17.258-11.483-17.258a11.336 11.336 0 0 0-9.391 4.35zM92.09 9.669H68.918V7.05H92.09V9.67zM250.513 48.563a5.5 5.5 0 1 1-5.467 5.501 5.433 5.433 0 0 1 3.364-5.088 5.441 5.441 0 0 1 2.103-.413zm0 .984a4.513 4.513 0 0 0 0 9.028 4.518 4.518 0 0 0 4.441-4.514 4.518 4.518 0 0 0-4.441-4.514zm2.976 7.478a4.488 4.488 0 0 0-.627-.065c-.213 0-.426.042-.761.065a30.935 30.935 0 0 0-2.451-3.036h-.204c0 .951 0 1.69.079 3.036a5.796 5.796 0 0 0-.7-.065 2.987 2.987 0 0 0-.58.065c.09-1.07.124-2.143.102-3.217 0-1.556-.032-2.321-.07-2.98.464.019.794.019 1.504.019 1.537 0 3.105-.019 3.105 1.467 0 1.295-1.402 1.494-2.02 1.554.404.558 2.275 2.661 2.67 3.059l-.047.098zm-4.019-5.746c-.024.827-.024 1.56-.024 2.288.664 0 2.251 0 2.251-1.183.001-1.102-1.221-1.102-2.227-1.102v-.003z\\" fill=\\"#000\\"/></g><defs><clipPath id=\\"a\\"><path fill=\\"#fff\\" d=\\"M0 0H256V81.231H0z\\"/></clipPath></defs></svg>",
+          "height": 82,
+          "width": 256,
+        },
+        "b": Object {
+          "file": "<svg width=\\"256\\" height=\\"82\\" viewBox=\\"0 0 256 82\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\"><g clip-path=\\"url(#a)\\"><path d=\\"M14.928 36.73a137.814 137.814 0 0 0-7.803 21.96 16.278 16.278 0 0 0-3.435-.492c-1.243.05-2.48.215-3.692.492C7.459 42.436 19.865 15.09 25.815 0c.693.138 1.396.22 2.102.246A6.695 6.695 0 0 0 29.769 0c6.45 17.62 24.977 58.367 25.152 58.69a26.014 26.014 0 0 0-4.951-.492 31.76 31.76 0 0 0-5.369.492 153.224 153.224 0 0 0-8.469-21.96H14.928zm10.484-24.99-8.815 20.8h17.867l-9.052-20.8zM68.417 38.322c0 2.349 0 7.125 2.261 10.973a12.8 12.8 0 0 0 11.74 6.545 15.687 15.687 0 0 0 13.34-6.777l1.009.232a27.06 27.06 0 0 0-.595 5.031c-3.685 3.529-8.805 5.463-15.596 5.463-12.747 0-20.545-8.049-20.545-20.972 0-11.569 6.373-21.292 20.131-21.292 18.693 0 18.439 16.27 18.363 20.8l-30.108-.003zm21.72-3.528c0-2.767 0-13.921-10.06-13.921-7.298 0-10.822 5.538-11.578 13.92h21.638zM130.459 27.247a7.816 7.816 0 0 0-3.265-5.023 9.678 9.678 0 0 0-5.45-1.429c-5.112 0-7.794 2.683-7.794 6.284 0 4.866 4.951 6.63 7.877 7.385 7.464 1.927 13.51 3.529 13.51 11.911 0 6.373-4.452 13.495-16.107 13.495a22.744 22.744 0 0 1-12.403-3.514c.947-2.14 1.595-4.4 1.926-6.717l1.001-.246a10.101 10.101 0 0 0 4.533 5.539 11.75 11.75 0 0 0 6.118 1.587c4.365 0 8.469-2.092 8.469-6.873 0-4.782-2.851-5.705-11.649-8.55-3.611-1.18-9.566-3.78-9.566-11.155 0-4.772 2.938-12.486 14.515-12.486 3.864-.069 7.68.88 11.06 2.753a24.503 24.503 0 0 0-1.675 7.046l-1.1-.007zM187.065 38.15c0 13.336-9.224 21.718-21.956 21.718-8.902 0-21.31-4.03-21.31-21.223 0-13.07 8.718-21.199 21.31-21.199 15.916.001 21.956 10.483 21.956 20.704zm-34.717.255c0 11.657 5.117 18.108 12.83 18.108 8.054 0 13.336-6.957 13.336-18.028 0-6.54-2.014-17.69-12.923-17.69-13.244-.001-13.244 15.086-13.244 17.61h.001zM219.182 59.953c-7.891 0-12.324-4.353-13.671-7.793 0 13.154-.082 20.8.423 28.5a15.319 15.319 0 0 0-4.367-.491 16.491 16.491 0 0 0-4.522.492c.668-10.895.919-21.876.919-32.78 0-7.631-.162-17.946-.422-30.102a18.77 18.77 0 0 0 4.112.492c1.384-.02 2.76-.185 4.108-.492-.333 4.609-.333 5.862-.333 7.63a15.5 15.5 0 0 1 14.246-8.049c8.388 0 18.628 6.118 18.628 21.046-.001 13.243-8.143 21.547-19.121 21.547zm-10.398-34.04c-1.68 2.092-3.446 5.115-3.446 13.415 0 7.376 1.675 10.151 3.446 12.236a10.977 10.977 0 0 0 8.88 4.117c11.994 0 11.994-14.17 11.994-16.861 0-12.663-6.04-17.258-11.483-17.258a11.336 11.336 0 0 0-9.391 4.35zM92.09 9.669H68.918V7.05H92.09V9.67zM250.513 48.563a5.5 5.5 0 1 1-5.467 5.501 5.433 5.433 0 0 1 3.364-5.088 5.441 5.441 0 0 1 2.103-.413zm0 .984a4.513 4.513 0 0 0 0 9.028 4.518 4.518 0 0 0 4.441-4.514 4.518 4.518 0 0 0-4.441-4.514zm2.976 7.478a4.488 4.488 0 0 0-.627-.065c-.213 0-.426.042-.761.065a30.935 30.935 0 0 0-2.451-3.036h-.204c0 .951 0 1.69.079 3.036a5.796 5.796 0 0 0-.7-.065 2.987 2.987 0 0 0-.58.065c.09-1.07.124-2.143.102-3.217 0-1.556-.032-2.321-.07-2.98.464.019.794.019 1.504.019 1.537 0 3.105-.019 3.105 1.467 0 1.295-1.402 1.494-2.02 1.554.404.558 2.275 2.661 2.67 3.059l-.047.098zm-4.019-5.746c-.024.827-.024 1.56-.024 2.288.664 0 2.251 0 2.251-1.183.001-1.102-1.221-1.102-2.227-1.102v-.003z\\" fill=\\"#000\\"/></g><defs><clipPath id=\\"a\\"><path fill=\\"#fff\\" d=\\"M0 0H256V81.231H0z\\"/></clipPath></defs></svg>",
+          "height": 82,
+          "width": 256,
+        },
+      },
+      "neutral": Object {
+        "a": Object {
+          "file": "<svg width=\\"256\\" height=\\"82\\" viewBox=\\"0 0 256 82\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\"><g clip-path=\\"url(#a)\\"><path d=\\"M14.928 36.73a137.814 137.814 0 0 0-7.803 21.96 16.278 16.278 0 0 0-3.435-.492c-1.243.05-2.48.215-3.692.492C7.459 42.436 19.865 15.09 25.815 0c.693.138 1.396.22 2.102.246A6.695 6.695 0 0 0 29.769 0c6.45 17.62 24.977 58.367 25.152 58.69a26.014 26.014 0 0 0-4.951-.492 31.76 31.76 0 0 0-5.369.492 153.224 153.224 0 0 0-8.469-21.96H14.928zm10.484-24.99-8.815 20.8h17.867l-9.052-20.8zM68.417 38.322c0 2.349 0 7.125 2.261 10.973a12.8 12.8 0 0 0 11.74 6.545 15.686 15.686 0 0 0 13.34-6.777l1.009.232a27.06 27.06 0 0 0-.595 5.031c-3.685 3.529-8.805 5.463-15.596 5.463-12.747 0-20.545-8.049-20.545-20.972 0-11.569 6.373-21.292 20.131-21.292 18.693 0 18.439 16.27 18.363 20.8l-30.108-.003zm21.72-3.528c0-2.767 0-13.921-10.06-13.921-7.298 0-10.822 5.538-11.578 13.92h21.638zM130.459 27.247a7.816 7.816 0 0 0-3.265-5.023 9.68 9.68 0 0 0-5.45-1.429c-5.112 0-7.794 2.683-7.794 6.284 0 4.866 4.951 6.63 7.877 7.385 7.464 1.927 13.51 3.529 13.51 11.911 0 6.373-4.452 13.495-16.107 13.495a22.744 22.744 0 0 1-12.403-3.514c.947-2.14 1.595-4.4 1.926-6.717l1.001-.246a10.101 10.101 0 0 0 4.533 5.539 11.75 11.75 0 0 0 6.118 1.587c4.365 0 8.469-2.092 8.469-6.873 0-4.782-2.851-5.705-11.649-8.55-3.611-1.18-9.566-3.78-9.566-11.155 0-4.772 2.938-12.486 14.515-12.486 3.864-.069 7.68.88 11.06 2.753a24.503 24.503 0 0 0-1.675 7.046l-1.1-.007zM187.065 38.15c0 13.336-9.224 21.718-21.956 21.718-8.902 0-21.31-4.03-21.31-21.223 0-13.07 8.718-21.199 21.31-21.199 15.916.001 21.956 10.483 21.956 20.704zm-34.717.255c0 11.657 5.117 18.108 12.83 18.108 8.054 0 13.336-6.957 13.336-18.028 0-6.54-2.014-17.69-12.923-17.69-13.244-.001-13.244 15.086-13.244 17.61h.001zM219.182 59.953c-7.891 0-12.324-4.353-13.671-7.793 0 13.154-.082 20.8.423 28.5a15.319 15.319 0 0 0-4.367-.491 16.495 16.495 0 0 0-4.522.492c.668-10.895.919-21.876.919-32.78 0-7.631-.162-17.946-.422-30.102a18.77 18.77 0 0 0 4.112.492c1.384-.02 2.76-.185 4.108-.492-.333 4.609-.333 5.862-.333 7.63a15.5 15.5 0 0 1 14.246-8.049c8.388 0 18.628 6.118 18.628 21.046-.001 13.243-8.143 21.547-19.121 21.547zm-10.398-34.04c-1.68 2.092-3.446 5.115-3.446 13.415 0 7.376 1.675 10.151 3.446 12.236a10.978 10.978 0 0 0 8.88 4.117c11.994 0 11.994-14.17 11.994-16.861 0-12.662-6.04-17.258-11.483-17.258a11.334 11.334 0 0 0-9.391 4.35zM92.09 9.669H68.918V7.05H92.09V9.67zM250.513 48.562a5.5 5.5 0 1 1-5.467 5.502 5.433 5.433 0 0 1 3.364-5.088 5.443 5.443 0 0 1 2.103-.414zm0 .985a4.513 4.513 0 0 0 0 9.028 4.518 4.518 0 0 0 4.441-4.514 4.518 4.518 0 0 0-4.441-4.514zm2.976 7.478a4.488 4.488 0 0 0-.627-.065c-.213 0-.426.042-.761.065a30.923 30.923 0 0 0-2.451-3.036h-.204c0 .951 0 1.69.079 3.036a5.796 5.796 0 0 0-.7-.065 2.987 2.987 0 0 0-.58.065c.09-1.07.124-2.143.102-3.217 0-1.556-.032-2.321-.07-2.98.464.019.794.019 1.504.019 1.537 0 3.105-.019 3.105 1.467 0 1.295-1.402 1.494-2.02 1.554.404.558 2.275 2.661 2.67 3.059l-.047.098zm-4.019-5.746c-.024.827-.024 1.56-.024 2.288.664 0 2.251 0 2.251-1.183.001-1.102-1.221-1.102-2.227-1.102v-.003z\\" fill=\\"#fff\\"/></g><defs><clipPath id=\\"a\\"><path fill=\\"#fff\\" d=\\"M0 0H256V81.231H0z\\"/></clipPath></defs></svg>",
+          "height": 82,
+          "width": 256,
+        },
+        "b": Object {
+          "file": "<svg width=\\"256\\" height=\\"82\\" viewBox=\\"0 0 256 82\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\"><g clip-path=\\"url(#a)\\"><path d=\\"M14.928 36.73a137.814 137.814 0 0 0-7.803 21.96 16.278 16.278 0 0 0-3.435-.492c-1.243.05-2.48.215-3.692.492C7.459 42.436 19.865 15.09 25.815 0c.693.138 1.396.22 2.102.246A6.695 6.695 0 0 0 29.769 0c6.45 17.62 24.977 58.367 25.152 58.69a26.014 26.014 0 0 0-4.951-.492 31.76 31.76 0 0 0-5.369.492 153.224 153.224 0 0 0-8.469-21.96H14.928zm10.484-24.99-8.815 20.8h17.867l-9.052-20.8zM68.417 38.322c0 2.349 0 7.125 2.261 10.973a12.8 12.8 0 0 0 11.74 6.545 15.686 15.686 0 0 0 13.34-6.777l1.009.232a27.06 27.06 0 0 0-.595 5.031c-3.685 3.529-8.805 5.463-15.596 5.463-12.747 0-20.545-8.049-20.545-20.972 0-11.569 6.373-21.292 20.131-21.292 18.693 0 18.439 16.27 18.363 20.8l-30.108-.003zm21.72-3.528c0-2.767 0-13.921-10.06-13.921-7.298 0-10.822 5.538-11.578 13.92h21.638zM130.459 27.247a7.816 7.816 0 0 0-3.265-5.023 9.68 9.68 0 0 0-5.45-1.429c-5.112 0-7.794 2.683-7.794 6.284 0 4.866 4.951 6.63 7.877 7.385 7.464 1.927 13.51 3.529 13.51 11.911 0 6.373-4.452 13.495-16.107 13.495a22.744 22.744 0 0 1-12.403-3.514c.947-2.14 1.595-4.4 1.926-6.717l1.001-.246a10.101 10.101 0 0 0 4.533 5.539 11.75 11.75 0 0 0 6.118 1.587c4.365 0 8.469-2.092 8.469-6.873 0-4.782-2.851-5.705-11.649-8.55-3.611-1.18-9.566-3.78-9.566-11.155 0-4.772 2.938-12.486 14.515-12.486 3.864-.069 7.68.88 11.06 2.753a24.503 24.503 0 0 0-1.675 7.046l-1.1-.007zM187.065 38.15c0 13.336-9.224 21.718-21.956 21.718-8.902 0-21.31-4.03-21.31-21.223 0-13.07 8.718-21.199 21.31-21.199 15.916.001 21.956 10.483 21.956 20.704zm-34.717.255c0 11.657 5.117 18.108 12.83 18.108 8.054 0 13.336-6.957 13.336-18.028 0-6.54-2.014-17.69-12.923-17.69-13.244-.001-13.244 15.086-13.244 17.61h.001zM219.182 59.953c-7.891 0-12.324-4.353-13.671-7.793 0 13.154-.082 20.8.423 28.5a15.319 15.319 0 0 0-4.367-.491 16.495 16.495 0 0 0-4.522.492c.668-10.895.919-21.876.919-32.78 0-7.631-.162-17.946-.422-30.102a18.77 18.77 0 0 0 4.112.492c1.384-.02 2.76-.185 4.108-.492-.333 4.609-.333 5.862-.333 7.63a15.5 15.5 0 0 1 14.246-8.049c8.388 0 18.628 6.118 18.628 21.046-.001 13.243-8.143 21.547-19.121 21.547zm-10.398-34.04c-1.68 2.092-3.446 5.115-3.446 13.415 0 7.376 1.675 10.151 3.446 12.236a10.978 10.978 0 0 0 8.88 4.117c11.994 0 11.994-14.17 11.994-16.861 0-12.662-6.04-17.258-11.483-17.258a11.334 11.334 0 0 0-9.391 4.35zM92.09 9.669H68.918V7.05H92.09V9.67zM250.513 48.562a5.5 5.5 0 1 1-5.467 5.502 5.433 5.433 0 0 1 3.364-5.088 5.443 5.443 0 0 1 2.103-.414zm0 .985a4.513 4.513 0 0 0 0 9.028 4.518 4.518 0 0 0 4.441-4.514 4.518 4.518 0 0 0-4.441-4.514zm2.976 7.478a4.488 4.488 0 0 0-.627-.065c-.213 0-.426.042-.761.065a30.923 30.923 0 0 0-2.451-3.036h-.204c0 .951 0 1.69.079 3.036a5.796 5.796 0 0 0-.7-.065 2.987 2.987 0 0 0-.58.065c.09-1.07.124-2.143.102-3.217 0-1.556-.032-2.321-.07-2.98.464.019.794.019 1.504.019 1.537 0 3.105-.019 3.105 1.467 0 1.295-1.402 1.494-2.02 1.554.404.558 2.275 2.661 2.67 3.059l-.047.098zm-4.019-5.746c-.024.827-.024 1.56-.024 2.288.664 0 2.251 0 2.251-1.183.001-1.102-1.221-1.102-2.227-1.102v-.003z\\" fill=\\"#fff\\"/></g><defs><clipPath id=\\"a\\"><path fill=\\"#fff\\" d=\\"M0 0H256V81.231H0z\\"/></clipPath></defs></svg>",
+          "height": 82,
+          "width": 256,
+        },
+      },
+    },
+    "font": Object {
+      "file": Object {
+        "body": Object {
+          "bold": "SuisseIntl-Regular",
+          "regular": "SuisseIntl-Regular",
+        },
+        "display": "ZapfHumanist601BT-Roman",
+        "headline": "SuisseIntl-Regular",
+      },
+    },
+  },
+  "avatarSizes": Object {
+    "huge": Object {
+      "fontSize": "1.5rem",
+      "size": 80,
+    },
+    "large": Object {
+      "fontSize": "1rem",
+      "size": 48,
+    },
+    "small": Object {
+      "fontSize": ".875rem",
+      "size": 32,
+    },
+    "standard": Object {
+      "fontSize": "1rem",
+      "size": 40,
+    },
+    "tiny": Object {
+      "fontSize": ".625rem",
+      "size": 24,
+    },
+  },
+  "buttonSizes": Object {
+    "large": Object {
+      "height": 48,
+      "paddingBottom": 0,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 0,
+    },
+    "medium": Object {
+      "height": 40,
+      "paddingBottom": 0,
+      "paddingLeft": 12,
+      "paddingRight": 12,
+      "paddingTop": 0,
+    },
+    "small": Object {
+      "height": 32,
+      "paddingBottom": 0,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "paddingTop": 0,
+    },
+  },
+  "color": Object {
+    "alert": "#e74627",
+    "background": "#121212",
+    "highEmphasis": "#fafafa",
+    "highlight": "#ffffff",
+    "link": "#227bbd",
+    "lowEmphasis": "#777777",
+    "mediumEmphasis": "#bbbbbb",
+    "neutral100": "#333333",
+    "neutral200": "#515151",
+    "neutral300": "#646464",
+    "neutral400": "#8B8B8B",
+    "neutral50": "#131313",
+    "neutral500": "#ACACAC",
+    "neutral600": "#D1D1D1",
+    "neutral700": "#E3E3E3",
+    "neutral800": "#EEEEEE",
+    "neutral900": "#F7F7F7",
+    "onAlert": "#ffffff",
+    "onBackground": "#ffffff",
+    "onLink": "#ffffff",
+    "onPrimary": "#000000",
+    "onPrimaryDark": "#000000",
+    "onPrimaryDarkest": "#000000",
+    "onPrimaryLight": "#000000",
+    "onPrimaryLightest": "#000000",
+    "onSecondary": "#000000",
+    "onSecondaryDark": "#000000",
+    "onSecondaryLight": "#000000",
+    "onSuccess": "#ffffff",
+    "onSurface": "#ffffff",
+    "onWarning": "#333333",
+    "primary": "#f1f1f0",
+    "primaryDark": "#bebebe",
+    "primaryDarkest": "#747474",
+    "primaryLight": "#ffffff",
+    "primaryLightest": "#232323",
+    "secondary": "#ddcb91",
+    "secondaryDark": "#aa9a63",
+    "secondaryLight": "#fffec2",
+    "success": "#569a32",
+    "surface": "#333333",
+    "warning": "#fcc433",
+  },
+  "iconSizes": Object {
+    "huge": 144,
+    "hugeX": 192,
+    "hugeXX": 256,
+    "hugex": 192,
+    "hugexx": 256,
+    "large": 72,
+    "largeX": 96,
+    "largeXX": 128,
+    "largex": 96,
+    "largexx": 128,
+    "medium": 64,
+    "micro": 16,
+    "small": 32,
+    "standard": 48,
+    "tiny": 24,
+  },
+  "opacity": Object {
+    "00": 0,
+    "04": 0.04,
+    "08": 0.08,
+    "12": 0.12,
+    "16": 0.16,
+    "24": 0.24,
+    "32": 0.32,
+    "48": 0.48,
+    "56": 0.56,
+    "64": 0.64,
+    "80": 0.8,
+    "disabled": 0.32,
+    "disabledLow": 0.24,
+    "high": 0.64,
+    "low": 0.12,
+    "lower": 0.04,
+    "medium": 0.48,
+    "mediumHigh": 0.56,
+    "mediumLow": 0.16,
+    "opaque": 1,
+    "transparent": 0,
+    "veryHigh": 0.8,
+    "veryLow": 0.08,
+  },
+  "overrides": Object {
+    "MuiAlert": Object {
+      "filledInfo": Object {
+        "backgroundColor": "#227bbd",
+      },
+      "filledWarning": Object {
+        "backgroundColor": "#fcc433",
+        "color": "#333333",
+      },
+      "icon": Object {
+        "marginRight": 8,
+      },
+      "message": Object {
+        "padding": "5px 0",
+      },
+      "outlinedError": Object {
+        "color": "#fafafa",
+      },
+      "outlinedInfo": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#227bbd",
+        },
+        "borderColor": "#227bbd",
+        "color": "#fafafa",
+      },
+      "outlinedSuccess": Object {
+        "color": "#fafafa",
+      },
+      "outlinedWarning": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#fcc433",
+        },
+        "borderColor": "#fcc433",
+        "color": "#fafafa",
+      },
+      "root": Object {
+        "fontSize": 16,
+        "fontWeight": 400,
+        "letterSpacing": 0.51,
+        "padding": 16,
+        "width": 278,
+      },
+      "standardError": Object {
+        "backgroundColor": "rgba(231, 70, 39, 0.16)",
+        "color": "#fafafa",
+      },
+      "standardInfo": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#227bbd",
+        },
+        "backgroundColor": "rgba(34, 123, 189, 0.16)",
+        "color": "#fafafa",
+      },
+      "standardSuccess": Object {
+        "backgroundColor": "rgba(86, 154, 50, 0.16)",
+        "color": "#fafafa",
+      },
+      "standardWarning": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#fcc433",
+        },
+        "backgroundColor": "rgba(252, 196, 51, 0.16)",
+        "color": "#fafafa",
+      },
+    },
+    "MuiAlertTitle": Object {
+      "root": Object {
+        "fontSize": 20,
+        "fontWeight": 500,
+        "letterSpacing": 0.24,
+      },
+    },
+    "MuiAvatar": Object {
+      "colorDefault": Object {
+        "color": "#fafafa",
+      },
+    },
+    "MuiBadge": Object {
+      "badge": Object {
+        "padding": "0 4px",
+      },
+    },
+    "MuiButton": Object {
+      "contained": Object {
+        "&.Mui-disabled": Object {
+          "backgroundColor": "#ffffff14",
+          "color": "#ffffff3D",
+        },
+      },
+      "outlined": Object {
+        "&.Mui-disabled": Object {
+          "borderColor": "#ffffff3D",
+          "color": "#ffffff3D",
+        },
+        "borderColor": "#ffffff3D",
+        "padding": null,
+      },
+      "outlinedPrimary": Object {
+        "color": "#fafafa",
+      },
+      "outlinedSecondary": Object {
+        "&.Mui-disabled": Object {
+          "borderColor": "#ffffff3D",
+        },
+        "color": "#fafafa",
+      },
+      "root": Object {
+        "fontSize": 14,
+        "fontWeight": 500,
+        "height": 40,
+        "letterSpacing": 0.11,
+        "paddingBottom": 0,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 0,
+      },
+      "sizeLarge": Object {
+        "fontSize": 14,
+        "fontWeight": 500,
+        "height": 48,
+        "letterSpacing": 0.11,
+        "paddingBottom": 0,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 0,
+      },
+      "sizeSmall": Object {
+        "fontSize": 14,
+        "fontWeight": 500,
+        "height": 32,
+        "letterSpacing": 0.11,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 0,
+      },
+      "text": Object {
+        "&.Mui-disabled": Object {
+          "borderColor": "#ffffff3D",
+          "color": "#ffffff3D",
+        },
+        "padding": null,
+      },
+    },
+    "MuiButtonGroup": Object {
+      "groupedContainedHorizontal": Object {
+        "&:not(:last-child)": Object {
+          "&.Mui-disabled": Object {
+            "borderColor": "#ffffff3D",
+          },
+          "borderRightColor": "#ffffff1F",
+        },
+      },
+      "groupedContainedPrimary": Object {
+        "&:not(:last-child)": Object {
+          "&.Mui-disabled": Object {
+            "borderColor": "#ffffff3D",
+          },
+          "borderColor": "#bebebe",
+        },
+      },
+      "groupedContainedSecondary": Object {
+        "&:not(:last-child)": Object {
+          "&.Mui-disabled": Object {
+            "borderColor": "#ffffff3D",
+          },
+          "borderColor": "#aa9a63",
+        },
+      },
+      "groupedOutlinedHorizontal": Object {
+        "&:not(:first-child)": Object {
+          "marginLeft": "none",
+        },
+      },
+      "groupedTextHorizontal": Object {
+        "&:not(:last-child)": Object {
+          "&.Mui-disabled": Object {
+            "borderColor": "#ffffff3D",
+          },
+          "borderRightColor": "#ffffff1F",
+        },
+      },
+      "groupedTextPrimary": Object {
+        "&:not(:last-child).Mui-disabled": Object {
+          "borderColor": "#ffffff3D",
+        },
+      },
+      "groupedTextSecondary": Object {
+        "&:not(:last-child).Mui-disabled": Object {
+          "borderColor": "#ffffff3D",
+        },
+      },
+    },
+    "MuiChip": Object {
+      "clickable": Object {
+        "&:focus": Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.16)",
+        },
+        "&:hover": Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.16)",
+        },
+      },
+      "clickableColorPrimary": Object {
+        "&:hover": Object {
+          "backgroundColor": "#bebebe",
+        },
+      },
+      "clickableColorSecondary": Object {
+        "&:hover": Object {
+          "backgroundColor": "#bebebe",
+        },
+      },
+      "deleteIcon": Object {
+        "&:hover": Object {
+          "color": "rgba(255, 255, 255, 0.6)",
+        },
+        "color": "rgba(255, 255, 255, 0.8)",
+        "fontSize": "24px",
+        "height": "24px",
+        "width": "24px",
+      },
+      "deleteIconColorPrimary": Object {
+        "&:hover": Object {
+          "color": "#ffffff",
+        },
+        "color": "rgba(255, 255, 255, 0.8)",
+      },
+      "deleteIconColorSecondary": Object {
+        "&:hover": Object {
+          "color": "#ffffff",
+        },
+        "color": "rgba(255, 255, 255, 0.8)",
+      },
+      "deleteIconSmall": Object {
+        "fontSize": "16px",
+        "height": "16px",
+        "width": "16px",
+      },
+      "icon": Object {
+        "fontSize": "24px",
+      },
+      "iconSmall": Object {
+        "fontSize": "16px",
+        "height": "16px",
+        "marginTop": "1px",
+        "width": "16px",
+      },
+      "outlined": Object {
+        "borderColor": "rgba(255, 255, 255, 0.12)",
+        "color": "#ffffff",
+      },
+      "outlinedPrimary": Object {
+        "& $avatar": Object {
+          "backgroundColor": "#f1f1f0",
+        },
+        "color": "#ffffff",
+      },
+      "outlinedSecondary": Object {
+        "& $avatar": Object {
+          "backgroundColor": "#ddcb91",
+        },
+        "color": "#ffffff",
+      },
+      "root": Object {
+        "& $avatar": Object {
+          "backgroundColor": "rgba(255, 255, 255, 0.24)",
+          "color": "#ffffff",
+        },
+        "&$disabled": Object {
+          "opacity": 0.4,
+        },
+        "backgroundColor": "rgba(255, 255, 255, 0.12)",
+        "color": "#ffffff",
+        "fontSize": 14,
+      },
+    },
+    "MuiExpansionPanel": Object {
+      "root": Object {
+        "&$disabled": Object {
+          "backgroundColor": "#333333",
+          "opacity": 0.32,
+        },
+        "&$expanded": Object {
+          "borderColor": "#f1f1f0",
+        },
+        "border": "transparent 1px solid",
+      },
+    },
+    "MuiExpansionPanelSummary": Object {
+      "root": Object {
+        "&$disabled": Object {
+          "opacity": 1,
+        },
+        "alignItems": "flex-start",
+        "marginTop": "8px",
+      },
+    },
+    "MuiFormHelperText": Object {
+      "root": Object {
+        "&.Mui-error": Object {
+          "color": "#bbbbbb",
+        },
+      },
+    },
+    "MuiFormLabel": Object {
+      "root": Object {
+        "&.Mui-error": Object {
+          "color": "#fafafa",
+        },
+        "&.Mui-focused": Object {
+          "color": "#bbbbbb",
+          "fontSize": 14,
+        },
+        "fontSize": 14,
+      },
+    },
+    "MuiIconButton": Object {
+      "root": Object {
+        "color": "#fafafa",
+        "padding": "8px",
+      },
+      "sizeSmall": Object {
+        "padding": "4px",
+      },
+    },
+    "MuiInputAdornment": Object {
+      "positionEnd": Object {
+        "marginRight": 8,
+      },
+      "root": Object {
+        "position": "absolute",
+        "right": "0",
+      },
+    },
+    "MuiInputBase": Object {
+      "adornedEnd": Object {
+        "paddingRight": 48,
+      },
+      "input": Object {
+        "&.Mui-disabled:not(::placeholder)": Object {
+          "opacity": 0.24,
+        },
+        "&.MuiInput-inputTypeSearch": Object {
+          "paddingRight": 64,
+        },
+        "&::placeholder": Object {
+          "color": "#bbbbbb",
+        },
+        "border": 0,
+        "boxSizing": "border-box",
+        "lineHeight": "24px",
+        "minHeight": 56,
+        "padding": 16,
+      },
+      "inputMultiline": Object {
+        "padding": 16,
+      },
+      "inputTypeSearch": Object {
+        "&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration": Object {
+          "display": "none",
+        },
+      },
+      "root": Object {
+        "&.Mui-focused": Object {
+          "boxShadow": "#f1f1f0 0 0 0 2px",
+        },
+        "&.MuiFilled:not(.Mui-focused)": Object {
+          "&:hover": Object {
+            "boxShadow": "#bbbbbb 0 0 0 1px",
+          },
+          "boxShadow": "#fafafa 0 0 0 1px",
+        },
+        "&.MuiInput-underline.Mui-disabled:before": Object {
+          "borderBottomStyle": "none",
+        },
+        "&.MuiInput-underline:after": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInput-underline:before": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInputBase-multiline": Object {
+          "padding": 0,
+        },
+        "&:hover": Object {
+          "&.Mui-disabled": Object {
+            "boxShadow": "#777777 0 0 0 1px",
+          },
+          "boxShadow": "#bbbbbb 0 0 0 1px",
+        },
+        "&[data-state='error']": Object {
+          "boxShadow": "#e74627 0 0 0 1px",
+        },
+        "&[data-state='success']": Object {
+          "boxShadow": "#569a32 0 0 0 1px",
+        },
+        "borderRadius": "4px",
+        "boxShadow": "#777777 0 0 0 1px",
+        "color": "#fafafa",
+        "fontSize": 14,
+        "width": "100%",
+      },
+    },
+    "MuiInputLabel": Object {
+      "formControl": Object {
+        "marginTop": "-4px",
+        "position": "relative",
+        "transform": "none",
+      },
+      "shrink": Object {
+        "marginTop": "-4px",
+        "transform": "none",
+      },
+    },
+    "MuiListItem": Object {
+      "button": Object {
+        "&:hover": Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.04)",
+        },
+      },
+      "gutters": Object {
+        "&:focus": Object {
+          "outline": "none",
+        },
+      },
+      "root": Object {
+        "&$selected": Object {
+          "&:focus": Object {
+            "outline": "none",
+          },
+          "&:hover": Object {
+            "backgroundColor": "rgba(0, 0, 0, 0.04)",
+          },
+          "background": "rgba(241, 241, 240, 0.16)",
+        },
+        "&.Mui-disabled": Object {
+          "opacity": 0.32,
+        },
+        "&:hover": Object {
+          "backgroundColor": "rgba(250, 250, 250, 0.16)",
+        },
+        "cursor": "pointer",
+      },
+    },
+    "MuiSelect": Object {
+      "icon": Object {
+        "color": "#fafafa",
+        "top": 4,
+      },
+      "select": Object {
+        "&.Mui-disabled": Object {
+          "color": "#777777",
+        },
+        "&:focus": Object {
+          "backgroundColor": "transparent",
+        },
+      },
+    },
+    "MuiSvgIcon": Object {
+      "root": Object {
+        "fill": "#bbbbbb",
+      },
+    },
+    "MuiTab": Object {
+      "root": Object {
+        "&$disabled": Object {
+          "opacity": 0.24,
+        },
+      },
+      "textColorInherit": Object {
+        "&$disabled": Object {
+          "opacity": 0.24,
+        },
+      },
+      "wrapper": Object {
+        "& > *:first-child": Object {
+          "marginBottom": "2px !important",
+        },
+      },
+    },
+    "MuiTablePagination": Object {
+      "input": Object {
+        "flexShrink": "initial",
+      },
+      "root": Object {
+        "& .MuiSelect-icon": Object {
+          "height": "100%",
+          "top": 0,
+        },
+        "overflow": "visible",
+      },
+    },
+    "MuiTableSortLabel": Object {
+      "icon": Object {
+        "marginLeft": 8,
+      },
+    },
+    "MuiTextField": Object {
+      "& .MuiInputLabel": Object {
+        "marginTop": "20px",
+      },
+    },
+    "MuiToolbar": Object {
+      "dense": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
+      },
+      "gutters": Object {
+        "@media (min-width: 600px)": Object {
+          "padding": "0 16px",
+        },
+        "padding": "0 16px",
+      },
+      "regular": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
+      },
+      "root": Object {
+        "@media (min-width: 600px)": Object {
+          "padding": "0 16px",
+        },
+        "padding": "0 16px",
+      },
+    },
+  },
+  "palette": Object {
+    "action": Object {
+      "active": "rgba(255, 255, 255, 0.56)",
+      "disabled": "rgba(0, 0, 0, 0.24)",
+    },
+    "background": Object {
+      "default": "#121212",
+      "defaultContrastText": "#ffffff",
+      "paper": "#333333",
+      "paperContrastText": "#ffffff",
+    },
+    "complementary": Object {
+      "highlight": "#ffffff",
+      "link": "#227bbd",
+      "linkContrastText": "#ffffff",
+      "warning": "#fcc433",
+      "warningContrastText": "#000000",
+    },
+    "divider": "#777777",
+    "error": Object {
+      "contrastText": "#ffffff",
+      "main": "#e74627",
+    },
+    "primary": Object {
+      "contrastText": "#000000",
+      "dark": "#bebebe",
+      "light": "#ffffff",
+      "main": "#f1f1f0",
+    },
+    "secondary": Object {
+      "contrastText": "#000000",
+      "dark": "#aa9a63",
+      "light": "#fffec2",
+      "main": "#ddcb91",
+    },
+    "success": Object {
+      "contrastText": "#ffffff",
+      "main": "#569a32",
+    },
+    "text": Object {
+      "disabled": "#777777",
+      "hint": "#777777",
+      "primary": "#fafafa",
+      "secondary": "#bbbbbb",
+    },
+  },
+  "shadows": Object {
+    "0": "none",
+    "1": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "12": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "16": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "2": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
+    "24": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+    "3": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "4": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "6": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "8": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "9": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "huge": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "hugeX": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "hugeXX": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+    "large": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeX": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeXX": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "medium": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "micro": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "none": "none",
+    "small": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "tiny": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
+  },
+  "shape": Object {
+    "badgeBorderRadius": 100,
+    "borderRadius": 4,
+  },
+  "sizes": Object {
+    "huge": 96,
+    "hugeX": 128,
+    "hugeXX": 144,
+    "hugeXXX": 192,
+    "hugex": 128,
+    "hugexx": 144,
+    "hugexxx": 192,
+    "large": 64,
+    "largeX": 72,
+    "largeXX": 80,
+    "largeXXX": 88,
+    "largex": 72,
+    "largexx": 80,
+    "largexxx": 88,
+    "medium": 48,
+    "mediumX": 56,
+    "mediumx": 56,
+    "micro": 4,
+    "none": 0,
+    "semi": 32,
+    "semiX": 40,
+    "semix": 40,
+    "small": 16,
+    "standard": 24,
+    "tiny": 8,
+    "veryHuge": 256,
+    "veryhuge": 256,
+  },
+  "spacing": 8,
+  "typography": Object {
+    "body": Object {
+      "bold": Object {
+        "fontFamily": "\\"Suisse Int'l\\", Arial",
+        "fontWeight": 400,
+      },
+      "regular": Object {
+        "fontFamily": "\\"Suisse Int'l\\", Arial",
+        "fontWeight": 400,
+      },
+    },
+    "body1": Object {
+      "fontSize": 16,
+      "fontWeight": 400,
+      "letterSpacing": 0.51,
+    },
+    "body2": Object {
+      "fontSize": 14,
+      "fontWeight": 400,
+      "letterSpacing": 0.22,
+    },
+    "button": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 500,
+      },
+      "fontSize": 14,
+      "letterSpacing": 1.23,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 500,
+      },
+    },
+    "caption": Object {
+      "fontSize": 12,
+      "fontWeight": 400,
+      "letterSpacing": 0.38,
+    },
+    "display": Object {
+      "fontFamily": "\\"Zapf Humanist 601\\", Arial",
+      "fontWeight": 400,
+    },
+    "fontFamily": "\\"Roboto\\", sans-serif",
+    "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+    "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+    "fontFamilyBrand3": null,
+    "fontWeightBold": 700,
+    "fontWeightLight": 300,
+    "fontWeightMedium": 500,
+    "fontWeightRegular": 400,
+    "h1": Object {
+      "fontSize": 96,
+      "fontWeight": 400,
+      "letterSpacing": 0,
+    },
+    "h2": Object {
+      "fontSize": 60,
+      "fontWeight": 400,
+      "letterSpacing": 0,
+    },
+    "h3": Object {
+      "fontSize": 48,
+      "fontWeight": 400,
+      "letterSpacing": 0,
+    },
+    "h4": Object {
+      "fontSize": 34,
+      "fontWeight": 400,
+      "letterSpacing": 0.27,
+    },
+    "h5": Object {
+      "fontSize": 24,
+      "fontWeight": 400,
+      "letterSpacing": 0,
+    },
+    "h6": Object {
+      "fontSize": 20,
+      "fontWeight": 500,
+      "letterSpacing": 0.24,
+    },
+    "headline": Object {
+      "fontFamily": "\\"Suisse Int'l\\", Arial",
+      "fontWeight": 400,
+    },
+    "overline": Object {
+      "fontSize": 12,
+      "fontWeight": 500,
+      "letterSpacing": 1.92,
+    },
+    "subtitle1": Object {
+      "fontSize": 16,
+      "fontWeight": 500,
+      "letterSpacing": 0.13,
+    },
+    "subtitle2": Object {
+      "fontSize": 14,
+      "fontWeight": 500,
+      "letterSpacing": 0.11,
+    },
+  },
+}
+`;
+
+exports[`Aesop Theme it should match Aesop Light theme snapshot: Aesop Light Theme 1`] = `
+Object {
+  "asset": Object {
+    "brand": Object {
+      "custom": Object {
+        "a": Object {
+          "file": "<svg width=\\"256\\" height=\\"82\\" viewBox=\\"0 0 256 82\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\"><g clip-path=\\"url(#a)\\"><path d=\\"M14.928 36.73a137.814 137.814 0 0 0-7.803 21.96 16.278 16.278 0 0 0-3.435-.492c-1.243.05-2.48.215-3.692.492C7.459 42.436 19.865 15.09 25.815 0c.693.138 1.396.22 2.102.246A6.695 6.695 0 0 0 29.769 0c6.45 17.62 24.977 58.367 25.152 58.69a26.014 26.014 0 0 0-4.951-.492 31.76 31.76 0 0 0-5.369.492 153.224 153.224 0 0 0-8.469-21.96H14.928zm10.484-24.99-8.815 20.8h17.867l-9.052-20.8zM68.417 38.322c0 2.349 0 7.125 2.261 10.973a12.8 12.8 0 0 0 11.74 6.545 15.687 15.687 0 0 0 13.34-6.777l1.009.232a27.06 27.06 0 0 0-.595 5.031c-3.685 3.529-8.805 5.463-15.596 5.463-12.747 0-20.545-8.049-20.545-20.972 0-11.569 6.373-21.292 20.131-21.292 18.693 0 18.439 16.27 18.363 20.8l-30.108-.003zm21.72-3.528c0-2.767 0-13.921-10.06-13.921-7.298 0-10.822 5.538-11.578 13.92h21.638zM130.459 27.247a7.816 7.816 0 0 0-3.265-5.023 9.678 9.678 0 0 0-5.45-1.429c-5.112 0-7.794 2.683-7.794 6.284 0 4.866 4.951 6.63 7.877 7.385 7.464 1.927 13.51 3.529 13.51 11.911 0 6.373-4.452 13.495-16.107 13.495a22.744 22.744 0 0 1-12.403-3.514c.947-2.14 1.595-4.4 1.926-6.717l1.001-.246a10.101 10.101 0 0 0 4.533 5.539 11.75 11.75 0 0 0 6.118 1.587c4.365 0 8.469-2.092 8.469-6.873 0-4.782-2.851-5.705-11.649-8.55-3.611-1.18-9.566-3.78-9.566-11.155 0-4.772 2.938-12.486 14.515-12.486 3.864-.069 7.68.88 11.06 2.753a24.503 24.503 0 0 0-1.675 7.046l-1.1-.007zM187.065 38.15c0 13.336-9.224 21.718-21.956 21.718-8.902 0-21.31-4.03-21.31-21.223 0-13.07 8.718-21.199 21.31-21.199 15.916.001 21.956 10.483 21.956 20.704zm-34.717.255c0 11.657 5.117 18.108 12.83 18.108 8.054 0 13.336-6.957 13.336-18.028 0-6.54-2.014-17.69-12.923-17.69-13.244-.001-13.244 15.086-13.244 17.61h.001zM219.182 59.953c-7.891 0-12.324-4.353-13.671-7.793 0 13.154-.082 20.8.423 28.5a15.319 15.319 0 0 0-4.367-.491 16.491 16.491 0 0 0-4.522.492c.668-10.895.919-21.876.919-32.78 0-7.631-.162-17.946-.422-30.102a18.77 18.77 0 0 0 4.112.492c1.384-.02 2.76-.185 4.108-.492-.333 4.609-.333 5.862-.333 7.63a15.5 15.5 0 0 1 14.246-8.049c8.388 0 18.628 6.118 18.628 21.046-.001 13.243-8.143 21.547-19.121 21.547zm-10.398-34.04c-1.68 2.092-3.446 5.115-3.446 13.415 0 7.376 1.675 10.151 3.446 12.236a10.977 10.977 0 0 0 8.88 4.117c11.994 0 11.994-14.17 11.994-16.861 0-12.663-6.04-17.258-11.483-17.258a11.336 11.336 0 0 0-9.391 4.35zM92.09 9.669H68.918V7.05H92.09V9.67zM250.513 48.563a5.5 5.5 0 1 1-5.467 5.501 5.433 5.433 0 0 1 3.364-5.088 5.441 5.441 0 0 1 2.103-.413zm0 .984a4.513 4.513 0 0 0 0 9.028 4.518 4.518 0 0 0 4.441-4.514 4.518 4.518 0 0 0-4.441-4.514zm2.976 7.478a4.488 4.488 0 0 0-.627-.065c-.213 0-.426.042-.761.065a30.935 30.935 0 0 0-2.451-3.036h-.204c0 .951 0 1.69.079 3.036a5.796 5.796 0 0 0-.7-.065 2.987 2.987 0 0 0-.58.065c.09-1.07.124-2.143.102-3.217 0-1.556-.032-2.321-.07-2.98.464.019.794.019 1.504.019 1.537 0 3.105-.019 3.105 1.467 0 1.295-1.402 1.494-2.02 1.554.404.558 2.275 2.661 2.67 3.059l-.047.098zm-4.019-5.746c-.024.827-.024 1.56-.024 2.288.664 0 2.251 0 2.251-1.183.001-1.102-1.221-1.102-2.227-1.102v-.003z\\" fill=\\"#000\\"/></g><defs><clipPath id=\\"a\\"><path fill=\\"#fff\\" d=\\"M0 0H256V81.231H0z\\"/></clipPath></defs></svg>",
+          "height": 82,
+          "width": 256,
+        },
+        "b": Object {
+          "file": "<svg width=\\"256\\" height=\\"82\\" viewBox=\\"0 0 256 82\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\"><g clip-path=\\"url(#a)\\"><path d=\\"M14.928 36.73a137.814 137.814 0 0 0-7.803 21.96 16.278 16.278 0 0 0-3.435-.492c-1.243.05-2.48.215-3.692.492C7.459 42.436 19.865 15.09 25.815 0c.693.138 1.396.22 2.102.246A6.695 6.695 0 0 0 29.769 0c6.45 17.62 24.977 58.367 25.152 58.69a26.014 26.014 0 0 0-4.951-.492 31.76 31.76 0 0 0-5.369.492 153.224 153.224 0 0 0-8.469-21.96H14.928zm10.484-24.99-8.815 20.8h17.867l-9.052-20.8zM68.417 38.322c0 2.349 0 7.125 2.261 10.973a12.8 12.8 0 0 0 11.74 6.545 15.687 15.687 0 0 0 13.34-6.777l1.009.232a27.06 27.06 0 0 0-.595 5.031c-3.685 3.529-8.805 5.463-15.596 5.463-12.747 0-20.545-8.049-20.545-20.972 0-11.569 6.373-21.292 20.131-21.292 18.693 0 18.439 16.27 18.363 20.8l-30.108-.003zm21.72-3.528c0-2.767 0-13.921-10.06-13.921-7.298 0-10.822 5.538-11.578 13.92h21.638zM130.459 27.247a7.816 7.816 0 0 0-3.265-5.023 9.678 9.678 0 0 0-5.45-1.429c-5.112 0-7.794 2.683-7.794 6.284 0 4.866 4.951 6.63 7.877 7.385 7.464 1.927 13.51 3.529 13.51 11.911 0 6.373-4.452 13.495-16.107 13.495a22.744 22.744 0 0 1-12.403-3.514c.947-2.14 1.595-4.4 1.926-6.717l1.001-.246a10.101 10.101 0 0 0 4.533 5.539 11.75 11.75 0 0 0 6.118 1.587c4.365 0 8.469-2.092 8.469-6.873 0-4.782-2.851-5.705-11.649-8.55-3.611-1.18-9.566-3.78-9.566-11.155 0-4.772 2.938-12.486 14.515-12.486 3.864-.069 7.68.88 11.06 2.753a24.503 24.503 0 0 0-1.675 7.046l-1.1-.007zM187.065 38.15c0 13.336-9.224 21.718-21.956 21.718-8.902 0-21.31-4.03-21.31-21.223 0-13.07 8.718-21.199 21.31-21.199 15.916.001 21.956 10.483 21.956 20.704zm-34.717.255c0 11.657 5.117 18.108 12.83 18.108 8.054 0 13.336-6.957 13.336-18.028 0-6.54-2.014-17.69-12.923-17.69-13.244-.001-13.244 15.086-13.244 17.61h.001zM219.182 59.953c-7.891 0-12.324-4.353-13.671-7.793 0 13.154-.082 20.8.423 28.5a15.319 15.319 0 0 0-4.367-.491 16.491 16.491 0 0 0-4.522.492c.668-10.895.919-21.876.919-32.78 0-7.631-.162-17.946-.422-30.102a18.77 18.77 0 0 0 4.112.492c1.384-.02 2.76-.185 4.108-.492-.333 4.609-.333 5.862-.333 7.63a15.5 15.5 0 0 1 14.246-8.049c8.388 0 18.628 6.118 18.628 21.046-.001 13.243-8.143 21.547-19.121 21.547zm-10.398-34.04c-1.68 2.092-3.446 5.115-3.446 13.415 0 7.376 1.675 10.151 3.446 12.236a10.977 10.977 0 0 0 8.88 4.117c11.994 0 11.994-14.17 11.994-16.861 0-12.663-6.04-17.258-11.483-17.258a11.336 11.336 0 0 0-9.391 4.35zM92.09 9.669H68.918V7.05H92.09V9.67zM250.513 48.563a5.5 5.5 0 1 1-5.467 5.501 5.433 5.433 0 0 1 3.364-5.088 5.441 5.441 0 0 1 2.103-.413zm0 .984a4.513 4.513 0 0 0 0 9.028 4.518 4.518 0 0 0 4.441-4.514 4.518 4.518 0 0 0-4.441-4.514zm2.976 7.478a4.488 4.488 0 0 0-.627-.065c-.213 0-.426.042-.761.065a30.935 30.935 0 0 0-2.451-3.036h-.204c0 .951 0 1.69.079 3.036a5.796 5.796 0 0 0-.7-.065 2.987 2.987 0 0 0-.58.065c.09-1.07.124-2.143.102-3.217 0-1.556-.032-2.321-.07-2.98.464.019.794.019 1.504.019 1.537 0 3.105-.019 3.105 1.467 0 1.295-1.402 1.494-2.02 1.554.404.558 2.275 2.661 2.67 3.059l-.047.098zm-4.019-5.746c-.024.827-.024 1.56-.024 2.288.664 0 2.251 0 2.251-1.183.001-1.102-1.221-1.102-2.227-1.102v-.003z\\" fill=\\"#000\\"/></g><defs><clipPath id=\\"a\\"><path fill=\\"#fff\\" d=\\"M0 0H256V81.231H0z\\"/></clipPath></defs></svg>",
+          "height": 82,
+          "width": 256,
+        },
+      },
+      "neutral": Object {
+        "a": Object {
+          "file": "<svg width=\\"256\\" height=\\"82\\" viewBox=\\"0 0 256 82\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\"><g clip-path=\\"url(#a)\\"><path d=\\"M14.928 36.73a137.805 137.805 0 0 0-7.803 21.96 16.278 16.278 0 0 0-3.435-.492c-1.243.05-2.48.215-3.692.492C7.458 42.436 19.865 15.09 25.815 0c.693.138 1.396.22 2.102.246A6.696 6.696 0 0 0 29.769 0c6.45 17.62 24.977 58.367 25.152 58.69a26.016 26.016 0 0 0-4.951-.492 31.76 31.76 0 0 0-5.369.492 153.212 153.212 0 0 0-8.469-21.96H14.93zm10.484-24.99-8.815 20.8h17.867l-9.052-20.8zM68.417 38.322c0 2.349 0 7.125 2.261 10.973a12.8 12.8 0 0 0 11.74 6.545 15.686 15.686 0 0 0 13.34-6.777l1.009.232a27.06 27.06 0 0 0-.595 5.031c-3.685 3.529-8.805 5.463-15.596 5.463-12.747 0-20.545-8.049-20.545-20.972 0-11.569 6.373-21.292 20.131-21.292 18.693 0 18.439 16.27 18.363 20.8l-30.108-.003zm21.72-3.528c0-2.767 0-13.921-10.06-13.921-7.298 0-10.822 5.538-11.578 13.92h21.638zM130.459 27.247a7.816 7.816 0 0 0-3.265-5.023 9.681 9.681 0 0 0-5.45-1.429c-5.113 0-7.794 2.683-7.794 6.284 0 4.866 4.951 6.63 7.876 7.385 7.465 1.927 13.511 3.529 13.511 11.911 0 6.373-4.452 13.495-16.107 13.495a22.744 22.744 0 0 1-12.403-3.514c.947-2.14 1.595-4.4 1.926-6.717l1.001-.246a10.101 10.101 0 0 0 4.533 5.539 11.75 11.75 0 0 0 6.118 1.587c4.365 0 8.469-2.092 8.469-6.873 0-4.782-2.851-5.705-11.649-8.55-3.611-1.18-9.566-3.78-9.566-11.155 0-4.772 2.938-12.486 14.515-12.486a22.03 22.03 0 0 1 11.06 2.753 24.503 24.503 0 0 0-1.675 7.046l-1.1-.007zM187.065 38.15c0 13.336-9.224 21.718-21.956 21.718-8.902 0-21.31-4.03-21.31-21.223 0-13.07 8.718-21.199 21.31-21.199 15.916.001 21.956 10.483 21.956 20.704zm-34.717.255c0 11.657 5.117 18.108 12.83 18.108 8.054 0 13.336-6.957 13.336-18.028 0-6.54-2.014-17.69-12.923-17.69-13.244-.001-13.244 15.086-13.244 17.61h.001zM219.182 59.953c-7.891 0-12.324-4.353-13.671-7.793 0 13.154-.082 20.8.423 28.5a15.319 15.319 0 0 0-4.367-.491 16.495 16.495 0 0 0-4.522.492c.668-10.895.919-21.876.919-32.78 0-7.631-.162-17.946-.422-30.102a18.77 18.77 0 0 0 4.112.492c1.384-.02 2.76-.185 4.108-.492-.333 4.609-.333 5.862-.333 7.63a15.5 15.5 0 0 1 14.246-8.049c8.388 0 18.628 6.118 18.628 21.046-.001 13.243-8.143 21.547-19.121 21.547zm-10.398-34.04c-1.68 2.092-3.446 5.115-3.446 13.415 0 7.376 1.675 10.151 3.446 12.236a10.978 10.978 0 0 0 8.88 4.117c11.994 0 11.994-14.17 11.994-16.861 0-12.662-6.04-17.258-11.483-17.258a11.334 11.334 0 0 0-9.391 4.35zM92.09 9.669H68.918V7.05H92.09V9.67zM250.513 48.562a5.5 5.5 0 1 1-5.467 5.502 5.447 5.447 0 0 1 5.467-5.502zm0 .985a4.513 4.513 0 0 0 0 9.028 4.514 4.514 0 0 0 0-9.028zm2.976 7.478a4.503 4.503 0 0 0-.627-.065c-.213 0-.426.042-.761.065a30.923 30.923 0 0 0-2.451-3.036h-.204c0 .951 0 1.69.079 3.036a5.796 5.796 0 0 0-.7-.065 2.987 2.987 0 0 0-.58.065c.09-1.07.124-2.143.102-3.217 0-1.556-.032-2.321-.07-2.98.464.019.794.019 1.504.019 1.537 0 3.105-.019 3.105 1.467 0 1.295-1.402 1.494-2.02 1.554.404.558 2.275 2.661 2.67 3.059l-.047.098zm-4.019-5.746c-.024.827-.024 1.56-.024 2.288.664 0 2.251 0 2.251-1.183.001-1.102-1.221-1.102-2.227-1.102v-.003z\\" fill=\\"#000\\"/></g><defs><clipPath id=\\"a\\"><path fill=\\"#fff\\" d=\\"M0 0H256V81.231H0z\\"/></clipPath></defs></svg>",
+          "height": 82,
+          "width": 256,
+        },
+        "b": Object {
+          "file": "<svg width=\\"256\\" height=\\"82\\" viewBox=\\"0 0 256 82\\" fill=\\"none\\" xmlns=\\"http://www.w3.org/2000/svg\\"><g clip-path=\\"url(#a)\\"><path d=\\"M14.928 36.73a137.805 137.805 0 0 0-7.803 21.96 16.278 16.278 0 0 0-3.435-.492c-1.243.05-2.48.215-3.692.492C7.458 42.436 19.865 15.09 25.815 0c.693.138 1.396.22 2.102.246A6.696 6.696 0 0 0 29.769 0c6.45 17.62 24.977 58.367 25.152 58.69a26.016 26.016 0 0 0-4.951-.492 31.76 31.76 0 0 0-5.369.492 153.212 153.212 0 0 0-8.469-21.96H14.93zm10.484-24.99-8.815 20.8h17.867l-9.052-20.8zM68.417 38.322c0 2.349 0 7.125 2.261 10.973a12.8 12.8 0 0 0 11.74 6.545 15.686 15.686 0 0 0 13.34-6.777l1.009.232a27.06 27.06 0 0 0-.595 5.031c-3.685 3.529-8.805 5.463-15.596 5.463-12.747 0-20.545-8.049-20.545-20.972 0-11.569 6.373-21.292 20.131-21.292 18.693 0 18.439 16.27 18.363 20.8l-30.108-.003zm21.72-3.528c0-2.767 0-13.921-10.06-13.921-7.298 0-10.822 5.538-11.578 13.92h21.638zM130.459 27.247a7.816 7.816 0 0 0-3.265-5.023 9.681 9.681 0 0 0-5.45-1.429c-5.113 0-7.794 2.683-7.794 6.284 0 4.866 4.951 6.63 7.876 7.385 7.465 1.927 13.511 3.529 13.511 11.911 0 6.373-4.452 13.495-16.107 13.495a22.744 22.744 0 0 1-12.403-3.514c.947-2.14 1.595-4.4 1.926-6.717l1.001-.246a10.101 10.101 0 0 0 4.533 5.539 11.75 11.75 0 0 0 6.118 1.587c4.365 0 8.469-2.092 8.469-6.873 0-4.782-2.851-5.705-11.649-8.55-3.611-1.18-9.566-3.78-9.566-11.155 0-4.772 2.938-12.486 14.515-12.486a22.03 22.03 0 0 1 11.06 2.753 24.503 24.503 0 0 0-1.675 7.046l-1.1-.007zM187.065 38.15c0 13.336-9.224 21.718-21.956 21.718-8.902 0-21.31-4.03-21.31-21.223 0-13.07 8.718-21.199 21.31-21.199 15.916.001 21.956 10.483 21.956 20.704zm-34.717.255c0 11.657 5.117 18.108 12.83 18.108 8.054 0 13.336-6.957 13.336-18.028 0-6.54-2.014-17.69-12.923-17.69-13.244-.001-13.244 15.086-13.244 17.61h.001zM219.182 59.953c-7.891 0-12.324-4.353-13.671-7.793 0 13.154-.082 20.8.423 28.5a15.319 15.319 0 0 0-4.367-.491 16.495 16.495 0 0 0-4.522.492c.668-10.895.919-21.876.919-32.78 0-7.631-.162-17.946-.422-30.102a18.77 18.77 0 0 0 4.112.492c1.384-.02 2.76-.185 4.108-.492-.333 4.609-.333 5.862-.333 7.63a15.5 15.5 0 0 1 14.246-8.049c8.388 0 18.628 6.118 18.628 21.046-.001 13.243-8.143 21.547-19.121 21.547zm-10.398-34.04c-1.68 2.092-3.446 5.115-3.446 13.415 0 7.376 1.675 10.151 3.446 12.236a10.978 10.978 0 0 0 8.88 4.117c11.994 0 11.994-14.17 11.994-16.861 0-12.662-6.04-17.258-11.483-17.258a11.334 11.334 0 0 0-9.391 4.35zM92.09 9.669H68.918V7.05H92.09V9.67zM250.513 48.562a5.5 5.5 0 1 1-5.467 5.502 5.447 5.447 0 0 1 5.467-5.502zm0 .985a4.513 4.513 0 0 0 0 9.028 4.514 4.514 0 0 0 0-9.028zm2.976 7.478a4.503 4.503 0 0 0-.627-.065c-.213 0-.426.042-.761.065a30.923 30.923 0 0 0-2.451-3.036h-.204c0 .951 0 1.69.079 3.036a5.796 5.796 0 0 0-.7-.065 2.987 2.987 0 0 0-.58.065c.09-1.07.124-2.143.102-3.217 0-1.556-.032-2.321-.07-2.98.464.019.794.019 1.504.019 1.537 0 3.105-.019 3.105 1.467 0 1.295-1.402 1.494-2.02 1.554.404.558 2.275 2.661 2.67 3.059l-.047.098zm-4.019-5.746c-.024.827-.024 1.56-.024 2.288.664 0 2.251 0 2.251-1.183.001-1.102-1.221-1.102-2.227-1.102v-.003z\\" fill=\\"#000\\"/></g><defs><clipPath id=\\"a\\"><path fill=\\"#fff\\" d=\\"M0 0H256V81.231H0z\\"/></clipPath></defs></svg>",
+          "height": 82,
+          "width": 256,
+        },
+      },
+    },
+    "font": Object {
+      "file": Object {
+        "body": Object {
+          "bold": "SuisseIntl-Regular",
+          "regular": "SuisseIntl-Regular",
+        },
+        "display": "ZapfHumanist601BT-Roman",
+        "headline": "SuisseIntl-Regular",
+      },
+    },
+  },
+  "avatarSizes": Object {
+    "huge": Object {
+      "fontSize": "1.5rem",
+      "size": 80,
+    },
+    "large": Object {
+      "fontSize": "1rem",
+      "size": 48,
+    },
+    "small": Object {
+      "fontSize": ".875rem",
+      "size": 32,
+    },
+    "standard": Object {
+      "fontSize": "1rem",
+      "size": 40,
+    },
+    "tiny": Object {
+      "fontSize": ".625rem",
+      "size": 24,
+    },
+  },
+  "buttonSizes": Object {
+    "large": Object {
+      "height": 48,
+      "paddingBottom": 0,
+      "paddingLeft": 16,
+      "paddingRight": 16,
+      "paddingTop": 0,
+    },
+    "medium": Object {
+      "height": 40,
+      "paddingBottom": 0,
+      "paddingLeft": 12,
+      "paddingRight": 12,
+      "paddingTop": 0,
+    },
+    "small": Object {
+      "height": 32,
+      "paddingBottom": 0,
+      "paddingLeft": 8,
+      "paddingRight": 8,
+      "paddingTop": 0,
+    },
+  },
+  "color": Object {
+    "alert": "#e74627",
+    "background": "#fafafa",
+    "highEmphasis": "#333333",
+    "highlight": "#000000",
+    "link": "#227bbd",
+    "lowEmphasis": "#bbbbbb",
+    "mediumEmphasis": "#777777",
+    "neutral100": "#EEEEEE",
+    "neutral200": "#E3E3E3",
+    "neutral300": "#D1D1D1",
+    "neutral400": "#ACACAC",
+    "neutral50": "#F7F7F7",
+    "neutral500": "#8B8B8B",
+    "neutral600": "#646464",
+    "neutral700": "#515151",
+    "neutral800": "#333333",
+    "neutral900": "#131313",
+    "onAlert": "#ffffff",
+    "onBackground": "#333333",
+    "onLink": "#ffffff",
+    "onPrimary": "#ffffff",
+    "onPrimaryDark": "#ffffff",
+    "onPrimaryDarkest": "#ffffff",
+    "onPrimaryLight": "#ffffff",
+    "onPrimaryLightest": "#ffffff",
+    "onSecondary": "#ffffff",
+    "onSecondaryDark": "#ffffff",
+    "onSecondaryLight": "#000000",
+    "onSuccess": "#ffffff",
+    "onSurface": "#333333",
+    "onWarning": "#333333",
+    "primary": "#262625",
+    "primaryDark": "#000000",
+    "primaryDarkest": "#232323",
+    "primaryLight": "#4e4e4d",
+    "primaryLightest": "#747474",
+    "secondary": "#a6662b",
+    "secondaryDark": "#733b00",
+    "secondaryLight": "#db9457",
+    "success": "#569a32",
+    "surface": "#ffffff",
+    "warning": "#fcc433",
+  },
+  "iconSizes": Object {
+    "huge": 144,
+    "hugeX": 192,
+    "hugeXX": 256,
+    "hugex": 192,
+    "hugexx": 256,
+    "large": 72,
+    "largeX": 96,
+    "largeXX": 128,
+    "largex": 96,
+    "largexx": 128,
+    "medium": 64,
+    "micro": 16,
+    "small": 32,
+    "standard": 48,
+    "tiny": 24,
+  },
+  "opacity": Object {
+    "00": 0,
+    "04": 0.04,
+    "08": 0.08,
+    "12": 0.12,
+    "16": 0.16,
+    "24": 0.24,
+    "32": 0.32,
+    "48": 0.48,
+    "56": 0.56,
+    "64": 0.64,
+    "80": 0.8,
+    "disabled": 0.32,
+    "disabledLow": 0.24,
+    "high": 0.64,
+    "low": 0.12,
+    "lower": 0.04,
+    "medium": 0.48,
+    "mediumHigh": 0.56,
+    "mediumLow": 0.16,
+    "opaque": 1,
+    "transparent": 0,
+    "veryHigh": 0.8,
+    "veryLow": 0.08,
+  },
+  "overrides": Object {
+    "MuiAlert": Object {
+      "filledInfo": Object {
+        "backgroundColor": "#227bbd",
+      },
+      "filledWarning": Object {
+        "backgroundColor": "#fcc433",
+        "color": "#333333",
+      },
+      "icon": Object {
+        "marginRight": 8,
+      },
+      "message": Object {
+        "padding": "5px 0",
+      },
+      "outlinedError": Object {
+        "color": "#333333",
+      },
+      "outlinedInfo": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#227bbd",
+        },
+        "borderColor": "#227bbd",
+        "color": "#333333",
+      },
+      "outlinedSuccess": Object {
+        "color": "#333333",
+      },
+      "outlinedWarning": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#fcc433",
+        },
+        "borderColor": "#fcc433",
+        "color": "#333333",
+      },
+      "root": Object {
+        "fontSize": 16,
+        "fontWeight": 400,
+        "letterSpacing": 0.51,
+        "padding": 16,
+        "width": 278,
+      },
+      "standardError": Object {
+        "backgroundColor": "rgba(231, 70, 39, 0.16)",
+        "color": "#333333",
+      },
+      "standardInfo": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#227bbd",
+        },
+        "backgroundColor": "rgba(34, 123, 189, 0.16)",
+        "color": "#333333",
+      },
+      "standardSuccess": Object {
+        "backgroundColor": "rgba(86, 154, 50, 0.16)",
+        "color": "#333333",
+      },
+      "standardWarning": Object {
+        "& .MuiAlert-icon": Object {
+          "color": "#fcc433",
+        },
+        "backgroundColor": "rgba(252, 196, 51, 0.16)",
+        "color": "#333333",
+      },
+    },
+    "MuiAlertTitle": Object {
+      "root": Object {
+        "fontSize": 20,
+        "fontWeight": 500,
+        "letterSpacing": 0.24,
+      },
+    },
+    "MuiAvatar": Object {
+      "colorDefault": Object {
+        "color": "#333333",
+      },
+    },
+    "MuiBadge": Object {
+      "badge": Object {
+        "padding": "0 4px",
+      },
+    },
+    "MuiButton": Object {
+      "contained": Object {
+        "&.Mui-disabled": Object {
+          "backgroundColor": "#00000014",
+          "color": "#0000003D",
+        },
+      },
+      "outlined": Object {
+        "&.Mui-disabled": Object {
+          "borderColor": "#0000003D",
+          "color": "#0000003D",
+        },
+        "borderColor": "#0000003D",
+        "padding": null,
+      },
+      "outlinedPrimary": Object {
+        "color": "#333333",
+      },
+      "outlinedSecondary": Object {
+        "&.Mui-disabled": Object {
+          "borderColor": "#0000003D",
+        },
+        "color": "#333333",
+      },
+      "root": Object {
+        "fontSize": 14,
+        "fontWeight": 500,
+        "height": 40,
+        "letterSpacing": 0.11,
+        "paddingBottom": 0,
+        "paddingLeft": 12,
+        "paddingRight": 12,
+        "paddingTop": 0,
+      },
+      "sizeLarge": Object {
+        "fontSize": 14,
+        "fontWeight": 500,
+        "height": 48,
+        "letterSpacing": 0.11,
+        "paddingBottom": 0,
+        "paddingLeft": 16,
+        "paddingRight": 16,
+        "paddingTop": 0,
+      },
+      "sizeSmall": Object {
+        "fontSize": 14,
+        "fontWeight": 500,
+        "height": 32,
+        "letterSpacing": 0.11,
+        "paddingBottom": 0,
+        "paddingLeft": 8,
+        "paddingRight": 8,
+        "paddingTop": 0,
+      },
+      "text": Object {
+        "&.Mui-disabled": Object {
+          "borderColor": "#0000003D",
+          "color": "#0000003D",
+        },
+        "padding": null,
+      },
+    },
+    "MuiButtonGroup": Object {
+      "groupedContainedHorizontal": Object {
+        "&:not(:last-child)": Object {
+          "&.Mui-disabled": Object {
+            "borderColor": "#0000003D",
+          },
+          "borderRightColor": "#0000001F",
+        },
+      },
+      "groupedContainedPrimary": Object {
+        "&:not(:last-child)": Object {
+          "&.Mui-disabled": Object {
+            "borderColor": "#0000003D",
+          },
+          "borderColor": "#000000",
+        },
+      },
+      "groupedContainedSecondary": Object {
+        "&:not(:last-child)": Object {
+          "&.Mui-disabled": Object {
+            "borderColor": "#0000003D",
+          },
+          "borderColor": "#733b00",
+        },
+      },
+      "groupedOutlinedHorizontal": Object {
+        "&:not(:first-child)": Object {
+          "marginLeft": "none",
+        },
+      },
+      "groupedTextHorizontal": Object {
+        "&:not(:last-child)": Object {
+          "&.Mui-disabled": Object {
+            "borderColor": "#0000003D",
+          },
+          "borderRightColor": "#0000001F",
+        },
+      },
+      "groupedTextPrimary": Object {
+        "&:not(:last-child).Mui-disabled": Object {
+          "borderColor": "#0000003D",
+        },
+      },
+      "groupedTextSecondary": Object {
+        "&:not(:last-child).Mui-disabled": Object {
+          "borderColor": "#0000003D",
+        },
+      },
+    },
+    "MuiChip": Object {
+      "clickableColorPrimary": Object {
+        "&:hover": Object {
+          "backgroundColor": "#262625",
+        },
+      },
+      "clickableColorSecondary": Object {
+        "&:hover": Object {
+          "backgroundColor": "#a6662b",
+        },
+      },
+      "deleteIcon": Object {
+        "&:hover": Object {
+          "color": "#000000",
+        },
+        "color": "rgba(0, 0, 0, 0.8)",
+        "fontSize": "24px",
+        "height": "24px",
+        "width": "24px",
+      },
+      "deleteIconColorPrimary": Object {
+        "&:hover": Object {
+          "color": "#ffffff",
+        },
+        "color": "rgba(255, 255, 255, 0.8)",
+      },
+      "deleteIconColorSecondary": Object {
+        "&:hover": Object {
+          "color": "#ffffff",
+        },
+        "color": "rgba(255, 255, 255, 0.8)",
+      },
+      "deleteIconSmall": Object {
+        "fontSize": "16px",
+        "height": "16px",
+        "width": "16px",
+      },
+      "icon": Object {
+        "fontSize": "24px",
+      },
+      "iconSmall": Object {
+        "fontSize": "16px",
+        "height": "16px",
+        "marginTop": "1px",
+        "width": "16px",
+      },
+      "outlined": Object {
+        "borderColor": "rgba(0, 0, 0, 0.12)",
+        "color": "#000000",
+      },
+      "outlinedPrimary": Object {
+        "color": "#000000",
+      },
+      "outlinedSecondary": Object {
+        "color": "#000000",
+      },
+      "root": Object {
+        "& $avatar": Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.24)",
+          "color": "#333333",
+        },
+        "&$disabled": Object {
+          "opacity": 0.4,
+        },
+        "backgroundColor": "rgba(0, 0, 0, 0.12)",
+        "color": "#333333",
+        "fontSize": 14,
+      },
+    },
+    "MuiExpansionPanel": Object {
+      "root": Object {
+        "&$disabled": Object {
+          "backgroundColor": "#ffffff",
+          "opacity": 0.32,
+        },
+        "&$expanded": Object {
+          "borderColor": "#262625",
+        },
+        "border": "transparent 1px solid",
+      },
+    },
+    "MuiExpansionPanelSummary": Object {
+      "root": Object {
+        "&$disabled": Object {
+          "opacity": 1,
+        },
+        "alignItems": "flex-start",
+        "marginTop": "8px",
+      },
+    },
+    "MuiFormLabel": Object {
+      "root": Object {
+        "&.Mui-error": Object {
+          "color": "#e74627",
+        },
+        "&.Mui-focused": Object {
+          "color": "#777777",
+          "fontSize": 14,
+        },
+        "fontSize": 14,
+      },
+    },
+    "MuiIconButton": Object {
+      "root": Object {
+        "color": "#333333",
+        "padding": "8px",
+      },
+      "sizeSmall": Object {
+        "padding": "4px",
+      },
+    },
+    "MuiInputAdornment": Object {
+      "positionEnd": Object {
+        "marginRight": 8,
+      },
+      "root": Object {
+        "position": "absolute",
+        "right": "0",
+      },
+    },
+    "MuiInputBase": Object {
+      "adornedEnd": Object {
+        "paddingRight": 48,
+      },
+      "input": Object {
+        "&.Mui-disabled:not(::placeholder)": Object {
+          "opacity": 0.24,
+        },
+        "&.MuiInput-inputTypeSearch": Object {
+          "paddingRight": 64,
+        },
+        "&::placeholder": Object {
+          "color": "#777777",
+        },
+        "border": 0,
+        "boxSizing": "border-box",
+        "lineHeight": "24px",
+        "minHeight": 56,
+        "padding": 16,
+      },
+      "inputMultiline": Object {
+        "padding": 16,
+      },
+      "inputTypeSearch": Object {
+        "&::-webkit-search-decoration, &::-webkit-search-cancel-button, &::-webkit-search-results-button, &::-webkit-search-results-decoration": Object {
+          "display": "none",
+        },
+      },
+      "root": Object {
+        "&.Mui-focused": Object {
+          "boxShadow": "#262625 0 0 0 2px",
+        },
+        "&.MuiFilled:not(.Mui-focused)": Object {
+          "&:hover": Object {
+            "boxShadow": "#777777 0 0 0 1px",
+          },
+          "boxShadow": "#333333 0 0 0 1px",
+        },
+        "&.MuiInput-underline.Mui-disabled:before": Object {
+          "borderBottomStyle": "none",
+        },
+        "&.MuiInput-underline:after": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInput-underline:before": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInput-underline:hover:not(.Mui-disabled):before": Object {
+          "borderBottom": "none",
+        },
+        "&.MuiInputBase-multiline": Object {
+          "padding": 0,
+        },
+        "&:hover": Object {
+          "&.Mui-disabled": Object {
+            "boxShadow": "#bbbbbb 0 0 0 1px",
+          },
+          "boxShadow": "#777777 0 0 0 1px",
+        },
+        "&[data-state='error']": Object {
+          "boxShadow": "#e74627 0 0 0 1px",
+        },
+        "&[data-state='success']": Object {
+          "boxShadow": "#569a32 0 0 0 1px",
+        },
+        "borderRadius": "4px",
+        "boxShadow": "#bbbbbb 0 0 0 1px",
+        "color": "#333333",
+        "fontSize": 14,
+        "width": "100%",
+      },
+    },
+    "MuiInputLabel": Object {
+      "formControl": Object {
+        "marginTop": "-4px",
+        "position": "relative",
+        "transform": "none",
+      },
+      "shrink": Object {
+        "marginTop": "-4px",
+        "transform": "none",
+      },
+    },
+    "MuiListItem": Object {
+      "button": Object {
+        "&:hover": Object {
+          "backgroundColor": "rgba(0, 0, 0, 0.04)",
+        },
+      },
+      "gutters": Object {
+        "&:focus": Object {
+          "outline": "none",
+        },
+      },
+      "root": Object {
+        "&$selected": Object {
+          "&:focus": Object {
+            "outline": "none",
+          },
+          "&:hover": Object {
+            "backgroundColor": "rgba(0, 0, 0, 0.04)",
+          },
+          "backgroundColor": "rgba(38, 38, 37, 0.16)",
+        },
+        "&.Mui-disabled": Object {
+          "opacity": 0.32,
+        },
+        "&:hover": Object {
+          "backgroundColor": "rgba(51, 51, 51, 0.04)",
+        },
+        "cursor": "pointer",
+      },
+    },
+    "MuiSelect": Object {
+      "icon": Object {
+        "color": "#333333",
+        "top": 4,
+      },
+      "select": Object {
+        "&.Mui-disabled": Object {
+          "color": "#bbbbbb",
+        },
+        "&:focus": Object {
+          "backgroundColor": "transparent",
+        },
+      },
+    },
+    "MuiSvgIcon": Object {
+      "root": Object {},
+    },
+    "MuiTab": Object {
+      "root": Object {
+        "&$disabled": Object {
+          "opacity": 0.24,
+        },
+      },
+      "textColorInherit": Object {
+        "&$disabled": Object {
+          "opacity": 0.24,
+        },
+      },
+      "wrapper": Object {
+        "& > *:first-child": Object {
+          "marginBottom": "2px !important",
+        },
+      },
+    },
+    "MuiTablePagination": Object {
+      "input": Object {
+        "flexShrink": "initial",
+      },
+      "root": Object {
+        "& .MuiSelect-icon": Object {
+          "height": "100%",
+          "top": 0,
+        },
+        "overflow": "visible",
+      },
+    },
+    "MuiTableSortLabel": Object {
+      "icon": Object {
+        "marginLeft": 8,
+      },
+    },
+    "MuiTextField": Object {
+      "& .MuiInputLabel": Object {
+        "marginTop": "20px",
+      },
+    },
+    "MuiToolbar": Object {
+      "dense": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
+      },
+      "gutters": Object {
+        "@media (min-width: 600px)": Object {
+          "padding": "0 16px",
+        },
+        "padding": "0 16px",
+      },
+      "regular": Object {
+        "@media (min-width: 600px)": Object {
+          "minHeight": "56px",
+        },
+        "minHeight": "56px",
+      },
+      "root": Object {
+        "@media (min-width: 600px)": Object {
+          "padding": "0 16px",
+        },
+        "padding": "0 16px",
+      },
+    },
+  },
+  "palette": Object {
+    "action": Object {
+      "active": "rgba(0, 0, 0, 0.56)",
+      "disabled": "rgba(0, 0, 0, 0.24)",
+    },
+    "background": Object {
+      "default": "#fafafa",
+      "defaultContrastText": "#333333",
+      "paper": "#ffffff",
+      "paperContrastText": "#333333",
+    },
+    "complementary": Object {
+      "highlight": "#000000",
+      "link": "#227bbd",
+      "linkContrastText": "#ffffff",
+      "warning": "#fcc433",
+      "warningContrastText": "#333333",
+    },
+    "divider": "#bbbbbb",
+    "error": Object {
+      "contrastText": "#ffffff",
+      "main": "#e74627",
+    },
+    "primary": Object {
+      "contrastText": "#ffffff",
+      "dark": "#000000",
+      "light": "#4e4e4d",
+      "main": "#262625",
+    },
+    "secondary": Object {
+      "contrastText": "#ffffff",
+      "dark": "#733b00",
+      "light": "#db9457",
+      "main": "#a6662b",
+    },
+    "success": Object {
+      "contrastText": "#ffffff",
+      "main": "#569a32",
+    },
+    "text": Object {
+      "disabled": "#bbbbbb",
+      "hint": "#bbbbbb",
+      "primary": "#333333",
+      "secondary": "#777777",
+    },
+  },
+  "shadows": Object {
+    "0": "none",
+    "1": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "12": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "16": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "2": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
+    "24": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+    "3": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "4": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "6": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "8": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "9": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "huge": "0 12px 17px 0 rgba(0, 0, 0, 0.14)",
+    "hugeX": "0 16px 24px 0 rgba(0, 0, 0, 0.14)",
+    "hugeXX": "0 24px 38px 0 rgba(0, 0, 0, 0.14)",
+    "large": "0 6px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeX": "0 8px 10px 0 rgba(0, 0, 0, 0.14)",
+    "largeXX": "0 9px 12px 0 rgba(0, 0, 0, 0.14)",
+    "medium": "0 4px 5px 0 rgba(0, 0, 0, 0.14)",
+    "micro": "0 1px 1px 0 rgba(0, 0, 0, 0.14)",
+    "none": "none",
+    "small": "0 3px 4px 0 rgba(0, 0, 0, 0.14)",
+    "tiny": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
+  },
+  "shape": Object {
+    "badgeBorderRadius": 100,
+    "borderRadius": 4,
+  },
+  "sizes": Object {
+    "huge": 96,
+    "hugeX": 128,
+    "hugeXX": 144,
+    "hugeXXX": 192,
+    "hugex": 128,
+    "hugexx": 144,
+    "hugexxx": 192,
+    "large": 64,
+    "largeX": 72,
+    "largeXX": 80,
+    "largeXXX": 88,
+    "largex": 72,
+    "largexx": 80,
+    "largexxx": 88,
+    "medium": 48,
+    "mediumX": 56,
+    "mediumx": 56,
+    "micro": 4,
+    "none": 0,
+    "semi": 32,
+    "semiX": 40,
+    "semix": 40,
+    "small": 16,
+    "standard": 24,
+    "tiny": 8,
+    "veryHuge": 256,
+    "veryhuge": 256,
+  },
+  "spacing": 8,
+  "typography": Object {
+    "body": Object {
+      "bold": Object {
+        "fontFamily": "\\"Suisse Int'l\\", Arial",
+        "fontWeight": 400,
+      },
+      "regular": Object {
+        "fontFamily": "\\"Suisse Int'l\\", Arial",
+        "fontWeight": 400,
+      },
+    },
+    "body1": Object {
+      "fontSize": 16,
+      "fontWeight": 400,
+      "letterSpacing": 0.51,
+    },
+    "body2": Object {
+      "fontSize": 14,
+      "fontWeight": 400,
+      "letterSpacing": 0.22,
+    },
+    "button": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 500,
+      },
+      "fontSize": 14,
+      "letterSpacing": 1.23,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 500,
+      },
+    },
+    "caption": Object {
+      "fontSize": 12,
+      "fontWeight": 400,
+      "letterSpacing": 0.38,
+    },
+    "display": Object {
+      "fontFamily": "\\"Zapf Humanist 601\\", Arial",
+      "fontWeight": 400,
+    },
+    "fontFamily": "\\"Roboto\\", sans-serif",
+    "fontFamilyBrand1": "\\"Helvetica Now Display\\"",
+    "fontFamilyBrand2": "\\"Helvetica Now Text\\"",
+    "fontFamilyBrand3": null,
+    "fontWeightBold": 700,
+    "fontWeightLight": 300,
+    "fontWeightMedium": 500,
+    "fontWeightRegular": 400,
+    "h1": Object {
+      "fontSize": 96,
+      "fontWeight": 400,
+      "letterSpacing": 0,
+    },
+    "h2": Object {
+      "fontSize": 60,
+      "fontWeight": 400,
+      "letterSpacing": 0,
+    },
+    "h3": Object {
+      "fontSize": 48,
+      "fontWeight": 400,
+      "letterSpacing": 0,
+    },
+    "h4": Object {
+      "fontSize": 34,
+      "fontWeight": 400,
+      "letterSpacing": 0.27,
+    },
+    "h5": Object {
+      "fontSize": 24,
+      "fontWeight": 400,
+      "letterSpacing": 0,
+    },
+    "h6": Object {
+      "fontSize": 20,
+      "fontWeight": 500,
+      "letterSpacing": 0.24,
+    },
+    "headline": Object {
+      "fontFamily": "\\"Suisse Int'l\\", Arial",
+      "fontWeight": 400,
+    },
+    "overline": Object {
+      "fontSize": 12,
+      "fontWeight": 500,
+      "letterSpacing": 1.92,
+    },
+    "subtitle1": Object {
+      "fontSize": 16,
+      "fontWeight": 500,
+      "letterSpacing": 0.13,
+    },
+    "subtitle2": Object {
+      "fontSize": 14,
+      "fontWeight": 500,
+      "letterSpacing": 0.11,
+    },
+  },
+}
+`;
