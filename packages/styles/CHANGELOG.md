@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.3.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.2.0...@naturacosmeticos/natds-styles@3.3.0) (2021-10-14)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.12.2 ([#1510](https://github.com/natura-cosmeticos/natds/issues/1510)) ([a03d437](https://github.com/natura-cosmeticos/natds/commit/a03d4372f96b9ffdd1342180a12950026fc03b43))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.13.1 ([#1516](https://github.com/natura-cosmeticos/natds/issues/1516)) ([d64a898](https://github.com/natura-cosmeticos/natds/commit/d64a8988523387e216db0d3a15d5275291dcdca7))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.14.2 ([#1528](https://github.com/natura-cosmeticos/natds/issues/1528)) ([82c9936](https://github.com/natura-cosmeticos/natds/commit/82c993689d7f9e0a668e7ac765b85e23e65e2f84))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.15.4 ([#1546](https://github.com/natura-cosmeticos/natds/issues/1546)) ([956b3db](https://github.com/natura-cosmeticos/natds/commit/956b3db1b106e5e8ef042099dd5ae352d23b0b10))
+
+
+### Features
+
+* add biome theme ([#1555](https://github.com/natura-cosmeticos/natds/issues/1555)) ([39ae183](https://github.com/natura-cosmeticos/natds/commit/39ae18379321238efb70be23d424930077923d50))
+
+
+
+
+
 # [3.2.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.1.2...@naturacosmeticos/natds-styles@3.2.0) (2021-09-24)
 
 
