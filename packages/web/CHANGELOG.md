@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.4.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.4.0...@naturacosmeticos/natds-web@4.4.1) (2021-10-14)
+
+
+### Bug Fixes
+
+* **natds-web:** change path from createStyles ([b4611d5](https://github.com/natura-cosmeticos/natds-js/commit/b4611d585ed8801e77458ff9301a11c721b1b529))
+
+
+
+
+
 # [4.4.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.3.0...@naturacosmeticos/natds-web@4.4.0) (2021-10-14)
 
 
