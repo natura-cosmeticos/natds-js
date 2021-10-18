@@ -41,7 +41,10 @@ export const aesopLight: ITheme = {
   },
   avatarSizes,
   buttonSizes,
-  color,
+  color: {
+    ...color,
+    surface: '#FFFEF2'
+  },
   iconSizes,
 
   /**
@@ -628,6 +631,12 @@ export const aesopLight: ITheme = {
       },
       input: {
         flexShrink: 'initial'
+      }
+    },
+    MuiTypography: {
+      subtitle1: {
+        fontFamily: typography.display.fontFamily,
+        fontWeight: typography.display.fontWeight
       }
     }
   }

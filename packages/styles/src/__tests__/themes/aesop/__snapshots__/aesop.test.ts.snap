@@ -702,6 +702,12 @@ Object {
         "padding": "0 16px",
       },
     },
+    "MuiTypography": Object {
+      "subtitle1": Object {
+        "fontFamily": "\\"Zapf Humanist 601\\", Arial",
+        "fontWeight": 400,
+      },
+    },
   },
   "palette": Object {
     "action": Object {
@@ -1037,7 +1043,7 @@ Object {
     "secondaryDark": "#733b00",
     "secondaryLight": "#db9457",
     "success": "#569a32",
-    "surface": "#fffef2",
+    "surface": "#FFFEF2",
     "warning": "#fcc433",
   },
   "iconSizes": Object {
@@ -1590,6 +1596,12 @@ Object {
         "padding": "0 16px",
       },
     },
+    "MuiTypography": Object {
+      "subtitle1": Object {
+        "fontFamily": "\\"Zapf Humanist 601\\", Arial",
+        "fontWeight": 400,
+      },
+    },
   },
   "palette": Object {
     "action": Object {
@@ -1599,7 +1611,7 @@ Object {
     "background": Object {
       "default": "#fafafa",
       "defaultContrastText": "#333333",
-      "paper": "#fffef2",
+      "paper": "#FFFEF2",
       "paperContrastText": "#333333",
     },
     "complementary": Object {

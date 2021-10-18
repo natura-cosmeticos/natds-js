@@ -18,7 +18,7 @@ export const aesopLightColorTokens: IColorThemeTokens = {
   colorOnSecondaryDark: color.onSecondaryDark,
   colorBackground: color.background,
   colorOnBackground: color.onBackground,
-  colorSurface: color.surface,
+  colorSurface: '#FFFEF2',
   colorOnSurface: color.onSurface,
   colorHighlight: color.highlight,
   colorHighEmphasis: color.highEmphasis,
