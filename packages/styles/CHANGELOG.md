@@ -3,6 +3,22 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.4.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.3.0...@naturacosmeticos/natds-styles@3.4.0) (2021-10-18)
+
+
+### Bug Fixes
+
+* **natds-styles:** change subtitle1 fontFamily for aesop ([c8e27ce](https://github.com/natura-cosmeticos/natds/commit/c8e27ce3a4f99b07eb9c4b731259a46615c4cb5a))
+
+
+### Features
+
+* update Aesop surface color ([#1556](https://github.com/natura-cosmeticos/natds/issues/1556)) ([67e1645](https://github.com/natura-cosmeticos/natds/commit/67e1645e38a4d8268980f29b3c7932804a1a76fd))
+
+
+
+
+
 # [3.3.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.2.0...@naturacosmeticos/natds-styles@3.3.0) (2021-10-14)
 
 
