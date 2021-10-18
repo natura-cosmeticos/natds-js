@@ -629,6 +629,12 @@ export const aesopLight: ITheme = {
       input: {
         flexShrink: 'initial'
       }
+    },
+    MuiTypography: {
+      subtitle1: {
+        fontFamily: typography.display.fontFamily,
+        fontWeight: typography.display.fontWeight
+      }
     }
   }
 }
