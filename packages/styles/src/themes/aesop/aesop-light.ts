@@ -17,8 +17,8 @@ import { spacing } from '../../tokens/spacing'
 import { avatarSizes } from '../../tokens/avatarSizes'
 import { buttonSizes } from '../../tokens/buttonSizes'
 import { elevation } from '../../tokens/elevation'
-import { iconSizes } from '../../tokens/iconSizes'
 import { sizes } from '../../tokens/sizes'
+import { iconSizes } from '../../tokens/iconSizes'
 import { opacity as legacyOpacity } from '../../tokens/opacity'
 
 const {
