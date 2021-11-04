@@ -793,7 +793,7 @@ exports[`DrawerMenu component should start with submenu opened 1`] = `
       />
     </li>
     <li
-      className="MuiCollapse-container MuiCollapse-entered"
+      className="MuiCollapse-root MuiCollapse-entered"
       style={
         Object {
           "minHeight": "0px",

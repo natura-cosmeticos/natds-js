@@ -1,6 +1,7 @@
 /* eslint-disable react/destructuring-assignment */
-import { MuiThemeProvider, StylesProvider, createGenerateClassName } from '@material-ui/core/styles'
-import createMuiTheme, { ThemeOptions } from '@material-ui/core/styles/createMuiTheme'
+import {
+  MuiThemeProvider, StylesProvider, createGenerateClassName, createMuiTheme, ThemeOptions
+} from '@material-ui/core/styles'
 import * as React from 'react'
 
 import { themes } from '../Themes'

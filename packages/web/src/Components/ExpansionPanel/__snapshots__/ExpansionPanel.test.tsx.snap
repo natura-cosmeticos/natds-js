@@ -30,7 +30,7 @@ exports[`ExpansionPanel component should match snapshot - ExpansionPanel complet
     </div>
   </div>
   <div
-    className="MuiCollapse-container MuiCollapse-entered"
+    className="MuiCollapse-root MuiCollapse-entered"
     style={
       Object {
         "minHeight": "0px",
@@ -73,7 +73,7 @@ exports[`ExpansionPanel component should match snapshot - ExpansionPanelActions 
     content
   </div>
   <div
-    className="MuiCollapse-container MuiCollapse-hidden"
+    className="MuiCollapse-root MuiCollapse-hidden"
     style={
       Object {
         "minHeight": "0px",
@@ -105,7 +105,7 @@ exports[`ExpansionPanel component should match snapshot - ExpansionPanelDetails 
     content
   </div>
   <div
-    className="MuiCollapse-container MuiCollapse-hidden"
+    className="MuiCollapse-root MuiCollapse-hidden"
     style={
       Object {
         "minHeight": "0px",
@@ -157,7 +157,7 @@ exports[`ExpansionPanel component should match snapshot - ExpansionPanelSummary 
     </div>
   </div>
   <div
-    className="MuiCollapse-container MuiCollapse-hidden"
+    className="MuiCollapse-root MuiCollapse-hidden"
     style={
       Object {
         "minHeight": "0px",
@@ -187,7 +187,7 @@ exports[`ExpansionPanel component should match snapshot - Simple children: Expan
     content
   </div>
   <div
-    className="MuiCollapse-container MuiCollapse-hidden"
+    className="MuiCollapse-root MuiCollapse-hidden"
     style={
       Object {
         "minHeight": "0px",

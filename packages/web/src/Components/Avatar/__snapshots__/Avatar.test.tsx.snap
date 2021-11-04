@@ -2,7 +2,7 @@
 
 exports[`Avatar component given a default theme was provided when no props are overridden should render correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -13,7 +13,7 @@ exports[`Avatar component given a default theme was provided when no props are o
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "default" should render default correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -24,7 +24,7 @@ exports[`Avatar component given a specific theme was explicitly provided when co
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "primary" should render primary correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -35,7 +35,7 @@ exports[`Avatar component given a specific theme was explicitly provided when co
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "secondary" should render secondary correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -46,7 +46,7 @@ exports[`Avatar component given a specific theme was explicitly provided when co
 
 exports[`Avatar component given a specific theme was explicitly provided when no property is provided should render correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -57,7 +57,7 @@ exports[`Avatar component given a specific theme was explicitly provided when no
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "huge" should render huge correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -68,7 +68,7 @@ exports[`Avatar component given a specific theme was explicitly provided when si
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "large" should render large correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -79,7 +79,7 @@ exports[`Avatar component given a specific theme was explicitly provided when si
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "small" should render small correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -90,7 +90,7 @@ exports[`Avatar component given a specific theme was explicitly provided when si
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "standard" should render standard correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -101,7 +101,7 @@ exports[`Avatar component given a specific theme was explicitly provided when si
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "tiny" should render tiny correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
@@ -112,7 +112,7 @@ exports[`Avatar component given a specific theme was explicitly provided when si
 
 exports[`Avatar component given no theme was provided when an icon is provided as children should render correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-15 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-15 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   <i />
 </div>
@@ -120,7 +120,7 @@ exports[`Avatar component given no theme was provided when an icon is provided a
 
 exports[`Avatar component given no theme was provided when an image is provided as children should render correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-17 MuiAvatar-circle"
+  className="MuiAvatar-root NatDsAvatar-root-17 MuiAvatar-circular"
 >
   <img
     alt=""
@@ -132,7 +132,7 @@ exports[`Avatar component given no theme was provided when an image is provided 
 
 exports[`Avatar component given no theme was provided when color is "default" should render default color correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-5 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-5 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   A
 </div>
@@ -140,7 +140,7 @@ exports[`Avatar component given no theme was provided when color is "default" sh
 
 exports[`Avatar component given no theme was provided when color is "primary" should render primary color correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   A
 </div>
@@ -148,7 +148,7 @@ exports[`Avatar component given no theme was provided when color is "primary" sh
 
 exports[`Avatar component given no theme was provided when color is "secondary" should render secondary color correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-3 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-3 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   A
 </div>
@@ -156,7 +156,7 @@ exports[`Avatar component given no theme was provided when color is "secondary" 
 
 exports[`Avatar component given no theme was provided when initials are provided as children should render correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-13 MuiAvatar-circle MuiAvatar-colorDefault"
+  className="MuiAvatar-root NatDsAvatar-root-13 MuiAvatar-circular MuiAvatar-colorDefault"
 >
   AB
 </div>
