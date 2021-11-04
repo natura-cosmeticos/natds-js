@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.4.4](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.4.3...@naturacosmeticos/natds-web@4.4.4) (2021-11-04)
+
+
+### Bug Fixes
+
+* **deps:** update material-ui monorepo ([#1536](https://github.com/natura-cosmeticos/natds-js/issues/1536)) ([ce301f7](https://github.com/natura-cosmeticos/natds-js/commit/ce301f7901a265527df1b1b5ef7f77be80958f81))
+
+
+
+
+
 ## [4.4.3](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.4.2...@naturacosmeticos/natds-web@4.4.3) (2021-10-19)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-web
