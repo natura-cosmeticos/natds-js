@@ -1,3 +1,4 @@
+/* eslint-disable complexity */
 // eslint-disable-next-line no-use-before-define
 import * as React from 'react'
 import { makeStyles } from '@material-ui/core'
@@ -16,7 +17,7 @@ export const DrawerMenuItem = React.forwardRef<HTMLDivElement, IDrawerMenuItemPr
   props: IDrawerMenuItemProps, ref
 ) => {
   const {
-    onSelect, name, icon, selected, section
+    onSelect, name, icon, selected, section, href
   } = props
 
   const useListItemStyles = makeStyles((theme: IThemeWeb) => ({
@@ -71,10 +72,22 @@ export const DrawerMenuItem = React.forwardRef<HTMLDivElement, IDrawerMenuItemPr
       button
       ref={ref}
     >
-      {icon && <ListItemIcon classes={classesIcon}><Icon name={icon} size="tiny" /></ListItemIcon>}
-      <ListItemText>
-        <MenuItemText {...props as IDrawerMenuSectionProps} />
-      </ListItemText>
+      {href ? (
+        <>
+          {icon && <ListItemIcon classes={classesIcon}><Icon name={icon} size="tiny" /></ListItemIcon>}
+          <ListItemText>
+            <MenuItemText {...props as IDrawerMenuSectionProps} />
+            <a href={href} style={{ width: '100%', textDecoration: 'none', color: 'inherit' }}>{name}</a>
+          </ListItemText>
+        </>
+      ) : (
+        <>
+          {icon && <ListItemIcon classes={classesIcon}><Icon name={icon} size="tiny" /></ListItemIcon>}
+          <ListItemText>
+            <MenuItemText {...props as IDrawerMenuSectionProps} />
+          </ListItemText>
+        </>
+      )}
     </ListItem>
   )
 })
