@@ -75,11 +75,11 @@ Object {
     "font": Object {
       "file": Object {
         "body": Object {
-          "bold": "HelveticaNowDisplay-Bd",
-          "regular": "HelveticaNowDisplay-Regular",
+          "bold": "helvetica_now_display_bd",
+          "regular": "helvetica_now_display_regular",
         },
-        "display": "HelveticaNowDisplay-Bd",
-        "headline": "HelveticaNowDisplay-Md",
+        "display": "helvetica_now_display_bd",
+        "headline": "helvetica_now_display_md",
       },
     },
   },
@@ -661,7 +661,7 @@ Object {
       "lineHeight": 1.25,
       "primary": Object {
         "fontFamily": "Roboto",
-        "fontWeight": 500,
+        "fontWeight": 400,
       },
     },
   },
