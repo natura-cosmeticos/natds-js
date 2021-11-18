@@ -1,6 +1,6 @@
 /* eslint-disable react/destructuring-assignment */
 import {
-  MuiThemeProvider, StylesProvider, createGenerateClassName, createMuiTheme, ThemeOptions
+  MuiThemeProvider, StylesProvider, createGenerateClassName, createTheme, ThemeOptions
 } from '@material-ui/core/styles'
 import * as React from 'react'
 
@@ -17,7 +17,7 @@ export const Provider: React.FunctionComponent<IProviderProps> = ({ cssPrefix, c
   // eslint-disable-next-line @typescript-eslint/ban-ts-comment
   // @ts-ignore
   const theme: ThemeOptions = props.theme ? { ...props.theme } : { ...themes.natura.light }
-  const newTheme = createMuiTheme(theme)
+  const newTheme = createTheme(theme)
 
   const generateClassName = () => createGenerateClassName({
     productionPrefix: cssPrefix || 'natds'

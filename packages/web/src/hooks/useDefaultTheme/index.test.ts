@@ -1,4 +1,4 @@
-import { createMuiTheme, ThemeOptions } from '@material-ui/core/styles'
+import { createTheme, ThemeOptions } from '@material-ui/core/styles'
 import { getDefaultTheme } from '.'
 import { themes } from '../../Themes'
 
@@ -13,9 +13,9 @@ describe('Default theme', () => {
   })
   describe('when provided theme is not from Natura Design System', () => {
     it('should be the Natura Light theme', () => {
-      const actualTheme = createMuiTheme({})
+      const actualTheme = createTheme({})
       const actual = getDefaultTheme(actualTheme)
-      const expectedTheme = createMuiTheme(themes.natura.light as unknown as ThemeOptions)
+      const expectedTheme = createTheme(themes.natura.light as unknown as ThemeOptions)
 
       expect(JSON.stringify(actual)).toBe(JSON.stringify(expectedTheme))
     })
