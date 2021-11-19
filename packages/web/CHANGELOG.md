@@ -3,6 +3,19 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.4.5](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.4.4...@naturacosmeticos/natds-web@4.4.5) (2021-11-19)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.8.0 ([#1574](https://github.com/natura-cosmeticos/natds-js/issues/1574)) ([6e3aa96](https://github.com/natura-cosmeticos/natds-js/commit/6e3aa96fe40e31a0385d791e5e31a75231a0486d))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.17.0 ([#1566](https://github.com/natura-cosmeticos/natds-js/issues/1566)) ([ad9a528](https://github.com/natura-cosmeticos/natds-js/commit/ad9a5287581ae0e89325c9aee403c69fbb5ee2c8))
+* **natds-web:** add instructions to use design tokens from theme ([#1589](https://github.com/natura-cosmeticos/natds-js/issues/1589)) ([af862bf](https://github.com/natura-cosmeticos/natds-js/commit/af862bfb8c4e001caeabb3e3327742a6948da0ba))
+
+
+
+
+
 ## [4.4.4](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.4.3...@naturacosmeticos/natds-web@4.4.4) (2021-11-04)
 
 
