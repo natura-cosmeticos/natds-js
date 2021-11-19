@@ -8,7 +8,8 @@ const welcomeStories = [
   '../docs/changelog.stories.mdx',
   '../docs/contributing.pt-br.stories.mdx',
   '../docs/troubleshooting.stories.mdx',
-  '../docs/icons.stories.mdx'
+  '../docs/icons.stories.mdx',
+  '../docs/design-tokens.stories.mdx'
 ]
 
 const utilitiesStories = [
