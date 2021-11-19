@@ -1,6 +1,7 @@
 import { themes as webThemes } from './Themes'
 
 export const themes = { ...webThemes }
+export { IThemeWeb } from './Themes'
 export { default as Provider, IProviderProps, buildTheme } from './Provider'
 
 export { default as AppBar, IAppBarProps } from './Components/AppBar'
