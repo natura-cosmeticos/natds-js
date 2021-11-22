@@ -3,7 +3,7 @@
 exports[`Counter component renders correctly with label: Counter component renders correctly 1`] = `
 <div>
   <label
-    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-11 NatDSInputLabel-root-12 MuiInputLabel-animated MuiInputLabel-shrink"
+    className="MuiFormLabel-root MuiInputLabel-root NatDSInputLabel-root-13 NatDSInputLabel-root-14 MuiInputLabel-animated MuiInputLabel-shrink"
     data-shrink={true}
   >
     some label
@@ -13,7 +13,7 @@ exports[`Counter component renders correctly with label: Counter component rende
     role="group"
   >
     <button
-      className="MuiButtonBase-root MuiButton-root NatDSButton-root-6 MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-button-1 NatDSCounter-button-9 MuiButton-outlinedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation Mui-disabled Mui-disabled"
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-6 MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-button-1 NatDSCounter-button-11 MuiButton-outlinedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation Mui-disabled Mui-disabled"
       disabled={true}
       id="decrement-button"
       onBlur={[Function]}
@@ -38,10 +38,10 @@ exports[`Counter component renders correctly with label: Counter component rende
       </span>
     </button>
     <div
-      className="MuiFormControl-root NatDSFormControl-root-8 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-input-2 NatDSCounter-input-10"
+      className="MuiFormControl-root NatDSFormControl-root-8 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-input-2 NatDSCounter-input-12"
     >
       <div
-        className="MuiInputBase-root MuiInput-root MuiInputBase-colorSecondary MuiInput-colorSecondary MuiInputBase-formControl MuiInput-formControl"
+        className="MuiInputBase-root MuiInput-root MuiInputBase-colorSecondary MuiInput-colorSecondary makeStyles-input-9 makeStyles-input-15 MuiInputBase-formControl MuiInput-formControl"
         onClick={[Function]}
         required={false}
         style={
@@ -52,7 +52,7 @@ exports[`Counter component renders correctly with label: Counter component rende
       >
         <input
           aria-invalid={false}
-          className="MuiInputBase-input MuiInput-input MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-input-2 NatDSCounter-input-10__input"
+          className="MuiInputBase-input MuiInput-input MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-input-2 NatDSCounter-input-12__input"
           disabled={false}
           onAnimationStart={[Function]}
           onBlur={[Function]}
@@ -66,7 +66,7 @@ exports[`Counter component renders correctly with label: Counter component rende
       </div>
     </div>
     <button
-      className="MuiButtonBase-root MuiButton-root NatDSButton-root-6 MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-button-1 NatDSCounter-button-9 MuiButton-outlinedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
+      className="MuiButtonBase-root MuiButton-root NatDSButton-root-6 MuiButton-outlined MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-button-1 NatDSCounter-button-11 MuiButton-outlinedSizeSmall MuiButton-sizeSmall MuiButton-disableElevation"
       disabled={false}
       id="increment-button"
       onBlur={[Function]}
@@ -132,7 +132,7 @@ exports[`Counter component renders correctly: Counter component renders correctl
       className="MuiFormControl-root NatDSFormControl-root-8 MuiButtonGroup-grouped MuiButtonGroup-groupedHorizontal MuiButtonGroup-groupedOutlined MuiButtonGroup-groupedOutlinedHorizontal MuiButtonGroup-groupedOutlined NatDSCounter-input-2 NatDSCounter-input-5"
     >
       <div
-        className="MuiInputBase-root MuiInput-root MuiInputBase-colorSecondary MuiInput-colorSecondary MuiInputBase-formControl MuiInput-formControl"
+        className="MuiInputBase-root MuiInput-root MuiInputBase-colorSecondary MuiInput-colorSecondary makeStyles-input-9 makeStyles-input-10 MuiInputBase-formControl MuiInput-formControl"
         onClick={[Function]}
         required={false}
         style={

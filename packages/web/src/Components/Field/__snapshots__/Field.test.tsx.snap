@@ -2,7 +2,7 @@
 
 exports[`Field component should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root"
+  className="MuiInputBase-root MuiInput-root makeStyles-input-1 makeStyles-input-2"
   onClick={[Function]}
   required={false}
   style={
@@ -28,7 +28,7 @@ exports[`Field component should match snapshot 1`] = `
 
 exports[`Field component should render input for password types 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInputBase-adornedEnd"
+  className="MuiInputBase-root MuiInput-root makeStyles-input-1 makeStyles-input-5 MuiInputBase-adornedEnd"
   onClick={[Function]}
   required={false}
   style={
@@ -51,7 +51,7 @@ exports[`Field component should render input for password types 1`] = `
   />
   <svg
     aria-hidden={true}
-    className="MuiSvgIcon-root NatDSPasswordReveal-root-1"
+    className="MuiSvgIcon-root NatDSPasswordReveal-root-6"
     focusable="false"
     onClick={[Function]}
     viewBox="0 0 24 24"
@@ -65,7 +65,7 @@ exports[`Field component should render input for password types 1`] = `
 
 exports[`Field component should render input for search type 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInputBase-adornedEnd"
+  className="MuiInputBase-root MuiInput-root makeStyles-input-1 makeStyles-input-7 MuiInputBase-adornedEnd"
   onClick={[Function]}
   required={false}
   style={
@@ -88,7 +88,7 @@ exports[`Field component should render input for search type 1`] = `
   />
   <svg
     aria-hidden={true}
-    className="MuiSvgIcon-root NatDSSearchClear-root-2"
+    className="MuiSvgIcon-root NatDSSearchClear-root-8"
     focusable="false"
     viewBox="0 0 24 24"
   >
@@ -101,7 +101,7 @@ exports[`Field component should render input for search type 1`] = `
 
 exports[`Field component should render input for search types and onChange 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInputBase-adornedEnd"
+  className="MuiInputBase-root MuiInput-root makeStyles-input-1 makeStyles-input-9 MuiInputBase-adornedEnd"
   onClick={[Function]}
   required={false}
   style={
@@ -125,7 +125,7 @@ exports[`Field component should render input for search types and onChange 1`] =
   />
   <svg
     aria-hidden={true}
-    className="MuiSvgIcon-root NatDSSearchClear-root-2"
+    className="MuiSvgIcon-root NatDSSearchClear-root-8"
     focusable="false"
     viewBox="0 0 24 24"
   >
@@ -138,7 +138,7 @@ exports[`Field component should render input for search types and onChange 1`] =
 
 exports[`Field component should render input with maxLength attribute equal 3 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root"
+  className="MuiInputBase-root MuiInput-root makeStyles-input-1 makeStyles-input-10"
   onClick={[Function]}
   required={false}
   style={
@@ -165,7 +165,7 @@ exports[`Field component should render input with maxLength attribute equal 3 1`
 
 exports[`Field component should render single line input 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root"
+  className="MuiInputBase-root MuiInput-root makeStyles-input-1 makeStyles-input-3"
   onClick={[Function]}
   required={false}
   style={
@@ -191,7 +191,7 @@ exports[`Field component should render single line input 1`] = `
 
 exports[`Field component should render single line masked input 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root"
+  className="MuiInputBase-root MuiInput-root makeStyles-input-1 makeStyles-input-4"
   onClick={[Function]}
   required={false}
   style={
