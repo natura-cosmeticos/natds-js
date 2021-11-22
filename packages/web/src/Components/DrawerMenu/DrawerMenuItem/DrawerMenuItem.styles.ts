@@ -24,6 +24,11 @@ const style = (theme: IThemeWeb) => createStyles({
     alignItems: 'center',
     color: 'inherit',
     display: 'flex',
+    fontFamily: theme.typography.fontFamily,
+    fontSize: theme.typography.body2?.fontSize,
+    fontWeight: theme.typography.body2?.fontWeight,
+    letterSpacing: theme.typography.body2?.letterSpacing,
+    lineHeight: theme.typography.body2?.lineHeight,
     textDecoration: 'none',
     width: '100%'
   }
