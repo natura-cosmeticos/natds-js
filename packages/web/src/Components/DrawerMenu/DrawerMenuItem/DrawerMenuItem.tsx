@@ -1,7 +1,6 @@
+/* eslint-disable @typescript-eslint/ban-ts-comment */
 /* eslint-disable complexity */
-// eslint-disable-next-line no-use-before-define
 import * as React from 'react'
-import { makeStyles } from '@material-ui/core'
 import ListSubheader from '../../ListSubheader'
 import Typography from '../../Typography'
 import ListItem from '../../ListItem'
@@ -11,50 +10,30 @@ import ListItemText from '../../ListItemText'
 import { IDrawerMenuItemProps } from './DrawerMenuItem.props'
 import { MenuItemText } from '../MenuItemText'
 import { IDrawerMenuSectionProps } from '../DrawerMenuSection'
-import { IThemeWeb } from '../../../Themes'
+import useStyles from './DrawerMenuItem.styles'
 
 export const DrawerMenuItem = React.forwardRef<HTMLDivElement, IDrawerMenuItemProps>((
   props: IDrawerMenuItemProps, ref
 ) => {
   const {
-    onSelect, name, icon, selected, section, href
+    onSelect,
+    name,
+    icon,
+    selected,
+    section,
+    href,
+    onClickLink
   } = props
 
-  const useListItemStyles = makeStyles((theme: IThemeWeb) => ({
-    root: {
-      borderRadius: theme.shape?.borderRadius,
-      cursor: 'pointer',
-      padding: theme.sizes?.tiny,
-      // eslint-disable-next-line sort-keys
-      '&:hover': {
-        backgroundColor: theme.palette?.action?.hover
-      }
-    }
-  }))
-  const classes = useListItemStyles()
-
-  const useListItemIconStyles = makeStyles(({ sizes }: IThemeWeb) => makeStyles({
-    root: {
-      marginRight: sizes?.standard,
-      marginTop: sizes?.none,
-      minWidth: 'auto'
-    }
-  }))
-  const classesIcon = useListItemIconStyles()
-
-  const useListSubheaderStyles = makeStyles((theme: IThemeWeb) => makeStyles({
-    root: {
-      backgroundColor: `${theme.palette?.background?.paper}`,
-      borderTop: `${theme.palette?.action?.hover} 1px solid`,
-      margin: `${theme.sizes?.small}px -${theme.sizes?.tiny}px 0`
-    }
-  }))
-
-  const classesSubheader = useListSubheaderStyles()
+  const {
+    listItem, iconItem, subheader, linkItem
+  } = useStyles()
 
   if (section) {
     return (
-      <ListSubheader classes={classesSubheader}><Typography variant="caption" component="span">{section}</Typography></ListSubheader>
+      <ListSubheader className={subheader}>
+        <Typography variant="caption" component="span">{section}</Typography>
+      </ListSubheader>
     )
   }
 
@@ -64,30 +43,18 @@ export const DrawerMenuItem = React.forwardRef<HTMLDivElement, IDrawerMenuItemPr
   return (
     <ListItem
       {...onClick}
-      classes={classes}
+      className={listItem}
       selected={selected}
-      // eslint-disable-next-line @typescript-eslint/ban-ts-comment
       // @ts-ignore
       component="li"
       button
       ref={ref}
     >
-      {href ? (
-        <>
-          {icon && <ListItemIcon classes={classesIcon}><Icon name={icon} size="tiny" /></ListItemIcon>}
-          <ListItemText>
-            <MenuItemText {...props as IDrawerMenuSectionProps} />
-            <a href={href} style={{ width: '100%', textDecoration: 'none', color: 'inherit' }}>{name}</a>
-          </ListItemText>
-        </>
-      ) : (
-        <>
-          {icon && <ListItemIcon classes={classesIcon}><Icon name={icon} size="tiny" /></ListItemIcon>}
-          <ListItemText>
-            <MenuItemText {...props as IDrawerMenuSectionProps} />
-          </ListItemText>
-        </>
-      )}
+      {href && <a href={href} className={linkItem} onClick={onClickLink}>{name}</a>}
+      {icon && <ListItemIcon className={iconItem}><Icon name={icon} size="tiny" /></ListItemIcon>}
+      <ListItemText>
+        <MenuItemText {...props as IDrawerMenuSectionProps} />
+      </ListItemText>
     </ListItem>
   )
 })
