@@ -23,7 +23,7 @@ export const DrawerMenuSection = React.forwardRef<any, IDrawerMenuSectionProps>(
   props: IDrawerMenuSectionProps, ref
 ) => {
   const {
-    onToggle, icon, name, list
+    onToggle, icon, name, list, unmountOnExit
   } = props
 
   const [
@@ -94,7 +94,7 @@ export const DrawerMenuSection = React.forwardRef<any, IDrawerMenuSectionProps>(
         <ListItemText><MenuItemText {...props} /></ListItemText>
         <Icon name={listIconName} size="tiny" />
       </ListItem>
-      <Collapse in={opened} timeout="auto" unmountOnExit component="li">
+      <Collapse in={opened} timeout="auto" unmountOnExit={unmountOnExit} component="li">
         {list && (
         <List
           classes={classes}
