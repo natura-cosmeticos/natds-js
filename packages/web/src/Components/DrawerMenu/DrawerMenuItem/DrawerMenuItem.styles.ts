@@ -22,6 +22,7 @@ const style = (theme: IThemeWeb) => createStyles({
   },
   linkItem: {
     alignItems: 'center',
+    all: 'inherit',
     color: 'inherit',
     display: 'flex',
     textDecoration: 'none',
