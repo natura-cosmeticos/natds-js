@@ -21,9 +21,11 @@ const style = (theme: IThemeWeb) => createStyles({
     margin: `${theme.sizes?.small}px -${theme.sizes?.tiny}px 0`
   },
   linkItem: {
-    width: '100%',
+    alignItems: 'center',
+    color: 'inherit',
+    display: 'flex',
     textDecoration: 'none',
-    color: 'inherit'
+    width: '100%'
   }
 })
 

@@ -50,11 +50,22 @@ export const DrawerMenuItem = React.forwardRef<HTMLDivElement, IDrawerMenuItemPr
       button
       ref={ref}
     >
-      {href && <a href={href} className={linkItem} onClick={onClickLink}>{name}</a>}
-      {icon && <ListItemIcon className={iconItem}><Icon name={icon} size="tiny" /></ListItemIcon>}
-      <ListItemText>
-        <MenuItemText {...props as IDrawerMenuSectionProps} />
-      </ListItemText>
+      {href
+        ? (
+          <a href={href} className={linkItem} onClick={onClickLink}>
+            {icon && <ListItemIcon className={iconItem}><Icon name={icon} size="tiny" /></ListItemIcon>}
+            {name}
+          </a>
+        )
+        : (
+          <>
+            {icon && <ListItemIcon className={iconItem}><Icon name={icon} size="tiny" /></ListItemIcon>}
+            <ListItemText>
+              <MenuItemText {...props as IDrawerMenuSectionProps} />
+            </ListItemText>
+
+          </>
+        )}
     </ListItem>
   )
 })
