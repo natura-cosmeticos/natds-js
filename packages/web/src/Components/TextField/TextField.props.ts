@@ -1,11 +1,13 @@
 import * as React from 'react'
 import { StandardTextFieldProps } from '@material-ui/core'
 import { ISearchClearProps } from 'Components/Field/SearchClear'
+import { ISizes } from '@naturacosmeticos/natds-styles'
 import { IInputStateHelpTextProviderProps } from '../InputStateHelpTextProvider'
 import { IThemeWeb } from '../../Themes'
 import { Mask, MaskFn, State } from '../Input/Input.props'
 
 export type Type = 'password' | 'search' | 'text' | React.InputHTMLAttributes<HTMLInputElement>['type'];
+export type TextFieldSizes = keyof Pick<ISizes, 'semiX' | 'mediumX' | 'medium'>
 
 export interface TextFieldProps {
   // eslint-disable-next-line @typescript-eslint/no-explicit-any
@@ -136,6 +138,12 @@ export interface TextFieldProps {
    * The short hint displayed in the input before the user enters a value.
    */
   placeholder?: StandardTextFieldProps['placeholder']
+
+  /**
+   * The height of input field
+   * @default mediumX
+   */
+  size?: TextFieldSizes
 
 }
 

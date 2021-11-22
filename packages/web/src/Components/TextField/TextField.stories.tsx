@@ -109,3 +109,13 @@ WithMask.args = {
   mask: ['(', /[1-9]/, /\d/, ')', ' ', /\d/, /\d/, /\d/, /\d/, /\d/, '-', /\d/, /\d/, /\d/, /\d/],
   placeholder: '(11) 9999-9999'
 }
+
+export const Sizes: Story<ITextFieldProps> = (args) => (
+  <>
+    <TextField {...args} size="semiX" label="SemiX" />
+    &nbsp;
+    <TextField {...args} size="medium" label="Medium" />
+    &nbsp;
+    <TextField {...args} label="MediumX" />
+  </>
+)

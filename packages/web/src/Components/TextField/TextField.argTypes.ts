@@ -3,6 +3,7 @@ import { ITextFieldProps } from './TextField.props'
 import { booleanArgType } from '../../../.storybook/argTypes/booleanArgType'
 import { types } from './__fixtures__/types'
 import { states } from './__fixtures__/states'
+import { sizes } from './__fixtures__/sizes'
 import { textArgType } from '../../../.storybook/argTypes/textArgType'
 
 const componentArgType = {
@@ -82,6 +83,11 @@ Props like \`rows\` and \`cols\` will be forwarded to the textarea.
   showPasswordIcon: {
     ...componentArgType,
     description: 'Show icon for `password` `type`.'
+  },
+  size: {
+    control: { options: sizes, type: 'inline-radio' },
+    description: 'Sets the height of Input field',
+    defaultValue: 'mediumX'
   },
   state: {
     control: { options: states, type: 'inline-radio' },
