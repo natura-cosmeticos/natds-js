@@ -2,7 +2,7 @@
 
 exports[`Input component when hasIcon property is false should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-input-1 makeStyles-input-4"
   onClick={[Function]}
   style={
     Object {
@@ -23,7 +23,7 @@ exports[`Input component when hasIcon property is false should match snapshot 1`
 
 exports[`Input component when hasIcon property is true should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-input-1 makeStyles-input-3"
   onClick={[Function]}
   style={
     Object {
@@ -44,7 +44,7 @@ exports[`Input component when hasIcon property is true should match snapshot 1`]
 
 exports[`Input component when multiline property is explicitly false should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-input-1 makeStyles-input-7"
   onClick={[Function]}
   style={
     Object {
@@ -65,7 +65,7 @@ exports[`Input component when multiline property is explicitly false should matc
 
 exports[`Input component when no props are provided should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-input-1 makeStyles-input-2"
   onClick={[Function]}
   style={
     Object {
@@ -86,7 +86,7 @@ exports[`Input component when no props are provided should match snapshot 1`] = 
 
 exports[`Input component when rows property is set and multiline property is explicitly false should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-input-1 makeStyles-input-9"
   onClick={[Function]}
   style={
     Object {
@@ -108,7 +108,7 @@ exports[`Input component when rows property is set and multiline property is exp
 
 exports[`Input component when rows property is set should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-input-1 makeStyles-input-8"
   onClick={[Function]}
   style={
     Object {
@@ -130,7 +130,7 @@ exports[`Input component when rows property is set should match snapshot 1`] = `
 
 exports[`Input component when state is error should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-input-1 makeStyles-input-5"
   data-state="error"
   onClick={[Function]}
   style={
@@ -152,7 +152,7 @@ exports[`Input component when state is error should match snapshot 1`] = `
 
 exports[`Input component when state is success should match snapshot 1`] = `
 <div
-  className="MuiInputBase-root MuiInput-root MuiInput-underline"
+  className="MuiInputBase-root MuiInput-root MuiInput-underline makeStyles-input-1 makeStyles-input-6"
   data-state="success"
   onClick={[Function]}
   style={

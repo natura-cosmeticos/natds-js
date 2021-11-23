@@ -1,4 +1,5 @@
 import { InputProps } from '@material-ui/core/Input'
+import { TextFieldSizes } from '../TextField/TextField.props'
 
 export type Mask = Array<string | RegExp>;
 export type MaskFn = () => Mask | void;
@@ -70,4 +71,10 @@ export interface IInputProps extends Omit<InputProps, OmittedProps> {
    * @type "error" | "success"
    */
   state?: State
+
+  /**
+   * The height of input field
+   * @default mediumX
+   */
+  size?: TextFieldSizes
 }
