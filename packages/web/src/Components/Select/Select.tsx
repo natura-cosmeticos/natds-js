@@ -1,12 +1,18 @@
 import * as React from 'react'
 import MaterialSelect from '@material-ui/core/Select'
-import { MenuProps } from '@material-ui/core'
+import { createStyles, makeStyles, MenuProps } from '@material-ui/core'
 import { Icon } from '../Icon'
 import { MenuItem } from '../MenuItem'
 import InputStateHelpTextProvider from '../InputStateHelpTextProvider'
 import {
   DeprecatedOptions, ISelectProps, SelectOptions, UpdatedOptions
 } from './Select.props'
+
+const styles = makeStyles(() => createStyles({
+  select: {
+    marginTop: '0 !important'
+  }
+}))
 
 export { ISelectProps } from './Select.props'
 
@@ -55,6 +61,8 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
       getContentAnchorEl: null
     }
 
+    const { select } = styles(props)
+
     return (
       <InputStateHelpTextProvider {...rest} state={state}>
         <MaterialSelect
@@ -71,6 +79,7 @@ export const Select = React.forwardRef<HTMLSelectElement | HTMLInputElement, ISe
           ref={ref}
           value={value}
           onBlur={onBlur}
+          className={select}
         >
           {placeholder && (
             <MenuItem value="" disabled>
