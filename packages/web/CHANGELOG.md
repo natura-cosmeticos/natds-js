@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.5.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.0...@naturacosmeticos/natds-web@4.5.1) (2021-11-23)
+
+
+### Bug Fixes
+
+* **natds-web:** adds improvements to DrawerMenu ([#1591](https://github.com/natura-cosmeticos/natds-js/issues/1591)) ([6973663](https://github.com/natura-cosmeticos/natds-js/commit/69736634905e5aa84d4914b375f527367a69ce36))
+
+
+
+
+
 # [4.5.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.4.5...@naturacosmeticos/natds-web@4.5.0) (2021-11-23)
 
 
