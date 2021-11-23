@@ -57,11 +57,13 @@ Navigation.args = {
       badge: 'Novo',
       list: [
         {
-          name: 'Sub Item'
+          name: 'Sub Item',
+          href: ''
         },
         {
           name: 'Sub Item',
-          badge: 'Novo'
+          badge: 'Novo',
+          href: ''
         }
       ]
     },

@@ -12,6 +12,8 @@ export interface IDrawerMenuItemProps {
   opened?: boolean;
   section?: string;
   selected?: boolean;
+  href?: string
+  onClickLink?: (e: unknown) => void
 
   /**
    * @deprecated `theme` property is deprecated since 0.22
