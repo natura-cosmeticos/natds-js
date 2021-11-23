@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [4.5.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.4.5...@naturacosmeticos/natds-web@4.5.0) (2021-11-23)
+
+
+### Features
+
+* **natds-web:** adds size options to set input height ([#1590](https://github.com/natura-cosmeticos/natds-js/issues/1590)) ([74186b0](https://github.com/natura-cosmeticos/natds-js/commit/74186b0bc884ce9f5da27d1ac5ca21e1508fa537))
+
+
+
+
+
 ## [4.4.5](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.4.4...@naturacosmeticos/natds-web@4.4.5) (2021-11-19)
 
 
