@@ -20,7 +20,8 @@ export const Provider: React.FunctionComponent<IProviderProps> = ({ cssPrefix, c
   const newTheme = createTheme(theme)
 
   const generateClassName = () => createGenerateClassName({
-    productionPrefix: cssPrefix || 'natds'
+    productionPrefix: cssPrefix || 'natds',
+    seed: cssPrefix || 'natds'
   })
 
   return (
