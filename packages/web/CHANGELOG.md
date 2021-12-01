@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.5.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.1...@naturacosmeticos/natds-web@4.5.2) (2021-12-01)
+
+
+### Bug Fixes
+
+* **natds-web:** update generateClassName to work in dev environment ([#1594](https://github.com/natura-cosmeticos/natds-js/issues/1594)) ([75a58cc](https://github.com/natura-cosmeticos/natds-js/commit/75a58cc58618be10a1df03c68ea5d556cff7c8ff))
+
+
+
+
+
 ## [4.5.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.0...@naturacosmeticos/natds-web@4.5.1) (2021-11-23)
 
 
