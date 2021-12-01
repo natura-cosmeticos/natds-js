@@ -2,110 +2,110 @@
 
 exports[`Avatar component given a default theme was provided when no props are overridden should render correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "default" should render default correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "primary" should render primary correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when color is "secondary" should render secondary correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when no property is provided should render correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "huge" should render huge correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "large" should render large correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "small" should render small correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "standard" should render standard correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
 
 exports[`Avatar component given a specific theme was explicitly provided when size is "tiny" should render tiny correctly 1`] = `
 <div
-  className="MuiAvatar-root NatDsAvatar-root-1 MuiAvatar-circular MuiAvatar-colorDefault"
+  className="natds-MuiAvatar-root natds-NatDsAvatar-root-1 natds-MuiAvatar-circular natds-MuiAvatar-colorDefault"
 >
   <i
     aria-hidden={true}
-    className="material-icons MuiIcon-root natds-icons natds-icons-outlined-social-person NatDSIcon-root-3 NatDSIcon-root-4"
+    className="material-icons natds-MuiIcon-root natds-icons natds-icons-outlined-social-person natds-NatDSIcon-root-3 natds-NatDSIcon-root-4"
   />
 </div>
 `;
