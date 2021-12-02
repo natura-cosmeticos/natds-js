@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.5.3](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.2...@naturacosmeticos/natds-web@4.5.3) (2021-12-02)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.9.1 ([#1595](https://github.com/natura-cosmeticos/natds-js/issues/1595)) ([f00e48f](https://github.com/natura-cosmeticos/natds-js/commit/f00e48f50a65066e8c861458a67c8ac80dadd258))
+* **natds-web:** fix the Counter input height ([#1596](https://github.com/natura-cosmeticos/natds-js/issues/1596)) ([ad9dbfb](https://github.com/natura-cosmeticos/natds-js/commit/ad9dbfb464c7c175702ad069f80f55291d3534ba))
+
+
+
+
+
 ## [4.5.2](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.1...@naturacosmeticos/natds-web@4.5.2) (2021-12-01)
 
 
