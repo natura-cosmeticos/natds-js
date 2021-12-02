@@ -2,25 +2,25 @@
 
 exports[`Toolbar styles given a default theme is provided when no prop is overridden should render correctly 1`] = `
 <div
-  className="natds-MuiToolbar-root natds-MuiToolbar-regular natds-MuiToolbar-gutters"
+  className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
 />
 `;
 
 exports[`Toolbar styles given a default theme is provided when variant property is "dense" should render correctly 1`] = `
 <div
-  className="natds-MuiToolbar-root natds-MuiToolbar-dense natds-MuiToolbar-gutters"
+  className="MuiToolbar-root MuiToolbar-dense MuiToolbar-gutters"
 />
 `;
 
 exports[`Toolbar styles given a default theme is provided when variant property is "prominent" should render correctly 1`] = `
 <div
-  className="natds-MuiToolbar-root natds-MuiToolbar-regular natds-NatDSToolbar-prominent-1 natds-MuiToolbar-gutters"
+  className="MuiToolbar-root MuiToolbar-regular NatDSToolbar-prominent-1 MuiToolbar-gutters"
 />
 `;
 
 exports[`Toolbar styles given a default theme is provided when variant property is "regular" should render correctly 1`] = `
 <div
-  className="natds-MuiToolbar-root natds-MuiToolbar-regular natds-MuiToolbar-gutters"
+  className="MuiToolbar-root MuiToolbar-regular MuiToolbar-gutters"
 />
 `;
 

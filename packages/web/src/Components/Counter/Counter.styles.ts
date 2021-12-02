@@ -19,7 +19,7 @@ const style = (theme: IThemeWeb) => createStyles({
   },
   input: {
     textAlign: 'center',
-    width: `${sizes.semiX}px`,
+    width: `${sizes.semiX}px !important`,
     '& .MuiInput-root': {
       borderRadius: 0,
       padding: 0

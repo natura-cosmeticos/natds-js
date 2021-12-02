@@ -2,7 +2,7 @@
 
 exports[`Fab component when Natura dark theme is provided should render correctly 1`] = `
 <button
-  className="natds-MuiButtonBase-root natds-MuiFab-root natds-NatDSFab-root-1 natds-MuiFab-primary natds-NatDSFab-primary-2"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -19,19 +19,19 @@ exports[`Fab component when Natura dark theme is provided should render correctl
   type="button"
 >
   <span
-    className="natds-MuiFab-label"
+    className="MuiFab-label"
   >
     F
   </span>
   <span
-    className="natds-MuiTouchRipple-root"
+    className="MuiTouchRipple-root"
   />
 </button>
 `;
 
 exports[`Fab component when Natura light theme is provided should render correctly 1`] = `
 <button
-  className="natds-MuiButtonBase-root natds-MuiFab-root natds-NatDSFab-root-1 natds-MuiFab-primary natds-NatDSFab-primary-2"
+  className="MuiButtonBase-root MuiFab-root NatDSFab-root-1 MuiFab-primary NatDSFab-primary-2"
   disabled={false}
   onBlur={[Function]}
   onDragLeave={[Function]}
@@ -48,7 +48,7 @@ exports[`Fab component when Natura light theme is provided should render correct
   type="button"
 >
   <span
-    className="natds-MuiFab-label"
+    className="MuiFab-label"
   >
     F
   </span>
