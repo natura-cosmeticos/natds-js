@@ -21,7 +21,7 @@ export const Provider: React.FunctionComponent<IProviderProps> = ({ cssPrefix, c
 
   const generateClassName = () => createGenerateClassName({
     productionPrefix: cssPrefix || 'natds',
-    seed: cssPrefix || 'natds'
+    seed: cssPrefix
   })
 
   return (

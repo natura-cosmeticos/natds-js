@@ -2,15 +2,15 @@
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with body1 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body1 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -19,10 +19,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with body1 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-body1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-body1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -31,15 +31,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with body2 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body2 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -48,10 +48,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with body2 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-body2 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-body2 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -60,15 +60,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with button detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-button natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-button MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -77,10 +77,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with button titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-button natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-button MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -89,15 +89,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with caption detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-caption natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-caption MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -106,10 +106,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with caption titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-caption natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-caption MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -118,15 +118,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with error detailColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body2 natds-MuiTypography-colorError"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body2 MuiTypography-colorError"
   >
     detail
   </p>
@@ -135,10 +135,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with error titleColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorError"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorError"
   >
     title
   </h3>
@@ -147,15 +147,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h1 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-h1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-h1 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -164,10 +164,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h1 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-h1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-h1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -176,15 +176,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h2 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-h2 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-h2 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -193,10 +193,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h2 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-h2 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-h2 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -205,15 +205,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h3 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-h3 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-h3 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -222,10 +222,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h3 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-h3 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-h3 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -234,15 +234,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h4 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-h4 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-h4 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -251,10 +251,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h4 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-h4 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-h4 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -263,15 +263,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h5 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-h5 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-h5 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -280,10 +280,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h5 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-h5 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-h5 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -292,15 +292,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h6 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-h6 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-h6 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -309,10 +309,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with h6 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-h6 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-h6 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -321,15 +321,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with inherit detailColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body2 natds-MuiTypography-colorInherit"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body2 MuiTypography-colorInherit"
   >
     detail
   </p>
@@ -338,15 +338,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with inherit detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -355,10 +355,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with inherit titleColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorInherit"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorInherit"
   >
     title
   </h3>
@@ -367,10 +367,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with inherit titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -379,15 +379,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with initial detailColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body2"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body2"
   >
     detail
   </p>
@@ -396,10 +396,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with initial titleColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1"
   >
     title
   </h3>
@@ -408,15 +408,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with overline detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-overline natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-overline MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -425,10 +425,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with overline titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-overline natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-overline MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -437,15 +437,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with primary detailColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body2 natds-MuiTypography-colorPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body2 MuiTypography-colorPrimary"
   >
     detail
   </p>
@@ -454,10 +454,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with primary titleColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorPrimary"
   >
     title
   </h3>
@@ -466,15 +466,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with secondary detailColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body2 natds-MuiTypography-colorSecondary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body2 MuiTypography-colorSecondary"
   >
     detail
   </p>
@@ -483,10 +483,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with secondary titleColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorSecondary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorSecondary"
   >
     title
   </h3>
@@ -495,15 +495,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with subtitle1 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -512,10 +512,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with subtitle1 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -524,15 +524,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with subtitle2 detailVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-subtitle2 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-subtitle2 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -541,10 +541,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with subtitle2 titleVariant 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle2 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle2 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -553,15 +553,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with textPrimary detailColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body2 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -570,10 +570,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with textPrimary titleColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -582,15 +582,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with textSecondary detailColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body2 natds-MuiTypography-colorTextSecondary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body2 MuiTypography-colorTextSecondary"
   >
     detail
   </p>
@@ -599,10 +599,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Any valid Intro with textSecondary titleColor 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextSecondary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextSecondary"
   >
     title
   </h3>
@@ -611,15 +611,15 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Intro with title and detail 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
   <p
-    className="natds-MuiTypography-root natds-NatDSIntro-introDetail-2 natds-MuiTypography-body2 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introDetail-2 MuiTypography-body2 MuiTypography-colorTextPrimary"
   >
     detail
   </p>
@@ -628,14 +628,14 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Intro with title and icon 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     <i
       aria-hidden={true}
-      className="material-icons natds-MuiIcon-root natds-icons natds-icons-filled-action-add natds-NatDSIcon-root-5 natds-NatDSIcon-root-6"
+      className="material-icons MuiIcon-root natds-icons natds-icons-filled-action-add NatDSIcon-root-5 NatDSIcon-root-6"
     />
     title
   </h3>
@@ -644,10 +644,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided should match snapshot - Intro with title and without detail 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     title
   </h3>
@@ -656,10 +656,10 @@ exports[`Intro component when a theme is explicitly provided should match snapsh
 
 exports[`Intro component when a theme is explicitly provided when an invalid titleVariant property is provided should match snapshot 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-colorTextPrimary"
   >
     Test title
   </h3>
@@ -668,10 +668,10 @@ exports[`Intro component when a theme is explicitly provided when an invalid tit
 
 exports[`Intro component when a theme is explicitly provided when titleVariant property is undefined should match snapshot 1`] = `
 <section
-  className="natds-NatDSIntro-root-1"
+  className="NatDSIntro-root-1"
 >
   <h3
-    className="natds-MuiTypography-root natds-NatDSIntro-introTitle-3 natds-NatDSIntro-introTitle-4 natds-MuiTypography-subtitle1 natds-MuiTypography-colorTextPrimary"
+    className="MuiTypography-root NatDSIntro-introTitle-3 NatDSIntro-introTitle-4 MuiTypography-subtitle1 MuiTypography-colorTextPrimary"
   >
     Test title
   </h3>
