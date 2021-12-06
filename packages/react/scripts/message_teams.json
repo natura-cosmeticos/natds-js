@@ -1,13 +1,13 @@
 {
   "@type": "MessageCard",
   "@context": "http://schema.org/extensions",
-  "title": "🎉 React Web - New Design System version available!",
+  "title": "🎉 React - New Design System version available!",
   "text": "CHANGELOGMESSAGE",
   "sections": [{
       "activityTitle": "Info:",
       "facts": [{
           "name": "📲 Stack",
-          "value": "React Web"
+          "value": "React"
       }, {
           "name": "🏷 Version",
           "value": "VERSIONVALUE"
@@ -26,10 +26,10 @@
       }]
   }, {
       "@type": "OpenUri",
-      "name": "Check NatDS React Web docs",
+      "name": "Check NatDS React docs",
       "targets": [{
           "os": "default",
-          "uri": "https://natds-web.natura.design/?path=/story/welcome-getting-started--page"
+          "uri": "https://natds-web.natura.design/react/index.html?path=/story/welcome-getting-started--page"
       }]
   }, {
       "@type": "OpenUri",
