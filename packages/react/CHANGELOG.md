@@ -3,6 +3,26 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.14.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.13.7...@naturacosmeticos/natds-react@2.14.0) (2021-12-06)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.8.0 ([#1574](https://github.com/natura-cosmeticos/natds-js/issues/1574)) ([6e3aa96](https://github.com/natura-cosmeticos/natds-js/commit/6e3aa96fe40e31a0385d791e5e31a75231a0486d))
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.9.1 ([#1595](https://github.com/natura-cosmeticos/natds-js/issues/1595)) ([f00e48f](https://github.com/natura-cosmeticos/natds-js/commit/f00e48f50a65066e8c861458a67c8ac80dadd258))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.17.0 ([#1566](https://github.com/natura-cosmeticos/natds-js/issues/1566)) ([ad9a528](https://github.com/natura-cosmeticos/natds-js/commit/ad9a5287581ae0e89325c9aee403c69fbb5ee2c8))
+* **natds-web:** fix TextField bug ([#1601](https://github.com/natura-cosmeticos/natds-js/issues/1601)) ([d11b718](https://github.com/natura-cosmeticos/natds-js/commit/d11b7183b0328727eda6abea0aff83c66d02facb))
+
+
+### Features
+
+* add biome theme ([#1555](https://github.com/natura-cosmeticos/natds-js/issues/1555)) ([39ae183](https://github.com/natura-cosmeticos/natds-js/commit/39ae18379321238efb70be23d424930077923d50))
+* update Aesop surface color ([#1556](https://github.com/natura-cosmeticos/natds-js/issues/1556)) ([67e1645](https://github.com/natura-cosmeticos/natds-js/commit/67e1645e38a4d8268980f29b3c7932804a1a76fd))
+
+
+
+
+
 ## [2.13.7](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.13.6...@naturacosmeticos/natds-react@2.13.7) (2021-10-13)
 
 
