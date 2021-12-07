@@ -1,8 +1,8 @@
 import React from 'react'
+import { Ripple } from '../Ripple'
+import { Label } from '../Label'
 import { CheckboxProps } from './Checkbox.props'
-import Ripple from '../Ripple'
 import styles from './Checkbox.styles'
-import { Label } from '../_subcomponents/Label'
 
 const Checkbox = ({
   checked = false,

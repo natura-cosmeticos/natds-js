@@ -10,7 +10,7 @@ import {
   RatingProps
 } from './Rating.props'
 import RatingBase from './RatingBase'
-import { Label } from '../_subcomponents/Label'
+import { Label } from '../Label'
 import styles from './Rating.styles'
 
 export const isRatingInput = (props: RatingProps): props is RatingInputProps => props.variant === 'input'

@@ -1,4 +1,4 @@
-import { InputProps } from 'components/Input'
+import { InputProps } from '../Input'
 
 type BaseProps = InputProps & {
   /**
