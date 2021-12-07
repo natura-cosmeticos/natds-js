@@ -8,7 +8,7 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
   BRANCH=$(bash ./.cicd/get-branch-name.sh)
   NPM_TOKEN=$NATDS_NPM_TOKEN
   RELEASE_BRANCH="alpha.${BRANCH}.$BUILD_NUMBER"
-  COMMIT_MESSAGE=$(git log -1 --pretty=%B)
+  COMMIT_MESSAGE=$(git log -1 --pretty=%s)
 
   echo $BRANCH
 
@@ -17,10 +17,7 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
     GH_TOKEN=$NATDS_GH_TOKEN yarn lerna:prerelease:version:ci --preid ${RELEASE_BRANCH}
     GH_TOKEN=$NATDS_GH_TOKEN yarn lerna:prerelease:publish:ci --pre-dist-tag ${BRANCH}
 
-    if [[ $COMMIT_MESSAGE =~ ['(natds-react)'] ]]; then
-    echo "automated release message"
-      bash ./packages/react/scripts/message_teams.sh
-    fi
+    [[ $COMMIT_MESSAGE =~ natds-react ]] && bash ./packages/react/scripts/message_teams.sh
 
   elif [[ $BRANCH = "main" ]]; then
     echo "Release"
