@@ -22,7 +22,7 @@
  rgxversion="$major\.$minor\.$patch" # regex for new version
 
  # save last version output to file
- awk 's{print $0 > ".cicd/message-release.txt"}; $0~v {print $0 > ".cicd/message-release.txt"; s=1; next}; (!($0~v) && $0~l) {s=0};' RS= v=$rgxversion l=$releaselinecontent CHANGELOG.md
+ awk 's{print $0 > ".cicd/message-release.txt"}; $0~v {print $0 > ".cicd/message-release.txt"; s=1; next}; (!($0~v) && $0~l) {s=0};' RS= v=$rgxversion l=$releaselinecontent ./packages/react/CHANGELOG.md
  # erase last line of file
  sed -i '' -e '$ d' .cicd/message-release.txt
 
