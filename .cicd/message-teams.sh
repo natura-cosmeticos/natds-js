@@ -3,12 +3,11 @@
  # create new file to edit
  cp .cicd/message-teams.json .cicd/updated-message-teams.json
 
- # get and update version at message
- NEW_VERSION=$(cat ./packages/react/package.json \
-   | grep version \
-   | head -1 \
-   | awk -F: '{ print $2 }' \
-   | sed 's/[",]//g')
+ NEW_VERSION=$(cat package.json \
+  | grep version \
+  | head -1 \
+  | awk -F: '{ print $2 }' \
+  | sed 's/[",]//g')
 
  echo "New version: $NEW_VERSION"
 
@@ -19,7 +18,9 @@
  major=`echo $NEW_VERSION | cut -d. -f1`
  minor=`echo $NEW_VERSION | cut -d. -f2`
  patch=`echo $NEW_VERSION | cut -d. -f3`
- rgxversion="$major\.$minor\.$patch" # regex for new version
+
+ # regex for new version
+ rgxversion="$major\.$minor\.$patch"
 
  # save last version output to file
  awk 's{print $0 > ".cicd/message-release.txt"}; $0~v {print $0 > ".cicd/message-release.txt"; s=1; next}; (!($0~v) && $0~l) {s=0};' RS= v=$rgxversion l=$releaselinecontent ./packages/react/CHANGELOG.md
@@ -38,6 +39,6 @@
  curl -H 'Content-Type: application/json' -d "$message" "$TEAMS_RELEASE_WEBHOOK"
 
  # remove helper files
- rm .cicd/updated-message-teams.json
- rm .cicd/message-release.txt
- rm .cicd/message-text.txt
+  rm .cicd/updated-message-teams.json
+  rm .cicd/message-release.txt
+  rm .cicd/message-text.txt

@@ -17,12 +17,13 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
     GH_TOKEN=$NATDS_GH_TOKEN yarn lerna:prerelease:version:ci --preid ${RELEASE_BRANCH}
     GH_TOKEN=$NATDS_GH_TOKEN yarn lerna:prerelease:publish:ci --pre-dist-tag ${BRANCH}
 
-    [[ $COMMIT_MESSAGE =~ natds-react ]] && bash .cicd/message-teams.sh
-
   elif [[ $BRANCH = "main" ]]; then
     echo "Release"
     GH_TOKEN=$NATDS_GH_TOKEN yarn lerna:release:version:ci
     GH_TOKEN=$NATDS_GH_TOKEN yarn lerna:release:publish:ci
+
+    [[ $COMMIT_MESSAGE =~ natds-react ]] && bash .cicd/message-teams.sh
+
   else
     echo "Nothing to publish"
   fi
