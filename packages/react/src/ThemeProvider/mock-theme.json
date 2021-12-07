@@ -31,7 +31,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 4
   },
   "appBarTop": {
     "title": {
@@ -52,27 +53,32 @@
     "standard": {
       "fontSize": 12,
       "letterSpacing": 0,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 12
     },
     "semi": {
       "fontSize": 14,
       "letterSpacing": 0.22,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 16
     },
     "semiX": {
       "fontSize": 20,
       "letterSpacing": 0.24,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 20
     },
     "medium": {
       "fontSize": 24,
       "letterSpacing": 0,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 24
     },
     "largeXXX": {
       "fontSize": 48,
       "letterSpacing": 0,
-      "lineHeight": 1.5
+      "lineHeight": 1.5,
+      "borderRadius": 44
     },
     "primary": {
       "fontFamily": "Roboto",
@@ -212,6 +218,12 @@
       }
     }
   },
+  "card": {
+    "borderRadius": {
+      "enable": 4,
+      "disable": 0
+    }
+  },
   "checkbox": {
     "label": {
       "fontSize": 14,
@@ -219,13 +231,14 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": 500
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 2
   },
   "counter": {
     "label": {
@@ -253,7 +266,8 @@
       "fontSize": 16,
       "letterSpacing": 0.51,
       "lineHeight": 1.25
-    }
+    },
+    "borderRadius": 4
   },
   "dialog": {
     "title": {
@@ -281,7 +295,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 4
   },
   "expansionPanel": {
     "title": {
@@ -296,7 +311,28 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
+    },
+    "borderRadius": 4
+  },
+  "iconButton": {
+    "semi": {
+      "borderRadius": 16
+    },
+    "semiX": {
+      "borderRadius": 20
+    },
+    "medium": {
+      "borderRadius": 24
     }
+  },
+  "image": {
+    "borderRadius": {
+      "enable": 4,
+      "disable": 0
+    }
+  },
+  "menuItem": {
+    "borderRadius": 4
   },
   "navigationDrawer": {
     "header": {
@@ -356,6 +392,20 @@
       }
     }
   },
+  "progressIndicator": {
+    "standard": {
+      "borderRadius": 12
+    },
+    "semi": {
+      "borderRadius": 16
+    },
+    "medium": {
+      "borderRadius": 24
+    },
+    "large": {
+      "borderRadius": 32
+    }
+  },
   "radioButton": {
     "label": {
       "fontSize": 14,
@@ -363,13 +413,14 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": 500
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 12
   },
   "rating": {
     "counter": {
@@ -416,7 +467,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 28
   },
   "snackbar": {
     "content": {
@@ -431,7 +483,8 @@
         "fontFamily": "Arial",
         "fontWeight": 400
       }
-    }
+    },
+    "borderRadius": 4
   },
   "tab": {
     "label": {
@@ -455,11 +508,23 @@
       "lineHeight": 1.25,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": 500
+        "fontWeight": 400
       },
       "fallback": {
         "fontFamily": "Arial",
         "fontWeight": 400
+      }
+    },
+    "small": {
+      "borderRadius": {
+        "enable": 8,
+        "disable": 0
+      }
+    },
+    "standard": {
+      "borderRadius": {
+        "enable": 12,
+        "disable": 0
       }
     }
   },
@@ -475,7 +540,7 @@
       },
       "fontSize": 14,
       "letterSpacing": 0.11,
-      "lineHeight": 1.25
+      "lineHeight": 1.5
     },
     "content": {
       "primary": {
@@ -502,7 +567,8 @@
       "fontSize": 12,
       "letterSpacing": 0.38,
       "lineHeight": 1.25
-    }
+    },
+    "borderRadius": 4
   },
   "heading1": {
     "fontSize": 96,
@@ -695,11 +761,11 @@
   "asset": {
     "font": {
       "file": {
-        "display": "HelveticaNowDisplay-Bd",
-        "headline": "HelveticaNowDisplay-Md",
+        "display": "helvetica_now_display_bd",
+        "headline": "helvetica_now_display_md",
         "body": {
-          "regular": "HelveticaNowDisplay-Regular",
-          "bold": "HelveticaNowDisplay-Bd"
+          "regular": "helvetica_now_display_regular",
+          "bold": "helvetica_now_display_bd"
         }
       }
     },
