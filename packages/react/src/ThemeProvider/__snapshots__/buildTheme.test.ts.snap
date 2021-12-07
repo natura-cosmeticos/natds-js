@@ -3,6 +3,7 @@
 exports[`Theme should build theme with natura light as default 1`] = `
 Object {
   "alert": Object {
+    "borderRadius": 4,
     "content": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -89,11 +90,13 @@ Object {
       "fontWeight": 400,
     },
     "largeXXX": Object {
+      "borderRadius": 44,
       "fontSize": 48,
       "letterSpacing": 0,
       "lineHeight": 1.5,
     },
     "medium": Object {
+      "borderRadius": 24,
       "fontSize": 24,
       "letterSpacing": 0,
       "lineHeight": 1.5,
@@ -103,16 +106,19 @@ Object {
       "fontWeight": 400,
     },
     "semi": Object {
+      "borderRadius": 16,
       "fontSize": 14,
       "letterSpacing": 0.22,
       "lineHeight": 1.5,
     },
     "semiX": Object {
+      "borderRadius": 20,
       "fontSize": 20,
       "letterSpacing": 0.24,
       "lineHeight": 1.5,
     },
     "standard": Object {
+      "borderRadius": 12,
       "fontSize": 12,
       "letterSpacing": 0,
       "lineHeight": 1.5,
@@ -268,7 +274,14 @@ Object {
     "fontWeight": 400,
     "letterSpacing": 0.38,
   },
+  "card": Object {
+    "borderRadius": Object {
+      "disable": 0,
+      "enable": 4,
+    },
+  },
   "checkbox": Object {
+    "borderRadius": 2,
     "label": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -328,6 +341,7 @@ Object {
     "warning": "#fcc433",
   },
   "counter": Object {
+    "borderRadius": 4,
     "content": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -369,6 +383,7 @@ Object {
         "fontWeight": 400,
       },
     },
+    "borderRadius": 4,
     "title": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -397,6 +412,7 @@ Object {
     "tiny": "0 2px 2px 0 rgba(0, 0, 0, 0.14)",
   },
   "expansionPanel": Object {
+    "borderRadius": 4,
     "title": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -440,6 +456,26 @@ Object {
     "fontSize": 20,
     "fontWeight": 500,
     "letterSpacing": 0.24,
+  },
+  "iconButton": Object {
+    "medium": Object {
+      "borderRadius": 24,
+    },
+    "semi": Object {
+      "borderRadius": 16,
+    },
+    "semiX": Object {
+      "borderRadius": 20,
+    },
+  },
+  "image": Object {
+    "borderRadius": Object {
+      "disable": 0,
+      "enable": 4,
+    },
+  },
+  "menuItem": Object {
+    "borderRadius": 4,
   },
   "navigationDrawer": Object {
     "header": Object {
@@ -518,7 +554,22 @@ Object {
     "fontWeight": 500,
     "letterSpacing": 1.92,
   },
+  "progressIndicator": Object {
+    "large": Object {
+      "borderRadius": 32,
+    },
+    "medium": Object {
+      "borderRadius": 24,
+    },
+    "semi": Object {
+      "borderRadius": 16,
+    },
+    "standard": Object {
+      "borderRadius": 12,
+    },
+  },
   "radioButton": Object {
+    "borderRadius": 12,
     "label": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -566,6 +617,7 @@ Object {
     },
   },
   "shortcut": Object {
+    "borderRadius": 28,
     "label": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -601,6 +653,7 @@ Object {
     "veryHuge": 256,
   },
   "snackbar": Object {
+    "borderRadius": 4,
     "content": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -664,8 +717,21 @@ Object {
         "fontWeight": 400,
       },
     },
+    "small": Object {
+      "borderRadius": Object {
+        "disable": 0,
+        "enable": 8,
+      },
+    },
+    "standard": Object {
+      "borderRadius": Object {
+        "disable": 0,
+        "enable": 12,
+      },
+    },
   },
   "textField": Object {
+    "borderRadius": 4,
     "content": Object {
       "fallback": Object {
         "fontFamily": "Arial",
