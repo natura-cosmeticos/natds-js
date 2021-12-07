@@ -3,11 +3,11 @@
  # create new file to edit
  cp .cicd/message-teams.json .cicd/updated-message-teams.json
 
- NEW_VERSION=$(cat package.json \
+ NEW_VERSION=$(cat ./packages/react/package.json \
   | grep version \
   | head -1 \
   | awk -F: '{ print $2 }' \
-  | sed 's/[",]//g')
+  | sed 's/[", ]//g')
 
  echo "New version: $NEW_VERSION"
 
@@ -36,7 +36,7 @@
 
  # send message
  message=`cat .cicd/updated-message-teams.json`
- curl -H 'Content-Type: application/json' -d "$message" "$TEAMS_RELEASE_WEBHOOK"
+ curl -H 'Content-Type: application/json' -d "$message" "$NATDS_TEAMS_RELEASE_WEBHOOK"
 
  # remove helper files
   rm .cicd/updated-message-teams.json
