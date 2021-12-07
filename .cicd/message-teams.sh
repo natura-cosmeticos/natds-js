@@ -15,6 +15,7 @@
  sed -i '' "s/VERSIONVALUE/$NEW_VERSION/g" .cicd/updated-message-teams.json
 
  releaselinecontent='https://github.com/natura-cosmeticos/natds-js/compare'
+
  major=`echo $NEW_VERSION | cut -d. -f1`
  minor=`echo $NEW_VERSION | cut -d. -f2`
  patch=`echo $NEW_VERSION | cut -d. -f3`
