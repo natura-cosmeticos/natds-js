@@ -19,7 +19,7 @@ const styles = createUseStyles((theme: Theme) => ({
   checkbox: {
     appearance: 'none',
     border: `2px solid ${theme.color.mediumEmphasis}`,
-    borderRadius: 2,
+    borderRadius: theme.checkbox.borderRadius,
     cursor: 'pointer',
     display: 'inline-block',
     height: 18,

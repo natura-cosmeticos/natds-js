@@ -116,7 +116,6 @@ Array [
   .iconButtonContainer-0-2-6 {
     overflow: hidden;
     position: relative;
-    border-radius: 50%;
   }
   .iconButtonContainer-0-2-6:after {
     top: 0;
@@ -139,6 +138,7 @@ Array [
   }
   .iconButtonContainer-d0-0-2-7 {
     background-color: transparent;
+    border-radius: 16px;
     width: 32px;
   }
   .container-0-2-1 {  }

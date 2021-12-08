@@ -15,7 +15,7 @@ const styles = createUseStyles((theme: Theme) => ({
   radioButton: {
     appearance: 'none',
     border: `2px solid ${theme.color.mediumEmphasis}`,
-    borderRadius: '50%',
+    borderRadius: theme.radioButton.borderRadius,
     cursor: 'pointer',
     display: 'inline-block',
     height: 18,
