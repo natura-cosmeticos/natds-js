@@ -18,7 +18,7 @@ const styles = createUseStyles((theme: Theme) => ({
     backgroundColor: theme.color.surface,
     border: '1px solid',
     borderColor: getFeedbackBorderColor(theme),
-    borderRadius: theme.borderRadius.medium,
+    borderRadius: theme.textField.borderRadius,
     cursor: ({ disabled, readOnly }: InputProps) => (!disabled && !readOnly ? 'text' : 'default'),
     display: 'flex',
     justifyContent: 'space-between',
