@@ -26,5 +26,3 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
     echo "Nothing to publish"
   fi
 fi
-
-[[ $COMMIT_MESSAGE =~ natds-react ]] && bash .cicd/message-teams.sh
