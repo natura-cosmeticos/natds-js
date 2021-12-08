@@ -19,7 +19,7 @@ const setOpacity = (theme: Theme) => ({ backgroundStyle }: IconButtonStyleProps)
 const styles = createUseStyles((theme: Theme) => ({
   iconButtonContainer: {
     backgroundColor: (props: IconButtonStyleProps) => getBackgroundStyles(theme, props),
-    borderRadius: '50%',
+    borderRadius: ({ size }: IconButtonStyleProps) => theme.iconButton[size].borderRadius,
     boxShadow: setBoxShadow(theme),
     opacity: setOpacity(theme),
     overflow: 'hidden',

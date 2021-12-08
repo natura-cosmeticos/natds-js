@@ -17,7 +17,7 @@ export const getSize = () => ({ size, width }: { size: DialogSizes, width: numbe
 const styles = createUseStyles((theme: Theme) => ({
   dialog: {
     backgroundColor: theme.color.surface,
-    borderRadius: theme.borderRadius.medium,
+    borderRadius: theme.dialog.borderRadius,
     boxShadow: theme.elevation.hugeX,
     display: ({ open }: DialogProps) => (open ? 'flex' : 'none'),
     flexDirection: 'column',
