@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.15.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.14.1...@naturacosmeticos/natds-react@2.15.0) (2021-12-08)
+
+
+### Features
+
+* **natds-react:** update component borderRadius tokens ([#1606](https://github.com/natura-cosmeticos/natds-js/issues/1606)) ([85df44e](https://github.com/natura-cosmeticos/natds-js/commit/85df44ea9613bf7b76757903d82aa799538d757e))
+
+
+
+
+
 ## [2.14.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.14.0...@naturacosmeticos/natds-react@2.14.1) (2021-12-07)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-react
