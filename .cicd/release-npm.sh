@@ -21,7 +21,7 @@ if [ -z $(./.cicd/skip-commit.sh) ]; then
     echo "Release"
     GH_TOKEN=$NATDS_GH_TOKEN yarn lerna:release:version:ci
     GH_TOKEN=$NATDS_GH_TOKEN yarn lerna:release:publish:ci
-    
+
   else
     echo "Nothing to publish"
   fi

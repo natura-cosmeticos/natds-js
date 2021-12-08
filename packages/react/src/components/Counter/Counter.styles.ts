@@ -7,7 +7,7 @@ const styles = createUseStyles((theme: Theme) => ({
   buttonGroup: {
     display: 'flex',
     border: `1px solid ${theme.color.lowEmphasis}`,
-    borderRadius: theme.borderRadius.medium,
+    borderRadius: theme.counter.borderRadius,
     marginTop: theme.spacing.micro,
     width: 'fit-content',
     height: ({ size }: CounterProps) => size && theme.size[size],
