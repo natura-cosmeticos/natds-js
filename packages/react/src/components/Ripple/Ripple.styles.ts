@@ -4,7 +4,8 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { RippleProps } from './Ripple.props'
 
-type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover'>>
+type RippleStyleProps = Required<Pick<RippleProps, 'color' | 'hideOverflow' | 'disabled' | 'fullWidth' | 'showHover' | 'animationDuration'>> &
+{ size: number, mousePosition: { x: number, y: number }, isCentered: boolean }
 
 const styles = createUseStyles((theme: Theme) => ({
   sharedRippleEffect: {

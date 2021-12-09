@@ -8,11 +8,13 @@ export interface IconButtonBaseProps {
   classes?: string
   disabled?: boolean
   IconComponent: React.ReactElement
-  onClick: (e?: any) => void
+  onClick: (e?: React.MouseEvent<HTMLButtonElement>) => void
   size: keyof Size
   testID?: string
   value?: string | number
 }
+
+type IconButtonBaseStyleProps = Required<Pick<IconButtonBaseProps, 'size'>>
 
 const styles = createUseStyles((theme: Theme) => ({
   base: {
@@ -20,10 +22,10 @@ const styles = createUseStyles((theme: Theme) => ({
     border: 'none',
     cursor: 'pointer',
     display: 'flex',
-    height: ({ size }: IconButtonBaseProps) => theme.size[size],
+    height: ({ size }: IconButtonBaseStyleProps) => theme.size[size],
     justifyContent: 'center',
     outline: 'none',
-    width: ({ size }: IconButtonBaseProps) => theme.size[size],
+    width: ({ size }: IconButtonBaseStyleProps) => theme.size[size],
     '&:disabled': { cursor: 'default' }
   }
 }))

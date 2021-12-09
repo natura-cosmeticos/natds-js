@@ -1,5 +1,7 @@
 import React, { useState } from 'react'
 import { Story, Meta } from '@storybook/react'
+import { useTheme } from 'react-jss'
+import { Theme } from '@naturacosmeticos/natds-themes'
 import { ListItem, ListItemProps } from '.'
 import { Divider as DividerComponent } from '../Divider'
 
@@ -39,15 +41,21 @@ const items = [
   { id: 'mulan', title: 'Mulan' }
 ]
 
-export const Playground: Story<ListItemProps> = (args) => (
-  <ul style={{ margin: 0, padding: 0 }}>
-    {items.map(({ id, title }) => (
-      <ListItem {...args} key={id}>
-        {title}
-      </ListItem>
-    ))}
-  </ul>
-)
+export const Playground: Story<ListItemProps> = (args) => {
+  const theme: Theme = useTheme()
+
+  return (
+    <ul style={{ margin: 0, padding: 0 }}>
+      {items.map(({ id, title }) => (
+        <ListItem {...args} key={id}>
+          <span style={{ color: theme.color.onSurface }}>
+            {title}
+          </span>
+        </ListItem>
+      ))}
+    </ul>
+  )
+}
 Playground.args = {
   interaction: 'none',
   selected: false
@@ -61,6 +69,7 @@ InteractionAction.args = {
 
 export const InteractionSelectable: Story<ListItemProps> = (args) => {
   const [selected, setSelected] = useState('')
+  const theme: Theme = useTheme()
 
   return (
     <ul style={{ margin: 0, padding: 0 }}>
@@ -71,7 +80,9 @@ export const InteractionSelectable: Story<ListItemProps> = (args) => {
           selected={title === selected}
           onClick={() => setSelected(title)}
         >
-          {title}
+          <span style={{ color: theme.color.onSurface }}>
+            {title}
+          </span>
         </ListItem>
       ))}
     </ul>

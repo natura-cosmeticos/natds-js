@@ -20,7 +20,7 @@ const Counter = ({
 }: CounterProps) => {
   const {
     buttonGroup, inputBase, buttonLeft, buttonRight, labelText
-  } = styles({ size, disabled })
+  } = styles({ size })
 
   const maxReached = value >= maxValue
   const minReached = value <= minValue

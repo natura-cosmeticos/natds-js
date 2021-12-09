@@ -4,9 +4,6 @@ import { DividerProps } from './Divider.props'
 
 type DividerStyleProps = Required<Pick<DividerProps, 'variant'>>
 
-const isFullBleed = ({ variant }: DividerStyleProps) => variant === 'full-bleed'
-const isMiddle = ({ variant }: DividerStyleProps) => variant === 'middle'
-
 const styles = createUseStyles((theme: Theme) => ({
   divider: {
     border: 0,
@@ -14,8 +11,8 @@ const styles = createUseStyles((theme: Theme) => ({
     backgroundColor: theme.color.lowEmphasis,
     marginTop: 0,
     marginBottom: 0,
-    marginRight: (props) => (isMiddle(props) ? theme.spacing.standard : 0),
-    marginLeft: (props) => (isFullBleed(props) ? 0 : theme.spacing.standard)
+    marginRight: ({ variant }: DividerStyleProps) => (variant === 'middle' ? theme.spacing.standard : 0),
+    marginLeft: ({ variant }: DividerStyleProps) => (variant === 'full-bleed' ? 0 : theme.spacing.standard)
   }
 }))
 

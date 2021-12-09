@@ -251,6 +251,7 @@ describe('RatingBase', () => {
         iconFilled: true,
         iconActive: true,
         disabled: false,
+        // @ts-ignore
         ariaLabel: '',
         onClick: () => '',
         size: 'semi'
@@ -264,6 +265,7 @@ describe('RatingBase', () => {
         iconFilled: true,
         iconActive: true,
         disabled: true,
+        // @ts-ignore
         ariaLabel: '',
         onClick: () => '',
         size: 'semi'

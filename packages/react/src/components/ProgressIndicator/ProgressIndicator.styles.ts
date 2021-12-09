@@ -4,11 +4,13 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { ProgressIndicatorProps } from './ProgressIndicator.props'
 
+type ProgressIndicatorStyleProps = Required<Pick<ProgressIndicatorProps, 'size' | 'showBackdrop'>>
+
 const styles = createUseStyles((theme: Theme) => ({
   backdrop: {
-    height: ({ size }: ProgressIndicatorProps) => size && theme.size[size],
-    width: ({ size }: ProgressIndicatorProps) => size && theme.size[size],
-    backgroundColor: ({ showBackdrop }: ProgressIndicatorProps) => showBackdrop && theme.color.surface,
+    height: ({ size }: ProgressIndicatorStyleProps) => theme.size[size],
+    width: ({ size }: ProgressIndicatorStyleProps) => theme.size[size],
+    backgroundColor: ({ showBackdrop }: ProgressIndicatorStyleProps) => showBackdrop && theme.color.surface,
     borderRadius: '50%',
     display: 'flex',
     alignItems: 'center',
@@ -16,8 +18,8 @@ const styles = createUseStyles((theme: Theme) => ({
     padding: theme.size.micro
   },
   loader: {
-    height: ({ size }: ProgressIndicatorProps) => size && theme.size[size],
-    width: ({ size }: ProgressIndicatorProps) => size && theme.size[size],
+    height: ({ size }: ProgressIndicatorStyleProps) => theme.size[size],
+    width: ({ size }: ProgressIndicatorStyleProps) => theme.size[size],
     '& svg': {
       animation: '$rotate 2.7s linear infinite',
       '& circle': {

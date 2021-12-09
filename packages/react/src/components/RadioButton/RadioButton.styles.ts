@@ -4,6 +4,8 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { RadioButtonProps } from './RadioButton.props'
 
+type RadioButtonStyleProps = Required<Pick<RadioButtonProps, 'disabled'>>
+
 const styles = createUseStyles((theme: Theme) => ({
   wrapper: {
     height: theme.size.semiX,
@@ -42,7 +44,7 @@ const styles = createUseStyles((theme: Theme) => ({
         left: '50%',
         position: 'absolute',
         textAlign: 'center',
-        backgroundColor: ({ disabled }: RadioButtonProps) => (disabled ? theme.color.lowEmphasis : theme.color.primary),
+        backgroundColor: ({ disabled }: RadioButtonStyleProps) => (disabled ? theme.color.lowEmphasis : theme.color.primary),
         top: '50%',
         transform: 'translate(-50%, -50%)'
       },
@@ -56,7 +58,7 @@ const styles = createUseStyles((theme: Theme) => ({
     alignItems: 'center'
   },
   labelText: {
-    color: ({ disabled }: RadioButtonProps) => (disabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
+    color: ({ disabled }: RadioButtonStyleProps) => (disabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
     fontFamily: [theme.radioButton.label.primary.fontFamily, theme.radioButton.label.fallback.fontFamily],
     fontSize: theme.radioButton.label.fontSize,
     fontWeight: theme.radioButton.label.primary.fontWeight,

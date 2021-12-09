@@ -3,6 +3,8 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { CounterProps } from './Counter.props'
 
+type CounterStyleProps = Required<Pick<CounterProps, 'size'>>
+
 const styles = createUseStyles((theme: Theme) => ({
   buttonGroup: {
     display: 'flex',
@@ -10,9 +12,9 @@ const styles = createUseStyles((theme: Theme) => ({
     borderRadius: theme.counter.borderRadius,
     marginTop: theme.spacing.micro,
     width: 'fit-content',
-    height: ({ size }: CounterProps) => size && theme.size[size],
+    height: ({ size }: CounterStyleProps) => theme.size[size],
     '& button': {
-      width: ({ size }: CounterProps) => (size && size === 'semiX' ? theme.size.semi : theme.size.semiX)
+      width: ({ size }: CounterStyleProps) => (size === 'semiX' ? theme.size.semi : theme.size.semiX)
     }
   },
   buttonLeft: {

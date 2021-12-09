@@ -2,6 +2,8 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { DialogProps, DialogSizes } from './Dialog.props'
 
+type DialogStyleProps = Required<Pick<DialogProps, 'open' | 'size'>> & { width: number }
+
 export const convertSize = (size: DialogSizes) => {
   const sizes = {
     small: 328,
@@ -12,14 +14,14 @@ export const convertSize = (size: DialogSizes) => {
   return sizes[size]
 }
 
-export const getSize = () => ({ size, width }: { size: DialogSizes, width: number }) => (convertSize(size) > width ? '90vw' : convertSize(size))
+export const getSize = () => ({ size, width }: DialogStyleProps) => (convertSize(size) > width ? '90vw' : convertSize(size))
 
 const styles = createUseStyles((theme: Theme) => ({
   dialog: {
     backgroundColor: theme.color.surface,
     borderRadius: theme.dialog.borderRadius,
     boxShadow: theme.elevation.hugeX,
-    display: ({ open }: DialogProps) => (open ? 'flex' : 'none'),
+    display: ({ open }: DialogStyleProps) => (open ? 'flex' : 'none'),
     flexDirection: 'column',
     left: '50%',
     maxHeight: '70%',
@@ -32,7 +34,7 @@ const styles = createUseStyles((theme: Theme) => ({
   },
   overlay: {
     background: theme.color.highlight,
-    display: ({ open }: DialogProps) => (!open && 'none'),
+    display: ({ open }: DialogStyleProps) => (!open && 'none'),
     height: '100%',
     left: 0,
     opacity: theme.opacity.mediumHigh,
