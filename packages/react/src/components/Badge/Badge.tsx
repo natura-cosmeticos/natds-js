@@ -15,7 +15,7 @@ const Badge = (props: BadgeProps): JSX.Element => {
     testID
   } = props
 
-  const { badge, label } = styles({ color, variant })
+  const { badge, label } = styles({ variant, color })
 
   return (
     <div

@@ -4,6 +4,8 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { CheckboxProps } from './Checkbox.props'
 
+type CheckboxStyleProps = Required<Pick<CheckboxProps, 'indeterminate' | 'disabled'>>
+
 const styles = createUseStyles((theme: Theme) => ({
   container: {
     display: 'flex',
@@ -38,7 +40,7 @@ const styles = createUseStyles((theme: Theme) => ({
       border: `2px solid ${theme.color.primary}`,
       color: theme.color.surface,
       '&:after': {
-        content: ({ indeterminate }: CheckboxProps) => (indeterminate ? '"\uea5d"' : '"\uea3c"'),
+        content: ({ indeterminate }: CheckboxStyleProps) => (indeterminate ? '"\uea5d"' : '"\uea3c"'),
         display: 'block',
         fontFamily: 'natds-icons',
         fontSize: 18,
@@ -55,7 +57,7 @@ const styles = createUseStyles((theme: Theme) => ({
     }
   },
   labelText: {
-    color: ({ disabled }: CheckboxProps) => (disabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
+    color: ({ disabled }: CheckboxStyleProps) => (disabled ? theme.color.lowEmphasis : theme.color.highEmphasis),
     fontFamily: [theme.checkbox.label.primary.fontFamily, theme.checkbox.label.fallback.fontFamily],
     fontSize: theme.checkbox.label.fontSize,
     fontWeight: theme.checkbox.label.primary.fontWeight,

@@ -18,8 +18,10 @@ export interface RatingBaseProps {
   value?: number
 }
 
+type RatingBaseStyleProps = Pick<RatingBaseProps, 'disabled' | 'isClickable' | 'iconFilled' | 'iconActive'>
+
 export const getRatingColor = ({ color }: Theme) => (
-  { iconFilled, iconActive, disabled }: RatingBaseProps
+  { iconFilled, iconActive, disabled }: RatingBaseStyleProps
 ) => (iconFilled && iconActive && !disabled ? '#F8B546' : color.mediumEmphasis)
 
 const styles = createUseStyles((theme: Theme) => ({
@@ -43,7 +45,7 @@ const styles = createUseStyles((theme: Theme) => ({
     '&:hover:not([disabled]):after': { opacity: theme.opacity.lower },
     '&:focus:not([disabled]):after': { opacity: theme.opacity.low },
     '& > i': {
-      cursor: ({ disabled, isClickable }: RatingBaseProps) => isClickable && !disabled && 'pointer',
+      cursor: ({ disabled, isClickable }: RatingBaseStyleProps) => isClickable && !disabled && 'pointer',
       color: (getRatingColor(theme))
     }
   }
