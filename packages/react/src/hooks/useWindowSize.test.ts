@@ -2,7 +2,7 @@ import { act, fireEvent } from '@testing-library/react'
 import { renderHook } from '@testing-library/react-hooks'
 import useWindowSize from './useWindowSize'
 
-jest.useFakeTimers()
+jest.useFakeTimers('legacy')
 
 describe('hooks/useWindowSize', () => {
   beforeEach(() => {

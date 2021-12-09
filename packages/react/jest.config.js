@@ -13,6 +13,7 @@ module.exports = {
   errorOnDeprecated: true,
   displayName,
   name,
+  testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
   roots: ['<rootDir>/src', '<rootDir>/regression'],
   transform: {

@@ -48,6 +48,7 @@ module.exports = {
     [webResources]: '<rootDir>/src/__mocks__/fileMock.ts'
   },
   name,
+  testEnvironment: 'jsdom',
   roots: ['<rootDir>/src', '<rootDir>/.storybook'],
   transform: {
     '^.+\\.[tj]sx?$': 'babel-jest',
