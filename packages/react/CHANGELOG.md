@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.15.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.15.0...@naturacosmeticos/natds-react@2.15.1) (2021-12-09)
+
+
+### Bug Fixes
+
+* **deps:** update dependency react-jss to v10.9.0 ([#1610](https://github.com/natura-cosmeticos/natds-js/issues/1610)) ([ff9fe34](https://github.com/natura-cosmeticos/natds-js/commit/ff9fe348fa854167d6d03201f608d22fc7668a3b))
+
+
+
+
+
 # [2.15.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.14.1...@naturacosmeticos/natds-react@2.15.0) (2021-12-08)
 
 
