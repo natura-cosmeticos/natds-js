@@ -1,45 +1,56 @@
-# #!/bin/bash
-# set -e
+#!/bin/bash
+set -e
 
-#  # create new file to edit
-#  cp .cicd/message-teams.json .cicd/updated-message-teams.json
+echo "Release message on Teams"
 
-#  NEW_VERSION=$(cat ./packages/react/package.json \
-#   | grep version \
-#   | head -1 \
-#   | awk -F: '{ print $2 }' \
-#   | sed 's/[", ]//g')
+BRANCH=$(bash ./.cicd/get-branch-name.sh)
+COMMIT_MESSAGE=$(git log -1 --pretty=%s)
 
-#  echo "New version: $NEW_VERSION"
+if [ -z $(./.cicd/skip-commit.sh) ]; then
+    if  [[ ($BRANCH = "main") && ($COMMIT_MESSAGE =~ natds-react) ]]; then
+        # create new file to edit
+        cp .cicd/message-teams.json .cicd/updated-message-teams.json
 
-#  sed -i '' "s/VERSIONVALUE/$NEW_VERSION/g" .cicd/updated-message-teams.json
+        NEW_VERSION=$(cat ./packages/react/package.json \
+            | grep version \
+            | head -1 \
+            | awk -F: '{ print $2 }' \
+        | sed 's/[", ]//g')
 
-#  releaselinecontent='https://github.com/natura-cosmeticos/natds-js/compare'
+        echo "New version: $NEW_VERSION"
 
-#  major=`echo $NEW_VERSION | cut -d. -f1`
-#  minor=`echo $NEW_VERSION | cut -d. -f2`
-#  patch=`echo $NEW_VERSION | cut -d. -f3`
+        sed -i '' "s/VERSIONVALUE/$NEW_VERSION/g" .cicd/updated-message-teams.json
 
-#  # regex for new version
-#  rgxversion="$major\.$minor\.$patch"
+        releaselinecontent='https://github.com/natura-cosmeticos/natds-js/compare'
 
-#  # save last version output to file
-#  awk 's{print $0 > ".cicd/message-release.txt"}; $0~v {print $0 > ".cicd/message-release.txt"; s=1; next}; (!($0~v) && $0~l) {s=0};' RS= v=$rgxversion l=$releaselinecontent ./packages/react/CHANGELOG.md
-#  # erase last line of file
-#  sed -i '' -e '$ d' .cicd/message-release.txt
+        major=`echo $NEW_VERSION | cut -d. -f1`
+        minor=`echo $NEW_VERSION | cut -d. -f2`
+        patch=`echo $NEW_VERSION | cut -d. -f3`
 
-#  # write release message with line breaks
-#  awk '{printf "%s\\\n ",$0 > ".cicd/message-text.txt"} END {print ""}' .cicd/message-release.txt
+        # regex for new version
+        rgxversion="$major\.$minor\.$patch"
 
-#  # update release message at json
-#  CHANGELOG_UPDATES=`cat .cicd/message-text.txt`
-#  sed -i '' "s|CHANGELOGMESSAGE|$CHANGELOG_UPDATES|g" .cicd/updated-message-teams.json
+        # save last version output to file
+        awk 's{print $0 > ".cicd/message-release.txt"}; $0~v {print $0 > ".cicd/message-release.txt"; s=1; next}; (!($0~v) && $0~l) {s=0};' RS= v=$rgxversion l=$releaselinecontent ./packages/react/CHANGELOG.md
+        # erase last line of file
+        sed -i '' -e '$ d' .cicd/message-release.txt
 
-#  # send message
-#  message=`cat .cicd/updated-message-teams.json`
-#  curl -H 'Content-Type: application/json' -d "$message" "$NATDS_TEAMS_RELEASE_WEBHOOK"
+        # write release message with line breaks
+        awk '{printf "%s\\\n ",$0 > ".cicd/message-text.txt"} END {print ""}' .cicd/message-release.txt
 
-#  # remove helper files
-#   rm .cicd/updated-message-teams.json
-#   rm .cicd/message-release.txt
-#   rm .cicd/message-text.txt
+        # update release message at json
+        CHANGELOG_UPDATES=`cat .cicd/message-text.txt`
+        sed -i '' "s|CHANGELOGMESSAGE|$CHANGELOG_UPDATES|g" .cicd/updated-message-teams.json
+
+        # send message
+        message=`cat .cicd/updated-message-teams.json`
+        curl -H 'Content-Type: application/json' -d "$message" "$NATDS_TEAMS_RELEASE_WEBHOOK"
+
+        # remove helper files
+        rm .cicd/updated-message-teams.json
+        rm .cicd/message-release.txt
+        rm .cicd/message-text.txt
+    fi
+fi
+
+
