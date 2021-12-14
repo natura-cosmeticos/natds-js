@@ -24,16 +24,17 @@ export const checkIconColor = (
   return color
 }
 
-const IconButton = ({
+const IconButton = React.forwardRef<HTMLButtonElement, IconButtonProps>(({
   ariaLabel,
   backgroundStyle = 'none',
+  className = '',
   color = 'highEmphasis',
   disabled = false,
   iconName,
   onClick,
   size = 'semi',
   testID
-}: IconButtonProps): JSX.Element => {
+}, ref) => {
   const { iconButtonContainer } = styles({ disabled, backgroundStyle, size })
   const iconSize = getIconSize(size) as IconSize
   const iconColor = checkIconColor(backgroundStyle, disabled, color) as IconColor
@@ -41,9 +42,10 @@ const IconButton = ({
   return (
     <IconButtonBase
       ariaLabel={ariaLabel}
-      classes={iconButtonContainer}
+      className={`${className} ${iconButtonContainer}`}
       disabled={disabled}
       onClick={onClick}
+      ref={ref}
       size={size}
       testID={testID}
       IconComponent={(
@@ -57,6 +59,6 @@ const IconButton = ({
       )}
     />
   )
-}
+})
 
 export default IconButton

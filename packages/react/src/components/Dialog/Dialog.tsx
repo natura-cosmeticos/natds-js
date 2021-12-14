@@ -4,17 +4,18 @@ import { DialogProps } from './Dialog.props'
 import { useWindowSize } from '../../hooks/useWindowSize'
 import { Portal } from '../Portal'
 
-const Dialog = ({
+const Dialog = React.forwardRef<HTMLDivElement, DialogProps>(({
   ariaDescribedBy,
   ariaLabelledBy,
   children,
+  className = '',
   container,
   onEscapeKeyDown,
   role,
   open = false,
   size = 'medium',
   testID
-}: DialogProps): JSX.Element => {
+}, ref) => {
   const { width } = useWindowSize()
   const { dialog, overlay } = styles({ open, size, width })
 
@@ -34,11 +35,12 @@ const Dialog = ({
             aria-describedby={ariaDescribedBy}
             aria-labelledby={ariaLabelledBy}
             aria-modal
-            className={dialog}
+            className={`${className} ${dialog}`}
             data-testid={testID}
             onKeyDown={handleOnKeyDown}
             role={role}
             tabIndex={0}
+            ref={ref}
           >
             {children}
           </div>
@@ -47,6 +49,6 @@ const Dialog = ({
       )}
     </>
   )
-}
+})
 
 export default Dialog

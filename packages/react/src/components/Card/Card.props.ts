@@ -6,13 +6,18 @@ export interface CardProps {
   children: React.ReactNode
 
   /**
-   * If `false`, a box-shadow effect will be removed
+   * Override or extend the styles applied to the component
+   */
+  className?: string
+
+  /**
+   * If `false`, a box-shadow effect are disabled
    * @default true
    */
   elevation?: boolean;
 
   /**
-   * If `false`, the box-radius effect will be removed
+   * If `false`, rounded corners are disabled
    * @default true
    */
   radius?: boolean;

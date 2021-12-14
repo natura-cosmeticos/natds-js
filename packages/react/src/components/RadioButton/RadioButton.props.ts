@@ -7,6 +7,11 @@ export interface RadioButtonProps {
   checked?: boolean
 
   /**
+   * Specify an optional className to be added to your Badge
+   */
+  className?: string
+
+  /**
    * If `true`, the RadioButton will be disabled.
    * @default false
    */
@@ -43,11 +48,6 @@ export interface RadioButtonProps {
   * The onFocus event occurs the element gets focus.
   */
   onFocus?: React.ChangeEventHandler<HTMLInputElement>
-
-  /**
-   * Pass a ref to the RadioButton element.
-   */
-  ref?: React.Ref<never>
 
   /**
    * If `true`, the RadioButton will be required.

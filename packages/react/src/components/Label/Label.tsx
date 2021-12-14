@@ -2,18 +2,18 @@ import React from 'react'
 
 export interface LabelProps {
   className?: string
-  id?: string
+  htmlFor?: string
   label?: string
   required?: boolean
 }
 
-const Label = ({
-  label, id, className, required
-}: LabelProps): JSX.Element => (
-  <label htmlFor={id} className={className}>
+const Label = React.forwardRef<HTMLLabelElement, LabelProps>(({
+  label, htmlFor, className, required
+}, ref) => (
+  <label htmlFor={htmlFor} className={className} ref={ref}>
     {label}
     {required && label && '*'}
   </label>
-)
+))
 
 export default Label

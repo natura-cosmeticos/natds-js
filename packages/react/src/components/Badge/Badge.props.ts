@@ -4,23 +4,27 @@ export type BadgeColors = keyof Pick<Color, 'primary' | 'secondary' | 'success' 
 
 export interface BadgeBaseProps {
   /**
-   * If `true` will hide the badge in the accessibility tree.
+   * Indicates whether the element is exposed to an accessibility API.
    */
   ariaHidden?: boolean
+
   /**
-   * Specify an accessible description to your Badge.
+   * Defines a string value that labels the current element.
    */
   ariaLabel?: string
+
   /**
    * Specify an optional className to be added to your Badge
    */
   className?: string
+
   /**
    * Specify the color of the Badge, from a list of available colors.
    * If no color is specified, the 'alert' color will be applied as default.
    * @default 'alert'
    */
   color?: BadgeColors
+
   /**
    * Optional ID for testing
    */
@@ -49,13 +53,15 @@ export type BadgeStandardProps = BadgeBaseProps & {
    * will display a `+` sign next to the value. Only available for `standard` variant
    */
   limit?: number
+
   /**
    * Specify the number that will be display inside the Badge.
    * Only available for `standard` variant
    */
   value: number
+
   /**
-   * Specify the variant of Badge you want to create.
+   * Specify the variant of Badge you want to use.
    * Check each definition [here](https://ds.natura.design/28db352be/p/920945-badge/t/52006b)
    */
   variant: 'standard'

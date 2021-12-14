@@ -4,8 +4,9 @@ import { Label } from '../Label'
 import { CheckboxProps } from './Checkbox.props'
 import styles from './Checkbox.styles'
 
-const Checkbox = ({
+const Checkbox = React.forwardRef<HTMLInputElement, CheckboxProps>(({
   checked = false,
+  className = '',
   disabled = false,
   id,
   indeterminate = false,
@@ -13,7 +14,7 @@ const Checkbox = ({
   testID = `ds-checkbox-${id}`,
   value,
   label
-}: CheckboxProps): JSX.Element => {
+}, ref) => {
   const {
     checkbox, wrapper, container, labelText
   } = styles({ indeterminate, disabled })
@@ -21,7 +22,7 @@ const Checkbox = ({
   const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
 
   return (
-    <div className={container}>
+    <div className={`${className} ${container}`}>
       <Ripple
         isCentered
         hideOverflow={false}
@@ -41,12 +42,13 @@ const Checkbox = ({
             onChange={onChange}
             type="checkbox"
             value={value}
+            ref={ref}
           />
         </div>
       </Ripple>
-      {label && <Label className={labelText} label={label} id={id} />}
+      {label && <Label className={labelText} label={label} htmlFor={id} />}
     </div>
   )
-}
+})
 
 export default Checkbox

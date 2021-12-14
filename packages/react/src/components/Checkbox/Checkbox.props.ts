@@ -6,6 +6,11 @@ export interface CheckboxProps {
   checked?: boolean
 
   /**
+   * Specify an optional className to be added to your Checkbox
+   */
+  className?: string
+
+  /**
    * If `true`, the Checkbox will be disabled.
    * @default false
    */

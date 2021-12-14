@@ -17,13 +17,14 @@ export const isRatingInput = (props: RatingProps): props is RatingInputProps => 
 export const isRatingCounter = (props: RatingProps): props is RatingCounterProps => props.variant === 'counter'
 export const isRatingReadOnly = (props: RatingProps): props is RatingReadOnlyProps => props.variant === 'read-only'
 
-const Rating = (props: RatingProps): JSX.Element => {
+const Rating = React.forwardRef<HTMLButtonElement, RatingProps>((props, ref) => {
   const {
-    variant,
     ariaLabel,
-    testID,
-    size,
     ariaLabelGroup,
+    className = '',
+    size,
+    testID,
+    variant,
     ...rest
   } = props
 
@@ -39,11 +40,12 @@ const Rating = (props: RatingProps): JSX.Element => {
   const checkOnClick = isRatingInput(props) ? props.onClick : () => ''
 
   return (
-    <div className={container}>
+    <div className={`${className} ${container}`}>
       <div className={rating} aria-label={ariaLabelGroup}>
         {Array(renderTimes).fill(0).map((_, index) => (
           (isRatingCounter(props) || isRatingReadOnly(props) || isRatingInput(props)) && (
             <RatingBase
+              ref={ref}
               ariaLabel={ariaLabel}
               disabled={isRatingInput(props) && props.disabled}
               iconActive={isActive(index)}
@@ -65,6 +67,6 @@ const Rating = (props: RatingProps): JSX.Element => {
       )}
     </div>
   )
-}
+})
 
 export default Rating

@@ -2,17 +2,17 @@ import React from 'react'
 import styles from './DialogHeader.styles'
 import { DialogHeaderProps } from './DialogHeader.props'
 
-const DialogHeader = ({
+const DialogHeader = React.forwardRef<HTMLDivElement, DialogHeaderProps>(({
   children, id, title, className = ''
-}: DialogHeaderProps): JSX.Element => {
+}, ref) => {
   const { header, ...classes } = styles()
 
   return (
-    <div className={`${header} ${className}`}>
+    <div className={`${className} ${header}`} ref={ref}>
       <h2 id={id} className={classes.title}>{title}</h2>
       {children}
     </div>
   )
-}
+})
 
 export default DialogHeader

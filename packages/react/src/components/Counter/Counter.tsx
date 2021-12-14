@@ -5,9 +5,10 @@ import { Button } from '../Button'
 import { CounterProps } from './Counter.props'
 import styles from './Counter.styles'
 
-const Counter = ({
+const Counter = React.forwardRef<HTMLDivElement, CounterProps>(({
   ariaLabelDecrementButton,
   ariaLabelIncrementButton,
+  className = '',
   disabled,
   label,
   maxValue = 99,
@@ -17,7 +18,7 @@ const Counter = ({
   size = 'semiX',
   testID,
   value = 0
-}: CounterProps) => {
+}, ref) => {
   const {
     buttonGroup, inputBase, buttonLeft, buttonRight, labelText
   } = styles({ size })
@@ -26,7 +27,7 @@ const Counter = ({
   const minReached = value <= minValue
 
   return (
-    <div data-testid={testID}>
+    <div data-testid={testID} ref={ref} className={className}>
       {label && <Label className={labelText} label={label} />}
       <div className={buttonGroup}>
         <Button
@@ -59,6 +60,6 @@ const Counter = ({
       </div>
     </div>
   )
-}
+})
 
 export default Counter

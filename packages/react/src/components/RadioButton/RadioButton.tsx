@@ -1,11 +1,13 @@
+/* eslint-disable max-lines-per-function */
 import React from 'react'
 import { Ripple } from '../Ripple'
 import { Label } from '../Label'
 import { RadioButtonProps } from './RadioButton.props'
 import styles from './RadioButton.styles'
 
-const RadioButton = ({
+const RadioButton = React.forwardRef<HTMLInputElement, RadioButtonProps>(({
   checked = false,
+  className = '',
   disabled = false,
   id,
   label,
@@ -13,11 +15,10 @@ const RadioButton = ({
   onBlur,
   onChange,
   onFocus,
-  ref,
   required = false,
   testID = `ds-RadioButton-${id}`,
   value
-}: RadioButtonProps): JSX.Element => {
+}, ref) => {
   const {
     radioButton, wrapper, container, labelText
   } = styles({ disabled })
@@ -25,7 +26,7 @@ const RadioButton = ({
   const getRippleColor = checked && !disabled ? 'primary' : 'highlight'
 
   return (
-    <div className={container}>
+    <div className={`${className} ${container}`}>
       <Ripple
         isCentered
         hideOverflow={false}
@@ -35,7 +36,7 @@ const RadioButton = ({
         showHover
         focus
       >
-        <div className={wrapper} ref={ref}>
+        <div className={wrapper}>
           <input
             checked={checked}
             className={radioButton}
@@ -49,12 +50,13 @@ const RadioButton = ({
             type="radio"
             value={value}
             required={required}
+            ref={ref}
           />
         </div>
       </Ripple>
-      {label && <Label className={labelText} label={label} id={id} />}
+      {label && <Label className={labelText} label={label} htmlFor={id} />}
     </div>
   )
-}
+})
 
 export default RadioButton

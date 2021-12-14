@@ -3,18 +3,22 @@ import { Divider } from '../../Divider'
 import { DialogBodyProps } from './DialogBody.props'
 import styles from './DialogBody.styles'
 
-const DialogBody = ({ children, showDivider = false, className = '' }: DialogBodyProps): JSX.Element => {
+const DialogBody = React.forwardRef<HTMLDivElement, DialogBodyProps>(({
+  children,
+  showDivider = false,
+  className = ''
+}, ref) => {
   const { content } = styles()
 
   return (
     <>
       {showDivider && <Divider />}
-      <div className={`${content} ${className}`}>
+      <div className={`${className} ${content}`} ref={ref}>
         {children}
       </div>
       {showDivider && <Divider />}
     </>
   )
-}
+})
 
 export default DialogBody

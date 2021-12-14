@@ -5,14 +5,15 @@ import styles from './Badge.styles'
 export const buildValue = ({ value, limit }: BadgeStandardProps) => (limit && value >= limit ? `${limit}+` : value)
 export const isBadgeStandard = (props: BadgeProps): props is BadgeStandardProps => props.variant === 'standard'
 
-const Badge = (props: BadgeProps): JSX.Element => {
+const Badge = React.forwardRef<HTMLDivElement, BadgeProps>((props, ref) => {
   const {
     ariaHidden,
     ariaLabel,
     className = '',
     color = 'alert',
     variant,
-    testID
+    testID,
+    ...rest
   } = props
 
   const { badge, label } = styles({ variant, color })
@@ -21,8 +22,10 @@ const Badge = (props: BadgeProps): JSX.Element => {
     <div
       aria-hidden={ariaHidden}
       aria-label={ariaLabel}
-      className={`${badge} ${className}`}
+      className={`${className} ${badge}`}
       data-testid={testID}
+      ref={ref}
+      {...rest}
     >
       {isBadgeStandard(props) && (
         <span className={label}>
@@ -31,6 +34,6 @@ const Badge = (props: BadgeProps): JSX.Element => {
       )}
     </div>
   )
-}
+})
 
 export default Badge
