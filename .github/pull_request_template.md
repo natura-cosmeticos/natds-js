@@ -4,19 +4,15 @@ Please include a summary of the changes and features that were added. Also inclu
 
 ## Type of change
 
-- [ ] Feat: A new feature (non-breaking change which adds functionality)
-- [ ] Refactor: A code change that neither fixes a bug nor adds a feature
-- [ ] Breaking change: fix or feature that would cause existing functionality to not work as expected
-- [ ] Docs: Documentation only changes
+- [ ] feat: new feature for the user, not a new feature for build script
+- [ ] fix: bug fix for the user, not a fix to a build script
+- [ ] docs: changes to the documentation
+- [ ] style: formatting, missing semi colons, etc; no production code change
+- [ ] refactor: refactoring production code, eg. renaming a variable
+- [ ] test: adding missing tests, refactoring tests; no production code   change
+- [ ] chore: updating grunt tasks etc; no production code change
 
-# How Has This Been Tested?
-
-Please describe the tests that you ran to verify your changes. Provide instructions so we can reproduce. Please also list any relevant details for your test configuration
-
-- [ ] Test A
-- [ ] Test B
-
-# Checklist:
+# Quality Checklist:
 
 - [ ] My code follows the style guidelines of this project
 - [ ] I have performed a self-review of my own code
