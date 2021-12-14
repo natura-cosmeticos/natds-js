@@ -9,6 +9,11 @@ export interface ListItemProps {
   children: React.ReactNode
 
   /**
+   * Override or extend the styles applied to the component
+   */
+  className?: string
+
+  /**
    * The type of interaction with each element
    * Read more about (here)[https://ds.natura.design/28db352be/p/99a1c2-list-item/t/06665a]
    * @default none
@@ -25,11 +30,6 @@ export interface ListItemProps {
    * Click handler
    */
   onClick?: () => void
-
-  /**
-   * Refs provide a way to access ListItem element
-   */
-  ref?: React.Ref<never>
 
   /**
   * If `true`, apply the selected style if

@@ -26,7 +26,7 @@ export interface ButtonBaseProps {
   /**
    * Specify an optional className to be added to your Button
    */
-  className?: string;
+  className?: string
 
   /**
    * If `true`, the button will occupy 100% of the width

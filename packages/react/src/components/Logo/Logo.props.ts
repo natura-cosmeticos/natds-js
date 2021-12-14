@@ -11,6 +11,11 @@ export interface LogoProps {
   arialabel?: string
 
   /**
+   * Override or extend the styles applied to the component
+   */
+  className?: string
+
+  /**
   * The Logo color
   * @default neutral
   */

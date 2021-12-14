@@ -9,11 +9,17 @@ export interface IconButtonProps {
    * Use to define a text that explains the expected action
    */
   ariaLabel: string,
+
   /**
    * Set a background-style
    * @default none
    */
   backgroundStyle?: 'none' | 'float' | 'overlay'
+
+  /**
+   * Specify an optional className to be added to your IconButton
+   */
+  className?: string
 
   /**
    * The icon color

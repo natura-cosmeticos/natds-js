@@ -2,12 +2,24 @@ import React from 'react'
 import { DividerProps } from './Divider.props'
 import styles from './Divider.styles'
 
-const Divider = ({ testID, variant = 'full-bleed' }: DividerProps): JSX.Element => {
-  const classes = styles({ variant })
+const Divider = React.forwardRef<HTMLHRElement, DividerProps>(
+  ({
+    className = '',
+    testID,
+    variant = 'full-bleed',
+    ...props
+  }, ref) => {
+    const { divider } = styles({ variant })
 
-  return (
-    <hr className={classes.divider} data-testid={testID} />
-  )
-}
+    return (
+      <hr
+        className={`${className} ${divider}`}
+        data-testid={testID}
+        ref={ref}
+        {...props}
+      />
+    )
+  }
+)
 
 export default Divider

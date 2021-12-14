@@ -51,7 +51,7 @@ const styles = createUseStyles((theme: Theme) => ({
   }
 }))
 
-const RatingBase = ({
+const RatingBase = React.forwardRef<HTMLButtonElement, RatingBaseProps>(({
   ariaLabel,
   disabled = false,
   iconActive = true,
@@ -63,7 +63,7 @@ const RatingBase = ({
   value,
   size,
   testID
-}: RatingBaseProps): JSX.Element => {
+}, ref) => {
   const { ratingIcon, ratingContainer } = styles({
     disabled,
     isClickable,
@@ -76,6 +76,7 @@ const RatingBase = ({
   return (
     <div onMouseEnter={onMouseEnter} onMouseLeave={onMouseLeave} className={ratingContainer}>
       <IconButtonBase
+        ref={ref}
         ariaLabel={ariaLabel}
         disabled={disabled || !isClickable}
         IconComponent={(
@@ -89,12 +90,12 @@ const RatingBase = ({
         )}
         onClick={onClick}
         size={size}
-        classes={ratingIcon}
+        className={ratingIcon}
         value={value}
         testID={testID}
       />
     </div>
   )
-}
+})
 
 export default RatingBase

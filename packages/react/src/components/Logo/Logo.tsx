@@ -4,27 +4,33 @@ import { useTheme } from 'react-jss'
 import { LogoProps } from './Logo.props'
 import styles from './Logo.styles'
 
-const Logo = ({
-  color = 'neutral',
-  size = 'veryHuge',
-  model = 'a',
-  arialabel = 'logo'
-}: LogoProps): JSX.Element => {
-  const theme: Theme = useTheme()
-  const classes = styles({ size, color })
+const Logo = React.forwardRef<HTMLDivElement, LogoProps>(
+  ({
+    color = 'neutral',
+    size = 'veryHuge',
+    model = 'a',
+    arialabel = 'logo',
+    className = '',
+    ...props
+  }, ref) => {
+    const theme: Theme = useTheme()
+    const { root } = styles({ size, color })
 
-  const checkColor = color === 'neutral' ? 'neutral' : 'custom'
+    const checkColor = color === 'neutral' ? 'neutral' : 'custom'
+    const logo = theme.asset.brand[checkColor][model].file
 
-  const logo = theme.asset.brand[checkColor][model].file
-
-  return (
-    <div
-      className={classes.root}
-      dangerouslySetInnerHTML={{ __html: logo }}
-      role="img"
-      aria-label={arialabel}
-    />
-  )
-}
+    return (
+      <div
+        aria-label={arialabel}
+        className={`${className} ${root}`}
+        // eslint-disable-next-line react/no-danger
+        dangerouslySetInnerHTML={{ __html: logo }}
+        ref={ref}
+        role="img"
+        {...props}
+      />
+    )
+  }
+)
 
 export default Logo

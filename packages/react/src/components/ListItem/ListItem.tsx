@@ -3,22 +3,22 @@ import Ripple from '../Ripple'
 import { ListItemProps } from './ListItem.props'
 import styles from './ListItem.styles'
 
-const ListItem = ({
+const ListItem = React.forwardRef<HTMLLIElement, ListItemProps>(({
   children,
+  className = '',
   interaction = 'none',
   key,
   onClick,
-  ref,
   selected = false,
   SeparatorComponent,
   testID
-}: ListItemProps): JSX.Element => {
+}, ref): JSX.Element => {
   const { listItem } = styles({ selected, interaction })
 
   return (
     <Ripple disabled={interaction !== 'action'} fullWidth>
       <li
-        className={listItem}
+        className={`${className} ${listItem}`}
         key={key}
         onClick={onClick}
         data-testid={testID}
@@ -30,6 +30,6 @@ const ListItem = ({
       {SeparatorComponent}
     </Ripple>
   )
-}
+})
 
 export default ListItem

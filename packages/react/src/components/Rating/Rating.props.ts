@@ -18,6 +18,11 @@ export interface RatingBaseProps {
   ariaLabelGroup?: string
 
   /**
+   * Specify an optional className to be added to your Counter
+   */
+  className?: string
+
+  /**
    * Optional ID for testing
    * By default, this value will be concatenated to the position of each element.
    * @example rating-1

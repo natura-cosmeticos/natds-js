@@ -5,26 +5,31 @@ import styles from './Icon.styles'
 
 export const checkIcon = (iconName: string): string => (iconName in icons ? iconName : 'outlined-default-mockup')
 
-const Icon = ({
+const Icon = React.forwardRef<HTMLElement, IconProps>(({
   ariaHidden = true,
   ariaLabel,
+  className = '',
   color = 'highlight',
-  name,
+  name = 'outlined-default-mockup',
   role = 'img',
   size = 'standard',
-  testID = `icon-${name}`
-}: IconProps): JSX.Element => {
+  testID = `icon-${name}`,
+  ...props
+}, ref) => {
   const { icon } = styles({ size, color })
+  const iconName = `natds-icons-${checkIcon(name)}`
 
   return (
     <i
       aria-hidden={ariaHidden}
-      arial-label={ariaLabel}
-      className={`${icon} natds-icons natds-icons-${checkIcon(name)}`}
+      aria-label={ariaLabel}
+      className={`${className} ${icon} natds-icons ${iconName}`}
       data-testid={testID}
+      ref={ref}
       role={role}
+      {...props}
     />
   )
-}
+})
 
 export default Icon

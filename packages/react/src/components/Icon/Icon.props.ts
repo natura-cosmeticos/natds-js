@@ -24,6 +24,11 @@ export interface IconProps {
   color?: IconColor;
 
   /**
+   * Override or extend the styles applied to the component
+   */
+  className?: string
+
+  /**
    * Set the icon to be rendered.
    * Check all available names in [Icon Library](https://ds.natura.design/28db352be/p/94367e-icon-library/b/6154b9)
    * @default outlined-default-mockup

@@ -3,7 +3,9 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { InputProps } from './Input.props'
 
-const getFeedbackBorderColor = (theme: Theme) => ({ feedback }: InputProps) => {
+type InputStyleProps = Pick<InputProps, 'feedback' | 'disabled' | 'readOnly'| 'size' | 'action' | 'isResizable'>
+
+const getFeedbackBorderColor = (theme: Theme) => ({ feedback }: InputStyleProps) => {
   const borderColor = {
     error: theme.color.alert,
     success: theme.color.success
@@ -19,12 +21,12 @@ const styles = createUseStyles((theme: Theme) => ({
     border: '1px solid',
     borderColor: getFeedbackBorderColor(theme),
     borderRadius: theme.textField.borderRadius,
-    cursor: ({ disabled, readOnly }: InputProps) => (!disabled && !readOnly ? 'text' : 'default'),
+    cursor: ({ disabled, readOnly }: InputStyleProps) => (!disabled && !readOnly ? 'text' : 'default'),
     display: 'flex',
     justifyContent: 'space-between',
     position: 'relative',
     '&:hover': {
-      borderColor: ({ disabled, readOnly }: InputProps) => (
+      borderColor: ({ disabled, readOnly }: InputStyleProps) => (
         !disabled && !readOnly && theme.color.mediumEmphasis
       )
     },
@@ -37,7 +39,7 @@ const styles = createUseStyles((theme: Theme) => ({
       content: '""',
       height: '100%',
       left: 0,
-      opacity: ({ readOnly }: InputProps) => (readOnly ? theme.opacity.disabledLow : 0),
+      opacity: ({ readOnly }: InputStyleProps) => (readOnly ? theme.opacity.disabledLow : 0),
       pointerEvents: 'none',
       position: 'absolute',
       top: 0,
@@ -70,20 +72,20 @@ const styles = createUseStyles((theme: Theme) => ({
   input: {
     extend: 'base',
     boxSizing: 'border-box',
-    height: ({ size }: InputProps) => size && theme.size[size],
-    paddingRight: ({ action }: InputProps) => action && theme.spacing.tiny,
+    height: ({ size }: InputStyleProps) => size && theme.size[size],
+    paddingRight: ({ action }: InputStyleProps) => action && theme.spacing.tiny,
     '&::placeholder': {
-      color: ({ disabled }: InputProps) => (
+      color: ({ disabled }: InputStyleProps) => (
         disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis
       )
     }
   },
   textArea: {
     extend: 'base',
-    paddingRight: ({ action }: InputProps) => action && theme.spacing.tiny,
-    resize: ({ isResizable }: InputProps) => !isResizable && 'none',
+    paddingRight: ({ action }: InputStyleProps) => action && theme.spacing.tiny,
+    resize: ({ isResizable }: InputStyleProps) => !isResizable && 'none',
     '&::placeholder': {
-      color: ({ disabled }: InputProps) => (
+      color: ({ disabled }: InputStyleProps) => (
         disabled ? theme.color.lowEmphasis : theme.color.mediumEmphasis
       )
     }

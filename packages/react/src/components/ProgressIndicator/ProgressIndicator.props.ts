@@ -9,6 +9,11 @@ export interface ProgressIndicatorProps {
   ariaLabel: string
 
   /**
+   * Specify an optional className to be added to your ProgressIndicator
+   */
+  className?: string
+
+  /**
    * Show a layer behind the progress indicator
    * @default false
    */

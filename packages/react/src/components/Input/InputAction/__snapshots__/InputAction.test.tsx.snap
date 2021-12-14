@@ -175,13 +175,13 @@ Array [
         </div>
         <button
           aria-label="some rating icon button"
-          class="base-0-2-8 base-d0-0-2-9 iconButtonContainer-0-2-6 iconButtonContainer-d0-0-2-7"
+          class=" iconButtonContainer-0-2-6 iconButtonContainer-d0-0-2-7 base-0-2-8 base-d0-0-2-9"
           data-testid="ds-input-action-icon"
           type="button"
         >
           <i
             aria-hidden="true"
-            class="icon-0-2-20 icon-d0-0-2-21 natds-icons natds-icons-filled-action-rating"
+            class=" icon-0-2-20 icon-d0-0-2-21 natds-icons natds-icons-filled-action-rating"
             data-testid="icon-filled-action-rating"
             role="button"
           />
