@@ -10,14 +10,15 @@ const Icon = React.forwardRef<HTMLElement, IconProps>(({
   ariaLabel,
   className = '',
   color = 'highlight',
-  name = 'outlined-default-mockup',
+  name,
   role = 'img',
   size = 'standard',
   testID = `icon-${name}`,
   ...props
 }, ref) => {
   const { icon } = styles({ size, color })
-  const iconName = `natds-icons-${checkIcon(name)}`
+  const defaultIconName = `natds-icons-${checkIcon('outlined-default-mockup')}`
+  const iconName = name ? `natds-icons-${checkIcon(name)}` : defaultIconName
 
   return (
     <i
