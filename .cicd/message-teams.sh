@@ -6,7 +6,7 @@ echo "Release message on Teams"
 BRANCH=$(bash ./.cicd/get-branch-name.sh)
 COMMIT_MESSAGE=$(git log -1 --pretty=%s)
 
-if [ -z $(./.cicd/skip-commit.sh) ]; then
+if ! [ -z $(./.cicd/skip-commit.sh) ]; then
     if  [[ ($BRANCH = "main") && ($COMMIT_MESSAGE =~ natds-react) ]]; then
         # create new file to edit
         cp .cicd/message-teams.json .cicd/updated-message-teams.json
