@@ -19,6 +19,11 @@ export interface DialogProps {
   children: React.ReactNode
 
   /**
+   * Specify an optional className to be added to your Dialog
+   */
+  className?: string
+
+  /**
    * An HTML element or function that returns one. This element will be used
    * as the container for the Dialog and can be used to control where it will be rendered
    *

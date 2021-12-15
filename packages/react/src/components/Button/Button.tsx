@@ -7,7 +7,7 @@ import { Icon } from '../Icon'
 import { Ripple } from '../Ripple'
 import styles from './Button.styles'
 
-const Button = ({
+const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   children,
   className = '',
   disabled = false,
@@ -19,7 +19,7 @@ const Button = ({
   type = 'button',
   variant = 'contained',
   ...rest
-}: ButtonProps): JSX.Element => {
+}, ref) => {
   const { button, label, labelContainer } = styles({
     disabled,
     fullWidth,
@@ -33,21 +33,24 @@ const Button = ({
   const iconColor = theme.button[variant].color.enable.label as IconColor
 
   return (
-    <Ripple disabled={disabled} fullWidth={fullWidth}>
-      <button
-        className={`${button} ${className}`}
-        data-testid={testID}
-        disabled={disabled}
-        onClick={onClick}
-        type={type}
-      >
-        <div className={labelContainer}>
-          <span className={label}>{children}</span>
-          {rest.showIcon && <Icon name={rest.iconName} color={iconColor} />}
-        </div>
-      </button>
-    </Ripple>
+    <div className={className}>
+      <Ripple disabled={disabled} fullWidth={fullWidth}>
+        <button
+          className={button}
+          data-testid={testID}
+          disabled={disabled}
+          onClick={onClick}
+          type={type}
+          ref={ref}
+        >
+          <div className={labelContainer}>
+            <span className={label}>{children}</span>
+            {rest.showIcon && <Icon name={rest.iconName} color={iconColor} />}
+          </div>
+        </button>
+      </Ripple>
+    </div>
   )
-}
+})
 
 export default Button

@@ -5,7 +5,7 @@ import { Ripple } from '../Ripple'
 
 export interface IconButtonBaseProps {
   ariaLabel?: string
-  classes?: string
+  className?: string
   disabled?: boolean
   IconComponent: React.ReactElement
   onClick: (e?: React.MouseEvent<HTMLButtonElement>) => void
@@ -30,26 +30,34 @@ const styles = createUseStyles((theme: Theme) => ({
   }
 }))
 
-const IconButtonBase = ({
-  ariaLabel, classes, disabled, IconComponent, onClick, size, testID, value
-}: IconButtonBaseProps): JSX.Element => {
+const IconButtonBase = React.forwardRef<HTMLButtonElement, IconButtonBaseProps>(({
+  ariaLabel,
+  className,
+  disabled,
+  IconComponent,
+  onClick,
+  size,
+  testID,
+  value
+}, ref) => {
   const { base } = styles({ size })
 
   return (
     <Ripple disabled={disabled} isCentered>
       <button
         aria-label={ariaLabel}
-        className={`${base} ${classes}`}
+        className={`${className} ${base}`}
         data-testid={testID}
         disabled={disabled}
         onClick={onClick}
         type="button"
         value={value}
+        ref={ref}
       >
         {IconComponent}
       </button>
     </Ripple>
   )
-}
+})
 
 export default IconButtonBase

@@ -15,6 +15,11 @@ export interface CounterProps {
   ariaLabelDecrementButton?: string
 
   /**
+   * Specify an optional className to be added to your Counter
+   */
+  className?: string
+
+  /**
    * If `true` disable component actions.
    *
    * @default false

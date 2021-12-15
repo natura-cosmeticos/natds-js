@@ -140,7 +140,9 @@ Array [
   display: inline-block;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -151,7 +153,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -306,7 +308,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -315,7 +319,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -470,7 +474,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -479,7 +485,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -634,7 +640,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -643,7 +651,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -798,7 +806,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -807,7 +817,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -975,7 +985,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -984,7 +996,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -996,7 +1008,7 @@ Array [
       >
         <i
           aria-hidden="true"
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-action-check"
+          class=" icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-action-check"
           data-testid="icon-outlined-action-check"
           role="img"
         />
@@ -1157,7 +1169,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -1166,7 +1180,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -1178,7 +1192,7 @@ Array [
       >
         <i
           aria-hidden="true"
-          class="icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-action-cancel"
+          class=" icon-0-2-12 icon-d0-0-2-13 natds-icons natds-icons-outlined-action-cancel"
           data-testid="icon-outlined-action-cancel"
           role="img"
         />
@@ -1323,7 +1337,6 @@ Array [
 .wrapper-0-2-20 {
   outline: none;
   position: relative;
-  align-self: start;
 }
 .wrapper-0-2-20:focus:after {
   top: 0;
@@ -1487,7 +1500,9 @@ Array [
     display: none;
   }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -1496,7 +1511,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -1520,13 +1535,13 @@ Array [
             </div>
             <button
               aria-label="any label"
-              class="base-0-2-17 base-d0-0-2-18 iconButtonContainer-0-2-15 iconButtonContainer-d0-0-2-16"
+              class=" iconButtonContainer-0-2-15 iconButtonContainer-d0-0-2-16 base-0-2-17 base-d0-0-2-18"
               data-testid="ds-input-action-icon"
               type="button"
             >
               <i
                 aria-hidden="true"
-                class="icon-0-2-29 icon-d0-0-2-30 natds-icons natds-icons-filled-action-love"
+                class=" icon-0-2-29 icon-d0-0-2-30 natds-icons natds-icons-filled-action-love"
                 data-testid="icon-filled-action-love"
                 role="button"
               />
@@ -1700,7 +1715,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -1709,7 +1726,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -1878,7 +1895,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -1887,7 +1906,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <textarea
-          class="textArea-0-2-6 textArea-d2-0-2-9"
+          class=" textArea-0-2-6 textArea-d2-0-2-9"
           data-testid="ds-input-multiline"
           id="example_to_test"
           rows="3"
@@ -2041,7 +2060,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -2050,7 +2071,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="password"
@@ -2205,7 +2226,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -2214,7 +2237,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"
@@ -2369,7 +2392,9 @@ Array [
   display: none;
 }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-1 labelText-d0-0-2-2"
         for="example_to_test"
@@ -2378,7 +2403,7 @@ Array [
         class="wrapper-0-2-3 wrapper-d0-0-2-7"
       >
         <input
-          class="input-0-2-5 input-d1-0-2-8"
+          class=" input-0-2-5 input-d1-0-2-8"
           data-testid="ds-input"
           id="example_to_test"
           type="text"

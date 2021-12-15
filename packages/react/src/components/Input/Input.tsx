@@ -4,8 +4,10 @@ import { InputProps } from './Input.props'
 import styles from './Input.styles'
 import InputAction from './InputAction'
 
-const Input = (props: InputProps): JSX.Element => {
+const Input = React.forwardRef<HTMLInputElement, InputProps>((props, ref) => {
   const {
+    action,
+    className = '',
     disabled = false,
     id,
     isResizable = false,
@@ -17,23 +19,20 @@ const Input = (props: InputProps): JSX.Element => {
     readOnly = false,
     size = 'mediumX',
     type = 'text',
-    feedback,
-    value,
-    ...rest
+    value
   } = props
 
-  const classes = styles({
-    isResizable, size, feedback, ...props
-  })
+  const { wrapper, input, textArea } = styles({ size, isResizable, ...props })
+
   const isMultiline = type === 'multiline'
 
   return (
-    <div className={classes.wrapper}>
+    <div className={wrapper} ref={ref}>
       {
         isMultiline
           ? (
             <textarea
-              className={classes.textArea}
+              className={`${className} ${textArea}`}
               data-testid="ds-input-multiline"
               disabled={disabled}
               onBlur={onBlur}
@@ -47,7 +46,7 @@ const Input = (props: InputProps): JSX.Element => {
           )
           : (
             <input
-              className={classes.input}
+              className={`${className} ${input}`}
               data-testid="ds-input"
               disabled={disabled}
               onBlur={onBlur}
@@ -61,9 +60,9 @@ const Input = (props: InputProps): JSX.Element => {
             />
           )
       }
-      {rest.action && (<InputAction {...props} />)}
+      {action && (<InputAction {...props} />)}
     </div>
   )
-}
+})
 
 export default Input

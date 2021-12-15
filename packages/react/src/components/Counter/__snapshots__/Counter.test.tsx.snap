@@ -15,7 +15,6 @@ Array [
 .wrapper-0-2-14 {
   outline: none;
   position: relative;
-  align-self: start;
 }
 .wrapper-0-2-14:focus:after {
   top: 0;
@@ -242,39 +241,45 @@ Array [
     width: 32px;
   }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <div
         class="buttonGroup-0-2-1 buttonGroup-d0-0-2-6"
       >
         <div
-          class="wrapper-0-2-14 wrapper-d0-0-2-19"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="buttonLeft-0-2-2"
         >
           <div
-            class="rippleContainer-0-2-16 rippleContainer-d2-0-2-21"
+            class="wrapper-0-2-14 wrapper-d0-0-2-19"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-15 ripple-d1-0-2-20 "
-              data-testid="ripple-animation"
-            />
-          </div>
-          <button
-            class="button-0-2-7 button-d0-0-2-10 buttonLeft-0-2-2"
-            data-testid="onDecrement-btn"
-            disabled=""
-            type="button"
-          >
-            <div
-              class="labelContainer-0-2-8 labelContainer-d1-0-2-11"
+              class="rippleContainer-0-2-16 rippleContainer-d2-0-2-21"
             >
-              <span
-                class="label-0-2-9 label-d2-0-2-12"
-              >
-                -
-              </span>
+              <div
+                class="ripple-0-2-15 ripple-d1-0-2-20 "
+                data-testid="ripple-animation"
+              />
             </div>
-          </button>
+            <button
+              class="button-0-2-7 button-d0-0-2-10"
+              data-testid="onDecrement-btn"
+              disabled=""
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-8 labelContainer-d1-0-2-11"
+              >
+                <span
+                  class="label-0-2-9 label-d2-0-2-12"
+                >
+                  -
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
         <input
           class="inputBase-0-2-4"
@@ -282,34 +287,38 @@ Array [
           value="0"
         />
         <div
-          class="wrapper-0-2-14 wrapper-d4-0-2-26"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="buttonRight-0-2-3"
         >
           <div
-            class="rippleContainer-0-2-16 rippleContainer-d6-0-2-28"
+            class="wrapper-0-2-14 wrapper-d4-0-2-26"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-15 ripple-d5-0-2-27 "
-              data-testid="ripple-animation"
-            />
-          </div>
-          <button
-            class="button-0-2-7 button-d3-0-2-23 buttonRight-0-2-3"
-            data-testid="onIncrement-btn"
-            disabled=""
-            type="button"
-          >
-            <div
-              class="labelContainer-0-2-8 labelContainer-d4-0-2-24"
+              class="rippleContainer-0-2-16 rippleContainer-d6-0-2-28"
             >
-              <span
-                class="label-0-2-9 label-d5-0-2-25"
-              >
-                +
-              </span>
+              <div
+                class="ripple-0-2-15 ripple-d5-0-2-27 "
+                data-testid="ripple-animation"
+              />
             </div>
-          </button>
+            <button
+              class="button-0-2-7 button-d3-0-2-23"
+              data-testid="onIncrement-btn"
+              disabled=""
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-8 labelContainer-d4-0-2-24"
+              >
+                <span
+                  class="label-0-2-9 label-d5-0-2-25"
+                >
+                  +
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -332,7 +341,6 @@ Array [
 .wrapper-0-2-14 {
   outline: none;
   position: relative;
-  align-self: start;
 }
 .wrapper-0-2-14:focus:after {
   top: 0;
@@ -561,39 +569,45 @@ Array [
     width: 32px;
   }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <div
         class="buttonGroup-0-2-1 buttonGroup-d0-0-2-6"
       >
         <div
-          class="wrapper-0-2-14 wrapper-d0-0-2-19"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="buttonLeft-0-2-2"
         >
           <div
-            class="rippleContainer-0-2-16 rippleContainer-d2-0-2-21"
+            class="wrapper-0-2-14 wrapper-d0-0-2-19"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-15 ripple-d1-0-2-20 "
-              data-testid="ripple-animation"
-            />
-          </div>
-          <button
-            class="button-0-2-7 button-d0-0-2-10 buttonLeft-0-2-2"
-            data-testid="onDecrement-btn"
-            disabled=""
-            type="button"
-          >
-            <div
-              class="labelContainer-0-2-8 labelContainer-d1-0-2-11"
+              class="rippleContainer-0-2-16 rippleContainer-d2-0-2-21"
             >
-              <span
-                class="label-0-2-9 label-d2-0-2-12"
-              >
-                -
-              </span>
+              <div
+                class="ripple-0-2-15 ripple-d1-0-2-20 "
+                data-testid="ripple-animation"
+              />
             </div>
-          </button>
+            <button
+              class="button-0-2-7 button-d0-0-2-10"
+              data-testid="onDecrement-btn"
+              disabled=""
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-8 labelContainer-d1-0-2-11"
+              >
+                <span
+                  class="label-0-2-9 label-d2-0-2-12"
+                >
+                  -
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
         <input
           class="inputBase-0-2-4"
@@ -601,33 +615,37 @@ Array [
           value="0"
         />
         <div
-          class="wrapper-0-2-14 wrapper-d4-0-2-26"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="buttonRight-0-2-3"
         >
           <div
-            class="rippleContainer-0-2-16 rippleContainer-d6-0-2-28"
+            class="wrapper-0-2-14 wrapper-d4-0-2-26"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-15 ripple-d5-0-2-27 "
-              data-testid="ripple-animation"
-            />
-          </div>
-          <button
-            class="button-0-2-7 button-d3-0-2-23 buttonRight-0-2-3"
-            data-testid="onIncrement-btn"
-            type="button"
-          >
-            <div
-              class="labelContainer-0-2-8 labelContainer-d4-0-2-24"
+              class="rippleContainer-0-2-16 rippleContainer-d6-0-2-28"
             >
-              <span
-                class="label-0-2-9 label-d5-0-2-25"
-              >
-                +
-              </span>
+              <div
+                class="ripple-0-2-15 ripple-d5-0-2-27 "
+                data-testid="ripple-animation"
+              />
             </div>
-          </button>
+            <button
+              class="button-0-2-7 button-d3-0-2-23"
+              data-testid="onIncrement-btn"
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-8 labelContainer-d4-0-2-24"
+              >
+                <span
+                  class="label-0-2-9 label-d5-0-2-25"
+                >
+                  +
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>
@@ -650,7 +668,6 @@ Array [
 .wrapper-0-2-14 {
   outline: none;
   position: relative;
-  align-self: start;
 }
 .wrapper-0-2-14:focus:after {
   top: 0;
@@ -879,7 +896,9 @@ Array [
     width: 32px;
   }",
   <div>
-    <div>
+    <div
+      class=""
+    >
       <label
         class="labelText-0-2-5"
       >
@@ -889,34 +908,38 @@ Array [
         class="buttonGroup-0-2-1 buttonGroup-d0-0-2-6"
       >
         <div
-          class="wrapper-0-2-14 wrapper-d0-0-2-19"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="buttonLeft-0-2-2"
         >
           <div
-            class="rippleContainer-0-2-16 rippleContainer-d2-0-2-21"
+            class="wrapper-0-2-14 wrapper-d0-0-2-19"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-15 ripple-d1-0-2-20 "
-              data-testid="ripple-animation"
-            />
-          </div>
-          <button
-            class="button-0-2-7 button-d0-0-2-10 buttonLeft-0-2-2"
-            data-testid="onDecrement-btn"
-            disabled=""
-            type="button"
-          >
-            <div
-              class="labelContainer-0-2-8 labelContainer-d1-0-2-11"
+              class="rippleContainer-0-2-16 rippleContainer-d2-0-2-21"
             >
-              <span
-                class="label-0-2-9 label-d2-0-2-12"
-              >
-                -
-              </span>
+              <div
+                class="ripple-0-2-15 ripple-d1-0-2-20 "
+                data-testid="ripple-animation"
+              />
             </div>
-          </button>
+            <button
+              class="button-0-2-7 button-d0-0-2-10"
+              data-testid="onDecrement-btn"
+              disabled=""
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-8 labelContainer-d1-0-2-11"
+              >
+                <span
+                  class="label-0-2-9 label-d2-0-2-12"
+                >
+                  -
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
         <input
           class="inputBase-0-2-4"
@@ -924,33 +947,37 @@ Array [
           value="0"
         />
         <div
-          class="wrapper-0-2-14 wrapper-d4-0-2-26"
-          data-testid="ripple-wrapper"
-          tabindex="-1"
+          class="buttonRight-0-2-3"
         >
           <div
-            class="rippleContainer-0-2-16 rippleContainer-d6-0-2-28"
+            class="wrapper-0-2-14 wrapper-d4-0-2-26"
+            data-testid="ripple-wrapper"
+            tabindex="-1"
           >
             <div
-              class="ripple-0-2-15 ripple-d5-0-2-27 "
-              data-testid="ripple-animation"
-            />
-          </div>
-          <button
-            class="button-0-2-7 button-d3-0-2-23 buttonRight-0-2-3"
-            data-testid="onIncrement-btn"
-            type="button"
-          >
-            <div
-              class="labelContainer-0-2-8 labelContainer-d4-0-2-24"
+              class="rippleContainer-0-2-16 rippleContainer-d6-0-2-28"
             >
-              <span
-                class="label-0-2-9 label-d5-0-2-25"
-              >
-                +
-              </span>
+              <div
+                class="ripple-0-2-15 ripple-d5-0-2-27 "
+                data-testid="ripple-animation"
+              />
             </div>
-          </button>
+            <button
+              class="button-0-2-7 button-d3-0-2-23"
+              data-testid="onIncrement-btn"
+              type="button"
+            >
+              <div
+                class="labelContainer-0-2-8 labelContainer-d4-0-2-24"
+              >
+                <span
+                  class="label-0-2-9 label-d5-0-2-25"
+                >
+                  +
+                </span>
+              </div>
+            </button>
+          </div>
         </div>
       </div>
     </div>

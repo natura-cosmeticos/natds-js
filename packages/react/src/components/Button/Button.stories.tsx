@@ -102,7 +102,7 @@ export const Icon: Story<ButtonProps> = (args) => (
 Icon.args = { ...Playground.args }
 
 export const FullWidth: Story<ButtonProps> = (args) => (
-  <div style={{ display: 'flex', gap: 8, flexWrap: 'wrap' }}>
+  <div style={{ display: 'flex', gap: 8, flexDirection: 'column' }}>
     <Button {...args} />
     <Button {...args} variant="outlined" />
     <Button {...args} variant="text" />
