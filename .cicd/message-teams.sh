@@ -10,7 +10,6 @@ LIBRARY=$(cat ./packages/react/package.json \
     | awk -F: '{ print $2 }' \
 | sed 's/[", ]//g')
 
-if ! [ -z $(./.cicd/skip-commit.sh) ]; then
     if  [[ ($BRANCH = "main") && ($LIBRARY =~ natds-react) ]]; then
         # create new file to edit
         cp .cicd/message-teams.json .cicd/updated-message-teams.json
@@ -54,7 +53,6 @@ if ! [ -z $(./.cicd/skip-commit.sh) ]; then
         rm .cicd/updated-message-teams.json
         rm .cicd/message-release.txt
         rm .cicd/message-text.txt
-    fi
 fi
 
 
