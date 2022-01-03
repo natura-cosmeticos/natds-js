@@ -17,14 +17,12 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
     const {
       className,
       disabled = false,
-      guide,
       helpText,
       hidePasswordIcon,
       icon,
       id,
       label,
       mask,
-      maxLength,
       multiline,
       onBlur,
       onChange,
@@ -32,7 +30,6 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
       onFocus,
       onIconPress,
       placeholder = '',
-      placeholderChar,
       required = false,
       searchIcon,
       showPasswordIcon,
@@ -92,9 +89,7 @@ export const Field = React.forwardRef<HTMLInputElement | HTMLTextAreaElement, IT
         inputProps={{
           className: className && `${className}__input`,
           mask,
-          guide,
-          maxLength,
-          placeholderChar
+          ...otherProps
         }}
         multiline={multiline}
         onChange={onChange}
