@@ -6,7 +6,6 @@ export { ICounterProps } from './Counter.props'
 
 export const InputCounter = ({ value, className, onChange }: Pick<ITextFieldProps, 'value' | 'className' | 'onChange'>) => (
   <TextField
-    color="secondary"
     value={value}
     className={className}
     type="number"

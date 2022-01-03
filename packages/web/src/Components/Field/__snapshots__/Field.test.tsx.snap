@@ -139,6 +139,7 @@ exports[`Field component should render input for search types and onChange 1`] =
 exports[`Field component should render input with maxLength attribute equal 3 1`] = `
 <div
   className="MuiInputBase-root MuiInput-root makeStyles-input-1 makeStyles-input-10"
+  maxLength="3"
   onClick={[Function]}
   required={false}
   style={
