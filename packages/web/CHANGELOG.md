@@ -3,6 +3,18 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.5.4](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.3...@naturacosmeticos/natds-web@4.5.4) (2022-01-04)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.9.2 ([#1613](https://github.com/natura-cosmeticos/natds-js/issues/1613)) ([09a3ff1](https://github.com/natura-cosmeticos/natds-js/commit/09a3ff1b8902d0a930d2cc6a2fa6b1c624dfc4d5))
+* **natds-web:** remove warning that appears on the console when TextField is implemented. ([#1625](https://github.com/natura-cosmeticos/natds-js/issues/1625)) ([c8451c6](https://github.com/natura-cosmeticos/natds-js/commit/c8451c602fa1ab7748c94968c266bfe5bb60a188))
+
+
+
+
+
 ## [4.5.3](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.2...@naturacosmeticos/natds-web@4.5.3) (2021-12-02)
 
 
