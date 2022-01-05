@@ -8,7 +8,7 @@ echo $BRANCH
 if ! [ -z $(./.cicd/skip-commit.sh) ]; then
 
     echo "create new file to edit"
-    cp -r .cicd/message-teams.json .cicd/updated-message-teams.json
+    cp .cicd/message-teams.json .cicd/updated-message-teams.json
 
     NEW_VERSION=$(cat ./packages/react/package.json \
         | grep version \
