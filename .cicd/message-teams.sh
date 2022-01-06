@@ -46,8 +46,8 @@ if ! [ -z $(./.cicd/skip-commit.sh) ]; then
     curl -H 'Content-Type: application/json' -d "$message" "$NATDS_TEAMS_RELEASE_WEBHOOK"
 
     # remove helper files
-    rm .cicd/updated-message-teams.json
-    rm .cicd/message-release.txt
-    rm .cicd/message-text.txt
+    rm -f .cicd/updated-message-teams.json
+    rm -f .cicd/message-release.txt
+    rm -f .cicd/message-text.txt
 
 fi
