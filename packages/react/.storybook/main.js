@@ -1,6 +1,7 @@
 module.exports = {
   stories: [
     '../docs/getting-started.stories.mdx',
+    '../docs/design-tokens.stories.mdx',
     '../docs/changelog.stories.mdx',
     '../src/**/*.stories.@(js|jsx|ts|tsx)'
   ],
