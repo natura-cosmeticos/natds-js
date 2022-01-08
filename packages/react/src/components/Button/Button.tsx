@@ -1,7 +1,7 @@
 import React from 'react'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { useTheme } from 'react-jss'
-import { IconColor } from 'components/Icon/Icon.props'
+import { IconColor } from '../Icon/Icon.props'
 import { ButtonProps } from './Button.props'
 import { Icon } from '../Icon'
 import { Ripple } from '../Ripple'
