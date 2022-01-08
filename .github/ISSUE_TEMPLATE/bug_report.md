@@ -1,59 +1,50 @@
 ---
-name: Bug report
+name: Bug Report
 about: Create a report to help us improve
 title: 'Bug: '
 labels: 'bug'
-assignees: ''
-
----
-
-## Required info
-
-### Checklist
-
-- [ ] I have checked the examples demonstrated at [Storybook](https://storybook-web.natura.com.br/);
-- [ ] I remembered to add the `<Provider>` for my components to be stylized according to the Storybook;
-- [ ] I checked the [TROUBLESHOOTING.md](https://github.com/natura-cosmeticos/natds-js/blob/main/TROUBLESHOOTING.md#troubleshooting) file and found that my error is not covered there;
-- [ ] I've used this Design System before;
-- [ ] I've used [Material UI](https://material-ui.com/) before.
-
-### Your project dependencies
-
-- `react` version at `package.json` (if included):
-- `react-dom` version at `package.json` (if included):
-- `@material-ui/core` version at `package.json` (if included directly):
-
-#### Design System libraries
-
-- `@natura-cosmeticos/natds-js` version at `package.json:
-- `@natura-cosmeticos/natds-icons` version at `package.json` (if included directly):
-- `@natura-cosmeticos/natds-styles` version at `package.json` (if included directly):
-
-### Languages & tooling
-
-- What language are you using (like JavaScript, TypeScript) for development?
-- Are you using `npm` or `yarn` to run and build the application?
-- Is your project ejected, using `create-react-app` (CRA), `single-spa` or another toolchain?
-- Are your project using some component test library, like Enzyme, React Testing Library?
-
-## Steps to reproduce the behavior
-
-1. Import...
-2. Include...
-3. Click on...
-4. Find error...
-
-### Do you find this error when you run...
-
-- [ ] `npm install` or `yarn`
-- [ ] `npm start` or `yarn start`
-- [ ] `npm run build` or `yarn build`
-- [ ] `npm test` or `yarn test`
-
-## Expected behavior
-A clear and concise description of what you expected to happen.
-
-## Screenshots
-If applicable, add screenshots to help explain your problem.
-
-## Additional context
+body:
+  - type: markdown
+    attributes:
+      value: |
+        Thanks for taking the time to fill out this bug report!
+  - type: input
+    id: contact
+    attributes:
+      label: Contact Details
+      description: How can we get in touch with you if we need more info?
+      placeholder: ex. email@example.com
+    validations:
+      required: false
+  - type: textarea
+    id: what-happened
+    attributes:
+      label: What happened?
+      description: Also tell us, what did you expect to happen?
+      placeholder: Tell us what you see!
+      value: "A bug happened!"
+    validations:
+      required: true
+  - type: input
+    id: version
+    attributes:
+      label: Version
+      description: What version of our library are you running?
+    validations:
+      required: true
+  - type: dropdown
+    id: browsers
+    attributes:
+      label: What browsers are you seeing the problem on?
+      multiple: true
+      options:
+        - Firefox
+        - Chrome
+        - Safari
+        - Microsoft Edge
+  - type: textarea
+    id: logs
+    attributes:
+      label: Relevant log output
+      description: Please copy and paste any relevant log output. This will be automatically formatted into code, so no need for backticks.
+      render: shell
