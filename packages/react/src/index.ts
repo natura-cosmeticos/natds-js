@@ -1,5 +1,5 @@
 export * from './ThemeProvider'
-export { useTheme } from 'react-jss'
+export { useTheme, createUseStyles } from 'react-jss'
 
 // Components
 export * from './components/Badge'
