@@ -1,5 +1,5 @@
 import React from 'react'
-import { IconColor, IconSize } from 'components/Icon/Icon.props'
+import { IconColor, IconSize } from '../Icon/Icon.props'
 import { Icon } from '../Icon'
 import IconButtonBase from './IconButtonBase'
 import { IconButtonColors, IconButtonProps, IconButtonSize } from './IconButton.props'
