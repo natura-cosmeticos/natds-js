@@ -32,16 +32,13 @@ body:
       description: What version of our library are you running?
     validations:
       required: true
-  - type: dropdown
+  - type: textarea
     id: browsers
     attributes:
-      label: What browsers are you seeing the problem on?
-      multiple: true
-      options:
-        - Firefox
-        - Chrome
-        - Safari
-        - Microsoft Edge
+      label: What browsers (and their respective version) are you seeing the problem on?
+      description: Firefox, Chrome, Safari, Microsoft Edge...
+      validations:
+        required: true
   - type: textarea
     id: logs
     attributes:
