@@ -1,0 +1,66 @@
+import { Meta } from "@storybook/addon-docs/blocks";
+
+<Meta title="Documentation/Design Tokens" />
+
+# Design Tokens
+
+Design tokens are style properties that allow you to style elements and components in your project, keeping them multi-brand and multi-mode. You can check all available design tokens in our [search tool](https://ds.natura.design/28db352be/p/3880eb-search).
+
+## Usage
+To use them you must have **set the Design System Theme in your chosen theme provider**.
+
+### React JSS
+This library is a `natds-react` dependency, so you don't need to install or configure anything.
+
+```javascript
+import { ThemeProvider, buildTheme, Theme, createUseStyles } from "@naturacosmeticos/natds-react";
+
+const styles = createUseStyles((theme: Theme) => ({
+  square: {
+    backgroundColor: theme.color.primary,
+    height: theme.size.semiX,
+    width: theme.size.semiX
+  }
+}))
+
+const theme = buildTheme('natura', 'light')
+
+export const Example = () => {
+  const { square } = styles()
+
+  return (
+    <ThemeProvider theme={theme}>
+      <div className={square} />
+    </ThemeProvider>
+  )
+}
+```
+
+### Styled Components
+
+```javascript
+import { buildTheme, ThemeProvider as DSThemeProvider } from "@naturacosmeticos/natds-react";
+import styled, { ThemeProvider as StyledThemeProvider } from "styled-components";
+
+const Square = styled.div`
+  height: ${props => props.theme.size.semiX}px;
+  width: ${props => props.theme.size.semiX}px;
+  background-color: ${props => props.theme.color.primary};
+`
+
+const theme = buildTheme('natura', 'light')
+
+export const App = () => {
+  return (
+    <DSThemeProvider theme={theme}>
+      <StyledThemeProvider theme={theme}>
+        <Square />
+      </StyledThemeProvider>
+    </DSThemeProvider>
+  )
+}
+```
+
+---
+
+**If you are using something other than this, please let us know!**

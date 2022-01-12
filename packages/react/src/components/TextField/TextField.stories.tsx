@@ -137,6 +137,6 @@ export const ActionImage: Story<TextFieldProps> = (args) => (
 ActionImage.args = {
   ...Playground.args,
   action: 'image',
-  src: '/img_placeholder.svg',
+  src: '/img_placeholder.png',
   alt: 'image placeholder example'
 }

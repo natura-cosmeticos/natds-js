@@ -1,6 +1,7 @@
 module.exports = {
   stories: [
     '../docs/getting-started.stories.mdx',
+    '../docs/design-tokens.stories.mdx',
     '../docs/changelog.stories.mdx',
     '../src/**/*.stories.@(js|jsx|ts|tsx)'
   ],
@@ -13,4 +14,5 @@ module.exports = {
     '@storybook/addon-essentials',
     'storybook-dark-mode'
   ],
+  staticDirs: ['./static', './public'],
 }
