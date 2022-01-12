@@ -166,14 +166,18 @@ Object {
     },
   },
   "body1": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 16,
     "fontWeight": 400,
     "letterSpacing": 0.51,
+    "lineHeight": 1.5,
   },
   "body2": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 14,
     "fontWeight": 400,
     "letterSpacing": 0.22,
+    "lineHeight": 1.5,
   },
   "borderRadius": Object {
     "large": 8,
@@ -270,9 +274,11 @@ Object {
     },
   },
   "caption": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 12,
     "fontWeight": 400,
     "letterSpacing": 0.38,
+    "lineHeight": 1.5,
   },
   "card": Object {
     "borderRadius": Object {
@@ -423,39 +429,51 @@ Object {
       "lineHeight": 1.5,
       "primary": Object {
         "fontFamily": "Roboto",
-        "fontWeight": 400,
+        "fontWeight": 500,
       },
     },
   },
   "heading1": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 96,
     "fontWeight": 400,
     "letterSpacing": 0,
+    "lineHeight": 1.5,
   },
   "heading2": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 60,
     "fontWeight": 400,
     "letterSpacing": 0,
+    "lineHeight": 1.5,
   },
   "heading3": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 48,
     "fontWeight": 400,
     "letterSpacing": 0,
+    "lineHeight": 1.5,
   },
   "heading4": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 34,
     "fontWeight": 400,
     "letterSpacing": 0.27,
+    "lineHeight": 1.5,
   },
   "heading5": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 24,
     "fontWeight": 400,
     "letterSpacing": 0,
+    "lineHeight": 1.5,
   },
   "heading6": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 20,
     "fontWeight": 500,
     "letterSpacing": 0.24,
+    "lineHeight": 1.5,
   },
   "iconButton": Object {
     "medium": Object {
@@ -550,9 +568,11 @@ Object {
     "veryLow": 0.08,
   },
   "overline": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 12,
     "fontWeight": 500,
     "letterSpacing": 1.92,
+    "lineHeight": 1.5,
   },
   "progressIndicator": Object {
     "large": Object {
@@ -679,14 +699,18 @@ Object {
     "xLarge": 64,
   },
   "subtitle1": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 16,
     "fontWeight": 500,
     "letterSpacing": 0.13,
+    "lineHeight": 1.5,
   },
   "subtitle2": Object {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 14,
     "fontWeight": 500,
     "letterSpacing": 0.11,
+    "lineHeight": 1.5,
   },
   "tab": Object {
     "label": Object {
@@ -797,6 +821,25 @@ Object {
       "primary": "Roboto",
       "secondary": "sans-serif",
     },
+    "fontSize": Object {
+      "level1": 13,
+      "level10": 36,
+      "level11": 41,
+      "level12": 46,
+      "level13": 52,
+      "level14": 58,
+      "level15": 66,
+      "level16": 74,
+      "level17": 83,
+      "level2": 14,
+      "level3": 16,
+      "level4": 18,
+      "level5": 20,
+      "level6": 23,
+      "level7": 26,
+      "level8": 29,
+      "level9": 32,
+    },
     "fontWeight": Object {
       "medium": 500,
       "regular": 400,
@@ -806,6 +849,7 @@ Object {
       "fontWeight": 500,
     },
     "lineHeight": Object {
+      "auto": 1,
       "large": 2,
       "medium": 1.5,
       "reset": 1,

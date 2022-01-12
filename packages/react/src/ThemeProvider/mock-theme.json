@@ -305,7 +305,7 @@
       "lineHeight": 1.5,
       "primary": {
         "fontFamily": "Roboto",
-        "fontWeight": 400
+        "fontWeight": 500
       },
       "fallback": {
         "fontFamily": "Arial",
@@ -571,63 +571,87 @@
     "borderRadius": 4
   },
   "heading1": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 96,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading2": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 60,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading3": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 48,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading4": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 34,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0.27
   },
   "heading5": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 24,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading6": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 20,
     "fontWeight": 500,
+    "lineHeight": 1.5,
     "letterSpacing": 0.24
   },
   "subtitle1": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 16,
     "fontWeight": 500,
+    "lineHeight": 1.5,
     "letterSpacing": 0.13
   },
   "subtitle2": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 14,
     "fontWeight": 500,
+    "lineHeight": 1.5,
     "letterSpacing": 0.11
   },
   "body1": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 16,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0.51
   },
   "body2": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 14,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0.22
   },
   "caption": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 12,
     "fontWeight": 400,
+    "lineHeight": 1.5,
     "letterSpacing": 0.38
   },
   "overline": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 12,
     "fontWeight": 500,
+    "lineHeight": 1.5,
     "letterSpacing": 1.92
   },
   "opacity": {
@@ -665,17 +689,37 @@
     "veryHuge": 256
   },
   "typography": {
+    "fontSize": {
+      "level1": 13,
+      "level2": 14,
+      "level3": 16,
+      "level4": 18,
+      "level5": 20,
+      "level6": 23,
+      "level7": 26,
+      "level8": 29,
+      "level9": 32,
+      "level10": 36,
+      "level11": 41,
+      "level12": 46,
+      "level13": 52,
+      "level14": 58,
+      "level15": 66,
+      "level16": 74,
+      "level17": 83
+    },
+    "lineHeight": {
+      "auto": 1,
+      "reset": 1,
+      "small": 1.25,
+      "medium": 1.5,
+      "large": 2
+    },
     "fontFamily": {
       "primary": "Roboto",
       "secondary": "sans-serif",
       "branding": "Helvetica Now",
       "code": "Roboto Mono"
-    },
-    "lineHeight": {
-      "reset": 1,
-      "small": 1.25,
-      "medium": 1.5,
-      "large": 2
     },
     "fontWeight": {
       "regular": 400,
