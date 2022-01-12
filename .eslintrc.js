@@ -15,7 +15,13 @@ module.exports = {
     {
       files: ['./packages/**/*.{ts,tsx,js}'],
       rules: {
-        'import/no-extraneous-dependencies': [1, { devDependencies: true }]
+        'import/no-extraneous-dependencies': 0,
+        'react/button-has-type': 1,
+        'import/no-named-as-default': 0,
+        'no-use-before-define': 0,
+        'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
+        'react/jsx-props-no-spreading': 0,
+        'react/prop-types': 0
       }
     },
     {
@@ -36,32 +42,15 @@ module.exports = {
         'react/destructuring-assignment': 1,
         'react/jsx-closing-tag-location': 1,
         'react/no-array-index-key': 1,
+        'import/no-unresolved': 0,
         complexity: 1
       }
     }
   ],
   rules: {
-    'react/button-has-type': 0,
-    '@typescript-eslint/explicit-module-boundary-types': 'off',
+    '@typescript-eslint/explicit-module-boundary-types': 0,
     '@typescript-eslint/no-var-requires': 1,
-    'import/no-extraneous-dependencies': [
-      'error',
-      {
-        devDependencies: [
-          '**/*.test.*',
-          '**/*.stories.*',
-          'storybook/**/*',
-          'packages/react/src/ThemeProvider/**'
-        ]
-      }
-    ],
-    'import/no-named-as-default': 'off',
-    'import/no-unresolved': 'off',
-    'no-use-before-define': 'off',
-    'react/jsx-filename-extension': [2, { extensions: ['.js', '.jsx', '.ts', '.tsx'] }],
-    'react/jsx-props-no-spreading': 'off',
-    'react/prop-types': 'off',
-    'react-hooks/exhaustive-deps': 'warn'
+    'react-hooks/exhaustive-deps': 1
   },
   settings: {
     'import/resolver': {
