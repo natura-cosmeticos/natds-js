@@ -3509,10 +3509,10 @@
     call-me-maybe "^1.0.1"
     glob-to-regexp "^0.3.0"
 
-"@naturacosmeticos/eslint-config-natds@0.0.1":
-  version "0.0.1"
-  resolved "https://registry.yarnpkg.com/@naturacosmeticos/eslint-config-natds/-/eslint-config-natds-0.0.1.tgz#6bd2d9fdd56e4d7513961e07dd02fe426e726048"
-  integrity sha512-6XvwMsZGXrmQxasPElS8gFqXFfldJUuNiYc8hJjsTQqwa2WKZ/kzck33PpbVnQ3iPssjBGskzdJBTMbnLEs8dA==
+"@naturacosmeticos/eslint-config-natds@0.0.4":
+  version "0.0.4"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/eslint-config-natds/-/eslint-config-natds-0.0.4.tgz#406985be7241813736dd741d7f4312842eefb042"
+  integrity sha512-ogQpKs0B3UVYHQwFZiclbeFyq0IcTzBl8x7Ip6rx7X7EsdSVPKvtFB5dq4VoDmKzAHLXnr6mtqtqo/cSCQ6eHA==
   dependencies:
     "@typescript-eslint/eslint-plugin" "^4.17.0"
     "@typescript-eslint/parser" "^4.17.0"

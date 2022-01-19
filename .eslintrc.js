@@ -18,10 +18,7 @@ module.exports = {
         'import/no-extraneous-dependencies': 0,
         'react/button-has-type': 1,
         'import/no-named-as-default': 0,
-        'no-use-before-define': 0,
-        'react/jsx-filename-extension': [2, { extensions: ['.tsx'] }],
-        'react/jsx-props-no-spreading': 0,
-        'react/prop-types': 0
+        'no-use-before-define': 0
       }
     },
     {
@@ -47,11 +44,6 @@ module.exports = {
       }
     }
   ],
-  rules: {
-    '@typescript-eslint/explicit-module-boundary-types': 0,
-    '@typescript-eslint/no-var-requires': 1,
-    'react-hooks/exhaustive-deps': 1
-  },
   settings: {
     'import/resolver': {
       node: {
