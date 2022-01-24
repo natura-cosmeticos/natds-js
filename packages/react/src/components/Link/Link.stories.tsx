@@ -1,7 +1,7 @@
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Link, LinkProps } from '.'
-import StoryContainer from '../../helpers/StoryContainer'
+import { Icon } from '../Icon'
 
 const componentStatus = `
 ---
@@ -36,3 +36,21 @@ export const Variants: Story<LinkProps> = (args) => (
   </div>
 )
 Variants.args = { ...Playground.args }
+
+export const WithIcon: Story<LinkProps> = (args) => (
+  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+    <Link
+      {...args}
+      text="right icon example"
+      iconPosition="right"
+      IconComponent={<Icon name="outlined-default-mockup" />}
+    />
+    <Link
+      {...args}
+      text="left icon example"
+      iconPosition="left"
+      IconComponent={<Icon name="outlined-default-mockup" />}
+    />
+  </div>
+)
+WithIcon.args = { ...Playground.args }

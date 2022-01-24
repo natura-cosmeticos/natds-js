@@ -6,27 +6,33 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
   ({
     className = '',
     testID,
-    variant = 'regular',
+    variant = 'underline',
     href,
     hrefLang,
     text,
     target,
+    iconPosition = 'right',
+    IconComponent,
+    textSize = 'body1',
     ...props
   }, ref) => {
-    const { link } = styles({ variant })
+    const { container, link } = styles({ variant, iconPosition, textSize })
 
     return (
-      <a
-        className={`${className} ${link}`}
-        data-testid={testID}
-        ref={ref}
-        href={href}
-        hrefLang={hrefLang}
-        target={target}
-        {...props}
-      >
-        {text}
-      </a>
+      <span className={container}>
+        <a
+          className={`${className} ${link}`}
+          data-testid={testID}
+          ref={ref}
+          href={href}
+          hrefLang={hrefLang}
+          target={target}
+          {...props}
+        >
+          {text}
+        </a>
+        {IconComponent && IconComponent}
+      </span>
     )
   }
 )
