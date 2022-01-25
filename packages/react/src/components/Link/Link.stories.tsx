@@ -6,10 +6,19 @@ import { Icon } from '../Icon'
 const componentStatus = `
 ---
 
-**NOTE for UX**: This component is available in the following variants:
+**NOTE FOR UX**: This component is available in the following variants:
 
   - ✅ \`regular\`
   - ✅ \`underline\`
+
+With the following attribute status:
+
+  - **Icon**
+      - ✅ \`left\`
+      - ✅ \`right\`
+  - **Color**
+      - ✅ \`default\`
+      - ✅ \`light\`
 
 ---
 `
