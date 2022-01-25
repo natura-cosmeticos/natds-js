@@ -331,6 +331,21 @@
       "disable": 0
     }
   },
+  "link": {
+    "label": {
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.5,
+      "primary": {
+        "fontFamily": "Roboto",
+        "fontWeight": 400
+      },
+      "fallback": {
+        "fontFamily": "Arial",
+        "fontWeight": 400
+      }
+    }
+  },
   "menuItem": {
     "borderRadius": 4
   },
