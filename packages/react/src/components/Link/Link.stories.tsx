@@ -43,13 +43,13 @@ export const WithIcon: Story<LinkProps> = (args) => (
       {...args}
       text="right icon example"
       iconPosition="right"
-      IconComponent={<Icon name="outlined-default-mockup" />}
+      IconComponent={<Icon name="outlined-navigation-directionright-alt" color="link" />}
     />
     <Link
       {...args}
       text="left icon example"
       iconPosition="left"
-      IconComponent={<Icon name="outlined-default-mockup" />}
+      IconComponent={<Icon name="outlined-navigation-directionleft-alt" color="link" />}
     />
   </div>
 )

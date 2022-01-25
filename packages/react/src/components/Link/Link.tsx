@@ -13,10 +13,11 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
     target,
     iconPosition = 'right',
     IconComponent,
-    textSize = 'body1',
-    ...props
+    textColor = 'default'
   }, ref) => {
-    const { container, link } = styles({ variant, iconPosition, textSize })
+    const { container, link } = styles({
+      variant, iconPosition, textColor
+    })
 
     return (
       <span className={container}>
@@ -27,7 +28,6 @@ const Link = React.forwardRef<HTMLAnchorElement, LinkProps>(
           href={href}
           hrefLang={hrefLang}
           target={target}
-          {...props}
         >
           {text}
         </a>

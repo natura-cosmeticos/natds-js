@@ -2,9 +2,12 @@ import { createUseStyles } from 'react-jss'
 import { Theme } from '@naturacosmeticos/natds-themes'
 import { LinkProps } from './Link.props'
 
-type LinkStyleProps = Pick<LinkProps, 'iconPosition' | 'variant' | 'textSize'>
+type LinkStyleProps = Pick<LinkProps, 'iconPosition' | 'variant' | 'textColor' | 'IconComponent'>
 
 const getIconPosition = () => ({ iconPosition }: LinkStyleProps) => (iconPosition === 'right' ? 'row' : 'row-reverse')
+const getLabelMargin = (theme: Theme, side: string) => (
+  { iconPosition }: LinkStyleProps
+) => (iconPosition === side && theme.size.tiny)
 
 const styles = createUseStyles((theme: Theme) => ({
   container: {
@@ -16,13 +19,14 @@ const styles = createUseStyles((theme: Theme) => ({
     cursor: 'pointer'
   },
   link: {
-    color: theme.color.link,
-    fontFamily: ({ textSize = 'body1' }: LinkStyleProps) => theme[textSize].fontFamily,
-    fontSize: ({ textSize = 'body1' }: LinkStyleProps) => theme[textSize].fontSize,
-    letterSpacing: ({ textSize = 'body1' }: LinkStyleProps) => theme[textSize].letterSpacing,
-    lineHeight: ({ textSize = 'body1' }: LinkStyleProps) => theme[textSize].lineHeight,
+    color: ({ textColor }: LinkStyleProps) => (textColor && textColor === 'default' ? theme.color.link : theme.color.lowEmphasis),
+    fontFamily: [theme.link.label.primary.fontFamily, theme.link.label.fallback.fontFamily],
+    fontSize: theme.link.label.fontSize,
+    letterSpacing: theme.link.label.letterSpacing,
+    lineHeight: theme.link.label.lineHeight,
     textDecoration: ({ variant }: LinkStyleProps) => (variant === 'underline' ? 'underline' : 'none'),
-    margin: ({ iconPosition }: LinkStyleProps) => (iconPosition === 'right' ? `0 ${theme.spacing.tiny}px 0 0` : `0 0 0 ${theme.spacing.tiny}px`),
+    marginLeft: getLabelMargin(theme, 'left'),
+    marginRight: getLabelMargin(theme, 'right'),
 
     '&:hover': {
       textDecoration: ({ variant }: LinkStyleProps) => (variant === 'underline' ? 'none' : 'underline')

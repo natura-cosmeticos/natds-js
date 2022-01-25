@@ -1,8 +1,6 @@
-import { IconProps } from '../Icon'
-
 export type LinkVariants = 'regular' | 'underline'
 export type LinkPositions = 'left' | 'right'
-type TextSizes = 'heading1' | 'heading2' | 'heading3' | 'heading4' | 'heading5' | 'heading6' | 'subtitle1' | 'subtitle2' | 'body1' | 'body2' | 'caption' | 'overline'
+type TextColors = 'default' | 'light'
 
 export interface LinkProps {
   /**
@@ -36,9 +34,9 @@ export interface LinkProps {
   text: string;
 
   /**
-   * The size of the text.
+   * The icon to display together with the text.
    */
-  textSize?: TextSizes;
+  textColor?: TextColors;
 
   /**
    * The target for the link.
@@ -53,6 +51,6 @@ export interface LinkProps {
   /**
    * The icon to display together with the text.
    */
-  IconComponent?: React.ReactElement<IconProps>;
+  IconComponent?: React.ReactElement;
 
 }
