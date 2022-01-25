@@ -14,6 +14,7 @@ describe('Link component', () => {
 
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
+
   it('should render correctly when the variant is regular', () => {
     const { styles, component } = renderWithTheme(<Link {...defaultProps} variant="regular" />)
 
@@ -26,11 +27,24 @@ describe('Link component', () => {
     expect([styles.toString(), component.container]).toMatchSnapshot()
   })
 
-  it('should render correctly when IconComponent props with iconPosition left', () => {
+  it('should render correctly with IconComponent rendered to the left', () => {
     const { styles, component } = renderWithTheme(
       <Link
         {...defaultProps}
         iconPosition="left"
+        IconComponent={
+          <Icon name="filled-default-mockup" />
+        }
+      />
+    )
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+
+  it('should render correctly with IconComponent rendered to the right by default', () => {
+    const { styles, component } = renderWithTheme(
+      <Link
+        {...defaultProps}
         IconComponent={
           <Icon name="filled-default-mockup" />
         }
