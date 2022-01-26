@@ -35,8 +35,8 @@ describe('components', () => {
 
     await page.goto('http://127.0.0.1:6006/')
 
-    await page.waitForSelector('button[data-parent-id="components"]')
-    const items = await page.$$('button[data-parent-id="components"]')
+    await page.waitForSelector('button[data-nodetype="component"]')
+    const items = await page.$$('button[data-nodetype="component"]')
 
     items[0].click()
 
