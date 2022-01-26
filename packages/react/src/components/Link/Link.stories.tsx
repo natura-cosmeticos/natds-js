@@ -39,19 +39,26 @@ Playground.args = {
 }
 
 export const Variants: Story<LinkProps> = (args) => (
-  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
-    <Link {...args} variant="regular" text="regular variant example" />
+  <>
     <Link {...args} variant="underline" text="underline variant example" />
-  </div>
+    <Link {...args} variant="regular" text="regular variant example" />
+  </>
 )
 Variants.args = { ...Playground.args }
 
+export const Colors: Story<LinkProps> = (args) => (
+  <>
+    <Link {...args} text="default link color" />
+    <Link {...args} textColor="light" text="light link color" />
+  </>
+)
+Colors.args = { ...Playground.args }
+
 export const WithIcon: Story<LinkProps> = (args) => (
-  <div style={{ display: 'flex', flexDirection: 'column', gap: 8 }}>
+  <>
     <Link
       {...args}
       text="right icon example"
-      iconPosition="right"
       IconComponent={<Icon name="outlined-navigation-directionright-alt" color="link" />}
     />
     <Link
@@ -60,6 +67,6 @@ export const WithIcon: Story<LinkProps> = (args) => (
       iconPosition="left"
       IconComponent={<Icon name="outlined-navigation-directionleft-alt" color="link" />}
     />
-  </div>
+  </>
 )
 WithIcon.args = { ...Playground.args }
