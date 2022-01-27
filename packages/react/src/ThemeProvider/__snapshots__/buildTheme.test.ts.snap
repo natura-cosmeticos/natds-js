@@ -492,6 +492,21 @@ Object {
       "enable": 4,
     },
   },
+  "link": Object {
+    "label": Object {
+      "fallback": Object {
+        "fontFamily": "Arial",
+        "fontWeight": 400,
+      },
+      "fontSize": 16,
+      "letterSpacing": 0.51,
+      "lineHeight": 1.5,
+      "primary": Object {
+        "fontFamily": "Roboto",
+        "fontWeight": 400,
+      },
+    },
+  },
   "menuItem": Object {
     "borderRadius": 4,
   },

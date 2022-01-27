@@ -1,0 +1,241 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Link component should render correctly when the textColor is light 1`] = `
+Array [
+  ".container-0-2-1 {
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-0-2-2 {
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.link-0-2-2:hover {}
+.container-d0-0-2-3 {
+  flex-direction: row;
+}
+.link-d1-0-2-4 {
+  color: #bbbbbb;
+  text-decoration: underline;
+  margin-right: 8px;
+}
+.link-d1-0-2-4:hover {
+  text-decoration: none;
+}",
+  <div>
+    <span
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <a
+        class=" link-0-2-2 link-d1-0-2-4"
+        href="https://"
+      >
+        Link
+      </a>
+    </span>
+  </div>,
+]
+`;
+
+exports[`Link component should render correctly when the variant is regular 1`] = `
+Array [
+  ".container-0-2-1 {
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-0-2-2 {
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.link-0-2-2:hover {}
+.container-d0-0-2-3 {
+  flex-direction: row;
+}
+.link-d1-0-2-4 {
+  color: #227bbd;
+  text-decoration: none;
+  margin-right: 8px;
+}
+.link-d1-0-2-4:hover {
+  text-decoration: underline;
+}",
+  <div>
+    <span
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <a
+        class=" link-0-2-2 link-d1-0-2-4"
+        href="https://"
+      >
+        Link
+      </a>
+    </span>
+  </div>,
+]
+`;
+
+exports[`Link component should render correctly with IconComponent rendered to the left 1`] = `
+Array [
+  ".container-0-2-1 {
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-0-2-2 {
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.link-0-2-2:hover {}
+.container-d0-0-2-3 {
+  flex-direction: row-reverse;
+}
+.link-d1-0-2-4 {
+  color: #227bbd;
+  text-decoration: underline;
+  margin-left: 8px;
+}
+.link-d1-0-2-4:hover {
+  text-decoration: none;
+}
+.icon-0-2-5 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-6 {
+  color: #000000;
+  font-size: 24px;
+}",
+  <div>
+    <span
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <a
+        class=" link-0-2-2 link-d1-0-2-4"
+        href="https://"
+      >
+        Link
+      </a>
+      <i
+        aria-hidden="true"
+        class=" icon-0-2-5 icon-d0-0-2-6 natds-icons natds-icons-filled-default-mockup"
+        data-testid="icon-filled-default-mockup"
+        role="img"
+      />
+    </span>
+  </div>,
+]
+`;
+
+exports[`Link component should render correctly with IconComponent rendered to the right by default 1`] = `
+Array [
+  ".container-0-2-1 {
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-0-2-2 {
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.link-0-2-2:hover {}
+.container-d0-0-2-3 {
+  flex-direction: row;
+}
+.link-d1-0-2-4 {
+  color: #227bbd;
+  text-decoration: underline;
+  margin-right: 8px;
+}
+.link-d1-0-2-4:hover {
+  text-decoration: none;
+}
+.icon-0-2-5 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-6 {
+  color: #000000;
+  font-size: 24px;
+}",
+  <div>
+    <span
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <a
+        class=" link-0-2-2 link-d1-0-2-4"
+        href="https://"
+      >
+        Link
+      </a>
+      <i
+        aria-hidden="true"
+        class=" icon-0-2-5 icon-d0-0-2-6 natds-icons natds-icons-filled-default-mockup"
+        data-testid="icon-filled-default-mockup"
+        role="img"
+      />
+    </span>
+  </div>,
+]
+`;
+
+exports[`Link component should render correctly with default props 1`] = `
+Array [
+  ".container-0-2-1 {
+  width: fit-content;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.link-0-2-2 {
+  font-size: 16px;
+  font-family: Roboto, Arial;
+  line-height: 1.5;
+  letter-spacing: 0.51px;
+}
+.link-0-2-2:hover {}
+.container-d0-0-2-3 {
+  flex-direction: row;
+}
+.link-d1-0-2-4 {
+  color: #227bbd;
+  text-decoration: underline;
+  margin-right: 8px;
+}
+.link-d1-0-2-4:hover {
+  text-decoration: none;
+}",
+  <div>
+    <span
+      class="container-0-2-1 container-d0-0-2-3"
+    >
+      <a
+        class=" link-0-2-2 link-d1-0-2-4"
+        href="https://"
+      >
+        Link
+      </a>
+    </span>
+  </div>,
+]
+`;
