@@ -1,3 +1,4 @@
+/* eslint-disable import/prefer-default-export */
 /* eslint-disable max-lines */
 /* eslint-disable no-magic-numbers */
 /* eslint-disable sort-keys */
@@ -116,7 +117,8 @@ export const aesopDark: ITheme = {
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: aesopDarkColorTokens.colorHighEmphasis
+        color: aesopDarkColorTokens.colorHighEmphasis,
+        borderColor: hexToRgba(aesopDarkColorTokens.colorHighEmphasis, 0.2)
       },
       outlinedSecondary: {
         color: aesopDarkColorTokens.colorHighEmphasis,
@@ -129,6 +131,7 @@ export const aesopDark: ITheme = {
         ...fontSize.subtitle2
       },
       root: {
+        borderRadius: tokens.radius.none,
         ...buttonSizes.medium,
         ...fontSize.subtitle2
       },
