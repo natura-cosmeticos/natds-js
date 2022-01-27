@@ -120,7 +120,8 @@ export const aesopLight: ITheme = {
   overrides: {
     MuiButton: {
       outlinedPrimary: {
-        color: aesopLightColorTokens.colorHighEmphasis
+        color: aesopLightColorTokens.colorHighEmphasis,
+        borderColor: hexToRgba(aesopLightColorTokens.colorHighEmphasis, 0.2)
       },
       outlinedSecondary: {
         color: aesopLightColorTokens.colorHighEmphasis,
@@ -133,6 +134,7 @@ export const aesopLight: ITheme = {
         ...fontSize.subtitle2
       },
       root: {
+        borderRadius: tokens.radius.none,
         ...buttonSizes.medium,
         ...fontSize.subtitle2
       },
