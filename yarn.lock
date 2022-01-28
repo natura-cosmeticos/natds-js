@@ -3527,19 +3527,10 @@
   resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-icons/-/natds-icons-1.10.1.tgz#86bba16115dd745b65d9d62cb86a95f37fc1d1be"
   integrity sha512-Bkw0Kk+qPJBo5MRpyj54pgr7oydxO8GUgJWVxYAdTT1gqoCy1DePtl/R1dBkeSJ9OnB8wkdT3WxYa9WKL44T6A==
 
-"@naturacosmeticos/natds-themes@0.22.0":
-  version "0.22.0"
-  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.22.0.tgz#9453bde93197768ef7829305d6e528ee7f216d45"
-  integrity sha512-ODPMId6NTJNUjJfNO81d5VlVWDsM+OTNn7LJdOjbg0ARlkQNxGJKPlVQcQfvTdGxjiCzNqjNQK+R96fmSikqXA==
-  dependencies:
-    open-color "^1.8.0"
-    svg2vectordrawable "^2.7.1"
-    webp-converter "^2.3.3"
-
-"@naturacosmeticos/natds-themes@0.24.0":
-  version "0.24.0"
-  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.24.0.tgz#a23b2565b50bc958028f40a97e0509a95b6cf799"
-  integrity sha512-RuXhW1pD2c14+rUagwtU3ZM6VovSp5LZmjZV5ZNdvYxQ3DiuDxejaxqdkxPGte8nXc+r+VBbhNR4VinTxjAlCA==
+"@naturacosmeticos/natds-themes@0.24.3":
+  version "0.24.3"
+  resolved "https://registry.yarnpkg.com/@naturacosmeticos/natds-themes/-/natds-themes-0.24.3.tgz#d80a62b2d0cf53aa17a3a12e135b1ff106f95169"
+  integrity sha512-1HrXZi+wkevdk6+Zji1XA8XRyQIa6Vgrn9MILe/k0klIjyl2BciDapBEdL0mNmkrNqlVwyh0i//aLZcTOnd3yw==
   dependencies:
     open-color "^1.8.0"
     svg2vectordrawable "2.6.26"
@@ -4877,11 +4868,6 @@
   version "1.1.2"
   resolved "https://registry.yarnpkg.com/@tootallnate/once/-/once-1.1.2.tgz#ccb91445360179a04e7fe6aff78c00ffc1eeaf82"
   integrity sha512-RbzJvlNzmRq5c3O09UipeuXno4tA1FE6ikOjxZK0tuxVv3412l64l5t1W5pj4+rJq9vpkm/kwiR07aZXnsKPxw==
-
-"@trysound/sax@0.2.0":
-  version "0.2.0"
-  resolved "https://registry.yarnpkg.com/@trysound/sax/-/sax-0.2.0.tgz#cccaab758af56761eb7bf37af6f03f326dd798ad"
-  integrity sha512-L7z9BgrNEcYyUYtF+HaEfiS5ebkh9jXqbszz7pC0hRBPaatV0XjSD3+eHrpqFemQfgwiFF0QPIarnIihIDn7OA==
 
 "@types/aria-query@^4.2.0":
   version "4.2.2"
@@ -7179,11 +7165,6 @@ commander@^6.2.1:
   resolved "https://registry.yarnpkg.com/commander/-/commander-6.2.1.tgz#0792eb682dfbc325999bb2b84fddddba110ac73c"
   integrity sha512-U7VdrJFnJgo4xjrHpTzu0yrHPGImdsmD95ZlgYSEajAn2JKzDhDTPG9kBTefmObL2w/ngeZnilk+OV9CG3d7UA==
 
-commander@^7.2.0:
-  version "7.2.0"
-  resolved "https://registry.yarnpkg.com/commander/-/commander-7.2.0.tgz#a36cb57d0b501ce108e4d20559a150a391d97ab7"
-  integrity sha512-QrWXB+ZQSVPmIWIhtEO9H+gwHaMGYiF5ChvoJ+K9ZGHG/sVsa6yiesAD1GC/x46sET00Xlwo1u49RVVVzvcSkw==
-
 commitizen@4.2.4, commitizen@^4.0.3:
   version "4.2.4"
   resolved "https://registry.yarnpkg.com/commitizen/-/commitizen-4.2.4.tgz#a3e5b36bd7575f6bf6e7aa19dbbf06b0d8f37165"
@@ -7707,7 +7688,7 @@ css-tree@1.0.0-alpha.37:
     mdn-data "2.0.4"
     source-map "^0.6.1"
 
-css-tree@^1.1.2, css-tree@^1.1.3:
+css-tree@^1.1.2:
   version "1.1.3"
   resolved "https://registry.yarnpkg.com/css-tree/-/css-tree-1.1.3.tgz#eb4870fb6fd7707327ec95c2ff2ab09b5e8db91d"
   integrity sha512-tRpdppF7TRazZrjJ6v3stzv93qxRcSsFmW6cX0Zm2NVKpxE1WV1HblnghVv9TreireHkqI/VDEsfolRF1p6y7Q==
@@ -7752,7 +7733,7 @@ cssesc@^3.0.0:
   resolved "https://registry.yarnpkg.com/cssesc/-/cssesc-3.0.0.tgz#37741919903b868565e1c09ea747445cd18983ee"
   integrity sha512-/Tb/JcjK111nNScGob5MNtsntNM1aCNUDipB/TkwZFhyDrrE47SOx/18wF2bbjgc3ZzCSKW1T5nt5EbFoAz/Vg==
 
-csso@^4.0.2, csso@^4.2.0:
+csso@^4.0.2:
   version "4.2.0"
   resolved "https://registry.yarnpkg.com/csso/-/csso-4.2.0.tgz#ea3a561346e8dc9f546d6febedd50187cf389529"
   integrity sha512-wvlcdIbf6pwKEk7vHj8/Bkc0B4ylXZruLvOgs9doS5eOsOpuodOV2zJChSpkp+pRpYQLQMeF04nr3Z68Sta9jA==
@@ -16096,17 +16077,6 @@ svg2vectordrawable@2.6.26:
     svgo "^1.3.2"
     svgpath "^2.3.0"
 
-svg2vectordrawable@^2.7.1:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/svg2vectordrawable/-/svg2vectordrawable-2.8.0.tgz#6e1172c0e9d629d7835cb0796531215a58535b91"
-  integrity sha512-vKOQ4PK8Omjyg6Ella/6KbBystX2urp8+Sjc5xTUdtdDP4L6g35xrfSQKPWz7tmLyf+E2zhdYy87zSXAYIvFmQ==
-  dependencies:
-    coa "^2.0.2"
-    mkdirp "^1.0.4"
-    svg-path-bounds "^1.0.1"
-    svgo "^2.8.0"
-    svgpath "^2.3.0"
-
 svgo@^1.3.2:
   version "1.3.2"
   resolved "https://registry.yarnpkg.com/svgo/-/svgo-1.3.2.tgz#b6dc511c063346c9e415b81e43401145b96d4167"
@@ -16125,19 +16095,6 @@ svgo@^1.3.2:
     stable "^0.1.8"
     unquote "~1.1.1"
     util.promisify "~1.0.0"
-
-svgo@^2.8.0:
-  version "2.8.0"
-  resolved "https://registry.yarnpkg.com/svgo/-/svgo-2.8.0.tgz#4ff80cce6710dc2795f0c7c74101e6764cfccd24"
-  integrity sha512-+N/Q9kV1+F+UeWYoSiULYo4xYSDQlTgb+ayMobAXPwMnLvop7oxKMo9OzIrX5x3eS4L4f2UHhc9axXwY8DpChg==
-  dependencies:
-    "@trysound/sax" "0.2.0"
-    commander "^7.2.0"
-    css-select "^4.1.3"
-    css-tree "^1.1.3"
-    csso "^4.2.0"
-    picocolors "^1.0.0"
-    stable "^0.1.8"
 
 svgpath@^2.3.0:
   version "2.3.1"
