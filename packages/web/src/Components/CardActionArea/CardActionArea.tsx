@@ -14,6 +14,9 @@ export const CardActionArea = React.forwardRef<HTMLButtonElement, ICardActionAre
   )
 )
 
+/**
+ * @deprecated
+ */
 CardActionArea.displayName = 'CardActionArea'
 
 export default CardActionArea
