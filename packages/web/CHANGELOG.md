@@ -3,6 +3,20 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.5.5](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.4...@naturacosmeticos/natds-web@4.5.5) (2022-01-31)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-icons to v1.10.1 ([#1624](https://github.com/natura-cosmeticos/natds-js/issues/1624)) ([fa63bac](https://github.com/natura-cosmeticos/natds-js/commit/fa63bac65c22aaf0b1cb1b6867555da9e1173749))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.22.0 ([#1623](https://github.com/natura-cosmeticos/natds-js/issues/1623)) ([4eefcba](https://github.com/natura-cosmeticos/natds-js/commit/4eefcbab02a55801a56f7565695085d47e52f41a))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.24.3 ([#1643](https://github.com/natura-cosmeticos/natds-js/issues/1643)) ([d49d4ff](https://github.com/natura-cosmeticos/natds-js/commit/d49d4ffef0cdd23b1d05fa169ab2c4827cc34c50))
+* **natds-web:** Fix import path for Select and TextField Component ([#1646](https://github.com/natura-cosmeticos/natds-js/issues/1646)) ([fe9b36b](https://github.com/natura-cosmeticos/natds-js/commit/fe9b36b46090c96baad4364a284b5c2a7e0bfc8c))
+
+
+
+
+
 ## [4.5.4](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.3...@naturacosmeticos/natds-web@4.5.4) (2022-01-04)
 
 
