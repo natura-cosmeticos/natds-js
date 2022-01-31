@@ -1,6 +1,6 @@
 import * as React from 'react'
 import { StandardTextFieldProps } from '@material-ui/core'
-import { ISearchClearProps } from 'Components/Field/SearchClear'
+import { ISearchClearProps } from '../Field/SearchClear'
 import { ISizes } from '@naturacosmeticos/natds-styles'
 import { IInputStateHelpTextProviderProps } from '../InputStateHelpTextProvider'
 import { IThemeWeb } from '../../Themes'
