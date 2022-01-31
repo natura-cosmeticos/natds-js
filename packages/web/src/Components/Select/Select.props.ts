@@ -1,5 +1,5 @@
 import { SelectProps } from '@material-ui/core/Select'
-import { State } from 'Components/Input/Input.props'
+import { State } from '../Input/Input.props'
 
 export type DeprecatedOptions = string | number
 export type UpdatedOptions = { value: string | number; description: string | number }
