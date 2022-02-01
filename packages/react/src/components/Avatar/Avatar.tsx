@@ -5,34 +5,33 @@ import AvatarImage from './AvatarImage'
 import AvatarIcon from './AvatarIcon'
 import AvatarLabel from './AvatarLabel'
 
+export const renderVariant = (props: AvatarProps) => {
+  const { type = 'icon' } = props
+
+  const types = {
+    image: <AvatarImage {...props} />,
+    label: <AvatarLabel {...props} />,
+    icon: <AvatarIcon {...props} />,
+    default: <Avatar type="icon" {...props} />
+  }
+
+  return props.type ? types[type] : types.default
+}
+
 const Avatar = React.forwardRef<HTMLElement, AvatarProps>(
-  ({
-    className = '',
-    testID,
-    ...props
-  }, ref) => {
-    const { avatar } = styles({})
-
-    const chosenType = (rest: AvatarProps) => {
-      const { type = 'icon' } = rest
-
-      const types = {
-        image: <AvatarImage {...rest} />,
-        label: <AvatarLabel {...rest} />,
-        icon: <AvatarIcon {...rest} />
-      }
-
-      return types[type]
-    }
+  (props, ref) => {
+    const {
+      className = '', size = 'medium', ...rest
+    } = props
+    const { surface } = styles({ size })
 
     return (
       <span
-        className={`${className} ${avatar}`}
-        data-testid={testID}
+        className={`${className} ${surface}`}
         ref={ref}
-        {...props}
+        {...rest}
       >
-        {chosenType(props)}
+        {renderVariant({ ...props, size })}
       </span>
     )
   }

@@ -5,13 +5,14 @@ import Icon from '../Icon'
 
 export const isAvatarIcon = (props: AvatarProps): props is AvatarIconProps => props.type === 'icon'
 
-const AvatarIcon = React.forwardRef<HTMLElement, AvatarProps>(
+export const AvatarIcon = React.forwardRef<HTMLElement, AvatarProps>(
   ({
     className = '',
     testID,
+    size = 'medium',
     ...props
   }, ref) => {
-    const { icon } = styles({})
+    const { icon } = styles({ size })
 
     return (
       isAvatarIcon(props) ? (
@@ -19,9 +20,11 @@ const AvatarIcon = React.forwardRef<HTMLElement, AvatarProps>(
           className={`${className} ${icon}`}
           data-testid={testID}
           ref={ref}
+          name={props.name ? props.name : 'outlined-default-mockup'}
+          size={size}
           {...props}
         />
-      ) : null
+      ) : <>AvatarIcon: you must pass the type icon attribute to render</>
     )
   }
 )

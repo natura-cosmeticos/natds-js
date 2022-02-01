@@ -4,23 +4,24 @@ import styles from './Avatar.styles'
 
 export const isAvatarImage = (props: AvatarProps): props is AvatarImageProps => props.type === 'image'
 
-const AvatarImage = React.forwardRef<HTMLImageElement, AvatarProps>(
+export const AvatarImage = React.forwardRef<HTMLImageElement, AvatarProps>(
   ({
     className = '',
     testID,
+    size = 'medium',
     ...props
   }, ref) => {
-    const { icon } = styles({})
+    const { image } = styles({ size })
 
     return (
       isAvatarImage(props) ? (
         <img
-          className={`${className} ${icon}`}
+          className={`${className} ${image}`}
           data-testid={testID}
           ref={ref}
           {...props}
         />
-      ) : null
+      ) : <>AvatarImage: you must pass the type image attribute to render</>
     )
   }
 )
