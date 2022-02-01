@@ -1,0 +1,339 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Avatar component Icon variant should render correctly when the variant is type icon 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4ab34;
+}
+.image-0-2-2 {
+  height: 100%;
+  object-fit: cover;
+}
+.label-0-2-3 {
+  color: #333333;
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+}
+.icon-0-2-4 {
+  color: #333333;
+  padding: 4px;
+}
+.surface-d0-0-2-5 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d1-0-2-6 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.surface-d2-0-2-7 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d3-0-2-8 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.icon-0-2-9 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-10 {
+  color: #000000;
+  font-size: 48px;
+}",
+  <div>
+    <span
+      class=" surface-0-2-1 surface-d0-0-2-5"
+      name="outlined-action-like"
+      type="icon"
+    >
+      <i
+        aria-hidden="true"
+        class=" icon-0-2-4 icon-0-2-9 icon-d0-0-2-10 natds-icons natds-icons-outlined-action-like"
+        role="img"
+        type="icon"
+      />
+    </span>
+  </div>,
+]
+`;
+
+exports[`Avatar component Image variant should render correctly with image variant 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4ab34;
+}
+.image-0-2-2 {
+  height: 100%;
+  object-fit: cover;
+}
+.label-0-2-3 {
+  color: #333333;
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+}
+.icon-0-2-4 {
+  color: #333333;
+  padding: 4px;
+}
+.surface-d0-0-2-5 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d1-0-2-6 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.surface-d2-0-2-7 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d3-0-2-8 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}",
+  <div>
+    <span
+      alt=""
+      class=" surface-0-2-1 surface-d0-0-2-5"
+      src="https://"
+      type="image"
+    >
+      <img
+        alt=""
+        class=" image-0-2-2"
+        src="https://"
+        type="image"
+      />
+    </span>
+  </div>,
+]
+`;
+
+exports[`Avatar component Label variant should render correctly when the variant is type label 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4ab34;
+}
+.image-0-2-2 {
+  height: 100%;
+  object-fit: cover;
+}
+.label-0-2-3 {
+  color: #333333;
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+}
+.icon-0-2-4 {
+  color: #333333;
+  padding: 4px;
+}
+.surface-d0-0-2-5 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d1-0-2-6 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.surface-d2-0-2-7 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d3-0-2-8 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}",
+  <div>
+    <span
+      class=" surface-0-2-1 surface-d0-0-2-5"
+      label="DS"
+      type="label"
+    >
+      <label
+        class=" label-0-2-3 label-d3-0-2-8"
+        label="DS"
+        type="label"
+      >
+        DS
+      </label>
+    </span>
+  </div>,
+]
+`;
+
+exports[`Avatar component Label variant should render correctly when the variant is type label with default label 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4ab34;
+}
+.image-0-2-2 {
+  height: 100%;
+  object-fit: cover;
+}
+.label-0-2-3 {
+  color: #333333;
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+}
+.icon-0-2-4 {
+  color: #333333;
+  padding: 4px;
+}
+.surface-d0-0-2-5 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d1-0-2-6 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.surface-d2-0-2-7 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d3-0-2-8 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}",
+  <div>
+    <span
+      class=" surface-0-2-1 surface-d0-0-2-5"
+      type="label"
+    >
+      <label
+        class=" label-0-2-3 label-d3-0-2-8"
+        type="label"
+      >
+        NA
+      </label>
+    </span>
+  </div>,
+]
+`;
+
+exports[`Avatar component should render correctly with default props 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4ab34;
+}
+.image-0-2-2 {
+  height: 100%;
+  object-fit: cover;
+}
+.label-0-2-3 {
+  color: #333333;
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+}
+.icon-0-2-4 {
+  color: #333333;
+  padding: 4px;
+}
+.surface-d0-0-2-5 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d1-0-2-6 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.surface-d2-0-2-7 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d3-0-2-8 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.surface-d4-0-2-9 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d5-0-2-10 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.icon-0-2-11 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-12 {
+  color: #000000;
+  font-size: 48px;
+}",
+  <div>
+    <span
+      class=" surface-0-2-1 surface-d0-0-2-5"
+    >
+      <span
+        class=" surface-0-2-1 surface-d2-0-2-7"
+        type="icon"
+      >
+        <i
+          aria-hidden="true"
+          class=" icon-0-2-4 icon-0-2-11 icon-d0-0-2-12 natds-icons natds-icons-outlined-default-mockup"
+          role="img"
+          type="icon"
+        />
+      </span>
+    </span>
+  </div>,
+]
+`;
+
+exports[`Avatar component should return correctly variant with defaultProps 1`] = `
+<ForwardRef
+  type="icon"
+/>
+`;
