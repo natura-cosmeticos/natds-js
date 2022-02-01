@@ -5,11 +5,22 @@ import { Avatar, AvatarProps } from '.'
 const componentStatus = `
 ---
 
-**NOTE**: This component is available in the following variants:
+**NOTE FOR UXs**: This component is available in the following variants:
 
-  - ✅ \`full-bleed\`
-  - ✅ \`inset\`
-  - ✅ \`middle\`
+  - ✅ \`standard\`
+
+With the following attribute status:
+
+- **Type**
+    - ✅ \`icon\`
+    - ✅ \`label\`
+    - ✅ \`image\`
+- **Size**
+    - ✅ \`standard\`
+    - ✅ \`semi\`
+    - ✅ \`semiX\`
+    - ✅ \`medium\`
+    - ✅ \`largeXXX\`
 
 ---
 `
@@ -24,13 +35,13 @@ export default {
 } as Meta
 
 export const Playground: Story<AvatarProps> = (args) => (
-  <Template>
-    <Avatar {...args} />
-  </Template>
+  <Avatar {...args} />
 )
 
-const Template: React.FC = ({ children }) => (
-  <div style={{ maxWidth: 200, border: '1px solid #00000014', padding: '16px 0' }}>
-    {children}
+export const Types: Story<AvatarProps> = (args) => (
+  <div style={{ display: 'flex', gap: 8 }}>
+    <Avatar type="image" {...args} />
+    <Avatar type="icon" {...args} />
+    <Avatar type="label" {...args} />
   </div>
 )

@@ -1,6 +1,9 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
+import { Size } from '@naturacosmeticos/natds-themes'
 
-export interface AvatarBaseProps {
+type AvatarSizes = keyof Pick<Size, 'standard' | 'semi' | 'semiX' | 'medium' | 'largeXXX' >;
+
+export type AvatarBaseProps = {
   /**
    * Specify an optional className to be added to your Avatar
    */
@@ -10,9 +13,15 @@ export interface AvatarBaseProps {
    * Optional ID for testing
    */
   testID?: string;
+
+  /**
+   * Specify the size of the Avatar
+   * @default medium
+   */
+  size?: AvatarSizes
 }
 
-export interface AvatarImageProps extends AvatarBaseProps {
+export type AvatarImageProps = AvatarBaseProps & {
   /**
    * Avatar type
    */
@@ -21,16 +30,16 @@ export interface AvatarImageProps extends AvatarBaseProps {
   /**
    * The alt text for the image
    */
-  alt: string;
+  alt?: string;
 
   /**
    * The source URL of the image you want to display
    */
-  src: string;
+  src?: string;
 
 }
 
-export interface AvatarIconProps extends AvatarBaseProps {
+export type AvatarIconProps = AvatarBaseProps & {
   /**
    * Avatar type
    */
@@ -38,21 +47,22 @@ export interface AvatarIconProps extends AvatarBaseProps {
 
   /**
    * The icon name
+   * @default outlined-default-mockup
    */
-  name: IconName;
+  name?: IconName;
 }
 
-export interface AvatarLabelProps extends AvatarBaseProps {
+export type AvatarLabelProps = AvatarBaseProps & {
   /**
    * Avatar type
    */
   type?: 'label';
 
   /**
-   * The label text
+   * The label to be displayed in the Avatar
+   * @default NA
    */
-  label: string;
-
+  label?: string;
 }
 
 export type AvatarProps = AvatarImageProps | AvatarIconProps | AvatarLabelProps;
