@@ -18,9 +18,9 @@ Array [
   padding: 4px;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
+  text-transform: uppercase;
 }
 .icon-0-2-4 {
-  color: #333333;
   padding: 4px;
 }
 .surface-d0-0-2-5 {
@@ -49,20 +49,19 @@ Array [
   pointer-events: none;
 }
 .icon-d0-0-2-10 {
-  color: #000000;
+  color: #333333;
   font-size: 48px;
 }",
   <div>
     <span
       class=" surface-0-2-1 surface-d0-0-2-5"
       name="outlined-action-like"
-      type="icon"
     >
       <i
         aria-hidden="true"
-        class=" icon-0-2-4 icon-0-2-9 icon-d0-0-2-10 natds-icons natds-icons-outlined-action-like"
+        class="undefined icon-0-2-4 icon-0-2-9 icon-d0-0-2-10 natds-icons natds-icons-outlined-action-like"
+        data-testid="icon-outlined-action-like"
         role="img"
-        type="icon"
       />
     </span>
   </div>,
@@ -87,9 +86,9 @@ Array [
   padding: 4px;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
+  text-transform: uppercase;
 }
 .icon-0-2-4 {
-  color: #333333;
   padding: 4px;
 }
 .surface-d0-0-2-5 {
@@ -117,11 +116,10 @@ Array [
       alt=""
       class=" surface-0-2-1 surface-d0-0-2-5"
       src="https://"
-      type="image"
     >
       <img
         alt=""
-        class=" image-0-2-2"
+        class="undefined image-0-2-2"
         src="https://"
         type="image"
       />
@@ -148,9 +146,9 @@ Array [
   padding: 4px;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
+  text-transform: uppercase;
 }
 .icon-0-2-4 {
-  color: #333333;
   padding: 4px;
 }
 .surface-d0-0-2-5 {
@@ -177,7 +175,6 @@ Array [
     <span
       class=" surface-0-2-1 surface-d0-0-2-5"
       label="DS"
-      type="label"
     >
       <label
         class=" label-0-2-3 label-d3-0-2-8"
@@ -209,9 +206,9 @@ Array [
   padding: 4px;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
+  text-transform: uppercase;
 }
 .icon-0-2-4 {
-  color: #333333;
   padding: 4px;
 }
 .surface-d0-0-2-5 {
@@ -237,7 +234,6 @@ Array [
   <div>
     <span
       class=" surface-0-2-1 surface-d0-0-2-5"
-      type="label"
     >
       <label
         class=" label-0-2-3 label-d3-0-2-8"
@@ -268,9 +264,9 @@ Array [
   padding: 4px;
   font-family: Roboto, Arial;
   font-weight: 400, 400;
+  text-transform: uppercase;
 }
 .icon-0-2-4 {
-  color: #333333;
   padding: 4px;
 }
 .surface-d0-0-2-5 {
@@ -293,47 +289,93 @@ Array [
   letter-spacing: 0;
   line-height: 1.5;
 }
-.surface-d4-0-2-9 {
-  width: 48px;
-  height: 48px;
-  border-radius: 24px;
-}
-.label-d5-0-2-10 {
-  font-size: 24px;
-  letter-spacing: 0;
-  line-height: 1.5;
-}
-.icon-0-2-11 {
+.icon-0-2-9 {
   font-family: natds-icons;
   user-select: none;
   pointer-events: none;
 }
-.icon-d0-0-2-12 {
-  color: #000000;
+.icon-d0-0-2-10 {
+  color: #333333;
   font-size: 48px;
 }",
   <div>
     <span
       class=" surface-0-2-1 surface-d0-0-2-5"
     >
-      <span
-        class=" surface-0-2-1 surface-d2-0-2-7"
-        type="icon"
-      >
-        <i
-          aria-hidden="true"
-          class=" icon-0-2-4 icon-0-2-11 icon-d0-0-2-12 natds-icons natds-icons-outlined-default-mockup"
-          role="img"
-          type="icon"
-        />
-      </span>
+      <i
+        aria-hidden="true"
+        class="undefined icon-0-2-4 icon-0-2-9 icon-d0-0-2-10 natds-icons natds-icons-outlined-default-mockup"
+        data-testid="icon-undefined"
+        role="img"
+      />
     </span>
   </div>,
 ]
 `;
 
-exports[`Avatar component should return correctly variant with defaultProps 1`] = `
-<ForwardRef
-  type="icon"
-/>
+exports[`Avatar component should render correctly with different size 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4ab34;
+}
+.image-0-2-2 {
+  height: 100%;
+  object-fit: cover;
+}
+.label-0-2-3 {
+  color: #333333;
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  text-transform: uppercase;
+}
+.icon-0-2-4 {
+  padding: 4px;
+}
+.surface-d0-0-2-5 {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+.label-d1-0-2-6 {
+  font-size: 14px;
+  letter-spacing: 0.22px;
+  line-height: 1.5;
+}
+.surface-d2-0-2-7 {
+  width: 32px;
+  height: 32px;
+  border-radius: 16px;
+}
+.label-d3-0-2-8 {
+  font-size: 14px;
+  letter-spacing: 0.22px;
+  line-height: 1.5;
+}
+.icon-0-2-9 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-10 {
+  color: #333333;
+  font-size: 32px;
+}",
+  <div>
+    <span
+      class=" surface-0-2-1 surface-d0-0-2-5"
+    >
+      <i
+        aria-hidden="true"
+        class="undefined icon-0-2-4 icon-0-2-9 icon-d0-0-2-10 natds-icons natds-icons-outlined-default-mockup"
+        data-testid="icon-undefined"
+        role="img"
+      />
+    </span>
+  </div>,
+]
 `;

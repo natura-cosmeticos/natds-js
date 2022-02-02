@@ -26,10 +26,10 @@ const styles = createUseStyles((theme: Theme) => ({
     fontWeight: [theme.avatar.primary.fontWeight, theme.avatar.fallback.fontWeight],
     letterSpacing: ({ size }: AvatarStyleProps) => (size && theme.avatar[size].letterSpacing),
     lineHeight: ({ size }: AvatarStyleProps) => (size && theme.avatar[size].lineHeight),
-    padding: theme.spacing.micro
+    padding: theme.spacing.micro,
+    textTransform: 'uppercase'
   },
   icon: {
-    color: theme.color.onPrimary,
     padding: theme.spacing.micro
   }
 }))

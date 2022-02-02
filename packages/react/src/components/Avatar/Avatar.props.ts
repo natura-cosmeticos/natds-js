@@ -1,7 +1,7 @@
 import { IconName } from '@naturacosmeticos/natds-icons'
 import { Size } from '@naturacosmeticos/natds-themes'
 
-type AvatarSizes = keyof Pick<Size, 'standard' | 'semi' | 'semiX' | 'medium' | 'largeXXX' >;
+type AvatarSizes = keyof Pick<Size, 'standard' | 'semi' | 'semiX' | 'medium' | 'largeXXX'>;
 
 export type AvatarBaseProps = {
   /**
@@ -25,7 +25,7 @@ export type AvatarImageProps = AvatarBaseProps & {
   /**
    * Avatar type
    */
-  type?: 'image'
+  type: 'image'
 
   /**
    * The alt text for the image
@@ -43,7 +43,7 @@ export type AvatarIconProps = AvatarBaseProps & {
   /**
    * Avatar type
    */
-  type?: 'icon';
+  type: 'icon';
 
   /**
    * The icon name
@@ -56,10 +56,11 @@ export type AvatarLabelProps = AvatarBaseProps & {
   /**
    * Avatar type
    */
-  type?: 'label';
+  type: 'label';
 
   /**
-   * The label to be displayed in the Avatar
+   * The label to be displayed in the Avatar.
+   * It's highly recommended to pass a maximum of two characters
    * @default NA
    */
   label?: string;

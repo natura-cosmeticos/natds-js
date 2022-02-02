@@ -37,11 +37,40 @@ export default {
 export const Playground: Story<AvatarProps> = (args) => (
   <Avatar {...args} />
 )
+Playground.args = {
+  src: '/img_placeholder.png'
+}
 
-export const Types: Story<AvatarProps> = (args) => (
+export const Types: Story<AvatarProps> = () => (
   <div style={{ display: 'flex', gap: 8 }}>
-    <Avatar type="image" {...args} />
-    <Avatar type="icon" {...args} />
-    <Avatar type="label" {...args} />
+    <Avatar type="image" src="/img_placeholder.png" />
+    <Avatar type="icon" />
+    <Avatar type="label" />
   </div>
+)
+
+export const Sizes: Story<AvatarProps> = () => (
+  <>
+    <div style={{ display: 'flex', gap: 8, marginBottom: 8 }}>
+      <Avatar type="image" src="/img_placeholder.png" size="standard" />
+      <Avatar type="image" src="/img_placeholder.png" size="semi" />
+      <Avatar type="image" src="/img_placeholder.png" size="semiX" />
+      <Avatar type="image" src="/img_placeholder.png" size="medium" />
+      <Avatar type="image" src="/img_placeholder.png" size="largeXXX" />
+    </div>
+    <div style={{ display: 'flex', gap: 8, marginBottom: 8 }}>
+      <Avatar type="icon" size="standard" />
+      <Avatar type="icon" size="semi" />
+      <Avatar type="icon" size="semiX" />
+      <Avatar type="icon" size="medium" />
+      <Avatar type="icon" size="largeXXX" />
+    </div>
+    <div style={{ display: 'flex', gap: 8, marginBottom: 8 }}>
+      <Avatar type="label" size="standard" />
+      <Avatar type="label" size="semi" />
+      <Avatar type="label" size="semiX" />
+      <Avatar type="label" size="medium" />
+      <Avatar type="label" size="largeXXX" />
+    </div>
+  </>
 )

@@ -6,22 +6,24 @@ import AvatarIcon from './AvatarIcon'
 import AvatarLabel from './AvatarLabel'
 
 export const renderVariant = (props: AvatarProps) => {
-  const { type = 'icon' } = props
+  const { type } = props
 
   const types = {
     image: <AvatarImage {...props} />,
     label: <AvatarLabel {...props} />,
-    icon: <AvatarIcon {...props} />,
-    default: <Avatar type="icon" {...props} />
+    icon: <AvatarIcon {...props} />
   }
 
-  return props.type ? types[type] : types.default
+  return types[type]
 }
 
 const Avatar = React.forwardRef<HTMLElement, AvatarProps>(
   (props, ref) => {
     const {
-      className = '', size = 'medium', ...rest
+      className = '',
+      size = 'medium',
+      type = 'icon',
+      ...rest
     } = props
     const { surface } = styles({ size })
 
@@ -31,7 +33,7 @@ const Avatar = React.forwardRef<HTMLElement, AvatarProps>(
         ref={ref}
         {...rest}
       >
-        {renderVariant({ ...props, size })}
+        {renderVariant({ ...props, size, type })}
       </span>
     )
   }

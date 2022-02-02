@@ -1,32 +1,28 @@
 import React from 'react'
+import { IconName } from '@naturacosmeticos/natds-icons'
 import { AvatarIconProps, AvatarProps } from './Avatar.props'
 import styles from './Avatar.styles'
 import Icon from '../Icon'
 
 export const isAvatarIcon = (props: AvatarProps): props is AvatarIconProps => props.type === 'icon'
 
-export const AvatarIcon = React.forwardRef<HTMLElement, AvatarProps>(
-  ({
-    className = '',
-    testID,
-    size = 'medium',
-    ...props
-  }, ref) => {
-    const { icon } = styles({ size })
+export const AvatarIcon = ({
+  size = 'medium', className, ...props
+}: AvatarProps) => {
+  const { icon } = styles({ size })
 
-    return (
-      isAvatarIcon(props) ? (
+  return (
+    <>
+      {isAvatarIcon(props) && (
         <Icon
           className={`${className} ${icon}`}
-          data-testid={testID}
-          ref={ref}
-          name={props.name ? props.name : 'outlined-default-mockup'}
+          name={props.name as IconName}
           size={size}
-          {...props}
+          color="onPrimary"
         />
-      ) : <>AvatarIcon: you must pass the type icon attribute to render</>
-    )
-  }
-)
+      )}
+    </>
+  )
+}
 
 export default AvatarIcon
