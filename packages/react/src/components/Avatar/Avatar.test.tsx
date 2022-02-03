@@ -1,6 +1,7 @@
 import * as React from 'react'
 import Avatar from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
+import { convertIconSize } from './AvatarIcon'
 
 describe('Avatar component', () => {
   it('should render correctly with default props', () => {
@@ -48,5 +49,11 @@ describe('Avatar component', () => {
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
     })
+  })
+})
+
+describe('convertIconSize', () => {
+  it('should return the small size when the input is standard', () => {
+    expect(convertIconSize('standard')).toBe('small')
   })
 })
