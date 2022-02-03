@@ -55,6 +55,73 @@ Array [
   <div>
     <span
       class=" surface-0-2-1 surface-d0-0-2-5"
+    >
+      <i
+        aria-hidden="true"
+        class="undefined icon-0-2-4 icon-0-2-9 icon-d0-0-2-10 natds-icons natds-icons-outlined-default-mockup"
+        data-testid="icon-undefined"
+        role="img"
+      />
+    </span>
+  </div>,
+]
+`;
+
+exports[`Avatar component Icon variant should render correctly when the variant is type icon with the given iconName 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4ab34;
+}
+.image-0-2-2 {
+  height: 100%;
+  object-fit: cover;
+}
+.label-0-2-3 {
+  color: #333333;
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  text-transform: uppercase;
+}
+.icon-0-2-4 {
+  padding: 4px;
+}
+.surface-d0-0-2-5 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d1-0-2-6 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.surface-d2-0-2-7 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d3-0-2-8 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.icon-0-2-9 {
+  font-family: natds-icons;
+  user-select: none;
+  pointer-events: none;
+}
+.icon-d0-0-2-10 {
+  color: #333333;
+  font-size: 48px;
+}",
+  <div>
+    <span
+      class=" surface-0-2-1 surface-d0-0-2-5"
       name="outlined-action-like"
     >
       <i

@@ -31,6 +31,11 @@ describe('Avatar component', () => {
 
   describe('Icon variant', () => {
     it('should render correctly when the variant is type icon', () => {
+      const { styles, component } = renderWithTheme(<Avatar type="icon" />)
+
+      expect([styles.toString(), component.container]).toMatchSnapshot()
+    })
+    it('should render correctly when the variant is type icon with the given iconName', () => {
       const { styles, component } = renderWithTheme(<Avatar type="icon" name="outlined-action-like" />)
 
       expect([styles.toString(), component.container]).toMatchSnapshot()
