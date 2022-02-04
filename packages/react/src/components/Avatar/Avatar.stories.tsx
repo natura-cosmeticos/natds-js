@@ -1,3 +1,4 @@
+/* eslint-disable no-param-reassign */
 import React from 'react'
 import { Story, Meta } from '@storybook/react'
 import { Avatar, AvatarProps } from '.'
@@ -41,9 +42,14 @@ Playground.args = {
   src: '/img_placeholder.png'
 }
 
+const handleError = (e: React.SyntheticEvent<HTMLImageElement, Event>) => {
+  e.currentTarget.onerror = null
+  e.currentTarget.src = 'https://via.placeholder.com/200x200'
+}
+
 export const Types: Story<AvatarProps> = () => (
   <div style={{ display: 'flex', gap: 8 }}>
-    <Avatar type="image" src="/img_placeholder.png" />
+    <Avatar type="image" src="/img_placeholder.png" onError={handleError} />
     <Avatar type="icon" />
     <Avatar type="label" />
   </div>
@@ -52,11 +58,11 @@ export const Types: Story<AvatarProps> = () => (
 export const Sizes: Story<AvatarProps> = () => (
   <>
     <div style={{ display: 'flex', gap: 8, marginBottom: 8 }}>
-      <Avatar type="image" src="/img_placeholder.png" size="standard" />
-      <Avatar type="image" src="/img_placeholder.png" size="semi" />
-      <Avatar type="image" src="/img_placeholder.png" size="semiX" />
-      <Avatar type="image" src="/img_placeholder.png" size="medium" />
-      <Avatar type="image" src="/img_placeholder.png" size="largeXXX" />
+      <Avatar type="image" src="/img_placeholder.png" size="standard" onError={handleError} />
+      <Avatar type="image" src="/img_placeholder.png" size="semi" onError={handleError} />
+      <Avatar type="image" src="/img_placeholder.png" size="semiX" onError={handleError} />
+      <Avatar type="image" src="/img_placeholder.png" size="medium" onError={handleError} />
+      <Avatar type="image" src="/img_placeholder.png" size="largeXXX" onError={handleError} />
     </div>
     <div style={{ display: 'flex', gap: 8, marginBottom: 8 }}>
       <Avatar type="icon" size="standard" />
