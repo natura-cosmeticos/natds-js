@@ -30,12 +30,17 @@ export type AvatarImageProps = AvatarBaseProps & {
   /**
    * The alt text for the image
    */
-  alt?: string;
+  alt?: React.ImgHTMLAttributes<HTMLImageElement>['alt']
 
   /**
    * The source URL of the image you want to display
    */
-  src?: string;
+  src?: React.ImgHTMLAttributes<HTMLImageElement>['src']
+
+  /**
+   * Event to fire if an error occurs while loading the image
+   */
+  onError?: React.ImgHTMLAttributes<HTMLImageElement>['onError']
 
 }
 

@@ -1,4 +1,5 @@
 /* eslint-disable @typescript-eslint/ban-ts-comment */
+import { fireEvent } from '@testing-library/react'
 import * as React from 'react'
 import Avatar from '.'
 import renderWithTheme from '../../helpers/renderWithTheme'
@@ -54,11 +55,20 @@ describe('Avatar component', () => {
 
   describe('Image variant', () => {
     it('should render correctly with image variant', () => {
-      const component = renderWithTheme(<Avatar type="image" src="https://" alt="" />)
-      const subcomponent = renderWithTheme(<AvatarImage type="image" src="https://" alt="" />)
+      const component = renderWithTheme(<Avatar type="image" src="image.jpg" alt="" />)
+      const subcomponent = renderWithTheme(<AvatarImage type="image" src="image.jpg" alt="" />)
 
       expect([component.styles.toString(), component.component.container]).toMatchSnapshot()
       expect([subcomponent.styles.toString(), subcomponent.component.container]).toMatchSnapshot()
+    })
+    it('should fire onError when the image src is broken', () => {
+      const onErrorMock = jest.fn()
+      const { styles, component } = renderWithTheme(<Avatar type="image" src="image.junk" alt="image" onError={onErrorMock} />)
+
+      fireEvent.error(component.getByAltText('image'))
+
+      expect([styles.toString(), component.container]).toMatchSnapshot()
+      expect(onErrorMock).toHaveBeenCalled()
     })
   })
 })

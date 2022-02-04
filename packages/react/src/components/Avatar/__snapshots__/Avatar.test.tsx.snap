@@ -100,6 +100,66 @@ Array [
 ]
 `;
 
+exports[`Avatar component Image variant should fire onError when the image src is broken 1`] = `
+Array [
+  ".surface-0-2-1 {
+  display: flex;
+  overflow: hidden;
+  align-items: center;
+  justify-content: center;
+  background-color: #f4ab34;
+}
+.image-0-2-2 {
+  height: 100%;
+  object-fit: cover;
+}
+.label-0-2-3 {
+  color: #333333;
+  padding: 4px;
+  font-family: Roboto, Arial;
+  font-weight: 400, 400;
+  text-transform: uppercase;
+}
+.icon-0-2-4 {
+  padding: 4px;
+}
+.surface-d0-0-2-5 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d1-0-2-6 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}
+.surface-d2-0-2-7 {
+  width: 48px;
+  height: 48px;
+  border-radius: 24px;
+}
+.label-d3-0-2-8 {
+  font-size: 24px;
+  letter-spacing: 0;
+  line-height: 1.5;
+}",
+  <div>
+    <span
+      alt="image"
+      class=" surface-0-2-1 surface-d0-0-2-5"
+      src="image.junk"
+    >
+      <img
+        alt="image"
+        class="undefined image-0-2-2"
+        src="image.junk"
+        type="image"
+      />
+    </span>
+  </div>,
+]
+`;
+
 exports[`Avatar component Image variant should render correctly with image variant 1`] = `
 Array [
   ".surface-0-2-1 {
@@ -147,12 +207,12 @@ Array [
     <span
       alt=""
       class=" surface-0-2-1 surface-d0-0-2-5"
-      src="https://"
+      src="image.jpg"
     >
       <img
         alt=""
         class="undefined image-0-2-2"
-        src="https://"
+        src="image.jpg"
         type="image"
       />
     </span>
@@ -197,7 +257,7 @@ Array [
     <img
       alt=""
       class="undefined image-0-2-2"
-      src="https://"
+      src="image.jpg"
       type="image"
     />
   </div>,
