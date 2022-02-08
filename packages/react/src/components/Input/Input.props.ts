@@ -47,17 +47,17 @@ export interface BaseProps {
   /**
    * The onBlur attribute fires the moment that the element loses focus.
    */
-  onBlur: React.FocusEventHandler<HTMLInputElement | HTMLTextAreaElement>,
+  onBlur?: React.FocusEventHandler<HTMLInputElement | HTMLTextAreaElement>,
 
   /**
    * The onChange event occurs when the value of an element has been changed.
    */
-  onChange: React.ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement>,
+  onChange?: React.ChangeEventHandler<HTMLInputElement | HTMLTextAreaElement>,
 
   /**
    * The onFocus event occurs when an element gets focus and is the opposite of the onblur event.
    */
-  onFocus: React.FocusEventHandler<HTMLInputElement | HTMLTextAreaElement>
+  onFocus?: React.FocusEventHandler<HTMLInputElement | HTMLTextAreaElement>
 
   /**
    * The short hint displayed in the `input` before the user enters a value.
