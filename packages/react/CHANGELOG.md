@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [2.19.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.18.0...@naturacosmeticos/natds-react@2.19.0) (2022-02-09)
+
+
+### Bug Fixes
+
+* **natds-react:** remove ListItem warning, make TextField callback props optional, fix Label styles ([#1649](https://github.com/natura-cosmeticos/natds-js/issues/1649)) ([5e1e6e9](https://github.com/natura-cosmeticos/natds-js/commit/5e1e6e976356ecaaaa83a67db4f938518d9bede0))
+
+
+
+
+
 # [2.18.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.17.0...@naturacosmeticos/natds-react@2.18.0) (2022-02-07)
 
 
