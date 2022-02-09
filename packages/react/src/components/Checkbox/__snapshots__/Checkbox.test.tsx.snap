@@ -818,6 +818,10 @@ Array [
   .rippleActive-d3-0-2-16 {
     animation: keyframes-ripple-0-2-12 500ms;
   }
+  .labelContainer-0-2-17 {
+    color: #000000;
+    font-family: Helvetica Now Display, Arial;
+  }
   .container-0-2-1 {
     display: flex;
     align-items: center;
@@ -911,7 +915,7 @@ Array [
         </div>
       </div>
       <label
-        class="labelText-0-2-4 labelText-d1-0-2-6"
+        class="labelText-0-2-4 labelText-d1-0-2-6 labelContainer-0-2-17"
         for="any"
       >
         something
