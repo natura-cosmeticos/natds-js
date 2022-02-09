@@ -7,7 +7,6 @@ const ListItem = React.forwardRef<HTMLLIElement, ListItemProps>(({
   children,
   className = '',
   interaction = 'none',
-  key,
   onClick,
   selected = false,
   SeparatorComponent,
@@ -19,7 +18,6 @@ const ListItem = React.forwardRef<HTMLLIElement, ListItemProps>(({
     <Ripple disabled={interaction !== 'action'} fullWidth>
       <li
         className={`${className} ${listItem}`}
-        key={key}
         onClick={onClick}
         data-testid={testID}
         ref={ref}

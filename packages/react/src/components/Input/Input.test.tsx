@@ -4,9 +4,6 @@ import renderWithTheme from '../../helpers/renderWithTheme'
 import { InputProps } from './Input.props'
 
 const defaultProps: InputProps = {
-  onBlur: () => '',
-  onChange: () => '',
-  onFocus: () => '',
   id: 'example_to_test'
 }
 

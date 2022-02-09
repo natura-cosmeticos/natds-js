@@ -655,7 +655,11 @@ Array [
 
 exports[`Counter should render correctly with label 1`] = `
 Array [
-  ".sharedRippleEffect-0-2-13 {
+  ".labelContainer-0-2-7 {
+  color: #000000;
+  font-family: Helvetica Now Display, Arial;
+}
+.sharedRippleEffect-0-2-14 {
   top: 0;
   left: 0;
   width: 100%;
@@ -665,11 +669,11 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-14 {
+.wrapper-0-2-15 {
   outline: none;
   position: relative;
 }
-.wrapper-0-2-14:focus:after {
+.wrapper-0-2-15:focus:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -680,7 +684,7 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.wrapper-0-2-14:hover:after {
+.wrapper-0-2-15:hover:after {
   top: 0;
   left: 0;
   width: 100%;
@@ -690,20 +694,20 @@ Array [
   position: absolute;
   border-radius: 50%;
 }
-.ripple-0-2-15 {
+.ripple-0-2-16 {
   opacity: 0;
   position: absolute;
   transform: translate(-50%, -50%);
   border-radius: 50%;
 }
-.rippleContainer-0-2-16 {
+.rippleContainer-0-2-17 {
   inset: 0;
   position: absolute;
 }
-.rippleActive-0-2-17 {
+.rippleActive-0-2-18 {
   z-index: 99;
 }
-@keyframes keyframes-ripple-0-2-18 {
+@keyframes keyframes-ripple-0-2-19 {
   0% {
     transform: translate(-50%, -50%) scale(0);
   }
@@ -716,16 +720,16 @@ Array [
     z-index: 0;
   }
 }
-  .wrapper-d0-0-2-19 {
+  .wrapper-d0-0-2-20 {
     cursor: default;
     display: inline-block;
   }
-  .wrapper-d0-0-2-19:focus:after {  }
-  .wrapper-d0-0-2-19:hover:after {
+  .wrapper-d0-0-2-20:focus:after {  }
+  .wrapper-d0-0-2-20:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d1-0-2-20 {
+  .ripple-d1-0-2-21 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -733,24 +737,24 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d2-0-2-21 {
+  .rippleContainer-d2-0-2-22 {
     overflow: hidden;
   }
-  .rippleActive-d3-0-2-22 {
-    animation: keyframes-ripple-0-2-18 300ms;
+  .rippleActive-d3-0-2-23 {
+    animation: keyframes-ripple-0-2-19 300ms;
   }
-  .wrapper-d4-0-2-26 {
+  .wrapper-d4-0-2-27 {
     cursor: pointer;
     display: inline-block;
   }
-  .wrapper-d4-0-2-26:focus:after {
+  .wrapper-d4-0-2-27:focus:after {
     background-color: #000000;
   }
-  .wrapper-d4-0-2-26:hover:after {
+  .wrapper-d4-0-2-27:hover:after {
     background-color: #000000;
     opacity: 0;
   }
-  .ripple-d5-0-2-27 {
+  .ripple-d5-0-2-28 {
     background-color: #000000;
     height: 0;
     left: 0;
@@ -758,31 +762,31 @@ Array [
     transition: scale opacity 300ms;
     width: 0;
   }
-  .rippleContainer-d6-0-2-28 {
+  .rippleContainer-d6-0-2-29 {
     overflow: hidden;
   }
-  .rippleActive-d7-0-2-29 {
-    animation: keyframes-ripple-0-2-18 300ms;
+  .rippleActive-d7-0-2-30 {
+    animation: keyframes-ripple-0-2-19 300ms;
   }
-  .button-0-2-7 {
+  .button-0-2-8 {
     cursor: pointer;
     outline: 0;
     overflow: hidden;
     position: relative;
     border-radius: 4px;
   }
-  .button-0-2-7:disabled {
+  .button-0-2-8:disabled {
     cursor: default;
     box-shadow: none;
   }
-  .button-0-2-7:hover:not([disabled]) {  }
-  .button-0-2-7:focus:not([disabled]) {  }
-  .labelContainer-0-2-8 {
+  .button-0-2-8:hover:not([disabled]) {  }
+  .button-0-2-8:focus:not([disabled]) {  }
+  .labelContainer-0-2-9 {
     display: flex;
     align-items: center;
     justify-content: center;
   }
-  .label-0-2-9 {
+  .label-0-2-10 {
     font-size: 14px;
     text-align: center;
     font-family: Roboto, Arial;
@@ -793,7 +797,7 @@ Array [
     letter-spacing: 1.23px;
     text-transform: uppercase;
   }
-  .button-d0-0-2-10 {
+  .button-d0-0-2-11 {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
     box-shadow: none;
@@ -803,26 +807,26 @@ Array [
     padding-right: 8px;
     width: auto;
   }
-  .button-d0-0-2-10:disabled {
+  .button-d0-0-2-11:disabled {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
     color: #777777;
   }
-  .button-d0-0-2-10:hover:not([disabled]) {
+  .button-d0-0-2-11:hover:not([disabled]) {
     background-color: #f1f3f5;
     border: 1px solid #FFFFFF00;
     color: #333333;
   }
-  .button-d0-0-2-10:focus:not([disabled]) {
+  .button-d0-0-2-11:focus:not([disabled]) {
     background-color: #e9ecef;
     border: 1px solid #FFFFFF00;
     color: #333333;
   }
-  .labelContainer-d1-0-2-11 {
+  .labelContainer-d1-0-2-12 {
     flex-direction: row-reverse;
   }
-  .label-d2-0-2-12 {  }
-  .button-d3-0-2-23 {
+  .label-d2-0-2-13 {  }
+  .button-d3-0-2-24 {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
     box-shadow: none;
@@ -832,25 +836,25 @@ Array [
     padding-right: 8px;
     width: auto;
   }
-  .button-d3-0-2-23:disabled {
+  .button-d3-0-2-24:disabled {
     background-color: #FFFFFF00;
     border: 1px solid #FFFFFF00;
     color: #777777;
   }
-  .button-d3-0-2-23:hover:not([disabled]) {
+  .button-d3-0-2-24:hover:not([disabled]) {
     background-color: #f1f3f5;
     border: 1px solid #FFFFFF00;
     color: #333333;
   }
-  .button-d3-0-2-23:focus:not([disabled]) {
+  .button-d3-0-2-24:focus:not([disabled]) {
     background-color: #e9ecef;
     border: 1px solid #FFFFFF00;
     color: #333333;
   }
-  .labelContainer-d4-0-2-24 {
+  .labelContainer-d4-0-2-25 {
     flex-direction: row-reverse;
   }
-  .label-d5-0-2-25 {  }
+  .label-d5-0-2-26 {  }
   .buttonGroup-0-2-1 {
     width: fit-content;
     border: 1px solid #bbbbbb;
@@ -900,7 +904,7 @@ Array [
       class=""
     >
       <label
-        class="labelText-0-2-5"
+        class="labelText-0-2-5 labelContainer-0-2-7"
       >
         label
       </label>
@@ -911,29 +915,29 @@ Array [
           class="buttonLeft-0-2-2"
         >
           <div
-            class="wrapper-0-2-14 wrapper-d0-0-2-19"
+            class="wrapper-0-2-15 wrapper-d0-0-2-20"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-16 rippleContainer-d2-0-2-21"
+              class="rippleContainer-0-2-17 rippleContainer-d2-0-2-22"
             >
               <div
-                class="ripple-0-2-15 ripple-d1-0-2-20 "
+                class="ripple-0-2-16 ripple-d1-0-2-21 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
-              class="button-0-2-7 button-d0-0-2-10"
+              class="button-0-2-8 button-d0-0-2-11"
               data-testid="onDecrement-btn"
               disabled=""
               type="button"
             >
               <div
-                class="labelContainer-0-2-8 labelContainer-d1-0-2-11"
+                class="labelContainer-0-2-9 labelContainer-d1-0-2-12"
               >
                 <span
-                  class="label-0-2-9 label-d2-0-2-12"
+                  class="label-0-2-10 label-d2-0-2-13"
                 >
                   -
                 </span>
@@ -950,28 +954,28 @@ Array [
           class="buttonRight-0-2-3"
         >
           <div
-            class="wrapper-0-2-14 wrapper-d4-0-2-26"
+            class="wrapper-0-2-15 wrapper-d4-0-2-27"
             data-testid="ripple-wrapper"
             tabindex="-1"
           >
             <div
-              class="rippleContainer-0-2-16 rippleContainer-d6-0-2-28"
+              class="rippleContainer-0-2-17 rippleContainer-d6-0-2-29"
             >
               <div
-                class="ripple-0-2-15 ripple-d5-0-2-27 "
+                class="ripple-0-2-16 ripple-d5-0-2-28 "
                 data-testid="ripple-animation"
               />
             </div>
             <button
-              class="button-0-2-7 button-d3-0-2-23"
+              class="button-0-2-8 button-d3-0-2-24"
               data-testid="onIncrement-btn"
               type="button"
             >
               <div
-                class="labelContainer-0-2-8 labelContainer-d4-0-2-24"
+                class="labelContainer-0-2-9 labelContainer-d4-0-2-25"
               >
                 <span
-                  class="label-0-2-9 label-d5-0-2-25"
+                  class="label-0-2-10 label-d5-0-2-26"
                 >
                   +
                 </span>
