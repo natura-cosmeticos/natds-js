@@ -271,6 +271,7 @@ Object {
         "padding": null,
       },
       "outlinedPrimary": Object {
+        "borderColor": "rgba(250, 250, 250, 0.2)",
         "color": "#fafafa",
       },
       "outlinedSecondary": Object {
@@ -280,6 +281,7 @@ Object {
         "color": "#fafafa",
       },
       "root": Object {
+        "borderRadius": 0,
         "fontSize": 14,
         "fontWeight": 500,
         "height": 40,
@@ -1205,6 +1207,7 @@ Object {
         "padding": null,
       },
       "outlinedPrimary": Object {
+        "borderColor": "rgba(51, 51, 51, 0.2)",
         "color": "#333333",
       },
       "outlinedSecondary": Object {
@@ -1214,6 +1217,7 @@ Object {
         "color": "#333333",
       },
       "root": Object {
+        "borderRadius": 0,
         "fontSize": 14,
         "fontWeight": 500,
         "height": 40,
