@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [3.5.0](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.4.1...@naturacosmeticos/natds-styles@3.5.0) (2022-02-10)
+
+
+### Bug Fixes
+
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.17.0 ([#1566](https://github.com/natura-cosmeticos/natds/issues/1566)) ([ad9a528](https://github.com/natura-cosmeticos/natds/commit/ad9a5287581ae0e89325c9aee403c69fbb5ee2c8))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.22.0 ([#1623](https://github.com/natura-cosmeticos/natds/issues/1623)) ([4eefcba](https://github.com/natura-cosmeticos/natds/commit/4eefcbab02a55801a56f7565695085d47e52f41a))
+* **deps:** update dependency @naturacosmeticos/natds-themes to v0.24.3 ([#1643](https://github.com/natura-cosmeticos/natds/issues/1643)) ([d49d4ff](https://github.com/natura-cosmeticos/natds/commit/d49d4ffef0cdd23b1d05fa169ab2c4827cc34c50))
+* **natds-web:** update Aesop Button styles ([#1640](https://github.com/natura-cosmeticos/natds/issues/1640)) ([cdee421](https://github.com/natura-cosmeticos/natds/commit/cdee42199f6e9eb248e0b11d28e8f3d04ee9c690))
+
+
+### Features
+
+* **natds-react:** update component borderRadius tokens ([#1606](https://github.com/natura-cosmeticos/natds/issues/1606)) ([85df44e](https://github.com/natura-cosmeticos/natds/commit/85df44ea9613bf7b76757903d82aa799538d757e))
+
+
+
+
+
 ## [3.4.1](https://github.com/natura-cosmeticos/natds/compare/@naturacosmeticos/natds-styles@3.4.0...@naturacosmeticos/natds-styles@3.4.1) (2021-10-19)
 
 **Note:** Version bump only for package @naturacosmeticos/natds-styles

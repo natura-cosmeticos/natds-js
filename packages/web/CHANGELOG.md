@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [4.5.6](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.5...@naturacosmeticos/natds-web@4.5.6) (2022-02-10)
+
+
+### Bug Fixes
+
+* **natds-web:** update Aesop Button styles ([#1640](https://github.com/natura-cosmeticos/natds-js/issues/1640)) ([cdee421](https://github.com/natura-cosmeticos/natds-js/commit/cdee42199f6e9eb248e0b11d28e8f3d04ee9c690))
+
+
+
+
+
 ## [4.5.5](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-web@4.5.4...@naturacosmeticos/natds-web@4.5.5) (2022-01-31)
 
 
