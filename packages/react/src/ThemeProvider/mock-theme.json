@@ -222,9 +222,6 @@
     "borderRadius": {
       "enable": 4,
       "disable": 0
-    },
-    "color": {
-      "background": "#ffffff"
     }
   },
   "checkbox": {
@@ -299,16 +296,7 @@
         "fontWeight": 400
       }
     },
-    "borderRadius": 4,
-    "color": {
-      "background": "#ffffff",
-      "title": "#000000"
-    }
-  },
-  "divider": {
-    "color": {
-      "background": "#bbbbbb"
-    }
+    "borderRadius": 4
   },
   "expansionPanel": {
     "title": {
@@ -355,14 +343,6 @@
       "fallback": {
         "fontFamily": "Arial",
         "fontWeight": 400
-      }
-    },
-    "color": {
-      "label": {
-        "enable": {
-          "default": "#227bbd",
-          "light": "#bbbbbb"
-        }
       }
     }
   },
@@ -561,24 +541,6 @@
         "enable": 12,
         "disable": 0
       }
-    },
-    "color": {
-      "background": {
-        "primary": "#f4ab34",
-        "secondary": "#ff6b0b",
-        "success": "#569a32",
-        "alert": "#e74627",
-        "warning": "#fcc433",
-        "link": "#227bbd"
-      },
-      "label": {
-        "primary": "#333333",
-        "secondary": "#000000",
-        "success": "#ffffff",
-        "alert": "#ffffff",
-        "warning": "#333333",
-        "link": "#ffffff"
-      }
     }
   },
   "textField": {
@@ -624,72 +586,84 @@
     "borderRadius": 4
   },
   "heading1": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 96,
     "fontWeight": 400,
     "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading2": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 60,
     "fontWeight": 400,
     "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading3": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 48,
     "fontWeight": 400,
     "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading4": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 34,
     "fontWeight": 400,
     "lineHeight": 1.5,
     "letterSpacing": 0.27
   },
   "heading5": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 24,
     "fontWeight": 400,
     "lineHeight": 1.5,
     "letterSpacing": 0
   },
   "heading6": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 20,
     "fontWeight": 500,
     "lineHeight": 1.5,
     "letterSpacing": 0.24
   },
   "subtitle1": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 16,
     "fontWeight": 500,
     "lineHeight": 1.5,
     "letterSpacing": 0.13
   },
   "subtitle2": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 14,
     "fontWeight": 500,
     "lineHeight": 1.5,
     "letterSpacing": 0.11
   },
   "body1": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 16,
     "fontWeight": 400,
     "lineHeight": 1.5,
     "letterSpacing": 0.51
   },
   "body2": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 14,
     "fontWeight": 400,
     "lineHeight": 1.5,
     "letterSpacing": 0.22
   },
   "caption": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 12,
     "fontWeight": 400,
     "lineHeight": 1.5,
     "letterSpacing": 0.38
   },
   "overline": {
+    "fontFamily": "Helvetica Now Display",
     "fontSize": 12,
     "fontWeight": 500,
     "lineHeight": 1.5,

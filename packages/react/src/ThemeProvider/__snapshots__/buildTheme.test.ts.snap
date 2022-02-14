@@ -282,9 +282,6 @@ Object {
       "disable": 0,
       "enable": 4,
     },
-    "color": Object {
-      "background": "#ffffff",
-    },
   },
   "checkbox": Object {
     "borderRadius": 2,
@@ -390,10 +387,6 @@ Object {
       },
     },
     "borderRadius": 4,
-    "color": Object {
-      "background": "#ffffff",
-      "title": "#000000",
-    },
     "title": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -406,11 +399,6 @@ Object {
         "fontFamily": "Roboto",
         "fontWeight": 500,
       },
-    },
-  },
-  "divider": Object {
-    "color": Object {
-      "background": "#bbbbbb",
     },
   },
   "elevation": Object {
@@ -496,14 +484,6 @@ Object {
     },
   },
   "link": Object {
-    "color": Object {
-      "label": Object {
-        "enable": Object {
-          "default": "#227bbd",
-          "light": "#bbbbbb",
-        },
-      },
-    },
     "label": Object {
       "fallback": Object {
         "fontFamily": "Arial",
@@ -751,24 +731,6 @@ Object {
     },
   },
   "tag": Object {
-    "color": Object {
-      "background": Object {
-        "alert": "#e74627",
-        "link": "#227bbd",
-        "primary": "#f4ab34",
-        "secondary": "#ff6b0b",
-        "success": "#569a32",
-        "warning": "#fcc433",
-      },
-      "label": Object {
-        "alert": "#ffffff",
-        "link": "#ffffff",
-        "primary": "#333333",
-        "secondary": "#000000",
-        "success": "#ffffff",
-        "warning": "#333333",
-      },
-    },
     "label": Object {
       "fallback": Object {
         "fontFamily": "Arial",
