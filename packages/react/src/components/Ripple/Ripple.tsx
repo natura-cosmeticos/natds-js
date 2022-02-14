@@ -1,5 +1,5 @@
 /* eslint-disable max-lines-per-function */
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import styles from './Ripple.styles'
 import { RippleProps } from './Ripple.props'
 
@@ -23,10 +23,18 @@ const Ripple = ({
   const [mousePosition, setMousePosition] = useState<MousePosition>({ x: 0, y: 0 })
   const [rippleSize, setRippleSize] = useState<Size>({ width: 0, height: 0 })
 
+  useEffect(() => {
+    if (animation) {
+      const timeout = setTimeout(() => setAnimation(''), animationDuration)
+      return () => clearTimeout(timeout)
+    }
+
+    return () => null
+  }, [animation, animationDuration])
+
   const showRipple = (e: React.MouseEvent<HTMLDivElement>) => {
     if (!disabled) {
       setAnimation(rippleActive)
-      setTimeout(() => setAnimation(''), animationDuration)
     }
 
     const {
