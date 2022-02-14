@@ -3,6 +3,17 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+## [2.19.1](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.19.0...@naturacosmeticos/natds-react@2.19.1) (2022-02-14)
+
+
+### Bug Fixes
+
+* **natds-react:** resolves state update issue on an unmounted component ([#1650](https://github.com/natura-cosmeticos/natds-js/issues/1650)) ([06b64f4](https://github.com/natura-cosmeticos/natds-js/commit/06b64f486ce4678ce8cb98f363abfccf6ec195f8))
+
+
+
+
+
 # [2.19.0](https://github.com/natura-cosmeticos/natds-js/compare/@naturacosmeticos/natds-react@2.18.0...@naturacosmeticos/natds-react@2.19.0) (2022-02-09)
 
 
