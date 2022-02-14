@@ -1,0 +1,11 @@
+import React from 'react'
+import {{pascalCase name}} from '.'
+import renderWithTheme from '../../helpers/renderWithTheme'
+
+describe('{{pascalCase name}} component', () => {
+  it('should render correctly with default props', () => {
+    const { styles, component } = renderWithTheme(<{{pascalCase name}} />)
+
+    expect([styles.toString(), component.container]).toMatchSnapshot()
+  })
+})
