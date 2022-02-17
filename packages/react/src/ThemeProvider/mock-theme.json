@@ -87,6 +87,10 @@
     "fallback": {
       "fontFamily": "Arial",
       "fontWeight": 400
+    },
+    "color": {
+      "background": "#f4ab34",
+      "label": "#333333"
     }
   },
   "badge": {
@@ -335,6 +339,54 @@
     },
     "medium": {
       "borderRadius": 24
+    },
+    "standard": {
+      "color": {
+        "enable": {
+          "background": "#FFFFFF00"
+        },
+        "disable": {
+          "background": "#FFFFFF00"
+        },
+        "hover": {
+          "background": "#f1f3f5"
+        },
+        "focus": {
+          "background": "#e9ecef"
+        }
+      }
+    },
+    "float": {
+      "color": {
+        "enable": {
+          "background": "#ffffff"
+        },
+        "disable": {
+          "background": "#bbbbbb"
+        },
+        "hover": {
+          "background": "#f1f3f5"
+        },
+        "focus": {
+          "background": "#e9ecef"
+        }
+      }
+    },
+    "overlay": {
+      "color": {
+        "enable": {
+          "background": "#000000"
+        },
+        "disable": {
+          "background": "#000000"
+        },
+        "hover": {
+          "background": "#000000"
+        },
+        "focus": {
+          "background": "#000000"
+        }
+      }
     }
   },
   "image": {
@@ -365,9 +417,6 @@
         }
       }
     }
-  },
-  "menuItem": {
-    "borderRadius": 4
   },
   "navigationDrawer": {
     "header": {
@@ -439,6 +488,10 @@
     },
     "large": {
       "borderRadius": 32
+    },
+    "color": {
+      "stroke": "#f4ab34",
+      "layer": "#ffffff"
     }
   },
   "radioButton": {
@@ -455,7 +508,21 @@
         "fontWeight": 400
       }
     },
-    "borderRadius": 12
+    "borderRadius": 12,
+    "color": {
+      "select": {
+        "border": "#f4ab34",
+        "content": "#f4ab34"
+      },
+      "unselect": {
+        "border": "#000000",
+        "content": "#000000"
+      },
+      "disable": {
+        "border": "#bbbbbb",
+        "content": "#bbbbbb"
+      }
+    }
   },
   "rating": {
     "counter": {
@@ -501,6 +568,86 @@
       "fallback": {
         "fontFamily": "Arial",
         "fontWeight": 400
+      }
+    },
+    "contained": {
+      "color": {
+        "enable": {
+          "primary": {
+            "background": "#f4ab34",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#ffffff",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          }
+        },
+        "disable": {
+          "primary": {
+            "background": "#bbbbbb",
+            "border": "#FFFFFF00",
+            "label": "#777777"
+          },
+          "neutral": {
+            "background": "#bbbbbb",
+            "border": "#FFFFFF00",
+            "label": "#777777"
+          }
+        },
+        "hover": {
+          "primary": {
+            "background": "#ef8426",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#f1f3f5",
+            "border": "#FFFFFF00",
+            "label": "#333333"
+          }
+        }
+      }
+    },
+    "outlined": {
+      "color": {
+        "enable": {
+          "primary": {
+            "background": "#ffffff",
+            "border": "#f4ab34",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#ffffff",
+            "border": "#bbbbbb",
+            "label": "#333333"
+          }
+        },
+        "disable": {
+          "primary": {
+            "background": "#ffffff",
+            "border": "#bbbbbb",
+            "label": "#bbbbbb"
+          },
+          "neutral": {
+            "background": "#ffffff",
+            "border": "#bbbbbb",
+            "label": "#bbbbbb"
+          }
+        },
+        "hover": {
+          "primary": {
+            "background": "#f1f3f5",
+            "border": "#ef8426",
+            "label": "#333333"
+          },
+          "neutral": {
+            "background": "#f1f3f5",
+            "border": "#777777",
+            "label": "#333333"
+          }
+        }
       }
     },
     "borderRadius": 28
