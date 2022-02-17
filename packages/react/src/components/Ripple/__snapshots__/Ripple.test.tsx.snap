@@ -13,6 +13,7 @@ Array [
   border-radius: 50%;
 }
 .wrapper-0-2-2 {
+  height: fit-content;
   outline: none;
   position: relative;
 }
@@ -66,6 +67,7 @@ Array [
   .wrapper-d0-0-2-7 {
     cursor: pointer;
     display: inline-block;
+    align-self: start;
   }
   .wrapper-d0-0-2-7:focus:after {
     background-color: #000000;
