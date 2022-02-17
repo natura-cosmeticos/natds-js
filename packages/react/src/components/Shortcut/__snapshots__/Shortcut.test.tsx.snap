@@ -1,0 +1,478 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Shortcut component should render correctly when is disabled 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-7 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-8 {
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-8:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-8:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-9 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-10 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-11 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-12 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-13 {
+    cursor: default;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-13:focus:after {  }
+  .wrapper-d0-0-2-13:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-14 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-15 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-16 {
+    animation: keyframes-ripple-0-2-12 300ms;
+  }
+  .base-0-2-5 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-5:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-6 {
+    height: 56px;
+    width: 56px;
+  }
+  .container-0-2-1 {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-0-2-2 {
+    border-radius: 28px;
+  }
+  .content-0-2-2:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .content-0-2-2:hover:not([disabled]) {  }
+  .labelText-0-2-3 {
+    color: #333333;
+    font-size: 12px;
+    margin-top: 8px;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    vertical-align: center;
+  }
+  .content-d0-0-2-4 {  }",
+  <div>
+    <span
+      class="container-0-2-1"
+    >
+      <div
+        class="wrapper-0-2-8 wrapper-d0-0-2-13"
+        data-testid="ripple-wrapper"
+        tabindex="-1"
+      >
+        <div
+          class="rippleContainer-0-2-10 rippleContainer-d2-0-2-15"
+        >
+          <div
+            class="ripple-0-2-9 ripple-d1-0-2-14 "
+            data-testid="ripple-animation"
+          />
+        </div>
+        <button
+          class=" content-0-2-2 content-d0-0-2-4 base-0-2-5 base-d0-0-2-6"
+          disabled=""
+          id="shortcut"
+          type="button"
+        >
+          <div />
+        </button>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`Shortcut component should render correctly with default props 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-7 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-8 {
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-8:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-8:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-9 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-10 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-11 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-12 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-13 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-13:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-13:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-14 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-15 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-16 {
+    animation: keyframes-ripple-0-2-12 300ms;
+  }
+  .base-0-2-5 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-5:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-6 {
+    height: 56px;
+    width: 56px;
+  }
+  .container-0-2-1 {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-0-2-2 {
+    border-radius: 28px;
+  }
+  .content-0-2-2:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .content-0-2-2:hover:not([disabled]) {  }
+  .labelText-0-2-3 {
+    color: #333333;
+    font-size: 12px;
+    margin-top: 8px;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    vertical-align: center;
+  }
+  .content-d0-0-2-4 {  }",
+  <div>
+    <span
+      class="container-0-2-1"
+    >
+      <div
+        class="wrapper-0-2-8 wrapper-d0-0-2-13"
+        data-testid="ripple-wrapper"
+        tabindex="-1"
+      >
+        <div
+          class="rippleContainer-0-2-10 rippleContainer-d2-0-2-15"
+        >
+          <div
+            class="ripple-0-2-9 ripple-d1-0-2-14 "
+            data-testid="ripple-animation"
+          />
+        </div>
+        <button
+          class=" content-0-2-2 content-d0-0-2-4 base-0-2-5 base-d0-0-2-6"
+          id="shortcut"
+          type="button"
+        >
+          <div />
+        </button>
+      </div>
+    </span>
+  </div>,
+]
+`;
+
+exports[`Shortcut component should render correctly with label 1`] = `
+Array [
+  ".sharedRippleEffect-0-2-7 {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-8 {
+  outline: none;
+  position: relative;
+}
+.wrapper-0-2-8:focus:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  opacity: 0.16;
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.wrapper-0-2-8:hover:after {
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  content: \\" \\";
+  z-index: -1;
+  position: absolute;
+  border-radius: 50%;
+}
+.ripple-0-2-9 {
+  opacity: 0;
+  position: absolute;
+  transform: translate(-50%, -50%);
+  border-radius: 50%;
+}
+.rippleContainer-0-2-10 {
+  inset: 0;
+  position: absolute;
+}
+.rippleActive-0-2-11 {
+  z-index: 99;
+}
+@keyframes keyframes-ripple-0-2-12 {
+  0% {
+    transform: translate(-50%, -50%) scale(0);
+  }
+  75% {
+    opacity: 0.12;
+    transform: translate(-50%, -50%) scale(1);
+  }
+  100% {
+    opacity: 0;
+    z-index: 0;
+  }
+}
+  .wrapper-d0-0-2-13 {
+    cursor: pointer;
+    display: inline-block;
+  }
+  .wrapper-d0-0-2-13:focus:after {
+    background-color: #000000;
+  }
+  .wrapper-d0-0-2-13:hover:after {
+    background-color: #000000;
+    opacity: 0;
+  }
+  .ripple-d1-0-2-14 {
+    background-color: #000000;
+    height: 0;
+    left: 50%;
+    top: 50%;
+    transition: scale opacity 300ms;
+    width: 0;
+  }
+  .rippleContainer-d2-0-2-15 {
+    overflow: hidden;
+  }
+  .rippleActive-d3-0-2-16 {
+    animation: keyframes-ripple-0-2-12 300ms;
+  }
+  .base-0-2-5 {
+    border: none;
+    cursor: pointer;
+    display: flex;
+    outline: none;
+    align-items: center;
+    justify-content: center;
+  }
+  .base-0-2-5:disabled {
+    cursor: default;
+  }
+  .base-d0-0-2-6 {
+    height: 56px;
+    width: 56px;
+  }
+  .labelContainer-0-2-17 {
+    color: #000000;
+    font-family: Helvetica Now Display, Arial;
+  }
+  .container-0-2-1 {
+    display: inline-flex;
+    align-items: center;
+    flex-direction: column;
+  }
+  .content-0-2-2 {
+    border-radius: 28px;
+  }
+  .content-0-2-2:disabled {
+    cursor: default;
+    box-shadow: none;
+  }
+  .content-0-2-2:hover:not([disabled]) {  }
+  .labelText-0-2-3 {
+    color: #333333;
+    font-size: 12px;
+    margin-top: 8px;
+    font-family: Roboto, Arial;
+    font-weight: 400;
+    letter-spacing: 0.38px;
+    vertical-align: center;
+  }
+  .content-d0-0-2-4 {  }",
+  <div>
+    <span
+      class="container-0-2-1"
+    >
+      <div
+        class="wrapper-0-2-8 wrapper-d0-0-2-13"
+        data-testid="ripple-wrapper"
+        tabindex="-1"
+      >
+        <div
+          class="rippleContainer-0-2-10 rippleContainer-d2-0-2-15"
+        >
+          <div
+            class="ripple-0-2-9 ripple-d1-0-2-14 "
+            data-testid="ripple-animation"
+          />
+        </div>
+        <button
+          class=" content-0-2-2 content-d0-0-2-4 base-0-2-5 base-d0-0-2-6"
+          id="shortcut"
+          type="button"
+        >
+          <div />
+        </button>
+      </div>
+      <label
+        class="labelText-0-2-3 labelContainer-0-2-17"
+        for="shortcut"
+      >
+        Shortcut label
+      </label>
+    </span>
+  </div>,
+]
+`;
