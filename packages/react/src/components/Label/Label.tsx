@@ -6,14 +6,15 @@ export interface LabelProps {
   htmlFor?: string
   label?: string
   required?: boolean
+  id?: string
 }
 
 const Label = React.forwardRef<HTMLLabelElement, LabelProps>(({
-  label, htmlFor, className, required
+  label, htmlFor, className, required, id
 }, ref) => {
   const { labelContainer } = styles()
   return (
-    <label htmlFor={htmlFor} className={`${className} ${labelContainer}`} ref={ref}>
+    <label id={id} htmlFor={htmlFor} className={`${className} ${labelContainer}`} ref={ref}>
       {label}
       {required && label && '*'}
     </label>
