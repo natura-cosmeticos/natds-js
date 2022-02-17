@@ -15,7 +15,7 @@ module.exports = {
   name,
   testEnvironment: 'jsdom',
   setupFilesAfterEnv: ['<rootDir>/setupTests.js'],
-  roots: ['<rootDir>/src', '<rootDir>/regression'],
+  roots: ['<rootDir>/src'],
   transform: {
     '^.+\\.[tj]sx?$': 'babel-jest',
     '^.+\\.mdx?$': '@storybook/addon-docs/jest-transform-mdx',

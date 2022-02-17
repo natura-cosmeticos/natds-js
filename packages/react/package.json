@@ -51,9 +51,8 @@
     "storybook": "start-storybook --no-manager-cache -p 6006",
     "test": "jest --testPathPattern=src --verbose",
     "test:ci": "jest  --testPathPattern=src --coverage && codecov -t",
-    "test:regression": "jest --testPathPattern=regression",
-    "test:watch": "jest --watch --detectOpenHandles",
-    "generate": "yarn plop --plopfile ./generators/plopfile.js"
+    "test:regression": "loki",
+    "test:watch": "jest --watch --detectOpenHandles"
   },
   "dependencies": {
     "@naturacosmeticos/natds-icons": "1.11.0",
