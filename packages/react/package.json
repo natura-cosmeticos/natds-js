@@ -51,7 +51,7 @@
     "storybook": "start-storybook --no-manager-cache -p 6006",
     "test": "jest --testPathPattern=src --verbose",
     "test:ci": "jest  --testPathPattern=src --coverage && codecov -t",
-    "test:regression": "jest --testPathPattern=regression",
+    "test:regression": "loki",
     "test:watch": "jest --watch --detectOpenHandles"
   },
   "dependencies": {
