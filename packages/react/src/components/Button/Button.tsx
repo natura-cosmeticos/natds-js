@@ -33,23 +33,21 @@ const Button = React.forwardRef<HTMLButtonElement, ButtonProps>(({
   const iconColor = theme.button[variant].color.enable.label as IconColor
 
   return (
-    <div className={className}>
-      <Ripple disabled={disabled} fullWidth={fullWidth}>
-        <button
-          className={button}
-          data-testid={testID}
-          disabled={disabled}
-          onClick={onClick}
-          type={type}
-          ref={ref}
-        >
-          <div className={labelContainer}>
-            <span className={label}>{children}</span>
-            {rest.showIcon && <Icon name={rest.iconName} color={iconColor} />}
-          </div>
-        </button>
-      </Ripple>
-    </div>
+    <Ripple disabled={disabled} fullWidth={fullWidth}>
+      <button
+        className={button}
+        data-testid={testID}
+        disabled={disabled}
+        onClick={onClick}
+        type={type}
+        ref={ref}
+      >
+        <div className={labelContainer}>
+          <span className={label}>{children}</span>
+          {rest.showIcon && <Icon name={rest.iconName} color={iconColor} />}
+        </div>
+      </button>
+    </Ripple>
   )
 })
 
